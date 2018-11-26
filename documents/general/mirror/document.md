@@ -21,11 +21,14 @@ Before you begin, you will need the following:
 To create a local mirror of all content (maps, skins, mods, etc) within the 
 archive, run the `unreal-archive` tool with the following parameters:
 
-    $ ./unreal-archive mirror /local/mirror/output --content-path=/path/to/unreal-archive-data
+    $ ./unreal-archive mirror /local/mirror/output --content-path=/path/to/unreal-archive-data --concurrency=5
 
 This will load all the content defined within the `unreal-archive-data` 
 repository, and then begin downloading all the actual files to the specified 
 `/local/mirror/output` directory.
+
+If you want to attempt tuning the concurrency, adjust the `--concurrency` 
+option's value. The default is 3.
 
 The entire process will take a while, depending on the size of the content 
 repository, available bandwidth, etc., but once completed, you'll have a 
