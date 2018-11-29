@@ -21,7 +21,9 @@ Before you begin, you will need the following:
 To create a local mirror of all content (maps, skins, mods, etc) within the 
 archive, run the `unreal-archive` tool with the following parameters:
 
-    $ ./unreal-archive mirror /local/mirror/output --content-path=/path/to/unreal-archive-data --concurrency=5
+```
+$ ./unreal-archive mirror /local/mirror/output --content-path=/path/to/unreal-archive-data --concurrency=5
+```
 
 This will load all the content defined within the `unreal-archive-data` 
 repository, and then begin downloading all the actual files to the specified 
@@ -50,7 +52,9 @@ Before you begin, you will need the following:
 To create a local mirror of the website, run the `unreal-archive` tool with the
 following parameters:
 
-    $ ./unreal-archive www /local/website/path --local-images=true --content-path=/path/to/unreal-archive-data
+```
+$ ./unreal-archive www /local/website/path --local-images=true --content-path=/path/to/unreal-archive-data
+```
 
 This will generate a copy of the website, within the directory specified by 
 `/local/website/path`. The option `--local-images=true` will also download all 
