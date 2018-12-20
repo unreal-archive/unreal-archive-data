@@ -96,10 +96,10 @@ Version 451 is completely network compatible with all previous public releases o
 Version 440 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, 413, 420, 425, 428, 432 and 436). Server requires clients to be at least version 432.
 
 - Implemented fixes provided by Epic to resolve exploit holes in UT Core files.
-  - Resource "lunch" bug fixed
-  - DoS bug fixed
-  - Fake Player bug fixed
-  - GameSpy Query loop
+ - Resource "lunch" bug fixed
+ - DoS bug fixed
+ - Fake Player bug fixed
+ - GameSpy Query loop
 - Added Team information to query protocol
 - Fixed backslahes in status query replies
 - Fixed mutator listing in status query replies
