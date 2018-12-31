@@ -14,9 +14,10 @@ Both are supported by the `unreal-archive` tool.
 
 Before you begin, you will need the following:
 
-1. Download the `unreal-archive` tool
-2. Download or clone the `unreal-archive-data` git repository
-3. Several hundred GB free disk space
+1. Java 8 JRE
+2. Download the `unreal-archive` tool
+3. Download or clone the `unreal-archive-data` git repository
+4. Several hundred GB free disk space
 
 To create a local mirror of all content (maps, skins, mods, etc) within the 
 archive, run the `unreal-archive` tool with the following parameters:
