@@ -2,7 +2,7 @@
 
 ## Variables set by CI
 #   PUB_USER  - username for PUB_KEY
-#   PUB_KEY   - SSH private key for PUB_USER (replace newlines with literal string "\n")
+#   PUB_KEY   - SSH private key for PUB_USER (base64 encoded, then newlines replaced with "-")
 #   PUB_HOST  - host to rsync files to
 #   PUB_ROOT  - path on PUB_HOST to upload files to
 
@@ -28,7 +28,7 @@ ${UA_BIN} www ${WWW_LOCATION} --content-path=$1 --store=NOP
 # prepare private key
 echo "Preparing upload credentials"
 set +x
-echo ${PUB_KEY} | sed 's/\\\n/\n/g' > /tmp/deploy_key
+echo ${PUB_KEY} | sed 's/-/\n/g' | base64 --decode > /tmp/deploy_key
 chmod 600 /tmp/deploy_key
 set -x
 
