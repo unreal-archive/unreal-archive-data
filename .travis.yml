@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - openjdk8
+
+addons:
+  ssh_known_hosts:
+  - $PUB_HOST
+  - $PUB_HOST_IP
+
+deploy:
+  provider: script
+  script: bin/publish.sh ./
+  on:
+    branch: master
