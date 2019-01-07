@@ -6,7 +6,7 @@
 #   PUB_HOST  - host to rsync files to
 #   PUB_ROOT  - path on PUB_HOST to upload files to
 
-UA_VERSION=4
+UA_VERSION=latest
 UA_BIN=/tmp/unreal-archive
 
 WWW_LOCATION=/tmp/ua-www
