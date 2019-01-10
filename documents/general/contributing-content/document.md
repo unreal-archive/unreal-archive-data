@@ -1,4 +1,4 @@
-# Contribution Guide
+# Content Contribution Guide
 
 The Unreal Archive currently consists of three main content types:
 
