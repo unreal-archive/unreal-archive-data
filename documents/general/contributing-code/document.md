@@ -40,7 +40,7 @@ which can be done with the following commands in Bash or your favourite shell,
 within the project root directory:
 
 ```bash
-# rebuild builds the project
+# build the project
 $ ant
 # rebuild website
 $ ./dist/unreal-archive www /path/to/output --content-path=./unreal-archive-data --store=NOP
