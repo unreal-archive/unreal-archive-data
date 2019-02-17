@@ -12,7 +12,7 @@ UA_BIN=/tmp/unreal-archive
 
 WWW_LOCATION=/tmp/ua-www
 
-STATIC_ROOT="${SITE_URL}/static"
+export STATIC_ROOT="${SITE_URL}/static"
 
 set -e
 
