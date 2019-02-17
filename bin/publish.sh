@@ -5,11 +5,14 @@
 #   PUB_KEY   - SSH private key for PUB_USER (base64 encoded, then newlines replaced with "-")
 #   PUB_HOST  - host to rsync files to
 #   PUB_ROOT  - path on PUB_HOST to upload files to
+#   SITE_URL  - published website root url
 
 UA_VERSION=latest
 UA_BIN=/tmp/unreal-archive
 
 WWW_LOCATION=/tmp/ua-www
+
+STATIC_ROOT="${SITE_URL}/static"
 
 set -e
 
