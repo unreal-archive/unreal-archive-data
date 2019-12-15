@@ -1,6 +1,6 @@
 ## Contents
 
-  - [Introduction](#Intro)
+  - [Introduction](#Introduction)
   - [The Lazy Mans Guide](#LazyMan)
   - [Some Advice to Start With](#Advice)
   - [The Three Mod Types](#Three)
