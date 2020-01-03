@@ -18,5 +18,5 @@ if [ ! -f ${UA_BIN} ]; then
 fi
 
 # post documents to search index
-echo "Verify content"
+echo "Submit to search index"
 ${UA_BIN} search-submit --content-path=$1 --store=NOP
