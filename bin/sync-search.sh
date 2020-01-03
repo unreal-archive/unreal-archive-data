@@ -10,6 +10,9 @@ UA_BIN=/tmp/unreal-archive
 
 set -e
 
+# TODO only continue it content hash has changed - don't re-index on every build
+#CONTENT_HASH=$(find ./content -type f -print0 | sort -z | xargs -0 sha1sum | sha1sum | cut -d' ' -f1)
+
 # download unreal-archive binary
 if [ ! -f ${UA_BIN} ]; then
   echo "Downloading unreal-archive binary"
