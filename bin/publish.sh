@@ -26,7 +26,10 @@ fi
 # execute unreal-archive www command
 echo "Building static content"
 mkdir -p ${WWW_LOCATION}
-${UA_BIN} www ${WWW_LOCATION} --content-path=$1 --store=NOP
+${UA_BIN} www ${WWW_LOCATION} --content-path=$1 --store=NOP \
+  --with-search=true \
+  --with-latest=true \
+  --with-submit=true
 
 # prepare private key
 echo "Preparing upload credentials"

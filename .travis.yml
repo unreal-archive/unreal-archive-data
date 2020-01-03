@@ -17,4 +17,6 @@ jobs:
     - stage: publish
       script: bin/publish.sh ./
       if: branch = master AND type IN (push, api)
-
+    - stage: sync-search
+      script: bin/sync-search.sh ./
+      if: branch = master AND type IN (push, api)
