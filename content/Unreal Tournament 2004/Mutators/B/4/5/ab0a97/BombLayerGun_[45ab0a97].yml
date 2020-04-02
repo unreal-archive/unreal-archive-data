@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:45"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "BombLayerGun"
+author: "Unknown"
+description: "Replaces all BioRifles and GrenadeLaunchers with the BombLayer which\
+  \ shoots highly explosive bombs with an alternate 4 second delay.By RamPage."
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "BombLayerGun_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/BombLayerGun_shot_1.png"
+originalFilename: "BombLayer.zip"
+hash: "45ab0a9702207678e288072b9a6f93861d1c7f55"
+fileSize: 408993
+files:
+- name: "BombLayer.u"
+  fileSize: 54684
+  hash: "f8184dbc0e4ed0529298d9a31d883eb0891efc57"
+otherFiles: 3
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/BombLayer.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "BombLayerGun"
+  description: "Replaces all BioRifles and GrenadeLaunchers with the BombLayer which\
+    \ shoots highly explosive bombs with an alternate 4 second delay.By RamPage."
+weapons:
+- name: "BombLayer"
+  description: "The BombLayer fires  bombs which will explode on contact to players\
+    \ and vehicles, primary fire explodes once the bomb hits the ground, Alt fire\
+    \ has a 3 second delay to give you enough time to move out."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

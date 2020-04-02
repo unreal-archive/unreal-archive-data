@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:40"
+variationOf: "4228c554aa6db79d2f2c00d5d7ee2508f3bcf36c"
+game: "Unreal Tournament"
+name: "Disable Auto-Activate"
+author: "Unknown"
+description: "UT enables auto-activation for all items. Use this mutator to disable\
+  \ that feature on maps with Unreal items."
+releaseDate: "2003-09"
+attachments: []
+originalFilename: "EnhancedItemsSource.zip"
+hash: "48914a65f6fd47860115a9080d52c979365d0cd3"
+fileSize: 450016
+files:
+- name: "MIConverter.u"
+  fileSize: 7925
+  hash: "9a3efeeb59a7cfa7984e38d2698a6f3124818c36"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+- name: "EITextures.utx"
+  fileSize: 990965
+  hash: "fd1cb786cd9e99ae1076257f1f97a940cce27a25"
+- name: "EIChallengeHUD.u"
+  fileSize: 227913
+  hash: "2db24225c36f4cd1ca58668e3add046701b52388"
+otherFiles: 4
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/D/EnhancedItemsSource.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=EnhancedItemsSource.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
