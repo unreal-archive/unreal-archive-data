@@ -28,6 +28,28 @@ files:
   fileSize: 370969
   hash: "e38378f1258690cd9c0be1211055de44f58af8f1"
 otherFiles: 1
+dependencies:
+  DmCanyon.unr:
+  - status: "OK"
+    name: "CanyonMODS"
+    providedBy: null
+  - status: "MISSING"
+    name: "HighestPointTrigger"
+    providedBy: null
+  - status: "OK"
+    name: "DMmonsters"
+    providedBy: null
+  - status: "MISSING"
+    name: "hub2"
+    providedBy: null
+  DMmonsters.u:
+  - status: "OK"
+    name: "DM-Monsters"
+    providedBy: null
+  CanyonMODS.u:
+  - status: "OK"
+    name: "CanyonSOUNDS"
+    providedBy: null
 downloads:
 - url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=DmCanyon.zip"
   main: false
@@ -55,3 +77,4 @@ themes:
   Ancient: 0.1
   Natural: 0.1
   Nali Castle: 0.6
+bots: false

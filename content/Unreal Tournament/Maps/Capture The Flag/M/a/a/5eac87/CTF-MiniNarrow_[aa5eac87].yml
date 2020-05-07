@@ -19,6 +19,14 @@ files:
   fileSize: 530209
   hash: "bea62795d45368e94593efabed22f31cf845efa4"
 otherFiles: 1
+dependencies:
+  CTF-MiniNarrow.unr:
+  - status: "OK"
+    name: "{ROS} Clan"
+    providedBy: null
+  - status: "MISSING"
+    name: "TFESanity16000Stereo"
+    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-mininarrow.zip"
   main: false
@@ -37,3 +45,4 @@ gametype: "Capture The Flag"
 title: "CTF-MiniNarrow"
 playerCount: "Unknown"
 themes: {}
+bots: false

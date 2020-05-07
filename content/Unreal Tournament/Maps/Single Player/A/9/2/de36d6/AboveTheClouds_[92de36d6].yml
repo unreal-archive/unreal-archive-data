@@ -25,6 +25,21 @@ files:
   fileSize: 387890
   hash: "5becc818f8cc3e13bbc2c4def11058376e00f608"
 otherFiles: 2
+dependencies:
+  AboveTheClouds.unr:
+  - status: "OK"
+    name: "AboveTheCloudsScripts"
+    providedBy: null
+  - status: "OK"
+    name: "Atmosphere"
+    providedBy: null
+  AboveTheCloudsScripts.u:
+  - status: "MISSING"
+    name: "oldskool"
+    providedBy: null
+  - status: "MISSING"
+    name: "olroot"
+    providedBy: null
 downloads:
 - url: "http://unreal.ut-files.com/index.php?dir=Maps/COOP/&file=abovetheclouds-demo-utsp.zip"
   main: false
@@ -47,3 +62,4 @@ gametype: "Single Player"
 title: "Above the Clouds"
 playerCount: "Unknown"
 themes: {}
+bots: false

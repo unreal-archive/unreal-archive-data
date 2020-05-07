@@ -34,6 +34,18 @@ files:
   fileSize: 10139373
   hash: "0fed1fb88ce5b449344547840160a975e4681d4c"
 otherFiles: 4
+dependencies:
+  HW-Asgard-Objects.usx:
+  - status: "OK"
+    name: "HW-Asgard"
+    providedBy: null
+  DM-HW-Asgard.ut2:
+  - status: "OK"
+    name: "HW-Asgard-Objects"
+    providedBy: null
+  - status: "OK"
+    name: "HW-Asgard"
+    providedBy: null
 downloads:
 - url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7132"
   main: false
@@ -52,3 +64,4 @@ gametype: "DeathMatch"
 title: "DM-HW-Asgard"
 playerCount: "Unknown"
 themes: {}
+bots: false

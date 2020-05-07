@@ -35,6 +35,25 @@ files:
   fileSize: 6730325
   hash: "72dec31a4d745f0a87c9cd6d2479749ebd18d41c"
 otherFiles: 1
+dependencies:
+  MyPackage.usx:
+  - status: "OK"
+    name: "Ramses"
+    providedBy: null
+  DSjunkmesh.usx:
+  - status: "MISSING"
+    name: "DSjunktex"
+    providedBy: null
+  DM-RamsesPalace.ut2:
+  - status: "OK"
+    name: "Ramses"
+    providedBy: null
+  - status: "OK"
+    name: "DSjunkmesh"
+    providedBy: null
+  - status: "OK"
+    name: "MyPackage"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/ramsespalace.zip"
   main: true
@@ -53,3 +72,4 @@ themes:
   Egyptian: 0.6
   Ancient: 0.1
   Natural: 0.2
+bots: false

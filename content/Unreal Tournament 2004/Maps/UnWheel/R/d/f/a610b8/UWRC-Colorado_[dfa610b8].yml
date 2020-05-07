@@ -25,6 +25,30 @@ files:
   fileSize: 14506856
   hash: "28da3ea2b40d90f47d720d9f277f5cd7d73833a0"
 otherFiles: 1
+dependencies:
+  UWRC-Colorado.ut2:
+  - status: "MISSING"
+    name: "UnWheel"
+    providedBy: null
+  - status: "MISSING"
+    name: "UWDecoMesh"
+    providedBy: null
+  - status: "OK"
+    name: "UW_SMDecoMesh"
+    providedBy: null
+  - status: "MISSING"
+    name: "UnWheelBuildingMesh"
+    providedBy: null
+  - status: "OK"
+    name: "UW_SMTextures01"
+    providedBy: null
+  - status: "MISSING"
+    name: "UnWheelMappingTextures"
+    providedBy: null
+  UW_SMDecoMesh.usx:
+  - status: "OK"
+    name: "UW_SMTextures01"
+    providedBy: null
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=UWRC_Colorado.zip"
   main: false
@@ -44,3 +68,4 @@ title: "UWRC-Colorado"
 playerCount: "1-6"
 themes:
   Industrial: 1.0
+bots: false
