@@ -73,6 +73,90 @@ files:
   fileSize: 123169
   hash: "b230f73c554261be48eacdabf42676011aa0852c"
 otherFiles: 18
+dependencies:
+  INF_Admin.u:
+  - status: "OK"
+    name: "INF_Core"
+    providedBy: null
+  - status: "OK"
+    name: "InfiltrationUT"
+    providedBy: null
+  INF_Menu.u:
+  - status: "OK"
+    name: "INF_Core"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Fonts"
+    providedBy: null
+  - status: "OK"
+    name: "InfiltrationUT"
+    providedBy: null
+  INF_Assets2.u:
+  - status: "MISSING"
+    name: "INF_Assets"
+    providedBy: null
+  INF_Mapping.u:
+  - status: "MISSING"
+    name: "INF_Assets"
+    providedBy: null
+  INF_Core.u:
+  - status: "OK"
+    name: "INF_Mapping"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Decorations"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Assets"
+    providedBy: null
+  - status: "OK"
+    name: "INF_Assets2"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Base"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Pawns"
+    providedBy: null
+  - status: "MISSING"
+    name: "InfAdds"
+    providedBy: null
+  INF_Lite.u:
+  - status: "MISSING"
+    name: "INF_Assets"
+    providedBy: null
+  - status: "OK"
+    name: "INF_Menu"
+    providedBy: null
+  - status: "OK"
+    name: "INF_Core"
+    providedBy: null
+  - status: "OK"
+    name: "INF_Assets2"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Base"
+    providedBy: null
+  INF_Console.u:
+  - status: "OK"
+    name: "INF_Menu"
+    providedBy: null
+  - status: "OK"
+    name: "INF_Core"
+    providedBy: null
+  - status: "OK"
+    name: "InfiltrationUT"
+    providedBy: null
+  InfiltrationUT.u:
+  - status: "OK"
+    name: "INF_Mapping"
+    providedBy: null
+  - status: "OK"
+    name: "INF_Core"
+    providedBy: null
+  - status: "MISSING"
+    name: "InfAdds"
+    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Gametypes/GTX&file=Infiltration285-Patch2-MAN.zip"
   main: false

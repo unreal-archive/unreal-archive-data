@@ -34,6 +34,31 @@ files:
   fileSize: 24491
   hash: "d4bd7bb684da313b096b9ef1e4270a8d0c7cb0b7"
 otherFiles: 5
+dependencies:
+  ee_atlas.u:
+  - status: "OK"
+    name: "ee_atlas_skn"
+    providedBy: null
+  - status: "OK"
+    name: "ee_atlas_gfx"
+    providedBy: null
+  - status: "MISSING"
+    name: "ee_atlas_anm"
+    providedBy: null
+  - status: "OK"
+    name: "ee_atlas_msh"
+    providedBy: null
+  ee_atlas_skn.utx:
+  - status: "OK"
+    name: "ee_atlas_gfx"
+    providedBy: null
+  ee_atlas_msh.usx:
+  - status: "OK"
+    name: "ee_atlas_skn"
+    providedBy: null
+  - status: "OK"
+    name: "ee_atlas_gfx"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/E/atlas100.exe"
   main: true

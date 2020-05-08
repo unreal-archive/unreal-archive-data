@@ -31,6 +31,31 @@ files:
   fileSize: 230516
   hash: "6f4102d4776d4e526c08964eed7f2e46fe0fe863"
 otherFiles: 7
+dependencies:
+  ServerExtClientB.u:
+  - status: "OK"
+    name: "LibHTTP3_5"
+    providedBy: null
+  ServerExt.u:
+  - status: "OK"
+    name: "LibHTTP3_5"
+    providedBy: null
+  - status: "OK"
+    name: "wutils105"
+    providedBy: null
+  - status: "OK"
+    name: "ServerExtClientA"
+    providedBy: null
+  - status: "OK"
+    name: "ServerExtClientB"
+    providedBy: null
+  ServerExtOL.u:
+  - status: "OK"
+    name: "ServerExt"
+    providedBy: null
+  - status: "MISSING"
+    name: "OLStats"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/ServerExt-v107.zip"
   main: true
