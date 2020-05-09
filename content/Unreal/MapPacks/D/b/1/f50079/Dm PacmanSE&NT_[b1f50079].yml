@@ -1,0 +1,163 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2020-05-09 10:21"
+variationOf: null
+game: "Unreal"
+name: "Dm PacmanSE&NT"
+author: "UnLeaded"
+description: "None"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "Dm-PacmanSE&NT.zip"
+hash: "b1f500790aca575c670a11c71733f53be3c8b09c"
+fileSize: 3934853
+files:
+- name: "CCSpecials.u"
+  fileSize: 181562
+  hash: "d8d20c16c4ecd3a176958738e8a9f155a93ac834"
+- name: "ElectricityZone.u"
+  fileSize: 96400
+  hash: "5062149ad88f2609706ac9de312f6d42ff770d83"
+- name: "CC-PM.utx"
+  fileSize: 1022658
+  hash: "6b091304f25473c66b17ae167a460c0df8da50e2"
+- name: "CCGems.u"
+  fileSize: 1244046
+  hash: "45c015900f7de3c9267f69d405331bbab51a2576"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "Dm-PacManNT.unr"
+  fileSize: 3503840
+  hash: "b72307f32853fa3c065e3ace303f5dfefe894b86"
+- name: "JUMPPAD.U"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "DMPacManStart.u"
+  fileSize: 54952
+  hash: "a94552c6277a7a3cc4dca1796d74e9b1f55c40a4"
+- name: "Dm-PacManSE.unr"
+  fileSize: 3503503
+  hash: "1bbe6300a287d7df0320355d7460dc54ce138f2e"
+- name: "PacManStart.u"
+  fileSize: 78176
+  hash: "b53a1500eec7de0f5aecaae050cf8116c4cc4602"
+- name: "CCItems.u"
+  fileSize: 1514494
+  hash: "3dea4307c32c5fa5bfbe6abc89c073574b7414e4"
+- name: "Crystal.u"
+  fileSize: 387546
+  hash: "6359535ce9eced760df4d40082a1dcaf7481b2d1"
+- name: "Mag60.u"
+  fileSize: 186145
+  hash: "5406848746ce29a37b57bc541be4748b641b25ae"
+- name: "Pellets.u"
+  fileSize: 6509
+  hash: "56df05d5c53d2f132abe85b5d87da189e3bfbe4d"
+- name: "CCWeapons.u"
+  fileSize: 1254474
+  hash: "5872c06e09116ba946121cb263e23ae022d8bd32"
+otherFiles: 1
+dependencies:
+  CCGems.u:
+  - status: "OK"
+    name: "CCWeapons"
+    providedBy: null
+  DMPacManStart.u:
+  - status: "OK"
+    name: "Mag60"
+    providedBy: null
+  Dm-PacManSE.unr:
+  - status: "OK"
+    name: "CCSpecials"
+    providedBy: null
+  - status: "OK"
+    name: "DMPacManStart"
+    providedBy: null
+  - status: "OK"
+    name: "CC-PM"
+    providedBy: null
+  - status: "OK"
+    name: "Mag60"
+    providedBy: null
+  - status: "OK"
+    name: "PacManStart"
+    providedBy: null
+  - status: "OK"
+    name: "JumpPad"
+    providedBy: null
+  - status: "OK"
+    name: "CCItems"
+    providedBy: null
+  - status: "OK"
+    name: "ElectricityZone"
+    providedBy: null
+  - status: "OK"
+    name: "Pellets"
+    providedBy: null
+  Crystal.u:
+  - status: "OK"
+    name: "CCItems"
+    providedBy: null
+  - status: "OK"
+    name: "CCGems"
+    providedBy: null
+  - status: "OK"
+    name: "CCWeapons"
+    providedBy: null
+  Dm-PacManNT.unr:
+  - status: "OK"
+    name: "CCSpecials"
+    providedBy: null
+  - status: "OK"
+    name: "DMPacManStart"
+    providedBy: null
+  - status: "OK"
+    name: "CC-PM"
+    providedBy: null
+  - status: "OK"
+    name: "Mag60"
+    providedBy: null
+  - status: "OK"
+    name: "PacManStart"
+    providedBy: null
+  - status: "OK"
+    name: "JumpPad"
+    providedBy: null
+  - status: "OK"
+    name: "CCItems"
+    providedBy: null
+  - status: "OK"
+    name: "ElectricityZone"
+    providedBy: null
+  - status: "OK"
+    name: "Pellets"
+    providedBy: null
+  PacManStart.u:
+  - status: "OK"
+    name: "CCItems"
+    providedBy: null
+  CCSpecials.u:
+  - status: "MISSING"
+    name: "LoadBias"
+    providedBy: null
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=Dm-PacmanSE%26NT.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/b/1/f50079/Dm-PacmanSE%26NT.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "Dm-PacManSE"
+  title: "Pac-Man"
+  author: "UnLeaded"
+- name: "Dm-PacManNT"
+  title: "Pac-Man"
+  author: "UnLeaded"
+gametype: "DeathMatch"
+themes:
+  Ancient: 1.0
