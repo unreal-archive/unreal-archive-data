@@ -1,0 +1,87 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-05-09 17:00"
+variationOf: null
+game: "Unreal Tournament"
+name: " ..TallyHo!.."
+author: "Unknown"
+description: "[ hunt prey. shoot prey. stay alive. ]"
+releaseDate: "2006-07"
+attachments: []
+originalFilename: "TallyHo_NoUmod.zip"
+hash: "ec7c7b3d35e1500f48aef06040b16e1f93cc55cd"
+fileSize: 8284638
+files:
+- name: "_oWo_104a.u"
+  fileSize: 1506
+  hash: "2a737392a4887481a4925babf9419060499d74b5"
+- name: "TallyhoBots.u"
+  fileSize: 2172477
+  hash: "83813c4128fe00e801ff778065bb6aa01c4b4d49"
+- name: "MonstersDemo1.u"
+  fileSize: 4106075
+  hash: "c0289da72ee24c3a74fde065f78531008789d8b0"
+- name: "_Owo_tallyhopkg_104a.u"
+  fileSize: 234178
+  hash: "82c57271b2f7d6a2c6252502452bdf34834954d7"
+- name: "_owo_tallyho_104a.u"
+  fileSize: 111702
+  hash: "6e773f54894d8947285330a4a522ea8cd9b06caf"
+- name: "MonstersDemo2.u"
+  fileSize: 4721946
+  hash: "9faa7cc8c6bb5253717c82f66b3af195b0d6b99c"
+- name: "_oWo_TallyHoSfx_104a.u"
+  fileSize: 473869
+  hash: "3bf2bd170a581112a6a777f355e9b07fcb901312"
+otherFiles: 2
+dependencies:
+  _Owo_tallyhopkg_104a.u:
+  - status: "OK"
+    name: "MonstersDemo1"
+    providedBy: null
+  - status: "OK"
+    name: "MonstersDemo2"
+    providedBy: null
+  - status: "OK"
+    name: "_owo_104a"
+    providedBy: null
+  - status: "OK"
+    name: "TallyhoBots"
+    providedBy: null
+  _owo_tallyho_104a.u:
+  - status: "OK"
+    name: "MonstersDemo1"
+    providedBy: null
+  - status: "OK"
+    name: "MonstersDemo2"
+    providedBy: null
+  - status: "OK"
+    name: "_Owo_tallyhopkg_104a"
+    providedBy: null
+  - status: "OK"
+    name: "_oWo_tallyhosfx_104a"
+    providedBy: null
+  - status: "OK"
+    name: "TallyhoBots"
+    providedBy: null
+  MonstersDemo2.u:
+  - status: "OK"
+    name: "MonstersDemo1"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/TallyHo&file=TallyHo_NoUmod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/T/e/c/7c7b3d/TallyHo_NoUmod.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: " ..TallyHo!.."
+  description: "[ hunt prey. shoot prey. stay alive. ]"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
