@@ -1,0 +1,173 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-08-04 20:14"
+variationOf: null
+game: "Unreal Tournament"
+name: "MH-AirportTerror(SB)"
+author: "Werner Poetzelberger/Conversion to MH by Barbie"
+description: "Take Care it could hurt!"
+releaseDate: "2020-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-airportterrorsb_shot_1ccd2bf1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/A/1/c/cd2bf1/mh-airportterrorsb_shot_1ccd2bf1_1.png"
+- type: "IMAGE"
+  name: "mh-airportterrorsb_shot_1ccd2bf1_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/A/1/c/cd2bf1/mh-airportterrorsb_shot_1ccd2bf1_2.png"
+originalFilename: "MH-AirportTerror(SB).7z"
+hash: "1ccd2bf1c774da1e66b221afcb60c60824616478"
+fileSize: 30245913
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Stardust.umx"
+  fileSize: 58591
+  hash: "8ca7d23e07c2751679ecfeb06ef575557358fc0f"
+- name: "Tarwel.umx"
+  fileSize: 412030
+  hash: "c4f8062590b0f852c675433ea484bf2d0184807b"
+- name: "SBBeepTriggerV1.u"
+  fileSize: 2383
+  hash: "03c734f56269d821babda2a018b7e2555a2ce9ef"
+- name: "Animal_Pack1.u"
+  fileSize: 2192402
+  hash: "08067207103da3bef9656aa1ffafd23a105632d2"
+- name: "TodDevilfish.umx"
+  fileSize: 152789
+  hash: "a68167b8da66ec39ad322d52b07cceb73aee4d45"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "pb_totalizator.umx"
+  fileSize: 323167
+  hash: "071a09ce4485bee80f8986975d05383f362bf621"
+- name: "MH-AirportTerror(SB).unr"
+  fileSize: 5377821
+  hash: "48d93d4e6bac8635d9ff829427b254deb0484cd0"
+- name: "SBPropertyChangerV0.u"
+  fileSize: 5389
+  hash: "3bbd8f40310c65c8e642a02bd785090f549d3568"
+- name: "AbandonX.umx"
+  fileSize: 197183
+  hash: "74247de148e112fd1582d15fec576da9d4743c40"
+- name: "Adrenali.umx"
+  fileSize: 349041
+  hash: "ffa14e83828c103e9c3353ede5ab11e0e99221c8"
+- name: "LPSigns01.utx"
+  fileSize: 1126700
+  hash: "f733718819fd943378b923ab9c4ee2c79e355a37"
+- name: "Humane.u"
+  fileSize: 62341
+  hash: "ac5a0ae2d4bac9297c22edc21ba86ac61b02933d"
+- name: "LPDecoTex01.utx"
+  fileSize: 3197984
+  hash: "c9fc0e51b753b3d897b85bdb4d8e41e8a71d2e1c"
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "AirportSB.uax"
+  fileSize: 1766056
+  hash: "0808b635f3b17ec125256eaa4c91023ef57224bd"
+- name: "SBHumaneFixesV0.u"
+  fileSize: 34542
+  hash: "3282a565f729f08de6a27f3a32254f372168c8d6"
+- name: "commandoskins_grants.utx"
+  fileSize: 1596502
+  hash: "b36761a2c9be48a984f526dddf15b5109f2f5420"
+- name: "SBDynamicAmbientSoundV0.u"
+  fileSize: 5590
+  hash: "f2a4bb523a02d82b420bf6b95723d41fbdc901b5"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "LPCityDecos01.u"
+  fileSize: 281265
+  hash: "1d5e03bccd3edc9abcff8230bf4871e9d1723f36"
+otherFiles: 3
+dependencies:
+  SBHumaneFixesV0.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+    providedBy: null
+  - status: "OK"
+    name: "Humane"
+    providedBy: null
+  Humane.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+    providedBy: null
+  LPCityDecos01.u:
+  - status: "OK"
+    name: "LPSigns01"
+    providedBy: null
+  - status: "OK"
+    name: "LPDecoTex01"
+    providedBy: null
+  MH-AirportTerror(SB).unr:
+  - status: "OK"
+    name: "Adrenali"
+    providedBy: null
+  - status: "OK"
+    name: "UTtech4"
+    providedBy: null
+  - status: "OK"
+    name: "AirportSB"
+    providedBy: null
+  - status: "OK"
+    name: "LPDecoTex01"
+    providedBy: null
+  - status: "OK"
+    name: "DoorsSnd"
+    providedBy: null
+  - status: "OK"
+    name: "Tarwel"
+    providedBy: null
+  - status: "OK"
+    name: "SBPropertyChangerV0"
+    providedBy: null
+  - status: "OK"
+    name: "pb_totalizator"
+    providedBy: null
+  - status: "OK"
+    name: "LPCityDecos01"
+    providedBy: null
+  - status: "OK"
+    name: "SBBeepTriggerV1"
+    providedBy: null
+  - status: "OK"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "SBHumaneFixesV0"
+    providedBy: null
+  - status: "OK"
+    name: "AbandonX"
+    providedBy: null
+  - status: "OK"
+    name: "TodDevilfish"
+    providedBy: null
+  - status: "OK"
+    name: "Animal_Pack1"
+    providedBy: null
+  - status: "OK"
+    name: "Ambient"
+    providedBy: null
+  - status: "OK"
+    name: "SBDynamicAmbientSoundV0"
+    providedBy: null
+  - status: "OK"
+    name: "Stardust"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/A/1/c/cd2bf1/MH-AirportTerror(SB).7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Airport Terrorist Massacre"
+playerCount: "2-6"
+themes:
+  Industrial: 0.9
+bots: true
