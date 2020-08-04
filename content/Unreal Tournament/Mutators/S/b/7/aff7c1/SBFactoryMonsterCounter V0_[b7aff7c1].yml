@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-08-04 21:23"
+variationOf: null
+game: "Unreal Tournament"
+name: "SBFactoryMonsterCounter V0"
+author: "Unknown"
+description: " adds a counter for every monster factory"
+releaseDate: "2020-06"
+attachments:
+- type: "IMAGE"
+  name: "sbfactorymonstercounter-v0_shot_b7aff7c1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/S/b/7/aff7c1/sbfactorymonstercounter-v0_shot_b7aff7c1_1.png"
+- type: "IMAGE"
+  name: "sbfactorymonstercounter-v0_shot_b7aff7c1_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/S/b/7/aff7c1/sbfactorymonstercounter-v0_shot_b7aff7c1_2.png"
+originalFilename: "SBFactoryMonsterCounterV0.7z"
+hash: "b7aff7c172fee68a1d25aa46673821353eedbdad"
+fileSize: 44762
+files:
+- name: "SBFactoryMonsterCounterV0.u"
+  fileSize: 17182
+  hash: "0753eff2c4ac851e2609c470912bc25d876c13da"
+- name: "SBCounterV3.u"
+  fileSize: 10756
+  hash: "e6f60b432dc8edcd91727c88893b5a0e5a2a7ad6"
+otherFiles: 7
+dependencies:
+  SBFactoryMonsterCounterV0.u:
+  - status: "OK"
+    name: "SBCounterV3"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/b/7/aff7c1/SBFactoryMonsterCounterV0.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "SBFactoryMonsterCounter V0"
+  description: " adds a counter for every monster factory"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
