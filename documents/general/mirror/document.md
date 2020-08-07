@@ -11,12 +11,12 @@ Both are supported by the `unreal-archive` tool.
 Before you begin, you will need the following:
 
 1. Java 11 JRE
-  - for Linux, install OpenJDK 11 JRE using your package manager
-  - for windows, I would recommend [Azul's Zulu Community Edition JRE](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jre)
+   - for Linux, install OpenJDK 11 JRE using your package manager
+   - for windows, I would recommend [Azul's Zulu Community Edition JRE](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jre)
 2. Download the `unreal-archive` tool
-  - the latest can always be [downloaded here](https://code.shrimpworks.za.net/artefacts/unreal-archive/latest/)
-  - on Linux, you may download the `unreal-archive` binary, and make it executable via `chmod +x unreal-archive`
-  - for Windows, download `unreal-archive-exec.jar`
+   - the latest can always be [downloaded here](https://code.shrimpworks.za.net/artefacts/unreal-archive/latest/)
+   - on Linux, you may download the `unreal-archive` binary, and make it executable via `chmod +x unreal-archive`
+   - for Windows, download `unreal-archive-exec.jar`
 3. Several hundred GB free disk space and data transfer capacity
 
 To create a local mirror of all content (maps, skins, mods, etc) within the 
