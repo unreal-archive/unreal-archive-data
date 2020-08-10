@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-08-09 11:36"
+variationOf: "21b9f867c2144ddb28a93ca35a0ea444a3a1e0ed"
+game: "Unreal Tournament 2004"
+name: "Ripjack Replacer"
+author: "using the"
+description: "Replace a weapon of your choice with the Ripjack."
+releaseDate: "2005-06"
+attachments: []
+originalFilename: "RipJack.7z"
+hash: "17cb0d24e9fd67b0df534f5cd6ae185bc8c1751d"
+fileSize: 1532355
+files:
+- name: "Ripjack.u"
+  fileSize: 65959
+  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
+- name: "ripjackSounds.uax"
+  fileSize: 594868
+  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
+- name: "ripjackSM.usx"
+  fileSize: 378267
+  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
+- name: "ripjackTex.utx"
+  fileSize: 3030389
+  hash: "21be7b3b41eae9e4b98974e0dee442ec1bd1e3d3"
+- name: "ripjackAnim.ukx"
+  fileSize: 660717
+  hash: "133d6b8c2ce143c1193b69ecb07acf331cc224a3"
+otherFiles: 3
+dependencies:
+  ripjackSM.usx:
+  - status: "OK"
+    name: "ripjackTex"
+    providedBy: null
+  Ripjack.u:
+  - status: "OK"
+    name: "ripjackSounds"
+    providedBy: null
+  - status: "OK"
+    name: "ripjackTex"
+    providedBy: null
+  - status: "OK"
+    name: "ripjackSM"
+    providedBy: null
+  - status: "MISSING"
+    name: "ripjackAnim"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/1/7/cb0d24/RipJack.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Ripjack Replacer"
+  description: "Replace a weapon of your choice with the Ripjack."
+weapons:
+- name: "Ripjack"
+  description: "Liandri's continued failure to deliver an updated replacement for\
+    \ the beloved Ripper has led an independant weapons developer to take up the gauntlet.\
+    \ The weapons and munitions division of R.A.D. Technologies has most certainly\
+    \ delivered the goods. Featuring a sleek new look combined with deadly destructive\
+    \ capabilites, the MkII Ripjack is a lethal weapon to be faced with. Get too cocky\
+    \ and you could easily lose your head. Twitch your trigger finger at just the\
+    \ wrong moment and you could just as easily shred yourself with an explosive razor.\
+    \ Utmost caution is advised both while wielding the weapon and facing a competent\
+    \ opponent wielding it."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
