@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-08-28 20:09"
+variationOf: "9b1e9f71fa7ba446cc2afe73feabf173c7f392b4"
+game: "Unreal Tournament"
+name: "DM-Amariner"
+author: "Unknown"
+description: "None"
+releaseDate: "1999-12"
+attachments: []
+originalFilename: "dm-amariner.zip"
+hash: "e3fd4b1bb873f16eb507c8457e4f66fdcab03ed9"
+fileSize: 3178274
+files:
+- name: "Tlshptex.utx"
+  fileSize: 1906627
+  hash: "af6d1be6027d62f65b9a3061e98ee442086c0af5"
+- name: "gallion.utx"
+  fileSize: 177658
+  hash: "fa80c360077137089bfa00df2a84309066b6676a"
+- name: "DM-Amariner.unr"
+  fileSize: 5083266
+  hash: "f2ef501b0f021831ac01527005f5ceb77bf74d75"
+- name: "coastex.utx"
+  fileSize: 88975
+  hash: "f11240a2d98a20fe11d612eebf4403340bc787cc"
+otherFiles: 1
+dependencies:
+  DM-Amariner.unr:
+  - status: "OK"
+    name: "gallion"
+    providedBy: null
+  - status: "OK"
+    name: "Tlshptex"
+    providedBy: null
+  - status: "OK"
+    name: "coastex"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/e/3/fd4b1b/dm-amariner.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Amariner"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 0.6
+  Nali Castle: 0.2
+  Ancient: 0.1
+bots: true
