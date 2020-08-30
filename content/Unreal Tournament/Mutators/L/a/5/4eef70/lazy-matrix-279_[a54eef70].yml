@@ -1,0 +1,49 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-08-30 12:46"
+variationOf: "a113774d10149204b0e20dc36846e50d8377fb1d"
+game: "Unreal Tournament"
+name: "Lazy Matrix 2+7/9"
+author: "Unknown"
+description: " Creates a Matrix wannabe match w/ Time-Slow, Bullet-Trails, Lowered\
+  \ Pitch and Voices, and more!"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "lazymtrx279.zip"
+hash: "a54eef7099337a1ec6fd130993352863afbbc308"
+fileSize: 181382
+files:
+- name: "Lazymatrix.u"
+  fileSize: 449407
+  hash: "91a27a7675a7f10acb574ac4dfc4b72b05c95737"
+- name: "LMtrxMenu.u"
+  fileSize: 42841
+  hash: "809875baed9fb5c2f56ee65e7e1d47d4963f5bb8"
+otherFiles: 3
+dependencies:
+  LMtrxMenu.u:
+  - status: "OK"
+    name: "Lazymatrix"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=lazymtrx279.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/L/a/5/4eef70/lazymtrx279.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Lazy Matrix 2+7/9"
+  description: " Creates a Matrix wannabe match w/ Time-Slow, Bullet-Trails, Lowered\
+    \ Pitch and Voices, and more!"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: true
