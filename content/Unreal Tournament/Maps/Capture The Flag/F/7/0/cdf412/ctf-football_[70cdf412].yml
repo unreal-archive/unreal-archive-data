@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-16 15:48"
+variationOf: "36c2666c17f08f0db412e84f6c804de510b5b859"
+game: "Unreal Tournament"
+name: "CTF-Football"
+author: "John Paul 'Decker' Jones"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-football_shot_70cdf412_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/7/0/cdf412/ctf-football_shot_70cdf412_2.png"
+- type: "IMAGE"
+  name: "ctf-football_shot_70cdf412_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/7/0/cdf412/ctf-football_shot_70cdf412_1.png"
+originalFilename: "ctf-football.zip"
+hash: "70cdf41226fe626e6a2dfe56714974d51deccf8a"
+fileSize: 638265
+files:
+- name: "Football.u"
+  fileSize: 3948
+  hash: "655cc57f0c8d220f0cee004a987d91231abdd0f4"
+- name: "CTF-Football.unr"
+  fileSize: 2011763
+  hash: "e31498fa414532cc74347c1a0c02aa0f4a5a07a6"
+otherFiles: 2
+dependencies:
+  CTF-Football.unr:
+  - status: "OK"
+    name: "Football"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/7/0/cdf412/ctf-football.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Football"
+playerCount: "4-8"
+themes:
+  Tech: 0.4
+  Industrial: 0.5
+  Skaarj Tech: 0.1
+bots: true
