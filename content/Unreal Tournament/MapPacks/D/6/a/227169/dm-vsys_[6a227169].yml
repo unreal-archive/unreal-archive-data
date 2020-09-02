@@ -1,0 +1,58 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-19 19:52"
+variationOf: "9dcd80fd302b0059be824dc30e22590afd532007"
+game: "Unreal Tournament"
+name: "Dm Vsys"
+author: "Swanky, Revelation, Doc"
+description: "None"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "Dm_Vsys_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Vsys_shot_1.png"
+originalFilename: "dm-vsys.zip"
+hash: "6a227169e584687e6e815eef19cb45bbc04ddd1a"
+fileSize: 3544445
+files:
+- name: "Vsys Stuff.unr"
+  fileSize: 385842
+  hash: "5d9345d5465945bf9e05ab93c7ae21fa1574e7bb"
+- name: "Ulukaitex.utx"
+  fileSize: 2109050
+  hash: "c215ed43d18a959d58e35d52c114287111dea751"
+- name: "DM-Vsys.unr"
+  fileSize: 5157056
+  hash: "49da7a0192fb0c85dc88e16b5cd8c6f59dee9442"
+otherFiles: 3
+dependencies:
+  DM-Vsys.unr:
+  - status: "MISSING"
+    name: "richrig"
+    providedBy: null
+  - status: "OK"
+    name: "ulukaitex"
+    providedBy: null
+  Vsys Stuff.unr:
+  - status: "MISSING"
+    name: "richrig"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/dm-vsys.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/6/a/227169/dm-vsys.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "Vsys Stuff"
+  title: "Vsys Stuff"
+  author: "Unknown"
+- name: "DM-Vsys"
+  title: "Vsys Apocalypse"
+  author: "Swanky, Revelation, Doc"
+gametype: "DeathMatch"
+themes: {}
