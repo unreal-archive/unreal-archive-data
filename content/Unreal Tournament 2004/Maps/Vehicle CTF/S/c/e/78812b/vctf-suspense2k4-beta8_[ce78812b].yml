@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 03:01"
+variationOf: "46b4172bfcad63046d065feb83af347f49e12bec"
+game: "Unreal Tournament 2004"
+name: "VCTF-Suspense2K4-Beta8"
+author: "Jeffrey"
+description: "Suspense remade from UT3."
+releaseDate: "2009-04"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-Suspense2K4-Beta8_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/VCTF-Suspense2K4-Beta8_shot_1.png"
+originalFilename: "vctf suspenseb8.7z"
+hash: "ce78812bfe257310803b62c90d704ca4c9f81043"
+fileSize: 9523726
+files:
+- name: "VCTF-Suspense2K4-Beta8.ut2"
+  fileSize: 28777338
+  hash: "50c11f0237f5ccc62d8d5b3fdd60bbf177d11b21"
+- name: "EONSLocustA.ukx"
+  fileSize: 74599
+  hash: "187fd38da0625e04a905683109e03960f0e94234"
+- name: "EONSLocustSM.usx"
+  fileSize: 231831
+  hash: "8d6b35178a06fd1c311a828a8c101c1be9a65257"
+otherFiles: 0
+dependencies:
+  VCTF-Suspense2K4-Beta8.ut2:
+  - status: "MISSING"
+    name: "Weapons"
+    providedBy: null
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+    providedBy: null
+  - status: "MISSING"
+    name: "ONSVehicles-A"
+    providedBy: null
+  - status: "OK"
+    name: "EONSLocustSM"
+    providedBy: null
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/VCTF/&file=vctf%20suspenseb8.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/vctf%20suspenseb8.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/c/e/78812b/vctf%2520suspenseb8.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-Suspense"
+playerCount: "12-20"
+themes:
+  Ancient: 1.0
+bots: true
