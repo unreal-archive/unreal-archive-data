@@ -1,0 +1,75 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 08:43"
+variationOf: null
+game: "Unreal Tournament"
+name: "Ctf Duetpack"
+author: "Unknown"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "Ctf_Duetpack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf_Duetpack_shot_1.png"
+- type: "IMAGE"
+  name: "Ctf_Duetpack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf_Duetpack_shot_2.png"
+originalFilename: "ctf-duetpack.zip"
+hash: "5d5ac501f72535344e1d7f85cd572b0db018ccb7"
+fileSize: 5156399
+files:
+- name: "CTF-NoMadik.unr"
+  fileSize: 5328710
+  hash: "c7906084473baf3f82fd7f2b671e1e35b891fdd2"
+- name: "CTF-Flagship.unr"
+  fileSize: 8827197
+  hash: "7f1e08f54ef7a90171b5a4675de67c3080558197"
+- name: "RaT_DevelopMenT.utx"
+  fileSize: 844397
+  hash: "5ec0e1e5e9397803c6c65e182da65e7c0901c8c0"
+otherFiles: 2
+dependencies:
+  CTF-NoMadik.unr:
+  - status: "MISSING"
+    name: "richrig"
+    providedBy: null
+  - status: "OK"
+    name: "RaT_DevelopMenT"
+    providedBy: null
+  CTF-Flagship.unr:
+  - status: "MISSING"
+    name: "richrig"
+    providedBy: null
+  - status: "OK"
+    name: "RaT_DevelopMenT"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-duetpack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/ctf-duetpack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf_duet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/5/d/5ac501/ctf-duetpack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-Flagship"
+  title: ""
+  author: "Unknown"
+- name: "CTF-NoMadik"
+  title: ""
+  author: "Unknown"
+gametype: "Capture The Flag"
+themes:
+  Industrial: 0.8
+  Natural: 0.1
+  Skaarj Tech: 0.1
