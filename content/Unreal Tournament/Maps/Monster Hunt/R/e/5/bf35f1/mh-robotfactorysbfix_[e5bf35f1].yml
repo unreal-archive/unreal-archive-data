@@ -1,0 +1,109 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-16 13:08"
+variationOf: null
+game: "Unreal Tournament"
+name: "MH-RobotFactory+SBFix"
+author: "Alucard and Titled"
+description: "None"
+releaseDate: "2019-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-robotfactorysbfix_shot_e5bf35f1_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/R/e/5/bf35f1/mh-robotfactorysbfix_shot_e5bf35f1_2.png"
+- type: "IMAGE"
+  name: "mh-robotfactorysbfix_shot_e5bf35f1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/R/e/5/bf35f1/mh-robotfactorysbfix_shot_e5bf35f1_1.png"
+originalFilename: "MH-RobotFactory+SBFix.7z"
+hash: "e5bf35f1b69d294d1e25b600a87efcf1b973b772"
+fileSize: 6495335
+files:
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "MH-RobotFactory+SBFix.unr"
+  fileSize: 8884742
+  hash: "105da09f57f220075acdae41b1cf389e8c5a1cf8"
+- name: "impbot.u"
+  fileSize: 526892
+  hash: "ea8816b9e5456f2cf2c27db45998469f276506ca"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "TeamMH.u"
+  fileSize: 1277228
+  hash: "199b65a34043b8bd4ebdf398060f0ac5efa116c2"
+- name: "ImpossibleBotJRM.u"
+  fileSize: 977053
+  hash: "928c4769aae175ca78db0b3a2eff38af48452ab7"
+- name: "olweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "ImpossibleBotJRMSounds.uax"
+  fileSize: 1042420
+  hash: "6cc94ad71f6054938d44d5ec94c5fdd0c9ed6059"
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+otherFiles: 2
+dependencies:
+  impbot.u:
+  - status: "OK"
+    name: "ImpossibleBotJRM"
+    providedBy: null
+  MH-RobotFactory+SBFix.unr:
+  - status: "OK"
+    name: "oldskool"
+    providedBy: null
+  - status: "OK"
+    name: "TeamMH"
+    providedBy: null
+  - status: "OK"
+    name: "ImpossibleBotJRM"
+    providedBy: null
+  - status: "OK"
+    name: "impbot"
+    providedBy: null
+  - status: "OK"
+    name: "AdvancedModelSupport"
+    providedBy: null
+  - status: "OK"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "ImpossibleBotJRMSounds"
+    providedBy: null
+  ImpossibleBotJRM.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+    providedBy: null
+  - status: "OK"
+    name: "ImpossibleBotJRMSounds"
+    providedBy: null
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+    providedBy: null
+  - status: "OK"
+    name: "olweapons"
+    providedBy: null
+  TeamMH.u:
+  - status: "OK"
+    name: "MonsterHunt"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/R/e/5/bf35f1/MH-RobotFactory%2BSBFix.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Liandri Robot facility"
+playerCount: "4-10"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.8
+bots: true
