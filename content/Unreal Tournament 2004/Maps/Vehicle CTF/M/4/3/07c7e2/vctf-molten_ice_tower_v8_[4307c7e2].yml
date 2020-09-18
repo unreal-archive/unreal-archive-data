@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 04:37"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "VCTF-Molten_Ice_Tower_v8"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-07"
+attachments: []
+originalFilename: "VCTF-Molten_Ice_Tower_v8.zip"
+hash: "4307c7e2b07ad81259e74994eb41bdfff7c83a41"
+fileSize: 9827629
+files:
+- name: "VCTF-Molten_Ice_Tower_v8.ut2"
+  fileSize: 3028713
+  hash: "d5b632215700bd29f731e1f109a4a0e89c9ece3a"
+- name: "TerrainMIT.utx"
+  fileSize: 393665
+  hash: "0077336079142cc6b019cab08f19df6d48920a18"
+- name: "WaterTextures.utx"
+  fileSize: 1486342
+  hash: "71216ff92760c58702ca900ad4c0d3c4bdae9c38"
+- name: "Panorama.utx"
+  fileSize: 95072574
+  hash: "0d400d1d75935a2c14dbfad7e46cbaa1ef8561a7"
+- name: "MIT.usx"
+  fileSize: 270748
+  hash: "a4a078fa1bd66e5cac585cd62cef229739357647"
+- name: "ArenaTex.utx"
+  fileSize: 2443722
+  hash: "aae48350d976f81ff24c4e8de338dc8ba787e662"
+otherFiles: 0
+dependencies:
+  MIT.usx:
+  - status: "MISSING"
+    name: "ArenaTextures"
+    providedBy: null
+  VCTF-Molten_Ice_Tower_v8.ut2:
+  - status: "OK"
+    name: "Panorama"
+    providedBy: null
+  - status: "OK"
+    name: "TerrainMIT"
+    providedBy: null
+  - status: "MISSING"
+    name: "MIT"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/M/4/3/07c7e2/VCTF-Molten_Ice_Tower_v8.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-Molten_Ice_Tower_v8"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
