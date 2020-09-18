@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 23:16"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "CTF-GauntletClassic-UT99"
+author: "Cliff Bleszinski, Unreal4Eva"
+description: "Port of the Original Gauntlet from UT99! Not all environments are retrofitted\
+  \ Liandri real estate. The Gauntlet is one of a small number of highly stylized\
+  \ combat arenas specifically designed for the Tournament. This particular venue\
+  \ has been customized for teamplay."
+releaseDate: "2014-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-gauntletclassic-ut99_shot_4a7cc5b8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/4/a/7cc5b8/ctf-gauntletclassic-ut99_shot_4a7cc5b8_1.png"
+originalFilename: "CTF-GauntletClassic-UT99.rar"
+hash: "4a7cc5b819bef98d01d67340428e2085a0fd56ca"
+fileSize: 2435229
+files:
+- name: "SpaceFX.utx"
+  fileSize: 1124420
+  hash: "717281e052470f3a7f343b09066935edd9b4deaa"
+- name: "CTF-GauntletClassic-UT99.ut2"
+  fileSize: 6118513
+  hash: "b2f3cd282077433a3c3b01e6b4f1cccdc6838490"
+otherFiles: 1
+dependencies:
+  CTF-GauntletClassic-UT99.ut2:
+  - status: "OK"
+    name: "SpaceFX"
+    providedBy: null
+  SpaceFX.utx:
+  - status: "MISSING"
+    name: "GenFX"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/4/a/7cc5b8/CTF-GauntletClassic-UT99.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Iron Gauntlet"
+playerCount: "Unknown"
+themes: {}
+bots: true
