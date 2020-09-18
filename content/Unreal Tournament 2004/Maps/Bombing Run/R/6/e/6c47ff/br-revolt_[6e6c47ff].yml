@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 05:18"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "BR-Revolt"
+author: "Scar"
+description: "HOT map!!!"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "br-revolt_shot_6e6c47ff_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/R/6/e/6c47ff/br-revolt_shot_6e6c47ff_1.png"
+originalFilename: "BR-Revolt.rar"
+hash: "6e6c47ffb9beccc9d3e4190b02877f224543fb45"
+fileSize: 2231046
+files:
+- name: "BR-Revolt.ut2"
+  fileSize: 6269138
+  hash: "be255e121712e03d7a739f730259a519aaad9ee3"
+- name: "Subway.usx"
+  fileSize: 17368
+  hash: "af9878a36cb4b5702dc63dcb985402acaedf931b"
+- name: "New_HL2_StreetMesh.usx"
+  fileSize: 64515
+  hash: "8db5772e7f55149abad4faf6b115e5aba52eeb86"
+- name: "SecondChance.usx"
+  fileSize: 29891
+  hash: "f4bd2cda53ce5b8e965024d97ce746397dd1b918"
+otherFiles: 1
+dependencies:
+  SecondChance.usx:
+  - status: "MISSING"
+    name: "2ndChance"
+    providedBy: null
+  BR-Revolt.ut2:
+  - status: "MISSING"
+    name: "NewHLStreet"
+    providedBy: null
+  - status: "OK"
+    name: "Subway"
+    providedBy: null
+  - status: "OK"
+    name: "New_HL2_StreetMesh"
+    providedBy: null
+  - status: "OK"
+    name: "SecondChance"
+    providedBy: null
+  New_HL2_StreetMesh.usx:
+  - status: "MISSING"
+    name: "NewHLStreet"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Bombing%20Run/R/6/e/6c47ff/BR-Revolt.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Bombing Run"
+title: "Ice..."
+playerCount: "6"
+themes:
+  Tech: 0.5
+  City: 0.2
+  Industrial: 0.2
+  Ancient: 0.1
+bots: true
