@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 18:51"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "AS-SGC_(v1)"
+author: "Killer909"
+description: "Stargate Command is under attack by a group posing as SGC personel.\
+  \ Secure the SGC and defend the assets inside. Do not let them reach the surface!"
+releaseDate: "2005-10"
+attachments:
+- type: "IMAGE"
+  name: "as-sgc_v1_shot_c0920b34_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/S/c/0/920b34/as-sgc_v1_shot_c0920b34_1.png"
+originalFilename: "AS-SGC_(v1).zip"
+hash: "c0920b34ec238fe4c4f67cf25d8bf3a3af56cad6"
+fileSize: 21078077
+files:
+- name: "AS-SGC_(v1).ut2"
+  fileSize: 56964048
+  hash: "647c8adf641c3dc59f73364a2e2f9a14d4f5dcf6"
+- name: "Dans_New_Textures4.utx"
+  fileSize: 43169188
+  hash: "24578854fbae95f0906f759963ee2d1581bdd05e"
+- name: "Staircases.usx"
+  fileSize: 4266330
+  hash: "33e24db1874f9bf7c2024afc1d9c381c87578fd5"
+otherFiles: 0
+dependencies:
+  Staircases.usx:
+  - status: "OK"
+    name: "Dans_New_Textures4"
+    providedBy: null
+  AS-SGC_(v1).ut2:
+  - status: "OK"
+    name: "Staircases"
+    providedBy: null
+  - status: "OK"
+    name: "Dans_New_Textures4"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/S/c/0/920b34/AS-SGC_(v1).zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "The SGC (Public Version 1)"
+playerCount: "8"
+themes:
+  Tech: 0.2
+  Natural: 0.1
+  Industrial: 0.3
+  Egyptian: 0.4
+bots: true
