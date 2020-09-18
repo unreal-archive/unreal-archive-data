@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 05:12"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "VCTF-RAG-Harbor"
+author: "=RAG=Feuersturm"
+description: "We, the RAG Technology Corporation load and unload your ships as fast\
+  \ as possible and with great pleasure. We transport your cargo on the fastest and\
+  \ most secure way. Put believe in us, you won't regret it."
+releaseDate: "2010-09"
+attachments:
+- type: "IMAGE"
+  name: "vctf-rag-harbor_shot_1888a632_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/R/1/8/88a632/vctf-rag-harbor_shot_1888a632_2.png"
+- type: "IMAGE"
+  name: "vctf-rag-harbor_shot_1888a632_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/R/1/8/88a632/vctf-rag-harbor_shot_1888a632_1.png"
+- type: "IMAGE"
+  name: "vctf-rag-harbor_shot_1888a632_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/R/1/8/88a632/vctf-rag-harbor_shot_1888a632_4.png"
+- type: "IMAGE"
+  name: "vctf-rag-harbor_shot_1888a632_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/R/1/8/88a632/vctf-rag-harbor_shot_1888a632_3.png"
+originalFilename: "vCTF-RAG-Harbor.zip"
+hash: "1888a63229cc2fc6ef3662be6fd769af76a5c503"
+fileSize: 21052205
+files:
+- name: "VCTFHarborSM.usx"
+  fileSize: 5231877
+  hash: "242f4b112fd5a80d09058c91094520d6307a6daa"
+- name: "Recoil.ogg"
+  fileSize: 3605429
+  hash: "5e9e9a9ad0b002246510895837be3c92cce81bde"
+- name: "VCTFHarborTexes.utx"
+  fileSize: 12791395
+  hash: "c86159098d0459c443d39e6524e96d69a6962196"
+- name: "VCTF-RAG-Harbor.ut2"
+  fileSize: 29352555
+  hash: "7b7fa1896cc29c0ceb6bb5b9a47141b0e8fdd6d2"
+otherFiles: 4
+dependencies:
+  VCTFHarborSM.usx:
+  - status: "OK"
+    name: "VCTFHarborTexes"
+    providedBy: null
+  VCTF-RAG-Harbor.ut2:
+  - status: "OK"
+    name: "VCTFHarborTexes"
+    providedBy: null
+  - status: "OK"
+    name: "VCTFHarborSM"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/R/1/8/88a632/vCTF-RAG-Harbor.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "RAG Technology Corp. Harbor"
+playerCount: "12"
+themes:
+  Tech: 1.0
+bots: true
