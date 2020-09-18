@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 16:03"
+variationOf: "ecd7134c1a4772bf4f8a445236f66f579b53b7a5"
+game: "Unreal Tournament 2004"
+name: "AS-Thief_SE"
+author: "Sander! (Sander van Noort)"
+description: "Steal the secret files from the building and escape with the helicop!"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "as-thief_se_shot_ee2d7ffd_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/e/e/2d7ffd/as-thief_se_shot_ee2d7ffd_2.png"
+- type: "IMAGE"
+  name: "as-thief_se_shot_ee2d7ffd_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/e/e/2d7ffd/as-thief_se_shot_ee2d7ffd_3.png"
+- type: "IMAGE"
+  name: "as-thief_se_shot_ee2d7ffd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/e/e/2d7ffd/as-thief_se_shot_ee2d7ffd_1.png"
+originalFilename: "AS-Thief_SE.zip"
+hash: "ee2d7ffd2c0788f2f72b546a824790250b878e16"
+fileSize: 5382261
+files:
+- name: "AS_ThiefTextures.utx"
+  fileSize: 335297
+  hash: "3db656cc7a2877dfead19a607115b60815ce069c"
+- name: "AS_ThiefMeshes.usx"
+  fileSize: 961601
+  hash: "065854bd544fe9cbaa2b70e35d88a13b176f1264"
+- name: "AS-Thief_SE.ut2"
+  fileSize: 20129639
+  hash: "650834a3b210a9e46c9a4c48d1d84f9c3e444951"
+otherFiles: 3
+dependencies:
+  AS_ThiefMeshes.usx:
+  - status: "OK"
+    name: "AS_ThiefTextures"
+    providedBy: null
+  AS-Thief_SE.ut2:
+  - status: "OK"
+    name: "AS_ThiefMeshes"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/T/e/e/2d7ffd/AS-Thief_SE.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Thiefs"
+playerCount: "12"
+themes:
+  Tech: 0.7
+  Industrial: 0.3
+bots: true
