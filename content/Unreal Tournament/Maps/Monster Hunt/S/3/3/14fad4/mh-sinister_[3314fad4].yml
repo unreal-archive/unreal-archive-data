@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 02:03"
+variationOf: "2f78c2233a2913fad6dbbd8fe92b5799504a8acb"
+game: "Unreal Tournament"
+name: "MH-Sinister"
+author: "Kieran -(((GONTERF)))- Bacon"
+description: "Escape from the temple of Sinister Shadows"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-sinister_shot_3314fad4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/3/3/14fad4/mh-sinister_shot_3314fad4_1.png"
+originalFilename: "MH-Sinister.zip"
+hash: "3314fad45d2fd7ade077118260975ce2d73d17ba"
+fileSize: 820418
+files:
+- name: "ds_nl.umx"
+  fileSize: 910639
+  hash: "7b07dde0a464cc68465e35a61b4c11bdd238aa8b"
+- name: "MH-Sinister.unr"
+  fileSize: 856372
+  hash: "3ce9d93a292de405b5f365b64fe1175c517be9eb"
+otherFiles: 1
+dependencies:
+  MH-Sinister.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "ds_nl"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/3/3/14fad4/MH-Sinister.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Sinister Shadows"
+playerCount: "Up to 6"
+themes:
+  Egyptian: 1.0
+bots: true
