@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-17 23:44"
+variationOf: "2cccac537cd51363d5167c51f9c5764565e9563d"
+game: "Unreal Tournament"
+name: "DM-Library"
+author: "Si \"Kain\" Cass"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-library_shot_7f8dd7f2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/7/f/8dd7f2/dm-library_shot_7f8dd7f2_1.png"
+- type: "IMAGE"
+  name: "dm-library_shot_7f8dd7f2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/7/f/8dd7f2/dm-library_shot_7f8dd7f2_2.png"
+originalFilename: "dm-007library.zip"
+hash: "7f8dd7f2eb6f5183964e3d72a8a74c77c5b51c40"
+fileSize: 706400
+files:
+- name: "Untitled.utx"
+  fileSize: 142023
+  hash: "572e3d43b41125832c40248151556df24d25cc77"
+- name: "DM-Library.unr"
+  fileSize: 1441814
+  hash: "f79d563a14a1cd8e28b6094f8274e2aec0f7859b"
+- name: "007Tex.utx"
+  fileSize: 288558
+  hash: "242cffd708578d29eb46b1c23d2161243f8d3afb"
+otherFiles: 2
+dependencies:
+  DM-Library.unr:
+  - status: "OK"
+    name: "007Tex"
+    providedBy: null
+  - status: "OK"
+    name: "Untitled"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/7/f/8dd7f2/dm-007library.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DOM-Library"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.2
+bots: true
