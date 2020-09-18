@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 22:10"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "ONS-Downtown_Beta4c"
+author: "Sanch3z / Crusha K. Rool"
+description: "With the blockade on the Alluvion River, the warehouse district of Oxida\
+  \ Nova has been plunged into chaos. The storage facilities located there are the\
+  \ only remaining supply points available to Axon forces, and they've enforced martial\
+  \ law to ensure that their supplies remain unthreatened."
+releaseDate: "2010-10"
+attachments:
+- type: "IMAGE"
+  name: "ons-downtown_beta4c_shot_99965092_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/D/9/9/965092/ons-downtown_beta4c_shot_99965092_1.png"
+originalFilename: "ONS-Downtown_Beta4c.7z"
+hash: "9996509224e7d4c6710369c1bad0528569ea809c"
+fileSize: 19131527
+files:
+- name: "Stormsnds.uax"
+  fileSize: 2543110
+  hash: "f9a68ee426d78f414d76c00649f292f2adc4af1e"
+- name: "DowntownTex.utx"
+  fileSize: 16569537
+  hash: "6abcb25629d61f5c5a71016eb86a9da210f9b00b"
+- name: "ONS-Downtown_Beta4c.ut2"
+  fileSize: 27659179
+  hash: "297076a26a65ceeaf4add90048f01d14691f106a"
+- name: "DowntownSM.usx"
+  fileSize: 1789243
+  hash: "5c6827d86f982481d3ee4ba94a097dec27f4f1a2"
+otherFiles: 1
+dependencies:
+  DowntownSM.usx:
+  - status: "OK"
+    name: "DowntownTex"
+    providedBy: null
+  ONS-Downtown_Beta4c.ut2:
+  - status: "OK"
+    name: "DowntownTex"
+    providedBy: null
+  - status: "OK"
+    name: "DowntownSM"
+    providedBy: null
+  - status: "OK"
+    name: "Stormsnds"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/D/9/9/965092/ONS-Downtown_Beta4c.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "ONS-Downtown"
+playerCount: "10-32"
+themes:
+  City: 0.2
+  Industrial: 0.6
+  Ancient: 0.1
+bots: true
