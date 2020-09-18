@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-15 05:37"
+variationOf: "259c2ee7fb3fdf2aca359bed655aba1a0555c553"
+game: "Unreal Tournament 2004"
+name: "AS-Missile_Silo_V1-1"
+author: "HyperForce"
+description: "This scenario is a recreation of an assault of N E G forces on one of\
+  \ there own bases after it was attacked and taken over by the hellions. Because\
+  \ of the prototype space missile that was located inside the silo next to the base.\
+  \ The N E G commanders saw no other option than to launch a strike force for the\
+  \ base and destroy the missile by any means necessary. This missile held a highly\
+  \ toxic plasma gas that was strong enough to destroy the entire N E G head quarters\
+  \ in one single strike! Only 3 hours after the hellion attack a strike force landed.\
+  \ With the soul goal of launching and destroying the missile, thereby securing a\
+  \ complete strike to take back the base.   I used the network systems in the convoy\
+  \ map to speed up build time and make al systems working ;p  but anyway this is\
+  \ my FIRST assault map and i'm proud of it (took me some weeks to build so I hope\
+  \ you like it) Have fun, frag hot, Hyperforce"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "Missile_Silo_V1-1.rar"
+hash: "5712c27d5d431a029b0089a317e99c77c7941abc"
+fileSize: 16909110
+files:
+- name: "silosounds.uax"
+  fileSize: 9791442
+  hash: "7f7257b94f5bac572aa12a02a7179abe6e511945"
+- name: "AS-Missile_Silo_V1-1.ut2"
+  fileSize: 31374632
+  hash: "7e9d9a5592211436742c68e562deed2d7db4e2fa"
+- name: "Missile_Textures.utx"
+  fileSize: 9149166
+  hash: "9dbe5ff2682a1b11c4c52cf3a185c99f2804560d"
+- name: "Missile_Static.usx"
+  fileSize: 5256100
+  hash: "f6d0dbd71a6fdc6b6439974bb3aa5b8076ae965b"
+otherFiles: 1
+dependencies:
+  Missile_Static.usx:
+  - status: "OK"
+    name: "Missile_Textures"
+    providedBy: null
+  AS-Missile_Silo_V1-1.ut2:
+  - status: "OK"
+    name: "Missile_Static"
+    providedBy: null
+  - status: "OK"
+    name: "silosounds"
+    providedBy: null
+  - status: "OK"
+    name: "Missile_Textures"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/M/Missile_Silo_V1-1.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/M/5/7/12c27d/Missile_Silo_V1-1.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Missile Silo"
+playerCount: "18"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true
