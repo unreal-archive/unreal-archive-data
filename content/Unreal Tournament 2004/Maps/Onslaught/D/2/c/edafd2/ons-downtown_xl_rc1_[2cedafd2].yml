@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 22:42"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "ONS-Downtown_XL_RC1"
+author: "Sanch3z / Crusha K. Rool"
+description: "With the blockade on the Alluvion River, the warehouse district of Oxida\
+  \ Nova has been plunged into chaos. The storage facilities located there are the\
+  \ only remaining supply points available to Axon forces, and they've enforced martial\
+  \ law to ensure that their supplies remain unthreatened."
+releaseDate: "2012-09"
+attachments:
+- type: "IMAGE"
+  name: "ons-downtown_xl_rc1_shot_2cedafd2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/D/2/c/edafd2/ons-downtown_xl_rc1_shot_2cedafd2_1.png"
+originalFilename: "ONS-Downtown_XL_RC1.rar"
+hash: "2cedafd2e5d11f03b758a7560f3e6f95060003e2"
+fileSize: 21657595
+files:
+- name: "DowntownSM.usx"
+  fileSize: 1789243
+  hash: "5c6827d86f982481d3ee4ba94a097dec27f4f1a2"
+- name: "DowntownTex.utx"
+  fileSize: 16569537
+  hash: "6abcb25629d61f5c5a71016eb86a9da210f9b00b"
+- name: "ONS-Downtown_XL_RC1.ut2"
+  fileSize: 43685751
+  hash: "71eda212ee3041af2ef1c1e755f9ee035c0acee7"
+otherFiles: 1
+dependencies:
+  ONS-Downtown_XL_RC1.ut2:
+  - status: "OK"
+    name: "DowntownTex"
+    providedBy: null
+  - status: "OK"
+    name: "DowntownSM"
+    providedBy: null
+  DowntownSM.usx:
+  - status: "OK"
+    name: "DowntownTex"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/D/2/c/edafd2/ONS-Downtown_XL_RC1.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "ONS-Downtown"
+playerCount: "10-32"
+themes:
+  City: 0.2
+  Industrial: 0.6
+  Ancient: 0.1
+bots: true
