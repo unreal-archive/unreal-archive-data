@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-19 17:27"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-DeathsArena"
+author: "Rowan \"Wolven\" Lewis"
+description: "None"
+releaseDate: "2007-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-deathsarena_shot_0e202d50_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/0/e/202d50/dm-deathsarena_shot_0e202d50_1.png"
+originalFilename: "DM-DeathsArena.zip"
+hash: "0e202d5049e523b592b70784399f076576075c6e"
+fileSize: 3124814
+files:
+- name: "DM-DeathsArenaLD.unr"
+  fileSize: 1993297
+  hash: "16494cf571fa329b094393f3adb7fe912898c02c"
+- name: "DM-DeathsArena.unr"
+  fileSize: 13363997
+  hash: "78fbe868a937f149351fd26e9c49ae5949131fa1"
+otherFiles: 1
+dependencies:
+  DM-DeathsArenaLD.unr:
+  - status: "MISSING"
+    name: "wolven-space"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/0/e/202d50/DM-DeathsArena.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Deaths Arena"
+playerCount: "2-5"
+themes:
+  Industrial: 1.0
+bots: true
