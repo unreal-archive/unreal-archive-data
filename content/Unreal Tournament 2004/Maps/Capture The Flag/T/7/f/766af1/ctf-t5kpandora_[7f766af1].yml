@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-19 14:23"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "CTF-{T5K}Pandora"
+author: "{T5K}+Fr+"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-t5kpandora_shot_7f766af1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/7/f/766af1/ctf-t5kpandora_shot_7f766af1_1.png"
+originalFilename: "CTF-{T5K}Pandora.zip"
+hash: "7f766af1540d32aaec8c1f2ae8cf9f15704e592b"
+fileSize: 7305057
+files:
+- name: "TundraMeshes.usx"
+  fileSize: 9469031
+  hash: "e16d1185b1d789d9add22564913ba883e5b97821"
+- name: "CTF-{T5K}Pandora.ut2"
+  fileSize: 3561168
+  hash: "dd5d2bb3c9d0b0855b0d832bf445ae46136b9953"
+- name: "TundraMaterials.utx"
+  fileSize: 5272228
+  hash: "a9e50b9d6bfb03a95882f33476d68e16dd6b22d7"
+- name: "T5KPandora.utx"
+  fileSize: 1727680
+  hash: "f4768729ac6f6b10568d44a2af53451f7eaad409"
+otherFiles: 0
+dependencies:
+  TundraMeshes.usx:
+  - status: "OK"
+    name: "TundraMaterials"
+    providedBy: null
+  CTF-{T5K}Pandora.ut2:
+  - status: "OK"
+    name: "TundraMeshes"
+    providedBy: null
+  - status: "OK"
+    name: "T5KPandora"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/7/f/766af1/CTF-%7BT5K%7DPandora.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-{T5K}Pandora"
+playerCount: "4"
+themes:
+  Ancient: 1.0
+bots: true
