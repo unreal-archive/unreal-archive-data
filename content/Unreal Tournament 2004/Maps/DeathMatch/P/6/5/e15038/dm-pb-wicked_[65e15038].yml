@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-19 19:13"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DM-PB-Wicked"
+author: "Pablo \\\"Party Boy\\\" Perugino"
+description: "FxR-Jude's Quake Live map port||www.unrealargentina.com"
+releaseDate: "2016-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-pb-wicked_shot_65e15038_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/P/6/5/e15038/dm-pb-wicked_shot_65e15038_1.png"
+originalFilename: "DM-PB-Wicked.zip"
+hash: "65e150385acf10e58aafada7f43e61f6ae90fc5b"
+fileSize: 7653433
+files:
+- name: "DM-PB-Wicked.ut2"
+  fileSize: 6218837
+  hash: "3f61d8d8546f45b5b96d85c0a7c347514f9923c0"
+- name: "QuakeLiveT02.utx"
+  fileSize: 5724639
+  hash: "cbbf184387675561002ff093c712416471b52416"
+- name: "QuakeLiveT01.utx"
+  fileSize: 1925279
+  hash: "44841880a96931a14c632ca016c3a2fdcc780ed5"
+- name: "QuakeLiveS01.uax"
+  fileSize: 344105
+  hash: "d15604ffcebe7a89b360984e3d5317f166bd6478"
+- name: "Campgrounds.ogg"
+  fileSize: 2212454
+  hash: "0e799b4174c2eae86d5686e6f4485de6008fa86c"
+- name: "QuakeLiveSM01.usx"
+  fileSize: 465627
+  hash: "fd601728e426e729d0dbd7d40a2f0f3d9c9b8779"
+otherFiles: 1
+dependencies:
+  QuakeLiveSM01.usx:
+  - status: "OK"
+    name: "QuakeLiveT01"
+    providedBy: null
+  - status: "OK"
+    name: "QuakeLiveT02"
+    providedBy: null
+  DM-PB-Wicked.ut2:
+  - status: "OK"
+    name: "QuakeLiveS01"
+    providedBy: null
+  - status: "OK"
+    name: "QuakeLiveT01"
+    providedBy: null
+  - status: "OK"
+    name: "QuakeLiveT02"
+    providedBy: null
+  - status: "OK"
+    name: "QuakeLiveSM01"
+    providedBy: null
+  QuakeLiveT01.utx:
+  - status: "OK"
+    name: "QuakeLiveT02"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/P/6/5/e15038/DM-PB-Wicked.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Wicked"
+playerCount: "2-4"
+themes: {}
+bots: true
