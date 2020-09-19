@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-19 17:26"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DM-Fetid"
+author: "ARKHAM"
+description: "Remake feito para a comunidade brasileira de Unreal Tournament 2004."
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-fetid_shot_c7e48863_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/7/e48863/dm-fetid_shot_c7e48863_1.png"
+originalFilename: "DM-Fetid.zip"
+hash: "c7e488639f84e9072a2f750d6b6131dab702b2e6"
+fileSize: 3031569
+files:
+- name: "DM-Fetid.ut2"
+  fileSize: 4161499
+  hash: "46c4812db05c4d0cf971f06b8c2b11927f95f67a"
+- name: "RipperTex.utx"
+  fileSize: 3169064
+  hash: "25c8e7aef20473c66e9b5c0eb77fd113e584c16f"
+- name: "RipperAnim.ukx"
+  fileSize: 340329
+  hash: "10ad68ea8d591c04e781ae0c90088c4102313ffd"
+- name: "RipperMeshes.usx"
+  fileSize: 325533
+  hash: "561d49593fdf3d4b2cc05710ea4ac0823953da29"
+- name: "RipperSounds.uax"
+  fileSize: 117608
+  hash: "90f3f4f58b6e125afa0fa552f280eb9a7d85729d"
+otherFiles: 1
+dependencies:
+  RipperMeshes.usx:
+  - status: "OK"
+    name: "RipperTex"
+    providedBy: null
+  DM-Fetid.ut2:
+  - status: "MISSING"
+    name: "RipperAnim"
+    providedBy: null
+  - status: "OK"
+    name: "RipperTex"
+    providedBy: null
+  - status: "OK"
+    name: "RipperSounds"
+    providedBy: null
+  - status: "OK"
+    name: "RipperMeshes"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/7/e48863/DM-Fetid.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Fetid Sewers"
+playerCount: "4"
+themes:
+  Tech: 0.6
+  Industrial: 0.4
+bots: true
