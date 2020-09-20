@@ -1,0 +1,197 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-20 11:40"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "UT3Style4UT2004"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-03"
+attachments: []
+originalFilename: "UT3Style4UT2004.rar"
+hash: "2ab7405e81c03313f1ebb3239e8e8878a05c756f"
+fileSize: 20682560
+files:
+- name: "EONS-Scorpion_BETA3.u"
+  fileSize: 285270
+  hash: "9aa199215cb41d6cdbfeacb7a53607d50ccbb83e"
+- name: "UT3LinkGun.uax"
+  fileSize: 837074
+  hash: "c868a0e3a3db53b68dfd221e865a5ec1870014d7"
+- name: "UT3Pickups.utx"
+  fileSize: 176647
+  hash: "1ad49745e844b8c8bc107de0fbd2f9bec7c7abc8"
+- name: "UT3HUD.utx"
+  fileSize: 1490594
+  hash: "2c6305baa9d4f44cd1946a98998bbaa0946d201b"
+- name: "UT3SPMAReticle.usx"
+  fileSize: 454185
+  hash: "4215f8e8254d251617435b3e3fa5b601a1fabef4"
+- name: "UT3WeaponsT.utx"
+  fileSize: 439843
+  hash: "061408c4b7deb101faea3eec02ae0a7436804ed5"
+- name: "UT3Translocator.uax"
+  fileSize: 797751
+  hash: "da65506a41744fd60954e708a75efc35476cedc2"
+- name: "UT3Weapons.utx"
+  fileSize: 1865244
+  hash: "c75be06d14ca7cabb65ba466c6487139e1bb0189"
+- name: "UT3Vehicles.uax"
+  fileSize: 4237253
+  hash: "e490be04922d8d1040b0d82f781d996799716d3c"
+- name: "UT3Style.u"
+  fileSize: 8198424
+  hash: "4e97a7e125929612c128b628912d63f08c295142"
+- name: "UT3SPMA.uax"
+  fileSize: 2176000
+  hash: "2fcb16ea97e553eef7f3ab67be7a095a10f3e55e"
+- name: "UT3SPMAEffects.usx"
+  fileSize: 52456
+  hash: "73fb586038335c0f9a676e7d2be4a95a9c0e851c"
+- name: "UT3Weapons2.uax"
+  fileSize: 5771108
+  hash: "720fc8e4e98066866b1d276ce825fa1c3e5573cd"
+- name: "UT3Weapons.uax"
+  fileSize: 2158594
+  hash: "3a549ec00d59e7496f66f8745395b3f0dce5a85a"
+- name: "UT3PickupSounds.uax"
+  fileSize: 1722820
+  hash: "fc0dc963f6b25e54dfe4e1993ac9b1cca2f031b2"
+otherFiles: 4
+dependencies:
+  UT3Style.u:
+  - status: "OK"
+    name: "UT3Weapons"
+    providedBy: null
+  - status: "OK"
+    name: "UT3HUD"
+    providedBy: null
+  - status: "OK"
+    name: "UT3Weapons2"
+    providedBy: null
+  - status: "OK"
+    name: "EONS-Scorpion_BETA3"
+    providedBy: null
+  - status: "OK"
+    name: "UT3Vehicles"
+    providedBy: null
+  - status: "OK"
+    name: "UT3PickupSounds"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/2/a/b7405e/UT3Style4UT2004.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "UT3 InstaGib"
+  description: "Instant-kill combat with modified UT3 Shock Rifles."
+- name: "UT3 Vehicles"
+  description: "Replaces UT2004 vehicles with versions similar to their UT3 Axon counterparts."
+- name: "UT3 Weapons"
+  description: "Modifies UT2004 weapons so they work similarly to their UT3 counterparts."
+weapons:
+- name: "UT3 Longbow AVRiL"
+  description: "The Longbow Anti-Vehicle Rocket Launcher, a.k.a. the "
+- name: "UT3 Bio Rifle"
+  description: "The GES BioRifle processes Tarydium from its stable crystalline form\
+    \ into a reactive mutagenic sludge. It can rapidly disperse these toxins for wide-area\
+    \ coverage, or fire a virulent payload of variable, but usually lethal, capacity.\
+    \ In layman's terms, this means the BioRifle can pepper an area with small globs\
+    \ of biosludge, or launch one noxious glob at the target. The BioRifle's ability\
+    \ to carpet an area with a toxic minefield makes it a notoriously effective defensive\
+    \ weapon."
+- name: "UT3 Flak Cannon"
+  description: "Trident Defensive Technologies continues to tweak and refine the flak\
+    \ cannon with their newly released Mk4 "
+- name: "UT3 Link Gun"
+  description: "Riordan Dynamic Weapon Systems combines the best of weapon design\
+    \ in the Advanced Plasma Rifle v23, commonly known as the Link Gun.|While the\
+    \ primary firing mode of the Link remains the same as its plasma-firing predecessor,\
+    \ the secondary cutting torch has been replaced with a switchable energy matrix.\
+    \ Upon contacting a teammate, it converts to a harmless carrier stream, offloading\
+    \ energy from the onboard cells to boost the output of any targeted player also\
+    \ using the Link.|It should be noted that while players are boosting a teammate,\
+    \ they are unable to defend themselves from attack."
+- name: "UT3 Stinger Minigun"
+  description: "Replacing the Minigun in this year's Tournament, the 'Stinger' is\
+    \ actually a Liandri mining tool converted into military service.|The Stinger\
+    \ fires shards of unprocessed Tarydium crystal at an alarming rate, raking opponents\
+    \ with a storm of deadly needles. The alternate fire shoots larger hunks of crystal\
+    \ that can knock back an opponent, sometimes even pinning them to walls."
+- name: "UT3 Redeemer"
+  description: "'Even your least effective soldiers will earn a respectable bodycount\
+    \ with this tactical nuclear device.' So said the original brochure for the Redeemer,\
+    \ still unchallenged in its role as the most powerful man-portable weapon system\
+    \ known through the galaxy.|The slow-moving but utterly devastating missile, affectionately\
+    \ known as 'Lola' by veteran soldiers, now uses an Enhanced Radiation payload.\
+    \ This ensures maximum tissue failure without undue property damage, perfect for\
+    \ modern assault-and-capture tactics.|The Redeemer's alternate mode fires the\
+    \ missile using the disposable fly-by-wire guidance system, though the manual\
+    \ recommends using this mode only in areas of relative safety."
+- name: "UT3 Rocket Launcher"
+  description: "Each year, more accidental deaths are caused by the Trident Tri-barrel\
+    \ Rocket Launcher than in vehicular accidents and extreme sports combined. The\
+    \ kill radius for its standard dumbfire rocket is surprisingly high by design\
+    \ - so accidentally firing upon a nearby wall, or a nearby enemy soldier, can\
+    \ be quite fatal for the operator. The alternate fire adds to this suicidal lethality\
+    \ by loading and firing up to three rockets at once, in a spread, tight spiral,\
+    \ or lobbed like grenades. Regardless of the grim statistics, veteran soldiers\
+    \ still consider the 'old 8 ball' the most expedient way to put explosive ordnance\
+    \ on target."
+- name: "UT3 Shock Rifle"
+  description: "The ASMD Shock Rifle has changed little since its first incorporation\
+    \ into the Liandri Tournament. The ASMD sports two firing modes: a thin photon\
+    \ beam, and a sphere of unstable plasma energy. These modes are each deadly in\
+    \ their own right, but used together they can neutralize opponents in a devastating\
+    \ shockwave. The energy spheres can be detonated with the photon beam, releasing\
+    \ the explosive energy of the anti-photons in the plasma's EM containment field."
+- name: "UT3 Sniper Rifle"
+  description: "The venerable Axon Research long-range target interdiction rifle is\
+    \ the weapon of choice for the discerning sniper. Acquisition of a target at distance\
+    \ requires a steady hand, but the rewards merit the effort: the high-caliber round\
+    \ is lethal at any range. With a precise headshot, the target will be neutralized\
+    \ by the super-sonic bullet long before they hear the report. As they say in the\
+    \ N.E.G. Marines: 'any shot you hear is nothing to be worried about.'"
+vehicles:
+- name: "Cicada Laser Turret"
+  description: "Cicada Laser Turret"
+- name: "UT3 Cicada"
+  description: "UT3 Cicada"
+- name: "UT3 Cicada Laser Turret"
+  description: "UT3 Cicada Laser Turret"
+- name: "UT3 Goliath"
+  description: "UT3 Goliath"
+- name: "Goliath Minigun Turret"
+  description: "Goliath Minigun Turret"
+- name: "UT3 Hellbender"
+  description: "UT3 Hellbender"
+- name: "HellBender Rear Turret"
+  description: "HellBender Rear Turret"
+- name: "UT3 Hellfire SPMA"
+  description: "UT3 Hellfire SPMA"
+- name: "UT3 Leviathan"
+  description: "UT3 Leviathan"
+- name: "Leviathan Beam Turret"
+  description: "Leviathan Beam Turret"
+- name: "Leviathan Rocket Turret"
+  description: "Leviathan Rocket Turret"
+- name: "Leviathan Shock Turret"
+  description: "Leviathan Shock Turret"
+- name: "Leviathan Stinger Turret"
+  description: "Leviathan Stinger Turret"
+- name: "UT3 Manta"
+  description: "UT3 Manta"
+- name: "UT3 Paladin"
+  description: "UT3 Paladin"
+- name: "UT3 Raptor"
+  description: "UT3 Raptor"
+- name: "UT3 Scorpion"
+  description: "UT3 Scorpion"
+- name: "EONS Scorpion"
+  description: "EONS Scorpion"
+- name: "EONS Strider"
+  description: "EONS Strider"
+hasConfigMenu: false
+hasKeybinds: false
