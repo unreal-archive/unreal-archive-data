@@ -1,0 +1,56 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2020-09-23 07:56"
+variationOf: null
+game: "Unreal Tournament"
+name: "Steelbase"
+author: "BB Drac (birrabrothers.com/drac)"
+description: "None"
+releaseDate: "2012-05"
+attachments:
+- type: "IMAGE"
+  name: "steelbase_shot_1d10ebc2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/1/d/10ebc2/steelbase_shot_1d10ebc2_2.png"
+- type: "IMAGE"
+  name: "steelbase_shot_1d10ebc2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/1/d/10ebc2/steelbase_shot_1d10ebc2_1.png"
+originalFilename: "steelbase.zip"
+hash: "1d10ebc28c53552d9e48e1a0168d4c0981dc0715"
+fileSize: 5989691
+files:
+- name: "DM-BB_SteelBase.unr"
+  fileSize: 9765581
+  hash: "dea05c32daa43afc629fbd282ca4c91bbf2a4fdc"
+- name: "DOM-BB_SteelBase.unr"
+  fileSize: 9945989
+  hash: "64a4af0eb104c09ecc81a85a0cab454e11d3552b"
+- name: "SteelBase.umx"
+  fileSize: 714276
+  hash: "1f0f248c9f957ea59f8adf1de8e1738da7cbabe9"
+otherFiles: 1
+dependencies:
+  DOM-BB_SteelBase.unr:
+  - status: "OK"
+    name: "SteelBase"
+    providedBy: null
+  DM-BB_SteelBase.unr:
+  - status: "OK"
+    name: "SteelBase"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/S/1/d/10ebc2/steelbase.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-BB_SteelBase"
+  title: "Steel Base"
+  author: "BB Drac (birrabrothers.com/drac)"
+- name: "DOM-BB_SteelBase"
+  title: "Steel Base"
+  author: "BB Drac (birrabrothers.com/drac)"
+gametype: "Mixed"
+themes:
+  Tech: 0.5
+  Ancient: 0.5
