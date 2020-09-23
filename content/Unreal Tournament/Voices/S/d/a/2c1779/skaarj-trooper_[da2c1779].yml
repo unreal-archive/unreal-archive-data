@@ -1,0 +1,57 @@
+--- !<VOICE>
+contentType: "VOICE"
+firstIndex: "2020-09-23 07:33"
+variationOf: null
+game: "Unreal Tournament"
+name: "Skaarj Trooper"
+author: "Deepu"
+description: "None"
+releaseDate: "2019-07"
+attachments: []
+originalFilename: "UN1d.7z"
+hash: "da2c1779d81dd1e9737fb99ed959f9e170a2759d"
+fileSize: 2453797
+files:
+- name: "TF2.u"
+  fileSize: 1130
+  hash: "62f388ad693eab3383024dca1ae7de5fd89f74b3"
+- name: "BP4H1d.u"
+  fileSize: 6299
+  hash: "8ccf634d0dca5112456ca06f5eb1810f656e09dc"
+- name: "UN1d.u"
+  fileSize: 1759001
+  hash: "264bd85255537d42e06e8adf49fc0b3c7ab968d6"
+- name: "VAData.u"
+  fileSize: 420081
+  hash: "d8f337f19f263287a9577afd78bb48c2dc14083e"
+- name: "BP1H1d.u"
+  fileSize: 15682
+  hash: "b94c068231253a998f62df4098b618ccc3d5d734"
+- name: "VAH1d.u"
+  fileSize: 169600
+  hash: "f9f948ec6ebaa39e0cddd363ebd30fc6ca530531"
+otherFiles: 3
+dependencies:
+  BP1H1d.u:
+  - status: "OK"
+    name: "UN1d"
+    providedBy: null
+  BP4H1d.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
+  - status: "OK"
+    name: "UN1d"
+    providedBy: null
+  VAH1d.u:
+  - status: "OK"
+    name: "UN1d"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Voices/S/d/a/2c1779/UN1d.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+voices:
+- "Skaarj Trooper"

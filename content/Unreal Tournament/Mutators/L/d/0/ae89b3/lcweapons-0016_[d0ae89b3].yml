@@ -1,0 +1,47 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:35"
+variationOf: null
+game: "Unreal Tournament"
+name: "LCWeapons 0016"
+author: "server settings"
+description: "None"
+releaseDate: "2015-09"
+attachments: []
+originalFilename: "LCWeapons_0016.zip"
+hash: "d0ae89b32b7096d163ef2e7fb6ee6f4490355a92"
+fileSize: 1005415
+files:
+- name: "FV_ColorShock.utx"
+  fileSize: 1709216
+  hash: "21017c1fa8ea7bd1e603561325f0f599631adfa7"
+- name: "SiegeUtil_A.u"
+  fileSize: 1972
+  hash: "e9c49a12c6db4e247a6766c5aa17c25fc3f4e5db"
+- name: "LCPureUtil.u"
+  fileSize: 1071
+  hash: "caa2c7aec7190555e0c3d5015f01432cbe446baa"
+- name: "LCWeapons_0016.u"
+  fileSize: 436090
+  hash: "a781ba65096b992c615f7b7b67f9c71c9220b649"
+otherFiles: 5
+dependencies:
+  LCWeapons_0016.u:
+  - status: "OK"
+    name: "FV_ColorShock"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/L/d/0/ae89b3/LCWeapons_0016.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Lag Compensator"
+  description: ""
+- name: "LC: ColoredShock"
+  description: " Requires Lag Compensator mutator loaded!"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

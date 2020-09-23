@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:36"
+variationOf: "ca767d9f82ee58e2f03f77285f54b8f8ca1eec44"
+game: "Unreal Tournament"
+name: "SmartDM"
+author: "their ranks"
+description: ""
+releaseDate: "2013-08"
+attachments: []
+originalFilename: "SmartDM104.zip"
+hash: "a4401fefc0cf066c81e49e0892d52a8076fb248f"
+fileSize: 265800
+files:
+- name: "SmartDM104.u"
+  fileSize: 137437
+  hash: "af2accfdb7f692fe9d6b693fac479ab2655c9566"
+- name: "NexgenClientsideExtensions112.u"
+  fileSize: 3641
+  hash: "329c32b6d5b357fa9defa42605236a3285136bf4"
+- name: "SmartDMScoreBoard104.u"
+  fileSize: 156058
+  hash: "efea7533391045b3f744623736bfc592b2daecf1"
+- name: "NexgenServersideExtensions.u"
+  fileSize: 34318
+  hash: "dfebae77f7537e374188e025b38ea567908229b1"
+otherFiles: 6
+dependencies:
+  SmartDMScoreBoard104.u:
+  - status: "OK"
+    name: "SmartDM104"
+    providedBy: null
+  NexgenClientsideExtensions112.u:
+  - status: "MISSING"
+    name: "Nexgen112"
+    providedBy: null
+  - status: "MISSING"
+    name: "NexgenCC"
+    providedBy: null
+  NexgenServersideExtensions.u:
+  - status: "MISSING"
+    name: "Nexgen112"
+    providedBy: null
+  - status: "OK"
+    name: "NexgenClientsideExtensions112"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/a/4/401fef/SmartDM104.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "SmartDM"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:33"
+variationOf: null
+game: "Unreal Tournament"
+name: "MapVoteCE104"
+author: "Unknown"
+description: ""
+releaseDate: "2013-10"
+attachments: []
+originalFilename: "MapVoteCE.zip"
+hash: "8c3b4dfc518360f1561ed3b0657c92a3af448a5d"
+fileSize: 206711
+files:
+- name: "BunnyTrack.u"
+  fileSize: 11491
+  hash: "c894df6a32f8664a8727e2c304c555d78a5c93fe"
+- name: "MapvoteCE103.u"
+  fileSize: 279309
+  hash: "2d85212d677848aee05476b9c4ce4d2327d76384"
+- name: "MapVoteCE104.u"
+  fileSize: 325103
+  hash: "63747984b25fa9451eb50badb023226cb0de4d56"
+otherFiles: 3
+dependencies:
+  MapvoteCE103.u:
+  - status: "OK"
+    name: "BunnyTrack"
+    providedBy: null
+  MapVoteCE104.u:
+  - status: "OK"
+    name: "BunnyTrack"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/8/c/3b4dfc/MapVoteCE.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "MapVoteCE104"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

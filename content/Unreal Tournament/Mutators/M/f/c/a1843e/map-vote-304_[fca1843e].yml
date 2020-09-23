@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:40"
+variationOf: "091d0d4c1106e3cff61dc0ed9d22d2c16da5bc86"
+game: "Unreal Tournament"
+name: "Map-Vote 3.04"
+author: "remote administrators to"
+description: ""
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "BDBMapVote304+sources.zip"
+hash: "fca1843ed13819f42168622dc4a5b76aca68ef0f"
+fileSize: 214653
+files:
+- name: "ServerInfo.u"
+  fileSize: 1984
+  hash: "691b5f7eb809a897196bbdf8d56273d5e859a5e1"
+- name: "MapVoteHistoryX16.u"
+  fileSize: 3877
+  hash: "4d8f69c25c36e199eef4e03768c31c49de2583cb"
+- name: "BDBMapVote304.u"
+  fileSize: 276414
+  hash: "ccce851d2ab83ed7504f3cdc4f9fab3eda11a0d7"
+otherFiles: 3
+dependencies:
+  MapVoteHistoryX16.u:
+  - status: "OK"
+    name: "BDBMapVote304"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/f/c/a1843e/BDBMapVote304%2Bsources.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Map-Vote 3.04"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

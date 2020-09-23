@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:35"
+variationOf: null
+game: "Unreal Tournament"
+name: "OldMutator"
+author: "Unknown"
+description: "Replace orginal Unreal weapon sounds with Unreal version 200 ones."
+releaseDate: "2019-09"
+attachments: []
+originalFilename: "OldWeaponsUT.zip"
+hash: "50bf249285f087116e12e333c34745326ffbdf83"
+fileSize: 1090391
+files:
+- name: "OldWeaponsTex.utx"
+  fileSize: 230956
+  hash: "c58331e75c793b19149bcf936da37f270a640a6d"
+- name: "OldWeaponsUT.u"
+  fileSize: 65543
+  hash: "99a5cc5fbbcc8e9f45fd9115ae3ed026ed44fd6c"
+- name: "OldWeaponsSounds.uax"
+  fileSize: 1147249
+  hash: "4d910e8a3e52190ce100118fa82f0ea127c38c09"
+otherFiles: 1
+dependencies:
+  OldWeaponsUT.u:
+  - status: "OK"
+    name: "OldWeaponsTex"
+    providedBy: null
+  - status: "OK"
+    name: "OldWeaponsSounds"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/O/5/0/bf2492/OldWeaponsUT.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "OldMutator"
+  description: "Replace orginal Unreal weapon sounds with Unreal version 200 ones."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

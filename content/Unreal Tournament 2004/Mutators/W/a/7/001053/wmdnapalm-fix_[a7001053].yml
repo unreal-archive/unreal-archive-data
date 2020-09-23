@@ -1,0 +1,97 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:37"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "WMD/Napalm Fix"
+author: "Kamek"
+description: ""
+releaseDate: "2004-11"
+attachments: []
+originalFilename: "SuperWeapons.zip"
+hash: "a70010535d3df63355cec5f0334bd445985b2f36"
+fileSize: 829116
+files:
+- name: "SuperWeapons.u"
+  fileSize: 82189
+  hash: "03cef37c34ada6e1ee5479e5469a60146a439180"
+- name: "SuperWeaponSounds.uax"
+  fileSize: 804542
+  hash: "13f073a90492b238126032d163c41e0b0d3d0cae"
+- name: "SuperWeaponTex.utx"
+  fileSize: 542559
+  hash: "78a38144e855f801573e3d68cc63e228723f6e97"
+- name: "SuperWeaponMeshes.usx"
+  fileSize: 152873
+  hash: "25bf0f42148f1b1f1ea521ca264ec3b1e3e34c9a"
+otherFiles: 2
+dependencies:
+  SuperWeapons.u:
+  - status: "MISSING"
+    name: "MP_FPArms"
+    providedBy: null
+  - status: "OK"
+    name: "SuperWeaponSounds"
+    providedBy: null
+  - status: "OK"
+    name: "SuperWeaponTex"
+    providedBy: null
+  - status: "MISSING"
+    name: "BaseFX"
+    providedBy: null
+  - status: "MISSING"
+    name: "FPSGame"
+    providedBy: null
+  - status: "MISSING"
+    name: "MultiGame"
+    providedBy: null
+  - status: "MISSING"
+    name: "FX"
+    providedBy: null
+  - status: "MISSING"
+    name: "MultiBase"
+    providedBy: null
+  - status: "MISSING"
+    name: "Patch1_mesh"
+    providedBy: null
+  - status: "MISSING"
+    name: "MP_Weapons"
+    providedBy: null
+  - status: "MISSING"
+    name: "Postal2Game"
+    providedBy: null
+  - status: "MISSING"
+    name: "nathans"
+    providedBy: null
+  - status: "MISSING"
+    name: "GenFX"
+    providedBy: null
+  - status: "MISSING"
+    name: "MiscSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "Inventory"
+    providedBy: null
+  - status: "MISSING"
+    name: "stuff"
+    providedBy: null
+  - status: "OK"
+    name: "SuperWeaponMeshes"
+    providedBy: null
+  SuperWeaponMeshes.usx:
+  - status: "OK"
+    name: "SuperWeaponTex"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/a/7/001053/SuperWeapons.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "WMD/Napalm Fix"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

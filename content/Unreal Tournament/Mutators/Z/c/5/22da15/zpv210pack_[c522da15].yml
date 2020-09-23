@@ -1,0 +1,65 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:39"
+variationOf: null
+game: "Unreal Tournament"
+name: "ZPV210Pack"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "ZPV210Pack.zip"
+hash: "c522da152f43b3ff963aaebc492d558b0822cdbe"
+fileSize: 589440
+files:
+- name: "ZPDualColorInstagibAddonV210.u"
+  fileSize: 16415
+  hash: "baed374e3c04b75109009d3a46e01fccd3c3a459"
+- name: "ZeroPingBaseV210.u"
+  fileSize: 18682
+  hash: "d8a5b0ca6db52daebff6b6a86ed08485c3905d2e"
+- name: "ZPBasicWeaponsAddonV210.u"
+  fileSize: 39397
+  hash: "931ba60b71170a41e7a240485662f18ee285b267"
+- name: "ZPColorInstagibAddonV210.u"
+  fileSize: 1424746
+  hash: "6df969367a8e7ad3dd709fe1d52a0c8f025cfbd1"
+otherFiles: 5
+dependencies:
+  ZPDualColorInstagibAddonV210.u:
+  - status: "OK"
+    name: "ZeroPingBaseV210"
+    providedBy: null
+  ZPColorInstagibAddonV210.u:
+  - status: "OK"
+    name: "ZeroPingBaseV210"
+    providedBy: null
+  ZPBasicWeaponsAddonV210.u:
+  - status: "OK"
+    name: "ZeroPingBaseV210"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/Z/c/5/22da15/ZPV210Pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Zeroping v2.10 Dual Color Instagib"
+  description: " Colored instagib with zeroping cabilities."
+- name: "Zeroping v2.10 Basic         "
+  description: " Basic Weapons with zeroping cabilities."
+- name: "Zeroping v2.10 Instagib      "
+  description: " Instagib with zeroping cabilities."
+- name: "Zeroping v2.10 EnforcerArena "
+  description: " Enforcer arena with zeroping cabilities."
+- name: "Zeroping v2.10 ShockArena    "
+  description: " Shock arena with zeroping cabilities."
+- name: "Zeroping v2.10 SniperArena   "
+  description: " Sniper arena with zeroping cabilities."
+- name: "Zeroping v2.10 Color Instagib"
+  description: " Colored instagib with zeroping cabilities."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

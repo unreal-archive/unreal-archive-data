@@ -1,0 +1,127 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-09-23 07:33"
+variationOf: null
+game: "Unreal Tournament"
+name: "CSWeapons V16"
+author: "Unknown"
+description: "None"
+releaseDate: "2016-06"
+attachments: []
+originalFilename: "CSWeapons_v16.zip"
+hash: "b7f8cddbc3baccf6e7c2eaa4f1bd538dac62217a"
+fileSize: 70002915
+files:
+- name: "RocketsUT.u"
+  fileSize: 744875
+  hash: "915bf99b22ac5ab7b0b59107af33992c80790dc5"
+- name: "RocketsUTHUD.utx"
+  fileSize: 524566
+  hash: "509d348c710dda43b0bb22cd44f4bfadc3dbaea3"
+- name: "CS_v16.u"
+  fileSize: 31411557
+  hash: "73b5d1654bdff99e8803582f4db8ef91c4a3eeaa"
+- name: "EnhancedItems.u"
+  fileSize: 305235
+  hash: "98732abdedab39a1d22f332eac8bf9a25d9a15d8"
+- name: "RocketsUTSkins.utx"
+  fileSize: 4228080
+  hash: "7cade29e98d80a4d2e0a2e2c3a98c3715bd4716d"
+- name: "RocketsUTAudio.uax"
+  fileSize: 2692637
+  hash: "73f6ff5ee89b3db1f7ee3bfc5fac3d0fbac086ce"
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "RocketsUTFX.utx"
+  fileSize: 2074226
+  hash: "4defcc778f9fff5462c9ac622a6b7fd269c11059"
+otherFiles: 8
+dependencies:
+  RocketsUT.u:
+  - status: "OK"
+    name: "RocketsUTFX"
+    providedBy: null
+  - status: "OK"
+    name: "RocketsUTAudio"
+    providedBy: null
+  - status: "OK"
+    name: "RocketsUTSkins"
+    providedBy: null
+  - status: "OK"
+    name: "RocketsUTHUD"
+    providedBy: null
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  CS_v16.u:
+  - status: "OK"
+    name: "XPickups"
+    providedBy: null
+  - status: "OK"
+    name: "RocketsUT"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/b/7/f8cddb/CSWeapons_v16.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Rockets UT"
+  description: "Replaces weapons with ammo packs for your rocket launcher."
+- name: "Rockets UT Random"
+  description: "Play with all Rockets UT missiles."
+- name: "Rockets UT Descent Style"
+  description: "Play Rockets UT only with the missiles from the Descent series."
+- name: "XPickups Mutator"
+  description: ""
+- name: "X Sniper Arena"
+  description: ""
+- name: "X Shock Arena"
+  description: ""
+- name: "X Rocket Arena"
+  description: ""
+- name: "Counter Strike Weapons v1.6"
+  description: ""
+weapons:
+- name: "Concussion Missile Launcher"
+  description: "Descent weapons"
+- name: "Toxic Rocket Launcher"
+  description: ""
+- name: "Napalm Rocket Launcher"
+  description: "Descent weapons"
+- name: "Flash Missile Launcher"
+  description: "Descent weapons"
+- name: "Plasma Rocket Launcher"
+  description: ""
+- name: "Homing Missile Launcher"
+  description: "Descent weapons"
+- name: "Laser-Guided Missile Launcher"
+  description: ""
+- name: "Cyclone Missile Launcher"
+  description: "Descent weapons"
+- name: "Razor Missile Launcher"
+  description: ""
+- name: "Mercury Missile Launcher"
+  description: "Descent weapons"
+- name: "Frag Missile Launcher"
+  description: "Descent weapons"
+- name: "Seeking Grenade Launcher"
+  description: ""
+- name: "Turret Placer"
+  description: ""
+- name: "Smart Missile Launcher"
+  description: "Descent weapons"
+- name: "Mega Missile Launcher"
+  description: "Descent weapons"
+- name: "Earth Shaker Launcher"
+  description: "Descent weapons"
+- name: "Black Shark Launcher"
+  description: "Descent weapons"
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: true
