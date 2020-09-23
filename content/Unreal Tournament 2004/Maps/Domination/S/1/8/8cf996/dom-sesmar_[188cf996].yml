@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-23 07:23"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DOM-Sesmar"
+author: "Thorsten 'Tyhra' Zastrow"
+description: "Dedicated to all my old UT DOM friends! You are the best. Have fun!\
+  \ Yours Tyhra'*'"
+releaseDate: "2003-08"
+attachments:
+- type: "IMAGE"
+  name: "dom-sesmar_shot_188cf996_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Domination/S/1/8/8cf996/dom-sesmar_shot_188cf996_1.png"
+- type: "IMAGE"
+  name: "dom-sesmar_shot_188cf996_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Domination/S/1/8/8cf996/dom-sesmar_shot_188cf996_2.png"
+originalFilename: "DOM-Sesmar.zip"
+hash: "188cf99671bab064e0cba5f3246d2b84f537b974"
+fileSize: 3004913
+files:
+- name: "SesmarTyhraStatic.usx"
+  fileSize: 16514
+  hash: "fb0d68c5e4b6337ae948e8cfd30fbc92e0e3455c"
+- name: "DOM-Sesmar.ut2"
+  fileSize: 6696524
+  hash: "4b10ab05cf954cdaafc013bb48f6bb56e67c399c"
+- name: "SesmarTyhraTex.utx"
+  fileSize: 1440112
+  hash: "1df413d21040fd75548db8087e6ff7aa43cd4850"
+otherFiles: 2
+dependencies:
+  DOM-Sesmar.ut2:
+  - status: "OK"
+    name: "SesmarTyhraStatic"
+    providedBy: null
+  - status: "OK"
+    name: "SesmarTyhraTex"
+    providedBy: null
+  SesmarTyhraStatic.usx:
+  - status: "OK"
+    name: "SesmarTyhraTex"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Domination/S/1/8/8cf996/DOM-Sesmar.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "The Tomb Of Sesmar"
+playerCount: "Unknown"
+themes:
+  Egyptian: 1.0
+bots: true
