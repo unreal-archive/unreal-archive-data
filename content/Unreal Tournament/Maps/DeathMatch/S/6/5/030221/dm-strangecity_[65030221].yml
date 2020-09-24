@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 02:00"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-StrangeCity"
+author: "André \"Horus\" Brandes"
+description: "StrangeCity"
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-strangecity_shot_65030221_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/6/5/030221/dm-strangecity_shot_65030221_1.png"
+originalFilename: "DM-StrangeCity.zip"
+hash: "65030221a5369fccb938057293a1019c8e24106c"
+fileSize: 2746461
+files:
+- name: "DM-StrangeCity.unr"
+  fileSize: 3160679
+  hash: "0f1bb4c04cce61632e1129e3588d975f7f153585"
+- name: "HorusTextures1.utx"
+  fileSize: 3160096
+  hash: "36c39e5fc009d11d8ecc4ff185c8e72b21320fb5"
+otherFiles: 0
+dependencies:
+  DM-StrangeCity.unr:
+  - status: "OK"
+    name: "HorusTextures1"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-StrangeCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/6/5/030221/DM-StrangeCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-strangecity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "StrangeCity"
+playerCount: "8 - 12"
+themes:
+  Industrial: 0.7
+  City: 0.2
+bots: true
