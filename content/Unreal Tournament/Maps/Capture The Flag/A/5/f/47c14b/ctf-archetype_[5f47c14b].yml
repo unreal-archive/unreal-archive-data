@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:40"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Archetype"
+author: "s1Co"
+description: "WHO TOOK THE REDEEMER???????????????"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-archetype_shot_5f47c14b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/f/47c14b/ctf-archetype_shot_5f47c14b_2.png"
+- type: "IMAGE"
+  name: "ctf-archetype_shot_5f47c14b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/f/47c14b/ctf-archetype_shot_5f47c14b_1.png"
+originalFilename: "ctf-archetype.zip"
+hash: "5f47c14bebd2cc2fc938edc4dd8dc7e995aee378"
+fileSize: 3772509
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "CTF-Archetype.unr"
+  fileSize: 6295633
+  hash: "e0f663877a572e5a62e120507083f80a03f31490"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+otherFiles: 2
+dependencies:
+  CTF-Archetype.unr:
+  - status: "OK"
+    name: "Factory"
+    providedBy: null
+  - status: "OK"
+    name: "richrig"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3608"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/f/47c14b/ctf-archetype.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/f/47c14b/ctf-archetype.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-archetype.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Archetype"
+playerCount: "8-12"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

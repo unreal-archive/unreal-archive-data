@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:12"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-foundry"
+author: "Greg \"Reapin Wombat\" Grimsby"
+description: "Visit www.wombatshole.com for more UTage!"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-foundry_shot_5c07d7a3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/5/c/07d7a3/dm-foundry_shot_5c07d7a3_1.png"
+originalFilename: "dm-foundry.zip"
+hash: "5c07d7a3686e5d9d293b827c7d64af7f5dad4af5"
+fileSize: 3298448
+files:
+- name: "Foundry.utx"
+  fileSize: 2671469
+  hash: "c178b75376fd69641a76f2a0a56725588f68df8d"
+- name: "FoundryObjects.utx"
+  fileSize: 277773
+  hash: "380619862a98c8aa17858cc5e4c4049e42677884"
+- name: "DM-foundry.unr"
+  fileSize: 2811257
+  hash: "a8f7fce95431ef33a392d5adfb7817c334a0480e"
+- name: "FoundryObjects.u"
+  fileSize: 304146
+  hash: "c21aa7ae8e4b21b6ee327747dc899ab27bd1f22a"
+otherFiles: 1
+dependencies:
+  DM-foundry.unr:
+  - status: "OK"
+    name: "FoundryObjects"
+    providedBy: null
+  - status: "OK"
+    name: "Foundry"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/dm-foundry.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dm-foundry.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsF/dm-foundry.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/5/c/07d7a3/dm-foundry.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-foundry.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Foundry"
+playerCount: "3 - 12"
+themes: {}
+bots: true

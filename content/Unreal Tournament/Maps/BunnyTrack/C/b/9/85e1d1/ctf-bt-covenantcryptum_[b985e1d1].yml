@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-22 17:50"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-BT-CovenantCryptum"
+author: "Whitey"
+description: "Welcome to CTF-BT-CovenantBootCamp"
+releaseDate: "2013-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-CovenantCryptum_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/C/CTF-BT-CovenantCryptum_shot_1.png"
+originalFilename: "CTF-BT-CovenantCryptum.zip"
+hash: "b985e1d1a5898f486cff2eb5f68d8c9b4385b16e"
+fileSize: 12118095
+files:
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "xm_rainforest.umx"
+  fileSize: 701222
+  hash: "0a6b5a89414274eec03a301b1b9647873d8a7f3e"
+- name: "CTF-BT-CovenantCryptum.unr"
+  fileSize: 9588828
+  hash: "e5b776b1382660fd5c2206826a7d0549e7925549"
+otherFiles: 0
+dependencies:
+  CTF-BT-CovenantCryptum.unr:
+  - status: "OK"
+    name: "Ambient"
+    providedBy: null
+  - status: "OK"
+    name: "xm_rainforest"
+    providedBy: null
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-CovenantCryptum.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/C/CTF-BT-CovenantCryptum.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/C/b/9/85e1d1/CTF-BT-CovenantCryptum.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-CovenantCryptum.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-CovenantBootCamp"
+playerCount: "1-8"
+themes: {}
+bots: false

@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:29"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Antarctica"
+author: "J. Martin - www.geocities.com/j4unreal"
+description: "None"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-antarctica_shot_2084727b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/2/0/84727b/dm-antarctica_shot_2084727b_1.png"
+- type: "IMAGE"
+  name: "dm-antarctica_shot_2084727b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/2/0/84727b/dm-antarctica_shot_2084727b_2.png"
+originalFilename: "DM-Antarctica.zip"
+hash: "2084727b1626e0de1bf358f8bdd40cb39ea9ab4b"
+fileSize: 1948656
+files:
+- name: "DM-Antarctica-nbnh.unr"
+  fileSize: 1656764
+  hash: "2e67f77f6a1f9335f0bfa43b05f50d9435700b24"
+- name: "aatextures.utx"
+  fileSize: 704667
+  hash: "ade40b67b21c033dbef2c8e121f79f82c241f52c"
+- name: "DM-Antarctica.unr"
+  fileSize: 1712967
+  hash: "6edb462a27bb4e5d85f1747c5a7bcd236e5c86cb"
+- name: "aasounds.uax"
+  fileSize: 264990
+  hash: "2841c04c4eb8a352ff686051a048e311b53caa6f"
+otherFiles: 2
+dependencies:
+  DM-Antarctica-nbnh.unr:
+  - status: "OK"
+    name: "aatextures"
+    providedBy: null
+  - status: "OK"
+    name: "aasounds"
+    providedBy: null
+  DM-Antarctica.unr:
+  - status: "OK"
+    name: "aatextures"
+    providedBy: null
+  - status: "OK"
+    name: "aasounds"
+    providedBy: null
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/ut_only_maps/DM-Antarctica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/2/0/84727b/DM-Antarctica.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/2/0/84727b/DM-Antarctica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-Antarctica.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "A n t a r c t i c a"
+playerCount: "Unknown"
+themes:
+  Tech: 0.8
+  Natural: 0.2
+bots: true

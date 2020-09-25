@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:24"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Tundra"
+author: "Arne \"Ether\" Claassen"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-tundra_shot_1defdf64_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/1/d/efdf64/ctf-tundra_shot_1defdf64_1.png"
+originalFilename: "ctf-tundra.zip"
+hash: "1defdf64f2e9a6955a994a8926fe2a24eb93de26"
+fileSize: 1700895
+files:
+- name: "CTF-Tundra.unr"
+  fileSize: 3201131
+  hash: "1c81b3f38f5304dc48d679d65da1c186450a6156"
+- name: "EverSmoke.umx"
+  fileSize: 795864
+  hash: "cebd445a9b0fb87bfb91c5258586cb8e77be8dc4"
+otherFiles: 1
+dependencies:
+  CTF-Tundra.unr:
+  - status: "OK"
+    name: "EverSmoke"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/1/d/efdf64/ctf-tundra.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/1/d/efdf64/ctf-tundra.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-tundra.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Tundra"
+playerCount: "8-16"
+themes:
+  Natural: 0.3
+  Nali Castle: 0.6
+bots: true

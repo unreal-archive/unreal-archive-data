@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:43"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-lol-Bowling"
+author: "<lol>BK"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-Bowling_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-Bowling_shot_1.png"
+originalFilename: "DM-lol-Bowling.zip"
+hash: "03e9405afb9503bec9a625ae9a8249bab9fdbf4c"
+fileSize: 6957591
+files:
+- name: "lolBowlingPin.u"
+  fileSize: 278803
+  hash: "89b26430ae4e5c52c63878fc01e946ba06bc0d1e"
+- name: "DM-lol-Bowling.unr"
+  fileSize: 6560955
+  hash: "0ddb2cc41e34fe2cf1e49e8370e323179673d2c3"
+- name: "lol-Bowling.utx"
+  fileSize: 3470136
+  hash: "efa5a338c4605e47e6303844767f88478adf93e3"
+- name: "Gel.umx"
+  fileSize: 3976767
+  hash: "9e0ef28944adb9c5505b16122e0a0c09a66628d4"
+otherFiles: 1
+dependencies:
+  DM-lol-Bowling.unr:
+  - status: "OK"
+    name: "lolBowlingPin"
+    providedBy: null
+  - status: "OK"
+    name: "Gel"
+    providedBy: null
+  - status: "OK"
+    name: "lol-Bowling"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6737"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/0/3/e9405a/DM-lol-Bowling.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/0/3/e9405a/DM-lol-Bowling.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-lol-Bowling.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-lol-Bowling"
+playerCount: "1-16"
+themes:
+  Nali Temple: 0.8
+  City: 0.1
+  Natural: 0.1
+bots: true

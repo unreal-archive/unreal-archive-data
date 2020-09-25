@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-02-08 16:44"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-[RAGE]Factory"
+author: "TNT"
+description: "Strap On Your Boots Boys"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-ragefactory_shot_5dac0365_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/5/d/ac0365/dm-ragefactory_shot_5dac0365_1.png"
+originalFilename: "DM-RAGEFactory.zip"
+hash: "5dac03650b62f49b2643ea38e3753a8fa6659d8b"
+fileSize: 820486
+files:
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+- name: "DM-[RAGE]Factory.unr"
+  fileSize: 1417380
+  hash: "0370b8c1e46e70a5effddf62e649f768bde9f486"
+otherFiles: 1
+dependencies:
+  DM-[RAGE]Factory.unr:
+  - status: "OK"
+    name: "DigSh"
+    providedBy: null
+  - status: "MISSING"
+    name: "SGTech1"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/5/d/ac0365/DM-RAGEFactory.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/5/d/ac0365/DM-RAGEFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-RAGEFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[RAGE]Factory"
+playerCount: "3-8"
+themes:
+  Industrial: 0.2
+  Skaarj Tech: 0.8
+bots: true

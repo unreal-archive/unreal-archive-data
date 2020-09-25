@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:56"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-BioFear"
+author: "Jeff {Death4u2} Greer"
+description: "WWW.Death4u2.homestead.com , The home of Death4u2.."
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-biofear_shot_f9ef571a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/f/9/ef571a/dm-biofear_shot_f9ef571a_1.png"
+originalFilename: "dm-biofear.zip"
+hash: "f9ef571a21d9be62b0384cb068db841804e82f5d"
+fileSize: 1703619
+files:
+- name: "Death.utx"
+  fileSize: 1620552
+  hash: "3615a4c6681c3015afc315a5cd4cbd52f7aa9dd7"
+- name: "Neardark.umx"
+  fileSize: 227775
+  hash: "7bd4fc825d8d9fd1490be67c77b90f888b051a3d"
+- name: "DM-BioFear.unr"
+  fileSize: 2324112
+  hash: "fe937522ad91fe2a8f956d2c3f781425c84207de"
+otherFiles: 0
+dependencies:
+  DM-BioFear.unr:
+  - status: "OK"
+    name: "Neardark"
+    providedBy: null
+  - status: "OK"
+    name: "Death"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-biofear.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-biofear.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/f/9/ef571a/dm-biofear.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/f/9/ef571a/dm-biofear.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-biofear.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BioFear"
+playerCount: "12-16"
+themes:
+  Industrial: 1.0
+bots: true

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:42"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-BT-(UTW)DodgeWall"
+author: "[UTW]R@m$e$"
+description: "www.ut-world.eu"
+releaseDate: "2008-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bt-utwdodgewall_shot_5efb749d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/U/5/e/fb749d/ctf-bt-utwdodgewall_shot_5efb749d_1.png"
+- type: "IMAGE"
+  name: "ctf-bt-utwdodgewall_shot_5efb749d_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/U/5/e/fb749d/ctf-bt-utwdodgewall_shot_5efb749d_2.png"
+originalFilename: "CTF-BT-(UTW)DodgeWall.zip"
+hash: "5efb749d6c1cd51313f5b68bdf712c3a6c4e5581"
+fileSize: 1640615
+files:
+- name: "CTF-BT-(UTW)DodgeWall.unr"
+  fileSize: 3597360
+  hash: "cfbc36fb79c8909f439de8bc959cb8f368a30500"
+- name: "SecretsOfEgypt.umx"
+  fileSize: 211197
+  hash: "60e6e685a5da361c9c052dd5245bd2969ef7479b"
+- name: "egyptian.utx"
+  fileSize: 409600
+  hash: "ba96c51b4bfd29e111c7119bcc2ae2d9d5ff068f"
+otherFiles: 2
+dependencies:
+  CTF-BT-(UTW)DodgeWall.unr:
+  - status: "OK"
+    name: "egyptian"
+    providedBy: null
+  - status: "MISSING"
+    name: "CatchTheFrog"
+    providedBy: null
+  - status: "MISSING"
+    name: "DoorsSnd"
+    providedBy: null
+  - status: "OK"
+    name: "SecretsOfEgypt"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7088"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/U/5/e/fb749d/CTF-BT-(UTW)DodgeWall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/U/5/e/fb749d/CTF-BT-(UTW)DodgeWall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-%28UTW%29DodgeWall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Dodge Wall"
+playerCount: "4-16 Bunnytrack"
+themes:
+  Egyptian: 1.0
+bots: false

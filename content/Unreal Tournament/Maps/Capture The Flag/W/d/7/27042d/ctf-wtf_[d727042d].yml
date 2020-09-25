@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:13"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-WTF"
+author: "Eric \"DarMonkey\" Olson"
+description: "What the fuck?!"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-wtf_shot_d727042d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/d/7/27042d/ctf-wtf_shot_d727042d_1.png"
+originalFilename: "ctf-wtf.zip"
+hash: "d727042dc5fa3224c928efcabbab208ada80e893"
+fileSize: 1149393
+files:
+- name: "Mary.umx"
+  fileSize: 1234754
+  hash: "d02a5a22277a28ff9e6ed2c2f67397a96efd252e"
+- name: "CTF-WTF.unr"
+  fileSize: 332306
+  hash: "5bd4c7084f9b965966483fe8504b12bea83dbfed"
+otherFiles: 1
+dependencies:
+  CTF-WTF.unr:
+  - status: "OK"
+    name: "Mary"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=441"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/ctf-wtf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/d/7/27042d/ctf-wtf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=CTF-WTF.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "WTF?!"
+playerCount: "4-14"
+themes:
+  Industrial: 1.0
+bots: true

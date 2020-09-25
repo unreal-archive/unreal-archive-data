@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 00:58"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-BarberShop"
+author: "BronxBobby"
+description: "Care for a Shave?"
+releaseDate: "2007-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-barbershop_shot_7a978ea2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/7/a/978ea2/dm-barbershop_shot_7a978ea2_1.png"
+originalFilename: "DM-BarberShop.zip"
+hash: "7a978ea2ecf5ae2e1010e2da688c966cb07e3eac"
+fileSize: 4076416
+files:
+- name: "BShop1.umx"
+  fileSize: 4358915
+  hash: "934c04f3b7f2d5719b2fd53bb92d2ee6156d7f16"
+- name: "DM-BarberShop.unr"
+  fileSize: 1534067
+  hash: "c1d83a2209e60b1ab8f4c56cb0dc0588c33cfeec"
+- name: "BarberShop.utx"
+  fileSize: 1554959
+  hash: "e49da2e7909337c08a0f03d047787761e17a0100"
+otherFiles: 0
+dependencies:
+  DM-BarberShop.unr:
+  - status: "OK"
+    name: "BShop1"
+    providedBy: null
+  - status: "OK"
+    name: "BarberShop"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-BarberShop.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/7/a/978ea2/DM-BarberShop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-BarberShop.ZIP.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BarberShop"
+playerCount: "2-15"
+themes: {}
+bots: true

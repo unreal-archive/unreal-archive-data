@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:25"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-VSK-Arena"
+author: "[VSK]AssWaxer"
+description: "None"
+releaseDate: "2011-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-vsk-arena_shot_c8a00765_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/V/c/8/a00765/dm-vsk-arena_shot_c8a00765_1.png"
+originalFilename: "DM-VSK-Arena.zip"
+hash: "c8a007653a2595438ef4d345f9c9295ff858ab6a"
+fileSize: 1911418
+files:
+- name: "DM-VSK-Arena.unr"
+  fileSize: 154024
+  hash: "6f465bd963ff63b1fa506836793fc75d44a322a4"
+- name: "slip.umx"
+  fileSize: 2164548
+  hash: "a969c7fae9e845742123f9ebb665a87f0229e2ca"
+otherFiles: 0
+dependencies:
+  DM-VSK-Arena.unr:
+  - status: "OK"
+    name: "slip"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/V/DM-VSK-Arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/V/c/8/a00765/DM-VSK-Arena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-vsk-arena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-VSK-Arena"
+playerCount: "3-12"
+themes:
+  Industrial: 1.0
+bots: true

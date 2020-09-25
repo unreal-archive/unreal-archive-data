@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:45"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-citylink"
+author: "Stefan [S-Dot] Doetschel"
+description: "Take a ride on"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-citylink_shot_e26549a1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/6549a1/ctf-citylink_shot_e26549a1_1.png"
+originalFilename: "ctf-citylink.zip"
+hash: "e26549a1d95b48d79cfea87ec1c28db960da8a36"
+fileSize: 2391151
+files:
+- name: "citylink.utx"
+  fileSize: 863836
+  hash: "9e51a3af25e25e8fc64727ce06e05c1293776f26"
+- name: "CTF-citylink.unr"
+  fileSize: 6615851
+  hash: "904b7db180a932efaf45e570270eced55bffa728"
+otherFiles: 0
+dependencies:
+  CTF-citylink.unr:
+  - status: "OK"
+    name: "citylink"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=106"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/6549a1/ctf-citylink.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/6549a1/ctf-citylink.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-citylink.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Citylink"
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  Industrial: 0.5
+  City: 0.2
+bots: true

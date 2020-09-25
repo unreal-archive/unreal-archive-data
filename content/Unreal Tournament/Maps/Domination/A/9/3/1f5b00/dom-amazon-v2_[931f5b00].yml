@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-13 17:04"
+variationOf: null
+game: "Unreal Tournament"
+name: "DOM-Amazon v2"
+author: "Sean \"devilbunny\" Bonney - anvil-studio.com"
+description: "Welcome to DOM-Amazon v2"
+releaseDate: "2000-02"
+attachments:
+- type: "IMAGE"
+  name: "DOM-Amazon_v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/A/DOM-Amazon_v2_shot_1.png"
+originalFilename: "dom-amazon.zip"
+hash: "931f5b004b0d36666c9097d6a0629daed576e79d"
+fileSize: 2542472
+files:
+- name: "DOM-Amazon v2.unr"
+  fileSize: 2475971
+  hash: "c175e537630d76b0119411f137df8d62b0e566c7"
+- name: "AmazonTEX.utx"
+  fileSize: 2039859
+  hash: "14d4cd2bb25acdca69f3e418f0269ddcf7b9b916"
+otherFiles: 1
+dependencies:
+  DOM-Amazon v2.unr:
+  - status: "OK"
+    name: "AmazonTEX"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/A/9/3/1f5b00/dom-amazon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/A/9/3/1f5b00/dom-amazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination/&file=dom-amazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Amazon v2"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.7
+  Ancient: 0.2
+  Natural: 0.1
+bots: true

@@ -1,0 +1,61 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:50"
+variationOf: null
+game: "Unreal Tournament"
+name: "Redeemer2k4"
+author: "adding the following"
+description: "None"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "Redeemer2k4.zip"
+hash: "c2400e28a9b60ef5b7eb3d0c258f0752000c0247"
+fileSize: 831199
+files:
+- name: "Vengeance2k4.u"
+  fileSize: 63573
+  hash: "f04605743aefd622312a9233c8149f1327f8095a"
+- name: "Redeemer2k4.u"
+  fileSize: 1361238
+  hash: "7f57eb037a8c444381a0fac3bb600e6e94615f8e"
+- name: "EnhancedItems.u"
+  fileSize: 303477
+  hash: "e549be5772372c134bd0140be05a33e4183ffdcb"
+otherFiles: 4
+dependencies:
+  Redeemer2k4.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  Vengeance2k4.u:
+  - status: "OK"
+    name: "Redeemer2k4"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/R/Redeemer2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/R/c/2/400e28/Redeemer2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Weapons/&file=Redeemer2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Redeemer 2k4"
+  description: "Upgrade the Redeemer with UT2004 sounds and visual effects."
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

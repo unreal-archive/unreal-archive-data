@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:35"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Westworld"
+author: "J. Martin - www.geocities.com/j4unreal"
+description: "DRAW!"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-westworld_shot_404fcb80_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/4/0/4fcb80/dm-westworld_shot_404fcb80_1.png"
+originalFilename: "DM-Westworld.zip"
+hash: "404fcb80160ed03256e51b5cff6206eab31de193"
+fileSize: 1077372
+files:
+- name: "Westworld.utx"
+  fileSize: 177645
+  hash: "b82d3abf064edfa3efcb06b106aa5245158f39b7"
+- name: "DM-Westworld-nb.unr"
+  fileSize: 905060
+  hash: "3559bfe5caf05c537e183b814336aa1ef81082bc"
+- name: "WestworldSnd.uax"
+  fileSize: 254063
+  hash: "783f2e47e470b0e219c60342ae173a0cf15a28c0"
+- name: "MaleTwoBotNPC.u"
+  fileSize: 1054
+  hash: "73332831e3f8f7f6cfb56d2a0820452209f7e061"
+- name: "DM-Westworld.unr"
+  fileSize: 993965
+  hash: "ba0672c57ecfe97919eccb5cc953bb62f00d937a"
+otherFiles: 1
+dependencies:
+  DM-Westworld.unr:
+  - status: "OK"
+    name: "WestworldSnd"
+    providedBy: null
+  - status: "MISSING"
+    name: "DMWestworldSnd"
+    providedBy: null
+  DM-Westworld-nb.unr:
+  - status: "OK"
+    name: "WestworldSnd"
+    providedBy: null
+  - status: "MISSING"
+    name: "DMWestworldSnd"
+    providedBy: null
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/ut_only_maps/DM-Westworld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/4/0/4fcb80/DM-Westworld.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/4/0/4fcb80/DM-Westworld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-Westworld.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "WESTWORLD"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

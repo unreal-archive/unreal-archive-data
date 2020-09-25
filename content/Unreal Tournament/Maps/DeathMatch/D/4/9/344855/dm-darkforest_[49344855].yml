@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:12"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-DarkForest"
+author: "-=NodaReloaded>"
+description: "None"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-darkforest_shot_49344855_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/4/9/344855/dm-darkforest_shot_49344855_1.png"
+- type: "IMAGE"
+  name: "dm-darkforest_shot_49344855_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/4/9/344855/dm-darkforest_shot_49344855_2.png"
+originalFilename: "dm-darkforest.zip"
+hash: "493448559e9b970739f42a94601a69b5759e3839"
+fileSize: 1728516
+files:
+- name: "Mac10.u"
+  fileSize: 582545
+  hash: "ec35d0624ac5396f31642cf9729f107edbb043b4"
+- name: "ApplesRebelMac.u"
+  fileSize: 711935
+  hash: "5878930e39f7993263b7739b83c6ddeb0a6feb05"
+- name: "BuniDuster2.u"
+  fileSize: 508084
+  hash: "a18760ff71aaf7a340e9420b5bf00fd09bc93917"
+- name: "DM-DarkForest.unr"
+  fileSize: 2905603
+  hash: "d21c76043a8831f2d87571256104213713e97471"
+otherFiles: 1
+dependencies:
+  DM-DarkForest.unr:
+  - status: "OK"
+    name: "Mac10"
+    providedBy: null
+  - status: "OK"
+    name: "BuniDuster2"
+    providedBy: null
+  - status: "OK"
+    name: "ApplesRebelMac"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4969"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-darkforest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/4/9/344855/dm-darkforest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-DarkForest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "<DarkForest>"
+playerCount: "8-16"
+themes:
+  Natural: 0.9
+bots: false
