@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:58"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Sniperfield"
+author: "Hanh \"Wanderer\" Court (Edited by [A-Q]Cheese)"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-sniperfield_shot_ec8c680b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/e/c/8c680b/dm-sniperfield_shot_ec8c680b_1.png"
+originalFilename: "DM-Sniperfield.zip"
+hash: "ec8c680b328e20a92727a3982db34b33ecdc348c"
+fileSize: 1657385
+files:
+- name: "DM-Sniperfield.unr"
+  fileSize: 2063451
+  hash: "2c7763e615f940c0749ea4c8697f8655da0af5d4"
+- name: "CT4.utx"
+  fileSize: 266373
+  hash: "2434b2c626b06dda018e35b3123cb693af805260"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+otherFiles: 1
+dependencies:
+  DM-Sniperfield.unr:
+  - status: "OK"
+    name: "CT4"
+    providedBy: null
+  - status: "OK"
+    name: "Citytex"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/e/c/8c680b/DM-Sniperfield.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/e/c/8c680b/DM-Sniperfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-sniperfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sniperfield"
+playerCount: "4-10"
+themes:
+  Industrial: 0.5
+  Natural: 0.2
+  Skaarj Tech: 0.3
+bots: true

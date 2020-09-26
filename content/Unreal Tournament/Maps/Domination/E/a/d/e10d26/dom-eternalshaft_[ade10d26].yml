@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 23:03"
+variationOf: null
+game: "Unreal Tournament"
+name: "DOM-EternalShaft"
+author: "Jody \"bigstep_70\" Picard"
+description: "Control is the key..."
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "dom-eternalshaft_shot_ade10d26_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/E/a/d/e10d26/dom-eternalshaft_shot_ade10d26_1.png"
+originalFilename: "dom-eternalshaft.zip"
+hash: "ade10d2662464f0b1b0186f7868bee45e2939b11"
+fileSize: 2513315
+files:
+- name: "EternalShaft.utx"
+  fileSize: 1153532
+  hash: "8f9b6a0859cf9f30db21f93fb809835765c0ff91"
+- name: "DOM-EternalShaft.unr"
+  fileSize: 5685578
+  hash: "65c09d2693c8ad8976860a0bb60ea846367600d8"
+otherFiles: 0
+dependencies:
+  DOM-EternalShaft.unr:
+  - status: "OK"
+    name: "EternalShaft"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2445"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/E/a/d/e10d26/dom-eternalshaft.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/E/a/d/e10d26/dom-eternalshaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination/&file=dom-eternalshaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Eternal Shaft"
+playerCount: "2-16"
+themes:
+  Natural: 1.0
+bots: true

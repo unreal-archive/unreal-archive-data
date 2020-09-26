@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:01"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-[SI]-13CLAN-Unhinged"
+author: "Brandon \"SuddenImpact\" Landis"
+description: "If you can't afford to lose, don't bet!"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-si-13clan-unhinged_shot_b7c4a0d6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/b/7/c4a0d6/dm-si-13clan-unhinged_shot_b7c4a0d6_1.png"
+- type: "IMAGE"
+  name: "dm-si-13clan-unhinged_shot_b7c4a0d6_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/b/7/c4a0d6/dm-si-13clan-unhinged_shot_b7c4a0d6_2.png"
+originalFilename: "dm-[si]-13clan-unhinged.zip"
+hash: "b7c4a0d6d0c415baf7b6de52165e1ee0ec77bac3"
+fileSize: 3324746
+files:
+- name: "suddenimpact1.utx"
+  fileSize: 1503028
+  hash: "7699a080a0a5b539d847bc90e0e98f216c762b3f"
+- name: "DM-[SI]-13CLAN-Unhinged.unr"
+  fileSize: 1655836
+  hash: "d81ef9ae82b0f120c7c8f5f0def086a900e53002"
+- name: "QUAKE3c.utx"
+  fileSize: 1756884
+  hash: "24825a99bdc76cda3eb138fdf37d69e510d560f9"
+- name: "metalRealm.umx"
+  fileSize: 1429132
+  hash: "66952cdb4f8c383dfa31f1f377ec17cd8ffd94b0"
+otherFiles: 2
+dependencies:
+  DM-[SI]-13CLAN-Unhinged.unr:
+  - status: "OK"
+    name: "metalRealm"
+    providedBy: null
+  - status: "OK"
+    name: "suddenimpact1"
+    providedBy: null
+  - status: "OK"
+    name: "QUAKE3c"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1967"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-%5Bsi%5D-13clan-unhinged.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/b/7/c4a0d6/dm-%255Bsi%255D-13clan-unhinged.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-%5Bsi%5D-13clan-unhinged.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-[SI]-13CLAN-Unhinged.unr"
+playerCount: "10"
+themes:
+  Tech: 1.0
+bots: true

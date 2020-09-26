@@ -1,0 +1,47 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-10-12 18:18"
+variationOf: null
+game: "Unreal Tournament"
+name: "Infiltration Weapons"
+author: "Unknown"
+description: " Combat with weapons included in the original Infiltration."
+releaseDate: "1999-11"
+attachments: []
+originalFilename: "InfMutator_Beta.zip"
+hash: "8ba19e7d08daea3ea0652beefb31651b4839d312"
+fileSize: 2861434
+files:
+- name: "InfMutator.u"
+  fileSize: 21003
+  hash: "dc9eccc087730045b88cb40b62f5ef913414b746"
+- name: "InfiltrationUT.u"
+  fileSize: 5754480
+  hash: "b7a309dbfc8ffd11323dedbc7cfd645f9e93d9f0"
+otherFiles: 2
+dependencies:
+  InfMutator.u:
+  - status: "OK"
+    name: "InfiltrationUT"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/8/b/a19e7d/InfMutator_Beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/I/8/b/a19e7d/InfMutator_Beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=InfMutator_Beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Infiltration Weapons"
+  description: " Combat with weapons included in the original Infiltration."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

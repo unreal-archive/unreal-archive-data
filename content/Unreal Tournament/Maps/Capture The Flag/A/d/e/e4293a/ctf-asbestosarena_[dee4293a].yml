@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:40"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-AsbestosArenA"
+author: "Andy Monroe a.k.a. [H]|ChrySa0r"
+description: "www.chrysaor.org"
+releaseDate: "1999-11"
+attachments:
+- type: "IMAGE"
+  name: "ctf-asbestosarena_shot_dee4293a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/d/e/e4293a/ctf-asbestosarena_shot_dee4293a_1.png"
+originalFilename: "ctf-asbestosarena.zip"
+hash: "dee4293ac20c2c3bae62aade8bc606af597e3898"
+fileSize: 4125056
+files:
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "CTF-AsbestosArenA.unr"
+  fileSize: 5641296
+  hash: "26149ebb326145bdb1eea7bd3927da05ce9cb667"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+otherFiles: 3
+dependencies:
+  CTF-AsbestosArenA.unr:
+  - status: "OK"
+    name: "Fallout"
+    providedBy: null
+  - status: "OK"
+    name: "Citytex"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=108"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/d/e/e4293a/ctf-asbestosarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/d/e/e4293a/ctf-asbestosarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-asbestosarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Asbestos ArenA"
+playerCount: "8-14 Players"
+themes:
+  Industrial: 0.5
+  Skaarj Tech: 0.4
+bots: true

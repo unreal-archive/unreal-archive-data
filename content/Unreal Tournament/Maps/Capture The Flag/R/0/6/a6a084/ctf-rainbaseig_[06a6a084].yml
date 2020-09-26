@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:42"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-RainbaseIG"
+author: "NV|Quick & NV|Sh0ck"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-rainbaseig_shot_06a6a084_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/0/6/a6a084/ctf-rainbaseig_shot_06a6a084_1.png"
+originalFilename: "CTF-RainbaseIG.zip"
+hash: "06a6a084793413f2cf6ece58d908abe0155a8178"
+fileSize: 5833459
+files:
+- name: "RainIG.utx"
+  fileSize: 795618
+  hash: "4232103a7ff31bd4f727839f9edd987f9bad8470"
+- name: "SSPX2.utx"
+  fileSize: 7909204
+  hash: "63c771dd8db7e175ecf1f8e6d16d6b804a40a3bd"
+- name: "CTF-RainbaseIG.unr"
+  fileSize: 1530975
+  hash: "0185effc3bb7b4a1d6e13956410aa8bd3f395e2e"
+otherFiles: 1
+dependencies:
+  CTF-RainbaseIG.unr:
+  - status: "OK"
+    name: "RainIG"
+    providedBy: null
+  - status: "OK"
+    name: "SSPX2"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-RainbaseIG.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/0/6/a6a084/CTF-RainbaseIG.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-rainbaseig.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Rain Base IG"
+playerCount: "6-12"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+bots: true

@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:41"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Scythan"
+author: "Michael \"Jimbo\" Cordingley"
+description: "None"
+releaseDate: "1999-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-scythan_shot_1a976731_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/1/a/976731/dm-scythan_shot_1a976731_1.png"
+originalFilename: "DM-scythan.zip"
+hash: "1a9767318db3eaed0b42d01c9a1df139a1fe81e3"
+fileSize: 1062448
+files:
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "DM-Scythan.unr"
+  fileSize: 2843816
+  hash: "8a5c7598d7719401a1b49e21146cc27ef3f78530"
+otherFiles: 2
+dependencies:
+  DM-Scythan.unr:
+  - status: "OK"
+    name: "Watcher"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-scythan.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/1/a/976731/DM-scythan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-scythan.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Scythan Temple"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.8
+  Natural: 0.1
+bots: true

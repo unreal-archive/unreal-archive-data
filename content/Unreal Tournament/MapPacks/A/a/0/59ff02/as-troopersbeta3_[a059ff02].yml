@@ -1,0 +1,104 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-12 18:31"
+variationOf: null
+game: "Unreal Tournament"
+name: "AS Troopersbeta3"
+author: "Julian 'Chand' Marcone"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "as-troopersbeta3_shot_a059ff02_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/A/a/0/59ff02/as-troopersbeta3_shot_a059ff02_1.png"
+originalFilename: "AS-Troopersbeta3.zip"
+hash: "a059ff02e9941e2749bee8a5437fdba5f9b18d11"
+fileSize: 1709925
+files:
+- name: "Warren1.utx"
+  fileSize: 612257
+  hash: "430b4dfc7e0b2f457ef77923ac8ec32af2224baa"
+- name: "DM-INFShootingRange.unr"
+  fileSize: 216364
+  hash: "178a61feca44ca89b45be46de91034d1e262ba3a"
+- name: "NBSpecialsUT.u"
+  fileSize: 239628
+  hash: "603bfb151155bd4d8e91c691afd040c63590be55"
+- name: "NBCRM.u"
+  fileSize: 55251
+  hash: "3be25f7deb275db8d70f19acd78e8b96fc7e019d"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "CLTroopers.utx"
+  fileSize: 308722
+  hash: "80be20dbdd1995d663234544b33f0886ff6fd2b7"
+- name: "AS-Troopersbeta3.unr"
+  fileSize: 1805128
+  hash: "e699471f9e3a323558deccbb8b79c8ca63376047"
+otherFiles: 4
+dependencies:
+  AS-Troopersbeta3.unr:
+  - status: "OK"
+    name: "InfAdds"
+    providedBy: null
+  - status: "MISSING"
+    name: "dockside"
+    providedBy: null
+  - status: "MISSING"
+    name: "ModernTextures1"
+    providedBy: null
+  - status: "MISSING"
+    name: "Bstretz"
+    providedBy: null
+  - status: "MISSING"
+    name: "Blade"
+    providedBy: null
+  - status: "OK"
+    name: "CLTroopers"
+    providedBy: null
+  - status: "MISSING"
+    name: "InfiltrationUT"
+    providedBy: null
+  NBSpecialsUT.u:
+  - status: "OK"
+    name: "NBSpecialT"
+    providedBy: null
+  DM-INFShootingRange.unr:
+  - status: "OK"
+    name: "InfAdds"
+    providedBy: null
+  - status: "OK"
+    name: "Warren1"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/A/a/0/59ff02/AS-Troopersbeta3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/A/a/0/59ff02/AS-Troopersbeta3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault/&file=AS-Troopersbeta3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-INFShootingRange"
+  title: "DM-INFShootingRange"
+  author: "Unknown"
+- name: "AS-Troopersbeta3"
+  title: "Troopers"
+  author: "Julian 'Chand' Marcone"
+gametype: "Mixed"
+themes:
+  Tech: 0.3
+  Ancient: 0.1
+  Natural: 0.4
+  Skaarj Tech: 0.1
+  Indistrial: 0.1

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:43"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-PrimalRage"
+author: "Marc \"Watersharer\" Bryce"
+description: "What do you think?....marcbryce@hotmail.com"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-primalrage_shot_b23c00ac_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/b/2/3c00ac/dm-primalrage_shot_b23c00ac_1.png"
+originalFilename: "DM-PrimalRage.zip"
+hash: "b23c00ac459f1628ec175c6bf0bbd711c895fcf6"
+fileSize: 756606
+files:
+- name: "DM-PrimalRage.unr"
+  fileSize: 2040549
+  hash: "b1c80822773c21f10ba6c49cae39f69825b0eb4e"
+- name: "Artwork.utx"
+  fileSize: 308700
+  hash: "e5682c583006bb4c111fe2b66df93db5d1329ddf"
+otherFiles: 1
+dependencies:
+  DM-PrimalRage.unr:
+  - status: "OK"
+    name: "Artwork"
+    providedBy: null
+  - status: "MISSING"
+    name: "a3text"
+    providedBy: null
+  - status: "MISSING"
+    name: "TG1"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/b/2/3c00ac/DM-PrimalRage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/b/2/3c00ac/DM-PrimalRage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-PrimalRage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-PrimalRage"
+playerCount: "6-8"
+themes:
+  Industrial: 0.2
+  Ancient: 0.1
+  Egyptian: 0.1
+  City: 0.6
+bots: true

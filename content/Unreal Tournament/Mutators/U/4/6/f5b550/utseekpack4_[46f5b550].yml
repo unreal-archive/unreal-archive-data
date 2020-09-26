@@ -1,0 +1,92 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 22:12"
+variationOf: null
+game: "Unreal Tournament"
+name: "Utseekpack4"
+author: "the flag carrier when"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "Utseekpack4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/U/Utseekpack4_shot_1.png"
+originalFilename: "utseekpack4.zip"
+hash: "46f5b550d345f07f238e38d2681dd7c00b26d233"
+fileSize: 308332
+files:
+- name: "Protector.u"
+  fileSize: 14119
+  hash: "36b87b60847a2d6678c4fcdbc6f8b06675dea25d"
+- name: "MyPackage.u"
+  fileSize: 323257
+  hash: "5f788b8139690bacd88e87081f566abf0438a808"
+- name: "Mechmod.u"
+  fileSize: 281562
+  hash: "47c0bd1b8da0b66c79f6008239d710fbae16a8e8"
+- name: "FFgun.u"
+  fileSize: 22077
+  hash: "958a4bc26f815d90546f04b019a94e1804bfedcb"
+- name: "Seekers.u"
+  fileSize: 30870
+  hash: "2966fdc287d62537e22ad1187a7e47ce4ac7a45c"
+- name: "ChaosTrap.u"
+  fileSize: 117663
+  hash: "5a51c6ab1a80fb698694f73c8574e42dc7ff6400"
+otherFiles: 9
+dependencies:
+  Protector.u:
+  - status: "OK"
+    name: "MyPackage"
+    providedBy: null
+  MyPackage.u:
+  - status: "OK"
+    name: "Mechmod"
+    providedBy: null
+  ChaosTrap.u:
+  - status: "OK"
+    name: "FFGun"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/U/utseekpack4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/U/4/6/f5b550/utseekpack4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=utseekpack4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "A - FireFly Cannon"
+  description: " A fat flak cannon that fires seeking fireflies."
+- name: "A - *Protector - Short term"
+  description: " When someone dies a handy protector usually spawns. This is the short\
+    \ lasting version for busy games."
+- name: "A - *Protector - Long lasting"
+  description: " When someone dies a handy protector often spawns. This extra long\
+    \ lasting version is for less populated games."
+- name: "A - Chaos Trap"
+  description: " adds the CHAOS TRAP"
+- name: "A - Mech Mod"
+  description: " You can become a powerful cybermachine with the alt fire of your\
+    \ gun."
+- name: "A - SeekerSnipers"
+  description: " adds seeksnipe rifles"
+- name: "A - * Seekers Pack *"
+  description: " Replaces original UT weapons with the Seekers Pack weapons. Includes\
+    \ all Seekers weapon mutators (but not the ones with a * such as *Fatfeed."
+- name: "A - Ship Launcher"
+  description: " start with shiplaunchers. Use with or without the main Seekers Pack\
+    \ mutator."
+- name: "A - Grav Gun"
+  description: " start with a gravity gun. Use with or without the main Seekers Pack\
+    \ mutator."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

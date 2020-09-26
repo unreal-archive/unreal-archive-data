@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-13 17:02"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Midtown"
+author: "Pavel 'NeSoLo' Bazylevich"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-midtown_shot_ba83c161_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/b/a/83c161/ctf-midtown_shot_ba83c161_2.png"
+- type: "IMAGE"
+  name: "ctf-midtown_shot_ba83c161_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/b/a/83c161/ctf-midtown_shot_ba83c161_1.png"
+originalFilename: "ctf-midtown.zip"
+hash: "ba83c161f437478d087773d0793997483cd02540"
+fileSize: 2688804
+files:
+- name: "CTF-Midtown.unr"
+  fileSize: 1763023
+  hash: "916ef23bd4252e6d431dfa9d0c3b416b89207cda"
+- name: "NBSpecialT.utx"
+  fileSize: 116962
+  hash: "724fcd8a98dcb1866d02c9577b8a9120fa6ce841"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "da.utx"
+  fileSize: 1059038
+  hash: "581db1531f2c950c576f14b3bd6eab878d21f0ae"
+- name: "NBSpecials.u"
+  fileSize: 89581
+  hash: "41d71bb88819159152a559aadfa5a1380f1c42e7"
+otherFiles: 2
+dependencies:
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+    providedBy: null
+  CTF-Midtown.unr:
+  - status: "OK"
+    name: "NBSpecials"
+    providedBy: null
+  - status: "OK"
+    name: "a3text"
+    providedBy: null
+  - status: "OK"
+    name: "da"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/b/a/83c161/ctf-midtown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/b/a/83c161/ctf-midtown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-midtown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Midtown"
+playerCount: "8 - 12"
+themes:
+  Tech: 0.3
+  Industrial: 0.1
+  Ancient: 0.2
+  City: 0.3
+bots: true

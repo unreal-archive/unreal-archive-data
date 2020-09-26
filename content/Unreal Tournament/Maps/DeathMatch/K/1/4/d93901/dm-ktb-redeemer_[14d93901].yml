@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:20"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-KTB-Redeemer"
+author: "Ed \"KING Nipple\" Schack"
+description: "Prepar to be NUKED!!!"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-ktb-redeemer_shot_14d93901_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/1/4/d93901/dm-ktb-redeemer_shot_14d93901_1.png"
+originalFilename: "dm-ktb-redeemer.zip"
+hash: "14d939016e967deabf2ba54828e45137a2fb7b94"
+fileSize: 1473002
+files:
+- name: "DM-KTB-Redeemer.unr"
+  fileSize: 620147
+  hash: "9329646de4d097376858d00c76c6c3b6b7b5619e"
+- name: "KTBredeemer.utx"
+  fileSize: 1018085
+  hash: "889c8695657edded0e378238e77ab823169109e7"
+- name: "metalRealm.umx"
+  fileSize: 1429132
+  hash: "66952cdb4f8c383dfa31f1f377ec17cd8ffd94b0"
+otherFiles: 1
+dependencies:
+  DM-KTB-Redeemer.unr:
+  - status: "OK"
+    name: "metalRealm"
+    providedBy: null
+  - status: "OK"
+    name: "KTBredeemer"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/dm-ktb-redeemer.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dm-ktb-redeemer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsK/dm-ktb-redeemer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/DM-KTB-Redeemer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/1/4/d93901/dm-ktb-redeemer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-ktb-redeemer.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-KTB-Redeemer"
+playerCount: "2-20"
+themes:
+  Tech: 1.0
+bots: false

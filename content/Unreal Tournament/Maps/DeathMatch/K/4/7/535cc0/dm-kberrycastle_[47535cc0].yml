@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:31"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-KberryCastle"
+author: "Michael North"
+description: "None"
+releaseDate: "2003-03"
+attachments: []
+originalFilename: "DM-KberryCastle.zip"
+hash: "47535cc0449882daef8326f40fd7caa3162f9dcb"
+fileSize: 4458187
+files:
+- name: "DM-KberryCastle.unr"
+  fileSize: 4270846
+  hash: "a48c59032fe27822c6f5de5ddd2ac89afa1b90c8"
+- name: "mntex.utx"
+  fileSize: 2145768
+  hash: "e03a5b5b5b59d0d73b82ab402f48b3842b3c7fef"
+- name: "mnsounds1.uax"
+  fileSize: 2300742
+  hash: "f3aa53560d181d505c80583ae2b0181de6a8013c"
+otherFiles: 0
+dependencies:
+  DM-KberryCastle.unr:
+  - status: "OK"
+    name: "mntex"
+    providedBy: null
+  - status: "OK"
+    name: "mnsounds1"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/DM-KberryCastle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/4/7/535cc0/DM-KberryCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-kberrycastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Kingsberry Castle"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.7
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+bots: true

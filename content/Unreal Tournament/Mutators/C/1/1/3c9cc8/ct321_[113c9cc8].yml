@@ -1,0 +1,61 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 22:00"
+variationOf: null
+game: "Unreal Tournament"
+name: "Ct321"
+author: "Cutter"
+description: "None"
+releaseDate: "2000-03"
+attachments: []
+originalFilename: "ct321.zip"
+hash: "113c9cc84fa13d7473d4bf9400d94f1f05077ed7"
+fileSize: 55869
+files:
+- name: "EagleMute.u"
+  fileSize: 1777
+  hash: "de5aca6e49972d7335a673975fe6993d1ea1da07"
+- name: "CT3Mute.u"
+  fileSize: 82524
+  hash: "eeae0dbdb46f6b55f8f41af77bc80c472c7c60f6"
+- name: "CT3.u"
+  fileSize: 89442
+  hash: "753eaef8152c07b594e3597678d3878bb8d366d1"
+- name: "DoubleEagleMute.u"
+  fileSize: 5099
+  hash: "c39a4c34cfc9f34f6a6df44e34a5ee9001809bab"
+otherFiles: 5
+dependencies:
+  EagleMute.u:
+  - status: "OK"
+    name: "CT3"
+    providedBy: null
+  DoubleEagleMute.u:
+  - status: "OK"
+    name: "CT3"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/ct321.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/C/1/1/3c9cc8/ct321.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=ct321.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Cutter's DoubleEagle Mute"
+  description: ""
+- name: "Cutter's Eagle Mute"
+  description: ""
+- name: "Cutter's CT3 Weapons !!!"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

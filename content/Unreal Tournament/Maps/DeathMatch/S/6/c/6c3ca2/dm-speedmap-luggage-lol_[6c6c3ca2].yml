@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 21:08"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Speedmap-Luggage-LOL"
+author: "Jan 'Luggage' Kaluza"
+description: "None"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-speedmap-luggage-lol_shot_6c6c3ca2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/6/c/6c3ca2/dm-speedmap-luggage-lol_shot_6c6c3ca2_1.png"
+originalFilename: "dm-speedmap-luggage-lol.zip"
+hash: "6c6c3ca2dc408dddfe2ce06c25428895adcfe257"
+fileSize: 1802050
+files:
+- name: "DM-Speedmap-Luggage-LOL.unr"
+  fileSize: 1059736
+  hash: "0670aec2bea305ee6a4ede7f74b89d95702178f1"
+- name: "LuggEnv.utx"
+  fileSize: 3547493
+  hash: "27a68431a190b517f1392bcebb965e1c2310ad20"
+otherFiles: 1
+dependencies:
+  DM-Speedmap-Luggage-LOL.unr:
+  - status: "OK"
+    name: "LuggEnv"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-speedmap-luggage-lol.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/6/c/6c3ca2/dm-speedmap-luggage-lol.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-speedmap-luggage-lol.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Speedmap: The Tower of LOL"
+playerCount: "2-8"
+themes: {}
+bots: true
