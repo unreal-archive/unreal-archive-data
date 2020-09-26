@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:41"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-TUC-Madness"
+author: "TUC Markus   Mark Anderson"
+description: "None"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-TUC-Madness_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-TUC-Madness_shot_2.png"
+- type: "IMAGE"
+  name: "DM-TUC-Madness_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-TUC-Madness_shot_1.png"
+originalFilename: "dm-tuc-madness.zip"
+hash: "ee0c143edfe45e5496f26079aa5310f0d5fa8648"
+fileSize: 16509020
+files:
+- name: "DM-TUC-Madness.unr"
+  fileSize: 1331954
+  hash: "208be51d6c76c21d81d119086b4fa0ccb7fa59f9"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "TUCLayla.umx"
+  fileSize: 14679983
+  hash: "74843312241d3da3f05affa69cda41edcfa00d38"
+- name: "TUC-Madness.utx"
+  fileSize: 67024
+  hash: "bbc4806c9524166ca465410a17bd74530bb30df6"
+otherFiles: 2
+dependencies:
+  DM-TUC-Madness.unr:
+  - status: "OK"
+    name: "sky"
+    providedBy: null
+  - status: "OK"
+    name: "TUCLayla"
+    providedBy: null
+  - status: "OK"
+    name: "TUC-Madness"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4658"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/dm-tuc-madness.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/e/e/0c143e/dm-tuc-madness.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-tuc-madness.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TUC-Madness"
+playerCount: "Unknown"
+themes: {}
+bots: true

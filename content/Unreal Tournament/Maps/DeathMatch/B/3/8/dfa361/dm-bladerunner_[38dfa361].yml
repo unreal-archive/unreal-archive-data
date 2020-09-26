@@ -1,0 +1,100 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:29"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Bladerunner"
+author: "J. Martin - www.geocities.com/j4unreal"
+description: "November - 2019"
+releaseDate: "2006-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-bladerunner_shot_38dfa361_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/3/8/dfa361/dm-bladerunner_shot_38dfa361_1.png"
+originalFilename: "DM-Bladerunner.zip"
+hash: "38dfa361fa833cfef85e1ff4edf78899e55ef879"
+fileSize: 10239117
+files:
+- name: "DM-Bladerunner.unr"
+  fileSize: 2969478
+  hash: "43b14fe7342a61d329d1460b12e3987fa8591bb3"
+- name: "MaleOneBotNPC.u"
+  fileSize: 1057
+  hash: "cbee420226133de94df6ba4b7f841edc4642476e"
+- name: "Slums.utx"
+  fileSize: 3770831
+  hash: "4c4064de07786b2c007b8e27959389a082a161c7"
+- name: "GoldWatch.u"
+  fileSize: 50962
+  hash: "25fb14609a1ca46fe7789ec02e2ba19e06865243"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "DM-Bladerunner-nb.unr"
+  fileSize: 2969281
+  hash: "bcda3a6840f9888c4f976181bc7fdd607bbd10f0"
+- name: "BladerunnerTex.utx"
+  fileSize: 2308491
+  hash: "310239de9c5526192e6d5de825425219f3b676cb"
+- name: "BRExtra.utx"
+  fileSize: 268974
+  hash: "872ad9890de83ebeb91538d363655730211512ab"
+- name: "BladerunnerSnd.uax"
+  fileSize: 2024467
+  hash: "30e0ff9ac8854251b15141cd3a734813cbd16387"
+otherFiles: 1
+dependencies:
+  DM-Bladerunner-nb.unr:
+  - status: "OK"
+    name: "BladerunnerTex"
+    providedBy: null
+  - status: "OK"
+    name: "BRExtra"
+    providedBy: null
+  - status: "OK"
+    name: "BladerunnerSnd"
+    providedBy: null
+  - status: "MISSING"
+    name: "Pocketwatch"
+    providedBy: null
+  DM-Bladerunner.unr:
+  - status: "OK"
+    name: "BladerunnerTex"
+    providedBy: null
+  - status: "MISSING"
+    name: "M1RoyBatty"
+    providedBy: null
+  - status: "OK"
+    name: "BRExtra"
+    providedBy: null
+  - status: "OK"
+    name: "BladerunnerSnd"
+    providedBy: null
+  - status: "MISSING"
+    name: "Pocketwatch"
+    providedBy: null
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/ut_only_maps/DM-Bladerunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/3/8/dfa361/DM-Bladerunner.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/3/8/dfa361/DM-Bladerunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-Bladerunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "BLADE RUNNER"
+playerCount: "Unknown"
+themes:
+  City: 0.9
+  Natural: 0.1
+bots: true

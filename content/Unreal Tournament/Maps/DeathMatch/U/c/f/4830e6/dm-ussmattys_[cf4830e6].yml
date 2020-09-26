@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:52"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-(USS)MattYs"
+author: "[USS]MattY"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-ussmattys_shot_cf4830e6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/c/f/4830e6/dm-ussmattys_shot_cf4830e6_1.png"
+originalFilename: "dm-(uss)mattysjoint.zip"
+hash: "cf4830e63af320e5d0d1c067e8b6d628b3ee500b"
+fileSize: 2508319
+files:
+- name: "[USS]Textures.utx"
+  fileSize: 3069300
+  hash: "7e904f6e5c8c761c5134d83c4f02b4ef7c5cad9b"
+- name: "USStex.utx"
+  fileSize: 1225717
+  hash: "b869ed47214f7f5cedf0c48916dffda50821bdab"
+- name: "DM-(USS)MattYs.unr"
+  fileSize: 1584825
+  hash: "22875612022cdafe47b62d74e92111202b563f15"
+- name: "[AMLP]stuff.utx"
+  fileSize: 2507482
+  hash: "550487442f258e6c0f538ce0a44990990be6593c"
+otherFiles: 2
+dependencies:
+  DM-(USS)MattYs.unr:
+  - status: "OK"
+    name: "[USS]Textures"
+    providedBy: null
+  - status: "OK"
+    name: "[AMLP]stuff"
+    providedBy: null
+  - status: "MISSING"
+    name: "LinkNumb"
+    providedBy: null
+  - status: "OK"
+    name: "USStex"
+    providedBy: null
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4391"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-(uss)mattysjoint.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/c/f/4830e6/dm-(uss)mattysjoint.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-%28uss%29mattysjoint.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(USS)MattY's Joint"
+playerCount: "Unknown"
+themes:
+  City: 0.9
+  Natural: 0.1
+bots: false
