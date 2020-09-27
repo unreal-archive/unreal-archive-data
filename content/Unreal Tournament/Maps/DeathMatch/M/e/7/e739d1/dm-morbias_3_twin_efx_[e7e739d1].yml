@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-10-07 02:33"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Morbias_3_Twin_(EFX)"
+author: "Zero Khan"
+description: "None"
+releaseDate: "2020-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-morbias_3_twin_efx_shot_e7e739d1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/e/7/e739d1/dm-morbias_3_twin_efx_shot_e7e739d1_1.png"
+originalFilename: "DM-Morbias_3_Twin_(EFX).7z"
+hash: "e7e739d1b84c14477d233cc12347672c98c044e5"
+fileSize: 7397709
+files:
+- name: "LightBeamRectangularLift.u"
+  fileSize: 1792
+  hash: "c31bff45ea1c43fa1a547a6fd2c5ef4a653acfd6"
+- name: "LightBeamCone.u"
+  fileSize: 2803
+  hash: "619745bfb1a5dc225b479a4953ff95a76d5b96b2"
+- name: "DM-Morbias_3_Twin_(EFX).unr"
+  fileSize: 19017494
+  hash: "4cf23f23038e507e21ab21bc8cb5d0a5240620e0"
+- name: "LightBeamUnderwater.u"
+  fileSize: 1806
+  hash: "df5d59720667ce00048db9a2294e307249074bcf"
+- name: "LightBeamSquare.u"
+  fileSize: 1766
+  hash: "19ed8f76984ad19a96349202233bb09b7eea6dca"
+- name: "LightBeamSquareSmall.u"
+  fileSize: 1816
+  hash: "92baf1f0e08259fa5db1fe610df8675e216dc90e"
+- name: "LightBeamRectangular.u"
+  fileSize: 1816
+  hash: "dcdb313a619230df44bb28af5b017adffd71c911"
+- name: "EFX.u"
+  fileSize: 40749
+  hash: "f4800249404495834fe0c87b91ca3433d70aae0d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  DM-Morbias_3_Twin_(EFX).unr:
+  - status: "OK"
+    name: "LightBeamSquareSmall"
+    providedBy: null
+  - status: "OK"
+    name: "LightBeamRectangularLift"
+    providedBy: null
+  - status: "OK"
+    name: "EFX"
+    providedBy: null
+  - status: "OK"
+    name: "LightBeamRectangular"
+    providedBy: null
+  - status: "OK"
+    name: "LightBeamCone"
+    providedBy: null
+  - status: "OK"
+    name: "LightBeamSquare"
+    providedBy: null
+  - status: "OK"
+    name: "SGTech1"
+    providedBy: null
+  - status: "OK"
+    name: "LightBeamUnderwater"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/e/7/e739d1/DM-Morbias_3_Twin_(EFX).7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Morbias III Twin (EFX audio)"
+playerCount: "6-24"
+themes:
+  Industrial: 0.9
+  Skaarj Tech: 0.1
+bots: true
