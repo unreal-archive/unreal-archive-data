@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 02:00"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-StreetsOfFear"
+author: "Mark King"
+description: "Welcome to the Sreets of Fear"
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-streetsoffear_shot_0571fce1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/0/5/71fce1/dm-streetsoffear_shot_0571fce1_1.png"
+originalFilename: "DM-StreetsOfFear.zip"
+hash: "0571fce1519f980b9d5f70335fa36564d365670b"
+fileSize: 1763049
+files:
+- name: "mvktestex.utx"
+  fileSize: 1417561
+  hash: "43c3f21cd7eb6cf5f5628c464cf9eb314f3d4a74"
+- name: "DM-StreetsOfFear.unr"
+  fileSize: 2896614
+  hash: "a50bea851f767af2d3b812b2d9c23b2550a31b48"
+otherFiles: 0
+dependencies:
+  DM-StreetsOfFear.unr:
+  - status: "OK"
+    name: "mvktestex"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/0/5/71fce1/DM-StreetsOfFear.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/0/5/71fce1/DM-StreetsOfFear.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-streetsoffear.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Streets of Fear"
+playerCount: "6-12"
+themes:
+  Industrial: 0.3
+  City: 0.6
+bots: true

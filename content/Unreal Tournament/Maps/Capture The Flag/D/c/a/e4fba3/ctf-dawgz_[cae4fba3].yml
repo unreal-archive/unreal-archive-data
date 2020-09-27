@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:06"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Dawgz"
+author: "Hobi-Wan"
+description: "None"
+releaseDate: "2006-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-dawgz_shot_cae4fba3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/c/a/e4fba3/ctf-dawgz_shot_cae4fba3_1.png"
+originalFilename: "CTF-Dawgz.zip"
+hash: "cae4fba3531fbeeeb963a2bd189e79bb5d7a9433"
+fileSize: 1137400
+files:
+- name: "DawgzOut.umx"
+  fileSize: 870131
+  hash: "f155f682a7db5c1a3b27192e37a6bf6ae3ec29e4"
+- name: "CTF-Dawgz.unr"
+  fileSize: 1215260
+  hash: "bb39dceee52253a90aab87b3c302a62c12b980da"
+otherFiles: 0
+dependencies:
+  CTF-Dawgz.unr:
+  - status: "OK"
+    name: "DawgzOut"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-Dawgz.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/CTF-Dawgz.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/c/a/e4fba3/CTF-Dawgz.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-dawgz.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Dawgz"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.4
+  Skaarj Crypt: 0.4
+  Industrial: 0.1
+  Natural: 0.1
+bots: true
