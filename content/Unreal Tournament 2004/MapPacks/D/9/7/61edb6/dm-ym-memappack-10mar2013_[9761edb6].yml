@@ -1,0 +1,84 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2020-10-08 09:39"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DM YM MEMappack 10Mar2013"
+author: "Various"
+description: "None"
+releaseDate: "2013-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-ym-memappack-10mar2013_shot_9761edb6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/9/7/61edb6/dm-ym-memappack-10mar2013_shot_9761edb6_1.png"
+- type: "IMAGE"
+  name: "dm-ym-memappack-10mar2013_shot_9761edb6_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/9/7/61edb6/dm-ym-memappack-10mar2013_shot_9761edb6_2.png"
+originalFilename: "DM-YM-MEMappack_10Mar2013.zip"
+hash: "9761edb646c24c4b58c0ec45138a862f34e7fb4f"
+fileSize: 13482661
+files:
+- name: "ymme_HardwareTex.utx"
+  fileSize: 16463846
+  hash: "4c901f809f984bed13736b22525559feb76cdd71"
+- name: "DM-YM-Shard.ut2"
+  fileSize: 5661238
+  hash: "9c86e96600a41935288e7caf65e0722ae1f08daf"
+- name: "DM-YM-RB-NewEden_revNC.ut2"
+  fileSize: 5042888
+  hash: "49e7e53205421253a0f38a6a99186c2676c3e2a3"
+- name: "ymme_HardwareStat.usx"
+  fileSize: 7070857
+  hash: "fc9d59055d0d1053cb5f6cd93b8036acecf420ce"
+- name: "ymme_ArchitectureTex.utx"
+  fileSize: 6458312
+  hash: "a9582280895ca08b6cc07054d918765fd76d782e"
+- name: "ymme_ArchitectureStat.usx"
+  fileSize: 76915
+  hash: "bf3e60f54447275166960f4d31747c4df1f9d6b3"
+otherFiles: 2
+dependencies:
+  DM-YM-RB-NewEden_revNC.ut2:
+  - status: "OK"
+    name: "ymme_HardwareStat"
+    providedBy: null
+  - status: "OK"
+    name: "ymme_HardwareTex"
+    providedBy: null
+  - status: "OK"
+    name: "ymme_ArchitectureTex"
+    providedBy: null
+  - status: "OK"
+    name: "ymme_ArchitectureStat"
+    providedBy: null
+  ymme_ArchitectureStat.usx:
+  - status: "OK"
+    name: "ymme_ArchitectureTex"
+    providedBy: null
+  DM-YM-Shard.ut2:
+  - status: "OK"
+    name: "ymme_HardwareStat"
+    providedBy: null
+  - status: "OK"
+    name: "ymme_HardwareTex"
+    providedBy: null
+  ymme_HardwareStat.usx:
+  - status: "OK"
+    name: "ymme_HardwareTex"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/D/9/7/61edb6/DM-YM-MEMappack_10Mar2013.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-YM-Shard"
+  title: "The Shard Rooftop Helipad"
+  author: "recreated by meowcat"
+- name: "DM-YM-RB-NewEden_revNC"
+  title: "New Eden"
+  author: "Remus, and meowcat"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0
