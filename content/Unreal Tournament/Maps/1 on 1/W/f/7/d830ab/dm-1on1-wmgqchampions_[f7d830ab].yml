@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-10-07 21:50"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-1on1-[WMG]QChampions"
+author: "SmileY (Original by Id Software)"
+description: "When you can hold a gun you arent dead"
+releaseDate: "2019-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1-wmgqchampions_shot_f7d830ab_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/W/f/7/d830ab/dm-1on1-wmgqchampions_shot_f7d830ab_1.png"
+originalFilename: "DM-1on1-[WMG]QChampions.zip"
+hash: "f7d830abd18c48ebe315fde5a5c52a08dedbdff1"
+fileSize: 14208350
+files:
+- name: "[BBST]-Tokyo.utx"
+  fileSize: 9154255
+  hash: "45ee3d3b48f1a616f3f04d3f4cee00a32d534996"
+- name: "WickedMateLogos.utx"
+  fileSize: 266245
+  hash: "ce5252b0d289e185637513e915f5d2ffb76b3e9e"
+- name: "CCondoW.utx"
+  fileSize: 8434805
+  hash: "216db3af0abf65de78784d29b2ec725f03988333"
+- name: "DM-1on1-[WMG]QChampions.unr"
+  fileSize: 3280464
+  hash: "44b2b1242b75b4d7c4c5fd7bc5685338239a4684"
+- name: "RedPlanetMusic.umx"
+  fileSize: 8544483
+  hash: "4e84a92925659b43e2d034f76ce71ce9e8896ced"
+otherFiles: 0
+dependencies:
+  DM-1on1-[WMG]QChampions.unr:
+  - status: "OK"
+    name: "RedPlanetMusic"
+    providedBy: null
+  - status: "OK"
+    name: "[BBST]-Tokyo"
+    providedBy: null
+  - status: "MISSING"
+    name: "020512"
+    providedBy: null
+  - status: "MISSING"
+    name: "ShaneChurch2"
+    providedBy: null
+  - status: "OK"
+    name: "CCondoW"
+    providedBy: null
+  - status: "OK"
+    name: "WickedMateLogos"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/W/f/7/d830ab/DM-1on1-%5BWMG%5DQChampions.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "The Campgrounds"
+playerCount: "6-12"
+themes:
+  Industrial: 0.5
+  Nali Castle: 0.1
+  Ancient: 0.4
+bots: true
