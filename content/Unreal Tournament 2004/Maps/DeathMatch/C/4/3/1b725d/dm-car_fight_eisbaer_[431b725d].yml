@@ -1,0 +1,125 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-10-08 08:39"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DM-Car_Fight_(Eisbaer)"
+author: "Eisbaer"
+description: "None"
+releaseDate: "2010-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-car_fight_eisbaer_shot_431b725d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/4/3/1b725d/dm-car_fight_eisbaer_shot_431b725d_1.png"
+originalFilename: "DM-Car_Fight_(Eisbaer).rar"
+hash: "431b725d0fc16ea395227c8c04606df3f920327e"
+fileSize: 42087873
+files:
+- name: "DOTZTBuildings.utx"
+  fileSize: 12813959
+  hash: "d0e91dcddc9006c33a4bfa9c7520d883a61488df"
+- name: "DOTZTCubeMaps.utx"
+  fileSize: 73964
+  hash: "64998338cb28a10413401036ca218c510fbd8ba1"
+- name: "DOTZTDetailMaps.utx"
+  fileSize: 3198
+  hash: "3956ebdb6e1d111505575707f12c1bdd875c11ab"
+- name: "DM-Car_Fight_(Eisbaer).ut2"
+  fileSize: 21423240
+  hash: "2c911748b9866be9abfe25a000a60050ebbaeed6"
+- name: "DOTZTLandscape.utx"
+  fileSize: 11229175
+  hash: "a8c3f2ba598121ccbfea3506e5c2246e0196a32f"
+- name: "DOTZTObjects.utx"
+  fileSize: 19596378
+  hash: "06e272bfc9a347e14dd2b05f1ba490476fa31cd0"
+- name: "DOTZTIndustrial.utx"
+  fileSize: 8130014
+  hash: "bf780bbb500cb3491ee9111e9b51b5a13a7db96d"
+- name: "DOTZTSpecial.utx"
+  fileSize: 5794872
+  hash: "7abee94af94e28bd699b6414248bd1cd87e54ece"
+- name: "DOTZTWeapons.utx"
+  fileSize: 16633993
+  hash: "826b9c30e53d5319db34a7f5450fa98726e31ae2"
+otherFiles: 1
+dependencies:
+  DOTZTCubeMaps.utx:
+  - status: "OK"
+    name: "DOTZTObjects"
+    providedBy: null
+  DOTZTBuildings.utx:
+  - status: "OK"
+    name: "DOTZTCubeMaps"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTSpecial"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTObjects"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTDetailMaps"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTIndustrial"
+    providedBy: null
+  DOTZTObjects.utx:
+  - status: "OK"
+    name: "DOTZTWeapons"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTCubeMaps"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTSpecial"
+    providedBy: null
+  DOTZTIndustrial.utx:
+  - status: "OK"
+    name: "DOTZTBuildings"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTWeapons"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTSpecial"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTObjects"
+    providedBy: null
+  DM-Car_Fight_(Eisbaer).ut2:
+  - status: "OK"
+    name: "DOTZTSpecial"
+    providedBy: null
+  DOTZTLandscape.utx:
+  - status: "OK"
+    name: "DOTZTWeapons"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTCubeMaps"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTObjects"
+    providedBy: null
+  DOTZTSpecial.utx:
+  - status: "OK"
+    name: "DOTZTBuildings"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTLandscape"
+    providedBy: null
+  - status: "OK"
+    name: "DOTZTWeapons"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/4/3/1b725d/DM-Car_Fight_(Eisbaer).rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Car_Fight_(Eisbaer)"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
