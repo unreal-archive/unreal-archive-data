@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-10-08 08:21"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DM-WaterCity_A01"
+author: "Unknown"
+description: "None"
+releaseDate: "2015-10"
+attachments: []
+originalFilename: "DM-WaterCity_A01.zip"
+hash: "4077d7c815669ef07f40696be4e41d90d4879b86"
+fileSize: 15046564
+files:
+- name: "Dissolution.ogg"
+  fileSize: 6038787
+  hash: "ea5ea51676f24affc28f8a3abd0c729066d6b069"
+- name: "ym_Jetpack.u"
+  fileSize: 1711279
+  hash: "4d3f866ec73b6e42ab6ecd041c52885d04dd6f04"
+- name: "skybox_sea_01.utx"
+  fileSize: 3192053
+  hash: "ee5636309f6d5205ce22cf4548e479c54fe64fd5"
+- name: "DM-WaterCity_A01.ut2"
+  fileSize: 22879821
+  hash: "2937a91222633bfa43022b38dc04f9639bef66c1"
+otherFiles: 1
+dependencies:
+  DM-WaterCity_A01.ut2:
+  - status: "OK"
+    name: "ym_Jetpack"
+    providedBy: null
+  - status: "OK"
+    name: "skybox_sea_01"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/W/4/0/77d7c8/DM-WaterCity_A01.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-WaterCity_A01"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: false
