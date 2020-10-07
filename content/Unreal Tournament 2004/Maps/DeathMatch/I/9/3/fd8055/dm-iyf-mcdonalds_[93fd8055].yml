@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-10-10 12:35"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "DM-IYF-McDonalds"
+author: ".:IYF:.SoulCollector"
+description: "The Tournament Has Arrived At A McDonalds Near You"
+releaseDate: "2006-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-iyf-mcdonalds_shot_93fd8055_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/I/9/3/fd8055/dm-iyf-mcdonalds_shot_93fd8055_1.png"
+originalFilename: "DM-IYF-McDonalds.zip"
+hash: "93fd8055bd83e7d7b3f5a03f52900f12281a92be"
+fileSize: 3769232
+files:
+- name: "DM-IYF-McDonalds.ut2"
+  fileSize: 3803079
+  hash: "7c7e8045b9eba95fe1fb0947d6b6cdb88b98ac36"
+- name: "McDonalds.utx"
+  fileSize: 6111446
+  hash: "1d339f4cef09cd0417032d8c5f2715376bbbf38c"
+- name: "Soul_Objects.usx"
+  fileSize: 3594130
+  hash: "7c20bf8faa0cdb06416964f448364ddaa7a12d0a"
+otherFiles: 0
+dependencies:
+  DM-IYF-McDonalds.ut2:
+  - status: "OK"
+    name: "McDonalds"
+    providedBy: null
+  - status: "OK"
+    name: "Soul_Objects"
+    providedBy: null
+  Soul_Objects.usx:
+  - status: "OK"
+    name: "McDonalds"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/I/9/3/fd8055/DM-IYF-McDonalds.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-IYF-McDonalds"
+playerCount: "4-12"
+themes: {}
+bots: true
