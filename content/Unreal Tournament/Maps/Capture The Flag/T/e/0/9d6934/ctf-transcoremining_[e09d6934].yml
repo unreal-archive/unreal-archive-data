@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-10-07 12:12"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-TranscoreMining"
+author: "NuLL"
+description: "None"
+releaseDate: "2020-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-transcoremining_shot_e09d6934_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/0/9d6934/ctf-transcoremining_shot_e09d6934_1.png"
+originalFilename: "CTF-TranscoreMining.rar"
+hash: "e09d6934cdc437df6a0cab13f3f50aba12805762"
+fileSize: 62747322
+files:
+- name: "FurryMover4.u"
+  fileSize: 9204
+  hash: "20dfe6e59997bd5b2c099e89451ce2f0d2ad14eb"
+- name: "tp_industrial_orange1.utx"
+  fileSize: 11228149
+  hash: "ff0f76328c88f3b7759122e60ea8ddc228f1d422"
+- name: "Nether.umx"
+  fileSize: 1312916
+  hash: "92c71fd73ac96d1d5299f6918d23cec2255b00fe"
+- name: "CTF-TranscoreMining.unr"
+  fileSize: 32933846
+  hash: "070d161b9c61c9507afd757346d263dd7b7a1b7a"
+- name: "tp_industrial_blue1.utx"
+  fileSize: 11228147
+  hash: "87a837395e050ff4524935e40275f9491c3afc69"
+- name: "tp_industrial_base1.utx"
+  fileSize: 77914988
+  hash: "0e62847feea2c31c126ff785fae665ef5afa744a"
+otherFiles: 1
+dependencies:
+  CTF-TranscoreMining.unr:
+  - status: "OK"
+    name: "tp_industrial_blue1"
+    providedBy: null
+  - status: "OK"
+    name: "tp_industrial_base1"
+    providedBy: null
+  - status: "OK"
+    name: "tp_industrial_orange1"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/0/9d6934/CTF-TranscoreMining.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Transcore Mining Facility"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false
