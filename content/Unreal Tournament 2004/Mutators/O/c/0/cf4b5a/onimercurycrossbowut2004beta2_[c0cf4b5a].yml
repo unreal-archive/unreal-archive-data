@@ -1,0 +1,69 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-10-30 17:43"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "Onimercurycrossbowut2004beta2"
+author: "Unknown"
+description: "None"
+releaseDate: "2019-08"
+attachments: []
+originalFilename: "onimercurycrossbowut2004beta2.zip"
+hash: "c0cf4b5a242aae5c1b82954111d8b4a4afb0523b"
+fileSize: 451423
+files:
+- name: "ONIMercBowSounds.uax"
+  fileSize: 608630
+  hash: "dd490c15856c86a5d872f010cf4af6216d548aa9"
+- name: "ONIMercCrossbow.u"
+  fileSize: 4357
+  hash: "4c6ba28490da32cc53a147924e7ea9fe2698988c"
+- name: "ONIMercCrossbowSR.u"
+  fileSize: 4127
+  hash: "a54c531ce2faed146787429fb77ec1ec7caa227a"
+- name: "ONIMercCrossbowTex.utx"
+  fileSize: 87888
+  hash: "271d0e885c17b3e0b548a8c092a3b870c5283212"
+- name: "ONIMercCbow.ukx"
+  fileSize: 144421
+  hash: "1c42e0bebb4a30592b3d89e4744c394ba6a44a7b"
+otherFiles: 3
+dependencies:
+  ONIMercCrossbowSR.u:
+  - status: "OK"
+    name: "ONIMercBowSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "ONIMercCbow"
+    providedBy: null
+  - status: "OK"
+    name: "ONIMercCrossbow"
+    providedBy: null
+  ONIMercCrossbow.u:
+  - status: "OK"
+    name: "ONIMercBowSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "ONIMercCbow"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/O/c/0/cf4b5a/onimercurycrossbowut2004beta2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "ONI Mercury Crossbow"
+  description: "Replaces Lighting Gun to Mercury Crossbow from Oni."
+- name: "ONI Mercury Crossbow SR"
+  description: "Replaces Sniper Rifle to Mercury Crossbow from Oni."
+weapons:
+- name: "Mercury Crossbow"
+  description: "The Mercury Crossbow is a powerful rifle that shoots deadly arrows\
+    \ with very high speed, and these arrows contain mercury inside."
+- name: "Mercury Crossbow"
+  description: "The Mercury Crossbow is a powerful rifle that shoots deadly arrows\
+    \ with very high speed, and these arrows contain mercury inside."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
