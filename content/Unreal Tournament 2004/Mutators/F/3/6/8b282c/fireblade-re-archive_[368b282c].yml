@@ -1,0 +1,95 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-10-31 11:40"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "Fireblade Re Archive"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-08"
+attachments:
+- type: "IMAGE"
+  name: "fireblade-re-archive_shot_368b282c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/F/3/6/8b282c/fireblade-re-archive_shot_368b282c_2.png"
+- type: "IMAGE"
+  name: "fireblade-re-archive_shot_368b282c_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/F/3/6/8b282c/fireblade-re-archive_shot_368b282c_3.png"
+- type: "IMAGE"
+  name: "fireblade-re-archive_shot_368b282c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/F/3/6/8b282c/fireblade-re-archive_shot_368b282c_1.png"
+originalFilename: "fireblade_re-archive.zip"
+hash: "368b282c7e0723d08d5043afacec8b9bf78ac265"
+fileSize: 2351395
+files:
+- name: "ONSFireBladeTex.utx"
+  fileSize: 3323668
+  hash: "97ec4162f3e58579ea2852421469139529358c85"
+- name: "ONSFireBladeAnim.ukx"
+  fileSize: 527626
+  hash: "ffd2b9465240f442f80eafa6750cb1c651e8b9cd"
+- name: "FireBlade.u"
+  fileSize: 87738
+  hash: "6e54467fda7ea21bb9cb334fb274430db3af8a97"
+- name: "FireBladeAudio.uax"
+  fileSize: 732149
+  hash: "6b317b5f3a43be259ac8ba04f72e5f5da9e4693a"
+- name: "FireBlade.u"
+  fileSize: 87738
+  hash: "6e54467fda7ea21bb9cb334fb274430db3af8a97"
+- name: "FireBladeAudio.uax"
+  fileSize: 732149
+  hash: "6b317b5f3a43be259ac8ba04f72e5f5da9e4693a"
+- name: "FireBladeMeshes.usx"
+  fileSize: 748996
+  hash: "9987b5f635c9c23486bb9591dd77d2c985591295"
+- name: "ONSFireBladeAnim.ukx"
+  fileSize: 527626
+  hash: "ffd2b9465240f442f80eafa6750cb1c651e8b9cd"
+- name: "ONSFireBladeTex.utx"
+  fileSize: 3323668
+  hash: "97ec4162f3e58579ea2852421469139529358c85"
+- name: "FireBladeMeshes.usx"
+  fileSize: 748996
+  hash: "9987b5f635c9c23486bb9591dd77d2c985591295"
+otherFiles: 6
+dependencies:
+  FireBladeMeshes.usx:
+  - status: "OK"
+    name: "ONSFireBladeTex"
+    providedBy: null
+  FireBlade.u:
+  - status: "MISSING"
+    name: "ONSFireBladeAnim"
+    providedBy: null
+  - status: "OK"
+    name: "ONSFireBladeTex"
+    providedBy: null
+  - status: "OK"
+    name: "FireBladeMeshes"
+    providedBy: null
+  - status: "OK"
+    name: "FireBladeAudio"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/3/6/8b282c/fireblade_re-archive.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "FireBlade Mutator"
+  description: "Lets you select which vehicle the FireBlade replaces."
+- name: "FireBlade Mutator"
+  description: "Lets you select which vehicle the FireBlade replaces."
+weapons: []
+vehicles:
+- name: "FireBlade"
+  description: "FireBlade"
+- name: "FireBlade Beam Turret"
+  description: "FireBlade Beam Turret"
+- name: "FireBlade"
+  description: "FireBlade"
+- name: "FireBlade Beam Turret"
+  description: "FireBlade Beam Turret"
+hasConfigMenu: false
+hasKeybinds: false
