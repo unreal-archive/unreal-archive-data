@@ -1,0 +1,47 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2019-02-04 02:17"
+variationOf: null
+game: "Unreal Tournament"
+name: "Predator"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-02"
+attachments: []
+originalFilename: "predatorfinal.zip"
+hash: "0170ad1a1b0ed7b2b33c8fb8599b18b32e1ef28f"
+fileSize: 2257602
+files:
+- name: "predator.u"
+  fileSize: 396205
+  hash: "7bbb32921da5c19d0efa3faf5fa7898445eb2485"
+- name: "PredatorSkins.utx"
+  fileSize: 2824130
+  hash: "7f8dc3490c793b97982a01daf43ba705320a537d"
+otherFiles: 2
+dependencies:
+  predator.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Skins/&file=predatorfinal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/P/predatorfinal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Models/P/0/1/70ad1a/predatorfinal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+models:
+- "Predator"
+skins:
+- "PredatorGold"
+- "PredatorSilver"
+- "PredatorGold"
+- "PredatorSilver"

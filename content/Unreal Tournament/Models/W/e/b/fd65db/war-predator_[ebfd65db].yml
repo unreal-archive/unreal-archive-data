@@ -1,0 +1,57 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2018-12-25 19:03"
+variationOf: "438a9f4567a2d42457047924cacc3170060baa37"
+game: "Unreal Tournament"
+name: "War Predator"
+author: "AlCapowned"
+description: "None"
+releaseDate: "2012-03"
+attachments: []
+originalFilename: "UT_Predator_Player.zip"
+hash: "ebfd65dbf3175c7706bce4feec878e2ea33863a3"
+fileSize: 1575419
+files:
+- name: "PredatorPlayerMeshSkins.utx"
+  fileSize: 1428381
+  hash: "4e3ba33735fb50fcab7dc9ac96e6fc82b6e0148a"
+- name: "PredatorPlayerSounds.uax"
+  fileSize: 515068
+  hash: "e7b96205616aa9102903088c508d1343750ea975"
+- name: "PredatorPlayer_UT.u"
+  fileSize: 1319222
+  hash: "94c10000d850ebf07947091d598bd72b44b15382"
+otherFiles: 3
+dependencies:
+  PredatorPlayer_UT.u:
+  - status: "OK"
+    name: "PredatorPlayerSounds"
+    providedBy: null
+  - status: "OK"
+    name: "PredatorPlayerMeshSkins"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=UT_Predator_Player.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Skins/&file=UT_Predator_Player.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/P/e/b/fd65db/UT_Predator_Player.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Models/P/e/b/fd65db/UT_Predator_Player.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+models:
+- "War Predator"
+skins:
+- "Predator"
+- "Gibbed"
+- "Predator"
+- "Gibbed"
