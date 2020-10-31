@@ -1,0 +1,72 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-10-30 17:49"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "ASMD TANK Final"
+author: "Hyperforce"
+description: "None"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "asmd-tank-final_shot_db66eefa_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/d/b/66eefa/asmd-tank-final_shot_db66eefa_1.png"
+- type: "IMAGE"
+  name: "asmd-tank-final_shot_db66eefa_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/d/b/66eefa/asmd-tank-final_shot_db66eefa_2.png"
+originalFilename: "ASMD_TANK_Final.rar"
+hash: "db66eefa5d657c9ea97977d0cadf343df94bb9f5"
+fileSize: 5918765
+files:
+- name: "ASMD_TANKnew.u"
+  fileSize: 108583
+  hash: "670527969bc297536eed51bfca80d2db3734df76"
+- name: "ASMDTANK_TEX.utx"
+  fileSize: 5554362
+  hash: "5001b82c349b3511ced35cbf5c3df24049f40708"
+- name: "ASMD_TANK.u"
+  fileSize: 107428
+  hash: "1f480699d6e1e2e3be7a16953f7ca6036b26b176"
+- name: "ASMDTANK_ANIMnew.ukx"
+  fileSize: 3752046
+  hash: "06400f737d7bc6d4dfa2ab25085c5faa40b0e298"
+- name: "ASMD_static.usx"
+  fileSize: 4167735
+  hash: "8caae6d9bfd33a6df9951182ac3760572a634b1b"
+otherFiles: 6
+dependencies:
+  ASMD_static.usx:
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+    providedBy: null
+  ASMD_TANK.u:
+  - status: "OK"
+    name: "ASMD_static"
+    providedBy: null
+  - status: "MISSING"
+    name: "ASMDTANK_ANIMnew"
+    providedBy: null
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+    providedBy: null
+  ASMD_TANKnew.u:
+  - status: "MISSING"
+    name: "ASMD_static2"
+    providedBy: null
+  - status: "MISSING"
+    name: "ASMDTANK_ANIMnew"
+    providedBy: null
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/d/b/66eefa/ASMD_TANK_Final.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

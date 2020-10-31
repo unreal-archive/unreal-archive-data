@@ -1,0 +1,87 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-10-30 17:49"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "Chute"
+author: "EDO"
+description: "Gives you parachute so you land softly when falling down."
+releaseDate: "2005-12"
+attachments:
+- type: "IMAGE"
+  name: "chute_shot_50dee9f0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/C/5/0/dee9f0/chute_shot_50dee9f0_1.png"
+originalFilename: "HelixESV2Final.zip"
+hash: "50dee9f0fca554d16be43df0c584a4e95fa9b923"
+fileSize: 8600026
+files:
+- name: "helixesvFinal.u"
+  fileSize: 64923
+  hash: "4755a02d658f2eed2072c533ddae845ff7481cb8"
+- name: "edo_chute1.u"
+  fileSize: 23309
+  hash: "310b437f7cc6b0ebb990e5091f770db09f881a05"
+- name: "ESV2.utx"
+  fileSize: 4021587
+  hash: "13a3dd784476e4c2b69daec7c05c2e4c7243685e"
+- name: "Helix2.usx"
+  fileSize: 2803573
+  hash: "7486486d93f1f826c86ad875a3d5258908f2d948"
+- name: "edo_chute1_sm.usx"
+  fileSize: 21082
+  hash: "3bd09d5cb64958790c95de890d9d5a5112c4cc57"
+- name: "HelixESV2.u"
+  fileSize: 75509
+  hash: "e18af265f4ca947b3cd23ba73fb30bc33b2be8b5"
+- name: "edo_chute1_tx.utx"
+  fileSize: 175589
+  hash: "423b7439472a92807d6a4b932f965ff3a7b3955f"
+- name: "Helix2_final.ukx"
+  fileSize: 8565886
+  hash: "7e47677bfe7a5744e320a63afb660f0b833cdda2"
+otherFiles: 9
+dependencies:
+  Helix2.usx:
+  - status: "OK"
+    name: "ESV2"
+    providedBy: null
+  HelixESV2.u:
+  - status: "OK"
+    name: "Helix2"
+    providedBy: null
+  - status: "MISSING"
+    name: "Helix2_final"
+    providedBy: null
+  - status: "OK"
+    name: "ESV2"
+    providedBy: null
+  edo_chute1.u:
+  - status: "OK"
+    name: "edo_chute1_tx"
+    providedBy: null
+  - status: "OK"
+    name: "edo_chute1_sm"
+    providedBy: null
+  helixesvFinal.u:
+  - status: "OK"
+    name: "Helix2"
+    providedBy: null
+  - status: "MISSING"
+    name: "Helix2_final"
+    providedBy: null
+  - status: "OK"
+    name: "ESV2"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/5/0/dee9f0/HelixESV2Final.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Chute"
+  description: "Gives you parachute so you land softly when falling down."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
