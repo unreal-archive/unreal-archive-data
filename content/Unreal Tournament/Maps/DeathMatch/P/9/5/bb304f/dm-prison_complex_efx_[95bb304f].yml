@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-11-04 03:49"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Prison_Complex_(EFX)"
+author: "Zero Khan"
+description: "None"
+releaseDate: "2020-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-prison_complex_efx_shot_95bb304f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/9/5/bb304f/dm-prison_complex_efx_shot_95bb304f_1.png"
+originalFilename: "DM-Prison_Complex_(EFX).7z"
+hash: "95bb304fa78b921bf0be80d3526770d0d32a3400"
+fileSize: 28945947
+files:
+- name: "EFX.u"
+  fileSize: 40749
+  hash: "f4800249404495834fe0c87b91ca3433d70aae0d"
+- name: "DM-Prison_Complex_(EFX).unr"
+  fileSize: 95385475
+  hash: "919684dd04b97c1f8c5f46b7ec0f77324cfb1507"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "bondage.umx"
+  fileSize: 11772635
+  hash: "ecf66691ed10bab28162cd113d490a1f74b05d4e"
+otherFiles: 1
+dependencies:
+  DM-Prison_Complex_(EFX).unr:
+  - status: "OK"
+    name: "sgtech1"
+    providedBy: null
+  - status: "MISSING"
+    name: "Factory"
+    providedBy: null
+  - status: "OK"
+    name: "bondage"
+    providedBy: null
+  - status: "OK"
+    name: "EFX"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/9/5/bb304f/DM-Prison_Complex_(EFX).7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Prison Complex"
+playerCount: "16 - 32"
+themes:
+  Tech: 0.7
+  Industrial: 0.3
+bots: true
