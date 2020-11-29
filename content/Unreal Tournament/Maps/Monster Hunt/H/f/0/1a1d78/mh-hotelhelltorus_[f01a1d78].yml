@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-11-29 09:12"
+variationOf: "a81a4d18983bdadf8a391e043fe44dccd95bcc41"
+game: "Unreal Tournament"
+name: "MH-HotelHell[Torus]"
+author: "[Torus]"
+description: "Help Barbie Save The Hotel..."
+releaseDate: "2020-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-hotelhelltorus_shot_f01a1d78_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/H/f/0/1a1d78/mh-hotelhelltorus_shot_f01a1d78_1.png"
+originalFilename: "MH-Hotel_Hell(ArchiveX)[Torus].rar"
+hash: "f01a1d78cedcffe1e6d4fec8a47461eeca01f090"
+fileSize: 4782643
+files:
+- name: "BR-village.utx"
+  fileSize: 3285001
+  hash: "f03c3b0bb63c524ca3ee7ab6f16dd78dc394b5aa"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "RainUT99.u"
+  fileSize: 69944
+  hash: "93ff8717e81bd811871f3ebb3ec9f0cb70c0b968"
+- name: "MH-HotelHell[Torus].unr"
+  fileSize: 2748049
+  hash: "8dd53792ca220a577218fb97005121aa6c785ea7"
+- name: "Housenumbers.utx"
+  fileSize: 1094720
+  hash: "fa4f1991ea6576d43bcd5371c2a72756210758c1"
+- name: "DreamTearDown.umx"
+  fileSize: 944205
+  hash: "f7def6b47bf5209c36adfb039a1b6a3a66a109e8"
+otherFiles: 0
+dependencies:
+  MH-HotelHell[Torus].unr:
+  - status: "OK"
+    name: "sky"
+    providedBy: null
+  - status: "OK"
+    name: "DreamTearDown"
+    providedBy: null
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "RainUT99"
+    providedBy: null
+  - status: "OK"
+    name: "Housenumbers"
+    providedBy: null
+  - status: "OK"
+    name: "BR-village"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/H/f/0/1a1d78/MH-Hotel_Hell(ArchiveX)%5BTorus%5D.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Hotel Hell"
+playerCount: "Unknown"
+themes:
+  Natural: 0.4
+  Tech: 0.6
+bots: false
