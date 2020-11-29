@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-11-29 09:43"
+variationOf: null
+game: "Unreal Tournament"
+name: "MH-Unreal_Planet[TORUS]"
+author: "Torus"
+description: "Torus Map Designs"
+releaseDate: "2020-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-unreal_planettorus_shot_48b7fe02_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/U/4/8/b7fe02/mh-unreal_planettorus_shot_48b7fe02_1.png"
+originalFilename: "MH-Unreal_Planet[Torus].rar"
+hash: "48b7fe02f705dacdeb5daba130a9122bccee001d"
+fileSize: 10381922
+files:
+- name: "DestinationEarth.umx"
+  fileSize: 1697535
+  hash: "7fa8b9e30e4e4935ff06f7843a93f5f41ea5ca8a"
+- name: "MH-Unreal_Planet[TORUS].unr"
+  fileSize: 1720646
+  hash: "6491dc484f7d6d7630852ab13400bbf13aeb0cd1"
+- name: "FINALITY.umx"
+  fileSize: 650801
+  hash: "a3978d1def2c87949b797b150c37f979ae6c3020"
+- name: "Zen Textures.utx"
+  fileSize: 7449423
+  hash: "4f6e7da208dc35535abb92b1cdb3c49a7a987b9c"
+- name: "MaximusbyTerrraniux.umx"
+  fileSize: 7651561
+  hash: "99221efcefaaabc5cd18080779002d56c06591fa"
+otherFiles: 0
+dependencies:
+  MH-Unreal_Planet[TORUS].unr:
+  - status: "MISSING"
+    name: "sky"
+    providedBy: null
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "MaximusbyTerrraniux"
+    providedBy: null
+  - status: "OK"
+    name: "FINALITY"
+    providedBy: null
+  - status: "OK"
+    name: "Zen Textures"
+    providedBy: null
+  - status: "OK"
+    name: "DestinationEarth"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/U/4/8/b7fe02/MH-Unreal_Planet%5BTorus%5D.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Unreal Planet"
+playerCount: "6"
+themes:
+  Natural: 1.0
+bots: false
