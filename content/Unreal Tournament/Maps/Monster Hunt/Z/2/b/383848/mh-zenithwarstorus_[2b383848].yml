@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-11-29 09:15"
+variationOf: null
+game: "Unreal Tournament"
+name: "MH-ZenithWars[Torus]"
+author: "Zen"
+description: "None"
+releaseDate: "2020-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-zenithwarstorus_shot_2b383848_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/Z/2/b/383848/mh-zenithwarstorus_shot_2b383848_1.png"
+originalFilename: "MH-Zenith_Wars[Torus].rar"
+hash: "2b383848de75296cb0ad7f952c74736a1c83200e"
+fileSize: 41877832
+files:
+- name: "uelite.u"
+  fileSize: 23117
+  hash: "c37f7ea27a86b0dfbe5c98ab6e4bb60043539ab9"
+- name: "EXU-Sounds.u"
+  fileSize: 38940380
+  hash: "49164bb608ad081e3bdc9547503ec1a2d9075430"
+- name: "EXU-Textures.u"
+  fileSize: 40074347
+  hash: "1202887eccb1bddc238feab4081b2df179680b4d"
+- name: "EXU.u"
+  fileSize: 2879563
+  hash: "337bc03af67789af041f31b76464ce89df19bd45"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "MH-ZenithWars[Torus].unr"
+  fileSize: 666815
+  hash: "991d12e429e05b704425e644a2962c3abf75a089"
+- name: "collabor.umx"
+  fileSize: 1639501
+  hash: "eba69b7bf9d6a439b55fd35ef7c51fe59ff2f2c9"
+otherFiles: 0
+dependencies:
+  MH-ZenithWars[Torus].unr:
+  - status: "OK"
+    name: "sky"
+    providedBy: null
+  - status: "OK"
+    name: "collabor"
+    providedBy: null
+  - status: "OK"
+    name: "EXU"
+    providedBy: null
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+  EXU.u:
+  - status: "OK"
+    name: "EXU-Textures"
+    providedBy: null
+  - status: "OK"
+    name: "EXU-Sounds"
+    providedBy: null
+  - status: "OK"
+    name: "uelite"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/Z/2/b/383848/MH-Zenith_Wars%5BTorus%5D.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Zen Wars"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.7
+bots: false
