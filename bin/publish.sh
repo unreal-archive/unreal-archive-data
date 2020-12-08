@@ -8,7 +8,7 @@
 #   SITE_URL  - published website root url
 
 UA_VERSION=latest
-UA_BIN=/tmp/unreal-archive
+UA_BIN=/tmp/ua/unreal-archive
 
 WWW_LOCATION=/tmp/ua-www
 

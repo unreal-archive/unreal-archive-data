@@ -1,7 +1,7 @@
 #!/bin/sh
 
 UA_VERSION=latest
-UA_BIN=/tmp/unreal-archive
+UA_BIN=/tmp/ua/unreal-archive
 
 set -e
 

@@ -1,0 +1,54 @@
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: verify
+    image: openjdk:11-jre-slim
+    volumes:
+      - name: ua-bin-cache
+        path: /tmp/ua/
+    commands:
+      - ./bin/verify.sh ./
+    when:
+      event:
+        - pull_request
+  - name: publish
+    image: openjdk:11-jre-slim
+    volumes:
+      - name: ua-bin-cache
+        path: /tmp/ua/
+    environment:
+      SITE_URL: https://unrealarchive.org
+    commands:
+      - ./bin/publish.sh ./
+    when:
+      branch:
+        - master
+  - name: sync-search
+    image: openjdk:11-jre-slim
+    volumes:
+      - name: ua-bin-cache
+        path: /tmp/ua/
+    environment:
+      SITE_URL: https://unrealarchive.org
+      MSE_URL: https://unrealarchive.org/search/api
+      MSE_TOKEN:
+        from_secret: MSE_TOKEN
+      PUB_USER:
+        from_secret: PUB_USER
+      PUB_KEY:
+        from_secret: PUB_KEY
+      PUB_HOST:
+        from_secret: PUB_HOST
+      PUB_ROOT:
+        from_secret: PUB_ROOT
+    commands:
+      - ./bin/sync-search.sh ./
+    when:
+      branch:
+        - master
+
+volumes:
+  - name: ua-bin-cache
+    temp: {}

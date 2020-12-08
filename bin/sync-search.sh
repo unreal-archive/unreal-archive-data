@@ -6,11 +6,11 @@
 #   SITE_URL  - published website root url
 
 UA_VERSION=latest
-UA_BIN=/tmp/unreal-archive
+UA_BIN=/tmp/ua/unreal-archive
 
 set -e
 
-# TODO only continue it content hash has changed - don't re-index on every build
+# TODO only continue if content hash has changed - don't re-index on every build
 #CONTENT_HASH=$(find ./content -type f -print0 | sort -z | xargs -0 sha1sum | sha1sum | cut -d' ' -f1)
 
 # download unreal-archive binary
