@@ -4,7 +4,7 @@ type: docker
 
 steps:
   - name: verify
-    image: openjdk:11-jre-slim
+    image: openjdk:11-jre
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
@@ -14,7 +14,7 @@ steps:
       event:
         - pull_request
   - name: publish
-    image: openjdk:11-jre-slim
+    image: openjdk:11-jre
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
@@ -26,7 +26,7 @@ steps:
       branch:
         - master
   - name: sync-search
-    image: openjdk:11-jre-slim
+    image: openjdk:11-jre
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
