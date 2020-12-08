@@ -20,6 +20,14 @@ steps:
         path: /tmp/ua/
     environment:
       SITE_URL: https://unrealarchive.org
+      PUB_USER:
+        from_secret: PUB_USER
+      PUB_KEY:
+        from_secret: PUB_KEY
+      PUB_HOST:
+        from_secret: PUB_HOST
+      PUB_ROOT:
+        from_secret: PUB_ROOT
     commands:
       - apt update && apt install -y rsync openssh-client
       - ./bin/publish.sh ./
@@ -36,14 +44,6 @@ steps:
       MSE_URL: https://unrealarchive.org/search/api
       MSE_TOKEN:
         from_secret: MSE_TOKEN
-      PUB_USER:
-        from_secret: PUB_USER
-      PUB_KEY:
-        from_secret: PUB_KEY
-      PUB_HOST:
-        from_secret: PUB_HOST
-      PUB_ROOT:
-        from_secret: PUB_ROOT
     commands:
       - ./bin/sync-search.sh ./
     when:
