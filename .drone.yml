@@ -21,7 +21,7 @@ steps:
     environment:
       SITE_URL: https://unrealarchive.org
     commands:
-      - apt update && apt install -y rsync
+      - apt update && apt install -y rsync openssh-client
       - ./bin/publish.sh ./
     when:
       branch:
