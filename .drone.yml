@@ -32,8 +32,8 @@ steps:
       - apt update && apt install -y rsync openssh-client
       - ./bin/publish.sh ./
     when:
-      branch:
-        - master
+      ref:
+        - refs/heads/master
   - name: sync-search
     image: openjdk:11-jre
     volumes:
@@ -47,8 +47,8 @@ steps:
     commands:
       - ./bin/sync-search.sh ./
     when:
-      branch:
-        - master
+      ref:
+        - refs/heads/master
 
 volumes:
   - name: ua-bin-cache
