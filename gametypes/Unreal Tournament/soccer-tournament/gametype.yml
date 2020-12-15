@@ -1,0 +1,250 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2020-12-15"
+game: "Unreal Tournament"
+name: "Soccer Tournament"
+author: "Soccer Tournament Team"
+description: "Soccer Tournament is a fun little mod which allows you to play a form\
+  \ of soccer in a variety of interesting and unusual locations."
+titleImage: "title.png"
+bannerImage: "banner.png"
+releaseDate: "Unknown"
+links:
+  Homepage: "https://shrimpworks.za.net/projects/soccer-tournament"
+  ModDB: "https://www.moddb.com/mods/soccer-tournament"
+credits:
+  Author:
+  - "Kenneth 'Shrimp' Watson"
+  Music and Sound Effects:
+  - "DuckMan"
+releases:
+- title: "Soccer Tournament Release"
+  version: "133"
+  releaseDate: "2002-06"
+  description: ""
+  files:
+  - title: "UMOD Package"
+    localFile: "/home/shrimp/tmp/soccer/soccer-tournament-umod.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/soccer-tournament/soccer-tournament-umod.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "https://www.moddb.com/mods/soccer-tournament/downloads/soccer-tournament-v133-updt2-umod"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "soccer-tournament-umod.zip"
+    hash: "f4ce9e6978e1dc1f0bcd2d77b64af4f5d75ddaf9"
+    fileSize: 1823391
+    synced: true
+    deleted: false
+    files:
+    - name: "SCR-Basic.unr"
+      fileSize: 170610
+      hash: "335b02a463b870a9430c88fba7359be9d10d4395"
+    - name: "SCR-Gothic.unr"
+      fileSize: 375680
+      hash: "c2e05161b5566e2c36af58e48f7202e245490df2"
+    - name: "SCR-WaterWorks.unr"
+      fileSize: 535992
+      hash: "8868a61ba7a1788abdaf2d8eaf03c876f6e2e8c7"
+    - name: "SCR-Hills.unr"
+      fileSize: 398368
+      hash: "341538cb4ddaf561a302a20eacbe75f67972b33a"
+    - name: "Soccer.u"
+      fileSize: 229485
+      hash: "77a88662387c32e73cc0f7dcaddb96d996772261"
+    - name: "SCR-Skaarj.unr"
+      fileSize: 446034
+      hash: "184f9c1d8536549f9c9d6aacc194963371fb88d7"
+    - name: "SCR-LavaCave.unr"
+      fileSize: 398581
+      hash: "a0a2de1232125b05f1bf8364a135187ddc80e365"
+    - name: "SoccerFonts.utx"
+      fileSize: 8430845
+      hash: "5d55c491491ef461de402fde39fd4ef805d8233f"
+    - name: "Soccer.u"
+      fileSize: 225197
+      hash: "007a7e3d5f83e1775080b9fc613a2f0cefa34b5c"
+    - name: "SCR-Egyptian.unr"
+      fileSize: 239801
+      hash: "98a000a254ec23ba5d5d7d21a79c1cfbc18bc590"
+    - name: "SoccerTournament.umod"
+      fileSize: 12288194
+      hash: "388b3f190baee2487ed62fa323fd9f6eb7ec9882"
+    - name: "SCR-CityStreet.unr"
+      fileSize: 462549
+      hash: "1ad766f0085a36a2bc00ae96b8100b23acb715d6"
+    - name: "SoccerScores.utx"
+      fileSize: 89317
+      hash: "717651fa12516152b2c1f3deb1df18d0ad9b5911"
+    - name: "SCR-Nali.unr"
+      fileSize: 313265
+      hash: "b7a09c215b58ae086cfbc04148ee24c34dfde2a3"
+    - name: "Soccer.u"
+      fileSize: 229485
+      hash: "77a88662387c32e73cc0f7dcaddb96d996772261"
+    otherFiles: 13
+    dependencies:
+      SCR-Gothic.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-Basic.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-Nali.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-LavaCave.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-Hills.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-Egyptian.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-CityStreet.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-WaterWorks.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-Skaarj.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/soccer/soccer-tournament.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/soccer-tournament/soccer-tournament.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "https://www.moddb.com/mods/soccer-tournament/downloads/soccer-tournament-v133-updt2-raw"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "soccer-tournament.zip"
+    hash: "1266c3e5f70099616123be8ac153043bb9d87af3"
+    fileSize: 1722214
+    synced: true
+    deleted: false
+    files:
+    - name: "SCR-Skaarj.unr"
+      fileSize: 446034
+      hash: "184f9c1d8536549f9c9d6aacc194963371fb88d7"
+    - name: "SCR-Hills.unr"
+      fileSize: 398368
+      hash: "341538cb4ddaf561a302a20eacbe75f67972b33a"
+    - name: "SCR-Egyptian.unr"
+      fileSize: 239801
+      hash: "98a000a254ec23ba5d5d7d21a79c1cfbc18bc590"
+    - name: "SCR-WaterWorks.unr"
+      fileSize: 535992
+      hash: "8868a61ba7a1788abdaf2d8eaf03c876f6e2e8c7"
+    - name: "SoccerScores.utx"
+      fileSize: 89317
+      hash: "717651fa12516152b2c1f3deb1df18d0ad9b5911"
+    - name: "SCR-Basic.unr"
+      fileSize: 170610
+      hash: "335b02a463b870a9430c88fba7359be9d10d4395"
+    - name: "SCR-CityStreet.unr"
+      fileSize: 462549
+      hash: "1ad766f0085a36a2bc00ae96b8100b23acb715d6"
+    - name: "SCR-Gothic.unr"
+      fileSize: 375680
+      hash: "c2e05161b5566e2c36af58e48f7202e245490df2"
+    - name: "SCR-Nali.unr"
+      fileSize: 313265
+      hash: "b7a09c215b58ae086cfbc04148ee24c34dfde2a3"
+    - name: "SoccerFonts.utx"
+      fileSize: 8430845
+      hash: "5d55c491491ef461de402fde39fd4ef805d8233f"
+    - name: "SCR-LavaCave.unr"
+      fileSize: 398581
+      hash: "a0a2de1232125b05f1bf8364a135187ddc80e365"
+    - name: "Soccer.u"
+      fileSize: 229485
+      hash: "77a88662387c32e73cc0f7dcaddb96d996772261"
+    otherFiles: 13
+    dependencies:
+      SCR-Gothic.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-Basic.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-Nali.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-Hills.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-LavaCave.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-CityStreet.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-Egyptian.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+      SCR-WaterWorks.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      SCR-Skaarj.unr:
+      - status: "OK"
+        name: "Soccer"
+        providedBy: null
+      - status: "OK"
+        name: "SoccerScores"
+        providedBy: null
+  deleted: false
+deleted: false
