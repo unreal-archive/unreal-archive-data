@@ -32,9 +32,123 @@ credits:
   - "everyone at UnrealZA"
 releases:
 - title: "Latest Full Release"
+  version: "503"
+  releaseDate: "2001-08"
+  description: "Complete Monster Hunt 503 Release, includes music files missing from\
+    \ previous releases."
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/monsterhunt/monsterhunt503-full.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/monster-hunt/monsterhunt503-full.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "monsterhunt503-full.zip"
+    hash: "4ef124ee5666f9f1e82e8204eb7a8330e83b8cdb"
+    fileSize: 6373257
+    synced: true
+    deleted: false
+    files:
+    - name: "DigSh.umx"
+      fileSize: 620182
+      hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+    - name: "MH-Lonely][.unr"
+      fileSize: 3089745
+      hash: "459a316157f306984f6315761f91e5e07f1f461c"
+    - name: "MA-Winged.unr"
+      fileSize: 988977
+      hash: "e3eb922ad49a1af3d1280d0503f82bf49532246e"
+    - name: "MH-NaliVillage][.unr"
+      fileSize: 1936069
+      hash: "8427bdcbed12b75de2d774d0813a9d2bc8eaafaf"
+    - name: "MA-Revenge.unr"
+      fileSize: 455888
+      hash: "2ce01a54ef5863f3d2e449eb45db4450b9e3e653"
+    - name: "MonsterHunt.u"
+      fileSize: 1251524
+      hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+    - name: "Chizra1.umx"
+      fileSize: 422386
+      hash: "dcb3cfd52414740cd0cbd8a813d900969b6892d8"
+    - name: "MH-Revenge][.unr"
+      fileSize: 753001
+      hash: "6a8b5759c277b318366a449fdad14856b0d9789f"
+    - name: "MH-Canyon.unr"
+      fileSize: 2436104
+      hash: "b7a8024493d61127482749ec9a09aa11105a4b54"
+    - name: "MH-Trials.unr"
+      fileSize: 2498910
+      hash: "b2a14d77c0270b9c7c97e87ebf6ca056ad64ebf3"
+    - name: "MA-Queens.unr"
+      fileSize: 596423
+      hash: "fd3344a35d22ba85faec1b8ce1d8a7809f3b5aec"
+    - name: "MH-Forbidden.unr"
+      fileSize: 1638574
+      hash: "fa452570df75421cb285d687e5b12b12b43414c7"
+    - name: "Gomorra.umx"
+      fileSize: 303975
+      hash: "f4a41d389b2a1a1d68af5d574fd68afb89d4dfed"
+    - name: "MA-RocketArena.unr"
+      fileSize: 703564
+      hash: "bec2078d1de35dc4a3228b43a8349a80828feba9"
+    otherFiles: 18
+    dependencies:
+      MA-RocketArena.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      - status: "OK"
+        name: "Gomorra"
+        providedBy: null
+      MH-Revenge][.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MH-Forbidden.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MH-Trials.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      - status: "OK"
+        name: "DigSh"
+        providedBy: null
+      MA-Queens.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MA-Revenge.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MH-Lonely][.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MA-Winged.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MH-Canyon.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      MH-NaliVillage][.unr:
+      - status: "OK"
+        name: "MonsterHunt"
+        providedBy: null
+      - status: "OK"
+        name: "Chizra1"
+        providedBy: null
+  deleted: false
+- title: "Legacy Release"
   version: "500"
   releaseDate: "2001-08"
-  description: ""
+  description: "The original Monster Hunt 500 UMOD release package."
   files:
   - title: "UMOD Package"
     localFile: "/home/shrimp/tmp/monsterhunt500.zip"
@@ -151,6 +265,14 @@ releases:
       main: true
       repack: false
       state: "OK"
+    - url: "http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/&file=monsterhunt.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/MonsterHunt/&file=monsterhunt500.zip"
+      main: false
+      repack: false
+      state: "OK"
     originalFilename: "monsterhunt500zip.zip"
     hash: "c9563b27e47955469689fa181f1f8ff361b6d4d7"
     fileSize: 6225553
@@ -248,7 +370,7 @@ releases:
         name: "Chizra1"
         providedBy: null
   deleted: false
-- title: "Latest Patch"
+- title: "Legacy Patch"
   version: "503"
   releaseDate: "2001-08"
   description: "Required to update after installing Monster Hunt version 500."
@@ -259,6 +381,14 @@ releases:
     downloads:
     - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/monster-hunt/monsterhunt503.zip"
       main: true
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/MonsterHunt/&file=monsterhunt503.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/&file=monsterhunt503.zip"
+      main: false
       repack: false
       state: "OK"
     originalFilename: "monsterhunt503.zip"

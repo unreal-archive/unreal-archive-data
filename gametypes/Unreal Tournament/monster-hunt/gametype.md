@@ -7,10 +7,10 @@ way. Monsters you'll face range from the tiny but deadly Pupae, to slimy
 Sliths that spew blobs of slime at you, to the huge stone-throwing
 Titans.
 
-Monster Hunt is the perfect blend of multiplayer and single single
-player, single player in the sense that the levels and style of Monster
-Hunt are very much like that of a single player game, but the team based
-gameplay gives it a great multiplayer feel.
+Monster Hunt is the perfect blend of multiplayer and single player, single
+player in the sense that the levels and style of Monster Hunt are very much
+like that of a single player game, but the team based gameplay gives it a
+great multiplayer feel.
 
 Players must work as a team to survive, players on their own will be
 overpowered by the monsters and sent back to the beginning of the level.
