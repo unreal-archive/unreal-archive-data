@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:11"
+variationOf: null
+game: "Unreal Tournament"
+name: "JB-Furia"
+author: "Emil 'Hyperion' Attlid"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "jb-furia_shot_e380101c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/F/e/3/80101c/jb-furia_shot_e380101c_1.png"
+- type: "IMAGE"
+  name: "jb-furia_shot_e380101c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/F/e/3/80101c/jb-furia_shot_e380101c_2.png"
+originalFilename: "jb-furia-umod.zip"
+hash: "e380101c16a306ba592270b75d0dac91b4dee600"
+fileSize: 1515418
+files:
+- name: "JB-Furia.umod"
+  fileSize: 3423512
+  hash: "426345b16bf197169fd1790120a457f182bf842a"
+- name: "JB-Furia.unr"
+  fileSize: 3391301
+  hash: "0741673429fd1cc8dc29bf9f78da95cf64060e24"
+otherFiles: 3
+dependencies:
+  JB-Furia.unr:
+  - status: "MISSING"
+    name: "JBSpecials"
+    providedBy: null
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+  - status: "MISSING"
+    name: "JB-AF-Pack-1"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-furia-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/F/jb-furia-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/F/e/3/80101c/jb-furia-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Furia"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.9
+bots: true

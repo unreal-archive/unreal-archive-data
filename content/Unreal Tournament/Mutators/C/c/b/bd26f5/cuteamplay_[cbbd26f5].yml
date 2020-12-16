@@ -12,14 +12,18 @@ originalFilename: "CUTeamplay.umod"
 hash: "cbbd26f5da9b0ddc1f76809ce33ba0d2da43942d"
 fileSize: 32901
 files:
-- name: "CUTeamplay.umod"
-  fileSize: 32901
-  hash: "cbbd26f5da9b0ddc1f76809ce33ba0d2da43942d"
 - name: "CUTeamPlay.u"
   fileSize: 24291
   hash: "e8b9abd44d56c9d9f3f5a5e0a8fe819f9450be12"
+- name: "CUTeamplay.umod"
+  fileSize: 32901
+  hash: "cbbd26f5da9b0ddc1f76809ce33ba0d2da43942d"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  CUTeamPlay.u:
+  - status: "MISSING"
+    name: "Cosmic"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/c/b/bd26f5/CUTeamplay.umod"
   main: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:04"
+variationOf: null
+game: "Unreal Tournament"
+name: "JB-Ceremony"
+author: "Tyler A. Perry AKA Maverick"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "jb-ceremony_shot_72387a1c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/C/7/2/387a1c/jb-ceremony_shot_72387a1c_2.png"
+- type: "IMAGE"
+  name: "jb-ceremony_shot_72387a1c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/C/7/2/387a1c/jb-ceremony_shot_72387a1c_1.png"
+originalFilename: "jb-ceremony-umod.zip"
+hash: "72387a1cceeb464e30760e9d965318ce3326266e"
+fileSize: 1121842
+files:
+- name: "JB-Ceremony.unr"
+  fileSize: 2386890
+  hash: "f58117a5d0a78e6011f99963bb1e7064bb6ad866"
+- name: "Chizra1.umx"
+  fileSize: 422386
+  hash: "dcb3cfd52414740cd0cbd8a813d900969b6892d8"
+- name: "JB-Ceremony.umod"
+  fileSize: 2843241
+  hash: "31aea145e0abbfdf861b9c8b6a16b65c0be32f42"
+otherFiles: 3
+dependencies:
+  JB-Ceremony.unr:
+  - status: "MISSING"
+    name: "Jailbreak"
+    providedBy: null
+  - status: "OK"
+    name: "Chizra1"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-ceremony-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/C/jb-ceremony-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/C/7/2/387a1c/jb-ceremony-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "JB-Ceremony"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.9
+bots: true

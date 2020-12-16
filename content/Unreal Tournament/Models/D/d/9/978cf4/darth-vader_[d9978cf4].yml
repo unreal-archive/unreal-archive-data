@@ -32,15 +32,22 @@ fileSize: 1535901
 files:
 - name: "vadr.u"
   fileSize: 2650941
-  hash: "d8b4f884ae3fa69af27cb3a9faf2d3cfc1"
+  hash: "d8b4f8840a0e3f0a690af207cb3a9faf2d3c0fc1"
 - name: "vadrSkins.utx"
   fileSize: 817282
-  hash: "769526bc63f3dfc7cdc71ac14b9bcc07d07d56"
+  hash: "769526bc63f3dfc7cdc701ac14b9bcc007d07d56"
 - name: "AlcDarthVader.umod"
   fileSize: 3502132
   hash: "c15b64114b1dcaec2e1828000f29f1be2e28c1db"
 otherFiles: 10
-dependencies: {}
+dependencies:
+  vadr.u:
+  - status: "OK"
+    name: "vadrSkins"
+    providedBy: null
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-vadr.zip"
   main: false

@@ -18,7 +18,7 @@ fileSize: 199885
 files:
 - name: "Lazymatrix.u"
   fileSize: 449407
-  hash: "91a27a7675a7f1acb574ac4dfc4b72b5c95737"
+  hash: "91a27a7675a7f10acb574ac4dfc4b72b05c95737"
 - name: "Lazy Matrix 2+79.umod"
   fileSize: 539779
   hash: "8d6dc51d0cf3a79d6e94d77be251dab8bd022aa1"
@@ -26,7 +26,11 @@ files:
   fileSize: 42841
   hash: "809875baed9fb5c2f56ee65e7e1d47d4963f5bb8"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  LMtrxMenu.u:
+  - status: "OK"
+    name: "Lazymatrix"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/L/6/e/5051f1/LazyMtrx279.zip"
   main: true

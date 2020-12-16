@@ -50,9 +50,16 @@ files:
   hash: "60cbdf25b3e360b628da917113156dbdba171b97"
 - name: "EnhancedItems.u"
   fileSize: 304816
-  hash: "a6931c4b0d9942cce6f1576129eb8c4c819862d"
+  hash: "a60931c4b0d9942cce6f1576129eb8c4c819862d"
 otherFiles: 13
-dependencies: {}
+dependencies:
+  ArenaMatch.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  - status: "OK"
+    name: "EWindow"
+    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Gametypes/Apprehension&file=arenamatch120.zip"
   main: false

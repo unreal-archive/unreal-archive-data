@@ -18,20 +18,24 @@ files:
 - name: "ReconForce.uax"
   fileSize: 504167
   hash: "7ba675e1e5e4cf999ec6aae6754d1288a4945ee2"
+- name: "Recon Force.umod"
+  fileSize: 3475545
+  hash: "cbe726e533af8510b0cbeb94faff5df138cef994"
 - name: "ReconAgent.u"
   fileSize: 1423763
   hash: "135758d32d802680d26760933965eb4a7086c27a"
 - name: "ReconAgentSkins.utx"
   fileSize: 1001105
   hash: "5dc1a7c67ac47f2edc20eaabc8f6f863978c6218"
-- name: "Recon Force.umod"
-  fileSize: 3475545
-  hash: "cbe726e533af8510b0cbeb94faff5df138cef994"
 - name: "ReconForce.u"
   fileSize: 507790
-  hash: "37e5f421493f14655e844f12ee881d5dc7f5e37"
+  hash: "37e5f421493f14655e844f012ee881d5dc7f5e37"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  ReconAgent.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsR/&file=reconforce.zip"
   main: false

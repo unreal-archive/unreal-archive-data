@@ -15,17 +15,21 @@ originalFilename: "greeniegun.zip"
 hash: "4fbc713d4122ae555dfae9b3d25fb91abe27c53e"
 fileSize: 93942
 files:
-- name: "greenie.utx"
-  fileSize: 130109
-  hash: "841ed6d37426ee0a1a82ed839285e5d89904c"
-- name: "ripperjrm22.u"
-  fileSize: 78841
-  hash: "923e54e7efcd8ae212281eb7576b380a9aba3cb"
 - name: "greeniegun.umod"
   fileSize: 241072
   hash: "05be4e14ca99078b4c9f1eedef7b2591f1a4cc92"
+- name: "greenie.utx"
+  fileSize: 130109
+  hash: "0841ed6d37426ee0a1a82ed8392805e5d899004c"
+- name: "ripperjrm22.u"
+  fileSize: 78841
+  hash: "0923e54e7efcd8ae212281eb7576b380a9aba3cb"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  ripperjrm22.u:
+  - status: "OK"
+    name: "greenie"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/G/greeniegun.zip"
   main: true

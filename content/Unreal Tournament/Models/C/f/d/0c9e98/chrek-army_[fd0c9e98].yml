@@ -48,9 +48,12 @@ files:
 - name: "ChrekSkins.utx"
   fileSize: 1836215
   hash: "f8501f38feab84a1ddc92c9d33be8c717570eaab"
+- name: "Chreks.umod"
+  fileSize: 6572674
+  hash: "9a9558c3ff5e2ea9c1384c31a7726cdd62bdc695"
 - name: "Chreksounds.uax"
   fileSize: 2523237
-  hash: "e49d26d07aa42e7245d2943b2478fcbe83fc7c4"
+  hash: "e49d26d07aa42e07245d2943b2478fcbe83fc7c4"
 - name: "Chreks.u"
   fileSize: 1308594
   hash: "296699e73258f6d51df421bd4dc872e31574e871"
@@ -59,12 +62,24 @@ files:
   hash: "dfc8fbcbff5b448d5f72c69c3efab9f4cf935158"
 - name: "Chrekvoicescout.u"
   fileSize: 13724
-  hash: "3f88af68c63e8d1dd648985615855f0438f72ee"
-- name: "Chreks.umod"
-  fileSize: 6572674
-  hash: "9a9558c3ff5e2ea9c1384c31a7726cdd62bdc695"
+  hash: "3f880af68c63e8d1dd648985615855f0438f72ee"
 otherFiles: 10
-dependencies: {}
+dependencies:
+  Chreks.u:
+  - status: "OK"
+    name: "Chreksounds"
+    providedBy: null
+  - status: "PARTIAL"
+    name: "chrekskins"
+    providedBy: null
+  Chrekvoicedozer.u:
+  - status: "OK"
+    name: "Chreksounds"
+    providedBy: null
+  Chrekvoicescout.u:
+  - status: "OK"
+    name: "Chreksounds"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/C/Chreks_umod.zip"
   main: true

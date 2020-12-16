@@ -20,15 +20,19 @@ fileSize: 244679
 files:
 - name: "Sabb.u"
   fileSize: 198274
-  hash: "d5612a4ea809829d7f57cf44932711bf1cb4f8"
+  hash: "d5612a4ea80098290d7f57cf44932711bf1cb4f8"
+- name: "SabbSkins.utx"
+  fileSize: 449361
+  hash: "083cccc3372a996590b0f5ce00cf41e746ab8018"
 - name: "Sabb_utmdl.umod"
   fileSize: 680928
   hash: "0b7c2d5ae73ff191e4df09a193064b7dc21fe38c"
-- name: "SabbSkins.utx"
-  fileSize: 449361
-  hash: "83cccc3372a996590b0f5ce0cf41e746ab8018"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  Sabb.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsS/&file=sabb_utmdl.zip"
   main: false

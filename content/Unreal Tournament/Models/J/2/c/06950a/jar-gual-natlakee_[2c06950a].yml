@@ -20,27 +20,31 @@ fileSize: 2326203
 files:
 - name: "Jar-Gual.u"
   fileSize: 915095
-  hash: "81141d8fffff6f6c1528d319698f0c7fe8074"
+  hash: "81141d08fffff6f6c152080d319698f0c7fe8074"
 - name: "FlriSkins.utx"
   fileSize: 539092
-  hash: "9a4e41a14a87dd68daf5331d2443a4f4f262b7"
+  hash: "9a4e41a14a870dd68daf5331d2443a04f4f262b7"
 - name: "KyarSkins.utx"
   fileSize: 449362
-  hash: "a526b915f7b4b149bd6e3e17dc2746fe898b"
+  hash: "a5260b915f7b4b149bd60e3e170dc2746fe8980b"
 - name: "Jar-Gual.umod"
   fileSize: 4179260
   hash: "3772b13bf36e18035d72cda288b50a450fd36cec"
 - name: "HundSkins.utx"
   fileSize: 1337208
-  hash: "d9abb8112234ec2edb0d6837d8e60b32b5f343d"
+  hash: "d9abb81102234ec2edb0d6837d8e60b32b5f343d"
 - name: "NatlSkins.utx"
   fileSize: 450426
   hash: "5f8e457c3e97e955cbb3de8b7439fcfe58a257b1"
 - name: "BahnSkins.utx"
   fileSize: 450422
-  hash: "5eac29f168204aabcf99df85c8146d8da8e2da"
+  hash: "5eac29f168204aabcf099df85c8146d8da8e02da"
 otherFiles: 10
-dependencies: {}
+dependencies:
+  Jar-Gual.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/D/Jar-Gual.zip"
   main: true

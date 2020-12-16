@@ -20,12 +20,16 @@ files:
   hash: "bc15ff12107e214bba7bb3cb676bfbc44642ffaf"
 - name: "WarpSpider.u"
   fileSize: 144111
-  hash: "7d78dad4119a713edea76b699483cea73064183"
+  hash: "7d78dad4119a713edea76b699483cea730640183"
 - name: "WarpSpider.umod"
   fileSize: 1966161
   hash: "5f2fe54e4544c7f34f749d5a4ab8de62fb964e0e"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  WarpSpider.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsW/&file=warpspider.zip"
   main: false

@@ -20,12 +20,19 @@ files:
   hash: "b5d37ed61d8dcd6e2bafe560a75bc5178103ded5"
 - name: "RA-Maverick.unr"
   fileSize: 3155114
-  hash: "b52a447bc6462ca2b852545c3630f3b30c34d39"
+  hash: "b52a447bc6462ca2b852545c3630f3b300c34d39"
 - name: "MavFX.utx"
   fileSize: 3966
-  hash: "b0f9f1291d9a1feac838d1997c69add769d758f"
+  hash: "b0f90f1291d9a1feac838d1997c69add769d758f"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  RA-Maverick.unr:
+  - status: "MISSING"
+    name: "RocketArena"
+    providedBy: null
+  - status: "OK"
+    name: "MavFX"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Rocket%20Arena/M/b/5/d37ed6/RA-Maverick.umod"
   main: true

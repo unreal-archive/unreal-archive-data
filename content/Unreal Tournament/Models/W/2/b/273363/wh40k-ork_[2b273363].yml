@@ -18,14 +18,18 @@ files:
 - name: "OrkzSkins.utx"
   fileSize: 1539480
   hash: "158d9c45ca92167e3bc324184d70c4c1f74537e0"
-- name: "WH40K_Ork.umod"
-  fileSize: 2864132
-  hash: "76ffb259247f3f4fe802b41d859b1b518cedc86a"
 - name: "Orkz.u"
   fileSize: 1289657
   hash: "6784f346a12d70be92a45afb3657c166805cc641"
+- name: "WH40K_Ork.umod"
+  fileSize: 2864132
+  hash: "76ffb259247f3f4fe802b41d859b1b518cedc86a"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Orkz.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-wh40kork.zip"
   main: false

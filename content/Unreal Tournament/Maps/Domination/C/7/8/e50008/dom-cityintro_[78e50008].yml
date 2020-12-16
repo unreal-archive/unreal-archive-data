@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:56"
+variationOf: null
+game: "Unreal Tournament"
+name: "DOM-cityintro"
+author: "Shane Caudle ported byt TaroT"
+description: "just when you thought it was safe"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "dom-cityintro_shot_78e50008_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/C/7/8/e50008/dom-cityintro_shot_78e50008_1.png"
+originalFilename: "dom-cityintro.zip"
+hash: "78e5000806f45135906e739a0f22a3d05c2ce54c"
+fileSize: 1238978
+files:
+- name: "DOM-cityintro.unr"
+  fileSize: 2768164
+  hash: "e33fe6006100d95d8922d8b6ecd2ad45741a971f"
+- name: "Cityintro.umod"
+  fileSize: 3673332
+  hash: "32257fbcad2b81eaf37e060172684566e160351e"
+- name: "ATREUS.umx"
+  fileSize: 901252
+  hash: "a4f10593a49cc4eafab61b2434831abd1ba2a904"
+otherFiles: 2
+dependencies:
+  DOM-cityintro.unr:
+  - status: "OK"
+    name: "ATREUS"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/C/dom-cityintro.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=dom-cityintro.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=dom-cityintro.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Domination/dom-cityintro.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/C/7/8/e50008/dom-cityintro.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "DOM-City"
+playerCount: "6-20"
+themes:
+  Tech: 0.1
+  City: 0.9
+bots: true

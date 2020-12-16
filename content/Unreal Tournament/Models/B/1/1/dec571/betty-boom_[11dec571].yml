@@ -17,15 +17,19 @@ fileSize: 630275
 files:
 - name: "betty.u"
   fileSize: 318328
-  hash: "91be26bcf143ce5a46f51bcd9a8dd48e80d7608"
+  hash: "91be26bcf143ce5a46f51bcd9a8dd48e80d76008"
 - name: "bettyskins.utx"
   fileSize: 817479
-  hash: "774edae0ef7132e4f6b1b3eef99b1a5844602e"
+  hash: "774edae0ef7132e4f6b1b3eef99b1a584460020e"
 - name: "betty.umod"
   fileSize: 1168581
   hash: "655c4e6f75b722a97510710210c6eea34cd0174a"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  betty.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsB/&file=betty.zip"
   main: false

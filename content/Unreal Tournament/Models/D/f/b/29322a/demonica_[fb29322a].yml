@@ -15,17 +15,21 @@ originalFilename: "demonica-umod.zip"
 hash: "fb29322acc07bde21290e86a3f4f32e70d971cb4"
 fileSize: 2249813
 files:
+- name: "Demonica.u"
+  fileSize: 1083185
+  hash: "3aec40066b44d0c58ae73a3b7fb23e1dfb60a95d"
 - name: "Demonica.umod"
   fileSize: 4710502
   hash: "7eb44c2de7a4c6df2945fdd9d3472b1a9c9a273a"
-- name: "Demonica.u"
-  fileSize: 1083185
-  hash: "3aec4066b44d0c58ae73a3b7fb23e1dfb60a95d"
 - name: "DemonicaSkins.utx"
   fileSize: 3592308
   hash: "82fef46763905577742fff51cd5923141b3625aa"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Demonica.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsD/&file=demonica-umod.zip"
   main: false

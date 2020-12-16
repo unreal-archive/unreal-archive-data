@@ -18,17 +18,21 @@ originalFilename: "utmdl_qb.zip"
 hash: "fe5374c696ce547e9bc46024c5f6b9409e335bfa"
 fileSize: 361551
 files:
-- name: "QB.u"
-  fileSize: 112218
-  hash: "245a1371b62fcebe94d367e42bfadbe2455bfa81"
 - name: "utmdl_QB.umod"
   fileSize: 693592
   hash: "756d21e06f88b17fab83c6943b8305fc9b638908"
+- name: "QB.u"
+  fileSize: 112218
+  hash: "245a1371b62fcebe94d367e42bfadbe2455bfa81"
 - name: "QBSkins.utx"
   fileSize: 545834
-  hash: "e36d81d721dec752e591b98b2a9ce974cf097c1"
+  hash: "e36d81d721dec752e5910b98b2a9ce974cf097c1"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  QB.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl_qb.zip"
   main: false

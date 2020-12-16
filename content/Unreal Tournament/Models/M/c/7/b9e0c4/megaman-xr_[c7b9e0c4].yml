@@ -32,12 +32,16 @@ files:
   hash: "095fff74ea196a7fd1eca352aaea6862c0cf57f3"
 - name: "Megaman.u"
   fileSize: 100514
-  hash: "af35178b3f23327e9130aaffb469f81ba7b7bbb"
+  hash: "af35178b3f23327e9130aaffb469f81b0a7b7bbb"
 - name: "MegamanSkins.utx"
   fileSize: 977192
-  hash: "7aad7d67c5541898d69d76f74122f27effceb8"
+  hash: "7aad7d67c5541898d69d076f74122f27effc0eb8"
 otherFiles: 9
-dependencies: {}
+dependencies:
+  Megaman.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsM/&file=megamanxr.zip"
   main: false

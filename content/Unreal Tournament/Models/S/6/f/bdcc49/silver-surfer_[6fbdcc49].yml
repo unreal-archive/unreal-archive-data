@@ -18,14 +18,18 @@ files:
 - name: "sfer.u"
   fileSize: 1774416
   hash: "4c2ca61b43e137933cddad62c73e418e26d7c8d9"
-- name: "sferSkins.utx"
-  fileSize: 482472
-  hash: "34d7caddd9db7d36f657317dfc4da6a9942b7a"
 - name: "AlcSilverSurfer.umod"
   fileSize: 2290374
   hash: "e54b4722cbc89a09d2a942cebd13076610465f5e"
+- name: "sferSkins.utx"
+  fileSize: 482472
+  hash: "34d7caddd9db070d36f657317dfc4da6a9942b7a"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  sfer.u:
+  - status: "OK"
+    name: "sferSkins"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-silversurfer.zip"
   main: false

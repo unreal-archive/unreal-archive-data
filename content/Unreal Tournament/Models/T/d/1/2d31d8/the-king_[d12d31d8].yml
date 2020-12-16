@@ -20,12 +20,16 @@ files:
   hash: "0cb301022c3e0f21e0087804f196927801e4db72"
 - name: "King.u"
   fileSize: 62752
-  hash: "f13e2773537dae5a3e14a17574c05259e6c87ec"
+  hash: "f13e2773537dae5a3e14a17574c052059e6c87ec"
 - name: "KingSkins.utx"
   fileSize: 892750
-  hash: "f36599dd6a1f8606449ba1b74b57c8640a4cf40"
+  hash: "f306599dd6a1f8606449ba1b74b57c8640a4cf40"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  King.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsT/&file=The_King.zip"
   main: false

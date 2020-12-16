@@ -17,7 +17,7 @@ fileSize: 735688
 files:
 - name: "SWATSkins.utx"
   fileSize: 354972
-  hash: "2d05d977a472364a9ae8f117579c3d63c24e40"
+  hash: "02d05d977a472364a9ae8f1175790c3d63c24e40"
 - name: "SWATSkins_zomb.utx"
   fileSize: 354980
   hash: "a76794e859265d21ea81ff993dc4b65f11596184"
@@ -26,12 +26,16 @@ files:
   hash: "cd96707278c094bb90b88f7a2b74ea1518218a48"
 - name: "SWAT.u"
   fileSize: 110664
-  hash: "53197922a8e6633fe8cdc3388544da0944063e8"
+  hash: "530197922a8e6633fe8cdc3388544da0944063e8"
 - name: "SWATSkins_SWAN.utx"
   fileSize: 354980
-  hash: "3883b07232646bd2cbf46e79bd7ccbb22a1916"
+  hash: "3883b072320646bd2cbf460e79bd7ccbb22a1916"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  SWAT.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-swat.zip"
   main: false

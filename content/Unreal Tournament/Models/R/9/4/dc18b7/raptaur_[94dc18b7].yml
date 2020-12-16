@@ -17,12 +17,16 @@ files:
   hash: "c0fd6862139c51a5904ba2201ea391adb87d4ec5"
 - name: "Raptaur.u"
   fileSize: 1329711
-  hash: "481fc9f3a175e9d06589569298da349d1c642"
+  hash: "481fc9f30a175e09d065890569298da349d1c642"
 - name: "RaptaurSkins.utx"
   fileSize: 1425440
-  hash: "3da906dcd38d59b5885c143563b09a606fc87b"
+  hash: "03da906dcd38d59b5885c143563b009a606fc87b"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Raptaur.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsR/&file=raptaur.zip"
   main: false

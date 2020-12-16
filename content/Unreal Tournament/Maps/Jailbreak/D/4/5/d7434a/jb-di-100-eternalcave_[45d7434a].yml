@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:10"
+variationOf: null
+game: "Unreal Tournament"
+name: "JB-DI-100-EternalCave"
+author: "Juan Pancho ' XceptOne ' Eekels: Modified by DireIce"
+description: "DESTROY YOUR ENEMIES!"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "jb-di-100-eternalcave_shot_45d7434a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/D/4/5/d7434a/jb-di-100-eternalcave_shot_45d7434a_1.png"
+- type: "IMAGE"
+  name: "jb-di-100-eternalcave_shot_45d7434a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/D/4/5/d7434a/jb-di-100-eternalcave_shot_45d7434a_2.png"
+originalFilename: "jb-eternalcave-umod.zip"
+hash: "45d7434a1381bf9fb339ad73aa47733d2edcc67c"
+fileSize: 636501
+files:
+- name: "JB-DI-100-EternalCave.unr"
+  fileSize: 1628089
+  hash: "c4d5e79e96ca6ee8ff5fe3244e4ef32d28832b8f"
+- name: "JB-EternalCave.umod"
+  fileSize: 1660543
+  hash: "d4d4c4a8dae37cc6a6623381c30a8af79891c850"
+otherFiles: 3
+dependencies:
+  JB-DI-100-EternalCave.unr:
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-eternalcave-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/D/jb-eternalcave-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/D/4/5/d7434a/jb-eternalcave-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "EternalCaves"
+playerCount: "4 - 8"
+themes:
+  Nali Temple: 0.8
+  Industrial: 0.1
+  Natural: 0.1
+bots: true

@@ -15,17 +15,25 @@ originalFilename: "Yoda.zip"
 hash: "b91dd9c3b5aa189b3424d5a2dd3987a0e961e84e"
 fileSize: 405808
 files:
-- name: "Yoda.u"
-  fileSize: 55018
-  hash: "73afd29dabeb8d349177f01e61ca4151a8b6b"
-- name: "YodaSkins.utx"
-  fileSize: 686651
-  hash: "284d16a97389329a9cce6f892ac58e9d1d1451"
 - name: "Yoda.umod"
   fileSize: 760628
   hash: "c505b252db0739dc2042ec0d780c5fa0594887a4"
+- name: "Yoda.u"
+  fileSize: 55018
+  hash: "730afd29dabeb8d3491707f01e610ca4151a8b6b"
+- name: "YodaSkins.utx"
+  fileSize: 686651
+  hash: "0284d16a97389329a90cce6f892ac58e9d1d1451"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Yoda.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
+  YodaSkins.utx:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsY/&file=Yoda.zip"
   main: false

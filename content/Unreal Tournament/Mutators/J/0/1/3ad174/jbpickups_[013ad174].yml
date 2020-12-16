@@ -14,12 +14,16 @@ fileSize: 6615
 files:
 - name: "JBPickups.u"
   fileSize: 17173
-  hash: "6eb42474fc48fd5825ae10f3f76dc4f1dc"
+  hash: "6e0b42474fc408fd5825ae100f3f76dc040f1d0c"
 - name: "JBPickups.umod"
   fileSize: 22195
   hash: "a1dce33dfe15692600d41dcec3d358d2c5048253"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  JBPickups.u:
+  - status: "MISSING"
+    name: "Jailbreak"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/J/jbpickups.zip"
   main: true

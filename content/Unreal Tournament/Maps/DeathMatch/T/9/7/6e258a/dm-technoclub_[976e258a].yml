@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:07"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-TechnoClub"
+author: "Rick\"PsYChOtiC\"Rodriguez"
+description: "dance baby"
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-TechnoClub_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-TechnoClub_shot_1.png"
+originalFilename: "dm-technoclub.zip"
+hash: "976e258afbc910e342e3558047be7a368aece2eb"
+fileSize: 5178078
+files:
+- name: "DM-TechnoClub.umod"
+  fileSize: 7316107
+  hash: "5d092161ba283cb2d420421095a9fa80a351089e"
+- name: "BLADE01.umx"
+  fileSize: 4898258
+  hash: "d404d8510685a5de96dca74b0f29be8682f5d87a"
+- name: "C_ILLUSI.umx"
+  fileSize: 1350710
+  hash: "84b42cf869c7ed23decd9a5eb2c642e2a1a704a1"
+- name: "DM-TechnoClub.unr"
+  fileSize: 1065621
+  hash: "79f6604bb06eedc00f8e8395b02283da977cae34"
+otherFiles: 1
+dependencies:
+  DM-TechnoClub.unr:
+  - status: "OK"
+    name: "BLADE01"
+    providedBy: null
+  - status: "OK"
+    name: "C_ILLUSI"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-technoclub.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/dm-technoclub.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/9/7/6e258a/dm-technoclub.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TechnoClub"
+playerCount: "12-20"
+themes:
+  Tech: 0.1
+  City: 0.8
+bots: true

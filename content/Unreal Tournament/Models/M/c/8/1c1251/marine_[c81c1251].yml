@@ -18,14 +18,18 @@ files:
 - name: "MarineSkins.utx"
   fileSize: 975758
   hash: "8f47691bc0addb389eed96cdbbc5635aa2798e37"
+- name: "Marine.u"
+  fileSize: 98370
+  hash: "b94d58be218065d37cda0336a2d818e73fa10144"
 - name: "Marine.umod"
   fileSize: 1087349
   hash: "7428386596d155939718a99e2bd6b1b4024a089a"
-- name: "Marine.u"
-  fileSize: 98370
-  hash: "b94d58be218065d37cda336a2d818e73fa1144"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Marine.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-marine.zip"
   main: false

@@ -24,20 +24,36 @@ files:
 - name: "DM-CUT_Dungeon.unr"
   fileSize: 487229
   hash: "4e75c1883735246d6faae7b8eafc9957d7c73b72"
+- name: "London.utx"
+  fileSize: 527106
+  hash: "8abef42804b80669a298c93adf2506b9a81bfcfa"
+- name: "CUTDOM1.utx"
+  fileSize: 3072788
+  hash: "6c508ad2cc4ad79480a49c68d0f5e799293d0e8a"
 - name: "DM-CUT_Dungeon.umod"
   fileSize: 5345274
   hash: "585ab34f58b5ac5f5af84c54230034e6860a020b"
-- name: "London.utx"
-  fileSize: 527106
-  hash: "8abef4284b8669a298c93adf256b9a81bfcfa"
-- name: "CUTDOM1.utx"
-  fileSize: 3072788
-  hash: "6c508ad2cc4ad79480a49c68d0f5e799293de8a"
 - name: "Zan_oc.umx"
   fileSize: 1196663
-  hash: "83d44554a8a4b479e2799f9eb809f51507b5f"
+  hash: "83d445054a8a4b04790e2799f9eb809f51507b5f"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  DM-CUT_Dungeon.unr:
+  - status: "OK"
+    name: "Zan_oc"
+    providedBy: null
+  - status: "OK"
+    name: "London"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "OK"
+    name: "CUTDOM1"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/5/8/5ab34f/DM-CUT_Dungeon.umod"
   main: true

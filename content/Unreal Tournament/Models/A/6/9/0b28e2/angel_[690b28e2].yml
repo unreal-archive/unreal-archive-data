@@ -15,17 +15,21 @@ originalFilename: "angel2.zip"
 hash: "690b28e2243e58881f5a9d3bb059b02117a9dca9"
 fileSize: 899352
 files:
-- name: "AngelSkins.utx"
-  fileSize: 1335136
-  hash: "b3bf15d26261e3bebfba81f7f4f2f346e9d5489"
-- name: "Angel.u"
-  fileSize: 143716
-  hash: "ef6ab46b8b6e8160eea6862a1de8bdca1c0e716"
 - name: "Angel.umod"
   fileSize: 1511158
   hash: "d11a5f557d72a065e4a14e727ef43a7a2eb1d327"
+- name: "AngelSkins.utx"
+  fileSize: 1335136
+  hash: "b3bf15d26261e3bebfba081f7f4f2f346e9d5489"
+- name: "Angel.u"
+  fileSize: 143716
+  hash: "ef6ab46b8b6e8160eea60862a1de8bdca1c0e716"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Angel.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsA/&file=angel2.zip"
   main: false

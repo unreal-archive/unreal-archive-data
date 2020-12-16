@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+variationOf: null
+game: "Unreal Tournament"
+name: "AS-Spacemars"
+author: "TaroT"
+description: "Mars is a land of oportunity,but you have to fight for it"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "AS-Spacemars_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/S/AS-Spacemars_shot_1.png"
+originalFilename: "as-spacemars.zip"
+hash: "523fac8ec2e3628b44defe2b5a3a25e5573e9f63"
+fileSize: 5680187
+files:
+- name: "AS-Spacemars.unr"
+  fileSize: 10818600
+  hash: "07fa6c0d6dd6a08488e11a4474e1406517d9480a"
+- name: "Sandman.umx"
+  fileSize: 1025151
+  hash: "9fa07a0a26ab79800889c3692815ed95ae3812fb"
+- name: "AS-spacemars.umod"
+  fileSize: 17416797
+  hash: "0d510c872d106dd58e3671f6b95dcb5d121ab08d"
+- name: "jagged.utx"
+  fileSize: 5568356
+  hash: "26d8310aa17c0f6431f88f19cb2957170e10f7db"
+otherFiles: 2
+dependencies:
+  AS-Spacemars.unr:
+  - status: "OK"
+    name: "jagged"
+    providedBy: null
+  - status: "OK"
+    name: "Sandman"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/S/as-spacemars.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403132"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/S/5/2/3fac8e/as-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Spaceonmars"
+playerCount: "6-12"
+themes:
+  Tech: 1.0
+bots: true

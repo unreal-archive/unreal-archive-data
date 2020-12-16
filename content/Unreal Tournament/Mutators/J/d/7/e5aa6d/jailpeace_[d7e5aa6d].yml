@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:25"
+variationOf: null
+game: "Unreal Tournament"
+name: "JailPeace"
+author: "Unknown"
+description: ""
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "JailPeace_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailPeace_shot_1.png"
+originalFilename: "jailpeace-umod.zip"
+hash: "d7e5aa6d292e9e58ebd682b10b84ba764e2cf1d5"
+fileSize: 10113
+files:
+- name: "JailPeace.umod"
+  fileSize: 35256
+  hash: "ad49487484ef085b8c4b4653465a606fa7728fd6"
+- name: "JailPeace.u"
+  fileSize: 2527
+  hash: "a8a2bf424405413cf676724ae053a8b7208cd4af"
+otherFiles: 4
+dependencies:
+  JailPeace.u:
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/JailBreak&file=jailpeace-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/J/jailpeace-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/J/d/7/e5aa6d/jailpeace-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "JailPeace"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

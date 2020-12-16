@@ -17,7 +17,7 @@ fileSize: 209513
 files:
 - name: "Scud.u"
   fileSize: 87894
-  hash: "f97111b685fa76a4427f6987b6fc958f6cb83de"
+  hash: "f97111b685fa076a4427f6987b6fc958f6cb83de"
 - name: "SCUD.umod"
   fileSize: 1433551
   hash: "33b3cba72019fa5f36355cbc6b8497f0700a198d"
@@ -25,7 +25,11 @@ files:
   fileSize: 1337153
   hash: "54c759d92d753055c25989699a5b2db630ebf7a5"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Scud.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsS/&file=scud.zip"
   main: false

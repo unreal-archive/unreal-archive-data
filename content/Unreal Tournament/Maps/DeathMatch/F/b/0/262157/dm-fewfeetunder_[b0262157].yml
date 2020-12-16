@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:14"
+variationOf: "968e4c9495910a9a032b54f6b3c2db55144a75e2"
+game: "Unreal Tournament"
+name: "DM-FewFeetUnder"
+author: "Ragnarok2030"
+description: "Now are now a \"Few feet Under\""
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "dm-few.rar"
+hash: "b0262157729350a4b51094928e6a9a745904b9ff"
+fileSize: 94411
+files:
+- name: "DM-FewFeetUnder.unr"
+  fileSize: 302679
+  hash: "8b86aa596348e56c49c68d693ea1459dd45cf174"
+- name: "DM- A Few Feet Under.umod"
+  fileSize: 304804
+  hash: "8652cc2753ad18bdb159d775f26ba75a2d709f2f"
+otherFiles: 1
+dependencies:
+  DM-FewFeetUnder.unr:
+  - status: "MISSING"
+    name: "FewFeetUnder"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-few.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/dm-few.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/b/0/262157/dm-few.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "A Few Feet Under"
+playerCount: "2-6"
+themes:
+  Nali Temple: 0.4
+  Ancient: 0.3
+  Nali Castle: 0.3
+bots: true

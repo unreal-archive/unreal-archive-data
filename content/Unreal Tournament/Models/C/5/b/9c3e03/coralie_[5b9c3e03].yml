@@ -26,15 +26,19 @@ fileSize: 1258940
 files:
 - name: "CoralieSkins.utx"
   fileSize: 3513994
-  hash: "a3ba5b6b2b7096426ded51f2fda1675efa41893"
+  hash: "a3ba5b6b2b70096426ded51f2fda1675efa41893"
 - name: "utmdl-Coralie.umod"
   fileSize: 3813045
   hash: "5a267af401113a35cc34cba7b0e46b067969ba96"
 - name: "Coralie.u"
   fileSize: 179649
-  hash: "3ab32c2b472ce69a2afc682ddc5d3ce898352e"
+  hash: "03ab32c2b472ce69a2afc682ddc5d3ce8983520e"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  Coralie.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-coralie.zip"
   main: false

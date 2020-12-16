@@ -23,18 +23,34 @@ files:
   hash: "b76a154243caeaf525a722e13f13d45722a97840"
 - name: "London.utx"
   fileSize: 527106
-  hash: "8abef4284b8669a298c93adf256b9a81bfcfa"
+  hash: "8abef42804b80669a298c93adf2506b9a81bfcfa"
 - name: "CUTDOM1.utx"
   fileSize: 3072788
-  hash: "6c508ad2cc4ad79480a49c68d0f5e799293de8a"
+  hash: "6c508ad2cc4ad79480a49c68d0f5e799293d0e8a"
 - name: "DOM-CUT_Dungeon.umod"
   fileSize: 5325025
   hash: "abd573257bff7914b2a5f3a9ec20f2d73b169044"
 - name: "Zan_oc.umx"
   fileSize: 1196663
-  hash: "83d44554a8a4b479e2799f9eb809f51507b5f"
+  hash: "83d445054a8a4b04790e2799f9eb809f51507b5f"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  DOM-CUT_Dungeon.unr:
+  - status: "OK"
+    name: "Zan_oc"
+    providedBy: null
+  - status: "OK"
+    name: "London"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "OK"
+    name: "CUTDOM1"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dom-cut_dungeon.zip"
   main: false

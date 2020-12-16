@@ -26,12 +26,16 @@ files:
   hash: "10b080ac49081c16c1b3aee4a136f3e567e23d26"
 - name: "DOM-AF-Craftstation-100.unr"
   fileSize: 4779526
-  hash: "78609e57fb2962182ffbb82e5cc6f4216aa5fc5"
+  hash: "786009e57fb2962182ffbb82e5cc6f4216aa5fc5"
 - name: "WarGate.umx"
   fileSize: 825589
-  hash: "496fdde34b97ccc149549c4fb16fb75ff3c4297"
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  DOM-AF-Craftstation-100.unr:
+  - status: "OK"
+    name: "WarGate"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/A/1/0/b080ac/DOM-AF-Craftstation-100.umod"
   main: true

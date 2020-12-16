@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:01"
+variationOf: "26e2560eb172ba3fbb739b16f585d800da770abc"
+game: "Unreal Tournament"
+name: "JB-Awot"
+author: "Robin 'Rob' Pamart"
+description: "None"
+releaseDate: "2006-06"
+attachments:
+- type: "IMAGE"
+  name: "jb-awot_shot_180d156f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/A/1/8/0d156f/jb-awot_shot_180d156f_2.png"
+- type: "IMAGE"
+  name: "jb-awot_shot_180d156f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/A/1/8/0d156f/jb-awot_shot_180d156f_1.png"
+originalFilename: "jb-awot-umod.zip"
+hash: "180d156fcf4d954266adb60fcfa282bcb1471f11"
+fileSize: 3528800
+files:
+- name: "JB-Awot.umod"
+  fileSize: 15413411
+  hash: "332359adfb965876ac002f1f68422e681a0950d1"
+- name: "JB-Awot.unr"
+  fileSize: 15379402
+  hash: "c87d26b4bc91d9b4f31237bf72d84dfcd292e44d"
+otherFiles: 3
+dependencies:
+  JB-Awot.unr:
+  - status: "MISSING"
+    name: "Screen"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBSpecials"
+    providedBy: null
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-awot-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/A/jb-awot-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/A/1/8/0d156f/jb-awot-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Another Waste of Time"
+playerCount: "8-16"
+themes:
+  Tech: 1.0
+bots: true

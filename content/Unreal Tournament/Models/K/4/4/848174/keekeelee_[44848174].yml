@@ -27,17 +27,21 @@ originalFilename: "utmdl-keek.zip"
 hash: "44848174eb3748272729e4588e7e0459918b8f50"
 fileSize: 1503373
 files:
+- name: "keek.u"
+  fileSize: 1247528
+  hash: "8fd607a79fb00fd56160a8dd6077c088fed0fc54"
 - name: "AlcKeek.umod"
   fileSize: 2301366
   hash: "58e0d21fdaa381ed0fd482d0c0737de159065e1c"
-- name: "keek.u"
-  fileSize: 1247528
-  hash: "8fd67a79fb0fd56160a8dd6077c088fed0fc54"
 - name: "keekSkins.utx"
   fileSize: 1019840
-  hash: "7526f8567f9aa1c7f6ba028961b9747be2dd5cf"
+  hash: "07526f8567f9aa1c7f6ba028961b9747be2dd5cf"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  keek.u:
+  - status: "OK"
+    name: "keekSkins"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-keek.zip"
   main: false

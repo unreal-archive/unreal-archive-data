@@ -17,15 +17,19 @@ fileSize: 2024825
 files:
 - name: "centaur.u"
   fileSize: 1445779
-  hash: "a70aa95dcbc3748394077a761931841e778f48"
+  hash: "a700aa95dcbc3748394077a7619318410e778f48"
 - name: "centaurSkins.utx"
   fileSize: 1869674
-  hash: "e498e19fa6170e07112dae6d511bbe77db14"
+  hash: "e498e19f0a6170e007112dae6d511b0b0e77db14"
 - name: "Kentauroi.umod"
   fileSize: 3350151
   hash: "9179fb53734978fdeca63e11281d93d8d116b34c"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  centaur.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsK/&file=kentauroi.zip"
   main: false

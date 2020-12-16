@@ -1,0 +1,126 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:24"
+variationOf: "f7d6394090b4a9033b4f1910ae36849477febe7d"
+game: "Unreal Tournament"
+name: "JailFight"
+author: "Mychaeel"
+description: ""
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "JailFight_shot_8.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_8.png"
+- type: "IMAGE"
+  name: "JailFight_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_3.png"
+- type: "IMAGE"
+  name: "JailFight_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_5.png"
+- type: "IMAGE"
+  name: "JailFight_shot_9.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_9.png"
+- type: "IMAGE"
+  name: "JailFight_shot_10.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_10.png"
+- type: "IMAGE"
+  name: "JailFight_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_1.png"
+- type: "IMAGE"
+  name: "JailFight_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_6.png"
+- type: "IMAGE"
+  name: "JailFight_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_2.png"
+- type: "IMAGE"
+  name: "JailFight_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_7.png"
+- type: "IMAGE"
+  name: "JailFight_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_4.png"
+- type: "IMAGE"
+  name: "JailFight_shot_11.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/J/JailFight_shot_11.png"
+originalFilename: "jailbreakiii-sp2-umod.zip"
+hash: "ea21368ed24dc9db16b1b0aa0e25fd2835c82516"
+fileSize: 1170178
+files:
+- name: "JBSkinKryty.utx"
+  fileSize: 703798
+  hash: "112a25403a74f7874fe0303a1dad3b7cc746a121"
+- name: "Screen.u"
+  fileSize: 309292
+  hash: "1b5cab634e09f393db1832a50eb10d0f46ca67ca"
+- name: "JBMadmen.u"
+  fileSize: 59958
+  hash: "cccd2b2f63be963905eadadb813daa499b927c84"
+- name: "JailBreak.u"
+  fileSize: 1483009
+  hash: "ce891867bb5d95830a45674ec8cde6c765f01a2f"
+- name: "JBArena.u"
+  fileSize: 93157
+  hash: "289937bfef80b1bd875b6c53e96060119c04369b"
+- name: "JBRelics.u"
+  fileSize: 7655
+  hash: "8e246d1896cca285dd0137d1efa17afbe5d22f22"
+- name: "JBSkinTankazz.utx"
+  fileSize: 311510
+  hash: "a8ed85d2054b2b0eb30a3f99759d150b534703a1"
+- name: "JBSkinOpression.utx"
+  fileSize: 311535
+  hash: "29f9c39ea43eeedc57036fddffc2152b7f76fb23"
+- name: "JailFight.u"
+  fileSize: 58478
+  hash: "2aa35ae44dcab10d57e8f173bb8c6687cf45a370"
+- name: "JailbreakIII-SP2.umod"
+  fileSize: 3880642
+  hash: "6b8fcdab14b35dbff47e7f97815938b476c21b37"
+otherFiles: 25
+dependencies:
+  Screen.u:
+  - status: "MISSING"
+    name: "ScriptedScreen"
+    providedBy: null
+  - status: "MISSING"
+    name: "ScreenFonts"
+    providedBy: null
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+    providedBy: null
+  JBRelics.u:
+  - status: "OK"
+    name: "JBArena"
+    providedBy: null
+  - status: "OK"
+    name: "JailBreak"
+    providedBy: null
+  JailBreak.u:
+  - status: "MISSING"
+    name: "JBAudio"
+    providedBy: null
+  JBMadmen.u:
+  - status: "OK"
+    name: "JailBreak"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/JailBreak&file=jailbreakiii-sp2-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/J/jailbreakiii-sp2-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/J/e/a/21368e/jailbreakiii-sp2-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "JailFight"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

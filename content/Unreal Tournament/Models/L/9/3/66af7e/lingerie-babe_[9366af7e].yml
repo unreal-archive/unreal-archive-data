@@ -15,17 +15,21 @@ originalFilename: "lingerie_utmdl.zip"
 hash: "9366af7eb5bd2d7a58cfe8b2680a2f0360407de6"
 fileSize: 912842
 files:
+- name: "LingSkins.utx"
+  fileSize: 1798615
+  hash: "622991d8227d4729ae31654978081854386781e4"
+- name: "Ling.u"
+  fileSize: 112606
+  hash: "80c8e899cb4efa25880d1dc673cac2baa3b79408"
 - name: "lingerie.umod"
   fileSize: 1947759
   hash: "84932bb92d7d6003b4ed87bca8f506797cd547d7"
-- name: "LingSkins.utx"
-  fileSize: 1798615
-  hash: "622991d8227d4729ae3165497881854386781e4"
-- name: "Ling.u"
-  fileSize: 112606
-  hash: "80c8e899cb4efa2588d1dc673cac2baa3b7948"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Ling.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsL/&file=lingerie_utmdl.zip"
   main: false
