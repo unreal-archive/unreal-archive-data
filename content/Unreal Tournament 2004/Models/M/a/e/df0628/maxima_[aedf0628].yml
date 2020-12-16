@@ -1,0 +1,91 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2018-12-28 16:26"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "Maxima"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "Maxima_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/M/Maxima_shot_1.png"
+originalFilename: "ut2004skn-maxima.zip"
+hash: "aedf0628d86047299b1e9448f3b9e61bdcfa71f8"
+fileSize: 6310803
+files:
+- name: "SkyllaMod.u"
+  fileSize: 758
+  hash: "a65dbf3bfff17bedfa7c7b2990c42b8d904857ee"
+- name: "Maxima Skin.ut4mod"
+  fileSize: 15693066
+  hash: "9d29e6328bc102744a4528634906ffd8658655d9"
+- name: "SkyllaMaximaAnim.ukx"
+  fileSize: 1392950
+  hash: "9ec82afaaa963f2bdbc1188c03a440ba342e0a5a"
+- name: "MaximaMod.u"
+  fileSize: 832
+  hash: "c0730c77959edcf0e21b9e165a437a7310cc9c3a"
+- name: "MaximaXMod.u"
+  fileSize: 839
+  hash: "4ba55cffe46e4b8b9b1cf05f665bce4dab9a03c7"
+- name: "SkyllaOLMod.u"
+  fileSize: 768
+  hash: "eb92a28608286ce496bcdfdddb3b0e2123b95ac2"
+- name: "SaphiriaPlayers_Maxima.upl"
+  fileSize: 868
+  hash: "22e69c86b1d468aed3b84be13576f21818b00f4a"
+- name: "SaphiriaPlayers_MaximaOnline.upl"
+  fileSize: 859
+  hash: "5802a250d965df4b1386b4e7f28af635dd359203"
+- name: "SkyllaSkins_Maxima.utx"
+  fileSize: 14159479
+  hash: "c6ed9854aa711acc17b43d53a33f988bbeab55dd"
+otherFiles: 2
+dependencies:
+  SkyllaOLMod.u:
+  - status: "MISSING"
+    name: "Skylla"
+    providedBy: null
+  MaximaXMod.u:
+  - status: "OK"
+    name: "SkyllaSkins_Maxima"
+    providedBy: null
+  MaximaMod.u:
+  - status: "OK"
+    name: "SkyllaSkins_Maxima"
+    providedBy: null
+  - status: "MISSING"
+    name: "SPECIES_Skylla"
+    providedBy: null
+  SkyllaMod.u:
+  - status: "MISSING"
+    name: "SPECIES_Skylla"
+    providedBy: null
+  - status: "MISSING"
+    name: "Skylla"
+    providedBy: null
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=3851027"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/M/ut2004skn-maxima.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=ut2004skn-maxima.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Models/M/a/e/df0628/ut2004skn-maxima.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+models:
+- "Maxima"
+skins:
+- "Maxima"
+- "MaximaX"
