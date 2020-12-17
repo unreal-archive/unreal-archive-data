@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 22:00"
+variationOf: null
+game: "Unreal Tournament"
+name: "DTF-Morpheus-3x1"
+author: "Dave Ewing - mod by irongull"
+description: "Nobody ever makes their first jump."
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "DTF-Morpheus-3x1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/D/DTF-Morpheus-3x1_shot_1.png"
+originalFilename: "dtf-morpheus-3x1.zip"
+hash: "f69e5ff1c76793f60ef40ee8dca66c898e4bee63"
+fileSize: 559624
+files:
+- name: "DTFMorpheus.utx"
+  fileSize: 187991
+  hash: "04a760ee4fb8b793d0598808cf30905e787fdcb8"
+- name: "DTF-Morpheus-3x1.unr"
+  fileSize: 1410790
+  hash: "07d5bf1c46a3b0a8d10a81ebb8783fa07f5ba29c"
+otherFiles: 1
+dependencies:
+  DTF-Morpheus-3x1.unr:
+  - status: "OK"
+    name: "DTFMorpheus"
+    providedBy: null
+  - status: "MISSING"
+    name: "DominateTheFlagV01"
+    providedBy: null
+  - status: "MISSING"
+    name: "JumpHelperV01"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/D/dtf-morpheus-3x1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/D/f/6/9e5ff1/dtf-morpheus-3x1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=dtf-morpheus-3x1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Dominate The Flag"
+title: "Morpheus"
+playerCount: "3 to 6"
+themes:
+  Tech: 0.4
+  Industrial: 0.3
+  City: 0.3
+bots: true
