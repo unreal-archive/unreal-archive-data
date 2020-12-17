@@ -17,12 +17,16 @@ files:
   hash: "b21eae2acbbfde653fb95fbef8f7121e326a9fbd"
 - name: "ca.u"
   fileSize: 45108
-  hash: "dd80fa57e134bdbbaa1bb6e7f4d2f8895f776a"
+  hash: "dd80fa57e134bdbbaa1bb6e70f4d2f88095f776a"
 - name: "caSniperv2.umod"
   fileSize: 83127
   hash: "ef85a7860baa7df34c628a6c20384d73ca031555"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  ca.u:
+  - status: "OK"
+    name: "caSniperIcons"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/casniperv2.zip"
   main: true

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-12-23 09:07"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Spacewar"
+author: "Jonas 'Neo' Barkowski  <Jonas.Barkowski@web.de>"
+description: "Take their Flag!!!!!1"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Spacewar_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Spacewar_shot_1.png"
+originalFilename: "ctf-spacewar.zip"
+hash: "b70a4af10498bda0377804a0eb4dba88638c3799"
+fileSize: 6134588
+files:
+- name: "LinkinPark.umx"
+  fileSize: 4974470
+  hash: "a698def237f1b7d2583a0f27a2f32119de5fd464"
+- name: "QUAKE3c.utx"
+  fileSize: 1756884
+  hash: "24825a99bdc76cda3eb138fdf37d69e510d560f9"
+- name: "ctf-spacewar.umod"
+  fileSize: 9272786
+  hash: "689c618b6467146a54f9a8d6baec8088a5b5e86c"
+- name: "CTF-Spacewar.unr"
+  fileSize: 2510526
+  hash: "318b29c3d180a14504317add0e7646ca02e5bae4"
+otherFiles: 2
+dependencies:
+  CTF-Spacewar.unr:
+  - status: "OK"
+    name: "LinkinPark"
+    providedBy: null
+  - status: "OK"
+    name: "quake3c"
+    providedBy: null
+  - status: "MISSING"
+    name: "Skycas"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-spacewar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/7/0a4af1/ctf-spacewar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Spacewar"
+playerCount: "16-32"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true

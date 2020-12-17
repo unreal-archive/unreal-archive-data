@@ -14,15 +14,19 @@ fileSize: 61869
 files:
 - name: "izimSkins.utx"
   fileSize: 450411
-  hash: "e03ee85b8f548428604372f699bbe7a39c8aa4d"
+  hash: "e03ee85b8f548428604372f699bbe7a39c08aa4d"
 - name: "izim_utmdl.umod"
   fileSize: 516704
   hash: "661b3eae7d9732f6767925b837225b79cf3b8e06"
 - name: "izim.u"
   fileSize: 64538
-  hash: "be138b51c3b962520fcef55177b8f15e5202120"
+  hash: "be138b51c3b9625200fcef55177b8f15e5202120"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  izim.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsI/&file=izim_utmdl.zip"
   main: false

@@ -20,27 +20,43 @@ fileSize: 5147045
 files:
 - name: "Trauma.umx"
   fileSize: 770247
-  hash: "34efff13a32c1d5bc4fdbd1fe8882f27e30251b"
+  hash: "34efff13a32c1d5bc4fdbd01fe8882f27e30251b"
 - name: "dmsands.uax"
   fileSize: 217750
-  hash: "f9b7f8c27d96494352a4be9f1a6b7dddeb74563"
+  hash: "f9b7f8c27d96494352a4be9f1a6b7ddd0eb74563"
 - name: "NBCRM.u"
   fileSize: 55253
-  hash: "19da3e4d3aa9c39a9fd66bfc8bed428d475a9f"
+  hash: "19da3e04d3aa9c039a9fd66bfc8bed428d475a9f"
 - name: "Dm-DesolateSands.unr"
   fileSize: 3051069
   hash: "84972cee5d9b6d7dba5c871d93724718173eb262"
-- name: "Dm-DesolateSands.umod"
-  fileSize: 5147045
-  hash: "c747a2e29f23137a39a9f5631f3c9491030bd19e"
 - name: "DSands.utx"
   fileSize: 885390
   hash: "376978be7a5deb3123d0bac4414bc689a52b1c4a"
 - name: "Desertmeshes.u"
   fileSize: 132596
-  hash: "f91f8f416e22c0b88848ff99b1bc0a9c4f270e2"
+  hash: "f91f8f416e22c0b88848ff990b1bc0a9c4f270e2"
+- name: "Dm-DesolateSands.umod"
+  fileSize: 5147045
+  hash: "c747a2e29f23137a39a9f5631f3c9491030bd19e"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Dm-DesolateSands.unr:
+  - status: "OK"
+    name: "NBCRM"
+    providedBy: null
+  - status: "OK"
+    name: "DSands"
+    providedBy: null
+  - status: "OK"
+    name: "Trauma"
+    providedBy: null
+  - status: "OK"
+    name: "Desertmeshes"
+    providedBy: null
+  - status: "OK"
+    name: "dmsands"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/c/7/47a2e2/Dm-DesolateSands.umod"
   main: true

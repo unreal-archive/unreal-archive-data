@@ -23,12 +23,16 @@ files:
   hash: "dafcfb63b37b7b990d832bf0b75cee600fe910c1"
 - name: "RubySkins.utx"
   fileSize: 1778476
-  hash: "114d6e35d67d71fe935bb3cfaddb5dd6b6b12"
+  hash: "114d6e035d67d71fe935bb3cfaddb5dd6b6b0102"
 - name: "Ruby.u"
   fileSize: 134348
   hash: "5c965583814acf79c66147abbbe16770155a3c78"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Ruby.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsR/&file=ruby.zip"
   main: false

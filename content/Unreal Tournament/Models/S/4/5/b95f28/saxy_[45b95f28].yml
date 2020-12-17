@@ -20,12 +20,16 @@ files:
   hash: "d9d34baba8d9c5f75bf4114b29922719c07d417d"
 - name: "Saxy.u"
   fileSize: 102076
-  hash: "85d8cd22f6a3b6a1d7ad08c6452036527f7aeb"
+  hash: "85d80cd22f6a3b6a1d7ad08c64520036527f7aeb"
 - name: "Saxy.umod"
   fileSize: 1922276
   hash: "188f91d50ad245d2968b4453f74d942962b0887b"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Saxy.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsS/&file=saxy.zip"
   main: false

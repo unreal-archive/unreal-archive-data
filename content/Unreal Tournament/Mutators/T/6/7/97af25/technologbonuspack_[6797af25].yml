@@ -15,21 +15,21 @@ originalFilename: "technoloGBonusPack.umod"
 hash: "6797af2559da81020a197bdb7e7ceaca24e77709"
 fileSize: 5909062
 files:
+- name: "Crosshairs.utx"
+  fileSize: 126666
+  hash: "676a3c0a2cff7f8d20e9baa2167304ab6bb30aa2"
+- name: "Relics2.u"
+  fileSize: 1486598
+  hash: "3a1f074dc1881fcc366179f6c053c483d80c38fa"
 - name: "technoloGBonusPack.umod"
   fileSize: 5909062
   hash: "6797af2559da81020a197bdb7e7ceaca24e77709"
-- name: "Crosshairs.utx"
-  fileSize: 126666
-  hash: "676a3ca2cff7f8d20e9baa216734ab6bb3aa2"
-- name: "Relics2.u"
-  fileSize: 1486598
-  hash: "3a1f74dc1881fcc366179f6c053c483d8c38fa"
 - name: "SpellUNREAL.u"
   fileSize: 1585196
-  hash: "9f2b7fa1697c64dfce633d3fcca15a0bd94fb"
+  hash: "9f2b7f0a16097c64dfce6303d3fcca15a0bd94fb"
 - name: "AmericanFlags.u"
   fileSize: 358638
-  hash: "8f572faba7f49b6cc70f160d72563cad4d6ecb5"
+  hash: "8f572faba7f49b6c0c70f160d72563cad4d6ecb5"
 - name: "TKingOfTheHill.u"
   fileSize: 98031
   hash: "4e2e74fcc89f5a51ddf763257d22ca1f3dc9668f"
@@ -38,9 +38,13 @@ files:
   hash: "d6d18066a128b1ed276cb6d52a1fd1d37a4c54ce"
 - name: "FullyLoaded.u"
   fileSize: 6691
-  hash: "85a88bd54a03d982ca2fb29fb8c38ceb8935c24"
+  hash: "85a88bd54a003d982ca2fb29fb8c38ceb8935c24"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  TKingOfTheHill.u:
+  - status: "OK"
+    name: "SpellUNREAL"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/T/6/7/97af25/technoloGBonusPack.umod"
   main: true

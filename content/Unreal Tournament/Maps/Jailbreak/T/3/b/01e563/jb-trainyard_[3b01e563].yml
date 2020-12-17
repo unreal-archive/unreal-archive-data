@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:30"
+variationOf: "6ebc1ccbf3cf25df4c3e19015b96bead9d066386"
+game: "Unreal Tournament"
+name: "JB-TrainYard"
+author: "RevBillyG"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "jb-trainyard_shot_3b01e563_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/T/3/b/01e563/jb-trainyard_shot_3b01e563_1.png"
+- type: "IMAGE"
+  name: "jb-trainyard_shot_3b01e563_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/T/3/b/01e563/jb-trainyard_shot_3b01e563_2.png"
+originalFilename: "jb-trainyard-umod.zip"
+hash: "3b01e56352f3e007378dcb661d4c70bbbc379222"
+fileSize: 3420444
+files:
+- name: "JB-TrainYard.unr"
+  fileSize: 10928303
+  hash: "bd5722a2c437a854724797f1ed85b2275a78381c"
+- name: "JB-TrainYard.umod"
+  fileSize: 10960632
+  hash: "663bdd77728dd3011ae66857612ab713a97b1a0e"
+otherFiles: 3
+dependencies:
+  JB-TrainYard.unr:
+  - status: "MISSING"
+    name: "Screen"
+    providedBy: null
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jb-trainyard-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/T/jb-trainyard-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-trainyard-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/T/3/b/01e563/jb-trainyard-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "TrainYard"
+playerCount: "8-16"
+themes:
+  Industrial: 0.3
+  Skaarj Tech: 0.7
+bots: true

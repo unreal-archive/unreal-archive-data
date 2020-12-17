@@ -1,0 +1,118 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 08:15"
+variationOf: null
+game: "Unreal Tournament"
+name: "JR Gamesurf UTMapPack"
+author: "Various"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "JR_Gamesurf_UTMapPack_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/J/JR_Gamesurf_UTMapPack_shot_4.png"
+- type: "IMAGE"
+  name: "JR_Gamesurf_UTMapPack_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/J/JR_Gamesurf_UTMapPack_shot_6.png"
+- type: "IMAGE"
+  name: "JR_Gamesurf_UTMapPack_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/J/JR_Gamesurf_UTMapPack_shot_3.png"
+- type: "IMAGE"
+  name: "JR_Gamesurf_UTMapPack_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/J/JR_Gamesurf_UTMapPack_shot_5.png"
+- type: "IMAGE"
+  name: "JR_Gamesurf_UTMapPack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/J/JR_Gamesurf_UTMapPack_shot_2.png"
+- type: "IMAGE"
+  name: "JR_Gamesurf_UTMapPack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/J/JR_Gamesurf_UTMapPack_shot_1.png"
+originalFilename: "JR-Gamesurf-UTMapPack.zip"
+hash: "97d5d5b8f16617d856f4f06db568035f8c9bb580"
+fileSize: 7572713
+files:
+- name: "JR-Gamesurf-UTMapPack.umod"
+  fileSize: 16924992
+  hash: "e15b141a4ad27030b0deac8cfdabc7e1830b84ab"
+- name: "DM-TDT-Nemesis.unr"
+  fileSize: 1660057
+  hash: "94305e37cd0f3aa141f45a1d105c9c7d1296a1c5"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DM-1on1-CrossFire.unr"
+  fileSize: 1317340
+  hash: "0fb66dcd949034e8b198560e9e79124241c661fa"
+- name: "DM-Aleria-TOURNEY.unr"
+  fileSize: 2195825
+  hash: "992c28957c05dd89d7c9370e1253abe95d447afd"
+- name: "DM-Ianus.unr"
+  fileSize: 4170719
+  hash: "ecca5b53cfd4d5f506c8beb868ce94e001506f03"
+- name: "Contest.utx"
+  fileSize: 702740
+  hash: "273c42d49fbe635f610a4b1e5b410f12187c9e7a"
+- name: "DM-Obscura.unr"
+  fileSize: 2304486
+  hash: "57d76d68a714e14d63278f0d4103472627a720f4"
+- name: "DM-1on1-Tronic.unr"
+  fileSize: 2187359
+  hash: "32c0d0ccb277d27750d5a3bd5574e1ce5e546907"
+otherFiles: 12
+dependencies:
+  DM-Obscura.unr:
+  - status: "OK"
+    name: "richrig"
+    providedBy: null
+  DM-Ianus.unr:
+  - status: "OK"
+    name: "richrig"
+    providedBy: null
+  - status: "MISSING"
+    name: "SGTech1"
+    providedBy: null
+  DM-TDT-Nemesis.unr:
+  - status: "OK"
+    name: "Contest"
+    providedBy: null
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/J/JR-Gamesurf-UTMapPack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=JR-Gamesurf-UTMapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/J/9/7/d5d5b8/JR-Gamesurf-UTMapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Ianus"
+  title: "Open Ianus Doors"
+  author: "Danilo \"Dan\" Di Mascio & Andrea \"Palka\" Varnier"
+- name: "DM-TDT-Nemesis"
+  title: "Nemesis Hideout"
+  author: "Andrea \"Palka\" Varnier"
+- name: "DM-1on1-CrossFire"
+  title: "DM-1on1-Crossfire"
+  author: "*~Pop-Atze~*"
+- name: "DM-Obscura"
+  title: "-=Obscura=-"
+  author: "[GMA]MarkusW and [GMA]Tronic"
+- name: "DM-1on1-Tronic"
+  title: "1on1-Tronic"
+  author: "by Matthias Dörflinger"
+- name: "DM-Aleria-TOURNEY"
+  title: "Aleria-TOURNEY"
+  author: "Roberto\"Firefox\"Cortese"
+gametype: "Mixed"
+themes:
+  Tech: 0.2
+  Industrial: 0.6
+  Skaarj Tech: 0.2

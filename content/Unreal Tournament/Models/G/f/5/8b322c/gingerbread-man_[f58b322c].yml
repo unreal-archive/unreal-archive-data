@@ -17,15 +17,19 @@ fileSize: 312460
 files:
 - name: "Gbm.u"
   fileSize: 56328
-  hash: "a86cb74ccc147b80bf743e840114c908693b2b7"
+  hash: "a86cb74ccc147b80bf7403e840114c908693b2b7"
+- name: "GbmSkins.utx"
+  fileSize: 450392
+  hash: "24902795de2f8edb2400612d9b2ed34e2c2678dc"
 - name: "GBM.umod"
   fileSize: 526642
   hash: "8d03370007868ba8cbfa804e55bbbb074d8aa3b1"
-- name: "GbmSkins.utx"
-  fileSize: 450392
-  hash: "24902795de2f8edb240612d9b2ed34e2c2678dc"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Gbm.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsG/&file=GBM.zip"
   main: false

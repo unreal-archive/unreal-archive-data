@@ -14,15 +14,19 @@ fileSize: 1017437
 files:
 - name: "SpaceMarine40K.u"
   fileSize: 526679
-  hash: "884c98e8ad95a2ea669f46ae4eb7a27b1d5540"
-- name: "SpaceMarine40K.umod"
-  fileSize: 1535527
-  hash: "7fdbc303a124a3287b94203f62c6cfc5da11eeeb"
+  hash: "8804c98e8ad95a2ea669f46ae4eb7a27b1d50540"
 - name: "SpaceMarineSkins.utx"
   fileSize: 1002086
   hash: "62a287b460129db8524c75286fda6cf0b1b1eeca"
+- name: "SpaceMarine40K.umod"
+  fileSize: 1535527
+  hash: "7fdbc303a124a3287b94203f62c6cfc5da11eeeb"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  SpaceMarine40K.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-spacemarine40k.zip"
   main: false

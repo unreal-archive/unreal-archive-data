@@ -53,27 +53,56 @@ files:
   hash: "9a3efeeb59a7cfa7984e38d2698a6f3124818c36"
 - name: "RocketsUtExtra.utx"
   fileSize: 1101764
-  hash: "d845275cd87e36a91ab95a177f2b014f3387d64"
-- name: "RocketsUT.umod"
-  fileSize: 7461211
-  hash: "9a1f893cfacafe64563ede751acd22950761d2d2"
+  hash: "0d845275cd87e36a91ab95a177f2b014f3387d64"
 - name: "EIChallengeHUD.u"
   fileSize: 220074
   hash: "b8ba57c1ea813e9faf6ea02a205d17a816a57bd8"
 - name: "EnhancedItems.u"
   fileSize: 274236
   hash: "22494c55814b76565b3589895c954f5f10d068ab"
+- name: "RocketsUT.umod"
+  fileSize: 7461211
+  hash: "9a1f893cfacafe64563ede751acd22950761d2d2"
 - name: "RocketsUT.u"
   fileSize: 5588374
   hash: "115e3a58e2318f60d3f17c296cfb60b44b355692"
 - name: "WeaponPriority.u"
   fileSize: 39645
-  hash: "81814d243c13bae745e66b4d2582c33e385e7"
+  hash: "81814d0243c13bae745e66b4d2582c033e0385e7"
 - name: "EIConfigWindow.u"
   fileSize: 15566
-  hash: "d6e6f43d617b44f1543b3d105ff2481dccc164b"
+  hash: "d6e6f43d617b44f1543b3d105f0f2481dccc164b"
 otherFiles: 22
-dependencies: {}
+dependencies:
+  RocketsUT.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  - status: "OK"
+    name: "EIConfigWindow"
+    providedBy: null
+  - status: "OK"
+    name: "RocketsUtExtra"
+    providedBy: null
+  EIConfigWindow.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  EIChallengeHUD.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  WeaponPriority.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  MIConverter.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/R/rocketsut.zip"
   main: true

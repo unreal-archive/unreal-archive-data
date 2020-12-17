@@ -1,0 +1,70 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 22:03"
+variationOf: "f069afd9e542f194a8e618abd7e349c5045a1d9c"
+game: "Unreal Tournament"
+name: "SUPERHEROES"
+author: "Unknown"
+description: "Lets see how the superheroes match up in the arena!"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "SUPERHEROES_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/S/SUPERHEROES_shot_1.png"
+originalFilename: "superheroesut101.zip"
+hash: "76905b85fbe7e4c9eaec6cd959f9d2768cfc86e3"
+fileSize: 1243269
+files:
+- name: "Whirlwind.u"
+  fileSize: 33560
+  hash: "f05ba57078dcc2cdd07551e965a536cacef0727f"
+- name: "SuperHeroes.u"
+  fileSize: 1565028
+  hash: "e39db6f7e4c3dcd663e09a96179a4bdaff417cb4"
+- name: "SuperHeroesUT101.umod"
+  fileSize: 1828654
+  hash: "b4b1936efb3499e598dd405af72f2acf74fe2d44"
+- name: "SHPack1.u"
+  fileSize: 75005
+  hash: "e83007eed924d911b3bb587b69e68f645f1f59a5"
+- name: "WhirlwindTex.utx"
+  fileSize: 8951
+  hash: "93008292ec66a51c58ed21ab2429b32f80d65d47"
+- name: "SHPack2.u"
+  fileSize: 53812
+  hash: "b808655da5a2eeab0c70b24ca64c469c057c07bc"
+otherFiles: 5
+dependencies:
+  SuperHeroes.u:
+  - status: "OK"
+    name: "Whirlwind"
+    providedBy: null
+  Whirlwind.u:
+  - status: "OK"
+    name: "WhirlwindTex"
+    providedBy: null
+  SHPack2.u:
+  - status: "OK"
+    name: "SuperHeroes"
+    providedBy: null
+  SHPack1.u:
+  - status: "OK"
+    name: "SuperHeroes"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/superheroesut101.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/S/7/6/905b85/superheroesut101.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "SUPERHEROES"
+  description: "Lets see how the superheroes match up in the arena!"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

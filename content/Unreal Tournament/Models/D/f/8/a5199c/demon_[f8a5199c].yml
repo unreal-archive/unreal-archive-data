@@ -23,12 +23,16 @@ files:
   hash: "153f5cf77c1acd7c8b87c8677dda90a64b725931"
 - name: "DmonSkins.utx"
   fileSize: 1424799
-  hash: "57dd213937dcf1f7ec4376c86580ee7877823a"
+  hash: "057dd213937dcf1f7ec4376c086580ee7877823a"
 - name: "Demonic.umod"
   fileSize: 1535219
   hash: "6c26f55cf5624f4e40d1682dc12ef041360c2bd2"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Dmon.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsD/&file=Demonic.zip"
   main: false

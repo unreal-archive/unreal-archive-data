@@ -17,15 +17,19 @@ fileSize: 625416
 files:
 - name: "Foxy.u"
   fileSize: 130828
-  hash: "868a1fbb83d739b38cdd1545f8677656ecb6c"
+  hash: "868a1f0bb83d739b38cdd1545f860776056ecb6c"
+- name: "FoxySkins.utx"
+  fileSize: 893797
+  hash: "35637b7ed569cb0d1e6823e6025f31fd3aef252f"
 - name: "Foxy_utmdl.umod"
   fileSize: 1051143
   hash: "7c1e6c994464aa3b8fee10086d746084f2d112f6"
-- name: "FoxySkins.utx"
-  fileSize: 893797
-  hash: "35637b7ed569cbd1e6823e625f31fd3aef252f"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Foxy.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsF/&file=foxy_utmdl.zip"
   main: false

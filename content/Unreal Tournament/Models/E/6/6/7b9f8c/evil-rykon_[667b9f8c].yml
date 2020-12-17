@@ -15,17 +15,21 @@ originalFilename: "evilmrykon.zip"
 hash: "667b9f8c8f22a4ae432bc7a95e351efae499a226"
 fileSize: 1585247
 files:
-- name: "EvilMega.u"
-  fileSize: 1487537
-  hash: "9956016c49d59e11b98660ddb37788e4c49c14"
-- name: "EvilMegaSkins.utx"
-  fileSize: 1319685
-  hash: "32fdf1579d5882999a368b3c3cbf663fa49bc3a"
 - name: "EMRykon.umod"
   fileSize: 2845891
   hash: "5ac5b67d031fbb1f4a498aa3f93c997c1d6fb3f2"
+- name: "EvilMega.u"
+  fileSize: 1487537
+  hash: "995600016c49d59e11b98660ddb37788e4c49c14"
+- name: "EvilMegaSkins.utx"
+  fileSize: 1319685
+  hash: "32fdf1579d58082999a368b3c3cbf663fa49bc3a"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  EvilMega.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsE/&file=evilmrykon.zip"
   main: false

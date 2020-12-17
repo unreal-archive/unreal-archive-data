@@ -26,21 +26,49 @@ files:
   hash: "2c417248b749ee3ce2fc39f3b974724cf3931016"
 - name: "Chaos_Decor.u"
   fileSize: 1005744
-  hash: "3389f36abcdd3dedc16b93e3d2cde992075"
+  hash: "0338090f360abcdd3dedc16b093e3d2cde992075"
 - name: "VOODOO.UMX"
   fileSize: 778749
-  hash: "77681696126eee9f0191cc536b34b136d27"
+  hash: "0707681696126eee9f0001091cc536b34b136d27"
 - name: "DM-CUT_Cerebro.unr"
   fileSize: 1425497
   hash: "5a9ba6bc5b295aa1feda6f9cc4e6343249a26b33"
 - name: "ChaosMapSounds.uax"
   fileSize: 3295888
-  hash: "dadfcf8dce34877f8326e8516474c334cf4a69d"
+  hash: "dadfcf8dce34877f8326e85106474c334cf4a69d"
 - name: "DM-CUT_Cerebro.umod"
   fileSize: 11366365
   hash: "b56372a3712f2e1dd106ca87f3b6deea41bcb938"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  DM-CUT_Cerebro.unr:
+  - status: "OK"
+    name: "chaosmapitem"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUTMedia3"
+    providedBy: null
+  - status: "MISSING"
+    name: "Factory"
+    providedBy: null
+  - status: "OK"
+    name: "VOODOO"
+    providedBy: null
+  - status: "OK"
+    name: "Chaos_Decor"
+    providedBy: null
+  - status: "OK"
+    name: "ChaosMapSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "KOTH_LoQ1"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/b/5/6372a3/DM-CUT_Cerebro.umod"
   main: true

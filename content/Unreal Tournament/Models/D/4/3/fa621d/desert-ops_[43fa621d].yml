@@ -15,23 +15,27 @@ originalFilename: "DesertOps.zip"
 hash: "43fa621d6758eee4295db6182d5ae5958c62f608"
 fileSize: 2265127
 files:
-- name: "DesertForce.uax"
-  fileSize: 532421
-  hash: "1aeb65a01fa7484e3821b7f9219cb1b26af5bcb0"
 - name: "Desert Ops.umod"
   fileSize: 3543010
   hash: "21492364a70a4302daac80d48ffbdefc48267d8c"
+- name: "DesertForce.uax"
+  fileSize: 532421
+  hash: "1aeb65a01fa7484e3821b7f9219cb1b26af5bcb0"
 - name: "DesertAgentSkins.utx"
   fileSize: 1047312
-  hash: "28486e4323ae832546143ed1d7f04ca4972a53f"
+  hash: "28486e4323ae832546143ed1d7f04ca49702a53f"
 - name: "DesertForce.u"
   fileSize: 535994
-  hash: "bb45f77390a6eaf94ab9bb8ce36b70785dde1ce"
+  hash: "bb45f77390a6eaf94ab9bb8ce36b70785d0de1ce"
 - name: "DesertAgent.u"
   fileSize: 1389410
-  hash: "8a8bb8ac4c1a882d962cc3e5af2e2860bc6fdb3"
+  hash: "8a8bb8ac4c1a882d962cc3e5af2e2860bc6f0db3"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  DesertAgent.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsD/&file=DesertOps.zip"
   main: false

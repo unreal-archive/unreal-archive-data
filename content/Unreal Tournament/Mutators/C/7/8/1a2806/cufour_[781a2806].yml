@@ -17,9 +17,13 @@ files:
   hash: "781a280605067d2bbaf47e5c369f02743170d3dc"
 - name: "CUFour.u"
   fileSize: 29112
-  hash: "7cb6b63babac62729cbfa6a044c067ef3a371df"
+  hash: "7cb6b63babac62729cbfa6a044c067ef03a371df"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  CUFour.u:
+  - status: "MISSING"
+    name: "Cosmic"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/7/8/1a2806/CUFour.umod"
   main: true

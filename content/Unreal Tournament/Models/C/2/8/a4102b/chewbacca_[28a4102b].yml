@@ -20,12 +20,20 @@ files:
   hash: "194137301f7a2f981778d01a74f5c32a1e6874d7"
 - name: "ChwySkins.utx"
   fileSize: 233603
-  hash: "ddef1774e210ba2170c531f7b384e1eb57f2e1"
+  hash: "ddef1774e210ba020170c531f7b384e1eb57f2e1"
 - name: "Chwy.u"
   fileSize: 49320
-  hash: "99245c40a37b6c6356b6575667d420d875d42a"
+  hash: "99245c40a37b06c6356b65756607d420d875d42a"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Chwy.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
+  ChwySkins.utx:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsC/&file=Chewbacca.zip"
   main: false

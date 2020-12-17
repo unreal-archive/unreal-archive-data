@@ -17,15 +17,19 @@ fileSize: 1580186
 files:
 - name: "GerillaSkins.utx"
   fileSize: 1665226
-  hash: "511d57e5def6e3b2873d76cc6699486fe62e9b6"
-- name: "Gerilla.umod"
-  fileSize: 2756793
-  hash: "2856e9ee676ac285937af6f030af29443d9b58d2"
+  hash: "511d57e5def6e3b20873d76cc6699486fe62e9b6"
 - name: "Gerilla.u"
   fileSize: 1057738
   hash: "e98c4827934baf8ca77bedd3ca3343e44e56ba71"
+- name: "Gerilla.umod"
+  fileSize: 2756793
+  hash: "2856e9ee676ac285937af6f030af29443d9b58d2"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Gerilla.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsG/&file=gerilla-umod.zip"
   main: false

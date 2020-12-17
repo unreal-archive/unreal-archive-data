@@ -23,9 +23,13 @@ files:
   hash: "175facaa7449263240a45fcc80707a23656d1729"
 - name: "VixenSkins.utx"
   fileSize: 893820
-  hash: "bca01c5f284a3bdbc82b81a1f8f5bef0d8b7de"
+  hash: "bca01c5f0284a30bdbc82b81a1f8f5bef0d8b7de"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Vixen.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsV/&file=vixen.zip"
   main: false

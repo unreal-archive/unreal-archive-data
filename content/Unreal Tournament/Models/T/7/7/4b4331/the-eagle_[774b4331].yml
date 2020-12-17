@@ -26,12 +26,23 @@ files:
   hash: "4389dc6cac706330222f7718255bebcb4019c797"
 - name: "ThE_SP.u"
   fileSize: 1045250
-  hash: "d2beab0a93a206cdfcde6362e83e66ac6c16f"
+  hash: "d20beab0a93a206cdfcde6362e83e606ac06c16f"
 - name: "ThE_EagleMeshSkins.utx"
   fileSize: 5158313
-  hash: "3c9bbeebfa13568986568091f83aeef761f0"
+  hash: "3c09bb0e0ebfa135689865680091f83aeef761f0"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  ThE_EagleMeshSkins.utx:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
+  - status: "OK"
+    name: "ThE_SP"
+    providedBy: null
+  ThE_SP.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsT/&file=the_eagle.zip"
   main: false

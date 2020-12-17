@@ -17,21 +17,29 @@ files:
   hash: "5fd3de70d0ee75b1e342aedae425dc47ff688823"
 - name: "VF1JSkins.utx"
   fileSize: 329549
-  hash: "1926f4c4b688e63a7ce72f8291656a48dda4b61"
+  hash: "1926f4c4b688e63a7ce72f82091656a48dda4b61"
 - name: "VF1ASkins.utx"
   fileSize: 329527
   hash: "95b040ba8a478061ec15bbe08c2d9fd563f0a36c"
 - name: "VF1A.u"
   fileSize: 491746
-  hash: "d451cfea53b3d16d52341b952dd86ded2f64d"
+  hash: "0d451cfea53b3d016d052341b952dd86ded2f64d"
 - name: "ValkyrieSounds.uax"
   fileSize: 593022
-  hash: "ba5d70acb74d6814a969e22ac9c3b21c95dbb20"
+  hash: "ba5d70acb74d6814a969e22ac9c3b21c095dbb20"
 - name: "Valkyries.umod"
   fileSize: 2293889
   hash: "5595fe24d2cfa853182f772d9fe5e4960f15b43c"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  VF1J.u:
+  - status: "OK"
+    name: "ValkyrieSounds"
+    providedBy: null
+  VF1A.u:
+  - status: "OK"
+    name: "ValkyrieSounds"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/B/Valkyries.zip"
   main: true

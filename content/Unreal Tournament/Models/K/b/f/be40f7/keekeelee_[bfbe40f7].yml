@@ -29,15 +29,19 @@ fileSize: 1502797
 files:
 - name: "keek.u"
   fileSize: 1247528
-  hash: "8fd67a79fb0fd56160a8dd6077c088fed0fc54"
+  hash: "8fd607a79fb00fd56160a8dd6077c088fed0fc54"
 - name: "AlcKeek(Censored).umod"
   fileSize: 2301506
   hash: "93e6387fff0e13658ba95e3fb969409c419f2a20"
 - name: "keekSkins.utx"
   fileSize: 1019825
-  hash: "f3cd8d6c05052d546c47755b9f32adbbeb0594f"
+  hash: "0f3cd8d6c05052d546c47755b9f32adbbeb0594f"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  keek.u:
+  - status: "OK"
+    name: "keekSkins"
+    providedBy: null
 downloads:
 - url: "http://uttexture.com/UT/Downloads/Models/ModelsU/utmdl-keek(censored).zip"
   main: false

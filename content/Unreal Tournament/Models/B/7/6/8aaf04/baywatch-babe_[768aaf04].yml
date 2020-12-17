@@ -20,7 +20,7 @@ fileSize: 487256
 files:
 - name: "BABE.u"
   fileSize: 96696
-  hash: "a5677de06a250ae9e868e2f66b949d3ac7335"
+  hash: "a5677de006a250ae9e868e02f66b949d3a0c7335"
 - name: "BABESkins.utx"
   fileSize: 892762
   hash: "ae535f2a17f3a120f8e311941891c71597e1c548"
@@ -28,7 +28,11 @@ files:
   fileSize: 1022291
   hash: "3d9d23d59d55ef05b6407efcd14ec6278adf6113"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  BABE.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsB/&file=babe.zip"
   main: false

@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:44"
+variationOf: null
+game: "Unreal Tournament"
+name: "LongRangeIdentify"
+author: "Wormbo"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "LongRangeIdentify_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/L/LongRangeIdentify_shot_1.png"
+originalFilename: "LongRangeIdentify.zip"
+hash: "55e58e00c2426436e9626a4023e82b0fdfe2ac2f"
+fileSize: 111590
+files:
+- name: "LongRangeIdentify.u"
+  fileSize: 13937
+  hash: "6e9ba092a3ab76a47e9f16ba3786f8f6fb63b85b"
+- name: "LongRangeIdentify.umod"
+  fileSize: 372422
+  hash: "8a90f4cf46a25f7a013a76e8bf7c231a05adfc60"
+- name: "EIConfigWindow.u"
+  fileSize: 20343
+  hash: "b0e348ecaa2eba8b5adbadd707540479e22a102b"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+otherFiles: 6
+dependencies:
+  LongRangeIdentify.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  - status: "OK"
+    name: "EIConfigWindow"
+    providedBy: null
+  EIConfigWindow.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/L/LongRangeIdentify.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=LongRangeIdentify.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/L/5/5/e58e00/LongRangeIdentify.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Long Range Target Identify"
+  description: "Make the target identification message appear even if the target is\
+    \ further away."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

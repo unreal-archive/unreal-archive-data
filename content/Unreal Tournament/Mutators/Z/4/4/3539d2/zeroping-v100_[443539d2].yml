@@ -23,9 +23,13 @@ files:
   hash: "26f791f77b4229a12c56b591e74eaa3f6f2c9e44"
 - name: "ZeroPing_v100.u"
   fileSize: 39495
-  hash: "56fef4db08f2fd96735828ed43940d3f41063b7"
+  hash: "56fe0f4db08f2fd96735828ed43940d3f41063b7"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  ZPServer.u:
+  - status: "OK"
+    name: "Zeroping_v100"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/Z/zeroping_v100.zip"
   main: true

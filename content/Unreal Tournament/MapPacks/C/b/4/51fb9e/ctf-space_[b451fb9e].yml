@@ -1,0 +1,59 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-12-23 09:07"
+variationOf: null
+game: "Unreal Tournament"
+name: "Ctf Space"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-08"
+attachments: []
+originalFilename: "ctf-space.zip"
+hash: "b451fb9e8ed6b54f6d9aead46340547bb0e46761"
+fileSize: 4933004
+files:
+- name: "UT-Logo-Map.unr"
+  fileSize: 11729
+  hash: "e1d4f512a6af39f421c0505d3b6f2ba2fa42b1a8"
+- name: "CTF-Space.unr"
+  fileSize: 2197871
+  hash: "519ee52900917f75f1e9cb236482f03f6fc7839e"
+- name: "SkyCas.utx"
+  fileSize: 3816332
+  hash: "ecdace0d919f540e6a0e5e4094e2741731ab6258"
+- name: "QUAKE3c.utx"
+  fileSize: 1756884
+  hash: "24825a99bdc76cda3eb138fdf37d69e510d560f9"
+- name: "CTF-Space.umod"
+  fileSize: 7813973
+  hash: "0600fb37b07515ae8baaa09ee3020abeb33572fb"
+otherFiles: 2
+dependencies:
+  CTF-Space.unr:
+  - status: "OK"
+    name: "SkyCas"
+    providedBy: null
+  - status: "OK"
+    name: "Quake3c"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/ctf-space.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/b/4/51fb9e/ctf-space.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "UT-Logo-Map"
+  title: "UT-Logo-Map"
+  author: "Unknown"
+- name: "CTF-Space"
+  title: "CTF-Space"
+  author: "Neo 'Jonas Barkowski' <Jonas.Barkowski@web.de>"
+gametype: "Capture The Flag"
+themes:
+  Tech: 0.7
+  Skaarj Crypt: 0.3

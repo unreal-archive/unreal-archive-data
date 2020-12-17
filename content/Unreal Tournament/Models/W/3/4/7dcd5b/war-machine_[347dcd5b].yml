@@ -29,15 +29,23 @@ fileSize: 174643
 files:
 - name: "PS2WarMachineSkins.u"
   fileSize: 16866
-  hash: "bf689bd0d9e46ed1754a84e5ce753b44f0f82b"
-- name: "PS2WarMachine.u"
-  fileSize: 176237
-  hash: "e42d5e8e20a54e25ecf4bfa81839c4713fd98b14"
+  hash: "bf689bd0d9e46ed1754a84e5ce753b044f00f82b"
 - name: "utmdl-WarMachine-100.umod"
   fileSize: 344709
   hash: "7bb59e7edbbf02814cf954423b7d8c56d63fd7e9"
+- name: "PS2WarMachine.u"
+  fileSize: 176237
+  hash: "e42d5e8e20a54e25ecf4bfa81839c4713fd98b14"
 otherFiles: 10
-dependencies: {}
+dependencies:
+  PS2WarMachineSkins.u:
+  - status: "OK"
+    name: "PS2WarMachine"
+    providedBy: null
+  PS2WarMachine.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-warmachine-100.zip"
   main: false
@@ -60,7 +68,6 @@ downloads:
   repack: false
   state: "OK"
 deleted: false
-models:
-- "War Machine"
+models: []
 skins:
 - "War Machine"

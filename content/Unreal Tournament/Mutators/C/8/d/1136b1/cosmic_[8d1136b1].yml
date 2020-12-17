@@ -32,18 +32,26 @@ fileSize: 424337
 files:
 - name: "CUBaseMemorySlots.u"
   fileSize: 1342
-  hash: "35b7d5c646ed902e7a5d1b14e21897a4f196373"
-- name: "Cosmic.u"
-  fileSize: 236285
-  hash: "1bae72c8a7aab4d4f83f9c749d6684a936b6ec3f"
+  hash: "35b7d5c646ed9002e7a5d1b14e21897a4f196373"
 - name: "CosmicV300.umod"
   fileSize: 424337
   hash: "8d1136b1abefb1a37d4188e03f1d23823628d984"
+- name: "Cosmic.u"
+  fileSize: 236285
+  hash: "1bae72c8a7aab4d4f83f9c749d6684a936b6ec3f"
 - name: "CUMemorySlot.u"
   fileSize: 6470
-  hash: "5c22e0ea98b6f0c8ebdc1a22237f6264b7cf57c"
+  hash: "5c22e0ea98b6f0c8ebdc1a222307f6264b7cf57c"
 otherFiles: 11
-dependencies: {}
+dependencies:
+  CUBaseMemorySlots.u:
+  - status: "OK"
+    name: "CUMemorySlot"
+    providedBy: null
+  CUMemorySlot.u:
+  - status: "OK"
+    name: "Cosmic"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/8/d/1136b1/CosmicV300.umod"
   main: true

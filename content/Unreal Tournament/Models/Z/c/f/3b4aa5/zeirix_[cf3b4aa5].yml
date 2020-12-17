@@ -20,30 +20,34 @@ fileSize: 2495379
 files:
 - name: "AdvancedModelSupport.u"
   fileSize: 1508498
-  hash: "a5d44337c2bb549439d44d52b1350d9675ce7bd"
-- name: "AdvancedModelSupport102.umod"
-  fileSize: 1552715
-  hash: "15cd7e4d969961d45cabcdacc9fa1eb85b390987"
-- name: "Zeirix.umod"
-  fileSize: 3652739
-  hash: "b8b998162df054d53f188ebfe9e77e8096e54c61"
+  hash: "a5d44337c2bb5494039d44d52b1350d9675ce7bd"
 - name: "ZeirixVoice.u"
   fileSize: 1101739
   hash: "16f55aedc1dad5f197b37ef4c426b4a2c71ae678"
 - name: "ZeirixVoice.uax"
   fileSize: 1096353
-  hash: "4bba98be463eb2f6adaaa1254edcc9edb5abaaf"
+  hash: "4bba98be463eb2f6adaa0a1254edcc9edb5abaaf"
 - name: "AMS update.umod"
   fileSize: 1718
   hash: "412699ed89da338d360faeaf8165dfb18bbf1788"
+- name: "AdvancedModelSupport102.umod"
+  fileSize: 1552715
+  hash: "15cd7e4d969961d45cabcdacc9fa1eb85b390987"
 - name: "ZeirixMeshSkins.utx"
   fileSize: 1158378
-  hash: "fcff2eed60c0cd4104ce93df338754aceafdb27"
+  hash: "fcff2eed60c0cd04104ce93df338754aceafdb27"
+- name: "Zeirix.umod"
+  fileSize: 3652739
+  hash: "b8b998162df054d53f188ebfe9e77e8096e54c61"
 - name: "ZeirixPack.u"
   fileSize: 262678
   hash: "c94891e6b263bdcd80ff29c81cb9dd24cbef3884"
 otherFiles: 12
-dependencies: {}
+dependencies:
+  ZeirixPack.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-zeirix.zip"
   main: false

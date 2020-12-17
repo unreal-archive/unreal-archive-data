@@ -35,12 +35,16 @@ files:
   hash: "4d20c899cbb33c7aa704b54c4538f571cd5a5926"
 - name: "alcspawn.u"
   fileSize: 2161969
-  hash: "cf8c36cfc91e79ad099e2539a1d5441b46447ee"
+  hash: "cf8c36cfc91e079ad099e2539a1d5441b46447ee"
 - name: "alcspawnSkins.utx"
   fileSize: 1017304
   hash: "dbfa2146ca199222ca4974885a744b64dcc4bbd4"
 otherFiles: 9
-dependencies: {}
+dependencies:
+  alcspawn.u:
+  - status: "OK"
+    name: "alcspawnSkins"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/S/utmdl-spawn2.zip"
   main: true

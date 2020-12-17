@@ -12,14 +12,18 @@ originalFilename: "CUOrig16.umod"
 hash: "5319e313ba74e38d6957e87ecb26400d3432ba1f"
 fileSize: 134939
 files:
-- name: "CUOrig16.u"
-  fileSize: 124353
-  hash: "8752d0a9d5a59b9fec923a5e7cdeafc7b55734"
 - name: "CUOrig16.umod"
   fileSize: 134939
   hash: "5319e313ba74e38d6957e87ecb26400d3432ba1f"
+- name: "CUOrig16.u"
+  fileSize: 124353
+  hash: "8752d0a9d5a59b09fec9230a5e7cdeafc7b55734"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  CUOrig16.u:
+  - status: "MISSING"
+    name: "Cosmic"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/5/3/19e313/CUOrig16.umod"
   main: true

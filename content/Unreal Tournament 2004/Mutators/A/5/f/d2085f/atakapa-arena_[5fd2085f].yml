@@ -1,0 +1,88 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 15:32"
+variationOf: "f1fea9c0336a5b11900219d6c99a71b2c71acba5"
+game: "Unreal Tournament 2004"
+name: "Atakapa Arena"
+author: "Devlyn Napoli"
+description: "Whether the Atakapa Indians practiced cannibalism for subsistence or\
+  \ ritual is unknown. What is known is that neither the former nor latter are that\
+  \ reasons this battle chopper is used in the Tournament. This vehicle sports a front\
+  \ mounted 50 caliber chaingun that fires exploding rounds with remarkable accuracy\
+  \ and guided missiles useful for air to air as well as Mantas. Replaces Raptors\
+  \ with the R-213 Atakapa."
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "Atakapa_Arena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Atakapa_Arena_shot_1.png"
+originalFilename: "atakapabattlecopter.zip"
+hash: "5fd2085fe5506716bd6bbe455f14db893a73b61c"
+fileSize: 4968441
+files:
+- name: "NAtakapa.u"
+  fileSize: 64100
+  hash: "0d06a72f6e1a2e8c234fad974bc919ba9e3e5804"
+- name: "DN_AtakapaSounds.uax"
+  fileSize: 377698
+  hash: "88fb45c2db7dceb98d2f657806db8b962b346bca"
+- name: "DN_AtakapaTexs.utx"
+  fileSize: 7255799
+  hash: "62f304d1ddca9077d0855029dde201a5a3bbf8ee"
+- name: "DN_AtakapaStatic.usx"
+  fileSize: 1720048
+  hash: "b60bc27b8451b624ab6f77281c4cc275598d99a2"
+- name: "DN_AtakapaAnim.ukx"
+  fileSize: 723543
+  hash: "bd11f622ced35e26f21b3576a7adbab62b6c10de"
+- name: "AtakapaBattleCopter.ut4mod"
+  fileSize: 10178656
+  hash: "efd5eaee57d7e426fc9f9404c11eb78197215cc4"
+otherFiles: 4
+dependencies:
+  DN_AtakapaStatic.usx:
+  - status: "OK"
+    name: "DN_AtakapaTexs"
+    providedBy: null
+  NAtakapa.u:
+  - status: "OK"
+    name: "DN_AtakapaAnim"
+    providedBy: null
+  - status: "OK"
+    name: "DN_AtakapaStatic"
+    providedBy: null
+  - status: "OK"
+    name: "DN_AtakapaSounds"
+    providedBy: null
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=3754775"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/atakapabattlecopter.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Misc/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/A/5/f/d2085f/atakapabattlecopter.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Atakapa Arena"
+  description: "Whether the Atakapa Indians practiced cannibalism for subsistence\
+    \ or ritual is unknown. What is known is that neither the former nor latter are\
+    \ that reasons this battle chopper is used in the Tournament. This vehicle sports\
+    \ a front mounted 50 caliber chaingun that fires exploding rounds with remarkable\
+    \ accuracy and guided missiles useful for air to air as well as Mantas. Replaces\
+    \ Raptors with the R-213 Atakapa."
+weapons: []
+vehicles:
+- name: "Atakapa"
+  description: "Atakapa"
+hasConfigMenu: false
+hasKeybinds: false

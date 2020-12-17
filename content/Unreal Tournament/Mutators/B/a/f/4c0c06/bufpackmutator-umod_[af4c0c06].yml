@@ -23,18 +23,34 @@ files:
   hash: "384bd163d36c49eeeac6807f2ad7a8ae128ad2f3"
 - name: "BUFPack1.u"
   fileSize: 3179710
-  hash: "c5c5ce1f52dd4fcaf465c937682a61d82129053"
+  hash: "c5c50ce1f52dd4fcaf465c937682a61d82129053"
 - name: "BUFFlameThrower.u"
   fileSize: 1184150
-  hash: "cfedd7689dfbf1674ed950b51018c54f66cc5a"
+  hash: "cfedd7689dfbf1674ed950b510180c054f66cc5a"
 - name: "EnhancedItems.u"
   fileSize: 305359
-  hash: "dad9fe2180af64bd903a3b1747b6955dadc1ed2"
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
 - name: "BUFMarbleGun.u"
   fileSize: 188074
-  hash: "fba161c9b21a37fa9d562532a8e864b993bfa42"
+  hash: "fba161c9b21a37fa9d562532a8e864b9930bfa42"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  BUFMarbleGun.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  BUFFlameThrower.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  WeaponPriority.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
+  BUFPack1.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/B/bufpackmutator_umod.zip"
   main: true

@@ -20,18 +20,26 @@ files:
   hash: "b482ce83c5264bf29416c1c31758d47837d4a870"
 - name: "BkasSkins.utx"
   fileSize: 893782
-  hash: "c4e3c424b4c1d052be7b45f97a2a41d7772769"
+  hash: "c4e3c4240b4c01d052be7b45f97a2a41d7772769"
 - name: "s3baSkins.utx"
   fileSize: 893805
   hash: "5a6484131d8eac30b5e7752ff7166e8cd621a4c3"
-- name: "Bkas.u"
-  fileSize: 107268
-  hash: "e09469fb4081b3fcb0a6566f112b96ecb42a3920"
 - name: "BKAS_Armor.umod"
   fileSize: 2067330
   hash: "14c1009f82a22593823c9fb107ebd04fe2bf0ea8"
+- name: "Bkas.u"
+  fileSize: 107268
+  hash: "e09469fb4081b3fcb0a6566f112b96ecb42a3920"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  Bkas.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
+  s3ba.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsB/&file=bkas_armor_utmdl.zip"
   main: false

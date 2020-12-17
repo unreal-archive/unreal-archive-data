@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:35"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-FSW-Bar"
+author: "[FSW]HeadShotMST"
+description: "Welcome to FSW Bar - Remake of DM-Bar"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-FSW-Bar_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FSW-Bar_shot_1.png"
+- type: "IMAGE"
+  name: "DM-FSW-Bar_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FSW-Bar_shot_2.png"
+originalFilename: "fsw-barmap.zip"
+hash: "89419a5bbc7d31a0977b0c75c069dc542b130d71"
+fileSize: 5735908
+files:
+- name: "DRMPa.utx"
+  fileSize: 3643483
+  hash: "dffa527f17d075599ea50b8e4d456fb6bcdef2cd"
+- name: "BRFSW.utx"
+  fileSize: 1024640
+  hash: "248f61a572d86e53956562e808d0b35198356a63"
+- name: "FSW-Bar.umx"
+  fileSize: 1475935
+  hash: "5c8da0444c830f96fc909bce45792bfd3fe8bf9f"
+- name: "FSW-BarMap.umod"
+  fileSize: 11206664
+  hash: "e243911fbc2cd45403dd1fc9678c232c23cba3bc"
+- name: "headshot.utx"
+  fileSize: 541920
+  hash: "d0efe174657e37d6bda52c97ba1319f0ca0e61e1"
+- name: "DM-FSW-Bar.unr"
+  fileSize: 3878858
+  hash: "9f1edc9b7ec8db8133d609ffe15fa38bc2a69cb8"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 2
+dependencies:
+  DM-FSW-Bar.unr:
+  - status: "OK"
+    name: "FSW-Bar"
+    providedBy: null
+  - status: "OK"
+    name: "BRFSW"
+    providedBy: null
+  - status: "OK"
+    name: "DRMPa"
+    providedBy: null
+  - status: "OK"
+    name: "headshot"
+    providedBy: null
+  - status: "OK"
+    name: "BRdmSE"
+    providedBy: null
+  - status: "MISSING"
+    name: "OurHouse"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=fsw-barmap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/fsw-barmap.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/8/9/419a5b/fsw-barmap.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "FreakShow DeathMatch Bar - Low Grav"
+playerCount: "8-10"
+themes:
+  Industrial: 0.7
+  Ancient: 0.3
+bots: true

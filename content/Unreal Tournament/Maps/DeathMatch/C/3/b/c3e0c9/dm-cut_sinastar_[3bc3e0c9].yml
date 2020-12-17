@@ -20,24 +20,40 @@ fileSize: 2505490
 files:
 - name: "DM-CUT_Sinastar.unr"
   fileSize: 3128564
-  hash: "9343b5722f961b6475753d8474b43b24c5fca"
+  hash: "9343b50722f961b6475753d84704b403b24c5fca"
 - name: "voodoo.umx"
   fileSize: 778749
-  hash: "77681696126eee9f0191cc536b34b136d27"
+  hash: "0707681696126eee9f0001091cc536b34b136d27"
+- name: "sinbunnypak.u"
+  fileSize: 108145
+  hash: "f23b69e6083c3e433513bf74a9311047d37721b7"
+- name: "chaosjump.utx"
+  fileSize: 884501
+  hash: "2338056b86bb01b81a4ec9144573daf10ad48e8d"
 - name: "DM-CUT_Sinastar.umod"
   fileSize: 5398908
   hash: "d4a500f1a27081b24d873f2af4f506dbc2b2141c"
-- name: "sinbunnypak.u"
-  fileSize: 108145
-  hash: "f23b69e683c3e433513bf74a9311047d37721b7"
-- name: "chaosjump.utx"
-  fileSize: 884501
-  hash: "233856b86bb1b81a4ec9144573daf1ad48e8d"
 - name: "CUT_SIN.utx"
   fileSize: 467010
-  hash: "f9bb699ff07355bedba59aee435c2c545481cc"
+  hash: "f9bb699ff07355be0dba59ae0e435c2c545481cc"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  DM-CUT_Sinastar.unr:
+  - status: "OK"
+    name: "CUT_SIN"
+    providedBy: null
+  - status: "OK"
+    name: "sinbunnypak"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "chaosjump"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_sinistar.zip"
   main: false

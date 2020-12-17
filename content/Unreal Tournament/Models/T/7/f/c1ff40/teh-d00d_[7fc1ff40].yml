@@ -32,15 +32,22 @@ fileSize: 1867104
 files:
 - name: "d00dskins.utx"
   fileSize: 2708102
-  hash: "f830ffe2165d48a638ffa58a27a0cc52e6d5ae1"
+  hash: "f830ffe2165d48a638ffa58a27a0cc520e6d5ae1"
 - name: "d00d.umod"
   fileSize: 2977528
   hash: "886acb2df7dc3cbab11710cf9f8b13b7850508e3"
 - name: "d00d.u"
   fileSize: 236154
-  hash: "eff6e8b7a41d531dddc4566960184f27e48fb"
+  hash: "eff6e8b70a041d531dddc4566960184f27e48f0b"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  d00d.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsD/&file=d00d.zip"
   main: false

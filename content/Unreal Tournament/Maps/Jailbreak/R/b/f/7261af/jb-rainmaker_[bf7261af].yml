@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:27"
+variationOf: null
+game: "Unreal Tournament"
+name: "JB-Rainmaker"
+author: "Jim Nobles aka WillySurvive"
+description: "Welcome To RAINMAKER"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "jb-rainmaker_shot_bf7261af_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/R/b/f/7261af/jb-rainmaker_shot_bf7261af_2.png"
+- type: "IMAGE"
+  name: "jb-rainmaker_shot_bf7261af_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/R/b/f/7261af/jb-rainmaker_shot_bf7261af_1.png"
+originalFilename: "jb-rainmaker-umod.zip"
+hash: "bf7261affdc5ca67cda647262b4488575cddfb9d"
+fileSize: 1253949
+files:
+- name: "JB-Rainmaker.unr"
+  fileSize: 5200242
+  hash: "acd028c00f496c10e90039e041afb2e9133fcb6c"
+- name: "JB-Rainmaker.umod"
+  fileSize: 5822812
+  hash: "881aa0ff194d11a61ace98ee8f69524ef82f7998"
+- name: "Dusk.umx"
+  fileSize: 589723
+  hash: "6e29f13da19add182244286e5d02f7c6fd13eb31"
+otherFiles: 3
+dependencies:
+  JB-Rainmaker.unr:
+  - status: "MISSING"
+    name: "Screen"
+    providedBy: null
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+  - status: "MISSING"
+    name: "ScriptedScreen"
+    providedBy: null
+  - status: "OK"
+    name: "Dusk"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBSpecials"
+    providedBy: null
+  - status: "MISSING"
+    name: "ScreenFonts"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jb-rainmaker-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/R/jb-rainmaker-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-rainmaker-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/R/b/f/7261af/jb-rainmaker-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "RAINMAKER"
+playerCount: "~12"
+themes:
+  Industrial: 0.1
+  Egyptian: 0.1
+  City: 0.6
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+bots: true

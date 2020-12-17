@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:01"
+variationOf: "500613f549721dc85d4854ae6e02945842b2e1fd"
+game: "Unreal Tournament"
+name: "JB-Arboria"
+author: "Eric \"SnowDog\" Ettes"
+description: "None"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "jb-arboria_shot_4895907d_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/A/4/8/95907d/jb-arboria_shot_4895907d_2.png"
+- type: "IMAGE"
+  name: "jb-arboria_shot_4895907d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/A/4/8/95907d/jb-arboria_shot_4895907d_1.png"
+originalFilename: "jb-arboria-umod.zip"
+hash: "4895907d57cffbb252da310bd7ab37c13db9fa8b"
+fileSize: 1174033
+files:
+- name: "JB-Arboria.unr"
+  fileSize: 4438655
+  hash: "141ac51bcd727a33e94d47aba5d73c3f18da3418"
+- name: "JB-Arboria.umod"
+  fileSize: 4471615
+  hash: "1afdab22a1e31e96435f7594a445fd17965559cb"
+otherFiles: 3
+dependencies:
+  JB-Arboria.unr:
+  - status: "MISSING"
+    name: "Screen"
+    providedBy: null
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-arboria-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/A/jb-arboria-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/A/4/8/95907d/jb-arboria-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Arboria"
+playerCount: "4-8"
+themes:
+  Industrial: 0.6
+  Skaarj Tech: 0.4
+bots: true

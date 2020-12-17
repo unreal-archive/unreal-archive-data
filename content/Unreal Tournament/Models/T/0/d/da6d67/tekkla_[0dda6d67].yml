@@ -17,15 +17,19 @@ fileSize: 451778
 files:
 - name: "tekkla.u"
   fileSize: 94563
-  hash: "9fed1a8d9755f7ef737ae4ed87efa68a7a5c4b"
+  hash: "9f0ed1a8d9755f7ef737ae04ed87efa68a7a5c4b"
 - name: "Tekkla.umod"
   fileSize: 1466718
   hash: "00eb70e77d6cbbbd746013c6d1922ceba942b8d1"
 - name: "tekklaskins.utx"
   fileSize: 1339703
-  hash: "fdaca05a4f1d62c8c9c75ed8bbd8ecfe991825d"
+  hash: "fdaca05a4f1d62c8c9c75ed80bbd8ecfe991825d"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  tekkla.u:
+  - status: "MISSING"
+    name: "advancedmodelsupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsT/&file=tekkla.zip"
   main: false

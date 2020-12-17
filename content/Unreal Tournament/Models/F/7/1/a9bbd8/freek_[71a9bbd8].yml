@@ -20,15 +20,19 @@ fileSize: 311335
 files:
 - name: "Freek.u"
   fileSize: 124102
-  hash: "724e984e238d6056f59b1b335c63dadf22b406f"
+  hash: "724e984e238d6056f59b1b3305c63dadf22b406f"
 - name: "Freek_utmdl.umod"
   fileSize: 598135
   hash: "edf4c14dffbd945de6a18022ad1a09bc12c5a5df"
 - name: "FreekSkins.utx"
   fileSize: 454066
-  hash: "24c8a9e94e7dd85739128013dedd5154de783"
+  hash: "024c8a9e94e7dd085739128013dedd51054de783"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  Freek.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsF/&file=freek_utmdl.zip"
   main: false

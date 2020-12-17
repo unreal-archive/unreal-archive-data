@@ -23,9 +23,13 @@ files:
   hash: "33026c403e0df0fb44a67309666c76f03dce2d45"
 - name: "EldarGuardian.u"
   fileSize: 138897
-  hash: "7d137d24cab68564e8a0484c43a9d3d7deff335"
+  hash: "7d137d24cab68564e8a04804c43a9d3d7deff335"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  EldarGuardian.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-eldar_guardian.zip"
   main: false

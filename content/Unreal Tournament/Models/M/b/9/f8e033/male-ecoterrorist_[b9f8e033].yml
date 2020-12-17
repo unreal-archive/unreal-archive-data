@@ -18,17 +18,21 @@ originalFilename: "utmdl-ecoterror.zip"
 hash: "b9f8e033758a2f2eed7502591ab8b530c68092f4"
 fileSize: 1140409
 files:
-- name: "EcoTerror.u"
-  fileSize: 899657
-  hash: "c65721f5dfd12646d85742c9d895dc98e6bb9b"
 - name: "UTMDL-EcoTerrorist.umod"
   fileSize: 2014382
   hash: "24f058d1d4c3be8a2ab70257c2726dcb3ac72223"
+- name: "EcoTerror.u"
+  fileSize: 899657
+  hash: "c65721f5dfd12646d805742c9d895dc98e06bb9b"
 - name: "EcoTerrorSkins.utx"
   fileSize: 1072856
-  hash: "3b3559da8441658e4211c8ffaeaaef898524baa"
+  hash: "3b3559da8441658e4211c8ffaeaaef0898524baa"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  EcoTerror.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-ecoterror.zip"
   main: false

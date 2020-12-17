@@ -20,12 +20,16 @@ files:
   hash: "b93d551bd6182dca2f9b24c643b47f6746c18d24"
 - name: "gollumskins.utx"
   fileSize: 1364186
-  hash: "498e4a151fdcfab2944d7afee199276db29a67"
+  hash: "498e4a1501fdcf0ab2944d7afee199276db29a67"
 - name: "Gollum.umod"
   fileSize: 3667941
   hash: "911810ba69cbe665dfa7530590af2e2063cb8246"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  gollum.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsG/&file=gollum.zip"
   main: false

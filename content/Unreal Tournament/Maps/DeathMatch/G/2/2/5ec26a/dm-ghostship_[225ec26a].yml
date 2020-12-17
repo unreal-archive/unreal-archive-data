@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:13"
+variationOf: "ff96484165c151d1f37135624d77d8e421d71562"
+game: "Unreal Tournament"
+name: "DM-GhostShip"
+author: "Snakeeyes"
+description: "Let my items go!"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-ghostship_shot_225ec26a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/2/2/5ec26a/dm-ghostship_shot_225ec26a_1.png"
+originalFilename: "dm-ghostship.zip"
+hash: "225ec26a2986aff5f281c9dde7507276da734869"
+fileSize: 370970
+files:
+- name: "Tornado.u"
+  fileSize: 22464
+  hash: "9e6afc08b760c0aa9b26eca053cfceeccaf62d08"
+- name: "DM-GhostShip.umod"
+  fileSize: 1071945
+  hash: "f4a441cf3ec58974e55611eb1c5260ffceb38788"
+- name: "Singularity.u"
+  fileSize: 27068
+  hash: "ff3cba95cacd329476384e04d46e0b09d7197f2c"
+- name: "BotKicker.u"
+  fileSize: 2905
+  hash: "40b546b71a1f28a122c881fde665b0f9df13072b"
+- name: "DM-GhostShip.unr"
+  fileSize: 1002141
+  hash: "440ba46174d74068432d13e7677105b83a629e6d"
+- name: "SnakeShip.utx"
+  fileSize: 7768
+  hash: "0234e298a6eff4aba17b0318f346bb61afc930ca"
+otherFiles: 4
+dependencies:
+  DM-GhostShip.unr:
+  - status: "OK"
+    name: "Singularity"
+    providedBy: null
+  - status: "OK"
+    name: "SnakeShip"
+    providedBy: null
+  - status: "OK"
+    name: "BotKicker"
+    providedBy: null
+  - status: "OK"
+    name: "Tornado"
+    providedBy: null
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1536818"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsG/&file=dm-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsG/dm-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/2/2/5ec26a/dm-ghostship.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dm-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/2/2/5ec26a/dm-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ghost Ship"
+playerCount: "4-8"
+themes:
+  Tech: 0.7
+  Skaarj Tech: 0.3
+bots: true

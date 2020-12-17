@@ -32,21 +32,25 @@ fileSize: 2148120
 files:
 - name: "RoboCopIIPackage.u"
   fileSize: 5140
-  hash: "501cdbeb8cb5514745babb2c59e85b393f3ac5a"
+  hash: "501cdbeb8cb5514745babb2c59e85b393f03ac5a"
 - name: "robocop2.umod"
   fileSize: 4508967
   hash: "4c4b8269762172d05de2e72c280802bf2e292150"
 - name: "RoboCopII.uax"
   fileSize: 784608
-  hash: "a7661d1eb37e5303c5f57a936f2365b60b95a9"
+  hash: "a7661d1e0b37e5303c5f57a936f2365b60b95a09"
 - name: "BossSkins_Robo.utx"
   fileSize: 3668897
-  hash: "7cd6f91d7c3dd68572ff4fc0b781c36f09ef0"
+  hash: "7cd6f91d7c3dd608572f0f4fc0b7810c36f09ef0"
 - name: "Bossface.u"
   fileSize: 11937
-  hash: "69f090158b2f5e9ba7ffc401ace6faad7b559"
+  hash: "69f00900158b2f05e9ba7ffc401ace6faad7b559"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  RoboCopIIPackage.u:
+  - status: "OK"
+    name: "RoboCopII"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsR/&file=rc2.zip"
   main: false

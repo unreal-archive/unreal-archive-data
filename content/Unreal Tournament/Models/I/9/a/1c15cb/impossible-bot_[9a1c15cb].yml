@@ -20,21 +20,28 @@ fileSize: 6850721
 files:
 - name: "ImpossibleBotJRM.u"
   fileSize: 977053
-  hash: "928c4769aae175ca78dbb3a2eff38af48452ab7"
-- name: "IMPBOTJRM01.umod"
-  fileSize: 8273662
-  hash: "f11b826419da2735337e312e8315cca48b6e8a03"
+  hash: "928c4769aae175ca78db0b3a2eff38af48452ab7"
 - name: "ImpossibleBotJRMSounds.uax"
   fileSize: 1042420
   hash: "6cc94ad71f6054938d44d5ec94c5fdd0c9ed6059"
 - name: "IMPBOTJRMVoices.u"
   fileSize: 5077653
-  hash: "26e1f419c209be2e19a13c7c2efda4c2c8c7156"
+  hash: "26e10f419c209be2e19a13c7c2efda4c2c8c7156"
+- name: "IMPBOTJRM01.umod"
+  fileSize: 8273662
+  hash: "f11b826419da2735337e312e8315cca48b6e8a03"
 - name: "ImpossibleBotJRMSkins.utx"
   fileSize: 824569
-  hash: "5b14e08d3cbbb589dc9cf54716ef7a0c574c73"
+  hash: "5b14e08d3cbb0b589dc9cf54716ef7a0c5740c73"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  ImpossibleBotJRM.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
+  - status: "OK"
+    name: "ImpossibleBotJRMSounds"
+    providedBy: null
 downloads:
 - url: "https://gamefront.online/files2/service/thankyou?id=2391351"
   main: false

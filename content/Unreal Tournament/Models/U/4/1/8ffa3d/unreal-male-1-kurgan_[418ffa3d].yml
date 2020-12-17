@@ -20,12 +20,16 @@ files:
   hash: "f28fdec8dbaacc67eb89622ca41a782fbca9f526"
 - name: "oldmodels.u"
   fileSize: 142595
-  hash: "a7dfbb8bf442273df6bdc2ab512e06fc6998260"
+  hash: "a7dfbb8bf442273df6bdc2ab512e006fc6998260"
 - name: "OldModelsMenus.u"
   fileSize: 682266
-  hash: "7f46f68ed3117a6b8c615edad11671459c8f727"
+  hash: "7f46f68ed3117a6b8c615edad11671459c08f727"
 otherFiles: 12
-dependencies: {}
+dependencies:
+  OldModelsMenus.u:
+  - status: "OK"
+    name: "OldModels"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/G/oldmodelslite.zip"
   main: true

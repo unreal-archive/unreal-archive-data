@@ -41,7 +41,7 @@ fileSize: 534721
 files:
 - name: "ArenaMatch.u"
   fileSize: 73671
-  hash: "291aeedcf2c751d71bb9c1526596276ffd9337"
+  hash: "291aee0dcf2c751d71bb9c1526596276ff0d9337"
 - name: "ArenaMatch.umod"
   fileSize: 534721
   hash: "ee2aaecda8618b1da20abde4cfef2155c13d6da3"
@@ -49,7 +49,11 @@ files:
   fileSize: 274236
   hash: "22494c55814b76565b3589895c954f5f10d068ab"
 otherFiles: 12
-dependencies: {}
+dependencies:
+  ArenaMatch.u:
+  - status: "OK"
+    name: "EnhancedItems"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/A/e/e/2aaecd/ArenaMatch.umod"
   main: true

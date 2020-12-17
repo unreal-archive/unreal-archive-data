@@ -23,15 +23,23 @@ files:
   hash: "81d96bd0be5370aaac473eb6cde070c02dc31986"
 - name: "WraithguardIISkins_Techwarrior.utx"
   fileSize: 942025
-  hash: "9a98a7264614e77c87e53c51410a52f65e2d286"
-- name: "WraithguardII.u"
-  fileSize: 148678
-  hash: "7f46222b8b7f7d99e6717e0e21fa0549f2d38e2"
+  hash: "9a980a7264614e77c87e53c51410a52f65e2d286"
 - name: "WraithGuardII.umod"
   fileSize: 2010153
   hash: "dc981e9bb12846be205664cf3eeecc9c9f28e71d"
+- name: "WraithguardII.u"
+  fileSize: 148678
+  hash: "7f46222b8b7f7d99e60717e0e21fa0549f2d38e2"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  WraithguardIISkins.utx:
+  - status: "OK"
+    name: "WraithguardII"
+    providedBy: null
+  WraithguardII.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/T/WraithGuardII.zip"
   main: true

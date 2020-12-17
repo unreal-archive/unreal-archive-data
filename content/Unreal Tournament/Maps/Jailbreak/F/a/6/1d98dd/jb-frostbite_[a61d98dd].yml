@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:11"
+variationOf: "be4bf5664bc5ebb69c6913d7f8ceae32a8726260"
+game: "Unreal Tournament"
+name: "JB-Frostbite"
+author: "Eric \"SnowDog\" Ettes"
+description: "None"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "jb-frostbite_shot_a61d98dd_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/F/a/6/1d98dd/jb-frostbite_shot_a61d98dd_2.png"
+- type: "IMAGE"
+  name: "jb-frostbite_shot_a61d98dd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/F/a/6/1d98dd/jb-frostbite_shot_a61d98dd_1.png"
+originalFilename: "jb-frostbite-umod.zip"
+hash: "a61d98ddaec52a1e7b6c67d15c4f67a3f0a94ee4"
+fileSize: 1476940
+files:
+- name: "JB-Frostbite.unr"
+  fileSize: 5367945
+  hash: "7ffd615b1cee2108284c569d45ec41a2e62ca144"
+- name: "JB-Frostbite.umod"
+  fileSize: 5400985
+  hash: "94c05cceb2d991dcb28827ea76926775f0e3a7bc"
+otherFiles: 3
+dependencies:
+  JB-Frostbite.unr:
+  - status: "MISSING"
+    name: "Screen"
+    providedBy: null
+  - status: "MISSING"
+    name: "JailBreak"
+    providedBy: null
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-frostbite-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/F/jb-frostbite-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/F/a/6/1d98dd/jb-frostbite-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Frostbite"
+playerCount: "4-8"
+themes:
+  City: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.7
+bots: true

@@ -41,45 +41,120 @@ fileSize: 9590539
 files:
 - name: "JezzTex.utx"
   fileSize: 1012263
-  hash: "8e8ee941c55dd2a55fc2833f981433a76663a91"
+  hash: "8e8ee941c55d0d2a55fc2833f981433a76663a91"
 - name: "CTF-CUT_ChaosCastle-pf.unr"
   fileSize: 5623145
-  hash: "703218a30cbb8652ab8f88475676f651daac38"
+  hash: "7032180a30cbb8652ab8f884075676f651daac38"
 - name: "Jezztex2.utx"
   fileSize: 551422
-  hash: "6414b1490be10a0a397fdc2ce94a82bdc207f2c"
+  hash: "64014b1490be10a0a397fdc2ce94a82bdc207f2c"
+- name: "chaosut_gotymappack.umod"
+  fileSize: 27675938
+  hash: "ccd15c8ab32609e33a8a1379981b7e22af32b91c"
 - name: "DM-CUT_WeaponsOfChaos.unr"
   fileSize: 2023131
-  hash: "6c86e544407f8a79eb5c1ccf4b5aff0a8cf756a"
+  hash: "6c86e5444007f8a79eb5c1ccf4b5aff0a8cf756a"
 - name: "DM-CUT_WeaponsOfWar.unr"
   fileSize: 1145299
-  hash: "bbc0d2708b5c95e1e8125bdb4a6acc7c1ffa473"
+  hash: "bbc0d2708b5c95e1e81205bdb4a6acc7c1ffa473"
 - name: "SnowDog.utx"
   fileSize: 200452
-  hash: "a7742f092ce70b6fdc39ab56c3a643ab9c36ce7"
+  hash: "a7742f0092ce70b6fdc39ab56c3a643ab9c36ce7"
 - name: "DM-CUT_Proxyking.unr"
   fileSize: 1679607
-  hash: "a6d3964a6746d744a9f5dcf26b4867e429d18d1"
+  hash: "a6d3964a67046d744a9f5dcf26b4867e429d18d1"
 - name: "CTF-CUT_Horus.unr"
   fileSize: 7409395
   hash: "5aa1eba89bd917d84c3eac53c8e7d58d57a29dd1"
 - name: "DM-CUT_SkullMoon.unr"
   fileSize: 3152848
-  hash: "41606089627ac234542c7642dd8db63eeece3e"
+  hash: "41606089627ac234542c7642dd8d0b63eeece30e"
 - name: "DM-CUT_StorageAlpha.unr"
   fileSize: 1973083
-  hash: "a7eca461ba683d539284a233e4d09632b990a50"
-- name: "chaosut_gotymappack.umod"
-  fileSize: 27675938
-  hash: "ccd15c8ab32609e33a8a1379981b7e22af32b91c"
+  hash: "a7eca461ba683d539284a233e4d09632b990a500"
 - name: "DM-CUT_Eclipse.unr"
   fileSize: 942241
   hash: "7f28aec1c163458f5d2379e55710439e1bb6a6a4"
 - name: "DM-CUT_TheBellTolls.unr"
   fileSize: 1896137
-  hash: "9bb25389ca666fc7b136ce44d9f39f04620"
+  hash: "9bb25389ca6606fc7b0136ce440d09f39f004620"
 otherFiles: 11
-dependencies: {}
+dependencies:
+  DM-CUT_SkullMoon.unr:
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  DM-CUT_TheBellTolls.unr:
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  DM-CUT_WeaponsOfChaos.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "SnowDog"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  CTF-CUT_Horus.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  DM-CUT_WeaponsOfWar.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "SnowDog"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  DM-CUT_Eclipse.unr:
+  - status: "OK"
+    name: "SnowDog"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  DM-CUT_StorageAlpha.unr:
+  - status: "OK"
+    name: "Jezztex2"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  CTF-CUT_ChaosCastle-pf.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  DM-CUT_Proxyking.unr:
+  - status: "MISSING"
+    name: "ChaosUTMedia1"
+    providedBy: null
+  - status: "OK"
+    name: "JezzTex"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=chaosut_gotymappack.zip"
   main: false

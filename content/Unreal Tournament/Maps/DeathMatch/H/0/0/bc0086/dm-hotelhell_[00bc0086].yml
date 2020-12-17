@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:21"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-HotelHell"
+author: "Sven\"Lancelot\"Hinrichs"
+description: "Kaempfe im groessten Hotel von UT!!"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-HotelHell_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HotelHell_shot_2.png"
+- type: "IMAGE"
+  name: "DM-HotelHell_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HotelHell_shot_1.png"
+originalFilename: "HotelHellUMOD.zip"
+hash: "00bc0086ef49898667b7d70456e6be95641de5df"
+fileSize: 8115591
+files:
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "DM-HotelHell.unr"
+  fileSize: 11083370
+  hash: "5600a8262b1e64c3eefb77259fbdb03c969be9a0"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "HotelHellUMOD.umod"
+  fileSize: 21378627
+  hash: "519881d45339a8897b71871384de5a34ef5c3690"
+- name: "mypack.utx"
+  fileSize: 3421411
+  hash: "b0c072ba41a7279b5f5d34c63d737d2643e0d5ae"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 3
+dependencies:
+  DM-HotelHell.unr:
+  - status: "OK"
+    name: "a3text"
+    providedBy: null
+  - status: "OK"
+    name: "cf_mansion"
+    providedBy: null
+  - status: "OK"
+    name: "mypack"
+    providedBy: null
+  - status: "OK"
+    name: "BRdmSE"
+    providedBy: null
+  - status: "MISSING"
+    name: "InfiltrationUT"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/&file=HotelHellUMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/HotelHellUMOD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsH/&file=HotelHellUMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=HotelHellUMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsH/HotelHellUMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/0/0/bc0086/HotelHellUMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Hotel Hell"
+playerCount: "2-16"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  City: 0.8
+bots: true

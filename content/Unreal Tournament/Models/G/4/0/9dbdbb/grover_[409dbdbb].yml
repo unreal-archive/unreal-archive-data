@@ -17,12 +17,16 @@ files:
   hash: "bbd0d9db763ae41aad384eb2be895f5380819da1"
 - name: "GroverSkins.utx"
   fileSize: 450420
-  hash: "53caf24640de79a8d5f4fbc13e15c7e45fddd"
+  hash: "53caf246400d0e79a8d5f4fbc13e15c70e45fddd"
 - name: "Grover.umod"
   fileSize: 565098
   hash: "02c3b91a2685ebefc10aa46bf6a1595ed888d670"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  Grover.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsG/&file=grover_utmdl.zip"
   main: false

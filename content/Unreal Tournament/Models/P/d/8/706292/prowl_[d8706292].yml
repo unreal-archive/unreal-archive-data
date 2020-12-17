@@ -17,18 +17,22 @@ fileSize: 1034159
 files:
 - name: "ProwlSkins.utx"
   fileSize: 527027
-  hash: "aeb7b14f9bc17b8eb466a5514c61c572ccd040"
+  hash: "aeb7b104f9bc017b8eb466a5514c61c572ccd040"
 - name: "Prowl.umod"
   fileSize: 1622586
   hash: "d7dc19b9c054946943aa959f8005aff41b53d18d"
 - name: "ProwlSounds.uax"
   fileSize: 578764
-  hash: "e5c44c173431134c7e6cd5257afcb2ade2ac04b"
+  hash: "e5c44c173431134c7e6c0d5257afcb2ade2ac04b"
 - name: "Prowl.u"
   fileSize: 478806
-  hash: "88e28e5ac738507b1157c23314392308b47ac7d"
+  hash: "88e28e5ac738507b1157c233143902308b47ac7d"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  Prowl.u:
+  - status: "OK"
+    name: "ProwlSounds"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsP/&file=prowl.zip"
   main: false

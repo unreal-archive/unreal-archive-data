@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:05"
+variationOf: null
+game: "Unreal Tournament"
+name: "JB-Complex"
+author: "Cory Spooner 'TheSpoonDog'"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "jb-complex_shot_4d22de94_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/C/4/d/22de94/jb-complex_shot_4d22de94_1.png"
+- type: "IMAGE"
+  name: "jb-complex_shot_4d22de94_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/C/4/d/22de94/jb-complex_shot_4d22de94_2.png"
+originalFilename: "jb-complex-umod.zip"
+hash: "4d22de94374e54d30c36283449c911fed4f484d1"
+fileSize: 3412027
+files:
+- name: "JB-Complex.umod"
+  fileSize: 9761055
+  hash: "28dd8e81f5c893b3b92a52dd255382c8628c3bfe"
+- name: "JB-Complex.unr"
+  fileSize: 9728801
+  hash: "75c892c06eb35c0e8578971d8651e4a956c8a01b"
+otherFiles: 3
+dependencies:
+  JB-Complex.unr:
+  - status: "MISSING"
+    name: "JBArena"
+    providedBy: null
+  - status: "MISSING"
+    name: "Jailbreak"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-complex-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/C/jb-complex-umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/C/4/d/22de94/jb-complex-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "The JailBreak Complex"
+playerCount: "6-10"
+themes:
+  Industrial: 0.4
+  City: 0.2
+  Skaarj Tech: 0.4
+bots: true

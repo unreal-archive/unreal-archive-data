@@ -17,15 +17,19 @@ fileSize: 677281
 files:
 - name: "Aesha.u"
   fileSize: 148312
-  hash: "bd2d32151c855a72a952c87ea2bd3b11b7a1b"
+  hash: "bd02d321510c855a72a952c87ea2bd3b011b7a1b"
 - name: "Aesha_utmdl.umod"
   fileSize: 1502178
   hash: "826a94cbde40c213af4eaafec0bbad9381791397"
 - name: "AeshaSkins.utx"
   fileSize: 1337189
-  hash: "f07f764e8013f0e1d98175a5565fd228395bd6c"
+  hash: "f07f764e8013f0e1d98175a5565fd228395bd60c"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Aesha.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsA/&file=aesha_utmdl.zip"
   main: false

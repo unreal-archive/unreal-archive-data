@@ -1,0 +1,156 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 21:45"
+variationOf: null
+game: "Unreal Tournament"
+name: "ClanlessMapPak"
+author: "Hunter 'Clanless' Wiebush"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_2.png"
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_1.png"
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_4.png"
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_7.png"
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_3.png"
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_6.png"
+- type: "IMAGE"
+  name: "ClanlessMapPak_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/ClanlessMapPak_shot_5.png"
+originalFilename: "ClanlessMapPak.zip"
+hash: "6ca7d7dc95274e83b6881605f22ac914124bf585"
+fileSize: 10656429
+files:
+- name: "DM-Carnage.unr"
+  fileSize: 2256694
+  hash: "6befc47ca502dfddfd7f3523fefc0e5ac4a8cf5a"
+- name: "abbey.umx"
+  fileSize: 3119015
+  hash: "87a8529724ae85360224e85cbc0605983600ed71"
+- name: "DM-Bloodbath][.unr"
+  fileSize: 851486
+  hash: "c0afa7dfb950c0b977ff8c32dd82c2921158893b"
+- name: "abysmal.umx"
+  fileSize: 2384665
+  hash: "f5e4c4140b15a0700dfa36fe184e73381c31bdfb"
+- name: "DM-Wrath.unr"
+  fileSize: 1333860
+  hash: "db13dd628db2e7dc421f36667acb61baeab661db"
+- name: "DM-Abyss.unr"
+  fileSize: 3298649
+  hash: "aa2749bdb994c77fdc83c29adc523877d16607a1"
+- name: "ClanlessMapPak.umod"
+  fileSize: 20329663
+  hash: "72425fddc2e8b8485452e6920fa587a7e979e085"
+- name: "DM-Abbey.unr"
+  fileSize: 2061414
+  hash: "032e35280da012c137e68122172318eb8420e9cd"
+- name: "AbbeyTex.utx"
+  fileSize: 1572406
+  hash: "a25e54237a0bf96a1a105e1510ef1a27fb46c58c"
+- name: "carnage.uax"
+  fileSize: 290573
+  hash: "1feba9bd39503d603494d767677d44171bb6178e"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "DM-Abbey][.unr"
+  fileSize: 2114568
+  hash: "813bc1129e2bfbe639a18eb9f2de29873eb162b0"
+- name: "DM-ShockHo.unr"
+  fileSize: 998540
+  hash: "914f404ee4851da044d91c756913b4ff21b4a44b"
+otherFiles: 2
+dependencies:
+  DM-Bloodbath][.unr:
+  - status: "OK"
+    name: "abysmal"
+    providedBy: null
+  DM-ShockHo.unr:
+  - status: "OK"
+    name: "JumpPad"
+    providedBy: null
+  DM-Carnage.unr:
+  - status: "OK"
+    name: "Abysmal"
+    providedBy: null
+  - status: "OK"
+    name: "carnage"
+    providedBy: null
+  DM-Abbey][.unr:
+  - status: "OK"
+    name: "AbbeyTex"
+    providedBy: null
+  - status: "OK"
+    name: "abbey"
+    providedBy: null
+  DM-Wrath.unr:
+  - status: "OK"
+    name: "abysmal"
+    providedBy: null
+  DM-Abbey.unr:
+  - status: "OK"
+    name: "abbey"
+    providedBy: null
+  DM-Abyss.unr:
+  - status: "OK"
+    name: "Abysmal"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/ClanlessMapPak.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=ClanlessMapPak.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/6/c/a7d7dc/ClanlessMapPak.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Carnage"
+  title: "Carnage"
+  author: "Hunter 'Clanless' Wiebush"
+- name: "DM-Bloodbath]["
+  title: "-BloodBath][-"
+  author: "Hunter 'Clanless' Wiebush"
+- name: "DM-Abbey]["
+  title: "Dark Abbey"
+  author: "Hunter 'Clanless' Wiebush"
+- name: "DM-Wrath"
+  title: "Wrath of the Fierce"
+  author: "Hunter 'Clanless' Wiebush"
+- name: "DM-Abyss"
+  title: "Gateway to the Abyss"
+  author: "Hunter 'Clanless' Wiebush"
+- name: "DM-ShockHo"
+  title: "Shock Ho Showdown"
+  author: "Hunter 'Clanless' Wiebush"
+- name: "DM-Abbey"
+  title: "NaPali Abbey"
+  author: "Hunter 'Clanless' Wiebush"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+  Industrial: 0.2
+  Ancient: 0.2
+  City: 0.1
+  Natural: 0.3
+  Nali Castle: 0.1
+  Skaarj Tech: 0.2

@@ -26,15 +26,19 @@ fileSize: 1597352
 files:
 - name: "rbcpskins.utx"
   fileSize: 555596
-  hash: "479e9c2fa5e9603abdd9bc3ed82e3f25c2cb22"
+  hash: "479e9c2fa5e9603a0bdd9bc3ed82e3f25c2cb202"
 - name: "rbcp.u"
   fileSize: 2068455
-  hash: "b96182f9bc8c911f47e9cd1649a83bf85d251f"
+  hash: "b906182f9bc8c911f47e9cd1649a83bf85d2051f"
 - name: "AlcRobocop.umod"
   fileSize: 2657183
   hash: "9c44e704a1266ef03534d01ea81240184c6dd751"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  rbcp.u:
+  - status: "OK"
+    name: "rbcpskins"
+    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsU/&file=utmdl-robocop.zip"
   main: false
