@@ -1,0 +1,189 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2020-12-18"
+game: "Unreal Tournament"
+name: "Smashdroids"
+author: "Matt"
+description: "Third person fighting game where you play as one of the Smashdroids,\
+  \ a ragtag group of junkyard robots."
+titleImage: "title.png"
+bannerImage: "banner.png"
+releaseDate: "2001-06"
+links:
+  Archived Homepage: "https://web.archive.org/web/20041012210605/http://www.planetunreal.com:80/smashdroids/"
+  ModDB: "https://www.moddb.com/mods/smashdroids/downloads/smashdroids-125-maps"
+credits: {}
+releases:
+- title: "Release with Maps"
+  version: "1.25"
+  releaseDate: "2001-06"
+  description: ""
+  files:
+  - title: "UMOD Package"
+    localFile: "/home/shrimp/tmp/smash/Smashdroids.rar"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/smashdroids/Smashdroids.rar"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/&file=Smashdroids.rar"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "http://ut-files.com/index.php?dir=GameTypes/&file=Smashdroids.rar"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "Smashdroids.rar"
+    hash: "b33ec7e9e0765265fbec224e5e97d5945819fc2b"
+    fileSize: 10053224
+    synced: true
+    deleted: false
+    files:
+    - name: "SD-Falling-Down.unr"
+      fileSize: 463080
+      hash: "7514226cf140d14bc5f155c86bd34f3405c8618e"
+    - name: "SD-Mount.unr"
+      fileSize: 568122
+      hash: "26b6f1834a25384b7a9094adf22be4f990506f84"
+    - name: "SD-MiningComet.unr"
+      fileSize: 1434746
+      hash: "b56aaf0401b3cf2e869cf8cdbda777717f0b3392"
+    - name: "SD-DeadOcean.unr"
+      fileSize: 643733
+      hash: "40a3463b625ba3c264680857d8d9b3b1e79e196d"
+    - name: "SmashDroidArena.umx"
+      fileSize: 304483
+      hash: "84a283103343e1c3dc279d4b04c80cacbc2b979c"
+    - name: "SmashdroidGUI.u"
+      fileSize: 185383
+      hash: "b8e2acfa96de914978fdb2d49fe4b58ac96d5df4"
+    - name: "Smashdroid.u"
+      fileSize: 10200768
+      hash: "266e176ee5803ec5bcdbfd2827621bfa390b0be3"
+    - name: "SD-Techarena.unr"
+      fileSize: 274317
+      hash: "2808bdeb292a806ad4a2859cb46dfa511edc5e99"
+    - name: "CircuitWorld.umx"
+      fileSize: 206518
+      hash: "7c954cf82866cfb4c9a12d66adf1752c720d40ba"
+    - name: "SD-EgyptArena.unr"
+      fileSize: 405766
+      hash: "06683206b294d2665ab89e9475ab15ce3e82a317"
+    - name: "SmashDroidSkins.utx"
+      fileSize: 1791799
+      hash: "63ca2e3827912ef72ce6ee27fdf9eaa2ad7200b7"
+    - name: "SmashdroidMenu.umx"
+      fileSize: 157746
+      hash: "2325faea76d5e7b2151c999ffbe22b68cbd13e73"
+    - name: "SmashDroidMaps.utx"
+      fileSize: 3177780
+      hash: "d67ccc813e05ed12d00cf24562336af65ea8e8e6"
+    - name: "CometArena.umx"
+      fileSize: 120565
+      hash: "45770d376cff126629400049ddc1f4724da5b036"
+    - name: "SD-SmashDroidArena.unr"
+      fileSize: 701738
+      hash: "0464e3a0f53156e64f1cfb6ee733c19db223be93"
+    - name: "SD-CircuitWorld.unr"
+      fileSize: 308759
+      hash: "b170fc34916444b75d214f0cfcbb5578e2163fe3"
+    - name: "SmashDroidSounds.uax"
+      fileSize: 66037
+      hash: "54b6c3fea2413c16965120045eac4026031f2fb7"
+    - name: "Smashdroids1.25.umod"
+      fileSize: 18679382
+      hash: "553fd4898d36a22090e36174856eda075bf392b6"
+    - name: "SD-FlyingTempleX.unr"
+      fileSize: 1187867
+      hash: "98f26c5866014b2c9f7cc0996a6285de531d381a"
+    otherFiles: 12
+    dependencies:
+      SD-SmashDroidArena.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidArena"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidSounds"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidSkins"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidMaps"
+        providedBy: null
+      SD-DeadOcean.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "CircuitWorld"
+        providedBy: null
+      SD-CircuitWorld.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidSkins"
+        providedBy: null
+      - status: "OK"
+        name: "CircuitWorld"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidMaps"
+        providedBy: null
+      SD-Mount.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "SmashdroidMenu"
+        providedBy: null
+      SD-FlyingTempleX.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidArena"
+        providedBy: null
+      SD-Falling-Down.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidArena"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidSounds"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidMaps"
+        providedBy: null
+      SD-MiningComet.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      - status: "OK"
+        name: "CometArena"
+        providedBy: null
+      - status: "OK"
+        name: "SmashDroidMaps"
+        providedBy: null
+      SmashdroidGUI.u:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+      Smashdroid.u:
+      - status: "PARTIAL"
+        name: "SmashDroidSkins"
+        providedBy: null
+      SD-EgyptArena.unr:
+      - status: "OK"
+        name: "Smashdroid"
+        providedBy: null
+  deleted: false
+deleted: false
