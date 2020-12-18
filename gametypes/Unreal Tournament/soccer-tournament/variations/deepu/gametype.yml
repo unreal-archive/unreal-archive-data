@@ -1,0 +1,61 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2020-12-18"
+game: "Unreal Tournament"
+name: "Deepu's Enhanced Version"
+author: "Deepu"
+description: "Soccer Tournament is a fun little mod which allows you to play a form\
+  \ of soccer in a variety of interesting and unusual locations."
+titleImage: ""
+bannerImage: ""
+releaseDate: "2018-04"
+links:
+  Homepage: "http://forum.ultimateut.tk/viewtopic.php?f=4&t=996"
+credits:
+  Enhanced Soccer.u:
+  - "Deepu and Nelsona"
+  Improved Soccer.u:
+  - "[os]rush"
+  Original mod:
+  - "Kenneth \"Shrimp\" Watson"
+releases:
+- title: "Release"
+  version: "2019-10"
+  releaseDate: "2019-10"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/Soccer.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/deepus-version/Soccer.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "http://ultimateut.tk/ut_files/game_types/Soccer.zip"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "Soccer.zip"
+    hash: "0a2657c36da7aa63177808c3e9eb637b03b3d6e6"
+    fileSize: 273183
+    synced: true
+    deleted: false
+    files:
+    - name: "SoccerFonts.utx"
+      fileSize: 8430845
+      hash: "5d55c491491ef461de402fde39fd4ef805d8233f"
+    - name: "SoccerSounds.u"
+      fileSize: 7605
+      hash: "31eeced54ff34e0aa3823a84945da7562943e4bc"
+    - name: "Soccer.u"
+      fileSize: 301796
+      hash: "a4b4a44b5338056ca60140c74d396b7ddab577c0"
+    otherFiles: 3
+    dependencies:
+      Soccer.u:
+      - status: "OK"
+        name: "SoccerSounds"
+        providedBy: null
+  deleted: false
+deleted: false
