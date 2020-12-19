@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-01-21 13:49"
+variationOf: null
+game: "Unreal Tournament"
+name: "MH-The_Mall"
+author: "[Remidas]"
+description: "Take Back Our Mall"
+releaseDate: "2021-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-the_mall_shot_2fd514ea_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/2/f/d514ea/mh-the_mall_shot_2fd514ea_1.png"
+originalFilename: "MH-TheMall-Collection[Remidas}.rar"
+hash: "2fd514eaa1e2d5e465726c3d8e28843cab4949f1"
+fileSize: 33129082
+files:
+- name: "KJPUBG.utx"
+  fileSize: 53063070
+  hash: "f5a8ac3f9b63686b103fb23270b3cf62032c02e3"
+- name: "MH-The_Mall-v2.unr"
+  fileSize: 5635756
+  hash: "a36a63ab2cf24a14b16a51f5097fe9ac37f337a9"
+- name: "MH-The_Mall.unr"
+  fileSize: 5634483
+  hash: "14f630c4837ac414b5c0e874e2ef5f05f5d719d4"
+- name: "OnTheRun.umx"
+  fileSize: 5597597
+  hash: "5c0e2a5ec591bf3188e8fb3a4539ecfa7d7938c9"
+otherFiles: 0
+dependencies:
+  MH-The_Mall-v2.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "OnTheRun"
+    providedBy: null
+  - status: "OK"
+    name: "KJPUBG"
+    providedBy: null
+  MH-The_Mall.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+  - status: "OK"
+    name: "OnTheRun"
+    providedBy: null
+  - status: "OK"
+    name: "KJPUBG"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/2/f/d514ea/MH-TheMall-Collection%5BRemidas%7D.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Mall"
+playerCount: "16-20"
+themes:
+  Nali Temple: 0.1
+  City: 0.1
+  Skaarj Tech: 0.8
+bots: true
