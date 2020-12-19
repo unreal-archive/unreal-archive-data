@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:27"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-CUT_Jailhouse"
+author: "Lothar"
+description: "Original Q2 map author: Craig Redinger"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-CUT_Jailhouse_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CUT_Jailhouse_shot_1.png"
+originalFilename: "dm-cut_jailhouse.zip"
+hash: "524ee0623be58264c351ff5f917f5497b729198e"
+fileSize: 587126
+files:
+- name: "CUT_Jhouse.utx"
+  fileSize: 311096
+  hash: "038ca414ff4deaaa393ac04385155b6d61bb4d7e"
+- name: "DM-CUT_Jailhouse.unr"
+  fileSize: 1062933
+  hash: "4bc472c8e6def55e82060a4b7a32cfb6b419060f"
+otherFiles: 1
+dependencies:
+  DM-CUT_Jailhouse.unr:
+  - status: "MISSING"
+    name: "JezzTex"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "CUT_Jhouse"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_jailhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_jailhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/5/2/4ee062/dm-cut_jailhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "ChaosUT Jailhouse Frag"
+playerCount: "2-8"
+themes:
+  Industrial: 0.1
+  Ancient: 0.2
+  Skaarj Tech: 0.5
+  Nali Castle: 0.2
+bots: true

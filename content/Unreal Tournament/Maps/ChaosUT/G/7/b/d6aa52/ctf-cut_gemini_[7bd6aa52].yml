@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:23"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-CUT_Gemini"
+author: "LoQtUS"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-CUT_Gemini_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CUT_Gemini_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-CUT_Gemini_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CUT_Gemini_shot_1.png"
+originalFilename: "ctf-cut_gemini.zip"
+hash: "7bd6aa525de36a5ad673ad7bc9d91722e0d9882f"
+fileSize: 920492
+files:
+- name: "ChaosGemini.utx"
+  fileSize: 395039
+  hash: "e917268833d15a8cb4fb2268d7802add9c61522d"
+- name: "Gemini.u"
+  fileSize: 902
+  hash: "ebb07b416fed7c5a8c09c1eeffde1a91c0607785"
+- name: "CTF-CUT_Gemini.umod"
+  fileSize: 2178172
+  hash: "d1e38276997fe9f41b999c1613afaac0e5cca8a5"
+- name: "CTF-CUT_Gemini.unr"
+  fileSize: 1751259
+  hash: "58ca65f33e568d8acde9835b31868ee42950d4ee"
+otherFiles: 2
+dependencies:
+  CTF-CUT_Gemini.unr:
+  - status: "OK"
+    name: "ChaosGemini"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "Gemini"
+    providedBy: null
+  Gemini.u:
+  - status: "OK"
+    name: "ChaosGemini"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=ctf-cut_gemini.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-cut_gemini.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/7/b/d6aa52/ctf-cut_gemini.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "ChaOs GeMiNi"
+playerCount: "4-12"
+themes:
+  Tech: 0.1
+  City: 0.1
+  Skaarj Tech: 0.8
+bots: true

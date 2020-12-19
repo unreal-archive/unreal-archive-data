@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:25"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-CUT_Avatarium"
+author: "Eric \"SnowDog\" Ettes"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-CUT_Avatarium_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CUT_Avatarium_shot_1.png"
+originalFilename: "dm-cut_avatarium.zip"
+hash: "7b01523ebb66086997cef50cbcda49317fcf2123"
+fileSize: 528830
+files:
+- name: "DM-CUT_Avatarium.unr"
+  fileSize: 1733222
+  hash: "1ae5ee123968e278bcd4a06e95b454dbd4fa8aa1"
+otherFiles: 1
+dependencies:
+  DM-CUT_Avatarium.unr:
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_avatarium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_avatarium.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/7/b/01523e/dm-cut_avatarium.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "The Avatarium for ChaosUT"
+playerCount: "2-6"
+themes:
+  Tech: 0.1
+  Natural: 0.4
+  Nali Castle: 0.5
+bots: true

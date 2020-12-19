@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:26"
+variationOf: "38b7e40bb3ff2a7dbed6ec09781fa80a3b497a96"
+game: "Unreal Tournament"
+name: "DM-CUT_DM4"
+author: "by MassChAoS; rebuild of Q2 level by Nat"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-cut_dm4_shot_bc472fe2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/b/c/472fe2/dm-cut_dm4_shot_bc472fe2_1.png"
+originalFilename: "dm-cut_dm4.zip"
+hash: "bc472fe289be118e64b928af0365c40ae509ab8a"
+fileSize: 829021
+files:
+- name: "DM-CUT_DM4.unr"
+  fileSize: 1315754
+  hash: "a10f4fdac88f136ea8c815ea4068930dbcea397e"
+- name: "chaosjump.utx"
+  fileSize: 884501
+  hash: "2338056b86bb01b81a4ec9144573daf10ad48e8d"
+otherFiles: 1
+dependencies:
+  DM-CUT_DM4.unr:
+  - status: "OK"
+    name: "chaosjump"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_dm4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_dm4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/b/c/472fe2/dm-cut_dm4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "Jump"
+playerCount: "4-16"
+themes:
+  Industrial: 1.0
+bots: true

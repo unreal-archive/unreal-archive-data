@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-18 01:43"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-CUT_Cerebro"
+author: "LoQtUS"
+description: "None"
+releaseDate: "2020-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-cut_cerebro_shot_b56372a3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/b/5/6372a3/dm-cut_cerebro_shot_b56372a3_1.png"
+- type: "IMAGE"
+  name: "dm-cut_cerebro_shot_b56372a3_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/b/5/6372a3/dm-cut_cerebro_shot_b56372a3_2.png"
+originalFilename: "DM-CUT_Cerebro.umod"
+hash: "b56372a3712f2e1dd106ca87f3b6deea41bcb938"
+fileSize: 11366365
+files:
+- name: "KOTH_LoQ1.utx"
+  fileSize: 4169422
+  hash: "b884ab8b6f9867ca8760a6ab81b1e5787c9c4ed6"
+- name: "chaosmapitem.u"
+  fileSize: 658587
+  hash: "2c417248b749ee3ce2fc39f3b974724cf3931016"
+- name: "Chaos_Decor.u"
+  fileSize: 1005744
+  hash: "0338090f360abcdd3dedc16b093e3d2cde992075"
+- name: "VOODOO.UMX"
+  fileSize: 778749
+  hash: "0707681696126eee9f0001091cc536b34b136d27"
+- name: "DM-CUT_Cerebro.unr"
+  fileSize: 1425497
+  hash: "5a9ba6bc5b295aa1feda6f9cc4e6343249a26b33"
+- name: "ChaosMapSounds.uax"
+  fileSize: 3295888
+  hash: "dadfcf8dce34877f8326e85106474c334cf4a69d"
+- name: "DM-CUT_Cerebro.umod"
+  fileSize: 11366365
+  hash: "b56372a3712f2e1dd106ca87f3b6deea41bcb938"
+otherFiles: 2
+dependencies:
+  DM-CUT_Cerebro.unr:
+  - status: "OK"
+    name: "chaosmapitem"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUTMedia3"
+    providedBy: null
+  - status: "MISSING"
+    name: "Factory"
+    providedBy: null
+  - status: "OK"
+    name: "VOODOO"
+    providedBy: null
+  - status: "OK"
+    name: "Chaos_Decor"
+    providedBy: null
+  - status: "OK"
+    name: "ChaosMapSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "KOTH_LoQ1"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/b/5/6372a3/DM-CUT_Cerebro.umod"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "Cerebro"
+playerCount: "4-16"
+themes:
+  Tech: 0.3
+  Industrial: 0.1
+  Ancient: 0.6
+bots: true

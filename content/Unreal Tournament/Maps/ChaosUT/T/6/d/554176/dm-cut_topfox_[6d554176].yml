@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:29"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-CUT_TopFox"
+author: "Eric \"SnowDog\" Ettes"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-CUT_TopFox_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CUT_TopFox_shot_1.png"
+originalFilename: "dm-cut_topfox.zip"
+hash: "6d55417684ba224ea23ffb5e9f579b5d12a06952"
+fileSize: 256436
+files:
+- name: "DM-CUT_TopFox.unr"
+  fileSize: 801942
+  hash: "62e6eaadee3ee7f7c933311411d6f7feb9d46e6b"
+otherFiles: 1
+dependencies:
+  DM-CUT_TopFox.unr:
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_topfox.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_topfox.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/6/d/554176/dm-cut_topfox.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "Top Fox for ChaosUT"
+playerCount: "2-3"
+themes:
+  Ancient: 1.0
+bots: true

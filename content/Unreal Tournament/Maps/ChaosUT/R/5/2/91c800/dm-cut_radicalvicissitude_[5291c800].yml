@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:28"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-CUT_RadicalVicissitude"
+author: "by MassChAoS"
+description: "None"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-CUT_RadicalVicissitude_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CUT_RadicalVicissitude_shot_1.png"
+originalFilename: "dm-cut_radicalvicissitude_v1.zip"
+hash: "5291c8005a709990f6e7a5834fa9ed4561215eb5"
+fileSize: 4363633
+files:
+- name: "DM-CUT_RadicalVicissitude.unr"
+  fileSize: 1142438
+  hash: "20e5078c0167a095d054fa58307555f0ec51a174"
+- name: "AutumnWind.umx"
+  fileSize: 1938236
+  hash: "40257d7096088d54773e4572bd5595dafd14fc4d"
+- name: "ChaosMapSounds.uax"
+  fileSize: 3295888
+  hash: "dadfcf8dce34877f8326e85106474c334cf4a69d"
+otherFiles: 1
+dependencies:
+  DM-CUT_RadicalVicissitude.unr:
+  - status: "OK"
+    name: "ChaosMapSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "OK"
+    name: "AutumnWind"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_radicalvicissitude_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_radicalvicissitude_v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/5/2/91c800/dm-cut_radicalvicissitude_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "Radical Vicissitude"
+playerCount: "4-8"
+themes:
+  Ancient: 1.0
+bots: true

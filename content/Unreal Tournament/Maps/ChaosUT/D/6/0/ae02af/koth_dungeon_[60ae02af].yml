@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:31"
+variationOf: null
+game: "Unreal Tournament"
+name: "KOTH_Dungeon"
+author: "LoQtUS"
+description: "None"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "KOTH_Dungeon_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/K/KOTH_Dungeon_shot_3.png"
+- type: "IMAGE"
+  name: "KOTH_Dungeon_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/K/KOTH_Dungeon_shot_2.png"
+- type: "IMAGE"
+  name: "KOTH_Dungeon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/K/KOTH_Dungeon_shot_1.png"
+originalFilename: "koth_dungeon.zip"
+hash: "60ae02afaeb0e88a7500ebff18a85a80e3476f02"
+fileSize: 3088860
+files:
+- name: "KOTH_Dungeon.umod"
+  fileSize: 5475175
+  hash: "3bd2686bbaef19e266878db46a7bc305c222804c"
+- name: "London.utx"
+  fileSize: 527106
+  hash: "8abef42804b80669a298c93adf2506b9a81bfcfa"
+- name: "CUTDOM1.utx"
+  fileSize: 3072788
+  hash: "6c508ad2cc4ad79480a49c68d0f5e799293d0e8a"
+- name: "Zan_oc.umx"
+  fileSize: 1196663
+  hash: "83d445054a8a4b04790e2799f9eb809f51507b5f"
+- name: "KOTH_Dungeon.unr"
+  fileSize: 617142
+  hash: "a5d6feadc198fee7e54b0a7b2453014048f06fa2"
+otherFiles: 3
+dependencies:
+  KOTH_Dungeon.unr:
+  - status: "MISSING"
+    name: "ChaosUTMedia3"
+    providedBy: null
+  - status: "OK"
+    name: "Zan_oc"
+    providedBy: null
+  - status: "OK"
+    name: "London"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "OK"
+    name: "CUTDOM1"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosGames"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=koth_dungeon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/K/koth_dungeon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/K/6/0/ae02af/koth_dungeon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "KOTH Dungeon"
+playerCount: "2-8"
+themes:
+  Industrial: 0.6
+  Ancient: 0.4
+bots: true

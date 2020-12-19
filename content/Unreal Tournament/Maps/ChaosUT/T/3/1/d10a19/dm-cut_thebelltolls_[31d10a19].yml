@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:28"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-CUT_ThebellTolls"
+author: "Peter \"Clay\" Nederlof"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-CUT_ThebellTolls_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CUT_ThebellTolls_shot_1.png"
+originalFilename: "dm-cut_thebelltolls.zip"
+hash: "31d10a1975b0a6afd3e3181a78eed46c2aebe344"
+fileSize: 684065
+files:
+- name: "DM-CUT_ThebellTolls.unr"
+  fileSize: 1896137
+  hash: "9bb25389ca6606fc7b0136ce440d09f39f004620"
+otherFiles: 1
+dependencies:
+  DM-CUT_ThebellTolls.unr:
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_thebelltolls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_thebelltolls.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/3/1/d10a19/dm-cut_thebelltolls.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "ChaosUT - For Whom The Bell Tolls"
+playerCount: "2 - 6"
+themes:
+  Ancient: 0.6
+  Natural: 0.1
+  Nali Castle: 0.3
+bots: true

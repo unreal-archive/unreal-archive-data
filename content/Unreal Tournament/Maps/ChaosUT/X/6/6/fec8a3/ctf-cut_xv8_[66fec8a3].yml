@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:18"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-CUT_XV8"
+author: "Silus (silus@earthling.net) for Team Fragadelic"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-cut_xv8_shot_66fec8a3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/6/fec8a3/ctf-cut_xv8_shot_66fec8a3_1.png"
+originalFilename: "ctf-cut_xv8.zip"
+hash: "66fec8a3c558e528b2a88bdd5099f876ee7e16de"
+fileSize: 1925553
+files:
+- name: "CTF-CUT_XV8.unr"
+  fileSize: 2472749
+  hash: "1dbe739a60a9def199f3b99c8d60bb78d5b3d698"
+- name: "XV8track.umx"
+  fileSize: 488145
+  hash: "e8cf30d8f3bcea0552dad388e818709a5e8e7349"
+- name: "XV8.utx"
+  fileSize: 2610561
+  hash: "702a6c7bd5c0e04e35751ad4b8c9d03ee803cb53"
+otherFiles: 1
+dependencies:
+  CTF-CUT_XV8.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+    providedBy: null
+  - status: "OK"
+    name: "XV8track"
+    providedBy: null
+  - status: "OK"
+    name: "XV8"
+    providedBy: null
+  - status: "MISSING"
+    name: "ChaosUT"
+    providedBy: null
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1403730"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsC/&file=ctf-cut_xv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsC/ctf-cut_xv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/6/fec8a3/ctf-cut_xv8.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/6/fec8a3/ctf-cut_xv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-cut_xv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "ChaosUT"
+title: "XV-8 for Chaos UT"
+playerCount: "8-16"
+themes:
+  Tech: 0.6
+  Industrial: 0.1
+  City: 0.1
+  Skaarj Tech: 0.2
+bots: true
