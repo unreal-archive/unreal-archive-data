@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:10"
+variationOf: null
+game: "Unreal Tournament"
+name: "FN-INFERNO-FUNNEL"
+author: "-=Noda=-"
+description: "None"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "FN-INFERNO-FUNNEL_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/F/FN-INFERNO-FUNNEL_shot_1.png"
+originalFilename: "FN-INFERNO-FUNNEL.zip"
+hash: "2c11fd819293752f96dcfca0571c0647b9c3382d"
+fileSize: 4419919
+files:
+- name: "FN-INFERNO-FUNNEL.unr"
+  fileSize: 3164360
+  hash: "d7ff3aa73d3d73a7d549096f2fd6fe29c76635ac"
+- name: "TripleH.umx"
+  fileSize: 2233074
+  hash: "f8526e50a299b5cc11c73dfaf18369610249854c"
+- name: "ClusterRedeemer.u"
+  fileSize: 71126
+  hash: "c47150cabd1c564c331fecb6ea2f67244559c026"
+- name: "UTChaosMap.u"
+  fileSize: 1574716
+  hash: "18c7097cbbe405d4905e74974a9d424e70483bf1"
+otherFiles: 0
+dependencies:
+  FN-INFERNO-FUNNEL.unr:
+  - status: "OK"
+    name: "ClusterRedeemer"
+    providedBy: null
+  - status: "OK"
+    name: "TripleH"
+    providedBy: null
+  - status: "OK"
+    name: "UTChaosMap"
+    providedBy: null
+  UTChaosMap.u:
+  - status: "MISSING"
+    name: "ChaosSounds"
+    providedBy: null
+  - status: "MISSING"
+    name: "Chaostex"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=FN-INFERNO-FUNNEL.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/F/FN-INFERNO-FUNNEL.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=FN-INFERNO-FUNNEL.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/F/2/c/11fd81/FN-INFERNO-FUNNEL.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Funnel"
+title: "-=InfernoFunnel=-"
+playerCount: "6-16"
+themes:
+  Natural: 1.0
+bots: true
