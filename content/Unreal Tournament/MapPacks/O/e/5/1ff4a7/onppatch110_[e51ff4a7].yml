@@ -3,48 +3,45 @@ contentType: "MAP_PACK"
 firstIndex: "2019-02-04 03:33"
 variationOf: null
 game: "Unreal Tournament"
-name: "Onppatch120"
+name: "Onppatch110"
 author: "Various"
 description: "None"
 releaseDate: "2002-06"
 attachments: []
-originalFilename: "onppatch120.zip"
-hash: "b38628c84459eefc4f381162f134581f9b9553ac"
-fileSize: 19290495
+originalFilename: "onppatch110.zip"
+hash: "e51ff4a7ea72a98e8a9cda92b2dca6a258508c2e"
+fileSize: 17131991
 files:
+- name: "NP02DavidM.unr"
+  fileSize: 8359407
+  hash: "f40e9ca0f4669c57b2191ffcc74f2e80932d1952"
+- name: "olextras.u"
+  fileSize: 5367246
+  hash: "b66225398860224c4ee524eef62f85940ca7bde3"
 - name: "NP22DavidM.unr"
   fileSize: 4487679
   hash: "b00132e75efe42fe36b02ceed17faf8dcae25e91"
 - name: "NP17Chico.unr"
-  fileSize: 7116967
-  hash: "10f6ce86af5eac0fa08d15012581eb1ea8337c2a"
-- name: "UMS.u"
-  fileSize: 215870
-  hash: "dae537e837b36283a8c5ce2d122bd72870da774f"
-- name: "TVVA.u"
-  fileSize: 401630
-  hash: "64c865a06f3496012edcd063adf40d18dd3c3c48"
-- name: "NP08Hourences.unr"
-  fileSize: 10856296
-  hash: "4702348e9879d61018ccfcf84aaf7a1de51b12e0"
-- name: "NP01eVOLVE.unr"
-  fileSize: 4415717
-  hash: "d22c8145de0ed14a216a7367b44ba71010225ab1"
+  fileSize: 7116413
+  hash: "35c944071511994d8ea95d082a9b6ffa835028d4"
 - name: "NP09Silver.unr"
   fileSize: 4556505
   hash: "5151f15f2fd39e57097635ee3d6750610c95cde4"
-- name: "olextras.u"
-  fileSize: 5367246
-  hash: "b66225398860224c4ee524eef62f85940ca7bde3"
+- name: "UMS.u"
+  fileSize: 215870
+  hash: "dae537e837b36283a8c5ce2d122bd72870da774f"
+- name: "NP01eVOLVE.unr"
+  fileSize: 4415717
+  hash: "d22c8145de0ed14a216a7367b44ba71010225ab1"
+- name: "TVVA.u"
+  fileSize: 401630
+  hash: "64c865a06f3496012edcd063adf40d18dd3c3c48"
 - name: "NP23Kew.unr"
   fileSize: 5169542
   hash: "0194f5b3b99bd8e791b85afdd64934244e1f32f3"
-- name: "NP18Chico.unr"
-  fileSize: 7408216
-  hash: "2225d9344d066130699418c0f42e4ec7cdbd5e3c"
-- name: "NP02DavidM.unr"
-  fileSize: 8360796
-  hash: "c6f757bffeb03d1d5f1c78093de8c24f3f7d7348"
+- name: "NP08Hourences.unr"
+  fileSize: 10856296
+  hash: "4702348e9879d61018ccfcf84aaf7a1de51b12e0"
 otherFiles: 1
 dependencies:
   NP01eVOLVE.unr:
@@ -80,6 +77,40 @@ dependencies:
     providedBy: null
   - status: "OK"
     name: "UMS"
+    providedBy: null
+  NP22DavidM.unr:
+  - status: "MISSING"
+    name: "olweapons"
+    providedBy: null
+  - status: "MISSING"
+    name: "NPStroggsk"
+    providedBy: null
+  - status: "MISSING"
+    name: "DavidMSky"
+    providedBy: null
+  - status: "MISSING"
+    name: "DavidMGras"
+    providedBy: null
+  - status: "MISSING"
+    name: "Vortex"
+    providedBy: null
+  - status: "MISSING"
+    name: "NPDavidM"
+    providedBy: null
+  - status: "MISSING"
+    name: "NBSpecialsUT"
+    providedBy: null
+  - status: "MISSING"
+    name: "richrig"
+    providedBy: null
+  - status: "MISSING"
+    name: "Crater"
+    providedBy: null
+  - status: "OK"
+    name: "olextras"
+    providedBy: null
+  - status: "MISSING"
+    name: "DavidMSheet"
     providedBy: null
   NP17Chico.unr:
   - status: "MISSING"
@@ -121,40 +152,6 @@ dependencies:
   - status: "MISSING"
     name: "Spire"
     providedBy: null
-  NP22DavidM.unr:
-  - status: "MISSING"
-    name: "olweapons"
-    providedBy: null
-  - status: "MISSING"
-    name: "NPStroggsk"
-    providedBy: null
-  - status: "MISSING"
-    name: "DavidMSky"
-    providedBy: null
-  - status: "MISSING"
-    name: "DavidMGras"
-    providedBy: null
-  - status: "MISSING"
-    name: "Vortex"
-    providedBy: null
-  - status: "MISSING"
-    name: "NPDavidM"
-    providedBy: null
-  - status: "MISSING"
-    name: "NBSpecialsUT"
-    providedBy: null
-  - status: "MISSING"
-    name: "richrig"
-    providedBy: null
-  - status: "MISSING"
-    name: "Crater"
-    providedBy: null
-  - status: "OK"
-    name: "olextras"
-    providedBy: null
-  - status: "MISSING"
-    name: "DavidMSheet"
-    providedBy: null
   NP09Silver.unr:
   - status: "MISSING"
     name: "NP-FOD"
@@ -191,56 +188,6 @@ dependencies:
     providedBy: null
   - status: "MISSING"
     name: "NPTonnberry"
-    providedBy: null
-  olextras.u:
-  - status: "MISSING"
-    name: "oldskool"
-    providedBy: null
-  - status: "MISSING"
-    name: "olroot"
-    providedBy: null
-  - status: "MISSING"
-    name: "olweapons"
-    providedBy: null
-  NP18Chico.unr:
-  - status: "MISSING"
-    name: "treeC1"
-    providedBy: null
-  - status: "MISSING"
-    name: "Chicovolcano"
-    providedBy: null
-  - status: "MISSING"
-    name: "NPGlowthing"
-    providedBy: null
-  - status: "MISSING"
-    name: "olweapons"
-    providedBy: null
-  - status: "MISSING"
-    name: "NPIntruder"
-    providedBy: null
-  - status: "MISSING"
-    name: "DavidMSky"
-    providedBy: null
-  - status: "MISSING"
-    name: "DavidMGras"
-    providedBy: null
-  - status: "MISSING"
-    name: "Fifth"
-    providedBy: null
-  - status: "MISSING"
-    name: "chicoruinspack"
-    providedBy: null
-  - status: "MISSING"
-    name: "NBSpecialsUT"
-    providedBy: null
-  - status: "MISSING"
-    name: "NpChico"
-    providedBy: null
-  - status: "OK"
-    name: "olextras"
-    providedBy: null
-  - status: "MISSING"
-    name: "Spire"
     providedBy: null
   NP02DavidM.unr:
   - status: "MISSING"
@@ -284,6 +231,16 @@ dependencies:
     providedBy: null
   - status: "MISSING"
     name: "DavidMsky"
+    providedBy: null
+  olextras.u:
+  - status: "MISSING"
+    name: "oldskool"
+    providedBy: null
+  - status: "MISSING"
+    name: "olroot"
+    providedBy: null
+  - status: "MISSING"
+    name: "olweapons"
     providedBy: null
   NP08Hourences.unr:
   - status: "MISSING"
@@ -358,45 +315,42 @@ dependencies:
     name: "olextras"
     providedBy: null
 downloads:
-- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/O/onppatch120.zip"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/O/onppatch110.zip"
   main: true
   repack: false
   state: "OK"
-- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/O/b/3/8628c8/onppatch120.zip"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/O/e/5/1ff4a7/onppatch110.zip"
   main: false
   repack: false
   state: "OK"
-deleted: false
+deleted: true
 maps:
-- name: "NP22DavidM"
-  title: "Map 22: The Lands of Rostivelt"
-  author: "David Münnich"
-- name: "NP08Hourences"
-  title: "Map 8: Skaarj Outpost"
-  author: "Sjoerd ''Hourences'' De Jong"
-- name: "NP17Chico"
-  title: "Map 17: Nali Mountain Fighters"
-  author: "El Chicoverde, DavidM"
-- name: "NP18Chico"
-  title: "Map 18: Nali Mountain Fighters"
-  author: "El Chicoverde, DavidM"
 - name: "NP09Silver"
   title: "Map 9: Lil' Spire"
   author: "Silver-Serpent & Tonnberry & DavidM"
-- name: "NP23Kew"
-  title: "Map23: Forgotten Gods"
-  author: "Tim 'Kew' Jervis & DavidM & Strogg & MClane"
-- name: "NP02DavidM"
-  title: "Prisoned"
+- name: "NP17Chico"
+  title: "Map 17: Nali Mountain Fighters"
+  author: "El Chicoverde, DavidM"
+- name: "NP08Hourences"
+  title: "Map 8: Skaarj Outpost"
+  author: "Sjoerd ''Hourences'' De Jong"
+- name: "NP22DavidM"
+  title: "Map 22: The Lands of Rostivelt"
   author: "David Münnich"
 - name: "NP01eVOLVE"
   title: "Operation Na Pali Intro"
   author: "James 'eVOLVE' Hamer-Morton, DavidM"
+- name: "NP02DavidM"
+  title: "Prisoned"
+  author: "David Münnich"
+- name: "NP23Kew"
+  title: "Map23: Forgotten Gods"
+  author: "Tim 'Kew' Jervis & DavidM & Strogg & MClane"
 gametype: "Unknown"
 themes:
   Nali Temple: 0.1
-  Tech: 0.1
-  Industrial: 0.1
-  Ancient: 0.4
-  Nali Castle: 0.1
+  Tech: 0.2
+  Industrial: 0.2
+  Ancient: 0.3
   Skaarj Tech: 0.2
+  Nali Castle: 0.1
