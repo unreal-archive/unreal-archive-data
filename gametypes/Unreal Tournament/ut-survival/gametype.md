@@ -1,36 +1,8 @@
-## Game Type Additional Information
+UT Survival is a monster gamestyle for Unreal Tournament. It comes highly configurable and with optional mutators to adjust the gameplay a
+lot. The sole purpose of this gamestyle is to STAY ALIVE hence Survival.
 
-Feel free to add any additional write-up, documentation, installation help, 
-etc. to this document. It's a regular 
-[Markdown](https://www.markdownguide.org/cheat-sheet/) document, and will be
-formatted and rendered as HTML, along with the game type metadata from the
-accompanying YAML file.
+The gamestyle is a kind of reversed MonsterHunt, as this time it's not you hunting monsters, but monsters hunting you oh oh. The monsters
+comes in waves (max 16 waves), where each waves monsters, skills and difficulty can be configured seperatly. There are many new monsters to
+choose from!
 
-## Next Steps
-
-A template `gametype.yml` file has been generated, you can populate it with all
-the relevant information.
-
-### Graphics
-
-To use a custom title graphic on the games browser and at the top of the 
-gametype information page, place a 800 x 204 pixel image in any format in the 
-game type directory and set the `titleImage` option in `gametype.yml` to the 
-image file name.
-
-To use a custom graphic at the top of the information page, place a 1200 x 150
-pixel image in the game type directory and set the `bannerImage` option in 
-`gametype.yml` to the image file name.
-
-If screenshots or other graphics are to be included, they should be placed into
-a directory called `gallery`. This directory will be turned into a thumbnail
-gallery on the final page.
-
-### Releases and Files
-
-The downloads for a mod or game type are broken into releases, and releases
-are broken into files. For example, the latest release of a game type may 
-include multiple formats of files - a UMOD, a setup EXE, and a plain ZIP
-archive. All of these files may contain the same content, but are variations
-of the same release.
-
+There are optional add-ons to track players statistics and show top 10 players on the HUD. Have fun!
