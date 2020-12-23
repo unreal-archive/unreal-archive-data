@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-12-23 00:14"
+variationOf: null
+game: "Unreal Tournament 2004"
+name: "Weapons of Power"
+author: "Unknown"
+description: "Updates UT2004RPG with a new set of weapons that allow all of the familiar\
+  \ modifiers, and some new ones, to be applied as power ups, creating a plethora\
+  \ of weapon combinations!"
+releaseDate: "2006-09"
+attachments: []
+originalFilename: "163_WeaponsOfPower.zip"
+hash: "8726902bab6ee29507d24dba398fa1a16889e954"
+fileSize: 1738728
+files:
+- name: "WeaponsOfPower.u"
+  fileSize: 572722
+  hash: "715de4e3d6e640ab9e027c67bf9f4dfd501e185f"
+- name: "WeaponsOfPowerTextures.utx"
+  fileSize: 1945817
+  hash: "0980f872512a8a7cb9d27d1c5ce3c0bf0e764787"
+- name: "WeaponsOfPowerMeshes.usx"
+  fileSize: 2242646
+  hash: "16b7f84e1b051375483e24428057ca4551bd82c2"
+otherFiles: 2
+dependencies:
+  WeaponsOfPower.u:
+  - status: "OK"
+    name: "WeaponsOfPowerTextures"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTRPGStatics"
+    providedBy: null
+  - status: "OK"
+    name: "WeaponsOfPowerMeshes"
+    providedBy: null
+  - status: "MISSING"
+    name: "UT2004RPG"
+    providedBy: null
+  - status: "MISSING"
+    name: "UTRPGTextures2"
+    providedBy: null
+  WeaponsOfPowerMeshes.usx:
+  - status: "OK"
+    name: "WeaponsOfPowerTextures"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/8/7/26902b/163_WeaponsOfPower.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Weapons of Power"
+  description: "Updates UT2004RPG with a new set of weapons that allow all of the\
+    \ familiar modifiers, and some new ones, to be applied as power ups, creating\
+    \ a plethora of weapon combinations!"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
