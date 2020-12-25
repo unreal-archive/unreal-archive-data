@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:31"
+variationOf: null
+game: "Unreal Tournament"
+name: "CNQ-Coloseum"
+author: "Steve Roenneburg aka DVX Rune"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "CNQ-Coloseum_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/C/CNQ-Coloseum_shot_1.png"
+originalFilename: "CNQ-Coloseum.zip"
+hash: "3221a04dac59a60fa39304783ad8269a9aa5cd6b"
+fileSize: 1107821
+files:
+- name: "CNQ-Coloseum.unr"
+  fileSize: 3124946
+  hash: "d2f85384f475f3c42999d6e16a53a3aca627fb06"
+- name: "jtex.utx"
+  fileSize: 337390
+  hash: "1fea9d9af51eacc457ff93b36aaaff60dca6e83c"
+otherFiles: 1
+dependencies:
+  CNQ-Coloseum.unr:
+  - status: "OK"
+    name: "jtex"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Conquest&file=CNQ-Coloseum.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/C/CNQ-Coloseum.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/C/3/2/21a04d/CNQ-Coloseum.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Conquest"
+title: "CNQ-Coloseum"
+playerCount: "8-16"
+themes:
+  Skaarj Crypt: 0.3
+  Industrial: 0.1
+  Skaarj Tech: 0.6
+bots: true

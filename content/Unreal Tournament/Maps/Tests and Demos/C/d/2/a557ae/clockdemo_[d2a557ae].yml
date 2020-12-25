@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-12-25 19:50"
+variationOf: null
+game: "Unreal Tournament"
+name: "ClockDemo"
+author: "Revelation"
+description: "None"
+releaseDate: "2008-01"
+attachments: []
+originalFilename: "RevelationClock.zip"
+hash: "d2a557ae2e242552c02774098814ee8c97099106"
+fileSize: 67463
+files:
+- name: "RevelationClock.u"
+  fileSize: 101093
+  hash: "87101381ff0ebe17d67427e76a29d0af278e2d25"
+- name: "ClockDemo.unr"
+  fileSize: 53795
+  hash: "b0837c8f353652f72044b813416c1db03953a367"
+otherFiles: 0
+dependencies:
+  ClockDemo.unr:
+  - status: "OK"
+    name: "RevelationClock"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/C/RevelationClock.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/C/d/2/a557ae/RevelationClock.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tests and Demos"
+title: "Clock Demo Map"
+playerCount: "Unknown"
+themes: {}
+bots: false
