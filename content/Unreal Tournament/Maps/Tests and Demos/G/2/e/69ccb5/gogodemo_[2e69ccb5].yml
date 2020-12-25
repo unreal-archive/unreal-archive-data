@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-04 01:18"
+variationOf: null
+game: "Unreal Tournament"
+name: "goGoDemo"
+author: "Unknown"
+description: "None"
+releaseDate: "2015-10"
+attachments:
+- type: "IMAGE"
+  name: "goGoDemo_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/G/goGoDemo_shot_2.png"
+- type: "IMAGE"
+  name: "goGoDemo_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/G/goGoDemo_shot_1.png"
+originalFilename: "goGoDancer.zip"
+hash: "2e69ccb546aa6bbe820e46c6d8300856ef86a8d4"
+fileSize: 1326736
+files:
+- name: "goGoDancer.u"
+  fileSize: 692586
+  hash: "7619761019c00b7ec8b0fe7c3053bcbae95d41fd"
+- name: "goGoDemo.unr"
+  fileSize: 21151
+  hash: "5a1c117b38e384d5562d922cd1e0b99a54671861"
+otherFiles: 3
+dependencies:
+  goGoDemo.unr:
+  - status: "OK"
+    name: "goGoDancer"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=goGoDancer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/G/goGoDancer.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/G/2/e/69ccb5/goGoDancer.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tests and Demos"
+title: "goGoDemo"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: false
