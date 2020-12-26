@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:20"
+variationOf: null
+game: "Unreal"
+name: "Real_Pyramids"
+author: "Tuxedo Mask (BK-Homer)"
+description: "Phew! Its Hot Out Here!"
+releaseDate: "1999-09"
+attachments: []
+originalFilename: "realpyramids.zip"
+hash: "29638e349c58ac43c21829b3b1b31e97d7af1a9d"
+fileSize: 330085
+files:
+- name: "Real_Pyramids.unr"
+  fileSize: 311283
+  hash: "e02ccd5b029ec838d37b4f76cba9e1074d3c6ec8"
+- name: "tux.utx"
+  fileSize: 701963
+  hash: "80ba807768e4ec254e254af2252345796bc61665"
+otherFiles: 0
+dependencies:
+  Real_Pyramids.unr:
+  - status: "MISSING"
+    name: "RealCTF"
+    providedBy: null
+  - status: "OK"
+    name: "tux"
+    providedBy: null
+  - status: "MISSING"
+    name: "RealCTFtxtrs"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/R/2/9/638e34/realpyramids.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/R/2/9/638e34/realpyramids.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "RealCTF"
+title: "Real_Pyramids"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.8
+  Natural: 0.2
+bots: false

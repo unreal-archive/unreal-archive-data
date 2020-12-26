@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:20"
+variationOf: null
+game: "Unreal"
+name: "Real_FlagShip"
+author: "LilSatchMo"
+description: "Hi"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "realflagship.zip"
+hash: "8db14fc30f13f8f3a8946c86cb433a7cd386729c"
+fileSize: 851105
+files:
+- name: "Real_FlagShip.unr"
+  fileSize: 1991130
+  hash: "09f3fef036aa8a3ce38ca6fab7afb0ad6f678f70"
+otherFiles: 1
+dependencies:
+  Real_FlagShip.unr:
+  - status: "MISSING"
+    name: "RealCTFtxtrs"
+    providedBy: null
+  - status: "MISSING"
+    name: "RealCTF"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/R/8/d/b14fc3/realflagship.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/R/8/d/b14fc3/realflagship.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "RealCTF"
+title: "FlagShips"
+playerCount: "Unknown"
+themes:
+  Natural: 0.6
+  Skaarj Tech: 0.4
+bots: true
