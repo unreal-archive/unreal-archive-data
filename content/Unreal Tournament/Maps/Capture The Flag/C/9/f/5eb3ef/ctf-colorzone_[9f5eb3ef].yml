@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:32"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-ColorZone"
+author: "SepulturA"
+description: "None"
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "ctf-colorzone.zip"
+hash: "9f5eb3efa194c4a21ea377d35aa27b9fc2ecc4f7"
+fileSize: 1149137
+files:
+- name: "CTF-ColorZone.unr"
+  fileSize: 1051032
+  hash: "88a35eec30147504dd73fac23074790638b18a61"
+- name: "TheAwakening.umx"
+  fileSize: 1629284
+  hash: "576c7152fda5cdba872bbc3ad507dc99010eba43"
+otherFiles: 1
+dependencies:
+  CTF-ColorZone.unr:
+  - status: "OK"
+    name: "TheAwakening"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-colorzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-colorzone.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/9/f/5eb3ef/ctf-colorzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-ColorZone"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: false

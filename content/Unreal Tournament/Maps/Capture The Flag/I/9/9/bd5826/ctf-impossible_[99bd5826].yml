@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:32"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Impossible"
+author: "The_Ownage"
+description: "None"
+releaseDate: "2004-02"
+attachments: []
+originalFilename: "ctf-impossible.zip"
+hash: "99bd58267233a0f39a28ad675a88cd00377c99d4"
+fileSize: 4862066
+files:
+- name: "Belt_fx2.utx"
+  fileSize: 488920
+  hash: "015f96fab5235b01802fe6b684072ca34f8bff3c"
+- name: "CTF-Impossible.unr"
+  fileSize: 1715986
+  hash: "c4c8dcd08ffb633aa88529ff3443d20c50257491"
+- name: "ownage_music55.umx"
+  fileSize: 5186337
+  hash: "3943087a2096b6456c9fe35f20724a2e8af2e3e8"
+otherFiles: 1
+dependencies:
+  CTF-Impossible.unr:
+  - status: "OK"
+    name: "ownage_music55"
+    providedBy: null
+  - status: "OK"
+    name: "Belt_fx2"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-impossible.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/ctf-impossible.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/9/9/bd5826/ctf-impossible.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Impo§§ible"
+playerCount: "Unknown"
+themes: {}
+bots: false

@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:07"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-SimpleSnow"
+author: "Feralidragon"
+description: "None"
+releaseDate: "2006-09"
+attachments: []
+originalFilename: "CTF-SimpleSnow.zip"
+hash: "db31aaf7e932b8c3986c4e8e4c14071f99c88b64"
+fileSize: 4380109
+files:
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "CTF-SimpleSnow.unr"
+  fileSize: 2906957
+  hash: "0a1ffc184342ddca8ce1248e1d5345825bd01c20"
+- name: "SimpleSnowTx.utx"
+  fileSize: 3841
+  hash: "5a72451013b1ee85c6510603b69959f293ae903f"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "PickUpBaseJrm01.u"
+  fileSize: 3812703
+  hash: "5c104dfcbfe401936ccfa5e3389cf7011796e697"
+otherFiles: 1
+dependencies:
+  CTF-SimpleSnow.unr:
+  - status: "OK"
+    name: "Factory"
+    providedBy: null
+  - status: "OK"
+    name: "SimpleSnowTx"
+    providedBy: null
+  - status: "OK"
+    name: "a3text"
+    providedBy: null
+  - status: "OK"
+    name: "PickUpBaseJrm01"
+    providedBy: null
+  - status: "MISSING"
+    name: "SGTech1"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-SimpleSnow.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SimpleSnow.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/b/31aaf7/CTF-SimpleSnow.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-SimpleSnow"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.2
+  Industrial: 0.6
+  Ancient: 0.1
+bots: false

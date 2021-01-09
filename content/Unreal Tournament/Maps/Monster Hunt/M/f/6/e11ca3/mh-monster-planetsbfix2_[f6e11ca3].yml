@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:28"
+variationOf: null
+game: "Unreal Tournament"
+name: "MH-Monster-Planet+SBFix2"
+author: "to true"
+description: "None"
+releaseDate: "2015-01"
+attachments:
+- type: "IMAGE"
+  name: "MH-Monster-Planet+SBFix2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/M/MH-Monster-Planet%2BSBFix2_shot_1.png"
+originalFilename: "MH-Monster-Planet SBFix2.7z"
+hash: "f6e11ca3deb8b2563453a7fe6bde8948bd6e0378"
+fileSize: 302019
+files:
+- name: "Starfield.utx"
+  fileSize: 2105243
+  hash: "6f990d9db28ce4ba12ba8a762b2513cd80beb292"
+- name: "MH-Monster-Planet+SBFix2.unr"
+  fileSize: 745681
+  hash: "b7a82d9f7b359c3b1fafbd42e60bfed0380c9d31"
+- name: "Deviant.umx"
+  fileSize: 58234
+  hash: "555ad755a41363155b39884c8332f0214013d0cc"
+otherFiles: 2
+dependencies:
+  MH-Monster-Planet+SBFix2.unr:
+  - status: "OK"
+    name: "Deviant"
+    providedBy: null
+  - status: "OK"
+    name: "Starfield"
+    providedBy: null
+  - status: "MISSING"
+    name: "Fluid"
+    providedBy: null
+  - status: "MISSING"
+    name: "MonsterHunt"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Monster-Planet+SBFix2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/M/MH-Monster-Planet%20SBFix2.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/M/f/6/e11ca3/MH-Monster-Planet%2520SBFix2.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Monster Planet+SB-Fix"
+playerCount: "2-4"
+themes:
+  City: 0.2
+  Skaarj Tech: 0.8
+bots: true

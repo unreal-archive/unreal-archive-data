@@ -1,0 +1,102 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:23"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-INF-RoadBattle"
+author: "SMITHNWESSUN"
+description: "None"
+releaseDate: "2002-01"
+attachments: []
+originalFilename: "DM-inf-roadbattle.zip"
+hash: "0620d3eb1faec9b0f202750ead96bfb9c6490b9e"
+fileSize: 4828624
+files:
+- name: "muff_lightblueornimentalstreet.u"
+  fileSize: 7534
+  hash: "f3766fff5bf3b36fe11ac7cf6090cbd2e05d0986"
+- name: "SNW_RoadBattle.u"
+  fileSize: 8305
+  hash: "32130b8ef52e4ae4f0b7b4829977877fdc8356a9"
+- name: "SnwmodelDeco.utx"
+  fileSize: 265397
+  hash: "7874da6853f6c4d310449e6d067ea1b47f1cda3b"
+- name: "muff_redsofa.u"
+  fileSize: 11449
+  hash: "1f4dcc87a6c61190850dd9339e61ab36b6efd3d3"
+- name: "DM-INF-RoadBattle.unr"
+  fileSize: 5633039
+  hash: "0ff3bb95d094223b70660a3e10d74ca0798815f2"
+- name: "RoadBattle.utx"
+  fileSize: 4734043
+  hash: "69d8e255f59676f5ae8eb62fbd846e426e4d8068"
+- name: "muff_redchair.u"
+  fileSize: 7537
+  hash: "d6ee0fbab0fd5791935ae0ba7e2f75950d8b6e00"
+otherFiles: 1
+dependencies:
+  SNW_RoadBattle.u:
+  - status: "OK"
+    name: "RoadBattle"
+    providedBy: null
+  - status: "OK"
+    name: "SnwmodelDeco"
+    providedBy: null
+  DM-INF-RoadBattle.unr:
+  - status: "OK"
+    name: "Muff_lightblueornimentalstreet"
+    providedBy: null
+  - status: "OK"
+    name: "SNW_RoadBattle"
+    providedBy: null
+  - status: "OK"
+    name: "Muff_redchair"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Decorations"
+    providedBy: null
+  - status: "MISSING"
+    name: "Rw_tpack6"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_Belgrade"
+    providedBy: null
+  - status: "OK"
+    name: "Muff_redsofa"
+    providedBy: null
+  - status: "MISSING"
+    name: "Rw_tpack7"
+    providedBy: null
+  - status: "MISSING"
+    name: "INF_286_Misc_1"
+    providedBy: null
+  - status: "OK"
+    name: "RoadBattle"
+    providedBy: null
+  - status: "MISSING"
+    name: "Ubootdec"
+    providedBy: null
+  RoadBattle.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-roadbattle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-inf-roadbattle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/R/0/6/20d3eb/DM-inf-roadbattle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "DM-INF-RoadBattle"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: true

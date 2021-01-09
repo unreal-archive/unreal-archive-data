@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:34"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Restortion"
+author: "solar"
+description: "None"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Restortion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-Restortion_shot_1.png"
+originalFilename: "ctf-restortion.zip"
+hash: "22d66d19651e62c26a0ee4540b4b36854fc23fa8"
+fileSize: 537462
+files:
+- name: "CTF-Restortion.unr"
+  fileSize: 682451
+  hash: "80114f996e4456089786fdce1f8a6580e9c75254"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+otherFiles: 1
+dependencies:
+  CTF-Restortion.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+    providedBy: null
+  - status: "OK"
+    name: "Isotoxin"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/ctf-restortion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsR/&file=ctf-restortion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-restortion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsR/ctf-restortion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/2/2/d66d19/ctf-restortion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Restortion"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.9
+bots: true

@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:43"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-WarZone"
+author: "None"
+description: "WarZone"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-warzone_shot_3c8b86ea_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/3/c/8b86ea/ctf-warzone_shot_3c8b86ea_1.png"
+originalFilename: "ctf-warzone.zip"
+hash: "3c8b86eafc2da78691629814c70e122fb855fc3b"
+fileSize: 2967322
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "CTF-WarZone.unr"
+  fileSize: 1982495
+  hash: "afa00c12564b6b7e4716344a0336d9280a52c9dc"
+- name: "HmmwvPrefab.utx"
+  fileSize: 611210
+  hash: "e3696f53e1515031e0021bc4cae82421e85d81ee"
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+otherFiles: 1
+dependencies:
+  CTF-WarZone.unr:
+  - status: "OK"
+    name: "MTextSetA"
+    providedBy: null
+  - status: "OK"
+    name: "HmmwvPrefab"
+    providedBy: null
+  - status: "OK"
+    name: "a3text"
+    providedBy: null
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsW/&file=ctf-warzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-warzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsW/ctf-warzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/3/c/8b86ea/ctf-warzone.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/3/c/8b86ea/ctf-warzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Warzone 4 to 14 Players"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  Industrial: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.5
+bots: true

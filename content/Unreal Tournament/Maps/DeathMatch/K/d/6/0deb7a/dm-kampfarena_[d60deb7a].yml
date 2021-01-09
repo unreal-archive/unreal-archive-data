@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:19"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Kampfarena"
+author: "Manfred Zilka"
+description: "None"
+releaseDate: "2000-01"
+attachments: []
+originalFilename: "dm-kampfarena.zip"
+hash: "d60deb7a57c48f6296d8a70e36b6fb667ccc0db5"
+fileSize: 923802
+files:
+- name: "Q3 Texture base floor.utx"
+  fileSize: 269737
+  hash: "5efbd6c3450fd8fc4cb274371341be2eacdd989e"
+- name: "DM-Kampfarena.unr"
+  fileSize: 2392274
+  hash: "39aee2f939f7283a0d5156dd4752a131f6219b37"
+- name: "mepicture.utx"
+  fileSize: 88972
+  hash: "8cdb633cad90971f3711a650a3f5f1db1db1d3a9"
+otherFiles: 1
+dependencies:
+  DM-Kampfarena.unr:
+  - status: "MISSING"
+    name: "BronxTex1"
+    providedBy: null
+  - status: "MISSING"
+    name: "zeitkind"
+    providedBy: null
+  - status: "OK"
+    name: "mepicture"
+    providedBy: null
+  - status: "OK"
+    name: "Q3 Texture base floor"
+    providedBy: null
+  - status: "MISSING"
+    name: "Hunters"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/dm-kampfarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dm-kampfarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-kampfarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsK/dm-kampfarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/d/6/0deb7a/dm-kampfarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Kampfarena"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 1.0
+bots: true

@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:20"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTFP-test"
+author: "EntropicLiquid"
+description: "None"
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "ctfptest.zip"
+hash: "27149dea174d187e829c719c0bd54be4f7f5fa2c"
+fileSize: 13800
+files:
+- name: "CTFP-test.unr"
+  fileSize: 106999
+  hash: "1fceedf5b1b80da56851dce53a6a0cdf646fa8d4"
+otherFiles: 1
+dependencies:
+  CTFP-test.unr:
+  - status: "MISSING"
+    name: "CTFPlus"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctfptest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/ctfptest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/2/7/149dea/ctfptest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTFP-test"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: true

@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:00"
+variationOf: null
+game: "Unreal Tournament"
+name: "DM-Space Station"
+author: "Jan Kretschmer"
+description: "None"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "dm-space_station.zip"
+hash: "3f9d7bb8a424000718fbf81461d9cb1422dada99"
+fileSize: 1016290
+files:
+- name: "Warlord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+- name: "DM-Space Station.unr"
+  fileSize: 1579225
+  hash: "42dc66fb8296e0d73dadc73e8e218c19ba319fe7"
+otherFiles: 1
+dependencies:
+  DM-Space Station.unr:
+  - status: "OK"
+    name: "WarLord"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-space_station.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-space_station.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/3/f/9d7bb8/dm-space_station.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Space Station"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true
