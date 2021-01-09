@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:25"
+variationOf: null
+game: "Unreal"
+name: "DKRyan in the jungle"
+author: "Aaron Beane&Xhorathor"
+description: "Welcome to the JUNGLE"
+releaseDate: "1998-07"
+attachments: []
+originalFilename: "dkryanitj.zip"
+hash: "7ebe6b0e3ed9d4078cba001b563a625eb4e90242"
+fileSize: 425370
+files:
+- name: "rainT.utx"
+  fileSize: 37090
+  hash: "95c4881dfca056c15174fa9d2c8ddb5d1f658c39"
+- name: "RainC.u"
+  fileSize: 12240
+  hash: "1e32a8f94de1d92c8de5f606b4a1b9af9bcd2c69"
+- name: "DKRyan in the jungle.unr"
+  fileSize: 1031959
+  hash: "7ab66c85ce4fdf0fd33743d95ce420146b2f5ac9"
+- name: "current.umx"
+  fileSize: 151882
+  hash: "4a1e0b6ce98a3850def1d388dae06c0eb70f1189"
+otherFiles: 2
+dependencies:
+  DKRyan in the jungle.unr:
+  - status: "OK"
+    name: "current"
+    providedBy: null
+  - status: "OK"
+    name: "RainC"
+    providedBy: null
+  RainC.u:
+  - status: "OK"
+    name: "rainT"
+    providedBy: null
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5259724"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/D/dkryanitj.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/D/7/e/be6b0e/dkryanitj.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DarkMatch"
+title: "DMRyan in the jungle"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Skaarj Tech: 0.8
+  Nali Castle: 0.1
+bots: false

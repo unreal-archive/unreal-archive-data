@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:20"
+variationOf: null
+game: "Unreal"
+name: "DKcamp"
+author: "Unknown"
+description: "Welcome to camp!"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "dkcamp.zip"
+hash: "314bd136a8ae2c1e8c527ae7b0901c47f5e9a67b"
+fileSize: 133979
+files:
+- name: "DKcamp.unr"
+  fileSize: 392671
+  hash: "3c648b5a0be24bbeb9fa339e818ee62c9676d24b"
+- name: "Camp.u"
+  fileSize: 1153
+  hash: "c402dcdbe5f03e57b125c7760b33be51b60815c1"
+otherFiles: 1
+dependencies:
+  DKcamp.unr:
+  - status: "OK"
+    name: "Camp"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/D/3/1/4bd136/dkcamp.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/D/3/1/4bd136/dkcamp.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DarkMatch"
+title: "Camp DarkMatch"
+playerCount: "8"
+themes:
+  Natural: 0.2
+  Skaarj Tech: 0.8
+  Nali Castle: 0.1
+bots: false
