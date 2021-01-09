@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:38"
+variationOf: null
+game: "Unreal"
+name: "DM-Chessboard"
+author: "JS Bach"
+description: "Make your move!"
+releaseDate: "1999-02"
+attachments: []
+originalFilename: "dm-chessboard.zip"
+hash: "837e026efa61014b8bba5e22ccce2d2edf0b2d2e"
+fileSize: 782470
+files:
+- name: "chessFX.uax"
+  fileSize: 610870
+  hash: "66e4ce3a25048b9d455f5cd0bc3f884ded45de09"
+- name: "DM-Chessboard.unr"
+  fileSize: 1053614
+  hash: "484ef3198256129cc59e2edaa7ed7a3aca7eea98"
+otherFiles: 1
+dependencies:
+  DM-Chessboard.unr:
+  - status: "OK"
+    name: "chessFX"
+    providedBy: null
+  - status: "MISSING"
+    name: "Botpack"
+    providedBy: null
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-chessboard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/C/8/3/7e026e/dm-chessboard.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/8/3/7e026e/dm-chessboard.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DOM-Chessboard"
+playerCount: "8"
+themes:
+  Nali Temple: 0.5
+  Natural: 0.5
+bots: true

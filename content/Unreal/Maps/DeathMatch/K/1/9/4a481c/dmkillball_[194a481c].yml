@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:53"
+variationOf: null
+game: "Unreal"
+name: "DMKillball"
+author: "DMKillbox"
+description: "None"
+releaseDate: "1999-06"
+attachments: []
+originalFilename: "dmkillball.zip"
+hash: "194a481c440fe0d9aa767e3b813bdb1af7d8a84a"
+fileSize: 259469
+files:
+- name: "DMKillball.unr"
+  fileSize: 138229
+  hash: "7c34b7b48d66416b745d9f5b356933b24a74e57a"
+- name: "Killballtex.utx"
+  fileSize: 888763
+  hash: "4f8cd8906a10fcb7f3b8de23b16714ea81d3387c"
+- name: "Killboxtex.utx"
+  fileSize: 888758
+  hash: "5bb2a55dde3f59e535ce7d6d9130583575764b5f"
+otherFiles: 1
+dependencies:
+  DMKillball.unr:
+  - status: "OK"
+    name: "Killballtex"
+    providedBy: null
+  - status: "OK"
+    name: "Killboxtex"
+    providedBy: null
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dmkillball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/K/dmkillball.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsK/dmkillball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/K/1/9/4a481c/dmkillball.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMKillball"
+playerCount: "Unknown"
+themes: {}
+bots: false

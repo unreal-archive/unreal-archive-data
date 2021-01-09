@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+variationOf: null
+game: "Unreal"
+name: "InF_Ghetto"
+author: "RaekwoN"
+description: "None"
+releaseDate: "1997-04"
+attachments: []
+originalFilename: "InF_Ghetto.zip"
+hash: "3ecd5c657b1cc13119bbef99a26b733a1d6c90b8"
+fileSize: 948210
+files:
+- name: "InF_Ghetto.unr"
+  fileSize: 960393
+  hash: "0ce336f34bdbd4d3e3465a7053f400ecb55899d7"
+- name: "InF_RaekwoNSnd.uax"
+  fileSize: 389945
+  hash: "ee96baf7796c4f9790a95109e997cc13aac762f7"
+- name: "Inf_RaekwoNUrba.utx"
+  fileSize: 466861
+  hash: "92ee10ab3a07a6d940b5e63e5af2f951f72e45e9"
+otherFiles: 1
+dependencies:
+  InF_Ghetto.unr:
+  - status: "OK"
+    name: "InF_RaekwoNSnd"
+    providedBy: null
+  - status: "MISSING"
+    name: "Infiltration"
+    providedBy: null
+  - status: "OK"
+    name: "Inf_RaekwoNUrba"
+    providedBy: null
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=InF_Ghetto.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/I/InF_Ghetto.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/InF_Ghetto.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/G/3/e/cd5c65/InF_Ghetto.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "InF_Ghetto"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true

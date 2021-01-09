@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:26"
+variationOf: null
+game: "Unreal"
+name: "DMBigBath"
+author: "John"
+description: "None"
+releaseDate: "1999-09"
+attachments: []
+originalFilename: "dm-bigbath.zip"
+hash: "d7dd90464c57fae50a7ef673192dcab36c1c04e0"
+fileSize: 2069033
+files:
+- name: "Bathtex.utx"
+  fileSize: 2228863
+  hash: "bc1c9264b588b40073dd5b476100cc8d5092950c"
+- name: "DMBigBath.unr"
+  fileSize: 1328261
+  hash: "800fc6aea159c9292bb830e382cb1c5e2a26600d"
+otherFiles: 1
+dependencies:
+  DMBigBath.unr:
+  - status: "OK"
+    name: "Bathtex"
+    providedBy: null
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5327934"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/B/dm-bigbath.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dmbigbath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsB/dmbigbath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmbigbath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/B/d/7/dd9046/dm-bigbath.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMBigBath"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.4
+  Nali Castle: 0.6
+bots: true
