@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-01-20 23:13"
+variationOf: null
+game: "Unreal Tournament"
+name: "CTF-Spotlightv2"
+author: "bongoliath"
+description: "None"
+releaseDate: "2019-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-spotlightv2_shot_3de4eb71_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/d/e4eb71/ctf-spotlightv2_shot_3de4eb71_1.png"
+originalFilename: "CTF-Spotlightv2.rar"
+hash: "3de4eb71b8145b2697847fdd2be00a1800acd524"
+fileSize: 2801162
+files:
+- name: "CTF-Spotlightv2.unr"
+  fileSize: 2564305
+  hash: "435215687d862fbff2b21cdd54686a162ead06a1"
+- name: "Complian_b.umx"
+  fileSize: 323579
+  hash: "4326e26d2ba385d38ac5dcf8c62e8283d0e3c161"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 1
+dependencies:
+  CTF-Spotlightv2.unr:
+  - status: "OK"
+    name: "richrig"
+    providedBy: null
+  - status: "OK"
+    name: "Complian_b"
+    providedBy: null
+  - status: "OK"
+    name: "Factory"
+    providedBy: null
+  - status: "MISSING"
+    name: "swJumpPad"
+    providedBy: null
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/d/e4eb71/CTF-Spotlightv2.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Spotlight"
+playerCount: "12-16"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.5
+  Egyptian: 0.4
+bots: true
