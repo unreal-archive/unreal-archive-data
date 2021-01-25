@@ -28,7 +28,7 @@ pulled back up. BTW: the blades of the hook are pretty sharp… try it on player
 ChaosUT mod menu, one master key for shooting/swinging/releasing the hook and one ‘hook-up’ key for going up the cable during the swinging
 state. 
 
-### Kamikaze:
+### Kamikaze
 
 Desperation, last resort weapon (oh heck, it’s fun!)
 
@@ -39,15 +39,15 @@ in big crowded rooms. This is a nice base-buster in CTF or DOM, especially if yo
 features what we like to call the “Kami-Cam”. Right before you go BOOM, your view will switch to 3rd person so that you can better view the
 carnage! You have to set one key in the ChaosUT mod menu for triggering the kamikaze blast!
 
-### Kick:
+### Kick
 
 Good for laughs of course, but kicking things can save your life too. For example: A proxy that’s about to get you can be kicked away if
-timed right, or players may be kicked off into the lava. This can be very funny :) Translocator beacons may be kicked as well; this makes
+timed right, or players may be kicked off into the lava. This can be very funny 😉 Translocator beacons may be kicked as well; this makes
 for a lovely surprise for that fellow who thought he could leave it next to YOUR control point.
 
 You have to set one key in the ChaosUT mod menu for triggering a kick!
 
-### Spawn Protection:
+### Spawn Protection
 
 Chaos is a very dangerous place; you could spawn in the middle of a dozen proxies for example. To try and balance this, we have made the
 player invulnerable for the first five seconds of his Chaotic life. This gives you a much better chance to escape, or better yet, it gives
@@ -56,7 +56,7 @@ your player-icon on the HUD.
 
 You can change the duration of the respawn protection, or even disable it using the ChaosUT mod menu!
 
-### Armour Shards:
+### Armour Shards
 
 Armor Shards We’re not sure why Epic left these out, but we have provided mapmakers with an armor shard to use in the ChaosUT maps. This
 gives five points of armor and looks real pretty too.
@@ -87,13 +87,13 @@ Players who have the GravBelt turned on will give off a green glow.
 
 You have to set one key in the ChaosUT mod menu for turning on and off the belt!
 
-### RealLife(tm) Sounds:
+### RealLife(tm) Sounds
 
 No player can avoid these everyday occurrences. For example you sometimes have to sneeze, just as you’re standing five feet away from the
 enemy in a nice camping place, or you release that ugly, tiny but loud fart, just as you’re trying to sneak past the base guards. Our
-RealLife sounds (already well known from ChaosDM) “simulate” these kinds of nice happenings :)
+RealLife sounds (already well known from ChaosDM) “simulate” these kinds of nice happenings 😉
 
-### Heartbeat:
+### Heartbeat
 
 Giving ChaosUT the final thrill: if you come close to the “point of no return” of zero health, you will be able to hear your heartbeat
 louder and faster… and so can any nearby enemies…. a nice reminder that you should keep your eyes open for some extra health!
