@@ -1,0 +1,549 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-01-25"
+game: "Unreal Tournament"
+name: "ChaosUT"
+author: "Chaotic Dreams"
+description: "Short description about ChaosUT"
+titleImage: "title.png"
+bannerImage: "banner.jpg"
+releaseDate: "2002-09"
+links:
+  Homepage: "https://chaoticdreams.org/chaosut"
+  ModDB: "https://www.moddb.com/mods/chaosut"
+  Unreal Wiki: "https://unreal.fandom.com/wiki/Chaos_UT_(mod)"
+credits:
+  Chaotic coder and wizard of beta servers:
+  - "Frederico aka Fred Peeler"
+  Models and animations, skins and sounds, weird ideas anm more:
+  - "SPA aka Stefan Spatz"
+  Coding, maps, Kap'n KOTH, graphics:
+  - "JB"
+  Models, animation, skins:
+  - "Jan Pieter"
+  Maps, mapping guides, web site maintenance:
+  - "MassChAoS"
+  Lead beta tester, manual writing, web site maintenance:
+  - "Mark 'R.Flagg' Myers"
+  Manual writing, web site maintenance, testing:
+  - "Beelzebubba"
+  Tons of textures, the great Proxy and Turret-waves:
+  - "HolyMoo aka Susan K. Toro"
+  CAS12 sounds:
+  - "Sound Man"
+  Coding, web site maintenance, beta tester:
+  - "Sliva aka Gasman"
+  Server admin, beta tester:
+  - "FurrySound"
+  Official Beta Test Team:
+  - "Crazy_Killer"
+  - "Jörg Bandura aka Deus.ex.machina"
+  - "HasBen"
+  - "Mitch Cain aka SouthPaw"
+  - "Terry Quandt aka Wicad"
+gameTypes:
+- name: "CUT: King Of The Hill"
+  description: ""
+- name: "CUT: Team King Of The Hill"
+  description: ""
+- name: "CUT: DeathMatch"
+  description: ""
+- name: "CUT: Tournament Team Game"
+  description: ""
+- name: "CUT: Capture The Flag"
+  description: ""
+- name: "CUT: Assault"
+  description: ""
+- name: "CUT: Domination"
+  description: ""
+- name: "CUT: Last Man Standing"
+  description: ""
+- name: "CUT: Sword Arena"
+  description: ""
+- name: "CUT: Team Sword Arena"
+  description: ""
+mutators:
+- name: "ChaosUT - Sword Melee"
+  description: "Everyone's Melee weapon is a ChaosUT Bastard Sword"
+- name: "ChaosUT - Grapple Only"
+  description: "All players will have the CUT Grapple item in their inventory"
+- name: "ChaosUT - NoHealth"
+  description: "All health items (healthvial, superhealth, medbox) are removed"
+- name: "ChaosUT Arena Mutator"
+  description: "All weapons and ammo are replaced with the ones that are selected in the ChaosUT Config Setup under Arena Mutator Selection."
+maps:
+- name: "koth_BaseStationTheta"
+  title: "Base Station Theta"
+  author: "Jb"
+  screenshot:
+    type: "IMAGE"
+    name: "koth_basestationtheta10643613201248760903.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/C/chaosut/maps/koth_basestationtheta10643613201248760903.png"
+releases:
+- title: "ChaosUT Release"
+  version: "1.1"
+  releaseDate: "2002-09"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/tmp/chaosut_v1-1_full_nonumod.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/chaosut/chaosut_v1-1_full_nonumod.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "chaosut_v1-1_full_nonumod.zip"
+    hash: "b33afb7f0f2a8cbf2f8e6abb8c880881cc6d966f"
+    fileSize: 35523514
+    synced: true
+    deleted: false
+    files:
+    - name: "ChaosUT.u"
+      fileSize: 2742864
+      hash: "cc6195c00dcddd84ff0f40a9f535837ed2e715fe"
+    - name: "ChaosUTMedia3.u"
+      fileSize: 6637482
+      hash: "25b1513c6f2e6badab284a231502697444177c59"
+    - name: "UTChaosMap.u"
+      fileSize: 1575898
+      hash: "9b9f1378a227c21be2d99d963bb839c777dfcb92"
+    - name: "ChaosGames.u"
+      fileSize: 274380
+      hash: "ea1258353350f989dac893934d2b98f50744cf5d"
+    - name: "chaostex2.utx"
+      fileSize: 773339
+      hash: "9235522c366ba7a8140cdff84f1d2070bfd09335"
+    - name: "ChaosUTMedia2.u"
+      fileSize: 1885460
+      hash: "7a184cd32845757ab71303be28f6775bae3848eb"
+    - name: "chaostrees.u"
+      fileSize: 1193535
+      hash: "e6f120b88c3e1155cc37a7aea8e1602cfadddef4"
+    - name: "ChaosUTMiscMuts.u"
+      fileSize: 33715
+      hash: "26df70989ed1bd52e01f8a264abdba92748bd0f0"
+    - name: "chaostex.utx"
+      fileSize: 20485021
+      hash: "4653c099c4f73ac86c0f5bc6eab05c08a022bc4f"
+    - name: "ChaosUTRHUD.u"
+      fileSize: 20987
+      hash: "7480811575ee688fa5400b6b9038b7f1a79c48fb"
+    - name: "chaos_special_tex.utx"
+      fileSize: 227266
+      hash: "9b4e5d158694d02c066c4b85d2222c601177c723"
+    - name: "ChaosUTMedia5.u"
+      fileSize: 4344935
+      hash: "d01042d4c2f3897db8b98302f339a5c75c4e1646"
+    - name: "koth_BaseStationTheta.unr"
+      fileSize: 2753118
+      hash: "9b49382be25fd9e39ad0888dfff4f21ee31b0afa"
+    - name: "chaossounds2.uax"
+      fileSize: 3183219
+      hash: "7582a5906c9e595b6c27a6acb2f4c5cae299c650"
+    - name: "chaossounds.uax"
+      fileSize: 5272094
+      hash: "107b951d886200901a4482afa4f0d0c499c31ef0"
+    - name: "ChaosUTMedia1.u"
+      fileSize: 6435866
+      hash: "1e9fc9cd0b61046c3f9c79e13b3d3a36f72ec3a1"
+    - name: "ChaosUTMedia4.u"
+      fileSize: 6872338
+      hash: "34e4734d58cc695125271965f569b3ec76676b90"
+    - name: "RelicsPatch.u"
+      fileSize: 21513
+      hash: "fd4fe792833a7f0d6f65461fa448442bf622b2aa"
+    otherFiles: 158
+    dependencies:
+      ChaosUT.u:
+      - status: "OK"
+        name: "ChaosSounds"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia4"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia2"
+        providedBy: null
+      - status: "OK"
+        name: "chaos_special_tex"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "chaossounds2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia5"
+        providedBy: null
+      ChaosUTRHUD.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      - status: "OK"
+        name: "chaos_special_tex"
+        providedBy: null
+      ChaosUTMiscMuts.u:
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      ChaosGames.u:
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia4"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMiscMuts"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia5"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      koth_BaseStationTheta.unr:
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      - status: "OK"
+        name: "utchaosmap"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosGames"
+        providedBy: null
+      ChaosUTMedia5.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia4"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia2"
+        providedBy: null
+      UTChaosMap.u:
+      - status: "PARTIAL"
+        name: "ChaosSounds"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "PARTIAL"
+        name: "Chaostex"
+        providedBy: null
+      ChaosUTMedia4.u:
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "chaos_special_tex"
+        providedBy: null
+      ChaosUTMedia3.u:
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia2"
+        providedBy: null
+      ChaosUTMedia2.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      ChaosUTMedia1.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+  - title: "UMOD Package"
+    localFile: "/home/shrimp/tmp/chaosut_v1-1_full.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/chaosut/chaosut_v1-1_full.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "chaosut_v1-1_full.zip"
+    hash: "2eddd42eba3bcedfc41d0cfa40df22dce575dd4f"
+    fileSize: 40754187
+    synced: true
+    deleted: false
+    files:
+    - name: "CUT_Desktop.utx"
+      fileSize: 266332
+      hash: "48ef8043f5f388d885fa9c7bd6290dc7c19fdeeb"
+    - name: "ChaosUTMedia5.u"
+      fileSize: 4344935
+      hash: "d01042d4c2f3897db8b98302f339a5c75c4e1646"
+    - name: "chaostrees.u"
+      fileSize: 1193535
+      hash: "e6f120b88c3e1155cc37a7aea8e1602cfadddef4"
+    - name: "Chreksounds.uax"
+      fileSize: 2523237
+      hash: "e49d26d07aa42e07245d2943b2478fcbe83fc7c4"
+    - name: "ChaosUTRHUD.u"
+      fileSize: 20987
+      hash: "7480811575ee688fa5400b6b9038b7f1a79c48fb"
+    - name: "ChaosUTMedia4.u"
+      fileSize: 6872338
+      hash: "34e4734d58cc695125271965f569b3ec76676b90"
+    - name: "chaostex.utx"
+      fileSize: 20485021
+      hash: "4653c099c4f73ac86c0f5bc6eab05c08a022bc4f"
+    - name: "CUT-Logo-Map.unr"
+      fileSize: 12240
+      hash: "1dd80f4b39b029a242714934758d69232fd47260"
+    - name: "ChaosGames.u"
+      fileSize: 274380
+      hash: "ea1258353350f989dac893934d2b98f50744cf5d"
+    - name: "ChaosUTMedia3.u"
+      fileSize: 6637482
+      hash: "25b1513c6f2e6badab284a231502697444177c59"
+    - name: "Chrekvoicescout.u"
+      fileSize: 13724
+      hash: "3f880af68c63e8d1dd648985615855f0438f72ee"
+    - name: "chaostex2.utx"
+      fileSize: 773339
+      hash: "9235522c366ba7a8140cdff84f1d2070bfd09335"
+    - name: "ChaosUTMedia2.u"
+      fileSize: 1885460
+      hash: "7a184cd32845757ab71303be28f6775bae3848eb"
+    - name: "ChaosUTMiscMuts.u"
+      fileSize: 33715
+      hash: "26df70989ed1bd52e01f8a264abdba92748bd0f0"
+    - name: "ChrekSkins.utx"
+      fileSize: 1836215
+      hash: "f8501f38feab84a1ddc92c9d33be8c717570eaab"
+    - name: "CUTDesktop.umod"
+      fileSize: 338603
+      hash: "778dc969c01736f3650d2aeb5ab92b9d75165f78"
+    - name: "UTChaosMap.u"
+      fileSize: 1575898
+      hash: "9b9f1378a227c21be2d99d963bb839c777dfcb92"
+    - name: "ChaosUTMedia1.u"
+      fileSize: 6435866
+      hash: "1e9fc9cd0b61046c3f9c79e13b3d3a36f72ec3a1"
+    - name: "Chrekinstall.umod"
+      fileSize: 6572674
+      hash: "9a9558c3ff5e2ea9c1384c31a7726cdd62bdc695"
+    - name: "chaosut_v1-1_full.umod"
+      fileSize: 68874524
+      hash: "899b5fec2c93857d1946938ff216c63d22c4190d"
+    - name: "chaossounds2.uax"
+      fileSize: 3183219
+      hash: "7582a5906c9e595b6c27a6acb2f4c5cae299c650"
+    - name: "Chrekvoicedozer.u"
+      fileSize: 13707
+      hash: "dfc8fbcbff5b448d5f72c69c3efab9f4cf935158"
+    - name: "KOTH_BaseStationTheta.unr"
+      fileSize: 2753118
+      hash: "9b49382be25fd9e39ad0888dfff4f21ee31b0afa"
+    - name: "chaossounds.uax"
+      fileSize: 5272094
+      hash: "107b951d886200901a4482afa4f0d0c499c31ef0"
+    - name: "RelicsPatch.u"
+      fileSize: 21513
+      hash: "fd4fe792833a7f0d6f65461fa448442bf622b2aa"
+    - name: "CUTServerSetup.umod"
+      fileSize: 30893
+      hash: "3a7737b57bccb6627968605aab66cfebdb48d6c0"
+    - name: "ChaosUT.u"
+      fileSize: 2742864
+      hash: "cc6195c00dcddd84ff0f40a9f535837ed2e715fe"
+    - name: "Chreks.u"
+      fileSize: 1308594
+      hash: "296699e73258f6d51df421bd4dc872e31574e871"
+    - name: "chaos_special_tex.utx"
+      fileSize: 227266
+      hash: "9b4e5d158694d02c066c4b85d2222c601177c723"
+    otherFiles: 174
+    dependencies:
+      CUT-Logo-Map.unr:
+      - status: "OK"
+        name: "CUT_Desktop"
+        providedBy: null
+      ChaosUT.u:
+      - status: "OK"
+        name: "ChaosSounds"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia4"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia2"
+        providedBy: null
+      - status: "OK"
+        name: "chaos_special_tex"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "chaossounds2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia5"
+        providedBy: null
+      ChaosUTRHUD.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      - status: "OK"
+        name: "chaos_special_tex"
+        providedBy: null
+      Chreks.u:
+      - status: "OK"
+        name: "Chreksounds"
+        providedBy: null
+      - status: "PARTIAL"
+        name: "chrekskins"
+        providedBy: null
+      Chrekvoicedozer.u:
+      - status: "OK"
+        name: "Chreksounds"
+        providedBy: null
+      ChaosUTMiscMuts.u:
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      ChaosGames.u:
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia4"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMiscMuts"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia5"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      UTChaosMap.u:
+      - status: "PARTIAL"
+        name: "ChaosSounds"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "PARTIAL"
+        name: "Chaostex"
+        providedBy: null
+      ChaosUTMedia5.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia4"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia2"
+        providedBy: null
+      KOTH_BaseStationTheta.unr:
+      - status: "OK"
+        name: "ChaosUT"
+        providedBy: null
+      - status: "OK"
+        name: "utchaosmap"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosGames"
+        providedBy: null
+      ChaosUTMedia4.u:
+      - status: "OK"
+        name: "ChaosUTMedia3"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "chaos_special_tex"
+        providedBy: null
+      ChaosUTMedia3.u:
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia2"
+        providedBy: null
+      ChaosUTMedia2.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      - status: "OK"
+        name: "chaostex2"
+        providedBy: null
+      - status: "OK"
+        name: "ChaosUTMedia1"
+        providedBy: null
+      ChaosUTMedia1.u:
+      - status: "OK"
+        name: "chaostex"
+        providedBy: null
+      Chrekvoicescout.u:
+      - status: "OK"
+        name: "Chreksounds"
+        providedBy: null
+  deleted: false
+deleted: false
