@@ -1,0 +1,62 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-01-28"
+game: "Unreal Tournament"
+name: "Apprehension"
+author: "David \"Uncommon\" Catmull"
+description: "It's like Capture the Flag... on regular Deathmatch maps. Simple rules,\
+  \ simple fun."
+titleImage: ""
+bannerImage: ""
+releaseDate: "2002-01"
+links:
+  Archived Homepage: "https://web.archive.org/web/20061206195057/http://www.uncommonplace.com/games/apprehension.html"
+credits:
+  Author:
+  - "David \"Uncommon\" Catmull"
+gameTypes:
+- name: "Apprehension"
+  description: ""
+mutators: []
+maps: []
+releases:
+- title: "Apprehension Release"
+  version: "1.0.1"
+  releaseDate: "2002-01"
+  description: ""
+  files:
+  - title: "Release"
+    localFile: "/home/shrimp/tmp/apprehension_1.0.1.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/apprehension/apprehension_1.0.1.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/Apprehension/&file=apprehension_1.0.1.zip"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "apprehension_1.0.1.zip"
+    hash: "10b76d646d692bf7c3b81f3ee1e91401f1f7a227"
+    fileSize: 361981
+    synced: true
+    deleted: false
+    files:
+    - name: "FlagMutator.u"
+      fileSize: 6575
+      hash: "625c8603a750ef3e6e2307b97519ff35c01ebc00"
+    - name: "Apprehension.u"
+      fileSize: 845006
+      hash: "432d837c06fa1fdc4cd3216182413757d5faa9f1"
+    otherFiles: 2
+    dependencies:
+      Apprehension.u:
+      - status: "MISSING"
+        name: "CTF4"
+        providedBy: null
+      - status: "OK"
+        name: "FlagMutator"
+        providedBy: null
+  deleted: false
+deleted: false

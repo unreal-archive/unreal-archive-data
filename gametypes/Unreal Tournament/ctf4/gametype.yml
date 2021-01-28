@@ -1,0 +1,77 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-01-28"
+game: "Unreal Tournament"
+name: "CTF4"
+author: "David \"Uncommon\" Catmull"
+description: "Four teams give a whole new dimension to Capture the Flag. New scoring\
+  \ modes, carrying multiple flags... and really big maps!"
+titleImage: ""
+bannerImage: "banner.png"
+releaseDate: "2001-03"
+links:
+  Archived Homepage: "https://web.archive.org/web/20061116091035/http://uncommonplace.com/games/ctf4.html"
+credits:
+  Author:
+  - "David \"Uncommon\" Catmull"
+gameTypes:
+- name: "CTF4"
+  description: ""
+mutators: []
+maps:
+- name: "CTF4-Crossroads"
+  title: "Crossroads"
+  author: "David Catmull"
+  screenshot:
+    type: "IMAGE"
+    name: "ctf4-crossroads5953641955614480167.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/C/ctf4/maps/ctf4-crossroads5953641955614480167.png"
+releases:
+- title: "CTF4 Release"
+  version: "1.1"
+  releaseDate: "2001-03"
+  description: ""
+  files:
+  - title: "Release"
+    localFile: "/home/shrimp/tmp/ctf4_11.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/ctf4/ctf4_11.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/CTF/MultiCTF/&file=ctf4_11.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "http://ut-files.com/index.php?dir=GameTypes/CTF/MultiCTF/&file=ctf4_11.zip"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "ctf4_11.zip"
+    hash: "e28ce924c97b44009196d27849168c02e55a169f"
+    fileSize: 671320
+    synced: true
+    deleted: false
+    files:
+    - name: "CTF4.u"
+      fileSize: 929167
+      hash: "9ee0f8dbcf1a40e0ec41147e4b57ccb2787dec3c"
+    - name: "CTF4-Crossroads.unr"
+      fileSize: 1216524
+      hash: "75f09d89fd3240a2e31c752520752fbf28880ad4"
+    - name: "FlagMutator.u"
+      fileSize: 6575
+      hash: "625c8603a750ef3e6e2307b97519ff35c01ebc00"
+    otherFiles: 2
+    dependencies:
+      CTF4.u:
+      - status: "OK"
+        name: "FlagMutator"
+        providedBy: null
+      CTF4-Crossroads.unr:
+      - status: "OK"
+        name: "CTF4"
+        providedBy: null
+  deleted: false
+deleted: false
