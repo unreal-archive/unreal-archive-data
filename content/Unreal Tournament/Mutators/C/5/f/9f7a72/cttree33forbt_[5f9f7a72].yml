@@ -1,0 +1,60 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:13"
+game: "Unreal Tournament"
+name: "CTTree33ForBT"
+author: "Unknown"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "CTTree33ForBT_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/CTTree33ForBT_shot_1.png"
+originalFilename: "CTTree33ForBT.zip"
+hash: "5f9f7a729e0566ae5d79f5d29f5d8031a132508f"
+fileSize: 318471
+files:
+- name: "CTTree2y.u"
+  fileSize: 279736
+  hash: "dfa0a45871f562145a7270ba279853d27ad4a26d"
+- name: "CTTree33ForBT.u"
+  fileSize: 360051
+  hash: "3bfcc40f914d0e20b2f8c23f0d7cbbba8b01610c"
+otherFiles: 3
+dependencies:
+  CTTree33ForBT.u:
+  - status: "OK"
+    name: "CTTree2y"
+  - status: "MISSING"
+    name: "BTPlusPlusv0994_C"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/BunnyTracks/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/CTTree33ForBT.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/BunnyTracks&file=CTTree33ForBT.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/C/5/f/9f7a72/CTTree33ForBT.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/BunnyTracks/&file=CTTree33ForBT.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Capture The Tree 3.3 for BT++"
+  description: "Replaces the normal flags with christmas trees in BT games."
+- name: "Snowy scoreboard"
+  description: "Adds snow to the scoreboard."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

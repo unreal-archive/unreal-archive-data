@@ -1,0 +1,74 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:25"
+game: "Unreal Tournament"
+name: "INF - Bonus Weapons"
+author: "Unknown"
+description: " 1911 Colt, Mini UZI, HK MP5KPDW, HK G36K, HK G3A3"
+releaseDate: "2010-08"
+attachments: []
+originalFilename: "INF-COOP-UNREAL-GOLDv226_Extras.7z"
+hash: "56bf851d88823838c84bc1198e07b6cda2c5f819"
+fileSize: 10679
+files:
+- name: "stmutils.u"
+  fileSize: 8358
+  hash: "3eec74895719490be4ce9d267cc59b64a949a1f3"
+- name: "RTNPSkipIntermission.u"
+  fileSize: 1184
+  hash: "fdc1a1192e19797926fe8ef4f17ef4f40a49ac62"
+- name: "INF286AmbientGlowFix.u"
+  fileSize: 1293
+  hash: "0736db8987a412c8e92d5255e27042368effd9db"
+- name: "MutLoader.u"
+  fileSize: 2537
+  hash: "fd4fbcc01649704e5d9fee5b07ee76dc4da9fc83"
+- name: "INFCoopUnreal.u"
+  fileSize: 8204
+  hash: "cf42a93c4f461ee9d98e6d3bfd24718fdbc50aee"
+- name: "MoreMonsters.u"
+  fileSize: 6083
+  hash: "278239781a6f66e7d810a629e0131ecbd76cb6c8"
+- name: "UTTranslator.u"
+  fileSize: 6252
+  hash: "99438c731cc66ef3dbb2de7bb82e32c8be32dd73"
+otherFiles: 1
+dependencies:
+  INFCoopUnreal.u:
+  - status: "OK"
+    name: "stmutils"
+  - status: "MISSING"
+    name: "INF_GameTypes"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  MoreMonsters.u:
+  - status: "OK"
+    name: "stmutils"
+  RTNPSkipIntermission.u:
+  - status: "MISSING"
+    name: "UPak"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/Infiltration/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/INF-COOP-UNREAL-GOLDv226_Extras.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/I/5/6/bf851d/INF-COOP-UNREAL-GOLDv226_Extras.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/Infiltration/&file=INF-COOP-UNREAL-GOLDv226_Extras.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "INF - Bonus Weapons"
+  description: " 1911 Colt, Mini UZI, HK MP5KPDW, HK G36K, HK G3A3"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

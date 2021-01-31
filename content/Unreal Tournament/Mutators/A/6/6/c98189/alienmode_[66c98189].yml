@@ -1,0 +1,49 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:27"
+game: "Unreal Tournament"
+name: "AlienMode"
+author: "Unknown"
+description: ""
+releaseDate: "2006-03"
+attachments:
+- type: "IMAGE"
+  name: "AlienMode_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/AlienMode_shot_1.png"
+originalFilename: "TUTAlienMode.zip"
+hash: "66c98189add3f6e85eec5b4918bf2e6848e27393"
+fileSize: 73014
+files:
+- name: "AlienMode.u"
+  fileSize: 88971
+  hash: "15322535874db455b9e9611fce8e8868bc3495de"
+otherFiles: 2
+dependencies:
+  AlienMode.u:
+  - status: "MISSING"
+    name: "ThieveryAI"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/ThieveryUT&file=TUTAlienMode.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/A/TUTAlienMode.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/A/6/6/c98189/TUTAlienMode.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/ThieveryUT/&file=TUTAlienMode.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "AlienMode"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

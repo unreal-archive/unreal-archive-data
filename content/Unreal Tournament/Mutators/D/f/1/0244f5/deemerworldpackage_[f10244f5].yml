@@ -1,0 +1,74 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:38"
+game: "Unreal Tournament"
+name: "DeemerWorldpackage"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-01"
+attachments: []
+originalFilename: "DeemerWorldpackage.zip"
+hash: "f10244f56ff0d9cee4f674e73b7d99258af3b54a"
+fileSize: 1421453
+files:
+- name: "DeemerWorlds.u"
+  fileSize: 1077269
+  hash: "6ffbb94e818e0f91b95c035eb4c166a22c503317"
+- name: "Redeemer2k4.u"
+  fileSize: 1361238
+  hash: "7f57eb037a8c444381a0fac3bb600e6e94615f8e"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+otherFiles: 6
+dependencies:
+  Redeemer2k4.u:
+  - status: "OK"
+    name: "EnhancedItems"
+  DeemerWorlds.u:
+  - status: "MISSING"
+    name: "deemerworld"
+  - status: "OK"
+    name: "Redeemer2k4"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/D/DeemerWorldpackage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=DeemerWorldpackage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/D/f/1/0244f5/DeemerWorldpackage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Mods/&file=DeemerWorldpackage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "RedDeemer"
+  description: ""
+- name: "YellowDeemer"
+  description: ""
+- name: "GreenDeemer"
+  description: ""
+- name: "BlueDeemer"
+  description: ""
+- name: "OrangeDeemer"
+  description: ""
+- name: "Redeemer 2k4"
+  description: "Upgrade the Redeemer with UT2004 sounds and visual effects."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

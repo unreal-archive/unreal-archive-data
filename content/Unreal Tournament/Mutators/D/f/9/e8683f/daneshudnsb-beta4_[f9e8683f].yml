@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 00:51"
+game: "Unreal Tournament"
+name: "DanesHUD'n'SB Beta4"
+author: "the Publisher or"
+description: "None"
+releaseDate: "2006-02"
+attachments: []
+originalFilename: "DanesHUD'n'SB_beta4.zip"
+hash: "f9e8683fc563847cb25ce17c97aed37f83a52403"
+fileSize: 1113423
+files:
+- name: "IpToCountry_AOL.u"
+  fileSize: 2282
+  hash: "8e870dde567ddfb7872ddcd6d1fbdd3bf635d5c1"
+- name: "CountryFlags2.utx"
+  fileSize: 241128
+  hash: "6406af40db7d5a9c05b1e8e8322301183f94356d"
+- name: "ipToCountry.u"
+  fileSize: 37082
+  hash: "fedb8bd438f373f3104a7610127085bf65a2d2e6"
+- name: "DanesHUD'n'SB_beta4.u"
+  fileSize: 1685915
+  hash: "2a61b15366a7af6bd202172b453e1872abb82bce"
+otherFiles: 7
+dependencies:
+  ipToCountry.u:
+  - status: "OK"
+    name: "IpToCountry_AOL"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=DanesHUD%27n%27SB_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/D/DanesHUD'n'SB_beta4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/D/f/9/e8683f/DanesHUD'n'SB_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Mods/&file=DanesHUD%27n%27SB_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "TheDanes DM HUD & ScoreBoard - beta4"
+  description: ""
+- name: "TheDanes TDM HUD & ScoreBoard - beta4"
+  description: ""
+- name: "TheDanes CTF HUD & ScoreBoard - beta4"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

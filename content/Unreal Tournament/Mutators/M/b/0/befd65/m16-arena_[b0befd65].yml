@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 03:04"
+game: "Unreal Tournament"
+name: "M16 Arena"
+author: "Unknown"
+description: "M16 Rifles only."
+releaseDate: "2006-01"
+attachments:
+- type: "IMAGE"
+  name: "M16_Arena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/M/M16_Arena_shot_1.png"
+originalFilename: "M16Arena (1m16 sniper et un normal).rar"
+hash: "b0befd65d3bd415e66ec7b90b1ed8de259f7d3d0"
+fileSize: 804669
+files:
+- name: "M16Arena.u"
+  fileSize: 1252728
+  hash: "8a3d821aa8c2c65dd4124b15f683e534f49d8f77"
+otherFiles: 3
+dependencies: {}
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/M16Arena%20(1m16%20sniper%20et%20un%20normal).rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/M/b/0/befd65/M16Arena%2520(1m16%2520sniper%2520et%2520un%2520normal).rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Weapons/&file=M16Arena%20%281m16%20sniper%20et%20un%20normal%29.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "M16 Arena"
+  description: "M16 Rifles only."
+weapons:
+- name: "M16 Rifle"
+  description: " with a grenade Launcher Adapter."
+- name: "M16 Sniper Rifle"
+  description: " with Night Vision Feature."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-01 08:13"
+game: "Unreal Tournament"
+name: "CTF-BT-krank"
+author: "irridium77"
+description: "None"
+releaseDate: "2011-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bt-krank_shot_0abed79f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/K/ctf-bt-krank_shot_0abed79f_1.png"
+originalFilename: "NWBT_v6-KranK.rar"
+hash: "0abed79fdbb84d616a04c1433c53418d42a930ad"
+fileSize: 9883620
+files:
+- name: "ProjectileSpawner.u"
+  fileSize: 3300
+  hash: "39b919070b5f76fb3c811336617be0cad37b2030"
+- name: "Syrinx2600_Passage.umx"
+  fileSize: 7795342
+  hash: "6a4471cf7cbaf5d3c263cb5b98be118a831fa969"
+- name: "tree405.u"
+  fileSize: 198748
+  hash: "6215b64d644a4228870ea429496517405aba233c"
+- name: "NWBT_v6.u"
+  fileSize: 59639
+  hash: "5e2e20024297cfa54acb35cdd0832892952d9687"
+- name: "FurryDelayedTrigger2.u"
+  fileSize: 11430
+  hash: "8a5e53dedba1fd6504d515578e5733f47a74c54c"
+- name: "CTF-BT-krank.unr"
+  fileSize: 16034281
+  hash: "39f0fa890a335860dc17a90d08efcb907c142945"
+otherFiles: 2
+dependencies:
+  CTF-BT-krank.unr:
+  - status: "OK"
+    name: "NWBT_v6"
+  - status: "OK"
+    name: "tree405"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "Syrinx2600_Passage"
+  - status: "OK"
+    name: "ProjectileSpawner"
+  - status: "OK"
+    name: "FurryDelayedTrigger2"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/BunnyTracks/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/K/NWBT_v6-KranK.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/BunnyTracks&file=NWBT_v6-KranK.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/K/0/a/bed79f/NWBT_v6-KranK.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/BunnyTracks/&file=NWBT_v6-KranK.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "NWBT - krank"
+playerCount: "1 - 16"
+themes:
+  Industrial: 0.1
+  Natural: 0.9
+bots: false

@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 03:38"
+game: "Unreal Tournament"
+name: "UTPureRC6D"
+author: "reading the"
+description: "None"
+releaseDate: "2003-07"
+attachments: []
+originalFilename: "UTPureRC6D.zip"
+hash: "d9e0700e07e83f6653c3a7e80a1055211a182394"
+fileSize: 407595
+files:
+- name: "VAHandler6D.u"
+  fileSize: 144369
+  hash: "cdfa48d704aa40af0355b5abd6b5e8d693f03ca5"
+- name: "ZPPure6D.u"
+  fileSize: 46746
+  hash: "38dee6cca4de2395824a494ff34d54f5bd1e7ffa"
+- name: "UTPureRC6D.u"
+  fileSize: 335227
+  hash: "54f3de76b7b669e8f4e9c78fc65dcec02d70b2bc"
+- name: "BP4Handler6D.u"
+  fileSize: 6247
+  hash: "dca46fc304a9ba14d7ed2f43998851ca45fc5c54"
+- name: "BP1Handler6D.u"
+  fileSize: 15624
+  hash: "16a9d02a24e6d275f414541a8ca5bb0cd38d176b"
+otherFiles: 6
+dependencies: {}
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/U/UTPureRC6D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/U/d/9/e0700e/UTPureRC6D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Anticheat/UTPURE/&file=UTPureRC6D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Pure: ZeroPing"
+  description: " Optimized netcode for better play."
+- name: "Pure: ZeroPing AccuGib"
+  description: " InstaGib plus ZeroPing.  Mmmmmmm."
+- name: "Pure: ZeroPing ColorAccuGib"
+  description: " InstaGib plus ZeroPing with Colored Shots!."
+- name: "Pure: ZeroPing ShockArena"
+  description: " ShockArena with ZeroPing."
+- name: "Pure: ZeroPing SniperArena"
+  description: " SniperArena with ZeroPing."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

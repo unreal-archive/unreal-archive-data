@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:50"
+game: "Unreal Tournament"
+name: "RocketCTFBoost v2.7b"
+author: "iloveut99"
+description: ""
+releaseDate: "2012-01"
+attachments: []
+originalFilename: "RocketCTFBoostv27b.rar"
+hash: "48b2c5d65fcf773ce5321aa1831aa65802c0728e"
+fileSize: 12209
+files:
+- name: "RocketCTFBoostv27b.u"
+  fileSize: 18273
+  hash: "8aa4c9ca8f7da8a91171522d9bf89ebce4458940"
+- name: "RCTF_PlayerPack.u"
+  fileSize: 12977
+  hash: "be4133f49c043da935f3d94fa46054676a07dfbc"
+otherFiles: 3
+dependencies:
+  RocketCTFBoostv27b.u:
+  - status: "OK"
+    name: "RCTF_PlayerPack"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/R/RocketCTFBoostv27b.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=RocketCTFBoostv27b.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/R/4/8/b2c5d6/RocketCTFBoostv27b.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Mods/&file=RocketCTFBoostv27b.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "RocketCTFBoost v2.7b"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

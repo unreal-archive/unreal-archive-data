@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-19 22:04"
-variationOf: null
 game: "Unreal Tournament"
 name: "VoodooArena"
 author: "Unknown"
@@ -68,44 +67,33 @@ dependencies:
   realstinger.u:
   - status: "OK"
     name: "VoodooArenaTextures2"
-    providedBy: null
   - status: "OK"
     name: "RealStingerAmmo"
-    providedBy: null
   LongDeath.u:
   - status: "OK"
     name: "LongDeathAmmo"
-    providedBy: null
   purvoodoo.u:
   - status: "OK"
     name: "PurVoodooAmmo"
-    providedBy: null
   ancientdoll.u:
   - status: "OK"
     name: "VoodooArenaTextures"
-    providedBy: null
   fuelduffel.u:
   - status: "OK"
     name: "FuelAmmo"
-    providedBy: null
   - status: "OK"
     name: "VoodooArenaTextures"
-    providedBy: null
   firedoll.u:
   - status: "OK"
     name: "VoodooArenaTextures2"
-    providedBy: null
   - status: "OK"
     name: "FireAmmo"
-    providedBy: null
   DragonShell.u:
   - status: "OK"
     name: "VoodooArenaTextures2"
-    providedBy: null
   dragonspirit.u:
   - status: "OK"
     name: "DragonShell"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/V/voodooarenav1.zip"
   main: true
@@ -116,6 +104,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Weapons/&file=VoodooArenaV1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Weapons/&file=VoodooArenaV1.zip"
   main: false
   repack: false
   state: "OK"

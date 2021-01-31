@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:23"
+game: "Unreal Tournament"
+name: "Map-Vote 3.04"
+author: "remote administrators to"
+description: ""
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "bdbmapvote304.zip"
+hash: "091d0d4c1106e3cff61dc0ed9d22d2c16da5bc86"
+fileSize: 161944
+files:
+- name: "MapVoteHistoryX16.u"
+  fileSize: 3877
+  hash: "4d8f69c25c36e199eef4e03768c31c49de2583cb"
+- name: "BDBMapVote304.u"
+  fileSize: 276414
+  hash: "ccce851d2ab83ed7504f3cdc4f9fab3eda11a0d7"
+- name: "ServerInfo.u"
+  fileSize: 1984
+  hash: "691b5f7eb809a897196bbdf8d56273d5e859a5e1"
+otherFiles: 3
+dependencies:
+  MapVoteHistoryX16.u:
+  - status: "OK"
+    name: "BDBMapVote304"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/JailBreak&file=bdbmapvote304.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/bdbmapvote304.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/M/0/9/1d0d4c/bdbmapvote304.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/JailBreak/&file=bdbmapvote304.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Map-Vote 3.04"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

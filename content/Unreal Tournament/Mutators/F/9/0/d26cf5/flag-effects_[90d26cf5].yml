@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 09:02"
+game: "Unreal Tournament"
+name: "Flag Effects"
+author: "Unknown"
+description: "Flags that give, help, and hurt."
+releaseDate: "2001-06"
+attachments: []
+originalFilename: "flageffects.zip"
+hash: "90d26cf5deeace026ce57f8a827c48b5e902bbc5"
+fileSize: 2053769
+files:
+- name: "FlagMutator.u"
+  fileSize: 6575
+  hash: "625c8603a750ef3e6e2307b97519ff35c01ebc00"
+- name: "FEVengeance.u"
+  fileSize: 358541
+  hash: "23bdb873f82f75f49af431b6e9ab771d57fb2d03"
+- name: "FlagEffects.u"
+  fileSize: 5057661
+  hash: "e33a4a23e8fb0b32cb2bd4e057a363c5dbb6c28a"
+otherFiles: 4
+dependencies:
+  FEVengeance.u:
+  - status: "OK"
+    name: "FlagEffects"
+  FlagEffects.u:
+  - status: "OK"
+    name: "FlagMutator"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=flageffects.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/F/9/0/d26cf5/flageffects.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/F/9/0/d26cf5/flageffects.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Mods/&file=flageffects.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Flag Effects"
+  description: "Flags that give, help, and hurt."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:21"
+game: "Unreal Tournament"
+name: "KickASS Project Demo"
+author: "4DTeam"
+description: ""
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "KickASS_demo.zip"
+hash: "9a03e174d7aae2a1edfdfc93296f3936625a966b"
+fileSize: 15207
+files:
+- name: "KickASS.u"
+  fileSize: 42109
+  hash: "5edfa21471a0f3541fee2e2355c36049893f355d"
+otherFiles: 2
+dependencies:
+  KickASS.u:
+  - status: "MISSING"
+    name: "TOPModels"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/TO%2FTO22%2FMisc%2FMutators&file=KickASS_demo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/K/KickASS_demo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/K/9/a/03e174/KickASS_demo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/TO/TO22/Misc/Mutators/&file=KickASS_demo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "KickASS Project Demo"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

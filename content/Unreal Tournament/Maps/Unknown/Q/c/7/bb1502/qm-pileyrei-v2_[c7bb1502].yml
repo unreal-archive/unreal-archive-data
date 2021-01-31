@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-03 20:54"
+game: "Unreal Tournament"
+name: "QM-pileyrei-V2"
+author: "{BL}Ticklemonster using standard UT maps. Based on pileyrei's idea"
+description: "does anyone know what a pileyrei is, anyway?"
+releaseDate: "2004-01"
+attachments: []
+originalFilename: "QM-pileyrei-V2.zip"
+hash: "c7bb1502179b97a29b959ef698f9e6649a64dd9f"
+fileSize: 2535403
+files:
+- name: "QUAKE3c.utx"
+  fileSize: 1756884
+  hash: "24825a99bdc76cda3eb138fdf37d69e510d560f9"
+- name: "QM-pileyrei-V2.unr"
+  fileSize: 4103782
+  hash: "cff583565ed45991e969c36530e744ba493ac94d"
+otherFiles: 0
+dependencies:
+  QM-pileyrei-V2.unr:
+  - status: "MISSING"
+    name: "QuickMatch"
+  - status: "OK"
+    name: "QUAKE3c"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Quickmatch&file=QM-pileyrei-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/Q/QM-pileyrei-V2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/Q/c/7/bb1502/QM-pileyrei-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/QuickMatch/&file=QM-pileyrei-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "QM-pileyrei-V2"
+playerCount: "4-6"
+themes:
+  Tech: 0.3
+  Industrial: 0.3
+  Ancient: 0.1
+  Nali Castle: 0.3
+bots: true

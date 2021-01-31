@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:58"
+game: "Unreal Tournament"
+name: "RocketX3F"
+author: "Unknown"
+description: "."
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "RocketX3F.zip"
+hash: "a744f2c7a330959c35d180ca71789b6b49cbcb37"
+fileSize: 964604
+files:
+- name: "RocketX3F.u"
+  fileSize: 2311741
+  hash: "7b1379ebb0d819454e59e93370e59d612f07d426"
+otherFiles: 3
+dependencies:
+  RocketX3F.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/RocketX&file=RocketX3F.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/R/RocketX3F.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/R/a/7/44f2c7/RocketX3F.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/RocketX/&file=RocketX3F.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "RocketX3F"
+  description: "."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

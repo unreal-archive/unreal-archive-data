@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-01 09:02"
-variationOf: null
 game: "Unreal Tournament"
 name: "Menu Vote"
 author: "unzipping the"
@@ -23,7 +22,6 @@ dependencies:
   MenuVoteConfig.u:
   - status: "OK"
     name: "MenuVote"
-    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Mods/"
   main: false
@@ -38,6 +36,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Mapvotes/&file=menuvote100.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Mapvotes/&file=menuvote100.zip"
   main: false
   repack: false
   state: "OK"

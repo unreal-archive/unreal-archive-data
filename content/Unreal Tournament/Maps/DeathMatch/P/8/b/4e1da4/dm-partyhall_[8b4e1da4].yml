@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-18 19:25"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-PartyHall"
 author: "Engineer1986"
@@ -32,10 +31,8 @@ dependencies:
   DM-PartyHall.unr:
   - status: "OK"
     name: "VGuitar"
-    providedBy: null
   - status: "OK"
     name: "ffort"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-partyhall.zip"
   main: true
@@ -46,6 +43,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-partyhall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dm-partyhall.zip"
   main: false
   repack: false
   state: "OK"

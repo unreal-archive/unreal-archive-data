@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 23:41"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-INF-ManorFarm"
 author: "Morgan 'Botman' Eves"
@@ -32,13 +31,10 @@ dependencies:
   DM-INF-ManorFarm.unr:
   - status: "OK"
     name: "Botman"
-    providedBy: null
   - status: "OK"
     name: "a3text"
-    providedBy: null
   - status: "OK"
     name: "Jbterrain"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Infiltration/M/dm-manorfarm.zip"
   main: true
@@ -49,6 +45,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-manorfarm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-manorfarm.zip"
   main: false
   repack: false
   state: "OK"

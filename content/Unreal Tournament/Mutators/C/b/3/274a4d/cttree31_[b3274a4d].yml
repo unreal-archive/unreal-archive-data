@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:18"
+game: "Unreal Tournament"
+name: "CTTree31"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-12"
+attachments: []
+originalFilename: "CTTree31.zip"
+hash: "b3274a4d1a13ac65cae09fef1c5a6d5a87c2ad78"
+fileSize: 239879
+files:
+- name: "CTTree31.u"
+  fileSize: 287928
+  hash: "ccf0176e1de89ed12ca5bba69de6ff326805f8ae"
+- name: "CTTree2y.u"
+  fileSize: 279736
+  hash: "dfa0a45871f562145a7270ba279853d27ad4a26d"
+otherFiles: 2
+dependencies:
+  CTTree31.u:
+  - status: "OK"
+    name: "CTTree2y"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/CTF/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/CTTree31.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Mods/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/CTF&file=CTTree31.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/C/b/3/274a4d/CTTree31.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=CTF/&file=CTTree31.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Capture The Tree 3"
+  description: "Replaces the normal flags with christmas trees in CTF games."
+- name: "Snowy scoreboard"
+  description: "Adds snow to the scoreboard."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

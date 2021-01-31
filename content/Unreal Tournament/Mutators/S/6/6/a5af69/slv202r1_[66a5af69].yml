@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:10"
+game: "Unreal Tournament"
+name: "SLV202R1"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-12"
+attachments: []
+originalFilename: "SLV202R1.zip"
+hash: "66a5af6910c17bc0305d8e2528d7ee573b92f497"
+fileSize: 148555
+files:
+- name: "SLV202R1.u"
+  fileSize: 621634
+  hash: "45924ade724dad57ed5730079aeeee326d33a6c7"
+otherFiles: 2
+dependencies:
+  SLV202R1.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/StrangeLove&file=SLV202R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/SLV202R1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/S/6/6/a5af69/SLV202R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/StrangeLove/&file=SLV202R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Strangelove V202R1"
+  description: "All Redeemers are replaced with Strangeloves. Yellow Jackets optionally\
+    \ replace Enforcers."
+- name: "Strangelove V202R1 Arena"
+  description: "All weapons are replaced by Strangeloves. Yellow Jackets optionally\
+    \ replace Enforcers."
+- name: "SLV kill messages"
+  description: "Enables kill messages for kills made with a SLV rocket."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

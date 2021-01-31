@@ -1,0 +1,60 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:25"
+game: "Unreal Tournament"
+name: "Tbs Easy Mutators"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-02"
+attachments: []
+originalFilename: "tbs_easy_mutators.zip"
+hash: "0cce4364abf28eb2ef4343d27ac7b4f8d121f50c"
+fileSize: 15487
+files:
+- name: "TBmut.u"
+  fileSize: 41905
+  hash: "ea0d1616b63d0a4f339a74d313fd380b4c1bb616"
+otherFiles: 2
+dependencies: {}
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/TO&file=tbs_easy_mutators.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/T/tbs_easy_mutators.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/T/0/c/ce4364/tbs_easy_mutators.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/TO/&file=tbs_easy_mutators.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "DamageInfo"
+  description: "You get info about damage amount you recieve or give."
+- name: "DamageInfo in MsgWindow"
+  description: "You get info in the message window about damage amount you recieve\
+    \ or give."
+- name: "Kids"
+  description: "Players are just like kids - small and with big guns."
+- name: "SuperMiniguns"
+  description: "All Miniguns are replaced with SuperMiniguns."
+- name: "Shouter"
+  description: "Players can shout by typing 'mutate shout <message>'."
+- name: "Crouch"
+  description: "Players can crouch/uncrouch by typing 'mutate crouch'."
+- name: "WeaponScore ]["
+  description: "You get bonus for killing using specified weapon."
+- name: "Chainsaw Arena"
+  description: "Chainsaws only."
+- name: "SuperMinigun Arena"
+  description: "SuperMiniguns only."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

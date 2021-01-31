@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-01-17 05:41"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Scythan"
 author: "Michael \"Jimbo\" Cordingley"
@@ -26,7 +25,6 @@ dependencies:
   DM-Scythan.unr:
   - status: "OK"
     name: "Watcher"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-scythan.zip"
   main: true
@@ -37,6 +35,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-scythan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-scythan.zip"
   main: false
   repack: false
   state: "OK"

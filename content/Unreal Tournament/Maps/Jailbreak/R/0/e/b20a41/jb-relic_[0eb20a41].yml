@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 23:54"
-variationOf: null
 game: "Unreal Tournament"
 name: "JB-Relic"
 author: "Cory Spooner 'TheSpoonDog'"
@@ -23,13 +22,10 @@ dependencies:
   JB-Relic.unr:
   - status: "MISSING"
     name: "JailBreak"
-    providedBy: null
   - status: "MISSING"
     name: "JBArena"
-    providedBy: null
   - status: "MISSING"
     name: "JBSpecials"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/R/jb-relic.zip"
   main: true
@@ -40,6 +36,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=jb-relic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/JailBreak/maps/&file=jb-relic.zip"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 19:51"
+game: "Unreal Tournament"
+name: "Dm-CastleW"
+author: "Wael BD"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-castlew_shot_caf715f2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/c/a/f715f2/dm-castlew_shot_caf715f2_2.png"
+- type: "IMAGE"
+  name: "dm-castlew_shot_caf715f2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/c/a/f715f2/dm-castlew_shot_caf715f2_1.png"
+originalFilename: "dm-castlew.zip"
+hash: "caf715f2a21f521eb344370c833ca5be37ac38c5"
+fileSize: 1115111
+files:
+- name: "Dm-CastleW.unr"
+  fileSize: 3835548
+  hash: "b902b65ae8326a10cc423831c43910655927c279"
+- name: "Torch_1.u"
+  fileSize: 3380
+  hash: "bdd493c2a0899d23f1b98d0d070888cdbc5656f6"
+otherFiles: 1
+dependencies:
+  Dm-CastleW.unr:
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "Torch_1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/c/a/f715f2/dm-castlew.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/c/a/f715f2/dm-castlew.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=DM-Castlew.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Castle W"
+playerCount: "3-9"
+themes:
+  Skaarj Crypt: 0.2
+  Ancient: 0.7
+bots: true

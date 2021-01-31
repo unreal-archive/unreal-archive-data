@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 23:41"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Nightclub2"
 author: "Prewit an Toadie"
@@ -23,22 +22,16 @@ dependencies:
   DM-Nightclub2.unr:
   - status: "MISSING"
     name: "nightclub"
-    providedBy: null
   - status: "OK"
     name: "police"
-    providedBy: null
   - status: "MISSING"
     name: "a3text"
-    providedBy: null
   - status: "OK"
     name: "transit"
-    providedBy: null
   - status: "MISSING"
     name: "Matex"
-    providedBy: null
   - status: "OK"
     name: "nightclub2"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/dm-nightclub2.zip"
   main: true
@@ -49,6 +42,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-nightclub2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsN/&file=DM-Nightclub2.zip"
   main: false
   repack: false
   state: "OK"

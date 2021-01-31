@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:40"
+game: "Unreal Tournament"
+name: "Monster Hunter MHMayhem"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "Monster-Hunter-MHMayhem.zip"
+hash: "43ff8472813d6dc341ba9eb20fa59971234e430f"
+fileSize: 1331174
+files:
+- name: "MHMayhem.u"
+  fileSize: 1702341
+  hash: "591c36c7e6d889eb9ccdf5497a2c132a1921428e"
+- name: "null48.umx"
+  fileSize: 1949
+  hash: "3f08145d94f676d82c8d3a588fd4b4e00c66ab1d"
+otherFiles: 2
+dependencies:
+  MHMayhem.u:
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/MonsterHunt&file=Monster-Hunter-MHMayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/Monster-Hunter-MHMayhem.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/M/4/3/ff8472/Monster-Hunter-MHMayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/&file=Monster-Hunter-MHMayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "MHMayhem"
+  description: ""
+- name: "MHMayhem SM"
+  description: ""
+- name: "MHMayhem Pinata"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

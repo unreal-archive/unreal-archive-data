@@ -1,0 +1,99 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 21:50"
+game: "Unreal Tournament"
+name: "Ctf Inf Grandcanyon2"
+author: "Various"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "Ctf_Inf_Grandcanyon2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf_Inf_Grandcanyon2_shot_1.png"
+originalFilename: "ctf-inf-grandcanyon2.zip"
+hash: "17165120ffa70f8dadd7ca5fe10caf5c164596e5"
+fileSize: 6297086
+files:
+- name: "dmgc2.utx"
+  fileSize: 5875285
+  hash: "272eeec65229947d2502c78049fa03f1521c58f5"
+- name: "KeekUT.u"
+  fileSize: 49489
+  hash: "d8fbb33deec9507b60c120eb8b54e5eee256c52d"
+- name: "CTF-INF-GrandCanyon2.unr"
+  fileSize: 1443080
+  hash: "35fd9a7345798e3dfb3510fa3a539d7d470002b6"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "dmgc3.utx"
+  fileSize: 184236
+  hash: "97f14cfa12eb07f0fe927080b4213da01298a739"
+- name: "sdtrees.u"
+  fileSize: 624636
+  hash: "afe0751663805e53ddd5499f1cd41a6eb3aaaa05"
+- name: "DM-KeekUTExample.unr"
+  fileSize: 28259
+  hash: "796661a57f52c19fd4d7d22ed266a46ec57779a6"
+otherFiles: 4
+dependencies:
+  CTF-INF-GrandCanyon2.unr:
+  - status: "OK"
+    name: "KeekUT"
+  - status: "OK"
+    name: "dmgc2"
+  - status: "OK"
+    name: "dmgc3"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "sdtrees"
+  DM-KeekUTExample.unr:
+  - status: "OK"
+    name: "KeekUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/ctf-inf-grandcanyon2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsI/&file=ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsI/ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/1/7/165120/ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsI/&file=ctf-inf-grandcanyon2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-KeekUTExample"
+  title: "DM-KeekUTExample"
+  author: "Unknown"
+- name: "CTF-INF-GrandCanyon2"
+  title: "CTF-GrandCanyon"
+  author: "Teromen"
+gametype: "Mixed"
+themes:
+  Ancient: 0.3
+  City: 0.2
+  Natural: 0.5

@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:22"
+game: "Unreal Tournament"
+name: "INF C7"
+author: "Unknown"
+description: " The Diemaco C7 can be added to your loadout. Version 1.3"
+releaseDate: "2007-06"
+attachments: []
+originalFilename: "c7_13.zip"
+hash: "4d94dba82ae88a0176cfd9e29c3a52feb536f5f0"
+fileSize: 133133
+files:
+- name: "INFwm_C7.u"
+  fileSize: 418231
+  hash: "c94a349c137c9e598b5d3a306792b206e8abe69e"
+otherFiles: 1
+dependencies:
+  INFwm_C7.u:
+  - status: "MISSING"
+    name: "INF_Assets"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_Assets2"
+  - status: "MISSING"
+    name: "INF_Assets3"
+  - status: "MISSING"
+    name: "INF_Pawns"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Infiltration&file=c7_13.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/c7_13.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/I/4/d/94dba8/c7_13.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/Infiltration/&file=c7_13.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "INF C7"
+  description: " The Diemaco C7 can be added to your loadout. Version 1.3"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

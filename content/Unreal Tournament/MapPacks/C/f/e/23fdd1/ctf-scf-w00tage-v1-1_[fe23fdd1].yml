@@ -1,0 +1,74 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 21:51"
+game: "Unreal Tournament"
+name: "Ctf Scf W00tage V1 1"
+author: "Various"
+description: "None"
+releaseDate: "2005-10"
+attachments:
+- type: "IMAGE"
+  name: "Ctf_Scf_W00tage_V1_1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf_Scf_W00tage_V1_1_shot_1.png"
+originalFilename: "ctf-scf-w00tage_v1.1.zip"
+hash: "fe23fdd16f668b2ad6b1edcf28a3344fb1ac9016"
+fileSize: 3210780
+files:
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "DM-swJumpPad.unr"
+  fileSize: 149113
+  hash: "9236e5fa77d9269033b60f5bf27783556691a645"
+- name: "CTF-scF-w00tage.unr"
+  fileSize: 1014782
+  hash: "cb619590fd46c1b2e09e412d23f7c29df3702771"
+otherFiles: 7
+dependencies:
+  DM-swJumpPad.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  CTF-scF-w00tage.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/ctf-scf-w00tage_v1.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-scf-w00tage_v1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-scf-w00tage_v1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-scf-w00tage_v1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/f/e/23fdd1/ctf-scf-w00tage_v1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-scf-w00tage_v1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-swJumpPad"
+  title: "swJumpPad test map"
+  author: "SabbathCat and Switch`"
+- name: "CTF-scF-w00tage"
+  title: "CTF-scF-w00twage"
+  author: "Ghozer"
+gametype: "Mixed"
+themes:
+  Industrial: 1.0

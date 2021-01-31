@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:31"
+game: "Unreal Tournament"
+name: "Armed Watchers"
+author: "Unknown"
+description: ""
+releaseDate: "2003-07"
+attachments: []
+originalFilename: "mechina_v1.zip"
+hash: "40d198983f0821fb0590476da9e232f08b7bc595"
+fileSize: 24826
+files:
+- name: "Mechina.u"
+  fileSize: 71350
+  hash: "5cc0016d8272ec8655328f645b100a7be4aaf09b"
+otherFiles: 2
+dependencies:
+  Mechina.u:
+  - status: "MISSING"
+    name: "ThieveryData"
+  - status: "MISSING"
+    name: "ThieveryAI"
+  - status: "MISSING"
+    name: "ThieveryLowLevel"
+  - status: "MISSING"
+    name: "ThieveryMod"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/ThieveryUT&file=mechina_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/A/mechina_v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/A/4/0/d19898/mechina_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/ThieveryUT/&file=mechina_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Armed Watchers"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

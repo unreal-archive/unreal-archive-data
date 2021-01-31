@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 19:50"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-marble"
 author: "scott 'phalanx' oldfield"
@@ -35,17 +34,13 @@ dependencies:
   CTF-marble(final_beta).unr:
   - status: "OK"
     name: "projekt"
-    providedBy: null
   - status: "OK"
     name: "blueeol"
-    providedBy: null
   CTF-marble.unr:
   - status: "OK"
     name: "projekt"
-    providedBy: null
   - status: "OK"
     name: "blueeol"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/ctf-marble.zip"
   main: true
@@ -56,6 +51,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-marble.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsM/&file=ctf-marble.zip"
   main: false
   repack: false
   state: "OK"

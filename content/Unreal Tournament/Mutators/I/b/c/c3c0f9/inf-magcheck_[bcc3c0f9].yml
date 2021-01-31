@@ -1,0 +1,69 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:14"
+game: "Unreal Tournament"
+name: "INF MagCheck"
+author: "Unknown"
+description: " Hold 'use' while pressing the fire mode switch to check remaining ammo."
+releaseDate: "2005-09"
+attachments: []
+originalFilename: "infmagcheck_b7.zip"
+hash: "bcc3c0f979436ee347da1696702669861a3e68e3"
+fileSize: 38833
+files:
+- name: "INFMagCheck.u"
+  fileSize: 155440
+  hash: "639452c9c27ae53299c36c196effc28cb90bea25"
+- name: "INFmc_SSBonus.u"
+  fileSize: 26337
+  hash: "37e658ede712a82ef729dc8e4da37ab96bd56541"
+otherFiles: 1
+dependencies:
+  INFMagCheck.u:
+  - status: "MISSING"
+    name: "INF_Assets"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_Assets3"
+  - status: "MISSING"
+    name: "INF_Pawns"
+  INFmc_SSBonus.u:
+  - status: "MISSING"
+    name: "INF_Assets"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_Bonus"
+  - status: "OK"
+    name: "INFMagCheck"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/GTX&file=infmagcheck_b7.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/infmagcheck_b7.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Infiltration&file=infmagcheck_b7.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/I/b/c/c3c0f9/infmagcheck_b7.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/Infiltration/&file=infmagcheck_b7.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "INF MagCheck"
+  description: " Hold 'use' while pressing the fire mode switch to check remaining\
+    \ ammo."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

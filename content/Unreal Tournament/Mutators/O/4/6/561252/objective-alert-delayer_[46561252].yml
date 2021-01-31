@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:30"
+game: "Unreal Tournament"
+name: "Objective Alert Delayer!"
+author: "Unknown"
+description: ""
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "alertdelayer.zip"
+hash: "46561252e036eaf8bcaeaabc467341abad4863fd"
+fileSize: 5443
+files:
+- name: "AlertDelayer.u"
+  fileSize: 13126
+  hash: "f1c05fcd2def3d27fffa97df56e5d066c1dd6499"
+otherFiles: 2
+dependencies:
+  AlertDelayer.u:
+  - status: "MISSING"
+    name: "ThieveryObjectives"
+  - status: "MISSING"
+    name: "ThieveryAI"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/ThieveryUT&file=alertdelayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/O/alertdelayer.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/O/4/6/561252/alertdelayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/ThieveryUT/&file=alertdelayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Objective Alert Delayer!"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

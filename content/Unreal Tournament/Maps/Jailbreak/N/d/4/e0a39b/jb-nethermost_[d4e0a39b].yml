@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 23:54"
-variationOf: null
 game: "Unreal Tournament"
 name: "JB-Nethermost"
 author: "SpoonDog + SnowDog + Rob"
@@ -23,16 +22,12 @@ dependencies:
   JB-Nethermost.unr:
   - status: "MISSING"
     name: "Screen"
-    providedBy: null
   - status: "MISSING"
     name: "ScriptedScreen"
-    providedBy: null
   - status: "MISSING"
     name: "JailBreak"
-    providedBy: null
   - status: "MISSING"
     name: "JBArena"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/N/jb-nethermost.zip"
   main: true
@@ -43,6 +38,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak/&file=jb-nethermost.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/JailBreak/maps/&file=jb-nethermost.zip"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:40"
+game: "Unreal Tournament"
+name: "NoGrab"
+author: "Unknown"
+description: " stops the grab shit cheating and show me MonsterEnd."
+releaseDate: "2010-10"
+attachments: []
+originalFilename: "NoGrab.rar"
+hash: "5fe5817cddd8f877f659ea27c33b289a516f532a"
+fileSize: 1319
+files:
+- name: "NoGrab.u"
+  fileSize: 1671
+  hash: "0464700f6b09e7ad99d0bf61ab55df6042450431"
+otherFiles: 2
+dependencies:
+  NoGrab.u:
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/MonsterHunt&file=NoGrab.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/N/NoGrab.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/N/5/f/e5817c/NoGrab.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/&file=NoGrab.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "NoGrab"
+  description: " stops the grab shit cheating and show me MonsterEnd."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

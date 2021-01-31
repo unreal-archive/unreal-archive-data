@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:22"
+game: "Unreal Tournament"
+name: "INF Bot Director"
+author: "Unknown"
+description: " Order bots around by pointing at stuff."
+releaseDate: "2005-09"
+attachments: []
+originalFilename: "ibd_beta4.zip"
+hash: "f2ed02a5b4e39e89e0ffc65ce091dbb4136a5e78"
+fileSize: 25306
+files:
+- name: "INFBotDirector.u"
+  fileSize: 79595
+  hash: "b9ac76e6ad29beb5da1e2a3f514d42ac841636cb"
+otherFiles: 1
+dependencies:
+  INFBotDirector.u:
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_GameTypes"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Infiltration&file=ibd_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/ibd_beta4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/I/f/2/ed02a5/ibd_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/Infiltration/&file=ibd_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "INF Bot Director"
+  description: " Order bots around by pointing at stuff."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

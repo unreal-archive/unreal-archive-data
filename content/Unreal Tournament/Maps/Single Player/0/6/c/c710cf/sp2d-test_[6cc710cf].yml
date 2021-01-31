@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-03 20:51"
-variationOf: null
 game: "Unreal Tournament"
 name: "sp2d-test"
 author: "Unknown"
@@ -26,11 +25,9 @@ dependencies:
   sp2d-test.unr:
   - status: "OK"
     name: "sp2d"
-    providedBy: null
   sp2d.u:
   - status: "MISSING"
     name: "oldskool"
-    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Gametypes/OldSkool&file=sp2d.zip"
   main: false
@@ -41,6 +38,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/0/6/c/c710cf/sp2d.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/OldSkool/&file=sp2d.zip"
   main: false
   repack: false
   state: "OK"

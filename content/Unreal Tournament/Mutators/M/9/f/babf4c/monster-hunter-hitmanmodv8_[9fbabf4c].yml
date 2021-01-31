@@ -1,0 +1,55 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:40"
+game: "Unreal Tournament"
+name: "Monster Hunter HitmanModv8"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-03"
+attachments: []
+originalFilename: "Monster-Hunter-HitmanModv8.zip"
+hash: "9fbabf4c5d8d8a1cc169e13496c6256e01682308"
+fileSize: 4453027
+files:
+- name: "null48.umx"
+  fileSize: 1949
+  hash: "3f08145d94f676d82c8d3a588fd4b4e00c66ab1d"
+- name: "HitmanModv8.u"
+  fileSize: 8648266
+  hash: "4b6b7348bef894cba0bff03c9a7a8ee8aefb1b25"
+otherFiles: 2
+dependencies:
+  HitmanModv8.u:
+  - status: "OK"
+    name: "null48"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/MonsterHunt&file=Monster-Hunter-HitmanModv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/Monster-Hunter-HitmanModv8.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/M/9/f/babf4c/Monster-Hunter-HitmanModv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/&file=Monster-Hunter-HitmanModv8.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "HitmanModv8 Players Stats"
+  description: ""
+- name: "HitmanModv8 Player Logging"
+  description: ""
+- name: "HitmanModv8"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

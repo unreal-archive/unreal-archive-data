@@ -1,0 +1,68 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:43"
+game: "Unreal Tournament"
+name: "HNACV1 0"
+author: "Zacman"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "HNACV1.0.zip"
+hash: "8d8c952bb23e347ee9d300b2bbe09cf8b3cbed1b"
+fileSize: 50155
+files:
+- name: "WTFMODE.u"
+  fileSize: 2170
+  hash: "a92de0fecea4b18801492e7238297609acab2844"
+- name: "TEHBOOMERSKINZ.utx"
+  fileSize: 101211
+  hash: "4f5f5ccbfb2358b78a86f6a36183f514abf406dc"
+- name: "TEHBOOMER.u"
+  fileSize: 24963
+  hash: "76e4e6c1010d4aee23dc07fdd614e8133100df88"
+otherFiles: 2
+dependencies:
+  TEHBOOMER.u:
+  - status: "OK"
+    name: "TEHBOOMERSKINZ"
+  - status: "OK"
+    name: "WTFMODE"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Mods/HNACV/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/H/HNACV1.0.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/HNACV&file=HNACV1.0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=HNACV1.0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/H/8/d/8c952b/HNACV1.0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Mods/HNACV/&file=HNACV1.0.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Redeemer to HNAC"
+  description: ""
+- name: "Uber Mega What The Fuck Mode"
+  description: ""
+- name: "HNAC Arena"
+  description: ""
+- name: "Redeemer Fun Arena"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 03:40"
+game: "Unreal Tournament"
+name: "Noudaminvismutes"
+author: "Unknown"
+description: "None"
+releaseDate: "1999-12"
+attachments: []
+originalFilename: "noudaminvismutes.zip"
+hash: "cd2cd45416903c748d5195e219f5a22f707693ad"
+fileSize: 2049
+files:
+- name: "NoInvisibility.u"
+  fileSize: 1304
+  hash: "6e509aab6e2f3ba9ac253e3bdf03298b83ca9e78"
+- name: "NoUDamage.u"
+  fileSize: 1273
+  hash: "024662a3a4ac257df3d4c44d8736fe7603bcba7b"
+otherFiles: 2
+dependencies: {}
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/N/noudaminvismutes.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/N/c/d/2cd454/noudaminvismutes.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Weapons/&file=noudaminvismutes.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "No UDamage"
+  description: "Removes UDamage pickups from the level."
+- name: "No Invisibility"
+  description: "Removes Invisibility pickups from the level."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

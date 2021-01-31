@@ -1,0 +1,54 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:11"
+game: "Unreal Tournament"
+name: "SLV204XM"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-11"
+attachments: []
+originalFilename: "SLV204XM.zip"
+hash: "eb799ac62717378af6142c00072a84b319665983"
+fileSize: 1967780
+files:
+- name: "SLV204XM.u"
+  fileSize: 2239942
+  hash: "10dadb4e2e6e880ef40fac2da7282d995fe61b08"
+otherFiles: 3
+dependencies:
+  SLV204XM.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/StrangeLove&file=SLV204XM.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/SLV204XM.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/S/e/b/799ac6/SLV204XM.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/StrangeLove/&file=SLV204XM.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Strangelove V204 XM"
+  description: "All Redeemers are replaced with Strangeloves. Yellow Jackets optionally\
+    \ replace Enforcers."
+- name: "Strangelove V204 XM Arena"
+  description: "All weapons are replaced by Strangeloves. Yellow Jackets optionally\
+    \ replace Enforcers."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

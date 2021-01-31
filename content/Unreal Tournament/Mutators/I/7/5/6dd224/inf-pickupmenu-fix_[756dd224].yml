@@ -1,0 +1,60 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:27"
+game: "Unreal Tournament"
+name: "INF - PickupMenu Fix"
+author: "Unknown"
+description: " Removes the CD pickup option from the equipment->pickup menu."
+releaseDate: "2004-09"
+attachments: []
+originalFilename: "INF_PickupMenuFix.zip"
+hash: "756dd2248308f6c4d1f7cdb681676832ac481b92"
+fileSize: 11024
+files:
+- name: "INF_PickupMenuFix.u"
+  fileSize: 35585
+  hash: "0ae5a557613b5ad99e340efd04a065b2cc664694"
+otherFiles: 2
+dependencies:
+  INF_PickupMenuFix.u:
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_Console"
+  - status: "MISSING"
+    name: "INF_GameTypes"
+  - status: "MISSING"
+    name: "INF_Bonus"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/Infiltration/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/INF_PickupMenuFix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/GTX&file=INF_PickupMenuFix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Infiltration&file=INF_PickupMenuFix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/I/7/5/6dd224/INF_PickupMenuFix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/Infiltration/&file=INF_PickupMenuFix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "INF - PickupMenu Fix"
+  description: " Removes the CD pickup option from the equipment->pickup menu."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

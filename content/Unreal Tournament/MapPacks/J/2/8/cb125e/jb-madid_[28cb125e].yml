@@ -1,7 +1,6 @@
 --- !<MAP_PACK>
 contentType: "MAP_PACK"
 firstIndex: "2019-02-19 21:03"
-variationOf: null
 game: "Unreal Tournament"
 name: "Jb Madid"
 author: "Various"
@@ -32,30 +31,28 @@ dependencies:
   JB-Madid.unr:
   - status: "OK"
     name: "JBDevilfish"
-    providedBy: null
   - status: "MISSING"
     name: "Jailbreak"
-    providedBy: null
   - status: "OK"
     name: "CureItch"
-    providedBy: null
   - status: "MISSING"
     name: "JBArena"
-    providedBy: null
   JBDevilfish.u:
   - status: "MISSING"
     name: "JailBreak"
-    providedBy: null
   DM-JBDevilfish.unr:
   - status: "OK"
     name: "JBDevilfish"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/J/jb-madid.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/J/2/8/cb125e/jb-madid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/JailBreak/maps/&file=jb-madid.zip"
   main: false
   repack: false
   state: "OK"

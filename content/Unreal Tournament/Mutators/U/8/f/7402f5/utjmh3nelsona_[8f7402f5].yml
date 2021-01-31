@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:41"
+game: "Unreal Tournament"
+name: "UTJMH3Nelsona"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "UTJMH3Nelsona.zip"
+hash: "8f7402f52f152527d1029bd6a9441a5c275b6ffe"
+fileSize: 580748
+files:
+- name: "UTJMHSnd19.uax"
+  fileSize: 927934
+  hash: "07fb6fc4aeed005a142b38973f83366987075095"
+- name: "UTJMH3.u"
+  fileSize: 93727
+  hash: "f395a7bf8e7d1ccd0991009204a008307d56a7a3"
+otherFiles: 2
+dependencies:
+  UTJMH3.u:
+  - status: "OK"
+    name: "UTJMHSnd19"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/MonsterHunt&file=UTJMH3Nelsona.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/U/UTJMH3Nelsona.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/U/8/f/7402f5/UTJMH3Nelsona.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/&file=UTJMH3Nelsona.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "UTJ MonsterHunt ver 3"
+  description: ""
+- name: "UTJStrongMonster ver 3"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

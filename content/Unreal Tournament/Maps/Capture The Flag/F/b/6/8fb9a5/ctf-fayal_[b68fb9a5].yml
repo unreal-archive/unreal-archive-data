@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 19:49"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-Fayal"
 author: "Alexander \"lehmi\" Lehmann"
@@ -26,13 +25,10 @@ dependencies:
   CTF-Fayal.unr:
   - status: "MISSING"
     name: "Factory"
-    providedBy: null
   - status: "OK"
     name: "Shapeshifter"
-    providedBy: null
   - status: "MISSING"
     name: "SGTech1"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-Fayal.zip"
   main: true
@@ -43,6 +39,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=ctf-fayal.zip"
   main: false
   repack: false
   state: "OK"

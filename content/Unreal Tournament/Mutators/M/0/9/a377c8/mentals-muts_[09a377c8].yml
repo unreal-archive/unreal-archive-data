@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-04 03:40"
-variationOf: null
 game: "Unreal Tournament"
 name: "Mentals Muts"
 author: "setting the skill"
@@ -41,27 +40,21 @@ dependencies:
   CTFAlive.u:
   - status: "OK"
     name: "Mentals_configs"
-    providedBy: null
   TeamSize.u:
   - status: "OK"
     name: "Mentals_configs"
-    providedBy: null
   AntiLamer.u:
   - status: "OK"
     name: "Mentals_configs"
-    providedBy: null
   AntiCamper.u:
   - status: "OK"
     name: "Mentals_configs"
-    providedBy: null
   HelpingHand.u:
   - status: "OK"
     name: "Mentals_configs"
-    providedBy: null
   TeamBotSkill.u:
   - status: "OK"
     name: "Mentals_configs"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/mentals_muts.zip"
   main: true
@@ -72,6 +65,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=ServerSide_Mods/Mental_Mutators/&file=mentals_muts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=ServerSide_Mods/Mental_Mutators/&file=mentals_muts.zip"
   main: false
   repack: false
   state: "OK"
