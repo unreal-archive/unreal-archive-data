@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-12-23 09:10"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-FragginsteinCastle50mm"
 author: "Pete \"HOOK\" Morgan"
@@ -26,7 +25,6 @@ dependencies:
   DM-FragginsteinCastle50mm.unr:
   - status: "OK"
     name: "InfAdds"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FragginsteinCastle50mm.zip"
   main: true
@@ -37,6 +35,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-fragginsteincastle50mm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dm-fragginsteincastle50mm.zip"
   main: false
   repack: false
   state: "OK"

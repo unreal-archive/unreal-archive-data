@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-12-25 19:34"
-variationOf: null
 game: "Unreal Tournament"
 name: "DynamicWaterTest"
 author: "<UEDCZ>Todd (Daewon)"
@@ -23,7 +22,6 @@ dependencies:
   DynamicWaterTest.unr:
   - status: "OK"
     name: "DynamicWater"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/D/DynamicWater_v1.0b_FREE.zip"
   main: true
@@ -34,6 +32,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=UEditor_Developing/&file=DynamicWater_v1.0b_FREE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=UEditor_Developing/&file=DynamicWater_v1.0b_FREE.zip"
   main: false
   repack: false
   state: "OK"

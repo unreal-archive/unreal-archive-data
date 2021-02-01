@@ -1,7 +1,6 @@
 --- !<MODEL>
 contentType: "MODEL"
 firstIndex: "2018-12-25 19:01"
-variationOf: null
 game: "Unreal Tournament"
 name: "Fly"
 author: "Roger McManus"
@@ -29,11 +28,9 @@ dependencies:
   Fly.u:
   - status: "MISSING"
     name: "SkeletalChars"
-    providedBy: null
   TheFly.u:
   - status: "MISSING"
     name: "SkeletalChars"
-    providedBy: null
 downloads:
 - url: "http://www.ut-files.com/index.php?dir=Skins/SkinsT/&file=theflyv2.zip"
   main: false
@@ -52,6 +49,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Models/T/6/4/cf0a77/theflyv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Skins/SkinsT/&file=theflyv2.zip"
   main: false
   repack: false
   state: "OK"

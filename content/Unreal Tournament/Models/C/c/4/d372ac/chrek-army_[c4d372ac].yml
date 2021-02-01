@@ -1,7 +1,6 @@
 --- !<MODEL>
 contentType: "MODEL"
 firstIndex: "2018-12-25 17:54"
-variationOf: null
 game: "Unreal Tournament"
 name: "Chrek Army"
 author: "SPA"
@@ -68,18 +67,14 @@ dependencies:
   Chreks.u:
   - status: "OK"
     name: "Chreksounds"
-    providedBy: null
   - status: "PARTIAL"
     name: "chrekskins"
-    providedBy: null
   Chrekvoicedozer.u:
   - status: "OK"
     name: "Chreksounds"
-    providedBy: null
   Chrekvoicescout.u:
   - status: "OK"
     name: "Chreksounds"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/C/Chrek.zip"
   main: true
@@ -114,6 +109,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Models/C/c/4/d372ac/Chrek.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Models/ModelsC/&file=Chrek.zip"
   main: false
   repack: false
   state: "OK"

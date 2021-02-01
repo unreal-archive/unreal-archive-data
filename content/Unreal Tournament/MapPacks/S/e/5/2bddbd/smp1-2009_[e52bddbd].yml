@@ -1,0 +1,160 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 11:28"
+game: "Unreal Tournament"
+name: "Smp1 2009"
+author: "Various"
+description: "None"
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "Smp1_2009_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Smp1_2009_shot_4.png"
+- type: "IMAGE"
+  name: "Smp1_2009_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Smp1_2009_shot_1.png"
+- type: "IMAGE"
+  name: "Smp1_2009_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Smp1_2009_shot_2.png"
+- type: "IMAGE"
+  name: "Smp1_2009_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Smp1_2009_shot_5.png"
+- type: "IMAGE"
+  name: "Smp1_2009_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Smp1_2009_shot_3.png"
+originalFilename: "smp1_2009.rar"
+hash: "e52bddbd762410b7119560325d82ea12dc906300"
+fileSize: 18152392
+files:
+- name: "CTF-((SMP))Strider.unr"
+  fileSize: 2149260
+  hash: "b158fba5053f1c16b69b179b13069e88e69cdff6"
+- name: "CTF-((SMP))KurtArena.unr"
+  fileSize: 2414433
+  hash: "d582df92690b9c1ece670761cbc4a6b3bac8f01d"
+- name: "StompboxOverseer.umx"
+  fileSize: 5469613
+  hash: "07bbe034060576e1edab1b64d343022d7c577edf"
+- name: "chicohourwipeouttextures.utx"
+  fileSize: 1942760
+  hash: "85184e315c24aced0de740fe680e1d36685299ab"
+- name: "CTF-((SMP))Mothership.unr"
+  fileSize: 2588001
+  hash: "52ea345d656795b9c74c73e280ad119e4bc92ba5"
+- name: "CTF-((SMP))OceanDepths][.unr"
+  fileSize: 2164184
+  hash: "87096cac1410689b08d0aa349e614aabea8d6ef7"
+- name: "XenonCore.utx"
+  fileSize: 1052867
+  hash: "e07a94a0c3150a0026d693c88b175b167adbae64"
+- name: "CTF-((SMP))Korsair.unr"
+  fileSize: 3842040
+  hash: "b6233cda0962b4c02d4af27fcaf87e07d93da71d"
+- name: "CTF-((SMP))MINIPIPE.unr"
+  fileSize: 915911
+  hash: "56f530f1507717c4f601d285eba5728d12632007"
+- name: "SMP.utx"
+  fileSize: 266317
+  hash: "c8d3889443f8b88780341c722933d9bcc720864e"
+- name: "CTF-((SMP))Volcano.unr"
+  fileSize: 1513976
+  hash: "6e885af0e7beac746c0b47b3d0342bf794d36de8"
+- name: "CTF-((SMP))XenonCore.unr"
+  fileSize: 4680134
+  hash: "21457f0e84ccd9263846337c9a1a0425561ae108"
+- name: "FoT-Subterra.utx"
+  fileSize: 1718549
+  hash: "62d51eecc6ccce3a085a3c0e3f22dda1decb76f7"
+- name: "AnatolySky.utx"
+  fileSize: 532476
+  hash: "8ff7c5d3f841c838ca395e6de66536e34b56b5bc"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 12
+dependencies:
+  CTF-((SMP))Mothership.unr:
+  - status: "OK"
+    name: "AnatolySky"
+  - status: "MISSING"
+    name: "QueenSong"
+  - status: "OK"
+    name: "chicohourwipeouttextures"
+  CTF-((SMP))OceanDepths][.unr:
+  - status: "OK"
+    name: "StompboxOverseer"
+  - status: "OK"
+    name: "FoT-Subterra"
+  CTF-((SMP))KurtArena.unr:
+  - status: "OK"
+    name: "FoT-Subterra"
+  - status: "OK"
+    name: "SMP"
+  CTF-((SMP))XenonCore.unr:
+  - status: "OK"
+    name: "AnatolySky"
+  - status: "OK"
+    name: "SMP"
+  - status: "OK"
+    name: "XenonCore"
+  CTF-((SMP))MINIPIPE.unr:
+  - status: "OK"
+    name: "SMP"
+  - status: "OK"
+    name: "SGTech1"
+  CTF-((SMP))Volcano.unr:
+  - status: "MISSING"
+    name: "SLV2Sounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=smp1_2009.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/S/smp1_2009.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=smp1_2009.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/S/e/5/2bddbd/smp1_2009.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/SLV/&file=smp1_2009.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-((SMP))Volcano"
+  title: "((SMP)) Volcano"
+  author: "-Fn> Genghis_Khan"
+- name: "CTF-((SMP))Strider"
+  title: "CTF-((SMP))Obvious"
+  author: "-Fn>Genghis_Khan"
+- name: "CTF-((SMP))OceanDepths]["
+  title: "SLV Ocean Depths II  -  by .:]OsL[Madis"
+  author: ".:]OsL[ Madis Kybarsepp"
+- name: "CTF-((SMP))MINIPIPE"
+  title: "CTF-MINIPIPE"
+  author: "Modified by windigo"
+- name: "CTF-((SMP))Mothership"
+  title: "(SMP) Skaarj Mothership  -   by .:]OsL[Madis"
+  author: ".:]OsL[ Madis Kybarsepp"
+- name: "CTF-((SMP))XenonCore"
+  title: "SLV XenonCore by .:]OsL[Madis"
+  author: ".:]OsL[ Madis Kybarsepp"
+- name: "CTF-((SMP))Korsair"
+  title: "((SMP)) Korsair  -  by  NinjaNali"
+  author: "NinjaNali"
+- name: "CTF-((SMP))KurtArena"
+  title: "KurtArena StrangeLove 2008"
+  author: "Madis Kybarsepp ( OsL / DiD )"
+gametype: "Capture The Flag"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.5
+  Natural: 0.1
+  Skaarj Tech: 0.3

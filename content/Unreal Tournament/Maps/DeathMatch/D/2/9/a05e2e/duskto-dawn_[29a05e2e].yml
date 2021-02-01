@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-01-13 17:03"
-variationOf: null
 game: "Unreal Tournament"
 name: "Duskto Dawn"
 author: "Angelheart"
@@ -26,16 +25,18 @@ dependencies:
   Duskto Dawn.unr:
   - status: "OK"
     name: "Dusksnd"
-    providedBy: null
   - status: "OK"
     name: "dusk"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/D/dm-dusktodawn.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/D/2/9/a05e2e/dm-dusktodawn.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dm-dusktodawn.zip"
   main: false
   repack: false
   state: "OK"

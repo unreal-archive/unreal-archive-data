@@ -1,0 +1,174 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-04 21:59"
+game: "Unreal Tournament"
+name: "Cwl Maptestingpack Wk29"
+author: "Various"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "Cwl_Maptestingpack_Wk29_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Cwl_Maptestingpack_Wk29_shot_3.png"
+- type: "IMAGE"
+  name: "Cwl_Maptestingpack_Wk29_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Cwl_Maptestingpack_Wk29_shot_2.png"
+- type: "IMAGE"
+  name: "Cwl_Maptestingpack_Wk29_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Cwl_Maptestingpack_Wk29_shot_6.png"
+- type: "IMAGE"
+  name: "Cwl_Maptestingpack_Wk29_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Cwl_Maptestingpack_Wk29_shot_4.png"
+- type: "IMAGE"
+  name: "Cwl_Maptestingpack_Wk29_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Cwl_Maptestingpack_Wk29_shot_1.png"
+- type: "IMAGE"
+  name: "Cwl_Maptestingpack_Wk29_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Cwl_Maptestingpack_Wk29_shot_5.png"
+originalFilename: "cwl_maptestingpack_wk29.zip"
+hash: "776debde927a8bd79e6b57f14ed35c3161a22123"
+fileSize: 24638298
+files:
+- name: "CTF-Radian.unr"
+  fileSize: 2185611
+  hash: "3bc63fab109ac3f03dc219810be97f995203a376"
+- name: "Training_Music.umx"
+  fileSize: 1450137
+  hash: "35ae8270b82cd66cf4fd516e73836f97be053186"
+- name: "CTF-(FB)-CommandArena.unr"
+  fileSize: 1548606
+  hash: "4db4103b814af5a8bb22151087ced236bb321347"
+- name: "Gnosis-CTF.utx"
+  fileSize: 2150952
+  hash: "121dafc818d1d8184365be746fe2ac3d4d5b3ae9"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+- name: "CTF-Orphobeus.unr"
+  fileSize: 5378227
+  hash: "5640980a004d973e806261cc6d9fd9426ee05623"
+- name: "CTF-SyndicateHouse.unr"
+  fileSize: 3426614
+  hash: "8af84b05c8d9586624032e4ac0985529f83c182e"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "w00tpads.utx"
+  fileSize: 185270
+  hash: "0e3fc611ae7c20aa3925502eafe831ac8c59346c"
+- name: "CoreTexMisc.utx"
+  fileSize: 6031976
+  hash: "0596856234e03b69d5c625180f4f13955a7ad5d4"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTF-300K-Derelict.unr"
+  fileSize: 307177
+  hash: "bdce50537d5f966fb739e3e3a871c084dba6fd7e"
+- name: "CTF-300k-Recondita][.unr"
+  fileSize: 304036
+  hash: "99676863f06d60d84ff12e2fae1fd0cfa39f9de7"
+- name: "AmbientDx.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "CTF-300k-w00tBurger.unr"
+  fileSize: 231603
+  hash: "f479d32d8957bcd48cc8b0a11bd89b228869aa07"
+- name: "MoverSFX.uax"
+  fileSize: 3987934
+  hash: "865e08ebb6fb3d902b466435a8a24d7faf1249ce"
+- name: "CoreTexDetail.utx"
+  fileSize: 283939
+  hash: "b8b33cbb116b405a3e59d786db70587bc7f85989"
+otherFiles: 1
+dependencies:
+  CoreTexMisc.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  CTF-300k-w00tBurger.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "w00tpads"
+  Gnosis-CTF.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+  CTF-Radian.unr:
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "Gnosis-CTF"
+  Jump.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+  CTF-Orphobeus.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+  CTF-SyndicateHouse.unr:
+  - status: "OK"
+    name: "MoverSFX"
+  - status: "OK"
+    name: "Training_Music"
+  - status: "OK"
+    name: "CoreTexMisc"
+  - status: "OK"
+    name: "AmbientDx"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=cwl_maptestingpack_wk29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/cwl_maptestingpack_wk29.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/MapsC_D/&file=cwl_maptestingpack_wk29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/&file=cwl_maptestingpack_wk29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/MapPacks/MapsC_D/cwl_maptestingpack_wk29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/7/7/6debde/cwl_maptestingpack_wk29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/MapPacks/MapsC_D/&file=cwl_maptestingpack_wk29.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-Orphobeus"
+  title: "Orphobeus Surveillance Station"
+  author: "Cory Spooner \"TheSpoonDog\""
+- name: "CTF-(FB)-CommandArena"
+  title: "[FuenlaBoys]CommandArena"
+  author: "viKINGo"
+- name: "CTF-300k-Recondita]["
+  title: "Recondita"
+  author: "Nicolas Eymerich"
+- name: "CTF-Radian"
+  title: ">> CTF-Radian <<"
+  author: "Squacky >>squacky@ufl.edu<<"
+- name: "CTF-300K-Derelict"
+  title: "Skaarj Base: Derelict Sector"
+  author: "Sinnical"
+- name: "CTF-300k-w00tBurger"
+  title: "Capture the Flag 300k - w00t Burger"
+  author: "Whole Meal"
+- name: "CTF-SyndicateHouse"
+  title: "Syndicate Psychosis Factor House"
+  author: "Stuart 'LizardGenes' Lindsay"
+gametype: "Capture The Flag"
+themes:
+  Tech: 0.1
+  Industrial: 0.5
+  Ancient: 0.2
+  City: 0.1
+  Skaarj Tech: 0.2

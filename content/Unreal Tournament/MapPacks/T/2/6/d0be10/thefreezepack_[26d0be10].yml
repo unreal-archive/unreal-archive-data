@@ -1,0 +1,122 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-04 20:29"
+game: "Unreal Tournament"
+name: "TheFreezePack"
+author: "Various"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "TheFreezePack_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/TheFreezePack_shot_3.png"
+- type: "IMAGE"
+  name: "TheFreezePack_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/TheFreezePack_shot_4.png"
+- type: "IMAGE"
+  name: "TheFreezePack_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/TheFreezePack_shot_5.png"
+- type: "IMAGE"
+  name: "TheFreezePack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/TheFreezePack_shot_2.png"
+- type: "IMAGE"
+  name: "TheFreezePack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/TheFreezePack_shot_1.png"
+originalFilename: "TheFreezePack.zip"
+hash: "26d0be1087a5e6e4464e024dfea8414653915da6"
+fileSize: 6112564
+files:
+- name: "DM-Antargos.unr"
+  fileSize: 3241591
+  hash: "6888538592bba351b0236da146a8ce70ddee2072"
+- name: "SNOW.U"
+  fileSize: 8309
+  hash: "5db28b88bc205cd7dc42f78ff346691ce01ab73d"
+- name: "DM-Caldera.unr"
+  fileSize: 1536034
+  hash: "8a8bf15a01c723b42d4087a81d3fcb4c40b47012"
+- name: "DM-Adrenochrome.unr"
+  fileSize: 2464521
+  hash: "9c64b32b6135d13870141cab00080ab953be23b4"
+- name: "DM-Indicator-A.unr"
+  fileSize: 5083599
+  hash: "43f69cedc99b58089f7dd30db146e35593f6fbe4"
+- name: "SNOWTEX.UTX"
+  fileSize: 3514
+  hash: "29232241a8247e845b4425a6245b6c3c19b269a0"
+- name: "Brick.utx"
+  fileSize: 314021
+  hash: "a8afcb3638bd3484700347def536ec2639798308"
+- name: "DM-Tihocan.unr"
+  fileSize: 1789014
+  hash: "f30dfb99bf7dd82f62f83d840786d6b0fa960ca1"
+otherFiles: 11
+dependencies:
+  DM-Indicator-A.unr:
+  - status: "OK"
+    name: "snow"
+  SNOW.U:
+  - status: "OK"
+    name: "snowtex"
+  DM-Caldera.unr:
+  - status: "OK"
+    name: "Brick"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/T/TheFreezePack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-thefreezepack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=TheFreezePack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=dm-thefreezepack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/&file=TheFreezePack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/&file=dm-thefreezepack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/T/2/6/d0be10/TheFreezePack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/MapPacks/&file=TheFreezePack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Indicator-A"
+  title: "Meineckes Testbunker 6 - Indicator-A"
+  author: "Marcel \"_Unreal_\" Hottewitzsch"
+- name: "DM-Adrenochrome"
+  title: "DM-Adrenochrome by ThomasS"
+  author: "www.thomas-schmiedel.de"
+- name: "DM-Caldera"
+  title: "Caldera Facility"
+  author: "Roberto\"Firefox\"Cortese"
+- name: "DM-Tihocan"
+  title: "The Tomb of Tihocan"
+  author: "Roberto\"Firefox\"Cortese"
+- name: "DM-Antargos"
+  title: "Antargos Crypt"
+  author: "MisterRioes"
+gametype: "DeathMatch"
+themes:
+  Industrial: 0.1
+  Egyptian: 0.2
+  Skaarj Tech: 0.7

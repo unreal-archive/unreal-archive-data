@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-01-13 17:56"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-BollWerK105"
 author: "{WM}HaPPyHiPPie"
@@ -26,7 +25,6 @@ dependencies:
   CTF-BollWerK105.unr:
   - status: "OK"
     name: "CTFNoRedemption"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Bollwerk105.zip"
   main: true
@@ -37,6 +35,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-bollwerk105.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsB/&file=ctf-bollwerk105.zip"
   main: false
   repack: false
   state: "OK"

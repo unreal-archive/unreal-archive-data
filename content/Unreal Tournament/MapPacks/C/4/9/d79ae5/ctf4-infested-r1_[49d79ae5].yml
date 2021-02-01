@@ -1,0 +1,76 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 08:59"
+game: "Unreal Tournament"
+name: "Ctf4 Infested R1"
+author: "Emil 'HypErioN' Attlid -- LE: Larathiel -- CTF4:-=Musc@t=-"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "Ctf4_Infested_R1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf4_Infested_R1_shot_1.png"
+- type: "IMAGE"
+  name: "Ctf4_Infested_R1_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf4_Infested_R1_shot_2.png"
+originalFilename: "ctf4-infested-R1.zip"
+hash: "49d79ae5fe2ed82d1ad1d88c376167545dc0db69"
+fileSize: 3895830
+files:
+- name: "CTF4-Infested-WithDoors.unr"
+  fileSize: 7297679
+  hash: "3e1307e5be4d0f50679d68c16d63a9e150e49e33"
+- name: "CTF4-Infested-R1.unr"
+  fileSize: 6411435
+  hash: "6e2af905136883b4cfdbff9a797cbe62374d34f9"
+- name: "CTF4Teams2.utx"
+  fileSize: 424497
+  hash: "fd195774a4e54f63ef2c97ef8869e7b5f297e2d5"
+otherFiles: 1
+dependencies:
+  CTF4-Infested-WithDoors.unr:
+  - status: "MISSING"
+    name: "CTF4"
+  - status: "OK"
+    name: "CTF4Teams2"
+  - status: "MISSING"
+    name: "CTF4Team"
+  CTF4-Infested-R1.unr:
+  - status: "MISSING"
+    name: "CTF4"
+  - status: "OK"
+    name: "CTF4Teams2"
+  - status: "MISSING"
+    name: "CTF4Team"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF4&file=ctf4-infested-R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/ctf4-infested-R1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF4/&file=ctf4-infested-R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/4/9/d79ae5/ctf4-infested-R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/CTF4/&file=ctf4-infested-R1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF4-Infested-WithDoors"
+  title: "Infested -- CTF4 Edition"
+  author: "Emil 'HypErioN' Attlid -- LE: Larathiel -- CTF4:-=Musc@t=-"
+- name: "CTF4-Infested-R1"
+  title: "Infested -- CTF4 Edition"
+  author: "Emil 'HypErioN' Attlid -- LE: Larathiel -- CTF4:-=Musc@t=-"
+gametype: "Multi-Team CTF"
+themes:
+  Industrial: 1.0

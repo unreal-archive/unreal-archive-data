@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-01-13 17:03"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Crucifix"
 author: "Si 'Kain' Cass"
@@ -35,16 +34,12 @@ dependencies:
   DM-Crucifix.unr:
   - status: "OK"
     name: "Q3Demon1Beta"
-    providedBy: null
   - status: "OK"
     name: "QUAKE3"
-    providedBy: null
   - status: "OK"
     name: "QUAKE3c"
-    providedBy: null
   - status: "OK"
     name: "QUAKE3b"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/7/d/535a61/dm-crucifix.zip"
   main: true
@@ -55,6 +50,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=dm-crucifix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-crucifix.zip"
   main: false
   repack: false
   state: "OK"

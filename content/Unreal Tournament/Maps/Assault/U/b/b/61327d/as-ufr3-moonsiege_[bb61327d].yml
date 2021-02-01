@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-01-13 17:02"
-variationOf: null
 game: "Unreal Tournament"
 name: "AS-UFR3-MoonSiege"
 author: "Gator"
@@ -32,16 +31,12 @@ dependencies:
   AS-UFR3-MoonSiege.unr:
   - status: "OK"
     name: "UFR-Star"
-    providedBy: null
   - status: "MISSING"
     name: "QUAKE3c"
-    providedBy: null
   - status: "OK"
     name: "Bridge38"
-    providedBy: null
   - status: "OK"
     name: "Bettermover"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/b/b/61327d/as-ufr4-moonsiege.zip"
   main: true
@@ -52,6 +47,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/Assault/&file=as-ufr4-moonsiege.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/Assault/&file=as-ufr4-moonsiege.zip"
   main: false
   repack: false
   state: "OK"
