@@ -1,0 +1,3 @@
+AirFightUT is the first and most extensive vehicle combat TC for Unreal Tournament. This modification introduces modern combat vehicles into
+the UT game, vehicles which try to mirror their real life military counterparts (vehicle models and weapons). Our large roster of vehicles
+includes the F-15, F-16, Su-27, MiG-29, Tornado, JAS-39, M1, T-80, AH-64 Apache, and more... 
