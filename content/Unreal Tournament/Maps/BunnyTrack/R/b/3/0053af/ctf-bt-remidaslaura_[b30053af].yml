@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-02-18 12:43"
+game: "Unreal Tournament"
+name: "CTF-BT-[Remidas]Laura"
+author: "[Remidas]"
+description: "Laura's Sexy Bunny Track"
+releaseDate: "2021-02"
+attachments: []
+originalFilename: "CTF-BT-[Remidas]Laura.rar"
+hash: "b30053af5db07df2266ab5822b555455e15a3aba"
+fileSize: 4534364
+files:
+- name: "SexyLaura.utx"
+  fileSize: 2128384
+  hash: "9bac85841cb7579ba9398e552cf0e86b0483af53"
+- name: "SkilletMonster.umx"
+  fileSize: 4120320
+  hash: "d9d7745841ed6d2bc7a9d00568cd4352ecb23e40"
+- name: "CTF-BT-[Remidas]Laura.unr"
+  fileSize: 910821
+  hash: "0dabc1a04a43656ed74851566a45a826bbf74eb1"
+otherFiles: 0
+dependencies:
+  CTF-BT-[Remidas]Laura.unr:
+  - status: "MISSING"
+    name: "FCommandoVIPER"
+  - status: "OK"
+    name: "SexyLaura"
+  - status: "OK"
+    name: "SkilletMonster"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/b/3/0053af/CTF-BT-%5BRemidas%5DLaura.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Laura"
+playerCount: "4-10"
+themes:
+  Nali Temple: 1.0
+bots: true
