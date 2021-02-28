@@ -1,0 +1,146 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-02-28"
+game: "Unreal Tournament"
+name: "Ath Bombing Run"
+author: "Mickaël DEHEZ"
+description: "Bombing Run for UT99"
+titleImage: ""
+bannerImage: ""
+links:
+  UnrealAdmin.org Thread: "https://unrealadmin.org/forums/showthread.php?p=76226"
+credits:
+  Created By:
+  - "Mickaël DEHEZ"
+gameTypes:
+- name: "Bombing Run"
+  description: ""
+mutators: []
+maps:
+- name: "BR-(KoR)AReNAv3"
+  title: "SLvA KoRAReNA v3"
+  author: "Mike 'ATHoS' NiGHTViSiON"
+  screenshot:
+    type: "IMAGE"
+    name: "br-korarenav39238020352925195916.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/A/ath-bombing-run/maps/br-korarenav39238020352925195916.png"
+- name: "BR-ACIDPIPE"
+  title: "CTF-Acidpipe"
+  author: "Boris.Niclas@fen-net.de"
+  screenshot:
+    type: "IMAGE"
+    name: "br-acidpipe11079688449175786376.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/A/ath-bombing-run/maps/br-acidpipe11079688449175786376.png"
+- name: "BR-BadNeighborsV2"
+  title: "Bad Neighbors V2"
+  author: "Eric 'Sataninski' Dahl"
+  screenshot:
+    type: "IMAGE"
+    name: "br-badneighborsv29539456537827212812.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/A/ath-bombing-run/maps/br-badneighborsv29539456537827212812.png"
+- name: "BR-BedroomsSGE"
+  title: "Battle of the Small Special Ghetto Edition"
+  author: "Ghetto Smack"
+  screenshot:
+    type: "IMAGE"
+    name: "br-bedroomssge11251540748478031796.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/A/ath-bombing-run/maps/br-bedroomssge11251540748478031796.png"
+- name: "BR-Bridges"
+  title: "MSULL'S Bridges"
+  author: "Hobi-Wan (MSULL's Edit)"
+  screenshot:
+    type: "IMAGE"
+    name: "br-bridges15167999216296399996.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/A/ath-bombing-run/maps/br-bridges15167999216296399996.png"
+- name: "BR-CivilWar2"
+  title: "Civil War"
+  author: "BONE"
+  screenshot:
+    type: "IMAGE"
+    name: "br-civilwar218422513885613791705.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/A/ath-bombing-run/maps/br-civilwar218422513885613791705.png"
+releases:
+- title: "Release"
+  version: "1.5"
+  releaseDate: "2005-12"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/tmp/aBombingRun15.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/ath-bombing-run/aBombingRun15.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/BombingRun/&file=aBombingRun15.zip"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "aBombingRun15.zip"
+    hash: "b9aa914ff7c6f17bfa3d7610a2fa76f39bbd4cdd"
+    fileSize: 6390924
+    synced: true
+    deleted: false
+    files:
+    - name: "BR-BadNeighborsV2.unr"
+      fileSize: 1754049
+      hash: "fee19ce91a7912ffe01b6ec2c6ecccc8dea84c65"
+    - name: "ath.utx"
+      fileSize: 1413777
+      hash: "da49f5658c524480adef4486be333910fa2c1143"
+    - name: "aBombingRun15.u"
+      fileSize: 100049
+      hash: "ce62df50fa353112324dfc5d92762cb2b484e19e"
+    - name: "BR-CivilWar2.unr"
+      fileSize: 1236869
+      hash: "a13bcadaddb117aa8554abb6e74ef1e3bbca2720"
+    - name: "BR-(KoR)AReNAv3.unr"
+      fileSize: 1148724
+      hash: "191310876de149c22f62166f599a9f7add045f28"
+    - name: "aBrBase.u"
+      fileSize: 3430764
+      hash: "786ab2ae20810d8a2c4fc55f8a0b0157ad194f10"
+    - name: "BR-Bridges.unr"
+      fileSize: 1303169
+      hash: "7dea5b1997d3d7f663b9d656dbc42f06f37f2e59"
+    - name: "DJredBass-Abuse.umx"
+      fileSize: 1811565
+      hash: "4451def4b1b5a952fb7c76268a679c8c07e6cfba"
+    - name: "BR-ACIDPIPE.unr"
+      fileSize: 1194978
+      hash: "b43d9bb32a6e67ec998d65d4aad8e676553c18a4"
+    - name: "BR-BedroomsSGE.unr"
+      fileSize: 863581
+      hash: "2e308957046eccff7ef14ba1e9d5e6f06900d6c4"
+    otherFiles: 3
+    dependencies:
+      BR-Bridges.unr:
+      - status: "OK"
+        name: "aBrBase"
+      BR-ACIDPIPE.unr:
+      - status: "OK"
+        name: "aBrBase"
+      BR-CivilWar2.unr:
+      - status: "OK"
+        name: "aBrBase"
+      BR-BedroomsSGE.unr:
+      - status: "OK"
+        name: "aBrBase"
+      - status: "MISSING"
+        name: "Bedroom"
+      aBombingRun15.u:
+      - status: "OK"
+        name: "aBrBase"
+      BR-BadNeighborsV2.unr:
+      - status: "OK"
+        name: "aBrBase"
+      BR-(KoR)AReNAv3.unr:
+      - status: "OK"
+        name: "aBrBase"
+      - status: "OK"
+        name: "ath"
+      - status: "OK"
+        name: "DJRedBass-Abuse"
+  deleted: false
+deleted: false
