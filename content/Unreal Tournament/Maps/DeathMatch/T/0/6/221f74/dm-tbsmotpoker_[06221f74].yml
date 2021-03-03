@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:21"
+game: "Unreal Tournament"
+name: "DM-TBSmotPoker"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-08"
+attachments: []
+originalFilename: "DM-TBSmotPoker.rar"
+hash: "06221f749e75ea40fe3e9f3e14cab765a60a99cc"
+fileSize: 917622
+files:
+- name: "DM-TBSmotPoker.unr"
+  fileSize: 1802513
+  hash: "6bb7bd036bb95a2018546a831302306fe7ea0d80"
+- name: "InfAdds.u"
+  fileSize: 555131
+  hash: "1be767d832720970d402a151e57b777a384e7f8c"
+- name: "holycartoons.utx"
+  fileSize: 1232287
+  hash: "886baf68b11d39976446a55aa8a74fb248e20d86"
+otherFiles: 1
+dependencies:
+  DM-TBSmotPoker.unr:
+  - status: "OK"
+    name: "holycartoons"
+  - status: "OK"
+    name: "InfAdds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/0/6/221f74/DM-TBSmotPoker.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBSmotPoker"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.8
+  Nali Castle: 0.1
+bots: true

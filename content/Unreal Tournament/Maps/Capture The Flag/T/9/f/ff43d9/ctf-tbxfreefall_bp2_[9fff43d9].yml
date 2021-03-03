@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:27"
+game: "Unreal Tournament"
+name: "CTF-TBXFreeFall_BP2"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-07"
+attachments: []
+originalFilename: "CTF-TBXFreeFall_BP2.rar"
+hash: "9fff43d9230c1033989c9e7aa5e37722bb5de855"
+fileSize: 3139855
+files:
+- name: "CTF-TBXFreeFall_BP2.unr"
+  fileSize: 1486996
+  hash: "d343c863de5ed308c43e52ef673fd5b2f11cdb5e"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "A9.utx"
+  fileSize: 74427
+  hash: "083ea9f1eec4433fcb82f3b820fdb96dd8b9e1f2"
+otherFiles: 1
+dependencies:
+  CTF-TBXFreeFall_BP2.unr:
+  - status: "OK"
+    name: "cf_mansion"
+  - status: "OK"
+    name: "A9"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/9/f/ff43d9/CTF-TBXFreeFall_BP2.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "DM-TBXFreeFall"
+playerCount: "Unknown"
+themes:
+  Tech: 0.4
+  Nali Castle: 0.3
+  Skaarj Tech: 0.2
+bots: true

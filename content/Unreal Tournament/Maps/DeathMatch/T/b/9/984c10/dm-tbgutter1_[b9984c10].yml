@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:25"
+game: "Unreal Tournament"
+name: "DM-TBGutter1"
+author: "Brigzy"
+description: "None"
+releaseDate: "2001-02"
+attachments: []
+originalFilename: "DM-TBGutter1.rar"
+hash: "b9984c100241e7d7561b62b66dfa90a08a4e67e4"
+fileSize: 5289520
+files:
+- name: "byter.utx"
+  fileSize: 1002345
+  hash: "fb304c4e0d0fb902f2e1bd2f042360ca3def8a87"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "DM-TBGutter1.unr"
+  fileSize: 532885
+  hash: "4d641b946c424bac046748f59a83cb133d29d2e5"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+otherFiles: 1
+dependencies:
+  DM-TBGutter1.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "byter"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/b/9/984c10/DM-TBGutter1.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBGutter1"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: true

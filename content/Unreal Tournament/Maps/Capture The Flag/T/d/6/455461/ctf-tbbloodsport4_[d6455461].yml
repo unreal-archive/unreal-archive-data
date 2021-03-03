@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:26"
+game: "Unreal Tournament"
+name: "CTF-TBBloodSport4"
+author: "Brigzy"
+description: "None"
+releaseDate: "2001-07"
+attachments: []
+originalFilename: "CTF-TBBloodSport4.rar"
+hash: "d64554613bc9570ca1b8b6b79c7c024d6009c2be"
+fileSize: 4704561
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "CTF-TBBloodSport4.unr"
+  fileSize: 1289180
+  hash: "37a01bb215f1fe5fa5fbf4f6ac923983c39099c5"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  CTF-TBBloodSport4.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/d/6/455461/CTF-TBBloodSport4.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-TBBloodSport4"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  City: 0.9
+bots: true

@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:20"
+game: "Unreal Tournament"
+name: "DM-TBRAGE4"
+author: "Unknown"
+description: "None"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "DM-TBRAGE4.rar"
+hash: "0ae8f3b6474fa95a75736272ad420e9d32a6c110"
+fileSize: 3693565
+files:
+- name: "DM-TBRAGE4.unr"
+  fileSize: 1856092
+  hash: "e2d9d0f0ca7a08a5a4bc6feda6e72791c1352e99"
+- name: "Hunters_Urban.utx"
+  fileSize: 623297
+  hash: "f7348463417ca371bbd7b96f3db40a3a841fa8f5"
+- name: "holycartoons.utx"
+  fileSize: 1232287
+  hash: "886baf68b11d39976446a55aa8a74fb248e20d86"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  DM-TBRAGE4.unr:
+  - status: "OK"
+    name: "holycartoons"
+  - status: "OK"
+    name: "cf_mansion"
+  - status: "OK"
+    name: "Hunters_Urban"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/0/a/e8f3b6/DM-TBRAGE4.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBRAGE4"
+playerCount: "Unknown"
+themes: {}
+bots: false

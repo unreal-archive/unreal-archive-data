@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:23"
+game: "Unreal Tournament"
+name: "DM-TBXFreeFall_BP2"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-04"
+attachments: []
+originalFilename: "DM-TBXFreeFall_BP2.rar"
+hash: "d39a8a2e606763527d0e4c8768a5bc7d82ff1d4d"
+fileSize: 3120196
+files:
+- name: "DM-TBXFreeFall_BP2.unr"
+  fileSize: 1442263
+  hash: "1a2b07377c73120389581027458d20bd56d7ed07"
+- name: "A9.utx"
+  fileSize: 74427
+  hash: "083ea9f1eec4433fcb82f3b820fdb96dd8b9e1f2"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  DM-TBXFreeFall_BP2.unr:
+  - status: "OK"
+    name: "cf_mansion"
+  - status: "OK"
+    name: "A9"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/d/3/9a8a2e/DM-TBXFreeFall_BP2.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBXFreeFall"
+playerCount: "Unknown"
+themes:
+  Tech: 0.4
+  Natural: 0.1
+  Nali Castle: 0.3
+  Skaarj Tech: 0.2
+bots: true

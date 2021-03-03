@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:27"
+game: "Unreal Tournament"
+name: "CTF-TBXDunes7"
+author: "Brigzy"
+description: "None"
+releaseDate: "2001-07"
+attachments: []
+originalFilename: "CTF-TBXDunes7.rar"
+hash: "582ea388d5d3a93fefcf760efba7aa49cbddca80"
+fileSize: 5346564
+files:
+- name: "CTF-TBXDunes7.unr"
+  fileSize: 2546505
+  hash: "54ecfb2178bb1fa56597434af82484a989bb073b"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  CTF-TBXDunes7.unr:
+  - status: "OK"
+    name: "cbrad_indus"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/5/8/2ea388/CTF-TBXDunes7.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "DM-TBXDunes7"
+playerCount: "16"
+themes:
+  Natural: 1.0
+bots: true

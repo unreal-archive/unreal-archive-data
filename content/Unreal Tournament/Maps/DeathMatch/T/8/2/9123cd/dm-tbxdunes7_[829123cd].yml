@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:23"
+game: "Unreal Tournament"
+name: "DM-TBXDunes7"
+author: "Brigzy"
+description: "None"
+releaseDate: "2001-04"
+attachments: []
+originalFilename: "DM-TBXDunes7.rar"
+hash: "829123cd53c2921acbf3b6b3fa8cafe33feb430d"
+fileSize: 5337876
+files:
+- name: "DM-TBXDunes7.unr"
+  fileSize: 2516050
+  hash: "e220912ee57a149212ad7d7f1cc3bdbf33f9702e"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+otherFiles: 1
+dependencies:
+  DM-TBXDunes7.unr:
+  - status: "OK"
+    name: "cbrad_indus"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/8/2/9123cd/DM-TBXDunes7.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBXDunes7"
+playerCount: "16"
+themes:
+  Natural: 1.0
+bots: true

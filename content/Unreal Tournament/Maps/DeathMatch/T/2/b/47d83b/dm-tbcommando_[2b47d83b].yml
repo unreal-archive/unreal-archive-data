@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:25"
+game: "Unreal Tournament"
+name: "DM-TBCommando"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2005-05"
+attachments: []
+originalFilename: "DM-TBCommando.rar"
+hash: "2b47d83bc6131d16ae081b2c08ae6a0f69f84b3d"
+fileSize: 4364456
+files:
+- name: "DM-TBCommando.unr"
+  fileSize: 3155842
+  hash: "741f6c2487a1c1b94e9ccd1d8b504451271668a5"
+- name: "BYard.utx"
+  fileSize: 1328311
+  hash: "9ef648b2f90c755342cf0dd3a923b618087cd19c"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  DM-TBCommando.unr:
+  - status: "OK"
+    name: "BYard"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/2/b/47d83b/DM-TBCommando.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBCommando"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

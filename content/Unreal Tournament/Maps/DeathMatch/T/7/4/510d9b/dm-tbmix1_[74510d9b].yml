@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:19"
+game: "Unreal Tournament"
+name: "DM-TBMIX1"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "DM-TBMIX1.rar"
+hash: "74510d9bdf4cf9b36f48300a48577d0427b6e0a2"
+fileSize: 4645654
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "DM-TBMIX1.unr"
+  fileSize: 1122239
+  hash: "3cc3aa8cab75f16ced5d104eb8d3fe6d62bc3b8b"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  DM-TBMIX1.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/7/4/510d9b/DM-TBMIX1.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBTOWER1"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.4
+  City: 0.4
+  Egyptian: 0.1
+bots: true

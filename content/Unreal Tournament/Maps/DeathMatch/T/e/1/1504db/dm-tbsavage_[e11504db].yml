@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:20"
+game: "Unreal Tournament"
+name: "DM-TBSavage"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-04"
+attachments: []
+originalFilename: "DM-TBSavage.rar"
+hash: "e11504db4b7092ea1eae2a364ca74cb9876c4415"
+fileSize: 3910365
+files:
+- name: "DM-TBSavage.unr"
+  fileSize: 1299399
+  hash: "5bd7c1992f968dcfcfe27b4cad043e5edcc75d0a"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "HGtechfloors.utx"
+  fileSize: 1685446
+  hash: "cc76771ea356da4297cbae7cd474b0edab81b89e"
+otherFiles: 1
+dependencies:
+  DM-TBSavage.unr:
+  - status: "OK"
+    name: "HGtechfloors"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/e/1/1504db/DM-TBSavage.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBSavage"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Skaarj Crypt: 0.6
+  Natural: 0.1
+bots: false

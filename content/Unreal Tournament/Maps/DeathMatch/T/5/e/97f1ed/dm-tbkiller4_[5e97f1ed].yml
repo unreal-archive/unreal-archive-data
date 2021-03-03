@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:19"
+game: "Unreal Tournament"
+name: "DM-TBKILLER4"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-04"
+attachments: []
+originalFilename: "DM-TBKILLER4.rar"
+hash: "5e97f1ed41f67ccd9eed4c3de5580928880bf4d6"
+fileSize: 5146488
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "DM-TBKILLER4.unr"
+  fileSize: 1628435
+  hash: "40845001e35f70bde57cae4699113ada46b588ec"
+- name: "Hunters_Urban.utx"
+  fileSize: 623297
+  hash: "f7348463417ca371bbd7b96f3db40a3a841fa8f5"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  DM-TBKILLER4.unr:
+  - status: "OK"
+    name: "Hunters_Urban"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/5/e/97f1ed/DM-TBKILLER4.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBKiller4"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  City: 0.9
+bots: false

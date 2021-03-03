@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:24"
+game: "Unreal Tournament"
+name: "DM-TBAssKicker"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "DM-TBAssKicker.rar"
+hash: "b8ba883d0cab26a99e4c2f818d1001949f4040d3"
+fileSize: 5833291
+files:
+- name: "adje22.utx"
+  fileSize: 4019435
+  hash: "723981c26e828a671b2fd3b28878e142fc45da78"
+- name: "DM-TBAssKicker.unr"
+  fileSize: 403299
+  hash: "2f9d7cde5f1f28e829de4692edd7486abcc821bb"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+otherFiles: 1
+dependencies:
+  DM-TBAssKicker.unr:
+  - status: "OK"
+    name: "adje22"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/b/8/ba883d/DM-TBAssKicker.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TBAssKicker"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:21"
+game: "Unreal Tournament"
+name: "DM-TB_ToonWarz"
+author: "BRIGZY"
+description: "None"
+releaseDate: "2001-08"
+attachments: []
+originalFilename: "DM-TB_ToonWarz.rar"
+hash: "886823e69b184a614151cd2f9728225d35e7a428"
+fileSize: 3610245
+files:
+- name: "DM-TB_ToonWarz.unr"
+  fileSize: 2275104
+  hash: "0a3672fa99fc6bfae77d9457d71defad148277fb"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "holycartoons.utx"
+  fileSize: 1232287
+  hash: "886baf68b11d39976446a55aa8a74fb248e20d86"
+otherFiles: 1
+dependencies:
+  DM-TB_ToonWarz.unr:
+  - status: "OK"
+    name: "holycartoons"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/8/8/6823e6/DM-TB_ToonWarz.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TB_Toon_Warz"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.4
+  Nali Castle: 0.5
+bots: true

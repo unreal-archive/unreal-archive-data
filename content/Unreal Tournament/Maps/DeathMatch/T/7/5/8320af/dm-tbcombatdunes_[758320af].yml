@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-03-03 06:25"
+game: "Unreal Tournament"
+name: "DM-TBCombatDunes"
+author: "Matt \"Silencer\" Murphy"
+description: "None"
+releaseDate: "2001-06"
+attachments: []
+originalFilename: "DM-TBCombatDunes.rar"
+hash: "758320afdb1337e9aae96b63a628976c966c1e20"
+fileSize: 694180
+files:
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "DM-TBCombatDunes.unr"
+  fileSize: 1632645
+  hash: "e5e00c2d57374572a62f0f15be74f80d86287a4e"
+otherFiles: 1
+dependencies:
+  DM-TBCombatDunes.unr:
+  - status: "OK"
+    name: "cbrad_indus"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/7/5/8320af/DM-TBCombatDunes.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Sanddunes"
+playerCount: "16"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.3
+  Natural: 0.2
+  Skaarj Tech: 0.2
+  Egyptian: 0.3
+bots: true
