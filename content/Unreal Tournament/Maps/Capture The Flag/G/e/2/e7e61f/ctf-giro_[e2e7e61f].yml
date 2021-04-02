@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 20:17"
+game: "Unreal Tournament"
+name: "ctf-giro"
+author: "Alain-Michel 'AMISA' Savarese"
+description: "Un p'tit tour.."
+releaseDate: "2013-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-giro_shot_e2e7e61f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/e/2/e7e61f/ctf-giro_shot_e2e7e61f_1.png"
+originalFilename: "ctf-giro.zip"
+hash: "e2e7e61f57bb35744a303d891b55e71d6dadb530"
+fileSize: 5079723
+files:
+- name: "Screen.u"
+  fileSize: 309292
+  hash: "1b5cab634e09f393db1832a50eb10d0f46ca67ca"
+- name: "endless2.u"
+  fileSize: 9518
+  hash: "90029960b326a3d65ce4a89d269ec34caa7fa4b4"
+- name: "torches.u"
+  fileSize: 20838
+  hash: "c8793fc55ae10d96bf142ec3805998d3c99904f5"
+- name: "ctf-giro.unr"
+  fileSize: 12040922
+  hash: "b0b0c70e7e7e779691e238bf14d32f7e973ff054"
+- name: "At-caves.umx"
+  fileSize: 76357
+  hash: "4f546f50fbf0866dd18881a97f6f8ce001fc00ec"
+otherFiles: 2
+dependencies:
+  Screen.u:
+  - status: "MISSING"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "ScreenFonts"
+  ctf-giro.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "At-caves"
+  - status: "MISSING"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "endless2"
+  - status: "OK"
+    name: "torches"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/e/2/e7e61f/ctf-giro.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Giro"
+playerCount: "16-32"
+themes:
+  Nali Temple: 0.8
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true
