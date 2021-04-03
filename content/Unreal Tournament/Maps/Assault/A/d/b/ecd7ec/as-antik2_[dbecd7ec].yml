@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 20:48"
+game: "Unreal Tournament"
+name: "as-antik2"
+author: "Alain-Michel Savarese"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "as-antik2_shot_dbecd7ec_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/A/d/b/ecd7ec/as-antik2_shot_dbecd7ec_1.png"
+originalFilename: "asantik2.zip"
+hash: "dbecd7ec9ac614505a101ea81bc28a33230a344a"
+fileSize: 2851468
+files:
+- name: "antik2.u"
+  fileSize: 232760
+  hash: "8ed5963d112e46edc89e4220d10b55cae94d8e0c"
+- name: "as-antik2.unr"
+  fileSize: 7432030
+  hash: "d8d39bc25f8be3eb74cb4925c074321a585425c3"
+- name: "lanternes.u"
+  fileSize: 171223
+  hash: "4449fcc8ebb68f7698ced43b6de86520de74436a"
+- name: "mecanismes.u"
+  fileSize: 38378
+  hash: "2c25af84363f94aa2a1439aad8f58ff2319bdbb5"
+- name: "colonnes.u"
+  fileSize: 10003
+  hash: "436d80de87652bf6c45b978c446c554353458e39"
+- name: "lampes.u"
+  fileSize: 90165
+  hash: "2aa1141b2bd2900762be88e0ccddd56d74c91c0c"
+otherFiles: 1
+dependencies:
+  lampes.u:
+  - status: "MISSING"
+    name: "chicoruinspack"
+  - status: "MISSING"
+    name: "Silver"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "tutoriel"
+  as-antik2.unr:
+  - status: "OK"
+    name: "antik2"
+  - status: "OK"
+    name: "lampes"
+  - status: "OK"
+    name: "colonnes"
+  - status: "OK"
+    name: "lanternes"
+  - status: "OK"
+    name: "mecanismes"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "Exp"
+  antik2.u:
+  - status: "MISSING"
+    name: "Silver"
+  - status: "MISSING"
+    name: "doom2T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/A/d/b/ecd7ec/asantik2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-Antik2"
+playerCount: "16-32"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.2
+  Nali Castle: 0.1
+  Egyptian: 0.3
+  Ancient: 0.1
+bots: true

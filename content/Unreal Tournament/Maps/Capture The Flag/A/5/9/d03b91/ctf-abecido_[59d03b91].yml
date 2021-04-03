@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 20:41"
+game: "Unreal Tournament"
+name: "CTF-Abecido"
+author: "Alain-Michel 'Amisa' Savarese"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-abecido_shot_59d03b91_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/9/d03b91/ctf-abecido_shot_59d03b91_1.png"
+originalFilename: "ctf-abecido.zip"
+hash: "59d03b9191b34adb4ac0f948f06fae163cac1e44"
+fileSize: 6749782
+files:
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "CTF-Abecido.unr"
+  fileSize: 4551111
+  hash: "f84de4f7d8a9ca8dd51b39f093a5a8505311bf9d"
+- name: "stonewood.u"
+  fileSize: 16559
+  hash: "67082876c1db97ac32663184633a2251c72e4884"
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "anc4.utx"
+  fileSize: 2656698
+  hash: "80276fb0cdb9da3f9f9ffea2a4389a22a92ff63a"
+otherFiles: 1
+dependencies:
+  CTF-Abecido.unr:
+  - status: "OK"
+    name: "stonewood"
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "anc4"
+  - status: "OK"
+    name: "Anc"
+  - status: "MISSING"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/9/d03b91/ctf-abecido.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Abecido Training Center"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.2
+  Nali Castle: 0.5
+  Ancient: 0.3
+bots: true

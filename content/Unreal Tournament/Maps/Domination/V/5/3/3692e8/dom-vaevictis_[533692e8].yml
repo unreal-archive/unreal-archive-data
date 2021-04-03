@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 20:31"
+game: "Unreal Tournament"
+name: "DOM-VaeVictis"
+author: "Alain-Michel Savarese"
+description: "Vae Victis !"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "dom-vaevictis_shot_533692e8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/V/5/3/3692e8/dom-vaevictis_shot_533692e8_1.png"
+originalFilename: "dom-vaevictis.zip"
+hash: "533692e8423a5607b1ac484ba765ae68fc3b8c39"
+fileSize: 1703686
+files:
+- name: "mecanismes.u"
+  fileSize: 6966
+  hash: "346865f0710d51156902b41db919f7256cae1be9"
+- name: "DOM-VaeVictis.unr"
+  fileSize: 3935540
+  hash: "8cb791d4d7708e2d01b4e9a1e2161d73c9493d7c"
+- name: "vaevictis.utx"
+  fileSize: 993750
+  hash: "17bb93c53d8dbbab2a2f99cd3cc804261f8d5c0a"
+- name: "lanternes.u"
+  fileSize: 167425
+  hash: "6a993103b153c080cbcd8fd98ae0e961408982e7"
+- name: "fontaines.u"
+  fileSize: 24897
+  hash: "72bc9cfd01baf224c0de76c06228aead3a35537e"
+- name: "colonnes.u"
+  fileSize: 10003
+  hash: "436d80de87652bf6c45b978c446c554353458e39"
+otherFiles: 1
+dependencies:
+  DOM-VaeVictis.unr:
+  - status: "OK"
+    name: "lanternes"
+  - status: "OK"
+    name: "fontaines"
+  - status: "OK"
+    name: "vaevictis"
+  - status: "OK"
+    name: "mecanismes"
+  - status: "OK"
+    name: "colonnes"
+  fontaines.u:
+  - status: "OK"
+    name: "vaevictis"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/V/5/3/3692e8/dom-vaevictis.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Vae Victis !"
+playerCount: "12-16"
+themes:
+  Nali Temple: 0.2
+  Nali Castle: 0.7
+bots: true

@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 20:48"
+game: "Unreal Tournament"
+name: "AS-Antik"
+author: "Alain-Michel 'SAM' Savarese"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "as-antik_shot_39315e4d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/A/3/9/315e4d/as-antik_shot_39315e4d_1.png"
+originalFilename: "as-antik.zip"
+hash: "39315e4d693f17ae98d131d6be6c5403bc7377da"
+fileSize: 1322028
+files:
+- name: "AS-Antik.unr"
+  fileSize: 2969865
+  hash: "00f81fac062070df4663dbbc89c088b485ba789d"
+- name: "materiaux.utx"
+  fileSize: 441193
+  hash: "0a6883ce1b600a1e3e10540a86f40085ae77a076"
+otherFiles: 1
+dependencies:
+  AS-Antik.unr:
+  - status: "OK"
+    name: "materiaux"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/A/3/9/315e4d/as-antik.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-Antik"
+playerCount: "16"
+themes:
+  Nali Temple: 0.2
+  Nali Castle: 0.1
+  Egyptian: 0.7
+bots: true

@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 21:37"
+game: "Unreal Tournament"
+name: "CTF-Awazmir ]["
+author: "Alain-Michel Savarese"
+description: "Waz-tu ce que je Mire ?"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-awazmir-_shot_bfba2ae4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/b/f/ba2ae4/ctf-awazmir-_shot_bfba2ae4_1.png"
+originalFilename: "ctf-awazmir2.zip"
+hash: "bfba2ae46bc2ee42b3a27232f6c106986a16fdf5"
+fileSize: 2407748
+files:
+- name: "ScriptedLight.u"
+  fileSize: 32783
+  hash: "d6f35b2095152c518e307523bcf2a70189963dbe"
+- name: "CTF-Awazmir ][.unr"
+  fileSize: 6176518
+  hash: "0f20191b7c98189755d09bba09cf7f467622eca6"
+- name: "awazmir.utx"
+  fileSize: 1516411
+  hash: "7b3d778a915720810f49b60a4c66fef755c5f7ea"
+- name: "lampes.u"
+  fileSize: 90165
+  hash: "2aa1141b2bd2900762be88e0ccddd56d74c91c0c"
+- name: "mecanismes.u"
+  fileSize: 38378
+  hash: "2c25af84363f94aa2a1439aad8f58ff2319bdbb5"
+otherFiles: 2
+dependencies:
+  lampes.u:
+  - status: "MISSING"
+    name: "chicoruinspack"
+  - status: "MISSING"
+    name: "Silver"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "tutoriel"
+  CTF-Awazmir ][.unr:
+  - status: "OK"
+    name: "lampes"
+  - status: "OK"
+    name: "ScriptedLight"
+  - status: "OK"
+    name: "awazmir"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "mecanismes"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/b/f/ba2ae4/ctf-awazmir2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-AwazMir ]["
+playerCount: "8-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.6
+  Skaarj Tech: 0.2
+bots: true
