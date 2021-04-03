@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 21:33"
+game: "Unreal Tournament"
+name: "CTF-AwazMir"
+author: "Alain-Michel Savarese"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-awazmir_shot_2ad95819_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/2/a/d95819/ctf-awazmir_shot_2ad95819_1.png"
+originalFilename: "ctf-awazmir.zip"
+hash: "2ad95819d2ed3c93600683d756978254e1e495a0"
+fileSize: 1250786
+files:
+- name: "materiaux.utx"
+  fileSize: 441193
+  hash: "f950e35faa0dfc2172903a421cad6dc945ac8f18"
+- name: "CTF-AwazMir.unr"
+  fileSize: 2551119
+  hash: "b03c67d06d58abcd4c581c57472cb70150625377"
+otherFiles: 1
+dependencies:
+  CTF-AwazMir.unr:
+  - status: "OK"
+    name: "materiaux"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/2/a/d95819/ctf-awazmir.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Awazmir"
+playerCount: "16"
+themes:
+  Industrial: 1.0
+bots: true
