@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 22:19"
+game: "Unreal Tournament"
+name: "CTF-EndlessII"
+author: "Alain-Michel (AMISA) Savarese"
+description: "None"
+releaseDate: "2009-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-endlessii_shot_766412cc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/7/6/6412cc/ctf-endlessii_shot_766412cc_1.png"
+originalFilename: "ctf-endless2.zip"
+hash: "766412cce43c48757c35c9abfc9b1c610f102b45"
+fileSize: 5215631
+files:
+- name: "CTF-EndlessII.unr"
+  fileSize: 14019866
+  hash: "0c9f3e3665668f65ec1d28b2c49548171c89219c"
+- name: "endless2.u"
+  fileSize: 9518
+  hash: "90029960b326a3d65ce4a89d269ec34caa7fa4b4"
+- name: "endless_enseignes.u"
+  fileSize: 60066
+  hash: "48ba18aa6b83ef3439153a00cbdedaa31c3b8ce4"
+otherFiles: 1
+dependencies:
+  CTF-EndlessII.unr:
+  - status: "OK"
+    name: "endless_enseignes"
+  - status: "OK"
+    name: "endless2"
+  - status: "MISSING"
+    name: "Nali"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/7/6/6412cc/ctf-endless2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Endless2"
+playerCount: "16"
+themes:
+  Nali Temple: 1.0
+bots: true
