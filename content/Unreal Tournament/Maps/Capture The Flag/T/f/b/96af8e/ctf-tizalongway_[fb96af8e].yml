@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-02 20:19"
+game: "Unreal Tournament"
+name: "CTF-Tizalongway"
+author: "Alain-Michel (AMISA) Savarese"
+description: "None"
+releaseDate: "2008-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-tizalongway_shot_fb96af8e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/f/b/96af8e/ctf-tizalongway_shot_fb96af8e_1.png"
+originalFilename: "ctf-tizalongway.zip"
+hash: "fb96af8e508f745bd376e3a8c85936a8df649506"
+fileSize: 1745050
+files:
+- name: "CTF-Tizalongway.unr"
+  fileSize: 5426206
+  hash: "50521837f4a3da9af3aa9e4f2db68f3fe037aa58"
+- name: "TeamSize.u"
+  fileSize: 17773
+  hash: "87396b6c335dbca54baed60058fed3e7d62ff26a"
+- name: "torchectf.u"
+  fileSize: 6981
+  hash: "0cd03e61d9a56aff265b6584ad00a7e0a9734a54"
+- name: "lampadaire.u"
+  fileSize: 12958
+  hash: "cd43bf25496cacfc48a20dedd8990f687e5563df"
+- name: "silver2.u"
+  fileSize: 77263
+  hash: "96c59347daf5ab894aaafdb09b6f29254aa11fbf"
+otherFiles: 1
+dependencies:
+  torchectf.u:
+  - status: "MISSING"
+    name: "Castle"
+  CTF-Tizalongway.unr:
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "OK"
+    name: "silver2"
+  - status: "OK"
+    name: "lampadaire"
+  lampadaire.u:
+  - status: "MISSING"
+    name: "UTtech4"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/f/b/96af8e/ctf-tizalongway.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Tizalongway"
+playerCount: "16-24"
+themes:
+  Industrial: 1.0
+bots: true
