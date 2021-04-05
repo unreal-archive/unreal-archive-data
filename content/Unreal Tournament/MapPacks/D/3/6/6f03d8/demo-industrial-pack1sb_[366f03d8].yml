@@ -1,0 +1,48 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2021-04-07 02:29"
+game: "Unreal Tournament"
+name: "DEMO Industrial Pack1(SB)"
+author: "Various"
+description: "None"
+releaseDate: "2021-02"
+attachments: []
+originalFilename: "DEMO-Industrial_Pack1(SB).7z"
+hash: "366f03d807a4e3bfce4d81ee2a84cf29a8809463"
+fileSize: 1303025
+files:
+- name: "Industrial_Pack1.u"
+  fileSize: 2164988
+  hash: "e48d99d0577ec376c0a55d505601db7378af9c28"
+- name: "Industrial_Pack1+SBFix.unr"
+  fileSize: 60820
+  hash: "08855cd7966b50f4daf4380a8ccda87de6af374f"
+- name: "DEMO-Industrial_Pack1(SB).unr"
+  fileSize: 16360
+  hash: "48840de92783e3f33800c55cf3c815d9b3bf90f0"
+otherFiles: 28
+dependencies:
+  Industrial_Pack1+SBFix.unr:
+  - status: "OK"
+    name: "Industrial_Pack1"
+  DEMO-Industrial_Pack1(SB).unr:
+  - status: "OK"
+    name: "Industrial_Pack1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/3/6/6f03d8/DEMO-Industrial_Pack1(SB).7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DEMO-Industrial_Pack1(SB)"
+  title: "Demo map for package 'Industrial_Pack1.u'"
+  author: "Map created 2021 by Barbie"
+- name: "Industrial_Pack1+SBFix"
+  title: "Industrial_Pack1+SBFix"
+  author: "Models and textures taken from the following, Angel Heart, Gavin -Goslin23-\
+    \ Goslin, Fat Marrow, Silver Ibex."
+gametype: "Unknown"
+themes:
+  Industrial: 0.5
+  Skaarj Tech: 0.5
