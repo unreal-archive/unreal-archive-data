@@ -1,0 +1,121 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-06 14:12"
+game: "Unreal Tournament"
+name: "DM-[S]-CityStreets"
+author: "Martijn' [S]epulturA 'Kooy"
+description: "This Map Was Made By SepulturA"
+releaseDate: "2020-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-s-citystreets_shot_112ee086_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/1/1/2ee086/dm-s-citystreets_shot_112ee086_1.png"
+originalFilename: "DM-[S]-CityStreets.unr.zip"
+hash: "112ee086712deeeaa1fcc2885984221ec9c7efb5"
+fileSize: 19554458
+files:
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "DM-[S]-CityStreets.unr"
+  fileSize: 1959804
+  hash: "62fbe29f7ac1aecbcf43609adfeef716277181d0"
+- name: "WingsCityTextures.utx"
+  fileSize: 2180039
+  hash: "5d9591a68c84aff8594befba53bc81b7ed6d9f98"
+- name: "Damage.u"
+  fileSize: 10482
+  hash: "af929b6c302ed6e9639e05a8e7d0f27b1ec85b6e"
+- name: "X7.utx"
+  fileSize: 1812243
+  hash: "57bf1fee758254455ca29e035887c95eca8ef282"
+- name: "a256.utx"
+  fileSize: 3636323
+  hash: "bc6801ce865145f229345c40e517a85696de56a9"
+- name: "22.utx"
+  fileSize: 378119
+  hash: "13b6644744fa8bab1dad52c963c1777af22be84e"
+- name: "Pack3.u"
+  fileSize: 194551
+  hash: "b4de8488fcf77da8d8c75a6c272c72002d6a376c"
+- name: "Pack4.u"
+  fileSize: 244417
+  hash: "ecc3d64a7ea98b3507dcc1da86050b018cb64ea1"
+- name: "minigun3.u"
+  fileSize: 30480
+  hash: "c406cb7d102a4cda212cf673db0f42168f2c49c4"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "SS.u"
+  fileSize: 5855
+  hash: "358f3dcabff26ca913c2273da34c0327fecf3f12"
+- name: "pack.u"
+  fileSize: 148770
+  hash: "feba2d6dd8c615448cf5abd4e0058af2b4a7055e"
+- name: "X.u"
+  fileSize: 2230
+  hash: "174b0ce9d11d4aeedf7b7dd371d90babfc333e25"
+- name: "Eightball.utx"
+  fileSize: 710999
+  hash: "1551f16eabb2b6d9061329c48c22901e6d9a1b4b"
+- name: "Path.u"
+  fileSize: 5458
+  hash: "e5d6edb0f55081a2197b0c095d5db129e1f27b49"
+- name: "nya_inf_tex.utx"
+  fileSize: 2710801
+  hash: "251c0334181d22cd5099fd81a4e1fd1cff5162bc"
+- name: "pack2.u"
+  fileSize: 274499
+  hash: "f1705bbaf2537ed72b2c719d55a7dc385830e165"
+- name: "Earth.utx"
+  fileSize: 443448
+  hash: "9a11647f155cb8db41438bb2d037b3df42732017"
+- name: "Rush.utx"
+  fileSize: 3086329
+  hash: "9785468e6e670043e767b69b1434b44c1ec5d17c"
+- name: "Pack5.u"
+  fileSize: 559870
+  hash: "4d7e3d2ae0db2e1762841afebf67db86a3391b67"
+- name: "N.umx"
+  fileSize: 4815367
+  hash: "349ffc1515ccb57ba17b3f4e9b1fb21ac9f49e9c"
+- name: "Fluid.utx"
+  fileSize: 2217959
+  hash: "2ce4f2f145a00a04aaafe097a395c8e767a6d4e6"
+- name: "e209.u"
+  fileSize: 2276646
+  hash: "48efb3364e73170a339357fba5df8a4733ececb5"
+- name: "RUSH2.utx"
+  fileSize: 798394
+  hash: "7ed4a374b8e72d8b99c0721d57fd94afe9d9e1e1"
+- name: "433.utx"
+  fileSize: 200902
+  hash: "33c1fba48edaae2e925fbbcecff7513d3f3f1dfa"
+otherFiles: 0
+dependencies:
+  Path.u:
+  - status: "MISSING"
+    name: "PathFinder"
+  e209.u:
+  - status: "MISSING"
+    name: "e209Skins"
+  DM-[S]-CityStreets.unr:
+  - status: "OK"
+    name: "nya_inf_tex"
+  - status: "OK"
+    name: "WingsCityTextures"
+  - status: "OK"
+    name: "TobioTrees"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/1/1/2ee086/DM-%5BS%5D-CityStreets.unr.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CityStreets"
+playerCount: "6-16"
+themes:
+  Natural: 1.0
+bots: true
