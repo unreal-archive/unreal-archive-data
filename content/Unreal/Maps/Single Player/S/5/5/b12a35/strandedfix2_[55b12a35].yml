@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-07 02:33"
+game: "Unreal"
+name: "StrandedFix2"
+author: "Mark Hartman hcs68@hotmail.com/Fixes by Leo(T.C.K.) and Barbie"
+description: "Damn! Truck stalled...what the hell is going on around here...?"
+releaseDate: "2020-10"
+attachments:
+- type: "IMAGE"
+  name: "strandedfix2_shot_55b12a35_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Single%20Player/S/5/5/b12a35/strandedfix2_shot_55b12a35_1.png"
+originalFilename: "StrandedFix2.7z"
+hash: "55b12a358b7b31094c06414c85b07c5cbff0e9e4"
+fileSize: 2348828
+files:
+- name: "Female1BH.utx"
+  fileSize: 354982
+  hash: "80ce3a6d7f63ef06e72a7040a7ffa1fa6cf8bccd"
+- name: "Trailer.utx"
+  fileSize: 739582
+  hash: "297bf07f5199a62f63d1af85028f14820aae7ad0"
+- name: "StrandedFix2.unr"
+  fileSize: 2439363
+  hash: "a3db368b32906ad4085c4d364b65b0a9a94d999d"
+- name: "UrbanS.utx"
+  fileSize: 1602572
+  hash: "1a0e101eba9882cedb185b86a54da324b33a111f"
+otherFiles: 4
+dependencies:
+  StrandedFix2.unr:
+  - status: "OK"
+    name: "UrbanS"
+  - status: "OK"
+    name: "Trailer"
+  - status: "OK"
+    name: "Female1BH"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Single%20Player/S/5/5/b12a35/StrandedFix2.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "STRANDED!"
+playerCount: "Unknown"
+themes:
+  Natural: 0.4
+  Ancient: 0.6
+bots: false
