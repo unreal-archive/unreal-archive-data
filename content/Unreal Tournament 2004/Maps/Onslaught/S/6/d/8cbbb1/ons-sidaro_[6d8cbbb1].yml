@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-13 05:16"
+game: "Unreal Tournament 2004"
+name: "ONS-Sidaro"
+author: "Sjoerd -Hourences- De Jong"
+description: "Play deep in to the mountainous regions of the planet Sidaro, in a valley\
+  \ taken in use by the almighty Skaarj. epic fix teh story, typing errors and such:P"
+releaseDate: "2021-01"
+attachments:
+- type: "IMAGE"
+  name: "ons-sidaro_shot_6d8cbbb1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/S/6/d/8cbbb1/ons-sidaro_shot_6d8cbbb1_1.png"
+originalFilename: "ONS-Sidaro.zip"
+hash: "6d8cbbb19b8e642c12a4ee7d48c47813764b41e7"
+fileSize: 12485861
+files:
+- name: "ONS-Sidaro.ut2"
+  fileSize: 11604369
+  hash: "931a262533e8703cb99f1dbc0e313d2617e2a96a"
+- name: "HourSidaro.usx"
+  fileSize: 2119988
+  hash: "d80612dd95abaae35e2de7579b900c9752ed0d33"
+- name: "ONS-Sidaro.ut2"
+  fileSize: 10380665
+  hash: "34063e9ce2a47227b3c8ee2305ee454a6a217801"
+- name: "HourSidaroTex.utx"
+  fileSize: 15309250
+  hash: "6e2b0f74b6d71cf70543ce08f128517a3e22d10b"
+otherFiles: 0
+dependencies:
+  HourSidaro.usx:
+  - status: "OK"
+    name: "HourSidaroTex"
+  ONS-Sidaro.ut2:
+  - status: "OK"
+    name: "HourSidaroTex"
+  - status: "OK"
+    name: "HourSidaro"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/S/6/d/8cbbb1/ONS-Sidaro.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "The Sidaro Skaarj Valley"
+playerCount: "12-20"
+themes:
+  City: 1.0
+bots: true
