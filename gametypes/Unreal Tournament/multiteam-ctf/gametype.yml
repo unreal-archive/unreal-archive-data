@@ -1,0 +1,112 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-04-17"
+game: "Unreal Tournament"
+name: "MultiTeam CTF"
+author: "Colin \"Wyzard\" McCann"
+description: "MultiTeam CTF (MultiCTF) is a capture-the-flag variant for Unreal Tournament.\
+  \ A whole host of new options have been added, as well as the ability to play with\
+  \ up to four teams! The major difference between MultiCTF and other CTF mods is\
+  \ that having points is bad. Whenever you capture another team's flag, THEY get\
+  \ a point! The team with the lowest points at the end of the game wins!"
+titleImage: "title.png"
+bannerImage: "banner.png"
+links:
+  Archived Homepage: "https://web.archive.org/web/20041204190316/http://www.planetunreal.com/multictf/"
+credits:
+  Creator:
+  - "Colin \"Wyzard\" McCann"
+  CTFM-Ancient, CTFM-BurningHot, CTFM-Random, and CTFM-Small:
+  - "Death Circus"
+  CTFM-Catacomb and CTFM-GlassBang:
+  - "Jasper 'Weenydog' Lodder"
+  CTFM-CruxCitadel and CTFM-CrystalPower:
+  - "The Shadow"
+  CTFM-CrypTitan:
+  - "TheSpoonDog"
+  CTFM-Deck16][, CTFM-HyperBlast, and CTFM-Mazon:
+  - "{ MOiN }_Lord'Coloth"
+  CTFM-FireIceSlimeBullet, CTFM-Igloos:
+  - "[ G ]ABU5E"
+  CTFM-InstaMayhem:
+  - "[ MK ]Annihilator (wherever you are)"
+  CTFM-Lavaforme, CTFM-MorTal, CTFM-Redemption, CTFM-SlimeRotor, CTFM-Tutorial][:
+  - "Crokx"
+  CTFM-LavaGiant][:
+  - "Dark Defender"
+  CTFM-MetalDream:
+  - "Rens2Sea"
+  CTFM-Sphere:
+  - "SlayerA"
+gameTypes:
+  - name: "MultiCTF"
+    description: ""
+mutators:
+  - name: "(MCTF) Speed"
+    description: "Changes a flag carriers speed!"
+  - name: "(MCTF) InstaReward"
+    description: "People who capture flags get an InstaGib rifle!"
+  - name: "(MCTF) Exploding Flags"
+    description: "Dropped flags explode after a certain time elapses!"
+  - name: "(MCTF) One Flag Bring Home"
+    description: "After capturing on an opponent in One Flag mode, you are teleported home!"
+  - name: "(MCTF) Dancing Bots"
+    description: "Bots will dance after flag captures!"
+  - name: "(MCTF) Humans vs. Bots"
+    description: "All-bot teams will all be against the human team"
+maps:
+- name: "CTFM-TestRoom"
+  title: "The Test Room"
+  author: "Colin McCann"
+  screenshot:
+    type: "IMAGE"
+    name: "ctfm-testroom14516678787394294465.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/M/multiteam-ctf/maps/ctfm-testroom14516678787394294465.png"
+releases:
+- title: "MultiTeam CTF 2 Beta 5"
+  version: "190"
+  releaseDate: "2001-02"
+  description: "This is the newest public beta version available for download!"
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/MultiCTF2Beta5_ZIP.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/multiteam-ctf/MultiCTF2Beta5_ZIP.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "http://medor.no-ip.org/index.php?dir=GameTypes/CTF/MultiCTF/&file=MultiCTF2Beta5_ZIP.zip"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "MultiCTF2Beta5_ZIP.zip"
+    hash: "90feeaee64397e7a60a057a327252fbc7047d301"
+    fileSize: 1694478
+    synced: true
+    deleted: false
+    files:
+    - name: "MultiCTFMuts.u"
+      fileSize: 21323
+      hash: "301596c1024e0ffa39d04c1b4971090087149870"
+    - name: "MultiCTFTex.utx"
+      fileSize: 941080
+      hash: "3b48af6bf2f50d2d4583f4e11ab65c0d903d3cb8"
+    - name: "MultiCTF.u"
+      fileSize: 603010
+      hash: "0ea3bfc29b60617cedf5f93a361e0e6df501c4e1"
+    - name: "CTFM-TestRoom.unr"
+      fileSize: 350493
+      hash: "218c5c67899cdffcdda648b3c807cfe12a422158"
+    otherFiles: 13
+    dependencies:
+      CTFM-TestRoom.unr:
+      - status: "OK"
+        name: "MultiCTFTex"
+      - status: "OK"
+        name: "MultiCTF"
+      MultiCTFMuts.u:
+      - status: "OK"
+        name: "MultiCTF"
+  deleted: false
+deleted: false
