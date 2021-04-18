@@ -1,0 +1,50 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2021-04-18 07:11"
+game: "Unreal Tournament"
+name: "Ctf Longrun"
+author: "Various"
+description: "None"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-longrun_shot_ec17e479_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/e/c/17e479/ctf-longrun_shot_ec17e479_1.png"
+originalFilename: "ctf-longrun.zip"
+hash: "ec17e479d61f3f121d90b9900283ecf6b4ea8a6a"
+fileSize: 1658324
+files:
+- name: "OctanePack.utx"
+  fileSize: 951212
+  hash: "8d4501af4740152fae553610620d9d899d47f6a9"
+- name: "CTF-LongSword.unr"
+  fileSize: 1774390
+  hash: "a91120b2450cac3972d6b2557c74aa5b91325e0e"
+- name: "CTF-LongRun.unr"
+  fileSize: 1286311
+  hash: "3b17da9a755264b916787375b628184e386b6266"
+otherFiles: 0
+dependencies:
+  CTF-LongRun.unr:
+  - status: "OK"
+    name: "OctanePack"
+  CTF-LongSword.unr:
+  - status: "OK"
+    name: "OctanePack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/e/c/17e479/ctf-longrun.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-LongSword"
+  title: "CTF-LongSword"
+  author: "Cameron Atkinson (edit: winkyboy.com)"
+- name: "CTF-LongRun"
+  title: "The Long Run"
+  author: "Cameron Atkinson"
+gametype: "Capture The Flag"
+themes:
+  Tech: 0.1
+  Industrial: 0.9

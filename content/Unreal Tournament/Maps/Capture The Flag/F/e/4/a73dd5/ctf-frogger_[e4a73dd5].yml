@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-18 07:13"
+game: "Unreal Tournament"
+name: "CTF-Frogger"
+author: "Britton Wesley <britton_wesley@yahoo.com>"
+description: "Look both ways before crossing!"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-frogger_shot_e4a73dd5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/4/a73dd5/ctf-frogger_shot_e4a73dd5_1.png"
+originalFilename: "CTF-Frogger.zip"
+hash: "e4a73dd5208efb4bea31ccdc0096b0fd5a075aed"
+fileSize: 4365969
+files:
+- name: "FR_car.utx"
+  fileSize: 678775
+  hash: "e96f99532a4f39ab45c30cfcf52c10ea81aa66d2"
+- name: "CTF-FroggerLean.unr"
+  fileSize: 4466269
+  hash: "7d55a8308040a10c2b345d1dd183f91912c829a4"
+- name: "CTF-Frogger.unr"
+  fileSize: 4612228
+  hash: "261f336aff16786e4a05138fd1f6fc1fdff28758"
+otherFiles: 1
+dependencies:
+  CTF-FroggerLean.unr:
+  - status: "OK"
+    name: "FR_car"
+  CTF-Frogger.unr:
+  - status: "OK"
+    name: "FR_car"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/4/a73dd5/CTF-Frogger.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Frogger"
+playerCount: "12-16"
+themes:
+  Tech: 0.1
+  City: 0.9
+bots: true

@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-18 07:12"
+game: "Unreal Tournament"
+name: "UNF-CTF-TeamEffort"
+author: "Dan \"Winky Boy\" Overlander"
+description: "None"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "unf-ctf-teameffort_shot_2f0a3e2c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unreal%20Fortress/C/2/f/0a3e2c/unf-ctf-teameffort_shot_2f0a3e2c_1.png"
+originalFilename: "UNF-CTF-TeamEffort.zip"
+hash: "2f0a3e2c6fe551dded273345116ae10847c74f97"
+fileSize: 2300931
+files:
+- name: "RangePack_1.u"
+  fileSize: 2681120
+  hash: "a9a9edaa7bfcdb01fcb94cb02b6f22fa0a4f3854"
+- name: "UNF-CTF-TeamEffort.unr"
+  fileSize: 3820404
+  hash: "197372f47edbb33e5bf894338095908094ba18dd"
+otherFiles: 1
+dependencies:
+  UNF-CTF-TeamEffort.unr:
+  - status: "MISSING"
+    name: "UnrealFortress"
+  - status: "OK"
+    name: "RangePack_1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unreal%20Fortress/C/2/f/0a3e2c/UNF-CTF-TeamEffort.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unreal Fortress"
+title: "Team Effort"
+playerCount: "12-20"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+bots: true

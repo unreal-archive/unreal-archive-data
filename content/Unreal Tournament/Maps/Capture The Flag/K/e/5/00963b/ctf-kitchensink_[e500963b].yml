@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-18 07:14"
+variationOf: "45374439fb2ebff2d50f351995da56e23c50acc8"
+game: "Unreal Tournament"
+name: "CTF-KitchenSink"
+author: "Dan Overlander"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-kitchensink_shot_e500963b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/e/5/00963b/ctf-kitchensink_shot_e500963b_1.png"
+originalFilename: "CTF-Kitchensink.zip"
+hash: "e500963b03f8b710eb69f8ec2447d9d7162fdac2"
+fileSize: 7096367
+files:
+- name: "SenRev2.umx"
+  fileSize: 252497
+  hash: "25fd801ad9620b1cfa33a4d26c5bf1416eb03ac0"
+- name: "CTF-KitchenSink.unr"
+  fileSize: 4789113
+  hash: "3f09c8716b3d59995ed4f7efc56b78c0a7b7b87e"
+- name: "ksink.utx"
+  fileSize: 14573685
+  hash: "895aa7848511d76e8b40f3a5a89458aa31188e65"
+otherFiles: 1
+dependencies:
+  CTF-KitchenSink.unr:
+  - status: "OK"
+    name: "ksink"
+  - status: "OK"
+    name: "SenRev2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/e/5/00963b/CTF-Kitchensink.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Kitchen Sink"
+playerCount: "12"
+themes:
+  Industrial: 0.7
+  Skaarj Crypt: 0.3
+bots: true

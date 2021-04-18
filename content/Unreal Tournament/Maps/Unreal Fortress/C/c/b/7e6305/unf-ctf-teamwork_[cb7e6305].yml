@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-18 07:11"
+game: "Unreal Tournament"
+name: "UNF-CTF-Teamwork"
+author: "Dan \"Winky Boy\" Overlander"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "unf-ctf-teamwork_shot_cb7e6305_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unreal%20Fortress/C/c/b/7e6305/unf-ctf-teamwork_shot_cb7e6305_1.png"
+originalFilename: "UNF-CTF-Teamwork.zip"
+hash: "cb7e6305308bcf69a2da09bd6ca40186e594ba5c"
+fileSize: 2434497
+files:
+- name: "UNF-CTF-Teamwork.unr"
+  fileSize: 4053386
+  hash: "7e8b5b65ddf36d55d937e2d3a65dd17f1fca908c"
+- name: "RangePack_1.u"
+  fileSize: 2681120
+  hash: "a9a9edaa7bfcdb01fcb94cb02b6f22fa0a4f3854"
+otherFiles: 1
+dependencies:
+  UNF-CTF-Teamwork.unr:
+  - status: "MISSING"
+    name: "UnrealFortress"
+  - status: "OK"
+    name: "RangePack_1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unreal%20Fortress/C/c/b/7e6305/UNF-CTF-Teamwork.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unreal Fortress"
+title: "Teamwork!"
+playerCount: "12-20"
+themes:
+  Natural: 0.2
+  Industrial: 0.8
+bots: true

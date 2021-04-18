@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-18 07:10"
+variationOf: "507a7fba1d32146f654a71759f6e316af74438b8"
+game: "Unreal Tournament"
+name: "CTF-route66"
+author: "Dan \"Winky Boy\" Overlander"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-route66_shot_193a50ed_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/9/3a50ed/ctf-route66_shot_193a50ed_1.png"
+- type: "IMAGE"
+  name: "ctf-route66_shot_193a50ed_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/9/3a50ed/ctf-route66_shot_193a50ed_2.png"
+originalFilename: "CTF-route66.zip"
+hash: "193a50ed7f587f6b6e61179fd705ef9827eaf236"
+fileSize: 4841405
+files:
+- name: "bornto99.umx"
+  fileSize: 919101
+  hash: "4e8d7843116316d3296d6844a1f201df7cec49c0"
+- name: "freewayWinky.utx"
+  fileSize: 6950374
+  hash: "145fb01ff2942367ebeae59513bb058f636fb316"
+- name: "CTF-route66.unr"
+  fileSize: 4255097
+  hash: "076ba25fd43387b0eb9fbd03c52df9c78cbc4864"
+otherFiles: 2
+dependencies:
+  CTF-route66.unr:
+  - status: "OK"
+    name: "freewayWinky"
+  - status: "OK"
+    name: "bornto99"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/9/3a50ed/CTF-route66.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Route66"
+playerCount: "4-12"
+themes:
+  Industrial: 0.7
+  City: 0.3
+bots: true
