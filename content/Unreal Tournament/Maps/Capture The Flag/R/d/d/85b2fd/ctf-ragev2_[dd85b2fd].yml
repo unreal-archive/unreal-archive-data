@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-28 23:42"
+game: "Unreal Tournament"
+name: "CTF-Rage][v2"
+author: "bongoliath"
+description: "None"
+releaseDate: "2019-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-ragev2_shot_dd85b2fd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/d/d/85b2fd/ctf-ragev2_shot_dd85b2fd_1.png"
+originalFilename: "CTF-Rage][v2.rar"
+hash: "dd85b2fd20571f2a78521042b93978f06da5baaa"
+fileSize: 6537960
+files:
+- name: "Aryx.umx"
+  fileSize: 20989
+  hash: "247b73c412b37d3cf77d2fdd01e52ed337180a79"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-Rage][v2.unr"
+  fileSize: 3706853
+  hash: "17061590dfd892fd6d3eeca1d8a0bc5e21304104"
+otherFiles: 1
+dependencies:
+  CTF-Rage][v2.unr:
+  - status: "MISSING"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "Aryx"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/d/d/85b2fd/CTF-Rage%5D%5Bv2.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Rage][v2"
+playerCount: "6-10"
+themes:
+  Tech: 0.1
+  Industrial: 0.4
+  Skaarj Tech: 0.5
+bots: true
