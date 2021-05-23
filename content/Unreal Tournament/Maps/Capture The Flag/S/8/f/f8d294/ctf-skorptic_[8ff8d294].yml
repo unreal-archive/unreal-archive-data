@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-05-08 15:44"
+game: "Unreal Tournament"
+name: "CTF-Skorptic"
+author: "Whitey"
+description: "None"
+releaseDate: "2020-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-skorptic_shot_8ff8d294_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/8/f/f8d294/ctf-skorptic_shot_8ff8d294_1.png"
+originalFilename: "CTF-Skorptic.zip"
+hash: "8ff8d294d56482e78c499998fb12edbcc75212b2"
+fileSize: 7010775
+files:
+- name: "trbaby.umx"
+  fileSize: 280920
+  hash: "8b636bff6f10bea5d4e7ef2cdbf8f5940521cec2"
+- name: "CTF-Skorptic.unr"
+  fileSize: 4880476
+  hash: "dcc4c627e0255f50ec4671d7ba203672ad284229"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-Skorptic.unr:
+  - status: "OK"
+    name: "trbaby"
+  - status: "OK"
+    name: "DoorsSnd"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/8/f/f8d294/CTF-Skorptic.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Skroptic"
+playerCount: "2-10"
+themes:
+  Tech: 0.8
+  Skaarj Tech: 0.2
+bots: true

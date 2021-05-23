@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-13 02:38"
+game: "Unreal Tournament"
+name: "MH-Swarm+SBMod"
+author: "Justin Saunders aka DOMiNiON/Modded by Barbie"
+description: "None"
+releaseDate: "2018-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-swarmsbmod_shot_6d0fba62_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/6/d/0fba62/mh-swarmsbmod_shot_6d0fba62_2.png"
+- type: "IMAGE"
+  name: "mh-swarmsbmod_shot_6d0fba62_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/6/d/0fba62/mh-swarmsbmod_shot_6d0fba62_1.png"
+originalFilename: "MH-Swarm+SBMod.7z"
+hash: "6d0fba625a3ecc0491e59db4453415d16e505874"
+fileSize: 1190108
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-Swarm+SBMod.unr"
+  fileSize: 2273662
+  hash: "19e3f0fb574df3e21cfd270e3cac95567eb4ffb1"
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+- name: "asgard2.u"
+  fileSize: 73938
+  hash: "b9907084f5d3a65f69bd7a5c8ea73ceb2aa4c2fe"
+otherFiles: 2
+dependencies:
+  MH-Swarm+SBMod.unr:
+  - status: "OK"
+    name: "asgard2"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "DigSh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/6/d/0fba62/MH-Swarm%2BSBMod.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Infestation"
+playerCount: "1-4"
+themes:
+  Tech: 0.7
+  Skaarj Tech: 0.3
+bots: false

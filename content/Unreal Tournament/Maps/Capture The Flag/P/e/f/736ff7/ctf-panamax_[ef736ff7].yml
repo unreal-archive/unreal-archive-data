@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-04-27 21:44"
+game: "Unreal Tournament"
+name: "CTF-Panamax"
+author: "by fudgonaut"
+description: "None"
+releaseDate: "2020-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-panamax_shot_ef736ff7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/e/f/736ff7/ctf-panamax_shot_ef736ff7_1.png"
+originalFilename: "CTF-Panamax.zip"
+hash: "ef736ff7388a9a3d7096431af82e082b4f930f7a"
+fileSize: 12543817
+files:
+- name: "BoatSounds.uax"
+  fileSize: 552461
+  hash: "b5bd7709ab67982481cfca6761ef652dbc3ebba3"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "Atrophied.umx"
+  fileSize: 1531343
+  hash: "cd009ea8d8a1b4d0c717c7cb5d2ce7ebc3e79f32"
+- name: "panamax.utx"
+  fileSize: 17799656
+  hash: "ad0b195287068f91c83322428c1d7ce51d9d8cff"
+- name: "ActorAttacher.u"
+  fileSize: 6210
+  hash: "9b9dcd31096c13bdd578219d0af7dfaf7f504295"
+- name: "CTF-Panamax.unr"
+  fileSize: 14683422
+  hash: "c464e7f60bd3d8398f4925a5e0c8fd4438e2f39e"
+otherFiles: 1
+dependencies:
+  CTF-Panamax.unr:
+  - status: "OK"
+    name: "ActorAttacher"
+  - status: "OK"
+    name: "BoatSounds"
+  - status: "OK"
+    name: "Atrophied"
+  - status: "OK"
+    name: "swjumppad"
+  - status: "OK"
+    name: "panamax"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/e/f/736ff7/CTF-Panamax.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Panamax"
+playerCount: "8-32"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+bots: true
