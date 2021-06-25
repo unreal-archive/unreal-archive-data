@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-06-24 23:33"
+game: "Unreal Tournament 2004"
+name: "DM-BASE1"
+author: "Aaron Brokaw"
+description: "Outer Base is the first level of Unit 1 from|Quake 2. It is short and\
+  \ simple - helping the player get used to the game's controls and combat.||The game\
+  \ begins right next to Bitterman's crashed Drop Pod in a devastated room. The level\
+  \ features a main corridor, a small outdoor yard, and a sewer-like area filled with\
+  \ Water. Other parts of the level include a dark crawlspace leading to the sewer,\
+  \ a large, less-damaged room with several crates, and a heavily damaged storage\
+  \ area, in which most of the roof has collapsed.||The level's ambience is very dynamic\
+  \ - the sounds of flying ships and distant explosions can be heard constantly. It\
+  \ appears that the Base complex is being intensively bombed by Terran Coalition\
+  \ of Man forces.||The player's goal in this introductory level is simple - find\
+  \ a way to the exit elevator and gain access to the Installation. Along the way,\
+  \ they can pick up a Shotgun, Grenades and a few other useful items."
+releaseDate: "2021-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-base1_shot_d817c51f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/B/d/8/17c51f/dm-base1_shot_d817c51f_1.png"
+- type: "IMAGE"
+  name: "dm-base1_shot_d817c51f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/B/d/8/17c51f/dm-base1_shot_d817c51f_2.png"
+originalFilename: "UT2004_base1.zip"
+hash: "d817c51fef7885aaa05109bcba5767053237175a"
+fileSize: 8079571
+files:
+- name: "Egypt_Meshes.usx"
+  fileSize: 42133
+  hash: "3d8f31de9b96cf586a3dd23188b29e9d6f29e398"
+- name: "DM-BASE1.UT2"
+  fileSize: 8483651
+  hash: "a1e344e9b055682e5f216078f9f9434c4200183f"
+- name: "sky.utx"
+  fileSize: 437651
+  hash: "7049db81c05099afeec60cde7860649633d9bfa4"
+- name: "Quake2Maps.utx"
+  fileSize: 5592994
+  hash: "b12acc9b73c65a775780883d8437b23c067f1bfa"
+otherFiles: 1
+dependencies:
+  DM-BASE1.UT2:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Egypt_Meshes"
+  - status: "OK"
+    name: "Quake2Maps"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/B/d/8/17c51f/UT2004_base1.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Outer Base"
+playerCount: "32"
+themes:
+  Egyptian: 1.0
+bots: false
