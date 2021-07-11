@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-05-31 06:12"
+game: "Unreal Tournament 2004"
+name: "KF-Camping2k4"
+author: "Héctor 'danielumio' Beretta"
+description: "Lo que se pensaba un lugar para descansar resultó ser una trampa, cuando\
+  \ la noche cae, extrañas criaturas aparecen en este lugar y nadie sobrevive para\
+  \ contarlo.|\eÿWhWhat one was thinking a place to rest turned out to be a trap,\
+  \ when the night falls down, strange creatures appear in this place and nobody survives\
+  \ to count it."
+releaseDate: "2009-06"
+attachments:
+- type: "IMAGE"
+  name: "kf-camping2k4_shot_fda19058_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Killing%20Floor/C/f/d/a19058/kf-camping2k4_shot_fda19058_1.png"
+originalFilename: "KF-Camping2k4.zip"
+hash: "fda190582f49220a3107e885295e461e7fcd108c"
+fileSize: 16179002
+files:
+- name: "AmbOutside.uax"
+  fileSize: 5469933
+  hash: "92315e2a3380c60eba087ef6a4b466e50b8014ad"
+- name: "KF-Camping2k4.ut2"
+  fileSize: 10032882
+  hash: "3cd3fc534e4b1b62e7941b167504ec532745ca7b"
+- name: "Danielumio_Tex1.utx"
+  fileSize: 14914924
+  hash: "2b1a8c9a4a9fe1d7ad961219a6b7fabd894b922c"
+- name: "Danielumio_SM1.usx"
+  fileSize: 5669274
+  hash: "55f15b321102eecbd108b41118bac188a8c81f97"
+otherFiles: 1
+dependencies:
+  KF-Camping2k4.ut2:
+  - status: "OK"
+    name: "Danielumio_Tex1"
+  - status: "OK"
+    name: "Danielumio_SM1"
+  - status: "MISSING"
+    name: "KillingFloorStatics"
+  - status: "MISSING"
+    name: "KillingFloorLabTextures"
+  - status: "MISSING"
+    name: "KFX"
+  - status: "MISSING"
+    name: "KFMod"
+  - status: "OK"
+    name: "AmbOutside"
+  - status: "MISSING"
+    name: "PatchTex"
+  - status: "MISSING"
+    name: "PatchStatics"
+  Danielumio_SM1.usx:
+  - status: "OK"
+    name: "Danielumio_Tex1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Killing%20Floor/C/f/d/a19058/KF-Camping2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Killing Floor"
+title: "Camping gallinazo"
+playerCount: "1-6"
+themes:
+  Industrial: 0.5
+  Ancient: 0.5
+bots: true
