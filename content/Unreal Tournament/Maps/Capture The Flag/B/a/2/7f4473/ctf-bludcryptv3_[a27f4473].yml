@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:32"
+game: "Unreal Tournament"
+name: "CTF-BLUDCryptV3"
+author: "[BLUD]Havick"
+description: "www.bludclan.com"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BLUDCryptV3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-BLUDCryptV3_shot_1.png"
+originalFilename: "ctf-[blud]cryptv3.zip"
+hash: "a27f4473d700c24ed2bde5e382c7aba05015f956"
+fileSize: 1857666
+files:
+- name: "SSHellFire.utx"
+  fileSize: 991823
+  hash: "e0fe51a5b68ea38a8eece5c3f873e1be15d068fd"
+- name: "CTF-BLUDCryptV3.unr"
+  fileSize: 3181456
+  hash: "ebadb9f46f1d5eb162452cdd3d5c3134565b4f60"
+otherFiles: 0
+dependencies:
+  CTF-BLUDCryptV3.unr:
+  - status: "MISSING"
+    name: "Toxicity"
+  - status: "OK"
+    name: "SSHellFire"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%5Bblud%5Dcryptv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-%5Bblud%5Dcryptv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/a/2/7f4473/ctf-%255Bblud%255Dcryptv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/a/2/7f4473/ctf-%255Bblud%255Dcryptv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "[BLUD]cryptV3"
+playerCount: "6 - 14"
+themes:
+  Nali Temple: 0.3
+  Skaarj Crypt: 0.7
+bots: false

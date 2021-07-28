@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:08"
+game: "Unreal Tournament"
+name: "DM-KnifeEdge-FMG1"
+author: "Lost"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-KnifeEdge-FMG1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/DM-KnifeEdge-FMG1_shot_1.png"
+originalFilename: "DM-KnifeEdge-FMG1.zip"
+hash: "09138ffb15a43397fb3213c0b7fd58be584d0b17"
+fileSize: 1300670
+files:
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+- name: "NBCRM.u"
+  fileSize: 55251
+  hash: "3be25f7deb275db8d70f19acd78e8b96fc7e019d"
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+- name: "HmmwvPrefab.utx"
+  fileSize: 611210
+  hash: "e3696f53e1515031e0021bc4cae82421e85d81ee"
+- name: "DM-KnifeEdge-FMG1.unr"
+  fileSize: 1274979
+  hash: "d7bce7d7bf131b96ec2b413c3ab536c8e6d32925"
+otherFiles: 0
+dependencies:
+  DM-KnifeEdge-FMG1.unr:
+  - status: "OK"
+    name: "NBCRM"
+  - status: "OK"
+    name: "MTextSetA"
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "HmmwvPrefab"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-KnifeEdge-FMG1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/DM-KnifeEdge-FMG1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/0/9/138ffb/DM-KnifeEdge-FMG1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/0/9/138ffb/DM-KnifeEdge-FMG1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-KnifeEdge-FMG"
+playerCount: "Teams of 8"
+themes:
+  Tech: 0.3
+  City: 0.2
+  Natural: 0.5
+bots: true

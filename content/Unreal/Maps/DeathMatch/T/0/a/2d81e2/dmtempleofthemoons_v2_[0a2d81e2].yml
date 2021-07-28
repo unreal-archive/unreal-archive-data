@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:58"
+game: "Unreal"
+name: "DmTempleOfTheMoons_V2"
+author: "Francois Lacombe, aka Orion(Co30)"
+description: "This is the second and final version"
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "dmtempleofthemoons.zip"
+hash: "0a2d81e248f44740d8607ddba6abdc751cec6425"
+fileSize: 3177840
+files:
+- name: "MoonTempleTex.utx"
+  fileSize: 2133388
+  hash: "c47a9c1aafaa2e47eacae08814874469f80b78ad"
+- name: "DmTempleOfTheMoons_V2.unr"
+  fileSize: 4907616
+  hash: "bc16ff0c3b7dba5d9fdf8047684d99264cb7481e"
+- name: "MoonArtTex.utx"
+  fileSize: 1425853
+  hash: "271fc66e1cdfb0b0742dc5265224fe3a386cae92"
+otherFiles: 1
+dependencies:
+  DmTempleOfTheMoons_V2.unr:
+  - status: "OK"
+    name: "MoonTempleTex"
+  - status: "OK"
+    name: "MoonArtTex"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dmtempleofthemoons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dmtempleofthemoons.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsT/dmtempleofthemoons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmtempleofthemoons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/0/a/2d81e2/dmtempleofthemoons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/0/a/2d81e2/dmtempleofthemoons.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The temple of the Moons_V2"
+playerCount: "As many as you got"
+themes:
+  Nali Temple: 0.6
+  Ancient: 0.1
+  Natural: 0.3
+bots: true

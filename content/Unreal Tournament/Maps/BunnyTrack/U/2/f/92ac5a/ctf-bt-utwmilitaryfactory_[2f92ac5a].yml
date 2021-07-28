@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:42"
+game: "Unreal Tournament"
+name: "CTF-BT-(UTW)MilitaryFactory"
+author: "[UTW]R@m$e$"
+description: "www.ut-world.eu"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-(UTW)MilitaryFactory_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/U/CTF-BT-(UTW)MilitaryFactory_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-BT-(UTW)MilitaryFactory_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/U/CTF-BT-(UTW)MilitaryFactory_shot_2.png"
+originalFilename: "CTF-BT-(UTW)MilitaryFactory.zip"
+hash: "2f92ac5a3d727634a9653be599b584efb2f4ef44"
+fileSize: 8090850
+files:
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+- name: "CTF-BT-(UTW)MilitaryFactory.unr"
+  fileSize: 11158325
+  hash: "ffffe312cd8d05194b1f1ff6566e1641daae06c4"
+- name: "Invasion.utx"
+  fileSize: 1740456
+  hash: "fab0aad5c328ac9f78591e80deac1059a00a822a"
+- name: "Blank.umx"
+  fileSize: 2238
+  hash: "65b7226ed8df93798994a92db227d9ec148e4f64"
+otherFiles: 2
+dependencies:
+  CTF-BT-(UTW)MilitaryFactory.unr:
+  - status: "OK"
+    name: "Blank"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "Invasion"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7461"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/U/2/f/92ac5a/CTF-BT-(UTW)MilitaryFactory.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/U/2/f/92ac5a/CTF-BT-(UTW)MilitaryFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/U/2/f/92ac5a/CTF-BT-(UTW)MilitaryFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Military Factory"
+playerCount: "4-24 Bunnytrack"
+themes:
+  Industrial: 1.0
+bots: false

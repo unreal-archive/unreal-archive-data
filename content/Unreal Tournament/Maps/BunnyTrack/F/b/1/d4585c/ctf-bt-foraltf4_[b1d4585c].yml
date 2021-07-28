@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:31"
+game: "Unreal Tournament"
+name: "CTF-BT-ForAltf4"
+author: "Provocation"
+description: "None"
+releaseDate: "2015-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-ForAltf4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/F/CTF-BT-ForAltf4_shot_1.png"
+originalFilename: "CTF-BT-ForAltf4.zip"
+hash: "b1d4585cd3468cf2c0d430c2864915639b5eabcc"
+fileSize: 21653320
+files:
+- name: "CTF-BT-ForAltf4.unr"
+  fileSize: 3963491
+  hash: "fa11e58aded3231de6fe3dd405a627eef9396819"
+- name: "Saygoodbye.umx"
+  fileSize: 5217018
+  hash: "d99151a69fde446d156ccc3777c2fae9772838b7"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "Quake3.utx"
+  fileSize: 20127764
+  hash: "68bc9bcad42cc943643aacdd071b2f82d31a5a16"
+otherFiles: 0
+dependencies:
+  CTF-BT-ForAltf4.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Saygoodbye"
+  - status: "OK"
+    name: "Quake3"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-ForAltf4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/F/CTF-BT-ForAltf4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-ForAltf4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/F/b/1/d4585c/CTF-BT-ForAltf4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/F/b/1/d4585c/CTF-BT-ForAltf4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-ForAltf4"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: false

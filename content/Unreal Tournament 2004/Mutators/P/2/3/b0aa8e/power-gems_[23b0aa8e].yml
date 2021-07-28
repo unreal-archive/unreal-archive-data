@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:07"
+game: "Unreal Tournament 2004"
+name: "Power Gems!!!"
+author: "Unknown"
+description: ""
+releaseDate: "2003-01"
+attachments: []
+originalFilename: "PowerGems0.9.zip"
+hash: "23b0aa8e588f26b888387c9b826f6c279bc7524c"
+fileSize: 287462
+files:
+- name: "PGem.u"
+  fileSize: 40748
+  hash: "bd251b702760f0e71d2402acb5cff759a0518e1a"
+- name: "PGText.utx"
+  fileSize: 725881
+  hash: "a2d2ea34e3d963ae7403efdfa8538fa91da263c5"
+- name: "PGMesh.usx"
+  fileSize: 81386
+  hash: "fbdb2363fbadcdc8eb6955c9475c2e04435fea62"
+otherFiles: 2
+dependencies:
+  PGMesh.usx:
+  - status: "OK"
+    name: "PGText"
+  PGem.u:
+  - status: "OK"
+    name: "PGMesh"
+  - status: "OK"
+    name: "PGText"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/PowerGems0.9.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/P/2/3/b0aa8e/PowerGems0.9.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/P/2/3/b0aa8e/PowerGems0.9.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Power Gems!!!"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

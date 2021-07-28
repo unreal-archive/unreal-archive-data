@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:40"
+game: "Unreal"
+name: "AS-[SP]Ballastic"
+author: "SteelHORN"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "as-spballastic_shot_a874367e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Assault/S/as-spballastic_shot_a874367e_1.png"
+originalFilename: "AS-[SP]Ballastic.zip"
+hash: "a874367e3514376e3c3724868835699130b5aba6"
+fileSize: 7321043
+files:
+- name: "noxxsnd.uax"
+  fileSize: 806029
+  hash: "8e88d237de5ff3a297a55d53a6846d462094e647"
+- name: "Mech8.umx"
+  fileSize: 747774
+  hash: "bd3121719c14c8ee0abd8d4714afe97aba46b7ca"
+- name: "AS-[SP]Ballastic.unr"
+  fileSize: 10990675
+  hash: "2c74cf5dd31de23f90707b1aad9f7217d764a56f"
+otherFiles: 0
+dependencies:
+  AS-[SP]Ballastic.unr:
+  - status: "MISSING"
+    name: "SP_Assault"
+  - status: "OK"
+    name: "Mech8"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "noxxsnd"
+  - status: "MISSING"
+    name: "AssaultDecor"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Assault/S/AS-%5BSP%5DBallastic.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Assault/S/a/8/74367e/AS-%255BSP%255DBallastic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Assault/S/a/8/74367e/AS-%255BSP%255DBallastic.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-[SP] Ballistic"
+playerCount: "6-12"
+themes:
+  Tech: 0.8
+  Natural: 0.2
+bots: true

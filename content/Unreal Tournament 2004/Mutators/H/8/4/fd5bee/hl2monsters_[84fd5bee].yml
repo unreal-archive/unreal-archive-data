@@ -1,0 +1,104 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-08-09 11:36"
+game: "Unreal Tournament 2004"
+name: "HL2Monsters"
+author: "Unknown"
+description: "None"
+releaseDate: "2007-08"
+attachments:
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_1.png"
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_3.png"
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_7.png"
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_2.png"
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_4.png"
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_5.png"
+- type: "IMAGE"
+  name: "hl2monsters_shot_84fd5bee_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/hl2monsters_shot_84fd5bee_6.png"
+originalFilename: "HL2Monsters.7z"
+hash: "84fd5beeaad4dfc48d33a93052968e0f0a02222e"
+fileSize: 24367693
+files:
+- name: "HL2MonstersLite3.u"
+  fileSize: 480412
+  hash: "fa45c4cc495796b115846b777f7fbad8ed6994f1"
+- name: "HL2Monsters.u"
+  fileSize: 506911
+  hash: "6527d71a60745b48111316f52936a79a7201e341"
+- name: "HL2MonsterAnims1.ukx"
+  fileSize: 31264741
+  hash: "ed54bfec04a9ffedc529cb157e42b98ef80b6eb0"
+- name: "GhostHeadCrab.utx"
+  fileSize: 350451
+  hash: "a6e2e74d08e6e3a471ebb45f51c7d94f3074703f"
+- name: "HL2MonsterSounds.uax"
+  fileSize: 15826831
+  hash: "8b742e4fe1561e2110d20bcbb989390bf62a625a"
+otherFiles: 9
+dependencies:
+  HL2Monsters.u:
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "MISSING"
+    name: "HL2MonsterAnims"
+  - status: "MISSING"
+    name: "U1Pawns"
+  - status: "OK"
+    name: "HL2MonsterSounds"
+  HL2MonstersLite3.u:
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "OK"
+    name: "GhostHeadCrab"
+  - status: "MISSING"
+    name: "HL2MonsterAnims1"
+  - status: "OK"
+    name: "HL2MonsterSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/HL2Monsters.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/H/8/4/fd5bee/HL2Monsters.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "GunShip"
+  description: "Replace any vehicles with the HL2 GunShip."
+- name: "Helicopter"
+  description: "Replace any vehicles with the HL2 Helicopter."
+- name: "Strider"
+  description: "Replace any vehicles with the HL2 Strider."
+weapons: []
+vehicles:
+- name: "Combine_GunShip"
+  description: "Combine_GunShip"
+- name: "Combine_Hunter-Chopper"
+  description: "Combine_Hunter-Chopper"
+- name: "Combine_Strider"
+  description: "Combine_Strider"
+- name: "GunShip"
+  description: "GunShip"
+- name: "Hunter-Chopper"
+  description: "Hunter-Chopper"
+- name: "Combine_Strider"
+  description: "Combine_Strider"
+- name: "Strider"
+  description: "Strider"
+hasConfigMenu: false
+hasKeybinds: false

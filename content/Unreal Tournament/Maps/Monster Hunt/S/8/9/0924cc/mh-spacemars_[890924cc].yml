@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:21"
+game: "Unreal Tournament"
+name: "MH-Spacemars"
+author: "TaroT"
+description: "Mars is a land of oportunity,but you have to fight for it"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-Spacemars_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/MH-Spacemars_shot_1.png"
+originalFilename: "mh-spacemars.zip"
+hash: "890924cc76b612a8729d96fca0069f2c0a7e1666"
+fileSize: 5555716
+files:
+- name: "MH-Spacemars.unr"
+  fileSize: 10818600
+  hash: "07fa6c0d6dd6a08488e11a4474e1406517d9480a"
+- name: "jagged.utx"
+  fileSize: 5568356
+  hash: "26d8310aa17c0f6431f88f19cb2957170e10f7db"
+- name: "Sandman.umx"
+  fileSize: 1025151
+  hash: "9fa07a0a26ab79800889c3692815ed95ae3812fb"
+otherFiles: 2
+dependencies:
+  MH-Spacemars.unr:
+  - status: "OK"
+    name: "jagged"
+  - status: "OK"
+    name: "Sandman"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/mh-spacemars.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/8/9/0924cc/mh-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/8/9/0924cc/mh-spacemars.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Spaceonmars"
+playerCount: "6-12"
+themes:
+  Tech: 1.0
+bots: true

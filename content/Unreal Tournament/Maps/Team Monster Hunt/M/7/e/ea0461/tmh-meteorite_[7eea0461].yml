@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:25"
+game: "Unreal Tournament"
+name: "TMH-Meteorite"
+author: "--=BliZz=--"
+description: "None"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "TMH-Meteorite_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/M/TMH-Meteorite_shot_1.png"
+originalFilename: "tmh-meteorite.zip"
+hash: "7eea0461f23cdf95323406055aafcc7d7bc2d480"
+fileSize: 6466720
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "TMH-Meteorite.unr"
+  fileSize: 6899317
+  hash: "48a2cfff87db7d727dc822b872bee3643dd6294e"
+- name: "TeamMH.u"
+  fileSize: 1277228
+  hash: "199b65a34043b8bd4ebdf398060f0ac5efa116c2"
+- name: "action1.umx"
+  fileSize: 1478890
+  hash: "e33d73492731f98edf2ce39a0efe59a50848fb91"
+otherFiles: 2
+dependencies:
+  TMH-Meteorite.unr:
+  - status: "OK"
+    name: "TeamMH"
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "action1"
+  TeamMH.u:
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TeamMonsterHunt/&file=tmh-meteorite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/M/tmh-meteorite.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TeamMonsterHunt&file=tmh-meteorite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/M/7/e/ea0461/tmh-meteorite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/M/7/e/ea0461/tmh-meteorite.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Team Monster Hunt"
+title: "TMH-Meteorite"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.4
+  Ancient: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: false

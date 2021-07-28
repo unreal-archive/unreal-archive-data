@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:17"
+game: "Unreal Tournament"
+name: "MH-Gate-X"
+author: "Eric Evans \"Swartz\""
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-gate-x.zip"
+hash: "2d0865b344573b79c3c83c7d1aaca3baba06aeb6"
+fileSize: 7048292
+files:
+- name: "UTMHpack.u"
+  fileSize: 4498715
+  hash: "be3c69a56f792c235ee41e65707af38a4a8b4ed2"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "WarGate.umx"
+  fileSize: 825589
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
+- name: "asgard2.u"
+  fileSize: 73938
+  hash: "b9907084f5d3a65f69bd7a5c8ea73ceb2aa4c2fe"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+- name: "MH-Gate-X.unr"
+  fileSize: 7969728
+  hash: "324d3f04400578b9021c7c7d793da1d28c79a28e"
+otherFiles: 2
+dependencies:
+  MH-Gate-X.unr:
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "WarGate"
+  - status: "OK"
+    name: "asgard2"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-gate-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/G/mh-gate-x.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-gate-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/G/2/d/0865b3/mh-gate-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/2/d/0865b3/mh-gate-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Return Home"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 0.9
+bots: true

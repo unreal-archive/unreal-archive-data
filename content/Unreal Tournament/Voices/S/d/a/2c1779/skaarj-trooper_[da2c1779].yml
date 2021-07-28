@@ -1,7 +1,6 @@
 --- !<VOICE>
 contentType: "VOICE"
 firstIndex: "2020-09-23 07:33"
-variationOf: null
 game: "Unreal Tournament"
 name: "Skaarj Trooper"
 author: "Deepu"
@@ -35,24 +34,24 @@ dependencies:
   BP1H1d.u:
   - status: "OK"
     name: "UN1d"
-    providedBy: null
   BP4H1d.u:
   - status: "MISSING"
     name: "SkeletalChars"
-    providedBy: null
   - status: "OK"
     name: "UN1d"
-    providedBy: null
   VAH1d.u:
   - status: "OK"
     name: "UN1d"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Voices/S/d/a/2c1779/UN1d.7z"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Zeroping/Newnet/&file=UN1d.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Voices/S/d/a/2c1779/UN1d.7z"
   main: false
   repack: false
   state: "OK"

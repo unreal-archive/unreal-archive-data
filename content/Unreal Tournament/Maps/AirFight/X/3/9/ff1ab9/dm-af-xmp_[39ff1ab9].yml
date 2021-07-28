@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:50"
+game: "Unreal Tournament"
+name: "DM-AF-XMP"
+author: "Klaus \"Titanus\" Kremser"
+description: "None"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-AF-XMP_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AF-XMP_shot_1.png"
+originalFilename: "dm-af-xmp.zip"
+hash: "39ff1ab93d1c6ece582d275390f9354fc5954681"
+fileSize: 1192893
+files:
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "DM-AF-XMP.unr"
+  fileSize: 2096819
+  hash: "2b188d4bf1cfe9bdecf1e76afd9784595e6d5cdf"
+otherFiles: 1
+dependencies:
+  DM-AF-XMP.unr:
+  - status: "MISSING"
+    name: "Airfight-snow"
+  - status: "OK"
+    name: "Fifth"
+  - status: "MISSING"
+    name: "AirFightUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-af-xmp.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Airfight/&file=dm-af-xmp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-af-xmp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Airfight&file=dm-af-xmp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-AF-XMP.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsA/dm-af-xmp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/AirFight/X/3/9/ff1ab9/dm-af-xmp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/AirFight/X/3/9/ff1ab9/dm-af-xmp.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "AirFight"
+title: "DM-AF-XMP"
+playerCount: "8-16"
+themes:
+  Natural: 0.4
+  Indistrial: 0.6
+bots: false

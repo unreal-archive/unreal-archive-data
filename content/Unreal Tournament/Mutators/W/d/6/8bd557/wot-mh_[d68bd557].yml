@@ -1,0 +1,55 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:41"
+game: "Unreal Tournament"
+name: "WOT MH"
+author: "Unknown"
+description: "None"
+releaseDate: "2013-12"
+attachments: []
+originalFilename: "WOT_MH.zip"
+hash: "d68bd557467d55e08cbe229b0d77cbaaac6f2786"
+fileSize: 5657983
+files:
+- name: "New-Weapons.u"
+  fileSize: 8811535
+  hash: "78f908878c0b120af6b6ef5aece71f922fe3de97"
+- name: "WOT_MH.u"
+  fileSize: 1624059
+  hash: "fa6d2d5b81ba5ee1d5fe7be9b6173f7e6233b9ea"
+otherFiles: 1
+dependencies:
+  WOT_MH.u:
+  - status: "OK"
+    name: "New-Weapons"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/MonsterHunt&file=WOT_MH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/W/WOT_MH.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/W/d/6/8bd557/WOT_MH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/W/d/6/8bd557/WOT_MH.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "WOT-Weapons Of Tomorrow"
+  description: "Ready for some new Weapons??"
+- name: "WOT-M82A1 Sniper Rifle Arena"
+  description: "Go and Do Some HEAD SHOTS!"
+- name: "WOT-MonsterHunt"
+  description: "Play with Monster Hunt Style."
+- name: "WOT-Super E.G.P Arena"
+  description: "Play with More Powered E.G.P Rifle."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

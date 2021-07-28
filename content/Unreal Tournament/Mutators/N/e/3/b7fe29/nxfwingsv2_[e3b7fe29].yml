@@ -1,0 +1,103 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-05-09 16:41"
+game: "Unreal Tournament"
+name: "NXFWings&V2"
+author: "Unknown"
+description: "None"
+releaseDate: "2017-04"
+attachments:
+- type: "IMAGE"
+  name: "nxfwingsv2_shot_e3b7fe29_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/N/e/3/b7fe29/nxfwingsv2_shot_e3b7fe29_1.png"
+- type: "IMAGE"
+  name: "nxfwingsv2_shot_e3b7fe29_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/N/e/3/b7fe29/nxfwingsv2_shot_e3b7fe29_3.png"
+- type: "IMAGE"
+  name: "nxfwingsv2_shot_e3b7fe29_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/N/e/3/b7fe29/nxfwingsv2_shot_e3b7fe29_2.png"
+originalFilename: "NXFWings&V2.zip"
+hash: "e3b7fe297b0726bd607870e8575a0986f419482f"
+fileSize: 9776191
+files:
+- name: "KongFire.uax"
+  fileSize: 36809
+  hash: "6f343ba4f8e7dff3f0bdd87981570868b092b711"
+- name: "RXHOFXHAIR.utx"
+  fileSize: 131778
+  hash: "3da9a061229c6bd4992db9fd04c17398b925597f"
+- name: "NemesisXFWingsV2.u"
+  fileSize: 1095233
+  hash: "6948ed3769231650c21596468c45ca6415448136"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "NemesisXFWings.u"
+  fileSize: 1011633
+  hash: "c7147b0b07e458cd36d064719f6e655d45bf07db"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "NemesisWS.uax"
+  fileSize: 429827
+  hash: "a397d2dec0f8ab7ba4574b580c6556a9ce2c76fb"
+- name: "SLV2Fonts.utx"
+  fileSize: 345240
+  hash: "abe246c47c63b31826b47a43bdb26d318caeb55e"
+- name: "NemesisW.u"
+  fileSize: 8408649
+  hash: "9a8ad5cae82aa2ce2881ec6405db7e885f5500fb"
+otherFiles: 7
+dependencies:
+  NemesisXFWingsV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  - status: "OK"
+    name: "RXHOFXHAIR"
+  - status: "OK"
+    name: "NemesisWS"
+  - status: "OK"
+    name: "Nemesisw"
+  NemesisXFWings.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  - status: "OK"
+    name: "RXHOFXHAIR"
+  - status: "OK"
+    name: "NemesisWS"
+  - status: "OK"
+    name: "Nemesisw"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/RocketX&file=NXFWings%26V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/N/e/3/b7fe29/NXFWings%26V2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/N/e/3/b7fe29/NXFWings%2526V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "NemesisXFWingsV2"
+  description: "  Dedicated to Gene Sprague R.I.P"
+- name: "NemesisXFWings"
+  description: "  Dedicated to Gene Sprague R.I.P"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

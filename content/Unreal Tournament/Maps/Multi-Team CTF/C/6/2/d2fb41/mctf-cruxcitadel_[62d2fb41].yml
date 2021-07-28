@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 02:42"
-variationOf: null
 game: "Unreal Tournament"
 name: "MCTF-CruxCitadel"
 author: "Michael 'The Shadow' Saager"
@@ -29,22 +28,22 @@ dependencies:
   MCTF-CruxCitadel.unr:
   - status: "MISSING"
     name: "MultiCTFTex"
-    providedBy: null
   - status: "OK"
     name: "TECHNOMN"
-    providedBy: null
   - status: "MISSING"
     name: "MultiCTF"
-    providedBy: null
   - status: "OK"
     name: "cruxcitadel"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/M/6/2/d2fb41/CTFM-CruxCitadel.zip"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM/&file=CTFM-CruxCitadel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/C/6/2/d2fb41/CTFM-CruxCitadel.zip"
   main: false
   repack: false
   state: "OK"

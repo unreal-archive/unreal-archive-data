@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 00:33"
+game: "Unreal Tournament 2004"
+name: "DM-The Bloody Hotel"
+author: "Toff"
+description: "Stay at The Bloody Hotel and you might find that you'll never leave."
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "dm-bloodyhotel01.exe"
+hash: "f3d593c806ea7d99ace49ade5e1fc6834c459cec"
+fileSize: 38581685
+files:
+- name: "GOMNM.usx"
+  fileSize: 16700444
+  hash: "8140c07b2fcbe52ad581fa4b6da6b33494ae53a9"
+- name: "DM-The Bloody Hotel.ut2"
+  fileSize: 5301550
+  hash: "0d4cdaccb5bc52af694972c01bb0e1ff2e8ac90b"
+- name: "GOMSGlobalTex.utx"
+  fileSize: 93860803
+  hash: "68cb087286c95598321320da278b18252070d7ce"
+otherFiles: 1
+dependencies:
+  GOMNM.usx:
+  - status: "OK"
+    name: "GOMSGlobalTex"
+  DM-The Bloody Hotel.ut2:
+  - status: "OK"
+    name: "GOMSGlobalTex"
+  - status: "OK"
+    name: "GOMNM"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-bloodyhotel01.exe"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/T/dm-bloodyhotel01.exe"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/T/f/3/d593c8/dm-bloodyhotel01.exe"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/f/3/d593c8/dm-bloodyhotel01.exe"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Bloody Hotel"
+playerCount: "Unknown"
+themes: {}
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "INF_WorstMapEver"
+author: ".50cal"
+description: "Holy hell!"
+releaseDate: "2006-06"
+attachments: []
+originalFilename: "INF_WorstMapEver.zip"
+hash: "53f13d78f3d4202c643a2a9f8c5ba7afe85efcf7"
+fileSize: 3164796
+files:
+- name: "DeckChair1.u"
+  fileSize: 42345
+  hash: "c1577e0f51c5b78f08f8266cdd98d34387e1fdbb"
+- name: "INF_WorstMapEver.unr"
+  fileSize: 2594920
+  hash: "9ebdace552ab69307b8045cdeffb89c58a2c69f7"
+- name: "WMEtex.utx"
+  fileSize: 4206890
+  hash: "59353e7e7796975d0d94dc09e99a04ba2f75fbd8"
+otherFiles: 1
+dependencies:
+  INF_WorstMapEver.unr:
+  - status: "OK"
+    name: "WMEtex"
+  - status: "MISSING"
+    name: "infiltration"
+  - status: "OK"
+    name: "DeckChair1"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_WorstMapEver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/W/INF_WorstMapEver.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_WorstMapEver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/W/5/3/f13d78/INF_WorstMapEver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/W/5/3/f13d78/INF_WorstMapEver.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Worst Map Ever!"
+playerCount: "16"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.6
+  Nali Castle: 0.2
+bots: true

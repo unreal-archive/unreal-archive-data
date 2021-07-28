@@ -1,0 +1,73 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2020-05-09 19:04"
+game: "Unreal Tournament"
+name: "ExpEMs AMC MapPack"
+author: "Various"
+description: "None"
+releaseDate: "2018-12"
+attachments:
+- type: "IMAGE"
+  name: "expems-amc-mappack_shot_c21d5aa0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/E/c/2/1d5aa0/expems-amc-mappack_shot_c21d5aa0_1.png"
+- type: "IMAGE"
+  name: "expems-amc-mappack_shot_c21d5aa0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/E/c/2/1d5aa0/expems-amc-mappack_shot_c21d5aa0_2.png"
+- type: "IMAGE"
+  name: "expems-amc-mappack_shot_c21d5aa0_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/E/c/2/1d5aa0/expems-amc-mappack_shot_c21d5aa0_3.png"
+originalFilename: "ExpEMs_AMC_MapPack.zip"
+hash: "c21d5aa08a9976094e39a2580bc28ae7c22d6ddd"
+fileSize: 2408900
+files:
+- name: "Journey.umx"
+  fileSize: 556161
+  hash: "6fea524c32d65075894686a96a4674669c3240e1"
+- name: "DM-AMC-Diminutive.unr"
+  fileSize: 1980367
+  hash: "7ac2f13d535b411124209d7b4b365985f366d9ab"
+- name: "DM-AMC-CalderaCrust.unr"
+  fileSize: 1426417
+  hash: "0aa2502961622ecc52f530f4c55d8d9764a9f344"
+- name: "DM-AMC-EdificeDrift.unr"
+  fileSize: 1813746
+  hash: "7cd29b0dc76653640b7be8608b001057a24718d0"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 1
+dependencies:
+  DM-AMC-EdificeDrift.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "MISSING"
+    name: "SGTech1"
+  DM-AMC-CalderaCrust.unr:
+  - status: "OK"
+    name: "Journey"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/E/c/2/1d5aa0/ExpEMs_AMC_MapPack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/E/c/2/1d5aa0/ExpEMs_AMC_MapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-AMC-Diminutive"
+  title: "Diminutive Agony"
+  author: "Michael 'ExpEM' Nunn"
+- name: "DM-AMC-CalderaCrust"
+  title: "Caldera Crust"
+  author: "MIchael 'ExpEM' Nunn"
+- name: "DM-AMC-EdificeDrift"
+  title: "Edifice Drift"
+  author: "Michael \"ExpEM\" Nunn"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.3
+  Natural: 0.3
+  Nali Castle: 0.1
+  Skaarj Tech: 0.2

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:55"
+game: "Unreal"
+name: "MH-[SP]OceanFloor"
+author: "Unknown"
+description: "Control the underwater base!"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-spoceanfloor_shot_ddf655e5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spoceanfloor_shot_ddf655e5_1.png"
+originalFilename: "MH-[SP]OceanFloor.zip"
+hash: "ddf655e57324c15591823db82182c2f4b1d012c2"
+fileSize: 3072593
+files:
+- name: "Nether.umx"
+  fileSize: 1312916
+  hash: "92c71fd73ac96d1d5299f6918d23cec2255b00fe"
+- name: "MH-[SP]OceanFloor.unr"
+  fileSize: 3984247
+  hash: "48ffd5886ae382f1a1b8811c2ebee1afdf9a7831"
+otherFiles: 0
+dependencies:
+  MH-[SP]OceanFloor.unr:
+  - status: "MISSING"
+    name: "SPMullog"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Nether"
+  - status: "MISSING"
+    name: "AssaultCrossBow"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DOceanFloor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/d/d/f655e5/MH-%255BSP%255DOceanFloor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/d/d/f655e5/MH-%255BSP%255DOceanFloor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]OceanFloor"
+playerCount: "8-10"
+themes:
+  Tech: 0.9
+bots: true

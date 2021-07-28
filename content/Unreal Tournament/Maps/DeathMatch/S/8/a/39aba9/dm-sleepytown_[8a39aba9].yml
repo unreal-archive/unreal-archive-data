@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 23:41"
+variationOf: "876e1e5436dd3f84326891be0f135bfe56bd8263"
+game: "Unreal Tournament"
+name: "DM-SleepyTown"
+author: "T. \"LeTigre\" Ahlen"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-sleepytown_shot_8a39aba9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/8/a/39aba9/dm-sleepytown_shot_8a39aba9_1.png"
+originalFilename: "dm-sleepytown.zip"
+hash: "8a39aba9146f24f2ab0e545ef9ed27127d47aa46"
+fileSize: 2490427
+files:
+- name: "TAsky.utx"
+  fileSize: 177649
+  hash: "c9e33ea78e5993e3f9f79b38675706bb04590a08"
+- name: "TAhood.utx"
+  fileSize: 2272614
+  hash: "a0e8d0e8e339dfe744994f0fb5a2cae6641ed524"
+- name: "DM-SleepyTown.unr"
+  fileSize: 2536733
+  hash: "aec2cd84ad3b17765b22a74310dd90b826ca60a5"
+otherFiles: 1
+dependencies:
+  DM-SleepyTown.unr:
+  - status: "OK"
+    name: "TAsky"
+  - status: "OK"
+    name: "TAhood"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-sleepytown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/8/a/39aba9/dm-sleepytown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/8/a/39aba9/dm-sleepytown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-SleepyTown"
+playerCount: "2-6"
+themes:
+  Tech: 0.1
+  City: 0.2
+  Skaarj Tech: 0.7
+bots: true

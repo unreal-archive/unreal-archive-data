@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 04:08"
+game: "Unreal Tournament"
+name: "MH-EasterInWonderLand03"
+author: "Kayako"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "MH-EasterInWonderLand03_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/E/MH-EasterInWonderLand03_shot_1.png"
+originalFilename: "MH-EasterInWonderLand03.zip"
+hash: "87ed7fcc8700883b06767930d046724fd5fa7eba"
+fileSize: 7311362
+files:
+- name: "AnthonyBsDomain.umx"
+  fileSize: 200760
+  hash: "10cc147f3bd1ddee89fd1ef364362e2a7e9740ff"
+- name: "Seti.umx"
+  fileSize: 682733
+  hash: "d03ccd366d8d31423aaa1055ddb4ddc6e9c5b455"
+- name: "MH-EasterInWonderLand03.unr"
+  fileSize: 11160051
+  hash: "f0e173b2b4609a6de7b7b0b2274f98064fa1e257"
+- name: "Spire.umx"
+  fileSize: 929066
+  hash: "4c544ff06bfb1fe234ca0c85e74bff515890b7d9"
+- name: "Spire2.umx"
+  fileSize: 895567
+  hash: "40139ca6e50299eea336744ec0b993cf15af5ab4"
+otherFiles: 0
+dependencies:
+  MH-EasterInWonderLand03.unr:
+  - status: "OK"
+    name: "Seti"
+  - status: "OK"
+    name: "AnthonyBsDomain"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Spire"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-EasterInWonderLand03.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/E/MH-EasterInWonderLand03.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-EasterInWonderLand03.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/E/8/7/ed7fcc/MH-EasterInWonderLand03.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/8/7/ed7fcc/MH-EasterInWonderLand03.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Easter in Wonderland"
+playerCount: "1-5"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.5
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+bots: true

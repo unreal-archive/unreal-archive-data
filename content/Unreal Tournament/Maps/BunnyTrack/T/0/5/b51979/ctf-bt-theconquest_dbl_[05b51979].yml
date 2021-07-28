@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:15"
+game: "Unreal Tournament"
+name: "CTF-BT-TheConquest_dbl"
+author: "Alchemist"
+description: "None"
+releaseDate: "2015-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-TheConquest_dbl_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/T/CTF-BT-TheConquest_dbl_shot_1.png"
+originalFilename: "CTF-BT-TheConquest_dbl.zip"
+hash: "05b51979d7b1444635bc0c5c7d51b66a86307b20"
+fileSize: 8270444
+files:
+- name: "Whitesoundz.umx"
+  fileSize: 3165365
+  hash: "24a697b821f466669b19a135617f48f98174b800"
+- name: "playhouse.utx"
+  fileSize: 3412627
+  hash: "ac573b1d21c5b1e6a9e87f9c5604b4ff45b00639"
+- name: "CTF-BT-TheConquest_dbl.unr"
+  fileSize: 9619318
+  hash: "2d95ff73c58b71dc8ebe26d721e9316b4395b7cf"
+- name: "FurryMover4.u"
+  fileSize: 9204
+  hash: "20dfe6e59997bd5b2c099e89451ce2f0d2ad14eb"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  CTF-BT-TheConquest_dbl.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "playhouse"
+  - status: "OK"
+    name: "Whitesoundz"
+  - status: "OK"
+    name: "FurryMover4"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-TheConquest_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/T/CTF-BT-TheConquest_dbl.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-TheConquest_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/T/0/5/b51979/CTF-BT-TheConquest_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/T/0/5/b51979/CTF-BT-TheConquest_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT: The Conquest"
+playerCount: "2-10"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.4
+  Natural: 0.4
+bots: false

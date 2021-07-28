@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 09:10"
+game: "Unreal Tournament 2004"
+name: "DM-gsp"
+author: "Crash0veride007"
+description: "UT2003 GSP!!!"
+releaseDate: "2003-01"
+attachments: []
+originalFilename: "dm-_ge-offices.zip"
+hash: "fead0d2ed94400d97ce7b6fefd39880648c48ebe"
+fileSize: 13473557
+files:
+- name: "gspobj.usx"
+  fileSize: 1289514
+  hash: "a1e8ae13817f96d69369b72d5dc74e4f11bc8ee6"
+- name: "DM-gsp.ut2"
+  fileSize: 4100244
+  hash: "30ade56919478a001989954fef2aaaa158715062"
+- name: "gsp_music.OGG"
+  fileSize: 4005317
+  hash: "2bcd43f660eb0afb9fea35048e50dd9d6c6a3c01"
+- name: "gsptex.utx"
+  fileSize: 22810777
+  hash: "d519f352fc3d406e814c5fcc7173ea98d3e87108"
+otherFiles: 1
+dependencies:
+  gspobj.usx:
+  - status: "OK"
+    name: "gsptex"
+  DM-gsp.ut2:
+  - status: "OK"
+    name: "gspobj"
+  - status: "OK"
+    name: "gsptex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/G/dm-_ge-offices.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/G/f/e/ad0d2e/dm-_ge-offices.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/f/e/ad0d2e/dm-_ge-offices.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-GSP"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: false

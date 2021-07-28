@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:18"
+game: "Unreal"
+name: "DM[SP]InfinityLivingRoom"
+author: "[WJF]INFINITY"
+description: "Shoot the lights"
+releaseDate: "2008-08"
+attachments: []
+originalFilename: "DM[SP]InfinityLivingRoom.zip"
+hash: "00f9c4dbaae701385155c734f835211a9d68ddc3"
+fileSize: 3444980
+files:
+- name: "DM[SP]InfinityLivingRoom.unr"
+  fileSize: 2351390
+  hash: "652420ada528dc0bea98ba31291b82eac8bfe0b0"
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+- name: "SniperMessage.utx"
+  fileSize: 2451685
+  hash: "5b920f95f5b3992df45e7b45b42a04b5d3b97f60"
+- name: "SPServers.utx"
+  fileSize: 793424
+  hash: "2127b29ad17d6a36c64a5d6cb11b4ec867b0459e"
+- name: "MJ2.utx"
+  fileSize: 1403664
+  hash: "a795ac3770aba96e4411fe23f33b1aac82f2293f"
+- name: "MJ1.utx"
+  fileSize: 4215269
+  hash: "a4962ff0d2f683ae3c63ec7ca6d6cb5f071c3e2a"
+otherFiles: 0
+dependencies:
+  DM[SP]InfinityLivingRoom.unr:
+  - status: "OK"
+    name: "SniperMessage"
+  - status: "OK"
+    name: "MJ2"
+  - status: "OK"
+    name: "MJ1"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "SPServers"
+  - status: "OK"
+    name: "Sniper"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DInfinityLivingRoom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/0/0/f9c4db/DM%255BSP%255DInfinityLivingRoom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/0/0/f9c4db/DM%255BSP%255DInfinityLivingRoom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] INFINS Living Room-Night time"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: true

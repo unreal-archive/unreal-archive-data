@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:37"
+game: "Unreal Tournament"
+name: "DM-lol-AlpineManor"
+author: "Stephen [Hointer] Hedges + <lol>BK"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-AlpineManor_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-AlpineManor_shot_1.png"
+originalFilename: "DM-lol-AlpineManor.zip"
+hash: "48a844450214eebbb364db00fdccaacfc50043c6"
+fileSize: 11353998
+files:
+- name: "revenant.utx"
+  fileSize: 3901611
+  hash: "9b1765c5a14e90b93267666583b3cedfdc6e4f52"
+- name: "CT5.utx"
+  fileSize: 3277347
+  hash: "ab934d6fa8ac150f15280afa1bd41f33ac77583e"
+- name: "TreePack1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "DM-lol-AlpineManor.unr"
+  fileSize: 6231793
+  hash: "4f1e8f76414b3c6978e70c9f26e7807bfa4e5ed4"
+- name: "Oktoberfest.umx"
+  fileSize: 3644999
+  hash: "f9ee1cb00f6303f194ff01597acc804990a7f776"
+- name: "Weihnachts_Extra.u"
+  fileSize: 150692
+  hash: "d059c3aa69dd4df858fb0d69467d354471f488c9"
+otherFiles: 0
+dependencies:
+  DM-lol-AlpineManor.unr:
+  - status: "OK"
+    name: "Oktoberfest"
+  - status: "OK"
+    name: "Weihnachts_Extra"
+  - status: "OK"
+    name: "revenant"
+  - status: "OK"
+    name: "TreePack1"
+  - status: "OK"
+    name: "CT5"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-AlpineManor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-AlpineManor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-AlpineManor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/4/8/a84445/DM-lol-AlpineManor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/4/8/a84445/DM-lol-AlpineManor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Apline Manor"
+playerCount: "10-16"
+themes:
+  Nali Temple: 0.1
+  Ancient: 0.4
+  Natural: 0.1
+  Nali Castle: 0.4
+bots: true

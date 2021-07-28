@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:00"
+variationOf: "0461aafd135b564fdc90d802037d86146f719bd9"
+game: "Unreal"
+name: "INF_BridgeTooFar"
+author: "Mike Young aka Bastard'O"
+description: "None"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "INF_BridgeTooFar.zip"
+hash: "36015eb963658bdd96b058b845668e3cbd09c1f5"
+fileSize: 2256077
+files:
+- name: "MWorld.utx"
+  fileSize: 826189
+  hash: "6b702dddf927142ac692f1e42de955a3f1114591"
+- name: "RWorld.utx"
+  fileSize: 1455495
+  hash: "c6ce384bb9c17ef94d2bee108fa272f27c8f8374"
+- name: "INF_BridgeTooFar.unr"
+  fileSize: 4180693
+  hash: "0006359abbf1914fdaaacc0cadb3884c402bacd6"
+otherFiles: 1
+dependencies:
+  INF_BridgeTooFar.unr:
+  - status: "OK"
+    name: "MWorld"
+  - status: "OK"
+    name: "RWorld"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_BridgeTooFar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/B/INF_BridgeTooFar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_BridgeTooFar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/B/3/6/015eb9/INF_BridgeTooFar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/B/3/6/015eb9/INF_BridgeTooFar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "A bridge too far..."
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.8
+  Nali Castle: 0.1
+bots: true

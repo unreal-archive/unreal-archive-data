@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:31"
+game: "Unreal Tournament"
+name: "CTF-NotreDameOfOdyssey"
+author: "Martin 'FuZZneK' Belley"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-NotreDameOfOdyssey_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NotreDameOfOdyssey_shot_1.png"
+originalFilename: "ctf-notredameofodyssey.zip"
+hash: "cf8e8993f7ebddf416098bccbe086194e157d696"
+fileSize: 2431181
+files:
+- name: "NotreDame.utx"
+  fileSize: 46585
+  hash: "57ab829f3b38d55ea28724a41d4c15ab3e170f5d"
+- name: "CTF-NotreDameOfOdyssey.unr"
+  fileSize: 3824074
+  hash: "44de13edef816ed3c468c70a99f6a196d710974d"
+- name: "UT-FUZDG.umx"
+  fileSize: 1495849
+  hash: "110b91510ceae0768e6bfc4be4a4879e44a9ef5b"
+otherFiles: 1
+dependencies:
+  CTF-NotreDameOfOdyssey.unr:
+  - status: "OK"
+    name: "UT-FUZDG"
+  - status: "OK"
+    name: "NotreDame"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-notredameofodyssey.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404322"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsN/&file=ctf-notredameofodyssey.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-notredameofodyssey.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsN/ctf-notredameofodyssey.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/c/f/8e8993/ctf-notredameofodyssey.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/c/f/8e8993/ctf-notredameofodyssey.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Notre-Dame-of-Odyssey"
+playerCount: "6 to 16"
+themes:
+  Industrial: 0.1
+  Ancient: 0.4
+  Natural: 0.1
+  Nali Castle: 0.3
+bots: true

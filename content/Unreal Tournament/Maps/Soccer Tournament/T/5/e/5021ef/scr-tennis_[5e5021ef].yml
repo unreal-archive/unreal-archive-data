@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:07"
+game: "Unreal Tournament"
+name: "SCR-Tennis"
+author: "CaMe AkA PeLe"
+description: "Made by CaMe"
+releaseDate: "2007-06"
+attachments: []
+originalFilename: "SCR-Tennis.rar"
+hash: "5e5021efb0cad377d9503edf9a74589594585dd3"
+fileSize: 433443
+files:
+- name: "Tennis.utx"
+  fileSize: 177666
+  hash: "b25aaf3c7526406aae73e7a666b76244774e3e17"
+- name: "SCR-Tennis.unr"
+  fileSize: 96767
+  hash: "fd8f331ccb376fe20f485d410347c30afb635c5a"
+- name: "Goal.uax"
+  fileSize: 460072
+  hash: "bc1a1f95c384dd78e7606bf9f158960cf3f9eb1a"
+otherFiles: 0
+dependencies:
+  SCR-Tennis.unr:
+  - status: "OK"
+    name: "Tennis"
+  - status: "OK"
+    name: "Goal"
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "MISSING"
+    name: "SoccerScores"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-Tennis.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-Tennis.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-Tennis.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-Tennis.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/T/5/e/5021ef/SCR-Tennis.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/T/5/e/5021ef/SCR-Tennis.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "F0ot Tennis"
+playerCount: "2-4"
+themes:
+  City: 0.7
+  Nali Castle: 0.3
+bots: false

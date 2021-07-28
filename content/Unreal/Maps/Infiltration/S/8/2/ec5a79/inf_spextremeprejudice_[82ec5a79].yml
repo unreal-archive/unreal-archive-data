@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:35"
+game: "Unreal"
+name: "INF_[SP]ExtremePrejudice"
+author: "Mike Young *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2008-05"
+attachments:
+- type: "IMAGE"
+  name: "INF_[SP]ExtremePrejudice_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Infiltration/S/INF_%5BSP%5DExtremePrejudice_shot_1.png"
+originalFilename: "INF_[SP]ExtremePrejudice.zip"
+hash: "82ec5a79c79dc3dd6cda318eb5b141082d014730"
+fileSize: 7116175
+files:
+- name: "INF_[SP]ExtremePrejudice.unr"
+  fileSize: 13635239
+  hash: "b1dabaf8a2739e6ed14b3ee97019bf0edfd568fd"
+- name: "rw_Sounds.uax"
+  fileSize: 112239
+  hash: "27a574fafc69cd54e2db02ddde18902627c5a581"
+otherFiles: 0
+dependencies:
+  INF_[SP]ExtremePrejudice.unr:
+  - status: "MISSING"
+    name: "Assault250"
+  - status: "OK"
+    name: "rw_Sounds"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=INF_%5BSP%5DExtremePrejudice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/S/INF_%5BSP%5DExtremePrejudice.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/S/8/2/ec5a79/INF_%255BSP%255DExtremePrejudice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/S/8/2/ec5a79/INF_%255BSP%255DExtremePrejudice.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "[SP] Inf-Extreme Prejudice"
+playerCount: "8 - 32"
+themes:
+  Ancient: 0.4
+  Natural: 0.5
+bots: true

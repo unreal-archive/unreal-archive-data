@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 08:42"
+game: "Unreal Tournament 2004"
+name: "CTF-TwentyThreeNinety"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-TwentyThreeNinety_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/CTF-TwentyThreeNinety_shot_1.png"
+originalFilename: "ctf-twentythreeninety.zip"
+hash: "5d9bfbe31aec12e045cea381f6ff11a271416b83"
+fileSize: 4712987
+files:
+- name: "FMLTextures.utx"
+  fileSize: 1398724
+  hash: "809e9730b4f5489a04608515c59fa4521ca1433c"
+- name: "BuildingPeices.usx"
+  fileSize: 310345
+  hash: "14359efcbc6bb7c8dfbb52a6d0aec684a84d48f2"
+- name: "CTF-TwentyThreeNinety.ut2"
+  fileSize: 11770663
+  hash: "21eeb29a38dd6e969c89b2628b1bf03398e98607"
+- name: "FiveMilleniaLater.ogg"
+  fileSize: 2739482
+  hash: "fe2bbd664d20a06c1980aee649a6538bf0763766"
+- name: "2390Meshes.usx"
+  fileSize: 607417
+  hash: "03dd340e8b0ac8ad329564c66ea0533051cd6be1"
+- name: "CarTex.utx"
+  fileSize: 350907
+  hash: "5b14ac5730e64d9d7697d39ae46b90cd989e4f55"
+otherFiles: 2
+dependencies:
+  CTF-TwentyThreeNinety.ut2:
+  - status: "OK"
+    name: "BuildingPeices"
+  - status: "OK"
+    name: "2390Meshes"
+  BuildingPeices.usx:
+  - status: "OK"
+    name: "FMLTextures"
+  "2390Meshes.usx":
+  - status: "OK"
+    name: "CarTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/ctf-twentythreeninety.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/5/d/9bfbe3/ctf-twentythreeninety.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/5/d/9bfbe3/ctf-twentythreeninety.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-TwentyThreeNinety"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Industrial: 0.4
+  City: 0.3
+bots: true

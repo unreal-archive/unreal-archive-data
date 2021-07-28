@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:11"
+game: "Unreal Tournament"
+name: "CTF-H2OPool"
+author: "S.Kranendonk"
+description: "Dont Pee in the pool"
+releaseDate: "2002-03"
+attachments: []
+originalFilename: "ctf-{h2o}pool.zip"
+hash: "95af0aadba860c78688c018319985af65679ba22"
+fileSize: 469999
+files:
+- name: "CTF-H2OPool.unr"
+  fileSize: 402450
+  hash: "f3c213b5afac2761fa51058ebe83b5bdde7d8ad3"
+- name: "PoolDetails.utx"
+  fileSize: 1419130
+  hash: "7272b031562022c52774455a3afff648a4995107"
+otherFiles: 0
+dependencies:
+  CTF-H2OPool.unr:
+  - status: "OK"
+    name: "PoolDetails"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bh2o%7Dpool.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-%7Bh2o%7Dpool.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/9/5/af0aad/ctf-%257Bh2o%257Dpool.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/9/5/af0aad/ctf-%257Bh2o%257Dpool.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "H2O Pool"
+playerCount: "2-16"
+themes:
+  Nali Temple: 0.6
+  Ancient: 0.4
+bots: false

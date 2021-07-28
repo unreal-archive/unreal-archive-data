@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:12"
+game: "Unreal Tournament"
+name: "CTF-NarrowllVll"
+author: "Michhhhael"
+description: "By popular demand, I present the 5th Narrow !"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-NarrowllVll_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NarrowllVll_shot_1.png"
+originalFilename: "ctf-narrowllvll.zip"
+hash: "a3c5e06d0a076acec0c8676d56439aa88b1beb42"
+fileSize: 921444
+files:
+- name: "CTF-NarrowllVll.unr"
+  fileSize: 1149861
+  hash: "d11075b6286dfc7be99b692f4b4edcf1cef3acfa"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "MicNar5.utx"
+  fileSize: 177691
+  hash: "5486622a567c222e0db3b56c544247e17268506c"
+- name: "NBSpecialT.utx"
+  fileSize: 116962
+  hash: "724fcd8a98dcb1866d02c9577b8a9120fa6ce841"
+- name: "CTF-NarrowllVll-edit.unr"
+  fileSize: 1066401
+  hash: "c3f9533a1c1b58e7fbb83e01c8a3deca9931a76f"
+- name: "NBSpecials.utx"
+  fileSize: 89581
+  hash: "41d71bb88819159152a559aadfa5a1380f1c42e7"
+otherFiles: 1
+dependencies:
+  CTF-NarrowllVll.unr:
+  - status: "OK"
+    name: "MicNar5"
+  - status: "OK"
+    name: "InfAdds"
+  CTF-NarrowllVll-edit.unr:
+  - status: "OK"
+    name: "MicNar5"
+  - status: "OK"
+    name: "InfAdds"
+  NBSpecials.utx:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-narrowllvll.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-narrowllvll.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/a/3/c5e06d/ctf-narrowllvll.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/a/3/c5e06d/ctf-narrowllvll.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "NarrowllVll"
+playerCount: "4 to 16"
+themes:
+  Industrial: 0.3
+  City: 0.4
+  Natural: 0.3
+bots: false

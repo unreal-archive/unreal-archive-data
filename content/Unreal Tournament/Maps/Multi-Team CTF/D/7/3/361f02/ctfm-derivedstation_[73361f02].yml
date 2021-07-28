@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:30"
+game: "Unreal Tournament"
+name: "CTFM-DerivedStation"
+author: "Crokx"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-DerivedStation_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/CTFM-DerivedStation_shot_1.png"
+originalFilename: "ctfm-derivedstation.zip"
+hash: "73361f024b2d1e1652d4c64915842b02d4f0bf17"
+fileSize: 824829
+files:
+- name: "CTFM-DerivedStation.unr"
+  fileSize: 2177835
+  hash: "a37af1495c81280a452c584cfb2264b00c51e104"
+otherFiles: 1
+dependencies:
+  CTFM-DerivedStation.unr:
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-derivedstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/ctfm-derivedstation.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/7/3/361f02/ctfm-derivedstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/7/3/361f02/ctfm-derivedstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Derived Station"
+playerCount: "4x4 => 16"
+themes:
+  Industrial: 0.7
+  Skaarj Tech: 0.3
+bots: true

@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-17 21:42"
+game: "Unreal Tournament"
+name: "DM-HyperFire"
+author: "IndySkyz"
+description: "None"
+releaseDate: "2008-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-hyperfire_shot_e0c9641a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/e/0/c9641a/dm-hyperfire_shot_e0c9641a_1.png"
+- type: "IMAGE"
+  name: "dm-hyperfire_shot_e0c9641a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/e/0/c9641a/dm-hyperfire_shot_e0c9641a_2.png"
+originalFilename: "DM-Hyperfire.zip"
+hash: "e0c9641adfbc08a6157523c7f110a5b9cc928e43"
+fileSize: 2523801
+files:
+- name: "kbmix1.umx"
+  fileSize: 1604876
+  hash: "332647ad5b59ff9a648171a6ff6a83253ed56085"
+- name: "DM-HyperFire.unr"
+  fileSize: 2362533
+  hash: "7ca1ded96dae41952b9d3bbea5072b7d50e9ac80"
+otherFiles: 2
+dependencies:
+  DM-HyperFire.unr:
+  - status: "OK"
+    name: "kbmix1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/DM-Hyperfire.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6877"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/e/0/c9641a/DM-Hyperfire.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/e/0/c9641a/DM-Hyperfire.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "HyperFire"
+playerCount: "2-6"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: true

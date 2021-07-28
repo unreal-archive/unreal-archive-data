@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:13"
+variationOf: "df6ff598acc4481d304eefeee9c67998097d327d"
+game: "Unreal Tournament"
+name: "CTF-Nightlife"
+author: "ViruZ & EncoR"
+description: "None"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-nightlife_shot_f103e1e0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/f/1/03e1e0/ctf-nightlife_shot_f103e1e0_1.png"
+originalFilename: "ctf-nightlife.zip"
+hash: "f103e1e0d49731500c4f8802b913c7dc1d64af4b"
+fileSize: 1624836
+files:
+- name: "UT2.utx"
+  fileSize: 1559401
+  hash: "5b6e1e07e375891bee910749ca7fdce1c8e6a5a7"
+- name: "CTF-Nightlife.unr"
+  fileSize: 1366270
+  hash: "569773d3047d1e29932f9bb9b60c2c556390d9cf"
+otherFiles: 1
+dependencies:
+  CTF-Nightlife.unr:
+  - status: "OK"
+    name: "UT2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-nightlife.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-nightlife.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=647"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/f/1/03e1e0/ctf-nightlife.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/f/1/03e1e0/ctf-nightlife.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-NightLife"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.3
+  Tech: 0.2
+  Industrial: 0.1
+  Ancient: 0.4
+bots: true

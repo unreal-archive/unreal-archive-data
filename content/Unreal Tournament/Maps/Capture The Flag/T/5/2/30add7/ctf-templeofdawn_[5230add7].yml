@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:39"
+game: "Unreal Tournament"
+name: "CTF-TempleOfDawn"
+author: "Revelation"
+description: "None"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-templeofdawn_shot_5230add7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-templeofdawn_shot_5230add7_1.png"
+- type: "IMAGE"
+  name: "ctf-templeofdawn_shot_5230add7_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-templeofdawn_shot_5230add7_2.png"
+originalFilename: "ctf-templeofdawnv11.zip"
+hash: "5230add70b6646611b0f5b16382d6f0ae99a04c0"
+fileSize: 6913261
+files:
+- name: "CTF-TempleOfDawn.unr"
+  fileSize: 8021385
+  hash: "0362d528d2f6b8c1c2ac99da0d345306b253554a"
+- name: "chicoruinspack.utx"
+  fileSize: 3151438
+  hash: "ede065a0fc344030c307ca0f6a72efe890aff175"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "tree405.u"
+  fileSize: 198748
+  hash: "6215b64d644a4228870ea429496517405aba233c"
+- name: "Sacred.umx"
+  fileSize: 635539
+  hash: "cafce88d215fbb6f0c723477f918a73a777c8e89"
+otherFiles: 2
+dependencies:
+  CTF-TempleOfDawn.unr:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "tree405"
+  - status: "OK"
+    name: "Sacred"
+  chicoruinspack.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-templeofdawnv11.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsT/&file=ctf-templeofdawnv11.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-templeofdawnv11.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsT/ctf-templeofdawnv11.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/5/2/30add7/ctf-templeofdawnv11.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/5/2/30add7/ctf-templeofdawnv11.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Temple of Dawn"
+playerCount: "12-16"
+themes:
+  Ancient: 0.9
+  Nali Castle: 0.1
+bots: true

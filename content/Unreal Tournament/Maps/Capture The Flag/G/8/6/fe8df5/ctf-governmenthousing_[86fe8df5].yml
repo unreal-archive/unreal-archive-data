@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:35"
+game: "Unreal Tournament"
+name: "CTF-GovernmentHousing"
+author: "Fastbak"
+description: "None"
+releaseDate: "2018-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-GovernmentHousing_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GovernmentHousing_shot_1.png"
+originalFilename: "CTF-GovernmentHousing.zip"
+hash: "86fe8df5935cace679e5e9760c8d3d536dd12e00"
+fileSize: 2760588
+files:
+- name: "ModDeco5.utx"
+  fileSize: 1904562
+  hash: "f9ea7309238dd94481ca40bed1c99845feb682ee"
+- name: "CTF-GovernmentHousing.unr"
+  fileSize: 4855867
+  hash: "10e4d343b25bc4781da3d57ede60eab47e208382"
+- name: "TAcars.utx"
+  fileSize: 342431
+  hash: "3bdec3ff89138c65dac45ec38f4b74f78d43dca9"
+otherFiles: 0
+dependencies:
+  CTF-GovernmentHousing.unr:
+  - status: "OK"
+    name: "ModDeco5"
+  - status: "OK"
+    name: "TAcars"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-GovernmentHousing.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GovernmentHousing.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/8/6/fe8df5/CTF-GovernmentHousing.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/8/6/fe8df5/CTF-GovernmentHousing.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Government Housing"
+playerCount: "8 - 16"
+themes:
+  Tech: 0.1
+  Industrial: 0.3
+  Ancient: 0.1
+  City: 0.3
+  Natural: 0.3
+bots: true

@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-Wolf"
+author: "Grz"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "AS-Wolf_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/W/AS-Wolf_shot_1.png"
+originalFilename: "as-wolf.zip"
+hash: "074e95bba6bc86eeecce6c74fa060a693bfea5d3"
+fileSize: 4759825
+files:
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "wolf.umx"
+  fileSize: 2336321
+  hash: "60c8b19ec090acbbc548ce70ed360cc9684b39a0"
+- name: "AS-Wolf.unr"
+  fileSize: 6964434
+  hash: "7495c07369f0913b3fc2ccb1b34eb6730e553c10"
+- name: "opwolf.utx"
+  fileSize: 857588
+  hash: "c4efa0f5dad3b1d3e34e65bc2a8c2008017b2c2a"
+otherFiles: 1
+dependencies:
+  AS-Wolf.unr:
+  - status: "OK"
+    name: "wolf"
+  - status: "OK"
+    name: "cbrad_indus"
+  - status: "OK"
+    name: "opwolf"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/W/as-wolf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403160"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/W/0/7/4e95bb/as-wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/W/0/7/4e95bb/as-wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Operation Wolf"
+playerCount: "8-12"
+themes:
+  Tech: 0.7
+  Industrial: 0.1
+  City: 0.1
+  Skaarj Tech: 0.1
+bots: true

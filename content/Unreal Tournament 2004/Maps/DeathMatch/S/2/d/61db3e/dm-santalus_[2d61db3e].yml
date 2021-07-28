@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 11:04"
+game: "Unreal Tournament 2004"
+name: "DM-Santalus"
+author: "Dave Ewing (& Jackazzzzzz)"
+description: "None"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Santalus_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Santalus_shot_1.png"
+originalFilename: "dm-santalus.zip"
+hash: "2d61db3e317d9b4c8b327a9ef22ebc2c23542e8a"
+fileSize: 5152314
+files:
+- name: "santalus.usx"
+  fileSize: 199040
+  hash: "3723ca2ba475b448059aefc16aec527df70399df"
+- name: "Santalus2.0.usx"
+  fileSize: 5459499
+  hash: "9a7cd27d913f8ea75b69f62673af77e4919f3984"
+- name: "Santalus2.0.utx"
+  fileSize: 5459499
+  hash: "126c962ffc5b11608e2be08ef176a069048c5ac8"
+- name: "DM-Santalus.ut2"
+  fileSize: 5457410
+  hash: "f82a331649bb7d276946f38fd4599abd27244833"
+otherFiles: 2
+dependencies:
+  Santalus2.0.usx:
+  - status: "MISSING"
+    name: "santalus2"
+  Santalus2.0.utx:
+  - status: "MISSING"
+    name: "santalus2"
+  DM-Santalus.ut2:
+  - status: "MISSING"
+    name: "santalus2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-santalus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/2/d/61db3e/dm-santalus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/2/d/61db3e/dm-santalus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Santalus"
+playerCount: "4-6"
+themes:
+  Ancient: 1.0
+bots: true

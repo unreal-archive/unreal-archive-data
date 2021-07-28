@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:05"
+game: "Unreal Tournament"
+name: "DM-SuddenDeath"
+author: "Slapshot (Robert J. Missionario)"
+description: "Drop the PUCK!!!!!! It's Show Time"
+releaseDate: "2009-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-suddendeath_shot_e139c3df_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/e/1/39c3df/dm-suddendeath_shot_e139c3df_1.png"
+originalFilename: "dm-suddendeath.zip"
+hash: "e139c3df2a49cbcf733244ba7e0bcfdc56cbcb8a"
+fileSize: 2776199
+files:
+- name: "DM-SuddenDeath.unr"
+  fileSize: 5436998
+  hash: "0b02b9bfaa60af297180298e53bf1a5cff1382a5"
+- name: "rink.utx"
+  fileSize: 2415352
+  hash: "3ea7a2ea432a45c7bcf7d2e2ef1e8223dc7497d8"
+otherFiles: 0
+dependencies:
+  DM-SuddenDeath.unr:
+  - status: "OK"
+    name: "rink"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-suddendeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/e/1/39c3df/dm-suddendeath.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/e/1/39c3df/dm-suddendeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/e/1/39c3df/dm-suddendeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sudden Death"
+playerCount: "8"
+themes:
+  Tech: 0.1
+  Industrial: 0.1
+  City: 0.2
+  Skaarj Tech: 0.5
+  Nali Castle: 0.1
+bots: true

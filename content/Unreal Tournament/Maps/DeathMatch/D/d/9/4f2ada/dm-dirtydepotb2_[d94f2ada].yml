@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:32"
+game: "Unreal Tournament"
+name: "DM-Dirtydepotb2"
+author: "Julian 'Chand' Marcone"
+description: "None"
+releaseDate: "2000-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-dirtydepotb2_shot_d94f2ada_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/d/9/4f2ada/dm-dirtydepotb2_shot_d94f2ada_1.png"
+- type: "IMAGE"
+  name: "dm-dirtydepotb2_shot_d94f2ada_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/d/9/4f2ada/dm-dirtydepotb2_shot_d94f2ada_2.png"
+- type: "IMAGE"
+  name: "dm-dirtydepotb2_shot_d94f2ada_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/d/9/4f2ada/dm-dirtydepotb2_shot_d94f2ada_3.png"
+originalFilename: "dm-ddbeta2.zip"
+hash: "d94f2ada1cbaf9e67d869da94ee6e69914435333"
+fileSize: 606485
+files:
+- name: "DM-Dirtydepotb2.unr"
+  fileSize: 586904
+  hash: "1d392dd9b350d3076d9072f0e8bf93c77f8d518b"
+- name: "CLDepot.utx"
+  fileSize: 571503
+  hash: "d73b44330602dbf514bc05806dbca54489555381"
+otherFiles: 2
+dependencies:
+  DM-Dirtydepotb2.unr:
+  - status: "OK"
+    name: "CLDepot"
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/d/9/4f2ada/dm-ddbeta2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/d/9/4f2ada/dm-ddbeta2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/d/9/4f2ada/dm-ddbeta2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dirty Depot"
+playerCount: "3-8"
+themes:
+  Skaarj Crypt: 0.2
+  City: 0.8
+bots: true

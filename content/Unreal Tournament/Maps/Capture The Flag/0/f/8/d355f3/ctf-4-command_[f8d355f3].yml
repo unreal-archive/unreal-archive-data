@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:13"
+game: "Unreal Tournament"
+name: "CTF-[4]-Command"
+author: "Conversion by Red Dwarf"
+description: "None"
+releaseDate: "2012-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-[4]-Command_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-%5B4%5D-Command_shot_1.png"
+originalFilename: "CTF-[4]-Command.zip"
+hash: "f8d355f3f16334dfb3d1540f11aca313d2c7f0be"
+fileSize: 4874012
+files:
+- name: "CTF-[4]-Command.unr"
+  fileSize: 7563090
+  hash: "90290813e4089e4cef08764a54c56b7431836fac"
+- name: "CommandFX.utx"
+  fileSize: 489953
+  hash: "1493cb634be44df36605f7b0e95f1608e1264ea3"
+- name: "CTF4Team.utx"
+  fileSize: 2918421
+  hash: "1812064a7f8f14b0d9ffe1e114d2992ac05e4b8d"
+otherFiles: 0
+dependencies:
+  CTF-[4]-Command.unr:
+  - status: "OK"
+    name: "CommandFX"
+  - status: "OK"
+    name: "CTF4Team"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF4/&file=CTF-%5B4%5D-Command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-%5B4%5D-Command.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF4&file=CTF-%5B4%5D-Command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/f/8/d355f3/CTF-%255B4%255D-Command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/f/8/d355f3/CTF-%255B4%255D-Command.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Last Command 4 Bases"
+playerCount: "8-16"
+themes:
+  Industrial: 1.0
+bots: true

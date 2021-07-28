@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:39"
+game: "Unreal Tournament"
+name: "DM-Chiller"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-chiller_shot_80061812_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/8/0/061812/dm-chiller_shot_80061812_1.png"
+originalFilename: "dm-chiller.zip"
+hash: "800618123b09b54aac5e69eb3495d98f498a6968"
+fileSize: 4539582
+files:
+- name: "wlfsnds.uax"
+  fileSize: 85228
+  hash: "1b3a3be7d3d4fb84be56f696c48e5a7b1ee7dc52"
+- name: "DM-Chiller.unr"
+  fileSize: 2621232
+  hash: "e68363f6c88378650866a6e5c27a73fb1cc743b4"
+- name: "Wolfentex.utx"
+  fileSize: 5157166
+  hash: "225a3ed3e1754718b5859a98dfcbb286d6299eb3"
+otherFiles: 0
+dependencies:
+  DM-Chiller.unr:
+  - status: "OK"
+    name: "Wolfentex"
+  - status: "OK"
+    name: "wlfsnds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-chiller.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/8/0/061812/dm-chiller.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/8/0/061812/dm-chiller.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/8/0/061812/dm-chiller.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Chiller"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.6
+  Natural: 0.3
+  Nali Castle: 0.2
+bots: true

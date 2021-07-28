@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 09:52"
+game: "Unreal Tournament 2004"
+name: "DM-ControlDeck3"
+author: "dinwitty (myscha conversion)"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-ControlDeck3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-ControlDeck3_shot_1.png"
+originalFilename: "dm-controldeck3.zip"
+hash: "1199b84a8cc3dce0cdfc1d44083291ef6071d0bc"
+fileSize: 1720840
+files:
+- name: "DecayedS.utx"
+  fileSize: 1085657
+  hash: "3a93be3c3eeef3d1b2ccceaca4720c458d727369"
+- name: "DM-ControlDeck3.ut2"
+  fileSize: 4034380
+  hash: "73143bf7cf9eb0b8f062f77d59cf5e2cb5d49f3d"
+- name: "Deck16Mover.usx"
+  fileSize: 30898
+  hash: "07fd8ed574b4bd8ac18f8281afac2f4115f1b9c2"
+otherFiles: 1
+dependencies:
+  DM-ControlDeck3.ut2:
+  - status: "OK"
+    name: "Deck16Mover"
+  Deck16Mover.usx:
+  - status: "OK"
+    name: "DecayedS"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/dm-controldeck3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/1/1/99b84a/dm-controldeck3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/1/1/99b84a/dm-controldeck3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Control Deck 3 (beta)"
+playerCount: "Unknown"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true

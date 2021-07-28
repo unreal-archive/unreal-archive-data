@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 05:30"
+variationOf: "e332856e1b665f6ba9379a56d28c991935e7bdbd"
+game: "Unreal Tournament"
+name: "SP-Kaliber-Part2"
+author: "Juergen HERBy Parnitz"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "sp-kaliber-part2_shot_20bb785b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/K/sp-kaliber-part2_shot_20bb785b_1.png"
+- type: "IMAGE"
+  name: "sp-kaliber-part2_shot_20bb785b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/K/sp-kaliber-part2_shot_20bb785b_2.png"
+originalFilename: "KaliberPart2.zip"
+hash: "20bb785ba7b41cecdb87face3835cd123a4914c4"
+fileSize: 6642736
+files:
+- name: "Misc1.uax"
+  fileSize: 5468153
+  hash: "95af7345cd21ef96dddca7c5aca5e794af00be35"
+- name: "Crater.umx"
+  fileSize: 896351
+  hash: "1e840e29828ddbd98359957c9dd5e0e551b5c967"
+- name: "SP-Kaliber-Part2.unr"
+  fileSize: 1716734
+  hash: "4bb2303419ed6102e4263318c77bc52d729bd567"
+otherFiles: 3
+dependencies:
+  SP-Kaliber-Part2.unr:
+  - status: "OK"
+    name: "Misc1"
+  - status: "OK"
+    name: "Crater"
+  - status: "MISSING"
+    name: "SinglePlayer4UT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SinglePlayer&file=KaliberPart2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/K/KaliberPart2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/K/2/0/bb785b/KaliberPart2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Single%20Player/K/2/0/bb785b/KaliberPart2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "Kaliber: Part2"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.4
+  Skaarj Tech: 0.4
+bots: false

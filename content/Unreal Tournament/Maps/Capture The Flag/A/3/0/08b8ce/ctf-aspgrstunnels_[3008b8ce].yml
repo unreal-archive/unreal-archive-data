@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:55"
+game: "Unreal Tournament"
+name: "CTF-ASPGrSTunnels]["
+author: "|r§|-)ÉxÇàlïßê®(-"
+description: "None"
+releaseDate: "2003-03"
+attachments: []
+originalFilename: "ctf-aspgtunnels.zip"
+hash: "3008b8ce24f9960d33684edb34376e2dea1f4e38"
+fileSize: 782438
+files:
+- name: "CTF-ASPGrSTunnels][.unr"
+  fileSize: 1181291
+  hash: "c4de77495dedb190d5c4c63f5749b81c427052e9"
+- name: "clanrs.utx"
+  fileSize: 177658
+  hash: "b7573a0a79083610ff624e5c0244d170e5943e8e"
+- name: "DJRaptor.umx"
+  fileSize: 161089
+  hash: "db11f0a854ea011c6af95226d1e10dba926756ae"
+- name: "rSTunnels.utx"
+  fileSize: 909139
+  hash: "4ee29dd13da461b59e8711d44ce384f2c3e42049"
+otherFiles: 0
+dependencies:
+  CTF-ASPGrSTunnels][.unr:
+  - status: "OK"
+    name: "rSTunnels"
+  - status: "OK"
+    name: "clanrs"
+  - status: "OK"
+    name: "DJRaptor"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-aspgtunnels.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-aspgtunnels.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/3/0/08b8ce/ctf-aspgtunnels.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/3/0/08b8ce/ctf-aspgtunnels.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-ASPGrSTunnels"
+playerCount: "16+"
+themes: {}
+bots: false

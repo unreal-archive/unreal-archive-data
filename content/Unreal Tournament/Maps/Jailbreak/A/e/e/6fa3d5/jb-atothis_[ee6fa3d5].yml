@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 23:54"
+game: "Unreal Tournament"
+name: "JB-Atothis"
+author: "Cory Spooner 'TheSpoonDog'"
+description: "None"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "JB-Atothis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/A/JB-Atothis_shot_1.png"
+originalFilename: "jb-atothis.zip"
+hash: "ee6fa3d5d44b229b5da45edca7287fa9366030db"
+fileSize: 1126686
+files:
+- name: "JB-Atothis.unr"
+  fileSize: 4015003
+  hash: "79072b61a86ca314139e7bc3a7b8d14344252c15"
+otherFiles: 1
+dependencies:
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+  JB-Atothis.unr:
+  - status: "OK"
+    name: "JailBreak"
+  - status: "OK"
+    name: "JBArena"
+  JailBreak.u:
+  - status: "MISSING"
+    name: "JBAudio"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/A/jb-atothis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/A/e/e/6fa3d5/jb-atothis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/A/e/e/6fa3d5/jb-atothis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Atothis's Lair"
+playerCount: "6-8"
+themes: {}
+bots: true

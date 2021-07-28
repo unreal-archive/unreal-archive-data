@@ -1,0 +1,79 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-02 10:38"
+game: "Unreal"
+name: "Baffordu"
+author: "Ryan Armstrong"
+description: "None"
+releaseDate: "1999-03"
+attachments: []
+originalFilename: "baffordu.zip"
+hash: "19d2af46a7974c4d4fedd0b0495764e715622982"
+fileSize: 2128167
+files:
+- name: "dmbafford.unr"
+  fileSize: 3443333
+  hash: "41cf98ab118dc227f6f9cebd795b1a3cdd5e3e18"
+- name: "Level4-1.umx"
+  fileSize: 82951
+  hash: "7f6c341a24e2c374e3cdd6317266b1e9f76c1019"
+- name: "bafford.unr"
+  fileSize: 3353083
+  hash: "244fcdb2c4a9b22a099f084ae900066ae99968a7"
+- name: "Level1-2.umx"
+  fileSize: 69511
+  hash: "e6515daeaf86686e6c082c2338f6ecc9465dab0c"
+- name: "Level3-2.umx"
+  fileSize: 79415
+  hash: "eaf43b74f739c27c4986948c6e39afca2493dcc8"
+otherFiles: 0
+dependencies:
+  bafford.unr:
+  - status: "OK"
+    name: "Level1-2"
+  - status: "OK"
+    name: "Level3-2"
+  - status: "OK"
+    name: "Level4-1"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6133588"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/B/baffordu.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/COOP/&file=baffordu.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/COOP/baffordu.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/baffordu.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/B/1/9/d2af46/baffordu.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/B/1/9/d2af46/baffordu.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "bafford"
+  title: "Bafford's Manor"
+  author: "Ryan Armstrong"
+- name: "dmbafford"
+  title: "Bafford's Manor"
+  author: "Ryan Armstrong"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.1
+  Nali Castle: 0.8

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:14"
+game: "Unreal Tournament"
+name: "DM-Diego-Dimensional-FIX"
+author: "Diego_{HoF}"
+description: "None"
+releaseDate: "2012-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-Diego-Dimensional-FIX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-Diego-Dimensional-FIX_shot_1.png"
+originalFilename: "DM-Dimensional-FIX.rar"
+hash: "3a23a68ef6d6418eedcd966fe49a4ffe880a6b1c"
+fileSize: 257771
+files:
+- name: "AXELF.umx"
+  fileSize: 118314
+  hash: "81f7f4dea00bef4d83029bbc3ca5f93e96dc6407"
+- name: "DM-Diego-Dimensional-FIX.unr"
+  fileSize: 824932
+  hash: "0b48e0d6e806721160cf3f254d71c898f4035e01"
+otherFiles: 0
+dependencies:
+  DM-Diego-Dimensional-FIX.unr:
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "AXELF"
+  - status: "MISSING"
+    name: "sgtech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Dimensional-FIX.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-Dimensional-FIX.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/3/a/23a68e/DM-Dimensional-FIX.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/3/a/23a68e/DM-Dimensional-FIX.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dimensional Cube FIX"
+playerCount: "6-12"
+themes:
+  Tech: 0.6
+  Natural: 0.1
+  Nali Castle: 0.3
+bots: true

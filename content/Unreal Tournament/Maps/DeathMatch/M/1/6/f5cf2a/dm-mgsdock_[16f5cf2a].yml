@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:25"
+game: "Unreal Tournament"
+name: "DM-MGSdock"
+author: "Glen Cooper"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-MGSdock_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MGSdock_shot_1.png"
+originalFilename: "dm-mgsdock.zip"
+hash: "16f5cf2a9cb967a0f15945804025fb70ad4697f6"
+fileSize: 390764
+files:
+- name: "MetalGear.umx"
+  fileSize: 264024
+  hash: "5ac9873366f4d089522bc4db5694c89d81ae06f7"
+- name: "DM-MGSdock.unr"
+  fileSize: 668479
+  hash: "57ac0ef9b1a17c68da2ababb78ac0c0c207b8b5d"
+otherFiles: 1
+dependencies:
+  DM-MGSdock.unr:
+  - status: "MISSING"
+    name: "SpaceRocking"
+  - status: "OK"
+    name: "MetalGear"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-mgsdock.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-mgsdock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-mgsdock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-mgsdock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/1/6/f5cf2a/dm-mgsdock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/1/6/f5cf2a/dm-mgsdock.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Metal Gear Solid - Dock"
+playerCount: "2-16"
+themes:
+  City: 1.0
+bots: false

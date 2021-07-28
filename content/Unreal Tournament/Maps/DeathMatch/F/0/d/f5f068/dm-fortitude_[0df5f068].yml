@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:12"
+game: "Unreal Tournament"
+name: "DM-Fortitude"
+author: "Dave 'Faceman' Hartley"
+description: "DM-Fortitude"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-Fortitude_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-Fortitude_shot_1.png"
+originalFilename: "dm-fortitude.zip"
+hash: "0df5f06808852597cc921b8e2d68658fcd101b1e"
+fileSize: 717654
+files:
+- name: "DM-Fortitude.unr"
+  fileSize: 1242976
+  hash: "39ced76650f957f7f6a71c68cea8c332721a6903"
+- name: "DM_fortitude.utx"
+  fileSize: 495295
+  hash: "e2f7856e9f246e2403ecc03f2bcc81aa92c889d8"
+otherFiles: 1
+dependencies:
+  DM-Fortitude.unr:
+  - status: "OK"
+    name: "DM_fortitude"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/dm-fortitude.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dm-fortitude.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-fortitude.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsF/dm-fortitude.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/0/d/f5f068/dm-fortitude.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/0/d/f5f068/dm-fortitude.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Fortitude"
+playerCount: "6 - 16"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.1
+  Nali Castle: 0.6
+  Skaarj Tech: 0.2
+bots: true

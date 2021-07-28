@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:32"
+game: "Unreal"
+name: "DM-FutureCity"
+author: "Jeff Martin - www.geocities.com/j4unreal"
+description: "None"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-FutureCity_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/F/DM-FutureCity_shot_1.png"
+originalFilename: "DM-FutureCity.zip"
+hash: "8a320a1dfbcb039263167611f44b9f9c1afe41c5"
+fileSize: 7405979
+files:
+- name: "DM-FutureCity.unr"
+  fileSize: 3183017
+  hash: "850b473af045a082c95338e6c6a828cb81c357df"
+- name: "FCityAudio.uax"
+  fileSize: 3523343
+  hash: "4eaa3fb0d8c71a8b026336daee2d2a28118480b2"
+- name: "FCityAds.utx"
+  fileSize: 5231403
+  hash: "1c650d705589da2fe6769ee1605e77cb5d89304d"
+- name: "FCity.utx"
+  fileSize: 3757023
+  hash: "df6f6d0c6d3d8ac6589eea4765e7a61e281a0a8f"
+otherFiles: 0
+dependencies:
+  DM-FutureCity.unr:
+  - status: "OK"
+    name: "FCityAds"
+  - status: "OK"
+    name: "FCity"
+  - status: "OK"
+    name: "FCityAudio"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/F/DM-FutureCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-FutureCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/F/8/a/320a1d/DM-FutureCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/F/8/a/320a1d/DM-FutureCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Future City"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Natural: 0.8
+bots: true

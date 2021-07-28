@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:43"
+game: "Unreal Tournament"
+name: "AboveTheClouds"
+author: "Mike \"Hellscrag\" Wilberforce"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "AboveTheClouds_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/A/AboveTheClouds_shot_1.png"
+originalFilename: "abovetheclouds-demo-utsp.zip"
+hash: "92de36d66ab073a9c6370d6ff62de4f478e52a93"
+fileSize: 2869890
+files:
+- name: "AboveTheCloudsScripts.u"
+  fileSize: 151091
+  hash: "2f2d495e6de78a6122300ebad23d0b76a4896e0b"
+- name: "AboveTheClouds.unr"
+  fileSize: 8813752
+  hash: "e9bee1005a312ba4240c8942e55b9ae5c689274a"
+- name: "Atmosphere.umx"
+  fileSize: 387890
+  hash: "5becc818f8cc3e13bbc2c4def11058376e00f608"
+otherFiles: 2
+dependencies:
+  AboveTheClouds.unr:
+  - status: "OK"
+    name: "AboveTheCloudsScripts"
+  - status: "OK"
+    name: "Atmosphere"
+  AboveTheCloudsScripts.u:
+  - status: "MISSING"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "olroot"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/COOP/&file=abovetheclouds-demo-utsp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/A/abovetheclouds-demo-utsp.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/COOP/abovetheclouds-demo-utsp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/A/9/2/de36d6/abovetheclouds-demo-utsp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Single%20Player/A/9/2/de36d6/abovetheclouds-demo-utsp.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "Above the Clouds"
+playerCount: "Unknown"
+themes: {}
+bots: false

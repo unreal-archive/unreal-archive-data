@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:00"
+game: "Unreal Tournament"
+name: "DOM-Terra"
+author: "Luggage (original by Nivlek)"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "DOM-Terra_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/T/DOM-Terra_shot_1.png"
+originalFilename: "dom-terra.zip"
+hash: "90767536163c1d617f76d133837fdc72dbcf27d9"
+fileSize: 642828
+files:
+- name: "DOM-Terra.unr"
+  fileSize: 1021996
+  hash: "1bc783e1c3edb9be30c038729b802bb9e0951aaa"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+otherFiles: 1
+dependencies:
+  DOM-Terra.unr:
+  - status: "OK"
+    name: "Isotoxin"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/T/dom-terra.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=dom-terra.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=dom-terra.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Domination/dom-terra.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/T/9/0/767536/dom-terra.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/T/9/0/767536/dom-terra.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Terra"
+playerCount: "4-12"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true

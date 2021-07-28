@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:20"
+game: "Unreal Tournament"
+name: "DM-Unforgiven"
+author: "Mark \"LK.Viper\" Knapcik"
+description: "None"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "dm-unforgiven_beta.zip"
+hash: "fcb52f22864814cc8d72f727d01d3db3acdb44e3"
+fileSize: 3119976
+files:
+- name: "Quake.utx"
+  fileSize: 3912805
+  hash: "d31cb0a2e1f55ff3be67bd4ace14c2ddeccecd8f"
+- name: "DM-Unforgiven.unr"
+  fileSize: 235682
+  hash: "dd50624528c7b1bea1e22a714fa62fd6e004f0f5"
+otherFiles: 1
+dependencies:
+  DM-Unforgiven.unr:
+  - status: "OK"
+    name: "Quake"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-unforgiven_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-unforgiven_beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/f/c/b52f22/dm-unforgiven_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/f/c/b52f22/dm-unforgiven_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Unforgiven"
+playerCount: "6-12"
+themes:
+  Ancient: 1.0
+bots: false

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:35"
+game: "Unreal Tournament"
+name: "DM-RemoteFacility"
+author: "Timber Wolf"
+description: "None"
+releaseDate: "2004-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-remotefacility_shot_741c5b7f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/7/4/1c5b7f/dm-remotefacility_shot_741c5b7f_1.png"
+originalFilename: "dm-remotefacility.zip"
+hash: "741c5b7f4891450458522b3e225616fc0a739c45"
+fileSize: 5271732
+files:
+- name: "DM-RemoteFacility.unr"
+  fileSize: 5436804
+  hash: "1e8009d9b0d4fd1b560ae6636510e529195f4366"
+- name: "Xenon.umx"
+  fileSize: 3889663
+  hash: "84d6b5588e9d6c5baa040dbbf65477bd048cb29a"
+otherFiles: 0
+dependencies:
+  DM-RemoteFacility.unr:
+  - status: "OK"
+    name: "Xenon"
+  - status: "MISSING"
+    name: "TS_Urban"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3983"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/dm-remotefacility.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/7/4/1c5b7f/dm-remotefacility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/7/4/1c5b7f/dm-remotefacility.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Remote Facility"
+playerCount: "6-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.4
+  City: 0.4
+bots: false

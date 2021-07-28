@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:58"
+game: "Unreal Tournament"
+name: "DM-BushLegacy"
+author: "created by DireIce, modded by Leaky Meat"
+description: "None"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-BushLegacy_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BushLegacy_shot_1.png"
+originalFilename: "dm-bushlegacy.zip"
+hash: "cfb517a23fd169279bcd5c3bca9520671ac3073a"
+fileSize: 15192289
+files:
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "EveOfDestruction.umx"
+  fileSize: 7849441
+  hash: "324967e059a2c3522929367b4a393658a649756a"
+- name: "EATGAirstrike.u"
+  fileSize: 2974
+  hash: "98387d9740cdef9ebe7617b523ec62bd2f722c17"
+- name: "DDay.uax"
+  fileSize: 1534753
+  hash: "dc49d1387a90d763c11e3efa7e535e2ba8cc70ae"
+- name: "DM-BushLegacy.unr"
+  fileSize: 19155565
+  hash: "c372aa91c7ee4c532556550191b24b7f963f0aee"
+- name: "SkyBox.utx"
+  fileSize: 930722
+  hash: "d4d6b7585dd37fd4348654f034df529fdcbd44e1"
+otherFiles: 1
+dependencies:
+  DM-BushLegacy.unr:
+  - status: "OK"
+    name: "EATGAirstrike"
+  - status: "OK"
+    name: "EveOfDestruction"
+  - status: "OK"
+    name: "InfAdds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-bushlegacy.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-bushlegacy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-bushlegacy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-bushlegacy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/c/f/b517a2/dm-bushlegacy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/c/f/b517a2/dm-bushlegacy.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BushLegacy"
+playerCount: "8-18"
+themes:
+  City: 0.5
+  Natural: 0.1
+  Skaarj Tech: 0.1
+  Indistrial: 0.2
+bots: true

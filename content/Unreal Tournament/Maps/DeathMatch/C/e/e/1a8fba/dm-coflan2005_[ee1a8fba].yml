@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:29"
+game: "Unreal Tournament"
+name: "DM-{CoF}Lan2005"
+author: "by {OCB}MI$TER^BL00D"
+description: "thx for the cool Lan CoF"
+releaseDate: "2005-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-{CoF}Lan2005_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-%7BCoF%7DLan2005_shot_1.png"
+originalFilename: "dm-{cof}lan-2005.zip"
+hash: "ee1a8fbada6dadf5067e486d18e79cd8af260468"
+fileSize: 9086122
+files:
+- name: "CoFintrologo.utx"
+  fileSize: 88956
+  hash: "182b93c7db90550ec3a0cbdd2586135f349c5e7c"
+- name: "OCBvisitCoFlan.utx"
+  fileSize: 1344745
+  hash: "ce46defb3ee771c8beea7e4ecc1b8f06ebace1ca"
+- name: "OCBCreedAreYouReady.umx"
+  fileSize: 9122525
+  hash: "3323bfc0c391901f227fce70d8ad3337858f0968"
+- name: "DM-{CoF}Lan2005.unr"
+  fileSize: 1385431
+  hash: "6db81ae70c6dd6906e05ff2f55913db313eece06"
+- name: "CameraSpot.utx"
+  fileSize: 439520
+  hash: "c064abf7637ce588bf8550f6cc3213998f5fb9d1"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "ocbblind.utx"
+  fileSize: 420849
+  hash: "b2e7a3cb3c9eda9d7eb0e249de5c4f8e0fb1d543"
+otherFiles: 0
+dependencies:
+  DM-{CoF}Lan2005.unr:
+  - status: "OK"
+    name: "CoFintrologo"
+  - status: "OK"
+    name: "CameraSpot"
+  - status: "OK"
+    name: "OCBvisitCoFlan"
+  - status: "OK"
+    name: "OCBCreedAreYouReady"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "ocbblind"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%7Bcof%7Dlan-2005.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-%7Bcof%7Dlan-2005.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/e/e/1a8fba/dm-%257Bcof%257Dlan-2005.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/e/e/1a8fba/dm-%257Bcof%257Dlan-2005.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-{CoF}Lan-2005"
+playerCount: "4 - 16"
+themes:
+  City: 0.8
+  Natural: 0.2
+bots: false

@@ -1,0 +1,72 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-12-23 09:13"
+game: "Unreal Tournament"
+name: "DMPack"
+author: "Various"
+description: "None"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "DMPack.zip"
+hash: "10578512fa568610e12969692e20e9cfbaca6875"
+fileSize: 1148087
+files:
+- name: "DM-Morbiassquare.unr"
+  fileSize: 384621
+  hash: "17e6f5df6d6c123772e12e9ec442c60cc87794b6"
+- name: "DM-Citybase.unr"
+  fileSize: 334270
+  hash: "d27ed61213955ae65a06614d896c060563bb7220"
+- name: "DM-Rotatingcube.unr"
+  fileSize: 120163
+  hash: "8025e8dfedcde304b2ed611d515403a1798face8"
+- name: "morbiassquare.utx"
+  fileSize: 357733
+  hash: "ac1d322a87ef0b6708146ae5db17d148b88fd011"
+- name: "citybase.utx"
+  fileSize: 776013
+  hash: "7a91d938de4b2e9ff5b1e0c5dacbc9b0e5924d8a"
+otherFiles: 3
+dependencies:
+  DM-Morbiassquare.unr:
+  - status: "OK"
+    name: "morbiassquare"
+  - status: "MISSING"
+    name: "jtex"
+  - status: "MISSING"
+    name: "Citytex"
+  DM-Rotatingcube.unr:
+  - status: "OK"
+    name: "morbiassquare"
+  DM-Citybase.unr:
+  - status: "OK"
+    name: "morbiassquare"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/DMPack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/1/0/578512/DMPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/1/0/578512/DMPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Citybase"
+  title: "DM-Citybase"
+  author: "Unknown"
+- name: "DM-Morbiassquare"
+  title: "Morbias square"
+  author: "Frag frog"
+- name: "DM-Rotatingcube"
+  title: "Rotating cube"
+  author: "Frag frog"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.1
+  Industrial: 0.4
+  City: 0.5

@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:00"
+game: "Unreal"
+name: "INF_50caliber(v1)"
+author: ".50cal"
+description: "Watch your head!"
+releaseDate: "2006-08"
+attachments: []
+originalFilename: "INF_50 Caliber.zip"
+hash: "072acea172587972ee9e56308266e577881d3b3f"
+fileSize: 2073338
+files:
+- name: "Blood_UTs.utx"
+  fileSize: 105626
+  hash: "2425eb52e8d90c98b746671f8505a3d33bc2e6e9"
+- name: "INF_50caliber(v1).unr"
+  fileSize: 1271796
+  hash: "e7ffac66d34c7407750024b442ba9b70a23979db"
+- name: "50calibertex.utx"
+  fileSize: 2329380
+  hash: "f35f097ae37b20e31a578ff5f308f37d0466a667"
+otherFiles: 1
+dependencies:
+  INF_50caliber(v1).unr:
+  - status: "MISSING"
+    name: "Sky"
+  - status: "OK"
+    name: "Blood_UTs"
+  - status: "OK"
+    name: "50calibertex"
+  - status: "MISSING"
+    name: "infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_50%20Caliber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/0/INF_50%20Caliber.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_50%20Caliber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/0/0/7/2acea1/INF_50%2520Caliber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/0/0/7/2acea1/INF_50%2520Caliber.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "50 Caliber"
+playerCount: "Lots of snipers."
+themes:
+  Natural: 0.3
+  Skaarj Tech: 0.7
+bots: true

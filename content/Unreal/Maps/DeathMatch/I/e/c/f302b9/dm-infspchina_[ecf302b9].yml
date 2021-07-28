@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:54"
+game: "Unreal"
+name: "DM-INF[SP]China"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-infspchina_shot_ecf302b9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/I/dm-infspchina_shot_ecf302b9_1.png"
+originalFilename: "DM-INF[SP]China.zip"
+hash: "ecf302b974ce383a44c90a59f99ae773b062fa70"
+fileSize: 5457925
+files:
+- name: "fmchinasounds.uax"
+  fileSize: 1108846
+  hash: "800edf770e642750df00a9e0a7d5c4ce0fadb4e7"
+- name: "DM-INF[SP]China.unr"
+  fileSize: 11109329
+  hash: "bed37291093ccfbab5f1b029d8037bd9abc8fe8d"
+otherFiles: 0
+dependencies:
+  DM-INF[SP]China.unr:
+  - status: "MISSING"
+    name: "INF_SPDecorations"
+  - status: "OK"
+    name: "fmchinasounds"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/I/DM-INF%5BSP%5DChina.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/I/e/c/f302b9/DM-INF%255BSP%255DChina.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/I/e/c/f302b9/DM-INF%255BSP%255DChina.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-INF[SP]China"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

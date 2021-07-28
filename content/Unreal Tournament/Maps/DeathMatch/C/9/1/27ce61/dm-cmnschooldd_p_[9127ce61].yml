@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:38"
+game: "Unreal Tournament"
+name: "DM-CMNschoolDD_P"
+author: "Common&DoctoR_DeatH"
+description: "And Yet Another Great Map"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-CMNschoolDD_P_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CMNschoolDD_P_shot_1.png"
+originalFilename: "DM-CMNschoolDD_P.zip"
+hash: "9127ce613ae4876441818becd7d720cae10fadec"
+fileSize: 4572397
+files:
+- name: "SchoolPremades.utx"
+  fileSize: 965594
+  hash: "1a1a91e3f2f4b80dfd121f6941f958b14c32d062"
+- name: "DM-CMNschoolDD_P.unr"
+  fileSize: 756171
+  hash: "00dc1f1e3f3a54b2587e487168c4eb911ffdebff"
+- name: "StorePremades.utx"
+  fileSize: 3281146
+  hash: "e0f1b84320de1162fffdaf95809c4215f9c5a34a"
+- name: "AnotherBrickInTheWall2_P.umx"
+  fileSize: 3849512
+  hash: "351365c45db8e7434734bec0f49a68844efb0bb5"
+otherFiles: 0
+dependencies:
+  DM-CMNschoolDD_P.unr:
+  - status: "OK"
+    name: "SchoolPremades"
+  - status: "OK"
+    name: "AnotherBrickInTheWall2_P"
+  - status: "OK"
+    name: "StorePremades"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CMNschoolDD_P.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CMNschoolDD_P.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/9/1/27ce61/DM-CMNschoolDD_P.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/9/1/27ce61/DM-CMNschoolDD_P.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNschoolDD_P"
+playerCount: "8 to 16"
+themes: {}
+bots: true

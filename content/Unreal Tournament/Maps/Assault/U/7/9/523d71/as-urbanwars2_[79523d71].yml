@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:39"
+game: "Unreal Tournament"
+name: "AS-UrbanWars2"
+author: "Revelation"
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "as-urbanwars2_shot_79523d71_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/7/9/523d71/as-urbanwars2_shot_79523d71_1.png"
+- type: "IMAGE"
+  name: "as-urbanwars2_shot_79523d71_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/7/9/523d71/as-urbanwars2_shot_79523d71_2.png"
+originalFilename: "as-urbanwars2.zip"
+hash: "79523d717fbf5137f77e63dafc0fee731b73faa6"
+fileSize: 3906480
+files:
+- name: "Midtown2_tex.utx"
+  fileSize: 1023980
+  hash: "1f421eaf63bf9db3b4349d32176932ea11199c34"
+- name: "AS-UrbanWars2.unr"
+  fileSize: 10717997
+  hash: "dcdabe0a55f149556add01b1dc45c09d1ce48407"
+- name: "SteelPak.u"
+  fileSize: 3604
+  hash: "c69b295cd12f31d3295b59cda9f32c9c2ed02796"
+otherFiles: 2
+dependencies:
+  AS-UrbanWars2.unr:
+  - status: "OK"
+    name: "SteelPak"
+  - status: "OK"
+    name: "Midtown2_tex"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5024"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/7/9/523d71/as-urbanwars2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/U/7/9/523d71/as-urbanwars2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/U/7/9/523d71/as-urbanwars2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Urban Wars - Part 2"
+playerCount: "10"
+themes:
+  Tech: 0.5
+  Industrial: 0.2
+  Ancient: 0.1
+  City: 0.2
+bots: true

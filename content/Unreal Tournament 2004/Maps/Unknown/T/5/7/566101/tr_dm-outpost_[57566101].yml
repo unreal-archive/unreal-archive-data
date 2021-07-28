@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-15 05:39"
+game: "Unreal Tournament 2004"
+name: "TR_DM-Outpost"
+author: "Badkarma"
+description: ""
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "TR_DM-Outpost_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Unknown/T/TR_DM-Outpost_shot_1.png"
+originalFilename: "TR_DM-Outpost.zip"
+hash: "5756610162f674621d22efe44ac712e1e9d64a93"
+fileSize: 3580692
+files:
+- name: "TR_DM-Outpost.ut2"
+  fileSize: 8223754
+  hash: "66b3a247d5eb3e20dfb786fbc82761e1c68d76da"
+- name: "Toutpost.usx"
+  fileSize: 1548725
+  hash: "91fb26aeea4d8fa7cd9090b97ce6a1ffb319910e"
+otherFiles: 1
+dependencies:
+  Toutpost.usx:
+  - status: "MISSING"
+    name: "TDag"
+  - status: "MISSING"
+    name: "TYavin"
+  TR_DM-Outpost.ut2:
+  - status: "MISSING"
+    name: "TYavinMeshes"
+  - status: "MISSING"
+    name: "TWeapons"
+  - status: "OK"
+    name: "Toutpost"
+  - status: "MISSING"
+    name: "TVariousMeshes"
+  - status: "MISSING"
+    name: "TVarious"
+  - status: "MISSING"
+    name: "T-DagMeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/T/TR_DM-Outpost.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Unknown/T/5/7/566101/TR_DM-Outpost.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Unknown/T/5/7/566101/TR_DM-Outpost.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "Outpost_attack"
+playerCount: "8-16"
+themes:
+  Egyptian: 0.9
+  Ancient: 0.1
+bots: true

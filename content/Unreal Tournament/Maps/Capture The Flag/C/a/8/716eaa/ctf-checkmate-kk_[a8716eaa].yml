@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:45"
+game: "Unreal Tournament"
+name: "CTF-CheckMate-Kk"
+author: "Ken Moore \"aka\" }Kk{~Kragon"
+description: "CTF-Checkmate by Kragon of the KingKlan"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-CheckMate-Kk_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CheckMate-Kk_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-CheckMate-Kk_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CheckMate-Kk_shot_2.png"
+originalFilename: "ctf-checkmate-kk.zip"
+hash: "a8716eaaf8c6b84291d1ed31294139671cd96d41"
+fileSize: 1604016
+files:
+- name: "rain.uax"
+  fileSize: 548570
+  hash: "deea3632ce87b13e85709ac3830e7ef2f437e2b5"
+- name: "firez.utx"
+  fileSize: 1961
+  hash: "270a4fb3e805c8848060b59eb15e9f19bc15b9cc"
+- name: "CTF-CheckMate-Kk.unr"
+  fileSize: 3070131
+  hash: "0e27229f4ad46593a6bd74f12ced2f7848f18aed"
+- name: "chkmate.utx"
+  fileSize: 768258
+  hash: "7996022915bdafe48e80f39f7c64a63894647d13"
+otherFiles: 2
+dependencies:
+  CTF-CheckMate-Kk.unr:
+  - status: "OK"
+    name: "firez"
+  - status: "OK"
+    name: "chkmate"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsC/&file=ctf-checkmate-kk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-checkmate-kk.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-checkmate-kk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-checkmate-kk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1134"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/a/8/716eaa/ctf-checkmate-kk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/a/8/716eaa/ctf-checkmate-kk.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Checkmate"
+playerCount: "10"
+themes:
+  Ancient: 0.3
+  City: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.4
+bots: true

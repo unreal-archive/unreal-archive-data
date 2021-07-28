@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:08"
+game: "Unreal Tournament"
+name: "CTF-Narrow9"
+author: "Michhhhael"
+description: "www.RoseBum.com"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Narrow9_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-Narrow9_shot_1.png"
+originalFilename: "ctf-narrow9.zip"
+hash: "da44b374580bf748379c1db18447f0aabce85cc0"
+fileSize: 6348126
+files:
+- name: "ZombieN9.umx"
+  fileSize: 6598120
+  hash: "97546b68851b77e9db1afb2336b1883f44a2016d"
+- name: "CTF-Narrow9.unr"
+  fileSize: 731809
+  hash: "0b6ed28957e27b03f7943194286230fd5c0e570d"
+- name: "Nar9Mic.utx"
+  fileSize: 440286
+  hash: "1a6dc4ef6d689ee436ad2f7582594c103da19cc2"
+otherFiles: 1
+dependencies:
+  CTF-Narrow9.unr:
+  - status: "OK"
+    name: "Nar9Mic"
+  - status: "OK"
+    name: "ZombieN9"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-narrow9.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-narrow9.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/d/a/44b374/ctf-narrow9.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/d/a/44b374/ctf-narrow9.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Narrow9"
+playerCount: "6 to 14"
+themes:
+  City: 0.4
+  Natural: 0.6
+bots: false

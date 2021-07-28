@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:20"
+game: "Unreal Tournament"
+name: "CTFM-Hammer"
+author: "Cory Spooner 'TheSpoonDog'"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-hammer_shot_cffa445d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/H/c/f/fa445d/ctfm-hammer_shot_cffa445d_1.png"
+originalFilename: "ctfm-hammer.zip"
+hash: "cffa445d8d1210e032cc26680fd1f05ced17f685"
+fileSize: 2107472
+files:
+- name: "CTFM-Hammer.unr"
+  fileSize: 7042368
+  hash: "b8854667d476ab405128165d95d421fdb029f8ba"
+- name: "NoTransloc.u"
+  fileSize: 13675
+  hash: "3d7039b568d03a08b671388e7bc10f2dd5d6920b"
+otherFiles: 1
+dependencies:
+  CTFM-Hammer.unr:
+  - status: "OK"
+    name: "NoTransloc"
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctfm-hammer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/H/c/f/fa445d/ctfm-hammer.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/H/c/f/fa445d/ctfm-hammer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/H/c/f/fa445d/ctfm-hammer.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Sledge Hammer"
+playerCount: "12-16"
+themes:
+  Tech: 0.1
+  Ancient: 0.1
+  Nali Castle: 0.4
+  Skaarj Tech: 0.4
+bots: true

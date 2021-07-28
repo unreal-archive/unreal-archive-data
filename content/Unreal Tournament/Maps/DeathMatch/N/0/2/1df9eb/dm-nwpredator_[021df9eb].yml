@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:39"
+game: "Unreal Tournament"
+name: "DM-NWPredator]["
+author: "Eric \"Ebolt\" Boltjes , Boon"
+description: "The Predator"
+releaseDate: "2008-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWPredator][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWPredator%5D%5B_shot_1.png"
+originalFilename: "DM-NWPredator][.zip"
+hash: "021df9ebdd9f8070dd465961b5220e51ac108252"
+fileSize: 7607762
+files:
+- name: "2k4Pickup.u"
+  fileSize: 233365
+  hash: "63663d1a3756b436540b1804d1b3d15105d70750"
+- name: "Screen.u"
+  fileSize: 309292
+  hash: "1b5cab634e09f393db1832a50eb10d0f46ca67ca"
+- name: "PickupSound.uax"
+  fileSize: 659247
+  hash: "73a05ac339f4a7347c76eabd204a5602c33af156"
+- name: "Foregone-Destruction.umx"
+  fileSize: 6674015
+  hash: "d73b4cdae6e7012e5dd57a9c8b62630371a297c8"
+- name: "DM-NWPredator][.unr"
+  fileSize: 564728
+  hash: "19ed6fd69f5cfd87364ae362f90ec1da4db4feb1"
+- name: "IronicTex2.utx"
+  fileSize: 934124
+  hash: "8627c34741244143dbbcdc5987ac648cdd424724"
+- name: "2K4chargerMESHES.u"
+  fileSize: 1610436
+  hash: "b91ee93e997a3dc8a3a29f7b09898eba8e318c36"
+otherFiles: 0
+dependencies:
+  Screen.u:
+  - status: "MISSING"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "ScreenFonts"
+  DM-NWPredator][.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "2k4Pickup"
+  - status: "OK"
+    name: "IronicTex2"
+  - status: "OK"
+    name: "PickupSound"
+  - status: "MISSING"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "BackspaceTex"
+  - status: "OK"
+    name: "2K4chargerMESHES"
+  - status: "OK"
+    name: "Foregone-Destruction"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWPredator%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWPredator%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/0/2/1df9eb/DM-NWPredator%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/0/2/1df9eb/DM-NWPredator%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Predators will kill you"
+playerCount: "2-8"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.2
+bots: false

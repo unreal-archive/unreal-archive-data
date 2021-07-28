@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:37"
+game: "Unreal Tournament"
+name: "CTF-BT-Temple"
+author: "meatwad and Anarchist"
+description: "None"
+releaseDate: "2005-01"
+attachments: []
+originalFilename: "ctf-bt-temple.zip"
+hash: "66345254549f2c55211c1f9d6957167157ebbe79"
+fileSize: 7999978
+files:
+- name: "CTF-BT-Temple.unr"
+  fileSize: 3244205
+  hash: "65dd1dae0142138898b03129e5c7aed67080c463"
+- name: "UTtech2.utx"
+  fileSize: 3404233
+  hash: "3c298abec256301fc9804e4e6a4579b409c0bc8c"
+- name: "geeZ-OrientalKick.umx"
+  fileSize: 4384612
+  hash: "ee323755a61027a36edccd093ab039e61df2f95d"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 0
+dependencies:
+  CTF-BT-Temple.unr:
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "geeZ-OrientalKick"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/T/ctf-bt-temple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4615"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/T/6/6/345254/ctf-bt-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/T/6/6/345254/ctf-bt-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT: Temple"
+playerCount: "12"
+themes:
+  Nali Temple: 0.1
+  Egyptian: 0.1
+  Ancient: 0.1
+  City: 0.1
+  Natural: 0.6
+bots: false

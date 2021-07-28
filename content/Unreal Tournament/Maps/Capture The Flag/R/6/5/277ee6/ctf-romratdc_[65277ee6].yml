@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:43"
+game: "Unreal Tournament"
+name: "CTF-Romra{TDC}"
+author: "[MCS]Wolverine"
+description: "Hell No Time For Vacation!!!!"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Romra{TDC}_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-Romra%7BTDC%7D_shot_1.png"
+originalFilename: "ctf-romra{tdc}.zip"
+hash: "65277ee620ddf9f79b521fa9d74b350808263892"
+fileSize: 925838
+files:
+- name: "2000.umx"
+  fileSize: 673950
+  hash: "e89802b913c21491dfbd82268feb03122e4b00c7"
+- name: "CTF-Romra{TDC}.unr"
+  fileSize: 1839816
+  hash: "ce29eb1f3d4113425f357c1fe0710e60659a97e5"
+otherFiles: 0
+dependencies:
+  CTF-Romra{TDC}.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "Deck16"
+  - status: "OK"
+    name: "2000"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-romra%7Btdc%7D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/ctf-romra%7Btdc%7D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/6/5/277ee6/ctf-romra%257Btdc%257D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/6/5/277ee6/ctf-romra%257Btdc%257D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Romra {TDC} Island Version"
+playerCount: "2-14"
+themes:
+  Industrial: 0.7
+  Natural: 0.3
+bots: true

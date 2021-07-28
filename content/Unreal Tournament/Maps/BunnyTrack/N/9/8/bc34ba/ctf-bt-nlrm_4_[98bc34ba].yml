@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:46"
+game: "Unreal Tournament"
+name: "CTF-BT-NLRM_4"
+author: "2 ckrit haks"
+description: "None"
+releaseDate: "2010-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-NLRM_4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/N/CTF-BT-NLRM_4_shot_1.png"
+originalFilename: "CTF-BT-NLRM_4.zip"
+hash: "98bc34baddd672ad29178f131aab26f93b266d65"
+fileSize: 17798780
+files:
+- name: "Quake3.utx"
+  fileSize: 20127764
+  hash: "68bc9bcad42cc943643aacdd071b2f82d31a5a16"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "CTF-BT-NLRM_4.unr"
+  fileSize: 5954042
+  hash: "5bd7e7863590adb3e417a1f881f1de4e0d08bee2"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 0
+dependencies:
+  CTF-BT-NLRM_4.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Quake3"
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-NLRM_4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/N/CTF-BT-NLRM_4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/N/9/8/bc34ba/CTF-BT-NLRM_4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/N/9/8/bc34ba/CTF-BT-NLRM_4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Nice little rush map IV!!"
+playerCount: "2-12"
+themes:
+  Tech: 0.9
+bots: false

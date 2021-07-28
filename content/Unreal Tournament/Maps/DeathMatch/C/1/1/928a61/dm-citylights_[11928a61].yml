@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:40"
+game: "Unreal Tournament"
+name: "DM-CityLights"
+author: "John"
+description: "None"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-CityLights_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CityLights_shot_1.png"
+originalFilename: "dm-citylights.zip"
+hash: "11928a613b5bc7ee8bea52980a3ce16edef77fb7"
+fileSize: 7643472
+files:
+- name: "Matex.utx"
+  fileSize: 4288342
+  hash: "0ceb9d7cbfd84fa5ecf5985ec746107a530724a8"
+- name: "Darkcity.utx"
+  fileSize: 7375173
+  hash: "acbae84274af1b2ae8782de8045985d9d5338401"
+- name: "DM-CityLights.unr"
+  fileSize: 4030418
+  hash: "25f56fbf0b41b94ccafcee96e410bfc286346f8b"
+- name: "MCBsnds.uax"
+  fileSize: 329562
+  hash: "7e6f737f6296b9c4e9eeb51363567b50c8fbae97"
+otherFiles: 0
+dependencies:
+  DM-CityLights.unr:
+  - status: "OK"
+    name: "Darkcity"
+  - status: "OK"
+    name: "Matex"
+  - status: "OK"
+    name: "MCBsnds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/1/1/928a61/dm-citylights.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/1/1/928a61/dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/1/1/928a61/dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-CityLights"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.9
+  Skaarj Tech: 0.1
+bots: true

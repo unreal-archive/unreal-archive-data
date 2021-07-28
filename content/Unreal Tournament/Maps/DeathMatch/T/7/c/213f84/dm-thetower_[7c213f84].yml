@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:43"
+variationOf: "e77c85c2deff6a83c7133f423b5126d72ae07d7e"
+game: "Unreal Tournament"
+name: "DM-TheTower"
+author: "Shuhou \"XepptizZ\" Tse"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-thetower_shot_7c213f84_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/7/c/213f84/dm-thetower_shot_7c213f84_3.png"
+- type: "IMAGE"
+  name: "dm-thetower_shot_7c213f84_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/7/c/213f84/dm-thetower_shot_7c213f84_1.png"
+- type: "IMAGE"
+  name: "dm-thetower_shot_7c213f84_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/7/c/213f84/dm-thetower_shot_7c213f84_2.png"
+originalFilename: "dm-thetower.zip"
+hash: "7c213f84c928abaa87b4c7858c066f23fcb75030"
+fileSize: 3315384
+files:
+- name: "CrashTC.umx"
+  fileSize: 1080948
+  hash: "a0e40c3dbb760967be03313d5974202db4fd6693"
+- name: "DM-TheTower.unr"
+  fileSize: 4488197
+  hash: "922f5e447576f32875db94b37a2b08b45fe043ff"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+otherFiles: 3
+dependencies:
+  DM-TheTower.unr:
+  - status: "OK"
+    name: "CrashTC"
+  - status: "OK"
+    name: "Anc"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/7/c/213f84/dm-thetower.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/7/c/213f84/dm-thetower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/7/c/213f84/dm-thetower.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Tower of Babylon"
+playerCount: "2-8"
+themes:
+  Ancient: 0.4
+  City: 0.4
+  Nali Castle: 0.1
+bots: true

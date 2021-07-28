@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:53"
+game: "Unreal"
+name: "MH-[SP]Morose"
+author: "Jacob 'SamuraiJake' Och"
+description: "None"
+releaseDate: "2010-12"
+attachments: []
+originalFilename: "MH-[SP]Morose.zip"
+hash: "1170cbbe52f348db2d73e81d07fdb21bf80597f5"
+fileSize: 4936894
+files:
+- name: "null48.umx"
+  fileSize: 1949
+  hash: "3f08145d94f676d82c8d3a588fd4b4e00c66ab1d"
+- name: "MH-[SP]Morose.unr"
+  fileSize: 11109893
+  hash: "4b9fdd34ece98fde0051800fe9142c2aabef534e"
+otherFiles: 0
+dependencies:
+  MH-[SP]Morose.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "OK"
+    name: "null48"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DMorose.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]Morose.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/1/1/70cbbe/MH-%255BSP%255DMorose.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/1/1/70cbbe/MH-%255BSP%255DMorose.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Morose"
+playerCount: "4-8"
+themes:
+  Natural: 1.0
+bots: true

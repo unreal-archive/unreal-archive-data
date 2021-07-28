@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 21:52"
+game: "Unreal Tournament"
+name: "CTF-BT-BossFactory-fix"
+author: "TomTom"
+description: "None"
+releaseDate: "2015-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-BossFactory-fix_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-BossFactory-fix_shot_1.png"
+originalFilename: "CTF-BT-BossFactory-fix.zip"
+hash: "49593482bf5c2da13d32a001d9f94eb0c508fe68"
+fileSize: 15221340
+files:
+- name: "Shapeshifter.umx"
+  fileSize: 1625841
+  hash: "0008f83621ca57c4682e22e1b8ef7f79d458c642"
+- name: "CTF-BT-BossFactory-fix.unr"
+  fileSize: 1592761
+  hash: "c1f500306ae72fa87eff2e7dfacec23913bc97e8"
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+otherFiles: 0
+dependencies:
+  CTF-BT-BossFactory-fix.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "UTtech4"
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "Shapeshifter"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-BossFactory-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-BossFactory-fix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-BossFactory-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/B/4/9/593482/CTF-BT-BossFactory-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/B/4/9/593482/CTF-BT-BossFactory-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-BossFactory"
+playerCount: "1 - 6"
+themes:
+  Indistrial: 1.0
+bots: false

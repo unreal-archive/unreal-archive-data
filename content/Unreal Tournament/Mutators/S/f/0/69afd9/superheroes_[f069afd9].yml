@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-10-12 18:30"
-variationOf: null
 game: "Unreal Tournament"
 name: "SUPERHEROES"
 author: "Unknown"
@@ -35,21 +34,22 @@ dependencies:
   Whirlwind.u:
   - status: "MISSING"
     name: "WhirlwindTex"
-    providedBy: null
   SHPack1.u:
   - status: "OK"
     name: "superheroes"
-    providedBy: null
   superheroes.u:
   - status: "OK"
     name: "Whirlwind"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/f/0/69afd9/SuperHeroesUT.umod"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/S/f/0/69afd9/SuperHeroesUT.umod"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/S/f/0/69afd9/SuperHeroesUT.umod"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:13"
+game: "Unreal Tournament"
+name: "DM-Gathering"
+author: "Your Maker"
+description: "None"
+releaseDate: "2000-07"
+attachments: []
+originalFilename: "dm-gathering.zip"
+hash: "293dd3d20c7ff4241b4a1564153d88fb56bc0d5a"
+fileSize: 2654761
+files:
+- name: "bed.utx"
+  fileSize: 1800815
+  hash: "e87996ce5c648d5e5267dfea9df4800437d0b955"
+- name: "feel.umx"
+  fileSize: 2745249
+  hash: "f38e462bb8bf16b1bf25cc55ad8eff97051332f9"
+- name: "DM-Gathering.unr"
+  fileSize: 884954
+  hash: "2d1e61c28910679b03b438882b8e3b168de449d3"
+- name: "candyland.utx"
+  fileSize: 784164
+  hash: "c2e351f4ffdf05f2837ef975e25fbe4574433612"
+otherFiles: 0
+dependencies:
+  DM-Gathering.unr:
+  - status: "OK"
+    name: "bed"
+  - status: "OK"
+    name: "candyland"
+  - status: "OK"
+    name: "feel"
+  - status: "MISSING"
+    name: "a3text"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/dm-gathering.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsG/&file=dm-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsG/dm-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/2/9/3dd3d2/dm-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/2/9/3dd3d2/dm-gathering.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Gathering"
+playerCount: "10 - 14"
+themes:
+  City: 0.6
+  Skaarj Tech: 0.4
+bots: false

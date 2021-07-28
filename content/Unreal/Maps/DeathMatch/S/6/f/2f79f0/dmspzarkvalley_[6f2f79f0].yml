@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:22"
+game: "Unreal"
+name: "DM[SP]ZarkValley"
+author: "{BL}Hawkwind *Imported From UT by RUSH*"
+description: "Welcome to the Valley of the Zark"
+releaseDate: "2004-02"
+attachments: []
+originalFilename: "DM[SP]ZarkValley.zip"
+hash: "6f2f79f06de49c03a37267e6668e729ad6fbc15c"
+fileSize: 3653474
+files:
+- name: "Strato.umx"
+  fileSize: 2089760
+  hash: "b623dd5ce97170d329069cfb418acd19e9cfdc11"
+- name: "DM[SP]ZarkValley.unr"
+  fileSize: 3470154
+  hash: "745900e6627f2a0641c41ef5e278c6ccaf6f94cb"
+otherFiles: 0
+dependencies:
+  DM[SP]ZarkValley.unr:
+  - status: "OK"
+    name: "Strato"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DZarkValley.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/6/f/2f79f0/DM%255BSP%255DZarkValley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/6/f/2f79f0/DM%255BSP%255DZarkValley.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Zark Valley"
+playerCount: "6-12"
+themes:
+  Natural: 1.0
+bots: true

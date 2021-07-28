@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:45"
+game: "Unreal Tournament"
+name: "DM-Tyard"
+author: "T. Ahlen"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Tyard_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-Tyard_shot_1.png"
+originalFilename: "dm-tyard.zip"
+hash: "4cf53523629e324c6ffa2bd85eef8004903bcb80"
+fileSize: 789722
+files:
+- name: "DM-Tyard.unr"
+  fileSize: 1244915
+  hash: "4567e016ba10eff4edd8214144ef7497cd6a0a38"
+- name: "Newslu.utx"
+  fileSize: 585131
+  hash: "f935417f670447d54e6e44c1a631aaa0e80bd945"
+otherFiles: 1
+dependencies:
+  DM-Tyard.unr:
+  - status: "OK"
+    name: "Newslu"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/dm-tyard.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dm-tyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-tyard-m.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-tyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsT/dm-tyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/4/c/f53523/dm-tyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/4/c/f53523/dm-tyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Train Yard"
+playerCount: "2-4"
+themes:
+  Industrial: 0.1
+  City: 0.5
+  Skaarj Tech: 0.4
+bots: true

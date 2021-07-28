@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 00:35"
+game: "Unreal Tournament 2004"
+name: "DM-CSDust080"
+author: "FFU-Clan (NotGuilty;Scapenet)"
+description: "Die beliebte Map aus CS jetzt für Unreal!"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-CSDust080_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-CSDust080_shot_1.png"
+originalFilename: "DM-CSDUST.zip"
+hash: "75b37f3e71ab4e0c2af913f4f96a71429096c0a7"
+fileSize: 2211926
+files:
+- name: "DM-CSDust080.ut2"
+  fileSize: 5336921
+  hash: "ff9aa226cb9b311143f827d2712f5bfc68696241"
+- name: "de_dust.utx"
+  fileSize: 1526475
+  hash: "16d1f21a610e88596a88c1bdf644b9fce8107f58"
+otherFiles: 1
+dependencies:
+  DM-CSDust080.ut2:
+  - status: "OK"
+    name: "de_dust"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=DM-CSDUST.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-CSDUST.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/7/5/b37f3e/DM-CSDUST.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/7/5/b37f3e/DM-CSDUST.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DE_DUST"
+playerCount: "4-6"
+themes:
+  Industrial: 1.0
+bots: true

@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:53"
+game: "Unreal Tournament"
+name: "DM-(AMLP)BorDeauX"
+author: "[AMLP] Zad"
+description: "Welcome to BORDEAUX"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-(AMLP)BorDeauX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-(AMLP)BorDeauX_shot_1.png"
+originalFilename: "DM-(AMLP)BorDeauX.zip"
+hash: "1e962b694b703550ea88e4d1026796b3e368e885"
+fileSize: 15127729
+files:
+- name: "bdx.utx"
+  fileSize: 7958219
+  hash: "77b809c4a9bcb02f8ffd31ced1e537850031f485"
+- name: "RangePack_1.u"
+  fileSize: 2681120
+  hash: "a9a9edaa7bfcdb01fcb94cb02b6f22fa0a4f3854"
+- name: "metallica_sandman.umx"
+  fileSize: 5316688
+  hash: "7c8c66da1d11d392084da83b2c40afe19787573a"
+- name: "DM-(AMLP)BorDeauX.unr"
+  fileSize: 11063330
+  hash: "cb37bf206657d3074e5764d00ffb3e2b3704dbba"
+- name: "WSPack1.u"
+  fileSize: 5013372
+  hash: "18de3bd5f2d1748088a6f1c272134bdebd9149c9"
+- name: "xutfx.utx"
+  fileSize: 335490
+  hash: "46e593ef0dec35e3b70fa0c3b5074df061bc15cb"
+- name: "noxxpack.utx"
+  fileSize: 914942
+  hash: "1ffd65e75842903d66542de085cf19de23a6f3fb"
+otherFiles: 0
+dependencies:
+  DM-(AMLP)BorDeauX.unr:
+  - status: "OK"
+    name: "WSPack1"
+  - status: "OK"
+    name: "metallica_sandman"
+  - status: "OK"
+    name: "bdx"
+  - status: "OK"
+    name: "RangePack_1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28AMLP%29BorDeauX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/1/e/962b69/DM-(AMLP)BorDeauX.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/1/e/962b69/DM-(AMLP)BorDeauX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/1/e/962b69/DM-(AMLP)BorDeauX.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "B D X"
+playerCount: "8-14"
+themes:
+  Nali Castle: 0.4
+  Indistrial: 0.6
+bots: true

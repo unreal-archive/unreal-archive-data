@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 23:01"
+game: "Unreal Tournament 2004"
+name: "ONS-MarioLand"
+author: "StanlyDan"
+description: "Frag in Mario's stomping grounds!"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "ONS-MarioLand_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/M/ONS-MarioLand_shot_1.png"
+- type: "IMAGE"
+  name: "ONS-MarioLand_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/M/ONS-MarioLand_shot_2.png"
+originalFilename: "ons-marioland.zip"
+hash: "e70fb99a48d8b5850891fb4b034e54a04d485817"
+fileSize: 7081578
+files:
+- name: "testshrooms.usx"
+  fileSize: 3593925
+  hash: "2eb76b41dcd844ac7d15c79fe298c693b66a938f"
+- name: "shrooms.utx"
+  fileSize: 36355975
+  hash: "95a4f67987acb80ba87abf73b054bbc8beb0d5f5"
+- name: "WATER_THEME_ogg.ogg"
+  fileSize: 1340410
+  hash: "7e146f0042ad7101ca398453f3cf8f8e2529b5c1"
+- name: "ONS-MarioLand.ut2"
+  fileSize: 5113503
+  hash: "1717acbb2786a9c0351f077fc4e31ce77d2a1e7d"
+otherFiles: 1
+dependencies:
+  ONS-MarioLand.ut2:
+  - status: "OK"
+    name: "testshrooms"
+  - status: "OK"
+    name: "shrooms"
+  testshrooms.usx:
+  - status: "OK"
+    name: "shrooms"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2817"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/M/ons-marioland.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/M/e/7/0fb99a/ons-marioland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/M/e/7/0fb99a/ons-marioland.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "Mario World"
+playerCount: "4-8"
+themes:
+  Natural: 1.0
+bots: true

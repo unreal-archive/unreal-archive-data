@@ -1,0 +1,105 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:11"
+game: "Unreal Tournament"
+name: "DM-SandStone-BLC"
+author: "Eric 'Esop' Johnson"
+description: "None"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-SandStone-BLC_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-SandStone-BLC_shot_1.png"
+originalFilename: "DM-SandStone-BLC.zip"
+hash: "e32cc13b1418a2a801cf943d9b0ea81f1fe22452"
+fileSize: 39480319
+files:
+- name: "Driftpak.utx"
+  fileSize: 788356
+  hash: "750bfd54460913efa499cfba7c16197c8828b230"
+- name: "WesternExterior.utx"
+  fileSize: 4449385
+  hash: "5b22726e6706a1f6c7e34249db113f13e218a404"
+- name: "WesternSigns.utx"
+  fileSize: 5599960
+  hash: "68875ba4293279d7ed7ba3d600d1592e5cd0f88e"
+- name: "Badlands.u"
+  fileSize: 23216574
+  hash: "e32853ec18e0d5dd761abc0672d4137fbcf7341b"
+- name: "DM-SandStone-BLC.unr"
+  fileSize: 4908891
+  hash: "cd4f75bf292077b420eda0bbd9bcbd313d5a807f"
+- name: "WesternTerrain.utx"
+  fileSize: 9031300
+  hash: "b4bf5c4c873418fafb3b71e5be32a238c926af01"
+- name: "WesternExtras.utx"
+  fileSize: 1644089
+  hash: "159942146f861cb3d779c7a0ec9615e0b37ba417"
+- name: "WesternProps.u"
+  fileSize: 9198328
+  hash: "2f5e8d6246d93e94fcc9d46deef2b67aba595267"
+- name: "WesternWood.utx"
+  fileSize: 4466382
+  hash: "1b1fa7919a66168f2bf0eee06a308cd046e033fa"
+- name: "Swaytrees.u"
+  fileSize: 888616
+  hash: "299c9d0333473454d32674186652bd2c21124b96"
+- name: "RangePack1.u"
+  fileSize: 2681120
+  hash: "a9a9edaa7bfcdb01fcb94cb02b6f22fa0a4f3854"
+otherFiles: 0
+dependencies:
+  DM-SandStone-BLC.unr:
+  - status: "OK"
+    name: "WesternExterior"
+  - status: "OK"
+    name: "Driftpak"
+  - status: "MISSING"
+    name: "Shootout"
+  - status: "OK"
+    name: "WesternSigns"
+  - status: "OK"
+    name: "Badlands"
+  - status: "OK"
+    name: "WesternExtras"
+  - status: "OK"
+    name: "WesternWood"
+  - status: "OK"
+    name: "Swaytrees"
+  - status: "OK"
+    name: "WesternProps"
+  - status: "OK"
+    name: "WesternTerrain"
+  - status: "OK"
+    name: "RangePack1"
+  Badlands.u:
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "OK"
+    name: "WesternExtras"
+  - status: "MISSING"
+    name: "BadVoices"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-SandStone-BLC.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-SandStone-BLC.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/e/3/2cc13b/DM-SandStone-BLC.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/e/3/2cc13b/DM-SandStone-BLC.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sand Stone"
+playerCount: "4-10"
+themes:
+  Natural: 1.0
+bots: true

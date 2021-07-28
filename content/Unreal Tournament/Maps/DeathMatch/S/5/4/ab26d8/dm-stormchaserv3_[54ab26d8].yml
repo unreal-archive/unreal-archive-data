@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:04"
+game: "Unreal Tournament"
+name: "DM-StormChaserV3"
+author: "**Monarch**"
+description: "None"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-StormChaserV3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-StormChaserV3_shot_1.png"
+originalFilename: "dm-stormchaserv3.zip"
+hash: "54ab26d887cf598303e0bc45046a6c569d0589b0"
+fileSize: 1250328
+files:
+- name: "DiabloDH.umx"
+  fileSize: 758595
+  hash: "d7b6a45cd6c1aae9d0c08f9f634920599d530b11"
+- name: "DM-StormChaserV3.unr"
+  fileSize: 2015697
+  hash: "e8e261238b9f220f50f7a218fc446878af67a53a"
+- name: "Streets.utx"
+  fileSize: 158592
+  hash: "e02eca185000a41f3946a399e6eaef0e16352903"
+otherFiles: 0
+dependencies:
+  DM-StormChaserV3.unr:
+  - status: "OK"
+    name: "DiabloDH"
+  - status: "OK"
+    name: "Streets"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-stormchaserv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-stormchaserv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/5/4/ab26d8/dm-stormchaserv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/5/4/ab26d8/dm-stormchaserv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Storm Chaser"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Ancient: 0.3
+  Natural: 0.3
+  Nali Castle: 0.1
+bots: true

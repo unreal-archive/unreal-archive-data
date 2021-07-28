@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:29"
+variationOf: "94f883264afca6dd8c6eba3d204b5a249c52ea01"
+game: "Unreal Tournament"
+name: "CTF-CivilWarIII-Monster"
+author: "Modified by Michhhhael - Original by [EVA]NomadicN4Sr"
+description: "Speclal thanks to the original creator of Cival War"
+releaseDate: "2001-06"
+attachments: []
+originalFilename: "ctf-civilwariii-monster.zip"
+hash: "5e36f1c26673acddabd16b5a9e468a774e47be67"
+fileSize: 344391
+files:
+- name: "MRPG_F.umx"
+  fileSize: 106951
+  hash: "5887090c5bf529285cef64957438b8a3cc22ec1e"
+- name: "CTF-CivilWarIII-Monster.unr"
+  fileSize: 794868
+  hash: "41cd86b8f50d8df1bb9f3d66e5a5a69b4fc878ea"
+otherFiles: 1
+dependencies:
+  CTF-CivilWarIII-Monster.unr:
+  - status: "OK"
+    name: "MRPG_F"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-civilwariii-monster.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-civilwariii-monster.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/5/e/36f1c2/ctf-civilwariii-monster.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/5/e/36f1c2/ctf-civilwariii-monster.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CivilWarIII-Monster"
+playerCount: "6 to 18"
+themes:
+  Tech: 0.4
+  Natural: 0.4
+  Skaarj Tech: 0.2
+bots: false

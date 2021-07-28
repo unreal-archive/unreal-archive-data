@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:45"
+game: "Unreal Tournament"
+name: "DM-Conqueror"
+author: "Brian R. Dempsey"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Conqueror_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Conqueror_shot_1.png"
+originalFilename: "dm-conqueror.zip"
+hash: "a5d76771f70d6e74be61b3d0d83791473ea5fc6b"
+fileSize: 6958588
+files:
+- name: "USMCSniperRifle.u"
+  fileSize: 1631789
+  hash: "ef644c34e0299cea43e5179985375c6d8cbca1fb"
+- name: "DM-Conqueror.unr"
+  fileSize: 15208894
+  hash: "8b22e2efb8bf4765e50344db5382108fb6ae544b"
+otherFiles: 2
+dependencies:
+  DM-Conqueror.unr:
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-conqueror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-conqueror.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/a/5/d76771/dm-conqueror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/a/5/d76771/dm-conqueror.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Castle of Conquerors"
+playerCount: "10-12"
+themes: {}
+bots: true

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:44"
+game: "Unreal"
+name: "CTF[SP]FloridaSharkAttack"
+author: "'Fixed' by Michhhhael - Original by Britton Wesley  *Imported from UT by\
+  \ RUSH*"
+description: "Its not safe to surf!"
+releaseDate: "2005-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF[SP]FloridaSharkAttack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DFloridaSharkAttack_shot_1.png"
+originalFilename: "CTF[SP]FloridaSharkAttack.zip"
+hash: "f4d7576a63cc678ac59a249ddfb80d7ad9a7dbff"
+fileSize: 19778554
+files:
+- name: "RainFX.utx"
+  fileSize: 11444974
+  hash: "d00583021fa26e3554f118e8067b76ab0e8fd849"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "CTF[SP]FloridaSharkAttack.unr"
+  fileSize: 1265481
+  hash: "20fb3b7d49562b89efef647333f2ba3ddd0ff93c"
+- name: "SurfingUSA8.umx"
+  fileSize: 538137
+  hash: "44e729eb0af64f2478879fac105a32b6853242af"
+otherFiles: 0
+dependencies:
+  CTF[SP]FloridaSharkAttack.unr:
+  - status: "MISSING"
+    name: "AssaultAddon"
+  - status: "MISSING"
+    name: "Uzi"
+  - status: "OK"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "AssaultCTF"
+  - status: "OK"
+    name: "RainFX"
+  - status: "MISSING"
+    name: "AssaultFighter"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+  - status: "OK"
+    name: "SurfingUSA8"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF%5BSP%5DFloridaSharkAttack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DFloridaSharkAttack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Capture%20The%20Flag/S/f/4/d7576a/CTF%255BSP%255DFloridaSharkAttack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Capture%20The%20Flag/S/f/4/d7576a/CTF%255BSP%255DFloridaSharkAttack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF [SP] Florida Shark Attack"
+playerCount: "12-16"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true

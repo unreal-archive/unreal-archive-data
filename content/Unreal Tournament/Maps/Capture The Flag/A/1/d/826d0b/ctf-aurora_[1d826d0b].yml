@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:13"
+game: "Unreal Tournament"
+name: "CTF-Aurora"
+author: "FragL"
+description: "Welcome to downtown Aurora."
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Aurora_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-Aurora_shot_1.png"
+originalFilename: "ctf-aurora.zip"
+hash: "1d826d0b89eb953cf6bb2ef844c6c0bf0035b979"
+fileSize: 3858467
+files:
+- name: "Bstretz.utx"
+  fileSize: 177652
+  hash: "a14d66f629513df1be4a17ef205f67399d876c41"
+- name: "dogtowns.utx"
+  fileSize: 1626427
+  hash: "53f16c67fcb591629410bc715976953e946cfd43"
+- name: "Citytex.utx"
+  fileSize: 121454
+  hash: "68dabbbe96216ecb5b7aef241fe83b9f368a061a"
+- name: "CTF-Aurora.unr"
+  fileSize: 6483678
+  hash: "0f7b72c7d3cc377262422a7b3951a234d33915d2"
+otherFiles: 1
+dependencies:
+  CTF-Aurora.unr:
+  - status: "OK"
+    name: "dogtowns"
+  - status: "OK"
+    name: "Bstretz"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsA/&file=ctf-aurora.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-aurora.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-aurora.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsA/ctf-aurora.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/d/826d0b/ctf-aurora.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/d/826d0b/ctf-aurora.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/d/826d0b/ctf-aurora.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Aurora"
+playerCount: "10-14"
+themes:
+  Ancient: 0.2
+  City: 0.2
+  Natural: 0.3
+  Skaarj Tech: 0.2
+bots: true

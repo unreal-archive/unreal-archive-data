@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 16:42"
+game: "Unreal Tournament 2004"
+name: "DM-SakuraGarden"
+author: "KazeoHin"
+description: "The ancient Hin Gardens are rumored to grow the magic KameSakura trees.\
+  \ Though it is not writen in any book as to what these trees really do, many wars\
+  \ have been faught for them. There are superstitions that Sakura trees grow pink\
+  \ because of all the blood shed at their roots."
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-SakuraGarden_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-SakuraGarden_shot_1.png"
+- type: "IMAGE"
+  name: "DM-SakuraGarden_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-SakuraGarden_shot_2.png"
+originalFilename: "dm-sakuragarden.zip"
+hash: "830bfd4bd14545a3372206ab6d966704857ed265"
+fileSize: 10022136
+files:
+- name: "SakuraTheme.ogg"
+  fileSize: 6794812
+  hash: "588d09630771556044d5b43ada228456dbf50c0f"
+- name: "DM-SakuraGarden.ut2"
+  fileSize: 20381864
+  hash: "d13a77d1e410237f8e73e83fcacea0b43025f028"
+- name: "SakuraTextures.utx"
+  fileSize: 5334455
+  hash: "908d5172beafe4e7db1010235362dbdeef353269"
+otherFiles: 2
+dependencies:
+  DM-SakuraGarden.ut2:
+  - status: "OK"
+    name: "SakuraTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-sakuragarden.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-sakuragarden.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/8/3/0bfd4b/dm-sakuragarden.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/8/3/0bfd4b/dm-sakuragarden.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sakura Garden"
+playerCount: "5-8"
+themes:
+  Ancient: 1.0
+bots: true

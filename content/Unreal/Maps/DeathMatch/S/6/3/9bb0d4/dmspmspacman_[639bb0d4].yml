@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:40"
+game: "Unreal"
+name: "DM[SP]MsPacMan"
+author: "MOHOG *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM[SP]MsPacMan_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/DM%5BSP%5DMsPacMan_shot_1.png"
+originalFilename: "DM[SP]MsPacMan.zip"
+hash: "639bb0d4e4cd162af047934ffe6dd7b48bc971a3"
+fileSize: 3877720
+files:
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "MyTexture.utx"
+  fileSize: 2133
+  hash: "254e782928cb1103d9e355751818e63befcfbd1b"
+- name: "DM[SP]MsPacMan.unr"
+  fileSize: 2694621
+  hash: "9a60e0240b7f3eb8dcff3bf434b90433c0d6ff33"
+- name: "credits.utx"
+  fileSize: 1469689
+  hash: "36ee5db33b15cdaf6131011229884997817d6cd9"
+- name: "SPScoreBoard.u"
+  fileSize: 4813
+  hash: "e0df55a0a684ed23e757cd73e30a5564d6c9cf34"
+- name: "pacmanz.uax"
+  fileSize: 163686
+  hash: "71511b29401b8cf16a79d6daa667a917fad626c8"
+- name: "Scripted.utx"
+  fileSize: 245078
+  hash: "bb714915513061018705256d912b9b7e776520b8"
+otherFiles: 0
+dependencies:
+  SPScoreBoard.u:
+  - status: "OK"
+    name: "MyTexture"
+  DM[SP]MsPacMan.unr:
+  - status: "MISSING"
+    name: "uzi"
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "Scripted"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "BoomDarts"
+  - status: "MISSING"
+    name: "ShrinkerGun"
+  - status: "OK"
+    name: "pacmanz"
+  - status: "OK"
+    name: "MyTexture"
+  - status: "OK"
+    name: "SPScoreBoard"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DMsPacMan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DMsPacMan.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/6/3/9bb0d4/DM%255BSP%255DMsPacMan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/6/3/9bb0d4/DM%255BSP%255DMsPacMan.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Ms Pacman"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: false

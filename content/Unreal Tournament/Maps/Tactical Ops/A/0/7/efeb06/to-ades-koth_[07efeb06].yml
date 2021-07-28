@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:24"
+game: "Unreal Tournament"
+name: "TO-ADES-KotH"
+author: "ADES"
+description: "None"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "TO-ADES-KotH_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/A/TO-ADES-KotH_shot_1.png"
+originalFilename: "TO-ADES-KotH.zip"
+hash: "07efeb06366a6f5693e52365ca6e2fbf68e62a99"
+fileSize: 4746378
+files:
+- name: "TO-ADES-KotH.unr"
+  fileSize: 1096800
+  hash: "35ad9354409fafcb4807f5b52b9c029759544a95"
+- name: "ADESMix.utx"
+  fileSize: 5584768
+  hash: "de6c7d7a25bf6a8b581fde5d11118916c5a3d22e"
+- name: "ADESYS2.umx"
+  fileSize: 1014483
+  hash: "3a8f29112164311b250fb2dfa04c993159e60eda"
+otherFiles: 0
+dependencies:
+  TO-ADES-KotH.unr:
+  - status: "OK"
+    name: "ADESYS2"
+  - status: "OK"
+    name: "ADESMix"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-ADES-KotH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/A/TO-ADES-KotH.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-ADES-KotH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/A/0/7/efeb06/TO-ADES-KotH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/A/0/7/efeb06/TO-ADES-KotH.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "ADES-KotH"
+playerCount: "12"
+themes: {}
+bots: true

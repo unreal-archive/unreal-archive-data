@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:27"
+variationOf: "40f6e0c709680065f4f573062e9b29d5ca03c95a"
+game: "Unreal Tournament"
+name: "DM-Base714"
+author: "BONE"
+description: "Secret Military Base"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-Base714_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-Base714_shot_1.png"
+originalFilename: "DM-Base714.zip"
+hash: "eddbbca31ff1d4f470bb024cd3ea268f22eb0f38"
+fileSize: 8155860
+files:
+- name: "DM-Base714.unr"
+  fileSize: 1594790
+  hash: "b911cf5fce997d9ba76b3657ae00ca869def0494"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "streetex.utx"
+  fileSize: 6991743
+  hash: "011c59cf97e16e3ed1dfa382981435bbbff838a1"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+otherFiles: 0
+dependencies:
+  DM-Base714.unr:
+  - status: "OK"
+    name: "MTextSetA"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "streetex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/e/d/dbbca3/DM-Base714.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/e/d/dbbca3/DM-Base714.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/e/d/dbbca3/DM-Base714.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Base714"
+playerCount: "4-16"
+themes:
+  Tech: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.2
+  Indistrial: 0.6
+bots: true

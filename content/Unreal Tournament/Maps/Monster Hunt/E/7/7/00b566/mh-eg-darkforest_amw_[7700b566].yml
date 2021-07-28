@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:02"
+game: "Unreal Tournament"
+name: "MH-EG-DARKFOREST_AMW"
+author: "THUNDERBOLT/Hitman · edit by EvilGrins/RedFist"
+description: "None"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "MH-EG-DARKFOREST_AMW_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/E/MH-EG-DARKFOREST_AMW_shot_1.png"
+originalFilename: "MH-EG-DARKFOREST_AMW.zip"
+hash: "7700b566b8186466ccf6618172b0f32e97cee76b"
+fileSize: 5427766
+files:
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "BPak.u"
+  fileSize: 259549
+  hash: "312b24b077b5dd209f9ef8513b86f023c8d26232"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "TeamMonster.u"
+  fileSize: 604275
+  hash: "0f7884a23d435ba98f000bee996b9993669fc252"
+- name: "Advanced_weapons_and_monsters.u"
+  fileSize: 94893
+  hash: "6cfcc68f373a59b7ba22f3b7da68cc00f1ecb8f4"
+- name: "MH-EG-DARKFOREST_AMW.unr"
+  fileSize: 2105234
+  hash: "2203f0f64d9b90ea882c318e193788222c117961"
+- name: "GrimReaper.u"
+  fileSize: 2175555
+  hash: "87dd8fb1c3c88ff04288d68b971bb9a2de7fe733"
+otherFiles: 0
+dependencies:
+  Advanced_weapons_and_monsters.u:
+  - status: "MISSING"
+    name: "mhplus"
+  MH-EG-DARKFOREST_AMW.unr:
+  - status: "OK"
+    name: "Advanced_weapons_and_monsters"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "OK"
+    name: "TeamMonster"
+  - status: "OK"
+    name: "Mayhem"
+  - status: "OK"
+    name: "BPak"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "GrimReaper"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-EG-DARKFOREST_AMW.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/E/MH-EG-DARKFOREST_AMW.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/E/7/7/00b566/MH-EG-DARKFOREST_AMW.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/7/7/00b566/MH-EG-DARKFOREST_AMW.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Advanced Monsters & Weapons"
+playerCount: "5 Bots & 6 GirlScouts & 3 Blood Mercs & 7"
+themes:
+  Nali Temple: 0.2
+  Ancient: 0.2
+  Natural: 0.7
+bots: true

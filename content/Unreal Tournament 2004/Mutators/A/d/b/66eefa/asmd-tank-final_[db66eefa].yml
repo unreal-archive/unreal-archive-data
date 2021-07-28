@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-10-30 17:49"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ASMD TANK Final"
 author: "Hyperforce"
@@ -38,30 +37,27 @@ dependencies:
   ASMD_static.usx:
   - status: "OK"
     name: "ASMDTANK_TEX"
-    providedBy: null
   ASMD_TANK.u:
   - status: "OK"
     name: "ASMD_static"
-    providedBy: null
   - status: "MISSING"
     name: "ASMDTANK_ANIMnew"
-    providedBy: null
   - status: "OK"
     name: "ASMDTANK_TEX"
-    providedBy: null
   ASMD_TANKnew.u:
   - status: "MISSING"
     name: "ASMD_static2"
-    providedBy: null
   - status: "MISSING"
     name: "ASMDTANK_ANIMnew"
-    providedBy: null
   - status: "OK"
     name: "ASMDTANK_TEX"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/d/b/66eefa/ASMD_TANK_Final.rar"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/d/b/66eefa/ASMD_TANK_Final.rar"
+  main: false
   repack: false
   state: "OK"
 deleted: false

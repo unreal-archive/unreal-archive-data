@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:16"
+variationOf: "6555f1f55538819706615e9d2b021d5df5540157"
+game: "Unreal Tournament"
+name: "DM-NODA03"
+author: "NodaReloaded"
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-noda03_shot_7e2e77cf_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/7/e/2e77cf/dm-noda03_shot_7e2e77cf_2.png"
+- type: "IMAGE"
+  name: "dm-noda03_shot_7e2e77cf_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/7/e/2e77cf/dm-noda03_shot_7e2e77cf_1.png"
+originalFilename: "dm-noda03.zip"
+hash: "7e2e77cff8ac5fc9c678b2201d21489c6cf8edce"
+fileSize: 2100016
+files:
+- name: "mnoda03.umx"
+  fileSize: 1739740
+  hash: "c6ee2899c05017844f2e076558614d8f3143a459"
+- name: "Txnoda03.utx"
+  fileSize: 486044
+  hash: "c1b4962fe61a3b23b197492460d09633cca7e99c"
+- name: "DM-NODA03.unr"
+  fileSize: 535320
+  hash: "98d1b720a0b4333fe5961c16e177a8d1b0f9307c"
+otherFiles: 1
+dependencies:
+  DM-NODA03.unr:
+  - status: "OK"
+    name: "mnoda03"
+  - status: "OK"
+    name: "Txnoda03"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-noda03.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/dm-noda03.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3946"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/7/e/2e77cf/dm-noda03.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/7/e/2e77cf/dm-noda03.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "<< [Bridge-OF-Death] >>"
+playerCount: "4-16"
+themes:
+  Tech: 0.1
+  Ancient: 0.1
+  Natural: 0.8
+bots: false

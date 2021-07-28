@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:22"
+variationOf: "e7b388745d22cb2ec07b107feb1bd0329575248d"
+game: "Unreal Tournament"
+name: "CTF-Fanmaris"
+author: "Jan Kohnert"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fanmaris_shot_ca9a65b4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/c/a/9a65b4/ctf-fanmaris_shot_ca9a65b4_1.png"
+originalFilename: "ctf-fanmaris.zip"
+hash: "ca9a65b4701ba3b87e6668737108b9015bd5fdff"
+fileSize: 5399564
+files:
+- name: "DrugsAreDanger3.umx"
+  fileSize: 3273086
+  hash: "74396fa6bd6132638e199b381994eb0310ea85d3"
+- name: "ForsakenT.utx"
+  fileSize: 2940782
+  hash: "7e6c3e40f6a8b7146ab1532ebd41844b8bbc02f7"
+- name: "CTF-Fanmaris.unr"
+  fileSize: 2153550
+  hash: "5ddc83a907fb9d9b953e52408d01b1320897957b"
+- name: "WOTDetail.utx"
+  fileSize: 177735
+  hash: "14c29fafd117a2148f12cb59fd71d9e3f5c96a00"
+otherFiles: 1
+dependencies:
+  CTF-Fanmaris.unr:
+  - status: "OK"
+    name: "DrugsAreDanger3"
+  - status: "OK"
+    name: "ForsakenT"
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-fanmaris.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403897"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=ctf-fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsF/ctf-fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/c/a/9a65b4/ctf-fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/c/a/9a65b4/ctf-fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Fanmaris"
+playerCount: "8-10"
+themes:
+  Ancient: 1.0
+bots: true

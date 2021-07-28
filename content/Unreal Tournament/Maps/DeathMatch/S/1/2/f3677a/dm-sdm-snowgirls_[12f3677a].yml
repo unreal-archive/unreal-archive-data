@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:48"
+game: "Unreal Tournament"
+name: "DM-SDM-snowgirls"
+author: "|bah| Salty Dog"
+description: "Xmas frag for our lovely ladies"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-SDM-snowgirls_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-SDM-snowgirls_shot_1.png"
+originalFilename: "dm-sdm-snowgirls.zip"
+hash: "12f3677a01ffc81ddf0b3cac49f39f2e49d59758"
+fileSize: 6491816
+files:
+- name: "SnowGirlstex.utx"
+  fileSize: 3138361
+  hash: "3d237909fdaa98b4984e075636feebc92cd006ba"
+- name: "SnowGirlsfx.uax"
+  fileSize: 7697953
+  hash: "b1f1111b75ef0df6b84aa779e6c105955efbe4b3"
+- name: "DM-SDM-snowgirls.unr"
+  fileSize: 1207347
+  hash: "38fbc0d1e7bdd2dd9130c1cce0eae04ddd5fadc6"
+- name: "SnowGirlPak.u"
+  fileSize: 124316
+  hash: "cc6445ce0e74c0d92ef51ed8f3684c7fda923caa"
+- name: "WBblank.umx"
+  fileSize: 481
+  hash: "87a226497db323b6ab63193a4cb54893a575cc22"
+otherFiles: 2
+dependencies:
+  DM-SDM-snowgirls.unr:
+  - status: "OK"
+    name: "SnowGirlstex"
+  - status: "OK"
+    name: "SnowGirlsfx"
+  - status: "OK"
+    name: "SnowGirlPak"
+  - status: "OK"
+    name: "WBblank"
+  SnowGirlPak.u:
+  - status: "OK"
+    name: "SnowGirlstex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-sdm-snowgirls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-sdm-snowgirls.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/1/2/f3677a/dm-sdm-snowgirls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/1/2/f3677a/dm-sdm-snowgirls.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-SDM-SnowGirls"
+playerCount: "24"
+themes: {}
+bots: true

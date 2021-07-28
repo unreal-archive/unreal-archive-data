@@ -1,0 +1,98 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:54"
+game: "Unreal Tournament 2004"
+name: "DM-US-CONDO2k4"
+author: "[uSa]Baad"
+description: "Another BAAD Import.  http://unitedscriptors.org   Original UT99 Author:\
+  \ Mark Anderson (special thanks to him to allow this conversion)"
+releaseDate: "2005-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-US-CONDO2k4_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-US-CONDO2k4_shot_3.png"
+- type: "IMAGE"
+  name: "DM-US-CONDO2k4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-US-CONDO2k4_shot_1.png"
+- type: "IMAGE"
+  name: "DM-US-CONDO2k4_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-US-CONDO2k4_shot_2.png"
+- type: "IMAGE"
+  name: "DM-US-CONDO2k4_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-US-CONDO2k4_shot_5.png"
+- type: "IMAGE"
+  name: "DM-US-CONDO2k4_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-US-CONDO2k4_shot_4.png"
+originalFilename: "dm-us-condo2k4.zip"
+hash: "4d65d85c1e7056ab60568949a0fd37e3f1706603"
+fileSize: 40957448
+files:
+- name: "nowayback.ogg"
+  fileSize: 2375802
+  hash: "a3760db30842f11147402e8f3da1b9664a2b3635"
+- name: "Breakmesh.usx"
+  fileSize: 2108012
+  hash: "3229b20d1a7fa65bf5919f41a3621e9f5254ce51"
+- name: "DM-US-CONDO2k4.ut2"
+  fileSize: 38042724
+  hash: "c80695680208683b3004c2d032479b83398022dd"
+- name: "MPCHAC.utx"
+  fileSize: 17618701
+  hash: "83bb54c42f832f84c35a5f08f9cb2ebc1d080590"
+- name: "webspace_stat.usx"
+  fileSize: 7690809
+  hash: "28396b52f279067ae5e1838aa6e4ea261ed47c3c"
+- name: "webspace_tex.utx"
+  fileSize: 17762202
+  hash: "8a47c062d7c78093645c6c228f6b49c060656686"
+- name: "Breaktex.utx"
+  fileSize: 3635976
+  hash: "9963480241cfc355c78a9edd4354a82865aebf9e"
+- name: "XXX.usx"
+  fileSize: 52287
+  hash: "a7f66f64cb07f926cb72fa4f7d37be45808bd1f8"
+otherFiles: 6
+dependencies:
+  webspace_stat.usx:
+  - status: "OK"
+    name: "webspace_tex"
+  Breakmesh.usx:
+  - status: "OK"
+    name: "Breaktex"
+  XXX.usx:
+  - status: "OK"
+    name: "MPCHAC"
+  DM-US-CONDO2k4.ut2:
+  - status: "OK"
+    name: "MPCHAC"
+  - status: "OK"
+    name: "Breaktex"
+  - status: "OK"
+    name: "webspace_stat"
+  - status: "OK"
+    name: "xxx"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4595"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/U/dm-us-condo2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/U/4/d/65d85c/dm-us-condo2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/U/4/d/65d85c/dm-us-condo2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "US-Condo2K4"
+playerCount: "12-24"
+themes:
+  Tech: 0.9
+  Ancient: 0.1
+bots: true

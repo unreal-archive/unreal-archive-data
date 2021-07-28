@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:43"
+game: "Unreal Tournament"
+name: "DM-Coloseum"
+author: "Steve Roenneburg"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-Coloseum_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Coloseum_shot_1.png"
+originalFilename: "dm-coloseum.zip"
+hash: "9b043b4409f6cc7642e3f4713bdeb2d6be27501f"
+fileSize: 1095540
+files:
+- name: "DM-Coloseum.unr"
+  fileSize: 3112288
+  hash: "66383601d2eedd108fc7047fcbafa02babd14d46"
+- name: "jtex.utx"
+  fileSize: 337390
+  hash: "1fea9d9af51eacc457ff93b36aaaff60dca6e83c"
+otherFiles: 1
+dependencies:
+  DM-Coloseum.unr:
+  - status: "OK"
+    name: "jtex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-coloseum.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-coloseum.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/9/b/043b44/dm-coloseum.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/9/b/043b44/dm-coloseum.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Coloseum"
+playerCount: "6-12"
+themes:
+  Skaarj Crypt: 0.3
+  Industrial: 0.1
+  Skaarj Tech: 0.6
+bots: true

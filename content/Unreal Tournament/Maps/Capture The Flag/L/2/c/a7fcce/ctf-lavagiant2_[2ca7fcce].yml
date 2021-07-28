@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:43"
+game: "Unreal Tournament"
+name: "CTF-LavaGiant2"
+author: "Chefe"
+description: "GET THOSE FLAGS!!"
+releaseDate: "2017-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-LavaGiant2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/CTF-LavaGiant2_shot_1.png"
+originalFilename: "CTF-LavaGiant2.zip"
+hash: "2ca7fcceca54bfc53efef9fd7da16e2158750e62"
+fileSize: 3734129
+files:
+- name: "PickUpBaseJrm01.u"
+  fileSize: 3812703
+  hash: "5c104dfcbfe401936ccfa5e3389cf7011796e697"
+- name: "Lavagiant2_Items.utx"
+  fileSize: 2388012
+  hash: "43c1aa5cb6f272904602581c0b12594d0b32e171"
+- name: "CTF-LavaGiant2.unr"
+  fileSize: 4190590
+  hash: "e09d0cc554ff131031a83c9eef28f249a38db4f3"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+otherFiles: 1
+dependencies:
+  CTF-LavaGiant2.unr:
+  - status: "MISSING"
+    name: "FlakMine"
+  - status: "MISSING"
+    name: "Apocalypse"
+  - status: "OK"
+    name: "Lavagiant2_Items"
+  - status: "OK"
+    name: "Factory"
+  - status: "MISSING"
+    name: "chaossounds2"
+  - status: "OK"
+    name: "PickUpBaseJrm01"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "ChaosUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-LavaGiant2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/CTF-LavaGiant2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/2/c/a7fcce/CTF-LavaGiant2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/2/c/a7fcce/CTF-LavaGiant2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "LavaGiant II"
+playerCount: "8-14"
+themes:
+  Tech: 0.2
+  Industrial: 0.6
+  Natural: 0.1
+bots: true

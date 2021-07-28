@@ -1,0 +1,128 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 07:43"
+game: "Unreal Tournament"
+name: "Spzeroblack"
+author: "EddX"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "Spzeroblack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Spzeroblack_shot_2.png"
+- type: "IMAGE"
+  name: "Spzeroblack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/Spzeroblack_shot_1.png"
+originalFilename: "spzeroblack.zip"
+hash: "bd493758609b8044d120060207938839fb91fa4d"
+fileSize: 15158062
+files:
+- name: "spuw2.unr"
+  fileSize: 9308894
+  hash: "80c7f91443a8e251d03122015384809f335cc137"
+- name: "WarGate.umx"
+  fileSize: 825589
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
+- name: "SPuwintro.unr"
+  fileSize: 700597
+  hash: "238f38cb4ada322183e89f5fe3b0ec0373220b05"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "Crater.umx"
+  fileSize: 896351
+  hash: "1e840e29828ddbd98359957c9dd5e0e551b5c967"
+- name: "Fourth.umx"
+  fileSize: 917601
+  hash: "182a935d9c4234ba79066fde68456901f97ae101"
+- name: "spuw1.unr"
+  fileSize: 9865088
+  hash: "bf06a247246a42bf5f935c98a1bf778bd80eebc1"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+- name: "spuw4.unr"
+  fileSize: 1406234
+  hash: "09d4d24f4f796d09677dd3bf6c52135d872df55e"
+- name: "spuw3.unr"
+  fileSize: 14666680
+  hash: "3952088dacc5b52f89ed214c3464f33fe09b8732"
+- name: "utend.umx"
+  fileSize: 1460582
+  hash: "f8f00031e8b30670de2d36c3df8fd68cc9574a71"
+otherFiles: 1
+dependencies:
+  spuw1.unr:
+  - status: "OK"
+    name: "Crater"
+  spuw2.unr:
+  - status: "OK"
+    name: "Fifth"
+  - status: "OK"
+    name: "WarGate"
+  spuw4.unr:
+  - status: "OK"
+    name: "utend"
+  spuw3.unr:
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "Fifth"
+  - status: "OK"
+    name: "Fourth"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/S/spzeroblack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1405801"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SinglePlayer&file=ZeroBlack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SinglePlayer&file=spzeroblack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/SinglePlayer/&file=spzeroblack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/SinglePlayer/spzeroblack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/S/b/d/493758/spzeroblack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/S/b/d/493758/spzeroblack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "SPuwintro"
+  title: "Descent"
+  author: "EddX"
+- name: "spuw2"
+  title: "The Lair of the Slith"
+  author: "EddX"
+- name: "spuw3"
+  title: "The Lord of Despair"
+  author: "EddX"
+- name: "spuw1"
+  title: "The Underwater Base"
+  author: "EddX"
+- name: "spuw4"
+  title: "Ascention"
+  author: "EddX"
+gametype: "Single Player"
+themes:
+  Nali Temple: 0.3
+  Ancient: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.3

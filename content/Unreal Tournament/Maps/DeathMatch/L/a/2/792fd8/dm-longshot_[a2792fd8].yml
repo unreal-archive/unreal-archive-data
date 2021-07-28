@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:56"
+game: "Unreal Tournament"
+name: "DM-Longshot"
+author: "Jeff \"MuchFun\" Whittaker"
+description: "Welcome to the Ancient Tower"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-longshot_shot_a2792fd8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/a/2/792fd8/dm-longshot_shot_a2792fd8_1.png"
+originalFilename: "DM-Longshot.zip"
+hash: "a2792fd8284f75049aa8cc5dc9087cb7506bc8ab"
+fileSize: 3795547
+files:
+- name: "AbbeyTex.utx"
+  fileSize: 1572406
+  hash: "a25e54237a0bf96a1a105e1510ef1a27fb46c58c"
+- name: "Matrix.uax"
+  fileSize: 818521
+  hash: "737a72b078d026ea69572e770f2453b9daa8af08"
+- name: "DM-Longshot.unr"
+  fileSize: 4124515
+  hash: "dcf32242767cd7f99bec1b206827b2333fa405a6"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+otherFiles: 0
+dependencies:
+  DM-Longshot.unr:
+  - status: "OK"
+    name: "AbbeyTex"
+  - status: "OK"
+    name: "Matrix"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-Longshot.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/a/2/792fd8/DM-Longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/a/2/792fd8/DM-Longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ancient Tower"
+playerCount: "6-20 Players"
+themes:
+  Nali Temple: 0.6
+  Skaarj Crypt: 0.4
+bots: true

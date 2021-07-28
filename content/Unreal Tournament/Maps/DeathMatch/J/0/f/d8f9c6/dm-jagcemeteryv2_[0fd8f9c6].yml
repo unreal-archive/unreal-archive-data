@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 02:39"
+game: "Unreal Tournament"
+name: "DM-[JAG]CemeteryV2"
+author: "[JAG]Britnik"
+description: "None"
+releaseDate: "2008-11"
+attachments: []
+originalFilename: "DM-[JAG]CemeteryV2.zip"
+hash: "0fd8f9c69d577255c3a971010ca391c51bf9a9d0"
+fileSize: 7974966
+files:
+- name: "JAGCem.utx"
+  fileSize: 312604
+  hash: "0b261a9965b5bfddddbd7a13a46b089e42fb0195"
+- name: "BringMeToLife.umx"
+  fileSize: 7619822
+  hash: "0b5c47027a9f6b5a69d49182ece5a18e6ee055ea"
+- name: "DM-[JAG]CemeteryV2.unr"
+  fileSize: 2477258
+  hash: "fc11563d5aca1a22767a82baa7042a66733915d9"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+otherFiles: 0
+dependencies:
+  DM-[JAG]CemeteryV2.unr:
+  - status: "OK"
+    name: "JAGCem"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "BringMeToLife"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAG%5DCemeteryV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BJAG%5DCemeteryV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/J/0/f/d8f9c6/DM-%255BJAG%255DCemeteryV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/J/0/f/d8f9c6/DM-%255BJAG%255DCemeteryV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-[JAG]Cemetery"
+playerCount: "As Many"
+themes:
+  Nali Temple: 0.4
+  Ancient: 0.4
+  Natural: 0.2
+bots: false

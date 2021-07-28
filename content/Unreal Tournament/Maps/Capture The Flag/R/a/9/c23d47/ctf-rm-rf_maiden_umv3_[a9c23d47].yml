@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:42"
+game: "Unreal Tournament"
+name: "CTF-rm-rf_Maiden_UMv3"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-rm-rf_Maiden_UMv3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-rm-rf_Maiden_UMv3_shot_1.png"
+originalFilename: "ctf-rm-rf_maiden_umv3.zip"
+hash: "a9c23d4790b3c7a1163fed7e0b487f8a29c497e5"
+fileSize: 512626
+files:
+- name: "rmrf.utx"
+  fileSize: 420298
+  hash: "ff35d0276ecca4de373b91d855914debcccd3841"
+- name: "CTF-rm-rf_Maiden_UMv3.unr"
+  fileSize: 992501
+  hash: "0c582558e887e4b4592a149901a8cb4bc58d0182"
+- name: "rm-rf_v1.utx"
+  fileSize: 684895
+  hash: "91df0bc716b3c647ba366a8811bfbc9670d031bd"
+otherFiles: 1
+dependencies:
+  CTF-rm-rf_Maiden_UMv3.unr:
+  - status: "OK"
+    name: "rm-rf_v1"
+  - status: "OK"
+    name: "rmrf"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-rm-rf_maiden_umv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/ctf-rm-rf_maiden_umv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/a/9/c23d47/ctf-rm-rf_maiden_umv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/a/9/c23d47/ctf-rm-rf_maiden_umv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "rm-rf_Maiden_UMv1"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.9
+bots: true

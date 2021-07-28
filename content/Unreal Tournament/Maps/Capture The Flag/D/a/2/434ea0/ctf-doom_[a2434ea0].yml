@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:53"
+game: "Unreal Tournament"
+name: "CTF-doom"
+author: "Unknown"
+description: "prepare to be destroyed"
+releaseDate: "2000-03"
+attachments: []
+originalFilename: "ctf-doom.zip"
+hash: "a2434ea030f2d1a40bfc145e1dabee8eddc72d81"
+fileSize: 3567566
+files:
+- name: "Doom2.utx"
+  fileSize: 425524
+  hash: "570da4292c31b41f8ebca26991ce43f3aa522e34"
+- name: "CTF-doom.unr"
+  fileSize: 415475
+  hash: "2f5c06ff659c1bcf320e99c25b6819be041ea2ec"
+- name: "Doom.utx"
+  fileSize: 6448855
+  hash: "3d379e25747d25e367e4000523eb20636bbba6cd"
+- name: "supfrog07.umx"
+  fileSize: 50718
+  hash: "b3427f524519df173b1c70fc8141b7f331fdb1ca"
+otherFiles: 0
+dependencies:
+  CTF-doom.unr:
+  - status: "OK"
+    name: "supfrog07"
+  - status: "OK"
+    name: "Doom"
+  - status: "OK"
+    name: "Doom2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-doom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-doom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/a/2/434ea0/ctf-doom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/a/2/434ea0/ctf-doom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-doom"
+playerCount: "10-20"
+themes:
+  Ancient: 0.2
+  City: 0.8
+bots: true

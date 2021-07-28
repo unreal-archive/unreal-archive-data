@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:14"
+game: "Unreal Tournament"
+name: "dm-(_@_)_miningfield"
+author: "Maarten van Oortmerssen a.k.a. (_@_)_ICaRuS"
+description: "visit my website: www.wootabulous.com"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-(_@_)_miningfield_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/dm-(_@_)_miningfield_shot_1.png"
+originalFilename: "dm-(_@_)_miningfield.zip"
+hash: "0533ee2c668518f97f3927bfb00584412db04aef"
+fileSize: 4326856
+files:
+- name: "mvo_poor_leno.umx"
+  fileSize: 5244954
+  hash: "5d3331cc3cfcb4b437221a7a049e351be8b9d7e2"
+- name: "dm-(_@_)_miningfield.unr"
+  fileSize: 1121280
+  hash: "f837c8fca99773569b8001b5a8da8a9208e8a628"
+- name: "www_wootabulous_com_logo.utx"
+  fileSize: 463049
+  hash: "326f4d39759cf5446a8186aef1a379bae095cb0f"
+otherFiles: 0
+dependencies:
+  dm-(_@_)_miningfield.unr:
+  - status: "OK"
+    name: "MvO_Poor_Leno"
+  - status: "OK"
+    name: "www_wootabulous_com_logo"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%28_%40_%29_miningfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-(_@_)_miningfield.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/0/5/33ee2c/dm-(_@_)_miningfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/0/5/33ee2c/dm-(_@_)_miningfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(_@_)_Miningfield"
+playerCount: "6 - 16"
+themes:
+  Industrial: 1.0
+bots: true

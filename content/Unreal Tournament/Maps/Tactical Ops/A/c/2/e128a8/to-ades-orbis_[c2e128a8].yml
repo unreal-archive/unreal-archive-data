@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:24"
+game: "Unreal Tournament"
+name: "TO-ADES-Orbis"
+author: "ADES"
+description: "None"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "TO-ADES-Orbis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/A/TO-ADES-Orbis_shot_1.png"
+originalFilename: "TO-ADES-Orbis.zip"
+hash: "c2e128a85ce82cca50e6e29232fb0ae5b048ff44"
+fileSize: 4850827
+files:
+- name: "ADESMix.utx"
+  fileSize: 5584768
+  hash: "de6c7d7a25bf6a8b581fde5d11118916c5a3d22e"
+- name: "TO-ADES-Orbis.unr"
+  fileSize: 1589421
+  hash: "6ed71ff88ef2125541e756e35416ace0d6e87f50"
+- name: "ADESYS2.umx"
+  fileSize: 1014483
+  hash: "3a8f29112164311b250fb2dfa04c993159e60eda"
+otherFiles: 0
+dependencies:
+  TO-ADES-Orbis.unr:
+  - status: "OK"
+    name: "ADESYS2"
+  - status: "OK"
+    name: "ADESMix"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-ADES-Orbis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/A/TO-ADES-Orbis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-ADES-Orbis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/A/c/2/e128a8/TO-ADES-Orbis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/A/c/2/e128a8/TO-ADES-Orbis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "ADES-Orbis"
+playerCount: "Unknown"
+themes: {}
+bots: false

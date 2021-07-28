@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:28"
+game: "Unreal"
+name: "BBGBarrelsCoop"
+author: "BBG-(DOG)-"
+description: "Another Doom2 Conversion!"
+releaseDate: "2012-06"
+attachments: []
+originalFilename: "BBGBarrelsCoop.zip"
+hash: "f8eeefa5c1b5885c2a1d9eaa69fd0cb349a64e8a"
+fileSize: 11489284
+files:
+- name: "doomish.utx"
+  fileSize: 6288251
+  hash: "ab04a112b457451b7172cde60d7392762224c7e1"
+- name: "ckmate_tx.utx"
+  fileSize: 11870376
+  hash: "c82aa26da5caa0425dfefe564d440243670d5f4c"
+- name: "BBGBarrelsCoop.unr"
+  fileSize: 2673825
+  hash: "fee690ea6af953d4e6707c0943a3fe223bb7bb3f"
+otherFiles: 0
+dependencies:
+  BBGBarrelsCoop.unr:
+  - status: "OK"
+    name: "doomish"
+  - status: "OK"
+    name: "ckmate_tx"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/bbg_maps/BBGBarrelsCoop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/B/f/8/eeefa5/BBGBarrelsCoop.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/B/f/8/eeefa5/BBGBarrelsCoop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/B/f/8/eeefa5/BBGBarrelsCoop.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "BBG's Barrels"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true

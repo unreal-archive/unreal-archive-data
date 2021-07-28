@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:15"
+game: "Unreal Tournament"
+name: "DM-1on1-Cypress-UKS"
+author: "Martin *Fetzi* Säurle"
+description: "None"
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-1on1-Cypress-UKS_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/C/DM-1on1-Cypress-UKS_shot_1.png"
+originalFilename: "DM-1on1-Cypress-UKS.zip"
+hash: "0aab96c66e105b9d4b82aff168fe58badbea4dde"
+fileSize: 2922905
+files:
+- name: "Sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "DM-1on1-Cypress-UKS.unr"
+  fileSize: 1607294
+  hash: "f17040998bcb33850c32eafc43b8ef607657b668"
+otherFiles: 0
+dependencies:
+  DM-1on1-Cypress-UKS.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "uks00109"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-1on1-Cypress-UKS.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/C/DM-1on1-Cypress-UKS.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/1%20on%201/C/0/a/ab96c6/DM-1on1-Cypress-UKS.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/1%20on%201/C/0/a/ab96c6/DM-1on1-Cypress-UKS.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "1on1-Cypress"
+playerCount: "2-4"
+themes:
+  Industrial: 0.9
+bots: true

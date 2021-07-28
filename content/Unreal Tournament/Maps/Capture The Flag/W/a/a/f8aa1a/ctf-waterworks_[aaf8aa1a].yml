@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:00"
+game: "Unreal Tournament"
+name: "CTF-waterworks"
+author: "Muhammad 'Sniper_0003x'  Ahmed"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-waterworks_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-waterworks_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-waterworks_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-waterworks_shot_2.png"
+originalFilename: "ctf-waterworks.zip"
+hash: "aaf8aa1ac07edf4c05f1637a5954121f6b9c2e05"
+fileSize: 1529672
+files:
+- name: "CTF-waterworks.unr"
+  fileSize: 2526730
+  hash: "4b8ca1755964bfb9420a6ee008afea790a17bde7"
+- name: "comefor.umx"
+  fileSize: 855950
+  hash: "09d7491efd2b45f46320641fc5a3ba288b44560b"
+otherFiles: 2
+dependencies:
+  CTF-waterworks.unr:
+  - status: "OK"
+    name: "comefor"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-waterworks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/ctf-waterworks.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=168"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/a/a/f8aa1a/ctf-waterworks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/a/a/f8aa1a/ctf-waterworks.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Water Works"
+playerCount: "10-16"
+themes:
+  Industrial: 0.9
+bots: true

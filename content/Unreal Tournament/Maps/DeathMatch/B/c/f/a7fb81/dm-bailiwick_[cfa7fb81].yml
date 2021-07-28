@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:54"
+variationOf: "9a561d793e14feeb91e26e6ac8a5a136f6502268"
+game: "Unreal Tournament"
+name: "DM-Bailiwick"
+author: "Adam Coggin (FrameR-A-T-E)"
+description: "Welcome to Bailiwick"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-bailiwick_shot_cfa7fb81_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/c/f/a7fb81/dm-bailiwick_shot_cfa7fb81_1.png"
+originalFilename: "dm-bailiwick.zip"
+hash: "cfa7fb81a73400fec052d4a9ebb0ce52214936db"
+fileSize: 1462293
+files:
+- name: "Desert.utx"
+  fileSize: 982457
+  hash: "7dd8bb350b35b311f14e05d954ac0bba9842bfbb"
+- name: "DM-Bailiwick.unr"
+  fileSize: 2554101
+  hash: "f6b8f444366d4dca75fc400dfc51659efcab1651"
+otherFiles: 1
+dependencies:
+  DM-Bailiwick.unr:
+  - status: "OK"
+    name: "Desert"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-bailiwick.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-bailiwick.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-bailiwick.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/c/f/a7fb81/dm-bailiwick.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/c/f/a7fb81/dm-bailiwick.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Bailiwick"
+playerCount: "3 to 8"
+themes:
+  Nali Temple: 0.3
+  Ancient: 0.5
+  Egyptian: 0.1
+bots: true

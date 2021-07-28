@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 05:18"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "BR-Revolt"
 author: "Scar"
@@ -32,27 +31,25 @@ dependencies:
   SecondChance.usx:
   - status: "MISSING"
     name: "2ndChance"
-    providedBy: null
   BR-Revolt.ut2:
   - status: "MISSING"
     name: "NewHLStreet"
-    providedBy: null
   - status: "OK"
     name: "Subway"
-    providedBy: null
   - status: "OK"
     name: "New_HL2_StreetMesh"
-    providedBy: null
   - status: "OK"
     name: "SecondChance"
-    providedBy: null
   New_HL2_StreetMesh.usx:
   - status: "MISSING"
     name: "NewHLStreet"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Bombing%20Run/R/6/e/6c47ff/BR-Revolt.rar"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/R/6/e/6c47ff/BR-Revolt.rar"
+  main: false
   repack: false
   state: "OK"
 deleted: false

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-11 10:35"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Westworld"
 author: "J. Martin - www.geocities.com/j4unreal"
@@ -35,17 +34,13 @@ dependencies:
   DM-Westworld.unr:
   - status: "OK"
     name: "WestworldSnd"
-    providedBy: null
   - status: "MISSING"
     name: "DMWestworldSnd"
-    providedBy: null
   DM-Westworld-nb.unr:
   - status: "OK"
     name: "WestworldSnd"
-    providedBy: null
   - status: "MISSING"
     name: "DMWestworldSnd"
-    providedBy: null
 downloads:
 - url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/ut_only_maps/DM-Westworld.zip"
   main: false
@@ -60,6 +55,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-Westworld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/4/0/4fcb80/DM-Westworld.zip"
   main: false
   repack: false
   state: "OK"

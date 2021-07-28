@@ -1,0 +1,60 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 19:39"
+game: "Unreal"
+name: "Base1"
+author: "Unknown"
+description: "None"
+releaseDate: "1998-06"
+attachments: []
+originalFilename: "base1.zip"
+hash: "741c944139336c538a9b5e70f3184b1fd852872c"
+fileSize: 636273
+files:
+- name: "Torn.u"
+  fileSize: 10898
+  hash: "f201c6c379c3c017a386e54779362ecee156c515"
+- name: "dmbuzz.unr"
+  fileSize: 538457
+  hash: "bceb074c6ee6a3ab588200000a8bff1d8cbb5285"
+- name: "TornSound.uax"
+  fileSize: 155760
+  hash: "995307a1076e387c937c4b7b0fd28afa2147200b"
+- name: "dmbase.unr"
+  fileSize: 1277917
+  hash: "c205a121c517f9a6ff4a8e8d19be7f8b486a196e"
+otherFiles: 0
+dependencies:
+  Torn.u:
+  - status: "OK"
+    name: "TornSound"
+  dmbuzz.unr:
+  - status: "OK"
+    name: "Torn"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6098764"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/B/base1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/B/7/4/1c9441/base1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/B/7/4/1c9441/base1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "dmbase"
+  title: "dmbase"
+  author: "Unknown"
+- name: "dmbuzz"
+  title: "dmbuzz"
+  author: "Unknown"
+gametype: "DeathMatch"
+themes: {}

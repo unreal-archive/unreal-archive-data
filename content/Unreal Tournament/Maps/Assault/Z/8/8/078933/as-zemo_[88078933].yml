@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-Zemo"
+author: "Rik Soeiro \"Guron\""
+description: "None"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "AS-Zemo_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/Z/AS-Zemo_shot_1.png"
+originalFilename: "as-zemo.zip"
+hash: "880789332d9709eccbcb8c50bf4b8ce655b479ed"
+fileSize: 2474861
+files:
+- name: "Newmca9.umx"
+  fileSize: 652014
+  hash: "53cfd6e4a993bc0dc2262ad3684d9e45797592b9"
+- name: "AS-Zemo.unr"
+  fileSize: 5972864
+  hash: "690d1f1d5da66ff773a73ec30bfb7f3d6f3e3c7b"
+- name: "Code.utx"
+  fileSize: 241909
+  hash: "62137d20bbeb85bd3247ab73078389b49c99c502"
+otherFiles: 1
+dependencies:
+  AS-Zemo.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "Code"
+  - status: "OK"
+    name: "Newmca9"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/Z/as-zemo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403169"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-zemo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-zemo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-zemo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/Z/8/8/078933/as-zemo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/Z/8/8/078933/as-zemo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Zemo State Prision"
+playerCount: "No more and no less than 8"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  Skaarj Tech: 0.1
+bots: true

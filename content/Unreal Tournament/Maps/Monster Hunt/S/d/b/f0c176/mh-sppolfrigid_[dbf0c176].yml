@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:54"
+game: "Unreal Tournament"
+name: "MH-[SP]PolFrigid"
+author: "Jinpachi"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "MH-[SP]PolFrigid_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DPolFrigid_shot_1.png"
+originalFilename: "MH-[SP]PolFrigid.zip"
+hash: "dbf0c1768591305c529789c4d546329cf5522a07"
+fileSize: 17284044
+files:
+- name: "Suprfist.umx"
+  fileSize: 1973180
+  hash: "b6d940ced139be27e89db22b8ab531f6a6759b1a"
+- name: "ShaneChurch.utx"
+  fileSize: 4398103
+  hash: "9fe9d5f363d2f5e0703d7a32bf8a13106a654271"
+- name: "HourIceSkaarj.utx"
+  fileSize: 3469929
+  hash: "28f6e126c65134b4e0d42722bf252ebba0d547d5"
+- name: "Pan1.uax"
+  fileSize: 2616147
+  hash: "1dbd066e18118d311ee878a81bce75b41cabe960"
+- name: "MH-[SP]PolFrigid.unr"
+  fileSize: 4652528
+  hash: "bab3850ef6cb789e2bf659176285ef511792ba15"
+- name: "Botmca9.umx"
+  fileSize: 1208303
+  hash: "0d7486f2c6621696bc19773b7c8728dc5f0afdf5"
+- name: "SP_MHMonsters.u"
+  fileSize: 4501840
+  hash: "e72d2f0ab872892ee3545e9795385fdd620861fe"
+- name: "SP_MHPack1.u"
+  fileSize: 524918
+  hash: "da4d8faf84e9ec96070bf956b659c6e9a350e63a"
+- name: "Wheels.umx"
+  fileSize: 1852243
+  hash: "0123e1d45f2c0db6ff464f448c41e11008693fa5"
+otherFiles: 0
+dependencies:
+  MH-[SP]PolFrigid.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "SP_MHPack1"
+  - status: "OK"
+    name: "HourIceSkaarj"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "SP_MHMonsters"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-%5BSP%5DPolFrigid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DPolFrigid.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]PolFrigid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/d/b/f0c176/MH-%255BSP%255DPolFrigid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/d/b/f0c176/MH-%255BSP%255DPolFrigid.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] PoL1-FrigidBase"
+playerCount: "4-8"
+themes:
+  Tech: 0.9
+bots: false

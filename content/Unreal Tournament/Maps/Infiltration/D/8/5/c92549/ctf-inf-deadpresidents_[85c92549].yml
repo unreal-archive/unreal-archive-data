@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:38"
+game: "Unreal Tournament"
+name: "CTF-INF-DeadPresidents"
+author: "Mr."
+description: "Dead Presidents"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-INF-DeadPresidents_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/CTF-INF-DeadPresidents_shot_1.png"
+originalFilename: "ctf-inf-deadpresidents.zip"
+hash: "85c92549c83f2272f88c95bbdc241137d94086f0"
+fileSize: 4508632
+files:
+- name: "CTF-INF-DeadPresidents.unr"
+  fileSize: 3335699
+  hash: "1231817389704f8d8858c47a71ae5df772306757"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "RT-Gnosis.utx"
+  fileSize: 3456786
+  hash: "1fd516e3487c736e0040c724005d2a94f0b2669e"
+otherFiles: 1
+dependencies:
+  CTF-INF-DeadPresidents.unr:
+  - status: "OK"
+    name: "RT-Gnosis"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Wood"
+  - status: "MISSING"
+    name: "INF_Outdoor"
+  RT-Gnosis.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "OK"
+    name: "Rt-Detail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=ctf-inf-deadpresidents.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/ctf-inf-deadpresidents.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/D/8/5/c92549/ctf-inf-deadpresidents.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/D/8/5/c92549/ctf-inf-deadpresidents.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Dead Presidents"
+playerCount: "12"
+themes:
+  Natural: 0.7
+  Skaarj Tech: 0.2
+  Nali Castle: 0.1
+bots: true

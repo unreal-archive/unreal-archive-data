@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-23 07:23"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "DOM-Sesmar"
 author: "Thorsten 'Tyhra' Zastrow"
@@ -33,17 +32,18 @@ dependencies:
   DOM-Sesmar.ut2:
   - status: "OK"
     name: "SesmarTyhraStatic"
-    providedBy: null
   - status: "OK"
     name: "SesmarTyhraTex"
-    providedBy: null
   SesmarTyhraStatic.usx:
   - status: "OK"
     name: "SesmarTyhraTex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Domination/S/1/8/8cf996/DOM-Sesmar.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Domination/S/1/8/8cf996/DOM-Sesmar.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

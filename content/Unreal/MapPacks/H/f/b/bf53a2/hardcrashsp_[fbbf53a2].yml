@@ -1,0 +1,104 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 09:34"
+game: "Unreal"
+name: "Hardcrashsp"
+author: "Jason S. Zimmermann (Silver-Serpent)"
+description: "None"
+releaseDate: "2005-06"
+attachments: []
+originalFilename: "hardcrashsp.7z"
+hash: "fbbf53a2874940cfd3e713ee2f99a4d54f1f8a1c"
+fileSize: 21096416
+files:
+- name: "HCL2.unr"
+  fileSize: 7415098
+  hash: "a4189ce35674564f169a4bf18ba61a4fac5f3050"
+- name: "NewLabTxt.utx"
+  fileSize: 1555612
+  hash: "a9bcb8febf77f8cd7749f162dc8c60cd8bdbfe1f"
+- name: "HardCrashTxt.utx"
+  fileSize: 3995329
+  hash: "6ddce0e9f9f9226d89def451176d876b208984c3"
+- name: "HCL3.unr"
+  fileSize: 8355930
+  hash: "c81ff609c429fafe4da56d2e431a12e38bb0c64d"
+- name: "HCL5.unr"
+  fileSize: 6228687
+  hash: "8b7f57596a1c94702b71b8ac39901c6c71a4522a"
+- name: "HCL1.unr"
+  fileSize: 3698768
+  hash: "1708faed6a2278b79cd07b00f9b4b7fb00783b55"
+- name: "HardCrashSnd.uax"
+  fileSize: 9705865
+  hash: "a08cc259a0353c37dfbb50c177ec960aca3e3715"
+- name: "jtex.utx"
+  fileSize: 2230010
+  hash: "a36bc7d7deadef46c4b41ed5d307fbcdec52462e"
+- name: "HCL4.unr"
+  fileSize: 3519237
+  hash: "0cf919841b3594d6a0f29b4112bbafb671d1c80f"
+- name: "KeepTxt.utx"
+  fileSize: 2221143
+  hash: "7adbd9d26093cbca7fea3305580015d25bed1715"
+otherFiles: 5
+dependencies:
+  HCL2.unr:
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "NewLabTxt"
+  HCL3.unr:
+  - status: "OK"
+    name: "HardCrashSnd"
+  HCL4.unr:
+  - status: "OK"
+    name: "HardCrashSnd"
+  HCL5.unr:
+  - status: "OK"
+    name: "KeepTxt"
+  - status: "OK"
+    name: "HardCrashSnd"
+  - status: "OK"
+    name: "HardCrashTxt"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/hyper/hardcrashsp.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/H/f/b/bf53a2/hardcrashsp.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/H/f/b/bf53a2/hardcrashsp.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/H/f/b/bf53a2/hardcrashsp.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "HCL1"
+  title: "The Outer Limits"
+  author: "Jason S. Zimmermann (Silver-Serpent)"
+- name: "HCL5"
+  title: "Caverns of the Forgotten"
+  author: "Jason S. Zimmermann (Silver-Serpent)"
+- name: "HCL3"
+  title: "The Wooded Village"
+  author: "Jason S. Zimmermann (Silver-Serpent)"
+- name: "HCL4"
+  title: "The Station"
+  author: "Jason S. Zimmermann (Silver-Serpent)"
+- name: "HCL2"
+  title: "The Great Escarpment"
+  author: "Jason S. Zimmermann (Silver-Serpent)"
+gametype: "Unknown"
+themes:
+  Tech: 0.3
+  Ancient: 0.1
+  Natural: 0.3
+  Nali Castle: 0.1
+  Skaarj Tech: 0.3

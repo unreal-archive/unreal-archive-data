@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:42"
+game: "Unreal Tournament"
+name: "CTF-Vulkan-XG"
+author: "azazel -Modded by WinegumS"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Vulkan-XG_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/CTF-Vulkan-XG_shot_1.png"
+originalFilename: "ctf-vulkan-xg.zip"
+hash: "d18292c997150949579a32a52eef740a1b33197a"
+fileSize: 7360029
+files:
+- name: "CTF-Vulkan-XG.unr"
+  fileSize: 7063693
+  hash: "d71f5784e40505a2963a3a32f8c46ad10c65a6aa"
+- name: "SSPX2.utx"
+  fileSize: 7909204
+  hash: "63c771dd8db7e175ecf1f8e6d16d6b804a40a3bd"
+- name: "ulogo.utx"
+  fileSize: 17816
+  hash: "40422bd8a187b05590618203057a12ce38a09ee8"
+otherFiles: 1
+dependencies:
+  CTF-Vulkan-XG.unr:
+  - status: "OK"
+    name: "ulogo"
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "SSPX2"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/ctf-vulkan-xg.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsV/&file=ctf-vulkan-xg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-vulkan-xg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsV/ctf-vulkan-xg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/d/1/8292c9/ctf-vulkan-xg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/d/1/8292c9/ctf-vulkan-xg.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Vulkan-XG-LE101"
+playerCount: "10"
+themes:
+  Tech: 0.3
+  Industrial: 0.5
+  Skaarj Tech: 0.2
+bots: true

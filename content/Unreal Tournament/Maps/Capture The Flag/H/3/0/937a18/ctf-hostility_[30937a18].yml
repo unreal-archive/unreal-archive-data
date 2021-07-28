@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:25"
+game: "Unreal Tournament"
+name: "CTF-Hostility"
+author: "Jeffrey \"Chronos\" Flower"
+description: "I want to be more like Toonces..."
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Hostility_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-Hostility_shot_1.png"
+originalFilename: "ctf-hostility.zip"
+hash: "30937a18e8a4083045bf92c1fd67d6d414283d5b"
+fileSize: 665674
+files:
+- name: "Toonces.utx"
+  fileSize: 355002
+  hash: "da07b07033570eeabe84b1eb87688565bb987f4f"
+- name: "CTF-Hostility.unr"
+  fileSize: 2151864
+  hash: "b5beb9d96e05bd548adb7157daf3665c557a2854"
+otherFiles: 1
+dependencies:
+  CTF-Hostility.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "Toonces"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-hostility.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsH/&file=ctf-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsH/ctf-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/3/0/937a18/ctf-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/3/0/937a18/ctf-hostility.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Hostility"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.2
+  Skaarj Tech: 0.6
+bots: true

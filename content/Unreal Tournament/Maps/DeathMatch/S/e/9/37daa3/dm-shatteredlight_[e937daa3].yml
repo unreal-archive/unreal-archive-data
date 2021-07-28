@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:13"
+game: "Unreal Tournament"
+name: "DM-ShatteredLight"
+author: "Rich \"Akuma\" Eastwood"
+description: "Step Into The Light"
+releaseDate: "1999-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-ShatteredLight_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-ShatteredLight_shot_1.png"
+originalFilename: "DM-ShatteredLight.zip"
+hash: "e937daa3b532d67842d585036b3c3cf1a5e2ec91"
+fileSize: 1501675
+files:
+- name: "aztek.utx"
+  fileSize: 252594
+  hash: "5b5854c483575be9b148cc1da9d6225c11a344c8"
+- name: "MortalKosmic.umx"
+  fileSize: 878149
+  hash: "a411e2d03adcbdafe64d6bdb6d457fa9b7b7b545"
+- name: "DM-ShatteredLight.unr"
+  fileSize: 2293766
+  hash: "66cbe8d5b727ade308ff7cca9a45df189a1e9f45"
+otherFiles: 0
+dependencies:
+  DM-ShatteredLight.unr:
+  - status: "OK"
+    name: "MortalKosmic"
+  - status: "OK"
+    name: "aztek"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-ShatteredLight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-ShatteredLight.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/e/9/37daa3/DM-ShatteredLight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/e/9/37daa3/DM-ShatteredLight.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Shattered Light"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.8
+  Natural: 0.2
+bots: true

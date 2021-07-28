@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:55"
+game: "Unreal Tournament"
+name: "CTF-FNB-Boxes-R-uS"
+author: "Rob -=FraGnBraG=- Burns"
+description: "None"
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FNB-Boxes-R-uS_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FNB-Boxes-R-uS_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-FNB-Boxes-R-uS_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FNB-Boxes-R-uS_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-FNB-Boxes-R-uS_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FNB-Boxes-R-uS_shot_3.png"
+originalFilename: "CTF-FNB-Boxes-R-uS.zip"
+hash: "1e6103300fced80ff0d582056c8cc4585654621c"
+fileSize: 28777750
+files:
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "CTF-FNB-Boxes-R-uS.unr"
+  fileSize: 31001050
+  hash: "ea0bcd26491dce7af2fba17ebe77225bba674505"
+- name: "LPDecoTex01.utx"
+  fileSize: 3197984
+  hash: "c9fc0e51b753b3d897b85bdb4d8e41e8a71d2e1c"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "LPSigns01.utx"
+  fileSize: 1126700
+  hash: "f733718819fd943378b923ab9c4ee2c79e355a37"
+otherFiles: 5
+dependencies:
+  CTF-FNB-Boxes-R-uS.unr:
+  - status: "OK"
+    name: "DXDecoTex01"
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "LPDecoTex01"
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "LPSigns01"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=CTF-FNB-Boxes-R-uS.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FNB-Boxes-R-uS.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7777"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/1/e/610330/CTF-FNB-Boxes-R-uS.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/1/e/610330/CTF-FNB-Boxes-R-uS.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-FNB-Boxes-R-uS"
+playerCount: "12-20"
+themes: {}
+bots: true

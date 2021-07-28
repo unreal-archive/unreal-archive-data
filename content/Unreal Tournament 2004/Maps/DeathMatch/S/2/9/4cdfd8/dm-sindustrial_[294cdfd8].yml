@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:23"
+game: "Unreal Tournament 2004"
+name: "DM-Sindustrial"
+author: "Jimbob"
+description: "Dark smoke rises to the air, this old decommisioned factory got a complete\
+  \ remake by the liandri corps to suit thier needs. all safety devices removed, handrails\
+  \ gone and warning signs nowhere to be seen this place is a deathtrap."
+releaseDate: "2006-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Sindustrial_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sindustrial_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Sindustrial_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sindustrial_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Sindustrial_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sindustrial_shot_3.png"
+originalFilename: "dm-sindustrial-final.zip"
+hash: "294cdfd8fcbe6ebc91852ce4c3acd5a180ba0a77"
+fileSize: 16648921
+files:
+- name: "DM-Sindustrial.ut2"
+  fileSize: 23345383
+  hash: "de0056de529333248d33b931b0dca74a8531b283"
+- name: "DW_Lavaworks.utx"
+  fileSize: 15855439
+  hash: "2c34629ef322ecc79cc1496400cd8c16698e795a"
+- name: "DW_Lavamesh.usx"
+  fileSize: 5142692
+  hash: "480ac53115c942f33eed570eae33bb592d1aa6c8"
+otherFiles: 3
+dependencies:
+  DW_Lavamesh.usx:
+  - status: "OK"
+    name: "DW_Lavaworks"
+  DM-Sindustrial.ut2:
+  - status: "OK"
+    name: "DW_Lavamesh"
+  - status: "OK"
+    name: "DW_Lavaworks"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5991"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-sindustrial-final.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/2/9/4cdfd8/dm-sindustrial-final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/2/9/4cdfd8/dm-sindustrial-final.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sindustrial"
+playerCount: "12"
+themes:
+  Industrial: 1.0
+bots: true

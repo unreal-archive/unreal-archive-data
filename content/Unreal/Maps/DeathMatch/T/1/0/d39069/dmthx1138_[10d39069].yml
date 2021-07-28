@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:49"
+game: "Unreal"
+name: "DmTHX1138"
+author: "Jeff Martin - www.geocities.com/j4unreal"
+description: "Blessings of the State, blessings of the masses."
+releaseDate: "2006-05"
+attachments:
+- type: "IMAGE"
+  name: "dmthx1138_shot_10d39069_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/T/1/0/d39069/dmthx1138_shot_10d39069_1.png"
+originalFilename: "dmthx1138.zip"
+hash: "10d390693babad521f1a9d6dc3398f25e565f028"
+fileSize: 4349261
+files:
+- name: "THX1138.utx"
+  fileSize: 837444
+  hash: "e895c88a3f1d40274f8f7ce1814156cca2dd4e9e"
+- name: "DmTHX1138.unr"
+  fileSize: 2756573
+  hash: "9c4c5636048feeb0ffb9e91728be90096f68f892"
+- name: "TPanels.utx"
+  fileSize: 636698
+  hash: "4d60346c49d97c7fa7051aef261a0e329b2dd8ba"
+- name: "THX1138Audio.uax"
+  fileSize: 4633872
+  hash: "be7cc0a7aa9fd076c45816238f4a72d5dea9e3de"
+otherFiles: 1
+dependencies:
+  DmTHX1138.unr:
+  - status: "OK"
+    name: "TPanels"
+  - status: "OK"
+    name: "THX1138Audio"
+  - status: "OK"
+    name: "THX1138"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/dmthx1138.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/1/0/d39069/dmthx1138.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/1/0/d39069/dmthx1138.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/1/0/d39069/dmthx1138.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "THX1138"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Natural: 0.4
+bots: true

@@ -1,0 +1,83 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 22:29"
+game: "Unreal Tournament"
+name: "CTF Quodrox"
+author: "Various"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF_Quodrox_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/CTF_Quodrox_shot_1.png"
+originalFilename: "CTF-Quodrox.zip"
+hash: "b5cdde042d6e014a3b33c1c02d129a4e1ba62f44"
+fileSize: 3615958
+files:
+- name: "DawnT.utx"
+  fileSize: 441605
+  hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+- name: "CTF-Saitek_1.unr"
+  fileSize: 1993598
+  hash: "c242b967eec3d0f858800f2ce2e94f90cfd50e77"
+- name: "Dawn.u"
+  fileSize: 2467
+  hash: "af98e56b991114e7a170fb1b2d756d2050ef3139"
+- name: "Fourth.umx"
+  fileSize: 917601
+  hash: "182a935d9c4234ba79066fde68456901f97ae101"
+- name: "Dawn_Dead.unr"
+  fileSize: 5447357
+  hash: "bc5d086a5eda72ca9659ff63514b08105543c1d7"
+- name: "Deadsounds.uax"
+  fileSize: 535026
+  hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+otherFiles: 4
+dependencies:
+  Dawn.u:
+  - status: "OK"
+    name: "Deadsounds"
+  - status: "OK"
+    name: "DawnT"
+  Dawn_Dead.unr:
+  - status: "OK"
+    name: "DawnT"
+  - status: "OK"
+    name: "Dawn"
+  - status: "OK"
+    name: "Deadsounds"
+  - status: "OK"
+    name: "Fourth"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Quodrox.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/CTF-Quodrox.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/b/5/cdde04/CTF-Quodrox.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/C/b/5/cdde04/CTF-Quodrox.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "Dawn_Dead"
+  title: "Dawn Of The Dead"
+  author: "Simon West-Bulford (EZkeel)"
+- name: "CTF-Saitek_1"
+  title: "CTF-Quadrox"
+  author: "EZkeel (Simon West-Bulford) @deCyber"
+gametype: "Capture The Flag"
+themes:
+  Tech: 0.1
+  Industrial: 0.4
+  Ancient: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.2
+  Nali Castle: 0.2

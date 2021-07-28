@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:01"
+game: "Unreal Tournament"
+name: "DM-IceComet"
+author: "Steve Keene"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-IceComet_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-IceComet_shot_1.png"
+originalFilename: "DM-IceComet.zip"
+hash: "b627328bdb536233ad0e302630cb101620471896"
+fileSize: 1366453
+files:
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+- name: "DM-IceComet.unr"
+  fileSize: 1414678
+  hash: "15978c2da429f7ed1755011bca3af1b6932a0b9e"
+- name: "snowtexSK.utx"
+  fileSize: 681418
+  hash: "1ee10468de6c73e234c1a488d49b1e97df0154cc"
+otherFiles: 1
+dependencies:
+  DM-IceComet.unr:
+  - status: "OK"
+    name: "snowtexSK"
+  - status: "OK"
+    name: "Isotoxin"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-IceComet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-IceComet.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/b/6/27328b/DM-IceComet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/b/6/27328b/DM-IceComet.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-IceComet"
+playerCount: "2 to 4"
+themes:
+  Natural: 0.7
+  Nali Castle: 0.3
+bots: true

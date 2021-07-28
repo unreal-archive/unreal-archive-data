@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:51"
+variationOf: "d47b147e6252d815520790b19fbec7964c5e222c"
+game: "Unreal"
+name: "DmZahltagSniper"
+author: "Juergen Vierheilig - revised by (mars)Buster"
+description: "** Buster's Zahltag Sniper **"
+releaseDate: "2005-06"
+attachments: []
+originalFilename: "DmZahltagSniper.zip"
+hash: "d3de615c323b84ae68212ec803b608085b4a8a1b"
+fileSize: 4743542
+files:
+- name: "DinoSound111199.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "Dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+- name: "DmZahltagSniper.unr"
+  fileSize: 4223288
+  hash: "b901527b3b902607838e7fdddcb78d97c81fda26"
+otherFiles: 1
+dependencies:
+  DmZahltagSniper.unr:
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "dinosound111199"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/serpentine/DmZahltagSniper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/Z/d/3/de615c/DmZahltagSniper.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/Z/d/3/de615c/DmZahltagSniper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/Z/d/3/de615c/DmZahltagSniper.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmZahltagSniper"
+playerCount: "8 to 16"
+themes:
+  Industrial: 0.9
+  Nali Castle: 0.1
+bots: true

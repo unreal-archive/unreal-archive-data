@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:02"
+game: "Unreal Tournament"
+name: "CTFM-AncientTitan"
+author: "Robin Pamart"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-AncientTitan_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/A/CTFM-AncientTitan_shot_1.png"
+originalFilename: "ctfm-ancienttitan.zip"
+hash: "4210a36232ca8efb060a2b17f55f69a1e4760037"
+fileSize: 388015
+files:
+- name: "UTDMT.utx"
+  fileSize: 64814
+  hash: "2510c5f58e34ec89b6602f4a152f8c3ad722bcc1"
+- name: "CTFM-AncientTitan.unr"
+  fileSize: 1058612
+  hash: "dadac9c91420e4225066a29123f05d2645ed6c5b"
+- name: "UTDMT.u"
+  fileSize: 67130
+  hash: "78d5d65e93f2312d7d015c4cfdd66513caca77b7"
+otherFiles: 1
+dependencies:
+  CTFM-AncientTitan.unr:
+  - status: "OK"
+    name: "UTDMT"
+  - status: "MISSING"
+    name: "Ctf4team"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/A/ctfm-ancienttitan.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-ancienttitan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-ancienttitan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-ancienttitan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-ancienttitan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/A/4/2/10a362/ctfm-ancienttitan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/A/4/2/10a362/ctfm-ancienttitan.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "The Ancient Titan"
+playerCount: "4-16"
+themes:
+  Nali Temple: 1.0
+bots: true

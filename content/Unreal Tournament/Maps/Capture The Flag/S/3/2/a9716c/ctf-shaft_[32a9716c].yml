@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:35"
+game: "Unreal Tournament"
+name: "CTF-Shaft"
+author: "Hobi-Wan"
+description: "Get the Flag, not the Shaft!"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Shaft_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Shaft_shot_1.png"
+originalFilename: "ctf-shaft.zip"
+hash: "32a9716c5c9afd563a2b2ef8a52b126075224502"
+fileSize: 1421094
+files:
+- name: "CTF-Shaft.unr"
+  fileSize: 3073453
+  hash: "a6ad9aa53e69839538361cf00f8f07f05b4b04d0"
+- name: "Warlord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+otherFiles: 1
+dependencies:
+  CTF-Shaft.unr:
+  - status: "OK"
+    name: "WarLord"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-shaft.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-shaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-shaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-shaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=198"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/2/a9716c/ctf-shaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/2/a9716c/ctf-shaft.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Shaft"
+playerCount: "6-16"
+themes:
+  Industrial: 1.0
+bots: true

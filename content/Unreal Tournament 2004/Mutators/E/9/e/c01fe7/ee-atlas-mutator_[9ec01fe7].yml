@@ -1,0 +1,74 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:26"
+game: "Unreal Tournament 2004"
+name: "EE Atlas Mutator"
+author: "Renegade Gods"
+description: "Lets you select which vehicle the Atlas replaces."
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "EE_Atlas_Mutator_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/E/EE_Atlas_Mutator_shot_2.png"
+- type: "IMAGE"
+  name: "EE_Atlas_Mutator_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/E/EE_Atlas_Mutator_shot_1.png"
+originalFilename: "atlas100.exe"
+hash: "9ec01fe78f0631359930faba73e9480066bd8ec6"
+fileSize: 3184452
+files:
+- name: "ee_atlas_skn.utx"
+  fileSize: 4285937
+  hash: "c7071eacd5168f858782b14e881f1743e59e5136"
+- name: "ee_atlas_anm.ukx"
+  fileSize: 1027168
+  hash: "9db1c443780a0ab7643cc3a29fac7f58ab9e1fd2"
+- name: "ee_atlas_msh.usx"
+  fileSize: 1494227
+  hash: "a27401eab7ad07b7cc8920d1b8e6980c14571f91"
+- name: "ee_atlas_gfx.utx"
+  fileSize: 181604
+  hash: "043f9686bad3213a1f983d462ed6cbb942ec56d6"
+- name: "ee_atlas.u"
+  fileSize: 24491
+  hash: "d4bd7bb684da313b096b9ef1e4270a8d0c7cb0b7"
+otherFiles: 5
+dependencies:
+  ee_atlas.u:
+  - status: "OK"
+    name: "ee_atlas_skn"
+  - status: "OK"
+    name: "ee_atlas_gfx"
+  - status: "MISSING"
+    name: "ee_atlas_anm"
+  - status: "OK"
+    name: "ee_atlas_msh"
+  ee_atlas_skn.utx:
+  - status: "OK"
+    name: "ee_atlas_gfx"
+  ee_atlas_msh.usx:
+  - status: "OK"
+    name: "ee_atlas_skn"
+  - status: "OK"
+    name: "ee_atlas_gfx"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/E/atlas100.exe"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/E/9/e/c01fe7/atlas100.exe"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/E/9/e/c01fe7/atlas100.exe"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "EE Atlas Mutator"
+  description: "Lets you select which vehicle the Atlas replaces."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

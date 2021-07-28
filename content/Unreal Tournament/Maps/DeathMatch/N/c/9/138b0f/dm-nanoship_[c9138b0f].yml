@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 07:59"
+variationOf: "ff0da0b3b8e8faf58b99aa1f4ff02a024ed1fbe3"
+game: "Unreal Tournament"
+name: "DM-NanoShip"
+author: "Felipe 'Philips'"
+description: "None"
+releaseDate: "2014-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-NanoShip_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NanoShip_shot_5.png"
+- type: "IMAGE"
+  name: "DM-NanoShip_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NanoShip_shot_1.png"
+- type: "IMAGE"
+  name: "DM-NanoShip_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NanoShip_shot_3.png"
+- type: "IMAGE"
+  name: "DM-NanoShip_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NanoShip_shot_4.png"
+- type: "IMAGE"
+  name: "DM-NanoShip_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NanoShip_shot_2.png"
+originalFilename: "gdc_38f02.rar"
+hash: "c9138b0f4837b66eda9aa89a76ea187c8631109e"
+fileSize: 4773683
+files:
+- name: "NanoTecnology.u"
+  fileSize: 1253434
+  hash: "977f9c0d860f379523fceacde3504857c4c4a455"
+- name: "FarhomTreasures.u"
+  fileSize: 1093285
+  hash: "f310fd0b4d13716d7392351821536826b860979a"
+- name: "DM-NanoShip.unr"
+  fileSize: 11864145
+  hash: "80a8d91f0f09cec9a8d62128af0d657065158fd2"
+- name: "Portalgunftw.u"
+  fileSize: 982352
+  hash: "405b18dcd1698af1aebf434b188969a27db11b6e"
+otherFiles: 8
+dependencies:
+  NanoTecnology.u:
+  - status: "OK"
+    name: "FarhomTreasures"
+  Portalgunftw.u:
+  - status: "OK"
+    name: "NanoTecnology"
+  FarhomTreasures.u:
+  - status: "OK"
+    name: "NanoTecnology"
+  DM-NanoShip.unr:
+  - status: "OK"
+    name: "Portalgunftw"
+  - status: "OK"
+    name: "NanoTecnology"
+  - status: "OK"
+    name: "FarhomTreasures"
+downloads:
+- url: "https://gamebanana.com/maps/download/196317"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/gdc_38f02.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=NanoShip.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/c/9/138b0f/gdc_38f02.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/c/9/138b0f/gdc_38f02.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Nano Ship"
+playerCount: "Many (24-32)"
+themes: {}
+bots: true

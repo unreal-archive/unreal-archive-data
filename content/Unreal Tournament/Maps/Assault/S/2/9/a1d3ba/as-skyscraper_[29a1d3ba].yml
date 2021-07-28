@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-Skyscraper"
+author: "Markus Wallmüller"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "AS-Skyscraper_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/S/AS-Skyscraper_shot_1.png"
+originalFilename: "as-skyscraper.zip"
+hash: "29a1d3ba811f45e48de82ca410711438b07092f8"
+fileSize: 1001626
+files:
+- name: "St\x84dtchen.utx"
+  fileSize: 960440
+  hash: "3d0251e3c6fd60f75c75686ebcdc7761015d0795"
+- name: "AS-Skyscraper.unr"
+  fileSize: 1429555
+  hash: "2b451a4b5bda141f2b327f24f115e920aa4595c7"
+otherFiles: 1
+dependencies:
+  AS-Skyscraper.unr:
+  - status: "MISSING"
+    name: "Städtchen"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/S/as-skyscraper.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-skyscraper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-skyscraper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-skyscraper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/S/2/9/a1d3ba/as-skyscraper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/S/2/9/a1d3ba/as-skyscraper.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "The Skyscraper Mission"
+playerCount: "4 - 10"
+themes:
+  Industrial: 0.1
+  City: 0.9
+bots: true

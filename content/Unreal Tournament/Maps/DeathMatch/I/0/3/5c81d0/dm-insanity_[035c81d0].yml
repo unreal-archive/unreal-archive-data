@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-12-23 09:14"
-variationOf: null
 game: "Unreal Tournament"
 name: "Dm-Insanity"
 author: "Skull-Taker"
@@ -38,16 +37,18 @@ dependencies:
   Dm-Insanity.unr:
   - status: "OK"
     name: "Insanity2"
-    providedBy: null
   - status: "OK"
     name: "Insanity"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/Dm-Insanity.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/0/3/5c81d0/Dm-Insanity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/0/3/5c81d0/Dm-Insanity.zip"
   main: false
   repack: false
   state: "OK"

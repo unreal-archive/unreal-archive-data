@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 19:35"
+game: "Unreal Tournament"
+name: "CTF-BT-LAGacy-V2"
+author: "X-Raided"
+description: "None"
+releaseDate: "2014-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-LAGacy-V2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/L/CTF-BT-LAGacy-V2_shot_1.png"
+originalFilename: "CTF-BT-LAGacy-V2.zip"
+hash: "98a249005d49a6cfa1f3e26372a011602d36cc38"
+fileSize: 9323056
+files:
+- name: "WOTDetail.utx"
+  fileSize: 266422
+  hash: "25293eecac9a691fb5655f909f371717a21840f7"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTF-BT-LAGacy-V2.unr"
+  fileSize: 5046728
+  hash: "15e082926549adfc2213bb8526b5de829935c755"
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+- name: "GennFX.utx"
+  fileSize: 2189510
+  hash: "71ddf265159ce71b4488d8eaac1ee28296cb11a8"
+- name: "horror2_the_revenge.umx"
+  fileSize: 114766
+  hash: "142d23fcd6b124424ad571aa6ee78968908b0fd9"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-BT-LAGacy-V2.unr:
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "ForsakenT"
+  - status: "OK"
+    name: "horror2_the_revenge"
+  - status: "OK"
+    name: "GennFX"
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-LAGacy-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/L/CTF-BT-LAGacy-V2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/L/9/8/a24900/CTF-BT-LAGacy-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/L/9/8/a24900/CTF-BT-LAGacy-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Legacy"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 0.7
+  Ancient: 0.2
+bots: false

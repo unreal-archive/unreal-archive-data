@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:07"
+game: "Unreal Tournament 2004"
+name: "DM-playclayhotpotato2"
+author: "Fred Blair"
+description: "Everyone's a hotpotato in this level, lots of jumping and moving. This\
+  \ is a little tacky and a bit sticky, no wonder, it's made with Play Clay.  Play\
+  \ Clay is wonderful, you can make things with it, shape it, play in it, blow it\
+  \ up, shoot with it, be blown up by it...Thrown in for extra hopping fun are some\
+  \ playclay people."
+releaseDate: "2005-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-playclayhotpotato2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/P/DM-playclayhotpotato2_shot_2.png"
+- type: "IMAGE"
+  name: "DM-playclayhotpotato2_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/P/DM-playclayhotpotato2_shot_3.png"
+- type: "IMAGE"
+  name: "DM-playclayhotpotato2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/P/DM-playclayhotpotato2_shot_1.png"
+originalFilename: "dm-playclayhotpotato2.zip"
+hash: "bb356ad324f1def62792309546b6f0f769e4e220"
+fileSize: 1822468
+files:
+- name: "fclaysounds.uax"
+  fileSize: 5746
+  hash: "fe6aa064f78d6def119bb95967f48c2f73077c89"
+- name: "fatomicclay01.utx"
+  fileSize: 1973131
+  hash: "9fef6fc5aa3bc3784877fece103d18bf00910982"
+- name: "DM-playclayhotpotato2.ut2"
+  fileSize: 2178551
+  hash: "bfa8e73b0026675ebeea6f4cdac8c9f18439c0ae"
+otherFiles: 3
+dependencies:
+  DM-playclayhotpotato2.ut2:
+  - status: "OK"
+    name: "fatomicclay01"
+  - status: "OK"
+    name: "fclaysounds"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4726"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/P/dm-playclayhotpotato2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/P/b/b/356ad3/dm-playclayhotpotato2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/P/b/b/356ad3/dm-playclayhotpotato2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "ClayPlay HotPotato"
+playerCount: "2-8"
+themes:
+  Industrial: 1.0
+bots: true

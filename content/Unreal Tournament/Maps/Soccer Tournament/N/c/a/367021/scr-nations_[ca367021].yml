@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:03"
+game: "Unreal Tournament"
+name: "SCR-Nations"
+author: "Bober"
+description: "None"
+releaseDate: "2007-11"
+attachments: []
+originalFilename: "SCR-Nations.rar"
+hash: "ca3670215b0aa76d102c18dc8b9d518b1f2bac47"
+fileSize: 2512618
+files:
+- name: "SocFlags.utx"
+  fileSize: 1264219
+  hash: "a37144bceb4db0e6fb1a3f3920495ec5d991d915"
+- name: "SCR-Nations.unr"
+  fileSize: 563853
+  hash: "abe23808408a66648e43212f30a5619a0689dd7c"
+- name: "BadSky.utx"
+  fileSize: 5079092
+  hash: "39244d8fcb9e7e9fa2fd73521a7948b64528e05d"
+otherFiles: 0
+dependencies:
+  SCR-Nations.unr:
+  - status: "OK"
+    name: "SocFlags"
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "OK"
+    name: "BadSky"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-Nations.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-Nations.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-Nations.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-Nations.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/N/c/a/367021/SCR-Nations.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/N/c/a/367021/SCR-Nations.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "InternationalStadium"
+playerCount: "6"
+themes:
+  Tech: 0.3
+  Skaarj Crypt: 0.7
+bots: false

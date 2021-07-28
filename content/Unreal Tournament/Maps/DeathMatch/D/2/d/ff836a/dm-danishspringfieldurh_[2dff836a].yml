@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:57"
+game: "Unreal Tournament"
+name: "DM-(DANISH)Springfield[uRh]"
+author: "by[DANISH]Klaphat"
+description: "Simpsons"
+releaseDate: "2012-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-(DANISH)Springfield[uRh]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-(DANISH)Springfield%5BuRh%5D_shot_1.png"
+originalFilename: "DM-(DANISH)Springfield[uRh].zip"
+hash: "2dff836a6b4525e729d15d4218fff1908d30a882"
+fileSize: 8549893
+files:
+- name: "Homer.u"
+  fileSize: 761153
+  hash: "25d4b7229c3312fb5f2cec7e262ef9bbaf2fff46"
+- name: "uRhSimpsons.umx"
+  fileSize: 4705669
+  hash: "ecbc00356f38d3abb68e7226f3a93d0a05c56b13"
+- name: "burnskins.utx"
+  fileSize: 979970
+  hash: "326134db12d8b3e06f65db618f015898dc502f90"
+- name: "DM-(DANISH)Springfield[uRh].unr"
+  fileSize: 7328817
+  hash: "5c7408abc9b0af5aaca0c5c1e33a5f00c80ee092"
+- name: "burns.u"
+  fileSize: 1878282
+  hash: "12ed392f8ae03b954898f6c8a6256c8549b7cf99"
+otherFiles: 0
+dependencies:
+  DM-(DANISH)Springfield[uRh].unr:
+  - status: "OK"
+    name: "uRhSimpsons"
+  - status: "OK"
+    name: "burnskins"
+  - status: "OK"
+    name: "Homer"
+  - status: "OK"
+    name: "burns"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28DANISH%29Springfield%5BuRh%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-(DANISH)Springfield%5BuRh%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/2/d/ff836a/DM-(DANISH)Springfield%255BuRh%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/2/d/ff836a/DM-(DANISH)Springfield%255BuRh%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(DANISH)Springfield"
+playerCount: "6 to 16"
+themes: {}
+bots: true

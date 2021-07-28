@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "Inf_MartialLaw"
+author: "Cow"
+description: "None"
+releaseDate: "1999-11"
+attachments: []
+originalFilename: "Inf_MartialLaw.zip"
+hash: "36e0d7778fdd561c6365cc0fe5c7ab5fa4c6cd19"
+fileSize: 4587860
+files:
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "Inf_MartialLaw.unr"
+  fileSize: 869641
+  hash: "a5f19291ea65df61e69603ed9136ca9e8ee01cac"
+- name: "Blade.utx"
+  fileSize: 2327164
+  hash: "8c2667ad67176f0135e322dd7d6ecbeae9442f13"
+- name: "HmmwvPrefab.utx"
+  fileSize: 566227
+  hash: "7b58328b3623d5e78a7e783aca9a19e78825f40c"
+- name: "Cow_Inf.utx"
+  fileSize: 1097686
+  hash: "0c9ec547595e62d7904ca46e8dbb00a6003dbae0"
+- name: "jtex.utx"
+  fileSize: 448128
+  hash: "fb4a067d4197b5d64e4c2eeb5ac265a2a214debe"
+- name: "streetex.utx"
+  fileSize: 1031242
+  hash: "2a21463d33b03ba09d72b00a8598a2f2251793cf"
+otherFiles: 0
+dependencies:
+  Inf_MartialLaw.unr:
+  - status: "OK"
+    name: "Cow_Inf"
+  - status: "OK"
+    name: "Blade"
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "HmmwvPrefab"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "streetex"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=Inf_MartialLaw.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/I/Inf_MartialLaw.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/Inf_MartialLaw.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/M/3/6/e0d777/Inf_MartialLaw.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/M/3/6/e0d777/Inf_MartialLaw.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Inf_MartialLaw"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Ancient: 0.1
+  City: 0.3
+bots: true

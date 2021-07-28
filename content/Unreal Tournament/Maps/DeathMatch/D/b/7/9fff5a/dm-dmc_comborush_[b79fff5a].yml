@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:55"
+game: "Unreal Tournament"
+name: "DM-DMC_Comborush"
+author: "Djenghiz Khan"
+description: "Lets Comboooooooooooo"
+releaseDate: "2008-12"
+attachments: []
+originalFilename: "DM-DMC_Comborush.zip"
+hash: "b79fff5a51e451b19a39f5c3a1a96d45a1a90ef5"
+fileSize: 4999612
+files:
+- name: "Area51Textures.utx"
+  fileSize: 23564
+  hash: "1cba42b4afe89bb8ffb7b57108ef23a9f7fbc3af"
+- name: "DM-DMC_Comborush.unr"
+  fileSize: 516259
+  hash: "162c2789c6ebfc95e760845ca0288fd966df4403"
+- name: "DMClogos1.utx"
+  fileSize: 755924
+  hash: "29d3c0979b6ba0db75a48803aa56cdacc3a291f4"
+- name: "ACDC-DogBone.umx"
+  fileSize: 4636437
+  hash: "93b5b99a2a5e674580fd57142aa29a86ba678636"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+otherFiles: 0
+dependencies:
+  DM-DMC_Comborush.unr:
+  - status: "OK"
+    name: "DMClogos1"
+  - status: "OK"
+    name: "ACDC-DogBone"
+  - status: "OK"
+    name: "Area51Textures"
+  - status: "OK"
+    name: "zeitkind"
+  Area51Textures.utx:
+  - status: "MISSING"
+    name: "CoreTexDetail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-DMC_Comborush.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DMC_Comborush.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/b/7/9fff5a/DM-DMC_Comborush.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/b/7/9fff5a/DM-DMC_Comborush.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "D.M.C Comborush"
+playerCount: "8-16"
+themes:
+  Industrial: 1.0
+bots: true

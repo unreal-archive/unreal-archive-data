@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 22:23"
+variationOf: "824cc54a3c60ffda8c88d5b46519d31f8f537dd3"
+game: "Unreal Tournament 2004"
+name: "ONS-RomanRoads"
+author: "Stephen [ Hointar ] Hedges"
+description: "Ground based warfare \"Ancient footprints are everywhere\""
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "ons-romanroads_shot_4dd82b11_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/R/ons-romanroads_shot_4dd82b11_1.png"
+originalFilename: "ons-romanroads.7z"
+hash: "4dd82b1121022e396369bca3bbcfd0b11c413022"
+fileSize: 4787686
+files:
+- name: "Godz_RomanTex.utx"
+  fileSize: 6994899
+  hash: "9678ae159a289b5aa4628b6c75bfa1cffe44838b"
+- name: "G_RomanStatic3.usx"
+  fileSize: 864513
+  hash: "15976cf494e561f43c16b5d200d54d12c6dbe66f"
+- name: "ONS-RomanRoads.ut2"
+  fileSize: 11041207
+  hash: "189fc250f6c7d103717622fb2d54870b95537b62"
+otherFiles: 1
+dependencies:
+  ONS-RomanRoads.ut2:
+  - status: "OK"
+    name: "Godz_RomanTex"
+  - status: "OK"
+    name: "G_RomanStatic3"
+  G_RomanStatic3.usx:
+  - status: "OK"
+    name: "Godz_RomanTex"
+downloads:
+- url: "https://gamebanana.com/maps/download/14909"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/R/ons-romanroads.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/R/4/d/d82b11/ons-romanroads.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/R/4/d/d82b11/ons-romanroads.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "Roman Roads"
+playerCount: "12-24"
+themes:
+  Ancient: 1.0
+bots: true

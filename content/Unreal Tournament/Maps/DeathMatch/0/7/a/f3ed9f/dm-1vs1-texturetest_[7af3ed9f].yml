@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:23"
+game: "Unreal Tournament"
+name: "DM-1vs1-TextureTest"
+author: "KingJosh aka MiniMe"
+description: "None"
+releaseDate: "2011-10"
+attachments: []
+originalFilename: "DM-1vsTextureTest.zip"
+hash: "7af3ed9f5211ccd63344aa043fc17705cdb1bbef"
+fileSize: 40265958
+files:
+- name: "DM-1vs1-TextureTest.unr"
+  fileSize: 1947727
+  hash: "9e90073abe779858fc92575bac8675944fb6320d"
+- name: "KJgraphicsTest.utx"
+  fileSize: 49289203
+  hash: "7d2c184b9c463754c03294730369a5d3177482cf"
+- name: "LPCityDecos01.u"
+  fileSize: 281265
+  hash: "1d5e03bccd3edc9abcff8230bf4871e9d1723f36"
+- name: "LPSigns01.utx"
+  fileSize: 1126700
+  hash: "f733718819fd943378b923ab9c4ee2c79e355a37"
+- name: "INF_Decorations.u"
+  fileSize: 12152435
+  hash: "ac563b800438e9ffa6dff5d3ced0d2b0c566de83"
+- name: "FixKJMasked.utx"
+  fileSize: 2939653
+  hash: "34a3c74831999a7f735151f0c2748a0d75b2b7f0"
+- name: "LPDecoTex01.utx"
+  fileSize: 3197984
+  hash: "c9fc0e51b753b3d897b85bdb4d8e41e8a71d2e1c"
+otherFiles: 1
+dependencies:
+  DM-1vs1-TextureTest.unr:
+  - status: "OK"
+    name: "LPCityDecos01"
+  - status: "OK"
+    name: "FixKJMasked"
+  - status: "OK"
+    name: "INF_Decorations"
+  - status: "OK"
+    name: "KJgraphicsTest"
+  LPCityDecos01.u:
+  - status: "OK"
+    name: "LPSigns01"
+  - status: "OK"
+    name: "LPDecoTex01"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-1vsTextureTest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/DM-1vsTextureTest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=8020"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/0/7/a/f3ed9f/DM-1vsTextureTest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/0/7/a/f3ed9f/DM-1vsTextureTest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-1vs1-TextureTest"
+playerCount: "2"
+themes:
+  Tech: 0.3
+  Ancient: 0.6
+  Nali Castle: 0.1
+bots: true

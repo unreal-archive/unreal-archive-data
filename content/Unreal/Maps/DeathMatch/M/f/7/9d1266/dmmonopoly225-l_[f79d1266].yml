@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-17 15:01"
+game: "Unreal"
+name: "DmMonopoly225-L"
+author: "J. Martin. jsmaps@hotmail.com"
+description: "None"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "dmmonopoly_f79d1266.zip"
+hash: "f79d1266625ddede82e2d425ae04dffc8a4a11c4"
+fileSize: 742809
+files:
+- name: "DMCmono.utx"
+  fileSize: 1928793
+  hash: "91c8e2ba6e3cf8ac1395b24208e7cc1a26aff540"
+- name: "DmMonopoly225-L.unr"
+  fileSize: 2505699
+  hash: "eb2c6b8bf707b8c0f494174ae02834efdd184c95"
+- name: "DMCmonox.uax"
+  fileSize: 10979
+  hash: "51e795c1dda7e1a77d617a62e86fc09db2b8d25c"
+otherFiles: 1
+dependencies:
+  DmMonopoly225-L.unr:
+  - status: "OK"
+    name: "DMCmonox"
+  - status: "OK"
+    name: "DMCmono"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/dmmonopoly_f79d1266.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/dmmonopoly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/f/7/9d1266/dmmonopoly_f79d1266.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/f/7/9d1266/dmmonopoly_f79d1266.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Monopoly"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.9
+bots: true

@@ -1,0 +1,94 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 11:20"
+game: "Unreal Tournament"
+name: "Ut Tiebay"
+author: "Pat-BadKarma-Fitzsimons"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "Ut_Tiebay_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/U/Ut_Tiebay_shot_2.png"
+- type: "IMAGE"
+  name: "Ut_Tiebay_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/U/Ut_Tiebay_shot_3.png"
+- type: "IMAGE"
+  name: "Ut_Tiebay_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/U/Ut_Tiebay_shot_1.png"
+originalFilename: "ut-tiebay.zip"
+hash: "ce08ff7bf54f423eac6cb293d2c56aab5db529a0"
+fileSize: 6760211
+files:
+- name: "Deathstarpf.utx"
+  fileSize: 2420839
+  hash: "58ba83b2edde999d28c957bcf10b57ffa11fc58d"
+- name: "AS-TieBay.unr"
+  fileSize: 3431158
+  hash: "8dcdf7c8463ff2b504a2f53edc138e77b2cd7e7c"
+- name: "CTF-TieBay.unr"
+  fileSize: 7357785
+  hash: "5acf011632f6c8da0364ce0396eae5ed58608d8f"
+- name: "SWpf.uax"
+  fileSize: 211877
+  hash: "e9dc2c3dcf4097b6488c9ea4e7282a94f7599359"
+- name: "DM-TieBay.unr"
+  fileSize: 4002502
+  hash: "4483a7a16a7d8ece14a4df90e19bbe77743e6814"
+- name: "SW1.umx"
+  fileSize: 2174542
+  hash: "95f41e0f7fdb94a9d10d2bb1e6b47d084c4a6d12"
+otherFiles: 2
+dependencies:
+  AS-TieBay.unr:
+  - status: "OK"
+    name: "Deathstarpf"
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "SWpf"
+  DM-TieBay.unr:
+  - status: "OK"
+    name: "Deathstarpf"
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "SWpf"
+  CTF-TieBay.unr:
+  - status: "OK"
+    name: "Deathstarpf"
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "SWpf"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=ut-tiebay.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/U/ut-tiebay.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/U/c/e/08ff7b/ut-tiebay.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/U/c/e/08ff7b/ut-tiebay.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-TieBay"
+  title: "Tie Bay"
+  author: "Pat-BadKarma-Fitzsimons"
+- name: "CTF-TieBay"
+  title: "CTF-TieBay"
+  author: "Unknown"
+- name: "AS-TieBay"
+  title: "AS-TieBay"
+  author: "Unknown"
+gametype: "Mixed"
+themes:
+  Industrial: 1.0

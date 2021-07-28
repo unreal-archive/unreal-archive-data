@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 20:14"
+game: "Unreal Tournament 2004"
+name: "DM-Atech"
+author: "ProjectX"
+description: "V\x04Alien Techologies have for a long time been genetically testing\
+  \ humans and alien DNA from area 51 for the government. Until the experiments broke\
+  \ free and killed everyone, now all that is left is one derelict lab used as a training\
+  \ grounds for tournament potentials. Good Luck."
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Atech_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/DM-Atech_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Atech_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/DM-Atech_shot_2.png"
+originalFilename: "dm-atech.zip"
+hash: "4cb8566b23033fce115d95b5084a7154a619bc6e"
+fileSize: 20468496
+files:
+- name: "EmbryoTank.usx"
+  fileSize: 18110734
+  hash: "98fb805e109fcaa723ec87672c06aee5bf3f2c36"
+- name: "Elevator1.usx"
+  fileSize: 8622459
+  hash: "875d8f77b5e29fa5298ba4f04965c92aef1ca413"
+- name: "Elevator1.utx"
+  fileSize: 8510010
+  hash: "e2ebfe43dadd8b86421815b096f3cb3b7e85e9b7"
+- name: "EmbryoTank.utx"
+  fileSize: 18110734
+  hash: "a5f4dc9da631e2e2a659aa4642e93bac0cff8fe0"
+- name: "DM-Atech.ut2"
+  fileSize: 4802196
+  hash: "9312d8b8f05ed3c7c1b254a13c3091cad82293ee"
+- name: "smokestax.utx"
+  fileSize: 1833188
+  hash: "4205bfe383664f0dce29ff763424bf75b4df116f"
+- name: "smokestax.usx"
+  fileSize: 4811941
+  hash: "fd78d41ec4467dfdaa30eac0259c4efe2a582c93"
+otherFiles: 3
+dependencies:
+  DM-Atech.ut2:
+  - status: "OK"
+    name: "smokestax"
+  - status: "OK"
+    name: "Elevator1"
+  - status: "OK"
+    name: "EmbryoTank"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-atech.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/A/4/c/b8566b/dm-atech.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/4/c/b8566b/dm-atech.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Alien Technology Laboratories"
+playerCount: "5-7"
+themes: {}
+bots: true

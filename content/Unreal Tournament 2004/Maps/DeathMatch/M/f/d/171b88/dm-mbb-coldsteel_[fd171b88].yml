@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 01:18"
+game: "Unreal Tournament 2004"
+name: "DM-MBB-ColdSteel"
+author: "Marcin.B.Black"
+description: "Metal Factory based on Max Payne level. Factory is owned now by Liandri\
+  \ Corporations."
+releaseDate: "2006-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-MBB-ColdSteel_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MBB-ColdSteel_shot_1.png"
+originalFilename: "dmmbbcoldsteel.zip"
+hash: "fd171b88bf099bae054368fa07d6fd8efd41fb72"
+fileSize: 3893628
+files:
+- name: "CE-Skytrain.ogg"
+  fileSize: 989090
+  hash: "d97501ab5006a3e04780536e7b0805784e1af455"
+- name: "DM-MBB-ColdSteel.ut2"
+  fileSize: 4096437
+  hash: "6e2dbdfe8d131cbf006e77acfd74e88ae4e7ab0b"
+- name: "Construction_M.usx"
+  fileSize: 3727939
+  hash: "bc0121882f38cf86f4eeddf5d4919943a6c3f75d"
+otherFiles: 1
+dependencies:
+  DM-MBB-ColdSteel.ut2:
+  - status: "OK"
+    name: "Construction_M"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dmmbbcoldsteel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dmmbbcoldsteel.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/f/d/171b88/dmmbbcoldsteel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/f/d/171b88/dmmbbcoldsteel.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "ColdSteel"
+playerCount: "12"
+themes:
+  Industrial: 1.0
+bots: true

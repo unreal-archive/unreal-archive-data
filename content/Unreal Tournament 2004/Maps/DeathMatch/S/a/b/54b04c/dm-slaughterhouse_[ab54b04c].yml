@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 01:49"
+game: "Unreal Tournament 2004"
+name: "DM-SlaughterHouse"
+author: "Exon Studios"
+description: "Welcome to the home of the damned!!"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-SlaughterHouse_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-SlaughterHouse_shot_1.png"
+originalFilename: "dmslaughterhouse.zip"
+hash: "ab54b04c47fdca1491535b19ef970a9e67cb848d"
+fileSize: 3594882
+files:
+- name: "DM-SlaughterHouse.ut2"
+  fileSize: 864987
+  hash: "e91844f39eaebebe638c95c92d405dd465847748"
+- name: "MacKingTex.utx"
+  fileSize: 4286772
+  hash: "957faa738a9813b15df8fd46571e2e83d87e969d"
+otherFiles: 2
+dependencies:
+  DM-SlaughterHouse.ut2:
+  - status: "OK"
+    name: "MacKingTex"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dmslaughterhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dmslaughterhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/a/b/54b04c/dmslaughterhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/a/b/54b04c/dmslaughterhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "SlaughterHouse"
+playerCount: "2-6"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+  Ancient: 0.1
+bots: true

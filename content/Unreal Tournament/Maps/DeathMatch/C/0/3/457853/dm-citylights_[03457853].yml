@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:00"
+variationOf: "11928a613b5bc7ee8bea52980a3ce16edef77fb7"
+game: "Unreal Tournament"
+name: "DM-CityLights"
+author: "John"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-citylights_shot_03457853_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/0/3/457853/dm-citylights_shot_03457853_1.png"
+originalFilename: "dm-citylights.zip"
+hash: "034578539757bc7c488021ab00590227959ca459"
+fileSize: 5117259
+files:
+- name: "DM-CityLights.unr"
+  fileSize: 4030418
+  hash: "25f56fbf0b41b94ccafcee96e410bfc286346f8b"
+- name: "MCBsnds.uax"
+  fileSize: 329562
+  hash: "7e6f737f6296b9c4e9eeb51363567b50c8fbae97"
+- name: "Darkcity.utx"
+  fileSize: 7375173
+  hash: "acbae84274af1b2ae8782de8045985d9d5338401"
+- name: "Matex.utx"
+  fileSize: 177642
+  hash: "9c9fd890583cbf8f2521378820e0371c42bab603"
+otherFiles: 1
+dependencies:
+  DM-CityLights.unr:
+  - status: "OK"
+    name: "Darkcity"
+  - status: "OK"
+    name: "Matex"
+  - status: "OK"
+    name: "MCBsnds"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1535660"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/0/3/457853/dm-citylights.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/0/3/457853/dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/0/3/457853/dm-citylights.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-CityLights"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.9
+  Skaarj Tech: 0.1
+bots: true

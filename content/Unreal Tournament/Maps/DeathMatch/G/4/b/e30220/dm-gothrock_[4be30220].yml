@@ -1,0 +1,94 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:27"
+game: "Unreal Tournament"
+name: "DM-GothRock"
+author: "Robert Parker"
+description: "Kick ASS!"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-GothRock_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-GothRock_shot_1.png"
+originalFilename: "dm-gothrock.zip"
+hash: "4be302207d28b5772c172fe5371a128c47c668ce"
+fileSize: 7161360
+files:
+- name: "mordetht.utx"
+  fileSize: 2684162
+  hash: "7c5010411b78d013152ac2d9fc1229ef27f0de2a"
+- name: "aessedait.utx"
+  fileSize: 177804
+  hash: "9f47624339f98c72ab80ff7085a31c46f73c2784"
+- name: "TackySpeech.uax"
+  fileSize: 744346
+  hash: "58c1cfa5f98ba3a01330f0665cdec2c07fde3f28"
+- name: "WOTDetail.utx"
+  fileSize: 89046
+  hash: "7cb955c571fd19f11fa676c9d1e9d7c740004c13"
+- name: "ambienta.uax"
+  fileSize: 923198
+  hash: "7dd1234fcbc43dd8ec9cf1b393b480e6d526733d"
+- name: "DM-GothRock.unr"
+  fileSize: 7128053
+  hash: "29f1319201f178803e09eb6f249489e3d8d43dda"
+- name: "Pictures.utx"
+  fileSize: 707638
+  hash: "d62ec588b1cb97b9bd226ebe4c99df9983a92965"
+- name: "flames06.utx"
+  fileSize: 2066
+  hash: "4f6e86900d7405c7cea2d4ea5afd5ccc6206a4af"
+- name: "mordeth_t.utx"
+  fileSize: 116087
+  hash: "119d18ac7cff561256273fba6867fde165b9cf90"
+otherFiles: 1
+dependencies:
+  DM-GothRock.unr:
+  - status: "OK"
+    name: "Pictures"
+  - status: "OK"
+    name: "mordetht"
+  - status: "OK"
+    name: "ambienta"
+  - status: "OK"
+    name: "aessedait"
+  - status: "OK"
+    name: "TackySpeech"
+  - status: "OK"
+    name: "flames06"
+  - status: "OK"
+    name: "mordeth_t"
+  aessedait.utx:
+  - status: "OK"
+    name: "WOTDetail"
+  mordeth_t.utx:
+  - status: "OK"
+    name: "WOTDetail"
+  mordetht.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-gothrock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/dm-gothrock.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/4/b/e30220/dm-gothrock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/4/b/e30220/dm-gothrock.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "GothRock"
+playerCount: "2 - 8"
+themes:
+  Ancient: 0.9
+  Nali Castle: 0.1
+bots: true

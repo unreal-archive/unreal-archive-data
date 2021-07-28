@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:57"
+game: "Unreal"
+name: "DMTerrorist3"
+author: "Akuma(MatriX)"
+description: "The Final Chapter"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "DMTerrorist3.zip"
+hash: "58364ebb5a355f5e3e23a3732ae9850ab41f78ec"
+fileSize: 4265047
+files:
+- name: "DMTerrorist3.unr"
+  fileSize: 5569578
+  hash: "6391f79b145b9f218723a68e84d31eb6396fc2b1"
+- name: "NewText.utx"
+  fileSize: 89036
+  hash: "710d297e44037154084f42c9f1db4490cfa13465"
+- name: "terrorsounds.uax"
+  fileSize: 264212
+  hash: "0e296659b8d6a4b37d44b429644fbc53fc6efa23"
+- name: "A1text.utx"
+  fileSize: 1758674
+  hash: "30d859d89ad763421527ca42332430270c726247"
+- name: "A2.utx"
+  fileSize: 1127338
+  hash: "128bd714d0d5f61ef859aa1300ab69d7e086550f"
+- name: "darksfx.uax"
+  fileSize: 943764
+  hash: "7488c172a74b97177bdf41c0da72f9e98f16f184"
+otherFiles: 1
+dependencies:
+  A1text.utx:
+  - status: "OK"
+    name: "A2"
+  DMTerrorist3.unr:
+  - status: "OK"
+    name: "darksfx"
+  - status: "MISSING"
+    name: "Serpentine"
+  - status: "OK"
+    name: "A1text"
+  - status: "OK"
+    name: "A2"
+  - status: "OK"
+    name: "terrorsounds"
+  - status: "OK"
+    name: "NewText"
+  A2.utx:
+  - status: "OK"
+    name: "A1text"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=DMTerrorist3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/DMTerrorist3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsT/DMTerrorist3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmterrorist3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/5/8/364ebb/DMTerrorist3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/5/8/364ebb/DMTerrorist3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMTerrorist3"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.4
+  Skaarj Tech: 0.5
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 03:17"
+game: "Unreal Tournament"
+name: "DM-lol-WorkShop-NoPunk"
+author: "Bob Kuphal"
+description: "None"
+releaseDate: "2013-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-WorkShop-NoPunk_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-WorkShop-NoPunk_shot_1.png"
+originalFilename: "DM-lol-WorkShop-NoPunk.zip"
+hash: "f36c5b3d2761f55933cf97b32a327611c0b583ed"
+fileSize: 9380956
+files:
+- name: "BKTextures.utx"
+  fileSize: 4967911
+  hash: "8f7d00176009647484d5c6350c25df892cea3cea"
+- name: "DM-lol-WorkShop-NoPunk.unr"
+  fileSize: 7017277
+  hash: "316cfcb6a21ce7a4392f42046e8dcbd0bd5bdcd2"
+- name: "CottonEyeJoeX.umx"
+  fileSize: 5588006
+  hash: "6d65e242dd7341408b4bd7bb780d740b01355912"
+otherFiles: 0
+dependencies:
+  DM-lol-WorkShop-NoPunk.unr:
+  - status: "OK"
+    name: "CottonEyeJoeX"
+  - status: "OK"
+    name: "BKTextures"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-WorkShop-NoPunk.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-lol-WorkShop-NoPunk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/f/3/6c5b3d/DM-lol-WorkShop-NoPunk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/f/3/6c5b3d/DM-lol-WorkShop-NoPunk.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "lol-Workshop"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Industrial: 0.3
+  Ancient: 0.2
+  City: 0.3
+bots: true

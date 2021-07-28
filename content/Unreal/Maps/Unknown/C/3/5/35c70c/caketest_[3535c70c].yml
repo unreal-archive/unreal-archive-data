@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-20 00:24"
-variationOf: null
 game: "Unreal"
 name: "caketest"
 author: "BiZarro"
@@ -26,20 +25,21 @@ dependencies:
   fruitcake.u:
   - status: "OK"
     name: "Zartex"
-    providedBy: null
   caketest.unr:
   - status: "OK"
     name: "fruitcake"
-    providedBy: null
   - status: "MISSING"
     name: "U4ePawns"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/C/fruitcake225.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/C/3/5/35c70c/fruitcake225.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/C/3/5/35c70c/fruitcake225.zip"
   main: false
   repack: false
   state: "OK"

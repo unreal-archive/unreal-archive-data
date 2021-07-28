@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:40"
+game: "Unreal Tournament"
+name: "DM-StandAlone"
+author: "Michael 'The Deacon' Taylor"
+description: "(^_^)"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-StandAlone_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-StandAlone_shot_2.png"
+- type: "IMAGE"
+  name: "DM-StandAlone_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-StandAlone_shot_1.png"
+originalFilename: "dm-standalone.zip"
+hash: "a9bef0a6150acd426cd73f0b80f30824eef4877d"
+fileSize: 2237066
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DM-StandAlone.unr"
+  fileSize: 1610500
+  hash: "704b977307647f9eeb6c36bfee93e119be56319b"
+otherFiles: 2
+dependencies:
+  DM-StandAlone.unr:
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-standalone.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-standalone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-standalone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-standalone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=545"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/a/9/bef0a6/dm-standalone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/a/9/bef0a6/dm-standalone.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Lone Warehouse"
+playerCount: "4-8"
+themes:
+  Industrial: 0.6
+  Natural: 0.1
+  Skaarj Tech: 0.2
+bots: true

@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:31"
+game: "Unreal Tournament"
+name: "CTF-=[Gettysburg]=-"
+author: "koncept"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-=[Gettysburg]=-_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-=%5BGettysburg%5D=-_shot_1.png"
+originalFilename: "ctf-=gettysburg=-.zip"
+hash: "02cd89d98626a6187bf17adba4cc76d9d175e36b"
+fileSize: 10248595
+files:
+- name: "Gettysburg.utx"
+  fileSize: 491060
+  hash: "75f2fad0b9288388e8ac6b4a3f1d78c5c2fdd2b6"
+- name: "MarioBros-SE-.uax"
+  fileSize: 1958865
+  hash: "76da8e346c9c153bb4ed6a60b84127f707b17612"
+- name: "CTF-=[Gettysburg]=-.unr"
+  fileSize: 1648722
+  hash: "e35551e39d1b571f5b21db77d4000448cd188836"
+- name: "Southpark.uax"
+  fileSize: 2392605
+  hash: "ffe4c272c6f5d0b23756bda672490400de261659"
+- name: "CivilWarGNR.umx"
+  fileSize: 1308469
+  hash: "0ebd52ebbc80e6be3c0031d4d4f71cd6b0602ce1"
+otherFiles: 0
+dependencies:
+  CTF-=[Gettysburg]=-.unr:
+  - status: "OK"
+    name: "MarioBros-SE-"
+  - status: "OK"
+    name: "CivilWarGNR"
+  - status: "OK"
+    name: "Southpark"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%3Dgettysburg%3D-.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/ctf-=gettysburg=-.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/0/2/cd89d9/ctf-=gettysburg=-.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/0/2/cd89d9/ctf-=gettysburg=-.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Gettysburg"
+playerCount: "8-16"
+themes:
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.8
+bots: true

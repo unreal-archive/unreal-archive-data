@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-10-12 18:18"
-variationOf: null
 game: "Unreal Tournament"
 name: "Infiltration Weapons"
 author: "Unknown"
@@ -23,7 +22,6 @@ dependencies:
   InfMutator.u:
   - status: "OK"
     name: "InfiltrationUT"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/8/b/a19e7d/InfMutator_Beta.zip"
   main: true
@@ -38,6 +36,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://ut-files.com/index.php?dir=ToStore/&file=InfMutator_Beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/I/8/b/a19e7d/InfMutator_Beta.zip"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:37"
+game: "Unreal Tournament"
+name: "CTF-SOB_forts"
+author: "BONE"
+description: "SOB rules the UT world!"
+releaseDate: "1999-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SOB_forts_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SOB_forts_shot_1.png"
+originalFilename: "ctf-sobforts.zip"
+hash: "38167e4192a4a20bf576e69fc96c1ce0477f5e7c"
+fileSize: 450457
+files:
+- name: "SOBfort.utx"
+  fileSize: 177682
+  hash: "c7a0e7ac8e6cbf3f3911576582f8485bf086b438"
+- name: "CTF-SOB_forts.unr"
+  fileSize: 1242894
+  hash: "38e9c0d31cdcbc5c73189e695da65436f6e502ca"
+otherFiles: 1
+dependencies:
+  CTF-SOB_forts.unr:
+  - status: "OK"
+    name: "SOBfort"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-sobforts.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404613"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-sobforts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-sobforts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-sobforts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/8/167e41/ctf-sobforts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/8/167e41/ctf-sobforts.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "SOB_Forts"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Ancient: 0.5
+  Natural: 0.4
+bots: true

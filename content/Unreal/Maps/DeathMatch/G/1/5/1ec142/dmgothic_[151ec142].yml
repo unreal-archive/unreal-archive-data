@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:51"
+game: "Unreal"
+name: "DMGothic"
+author: "Frank Leong"
+description: "None"
+releaseDate: "1999-06"
+attachments: []
+originalFilename: "dmgothic.zip"
+hash: "151ec142a2ea741c1718cfd7480319f85e8920dc"
+fileSize: 439476
+files:
+- name: "Gothic.utx"
+  fileSize: 202911
+  hash: "e4fbbb99104b285a4757120c8760c59bb8edabe1"
+- name: "Gothic.uax"
+  fileSize: 109222
+  hash: "39bb5060f30773e717a571af8fa54466771a158b"
+- name: "darkangel.utx"
+  fileSize: 481998
+  hash: "300591f3108165eed1a65b79ea55603315f28fe2"
+- name: "DMGothic.unr"
+  fileSize: 382011
+  hash: "7738a7f001851e0ab0bf78ecf79a53bcd66e3305"
+otherFiles: 1
+dependencies:
+  DMGothic.unr:
+  - status: "PARTIAL"
+    name: "Gothic"
+  - status: "OK"
+    name: "darkangel"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsG/&file=dmgothic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/G/dmgothic.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsG/dmgothic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMGOTHIC.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/G/1/5/1ec142/dmgothic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/G/1/5/1ec142/dmgothic.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMGothic"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: false

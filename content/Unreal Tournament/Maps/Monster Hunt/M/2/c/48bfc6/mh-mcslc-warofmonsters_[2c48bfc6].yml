@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 06:18"
+game: "Unreal Tournament"
+name: "MH-{mcslc}-WarOfMonsters"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "MH-{mcslc}-warofmonsters.zip"
+hash: "2c48bfc6c940ff4d021ff8795ce9b8f3e2711046"
+fileSize: 2242436
+files:
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-{mcslc}-WarOfMonsters.unr"
+  fileSize: 1297254
+  hash: "ffd265876fe2c5577d5692193ecd4b5e0c568f8a"
+otherFiles: 1
+dependencies:
+  MH-{mcslc}-WarOfMonsters.unr:
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-%7Bmcslc%7D-warofmonsters.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/M/MH-%7Bmcslc%7D-warofmonsters.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-%7Bmcslc%7D-warofmonsters.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/M/2/c/48bfc6/MH-%257Bmcslc%257D-warofmonsters.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/2/c/48bfc6/MH-%257Bmcslc%257D-warofmonsters.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-{mcslc}-WarOfMonsters"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: false

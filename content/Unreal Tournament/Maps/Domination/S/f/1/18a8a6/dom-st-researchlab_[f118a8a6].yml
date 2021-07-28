@@ -1,0 +1,96 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:00"
+game: "Unreal Tournament"
+name: "DOM-ST-ResearchLab"
+author: "RJGexplode"
+description: "RJG goes out Star Trekin"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "DOM-ST-ResearchLab_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/S/DOM-ST-ResearchLab_shot_1.png"
+originalFilename: "dom-st-researchlab.zip"
+hash: "f118a8a69f1dbab818bb6e85a4ef98ea8b671cdb"
+fileSize: 6532341
+files:
+- name: "EBD_startrek.u"
+  fileSize: 26074
+  hash: "749c6374d0820e5321a4de1d407ea07641e3f96f"
+- name: "Aila.utx"
+  fileSize: 297516
+  hash: "2e2b0da8da37bea9a0714a0ff8880fcfe347af28"
+- name: "RJGtrekdom.utx"
+  fileSize: 1052409
+  hash: "fbc40e1eff1cd9f02af96cd9cd7d2f559c2d9010"
+- name: "STARTREX.utx"
+  fileSize: 1232659
+  hash: "d3b5a788e82b7615f41c50462f0af2fd5df7eff6"
+- name: "airport.utx"
+  fileSize: 2480859
+  hash: "c07dab47ab3e5bb86389865ff47d1267676b6b61"
+- name: "Extro.uax"
+  fileSize: 2871719
+  hash: "235dccf8d1798b9a9df0d3b6c05a78b67a6c7cf2"
+- name: "DOM-ST-ResearchLab.unr"
+  fileSize: 445511
+  hash: "cc05704a130019c32c1a5cb0525bfbc3cd9e862c"
+- name: "EBD_startrek2.u"
+  fileSize: 18755
+  hash: "20ed61ee23cd8360a22911d4f8fc93fcd82cf24b"
+- name: "riv3.utx"
+  fileSize: 2878920
+  hash: "0f21f3115531873a443d9a4c95538b99cbe6c681"
+otherFiles: 1
+dependencies:
+  DOM-ST-ResearchLab.unr:
+  - status: "OK"
+    name: "riv3"
+  - status: "OK"
+    name: "STARTREX"
+  - status: "OK"
+    name: "Aila"
+  - status: "OK"
+    name: "EBD_startrek2"
+  - status: "OK"
+    name: "airport"
+  - status: "OK"
+    name: "RJGtrekdom"
+  - status: "OK"
+    name: "EBD_startrek"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/S/dom-st-researchlab.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=dom-st-researchlab.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=dom-st-researchlab.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Domination/dom-st-researchlab.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2202"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/S/f/1/18a8a6/dom-st-researchlab.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/S/f/1/18a8a6/dom-st-researchlab.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "DOM-ST-ResearchLab"
+playerCount: "8-16"
+themes:
+  Skaarj Tech: 1.0
+bots: true

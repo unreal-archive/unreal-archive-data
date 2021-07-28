@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:18"
+game: "Unreal Tournament"
+name: "CTF-BurgerWarsIV"
+author: "Zencoder <britton_wesley@yahoo.com>"
+description: "Would you like Fries with that?"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-burgerwarsiv_shot_88d81da1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/8/8/d81da1/ctf-burgerwarsiv_shot_88d81da1_1.png"
+originalFilename: "ctf-burgerwarsiv.zip"
+hash: "88d81da158afdb3da893a531e5fc06109b916739"
+fileSize: 3614705
+files:
+- name: "FrenchFries.umx"
+  fileSize: 2772630
+  hash: "4dbe4f783cd08e285944ea213788415d4edee006"
+- name: "CTF-BurgerWarsIV.unr"
+  fileSize: 3019647
+  hash: "3b6bef9e4faf28d226bfd9bf87158d033b2bfa2a"
+otherFiles: 1
+dependencies:
+  CTF-BurgerWarsIV.unr:
+  - status: "OK"
+    name: "FrenchFries"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-burgerwarsiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-burgerwarsiv.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=218"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/8/8/d81da1/ctf-burgerwarsiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/8/8/d81da1/ctf-burgerwarsiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "- Burger Wars IV -"
+playerCount: "16-20"
+themes:
+  City: 0.9
+bots: true

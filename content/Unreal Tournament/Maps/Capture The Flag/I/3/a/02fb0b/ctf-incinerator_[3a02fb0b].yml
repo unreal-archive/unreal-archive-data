@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:10"
+game: "Unreal Tournament"
+name: "CTF-Incinerator"
+author: "Charles \"DemonLord\" Yakish"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-incinerator_shot_3a02fb0b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/3/a/02fb0b/ctf-incinerator_shot_3a02fb0b_1.png"
+originalFilename: "ctf-incinerator.zip"
+hash: "3a02fb0b4a4949c1b668af9b9f286d7e000040fe"
+fileSize: 2115506
+files:
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+- name: "CTF-Incinerator.unr"
+  fileSize: 1855008
+  hash: "22470bf79cff6268e3c249d1898510322c67c229"
+otherFiles: 1
+dependencies:
+  CTF-Incinerator.unr:
+  - status: "OK"
+    name: "Fallout"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-incinerator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-incinerator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/3/a/02fb0b/ctf-incinerator.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/3/a/02fb0b/ctf-incinerator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/3/a/02fb0b/ctf-incinerator.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Incinerator"
+playerCount: "8-20"
+themes:
+  Tech: 0.3
+  Industrial: 0.5
+  Skaarj Tech: 0.2
+bots: true

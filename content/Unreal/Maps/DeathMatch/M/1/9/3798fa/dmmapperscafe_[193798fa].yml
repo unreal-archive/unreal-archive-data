@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:47"
+game: "Unreal"
+name: "Dm][MappersCafe"
+author: "Jeff Martin - www.geocities.com/j4unreal"
+description: "Just off the freeway..."
+releaseDate: "2006-05"
+attachments:
+- type: "IMAGE"
+  name: "dmmapperscafe_shot_193798fa_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/M/1/9/3798fa/dmmapperscafe_shot_193798fa_1.png"
+originalFilename: "dmiimapperscafe.zip"
+hash: "193798fa812ecf7e46ff897f512f64788ee723aa"
+fileSize: 4298162
+files:
+- name: "MappersCafeSnd.uax"
+  fileSize: 780126
+  hash: "96c50fe10b32a7f1683fdd181c246135efa0e770"
+- name: "MappersCafe.utx"
+  fileSize: 2937441
+  hash: "c9c7ce7ebd82d94ceb252bca1155fe5f8d570878"
+- name: "MappersCafeXtra.utx"
+  fileSize: 88983
+  hash: "4106f2e092c01636b585b1354034934c7e190f7a"
+- name: "Dm][MappersCafe.unr"
+  fileSize: 2967638
+  hash: "af46670e358bd5a756dd0a3010beacb87ddb2442"
+- name: "MappersMusic.uax"
+  fileSize: 1466956
+  hash: "e316cff11ed16f1fadfc6d2ea011eaaf9d60a38a"
+otherFiles: 1
+dependencies:
+  Dm][MappersCafe.unr:
+  - status: "OK"
+    name: "MappersMusic"
+  - status: "OK"
+    name: "MappersCafeSnd"
+  - status: "OK"
+    name: "MappersCafe"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/dmiimapperscafe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/1/9/3798fa/dmiimapperscafe.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/1/9/3798fa/dmiimapperscafe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/1/9/3798fa/dmiimapperscafe.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Mapper's Cafe"
+playerCount: "Unknown"
+themes:
+  Tech: 0.5
+  Natural: 0.5
+bots: false

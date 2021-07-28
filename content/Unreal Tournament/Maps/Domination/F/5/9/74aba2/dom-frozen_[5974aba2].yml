@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 23:04"
+game: "Unreal Tournament"
+name: "DOM-Frozen"
+author: "The*Magic*Man"
+description: "Watch out!  It's slick indoors!"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "DOM-Frozen_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/F/DOM-Frozen_shot_1.png"
+originalFilename: "dom-frozen.zip"
+hash: "5974aba28262974661ddd7b5cd3a29a57eab9aa2"
+fileSize: 1765012
+files:
+- name: "DOM-Frozen.unr"
+  fileSize: 753563
+  hash: "732904550b84a145c13b516fdb9a8a0f0fda5c65"
+- name: "FRZ_Iceotope.utx"
+  fileSize: 2149073
+  hash: "99073d8ffe07e8fd2991d1a010fbfe096424936b"
+otherFiles: 1
+dependencies:
+  DOM-Frozen.unr:
+  - status: "OK"
+    name: "FRZ_Iceotope"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=454"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/F/dom-frozen.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/F/5/9/74aba2/dom-frozen.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/F/5/9/74aba2/dom-frozen.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Frozen"
+playerCount: "8-12"
+themes:
+  Skaarj Crypt: 0.6
+  Natural: 0.4
+bots: true

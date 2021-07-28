@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:27"
+game: "Unreal"
+name: "DMPacman"
+author: "Martin Zapata"
+description: "None"
+releaseDate: "1999-02"
+attachments: []
+originalFilename: "dm-pacman.zip"
+hash: "0c11a51db8b669519e4309c31318821eb820acd1"
+fileSize: 139732
+files:
+- name: "PacManT.utx"
+  fileSize: 59819
+  hash: "563655bc36cd4798b82a111d76a4fc3d161b54d9"
+- name: "PacManS.uax"
+  fileSize: 69020
+  hash: "76515eae4ea2ce368a144f8c6acb61e0d232694c"
+- name: "DMPacman.unr"
+  fileSize: 194634
+  hash: "d69fae31a04bc6dee0500765dfdd66c1819c70d8"
+otherFiles: 1
+dependencies:
+  DMPacman.unr:
+  - status: "OK"
+    name: "PacManS"
+  - status: "OK"
+    name: "PacManT"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5488610"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/P/dm-pacman.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dmpacman.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsP/dmpacman.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMPACMAN.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/P/0/c/11a51d/dm-pacman.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/P/0/c/11a51d/dm-pacman.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Pac Man's Revenge"
+playerCount: "Unknown"
+themes: {}
+bots: true

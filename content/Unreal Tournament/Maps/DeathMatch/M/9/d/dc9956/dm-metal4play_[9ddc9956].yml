@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:02"
+game: "Unreal Tournament"
+name: "DM-Metal4Play"
+author: "Rich \"GroundZero\" Edwards"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Metal4Play_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-Metal4Play_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Metal4Play_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-Metal4Play_shot_2.png"
+originalFilename: "dm-metal4play.zip"
+hash: "9ddc995673a66c2b4300abb285f4e58c1ed663a2"
+fileSize: 3933718
+files:
+- name: "DM-Metal4Play.unr"
+  fileSize: 2041873
+  hash: "d354752a02028293a362a02a834d63a91783016d"
+- name: "SMetal.utx"
+  fileSize: 3729193
+  hash: "4feaa1e9de01e411b48a8dc340f4fb78cda9a325"
+otherFiles: 1
+dependencies:
+  DM-Metal4Play.unr:
+  - status: "OK"
+    name: "SMetal"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-metal4play.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-metal4play.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2243"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/9/d/dc9956/dm-metal4play.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/9/d/dc9956/dm-metal4play.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-MetalFourPlay"
+playerCount: "2-8"
+themes:
+  Tech: 0.3
+  Ancient: 0.2
+  Skaarj Tech: 0.5
+bots: true

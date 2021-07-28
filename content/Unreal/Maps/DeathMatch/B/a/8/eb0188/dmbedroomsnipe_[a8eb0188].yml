@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:40"
+game: "Unreal"
+name: "DMBedroomSnipe"
+author: "DarkMantis & PunkyBrewster Imported from UT by RUSH*"
+description: "Hey, I'm trying to sleep here!!"
+releaseDate: "2005-07"
+attachments: []
+originalFilename: "DMBedroomSnipe.zip"
+hash: "a8eb01884033b809e8ad9c7683eb75195c189b1f"
+fileSize: 5244609
+files:
+- name: "WhoWasInMyRoomLastNight.umx"
+  fileSize: 2747209
+  hash: "3fa66e4ba4f5675256f6bfd46807e54e635f1b74"
+- name: "Bed.utx"
+  fileSize: 1800815
+  hash: "e87996ce5c648d5e5267dfea9df4800437d0b955"
+- name: "DMBedroomSnipe.unr"
+  fileSize: 7466959
+  hash: "7ce11dd9fa8ad2bc3e827d1e147d7ce6223763db"
+- name: "LadrArrow.utx"
+  fileSize: 46433
+  hash: "3897135e3195e3637be9503d9e45ba07fa7f4e7f"
+otherFiles: 0
+dependencies:
+  DMBedroomSnipe.unr:
+  - status: "OK"
+    name: "Bed"
+  - status: "OK"
+    name: "LadrArrow"
+  - status: "MISSING"
+    name: "AssaultDecor"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "WhoWasInMyRoomLastNight"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Assault/&file=DMBedroomSnipe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/B/DMBedroomSnipe.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Assault/DMBedroomSnipe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/B/a/8/eb0188/DMBedroomSnipe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/B/a/8/eb0188/DMBedroomSnipe.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Bedroom Snipe"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

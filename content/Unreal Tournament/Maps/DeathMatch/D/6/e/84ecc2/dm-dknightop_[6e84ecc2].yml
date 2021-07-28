@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:00"
+variationOf: "c35547f209542ecca72abfb4ca3fcd7d1d31fba3"
+game: "Unreal Tournament"
+name: "DM-DKNightOp"
+author: "Cliff Bleszinski - Conv by Script10k"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-dknightop_shot_6e84ecc2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/6/e/84ecc2/dm-dknightop_shot_6e84ecc2_1.png"
+- type: "IMAGE"
+  name: "dm-dknightop_shot_6e84ecc2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/6/e/84ecc2/dm-dknightop_shot_6e84ecc2_2.png"
+originalFilename: "dm-dknightop.zip"
+hash: "6e84ecc275d24870790f46d8929238a01b78805b"
+fileSize: 3492184
+files:
+- name: "ScirReal.umx"
+  fileSize: 1021693
+  hash: "eebedd187a777667ef6f4ad8338a9ec04bd61a94"
+- name: "DM-DKNightOp.unr"
+  fileSize: 585118
+  hash: "9ceb22ed0d385a8a29030182e8011c25f8894028"
+- name: "Quakearena.utx"
+  fileSize: 3203647
+  hash: "1733385a6744242cbe0c1ef258aadbdf0ed6ae7d"
+otherFiles: 2
+dependencies:
+  DM-DKNightOp.unr:
+  - status: "OK"
+    name: "ScirReal"
+  - status: "OK"
+    name: "Quakearena"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-dknightop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-dknightop.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5277"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/6/e/84ecc2/dm-dknightop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/6/e/84ecc2/dm-dknightop.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Night Op"
+playerCount: "2-4"
+themes: {}
+bots: true

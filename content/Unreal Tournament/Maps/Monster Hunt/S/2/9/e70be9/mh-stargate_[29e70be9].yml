@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 05:15"
+game: "Unreal Tournament"
+name: "MH-Stargate"
+author: "\"Callum\""
+description: "None"
+releaseDate: "2012-09"
+attachments:
+- type: "IMAGE"
+  name: "MH-Stargate_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/MH-Stargate_shot_1.png"
+originalFilename: "MH-Stargate.zip"
+hash: "29e70be9715342ff1fdc3f2e85bb0578c988fcb6"
+fileSize: 2264444
+files:
+- name: "MH-Stargate.unr"
+  fileSize: 1686807
+  hash: "86677d30d94e967c38d6d45b22fedb25ac99be42"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "WarNukingGround.u"
+  fileSize: 1871058
+  hash: "60e699b04761e44ee8be4bf6fd5ca6eafa983db9"
+otherFiles: 0
+dependencies:
+  WarNukingGround.u:
+  - status: "MISSING"
+    name: "Spinner"
+  MH-Stargate.unr:
+  - status: "OK"
+    name: "WarNukingGround"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-Stargate.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/MH-Stargate.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Stargate.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/2/9/e70be9/MH-Stargate.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/2/9/e70be9/MH-Stargate.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Stargate"
+playerCount: "3 - 12"
+themes:
+  Nali Temple: 0.4
+  Tech: 0.1
+  Industrial: 0.2
+  Natural: 0.3
+bots: false

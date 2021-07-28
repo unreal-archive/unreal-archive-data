@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:44"
+variationOf: "11e58dec9e256aa94caff016e307767e56e1863e"
+game: "Unreal Tournament"
+name: "DM-[BIG]WildWest_Light_Daddys_Mod"
+author: "[BIG]-Arts"
+description: "Once upon a time in the west"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-[BIG]WildWest_Light_Daddys_Mod_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-%5BBIG%5DWildWest_Light_Daddys_Mod_shot_1.png"
+originalFilename: "dm-[big]wildwest_light_daddys_mod.zip"
+hash: "84a1cd5c387bebda1e07b15f3e3d97a77178df27"
+fileSize: 6666542
+files:
+- name: "BIGWest.utx"
+  fileSize: 1189052
+  hash: "bcb0f4b152a87a49e15830a14b6aea25ba039ef8"
+- name: "DM-[BIG]WildWest_Light_Daddys_Mod.unr"
+  fileSize: 5601512
+  hash: "8bc6130534a5cc26e19bc8ce0aca0a5c8a7f94ee"
+- name: "BIGWest_RMX.umx"
+  fileSize: 6637440
+  hash: "433d19a281ee928f33ad0f26005b9ae3f282abe5"
+otherFiles: 0
+dependencies:
+  DM-[BIG]WildWest_Light_Daddys_Mod.unr:
+  - status: "OK"
+    name: "BIGWest_RMX"
+  - status: "OK"
+    name: "BIGWest"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%5Bbig%5Dwildwest_light_daddys_mod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-%5Bbig%5Dwildwest_light_daddys_mod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/8/4/a1cd5c/dm-%255Bbig%255Dwildwest_light_daddys_mod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/8/4/a1cd5c/dm-%255Bbig%255Dwildwest_light_daddys_mod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[BIG] -WildWest"
+playerCount: "2-32"
+themes:
+  Skaarj Crypt: 1.0
+bots: false

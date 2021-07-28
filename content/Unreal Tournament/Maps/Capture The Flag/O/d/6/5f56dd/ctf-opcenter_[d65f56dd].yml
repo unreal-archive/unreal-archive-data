@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:32"
+game: "Unreal Tournament"
+name: "CTF-OpCenter"
+author: "[FED]Billy_B"
+description: "Original Concept By [FED]Age"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-OpCenter_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/CTF-OpCenter_shot_1.png"
+originalFilename: "ctf-opcenter.zip"
+hash: "d65f56dd0666f3aecf9c66212e13761d08f8af74"
+fileSize: 2458849
+files:
+- name: "ProjectX.utx"
+  fileSize: 891055
+  hash: "b141b1955e90a4aef0844748cf17ba8eec941ff6"
+- name: "CTF-OpCenter.unr"
+  fileSize: 2981676
+  hash: "8747ec1a48bf1d8268178ae47eb61d9ddb1d11ae"
+- name: "CTF-[FED]Age.utx"
+  fileSize: 1284582
+  hash: "4bd8c323f37ddeeb6e3ede6467260dac2e5f2a2e"
+otherFiles: 1
+dependencies:
+  CTF-OpCenter.unr:
+  - status: "OK"
+    name: "CTF-[FED]Age"
+  - status: "OK"
+    name: "ProjectX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/ctf-opcenter.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404353"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsO/&file=ctf-opcenter.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-opcenter.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsO/ctf-opcenter.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/d/6/5f56dd/ctf-opcenter.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/d/6/5f56dd/ctf-opcenter.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-OpCenter"
+playerCount: "8-16"
+themes:
+  Industrial: 0.8
+  City: 0.2
+bots: true

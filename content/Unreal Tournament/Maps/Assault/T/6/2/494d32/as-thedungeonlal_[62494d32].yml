@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 19:51"
+game: "Unreal Tournament"
+name: "AS-TheDungeon]l[AL"
+author: "Sidoh"
+description: "www.utassault.net"
+releaseDate: "2007-09"
+attachments:
+- type: "IMAGE"
+  name: "AS-TheDungeon]l[AL_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/T/AS-TheDungeon%5Dl%5BAL_shot_1.png"
+originalFilename: "AS-TheDungeon3AL.zip"
+hash: "62494d32dc7f3c9920377595f15b4a469ba6cd6a"
+fileSize: 4810556
+files:
+- name: "AS-TheDungeon]l[AL.unr"
+  fileSize: 3950684
+  hash: "ebfbe1dd643bec389c1654f55b474d8796e7eb7b"
+- name: "Gotgotha.utx"
+  fileSize: 3726109
+  hash: "ed079d13d4a50f368be3dd357cff295742e1410d"
+- name: "Carpet.utx"
+  fileSize: 23419
+  hash: "c1206a057dbcd6bd3d529ef3b93af9518a02a08b"
+- name: "Golgoth.umx"
+  fileSize: 922473
+  hash: "39de2b2b35984b5412b7d855f29e28aed6a378e3"
+otherFiles: 1
+dependencies:
+  AS-TheDungeon]l[AL.unr:
+  - status: "OK"
+    name: "Gotgotha"
+  - status: "OK"
+    name: "Golgoth"
+  - status: "OK"
+    name: "Carpet"
+  - status: "MISSING"
+    name: "AssaultBonusPack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=AS-TheDungeon3AL.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/T/AS-TheDungeon3AL.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/T/6/2/494d32/AS-TheDungeon3AL.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/T/6/2/494d32/AS-TheDungeon3AL.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "The Dungeon... 3 !"
+playerCount: "4-12"
+themes:
+  Skaarj Crypt: 0.9
+  Natural: 0.1
+bots: false

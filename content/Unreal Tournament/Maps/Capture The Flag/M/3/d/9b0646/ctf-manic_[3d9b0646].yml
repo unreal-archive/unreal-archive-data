@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:45"
+game: "Unreal Tournament"
+name: "CTF-Manic"
+author: "MishYnz"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Manic_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-Manic_shot_1.png"
+originalFilename: "CTF-Manic.zip"
+hash: "3d9b06461c3b951b33cef00bce11f23e5ff8a387"
+fileSize: 1252942
+files:
+- name: "CTF-Manic.unr"
+  fileSize: 1905574
+  hash: "901c7638405aac565ce67e793b6da39614da1bab"
+- name: "Deck16.utx"
+  fileSize: 156016
+  hash: "90f7c08cdb6b276706503006d040ab5aa5d44ac3"
+- name: "gateways.umx"
+  fileSize: 1025666
+  hash: "d5336d997f7406403ffda19c8f83d6091a4ff9a2"
+otherFiles: 1
+dependencies:
+  CTF-Manic.unr:
+  - status: "OK"
+    name: "gateways"
+  - status: "OK"
+    name: "Deck16"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Manic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-Manic.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/3/d/9b0646/CTF-Manic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/3/d/9b0646/CTF-Manic.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "LivinOnManicStreet"
+playerCount: "8-16"
+themes:
+  Industrial: 0.6
+  Skaarj Tech: 0.4
+bots: true

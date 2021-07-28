@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:33"
+game: "Unreal Tournament"
+name: "DM-DanzGallery"
+author: "AntiElvis (Dan McKay)"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-danzgallery_shot_9ac7473c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/dm-danzgallery_shot_9ac7473c_1.png"
+originalFilename: "DM-DanzGallery.zip"
+hash: "9ac7473c78b97d07b061601133dfa5e857886dc7"
+fileSize: 8645156
+files:
+- name: "DanzGallery.utx"
+  fileSize: 14167739
+  hash: "a3b87fe0f75fb81623475b17ad59e64d5dd0fdf9"
+- name: "Darkside.umx"
+  fileSize: 3083030
+  hash: "aeb420480d3bc74c346ae10c3411a7aaebe63269"
+- name: "DM-DanzGallery.unr"
+  fileSize: 1358496
+  hash: "6ed954517c1bf0c78416708d85979edb65f8bbd8"
+otherFiles: 1
+dependencies:
+  DM-DanzGallery.unr:
+  - status: "OK"
+    name: "Darkside"
+  - status: "OK"
+    name: "DanzGallery"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DanzGallery.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-danzgallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/9/a/c7473c/DM-DanzGallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/9/a/c7473c/DM-DanzGallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DanzGallery"
+playerCount: "8-12"
+themes: {}
+bots: true

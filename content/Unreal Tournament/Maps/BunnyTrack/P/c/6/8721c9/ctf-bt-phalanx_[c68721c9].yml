@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:33"
+game: "Unreal Tournament"
+name: "CTF-BT-PhalanX"
+author: "DiegO - Derpy - GiorgiO"
+description: "Welcome to map PhalanX"
+releaseDate: "2015-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-PhalanX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/P/CTF-BT-PhalanX_shot_1.png"
+originalFilename: "CTF-BT-PhalanX.zip"
+hash: "c68721c931994975304c8fa8fac537dbf12a5ce0"
+fileSize: 18182933
+files:
+- name: "anc4.utx"
+  fileSize: 2656698
+  hash: "80276fb0cdb9da3f9f9ffea2a4389a22a92ff63a"
+- name: "CTF-BT-PhalanX.unr"
+  fileSize: 14145407
+  hash: "d71ab0a4dfdf63b0b842a378d588d3acfba021bd"
+- name: "CoreTexMetal.utx"
+  fileSize: 5586282
+  hash: "81756980d649500cc7c5c5b532ec071e1ae7ea37"
+- name: "CoreTexDetail.utx"
+  fileSize: 17922
+  hash: "3c77108f4818d903abe2cde499339693333aadd8"
+- name: "SSFuture.utx"
+  fileSize: 1730708
+  hash: "aa47615d4e9f37233a159c3fbabc42cb50f66401"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "Stars.utx"
+  fileSize: 1233525
+  hash: "b07ca76343694500293ee86e8ffcda2e86d21ad6"
+- name: "SSColdSteel.utx"
+  fileSize: 3315728
+  hash: "4930587c29b952d568b6d7eff1dfb5102fe14d53"
+- name: "jumppadsound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+otherFiles: 0
+dependencies:
+  CTF-BT-PhalanX.unr:
+  - status: "OK"
+    name: "SSFuture"
+  - status: "OK"
+    name: "Stars"
+  - status: "OK"
+    name: "SSColdSteel"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "JumpPadSound"
+  - status: "OK"
+    name: "anc4"
+  - status: "OK"
+    name: "CoreTexMetal"
+  CoreTexMetal.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-PhalanX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/P/CTF-BT-PhalanX.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-PhalanX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/P/c/6/8721c9/CTF-BT-PhalanX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/P/c/6/8721c9/CTF-BT-PhalanX.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Team PhalanX"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Industrial: 0.5
+  Ancient: 0.1
+  Skaarj Tech: 0.2
+bots: false

@@ -1,0 +1,119 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 08:12"
+game: "Unreal Tournament"
+name: "EvilGeometryMapPack"
+author: "Doctor Evil"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "EvilGeometryMapPack_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/E/EvilGeometryMapPack_shot_3.png"
+- type: "IMAGE"
+  name: "EvilGeometryMapPack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/E/EvilGeometryMapPack_shot_2.png"
+- type: "IMAGE"
+  name: "EvilGeometryMapPack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/E/EvilGeometryMapPack_shot_1.png"
+originalFilename: "EvilGeometryMapPack.zip"
+hash: "1661a3d5f89a65055b107d13ea51f16fed66edbe"
+fileSize: 5359287
+files:
+- name: "Giger2.utx"
+  fileSize: 2072003
+  hash: "3098004a946b225bd61a85b6a37c1cc0b2150480"
+- name: "Fantasy1.utx"
+  fileSize: 3639777
+  hash: "3ef2dff726f7e551e8712ae375742e202f3c3719"
+- name: "DKNGiger.utx"
+  fileSize: 1738989
+  hash: "acf041accba7857ffacc9918f4d2b39e30a6313c"
+- name: "DM-AdamlyRooms5.unr"
+  fileSize: 428879
+  hash: "6eba7ad616fa1d2421e1698bca348ff1586c84ac"
+- name: "DM-Escher.unr"
+  fileSize: 270278
+  hash: "6f9e4fe3558d6fab7ad6f7b3c2ab815aa5affef6"
+- name: "DM-Giger4.unr"
+  fileSize: 894097
+  hash: "99e1ccbeaa82dfb92a834c356770690b053a17ab"
+otherFiles: 1
+dependencies:
+  DM-Escher.unr:
+  - status: "OK"
+    name: "Fantasy1"
+  DM-Giger4.unr:
+  - status: "OK"
+    name: "Giger2"
+  - status: "OK"
+    name: "DKNGiger"
+  DM-AdamlyRooms5.unr:
+  - status: "MISSING"
+    name: "CrokxFX"
+  - status: "MISSING"
+    name: "CoreTex"
+  - status: "MISSING"
+    name: "Watcher"
+  - status: "MISSING"
+    name: "Castle"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/E/EvilGeometryMapPack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-EvilGeom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=EvilGeom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=EvilGeom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MapPacks&file=EvilGeometryMapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/&file=EvilGeom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/&file=EvilGeometryMapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MapPacks/MapsE_F/&file=EvilGeom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/E/1/6/61a3d5/EvilGeometryMapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/E/1/6/61a3d5/EvilGeometryMapPack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Escher"
+  title: "Escher 1"
+  author: "Doctor Evil"
+- name: "DM-Giger4"
+  title: "Giger 4"
+  author: "Doctor Evil"
+- name: "DM-AdamlyRooms5"
+  title: "Adamly Rooms 5"
+  author: "Doctor Evil"
+gametype: "DeathMatch"
+themes:
+  Ancient: 0.5
+  Natural: 0.5

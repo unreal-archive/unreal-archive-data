@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:50"
+game: "Unreal Tournament"
+name: "DM-Mansion"
+author: "Stuart 'LizardGenes' Lindsay"
+description: "None"
+releaseDate: "2007-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-Mansion_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-Mansion_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Mansion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-Mansion_shot_1.png"
+originalFilename: "dm-mansion.zip"
+hash: "262f3cbfda5eb12aee5504ae8c989021233e07b9"
+fileSize: 21379426
+files:
+- name: "DM-Mansion.unr"
+  fileSize: 14498396
+  hash: "9fb7a835a7e20b07e8eeb927f6eb4c590c40c55c"
+- name: "zeitkind.utx"
+  fileSize: 1323100
+  hash: "ad501552f0dab87f6ab026e12dd03ba89df45625"
+- name: "ParisChateau_Music.umx"
+  fileSize: 1660479
+  hash: "349da5577f938b2eceea97accb115a35c6538221"
+- name: "a3text.utx"
+  fileSize: 1726160
+  hash: "af0e014107cc8e441bd037029ff9d05a56c8c287"
+- name: "AmbientDx.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "CoreTexMisc.utx"
+  fileSize: 6031976
+  hash: "0596856234e03b69d5c625180f4f13955a7ad5d4"
+- name: "CoreTexDetail.utx"
+  fileSize: 283939
+  hash: "b8b33cbb116b405a3e59d786db70587bc7f85989"
+otherFiles: 2
+dependencies:
+  DM-Mansion.unr:
+  - status: "OK"
+    name: "zeitkind"
+  - status: "OK"
+    name: "CoreTexMisc"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "ParisChateau_Music"
+  - status: "OK"
+    name: "AmbientDx"
+  CoreTexMisc.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6364"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/2/6/2f3cbf/dm-mansion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/2/6/2f3cbf/dm-mansion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/2/6/2f3cbf/dm-mansion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Edmonds Family Mansion"
+playerCount: "14"
+themes:
+  Industrial: 0.1
+  Ancient: 0.1
+  City: 0.6
+  Natural: 0.2
+bots: true

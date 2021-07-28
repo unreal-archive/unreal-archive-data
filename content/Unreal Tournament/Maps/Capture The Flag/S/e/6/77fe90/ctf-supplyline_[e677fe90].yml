@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:23"
+variationOf: "1015be905ca6ea202aba9eff294cfe386df37975"
+game: "Unreal Tournament"
+name: "CTF-SupplyLine"
+author: "Martin 'Aphex' Bell"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-supplyline_shot_e677fe90_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/e/6/77fe90/ctf-supplyline_shot_e677fe90_1.png"
+originalFilename: "ctf-supplyline.zip"
+hash: "e677fe90c7119c92094b06a76c54f3d848a5f18d"
+fileSize: 2463917
+files:
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "CTF-SupplyLine.unr"
+  fileSize: 3804814
+  hash: "218aab0cfc648b320454a15fa46b25009d11ea7e"
+- name: "_AphexTrain.uax"
+  fileSize: 114937
+  hash: "ad4cb407e7b38ef8a866c1d133fcb3dfe3d97ea0"
+- name: "_AphexSnow.utx"
+  fileSize: 259817
+  hash: "d138e6c4d2fcc2bafe7110ff64bdc7bb6bdbbb5b"
+otherFiles: 1
+dependencies:
+  CTF-SupplyLine.unr:
+  - status: "OK"
+    name: "_AphexTrain"
+  - status: "OK"
+    name: "_AphexSnow"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1404674"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-supplyline.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-supplyline.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-supplyline.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-supplyline.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/e/6/77fe90/ctf-supplyline.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/e/6/77fe90/ctf-supplyline.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Supply Line"
+playerCount: "8-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  City: 0.4
+  Natural: 0.1
+  Skaarj Tech: 0.3
+bots: true

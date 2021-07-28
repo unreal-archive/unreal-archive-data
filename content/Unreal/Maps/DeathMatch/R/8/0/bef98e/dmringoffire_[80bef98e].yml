@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:47"
+game: "Unreal"
+name: "DmRingOfFire"
+author: "Randy Shrader"
+description: "None"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "DMRingofFire2.zip"
+hash: "80bef98ed015efe6e5188ee7f9ebf7d322c5236b"
+fileSize: 2477458
+files:
+- name: "jc_rof.umx"
+  fileSize: 3386927
+  hash: "1c41115f5442273da313f4b67d94cce92f0a169e"
+- name: "DmRingOfFire.unr"
+  fileSize: 911630
+  hash: "0d2e9dbce786204c5556e1b6ad3f218b76b46159"
+otherFiles: 0
+dependencies:
+  DmRingOfFire.unr:
+  - status: "OK"
+    name: "jc_rof"
+  - status: "MISSING"
+    name: "jumppad"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMRingofFire2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/R/8/0/bef98e/DMRingofFire2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/R/8/0/bef98e/DMRingofFire2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/R/8/0/bef98e/DMRingofFire2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ring of Fire"
+playerCount: "4-8"
+themes:
+  Skaarj Tech: 1.0
+bots: true

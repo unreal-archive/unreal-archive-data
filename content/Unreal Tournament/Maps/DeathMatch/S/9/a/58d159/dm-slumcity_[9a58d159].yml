@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:38"
+game: "Unreal Tournament"
+name: "DM-slumCity"
+author: "Dominik Riedling"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-slumcity_shot_9a58d159_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/9/a/58d159/dm-slumcity_shot_9a58d159_1.png"
+originalFilename: "dm-slumcity.zip"
+hash: "9a58d1594e9f51276abed2ca78cfff75fe5adb8a"
+fileSize: 872975
+files:
+- name: "DM-slumCity.unr"
+  fileSize: 2021519
+  hash: "d458bb862d378182e9e0ad15ec86c75b42e55d44"
+- name: "mytextures.utx"
+  fileSize: 1139648
+  hash: "5f407a3ad54d5ee7b46560386b32661f58a298a7"
+otherFiles: 1
+dependencies:
+  DM-slumCity.unr:
+  - status: "OK"
+    name: "mytextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-slumcity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-slumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-slumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-slumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/9/a/58d159/dm-slumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/9/a/58d159/dm-slumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "slumCity"
+playerCount: "8-16"
+themes:
+  Industrial: 0.1
+  City: 0.7
+  Skaarj Tech: 0.1
+bots: true

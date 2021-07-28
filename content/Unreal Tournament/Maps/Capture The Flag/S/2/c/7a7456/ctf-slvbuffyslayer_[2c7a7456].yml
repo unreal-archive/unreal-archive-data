@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:18"
+game: "Unreal Tournament"
+name: "CTF-[SLV]BuffySlayer"
+author: "Slim_Shady"
+description: "None"
+releaseDate: "2011-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-[SLV]BuffySlayer_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-%5BSLV%5DBuffySlayer_shot_1.png"
+originalFilename: "CTF-[SLV]BuffySlayer.zip"
+hash: "2c7a7456772c517021a3b46aadc6b140560b6685"
+fileSize: 817012
+files:
+- name: "CTF-[SLV]BuffySlayer.unr"
+  fileSize: 2176448
+  hash: "1201b6777ac0d63e5b1632a77c1815e5892fb617"
+- name: "cemetary.utx"
+  fileSize: 88995
+  hash: "284bb39ae874bd18c99d46f5a068c955542c1e74"
+- name: "Noda15.utx"
+  fileSize: 223863
+  hash: "45774b5bbaf6d3cbb713e866a48c9d4e438bf3e5"
+otherFiles: 0
+dependencies:
+  CTF-[SLV]BuffySlayer.unr:
+  - status: "OK"
+    name: "cemetary"
+  - status: "OK"
+    name: "Noda15"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-%5BSLV%5DBuffySlayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-%5BSLV%5DBuffySlayer.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-%5BSLV%5DBuffySlayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/c/7a7456/CTF-%255BSLV%255DBuffySlayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/c/7a7456/CTF-%255BSLV%255DBuffySlayer.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "SunnydaleCemetery"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.1
+  Ancient: 0.5
+  Nali Castle: 0.3
+bots: true

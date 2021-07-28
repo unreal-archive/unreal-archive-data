@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:51"
+game: "Unreal Tournament"
+name: "CTF-(rS)Diamond"
+author: "|r§|-)Ë×Çå|îßË®(-"
+description: "Time To Fuckin' Die!!!!"
+releaseDate: "2007-03"
+attachments: []
+originalFilename: "CTF-(rS)Diamond.zip"
+hash: "1fbd9a6986ae9fdab0dc8854e0bf5fe323f29a8c"
+fileSize: 9991957
+files:
+- name: "clanrs.utx"
+  fileSize: 177658
+  hash: "b7573a0a79083610ff624e5c0244d170e5943e8e"
+- name: "CTF-(rS)Diamond.unr"
+  fileSize: 1575993
+  hash: "318990be81a3a1517fed5b47faa1439ba69e11de"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "rS_braintrain.umx"
+  fileSize: 9247834
+  hash: "40766c546e79117f9380dcbd89a09f18db567da7"
+- name: "rSTunnels.utx"
+  fileSize: 909139
+  hash: "4ee29dd13da461b59e8711d44ce384f2c3e42049"
+otherFiles: 0
+dependencies:
+  CTF-(rS)Diamond.unr:
+  - status: "OK"
+    name: "rS_braintrain"
+  - status: "OK"
+    name: "rSTunnels"
+  - status: "OK"
+    name: "clanrs"
+  - status: "OK"
+    name: "Factory"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-%28rS%29Diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-(rS)Diamond.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/f/bd9a69/CTF-(rS)Diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/f/bd9a69/CTF-(rS)Diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(rS)Diamond"
+playerCount: "12-16"
+themes:
+  Industrial: 1.0
+bots: true

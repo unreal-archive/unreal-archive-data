@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:58"
+game: "Unreal Tournament"
+name: "DM-lol-SkyCamper"
+author: "<lol>BK"
+description: "None"
+releaseDate: "2008-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-SkyCamper_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-SkyCamper_shot_1.png"
+originalFilename: "DM-lol-SkyCamper.zip"
+hash: "5bbde4b9620b5484c12d04b694b20d48b63ef48d"
+fileSize: 4561218
+files:
+- name: "DM-lol-SkyCamper.unr"
+  fileSize: 3170742
+  hash: "01201f9da253419051f66ef93e8bbc27ca2433c5"
+- name: "U4Z.u"
+  fileSize: 76802
+  hash: "dab23f152395b5fe732ff9f97362b6d3b1ea098b"
+- name: "BestShot.umx"
+  fileSize: 3777476
+  hash: "e4b8963751c833a11c9f69bed367349e82686518"
+otherFiles: 0
+dependencies:
+  DM-lol-SkyCamper.unr:
+  - status: "OK"
+    name: "BestShot"
+  - status: "OK"
+    name: "U4Z"
+  U4Z.u:
+  - status: "MISSING"
+    name: "Sin2utModels"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-SkyCamper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-SkyCamper.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-SkyCamper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/5/b/bde4b9/DM-lol-SkyCamper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/5/b/bde4b9/DM-lol-SkyCamper.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-lol-SkyCamper"
+playerCount: "8-16"
+themes:
+  Tech: 0.4
+  City: 0.1
+  Natural: 0.5
+bots: true

@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:02"
+game: "Unreal Tournament"
+name: "CTF4-Command"
+author: "Conversion by Red Dwarf"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF4-Command_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/C/CTF4-Command_shot_1.png"
+originalFilename: "ctf4-command.zip"
+hash: "e17b4a13ec454b286fcc7d021232938022426e63"
+fileSize: 2711791
+files:
+- name: "CommandFX.utx"
+  fileSize: 489953
+  hash: "1493cb634be44df36605f7b0e95f1608e1264ea3"
+- name: "CTF4-Command.unr"
+  fileSize: 7563090
+  hash: "90290813e4089e4cef08764a54c56b7431836fac"
+otherFiles: 2
+dependencies:
+  CTF4-Command.unr:
+  - status: "OK"
+    name: "CommandFX"
+  - status: "MISSING"
+    name: "CTF4Team"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/C/ctf4-command.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1405321"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF4/&file=ctf4-command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctf4-command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF4&file=ctf4-command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF4/ctf4-command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/C/e/1/7b4a13/ctf4-command.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/C/e/1/7b4a13/ctf4-command.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "The Last Command 4 Bases"
+playerCount: "8-16"
+themes:
+  Industrial: 1.0
+bots: true

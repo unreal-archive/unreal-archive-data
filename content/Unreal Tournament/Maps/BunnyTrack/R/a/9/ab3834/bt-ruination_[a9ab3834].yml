@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 06:35"
+game: "Unreal Tournament"
+name: "BT-Ruination"
+author: "-=J*W=-w00tabul0u$"
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "BT-Ruination_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/R/BT-Ruination_shot_1.png"
+originalFilename: "bt-ruination.zip"
+hash: "a9ab3834752687148ea818d44c994fa69d27856a"
+fileSize: 9699932
+files:
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "chicoruinspack.utx"
+  fileSize: 3151438
+  hash: "ede065a0fc344030c307ca0f6a72efe890aff175"
+- name: "BT-Ruination.unr"
+  fileSize: 1444603
+  hash: "8affa3d4f4e9d1f9ddd3b27506fd508de3bbd198"
+otherFiles: 0
+dependencies:
+  BT-Ruination.unr:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "DoorsSnd"
+  chicoruinspack.utx:
+  - status: "MISSING"
+    name: "ONPFootsteps"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-ruination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/bt-ruination.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-ruination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-ruination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/R/a/9/ab3834/bt-ruination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/a/9/ab3834/bt-ruination.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-Ruination"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Skaarj Crypt: 0.1
+  Ancient: 0.6
+bots: false

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:53"
+game: "Unreal Tournament"
+name: "DM-DeathTrap"
+author: "Hunter/A3"
+description: "Welcome to the PCW House of Pain"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-DeathTrap_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-DeathTrap_shot_1.png"
+originalFilename: "DeathTrap.zip"
+hash: "11bcf0f598fc8e9a96feb0a3c8784c64a23ec76c"
+fileSize: 441163
+files:
+- name: "DM-DeathTrap.unr"
+  fileSize: 1988131
+  hash: "325653ef9bf1e25b34f837b0d5ad0ff94edaee59"
+- name: "SIGN1.utx"
+  fileSize: 88931
+  hash: "3a4c99d9de4b4e5b13e8cde81a7e33933fe60974"
+otherFiles: 0
+dependencies:
+  DM-DeathTrap.unr:
+  - status: "MISSING"
+    name: "sign"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DeathTrap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DeathTrap.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/1/1/bcf0f5/DeathTrap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/1/1/bcf0f5/DeathTrap.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "PC-Warzone's Death Trap"
+playerCount: "2-8"
+themes:
+  Skaarj Crypt: 0.1
+  City: 0.6
+  Skaarj Tech: 0.2
+bots: true

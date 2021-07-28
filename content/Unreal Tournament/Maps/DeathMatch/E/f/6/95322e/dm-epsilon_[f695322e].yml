@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:10"
+game: "Unreal Tournament"
+name: "DM-Epsilon"
+author: "Jimmy 'Stil' Strings"
+description: "None"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-Epsilon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-Epsilon_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Epsilon_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-Epsilon_shot_2.png"
+originalFilename: "dm-epsilon.zip"
+hash: "f695322ed06e9523940724e4a88ba7803f1adba8"
+fileSize: 3341881
+files:
+- name: "Tungsten.utx"
+  fileSize: 1771852
+  hash: "58813e85b381c6e8e38b275d2d1f89426f03a54c"
+- name: "DM-Epsilon.unr"
+  fileSize: 5929567
+  hash: "1ede8989a5da72b85c6b5b5abd347efb2b3b6b2f"
+otherFiles: 1
+dependencies:
+  DM-Epsilon.unr:
+  - status: "OK"
+    name: "Tungsten"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-epsilon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-epsilon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=518"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/f/6/95322e/dm-epsilon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/f/6/95322e/dm-epsilon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Epsilon"
+playerCount: "2-6"
+themes:
+  Tech: 0.9
+  Skaarj Tech: 0.1
+bots: true

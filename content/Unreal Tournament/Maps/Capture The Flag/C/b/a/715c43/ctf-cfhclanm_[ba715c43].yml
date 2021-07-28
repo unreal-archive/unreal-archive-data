@@ -1,0 +1,91 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:32"
+game: "Unreal Tournament"
+name: "CTF-[CFH]ClanM"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-[CFH]ClanM_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-%5BCFH%5DClanM_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-[CFH]ClanM_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-%5BCFH%5DClanM_shot_1.png"
+originalFilename: "ctf-[cfh]clanm.zip"
+hash: "ba715c434f476b3543ec1fdd91c36f4955dda800"
+fileSize: 16407718
+files:
+- name: "TAconeysigns.utx"
+  fileSize: 451072
+  hash: "6532169fd42c621a1f0708a583361d7cbe691c1c"
+- name: "Snow.utx"
+  fileSize: 452392
+  hash: "f9b883b52204a219dfb4bcb4e8bd2e59d6e3ff75"
+- name: "TAconeytex.utx"
+  fileSize: 2762604
+  hash: "1a545c2bd7001e4ebcddff6f488f9298d15e702e"
+- name: "snowpack.utx"
+  fileSize: 1019610
+  hash: "881477d78a553c881cd96946b27a4462f1ec5d89"
+- name: "CTF-[CFH]ClanM.unr"
+  fileSize: 9807687
+  hash: "4b0cec8575cce4599b96cd4b032f39bdb906c226"
+- name: "Chicago-ImAMan.umx"
+  fileSize: 10203794
+  hash: "8276acd710f0bfe0f9e4186d97b0071b612d3ad3"
+- name: "Snowall.utx"
+  fileSize: 452392
+  hash: "f9b883b52204a219dfb4bcb4e8bd2e59d6e3ff75"
+- name: "hause_tex.utx"
+  fileSize: 630310
+  hash: "5a5fc931068d259d2a04dc3b564fed1a404f6ee8"
+- name: "rhine.utx"
+  fileSize: 1153086
+  hash: "b7729d8da34058b1a2c5621b7d78c45e697fc542"
+otherFiles: 2
+dependencies:
+  CTF-[CFH]ClanM.unr:
+  - status: "OK"
+    name: "TAconeytex"
+  - status: "OK"
+    name: "Snow"
+  - status: "MISSING"
+    name: "WeAreTheChampions"
+  - status: "OK"
+    name: "hause_tex"
+  - status: "OK"
+    name: "rhine"
+  - status: "OK"
+    name: "snowpack"
+  - status: "OK"
+    name: "Snowall"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%5Bcfh%5Dclanm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-%5Bcfh%5Dclanm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/a/715c43/ctf-%255Bcfh%255Dclanm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/a/715c43/ctf-%255Bcfh%255Dclanm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-[CFH]ClanM"
+playerCount: "10"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.1
+  Industrial: 0.3
+  Natural: 0.1
+  Nali Castle: 0.4
+bots: true

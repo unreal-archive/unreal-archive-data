@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:07"
+variationOf: "be214ef9075bc6a6362c66663faf598deeb46a18"
+game: "Unreal"
+name: "DMskeletonhall"
+author: "(*)TheEyeBallKid"
+description: "HooHaa!"
+releaseDate: "2003-03"
+attachments: []
+originalFilename: "dmskeletonhall.zip"
+hash: "6e8b6e700cdde2b1d65fde5e5f0645bc3ef72276"
+fileSize: 2165839
+files:
+- name: "DMskeletonhall.unr"
+  fileSize: 2540906
+  hash: "43a55f7d5730c598168bafc2ac3df7153a691318"
+- name: "huertaskel.utx"
+  fileSize: 527001
+  hash: "38e827130c3731a2d694afa102c2dc1e6dc66b34"
+- name: "skelsounds.uax"
+  fileSize: 1394629
+  hash: "0390633739ba777fdcb7484c59334bad2019a269"
+otherFiles: 1
+dependencies:
+  DMskeletonhall.unr:
+  - status: "OK"
+    name: "skelsounds"
+  - status: "OK"
+    name: "huertaskel"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmskeletonhall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/6/e/8b6e70/dmskeletonhall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/6/e/8b6e70/dmskeletonhall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/6/e/8b6e70/dmskeletonhall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Skeleton Hall"
+playerCount: "???"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: false

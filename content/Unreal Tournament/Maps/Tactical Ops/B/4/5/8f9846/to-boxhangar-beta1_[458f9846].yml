@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:34"
+game: "Unreal Tournament"
+name: "TO-BoxHangar-Beta1"
+author: "NuKeR"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "TO-BoxHangar-Beta1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/B/TO-BoxHangar-Beta1_shot_1.png"
+originalFilename: "TO-BoxHangar-Beta1.zip"
+hash: "458f98461f7cd0eeef8818d867257b1128b99842"
+fileSize: 2138683
+files:
+- name: "TO-BoxHangar-Beta1.unr"
+  fileSize: 1080958
+  hash: "f694cabf178e364dec2531256ed2438ac45d3b1c"
+- name: "BoxHangar.utx"
+  fileSize: 2286841
+  hash: "92004ef91be544c24b450345b35f2819a91616ac"
+otherFiles: 2
+dependencies:
+  TO-BoxHangar-Beta1.unr:
+  - status: "OK"
+    name: "BoxHangar"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "s_SWAT"
+  - status: "MISSING"
+    name: "TODecos"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-BoxHangar-Beta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/B/TO-BoxHangar-Beta1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-BoxHangar-Beta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/B/4/5/8f9846/TO-BoxHangar-Beta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/B/4/5/8f9846/TO-BoxHangar-Beta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "BoxHangar-Beta1"
+playerCount: "6+"
+themes:
+  Indistrial: 1.0
+bots: true

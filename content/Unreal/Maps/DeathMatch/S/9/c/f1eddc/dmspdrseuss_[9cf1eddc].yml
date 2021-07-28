@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:13"
+game: "Unreal"
+name: "DM[SP]DRSeuss"
+author: "Sir Snugglebunny *Imported from UT by RUSH*"
+description: "would you? could you? in a boat? would you? could you with a goat?"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "dmspdrseuss_shot_9cf1eddc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/dmspdrseuss_shot_9cf1eddc_1.png"
+originalFilename: "DM[SP]DRSeuss.zip"
+hash: "9cf1eddc3a65557321de1f139631171421f031f7"
+fileSize: 3998891
+files:
+- name: "Seuss.utx"
+  fileSize: 8694811
+  hash: "bcfec50dfb161b3f1941d4b51f383a43b5e56550"
+- name: "DM[SP]DRSeuss.unr"
+  fileSize: 6160506
+  hash: "3eb0d59fd4aaf60010ad33702b81bc696456e6a2"
+otherFiles: 0
+dependencies:
+  DM[SP]DRSeuss.unr:
+  - status: "MISSING"
+    name: "AssaultAddon"
+  - status: "OK"
+    name: "Seuss"
+  - status: "MISSING"
+    name: "uzi"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "ShaneChurch"
+  - status: "MISSING"
+    name: "SPFleshbomb"
+  - status: "MISSING"
+    name: "Assault_G11"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DDRSeuss.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/9/c/f1eddc/DM%255BSP%255DDRSeuss.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/9/c/f1eddc/DM%255BSP%255DDRSeuss.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Dr Seuss"
+playerCount: "6 to 10"
+themes:
+  Natural: 1.0
+bots: true

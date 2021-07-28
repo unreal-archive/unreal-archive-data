@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 01:44"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-CUT_Sinastar"
 author: "MassChAoS and LoQtUS"
@@ -41,25 +40,24 @@ dependencies:
   DM-CUT_Sinastar.unr:
   - status: "OK"
     name: "CUT_SIN"
-    providedBy: null
   - status: "OK"
     name: "sinbunnypak"
-    providedBy: null
   - status: "MISSING"
     name: "UTChaosMap"
-    providedBy: null
   - status: "OK"
     name: "chaosjump"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUT"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/d/4/a500f1/DM-CUT_Sinastar.umod"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut/&file=DM-CUT_Sinastar.umod"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/ChaosUT/S/d/4/a500f1/DM-CUT_Sinastar.umod"
   main: false
   repack: false
   state: "OK"

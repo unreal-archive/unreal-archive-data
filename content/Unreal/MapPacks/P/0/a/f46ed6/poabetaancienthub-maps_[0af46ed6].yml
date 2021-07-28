@@ -1,0 +1,57 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 10:01"
+game: "Unreal"
+name: "POAbetaAncientHub Maps"
+author: "Various"
+description: "None"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "POAbetaAncientHub_maps.zip"
+hash: "0af46ed68e29401e777d67931833b45b41ebe7bd"
+fileSize: 558385
+files:
+- name: "DmPortOfAdia_beta.unr"
+  fileSize: 1395374
+  hash: "fd0f47c5c5454d44591db2288afc9e03b73efce4"
+- name: "UD_1.utx"
+  fileSize: 267635
+  hash: "f2752884efd36cdebf1dc7e3c604d4261e92f8a1"
+- name: "DmAncientHub1.unr"
+  fileSize: 573024
+  hash: "4d6518ddddfc99e792273fd635b928629422adcd"
+otherFiles: 0
+dependencies:
+  DmPortOfAdia_beta.unr:
+  - status: "OK"
+    name: "UD_1"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/POAbetaAncientHub_maps.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/P/0/a/f46ed6/POAbetaAncientHub_maps.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/P/0/a/f46ed6/POAbetaAncientHub_maps.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/P/0/a/f46ed6/POAbetaAncientHub_maps.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DmAncientHub1"
+  title: "Ancient Hub"
+  author: "Joe Fratantoni - BrakeDanceJ - Joe@UnrealDestination.com"
+- name: "DmPortOfAdia_beta"
+  title: "Port Of Adia"
+  author: "Joe Fratantoni aka \"BrakeDanceJ\" / www.UnrealDestination.com"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.8
+  Tech: 0.1
+  Ancient: 0.2

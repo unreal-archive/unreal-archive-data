@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 20:05"
+game: "Unreal Tournament"
+name: "AS-MountainJail"
+author: "BB Drac (bbdrac@birrabrothers.com)"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "as-mountainjail_shot_190f770b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/M/1/9/0f770b/as-mountainjail_shot_190f770b_1.png"
+originalFilename: "as-mjailv2.zip"
+hash: "190f770beee047a90db76c1c37e48112ed978198"
+fileSize: 3031484
+files:
+- name: "DE_Mountainjail.umx"
+  fileSize: 1642028
+  hash: "6bf2c9a79451ddbf9c1a0b685fdf538f11fb4d82"
+- name: "AS-MountainJail.unr"
+  fileSize: 3807500
+  hash: "81b2027e7c8f77264361734182183980963d04c1"
+otherFiles: 1
+dependencies:
+  AS-MountainJail.unr:
+  - status: "OK"
+    name: "DE_Mountainjail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-mjailv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/M/as-mjailv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/M/1/9/0f770b/as-mjailv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/M/1/9/0f770b/as-mjailv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Mountain Jail (ver2)"
+playerCount: "3 vs 3 or 4 vs 4 (max 16)"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  Natural: 0.1
+bots: true

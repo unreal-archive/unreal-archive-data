@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 03:40"
+game: "Unreal Tournament"
+name: "MH-Andromeda-Ancient-Test1G"
+author: "Nr.2000"
+description: "None"
+releaseDate: "2005-05"
+attachments:
+- type: "IMAGE"
+  name: "MH-Andromeda-Ancient-Test1G_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/A/MH-Andromeda-Ancient-Test1G_shot_1.png"
+originalFilename: "MH-Andromeda-Ancient.zip"
+hash: "d007e532c568529e7a8eb85a66596af536f4a7e9"
+fileSize: 9935323
+files:
+- name: "ALFb.umx"
+  fileSize: 878577
+  hash: "e03488694ddd325973d92d932aa92af063296788"
+- name: "ds_confu.umx"
+  fileSize: 2144908
+  hash: "52008c84d6d788b832bc5f9299f6094e9c7e57a6"
+- name: "MH-Andromeda-Ancient-Test1G.unr"
+  fileSize: 16324611
+  hash: "e4df2f7a8b642345eef8f8cac1bb15de6c1dc292"
+- name: "ds_can_u_b.umx"
+  fileSize: 1965877
+  hash: "a77fc19d2b7dbe8fec956673495cfad7500658f6"
+- name: "ds_ga.umx"
+  fileSize: 2029387
+  hash: "2f4c4e37cf52cc2cd832e73ec644e3274252d8a6"
+- name: "ds_nl_b.umx"
+  fileSize: 915082
+  hash: "faad7bd036ce04b4618d92d341496a07e06ef979"
+- name: "Hub7b.umx"
+  fileSize: 896382
+  hash: "5b0f9da224b701b8654417f0d734d8e8a38806a6"
+otherFiles: 1
+dependencies:
+  MH-Andromeda-Ancient-Test1G.unr:
+  - status: "OK"
+    name: "ds_confu"
+  - status: "OK"
+    name: "ds_nl_b"
+  - status: "OK"
+    name: "Hub7b"
+  - status: "OK"
+    name: "ALFb"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ds_ga"
+  - status: "OK"
+    name: "ds_can_u_b"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-Andromeda-Ancient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/A/MH-Andromeda-Ancient.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Andromeda-Ancient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/A/d/0/07e532/MH-Andromeda-Ancient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/d/0/07e532/MH-Andromeda-Ancient.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Andromeda - Ancient (Version 1.0)"
+playerCount: "4-8"
+themes:
+  Ancient: 0.9
+  Natural: 0.1
+bots: true

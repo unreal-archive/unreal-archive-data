@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:39"
+game: "Unreal"
+name: "MH-[SP]GiranTown"
+author: "Red_Fist"
+description: "Original map by THUNDERBOLT"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-spgirantown_shot_efc4d232_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spgirantown_shot_efc4d232_1.png"
+originalFilename: "MH-[SP]GiranTown.zip"
+hash: "efc4d2329f11a1c8135cdb8b516827c00a206ba5"
+fileSize: 11285361
+files:
+- name: "Skyward.umx"
+  fileSize: 1004122
+  hash: "d05eec035dff8cceb4b0ca145a7b4ce6a1bdffec"
+- name: "MH-[SP]GiranTown.unr"
+  fileSize: 16633475
+  hash: "dd165b21bc0cff385a0e3dd8acebc6fd5c48a15b"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+otherFiles: 0
+dependencies:
+  MH-[SP]GiranTown.unr:
+  - status: "OK"
+    name: "Skyward"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SPQuakeMonsters"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DGiranTown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/e/f/c4d232/MH-%255BSP%255DGiranTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/e/f/c4d232/MH-%255BSP%255DGiranTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] GiranTown"
+playerCount: "1"
+themes:
+  Ancient: 0.8
+  Nali Castle: 0.2
+bots: true

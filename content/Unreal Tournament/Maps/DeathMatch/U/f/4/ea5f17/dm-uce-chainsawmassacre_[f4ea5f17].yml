@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:19"
+game: "Unreal Tournament"
+name: "DM-UCE-ChainsawMassacre"
+author: "Sixt Senseless"
+description: "Smoke Weed EveryDay !!"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "dm-uce-chainsawmassacre.zip"
+hash: "f4ea5f171448d278e6a0f8c2c50429954f438f0e"
+fileSize: 2870451
+files:
+- name: "OdeToGK.umx"
+  fileSize: 3278023
+  hash: "394b24f396a9f7ab147b8bbbdc126794444ca004"
+- name: "DM-UCE-ChainsawMassacre.unr"
+  fileSize: 212597
+  hash: "9dc98b5c3174c5148f10ae9b11428f5036e5fe49"
+- name: "ucechainsawlogo.utx"
+  fileSize: 89017
+  hash: "03e6b3cee3498e40cfa9aad23d2639b72e2138f5"
+otherFiles: 0
+dependencies:
+  DM-UCE-ChainsawMassacre.unr:
+  - status: "OK"
+    name: "OdeToGK"
+  - status: "OK"
+    name: "ucechainsawlogo"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-uce-chainsawmassacre.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-uce-chainsawmassacre.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/f/4/ea5f17/dm-uce-chainsawmassacre.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/f/4/ea5f17/dm-uce-chainsawmassacre.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "UCE-Chainsaw Massacre"
+playerCount: "8-20"
+themes:
+  Skaarj Tech: 1.0
+bots: true

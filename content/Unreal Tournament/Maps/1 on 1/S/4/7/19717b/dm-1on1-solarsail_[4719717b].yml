@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:08"
+game: "Unreal Tournament"
+name: "DM-1on1-SolarSail"
+author: "Mislav"
+description: "None"
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1-solarsail_shot_4719717b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/S/4/7/19717b/dm-1on1-solarsail_shot_4719717b_1.png"
+originalFilename: "DM-1on1-SolarSail.zip"
+hash: "4719717bbc349e1dac2693db796640912aea4081"
+fileSize: 371815
+files:
+- name: "tron2.utx"
+  fileSize: 1302162
+  hash: "9469a4febad50d1515dc3de87a7cc2928e40f802"
+- name: "tron1.utx"
+  fileSize: 1615688
+  hash: "5a0692fdbb226c3850b7eefe83806ddc54e4bac6"
+- name: "DM-1on1-SolarSail.unr"
+  fileSize: 806084
+  hash: "f558180ca794f0f9706beb0609aff92ac0a3ee19"
+otherFiles: 0
+dependencies:
+  DM-1on1-SolarSail.unr:
+  - status: "OK"
+    name: "tron1"
+  - status: "OK"
+    name: "tron2"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/S/DM-1on1-SolarSail.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-1on1-solarsail.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/1%20on%201/S/4/7/19717b/DM-1on1-SolarSail.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/1%20on%201/S/4/7/19717b/DM-1on1-SolarSail.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "DM-1on1-Solar Sail"
+playerCount: "2"
+themes:
+  Ancient: 0.1
+  Natural: 0.9
+bots: true

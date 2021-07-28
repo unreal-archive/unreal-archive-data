@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-12 00:17"
+game: "Unreal Tournament 2004"
+name: "VCTF-TheLostWorld2"
+author: "Chris"
+description: "A long forgotten dessert of Egypt. Can you take the heat?"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-TheLostWorld2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/T/VCTF-TheLostWorld2_shot_1.png"
+originalFilename: "vctf-thelostworld.zip"
+hash: "ed4135714072d3913a24d6a435aa4aefd6623bee"
+fileSize: 3855590
+files:
+- name: "terrainchris.utx"
+  fileSize: 6806618
+  hash: "df490c1de6c6d4568188c3bf42d36e771d7d3e7d"
+- name: "VCTF-TheLostWorld2.ut2"
+  fileSize: 5817299
+  hash: "7a3dc63cc4081751d59386b1d5677c2b465270aa"
+otherFiles: 1
+dependencies:
+  VCTF-TheLostWorld2.ut2:
+  - status: "OK"
+    name: "terrainchris"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3201"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/T/vctf-thelostworld.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/T/e/d/413571/vctf-thelostworld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/T/e/d/413571/vctf-thelostworld.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "The lost world 2"
+playerCount: "4-12"
+themes:
+  Tech: 0.3
+  Egyptian: 0.7
+bots: true

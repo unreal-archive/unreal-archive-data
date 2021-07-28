@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:28"
+game: "Unreal Tournament"
+name: "CTF-BT-PaldorsPlayhouse_dbl"
+author: "Paldor939"
+description: "Dbl version by [i4g]CouilleNoire"
+releaseDate: "2005-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-PaldorsPlayhouse_dbl_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/P/CTF-BT-PaldorsPlayhouse_dbl_shot_1.png"
+originalFilename: "ctf-bt-paldorsplayhouse_dbl.zip"
+hash: "5c64560bfaa969169a7b1bef25e6d193d447dafa"
+fileSize: 7542195
+files:
+- name: "juice_box.umx"
+  fileSize: 4257624
+  hash: "6dd7f290705a8b1dbe82492ba381cb3ae3f2f315"
+- name: "playhouse.utx"
+  fileSize: 3412627
+  hash: "ac573b1d21c5b1e6a9e87f9c5604b4ff45b00639"
+- name: "DolbyDigital.uax"
+  fileSize: 940807
+  hash: "1e020824c2266f1c61f63ac6416cd9e50ccc67a2"
+- name: "CTF-BT-PaldorsPlayhouse_dbl.unr"
+  fileSize: 7873177
+  hash: "78fd737b5361f5ae19a9041c03a246d39e150743"
+otherFiles: 0
+dependencies:
+  CTF-BT-PaldorsPlayhouse_dbl.unr:
+  - status: "OK"
+    name: "DolbyDigital"
+  - status: "OK"
+    name: "juice_box"
+  - status: "OK"
+    name: "playhouse"
+  - status: "MISSING"
+    name: "AmazonTEX"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt-paldorsplayhouse_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/P/ctf-bt-paldorsplayhouse_dbl.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt-paldorsplayhouse_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/P/5/c/64560b/ctf-bt-paldorsplayhouse_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/P/5/c/64560b/ctf-bt-paldorsplayhouse_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-PaldorsPlayhouse (dbl)"
+playerCount: "Unknown"
+themes:
+  Egyptian: 0.7
+  Skaarj Tech: 0.3
+bots: false

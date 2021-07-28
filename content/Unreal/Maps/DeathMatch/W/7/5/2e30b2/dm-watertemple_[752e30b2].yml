@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:28"
+game: "Unreal"
+name: "Dm-WaterTemple"
+author: "Unknown"
+description: "None"
+releaseDate: "1999-04"
+attachments: []
+originalFilename: "dm-watertemple.zip"
+hash: "752e30b2cd74a2419a982404cbc3bd4492574e3d"
+fileSize: 729215
+files:
+- name: "UOTemple.utx"
+  fileSize: 113363
+  hash: "ea83e7cafd9c1206357baf4514758fe81c6d0235"
+- name: "Dm-WaterTemple.unr"
+  fileSize: 1833317
+  hash: "5d63c1c7593c5e3a5fb018b547878a99688f4d3c"
+- name: "UOCastle.utx"
+  fileSize: 227661
+  hash: "925eeff45036b29321273c3a9443571278e6f78c"
+otherFiles: 1
+dependencies:
+  Dm-WaterTemple.unr:
+  - status: "OK"
+    name: "UOCastle"
+  - status: "OK"
+    name: "UOTemple"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5323385"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dm-watertemple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsW/&file=dmwatertemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsW/dmwatertemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmWatertemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/W/7/5/2e30b2/dm-watertemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/W/7/5/2e30b2/dm-watertemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dm-WaterTemple"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.7
+  Ancient: 0.1
+  Nali Castle: 0.2
+bots: true

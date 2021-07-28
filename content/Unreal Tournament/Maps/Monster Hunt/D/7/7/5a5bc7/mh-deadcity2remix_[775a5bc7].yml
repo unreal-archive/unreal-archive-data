@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 02:30"
+game: "Unreal Tournament"
+name: "MH-DeadCity2REMIX"
+author: ".:..:"
+description: "None"
+releaseDate: "2009-02"
+attachments: []
+originalFilename: "DeadCity2REMIX.zip"
+hash: "775a5bc731cde7ab3843c3859e7d87f366651648"
+fileSize: 4971294
+files:
+- name: "MH-DeadCity2REMIX.unr"
+  fileSize: 8905274
+  hash: "a34c099145dcc15b6497927dd5dc5f40c5449930"
+- name: "SkyTwn.umx"
+  fileSize: 849903
+  hash: "d6add6fc55b0638260893c09b74bd295596e9e82"
+- name: "DC-Pawns2.u"
+  fileSize: 58503
+  hash: "30fec49c490c8c20fd970b1754dbdc3ae1d6b858"
+- name: "Unreal4.umx"
+  fileSize: 939568
+  hash: "89a64713a808ccd31a4885f6d0cbd3538e7ddcc3"
+otherFiles: 2
+dependencies:
+  MH-DeadCity2REMIX.unr:
+  - status: "OK"
+    name: "Unreal4"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "DC-Pawns2"
+  - status: "OK"
+    name: "SkyTwn"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=DeadCity2REMIX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/D/DeadCity2REMIX.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=DeadCity2REMIX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/D/7/7/5a5bc7/DeadCity2REMIX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/7/7/5a5bc7/DeadCity2REMIX.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Dead City 2REMIX"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Ancient: 0.1
+  Natural: 0.5
+  Nali Castle: 0.2
+bots: true

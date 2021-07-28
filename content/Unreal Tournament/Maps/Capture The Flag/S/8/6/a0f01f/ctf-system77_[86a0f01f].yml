@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 07:07"
+game: "Unreal Tournament"
+name: "CTF-System77"
+author: "Cheney \"Chilly\" Lansard"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-System77_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-System77_shot_1.png"
+originalFilename: "ctf-system77.zip"
+hash: "86a0f01f18aac26d27e6998e4ced38fb3a3c2b84"
+fileSize: 5369329
+files:
+- name: "CTF-System77.unr"
+  fileSize: 2995125
+  hash: "0375c227efffb5f48cb878c926fa0e6b8416655e"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 0
+dependencies:
+  CTF-System77.unr:
+  - status: "MISSING"
+    name: "Fallout"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-system77.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-system77.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=664"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/8/6/a0f01f/ctf-system77.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/8/6/a0f01f/ctf-system77.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "System77"
+playerCount: "10"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  Skaarj Tech: 0.1
+bots: true

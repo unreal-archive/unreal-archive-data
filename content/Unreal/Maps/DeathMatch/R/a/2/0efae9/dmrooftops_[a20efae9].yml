@@ -1,0 +1,91 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:40"
+game: "Unreal"
+name: "DMRoofTops"
+author: "LouZiffer *Imported from UT by RUSH*"
+description: "The Roof Dwellers Live..."
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "DMRoofTops.zip"
+hash: "a20efae96742b6d4c33662b989b13712f8fcce66"
+fileSize: 14947623
+files:
+- name: "DMRoofTops.unr"
+  fileSize: 4997582
+  hash: "0ef6d09cf7cfeef0db568942dc3f1d5a08bb725d"
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+- name: "AmbCity.uax"
+  fileSize: 643667
+  hash: "e5a82e544d635b6609e73d0010913d2c08a93ff7"
+- name: "Rooftops.utx"
+  fileSize: 357084
+  hash: "b46decc86cdfce3f16181c4e8acca8519230ef84"
+- name: "NETextures.utx"
+  fileSize: 16889692
+  hash: "1e5de64baa0f1aa4874215e4fa02633b5c04ce94"
+otherFiles: 0
+dependencies:
+  DMRoofTops.unr:
+  - status: "OK"
+    name: "Rooftops"
+  - status: "MISSING"
+    name: "city"
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Slums"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "Metalmys"
+  - status: "OK"
+    name: "AmbCity"
+  - status: "MISSING"
+    name: "UT"
+  - status: "OK"
+    name: "NETextures"
+  - status: "MISSING"
+    name: "UTTech4"
+  - status: "MISSING"
+    name: "UTTech2"
+  - status: "OK"
+    name: "Sniper"
+  - status: "MISSING"
+    name: "UT1"
+  - status: "MISSING"
+    name: "Indus5"
+  - status: "MISSING"
+    name: "Indus1"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Assault/&file=DMRoofTops.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/R/DMRoofTops.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Assault/DMRoofTops.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/R/a/2/0efae9/DMRoofTops.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/R/a/2/0efae9/DMRoofTops.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Rooftops"
+playerCount: "8 to 16"
+themes:
+  Industrial: 0.8
+  City: 0.1
+  Skaarj Tech: 0.1
+bots: false

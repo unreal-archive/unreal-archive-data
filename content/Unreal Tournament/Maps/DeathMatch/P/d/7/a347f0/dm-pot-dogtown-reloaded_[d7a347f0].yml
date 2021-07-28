@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 23:29"
+game: "Unreal Tournament"
+name: "DM-((POT-Dogtown-Reloaded))"
+author: "]POT[TheOne"
+description: "cant play with the big dogs stay off the porch"
+releaseDate: "2011-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-pot-dogtown-reloaded_shot_d7a347f0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/dm-pot-dogtown-reloaded_shot_d7a347f0_1.png"
+originalFilename: "DM-((POT-Dogtown-Reloaded)).zip"
+hash: "d7a347f015446e8f2aa61abdc8212f778cc69abe"
+fileSize: 11172928
+files:
+- name: "DOGTOWN-Reloaded.umx"
+  fileSize: 5848750
+  hash: "b0186dcee23111134c35cb3acab73c6c9a4ea8f1"
+- name: "DM-((POT-Dogtown-Reloaded)).unr"
+  fileSize: 4605229
+  hash: "fbc4f704828c187adbe81323248589603895ab2b"
+- name: "UrbanJungle.utx"
+  fileSize: 5358830
+  hash: "0e39d987d5a288a017718fe6f394776569e38c27"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 0
+dependencies:
+  DM-((POT-Dogtown-Reloaded)).unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "DOGTOWN-Reloaded"
+  - status: "OK"
+    name: "UrbanJungle"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/DM-((POT-Dogtown-Reloaded)).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28%28POT-Dogtown-Reloaded%29%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/d/7/a347f0/DM-((POT-Dogtown-Reloaded)).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/d/7/a347f0/DM-((POT-Dogtown-Reloaded)).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "]POT[ Dogtown II"
+playerCount: "8-16"
+themes:
+  Industrial: 0.5
+  City: 0.4
+  Skaarj Tech: 0.1
+bots: true

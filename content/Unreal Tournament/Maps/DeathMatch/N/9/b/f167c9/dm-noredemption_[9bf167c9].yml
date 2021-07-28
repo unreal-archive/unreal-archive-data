@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:18"
+game: "Unreal Tournament"
+name: "DM-NoRedemption"
+author: "TheMadMonk"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-NoRedemption_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NoRedemption_shot_1.png"
+originalFilename: "dm-noredemption.zip"
+hash: "9bf167c9beeef6c69429bdb4cd6ec59655e2b12f"
+fileSize: 1427307
+files:
+- name: "CTFNoRedemption.utx"
+  fileSize: 893548
+  hash: "e69125bfaf68ddbee9c1a0354e5cdf6555253684"
+- name: "DM-NoRedemption.unr"
+  fileSize: 2830301
+  hash: "69ff293b291e2c3fcf72a030be58baca664980b5"
+otherFiles: 1
+dependencies:
+  DM-NoRedemption.unr:
+  - status: "OK"
+    name: "CTFNoRedemption"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-noredemption.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/dm-noredemption.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/9/b/f167c9/dm-noredemption.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/9/b/f167c9/dm-noredemption.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CTF-NoRedemption"
+playerCount: "8-12"
+themes:
+  Industrial: 1.0
+bots: true

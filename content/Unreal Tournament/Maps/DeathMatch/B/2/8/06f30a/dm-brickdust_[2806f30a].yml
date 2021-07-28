@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 07:55"
+game: "Unreal Tournament"
+name: "DM-BrickDust"
+author: "Firefly"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-brickdust_shot_2806f30a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/2/8/06f30a/dm-brickdust_shot_2806f30a_1.png"
+originalFilename: "dm-brickdust.rar"
+hash: "2806f30a01d9e98091d8ec645e3366c8db88aa19"
+fileSize: 4014337
+files:
+- name: "DM-BrickDust.unr"
+  fileSize: 3993010
+  hash: "e0e87f466d4aa2e7e41e4e730d0fb129dbae1991"
+- name: "MuadFlarePak1.utx"
+  fileSize: 485998
+  hash: "bca884323671ee94906963417d50b41c8b0006b8"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+- name: "HKClub2_Music.umx"
+  fileSize: 1475935
+  hash: "5c8da0444c830f96fc909bce45792bfd3fe8bf9f"
+otherFiles: 1
+dependencies:
+  DM-BrickDust.unr:
+  - status: "OK"
+    name: "HKClub2_Music"
+  - status: "OK"
+    name: "Fallout"
+  - status: "OK"
+    name: "MuadFlarePak1"
+downloads:
+- url: "https://gamebanana.com/maps/download/18653"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-brickdust.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/2/8/06f30a/dm-brickdust.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/2/8/06f30a/dm-brickdust.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BrickDust"
+playerCount: "2 - 6 psychotic"
+themes:
+  Industrial: 1.0
+bots: true

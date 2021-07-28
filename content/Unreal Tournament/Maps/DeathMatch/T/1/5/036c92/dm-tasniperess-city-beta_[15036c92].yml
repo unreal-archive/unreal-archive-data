@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:38"
+game: "Unreal Tournament"
+name: "DM-[TA]Sniperess-City-BETA"
+author: "[TA]SuperSniperess"
+description: "None"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-[TA]Sniperess-City-BETA_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-%5BTA%5DSniperess-City-BETA_shot_1.png"
+originalFilename: "DM-[TA]Sniperess-City-BETA.zip"
+hash: "15036c9210c974143341d0c3bbaaf36bf253ac5c"
+fileSize: 12394419
+files:
+- name: "DM-[TA]Sniperess-City-BETA.unr"
+  fileSize: 13697230
+  hash: "6c6d4b183223ada11b663d2fd1b500586ae19de8"
+- name: "Supertxt.utx"
+  fileSize: 8772418
+  hash: "a016173b961e339c08348201062cf35339b1951f"
+- name: "Loseyou.umx"
+  fileSize: 7063175
+  hash: "1277a1c858c55c3052e077b0ce02a13e59c256ed"
+otherFiles: 0
+dependencies:
+  DM-[TA]Sniperess-City-BETA.unr:
+  - status: "OK"
+    name: "Supertxt"
+  - status: "MISSING"
+    name: "SGirlSkinTA"
+  - status: "OK"
+    name: "Loseyou"
+  - status: "MISSING"
+    name: "SoldierSkin[TA]Clan"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/DM-%5BTA%5DSniperess-City-BETA.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/1/5/036c92/DM-%255BTA%255DSniperess-City-BETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/1/5/036c92/DM-%255BTA%255DSniperess-City-BETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[TA]SniperessCity"
+playerCount: "Unknown"
+themes:
+  City: 0.4
+  Natural: 0.6
+bots: true

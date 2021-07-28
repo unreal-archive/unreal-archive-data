@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:11"
+game: "Unreal Tournament"
+name: "CTF-FearFactory"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FearFactory_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FearFactory_shot_1.png"
+originalFilename: "ctf-fearfactory.zip"
+hash: "835c0e7462a23efad82b9b841c5fe356f4f4346d"
+fileSize: 364008
+files:
+- name: "Hallucinations.umx"
+  fileSize: 128219
+  hash: "26e7e06474aa3ed795f740137ca38689c4817ea5"
+- name: "suprise.utx"
+  fileSize: 177688
+  hash: "1ced3945eaa5590773f026ccb57b88c1419b30d7"
+- name: "CTF-FearFactory.unr"
+  fileSize: 622531
+  hash: "796a2834e8718c37508d434d2d74e175871d2d0d"
+otherFiles: 1
+dependencies:
+  CTF-FearFactory.unr:
+  - status: "OK"
+    name: "suprise"
+  - status: "OK"
+    name: "Hallucinations"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-fearfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-fearfactory.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5948"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/3/5c0e74/ctf-fearfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/3/5c0e74/ctf-fearfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-FearFactory"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true

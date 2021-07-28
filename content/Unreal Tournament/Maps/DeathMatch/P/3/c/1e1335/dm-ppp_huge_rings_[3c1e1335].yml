@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:30"
+game: "Unreal Tournament"
+name: "DM-PPP_Huge_Rings"
+author: "{PPP}farrier"
+description: "I'm Watching"
+releaseDate: "2002-10"
+attachments: []
+originalFilename: "dm-ppp_huge_rings.zip"
+hash: "3c1e1335433b0f6879dd6b8d7cc870757a71ccc6"
+fileSize: 3905848
+files:
+- name: "brmap.utx"
+  fileSize: 1559817
+  hash: "3fbfb251b62d297f6853dd463f85456bebb5bce3"
+- name: "PPPTheReaper.umx"
+  fileSize: 4938387
+  hash: "4fa1b44210c7a721ebd0977ad8a05b8ffce4e364"
+- name: "DM-PPP_Huge_Rings.unr"
+  fileSize: 235925
+  hash: "44aaa711eb631b0c9531c844f7418de541e66fd1"
+otherFiles: 0
+dependencies:
+  DM-PPP_Huge_Rings.unr:
+  - status: "OK"
+    name: "brmap"
+  - status: "OK"
+    name: "PPPTheReaper"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ppp_huge_rings.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-ppp_huge_rings.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/3/c/1e1335/dm-ppp_huge_rings.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/3/c/1e1335/dm-ppp_huge_rings.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{PPP} Big Rings"
+playerCount: "6 to 20"
+themes: {}
+bots: false

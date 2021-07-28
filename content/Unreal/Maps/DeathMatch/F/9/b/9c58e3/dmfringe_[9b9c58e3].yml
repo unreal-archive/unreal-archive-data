@@ -1,0 +1,97 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:20"
+game: "Unreal"
+name: "DmFringe"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "DmFringe_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_7.png"
+- type: "IMAGE"
+  name: "DmFringe_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_2.png"
+- type: "IMAGE"
+  name: "DmFringe_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_4.png"
+- type: "IMAGE"
+  name: "DmFringe_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_1.png"
+- type: "IMAGE"
+  name: "DmFringe_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_5.png"
+- type: "IMAGE"
+  name: "DmFringe_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_3.png"
+- type: "IMAGE"
+  name: "DmFringe_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/D/DmFringe_shot_6.png"
+originalFilename: "dm-fringe.zip"
+hash: "9b9c58e343f9f5936ad4ca334f3c1cf3b066de1f"
+fileSize: 11902118
+files:
+- name: "FringeSnd.uax"
+  fileSize: 9179143
+  hash: "316f1246e567f4188fbfd5e4bfe923cb02dc5e36"
+- name: "DmFringe.unr"
+  fileSize: 921400
+  hash: "37912a3ea56c5fa2ec34f16d347a678127712626"
+- name: "FringeTex.utx"
+  fileSize: 8134643
+  hash: "47287bb7d5e94d3422f9642092b6578aa78a3452"
+- name: "DmFringe-Campus.unr"
+  fileSize: 827845
+  hash: "c8bb482cb5b144237242bceaf6de1bac883777d8"
+- name: "DmFringe-M.unr"
+  fileSize: 53849
+  hash: "3ac56aa0ec690f5ebdd811e340c9458185db803f"
+- name: "DmFringe-ChinaTown.unr"
+  fileSize: 530370
+  hash: "3a48c040aba8835fdb4815c52f6a93cc30cad933"
+otherFiles: 7
+dependencies:
+  DmFringe-M.unr:
+  - status: "OK"
+    name: "FringeTex"
+  DmFringe.unr:
+  - status: "OK"
+    name: "FringeSnd"
+  - status: "OK"
+    name: "FringeTex"
+  DmFringe-Campus.unr:
+  - status: "OK"
+    name: "FringeSnd"
+  - status: "OK"
+    name: "FringeTex"
+  DmFringe-ChinaTown.unr:
+  - status: "OK"
+    name: "FringeSnd"
+  - status: "OK"
+    name: "FringeTex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-fringe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dm-fringe.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/F/9/b/9c58e3/dm-fringe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/F/9/b/9c58e3/dm-fringe.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "FRINGE"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Natural: 0.9
+bots: false

@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:52"
+game: "Unreal"
+name: "DMInnerCity"
+author: "Mike9000"
+description: "Major window snipin action!"
+releaseDate: "1999-06"
+attachments: []
+originalFilename: "dminnercity.zip"
+hash: "d488097309ded17b741fb795d7fd05116ae22279"
+fileSize: 3589212
+files:
+- name: "DMInnerCity.unr"
+  fileSize: 2418094
+  hash: "06fb295b4b291b3d219ea2dda0b239c6bdcb8d6f"
+- name: "m9ktex.utx"
+  fileSize: 1085906
+  hash: "baa625aaa269dda5a1e7c39422c39a3dcd3a8f81"
+- name: "jtex.utx"
+  fileSize: 2230010
+  hash: "a36bc7d7deadef46c4b41ed5d307fbcdec52462e"
+- name: "Acctextures.utx"
+  fileSize: 1744701
+  hash: "d57ce84b7320f69f32bc5f93df566326a143d979"
+- name: "untitled.utx"
+  fileSize: 366349
+  hash: "9b220f279cb014eb60bacac3413a47f774c928e1"
+otherFiles: 1
+dependencies:
+  DMInnerCity.unr:
+  - status: "OK"
+    name: "untitled"
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "Acctextures"
+  - status: "OK"
+    name: "m9ktex"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsI/&file=dminnercity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/I/dminnercity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsI/dminnercity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dminnercity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/I/d/4/880973/dminnercity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/I/d/4/880973/dminnercity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMInnerCity -- A Serpentine Level"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Nali Castle: 0.7
+  Skaarj Tech: 0.3
+bots: false

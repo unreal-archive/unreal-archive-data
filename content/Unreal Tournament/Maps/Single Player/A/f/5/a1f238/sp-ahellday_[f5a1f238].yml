@@ -1,0 +1,104 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:13"
+game: "Unreal Tournament"
+name: "SP-AHellDAy"
+author: "Alain-Michel 'Amisa' Savarese"
+description: "Bless your Mouse !"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "SP-AHellDAy_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/A/SP-AHellDAy_shot_1.png"
+originalFilename: "sp-ahellday2.zip"
+hash: "f5a1f238c52b6e29b415fd90adeee48b23d6b244"
+fileSize: 11472388
+files:
+- name: "doom2T.utx"
+  fileSize: 8831215
+  hash: "0331b4305127558274c5fc135e576fa5ed837b8d"
+- name: "SP-AHellDAy.unr"
+  fileSize: 6703066
+  hash: "a0f079d72737949d4d7bd73b06fe441029167f70"
+- name: "doomlook.u"
+  fileSize: 32527
+  hash: "f569976bc365a50782aaa18618959475d9bf8cdb"
+- name: "ScriptedLight.u"
+  fileSize: 32783
+  hash: "d6f35b2095152c518e307523bcf2a70189963dbe"
+- name: "d_shawn_it.umx"
+  fileSize: 2814568
+  hash: "f9ceefaa8a57c88559c31f8550a1a22092f68b97"
+- name: "doom2n.utx"
+  fileSize: 101986
+  hash: "20a066c9c0435652a285ab3a5149e71106ba6085"
+- name: "ahelldaysounds.uax"
+  fileSize: 1219653
+  hash: "a6492909c19b713ea54453a4ff70cb40760b9be6"
+- name: "d_runnin_it.umx"
+  fileSize: 2515449
+  hash: "9c83767b0538b42359561789d33ae85dee78b709"
+- name: "ahellday.u"
+  fileSize: 9074
+  hash: "6fc4d565fc38ae6d000a1e683ac2e5204f88eaac"
+- name: "d_countd_it.umx"
+  fileSize: 2515449
+  hash: "4df0423d479c987f080c96a06b015fc4839ab4e4"
+otherFiles: 2
+dependencies:
+  ahellday.u:
+  - status: "OK"
+    name: "doom2T"
+  SP-AHellDAy.unr:
+  - status: "OK"
+    name: "ahelldaysounds"
+  - status: "OK"
+    name: "ahellday"
+  - status: "OK"
+    name: "d_shawn_it"
+  - status: "OK"
+    name: "doomlook"
+  - status: "OK"
+    name: "d_runnin_it"
+  - status: "OK"
+    name: "ScriptedLight"
+  - status: "OK"
+    name: "d_countd_it"
+  - status: "OK"
+    name: "doom2T"
+  doomlook.u:
+  - status: "OK"
+    name: "doom2n"
+  - status: "OK"
+    name: "doom2T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/A/sp-ahellday2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/SinglePlayer/&file=sp-ahellday2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SinglePlayer&file=sp-ahellday2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/SinglePlayer/sp-ahellday2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/A/f/5/a1f238/sp-ahellday2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Single%20Player/A/f/5/a1f238/sp-ahellday2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "AHellDay"
+playerCount: "Unknown"
+themes: {}
+bots: true

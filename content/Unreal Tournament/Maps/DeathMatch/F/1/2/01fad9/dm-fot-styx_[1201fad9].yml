@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:12"
+variationOf: "2028fbc6bef942d5a296bb4eb35dd98e93bb4f1e"
+game: "Unreal Tournament"
+name: "DM-FoT-Styx"
+author: "Swanky"
+description: "This world is doomed. Yet Liandri streaks for porfit letting Warriors\
+  \ fight in this hazardous desert."
+releaseDate: "2006-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-FoT-Styx_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FoT-Styx_shot_1.png"
+- type: "IMAGE"
+  name: "DM-FoT-Styx_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FoT-Styx_shot_2.png"
+originalFilename: "dm-fot-styxv2.zip"
+hash: "1201fad920e85dbe5005470730735ad10c48b37f"
+fileSize: 12957760
+files:
+- name: "DM-FoT-Styx.unr"
+  fileSize: 12962206
+  hash: "42d5ba6ed2ec5d453931cc2cc537aa16e45d8d18"
+- name: "ZAN_MET.umx"
+  fileSize: 1357144
+  hash: "5b36f26014eb39e4a32fbd2b719dece01d8355d1"
+- name: "StyxReactor.u"
+  fileSize: 14633
+  hash: "d5ba91d94c66565fd09f836ecb1c660e7ce5ee4b"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "HH3_SingleMalt.utx"
+  fileSize: 4964814
+  hash: "3eb15728b5f1092f1f69ca1b770cc4f81c8e7b41"
+- name: "HH3_Vendetta.utx"
+  fileSize: 3547244
+  hash: "3679ae9f17b64e6699e92c0f7f8f5af0b3b9ef69"
+otherFiles: 2
+dependencies:
+  DM-FoT-Styx.unr:
+  - status: "OK"
+    name: "HH3_Vendetta"
+  - status: "OK"
+    name: "StyxReactor"
+  - status: "OK"
+    name: "ZAN_MET"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "HH3_SingleMalt"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/dm-fot-styxv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dm-fot-styxv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-fot-styxv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsF/dm-fot-styxv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/1/2/01fad9/dm-fot-styxv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/1/2/01fad9/dm-fot-styxv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Styx Reactor"
+playerCount: "6-10"
+themes:
+  Industrial: 0.4
+  City: 0.1
+  Skaarj Tech: 0.5
+bots: true

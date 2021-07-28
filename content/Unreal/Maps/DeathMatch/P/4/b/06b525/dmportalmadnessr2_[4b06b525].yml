@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:55"
+game: "Unreal"
+name: "DMPortalMadnessR2"
+author: "Ralthor{Co30}"
+description: "Welcome to the Portals of Madness"
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "dmPortalMadnessR2.zip"
+hash: "4b06b5256dd69411b2dc0544aa4a1e5b220e532a"
+fileSize: 898608
+files:
+- name: "PortalMadness.umx"
+  fileSize: 121505
+  hash: "6c6d74457631791c0eecedd17f4009ec0d1d82e3"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "DMPortalMadnessR2.unr"
+  fileSize: 2327119
+  hash: "d30366420bcd690c45504dc9064b82e9a5e59e06"
+otherFiles: 1
+dependencies:
+  DMPortalMadnessR2.unr:
+  - status: "OK"
+    name: "PortalMadness"
+  - status: "OK"
+    name: "JumpPad"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dmPortalMadnessR2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/P/dmPortalMadnessR2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsP/dmPortalMadnessR2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmPortalMadnessR2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/P/4/b/06b525/dmPortalMadnessR2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/P/4/b/06b525/dmPortalMadnessR2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-PortalMadness"
+playerCount: "6 - 8 plus"
+themes:
+  Tech: 0.7
+  Ancient: 0.1
+  Skaarj Tech: 0.1
+bots: true

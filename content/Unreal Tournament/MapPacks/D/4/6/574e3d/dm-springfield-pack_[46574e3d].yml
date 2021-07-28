@@ -1,0 +1,82 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-04 20:40"
+game: "Unreal Tournament"
+name: "DM Springfield Pack"
+author: "Various"
+description: "None"
+releaseDate: "2014-03"
+attachments:
+- type: "IMAGE"
+  name: "DM_Springfield_Pack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/DM_Springfield_Pack_shot_1.png"
+- type: "IMAGE"
+  name: "DM_Springfield_Pack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/DM_Springfield_Pack_shot_2.png"
+originalFilename: "DM-Springfield_pack.zip"
+hash: "46574e3da8391608ea7239655de420ba17f030f9"
+fileSize: 7353912
+files:
+- name: "DM-SpringfieldV2.unr"
+  fileSize: 7331673
+  hash: "5851c17465e11da853a53dd25997c7acd2b9245a"
+- name: "Homer.u"
+  fileSize: 761153
+  hash: "25d4b7229c3312fb5f2cec7e262ef9bbaf2fff46"
+- name: "a-att.umx"
+  fileSize: 1415288
+  hash: "86f885618fba3e3da077dafaa501a0e92a663855"
+- name: "DM-(DANISH)Springfield.unr"
+  fileSize: 7328403
+  hash: "07efff54ec899d94d963b9cbaf45a2cddd69b684"
+- name: "burnskins.utx"
+  fileSize: 979970
+  hash: "326134db12d8b3e06f65db618f015898dc502f90"
+- name: "burns.u"
+  fileSize: 1878282
+  hash: "12ed392f8ae03b954898f6c8a6256c8549b7cf99"
+otherFiles: 7
+dependencies:
+  DM-(DANISH)Springfield.unr:
+  - status: "OK"
+    name: "Homer"
+  - status: "OK"
+    name: "burnskins"
+  - status: "OK"
+    name: "a-att"
+  - status: "OK"
+    name: "burns"
+  DM-SpringfieldV2.unr:
+  - status: "OK"
+    name: "a-att"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/DM-Springfield_pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Springfield_pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/4/6/574e3d/DM-Springfield_pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/4/6/574e3d/DM-Springfield_pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-SpringfieldV2"
+  title: "DM-SpringfieldV2"
+  author: "TheDane"
+- name: "DM-(DANISH)Springfield"
+  title: "DM-(DANISH)Springfield"
+  author: "by[DANISH]Klaphat"
+gametype: "DeathMatch"
+themes: {}

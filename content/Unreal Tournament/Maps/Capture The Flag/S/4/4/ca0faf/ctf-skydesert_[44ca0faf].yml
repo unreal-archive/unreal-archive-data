@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:50"
+game: "Unreal Tournament"
+name: "CTF-SkyDesert"
+author: "GrantE"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SkyDesert_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SkyDesert_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-SkyDesert_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SkyDesert_shot_1.png"
+originalFilename: "ctf-skydesert.zip"
+hash: "44ca0faf47ea5cd2ec55c7a9786c21d84d6fabb6"
+fileSize: 2021546
+files:
+- name: "CTF-SkyDesert.unr"
+  fileSize: 4247340
+  hash: "88cad073c33a6fd5d455b353413c53d6baa2c96f"
+- name: "Medivo2.umx"
+  fileSize: 890416
+  hash: "62ecbd6f28ee7877b4a25e5f63c74a1d431bb732"
+otherFiles: 1
+dependencies:
+  CTF-SkyDesert.unr:
+  - status: "OK"
+    name: "Medivo2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-skydesert.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-skydesert.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2239"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/4/4/ca0faf/ctf-skydesert.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/4/4/ca0faf/ctf-skydesert.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "SkyDesert"
+playerCount: "8-12"
+themes:
+  Skaarj Crypt: 0.2
+  Egyptian: 0.8
+  Ancient: 0.1
+bots: true

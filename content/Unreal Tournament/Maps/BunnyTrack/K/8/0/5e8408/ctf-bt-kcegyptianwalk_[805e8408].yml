@@ -1,0 +1,102 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 16:02"
+game: "Unreal Tournament"
+name: "CTF-BT-(KC)EgyptianWalk"
+author: "Kart"
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-(KC)EgyptianWalk_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/K/CTF-BT-(KC)EgyptianWalk_shot_1.png"
+originalFilename: "ctf-bt-(KC)EgyptianWalk.zip"
+hash: "805e8408a216fb44e0a7e24334def9495de8fdc5"
+fileSize: 11448711
+files:
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "CTF-BT-(KC)EgyptianWalk.unr"
+  fileSize: 3608728
+  hash: "3162e56ed569b1c2ce3ebcb80a3de9f80a7e3976"
+- name: "CoreTexCeramic.utx"
+  fileSize: 149500
+  hash: "3524e050cf847ae9a02131bb7eaa38b16aa5d49c"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "AmBrosia.utx"
+  fileSize: 1472625
+  hash: "f467e215a8d9e9d61be950c9d1c92883387aab11"
+- name: "CoreTexDetail.utx"
+  fileSize: 17922
+  hash: "3c77108f4818d903abe2cde499339693333aadd8"
+- name: "egyptian.utx"
+  fileSize: 409600
+  hash: "ba96c51b4bfd29e111c7119bcc2ae2d9d5ff068f"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "Vandenberg_Music_2k.umx"
+  fileSize: 1400207
+  hash: "c48522807aba0e0d4cd31d0e167a06b0343e3956"
+- name: "I4G.utx"
+  fileSize: 382155
+  hash: "92fc4855a07e1910e770e53eb07a1519d932ea38"
+otherFiles: 0
+dependencies:
+  CTF-BT-(KC)EgyptianWalk.unr:
+  - status: "OK"
+    name: "egyptian"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "I4G"
+  - status: "OK"
+    name: "CoreTexCeramic"
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "AmBrosia"
+  - status: "OK"
+    name: "Anc"
+  - status: "OK"
+    name: "Vandenberg_Music_2k"
+  CoreTexCeramic.utx:
+  - status: "PARTIAL"
+    name: "CoreTexDetail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt-%28KC%29EgyptianWalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/K/ctf-bt-(KC)EgyptianWalk.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=ctf-bt-%28KC%29EgyptianWalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt-%28KC%29EgyptianWalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/K/8/0/5e8408/ctf-bt-(KC)EgyptianWalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/K/8/0/5e8408/ctf-bt-(KC)EgyptianWalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-(KC)EgyptianWalk"
+playerCount: "Unknown"
+themes:
+  Egyptian: 0.4
+  Ancient: 0.3
+  Nali Castle: 0.2
+bots: false

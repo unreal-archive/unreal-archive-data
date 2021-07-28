@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:32"
+game: "Unreal Tournament"
+name: "CTF-OptimalSurgeFnL"
+author: "Optimal134"
+description: "Welcome to Optimals Surge"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-OptimalSurgeFnL_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/CTF-OptimalSurgeFnL_shot_1.png"
+originalFilename: "ctf-optimalsurgefnl.zip"
+hash: "5881829cbb8b075d61cd1b6886e994ce79d291cb"
+fileSize: 3768967
+files:
+- name: "CTF-OptimalSurgeFnL.unr"
+  fileSize: 5619731
+  hash: "729a51ac2365abf27f63e902356a8bd0822d0246"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "ds9defiant.utx"
+  fileSize: 1604340
+  hash: "27df2ca46f437b094cde7242231a0cc2634b21d8"
+otherFiles: 1
+dependencies:
+  CTF-OptimalSurgeFnL.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "ds9defiant"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/ctf-optimalsurgefnl.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsO/&file=ctf-optimalsurgefnl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-optimalsurgefnl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsO/ctf-optimalsurgefnl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/5/8/81829c/ctf-optimalsurgefnl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/5/8/81829c/ctf-optimalsurgefnl.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "OptimalSurge3 optimal134@earthlink.net"
+playerCount: "8-12"
+themes:
+  Natural: 1.0
+bots: true

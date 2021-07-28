@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:25"
+game: "Unreal Tournament"
+name: "DM-Windpower"
+author: "Mogh@gmx.net"
+description: "Clean Power ... dirty combat"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-windpower_shot_45d47e52_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/4/5/d47e52/dm-windpower_shot_45d47e52_1.png"
+originalFilename: "dm-windpower.zip"
+hash: "45d47e52ab3079de8c372fa402db4d4d2ea978bd"
+fileSize: 2997026
+files:
+- name: "snxl-windpower.utx"
+  fileSize: 4519620
+  hash: "11506a594fc763caf7d9f01660bbe7d79622f3a1"
+- name: "DM-Windpower.unr"
+  fileSize: 2346824
+  hash: "47ad742224146f51ad6d163e63f50aabda41bafe"
+otherFiles: 0
+dependencies:
+  DM-Windpower.unr:
+  - status: "OK"
+    name: "snxl-windpower"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-windpower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/4/5/d47e52/dm-windpower.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/4/5/d47e52/dm-windpower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/4/5/d47e52/dm-windpower.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-WindPower"
+playerCount: "8-16"
+themes:
+  Tech: 0.5
+  Industrial: 0.4
+  City: 0.1
+bots: true

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:53"
+game: "Unreal Tournament"
+name: "DM-Armoured"
+author: "Doctor Frag"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-Armoured_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Armoured_shot_1.png"
+originalFilename: "dm-armoured.zip"
+hash: "3715167db6e0637b7d9192192a54293bf47ba06a"
+fileSize: 614322
+files:
+- name: "DM-Armoured.unr"
+  fileSize: 1479401
+  hash: "b5d2422b964c6ccce73b71616d26262e6ce31cd9"
+- name: "ArmConc.utx"
+  fileSize: 266205
+  hash: "ede2d6ee6bdf9bf8fbdadc41c655d02cd8a89743"
+otherFiles: 1
+dependencies:
+  DM-Armoured.unr:
+  - status: "OK"
+    name: "ArmConc"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-armoured.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-armoured.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-armoured.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsA/dm-armoured.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/3/7/15167d/dm-armoured.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/3/7/15167d/dm-armoured.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Armoured Concrete"
+playerCount: "3-12"
+themes:
+  Skaarj Tech: 0.2
+  Indistrial: 0.8
+bots: true

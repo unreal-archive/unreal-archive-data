@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-10-30 17:49"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "Chute"
 author: "EDO"
@@ -44,37 +43,32 @@ dependencies:
   Helix2.usx:
   - status: "OK"
     name: "ESV2"
-    providedBy: null
   HelixESV2.u:
   - status: "OK"
     name: "Helix2"
-    providedBy: null
   - status: "MISSING"
     name: "Helix2_final"
-    providedBy: null
   - status: "OK"
     name: "ESV2"
-    providedBy: null
   edo_chute1.u:
   - status: "OK"
     name: "edo_chute1_tx"
-    providedBy: null
   - status: "OK"
     name: "edo_chute1_sm"
-    providedBy: null
   helixesvFinal.u:
   - status: "OK"
     name: "Helix2"
-    providedBy: null
   - status: "MISSING"
     name: "Helix2_final"
-    providedBy: null
   - status: "OK"
     name: "ESV2"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/5/0/dee9f0/HelixESV2Final.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/C/5/0/dee9f0/HelixESV2Final.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 01:45"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-CUT_Dungeon"
 author: "LoQtUS"
@@ -41,22 +40,21 @@ dependencies:
   DM-CUT_Dungeon.unr:
   - status: "OK"
     name: "Zan_oc"
-    providedBy: null
   - status: "OK"
     name: "London"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUT"
-    providedBy: null
   - status: "OK"
     name: "CUTDOM1"
-    providedBy: null
   - status: "MISSING"
     name: "UTChaosMap"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/5/8/5ab34f/DM-CUT_Dungeon.umod"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/ChaosUT/D/5/8/5ab34f/DM-CUT_Dungeon.umod"
+  main: false
   repack: false
   state: "OK"
 deleted: false

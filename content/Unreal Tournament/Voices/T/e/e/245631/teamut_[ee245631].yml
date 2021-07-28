@@ -1,0 +1,51 @@
+--- !<VOICE>
+contentType: "VOICE"
+firstIndex: "2019-02-04 03:12"
+game: "Unreal Tournament"
+name: "TeamUT"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "Deadcatz_Voices.zip"
+hash: "ee2456318df8f2e2a6548ce12db1bbe44e5a1f01"
+fileSize: 1569333
+files:
+- name: "FemaleUTPackage.u"
+  fileSize: 7407
+  hash: "2e139f5df8387060b5d1a92a75f3b64e5639f795"
+- name: "TeamUTPackage.u"
+  fileSize: 7469
+  hash: "e7c7862d7081a1c4e974768905cdc97d1ca58bd6"
+- name: "TeamUT.uax"
+  fileSize: 1996089
+  hash: "8d503ffc96d3f068751de946147395ef548b2be8"
+otherFiles: 2
+dependencies:
+  FemaleUTPackage.u:
+  - status: "OK"
+    name: "TeamUT"
+  TeamUTPackage.u:
+  - status: "OK"
+    name: "TeamUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Voices/&file=Deadcatz_Voices.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Voices/T/Deadcatz_Voices.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Voices/T/e/e/245631/Deadcatz_Voices.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Voices/T/e/e/245631/Deadcatz_Voices.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+voices:
+- "TeamUT"
+- "FemaleTeamUT"

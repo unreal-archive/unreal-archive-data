@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:36"
+game: "Unreal Tournament"
+name: "CTF-Slapshot"
+author: "Wade 'Blata' Pinkston"
+description: "Game ON!"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Slapshot_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Slapshot_shot_1.png"
+originalFilename: "ctf-slapshot.zip"
+hash: "f1aacb31d3f51d15e0eed8632bf490b83194f9c5"
+fileSize: 1570755
+files:
+- name: "CTF-Slapshot.unr"
+  fileSize: 4550532
+  hash: "3eeb05dfa8dd65cf1660eaf96d9498062096587a"
+- name: "rink.utx"
+  fileSize: 351138
+  hash: "cf1a05c5b6ffe329d2fa3a13b7ab0fbd2225b1cc"
+otherFiles: 1
+dependencies:
+  CTF-Slapshot.unr:
+  - status: "OK"
+    name: "rink"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-slapshot.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-slapshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-slapshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-slapshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/f/1/aacb31/ctf-slapshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/f/1/aacb31/ctf-slapshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Hockey is Life!"
+playerCount: "6-16"
+themes:
+  Tech: 0.3
+  Industrial: 0.2
+  Ancient: 0.1
+  Nali Castle: 0.4
+bots: true

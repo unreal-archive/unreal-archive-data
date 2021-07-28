@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 21:21"
+variationOf: "1409c6cf684a47cb9e73539a2e3d034762f30121"
+game: "Unreal Tournament 2004"
+name: "DM-LaunchPad-SE"
+author: "Chuzhoi"
+description: "The second launch.|------------------------|Kostya Alferov aka Chuzhoi"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-LaunchPad-SE_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LaunchPad-SE_shot_3.png"
+- type: "IMAGE"
+  name: "DM-LaunchPad-SE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LaunchPad-SE_shot_1.png"
+- type: "IMAGE"
+  name: "DM-LaunchPad-SE_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LaunchPad-SE_shot_2.png"
+originalFilename: "dm-launchpad-se.zip"
+hash: "b87e5738e3e032c37f7f26798fbd88305e8af891"
+fileSize: 12512136
+files:
+- name: "LaunchPadMeshes.usx"
+  fileSize: 12099533
+  hash: "796d3a6e403726bbec3e66c63fbff1f76321e239"
+- name: "DM-LaunchPad-SE.ut2"
+  fileSize: 18034973
+  hash: "ebd755e12d2fc2e5639115e9761f1623e6b41859"
+- name: "LaunchPadTextures.utx"
+  fileSize: 14123216
+  hash: "8996deef61574c9ed53787637c716d38d9bee019"
+otherFiles: 3
+dependencies:
+  DM-LaunchPad-SE.ut2:
+  - status: "OK"
+    name: "LaunchPadMeshes"
+  - status: "OK"
+    name: "LaunchPadTextures"
+  LaunchPadMeshes.usx:
+  - status: "OK"
+    name: "LaunchPadTextures"
+downloads:
+- url: "https://gamebanana.com/maps/download/15440"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/b/8/7e5738/dm-launchpad-se.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/L/b/8/7e5738/dm-launchpad-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/b/8/7e5738/dm-launchpad-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LaunchPad-SE"
+playerCount: "2-6"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true

@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 07:18"
+game: "Unreal Tournament"
+name: "CTF-ThornsH2O"
+author: "S.Kranendonk"
+description: "None"
+releaseDate: "2002-01"
+attachments: []
+originalFilename: "ctf-thornsh2o.zip"
+hash: "986eced10c08d05baf60b9b74a61f80cf6a72e51"
+fileSize: 261590
+files:
+- name: "H2Odetails.utx"
+  fileSize: 177686
+  hash: "8f0a23e40303528af4f5449723b70f30c7d61551"
+- name: "CTF-ThornsH2O.unr"
+  fileSize: 452086
+  hash: "85184fd5ae2eae6c7b1b8ed265366933c486c1b3"
+otherFiles: 0
+dependencies:
+  CTF-ThornsH2O.unr:
+  - status: "OK"
+    name: "H2Odetails"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-thornsh2o.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-thornsh2o.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/9/8/6eced1/ctf-thornsh2o.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/9/8/6eced1/ctf-thornsh2o.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Thorns H2O style"
+playerCount: "2-16"
+themes:
+  Nali Temple: 1.0
+bots: false

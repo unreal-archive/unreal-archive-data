@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:07"
+game: "Unreal Tournament 2004"
+name: "RemoteStrikev6 2"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-02"
+attachments: []
+originalFilename: "RemoteStrikev6_2.zip"
+hash: "0c8ad3f9a19e4b3b4b515d2367f1077245321770"
+fileSize: 75200
+files:
+- name: "Remote_strike.u"
+  fileSize: 249082
+  hash: "752f1a7c3d2ec0418a7efe727b649c3a33b334ca"
+otherFiles: 3
+dependencies:
+  Remote_strike.u:
+  - status: "MISSING"
+    name: "Comm"
+  - status: "MISSING"
+    name: "RSIcons"
+  - status: "MISSING"
+    name: "Remotetextures"
+  - status: "MISSING"
+    name: "RemoteWeapons"
+  - status: "MISSING"
+    name: "Remote_static"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/RemoteStrikev6_2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/R/0/c/8ad3f9/RemoteStrikev6_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/R/0/c/8ad3f9/RemoteStrikev6_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Replace the standard UT2003 weapons with Remote Strike weapons"
+  description: ""
+- name: "Start with one or more Remote Strike weapons with unlimited ammo and optionally\
+    \ remove all pickups."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:59"
+variationOf: "d822154e3ed6b173df685a32e31bbaa2bd869b81"
+game: "Unreal Tournament"
+name: "DM-Matrix(fix)"
+author: "[EBM]-=ReMo=-"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-matrixfix_shot_0747f287_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/0/7/47f287/dm-matrixfix_shot_0747f287_1.png"
+originalFilename: "dm-matrix.rar"
+hash: "0747f287f0719958b6909f861adacc7f717a0e00"
+fileSize: 1219400
+files:
+- name: "commandoskins_m.utx"
+  fileSize: 2725946
+  hash: "aa690cebbef55d6355ea24c9ecda319f05b93437"
+- name: "DM-Matrix(fix).unr"
+  fileSize: 593625
+  hash: "d3335f4634dda36c0488de2ede6ccadce2cb4869"
+otherFiles: 1
+dependencies:
+  DM-Matrix(fix).unr:
+  - status: "OK"
+    name: "commandoskins_m"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-matrix.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-matrix.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/0/7/47f287/dm-matrix.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/0/7/47f287/dm-matrix.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Matrix Synopsis"
+playerCount: "3-8"
+themes:
+  Tech: 0.1
+  City: 0.8
+bots: true

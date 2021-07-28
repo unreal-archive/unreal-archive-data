@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:26"
+game: "Unreal"
+name: "DmSniperCity-RevE"
+author: "KROSS (aka) David Figueroa"
+description: "Modified By TurkeyNeck"
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "DmSniperCity-RevE.zip"
+hash: "4e37978d7fa1c3597670a951401d06759d4f06ff"
+fileSize: 743163
+files:
+- name: "SniperCity.utx"
+  fileSize: 177641
+  hash: "3d8f36fb4081f4b17ad6da51cc10097fef7d7a53"
+- name: "TNHealth.u"
+  fileSize: 1943
+  hash: "cf01daa69215e439d8cf8ddfff07531e8c1ba2b3"
+- name: "TNJumpBoots.u"
+  fileSize: 4279
+  hash: "4f5708ba0719a84e84823538d53cbe43697db3db"
+- name: "DmSniperCity-RevE.unr"
+  fileSize: 2115665
+  hash: "ce2f1994425c1504795d12ca1c18cd48f45d1899"
+otherFiles: 0
+dependencies:
+  DmSniperCity-RevE.unr:
+  - status: "OK"
+    name: "Snipercity"
+  - status: "OK"
+    name: "TNJumpBoots"
+  - status: "OK"
+    name: "TNHealth"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=2516394"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/DmSniperCity-RevE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/4/e/37978d/DmSniperCity-RevE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/4/e/37978d/DmSniperCity-RevE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sniper City Serpentine"
+playerCount: "10"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.8
+bots: false

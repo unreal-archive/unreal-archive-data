@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:42"
+variationOf: "919ba4148a9f2423af8474d7fe25a2f2bb84d7fe"
+game: "Unreal Tournament"
+name: "DM-Castle-Wars-Final"
+author: "Dr Pepper, lil_warriors@hotmail.com"
+description: "Welcome to the Hell"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-castle-wars-final_shot_b5afb2e4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/dm-castle-wars-final_shot_b5afb2e4_1.png"
+originalFilename: "DM-CastleWars-Final.zip"
+hash: "b5afb2e4ddedbadddb4ec84d6288d771ec1657f7"
+fileSize: 8524052
+files:
+- name: "Bergland.utx"
+  fileSize: 1227527
+  hash: "a516663b4b67450b6a5b32b8f90839f8c02f4c25"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "DM-Castle-Wars-Final.unr"
+  fileSize: 3964979
+  hash: "0cd1eb83dea1103bbce8cc46778212deede71915"
+- name: "CT5.utx"
+  fileSize: 3277347
+  hash: "ab934d6fa8ac150f15280afa1bd41f33ac77583e"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+- name: "ct6.utx"
+  fileSize: 441712
+  hash: "350ac54cc269bbca85a8682d47c34e8cf5a598be"
+- name: "dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+otherFiles: 0
+dependencies:
+  DM-Castle-Wars-Final.unr:
+  - status: "OK"
+    name: "ct6"
+  - status: "OK"
+    name: "CT5"
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "Bergland"
+  - status: "OK"
+    name: "zeitkind"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CastleWars-Final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CastleWars-Final.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/b/5/afb2e4/DM-CastleWars-Final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/b/5/afb2e4/DM-CastleWars-Final.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Castle-Wars"
+playerCount: "24+"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.2
+  Nali Castle: 0.4
+  Skaarj Tech: 0.3
+bots: true

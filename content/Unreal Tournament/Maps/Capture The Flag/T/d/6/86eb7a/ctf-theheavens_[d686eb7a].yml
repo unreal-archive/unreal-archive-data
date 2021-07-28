@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:28"
+game: "Unreal Tournament"
+name: "CTF-TheHeavens"
+author: "HortonsWho"
+description: "None"
+releaseDate: "2007-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-TheHeavens_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-TheHeavens_shot_1.png"
+originalFilename: "CTF-TheHeavens.zip"
+hash: "d686eb7a3f5b412708e06671b2664f0f3a79af5f"
+fileSize: 8931412
+files:
+- name: "CTF-TheHeavens.unr"
+  fileSize: 6578643
+  hash: "27cd1cfbd8f5f8b755dc2d1f1d7198e1025dca36"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "Mw_wellb.umx"
+  fileSize: 1756808
+  hash: "9966c9db473e05ab85e747b33f62b7843c799247"
+otherFiles: 0
+dependencies:
+  CTF-TheHeavens.unr:
+  - status: "OK"
+    name: "Mw_wellb"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-TheHeavens.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-TheHeavens.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/d/6/86eb7a/CTF-TheHeavens.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/d/6/86eb7a/CTF-TheHeavens.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "AndTheHeavensOpened"
+playerCount: "10-16"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

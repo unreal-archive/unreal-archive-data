@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 04:32"
+variationOf: "ade27c29e73519168d5f3c89c5c296479f334720"
+game: "Unreal Tournament"
+name: "MH-InscrutableCastle"
+author: "<GF>-REX!! -&- DAG (War Master)"
+description: "None"
+releaseDate: "2007-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-InscrutableCastle_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/I/MH-InscrutableCastle_shot_1.png"
+originalFilename: "MH-InscrutableCastle.zip"
+hash: "0316460b355a5d9a4218abe9a67b6fcf2d8046de"
+fileSize: 4450223
+files:
+- name: "multimesh.u"
+  fileSize: 76003
+  hash: "256c429466135f33665d001ec0706f6ce20228d3"
+- name: "tcowmeshskins.utx"
+  fileSize: 613832
+  hash: "5fe37b3e27882b302ab96ebcac1bb98951e87a27"
+- name: "MH-InscrutableCastle.unr"
+  fileSize: 3128571
+  hash: "e985dcb8ca76a83ba7dc29ce5ba3a6c16acfe72a"
+- name: "EverSmoke.umx"
+  fileSize: 795864
+  hash: "cebd445a9b0fb87bfb91c5258586cb8e77be8dc4"
+- name: "brainblast.umx"
+  fileSize: 149329
+  hash: "f66334d0bfdf197b1c03e64594ba68bc7278b842"
+- name: "Spinner.u"
+  fileSize: 1551609
+  hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+- name: "WarNukingGround.u"
+  fileSize: 1871058
+  hash: "60e699b04761e44ee8be4bf6fd5ca6eafa983db9"
+otherFiles: 5
+dependencies:
+  WarNukingGround.u:
+  - status: "PARTIAL"
+    name: "Spinner"
+  MH-InscrutableCastle.unr:
+  - status: "OK"
+    name: "brainblast"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "WarNukingGround"
+  - status: "OK"
+    name: "EverSmoke"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-InscrutableCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/I/MH-InscrutableCastle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-inscrutablecastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-InscrutableCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://gamebanana.com/maps/download/167143"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/I/0/3/16460b/MH-InscrutableCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/0/3/16460b/MH-InscrutableCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Inscrutable Castle"
+playerCount: "1 - 8 Nuking"
+themes: {}
+bots: true

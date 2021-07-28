@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:30"
+game: "Unreal Tournament"
+name: "CTF-HotSexDisco"
+author: "Zencoder <britton_wesley@yahoo.com>"
+description: "Shake that thang!"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-HotSexDisco_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HotSexDisco_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-HotSexDisco_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HotSexDisco_shot_2.png"
+originalFilename: "ctf-hotsexdisco.zip"
+hash: "038ea07d5c5526b5aff73196f03c0e4fcf3f3bb0"
+fileSize: 1902388
+files:
+- name: "6Abbey.u"
+  fileSize: 387720
+  hash: "1775f900321e8ba126371fd50758eddcdb16ef7f"
+- name: "C_ILLUSI.umx"
+  fileSize: 1350710
+  hash: "84b42cf869c7ed23decd9a5eb2c642e2a1a704a1"
+- name: "CTF-HotSexDisco.unr"
+  fileSize: 1665339
+  hash: "deb6f48677e3b7a1732fc6df7e4debb6997a10f4"
+otherFiles: 2
+dependencies:
+  CTF-HotSexDisco.unr:
+  - status: "OK"
+    name: "6Abbey"
+  - status: "OK"
+    name: "C_ILLUSI"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-hotsexdisco.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-hotsexdisco.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=485"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/0/3/8ea07d/ctf-hotsexdisco.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/0/3/8ea07d/ctf-hotsexdisco.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "- Hot Sex Disco -"
+playerCount: "16 - 20"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  Ancient: 0.1
+  City: 0.5
+  Natural: 0.1
+bots: true

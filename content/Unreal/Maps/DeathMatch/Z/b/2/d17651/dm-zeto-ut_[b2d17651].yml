@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:40"
+game: "Unreal"
+name: "DM-Zeto-UT"
+author: "Converted From UT To Unreal By Jet<NxS>"
+description: "Enjoy Map"
+releaseDate: "2008-07"
+attachments: []
+originalFilename: "DM-Zeto.zip"
+hash: "b2d17651078255b290538276ebf3f60fb91def4b"
+fileSize: 3429609
+files:
+- name: "ZetoTex.utx"
+  fileSize: 3178614
+  hash: "878b64dae171b442e4abe25af555e0889feaf829"
+- name: "Snow1Tex.utx"
+  fileSize: 2491
+  hash: "8bcca05c83f634e27e1015548520eb0fd64317a6"
+- name: "DM-Zeto-UT.unr"
+  fileSize: 2744965
+  hash: "a836939d95baaa8c28c9c99f118eb68ca3e43267"
+otherFiles: 0
+dependencies:
+  DM-Zeto-UT.unr:
+  - status: "OK"
+    name: "ZetoTex"
+  - status: "OK"
+    name: "Snow1Tex"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DM-Zeto.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/Z/b/2/d17651/DM-Zeto.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/Z/b/2/d17651/DM-Zeto.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/Z/b/2/d17651/DM-Zeto.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ice Station Zeto"
+playerCount: "4-12"
+themes: {}
+bots: true

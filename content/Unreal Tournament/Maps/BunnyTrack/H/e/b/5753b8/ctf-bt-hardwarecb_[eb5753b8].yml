@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-22 17:54"
+game: "Unreal Tournament"
+name: "CTF-BT-HardwareCB"
+author: "NuLL"
+description: "Hardware - Fixed By Night Terror"
+releaseDate: "2012-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-HardwareCB_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/H/CTF-BT-HardwareCB_shot_1.png"
+originalFilename: "CTF-BT-HardwareCB.zip"
+hash: "eb5753b8ee884803fa414f76fa5d3b16998b2839"
+fileSize: 19822838
+files:
+- name: "ProjectileSpawner.u"
+  fileSize: 3300
+  hash: "39b919070b5f76fb3c811336617be0cad37b2030"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "CTF-BT-HardwareCB.unr"
+  fileSize: 6894897
+  hash: "d95691fcaaba4478dec220236a077b4870b649f1"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "QuakeS.utx"
+  fileSize: 3257992
+  hash: "ee827e32f22dad6e4269698240870e0f1a05d7b3"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-BT-HardwareCB.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "QuakeS"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "ProjectileSpawner"
+  - status: "OK"
+    name: "Ambient"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-HardwareCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/H/CTF-BT-HardwareCB.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/H/e/b/5753b8/CTF-BT-HardwareCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/H/e/b/5753b8/CTF-BT-HardwareCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Hardware - CB Edition"
+playerCount: "1-12"
+themes:
+  Natural: 1.0
+bots: false

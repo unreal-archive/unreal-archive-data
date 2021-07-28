@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 13:13"
+game: "Unreal Tournament 2004"
+name: "CTF-PyraJump"
+author: "Josh \"Gunner77\" Tesch"
+description: "Ancient Temples, left behind by a superior race, was recently bought\
+  \ by a secret organization. Rumor has it that what was once a place of peace and\
+  \ offering, is now a place of pain and suffering.........Are you ready to play the\
+  \ game?............"
+releaseDate: "2007-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-PyraJump_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/CTF-PyraJump_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-PyraJump_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/CTF-PyraJump_shot_1.png"
+originalFilename: "ctf-pyrajump.zip.zip"
+hash: "95194f6cfa76491b3781f263aedbb7a58be760ce"
+fileSize: 4096175
+files:
+- name: "PyraJumpGameSpeed.u"
+  fileSize: 573
+  hash: "12243d953a291ccffb6c24ed2eb92595c091b54e"
+- name: "11th-hour.ogg"
+  fileSize: 3504223
+  hash: "255981c19d65dd79c0520d294b5eaf30f3779a91"
+- name: "CTF-PyraJump.ut2"
+  fileSize: 2027080
+  hash: "da9bd055458247060d73d5bbe38d33dc4b0a7e84"
+otherFiles: 2
+dependencies:
+  CTF-PyraJump.ut2:
+  - status: "OK"
+    name: "PyraJumpGameSpeed"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/ctf-pyrajump.zip.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6237"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/9/5/194f6c/ctf-pyrajump.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/9/5/194f6c/ctf-pyrajump.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Pyra Jump"
+playerCount: "8-16"
+themes:
+  Egyptian: 1.0
+bots: true

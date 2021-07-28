@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:48"
+variationOf: "f25a71f390ab93ccb45efcf7b15b4860cb1773fa"
+game: "Unreal Tournament"
+name: "DM-CTC-Iraar"
+author: "Swanky + Roberto 'Homeslice' Tobar"
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-ctc-iraar_shot_a061d042_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/a/0/61d042/dm-ctc-iraar_shot_a061d042_1.png"
+originalFilename: "dm-ctc-iraar.zip"
+hash: "a061d0429c42a8b99c945cd9e6ad28ab6eb407f8"
+fileSize: 1088418
+files:
+- name: "PartickelSystem.u"
+  fileSize: 20619
+  hash: "895ccb6aa8e2eaa0ecd2811ce858bc48701e3170"
+- name: "DM-CTC-Iraar.unr"
+  fileSize: 2461086
+  hash: "ea0bb4a8bad8bdcda1ab723b0bcacbea01703880"
+- name: "Gala.umx"
+  fileSize: 968143
+  hash: "e16755d37a54e2b3e5540f91481901a41d6e5118"
+otherFiles: 1
+dependencies:
+  DM-CTC-Iraar.unr:
+  - status: "OK"
+    name: "PartickelSystem"
+  - status: "OK"
+    name: "Gala"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ctc-iraar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-ctc-iraar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/a/0/61d042/dm-ctc-iraar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/a/0/61d042/dm-ctc-iraar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Iraar's Sunken Temple"
+playerCount: "2-6"
+themes:
+  Egyptian: 0.8
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 00:51"
+game: "Unreal Tournament"
+name: "DM-Autonomous-ZSZ"
+author: "Fastbak"
+description: "None"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Autonomous-ZSZ_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Autonomous-ZSZ_shot_1.png"
+originalFilename: "DM-Autonomous-ZSZ.zip"
+hash: "f1efefce29b26dce8bdb4fb23ca51ce8fa5174c3"
+fileSize: 8172482
+files:
+- name: "Venice_FB.utx"
+  fileSize: 2735323
+  hash: "8926508bf610ccd30c829a06b6190653eac8ac58"
+- name: "DM-Autonomous-ZSZ.unr"
+  fileSize: 5809409
+  hash: "a983bf96b3c4e4bbec7ba54acd77d941d9183635"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 0
+dependencies:
+  DM-Autonomous-ZSZ.unr:
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Venice_FB"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-Autonomous-ZSZ.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Autonomous-ZSZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/f/1/efefce/DM-Autonomous-ZSZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/f/1/efefce/DM-Autonomous-ZSZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Autonomous"
+playerCount: "6-12"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Nali Castle: 0.2
+  Indistrial: 0.5
+bots: true

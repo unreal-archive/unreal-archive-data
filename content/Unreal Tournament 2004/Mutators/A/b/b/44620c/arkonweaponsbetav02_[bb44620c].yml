@@ -1,0 +1,148 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-20 00:25"
+game: "Unreal Tournament 2004"
+name: "ArkonWeaponsBetav02"
+author: "Donator"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "ArkonWeaponsBetav02_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/ArkonWeaponsBetav02_shot_1.png"
+- type: "IMAGE"
+  name: "ArkonWeaponsBetav02_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/ArkonWeaponsBetav02_shot_5.png"
+- type: "IMAGE"
+  name: "ArkonWeaponsBetav02_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/ArkonWeaponsBetav02_shot_2.png"
+- type: "IMAGE"
+  name: "ArkonWeaponsBetav02_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/ArkonWeaponsBetav02_shot_3.png"
+- type: "IMAGE"
+  name: "ArkonWeaponsBetav02_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/ArkonWeaponsBetav02_shot_4.png"
+originalFilename: "ArkonWeaponsBetav02.zip"
+hash: "bb44620ca09dfd760e5a9673cc7528d6d853789b"
+fileSize: 5476542
+files:
+- name: "PlasmaGun.u"
+  fileSize: 39548
+  hash: "4c308be36f917fb4184efaae1ed5bdefefd21665"
+- name: "ArkonShields.utx"
+  fileSize: 649
+  hash: "94114ebc2c8e9be73e78b503c184b7c4a29fd9f1"
+- name: "ThermoBlaster.u"
+  fileSize: 27070
+  hash: "1b184fca6a6ead2ba53ce6a07cff366ac332083c"
+- name: "Desintegrator.u"
+  fileSize: 44676
+  hash: "e89976a108e9e68a8b5dc3eff3170df919e52544"
+- name: "ArkonShields.u"
+  fileSize: 17415
+  hash: "2c301017b023105d3178bd4246c5ad63a9e3be5c"
+- name: "ArkonWeaponsTex.utx"
+  fileSize: 11695290
+  hash: "dee8478fc22ea5a6afd068037682ee4973057d3d"
+- name: "CMortar.u"
+  fileSize: 54619
+  hash: "4cc29301f5f340b3bcf9c9616cfac6f39fc35af1"
+- name: "ThermoProj.u"
+  fileSize: 28535
+  hash: "3eaf9b91f0028de51f6f878df3900c0b0848e251"
+- name: "DGrenade.u"
+  fileSize: 33266
+  hash: "984c132a9d407ed7f825ff42c397890c3ac083d8"
+- name: "ArkonWeaponsSMesh.usx"
+  fileSize: 1757854
+  hash: "ed6183e0dff5d6781aa785a03ae63c4a14bbdf0c"
+- name: "MassDriver.u"
+  fileSize: 28593
+  hash: "e86066cb1644f76b6135f5c15d867b02bed95254"
+- name: "TGrenade.u"
+  fileSize: 35878
+  hash: "358d506a87c09ea1ecd956cd379e3919db1c7abb"
+- name: "ArkonWeapons.u"
+  fileSize: 9663
+  hash: "e87d39f9aad84d13a264572b26b6617b8d7028de"
+otherFiles: 16
+dependencies:
+  PlasmaGun.u:
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  ThermoProj.u:
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  MassDriver.u:
+  - status: "OK"
+    name: "ArkonWeaponsSMesh"
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  ArkonWeapons.u:
+  - status: "OK"
+    name: "CMortar"
+  - status: "OK"
+    name: "TGrenade"
+  - status: "OK"
+    name: "ThermoBlaster"
+  - status: "OK"
+    name: "Desintegrator"
+  - status: "OK"
+    name: "ThermoProj"
+  - status: "OK"
+    name: "MassDriver"
+  - status: "OK"
+    name: "PlasmaGun"
+  - status: "OK"
+    name: "DGrenade"
+  DGrenade.u:
+  - status: "OK"
+    name: "ArkonWeaponsSMesh"
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  ThermoBlaster.u:
+  - status: "OK"
+    name: "ArkonWeaponsSMesh"
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  Desintegrator.u:
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  TGrenade.u:
+  - status: "OK"
+    name: "ArkonWeaponsSMesh"
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  ArkonWeaponsSMesh.usx:
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  CMortar.u:
+  - status: "OK"
+    name: "ArkonWeaponsSMesh"
+  - status: "OK"
+    name: "ArkonShields"
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/ArkonWeaponsBetav02.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/A/b/b/44620c/ArkonWeaponsBetav02.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/b/b/44620c/ArkonWeaponsBetav02.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Weapon Replacer for Arkon Weapons Mod"
+  description: ""
+- name: "ArkonShields"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

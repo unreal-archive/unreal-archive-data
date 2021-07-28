@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:04"
+variationOf: "2aa4d1b7bb643ee65b2911eeb37d1f8dddae7038"
+game: "Unreal Tournament"
+name: "DM-Deadwood"
+author: "Chris \" Brick \" Willis"
+description: "The Talking Bear Lives"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-deadwood_shot_9b11e1f4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/9/b/11e1f4/dm-deadwood_shot_9b11e1f4_1.png"
+originalFilename: "dm-deadwood.zip"
+hash: "9b11e1f40f8566aafb415b37042860bf19373138"
+fileSize: 3111376
+files:
+- name: "WOTDetail.utx"
+  fileSize: 177735
+  hash: "14c29fafd117a2148f12cb59fd71d9e3f5c96a00"
+- name: "DM-Deadwood.unr"
+  fileSize: 1790451
+  hash: "8d131d36165725a93524c95b1c5fb4aad30dc9e7"
+- name: "ForsakenT.utx"
+  fileSize: 2940782
+  hash: "7e6c3e40f6a8b7146ab1532ebd41844b8bbc02f7"
+otherFiles: 1
+dependencies:
+  DM-Deadwood.unr:
+  - status: "OK"
+    name: "ForsakenT"
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dm-deadwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsD/dm-deadwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/9/b/11e1f4/dm-deadwood.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/9/b/11e1f4/dm-deadwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/9/b/11e1f4/dm-deadwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Deadwood"
+playerCount: "4-8"
+themes:
+  Ancient: 0.7
+  Natural: 0.2
+bots: true

@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-09-20 11:41"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "MapMixer236(1Nov2007)"
 author: "adding MapMixer to the UT"
@@ -71,34 +70,30 @@ dependencies:
   BotMixer.u:
   - status: "OK"
     name: "MapMixerClient-236"
-    providedBy: null
   - status: "OK"
     name: "BotMixerClient-106"
-    providedBy: null
   - status: "OK"
     name: "MapMixer"
-    providedBy: null
   BotMixerGUI.u:
   - status: "OK"
     name: "BotMixer"
-    providedBy: null
   - status: "OK"
     name: "BotMixerClient-106"
-    providedBy: null
   MapMixer.u:
   - status: "OK"
     name: "MapMixerClient-236"
-    providedBy: null
   MapMixerGUI.u:
   - status: "OK"
     name: "MapMixerClient-236"
-    providedBy: null
   - status: "OK"
     name: "MapMixer"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/5/8/2778b9/MapMixer236(1Nov2007).zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/M/5/8/2778b9/MapMixer236(1Nov2007).zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

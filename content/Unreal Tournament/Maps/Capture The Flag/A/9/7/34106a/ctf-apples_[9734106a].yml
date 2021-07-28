@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:12"
+game: "Unreal Tournament"
+name: "CTF-Apples"
+author: "RJGexplode"
+description: "Crate Overboard!"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Apples_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-Apples_shot_1.png"
+originalFilename: "ctf-apples.zip"
+hash: "9734106aaffefb860dc7d5653c0bab534e2d4a2f"
+fileSize: 861645
+files:
+- name: "CTF-Apples.unr"
+  fileSize: 909693
+  hash: "52464fa25666e2a3f950356a74471c861c87e023"
+- name: "Liquids.utx"
+  fileSize: 14013
+  hash: "d34fe4685e675780d6c25ff24ad0f13bfe6b8b8a"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "gallion.utx"
+  fileSize: 177658
+  hash: "fa80c360077137089bfa00df2a84309066b6676a"
+otherFiles: 2
+dependencies:
+  CTF-Apples.unr:
+  - status: "OK"
+    name: "gallion"
+  - status: "OK"
+    name: "K_vision"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-apples.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsA/&file=ctf-apples.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-apples.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-apples.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsA/ctf-apples.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/9/7/34106a/ctf-apples.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/9/7/34106a/ctf-apples.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Apples"
+playerCount: "Unknown"
+themes: {}
+bots: true

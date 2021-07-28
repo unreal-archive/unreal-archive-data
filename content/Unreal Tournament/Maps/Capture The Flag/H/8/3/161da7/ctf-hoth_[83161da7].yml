@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:19"
+game: "Unreal Tournament"
+name: "CTF-HOTH"
+author: ">>>SEISMIC<<<"
+description: "None"
+releaseDate: "2007-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-HOTH_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HOTH_shot_1.png"
+originalFilename: "CTF-HOTH.rar"
+hash: "83161da7629471ff6073c0d7741db601cb0715da"
+fileSize: 7390861
+files:
+- name: "CTF-HOTH.unr"
+  fileSize: 8736451
+  hash: "7a3a4cf7515b7b96d065e60d5c5431e9ec25aed5"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "SLV2.u"
+  fileSize: 419937
+  hash: "3709e253a80e4ed35d0cf43b37a325d68aaa470e"
+otherFiles: 0
+dependencies:
+  CTF-HOTH.unr:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2"
+  SLV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=CTF-HOTH.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HOTH.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsH/&file=CTF-HOTH.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-HOTH.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsH/CTF-HOTH.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/8/3/161da7/CTF-HOTH.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/8/3/161da7/CTF-HOTH.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "HOTH-The Ice World"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Industrial: 0.1
+  City: 0.4
+  Natural: 0.3
+bots: true

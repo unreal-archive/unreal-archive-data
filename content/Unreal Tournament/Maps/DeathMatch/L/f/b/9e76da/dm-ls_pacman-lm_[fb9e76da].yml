@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:23"
+game: "Unreal Tournament"
+name: "DM-LS_PacMan-LM"
+author: "\"Lord\" Simeon Spargo - Music by Leaky Meat"
+description: "DM-LS_Pacman"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-LS_PacMan-LM_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-LS_PacMan-LM_shot_1.png"
+originalFilename: "dm-ls_pacman-lm.zip"
+hash: "fb9e76da76587f45b1fe9d365dbae9a37b005374"
+fileSize: 3308134
+files:
+- name: "Palettes.utx"
+  fileSize: 421024
+  hash: "ad5a33fa0298dd2fe5419d6c2487b8ebacee79bc"
+- name: "PacMan.umx"
+  fileSize: 3357001
+  hash: "3b6a88410e0f7f01fe9b2fbeb0d838fc980f1561"
+- name: "XFX.utx"
+  fileSize: 198416
+  hash: "238a8557b677078667b228f0553ef10c3efc604d"
+- name: "DM-LS_PacMan-LM.unr"
+  fileSize: 1665477
+  hash: "1a448042da5c6c7b09467cb1df490906bb21b397"
+- name: "SpargoS.utx"
+  fileSize: 813817
+  hash: "9a4c8abf18279bb96e60dcdf286f53fac4c25b9b"
+otherFiles: 1
+dependencies:
+  DM-LS_PacMan-LM.unr:
+  - status: "OK"
+    name: "PacMan"
+  - status: "OK"
+    name: "SpargoS"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-ls_pacman-lm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-ls_pacman-lm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ls_pacman-lm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsL/dm-ls_pacman-lm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/f/b/9e76da/dm-ls_pacman-lm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/f/b/9e76da/dm-ls_pacman-lm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LS_Pacman-LM"
+playerCount: "16"
+themes:
+  Nali Temple: 0.3
+  City: 0.6
+  Natural: 0.2
+bots: true

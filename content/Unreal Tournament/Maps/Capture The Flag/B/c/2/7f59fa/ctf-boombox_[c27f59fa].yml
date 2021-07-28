@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:13"
+game: "Unreal Tournament"
+name: "CTF-BoomBox"
+author: "BoomerNL"
+description: "None"
+releaseDate: "2003-06"
+attachments: []
+originalFilename: "ctf-boombox.zip"
+hash: "c27f59fa6f8b84efb36a83f1ec710faeb69dece5"
+fileSize: 890662
+files:
+- name: "MultiCTFTex.utx"
+  fileSize: 941080
+  hash: "3b48af6bf2f50d2d4583f4e11ab65c0d903d3cb8"
+- name: "CTF-BoomBox.unr"
+  fileSize: 721978
+  hash: "262de48bc01a10dc1035611bf61aa0057bfbc8b6"
+- name: "PAIN.umx"
+  fileSize: 207514
+  hash: "69ad92efea0af2378fc5aabb403842c1911fd9af"
+otherFiles: 1
+dependencies:
+  CTF-BoomBox.unr:
+  - status: "OK"
+    name: "PAIN"
+  - status: "OK"
+    name: "MultiCTFTex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-boombox.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-boombox.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/c/2/7f59fa/ctf-boombox.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/c/2/7f59fa/ctf-boombox.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "BoomBox"
+playerCount: "4-8"
+themes:
+  City: 1.0
+bots: false

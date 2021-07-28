@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:00"
+game: "Unreal"
+name: "INF_BATTLE-SHIP"
+author: "SERPENT"
+description: "None"
+releaseDate: "1998-10"
+attachments: []
+originalFilename: "INF_BATTLE-SHIP.zip"
+hash: "7f1f3325bd24dd2dba13c80b1caca7e6fb974d1d"
+fileSize: 2305568
+files:
+- name: "Shiptex.utx"
+  fileSize: 351073
+  hash: "2ba44a12d5a7e4cdf47da06eb4a228e1c7440396"
+- name: "INF_BATTLE-SHIP.unr"
+  fileSize: 7192174
+  hash: "08653625a6aabba4b19348971e5cf072adaa6790"
+otherFiles: 0
+dependencies:
+  INF_BATTLE-SHIP.unr:
+  - status: "OK"
+    name: "Shiptex"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_BATTLE-SHIP.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/B/INF_BATTLE-SHIP.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_BATTLE-SHIP.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/B/7/f/1f3325/INF_BATTLE-SHIP.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/B/7/f/1f3325/INF_BATTLE-SHIP.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Nali Pirate Ship"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Nali Castle: 0.8
+bots: true

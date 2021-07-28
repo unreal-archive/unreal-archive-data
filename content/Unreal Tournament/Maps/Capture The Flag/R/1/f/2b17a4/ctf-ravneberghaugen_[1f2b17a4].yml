@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:34"
+game: "Unreal Tournament"
+name: "CTF-ravneberghaugen"
+author: "Tormod Sandtorv -- tormodas@libertysurf.no"
+description: "Welcome to RavneBergHaugen MASACRE!!!"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-ravneberghaugen_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-ravneberghaugen_shot_1.png"
+originalFilename: "ctf-rbh.zip"
+hash: "1f2b17a441ee90641a7f314d491340cdc2277a09"
+fileSize: 3253481
+files:
+- name: "Fourth.umx"
+  fileSize: 917601
+  hash: "182a935d9c4234ba79066fde68456901f97ae101"
+- name: "CTF-ravneberghaugen.unr"
+  fileSize: 3509132
+  hash: "c8c5a182a9b4f8cb59c49e44622294b022edc8fb"
+- name: "tormod.utx"
+  fileSize: 529214
+  hash: "515ae0e9df8a1e1674ade2b640d65fd8b349f5ad"
+- name: "rob.utx"
+  fileSize: 89015
+  hash: "68d723962f278205d17cb5589c8252802e6ca25b"
+otherFiles: 0
+dependencies:
+  CTF-ravneberghaugen.unr:
+  - status: "OK"
+    name: "rob"
+  - status: "OK"
+    name: "tormod"
+  - status: "OK"
+    name: "Fourth"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/ctf-rbh.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsR/&file=ctf-rbh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-rbh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsR/ctf-rbh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/f/2b17a4/ctf-rbh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/1/f/2b17a4/ctf-rbh.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-RavneBergHaugen"
+playerCount: "10"
+themes:
+  Tech: 0.2
+  Ancient: 0.4
+  Natural: 0.4
+bots: true

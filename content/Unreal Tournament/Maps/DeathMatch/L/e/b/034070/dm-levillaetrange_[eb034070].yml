@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:21"
+game: "Unreal Tournament"
+name: "DM-LeVillaEtrange"
+author: "P@risGun"
+description: "You might not be first, but you will be next."
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-LeVillaEtrange_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-LeVillaEtrange_shot_1.png"
+originalFilename: "dm-levillaetrange.zip"
+hash: "eb034070151fa2876bee2783312fc08757a754b3"
+fileSize: 1846596
+files:
+- name: "Mountain.umx"
+  fileSize: 920629
+  hash: "7715eb1a64ba0739a5a34ec95d2e75825e076d68"
+- name: "pg1.utx"
+  fileSize: 760341
+  hash: "7292061d9e5dea12e52dae3ad1040263a48af943"
+- name: "DM-LeVillaEtrange.unr"
+  fileSize: 2529104
+  hash: "db0bee8fc7695fae0aaa179381ec5a36b3717898"
+otherFiles: 1
+dependencies:
+  DM-LeVillaEtrange.unr:
+  - status: "OK"
+    name: "Mountain"
+  - status: "OK"
+    name: "pg1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-levillaetrange.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-levillaetrange.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-levillaetrange.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsL/dm-levillaetrange.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/e/b/034070/dm-levillaetrange.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/e/b/034070/dm-levillaetrange.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "LeVillaEtrange"
+playerCount: "6 -12"
+themes:
+  City: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.8
+bots: true

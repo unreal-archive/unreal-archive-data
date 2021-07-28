@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:03"
+variationOf: "cbce7ebe254440405bc093cfac6055c91b98839e"
+game: "Unreal Tournament"
+name: "DM-Stillborn"
+author: "Jesus.martyr[maxpower]"
+description: "Die in torment in hell"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-stillborn_shot_55c3b0f2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/5/5/c3b0f2/dm-stillborn_shot_55c3b0f2_1.png"
+- type: "IMAGE"
+  name: "dm-stillborn_shot_55c3b0f2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/5/5/c3b0f2/dm-stillborn_shot_55c3b0f2_2.png"
+originalFilename: "dm-stillborn12.zip"
+hash: "55c3b0f2f28c26ab70309fdfd4e84f36757b6c5c"
+fileSize: 795436
+files:
+- name: "dmpride.utx"
+  fileSize: 23427
+  hash: "d56eaf6b3007edf67f1515b1161f6549f6d9fd0b"
+- name: "mcfetus.utx"
+  fileSize: 6935
+  hash: "cb9b6d0658a3fa7326967cee6f66841e141d3e34"
+- name: "Evil-Lair-6.utx"
+  fileSize: 146274
+  hash: "d3320cfec31430d1e8452b569e7a05d7f31e1d52"
+- name: "DM-Stillborn.unr"
+  fileSize: 2147556
+  hash: "786fd364cfc298077e2e81575e594f1b3a08b4b6"
+otherFiles: 2
+dependencies:
+  DM-Stillborn.unr:
+  - status: "MISSING"
+    name: "Evil-Lair-4"
+  - status: "MISSING"
+    name: "KungFu"
+  - status: "OK"
+    name: "dmpride"
+  - status: "OK"
+    name: "mcfetus"
+  - status: "MISSING"
+    name: "DeusEX"
+  - status: "OK"
+    name: "Evil-Lair-6"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-stillborn12.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-stillborn12.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/5/5/c3b0f2/dm-stillborn12.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/5/5/c3b0f2/dm-stillborn12.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Stillborn"
+playerCount: "2 - 6"
+themes:
+  Tech: 0.1
+  Industrial: 0.6
+  City: 0.3
+bots: true

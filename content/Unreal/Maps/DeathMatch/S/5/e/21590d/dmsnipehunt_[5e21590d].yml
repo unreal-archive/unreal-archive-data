@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:42"
+variationOf: "fc5bb22c8ebfec7b6456f190b481761950ef6a05"
+game: "Unreal"
+name: "DMSnipeHunt"
+author: "Guy *Imported from UT by RUSH*"
+description: "Feel the crosshairs on your back."
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "DM-snipehunt.zip"
+hash: "5e21590d1698063871530ad3c338f4fec86dcb87"
+fileSize: 18237429
+files:
+- name: "Slums.utx"
+  fileSize: 3770831
+  hash: "4c4064de07786b2c007b8e27959389a082a161c7"
+- name: "Indust6.utx"
+  fileSize: 2861099
+  hash: "54e0fab1cc290dc90ac1dc6bc8097e050559fb00"
+- name: "DMSnipeHunt.unr"
+  fileSize: 2062790
+  hash: "efc873acc3d229ef465f226465c2d2b9743fc452"
+- name: "Eol.utx"
+  fileSize: 3873187
+  hash: "aef6b9a41e0b91c20e8933112766f88c94e4e253"
+- name: "Crypt2.utx"
+  fileSize: 7377678
+  hash: "1bc977a9fb6ac41a426a47ad537651476579115f"
+- name: "UTTech2.utx"
+  fileSize: 293309
+  hash: "2789ae4b2e186a7ce62997cedcc57a8a5763c858"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "Indus1.utx"
+  fileSize: 1804903
+  hash: "6cccf46a05192106e2457d77456335125f0be172"
+- name: "UTTech3.utx"
+  fileSize: 285924
+  hash: "082abfbfe617f5cf9b60cd91820ed26c6f7fb84d"
+otherFiles: 0
+dependencies:
+  DMSnipeHunt.unr:
+  - status: "OK"
+    name: "UTtech3"
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "Slums"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Indust6"
+  - status: "OK"
+    name: "Eol"
+  - status: "OK"
+    name: "UTTech2"
+  - status: "OK"
+    name: "Crypt2"
+  - status: "OK"
+    name: "Indus1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM-snipehunt.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/5/e/21590d/DM-snipehunt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/5/e/21590d/DM-snipehunt.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Snipe Hunt"
+playerCount: "6 to 10"
+themes:
+  Skaarj Crypt: 0.2
+  City: 0.4
+  Natural: 0.3
+  Nali Castle: 0.1
+  Skaarj Tech: 0.1
+bots: true

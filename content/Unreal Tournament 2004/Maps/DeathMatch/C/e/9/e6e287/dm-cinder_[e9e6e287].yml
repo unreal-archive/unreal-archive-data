@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 20:18"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "dm-cinder"
 author: "Thorsten 'Tyhra' Zastrow"
@@ -35,19 +34,20 @@ dependencies:
   DM-Cinder2k3.ut2:
   - status: "OK"
     name: "CinderMesh"
-    providedBy: null
   - status: "OK"
     name: "CinderTex"
-    providedBy: null
   - status: "OK"
     name: "CinderSounds"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/dm-cinder2k3.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/e/9/e6e287/dm-cinder2k3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/e/9/e6e287/dm-cinder2k3.zip"
   main: false
   repack: false
   state: "OK"

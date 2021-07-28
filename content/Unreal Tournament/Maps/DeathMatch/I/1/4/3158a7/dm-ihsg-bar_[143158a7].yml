@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:38"
+game: "Unreal Tournament"
+name: "DM-IHSG-Bar"
+author: "Modified for IHSG"
+description: "Friday night in the Local"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "dm-ihsg-bar.zip"
+hash: "143158a70cad4ee4a46dc0ed6a526415937a820f"
+fileSize: 510497
+files:
+- name: "DM-IHSG-Bar.unr"
+  fileSize: 1673238
+  hash: "39094f1632740eba5b4db2fcdabdac074e3d4172"
+otherFiles: 0
+dependencies:
+  DM-IHSG-Bar.unr:
+  - status: "MISSING"
+    name: "ihsg"
+  - status: "MISSING"
+    name: "DRMPa"
+  - status: "MISSING"
+    name: "bytesize"
+  - status: "MISSING"
+    name: "BRdmSE"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ihsg-bar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-ihsg-bar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/1/4/3158a7/dm-ihsg-bar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/1/4/3158a7/dm-ihsg-bar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-IHSG-Bar"
+playerCount: "8-10"
+themes:
+  Industrial: 1.0
+bots: true

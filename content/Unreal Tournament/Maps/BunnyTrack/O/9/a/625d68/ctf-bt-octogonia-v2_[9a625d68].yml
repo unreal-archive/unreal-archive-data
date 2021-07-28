@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:31"
+game: "Unreal Tournament"
+name: "CTF-BT-Octogonia-v2"
+author: "Ba'alzammon"
+description: "Bienvenue !"
+releaseDate: "2014-11"
+attachments: []
+originalFilename: "CTF-BT-Octogonia-v2.zip"
+hash: "9a625d683fd75b6d09d1917a066e770a6caa4e5e"
+fileSize: 19964846
+files:
+- name: "Quake3.utx"
+  fileSize: 20127764
+  hash: "68bc9bcad42cc943643aacdd071b2f82d31a5a16"
+- name: "CTF-BT-Octogonia-v2.unr"
+  fileSize: 10483874
+  hash: "04ff1e19254ed71243d7b8316cf958ea2c7b632d"
+- name: "UTemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+- name: "Quake3textures-1.utx"
+  fileSize: 3264279
+  hash: "c9df0357f1b8cb1c4de0efb0d344cf189c75061b"
+- name: "ty_dxeffects.utx"
+  fileSize: 162605
+  hash: "bdee2294db54c922579d7bbc4897f27a4f25337d"
+otherFiles: 0
+dependencies:
+  CTF-BT-Octogonia-v2.unr:
+  - status: "OK"
+    name: "ty_dxeffects"
+  - status: "OK"
+    name: "UTemple"
+  - status: "OK"
+    name: "Quake3"
+  - status: "OK"
+    name: "Quake3textures-1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Octogonia-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/O/CTF-BT-Octogonia-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Octogonia-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/O/9/a/625d68/CTF-BT-Octogonia-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/O/9/a/625d68/CTF-BT-Octogonia-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Octogonia"
+playerCount: "1-12"
+themes:
+  Tech: 0.6
+  Skaarj Crypt: 0.1
+  Nali Castle: 0.3
+bots: false

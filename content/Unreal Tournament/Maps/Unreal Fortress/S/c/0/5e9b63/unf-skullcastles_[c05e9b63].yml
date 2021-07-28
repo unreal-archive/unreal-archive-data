@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 20:22"
+game: "Unreal Tournament"
+name: "UNF-SkullCastles"
+author: "Ragan\"BONE\"Murphy"
+description: "SKULL CASTLES"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "UNF-SkullCastles_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unreal%20Fortress/S/UNF-SkullCastles_shot_1.png"
+originalFilename: "UNF-SkullCastles.zip"
+hash: "c05e9b638301d32e47e0555d757556b2f86bdd24"
+fileSize: 1266581
+files:
+- name: "Skull2.utx"
+  fileSize: 470576
+  hash: "f72f8ff88278b8fb53fb4657353d937ce53d96a9"
+- name: "CoreTexStone.utx"
+  fileSize: 23566
+  hash: "b32c17a85c459420d5f051b256d2821ecf8b928e"
+- name: "UNF-SkullCastles.unr"
+  fileSize: 2907767
+  hash: "c4b5cba9f48a40e683a0a85964453ad0fdd60088"
+- name: "CoreTexDetail.utx"
+  fileSize: 17922
+  hash: "963e365f460d8e82e4dc54944c5567149beb031c"
+otherFiles: 1
+dependencies:
+  CoreTexStone.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  UNF-SkullCastles.unr:
+  - status: "OK"
+    name: "Skull2"
+  - status: "MISSING"
+    name: "UNF-MadMonkTextures"
+  - status: "MISSING"
+    name: "UnrealFortress"
+  - status: "OK"
+    name: "CoreTexStone"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsMisc/&file=UNF-SkullCastles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unreal%20Fortress/S/UNF-SkullCastles.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsU/&file=UNF-SkullCastles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/UnrealFortress&file=UNF-SkullCastles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsU/UNF-SkullCastles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unreal%20Fortress/S/c/0/5e9b63/UNF-SkullCastles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Unreal%20Fortress/S/c/0/5e9b63/UNF-SkullCastles.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unreal Fortress"
+title: "Skull Castles"
+playerCount: "8-16"
+themes:
+  Industrial: 0.4
+  Ancient: 0.3
+  Natural: 0.2
+  Skaarj Tech: 0.1
+bots: true

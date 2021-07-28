@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:21"
+game: "Unreal"
+name: "DM[SP]SniperForest"
+author: "MOHOG *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2009-06"
+attachments: []
+originalFilename: "DM[SP]SniperForest.zip"
+hash: "7c698c99995a8823b945474af3e38d7202dafc48"
+fileSize: 3476221
+files:
+- name: "DM[SP]SniperForest.unr"
+  fileSize: 1103503
+  hash: "58dd0f73bdf704f5bf277b64fdbbb040f60b5fd0"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "SnipeForest.utx"
+  fileSize: 974427
+  hash: "a989a31e9ff83159c084ddc7bfccc04d0e3e657a"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+otherFiles: 0
+dependencies:
+  DM[SP]SniperForest.unr:
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "OK"
+    name: "SnipeForest"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "TobioTrees"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DSniperForest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/7/c/698c99/DM%255BSP%255DSniperForest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/7/c/698c99/DM%255BSP%255DSniperForest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Sniper Forrest"
+playerCount: "8-10"
+themes:
+  Natural: 1.0
+bots: true

@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "INF_Shrapnel(v3)"
+author: ".50cal"
+description: "Kick ass, Seabass!"
+releaseDate: "2006-09"
+attachments: []
+originalFilename: "INF_Shrapnel(v3).zip"
+hash: "180c1272aaa407ac255e2f68c7252f5ab7edd358"
+fileSize: 3066270
+files:
+- name: "INF_Shrapnel(v3).unr"
+  fileSize: 1853160
+  hash: "c3ecd411ffd0cb9f66a37691e04c64ddfe445d67"
+- name: "dyna.u"
+  fileSize: 10846
+  hash: "6f804724f7fab96406aa5491b60320c16afac4b1"
+- name: "shraptex3.utx"
+  fileSize: 725915
+  hash: "1160f528035db1f9df4e314086e47ffb69fc6a0f"
+- name: "sky.utx"
+  fileSize: 4202675
+  hash: "058c39ecc39dd08a8ec2cc41fe97a236d71b9f7e"
+otherFiles: 1
+dependencies:
+  INF_Shrapnel(v3).unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "dyna"
+  - status: "MISSING"
+    name: "infiltration"
+  - status: "OK"
+    name: "shraptex3"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_Shrapnel%28v3%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/S/INF_Shrapnel(v3).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_Shrapnel(v3).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/S/1/8/0c1272/INF_Shrapnel(v3).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/S/1/8/0c1272/INF_Shrapnel(v3).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Shrapnel (v3)"
+playerCount: "Alot!"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.6
+  Nali Castle: 0.3
+bots: true

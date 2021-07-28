@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:07"
+variationOf: "800a2468c90a445804458897cf55370bc9f04345"
+game: "Unreal Tournament"
+name: "JB-MilitiaThunder"
+author: "DireIce"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "jb-militiathunder_shot_9a251a2e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/M/9/a/251a2e/jb-militiathunder_shot_9a251a2e_1.png"
+originalFilename: "jb-militiathunder.zip"
+hash: "9a251a2effc8c1883a373887c93123422ffdef63"
+fileSize: 1365121
+files:
+- name: "NBSpecials.u"
+  fileSize: 288711
+  hash: "a5e87b92d70195587c6fcc38ab1154c94117a106"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "JB-MilitiaThunder.unr"
+  fileSize: 3102882
+  hash: "1bb35ce45016eb12e67854793a25bc22fbdb258f"
+- name: "NBCRM.u"
+  fileSize: 55251
+  hash: "3be25f7deb275db8d70f19acd78e8b96fc7e019d"
+otherFiles: 1
+dependencies:
+  JB-MilitiaThunder.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "NBSpecials"
+  - status: "MISSING"
+    name: "Jailbreak"
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/M/jb-militiathunder.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jb-militiathunder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=jb-militiathunder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-militiathunder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Jailbreak/jb-militiathunder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/M/9/a/251a2e/jb-militiathunder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/M/9/a/251a2e/jb-militiathunder.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "JB Militia Thunder v1.0"
+playerCount: "12-32"
+themes:
+  Industrial: 0.5
+  City: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.2
+bots: true

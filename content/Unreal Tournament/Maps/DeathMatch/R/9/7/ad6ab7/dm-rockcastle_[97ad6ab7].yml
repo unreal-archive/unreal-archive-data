@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:35"
+game: "Unreal Tournament"
+name: "DM-RockCastle"
+author: "Dörflinger Matthias"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-rockcastle_shot_97ad6ab7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/9/7/ad6ab7/dm-rockcastle_shot_97ad6ab7_1.png"
+originalFilename: "dm-rockcastle2.zip"
+hash: "97ad6ab705d742da3ce3a6617e927217b211f6de"
+fileSize: 3592539
+files:
+- name: "Wot.utx"
+  fileSize: 3803178
+  hash: "580bfa105c0545bf8dbb778a5259d25b1b0223bd"
+- name: "DM-RockCastle.unr"
+  fileSize: 2017097
+  hash: "4b3c59c69f1d49e34f3301fdcc060c0e6e64d648"
+- name: "MyLevel.utx"
+  fileSize: 132861
+  hash: "48616d75dc40f485bae0b3d820469406c2f991ea"
+otherFiles: 1
+dependencies:
+  DM-RockCastle.unr:
+  - status: "OK"
+    name: "WOT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/dm-rockcastle2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsR/&file=dm-rockcastle2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-rockcastle2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsR/dm-rockcastle2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/9/7/ad6ab7/dm-rockcastle2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/9/7/ad6ab7/dm-rockcastle2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "RockCastle"
+playerCount: "4-6"
+themes:
+  Nali Temple: 0.5
+  Nali Castle: 0.4
+bots: true

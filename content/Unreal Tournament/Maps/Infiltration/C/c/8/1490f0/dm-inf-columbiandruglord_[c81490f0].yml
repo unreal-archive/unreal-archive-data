@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:45"
+game: "Unreal Tournament"
+name: "DM-INF-ColumbianDrugLord"
+author: "David Brown"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-ColumbianDrugLord_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-ColumbianDrugLord_shot_1.png"
+originalFilename: "dm-inf-columbiandruglord.zip"
+hash: "c81490f0cab164fcb60714495cba2108b196e277"
+fileSize: 3195277
+files:
+- name: "Manorsnds.uax"
+  fileSize: 281785
+  hash: "e633bee421ffd01ab15d18dda2549d7847192980"
+- name: "DM-INF-ColumbianDrugLord.unr"
+  fileSize: 3437242
+  hash: "d097c77045ebef746720b16f7442f25629b45021"
+- name: "Brown1.utx"
+  fileSize: 2410208
+  hash: "62e10400a729d8e14b44ed4656e1b8718b0f8fc1"
+otherFiles: 1
+dependencies:
+  DM-INF-ColumbianDrugLord.unr:
+  - status: "OK"
+    name: "Brown1"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  - status: "OK"
+    name: "Manorsnds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-columbiandruglord.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-columbiandruglord.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/C/c/8/1490f0/dm-inf-columbiandruglord.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/C/c/8/1490f0/dm-inf-columbiandruglord.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Columbian Drug Lord"
+playerCount: "4-12"
+themes:
+  Ancient: 0.1
+  Egyptian: 0.1
+  City: 0.5
+  Natural: 0.3
+bots: true

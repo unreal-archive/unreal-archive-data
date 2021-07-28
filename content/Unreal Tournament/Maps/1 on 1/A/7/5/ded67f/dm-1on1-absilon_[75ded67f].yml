@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:51"
+game: "Unreal Tournament"
+name: "DM-1on1-Absilon"
+author: "Jim '{KAI}Cannon' Albright"
+description: "None"
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-1on1-Absilon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/A/DM-1on1-Absilon_shot_1.png"
+originalFilename: "DM-1on1-Absilon.zip"
+hash: "75ded67fcb09121d5315c3c135f178a9f2e990f6"
+fileSize: 1667244
+files:
+- name: "DavidMSky.utx"
+  fileSize: 3116000
+  hash: "ea852461bae4677628ac3fa7908d7424a78e1c11"
+- name: "DM-1on1-Absilon.unr"
+  fileSize: 1315907
+  hash: "40d1e1c6a293b88df77424891b19b5b0ffe615a1"
+otherFiles: 1
+dependencies:
+  DM-1on1-Absilon.unr:
+  - status: "OK"
+    name: "DavidMSky"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/A/DM-1on1-Absilon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-1on1-Absilon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/1%20on%201/A/7/5/ded67f/DM-1on1-Absilon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/1%20on%201/A/7/5/ded67f/DM-1on1-Absilon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "DM-{KAI}-1on1-Absilon"
+playerCount: "2-8"
+themes:
+  Tech: 1.0
+bots: true

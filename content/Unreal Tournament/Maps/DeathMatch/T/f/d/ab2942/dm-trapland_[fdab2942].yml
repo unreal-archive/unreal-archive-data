@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:14"
+game: "Unreal Tournament"
+name: "dm-Trapland"
+author: "bioxid Alias Thoorens F."
+description: "Have a look in the village for bonus"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-Trapland_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/dm-Trapland_shot_1.png"
+originalFilename: "dm-trapland.zip"
+hash: "fdab29427052699e16fbc916ffda8e684943d641"
+fileSize: 1476378
+files:
+- name: "dm-Trapland.unr"
+  fileSize: 1843879
+  hash: "06beb7ddde835cb206bfc321e1d8331f5ce8c66c"
+- name: "minetrap.utx"
+  fileSize: 99558
+  hash: "f5093e19b2cc3f5be77584e03582b65d66717a3b"
+- name: "UTemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+- name: "francesca.utx"
+  fileSize: 662992
+  hash: "19fca4b9e6187f03935bb5273942bbe79540b129"
+otherFiles: 0
+dependencies:
+  dm-Trapland.unr:
+  - status: "OK"
+    name: "francesca"
+  - status: "OK"
+    name: "minetrap"
+  - status: "OK"
+    name: "UTemple"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-trapland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-trapland.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3235"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/f/d/ab2942/dm-trapland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/f/d/ab2942/dm-trapland.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Trapland"
+playerCount: "2 - 5"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.1
+  Ancient: 0.2
+  Natural: 0.2
+  Nali Castle: 0.5
+bots: true

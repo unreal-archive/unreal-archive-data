@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 19:35"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ONS-FORTS-Outland"
 author: "Dennis(D3nnisK)Koppenhagen"
@@ -40,13 +39,15 @@ dependencies:
   ONS-FORTS-Outland.ut2:
   - status: "MISSING"
     name: "DKoppII"
-    providedBy: null
   - status: "MISSING"
     name: "DKopp2Meshes"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/F/0/2/e70400/ONS-FORTS-Outland.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/F/0/2/e70400/ONS-FORTS-Outland.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

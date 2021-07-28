@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 07:04"
+game: "Unreal Tournament"
+name: "CTF-Stratos"
+author: "Brian R. Dempsey"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Stratos_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Stratos_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Stratos_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Stratos_shot_1.png"
+originalFilename: "ctf-stratos.zip"
+hash: "0fa6fe78aab8e10322ee24f1038e73e5fb74ee83"
+fileSize: 8715787
+files:
+- name: "CTF-Stratos.unr"
+  fileSize: 14815173
+  hash: "33c362ff622749fe7d77b9a9968d4e4636ee1a88"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "StarTrek.u"
+  fileSize: 3549692
+  hash: "8995345217608f32a7fdfcafe91b471e144e98f7"
+otherFiles: 2
+dependencies:
+  CTF-Stratos.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "StarTrek"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-stratos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-stratos.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=490"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/0/f/a6fe78/ctf-stratos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/0/f/a6fe78/ctf-stratos.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Stratos Space Arena"
+playerCount: "12-16"
+themes:
+  Tech: 1.0
+bots: true

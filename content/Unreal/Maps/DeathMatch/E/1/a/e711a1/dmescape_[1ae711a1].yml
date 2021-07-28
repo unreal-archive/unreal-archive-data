@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:41"
+game: "Unreal"
+name: "DmEscape"
+author: "Prowler and UnLeaded"
+description: "There is no escaping Medusa..."
+releaseDate: "2005-10"
+attachments: []
+originalFilename: "DmEscape.zip"
+hash: "1ae711a14d365830aa1924df347cf9ce80d47020"
+fileSize: 967230
+files:
+- name: "DmEscape.unr"
+  fileSize: 836728
+  hash: "9b1fee36e9ad5008d878743c203946d6cd752b22"
+- name: "Mech8.umx"
+  fileSize: 747774
+  hash: "bd3121719c14c8ee0abd8d4714afe97aba46b7ca"
+- name: "Scape.utx"
+  fileSize: 355108
+  hash: "e16aa4ecf635d9e900cf799a3eec0528d2316378"
+otherFiles: 0
+dependencies:
+  DmEscape.unr:
+  - status: "OK"
+    name: "Scape"
+  - status: "OK"
+    name: "Mech8"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/unleaded_maps/DmEscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/E/1/a/e711a1/DmEscape.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/E/1/a/e711a1/DmEscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/E/1/a/e711a1/DmEscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Escaping Medusa"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:20"
+game: "Unreal Tournament"
+name: "DM-KTB-Donut"
+author: "[KTB]_KING_Nipple"
+description: "\"Welcome to the Donut...eat Esr, and die!\""
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-KTB-Donut_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/DM-KTB-Donut_shot_1.png"
+originalFilename: "dm-ktb-donut.zip"
+hash: "003f55dea1c65a0fb0235477d6d4a292f5138c96"
+fileSize: 1712971
+files:
+- name: "Donuttex.utx"
+  fileSize: 1503861
+  hash: "d4a0403c313bc5914a13f999bbc1990383886eaf"
+- name: "KTBwrif.umx"
+  fileSize: 1216297
+  hash: "993d63b181bcba8c54e18fcbde516966051d33c1"
+- name: "DM-KTB-Donut.unr"
+  fileSize: 1084548
+  hash: "b839753e0c7ff15b41739d9e1cbfbf4a253574d3"
+otherFiles: 1
+dependencies:
+  DM-KTB-Donut.unr:
+  - status: "OK"
+    name: "KTBwrif"
+  - status: "OK"
+    name: "Donuttex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/dm-ktb-donut.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dm-ktb-donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-KTB-Donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ktb-donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-KTB-Donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsK/dm-ktb-donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/0/0/3f55de/dm-ktb-donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/0/0/3f55de/dm-ktb-donut.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-KTB-Donut"
+playerCount: "10-12"
+themes:
+  Nali Temple: 0.4
+  City: 0.6
+bots: false

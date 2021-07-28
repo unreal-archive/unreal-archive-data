@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:12"
+game: "Unreal Tournament"
+name: "DM-NearFuture"
+author: "NuKeR"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-NearFuture_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NearFuture_shot_1.png"
+originalFilename: "dm-nearfuture.zip"
+hash: "31459a67f50c1598ac350bd02382d317fd37089d"
+fileSize: 760776
+files:
+- name: "DM-NearFuture.unr"
+  fileSize: 1739556
+  hash: "f20180a6abc00ca86efab0fd4bd6b617c99008b7"
+- name: "criteria.umx"
+  fileSize: 960880
+  hash: "c86ac66940f6ba414be0a2c225a6ed9da23a0302"
+otherFiles: 1
+dependencies:
+  DM-NearFuture.unr:
+  - status: "OK"
+    name: "criteria"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-nearfuture.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/dm-nearfuture.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=716"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/3/1/459a67/dm-nearfuture.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/3/1/459a67/dm-nearfuture.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Arena : Near Future ..."
+playerCount: "2-4"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true

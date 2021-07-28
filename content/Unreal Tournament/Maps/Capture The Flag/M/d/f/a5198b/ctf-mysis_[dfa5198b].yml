@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:13"
+game: "Unreal Tournament"
+name: "CTF-Mysis"
+author: "Multi and {WINGS}xXx"
+description: "None"
+releaseDate: "2011-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-mysis_shot_dfa5198b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/ctf-mysis_shot_dfa5198b_1.png"
+originalFilename: "CTF-Mysis.zip"
+hash: "dfa5198ba018db5b36126e9f96400b647e5f9274"
+fileSize: 9231860
+files:
+- name: "EgptRX.utx"
+  fileSize: 8203990
+  hash: "b49bd02cd64123a2614031118e2a57338555b1d9"
+- name: "TheViperPit.umx"
+  fileSize: 2998293
+  hash: "e700dc7d814737ba41c74208f144217a5f2d96e2"
+- name: "CTF-Mysis.unr"
+  fileSize: 5755208
+  hash: "39697d07197e48829dd0db918c9039e12caf9400"
+- name: "EgyptRXDeco.u"
+  fileSize: 427418
+  hash: "2fc7ccc08325674ea34049b73616ea6425936165"
+otherFiles: 0
+dependencies:
+  CTF-Mysis.unr:
+  - status: "OK"
+    name: "EgptRX"
+  - status: "OK"
+    name: "TheViperPit"
+  - status: "OK"
+    name: "EgyptRXDeco"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-Mysis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-Mysis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-Mysis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/d/f/a5198b/CTF-Mysis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/d/f/a5198b/CTF-Mysis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "-= Mysis =-"
+playerCount: "14-16"
+themes:
+  Egyptian: 1.0
+bots: true

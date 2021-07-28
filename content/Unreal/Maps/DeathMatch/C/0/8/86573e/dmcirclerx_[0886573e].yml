@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:02"
+game: "Unreal"
+name: "dmCircleRX"
+author: "Map by Grim(Co30-UK), Music by Joe Satriani and Steve Vai"
+description: "Dedicated to my dear Olde Ma and Pa"
+releaseDate: "2001-12"
+attachments: []
+originalFilename: "dmCircleRX.zip"
+hash: "0886573e9328b3f87fb023892a27919db1f8d0da"
+fileSize: 3435173
+files:
+- name: "CrustyLogo2.utx"
+  fileSize: 701970
+  hash: "4e166c04302be04c47812e47aabfd91021fd0c4d"
+- name: "dmCircleRX.unr"
+  fileSize: 1910572
+  hash: "c365490c48cb36d981746522a2b6518c0e21152a"
+- name: "CITR.utx"
+  fileSize: 46532
+  hash: "0b75e3f680481459ce9a63d5f0ffad9b0886e27a"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "Formula1.umx"
+  fileSize: 2900051
+  hash: "a372c278be41a39ec8bbfa691e0ee6cede0b6159"
+otherFiles: 1
+dependencies:
+  dmCircleRX.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "Formula1"
+  - status: "OK"
+    name: "CrustyLogo2"
+  - status: "OK"
+    name: "CITR"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmCircleRX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/C/0/8/86573e/dmCircleRX.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/0/8/86573e/dmCircleRX.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/C/0/8/86573e/dmCircleRX.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Circle In The Round"
+playerCount: "4 - 8 Players"
+themes:
+  Nali Temple: 1.0
+bots: true

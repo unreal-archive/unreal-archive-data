@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-20 00:25"
-variationOf: null
 game: "Unreal"
 name: "GibGuns"
 author: "MinorWolf"
@@ -23,13 +22,16 @@ dependencies:
   GibGuns.unr:
   - status: "OK"
     name: "GibGun"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/G/gibgun.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/G/0/5/98ac20/gibgun.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/G/0/5/98ac20/gibgun.zip"
   main: false
   repack: false
   state: "OK"

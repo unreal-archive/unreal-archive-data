@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 19:52"
+game: "Unreal Tournament"
+name: "DM-Nacript"
+author: "Deda23"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-nacript_shot_bc47e938_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/b/c/47e938/dm-nacript_shot_bc47e938_1.png"
+originalFilename: "dm-nacript.zip"
+hash: "bc47e9387c4ac2920bbf4e608402f46a4cd1cc62"
+fileSize: 1031161
+files:
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+- name: "DM-Nacript.unr"
+  fileSize: 1346389
+  hash: "702d7ef262b7d4847dfc4dfe0ef8b08e1e2a90f9"
+otherFiles: 1
+dependencies:
+  DM-Nacript.unr:
+  - status: "OK"
+    name: "Nali"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=371"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/b/c/47e938/dm-nacript.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/b/c/47e938/dm-nacript.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/b/c/47e938/dm-nacript.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-NACRIPT"
+playerCount: "4-8"
+themes:
+  Nali Castle: 1.0
+bots: true

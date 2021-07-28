@@ -1,0 +1,123 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:32"
+game: "Unreal Tournament"
+name: "MH-OmG_Brutality_Bot"
+author: "NOT Pizzi"
+description: "BSP shite removed from this Level. Awaiting original authors to fix\
+  \ the dirt done."
+releaseDate: "2011-01"
+attachments:
+- type: "IMAGE"
+  name: "MH-OmG_Brutality_Bot_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/O/MH-OmG_Brutality_Bot_shot_1.png"
+originalFilename: "MH-OmG_Brutality_Bot.7z"
+hash: "c40c3dc28c7e53200bfa08dd2d2db7a6b9685e24"
+fileSize: 6472509
+files:
+- name: "WoD.u"
+  fileSize: 729143
+  hash: "d5ccf04c8336d19ce53d316d14f10de1d36b1b8d"
+- name: "snowpack.utx"
+  fileSize: 1019610
+  hash: "881477d78a553c881cd96946b27a4462f1ec5d89"
+- name: "asgard2.u"
+  fileSize: 73938
+  hash: "b9907084f5d3a65f69bd7a5c8ea73ceb2aa4c2fe"
+- name: "AsgardSpinner.u"
+  fileSize: 2076663
+  hash: "f617be956a9ad2776f2bedb7328b0caabcb1ee78"
+- name: "THmaptex.utx"
+  fileSize: 260158
+  hash: "31622d6ee437b18b2e683412ac7d8b731a1816c2"
+- name: "Humane.u"
+  fileSize: 62341
+  hash: "ac5a0ae2d4bac9297c22edc21ba86ac61b02933d"
+- name: "BBoyPawn.u"
+  fileSize: 1256939
+  hash: "1ca837badf38d1b069bfaf2ae5ae3c65355c4724"
+- name: "MH-OmG_Brutality_Bot.unr"
+  fileSize: 1475256
+  hash: "4556613ef23143a9e01083fadfee0af10a9dca9f"
+- name: "AmBrosia.utx"
+  fileSize: 1472625
+  hash: "f467e215a8d9e9d61be950c9d1c92883387aab11"
+- name: "commandoskins_grants.utx"
+  fileSize: 1596502
+  hash: "b36761a2c9be48a984f526dddf15b5109f2f5420"
+- name: "MOZSledgeV3.u"
+  fileSize: 871407
+  hash: "e1601db4363f366e19841958d4fa242a7ae7589c"
+- name: "MHLogos.utx"
+  fileSize: 249636
+  hash: "6816135b9e60d8b83a91c9a612629dacf274aa1f"
+- name: "Bedroom.utx"
+  fileSize: 1442504
+  hash: "bc5075336da8f9a1acbca6212eda7c09f962b194"
+- name: "AAA_Auki_HayWirev2_LS.u"
+  fileSize: 395357
+  hash: "b0aac4e3add28317ad41a0f93fdb53e9daf64b3c"
+- name: "Quake3c.utx"
+  fileSize: 1756884
+  hash: "24825a99bdc76cda3eb138fdf37d69e510d560f9"
+otherFiles: 0
+dependencies:
+  Humane.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+  MH-OmG_Brutality_Bot.unr:
+  - status: "OK"
+    name: "AsgardSpinner"
+  - status: "OK"
+    name: "WoD"
+  - status: "OK"
+    name: "THmaptex"
+  - status: "OK"
+    name: "Bedroom"
+  - status: "OK"
+    name: "QUAKE3c"
+  - status: "OK"
+    name: "AAA_Auki_HayWirev2_LS"
+  - status: "OK"
+    name: "snowpack"
+  - status: "MISSING"
+    name: "BPak"
+  - status: "OK"
+    name: "asgard2"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "MHLogos"
+  - status: "OK"
+    name: "BBoyPawn"
+  - status: "OK"
+    name: "AmBrosia"
+  - status: "OK"
+    name: "Humane"
+  - status: "OK"
+    name: "MOZSledgeV3"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-OmG_Brutality_Bot.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/O/MH-OmG_Brutality_Bot.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/O/c/4/0c3dc2/MH-OmG_Brutality_Bot.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/c/4/0c3dc2/MH-OmG_Brutality_Bot.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Brutality - A.I. Version"
+playerCount: "3-5"
+themes:
+  Tech: 0.9
+  Skaarj Tech: 0.1
+bots: true

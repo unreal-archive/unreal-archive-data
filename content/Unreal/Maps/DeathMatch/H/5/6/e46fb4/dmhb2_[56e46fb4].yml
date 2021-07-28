@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:44"
+game: "Unreal"
+name: "DMHB2"
+author: "Sinji-(DOG)-"
+description: "None"
+releaseDate: "2006-08"
+attachments: []
+originalFilename: "DMHB2.unr.zip"
+hash: "56e46fb4b337f8a1689f689a4982dbfb8f27338f"
+fileSize: 4313083
+files:
+- name: "GouSound.uax"
+  fileSize: 815432
+  hash: "b9c3f8285b6f41f8fe441bb988f6160ad89106a0"
+- name: "M01Sky.utx"
+  fileSize: 352933
+  hash: "3011b21675d024ec41a29eebd667531271c205e2"
+- name: "SequoiaTXT2.utx"
+  fileSize: 151520
+  hash: "94d9007583272a94b00e91ccfd0da536800c5e11"
+- name: "DMHB2.unr"
+  fileSize: 4615744
+  hash: "e720aa3eb50ea0c75a405545fb2f36922e420784"
+- name: "MWorld.utx"
+  fileSize: 826189
+  hash: "6b702dddf927142ac692f1e42de955a3f1114591"
+- name: "SequoiaTXT1.utx"
+  fileSize: 3082670
+  hash: "7a41adba00bd649f258661c9fc363535dd5d85f0"
+otherFiles: 0
+dependencies:
+  DMHB2.unr:
+  - status: "MISSING"
+    name: "ConstantSorrow"
+  - status: "OK"
+    name: "M01Sky"
+  - status: "OK"
+    name: "MWorld"
+  - status: "OK"
+    name: "SequoiaTXT2"
+  - status: "OK"
+    name: "SequoiaTXT1"
+  - status: "OK"
+    name: "gousound"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMHB2.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/5/6/e46fb4/DMHB2.unr.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/5/6/e46fb4/DMHB2.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/5/6/e46fb4/DMHB2.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMHB2"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Skaarj Tech: 0.6
+  Nali Castle: 0.3
+bots: true

@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:48"
+game: "Unreal"
+name: "DM[SP]SniperessCity"
+author: "[TA]SuperSniperess *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2008-04"
+attachments:
+- type: "IMAGE"
+  name: "DM[SP]SniperessCity_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/DM%5BSP%5DSniperessCity_shot_1.png"
+originalFilename: "DM[SP]SniperessCity.zip"
+hash: "4a9cd93d9563c0ae98ce2d599e60c0817f028df3"
+fileSize: 9037473
+files:
+- name: "SP_Loseyou.umx"
+  fileSize: 7063175
+  hash: "6f6a4b4775d119b9c18f2b446e4186d3cc8a8de4"
+- name: "DM[SP]SniperessCity.unr"
+  fileSize: 10134481
+  hash: "dc05a50235849a5cd5ab393a36cddfe884646b65"
+otherFiles: 0
+dependencies:
+  DM[SP]SniperessCity.unr:
+  - status: "OK"
+    name: "SP_Loseyou"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DSniperessCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DSniperessCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/4/a/9cd93d/DM%255BSP%255DSniperessCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/4/a/9cd93d/DM%255BSP%255DSniperessCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP]Sniperess City"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

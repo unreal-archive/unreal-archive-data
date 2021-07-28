@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:34"
+game: "Unreal"
+name: "Qtest3"
+author: "Unknown"
+description: "None"
+releaseDate: "1999-01"
+attachments: []
+originalFilename: "q3inunreal.zip"
+hash: "90869002e022f5602d47d9004f68b6a6aae027e4"
+fileSize: 200437
+files:
+- name: "Qtest3.unr"
+  fileSize: 468233
+  hash: "99b964aa5005e9f8e3690e4349db3bbd4192ffdf"
+- name: "tests.utx"
+  fileSize: 93131
+  hash: "dd2c552fc1e3f8f329c789be46dd1cc23d2aadec"
+- name: "Q3.u"
+  fileSize: 30494
+  hash: "13ae2ff6f8a6d0e816fb8e9c6391a301e6ddd727"
+otherFiles: 1
+dependencies:
+  Qtest3.unr:
+  - status: "OK"
+    name: "Q3"
+  - status: "OK"
+    name: "tests"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6169793"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/Q/q3inunreal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/q3inunreal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/Q/9/0/869002/q3inunreal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/Q/9/0/869002/q3inunreal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "Qtest3"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.2
+  Skaarj Tech: 0.7
+bots: false

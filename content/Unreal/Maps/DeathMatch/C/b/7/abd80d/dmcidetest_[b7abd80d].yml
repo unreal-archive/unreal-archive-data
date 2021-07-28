@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-20 00:24"
+game: "Unreal"
+name: "DMCIDETEST"
+author: "Unknown"
+description: "None"
+releaseDate: "1999-06"
+attachments: []
+originalFilename: "cide1.zip"
+hash: "b7abd80d0999236a36cafa2205e59040adac28f6"
+fileSize: 202735
+files:
+- name: "CIDEsnd.uax"
+  fileSize: 70745
+  hash: "5e602b25058bb18d6762b2bfedd1e380e0e47189"
+- name: "DMCIDETEST.unr"
+  fileSize: 22355
+  hash: "829f364609906ab613a1d0e407b18bad8bda18af"
+- name: "CIDE.u"
+  fileSize: 286610
+  hash: "a39f3da3dde1a302b3f3aeaaa06d5cbc97e3583c"
+otherFiles: 1
+dependencies:
+  CIDE.u:
+  - status: "OK"
+    name: "CIDEsnd"
+  DMCIDETEST.unr:
+  - status: "OK"
+    name: "CIDE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/C/cide1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/b/7/abd80d/cide1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/C/b/7/abd80d/cide1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMCIDETEST"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: false

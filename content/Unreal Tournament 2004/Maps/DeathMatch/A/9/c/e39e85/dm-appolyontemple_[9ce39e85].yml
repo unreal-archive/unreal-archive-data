@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 20:45"
+game: "Unreal Tournament 2004"
+name: "DM-AppolyonTemple"
+author: "Hedges & Stiles"
+description: "Isle of Appolyon - Goddess of the feminine powers! Worship her Strenght!"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-appolyontemple_shot_9ce39e85_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-appolyontemple_shot_9ce39e85_1.png"
+originalFilename: "dm-appolyontemple.7z"
+hash: "9ce39e85b841c929c2feaa3d9b0cd839b234ec34"
+fileSize: 7135819
+files:
+- name: "DM-AppolyonTemple.ut2"
+  fileSize: 10147220
+  hash: "455fde683507775187d6644965e38518c6a0a092"
+- name: "Godz_RomanTex.utx"
+  fileSize: 6994899
+  hash: "9678ae159a289b5aa4628b6c75bfa1cffe44838b"
+- name: "G_RomanStatic.usx"
+  fileSize: 473280
+  hash: "8c88b355088d5a45261323ada9293a109e74a1ab"
+- name: "GODZ_StatueTex.utx"
+  fileSize: 1577804
+  hash: "bf251d39d08aa64173710db99495beac99e5edf9"
+- name: "GODZ_Static_Statues.usx"
+  fileSize: 6813571
+  hash: "dda1904b21e5d8f0908d82930da38e60b852a3cb"
+otherFiles: 1
+dependencies:
+  DM-AppolyonTemple.ut2:
+  - status: "OK"
+    name: "G_RomanStatic"
+  - status: "OK"
+    name: "GODZ_Static_Statues"
+  - status: "OK"
+    name: "Godz_RomanTex"
+  G_RomanStatic.usx:
+  - status: "OK"
+    name: "Godz_RomanTex"
+  GODZ_Static_Statues.usx:
+  - status: "OK"
+    name: "GODZ_StatueTex"
+downloads:
+- url: "https://gamebanana.com/maps/download/14888"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-appolyontemple.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/A/9/c/e39e85/dm-appolyontemple.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/9/c/e39e85/dm-appolyontemple.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Appolyon Temple"
+playerCount: "12"
+themes:
+  Tech: 0.1
+  Ancient: 0.9
+bots: true

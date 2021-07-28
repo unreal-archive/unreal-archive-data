@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:20"
+game: "Unreal Tournament"
+name: "TO-UnderWorld"
+author: "-Yezariael-"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "TO-UnderWorld_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/U/TO-UnderWorld_shot_1.png"
+originalFilename: "TO-UnderWorld.zip"
+hash: "d2638e8b8746217138fef786a22c941e51c7d268"
+fileSize: 3443902
+files:
+- name: "Blank.umx"
+  fileSize: 481
+  hash: "45ee888578fcfba57eeed5147d916e7da8ab9567"
+- name: "TO-UnderWorld.unr"
+  fileSize: 5217848
+  hash: "c18189eb69be893c6eebe41cd0756394d6821b5a"
+- name: "Industrial_Pack1.u"
+  fileSize: 2164988
+  hash: "e48d99d0577ec376c0a55d505601db7378af9c28"
+- name: "WSBottleCanPack1.u"
+  fileSize: 422500
+  hash: "43059b071befe09264e1c45bb50121c21a576803"
+otherFiles: 1
+dependencies:
+  TO-UnderWorld.unr:
+  - status: "MISSING"
+    name: "richchurch"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "OK"
+    name: "Industrial_Pack1"
+  - status: "MISSING"
+    name: "TO-Neuro2"
+  - status: "OK"
+    name: "Blank"
+  - status: "MISSING"
+    name: "TO-Neuro1"
+  - status: "MISSING"
+    name: "Verdon"
+  - status: "MISSING"
+    name: "TO-ganja-free-1"
+  - status: "OK"
+    name: "WSBottleCanPack1"
+  - status: "MISSING"
+    name: "RKLphoto1"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-UnderWorld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/U/TO-UnderWorld.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-UnderWorld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/U/d/2/638e8b/TO-UnderWorld.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/U/d/2/638e8b/TO-UnderWorld.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "UnderWorld"
+playerCount: "Up to 20"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.4
+  Industrial: 0.3
+  Natural: 0.1
+bots: true

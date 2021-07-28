@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 14:11"
+game: "Unreal Tournament 2004"
+name: "DM-Steam"
+author: "crzyGRG"
+description: "A small level with plenty of mid-air action and a lot of short distance\
+  \ fighting. WATCH YOUR BACK!!!"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Steam_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Steam_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Steam_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Steam_shot_1.png"
+originalFilename: "dm-steam.zip"
+hash: "791b47f18f698e3fb088a70694757bd69583032d"
+fileSize: 3041999
+files:
+- name: "DM-Steam.ut2"
+  fileSize: 2754479
+  hash: "4742eefbdbdb7fa47fb244d01c688a2569e8f849"
+- name: "11Stalker[DannyCRemix].ogg"
+  fileSize: 2290045
+  hash: "3c4064e7b557d69ac97b89cb6a044a7b11ab7826"
+otherFiles: 2
+dependencies:
+  DM-Steam.ut2:
+  - status: "MISSING"
+    name: "Liandri2003"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1113"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-steam.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/7/9/1b47f1/dm-steam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/7/9/1b47f1/dm-steam.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "STEAM"
+playerCount: "2-6"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true

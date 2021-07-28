@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:10"
+game: "Unreal Tournament"
+name: "CTF-Bleak][ugn"
+author: "Mike Blakesley |edit by flowX"
+description: "#ugn.pug"
+releaseDate: "2010-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Bleak][ugn_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Bleak%5D%5Bugn_shot_1.png"
+originalFilename: "CTF-Bleak][UGN.zip"
+hash: "0c9bdb545893bf44cd8e50e1185ad15c40ab3607"
+fileSize: 613356
+files:
+- name: "bleakUGN.utx"
+  fileSize: 244348
+  hash: "ba428af29c90c3e10e2b644422976a800fe0e28a"
+- name: "CTF-Bleak][ugn.unr"
+  fileSize: 1856152
+  hash: "7c5891bf5d1af37435adf8860b7882f079aab055"
+otherFiles: 0
+dependencies:
+  CTF-Bleak][ugn.unr:
+  - status: "OK"
+    name: "bleakUGN"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Bleak%5D%5BUGN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Bleak%5D%5BUGN.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/0/c/9bdb54/CTF-Bleak%255D%255BUGN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/0/c/9bdb54/CTF-Bleak%255D%255BUGN.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "BleakUGN"
+playerCount: "10"
+themes:
+  Natural: 0.2
+  Skaarj Tech: 0.5
+  Indistrial: 0.3
+bots: true

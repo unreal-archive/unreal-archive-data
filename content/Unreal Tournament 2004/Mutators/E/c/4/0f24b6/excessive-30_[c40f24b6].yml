@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-19 21:27"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "Excessive 3.0"
 author: "Unknown"
@@ -41,23 +40,23 @@ dependencies:
   ExcessiveV3.u:
   - status: "OK"
     name: "ExcessiveMesh"
-    providedBy: null
   - status: "OK"
     name: "ExcessiveTex"
-    providedBy: null
   - status: "OK"
     name: "ExcessiveWeapons"
-    providedBy: null
   ExcessiveMesh.usx:
   - status: "OK"
     name: "ExcessiveTex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/E/excessive_umod.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/E/c/4/0f24b6/excessive_umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/E/c/4/0f24b6/excessive_umod.zip"
   main: false
   repack: false
   state: "OK"

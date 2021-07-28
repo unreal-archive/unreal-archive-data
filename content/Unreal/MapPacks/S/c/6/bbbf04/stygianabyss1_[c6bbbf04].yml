@@ -1,0 +1,84 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-02 10:40"
+game: "Unreal"
+name: "Stygianabyss1"
+author: "Ryan Armstrong"
+description: "None"
+releaseDate: "1999-03"
+attachments: []
+originalFilename: "stygianabyss1.zip"
+hash: "c6bbbf042a711ddc979059ae6974c324a313226a"
+fileSize: 2729539
+files:
+- name: "UwTex.utx"
+  fileSize: 850403
+  hash: "18dbd17e710f7a02b8e636962319449308d8613f"
+- name: "dkuw.unr"
+  fileSize: 1953873
+  hash: "70bb91d61c5fa05529bab46240eed4a5854b72ef"
+- name: "dmuw.unr"
+  fileSize: 2046528
+  hash: "e143b76da959eb099db9377812332edd18cce321"
+- name: "uw.unr"
+  fileSize: 2282785
+  hash: "b8cdc18c5c2da017005ff7a0731b1463c17aaed7"
+- name: "DarkAbyss.umx"
+  fileSize: 431340
+  hash: "8b8bebd6f36ccec4305c3560ac0d6ac3779c7c17"
+otherFiles: 2
+dependencies:
+  dmuw.unr:
+  - status: "OK"
+    name: "UwTex"
+  uw.unr:
+  - status: "OK"
+    name: "UwTex"
+  - status: "OK"
+    name: "DarkAbyss"
+  dkuw.unr:
+  - status: "OK"
+    name: "UwTex"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6092596"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/S/stygianabyss1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/COOP/&file=stygianabyss1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/COOP/stygianabyss1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/stygianabyss1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/S/c/6/bbbf04/stygianabyss1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/S/c/6/bbbf04/stygianabyss1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "uw"
+  title: "Ultima Underworld, Floor 1"
+  author: "Ryan Armstrong"
+- name: "dkuw"
+  title: "Ultima Underworld, Floor 1"
+  author: "Ryan Armstrong"
+- name: "dmuw"
+  title: "Ultima Underworld, Floor 1"
+  author: "Ryan Armstrong"
+gametype: "Mixed"
+themes:
+  Nali Castle: 1.0

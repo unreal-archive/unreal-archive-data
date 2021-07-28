@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:49"
+game: "Unreal Tournament"
+name: "MH-WhitePalace+"
+author: "EZkeel (Simon West-Bulford)"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-whitepalace+.zip"
+hash: "51aa76f4edbfd5424bc701b980c452abaa85e028"
+fileSize: 5466146
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "EZtexture.utx"
+  fileSize: 1052803
+  hash: "a5a01e2d98880e63cf5f3c73f5a3f8df0e53f1c8"
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+- name: "SkyTwn.umx"
+  fileSize: 849903
+  hash: "d6add6fc55b0638260893c09b74bd295596e9e82"
+- name: "MH-WhitePalace+.unr"
+  fileSize: 3142515
+  hash: "93ce7b1c2e103eeaa9871ddadcae753ba6c2825b"
+- name: "AX.u"
+  fileSize: 5964892
+  hash: "8829c49c3a3a5bbf47faf21ddf7da2127148d7b5"
+otherFiles: 1
+dependencies:
+  MH-WhitePalace+.unr:
+  - status: "OK"
+    name: "EZtexture"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SkyTwn"
+  - status: "OK"
+    name: "Nali"
+  - status: "OK"
+    name: "AX"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-whitepalace%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/W/mh-whitepalace%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-whitepalace%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/W/5/1/aa76f4/mh-whitepalace%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/W/5/1/aa76f4/mh-whitepalace%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The White Palace : Sample Map"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.1
+  Nali Castle: 0.3
+bots: true

@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:35"
+game: "Unreal"
+name: "MH-[SP]EasterinWonderland"
+author: "Kayako"
+description: "None"
+releaseDate: "2014-07"
+attachments:
+- type: "IMAGE"
+  name: "mh-speasterinwonderland_shot_788d7a12_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-speasterinwonderland_shot_788d7a12_1.png"
+originalFilename: "MH-[SP]EasterinWonderland.zip"
+hash: "788d7a12ba87a622984314b1844cf4db5bce4a9c"
+fileSize: 9190887
+files:
+- name: "Spire2.umx"
+  fileSize: 895567
+  hash: "40139ca6e50299eea336744ec0b993cf15af5ab4"
+- name: "AnthonyBsDomain.umx"
+  fileSize: 200760
+  hash: "10cc147f3bd1ddee89fd1ef364362e2a7e9740ff"
+- name: "MH-[SP]EasterinWonderland.unr"
+  fileSize: 17458543
+  hash: "fc6cca2e444ba9ecf76a8b31842c5bf286f61ff7"
+- name: "te-secwo.umx"
+  fileSize: 942489
+  hash: "a0a1c5e1c270389c1626fffd78e13f2ee1bb456c"
+otherFiles: 0
+dependencies:
+  MH-[SP]EasterinWonderland.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SPAlice"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "AnthonyBsDomain"
+  - status: "OK"
+    name: "te-secwo"
+  - status: "OK"
+    name: "Spire2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DEasterinWonderland.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/8/8d7a12/MH-%255BSP%255DEasterinWonderland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/8/8d7a12/MH-%255BSP%255DEasterinWonderland.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Easter in Wonderland"
+playerCount: "1-5"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.4
+  Nali Castle: 0.4
+bots: true

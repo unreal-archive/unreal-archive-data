@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:25"
+game: "Unreal"
+name: "MH-[SP]AbismoDeHelm"
+author: "Alejandro Llados alias THUNDERBOLT"
+description: "None"
+releaseDate: "2010-07"
+attachments:
+- type: "IMAGE"
+  name: "mh-spabismodehelm_shot_41a22af2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spabismodehelm_shot_41a22af2_1.png"
+originalFilename: "MH-[SP]Abismo-de-Helm.zip"
+hash: "41a22af2c72b779709e6100a8b8b962ddbc8dfb5"
+fileSize: 6814621
+files:
+- name: "helmisdeep.umx"
+  fileSize: 4307902
+  hash: "23c58bc4b5c4f288a213cc037b7c1e3bc34bf043"
+- name: "Phantom.umx"
+  fileSize: 819883
+  hash: "017ffb49f2769b5317709c1fa2416497d4e4548d"
+- name: "MH-[SP]AbismoDeHelm.unr"
+  fileSize: 5123057
+  hash: "9c7e4f06872058e267c63c2d1003148ed5698281"
+otherFiles: 0
+dependencies:
+  MH-[SP]AbismoDeHelm.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "AssaultAtomizer"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "helmisdeep"
+  - status: "OK"
+    name: "Phantom"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DAbismo-de-Helm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/4/1/a22af2/MH-%255BSP%255DAbismo-de-Helm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/4/1/a22af2/MH-%255BSP%255DAbismo-de-Helm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Abismo-de-Helm"
+playerCount: "8-10 Players"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.1
+  Nali Castle: 0.6
+  Skaarj Tech: 0.2
+bots: true

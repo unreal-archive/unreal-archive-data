@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:47"
+game: "Unreal Tournament"
+name: "DMDeathZone"
+author: "Beppo"
+description: "Just try to stay alive !"
+releaseDate: "1999-07"
+attachments:
+- type: "IMAGE"
+  name: "DMDeathZone_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DMDeathZone_shot_1.png"
+originalFilename: "DMDZUT.zip"
+hash: "873825f6f5dcaa281b44717ab9afa7890eab9d00"
+fileSize: 1368539
+files:
+- name: "NBTank.utx"
+  fileSize: 465770
+  hash: "1c519912ca1c0d93a8386c24e065057a39d2b477"
+- name: "DMDeathZone.unr"
+  fileSize: 3168397
+  hash: "172836aa2a0c85b7f497019da23599d174d30083"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "NBSpecials.u"
+  fileSize: 288711
+  hash: "a5e87b92d70195587c6fcc38ab1154c94117a106"
+otherFiles: 0
+dependencies:
+  DMDeathZone.unr:
+  - status: "OK"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "NBSpecialT"
+  - status: "OK"
+    name: "NBTank"
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsD/&file=DMDZUT.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DMDZUT.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsD/DMDZUT.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/8/7/3825f6/DMDZUT.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/8/7/3825f6/DMDZUT.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DeathZone"
+playerCount: "8-12"
+themes:
+  Natural: 0.4
+  Nali Castle: 0.6
+bots: true

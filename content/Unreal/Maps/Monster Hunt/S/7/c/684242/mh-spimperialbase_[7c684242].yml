@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:45"
+game: "Unreal"
+name: "MH-[SP]ImperialBase"
+author: "THUNDERBOLT"
+description: "None"
+releaseDate: "2014-06"
+attachments:
+- type: "IMAGE"
+  name: "mh-spimperialbase_shot_7c684242_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spimperialbase_shot_7c684242_1.png"
+originalFilename: "MH-[SP]ImperialBase.zip"
+hash: "7c68424287f92f85c5431f5ab822d4ea3e6b6f7d"
+fileSize: 79030516
+files:
+- name: "SWEndCredits.umx"
+  fileSize: 20191075
+  hash: "8ba3a391b024f6e2f84f5a86022a35f129b0f3e3"
+- name: "MH-[SP]ImperialBase.unr"
+  fileSize: 38020139
+  hash: "7890ad26c51bfcd75652681e8d6e4dc313077766"
+- name: "SWaction.umx"
+  fileSize: 13463319
+  hash: "413461a1c358c6c8e05ef49dbe514aa62e049026"
+- name: "SWImperialBase.umx"
+  fileSize: 14108445
+  hash: "2f77f78ec3d2606469b92ca69c5607591a6a5dc1"
+- name: "SW1.umx"
+  fileSize: 2174542
+  hash: "95f41e0f7fdb94a9d10d2bb1e6b47d084c4a6d12"
+- name: "SWFinalbattle.umx"
+  fileSize: 12993308
+  hash: "816f39fab48cb76aee58a5fb453f2034fdbc65d0"
+otherFiles: 0
+dependencies:
+  MH-[SP]ImperialBase.unr:
+  - status: "OK"
+    name: "SWEndCredits"
+  - status: "MISSING"
+    name: "AssaultSWPulseBlaster"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "SWFinalbattle"
+  - status: "MISSING"
+    name: "BullPlants2004"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "Soldier"
+  - status: "OK"
+    name: "SWImperialBase"
+  - status: "MISSING"
+    name: "UMSSpaceMarine"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "AssaultLightSaber"
+  - status: "MISSING"
+    name: "SPe209"
+  - status: "MISSING"
+    name: "e209Skins"
+  - status: "MISSING"
+    name: "AssaultSWRifle"
+  - status: "MISSING"
+    name: "AlternatePawns"
+  - status: "MISSING"
+    name: "SPThug"
+  - status: "MISSING"
+    name: "SPObiwan"
+  - status: "OK"
+    name: "SWaction"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DImperialBase.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/c/684242/MH-%255BSP%255DImperialBase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/c/684242/MH-%255BSP%255DImperialBase.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Imperial Base"
+playerCount: "12/16"
+themes:
+  Ancient: 0.6
+  Nali Castle: 0.3
+  Skaarj Tech: 0.2
+bots: true

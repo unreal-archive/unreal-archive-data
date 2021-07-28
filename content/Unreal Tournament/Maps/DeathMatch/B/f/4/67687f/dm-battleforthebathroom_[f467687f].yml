@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:18"
+game: "Unreal Tournament"
+name: "DM-BattlefortheBathroom"
+author: "Enigmus"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-BattlefortheBathroom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BattlefortheBathroom_shot_1.png"
+originalFilename: "DM-BattlefortheBathroom.zip"
+hash: "f467687f158ec16327f662d38afa22feadfe0b5e"
+fileSize: 1224801
+files:
+- name: "custom.utx"
+  fileSize: 555851
+  hash: "ca6ab59b6d5a3dcf9367e180d658cddb6c00c8ec"
+- name: "DM-BattlefortheBathroom.unr"
+  fileSize: 1543097
+  hash: "80a9c739366d544b12763b1cc0a418e9da9c6aec"
+- name: "te-secwo.umx"
+  fileSize: 942489
+  hash: "a0a1c5e1c270389c1626fffd78e13f2ee1bb456c"
+otherFiles: 0
+dependencies:
+  DM-BattlefortheBathroom.unr:
+  - status: "OK"
+    name: "te-secwo"
+  - status: "OK"
+    name: "custom"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-BattlefortheBathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-BattlefortheBathroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/f/4/67687f/DM-BattlefortheBathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/f/4/67687f/DM-BattlefortheBathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Battle In The Bathroom"
+playerCount: "8-10"
+themes:
+  City: 0.5
+  Indistrial: 0.5
+bots: true

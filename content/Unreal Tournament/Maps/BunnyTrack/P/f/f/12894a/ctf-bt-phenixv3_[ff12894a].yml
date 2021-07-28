@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:29"
+variationOf: "f1f9f1c8ebf0ba09ca7df7a81e116a0299c901bf"
+game: "Unreal Tournament"
+name: "CTF-BT-Phenixv3"
+author: "[MOD]Phenom and Nix"
+description: "Have fun!!!"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bt-phenixv3_shot_ff12894a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/P/ctf-bt-phenixv3_shot_ff12894a_1.png"
+- type: "IMAGE"
+  name: "ctf-bt-phenixv3_shot_ff12894a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/P/ctf-bt-phenixv3_shot_ff12894a_2.png"
+originalFilename: "ctf-bt-pnenixv3.zip"
+hash: "ff12894a9c87d52d04552163fc061d8dbf552ee4"
+fileSize: 6379289
+files:
+- name: "flyingsteps.umx"
+  fileSize: 4381576
+  hash: "a8cff4b4342f99d68d9ff7073710820b0147d593"
+- name: "CTF-BT-Phenixv3.unr"
+  fileSize: 8415573
+  hash: "c399b4e47ba9f2b8edb693d0ae8dc91fcd2b90e4"
+otherFiles: 1
+dependencies:
+  CTF-BT-Phenixv3.unr:
+  - status: "OK"
+    name: "flyingsteps"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt-pnenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/P/ctf-bt-pnenixv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt-pnenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2669"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/P/f/f/12894a/ctf-bt-pnenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/P/f/f/12894a/ctf-bt-pnenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Phenix"
+playerCount: "0-999999999999"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: false

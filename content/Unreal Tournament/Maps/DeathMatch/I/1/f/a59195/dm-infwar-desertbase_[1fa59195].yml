@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:28"
+game: "Unreal Tournament"
+name: "DM-INFWAR-DesertBase"
+author: "Bad-Karma"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-INFWAR-DesertBase_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INFWAR-DesertBase_shot_1.png"
+originalFilename: "DM-infwar-desertbase.zip"
+hash: "1fa59195f941e646c6744706b93539360dcd04e6"
+fileSize: 3933236
+files:
+- name: "Desertpf.utx"
+  fileSize: 2534787
+  hash: "84f2f89c64b0579df22fdfc7fa471a15fc45bbc5"
+- name: "DM-INFWAR-DesertBase.unr"
+  fileSize: 4677520
+  hash: "6a9c44ad8cf9ebac4e00c2321dfeba44a565bfea"
+- name: "sf_desert1.utx"
+  fileSize: 1507787
+  hash: "1e570fd2d45373c4d619c27fad18cf4d55237a30"
+otherFiles: 1
+dependencies:
+  DM-INFWAR-DesertBase.unr:
+  - status: "OK"
+    name: "Desertpf"
+  - status: "OK"
+    name: "sf_desert1"
+  - status: "MISSING"
+    name: "INF_Core"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-infwar-desertbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-infwar-desertbase.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/1/f/a59195/DM-infwar-desertbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/1/f/a59195/DM-infwar-desertbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Desert_Team_inf280"
+playerCount: "6-12"
+themes:
+  Industrial: 1.0
+bots: false

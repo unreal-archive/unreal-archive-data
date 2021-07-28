@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:51"
+game: "Unreal"
+name: "CTF[SP]LavaPlayground"
+author: "Romain 'G.e.c.K.o.o' Verdier"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "ctfsplavaplayground_shot_c6f1f5b1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Capture%20The%20Flag/S/ctfsplavaplayground_shot_c6f1f5b1_1.png"
+originalFilename: "CTF[SP]LavaPlayground.zip"
+hash: "c6f1f5b150b0db202e4fd8e2819dd0c6a8c07b76"
+fileSize: 3407190
+files:
+- name: "Skyward.umx"
+  fileSize: 1004122
+  hash: "d05eec035dff8cceb4b0ca145a7b4ce6a1bdffec"
+- name: "CTF[SP]LavaPlayground.unr"
+  fileSize: 5078000
+  hash: "5c2ce861227d954777b73bc11997fa9222556dad"
+otherFiles: 0
+dependencies:
+  CTF[SP]LavaPlayground.unr:
+  - status: "OK"
+    name: "Skyward"
+  - status: "MISSING"
+    name: "AssaultCTF"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DLavaPlayground.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Capture%20The%20Flag/S/c/6/f1f5b1/CTF%255BSP%255DLavaPlayground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Capture%20The%20Flag/S/c/6/f1f5b1/CTF%255BSP%255DLavaPlayground.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-[SP]Lava Playground"
+playerCount: "12-16"
+themes:
+  Natural: 0.6
+  Skaarj Tech: 0.4
+bots: true

@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:28"
+game: "Unreal Tournament"
+name: "DM-pooltable"
+author: "Jon Mallon"
+description: "None"
+releaseDate: "2000-09"
+attachments: []
+originalFilename: "dm-pooltable.zip"
+hash: "420732a9d7c3ea8c6fba719aeffe1e691599f81b"
+fileSize: 173576
+files:
+- name: "DM-pooltable.unr"
+  fileSize: 771520
+  hash: "a6e7443fe6f7f84addb7d7a6fb33f4b0dcf990dc"
+- name: "poolball.utx"
+  fileSize: 114965
+  hash: "8386f7ae7d2db32cfad1fdf9eb47d1a966d9b435"
+otherFiles: 1
+dependencies:
+  DM-pooltable.unr:
+  - status: "OK"
+    name: "poolball"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-pooltable.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-pooltable.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/4/2/0732a9/dm-pooltable.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/4/2/0732a9/dm-pooltable.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-PoolTable"
+playerCount: "8-16"
+themes:
+  Skaarj Tech: 1.0
+bots: true

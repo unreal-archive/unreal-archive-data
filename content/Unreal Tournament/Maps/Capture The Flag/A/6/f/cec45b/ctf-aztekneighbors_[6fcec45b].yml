@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:54"
+game: "Unreal Tournament"
+name: "CTF-AztekNeighbors"
+author: "[PDS]Salty Pepper"
+description: "The Best of Bad Neighbors and Aztek Pyramids"
+releaseDate: "2004-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-AztekNeighbors_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AztekNeighbors_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-AztekNeighbors_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AztekNeighbors_shot_1.png"
+originalFilename: "aztekneighbors.zip"
+hash: "6fcec45b048f5be35b7208c2425a2d928ef98b83"
+fileSize: 3681339
+files:
+- name: "Sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "CTF-AztekNeighbors.unr"
+  fileSize: 2042053
+  hash: "1b9e03de974dcd4c5a704a8ca4feeebab361c416"
+- name: "Salty.utx"
+  fileSize: 3137011
+  hash: "a07862ff691fcef8f3f2db5ba56685707da0d606"
+otherFiles: 2
+dependencies:
+  CTF-AztekNeighbors.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Salty"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=aztekneighbors.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/aztekneighbors.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/6/f/cec45b/aztekneighbors.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/6/f/cec45b/aztekneighbors.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Aztek Neighbors"
+playerCount: "12"
+themes:
+  Egyptian: 0.8
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true

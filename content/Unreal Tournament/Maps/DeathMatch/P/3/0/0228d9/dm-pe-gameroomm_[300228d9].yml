@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:31"
+game: "Unreal Tournament"
+name: "DM-PE-GameRoomM"
+author: "Storm[Psycon Elite [Warrior]"
+description: "Ahh shrink rays... the worlds best invention."
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-PE-GameRoomM_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PE-GameRoomM_shot_1.png"
+originalFilename: "dm_pe_gameroomm.zip"
+hash: "300228d955170e5fee0c5d6e9a0728b84c71a503"
+fileSize: 1442643
+files:
+- name: "DM-PE-GameRoomM.unr"
+  fileSize: 5090198
+  hash: "952f85572ac31cf2660f7e6400ae39c5280009b8"
+- name: "Halluciinations.umx"
+  fileSize: 132297
+  hash: "5dee7abfd580027fd551fa6bfcec3c2e958b60cd"
+otherFiles: 1
+dependencies:
+  DM-PE-GameRoomM.unr:
+  - status: "OK"
+    name: "Halluciinations"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm_pe_gameroomm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm_pe_gameroomm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/3/0/0228d9/dm_pe_gameroomm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/3/0/0228d9/dm_pe_gameroomm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Gameroom of Monstrosity"
+playerCount: "6-16"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+  Industrial: 0.4
+  Ancient: 0.4
+bots: true

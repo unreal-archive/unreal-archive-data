@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:29"
+game: "Unreal Tournament"
+name: "CTFM-Mall"
+author: "Andy \"Darkinnit\" Davison"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-Mall_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/M/CTFM-Mall_shot_1.png"
+originalFilename: "CTFM-Mall.zip"
+hash: "4332948d6e13df4774c6d958ee16c3e476ad8e17"
+fileSize: 1727892
+files:
+- name: "Mall.utx"
+  fileSize: 881189
+  hash: "4b558a156a335af5f43f74a297dae18f151082a0"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "CTFM-Mall.unr"
+  fileSize: 10574446
+  hash: "48321177e7ddfbb500dbb51bc798116569327758"
+otherFiles: 1
+dependencies:
+  CTFM-Mall.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "Mall"
+  - status: "MISSING"
+    name: "CTF4Team"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=CTFM-Mall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/M/CTFM-Mall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=CTFM-Mall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/CTFM-Mall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/M/4/3/32948d/CTFM-Mall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/M/4/3/32948d/CTFM-Mall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Mall"
+playerCount: "24"
+themes:
+  Tech: 0.1
+  City: 0.8
+  Skaarj Tech: 0.1
+bots: true

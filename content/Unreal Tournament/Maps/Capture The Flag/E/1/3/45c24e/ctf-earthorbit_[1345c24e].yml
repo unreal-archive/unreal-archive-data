@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:20"
+game: "Unreal Tournament"
+name: "CTF-EarthOrbit"
+author: "Peter][Kongstad"
+description: "Buy my game, or I'll eat your lane!!"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-EarthOrbit_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/CTF-EarthOrbit_shot_1.png"
+originalFilename: "ctf-earthorbit.zip"
+hash: "1345c24ebed6122b66bf72cf465850fca3c90a9c"
+fileSize: 2419867
+files:
+- name: "CTF-EarthOrbit.unr"
+  fileSize: 6923916
+  hash: "3afbaf723303541378aade6710a1d4941fe032cc"
+- name: "Oxygene9b.umx"
+  fileSize: 716464
+  hash: "37ac30e31fba04eeabcc9bb13b8dfbfbf06360c8"
+otherFiles: 1
+dependencies:
+  CTF-EarthOrbit.unr:
+  - status: "OK"
+    name: "Oxygene9b"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/ctf-earthorbit.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsE/&file=ctf-earthorbit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-earthorbit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-earthorbit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsE/ctf-earthorbit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/1/3/45c24e/ctf-earthorbit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/1/3/45c24e/ctf-earthorbit.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "International Space Station 2041"
+playerCount: "12-16"
+themes:
+  Tech: 0.7
+  Industrial: 0.2
+  Ancient: 0.1
+bots: true

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 18:54"
+game: "Unreal Tournament 2004"
+name: "cDOM-1on1-LostStation"
+author: "Aalexanderrr"
+description: "Lost scaarj station."
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "cDOM-1on1-LostStation_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Unknown/C/cDOM-1on1-LostStation_shot_1.png"
+originalFilename: "cdom-1on1-loststation.zip"
+hash: "007dff88cdc715a58ec4594141de04ed2e6f28d1"
+fileSize: 2532700
+files:
+- name: "ClassicDom.u"
+  fileSize: 67435
+  hash: "29749a263025ef523e605f613c7393827df523d1"
+- name: "cDOM-1on1-LostStation.ut2"
+  fileSize: 834666
+  hash: "4b6b487e3693115c02e2f754276336b3547fbeb3"
+- name: "Organic.ogg"
+  fileSize: 2254860
+  hash: "e6a1d94ca572342d62792b78b8d52d20d615587a"
+otherFiles: 1
+dependencies:
+  ClassicDom.u:
+  - status: "MISSING"
+    name: "CDOM-Textures"
+  - status: "MISSING"
+    name: "CDOM-GameMeshes"
+  - status: "MISSING"
+    name: "CDOMGameTextures"
+  - status: "MISSING"
+    name: "CDOM-Sounds"
+  - status: "MISSING"
+    name: "CDOM-StaticMeshes"
+  cDOM-1on1-LostStation.ut2:
+  - status: "OK"
+    name: "ClassicDom"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/C/0/0/7dff88/cdom-1on1-loststation.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Unknown/C/0/0/7dff88/cdom-1on1-loststation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Unknown/C/0/0/7dff88/cdom-1on1-loststation.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "LostStation"
+playerCount: "4"
+themes: {}
+bots: true

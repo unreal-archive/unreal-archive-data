@@ -1,0 +1,78 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 08:33"
+game: "Unreal Tournament"
+name: "Bt (phan)volcano V2"
+author: "Phantom aka BeN128"
+description: "None"
+releaseDate: "2006-09"
+attachments: []
+originalFilename: "bt-(phan)volcano-v2.zip"
+hash: "aa8cd8e84fa4eb628252d821b59df29332a3215b"
+fileSize: 6789177
+files:
+- name: "BT-(Phan)Volcano-v2.unr"
+  fileSize: 1408000
+  hash: "63929a52a7a65a4db0d5de7037581e18a76bdb39"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-BT-(Phan)Volcano-v2.unr"
+  fileSize: 1407740
+  hash: "3c0b13a811a0d6a931701ff909daaa5316bf17e9"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  CTF-BT-(Phan)Volcano-v2.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "SGTech1"
+  BT-(Phan)Volcano-v2.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-%28phan%29volcano-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/B/bt-(phan)volcano-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-%28phan%29volcano-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-%28phan%29volcano-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5750"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/B/a/a/8cd8e8/bt-(phan)volcano-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/B/a/a/8cd8e8/bt-(phan)volcano-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-BT-(Phan)Volcano-v2"
+  title: "BT-Volcano-v2"
+  author: "Phantom aka BeN128"
+- name: "BT-(Phan)Volcano-v2"
+  title: "BT-Volcano-v2"
+  author: "Phantom aka BeN128"
+gametype: "BunnyTrack"
+themes:
+  Tech: 0.9
+  Industrial: 0.1

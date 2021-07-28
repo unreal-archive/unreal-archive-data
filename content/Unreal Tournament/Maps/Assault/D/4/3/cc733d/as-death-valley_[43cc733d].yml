@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 20:01"
+variationOf: "77d36a94187b2161d9cbda775deb189adba4b1dc"
+game: "Unreal Tournament"
+name: "AS-Death Valley"
+author: "Neil Whitehead"
+description: "Ha Ha !  You're all going to die !!!"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "as-death-valley_shot_43cc733d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/D/4/3/cc733d/as-death-valley_shot_43cc733d_1.png"
+originalFilename: "as-deathvalley.zip"
+hash: "43cc733d090ca3846da7428f783fe5181765c01e"
+fileSize: 1263799
+files:
+- name: "Canyon.utx"
+  fileSize: 1064345
+  hash: "5fafde4db09863c765bc48314c1d807a5e9a15d7"
+- name: "AS-Death Valley.unr"
+  fileSize: 3812901
+  hash: "9bf297495a07cdaa836637f23dd8f285a622427b"
+otherFiles: 1
+dependencies:
+  AS-Death Valley.unr:
+  - status: "MISSING"
+    name: "SSColdSteel"
+  - status: "OK"
+    name: "Canyon"
+  - status: "MISSING"
+    name: "AmazonTEX"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-deathvalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/D/4/3/cc733d/as-deathvalley.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/D/4/3/cc733d/as-deathvalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/D/4/3/cc733d/as-deathvalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Death Valley"
+playerCount: "10-16"
+themes:
+  Nali Temple: 0.7
+  Egyptian: 0.1
+  Ancient: 0.1
+  Natural: 0.1
+bots: true

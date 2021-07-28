@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 13:12"
+game: "Unreal Tournament 2004"
+name: "DM-MPC-POOLPARTY"
+author: "THEXFILES"
+description: "MODIFIED-PC"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-MPC-POOLPARTY_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MPC-POOLPARTY_shot_1.png"
+- type: "IMAGE"
+  name: "DM-MPC-POOLPARTY_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MPC-POOLPARTY_shot_2.png"
+originalFilename: "dm-mpc-poolparty.zip"
+hash: "27722d378e64d19ba2703457c16225741b2a6c60"
+fileSize: 17204397
+files:
+- name: "DM-MPC-POOLPARTY.ut2"
+  fileSize: 10698338
+  hash: "0897ea4961819b64ad98083c08f182c6f4bd7920"
+- name: "POOLPARTY.utx"
+  fileSize: 10933622
+  hash: "321cce13b982e632f5e127c526eb961eb32c1725"
+- name: "MPC.usx"
+  fileSize: 29159
+  hash: "cbe91a5d21c256042f35486d9cada9aa41fa4151"
+- name: "POOL.ogg"
+  fileSize: 8269136
+  hash: "d80ed6186e419616b06516b3cd3741022e88e669"
+otherFiles: 2
+dependencies:
+  DM-MPC-POOLPARTY.ut2:
+  - status: "OK"
+    name: "MPC"
+  - status: "MISSING"
+    name: "MPCFAMILY"
+  - status: "OK"
+    name: "POOLPARTY"
+  MPC.usx:
+  - status: "MISSING"
+    name: "MPCFAMILY"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2865"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dm-mpc-poolparty.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2885"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/2/7/722d37/dm-mpc-poolparty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/2/7/722d37/dm-mpc-poolparty.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "MPC-POOLPARTY"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true

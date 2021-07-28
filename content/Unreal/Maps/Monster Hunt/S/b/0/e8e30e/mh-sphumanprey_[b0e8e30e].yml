@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:44"
+variationOf: "898d0d084d188a5a0411e87c294e03d677c6fcef"
+game: "Unreal"
+name: "MH-[SP]HumanPrey"
+author: "Jimbo"
+description: "Hope you enjoy"
+releaseDate: "2008-11"
+attachments: []
+originalFilename: "MH-[SP]HumanPrey.zip"
+hash: "b0e8e30ecd092cdebb3cf734908c2477f6143ec1"
+fileSize: 4499031
+files:
+- name: "av_ktb.umx"
+  fileSize: 2354959
+  hash: "3f697193ffe80d5245f9c62073793ddde598db8e"
+- name: "brainblast.umx"
+  fileSize: 149329
+  hash: "f66334d0bfdf197b1c03e64594ba68bc7278b842"
+- name: "MH-[SP]HumanPrey.unr"
+  fileSize: 7747831
+  hash: "382d8355d29e84b290f3391cac6691d6dde41ed1"
+- name: "ds_confu.umx"
+  fileSize: 2144908
+  hash: "52008c84d6d788b832bc5f9299f6094e9c7e57a6"
+otherFiles: 0
+dependencies:
+  MH-[SP]HumanPrey.unr:
+  - status: "OK"
+    name: "brainblast"
+  - status: "OK"
+    name: "ds_confu"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "av_ktb"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DHumanPrey.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/b/0/e8e30e/MH-%255BSP%255DHumanPrey.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/b/0/e8e30e/MH-%255BSP%255DHumanPrey.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Human Prey"
+playerCount: "2-4"
+themes:
+  Tech: 0.1
+  Ancient: 0.8
+  Natural: 0.1
+bots: true

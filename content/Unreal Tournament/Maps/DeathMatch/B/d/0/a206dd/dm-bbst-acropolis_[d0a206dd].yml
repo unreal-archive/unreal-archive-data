@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:30"
+game: "Unreal Tournament"
+name: "DM-[BBST]-Acropolis"
+author: "R@dius"
+description: "None"
+releaseDate: "2008-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-[BBST]-Acropolis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-%5BBBST%5D-Acropolis_shot_1.png"
+originalFilename: "DM-[BBST]-Acropolis.zip"
+hash: "d0a206dd78cf77421660193306143b4ae219c00a"
+fileSize: 7360880
+files:
+- name: "DM-[BBST]-Acropolis.unr"
+  fileSize: 4381942
+  hash: "84241d6664582b719b3a15c82e042d4199ad772c"
+- name: "Acropolis.utx"
+  fileSize: 2861115
+  hash: "3f28c4b03176ff746507401631596b0314cc2df8"
+- name: "BrooklinBounceByRadius.umx"
+  fileSize: 5819018
+  hash: "dbfcc958faf0b9fe9be7f15f35c4bf3b2d7f6def"
+otherFiles: 0
+dependencies:
+  DM-[BBST]-Acropolis.unr:
+  - status: "OK"
+    name: "BrooklinBounceByRadius"
+  - status: "OK"
+    name: "Acropolis"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BBBST%5D-Acropolis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/d/0/a206dd/DM-%5BBBST%5D-Acropolis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/d/0/a206dd/DM-%255BBBST%255D-Acropolis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/d/0/a206dd/DM-%255BBBST%255D-Acropolis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[BBST]-Acropolis"
+playerCount: "8-12"
+themes:
+  Egyptian: 0.9
+  Natural: 0.1
+bots: false

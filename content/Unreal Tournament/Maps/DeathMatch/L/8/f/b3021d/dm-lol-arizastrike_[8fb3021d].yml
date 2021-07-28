@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:38"
+game: "Unreal Tournament"
+name: "DM-lol-ArizaStrike"
+author: "Base:BiZarro Conv: S. Hrivnak + BK"
+description: "There is a special button on this map. When the alarms go off, get inside\
+  \ the blast doors or you're toast!"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-ArizaStrike_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-ArizaStrike_shot_1.png"
+originalFilename: "DM-lol-ArizaStrike.zip"
+hash: "8fb3021dfd99d586df64a9ea6fff23788b0f0227"
+fileSize: 6078929
+files:
+- name: "crashsnd.uax"
+  fileSize: 207159
+  hash: "53e4119a7989947c441369d5f9fcfff487f3b1b7"
+- name: "Barracuda.umx"
+  fileSize: 5818823
+  hash: "ef9502fdb8f20888d467a7b5602b7a5be54bc215"
+- name: "DM-lol-ArizaStrike.unr"
+  fileSize: 1535142
+  hash: "bbd7f1754a480d2dfeae693c5e3293985fb66be1"
+- name: "WildArena.u"
+  fileSize: 3981
+  hash: "e6aea2081f1d26d7606975515952d886fc13ea13"
+otherFiles: 0
+dependencies:
+  DM-lol-ArizaStrike.unr:
+  - status: "OK"
+    name: "crashsnd"
+  - status: "OK"
+    name: "WildArena"
+  - status: "OK"
+    name: "Barracuda"
+  WildArena.u:
+  - status: "OK"
+    name: "crashsnd"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-ArizaStrike.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-ArizaStrike.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-ArizaStrike.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/8/f/b3021d/DM-lol-ArizaStrike.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/8/f/b3021d/DM-lol-ArizaStrike.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-lol-ArizaStrike"
+playerCount: "2-16 or more"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.5
+bots: true

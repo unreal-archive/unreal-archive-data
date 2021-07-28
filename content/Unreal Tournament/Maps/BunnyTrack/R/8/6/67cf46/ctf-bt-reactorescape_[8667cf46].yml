@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-22 18:00"
+game: "Unreal Tournament"
+name: "CTF-BT-ReactorEscape"
+author: "Michael Malick aka 'Pwn*j00'"
+description: "Thx for playing my map! UT99 Fo Lyfe!"
+releaseDate: "2014-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-ReactorEscape_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-ReactorEscape_shot_1.png"
+originalFilename: "CTF-BT-ReactorEscape.zip"
+hash: "8667cf46bd43ea602a063c14ec3ff98f0b81bca0"
+fileSize: 34283847
+files:
+- name: "HH3_Vendetta.utx"
+  fileSize: 3547244
+  hash: "3679ae9f17b64e6699e92c0f7f8f5af0b3b9ef69"
+- name: "HH3_Clockwork.utx"
+  fileSize: 3282037
+  hash: "146efcc6528642c5fe7940b6504170d7d55fe628"
+- name: "Radiationtxt.utx"
+  fileSize: 12592462
+  hash: "7e84b70b7df38128fc4367ca02f43068121ae201"
+- name: "CTF-BT-ReactorEscape.unr"
+  fileSize: 13997683
+  hash: "2ed5ab7f41eac765926061272861a4442a835777"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "MAXCorruptTexpk.utx"
+  fileSize: 17170189
+  hash: "0c8467d34a0dda8023632d2f8bf6e779e781b171"
+- name: "REMusic.umx"
+  fileSize: 8124574
+  hash: "d22c8f9600f71c82567528f8f81ad3a6e54793f6"
+otherFiles: 0
+dependencies:
+  CTF-BT-ReactorEscape.unr:
+  - status: "OK"
+    name: "HH3_Vendetta"
+  - status: "OK"
+    name: "REMusic"
+  - status: "OK"
+    name: "MAXCorruptTexpk"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "HH3_Clockwork"
+  - status: "OK"
+    name: "Radiationtxt"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-ReactorEscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-ReactorEscape.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/R/8/6/67cf46/CTF-BT-ReactorEscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/8/6/67cf46/CTF-BT-ReactorEscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-ReactorEscape"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

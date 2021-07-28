@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:35"
+game: "Unreal"
+name: "DM1914DOG+"
+author: "Sinji-(DOG)-"
+description: "None"
+releaseDate: "2006-04"
+attachments: []
+originalFilename: "DM1914DOG+.zip"
+hash: "7eaf2c74ac9e87795d966a0e263a6242e3ca0fe8"
+fileSize: 4373570
+files:
+- name: "trnchsnds.uax"
+  fileSize: 206066
+  hash: "f723b017f146de6f94f22187b2faaed91ed2fcfc"
+- name: "DM1914DOG+.unr"
+  fileSize: 712104
+  hash: "9de8838a15a67ba3f328ef8c12babe3c2e466efb"
+- name: "military.uax"
+  fileSize: 685524
+  hash: "8d29782cb7e03614f9009f5506ff51b3cc226dac"
+- name: "NewYork.utx"
+  fileSize: 3545612
+  hash: "3f9465ad82791aa4432e172ae72dc6f4b7d2dcfb"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "trenchtex.utx"
+  fileSize: 1240538
+  hash: "06b56b62575a63818cb6f1fa6a6cbc600770b384"
+- name: "Moroset.umx"
+  fileSize: 580306
+  hash: "735879aafeecf8796c0ee69d9bc94d9fa8781e48"
+otherFiles: 0
+dependencies:
+  DM1914DOG+.unr:
+  - status: "MISSING"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "NewYork"
+  - status: "OK"
+    name: "military"
+  - status: "OK"
+    name: "trenchtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/0/7/e/af2c74/DM1914DOG%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/0/7/e/af2c74/DM1914DOG%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/0/7/e/af2c74/DM1914DOG%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-1914DOG+"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

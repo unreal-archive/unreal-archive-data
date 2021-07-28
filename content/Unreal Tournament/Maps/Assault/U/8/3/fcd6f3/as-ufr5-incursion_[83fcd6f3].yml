@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-UFR5-Incursion"
+author: "Kelly Barnard"
+description: "Capture the Ship"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "AS-UFR5-Incursion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/AS-UFR5-Incursion_shot_1.png"
+originalFilename: "as-ufr5-incursion.zip"
+hash: "83fcd6f366e986f3e248a9fd6e1a4510f8481340"
+fileSize: 2253745
+files:
+- name: "AS-UFR5-Incursion.unr"
+  fileSize: 6575518
+  hash: "7a06cf589287c7efb9d33a76c19e3612d6e18446"
+- name: "UFR-Star.utx"
+  fileSize: 1502262
+  hash: "29d9c9c2d2903b106d05e9bd5b37d8d7913e4a77"
+- name: "Space.u"
+  fileSize: 40607
+  hash: "f60e75a5bfb62e1b2b148ec91e2667a542f40f8a"
+otherFiles: 2
+dependencies:
+  AS-UFR5-Incursion.unr:
+  - status: "OK"
+    name: "UFR-Star"
+  - status: "OK"
+    name: "Space"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/as-ufr5-incursion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403157"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-ufr5-incursion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-incursion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-ufr5-incursion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-ufr5-incursion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/U/8/3/fcd6f3/as-ufr5-incursion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/U/8/3/fcd6f3/as-ufr5-incursion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "UFR-Incursion"
+playerCount: "6-12"
+themes:
+  Skaarj Tech: 1.0
+bots: true

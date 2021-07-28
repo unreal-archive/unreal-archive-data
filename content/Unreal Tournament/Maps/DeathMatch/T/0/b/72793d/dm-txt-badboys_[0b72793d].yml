@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 02:59"
+variationOf: "0b240ef42b8dd573a60b05209855c00c7624f24e"
+game: "Unreal Tournament"
+name: "DM-[TXT]-BADBOYS"
+author: "[ACE]Testiclese"
+description: "None"
+releaseDate: "2007-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-txt-badboys_shot_0b72793d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/dm-txt-badboys_shot_0b72793d_1.png"
+originalFilename: "DM-[TXT]-BADBOYS.zip"
+hash: "0b72793d9da6c1d05f53746bfe07dff3ad350acf"
+fileSize: 11404579
+files:
+- name: "donut2.u"
+  fileSize: 23459
+  hash: "39040cef252599fc112786a048af6b07fb2e0982"
+- name: "acebldg.utx"
+  fileSize: 3016592
+  hash: "e404dc17e07bcf7f8120582efce81913319dd150"
+- name: "AnimPlyrStp.utx"
+  fileSize: 2559919
+  hash: "c50794bb0629f641460d721a68788d3a539552e7"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "mugshots.utx"
+  fileSize: 3762050
+  hash: "f4d86af488d83891515f9c0ab23ae7fc6ff7a8a0"
+- name: "DM-[TXT]-BADBOYS.unr"
+  fileSize: 6015618
+  hash: "4fa6549fc2aa7c005dad62930cb96cae0412e394"
+- name: "BadBoys.umx"
+  fileSize: 5063313
+  hash: "e9a0aa444c531fa26dbd45ebdd1cfd327421b2a3"
+otherFiles: 0
+dependencies:
+  donut2.u:
+  - status: "MISSING"
+    name: "candyland"
+  DM-[TXT]-BADBOYS.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "AnimPlyrStp"
+  - status: "OK"
+    name: "donut2"
+  - status: "OK"
+    name: "BadBoys"
+  - status: "OK"
+    name: "acebldg"
+  - status: "OK"
+    name: "mugshots"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/0/b/72793d/DM-%5BTXT%5D-BADBOYS.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/0/b/72793d/DM-%255BTXT%255D-BADBOYS.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/0/b/72793d/DM-%255BTXT%255D-BADBOYS.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[TXT]-BADBOYS"
+playerCount: "2-16"
+themes:
+  Industrial: 1.0
+bots: false

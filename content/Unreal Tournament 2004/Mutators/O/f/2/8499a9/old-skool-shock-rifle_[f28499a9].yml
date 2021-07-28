@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 19:35"
+game: "Unreal Tournament 2004"
+name: "Old Skool Shock Rifle"
+author: "Parser"
+description: "Play with UT99 Shock Rifle sounds and settings"
+releaseDate: "2003-02"
+attachments: []
+originalFilename: "osshockrifle.zip"
+hash: "f28499a968d6c6937334294f8bface4c8cd781d6"
+fileSize: 211910
+files:
+- name: "OSShockRifle.uax"
+  fileSize: 220292
+  hash: "71ed5798c5e043a3c41469824751e6d7340750b6"
+- name: "OSShock.u"
+  fileSize: 32635
+  hash: "b7952e34d7687e0866b776d10a823e86f8e6ad7a"
+otherFiles: 2
+dependencies:
+  OSShock.u:
+  - status: "OK"
+    name: "OSShockRifle"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/O/osshockrifle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/O/f/2/8499a9/osshockrifle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/O/f/2/8499a9/osshockrifle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Old Skool Shock Rifle"
+  description: "Play with UT99 Shock Rifle sounds and settings"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

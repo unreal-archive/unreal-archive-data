@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:11"
+variationOf: "8ba9a04a4c7ab01c1fd94225ddb7d3eb6db0b85f"
+game: "Unreal Tournament"
+name: "DM-Forgottencity"
+author: "Mark Davidson"
+description: "Forgotten City"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-forgottencity_shot_9de9c34d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/9/d/e9c34d/dm-forgottencity_shot_9de9c34d_1.png"
+originalFilename: "dm-forgottencity.zip"
+hash: "9de9c34dacfe5ec2ad1507b7dfed9c4aa54f18ba"
+fileSize: 5155431
+files:
+- name: "DM-Forgottencity.unr"
+  fileSize: 2505900
+  hash: "8de62d0d641fc6853f9f0bb620fed0b44c2ebe98"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+otherFiles: 1
+dependencies:
+  DM-Forgottencity.unr:
+  - status: "MISSING"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dm-forgottencity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsF/dm-forgottencity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/9/d/e9c34d/dm-forgottencity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/9/d/e9c34d/dm-forgottencity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/9/d/e9c34d/dm-forgottencity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Forgotten City"
+playerCount: "16"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  City: 0.8
+bots: true

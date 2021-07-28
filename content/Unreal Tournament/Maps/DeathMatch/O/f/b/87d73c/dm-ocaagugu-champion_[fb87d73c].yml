@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:30"
+game: "Unreal Tournament"
+name: "DM-{OCA}Agugu-Champion"
+author: "Doug 'Atma' Weller"
+description: "None"
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-{OCA}Agugu-Champion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/O/DM-%7BOCA%7DAgugu-Champion_shot_1.png"
+originalFilename: "DM-{OCA}Agugu-Champion.zip"
+hash: "fb87d73cc922eb03892b18e0d6ae32ed54b93e2d"
+fileSize: 5934465
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "OCADeco.u"
+  fileSize: 806873
+  hash: "d570e1902885fb799235a7d62c6c04b33ab9819a"
+- name: "OCATextures.utx"
+  fileSize: 1426820
+  hash: "f86f6adabf8703b7ea504cb32730616387166659"
+- name: "SDpack.utx"
+  fileSize: 826116
+  hash: "d09b184bd0e354984de4ab7f9912f5e561367ce0"
+- name: "PopCorn.umx"
+  fileSize: 71005
+  hash: "4c526a0638bc097ba1e0350a828598b109667f7b"
+- name: "DM-{OCA}Agugu-Champion.unr"
+  fileSize: 622449
+  hash: "5eac50683921e23ab66798193ccadcdb208e9947"
+- name: "ScreenFonts.utx"
+  fileSize: 1032240
+  hash: "ee3da8e5af8fa8a9b5563c7b1542bf020c626ad6"
+- name: "OCA-CHAMPION.utx"
+  fileSize: 244803
+  hash: "046d5a108c29a0f27520e0a3c7f26fe610ba2901"
+otherFiles: 0
+dependencies:
+  DM-{OCA}Agugu-Champion.unr:
+  - status: "OK"
+    name: "OCATextures"
+  - status: "MISSING"
+    name: "Screen"
+  - status: "OK"
+    name: "OCA-CHAMPION"
+  - status: "OK"
+    name: "PopCorn"
+  - status: "MISSING"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+  - status: "OK"
+    name: "OCADeco"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "SDpack"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/DM-%7BOCA%7DAgugu-Champion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%7BOCA%7DAgugu-Champion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/O/f/b/87d73c/DM-%257BOCA%257DAgugu-Champion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/O/f/b/87d73c/DM-%257BOCA%257DAgugu-Champion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Agugu Arena"
+playerCount: "2 - 4"
+themes:
+  Industrial: 1.0
+bots: true

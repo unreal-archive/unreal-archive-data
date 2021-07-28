@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:59"
+game: "Unreal Tournament"
+name: "SCR-KN-Volcanic"
+author: "KnT^ aka KnighT"
+description: "None"
+releaseDate: "2006-09"
+attachments:
+- type: "IMAGE"
+  name: "SCR-KN-Volcanic_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/S/SCR-KN-Volcanic_shot_1.png"
+originalFilename: "SCR-KN-Volcanic.rar"
+hash: "c6cb59f8ce024ccae5082dd163fefe9c234dcad3"
+fileSize: 1197731
+files:
+- name: "AmBrosia.utx"
+  fileSize: 1472625
+  hash: "f467e215a8d9e9d61be950c9d1c92883387aab11"
+- name: "SCR-KN-Volcanic.unr"
+  fileSize: 717800
+  hash: "4eaeb19d20b78dc2d4b7097b1ad5a3b3a8fadaf6"
+- name: "INFSilent.umx"
+  fileSize: 536
+  hash: "74ebb12d524b03f997f5b59d905082781771087c"
+otherFiles: 0
+dependencies:
+  SCR-KN-Volcanic.unr:
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "OK"
+    name: "INFSilent"
+  - status: "OK"
+    name: "AmBrosia"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-KN-Volcanic.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-KN-Volcanic.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-KN-Volcanic.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-KN-Volcanic.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/K/c/6/cb59f8/SCR-KN-Volcanic.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/K/c/6/cb59f8/SCR-KN-Volcanic.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "SCR: VolcanicArena"
+playerCount: "3-6"
+themes:
+  Tech: 0.1
+  Natural: 0.9
+bots: false

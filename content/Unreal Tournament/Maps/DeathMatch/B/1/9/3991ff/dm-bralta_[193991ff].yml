@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:25"
+game: "Unreal Tournament"
+name: "DM-Bralta"
+author: "L.J.Paranoid"
+description: "None"
+releaseDate: "2004-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-Bralta_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-Bralta_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Bralta_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-Bralta_shot_1.png"
+originalFilename: "dm-bralta.zip"
+hash: "193991ff3067543c6b97cd3d5ea5c6ddf4d2a695"
+fileSize: 1965655
+files:
+- name: "DM-Bralta.unr"
+  fileSize: 1875508
+  hash: "572b1b347ece92cfdda50988c7610be16bed2b12"
+- name: "HyperBore.umx"
+  fileSize: 1657898
+  hash: "eb6cfe95f74da5478dd2628003cce1b827830ad9"
+otherFiles: 1
+dependencies:
+  DM-Bralta.unr:
+  - status: "OK"
+    name: "HyperBore"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-bralta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-bralta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3311"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/1/9/3991ff/dm-bralta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/1/9/3991ff/dm-bralta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bralta"
+playerCount: "2-4"
+themes:
+  Natural: 0.2
+  Skaarj Tech: 0.3
+  Indistrial: 0.5
+bots: true

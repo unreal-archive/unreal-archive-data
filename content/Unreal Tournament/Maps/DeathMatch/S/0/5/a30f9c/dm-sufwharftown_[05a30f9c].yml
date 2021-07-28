@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 00:18"
+game: "Unreal Tournament"
+name: "DM-(SUF)WharfTown"
+author: "{SUF}Skullskewer"
+description: "None"
+releaseDate: "2011-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-(SUF)WharfTown_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-(SUF)WharfTown_shot_1.png"
+originalFilename: "DM-(SUF)WharfTown.zip"
+hash: "05a30f9ce5a134b3a46c25a46678bac6dcc5b68c"
+fileSize: 20692555
+files:
+- name: "zksignes0002.utx"
+  fileSize: 798370
+  hash: "0270b733eb69f6a4c6f8456bb53f3fb6b6a30706"
+- name: "NEtextures.utx"
+  fileSize: 16889692
+  hash: "1e5de64baa0f1aa4874215e4fa02633b5c04ce94"
+- name: "DM-(SUF)WharfTown.unr"
+  fileSize: 13595430
+  hash: "6812a43b9cf144d472afe5947ff0d03a36409fac"
+otherFiles: 0
+dependencies:
+  DM-(SUF)WharfTown.unr:
+  - status: "OK"
+    name: "NEtextures"
+  - status: "OK"
+    name: "zksignes0002"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-(SUF)WharfTown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28SUF%29WharfTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/0/5/a30f9c/DM-(SUF)WharfTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/0/5/a30f9c/DM-(SUF)WharfTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{SUF}Wharf Town"
+playerCount: "10-16"
+themes:
+  Natural: 1.0
+bots: false

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:10"
+game: "Unreal"
+name: "MH-[SP]WinterTown"
+author: "M.Berndt"
+description: "Wishing you a merry X-Mas....."
+releaseDate: "2009-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-spwintertown_shot_41b3adc4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spwintertown_shot_41b3adc4_1.png"
+originalFilename: "MH-[SP]WinterTown.zip"
+hash: "41b3adc4eb5d513c5c2118ffff97e9e3cd284910"
+fileSize: 1670658
+files:
+- name: "bells.umx"
+  fileSize: 397263
+  hash: "06849cfaa741431f4389881421cad69d6e6f1f20"
+- name: "MH-[SP]WinterTown.unr"
+  fileSize: 2769426
+  hash: "e1486aec0b250f4a17dce24cee9fc9c122e520ed"
+otherFiles: 0
+dependencies:
+  MH-[SP]WinterTown.unr:
+  - status: "OK"
+    name: "bells"
+  - status: "MISSING"
+    name: "Assault250"
+  - status: "MISSING"
+    name: "SPGargoyle"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DWinterTown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/4/1/b3adc4/MH-%255BSP%255DWinterTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/4/1/b3adc4/MH-%255BSP%255DWinterTown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Wintertown"
+playerCount: "4-8"
+themes:
+  Natural: 0.3
+  Nali Castle: 0.7
+bots: true

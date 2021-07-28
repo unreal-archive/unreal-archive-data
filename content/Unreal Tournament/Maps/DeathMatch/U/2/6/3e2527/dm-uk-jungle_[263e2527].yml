@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:52"
+game: "Unreal Tournament"
+name: "DM-UK-Jungle"
+author: "UK-Scorpion"
+description: "UK-Junglisick"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-UK-Jungle_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Jungle_shot_1.png"
+originalFilename: "DM-UK-Jungle.zip"
+hash: "263e2527c36c15dbe6724cf615c03ed5a1617ae6"
+fileSize: 5455862
+files:
+- name: "DM-UK-Jungle.unr"
+  fileSize: 1409780
+  hash: "1022822bc3d713c95f8f0dc315fc29dddb8e97e4"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "UK-U-ME-SIX.umx"
+  fileSize: 4961864
+  hash: "13d9b65cbac686c7cf375e251947982d0cb4c8ab"
+otherFiles: 0
+dependencies:
+  DM-UK-Jungle.unr:
+  - status: "OK"
+    name: "UK-U-ME-SIX"
+  - status: "OK"
+    name: "TobioTrees"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-UK-Jungle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Jungle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/2/6/3e2527/DM-UK-Jungle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/2/6/3e2527/DM-UK-Jungle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-UK-Jungle"
+playerCount: "4-16"
+themes:
+  Ancient: 0.4
+  Natural: 0.6
+bots: true

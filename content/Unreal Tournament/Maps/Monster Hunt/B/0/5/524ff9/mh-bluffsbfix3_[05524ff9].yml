@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:54"
+game: "Unreal Tournament"
+name: "MH-Bluff+SBFix3"
+author: "Myscha the sled dog/Fixes by Barbie"
+description: "Entering Bluff Eversmoking"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-Bluff+SBFix3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/B/MH-Bluff%2BSBFix3_shot_1.png"
+originalFilename: "MH-Bluff SBFix3.7z"
+hash: "05524ff92424b75dd422bbfc40af845be926fd44"
+fileSize: 3146547
+files:
+- name: "skaarjtowerclassesH.u"
+  fileSize: 2656
+  hash: "bd7a4a0052519298756ec879a82b809b40bd44e2"
+- name: "SkaarjTowerSkin.utx"
+  fileSize: 177701
+  hash: "83432c087538deb19c326022c8a9094ce7fabf61"
+- name: "MH-Bluff+SBFix3.unr"
+  fileSize: 7885494
+  hash: "53ceb468478dc8a7dc7b8008cd02e653472ab75e"
+- name: "asgard2.u"
+  fileSize: 73938
+  hash: "b9907084f5d3a65f69bd7a5c8ea73ceb2aa4c2fe"
+- name: "eversmoke.umx"
+  fileSize: 795864
+  hash: "cebd445a9b0fb87bfb91c5258586cb8e77be8dc4"
+- name: "Spinner.u"
+  fileSize: 1551609
+  hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+otherFiles: 2
+dependencies:
+  MH-Bluff+SBFix3.unr:
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "eversmoke"
+  - status: "OK"
+    name: "skaarjtowerclassesH"
+  - status: "OK"
+    name: "asgard2"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  skaarjtowerclassesH.u:
+  - status: "OK"
+    name: "SkaarjTowerSkin"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Bluff+SBFix3.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/B/MH-Bluff%20SBFix3.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Bluff%2BSBFix3.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/B/0/5/524ff9/MH-Bluff%2520SBFix3.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/0/5/524ff9/MH-Bluff%2520SBFix3.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Bluff Eversmoking"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: true

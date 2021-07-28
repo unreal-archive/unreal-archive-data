@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:13"
+game: "Unreal Tournament"
+name: "DM-Destory"
+author: "Lee \"Fusion\" Timms"
+description: "-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-Destory_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-Destory_shot_1.png"
+originalFilename: "DM-Destory.zip"
+hash: "dc8b48535e566c53bb2c89a10ea8f09fbe152f43"
+fileSize: 994797
+files:
+- name: "destorydoors.utx"
+  fileSize: 577331
+  hash: "0462dfb87062c887adc9c145d86c784d1436ce58"
+- name: "RushJob.umx"
+  fileSize: 141728
+  hash: "8f9e32a313cd409bd93e4b599d3ae88e3d6f961f"
+- name: "DM-Destory.unr"
+  fileSize: 1736719
+  hash: "afa7fa2c74360c87281445f141b35771a78004dc"
+otherFiles: 0
+dependencies:
+  DM-Destory.unr:
+  - status: "OK"
+    name: "destorydoors"
+  - status: "OK"
+    name: "RushJob"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Destory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-Destory.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/d/c/8b4853/DM-Destory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/d/c/8b4853/DM-Destory.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Destory Castle"
+playerCount: "3-8"
+themes:
+  Nali Castle: 0.6
+  Skaarj Tech: 0.4
+bots: true

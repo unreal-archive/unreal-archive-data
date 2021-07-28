@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 01:13"
+game: "Unreal Tournament"
+name: "TeamCoN"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-10"
+attachments: []
+originalFilename: "TeamCoN.zip"
+hash: "2836eebe1a4f9beefe512632ed6d87373a52f731"
+fileSize: 10006861
+files:
+- name: "CoN_Bolt_Action_V4.u"
+  fileSize: 1764779
+  hash: "602f6e25bdafb75190d1110726f576e265706518"
+- name: "CoN_Trans.u"
+  fileSize: 275383
+  hash: "95a958a80ead2d7b54cebe82b633a84a0ee93e0e"
+- name: "RedeemTeamCoN_v5.u"
+  fileSize: 1348784
+  hash: "a85843de37b74ae14c478697475fb4c0832642d1"
+- name: "CoN_Arena_V3.u"
+  fileSize: 282467
+  hash: "6f255184455328170fda718025a8ba2f35aab48d"
+- name: "CoN_fvp_v2.u"
+  fileSize: 3848423
+  hash: "3e7310322e2a3cb28d9196002512d14b30606f77"
+- name: "CoN_Mutators_v1.u"
+  fileSize: 8389293
+  hash: "a1a80139fd91104e8256f03d4d390944810a7f4e"
+- name: "CoN_WarPoint_v4.u"
+  fileSize: 3236786
+  hash: "66972cf388b2eb0be14b643d8926a42a448b8ad3"
+- name: "CoN_mvp_v2.u"
+  fileSize: 2245992
+  hash: "72c39bdf31bca0584a35be387de2dde1d80a61c0"
+otherFiles: 3
+dependencies:
+  CoN_Bolt_Action_V4.u:
+  - status: "OK"
+    name: "CoN_Trans"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=TeamCoN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/T/TeamCoN.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/T/2/8/36eebe/TeamCoN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/T/2/8/36eebe/TeamCoN.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "CoN Bolt Action"
+  description: ""
+- name: "CoN Arena"
+  description: ""
+weapons:
+- name: "CoN Bolt Action"
+  description: ""
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

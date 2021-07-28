@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:49"
+game: "Unreal Tournament"
+name: "DM-((WaterSupplier))"
+author: "Simon \"@5t0\" Laudati"
+description: "None"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-watersupplier_shot_12aab234_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/1/2/aab234/dm-watersupplier_shot_12aab234_1.png"
+originalFilename: "DM-((WaterSupplier)).zip"
+hash: "12aab234bde8be2a2df261265d99d3b861e5b9db"
+fileSize: 3145763
+files:
+- name: "DM-((WaterSupplier)).unr"
+  fileSize: 5496257
+  hash: "a9490ad9c17095fc53934365ee46bbc6259354d4"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "WaterSupplier.utx"
+  fileSize: 89658
+  hash: "dc6d300941ab8b607bf640a85b53b932733bc538"
+otherFiles: 0
+dependencies:
+  DM-((WaterSupplier)).unr:
+  - status: "OK"
+    name: "WaterSupplier"
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28%28WaterSupplier%29%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/DM-((WaterSupplier)).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/1/2/aab234/DM-((WaterSupplier)).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/1/2/aab234/DM-((WaterSupplier)).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Unreal's water supplier"
+playerCount: "8 to 16"
+themes:
+  Industrial: 0.4
+  Skaarj Tech: 0.6
+bots: true

@@ -1,0 +1,124 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:02"
+game: "Unreal Tournament"
+name: "CTF-BT-SubtleFalloutCB"
+author: "drunklove"
+description: "None"
+releaseDate: "2014-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-SubtleFalloutCB_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SubtleFalloutCB_shot_1.png"
+originalFilename: "CTF-BT-SubtleFalloutCB.zip"
+hash: "a6c15a7ee7525cdb6e206a62f6736a5b4d988570"
+fileSize: 26949093
+files:
+- name: "DLIvyPack.utx"
+  fileSize: 2106684
+  hash: "44de3aee7ebde85ba56af2f50fe5449be6181588"
+- name: "FurryDelayedTrigger2.u"
+  fileSize: 11430
+  hash: "8a5e53dedba1fd6504d515578e5733f47a74c54c"
+- name: "rt-arbor.utx"
+  fileSize: 6251669
+  hash: "e4565d82209b9449ed6144382089eb849dbc4783"
+- name: "SkyTwn.umx"
+  fileSize: 849903
+  hash: "d6add6fc55b0638260893c09b74bd295596e9e82"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "ActorAttacher.u"
+  fileSize: 6210
+  hash: "9b9dcd31096c13bdd578219d0af7dfaf7f504295"
+- name: "CTF-BT-SubtleFalloutCB.unr"
+  fileSize: 15357908
+  hash: "a942ec10a2cf5866d89f157d3eaa626fd949fbbe"
+- name: "DLRapt.utx"
+  fileSize: 3998319
+  hash: "4fafcce09a0b324415f19ea70190c19cc71b9002"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "TriggeredZonePropertyChanger.u"
+  fileSize: 7913
+  hash: "08346701be5494c8a2357fa2cc0a372d8ea0d0d9"
+- name: "FurryKicker.u"
+  fileSize: 3804
+  hash: "17e635a27b375c1ee0bc15f899a3a672b2fb0d7f"
+- name: "FragmOfTime.u"
+  fileSize: 306175
+  hash: "2d7c2c02b4c873db765685c0d9a706854547219e"
+- name: "FurryMover4.u"
+  fileSize: 9204
+  hash: "20dfe6e59997bd5b2c099e89451ce2f0d2ad14eb"
+- name: "TriggerWater.u"
+  fileSize: 413793
+  hash: "3c89bd35478e3bdfa317a9a685de5994b744827d"
+otherFiles: 0
+dependencies:
+  DLRapt.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+  rt-arbor.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+  CTF-BT-SubtleFalloutCB.unr:
+  - status: "OK"
+    name: "DLRapt"
+  - status: "OK"
+    name: "rt-arbor"
+  - status: "OK"
+    name: "ActorAttacher"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "FragmOfTime"
+  - status: "OK"
+    name: "FurryKicker"
+  - status: "OK"
+    name: "DLIvyPack"
+  - status: "OK"
+    name: "TriggerWater"
+  - status: "OK"
+    name: "TriggeredZonePropertyChanger"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "SkyTwn"
+  - status: "OK"
+    name: "FurryDelayedTrigger2"
+  - status: "OK"
+    name: "FurryMover4"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-SubtleFalloutCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SubtleFalloutCB.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-SubtleFalloutCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/a/6/c15a7e/CTF-BT-SubtleFalloutCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/a/6/c15a7e/CTF-BT-SubtleFalloutCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-SubtleFalloutCB"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.1
+  City: 0.4
+  Natural: 0.1
+  Skaarj Tech: 0.4
+bots: false

@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:15"
+game: "Unreal Tournament"
+name: "dm-(_@_)_spcentral"
+author: "Maarten van Oortmerssen - (_@_)_ICaRuS"
+description: "Campzone"
+releaseDate: "2004-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-(_@_)_spcentral_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/dm-(_@_)_spcentral_shot_1.png"
+originalFilename: "dm-(_@_)_spcentral.zip"
+hash: "edb572c11df4bc1af6344796e89c6a3f88cd1cea"
+fileSize: 9521701
+files:
+- name: "mvosounds.uax"
+  fileSize: 852883
+  hash: "86928ebfa5c39a6baec3bb70fd710f90700365ef"
+- name: "soulica.utx"
+  fileSize: 3469716
+  hash: "2f7ace15b9863802f603fdce1e2e7dd4a1178c09"
+- name: "dm-(_@_)_spcentral.unr"
+  fileSize: 2180262
+  hash: "348480ec5014e080dc2b01ed6675053c7753f254"
+- name: "shockingtex.utx"
+  fileSize: 1823463
+  hash: "c06eb4a5830e5f0efbf043c3c72faf4853314c6c"
+- name: "noracismtex.utx"
+  fileSize: 755994
+  hash: "9a2ee6b7af2b916c8c01c27cb72eccb021615ead"
+- name: "infadds.u"
+  fileSize: 587515
+  hash: "393b9167dd79a6d39aaba72d1f85ef3954ac237f"
+- name: "skeeloo.umx"
+  fileSize: 5481125
+  hash: "eabb6e998bbec4044fe7d5f131cb247382ec330a"
+otherFiles: 0
+dependencies:
+  dm-(_@_)_spcentral.unr:
+  - status: "OK"
+    name: "ShockingTex"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "soulica"
+  - status: "OK"
+    name: "Skeeloo"
+  - status: "OK"
+    name: "NoRacismTex"
+  - status: "OK"
+    name: "MvOsounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%28_%40_%29_spcentral.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-(_@_)_spcentral.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/e/d/b572c1/dm-(_@_)_spcentral.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/e/d/b572c1/dm-(_@_)_spcentral.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "History-X"
+playerCount: "8 - 16"
+themes:
+  Industrial: 1.0
+bots: true

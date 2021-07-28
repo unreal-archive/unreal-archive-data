@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:36"
+game: "Unreal"
+name: "INF_[SP]RailBridge"
+author: "DarkSniper *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "INF_[SP]RailBridge_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Infiltration/S/INF_%5BSP%5DRailBridge_shot_1.png"
+originalFilename: "INF_[SP]RailBridge.zip"
+hash: "c7530ee8989cf218b5852d72e009e925e03dea3e"
+fileSize: 9489788
+files:
+- name: "muff_parkbench.u"
+  fileSize: 5765
+  hash: "e424de2debdc7310fd51f29934aae87fe475d197"
+- name: "tbtdeco.u"
+  fileSize: 1252616
+  hash: "b4f93fb43b07331dd3c52d2f461110679db42160"
+- name: "Indus5.utx"
+  fileSize: 3210994
+  hash: "6f701f378df841e8d21f66cd6c66789d9fec0904"
+- name: "muff_lightblueornimentalstreet.u"
+  fileSize: 7534
+  hash: "f3766fff5bf3b36fe11ac7cf6090cbd2e05d0986"
+- name: "ShaneChurch.utx"
+  fileSize: 4398103
+  hash: "9fe9d5f363d2f5e0703d7a32bf8a13106a654271"
+- name: "muff_couch.u"
+  fileSize: 11201
+  hash: "25759a0560ca37d56c35f8e6a8bc0b0d73550470"
+- name: "INF_[SP]RailBridge.unr"
+  fileSize: 6912732
+  hash: "8eb40c56090f7b20a2b49501f3081a5af5a57d7d"
+otherFiles: 0
+dependencies:
+  muff_parkbench.u:
+  - status: "OK"
+    name: "Indus5"
+  INF_[SP]RailBridge.unr:
+  - status: "OK"
+    name: "muff_parkbench"
+  - status: "MISSING"
+    name: "Assault250"
+  - status: "MISSING"
+    name: "INF_SPDecorations"
+  - status: "OK"
+    name: "tbtdeco"
+  - status: "OK"
+    name: "muff_couch"
+  - status: "OK"
+    name: "muff_lightblueornimentalstreet"
+  - status: "MISSING"
+    name: "Infiltration"
+  muff_lightblueornimentalstreet.u:
+  - status: "OK"
+    name: "ShaneChurch"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=INF_%5BSP%5DRailBridge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/S/INF_%5BSP%5DRailBridge.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/S/c/7/530ee8/INF_%255BSP%255DRailBridge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/S/c/7/530ee8/INF_%255BSP%255DRailBridge.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "[SP] INF RailBridge"
+playerCount: "6-16"
+themes:
+  Natural: 1.0
+bots: true

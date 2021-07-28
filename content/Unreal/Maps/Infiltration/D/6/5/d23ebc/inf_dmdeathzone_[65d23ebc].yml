@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:49"
+variationOf: "b69529d61ee0f6548a7be60ddf72c60b16de7efb"
+game: "Unreal"
+name: "INF_DMDeathZone"
+author: "Beppo"
+description: "None"
+releaseDate: "1999-07"
+attachments:
+- type: "IMAGE"
+  name: "INF_DMDeathZone_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Infiltration/D/INF_DMDeathZone_shot_1.png"
+originalFilename: "dmdeathzoneinf.zip"
+hash: "65d23ebcc7c3fb3b091e6bcef5582603359faf34"
+fileSize: 1195239
+files:
+- name: "INF_DMDeathZone.unr"
+  fileSize: 2711020
+  hash: "8b5913fbbc503e6f85e9a50498a26de010ac29cc"
+- name: "NBTank.utx"
+  fileSize: 465770
+  hash: "1c519912ca1c0d93a8386c24e065057a39d2b477"
+- name: "NBSpecialT.utx"
+  fileSize: 245973
+  hash: "693238581704b030d22a4042931e20e0a30eb804"
+- name: "NBSpecials.u"
+  fileSize: 187645
+  hash: "74e4b2484f6754ed031c1855a8251360b8646bcf"
+otherFiles: 2
+dependencies:
+  INF_DMDeathZone.unr:
+  - status: "OK"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "NBSpecialT"
+  - status: "MISSING"
+    name: "Infiltration"
+  - status: "OK"
+    name: "NBTank"
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dmdeathzoneinf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/D/dmdeathzoneinf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsD/dmdeathzoneinf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmdeathzoneinf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/D/6/5/d23ebc/dmdeathzoneinf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/D/6/5/d23ebc/dmdeathzoneinf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "DeathZone for Infiltration"
+playerCount: "8-16"
+themes: {}
+bots: true

@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:41"
+game: "Unreal Tournament"
+name: "DM-InnerCityUnit"
+author: "Fantasm"
+description: "Welcome..."
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-innercityunit_shot_9bdc5717_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/9/b/dc5717/dm-innercityunit_shot_9bdc5717_1.png"
+originalFilename: "dm-innercityunit.zip"
+hash: "9bdc571743b06cde6ef42543ce5c3d86bb041ca5"
+fileSize: 5353226
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "DM-InnerCityUnit.unr"
+  fileSize: 4932933
+  hash: "829e3c647814987cf1101c5e7358c0058ad559f4"
+- name: "Innercore.utx"
+  fileSize: 2748061
+  hash: "c828bfcd465623ed5aecca8ef94a2050c94a3ebc"
+otherFiles: 0
+dependencies:
+  DM-InnerCityUnit.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Innercore"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-innercityunit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/9/b/dc5717/dm-innercityunit.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/9/b/dc5717/dm-innercityunit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/9/b/dc5717/dm-innercityunit.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Inner City Unit"
+playerCount: "16"
+themes:
+  Industrial: 0.1
+  City: 0.8
+bots: true

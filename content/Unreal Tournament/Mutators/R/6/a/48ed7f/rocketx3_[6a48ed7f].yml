@@ -1,0 +1,70 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-05-24 18:11"
+game: "Unreal Tournament"
+name: "RocketX3"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-08"
+attachments: []
+originalFilename: "RocketX3Jets_6a48ed7f.zip"
+hash: "6a48ed7fcdbf260cff10f97bdddb2c828da2b7f2"
+fileSize: 1843625
+files:
+- name: "RocketX3c.u"
+  fileSize: 1387554
+  hash: "4e4aa5d9865f870f3f3854f247b8fc81b2857d6e"
+- name: "RocketX3E.u"
+  fileSize: 2194173
+  hash: "09c627548c285b1629295c576954d3c751763714"
+- name: "RocketX3.u"
+  fileSize: 1405815
+  hash: "ebca1871a81e2b1ed88b88d66b74a02d72256f5e"
+otherFiles: 7
+dependencies:
+  RocketX3.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+  RocketX3E.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+  RocketX3c.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/R/RocketX3Jets_6a48ed7f.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/R/6/a/48ed7f/RocketX3Jets_6a48ed7f.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/R/6/a/48ed7f/RocketX3Jets_6a48ed7f.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "RocketX3E"
+  description: "."
+- name: "RocketX3"
+  description: "."
+- name: "RocketX3c"
+  description: "."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

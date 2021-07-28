@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:06"
+variationOf: "329c9735da87f480403b9efd54e03d0af819b6f3"
+game: "Unreal Tournament"
+name: "DM-Deathstarpf"
+author: "Pat-Badkarma-Fitzsimons"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-Deathstarpf_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-Deathstarpf_shot_1.png"
+originalFilename: "DM-Deathstarpf.zip"
+hash: "415e4544ad110da58bce0a4b9f178a9c48dd9752"
+fileSize: 7073358
+files:
+- name: "DM-Deathstarpf.unr"
+  fileSize: 7021427
+  hash: "0116604d53822a058b0f745a153051edba507ed9"
+- name: "SW1.umx"
+  fileSize: 2174542
+  hash: "95f41e0f7fdb94a9d10d2bb1e6b47d084c4a6d12"
+- name: "SWpf.uax"
+  fileSize: 211877
+  hash: "e9dc2c3dcf4097b6488c9ea4e7282a94f7599359"
+- name: "Falcongreay.utx"
+  fileSize: 582536
+  hash: "69ee8c709376a9b4a2c8139d897fbc8c416b6c4b"
+- name: "Deathstar2.utx"
+  fileSize: 5589837
+  hash: "3de912a5f7f1c2952aed9d23a35fbfdbd25b7494"
+otherFiles: 1
+dependencies:
+  DM-Deathstarpf.unr:
+  - status: "OK"
+    name: "Deathstar2"
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "Falcongreay"
+  - status: "OK"
+    name: "SWpf"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Deathstarpf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-dstar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/4/1/5e4544/DM-Deathstarpf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/4/1/5e4544/DM-Deathstarpf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/4/1/5e4544/DM-Deathstarpf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DeathstarDockingbay"
+playerCount: "6-12"
+themes:
+  Industrial: 0.7
+  City: 0.2
+  Natural: 0.1
+bots: true

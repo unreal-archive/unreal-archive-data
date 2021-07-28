@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:19"
+game: "Unreal Tournament"
+name: "DM-(bah)-Unit4PacificDefense"
+author: "mindscape_ut@hotmail.com"
+description: "Unit 4 : Pacific Defense"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "dm-(bah)-unit4pacificdefense.zip"
+hash: "305e35e003173d0fd164913656cff3c3c403e223"
+fileSize: 5016244
+files:
+- name: "MMbeach1.utx"
+  fileSize: 1652463
+  hash: "38494eaf70213c17441388818d7ac4abe3cfd3c1"
+- name: "TBB_SUSA.umx"
+  fileSize: 1605251
+  hash: "c4f0c0eafdb3454a09fc348adbc5de8a0e17934d"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "MMbushesJ.u"
+  fileSize: 5458
+  hash: "ccbfc4300b77d2eedea87193b50cc35f23b8d112"
+- name: "DM-(bah)-Unit4PacificDefense.unr"
+  fileSize: 1479748
+  hash: "921643ffd9a1b3cc2233309d4a0f079d42f72fbc"
+- name: "mmbushes.utx"
+  fileSize: 311297
+  hash: "6d2013673156638c12a99b2d60bfa02c0dc02456"
+- name: "defaultX.utx"
+  fileSize: 88988
+  hash: "ef55bb6c102fabbc7cfc1a1472ddaa95e7f06d77"
+otherFiles: 2
+dependencies:
+  DM-(bah)-Unit4PacificDefense.unr:
+  - status: "OK"
+    name: "TBB_SUSA"
+  - status: "OK"
+    name: "MMbushesJ"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "OK"
+    name: "defaultX"
+  - status: "OK"
+    name: "MMbeach1"
+  MMbushesJ.u:
+  - status: "OK"
+    name: "mmbushes"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%28bah%29-unit4pacificdefense.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-(bah)-unit4pacificdefense.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/3/0/5e35e0/dm-(bah)-unit4pacificdefense.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/3/0/5e35e0/dm-(bah)-unit4pacificdefense.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Unit 4 : Pacific Defense"
+playerCount: "10-16"
+themes:
+  Tech: 0.1
+  Natural: 0.9
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:36"
+game: "Unreal Tournament"
+name: "CTF-sfTemple"
+author: "MrMaGoo"
+description: "Pray For Deliverance"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-sfTemple_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-sfTemple_shot_1.png"
+originalFilename: "CTF-sfTemple.zip"
+hash: "d972c7f6b604f8abd638f97cdac38c753b460f4d"
+fileSize: 4433592
+files:
+- name: "EgyptPan.utx"
+  fileSize: 2307029
+  hash: "f66f5221a2839512257a95d7193e489556bea49e"
+- name: "InfAdds.u"
+  fileSize: 551556
+  hash: "0b692e0615e9214ceb7f07e7af67d965d7d3106e"
+- name: "CTF-sfTemple.unr"
+  fileSize: 2484078
+  hash: "13bf00ce1177abafd8a8acd708cde129736b9e82"
+- name: "Egypt.utx"
+  fileSize: 2348680
+  hash: "e49a94924d20541166eec8872507f0ea37ae5eb1"
+otherFiles: 0
+dependencies:
+  InfAdds.u:
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  CTF-sfTemple.unr:
+  - status: "OK"
+    name: "InfAdds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-sfTemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-sfTemple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/9/72c7f6/CTF-sfTemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/9/72c7f6/CTF-sfTemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Temple"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.3
+  Egyptian: 0.7
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 06:24"
+game: "Unreal Tournament"
+name: "BT-IndustrialCheeses"
+author: "Whole Meal"
+description: "None"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "BT-IndustrialCheeses_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/I/BT-IndustrialCheeses_shot_1.png"
+originalFilename: "bt-industrialcheeses.zip"
+hash: "763dc669ff4ae6201ec1852035e9fc4f3cb623a3"
+fileSize: 8996112
+files:
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "BT-IndustrialCheeses.unr"
+  fileSize: 2965293
+  hash: "7c0029a5fbb444b096784fc8e77cde027c748e28"
+otherFiles: 1
+dependencies:
+  BT-IndustrialCheeses.unr:
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-industrialcheeses.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/I/bt-industrialcheeses.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-industrialcheeses.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-industrialcheeses.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/I/7/6/3dc669/bt-industrialcheeses.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/I/7/6/3dc669/bt-industrialcheeses.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Bunny Track - Industrial Cheeses"
+playerCount: "6+"
+themes:
+  Industrial: 1.0
+bots: true

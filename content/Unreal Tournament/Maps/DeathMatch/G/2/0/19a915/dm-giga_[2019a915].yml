@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:25"
+game: "Unreal Tournament"
+name: "DM-GIGA"
+author: "Fabian Walden   -   waldi2@giga4u.de"
+description: "THE FUTURE IS YOU!"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-GIGA_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-GIGA_shot_1.png"
+- type: "IMAGE"
+  name: "DM-GIGA_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-GIGA_shot_2.png"
+originalFilename: "dm-giga1.zip"
+hash: "2019a915db1cb798f0ef277f3d3e88a5bb32183b"
+fileSize: 1520160
+files:
+- name: "GIGA.utx"
+  fileSize: 2518376
+  hash: "63fecf86ee2a2da72eaa61ba33c1112d9820ce0b"
+- name: "GIGA2.utx"
+  fileSize: 795512
+  hash: "05398c64762533ba0e72d3b96e9eed9a80546bc0"
+- name: "DM-GIGA.unr"
+  fileSize: 114445
+  hash: "b89e64ec42f6861939c123976ed49669010be820"
+otherFiles: 3
+dependencies:
+  DM-GIGA.unr:
+  - status: "OK"
+    name: "GIGA2"
+  - status: "OK"
+    name: "GIGA"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-giga1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/dm-giga1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/2/0/19a915/dm-giga1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/2/0/19a915/dm-giga1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "GIGA 4 EVER"
+playerCount: "2-4"
+themes: {}
+bots: false

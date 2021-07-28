@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:29"
+game: "Unreal Tournament"
+name: "CTF4-Facebeta5"
+author: "Conversion by Red Dwarf"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF4-Facebeta5_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/CTF4-Facebeta5_shot_1.png"
+originalFilename: "ctf4-facebeta5.zip"
+hash: "ab58b92ef6d1679758a18265c850386412fdcc2f"
+fileSize: 865253
+files:
+- name: "GreatFireFace.utx"
+  fileSize: 90556
+  hash: "7abe87b26bd861d0a3eeb55fcca0e6fd75fe3520"
+- name: "GreatFireFaceRed.utx"
+  fileSize: 1851
+  hash: "fc492865835c5e195b10a9758c5c1e3ce219edd2"
+- name: "GreatFireFaceGreen.utx"
+  fileSize: 1853
+  hash: "d4573096c0d1ada92f5642e66dcb93f318d7fc10"
+- name: "CTF4-Facebeta5.unr"
+  fileSize: 2445978
+  hash: "77a89df59f50e8fd6cb91fc66bc6f01e870cbeba"
+otherFiles: 0
+dependencies:
+  CTF4-Facebeta5.unr:
+  - status: "OK"
+    name: "GreatFireFaceRed"
+  - status: "MISSING"
+    name: "CTF4Team"
+  - status: "OK"
+    name: "GreatFireFaceGreen"
+  - status: "OK"
+    name: "GreatFireFace"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF4&file=ctf4-facebeta5.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/ctf4-facebeta5.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/a/b/58b92e/ctf4-facebeta5.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/a/b/58b92e/ctf4-facebeta5.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Facing Worlds 4 Bases"
+playerCount: "8-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.1
+  Ancient: 0.5
+  Natural: 0.3
+bots: true

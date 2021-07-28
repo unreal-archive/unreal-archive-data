@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:50"
+variationOf: "20ba66c61eb6584548969215d7ea3eaf7beca74a"
+game: "Unreal"
+name: "Dm-FactorZ+"
+author: "Jesús  * Converted from UT to Unreal by Dik *"
+description: "None"
+releaseDate: "2005-07"
+attachments: []
+originalFilename: "DM-Factorz+.zip"
+hash: "26d43bd9dc77a8a063e60c3ee8820fb214fec6ef"
+fileSize: 3548152
+files:
+- name: "Savemeg.umx"
+  fileSize: 1690155
+  hash: "a11074403cc250a3845f24818932c888e83d898b"
+- name: "Dm-FactorZ+.unr"
+  fileSize: 2253803
+  hash: "e89c376dc23eeb791152f1b05695ca5600f5f783"
+- name: "FactorTex.utx"
+  fileSize: 2488829
+  hash: "c620c1b5ce505325f93fc8a560579466e3320ce9"
+otherFiles: 1
+dependencies:
+  Dm-FactorZ+.unr:
+  - status: "OK"
+    name: "Savemeg"
+  - status: "OK"
+    name: "FactorTex"
+  - status: "MISSING"
+    name: "JumpPad"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=DM-Factorz%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/DM-Factorz%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Theme/UTConvertedMaps/&file=dm-factorz%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsF/DM-Factorz+.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Theme/UTConvertedMaps/dm-factorz+.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/F/2/6/d43bd9/DM-Factorz%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/F/2/6/d43bd9/DM-Factorz%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "FactorZ"
+playerCount: "2-8"
+themes:
+  Skaarj Tech: 1.0
+bots: true

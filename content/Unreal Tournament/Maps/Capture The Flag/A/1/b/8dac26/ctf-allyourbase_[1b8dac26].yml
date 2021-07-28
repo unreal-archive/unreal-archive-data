@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:47"
+variationOf: "6a7b3ed84ad57552b44097be1630b54fbc831b64"
+game: "Unreal Tournament"
+name: "CTF-AllYourBase"
+author: "Coyote"
+description: "Somebody set up us the bomb!"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-allyourbase_shot_1b8dac26_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/b/8dac26/ctf-allyourbase_shot_1b8dac26_1.png"
+originalFilename: "ctf-allyourbase.rar"
+hash: "1b8dac2631223f5d10f3dca43ba83d7c1bced1d5"
+fileSize: 3226829
+files:
+- name: "AllYourBase.utx"
+  fileSize: 1430842
+  hash: "40f605961c705bdb52a89df38be30d8edad902c0"
+- name: "CTF-AllYourBase.unr"
+  fileSize: 2164014
+  hash: "7fc3a793ec4b01dbffb7f1cc9485f11f05ebe430"
+- name: "ForsakenT.utx"
+  fileSize: 2940782
+  hash: "7e6c3e40f6a8b7146ab1532ebd41844b8bbc02f7"
+otherFiles: 1
+dependencies:
+  CTF-AllYourBase.unr:
+  - status: "OK"
+    name: "AllYourBase"
+  - status: "OK"
+    name: "ForsakenT"
+  ForsakenT.utx:
+  - status: "MISSING"
+    name: "WOTDetail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-allyourbase.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-allyourbase.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/b/8dac26/ctf-allyourbase.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/b/8dac26/ctf-allyourbase.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-AllYourBase"
+playerCount: "Locked out"
+themes:
+  Ancient: 0.5
+  Skaarj Tech: 0.4
+  Nali Castle: 0.1
+bots: true

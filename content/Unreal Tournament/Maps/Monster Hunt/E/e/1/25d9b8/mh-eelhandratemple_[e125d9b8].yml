@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:13"
+game: "Unreal Tournament"
+name: "MH-EelhandraTemple"
+author: "El Chicoverde"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-eelhandratemple.zip"
+hash: "e125d9b8eb25d1bda0ab7fa0bad61cb60aae37f7"
+fileSize: 6178161
+files:
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "WoD.u"
+  fileSize: 729143
+  hash: "d5ccf04c8336d19ce53d316d14f10de1d36b1b8d"
+- name: "MH-EelhandraTemple.unr"
+  fileSize: 6764382
+  hash: "6413db6f771f34f2963a39c4dd897c6510b2b748"
+- name: "AX.u"
+  fileSize: 5964892
+  hash: "8829c49c3a3a5bbf47faf21ddf7da2127148d7b5"
+otherFiles: 2
+dependencies:
+  MH-EelhandraTemple.unr:
+  - status: "OK"
+    name: "WoD"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Nali"
+  - status: "OK"
+    name: "AX"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-eelhandratemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/E/mh-eelhandratemple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-eelhandratemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/E/e/1/25d9b8/mh-eelhandratemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/e/1/25d9b8/mh-eelhandratemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Temple of Eelhandra ( part 2)"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.7
+  Natural: 0.2
+  Nali Castle: 0.1
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 21:40"
+game: "Unreal Tournament"
+name: "Fbwaldoworldarena"
+author: ".Marathon conversion by Wolfchild and Pfhoenix"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "Fbwaldoworldarena_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/F/Fbwaldoworldarena_shot_2.png"
+- type: "IMAGE"
+  name: "Fbwaldoworldarena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/F/Fbwaldoworldarena_shot_1.png"
+originalFilename: "fbwaldoworldarena.zip"
+hash: "dcf3d03f1c4593e91a5d9a10b3f7f3272ebdb7e7"
+fileSize: 278742
+files:
+- name: "KOTH-FbWaldoWorldArena.unr"
+  fileSize: 943519
+  hash: "7f36c0e3e16505162d50650b9ec505275883fc96"
+- name: "DM-FbWaldoWorldArena.unr"
+  fileSize: 917979
+  hash: "8da2f083aef99755847f74a71615e84dcbc795dc"
+otherFiles: 1
+dependencies:
+  KOTH-FbWaldoWorldArena.unr:
+  - status: "MISSING"
+    name: "KOTH2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/marathonresurrection&file=fbwaldoworldarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/F/fbwaldoworldarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/F/d/c/f3d03f/fbwaldoworldarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/F/d/c/f3d03f/fbwaldoworldarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "KOTH-FbWaldoWorldArena"
+  title: "Waldo World Arena"
+  author: "Marathon conversion by Wolfchild and Pfhoenix"
+- name: "DM-FbWaldoWorldArena"
+  title: "Waldo World Arena"
+  author: "Marathon conversion by Wolfchild and Pfhoenix"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.4
+  Ancient: 0.1
+  City: 0.1
+  Natural: 0.4

@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 15:04"
+game: "Unreal Tournament 2004"
+name: "AS-Old_Temple_V1"
+author: "Naabis"
+description: "None"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "AS-Old_Temple_V1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/O/AS-Old_Temple_V1_shot_1.png"
+- type: "IMAGE"
+  name: "AS-Old_Temple_V1_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/O/AS-Old_Temple_V1_shot_2.png"
+originalFilename: "as-old_temple_v1.zip"
+hash: "bb3fbf24d50b14e40ac619a90d3570ad585a8a1e"
+fileSize: 26475393
+files:
+- name: "sg_UT2003_Jumpboots.utx"
+  fileSize: 351754
+  hash: "4cc1ba8c901513e458e0dbd7b7d75ffa97e53734"
+- name: "TFAMap.u"
+  fileSize: 21814
+  hash: "4769d810763cd19e6218101f9409ae9bb5076f5b"
+- name: "AS-Old_Temple_V1.ut2"
+  fileSize: 37060296
+  hash: "fcc1482ccb5d4f0e4de09b5bf64c11835ca8f6aa"
+- name: "2K6_NaabNewPack1.utx"
+  fileSize: 5945483
+  hash: "9955fc318a80fc62b090c3df54769d93d3b9d6c4"
+- name: "righteous_infliction_of_retribution.ogg"
+  fileSize: 8254455
+  hash: "cce1ca7b2295ff481709cfe3c46361af89282db6"
+- name: "2K6_NaabPack1.usx"
+  fileSize: 4953657
+  hash: "0d29b4049eaf4630f543e67e39eb0933f193ae28"
+- name: "sg_UT2003_pickups.usx"
+  fileSize: 83308
+  hash: "357157a0bf23c0756cedb35eea7004d891600d61"
+otherFiles: 2
+dependencies:
+  "2K6_NaabPack1.usx":
+  - status: "OK"
+    name: "2K6_NaabNewPack1"
+  AS-Old_Temple_V1.ut2:
+  - status: "OK"
+    name: "2K6_NaabNewPack1"
+  - status: "OK"
+    name: "TFAMap"
+  - status: "OK"
+    name: "2K6_NaabPack1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5469"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/O/as-old_temple_v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/O/b/b/3fbf24/as-old_temple_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/O/b/b/3fbf24/as-old_temple_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-Old Temple"
+playerCount: "Unknown"
+themes:
+  Egyptian: 0.8
+  Ancient: 0.2
+bots: false

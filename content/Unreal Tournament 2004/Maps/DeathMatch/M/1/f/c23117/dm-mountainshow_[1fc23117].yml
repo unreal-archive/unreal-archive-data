@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 20:35"
+game: "Unreal Tournament 2004"
+name: "DM-MountainShow"
+author: "][Milo]["
+description: "Mountains Show"
+releaseDate: "2006-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-MountainShow_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MountainShow_shot_2.png"
+- type: "IMAGE"
+  name: "DM-MountainShow_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MountainShow_shot_1.png"
+originalFilename: "dm-mountainshow.zip"
+hash: "1fc231175729f9ec11c1da37f52824793f4ec3da"
+fileSize: 4602365
+files:
+- name: "Terrain_w.utx"
+  fileSize: 1139989
+  hash: "db1ba0f22e9d9374340bea8401140598dbcb5064"
+- name: "DM-MountainShow.ut2"
+  fileSize: 4846567
+  hash: "a1fad31776a31b5872f78d90e7c64f2c4828e994"
+- name: "AbaddonHardware.usx"
+  fileSize: 8209271
+  hash: "a79a77009c2156f9e0ada2af4ee31a98e320afff"
+otherFiles: 1
+dependencies:
+  DM-MountainShow.ut2:
+  - status: "MISSING"
+    name: "GenIn"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5194"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dm-mountainshow.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/1/f/c23117/dm-mountainshow.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/1/f/c23117/dm-mountainshow.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Mount"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: true

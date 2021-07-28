@@ -1,0 +1,88 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 20:41"
+game: "Unreal Tournament 2004"
+name: "DM-[M]Circulation-[2]"
+author: "Massacre"
+description: "None"
+releaseDate: "2015-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-[M]Circulation-[2]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%5BM%5DCirculation-%5B2%5D_shot_1.png"
+originalFilename: "dm-_m_circulation-_2_.zip"
+hash: "63ce3222d855bfe0d039ce918633eb25089ce3fa"
+fileSize: 23310084
+files:
+- name: "ymme_HardwareTex.utx"
+  fileSize: 16463846
+  hash: "4c901f809f984bed13736b22525559feb76cdd71"
+- name: "DM-[M]Circulation-[2].ut2"
+  fileSize: 23313996
+  hash: "82d58a04306507c402ffb517e2d1c7633816bea3"
+- name: "ymme_ArchitectureTex.utx"
+  fileSize: 6458312
+  hash: "a9582280895ca08b6cc07054d918765fd76d782e"
+- name: "MultiDodging2k4v2.u"
+  fileSize: 5158
+  hash: "2f5b404a5c7cd306cd07652f8959775ebabe7b92"
+- name: "Massacre.usx"
+  fileSize: 1225795
+  hash: "1fbc82f51306af783f101ff3d254708e985bebc9"
+- name: "ymme_ArchitectureStat.usx"
+  fileSize: 76915
+  hash: "bf3e60f54447275166960f4d31747c4df1f9d6b3"
+- name: "Faithtdl.utx"
+  fileSize: 7233089
+  hash: "b8e076d02eba5fb03983e7590ea6668306964f3e"
+- name: "ymme_HardwareStat.usx"
+  fileSize: 7070857
+  hash: "fc9d59055d0d1053cb5f6cd93b8036acecf420ce"
+otherFiles: 1
+dependencies:
+  ymme_ArchitectureStat.usx:
+  - status: "OK"
+    name: "ymme_ArchitectureTex"
+  DM-[M]Circulation-[2].ut2:
+  - status: "OK"
+    name: "ymme_HardwareStat"
+  - status: "OK"
+    name: "ymme_ArchitectureTex"
+  - status: "OK"
+    name: "ymme_ArchitectureStat"
+  - status: "OK"
+    name: "Faithtdl"
+  - status: "OK"
+    name: "MultiDodging2k4v2"
+  - status: "OK"
+    name: "Massacre"
+  - status: "OK"
+    name: "ymme_HardwareTex"
+  ymme_HardwareStat.usx:
+  - status: "OK"
+    name: "ymme_HardwareTex"
+downloads:
+- url: "https://gamebanana.com/maps/download/190123"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dm-_m_circulation-_2_.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/6/3/ce3222/dm-_m_circulation-_2_.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/6/3/ce3222/dm-_m_circulation-_2_.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: ".::Circulation 2 ::: with Multi-Dodge::."
+playerCount: "12-20"
+themes:
+  Tech: 0.8
+  Egyptian: 0.1
+bots: true

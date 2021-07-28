@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 19:27"
+game: "Unreal Tournament 2004"
+name: "VCTF-DeadZone"
+author: "Byte"
+description: ""
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-DeadZone_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/VCTF-DeadZone_shot_1.png"
+- type: "IMAGE"
+  name: "VCTF-DeadZone_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/VCTF-DeadZone_shot_2.png"
+originalFilename: "vctf-deadzone.zip"
+hash: "4f83f90cd00a27fca83e472cab6c0329d47099ad"
+fileSize: 8536921
+files:
+- name: "RipperMeshes.usx"
+  fileSize: 325533
+  hash: "561d49593fdf3d4b2cc05710ea4ac0823953da29"
+- name: "RipperSounds.uax"
+  fileSize: 117608
+  hash: "90f3f4f58b6e125afa0fa552f280eb9a7d85729d"
+- name: "RipperTex.utx"
+  fileSize: 3169064
+  hash: "25c8e7aef20473c66e9b5c0eb77fd113e584c16f"
+- name: "VCTF-DeadZone.ut2"
+  fileSize: 20701752
+  hash: "614bac94e7be6d238c0159e6ff243effa4631b0c"
+- name: "RipperAnim.ukx"
+  fileSize: 340329
+  hash: "10ad68ea8d591c04e781ae0c90088c4102313ffd"
+otherFiles: 2
+dependencies:
+  RipperMeshes.usx:
+  - status: "OK"
+    name: "RipperTex"
+  VCTF-DeadZone.ut2:
+  - status: "MISSING"
+    name: "AS_Vehicles_M"
+  - status: "MISSING"
+    name: "RipperAnim"
+  - status: "OK"
+    name: "RipperTex"
+  - status: "OK"
+    name: "RipperSounds"
+  - status: "OK"
+    name: "RipperMeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/vctf-deadzone.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/VCTF/&file=vctf-deadzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/4/f/83f90c/vctf-deadzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/4/f/83f90c/vctf-deadzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "Dead Zone"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true

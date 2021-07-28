@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 14:25"
+game: "Unreal Tournament 2004"
+name: "DM-VRAntillia"
+author: "Zero Shift Kazuki"
+description: "I own Konami!"
+releaseDate: "2003-07"
+attachments: []
+originalFilename: "dm-vrantillia0.zip"
+hash: "e7db0d9f979f9d05f9a7160895d9b58cca14a954"
+fileSize: 824683
+files:
+- name: "ColonyTextures.utx"
+  fileSize: 1314187
+  hash: "f9c56f4e63eb5e1ac5e9550c587e38700c30a5e6"
+- name: "DM-VRAntillia.ut2"
+  fileSize: 5643912
+  hash: "ed1c8827887c4e35a6b916fda763502f957e8a42"
+otherFiles: 0
+dependencies:
+  DM-VRAntillia.ut2:
+  - status: "OK"
+    name: "ColonyTextures"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1844"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/V/dm-vrantillia0.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/V/e/7/db0d9f/dm-vrantillia0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/V/e/7/db0d9f/dm-vrantillia0.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "VR Antillia"
+playerCount: "4-8"
+themes:
+  Tech: 0.4
+  Industrial: 0.6
+bots: true

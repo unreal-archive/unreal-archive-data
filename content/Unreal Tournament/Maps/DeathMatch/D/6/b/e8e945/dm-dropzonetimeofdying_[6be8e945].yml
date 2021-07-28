@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:17"
+game: "Unreal Tournament"
+name: "DM-DropZoneTimeofDying"
+author: "Squacky <<hastings@cs.ucf.edu>>"
+description: "None"
+releaseDate: "2018-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-DropZoneTimeofDying_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-DropZoneTimeofDying_shot_1.png"
+originalFilename: "DM-DropZoneTimeofDying.zip"
+hash: "6be8e9455d16b6889e6662cc0fc9c2e27eb7cd3a"
+fileSize: 30909198
+files:
+- name: "TimeofDying1.umx"
+  fileSize: 8253691
+  hash: "6e1ff549a3628e60877bb7672022b5630f73e113"
+- name: "DM-DropZoneTimeofDying .unr"
+  fileSize: 6411352
+  hash: "9caa20e31569175134b9ce91d8cd0c22d7a110f2"
+- name: "SSPX2.utx"
+  fileSize: 7909204
+  hash: "63c771dd8db7e175ecf1f8e6d16d6b804a40a3bd"
+otherFiles: 0
+dependencies:
+  DM-DropZoneTimeofDying .unr:
+  - status: "OK"
+    name: "SSPX2"
+  - status: "OK"
+    name: "TimeofDying1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-DropZoneTimeofDying.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DropZoneTimeofDying.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/6/b/e8e945/DM-DropZoneTimeofDying.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/6/b/e8e945/DM-DropZoneTimeofDying.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: ">> Drop Zone ][ <<"
+playerCount: "6 to 10"
+themes:
+  Industrial: 0.3
+  City: 0.6
+bots: true

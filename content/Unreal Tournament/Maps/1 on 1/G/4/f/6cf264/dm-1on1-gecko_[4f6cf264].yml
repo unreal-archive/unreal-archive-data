@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:01"
+game: "Unreal Tournament"
+name: "DM-1on1-Gecko"
+author: "Gecko"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1-gecko_shot_4f6cf264_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/G/4/f/6cf264/dm-1on1-gecko_shot_4f6cf264_1.png"
+originalFilename: "DM-1on1-Gecko.zip"
+hash: "4f6cf26491100035dabe98b8bd1971df390a1699"
+fileSize: 2385913
+files:
+- name: "DM-1on1-Gecko.unr"
+  fileSize: 817980
+  hash: "1ea45212140b6097344a69c00434bd1013fe7df2"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 1
+dependencies:
+  DM-1on1-Gecko.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/G/DM-1on1-Gecko.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-1on1-gecko.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/1%20on%201/G/4/f/6cf264/DM-1on1-Gecko.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/1%20on%201/G/4/f/6cf264/DM-1on1-Gecko.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "DM-1on1-Gecko"
+playerCount: "2-4"
+themes:
+  Tech: 0.1
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

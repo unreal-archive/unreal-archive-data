@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:32"
+variationOf: "87dcb5273b23b692ece524d9644844d08de4823f"
+game: "Unreal Tournament"
+name: "DOM-CommControl"
+author: "'Paralax' Kaileb Preston"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "dom-commcontrol_shot_b6e5a6d4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/C/b/6/e5a6d4/dom-commcontrol_shot_b6e5a6d4_1.png"
+originalFilename: "DOM-CommControl_beta4.zip"
+hash: "b6e5a6d43b03fa6cbfd36b66d53512dad8e4dafb"
+fileSize: 543675
+files:
+- name: "ControlIt.utx"
+  fileSize: 365529
+  hash: "058428f44838a783b51cb29d561bb85ec7cb00c6"
+- name: "DOM-CommControl.unr"
+  fileSize: 657717
+  hash: "da5da2854d9ead1da02be4d2f02ca4c464ddbcf0"
+otherFiles: 1
+dependencies:
+  DOM-CommControl.unr:
+  - status: "OK"
+    name: "ControlIt"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/C/b/6/e5a6d4/DOM-CommControl_beta4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/C/b/6/e5a6d4/DOM-CommControl_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/C/b/6/e5a6d4/DOM-CommControl_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "CommControl: Episode 2"
+playerCount: "6-10"
+themes:
+  Industrial: 0.9
+  Skaarj Tech: 0.1
+bots: true

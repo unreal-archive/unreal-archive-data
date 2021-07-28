@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:41"
+game: "Unreal Tournament"
+name: "CTF-Tyler Mine"
+author: "--<Eraser>--"
+description: "Fragfest!"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Tyler_Mine_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-Tyler_Mine_shot_1.png"
+originalFilename: "ctf-tylermine.zip"
+hash: "ef3732da69caa4a6d7af18330d7aa1260b25346a"
+fileSize: 1412307
+files:
+- name: "CTF-Tyler Mine.unr"
+  fileSize: 4872538
+  hash: "ab4ae99f353cbcc162caaf83f40cbc546b0e089b"
+- name: "bomb.utx"
+  fileSize: 2905
+  hash: "3b3d16273d61fce1eee926e06bacaee59d5b7d91"
+- name: "Bstretz.utx"
+  fileSize: 88993
+  hash: "28a60df5349d8e49f9e1eee4b404e4f5a295e284"
+otherFiles: 1
+dependencies:
+  CTF-Tyler Mine.unr:
+  - status: "OK"
+    name: "bomb"
+  - status: "OK"
+    name: "Bstretz"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-tylermine.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsT/&file=ctf-tylermine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-tylermine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsT/ctf-tylermine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/f/3732da/ctf-tylermine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/f/3732da/ctf-tylermine.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Tyler Mine"
+playerCount: "8 - 10"
+themes:
+  Nali Temple: 0.4
+  Natural: 0.6
+bots: true

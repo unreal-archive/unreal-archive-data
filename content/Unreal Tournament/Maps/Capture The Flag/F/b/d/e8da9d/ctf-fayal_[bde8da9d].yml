@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:22"
+variationOf: "b68fb9a5fe2b42d29bcd828cec15c46c8d3cae60"
+game: "Unreal Tournament"
+name: "CTF-Fayal"
+author: "Alexander \"lehmi\" Lehmann"
+description: "None"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fayal_shot_bde8da9d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/d/e8da9d/ctf-fayal_shot_bde8da9d_1.png"
+originalFilename: "ctf-fayal.zip"
+hash: "bde8da9d14f61a75ef6fd5dd2bdf24b6880e39ea"
+fileSize: 3170483
+files:
+- name: "Shapeshifter.umx"
+  fileSize: 1625841
+  hash: "0008f83621ca57c4682e22e1b8ef7f79d458c642"
+- name: "CTF-Fayal.unr"
+  fileSize: 5283713
+  hash: "3b902df1e50445a379444125c3add2b38b674161"
+otherFiles: 1
+dependencies:
+  CTF-Fayal.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "Shapeshifter"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsF/ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/d/e8da9d/ctf-fayal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/d/e8da9d/ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/d/e8da9d/ctf-fayal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Fayal"
+playerCount: "6-10"
+themes:
+  Tech: 1.0
+bots: true

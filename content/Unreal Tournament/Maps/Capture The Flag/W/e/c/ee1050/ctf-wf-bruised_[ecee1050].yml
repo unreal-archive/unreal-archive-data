@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:43"
+game: "Unreal Tournament"
+name: "CTF-WF-Bruised"
+author: "TJ \"Penguinisto\" Miller jr"
+description: "Welcome to Hell, kiddies..."
+releaseDate: "1999-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-WF-Bruised_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-WF-Bruised_shot_1.png"
+originalFilename: "ctf-wf-bruised.zip"
+hash: "ecee1050d5f50eb47fea24547303f2480e33d054"
+fileSize: 4496678
+files:
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "warcry.umx"
+  fileSize: 1335982
+  hash: "1a0d645adf81e2d7a23193b3e5fc6ae8badab9d4"
+- name: "CTF-WF-Bruised.unr"
+  fileSize: 2080670
+  hash: "9792086c6017d8ed6666c527d880c090b847a6e5"
+otherFiles: 2
+dependencies:
+  CTF-WF-Bruised.unr:
+  - status: "OK"
+    name: "cf_mansion"
+  - status: "OK"
+    name: "warcry"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/ctf-wf-bruised.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsW/&file=ctf-wf-bruised.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-wf-bruised.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsW/ctf-wf-bruised.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/e/c/ee1050/ctf-wf-bruised.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/e/c/ee1050/ctf-wf-bruised.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Bruised Ambition"
+playerCount: "8 to 24"
+themes:
+  Tech: 0.1
+  Ancient: 0.3
+  Natural: 0.7
+bots: true

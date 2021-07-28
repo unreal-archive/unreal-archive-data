@@ -7,7 +7,6 @@ author: "Chaotic Dreams"
 description: "Short description about ChaosUT"
 titleImage: "title.png"
 bannerImage: "banner.jpg"
-releaseDate: "2002-09"
 links:
   Homepage: "https://chaoticdreams.org/chaosut"
   ModDB: "https://www.moddb.com/mods/chaosut"
@@ -70,7 +69,8 @@ mutators:
 - name: "ChaosUT - NoHealth"
   description: "All health items (healthvial, superhealth, medbox) are removed"
 - name: "ChaosUT Arena Mutator"
-  description: "All weapons and ammo are replaced with the ones that are selected in the ChaosUT Config Setup under Arena Mutator Selection."
+  description: "All weapons and ammo are replaced with the ones that are selected\
+    \ in the ChaosUT Config Setup under Arena Mutator Selection."
 maps:
 - name: "koth_BaseStationTheta"
   title: "Base Station Theta"
@@ -98,6 +98,10 @@ releases:
       repack: false
       state: "OK"
     - url: "http://medor.no-ip.org/index.php?dir=GameTypes/ChaosUT/&file=chaosut_v1-1_full_nonumod.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/gametypes/Unreal%20Tournament/chaosut/chaosut_v1-1_full_nonumod.zip"
       main: false
       repack: false
       state: "OK"
@@ -166,137 +170,96 @@ releases:
       ChaosUT.u:
       - status: "OK"
         name: "ChaosSounds"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia4"
-        providedBy: null
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia2"
-        providedBy: null
       - status: "OK"
         name: "chaos_special_tex"
-        providedBy: null
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "chaossounds2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia5"
-        providedBy: null
       ChaosUTRHUD.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       - status: "OK"
         name: "chaos_special_tex"
-        providedBy: null
       ChaosUTMiscMuts.u:
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       ChaosGames.u:
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia4"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMiscMuts"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia5"
-        providedBy: null
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       koth_BaseStationTheta.unr:
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       - status: "OK"
         name: "utchaosmap"
-        providedBy: null
       - status: "OK"
         name: "ChaosGames"
-        providedBy: null
       ChaosUTMedia5.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia4"
-        providedBy: null
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia2"
-        providedBy: null
       UTChaosMap.u:
       - status: "PARTIAL"
         name: "ChaosSounds"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "PARTIAL"
         name: "Chaostex"
-        providedBy: null
       ChaosUTMedia4.u:
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "chaos_special_tex"
-        providedBy: null
       ChaosUTMedia3.u:
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia2"
-        providedBy: null
       ChaosUTMedia2.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       ChaosUTMedia1.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
   - title: "UMOD Package"
     localFile: "/home/shrimp/tmp/chaosut_v1-1_full.zip"
     platform: "ANY"
@@ -314,6 +277,10 @@ releases:
       repack: false
       state: "OK"
     - url: "http://ut-files.com/index.php?dir=GameTypes/ChaosUT/&file=chaosut_v1-1_full.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/gametypes/Unreal%20Tournament/chaosut/chaosut_v1-1_full.zip"
       main: false
       repack: false
       state: "OK"
@@ -415,155 +382,109 @@ releases:
       CUT-Logo-Map.unr:
       - status: "OK"
         name: "CUT_Desktop"
-        providedBy: null
       ChaosUT.u:
       - status: "OK"
         name: "ChaosSounds"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia4"
-        providedBy: null
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia2"
-        providedBy: null
       - status: "OK"
         name: "chaos_special_tex"
-        providedBy: null
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "chaossounds2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia5"
-        providedBy: null
       ChaosUTRHUD.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       - status: "OK"
         name: "chaos_special_tex"
-        providedBy: null
       Chreks.u:
       - status: "OK"
         name: "Chreksounds"
-        providedBy: null
       - status: "PARTIAL"
         name: "chrekskins"
-        providedBy: null
       Chrekvoicedozer.u:
       - status: "OK"
         name: "Chreksounds"
-        providedBy: null
       ChaosUTMiscMuts.u:
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       ChaosGames.u:
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia4"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMiscMuts"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia5"
-        providedBy: null
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       UTChaosMap.u:
       - status: "PARTIAL"
         name: "ChaosSounds"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "PARTIAL"
         name: "Chaostex"
-        providedBy: null
       ChaosUTMedia5.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia4"
-        providedBy: null
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia2"
-        providedBy: null
       KOTH_BaseStationTheta.unr:
       - status: "OK"
         name: "ChaosUT"
-        providedBy: null
       - status: "OK"
         name: "utchaosmap"
-        providedBy: null
       - status: "OK"
         name: "ChaosGames"
-        providedBy: null
       ChaosUTMedia4.u:
       - status: "OK"
         name: "ChaosUTMedia3"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "chaos_special_tex"
-        providedBy: null
       ChaosUTMedia3.u:
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia2"
-        providedBy: null
       ChaosUTMedia2.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       - status: "OK"
         name: "chaostex2"
-        providedBy: null
       - status: "OK"
         name: "ChaosUTMedia1"
-        providedBy: null
       ChaosUTMedia1.u:
       - status: "OK"
         name: "chaostex"
-        providedBy: null
       Chrekvoicescout.u:
       - status: "OK"
         name: "Chreksounds"
-        providedBy: null
   deleted: false
 deleted: false

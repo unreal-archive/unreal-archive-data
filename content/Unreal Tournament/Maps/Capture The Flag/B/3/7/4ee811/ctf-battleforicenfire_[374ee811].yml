@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:09"
+variationOf: "388496ce19d25a38e104a9fe965c89bec0509f0b"
+game: "Unreal Tournament"
+name: "CTF-BattleForIceNFire"
+author: "Feralidragon a.k.a. {WINGS}xXx"
+description: "The both sides are fighting for each other, who's gonna to win? Fire\
+  \ or Ice?"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-battleforicenfire_shot_374ee811_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/3/7/4ee811/ctf-battleforicenfire_shot_374ee811_1.png"
+originalFilename: "CTF-BattleForIceNFire.rar"
+hash: "374ee811ed8f21ab5db1fbbacc1fa4e0bf33217f"
+fileSize: 2481143
+files:
+- name: "ZAN_MET.umx"
+  fileSize: 1357144
+  hash: "5b36f26014eb39e4a32fbd2b719dece01d8355d1"
+- name: "ElementRifles.u"
+  fileSize: 17414
+  hash: "e1383f39bddc6e00410664a652ceb7ea62e0271a"
+- name: "CTF-BattleForIceNFire.unr"
+  fileSize: 5863350
+  hash: "b2ceb6fde9fc20bad8032e06035e890c18fe247d"
+- name: "ElementRiflesGFX.utx"
+  fileSize: 177720
+  hash: "47e58f9c2eb3452f020ff7ee5a427c0726bc1d5e"
+otherFiles: 1
+dependencies:
+  CTF-BattleForIceNFire.unr:
+  - status: "OK"
+    name: "ZAN_MET"
+  - status: "OK"
+    name: "ElementRifles"
+  - status: "MISSING"
+    name: "SGTech1"
+  ElementRifles.u:
+  - status: "OK"
+    name: "ElementRiflesGFX"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-BattleForIceNFire.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-BattleForIceNFire.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/3/7/4ee811/CTF-BattleForIceNFire.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/3/7/4ee811/CTF-BattleForIceNFire.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/3/7/4ee811/CTF-BattleForIceNFire.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Battle for Ice and Fire"
+playerCount: "16"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  Skaarj Crypt: 0.2
+  Industrial: 0.1
+  Natural: 0.5
+bots: true

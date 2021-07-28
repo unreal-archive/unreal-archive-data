@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:22"
+variationOf: "c8e516e072efd3d7e748d8b9a8e1ecfbb7f87273"
+game: "Unreal Tournament"
+name: "CTF-(SMAW)-1on1Gladiator"
+author: "Martijn '{SMAW}SepulturA' Kooy"
+description: "None"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "ctf-1on1gladiator.zip"
+hash: "e7093a29d7d27b0862940d79a7688726507ae239"
+fileSize: 372134
+files:
+- name: "CTF-(SMAW)-1on1Gladiator.unr"
+  fileSize: 359101
+  hash: "c3cdd785f09edafe3ef91fe1a9997f8a380ca8db"
+- name: "Point.umx"
+  fileSize: 443326
+  hash: "13e99f1f415f41e8b249590ccbdc054c8e010724"
+otherFiles: 1
+dependencies:
+  CTF-(SMAW)-1on1Gladiator.unr:
+  - status: "OK"
+    name: "Point"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-1on1gladiator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-1on1gladiator.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2960"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/e/7/093a29/ctf-1on1gladiator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/e/7/093a29/ctf-1on1gladiator.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-1on1Gladiator"
+playerCount: "2-8"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

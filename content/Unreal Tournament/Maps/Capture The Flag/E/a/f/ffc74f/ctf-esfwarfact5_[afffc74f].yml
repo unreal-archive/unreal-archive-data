@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:09"
+game: "Unreal Tournament"
+name: "CTF-ESFWarFact5"
+author: "{ESF}Dragon"
+description: "Bow Down B4 Your Gods!"
+releaseDate: "2013-01"
+attachments: []
+originalFilename: "CTF-ESFWarFact5.zip"
+hash: "afffc74fbf155be480afae256a8ac3cc77921745"
+fileSize: 754230
+files:
+- name: "ESF234.utx"
+  fileSize: 530497
+  hash: "77a7807127023438ef50e2ed5f121563a75a9a3a"
+- name: "CTF-ESFWarFact5.unr"
+  fileSize: 514094
+  hash: "35a1d8b3041c980f71c7376710b8e75e118f6606"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+otherFiles: 0
+dependencies:
+  CTF-ESFWarFact5.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "ESF234"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-ESFWarFact5.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/CTF-ESFWarFact5.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/a/f/ffc74f/CTF-ESFWarFact5.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/a/f/ffc74f/CTF-ESFWarFact5.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "ESF-War Factory"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.8
+  Natural: 0.1
+bots: false

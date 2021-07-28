@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:55"
+game: "Unreal Tournament"
+name: "DM-BDC-CarJack"
+author: "{BDC}DoGGZz[20o0]"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-BDC-CarJack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BDC-CarJack_shot_1.png"
+originalFilename: "dm-bdc-carjack.zip"
+hash: "fa48ce02f504a47622cbfc4315a82d595fb9745b"
+fileSize: 2388195
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "bloodred.umx"
+  fileSize: 617013
+  hash: "fd191e5c2ffb851a2443fa54eb7fe250dcbc106c"
+- name: "DM-BDC-CarJack.unr"
+  fileSize: 745270
+  hash: "1480ae4ee77c765d80d18873581f3fff08b4cd30"
+- name: "BDCCLAN.utx"
+  fileSize: 266795
+  hash: "4f147587f19e957e0226bcaa5772ffce50367a38"
+otherFiles: 1
+dependencies:
+  DM-BDC-CarJack.unr:
+  - status: "OK"
+    name: "BDCCLAN"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "bloodred"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-bdc-carjack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-bdc-carjack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-bdc-carjack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-bdc-carjack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/f/a/48ce02/dm-bdc-carjack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/f/a/48ce02/dm-bdc-carjack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BDC-CarJack"
+playerCount: "6-10"
+themes:
+  City: 0.8
+  Indistrial: 0.2
+bots: true

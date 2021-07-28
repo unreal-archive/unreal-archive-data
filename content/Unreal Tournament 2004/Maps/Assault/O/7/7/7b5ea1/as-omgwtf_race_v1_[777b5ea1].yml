@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 23:40"
+game: "Unreal Tournament 2004"
+name: "AS-OMGWTF_Race_v1"
+author: "[HSP]Wangtang"
+description: "Fairly Shot AS map with 5 objectives. Let the rest speak for itself..."
+releaseDate: "2006-07"
+attachments: []
+originalFilename: "AS-OMGWTF_Race_v1.zip"
+hash: "777b5ea1600884e6e3d782e90b7ec853fc6426d2"
+fileSize: 2159654
+files:
+- name: "XHAX.u"
+  fileSize: 8259
+  hash: "2f3e1b9b43e6cdd1c8bda2227c8f303f31bd9d98"
+- name: "AS-OMGWTF_Race_v1.ut2"
+  fileSize: 8128861
+  hash: "f61d2650fb8b53140d5893098e64141e1556a8d2"
+otherFiles: 0
+dependencies:
+  XHAX.u:
+  - status: "MISSING"
+    name: "ONSVehicles-A"
+  - status: "MISSING"
+    name: "AS_VehiclesFull_M"
+  AS-OMGWTF_Race_v1.ut2:
+  - status: "OK"
+    name: "XHAX"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Assault/&file=AS-OMGWTF_Race_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/O/AS-OMGWTF_Race_v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/O/7/7/7b5ea1/AS-OMGWTF_Race_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/O/7/7/7b5ea1/AS-OMGWTF_Race_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "OMG WTF Race"
+playerCount: "Unknown"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: true

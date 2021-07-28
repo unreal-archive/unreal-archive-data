@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:31"
+game: "Unreal Tournament"
+name: "DM-Technosis"
+author: "Xoleras"
+description: "Gsus Map"
+releaseDate: "2010-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Technosis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-Technosis_shot_1.png"
+originalFilename: "DM-Technosis.7z"
+hash: "b3bc7d6434cda2b4bcd51a5c310b3382149291d1"
+fileSize: 12258029
+files:
+- name: "DM-Technosis.unr"
+  fileSize: 1515068
+  hash: "1e696eb47cbbaa03b539780e65396ac3c208ff2a"
+- name: "Future.umx"
+  fileSize: 13045907
+  hash: "dc93d8fa20bcac28872ae780e1074c3be84b54f8"
+- name: "Technopathy.utx"
+  fileSize: 1013220
+  hash: "dc9557b7685c664ad41d06422dbc77ddc7d3bc74"
+otherFiles: 1
+dependencies:
+  DM-Technosis.unr:
+  - status: "OK"
+    name: "Technopathy"
+  - status: "OK"
+    name: "Future"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Technosis.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/DM-Technosis.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/b/3/bc7d64/DM-Technosis.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/b/3/bc7d64/DM-Technosis.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Techno-Systems"
+playerCount: "2-4"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true

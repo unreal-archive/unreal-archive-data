@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:47"
+game: "Unreal Tournament"
+name: "DM-FourthOrder"
+author: "Wey Realistics"
+description: "Beware the Red Tide"
+releaseDate: "2012-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-fourthorder_shot_7cdc41de_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/7/c/dc41de/dm-fourthorder_shot_7cdc41de_1.png"
+originalFilename: "DM-FourthOrder.zip"
+hash: "7cdc41decf9d27f9aa1c6db922c58de500fa2219"
+fileSize: 962639
+files:
+- name: "WeyScripts2.u"
+  fileSize: 3830
+  hash: "7f6707826324a3712be64359fac453264ba37b33"
+- name: "CT4.utx"
+  fileSize: 266373
+  hash: "2434b2c626b06dda018e35b3123cb693af805260"
+- name: "DM-FourthOrder.unr"
+  fileSize: 2741693
+  hash: "9b70677c3f22d51578128b61d83a1d338aa89c9e"
+otherFiles: 0
+dependencies:
+  DM-FourthOrder.unr:
+  - status: "OK"
+    name: "WeyScripts2"
+  - status: "OK"
+    name: "CT4"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/7/c/dc41de/DM-FourthOrder.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/7/c/dc41de/DM-FourthOrder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/7/c/dc41de/DM-FourthOrder.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Fourth Order"
+playerCount: "6 - 16"
+themes:
+  Ancient: 0.8
+  Nali Castle: 0.1
+bots: true

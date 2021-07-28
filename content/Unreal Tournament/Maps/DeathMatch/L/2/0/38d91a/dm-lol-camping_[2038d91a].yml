@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:41"
+game: "Unreal Tournament"
+name: "DM-lol-Camping"
+author: "Bob Kuphal"
+description: "Original author Doctor Death & Punky_Brewster"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-Camping_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-Camping_shot_1.png"
+originalFilename: "DM-lol-Camping.zip"
+hash: "2038d91a7d2c9b6326f8c61d7bdb0fb852131abb"
+fileSize: 4680989
+files:
+- name: "WinnebagoWarrior.umx"
+  fileSize: 1387624
+  hash: "0ebd5267350b91ee1150e0c99b9d74949837219c"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "PB1.utx"
+  fileSize: 2406022
+  hash: "ef6ed3441ce657f60dc1d628f7df09ce96e0d1eb"
+- name: "DM-lol-Camping.unr"
+  fileSize: 2100018
+  hash: "61c649b4bbc3931be90c53f593303aee4a35fe49"
+- name: "PBKitTex.utx"
+  fileSize: 1755990
+  hash: "4afd7bf3d6d6004c72908292a36236c6165e9b01"
+- name: "coag.utx"
+  fileSize: 224036
+  hash: "3bb4083197790fb942d815729e2a210db4a946df"
+otherFiles: 0
+dependencies:
+  DM-lol-Camping.unr:
+  - status: "OK"
+    name: "WinnebagoWarrior"
+  - status: "OK"
+    name: "Rt-Detail"
+  - status: "OK"
+    name: "PBKitTex"
+  - status: "OK"
+    name: "coag"
+  - status: "OK"
+    name: "PB1"
+  coag.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-Camping.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-Camping.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-Camping.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/2/0/38d91a/DM-lol-Camping.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/2/0/38d91a/DM-lol-Camping.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-lol-Camping"
+playerCount: "8 to 12"
+themes:
+  Industrial: 0.9
+  Natural: 0.1
+bots: true

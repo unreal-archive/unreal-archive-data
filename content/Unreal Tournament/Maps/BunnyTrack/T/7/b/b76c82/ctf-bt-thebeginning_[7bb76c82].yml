@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:57"
+game: "Unreal Tournament"
+name: "CTF-BT-TheBeginning"
+author: "Justing ''SourCe'' Koropit"
+description: "Its just the beginning..."
+releaseDate: "2007-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-TheBeginning_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/T/CTF-BT-TheBeginning_shot_1.png"
+originalFilename: "CTF-BT-TheBeginning.zip"
+hash: "7bb76c82fa1ecd01742a9648ed11c7c47e59fe88"
+fileSize: 8581560
+files:
+- name: "NuLLCScarab.umx"
+  fileSize: 2692718
+  hash: "97afa82238cf7497422cd952a944bbc851cd1965"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "HourPitores_UT.utx"
+  fileSize: 6266307
+  hash: "28d8b736181a51e9a8363b0668079dedf52856a7"
+- name: "CTF-BT-TheBeginning.unr"
+  fileSize: 2068876
+  hash: "b157306cbe9038389917431a9fffadec7a9f5dd7"
+- name: "tree405.u"
+  fileSize: 198748
+  hash: "6215b64d644a4228870ea429496517405aba233c"
+otherFiles: 1
+dependencies:
+  CTF-BT-TheBeginning.unr:
+  - status: "OK"
+    name: "tree405"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "NuLLCScarab"
+  - status: "OK"
+    name: "HourPitores_UT"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-TheBeginning.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/T/CTF-BT-TheBeginning.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/T/7/b/b76c82/CTF-BT-TheBeginning.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/T/7/b/b76c82/CTF-BT-TheBeginning.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT: The Beginning"
+playerCount: "2-8 Players"
+themes:
+  Industrial: 1.0
+bots: false

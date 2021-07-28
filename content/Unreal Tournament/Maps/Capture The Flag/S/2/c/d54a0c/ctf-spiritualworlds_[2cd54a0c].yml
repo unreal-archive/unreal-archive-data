@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:37"
+game: "Unreal Tournament"
+name: "CTF-SpiritualWorlds"
+author: "Chris A Weidert"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SpiritualWorlds_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SpiritualWorlds_shot_1.png"
+originalFilename: "ctf-spiritualworlds.zip"
+hash: "2cd54a0c62366f79a156749884f5bb03f797168d"
+fileSize: 3087967
+files:
+- name: "CTF-SpiritualWorlds.unr"
+  fileSize: 9903538
+  hash: "80e9d97543a1a4409bc7cc1003fe801d7ba5ceda"
+- name: "caw.utx"
+  fileSize: 764179
+  hash: "12b5cc9aecc483f1a3a35e7282361c198011bfa3"
+otherFiles: 2
+dependencies:
+  CTF-SpiritualWorlds.unr:
+  - status: "OK"
+    name: "caw"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-spiritualworlds.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-spiritualworlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-spiritualworlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-spiritualworlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=204"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/c/d54a0c/ctf-spiritualworlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/c/d54a0c/ctf-spiritualworlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-SpiritualWorlds"
+playerCount: "12 - 16"
+themes:
+  Nali Temple: 0.5
+  Industrial: 0.2
+  Ancient: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.2
+bots: true

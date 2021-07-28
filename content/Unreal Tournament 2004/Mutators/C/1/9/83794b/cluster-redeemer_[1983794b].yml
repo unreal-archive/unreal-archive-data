@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:45"
+variationOf: "cf8c2b5d19f52e6796695397e00b1346ad5131a8"
+game: "Unreal Tournament 2004"
+name: "Cluster Redeemer"
+author: "Unknown"
+description: "Cluster Redeemer Replacer: Replaces the Redeemer with the Cluster Redeemer,\
+  \ which Explodes into many Grenades. Alt Fire Fires a Guided Missile that drops\
+  \ Grenades."
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "ClusterRedeemer2004.zip"
+hash: "1983794b22c190dc0368a6ca0c3d0a1f52e4f63d"
+fileSize: 25358
+files:
+- name: "ClusterRedeemer.u"
+  fileSize: 74694
+  hash: "3b8be9df7a47a4c54005a38d97996dac680ed776"
+otherFiles: 4
+dependencies:
+  ClusterRedeemer.u:
+  - status: "MISSING"
+    name: "Weapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/ClusterRedeemer2004.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/C/1/9/83794b/ClusterRedeemer2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/C/1/9/83794b/ClusterRedeemer2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Cluster Redeemer"
+  description: "Cluster Redeemer Replacer: Replaces the Redeemer with the Cluster\
+    \ Redeemer, which Explodes into many Grenades. Alt Fire Fires a Guided Missile\
+    \ that drops Grenades."
+weapons:
+- name: "ClusterRedeemer"
+  description: "The Cluster Redeemer: Explodes into many Grenades. Alt Fire Fires\
+    \ a Guided Missile that drops Grenades. "
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

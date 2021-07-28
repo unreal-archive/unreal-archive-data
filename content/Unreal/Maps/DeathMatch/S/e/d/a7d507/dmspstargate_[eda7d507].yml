@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:49"
+game: "Unreal"
+name: "DM[SP]StarGate]["
+author: "*Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "DM[SP]StarGate][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/DM%5BSP%5DStarGate%5D%5B_shot_1.png"
+originalFilename: "DM[SP]StarGate.zip"
+hash: "eda7d5071839464bf00fe4aac8358cb90871dbc2"
+fileSize: 6219671
+files:
+- name: "EgyptPan.utx"
+  fileSize: 1544592
+  hash: "f3f8ef90a10d6dbf37cc0d3cc0f92f4f870ea71b"
+- name: "DM[SP]StarGate][.unr"
+  fileSize: 1803427
+  hash: "cfd8d69b8bd5c96c14f115600567dacb98136377"
+- name: "crashsnd.uax"
+  fileSize: 207159
+  hash: "53e4119a7989947c441369d5f9fcfff487f3b1b7"
+- name: "WildArena.u"
+  fileSize: 3981
+  hash: "e6aea2081f1d26d7606975515952d886fc13ea13"
+- name: "Egypt.utx"
+  fileSize: 1574193
+  hash: "9e81ebb6b391174cc44d91eb19367183ef8d5ef6"
+- name: "SP_7NationArmy.umx"
+  fileSize: 5078683
+  hash: "1166736e90473ce4bbc8385471bcdfbf5cb3bebf"
+otherFiles: 0
+dependencies:
+  WildArena.u:
+  - status: "OK"
+    name: "crashsnd"
+  DM[SP]StarGate][.unr:
+  - status: "MISSING"
+    name: "SP_AssaultRifleII"
+  - status: "OK"
+    name: "crashsnd"
+  - status: "MISSING"
+    name: "Uzi"
+  - status: "OK"
+    name: "Egypt"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "BoomDarts"
+  - status: "OK"
+    name: "EgyptPan"
+  - status: "OK"
+    name: "WildArena"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "OK"
+    name: "SP_7NationArmy"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DStarGate.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DStarGate.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/e/d/a7d507/DM%255BSP%255DStarGate.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/e/d/a7d507/DM%255BSP%255DStarGate.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Stargate"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Egyptian: 0.9
+bots: true

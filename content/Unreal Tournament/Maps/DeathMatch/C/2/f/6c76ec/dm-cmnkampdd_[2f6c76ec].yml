@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:08"
+game: "Unreal Tournament"
+name: "DM-CMNKampDD"
+author: "Common&DoctoR_DeatH"
+description: "Welcome  2  DeatH KamP"
+releaseDate: "2001-12"
+attachments: []
+originalFilename: "dm-cmnkampdd.zip"
+hash: "2f6c76ec88f51afe06e4e36d073090ff9e2d2cd0"
+fileSize: 9198321
+files:
+- name: "Evaluate.umx"
+  fileSize: 1707973
+  hash: "ccab4271f4d6ab843a0ced1ac24b99db5c88bb11"
+- name: "DM-CMNKampDD.unr"
+  fileSize: 1581400
+  hash: "5319b16cc5c8bda4c9c7100bcf1cb7bfa792135f"
+- name: "IV1.utx"
+  fileSize: 1917262
+  hash: "3a7698934f9ded2b8a6030da9dc48c94dbae69de"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DavidMTex2.utx"
+  fileSize: 11269001
+  hash: "26dda7b2e26fa314ed895098d5af3bb35ec9cb9b"
+otherFiles: 1
+dependencies:
+  DM-CMNKampDD.unr:
+  - status: "OK"
+    name: "IV1"
+  - status: "OK"
+    name: "Evaluate"
+  - status: "OK"
+    name: "DavidMTex2"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=443"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cmnkampdd.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/2/f/6c76ec/dm-cmnkampdd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/2/f/6c76ec/dm-cmnkampdd.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNKampDD"
+playerCount: "8 to 10"
+themes:
+  Tech: 0.3
+  Ancient: 0.4
+  Natural: 0.3
+bots: true

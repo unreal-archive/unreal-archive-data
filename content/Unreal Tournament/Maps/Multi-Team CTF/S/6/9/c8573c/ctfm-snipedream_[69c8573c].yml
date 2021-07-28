@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:03"
+game: "Unreal Tournament"
+name: "CTFM-SnipeDream"
+author: "Crokx"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-SnipeDream_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/CTFM-SnipeDream_shot_1.png"
+originalFilename: "ctfm-snipedream.zip"
+hash: "69c8573c65f54d700e9e69138062cf784ec714f8"
+fileSize: 700424
+files:
+- name: "CTFM-SnipeDream.unr"
+  fileSize: 1698535
+  hash: "db1ad1a3d50d88ad1e14c5ed3f61e4589e5bce29"
+- name: "Crokx.utx"
+  fileSize: 381531
+  hash: "e1eae653345cdc096e7420d5dd812be289cce137"
+otherFiles: 1
+dependencies:
+  CTFM-SnipeDream.unr:
+  - status: "OK"
+    name: "Crokx"
+  - status: "MISSING"
+    name: "CTF4Team"
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "MISSING"
+    name: "MultiCTFTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/ctfm-snipedream.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-snipedream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-snipedream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-snipedream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-snipedream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/6/9/c8573c/ctfm-snipedream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/6/9/c8573c/ctfm-snipedream.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Snipe dream"
+playerCount: "4x4 => 16"
+themes:
+  Industrial: 0.9
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:32"
+game: "Unreal Tournament"
+name: "DM-FoT-Ithaqua"
+author: "Ralf -milb- Helbig"
+description: "None"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-FoT-Ithaqua_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FoT-Ithaqua_shot_1.png"
+originalFilename: "DM-FoT-Ithaqua.zip"
+hash: "c443c20617207fa876c4100e906e0f288e2cf871"
+fileSize: 5885329
+files:
+- name: "ithaquadeco.u"
+  fileSize: 4823
+  hash: "af1df6163e70cd13035fe33a90bc110372152b7e"
+- name: "DM-FoT-Ithaqua.unr"
+  fileSize: 7708743
+  hash: "71cd3aeba7ffa6e654d00f7ca16476f4dd3740b2"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "LSoNP-milbdeco.utx"
+  fileSize: 662150
+  hash: "5557ccd53276e5a2f803d1215998faac7530f05c"
+- name: "Mindtrap.umx"
+  fileSize: 1061414
+  hash: "c97909dcf30bca98685a84aad973b33c92e869b6"
+- name: "LSoNPmilb001.u"
+  fileSize: 34443
+  hash: "70a3079039a2bc36102f54c1140b81e02fd67f23"
+otherFiles: 0
+dependencies:
+  DM-FoT-Ithaqua.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "ithaquadeco"
+  - status: "OK"
+    name: "Mindtrap"
+  - status: "OK"
+    name: "LSoNPmilb001"
+  ithaquadeco.u:
+  - status: "OK"
+    name: "LSoNP-milbdeco"
+  LSoNPmilb001.u:
+  - status: "OK"
+    name: "LSoNP-milbdeco"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-FoT-Ithaqua.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FoT-Ithaqua.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/c/4/43c206/DM-FoT-Ithaqua.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/c/4/43c206/DM-FoT-Ithaqua.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ithaqua: Mining Complex"
+playerCount: "2-3"
+themes:
+  Industrial: 1.0
+bots: true

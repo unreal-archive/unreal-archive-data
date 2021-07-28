@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:56"
+game: "Unreal Tournament"
+name: "DM-RP-1on1-HeartOfChizraSE"
+author: "Raven"
+description: "None"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-RP-1on1-HeartOfChizraSE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-RP-1on1-HeartOfChizraSE_shot_1.png"
+originalFilename: "DM-HeartOfChizraSE.zip"
+hash: "42580423f2e6535f17dd9a9ef0535e02873ac2c3"
+fileSize: 1149000
+files:
+- name: "DM-RP-1on1-HeartOfChizraSE.unr"
+  fileSize: 2314656
+  hash: "36557031b4c86a300c01a5c8734f14c0c26a17cf"
+- name: "rplants.u"
+  fileSize: 3319
+  hash: "57cfed5fad7a055ef4408d9924e2375d5cd79b33"
+- name: "HoHG.utx"
+  fileSize: 265380
+  hash: "0a2498103bc6e6115131b255f0ff266341921ad5"
+- name: "chizra1.umx"
+  fileSize: 422386
+  hash: "dcb3cfd52414740cd0cbd8a813d900969b6892d8"
+otherFiles: 1
+dependencies:
+  DM-RP-1on1-HeartOfChizraSE.unr:
+  - status: "OK"
+    name: "HoHG"
+  - status: "OK"
+    name: "chizra1"
+  - status: "OK"
+    name: "rplants"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-HeartOfChizraSE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/DM-HeartOfChizraSE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/4/2/580423/DM-HeartOfChizraSE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/4/2/580423/DM-HeartOfChizraSE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Heart of Chizra SE"
+playerCount: "2"
+themes:
+  Nali Temple: 0.9
+  Ancient: 0.1
+bots: true

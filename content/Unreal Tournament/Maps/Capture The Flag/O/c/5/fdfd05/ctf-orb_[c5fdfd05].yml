@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-05-10 21:04"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-Orb"
 author: "Squacky <squacky@ufl.edu>"
@@ -29,10 +28,8 @@ dependencies:
   CTF-Orb.unr:
   - status: "OK"
     name: "HyperBore"
-    providedBy: null
   - status: "MISSING"
     name: "SGTech1"
-    providedBy: null
 downloads:
 - url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=425"
   main: false
@@ -51,6 +48,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsO/&file=ctf-orb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/c/5/fdfd05/ctf-orb.zip"
   main: false
   repack: false
   state: "OK"

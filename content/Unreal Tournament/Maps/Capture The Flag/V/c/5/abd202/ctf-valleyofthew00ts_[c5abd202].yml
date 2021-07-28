@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:41"
+variationOf: "fc538aae223ca917b0bec932d8d177fc275658b7"
+game: "Unreal Tournament"
+name: "CTF-ValleyOfTheW00ts"
+author: "Joe 'Ironblayde' Farrell"
+description: "None"
+releaseDate: "2005-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-valleyofthew00ts_shot_c5abd202_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/c/5/abd202/ctf-valleyofthew00ts_shot_c5abd202_2.png"
+- type: "IMAGE"
+  name: "ctf-valleyofthew00ts_shot_c5abd202_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/c/5/abd202/ctf-valleyofthew00ts_shot_c5abd202_1.png"
+originalFilename: "ctf-valleyofthew00ts.zip"
+hash: "c5abd202d6d937727a5e59b7e5a9d4b47082d822"
+fileSize: 2807547
+files:
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+- name: "CTF-ValleyOfTheW00ts.unr"
+  fileSize: 8946351
+  hash: "1306380b361637628c7984b5f527e31195136054"
+otherFiles: 2
+dependencies:
+  CTF-ValleyOfTheW00ts.unr:
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsV/&file=ctf-valleyofthew00ts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-valleyofthew00ts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsV/ctf-valleyofthew00ts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/c/5/abd202/ctf-valleyofthew00ts.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/c/5/abd202/ctf-valleyofthew00ts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/c/5/abd202/ctf-valleyofthew00ts.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Valley of the W00ts"
+playerCount: "8-12"
+themes:
+  Tech: 0.8
+  Skaarj Tech: 0.2
+bots: true

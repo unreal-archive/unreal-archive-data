@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:03"
+game: "Unreal Tournament"
+name: "TO-PartyMansion"
+author: "miHi"
+description: "seewus"
+releaseDate: "2005-03"
+attachments: []
+originalFilename: "TO-Partymansion_v0690.zip"
+hash: "232ab7316e2703e55f58be8d9bc8acf9d08cf6e8"
+fileSize: 1182844
+files:
+- name: "PartyMansion.utx"
+  fileSize: 513207
+  hash: "a6137ceb95ae9c0bad59abd5b21978cc37f4928a"
+- name: "TO-PartyMansion.unr"
+  fileSize: 2269542
+  hash: "6b3f8de821ffeb5b4d455eb208be725144e463e4"
+- name: "MansionDecoPack.u"
+  fileSize: 7292
+  hash: "4f411a5f2f8934b5ca6037fb3e37eaabd2ce8dd5"
+otherFiles: 1
+dependencies:
+  TO-PartyMansion.unr:
+  - status: "OK"
+    name: "MansionDecoPack"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "s_SWAT"
+  MansionDecoPack.u:
+  - status: "OK"
+    name: "PartyMansion"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-Partymansion_v0690.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/P/TO-Partymansion_v0690.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-Partymansion_v0690.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/P/2/3/2ab731/TO-Partymansion_v0690.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/P/2/3/2ab731/TO-Partymansion_v0690.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Party Mansion"
+playerCount: "8-16"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.9
+bots: false

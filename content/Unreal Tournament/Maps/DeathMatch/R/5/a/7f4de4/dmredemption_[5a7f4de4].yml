@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:33"
+game: "Unreal Tournament"
+name: "DMRedemption"
+author: "Axeman1259"
+description: "None"
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "dm-redemption_a.zip"
+hash: "5a7f4de4b8f9b7d05de5e8fa546efca8c179537c"
+fileSize: 1313795
+files:
+- name: "QUAKE3c.utx"
+  fileSize: 318155
+  hash: "11d844531b1c7fef30b6627fefe2500a96044ffc"
+- name: "revenant.utx"
+  fileSize: 975783
+  hash: "9e0837e4be81bea313ea05620579011d00876a75"
+- name: "DMRedemption.unr"
+  fileSize: 571495
+  hash: "da02a0b7eab7fb8044b244a2c1f4a99dfe8817b4"
+otherFiles: 1
+dependencies:
+  DMRedemption.unr:
+  - status: "OK"
+    name: "revenant"
+  - status: "OK"
+    name: "QUAKE3c"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/dm-redemption_a.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsR/&file=dm-redemption_a.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-redemption2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-redemption_a.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsR/dm-redemption_a.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/5/a/7f4de4/dm-redemption_a.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/5/a/7f4de4/dm-redemption_a.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMRedemption"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Tech: 0.2
+  Nali Castle: 0.6
+bots: true

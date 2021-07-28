@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 18:36"
+game: "Unreal Tournament"
+name: "CTF-BangBang"
+author: "Pyremius"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BangBang_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-BangBang_shot_1.png"
+originalFilename: "CTF-BangBang.rar"
+hash: "08fcba16656923b4531e691dc5722bf6aa54135f"
+fileSize: 3874303
+files:
+- name: "G11_Assault.u"
+  fileSize: 611623
+  hash: "2601f18d87418b3524f7127ce0d907de4430fe25"
+- name: "Bangbang3.umx"
+  fileSize: 3036889
+  hash: "fa974481f92e6f85704a8fe58cb6bcf0d5c97935"
+- name: "CTF-BangBang.unr"
+  fileSize: 2866077
+  hash: "8b1c356695fab4565f1610b2e5cfcfa5e6ee04e5"
+otherFiles: 1
+dependencies:
+  CTF-BangBang.unr:
+  - status: "OK"
+    name: "Bangbang3"
+  - status: "OK"
+    name: "G11_Assault"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=CTF-BangBang.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-BangBang.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-BangBang.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/0/8/fcba16/CTF-BangBang.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/0/8/fcba16/CTF-BangBang.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-BangBang"
+playerCount: "6-14"
+themes:
+  Indistrial: 1.0
+bots: true

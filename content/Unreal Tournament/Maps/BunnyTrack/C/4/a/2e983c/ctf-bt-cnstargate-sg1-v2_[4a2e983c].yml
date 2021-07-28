@@ -1,0 +1,102 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 20:40"
+game: "Unreal Tournament"
+name: "CTF-BT-(CN)Stargate-SG1-v2"
+author: "[i4g]CouilleNoire"
+description: "None"
+releaseDate: "2014-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-(CN)Stargate-SG1-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/C/CTF-BT-(CN)Stargate-SG1-v2_shot_1.png"
+originalFilename: "CTF-BT-(CN)Stargate-SG1-v2.zip"
+hash: "4a2e983c536b1370e4fe7c65f2d460aa559e231b"
+fileSize: 23274259
+files:
+- name: "atmind.umx"
+  fileSize: 283317
+  hash: "0519b3628186028b07374c9e9d912c79d14fc969"
+- name: "CTF-BT-(CN)Stargate-SG1-v2.unr"
+  fileSize: 8888858
+  hash: "f2dfdd0e1e5c7059fa2de65463fd4baf41043d1d"
+- name: "DavidMGras.utx"
+  fileSize: 4386669
+  hash: "d2068bf5a9edcc57ba6ce15c5c9cd350494c4034"
+- name: "egyptian.utx"
+  fileSize: 409600
+  hash: "ba96c51b4bfd29e111c7119bcc2ae2d9d5ff068f"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "i4Games_200708.utx"
+  fileSize: 708656
+  hash: "45c9831bf68374ea048502b8a5dcdbbf154935f9"
+- name: "AmbAlien.uax"
+  fileSize: 1875709
+  hash: "091f33eb9d7963892ac151411ccbcae4932e31c0"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "Fluid.utx"
+  fileSize: 2218070
+  hash: "7f9731cb53dd25b1e8bb1cdcc4b9bf82644bde8c"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+otherFiles: 0
+dependencies:
+  DavidMGras.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+  CTF-BT-(CN)Stargate-SG1-v2.unr:
+  - status: "OK"
+    name: "AmbAlien"
+  - status: "OK"
+    name: "Fluid"
+  - status: "OK"
+    name: "egyptian"
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "DavidMGras"
+  - status: "OK"
+    name: "i4Games_200708"
+  - status: "OK"
+    name: "atmind"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-%28CN%29Stargate-SG1-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/C/CTF-BT-(CN)Stargate-SG1-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-%28CN%29Stargate-SG1-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/C/4/a/2e983c/CTF-BT-(CN)Stargate-SG1-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/C/4/a/2e983c/CTF-BT-(CN)Stargate-SG1-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-(CN)Stargate-SG1 (v2)"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.1
+  Egyptian: 0.9
+bots: false

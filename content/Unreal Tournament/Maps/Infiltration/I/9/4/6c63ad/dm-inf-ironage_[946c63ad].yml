@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:49"
+game: "Unreal Tournament"
+name: "DM-INF-IronAge"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-IronAge_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-IronAge_shot_2.png"
+- type: "IMAGE"
+  name: "DM-INF-IronAge_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-IronAge_shot_1.png"
+originalFilename: "dm-inf-ironage.zip"
+hash: "946c63ad5a5c3307e177834a59c9261d72558292"
+fileSize: 4695555
+files:
+- name: "DM-INF-IronAge.unr"
+  fileSize: 3856900
+  hash: "3d638c20a37d6dbd695126617a2cddf39876e9ae"
+- name: "Icenitex.utx"
+  fileSize: 3806923
+  hash: "64b8bb47a1dff9cd9a3d6d183a54b85856a349fb"
+- name: "Celtsnds.uax"
+  fileSize: 192896
+  hash: "a8e1fc535a8a5f90fa7152584aed2ef50bfac84a"
+otherFiles: 2
+dependencies:
+  DM-INF-IronAge.unr:
+  - status: "OK"
+    name: "Icenitex"
+  - status: "OK"
+    name: "Celtsnds"
+  Icenitex.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-ironage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-ironage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/I/9/4/6c63ad/dm-inf-ironage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/I/9/4/6c63ad/dm-inf-ironage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "DM-IronAge"
+playerCount: "Unknown"
+themes:
+  Natural: 0.5
+  Nali Castle: 0.5
+bots: true

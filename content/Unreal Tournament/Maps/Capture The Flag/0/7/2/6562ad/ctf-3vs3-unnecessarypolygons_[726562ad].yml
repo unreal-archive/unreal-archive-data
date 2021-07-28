@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:12"
+game: "Unreal Tournament"
+name: "CTF-3vs3-UnnecessaryPolygons"
+author: "Unknown"
+description: "None"
+releaseDate: "2011-08"
+attachments: []
+originalFilename: "CTF-3vs3-UnnecessaryPolygons.zip"
+hash: "726562ad7456f6f828f915c2cb7ff291e21f1d53"
+fileSize: 13334565
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "DiabloFade.umx"
+  fileSize: 1855467
+  hash: "901971fd6aaa2bd25bf1f11cae2c50ad6b5933c0"
+- name: "NWOarenamap.utx"
+  fileSize: 8317239
+  hash: "8c2bc41460c54c240d3c62bda5cb40c1717c0653"
+- name: "CTF-3vs3-UnnecessaryPolygons.unr"
+  fileSize: 12002667
+  hash: "1adf2e7a9deb839d36e310c9d26776411a3a33c3"
+otherFiles: 1
+dependencies:
+  CTF-3vs3-UnnecessaryPolygons.unr:
+  - status: "OK"
+    name: "NWOarenamap"
+  - status: "OK"
+    name: "DiabloFade"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=8017"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-3vs3-UnnecessaryPolygons.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/7/2/6562ad/CTF-3vs3-UnnecessaryPolygons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/7/2/6562ad/CTF-3vs3-UnnecessaryPolygons.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-3vs3-UnnecessaryPolygons"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Industrial: 0.5
+  City: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.2
+bots: true

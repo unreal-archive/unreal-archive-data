@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:23"
+game: "Unreal Tournament"
+name: "DM-INF-Remagen"
+author: "Shane (Gullonefox) Bromham"
+description: "Remagen"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Remagen_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Remagen_shot_1.png"
+originalFilename: "DM-inf-remagen.zip"
+hash: "f7ae5da719cd027c9eb8e5ff86892f6a547d534d"
+fileSize: 7319835
+files:
+- name: "HoS_HDm2.uax"
+  fileSize: 484870
+  hash: "722e9995195676938045013d795f187696619432"
+- name: "tbtremargen1.utx"
+  fileSize: 4228897
+  hash: "8f707488cfd966837b43c9413383783e6009e84d"
+- name: "DM-INF-Remagen(Day).unr"
+  fileSize: 6694179
+  hash: "1b9afa0542829e9045a8456b128405bcf0be8a29"
+- name: "DM-INF-Remagen.unr"
+  fileSize: 6099672
+  hash: "307e7a638daa8ae1bace7084949b797b8dd256a5"
+otherFiles: 1
+dependencies:
+  DM-INF-Remagen.unr:
+  - status: "OK"
+    name: "tbtremargen1"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "OK"
+    name: "HoS_HDm2"
+  - status: "MISSING"
+    name: "INF_Core"
+  DM-INF-Remagen(Day).unr:
+  - status: "OK"
+    name: "tbtremargen1"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "OK"
+    name: "HoS_HDm2"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  tbtremargen1.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-remagen.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-inf-remagen.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/R/f/7/ae5da7/DM-inf-remagen.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/R/f/7/ae5da7/DM-inf-remagen.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "The Bridge At Remagen(Night)"
+playerCount: "16-22"
+themes:
+  Natural: 0.6
+  Skaarj Tech: 0.4
+bots: true

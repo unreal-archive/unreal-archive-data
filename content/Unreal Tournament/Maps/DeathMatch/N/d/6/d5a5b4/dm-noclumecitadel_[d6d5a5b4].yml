@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:47"
+game: "Unreal Tournament"
+name: "DM-NoclumeCitadel"
+author: "Geddy Lee"
+description: "None"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "DM-NoclumeCitadel.zip"
+hash: "d6d5a5b4426ebeee7fd029acf309599ab88fd8f0"
+fileSize: 9724063
+files:
+- name: "DM-NoclumeCitadel.unr"
+  fileSize: 12827107
+  hash: "106ac3b23cc65bef223cf15ea79a9d3682d487f7"
+- name: "OceanLab2_Music.umx"
+  fileSize: 1455787
+  hash: "0f8f2bccd778dab382a27cdd10d525262803f084"
+- name: "ADFuthark.utx"
+  fileSize: 5837099
+  hash: "298758ad91f3b2f8ccf6376c5dbea250e48ac045"
+otherFiles: 0
+dependencies:
+  DM-NoclumeCitadel.unr:
+  - status: "OK"
+    name: "ADFuthark"
+  - status: "OK"
+    name: "OceanLab2_Music"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NoclumeCitadel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/d/6/d5a5b4/DM-NoclumeCitadel.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/d/6/d5a5b4/DM-NoclumeCitadel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/d/6/d5a5b4/DM-NoclumeCitadel.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM - Nocturnian Citadel"
+playerCount: "5-10"
+themes:
+  Ancient: 0.9
+  Egyptian: 0.1
+bots: true

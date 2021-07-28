@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:51"
+variationOf: "19be4bbd9bbc883ed198b3a82a5cf10b9dfbaf34"
+game: "Unreal Tournament"
+name: "CTF-Apartments"
+author: "K1A14G86"
+description: "Renting goes for $200 a month."
+releaseDate: "2003-06"
+attachments: []
+originalFilename: "ctf-apartments.rar"
+hash: "852459bfd51c8026d6df18c14e58eece973f54a5"
+fileSize: 90351
+files:
+- name: "CTF-Apartments.unr"
+  fileSize: 382264
+  hash: "cbe65f8fc73edf28d0270c7d50ee18707d5d924b"
+otherFiles: 1
+dependencies:
+  CTF-Apartments.unr:
+  - status: "MISSING"
+    name: "ksink"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-apartments.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-apartments.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/8/5/2459bf/ctf-apartments.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/8/5/2459bf/ctf-apartments.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Apartments"
+playerCount: "2-16"
+themes:
+  Nali Temple: 0.3
+  City: 0.7
+bots: true

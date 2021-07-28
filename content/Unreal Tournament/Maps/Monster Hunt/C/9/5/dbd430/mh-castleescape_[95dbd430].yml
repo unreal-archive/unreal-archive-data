@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:01"
+game: "Unreal Tournament"
+name: "MH-CastleEscape"
+author: "RJ and xX)(Xx"
+description: "Use your +3 Chainsaw of owning!"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-castleescape.zip"
+hash: "95dbd430333b0c89e9601c5cd8bbff0bc24ee45b"
+fileSize: 1433736
+files:
+- name: "MH-CastleEscape.unr"
+  fileSize: 1473678
+  hash: "d34eccd585f7047c2d9efdf5d3eceb40b48f1d7a"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "River.umx"
+  fileSize: 675874
+  hash: "74b278e09b26972027a65549edf82290c5121545"
+otherFiles: 2
+dependencies:
+  MH-CastleEscape.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "River"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-castleescape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/C/mh-castleescape.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-castleescape-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-castleescape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/C/9/5/dbd430/mh-castleescape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/9/5/dbd430/mh-castleescape.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Castle Escape"
+playerCount: "4-8"
+themes:
+  Industrial: 0.2
+  Ancient: 0.7
+  Natural: 0.1
+bots: false

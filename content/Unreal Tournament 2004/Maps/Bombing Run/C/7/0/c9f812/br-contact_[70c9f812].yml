@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 07:46"
+game: "Unreal Tournament 2004"
+name: "BR-Contact"
+author: "Brendan \"Buckyfg\" Albert"
+description: "In another universe, another time, a planet with one lone island stands\
+  \ as their final battle ground."
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "BR-Contact_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/BR-Contact_shot_1.png"
+- type: "IMAGE"
+  name: "BR-Contact_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/BR-Contact_shot_2.png"
+- type: "IMAGE"
+  name: "BR-Contact_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/BR-Contact_shot_3.png"
+originalFilename: "br-contact.zip"
+hash: "70c9f81283d8b0b082bee0bb6281a0c82914bcc9"
+fileSize: 8169043
+files:
+- name: "br-contact-treeskins.utx"
+  fileSize: 1694806
+  hash: "d6a81f0e155903b93b2c7c73edf4e7631f720454"
+- name: "BR-Contact.ut2"
+  fileSize: 20689537
+  hash: "1fe546d6206355db93a8e5363dd9c46bf6e3c1b2"
+- name: "Egypt.ogg"
+  fileSize: 931106
+  hash: "d22e8c0daf63551bd5f07f88cf604022eee5001a"
+- name: "br-contact-trees.usx"
+  fileSize: 1694855
+  hash: "08d3e52cdfe268e340ab34e4ffdff8138425c7c4"
+otherFiles: 3
+dependencies:
+  BR-Contact.ut2:
+  - status: "OK"
+    name: "br-contact-trees"
+  br-contact-trees.usx:
+  - status: "OK"
+    name: "br-contact-treeskins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/br-contact.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamebanana.com/maps/download/18318"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1797"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/7/0/c9f812/br-contact.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/7/0/c9f812/br-contact.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Bombing Run"
+title: "BR-contact"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Ancient: 0.6
+  Egyptian: 0.3
+bots: true

@@ -1,0 +1,92 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:28"
+variationOf: "1ef6b4cb6f527bc33e79103e2668c30fbb627a3f"
+game: "Unreal Tournament"
+name: "dm-DoCdOoM_city"
+author: "Marco \"DoCdOoM\" Balbo"
+description: "Thanks to Black_Fury and Palka for help!"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-DoCdOoM_city_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/dm-DoCdOoM_city_shot_1.png"
+originalFilename: "DM-DoCdOoM_city.zip"
+hash: "10ef01ad4c4f449b83b028a6e1be8ec032436e38"
+fileSize: 8990380
+files:
+- name: "dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+- name: "dm-DoCdOoM_city.unr"
+  fileSize: 2969271
+  hash: "9f04b9d4e0039494676df605aeb26dda2f3ad065"
+- name: "zeitkinds.uax"
+  fileSize: 678370
+  hash: "9e12373ec502874a958bd6486480b6d886743942"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "zeitkindb.utx"
+  fileSize: 1266131
+  hash: "aa3aff12928176678fcb1f3e51f7813ea80daf28"
+- name: "zeitksigns.utx"
+  fileSize: 458862
+  hash: "338ae78f0b808850e364654c5a7546f9f6d7c2c8"
+- name: "ZeitkindS1.uax"
+  fileSize: 64532
+  hash: "2265d251c82614123ff10606db285b538f28dec8"
+- name: "dinosound111199.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "zeitkindc.utx"
+  fileSize: 1601474
+  hash: "19c15d27d4f5350943c64550d4c551180a5ebc38"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+otherFiles: 0
+dependencies:
+  dm-DoCdOoM_city.unr:
+  - status: "OK"
+    name: "zeitkind"
+  - status: "OK"
+    name: "zeitkindc"
+  - status: "OK"
+    name: "zeitkindb"
+  - status: "OK"
+    name: "ZeitkindS1"
+  - status: "OK"
+    name: "dinosound111199"
+  - status: "OK"
+    name: "zeitkinds"
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "zeitksigns"
+  - status: "OK"
+    name: "Vierheilig"
+  - status: "MISSING"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/1/0/ef01ad/DM-DoCdOoM_city.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/1/0/ef01ad/DM-DoCdOoM_city.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/1/0/ef01ad/DM-DoCdOoM_city.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DoCdOoM City"
+playerCount: "16-32"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  City: 0.2
+bots: false

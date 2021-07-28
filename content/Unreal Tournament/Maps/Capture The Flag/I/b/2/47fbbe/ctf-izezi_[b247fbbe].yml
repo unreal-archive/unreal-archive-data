@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:26"
+game: "Unreal Tournament"
+name: "CTF-Izezi"
+author: "Joel \"Scorpion\" Persson"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Izezi_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/CTF-Izezi_shot_1.png"
+originalFilename: "ctf-izezi.zip"
+hash: "b247fbbeba754a60e771583b5c3bfc63d97cbb7a"
+fileSize: 1414895
+files:
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "grief.umx"
+  fileSize: 336141
+  hash: "5390fcdb1a90acff3b73c079fd655f97e7ab4c40"
+- name: "CTF-Izezi.unr"
+  fileSize: 2651364
+  hash: "a031d92e307d56cb0ca19de9c31a7e0f6680c77e"
+otherFiles: 1
+dependencies:
+  CTF-Izezi.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "grief"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/ctf-izezi.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsI/&file=ctf-izezi.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-izezi.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsI/ctf-izezi.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/b/2/47fbbe/ctf-izezi.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/b/2/47fbbe/ctf-izezi.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Izezi"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.2
+  Industrial: 0.4
+  City: 0.1
+  Skaarj Tech: 0.2
+bots: true

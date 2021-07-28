@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:32"
+game: "Unreal Tournament"
+name: "CTF-[M]Fountain"
+author: "heath"
+description: "None"
+releaseDate: "2011-06"
+attachments: []
+originalFilename: "CTF-[M]Fountain.zip"
+hash: "ba38ccc938cc3939dc4a83134ba43718f5bde33f"
+fileSize: 962435
+files:
+- name: "clanrs.utx"
+  fileSize: 177658
+  hash: "b7573a0a79083610ff624e5c0244d170e5943e8e"
+- name: "MyTextures.utx"
+  fileSize: 1094047
+  hash: "34cfed0f4af33aa5a21aed22c552bd37642b2f5d"
+- name: "CTF-[M]Fountain.unr"
+  fileSize: 1561941
+  hash: "e50187a74534ebaf0d7225b8bbd814d6fb0efbce"
+otherFiles: 0
+dependencies:
+  CTF-[M]Fountain.unr:
+  - status: "OK"
+    name: "MyTextures"
+  - status: "OK"
+    name: "clanrs"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%5BM%5DFountain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-%5BM%5DFountain.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/b/a/38ccc9/CTF-%255BM%255DFountain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/b/a/38ccc9/CTF-%255BM%255DFountain.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-|rS|Fountain"
+playerCount: "4-16"
+themes:
+  Industrial: 0.1
+  Natural: 0.9
+bots: true

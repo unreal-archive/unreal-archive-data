@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 02:29"
+variationOf: "f1b1fee21af15725344497671bf4eba68fb3e315"
+game: "Unreal Tournament"
+name: "MA-RocketArena"
+author: "Scislac, ProAsm. DM to MA - Shrimp"
+description: "None"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "ma-rocketarena_shot_49fb0af5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Arena/R/4/9/fb0af5/ma-rocketarena_shot_49fb0af5_1.png"
+originalFilename: "ma-rocketarena.zip"
+hash: "49fb0af5d1db4f34d6519d9cbf8fd6b5524ff7b6"
+fileSize: 729056
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Gomorra.umx"
+  fileSize: 303975
+  hash: "f4a41d389b2a1a1d68af5d574fd68afb89d4dfed"
+- name: "MA-RocketArena.unr"
+  fileSize: 703564
+  hash: "bec2078d1de35dc4a3228b43a8349a80828feba9"
+otherFiles: 2
+dependencies:
+  MA-RocketArena.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Gomorra"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterArena/&file=ma-rocketarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Arena/R/ma-rocketarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterArena&file=ma-rocketarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Arena/R/4/9/fb0af5/ma-rocketarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Arena/R/4/9/fb0af5/ma-rocketarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Arena"
+title: "Rocket  Arena"
+playerCount: "Up to 8"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.7
+  Skaarj Tech: 0.2
+bots: true

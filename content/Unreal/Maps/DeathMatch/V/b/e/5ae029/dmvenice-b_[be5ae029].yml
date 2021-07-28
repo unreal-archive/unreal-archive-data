@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-17 15:02"
+game: "Unreal"
+name: "DmVenice-b"
+author: "J. Martin www.geocities.com/j4unreal"
+description: "The City of Canals"
+releaseDate: "2004-09"
+attachments: []
+originalFilename: "dmvenice_be5ae029.zip"
+hash: "be5ae029ea42eda0c06bab2a27087c2097857844"
+fileSize: 4964184
+files:
+- name: "DmVenice-b.unr"
+  fileSize: 2549406
+  hash: "8126a6480326b2896eb21b47ddf619640619f372"
+- name: "VeniceTrim.utx"
+  fileSize: 1268636
+  hash: "3ae5acbd37be8ecd3a2fcb842c00f016f7a2e0d7"
+- name: "Venice.utx"
+  fileSize: 2129491
+  hash: "8ec52d30fd3d0f961d227093f609b4d11434c6fc"
+- name: "VeniceMuzak.uax"
+  fileSize: 2277691
+  hash: "feebb5156587bb76b0c2df5ade5461f771665b36"
+- name: "VeniceArt.utx"
+  fileSize: 798360
+  hash: "5f2a65898290329989ae71b019e48e13d803e8cb"
+- name: "VeniceAudio.uax"
+  fileSize: 731007
+  hash: "25ebeb8f4ab43e5ea83c790a6502810e1cba8520"
+otherFiles: 1
+dependencies:
+  DmVenice-b.unr:
+  - status: "OK"
+    name: "VeniceArt"
+  - status: "OK"
+    name: "VeniceTrim"
+  - status: "OK"
+    name: "Venice"
+  - status: "OK"
+    name: "VeniceAudio"
+  - status: "OK"
+    name: "VeniceMuzak"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/V/dmvenice_be5ae029.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/V/b/e/5ae029/dmvenice_be5ae029.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/V/b/e/5ae029/dmvenice_be5ae029.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Venice"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

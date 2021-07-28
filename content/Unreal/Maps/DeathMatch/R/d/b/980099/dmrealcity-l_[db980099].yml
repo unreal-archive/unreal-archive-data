@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:56"
+game: "Unreal"
+name: "DmRealCity-L"
+author: "J. Martin - jsmaps@hotmail.com"
+description: "None"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "DmRealCity.zip"
+hash: "db98009968c3e84df7a3358dee924d0412c9b290"
+fileSize: 3665213
+files:
+- name: "DmRealCity-L.unr"
+  fileSize: 6347647
+  hash: "95b2ff35f127e949336a4e55b07b464f852b5f11"
+- name: "RealCityTex.utx"
+  fileSize: 1630911
+  hash: "386b1acce5ebfe54417cf11fccbe67e4c0de57ef"
+- name: "RealCityAudio.uax"
+  fileSize: 1584530
+  hash: "91c3611239ea2fbf7572569b472ffb068c768f14"
+otherFiles: 1
+dependencies:
+  DmRealCity-L.unr:
+  - status: "OK"
+    name: "RealCityAudio"
+  - status: "OK"
+    name: "RealCityTex"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsR/&file=DmRealCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/DmRealCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsR/DmRealCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/dmrealcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/R/d/b/980099/DmRealCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/R/d/b/980099/DmRealCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Real City"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: false

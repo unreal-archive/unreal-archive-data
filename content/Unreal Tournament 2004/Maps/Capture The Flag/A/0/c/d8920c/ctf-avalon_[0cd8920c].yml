@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 12:20"
+game: "Unreal Tournament 2004"
+name: "CTF-Avalon"
+author: "Eduardo 'Hieloco' Barillas"
+description: "Three queens in sable hood therein|Gently King Arthur laid.|Upon the\
+  \ lap of one of these|His weary head he laid.|'Why have ye tarried, brother dear,|So\
+  \ long from me?' she said.|'Alas! the cold has stricken deep|Into this wound, I\
+  \ fear;'|And then they rowed far far away|From sad Sir Bedevere.|Their wailing floated\
+  \ on the wind,|Most pitiful to hear."
+releaseDate: "2007-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-avalon_shot_0cd8920c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-avalon_shot_0cd8920c_2.png"
+- type: "IMAGE"
+  name: "ctf-avalon_shot_0cd8920c_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-avalon_shot_0cd8920c_5.png"
+- type: "IMAGE"
+  name: "ctf-avalon_shot_0cd8920c_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-avalon_shot_0cd8920c_4.png"
+- type: "IMAGE"
+  name: "ctf-avalon_shot_0cd8920c_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-avalon_shot_0cd8920c_3.png"
+- type: "IMAGE"
+  name: "ctf-avalon_shot_0cd8920c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-avalon_shot_0cd8920c_1.png"
+originalFilename: "ctf-avalon.zip"
+hash: "0cd8920c6e54eb7684f7e08ba3e33b9b41362adb"
+fileSize: 38691052
+files:
+- name: "AvalonTex.utx"
+  fileSize: 36204381
+  hash: "ad8b824f300f040edecd17c58c89747a9352d343"
+- name: "Mordred-Battle_of_Camlann.ogg"
+  fileSize: 6449945
+  hash: "505b89eb25a6f4ff28eaf582dae067699308be64"
+- name: "CTF-Avalon.ut2"
+  fileSize: 24918151
+  hash: "4919ff2f8d14208c72ceb1323ed12fd74e4caef7"
+- name: "AvalonMesh.usx"
+  fileSize: 13093121
+  hash: "6b7813f52dda2e236ff5324911a7c6e32bae5aef"
+otherFiles: 5
+dependencies:
+  AvalonMesh.usx:
+  - status: "OK"
+    name: "AvalonTex"
+  CTF-Avalon.ut2:
+  - status: "OK"
+    name: "AvalonTex"
+  - status: "OK"
+    name: "AvalonMesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/0/c/d8920c/ctf-avalon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/0/c/d8920c/ctf-avalon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/0/c/d8920c/ctf-avalon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Avalon"
+playerCount: "6"
+themes:
+  Ancient: 1.0
+bots: true

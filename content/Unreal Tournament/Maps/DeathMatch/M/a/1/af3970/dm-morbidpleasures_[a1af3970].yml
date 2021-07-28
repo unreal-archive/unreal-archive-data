@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:06"
+game: "Unreal Tournament"
+name: "DM-MorbidPleasures"
+author: "Patrick 'K!llRoy' Buijs"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-MorbidPleasures_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MorbidPleasures_shot_2.png"
+- type: "IMAGE"
+  name: "DM-MorbidPleasures_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MorbidPleasures_shot_1.png"
+originalFilename: "dm-morbidpleasures.zip"
+hash: "a1af397073b5a556a398f0d0cdc87ea5315856fe"
+fileSize: 1405070
+files:
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "Q3JumpPad.uax"
+  fileSize: 31680
+  hash: "27ef29c8043d24fc6cde25296b1c71a40e1b7ecb"
+- name: "DM-MorbidPleasures.unr"
+  fileSize: 3214236
+  hash: "a21fb1fa2dea5eb265afd57e656d2c8497b7d7ed"
+otherFiles: 2
+dependencies:
+  DM-MorbidPleasures.unr:
+  - status: "OK"
+    name: "Q3JumpPad"
+  - status: "OK"
+    name: "JumpPad"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-morbidpleasures.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-morbidpleasures.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=316"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/a/1/af3970/dm-morbidpleasures.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/a/1/af3970/dm-morbidpleasures.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tomb Of Morbid Pleasures"
+playerCount: "2 - 8"
+themes:
+  Industrial: 1.0
+bots: true

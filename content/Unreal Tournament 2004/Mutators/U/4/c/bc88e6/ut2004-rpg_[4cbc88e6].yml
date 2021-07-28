@@ -1,0 +1,63 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-08-09 11:36"
+game: "Unreal Tournament 2004"
+name: "UT2004 RPG"
+author: "the time it went off"
+description: "UT2004 with a persistent experience level system, magic weapons, and\
+  \ artifacts."
+releaseDate: "2012-01"
+attachments: []
+originalFilename: "Ut2004RPG.7z"
+hash: "4cbc88e6589e9fb30d5b7f14e967262e0ac657b9"
+fileSize: 248198
+files:
+- name: "UTRPGTextures.utx"
+  fileSize: 299007
+  hash: "33da1869dc98f02396b05e747d1a71cb81258785"
+- name: "UTRPGTextures2.utx"
+  fileSize: 935
+  hash: "e6f1fc3059eeb998e7922f1f7b398b8e8c648ef7"
+- name: "UT2004RPG.u"
+  fileSize: 562205
+  hash: "9fdb8837ecfa157182bf457fa12140343627c199"
+- name: "UTRPGStatics2.usx"
+  fileSize: 86112
+  hash: "4546bf5dd8c83de2724427bc1011b0d7daea3a4a"
+- name: "UTRPGStatics.usx"
+  fileSize: 191976
+  hash: "6f21f89dbe6b30bd415a4d5014eb726734bf9203"
+otherFiles: 4
+dependencies:
+  UT2004RPG.u:
+  - status: "MISSING"
+    name: "Weapons"
+  - status: "OK"
+    name: "UTRPGStatics"
+  - status: "OK"
+    name: "UTRPGStatics2"
+  - status: "OK"
+    name: "UTRPGTextures"
+  - status: "OK"
+    name: "UTRPGTextures2"
+  UTRPGStatics.usx:
+  - status: "OK"
+    name: "UTRPGTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/4/c/bc88e6/Ut2004RPG.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/U/4/c/bc88e6/Ut2004RPG.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "UT2004 RPG"
+  description: "UT2004 with a persistent experience level system, magic weapons, and\
+    \ artifacts."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

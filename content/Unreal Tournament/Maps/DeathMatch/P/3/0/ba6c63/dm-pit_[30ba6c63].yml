@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:31"
+game: "Unreal Tournament"
+name: "DM-Pit"
+author: "Joseph 'BarfLung' Cox"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Pit_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-Pit_shot_1.png"
+originalFilename: "dm-pit.zip"
+hash: "30ba6c636c17c6ebfda8d8faac73086140f30f40"
+fileSize: 4856170
+files:
+- name: "BarfLung-Q3A.utx"
+  fileSize: 5219996
+  hash: "00bbed0b718e39575842aa292e16e49f2ae4ea0d"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "DM-Pit.unr"
+  fileSize: 754585
+  hash: "215f06dda5af64b1c791ec9b9c159594d726826d"
+otherFiles: 2
+dependencies:
+  DM-Pit.unr:
+  - status: "OK"
+    name: "BarfLung-Q3A"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-pit.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dm-pit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-pit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsP/dm-pit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/3/0/ba6c63/dm-pit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/3/0/ba6c63/dm-pit.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Pit"
+playerCount: "2 to 10"
+themes:
+  Ancient: 0.8
+  Natural: 0.2
+bots: true

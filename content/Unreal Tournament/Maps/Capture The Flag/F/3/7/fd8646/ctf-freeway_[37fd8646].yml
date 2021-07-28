@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:23"
+game: "Unreal Tournament"
+name: "CTF-freeway"
+author: "Leo Bartkus"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-freeway_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-freeway_shot_1.png"
+originalFilename: "ctf-freeway.zip"
+hash: "37fd864603ea315b4247e31c5e151ad6e01f746b"
+fileSize: 5047168
+files:
+- name: "camarotex.utx"
+  fileSize: 77723
+  hash: "dac91306a64c1be21f271d966d86ab0e774b1339"
+- name: "CTF-freeway.unr"
+  fileSize: 5408877
+  hash: "e1e0a2a78f069f62420a1b796a534d395a8f6033"
+- name: "jtex.utx"
+  fileSize: 764002
+  hash: "575dbd4873bb4e0de7b1610fa409364091f2eb2b"
+- name: "cartex.utx"
+  fileSize: 263078
+  hash: "ddd8d54ae561da7f375ed30c652e31e43bfa4428"
+- name: "freewaytex.utx"
+  fileSize: 2978430
+  hash: "4598d0b6eba18efa57e6d40c3a12a28c44d27fdd"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+otherFiles: 1
+dependencies:
+  CTF-freeway.unr:
+  - status: "OK"
+    name: "camarotex"
+  - status: "OK"
+    name: "freewaytex"
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "cartex"
+  - status: "OK"
+    name: "a3text"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-freeway.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=ctf-freeway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-freeway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-freeway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsF/ctf-freeway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/7/fd8646/ctf-freeway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/7/fd8646/ctf-freeway.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Freeway"
+playerCount: "6-12"
+themes:
+  Industrial: 0.2
+  City: 0.7
+bots: true

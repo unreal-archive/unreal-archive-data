@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:03"
+game: "Unreal Tournament"
+name: "MH-Cregor"
+author: "Tentacle-HunteR"
+description: "Please be sure to read the translator messages!  Enjoy!"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-cregor.zip"
+hash: "1df5e3edb57b7d62f9cab1d236a24c5f7c2e8676"
+fileSize: 2769387
+files:
+- name: "THmapPak.u"
+  fileSize: 222697
+  hash: "89a5d5c2a80268cdb65d4862d046f055c691193d"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Predator.u"
+  fileSize: 1337319
+  hash: "00ce4f441b44b13a73e14858c746a295d34a29fd"
+- name: "MH-Cregor.unr"
+  fileSize: 1635854
+  hash: "a1d91dab0bab53e9eda0424a97ed9ba27a1f1758"
+- name: "Spinner.u"
+  fileSize: 1551609
+  hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+otherFiles: 2
+dependencies:
+  MH-Cregor.unr:
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Predator"
+  - status: "OK"
+    name: "THmapPak"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-cregor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/C/mh-cregor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-cregor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/C/1/d/f5e3ed/mh-cregor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/1/d/f5e3ed/mh-cregor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Cavern of Cregor, Lava Lord"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.6
+  Nali Castle: 0.1
+bots: true

@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:34"
+game: "Unreal"
+name: "DMUnhip"
+author: "Schmuck and Poindexter"
+description: "None"
+releaseDate: "1998-07"
+attachments: []
+originalFilename: "dmunhip.zip"
+hash: "6d79fe1b3e88cb206ab2e4c87a2bc1f4e2303ab4"
+fileSize: 508736
+files:
+- name: "Unhip.u"
+  fileSize: 32679
+  hash: "957b35195eb8440b9ca54aac8f9f971444618199"
+- name: "UnhipTex.utx"
+  fileSize: 359220
+  hash: "99a79461911d90b7f6ddfff118731611ddfe71ef"
+- name: "DMUnhip.unr"
+  fileSize: 1222737
+  hash: "281a95472c1df0fbde5cd912f27b34a49a6368e5"
+otherFiles: 1
+dependencies:
+  Unhip.u:
+  - status: "OK"
+    name: "unhiptex"
+  DMUnhip.unr:
+  - status: "OK"
+    name: "UnHip"
+  - status: "OK"
+    name: "unhiptex"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6175865"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/U/dmunhip.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsU/&file=dmunhip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsU/dmunhip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMUNHIP.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/U/6/d/79fe1b/dmunhip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/U/6/d/79fe1b/dmunhip.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Edge"
+playerCount: "Unknown"
+themes: {}
+bots: true

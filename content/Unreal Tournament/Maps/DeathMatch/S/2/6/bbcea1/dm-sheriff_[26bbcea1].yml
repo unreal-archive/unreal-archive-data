@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:14"
+game: "Unreal Tournament"
+name: "DM-Sheriff"
+author: "Common&DoctoR_DeatH"
+description: "Dont Drop The Soap"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "DM-Sheriff.zip"
+hash: "26bbcea163f3049a0198128e00e23a82dcbfc11f"
+fileSize: 2298110
+files:
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "The_b.umx"
+  fileSize: 1031596
+  hash: "209976f8e832eeaca573098faf49a1aaa17d90d6"
+- name: "DM-Sheriff.unr"
+  fileSize: 1706793
+  hash: "42e77151b3a9fb3737475b735450ce0508b7fce0"
+- name: "Donuttex.utx"
+  fileSize: 1503861
+  hash: "d4a0403c313bc5914a13f999bbc1990383886eaf"
+otherFiles: 0
+dependencies:
+  DM-Sheriff.unr:
+  - status: "OK"
+    name: "The_b"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "Donuttex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Sheriff.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-Sheriff.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/2/6/bbcea1/DM-Sheriff.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/2/6/bbcea1/DM-Sheriff.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNsheriffDD"
+playerCount: "6 to 14"
+themes:
+  Tech: 1.0
+bots: true

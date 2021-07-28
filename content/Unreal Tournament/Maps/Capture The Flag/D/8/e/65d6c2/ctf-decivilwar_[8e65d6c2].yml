@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:07"
+game: "Unreal Tournament"
+name: "CTF-{DE}CivilWar"
+author: "Mizery"
+description: "None"
+releaseDate: "2003-06"
+attachments: []
+originalFilename: "ctf-{de}civilwar.zip"
+hash: "8e65d6c212c231c9d87a936ac1ca49fdcb8b6501"
+fileSize: 732855
+files:
+- name: "Package.utx"
+  fileSize: 443712
+  hash: "f00c4863443e6d0468b633e7c5993655373a28c0"
+- name: "CTF-{DE}CivilWar.unr"
+  fileSize: 1269200
+  hash: "e0b644cecae58b2bef494ed1e26b2bbc0600b323"
+otherFiles: 0
+dependencies:
+  CTF-{DE}CivilWar.unr:
+  - status: "OK"
+    name: "Package"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bde%7Dcivilwar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-%7Bde%7Dcivilwar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/8/e/65d6c2/ctf-%257Bde%257Dcivilwar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/8/e/65d6c2/ctf-%257Bde%257Dcivilwar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "{DE}WorldWar"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true

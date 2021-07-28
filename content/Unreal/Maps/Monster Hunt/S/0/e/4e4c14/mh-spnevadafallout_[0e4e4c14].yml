@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:54"
+variationOf: "b6d233901a8e59759a781bf85c6a80ca894695f0"
+game: "Unreal"
+name: "MH-[SP]NevadaFallout"
+author: "(_@_)_spatieman"
+description: "Nevada Fallout"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-spnevadafallout_shot_0e4e4c14_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spnevadafallout_shot_0e4e4c14_1.png"
+originalFilename: "MH-[SP]NevadaFallout.zip"
+hash: "0e4e4c142cf8808066c62ec5f61b371beb2018bc"
+fileSize: 7165486
+files:
+- name: "Mech8.umx"
+  fileSize: 747774
+  hash: "bd3121719c14c8ee0abd8d4714afe97aba46b7ca"
+- name: "MH-[SP]NevadaFallout.unr"
+  fileSize: 11260091
+  hash: "ac09493da28c6e560e50287834be79fb3c9b25d3"
+- name: "Pan1.uax"
+  fileSize: 2616147
+  hash: "1dbd066e18118d311ee878a81bce75b41cabe960"
+otherFiles: 0
+dependencies:
+  MH-[SP]NevadaFallout.unr:
+  - status: "MISSING"
+    name: "Sky"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MJD"
+  - status: "OK"
+    name: "Mech8"
+  - status: "MISSING"
+    name: "SP_MHpack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "Pan1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DNevadaFallout.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/0/e/4e4c14/MH-%255BSP%255DNevadaFallout.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/0/e/4e4c14/MH-%255BSP%255DNevadaFallout.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Nevada Fallout"
+playerCount: "4+"
+themes:
+  Ancient: 0.2
+  Natural: 0.5
+  Nali Castle: 0.3
+bots: true

@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "InF_TrainingGround"
+author: "RaekwoN"
+description: "Standoff Training"
+releaseDate: "1997-04"
+attachments: []
+originalFilename: "InF_TrainingGround.zip"
+hash: "db8f839a1348a127d0fa65f456a9c15429dae5f3"
+fileSize: 175668
+files:
+- name: "StarShipTroopIn.utx"
+  fileSize: 112177
+  hash: "659c0ea7e3c1005e2c6750fbe476ce1496580e44"
+- name: "InF_TrainingGround.unr"
+  fileSize: 321021
+  hash: "895c05e9163050e462665220863eca172cdc5257"
+otherFiles: 1
+dependencies:
+  InF_TrainingGround.unr:
+  - status: "OK"
+    name: "StarShipTroopIn"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=InF_TrainingGround.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/I/InF_TrainingGround.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/InF_TrainingGround.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/T/d/b/8f839a/InF_TrainingGround.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/T/d/b/8f839a/InF_TrainingGround.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "TrainingGround"
+playerCount: "teams of 4+"
+themes:
+  Natural: 0.7
+  Skaarj Tech: 0.3
+bots: true

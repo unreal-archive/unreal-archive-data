@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:06"
+game: "Unreal Tournament"
+name: "AS-Central"
+author: "T. Ahlen"
+description: "None"
+releaseDate: "1999-11"
+attachments:
+- type: "IMAGE"
+  name: "AS-Central_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/C/AS-Central_shot_1.png"
+originalFilename: "as-central.zip"
+hash: "b3664c459df13f9d22c504761fa22bcd202d2d3e"
+fileSize: 1158550
+files:
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "AS-Central.unr"
+  fileSize: 950884
+  hash: "fa236b933e05c3a2e166ca5edecd8178c9abda31"
+otherFiles: 1
+dependencies:
+  AS-Central.unr:
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/C/as-central.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403045"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-central.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-central.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-central.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/C/b/3/664c45/as-central.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/C/b/3/664c45/as-central.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Central"
+playerCount: "2-10"
+themes:
+  Tech: 0.1
+  Industrial: 0.1
+  City: 0.4
+  Skaarj Tech: 0.3
+bots: true

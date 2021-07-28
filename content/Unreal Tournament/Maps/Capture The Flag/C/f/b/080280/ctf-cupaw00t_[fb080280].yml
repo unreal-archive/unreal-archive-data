@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:46"
+game: "Unreal Tournament"
+name: "CTF-CupaW00t"
+author: "Rakiayn"
+description: "None"
+releaseDate: "2006-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-cupaw00t_shot_fb080280_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t_shot_fb080280_3.png"
+- type: "IMAGE"
+  name: "ctf-cupaw00t_shot_fb080280_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t_shot_fb080280_4.png"
+- type: "IMAGE"
+  name: "ctf-cupaw00t_shot_fb080280_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t_shot_fb080280_2.png"
+- type: "IMAGE"
+  name: "ctf-cupaw00t_shot_fb080280_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t_shot_fb080280_5.png"
+- type: "IMAGE"
+  name: "ctf-cupaw00t_shot_fb080280_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t_shot_fb080280_1.png"
+originalFilename: "ctf-cupaw00t.zip"
+hash: "fb0802809202719ba8dff49eee3bb99cf86c0444"
+fileSize: 2297345
+files:
+- name: "CTF-CupaW00t.unr"
+  fileSize: 1309841
+  hash: "d236b1afca3cd4309cdc17a0901ff21f57995e9b"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 5
+dependencies:
+  CTF-CupaW00t.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5645"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/b/080280/ctf-cupaw00t.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Cupaw00t"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.6
+  Natural: 0.2
+  Skaarj Tech: 0.1
+bots: true

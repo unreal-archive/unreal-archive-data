@@ -1,0 +1,95 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:24"
+game: "Unreal"
+name: "MH-[SP]AHellDay"
+author: "Alain-Michel 'Amisa' Savarese+(BW)"
+description: "Bless your Mouse !"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-spahellday_shot_19afe68c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spahellday_shot_19afe68c_1.png"
+originalFilename: "MH-[SP]AHellDay.zip"
+hash: "19afe68c643fd6db45b299a77b20f7e7bd8f39b6"
+fileSize: 9796548
+files:
+- name: "doom2T.utx"
+  fileSize: 8831215
+  hash: "0331b4305127558274c5fc135e576fa5ed837b8d"
+- name: "d_shawn_it.umx"
+  fileSize: 2814568
+  hash: "f9ceefaa8a57c88559c31f8550a1a22092f68b97"
+- name: "ScriptedLight.u"
+  fileSize: 32783
+  hash: "d6f35b2095152c518e307523bcf2a70189963dbe"
+- name: "doom2n.utx"
+  fileSize: 101986
+  hash: "20a066c9c0435652a285ab3a5149e71106ba6085"
+- name: "ahelldaysounds.uax"
+  fileSize: 1219653
+  hash: "a6492909c19b713ea54453a4ff70cb40760b9be6"
+- name: "MH-[SP]AHellDay.unr"
+  fileSize: 6667524
+  hash: "3ce37479da75f1bdf5ff18216e8e0d4a8a9f5ad8"
+- name: "doomlook.u"
+  fileSize: 32527
+  hash: "f569976bc365a50782aaa18618959475d9bf8cdb"
+- name: "ahellday.u"
+  fileSize: 9074
+  hash: "6fc4d565fc38ae6d000a1e683ac2e5204f88eaac"
+- name: "d_countd_it.umx"
+  fileSize: 2515449
+  hash: "4df0423d479c987f080c96a06b015fc4839ab4e4"
+otherFiles: 0
+dependencies:
+  ahellday.u:
+  - status: "OK"
+    name: "doom2T"
+  MH-[SP]AHellDay.unr:
+  - status: "OK"
+    name: "ahelldaysounds"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_KillerNali"
+  - status: "OK"
+    name: "ScriptedLight"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "ahellday"
+  - status: "OK"
+    name: "d_shawn_it"
+  - status: "OK"
+    name: "doomlook"
+  - status: "OK"
+    name: "d_countd_it"
+  - status: "OK"
+    name: "doom2T"
+  doomlook.u:
+  - status: "OK"
+    name: "doom2n"
+  - status: "OK"
+    name: "doom2T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DAHellDay.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/1/9/afe68c/MH-%255BSP%255DAHellDay.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/1/9/afe68c/MH-%255BSP%255DAHellDay.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] A Hell Day"
+playerCount: "6-10"
+themes: {}
+bots: true

@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:49"
+variationOf: "086879d8966365be46f50491d35382d017f022a5"
+game: "Unreal Tournament"
+name: "DM-WildWest"
+author: "Philipp 'Maniac' Middendorf"
+description: "None"
+releaseDate: "1999-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-wildwest_shot_28d0f262_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/2/8/d0f262/dm-wildwest_shot_28d0f262_1.png"
+originalFilename: "dm-wildwest.zip"
+hash: "28d0f2623429cc743a04c4fbe4f5f1963dca8379"
+fileSize: 2664973
+files:
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "DM-WildWest.unr"
+  fileSize: 3068839
+  hash: "cc3ba4866899bdd54848ba9634fb9f353da7ee2a"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "Western.umx"
+  fileSize: 169551
+  hash: "43e9a49663b993da3d5eb5e553e3e97649ab2dac"
+- name: "DNF.uax"
+  fileSize: 5843
+  hash: "7dd0be5e204f018eb932240d0a4766c9874512cc"
+- name: "DNF.utx"
+  fileSize: 219424
+  hash: "b006858b7cf17794a6cf843f3688b2351859783f"
+otherFiles: 1
+dependencies:
+  DM-WildWest.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "Western"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "DNF"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/dm-wildwest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1540056"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsW/&file=dm-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsW/dm-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/2/8/d0f262/dm-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/2/8/d0f262/dm-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Wild West"
+playerCount: "3-16"
+themes:
+  Industrial: 0.4
+  City: 0.3
+  Natural: 0.3
+bots: true

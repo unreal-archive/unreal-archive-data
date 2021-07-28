@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:27"
+game: "Unreal Tournament"
+name: "CTF-Helix"
+author: "Roberto 'Homeslice' Tobar"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-helix_shot_7fa946f8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/f/a946f8/ctf-helix_shot_7fa946f8_1.png"
+originalFilename: "ctf-helix.zip"
+hash: "7fa946f838edbde99c336047d77c81df54bfa477"
+fileSize: 863983
+files:
+- name: "BloodMetal.umx"
+  fileSize: 297820
+  hash: "0fb556630f7bf525ba66e552e71f7476193494fb"
+- name: "CTF-Helix.unr"
+  fileSize: 2089962
+  hash: "4a594307a8d95e75e2c862f047ef92d3b0d94704"
+otherFiles: 1
+dependencies:
+  CTF-Helix.unr:
+  - status: "OK"
+    name: "BloodMetal"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-helix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-helix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/f/a946f8/ctf-helix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/f/a946f8/ctf-helix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "-The Double Helix-"
+playerCount: "8-12"
+themes:
+  Industrial: 1.0
+bots: true

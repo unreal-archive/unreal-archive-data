@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:55"
+game: "Unreal Tournament"
+name: "DM-LV-426-Infested"
+author: "AngelHeart, KeeK"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-LV-426-Infested_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-LV-426-Infested_shot_1.png"
+originalFilename: "DM-LV-426-Infested.zip"
+hash: "34b65e7f67fa438301d4d9df0f21f8071a057425"
+fileSize: 9988566
+files:
+- name: "aqueenSkins.utx"
+  fileSize: 1406459
+  hash: "dbb4bf240e0e2ad222a75c4e94b7b1a2e5b2f5a0"
+- name: "aliensnds.uax"
+  fileSize: 528602
+  hash: "0d7c82ffb4ffa9961f6d97cab7c253f1bbcf495c"
+- name: "Alntex.utx"
+  fileSize: 8835869
+  hash: "607e0c5d7444500eeb22175ac9e3cd81f2cc0416"
+- name: "KeeKAlien.u"
+  fileSize: 103973
+  hash: "711e066d675d559da0b0a175e8bb87ebd2234582"
+- name: "aqueen.u"
+  fileSize: 636730
+  hash: "4d0299d0ec84b53f904848ac72563af0bae0812d"
+- name: "DM-LV-426-Infested.unr"
+  fileSize: 6283385
+  hash: "acfcdfb0c6e38eef3a93103706cddba8651cb5b9"
+otherFiles: 3
+dependencies:
+  KeeKAlien.u:
+  - status: "OK"
+    name: "aqueen"
+  DM-LV-426-Infested.unr:
+  - status: "OK"
+    name: "aliensnds"
+  - status: "OK"
+    name: "Alntex"
+  - status: "OK"
+    name: "KeeKAlien"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-LV-426-Infested.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-LV-426-Infested.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/3/4/b65e7f/DM-LV-426-Infested.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/3/4/b65e7f/DM-LV-426-Infested.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LV-426 Infested"
+playerCount: "For Single and Coop"
+themes: {}
+bots: true

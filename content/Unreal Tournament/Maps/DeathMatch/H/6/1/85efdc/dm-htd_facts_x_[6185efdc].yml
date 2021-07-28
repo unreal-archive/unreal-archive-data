@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:51"
+game: "Unreal Tournament"
+name: "DM-HTD_Facts_X"
+author: "[HTD]_Jimbo"
+description: "None"
+releaseDate: "2012-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-HTD_Facts_X_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HTD_Facts_X_shot_1.png"
+originalFilename: "DM-HTD_Facts_X.zip"
+hash: "6185efdc6569098ee97745c379bd5d70d5b611d2"
+fileSize: 20970753
+files:
+- name: "RocketsUTSkins.utx"
+  fileSize: 4228080
+  hash: "7cade29e98d80a4d2e0a2e2c3a98c3715bd4716d"
+- name: "rocketsUT.u"
+  fileSize: 744875
+  hash: "915bf99b22ac5ab7b0b59107af33992c80790dc5"
+- name: "RocketsUTHUD.utx"
+  fileSize: 524566
+  hash: "509d348c710dda43b0bb22cd44f4bfadc3dbaea3"
+- name: "RocketsUTAudio.uax"
+  fileSize: 2692637
+  hash: "73f6ff5ee89b3db1f7ee3bfc5fac3d0fbac086ce"
+- name: "HtdTex10.utx"
+  fileSize: 12612505
+  hash: "89a028ec5c50846bd5ab3984ad0e4e34c3d8b187"
+- name: "DM-HTD_Facts_X.unr"
+  fileSize: 2483669
+  hash: "53bb465ae680d41212ba35681f81903006787f9e"
+- name: "RocketsUTFX.utx"
+  fileSize: 2074226
+  hash: "4defcc778f9fff5462c9ac622a6b7fd269c11059"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+- name: "Darude1.umx"
+  fileSize: 9009156
+  hash: "749ebcbe57e215d7405efd499bf8541db633e58c"
+otherFiles: 1
+dependencies:
+  DM-HTD_Facts_X.unr:
+  - status: "OK"
+    name: "HtdTex10"
+  - status: "OK"
+    name: "Darude1"
+  - status: "OK"
+    name: "rocketsUT"
+  rocketsUT.u:
+  - status: "OK"
+    name: "RocketsUTFX"
+  - status: "OK"
+    name: "RocketsUTAudio"
+  - status: "OK"
+    name: "RocketsUTSkins"
+  - status: "OK"
+    name: "RocketsUTHUD"
+  - status: "OK"
+    name: "EnhancedItems"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-HTD_Facts_X.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/DM-HTD_Facts_X.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/6/1/85efdc/DM-HTD_Facts_X.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/6/1/85efdc/DM-HTD_Facts_X.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Facts_Complex"
+playerCount: "4-8"
+themes: {}
+bots: true

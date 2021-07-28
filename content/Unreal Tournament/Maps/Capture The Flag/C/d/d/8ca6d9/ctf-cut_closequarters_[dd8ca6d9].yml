@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:23"
+game: "Unreal Tournament"
+name: "CTF-CUT_CloseQuarters"
+author: "Eric \"SnowDog\" Ettes"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-CUT_CloseQuarters_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CUT_CloseQuarters_shot_1.png"
+originalFilename: "ctf-cut_closequarters.zip"
+hash: "dd8ca6d92ae582efa1f923dc08888a627c9e02dd"
+fileSize: 719222
+files:
+- name: "CTF-CUT_CloseQuarters.unr"
+  fileSize: 1956706
+  hash: "315b30b56c28fa2185be8d4a9cd0b25e242c2faf"
+otherFiles: 1
+dependencies:
+  CTF-CUT_CloseQuarters.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+  - status: "MISSING"
+    name: "ChaosUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=ctf-cut_closequarters.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-cut_closequarters.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/d/d/8ca6d9/ctf-cut_closequarters.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/d/d/8ca6d9/ctf-cut_closequarters.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Close Quarters for ChaosUT"
+playerCount: "4-10"
+themes:
+  Industrial: 0.8
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true

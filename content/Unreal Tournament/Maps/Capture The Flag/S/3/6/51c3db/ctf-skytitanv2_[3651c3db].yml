@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:36"
+game: "Unreal Tournament"
+name: "CTF-SkyTitanV2"
+author: "Robin 'Rob' Pamart"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SkyTitanV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SkyTitanV2_shot_1.png"
+originalFilename: "ctf-skytitanv2.zip"
+hash: "3651c3db07193da4208b3792db2b17232f873e41"
+fileSize: 1393992
+files:
+- name: "UTDMT.utx"
+  fileSize: 64814
+  hash: "2510c5f58e34ec89b6602f4a152f8c3ad722bcc1"
+- name: "NoTransloc.u"
+  fileSize: 13675
+  hash: "3d7039b568d03a08b671388e7bc10f2dd5d6920b"
+- name: "UTDMT.u"
+  fileSize: 67130
+  hash: "78d5d65e93f2312d7d015c4cfdd66513caca77b7"
+- name: "CTF-SkyTitanV2.unr"
+  fileSize: 5146221
+  hash: "9592c6de269d275e3e9d40e9bbf2b39dcb43932e"
+otherFiles: 3
+dependencies:
+  CTF-SkyTitanV2.unr:
+  - status: "OK"
+    name: "NoTransloc"
+  - status: "OK"
+    name: "UTDMT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-skytitanv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-skytitanv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-skytitanv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-skytitanv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/6/51c3db/ctf-skytitanv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/6/51c3db/ctf-skytitanv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "A New Nest for Big Bro"
+playerCount: "8-16"
+themes:
+  Ancient: 0.5
+  Natural: 0.5
+bots: true

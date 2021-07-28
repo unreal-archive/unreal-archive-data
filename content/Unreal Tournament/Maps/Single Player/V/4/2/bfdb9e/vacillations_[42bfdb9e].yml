@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 05:51"
+game: "Unreal Tournament"
+name: "Vacillations"
+author: "Mike \"Hellscrag\" Wilberforce"
+description: "None"
+releaseDate: "2010-06"
+attachments:
+- type: "IMAGE"
+  name: "Vacillations_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/V/Vacillations_shot_1.png"
+originalFilename: "SP-Vacillations120.zip"
+hash: "42bfdb9e666d1d13030fec9475eb854ff0db0ebc"
+fileSize: 5036514
+files:
+- name: "VVVTex.utx"
+  fileSize: 620162
+  hash: "ac0aa42391eca4f2608176ae4a628f9f87db4cae"
+- name: "Vacillations.unr"
+  fileSize: 12355499
+  hash: "7679b95acfafaa30daa2f6e5034d93eb84006785"
+- name: "VVVCode.u"
+  fileSize: 1835131
+  hash: "df84b89f86ff154b16d396c0a18fc52599bb106f"
+otherFiles: 2
+dependencies:
+  VVVCode.u:
+  - status: "MISSING"
+    name: "olweapons"
+  Vacillations.unr:
+  - status: "OK"
+    name: "VVVTex"
+  - status: "OK"
+    name: "VVVCode"
+  - status: "MISSING"
+    name: "OldSkool"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SinglePlayer&file=SP-Vacillations120.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/V/SP-Vacillations120.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/V/4/2/bfdb9e/SP-Vacillations120.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Single%20Player/V/4/2/bfdb9e/SP-Vacillations120.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "Vacillations of a Victorian Vagrant"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 0.2
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.6
+bots: true

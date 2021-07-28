@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 17:48"
+game: "Unreal Tournament 2004"
+name: "DM-Sfer-ra"
+author: "Cherr Ali Shaddin"
+description: "\"Alternative Liandry Arena\""
+releaseDate: "2007-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-Sfer-ra_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sfer-ra_shot_4.png"
+- type: "IMAGE"
+  name: "DM-Sfer-ra_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sfer-ra_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Sfer-ra_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sfer-ra_shot_3.png"
+- type: "IMAGE"
+  name: "DM-Sfer-ra_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Sfer-ra_shot_2.png"
+originalFilename: "dm_sfer_ra_1_3.zip"
+hash: "f93e0ca6767933c89fd273645a27db4d357a1129"
+fileSize: 8902363
+files:
+- name: "DM-Sfer-ra.ut2"
+  fileSize: 7816030
+  hash: "97de514f46e322a7a42351c42c8aa808acc8ee86"
+- name: "sfer_ra_textures.utx"
+  fileSize: 6429038
+  hash: "9fe0dbc88c8a91cf56a70364668656894bfa0e9f"
+- name: "Ex.ogg"
+  fileSize: 2897927
+  hash: "9a97917cf923655a193b14d316158ec79bf77a79"
+- name: "Sfer_ra_SM.usx"
+  fileSize: 699276
+  hash: "2e2a835deae69d7fc1fe0485b4bf8c001b37364e"
+otherFiles: 4
+dependencies:
+  DM-Sfer-ra.ut2:
+  - status: "OK"
+    name: "Sfer_ra_SM"
+  - status: "OK"
+    name: "sfer_ra_textures"
+  Sfer_ra_SM.usx:
+  - status: "OK"
+    name: "sfer_ra_textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm_sfer_ra_1_3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm_sfer_ra_1_3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/f/9/3e0ca6/dm_sfer_ra_1_3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/f/9/3e0ca6/dm_sfer_ra_1_3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sfer-ra"
+playerCount: "2-12"
+themes:
+  Tech: 1.0
+bots: true

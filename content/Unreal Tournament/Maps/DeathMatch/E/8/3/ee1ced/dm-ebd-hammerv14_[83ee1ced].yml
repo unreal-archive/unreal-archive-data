@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:07"
+game: "Unreal Tournament"
+name: "DM-EBD-HammerV14"
+author: "evil_blue_dude"
+description: "None"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-EBD-HammerV14_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-EBD-HammerV14_shot_1.png"
+- type: "IMAGE"
+  name: "DM-EBD-HammerV14_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-EBD-HammerV14_shot_2.png"
+originalFilename: "dm-ebd-hammerv14.zip"
+hash: "83ee1ced3c41292a5386a766892f70742c348f4d"
+fileSize: 2174240
+files:
+- name: "DM-EBD-HammerV14.unr"
+  fileSize: 3697041
+  hash: "7c5783acaa98c1f1566d5fcf46e3d60dc88ce714"
+- name: "Boundary.umx"
+  fileSize: 957589
+  hash: "c06a687b9c109cc509f0d1e652a48b3ebdb055a1"
+otherFiles: 2
+dependencies:
+  DM-EBD-HammerV14.unr:
+  - status: "OK"
+    name: "Boundary"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ebd-hammerv14.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-ebd-hammerv14.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2713"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/8/3/ee1ced/dm-ebd-hammerv14.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/8/3/ee1ced/dm-ebd-hammerv14.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Thor's Hammer V. 1.4"
+playerCount: "2-8"
+themes:
+  Skaarj Tech: 1.0
+bots: true

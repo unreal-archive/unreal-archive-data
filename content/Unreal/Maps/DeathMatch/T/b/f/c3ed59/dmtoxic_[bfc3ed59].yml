@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:59"
+game: "Unreal"
+name: "DmTOXIC"
+author: "-*MJF*-"
+description: "WWW.TRIAXES.NET"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "dmtoxictwins.zip"
+hash: "bfc3ed59b83c2b4dcf2964bb616b04d459d9ca99"
+fileSize: 844464
+files:
+- name: "DmTOXIC.unr"
+  fileSize: 753705
+  hash: "534af3c234464bdd2f7f7f515df33d206bcb15a2"
+- name: "tox.utx"
+  fileSize: 90300
+  hash: "ec37f6efe8faa540d0ea0edefb928bd957659e97"
+- name: "MUSIC_TOX.uax"
+  fileSize: 766841
+  hash: "47b8fbadf21a1fa9e370c9c51fda4371cd75e74c"
+otherFiles: 1
+dependencies:
+  DmTOXIC.unr:
+  - status: "OK"
+    name: "tox"
+  - status: "OK"
+    name: "MUSIC_TOX"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dmtoxictwins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dmtoxictwins.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsT/dmtoxictwins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmtoxictwins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/b/f/c3ed59/dmtoxictwins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/b/f/c3ed59/dmtoxictwins.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmTOXIC"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.1
+  Nali Castle: 0.9
+bots: true

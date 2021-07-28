@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:54"
+game: "Unreal Tournament"
+name: "SCR-Feuer-pack"
+author: "Bober"
+description: "None"
+releaseDate: "2010-09"
+attachments: []
+originalFilename: "SCR-Feuer-pack.unr.zip"
+hash: "eb0a58ec9b268b7be636df395af3640ebe8fb943"
+fileSize: 6214526
+files:
+- name: "SCR-Feuer-pack.unr"
+  fileSize: 305673
+  hash: "94da8a696ec6e643e388b5148948c0588b40e4e3"
+- name: "Engine.utx"
+  fileSize: 1140892
+  hash: "710454a81696af74fe82a4eb6a56fb0fd159dc21"
+- name: "Soccer.u"
+  fileSize: 229485
+  hash: "77a88662387c32e73cc0f7dcaddb96d996772261"
+- name: "Goal.uax"
+  fileSize: 460072
+  hash: "bc1a1f95c384dd78e7606bf9f158960cf3f9eb1a"
+- name: "r.u"
+  fileSize: 916292
+  hash: "4a702293a58bc3a5f288ba3b60521527ef5d41d1"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "MyLevel.utx"
+  fileSize: 67008
+  hash: "df5427546688be97f998129ec1c5b4a4215607e7"
+otherFiles: 0
+dependencies:
+  SCR-Feuer-pack.unr:
+  - status: "OK"
+    name: "Soccer"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-Feuer-pack.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-Feuer-pack.unr.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-Feuer-pack.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/F/e/b/0a58ec/SCR-Feuer-pack.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/F/e/b/0a58ec/SCR-Feuer-pack.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "Feuer - pack version"
+playerCount: "2-4"
+themes:
+  Tech: 1.0
+bots: false

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:26"
+game: "Unreal Tournament"
+name: "CTF-outdoorarena"
+author: "Mapper2000"
+description: "Welcome to the outdoor life"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-outdoorarena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/CTF-outdoorarena_shot_1.png"
+originalFilename: "ctf-outdoorarena.zip"
+hash: "aeede31951f273903b134cdf917263337344fc12"
+fileSize: 710775
+files:
+- name: "CTF-outdoorarena.unr"
+  fileSize: 1657965
+  hash: "0acc5f63b22ea493c632f20ea6ccea8b1dec252e"
+- name: "Caladan.umx"
+  fileSize: 879746
+  hash: "4bc2006728caf0c12ad9e73685664d71ce1c63a9"
+otherFiles: 0
+dependencies:
+  CTF-outdoorarena.unr:
+  - status: "OK"
+    name: "Caladan"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-outdoorarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/ctf-outdoorarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/a/e/ede319/ctf-outdoorarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/a/e/ede319/ctf-outdoorarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-OutdoorArena"
+playerCount: "4-8 players"
+themes:
+  Industrial: 0.5
+  Natural: 0.4
+  Skaarj Tech: 0.1
+bots: true

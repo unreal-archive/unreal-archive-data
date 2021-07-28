@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:40"
+game: "Unreal Tournament"
+name: "CTF-CTMinACTIONV2"
+author: "CTM_LordneGne"
+description: "None"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-CTMinACTIONV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CTMinACTIONV2_shot_1.png"
+originalFilename: "ctf-ctminactionv02.zip"
+hash: "62ca2cb97daf36a084240cda61a7a2055859b486"
+fileSize: 832689
+files:
+- name: "2k4Combos.u"
+  fileSize: 777090
+  hash: "1ee76c0f9a6b28c3ebebf105a47bdd08857d44da"
+- name: "CTF-CTMinACTIONV2.unr"
+  fileSize: 433959
+  hash: "8f730a15809155a784ccbfa74025bfc3437e9ad7"
+otherFiles: 1
+dependencies:
+  CTF-CTMinACTIONV2.unr:
+  - status: "OK"
+    name: "2k4Combos"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-ctminactionv02.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-ctminactionv02.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4150"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/2/ca2cb9/ctf-ctminactionv02.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/2/ca2cb9/ctf-ctminactionv02.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTM-InActionV2"
+playerCount: "6-8"
+themes:
+  Natural: 1.0
+bots: true

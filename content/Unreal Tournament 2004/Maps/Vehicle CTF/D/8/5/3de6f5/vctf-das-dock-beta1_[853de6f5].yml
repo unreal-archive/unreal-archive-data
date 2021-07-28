@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-12 00:00"
+game: "Unreal Tournament 2004"
+name: "VCTF-Das-Dock-BETA1"
+author: "{BB}der_Burgherr"
+description: "by Burgherr"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-Das-Dock-BETA1_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/VCTF-Das-Dock-BETA1_shot_2.png"
+- type: "IMAGE"
+  name: "VCTF-Das-Dock-BETA1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/VCTF-Das-Dock-BETA1_shot_1.png"
+originalFilename: "vctf-das-Dock.zip"
+hash: "853de6f54b43ece5148c543a18d8113f197f4f9c"
+fileSize: 18207122
+files:
+- name: "HourDinoraTex.utx"
+  fileSize: 18741403
+  hash: "22ca7dbe0faa1ef3f7117a71a93dfaa4e86136e5"
+- name: "Burgis-Das-Dock-Sounds.uax"
+  fileSize: 1410803
+  hash: "c2984aa23d71c085a25c33192673faa654af0140"
+- name: "VCTF-Das-Dock-BETA1.ut2"
+  fileSize: 17546669
+  hash: "08ffe6e67f7aff4fef599e7d69c458195901d22c"
+- name: "HourDinora.usx"
+  fileSize: 4056062
+  hash: "2d579af82f16c14cf290446669a2a155ffc4a81a"
+otherFiles: 2
+dependencies:
+  HourDinora.usx:
+  - status: "OK"
+    name: "HourDinoraTex"
+  VCTF-Das-Dock-BETA1.ut2:
+  - status: "OK"
+    name: "HourDinora"
+  - status: "OK"
+    name: "Burgis-Das-Dock-Sounds"
+  - status: "OK"
+    name: "HourDinoraTex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7173"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/vctf-das-Dock.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/8/5/3de6f5/vctf-das-Dock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/8/5/3de6f5/vctf-das-Dock.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF - das Dock"
+playerCount: "20"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+  City: 0.1
+bots: false

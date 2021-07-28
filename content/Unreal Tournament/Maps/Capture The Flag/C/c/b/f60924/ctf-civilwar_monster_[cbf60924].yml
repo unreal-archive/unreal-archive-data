@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:29"
+game: "Unreal Tournament"
+name: "CTF-Civilwar_Monster"
+author: "[Monsters-Michhhhael]-[Original-BONE]-[N64-Wizputer]"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Civilwar_Monster_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-Civilwar_Monster_shot_1.png"
+originalFilename: "ctf-civilwar_monster.zip"
+hash: "cbf60924cde343a51eda138055e8432efd23eb52"
+fileSize: 692669
+files:
+- name: "MRPG_F.umx"
+  fileSize: 106951
+  hash: "5887090c5bf529285cef64957438b8a3cc22ec1e"
+- name: "CTF-Civilwar_Monster.unr"
+  fileSize: 1880240
+  hash: "ebc7585fe04b854139d51e8294fa1b48d46ba4bb"
+otherFiles: 1
+dependencies:
+  CTF-Civilwar_Monster.unr:
+  - status: "OK"
+    name: "MRPG_F"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-civilwar_monster.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-civilwar_monster.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/c/b/f60924/ctf-civilwar_monster.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/c/b/f60924/ctf-civilwar_monster.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Civil War-Monsters"
+playerCount: "8-16"
+themes:
+  Natural: 0.2
+  Skaarj Tech: 0.8
+bots: true

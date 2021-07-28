@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 18:32"
+game: "Unreal Tournament 2004"
+name: "DM-Berlin"
+author: "Phil Cole, Rogelio Olguin"
+description: "Your are in the WorldWar II, 1945. Germany gonna lose. 600000 People\
+  \ are die, 1000000 Judaism. Adolf Hitler did suicide. The War be ended!"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Berlin_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/B/DM-Berlin_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Berlin_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/B/DM-Berlin_shot_1.png"
+originalFilename: "dm-berlin.zip"
+hash: "e98e4a7b524870c5c3a3c3ea7e04ab68d5ef7d13"
+fileSize: 24924363
+files:
+- name: "WW2.utx"
+  fileSize: 876111
+  hash: "33ef6982d4a6e70bcf82c45316ea661181202dc7"
+- name: "War.usx"
+  fileSize: 12359479
+  hash: "f51cabc2b31b48cd05061ed0ca5d295626b276b8"
+- name: "KR-Battlefield.ogg"
+  fileSize: 4472022
+  hash: "096d7889701262ef90a16480dd6954c90f273108"
+- name: "OorlogsWinter.usx"
+  fileSize: 37939303
+  hash: "7906649f89a87e4dd89388c500fd5aed26c0986a"
+- name: "DM-Berlin.ut2"
+  fileSize: 3578279
+  hash: "9ca331b9274babf51c9841ebf04ebb95ec7481a4"
+otherFiles: 2
+dependencies:
+  War.usx:
+  - status: "OK"
+    name: "WW2"
+  - status: "OK"
+    name: "OorlogsWinter"
+  OorlogsWinter.usx:
+  - status: "MISSING"
+    name: "Intro_Crowd"
+  DM-Berlin.ut2:
+  - status: "OK"
+    name: "War"
+  - status: "OK"
+    name: "OorlogsWinter"
+  - status: "OK"
+    name: "WW2"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6040"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/B/dm-berlin.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/B/e/9/8e4a7b/dm-berlin.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/e/9/8e4a7b/dm-berlin.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Fallen City"
+playerCount: "8-16"
+themes:
+  City: 1.0
+bots: false

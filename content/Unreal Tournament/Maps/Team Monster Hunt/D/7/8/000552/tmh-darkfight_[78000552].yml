@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:25"
+game: "Unreal Tournament"
+name: "TMH-DarkFight"
+author: "--=BliZz=--"
+description: "None"
+releaseDate: "2012-07"
+attachments: []
+originalFilename: "tmh-darkfight.zip"
+hash: "780005525eaa45bbe510f994e53368811af5314b"
+fileSize: 4852943
+files:
+- name: "TMH-DarkFight.unr"
+  fileSize: 1616161
+  hash: "03a7c1172257c31c650b61005843001d574e37fd"
+- name: "action1.umx"
+  fileSize: 1478890
+  hash: "e33d73492731f98edf2ce39a0efe59a50848fb91"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "TeamMH.u"
+  fileSize: 1277228
+  hash: "199b65a34043b8bd4ebdf398060f0ac5efa116c2"
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+otherFiles: 2
+dependencies:
+  TMH-DarkFight.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "TeamMH"
+  - status: "OK"
+    name: "Nali"
+  - status: "OK"
+    name: "action1"
+  TeamMH.u:
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TeamMonsterHunt/&file=tmh-darkfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/D/tmh-darkfight.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TeamMonsterHunt&file=tmh-darkfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/D/7/8/000552/tmh-darkfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/D/7/8/000552/tmh-darkfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Team Monster Hunt"
+title: "TMH-Dark Fight"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.8
+bots: false

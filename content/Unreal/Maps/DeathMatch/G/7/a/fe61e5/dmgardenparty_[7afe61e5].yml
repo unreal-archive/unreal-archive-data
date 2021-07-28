@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:28"
+variationOf: "92cd1144419be1f2c20b5fd32fe1fd8dbee704f1"
+game: "Unreal"
+name: "DmGardenParty"
+author: "Katana (Co30)"
+description: "Welcome to the party... bring your favorite weapon.....for Jean-Claude\
+  \ (Hellspawn Co-30)"
+releaseDate: "2000-03"
+attachments: []
+originalFilename: "dmGardenParty.zip"
+hash: "7afe61e5f2ef639d86a404e93ce69fcd1bb52706"
+fileSize: 3781713
+files:
+- name: "DawnT.utx"
+  fileSize: 441605
+  hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+- name: "GP_waterfall.utx"
+  fileSize: 46555
+  hash: "f733fe7bb354460742bfa6c900f2949222589264"
+- name: "woods.utx"
+  fileSize: 405288
+  hash: "e4191c2115fba521dc22db020f8f9959933beaee"
+- name: "coastex.utx"
+  fileSize: 450882
+  hash: "6adf0aef282c779a7dc246a49712283f80f85094"
+- name: "DmGardenParty.unr"
+  fileSize: 1735762
+  hash: "bdafaebf9a48b7f71cbafbfab832a95281ae4c56"
+- name: "Ricky_Nelson-Garden_Party_redo.umx"
+  fileSize: 4945369
+  hash: "74f95976ce6bf8fd470651b0df8358a3ce470d60"
+otherFiles: 0
+dependencies:
+  DmGardenParty.unr:
+  - status: "OK"
+    name: "woods"
+  - status: "OK"
+    name: "DawnT"
+  - status: "OK"
+    name: "Ricky_Nelson-Garden_Party_redo"
+  - status: "OK"
+    name: "coastex"
+  - status: "OK"
+    name: "GP_waterfall"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1446145"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dmGardenParty.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/G/7/a/fe61e5/dmGardenParty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/G/7/a/fe61e5/dmGardenParty.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmGardenParty"
+playerCount: "6 to 10 (depends on the server, doesn't it...)"
+themes:
+  Nali Temple: 0.5
+  Natural: 0.3
+  Nali Castle: 0.2
+bots: true

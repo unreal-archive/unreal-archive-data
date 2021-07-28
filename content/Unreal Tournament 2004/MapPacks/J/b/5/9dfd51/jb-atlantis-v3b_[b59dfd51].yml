@@ -1,0 +1,82 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 15:13"
+game: "Unreal Tournament 2004"
+name: "Jb Atlantis V3b"
+author: "Various"
+description: "None"
+releaseDate: "2005-08"
+attachments:
+- type: "IMAGE"
+  name: "Jb_Atlantis_V3b_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/J/Jb_Atlantis_V3b_shot_1.png"
+originalFilename: "jb-atlantis_v3b.zip"
+hash: "b59dfd51fe14f072e04a0d2e7f361c3efd9ab2a4"
+fileSize: 6593607
+files:
+- name: "TeamSpecificActors.u"
+  fileSize: 37822
+  hash: "ec7df5749c650f361e6119d65a155fa97ba940cd"
+- name: "JB-Atlantis-v3.ut2"
+  fileSize: 15078664
+  hash: "75ec2f2abb4fe4fdfeced67372c091ee466e58f9"
+- name: "TeamSpecificPhysicsVolume.u"
+  fileSize: 19231
+  hash: "10508d5cc65c95cbec944f8b401dcf77aea13760"
+- name: "CTF-TeamSpecificPhysicsVolume.ut2"
+  fileSize: 1873851
+  hash: "c978c9f5b71dae809c80f6e743ede5c745013ad9"
+- name: "CTF-TeamSpecificPhysicsVolume.ut2"
+  fileSize: 1873851
+  hash: "c978c9f5b71dae809c80f6e743ede5c745013ad9"
+- name: "TeamSpecificActors.u"
+  fileSize: 37822
+  hash: "ec7df5749c650f361e6119d65a155fa97ba940cd"
+otherFiles: 4
+dependencies:
+  JB-Atlantis-v3.ut2:
+  - status: "MISSING"
+    name: "JBToolBox"
+  - status: "MISSING"
+    name: "Jailbreak"
+  - status: "OK"
+    name: "TeamSpecificActors"
+  CTF-TeamSpecificPhysicsVolume.ut2:
+  - status: "OK"
+    name: "TeamSpecificActors"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/J/jb-atlantis_v3b.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jb-atlantis_v3b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jbatlantis_v3b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/J/b/5/9dfd51/jb-atlantis_v3b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/J/b/5/9dfd51/jb-atlantis_v3b.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-TeamSpecificPhysicsVolume"
+  title: "Test The TeamSpecificActors!!! :D"
+  author: "Robin 'Jrubzjeknf' van Olst"
+- name: "CTF-TeamSpecificPhysicsVolume"
+  title: "Test The TeamSpecificActors!!! :D"
+  author: "Robin 'Jrubzjeknf' van Olst"
+- name: "JB-Atlantis-v3"
+  title: "Atlantis"
+  author: "Ed Duke-Cox (JB by AcydBurn)"
+gametype: "Mixed"
+themes:
+  Industrial: 0.3
+  Natural: 0.7

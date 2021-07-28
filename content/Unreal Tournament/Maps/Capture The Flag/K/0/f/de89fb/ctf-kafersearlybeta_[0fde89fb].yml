@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:38"
+game: "Unreal Tournament"
+name: "CTF-KafersEarlyBeta"
+author: "Lord Kafer"
+description: "None"
+releaseDate: "2006-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-KafersEarlyBeta_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/CTF-KafersEarlyBeta_shot_1.png"
+originalFilename: "ctf-kafersearlybeta_with_falldamage.zip"
+hash: "0fde89fb261e02ffb8cf3f24aa8d5200c9cacf8a"
+fileSize: 448423
+files:
+- name: "CTF-KafersEarlyBeta.unr"
+  fileSize: 1187319
+  hash: "bda7ea6b89f15bfc97b0a1b92a15845cc53afbf0"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+otherFiles: 2
+dependencies:
+  CTF-KafersEarlyBeta.unr:
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "MISSING"
+    name: "swJumpPad"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-kafersearlybeta_with_falldamage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/ctf-kafersearlybeta_with_falldamage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/0/f/de89fb/ctf-kafersearlybeta_with_falldamage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/0/f/de89fb/ctf-kafersearlybeta_with_falldamage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-KafersEarlyBeta"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.4
+  City: 0.1
+  Natural: 0.4
+bots: true

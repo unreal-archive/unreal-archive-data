@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 12:32"
+game: "Unreal Tournament 2004"
+name: "DM-LAB13"
+author: "Un1ucky"
+description: "LAB 13...   1999 erbaut und geheim gehalten um gesetzeswidrige Experimente\
+  \ durchzuführen. 2002 durch einen Zwischenfall zerstört. Man weiß bis heute nicht,\
+  \ was geschah, alle Arbeiter tot aufgefunden. 2003 wurde 1/16 der Anlage wieder\
+  \ auferbaut, um dort die Unreal Turniere zu halten."
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-LAB13_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LAB13_shot_2.png"
+- type: "IMAGE"
+  name: "DM-LAB13_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LAB13_shot_1.png"
+originalFilename: "dm-lab13.zip"
+hash: "5065b6692552d15b92521f9105eb0923be72e484"
+fileSize: 5902044
+files:
+- name: "illnino.ogg"
+  fileSize: 2689661
+  hash: "e62fc08e7c40c837bd76e13d7d8f22bfc53f6622"
+- name: "DM-LAB13.ut2"
+  fileSize: 5769566
+  hash: "3a151fd21d58291039d793570d6a26145817ffce"
+- name: "stowi1.usx"
+  fileSize: 359627
+  hash: "d3e55dd806eceaeb70c37a41ab87640ec69918f9"
+- name: "Lab13.utx"
+  fileSize: 4545306
+  hash: "0d18044029201812597373a837d9551b2deb4779"
+otherFiles: 2
+dependencies:
+  stowi1.usx:
+  - status: "OK"
+    name: "Lab13"
+  - status: "MISSING"
+    name: "myLevel"
+  DM-LAB13.ut2:
+  - status: "OK"
+    name: "Lab13"
+  - status: "OK"
+    name: "stowi1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1178"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/dm-lab13.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/L/5/0/65b669/dm-lab13.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/5/0/65b669/dm-lab13.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Lab13"
+playerCount: "4-8"
+themes: {}
+bots: true

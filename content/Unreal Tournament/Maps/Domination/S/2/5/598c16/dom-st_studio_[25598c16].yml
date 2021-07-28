@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 23:08"
+game: "Unreal Tournament"
+name: "DOM-ST_Studio"
+author: "Simeon \"Lord Simeon\" Spargo"
+description: "None"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "DOM-ST_Studio_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/S/DOM-ST_Studio_shot_2.png"
+- type: "IMAGE"
+  name: "DOM-ST_Studio_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/S/DOM-ST_Studio_shot_1.png"
+originalFilename: "dom-st_studio.zip"
+hash: "25598c165f85a5849a3b8d8e8b2b86bf9edd0348"
+fileSize: 1313320
+files:
+- name: "Enterprise.u"
+  fileSize: 17961
+  hash: "eb8b95eb4df31fe3f0d4f0ce581c29277a19d7e6"
+- name: "DOM-ST_Studio.unr"
+  fileSize: 3462636
+  hash: "86146bc1a6fe67776a204a63d7722ff6ccc91542"
+- name: "Camera1.u"
+  fileSize: 8899
+  hash: "e049b5781e5f171b6550f34a8a7a58693373a79c"
+- name: "Camerareels.u"
+  fileSize: 6899
+  hash: "f505088f91805ced1703222f2150a967502b36a8"
+otherFiles: 1
+dependencies:
+  DOM-ST_Studio.unr:
+  - status: "OK"
+    name: "Camerareels"
+  - status: "OK"
+    name: "Enterprise"
+  - status: "OK"
+    name: "Camera1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2197"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/S/dom-st_studio.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/S/2/5/598c16/dom-st_studio.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/S/2/5/598c16/dom-st_studio.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "DOM-ST_Studio"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  City: 0.5
+  Natural: 0.1
+bots: true

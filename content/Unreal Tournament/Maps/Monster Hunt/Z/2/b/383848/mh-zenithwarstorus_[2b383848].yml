@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-11-29 09:15"
-variationOf: null
 game: "Unreal Tournament"
 name: "MH-ZenithWars[Torus]"
 author: "Zen"
@@ -41,32 +40,29 @@ dependencies:
   MH-ZenithWars[Torus].unr:
   - status: "OK"
     name: "sky"
-    providedBy: null
   - status: "OK"
     name: "collabor"
-    providedBy: null
   - status: "OK"
     name: "EXU"
-    providedBy: null
   - status: "MISSING"
     name: "MonsterHunt"
-    providedBy: null
   EXU.u:
   - status: "OK"
     name: "EXU-Textures"
-    providedBy: null
   - status: "OK"
     name: "EXU-Sounds"
-    providedBy: null
   - status: "OK"
     name: "uelite"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/Z/2/b/383848/MH-Zenith_Wars%5BTorus%5D.rar"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt/&file=MH-Zenith_Wars%5BTorus%5D.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/Z/2/b/383848/MH-Zenith_Wars%255BTorus%255D.rar"
   main: false
   repack: false
   state: "OK"

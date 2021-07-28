@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 19:51"
+game: "Unreal Tournament"
+name: "CTF-SilverW00ter"
+author: "Derdak2rot"
+description: "None"
+releaseDate: "2009-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SilverW00ter_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SilverW00ter_shot_1.png"
+originalFilename: "CTF-SilverW00ter.zip"
+hash: "66e884dd380ee90b9dac3fd6010141b528c21e5a"
+fileSize: 1942313
+files:
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CrokxFX.utx"
+  fileSize: 13319
+  hash: "a71a2cab27d83678bbf4ed61dca8f13e68fb0463"
+- name: "CTF-SilverW00ter.unr"
+  fileSize: 4834664
+  hash: "5d0e66d4dc68a11565f1cdc46063ae47c2586489"
+otherFiles: 0
+dependencies:
+  CTF-SilverW00ter.unr:
+  - status: "OK"
+    name: "CrokxFX"
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-SilverW00ter.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SilverW00ter.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/6/6/e884dd/CTF-SilverW00ter.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/6/6/e884dd/CTF-SilverW00ter.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "SilverW00ter"
+playerCount: "2-6"
+themes:
+  Natural: 1.0
+bots: true

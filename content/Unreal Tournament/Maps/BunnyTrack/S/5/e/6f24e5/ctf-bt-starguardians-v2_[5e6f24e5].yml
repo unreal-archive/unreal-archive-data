@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:00"
+game: "Unreal Tournament"
+name: "CTF-BT-StarGuardians-v2"
+author: "Pawel"
+description: "Easy Asteroids!"
+releaseDate: "2016-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-StarGuardians-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-StarGuardians-v2_shot_1.png"
+originalFilename: "CTF-BT-StarGuardians-v2.zip"
+hash: "5e6f24e572a6b2e8ef8463610f5fdaf94c84649a"
+fileSize: 27794599
+files:
+- name: "Colors.utx"
+  fileSize: 12589
+  hash: "43a23fef0644986d50aae20da55468e372868fb6"
+- name: "UT2003Orbital2.utx"
+  fileSize: 2841634
+  hash: "5411115a14a3007ea41b77466bedd561c43ec234"
+- name: "Mave-Music.umx"
+  fileSize: 23236679
+  hash: "13f3b20ebb8456401ba6dbccc1da4dec16cec8c1"
+- name: "ColorsPalaceMusic.umx"
+  fileSize: 4760731
+  hash: "0b63d5eb5e50d3c7788faada4047450810ede729"
+- name: "SafeRandomEvent.u"
+  fileSize: 1972
+  hash: "f78ad68c3daa0c082f83051e72204c703b592c29"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTF-BT-StarGuardians-v2.unr"
+  fileSize: 2497228
+  hash: "945ea5ac708349d62481b80e38b53c6c7860b502"
+otherFiles: 0
+dependencies:
+  CTF-BT-StarGuardians-v2.unr:
+  - status: "OK"
+    name: "UT2003Orbital2"
+  - status: "OK"
+    name: "ColorsPalaceMusic"
+  - status: "OK"
+    name: "SafeRandomEvent"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "Colors"
+  - status: "OK"
+    name: "Mave-Music"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-StarGuardians-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-StarGuardians-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/5/e/6f24e5/CTF-BT-StarGuardians-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/5/e/6f24e5/CTF-BT-StarGuardians-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Star Guardians"
+playerCount: "1-10"
+themes:
+  Ancient: 1.0
+bots: false

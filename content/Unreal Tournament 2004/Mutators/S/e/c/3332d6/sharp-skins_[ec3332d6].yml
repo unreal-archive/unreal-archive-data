@@ -1,0 +1,47 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 19:41"
+game: "Unreal Tournament 2004"
+name: "Sharp Skins"
+author: "Unknown"
+description: "Sharp Skins is for Invasion. What it does is replace the set of monster\
+  \ skins with sharper ones that have more clarity. - http://fraghouse.beyondunreal.com"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "2k4_sharpskins.zip"
+hash: "ec3332d64c940e2e728810ac9ec903762a27152e"
+fileSize: 490303
+files:
+- name: "SharpSkinsTex.utx"
+  fileSize: 1008493
+  hash: "45f2fe5ea2c91efafddba61fdd017ea6153af5db"
+- name: "SharpSkins.u"
+  fileSize: 4944
+  hash: "38f1c9858719d981bab9972b01db183d81a75eaf"
+otherFiles: 2
+dependencies:
+  SharpSkins.u:
+  - status: "OK"
+    name: "SharpSkinsTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/2k4_sharpskins.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/S/e/c/3332d6/2k4_sharpskins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/S/e/c/3332d6/2k4_sharpskins.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Sharp Skins"
+  description: "Sharp Skins is for Invasion. What it does is replace the set of monster\
+    \ skins with sharper ones that have more clarity. - http://fraghouse.beyondunreal.com"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

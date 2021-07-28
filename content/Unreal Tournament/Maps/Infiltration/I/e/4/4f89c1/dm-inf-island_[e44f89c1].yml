@@ -1,0 +1,94 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:50"
+game: "Unreal Tournament"
+name: "DM-INF-Island"
+author: "Ville P. Lehvonen aka vee"
+description: "Enemies nearby..."
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Island_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Infiltration/I/DM-INF-Island_shot_1.png"
+originalFilename: "dm-inf-island.zip"
+hash: "e44f89c1ab745a55fa74c6631bfeb95ab538dd7b"
+fileSize: 3912755
+files:
+- name: "Island.utx"
+  fileSize: 1514592
+  hash: "02f3fb9f484d5cf84f719c87f88742f7be5d8812"
+- name: "DM-INF-Island.unr"
+  fileSize: 3464279
+  hash: "49ae71701945b4ca2a70e68034bb16558386fe15"
+- name: "custom_island.utx"
+  fileSize: 1972077
+  hash: "ebfb1b231a08ed8802c65effa7db693f21018355"
+otherFiles: 1
+dependencies:
+  DM-INF-Island.unr:
+  - status: "MISSING"
+    name: "rw_TPack3"
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "RWorld"
+  - status: "MISSING"
+    name: "mmpack"
+  - status: "MISSING"
+    name: "INF_Belgrade"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+  - status: "MISSING"
+    name: "INF_Wartorn"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "OK"
+    name: "custom_island"
+  - status: "OK"
+    name: "Island"
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "MISSING"
+    name: "FunkKPTex"
+  - status: "MISSING"
+    name: "NWorld"
+  - status: "MISSING"
+    name: "rw_TPack2"
+  custom_island.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-island.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-island.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/I/e/4/4f89c1/dm-inf-island.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/I/e/4/4f89c1/dm-inf-island.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Island"
+playerCount: "12-32"
+themes:
+  Industrial: 0.1
+  Ancient: 0.5
+  City: 0.1
+  Natural: 0.3
+bots: true

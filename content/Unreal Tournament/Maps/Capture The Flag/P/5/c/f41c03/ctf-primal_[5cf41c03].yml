@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:31"
+game: "Unreal Tournament"
+name: "CTF-(Pr}i{maL)"
+author: "By EncoR, no [high] world texture detail support"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-(Pr}i{maL)_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/CTF-(Pr%7Di%7BmaL)_shot_1.png"
+originalFilename: "ctf-primal.zip"
+hash: "5cf41c038bd4a06ea8a13fe1415da4b3dcc464f1"
+fileSize: 3595515
+files:
+- name: "CTF-(Pr}i{maL).unr"
+  fileSize: 7380636
+  hash: "9b073a5857bda4a9bf9f3b070df75a6f74b8cf66"
+- name: "Mw_wellb.umx"
+  fileSize: 1756808
+  hash: "9966c9db473e05ab85e747b33f62b7843c799247"
+otherFiles: 1
+dependencies:
+  CTF-(Pr}i{maL).unr:
+  - status: "OK"
+    name: "Mw_wellb"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-primal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/ctf-primal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=629"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/5/c/f41c03/ctf-primal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/5/c/f41c03/ctf-primal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(Pr}i{maL)"
+playerCount: "14-20"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.4
+  Industrial: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.1
+bots: true

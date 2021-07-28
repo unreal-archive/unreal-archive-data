@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 08:52"
+game: "Unreal Tournament 2004"
+name: "CTF-Cadaver"
+author: "LudaCrist"
+description: "None"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Cadaver_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/CTF-Cadaver_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-Cadaver_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/CTF-Cadaver_shot_2.png"
+originalFilename: "ctf-cadaver.zip"
+hash: "89450a0f0f341aeb33df667eae4c2a96d97dac5f"
+fileSize: 5978330
+files:
+- name: "CTF-Cadaver.ut2"
+  fileSize: 7896152
+  hash: "7bce8d42a85e63046b41befd024fa478de94f0e5"
+- name: "CadaverMesh.usx"
+  fileSize: 8108920
+  hash: "c6f7be3be70490ca4ae59f39f7a8eb5b88fe793b"
+- name: "CadaverTex.utx"
+  fileSize: 1750231
+  hash: "855d2063faebcdf5cb4261fdd0c1cb8766c7c34f"
+otherFiles: 2
+dependencies:
+  CTF-Cadaver.ut2:
+  - status: "OK"
+    name: "CadaverTex"
+  - status: "OK"
+    name: "CadaverMesh"
+  CadaverMesh.usx:
+  - status: "OK"
+    name: "CadaverTex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1207"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/ctf-cadaver.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/8/9/450a0f/ctf-cadaver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/8/9/450a0f/ctf-cadaver.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Cadaver"
+playerCount: "12"
+themes: {}
+bots: true

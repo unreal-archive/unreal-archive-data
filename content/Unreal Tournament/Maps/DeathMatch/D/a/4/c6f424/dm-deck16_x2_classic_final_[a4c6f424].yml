@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:55"
+game: "Unreal Tournament"
+name: "DM-Deck16_x2_classic_final"
+author: "The Brazilian Novice"
+description: "None"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Deck16_x2_classic_final_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-Deck16_x2_classic_final_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Deck16_x2_classic_final_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-Deck16_x2_classic_final_shot_2.png"
+originalFilename: "dm-deck16_x2_classic_final.zip"
+hash: "a4c6f424f2ec69b44cae4656bfe92e44afcfb74a"
+fileSize: 1155474
+files:
+- name: "deck16x2_lamp.u"
+  fileSize: 3338
+  hash: "1c8e2dbe7e9aa0304b2079436c1d0b758d31d71e"
+- name: "deck16x2_lamp2.u"
+  fileSize: 3348
+  hash: "7ea8f66b9f288d88a809256404c5eb629a776ce0"
+- name: "DM-Deck16_x2_classic_final.unr"
+  fileSize: 3906736
+  hash: "a47b26c3547d84060d80e43aa0f21cadefe8e825"
+otherFiles: 1
+dependencies:
+  DM-Deck16_x2_classic_final.unr:
+  - status: "OK"
+    name: "deck16x2_lamp"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "deck16x2_lamp2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-deck16_x2_classic_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-deck16_x2_classic_final.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2808"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/a/4/c6f424/dm-deck16_x2_classic_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/a/4/c6f424/dm-deck16_x2_classic_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Deck16 X-2 Classic"
+playerCount: "4-12"
+themes:
+  Tech: 0.5
+  Industrial: 0.4
+bots: true

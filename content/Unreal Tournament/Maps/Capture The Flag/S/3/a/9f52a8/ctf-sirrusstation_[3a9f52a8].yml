@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:36"
+game: "Unreal Tournament"
+name: "CTF-SirrusStation"
+author: "SyCoDaWgg"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SirrusStation_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SirrusStation_shot_1.png"
+originalFilename: "ctf-sirrusstation.zip"
+hash: "3a9f52a80004759d9651eec6e39c81ac0eef4e25"
+fileSize: 1296849
+files:
+- name: "CTF-SirrusStation.unr"
+  fileSize: 3791569
+  hash: "ae04fb3b04c5ef6fce839929d7cf6f6680f6684b"
+- name: "NuTextures4.utx"
+  fileSize: 354520
+  hash: "4abf18398089c6add7d2f7cbc2794e240426bafc"
+otherFiles: 1
+dependencies:
+  CTF-SirrusStation.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "NuTextures4"
+  - status: "MISSING"
+    name: "richrig"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-sirrusstation.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-sirrusstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-sirrusstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-sirrusstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/a/9f52a8/ctf-sirrusstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/a/9f52a8/ctf-sirrusstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Sirrus Station"
+playerCount: "4-12"
+themes:
+  Industrial: 1.0
+bots: true

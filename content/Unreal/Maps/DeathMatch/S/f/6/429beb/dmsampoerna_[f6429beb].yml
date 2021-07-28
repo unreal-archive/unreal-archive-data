@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:41"
+game: "Unreal"
+name: "DmSampoerna"
+author: "UnLeaded"
+description: "None"
+releaseDate: "2005-09"
+attachments: []
+originalFilename: "DmSampoerna.zip"
+hash: "f6429beb05d8902693a6f6a91845198c325a3613"
+fileSize: 1178078
+files:
+- name: "Young1.umx"
+  fileSize: 895894
+  hash: "a7d1dc03e627827a284583556098dbd167d532e4"
+- name: "DmSampoerna.unr"
+  fileSize: 412155
+  hash: "666c1ab776c317d761ca962fb67d3979822103eb"
+- name: "SampoernaLavaFX.utx"
+  fileSize: 24092
+  hash: "ff96b29294750304da85c8fd6580627e92620ef4"
+- name: "Sampoerna.u"
+  fileSize: 117342
+  hash: "d1fb9c98409faf4dbd74fe9ca603ba05a9a9d80e"
+- name: "SampSnds.uax"
+  fileSize: 183213
+  hash: "44b488c70858e89bde977c2fa2f734aef1742e29"
+otherFiles: 0
+dependencies:
+  DmSampoerna.unr:
+  - status: "OK"
+    name: "SampSnds"
+  - status: "OK"
+    name: "young1"
+  - status: "OK"
+    name: "SampoernaLavaFX"
+  - status: "OK"
+    name: "Sampoerna"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/unleaded_maps/DmSampoerna.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/f/6/429beb/DmSampoerna.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/f/6/429beb/DmSampoerna.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/f/6/429beb/DmSampoerna.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sampoerna"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: false

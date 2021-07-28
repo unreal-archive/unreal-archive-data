@@ -1,7 +1,6 @@
 --- !<MAP_PACK>
 contentType: "MAP_PACK"
 firstIndex: "2019-01-14 05:48"
-variationOf: null
 game: "Unreal Tournament"
 name: "Ai Duelpack"
 author: "Various"
@@ -59,13 +58,16 @@ dependencies:
   DM-Freeze.unr:
   - status: "OK"
     name: "FRZ_Iceotope"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/A/ai-duelpack.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/A/5/0/010988/ai-duelpack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/A/5/0/010988/ai-duelpack.zip"
   main: false
   repack: false
   state: "OK"

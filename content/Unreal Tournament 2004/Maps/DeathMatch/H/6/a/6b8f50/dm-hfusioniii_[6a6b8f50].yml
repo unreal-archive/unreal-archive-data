@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-15 05:35"
+variationOf: "fb42a006647886da3d67146e7463d043c1b1e7d1"
+game: "Unreal Tournament 2004"
+name: "DM-HFusionIII"
+author: "Marcin \"Mr_Hyde\" Winkowski"
+description: "For more UT and UT2003 Maps My production ,go to : || Trinity Design\
+  \ || http://trinity.unreal.pl"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-hfusioniii_shot_6a6b8f50_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/H/dm-hfusioniii_shot_6a6b8f50_1.png"
+originalFilename: "DM-HFusionIII.rar"
+hash: "6a6b8f5089aeab0d4b9447c975a34bfb21d64ac6"
+fileSize: 11462818
+files:
+- name: "Hyde_FusionIII.utx"
+  fileSize: 12903179
+  hash: "bb59acf340a7078c266351b5770ddd82871f6f24"
+- name: "DM-HFusionIII.ut2"
+  fileSize: 24237881
+  hash: "70b199ef452835b850cb703a4cfb09ff0dc6e19f"
+- name: "Hyde_HFusionIII.usx"
+  fileSize: 5636344
+  hash: "f74adb44e200299cdf3d95d5e5616b9ad28a1ab9"
+otherFiles: 1
+dependencies:
+  Hyde_HFusionIII.usx:
+  - status: "OK"
+    name: "Hyde_FusionIII"
+  DM-HFusionIII.ut2:
+  - status: "OK"
+    name: "Hyde_FusionIII"
+  - status: "OK"
+    name: "Hyde_HFusionIII"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/H/DM-HFusionIII.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/H/6/a/6b8f50/DM-HFusionIII.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/H/6/a/6b8f50/DM-HFusionIII.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Hyde Fusion III"
+playerCount: "4-8"
+themes:
+  Industrial: 1.0
+bots: true

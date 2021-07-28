@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:34"
+variationOf: "932e4727ca222a633b09192525d54b52990971b0"
+game: "Unreal Tournament"
+name: "DM-Refine"
+author: "Unknown"
+description: "Map converted from Quake"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-refine_shot_e2d4ecce_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/e/2/d4ecce/dm-refine_shot_e2d4ecce_1.png"
+originalFilename: "dm-refine.zip"
+hash: "e2d4ecce7e1d99d761621a49b36c16144bf01599"
+fileSize: 1114199
+files:
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "DM-Refine.unr"
+  fileSize: 1938686
+  hash: "ee43165e8b65c5633725e7088b6e06a9cada4d5d"
+otherFiles: 1
+dependencies:
+  DM-Refine.unr:
+  - status: "OK"
+    name: "K_vision"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/e/2/d4ecce/dm-refine.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/e/2/d4ecce/dm-refine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/e/2/d4ecce/dm-refine.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Refinery"
+playerCount: "3-8"
+themes:
+  Industrial: 0.9
+  Natural: 0.1
+bots: true

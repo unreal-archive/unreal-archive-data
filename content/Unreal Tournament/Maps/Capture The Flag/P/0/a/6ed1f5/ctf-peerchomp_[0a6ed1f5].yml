@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-12-23 09:08"
+game: "Unreal Tournament"
+name: "CTF-PeerChomp"
+author: "Chomper"
+description: "--]-|-(-- PeerChomp --]-|-[-- (chomper_2099@hotmail.com)"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-PeerChomp_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/CTF-PeerChomp_shot_1.png"
+originalFilename: "peerchomp.zip"
+hash: "0a6ed1f5947e31d9261912e31a660a97d286505b"
+fileSize: 3197876
+files:
+- name: "CTF-PeerChomp.unr"
+  fileSize: 10545434
+  hash: "fe80ba88bec12d04772e320cfa6d4531dd701cfa"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+otherFiles: 1
+dependencies:
+  CTF-PeerChomp.unr:
+  - status: "OK"
+    name: "K_vision"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/peerchomp.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/0/a/6ed1f5/peerchomp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/0/a/6ed1f5/peerchomp.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "PeerChomp"
+playerCount: "6-16"
+themes:
+  Skaarj Crypt: 0.1
+  Industrial: 0.8
+  City: 0.1
+  Natural: 0.1
+bots: true

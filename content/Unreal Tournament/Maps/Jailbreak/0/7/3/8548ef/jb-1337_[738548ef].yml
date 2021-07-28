@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:59"
+game: "Unreal Tournament"
+name: "JB-1337"
+author: "Wiz"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "JB-1337_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/0/JB-1337_shot_1.png"
+originalFilename: "jb-1337.zip"
+hash: "738548ef917799efeb34a605c600ee8e4e4049f3"
+fileSize: 3106489
+files:
+- name: "JailBreak.u"
+  fileSize: 1483009
+  hash: "ce891867bb5d95830a45674ec8cde6c765f01a2f"
+- name: "SuperSheep.u"
+  fileSize: 342779
+  hash: "6321f430a64a48c577f5ab8c0193ec14a5608a40"
+- name: "JBSpecials.u"
+  fileSize: 324160
+  hash: "ac3ed7c3c3d3fdc9fe8304204f008c495f34c075"
+- name: "JBAudio.uax"
+  fileSize: 2552294
+  hash: "d661a07e308c50590ce2e74a4d2426f53850a3bd"
+- name: "JBArena.u"
+  fileSize: 93157
+  hash: "289937bfef80b1bd875b6c53e96060119c04369b"
+- name: "JB-1337.unr"
+  fileSize: 977971
+  hash: "05b50502a6455492ead52268fdf61533d8f93c9e"
+otherFiles: 2
+dependencies:
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+  JB-1337.unr:
+  - status: "OK"
+    name: "JBAudio"
+  - status: "OK"
+    name: "JailBreak"
+  - status: "OK"
+    name: "JBArena"
+  - status: "OK"
+    name: "JBSpecials"
+  - status: "OK"
+    name: "SuperSheep"
+  JailBreak.u:
+  - status: "OK"
+    name: "JBAudio"
+  JBSpecials.u:
+  - status: "OK"
+    name: "JailBreak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-1337.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/0/7/3/8548ef/jb-1337.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/0/7/3/8548ef/jb-1337.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/0/7/3/8548ef/jb-1337.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "2bibcubesfilledwithmaneatting1337goo"
+playerCount: "1337"
+themes: {}
+bots: true

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:21"
+game: "Unreal Tournament"
+name: "CTF-DreamOutland"
+author: "Dreamland"
+description: "Dream Outland"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-DreamOutland_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/CTF-DreamOutland_shot_1.png"
+originalFilename: "dreamoutland.zip"
+hash: "ef7e36ad1a06f44514578a073afcffe89a46b0ef"
+fileSize: 1770710
+files:
+- name: "CTF-DreamOutland.unr"
+  fileSize: 2424063
+  hash: "8751ac67e72bed01ccb39c35fcb306d00e4abf2e"
+- name: "Dreamoutland.utx"
+  fileSize: 845136
+  hash: "4f7e61e3f15e177bc64460e848535dc48b972421"
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+otherFiles: 1
+dependencies:
+  CTF-DreamOutland.unr:
+  - status: "OK"
+    name: "Dreamoutland"
+  - status: "OK"
+    name: "DigSh"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=dreamoutland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/dreamoutland.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/e/f/7e36ad/dreamoutland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/e/f/7e36ad/dreamoutland.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Welcome into Dream Outland"
+playerCount: "16-20"
+themes:
+  Industrial: 0.4
+  Natural: 0.6
+bots: true

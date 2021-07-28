@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:56"
+game: "Unreal Tournament"
+name: "CTF-2v2suckers"
+author: "DoXy"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-2v2suckers_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-2v2suckers_shot_1.png"
+originalFilename: "CTF-2v2suckers.zip"
+hash: "4716f28ef492edfd70b5ba2c4236e7308664032e"
+fileSize: 6995674
+files:
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "CTF-2v2suckers.unr"
+  fileSize: 583078
+  hash: "85eb19e8f5ba69294b0cbd3efa4be39a14101661"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-2v2suckers.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "DoorsSnd"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-2v2suckers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-2v2suckers.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/LGI&file=CTF-2v2suckers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/4/7/16f28e/CTF-2v2suckers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/4/7/16f28e/CTF-2v2suckers.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-2V2suckers"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.6
+  Industrial: 0.1
+  Ancient: 0.1
+  Skaarj Tech: 0.1
+bots: false

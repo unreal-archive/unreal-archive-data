@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:34"
+variationOf: "e2162c111adf48929136c38895eb8666e62c2b8c"
+game: "Unreal Tournament"
+name: "DM-Greece"
+author: "Prewit and Toadie"
+description: "None"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-greece_shot_8d89ba19_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/dm-greece_shot_8d89ba19_1.png"
+- type: "IMAGE"
+  name: "dm-greece_shot_8d89ba19_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/dm-greece_shot_8d89ba19_2.png"
+originalFilename: "DM-Greece.zip"
+hash: "8d89ba197eceb5ad949e1f7a6ff06d99beaf1c77"
+fileSize: 10206850
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "DM-Greece.unr"
+  fileSize: 4557587
+  hash: "54b4e33d5f3b54289c1ead9af11bfd5b176a101a"
+- name: "175Europe.utx"
+  fileSize: 5419259
+  hash: "e47026d13daef49be4ce240233e3ba5c572539ba"
+- name: "175bighouse.utx"
+  fileSize: 688761
+  hash: "2dae945d9383f56d7843ee6b8944255e7e40ec1e"
+- name: "175greekishy.utx"
+  fileSize: 3924611
+  hash: "a634e2a48f41428d996eb5b233eec12505587b6a"
+- name: "175desertcanyon.utx"
+  fileSize: 1087461
+  hash: "ea0696c8658932738221a1c6eac93f758f095f6d"
+otherFiles: 2
+dependencies:
+  DM-Greece.unr:
+  - status: "OK"
+    name: "175bighouse"
+  - status: "OK"
+    name: "175greekishy"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "175Europe"
+  - status: "OK"
+    name: "175desertcanyon"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/8/d/89ba19/DM-Greece.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/8/d/89ba19/DM-Greece.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/8/d/89ba19/DM-Greece.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Greece"
+playerCount: "8-16"
+themes:
+  Tech: 0.5
+  Ancient: 0.1
+  City: 0.3
+  Natural: 0.1
+bots: true

@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 23:54"
+game: "Unreal Tournament 2004"
+name: "VCTF-AnalWar-2K4-SE"
+author: "[HT]ÜberByte"
+description: "It's an anal war!"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "vctf-analwar-2k4-se.zip"
+hash: "77c975f45465fdd1b485f700e9357fa92854b7fd"
+fileSize: 748791
+files:
+- name: "wood2.utx"
+  fileSize: 290763
+  hash: "0ca0d599b09af6221ab1ac2c0321df25495c83d9"
+- name: "VCTF-AnalWar-2K4-SE.ut2"
+  fileSize: 1414038
+  hash: "08b160ac5051964ed0619a69b69b9ee11dbd1b78"
+otherFiles: 0
+dependencies:
+  VCTF-AnalWar-2K4-SE.ut2:
+  - status: "MISSING"
+    name: "AS_Vehicles_M"
+  - status: "OK"
+    name: "wood2"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3523"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/A/vctf-analwar-2k4-se.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/A/7/7/c975f4/vctf-analwar-2k4-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/A/7/7/c975f4/vctf-analwar-2k4-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "AnalWar"
+playerCount: "12"
+themes:
+  Industrial: 1.0
+bots: true

@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:56"
+game: "Unreal Tournament"
+name: "CTF-BT-II-Extant"
+author: "-}Night_Terror{-"
+description: "Welcome to Extant facility."
+releaseDate: "2012-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-II-Extant_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT-II-Extant_shot_1.png"
+originalFilename: "CTF-BT-II-Extant.zip"
+hash: "4f2e30843736fd31dcd6278900e28a0822823fbe"
+fileSize: 14787271
+files:
+- name: "FurryDelayedTrigger2.u"
+  fileSize: 11430
+  hash: "8a5e53dedba1fd6504d515578e5733f47a74c54c"
+- name: "HourPitores_UT.utx"
+  fileSize: 6266307
+  hash: "28d8b736181a51e9a8363b0668079dedf52856a7"
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "CTF-BT-II-Extant.unr"
+  fileSize: 3841732
+  hash: "e7d1cb1bba9a7fa16f020995f0b5ed75f8cf82a1"
+- name: "JumpSound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+- name: "Vandenberg_Music_2k.umx"
+  fileSize: 1400207
+  hash: "c48522807aba0e0d4cd31d0e167a06b0343e3956"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 0
+dependencies:
+  CTF-BT-II-Extant.unr:
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "HourPitores_UT"
+  - status: "OK"
+    name: "Vandenberg_Music_2k"
+  - status: "OK"
+    name: "FurryDelayedTrigger2"
+  - status: "OK"
+    name: "JumpSound"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-II-Extant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT-II-Extant.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-II-Extant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/I/4/f/2e3084/CTF-BT-II-Extant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/I/4/f/2e3084/CTF-BT-II-Extant.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "II-ExtantFacility"
+playerCount: "2-4"
+themes:
+  Industrial: 0.9
+bots: false

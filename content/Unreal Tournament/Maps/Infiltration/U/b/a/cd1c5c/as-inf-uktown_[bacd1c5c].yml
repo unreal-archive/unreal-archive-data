@@ -1,0 +1,123 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 20:04"
+game: "Unreal Tournament"
+name: "AS-INF-UKTown"
+author: "Matt 'Fat Marrow' Farrow"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "AS-INF-UKTown_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/I/AS-INF-UKTown_shot_1.png"
+originalFilename: "as-inf-uktown.zip"
+hash: "bacd1c5c8ae5cb7ce2308887b29d2cb33067e47f"
+fileSize: 8363591
+files:
+- name: "MattUKTown2.utx"
+  fileSize: 4435851
+  hash: "573d3b769e70ba39db956888fe552abecc058e8c"
+- name: "MattOffice.u"
+  fileSize: 1442594
+  hash: "184f985d29a4344e96275aa481a826b01d8a3193"
+- name: "MattUKTown.u"
+  fileSize: 2428666
+  hash: "a4188150557aa129101ad8ca5a10d527d6557142"
+- name: "Matt2.utx"
+  fileSize: 2209029
+  hash: "65c28f5ab22701e705e16d7a8a3c9358380fbdbb"
+- name: "UKTownSounds.uax"
+  fileSize: 269236
+  hash: "2da9d528a93d613c5bcef3952b9274d2253cc9e0"
+- name: "AS-INF-UKTown.unr"
+  fileSize: 3297413
+  hash: "1668c8f1254d5533e518b329d827845c6c68206c"
+otherFiles: 1
+dependencies:
+  AS-INF-UKTown.unr:
+  - status: "MISSING"
+    name: "INF_MS[Downtown]_Misc"
+  - status: "MISSING"
+    name: "INF_MS[Downtown]_Walls_1"
+  - status: "MISSING"
+    name: "INF_Walls_5"
+  - status: "MISSING"
+    name: "inf_doors"
+  - status: "OK"
+    name: "MattUKTown"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Metal"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Walls"
+  - status: "OK"
+    name: "Matt2"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Wood"
+  - status: "MISSING"
+    name: "INF_MS[Interiors]_Package"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Textiles"
+  - status: "MISSING"
+    name: "INF_terrain_1"
+  - status: "OK"
+    name: "MattUKTown2"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Terra"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Concrete"
+  - status: "MISSING"
+    name: "INF_MS[Downtown]_Doors"
+  - status: "MISSING"
+    name: "INF_Fence"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "OK"
+    name: "MattOffice"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Objects"
+  - status: "MISSING"
+    name: "INF_Rooftop"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "Rw_tpack7"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Wood"
+  - status: "MISSING"
+    name: "INF_Walls_1"
+  - status: "OK"
+    name: "UKTownSounds"
+  MattUKTown.u:
+  - status: "OK"
+    name: "MattUKTown2"
+  MattUKTown2.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+  MattOffice.u:
+  - status: "OK"
+    name: "Matt2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-inf-uktown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/I/as-inf-uktown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/U/b/a/cd1c5c/as-inf-uktown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/U/b/a/cd1c5c/as-inf-uktown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "UK Town"
+playerCount: "4-10"
+themes:
+  Nali Temple: 0.6
+  City: 0.4
+bots: true

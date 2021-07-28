@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 04:37"
+game: "Unreal Tournament"
+name: "CTF-Gateway[SIEGE]"
+author: "Shane Caudle - Edit by Higor"
+description: "None"
+releaseDate: "2017-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Gateway[SIEGE]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-Gateway%5BSIEGE%5D_shot_1.png"
+originalFilename: "CTF-Gateway[SIEGE].zip"
+hash: "abd83ae7000a9c9e753dbefc13abde05972edb70"
+fileSize: 2732724
+files:
+- name: "CTF-Gateway[SIEGE].unr"
+  fileSize: 3734800
+  hash: "35a1a3fe3f31a2debf71590cf5c2c0bfe155732f"
+- name: "XC_Siege_r2.u"
+  fileSize: 189043
+  hash: "eecab1424b9a880d3aadb2c89f57bc325fe98741"
+otherFiles: 0
+dependencies:
+  CTF-Gateway[SIEGE].unr:
+  - status: "OK"
+    name: "XC_Siege_r2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Siege&file=CTF-Gateway%5BSIEGE%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-Gateway%5BSIEGE%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/a/b/d83ae7/CTF-Gateway%255BSIEGE%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/a/b/d83ae7/CTF-Gateway%255BSIEGE%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Gateway"
+playerCount: "8 CTF - 16 Siege"
+themes:
+  Tech: 1.0
+bots: true

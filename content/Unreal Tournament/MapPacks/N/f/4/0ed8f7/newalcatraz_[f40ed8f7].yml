@@ -1,0 +1,109 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 20:47"
+variationOf: "4413b8f8d6c7dc42b8e6e43c89d29546c2992c75"
+game: "Unreal Tournament"
+name: "NewAlcatraz"
+author: "Various"
+description: "None"
+releaseDate: "2001-02"
+attachments: []
+originalFilename: "NewAlcatraz.rar"
+hash: "f40ed8f727167af8c29309d30b5c7db39f4e8e93"
+fileSize: 3012543
+files:
+- name: "ShowDown.unr"
+  fileSize: 1080474
+  hash: "14e6e3b74e43e5887d368c542a64b1dcd44052ca"
+- name: "naintro.unr"
+  fileSize: 1443896
+  hash: "f4d6053cde2164314b22f3eac7497904ad603b91"
+- name: "DrevSky.utx"
+  fileSize: 443658
+  hash: "f1714911a991a4b39e71c7a4df852971ab967427"
+- name: "NewAlc.utx"
+  fileSize: 410008
+  hash: "73810ce69b30d735a5ba757e7e92c168af3615e3"
+- name: "NewAlc.u"
+  fileSize: 227512
+  hash: "4b66f7c1202949282f38b7cc30c1952ee7c28617"
+- name: "naoutro.unr"
+  fileSize: 149024
+  hash: "1c56e9434eaa81ad35286a9f1613145dfb9bcb1a"
+- name: "UMS.U"
+  fileSize: 132879
+  hash: "425f39641166f8ef7a3433d6d6abfced3787790b"
+- name: "Lights.utx"
+  fileSize: 10711
+  hash: "4bae4c64e305d76e745b1a8002d6b372e3502beb"
+- name: "NewAlc2.unr"
+  fileSize: 4830021
+  hash: "80fd6dea7c35926d715d0245beb6646aff4dcaff"
+- name: "NewAlc2.utx"
+  fileSize: 27166
+  hash: "95b6bde2b2a11d2c1d23a42ee93472a1249f5802"
+- name: "NewAlc1.unr"
+  fileSize: 4226702
+  hash: "f41a105b1df314b7c0df8ad60925cd0001e5f9eb"
+otherFiles: 1
+dependencies:
+  NewAlc1.unr:
+  - status: "OK"
+    name: "NewAlc"
+  - status: "MISSING"
+    name: "Fifth"
+  - status: "MISSING"
+    name: "Isotoxin"
+  ShowDown.unr:
+  - status: "MISSING"
+    name: "QueenSong"
+  naintro.unr:
+  - status: "OK"
+    name: "NewAlc"
+  - status: "OK"
+    name: "ums"
+  - status: "MISSING"
+    name: "Fifth"
+  naoutro.unr:
+  - status: "MISSING"
+    name: "QueenSong"
+  - status: "OK"
+    name: "ums"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/ONP&file=NewAlcatraz.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/N/NewAlcatraz.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/N/f/4/0ed8f7/NewAlcatraz.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/N/f/4/0ed8f7/NewAlcatraz.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "NewAlc1"
+  title: "New Alcatraz"
+  author: "Tomas 'Drevlin' Lidström"
+- name: "NewAlc2"
+  title: "New Alcatraz Sewer"
+  author: "Tomas 'Drevlin' Lidström"
+- name: "naoutro"
+  title: "naoutro"
+  author: "Unknown"
+- name: "ShowDown"
+  title: "ShowDown"
+  author: "Tomas 'Drevlin' Lidström"
+- name: "naintro"
+  title: "New Alcatraz"
+  author: "Tomas 'Drevlin' Lidström"
+gametype: "Unknown"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9

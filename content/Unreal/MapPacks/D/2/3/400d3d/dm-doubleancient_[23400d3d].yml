@@ -1,0 +1,101 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 09:11"
+game: "Unreal"
+name: "DM Doubleancient"
+author: "SED SOLDIER"
+description: "None"
+releaseDate: "1999-05"
+attachments:
+- type: "IMAGE"
+  name: "DM_Doubleancient_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/D/DM_Doubleancient_shot_1.png"
+- type: "IMAGE"
+  name: "DM_Doubleancient_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/D/DM_Doubleancient_shot_2.png"
+originalFilename: "DM-Doubleancient.rar"
+hash: "23400d3ded9c5a235ffc4ef9721e5dcf7695c825"
+fileSize: 1574843
+files:
+- name: "quake3.utx"
+  fileSize: 684225
+  hash: "aee21a674f8510eabdfb9bc9caf8d2440f1c6104"
+- name: "QUAKE3c.utx"
+  fileSize: 134048
+  hash: "5674170cb6036cd320e0697c4a46a095fe2aad8c"
+- name: "DM-Resurrection.unr"
+  fileSize: 1794331
+  hash: "e53cb897f2d54bf3aec2b577c4a11f85fe3b8c0e"
+- name: "Quakearena.utx"
+  fileSize: 89035
+  hash: "136f96d2ca94429cde8060c437f3a7a9d992228b"
+- name: "DM-Arenagate][.unr"
+  fileSize: 1326578
+  hash: "a6ed11c2a629f5bdca9f5e3df499b2cef0e6d65f"
+otherFiles: 3
+dependencies:
+  DM-Arenagate][.unr:
+  - status: "MISSING"
+    name: "UnWorld2"
+  - status: "MISSING"
+    name: "city"
+  - status: "OK"
+    name: "Quakearena"
+  - status: "OK"
+    name: "quake3"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "OK"
+    name: "QUAKE3c"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "Indus4"
+  - status: "MISSING"
+    name: "Indus2"
+  DM-Resurrection.unr:
+  - status: "MISSING"
+    name: "Old_FX"
+  - status: "MISSING"
+    name: "Egypt"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "Phantom"
+  - status: "MISSING"
+    name: "Indus2"
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Doubleancient.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/DM-Doubleancient.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/D/2/3/400d3d/DM-Doubleancient.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/D/2/3/400d3d/DM-Doubleancient.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Arenagate]["
+  title: "Arena Gate (Q3 Map)"
+  author: "SED SOLDIER"
+- name: "DM-Resurrection"
+  title: "R e s u r r e c t i o n"
+  author: "SED SOLDIER"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.5
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Nali Castle: 0.1
+  Skaarj Tech: 0.4

@@ -1,0 +1,78 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 09:18"
+game: "Unreal Tournament"
+name: "Gothic Student Map Files"
+author: "Various"
+description: "None"
+releaseDate: "2009-03"
+attachments:
+- type: "IMAGE"
+  name: "Gothic_Student_Map_Files_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/G/Gothic_Student_Map_Files_shot_2.png"
+- type: "IMAGE"
+  name: "Gothic_Student_Map_Files_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/G/Gothic_Student_Map_Files_shot_1.png"
+originalFilename: "Gothic-Student-map-files.rar"
+hash: "0ed625b176f5f1bec9e1232ccbe21b6818da9237"
+fileSize: 29588860
+files:
+- name: "[UT]Gothroom.utx"
+  fileSize: 29666323
+  hash: "b82a25176e3c0fcfede0256fcf4acaa5876b8b72"
+- name: "DM-!!![UT]Student-Flat.unr"
+  fileSize: 3857869
+  hash: "573861953a614254c78b5bc4c6f63a066078a5a8"
+- name: "DM-![UT]!GothicBedroom.unr"
+  fileSize: 1719176
+  hash: "730d0729679a7a60231e2ed696b500995eb8ed15"
+- name: "TheCult.umx"
+  fileSize: 5651320
+  hash: "86e1446e0f390a57c806d67958d972f401bc47ad"
+- name: "!!Studentpad.utx"
+  fileSize: 22867818
+  hash: "5e2854abfbdc1e35bf15a8d0c80a2d1e598a45ff"
+- name: "Bombthebass1.umx"
+  fileSize: 5694312
+  hash: "e6c0269d4afb34c19ba15dc77ba621cb20bf9ec7"
+otherFiles: 1
+dependencies:
+  DM-![UT]!GothicBedroom.unr:
+  - status: "OK"
+    name: "[UT]Gothroom"
+  - status: "OK"
+    name: "TheCult"
+  DM-!!![UT]Student-Flat.unr:
+  - status: "OK"
+    name: "Bombthebass1"
+  - status: "OK"
+    name: "!!Studentpad"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=Gothic-Student-map-files.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/G/Gothic-Student-map-files.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/G/0/e/d625b1/Gothic-Student-map-files.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/G/0/e/d625b1/Gothic-Student-map-files.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-![UT]!GothicBedroom"
+  title: "DM-[UT]GothicBedroom"
+  author: "Mark-[UT]SeX-PiStOl"
+- name: "DM-!!![UT]Student-Flat"
+  title: "DM-!!![UT]Student-Flat"
+  author: "[UT]Chaos-Big-Willy"
+gametype: "DeathMatch"
+themes:
+  Ancient: 0.6
+  City: 0.4

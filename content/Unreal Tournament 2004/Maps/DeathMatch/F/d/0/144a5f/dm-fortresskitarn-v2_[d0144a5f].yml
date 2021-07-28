@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 12:01"
+game: "Unreal Tournament 2004"
+name: "DM-FortressKitarn-v2"
+author: "Akumu"
+description: "Nestled deep in the mountains of Minathra, the fortress Kitarn has withstood\
+  \ against the fury of countless armies.  Originally commissioned by King Nograth\
+  \ the fourth, it has remained garrisoned ever since without being overrun."
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-FortressKitarn-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/DM-FortressKitarn-v2_shot_1.png"
+- type: "IMAGE"
+  name: "DM-FortressKitarn-v2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/DM-FortressKitarn-v2_shot_2.png"
+originalFilename: "dm-fortresskitarn-v2.zip"
+hash: "d0144a5fcff3c90ed0719716772a67cbc346344f"
+fileSize: 9933584
+files:
+- name: "AkumuMesh.usx"
+  fileSize: 7230138
+  hash: "33ab9752c701ba784c851287c53ff56abe65b8f4"
+- name: "DM-FortressKitarn-v2.ut2"
+  fileSize: 12913009
+  hash: "f297b82acbf15f5e7420064e8e1ac4d98d817f63"
+- name: "AkumuTexture.utx"
+  fileSize: 4520760
+  hash: "59a39884f8dc56a7209987b8e9d7f66e922919ee"
+otherFiles: 1
+dependencies:
+  DM-FortressKitarn-v2.ut2:
+  - status: "OK"
+    name: "AkumuMesh"
+  - status: "OK"
+    name: "AkumuTexture"
+  AkumuMesh.usx:
+  - status: "OK"
+    name: "AkumuTexture"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2312"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/F/dm-fortresskitarn-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/F/d/0/144a5f/dm-fortresskitarn-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/d/0/144a5f/dm-fortresskitarn-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Fortress Kitarn v2"
+playerCount: "12"
+themes: {}
+bots: true

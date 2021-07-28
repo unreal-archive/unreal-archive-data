@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 07:56"
+game: "Unreal Tournament"
+name: "DM-DG_Illusion"
+author: "David R. Green"
+description: "Is this an Illusion? ..."
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-DG_Illusion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-DG_Illusion_shot_1.png"
+originalFilename: "dm-dg_illusion.7z"
+hash: "bf2e8de49d543d0d8fd7c790bc582db7704b2881"
+fileSize: 1598612
+files:
+- name: "DGIllusionSnd.uax"
+  fileSize: 106417
+  hash: "9ce5455683c65518e9d0ef3cdc594b12d4e5fc41"
+- name: "DGIllusionMod.u"
+  fileSize: 27036
+  hash: "a41dc6a2c2db8ca4bdf4dd92fddfa76e6e7dd8de"
+- name: "DM-DG_Illusion.unr"
+  fileSize: 2395433
+  hash: "c5842fadcd9131a89f0d2f7aaccbdfcaa9644f2b"
+- name: "DM-DG_IllusionSP.unr"
+  fileSize: 2424556
+  hash: "8a90d7719f543a937a6a61a9b56f605575b06c9e"
+- name: "DGIllusionTex.utx"
+  fileSize: 1806861
+  hash: "236d065b8c72e452e1028c8bf1c814484b24c49f"
+otherFiles: 1
+dependencies:
+  DM-DG_Illusion.unr:
+  - status: "OK"
+    name: "DGIllusionMod"
+  - status: "OK"
+    name: "DGIllusionSnd"
+  - status: "OK"
+    name: "DGIllusionTex"
+  DM-DG_IllusionSP.unr:
+  - status: "OK"
+    name: "DGIllusionMod"
+  - status: "OK"
+    name: "DGIllusionSnd"
+  - status: "OK"
+    name: "DGIllusionTex"
+  DGIllusionMod.u:
+  - status: "OK"
+    name: "DGIllusionTex"
+downloads:
+- url: "https://gamebanana.com/maps/download/21011"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-dg_illusion.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/b/f/2e8de4/dm-dg_illusion.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/b/f/2e8de4/dm-dg_illusion.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Illusion Space Dock"
+playerCount: "8"
+themes:
+  Industrial: 1.0
+bots: true

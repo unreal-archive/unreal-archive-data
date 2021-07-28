@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:53"
+game: "Unreal Tournament"
+name: "CTF-BT-Somber-v2"
+author: "kLeptO*"
+description: "None"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Somber-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Somber-v2_shot_1.png"
+originalFilename: "CTF-BT-Somber-v2.zip"
+hash: "b53e5812fe5e28c8e0a1b72a3d86c7db2de80ab2"
+fileSize: 17108732
+files:
+- name: "Shaft.umx"
+  fileSize: 3080750
+  hash: "e8cb2fb6ce3198178fddb632caf3e33eaa3a4b6d"
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+- name: "CTF-BT-Somber-v2.unr"
+  fileSize: 18561236
+  hash: "1556216962a4b06d1854fd5331a7e406075eb99b"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "WOTDetail.utx"
+  fileSize: 89046
+  hash: "102e6f2704d6ffbed60649b5903121cb9281e021"
+otherFiles: 1
+dependencies:
+  CTF-BT-Somber-v2.unr:
+  - status: "OK"
+    name: "ForsakenT"
+  - status: "OK"
+    name: "Shaft"
+  - status: "OK"
+    name: "DoorsSnd"
+  ForsakenT.utx:
+  - status: "PARTIAL"
+    name: "WOTDetail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-Somber-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Somber-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Somber-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/b/5/3e5812/CTF-BT-Somber-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/b/5/3e5812/CTF-BT-Somber-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Somber-v2"
+playerCount: "2-8"
+themes:
+  Ancient: 1.0
+bots: false

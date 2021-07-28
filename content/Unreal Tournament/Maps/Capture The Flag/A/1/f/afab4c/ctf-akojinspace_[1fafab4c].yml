@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:45"
+game: "Unreal Tournament"
+name: "CTF-AKoJinSpace"
+author: "Yeti"
+description: "WELCOME!"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-AKoJinSpace_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AKoJinSpace_shot_1.png"
+originalFilename: "ctf-akojinspace.zip"
+hash: "1fafab4c50f2546c67b577ffcaead9a5f75b9e00"
+fileSize: 1906368
+files:
+- name: "CTF-AKoJinSpace.unr"
+  fileSize: 3578165
+  hash: "6c46b88d4ca7edea72c891e3f71b63507e12dce0"
+- name: "YetiFMAsm.utx"
+  fileSize: 1758345
+  hash: "0e744d4a0412f25bdb25f4813af2e3f81d699bca"
+- name: "Crusader3.utx"
+  fileSize: 976161
+  hash: "e6c222339af8e1230eb69cce9e9825c23db2f386"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+otherFiles: 1
+dependencies:
+  CTF-AKoJinSpace.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "Crusader"
+  - status: "OK"
+    name: "YetiFMAsm"
+  - status: "OK"
+    name: "Crusader3"
+  - status: "MISSING"
+    name: "Crusader2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-akojinspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-akojinspace.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-akojinspacesmall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/f/afab4c/ctf-akojinspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/1/f/afab4c/ctf-akojinspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "A Knight of Judgement in Space"
+playerCount: "2 - 16"
+themes:
+  Nali Temple: 0.2
+  City: 0.1
+  Nali Castle: 0.5
+  Skaarj Tech: 0.1
+bots: true

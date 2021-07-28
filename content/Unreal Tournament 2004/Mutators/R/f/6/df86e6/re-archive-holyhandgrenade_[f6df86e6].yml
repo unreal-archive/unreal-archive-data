@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-10-31 11:43"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "Re Archive Holyhandgrenade"
 author: "Unknown"
@@ -56,20 +55,20 @@ dependencies:
   HolyHandGrenade.u:
   - status: "MISSING"
     name: "HolyHandGrenadeAnim"
-    providedBy: null
   - status: "OK"
     name: "HolyHandGrenadeMesh"
-    providedBy: null
   - status: "OK"
     name: "HolyHandGrenadeTex"
-    providedBy: null
   HolyHandGrenadeMesh.usx:
   - status: "OK"
     name: "HolyHandGrenadeTex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/f/6/df86e6/re-archive_holyhandgrenade.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/R/f/6/df86e6/re-archive_holyhandgrenade.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

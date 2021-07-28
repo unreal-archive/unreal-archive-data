@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:51"
+game: "Unreal"
+name: "DMHillBilLy"
+author: "sinji-(DOG)-"
+description: "Watch your six !"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "dmHillbilly2.zip"
+hash: "2419beb54a7610bd730c43170d29a9b35fbd9ac8"
+fileSize: 12695232
+files:
+- name: "MWorld.utx"
+  fileSize: 826189
+  hash: "6b702dddf927142ac692f1e42de955a3f1114591"
+- name: "ConstantSorrow.umx"
+  fileSize: 8220258
+  hash: "6cc7230f5ca9f1e90d92313557ff0c96393894d6"
+- name: "DMHillBilLy.unr"
+  fileSize: 6019805
+  hash: "940387971be204604ad09b4d1b5e8226fa97388b"
+- name: "trenchtex.utx"
+  fileSize: 1240538
+  hash: "06b56b62575a63818cb6f1fa6a6cbc600770b384"
+- name: "M01Sky.utx"
+  fileSize: 352933
+  hash: "3011b21675d024ec41a29eebd667531271c205e2"
+- name: "SequoiaTXT1.utx"
+  fileSize: 3082670
+  hash: "7a41adba00bd649f258661c9fc363535dd5d85f0"
+- name: "SequoiaTXT2.utx"
+  fileSize: 151520
+  hash: "94d9007583272a94b00e91ccfd0da536800c5e11"
+otherFiles: 0
+dependencies:
+  DMHillBilLy.unr:
+  - status: "OK"
+    name: "ConstantSorrow"
+  - status: "OK"
+    name: "M01Sky"
+  - status: "OK"
+    name: "MWorld"
+  - status: "OK"
+    name: "trenchtex"
+  - status: "OK"
+    name: "SequoiaTXT1"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsH/&file=dmHillbilly2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/dmHillbilly2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsH/dmHillbilly2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/2/4/19beb5/dmHillbilly2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/2/4/19beb5/dmHillbilly2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "HillBase"
+playerCount: "12 to 25"
+themes:
+  Ancient: 0.1
+  Nali Castle: 0.5
+  Skaarj Tech: 0.4
+bots: true

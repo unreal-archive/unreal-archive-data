@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:54"
+game: "Unreal Tournament"
+name: "DM-(ASC)BeyondAges-UK-"
+author: "[ASC]Lothar_Fuffzyn -=Scorpion=-"
+description: "Near a tree, by a river..."
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-(ASC)BeyondAges-UK-_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-(ASC)BeyondAges-UK-_shot_1.png"
+originalFilename: "DM-(ASC)BeyondAges-UK-.zip"
+hash: "6b317115a49243f83d95fa4794b5a2636f286b7f"
+fileSize: 15301214
+files:
+- name: "ASC-island.utx"
+  fileSize: 702340
+  hash: "bab2fc7efc0fb8c9fbb8b15c3f2653f18ce82350"
+- name: "DM-(ASC)BeyondAges-UK-.unr"
+  fileSize: 7026371
+  hash: "b4797998e45cfdba5ecee1192ccb141fc8b556a9"
+- name: "treetextures.utx"
+  fileSize: 223957
+  hash: "9f540c7e5e247bcc32639255cf7be7f6588b173e"
+- name: "ASC-castle.utx"
+  fileSize: 177683
+  hash: "8b02576174b0852e215d097d2bb8c996b265792f"
+- name: "80sMix.umx"
+  fileSize: 14118990
+  hash: "c87327f422060a3209cfe30113cbaae1e5087f06"
+otherFiles: 0
+dependencies:
+  DM-(ASC)BeyondAges-UK-.unr:
+  - status: "OK"
+    name: "ASC-island"
+  - status: "OK"
+    name: "80sMix"
+  - status: "OK"
+    name: "ASC-castle"
+  - status: "OK"
+    name: "treetextures"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28ASC%29BeyondAges-UK-.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-(ASC)BeyondAges-UK-.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/6/b/317115/DM-(ASC)BeyondAges-UK-.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/6/b/317115/DM-(ASC)BeyondAges-UK-.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(ASC)BeyondAges-UK-"
+playerCount: "12-16"
+themes:
+  Skaarj Crypt: 0.7
+  Natural: 0.3
+bots: true

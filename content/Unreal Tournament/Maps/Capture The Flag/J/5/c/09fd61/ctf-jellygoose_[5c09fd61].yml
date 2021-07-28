@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:26"
+variationOf: "7514f3f3910f7760c2131cc4f268a9167af04129"
+game: "Unreal Tournament"
+name: "CTF-JellyGoose"
+author: "Chad \"GreyTiger\" Barnett"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-jellygoose_shot_5c09fd61_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/5/c/09fd61/ctf-jellygoose_shot_5c09fd61_1.png"
+originalFilename: "ctf-jellygoose.zip"
+hash: "5c09fd614c748c460a2d2c78abd27d1cbd049800"
+fileSize: 801196
+files:
+- name: "heroes.umx"
+  fileSize: 452143
+  hash: "faad1e4b23e8a100ccf7647f37e6a112f8eb6b04"
+- name: "CTF-JellyGoose.unr"
+  fileSize: 1927958
+  hash: "fd0669c015b811cae2ba064b2de843f2c0ea4817"
+otherFiles: 1
+dependencies:
+  CTF-JellyGoose.unr:
+  - status: "OK"
+    name: "heroes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/ctf-jellygoose.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404099"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsJ/&file=ctf-jellygoose.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-jellygoose.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsJ/ctf-jellygoose.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/5/c/09fd61/ctf-jellygoose.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/5/c/09fd61/ctf-jellygoose.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-JellyGoose"
+playerCount: "6-16"
+themes:
+  Industrial: 0.9
+  Natural: 0.1
+bots: true

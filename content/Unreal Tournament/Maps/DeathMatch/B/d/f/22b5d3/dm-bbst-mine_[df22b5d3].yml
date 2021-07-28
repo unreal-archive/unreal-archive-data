@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:30"
+game: "Unreal Tournament"
+name: "DM-[BBST]-Mine"
+author: "Radius"
+description: "None"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-bbst-mine_shot_df22b5d3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/d/f/22b5d3/dm-bbst-mine_shot_df22b5d3_1.png"
+originalFilename: "DM-[BBST]-Mine.zip"
+hash: "df22b5d3159ed9929a4d5acf219ae787ed970437"
+fileSize: 5975187
+files:
+- name: "Chrome.umx"
+  fileSize: 4688146
+  hash: "41f610212a4c936f2d474b84434a73d1d37ab654"
+- name: "DM-[BBST]-Mine.unr"
+  fileSize: 4673785
+  hash: "1fa32acb4a6e6a702de5bc23a96ac0cacdca2432"
+- name: "[BBST]-Mine.utx"
+  fileSize: 1922608
+  hash: "7bd7e25b0fca32df40317e72863cad5e6d2cf99c"
+otherFiles: 0
+dependencies:
+  DM-[BBST]-Mine.unr:
+  - status: "OK"
+    name: "Chrome"
+  - status: "OK"
+    name: "[BBST]-Mine"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BBBST%5D-Mine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/d/f/22b5d3/DM-%5BBBST%5D-Mine.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/d/f/22b5d3/DM-%255BBBST%255D-Mine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/d/f/22b5d3/DM-%255BBBST%255D-Mine.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[BBST]-Mine"
+playerCount: "5-15"
+themes:
+  Industrial: 0.1
+  Natural: 0.6
+  Skaarj Tech: 0.3
+bots: false

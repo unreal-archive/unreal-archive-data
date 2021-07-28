@@ -1,0 +1,100 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:55"
+game: "Unreal Tournament"
+name: "CTF-BT-Skirmish"
+author: "-}Night_Terror{-"
+description: "Welcome to Skirmish!"
+releaseDate: "2016-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Skirmish_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Skirmish_shot_1.png"
+originalFilename: "CTF-BT-Skirmish.zip"
+hash: "5067ef0bf14de6bc4e3f90741b81f04a7075146d"
+fileSize: 21572338
+files:
+- name: "DavidMSky.utx"
+  fileSize: 3116000
+  hash: "ea852461bae4677628ac3fa7908d7424a78e1c11"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "GennFX.utx"
+  fileSize: 2189510
+  hash: "71ddf265159ce71b4488d8eaac1ee28296cb11a8"
+- name: "NPStroggsk.utx"
+  fileSize: 3091884
+  hash: "643ec8bdf62b1a96fbb122451bbaeb45ec29fde7"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "SCTech1.utx"
+  fileSize: 4302752
+  hash: "ed7b7b56c57d17df444e82c6a01e6274a6febca7"
+- name: "CTF-BT-Skirmish.unr"
+  fileSize: 3573797
+  hash: "d8c63c33c00af2d22cc7bdeef1e9572d338d4af1"
+- name: "DavidMGras.utx"
+  fileSize: 4386669
+  hash: "d2068bf5a9edcc57ba6ce15c5c9cd350494c4034"
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+otherFiles: 0
+dependencies:
+  CTF-BT-Skirmish.unr:
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "NPStroggsk"
+  - status: "OK"
+    name: "DavidMSky"
+  - status: "OK"
+    name: "DavidMGras"
+  - status: "OK"
+    name: "SCTech1"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "GennFX"
+  NPStroggsk.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+  DavidMGras.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Skirmish.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Skirmish.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Skirmish.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/5/0/67ef0b/CTF-BT-Skirmish.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/5/0/67ef0b/CTF-BT-Skirmish.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT: Skirmish"
+playerCount: "1-8"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.9
+bots: false

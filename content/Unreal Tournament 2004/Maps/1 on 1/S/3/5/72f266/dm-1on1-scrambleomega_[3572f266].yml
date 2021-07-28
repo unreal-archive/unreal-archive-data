@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 13:55"
+game: "Unreal Tournament 2004"
+name: "DM-1on1-ScrambleOmega"
+author: "Gh"
+description: "Scramble Omega in UT2004 ...."
+releaseDate: "2014-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-1on1-ScrambleOmega_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/S/DM-1on1-ScrambleOmega_shot_1.png"
+- type: "IMAGE"
+  name: "DM-1on1-ScrambleOmega_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/S/DM-1on1-ScrambleOmega_shot_2.png"
+originalFilename: "dm-1on1-scrambleomega.zip"
+hash: "3572f266c4242705fb53e3ac9810f0db238a3a87"
+fileSize: 12371121
+files:
+- name: "Gh'sMesh.usx"
+  fileSize: 105733
+  hash: "3232a34fc6b41d32ee8347cb62655441d2e56828"
+- name: "Gh'sTex.utx"
+  fileSize: 4676737
+  hash: "5506d3b8c310f8c17749f507b422dc9aeba9c270"
+- name: "AVP2-Caverns.ogg"
+  fileSize: 3836875
+  hash: "926e79d22cbc1b65b715949aab1574d11daf7f5d"
+- name: "NaThSummit.utx"
+  fileSize: 12957647
+  hash: "7f987a0b2169acc22d3ef715aba9a3e703f9babd"
+- name: "DM-1on1-ScrambleOmega.ut2"
+  fileSize: 2808462
+  hash: "3e5b768aaa980f69f4204823c3c152e2215ca4c8"
+otherFiles: 2
+dependencies:
+  DM-1on1-ScrambleOmega.ut2:
+  - status: "OK"
+    name: "NaThSummit"
+  - status: "OK"
+    name: "Gh'sTex"
+  - status: "OK"
+    name: "Gh'sMesh"
+  Gh'sMesh.usx:
+  - status: "OK"
+    name: "Gh'sTex"
+downloads:
+- url: "https://gamebanana.com/maps/download/182230"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/1%20on%201/S/dm-1on1-scrambleomega.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/1%20on%201/S/3/5/72f266/dm-1on1-scrambleomega.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/1%20on%201/S/3/5/72f266/dm-1on1-scrambleomega.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "DM-1on1-ScrambleOmega"
+playerCount: "2"
+themes:
+  Industrial: 1.0
+bots: true

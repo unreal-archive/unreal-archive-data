@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:52"
+game: "Unreal Tournament"
+name: "DMKillerPC_UT"
+author: "Elrod"
+description: "Watch out for that first step"
+releaseDate: "2000-03"
+attachments: []
+originalFilename: "dmkillerpc_2.zip"
+hash: "36b0c61ba22c5f7c04cc23e828e9bd0ba0bc77b2"
+fileSize: 2020003
+files:
+- name: "station.utx"
+  fileSize: 1465444
+  hash: "b3be9046897bf4c1915a796fc8524d6ee951fc5d"
+- name: "TheFan.u"
+  fileSize: 7896
+  hash: "071302c4479146268f36021a358a6655df26d263"
+- name: "U2.umx"
+  fileSize: 1023845
+  hash: "7e5621c6900486b37d5ea8a855033771f44aa79f"
+- name: "ElrodsObjects.u"
+  fileSize: 40606
+  hash: "78152a76cbbd4261cde0bd50cc38b9ded0f25317"
+- name: "elrod.u"
+  fileSize: 18071
+  hash: "acae7e082843c8671f06eec000fafa8cdf6560e0"
+- name: "Sentry.u"
+  fileSize: 8636
+  hash: "baedf142eb5d76bea798781de1fa6cb3a4bec5bc"
+- name: "DMKillerPC_UT.unr"
+  fileSize: 1580456
+  hash: "b5f555427851f48d6b90dd78696df89883b9d432"
+- name: "PC.uax"
+  fileSize: 262447
+  hash: "eb295359438fc3aa53bee8ea349d7301fd2ad8ed"
+otherFiles: 2
+dependencies:
+  Sentry.u:
+  - status: "OK"
+    name: "station"
+  DMKillerPC_UT.unr:
+  - status: "OK"
+    name: "ElrodsObjects"
+  - status: "OK"
+    name: "elrod"
+  - status: "OK"
+    name: "PC"
+  - status: "OK"
+    name: "station"
+  - status: "OK"
+    name: "Sentry"
+  - status: "OK"
+    name: "TheFan"
+  - status: "OK"
+    name: "U2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/dmkillerpc_2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dmkillerpc_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DMkillerpc_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsK/dmkillerpc_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/3/6/b0c61b/dmkillerpc_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/3/6/b0c61b/dmkillerpc_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Killer PC"
+playerCount: "6"
+themes:
+  Nali Castle: 1.0
+bots: true

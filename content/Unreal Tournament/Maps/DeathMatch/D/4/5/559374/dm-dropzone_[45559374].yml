@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:17"
+game: "Unreal Tournament"
+name: "DM-DropZone"
+author: "Squacky <<hastings@cs.ucf.edu>>"
+description: "None"
+releaseDate: "2007-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-DropZone_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-DropZone_shot_1.png"
+originalFilename: "DM-DropZone.zip"
+hash: "455593742e8af451f61baf5a449db94fa7709acf"
+fileSize: 7070277
+files:
+- name: "DM-DropZone.unr"
+  fileSize: 6392947
+  hash: "64b9d47942efc337e496d4d1dbeebc0b02ba5da1"
+- name: "SSPX2.utx"
+  fileSize: 7909204
+  hash: "63c771dd8db7e175ecf1f8e6d16d6b804a40a3bd"
+otherFiles: 0
+dependencies:
+  DM-DropZone.unr:
+  - status: "OK"
+    name: "SSPX2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-DropZone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DropZone.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/4/5/559374/DM-DropZone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/4/5/559374/DM-DropZone.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: ">> Drop Zone ][ <<"
+playerCount: "6 to 10"
+themes:
+  Industrial: 0.3
+  City: 0.6
+bots: true

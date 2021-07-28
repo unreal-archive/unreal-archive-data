@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 14:16"
+game: "Unreal Tournament 2004"
+name: "DM-Darkwood_Forest"
+author: "Marcin \"Mr_Hyde\" Winkowski"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-darkwood_forest_shot_4360237b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/D/dm-darkwood_forest_shot_4360237b_2.png"
+- type: "IMAGE"
+  name: "dm-darkwood_forest_shot_4360237b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/D/dm-darkwood_forest_shot_4360237b_1.png"
+originalFilename: "dm-the_darkwood_forest_final.zip"
+hash: "4360237bbc39a93bc431e08450d7ce958bf72a23"
+fileSize: 3350731
+files:
+- name: "DM-Darkwood_Forest.ut2"
+  fileSize: 10252690
+  hash: "1bd94fcccb37235f82609a5bdaded600612b2318"
+- name: "Hyde_DM-Forest_2_Mesh.usx"
+  fileSize: 117529
+  hash: "3aeb72e13f7271833b74fce45fca5311280ff37b"
+otherFiles: 1
+dependencies:
+  DM-Darkwood_Forest.ut2:
+  - status: "OK"
+    name: "Hyde_DM-Forest_2_Mesh"
+  - status: "MISSING"
+    name: "Hyde_DM-Forest_Mesh"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=832"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/D/dm-the_darkwood_forest_final.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/D/4/3/60237b/dm-the_darkwood_forest_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/D/4/3/60237b/dm-the_darkwood_forest_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Darkwood Forest ]["
+playerCount: "2-8"
+themes: {}
+bots: true

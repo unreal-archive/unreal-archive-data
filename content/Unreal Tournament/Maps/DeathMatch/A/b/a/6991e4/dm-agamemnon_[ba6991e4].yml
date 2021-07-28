@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:52"
+game: "Unreal Tournament"
+name: "DM-Agamemnon"
+author: "Will-\"Mr.Prophet\"-Drekker"
+description: "A g a m e m n o n"
+releaseDate: "2013-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Agamemnon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Agamemnon_shot_1.png"
+originalFilename: "DM-Agamemnon.zip"
+hash: "ba6991e41ebc3ea6f0d4bbbed069324b5f600f44"
+fileSize: 22186536
+files:
+- name: "DM-Agamemnon.unr"
+  fileSize: 16116880
+  hash: "ea5fb7c9c120784598d988ed82bc3913f2d2c5d6"
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "HourIndus_mod_s3tc.utx"
+  fileSize: 10443194
+  hash: "7512f4275dc383618ca4e0e0f61f5ce8e0ee3725"
+otherFiles: 0
+dependencies:
+  DM-Agamemnon.unr:
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "HourIndus_mod_s3tc"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Agamemnon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-Agamemnon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-BetaLevelThing.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/b/a/6991e4/DM-Agamemnon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/b/a/6991e4/DM-Agamemnon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "-Agamemnon-"
+playerCount: "8-10"
+themes:
+  Tech: 0.1
+  Indistrial: 0.9
+bots: true

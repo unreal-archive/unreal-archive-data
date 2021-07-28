@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:41"
+game: "Unreal Tournament"
+name: "CTF-TwoFortresIV"
+author: "Christian'Cobra'Trepanier"
+description: "None"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-TwoFortresIV_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-TwoFortresIV_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-TwoFortresIV_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-TwoFortresIV_shot_1.png"
+originalFilename: "ctf-twofortresiv.zip"
+hash: "017b0c1d90fd0ff3e48be801c69eaa835dba6c6c"
+fileSize: 2555747
+files:
+- name: "ReGeneration.u"
+  fileSize: 192539
+  hash: "d35754feeef3db12fe355987ac6bf77877f09bfb"
+- name: "relinquishFonts.utx"
+  fileSize: 575422
+  hash: "f8d223b8e358b5b6708a8596690dab821907d9b5"
+- name: "ReGenZones.u"
+  fileSize: 1316
+  hash: "67f9c8f30a6e478461a99606b7d1957f0579f647"
+- name: "CTF-TwoFortresIV.unr"
+  fileSize: 6111449
+  hash: "a6159cff53fc7a308243e8ffe95a0d7dcaf25113"
+otherFiles: 3
+dependencies:
+  ReGeneration.u:
+  - status: "OK"
+    name: "ReGenZones"
+  CTF-TwoFortresIV.unr:
+  - status: "OK"
+    name: "ReGenZones"
+  - status: "OK"
+    name: "ReGeneration"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-twofortresiv.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsT/&file=ctf-twofortresiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-twofortresiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsT/ctf-twofortresiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/0/1/7b0c1d/ctf-twofortresiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/0/1/7b0c1d/ctf-twofortresiv.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-TwoFortesIV"
+playerCount: "14-16"
+themes: {}
+bots: true

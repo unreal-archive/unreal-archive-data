@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:14"
+game: "Unreal Tournament"
+name: "DM-FightNight"
+author: "Mark \"OZ\" Austin"
+description: "None"
+releaseDate: "2008-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-fightnight_shot_49b02184_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/4/9/b02184/dm-fightnight_shot_49b02184_1.png"
+originalFilename: "dm-fightnight.zip"
+hash: "49b021847ae457183b1a205321ab9e2f20efa4c5"
+fileSize: 1594364
+files:
+- name: "DM-FightNight.unr"
+  fileSize: 3903654
+  hash: "50a9219540e30b19052670cff318ed7fb401cf73"
+- name: "gangwar.utx"
+  fileSize: 796440
+  hash: "893eb2527151636dd477dec96ff4b38249146fbc"
+otherFiles: 0
+dependencies:
+  DM-FightNight.unr:
+  - status: "OK"
+    name: "gangwar"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-fightnight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/4/9/b02184/dm-fightnight.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/4/9/b02184/dm-fightnight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/4/9/b02184/dm-fightnight.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Fight Night - TJ Combo"
+playerCount: "6-12"
+themes:
+  Tech: 0.1
+  Industrial: 0.3
+  Ancient: 0.1
+  City: 0.4
+  Nali Castle: 0.1
+bots: true

@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:57"
+game: "Unreal Tournament"
+name: "CTF-BT-SolarMoon-vF"
+author: "Nav"
+description: "None"
+releaseDate: "2017-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-SolarMoon-vF_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SolarMoon-vF_shot_1.png"
+originalFilename: "CTF-BT-SolarMoon-vF.zip"
+hash: "36e51ca626063904140971365caa8958e74eaf32"
+fileSize: 8570026
+files:
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "CTF-BT-SolarMoon-vF.unr"
+  fileSize: 10264443
+  hash: "29b7a803bc9f625218f1822142a7de29357a1170"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+otherFiles: 0
+dependencies:
+  CTF-BT-SolarMoon-vF.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "Anc"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-SolarMoon-vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SolarMoon-vF.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-SolarMoon-vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/3/6/e51ca6/CTF-BT-SolarMoon-vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/3/6/e51ca6/CTF-BT-SolarMoon-vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "SolarMoon"
+playerCount: "12"
+themes:
+  Ancient: 1.0
+bots: false

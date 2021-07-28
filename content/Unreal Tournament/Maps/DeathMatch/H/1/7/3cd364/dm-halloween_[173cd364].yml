@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:53"
+game: "Unreal Tournament"
+name: "DM-Halloween"
+author: "Jeff Martin - www.geocities.com/j4unreal"
+description: "Boo!"
+releaseDate: "2003-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-halloween_shot_173cd364_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/1/7/3cd364/dm-halloween_shot_173cd364_1.png"
+originalFilename: "DM-Halloween.rar"
+hash: "173cd3642feea9b1ab8bb81b6cdcaeb1269d8d43"
+fileSize: 3192307
+files:
+- name: "HalloweenTex.utx"
+  fileSize: 3093992
+  hash: "7782ebaa03059e73c5105ec19d251a3fd0a3f99f"
+- name: "DM-Halloween-nb.unr"
+  fileSize: 3040702
+  hash: "b52ce4bd3dbed2c79dd63086caec4b8a4acc0c21"
+- name: "HalloweenSounds.uax"
+  fileSize: 687414
+  hash: "1dca5ecffbf16a1b343ef334dd7c7819c0eef2c9"
+- name: "DM-Halloween.unr"
+  fileSize: 3041521
+  hash: "1a63ae63d4baf1ad979f755bfe2f04c82438d370"
+otherFiles: 1
+dependencies:
+  DM-Halloween.unr:
+  - status: "OK"
+    name: "HalloweenTex"
+  - status: "OK"
+    name: "HalloweenSounds"
+  DM-Halloween-nb.unr:
+  - status: "OK"
+    name: "HalloweenTex"
+  - status: "OK"
+    name: "HalloweenSounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Halloween.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/DM-Halloween.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/1/7/3cd364/DM-Halloween.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/1/7/3cd364/DM-Halloween.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Halloween"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.7
+  Natural: 0.3
+bots: true

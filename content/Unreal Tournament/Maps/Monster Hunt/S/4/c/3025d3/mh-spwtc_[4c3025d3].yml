@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:55"
+game: "Unreal Tournament"
+name: "MH-[SP]WTC"
+author: "Action-Force *Imported from UT by RUSH*"
+description: "World Trade Center"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "MH-[SP]WTC.zip"
+hash: "4c3025d35baaa3ef3e47b079d4d017975a6f5966"
+fileSize: 7087942
+files:
+- name: "Lenkrad[G].u"
+  fileSize: 107172
+  hash: "1c56227274013f67adee427ca795e80f16f0824c"
+- name: "Hypno.umx"
+  fileSize: 864509
+  hash: "e6780689baf449977c2265a734d923ec85dc342f"
+- name: "MH-[SP]WTC.unr"
+  fileSize: 15773490
+  hash: "31a083ea82faea01ce3fca9f8ee75231925e7357"
+- name: "Beast.umx"
+  fileSize: 647226
+  hash: "d2947cea77137e3aab4808603458493bccaa4689"
+- name: "Blackstar.umx"
+  fileSize: 395478
+  hash: "69f8ab5ad8b8b8031409aedc103fc177cd28e713"
+- name: "Bodies.umx"
+  fileSize: 1809818
+  hash: "1dea428f909d23ff38c2e5f0fa6aea3f7323eb2a"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+otherFiles: 0
+dependencies:
+  MH-[SP]WTC.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Bodies"
+  - status: "OK"
+    name: "Hypno"
+  - status: "OK"
+    name: "Blackstar"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "Lenkrad[G]"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "Beast"
+  - status: "MISSING"
+    name: "Indus7a"
+  - status: "MISSING"
+    name: "Indus5a"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-%5BSP%5DWTC.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/4/c/3025d3/MH-%5BSP%5DWTC.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]WTC.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/4/c/3025d3/MH-%255BSP%255DWTC.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/4/c/3025d3/MH-%255BSP%255DWTC.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] World Trade Center"
+playerCount: "15"
+themes:
+  Industrial: 0.8
+  City: 0.2
+bots: true

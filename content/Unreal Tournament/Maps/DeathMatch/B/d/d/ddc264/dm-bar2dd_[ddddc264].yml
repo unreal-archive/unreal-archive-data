@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 23:36"
+game: "Unreal Tournament"
+name: "DM-Bar2DD"
+author: "Unknown"
+description: "None"
+releaseDate: "2001-11"
+attachments: []
+originalFilename: "DM-Bar2DD.zip"
+hash: "ddddc2644b69b8b0d40f2cc946c70b9eac0720cb"
+fileSize: 2505957
+files:
+- name: "VSK-Bar.utx"
+  fileSize: 3792439
+  hash: "b28f8333d4a2d9018ddd045f5d4c5c101da27bf2"
+- name: "ds_nl.umx"
+  fileSize: 910639
+  hash: "7b07dde0a464cc68465e35a61b4c11bdd238aa8b"
+- name: "DM-Bar2DD.unr"
+  fileSize: 1359237
+  hash: "49d679e2f5ec8fefb950bee2cebac761653de636"
+- name: "VSK-DJV.utx"
+  fileSize: 532401
+  hash: "fd781c6a565c9740da6c120804dd2cab050b665c"
+otherFiles: 0
+dependencies:
+  DM-Bar2DD.unr:
+  - status: "OK"
+    name: "VSK-DJV"
+  - status: "MISSING"
+    name: "DRMPa"
+  - status: "OK"
+    name: "VSK-Bar"
+  - status: "OK"
+    name: "ds_nl"
+  - status: "MISSING"
+    name: "BRdmSE"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-Bar2DD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-Bar2DD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Bar2DD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-Bar2DD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/d/d/ddc264/DM-Bar2DD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/d/d/ddc264/DM-Bar2DD.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bar2DD"
+playerCount: "3-20"
+themes:
+  Ancient: 0.5
+  Indistrial: 0.5
+bots: true

@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-17 15:01"
+game: "Unreal"
+name: "DmKeyWest"
+author: "Jeff Martin - www.geocities.com/j4unreal"
+description: "Welcome to my home, Key West Florida"
+releaseDate: "2006-09"
+attachments:
+- type: "IMAGE"
+  name: "DmKeyWest_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/K/DmKeyWest_shot_1.png"
+- type: "IMAGE"
+  name: "DmKeyWest_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/K/DmKeyWest_shot_3.png"
+- type: "IMAGE"
+  name: "DmKeyWest_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/K/DmKeyWest_shot_2.png"
+originalFilename: "dmkeywest_206fc663.zip"
+hash: "206fc66376e3731073673c627d8fc032fb434734"
+fileSize: 6715570
+files:
+- name: "KeyWestS.uax"
+  fileSize: 1468221
+  hash: "6543e31496fa23ff8cb210fb3df5b52d46a66b03"
+- name: "KeyWestM.uax"
+  fileSize: 4989630
+  hash: "1d6aa8c8506a239979c74e9634c868a08995542d"
+- name: "DmKeyWest.unr"
+  fileSize: 1212791
+  hash: "59dcf64a42063e36a420364e73efba50f939ad4d"
+- name: "KeyWest.utx"
+  fileSize: 4658929
+  hash: "bd82016f019d9746092ba14827b067742031cef8"
+otherFiles: 3
+dependencies:
+  DmKeyWest.unr:
+  - status: "OK"
+    name: "KeyWest"
+  - status: "OK"
+    name: "KeyWestS"
+  - status: "OK"
+    name: "KeyWestM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/K/dmkeywest_206fc663.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/K/2/0/6fc663/dmkeywest_206fc663.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/K/2/0/6fc663/dmkeywest_206fc663.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Key West"
+playerCount: "Unknown"
+themes: {}
+bots: true

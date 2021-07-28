@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 11:09"
+game: "Unreal Tournament 2004"
+name: "DM-SmackdownHotel"
+author: "TazzXxX"
+description: "For Those Who Lay The Smacketh Downeth    Welcome To Smackdown Hotel"
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-SmackdownHotel_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-SmackdownHotel_shot_1.png"
+originalFilename: "dm-smackdownhotel.zip"
+hash: "3fe67be934311c1e2567e9dbae28114933567299"
+fileSize: 2379399
+files:
+- name: "DM-SmackdownHotel.ut2"
+  fileSize: 10686614
+  hash: "a36f323cb798946e0c75c6230258529ab6baf776"
+- name: "SmackdownHotel.utx"
+  fileSize: 180334
+  hash: "bf2cb3d0e4809729c12667ed70e66ebe7487fbb2"
+- name: "TheGame.ogg"
+  fileSize: 313234
+  hash: "397ec87417b5452e9163f7d766e8ac0700a3a448"
+otherFiles: 1
+dependencies:
+  DM-SmackdownHotel.ut2:
+  - status: "OK"
+    name: "SmackdownHotel"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-smackdownhotel.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=892"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/3/f/e67be9/dm-smackdownhotel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/3/f/e67be9/dm-smackdownhotel.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Smackdown Hotel"
+playerCount: "16"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  Natural: 0.2
+bots: true

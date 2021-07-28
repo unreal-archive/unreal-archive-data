@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:32"
+game: "Unreal Tournament"
+name: "DM-NWCrimson_fix"
+author: "Graeme \"darth_weasel\" Hutton"
+description: "None"
+releaseDate: "2013-06"
+attachments: []
+originalFilename: "DM-NWCrimson_fix.zip"
+hash: "1d24a4196176bc650bbdc76e3ece7e81dbe8b167"
+fileSize: 4262420
+files:
+- name: "DM-NWCrimson_fix.unr"
+  fileSize: 1163255
+  hash: "4daeb6a1c8879e536d06844f397c1f3992845c2f"
+- name: "KR-CorrugationRise.umx"
+  fileSize: 4136285
+  hash: "cfd9842700145c249ffa85a6707478e53d77e544"
+otherFiles: 0
+dependencies:
+  DM-NWCrimson_fix.unr:
+  - status: "OK"
+    name: "KR-CorrugationRise"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWCrimson_fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWCrimson_fix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/1/d/24a419/DM-NWCrimson_fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/1/d/24a419/DM-NWCrimson_fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-1on1-Crimson"
+playerCount: "2"
+themes:
+  Industrial: 0.4
+  Skaarj Tech: 0.6
+bots: true

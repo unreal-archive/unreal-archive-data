@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:27"
+game: "Unreal Tournament"
+name: "TMH-USSR_Stroganoff"
+author: "Vatcilli+L4dy_4bys"
+description: "None"
+releaseDate: "2009-06"
+attachments:
+- type: "IMAGE"
+  name: "TMH-USSR_Stroganoff_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/U/TMH-USSR_Stroganoff_shot_1.png"
+originalFilename: "tmh-ussr_stroganoff.zip"
+hash: "8f64664e2dac529bc02a602998e2a742d9ab563e"
+fileSize: 3837156
+files:
+- name: "TeamMH.u"
+  fileSize: 1277228
+  hash: "199b65a34043b8bd4ebdf398060f0ac5efa116c2"
+- name: "TMH-USSR_Stroganoff.unr"
+  fileSize: 8024803
+  hash: "e43397fdfd1789fdf1e4a7b9e58401206a2e5489"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  TMH-USSR_Stroganoff.unr:
+  - status: "OK"
+    name: "TeamMH"
+  - status: "OK"
+    name: "Mayhem"
+  TeamMH.u:
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TeamMonsterHunt/&file=tmh-ussr_stroganoff.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/U/tmh-ussr_stroganoff.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TeamMonsterHunt&file=tmh-ussr_stroganoff.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/U/8/f/64664e/tmh-ussr_stroganoff.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/U/8/f/64664e/tmh-ussr_stroganoff.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Team Monster Hunt"
+title: "Goodbye USSR_Stroganoff"
+playerCount: "4-10"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+  Ancient: 0.1
+bots: true

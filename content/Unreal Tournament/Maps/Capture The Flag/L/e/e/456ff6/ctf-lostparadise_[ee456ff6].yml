@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:52"
+variationOf: "e7c755fa1ef25a356b6e837bddbdadd382a753d5"
+game: "Unreal Tournament"
+name: "CTF-LostParadise"
+author: "Nick_C (www.planetunreal.com/nick)"
+description: "Get Ready!"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-lostparadise_shot_ee456ff6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/e/e/456ff6/ctf-lostparadise_shot_ee456ff6_1.png"
+originalFilename: "ctf-lostparadise.zip"
+hash: "ee456ff63ccb7e864594b6aa4599c6b98e734d0d"
+fileSize: 3545399
+files:
+- name: "CTF-LostParadise.unr"
+  fileSize: 6889620
+  hash: "a70c77cd30d1cf900291bc9a0ccdcb1cd122faac"
+- name: "Quake3a.utx"
+  fileSize: 1606953
+  hash: "63fcf57852ddeb520cffdc704fef9c11f6ed3781"
+otherFiles: 1
+dependencies:
+  CTF-LostParadise.unr:
+  - status: "OK"
+    name: "Quake3a"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-lostparadise.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/e/e/456ff6/ctf-lostparadise.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/e/e/456ff6/ctf-lostparadise.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/e/e/456ff6/ctf-lostparadise.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Lost Paradise"
+playerCount: "8-12"
+themes:
+  Industrial: 0.8
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true

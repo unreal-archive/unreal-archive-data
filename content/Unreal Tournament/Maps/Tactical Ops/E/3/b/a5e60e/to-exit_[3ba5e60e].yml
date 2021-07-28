@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:49"
+game: "Unreal Tournament"
+name: "TO-Exit"
+author: "Dylan Wreggelsworth"
+description: "Now entering Exit"
+releaseDate: "2001-09"
+attachments: []
+originalFilename: "TO-Exit.zip"
+hash: "3ba5e60ef99e04c407941b3c2d053efe3d3131f8"
+fileSize: 801659
+files:
+- name: "TO-Exit.unr"
+  fileSize: 2238511
+  hash: "5bcd0f8ff9703ac0d32e279179ef242c1a44fa61"
+- name: "screeny.utx"
+  fileSize: 3110
+  hash: "a7bad61f106ede290a71d97fd9917b3d7e5f31b4"
+otherFiles: 1
+dependencies:
+  TO-Exit.unr:
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "TODecos"
+  - status: "MISSING"
+    name: "s_SWAT"
+  - status: "OK"
+    name: "screeny"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-Exit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/E/TO-Exit.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-Exit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/E/3/b/a5e60e/TO-Exit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/E/3/b/a5e60e/TO-Exit.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Exit"
+playerCount: "6-32"
+themes:
+  Industrial: 0.8
+  City: 0.2
+bots: true

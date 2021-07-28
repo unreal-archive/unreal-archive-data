@@ -1,0 +1,62 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 08:45"
+variationOf: "3ce63a10115b12681db98be054342bbfb1b7c8e7"
+game: "Unreal Tournament"
+name: "Ctf Norad"
+author: "Vasileios Papadimitriou aka Cdr A.Killer"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "Ctf_Norad_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/Ctf_Norad_shot_1.png"
+originalFilename: "ctf-norad.zip"
+hash: "e500ff570127b12d95f213488ec1b87270fb206a"
+fileSize: 1216631
+files:
+- name: "Norad.utx"
+  fileSize: 46592
+  hash: "a045137b8a2fe1162e18b6632dc25392cb90bf5b"
+- name: "Brush_Norad.unr"
+  fileSize: 1370831
+  hash: "3ac4773af6b050d2a2d04c9e5666e669f8850486"
+- name: "CTF-Norad.unr"
+  fileSize: 3349091
+  hash: "09905636b1907810ea0ecd78a19e758626e6a2e4"
+otherFiles: 4
+dependencies:
+  CTF-Norad.unr:
+  - status: "OK"
+    name: "Norad"
+  Brush_Norad.unr:
+  - status: "OK"
+    name: "Norad"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-norad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/e/5/00ff57/ctf-norad.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/e/5/00ff57/ctf-norad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/C/e/5/00ff57/ctf-norad.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-Norad"
+  title: "CTFing on Norad Battlecruiser"
+  author: "Vasileios Papadimitriou aka Cdr A.Killer"
+- name: "Brush_Norad"
+  title: "Brush_Norad"
+  author: "Unknown"
+gametype: "Mixed"
+themes:
+  Industrial: 1.0

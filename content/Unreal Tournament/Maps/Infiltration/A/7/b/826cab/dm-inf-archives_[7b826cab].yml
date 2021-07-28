@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:41"
+game: "Unreal Tournament"
+name: "DM-INF-Archives"
+author: "Joseph \"Evil Joe\" Stoffa"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Archives_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Archives_shot_1.png"
+originalFilename: "dm-inf-archives.zip"
+hash: "7b826cabbc3fcdb5d41c7a4588f0b162b9279ca5"
+fileSize: 7691369
+files:
+- name: "DM-INF-Archives.unr"
+  fileSize: 3479579
+  hash: "a05109011c27713b4808d38b298979b92556035a"
+- name: "DP_Pack-1.utx"
+  fileSize: 7731569
+  hash: "aaf64d881e5fa36ee0fb963d24d93629da666f08"
+- name: "DP_Pack2.utx"
+  fileSize: 5613003
+  hash: "14e74d7bf5f2e5ee3f6f5ce94d4c7a3774c75602"
+- name: "MyLevel.utx"
+  fileSize: 318249
+  hash: "20fc12f2550379e35749eeb4075c8cb8a99b8866"
+otherFiles: 0
+dependencies:
+  DM-INF-Archives.unr:
+  - status: "OK"
+    name: "DP_Pack-1"
+  - status: "OK"
+    name: "DP_Pack2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-archives.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/A/7/b/826cab/dm-inf-archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/A/7/b/826cab/dm-inf-archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Archives"
+playerCount: "4-8 Players"
+themes:
+  Nali Castle: 1.0
+bots: true

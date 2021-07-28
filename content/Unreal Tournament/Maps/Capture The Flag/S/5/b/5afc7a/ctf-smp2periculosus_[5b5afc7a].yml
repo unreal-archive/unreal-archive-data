@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:57"
+game: "Unreal Tournament"
+name: "CTF-((SMP2))Periculosus"
+author: "Madis Kybarsepp"
+description: "None"
+releaseDate: "2011-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-((SMP2))Periculosus_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-((SMP2))Periculosus_shot_1.png"
+originalFilename: "CTF-((SMP2))Periculosus.zip"
+hash: "5b5afc7a6c1e3b08e10c961ac58a865c568b4196"
+fileSize: 5728799
+files:
+- name: "Periculosus_Crate01.u"
+  fileSize: 10076
+  hash: "19709eabce84a66f0e1337b192553f05002c3116"
+- name: "HourKradenLores.utx"
+  fileSize: 1659527
+  hash: "16f637a4b1953f636acfe3f53722eb6ceb993f39"
+- name: "SMP2Tex.utx"
+  fileSize: 356330
+  hash: "1283809282da6b15e83595c885a002a1b3b91ab3"
+- name: "Mech8_Mix.umx"
+  fileSize: 4693657
+  hash: "6284ce38f4773ca2fa5890ba760e2a025465286f"
+- name: "CTF-((SMP2))Periculosus.unr"
+  fileSize: 2321777
+  hash: "3dcfbf4f8d5a42dcef1fac8ffed25c93c7873a06"
+otherFiles: 1
+dependencies:
+  Periculosus_Crate01.u:
+  - status: "OK"
+    name: "HourKradenLores"
+  CTF-((SMP2))Periculosus.unr:
+  - status: "OK"
+    name: "SMP2Tex"
+  - status: "OK"
+    name: "HourKradenLores"
+  - status: "OK"
+    name: "Mech8_Mix"
+  - status: "OK"
+    name: "Periculosus_Crate01"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-%28%28SMP2%29%29Periculosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-((SMP2))Periculosus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-%28%28SMP2%29%29Periculosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/5/b/5afc7a/CTF-((SMP2))Periculosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/5/b/5afc7a/CTF-((SMP2))Periculosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Periculosus by [OsL]Madis"
+playerCount: "8-10"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.9
+bots: false

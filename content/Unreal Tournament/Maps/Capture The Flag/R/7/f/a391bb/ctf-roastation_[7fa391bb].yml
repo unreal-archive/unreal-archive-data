@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:23"
+game: "Unreal Tournament"
+name: "CTF-RoAstation]"
+author: "Nuker{RoA}"
+description: "RoA Rockx"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-roastation_shot_7fa391bb_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/7/f/a391bb/ctf-roastation_shot_7fa391bb_1.png"
+originalFilename: "CTF-RoAstation].zip"
+hash: "7fa391bb9c69001ac225024a556a87d2846c84fc"
+fileSize: 1616442
+files:
+- name: "Xtortion.utx"
+  fileSize: 1271752
+  hash: "9049ae155f596be5e4a24c6cc439575db0c93163"
+- name: "CTF-RoAstation].unr"
+  fileSize: 2729872
+  hash: "7d007c352b5f91f9547fc077372dbe7e615aef9f"
+- name: "RoAStationCE.utx"
+  fileSize: 222188
+  hash: "3086fd300a077b17b6ce91c564617a210122196d"
+otherFiles: 0
+dependencies:
+  CTF-RoAstation].unr:
+  - status: "OK"
+    name: "RoAStationCE"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-RoAstation%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-RoAstation%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-RoAstation%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/7/f/a391bb/CTF-RoAstation%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/7/f/a391bb/CTF-RoAstation%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Caved Space Station"
+playerCount: "7-14"
+themes:
+  Tech: 0.2
+  Industrial: 0.4
+  Skaarj Tech: 0.3
+bots: true

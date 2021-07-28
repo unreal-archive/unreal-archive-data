@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 10:06"
+game: "Unreal Tournament 2004"
+name: "DM-Drunkmatch"
+author: "drunk|tbuk"
+description: "Drunk's Deathmatch (Alpha version)"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "dm-drunkmatch.zip"
+hash: "8a2e2ffc4f635730130ea90880f30c51a05baa87"
+fileSize: 914110
+files:
+- name: "DM-Drunkmatch.ut2"
+  fileSize: 1117819
+  hash: "e73a61805920d92d74a8e4ae7a8cc1950659f1b2"
+- name: "tbukmeshes.usx"
+  fileSize: 1846223
+  hash: "0d126059eb4b4acbc62d27f7d68a5d6129fdaafd"
+otherFiles: 1
+dependencies:
+  DM-Drunkmatch.ut2:
+  - status: "OK"
+    name: "tbukmeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/D/dm-drunkmatch.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/D/8/a/2e2ffc/dm-drunkmatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/D/8/a/2e2ffc/dm-drunkmatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DrunkMatch"
+playerCount: "Unknown"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true

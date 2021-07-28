@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:03"
+game: "Unreal Tournament"
+name: "DM-CTC-Swoon"
+author: "L.J.Paranoid"
+description: "None"
+releaseDate: "1984-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-CTC-Swoon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CTC-Swoon_shot_1.png"
+originalFilename: "dm-ctc-swoon.zip"
+hash: "fef43646b8d0c092139c8609518f57369ea22751"
+fileSize: 8303555
+files:
+- name: "ParticleSystem_43.u"
+  fileSize: 11942
+  hash: "8693dc549dc0d0a0a00ac5ab9bdd845fff896392"
+- name: "Seti.umx"
+  fileSize: 682733
+  hash: "d03ccd366d8d31423aaa1055ddb4ddc6e9c5b455"
+- name: "DM-CTC-Swoon.unr"
+  fileSize: 8666029
+  hash: "b4af0d60f10720afc28691ed05964360e0815553"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "smallwroughtiron.u"
+  fileSize: 7780
+  hash: "49002769321ef4180d3291dd02096fe4550dc969"
+- name: "DespSnowC.utx"
+  fileSize: 6238968
+  hash: "1ef1f39f70f925a0016ce9b12eb0ae00228ed76d"
+otherFiles: 0
+dependencies:
+  DM-CTC-Swoon.unr:
+  - status: "OK"
+    name: "Seti"
+  - status: "OK"
+    name: "smallwroughtiron"
+  - status: "OK"
+    name: "DespSnowC"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "ParticleSystem_43"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-ctc-swoon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-ctc-swoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ctc-swoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-ctc-swoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/f/e/f43646/dm-ctc-swoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/f/e/f43646/dm-ctc-swoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-CTC-Swoon"
+playerCount: "4-6"
+themes:
+  Skaarj Crypt: 0.6
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.2
+bots: true

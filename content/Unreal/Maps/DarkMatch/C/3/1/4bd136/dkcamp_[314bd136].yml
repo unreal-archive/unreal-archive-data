@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-12 18:20"
-variationOf: null
 game: "Unreal"
 name: "DKcamp"
 author: "Unknown"
@@ -23,13 +22,16 @@ dependencies:
   DKcamp.unr:
   - status: "OK"
     name: "Camp"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/D/3/1/4bd136/dkcamp.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/D/3/1/4bd136/dkcamp.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DarkMatch/C/3/1/4bd136/dkcamp.zip"
   main: false
   repack: false
   state: "OK"

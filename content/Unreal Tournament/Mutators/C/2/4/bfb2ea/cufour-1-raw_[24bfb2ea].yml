@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-10-12 18:17"
-variationOf: null
 game: "Unreal Tournament"
 name: "CUFour 1 RAW"
 author: "Unknown"
@@ -20,7 +19,6 @@ dependencies:
   CUFour.u:
   - status: "MISSING"
     name: "Cosmic"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/2/4/bfb2ea/CUFour_1_RAW.zip"
   main: true
@@ -31,6 +29,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=GameTypes/Cosmic/&file=CUFour_1_RAW.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/C/2/4/bfb2ea/CUFour_1_RAW.zip"
   main: false
   repack: false
   state: "OK"

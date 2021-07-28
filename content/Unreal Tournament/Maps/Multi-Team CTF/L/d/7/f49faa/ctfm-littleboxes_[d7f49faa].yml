@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:03"
+game: "Unreal Tournament"
+name: "CTFM-LittleBoxes"
+author: "Michael 'The Shadow' Saager"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-LittleBoxes_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/L/CTFM-LittleBoxes_shot_1.png"
+originalFilename: "ctfm-littleboxes.zip"
+hash: "d7f49faa8002d5879e51b8f6a5379be8d64e7030"
+fileSize: 3639954
+files:
+- name: "CTFM-LittleBoxes.unr"
+  fileSize: 6058003
+  hash: "3b37c6e356820c9202ee6e9a41379db37c9c31d2"
+- name: "downhome.utx"
+  fileSize: 2191983
+  hash: "8f66fe9cd9213cda1cf2250e26e0b2222899fde7"
+- name: "U4IA.umx"
+  fileSize: 282443
+  hash: "45e495b2ec23b9c196b635d509eb630ddd7d5ddd"
+otherFiles: 1
+dependencies:
+  CTFM-LittleBoxes.unr:
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "OK"
+    name: "U4IA"
+  - status: "OK"
+    name: "downhome"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/L/ctfm-littleboxes.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-littleboxes.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-littleboxes.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-littleboxes.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-littleboxes.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/L/d/7/f49faa/ctfm-littleboxes.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/L/d/7/f49faa/ctfm-littleboxes.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "CTFM-LittleBoxes"
+playerCount: "16"
+themes:
+  Tech: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.4
+  Nali Castle: 0.2
+bots: true

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-05-10 21:10"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-Titania"
 author: "Squacky <squacky@ufl.edu>"
@@ -35,10 +34,8 @@ dependencies:
   CTF-Titania.unr:
   - status: "OK"
     name: "UTDMT"
-    providedBy: null
   - status: "OK"
     name: "QUAKE3c"
-    providedBy: null
 downloads:
 - url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=426"
   main: false
@@ -57,6 +54,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://ut-files.com/index.php?dir=Maps/CTF/MapsT/&file=ctf-titania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/b/5/2e836a/ctf-titania.zip"
   main: false
   repack: false
   state: "OK"

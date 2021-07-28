@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:01"
+game: "Unreal"
+name: "MH-[SP]Sector9"
+author: "Jimbo"
+description: "None"
+releaseDate: "2011-03"
+attachments: []
+originalFilename: "MH-[SP]Sector9.zip"
+hash: "69dff0c04045cbcb299c88d457b1163a9a519c40"
+fileSize: 14098643
+files:
+- name: "MH-[SP]Sector9.unr"
+  fileSize: 4753181
+  hash: "c3d325b57c4780dfcd80a3e4df46377a7335a17c"
+- name: "Zan_oc.umx"
+  fileSize: 1196663
+  hash: "83d445054a8a4b04790e2799f9eb809f51507b5f"
+- name: "Pinball.umx"
+  fileSize: 158188
+  hash: "e55a75e5b1adc4f94e7a317d03970705494c7b26"
+- name: "collabor.umx"
+  fileSize: 1639501
+  hash: "eba69b7bf9d6a439b55fd35ef7c51fe59ff2f2c9"
+- name: "WishIHadAnAngel.umx"
+  fileSize: 10851679
+  hash: "7a36609c6d9dd834e4203e70c52bee19c5ba96dc"
+- name: "av_ktb.umx"
+  fileSize: 2354959
+  hash: "3f697193ffe80d5245f9c62073793ddde598db8e"
+otherFiles: 0
+dependencies:
+  MH-[SP]Sector9.unr:
+  - status: "OK"
+    name: "collabor"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "WishIHadAnAngel"
+  - status: "MISSING"
+    name: "SP_Sin22ut"
+  - status: "OK"
+    name: "Pinball"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "Zan_oc"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "av_ktb"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DSector9.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]Sector9.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/6/9/dff0c0/MH-%255BSP%255DSector9.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/6/9/dff0c0/MH-%255BSP%255DSector9.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Sector-9"
+playerCount: "2-4"
+themes:
+  Tech: 0.1
+  Ancient: 0.4
+  Natural: 0.5
+bots: true

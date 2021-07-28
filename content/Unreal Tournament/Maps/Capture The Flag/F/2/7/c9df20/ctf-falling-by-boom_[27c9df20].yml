@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:08"
+game: "Unreal Tournament"
+name: "CTF-Falling-by-Boom"
+author: "Boom Cow"
+description: "So confusing"
+releaseDate: "2003-06"
+attachments: []
+originalFilename: "ctf-falling-by-boom.zip"
+hash: "27c9df208d814f553098581bdc48eecd43c06f8e"
+fileSize: 352108
+files:
+- name: "CTF-Falling-by-Boom.unr"
+  fileSize: 1328948
+  hash: "9569364621cd3ba23eb50bfcaf8bd6b56f14c96b"
+otherFiles: 1
+dependencies:
+  CTF-Falling-by-Boom.unr:
+  - status: "MISSING"
+    name: "TC3"
+  - status: "MISSING"
+    name: "RocketsUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-falling-by-boom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-falling-by-boom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/2/7/c9df20/ctf-falling-by-boom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/2/7/c9df20/ctf-falling-by-boom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Falling-by-Boom"
+playerCount: "6-14"
+themes:
+  Nali Temple: 0.6
+  Industrial: 0.4
+bots: true

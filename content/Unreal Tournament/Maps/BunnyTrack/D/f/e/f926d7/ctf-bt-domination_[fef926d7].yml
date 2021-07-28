@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:14"
+game: "Unreal Tournament"
+name: "CTF-BT-Domination"
+author: "Josh"
+description: "None"
+releaseDate: "2000-10"
+attachments: []
+originalFilename: "ctf-bt-domination.zip"
+hash: "fef926d7815053ffb0105b3a9bce8762b1aebaa2"
+fileSize: 3888014
+files:
+- name: "St3nge.umx"
+  fileSize: 1073384
+  hash: "3cc369938db7cecd39e5909f2171298ba07d2b0c"
+- name: "SSColdSteel.utx"
+  fileSize: 3315728
+  hash: "4930587c29b952d568b6d7eff1dfb5102fe14d53"
+- name: "CTF-BT-Domination.unr"
+  fileSize: 7350359
+  hash: "cea4838e6506e93e91fab7065fc0e74ffce5118d"
+otherFiles: 0
+dependencies:
+  CTF-BT-Domination.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "SSColdSteel"
+  - status: "OK"
+    name: "St3nge"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt-domination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/D/ctf-bt-domination.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt-domination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/D/f/e/f926d7/ctf-bt-domination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/D/f/e/f926d7/ctf-bt-domination.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Domination"
+playerCount: "10-12"
+themes:
+  Skaarj Crypt: 0.1
+  Industrial: 0.1
+  City: 0.2
+  Natural: 0.4
+bots: false

@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:10"
+variationOf: "2cc65e50ac9f573c43174a529e827f3a30d90ce3"
+game: "Unreal Tournament"
+name: "CTF-(SA)UpROAR"
+author: "Maxx / Supercow"
+description: "Coca-Cola Rules"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "ctf-sauproar_shot_bbf4decf_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/b/f4decf/ctf-sauproar_shot_bbf4decf_1.png"
+originalFilename: "ctf-(sa)uproar.zip"
+hash: "bbf4decfb3bdbdd550da7e576d68b82abc45e081"
+fileSize: 1293610
+files:
+- name: "CTF-(SA)UpROAR.unr"
+  fileSize: 1075647
+  hash: "6bd29fea58552505a3eaf28f8225090dccd8e55a"
+- name: "Dungeon.umx"
+  fileSize: 1131113
+  hash: "b4d44516a2753dad69dd56bcbfdebca861c4e138"
+otherFiles: 0
+dependencies:
+  CTF-(SA)UpROAR.unr:
+  - status: "OK"
+    name: "Dungeon"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%28sa%29uproar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-(sa)uproar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/b/f4decf/ctf-(sa)uproar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/b/f4decf/ctf-(sa)uproar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "(SA) -- Uproar -"
+playerCount: "4-10"
+themes:
+  Nali Temple: 0.3
+  Tech: 0.1
+  Ancient: 0.6
+bots: true

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-12 18:17"
-variationOf: null
 game: "Unreal"
 name: "test2"
 author: "Unknown"
@@ -26,13 +25,16 @@ dependencies:
   test2.unr:
   - status: "OK"
     name: "taco-dp2k"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/T/9/c/271391/tut1.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/T/9/c/271391/tut1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/T/9/c/271391/tut1.zip"
   main: false
   repack: false
   state: "OK"

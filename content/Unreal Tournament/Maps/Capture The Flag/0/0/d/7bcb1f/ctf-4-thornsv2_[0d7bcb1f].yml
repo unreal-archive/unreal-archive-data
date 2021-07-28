@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:18"
+game: "Unreal Tournament"
+name: "CTF-[4]-ThornsV2"
+author: "[XA]Psycho & Defiance (convert by {QC1}SamAel)"
+description: "Ready 4 action ?"
+releaseDate: "2012-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-[4]-ThornsV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-%5B4%5D-ThornsV2_shot_1.png"
+originalFilename: "CTF-[4]-ThornsV2.zip"
+hash: "0d7bcb1fdc5c1663d1000e81cd2f9e5c43ad029a"
+fileSize: 755785
+files:
+- name: "4thorn.utx"
+  fileSize: 212768
+  hash: "adb470d132017eafe5de266a471031e1f49de010"
+- name: "CTF4.u"
+  fileSize: 929167
+  hash: "9ee0f8dbcf1a40e0ec41147e4b57ccb2787dec3c"
+- name: "CTF-[4]-ThornsV2.unr"
+  fileSize: 1011436
+  hash: "9f7ab1c53743997e78095bd550b92f81e2243878"
+- name: "GreatFireFaceGreen.utx"
+  fileSize: 1853
+  hash: "d4573096c0d1ada92f5642e66dcb93f318d7fc10"
+- name: "Carpet.utx"
+  fileSize: 23419
+  hash: "c1206a057dbcd6bd3d529ef3b93af9518a02a08b"
+otherFiles: 0
+dependencies:
+  CTF4.u:
+  - status: "MISSING"
+    name: "FlagMutator"
+  CTF-[4]-ThornsV2.unr:
+  - status: "OK"
+    name: "CTF4"
+  - status: "OK"
+    name: "Carpet"
+  - status: "OK"
+    name: "4thorn"
+  - status: "OK"
+    name: "GreatFireFaceGreen"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF4/&file=CTF-%5B4%5D-ThornsV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-%5B4%5D-ThornsV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF4&file=CTF-%5B4%5D-ThornsV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/0/d/7bcb1f/CTF-%255B4%255D-ThornsV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/0/d/7bcb1f/CTF-%255B4%255D-ThornsV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF4 Thorns V2"
+playerCount: "8 - 20"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.9
+bots: false

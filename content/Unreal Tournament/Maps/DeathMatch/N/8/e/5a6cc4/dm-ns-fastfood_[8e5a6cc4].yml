@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:28"
+game: "Unreal Tournament"
+name: "DM-NS-Fastfood"
+author: "Brian \"Notintheface!\" Kim"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-NS-Fastfood_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NS-Fastfood_shot_1.png"
+originalFilename: "DM-NS-Fastfood.zip"
+hash: "8e5a6cc4df967f48be642f8819d1235deaa46773"
+fileSize: 1659536
+files:
+- name: "Fastfood.utx"
+  fileSize: 1128416
+  hash: "fe63a940e08674532a28a1a76955db6f7cfea985"
+- name: "DM-NS-Fastfood.unr"
+  fileSize: 1533275
+  hash: "5b7526c16ae73a95487c99f05905a99d5d0e4a97"
+- name: "Trn-2ytd.umx"
+  fileSize: 821441
+  hash: "9d782d79b94edd1e814383bf9d02cd0b9293577d"
+otherFiles: 0
+dependencies:
+  DM-NS-Fastfood.unr:
+  - status: "OK"
+    name: "Fastfood"
+  - status: "OK"
+    name: "Trn-2ytd"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NS-Fastfood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NS-Fastfood.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/8/e/5a6cc4/DM-NS-Fastfood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/8/e/5a6cc4/DM-NS-Fastfood.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Fastfood"
+playerCount: "8"
+themes:
+  City: 0.9
+  Natural: 0.1
+bots: true

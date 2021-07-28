@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:52"
+game: "Unreal Tournament"
+name: "DM-UK-Hitmans-pad-DMF"
+author: "DMF-vs-{UK}FreeRunners"
+description: "None"
+releaseDate: "2009-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-UK-Hitmans-pad-DMF_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Hitmans-pad-DMF_shot_1.png"
+originalFilename: "DM-UK-Hitmans-pad-DMF.zip"
+hash: "a1a8e8eee57707cde18459cac9f76beddd620fca"
+fileSize: 17429728
+files:
+- name: "UK-Hitmans-pad.utx"
+  fileSize: 15400740
+  hash: "5e27d32aa0ff487a13110b69b19fce3037151dbb"
+- name: "Amigos.umx"
+  fileSize: 7723078
+  hash: "64bf8a9d6f7feb8efb8c0d2806f77a25401db81c"
+- name: "UKSniperRifle2.u"
+  fileSize: 985408
+  hash: "c09c2df32a088d4a12e929740187316394f0736f"
+- name: "DM-UK-Hitmans-pad-DMF.unr"
+  fileSize: 9386889
+  hash: "f56e00c2f9584c11e79d9fd5b7ff46ba185f3e43"
+otherFiles: 0
+dependencies:
+  DM-UK-Hitmans-pad-DMF.unr:
+  - status: "OK"
+    name: "Amigos"
+  - status: "OK"
+    name: "UKSniperRifle2"
+  - status: "OK"
+    name: "UK-Hitmans-pad"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-UK-Hitmans-pad-DMF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Hitmans-pad-DMF.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/a/1/a8e8ee/DM-UK-Hitmans-pad-DMF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/a/1/a8e8ee/DM-UK-Hitmans-pad-DMF.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Hitman'sPad"
+playerCount: "8-16"
+themes:
+  Ancient: 1.0
+bots: true

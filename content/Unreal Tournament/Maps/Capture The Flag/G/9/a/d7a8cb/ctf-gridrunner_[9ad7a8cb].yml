@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:24"
+game: "Unreal Tournament"
+name: "CTF-Gridrunner"
+author: "Tom \"Repoman\" Stone"
+description: "None"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Gridrunner_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-Gridrunner_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Gridrunner_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-Gridrunner_shot_1.png"
+originalFilename: "ctf-gridrunner.zip"
+hash: "9ad7a8cb787cbb52e5b047066170a9a70d87bcfa"
+fileSize: 792692
+files:
+- name: "Tron.utx"
+  fileSize: 4519137
+  hash: "ba157a8f085f5bba512128992e26188b01b206e6"
+- name: "CTF-Gridrunner.unr"
+  fileSize: 1153498
+  hash: "983adc869e750ebe827b6b75c69cf827bd1a0350"
+otherFiles: 2
+dependencies:
+  CTF-Gridrunner.unr:
+  - status: "MISSING"
+    name: "Bedroom"
+  - status: "OK"
+    name: "Tron"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-gridrunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/ctf-gridrunner.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=533"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/9/a/d7a8cb/ctf-gridrunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/9/a/d7a8cb/ctf-gridrunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Gridrunner"
+playerCount: "12-16"
+themes: {}
+bots: true

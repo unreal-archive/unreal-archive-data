@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:21"
+game: "Unreal"
+name: "LockUp"
+author: "Sean \"Neurorelay\" Evans"
+description: "\"Death is only an illusion\""
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "INF_LockUp.ZIP"
+hash: "3521cd4ae1b47d972d3d1bffb6b752f1d45a6880"
+fileSize: 2202142
+files:
+- name: "LockUp.unr"
+  fileSize: 1072029
+  hash: "3dfdd742f08aef8743b3158c756271a21ca180a5"
+- name: "Blade.utx"
+  fileSize: 2327164
+  hash: "8c2667ad67176f0135e322dd7d6ecbeae9442f13"
+- name: "Urban.utx"
+  fileSize: 679765
+  hash: "b2f3f7ddc4f12b20b0c06041404aff71dafdfbcf"
+otherFiles: 2
+dependencies:
+  LockUp.unr:
+  - status: "OK"
+    name: "Urban"
+  - status: "MISSING"
+    name: "Infiltration"
+  - status: "OK"
+    name: "Blade"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/L/3/5/21cd4a/INF_LockUp.ZIP"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/L/3/5/21cd4a/INF_LockUp.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/L/3/5/21cd4a/INF_LockUp.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "LockUp"
+playerCount: "6-12 players"
+themes:
+  Tech: 0.6
+  City: 0.4
+bots: true

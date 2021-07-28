@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:39"
+game: "Unreal Tournament"
+name: "DM-SpaceNightmare"
+author: "John Garber"
+description: "None"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "dm-spacenightmare.zip"
+hash: "a1b8f24b0846ffafe3f7c3dbf1238d37534d7d39"
+fileSize: 2267683
+files:
+- name: "Peligro-Tex.utx"
+  fileSize: 1570331
+  hash: "30a3966831f0170c256d80fc81e670d8f91212cf"
+- name: "DM-SpaceNightmare.unr"
+  fileSize: 2363436
+  hash: "0865edfa25ec0b036024b52ed2443b6e07fe9371"
+- name: "Mypack.utx"
+  fileSize: 824048
+  hash: "a61358a81e4cccb5a560ceaecaf6fc15806a4c3a"
+otherFiles: 1
+dependencies:
+  DM-SpaceNightmare.unr:
+  - status: "OK"
+    name: "Peligro-Tex"
+  - status: "OK"
+    name: "Mypack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-spacenightmare.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-spacenightmare.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-spacenightmare.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-spacenightmare.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/a/1/b8f24b/dm-spacenightmare.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/a/1/b8f24b/dm-spacenightmare.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Spacenightmare"
+playerCount: "4-16"
+themes:
+  Nali Temple: 0.5
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+  Ancient: 0.3
+bots: false

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-UrbanAssault"
+author: "T. Ahlen"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "AS-UrbanAssault_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/AS-UrbanAssault_shot_1.png"
+originalFilename: "as-urbanassault.zip"
+hash: "b12b697d4fac2782e3256849a8ca8454ad0d91a2"
+fileSize: 2482066
+files:
+- name: "Tfence.utx"
+  fileSize: 320575
+  hash: "13c308bbe97e59b393cb5653ca0ac45b030c6389"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "HmmwvPrefab.utx"
+  fileSize: 611210
+  hash: "e3696f53e1515031e0021bc4cae82421e85d81ee"
+- name: "AS-UrbanAssault.unr"
+  fileSize: 3115156
+  hash: "1759b3af5766c540bb45f4596742861072b04d85"
+otherFiles: 0
+dependencies:
+  AS-UrbanAssault.unr:
+  - status: "OK"
+    name: "HmmwvPrefab"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "Tfence"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/as-urbanassault.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403161"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-urbanassault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-urbanassault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-urbanassault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/U/b/1/2b697d/as-urbanassault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/U/b/1/2b697d/as-urbanassault.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Urban Assault"
+playerCount: "2-10"
+themes:
+  Industrial: 0.1
+  City: 0.6
+  Skaarj Tech: 0.3
+bots: true

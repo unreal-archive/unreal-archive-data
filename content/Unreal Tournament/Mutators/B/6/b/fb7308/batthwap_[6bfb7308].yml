@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-10-12 18:19"
+variationOf: "c17c22ab0e86fa664bcff73f382ddda50f5d03cc"
+game: "Unreal Tournament"
+name: "BatThwap"
+author: "Unknown"
+description: "Attack your foes in classic campy Batman style."
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "BatThwapManualInstall.zip"
+hash: "6bfb73081571b33890b0727b0ffd565423f20f3b"
+fileSize: 28821
+files:
+- name: "BatThwap.u"
+  fileSize: 77480
+  hash: "7628ee36a2ec94881e7d9f92fd6301c705947a0e"
+otherFiles: 2
+dependencies:
+  BatThwap.u:
+  - status: "MISSING"
+    name: "BiffSocko"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/B/6/b/fb7308/BatThwapManualInstall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/B/6/b/fb7308/BatThwapManualInstall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/B/6/b/fb7308/BatThwapManualInstall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "BatThwap"
+  description: "Attack your foes in classic campy Batman style."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

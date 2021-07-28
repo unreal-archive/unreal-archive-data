@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:12"
+game: "Unreal Tournament"
+name: "DM-Scotland"
+author: "DAT"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-scotland_shot_17b7e290_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/1/7/b7e290/dm-scotland_shot_17b7e290_1.png"
+originalFilename: "DM-Scotland.zip"
+hash: "17b7e2908ec35f2f7a3077f0b0ffbcede3a97c66"
+fileSize: 2756013
+files:
+- name: "Crowskins.utx"
+  fileSize: 51897
+  hash: "384bbe1759dd90b9622f102820f4fe2cfb6e6338"
+- name: "DM-Scotland.unr"
+  fileSize: 4678357
+  hash: "029021fbaaf64f12c045f73e9dc8274d5c7ec9d5"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "Posters.utx"
+  fileSize: 299081
+  hash: "9aa9497ad571bae8de5d94b071a68650e35aae9a"
+otherFiles: 0
+dependencies:
+  DM-Scotland.unr:
+  - status: "OK"
+    name: "Posters"
+  - status: "OK"
+    name: "Fifth"
+  - status: "OK"
+    name: "Crowskins"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Scotland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-Scotland.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/1/7/b7e290/DM-Scotland.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/1/7/b7e290/DM-Scotland.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Abandoned holiday resort"
+playerCount: "0-8"
+themes:
+  Ancient: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.3
+  Nali Castle: 0.2
+bots: true

@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:21"
+game: "Unreal Tournament"
+name: "DM-DarkStreets"
+author: "Grzegorz Borkowski  BOREK"
+description: "Witam na mojej mapce   :-D"
+releaseDate: "2014-04"
+attachments: []
+originalFilename: "DM-DarkStreets.zip"
+hash: "913265c31ee2e77b410e3e0ee95db14d035b5521"
+fileSize: 3645845
+files:
+- name: "TSigns.utx"
+  fileSize: 182949
+  hash: "620f8cc8657297365b6623ddb6f0e25de6739de5"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+- name: "DM-DarkStreets.unr"
+  fileSize: 1516388
+  hash: "f23155c0f196126c94a1919bdda1e373ecf24010"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+otherFiles: 0
+dependencies:
+  DM-DarkStreets.unr:
+  - status: "OK"
+    name: "zeitkind"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "TSigns"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DarkStreets.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/9/1/3265c3/DM-DarkStreets.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/9/1/3265c3/DM-DarkStreets.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dark-Streets"
+playerCount: "4-16"
+themes:
+  Tech: 0.1
+  City: 0.9
+bots: true

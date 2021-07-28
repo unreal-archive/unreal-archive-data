@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:09"
+game: "Unreal Tournament"
+name: "CTF-SpacePool-NoRX"
+author: "Diego_{HoF}"
+description: "CTF-Space Pool NoRX"
+releaseDate: "2012-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SpacePool-NoRX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SpacePool-NoRX_shot_1.png"
+originalFilename: "CTF-SpacePool-NoRX.rar"
+hash: "0e40b9e712a9f77d6bc353a418b560c19654de49"
+fileSize: 120884
+files:
+- name: "CEBIT.umx"
+  fileSize: 46014
+  hash: "130c1a218645db6a7292ede4a9df7fbf7d38ca17"
+- name: "CTF-SpacePool-NoRX.unr"
+  fileSize: 314635
+  hash: "a968e9f7176b8f06c43ad51385c23705bfcbbcb8"
+otherFiles: 0
+dependencies:
+  CTF-SpacePool-NoRX.unr:
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "CEBIT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-SpacePool-NoRX.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SpacePool-NoRX.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/0/e/40b9e7/CTF-SpacePool-NoRX.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/0/e/40b9e7/CTF-SpacePool-NoRX.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Space Pool"
+playerCount: "2-10"
+themes:
+  Natural: 1.0
+bots: true

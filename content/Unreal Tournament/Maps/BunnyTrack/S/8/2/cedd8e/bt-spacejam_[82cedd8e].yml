@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:55"
+variationOf: "44000f2176fb16072452fd3d08261b0ee260e33b"
+game: "Unreal Tournament"
+name: "BT-SpaceJam"
+author: "-w00tabul0u$-"
+description: "None"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "bt-spacejam_shot_82cedd8e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/bt-spacejam_shot_82cedd8e_1.png"
+originalFilename: "CTF-BT-SpaceJam.zip"
+hash: "82cedd8e16b5da9099f783ee0d7183270ae43ff4"
+fileSize: 10897049
+files:
+- name: "flyingsteps.umx"
+  fileSize: 4381576
+  hash: "a8cff4b4342f99d68d9ff7073710820b0147d593"
+- name: "BT-SpaceJam.unr"
+  fileSize: 1456236
+  hash: "68542810049ce5c2a4b483c2b763b629e0a227e9"
+- name: "egyptian.utx"
+  fileSize: 409600
+  hash: "ba96c51b4bfd29e111c7119bcc2ae2d9d5ff068f"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  BT-SpaceJam.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "egyptian"
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "flyingsteps"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-SpaceJam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SpaceJam.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-SpaceJam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/8/2/cedd8e/CTF-BT-SpaceJam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/8/2/cedd8e/CTF-BT-SpaceJam.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Space Jam"
+playerCount: "As Many As You Want"
+themes:
+  Egyptian: 1.0
+bots: false

@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:31"
+game: "Unreal Tournament"
+name: "DM-PE-Malaria"
+author: "GUN; Modified by Storm[PE]Coldr"
+description: "None"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-PE-Malaria_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PE-Malaria_shot_1.png"
+originalFilename: "dm_pe_malaria.zip"
+hash: "3600029b056a86e2de97d74a5845c245c897186b"
+fileSize: 800513
+files:
+- name: "GoblinForest.umx"
+  fileSize: 625053
+  hash: "3d0ab7fc6cb044eb9cca47795e51ff26ab7ae0f7"
+- name: "DM-PE-Malaria.unr"
+  fileSize: 1471496
+  hash: "2452c43973ba28e9faf3ac178322ddec4e1b87de"
+otherFiles: 1
+dependencies:
+  DM-PE-Malaria.unr:
+  - status: "OK"
+    name: "GoblinForest"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm_pe_malaria.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm_pe_malaria.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/3/6/00029b/dm_pe_malaria.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/3/6/00029b/dm_pe_malaria.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "PE Malaria(Night)"
+playerCount: "16-32"
+themes:
+  Natural: 0.4
+  Nali Castle: 0.5
+bots: true

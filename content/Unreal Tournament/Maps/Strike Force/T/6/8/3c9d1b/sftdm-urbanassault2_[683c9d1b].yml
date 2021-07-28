@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:10"
+game: "Unreal Tournament"
+name: "SFTDM-UrbanAssault2"
+author: "T. LeTigre Ahlen (converted by Lionel_A)"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "SFTDM-UrbanAssault2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/S/SFTDM-UrbanAssault2_shot_1.png"
+originalFilename: "sftdm-urbanassault2.zip"
+hash: "683c9d1b67a4995d82f614b41cfd2d8e63845676"
+fileSize: 4251728
+files:
+- name: "TAcars.utx"
+  fileSize: 342431
+  hash: "3bdec3ff89138c65dac45ec38f4b74f78d43dca9"
+- name: "TAsky.utx"
+  fileSize: 177649
+  hash: "c9e33ea78e5993e3f9f79b38675706bb04590a08"
+- name: "TAconeysigns.utx"
+  fileSize: 451072
+  hash: "6532169fd42c621a1f0708a583361d7cbe691c1c"
+- name: "SFTDM-UrbanAssault2.unr"
+  fileSize: 5627080
+  hash: "cd194b89c83fb59a81dd482abcfe2700e9e0bda0"
+- name: "TAconeytex.utx"
+  fileSize: 2762604
+  hash: "1a545c2bd7001e4ebcddff6f488f9298d15e702e"
+otherFiles: 1
+dependencies:
+  SFTDM-UrbanAssault2.unr:
+  - status: "OK"
+    name: "TAconeytex"
+  - status: "OK"
+    name: "TAconeysigns"
+  - status: "MISSING"
+    name: "SF"
+  - status: "OK"
+    name: "TAcars"
+  - status: "MISSING"
+    name: "bstretzsnds"
+  - status: "OK"
+    name: "TAsky"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/sftdm-urbanassault2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/StrikeForce/&file=sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/StrikeForce&file=sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Misc/sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/StrikeForce/sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Strike%20Force/T/6/8/3c9d1b/sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Strike%20Force/T/6/8/3c9d1b/sftdm-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Strike Force"
+title: "UrbanAssault 2"
+playerCount: "4 vs 4"
+themes:
+  Tech: 0.1
+  Ancient: 0.3
+  City: 0.3
+  Skaarj Tech: 0.4
+bots: true

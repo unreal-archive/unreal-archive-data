@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-17 23:50"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Industrial"
 author: "Mr Spoon"
@@ -23,10 +22,13 @@ dependencies:
   DM-Industrial.unr:
   - status: "OK"
     name: "MTextSetA"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/4/c/388527/DM-Industrial.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/4/c/388527/DM-Industrial.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

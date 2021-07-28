@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:46"
+game: "Unreal Tournament"
+name: "DM-INF-Deck"
+author: "Ripper"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Deck_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Deck_shot_1.png"
+originalFilename: "dm-inf-deck.zip"
+hash: "affd30988c11b2cb520c3d6b52c81bb8ae7201f2"
+fileSize: 1348184
+files:
+- name: "DM-INF-Deck.unr"
+  fileSize: 1429051
+  hash: "7f8c83f998f6fd988defd313c68b388c678b4523"
+- name: "Ripsdeck.utx"
+  fileSize: 2501506
+  hash: "dc15354b64810ceb3ba38c6723b987818b5bccbb"
+otherFiles: 1
+dependencies:
+  DM-INF-Deck.unr:
+  - status: "MISSING"
+    name: "INF_MS[Downtown]_Misc"
+  - status: "MISSING"
+    name: "TheStashINF"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Concrete"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Concrete"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "MISSING"
+    name: "INF_Roads"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "OK"
+    name: "Ripsdeck"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "rw_ctf"
+  - status: "MISSING"
+    name: "surftex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-deck.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-deck.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/D/a/f/fd3098/dm-inf-deck.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/D/a/f/fd3098/dm-inf-deck.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "DM-INF-Deck"
+playerCount: "8-20"
+themes:
+  City: 1.0
+bots: true

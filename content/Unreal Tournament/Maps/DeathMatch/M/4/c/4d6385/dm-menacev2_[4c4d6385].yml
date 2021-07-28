@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:24"
+game: "Unreal Tournament"
+name: "DM-MenaceV2"
+author: "\"KaMi\" Daniel Díaz"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-MenaceV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MenaceV2_shot_1.png"
+originalFilename: "dm-menacev3.zip"
+hash: "4c4d63856c77d37b3e9cc7e9c8a3f70fe2c7b1ef"
+fileSize: 13374940
+files:
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "DM-MenaceV2.unr"
+  fileSize: 4919534
+  hash: "a6a24753fcf22b28e978f0fb9afeeb37c8ca4f66"
+- name: "CONQUPNO.umx"
+  fileSize: 316783
+  hash: "6549117aab76fe1d49c26212676d2bdc64bf217a"
+otherFiles: 1
+dependencies:
+  DM-MenaceV2.unr:
+  - status: "OK"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "CONQUPNO"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-menacev3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-menacev3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-MenaceV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-menacev3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-menacev3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/4/c/4d6385/dm-menacev3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/4/c/4d6385/dm-menacev3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Menace"
+playerCount: "3-5"
+themes:
+  Industrial: 1.0
+bots: true

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-20 00:25"
-variationOf: null
 game: "Unreal"
 name: "TESTPOO"
 author: "Matt"
@@ -26,13 +25,16 @@ dependencies:
   TESTPOO.UNR:
   - status: "OK"
     name: "Matt"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/T/bazooka.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/T/7/a/23209a/bazooka.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/T/7/a/23209a/bazooka.zip"
   main: false
   repack: false
   state: "OK"

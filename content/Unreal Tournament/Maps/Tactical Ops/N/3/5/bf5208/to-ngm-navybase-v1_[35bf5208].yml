@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:59"
+game: "Unreal Tournament"
+name: "TO-NGM-NavyBase-v1"
+author: "Michael Kivinen & TopSecretMPK NGM"
+description: "NGM Navy Base Map 1"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "TO-NGM-NavyBase-v1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/N/TO-NGM-NavyBase-v1_shot_1.png"
+originalFilename: "TO-NGM-NavyBase-v1.zip"
+hash: "35bf5208519333c7ed7a9b3beb8642a43e21503b"
+fileSize: 2528335
+files:
+- name: "EliteT1.utx"
+  fileSize: 1667287
+  hash: "1b92e826ea1b1ab548f70153c2fc7dc662b7b550"
+- name: "EliteM1.umx"
+  fileSize: 999382
+  hash: "04dca7c3ce3aa781a569f7f43f1c5d642110ff40"
+- name: "TO-NGM-NavyBase-v1.unr"
+  fileSize: 4438378
+  hash: "63333a691c2b235343fa12d855676fcba32b60ec"
+otherFiles: 0
+dependencies:
+  TO-NGM-NavyBase-v1.unr:
+  - status: "OK"
+    name: "EliteM1"
+  - status: "OK"
+    name: "EliteT1"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-NGM-NavyBase-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/N/TO-NGM-NavyBase-v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-NGM-NavyBase-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/N/3/5/bf5208/TO-NGM-NavyBase-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/N/3/5/bf5208/TO-NGM-NavyBase-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "SWAT Navy Defence Base"
+playerCount: "16"
+themes:
+  Tech: 0.6
+  Natural: 0.4
+bots: true

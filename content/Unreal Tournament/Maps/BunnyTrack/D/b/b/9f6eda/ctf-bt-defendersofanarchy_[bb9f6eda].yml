@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:12"
+game: "Unreal Tournament"
+name: "CTF-BT-DefendersOfAnarchy"
+author: "Anarchist,Elite,HolyDefender,Arm00geddon"
+description: "None"
+releaseDate: "2004-11"
+attachments: []
+originalFilename: "ctf-bt-defendersofanarchy.zip"
+hash: "bb9f6eda9e96c59e0668b869954fe0831742a175"
+fileSize: 5033305
+files:
+- name: "CTF-BT-DefendersOfAnarchy.unr"
+  fileSize: 9866232
+  hash: "d0d61858a9dd87259165a56149d9178f9e380118"
+- name: "FordText.utx"
+  fileSize: 1777727
+  hash: "109850139ed5f3f0478a3a5efed9c5eaa1531b8a"
+- name: "gothicsounds.uax"
+  fileSize: 669536
+  hash: "c1e1d16243058abc95810da9f79d94395d0416b4"
+- name: "BloodR.utx"
+  fileSize: 466055
+  hash: "ebc08ee8e9c02c114ed50c5fe11aab561fb38455"
+- name: "Seti.umx"
+  fileSize: 682733
+  hash: "d03ccd366d8d31423aaa1055ddb4ddc6e9c5b455"
+otherFiles: 0
+dependencies:
+  CTF-BT-DefendersOfAnarchy.unr:
+  - status: "OK"
+    name: "Seti"
+  - status: "MISSING"
+    name: "BT"
+  - status: "OK"
+    name: "gothicsounds"
+  - status: "OK"
+    name: "BloodR"
+  - status: "OK"
+    name: "FordText"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt-defendersofanarchy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/D/ctf-bt-defendersofanarchy.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt-defendersofanarchy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4609"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/D/b/b/9f6eda/ctf-bt-defendersofanarchy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/D/b/b/9f6eda/ctf-bt-defendersofanarchy.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT: DefendersOfAnarchy"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.2
+  Natural: 0.2
+  Nali Castle: 0.5
+  Skaarj Tech: 0.1
+bots: false

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 19:50"
+game: "Unreal Tournament"
+name: "CTF-MindTehw00t_vF"
+author: "team-wd.d!x"
+description: "None"
+releaseDate: "2010-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-mindtehw00t_vf_shot_1a4532d4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/1/a/4532d4/ctf-mindtehw00t_vf_shot_1a4532d4_1.png"
+originalFilename: "CTF-MindTehw00t_vF.zip"
+hash: "1a4532d4cd70fc0eebf2f9163052f7e6abe19680"
+fileSize: 5511042
+files:
+- name: "HourPitores_UT.utx"
+  fileSize: 6266307
+  hash: "28d8b736181a51e9a8363b0668079dedf52856a7"
+- name: "CTF-MindTehw00t_vF.unr"
+  fileSize: 2701982
+  hash: "158406a0931471c2ab052f39e8e89cfa8b9634c4"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+otherFiles: 1
+dependencies:
+  CTF-MindTehw00t_vF.unr:
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "HourPitores_UT"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-MindTehw00t_vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-MindTehw00t_vF.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/1/a/4532d4/CTF-MindTehw00t_vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/1/a/4532d4/CTF-MindTehw00t_vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-MindTehw00t"
+playerCount: "6-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

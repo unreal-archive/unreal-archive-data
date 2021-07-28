@@ -1,0 +1,82 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-02 10:42"
+game: "Unreal Tournament"
+name: "UnrealDreams"
+author: "TwistedMetal"
+description: "None"
+releaseDate: "2003-02"
+attachments: []
+originalFilename: "UnrealDreams.zip"
+hash: "ea4e9d343731097dced36d560ad7308c4fe53142"
+fileSize: 410542
+files:
+- name: "UnrealDreams.unr"
+  fileSize: 394889
+  hash: "22a08b031cfa0bf269dd4db0d45059e58ce08c15"
+- name: "TheCube.unr"
+  fileSize: 131990
+  hash: "c3c2c0890ddb95e864b45b21d66c621326893464"
+- name: "DeepDownUnder.unr"
+  fileSize: 575144
+  hash: "bb333c6409927767a0878b17248e38525a9bd30d"
+- name: "NewDay.unr"
+  fileSize: 570240
+  hash: "518a38a333e887e8631a106cea458a1062876650"
+otherFiles: 1
+dependencies:
+  UnrealDreams.unr:
+  - status: "MISSING"
+    name: "EverSmoke"
+  DeepDownUnder.unr:
+  - status: "MISSING"
+    name: "Seti"
+  TheCube.unr:
+  - status: "MISSING"
+    name: "Isotoxin"
+  NewDay.unr:
+  - status: "MISSING"
+    name: "WarGate"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/COOP/&file=UnrealDreams.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/U/UnrealDreams.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/COOP/UnrealDreams.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/UnrealDreams.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/U/e/a/4e9d34/UnrealDreams.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/U/e/a/4e9d34/UnrealDreams.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DeepDownUnder"
+  title: "Deep Down Under"
+  author: "TwistedMetal"
+- name: "UnrealDreams"
+  title: "Unreal Dreams"
+  author: "TwistedMetal"
+- name: "TheCube"
+  title: "The Cube"
+  author: "TwistedMetal"
+- name: "NewDay"
+  title: "New Day Is Up Ahead"
+  author: "TwistedMetal"
+gametype: "Single Player"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.4

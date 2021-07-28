@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 04:59"
+game: "Unreal Tournament"
+name: "MH-Reality"
+author: "Cardiologist"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-reality_shot_88bfa849_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/8/bfa849/mh-reality_shot_88bfa849_1.png"
+originalFilename: "MH-Reality.zip"
+hash: "88bfa8491731b9fbd35581368d63aca697fa6792"
+fileSize: 1367068
+files:
+- name: "Crash99.umx"
+  fileSize: 1025665
+  hash: "3fe104f365749ab043d3566e256377b5bae4adc1"
+- name: "MH-Reality.unr"
+  fileSize: 1329754
+  hash: "7743bc1c13a21d38dda55b23acb3f8c605877775"
+- name: "Monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MH-Reality.unr:
+  - status: "OK"
+    name: "Crash99"
+  - status: "OK"
+    name: "Monsterhunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-Reality.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/8/bfa849/MH-Reality.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/8/bfa849/MH-Reality.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/8/bfa849/MH-Reality.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Reality"
+playerCount: "8"
+themes:
+  City: 0.4
+  Skaarj Tech: 0.6
+bots: false

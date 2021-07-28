@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 06:11"
+game: "Unreal Tournament"
+name: "BT-A1ColdFusion"
+author: "NACHO"
+description: "None"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "BT-A1ColdFusion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/A/BT-A1ColdFusion_shot_1.png"
+originalFilename: "bt-a1coldfusion.zip"
+hash: "5f265bd0bc142725217abaec799e94dc72e84634"
+fileSize: 1149601
+files:
+- name: "alienpillar.u"
+  fileSize: 93047
+  hash: "5bba9e225f010662fed74e9ea978e4d6b9f94d3e"
+- name: "BT-A1ColdFusion.unr"
+  fileSize: 5376510
+  hash: "b31536a1a7d95144445f7e386f00a1c7cccd704c"
+- name: "UFO1.u"
+  fileSize: 8771
+  hash: "999892f70bcd659ababf57e67d61229a38fbbc96"
+otherFiles: 0
+dependencies:
+  BT-A1ColdFusion.unr:
+  - status: "MISSING"
+    name: "sgtech1"
+  - status: "OK"
+    name: "alienpillar"
+  - status: "OK"
+    name: "UFO1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-a1coldfusion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/A/bt-a1coldfusion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-a1coldfusion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-a1coldfusion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/A/5/f/265bd0/bt-a1coldfusion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/A/5/f/265bd0/bt-a1coldfusion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "ColdFusion Generator"
+playerCount: "453-454"
+themes:
+  Tech: 0.7
+  Industrial: 0.1
+  Skaarj Tech: 0.2
+  Nali Castle: 0.1
+bots: false

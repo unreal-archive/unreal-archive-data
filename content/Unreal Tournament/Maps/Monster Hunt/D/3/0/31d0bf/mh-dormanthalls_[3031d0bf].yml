@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:12"
+game: "Unreal Tournament"
+name: "MH-DormantHalls"
+author: "scruffy23"
+description: "MH-DormantHalls by scruffy23"
+releaseDate: "2007-08"
+attachments:
+- type: "IMAGE"
+  name: "MH-DormantHalls_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/D/MH-DormantHalls_shot_1.png"
+originalFilename: "mh-dormanthalls.zip"
+hash: "3031d0bff87c43a158290c23885e1675d7f5fd0a"
+fileSize: 2747013
+files:
+- name: "MHCoopMonsters.u"
+  fileSize: 35315
+  hash: "197f20298c52b325593db465758b3448629ca32b"
+- name: "MH-DormantHalls.unr"
+  fileSize: 7760015
+  hash: "e7de8f170db54e9c33c4020a9f35d3d641b222b2"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MH-DormantHalls.unr:
+  - status: "OK"
+    name: "MHCoopMonsters"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-dormanthalls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/D/mh-dormanthalls.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-dormanthalls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/D/3/0/31d0bf/mh-dormanthalls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/3/0/31d0bf/mh-dormanthalls.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-DormantHalls"
+playerCount: "8"
+themes:
+  Skaarj Crypt: 0.3
+  Industrial: 0.6
+bots: false

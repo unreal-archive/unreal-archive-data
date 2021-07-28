@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:50"
+game: "Unreal Tournament"
+name: "DM-Z_Axis_Mayhem"
+author: "Eyuva 'S' NRG"
+description: "If you build it, they will come"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Z_Axis_Mayhem_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/Z/DM-Z_Axis_Mayhem_shot_1.png"
+originalFilename: "dm-z_axis_mayhem.zip"
+hash: "fa768c3174612e6a0de66a5df6cc722f3bc35eb6"
+fileSize: 600033
+files:
+- name: "DM-Z_Axis_Mayhem.unr"
+  fileSize: 1713990
+  hash: "ecbcf6f11adab079517baa82e2852aa5617d9493"
+- name: "Virtual.utx"
+  fileSize: 410648
+  hash: "47cf2417c6441b37aeac17ed5ffee6bd946ee661"
+- name: "OUTBREAK.umx"
+  fileSize: 157057
+  hash: "eba0a1899a2a01c3b4528913f1d1cae94fef78db"
+otherFiles: 1
+dependencies:
+  DM-Z_Axis_Mayhem.unr:
+  - status: "OK"
+    name: "Virtual"
+  - status: "OK"
+    name: "OUTBREAK"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/Z/dm-z_axis_mayhem.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsZ/&file=dm-z_axis_mayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-z_axis_mayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsZ/dm-z_axis_mayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/Z/f/a/768c31/dm-z_axis_mayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/Z/f/a/768c31/dm-z_axis_mayhem.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Z-Axis Mayhem"
+playerCount: "5-10"
+themes:
+  Skaarj Crypt: 0.2
+  Industrial: 0.3
+  Ancient: 0.3
+  Skaarj Tech: 0.1
+bots: true

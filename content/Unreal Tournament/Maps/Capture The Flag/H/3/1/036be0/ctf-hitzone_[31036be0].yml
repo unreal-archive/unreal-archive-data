@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:16"
+game: "Unreal Tournament"
+name: "CTF-HiTzone"
+author: "Sam Plate"
+description: "None"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-hitzone_shot_31036be0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/3/1/036be0/ctf-hitzone_shot_31036be0_1.png"
+originalFilename: "CTF-HiTzone.zip"
+hash: "31036be0dba91b1b44c581fc6da1dcb4b8830055"
+fileSize: 1291538
+files:
+- name: "Druid.umx"
+  fileSize: 901647
+  hash: "e7aaf1c009fe71454770ad63e1cd3b5a2da25ac4"
+- name: "CTF-HiTzone.unr"
+  fileSize: 1612825
+  hash: "1c945c76b472a0b3cf270050d055f3becb442f7c"
+otherFiles: 0
+dependencies:
+  CTF-HiTzone.unr:
+  - status: "OK"
+    name: "Druid"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-HiTzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HiTzone.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/3/1/036be0/CTF-HiTzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/3/1/036be0/CTF-HiTzone.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "HiTzone"
+playerCount: "10-16"
+themes:
+  Skaarj Crypt: 0.4
+  Natural: 0.6
+bots: true

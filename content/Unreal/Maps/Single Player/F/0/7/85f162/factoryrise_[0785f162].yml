@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:28"
+game: "Unreal"
+name: "FactoryRise"
+author: "Modded By Rubie"
+description: "Have Fun !"
+releaseDate: "2014-12"
+attachments: []
+originalFilename: "Factory.rar"
+hash: "0785f16275cfefa4350ea0da89690554ed1d13df"
+fileSize: 2417321
+files:
+- name: "FactoryRise.unr"
+  fileSize: 6084273
+  hash: "c05050cd8f94a404fa90acc78117ea9173c26049"
+- name: "HiredGuns.umx"
+  fileSize: 54818
+  hash: "19439f7d160b2a07e788fcd52de1a0d44e3efb16"
+otherFiles: 1
+dependencies:
+  FactoryRise.unr:
+  - status: "MISSING"
+    name: "Soledad1"
+  - status: "MISSING"
+    name: "TKR_MonsterPack"
+  - status: "MISSING"
+    name: "BotPack"
+  - status: "OK"
+    name: "HiredGuns"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/Factory.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/F/0/7/85f162/Factory.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Single%20Player/F/0/7/85f162/Factory.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Single%20Player/F/0/7/85f162/Factory.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "Factory ISV"
+playerCount: "2-6"
+themes:
+  Ancient: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true

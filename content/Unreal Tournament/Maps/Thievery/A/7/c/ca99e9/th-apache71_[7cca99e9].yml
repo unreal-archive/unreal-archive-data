@@ -1,0 +1,119 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:34"
+game: "Unreal Tournament"
+name: "TH-Apache71"
+author: "Apache {NAD}"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "TH-Apache71_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/T/TH-Apache71_shot_1.png"
+originalFilename: "th-apache71.zip"
+hash: "7cca99e962d3e7556f0d0bbccc7d3d115e05f6e6"
+fileSize: 1544520
+files:
+- name: "ThWebBolt.u"
+  fileSize: 11020
+  hash: "f6af7b65a1146d5775cbe39e1643fbee02377ed7"
+- name: "ThPoisonBolt.u"
+  fileSize: 9659
+  hash: "b1923084d8f64ee41a86254318247a93ad8bee77"
+- name: "TH-Apache71.unr"
+  fileSize: 5172595
+  hash: "5087a16ecc0f413949d64c0f3b7043238cdce9cd"
+otherFiles: 3
+dependencies:
+  ThPoisonBolt.u:
+  - status: "MISSING"
+    name: "ThieveryData"
+  - status: "MISSING"
+    name: "ThieveryMod"
+  TH-Apache71.unr:
+  - status: "MISSING"
+    name: "ThInteriorVic"
+  - status: "OK"
+    name: "ThPoisonBolt"
+  - status: "MISSING"
+    name: "ThInteriorMed"
+  - status: "MISSING"
+    name: "TDRepairable"
+  - status: "MISSING"
+    name: "ThieveryObjects"
+  - status: "MISSING"
+    name: "Th-Guards"
+  - status: "MISSING"
+    name: "ThOutside"
+  - status: "MISSING"
+    name: "ThInteriorMisc"
+  - status: "MISSING"
+    name: "ThieverySoldier"
+  - status: "MISSING"
+    name: "ThFurnMeshes"
+  - status: "MISSING"
+    name: "ThSkybox"
+  - status: "MISSING"
+    name: "ThieveryObjectsII"
+  - status: "OK"
+    name: "ThWebBolt"
+  - status: "MISSING"
+    name: "ThMetal"
+  - status: "MISSING"
+    name: "ThMasked"
+  - status: "MISSING"
+    name: "ThDoors"
+  - status: "MISSING"
+    name: "ThCarpets"
+  - status: "MISSING"
+    name: "ThWoodFlr"
+  - status: "MISSING"
+    name: "Tree405"
+  - status: "MISSING"
+    name: "ThNewCity"
+  - status: "MISSING"
+    name: "TobioTrees"
+  - status: "MISSING"
+    name: "ThCity"
+  - status: "MISSING"
+    name: "ThieveryAmb"
+  - status: "MISSING"
+    name: "ThPaintings"
+  - status: "MISSING"
+    name: "ThieveryAI"
+  - status: "MISSING"
+    name: "ThieveryLowLevel"
+  - status: "MISSING"
+    name: "ThieveryMod"
+  - status: "MISSING"
+    name: "Reverend"
+  ThWebBolt.u:
+  - status: "MISSING"
+    name: "ThieveryMod"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/ThieveryUT/&file=th-apache71.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/T/th-apache71.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/ThieveryUT&file=th-apache71.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Thievery/A/7/c/ca99e9/th-apache71.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Thievery/A/7/c/ca99e9/th-apache71.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Thievery"
+title: "Arachnophobia"
+playerCount: "6 Thieves / 10 Guards"
+themes: {}
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:20"
+game: "Unreal"
+name: "MH-[SP]LostSouls"
+author: "Vatcilli + L4dy 4bys"
+description: "None"
+releaseDate: "2010-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-splostsouls_shot_f5719ae7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/f/5/719ae7/mh-splostsouls_shot_f5719ae7_1.png"
+originalFilename: "MH-[SP]LostSouls.zip"
+hash: "f5719ae7bb8d4d5c474257a320a75fafcb5914df"
+fileSize: 6675108
+files:
+- name: "MH-[SP]LostSouls.unr"
+  fileSize: 9369487
+  hash: "5ed919f755b8b71f0e8808c2dc2aa0498a7ab6ff"
+- name: "NPresurect.umx"
+  fileSize: 4469536
+  hash: "f4ba7e2a140df34e75c8159bb537f75f95788f9c"
+otherFiles: 0
+dependencies:
+  MH-[SP]LostSouls.unr:
+  - status: "MISSING"
+    name: "Cannon"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "Nether"
+  - status: "MISSING"
+    name: "Colossus"
+  - status: "OK"
+    name: "NPresurect"
+  - status: "MISSING"
+    name: "ds_can_u_b"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]LostSouls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/f/5/719ae7/MH-%5BSP%5DLostSouls.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/f/5/719ae7/MH-%255BSP%255DLostSouls.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/f/5/719ae7/MH-%255BSP%255DLostSouls.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] Lost Souls Path"
+playerCount: "3-10"
+themes:
+  Natural: 0.8
+  Skaarj Tech: 0.2
+bots: true

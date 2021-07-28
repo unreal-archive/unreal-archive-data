@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:58"
+game: "Unreal"
+name: "DMThunderdome3"
+author: "Auntie"
+description: "Two Men Enter, One Man Leaves"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "dmthunderdome.zip"
+hash: "e8b3d6b7eefed7f11696b78494ed3677c804b760"
+fileSize: 830925
+files:
+- name: "DMThunderdome3.unr"
+  fileSize: 179692
+  hash: "44ade9f4650638909c4ff7385da302cdbd8056cd"
+- name: "BarterTown2.uax"
+  fileSize: 522977
+  hash: "f9c2d7b6476e3991927fee183563a567aeb961db"
+- name: "BarterTown.utx"
+  fileSize: 1426780
+  hash: "fd2ada818a1d03975e2615f065954338d29e690f"
+otherFiles: 1
+dependencies:
+  DMThunderdome3.unr:
+  - status: "OK"
+    name: "BarterTown"
+  - status: "OK"
+    name: "BarterTown2"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dmthunderdome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/dmthunderdome.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsT/dmthunderdome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmthunderdome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/e/8/b3d6b7/dmthunderdome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/e/8/b3d6b7/dmthunderdome.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Thunderdome"
+playerCount: "2"
+themes:
+  Natural: 1.0
+bots: true

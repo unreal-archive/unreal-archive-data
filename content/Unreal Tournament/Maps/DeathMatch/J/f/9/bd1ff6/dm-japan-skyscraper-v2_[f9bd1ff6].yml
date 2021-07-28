@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:43"
+game: "Unreal Tournament"
+name: "DM-[JAPAN]-SkyScraper-V2"
+author: "Boon-qiv-"
+description: "None"
+releaseDate: "2014-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-[JAPAN]-SkyScraper-V2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAPAN%5D-SkyScraper-V2_shot_1.png"
+originalFilename: "DM-[JAPAN]-SkyScraper-V2.zip"
+hash: "f9bd1ff6f182840eda059cbc7085b63951d218f7"
+fileSize: 4908906
+files:
+- name: "Skylab_9000.umx"
+  fileSize: 5443222
+  hash: "3c1144a3cd4a2a08755f8a6d07859b2d0cba0a22"
+- name: "DM-[JAPAN]-SkyScraper-V2.unr"
+  fileSize: 1131984
+  hash: "140e52b58302d33cf931e370419d1fdce5352c93"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+otherFiles: 0
+dependencies:
+  DM-[JAPAN]-SkyScraper-V2.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "Skylab_9000"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BJAPAN%5D-SkyScraper-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAPAN%5D-SkyScraper-V2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/J/f/9/bd1ff6/DM-%255BJAPAN%255D-SkyScraper-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/J/f/9/bd1ff6/DM-%255BJAPAN%255D-SkyScraper-V2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Skyscraper"
+playerCount: "2-8"
+themes:
+  Industrial: 0.2
+  Ancient: 0.1
+  City: 0.6
+bots: true

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-12-29 23:23"
-variationOf: null
 game: "Unreal Tournament"
 name: "MH-Planet_Zenith"
 author: "[Torus]"
@@ -35,25 +34,24 @@ dependencies:
   MH-Planet_Zenith.unr:
   - status: "OK"
     name: "Newmca16"
-    providedBy: null
   - status: "OK"
     name: "ds_nl"
-    providedBy: null
   - status: "MISSING"
     name: "new2"
-    providedBy: null
   - status: "MISSING"
     name: "MonsterHunt"
-    providedBy: null
   - status: "OK"
     name: "Fourth"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/P/1/0/4b3c98/MH-Planet_Zenith.rar"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt/&file=MH-Planet_Zenith.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/P/1/0/4b3c98/MH-Planet_Zenith.rar"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:01"
+game: "Unreal"
+name: "MH-[SP]ShootingGuys"
+author: "Cygma-N"
+description: "None"
+releaseDate: "2014-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-spshootingguys_shot_31bcd1ea_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spshootingguys_shot_31bcd1ea_1.png"
+originalFilename: "MH-[SP]ShootingGuys.zip"
+hash: "31bcd1ea598474c738e8dd2fbaad53d37a67e55f"
+fileSize: 2873607
+files:
+- name: "MH-[SP]ShootingGuys.unr"
+  fileSize: 4674345
+  hash: "b3cf62ebed72d1145a0539ddd6bd3f4f13d5c01e"
+- name: "av_ktb.umx"
+  fileSize: 2354959
+  hash: "3f697193ffe80d5245f9c62073793ddde598db8e"
+otherFiles: 0
+dependencies:
+  MH-[SP]ShootingGuys.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "av_ktb"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DShootingGuys.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/3/1/bcd1ea/MH-%255BSP%255DShootingGuys.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/3/1/bcd1ea/MH-%255BSP%255DShootingGuys.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] Shooting Guys"
+playerCount: "1-6"
+themes:
+  Natural: 1.0
+bots: true

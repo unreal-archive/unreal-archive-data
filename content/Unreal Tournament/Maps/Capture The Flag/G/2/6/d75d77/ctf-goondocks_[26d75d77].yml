@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 20:04"
+game: "Unreal Tournament"
+name: "CTF-GoonDocks"
+author: "Rich \"GroundZero\" Edwards"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-GoonDocks_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GoonDocks_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-GoonDocks_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GoonDocks_shot_2.png"
+originalFilename: "ctf-goondocks.zip"
+hash: "26d75d77d9a505328abac97601444eaf8c1a62c8"
+fileSize: 3146934
+files:
+- name: "CTF-GoonDocks.unr"
+  fileSize: 6981065
+  hash: "d9d8d604c3b8c4b3a4a8b07471f041aa84781665"
+- name: "HyperBore.umx"
+  fileSize: 1657898
+  hash: "eb6cfe95f74da5478dd2628003cce1b827830ad9"
+otherFiles: 2
+dependencies:
+  CTF-GoonDocks.unr:
+  - status: "OK"
+    name: "HyperBore"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsG/&file=ctf-goondocks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/ctf-goondocks.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-goondocks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-goondocks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsG/ctf-goondocks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2418"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/2/6/d75d77/ctf-goondocks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/2/6/d75d77/ctf-goondocks.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-GoonDocks"
+playerCount: "10-20"
+themes:
+  Industrial: 0.3
+  Ancient: 0.2
+  City: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.1
+bots: true

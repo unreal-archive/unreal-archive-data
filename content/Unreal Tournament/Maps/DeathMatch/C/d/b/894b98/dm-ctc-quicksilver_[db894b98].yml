@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:48"
+game: "Unreal Tournament"
+name: "DM-CTC-QuickSilver"
+author: "Roberto 'Homeslice' Tobar"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-CTC-QuickSilver_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CTC-QuickSilver_shot_1.png"
+originalFilename: "dm-ctc-quicksilver.zip"
+hash: "db894b98f4eecbdd4af66d5556ca6d0727c05495"
+fileSize: 1003640
+files:
+- name: "rebound.umx"
+  fileSize: 1125253
+  hash: "9c62543b82395b0346d56d97b1e85ae564d8d5f4"
+- name: "DM-CTC-QuickSilver.unr"
+  fileSize: 1289796
+  hash: "d3fae58f8ff7d6fb5d3c23a84b348bdb45f3e7e6"
+otherFiles: 1
+dependencies:
+  DM-CTC-QuickSilver.unr:
+  - status: "OK"
+    name: "rebound"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ctc-quicksilver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-ctc-quicksilver.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/d/b/894b98/dm-ctc-quicksilver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/d/b/894b98/dm-ctc-quicksilver.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "-QuickSilver-"
+playerCount: "2-4"
+themes:
+  Industrial: 1.0
+bots: true

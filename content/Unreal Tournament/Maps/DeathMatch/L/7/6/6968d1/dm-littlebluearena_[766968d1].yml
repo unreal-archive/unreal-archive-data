@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:21"
+game: "Unreal Tournament"
+name: "DM-LittleBlueArena"
+author: "bobflappy@yahoo.fr"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-LittleBlueArena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-LittleBlueArena_shot_1.png"
+originalFilename: "dm-littlebluearena.zip"
+hash: "766968d10b88e4caea2d0d645e941c67134bd11d"
+fileSize: 380886
+files:
+- name: "DM-LittleBlueArena.unr"
+  fileSize: 861764
+  hash: "e53cf4a06c81866e951c47f5d238a8c076f6ff31"
+- name: "packLBA.utx"
+  fileSize: 177747
+  hash: "618ec9dde9766a540e94dc749d0d5b30a8eaf47c"
+otherFiles: 1
+dependencies:
+  DM-LittleBlueArena.unr:
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "OK"
+    name: "packLBA"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-littlebluearena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-littlebluearena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-littlebluearena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsL/dm-littlebluearena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/7/6/6968d1/dm-littlebluearena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/7/6/6968d1/dm-littlebluearena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LittleBlueArena"
+playerCount: "2"
+themes:
+  Industrial: 0.5
+  City: 0.2
+  Natural: 0.3
+bots: true

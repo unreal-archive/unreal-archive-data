@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:33"
+game: "Unreal Tournament"
+name: "CTF-'{HNC}'FragnHide"
+author: "{HNC}Devious"
+description: "None"
+releaseDate: "2013-01"
+attachments: []
+originalFilename: "CTF-'{HNC}'FragnHide.zip"
+hash: "ae282e90200a5f26866e08b7a07b5da1ea0ce1bd"
+fileSize: 1054605
+files:
+- name: "CTF-'{HNC}'FragnHide.unr"
+  fileSize: 541261
+  hash: "e1aed5117f726019f5e92720ec4c677cfc2dcc2e"
+- name: "LOGOHNC.utx"
+  fileSize: 67019
+  hash: "bab0b77ff8102e8a1d835b1136bbc5e99bd88ecb"
+- name: "metalRealm.umx"
+  fileSize: 1429132
+  hash: "66952cdb4f8c383dfa31f1f377ec17cd8ffd94b0"
+otherFiles: 0
+dependencies:
+  CTF-'{HNC}'FragnHide.unr:
+  - status: "OK"
+    name: "metalRealm"
+  - status: "OK"
+    name: "LOGOHNC"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-%27%7BHNC%7D%27FragnHide.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-'%7BHNC%7D'FragnHide.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/a/e/282e90/CTF-'%257BHNC%257D'FragnHide.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/a/e/282e90/CTF-'%257BHNC%257D'FragnHide.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-\"{HNC}'FragArena"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.1
+  Egyptian: 0.8
+bots: false

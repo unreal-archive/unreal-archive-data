@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:23"
+game: "Unreal Tournament"
+name: "CTF-(([KH]))Figure4x2"
+author: "Christina |\"KiLLaH\"| T...."
+description: "Enjoy the final version."
+releaseDate: "2006-01"
+attachments: []
+originalFilename: "figure2.zip"
+hash: "41a594e757f0f74f398940a1859ba993fc1154df"
+fileSize: 6967542
+files:
+- name: "KHNF2Tex.utx"
+  fileSize: 1712739
+  hash: "c310a42e1c5ba2b8e1da967cb41cf1b1c1a72a69"
+- name: "TE_Liquify.umx"
+  fileSize: 6421988
+  hash: "86fd4dadc5c64ff4a83763ecbc5ef5ae2a059b43"
+- name: "CTF-(([KH]))Figure4x2.unr"
+  fileSize: 565062
+  hash: "2e633465b45cd729c4c4dc6f6713f597a3d225a1"
+otherFiles: 0
+dependencies:
+  CTF-(([KH]))Figure4x2.unr:
+  - status: "MISSING"
+    name: "KHTex"
+  - status: "OK"
+    name: "TE_Liquify"
+  - status: "OK"
+    name: "KHNF2Tex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=figure2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/figure2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/4/1/a594e7/figure2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/4/1/a594e7/figure2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(([KH]))Figure4x2"
+playerCount: "2-16"
+themes:
+  Ancient: 1.0
+bots: false

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:09"
+game: "Unreal Tournament"
+name: "DM-Welcome2MyHouse"
+author: "Thomas Browett"
+description: "Don't mess up my house"
+releaseDate: "2018-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-Welcome2MyHouse_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/DM-Welcome2MyHouse_shot_1.png"
+originalFilename: "DM-Welcome2MyHouse.zip"
+hash: "7bd4b826de3f40ed8ee0b80ea26213e368fe9244"
+fileSize: 18276565
+files:
+- name: "MyHousePunkGoes.umx"
+  fileSize: 8751619
+  hash: "ba9399ed4a1ffd5d73837ce2188543b8db4413a5"
+- name: "DM-Welcome2MyHouse.unr"
+  fileSize: 2359597
+  hash: "93bb8616b76be40b24482eaa244ad87a9f043e31"
+otherFiles: 0
+dependencies:
+  DM-Welcome2MyHouse.unr:
+  - status: "OK"
+    name: "MyHousePunkGoes"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Welcome2MyHouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/DM-Welcome2MyHouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/7/b/d4b826/DM-Welcome2MyHouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/7/b/d4b826/DM-Welcome2MyHouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "My House ]["
+playerCount: "6+"
+themes:
+  Industrial: 0.3
+  Ancient: 0.3
+  Nali Castle: 0.4
+bots: true

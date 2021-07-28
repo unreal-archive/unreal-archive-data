@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:00"
+variationOf: "2a934c0583b42e2fc99da2be1e63fd1604135e48"
+game: "Unreal"
+name: "DM-Honesty"
+author: "Francois Lacombe, aka Orion(Co30), aka Mouse(Co30). Visit our website, www.co30.com"
+description: "Agonizer, eat your heart out :-)"
+releaseDate: "2002-04"
+attachments: []
+originalFilename: "Honesty.zip"
+hash: "9ce6ec9e17bf77ad1f9a1a730b4b0a8694049a4b"
+fileSize: 1098097
+files:
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "DM-Honesty.unr"
+  fileSize: 3577250
+  hash: "169441818d43d1414de8737610e03ae825aadcdb"
+- name: "HonLight.u"
+  fileSize: 5086
+  hash: "6aebb226e99e648487f4efff4498acf9a71883e0"
+otherFiles: 0
+dependencies:
+  DM-Honesty.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "HonLight"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/Honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/9/c/e6ec9e/Honesty.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/9/c/e6ec9e/Honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/9/c/e6ec9e/Honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Honesty"
+playerCount: "Rather big level, over eight I would say"
+themes:
+  Ancient: 0.1
+  Skaarj Tech: 0.9
+bots: true

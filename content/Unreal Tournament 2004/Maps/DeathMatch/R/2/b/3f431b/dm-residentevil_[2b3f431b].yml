@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 16:39"
+game: "Unreal Tournament 2004"
+name: "DM-ResidentEvil"
+author: "SlyFox"
+description: "Somewhere out there, where Chris Redfield and Jill Valentine lost their\
+  \ team... somewhere in the old, green caves... go and see what awaits you there\
+  \ in the white light of the upcoming moon..."
+releaseDate: "2006-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-ResidentEvil_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-ResidentEvil_shot_1.png"
+- type: "IMAGE"
+  name: "DM-ResidentEvil_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-ResidentEvil_shot_3.png"
+- type: "IMAGE"
+  name: "DM-ResidentEvil_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-ResidentEvil_shot_2.png"
+originalFilename: "dm-residentevil.zip"
+hash: "2b3f431b3a2cf66da01c0e4678ff12c8a0e027d6"
+fileSize: 15301184
+files:
+- name: "DM-ResidentEvil.ut2"
+  fileSize: 18280598
+  hash: "79650600efc01c933c92a755b52e45da653cfd2a"
+- name: "MoonlightSonata.ogg"
+  fileSize: 4298461
+  hash: "9a5658dc33748c9e6871f57cd97eb249c8b0cc85"
+- name: "HourstuffX3.utx"
+  fileSize: 12316324
+  hash: "64dd0b90f624a1f449ee61d8112562124f7f286a"
+otherFiles: 3
+dependencies:
+  DM-ResidentEvil.ut2:
+  - status: "MISSING"
+    name: "AmbModern"
+  - status: "OK"
+    name: "HourstuffX3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/dm-residentevil.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsR/&file=dm-residentevil.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-residentevil.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/R/2/b/3f431b/dm-residentevil.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/2/b/3f431b/dm-residentevil.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Resident Evil"
+playerCount: "8-12"
+themes:
+  Ancient: 1.0
+bots: true

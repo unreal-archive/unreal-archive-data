@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:47"
+variationOf: "881b6c0b408213769d41b6be556d65243afb71a4"
+game: "Unreal"
+name: "DmBladerunner224c"
+author: "J. Martin - www.geocities.com/j4unreal"
+description: "November - 2019"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "DmBladerunner224c_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/B/DmBladerunner224c_shot_1.png"
+originalFilename: "dmbladerunner224c.zip"
+hash: "18d31914fe3b8ef9708021449e987f7a1653d27f"
+fileSize: 3176029
+files:
+- name: "GoldWatch.u"
+  fileSize: 50962
+  hash: "25fb14609a1ca46fe7789ec02e2ba19e06865243"
+- name: "BRExtra.utx"
+  fileSize: 268974
+  hash: "872ad9890de83ebeb91538d363655730211512ab"
+- name: "MaleOneBotNPC.u"
+  fileSize: 1057
+  hash: "cbee420226133de94df6ba4b7f841edc4642476e"
+- name: "DmBladerunner224c.unr"
+  fileSize: 3010903
+  hash: "ab6b0df87e8df13abbdc91b91d5def90060eef09"
+- name: "BladerunnerTex.utx"
+  fileSize: 2308491
+  hash: "310239de9c5526192e6d5de825425219f3b676cb"
+- name: "BladerunnerSnd.uax"
+  fileSize: 2024467
+  hash: "30e0ff9ac8854251b15141cd3a734813cbd16387"
+otherFiles: 1
+dependencies:
+  DmBladerunner224c.unr:
+  - status: "OK"
+    name: "BladerunnerTex"
+  - status: "MISSING"
+    name: "city"
+  - status: "MISSING"
+    name: "Slums"
+  - status: "OK"
+    name: "MaleOneBotNPC"
+  - status: "OK"
+    name: "BRExtra"
+  - status: "OK"
+    name: "GoldWatch"
+  - status: "OK"
+    name: "BladerunnerSnd"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dmbladerunner224c.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dmbladerunner224c.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsB/dmbladerunner224c.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmbladerunner224c.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/B/1/8/d31914/dmbladerunner224c.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/B/1/8/d31914/dmbladerunner224c.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "BLADE RUNNER"
+playerCount: "Unknown"
+themes:
+  City: 0.9
+  Natural: 0.1
+bots: true

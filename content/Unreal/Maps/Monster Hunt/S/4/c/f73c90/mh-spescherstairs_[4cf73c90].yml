@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:16"
+game: "Unreal"
+name: "MH-[SP]EscherStairs"
+author: "Scify"
+description: "None"
+releaseDate: "2010-05"
+attachments: []
+originalFilename: "MH-[SP]EscherStairs.zip"
+hash: "4cf73c90470085cde87fbbca25627b4b5d15baa9"
+fileSize: 4399889
+files:
+- name: "blue_aura_b.umx"
+  fileSize: 2799554
+  hash: "fb0856f12244cad05713b2c18a833a56ce8a89d5"
+- name: "MH-[SP]EscherStairs.unr"
+  fileSize: 5654740
+  hash: "ba62dcd9be1325956343ea23fad4f736e7799c67"
+otherFiles: 0
+dependencies:
+  MH-[SP]EscherStairs.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "OK"
+    name: "blue_aura_b"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]EscherStairs.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/4/c/f73c90/MH-%5BSP%5DEscherStairs.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/4/c/f73c90/MH-%255BSP%255DEscherStairs.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/4/c/f73c90/MH-%255BSP%255DEscherStairs.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]EscherStair"
+playerCount: "4-12"
+themes:
+  Nali Temple: 0.6
+  Ancient: 0.3
+  Natural: 0.2
+bots: true

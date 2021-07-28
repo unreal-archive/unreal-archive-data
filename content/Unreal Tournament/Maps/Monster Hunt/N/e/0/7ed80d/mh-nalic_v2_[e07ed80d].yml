@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:59"
+game: "Unreal Tournament"
+name: "MH-NaliC_v2"
+author: "Shane Caudle"
+description: "MH-NaliC_v2"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-nalic_v2.zip"
+hash: "e07ed80d323be9da3a03ba57f336e86cb1863521"
+fileSize: 6633671
+files:
+- name: "WarLord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+- name: "UTMHpack.u"
+  fileSize: 4498715
+  hash: "be3c69a56f792c235ee41e65707af38a4a8b4ed2"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MHCoopMonsters.u"
+  fileSize: 35315
+  hash: "197f20298c52b325593db465758b3448629ca32b"
+- name: "MH-NaliC_v2.unr"
+  fileSize: 7196724
+  hash: "d961d061ef523b770f7b1d9780989f3d2237be70"
+otherFiles: 2
+dependencies:
+  MH-NaliC_v2.unr:
+  - status: "OK"
+    name: "MHCoopMonsters"
+  - status: "OK"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "WarLord"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-nalic_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/N/mh-nalic_v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-nalic_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/N/e/0/7ed80d/mh-nalic_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/N/e/0/7ed80d/mh-nalic_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Nali Castle v2 / DemonLord's Lair (MH)"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: false

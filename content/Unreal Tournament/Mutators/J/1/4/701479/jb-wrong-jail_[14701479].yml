@@ -1,0 +1,47 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:26"
+variationOf: "e2e99a884032a160632fd3006b9dd999b8bba9f8"
+game: "Unreal Tournament"
+name: "JB Wrong Jail"
+author: "removing"
+description: "Punishes players who enter the enemy team's jail."
+releaseDate: "2003-06"
+attachments: []
+originalFilename: "wrongjail.zip"
+hash: "147014795246bacc450435daa04322077ed3b82a"
+fileSize: 12185
+files:
+- name: "WrongJail.u"
+  fileSize: 29917
+  hash: "51d2833150f7f15bbcfca32162e3cd07982c4d60"
+otherFiles: 2
+dependencies:
+  WrongJail.u:
+  - status: "MISSING"
+    name: "JailBreak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/JailBreak&file=wrongjail.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/J/wrongjail.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/J/1/4/701479/wrongjail.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/J/1/4/701479/wrongjail.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "JB Wrong Jail"
+  description: "Punishes players who enter the enemy team's jail."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:01"
+game: "Unreal Tournament"
+name: "CTF-(CN)MonkCaves"
+author: "[i4g]CouilleNoire"
+description: "None"
+releaseDate: "2005-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-(CN)MonkCaves_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-(CN)MonkCaves_shot_1.png"
+originalFilename: "ctf-(cn)monkcaves.zip"
+hash: "5b60cd2754ec70deb7d3cbdc786fc978fa860fa9"
+fileSize: 4964407
+files:
+- name: "CTF-(CN)MonkCaves.unr"
+  fileSize: 2184129
+  hash: "f5cbc8f3e75793b3dfe6758ac98ac2913c2482a5"
+- name: "DarkWorlds5.umx"
+  fileSize: 1914963
+  hash: "db59fc270d8fb4fdae742ede6a4c7ff7fff082ba"
+- name: "BadSky.utx"
+  fileSize: 5079092
+  hash: "39244d8fcb9e7e9fa2fd73521a7948b64528e05d"
+otherFiles: 0
+dependencies:
+  CTF-(CN)MonkCaves.unr:
+  - status: "OK"
+    name: "DarkWorlds5"
+  - status: "OK"
+    name: "BadSky"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%28cn%29monkcaves.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-(cn)monkcaves.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-%28CN%29MonkCaves.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/5/b/60cd27/ctf-(cn)monkcaves.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/5/b/60cd27/ctf-(cn)monkcaves.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(CN)MonkCaves"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

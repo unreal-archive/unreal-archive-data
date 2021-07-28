@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:19"
+game: "Unreal Tournament"
+name: "CTF-darkysMoon"
+author: "darkyMarky aka. PNutButterSnake|DFB|"
+description: "Welcome to darkyMarky's Exotic Moon! Prepare to die!"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-darkysMoon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/CTF-darkysMoon_shot_1.png"
+originalFilename: "ctf-darkysmoon.zip"
+hash: "304d26280b6c87024bf9ada7503859757daab3c1"
+fileSize: 1802302
+files:
+- name: "darkyMarky.u"
+  fileSize: 10879
+  hash: "a94d8ce70c8ed807661cea5651ba5676c9c7619b"
+- name: "CTF-darkysMoon.unr"
+  fileSize: 3214343
+  hash: "5c559d9dec4638e84af3b427f9654870e7db6a93"
+- name: "darkyMarkyTex.utx"
+  fileSize: 884914
+  hash: "37d61a65c839081b338d4b0be07d731bfe1cc8b4"
+- name: "Maliceut.umx"
+  fileSize: 244879
+  hash: "6b4f09bc21528150e6a946bfa098cb22c90a1732"
+otherFiles: 1
+dependencies:
+  CTF-darkysMoon.unr:
+  - status: "OK"
+    name: "Maliceut"
+  - status: "OK"
+    name: "darkyMarky"
+  - status: "OK"
+    name: "darkyMarkyTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-darkysmoon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403728"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsD/&file=ctf-darkysmoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-darkysmoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-darkysmoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsD/ctf-darkysmoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/3/0/4d2628/ctf-darkysmoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/3/0/4d2628/ctf-darkysmoon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "darkyMarky's Exotic Moon"
+playerCount: "12-16"
+themes:
+  Nali Temple: 0.2
+  Ancient: 0.1
+  Natural: 0.5
+  Skaarj Tech: 0.1
+  Indistrial: 0.2
+bots: true

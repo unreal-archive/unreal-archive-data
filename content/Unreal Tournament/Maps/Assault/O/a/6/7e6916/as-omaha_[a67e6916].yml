@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:07"
+game: "Unreal Tournament"
+name: "AS-OMAHA"
+author: "DAVID R. LAMBERSON (OSMIUM)"
+description: "TAKE THE BEACHHEAD!!! Dedicated to those men who fought for freedom\
+  \ in WWII..."
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "AS-OMAHA_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/O/AS-OMAHA_shot_1.png"
+originalFilename: "as-omaha.zip"
+hash: "a67e691603be2d3f23761c868a3493dc4a9eb139"
+fileSize: 3331208
+files:
+- name: "trenchtex.utx"
+  fileSize: 1351507
+  hash: "32fbc2569b601ee06337e8e1fa8b5a3c13cc901c"
+- name: "furniture_aga.utx"
+  fileSize: 1822733
+  hash: "bb3937f08cabaa0f467460a0804a213110a422a1"
+- name: "AS-OMAHA.unr"
+  fileSize: 2301332
+  hash: "51af0cd7e201b5a985e4d7fc5b1a2961f1e77ed0"
+- name: "InfAdds.u"
+  fileSize: 610710
+  hash: "8392ed89936a248934710b5593dd7fea123b4e70"
+- name: "Riverbed2.utx"
+  fileSize: 120089
+  hash: "1e0f82c2cbceed99eb6b4031b82770ad5429eeb4"
+otherFiles: 1
+dependencies:
+  AS-OMAHA.unr:
+  - status: "OK"
+    name: "Riverbed2"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "furniture_aga"
+  - status: "OK"
+    name: "trenchtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/O/as-omaha.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403094"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-omaha.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-omaha.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-omaha.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/O/a/6/7e6916/as-omaha.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/O/a/6/7e6916/as-omaha.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "OMAHA BEACH"
+playerCount: "8-20"
+themes:
+  Industrial: 0.8
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true

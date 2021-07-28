@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:21"
+game: "Unreal Tournament"
+name: "DM-FSW-Bathroom"
+author: "Edited by [FSW] Dilligas"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-FSW-Bathroom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FSW-Bathroom_shot_1.png"
+originalFilename: "dm-fsw-brfsw_map.zip"
+hash: "7d7b86f03a9656c11f6a3b08b49d7a5cd129d00d"
+fileSize: 1879570
+files:
+- name: "DM-FSW-Bathroom.unr"
+  fileSize: 1689477
+  hash: "6893e469c1da6778168db16f4d943db8b44169ef"
+- name: "BRFSW.utx"
+  fileSize: 1024640
+  hash: "248f61a572d86e53956562e808d0b35198356a63"
+- name: "FSWBR.utx"
+  fileSize: 443663
+  hash: "da99d0a2fc2f9bb4f5e88d28c8524a4fa438210a"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 0
+dependencies:
+  DM-FSW-Bathroom.unr:
+  - status: "OK"
+    name: "BRFSW"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "FSWBR"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-fsw-brfsw_map.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/dm-fsw-brfsw_map.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/7/d/7b86f0/dm-fsw-brfsw_map.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/7/d/7b86f0/dm-fsw-brfsw_map.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bathroom-[FSW]"
+playerCount: "8-16"
+themes:
+  Natural: 1.0
+bots: true

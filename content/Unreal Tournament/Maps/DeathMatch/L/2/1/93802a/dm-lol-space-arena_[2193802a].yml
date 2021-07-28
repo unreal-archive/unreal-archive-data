@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:02"
+game: "Unreal Tournament"
+name: "DM-lol-space-arena"
+author: "<lol>Scorpion"
+description: "None"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "DM-lol-space-arena.zip"
+hash: "2193802a4a3aa19bfab578d528ce37979e28ffb4"
+fileSize: 1232655
+files:
+- name: "GhandiWeapons.u"
+  fileSize: 388605
+  hash: "53608793852b1175298de7914a92b76bf5389452"
+- name: "BinSlayer.u"
+  fileSize: 509467
+  hash: "5350d4e5cf07093a64a00f67d7bb3853c8e6caaa"
+- name: "Mac10.u"
+  fileSize: 582545
+  hash: "ec35d0624ac5396f31642cf9729f107edbb043b4"
+- name: "space-arena.utx"
+  fileSize: 725269
+  hash: "6a018da837343e1b1562d81ed0cb71958e3c92b6"
+- name: "DM-lol-space-arena.unr"
+  fileSize: 775685
+  hash: "38beed3db032d5123dad22101570ea9363fc4926"
+otherFiles: 0
+dependencies:
+  DM-lol-space-arena.unr:
+  - status: "OK"
+    name: "Mac10"
+  - status: "OK"
+    name: "GhandiWeapons"
+  - status: "OK"
+    name: "BinSlayer"
+  - status: "OK"
+    name: "space-arena"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-space-arena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-space-arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-space-arena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/2/1/93802a/DM-lol-space-arena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/2/1/93802a/DM-lol-space-arena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "<lol>Space-Arena"
+playerCount: "1-16"
+themes:
+  Ancient: 0.3
+  Natural: 0.8
+bots: true

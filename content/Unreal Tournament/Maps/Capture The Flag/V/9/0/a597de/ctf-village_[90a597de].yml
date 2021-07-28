@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:42"
+game: "Unreal Tournament"
+name: "CTF-Village"
+author: "Garth 'Atolicus' Gibson"
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Village_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/CTF-Village_shot_1.png"
+originalFilename: "ctf-village.zip"
+hash: "90a597def7eb22386dda409bc30f6d6bf1db9b63"
+fileSize: 2455543
+files:
+- name: "CTF-Village.unr"
+  fileSize: 4084560
+  hash: "b3610f0fa0f842fb56c92b8626f063af44a215cc"
+- name: "Village.utx"
+  fileSize: 1139224
+  hash: "8c66c31030ee1d8af6bb863c5bb65efc347777ff"
+- name: "gateways.umx"
+  fileSize: 1025666
+  hash: "d5336d997f7406403ffda19c8f83d6091a4ff9a2"
+otherFiles: 1
+dependencies:
+  CTF-Village.unr:
+  - status: "OK"
+    name: "gateways"
+  - status: "OK"
+    name: "Village"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/ctf-village.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsV/&file=ctf-village.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-village.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsV/ctf-village.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/9/0/a597de/ctf-village.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/9/0/a597de/ctf-village.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Village"
+playerCount: "2-16"
+themes:
+  Ancient: 0.5
+  Natural: 0.1
+  Skaarj Tech: 0.3
+bots: false

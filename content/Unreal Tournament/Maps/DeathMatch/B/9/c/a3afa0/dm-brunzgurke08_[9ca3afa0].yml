@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:27"
+game: "Unreal Tournament"
+name: "DM-Brunzgurke08"
+author: "Juergen Vierheilig"
+description: "Die Jagd ist eroeffnet..."
+releaseDate: "2002-01"
+attachments: []
+originalFilename: "DM-Brunzgurke08.zip"
+hash: "9ca3afa0b3d9bc1da4c916770fa2b6fde4ef7ad9"
+fileSize: 6560972
+files:
+- name: "zkroot02.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+- name: "DM-Brunzgurke08.unr"
+  fileSize: 5144396
+  hash: "84cdb1ee1872c9d6fd74e0547893412226628322"
+- name: "zksound15062000.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "HasenSound.uax"
+  fileSize: 716092
+  hash: "c3feb1ac63a5d54429d7b2a3f56725f6435693dd"
+- name: "Hasensound2.uax"
+  fileSize: 1689719
+  hash: "181d09cce0e56889c16a685ae957039d44d47c00"
+- name: "zkroot0001.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "Hasenjagd1.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+otherFiles: 0
+dependencies:
+  DM-Brunzgurke08.unr:
+  - status: "OK"
+    name: "zkroot0001"
+  - status: "OK"
+    name: "Hasenjagd1"
+  - status: "OK"
+    name: "zksound15062000"
+  - status: "OK"
+    name: "Hasensound2"
+  - status: "OK"
+    name: "HasenSound"
+  - status: "OK"
+    name: "zkroot02"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-Brunzgurke08.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Brunzgurke08.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/9/c/a3afa0/DM-Brunzgurke08.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/9/c/a3afa0/DM-Brunzgurke08.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CTF-Brunzgurke"
+playerCount: "16 - 32"
+themes:
+  Tech: 0.3
+  City: 0.7
+bots: true

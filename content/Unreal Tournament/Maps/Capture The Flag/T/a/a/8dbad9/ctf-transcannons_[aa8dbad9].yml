@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-12-23 09:03"
+variationOf: "8833c4f41341697cfcd62e94c82ff76fee2a38df"
+game: "Unreal Tournament"
+name: "CTF-TransCannons"
+author: "Rufferto"
+description: "Try The Cannon"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-transcannons_shot_aa8dbad9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/a/8dbad9/ctf-transcannons_shot_aa8dbad9_1.png"
+originalFilename: "CTF-TransCannons.zip"
+hash: "aa8dbad904e46a52b517009891aa426cf1ffdfc5"
+fileSize: 1871147
+files:
+- name: "TransCannon.utx"
+  fileSize: 667254
+  hash: "b7980999d24f8a6f0470b2f9bb0d61e7a319b0c2"
+- name: "CTF-TransCannons.unr"
+  fileSize: 3847253
+  hash: "b7f50170ee484d7e70694f978b6906fdfffaf4bc"
+otherFiles: 1
+dependencies:
+  CTF-TransCannons.unr:
+  - status: "OK"
+    name: "TransCannon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-TransCannons.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/a/8dbad9/CTF-TransCannons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/a/8dbad9/CTF-TransCannons.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Trans-Cannon Paradice"
+playerCount: "4-12"
+themes:
+  Nali Temple: 0.9
+  Tech: 0.1
+bots: true

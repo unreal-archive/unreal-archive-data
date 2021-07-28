@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:09"
+game: "Unreal Tournament"
+name: "DM-Esoterica"
+author: "Tha KillaTwinz aka Muff N"
+description: "None"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-Esoterica_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-Esoterica_shot_1.png"
+originalFilename: "dm-esoterica.zip"
+hash: "ac5bcaa0cf035968fe63e9f305f0322ffea44105"
+fileSize: 2446313
+files:
+- name: "DM-Esoterica.unr"
+  fileSize: 2071335
+  hash: "268d28c354f0745ba02f2286e7fdebeb50ec7164"
+- name: "ARYX.umx"
+  fileSize: 22013
+  hash: "ffd28c0342403d202f702458d0461347ff322e4d"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+otherFiles: 1
+dependencies:
+  DM-Esoterica.unr:
+  - status: "OK"
+    name: "Fallout"
+  - status: "OK"
+    name: "ARYX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-esoterica.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsE/&file=dm-esoterica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-esoterica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsE/dm-esoterica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/a/c/5bcaa0/dm-esoterica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/a/c/5bcaa0/dm-esoterica.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Esoterica"
+playerCount: "2-8"
+themes:
+  Indistrial: 1.0
+bots: true

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-15 06:02"
+game: "Unreal Tournament 2004"
+name: "AS-Thief_SE"
+author: "Sander! (Sander van Noort)"
+description: "Steal the secret files from the building and escape with the helicop!"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "AS-Thief_SE_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/AS-Thief_SE_shot_2.png"
+- type: "IMAGE"
+  name: "AS-Thief_SE_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/AS-Thief_SE_shot_3.png"
+- type: "IMAGE"
+  name: "AS-Thief_SE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/AS-Thief_SE_shot_1.png"
+originalFilename: "AS_Thief_SE.rar"
+hash: "ecd7134c1a4772bf4f8a445236f66f579b53b7a5"
+fileSize: 4458152
+files:
+- name: "AS-Thief_SE.ut2"
+  fileSize: 20129639
+  hash: "650834a3b210a9e46c9a4c48d1d84f9c3e444951"
+- name: "AS_ThiefTextures.utx"
+  fileSize: 335297
+  hash: "3db656cc7a2877dfead19a607115b60815ce069c"
+- name: "AS_ThiefMeshes.usx"
+  fileSize: 961601
+  hash: "065854bd544fe9cbaa2b70e35d88a13b176f1264"
+otherFiles: 3
+dependencies:
+  AS_ThiefMeshes.usx:
+  - status: "OK"
+    name: "AS_ThiefTextures"
+  AS-Thief_SE.ut2:
+  - status: "OK"
+    name: "AS_ThiefMeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/T/AS_Thief_SE.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/T/e/c/d7134c/AS_Thief_SE.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/T/e/c/d7134c/AS_Thief_SE.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Thiefs"
+playerCount: "12"
+themes:
+  Tech: 0.7
+  Industrial: 0.3
+bots: true

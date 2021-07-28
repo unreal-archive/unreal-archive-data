@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-12-23 09:15"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Arena"
 author: "Wrath"
@@ -29,13 +28,16 @@ dependencies:
   DM-Arena.unr:
   - status: "OK"
     name: "NINMM1"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-arena%20(47b6392d).zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/9/0/84bd6d/dm-arena%2520(47b6392d).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/9/0/84bd6d/dm-arena%2520(47b6392d).zip"
   main: false
   repack: false
   state: "OK"

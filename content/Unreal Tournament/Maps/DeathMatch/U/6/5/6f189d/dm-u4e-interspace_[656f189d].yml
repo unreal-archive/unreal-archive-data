@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:47"
+game: "Unreal Tournament"
+name: "DM-U4E-Interspace"
+author: "Mikee"
+description: "None"
+releaseDate: "1999-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-U4E-Interspace_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-U4E-Interspace_shot_1.png"
+originalFilename: "DM-U4E-Interspace.zip"
+hash: "656f189d52998873b24dc2986ee602913a68647e"
+fileSize: 833391
+files:
+- name: "stereo.utx"
+  fileSize: 168935
+  hash: "ed0de691e052c837aa05c2246b0e8ee73db0551c"
+- name: "BlueDisc.utx"
+  fileSize: 4335561
+  hash: "b463e8282f5e07da35b3c63f93870bd55fa42a0f"
+- name: "DM-U4E-Interspace.unr"
+  fileSize: 1955062
+  hash: "9b3b8cb18609a89ee0f96d39d991a15af1e23174"
+otherFiles: 1
+dependencies:
+  DM-U4E-Interspace.unr:
+  - status: "MISSING"
+    name: "U4eT"
+  - status: "OK"
+    name: "BlueDisc"
+  - status: "OK"
+    name: "stereo"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Unreal4Ever/&file=DM-U4E-Interspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-U4E-Interspace.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Unreal4Ever&file=DM-U4E-Interspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/6/5/6f189d/DM-U4E-Interspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/6/5/6f189d/DM-U4E-Interspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "--U4E Interspace Station 1769--"
+playerCount: "4-12"
+themes:
+  Tech: 0.6
+  Industrial: 0.1
+  City: 0.1
+  Skaarj Tech: 0.2
+bots: true

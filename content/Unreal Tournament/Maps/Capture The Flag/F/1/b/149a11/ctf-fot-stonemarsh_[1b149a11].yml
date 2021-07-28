@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:33"
+game: "Unreal Tournament"
+name: "CTF-FoT-Stonemarsh"
+author: "HortonsWho"
+description: "None"
+releaseDate: "2008-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fot-stonemarsh_shot_1b149a11_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/1/b/149a11/ctf-fot-stonemarsh_shot_1b149a11_1.png"
+originalFilename: "CTF-FoT-Stonemarsh.zip"
+hash: "1b149a11e9e9d93129a49062dfd2f1b0d91898fe"
+fileSize: 5665047
+files:
+- name: "cryptic_bold.utx"
+  fileSize: 4245831
+  hash: "9d0d75a96db0204290092e587d54617fa1bafaef"
+- name: "CTF-FoT-Stonemarsh.unr"
+  fileSize: 5281576
+  hash: "09be7c2841ad71a472e016e30088180cb90c10b5"
+- name: "Zan_b.umx"
+  fileSize: 2220123
+  hash: "e6015bc9fd6c6647190db0c08389fc0cb20cd954"
+otherFiles: 0
+dependencies:
+  CTF-FoT-Stonemarsh.unr:
+  - status: "OK"
+    name: "Zan_b"
+  - status: "OK"
+    name: "cryptic_bold"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-FoT-Stonemarsh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FoT-Stonemarsh.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/1/b/149a11/CTF-FoT-Stonemarsh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/1/b/149a11/CTF-FoT-Stonemarsh.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Stonemarsh"
+playerCount: "8-10"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.3
+  Skaarj Crypt: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.1
+bots: true

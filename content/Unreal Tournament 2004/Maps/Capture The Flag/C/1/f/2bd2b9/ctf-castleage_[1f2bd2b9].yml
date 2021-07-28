@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-19 04:23"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ctf-castleage"
 author: "Vault"
@@ -32,14 +31,11 @@ dependencies:
   stone_castle.usx:
   - status: "OK"
     name: "stone_castle2"
-    providedBy: null
   ctf-castleage.ut2:
   - status: "OK"
     name: "stone_castle"
-    providedBy: null
   - status: "OK"
     name: "stone_castle2"
-    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-castleage.zip"
   main: false
@@ -54,6 +50,10 @@ downloads:
   repack: false
   state: "MISSING"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage.zip"
   main: false
   repack: false
   state: "OK"

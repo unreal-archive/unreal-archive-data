@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 22:10"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ONS-{UEM}DeathCanyon"
 author: "U.E.M"
@@ -51,17 +50,18 @@ dependencies:
   ONS-{UEM}DeathCanyon.ut2:
   - status: "OK"
     name: "DeathCanyonSM"
-    providedBy: null
   - status: "OK"
     name: "DeathCanyonTexes"
-    providedBy: null
   DeathCanyonSM.usx:
   - status: "OK"
     name: "DeathCanyonTexes"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/U/e/e/66aa3a/ONS-%7BUEM%7DDeathCanyon.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/U/e/e/66aa3a/ONS-%257BUEM%257DDeathCanyon.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

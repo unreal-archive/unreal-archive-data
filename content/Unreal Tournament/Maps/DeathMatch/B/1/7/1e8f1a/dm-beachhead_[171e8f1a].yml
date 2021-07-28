@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:25"
+variationOf: "426c307f06e4a4673720b1f82c55c78dd825e9bf"
+game: "Unreal Tournament"
+name: "DM-BeachHead"
+author: "S.A.R.G.E."
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-beachhead_shot_171e8f1a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/1/7/1e8f1a/dm-beachhead_shot_171e8f1a_1.png"
+originalFilename: "DM-BeachHead.zip"
+hash: "171e8f1a230311b5d10ed74075040c018b08923f"
+fileSize: 2491774
+files:
+- name: "Invasion.utx"
+  fileSize: 1740456
+  hash: "fab0aad5c328ac9f78591e80deac1059a00a822a"
+- name: "DM-BeachHead.unr"
+  fileSize: 3242916
+  hash: "4921dc9a18c71f87998351e8ac05718d47953da8"
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+otherFiles: 0
+dependencies:
+  DM-BeachHead.unr:
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "Invasion"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/1/7/1e8f1a/DM-BeachHead.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/1/7/1e8f1a/DM-BeachHead.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/1/7/1e8f1a/DM-BeachHead.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Beach-head"
+playerCount: "12-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.1
+  Natural: 0.5
+  Skaarj Tech: 0.2
+bots: true

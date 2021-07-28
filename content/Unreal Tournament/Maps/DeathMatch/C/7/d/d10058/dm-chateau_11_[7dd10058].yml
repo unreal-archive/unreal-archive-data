@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:59"
+game: "Unreal Tournament"
+name: "DM-Chateau_1.1"
+author: "Monnick"
+description: "None"
+releaseDate: "1998-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Chateau_1.1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Chateau_1.1_shot_1.png"
+originalFilename: "dm-chateau_1.1.zip"
+hash: "7dd1005898e5e70fea8827f626bcdd8d7c97f13a"
+fileSize: 2197029
+files:
+- name: "ut_tree1.utx"
+  fileSize: 1327770
+  hash: "bac69121b5d7b82b8d7068af1ee0ef8661393367"
+- name: "Museum.utx"
+  fileSize: 1007684
+  hash: "5e4ee586a36d07f7a893db49d220b4895d3a1e35"
+- name: "DM-Chateau_1.1.unr"
+  fileSize: 3824713
+  hash: "d912fea6b44f96fbd9c35d06f89cbc4314b53212"
+otherFiles: 1
+dependencies:
+  DM-Chateau_1.1.unr:
+  - status: "OK"
+    name: "ut_tree1"
+  - status: "OK"
+    name: "Museum"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-chateau_1.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-chateau_1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-chateau_1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-chateau_1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/7/d/d10058/dm-chateau_1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/7/d/d10058/dm-chateau_1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Chateau_1.1"
+playerCount: "10-16"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.7
+  Nali Castle: 0.2
+bots: true

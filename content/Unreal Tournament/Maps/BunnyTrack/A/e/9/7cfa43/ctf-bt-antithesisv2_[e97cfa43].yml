@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 21:42"
+game: "Unreal Tournament"
+name: "CTF-BT-Antithesisv2"
+author: "Laurens \"Isotoxin\" Vijnck"
+description: "None"
+releaseDate: "2004-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Antithesisv2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/A/CTF-BT-Antithesisv2_shot_1.png"
+originalFilename: "CTF-BT-Antithesisv2.zip"
+hash: "e97cfa43af579a738ecbcc64de8e1f4946a2f480"
+fileSize: 19415264
+files:
+- name: "rt-arbor.utx"
+  fileSize: 6251669
+  hash: "e4565d82209b9449ed6144382089eb849dbc4783"
+- name: "LSoNP-milbdeco.utx"
+  fileSize: 662150
+  hash: "5557ccd53276e5a2f803d1215998faac7530f05c"
+- name: "LSoNPmilb001.u"
+  fileSize: 34443
+  hash: "70a3079039a2bc36102f54c1140b81e02fd67f23"
+- name: "CTF-BT-Antithesisv2.unr"
+  fileSize: 11761952
+  hash: "8086a443f55c93166ccb11c746bea99ba377602d"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "tree405.u"
+  fileSize: 198748
+  hash: "6215b64d644a4228870ea429496517405aba233c"
+- name: "JumpPadSound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+otherFiles: 1
+dependencies:
+  rt-arbor.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+  CTF-BT-Antithesisv2.unr:
+  - status: "OK"
+    name: "tree405"
+  - status: "OK"
+    name: "rt-arbor"
+  - status: "OK"
+    name: "JumpPadSound"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "LSoNPmilb001"
+  LSoNPmilb001.u:
+  - status: "OK"
+    name: "LSoNP-milbdeco"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Antithesisv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/A/e/9/7cfa43/CTF-BT-Antithesisv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/A/e/9/7cfa43/CTF-BT-Antithesisv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/A/e/9/7cfa43/CTF-BT-Antithesisv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Antithesis"
+playerCount: "1-20"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: false

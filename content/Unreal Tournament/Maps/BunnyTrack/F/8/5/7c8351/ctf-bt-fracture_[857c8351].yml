@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:36"
+variationOf: "4b61d0c37c2b13b04925cefd1d716c0642c2a1ab"
+game: "Unreal Tournament"
+name: "CTF-BT-Fracture"
+author: "r<3 - r4m0n"
+description: "None"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "CTF-BT-Fracture.zip"
+hash: "857c835118e1649b9cdf5d7587b244a21e933074"
+fileSize: 24307550
+files:
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "CTF-BT-Fracture.unr"
+  fileSize: 4589392
+  hash: "f14a95c28a9b1db217f84be8b8898388d6a80ad7"
+- name: "TexR.utx"
+  fileSize: 2776178
+  hash: "70e5e764a29e1af6ae95888a886f626750ba608c"
+- name: "Asbestos.utx"
+  fileSize: 279269
+  hash: "e81cb9db7a8c96d265eab6484c94bccd32a9d67c"
+- name: "HourKraden_UT.utx"
+  fileSize: 14586278
+  hash: "f90db87bc8d204b8970cb6beed5401b6b4ad4769"
+otherFiles: 0
+dependencies:
+  CTF-BT-Fracture.unr:
+  - status: "OK"
+    name: "Asbestos"
+  - status: "OK"
+    name: "TexR"
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "HourKraden_UT"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Fracture.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/F/CTF-BT-Fracture.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/F/8/5/7c8351/CTF-BT-Fracture.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/F/8/5/7c8351/CTF-BT-Fracture.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Fracture"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.9
+bots: false

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:30"
+game: "Unreal Tournament"
+name: "CTF-Face-castles-lol"
+author: "Cedric 'Inoxx' Fiorentino"
+description: "None"
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Face-castles-lol_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-Face-castles-lol_shot_1.png"
+originalFilename: "CTF-Face-castles-lol.zip"
+hash: "22ce4ce51112ae00639ce4b876ba1856efb4092a"
+fileSize: 3067336
+files:
+- name: "SRL.u"
+  fileSize: 416085
+  hash: "3ea113f7e8049c706aa6da0a9554f64d6e06ad32"
+- name: "CTF-Face-castles-lol.unr"
+  fileSize: 767561
+  hash: "90bda8e905409a91bdce303618822eb14cff03b1"
+- name: "Eminen-MortalKombat.umx"
+  fileSize: 3161741
+  hash: "e23c74f8c86e05f97120e2a0c29985d4162f4413"
+otherFiles: 0
+dependencies:
+  CTF-Face-castles-lol.unr:
+  - status: "OK"
+    name: "Eminen-MortalKombat"
+  - status: "OK"
+    name: "SRL"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Face-castles-lol.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-Face-castles-lol.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/2/2/ce4ce5/CTF-Face-castles-lol.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/2/2/ce4ce5/CTF-Face-castles-lol.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Facing Worlds"
+playerCount: "4-10"
+themes:
+  Industrial: 0.6
+  Ancient: 0.4
+bots: true

@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:44"
+game: "Unreal Tournament"
+name: "CTF-BT-(B128)Phantom-v2b"
+author: "BeN128"
+description: "GL HF 1-12 Players"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bt-b128phantom-v2b_shot_7f977583_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/B/7/f/977583/ctf-bt-b128phantom-v2b_shot_7f977583_2.png"
+- type: "IMAGE"
+  name: "ctf-bt-b128phantom-v2b_shot_7f977583_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/B/7/f/977583/ctf-bt-b128phantom-v2b_shot_7f977583_1.png"
+originalFilename: "ctf-bt-(b128)phantom-v2b.zip"
+hash: "7f977583a874f5431ed0e033d72c2cc9321e19bf"
+fileSize: 2793337
+files:
+- name: "SpaceFX.utx"
+  fileSize: 1124420
+  hash: "717281e052470f3a7f343b09066935edd9b4deaa"
+- name: "CTF-BT-(B128)Phantom-v2b.unr"
+  fileSize: 1770890
+  hash: "1a57cb0211a01486bb9225d6a1180cb19b802e29"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 1
+dependencies:
+  CTF-BT-(B128)Phantom-v2b.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "MISSING"
+    name: "UNATCO"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5744"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/B/ctf-bt-(b128)phantom-v2b.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/B/7/f/977583/ctf-bt-(b128)phantom-v2b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/B/7/f/977583/ctf-bt-(b128)phantom-v2b.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Phantom (v2b)"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.9
+  Natural: 0.1
+bots: false

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:01"
+game: "Unreal Tournament"
+name: "CTF-WideOpenSpaces"
+author: "Kuldiil"
+description: "None"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-WideOpenSpaces_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-WideOpenSpaces_shot_1.png"
+originalFilename: "ctf-wideopenspaces.zip"
+hash: "14eae0877234107cce3948c9f692e21b59dfa963"
+fileSize: 985031
+files:
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "CTF-WideOpenSpaces.unr"
+  fileSize: 757507
+  hash: "56f2a85dd393ef8585c6ea97e5050455115e9d16"
+- name: "RT-Gnosis.utx"
+  fileSize: 446547
+  hash: "dd6a7227d82cdea43034972c4a60ac9a10ce61af"
+otherFiles: 1
+dependencies:
+  CTF-WideOpenSpaces.unr:
+  - status: "OK"
+    name: "RT-Gnosis"
+  RT-Gnosis.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-wideopenspaces.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/ctf-wideopenspaces.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/1/4/eae087/ctf-wideopenspaces.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/1/4/eae087/ctf-wideopenspaces.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "WideOpenSpaces"
+playerCount: "7-14"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: false

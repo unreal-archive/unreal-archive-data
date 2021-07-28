@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:31"
+game: "Unreal Tournament"
+name: "CTF-FluxX"
+author: "bongoliath"
+description: "None"
+releaseDate: "2018-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FluxX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FluxX_shot_1.png"
+originalFilename: "CTF-FluxX.rar"
+hash: "d8125e67d0898d0a59eb5eda21e848c23db3f66f"
+fileSize: 1544733
+files:
+- name: "CTF-FluxX.unr"
+  fileSize: 2701757
+  hash: "45a3c53f2f137fba9e195f9ff2631692dd7f290b"
+- name: "AroundChaos.umx"
+  fileSize: 1871470
+  hash: "f2bae9dd72773362363ce7f067c20821ac5e5fe4"
+otherFiles: 0
+dependencies:
+  CTF-FluxX.unr:
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "HourIceSkaarj"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "ZacPack5XD"
+  - status: "OK"
+    name: "AroundChaos"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-FluxX.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FluxX.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/d/8/125e67/CTF-FluxX.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/d/8/125e67/CTF-FluxX.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "FluxX"
+playerCount: "10-20"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.5
+  Industrial: 0.3
+bots: true

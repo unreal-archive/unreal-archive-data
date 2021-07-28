@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:53"
+game: "Unreal Tournament"
+name: "CTF-'FTB-Duel2008"
+author: "*FTB*~BuzzKill~"
+description: "None"
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-'FTB-Duel2008_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-'FTB-Duel2008_shot_1.png"
+originalFilename: "CTF-'FTB-Duel2008.zip"
+hash: "d80e178c1974efd868087ae2a0d0343e642bf99d"
+fileSize: 5033419
+files:
+- name: "CTF-'FTB-Duel2008.unr"
+  fileSize: 450536
+  hash: "f9afb486d05f3ab1e4e14c02766044d6c6fdaf56"
+- name: "2008FTBTextures.utx"
+  fileSize: 2038702
+  hash: "be8a5e1dfd6ae0d19020e09d609936c5d61021fe"
+- name: "Bodies.umx"
+  fileSize: 4458356
+  hash: "4ce5890214114f777bd57035df0de6731d04c087"
+otherFiles: 0
+dependencies:
+  CTF-'FTB-Duel2008.unr:
+  - status: "OK"
+    name: "Bodies"
+  - status: "OK"
+    name: "2008FTBTextures"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=CTF-%27FTB-Duel2008.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-'FTB-Duel2008.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%27FTB-Duel2008.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/d/8/0e178c/CTF-'FTB-Duel2008.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/d/8/0e178c/CTF-'FTB-Duel2008.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "2008 Duel"
+playerCount: "2-8"
+themes:
+  Natural: 1.0
+bots: true

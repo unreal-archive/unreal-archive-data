@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-06-07 14:59"
+game: "Unreal Tournament"
+name: "FD-Lego4ever"
+author: "Maarten 'Eagle' Tops"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "FD-Lego4ever_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Flag%20Domination/L/FD-Lego4ever_shot_1.png"
+originalFilename: "fdlego4ever_acc06f29.zip"
+hash: "acc06f2911596ab0815d3d1715f4156c743c72b1"
+fileSize: 3774268
+files:
+- name: "FD-Lego4ever.unr"
+  fileSize: 5618622
+  hash: "e5d092cc9c4596b81e0b4294f46e31f43a0bfbe4"
+- name: "Lego.utx"
+  fileSize: 1220277
+  hash: "b58aa89c048338f319ceb7da2ec21de5c336f17e"
+- name: "LegoGreen.utx"
+  fileSize: 279763
+  hash: "4854933e18a72a7f4b27eb08fe59fe9d44203d65"
+- name: "Nightmare.umx"
+  fileSize: 2637876
+  hash: "e858a87301a6681bce2b76e8ad2686ac7944b18a"
+otherFiles: 0
+dependencies:
+  FD-Lego4ever.unr:
+  - status: "MISSING"
+    name: "FlagDom"
+  - status: "OK"
+    name: "LegoGreen"
+  - status: "OK"
+    name: "Lego"
+  - status: "MISSING"
+    name: "FDDecals"
+  - status: "OK"
+    name: "Nightmare"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Flag%20Domination/L/fdlego4ever_acc06f29.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Flag%20Domination/L/a/c/c06f29/fdlego4ever_acc06f29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Flag%20Domination/L/a/c/c06f29/fdlego4ever_acc06f29.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Flag Domination"
+title: "Lego4ever"
+playerCount: "12 - 32"
+themes: {}
+bots: true

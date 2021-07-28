@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-12 18:20"
-variationOf: null
 game: "Unreal"
 name: "Real_Morbias"
 author: "'Myscha the sled dog' and 'LifesBane'"
@@ -20,16 +19,18 @@ dependencies:
   Real_Morbias.unr:
   - status: "MISSING"
     name: "RealCTFtxtrs"
-    providedBy: null
   - status: "MISSING"
     name: "RealCTF"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/R/2/4/fa030a/realmorbias.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/R/2/4/fa030a/realmorbias.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/RealCTF/M/2/4/fa030a/realmorbias.zip"
   main: false
   repack: false
   state: "OK"

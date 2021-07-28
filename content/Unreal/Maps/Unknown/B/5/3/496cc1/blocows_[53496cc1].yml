@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-03 19:51"
-variationOf: null
 game: "Unreal"
 name: "blocows"
 author: "Unknown"
@@ -23,13 +22,16 @@ dependencies:
   blocows.unr:
   - status: "OK"
     name: "BloCow"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/B/blocow2.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/B/5/3/496cc1/blocow2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/B/5/3/496cc1/blocow2.zip"
   main: false
   repack: false
   state: "OK"

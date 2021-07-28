@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:02"
+game: "Unreal Tournament"
+name: "CTFM-DoubleDefence"
+author: "RJGexplode"
+description: "Defend the base!"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-DoubleDefence_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/CTFM-DoubleDefence_shot_1.png"
+originalFilename: "ctfm-doubledefence.zip"
+hash: "1c68072118d5f011c9c4eef33320d1ccf8543ff1"
+fileSize: 369626
+files:
+- name: "Mv_hyper.umx"
+  fileSize: 502025
+  hash: "a0010412872311ee5f2ca68d774c6ded84903349"
+- name: "CTFM-DoubleDefence.unr"
+  fileSize: 1391053
+  hash: "c0bc42b38d93ca98e1339af12a7f832d7f56e0d4"
+otherFiles: 2
+dependencies:
+  CTFM-DoubleDefence.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "OK"
+    name: "Mv_hyper"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/ctfm-doubledefence.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-doubledefence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-doubledefence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-doubledefence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-doubledefence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/1/c/680721/ctfm-doubledefence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/D/1/c/680721/ctfm-doubledefence.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Double Defense!"
+playerCount: "A LOT!!!"
+themes:
+  Tech: 1.0
+bots: true

@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:18"
+game: "Unreal Tournament"
+name: "MH-Sky_Isles"
+author: "DeluxScan (steve_irwin@ofir.dk)"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-sky_isles.zip"
+hash: "69e0a59ffa9be33c014c1b3fb78484e6dd874352"
+fileSize: 5624170
+files:
+- name: "HauntedCreatures.u"
+  fileSize: 565379
+  hash: "3173950f2af3637af7b76ec7c8ade46543ccb9c8"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-Sky_Isles.unr"
+  fileSize: 3464668
+  hash: "d4680087c25b6f55e078c27499b35c4a1eee1205"
+- name: "Deadsounds.uax"
+  fileSize: 535026
+  hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+- name: "DawnT.utx"
+  fileSize: 441605
+  hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+- name: "Surface.umx"
+  fileSize: 694494
+  hash: "c09f0878fba20561f523e9b75da586c32a5c467c"
+- name: "UTMHpack.u"
+  fileSize: 4498715
+  hash: "be3c69a56f792c235ee41e65707af38a4a8b4ed2"
+- name: "QJet.u"
+  fileSize: 111060
+  hash: "63d25a65028518fc0842ecc2fea7b99dcbd0ac46"
+otherFiles: 2
+dependencies:
+  HauntedCreatures.u:
+  - status: "OK"
+    name: "Deadsounds"
+  - status: "OK"
+    name: "DawnT"
+  MH-Sky_Isles.unr:
+  - status: "OK"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "Surface"
+  - status: "OK"
+    name: "HauntedCreatures"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "QJet"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-sky_isles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/mh-sky_isles.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-sky_isles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/6/9/e0a59f/mh-sky_isles.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/6/9/e0a59f/mh-sky_isles.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Sky Isles"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: false

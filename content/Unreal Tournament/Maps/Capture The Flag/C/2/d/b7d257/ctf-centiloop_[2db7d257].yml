@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:26"
+game: "Unreal Tournament"
+name: "CTF-Centiloop"
+author: "Steven \"Heeee Man\" Duncan"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Centiloop_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-Centiloop_shot_1.png"
+originalFilename: "ctf-centiloop.zip"
+hash: "2db7d2575f53b9a615e2fd3e727569a90c915105"
+fileSize: 2518960
+files:
+- name: "CTF-Centiloop.unr"
+  fileSize: 4956542
+  hash: "cbfddd5e87460491a921f67c3c799c91626658b9"
+- name: "Centiloop.utx"
+  fileSize: 667327
+  hash: "e11a04cb3be12e87a657e5665bd7c2fd1c77cb6e"
+otherFiles: 1
+dependencies:
+  CTF-Centiloop.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "Centiloop"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-centiloop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-centiloop.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=346"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/2/d/b7d257/ctf-centiloop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/2/d/b7d257/ctf-centiloop.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF - Centiloop"
+playerCount: "10 - 16"
+themes:
+  Tech: 0.3
+  Industrial: 0.6
+  Natural: 0.1
+bots: true

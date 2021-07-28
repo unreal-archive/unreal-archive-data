@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 18:51"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "AS-{UEM}-Frontportal"
 author: "U.E.M"
@@ -53,20 +52,20 @@ dependencies:
   AS-{UEM}-Frontportal.ut2:
   - status: "OK"
     name: "ASPortalSM"
-    providedBy: null
   - status: "OK"
     name: "antibotsounds"
-    providedBy: null
   - status: "OK"
     name: "ASPortalTexes"
-    providedBy: null
   ASPortalSM.usx:
   - status: "OK"
     name: "ASPortalTexes"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/U/1/3/cbafec/AS-%7BUEM%7D-Frontportal.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/U/1/3/cbafec/AS-%257BUEM%257D-Frontportal.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

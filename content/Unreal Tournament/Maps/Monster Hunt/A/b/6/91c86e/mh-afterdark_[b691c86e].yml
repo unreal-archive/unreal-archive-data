@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 03:36"
+game: "Unreal Tournament"
+name: "MH-AfterDark"
+author: "Terraniux, the Dutch mapper."
+description: "None"
+releaseDate: "2011-07"
+attachments:
+- type: "IMAGE"
+  name: "mh-afterdark_shot_b691c86e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/A/mh-afterdark_shot_b691c86e_1.png"
+originalFilename: "MH-AfterDark.rar"
+hash: "b691c86e35eb16255829ebe5bd07fb671e3fe092"
+fileSize: 8781075
+files:
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "EOSbyTerraniux.umx"
+  fileSize: 11160281
+  hash: "c64cca7fe13d6eb813db204ae98c8cf91e883545"
+- name: "MH-AfterDark.unr"
+  fileSize: 6394041
+  hash: "ffd1b33193828e3500865f9a9847528bcd619d84"
+otherFiles: 0
+dependencies:
+  MH-AfterDark.unr:
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  - status: "MISSING"
+    name: "BPak"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Anc"
+  - status: "OK"
+    name: "EOSbyTerraniux"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-AfterDark.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/A/MH-AfterDark.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-AfterDark.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/A/b/6/91c86e/MH-AfterDark.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/b/6/91c86e/MH-AfterDark.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "After Dark"
+playerCount: "8"
+themes:
+  Industrial: 0.8
+  Ancient: 0.1
+  Skaarj Tech: 0.1
+bots: true

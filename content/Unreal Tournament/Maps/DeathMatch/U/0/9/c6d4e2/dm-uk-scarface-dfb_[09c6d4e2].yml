@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:55"
+game: "Unreal Tournament"
+name: "DM-UK-Scarface-dfb"
+author: "{dFb}Vanquisher-vs-=Scorpion=-"
+description: "Say hello to my little friend..."
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-UK-Scarface-dfb_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Scarface-dfb_shot_1.png"
+originalFilename: "DM-UK-Scarface-dfb.zip"
+hash: "09c6d4e202ab06bd96ad02df31f65e05f10458bb"
+fileSize: 12746226
+files:
+- name: "DM-UK-Scarface-dfb.unr"
+  fileSize: 8212872
+  hash: "872a73ac9f027901a9c7a0258a3017dd857c081c"
+- name: "lol-FortWilliam.utx"
+  fileSize: 4087304
+  hash: "0bd2338f0cc45ec6fa2310917a8f5f1460c54938"
+- name: "scarefaceDFB.utx"
+  fileSize: 3143911
+  hash: "d3b7199c64bf68b18a70a26a078a717faa4eab1c"
+- name: "Pretender.umx"
+  fileSize: 4312920
+  hash: "b7e9cbf87c03be2bbfafcd8f8ef99a6a6fff6dad"
+- name: "dFb-Saloon.utx"
+  fileSize: 1906352
+  hash: "10c62cbcebf79420a54e01167f6ea7e0a32cfa67"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  DM-UK-Scarface-dfb.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "dFb-Saloon"
+  - status: "OK"
+    name: "Pretender"
+  - status: "OK"
+    name: "scarefaceDFB"
+  - status: "OK"
+    name: "lol-FortWilliam"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-UK-Scarface-dfb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Scarface-dfb.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/0/9/c6d4e2/DM-UK-Scarface-dfb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/0/9/c6d4e2/DM-UK-Scarface-dfb.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{dFb}Scarface-UK"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

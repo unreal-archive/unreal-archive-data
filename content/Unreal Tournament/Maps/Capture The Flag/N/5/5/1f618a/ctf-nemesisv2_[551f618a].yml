@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:13"
+game: "Unreal Tournament"
+name: "CTF-NemesisV2"
+author: "Andrea \"Palka\" Varnier/HortonsWho"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-NemesisV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NemesisV2_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-NemesisV2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NemesisV2_shot_2.png"
+originalFilename: "ctf-nemesisv2.zip"
+hash: "551f618a36580eec08defd34bee5e2b12942b70d"
+fileSize: 1590585
+files:
+- name: "Contest.utx"
+  fileSize: 702740
+  hash: "273c42d49fbe635f610a4b1e5b410f12187c9e7a"
+- name: "CTF-NemesisV2.unr"
+  fileSize: 3036880
+  hash: "862e96a43476cf937f286d65697abb469fd8471e"
+otherFiles: 2
+dependencies:
+  CTF-NemesisV2.unr:
+  - status: "OK"
+    name: "Contest"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-nemesisv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-nemesisv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1469"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/5/5/1f618a/ctf-nemesisv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/5/5/1f618a/ctf-nemesisv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Nemesis Hideout"
+playerCount: "8-16"
+themes:
+  Skaarj Tech: 1.0
+bots: true

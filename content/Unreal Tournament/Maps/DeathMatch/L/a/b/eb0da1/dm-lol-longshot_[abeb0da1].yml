@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:52"
+game: "Unreal Tournament"
+name: "DM-lol-Longshot"
+author: "Jeff \"MuchFun\" Whittaker + <lol>BK"
+description: "Welcome to the Ancient Tower"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-Longshot_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-Longshot_shot_1.png"
+originalFilename: "DM-lol-Longshot.zip"
+hash: "abeb0da19f41f1e366af01b606b396668e19f8d5"
+fileSize: 3831422
+files:
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "AbbeyTex.utx"
+  fileSize: 1572406
+  hash: "a25e54237a0bf96a1a105e1510ef1a27fb46c58c"
+- name: "Matrix.uax"
+  fileSize: 818521
+  hash: "737a72b078d026ea69572e770f2453b9daa8af08"
+- name: "DM-lol-Longshot.unr"
+  fileSize: 4217781
+  hash: "6f4affcce72f6c42477546851ead18a5f38da8ee"
+otherFiles: 0
+dependencies:
+  DM-lol-Longshot.unr:
+  - status: "OK"
+    name: "AbbeyTex"
+  - status: "OK"
+    name: "Matrix"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-Longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-Longshot.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-Longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/a/b/eb0da1/DM-lol-Longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/a/b/eb0da1/DM-lol-Longshot.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ancient Tower"
+playerCount: "6-20 Players"
+themes:
+  Nali Temple: 0.6
+  Skaarj Crypt: 0.4
+bots: true

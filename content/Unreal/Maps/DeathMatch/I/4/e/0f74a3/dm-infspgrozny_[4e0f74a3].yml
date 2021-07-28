@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:55"
+game: "Unreal"
+name: "DM-INF[SP]Grozny"
+author: "Old Geezer"
+description: "None"
+releaseDate: "2010-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-infspgrozny_shot_4e0f74a3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/I/dm-infspgrozny_shot_4e0f74a3_1.png"
+originalFilename: "DM-INF[SP]Grozny.zip"
+hash: "4e0f74a32f5b7b74885c488ac1d3fcfcf2233a12"
+fileSize: 9430223
+files:
+- name: "DM-INF[SP]Grozny.unr"
+  fileSize: 17957857
+  hash: "24077ff9d37916f7b369e1fcc00389f291beff4a"
+- name: "Grozsnd.uax"
+  fileSize: 543072
+  hash: "c7ef18eaa747e370e5042bbb5798b9f84fa78ce2"
+otherFiles: 0
+dependencies:
+  DM-INF[SP]Grozny.unr:
+  - status: "OK"
+    name: "Grozsnd"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/I/DM-INF%5BSP%5DGrozny.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/I/4/e/0f74a3/DM-INF%255BSP%255DGrozny.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/I/4/e/0f74a3/DM-INF%255BSP%255DGrozny.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-INF[SP]Grozny"
+playerCount: "8-24"
+themes:
+  Nali Temple: 0.8
+  Skaarj Tech: 0.2
+bots: true

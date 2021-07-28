@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:47"
+game: "Unreal Tournament"
+name: "CTF-Metro"
+author: "Sean /devilbunny/ Bonney"
+description: "anvil-studio.com"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Metro_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-Metro_shot_1.png"
+originalFilename: "CTF-Metro.zip"
+hash: "f1e0e74ba8937613cff41febeb32d311ebcb94d3"
+fileSize: 3513407
+files:
+- name: "CTF-Metro.unr"
+  fileSize: 9111604
+  hash: "2855dfe2941c5f941ec40583b8e8ae05f149b202"
+- name: "Metro.utx"
+  fileSize: 1418146
+  hash: "558bbde134494ffc6ff4e888115c0c87ba8a24fa"
+otherFiles: 1
+dependencies:
+  CTF-Metro.unr:
+  - status: "OK"
+    name: "Metro"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Metro.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-Metro.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/f/1/e0e74b/CTF-Metro.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/f/1/e0e74b/CTF-Metro.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Metro"
+playerCount: "8-16"
+themes:
+  Industrial: 0.7
+  Ancient: 0.1
+  Skaarj Tech: 0.2
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:30"
+game: "Unreal Tournament"
+name: "DM-Halo-Derelict-UKS"
+author: "[^..^]APOCALYPSE (Cirion/Perfect Chaos, UT 2K4)"
+description: "None"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-Halo-Derelict-UKS_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-Halo-Derelict-UKS_shot_1.png"
+originalFilename: "dm-halo-derelict-uks.zip"
+hash: "63331da1ad5f84e7ef36fac4de180f35f3e807d1"
+fileSize: 5907974
+files:
+- name: "5-2SA1.umx"
+  fileSize: 2479685
+  hash: "6d7e1149be7745d113547d0a7a7da3565abf88ee"
+- name: "halochant.umx"
+  fileSize: 3651210
+  hash: "d0fd23402df586fd50d2807add078f0550a2c974"
+- name: "DM-Halo-Derelict-UKS.unr"
+  fileSize: 2039786
+  hash: "e8d6a8141590f7ed720fb008921f91e509791622"
+- name: "HaloTex.utx"
+  fileSize: 2334380
+  hash: "2c280237b21a9281178643756cf94e1b478fc6f0"
+otherFiles: 0
+dependencies:
+  DM-Halo-Derelict-UKS.unr:
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "HaloTex"
+  - status: "OK"
+    name: "5-2SA1"
+  - status: "OK"
+    name: "halochant"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-halo-derelict-uks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/dm-halo-derelict-uks.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/6/3/331da1/dm-halo-derelict-uks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/6/3/331da1/dm-halo-derelict-uks.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Halo Derelict - UKS Special Edition"
+playerCount: "2-10"
+themes:
+  Industrial: 0.5
+  Natural: 0.5
+bots: true

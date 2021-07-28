@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:20"
+game: "Unreal Tournament"
+name: "MH-SkyWars"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "mh-skywars.zip"
+hash: "c5be475f3f2a886fcda69581ab2649c5833310e5"
+fileSize: 774541
+files:
+- name: "MH-SkyWars.unr"
+  fileSize: 2363936
+  hash: "c471d6e4bc1cccda1c71fe8e35d8164b968d7934"
+- name: "EK_map_pack.u"
+  fileSize: 94489
+  hash: "dce81d6bf10556c4af71d46fc209833e0d196862"
+otherFiles: 0
+dependencies:
+  MH-SkyWars.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "Guardian"
+  - status: "OK"
+    name: "EK_map_pack"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-skywars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/mh-skywars.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-skywars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/c/5/be475f/mh-skywars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/c/5/be475f/mh-skywars.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-SkyWars"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Industrial: 0.1
+  Skaarj Tech: 0.2
+bots: false

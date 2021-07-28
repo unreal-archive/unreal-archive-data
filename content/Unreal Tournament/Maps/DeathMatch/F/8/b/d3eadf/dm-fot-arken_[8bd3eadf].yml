@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:30"
+game: "Unreal Tournament"
+name: "DM-FoT-Arken"
+author: "Tobby \"GTD-Carthage\" Ong"
+description: "None"
+releaseDate: "2006-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-FoT-Arken_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FoT-Arken_shot_1.png"
+originalFilename: "DM-FoT-Arken.zip"
+hash: "8bd3eadfc83cba69604717715ef4414533703ad4"
+fileSize: 19799043
+files:
+- name: "ZephonTechStuff.utx"
+  fileSize: 2445575
+  hash: "b554f0145e46c62a544521a3d81c0926f9c163d5"
+- name: "UT3-PlasmaOscillator.umx"
+  fileSize: 10248849
+  hash: "c5911fe4c0a47203036253a045f36c22ea8c8690"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DM-FoT-Arken.unr"
+  fileSize: 22963421
+  hash: "a5c0dc5d28cb3ff6f7bb3a386fcaab20de62a3eb"
+otherFiles: 0
+dependencies:
+  DM-FoT-Arken.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "UT3-PlasmaOscillator"
+  - status: "OK"
+    name: "ZephonTechStuff"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-FoT-Arken.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FoT-Arken.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/8/b/d3eadf/DM-FoT-Arken.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/8/b/d3eadf/DM-FoT-Arken.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Arken Weapons Inc."
+playerCount: "2-4"
+themes: {}
+bots: true

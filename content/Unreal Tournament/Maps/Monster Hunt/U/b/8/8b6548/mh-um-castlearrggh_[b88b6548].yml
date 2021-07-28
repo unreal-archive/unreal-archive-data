@@ -1,0 +1,92 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 05:31"
+game: "Unreal Tournament"
+name: "MH-UM-CastleArrggh"
+author: "Kevin \"Skorch\" Little/Hitman"
+description: "VISIT US AT UNREAL-MAYHEM.COM"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "MH-UM-CastleArrggh_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/U/MH-UM-CastleArrggh_shot_1.png"
+originalFilename: "MH-UM-CastleArrggh.zip"
+hash: "b88b6548533e333a239bdbeb8f300a3e6cd141a2"
+fileSize: 13375367
+files:
+- name: "PlasmaTitan.u"
+  fileSize: 445358
+  hash: "27dbaecd6a97bc4e9176a9b8089a815c82abbfbc"
+- name: "WarNukingGroundfix.u"
+  fileSize: 1871058
+  hash: "60e699b04761e44ee8be4bf6fd5ca6eafa983db9"
+- name: "MH-UM-CastleArrggh.unr"
+  fileSize: 15196024
+  hash: "a140686d7a8d63f786b25e1c7f6990df5aaddefb"
+- name: "UM16A1.u"
+  fileSize: 897272
+  hash: "2f88a460fcff23cecbdf392fb52b12305ce8e06b"
+- name: "SoldierSkins-UM-v1.utx"
+  fileSize: 2191893
+  hash: "28942846267ef4ae2ee5ed9acab7b2ea4625475c"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "SGirlSkins-UM-v3.utx"
+  fileSize: 1309931
+  hash: "6ffb73443e40a44821bdbf4ab001c01ca0cb74ac"
+- name: "SoCold.umx"
+  fileSize: 6031529
+  hash: "15f3f913150721cd8d5a16955beb6acf922f7d41"
+otherFiles: 0
+dependencies:
+  WarNukingGroundfix.u:
+  - status: "MISSING"
+    name: "Spinner"
+  MH-UM-CastleArrggh.unr:
+  - status: "OK"
+    name: "WarNukingGroundfix"
+  - status: "OK"
+    name: "SGirlSkins-UM-v3"
+  - status: "OK"
+    name: "SoCold"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "UM16A1"
+  - status: "OK"
+    name: "PlasmaTitan"
+  - status: "OK"
+    name: "SoldierSkins-UM-v1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-UM-CastleArrggh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/U/MH-UM-CastleArrggh.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-UM-CastleArrggh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/U/b/8/8b6548/MH-UM-CastleArrggh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/b/8/8b6548/MH-UM-CastleArrggh.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-UM-CastleArrggh"
+playerCount: "12-16"
+themes:
+  Tech: 0.1
+  Ancient: 0.1
+  City: 0.1
+  Natural: 0.1
+  Nali Castle: 0.6
+bots: true

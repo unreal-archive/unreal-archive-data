@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:39"
+game: "Unreal Tournament"
+name: "Erusludus"
+author: "Unknown"
+description: "None"
+releaseDate: "2001-11"
+attachments: []
+originalFilename: "erusludus.zip"
+hash: "69e1be1fd6ecb9e9d5b70b77319d6721efd1535c"
+fileSize: 38787
+files:
+- name: "LudusObex.u"
+  fileSize: 69488
+  hash: "3f2ccd1c45d395ae7b20e840c307886ee8df9d74"
+- name: "ErusLudus.u"
+  fileSize: 43856
+  hash: "4ef79661b0e4c53d13cfd6021071d2aa98744075"
+otherFiles: 4
+dependencies:
+  LudusObex.u:
+  - status: "OK"
+    name: "ErusLudus"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/erusludus&file=erusludus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/E/erusludus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/E/6/9/e1be1f/erusludus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/E/6/9/e1be1f/erusludus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "LudusObex"
+  description: "Ludus Obex - the School of Barrier"
+- name: "ErusLudus"
+  description: "Erus Ludus - LudusX Manager"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: true

@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:43"
+game: "Unreal Tournament"
+name: "DM-[BBST]-Artic"
+author: "Radius"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-bbst-artic_shot_67754758_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/6/7/754758/dm-bbst-artic_shot_67754758_1.png"
+originalFilename: "dm-[bbst]-artic.zip"
+hash: "67754758a4feabf4f3c9d6a5892d848d161a651f"
+fileSize: 4638367
+files:
+- name: "[BBST]-Oil.utx"
+  fileSize: 1881361
+  hash: "1018dae6116f07cea39b605364b5d1c7f2abcfd6"
+- name: "pb_totalizator.umx"
+  fileSize: 323167
+  hash: "071a09ce4485bee80f8986975d05383f362bf621"
+- name: "Industrial_Pack1.u"
+  fileSize: 2164988
+  hash: "e48d99d0577ec376c0a55d505601db7378af9c28"
+- name: "DM-[BBST]-Artic.unr"
+  fileSize: 7635232
+  hash: "0f5c599b180de58a9aba76e0e3f19734c7af2cf7"
+otherFiles: 0
+dependencies:
+  DM-[BBST]-Artic.unr:
+  - status: "OK"
+    name: "Industrial_Pack1"
+  - status: "OK"
+    name: "pb_totalizator"
+  - status: "OK"
+    name: "[BBST]-Oil"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%5Bbbst%5D-artic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/6/7/754758/dm-%5Bbbst%5D-artic.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/6/7/754758/dm-%255Bbbst%255D-artic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/6/7/754758/dm-%255Bbbst%255D-artic.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[BBST]-Artic"
+playerCount: "5-15"
+themes:
+  Tech: 0.1
+  Industrial: 0.8
+  Natural: 0.1
+bots: false

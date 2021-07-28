@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:36"
+variationOf: "3008ca0a76990d38dac8b167f03f88bdbf516b6b"
+game: "Unreal Tournament"
+name: "CTF-ColaWars"
+author: "Dirk_Diggler"
+description: "Fight For Your Tastebuds"
+releaseDate: "2000-05"
+attachments: []
+originalFilename: "CTF-ColaWars.zip"
+hash: "b574c35d67605d1ecf6411a3f694d60e549a0715"
+fileSize: 1700375
+files:
+- name: "CTF-ColaWars.unr"
+  fileSize: 1754802
+  hash: "14f0471675137c019f7e30aac4ed2abbc5a51ca0"
+- name: "CTF-Cola.utx"
+  fileSize: 2783975
+  hash: "61c27cc5b5496bc7f5bb38fe44d9ebe1a66b1315"
+otherFiles: 1
+dependencies:
+  CTF-ColaWars.unr:
+  - status: "OK"
+    name: "CTF-Cola"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/5/74c35d/CTF-ColaWars.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/5/74c35d/CTF-ColaWars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/5/74c35d/CTF-ColaWars.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Cola Wars"
+playerCount: "6-20"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

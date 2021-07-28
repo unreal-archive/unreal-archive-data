@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:22"
+game: "Unreal Tournament"
+name: "DM-Los_Angeles_2341"
+author: "Judas Sinn"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-Los_Angeles_2341_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-Los_Angeles_2341_shot_1.png"
+originalFilename: "dm-losangeles2341.zip"
+hash: "594c5802d0087f44b95e47448a84bd2f7ac69d69"
+fileSize: 2638254
+files:
+- name: "DM-Los_Angeles_2341.unr"
+  fileSize: 2057030
+  hash: "b253dbfbdfffdd21597337ae6f63d34bcfe96ad5"
+- name: "JS_LA2341.utx"
+  fileSize: 2380497
+  hash: "9d4b6dc041a8b276b6be039e641d7f029fbae73a"
+- name: "LA_Sound.uax"
+  fileSize: 92596
+  hash: "65c4f84a162307b5dc77135fcf0934304303b3e1"
+- name: "r-deep.umx"
+  fileSize: 1993327
+  hash: "303aafe20c11d41e23c56c1c0d04ea1e3f5dd1cd"
+otherFiles: 1
+dependencies:
+  DM-Los_Angeles_2341.unr:
+  - status: "OK"
+    name: "LA_Sound"
+  - status: "OK"
+    name: "r-deep"
+  - status: "OK"
+    name: "JS_LA2341"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-losangeles2341.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-losangeles2341.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-losangeles2341.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsL/dm-losangeles2341.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/5/9/4c5802/dm-losangeles2341.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/5/9/4c5802/dm-losangeles2341.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Los_Angeles_2341"
+playerCount: "12-15"
+themes:
+  Industrial: 0.8
+  Ancient: 0.1
+  City: 0.1
+bots: true

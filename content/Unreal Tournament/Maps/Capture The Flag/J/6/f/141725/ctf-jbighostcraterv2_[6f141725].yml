@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:04"
+variationOf: "b292d42ae318e6fd5b444a0006bd8b2942d62971"
+game: "Unreal Tournament"
+name: "CTF-(jBi)GhostCraterV2"
+author: "{jBi}LexiconDevil"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-jbighostcraterv2_shot_6f141725_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/6/f/141725/ctf-jbighostcraterv2_shot_6f141725_1.png"
+originalFilename: "ctf-(jbi)ghostcraterv2.zip"
+hash: "6f141725ddbd8aa95fba30bc99780f18b01905ff"
+fileSize: 1988454
+files:
+- name: "lexicondevil.utx"
+  fileSize: 1241681
+  hash: "e21897d5b15fd85626aeffd7a596755c106c94fc"
+- name: "te-secwo.umx"
+  fileSize: 942489
+  hash: "a0a1c5e1c270389c1626fffd78e13f2ee1bb456c"
+- name: "Bronx.uax"
+  fileSize: 753192
+  hash: "a9f4952d526fc84e34bba9dcbc91c56ad3b8c29a"
+- name: "CTF-(jBi)GhostCraterV2.unr"
+  fileSize: 985126
+  hash: "b783c12a4eaabd85cc283f3223302c122b690785"
+otherFiles: 1
+dependencies:
+  CTF-(jBi)GhostCraterV2.unr:
+  - status: "OK"
+    name: "te-secwo"
+  - status: "OK"
+    name: "lexicondevil"
+  - status: "OK"
+    name: "Bronx"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%28jbi%29ghostcraterv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/ctf-(jbi)ghostcraterv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/6/f/141725/ctf-(jbi)ghostcraterv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/6/f/141725/ctf-(jbi)ghostcraterv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "(jBi)GhostCrater"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.3
+  Nali Castle: 0.1
+bots: true

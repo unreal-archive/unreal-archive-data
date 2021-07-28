@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 16:48"
+game: "Unreal Tournament 2004"
+name: "DM-SilentHell"
+author: "Rehevkor"
+description: "Tournament officials were invited to the town of Silent Hill by an anonymous\
+  \ contact to negotiate terms for opening a new arena. After several weeks passed\
+  \ without word from those officials, a team was sent to find them. And they did\
+  \ find the missing officials... hanging from chains and twitching spasmodically\
+  \ in a twisted underground nightmare. The location was accepted as an arena, but\
+  \ even the most hardened gladiators shiver at the thought of fighting in Silent\
+  \ Hell."
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-SilentHell_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-SilentHell_shot_1.png"
+originalFilename: "dm-silenthell.zip"
+hash: "3d6dc6869c7512bacbc373a21356384d0801e2c4"
+fileSize: 11010943
+files:
+- name: "KarmaOnline.u"
+  fileSize: 3929
+  hash: "5832caf2744ad1f510b51212b188f6836447b19d"
+- name: "DM-SilentHell.ut2"
+  fileSize: 22417423
+  hash: "cad551438f0dc292641b46b60bca4f6a4d66087e"
+- name: "itsgonenow.ogg"
+  fileSize: 5127827
+  hash: "05de76bda6c4b0de5e20a0321fc3311cc5c1c563"
+otherFiles: 1
+dependencies:
+  DM-SilentHell.ut2:
+  - status: "MISSING"
+    name: "HumanFemaleA"
+  - status: "MISSING"
+    name: "Jugg"
+  - status: "OK"
+    name: "KarmaOnline"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-silenthell.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-silenthell.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://gamebanana.com/maps/download/47488"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2791"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/3/d/6dc686/dm-silenthell.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/3/d/6dc686/dm-silenthell.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-SilentHell"
+playerCount: "12"
+themes:
+  Industrial: 0.7
+  Egyptian: 0.3
+  Ancient: 0.1
+bots: true

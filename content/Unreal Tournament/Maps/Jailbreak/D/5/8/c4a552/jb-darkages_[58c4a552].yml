@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:06"
+game: "Unreal Tournament"
+name: "JB-DarkAges"
+author: "Cory Spooner 'TheSpoonDog'"
+description: "None"
+releaseDate: "2007-11"
+attachments:
+- type: "IMAGE"
+  name: "JB-DarkAges_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/D/JB-DarkAges_shot_1.png"
+originalFilename: "jb-darkages.zip"
+hash: "58c4a55200ce7f18c4e20928c9bd048875fa58fb"
+fileSize: 2459751
+files:
+- name: "JB-DarkAges.unr"
+  fileSize: 5736049
+  hash: "979057921ceed4b0bf6c1fc14d76c370b996f69b"
+- name: "JBArena.u"
+  fileSize: 93157
+  hash: "289937bfef80b1bd875b6c53e96060119c04369b"
+- name: "JBSpecials.u"
+  fileSize: 324160
+  hash: "ac3ed7c3c3d3fdc9fe8304204f008c495f34c075"
+- name: "JailBreak.u"
+  fileSize: 1483009
+  hash: "ce891867bb5d95830a45674ec8cde6c765f01a2f"
+otherFiles: 1
+dependencies:
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+  JB-DarkAges.unr:
+  - status: "OK"
+    name: "JailBreak"
+  - status: "OK"
+    name: "JBArena"
+  - status: "OK"
+    name: "JBSpecials"
+  JailBreak.u:
+  - status: "MISSING"
+    name: "JBAudio"
+  JBSpecials.u:
+  - status: "OK"
+    name: "JailBreak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-darkages.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/D/5/8/c4a552/jb-darkages.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/D/5/8/c4a552/jb-darkages.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/D/5/8/c4a552/jb-darkages.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Dark Ages"
+playerCount: "8-12"
+themes: {}
+bots: true

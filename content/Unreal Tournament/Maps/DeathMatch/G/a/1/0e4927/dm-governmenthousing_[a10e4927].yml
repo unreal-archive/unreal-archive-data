@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:00"
+game: "Unreal Tournament"
+name: "DM-GovernmentHousing"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-governmenthousing_shot_a10e4927_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/a/1/0e4927/dm-governmenthousing_shot_a10e4927_1.png"
+originalFilename: "DM-governmenthousing1.zip"
+hash: "a10e49272ea9fff92a8dcf73cef4a07432a59ab9"
+fileSize: 5824800
+files:
+- name: "IStandAlone.umx"
+  fileSize: 3944826
+  hash: "df2f15fd20b9cb7b22f729da30cfbd86b94a2078"
+- name: "A_NERD_FILE.utx"
+  fileSize: 1689027
+  hash: "263cd30c1b2ca858333f60b6307cc7dd4c79f018"
+- name: "DM-GovernmentHousing.unr"
+  fileSize: 3177261
+  hash: "17f92e59d22fc4268ee3d00f9e303e43ac8b43f5"
+- name: "civ_tex.utx"
+  fileSize: 2196076
+  hash: "f8d927bb20e7723b9909fb51d4bcd8c4b8684e68"
+otherFiles: 2
+dependencies:
+  DM-GovernmentHousing.unr:
+  - status: "OK"
+    name: "A_NERD_FILE"
+  - status: "OK"
+    name: "civ_tex"
+  - status: "OK"
+    name: "IStandAlone"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-governmenthousing1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/DM-governmenthousing1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/a/1/0e4927/DM-governmenthousing1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/a/1/0e4927/DM-governmenthousing1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-GovernmentHousing"
+playerCount: "8-10"
+themes:
+  Ancient: 0.1
+  Natural: 0.6
+  Nali Castle: 0.3
+bots: true

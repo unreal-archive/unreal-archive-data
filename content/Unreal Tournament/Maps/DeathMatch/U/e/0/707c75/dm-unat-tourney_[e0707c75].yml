@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:46"
+game: "Unreal Tournament"
+name: "DM-UNAT-TOURNEY"
+author: "Gary McLean"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-UNAT-TOURNEY_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UNAT-TOURNEY_shot_1.png"
+originalFilename: "dm-unat-tourney.zip"
+hash: "e0707c75003325271fd8f0052402b3a5f6b0630a"
+fileSize: 2082285
+files:
+- name: "DM-UNAT-TOURNEY.unr"
+  fileSize: 2345392
+  hash: "f94946cb600e1450d6852697e69141185a057ba2"
+- name: "NerfTex.utx"
+  fileSize: 2016683
+  hash: "da8e9a1a5f7fc6e4e9a89bf2f199b47fe767223e"
+otherFiles: 2
+dependencies:
+  DM-UNAT-TOURNEY.unr:
+  - status: "OK"
+    name: "NerfTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-unat-tourney.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsU/&file=dm-unat-tourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-unat-tourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsU/dm-unat-tourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/e/0/707c75/dm-unat-tourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/e/0/707c75/dm-unat-tourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Unreal Nerf Arena Tournament"
+playerCount: "2-4"
+themes:
+  Skaarj Tech: 0.1
+  Indistrial: 0.9
+bots: true

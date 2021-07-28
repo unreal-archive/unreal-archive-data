@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:07"
+game: "Unreal Tournament"
+name: "AS-Pollux"
+author: "Esko 'Varpu' Ilola, Music: Leviathan"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "AS-Pollux_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/P/AS-Pollux_shot_1.png"
+originalFilename: "as-pollux.zip"
+hash: "a98dd32d7c157bcc2f0618a12de6de552e8a491b"
+fileSize: 2041893
+files:
+- name: "Disease.u"
+  fileSize: 10790
+  hash: "da7165e87f571c8d05422e449b7b3cf7a67f72b3"
+- name: "AS-Pollux.unr"
+  fileSize: 5475163
+  hash: "8dc14d595aaeedee50de21939829f1f4f6016e04"
+- name: "LeviathanWish.umx"
+  fileSize: 403732
+  hash: "058f42e6bc8ba0cc97ad6f7f83830bc4b0db1227"
+otherFiles: 1
+dependencies:
+  AS-Pollux.unr:
+  - status: "OK"
+    name: "Disease"
+  - status: "OK"
+    name: "LeviathanWish"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/P/as-pollux.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-pollux.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-pollux.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-pollux.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/P/a/9/8dd32d/as-pollux.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/P/a/9/8dd32d/as-pollux.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Pollux space fighter"
+playerCount: "6-16"
+themes: {}
+bots: true

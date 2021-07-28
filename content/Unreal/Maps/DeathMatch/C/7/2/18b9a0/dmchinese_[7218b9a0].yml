@@ -1,0 +1,97 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:41"
+game: "Unreal"
+name: "DmChinese"
+author: "An UnLeaded Production"
+description: "Take Ginseng, Live Longer"
+releaseDate: "2005-10"
+attachments: []
+originalFilename: "DmChinese.zip"
+hash: "7218b9a0607eb1f6968cd73336bf40e74013e21a"
+fileSize: 1524537
+files:
+- name: "DmChinese.unr"
+  fileSize: 1180667
+  hash: "3f4ca23ca615025c5a694be428bc84508fdf58ae"
+- name: "Chinese.utx"
+  fileSize: 1529097
+  hash: "5d9d53a5a4919dd598d4a7c492f2505d2d04a0b8"
+- name: "SampoernaNS.u"
+  fileSize: 960
+  hash: "f90a774a9ddd7bd7e34f45b71abb1f7a5b53d771"
+- name: "FCDW.u"
+  fileSize: 6229
+  hash: "582d9211045bf110336f038a8cdb6292240dd269"
+- name: "ArbitItem.u"
+  fileSize: 15508
+  hash: "d5773364a13c1c5b9bc3f591bf0feab0c57ea8a9"
+- name: "ChinSfx.uax"
+  fileSize: 185799
+  hash: "226616fce8d5fc99d0ed0707076b2fd4e3adb262"
+- name: "TeleportBot.u"
+  fileSize: 5506
+  hash: "cb8c47f389bd7cd49e9672dfb294e2eea3380027"
+- name: "Sentry.u"
+  fileSize: 6575
+  hash: "f221577753737571be644fdb8c07a023ce74c1d1"
+- name: "Ginseng.u"
+  fileSize: 2388
+  hash: "ccd4622ddd17d17462adf7cf3aaa339bad4393d5"
+- name: "TarZones.u"
+  fileSize: 3366
+  hash: "2e69ed65edb28e43895c93d03d0f76845c578190"
+otherFiles: 0
+dependencies:
+  DmChinese.unr:
+  - status: "OK"
+    name: "ChinSfx"
+  - status: "OK"
+    name: "chinese"
+  - status: "OK"
+    name: "TarZones"
+  - status: "OK"
+    name: "SampoernaNS"
+  - status: "OK"
+    name: "TeleportBot"
+  - status: "OK"
+    name: "FCDW"
+  - status: "OK"
+    name: "ArbitItem"
+  - status: "OK"
+    name: "Ginseng"
+  TeleportBot.u:
+  - status: "OK"
+    name: "Sentry"
+  Ginseng.u:
+  - status: "OK"
+    name: "chinese"
+  - status: "OK"
+    name: "ChinSfx"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/unleaded_maps/DmChinese.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/C/7/2/18b9a0/DmChinese.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/7/2/18b9a0/DmChinese.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/C/7/2/18b9a0/DmChinese.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Chinese"
+playerCount: "Unknown"
+themes:
+  Tech: 0.7
+  Ancient: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true

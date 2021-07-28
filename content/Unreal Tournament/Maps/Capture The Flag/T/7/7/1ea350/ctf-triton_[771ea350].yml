@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:11"
+game: "Unreal Tournament"
+name: "CTF-Triton"
+author: "Palmaero"
+description: "Welcome to Triton"
+releaseDate: "2005-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-triton_shot_771ea350_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/7/7/1ea350/ctf-triton_shot_771ea350_1.png"
+originalFilename: "ctf-triton.zip"
+hash: "771ea350c85b3babc08b2a407d0753145439021b"
+fileSize: 258007
+files:
+- name: "CTF-Triton.unr"
+  fileSize: 573516
+  hash: "ab0e693236af438a887beff5d6a35336959c5c6a"
+- name: "Neptune.utx"
+  fileSize: 134680
+  hash: "2209a60f950d3050c0773da859665ecd037f9d18"
+otherFiles: 1
+dependencies:
+  CTF-Triton.unr:
+  - status: "OK"
+    name: "Neptune"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5071"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/7/7/1ea350/ctf-triton.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/7/7/1ea350/ctf-triton.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/7/7/1ea350/ctf-triton.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "F0X Triton Training Area"
+playerCount: "10"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

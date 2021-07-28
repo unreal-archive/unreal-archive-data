@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-24 10:53"
+game: "Unreal Tournament 2004"
+name: "DM-HW-Asgard"
+author: "beta vulgaris"
+description: "None"
+releaseDate: "2008-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-HW-Asgard_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/H/DM-HW-Asgard_shot_1.png"
+- type: "IMAGE"
+  name: "DM-HW-Asgard_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/H/DM-HW-Asgard_shot_2.png"
+- type: "IMAGE"
+  name: "DM-HW-Asgard_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/H/DM-HW-Asgard_shot_4.png"
+- type: "IMAGE"
+  name: "DM-HW-Asgard_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/H/DM-HW-Asgard_shot_3.png"
+originalFilename: "DM-HW-Asgard.zip"
+hash: "609fac9ae15e0ff5579e8ea7766c6ab45afea830"
+fileSize: 9412338
+files:
+- name: "HW-Asgard-Objects.usx"
+  fileSize: 1608777
+  hash: "8ed548158b60f0740c026aaf5624edc12f9f10e5"
+- name: "DM-HW-Asgard.ut2"
+  fileSize: 8007442
+  hash: "2130b413e9f62d6ca07eff6fddc7ae03b3618145"
+- name: "HW-Asgard.utx"
+  fileSize: 10139373
+  hash: "0fed1fb88ce5b449344547840160a975e4681d4c"
+otherFiles: 4
+dependencies:
+  HW-Asgard-Objects.usx:
+  - status: "OK"
+    name: "HW-Asgard"
+  DM-HW-Asgard.ut2:
+  - status: "OK"
+    name: "HW-Asgard-Objects"
+  - status: "OK"
+    name: "HW-Asgard"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7132"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/H/DM-HW-Asgard.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/H/6/0/9fac9a/DM-HW-Asgard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/H/6/0/9fac9a/DM-HW-Asgard.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-HW-Asgard"
+playerCount: "Unknown"
+themes: {}
+bots: false

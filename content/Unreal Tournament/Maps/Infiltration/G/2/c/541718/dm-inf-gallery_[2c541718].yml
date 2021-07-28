@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 02:18"
+game: "Unreal Tournament"
+name: "DM-INF-Gallery"
+author: "Spooger/Islington"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Gallery_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Gallery_shot_1.png"
+originalFilename: "dm-inf-gallery.zip"
+hash: "2c541718e058a30601d4ef829a86659d65ed52db"
+fileSize: 6136002
+files:
+- name: "DM-INF-Gallery.unr"
+  fileSize: 2969761
+  hash: "04bfbd0333d2c57686731b74741f052990766d93"
+- name: "ModernPaint1.u"
+  fileSize: 1494999
+  hash: "8fc49af571cab4fbacc0cf605015e67bf130de7f"
+- name: "Industrial_Pack1.u"
+  fileSize: 2164988
+  hash: "e48d99d0577ec376c0a55d505601db7378af9c28"
+- name: "DP-Pack3.utx"
+  fileSize: 4828000
+  hash: "ebd7659065150061af706ef8f074d70258bace6d"
+otherFiles: 0
+dependencies:
+  DM-INF-Gallery.unr:
+  - status: "MISSING"
+    name: "INF_GameTypes"
+  - status: "OK"
+    name: "Industrial_Pack1"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "OK"
+    name: "ModernPaint1"
+  - status: "OK"
+    name: "DP-Pack3"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=dm-inf-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-gallery.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/G/2/c/541718/dm-inf-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/G/2/c/541718/dm-inf-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "The Gallery"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Natural: 0.8
+bots: true

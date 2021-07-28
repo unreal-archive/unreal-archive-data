@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:56"
+game: "Unreal Tournament"
+name: "DM-HillValley"
+author: ":[lol]:Squid75"
+description: "Hill Valley"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-HillValley_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HillValley_shot_1.png"
+originalFilename: "DM-HillValley.zip"
+hash: "1b0d9ca1c73969e804073215d6ff2f5b16514647"
+fileSize: 11720645
+files:
+- name: "HV1955-BTTF.utx"
+  fileSize: 6906706
+  hash: "9ea9469928d3aebcaf9923328c78a2a91e42abde"
+- name: "HV1955-Build.utx"
+  fileSize: 3030700
+  hash: "3806a88e2c026c0c223032dfab27ca9729e191fe"
+- name: "BTTF-Themeab.umx"
+  fileSize: 2167449
+  hash: "0775f721847b5fe4f5748bead6736e5199f795f0"
+- name: "DM-HillValley.unr"
+  fileSize: 3223708
+  hash: "a2ff7c38706127d1c92a8a8d01b523aa6b298393"
+- name: "BTTF1Sounds.uax"
+  fileSize: 4867222
+  hash: "a4bfe090c16915dda843dcf6f318906b8b0a86f1"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+otherFiles: 0
+dependencies:
+  DM-HillValley.unr:
+  - status: "OK"
+    name: "BTTF-Themeab"
+  - status: "OK"
+    name: "BTTF1Sounds"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "HV1955-BTTF"
+  - status: "OK"
+    name: "HV1955-Build"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-HillValley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/DM-HillValley.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/1/b/0d9ca1/DM-HillValley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/1/b/0d9ca1/DM-HillValley.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "HillValley (Back to the Future) Ver"
+playerCount: "14"
+themes:
+  Industrial: 0.6
+  City: 0.2
+  Natural: 0.2
+bots: true

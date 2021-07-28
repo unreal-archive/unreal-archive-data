@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 02:46"
+game: "Unreal Tournament 2004"
+name: "UWRM-Oasis"
+author: "Kenneth `Shrimp` Watson"
+description: "Desert-based map with plenty of sand dunes willing to challange your\
+  \ chosen vehicle."
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "UWRM-Oasis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/UnWheel/R/UWRM-Oasis_shot_1.png"
+originalFilename: "uwrm-oasis.zip"
+hash: "9b66e6d7996df7d96b6646b51acbe6c4b5674f8d"
+fileSize: 1949828
+files:
+- name: "UW-OasisTex.utx"
+  fileSize: 395684
+  hash: "4fd5923f6f2884362869f5621f895fc17195ce07"
+- name: "UWRM-Oasis.ut2"
+  fileSize: 3840236
+  hash: "97f8ad69e95c867131eb300e70b1bb538edbe7d7"
+otherFiles: 0
+dependencies:
+  UWRM-Oasis.ut2:
+  - status: "MISSING"
+    name: "UnWheel"
+  - status: "OK"
+    name: "UW-OasisTex"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Unwheel/&file=uwrm-oasis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/UnWheel/R/uwrm-oasis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/UnWheel/R/9/b/66e6d7/uwrm-oasis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/UnWheel/R/9/b/66e6d7/uwrm-oasis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "UnWheel"
+title: "Oasis"
+playerCount: "8"
+themes:
+  Tech: 0.5
+  Natural: 0.5
+bots: false

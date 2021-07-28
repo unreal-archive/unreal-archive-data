@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 14:08"
+game: "Unreal Tournament 2004"
+name: "AS-OverLord 2004"
+author: "Dave Reid"
+description: "This scenario is a recreation of one of the most famous, and important\
+  \ events in World War history, Operation Overlord."
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "AS-OverLord_2004_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/O/AS-OverLord_2004_shot_1.png"
+originalFilename: "as-overlord_2004.rar"
+hash: "633fd52538c03c34b3d4c63e20b02fb3ab797f86"
+fileSize: 12685568
+files:
+- name: "Overlord2k4.ogg"
+  fileSize: 2319887
+  hash: "8f9d26ba074ea4beb50a34a2897e0a62fe1b8087"
+- name: "OverlordStatic.usx"
+  fileSize: 7406931
+  hash: "51d428656367a4f922ba751061b40d19e561ec7f"
+- name: "AS-OverLord 2004.ut2"
+  fileSize: 30069369
+  hash: "1295a2d4bca15bd9a4bab3e35f852526916ed9f3"
+- name: "Overlord2k4Classes.u"
+  fileSize: 15293
+  hash: "32ecf77b6229bebbfe88e6d0cec41277b0155dcf"
+otherFiles: 1
+dependencies:
+  AS-OverLord 2004.ut2:
+  - status: "MISSING"
+    name: "AS_VehiclesFull_M"
+  - status: "MISSING"
+    name: "GenericSD"
+  - status: "OK"
+    name: "Overlord2k4Classes"
+  Overlord2k4Classes.u:
+  - status: "OK"
+    name: "OverlordStatic"
+downloads:
+- url: "https://gamebanana.com/maps/download/45983"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/O/as-overlord_2004.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/O/6/3/3fd525/as-overlord_2004.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/O/6/3/3fd525/as-overlord_2004.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Operation Overlord 2004"
+playerCount: "12-24"
+themes:
+  Tech: 0.7
+  Industrial: 0.2
+bots: true

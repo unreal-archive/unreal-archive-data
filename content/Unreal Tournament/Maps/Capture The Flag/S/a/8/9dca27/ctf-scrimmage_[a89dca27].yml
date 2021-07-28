@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:35"
+game: "Unreal Tournament"
+name: "CTF-Scrimmage"
+author: "NeuralizR and Ineffectual"
+description: "None"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "ctf-scrimmage.zip"
+hash: "a89dca27e345a588df6d0ff489dd65ae9d45c75c"
+fileSize: 615604
+files:
+- name: "CTF-Scrimmage.unr"
+  fileSize: 1212568
+  hash: "b757ee7f0348310ce4f4c34be2e0a98528c45393"
+- name: "nftex.utx"
+  fileSize: 439217
+  hash: "2d23d5329f12e606f1481b8c0ae8cad5e4b12550"
+otherFiles: 1
+dependencies:
+  CTF-Scrimmage.unr:
+  - status: "OK"
+    name: "nftex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-scrimmage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404538"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-scrimmage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-scrimmage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-scrimmage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/a/8/9dca27/ctf-scrimmage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/a/8/9dca27/ctf-scrimmage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Scrimmage"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.7
+  City: 0.2
+bots: true

@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 19:35"
+game: "Unreal Tournament 2004"
+name: "Lad V1"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "lad_v1.zip"
+hash: "26975f6808c5c8ea4a19333828f10563a2fa44f5"
+fileSize: 4969
+files:
+- name: "LAD.u"
+  fileSize: 6968
+  hash: "6a17fa0f7be94feb161401759bb00a35bf343d60"
+otherFiles: 3
+dependencies:
+  LAD.u:
+  - status: "MISSING"
+    name: "HumanFemaleA"
+  - status: "MISSING"
+    name: "HumanMaleA"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/L/lad_v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/L/2/6/975f68/lad_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/L/2/6/975f68/lad_v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Life After Death"
+  description: ""
+- name: "Life After Death Zombie Fest"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

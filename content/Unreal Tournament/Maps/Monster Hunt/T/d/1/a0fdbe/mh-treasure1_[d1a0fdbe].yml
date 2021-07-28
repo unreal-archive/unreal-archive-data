@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:39"
+game: "Unreal Tournament"
+name: "MH-Treasure1"
+author: "Bean"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-treasure1.zip"
+hash: "d1a0fdbeacfc9a76e2b196a970e550649243d486"
+fileSize: 895299
+files:
+- name: "MH-Treasure1.unr"
+  fileSize: 905225
+  hash: "671f23396f13a6c4e09df15fe780fdad1af246fc"
+- name: "Monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Chizra1.umx"
+  fileSize: 422386
+  hash: "dcb3cfd52414740cd0cbd8a813d900969b6892d8"
+otherFiles: 1
+dependencies:
+  MH-Treasure1.unr:
+  - status: "OK"
+    name: "Chizra1"
+  - status: "OK"
+    name: "Monsterhunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-treasure1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/mh-treasure1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-treasure1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/T/d/1/a0fdbe/mh-treasure1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/d/1/a0fdbe/mh-treasure1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "the treasure"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.3
+  Nali Castle: 0.4
+bots: false

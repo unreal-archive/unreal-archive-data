@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:38"
+game: "Unreal Tournament"
+name: "DM-Smackdown"
+author: "Justin 'whisper' Hart"
+description: "None"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-Smackdown_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-Smackdown_shot_1.png"
+originalFilename: "dm-smackdown.zip"
+hash: "bfe2b05c52ad85bb4e564a36cf2e1522c47e204d"
+fileSize: 1908360
+files:
+- name: "DM-Smackdown.unr"
+  fileSize: 2145599
+  hash: "70813779de0f6a10a5ef5cbbda93f173d763056c"
+- name: "dmsmq.utx"
+  fileSize: 848191
+  hash: "f53e62cf00922f4bf64ec4ba2b2def86d7c8c10e"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "dmaow2.utx"
+  fileSize: 20029
+  hash: "d3a24f62441cf4f4fe943b9048a70a9880cb44e1"
+otherFiles: 1
+dependencies:
+  DM-Smackdown.unr:
+  - status: "OK"
+    name: "dmaow2"
+  - status: "OK"
+    name: "dmsmq"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-smackdown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-smackdown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-smackdown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-smackdown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/b/f/e2b05c/dm-smackdown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/b/f/e2b05c/dm-smackdown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "whisper's House of Smack"
+playerCount: "2-6"
+themes:
+  Skaarj Tech: 1.0
+bots: true

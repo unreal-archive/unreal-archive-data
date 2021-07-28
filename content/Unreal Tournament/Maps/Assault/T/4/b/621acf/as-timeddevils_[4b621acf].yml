@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:38"
+game: "Unreal Tournament"
+name: "AS-timeddevils"
+author: "Vindicate"
+description: "None"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "as-timeddevils_shot_4b621acf_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/T/4/b/621acf/as-timeddevils_shot_4b621acf_1.png"
+originalFilename: "as-timeddevils.zip"
+hash: "4b621acff98e84ab6cfb74b10b64d354792b0484"
+fileSize: 3610912
+files:
+- name: "AS-timeddevils.unr"
+  fileSize: 7931417
+  hash: "be684e1fe5dabe289afb6f0bdd75c6c873749591"
+- name: "QBICT1.UTX"
+  fileSize: 915122
+  hash: "1f62e2dded5926ea0161bc86c75e55cf53f73592"
+otherFiles: 0
+dependencies:
+  AS-timeddevils.unr:
+  - status: "MISSING"
+    name: "Subway"
+  - status: "MISSING"
+    name: "MJ12_lab"
+  - status: "OK"
+    name: "QBICT1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=650"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/T/as-timeddevils.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/T/4/b/621acf/as-timeddevils.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/T/4/b/621acf/as-timeddevils.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "The Time Devils"
+playerCount: "~16"
+themes:
+  Nali Temple: 0.2
+  Egyptian: 0.1
+  City: 0.1
+  Natural: 0.4
+  Nali Castle: 0.2
+bots: true

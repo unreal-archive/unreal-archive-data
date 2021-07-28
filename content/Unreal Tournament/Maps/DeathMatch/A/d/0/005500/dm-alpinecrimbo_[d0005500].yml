@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:51"
+game: "Unreal Tournament"
+name: "DM-AlpineCrimbo]["
+author: "Uncle_Bob"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-AlpineCrimbo][_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AlpineCrimbo%5D%5B_shot_3.png"
+- type: "IMAGE"
+  name: "DM-AlpineCrimbo][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AlpineCrimbo%5D%5B_shot_1.png"
+- type: "IMAGE"
+  name: "DM-AlpineCrimbo][_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AlpineCrimbo%5D%5B_shot_2.png"
+originalFilename: "dm-alpinecrimbo.zip"
+hash: "d0005500ad53a1b58ea2e5a5778a9222a2656905"
+fileSize: 6420793
+files:
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "DM-AlpineCrimbo][.unr"
+  fileSize: 2892695
+  hash: "fba360c1e60864a0d033a71fa32c67e691cd0297"
+- name: "SkyTwn.umx"
+  fileSize: 849903
+  hash: "d6add6fc55b0638260893c09b74bd295596e9e82"
+- name: "SNOW.U"
+  fileSize: 8309
+  hash: "5db28b88bc205cd7dc42f78ff346691ce01ab73d"
+- name: "SNOWTEX.UTX"
+  fileSize: 3514
+  hash: "29232241a8247e845b4425a6245b6c3c19b269a0"
+- name: "DespSnowC.utx"
+  fileSize: 6238968
+  hash: "1ef1f39f70f925a0016ce9b12eb0ae00228ed76d"
+otherFiles: 3
+dependencies:
+  DM-AlpineCrimbo][.unr:
+  - status: "OK"
+    name: "SNOW"
+  - status: "OK"
+    name: "SkyTwn"
+  - status: "OK"
+    name: "DespSnowC"
+  - status: "OK"
+    name: "Tree_PACK1"
+  SNOW.U:
+  - status: "OK"
+    name: "snowtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-alpinecrimbo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-alpinecrimbo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-alpinecrimbo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsA/dm-alpinecrimbo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/d/0/005500/dm-alpinecrimbo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/d/0/005500/dm-alpinecrimbo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CTC Alpine Christmas"
+playerCount: "2-6"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.8
+bots: true

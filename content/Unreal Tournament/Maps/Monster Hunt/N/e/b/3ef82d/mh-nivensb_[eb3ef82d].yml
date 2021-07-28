@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:31"
+variationOf: "d82dcdbb21c5b718e4bf2d5b9fc80a76ae52e222"
+game: "Unreal Tournament"
+name: "MH-Niven(SB)"
+author: "Originally Alan 'Talisman' Willard, modded by Barbie (Rev 25)"
+description: "Niven Experimental Lab"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "mh-nivensb_shot_eb3ef82d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/N/mh-nivensb_shot_eb3ef82d_1.png"
+originalFilename: "MH-Niven(SB)-Rev25.zip"
+hash: "eb3ef82db17261cd7b750239bdcd5a55a0640986"
+fileSize: 10612642
+files:
+- name: "bpak.u"
+  fileSize: 259553
+  hash: "f552452dd11750875906f4290373f62bb577eb8b"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "MH-Niven(SB).unr"
+  fileSize: 2771895
+  hash: "d6d124637b968a75820b2f8a866161e8173a5b08"
+otherFiles: 1
+dependencies:
+  MH-Niven(SB).unr:
+  - status: "OK"
+    name: "BPak"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Ambient"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Niven%28SB%29-Rev25.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/N/MH-Niven(SB)-Rev25.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/N/e/b/3ef82d/MH-Niven(SB)-Rev25.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/N/e/b/3ef82d/MH-Niven(SB)-Rev25.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Niven Experimental Lab"
+playerCount: "4-6"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.8
+bots: false

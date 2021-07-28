@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:15"
+game: "Unreal Tournament"
+name: "DM-Dojo"
+author: "Common&DoctoR_DeatH"
+description: "Chop Suey !!!!!!"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "DM-Dojo.zip"
+hash: "95699a40c60919d0e088b88f2e1ea9bea4ee9f8c"
+fileSize: 3648877
+files:
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DM-Dojo.unr"
+  fileSize: 781747
+  hash: "0d55fa335cb89307b8572c42804378fe16193d27"
+- name: "HongKong_Music.umx"
+  fileSize: 1399423
+  hash: "d5b731c61fca3a455608322988719bb44914aed8"
+- name: "Japan.utx"
+  fileSize: 3542635
+  hash: "c910dbcce15bc0e71bca2d84d8f8e565a9b5f035"
+otherFiles: 0
+dependencies:
+  DM-Dojo.unr:
+  - status: "OK"
+    name: "Japan"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "HongKong_Music"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Dojo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-Dojo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/9/5/699a40/DM-Dojo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/9/5/699a40/DM-Dojo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNdojoDD"
+playerCount: "6 to 12"
+themes:
+  City: 1.0
+bots: true

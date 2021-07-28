@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:13"
+game: "Unreal Tournament"
+name: "DM-Goldentemple"
+author: "ROX (Frank Aartman)"
+description: "The Golden Temple will never be found again!!"
+releaseDate: "2000-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-Goldentemple_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-Goldentemple_shot_1.png"
+originalFilename: "dm-goldentemple.zip"
+hash: "107110ba66e66f98d34440342014849ae85991c5"
+fileSize: 1743522
+files:
+- name: "TheGates.umx"
+  fileSize: 588322
+  hash: "451fba9a6931f22a5cc589e3eb27bb802452580a"
+- name: "DM-Goldentemple.unr"
+  fileSize: 4425741
+  hash: "653cb2d80b74d8315cdb79eab6a18ceba0ff5a94"
+- name: "ROXancient.utx"
+  fileSize: 68752
+  hash: "a29933c6a12b2388c37ed387031ddbeb42f6bbae"
+otherFiles: 1
+dependencies:
+  DM-Goldentemple.unr:
+  - status: "OK"
+    name: "TheGates"
+  - status: "OK"
+    name: "ROXancient"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/dm-goldentemple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsG/&file=dm-goldentemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-goldentemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsG/dm-goldentemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/1/0/7110ba/dm-goldentemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/1/0/7110ba/dm-goldentemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Golden Temple"
+playerCount: "10-20"
+themes:
+  Nali Temple: 0.8
+  Skaarj Crypt: 0.1
+  Indistrial: 0.1
+bots: true

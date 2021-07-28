@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:56"
+game: "Unreal"
+name: "DmLostSpace"
+author: "The.Silencer(CW)"
+description: "You Have Entered Lost Space"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "DmLostSpace.zip"
+hash: "88d240edf5e4a44b0bd48ceacdf0ca18b05b3d81"
+fileSize: 326270
+files:
+- name: "CWLogos.utx"
+  fileSize: 574784
+  hash: "aaf696903054e82b800b04618cf80ca2e7118a34"
+- name: "lolpo.utx"
+  fileSize: 45300
+  hash: "c29333718cf9982837dc5ea3c27156e9693a3b17"
+- name: "DmLostSpace.unr"
+  fileSize: 631231
+  hash: "7ad31ff2b3aabf5300de3245d55cf0b8373ab996"
+otherFiles: 1
+dependencies:
+  DmLostSpace.unr:
+  - status: "OK"
+    name: "CWLogos"
+  - status: "OK"
+    name: "lolpo"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DmLostSpace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/L/8/8/d240ed/DmLostSpace.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/L/8/8/d240ed/DmLostSpace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/L/8/8/d240ed/DmLostSpace.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "LostSpace"
+playerCount: "6-14"
+themes: {}
+bots: false

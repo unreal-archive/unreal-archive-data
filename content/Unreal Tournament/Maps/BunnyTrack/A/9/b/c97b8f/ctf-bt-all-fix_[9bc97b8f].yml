@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 21:40"
+game: "Unreal Tournament"
+name: "CTF-BT-All-fix"
+author: "Prince Of Funky"
+description: "None"
+releaseDate: "2015-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-All-fix_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/A/CTF-BT-All-fix_shot_1.png"
+originalFilename: "CTF-BT-All-fix.zip"
+hash: "9bc97b8fcf89ee8eccb0789c00ee2ac6dc7072ef"
+fileSize: 3108481
+files:
+- name: "NBSpecials.u"
+  fileSize: 288711
+  hash: "a5e87b92d70195587c6fcc38ab1154c94117a106"
+- name: "POFTextures.utx"
+  fileSize: 89026
+  hash: "0384bf9e0ef7049b59a96c84022808f9d60b9e74"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "CTF-BT-All-fix.unr"
+  fileSize: 6506703
+  hash: "9d791f484c8798db330ee34a970b9421797cd9f5"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+otherFiles: 0
+dependencies:
+  CTF-BT-All-fix.unr:
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "POFTextures"
+  - status: "OK"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "sky"
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-All-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/A/CTF-BT-All-fix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-All-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/A/9/b/c97b8f/CTF-BT-All-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/A/9/b/c97b8f/CTF-BT-All-fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-All"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.7
+  City: 0.1
+  Nali Castle: 0.1
+  Skaarj Tech: 0.1
+bots: false

@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 17:26"
+game: "Unreal Tournament 2004"
+name: "DM-OCD-DATING-GAME-2k6"
+author: "{OCD}Offensive"
+description: "None"
+releaseDate: "2009-06"
+attachments: []
+originalFilename: "DM-OCD-DATING-GAME-2k4.zip"
+hash: "5259b11a87c78b2201df832e8231d43b53c802d4"
+fileSize: 17476378
+files:
+- name: "DMFNazgul.utx"
+  fileSize: 2885267
+  hash: "bfe7b71902da64dd32cb9dcf58ae1ea35df79d52"
+- name: "DMFMistressLethal.utx"
+  fileSize: 2361010
+  hash: "ddb2b77b57a3f3e767745b40bcac3f7cc3b92749"
+- name: "DM-OCD-DATING-GAME-2k6.ut2"
+  fileSize: 37803000
+  hash: "b1aaad2d00ce2b3c0c643f2851e3d2fb7a280d30"
+- name: "robinmesh.usx"
+  fileSize: 3149254
+  hash: "ef4838880c7782d33b59ab87064412a9457ca9f8"
+otherFiles: 0
+dependencies:
+  robinmesh.usx:
+  - status: "MISSING"
+    name: "robintex"
+  DM-OCD-DATING-GAME-2k6.ut2:
+  - status: "OK"
+    name: "DMFNazgul"
+  - status: "OK"
+    name: "DMFMistressLethal"
+  - status: "OK"
+    name: "robinmesh"
+  - status: "MISSING"
+    name: "PostalBabes_V2"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7584"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/O/DM-OCD-DATING-GAME-2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/O/5/2/59b11a/DM-OCD-DATING-GAME-2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/O/5/2/59b11a/DM-OCD-DATING-GAME-2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-OCD-DATING-GAME-2k6"
+playerCount: "Unknown"
+themes: {}
+bots: false

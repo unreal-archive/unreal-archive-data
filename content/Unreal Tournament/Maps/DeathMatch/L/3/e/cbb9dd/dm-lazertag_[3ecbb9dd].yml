@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:21"
+game: "Unreal Tournament"
+name: "DM-Lazertag"
+author: "Neo201"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Lazertag_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-Lazertag_shot_1.png"
+originalFilename: "dm-lazertag.zip"
+hash: "3ecbb9dd8f47573f3a258b0fe1d0ce936f5c441b"
+fileSize: 1781708
+files:
+- name: "Lazertex.utx"
+  fileSize: 337016
+  hash: "014a988deca06f1703df2fc801550e8f9c51b7ae"
+- name: "DM-Lazertag.unr"
+  fileSize: 2773816
+  hash: "cad831290d200e1789ef34ff10a838c7639e6d79"
+- name: "railroad.umx"
+  fileSize: 1844172
+  hash: "6be209fd11b2665b02d967fa9ebf8f761b0be315"
+otherFiles: 1
+dependencies:
+  DM-Lazertag.unr:
+  - status: "OK"
+    name: "railroad"
+  - status: "OK"
+    name: "Lazertex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-lazertag.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-lazertag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-lazertag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsL/dm-lazertag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/3/e/cbb9dd/dm-lazertag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/3/e/cbb9dd/dm-lazertag.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Lazertag Arena"
+playerCount: "4-8"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

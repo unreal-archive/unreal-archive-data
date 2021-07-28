@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:38"
+variationOf: "37e6977c7a67336e31c380ab99469ae70accecd2"
+game: "Unreal"
+name: "DM[SP]LiandriEstates"
+author: "MarK *Imported from UT by RUSH*"
+description: "Welcome to The Liandri Empire"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "dmspliandriestates_shot_258d23c7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/dmspliandriestates_shot_258d23c7_1.png"
+originalFilename: "DM[SP]LiandriEstates.zip"
+hash: "258d23c7e3d00001f941e369a6c0cb6bca2b14c6"
+fileSize: 22726107
+files:
+- name: "SP_Cumbersome.umx"
+  fileSize: 10544795
+  hash: "28bb0f4a9f929d03cc77b7ea41ed16e59f9bd559"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "DM[SP]LiandriEstates.unr"
+  fileSize: 6366227
+  hash: "a4a03f3810fa702769317e4f47fcb86ab2f8a875"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+otherFiles: 0
+dependencies:
+  DM[SP]LiandriEstates.unr:
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+  - status: "OK"
+    name: "SP_Cumbersome"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DLiandriEstates.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DLiandriEstates.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/2/5/8d23c7/DM%255BSP%255DLiandriEstates.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/2/5/8d23c7/DM%255BSP%255DLiandriEstates.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] LiandriEstate"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.8
+  Ancient: 0.1
+bots: true

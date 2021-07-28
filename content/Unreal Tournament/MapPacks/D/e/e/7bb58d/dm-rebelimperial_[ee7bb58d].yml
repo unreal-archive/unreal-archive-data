@@ -1,0 +1,73 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 07:09"
+game: "Unreal Tournament"
+name: "Dm Rebelimperial"
+author: "Various"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "Dm_Rebelimperial_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Rebelimperial_shot_1.png"
+- type: "IMAGE"
+  name: "Dm_Rebelimperial_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Rebelimperial_shot_2.png"
+originalFilename: "dm-rebelimperial.zip"
+hash: "ee7bb58d46140f663fd0296c088e73c316efeb4b"
+fileSize: 4359925
+files:
+- name: "DM-Imperial.unr"
+  fileSize: 5290032
+  hash: "2c2f491c130239b0eb6190e1c3f274d2336e5af7"
+- name: "DM-Rebel.unr"
+  fileSize: 5134220
+  hash: "79b3e830c4003b161f83afc8794d410c8618f11d"
+- name: "starwars.utx"
+  fileSize: 7918106
+  hash: "4457ad89ebd415d6002e7df79e08cc6f155bd1a3"
+otherFiles: 6
+dependencies:
+  DM-Rebel.unr:
+  - status: "OK"
+    name: "starwars"
+  DM-Imperial.unr:
+  - status: "OK"
+    name: "starwars"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/dm-rebelimperial.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-rebelimperial.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsR/&file=dm-rebelimperial.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsR/dm-rebelimperial.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/e/e/7bb58d/dm-rebelimperial.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/e/e/7bb58d/dm-rebelimperial.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Imperial"
+  title: "Phobos Moon"
+  author: "Cedric 'Inoxx' Fiorentino"
+- name: "DM-Rebel"
+  title: "Imperial Base"
+  author: "Patrick Fitzsimons"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.9
+  Industrial: 0.1

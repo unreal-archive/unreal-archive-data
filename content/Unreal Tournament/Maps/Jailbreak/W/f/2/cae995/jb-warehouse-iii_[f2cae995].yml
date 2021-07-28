@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:14"
+game: "Unreal Tournament"
+name: "JB-Warehouse-III"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-08"
+attachments: []
+originalFilename: "jb-warehouse-iii.zip"
+hash: "f2cae99554557eb18721da2d76446851f85e50fe"
+fileSize: 1187062
+files:
+- name: "JBArena.u"
+  fileSize: 93157
+  hash: "289937bfef80b1bd875b6c53e96060119c04369b"
+- name: "JB-Warehouse-III.unr"
+  fileSize: 1852850
+  hash: "fb6988d2ceef7a9e743d50265f9200049857c363"
+- name: "JailBreak.u"
+  fileSize: 1483009
+  hash: "ce891867bb5d95830a45674ec8cde6c765f01a2f"
+otherFiles: 1
+dependencies:
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+  JB-Warehouse-III.unr:
+  - status: "OK"
+    name: "JailBreak"
+  - status: "OK"
+    name: "JBArena"
+  JailBreak.u:
+  - status: "MISSING"
+    name: "JBAudio"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-warehouse-iii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/W/f/2/cae995/jb-warehouse-iii.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/W/f/2/cae995/jb-warehouse-iii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/W/f/2/cae995/jb-warehouse-iii.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "JB-Warehouse-III"
+playerCount: "Unknown"
+themes: {}
+bots: true

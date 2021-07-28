@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-12-23 00:14"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "Weapons of Power"
 author: "Unknown"
@@ -28,26 +27,24 @@ dependencies:
   WeaponsOfPower.u:
   - status: "OK"
     name: "WeaponsOfPowerTextures"
-    providedBy: null
   - status: "MISSING"
     name: "UTRPGStatics"
-    providedBy: null
   - status: "OK"
     name: "WeaponsOfPowerMeshes"
-    providedBy: null
   - status: "MISSING"
     name: "UT2004RPG"
-    providedBy: null
   - status: "MISSING"
     name: "UTRPGTextures2"
-    providedBy: null
   WeaponsOfPowerMeshes.usx:
   - status: "OK"
     name: "WeaponsOfPowerTextures"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/8/7/26902b/163_WeaponsOfPower.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/W/8/7/26902b/163_WeaponsOfPower.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

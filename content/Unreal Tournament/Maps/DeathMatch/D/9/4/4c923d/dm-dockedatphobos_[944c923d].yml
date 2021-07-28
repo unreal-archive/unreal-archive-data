@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:31"
+variationOf: "e7cb188ae69ac8c3334f277884809c1e1e346bf4"
+game: "Unreal Tournament"
+name: "DM-DockedAtPhobos"
+author: "Cedric 'Inoxx' Fiorentino"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-dockedatphobos_shot_944c923d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/9/4/4c923d/dm-dockedatphobos_shot_944c923d_1.png"
+originalFilename: "dm-docked_at_phobos.zip"
+hash: "944c923d661d8a1109ad8e9760365cf3eb42144a"
+fileSize: 3300304
+files:
+- name: "WuTangLogo.utx"
+  fileSize: 39913
+  hash: "edf1784008c994293094166e1298f25511cfdcfd"
+- name: "SSColdSteel.utx"
+  fileSize: 3315728
+  hash: "52aeed928d5d75ec324471a86b4c72c033f63ee7"
+- name: "DM-DockedAtPhobos.unr"
+  fileSize: 3572514
+  hash: "0d01c69e3b165b374abeee4c9b85c862df041843"
+otherFiles: 0
+dependencies:
+  DM-DockedAtPhobos.unr:
+  - status: "OK"
+    name: "SSColdSteel"
+  - status: "OK"
+    name: "WuTangLogo"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dm-docked_at_phobos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-docked_at_phobos.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-docked_at_phobos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsD/dm-docked_at_phobos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/9/4/4c923d/dm-docked_at_phobos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/9/4/4c923d/dm-docked_at_phobos.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Phobos Moon"
+playerCount: "4-8"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

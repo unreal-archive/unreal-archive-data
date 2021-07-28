@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 05:40"
+game: "Unreal Tournament"
+name: "BT+Mave"
+author: "Cobra"
+description: "None"
+releaseDate: "2007-05"
+attachments:
+- type: "IMAGE"
+  name: "BT+Mave_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/M/BT%2BMave_shot_1.png"
+originalFilename: "bt+mave.zip"
+hash: "40e009e413c3047dc906da6288932032c1d27653"
+fileSize: 27715117
+files:
+- name: "Mave-Music.umx"
+  fileSize: 23236679
+  hash: "13f3b20ebb8456401ba6dbccc1da4dec16cec8c1"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "MK_Partickle_Textures.utx"
+  fileSize: 2324871
+  hash: "3ee62d77b104360947c5a000b167e9db3f555e6e"
+- name: "PartickelSystem.u"
+  fileSize: 24002
+  hash: "ac21a950d1d5dbc9e5e365016698be417973c740"
+- name: "BT+Mave.unr"
+  fileSize: 17641148
+  hash: "8b096d59c55b5e3af000cfc7635df0383bd51bec"
+otherFiles: 0
+dependencies:
+  BT+Mave.unr:
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "PartickelSystem"
+  - status: "OK"
+    name: "anc"
+  - status: "OK"
+    name: "Mave-Music"
+  PartickelSystem.u:
+  - status: "OK"
+    name: "MK_Partickle_Textures"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt%2Bmave.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/M/bt%2Bmave.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt%2Bmave.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt%2Bmave.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/M/4/0/e009e4/bt%252Bmave.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/M/4/0/e009e4/bt%252Bmave.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT+Mave"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Industrial: 0.2
+  Ancient: 0.1
+bots: false

@@ -1,0 +1,86 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-05 15:33"
+game: "Unreal Tournament 2004"
+name: "Trrelicsonsmappack"
+author: "Various"
+description: "None"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "Trrelicsonsmappack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/T/Trrelicsonsmappack_shot_2.png"
+- type: "IMAGE"
+  name: "Trrelicsonsmappack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/T/Trrelicsonsmappack_shot_1.png"
+originalFilename: "trrelicsonsmappack.zip"
+hash: "7fe74c00535fe9e1ec00a2bf8a74b1b371a61159"
+fileSize: 17626267
+files:
+- name: "DWeather-smesh.usx"
+  fileSize: 41507
+  hash: "01469e3b5663f47a162d14d48effd3cd389aad16"
+- name: "ONS-TR-TheIsles.ut2"
+  fileSize: 3961782
+  hash: "4cdd91a4296cae0a41602a3712ef78d465134a1f"
+- name: "DWeather-Tex.utx"
+  fileSize: 706752
+  hash: "11ceaa8d0a2efdd21c376233aafc5c79c64da204"
+- name: "ONS-TR-Europa[Final].ut2"
+  fileSize: 19395220
+  hash: "5512337f1da004f5252c0d9b1bbcb7b1268c478b"
+- name: "ONS-TR-Transmission.ut2"
+  fileSize: 29365166
+  hash: "07450090fca9289847a32663a3d7261700fc7821"
+- name: "Dweather.u"
+  fileSize: 190927
+  hash: "5cee72adda6c32c70b0720a928421dc616368196"
+otherFiles: 1
+dependencies:
+  ONS-TR-Transmission.ut2:
+  - status: "OK"
+    name: "Dweather"
+  Dweather.u:
+  - status: "OK"
+    name: "DWeather-smesh"
+  - status: "OK"
+    name: "DWeather-tex"
+  ONS-TR-Europa[Final].ut2:
+  - status: "OK"
+    name: "DWeather-smesh"
+  - status: "OK"
+    name: "DWeather-tex"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6674235"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/T/trrelicsonsmappack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/MapPacks/&file=trrelicsonsmappack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/T/7/f/e74c00/trrelicsonsmappack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/T/7/f/e74c00/trrelicsonsmappack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "ONS-TR-TheIsles"
+  title: "ONS-TR-TheIsles"
+  author: "Joe [aka Relic] Unik"
+- name: "ONS-TR-Europa[Final]"
+  title: "Onslaught on Europa"
+  author: "Joe [aka Relic] Unik"
+- name: "ONS-TR-Transmission"
+  title: "TR_Transmission"
+  author: "Joe 'Relic' Unik"
+gametype: "Onslaught"
+themes: {}

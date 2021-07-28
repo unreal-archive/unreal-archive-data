@@ -1,0 +1,110 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:41"
+game: "Unreal"
+name: "DMRoofTops"
+author: "%LouZiffer *Imported from UT by RUSH*"
+description: "The Roof Dwellers Live..."
+releaseDate: "2004-02"
+attachments: []
+originalFilename: "DM-rooftop.zip"
+hash: "3729f5841f4c64ae2a7833fad2dee45c31b81cde"
+fileSize: 50793417
+files:
+- name: "UTTech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "Rooftops.utx"
+  fileSize: 357084
+  hash: "b46decc86cdfce3f16181c4e8acca8519230ef84"
+- name: "Indus5.utx"
+  fileSize: 3210994
+  hash: "6f701f378df841e8d21f66cd6c66789d9fec0904"
+- name: "NETextures.utx"
+  fileSize: 16889692
+  hash: "1e5de64baa0f1aa4874215e4fa02633b5c04ce94"
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+- name: "UT1.utx"
+  fileSize: 3970120
+  hash: "048d6fcf0c42957aa89c9e9907e7a843e92e3c74"
+- name: "UT.utx"
+  fileSize: 555547
+  hash: "5cc1abfb8d650e777cf68e817be51d0862db6dc9"
+- name: "Slums.utx"
+  fileSize: 3770831
+  hash: "4c4064de07786b2c007b8e27959389a082a161c7"
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+- name: "DMRoofTops.unr"
+  fileSize: 4997582
+  hash: "0ef6d09cf7cfeef0db568942dc3f1d5a08bb725d"
+- name: "Indus1.utx"
+  fileSize: 1804903
+  hash: "6cccf46a05192106e2457d77456335125f0be172"
+- name: "UTTech2.utx"
+  fileSize: 293309
+  hash: "2789ae4b2e186a7ce62997cedcc57a8a5763c858"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+otherFiles: 0
+dependencies:
+  DMRoofTops.unr:
+  - status: "OK"
+    name: "Rooftops"
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "UTtech1"
+  - status: "OK"
+    name: "Slums"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "MISSING"
+    name: "AmbCity"
+  - status: "OK"
+    name: "UT"
+  - status: "OK"
+    name: "NETextures"
+  - status: "OK"
+    name: "UTTech4"
+  - status: "OK"
+    name: "UTTech2"
+  - status: "OK"
+    name: "Sniper"
+  - status: "OK"
+    name: "UT1"
+  - status: "MISSING"
+    name: "Indus5"
+  - status: "OK"
+    name: "Indus1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/R/DM-rooftop.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/R/3/7/29f584/DM-rooftop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/R/3/7/29f584/DM-rooftop.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Rooftops"
+playerCount: "8 to 16"
+themes:
+  Industrial: 0.8
+  City: 0.1
+  Skaarj Tech: 0.1
+bots: false

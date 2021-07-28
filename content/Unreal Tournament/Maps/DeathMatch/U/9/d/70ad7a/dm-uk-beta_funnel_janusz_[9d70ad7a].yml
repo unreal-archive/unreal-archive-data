@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:02"
+game: "Unreal Tournament"
+name: "DM-UK-beta_Funnel_Janusz"
+author: "-=scorpion=-"
+description: "None"
+releaseDate: "2014-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-UK-beta_Funnel_Janusz_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-beta_Funnel_Janusz_shot_1.png"
+originalFilename: "DM-UK-beta_Funnel_Janusz.zip"
+hash: "9d70ad7a761a48fc698c9e1636ac5f56506c32d9"
+fileSize: 16434838
+files:
+- name: "DM-UK-beta_Funnel_Janusz.unr"
+  fileSize: 925614
+  hash: "ca27956a056c673374bdb282745566da66ef33b6"
+- name: "UKBeastieBoys.umx"
+  fileSize: 3223441
+  hash: "9384c2700480035e9ec01e8bfdeda2cc4c1dc45d"
+- name: "UKBadBoy.u"
+  fileSize: 23874025
+  hash: "7697f5d0832b7b8a65d3eca64a98c03dc3cbd5ab"
+- name: "ParticleSpawnerUK.u"
+  fileSize: 8894
+  hash: "09d223e9c5f8c446bb8093ba14b78079c578da4f"
+- name: "{UK}FreeRunnersLogo.utx"
+  fileSize: 88970
+  hash: "b499e8b34d70d84a4f765de02886d1344b8f641e"
+otherFiles: 0
+dependencies:
+  DM-UK-beta_Funnel_Janusz.unr:
+  - status: "OK"
+    name: "UKBadBoy"
+  - status: "OK"
+    name: "ParticleSpawnerUK"
+  - status: "OK"
+    name: "UKBeastieBoys"
+  - status: "OK"
+    name: "{UK}FreeRunnersLogo"
+  - status: "MISSING"
+    name: "ClusterRedeemer"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-UK-beta_Funnel_Janusz.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-beta_Funnel_Janusz.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/9/d/70ad7a/DM-UK-beta_Funnel_Janusz.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/9/d/70ad7a/DM-UK-beta_Funnel_Janusz.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "FN-UK-Funnel-Janusz_k"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

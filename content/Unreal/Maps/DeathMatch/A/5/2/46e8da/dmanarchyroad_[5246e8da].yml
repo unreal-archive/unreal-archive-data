@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:39"
+game: "Unreal"
+name: "DMAnarchyRoad"
+author: "Fantasm"
+description: "None"
+releaseDate: "2005-03"
+attachments: []
+originalFilename: "DM-anarchyroad.zip"
+hash: "5246e8daee8285d3ef36d0edaa184bc8fc01c02c"
+fileSize: 7372964
+files:
+- name: "HongKong_Music.umx"
+  fileSize: 1399423
+  hash: "d5b731c61fca3a455608322988719bb44914aed8"
+- name: "Fantasm_ICU.utx"
+  fileSize: 4653800
+  hash: "a65becb7cfea29e73a25de555ed4fdb2c0099694"
+- name: "DMAnarchyRoad.unr"
+  fileSize: 5298236
+  hash: "eb3889795f1ebdc70df385ec3bca53139b49403d"
+- name: "duhast2.umx"
+  fileSize: 2387500
+  hash: "c9bc3aef9b494abf0e384d95fdc0822424203356"
+otherFiles: 0
+dependencies:
+  DMAnarchyRoad.unr:
+  - status: "OK"
+    name: "Fantasm_ICU"
+  - status: "MISSING"
+    name: "city"
+  - status: "MISSING"
+    name: "Scripted"
+  - status: "MISSING"
+    name: "Slums"
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Egypt"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "HongKong_Music"
+  - status: "MISSING"
+    name: "ShaneChurch"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "OK"
+    name: "duhast2"
+  - status: "MISSING"
+    name: "Eol"
+  - status: "MISSING"
+    name: "Coret_FX"
+  - status: "MISSING"
+    name: "Lian-X"
+  - status: "MISSING"
+    name: "Indus6"
+  - status: "MISSING"
+    name: "Indus3"
+  - status: "MISSING"
+    name: "Indus5a"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/A/DM-anarchyroad.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/A/5/2/46e8da/DM-anarchyroad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/A/5/2/46e8da/DM-anarchyroad.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Anarchy Road"
+playerCount: "16"
+themes:
+  Industrial: 0.1
+  Ancient: 0.1
+  City: 0.8
+bots: true

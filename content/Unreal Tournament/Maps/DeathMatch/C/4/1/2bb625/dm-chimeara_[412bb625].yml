@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:00"
+game: "Unreal Tournament"
+name: "DM-Chimeara"
+author: "Willy-\"Mister Prophet\"-Drekker"
+description: "This cold is what nurtures the Chimeara"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-Chimeara_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Chimeara_shot_1.png"
+originalFilename: "dm-chimeara.zip"
+hash: "412bb62534517da7fb9fbee2c3df21299cdd304c"
+fileSize: 4557032
+files:
+- name: "Mindtrap.umx"
+  fileSize: 1061414
+  hash: "c97909dcf30bca98685a84aad973b33c92e869b6"
+- name: "AbsoluteTex.utx"
+  fileSize: 2459889
+  hash: "a0287089a10b0e84dab130ccc240cb0e9bc81972"
+- name: "DM-Chimeara.unr"
+  fileSize: 7636091
+  hash: "a9f9a3db292cf29596cdbabf6b87d4fd4504081e"
+otherFiles: 1
+dependencies:
+  DM-Chimeara.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "Mindtrap"
+  - status: "OK"
+    name: "AbsoluteTex"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-chimeara.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-chimeara.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-chimeara.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-chimeara.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/4/1/2bb625/dm-chimeara.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/4/1/2bb625/dm-chimeara.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "-Chimeara-"
+playerCount: "4-8"
+themes:
+  Tech: 0.2
+  Industrial: 0.3
+  City: 0.2
+  Skaarj Tech: 0.3
+bots: true

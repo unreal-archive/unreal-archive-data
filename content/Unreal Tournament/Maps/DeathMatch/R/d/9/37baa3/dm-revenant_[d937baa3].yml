@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:34"
+game: "Unreal Tournament"
+name: "DM-Revenant]["
+author: "TYRANTBOSS"
+description: "\"Count Our Blessings\""
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "dm-revenant.zip"
+hash: "d937baa3778f458670177960361f1be0c95d87f0"
+fileSize: 1000002
+files:
+- name: "revenant.utx"
+  fileSize: 446084
+  hash: "a81b55c4579143d85501a824c53f5258aceed4e2"
+- name: "cf_mansion.utx"
+  fileSize: 266337
+  hash: "b522015ecaaba5111601c85e27941e9e56051b85"
+- name: "DM-Revenant][.unr"
+  fileSize: 1060668
+  hash: "8b9c7e6acb0e00a004d6427f6e7572fbcc843ac1"
+otherFiles: 1
+dependencies:
+  DM-Revenant][.unr:
+  - status: "OK"
+    name: "revenant"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/dm-revenant.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsR/&file=dm-revenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-revenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsR/dm-revenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/d/9/37baa3/dm-revenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/d/9/37baa3/dm-revenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Revenant]["
+playerCount: "1-10"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.8
+bots: true

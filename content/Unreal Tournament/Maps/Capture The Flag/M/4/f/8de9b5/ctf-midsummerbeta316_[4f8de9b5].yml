@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:01"
+game: "Unreal Tournament"
+name: "CTF-MidSummerbeta316"
+author: "'Seru"
+description: "None"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-MidSummerbeta316_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/CTF-MidSummerbeta316_shot_1.png"
+originalFilename: "ctf-midsummerbeta.zip"
+hash: "4f8de9b577ce18f7d76f1fa4cef53d85f3caeef6"
+fileSize: 1174392
+files:
+- name: "CTF-MidSummerbeta316.unr"
+  fileSize: 2123798
+  hash: "e90744a260e9739317b96046ebf0abc35dfa8caa"
+- name: "DeusExSou.uax"
+  fileSize: 384716
+  hash: "fe4ebbf51b143ae2fe43d2872428718143038590"
+- name: "DeusX.utx"
+  fileSize: 163293
+  hash: "f7a60e679db5abdd5f31c4f928cd364b1c8b5cb6"
+otherFiles: 0
+dependencies:
+  CTF-MidSummerbeta316.unr:
+  - status: "OK"
+    name: "DeusX"
+  - status: "OK"
+    name: "DeusExSou"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-midsummerbeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/ctf-midsummerbeta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3814"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/4/f/8de9b5/ctf-midsummerbeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/4/f/8de9b5/ctf-midsummerbeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Midsummer Bases"
+playerCount: "2-10"
+themes:
+  Natural: 0.9
+bots: true

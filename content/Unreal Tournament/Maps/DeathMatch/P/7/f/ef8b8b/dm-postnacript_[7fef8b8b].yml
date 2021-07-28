@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:29"
+game: "Unreal Tournament"
+name: "DM-Postnacript"
+author: "Moskophoros \"deda23\""
+description: "Welcome into the Nali-Cript"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-Postnacript_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-Postnacript_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Postnacript_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-Postnacript_shot_1.png"
+originalFilename: "dm-postnacript.zip"
+hash: "7fef8b8bc8b905d2174f4a4f3644a2e98277b276"
+fileSize: 1180108
+files:
+- name: "DM-Postnacript.unr"
+  fileSize: 1706769
+  hash: "e48bb258f162cd73b43841e7a4b1abca195e0452"
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+otherFiles: 2
+dependencies:
+  DM-Postnacript.unr:
+  - status: "OK"
+    name: "Nali"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-postnacript.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-postnacript.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=378"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/7/f/ef8b8b/dm-postnacript.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/7/f/ef8b8b/dm-postnacript.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-POSTNACRIPT"
+playerCount: "6-10"
+themes:
+  Nali Castle: 0.9
+  Skaarj Tech: 0.1
+bots: true

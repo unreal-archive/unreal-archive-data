@@ -1,0 +1,95 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:49"
+variationOf: "5b00374b6abe7af73a18f1229f8861c5d8cdf636"
+game: "Unreal"
+name: "DMdowntown"
+author: "Unknown"
+description: "None"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "dmdowntown.zip"
+hash: "05371efebd1d0c6442c988bc4f2c972cbd4a9943"
+fileSize: 7757586
+files:
+- name: "DMdowntown.unr"
+  fileSize: 6228164
+  hash: "c42247cfb6efd386ceff941756452e49541d66ca"
+- name: "urbansnds.uax"
+  fileSize: 678370
+  hash: "9e12373ec502874a958bd6486480b6d886743942"
+- name: "struct1.utx"
+  fileSize: 442564
+  hash: "6465f2adbad5636e1c72c5fc2bb8bea988ca6bec"
+- name: "streetex.utx"
+  fileSize: 6991743
+  hash: "011c59cf97e16e3ed1dfa382981435bbbff838a1"
+- name: "club.utx"
+  fileSize: 347853
+  hash: "6de6f3a518389641bfb80b2af3d1d554e7fcb7e9"
+- name: "jtex.utx"
+  fileSize: 114602
+  hash: "dfb03d576778d275ef00118ecaac4aeb5a2ad46f"
+- name: "basgrnd.utx"
+  fileSize: 112077
+  hash: "ab33dcdce628ab05fc60f842185a48f6f75b504d"
+- name: "decor3.utx"
+  fileSize: 88949
+  hash: "96a2e05bf2ef983b35ae72fc28fe277f3c51cc2d"
+otherFiles: 0
+dependencies:
+  DMdowntown.unr:
+  - status: "OK"
+    name: "urbansnds"
+  - status: "OK"
+    name: "Decor3"
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "club"
+  - status: "OK"
+    name: "struct1"
+  - status: "OK"
+    name: "Basgrnd"
+  - status: "OK"
+    name: "streetex"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dmdowntown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dmdowntown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsD/dmdowntown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmdowntown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/serpentine/DMdowntown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/D/0/5/371efe/dmdowntown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/D/0/5/371efe/dmdowntown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMdowntown"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.2
+  Ancient: 0.2
+  Skaarj Tech: 0.4
+  Nali Castle: 0.2
+bots: true

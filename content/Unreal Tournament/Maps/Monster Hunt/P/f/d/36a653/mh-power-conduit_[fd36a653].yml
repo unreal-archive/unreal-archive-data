@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:06"
+game: "Unreal Tournament"
+name: "MH-Power-Conduit"
+author: "RJGexplode"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-Power-Conduit_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/P/MH-Power-Conduit_shot_1.png"
+originalFilename: "mh-power-conduit.zip"
+hash: "fd36a65362ea01230be3db6185ef549cfc1db7a9"
+fileSize: 4340982
+files:
+- name: "MH-Power-Conduit.unr"
+  fileSize: 376887
+  hash: "4823a9a30772b7ab1053cc1d4a415bf4b73e94bc"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Ordos.umx"
+  fileSize: 1864479
+  hash: "d1a967bb5c0c6ca8b7a7d25485268930639ef71a"
+- name: "Extro2.uax"
+  fileSize: 2871719
+  hash: "235dccf8d1798b9a9df0d3b6c05a78b67a6c7cf2"
+otherFiles: 2
+dependencies:
+  MH-Power-Conduit.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Ordos"
+  - status: "OK"
+    name: "Extro2"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-power-conduit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/P/mh-power-conduit.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-power-conduit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/P/f/d/36a653/mh-power-conduit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/P/f/d/36a653/mh-power-conduit.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Skaarj Power Conduit"
+playerCount: "3-5"
+themes:
+  Natural: 1.0
+bots: false

@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:48"
+game: "Unreal Tournament"
+name: "DM-VSK-XHouse"
+author: "[VSK]AssWaxer"
+description: ""
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-VSK-XHouse_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/V/DM-VSK-XHouse_shot_1.png"
+originalFilename: "dm-vsk-xhouse.zip"
+hash: "559af2a2f90dc96a78ac07033595b6da6163e202"
+fileSize: 5202362
+files:
+- name: "DM-VSK-XHouse.unr"
+  fileSize: 290988
+  hash: "0cf60303016e16bccb9f45520bb129937085edd1"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "metalRealm.umx"
+  fileSize: 1429132
+  hash: "66952cdb4f8c383dfa31f1f377ec17cd8ffd94b0"
+otherFiles: 1
+dependencies:
+  DM-VSK-XHouse.unr:
+  - status: "OK"
+    name: "metalRealm"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/V/dm-vsk-xhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsV/&file=dm-vsk-xhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-vsk-xhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsV/dm-vsk-xhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/V/5/5/9af2a2/dm-vsk-xhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/V/5/5/9af2a2/dm-vsk-xhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-VSK-XHouse"
+playerCount: "2-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

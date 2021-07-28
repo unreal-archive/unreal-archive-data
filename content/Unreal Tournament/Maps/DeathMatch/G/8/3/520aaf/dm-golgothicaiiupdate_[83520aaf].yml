@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:14"
+game: "Unreal Tournament"
+name: "DM-GolgothicaII(update)"
+author: "Terry \"lucifix\" Miller"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-GolgothicaII(update)_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-GolgothicaII(update)_shot_1.png"
+originalFilename: "dm-golgothicaii.zip"
+hash: "83520aaf8938c626b447d11e39c1258e1419e362"
+fileSize: 2560384
+files:
+- name: "tlabcomp.utx"
+  fileSize: 2964703
+  hash: "36e8cea2eb062943c3af23bb64a87fdb90673bd6"
+- name: "SpaceMarines.umx"
+  fileSize: 478011
+  hash: "b685b6d1a4491789da8d836372517ec9768fcfa0"
+- name: "DM-GolgothicaII(update).unr"
+  fileSize: 3540090
+  hash: "f1eb9140abe390a3846a56341a1dcb5ea5e57bb3"
+otherFiles: 1
+dependencies:
+  DM-GolgothicaII(update).unr:
+  - status: "OK"
+    name: "tlabcomp"
+  - status: "OK"
+    name: "SpaceMarines"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/dm-golgothicaii.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsG/&file=dm-golgothicaii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-golgothicaii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsG/dm-golgothicaii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/8/3/520aaf/dm-golgothicaii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/8/3/520aaf/dm-golgothicaii.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-GolgothicaII"
+playerCount: "10-20"
+themes:
+  Nali Temple: 0.9
+  Skaarj Crypt: 0.1
+bots: true

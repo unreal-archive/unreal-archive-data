@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:46"
+game: "Unreal Tournament"
+name: "DM-INF-DesertDisaster"
+author: "Excelsiore"
+description: "None"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-DesertDisaster_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-DesertDisaster_shot_1.png"
+originalFilename: "dm-inf-desertdisaster.zip"
+hash: "0e3fe06d8f467c9d5c68f8d803daf0c9c19f8a07"
+fileSize: 1004814
+files:
+- name: "exc_basetext.utx"
+  fileSize: 90308
+  hash: "28a65659b5eead682c54d7f83099d4e7e744ddc0"
+- name: "DM-INF-DesertDisaster.unr"
+  fileSize: 3591865
+  hash: "a280d659c42604fc6c5e81987f1f4a463fe82d04"
+otherFiles: 1
+dependencies:
+  DM-INF-DesertDisaster.unr:
+  - status: "MISSING"
+    name: "rw_TPack3"
+  - status: "OK"
+    name: "exc_basetext"
+  - status: "MISSING"
+    name: "INF_Walls_5"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "mmpack"
+  - status: "MISSING"
+    name: "rw_InstallFoot"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Belgrade"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  - status: "MISSING"
+    name: "INF_Walls_2"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+  - status: "MISSING"
+    name: "INF_Walls_1"
+  - status: "MISSING"
+    name: "rw_tpack5"
+  - status: "MISSING"
+    name: "rw_TPack2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-desertdisaster.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-desertdisaster.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/D/0/e/3fe06d/dm-inf-desertdisaster.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/D/0/e/3fe06d/dm-inf-desertdisaster.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Desert Disaster"
+playerCount: "8-16"
+themes:
+  Natural: 1.0
+bots: true

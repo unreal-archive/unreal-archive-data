@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:21"
+game: "Unreal Tournament"
+name: "CTF-GhostShip"
+author: "Brandon \"CmK\" Spurlock"
+description: "Ahhhhhhh......"
+releaseDate: "2003-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-GhostShip_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GhostShip_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-GhostShip_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GhostShip_shot_2.png"
+originalFilename: "ctf-ghostship.zip"
+hash: "1e0d9c2c11b04994f19c826d1461ec53626a5961"
+fileSize: 3773354
+files:
+- name: "CTF-GhostShip.unr"
+  fileSize: 4197570
+  hash: "fc9be27e60e6ca1744bfbad6bf412e35abe58e45"
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "TLabskies.utx"
+  fileSize: 3177099
+  hash: "bc2d9ac30b8091753f9074c9af0acb915a05635a"
+- name: "tlabcomp.utx"
+  fileSize: 2964703
+  hash: "36e8cea2eb062943c3af23bb64a87fdb90673bd6"
+otherFiles: 1
+dependencies:
+  CTF-GhostShip.unr:
+  - status: "OK"
+    name: "TLabskies"
+  - status: "OK"
+    name: "tlabcomp"
+  - status: "OK"
+    name: "cbrad_indus"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/ctf-ghostship.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/1/e/0d9c2c/ctf-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/1/e/0d9c2c/ctf-ghostship.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Ghost Ship"
+playerCount: "12-16"
+themes:
+  Tech: 0.3
+  Skaarj Crypt: 0.1
+  Ancient: 0.2
+  City: 0.1
+  Nali Castle: 0.3
+bots: true

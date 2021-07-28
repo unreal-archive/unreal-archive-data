@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:37"
+game: "Unreal"
+name: "STMAP"
+author: "matt tagliaferri"
+description: "thanx to Jack Porter for info on this cool feature!"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "SCRTEX.ZIP"
+hash: "e9dceed9a7cefee14dceb2eb99fed9be27a9c254"
+fileSize: 8652
+files:
+- name: "STDEMO.U"
+  fileSize: 3606
+  hash: "7267f286fdc071ebab7ebadd83a3a6fea249cf9b"
+- name: "STTEX.UTX"
+  fileSize: 23623
+  hash: "dddbe4442b95993d6b1d4533e5f8e4bf153f09ad"
+- name: "STMAP.UNR"
+  fileSize: 16767
+  hash: "c3d295f67494b5d15d757b423c700f3151d5dadb"
+otherFiles: 0
+dependencies:
+  STMAP.UNR:
+  - status: "OK"
+    name: "stDemo"
+  - status: "OK"
+    name: "stTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/S/e/9/dceed9/SCRTEX.ZIP"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/S/e/9/dceed9/SCRTEX.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/S/e/9/dceed9/SCRTEX.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "Scripted Texture Demo"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: false

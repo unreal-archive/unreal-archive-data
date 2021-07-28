@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:02"
+game: "Unreal Tournament"
+name: "CTF-BT-Impulse-dbl"
+author: "UN||XpanD"
+description: "CTF-BT-XD-Impulse by UN||XpanD"
+releaseDate: "2015-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Impulse-dbl_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT-Impulse-dbl_shot_1.png"
+originalFilename: "CTF-BT-Impulse-dbl.zip"
+hash: "d0e9b2951ceeab1674c9a061b7feb5c7f5fbee58"
+fileSize: 12797272
+files:
+- name: "CTF-BT-Impulse-dbl.unr"
+  fileSize: 3655624
+  hash: "69af1565eb8a563d21c236a9cdda3d8e44bd4e50"
+- name: "XDImpulse.u"
+  fileSize: 4044
+  hash: "b707b01785226cc79e047da1bd11617df689f924"
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "ul00.umx"
+  fileSize: 210815
+  hash: "40e42783f2f00090af1f3ae34ea79c39e53cd01e"
+otherFiles: 0
+dependencies:
+  XDImpulse.u:
+  - status: "OK"
+    name: "UTtech4"
+  CTF-BT-Impulse-dbl.unr:
+  - status: "OK"
+    name: "ul00"
+  - status: "OK"
+    name: "UTtech4"
+  - status: "OK"
+    name: "XDImpulse"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Impulse-dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT-Impulse-dbl.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Impulse-dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/I/d/0/e9b295/CTF-BT-Impulse-dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/I/d/0/e9b295/CTF-BT-Impulse-dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "UN||XpanD's BT-Impulse - visit UN server at 217.163.31.110:7777"
+playerCount: "16-32"
+themes:
+  Industrial: 0.9
+  Natural: 0.1
+bots: false

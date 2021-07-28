@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 01:14"
+game: "Unreal Tournament 2004"
+name: "DM-LIP-Q3DM17"
+author: "LIP-Rampage"
+description: "With the high number of deaths at the Quake 3 Arena map called Q3DM17,\
+  \ Liandri ordered LIP-Rampage to recreate this map but for the tournament, now,\
+  \ here it is, are you ready to die?"
+releaseDate: "2013-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-LIP-Q3DM17_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17_shot_6.png"
+- type: "IMAGE"
+  name: "DM-LIP-Q3DM17_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17_shot_2.png"
+- type: "IMAGE"
+  name: "DM-LIP-Q3DM17_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17_shot_5.png"
+- type: "IMAGE"
+  name: "DM-LIP-Q3DM17_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17_shot_3.png"
+- type: "IMAGE"
+  name: "DM-LIP-Q3DM17_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17_shot_4.png"
+- type: "IMAGE"
+  name: "DM-LIP-Q3DM17_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17_shot_1.png"
+originalFilename: "DM-LIP-Q3DM17.zip"
+hash: "e83670759783119cb17ebd415198a200c391a5e4"
+fileSize: 768674
+files:
+- name: "LIPBonusPickupsStatic.usx"
+  fileSize: 331057
+  hash: "ceefab4fefcb35d05300ab2a15612cdbb18b5fb2"
+- name: "LIPBonusPickups.u"
+  fileSize: 6526
+  hash: "268008749b46c8647703b38d8d6bfe9f15cefdc7"
+- name: "DM-LIP-Q3DM17.ut2"
+  fileSize: 2149040
+  hash: "dd438d51b8b7e56e7289e713cf256fba9b4f6770"
+- name: "LIPBonusPickupsTex.utx"
+  fileSize: 508022
+  hash: "06afa4bb6a34cfc77cf818935309cd099c5d271c"
+otherFiles: 6
+dependencies:
+  DM-LIP-Q3DM17.ut2:
+  - status: "OK"
+    name: "LIPBonusPickups"
+  LIPBonusPickups.u:
+  - status: "OK"
+    name: "LIPBonusPickupsTex"
+  - status: "OK"
+    name: "LIPBonusPickupsStatic"
+  LIPBonusPickupsStatic.usx:
+  - status: "OK"
+    name: "LIPBonusPickupsTex"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=DM-LIP-Q3DM17.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LIP-Q3DM17.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/L/e/8/367075/DM-LIP-Q3DM17.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/e/8/367075/DM-LIP-Q3DM17.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Longest Yard"
+playerCount: "2-6"
+themes:
+  Tech: 1.0
+bots: true

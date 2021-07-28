@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-UFR2-SS03-Incident"
+author: "Carey \"Gator\" Grayson"
+description: "Retreve Data Cube in Computer Room."
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "as-ufr2-ss03-incident_shot_9918481c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/9/9/18481c/as-ufr2-ss03-incident_shot_9918481c_1.png"
+originalFilename: "as-ufr2-ss03incident.zip"
+hash: "9918481c0a589d138699686661d85fef80a8d173"
+fileSize: 4358912
+files:
+- name: "AS-UFR2-SS03-Incident.unr"
+  fileSize: 6228585
+  hash: "bb22c10b9affc655abf9ad796dda573b0ca75812"
+- name: "Stargate.utx"
+  fileSize: 155730
+  hash: "065bc81f699d645c8c2c5096a2e4c8f4f59e5b80"
+- name: "SSColdSteel.utx"
+  fileSize: 3315728
+  hash: "4930587c29b952d568b6d7eff1dfb5102fe14d53"
+otherFiles: 1
+dependencies:
+  AS-UFR2-SS03-Incident.unr:
+  - status: "OK"
+    name: "SSColdSteel"
+  - status: "OK"
+    name: "Stargate"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/as-ufr2-ss03incident.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-ufr2-ss03incident.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-ufr2-ss03incident.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-ufr2-ss03incident.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/U/9/9/18481c/as-ufr2-ss03incident.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/U/9/9/18481c/as-ufr2-ss03incident.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "UFR2-SS03-INCIDENT"
+playerCount: "8-12"
+themes:
+  Tech: 0.6
+  Industrial: 0.1
+  Skaarj Tech: 0.2
+bots: true

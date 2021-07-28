@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:11"
+game: "Unreal Tournament"
+name: "SW-SupplyDepo"
+author: "KAIN"
+description: "Codename: Delta"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "SW-SupplyDepo_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/S/SW-SupplyDepo_shot_1.png"
+originalFilename: "sw-supplydepo.zip"
+hash: "0d0dbfcf513608efe2732dbef263dd98417b2d79"
+fileSize: 3821926
+files:
+- name: "KAINtex.utx"
+  fileSize: 3306284
+  hash: "696cacb8b41366ddc8288622bc7038ef03750038"
+- name: "SW-SupplyDepo.unr"
+  fileSize: 4104925
+  hash: "dc1ea545c47f4e346eed4b85cdeb6ae51e4654b7"
+- name: "HmmwvPrefab.utx"
+  fileSize: 611210
+  hash: "e3696f53e1515031e0021bc4cae82421e85d81ee"
+otherFiles: 1
+dependencies:
+  SW-SupplyDepo.unr:
+  - status: "OK"
+    name: "KAINtex"
+  - status: "MISSING"
+    name: "Spynet-pack"
+  - status: "OK"
+    name: "HmmwvPrefab"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/S/sw-supplydepo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=sw-supplydepo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Misc&file=sw-supplydepo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Misc/sw-supplydepo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/S/0/d/0dbfcf/sw-supplydepo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/S/0/d/0dbfcf/sw-supplydepo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Codename: DELTA"
+playerCount: "18"
+themes:
+  Tech: 0.1
+  Natural: 0.6
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 18:57"
+game: "Unreal Tournament 2004"
+name: "NYCtest1920MAPv1.1"
+author: "Rogelio Olguin"
+description: "None"
+releaseDate: "2005-06"
+attachments: []
+originalFilename: "desp2_nyc1920s.zip"
+hash: "dbf3002b015c31c947d47d3beb32567891aacbab"
+fileSize: 16503408
+files:
+- name: "NYCtest1920MAPv1.1.ut2"
+  fileSize: 17929567
+  hash: "a9eb4d74382524d25f3dee7eaf619d7ac217e8e4"
+- name: "NYCtestSTA1920.usx"
+  fileSize: 1785780
+  hash: "30b6f3894ac81a642b4e77473c6111c8392819be"
+- name: "DespNYCtestTEX.utx"
+  fileSize: 27997044
+  hash: "e3253288658d989d3d15c6159093d9113b81aabe"
+otherFiles: 1
+dependencies:
+  NYCtest1920MAPv1.1.ut2:
+  - status: "OK"
+    name: "NYCtestSTA1920"
+  - status: "OK"
+    name: "DespNYCtestTEX"
+  NYCtestSTA1920.usx:
+  - status: "OK"
+    name: "DespNYCtestTEX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/N/desp2_nyc1920s.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=desp2_nyc1920s.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Unknown/N/d/b/f3002b/desp2_nyc1920s.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Unknown/N/d/b/f3002b/desp2_nyc1920s.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "none"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.6
+  City: 0.4
+bots: false

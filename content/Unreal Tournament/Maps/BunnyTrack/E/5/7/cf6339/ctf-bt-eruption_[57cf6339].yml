@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:28"
+game: "Unreal Tournament"
+name: "CTF-BT-Eruption"
+author: "GiorgiO.pX5"
+description: "None"
+releaseDate: "2017-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Eruption_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/E/CTF-BT-Eruption_shot_1.png"
+originalFilename: "CTF-BT-Eruption.zip"
+hash: "57cf6339d90d4b3c6fb0229fbe8cf2ade5277074"
+fileSize: 25463416
+files:
+- name: "rage_airport.utx"
+  fileSize: 29060534
+  hash: "0cc9c9110932259d2623b23cc1155dab26dbc6fc"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+- name: "anc4.utx"
+  fileSize: 2656698
+  hash: "80276fb0cdb9da3f9f9ffea2a4389a22a92ff63a"
+- name: "CTF-BT-Eruption.unr"
+  fileSize: 2710981
+  hash: "bb8d4bb26f9fc1641490bc4d640bf62ba31035ed"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  CTF-BT-Eruption.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "anc4"
+  - status: "OK"
+    name: "rage_airport"
+  - status: "OK"
+    name: "QueenSong"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Eruption.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/E/CTF-BT-Eruption.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Eruption.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/E/5/7/cf6339/CTF-BT-Eruption.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/E/5/7/cf6339/CTF-BT-Eruption.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Eruption"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: false

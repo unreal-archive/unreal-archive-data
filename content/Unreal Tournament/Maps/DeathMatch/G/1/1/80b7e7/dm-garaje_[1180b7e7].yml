@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:24"
+game: "Unreal Tournament"
+name: "DM-Garaje"
+author: "Mike"
+description: "Parking Garage"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "dm-garaje.zip"
+hash: "1180b7e7e34b57d9a9eeea6043a192b341bb79b2"
+fileSize: 4941840
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "Parking.utx"
+  fileSize: 17893
+  hash: "e1e682f34c2652f31798ef3ced1af65bea064b6e"
+- name: "DM-Garaje.unr"
+  fileSize: 3641342
+  hash: "5b6d20a053a68f03d5992c47b05365cc2dc304b6"
+otherFiles: 0
+dependencies:
+  DM-Garaje.unr:
+  - status: "OK"
+    name: "Parking"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-garaje.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/1/1/80b7e7/dm-garaje.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/1/1/80b7e7/dm-garaje.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/1/1/80b7e7/dm-garaje.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Parking Garage"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.4
+  Industrial: 0.1
+  City: 0.3
+bots: true

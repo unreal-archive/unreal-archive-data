@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 11:59"
+game: "Unreal Tournament"
+name: "CTF-Warehouse]["
+author: "PrIeSt_HoOd"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Warehouse][_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-Warehouse%5D%5B_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Warehouse][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-Warehouse%5D%5B_shot_1.png"
+originalFilename: "ctf-warehouse][.zip"
+hash: "25bc495b7e57d2ee5893e2f4b46b141c42195f95"
+fileSize: 797442
+files:
+- name: "CTF-Warehouse][b.unr"
+  fileSize: 996116
+  hash: "5cffce11acac11fce615c9acff295a8fa09c7bf1"
+- name: "CTF-Warehouse][.unr"
+  fileSize: 1408391
+  hash: "ea21d20fabee247486e10003cf03902b61722a49"
+- name: "ARYX.umx"
+  fileSize: 23037
+  hash: "5be1e05d02876be9ee9f60f7745264cd37e32d9d"
+otherFiles: 5
+dependencies:
+  CTF-Warehouse][.unr:
+  - status: "OK"
+    name: "ARYX"
+  CTF-Warehouse][b.unr:
+  - status: "OK"
+    name: "ARYX"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-warehouse%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/ctf-warehouse%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=510"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/2/5/bc495b/ctf-warehouse%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/2/5/bc495b/ctf-warehouse%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Cold Storage Warehouse"
+playerCount: "4-8"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:21"
+variationOf: "0236672e1d64461f4a72f18982b65de2509f0e7a"
+game: "Unreal Tournament"
+name: "CTF-UNI"
+author: "Chris Bartlett"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "ctf-uni_shot_b82a40f7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/b/8/2a40f7/ctf-uni_shot_b82a40f7_1.png"
+originalFilename: "ctfuni.zip"
+hash: "b82a40f7646fea95938ccf8249bd770ff6eb9374"
+fileSize: 3239062
+files:
+- name: "CTF-UNI.unr"
+  fileSize: 7546492
+  hash: "6fef149e190eadbc07d704e48a4054a2430ba975"
+- name: "colwell.utx"
+  fileSize: 1269955
+  hash: "d974a3ee2191db12e77f2adb45e304ec2dca7601"
+otherFiles: 1
+dependencies:
+  CTF-UNI.unr:
+  - status: "OK"
+    name: "colwell"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctfuni.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/ctfuni.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/b/8/2a40f7/ctfuni.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/b/8/2a40f7/ctfuni.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Uni"
+playerCount: "10-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.3
+  Skaarj Tech: 0.6
+bots: true

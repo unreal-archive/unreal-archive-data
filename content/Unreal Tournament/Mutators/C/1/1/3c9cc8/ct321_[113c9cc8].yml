@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-19 22:00"
-variationOf: null
 game: "Unreal Tournament"
 name: "Ct321"
 author: "Cutter"
@@ -29,11 +28,9 @@ dependencies:
   EagleMute.u:
   - status: "OK"
     name: "CT3"
-    providedBy: null
   DoubleEagleMute.u:
   - status: "OK"
     name: "CT3"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/ct321.zip"
   main: true
@@ -44,6 +41,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=ct321.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/C/1/1/3c9cc8/ct321.zip"
   main: false
   repack: false
   state: "OK"
