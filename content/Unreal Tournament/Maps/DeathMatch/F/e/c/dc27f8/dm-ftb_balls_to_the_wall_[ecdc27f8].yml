@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:46"
+game: "Unreal Tournament"
+name: "DM-'FTB_Balls_To_The_Wall"
+author: "*FTB*~Schitzo~"
+description: ""
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-'FTB_Balls_To_The_Wall_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-'FTB_Balls_To_The_Wall_shot_1.png"
+originalFilename: "DM-'FTB_Balls_To_The_Wall.zip"
+hash: "ecdc27f8d0513cf0a3493ae4bb79d22772ab1855"
+fileSize: 18712772
+files:
+- name: "Accept.umx"
+  fileSize: 15145046
+  hash: "dd0d7b2cea3d72e6ad34ef74348b83f2c18d9c99"
+- name: "FTBLogos.utx"
+  fileSize: 166578
+  hash: "ad73ee69940d9f1620c5b39a56abf9cc6b3ae4d1"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "DM-'FTB_Balls_To_The_Wall.unr"
+  fileSize: 393404
+  hash: "d53b285f3d6a214b35b13129a39fd5ae544ae866"
+otherFiles: 0
+dependencies:
+  DM-'FTB_Balls_To_The_Wall.unr:
+  - status: "OK"
+    name: "FTBLogos"
+  - status: "OK"
+    name: "Accept"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%27FTB_Balls_To_The_Wall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-'FTB_Balls_To_The_Wall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/e/c/dc27f8/DM-'FTB_Balls_To_The_Wall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/e/c/dc27f8/DM-'FTB_Balls_To_The_Wall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FTB Balls To The Wall"
+playerCount: "2-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

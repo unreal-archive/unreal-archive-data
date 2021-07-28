@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 09:50"
+game: "Unreal Tournament 2004"
+name: "DM-Colonial"
+author: "Angelheart"
+description: "On the trail of the lonesome pine."
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-Colonial_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-Colonial_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Colonial_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-Colonial_shot_3.png"
+- type: "IMAGE"
+  name: "DM-Colonial_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-Colonial_shot_4.png"
+- type: "IMAGE"
+  name: "DM-Colonial_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-Colonial_shot_2.png"
+originalFilename: "dm-colonial.zip"
+hash: "525a1fc3ea75eb8bfbee8237346498e13aedd64c"
+fileSize: 10846527
+files:
+- name: "Colonialtex.utx"
+  fileSize: 14127563
+  hash: "fb5341afc4f8f7f6c99361aa149b8c768adfa0e6"
+- name: "DM-Colonial.ut2"
+  fileSize: 9551789
+  hash: "2289587340a79ba99b95702a2f231a198120bcd0"
+- name: "Colonialsnds.uax"
+  fileSize: 384598
+  hash: "ec0ccbb2847c79fca7b621eb4488c5eca7150769"
+- name: "Colonialmesh.usx"
+  fileSize: 3912837
+  hash: "c02ee10bcb6f410d5216605e25ef7795ecb62b8b"
+otherFiles: 4
+dependencies:
+  Colonialmesh.usx:
+  - status: "OK"
+    name: "Colonialtex"
+  DM-Colonial.ut2:
+  - status: "OK"
+    name: "Colonialmesh"
+  - status: "OK"
+    name: "Colonialtex"
+  - status: "OK"
+    name: "Colonialsnds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/dm-colonial.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/5/2/5a1fc3/dm-colonial.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/5/2/5a1fc3/dm-colonial.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Colonial"
+playerCount: "Unknown"
+themes: {}
+bots: true

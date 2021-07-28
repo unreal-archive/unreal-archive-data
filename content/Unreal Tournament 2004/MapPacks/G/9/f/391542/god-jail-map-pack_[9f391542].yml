@@ -1,0 +1,121 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-05-11 15:33"
+game: "Unreal Tournament 2004"
+name: "GOD Jail Map Pack"
+author: "»G.o.D«Raven"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "GOD_Jail_Map_Pack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/G/GOD_Jail_Map_Pack_shot_1.png"
+originalFilename: "GOD_Jail_Map_Pack.zip"
+hash: "9f391542344a6464230dd8ad813131cefff0a6c2"
+fileSize: 11972756
+files:
+- name: "CTF-GOD-Slammer.ut2"
+  fileSize: 3360768
+  hash: "018385d67f4c4eb31f7b2eef62a85f5800b48478"
+- name: "CTF-GOD-CellBlock_B.ut2"
+  fileSize: 12125695
+  hash: "f6dea77819529f0c3e8cb4615bef53112f789620"
+- name: "GOD_Pics.utx"
+  fileSize: 9093926
+  hash: "68ae035e384fe77bd4dca0935af6d7aef853c0b8"
+- name: "CTF-GOD-CellBlock_A.ut2"
+  fileSize: 9569276
+  hash: "ad9ab3e16a0bc37f36314f5140df7195d3655f17"
+- name: "god_XD_tex.utx"
+  fileSize: 1049631
+  hash: "069234d21e6782dc060d7f4f71e9fbeaf42200ee"
+- name: "GodSigs.usx"
+  fileSize: 326379
+  hash: "dac1d2ff3bf7a7bca61efe1e771144d5c4c31e0b"
+- name: "CTF-Slammer.usx"
+  fileSize: 390906
+  hash: "7bed5717945ec507b2ae5c1838d0196003695530"
+- name: "CTF-GOD-ShowerRoom-Deluxe.ut2"
+  fileSize: 3883044
+  hash: "06c10433aabe700e3bd7ee6b11e28cd67162012a"
+- name: "CTF-ShowerRoom.usx"
+  fileSize: 702407
+  hash: "d8a575fc647ba68304d72489e66626f1c28945c5"
+- name: "GOD_XE_tex.utx"
+  fileSize: 3671367
+  hash: "9be105519fd12306b4998b44209f0998835ec1f8"
+otherFiles: 0
+dependencies:
+  CTF-GOD-ShowerRoom-Deluxe.ut2:
+  - status: "OK"
+    name: "CTF-ShowerRoom"
+  - status: "OK"
+    name: "god_XD_tex"
+  - status: "MISSING"
+    name: "god_sig3o"
+  CTF-GOD-CellBlock_B.ut2:
+  - status: "MISSING"
+    name: "GOD_codes"
+  - status: "OK"
+    name: "CTF-ShowerRoom"
+  - status: "OK"
+    name: "CTF-Slammer"
+  - status: "OK"
+    name: "god_XD_tex"
+  - status: "MISSING"
+    name: "god_sig3o"
+  CTF-GOD-Slammer.ut2:
+  - status: "MISSING"
+    name: "GOD_codes"
+  - status: "OK"
+    name: "CTF-Slammer"
+  - status: "MISSING"
+    name: "god_sig3o"
+  - status: "MISSING"
+    name: "GOD_x2"
+  CTF-GOD-CellBlock_A.ut2:
+  - status: "MISSING"
+    name: "GOD_codes"
+  - status: "OK"
+    name: "CTF-ShowerRoom"
+  - status: "OK"
+    name: "CTF-Slammer"
+  - status: "OK"
+    name: "god_XD_tex"
+  - status: "MISSING"
+    name: "god_sig3o"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7021"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/G/GOD_Jail_Map_Pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/G/9/f/391542/GOD_Jail_Map_Pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/G/9/f/391542/GOD_Jail_Map_Pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-GOD-ShowerRoom-Deluxe"
+  title: "CTF-ShowerRoom"
+  author: "»G.o.D«Raven"
+- name: "CTF-GOD-CellBlock_B"
+  title: "Cell Block B"
+  author: "»G.o.D«Raven"
+- name: "CTF-GOD-Slammer"
+  title: "CTF-GOD-Slammer"
+  author: "Unknown"
+- name: "CTF-GOD-CellBlock_A"
+  title: "Cell Block A"
+  author: "»G.o.D«Raven"
+gametype: "Capture The Flag"
+themes:
+  Tech: 0.1
+  Industrial: 0.9

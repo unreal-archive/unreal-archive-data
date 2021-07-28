@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 23:40"
+variationOf: "86b629250a2d8f4601927c054f53ddc9ed350428"
+game: "Unreal Tournament"
+name: "DM-DaHood"
+author: "Marnix and Laurens Keek"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-dahood_shot_282882b6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/2/8/2882b6/dm-dahood_shot_282882b6_1.png"
+originalFilename: "dm-dahood.zip"
+hash: "282882b6e520a7ea00871cf45dbe17452a0f47dd"
+fileSize: 3061151
+files:
+- name: "DaHoodSFX.uax"
+  fileSize: 378065
+  hash: "9a5eaa90d9c78496add34d64022998a0af0603f8"
+- name: "DM-DaHood.unr"
+  fileSize: 7610067
+  hash: "557299a2453d3512f46b2a7022299216bdbf8c37"
+- name: "DaHoodTex.utx"
+  fileSize: 946142
+  hash: "5a884431ca38eca0a3f2531d51f706df8920c996"
+otherFiles: 1
+dependencies:
+  DM-DaHood.unr:
+  - status: "OK"
+    name: "DaHoodSFX"
+  - status: "OK"
+    name: "DaHoodTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-dahood.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/2/8/2882b6/dm-dahood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/2/8/2882b6/dm-dahood.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Da Hood"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.1
+  City: 0.6
+bots: true

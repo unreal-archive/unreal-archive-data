@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:12"
+game: "Unreal Tournament"
+name: "DM-{eZs}FunHouse"
+author: "MIKE aka TROPIC"
+description: "None"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "dm-ezsfunhouse.zip"
+hash: "ef98ab7451b6e4be4521684acfc4f811fdd151af"
+fileSize: 598913
+files:
+- name: "aDisco1.utx"
+  fileSize: 1483706
+  hash: "40f57253fc32aa361efe1a5171407083b812abcd"
+- name: "DM-{eZs}FunHouse.unr"
+  fileSize: 528932
+  hash: "1447d2992f07be604f73b210d40747ec40c1ded2"
+- name: "cnpopc.umx"
+  fileSize: 63265
+  hash: "1737012dac865f0d92b5d32ae692288c78ce5bc8"
+otherFiles: 0
+dependencies:
+  DM-{eZs}FunHouse.unr:
+  - status: "OK"
+    name: "aDisco1"
+  - status: "OK"
+    name: "cnpopc"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ezsfunhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-ezsfunhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1543"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/e/f/98ab74/dm-ezsfunhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/e/f/98ab74/dm-ezsfunhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{eZs} FUN HOUSE"
+playerCount: "8-21"
+themes:
+  Industrial: 1.0
+bots: true

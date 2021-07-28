@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-10-30 17:43"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "Onimercurycrossbowut2004beta2"
 author: "Unknown"
@@ -32,23 +31,22 @@ dependencies:
   ONIMercCrossbowSR.u:
   - status: "OK"
     name: "ONIMercBowSounds"
-    providedBy: null
   - status: "MISSING"
     name: "ONIMercCbow"
-    providedBy: null
   - status: "OK"
     name: "ONIMercCrossbow"
-    providedBy: null
   ONIMercCrossbow.u:
   - status: "OK"
     name: "ONIMercBowSounds"
-    providedBy: null
   - status: "MISSING"
     name: "ONIMercCbow"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/O/c/0/cf4b5a/onimercurycrossbowut2004beta2.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/O/c/0/cf4b5a/onimercurycrossbowut2004beta2.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

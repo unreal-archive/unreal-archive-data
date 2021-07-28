@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 17:52"
+game: "Unreal Tournament 2004"
+name: "DM-InCountrynight"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-InCountrynight_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/I/DM-InCountrynight_shot_2.png"
+- type: "IMAGE"
+  name: "DM-InCountrynight_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/I/DM-InCountrynight_shot_3.png"
+- type: "IMAGE"
+  name: "DM-InCountrynight_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/I/DM-InCountrynight_shot_1.png"
+originalFilename: "in_country_nights.zip"
+hash: "5952eedbebcad4041d1f516546ae679f2b970867"
+fileSize: 4510017
+files:
+- name: "DM-InCountrynight.ut2"
+  fileSize: 12839916
+  hash: "db409b9db73fbf6c07db2b59dffd9f6fa630279a"
+- name: "InCountrytextures.utx"
+  fileSize: 440147
+  hash: "30ae2e3dfc06b044bcab60e9825d00ef40bc3adf"
+- name: "InCountrynightmeshes.usx"
+  fileSize: 100986
+  hash: "33e1cd5401f9872abed05fccdfc93757dc3accb7"
+- name: "InCountrymeshes.usx"
+  fileSize: 100986
+  hash: "33e1cd5401f9872abed05fccdfc93757dc3accb7"
+- name: "InCountrynighttextures.utx"
+  fileSize: 440147
+  hash: "30ae2e3dfc06b044bcab60e9825d00ef40bc3adf"
+otherFiles: 4
+dependencies:
+  DM-InCountrynight.ut2:
+  - status: "OK"
+    name: "InCountrymeshes"
+  - status: "OK"
+    name: "InCountrytextures"
+  - status: "OK"
+    name: "InCountrynighttextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/I/in_country_nights.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=4632720"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsI/&file=in_country_nights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/I/5/9/52eedb/in_country_nights.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/I/5/9/52eedb/in_country_nights.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-InCountrynight"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: true

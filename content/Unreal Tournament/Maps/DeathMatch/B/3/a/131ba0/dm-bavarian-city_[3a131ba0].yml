@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:00"
+game: "Unreal Tournament"
+name: "DM-Bavarian-City"
+author: "[BSC]SniTch"
+description: "BSC Ole Ole"
+releaseDate: "2013-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Bavarian-City_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-Bavarian-City_shot_1.png"
+originalFilename: "DM-Bavarian-City.zip"
+hash: "3a131ba031b00f5638f94d1ca3c2a1456d19c1f7"
+fileSize: 5174441
+files:
+- name: "snitchbscmap.utx"
+  fileSize: 2120802
+  hash: "005d2b05708f1ebb4abd1e348cdf3c7e57ae6b84"
+- name: "dinosound111199.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+- name: "DM-Bavarian-City.unr"
+  fileSize: 2736017
+  hash: "c5f87a978333d53a1f5445218aedfc2af15a9aae"
+otherFiles: 0
+dependencies:
+  DM-Bavarian-City.unr:
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "dinosound111199"
+  - status: "OK"
+    name: "snitchbscmap"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-Bavarian-City.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Bavarian-City.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/3/a/131ba0/DM-Bavarian-City.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/3/a/131ba0/DM-Bavarian-City.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Bavarian City"
+playerCount: "12-24"
+themes:
+  Indistrial: 0.9
+bots: true

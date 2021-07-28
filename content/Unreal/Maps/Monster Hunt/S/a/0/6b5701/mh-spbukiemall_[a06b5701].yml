@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:13"
+game: "Unreal"
+name: "MH-[SP]BukieMall"
+author: "bukie_monster@hotmail.com"
+description: "The Bukie Monster wil get you!!!"
+releaseDate: "2010-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-spbukiemall_shot_a06b5701_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/a/0/6b5701/mh-spbukiemall_shot_a06b5701_1.png"
+originalFilename: "MH-[SP]BukieMall.zip"
+hash: "a06b5701693994b3b070329d5f21f83982e7c651"
+fileSize: 5203032
+files:
+- name: "MH-[SP]BukieMall.unr"
+  fileSize: 10579969
+  hash: "4a5dab90247113fad025a0282c243f53c28f22cf"
+- name: "Skyward.umx"
+  fileSize: 1004122
+  hash: "d05eec035dff8cceb4b0ca145a7b4ce6a1bdffec"
+otherFiles: 0
+dependencies:
+  MH-[SP]BukieMall.unr:
+  - status: "OK"
+    name: "Skyward"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]BukieMall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/a/0/6b5701/MH-%5BSP%5DBukieMall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/a/0/6b5701/MH-%255BSP%255DBukieMall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/a/0/6b5701/MH-%255BSP%255DBukieMall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]BukieMall"
+playerCount: "4-16"
+themes:
+  Nali Temple: 0.3
+  Nali Castle: 0.4
+  Skaarj Tech: 0.3
+bots: true

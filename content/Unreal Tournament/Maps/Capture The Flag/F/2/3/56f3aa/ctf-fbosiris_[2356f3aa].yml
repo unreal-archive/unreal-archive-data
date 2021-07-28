@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:10"
+game: "Unreal Tournament"
+name: "CTF-{FB}Osiris"
+author: "_¤]®aVy[¤_{FB}"
+description: "None"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-{FB}Osiris_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-%7BFB%7DOsiris_shot_1.png"
+originalFilename: "ctf-{fb}osiris.zip"
+hash: "2356f3aae1a1713ccb71c04156f3b87aee8afac6"
+fileSize: 546847
+files:
+- name: "CTF-{FB}Osiris.unr"
+  fileSize: 347740
+  hash: "2916edaa58b895e75467c922277f17e4f1bd9197"
+- name: "fbtexpack.utx"
+  fileSize: 972814
+  hash: "e2dcdde3f4e3212c1fefba31d900a3dc77a37a6b"
+- name: "MyLevel.utx"
+  fileSize: 132902
+  hash: "53ee9d1ceb15c1581dea54fe71afdcd911c0e26e"
+otherFiles: 0
+dependencies:
+  CTF-{FB}Osiris.unr:
+  - status: "OK"
+    name: "fbtexpack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bfb%7Dosiris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-%7Bfb%7Dosiris.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/2/3/56f3aa/ctf-%257Bfb%257Dosiris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/2/3/56f3aa/ctf-%257Bfb%257Dosiris.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-{FB}Osiris"
+playerCount: "6 to 12"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.4
+bots: false

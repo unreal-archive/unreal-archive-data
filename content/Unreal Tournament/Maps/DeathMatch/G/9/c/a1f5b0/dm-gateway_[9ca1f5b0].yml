@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-17 23:47"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Gateway"
 author: "Converted to DM by Shrimp"
@@ -26,10 +25,13 @@ dependencies:
   DM-Gateway.unr:
   - status: "OK"
     name: "Isotoxin"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/9/c/a1f5b0/DM-Gateway.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/9/c/a1f5b0/DM-Gateway.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

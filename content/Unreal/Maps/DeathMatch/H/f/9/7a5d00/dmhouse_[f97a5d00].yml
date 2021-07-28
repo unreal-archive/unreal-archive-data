@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:33"
+variationOf: "8e2055fa6bb7f522058088f8cc750898b8b7511d"
+game: "Unreal"
+name: "DmHouse"
+author: "HollierThenThou[MoA]"
+description: "Welcome To My House"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "dmhouse.zip"
+hash: "f97a5d00af19198286386228f798742c2120be42"
+fileSize: 6453199
+files:
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "Eiffel.umx"
+  fileSize: 4560994
+  hash: "73e90dde1a669f930c684dac636c999824422428"
+- name: "DmHouse.unr"
+  fileSize: 339731
+  hash: "c7bd6f7789ecdc64a9b97aba86cf1f5ff91b58d3"
+otherFiles: 1
+dependencies:
+  DmHouse.unr:
+  - status: "OK"
+    name: "cf_mansion"
+  - status: "OK"
+    name: "Eiffel"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dmhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/f/9/7a5d00/dmhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/f/9/7a5d00/dmhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/f/9/7a5d00/dmhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmHouse"
+playerCount: "Unknown"
+themes: {}
+bots: false

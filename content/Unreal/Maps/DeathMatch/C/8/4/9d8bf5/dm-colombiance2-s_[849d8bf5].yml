@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:47"
+game: "Unreal"
+name: "DM-Colombiance2-S"
+author: "JIMMY \"UKBikenut\" (Serp modification by HbG)"
+description: "KICKIN CAMPER BUTTS"
+releaseDate: "2001-06"
+attachments: []
+originalFilename: "DM-Colombiance2-S.zip"
+hash: "849d8bf552586d35bd8c6e9b9941567ff013a4a2"
+fileSize: 950658
+files:
+- name: "DM-Colombiance2-S.unr"
+  fileSize: 1991080
+  hash: "f976abe2b9de754a70c88462fecfdbbbca3c8bcb"
+- name: "Prong.uax"
+  fileSize: 175987
+  hash: "5ffaf313e0b9d1f0d24ec3797fa078c304aa3be4"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "colombiance.utx"
+  fileSize: 264691
+  hash: "9f50fd0847f4d5f1f93e9160c2ab91d5a4f3c817"
+otherFiles: 1
+dependencies:
+  DM-Colombiance2-S.unr:
+  - status: "OK"
+    name: "jumppad"
+  - status: "OK"
+    name: "Prong"
+  - status: "MISSING"
+    name: "Serpentine"
+  - status: "OK"
+    name: "colombiance"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=DM-Colombiance2-S.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/C/DM-Colombiance2-S.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Colombiance2-S.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsC/DM-Colombiance2-S.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DM-Colombiance2-S.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/8/4/9d8bf5/DM-Colombiance2-S.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/C/8/4/9d8bf5/DM-Colombiance2-S.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Colombiance2 - Serpentine"
+playerCount: "6 to 10"
+themes:
+  Nali Temple: 0.4
+  Tech: 0.3
+  Natural: 0.1
+  Nali Castle: 0.2
+bots: true

@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:43"
+game: "Unreal Tournament"
+name: "DM-NWwdm1_Arrange_Ver"
+author: "krs.ks@gustavip.jp"
+description: "None"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWwdm1_Arrange_Ver_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWwdm1_Arrange_Ver_shot_1.png"
+originalFilename: "DM-NWwdm1_Arrange_Ver.zip"
+hash: "8cc212dc11d68255cea26b7f814633cdc02a20b4"
+fileSize: 4139861
+files:
+- name: "heart_full_mechanic.umx"
+  fileSize: 1719966
+  hash: "d8b8b191a548db104da1311a22ce62b99c521504"
+- name: "DM-NWwdm1_Arrange_Ver.unr"
+  fileSize: 2804858
+  hash: "8f476ca159a624ff472dcbb1ca97a81da91e5121"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 0
+dependencies:
+  DM-NWwdm1_Arrange_Ver.unr:
+  - status: "OK"
+    name: "heart_full_mechanic"
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "swJumpPad"
+  Jump.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWwdm1_Arrange_Ver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWwdm1_Arrange_Ver.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/8/c/c212dc/DM-NWwdm1_Arrange_Ver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/8/c/c212dc/DM-NWwdm1_Arrange_Ver.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "NWwdm1_Arrange_Ver"
+playerCount: "2-16"
+themes:
+  Tech: 0.6
+  Industrial: 0.1
+  Natural: 0.2
+bots: true

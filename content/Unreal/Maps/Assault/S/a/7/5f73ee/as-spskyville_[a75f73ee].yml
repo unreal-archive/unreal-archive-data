@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:43"
+game: "Unreal"
+name: "AS-[SP]Skyville"
+author: "T. Ahlen"
+description: "None"
+releaseDate: "2010-04"
+attachments:
+- type: "IMAGE"
+  name: "as-spskyville_shot_a75f73ee_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Assault/S/as-spskyville_shot_a75f73ee_1.png"
+originalFilename: "AS-[SP]Skyville.zip"
+hash: "a75f73ee526e74b26f0c818349f71288f403a6b2"
+fileSize: 4144752
+files:
+- name: "AS-[SP]Skyville.unr"
+  fileSize: 4590297
+  hash: "f4cf19865bc70d070068b91301b7e58050c7bd72"
+- name: "SaveMe.umx"
+  fileSize: 1690127
+  hash: "d5b23cdf692e55ee5faecb65e936ccf3230c2542"
+otherFiles: 0
+dependencies:
+  AS-[SP]Skyville.unr:
+  - status: "MISSING"
+    name: "AmbCity"
+  - status: "MISSING"
+    name: "SP_Assault"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Assault/S/AS-%5BSP%5DSkyville.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Assault/S/a/7/5f73ee/AS-%255BSP%255DSkyville.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Assault/S/a/7/5f73ee/AS-%255BSP%255DSkyville.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-[SP]Skyville"
+playerCount: "2-8"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.9
+bots: true

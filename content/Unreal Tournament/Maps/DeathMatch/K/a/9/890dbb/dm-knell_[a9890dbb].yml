@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:20"
+variationOf: "527d9d2a9eedb1e9e96b7a863a2cbec0f7bbd4da"
+game: "Unreal Tournament"
+name: "DM-Knell"
+author: "Nick 'Neoduck' Donaldson & Sam 'Mambo' Sutton"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-knell_shot_a9890dbb_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/a/9/890dbb/dm-knell_shot_a9890dbb_1.png"
+originalFilename: "dm-knell.zip"
+hash: "a9890dbb61b6ac14ac2acb92434cc21da15d97f6"
+fileSize: 2546734
+files:
+- name: "lionmesh.u"
+  fileSize: 76323
+  hash: "505c8783e1a87762ff5c4c02282e19e9f94013b6"
+- name: "MySky.utx"
+  fileSize: 1754493
+  hash: "23333ffce84a62ad3f069ed82d61109e0bc6ab0a"
+- name: "DM-Knell.unr"
+  fileSize: 4166374
+  hash: "d4afa204aab3870e89555b5fe4c2dfa049c8ec71"
+otherFiles: 1
+dependencies:
+  DM-Knell.unr:
+  - status: "OK"
+    name: "MySky"
+  - status: "OK"
+    name: "lionmesh"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1537440"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dm-knell.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsK/dm-knell.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/a/9/890dbb/dm-knell.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/a/9/890dbb/dm-knell.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/a/9/890dbb/dm-knell.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dead Man's Knell"
+playerCount: "2 - 6"
+themes:
+  Ancient: 0.8
+  Natural: 0.1
+bots: true

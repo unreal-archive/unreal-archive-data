@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 19:49"
+game: "Unreal Tournament"
+name: "CTF-Fanmaris"
+author: "Jan Kohnert"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fanmaris_shot_e7b38874_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/7/b38874/ctf-fanmaris_shot_e7b38874_1.png"
+originalFilename: "CTF-Fanmaris.zip"
+hash: "e7b388745d22cb2ec07b107feb1bd0329575248d"
+fileSize: 5400292
+files:
+- name: "DrugsAreDanger3.umx"
+  fileSize: 3273086
+  hash: "74396fa6bd6132638e199b381994eb0310ea85d3"
+- name: "CTF-Fanmaris.unr"
+  fileSize: 2153550
+  hash: "5ddc83a907fb9d9b953e52408d01b1320897957b"
+- name: "ForsakenT.utx"
+  fileSize: 2940782
+  hash: "7e6c3e40f6a8b7146ab1532ebd41844b8bbc02f7"
+- name: "WOTDetail.utx"
+  fileSize: 177735
+  hash: "14c29fafd117a2148f12cb59fd71d9e3f5c96a00"
+otherFiles: 1
+dependencies:
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+  CTF-Fanmaris.unr:
+  - status: "OK"
+    name: "DrugsAreDanger3"
+  - status: "OK"
+    name: "ForsakenT"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-Fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-Fanmaris.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/7/b38874/CTF-Fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/7/b38874/CTF-Fanmaris.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Fanmaris"
+playerCount: "8-10"
+themes:
+  Ancient: 1.0
+bots: true

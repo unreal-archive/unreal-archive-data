@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:30"
+game: "Unreal Tournament"
+name: "DM-PPP_big_square_room"
+author: "{PPP}farrier"
+description: "None"
+releaseDate: "2002-10"
+attachments: []
+originalFilename: "dm-ppp_big_square_room.zip"
+hash: "c89e011c596b2f0522d3e4a4e44c8b5bb555fbbb"
+fileSize: 7694173
+files:
+- name: "PPPbdd.utx"
+  fileSize: 1345251
+  hash: "0ab1719c9f7472d6417251aff174e1493581943d"
+- name: "DM-PPP_big_square_room.unr"
+  fileSize: 306716
+  hash: "00747e249339929db25cdb79d28be9dba61ad3c2"
+- name: "WarPigs.umx"
+  fileSize: 8249264
+  hash: "c16c6de7157247bd16caf60cea0771911928a207"
+otherFiles: 0
+dependencies:
+  DM-PPP_big_square_room.unr:
+  - status: "OK"
+    name: "PPPbdd"
+  - status: "OK"
+    name: "WarPigs"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ppp_big_square_room.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-ppp_big_square_room.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/c/8/9e011c/dm-ppp_big_square_room.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/c/8/9e011c/dm-ppp_big_square_room.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{PPP}Big_Square_Room"
+playerCount: "Unknown"
+themes: {}
+bots: false

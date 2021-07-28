@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:41"
+game: "Unreal Tournament"
+name: "CTF-BigF'nBridgeX"
+author: "|2at-|3astard"
+description: "Big F'n Bridge!"
+releaseDate: "2007-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BigF'nBridgeX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-BigF'nBridgeX_shot_1.png"
+originalFilename: "ctf-bigfnbridgex.zip"
+hash: "7732300e248b1e314dbb4d8577865bbd5c19e165"
+fileSize: 3352487
+files:
+- name: "CTF-BigF'nBridgeX.unr"
+  fileSize: 3104295
+  hash: "f40716f1e579a1bf9ccf73d1e526cd926f3008aa"
+- name: "Streets.utx"
+  fileSize: 158592
+  hash: "e02eca185000a41f3946a399e6eaef0e16352903"
+- name: "FR_car.utx"
+  fileSize: 678775
+  hash: "e96f99532a4f39ab45c30cfcf52c10ea81aa66d2"
+- name: "Trains.utx"
+  fileSize: 4765677
+  hash: "df8390e632ba4c9e6bfb888d757014f2f1cd0676"
+otherFiles: 0
+dependencies:
+  CTF-BigF'nBridgeX.unr:
+  - status: "OK"
+    name: "Trains"
+  - status: "OK"
+    name: "FR_car"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Streets"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsB/&file=ctf-bigfnbridgex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-bigfnbridgex.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-bigfnbridgex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-bigfnbridgex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsB/ctf-bigfnbridgex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/7/7/32300e/ctf-bigfnbridgex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/7/7/32300e/ctf-bigfnbridgex.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Big F'n Bridge - |2at-|3astard"
+playerCount: "4 - 10"
+themes:
+  Tech: 0.1
+  City: 0.2
+  Skaarj Tech: 0.8
+bots: true

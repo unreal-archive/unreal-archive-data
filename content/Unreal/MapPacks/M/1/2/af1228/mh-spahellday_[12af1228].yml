@@ -1,0 +1,121 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 10:09"
+game: "Unreal"
+name: "MH [SP]AHellDay"
+author: "Various"
+description: "None"
+releaseDate: "2009-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-spahellday_shot_12af1228_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/M/1/2/af1228/mh-spahellday_shot_12af1228_1.png"
+originalFilename: "MH-[SP]AHellDay.zip"
+hash: "12af1228982780c5ff47269ccd87c8da00c4b7ed"
+fileSize: 12025765
+files:
+- name: "doom2n.utx"
+  fileSize: 101986
+  hash: "20a066c9c0435652a285ab3a5149e71106ba6085"
+- name: "ahelldaysounds.uax"
+  fileSize: 1219653
+  hash: "a6492909c19b713ea54453a4ff70cb40760b9be6"
+- name: "ahellday.u"
+  fileSize: 9074
+  hash: "6fc4d565fc38ae6d000a1e683ac2e5204f88eaac"
+- name: "ScriptedLight.u"
+  fileSize: 32783
+  hash: "d6f35b2095152c518e307523bcf2a70189963dbe"
+- name: "doomlook.u"
+  fileSize: 32527
+  hash: "f569976bc365a50782aaa18618959475d9bf8cdb"
+- name: "MH-[SP]AHellDay.unr"
+  fileSize: 6558587
+  hash: "fcc5f4a944f06060548058ba2ab9426b9224a410"
+- name: "MH-[SP]Rook.unr"
+  fileSize: 5214098
+  hash: "849fbc02193fcdb13f2005a504845e48f0c0d501"
+- name: "d_shawn_it.umx"
+  fileSize: 2814568
+  hash: "f9ceefaa8a57c88559c31f8550a1a22092f68b97"
+- name: "doom2T.utx"
+  fileSize: 8831215
+  hash: "0331b4305127558274c5fc135e576fa5ed837b8d"
+- name: "d_countd_it.umx"
+  fileSize: 2515449
+  hash: "4df0423d479c987f080c96a06b015fc4839ab4e4"
+otherFiles: 0
+dependencies:
+  MH-[SP]Rook.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "Commando"
+  - status: "MISSING"
+    name: "SP_MHpack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "Colossus"
+  - status: "MISSING"
+    name: "SP_MHHumans"
+  ahellday.u:
+  - status: "OK"
+    name: "doom2T"
+  MH-[SP]AHellDay.unr:
+  - status: "OK"
+    name: "ahelldaysounds"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_KillerNali"
+  - status: "OK"
+    name: "ScriptedLight"
+  - status: "MISSING"
+    name: "SP_MHpack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "ahellday"
+  - status: "OK"
+    name: "d_shawn_it"
+  - status: "OK"
+    name: "doomlook"
+  - status: "OK"
+    name: "d_countd_it"
+  - status: "OK"
+    name: "doom2T"
+  doomlook.u:
+  - status: "OK"
+    name: "doom2n"
+  - status: "OK"
+    name: "doom2T"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]AHellDay.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/M/1/2/af1228/MH-%5BSP%5DAHellDay.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/M/1/2/af1228/MH-%255BSP%255DAHellDay.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/M/1/2/af1228/MH-%255BSP%255DAHellDay.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "MH-[SP]AHellDay"
+  title: "MH-[SP] A Hell Day"
+  author: "Alain-Michel 'Amisa' Savarese+(BW)"
+- name: "MH-[SP]Rook"
+  title: "MH-[SP]Rook"
+  author: "Alan 'Talisman' Willard"
+gametype: "Monster Hunt"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9

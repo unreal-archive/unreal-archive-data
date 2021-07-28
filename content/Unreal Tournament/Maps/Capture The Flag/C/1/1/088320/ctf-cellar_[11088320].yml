@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-14 05:46"
+game: "Unreal Tournament"
+name: "CTF-Cellar"
+author: "Hades"
+description: "None"
+releaseDate: "2001-11"
+attachments: []
+originalFilename: "CTF-Cellar.rar"
+hash: "11088320407e215700b28596071161595b7d7f3b"
+fileSize: 3117235
+files:
+- name: "Quake2-3Textury.utx"
+  fileSize: 3999115
+  hash: "0096fb3186045e13a0b0a072a273bbcb6468eec2"
+- name: "CTF-Cellar.unr"
+  fileSize: 835350
+  hash: "61c06a54aa59f5a30ea6b7f9e098c3cb11c5f9d1"
+otherFiles: 0
+dependencies:
+  CTF-Cellar.unr:
+  - status: "OK"
+    name: "Quake2-3Textury"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-Cellar.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/1/1/088320/CTF-Cellar.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/1/1/088320/CTF-Cellar.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Cellar"
+playerCount: "8-12"
+themes:
+  Industrial: 0.5
+  Ancient: 0.1
+  Nali Castle: 0.3
+bots: true

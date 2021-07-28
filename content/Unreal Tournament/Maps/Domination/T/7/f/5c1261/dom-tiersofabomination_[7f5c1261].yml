@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:00"
+game: "Unreal Tournament"
+name: "DOM-TiersOfAbomination"
+author: "Rory Baxter"
+description: "None"
+releaseDate: "2000-07"
+attachments: []
+originalFilename: "dom-tiersofabomination.zip"
+hash: "7f5c1261327c78954e58e6507ae630e91916d4f7"
+fileSize: 994889
+files:
+- name: "DOM-TiersOfAbomination.unr"
+  fileSize: 1308572
+  hash: "d305c81ed4974560ca82ebbc44b6a35bdb87f07f"
+- name: "q3texs.utx"
+  fileSize: 756123
+  hash: "f04032ba4fdbdc52361daa667822486aa47e8266"
+otherFiles: 1
+dependencies:
+  DOM-TiersOfAbomination.unr:
+  - status: "OK"
+    name: "q3texs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/T/dom-tiersofabomination.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=dom-tiersofabomination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=dom-tiersofabomination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Domination/dom-tiersofabomination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/T/7/f/5c1261/dom-tiersofabomination.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/T/7/f/5c1261/dom-tiersofabomination.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Tiers Of Abomination"
+playerCount: "6-8"
+themes:
+  Industrial: 0.1
+  Ancient: 0.1
+  Natural: 0.8
+bots: true

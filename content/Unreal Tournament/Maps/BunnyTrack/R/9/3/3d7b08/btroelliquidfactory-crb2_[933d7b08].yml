@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:40"
+game: "Unreal Tournament"
+name: "BT+(Roel)LiquidFactory-CRB2"
+author: "The Roel-R"
+description: "None"
+releaseDate: "2008-03"
+attachments:
+- type: "IMAGE"
+  name: "BT+(Roel)LiquidFactory-CRB2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/R/BT%2B(Roel)LiquidFactory-CRB2_shot_1.png"
+originalFilename: "BT+(Roel)LiquidFactory-CRB2.zip"
+hash: "933d7b08f2fef6ec9ad862131610edc82666f791"
+fileSize: 4112499
+files:
+- name: "dkc2mine.umx"
+  fileSize: 1440780
+  hash: "ec96498588cc416fac950ec6e1c8a6d0ab1854fa"
+- name: "LqfKeyS.u"
+  fileSize: 25151
+  hash: "068f1f07ecf618228276ac0caa6380b70692cca9"
+- name: "LqfKeyL.u"
+  fileSize: 7662
+  hash: "de2757820f10c3566b7b3298eeef21cd416c678d"
+- name: "Syrion.utx"
+  fileSize: 3870698
+  hash: "5df201e1784288dc70d3c81ba9fd759a9bb01659"
+- name: "BT+(Roel)LiquidFactory-CRB2.unr"
+  fileSize: 2364080
+  hash: "515389b602b264d843713ca868834f52fb32f625"
+- name: "LqfKeyW.u"
+  fileSize: 9634
+  hash: "1a219e6ef410b0f9191dc7c3f01b8fa2c7acc896"
+otherFiles: 0
+dependencies:
+  LqfKeyS.u:
+  - status: "MISSING"
+    name: "anc2"
+  BT+(Roel)LiquidFactory-CRB2.unr:
+  - status: "MISSING"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "dkc2mine"
+  - status: "OK"
+    name: "LqfKeys"
+  - status: "OK"
+    name: "Syrion"
+  - status: "OK"
+    name: "LqfKeyL"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7380"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/BT%2B(Roel)LiquidFactory-CRB2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/R/9/3/3d7b08/BT%252B(Roel)LiquidFactory-CRB2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/9/3/3d7b08/BT%252B(Roel)LiquidFactory-CRB2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT+ LiquidFactory - Completely Rebuilt (v2)"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: false

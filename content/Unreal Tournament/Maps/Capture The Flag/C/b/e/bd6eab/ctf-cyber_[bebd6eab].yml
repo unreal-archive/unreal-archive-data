@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:18"
+game: "Unreal Tournament"
+name: "CTF-Cyber"
+author: "Firefly"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Cyber_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-Cyber_shot_1.png"
+originalFilename: "ctf-cyber.zip"
+hash: "bebd6eab4b0a77bed5fa1aaf5da4f8c4413382c0"
+fileSize: 3470898
+files:
+- name: "Cyber.utx"
+  fileSize: 543501
+  hash: "c62a9d99289298f8e3a25bab0ea7881f51d49646"
+- name: "MultiSky.u"
+  fileSize: 1163
+  hash: "93d18fbba037ad074150230c9b3a37b9f58efbe8"
+- name: "CTF-Cyber.unr"
+  fileSize: 4954965
+  hash: "54c88db4c582301d4ad1fb1a128dc4ba40bed06d"
+otherFiles: 2
+dependencies:
+  CTF-Cyber.unr:
+  - status: "OK"
+    name: "Cyber"
+  - status: "OK"
+    name: "MultiSky"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-cyber.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsC/&file=ctf-cyber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-cyber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-cyber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsC/ctf-cyber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/e/bd6eab/ctf-cyber.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/e/bd6eab/ctf-cyber.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Cyber"
+playerCount: "12-14"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.3
+  Industrial: 0.4
+bots: true

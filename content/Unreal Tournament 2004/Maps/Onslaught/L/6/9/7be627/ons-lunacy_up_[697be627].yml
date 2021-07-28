@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 22:58"
+game: "Unreal Tournament 2004"
+name: "ONS-Lunacy_UP"
+author: "Lord Kafer"
+description: "Twenty years before the fall of the Sol Seperatists, technicians at\
+  \ the military facility of Mare Gray on the Moon staged a rebellion in order to\
+  \ steal a prototype tank."
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "ONS-Lunacy_UP_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/L/ONS-Lunacy_UP_shot_2.png"
+- type: "IMAGE"
+  name: "ONS-Lunacy_UP_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/L/ONS-Lunacy_UP_shot_1.png"
+originalFilename: "ons-lunacy_up.zip"
+hash: "697be6271e11bc8d5c9e86d748aeb72388b66a30"
+fileSize: 4498648
+files:
+- name: "ONS-Lunacy_UP.ut2"
+  fileSize: 9899430
+  hash: "8a90470c49a172f5a09bfbac085274d658545b9d"
+- name: "UPLogoMesh01.usx"
+  fileSize: 5548
+  hash: "d6471a27ea8265897d5b01673971cc3f9e90f7ec"
+- name: "UPLogoONS01.utx"
+  fileSize: 1768148
+  hash: "72569fc91650bfe3c8ca97786b21b00ff71e4773"
+otherFiles: 1
+dependencies:
+  UPLogoMesh01.usx:
+  - status: "OK"
+    name: "UPLogoONS01"
+  ONS-Lunacy_UP.ut2:
+  - status: "OK"
+    name: "UPLogoMesh01"
+  - status: "MISSING"
+    name: "AS_VehiclesFull_M"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2583"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/L/ons-lunacy_up.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/L/6/9/7be627/ons-lunacy_up.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/L/6/9/7be627/ons-lunacy_up.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "Lunacy"
+playerCount: "18"
+themes:
+  Tech: 0.1
+  Egyptian: 0.8
+  Natural: 0.1
+bots: true

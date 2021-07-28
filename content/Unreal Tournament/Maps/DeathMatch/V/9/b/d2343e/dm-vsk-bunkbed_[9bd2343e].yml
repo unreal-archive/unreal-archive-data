@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:22"
+game: "Unreal Tournament"
+name: "DM-VSK-Bunkbed"
+author: "[VSK]AssWaxer"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-VSK-Bunkbed_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/V/DM-VSK-Bunkbed_shot_1.png"
+originalFilename: "dm-vsk-bunkbed.zip"
+hash: "9bd2343ea53de30462b65abdaa9ce8cb24c8bfec"
+fileSize: 5766376
+files:
+- name: "VSK-BedS.utx"
+  fileSize: 1007824
+  hash: "58912f326aab95d9f425fc0a6dbf1c0527b61014"
+- name: "warcry.umx"
+  fileSize: 1335982
+  hash: "1a0d645adf81e2d7a23193b3e5fc6ae8badab9d4"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "DM-VSK-Bunkbed.unr"
+  fileSize: 1520572
+  hash: "0b93ba47566780a2b9b0abd147514756fc3db74f"
+otherFiles: 0
+dependencies:
+  DM-VSK-Bunkbed.unr:
+  - status: "OK"
+    name: "VSK-BedS"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "warcry"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-vsk-bunkbed.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/V/dm-vsk-bunkbed.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/V/9/b/d2343e/dm-vsk-bunkbed.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/V/9/b/d2343e/dm-vsk-bunkbed.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-VSK-BunkBeds"
+playerCount: "3-20"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  Ancient: 0.2
+bots: false

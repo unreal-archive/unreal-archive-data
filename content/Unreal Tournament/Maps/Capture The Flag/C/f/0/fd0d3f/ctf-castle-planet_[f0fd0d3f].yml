@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:16"
+game: "Unreal Tournament"
+name: "CTF-Castle Planet"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "ctf-castleplanet.zip"
+hash: "f0fd0d3f460b68a4c2240786aa88b85d88573c42"
+fileSize: 6032396
+files:
+- name: "00Pack1.utx"
+  fileSize: 2555129
+  hash: "add55d77f87c43bdf0f418b30a97ec6ea74347ef"
+- name: "CTF-Castle Planet.unr"
+  fileSize: 1849944
+  hash: "7695fabee4415a91eb4d8647ccb9f3ce14b14b31"
+- name: "Matex.utx"
+  fileSize: 4288342
+  hash: "0ceb9d7cbfd84fa5ecf5985ec746107a530724a8"
+- name: "CoreTexDetail.utx"
+  fileSize: 283939
+  hash: "b8b33cbb116b405a3e59d786db70587bc7f85989"
+- name: "Catacombs.utx"
+  fileSize: 1557535
+  hash: "ec6f014c3e64c21b7f6c94faa127db7f9f730e72"
+otherFiles: 1
+dependencies:
+  CTF-Castle Planet.unr:
+  - status: "OK"
+    name: "00Pack1"
+  - status: "OK"
+    name: "Catacombs"
+  Catacombs.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-castleplanet.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsC/&file=ctf-castleplanet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-castleplanet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-castleplanet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsC/ctf-castleplanet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/0/fd0d3f/ctf-castleplanet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/0/fd0d3f/ctf-castleplanet.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Castle Planet"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

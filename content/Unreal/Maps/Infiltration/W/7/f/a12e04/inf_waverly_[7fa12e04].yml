@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "INF_Waverly"
+author: "Tanimn"
+description: "None"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "INF_Waverly.zip"
+hash: "7fa12e04361629c064481051fb08dae351147f30"
+fileSize: 4164641
+files:
+- name: "M01Sky.utx"
+  fileSize: 352933
+  hash: "3011b21675d024ec41a29eebd667531271c205e2"
+- name: "Urban.utx"
+  fileSize: 4189020
+  hash: "be8cbaa1f222558981cd486e91123d17c9e9e79b"
+- name: "INF_Waverly.unr"
+  fileSize: 1401413
+  hash: "af7cd490f2e419ed87cc7b483a330dafe2a59dc4"
+- name: "Urban.utx"
+  fileSize: 679765
+  hash: "b2f3f7ddc4f12b20b0c06041404aff71dafdfbcf"
+otherFiles: 1
+dependencies:
+  INF_Waverly.unr:
+  - status: "OK"
+    name: "Urban"
+  - status: "OK"
+    name: "M01Sky"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_Waverly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/W/INF_Waverly.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_Waverly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/W/7/f/a12e04/INF_Waverly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/W/7/f/a12e04/INF_Waverly.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Nut House"
+playerCount: "12-16"
+themes:
+  Nali Temple: 0.1
+  City: 0.9
+bots: true

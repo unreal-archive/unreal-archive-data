@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:49"
+game: "Unreal Tournament 2004"
+name: "Gives you parachute so you land softly when falling down."
+author: "Unknown"
+description: ""
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "edo_chute1.zip"
+hash: "ef246d2dee82dc1d2945d30be5d79adb7fa854b3"
+fileSize: 132235
+files:
+- name: "edo_chute1.u"
+  fileSize: 23309
+  hash: "310b437f7cc6b0ebb990e5091f770db09f881a05"
+- name: "edo_chute1_tx.utx"
+  fileSize: 175589
+  hash: "423b7439472a92807d6a4b932f965ff3a7b3955f"
+- name: "edo_chute1_sm.usx"
+  fileSize: 21082
+  hash: "3bd09d5cb64958790c95de890d9d5a5112c4cc57"
+otherFiles: 1
+dependencies:
+  edo_chute1.u:
+  - status: "OK"
+    name: "edo_chute1_tx"
+  - status: "OK"
+    name: "edo_chute1_sm"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/G/edo_chute1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/G/e/f/246d2d/edo_chute1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/G/e/f/246d2d/edo_chute1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Gives you parachute so you land softly when falling down."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 10:58"
+game: "Unreal Tournament 2004"
+name: "DM-1on1-Q1_HydeDM1"
+author: "Marcin \"Mr_Hyde\" Winkowski"
+description: "None"
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-1on1-Q1_HydeDM1_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/Q/DM-1on1-Q1_HydeDM1_shot_2.png"
+- type: "IMAGE"
+  name: "DM-1on1-Q1_HydeDM1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/Q/DM-1on1-Q1_HydeDM1_shot_1.png"
+originalFilename: "dm-q1_hydedm1.zip"
+hash: "2fa4c58f09c0ba3dd6e2ab671666970c3eded29f"
+fileSize: 12514297
+files:
+- name: "Hyde_q1_hydedm1.usx"
+  fileSize: 4933724
+  hash: "cabfc10c85a6123b3e503337cd31258b96e5a3de"
+- name: "Hyde_HFusionIII.usx"
+  fileSize: 5636344
+  hash: "f74adb44e200299cdf3d95d5e5616b9ad28a1ab9"
+- name: "Hyde_q1_hydedm1.utx"
+  fileSize: 4933724
+  hash: "94b3efadc81de0db9616581a53ea6975ee634a4e"
+- name: "Hyde_FusionIII.utx"
+  fileSize: 12903179
+  hash: "bb59acf340a7078c266351b5770ddd82871f6f24"
+- name: "DM-1on1-Q1_HydeDM1.ut2"
+  fileSize: 6883278
+  hash: "91cc63577f615a3d019e0ce999e8c203a572a781"
+otherFiles: 2
+dependencies:
+  Hyde_q1_hydedm1.usx:
+  - status: "OK"
+    name: "Hyde_FusionIII"
+  Hyde_HFusionIII.usx:
+  - status: "OK"
+    name: "Hyde_FusionIII"
+  DM-1on1-Q1_HydeDM1.ut2:
+  - status: "OK"
+    name: "Hyde_FusionIII"
+  - status: "OK"
+    name: "Hyde_q1_hydedm1"
+  - status: "OK"
+    name: "Hyde_HFusionIII"
+  Hyde_q1_hydedm1.utx:
+  - status: "OK"
+    name: "Hyde_FusionIII"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/1%20on%201/Q/dm-q1_hydedm1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1602"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/1%20on%201/Q/2/f/a4c58f/dm-q1_hydedm1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/1%20on%201/Q/2/f/a4c58f/dm-q1_hydedm1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "HydeDM1"
+playerCount: "2-4"
+themes: {}
+bots: true

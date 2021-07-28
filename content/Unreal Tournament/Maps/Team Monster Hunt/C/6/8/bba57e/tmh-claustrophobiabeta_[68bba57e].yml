@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:25"
+game: "Unreal Tournament"
+name: "TMH-ClaustrophobiaBeta"
+author: "Mortan (Vatcilli) Lestaria"
+description: "None"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "TMH-ClaustrophobiaBeta_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/C/TMH-ClaustrophobiaBeta_shot_1.png"
+originalFilename: "tmh-claustrophobiabeta.zip"
+hash: "68bba57ecae1b06968316e009658370712dee029"
+fileSize: 6597489
+files:
+- name: "TMH-ClaustrophobiaBeta.unr"
+  fileSize: 4566304
+  hash: "41774edb46b9bc6accfd990f60830496c76df48c"
+- name: "survivor.umx"
+  fileSize: 898882
+  hash: "00d9a2fd853cf0961008bad61b486cda2e503df2"
+- name: "WateryFowls.umx"
+  fileSize: 3626776
+  hash: "51788a1666848ccd22d4c076c38d24dfa1bc4fdb"
+- name: "TeamMH.u"
+  fileSize: 1277228
+  hash: "199b65a34043b8bd4ebdf398060f0ac5efa116c2"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  TMH-ClaustrophobiaBeta.unr:
+  - status: "OK"
+    name: "TeamMH"
+  - status: "OK"
+    name: "WateryFowls"
+  - status: "OK"
+    name: "survivor"
+  TeamMH.u:
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TeamMonsterHunt/&file=tmh-claustrophobiabeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/C/tmh-claustrophobiabeta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TeamMonsterHunt&file=tmh-claustrophobiabeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/C/6/8/bba57e/tmh-claustrophobiabeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/C/6/8/bba57e/tmh-claustrophobiabeta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Team Monster Hunt"
+title: "Claustrophobia"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.4
+  Skaarj Crypt: 0.2
+  Nali Castle: 0.4
+bots: true

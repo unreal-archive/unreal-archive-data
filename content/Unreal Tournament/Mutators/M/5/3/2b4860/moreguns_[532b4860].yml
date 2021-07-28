@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 20:40"
+game: "Unreal Tournament"
+name: "MoreGuns"
+author: "Unknown"
+description: ""
+releaseDate: "2016-04"
+attachments: []
+originalFilename: "MoreGunsv1.zip"
+hash: "532b486039a01be8dd1e2dd5b72583df70fefb50"
+fileSize: 7617
+files:
+- name: "MoreGunsv1.u"
+  fileSize: 4536
+  hash: "f63858975cc13c89dc5b8af09f06784d50dc990a"
+- name: "MoreGunsv2.u"
+  fileSize: 7269
+  hash: "83dc8ca63c690d5e308c4ec7dfe1fc1d102b2c4f"
+otherFiles: 3
+dependencies:
+  MoreGunsv1.u:
+  - status: "MISSING"
+    name: "MHAClusterRedeemer"
+  - status: "MISSING"
+    name: "TUC_M16A1"
+  - status: "MISSING"
+    name: "FBFMac10"
+  MoreGunsv2.u:
+  - status: "MISSING"
+    name: "SFC"
+  - status: "MISSING"
+    name: "MHAClusterRedeemer"
+  - status: "MISSING"
+    name: "M16Lety"
+  - status: "MISSING"
+    name: "FBFMac10"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/MonsterHunt&file=MoreGunsv1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/MoreGunsv1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/M/5/3/2b4860/MoreGunsv1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/M/5/3/2b4860/MoreGunsv1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "MoreGuns"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

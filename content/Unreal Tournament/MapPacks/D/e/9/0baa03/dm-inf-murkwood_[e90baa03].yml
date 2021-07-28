@@ -1,0 +1,100 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 23:04"
+game: "Unreal Tournament"
+name: "Dm Inf Murkwood"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "Dm_Inf_Murkwood_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Inf_Murkwood_shot_2.png"
+- type: "IMAGE"
+  name: "Dm_Inf_Murkwood_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Inf_Murkwood_shot_1.png"
+originalFilename: "dm-inf-murkwood.zip"
+hash: "e90baa030e2e4e9f9eec517d24e345cb587b3f36"
+fileSize: 7866456
+files:
+- name: "DM-INF-Murkwood.unr"
+  fileSize: 3958255
+  hash: "5c51b5f0a92186e5b627d80ccdde67b1cb821843"
+- name: "Forestdecs.u"
+  fileSize: 104162
+  hash: "afde5b1ed66405b9068a99ab667d24f9956735e7"
+- name: "forestpack.utx"
+  fileSize: 1056777
+  hash: "31cfc2aa68ee4b9138d0e73fbd15594282be60a8"
+- name: "Woodsnds.uax"
+  fileSize: 584316
+  hash: "306ec299b30341359c9dbde0a0d4e12ed99d7c10"
+- name: "Animal_PACK1.u"
+  fileSize: 2192402
+  hash: "08067207103da3bef9656aa1ffafd23a105632d2"
+- name: "dforstex.utx"
+  fileSize: 3624404
+  hash: "0bb80f60691a3b0aea46bb1e657f8e2896302327"
+- name: "DM-Murkwood.unr"
+  fileSize: 3569717
+  hash: "f5933894c9fb093742f22c2aeaa489cee8a125b4"
+otherFiles: 1
+dependencies:
+  DM-Murkwood.unr:
+  - status: "OK"
+    name: "Animal_PACK1"
+  - status: "OK"
+    name: "Forestdecs"
+  - status: "OK"
+    name: "forestpack"
+  - status: "OK"
+    name: "Woodsnds"
+  - status: "OK"
+    name: "dforstex"
+  Forestdecs.u:
+  - status: "OK"
+    name: "forestpack"
+  DM-INF-Murkwood.unr:
+  - status: "OK"
+    name: "Animal_PACK1"
+  - status: "OK"
+    name: "Forestdecs"
+  - status: "OK"
+    name: "forestpack"
+  - status: "OK"
+    name: "Woodsnds"
+  - status: "OK"
+    name: "dforstex"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-murkwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/dm-inf-murkwood.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/e/9/0baa03/dm-inf-murkwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/e/9/0baa03/dm-inf-murkwood.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-INF-Murkwood"
+  title: "DM-INF-Murkwood"
+  author: "AngelHeart"
+- name: "DM-Murkwood"
+  title: "DM-Murkwood"
+  author: "AngelHeart"
+gametype: "Mixed"
+themes: {}

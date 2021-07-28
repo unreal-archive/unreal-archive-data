@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:53"
+game: "Unreal Tournament"
+name: "DmKillMachine"
+author: "SoulReaver(marvin)"
+description: "What The Hell Is This!?!?"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "DmKillMachine.zip"
+hash: "31216f6ad7c43ecab65c463a9709fec7dfe3584a"
+fileSize: 304686
+files:
+- name: "DmKillMachine.unr"
+  fileSize: 919342
+  hash: "5ef8ce1f76f4ae47dd63e2791abf779468a6be0c"
+- name: "DFPawns.u"
+  fileSize: 15892
+  hash: "1371dfe41be4e850b6addf598b2dbbecf7db1acb"
+otherFiles: 1
+dependencies:
+  DmKillMachine.unr:
+  - status: "MISSING"
+    name: "SoulReaver1"
+  - status: "OK"
+    name: "DFPawns"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=DmKillMachine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DmKillMachine.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsK/DmKillMachine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/3/1/216f6a/DmKillMachine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/3/1/216f6a/DmKillMachine.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Spread Killing Machine"
+playerCount: "10-12"
+themes:
+  Skaarj Tech: 0.9
+  Nali Castle: 0.1
+bots: false

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:12"
+game: "Unreal Tournament"
+name: "CTF-HOGFryV3"
+author: "[H:O:G]jj"
+description: "Fryin' The HOG.."
+releaseDate: "2002-03"
+attachments: []
+originalFilename: "ctf-{hogs}fryv3.zip"
+hash: "7b8051d6945cf47fd7fa4aa242457c2402fb82c6"
+fileSize: 760789
+files:
+- name: "CTF-HOGFryV3.unr"
+  fileSize: 1066957
+  hash: "4ad3c59a60c8c9d2493d1d613985847e1b75a1e7"
+- name: "HOGFry.utx"
+  fileSize: 397948
+  hash: "2af86347970a1cadd4f64ae3b951d5b8e492bbc2"
+- name: "HOGFryAudio.uax"
+  fileSize: 335227
+  hash: "1ecb277c96e9bc20e05eff0e8cce248797ead79c"
+otherFiles: 0
+dependencies:
+  CTF-HOGFryV3.unr:
+  - status: "MISSING"
+    name: "Bedroom"
+  - status: "OK"
+    name: "HOGFry"
+  - status: "OK"
+    name: "HOGFryAudio"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bhogs%7Dfryv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-%7Bhogs%7Dfryv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/b/8051d6/ctf-%257Bhogs%257Dfryv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/b/8051d6/ctf-%257Bhogs%257Dfryv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "HOGFryV3"
+playerCount: "8-10"
+themes:
+  Ancient: 0.2
+  City: 0.2
+  Natural: 0.3
+  Skaarj Tech: 0.2
+bots: true

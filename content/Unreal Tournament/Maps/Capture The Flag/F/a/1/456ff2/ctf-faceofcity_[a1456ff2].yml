@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:06"
+game: "Unreal Tournament"
+name: "CTF-FaceOfCity"
+author: "Niklas ''Yaw'' Bjernekull"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FaceOfCity_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FaceOfCity_shot_1.png"
+originalFilename: "ctf-faceofcity.zip"
+hash: "a1456ff29d29a4825a15a9c6931b9c90254e4cf4"
+fileSize: 1643629
+files:
+- name: "NBCity.utx"
+  fileSize: 1138283
+  hash: "166f7c75a009ebda1b8c118c38a70c3086fb7eaa"
+- name: "CTF-FaceOfCity.unr"
+  fileSize: 4755874
+  hash: "666c76c319fa892e578a8fa06f9f1b33be25d0e5"
+otherFiles: 1
+dependencies:
+  CTF-FaceOfCity.unr:
+  - status: "OK"
+    name: "NBCity"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-faceofcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-faceofcity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-FaceOfCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/a/1/456ff2/ctf-faceofcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/a/1/456ff2/ctf-faceofcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Face of City"
+playerCount: "8 - 18"
+themes:
+  Industrial: 0.4
+  City: 0.4
+  Skaarj Tech: 0.1
+bots: true

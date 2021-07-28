@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:50"
+game: "Unreal Tournament"
+name: "DM-Abandonedv1final666"
+author: "Pablo \"Phantom3D\" Fernandez"
+description: "El reencuentro de la muerte"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Abandonedv1final666_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Abandonedv1final666_shot_1.png"
+originalFilename: "DM-Abandonedv1final666.unr.zip"
+hash: "f0b56ae6c864fa4b1ab90263272b4083939af51e"
+fileSize: 7769853
+files:
+- name: "EnAlBladeDEMO.utx"
+  fileSize: 2660546
+  hash: "463ca315d36c70eaf96aab2d36c308c9d8eae024"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "DM-Abandonedv1final666.unr"
+  fileSize: 5069510
+  hash: "c17b2f1e577e9dd23f938bfb33c6271bb020bbb7"
+otherFiles: 1
+dependencies:
+  DM-Abandonedv1final666.unr:
+  - status: "OK"
+    name: "EnAlBladeDEMO"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Abandonedv1final666.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-Abandonedv1final666.unr.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/f/0/b56ae6/DM-Abandonedv1final666.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/f/0/b56ae6/DM-Abandonedv1final666.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Abandoned v final 1.0 666"
+playerCount: "10 - 12"
+themes:
+  Tech: 0.2
+  Natural: 0.3
+  Nali Castle: 0.5
+bots: true

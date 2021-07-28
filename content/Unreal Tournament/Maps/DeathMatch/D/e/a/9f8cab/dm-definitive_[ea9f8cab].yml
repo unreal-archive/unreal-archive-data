@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:48"
+game: "Unreal Tournament"
+name: "DM-((Definitive))"
+author: "Simon \"@5t0\" Laudati"
+description: "None"
+releaseDate: "2011-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-definitive_shot_ea9f8cab_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/e/a/9f8cab/dm-definitive_shot_ea9f8cab_1.png"
+originalFilename: "DM-((Definitive)).zip"
+hash: "ea9f8cab55eef9269e32ed6d80783248ebc3ac5e"
+fileSize: 2714713
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DM-((Definitive)).unr"
+  fileSize: 3618527
+  hash: "5f7135f0bec18a482236a846644a1cf00619a193"
+- name: "WaterSupplier.utx"
+  fileSize: 89658
+  hash: "dc6d300941ab8b607bf640a85b53b932733bc538"
+otherFiles: 0
+dependencies:
+  DM-((Definitive)).unr:
+  - status: "OK"
+    name: "WaterSupplier"
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28%28Definitive%29%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-((Definitive)).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/e/a/9f8cab/DM-((Definitive)).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/e/a/9f8cab/DM-((Definitive)).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The definitive deathmatch arena"
+playerCount: "Ideal for 12"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.9
+bots: true

@@ -1,0 +1,115 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:52"
+game: "Unreal"
+name: "DMFightNight"
+author: "Mark"
+description: "None"
+releaseDate: "2005-03"
+attachments: []
+originalFilename: "DMFightNight.zip"
+hash: "90628c5c87bd60b844f74b554899af73673c493d"
+fileSize: 31590603
+files:
+- name: "GangWar.utx"
+  fileSize: 621000
+  hash: "529eb82d2acf01c561828ccf0df3b4f0ea35fccd"
+- name: "Eol.utx"
+  fileSize: 3873187
+  hash: "aef6b9a41e0b91c20e8933112766f88c94e4e253"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "AmbCity.uax"
+  fileSize: 643667
+  hash: "e5a82e544d635b6609e73d0010913d2c08a93ff7"
+- name: "Slums.utx"
+  fileSize: 3770831
+  hash: "4c4064de07786b2c007b8e27959389a082a161c7"
+- name: "DDayFX.utx"
+  fileSize: 2106712
+  hash: "2c4cc23b299edaef5199cc51e95bbd214adf94d0"
+- name: "UT.utx"
+  fileSize: 4525288
+  hash: "0ed5df562b24b9f55989f7b93c47970ef980c9df"
+- name: "Pan1.uax"
+  fileSize: 2616147
+  hash: "1dbd066e18118d311ee878a81bce75b41cabe960"
+- name: "Lian-X.utx"
+  fileSize: 489947
+  hash: "8ee61a6cb5d81b5615ae0d1e38e67b2ab9f78a18"
+- name: "Coret_FX.utx"
+  fileSize: 1024846
+  hash: "c5cc6701885ba74abc1f772fd6b8a6c95690bc31"
+- name: "UTTech3.utx"
+  fileSize: 285924
+  hash: "082abfbfe617f5cf9b60cd91820ed26c6f7fb84d"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "DMFightNight.unr"
+  fileSize: 3569629
+  hash: "e685c883bdfc7724a196c31a1ad3c4a31d99ead9"
+- name: "RotatingU.utx"
+  fileSize: 526756
+  hash: "775eeb21484041e31a7151687d85fde4f5a70ee2"
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+otherFiles: 0
+dependencies:
+  DMFightNight.unr:
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "Slums"
+  - status: "OK"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "OK"
+    name: "AmbCity"
+  - status: "OK"
+    name: "UT"
+  - status: "OK"
+    name: "Eol"
+  - status: "OK"
+    name: "RotatingU"
+  - status: "OK"
+    name: "UTTech3"
+  - status: "OK"
+    name: "GangWar"
+  - status: "OK"
+    name: "Coret_FX"
+  - status: "OK"
+    name: "Lian-X"
+  - status: "OK"
+    name: "Pan1"
+  - status: "OK"
+    name: "DDayFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/F/DMFightNight.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/F/9/0/628c5c/DMFightNight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/F/9/0/628c5c/DMFightNight.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Fight Night - TJ Combo"
+playerCount: "6-12"
+themes:
+  Tech: 0.1
+  Industrial: 0.3
+  Ancient: 0.1
+  City: 0.4
+  Nali Castle: 0.1
+bots: true

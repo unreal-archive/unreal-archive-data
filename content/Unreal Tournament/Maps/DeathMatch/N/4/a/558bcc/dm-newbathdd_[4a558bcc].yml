@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 23:49"
+game: "Unreal Tournament"
+name: "DM-NewBathDD"
+author: "blito4"
+description: "None"
+releaseDate: "2001-10"
+attachments: []
+originalFilename: "DM-NewBathDD.zip"
+hash: "4a558bcc8e2047d7d2527add59344c646dd38238"
+fileSize: 1508980
+files:
+- name: "DM-NewBathDD.unr"
+  fileSize: 673545
+  hash: "c06e3b9f54a1aa9e3d8fa10c7e99ec59de62d2ee"
+- name: "FredBedTex.utx"
+  fileSize: 988741
+  hash: "0ff88345e5cb4698d983688ccc4a37689e866f5c"
+- name: "BMission2.umx"
+  fileSize: 1090250
+  hash: "c56501a7b6995418e7ecdd59b22b7b09f3ed252b"
+otherFiles: 0
+dependencies:
+  DM-NewBathDD.unr:
+  - status: "OK"
+    name: "FredBedTex"
+  - status: "OK"
+    name: "BMission2"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-NewBathDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NewBathDD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NewBathDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-NewBathDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/4/a/558bcc/DM-NewBathDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/4/a/558bcc/DM-NewBathDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-NewBathDD"
+playerCount: "6 - 14"
+themes:
+  Tech: 0.9
+bots: false

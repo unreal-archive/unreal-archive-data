@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:46"
+game: "Unreal"
+name: "DmMegaArenaRMX"
+author: "Arjan Vroegop a.k.a. Evil Atje"
+description: "You can run, but you can't hide!"
+releaseDate: "2007-03"
+attachments: []
+originalFilename: "DMMegaArenaRmx.zip"
+hash: "4bfe9b8bbbdfb565866686121e71cfb3f6b21e33"
+fileSize: 5147837
+files:
+- name: "UTtech1.utx"
+  fileSize: 2224433
+  hash: "5cbf1942335e189a3384cc85aebb09524c21b7bc"
+- name: "DmMegaArenaRMX.unr"
+  fileSize: 1004239
+  hash: "e9cb77399e4bd930f110097e8f7497c9e447a2a8"
+- name: "RockWitU.umx"
+  fileSize: 3754738
+  hash: "471e6f1177ee70fa2fbadfc5609d1efcb4c5039b"
+otherFiles: 1
+dependencies:
+  DmMegaArenaRMX.unr:
+  - status: "OK"
+    name: "UTtech1"
+  - status: "OK"
+    name: "RockWitU"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMMegaArenaRmx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/4/b/fe9b8b/DMMegaArenaRmx.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/4/b/fe9b8b/DMMegaArenaRmx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/4/b/fe9b8b/DMMegaArenaRmx.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmMegaArena"
+playerCount: "8 - 12"
+themes:
+  Industrial: 1.0
+bots: true

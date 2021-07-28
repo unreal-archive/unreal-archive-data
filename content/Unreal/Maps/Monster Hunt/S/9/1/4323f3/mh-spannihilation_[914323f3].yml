@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:11"
+variationOf: "d27d4eefbf802173fa0aecd92005010fd6f02c15"
+game: "Unreal"
+name: "MH-[SP]Annihilation"
+author: "Recreated from UT by RUSH"
+description: "None"
+releaseDate: "2010-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-spannihilation_shot_914323f3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/9/1/4323f3/mh-spannihilation_shot_914323f3_1.png"
+originalFilename: "MH-[SP]Annihilation.zip"
+hash: "914323f3c7df7b590a2d84077bc3debc25a3f326"
+fileSize: 6853318
+files:
+- name: "Crash99.umx"
+  fileSize: 1025665
+  hash: "3fe104f365749ab043d3566e256377b5bae4adc1"
+- name: "MH-[SP]Annihilation.unr"
+  fileSize: 11070664
+  hash: "bae778aa323ec35f75525c8eb1ae59688abbb5ca"
+- name: "DiabloFade.umx"
+  fileSize: 1855467
+  hash: "901971fd6aaa2bd25bf1f11cae2c50ad6b5933c0"
+otherFiles: 0
+dependencies:
+  MH-[SP]Annihilation.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Crash99"
+  - status: "OK"
+    name: "DiabloFade"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]Annihilation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/9/1/4323f3/MH-%5BSP%5DAnnihilation.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/9/1/4323f3/MH-%255BSP%255DAnnihilation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/9/1/4323f3/MH-%255BSP%255DAnnihilation.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH[SP]-Annihilation"
+playerCount: "2 - 8"
+themes:
+  Skaarj Tech: 1.0
+bots: true

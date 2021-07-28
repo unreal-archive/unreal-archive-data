@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:25"
+game: "Unreal Tournament"
+name: "DM-BigBackyard~~~"
+author: "Dremoan"
+description: "None"
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-BigBackyard~~~_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BigBackyard~~~_shot_1.png"
+originalFilename: "DM-BigBackyard~~~.zip"
+hash: "977c039fba0a818f242e14aa83141052c6f2b167"
+fileSize: 4739862
+files:
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DM-BigBackyard~~~.unr"
+  fileSize: 2207638
+  hash: "f8f3679335c7fd0fe00819984b8ecde33f3c89b0"
+- name: "ccshockthemonkey.umx"
+  fileSize: 4760291
+  hash: "64cd3bbf03d2168592a13da1956c45b5dece34c4"
+otherFiles: 0
+dependencies:
+  DM-BigBackyard~~~.unr:
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "ccshockthemonkey"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-BigBackyard%7E%7E%7E.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-BigBackyard~~~.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/9/7/7c039f/DM-BigBackyard~~~.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/9/7/7c039f/DM-BigBackyard~~~.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DRMBackyard"
+playerCount: "6-8"
+themes:
+  Ancient: 0.1
+  Natural: 0.1
+  Indistrial: 0.8
+bots: true

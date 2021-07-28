@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:21"
+game: "Unreal"
+name: "DM[SP]SniperBathroom"
+author: "Remixed by RUSH"
+description: "None"
+releaseDate: "2008-09"
+attachments: []
+originalFilename: "DM[SP]SniperBathroom.zip"
+hash: "a519875ba1e0ebf23d1c5b8f192ca74364c5b91f"
+fileSize: 6023612
+files:
+- name: "SP_Control.umx"
+  fileSize: 5096983
+  hash: "6b08b48430c59e8b6a9f9617354493f27cc188c4"
+- name: "DM[SP]SniperBathroom.unr"
+  fileSize: 3418229
+  hash: "639ce710eb738a4d2a876008bcfce30938d00e90"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "metal.utx"
+  fileSize: 46589
+  hash: "62bf771989c8b19916329d0ce1337d571b126339"
+otherFiles: 0
+dependencies:
+  DM[SP]SniperBathroom.unr:
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "metal"
+  - status: "OK"
+    name: "SP_Control"
+  - status: "MISSING"
+    name: "AssaultFighter"
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DSniperBathroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/a/5/19875b/DM%255BSP%255DSniperBathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/a/5/19875b/DM%255BSP%255DSniperBathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Sniper Bathroom"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.8
+  Ancient: 0.1
+  Skaarj Tech: 0.1
+bots: true

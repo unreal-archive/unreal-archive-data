@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:21"
+game: "Unreal Tournament"
+name: "SW-UnderGround_v3"
+author: "Noah 'IVfluids' Ellison"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "SW-UnderGround_v3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/S/SW-UnderGround_v3_shot_1.png"
+originalFilename: "TO-Underground.zip"
+hash: "bc5fd0af1dcab8d7a83678eaeea82e9aeada6e5c"
+fileSize: 3385024
+files:
+- name: "SW-UnderGround_v3.unr"
+  fileSize: 2731552
+  hash: "e35f5c6e0b29c3949eecadf9366b566bf29b6237"
+- name: "TextureLib3.utx"
+  fileSize: 5423082
+  hash: "d665bbf9e79fb736a6083aad5e4282f0c1bfc83e"
+otherFiles: 1
+dependencies:
+  SW-UnderGround_v3.unr:
+  - status: "MISSING"
+    name: "TO-Epic"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "terrorist3tex"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "EP_Swt1"
+  - status: "OK"
+    name: "TextureLib3"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-Underground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/S/TO-Underground.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-Underground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/S/b/c/5fd0af/TO-Underground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/S/b/c/5fd0af/TO-Underground.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Underground Missle Silo"
+playerCount: "12-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  City: 0.4
+  Skaarj Tech: 0.3
+bots: true

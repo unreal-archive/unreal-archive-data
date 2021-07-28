@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 20:08"
+game: "Unreal Tournament"
+name: "CTF-Jagged"
+author: "JiveTurkey"
+description: "None"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Jagged_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/CTF-Jagged_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Jagged_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/CTF-Jagged_shot_1.png"
+originalFilename: "ctf-jagged.zip"
+hash: "fd556e559dff20df1779ff4843cdc51833503a0d"
+fileSize: 2770048
+files:
+- name: "70sPorn.umx"
+  fileSize: 531294
+  hash: "72d863ce763d2e3e6ff79e170b808c023741d1e6"
+- name: "CTF-Jagged.unr"
+  fileSize: 1409861
+  hash: "9c27507ddb888e9991fbd3dd9ce7d8f48153728c"
+- name: "GotWood.utx"
+  fileSize: 3239654
+  hash: "dae3895e3dd5d9b4d3a0ff80544469636696a99f"
+otherFiles: 2
+dependencies:
+  CTF-Jagged.unr:
+  - status: "OK"
+    name: "GotWood"
+  - status: "OK"
+    name: "70sPorn"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsJ/&file=ctf-jagged.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/ctf-jagged.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-jagged.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsJ/ctf-jagged.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2667"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/f/d/556e55/ctf-jagged.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/f/d/556e55/ctf-jagged.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF = Jagged"
+playerCount: "4-16"
+themes:
+  Industrial: 0.2
+  Nali Castle: 0.4
+  Skaarj Tech: 0.4
+bots: true

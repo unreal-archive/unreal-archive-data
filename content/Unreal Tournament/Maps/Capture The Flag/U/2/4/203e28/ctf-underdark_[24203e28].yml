@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:41"
+game: "Unreal Tournament"
+name: "CTF-UnderDark"
+author: "Shock Systems"
+description: "Welcome to Under Dark"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-UnderDark_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-UnderDark_shot_1.png"
+originalFilename: "ctf-underdark.zip"
+hash: "24203e28e81688b71b2d67fb4442f98e2f8ad793"
+fileSize: 4063516
+files:
+- name: "VoiceTMR.umx"
+  fileSize: 2585676
+  hash: "bfc2b9064a2fa07a49dcd1cc5353a4aa6951aa0f"
+- name: "CTF-UnderDark.unr"
+  fileSize: 4646840
+  hash: "9f97cbba281129515887d1347434adafb1186c48"
+otherFiles: 1
+dependencies:
+  CTF-UnderDark.unr:
+  - status: "OK"
+    name: "VoiceTMR"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/ctf-underdark.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsU/&file=ctf-underdark.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-underdark.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsU/ctf-underdark.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/2/4/203e28/ctf-underdark.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/2/4/203e28/ctf-underdark.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "UnderDark"
+playerCount: "10-16"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.5
+  Skaarj Tech: 0.3
+bots: true

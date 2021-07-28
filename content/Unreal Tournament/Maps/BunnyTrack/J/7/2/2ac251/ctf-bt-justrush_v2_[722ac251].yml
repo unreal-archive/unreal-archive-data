@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:16"
+game: "Unreal Tournament"
+name: "CTF-BT-JustRush_v2"
+author: "Pawel"
+description: "None"
+releaseDate: "2010-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-JustRush_v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/J/CTF-BT-JustRush_v2_shot_1.png"
+originalFilename: "CTF-BT-JustRush_v2.zip"
+hash: "722ac251c48c10ba6db09293eda25f6e54b803e7"
+fileSize: 7831003
+files:
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTF-BT-JustRush_v2.unr"
+  fileSize: 2502220
+  hash: "aea3b9b465b3f052ea986cfbfc1968e0b6f0ae33"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+- name: "UberBeatHook.umx"
+  fileSize: 267569
+  hash: "53f2bf9b3a7083e7eb0ccee2207d2bcd417f3b28"
+- name: "JumpSound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-BT-JustRush_v2.unr:
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Fallout"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "UberBeatHook"
+  - status: "OK"
+    name: "JumpSound"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-JustRush_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/J/CTF-BT-JustRush_v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-JustRush_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-JustRush_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/J/7/2/2ac251/CTF-BT-JustRush_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/J/7/2/2ac251/CTF-BT-JustRush_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Just Rush!"
+playerCount: "Full server :D"
+themes:
+  Ancient: 0.8
+  Natural: 0.2
+bots: false

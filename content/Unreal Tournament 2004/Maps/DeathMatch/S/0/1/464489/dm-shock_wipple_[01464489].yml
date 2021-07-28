@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:23"
+game: "Unreal Tournament 2004"
+name: "DM-Shock_Wipple"
+author: "Apophis3D"
+description: "Its all about the shock!"
+releaseDate: "2005-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-Shock_Wipple_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Shock_Wipple_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Shock_Wipple_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-Shock_Wipple_shot_2.png"
+originalFilename: "dm-shock_wipple.zip"
+hash: "014644898440ae782a6ef955d9035ace397a755c"
+fileSize: 1763026
+files:
+- name: "ShockWipleHardware.usx"
+  fileSize: 890738
+  hash: "8c5f63419cc75df6f847b89559987cffdf919f3d"
+- name: "DM-Shock_Wipple.ut2"
+  fileSize: 2147774
+  hash: "fd58ebef8cc2f8aa0e7f3de86534759c647f49a7"
+otherFiles: 2
+dependencies:
+  DM-Shock_Wipple.ut2:
+  - status: "OK"
+    name: "ShockWipleHardware"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4424"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm-shock_wipple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/0/1/464489/dm-shock_wipple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/0/1/464489/dm-shock_wipple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Shock Wiple"
+playerCount: "8-16"
+themes:
+  Industrial: 0.7
+  Ancient: 0.2
+  Natural: 0.2
+bots: true

@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 10:19"
+game: "Unreal Tournament 2004"
+name: "CTF-Vulca"
+author: "Krono"
+description: "A long forgotten Island on the end of the World..."
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Vulca_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/V/CTF-Vulca_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Vulca_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/V/CTF-Vulca_shot_1.png"
+originalFilename: "ctf-vulca.zip"
+hash: "f7741077bcfdf4dbdc9c65f7cf565fd5a5d0ab1f"
+fileSize: 5173498
+files:
+- name: "CTF-Vulca.ut2"
+  fileSize: 13876127
+  hash: "d04e78faacf3f7c1e4b670cb209615c833a771ca"
+- name: "KPack01.usx"
+  fileSize: 3179386
+  hash: "c34212149ee2001e9367cebec4130e8582cf4c03"
+otherFiles: 2
+dependencies:
+  CTF-Vulca.ut2:
+  - status: "OK"
+    name: "KPack01"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=877"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/V/f/7/741077/ctf-vulca.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/V/f/7/741077/ctf-vulca.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/V/f/7/741077/ctf-vulca.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Vulca Island"
+playerCount: "8-16"
+themes:
+  Tech: 1.0
+bots: true

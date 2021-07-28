@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:52"
+game: "Unreal Tournament"
+name: "CTF-BT-ShurCB"
+author: "Unknown"
+description: "Welcome to BT-Shur"
+releaseDate: "2012-09"
+attachments: []
+originalFilename: "CTF-BT-ShurCB.zip"
+hash: "1e921a5b60ad0c061e8e129f9dc8ce13ac6d5936"
+fileSize: 2994801
+files:
+- name: "chicoruinspack.utx"
+  fileSize: 3151438
+  hash: "ede065a0fc344030c307ca0f6a72efe890aff175"
+- name: "CTF-BT-ShurCB.unr"
+  fileSize: 2150240
+  hash: "306a75e0988142b5e3032a7c2b085db9af3d191e"
+otherFiles: 0
+dependencies:
+  CTF-BT-ShurCB.unr:
+  - status: "OK"
+    name: "chicoruinspack"
+  chicoruinspack.utx:
+  - status: "MISSING"
+    name: "ONPFootsteps"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-ShurCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-ShurCB.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/1/e/921a5b/CTF-BT-ShurCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/1/e/921a5b/CTF-BT-ShurCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Shur"
+playerCount: "12"
+themes:
+  Ancient: 1.0
+bots: false

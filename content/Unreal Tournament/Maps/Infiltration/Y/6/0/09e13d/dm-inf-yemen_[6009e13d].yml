@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:28"
+game: "Unreal Tournament"
+name: "DM-INF-Yemen"
+author: "Jon Jaszek aka GHOST_JonnyBoy[ij]"
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Yemen_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Yemen_shot_1.png"
+originalFilename: "DM-inf-yemen.zip"
+hash: "6009e13ddec3cca63ccf36855dc37384ada07164"
+fileSize: 2729509
+files:
+- name: "JBYemen.utx"
+  fileSize: 1290927
+  hash: "4ed76d8332ce2474ee787c0c1688d98edc785997"
+- name: "JBChinookpack.utx"
+  fileSize: 289143
+  hash: "ed473a44ea77bd9f8b56d5facaea7f764ba26705"
+- name: "DM-INF-Yemen.unr"
+  fileSize: 5564793
+  hash: "5c36eeaff826c2090ab3d6866d8f538962de7514"
+- name: "JBYemenSkies.utx"
+  fileSize: 933410
+  hash: "39ae90094f7d7445c97410ce08ac205c8ead0f2b"
+otherFiles: 1
+dependencies:
+  DM-INF-Yemen.unr:
+  - status: "MISSING"
+    name: "rw_TPack3"
+  - status: "OK"
+    name: "JBChinookpack"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "INF_Belgrade"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+  - status: "MISSING"
+    name: "sp_Tpack0"
+  - status: "OK"
+    name: "JBYemenSkies"
+  - status: "OK"
+    name: "JBYemen"
+  - status: "MISSING"
+    name: "NBShip"
+  - status: "MISSING"
+    name: "rw_TPack1"
+  JBYemen.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+  JBYemenSkies.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-yemen.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-inf-yemen.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/Y/6/0/09e13d/DM-inf-yemen.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/Y/6/0/09e13d/DM-inf-yemen.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "DM-INF-Yemen"
+playerCount: "10-16"
+themes:
+  Ancient: 0.9
+  Egyptian: 0.1
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:55"
+game: "Unreal"
+name: "DM-INF[SP]Italy"
+author: "[...]_lGremlin  converted from Tactical Ops by StOnEd SnIpEr"
+description: "TO-Italy"
+releaseDate: "2011-04"
+attachments: []
+originalFilename: "DM-INF[SP]Italy.zip"
+hash: "cbd7424a493e0d5829263b3348a6fec8c248a22a"
+fileSize: 10786843
+files:
+- name: "Moebel.utx"
+  fileSize: 238028
+  hash: "c592db618e27c007473d3b87cfa33b72335fb48a"
+- name: "Italy(2).utx"
+  fileSize: 919668
+  hash: "473942f52e38747a6c5f28d9375c3221e8597794"
+- name: "Sanitarium.umx"
+  fileSize: 8552909
+  hash: "5ec79b435e9eaf6f0811a79f3d59523598369053"
+- name: "DM-INF[SP]Italy.unr"
+  fileSize: 2643422
+  hash: "4962cbb367fc1ebbe958a17e15d6acf442966ad7"
+- name: "Italyneu.utx"
+  fileSize: 3424114
+  hash: "abfef56ed984dc8141bbf5183a882c4445404295"
+otherFiles: 0
+dependencies:
+  DM-INF[SP]Italy.unr:
+  - status: "OK"
+    name: "italy(2)"
+  - status: "OK"
+    name: "italyneu"
+  - status: "OK"
+    name: "Moebel"
+  - status: "OK"
+    name: "sanitarium"
+  - status: "MISSING"
+    name: "infiltration"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/I/DM-INF%5BSP%5DItaly.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/I/c/b/d7424a/DM-INF%255BSP%255DItaly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/I/c/b/d7424a/DM-INF%255BSP%255DItaly.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-INF[SP]Italy"
+playerCount: "8-16"
+themes: {}
+bots: true

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:28"
+game: "Unreal Tournament"
+name: "CTFM-EvilCylinder"
+author: "Doctor Evil"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-evilcylinder_shot_16fb0a58_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/ctfm-evilcylinder_shot_16fb0a58_1.png"
+originalFilename: "CTFM-EvilCylinder.zip"
+hash: "16fb0a5891b4ff8536e017f0089a25a563bb6048"
+fileSize: 6897183
+files:
+- name: "CrokxFX.utx"
+  fileSize: 13375
+  hash: "27a08b7a904ec20111fdfc70b9d11f755237cf8c"
+- name: "CTFM-EvilCylinder.unr"
+  fileSize: 1039217
+  hash: "aaa61dde94ea561bb1659ea5d9792a6b1cfddedf"
+- name: "cf_mansion.utx"
+  fileSize: 3798022
+  hash: "eb13651470d3828daecd2c9c0a30a4f65c279dff"
+- name: "Crusader.utx"
+  fileSize: 6064174
+  hash: "75679756f7d952a221cd9f671836e2100e98321f"
+- name: "CoreTex.utx"
+  fileSize: 736665
+  hash: "0965ed6a20fda94f6ce2bb46fcdc7251d021638e"
+otherFiles: 1
+dependencies:
+  CTFM-EvilCylinder.unr:
+  - status: "OK"
+    name: "Crusader"
+  - status: "OK"
+    name: "CrokxFX"
+  - status: "OK"
+    name: "CoreTex"
+  - status: "MISSING"
+    name: "Watcher"
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=CTFM-EvilCylinder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=CTFM-EvilCylinder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/1/6/fb0a58/CTFM-EvilCylinder.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/1/6/fb0a58/CTFM-EvilCylinder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/1/6/fb0a58/CTFM-EvilCylinder.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Evil Cylinder"
+playerCount: "16-24"
+themes:
+  Skaarj Crypt: 0.3
+  Ancient: 0.7
+bots: true

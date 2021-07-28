@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 08:51"
+game: "Unreal Tournament"
+name: "CTF-BT-(W)Critical"
+author: "Warlord"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-(W)Critical_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/W/CTF-BT-(W)Critical_shot_1.png"
+originalFilename: "CTF-BT-(W)Critical.zip"
+hash: "7892472da92064196e0c32b72185ddca154fd4bc"
+fileSize: 27582130
+files:
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "RT-Gnosis.utx"
+  fileSize: 12954443
+  hash: "72c81bf334ef71f93de04df929d376b23d3bdd29"
+- name: "hm4.umx"
+  fileSize: 2180316
+  hash: "cb990e4474a7c9771505ab20017c609269cbbff1"
+- name: "CTF-BT-(W)Critical.unr"
+  fileSize: 5922175
+  hash: "bfaf1c5b2c574f0c05e44c24159ae7c6a2dab5c3"
+- name: "tree405.u"
+  fileSize: 198748
+  hash: "6215b64d644a4228870ea429496517405aba233c"
+otherFiles: 0
+dependencies:
+  CTF-BT-(W)Critical.unr:
+  - status: "OK"
+    name: "tree405"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "hm4"
+  - status: "OK"
+    name: "RT-Gnosis"
+  - status: "OK"
+    name: "Ambient"
+  RT-Gnosis.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-%28W%29Critical.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/W/CTF-BT-(W)Critical.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-%28W%29Critical.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-%28W%29Critical.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/W/7/8/92472d/CTF-BT-(W)Critical.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/W/7/8/92472d/CTF-BT-(W)Critical.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Critical Death"
+playerCount: "2-12"
+themes:
+  Nali Castle: 0.9
+bots: false

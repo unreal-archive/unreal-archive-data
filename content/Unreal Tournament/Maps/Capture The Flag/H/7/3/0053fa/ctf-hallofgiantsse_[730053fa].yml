@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:25"
+game: "Unreal Tournament"
+name: "CTF-HallOfGiantsSE"
+author: "NONE"
+description: "None"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-HallOfGiantsSE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HallOfGiantsSE_shot_1.png"
+originalFilename: "ctf-hallofgaintsse.zip"
+hash: "730053fa38c123ba3a426a61e1303147a1b29040"
+fileSize: 884464
+files:
+- name: "CTF-HallOfGiantsSE.unr"
+  fileSize: 1216577
+  hash: "b2f2c7c5fee81dcabce8e76814bfd8a307a774a8"
+- name: "TeleFragGun.u"
+  fileSize: 447769
+  hash: "8bc0438b1e86643f87251c27f0c849f398ecfc27"
+- name: "NFRabit.u"
+  fileSize: 8839
+  hash: "2703a67896703070ba62869c32a9e943d14509f3"
+- name: "BunnyBomber.u"
+  fileSize: 446482
+  hash: "fa23e0ed3049f2fc3bc232f1e5f1453c11f2063b"
+- name: "ZarkAssaultRifle.u"
+  fileSize: 23993
+  hash: "588fae71fb0be46d431690cfbb00d7bd16cd51a5"
+- name: "MB.u"
+  fileSize: 4561
+  hash: "9a59bc6c231f5ce2c555f0fb5818eb143356326c"
+otherFiles: 0
+dependencies:
+  CTF-HallOfGiantsSE.unr:
+  - status: "OK"
+    name: "BunnyBomber"
+  - status: "OK"
+    name: "ZarkAssaultRifle"
+  - status: "OK"
+    name: "NFRabit"
+  - status: "OK"
+    name: "MB"
+  - status: "OK"
+    name: "TeleFragGun"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-hallofgaintsse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-hallofgaintsse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4810"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/3/0053fa/ctf-hallofgaintsse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/3/0053fa/ctf-hallofgaintsse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Hall Of Giants"
+playerCount: "8-16"
+themes:
+  Industrial: 0.9
+  Natural: 0.1
+bots: true

@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:44"
+game: "Unreal"
+name: "DMWildWest"
+author: "%[BIG]-Arts*Imported from UT by RUSH*"
+description: "Once upon a time lon long ago in the wild wild west"
+releaseDate: "2005-07"
+attachments: []
+originalFilename: "DM-wildwest.zip"
+hash: "d44cad54db5989962edab109b03291f2fe8c01d2"
+fileSize: 26520600
+files:
+- name: "Crypt2.utx"
+  fileSize: 7377678
+  hash: "1bc977a9fb6ac41a426a47ad537651476579115f"
+- name: "UTT.utx"
+  fileSize: 3792767
+  hash: "f7ffe0823922ae9aa9cea83ba06f95419deb1c71"
+- name: "BigWest.utx"
+  fileSize: 1189052
+  hash: "bcb0f4b152a87a49e15830a14b6aea25ba039ef8"
+- name: "CT4.utx"
+  fileSize: 266373
+  hash: "2434b2c626b06dda018e35b3123cb693af805260"
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+- name: "DDayFX.utx"
+  fileSize: 2106712
+  hash: "2c4cc23b299edaef5199cc51e95bbd214adf94d0"
+- name: "BigWest_RMX.umx"
+  fileSize: 6637440
+  hash: "433d19a281ee928f33ad0f26005b9ae3f282abe5"
+- name: "RainFX.utx"
+  fileSize: 11444974
+  hash: "d00583021fa26e3554f118e8067b76ab0e8fd849"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "DMWildWest.unr"
+  fileSize: 5994466
+  hash: "6575d708d595de6a8115b1f6eb808f2a7f1ee25d"
+otherFiles: 0
+dependencies:
+  DMWildWest.unr:
+  - status: "OK"
+    name: "CT4"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "BigWest_RMX"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "Sniper"
+  - status: "OK"
+    name: "BigWest"
+  - status: "OK"
+    name: "RainFX"
+  - status: "OK"
+    name: "UTT"
+  - status: "OK"
+    name: "Crypt2"
+  - status: "OK"
+    name: "DDayFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/W/DM-wildwest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/W/d/4/4cad54/DM-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/W/d/4/4cad54/DM-wildwest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "WildWest"
+playerCount: "2-32"
+themes:
+  Skaarj Crypt: 1.0
+bots: false

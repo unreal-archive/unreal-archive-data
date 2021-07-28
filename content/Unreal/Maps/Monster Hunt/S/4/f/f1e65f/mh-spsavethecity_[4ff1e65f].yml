@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:01"
+game: "Unreal"
+name: "MH-[SP]SaveTheCity"
+author: "Hitman"
+description: "None"
+releaseDate: "2012-09"
+attachments: []
+originalFilename: "MH-[SP]SaveTheCity.zip"
+hash: "4ff1e65fad2bd734a518cecd68e32c52b2b15c57"
+fileSize: 7066541
+files:
+- name: "mortalkombat.umx"
+  fileSize: 623128
+  hash: "474a8426a70e67eb723f4c3b682cc0b3fc151aea"
+- name: "MH-[SP]SaveTheCity.unr"
+  fileSize: 12270967
+  hash: "c861e2c9363de9aac86ab31242f1a39de482df72"
+otherFiles: 0
+dependencies:
+  MH-[SP]SaveTheCity.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "mortalkombat"
+  - status: "MISSING"
+    name: "AssaultTech9"
+  - status: "MISSING"
+    name: "AssaultTranslocator"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "AssaultNemesis"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DSaveTheCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/4/f/f1e65f/MH-%255BSP%255DSaveTheCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/4/f/f1e65f/MH-%255BSP%255DSaveTheCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]SaveThe City"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 1.0
+bots: true

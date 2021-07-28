@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 02:33"
+variationOf: "95b3606f7c132bde91771ecb63e24f2aeefc25b9"
+game: "Unreal Tournament 2004"
+name: "DM-Water and Lava Temple"
+author: "Link-117"
+description: "Little is known on how this Water and Lava Temple was built inside of\
+  \ a dormant volcano at the bottom of Lake Oakachobee in Florida...The island encompased\
+  \ the entire lake and was discovered by Link-117, The Universal Warrior himself\
+  \ when he drained the water from the lake and exposed it. He was on a mission to\
+  \ stop Dark Link-117's invasion of Deinosuchus and other giant reptiles...He stopped\
+  \ the giant reptiles here and moved on to other places where they have been sent\
+  \ to terrorize the world. Now the place is open (since Link-117 is allowing the\
+  \ tournament to compete here) and is the one of the biggest tournament arenas ever\
+  \ discovered. This arena could be the wettest, hottest, baddest, and most dangerous\
+  \ one yet...How long will you last in this hazardous temple? Will you emerge victorious?\
+  \ Or will you face defeat?"
+releaseDate: "2006-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Water_and_Lava_Temple_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/W/DM-Water_and_Lava_Temple_shot_1.png"
+originalFilename: "Water_and_Lava_Temple-V5-d.zip"
+hash: "2d356a692a62b2c8dcf4dbfd4adbdbb530ade9e5"
+fileSize: 18523327
+files:
+- name: "BenTropical01.utx"
+  fileSize: 11878293
+  hash: "29c0373b8f27cd2748843328dc92e815dcb4631d"
+- name: "DM-Water and Lava Temple.ut2"
+  fileSize: 28884302
+  hash: "fa16a3da592972b4e02a6c3db40b1b1a4d1e6fd4"
+- name: "Zelda3.utx"
+  fileSize: 1421213
+  hash: "3a9d5fdbb74b5cfa7984bfd6496ab0eda4a59bb5"
+- name: "BenTropicalSM01.usx"
+  fileSize: 1856531
+  hash: "805e18432fbc4c279886dba23acadbe962f0b1a9"
+- name: "Zelda3Statics.usx"
+  fileSize: 526742
+  hash: "aed27a9d5feb2ff0932a9155390ff600cdb807bd"
+- name: "MP-Magmoor.ogg"
+  fileSize: 5236469
+  hash: "d3a4dfa64997c879abfa0e1342984ebb6a1b4358"
+otherFiles: 1
+dependencies:
+  Zelda3Statics.usx:
+  - status: "PARTIAL"
+    name: "Zelda3"
+  DM-Water and Lava Temple.ut2:
+  - status: "OK"
+    name: "Zelda3Statics"
+  - status: "OK"
+    name: "Zelda3"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=Water_and_Lava_Temple-V5-d.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/W/Water_and_Lava_Temple-V5-d.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/W/2/d/356a69/Water_and_Lava_Temple-V5-d.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/W/2/d/356a69/Water_and_Lava_Temple-V5-d.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Water and Lava Temple"
+playerCount: "24-32"
+themes:
+  Industrial: 0.1
+  Natural: 0.9
+bots: true

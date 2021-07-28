@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:09"
+variationOf: "edb516c21fe5afdd9894df6d4282de7dc92e30b3"
+game: "Unreal Tournament"
+name: "CTF-(rS)eXo"
+author: "|r§|-)Ë×Çå|îßË®(-"
+description: "Enter the eXo"
+releaseDate: "2003-09"
+attachments: []
+originalFilename: "ctf-(rs)sxo.zip"
+hash: "02c06c8408518f7e9ba6a41046cc707073b545c9"
+fileSize: 3413208
+files:
+- name: "rSTunnels.utx"
+  fileSize: 909139
+  hash: "4ee29dd13da461b59e8711d44ce384f2c3e42049"
+- name: "SMQ2.umx"
+  fileSize: 3033726
+  hash: "1ea268e2a370d738fda087af48a1d047627cc387"
+- name: "CTF-(rS)eXo.unr"
+  fileSize: 607444
+  hash: "475c8717084b42c4c5a0450e81e9a8c3e2cc3771"
+- name: "clanrs.utx"
+  fileSize: 177658
+  hash: "b7573a0a79083610ff624e5c0244d170e5943e8e"
+otherFiles: 0
+dependencies:
+  CTF-(rS)eXo.unr:
+  - status: "OK"
+    name: "rSTunnels"
+  - status: "OK"
+    name: "clanrs"
+  - status: "OK"
+    name: "SMQ2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%28rs%29sxo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/ctf-(rs)sxo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/0/2/c06c84/ctf-(rs)sxo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/0/2/c06c84/ctf-(rs)sxo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(rS)eXo"
+playerCount: "12-16"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

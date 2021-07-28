@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 13:30"
+game: "Unreal Tournament 2004"
+name: "CTF-UCMP-DecaneCaldera"
+author: "Michael 'BIOS' Schorr"
+description: "Eons of dormancy bely the nature of violence that erupts daily in this\
+  \ ancient volcanic cone.  Located in the center of a vital antimatter research facility\
+  \ in the Saroma system, this field is host to two native, opposing factions, each\
+  \ struggling for control of the galaxy's most modern containment facilities.  On\
+  \ days when the twin suns are both in view, the steam rising from the ground is\
+  \ of a crimson tint, and tastes salty-sweet, thick with the blood of battle.  Welcome\
+  \ to the Decane Caldera..."
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-UCMP-DecaneCaldera_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/CTF-UCMP-DecaneCaldera_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-UCMP-DecaneCaldera_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/CTF-UCMP-DecaneCaldera_shot_2.png"
+originalFilename: "ctf-ucmp-decanecaldera.zip"
+hash: "5e660ebad6da206597bb23385080d2457e533add"
+fileSize: 13576902
+files:
+- name: "anti_container.utx"
+  fileSize: 2042232
+  hash: "c6b1b0d039b8908a48f32d987055bc836cfd4ca4"
+- name: "DecaneCaldera.ogg"
+  fileSize: 5175693
+  hash: "f86fbb692d0c4e52e612e2692f86675a5b0c16ca"
+- name: "CTF-UCMP-DecaneCaldera.ut2"
+  fileSize: 19929360
+  hash: "34fe1ade02be5c2f0f8d553875925f0090fcf554"
+- name: "antimatter_container.usx"
+  fileSize: 2048452
+  hash: "546ea65c05ff123d26e2a6bf76d8b9f18a3e9273"
+otherFiles: 2
+dependencies:
+  CTF-UCMP-DecaneCaldera.ut2:
+  - status: "OK"
+    name: "anti_container"
+  - status: "OK"
+    name: "antimatter_container"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/ctf-ucmp-decanecaldera.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4412"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/5/e/660eba/ctf-ucmp-decanecaldera.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/5/e/660eba/ctf-ucmp-decanecaldera.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Decane Caldera"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true

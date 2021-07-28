@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 09:24"
+game: "Unreal Tournament 2004"
+name: "DM-Ariza2k4"
+author: "-bStrange- AKA Brad Streng"
+description: "UT2K3 Remake of Myscha the Sled Dog's DM-Ariza for Unreal"
+releaseDate: "2003-09"
+attachments: []
+originalFilename: "dm-ariza2k4.zip"
+hash: "00cbc84e13fcebd01a03961da2dc4303de68203a"
+fileSize: 3987304
+files:
+- name: "DM-Ariza2k4.ut2"
+  fileSize: 5519205
+  hash: "4ccf618bddc65d6d5e495b79f685521dafd1a6a2"
+- name: "BootsOfJumpingMKII.u"
+  fileSize: 2149
+  hash: "51cb1c4e7fbb9c9b8ebb088e83c7fed54d6fe4e7"
+- name: "ArizaTextures.utx"
+  fileSize: 7344931
+  hash: "11aa4a5542f62ebc3a8f91cfb05781f70314aa5f"
+- name: "BootsOfJumpingMeshes.usx"
+  fileSize: 114545
+  hash: "6a15ca4345cc6ce58b8a01dbcc3790517c08bdd5"
+- name: "BootsOfJumpingSounds.uax"
+  fileSize: 31257
+  hash: "1e10b0c41eb4fcb63128c002d988ba6a4362080d"
+- name: "ArizaSounds.uax"
+  fileSize: 325693
+  hash: "18713d281570dbddedaf7fe1e379a66d250a91c4"
+- name: "ArizaMeshes.usx"
+  fileSize: 1513021
+  hash: "1b068d303b1ea788b2d157be2870d99e08c46983"
+- name: "BootsOfJumping.u"
+  fileSize: 19549
+  hash: "e547bccd885b31871032514350d027b9464bd0b1"
+otherFiles: 2
+dependencies:
+  ArizaMeshes.usx:
+  - status: "OK"
+    name: "ArizaTextures"
+  BootsOfJumpingMKII.u:
+  - status: "OK"
+    name: "BootsOfJumping"
+  DM-Ariza2k4.ut2:
+  - status: "OK"
+    name: "ArizaTextures"
+  - status: "OK"
+    name: "ArizaMeshes"
+  - status: "OK"
+    name: "ArizaSounds"
+  - status: "OK"
+    name: "BootsOfJumping"
+  BootsOfJumping.u:
+  - status: "OK"
+    name: "BootsOfJumpingMeshes"
+  - status: "OK"
+    name: "BootsOfJumpingSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-ariza2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/A/0/0/cbc84e/dm-ariza2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/0/0/cbc84e/dm-ariza2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Ariza2k4"
+playerCount: "2-6"
+themes: {}
+bots: true

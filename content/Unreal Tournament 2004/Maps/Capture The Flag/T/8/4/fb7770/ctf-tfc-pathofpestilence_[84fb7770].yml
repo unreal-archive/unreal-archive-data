@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 13:38"
+game: "Unreal Tournament 2004"
+name: "CTF-TFC-PathofPestilence"
+author: "Matt 'Goldfenix' Rose"
+description: "A once grand and prosperous temple among the chozodian high-priests,\
+  \ is now nothing more than a hall of ruin. What was once worshiped here, now means\
+  \ nothing more than the pestilence these walls carry. Will you rise above the disease\
+  \ and ensuing chaos to claim these halls?"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-TFC-PathofPestilence_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/CTF-TFC-PathofPestilence_shot_1.png"
+originalFilename: "tfcpestilence.zip"
+hash: "84fb77704f816c07623b983f20da7f5cd485a7e1"
+fileSize: 33247001
+files:
+- name: "CTF-TFC-PathofPestilence.ut2"
+  fileSize: 29464021
+  hash: "cf5a30a99e999ecb493e1887de445e5d94817978"
+- name: "MattTropicalTex.utx"
+  fileSize: 23883928
+  hash: "452e9cf2085ebec32f40f2988ca9829d4527aea4"
+- name: "MattTropical.usx"
+  fileSize: 22260837
+  hash: "4ef60b03f952752b6b1002c8a41845c33d3ec634"
+- name: "TorvusBog.ogg"
+  fileSize: 9752824
+  hash: "0a5b70489b73320727f6808b21342393af13347f"
+otherFiles: 1
+dependencies:
+  CTF-TFC-PathofPestilence.ut2:
+  - status: "OK"
+    name: "MattTropicalTex"
+  - status: "OK"
+    name: "MattTropical"
+  MattTropical.usx:
+  - status: "OK"
+    name: "MattTropicalTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/tfcpestilence.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/8/4/fb7770/tfcpestilence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/8/4/fb7770/tfcpestilence.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Path of Pestilence"
+playerCount: "2-4"
+themes:
+  Ancient: 1.0
+bots: true

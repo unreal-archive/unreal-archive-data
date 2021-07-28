@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 15:49"
+game: "Unreal Tournament 2004"
+name: "CTF-Alp-Schwarzschnee"
+author: "Retro-Ecstasy"
+description: "Since the Skaarj destroyed the previous training center of The Alpforce\
+  \ Department, they decided to build a new one high in the mountains of Austria.\
+  \ And here it is, after a year of hard working they finished their new training\
+  \ base. Ready for some oldschool action?"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Alp-Schwarzschnee_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/CTF-Alp-Schwarzschnee_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Alp-Schwarzschnee_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/CTF-Alp-Schwarzschnee_shot_1.png"
+originalFilename: "ctf-alp-schwarzschnee.zip"
+hash: "125ae31831ebf660e961a09421c0a829de89da3a"
+fileSize: 26109783
+files:
+- name: "CelesteTEX.utx"
+  fileSize: 20885350
+  hash: "99525c8c5e32a94f76b6a214eee80d3fb793564f"
+- name: "NaThSummit.usx"
+  fileSize: 12957647
+  hash: "68c1235db036668257659460ce6fe9a954f4c8af"
+- name: "AmbOutside.uax"
+  fileSize: 5469933
+  hash: "92315e2a3380c60eba087ef6a4b466e50b8014ad"
+- name: "Schwarzschnee.ogg"
+  fileSize: 2551594
+  hash: "9037d117530440453c4da47e9438c6533f107008"
+- name: "CelesteMeshes.usx"
+  fileSize: 7252317
+  hash: "82ed4d7a37267b36e97722fec0cbb867b61cd982"
+- name: "CTF-Alp-Schwarzschnee.ut2"
+  fileSize: 7878162
+  hash: "0a9e7f6f585e903cc0ee6918d553df3192570eb1"
+otherFiles: 2
+dependencies:
+  CTF-Alp-Schwarzschnee.ut2:
+  - status: "OK"
+    name: "CelesteMeshes"
+  - status: "OK"
+    name: "NaThSummit"
+  - status: "OK"
+    name: "AmbOutside"
+  CelesteMeshes.usx:
+  - status: "OK"
+    name: "CelesteTEX"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4103"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-alp-schwarzschnee.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/1/2/5ae318/ctf-alp-schwarzschnee.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/1/2/5ae318/ctf-alp-schwarzschnee.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Schwarzschnee"
+playerCount: "8"
+themes:
+  Tech: 0.9
+bots: true

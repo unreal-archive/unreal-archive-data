@@ -1,0 +1,113 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:10"
+game: "Unreal Tournament"
+name: "SFTDM-IRA"
+author: "Grady"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "SFTDM-IRA_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/S/SFTDM-IRA_shot_1.png"
+originalFilename: "sftdm-ira.zip"
+hash: "bb369768ec01fada9558bf9bb8b0608e622397e7"
+fileSize: 5636011
+files:
+- name: "SAS-Tex2.utx"
+  fileSize: 2100740
+  hash: "d266fc48838c8e9b4872e09ce36cdc26045ca982"
+- name: "SAS-tex4.utx"
+  fileSize: 763482
+  hash: "ec046906b31f15e1244897ed9a8d4628ba7b27de"
+- name: "SAS-Tex1.utx"
+  fileSize: 2649354
+  hash: "ed9dc60d975125cebf8d157c9e63cd44815c6f65"
+- name: "SAS-doors.utx"
+  fileSize: 180210
+  hash: "bb83d55f0a29761753a1e1a57d472543d41e0cbc"
+- name: "SFTDM-IRA.unr"
+  fileSize: 2281573
+  hash: "656f68e3cb436145dd96f5a2882a85c970675c60"
+- name: "SAS-Tex3.utx"
+  fileSize: 959374
+  hash: "921b154872a529f8c11382192c91a05972d04995"
+- name: "gsnds.uax"
+  fileSize: 915617
+  hash: "856aadc1d37db21da83254431888b9e42e6f3d22"
+- name: "wood2.utx"
+  fileSize: 290763
+  hash: "0ca0d599b09af6221ab1ac2c0321df25495c83d9"
+- name: "SAS-signs.utx"
+  fileSize: 116115
+  hash: "c1e4290dd5f3127287d3cb294e65bead927dd2b8"
+- name: "SAS-Buildings.utx"
+  fileSize: 23470
+  hash: "6a3ee149724726ea175b015332ce33e40e445e11"
+otherFiles: 1
+dependencies:
+  SFTDM-IRA.unr:
+  - status: "OK"
+    name: "SAS-Buildings"
+  - status: "MISSING"
+    name: "sf"
+  - status: "OK"
+    name: "SAS-signs"
+  - status: "OK"
+    name: "wood2"
+  - status: "OK"
+    name: "SAS-Tex1"
+  - status: "OK"
+    name: "SAS-Tex2"
+  - status: "OK"
+    name: "SAS-Tex3"
+  - status: "OK"
+    name: "gsnds"
+  - status: "MISSING"
+    name: "SFGame"
+  - status: "OK"
+    name: "SAS-tex4"
+  - status: "OK"
+    name: "SAS-doors"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/sftdm-ira.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/StrikeForce/&file=sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/StrikeForce&file=sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Misc/sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/StrikeForce/sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Strike%20Force/T/b/b/369768/sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Strike%20Force/T/b/b/369768/sftdm-ira.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Strike Force"
+title: "SFTDM-IRA"
+playerCount: "6-8"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  City: 0.1
+bots: true

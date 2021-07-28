@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:10"
+variationOf: "df4add86660ca7de73117ab845184c5ecbf707fc"
+game: "Unreal"
+name: "MH-[SP]Wasted"
+author: "Denise"
+description: "None"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "MH-[SP]Wasted.zip"
+hash: "38d158eb558b3590e5bbd3c59c268097ffaffc9d"
+fileSize: 6870257
+files:
+- name: "xr-marie.umx"
+  fileSize: 1932776
+  hash: "1fa780711cb91974a4168ac43e3718a92fba8fb9"
+- name: "survivor.umx"
+  fileSize: 898882
+  hash: "00d9a2fd853cf0961008bad61b486cda2e503df2"
+- name: "Bio.umx"
+  fileSize: 2056353
+  hash: "9b5cfa46487e77dd71a6a899efee236159d65e7d"
+- name: "MH-[SP]Wasted.unr"
+  fileSize: 7215775
+  hash: "11aa1495af635c3d79b09ef546827bb44262fe44"
+- name: "2000.umx"
+  fileSize: 673950
+  hash: "657e5df2f039d192234638c36165795c3dafd1f2"
+otherFiles: 0
+dependencies:
+  MH-[SP]Wasted.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_Sin22ut"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "Celd"
+  - status: "OK"
+    name: "Bio"
+  - status: "OK"
+    name: "2000"
+  - status: "OK"
+    name: "xr-marie"
+  - status: "OK"
+    name: "survivor"
+  - status: "MISSING"
+    name: "CeldTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DWasted.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/3/8/d158eb/MH-%255BSP%255DWasted.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/3/8/d158eb/MH-%255BSP%255DWasted.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] Wasted"
+playerCount: "6-32"
+themes:
+  Natural: 0.4
+  Nali Castle: 0.6
+bots: true

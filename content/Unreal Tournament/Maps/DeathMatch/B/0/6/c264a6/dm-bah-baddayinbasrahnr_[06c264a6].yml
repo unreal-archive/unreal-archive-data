@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 00:37"
+game: "Unreal Tournament"
+name: "DM-(bah)-BadDayInBasrahNR"
+author: "|bah|SaltyDog"
+description: "None"
+releaseDate: "2013-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-(bah)-BadDayInBasrahNR_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-(bah)-BadDayInBasrahNR_shot_1.png"
+originalFilename: "DM-(bah)-BadDayInBasrahNR.zip"
+hash: "06c264a66088e52d922b3bcf2b6ed29e1e042715"
+fileSize: 13244992
+files:
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "Bradley_Desert.utx"
+  fileSize: 241658
+  hash: "1145cb226fbe4d898143cb20b32db47b15b49516"
+- name: "DM-(bah)-BadDayInBasrahNR.unr"
+  fileSize: 2510304
+  hash: "5484378f56086cd1c899803ed928dde34a6d9530"
+- name: "BDIBmus4.umx"
+  fileSize: 6913657
+  hash: "2e0d1f95fe3bb10416826db79bbce9135ffdc912"
+- name: "BDIBpack.u"
+  fileSize: 46635
+  hash: "85cc0c59a8e4e65668b0b170435bd32d92356e32"
+- name: "BDIBtex.utx"
+  fileSize: 7074348
+  hash: "eb214eaec96ccd26cbde510f9a9a9dfd0837e908"
+- name: "BDIBsfx.uax"
+  fileSize: 3130059
+  hash: "b30e4530dcc6c45572833a1e03880ba07937bbbb"
+otherFiles: 0
+dependencies:
+  DM-(bah)-BadDayInBasrahNR.unr:
+  - status: "OK"
+    name: "BDIBsfx"
+  - status: "OK"
+    name: "BDIBtex"
+  - status: "OK"
+    name: "BDIBpack"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "OK"
+    name: "Bradley_Desert"
+  - status: "OK"
+    name: "BDIBmus4"
+  BDIBpack.u:
+  - status: "OK"
+    name: "BDIBtex"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-(bah)-BadDayInBasrahNR.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/0/6/c264a6/DM-(bah)-BadDayInBasrahNR.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/0/6/c264a6/DM-(bah)-BadDayInBasrahNR.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(bah)-BadDayInBasrah"
+playerCount: "12-24"
+themes: {}
+bots: true

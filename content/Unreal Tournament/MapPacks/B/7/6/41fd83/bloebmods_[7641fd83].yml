@@ -1,0 +1,122 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 20:04"
+game: "Unreal Tournament"
+name: "BloebMods"
+author: "Various"
+description: "None"
+releaseDate: "2010-05"
+attachments:
+- type: "IMAGE"
+  name: "BloebMods_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/B/BloebMods_shot_1.png"
+originalFilename: "BloebMods.zip"
+hash: "7641fd83e0443c3e74bbaa661eefac6de5137174"
+fileSize: 762983
+files:
+- name: "NWBT_v1.u"
+  fileSize: 13900
+  hash: "dd6949fdc6e18251bfc41efd2f3689653a4fcdc9"
+- name: "NWBT_v5_fix1.u"
+  fileSize: 2482
+  hash: "231daf641c8285cfae10e06138a18aa66bdddbd3"
+- name: "NWBT_v5.u"
+  fileSize: 59304
+  hash: "906bf306e76ff1b8d7e0318eb8ca88dff5b2b119"
+- name: "NWBT_v4.u"
+  fileSize: 55309
+  hash: "b2995de4b313ccba262c0ac7c5f27a3bd0e78c37"
+- name: "NWBT_v2.u"
+  fileSize: 54707
+  hash: "bb56433ccbacbf20d9f2a70b9826393b75a4f50e"
+- name: "NWBT_v3.u"
+  fileSize: 55650
+  hash: "8a6345cac77c15cff93286d5e3ae798048f7fec5"
+- name: "BT-NWBT_v5.unr"
+  fileSize: 42837
+  hash: "16b55d945d5bc394d03ec7d36ebca9d26ebdc280"
+- name: "BT-NWBT_v1.unr"
+  fileSize: 15038
+  hash: "59a0376903b1465a78e6cc6200efb1200f7e3f5f"
+- name: "NWBT_v6.u"
+  fileSize: 59639
+  hash: "5e2e20024297cfa54acb35cdd0832892952d9687"
+- name: "BT-BTME_v2.unr"
+  fileSize: 1304114
+  hash: "017d60fd04c554c08ea3a93f446d987ec8b00ff2"
+- name: "BTME_v3.u"
+  fileSize: 300409
+  hash: "f465c991a32697a79373a88c6ce0f93caec17ca6"
+- name: "BTME_v4.u"
+  fileSize: 334150
+  hash: "af25636da2edaabf5a8aea2f185de52455830754"
+- name: "BTME_v1.u"
+  fileSize: 163875
+  hash: "01b16930983b72888c4d59bb5b1111426117fd64"
+- name: "BTME_v2.u"
+  fileSize: 273668
+  hash: "0683d583135af8a5632d5f272d7cf58c52a09305"
+- name: "BT-NWBT_v2.unr"
+  fileSize: 43949
+  hash: "98d9ef536a3cddb5e5726818858973c4e986116b"
+- name: "BT-BTME_v1.unr"
+  fileSize: 298396
+  hash: "9e484643f0d720a43af97102662c9ad0462d9e05"
+otherFiles: 11
+dependencies:
+  BT-BTME_v1.unr:
+  - status: "OK"
+    name: "BTME_v1"
+  BT-NWBT_v2.unr:
+  - status: "OK"
+    name: "NWBT_v2"
+  NWBT_v5_fix1.u:
+  - status: "OK"
+    name: "NWBT_v5"
+  BT-NWBT_v1.unr:
+  - status: "OK"
+    name: "NWBT_v1"
+  BT-NWBT_v5.unr:
+  - status: "OK"
+    name: "NWBT_v5"
+  BT-BTME_v2.unr:
+  - status: "OK"
+    name: "BTME_v2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/BunnyTracks&file=BloebMods.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/B/BloebMods.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/B/7/6/41fd83/BloebMods.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/B/7/6/41fd83/BloebMods.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "BT-NWBT_v2"
+  title: "BT-NWBT_v2"
+  author: "Bloeb"
+- name: "BT-NWBT_v1"
+  title: "BT-NWBT_v1"
+  author: "Bloeb"
+- name: "BT-BTME_v2"
+  title: "BT-BTME_v2"
+  author: "Jerome Bos a.k.a. Bloeb"
+- name: "BT-BTME_v1"
+  title: "BT-BTME_v1"
+  author: "Jerome Bos a.k.a. Bloeb"
+- name: "BT-NWBT_v5"
+  title: "BT-NWBT_v5"
+  author: "Bloeb"
+gametype: "BunnyTrack"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9

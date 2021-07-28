@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:03"
+game: "Unreal Tournament"
+name: "CTFM-StadiumCity"
+author: "{G}ABU5E"
+description: "Let The Dueling Begin!"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-StadiumCity_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/CTFM-StadiumCity_shot_1.png"
+originalFilename: "ctfm-stadiumcity.zip"
+hash: "4f77d200fc2454c88510875e836a25aca0713502"
+fileSize: 357072
+files:
+- name: "CTFM-StadiumCity.unr"
+  fileSize: 940197
+  hash: "665bb1e61f41e666f7eead86bd037f1b3d900b2a"
+- name: "Chezyt.umx"
+  fileSize: 125855
+  hash: "84239fb507308ecf50fb61324b80b829d91be7a0"
+otherFiles: 1
+dependencies:
+  CTFM-StadiumCity.unr:
+  - status: "OK"
+    name: "Chezyt"
+  - status: "MISSING"
+    name: "CTF4Team"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/ctfm-stadiumcity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-stadiumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-stadiumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-stadiumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-stadiumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/4/f/77d200/ctfm-stadiumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/4/f/77d200/ctfm-stadiumcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "The City Stadium"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  City: 0.6
+  Skaarj Tech: 0.1
+bots: true

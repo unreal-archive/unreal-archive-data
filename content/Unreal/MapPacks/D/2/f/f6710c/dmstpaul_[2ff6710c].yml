@@ -1,0 +1,123 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 10:41"
+game: "Unreal"
+name: "DmStPaul"
+author: "UnLeaded"
+description: "None"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "DmStPaul.zip"
+hash: "2ff6710c66353d6b3faae7369b8f150baa0210ad"
+fileSize: 2468164
+files:
+- name: "StPaul.utx"
+  fileSize: 1041320
+  hash: "b0feb19ded4fecc4effcce302c724e624aecd3b6"
+- name: "Mag60.u"
+  fileSize: 186145
+  hash: "5406848746ce29a37b57bc541be4748b641b25ae"
+- name: "DmStPaul(Dark).unr"
+  fileSize: 1055621
+  hash: "a5ea2f63615bc54e2cf195e5f7b1bc4e4b089d5b"
+- name: "StPaulsGirl.uax"
+  fileSize: 223706
+  hash: "a0d73dfe1f1dfad68ebb3a860a38bd7d9b687516"
+- name: "StPaulO.u"
+  fileSize: 60616
+  hash: "a6b226de6a000f5f479bf5da21dad7fb771cefdb"
+- name: "DmStPaul(Glass).unr"
+  fileSize: 866075
+  hash: "efb90ffca396c57c259f11318af26fae34e0d274"
+- name: "TeleportBot.u"
+  fileSize: 5506
+  hash: "cb8c47f389bd7cd49e9672dfb294e2eea3380027"
+- name: "Sentry.u"
+  fileSize: 6575
+  hash: "f221577753737571be644fdb8c07a023ce74c1d1"
+- name: "DmStPaul(Wall).unr"
+  fileSize: 850741
+  hash: "d294a8bd77d981a7e998a9360d0c9fab75dea587"
+- name: "Cloak.u"
+  fileSize: 859318
+  hash: "b15da5b5dcfdf98a6cee16cde66682551f4ad3d4"
+otherFiles: 0
+dependencies:
+  DmStPaul(Dark).unr:
+  - status: "OK"
+    name: "StPaul"
+  - status: "OK"
+    name: "Mag60"
+  - status: "OK"
+    name: "Cloak"
+  - status: "OK"
+    name: "TeleportBot"
+  - status: "OK"
+    name: "StPaulO"
+  - status: "MISSING"
+    name: "BarracudaFX"
+  - status: "OK"
+    name: "StPaulsGirl"
+  DmStPaul(Glass).unr:
+  - status: "OK"
+    name: "StPaul"
+  - status: "OK"
+    name: "TeleportBot"
+  - status: "OK"
+    name: "Mag60"
+  - status: "OK"
+    name: "StPaulO"
+  - status: "OK"
+    name: "Cloak"
+  - status: "OK"
+    name: "StPaulsGirl"
+  TeleportBot.u:
+  - status: "OK"
+    name: "Sentry"
+  DmStPaul(Wall).unr:
+  - status: "OK"
+    name: "StPaul"
+  - status: "OK"
+    name: "Mag60"
+  - status: "OK"
+    name: "Cloak"
+  - status: "OK"
+    name: "TeleportBot"
+  - status: "OK"
+    name: "StPaulO"
+  - status: "MISSING"
+    name: "BarracudaFX"
+  - status: "OK"
+    name: "StPaulsGirl"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/unleaded_maps/DmStPaul.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/2/f/f6710c/DmStPaul.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/D/2/f/f6710c/DmStPaul.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/D/2/f/f6710c/DmStPaul.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DmStPaul(Glass)"
+  title: "DmStPaul, http://www.labyrinth.org.uk"
+  author: "UnLeaded"
+- name: "DmStPaul(Wall)"
+  title: "DmStPaul, http://www.labyrinth.org.uk"
+  author: "UnLeaded"
+- name: "DmStPaul(Dark)"
+  title: "DmStPaul, http://www.labyrinth.org.uk"
+  author: "UnLeaded"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.8
+  Ancient: 0.2

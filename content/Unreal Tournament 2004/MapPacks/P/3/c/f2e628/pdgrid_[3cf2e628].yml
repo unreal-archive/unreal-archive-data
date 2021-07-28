@@ -1,0 +1,63 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 13:30"
+game: "Unreal Tournament 2004"
+name: "Pdgrid"
+author: "Tom 'Mosquito' Hall"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "Pdgrid_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/P/Pdgrid_shot_2.png"
+- type: "IMAGE"
+  name: "Pdgrid_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/P/Pdgrid_shot_1.png"
+originalFilename: "pdgrid.zip"
+hash: "3cf2e62800e456aab43a276b283532097a975f44"
+fileSize: 4763382
+files:
+- name: "EndCreditsPD.ogg"
+  fileSize: 2769388
+  hash: "4f44f09edc9d98cb86a502fb6b7fc2692806b685"
+- name: "PDGrid.uax"
+  fileSize: 123463
+  hash: "64b6eac2b7c4e370151262ef04d5e2f5b70756c0"
+- name: "DM-GridB2.ut2"
+  fileSize: 4145857
+  hash: "35caf0c3e87927327face8d9ca763e6bd99d4428"
+- name: "DM-GridB1.ut2"
+  fileSize: 4144959
+  hash: "150d91b2883a3da5cc3724ce1651151f3fa04be9"
+otherFiles: 2
+dependencies:
+  DM-GridB1.ut2:
+  - status: "OK"
+    name: "PDGrid"
+  DM-GridB2.ut2:
+  - status: "OK"
+    name: "PDGrid"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/P/pdgrid.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/P/3/c/f2e628/pdgrid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/P/3/c/f2e628/pdgrid.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-GridB2"
+  title: "The Grid"
+  author: "Tom 'Mosquito' Hall"
+- name: "DM-GridB1"
+  title: "The Grid"
+  author: "Tom 'Mosquito' Hall"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0

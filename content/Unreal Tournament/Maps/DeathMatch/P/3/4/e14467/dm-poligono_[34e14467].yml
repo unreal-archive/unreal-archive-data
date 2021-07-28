@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:28"
+game: "Unreal Tournament"
+name: "DM-POLIGONO"
+author: "-=Noda=-"
+description: "www.ut5.net"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-POLIGONO_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-POLIGONO_shot_1.png"
+- type: "IMAGE"
+  name: "DM-POLIGONO_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-POLIGONO_shot_2.png"
+originalFilename: "dm-poligono.zip"
+hash: "34e14467cc8a1fdf422e2cbc937b4b1c4dabe814"
+fileSize: 908807
+files:
+- name: "cocapepsi.utx"
+  fileSize: 355005
+  hash: "ed4177443d078547dac2b80047f68e23c978253e"
+- name: "DM-POLIGONO.unr"
+  fileSize: 1642761
+  hash: "f22b44713579784f48e1be8ed6af51cdbce4c437"
+otherFiles: 1
+dependencies:
+  DM-POLIGONO.unr:
+  - status: "OK"
+    name: "cocapepsi"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-poligono.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-poligono.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5504"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/3/4/e14467/dm-poligono.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/3/4/e14467/dm-poligono.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "dm-Poligono"
+playerCount: "4-10"
+themes:
+  Tech: 0.2
+  Industrial: 0.6
+  Ancient: 0.1
+bots: true

@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:30"
+game: "Unreal"
+name: "DM[SP]BurgerWars]["
+author: "Britton Wesley *Imported from UT by RUSH*"
+description: "The rise and fall of Ronald McDonald"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "DM[SP]Burgerwars.zip"
+hash: "63401c27ebaba1a332fd93ad5ae41db6b590a16d"
+fileSize: 16906388
+files:
+- name: "Slums.utx"
+  fileSize: 3770831
+  hash: "4c4064de07786b2c007b8e27959389a082a161c7"
+- name: "DM[SP]BurgerWars][.unr"
+  fileSize: 2296535
+  hash: "8639675a60c27c07a85825ae067e860e9f907462"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "McDBurgerking.utx"
+  fileSize: 789538
+  hash: "6d07fd4c4d6ef339543410aa971c57e14b36bffe"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+otherFiles: 0
+dependencies:
+  DM[SP]BurgerWars][.unr:
+  - status: "OK"
+    name: "city"
+  - status: "MISSING"
+    name: "uzi"
+  - status: "OK"
+    name: "Slums"
+  - status: "OK"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "BoomDarts"
+  - status: "OK"
+    name: "McDBurgerking"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DBurgerwars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DBurgerwars.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/6/3/401c27/DM%255BSP%255DBurgerwars.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/6/3/401c27/DM%255BSP%255DBurgerwars.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] McDonalds VS Burger King!"
+playerCount: "8-12"
+themes:
+  City: 1.0
+bots: true

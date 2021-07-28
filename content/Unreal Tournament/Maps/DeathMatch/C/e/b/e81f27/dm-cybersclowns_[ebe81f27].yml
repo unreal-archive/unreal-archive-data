@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:51"
+game: "Unreal Tournament"
+name: "DM-CybersClowns"
+author: "EVILBLUNT"
+description: "None"
+releaseDate: "2008-05"
+attachments: []
+originalFilename: "DM-CybersClowns.zip"
+hash: "ebe81f27399f329e356cdad0453e447e059933bd"
+fileSize: 21596265
+files:
+- name: "xutfx.utx"
+  fileSize: 335490
+  hash: "46e593ef0dec35e3b70fa0c3b5074df061bc15cb"
+- name: "DM-CybersClowns.unr"
+  fileSize: 1576963
+  hash: "d973add5e517bb17c5c016a99ef96ede580f787d"
+- name: "impossibleclown.umx"
+  fileSize: 10609536
+  hash: "49bf9fc6580bbc4faec2f054e8f506acd532869f"
+otherFiles: 0
+dependencies:
+  DM-CybersClowns.unr:
+  - status: "OK"
+    name: "impossibleclown"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CybersClowns.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CybersClowns.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/e/b/e81f27/DM-CybersClowns.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/e/b/e81f27/DM-CybersClowns.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-CybersClowns"
+playerCount: "Unknown"
+themes:
+  Egyptian: 0.5
+  Skaarj Tech: 0.5
+bots: true

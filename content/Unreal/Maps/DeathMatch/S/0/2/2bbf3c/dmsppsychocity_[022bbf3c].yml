@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:22"
+game: "Unreal"
+name: "DM[SP]PsychoCity"
+author: "Skull_skewer * Recreated from UT by RUSH*"
+description: "Welcome to Psycho City!!"
+releaseDate: "2007-10"
+attachments:
+- type: "IMAGE"
+  name: "dmsppsychocity_shot_022bbf3c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/dmsppsychocity_shot_022bbf3c_1.png"
+originalFilename: "dm[sp]psychocity.zip"
+hash: "022bbf3c21786c7017d2565af562a7d4bb216a48"
+fileSize: 18162812
+files:
+- name: "PsychoCity.umx"
+  fileSize: 8096907
+  hash: "dba0e00fa9653444a158b7523410ea60caecef3d"
+- name: "Sinsnds.uax"
+  fileSize: 1858366
+  hash: "3c5a4387efb09308bf5cf33c446c5f7678c04559"
+- name: "INF_SPDecorations.u"
+  fileSize: 12152724
+  hash: "fad13449413f49677999b7046d991ff92127babd"
+- name: "DM[SP]PsychoCity.unr"
+  fileSize: 7578426
+  hash: "c93d22995b256d57ee54bb1c985b8dcbd34931cf"
+otherFiles: 0
+dependencies:
+  DM[SP]PsychoCity.unr:
+  - status: "OK"
+    name: "PsychoCity"
+  - status: "MISSING"
+    name: "dino081199"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "INF_SPDecorations"
+  - status: "OK"
+    name: "Sinsnds"
+  - status: "MISSING"
+    name: "dinosound111199"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+  - status: "MISSING"
+    name: "AmbCity"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/dm%5Bsp%5Dpsychocity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/0/2/2bbf3c/dm%255Bsp%255Dpsychocity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/0/2/2bbf3c/dm%255Bsp%255Dpsychocity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Psycho City"
+playerCount: "14-18"
+themes:
+  Industrial: 1.0
+bots: true

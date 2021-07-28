@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 23:39"
+variationOf: "74f48eb1934c08e294bc2f10064c94e0630bdc86"
+game: "Unreal Tournament"
+name: "DM-CMNseinfeldDD"
+author: "Common&DoctoR_DeatH"
+description: "Quiet on the Set"
+releaseDate: "2001-12"
+attachments: []
+originalFilename: "DM-CMNseinfeldDD.zip"
+hash: "d2794334e9b46301b24abbc0839f1046f84f10db"
+fileSize: 8300635
+files:
+- name: "DM-CMNseinfeldDD.unr"
+  fileSize: 1439314
+  hash: "62b4e07ce8073fa9ac32d4c658cf28f542aea4d7"
+- name: "DRMPack.utx"
+  fileSize: 229396
+  hash: "a0e76856ae9870105a442ab9b76ee72aaf254754"
+- name: "IV1.utx"
+  fileSize: 1917262
+  hash: "3a7698934f9ded2b8a6030da9dc48c94dbae69de"
+- name: "DavidMTex2.utx"
+  fileSize: 11269001
+  hash: "26dda7b2e26fa314ed895098d5af3bb35ec9cb9b"
+- name: "2000.umx"
+  fileSize: 673950
+  hash: "657e5df2f039d192234638c36165795c3dafd1f2"
+otherFiles: 1
+dependencies:
+  DM-CMNseinfeldDD.unr:
+  - status: "OK"
+    name: "DRMPack"
+  - status: "OK"
+    name: "IV1"
+  - status: "OK"
+    name: "2000"
+  - status: "OK"
+    name: "DavidMTex2"
+  - status: "MISSING"
+    name: "BRdmSE"
+  - status: "MISSING"
+    name: "Donuttex"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-CMNseinfeldDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CMNseinfeldDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-CMNseinfeldDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/d/2/794334/DM-CMNseinfeldDD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/d/2/794334/DM-CMNseinfeldDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/d/2/794334/DM-CMNseinfeldDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNjerryDD"
+playerCount: "8 to 16"
+themes:
+  Ancient: 1.0
+bots: true

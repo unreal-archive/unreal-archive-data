@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:12"
+variationOf: "546ac3f3f6b4c7b1838fc78688954e3313d79d47"
+game: "Unreal Tournament"
+name: "CTF-GreatTowers"
+author: "Maciej \"Kaka\" Kakareko"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-greattowers_shot_ba367cba_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/b/a/367cba/ctf-greattowers_shot_ba367cba_1.png"
+originalFilename: "CTF-TGT.rar"
+hash: "ba367cba4017ab0fa45657ee80f130c8247990d9"
+fileSize: 682047
+files:
+- name: "CTF-GreatTowers.unr"
+  fileSize: 2721916
+  hash: "8115b1a2c1d0d2891bf33c54588838f51430843a"
+- name: "2KCTFfx.utx"
+  fileSize: 2003
+  hash: "e5a259a36086f98c03453dd343a27ef1c6be61aa"
+otherFiles: 1
+dependencies:
+  CTF-GreatTowers.unr:
+  - status: "OK"
+    name: "2KCTFfx"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-TGT.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-TGT.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/b/a/367cba/CTF-TGT.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/b/a/367cba/CTF-TGT.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Great Towers"
+playerCount: "6-8"
+themes:
+  Ancient: 0.1
+  Nali Castle: 0.9
+  Skaarj Tech: 0.1
+bots: true

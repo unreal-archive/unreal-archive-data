@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-12 18:18"
-variationOf: null
 game: "Unreal"
 name: "revenant_shrine4"
 author: "Myscha the Sled dog"
@@ -20,13 +19,16 @@ dependencies:
   revenant_shrine4.unr:
   - status: "MISSING"
     name: "revenant"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/R/f/7/0d4c32/shrinemap.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/R/f/7/0d4c32/shrinemap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/R/f/7/0d4c32/shrinemap.zip"
   main: false
   repack: false
   state: "OK"

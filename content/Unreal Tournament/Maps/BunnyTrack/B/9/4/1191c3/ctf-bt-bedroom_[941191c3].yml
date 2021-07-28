@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 13:24"
+game: "Unreal Tournament"
+name: "CTF-BT-Bedroom"
+author: "Pawel"
+description: "Have Fun!!"
+releaseDate: "2011-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Bedroom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-Bedroom_shot_1.png"
+originalFilename: "CTF-BT-Bedroom.zip"
+hash: "941191c353563b0348714c229d981c246a13a0bc"
+fileSize: 5718142
+files:
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "PAIN.umx"
+  fileSize: 207514
+  hash: "69ad92efea0af2378fc5aabb403842c1911fd9af"
+- name: "CTF-BT-Bedroom.unr"
+  fileSize: 1261251
+  hash: "bbaf6925202aafa3b14539b9f79530f6accfac33"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "Bedroom.utx"
+  fileSize: 1442504
+  hash: "bc5075336da8f9a1acbca6212eda7c09f962b194"
+- name: "JumpSound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+otherFiles: 0
+dependencies:
+  CTF-BT-Bedroom.unr:
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "PAIN"
+  - status: "OK"
+    name: "Bedroom"
+  - status: "OK"
+    name: "JumpSound"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-Bedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-Bedroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-Bedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Bedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/B/9/4/1191c3/CTF-BT-Bedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/B/9/4/1191c3/CTF-BT-Bedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Bedroom"
+playerCount: "Any"
+themes:
+  Indistrial: 1.0
+bots: false

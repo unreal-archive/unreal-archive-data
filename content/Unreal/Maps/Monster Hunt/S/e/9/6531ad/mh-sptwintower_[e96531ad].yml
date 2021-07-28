@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:08"
+game: "Unreal"
+name: "MH-[SP]TwinTower"
+author: "Originally T. Ahlen/modded by Barbie"
+description: "None"
+releaseDate: "2014-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-sptwintower_shot_e96531ad_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-sptwintower_shot_e96531ad_1.png"
+originalFilename: "MH-[SP]TwinTower.zip"
+hash: "e96531ad6a240e744fe5512b9b5e974d37735cb6"
+fileSize: 8590085
+files:
+- name: "Chizra1.umx"
+  fileSize: 422386
+  hash: "dcb3cfd52414740cd0cbd8a813d900969b6892d8"
+- name: "MH-[SP]TwinTower.unr"
+  fileSize: 14171264
+  hash: "8e2af9b6aaf8cc8868ed3f176cb29f290d56559e"
+- name: "Blackbox.umx"
+  fileSize: 569484
+  hash: "7213c690d2705e2f0348093e0bb8293e004c228d"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+otherFiles: 0
+dependencies:
+  MH-[SP]TwinTower.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "Seeker2"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "Blackbox"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "Pan1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DTwinTower.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/e/9/6531ad/MH-%255BSP%255DTwinTower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/e/9/6531ad/MH-%255BSP%255DTwinTower.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]TwinTower"
+playerCount: "2-4"
+themes:
+  Skaarj Tech: 1.0
+bots: true

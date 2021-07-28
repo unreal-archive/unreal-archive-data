@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 03:47"
+game: "Unreal Tournament"
+name: "MH-Barrier"
+author: "Viliam Simko"
+description: "you must find the stargate"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "MH-Barrier_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/B/MH-Barrier_shot_1.png"
+originalFilename: "MH-Barrier.zip"
+hash: "072a09994d15933e55314f18a30b70b3ba22dcb0"
+fileSize: 2473791
+files:
+- name: "vlxtextures1.utx"
+  fileSize: 1932021
+  hash: "e46d4d9ce46e1729d59aa32e3abd2644b693d160"
+- name: "MH-Barrier.unr"
+  fileSize: 2623394
+  hash: "d9b66f8c782845ebcccd52dfad94b3ac95bb1194"
+otherFiles: 1
+dependencies:
+  MH-Barrier.unr:
+  - status: "OK"
+    name: "vlxtextures1"
+  - status: "MISSING"
+    name: "FragmOfTime"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "sf_tree1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-Barrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/B/MH-Barrier.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Barrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/B/0/7/2a0999/MH-Barrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/0/7/2a0999/MH-Barrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Barrier"
+playerCount: "Up to 12"
+themes:
+  Tech: 0.2
+  City: 0.2
+  Natural: 0.2
+  Indistrial: 0.5
+bots: true

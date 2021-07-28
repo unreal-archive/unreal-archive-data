@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:22"
+game: "Unreal Tournament"
+name: "CTF-PipeDreams[[ice]]"
+author: "LexiconDevil"
+description: "None"
+releaseDate: "2007-03"
+attachments: []
+originalFilename: "CTF-PipeDreams[[ice]].zip"
+hash: "945a993d4804dc474e28ee237d75474e76cde0b7"
+fileSize: 305560
+files:
+- name: "flagbasejrm1.u"
+  fileSize: 357257
+  hash: "6cd4410c1d58d712d811cdd705823f0bab6979f1"
+- name: "CTF-PipeDreams[[ice]].unr"
+  fileSize: 706039
+  hash: "870262d80f35a4009b8b11604940e45e770ccc68"
+otherFiles: 0
+dependencies:
+  flagbasejrm1.u:
+  - status: "MISSING"
+    name: "SGTech1"
+  CTF-PipeDreams[[ice]].unr:
+  - status: "OK"
+    name: "flagbasejrm1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-PipeDreams%5B%5Bice%5D%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/CTF-PipeDreams%5B%5Bice%5D%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/9/4/5a993d/CTF-PipeDreams%255B%255Bice%255D%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/9/4/5a993d/CTF-PipeDreams%255B%255Bice%255D%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Contamination155"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.8
+  City: 0.1
+  Nali Castle: 0.1
+bots: true

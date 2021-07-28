@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:56"
+game: "Unreal"
+name: "DmMario"
+author: "BrakeDanceJ/Joe Fratantoni"
+description: "WWW.UNREALDESTINATION.COM  CUSTOM  MAPS"
+releaseDate: "2003-11"
+attachments: []
+originalFilename: "DmMario+HBKSNK.zip"
+hash: "df3bb36d4831c221dc7a38cfe78cb928e2f2294e"
+fileSize: 849089
+files:
+- name: "UD1.uax"
+  fileSize: 62343
+  hash: "e282b547959c79ab54f8edd5a815f81fbbf263b1"
+- name: "DmMarioHBKSNK.unr"
+  fileSize: 1086757
+  hash: "846bd15d75bdc3001779fc3cde307b656b17f617"
+- name: "HBKandSNKlogou.utx"
+  fileSize: 88999
+  hash: "790fa6bbeafffee63106b3e25319d68e25c2546e"
+- name: "MarioGlassPack.utx"
+  fileSize: 200794
+  hash: "3974abdad29b86a53c5ae89b5c4b2f425383197e"
+- name: "Phantom.u"
+  fileSize: 41440
+  hash: "918f7a6b9ac51174c05dd5f0c4624a5d50332ba3"
+- name: "DmMario.unr"
+  fileSize: 1032868
+  hash: "3dcba192d515757a109ca52d37dd67c5ff1dac39"
+- name: "carpet.utx"
+  fileSize: 88961
+  hash: "20c96e2d53a236abbf3a7214ea60af2efb394195"
+- name: "sm64-wat.umx"
+  fileSize: 191392
+  hash: "a361f44fc2c6a0a86b62911c8982506128d007e2"
+otherFiles: 1
+dependencies:
+  DmMario.unr:
+  - status: "OK"
+    name: "UD1"
+  - status: "OK"
+    name: "sm64-wat"
+  - status: "OK"
+    name: "carpet"
+  - status: "OK"
+    name: "MarioGlassPack"
+  - status: "OK"
+    name: "Phantom"
+  DmMarioHBKSNK.unr:
+  - status: "OK"
+    name: "UD1"
+  - status: "OK"
+    name: "HBKandSNKlogou"
+  - status: "OK"
+    name: "sm64-wat"
+  - status: "OK"
+    name: "carpet"
+  - status: "OK"
+    name: "MarioGlassPack"
+  - status: "OK"
+    name: "Phantom"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/d/f/3bb36d/DmMario%2BHBKSNK.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/d/f/3bb36d/DmMario%252BHBKSNK.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/d/f/3bb36d/DmMario%252BHBKSNK.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Super Mario Castle 64"
+playerCount: "5-12"
+themes:
+  Nali Temple: 0.2
+  Nali Castle: 0.8
+bots: false

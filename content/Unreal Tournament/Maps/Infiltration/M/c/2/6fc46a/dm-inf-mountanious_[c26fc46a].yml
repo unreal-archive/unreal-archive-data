@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:52"
+game: "Unreal Tournament"
+name: "DM-INF-Mountanious"
+author: "Jord Blokker"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Mountanious_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Mountanious_shot_1.png"
+originalFilename: "dm-inf-mountanious.zip"
+hash: "c26fc46a1ac114166042b40a5be90931106ba692"
+fileSize: 384406
+files:
+- name: "DM-INF-Mountanious.unr"
+  fileSize: 1372620
+  hash: "b278ab6a539cad95e8b920b4cac82f5157b8ca94"
+- name: "NBCRM.u"
+  fileSize: 55253
+  hash: "19da3e04d3aa9c039a9fd66bfc8bed428d475a9f"
+otherFiles: 1
+dependencies:
+  DM-INF-Mountanious.unr:
+  - status: "OK"
+    name: "NBCRM"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "INF_ArmyTextures"
+  - status: "MISSING"
+    name: "mmpack"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "Inf_siberiatex"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  - status: "MISSING"
+    name: "INF_Vehicle"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-mountanious.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-mountanious.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/M/c/2/6fc46a/dm-inf-mountanious.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/M/c/2/6fc46a/dm-inf-mountanious.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Mountanious"
+playerCount: "6-22"
+themes:
+  Natural: 0.8
+  Skaarj Tech: 0.2
+bots: true

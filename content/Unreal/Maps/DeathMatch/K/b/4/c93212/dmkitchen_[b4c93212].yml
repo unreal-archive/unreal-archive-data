@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:28"
+game: "Unreal"
+name: "DmKitchen"
+author: "Streaker@Galapagos.NetJunkies.Net"
+description: "Have Fun Finding the Secrets"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "dmkitchen_shot_b4c93212_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/K/b/4/c93212/dmkitchen_shot_b4c93212_1.png"
+originalFilename: "dmkitchen.zip"
+hash: "b4c93212eba6fc779fb6d935e05d02403c369b7f"
+fileSize: 2733308
+files:
+- name: "BRDMSE.UTX"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DmKitchen.unr"
+  fileSize: 4455596
+  hash: "eb1aeba6f0dd3351c55089dd6cac99c66fb5e087"
+- name: "BRONXTEX.UTX"
+  fileSize: 1266131
+  hash: "aa3aff12928176678fcb1f3e51f7813ea80daf28"
+otherFiles: 2
+dependencies:
+  DmKitchen.unr:
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "Bronxtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/K/b/4/c93212/dmkitchen.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/K/b/4/c93212/dmkitchen.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/K/b/4/c93212/dmkitchen.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DeathMatch Kitchen"
+playerCount: "8"
+themes:
+  Ancient: 0.2
+  Natural: 0.8
+bots: false

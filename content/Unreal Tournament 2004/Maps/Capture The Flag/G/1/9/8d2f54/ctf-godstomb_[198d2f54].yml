@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 12:44"
+game: "Unreal Tournament 2004"
+name: "CTF-GodsTomb"
+author: "Keitaro"
+description: "Between Bodys of dead Gods."
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-GodsTomb_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/CTF-GodsTomb_shot_1.png"
+originalFilename: "ctf-godstomb.zip"
+hash: "198d2f54d0ba94c300a1698f21e4b85c7f105fed"
+fileSize: 3679113
+files:
+- name: "CTF-GodsTomb.ut2"
+  fileSize: 8380978
+  hash: "3860e89103c859cd3e28d460e67dc4a56ef3984b"
+- name: "GodsTomb.usx"
+  fileSize: 5783208
+  hash: "40d78190c30ec26b943f7673f2066449ae2b20c0"
+otherFiles: 1
+dependencies:
+  CTF-GodsTomb.ut2:
+  - status: "OK"
+    name: "GodsTomb"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/ctf-godstomb.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/1/9/8d2f54/ctf-godstomb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/1/9/8d2f54/ctf-godstomb.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Gods Tomb"
+playerCount: "8-12"
+themes:
+  Egyptian: 1.0
+bots: true

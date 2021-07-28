@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:19"
+variationOf: "9637b8c834c9a1b86fe58ff9387d8bdde3bc2870"
+game: "Unreal Tournament"
+name: "CTF-DiamondSword"
+author: "Colin 'ArKile' + Daniel 'INFERNO' Winter"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-diamondsword_shot_d50321b2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/d/5/0321b2/ctf-diamondsword_shot_d50321b2_1.png"
+originalFilename: "ctf-diamond.zip"
+hash: "d50321b2737d19f1f71fe885b82e07a0f46687c6"
+fileSize: 583730
+files:
+- name: "CTF-DiamondSword.unr"
+  fileSize: 1815308
+  hash: "4fc292d43cdd5c880d585a3e59bc048bb9909b08"
+- name: "CTF-DIAMOND.utx"
+  fileSize: 221574
+  hash: "676ddccd927d798d466633d647837fbb539123e6"
+otherFiles: 1
+dependencies:
+  CTF-DiamondSword.unr:
+  - status: "OK"
+    name: "CTF-DIAMOND"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsD/&file=ctf-diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf_diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsD/ctf-diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/d/5/0321b2/ctf-diamond.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/d/5/0321b2/ctf-diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/d/5/0321b2/ctf-diamond.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Diamond Sword"
+playerCount: "6-20"
+themes:
+  Tech: 0.1
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

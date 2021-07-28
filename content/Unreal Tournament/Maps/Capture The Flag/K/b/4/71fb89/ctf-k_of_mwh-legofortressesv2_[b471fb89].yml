@@ -1,0 +1,145 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:24"
+game: "Unreal Tournament"
+name: "CTF-(K_of_M@wH)-LegoFortressesV2"
+author: "[wH]-Killer_Of_Mankind"
+description: "The Fortresses Of LEGO"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-(K_of_M@wH)-LegoFortressesV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/CTF-(K_of_M@wH)-LegoFortressesV2_shot_1.png"
+originalFilename: "legofortressesv2.zip"
+hash: "b471fb89a02ebfa7554266e1116cdb6d5d9935f1"
+fileSize: 10836220
+files:
+- name: "DeemerFireWorks.u"
+  fileSize: 585914
+  hash: "6180a135490acd3a44791cc102dcbb39cc4f789e"
+- name: "WeaponMage.u"
+  fileSize: 2001307
+  hash: "0cd7aa0e93aa080a778e8f4626e6a2d6a9739654"
+- name: "DavidMLego.utx"
+  fileSize: 3201582
+  hash: "11ba554c764da83fe4399e35a6047759dc2c4907"
+- name: "ApplesInfinity2nd.u"
+  fileSize: 575399
+  hash: "d5c35685309a5c387436e5067af0dbfed04121e1"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "ApplesRebelMac.u"
+  fileSize: 711935
+  hash: "5878930e39f7993263b7739b83c6ddeb0a6feb05"
+- name: "Weaponer_GTX.u"
+  fileSize: 84219
+  hash: "773dd4ef30aa75c239940f523c920f06ccc050d7"
+- name: "relics.u"
+  fileSize: 455370
+  hash: "47111aa42e05b167cc464b7d2b4b4134f12862f9"
+- name: "TeleFragGun.u"
+  fileSize: 447769
+  hash: "8bc0438b1e86643f87251c27f0c849f398ecfc27"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "KofM.utx"
+  fileSize: 89004
+  hash: "dff088fc49d8e663117e11bed2e11af485a68033"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "Weaponer.u"
+  fileSize: 1832637
+  hash: "aed34cb8946a8462e0f46b4e812d8cd181ac4397"
+- name: "TexByPutz.utx"
+  fileSize: 30210
+  hash: "cdd499e61fd8fa884c7130b33976c4fd00ebafc6"
+- name: "ZoomShockRifle.u"
+  fileSize: 14965
+  hash: "133efd2be01119d10a7f707baa7a2bfac9cfbca5"
+- name: "CTF-(K_of_M@wH)-LegoFortressesV2.unr"
+  fileSize: 1465426
+  hash: "2fe554ffbd2f7f41fa00ebf29db4a64ed4103108"
+- name: "NFRabit.u"
+  fileSize: 8839
+  hash: "2703a67896703070ba62869c32a9e943d14509f3"
+- name: "Fire.u"
+  fileSize: 15248
+  hash: "40bd4072fe0714d33e6c2e59ed48a8b2bf86de6a"
+- name: "SLV2.u"
+  fileSize: 419937
+  hash: "3709e253a80e4ed35d0cf43b37a325d68aaa470e"
+- name: "MCS_DownUnder.umx"
+  fileSize: 523844
+  hash: "6a653ac1f1ee307d00710f196355812102743a2b"
+- name: "Gatling.u"
+  fileSize: 664912
+  hash: "2e1963d948ee51eb027b8e34dcbd35abec1e226b"
+otherFiles: 0
+dependencies:
+  SLV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  CTF-(K_of_M@wH)-LegoFortressesV2.unr:
+  - status: "OK"
+    name: "Gatling"
+  - status: "OK"
+    name: "KofM"
+  - status: "OK"
+    name: "Weaponer"
+  - status: "OK"
+    name: "DeemerFireWorks"
+  - status: "OK"
+    name: "NFRabit"
+  - status: "OK"
+    name: "TexByPutz"
+  - status: "OK"
+    name: "MCS_DownUnder"
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "ApplesRebelMac"
+  - status: "OK"
+    name: "WeaponMage"
+  - status: "OK"
+    name: "SLV2"
+  - status: "OK"
+    name: "DavidMLego"
+  - status: "OK"
+    name: "TeleFragGun"
+  - status: "OK"
+    name: "ZoomShockRifle"
+  - status: "OK"
+    name: "ApplesInfinity2nd"
+  Weaponer.u:
+  - status: "OK"
+    name: "Weaponer_GTX"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=legofortressesv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/legofortressesv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/4/71fb89/legofortressesv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/4/71fb89/legofortressesv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "LEGO Fortresses (Tex by David M , Soothing Rash and Putz)"
+playerCount: "ALL wH members and other"
+themes: {}
+bots: true

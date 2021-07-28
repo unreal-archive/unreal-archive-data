@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:14"
+game: "Unreal Tournament 2004"
+name: "DM-Rome"
+author: "Sami \"Fira X\" Bashir"
+description: "Rome"
+releaseDate: "2004-09"
+attachments: []
+originalFilename: "dm-rome.zip"
+hash: "0d8ebe14f752bef9014013adcdea7a374b50297a"
+fileSize: 20399944
+files:
+- name: "Ty_Greek.utx"
+  fileSize: 24039277
+  hash: "6a7e55b4b718e4a01a09c27b9c0bf5557f586c4e"
+- name: "Ty_GreekSmeshes.usx"
+  fileSize: 3962652
+  hash: "47ec95bb09defd3e98d4f4fd6207506d82259f91"
+- name: "DM-Rome.ut2"
+  fileSize: 19601671
+  hash: "2a64855ff996b138b9ab3ecd52fb5112cabcf319"
+otherFiles: 0
+dependencies:
+  Ty_GreekSmeshes.usx:
+  - status: "OK"
+    name: "Ty_Greek"
+  DM-Rome.ut2:
+  - status: "MISSING"
+    name: "CBP2-Tropica-SM"
+  - status: "OK"
+    name: "Ty_Greek"
+  - status: "OK"
+    name: "Ty_GreekSmeshes"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5060"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/dm-rome.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/R/0/d/8ebe14/dm-rome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/0/d/8ebe14/dm-rome.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Rome"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: true

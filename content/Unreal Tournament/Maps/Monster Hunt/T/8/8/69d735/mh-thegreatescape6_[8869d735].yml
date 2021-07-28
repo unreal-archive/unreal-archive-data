@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:35"
+game: "Unreal Tournament"
+name: "MH-TheGreatEscape6"
+author: "Boom-Boy"
+description: "None"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "MH-TheGreatEscape6_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/MH-TheGreatEscape6_shot_1.png"
+originalFilename: "mh-thegreatescape6.zip"
+hash: "8869d7359c3b76c39bb99b261c4e5e5a9ec7e87f"
+fileSize: 2160328
+files:
+- name: "MH-TheGreatEscape6.unr"
+  fileSize: 1674450
+  hash: "fca629853e0ae134608a40dc23ddc80785c5a232"
+- name: "WarLord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+- name: "Mountain.umx"
+  fileSize: 920629
+  hash: "7715eb1a64ba0739a5a34ec95d2e75825e076d68"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 1
+dependencies:
+  MH-TheGreatEscape6.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "WarLord"
+  - status: "OK"
+    name: "Mountain"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-thegreatescape6.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/mh-thegreatescape6.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-thegreatescape6.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/T/8/8/69d735/mh-thegreatescape6.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/8/8/69d735/mh-thegreatescape6.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Great Escape"
+playerCount: "1-6"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.7
+  Nali Castle: 0.2
+bots: true

@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-19 17:14"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "DM-LIP-VoidOfDespair"
 author: "LIP-Rampage"
@@ -50,21 +49,21 @@ dependencies:
   LIPBonusPickups.u:
   - status: "OK"
     name: "LIPBonusPickupsTex"
-    providedBy: null
   - status: "OK"
     name: "LIPBonusPickupsStatic"
-    providedBy: null
   LIPBonusPickupsStatic.usx:
   - status: "OK"
     name: "LIPBonusPickupsTex"
-    providedBy: null
   DM-LIP-VoidOfDespair.ut2:
   - status: "OK"
     name: "LIPBonusPickups"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/a/c/fd8dd6/DM-LIP-VoidOfDespair.rar"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/a/c/fd8dd6/DM-LIP-VoidOfDespair.rar"
+  main: false
   repack: false
   state: "OK"
 deleted: false

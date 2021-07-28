@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:08"
+game: "Unreal Tournament"
+name: "MH-CUT-IslandInvasion"
+author: "Benjamin Rogan"
+description: "None"
+releaseDate: "2004-08"
+attachments:
+- type: "IMAGE"
+  name: "MH-CUT-IslandInvasion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/C/MH-CUT-IslandInvasion_shot_1.png"
+originalFilename: "mh-cut-islandinvasion.zip"
+hash: "c01fe69df52f183f7210a4ed173508d5d48e1c0b"
+fileSize: 2811727
+files:
+- name: "MH-CUT-IslandInvasion.unr"
+  fileSize: 2234626
+  hash: "2776d336b27b73a47483b5fd837042acc1203418"
+- name: "spybreak.umx"
+  fileSize: 2645036
+  hash: "132f10a4d306ab503d14e1964b262de01ee52559"
+otherFiles: 1
+dependencies:
+  MH-CUT-IslandInvasion.unr:
+  - status: "MISSING"
+    name: "saber"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "spybreak"
+  - status: "MISSING"
+    name: "ChaosUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/C/mh-cut-islandinvasion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=mh-cut-islandinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-cut-islandinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-cut-islandinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/MonsterHunt/mh-cut-islandinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/C/c/0/1fe69d/mh-cut-islandinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/c/0/1fe69d/mh-cut-islandinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Secret Isle fortress"
+playerCount: "14"
+themes:
+  Industrial: 0.4
+  City: 0.3
+  Natural: 0.2
+bots: true

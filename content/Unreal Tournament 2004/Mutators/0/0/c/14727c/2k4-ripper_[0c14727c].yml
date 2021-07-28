@@ -1,0 +1,66 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 19:41"
+game: "Unreal Tournament 2004"
+name: "2k4 Ripper"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-01"
+attachments: []
+originalFilename: "2k4_ripper.zip"
+hash: "0c14727cd8437784eb9fda26ad28d2a08ccbe4d8"
+fileSize: 116136
+files:
+- name: "Ripper2k4Sounds.uax"
+  fileSize: 27946
+  hash: "ebc51b25d8e656ba099a6173f28ee23a4e8dedb4"
+- name: "Ripper2k4Anim.ukx"
+  fileSize: 74043
+  hash: "6edb87760d4377c7f848f776e2ab00f00e2b074c"
+- name: "Ripper2k4Tex.utx"
+  fileSize: 110032
+  hash: "2a896b3bd2053e53f1cfa8ccab8ee488ffdfe1c4"
+- name: "Ripper2k4Meshes.usx"
+  fileSize: 34858
+  hash: "b51f172aa54488db023cbe0903b81b889771aeb8"
+- name: "Ripper2k4.u"
+  fileSize: 19639
+  hash: "95c9a5c98facc1909fb44b3c879f7f253136c382"
+otherFiles: 2
+dependencies:
+  Ripper2k4Meshes.usx:
+  - status: "OK"
+    name: "Ripper2k4Tex"
+  Ripper2k4.u:
+  - status: "OK"
+    name: "Ripper2k4Meshes"
+  - status: "OK"
+    name: "Ripper2k4Sounds"
+  - status: "MISSING"
+    name: "Ripper2k4Anim"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/0/2k4_ripper.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/0/0/c/14727c/2k4_ripper.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/0/0/c/14727c/2k4_ripper.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Ripper2k4 Mutator - Give at Start"
+  description: "Play with the Ripper ported over to UT2004! Gives you the Ripper at\
+    \ the start of the match - http://fraghouse.beyondunreal.com"
+- name: "Ripper2k4 Mutator"
+  description: "Play with the Ripper ported over to UT2004! Replaces Link Gun - http://fraghouse.beyondunreal.com"
+weapons:
+- name: "Ripper"
+  description: "Ripper"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

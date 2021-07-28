@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 09:33"
+game: "Unreal Tournament 2004"
+name: "CTF-LS_Ice_Giant"
+author: "Simeon \"Lord Simeon\" Spargo"
+description: "Ice Giant"
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-LS_Ice_Giant_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/L/CTF-LS_Ice_Giant_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-LS_Ice_Giant_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/L/CTF-LS_Ice_Giant_shot_1.png"
+originalFilename: "ctf-ls_ice_giant.zip"
+hash: "c4d6ba34f8f0b9af5d812ecb0f509b8aa26c3dcc"
+fileSize: 3137566
+files:
+- name: "BootsOfJumpingSounds.uax"
+  fileSize: 31257
+  hash: "1e10b0c41eb4fcb63128c002d988ba6a4362080d"
+- name: "BootsOfJumping.u"
+  fileSize: 8202
+  hash: "528e2c20c0e1a2330833c56012fc3496dfb7efc7"
+- name: "CTF-LS_Ice_Giant.ut2"
+  fileSize: 9422661
+  hash: "8b0040f501c97e8da317a15beb654f899e032d2e"
+otherFiles: 2
+dependencies:
+  CTF-LS_Ice_Giant.ut2:
+  - status: "OK"
+    name: "BootsOfJumping"
+  BootsOfJumping.u:
+  - status: "OK"
+    name: "BootsOfJumpingSounds"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1001"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/L/ctf-ls_ice_giant.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/L/c/4/d6ba34/ctf-ls_ice_giant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/L/c/4/d6ba34/ctf-ls_ice_giant.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-LS_Ice_Giant"
+playerCount: "10-20"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: true

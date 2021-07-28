@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:21"
+game: "Unreal Tournament"
+name: "CTF-BT-MinskPocketV2"
+author: "macz"
+description: "None"
+releaseDate: "2009-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-MinskPocketV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/M/CTF-BT-MinskPocketV2_shot_1.png"
+originalFilename: "CTF-BT-MinskPocketV2.zip"
+hash: "78b86838f8a6f74d7219aeb411847e4c288b351f"
+fileSize: 10359840
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "CTF-BT-MinskPocketV2.unr"
+  fileSize: 1501096
+  hash: "b78127359e988ec9b53788e305536fdf515d8f56"
+otherFiles: 0
+dependencies:
+  CTF-BT-MinskPocketV2.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "Anc"
+  - status: "OK"
+    name: "DoorsSnd"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-MinskPocketV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/M/CTF-BT-MinskPocketV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-MinskPocketV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/M/7/8/b86838/CTF-BT-MinskPocketV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/M/7/8/b86838/CTF-BT-MinskPocketV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Minsk Pocket"
+playerCount: "6-8"
+themes:
+  Industrial: 0.5
+  Ancient: 0.5
+bots: false

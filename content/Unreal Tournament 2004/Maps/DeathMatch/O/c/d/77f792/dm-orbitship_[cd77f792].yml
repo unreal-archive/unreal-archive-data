@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 01:32"
+game: "Unreal Tournament 2004"
+name: "DM-Orbitship"
+author: "Ironcore"
+description: "SF-402 Is one of the 400 weapon platfom ship's that orbits earth today.\
+  \ Nuclear weapons are still the technolgy used in space warfare. It has 4 giant\
+  \ twin lazer nuclear cannons, 4 Atomic missles, and space fighters. Platforms like\
+  \ these protect earth from nuclear devistation, meteoroids, UFO's, and many great\
+  \ dangers that can come from space and beyond."
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "dmorbitship.rar"
+hash: "cd77f792f171b12860385f30a29f756a0759bc0b"
+fileSize: 3005650
+files:
+- name: "DM-Orbitship.ut2"
+  fileSize: 1490101
+  hash: "5d1322da14dfbc0126105552251760c40af5f15f"
+- name: "PlayrShp.utx"
+  fileSize: 3852760
+  hash: "17684f968f93b2c8f0dfa49e5c554b24b5fa3b4d"
+otherFiles: 2
+dependencies:
+  DM-Orbitship.ut2:
+  - status: "MISSING"
+    name: "DoorsMod"
+  - status: "OK"
+    name: "PlayrShp"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsO/&file=dmorbitship.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/O/dmorbitship.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/O/c/d/77f792/dmorbitship.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/O/c/d/77f792/dmorbitship.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-OrbitShip"
+playerCount: "16"
+themes:
+  Tech: 1.0
+bots: true

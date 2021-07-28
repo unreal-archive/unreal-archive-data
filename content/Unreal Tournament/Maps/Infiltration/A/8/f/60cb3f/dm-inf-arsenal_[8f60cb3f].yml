@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:41"
+game: "Unreal Tournament"
+name: "DM-INF-Arsenal"
+author: "Old Geezer"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Arsenal_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Arsenal_shot_1.png"
+originalFilename: "dm-inf-arsenal.zip"
+hash: "8f60cb3fc6c7edaad9b488af94523d600d968543"
+fileSize: 3552875
+files:
+- name: "DM-INF-Arsenal.unr"
+  fileSize: 5915014
+  hash: "b4bdb0a57f8ae6771f3cd250d5878448f583553b"
+- name: "Arsenal.utx"
+  fileSize: 2888039
+  hash: "50dd87898b30a20a0a98ccddfdcd57cf738f1b1d"
+otherFiles: 1
+dependencies:
+  DM-INF-Arsenal.unr:
+  - status: "MISSING"
+    name: "rw_TPack4"
+  - status: "MISSING"
+    name: "rw_TPack3"
+  - status: "MISSING"
+    name: "rw_BTFFoot"
+  - status: "MISSING"
+    name: "RWorld"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "DP_Pack2"
+  - status: "OK"
+    name: "Arsenal"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+  - status: "MISSING"
+    name: "DP_Pack-1"
+  - status: "MISSING"
+    name: "rw_Install"
+  - status: "MISSING"
+    name: "FunkKPTex"
+  - status: "MISSING"
+    name: "FunkKPTex2"
+  - status: "MISSING"
+    name: "rw_TPack2"
+  - status: "MISSING"
+    name: "rw_TPack1"
+  Arsenal.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-arsenal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-arsenal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/A/8/f/60cb3f/dm-inf-arsenal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/A/8/f/60cb3f/dm-inf-arsenal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "DM-INF-Arsenal"
+playerCount: "8 to 16 Players"
+themes:
+  Industrial: 0.1
+  City: 0.1
+  Skaarj Tech: 0.8
+bots: true

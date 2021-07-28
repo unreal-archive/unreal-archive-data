@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-12-23 09:10"
+variationOf: "0afbed4d1aa0b7b4dce25c450242e19c44b5d62c"
+game: "Unreal Tournament"
+name: "DM-DraccusMaximus"
+author: "Adam 'Exnor' McCann"
+description: "None"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-draccusmaximus_shot_ad786ddc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/a/d/786ddc/dm-draccusmaximus_shot_ad786ddc_1.png"
+originalFilename: "DM-DraccusMaximus.zip"
+hash: "ad786ddce931fabcd948e9171937d8676d030f03"
+fileSize: 1349044
+files:
+- name: "Dramaccus.utx"
+  fileSize: 134212
+  hash: "c8a20abb2dfde5dcb3c5dd0f1343127fdabaa245"
+- name: "Blinded.umx"
+  fileSize: 718990
+  hash: "4b99d338de7349570162d865373271dac227a236"
+- name: "DM-DraccusMaximus.unr"
+  fileSize: 3119752
+  hash: "4b4437b8462ac1f967c01577ab6bd80eb994d7dc"
+otherFiles: 1
+dependencies:
+  DM-DraccusMaximus.unr:
+  - status: "OK"
+    name: "Dramaccus"
+  - status: "OK"
+    name: "Blinded"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DraccusMaximus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/a/d/786ddc/DM-DraccusMaximus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/a/d/786ddc/DM-DraccusMaximus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Draccus Maximus Base"
+playerCount: "4-6"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

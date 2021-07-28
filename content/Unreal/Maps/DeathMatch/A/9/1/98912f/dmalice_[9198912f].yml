@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:40"
+game: "Unreal"
+name: "DMAlice"
+author: "Minky-(DOG)-"
+description: "Welcome From Dog Clan T Castle Alice"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "DMAlice.zip"
+hash: "9198912f03ca2813b78de2ed918853d966a10fcd"
+fileSize: 2722086
+files:
+- name: "Alice.utx"
+  fileSize: 23407
+  hash: "8f841640580223cba3071e21c50054962cd91dfb"
+- name: "LZIS.umx"
+  fileSize: 3089089
+  hash: "6d9aab1e9fa6632c06eec49d72c02e9e4d75cb07"
+- name: "DMAlice.unr"
+  fileSize: 1843284
+  hash: "96f50e0368856300557c59d9865e7bcb6b92b867"
+otherFiles: 1
+dependencies:
+  DMAlice.unr:
+  - status: "OK"
+    name: "Alice"
+  - status: "OK"
+    name: "LZIS"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMAlice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/A/9/1/98912f/DMAlice.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/A/9/1/98912f/DMAlice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/A/9/1/98912f/DMAlice.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Castle Alice"
+playerCount: "8-12"
+themes:
+  Nali Castle: 0.9
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:59"
+game: "Unreal Tournament"
+name: "DM-Cathedral Ruins"
+author: "Marcin \"Mr_Hyde\" Winkowski"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-cathedral-ruins_shot_99d0d462_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/9/9/d0d462/dm-cathedral-ruins_shot_99d0d462_1.png"
+originalFilename: "dm-cathedral_ruins.zip"
+hash: "99d0d462e817a1ca7cbfa8ecc9552d99f73e6e4a"
+fileSize: 4216123
+files:
+- name: "Rainn.umx"
+  fileSize: 1578902
+  hash: "bb17756bb30b43c110121433d8d82aba3b917976"
+- name: "DM-Cathedral Ruins.unr"
+  fileSize: 4119259
+  hash: "0a0c7645d47c9c6b8cc97d39755b28e96e91f27b"
+- name: "hydewolftexpack.utx"
+  fileSize: 2070135
+  hash: "c902d9ecf70136cf1fd6a1cd1ad5bb5991f9dcaa"
+otherFiles: 1
+dependencies:
+  DM-Cathedral Ruins.unr:
+  - status: "OK"
+    name: "hydewolftexpack"
+  - status: "OK"
+    name: "Rainn"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-cathedral_ruins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-cathedral_ruins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-cathedral_ruins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/9/9/d0d462/dm-cathedral_ruins.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/9/9/d0d462/dm-cathedral_ruins.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/9/9/d0d462/dm-cathedral_ruins.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Cathedral Ruins"
+playerCount: "2-6"
+themes:
+  Nali Castle: 1.0
+bots: true

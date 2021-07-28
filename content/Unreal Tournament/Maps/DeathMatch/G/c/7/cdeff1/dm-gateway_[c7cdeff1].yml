@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:24"
+game: "Unreal Tournament"
+name: "DM-Gateway"
+author: "OGMirageOG"
+description: "None"
+releaseDate: "2011-01"
+attachments: []
+originalFilename: "dm-gateway.zip"
+hash: "c7cdeff1dac493d805936d5c284e444ec84ff9e7"
+fileSize: 9279025
+files:
+- name: "OGGateway.umx"
+  fileSize: 9508106
+  hash: "8092c308e16e880a2c28ed4040c5e4bb5f749f6e"
+- name: "DM-Gateway.unr"
+  fileSize: 291657
+  hash: "9e5445bf7f017e4193c997480032796c95356519"
+otherFiles: 0
+dependencies:
+  DM-Gateway.unr:
+  - status: "OK"
+    name: "OGGateway"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-gateway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/c/7/cdeff1/dm-gateway.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/c/7/cdeff1/dm-gateway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/c/7/cdeff1/dm-gateway.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ethano Gateway installation"
+playerCount: "2-8 players"
+themes:
+  Industrial: 0.1
+  City: 0.2
+  Skaarj Tech: 0.7
+bots: true

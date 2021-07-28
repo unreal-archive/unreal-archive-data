@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:56"
+game: "Unreal Tournament"
+name: "CTF-'FTB-MoonRun"
+author: "FTB BuzzKill"
+description: "www.ftbclan.org"
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-'FTB-MoonRun_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-'FTB-MoonRun_shot_1.png"
+originalFilename: "CTF-'FTB-MoonRun.zip"
+hash: "bf1607177a7dcc27e338eeb2b383d0ffcda3c1f9"
+fileSize: 2049737
+files:
+- name: "FTBcolor2.utx"
+  fileSize: 974641
+  hash: "cfcc4713ec7d0fafaf0fb80884f0a75f14cb92fb"
+- name: "2008FTBTextures.utx"
+  fileSize: 2038702
+  hash: "be8a5e1dfd6ae0d19020e09d609936c5d61021fe"
+- name: "FTBNewLogo.utx"
+  fileSize: 177660
+  hash: "ab8525d50f7830ee7535a92799e8aa747567fac0"
+- name: "CTF-'FTB-MoonRun.unr"
+  fileSize: 2326312
+  hash: "79af59d4691a84a6bb9d884ca9077e28ff3d5033"
+otherFiles: 0
+dependencies:
+  CTF-'FTB-MoonRun.unr:
+  - status: "OK"
+    name: "FTBcolor2"
+  - status: "OK"
+    name: "FTBNewLogo"
+  - status: "OK"
+    name: "2008FTBTextures"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=CTF-%27FTB-MoonRun.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-'FTB-MoonRun.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%27FTB-MoonRun.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/f/160717/CTF-'FTB-MoonRun.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/f/160717/CTF-'FTB-MoonRun.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "MoonRun"
+playerCount: "4-12"
+themes:
+  Industrial: 0.1
+  Natural: 0.9
+bots: true

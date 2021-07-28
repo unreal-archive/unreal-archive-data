@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:50"
+game: "Unreal Tournament"
+name: "DM-PIE"
+author: "TheOverLord"
+description: "Who Doesn't Like Pie!"
+releaseDate: "2013-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-PIE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PIE_shot_1.png"
+originalFilename: "DM-PIE.zip"
+hash: "9dfe5b303b0874589a2711958f45419eebc275c0"
+fileSize: 3356590
+files:
+- name: "Pie6.umx"
+  fileSize: 2386286
+  hash: "e9b89fc0d312d7d4fff712c9919328e3fb793502"
+- name: "DM-PIE.unr"
+  fileSize: 741651
+  hash: "5fae6f1f1a1ebeb6f66420df3984a4f767651e69"
+- name: "PIE.utx"
+  fileSize: 2485977
+  hash: "78f606f86c347c49e80462d1e5ce3ca714050359"
+otherFiles: 0
+dependencies:
+  DM-PIE.unr:
+  - status: "OK"
+    name: "Pie"
+  - status: "OK"
+    name: "Pie6"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-PIE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/DM-PIE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/9/d/fe5b30/DM-PIE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/9/d/fe5b30/DM-PIE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Pie!!"
+playerCount: "6-12"
+themes:
+  Ancient: 0.7
+  Egyptian: 0.1
+  City: 0.3
+bots: true

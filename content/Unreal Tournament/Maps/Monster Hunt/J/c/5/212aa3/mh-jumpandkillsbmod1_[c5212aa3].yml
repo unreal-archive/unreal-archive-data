@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:25"
+game: "Unreal Tournament"
+name: "MH-JumpAndKill+SBMod1"
+author: "Tleilaxu/Fixes by Barbie"
+description: "None"
+releaseDate: "2016-06"
+attachments:
+- type: "IMAGE"
+  name: "MH-JumpAndKill+SBMod1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/J/MH-JumpAndKill%2BSBMod1_shot_1.png"
+originalFilename: "MH-JumpAndKill SBMod1.7z"
+hash: "c5212aa3c97c0a1a972ffa857ce956bf89e114c9"
+fileSize: 1566407
+files:
+- name: "MH-JumpAndKill+SBMod1.unr"
+  fileSize: 558754
+  hash: "4b2ee50614c41bfff9ab6e554d0ee931353dbf5e"
+- name: "Title_Music.umx"
+  fileSize: 1976678
+  hash: "ce3eb3f57939f56f290874f7bcc9cff9f54ffe03"
+otherFiles: 2
+dependencies:
+  MH-JumpAndKill+SBMod1.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Title_Music"
+  - status: "MISSING"
+    name: "bpak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-JumpAndKill+SBMod1.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/J/MH-JumpAndKill%20SBMod1.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/J/c/5/212aa3/MH-JumpAndKill%2520SBMod1.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/J/c/5/212aa3/MH-JumpAndKill%2520SBMod1.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Jump And Kill"
+playerCount: "Unknown"
+themes:
+  Natural: 0.9
+bots: false

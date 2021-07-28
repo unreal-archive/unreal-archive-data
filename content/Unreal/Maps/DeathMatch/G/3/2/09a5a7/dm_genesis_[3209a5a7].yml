@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:18"
+game: "Unreal"
+name: "Dm_Genesis"
+author: "Unknown"
+description: "None"
+releaseDate: "1998-10"
+attachments: []
+originalFilename: "jihad_01.zip"
+hash: "3209a5a7c11e1e0ce4c7ebcaaa1fa852a1796339"
+fileSize: 1038646
+files:
+- name: "Jihad.u"
+  fileSize: 263095
+  hash: "9a103f3c0a91d1f008efeedc55d31f16f6a57b7f"
+- name: "JihadFire2.utx"
+  fileSize: 6043
+  hash: "8c1340ec1f3fa5688f3c38dd5f035f7094a5d5fd"
+- name: "Dm_Genesis.unr"
+  fileSize: 2949123
+  hash: "48bedd5bef513f79734584950a52586c43c8b452"
+- name: "JihadFire.utx"
+  fileSize: 4854
+  hash: "42533f7c2189eabe0df756be5c055362c7b5c5b7"
+otherFiles: 1
+dependencies:
+  Dm_Genesis.unr:
+  - status: "OK"
+    name: "JihadFire2"
+  - status: "OK"
+    name: "Jihad"
+  - status: "OK"
+    name: "JihadFire"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/G/3/2/09a5a7/jihad_01.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/G/3/2/09a5a7/jihad_01.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/G/3/2/09a5a7/jihad_01.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Genesis"
+playerCount: "Unknown"
+themes: {}
+bots: true

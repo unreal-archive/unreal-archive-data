@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:52"
+game: "Unreal Tournament"
+name: "SCR-Basketball"
+author: "Bober"
+description: "None"
+releaseDate: "2007-11"
+attachments: []
+originalFilename: "SCR-Basketball.rar"
+hash: "a8071bed6c82fa194c15628499857c81b974ec59"
+fileSize: 40064
+files:
+- name: "SCR-Basketball.unr"
+  fileSize: 360743
+  hash: "e081b8e0dd364620dc8645b77cf49b1c1f1265b0"
+- name: "Colors.utx"
+  fileSize: 12589
+  hash: "43a23fef0644986d50aae20da55468e372868fb6"
+otherFiles: 0
+dependencies:
+  SCR-Basketball.unr:
+  - status: "OK"
+    name: "Colors"
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-Basketball.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-Basketball.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-Basketball.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-Basketball.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/B/a/8/071bed/SCR-Basketball.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/B/a/8/071bed/SCR-Basketball.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "Basketball"
+playerCount: "2-6"
+themes:
+  Tech: 1.0
+bots: false

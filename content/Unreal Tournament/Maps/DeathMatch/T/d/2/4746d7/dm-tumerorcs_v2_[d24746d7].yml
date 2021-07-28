@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-12-13 17:25"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-Tumerorcs_V2"
 author: "Unknown"
@@ -26,16 +25,18 @@ dependencies:
   DM-Tumerorcs_V2.unr:
   - status: "OK"
     name: "Quake3"
-    providedBy: null
   - status: "OK"
     name: "QUAKE3c"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/d/2/4746d7/DM-Tumerorcs_V2.7z"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/&file=DM-Tumerorcs_V2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/d/2/4746d7/DM-Tumerorcs_V2.7z"
   main: false
   repack: false
   state: "OK"

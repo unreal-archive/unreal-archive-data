@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:17"
+game: "Unreal Tournament"
+name: "DM-INF-Dust"
+author: "Markus \"MarkusW\" Wallmüller"
+description: "Visit: www.markus-w.com"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Dust_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Dust_shot_1.png"
+- type: "IMAGE"
+  name: "DM-INF-Dust_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Dust_shot_2.png"
+originalFilename: "dm-inf-dust.zip"
+hash: "045aa1859ab319f3cf07296f3aa32ebda305aaee"
+fileSize: 3230040
+files:
+- name: "DM-INF-Dust.unr"
+  fileSize: 7350993
+  hash: "cf514d13dc66e64d79f548b56b358d534d621e18"
+- name: "de_dust.utx"
+  fileSize: 536436
+  hash: "c2e99ce4d726825e5d1f937bd9750fb1e787175c"
+otherFiles: 2
+dependencies:
+  de_dust.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+  DM-INF-Dust.unr:
+  - status: "OK"
+    name: "de_dust"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-dust.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsI/&file=dm-inf-dust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-inf-dust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-dust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsI/dm-inf-dust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/D/0/4/5aa185/dm-inf-dust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/D/0/4/5aa185/dm-inf-dust.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Dust (INF version)"
+playerCount: "6 - 32"
+themes:
+  Nali Temple: 0.2
+  Industrial: 0.1
+  Egyptian: 0.1
+  City: 0.1
+  Skaarj Tech: 0.6
+bots: true

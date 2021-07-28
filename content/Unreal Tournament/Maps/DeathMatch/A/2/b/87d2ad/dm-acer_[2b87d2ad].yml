@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:50"
+game: "Unreal Tournament"
+name: "DM-Acer"
+author: "Lord Simeon"
+description: "Acer"
+releaseDate: "2001-06"
+attachments: []
+originalFilename: "dm-acer.zip"
+hash: "2b87d2ad5375f46ef86bf232a9b4098602e9f2aa"
+fileSize: 375957
+files:
+- name: "DM-Acer.unr"
+  fileSize: 1103298
+  hash: "962072e1c7131fae2b385bfe74485df4d1b61a12"
+- name: "Acer.utx"
+  fileSize: 351092
+  hash: "6e024b60ca04e1d4648ecb27cd063ac5f96e539b"
+otherFiles: 0
+dependencies:
+  DM-Acer.unr:
+  - status: "OK"
+    name: "Acer"
+  - status: "MISSING"
+    name: "Lord"
+  - status: "MISSING"
+    name: "Escort"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-acer.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-acer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-acer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsA/dm-acer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/2/b/87d2ad/dm-acer.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/2/b/87d2ad/dm-acer.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Acer"
+playerCount: "8"
+themes:
+  Ancient: 0.1
+  Indistrial: 0.9
+bots: true

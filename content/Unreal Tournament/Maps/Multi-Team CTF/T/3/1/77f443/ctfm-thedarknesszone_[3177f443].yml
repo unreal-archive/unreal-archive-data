@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:03"
+game: "Unreal Tournament"
+name: "CTFM-TheDarknessZone]["
+author: "UBX Master"
+description: "None"
+releaseDate: "2007-07"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-TheDarknessZone][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/CTFM-TheDarknessZone%5D%5B_shot_1.png"
+originalFilename: "ctfm-thedarknesszone2.zip"
+hash: "3177f443bef0dae611cd33d44cac84719de7a939"
+fileSize: 2465318
+files:
+- name: "CTFM-TheDarknessZone][.unr"
+  fileSize: 3138868
+  hash: "d3cb486d256ed7fb94cd01952f66ccef8cc59dd4"
+- name: "lestatpack.utx"
+  fileSize: 2306164
+  hash: "6292e409ba85ff3177a8e6a042c4246f7e31abf0"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+otherFiles: 1
+dependencies:
+  CTFM-TheDarknessZone][.unr:
+  - status: "MISSING"
+    name: "CTF4"
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "OK"
+    name: "lestatpack"
+  - status: "OK"
+    name: "K_vision"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/ctfm-thedarknesszone2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-thedarknesszone2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-thedarknesszone2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-thedarknesszone2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-thedarknesszone2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/3/1/77f443/ctfm-thedarknesszone2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/3/1/77f443/ctfm-thedarknesszone2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "The darkness zone (Multi CTF version)"
+playerCount: "16-32"
+themes:
+  Tech: 0.1
+  Natural: 0.2
+  Skaarj Tech: 0.8
+bots: true

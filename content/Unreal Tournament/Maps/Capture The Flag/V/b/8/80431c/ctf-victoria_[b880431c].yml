@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 11:55"
+game: "Unreal Tournament"
+name: "CTF-Victoria"
+author: "scott'phalanx'oldfield"
+description: "welcome to 1865"
+releaseDate: "2002-06"
+attachments: []
+originalFilename: "ctf-victoria.zip"
+hash: "b880431c5be4fc8c5d9beaa6522614bd909945a9"
+fileSize: 1966361
+files:
+- name: "CTF-Victoria.unr"
+  fileSize: 747533
+  hash: "315b4746bcf4019e4472928043475f41f0ef1089"
+- name: "PIANOPLK.umx"
+  fileSize: 57321
+  hash: "95ca18a2df308f8d2557ffe81e92bdd6301f1467"
+- name: "RWorld.utx"
+  fileSize: 1455495
+  hash: "c6ce384bb9c17ef94d2bee108fa272f27c8f8374"
+- name: "RealityPack.utx"
+  fileSize: 1181158
+  hash: "db37f6633a79bf6535350c6e7459865f5bf289f3"
+otherFiles: 1
+dependencies:
+  CTF-Victoria.unr:
+  - status: "OK"
+    name: "PIANOPLK"
+  - status: "OK"
+    name: "RWorld"
+  - status: "OK"
+    name: "RealityPack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-victoria.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/ctf-victoria.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/b/8/80431c/ctf-victoria.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/b/8/80431c/ctf-victoria.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-victoria"
+playerCount: "8-16"
+themes: {}
+bots: true

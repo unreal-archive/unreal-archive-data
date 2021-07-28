@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:01"
+game: "Unreal Tournament"
+name: "DM-AncientEgyptianPalace2]["
+author: "Scorpion"
+description: "\"Welcome to Scorpion's Realm, Live or Die, What's Your Choice?\""
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-ancientegyptianpalace2_shot_3f80c7ca_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/3/f/80c7ca/dm-ancientegyptianpalace2_shot_3f80c7ca_1.png"
+originalFilename: "dm-ancientegyptianpalace2][.rar"
+hash: "3f80c7ca550bc3b342357625cc2b36f7bf96a75a"
+fileSize: 988667
+files:
+- name: "DM-AncientEgyptianPalace2][.unr"
+  fileSize: 1463252
+  hash: "5ba06ea4def31beeed648c2100ceb581ed41a039"
+- name: "Naturet.utx"
+  fileSize: 362053
+  hash: "8d148f2faf7ba37b48f209971aee91be5fdd146d"
+- name: "WOTDetail.utx"
+  fileSize: 266422
+  hash: "9edfd649196295baa343df5b116ee36e00a652d6"
+- name: "Nature_T.utx"
+  fileSize: 12525
+  hash: "c8b219a111fede522940c80034ef5a4d117aa85b"
+- name: "JamesT.utx"
+  fileSize: 89053
+  hash: "1ee04c966c6c7e89e4f4f32259a6ebc63fb98c54"
+otherFiles: 1
+dependencies:
+  JamesT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+  DM-AncientEgyptianPalace2][.unr:
+  - status: "OK"
+    name: "Naturet"
+  Naturet.utx:
+  - status: "MISSING"
+    name: "FootStubA"
+  - status: "PARTIAL"
+    name: "WOTDetail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ancientegyptianpalace2%5D%5B.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-ancientegyptianpalace2%5D%5B.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/3/f/80c7ca/dm-ancientegyptianpalace2%255D%255B.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/3/f/80c7ca/dm-ancientegyptianpalace2%255D%255B.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Egyptian Palace"
+playerCount: "1-10"
+themes:
+  Nali Temple: 0.6
+  Egyptian: 0.4
+  Ancient: 0.1
+bots: true

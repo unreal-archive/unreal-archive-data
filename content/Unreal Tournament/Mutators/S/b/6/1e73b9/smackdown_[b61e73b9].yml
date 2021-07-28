@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-19 22:11"
-variationOf: null
 game: "Unreal Tournament"
 name: "Smackdown"
 author: "Unknown"
@@ -27,10 +26,8 @@ dependencies:
   SmackDown.u:
   - status: "OK"
     name: "SmackDownFX"
-    providedBy: null
   - status: "OK"
     name: "SmackDownSFX"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/smackdown_beta4.zip"
   main: true
@@ -41,6 +38,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=smackdown_beta4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/S/b/6/1e73b9/smackdown_beta4.zip"
   main: false
   repack: false
   state: "OK"

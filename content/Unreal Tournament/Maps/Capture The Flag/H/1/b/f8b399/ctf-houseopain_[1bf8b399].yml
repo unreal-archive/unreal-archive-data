@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:25"
+game: "Unreal Tournament"
+name: "CTF-Houseopain"
+author: "Soul Reaper"
+description: "None"
+releaseDate: "2001-01"
+attachments: []
+originalFilename: "ctf-houseopain.zip"
+hash: "1bf8b39975e783467ae8eee8213eb4fcc77cf29c"
+fileSize: 1980965
+files:
+- name: "CTF-Houseopain.unr"
+  fileSize: 1473603
+  hash: "b90e66cac6a6dbccea5e602b0e21e52e9d859bd0"
+- name: "Siege.utx"
+  fileSize: 2403012
+  hash: "83e521da3e1047f12f208c57762b60769a960e53"
+otherFiles: 1
+dependencies:
+  CTF-Houseopain.unr:
+  - status: "OK"
+    name: "Siege"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-houseopain.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsH/&file=ctf-houseopain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-houseopain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-houseopain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsH/ctf-houseopain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/1/b/f8b399/ctf-houseopain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/1/b/f8b399/ctf-houseopain.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF- House-o-Pain"
+playerCount: "12-16"
+themes:
+  City: 0.8
+  Natural: 0.2
+bots: true

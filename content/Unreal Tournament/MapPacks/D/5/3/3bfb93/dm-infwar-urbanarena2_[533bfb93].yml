@@ -1,0 +1,65 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 09:39"
+game: "Unreal Tournament"
+name: "DM Infwar Urbanarena2"
+author: "Rich aka Akuma"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM_Infwar_Urbanarena2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/DM_Infwar_Urbanarena2_shot_1.png"
+- type: "IMAGE"
+  name: "DM_Infwar_Urbanarena2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/DM_Infwar_Urbanarena2_shot_2.png"
+originalFilename: "DM-infwar-urbanarena2.zip"
+hash: "533bfb932eac918ccca0f3ed5d274cbbf62ec343"
+fileSize: 3396931
+files:
+- name: "DM-UrbanArena][.unr"
+  fileSize: 2643082
+  hash: "369e180f889214fbf46ff207cf8cea7f2f2e7f1a"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "DM-INFWAR-UrbanArena][.unr"
+  fileSize: 3083811
+  hash: "95e282ed6bdec1b4e56faa9814d7ac8bd7dc261b"
+otherFiles: 1
+dependencies:
+  DM-UrbanArena][.unr:
+  - status: "OK"
+    name: "a3text"
+  DM-INFWAR-UrbanArena][.unr:
+  - status: "OK"
+    name: "a3text"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-infwar-urbanarena2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/DM-infwar-urbanarena2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/5/3/3bfb93/DM-infwar-urbanarena2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/5/3/3bfb93/DM-infwar-urbanarena2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-UrbanArena]["
+  title: "The Urban Arena"
+  author: "Rich aka Akuma"
+- name: "DM-INFWAR-UrbanArena]["
+  title: "The Urban Arena"
+  author: "Rich aka Akuma"
+gametype: "DeathMatch"
+themes:
+  City: 0.6
+  Skaarj Tech: 0.4

@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:07"
+game: "Unreal Tournament"
+name: "DM-DMUT-ForgottenRealm"
+author: "Mister_Cope"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-DMUT-ForgottenRealm_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-DMUT-ForgottenRealm_shot_1.png"
+originalFilename: "dm-dmut-forgottenrealm.zip"
+hash: "cceff5fa7ccd84dbfbe4ae508ead4a2950bc5d7b"
+fileSize: 3605886
+files:
+- name: "DM-DMUT-ForgottenRealm.unr"
+  fileSize: 2426405
+  hash: "c317621183548482d2deb9c1fc8787be5211d631"
+- name: "SSBaron.utx"
+  fileSize: 1241776
+  hash: "6a28e92b3fca80ccf0a124e49eb413667a9a0f0d"
+- name: "SSHellFire.utx"
+  fileSize: 991823
+  hash: "e0fe51a5b68ea38a8eece5c3f873e1be15d068fd"
+- name: "WarGate.umx"
+  fileSize: 825589
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
+otherFiles: 1
+dependencies:
+  DM-DMUT-ForgottenRealm.unr:
+  - status: "OK"
+    name: "SSBaron"
+  - status: "OK"
+    name: "SSHellFire"
+  - status: "OK"
+    name: "WarGate"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-dmut-forgottenrealm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1536217"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dm-dmut-forgottenrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-dmut-forgottenrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsD/dm-dmut-forgottenrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/c/c/eff5fa/dm-dmut-forgottenrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/c/c/eff5fa/dm-dmut-forgottenrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "A place of dust and wind"
+playerCount: "5+"
+themes:
+  Industrial: 0.1
+  Ancient: 0.4
+  Nali Castle: 0.3
+  Skaarj Tech: 0.2
+bots: true

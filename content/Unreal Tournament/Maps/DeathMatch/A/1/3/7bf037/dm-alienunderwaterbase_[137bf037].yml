@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:54"
+game: "Unreal Tournament"
+name: "DM-AlienUnderwaterBase"
+author: "\"TYGRA\" Dmitry Gribanoff (Russia)"
+description: "WaterHuntMatch!"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-alienunderwaterbase_shot_137bf037_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/1/3/7bf037/dm-alienunderwaterbase_shot_137bf037_1.png"
+originalFilename: "DM-AlienUnderwaterBase.zip"
+hash: "137bf0378645049afb15cbfed0a5daeea2c76a80"
+fileSize: 1206354
+files:
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "Evolva.utx"
+  fileSize: 132855
+  hash: "c303c4652223b9e7aa3388a98ce0be3d74700a71"
+- name: "DM-AlienUnderwaterBase.unr"
+  fileSize: 1308347
+  hash: "e0c3058094c4aeafd504f3a983ca7c93fc23a57b"
+otherFiles: 0
+dependencies:
+  DM-AlienUnderwaterBase.unr:
+  - status: "OK"
+    name: "Evolva"
+  - status: "OK"
+    name: "Fifth"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-AlienUnderwaterBase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-AlienUnderwaterBase.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/1/3/7bf037/DM-AlienUnderwaterBase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/1/3/7bf037/DM-AlienUnderwaterBase.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "AlienUnderwaterBase"
+playerCount: "8-12"
+themes:
+  Tech: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.5
+bots: true

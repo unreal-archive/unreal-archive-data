@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:07"
+game: "Unreal Tournament"
+name: "DM-Auberg"
+author: "Gabyx_19"
+description: "None"
+releaseDate: "2013-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Auberg_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Auberg_shot_1.png"
+originalFilename: "DM-Auberg.zip"
+hash: "798467829b3419e2d09249038e620d94f48d171f"
+fileSize: 2825933
+files:
+- name: "AbbeyTex.utx"
+  fileSize: 1572406
+  hash: "a25e54237a0bf96a1a105e1510ef1a27fb46c58c"
+- name: "DM-Auberg.unr"
+  fileSize: 1322969
+  hash: "b48aa610affd063bb3eba64b96c0de9c1d707b4a"
+- name: "Abbey.utx"
+  fileSize: 2284536
+  hash: "72b32078ed456125e296efa212727f1731aff7a4"
+otherFiles: 0
+dependencies:
+  DM-Auberg.unr:
+  - status: "OK"
+    name: "AbbeyTex"
+  - status: "MISSING"
+    name: "abbey"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Auberg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-Auberg.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/7/9/846782/DM-Auberg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/7/9/846782/DM-Auberg.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Auberg"
+playerCount: "2-5"
+themes:
+  Skaarj Crypt: 0.3
+  Indistrial: 0.6
+bots: true

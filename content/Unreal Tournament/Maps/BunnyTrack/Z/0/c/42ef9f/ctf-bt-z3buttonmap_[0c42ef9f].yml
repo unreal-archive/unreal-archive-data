@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 09:39"
+game: "Unreal Tournament"
+name: "CTF-BT-(z3)ButtonMap"
+author: "z3u5"
+description: "Have Fun!"
+releaseDate: "2007-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-(z3)ButtonMap_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/Z/CTF-BT-(z3)ButtonMap_shot_1.png"
+originalFilename: "CTF-BT-(z3)ButtonMap.zip"
+hash: "0c42ef9f366e1f8fff365c164aca5ab2357382ee"
+fileSize: 1728459
+files:
+- name: "CTF-BT-(z3)ButtonMap.unr"
+  fileSize: 6471211
+  hash: "1249d3853abf4a33bbe22e13bbe9c328daa57162"
+- name: "JumpSound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+- name: "mapbyz3u5.utx"
+  fileSize: 88977
+  hash: "e906efeeaa21ede3e2fb08d12a4ee1f77e0e93ba"
+- name: "GULP.umx"
+  fileSize: 20446
+  hash: "b36ce3e7f10ceb2ee09cd5ba5c6e546341305741"
+otherFiles: 0
+dependencies:
+  CTF-BT-(z3)ButtonMap.unr:
+  - status: "OK"
+    name: "mapbyz3u5"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "GULP"
+  - status: "OK"
+    name: "JumpSound"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-%28z3%29ButtonMap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/Z/CTF-BT-(z3)ButtonMap.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-%28z3%29ButtonMap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-%28z3%29ButtonMap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/Z/0/c/42ef9f/CTF-BT-(z3)ButtonMap.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/Z/0/c/42ef9f/CTF-BT-(z3)ButtonMap.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "ButtonMap"
+playerCount: "4-6"
+themes:
+  Industrial: 0.7
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: false

@@ -1,0 +1,93 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:38"
+game: "Unreal"
+name: "DM_Niwa"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2019-09"
+attachments: []
+originalFilename: "DM_Niwa.zip"
+hash: "fc7b1dd4659192a509fcb62984d198f4e9e4b524"
+fileSize: 21486828
+files:
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "DM_Niwa.unr"
+  fileSize: 5624078
+  hash: "5d9f36a9ed4d6389225b5723b49500ddf200d2cf"
+- name: "Boundary.umx"
+  fileSize: 957589
+  hash: "c06a687b9c109cc509f0d1e652a48b3ebdb055a1"
+- name: "Wintercold.utx"
+  fileSize: 5235406
+  hash: "c96734edfcc6d88773ab31acd8075fd575003fa3"
+- name: "DeusXDeco.u"
+  fileSize: 337631
+  hash: "e33977228b7d3b1640fb98e7b1a1b135625df044"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+- name: "GenEarth.utx"
+  fileSize: 6186030
+  hash: "baaa74eba0d24aa58c247b168e45481e571320c8"
+- name: "ShaneDay.utx"
+  fileSize: 388457
+  hash: "ffc3a43f2aac732306a944a9b1582bd1bd96073f"
+- name: "Japanese_tex.utx"
+  fileSize: 9309176
+  hash: "fa1b3e42be4e694186cd607dfc5e44eb48c52b9d"
+- name: "Liquids.utx"
+  fileSize: 14013
+  hash: "d34fe4685e675780d6c25ff24ad0f13bfe6b8b8a"
+otherFiles: 0
+dependencies:
+  DM_Niwa.unr:
+  - status: "OK"
+    name: "Wintercold"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "DeusXDeco"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "Japanese_tex"
+  - status: "OK"
+    name: "Newbies_logo"
+  - status: "OK"
+    name: "ParticleTexs"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/nikola_maps/DM_Niwa.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/f/c/7b1dd4/DM_Niwa.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/N/f/c/7b1dd4/DM_Niwa.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/N/f/c/7b1dd4/DM_Niwa.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Niwa"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

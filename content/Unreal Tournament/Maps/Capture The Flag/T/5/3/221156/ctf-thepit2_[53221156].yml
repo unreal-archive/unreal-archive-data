@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:39"
+game: "Unreal Tournament"
+name: "CTF-ThePit2"
+author: "Morphias"
+description: "Welcome to The Pit"
+releaseDate: "2000-11"
+attachments: []
+originalFilename: "ctf-thepit2.zip"
+hash: "53221156ef933be2bcc105f2e63b1c4bff097db1"
+fileSize: 412187
+files:
+- name: "CTF-ThePit2.unr"
+  fileSize: 765643
+  hash: "764233b5197cb4d223b7a182cd652439f81967de"
+- name: "HARDHB.umx"
+  fileSize: 370519
+  hash: "f83d71df62e27ad4facc24fb533281793161d67e"
+- name: "ThePit2.utx"
+  fileSize: 88979
+  hash: "edda8cfab45f9cee99b565831798c381a5b1db57"
+otherFiles: 1
+dependencies:
+  CTF-ThePit2.unr:
+  - status: "MISSING"
+    name: "ThePit2"
+  - status: "OK"
+    name: "HARDHB"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/ctf-thepit2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsT/&file=ctf-thepit2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-thepit2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsT/ctf-thepit2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/5/3/221156/ctf-thepit2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/5/3/221156/ctf-thepit2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Pit 2"
+playerCount: "8-16"
+themes:
+  Skaarj Tech: 1.0
+bots: true

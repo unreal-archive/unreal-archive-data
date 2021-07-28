@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 17:05"
+game: "Unreal Tournament 2004"
+name: "DM-Campgrounds2009-GDE"
+author: "[IDS]  Ed: [Eps/neo/El-B/gTn]"
+description: "Campgrounds29, Old Terrae, replica of the famous Empire Campgrounds,\
+  \ Alpha Centauri. Grettir the third, once, victorious here, cooling his launcher,\
+  \ said: you never know when your opponent is gonna take off, you always know where\
+  \ he lands."
+releaseDate: "2006-01"
+attachments: []
+originalFilename: "DM-Campgrounds2009-GDE.zip"
+hash: "67fb53db093235b4babeec135aff2143d28f5e56"
+fileSize: 5149670
+files:
+- name: "GenFluid.utx"
+  fileSize: 5510043
+  hash: "5ee9f593826f9099b6a94457e38942cf13c31bf8"
+- name: "DM-Campgrounds2009-GDE.ut2"
+  fileSize: 3931695
+  hash: "d5740582c5e78876f8febb646f9b819f3d44f0fd"
+- name: "Liquids.utx"
+  fileSize: 14013
+  hash: "d34fe4685e675780d6c25ff24ad0f13bfe6b8b8a"
+otherFiles: 1
+dependencies:
+  Liquids.utx:
+  - status: "OK"
+    name: "genfluid"
+  DM-Campgrounds2009-GDE.ut2:
+  - status: "OK"
+    name: "Liquids"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7508"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-Campgrounds2009-GDE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/6/7/fb53db/DM-Campgrounds2009-GDE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/6/7/fb53db/DM-Campgrounds2009-GDE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CampGrounds2009-GDE"
+playerCount: "2-8"
+themes: {}
+bots: true

@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 02:28"
+variationOf: "5a8d1a68de1a388aade35288267fc8b02ed3acd3"
+game: "Unreal Tournament"
+name: "MA-Predator"
+author: "Barry \"PhantomLord\""
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "ma-predator_shot_905f5af3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Arena/P/9/0/5f5af3/ma-predator_shot_905f5af3_1.png"
+originalFilename: "ma-predator.zip"
+hash: "905f5af3432159c02b5ce82150cc0c2cbdd7ba83"
+fileSize: 3243725
+files:
+- name: "Quakearena.utx"
+  fileSize: 3203647
+  hash: "1733385a6744242cbe0c1ef258aadbdf0ed6ae7d"
+- name: "MA-Predator.unr"
+  fileSize: 538218
+  hash: "bcbbb05cd65aa97e87320b921ce7c4c75921b674"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MA-Predator.unr:
+  - status: "OK"
+    name: "Quakearena"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterArena/&file=ma-predator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Arena/P/ma-predator.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterArena&file=ma-predator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Arena/P/9/0/5f5af3/ma-predator.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Arena/P/9/0/5f5af3/ma-predator.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Arena"
+title: "Predator"
+playerCount: "Up to 6"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Industrial: 0.7
+bots: true

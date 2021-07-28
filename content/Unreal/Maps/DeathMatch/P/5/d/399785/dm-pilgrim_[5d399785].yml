@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:30"
+game: "Unreal"
+name: "DM-Pilgrim"
+author: "AlchemiZt"
+description: "Welcome!"
+releaseDate: "1998-05"
+attachments: []
+originalFilename: "dm-pilgrim.zip"
+hash: "5d399785dbdde1fc6c0f4f661dd77371d040c27f"
+fileSize: 900719
+files:
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+- name: "DM-Pilgrim.unr"
+  fileSize: 906856
+  hash: "e64ae8b179d820ac4d960a9a8259a9d6800cd135"
+otherFiles: 1
+dependencies:
+  DM-Pilgrim.unr:
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "UTcrypt"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/P/dm-pilgrim.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dm-pilgrim.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-pilgrim.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsP/dm-pilgrim.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/P/5/d/399785/dm-pilgrim.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/P/5/d/399785/dm-pilgrim.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Place of Pilgrimage"
+playerCount: "3-6"
+themes:
+  Nali Temple: 1.0
+bots: true

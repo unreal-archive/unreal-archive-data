@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:08"
+game: "Unreal Tournament"
+name: "CTF-AtomicSun"
+author: "{FM}Silver-Serpent"
+description: "Watch Out It gets Hot!"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-atomicsun_shot_f40fae08_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/f/4/0fae08/ctf-atomicsun_shot_f40fae08_1.png"
+originalFilename: "CTF-AtomicSun.zip"
+hash: "f40fae08632df7e54534f0d5f4fbfabe642956fa"
+fileSize: 733462
+files:
+- name: "CTF-AtomicSun.unr"
+  fileSize: 1586914
+  hash: "91bce96d40740db66c2679c282478163a9d942c3"
+- name: "B sun.utx"
+  fileSize: 354975
+  hash: "cbda39c42d74bc0dc991b80a9d8a84f71b6edf64"
+otherFiles: 1
+dependencies:
+  CTF-AtomicSun.unr:
+  - status: "OK"
+    name: "B sun"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-AtomicSun.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AtomicSun.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/f/4/0fae08/CTF-AtomicSun.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/f/4/0fae08/CTF-AtomicSun.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Atomic Sun Meltdown"
+playerCount: "4-10"
+themes:
+  Industrial: 0.9
+bots: true

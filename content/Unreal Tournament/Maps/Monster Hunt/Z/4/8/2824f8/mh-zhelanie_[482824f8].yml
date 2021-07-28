@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:51"
+game: "Unreal Tournament"
+name: "MH-Zhelanie"
+author: "Jetlagg"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-zhelanie.zip"
+hash: "482824f8e9a068bd4fff6cca81670cc70687fc0f"
+fileSize: 22048998
+files:
+- name: "UTTech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "SkilletMonster.umx"
+  fileSize: 4120320
+  hash: "d9d7745841ed6d2bc7a9d00568cd4352ecb23e40"
+- name: "MH-Zhelanie.unr"
+  fileSize: 8051723
+  hash: "be4bbfbcbbf4c883196be89ed5ff8fdccfec11aa"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MHZhelanieJet.uax"
+  fileSize: 4239052
+  hash: "4c9793daf877357605a2bbec342953dc57c75e44"
+otherFiles: 2
+dependencies:
+  MH-Zhelanie.unr:
+  - status: "OK"
+    name: "MHZhelanieJet"
+  - status: "OK"
+    name: "UTTech4"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SkilletMonster"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-zhelanie.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/Z/mh-zhelanie.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-zhelanie.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/Z/4/8/2824f8/mh-zhelanie.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/Z/4/8/2824f8/mh-zhelanie.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Zhelanie"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.5
+  Tech: 0.1
+  Industrial: 0.1
+  Ancient: 0.2
+  Skaarj Tech: 0.1
+bots: false

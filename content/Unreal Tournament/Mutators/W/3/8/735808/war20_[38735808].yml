@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 01:22"
+game: "Unreal Tournament"
+name: "War20"
+author: "Cutter and Postal"
+description: "None"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "war20.zip"
+hash: "38735808d1b720cb11f6040f1141eafce9775de8"
+fileSize: 998708
+files:
+- name: "WAR.u"
+  fileSize: 1487996
+  hash: "1abee0dc35b2c398ad5846a0a35831aaf0c9195a"
+- name: "BossSkins_reaper.utx"
+  fileSize: 90504
+  hash: "270a7b069eae7fad3362a42c3041787d48447840"
+otherFiles: 2
+dependencies:
+  WAR.u:
+  - status: "OK"
+    name: "BossSkins_reaper"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=war20.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/W/war20.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/W/3/8/735808/war20.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/W/3/8/735808/war20.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: " WAR Full Mutator"
+  description: " Replaces UT stuff with WAR items."
+- name: "Suicide Vest"
+  description: " Allows people to die in a blaze of glory."
+- name: "JetPack Arena"
+  description: " Look ma I can fly."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

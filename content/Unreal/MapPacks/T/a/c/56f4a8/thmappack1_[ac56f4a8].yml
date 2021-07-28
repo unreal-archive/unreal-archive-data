@@ -1,0 +1,112 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 09:37"
+game: "Unreal"
+name: "Thmappack1"
+author: "Tentacle-HunteR"
+description: "None"
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "thmappack1.7z"
+hash: "ac56f4a897425f17183f2c92c9872e5dbf6eca94"
+fileSize: 2280890
+files:
+- name: "THfunhouse.unr"
+  fileSize: 1888110
+  hash: "6c6eaef2934e8e101c8b6c4a0ad845bc4b64306f"
+- name: "BeamOut.unr"
+  fileSize: 383234
+  hash: "05c4ac23e3fe979b9bad8c1d32fdb809961beb46"
+- name: "theswamp.unr"
+  fileSize: 1561038
+  hash: "8996455758a28d71c12589d9eb4fde44a21f9be8"
+- name: "THmaptex.utx"
+  fileSize: 260158
+  hash: "31622d6ee437b18b2e683412ac7d8b731a1816c2"
+- name: "Cregor.unr"
+  fileSize: 1722001
+  hash: "c6fbd9244b353ceba69358e64efc2772a34593af"
+- name: "cregorpass.unr"
+  fileSize: 1173685
+  hash: "d85de55832512922903b6946bcff2321054299ad"
+- name: "THmapPak.u"
+  fileSize: 222697
+  hash: "89a5d5c2a80268cdb65d4862d046f055c691193d"
+- name: "Sunken.unr"
+  fileSize: 1499587
+  hash: "2dbe179b79bf58220ae668144963be1dcaad26a9"
+otherFiles: 1
+dependencies:
+  BeamOut.unr:
+  - status: "OK"
+    name: "THmaptex"
+  cregorpass.unr:
+  - status: "OK"
+    name: "THmaptex"
+  - status: "MISSING"
+    name: "Predator"
+  theswamp.unr:
+  - status: "MISSING"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmaptex"
+  Sunken.unr:
+  - status: "OK"
+    name: "THmaptex"
+  - status: "OK"
+    name: "THmapPak"
+  THfunhouse.unr:
+  - status: "MISSING"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmaptex"
+  - status: "OK"
+    name: "THmapPak"
+  Cregor.unr:
+  - status: "MISSING"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmapPak"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/hyper/thmappack1.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/T/a/c/56f4a8/thmappack1.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/T/a/c/56f4a8/thmappack1.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/T/a/c/56f4a8/thmappack1.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "theswamp"
+  title: "Woody Bog"
+  author: "Tentacle-HunteR"
+- name: "Sunken"
+  title: "Shipwreck Lagoon"
+  author: "Tentacle-HunteR"
+- name: "THfunhouse"
+  title: "T-H's Fun House"
+  author: "Tentacle-HunteR"
+- name: "Cregor"
+  title: "Cavern of Cregor, Lava Lord"
+  author: "Tentacle-HunteR"
+- name: "cregorpass"
+  title: "Cregor Mt. Pass"
+  author: "Tentacle-HunteR"
+- name: "BeamOut"
+  title: "The Escape"
+  author: "Tentacle-HunteR"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Natural: 0.4
+  Nali Castle: 0.3

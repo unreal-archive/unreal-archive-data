@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 08:12"
+game: "Unreal Tournament 2004"
+name: "CTF-Drunklet"
+author: "Drunk|tbuk"
+description: "A Gauntlet tribute, only better.  Modelled by drunk from The Breed UK."
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Drunklet_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/CTF-Drunklet_shot_1.png"
+originalFilename: "ctf-drunklet.zip"
+hash: "4e10da9d73b85fd1138fd00ff2478ce0fcf2f490"
+fileSize: 2329577
+files:
+- name: "CTF-Drunklet.ut2"
+  fileSize: 2280878
+  hash: "04d6de9321fafb6b199339b5cebe5799f51e0a43"
+- name: "tbuktextures.utx"
+  fileSize: 2928295
+  hash: "78bd0307b4c276e374026cd970bdd91f317df1e1"
+- name: "tbukmeshes.usx"
+  fileSize: 1846223
+  hash: "0d126059eb4b4acbc62d27f7d68a5d6129fdaafd"
+otherFiles: 1
+dependencies:
+  CTF-Drunklet.ut2:
+  - status: "OK"
+    name: "tbuktextures"
+  - status: "OK"
+    name: "tbukmeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/ctf-drunklet.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamebanana.com/maps/download/18635"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/4/e/10da9d/ctf-drunklet.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/4/e/10da9d/ctf-drunklet.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Drunklet"
+playerCount: "8"
+themes:
+  Tech: 1.0
+bots: true

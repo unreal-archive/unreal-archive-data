@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:32"
+game: "Unreal Tournament"
+name: "DM-PUN~1"
+author: "Dark Elf"
+description: "Prepare for Punishment..."
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-PUN~1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PUN~1_shot_1.png"
+originalFilename: "dm-punisher.zip"
+hash: "35c73d70a2484aee9c97043b2dc12b407f94d50a"
+fileSize: 2318243
+files:
+- name: "DM-PUN~1.UNR"
+  fileSize: 2063302
+  hash: "8be5e8d6ae404053156ba44601e8652dfae4a17f"
+- name: "PUNISH.UTX"
+  fileSize: 266312
+  hash: "af23a70e6aba78b5e9aaf7583b71d1bc515ee55c"
+- name: "STARSEEK.UMX"
+  fileSize: 1788340
+  hash: "7ea7443dfcc1c6010508858de59721186f5f3bd8"
+otherFiles: 1
+dependencies:
+  DM-PUN~1.UNR:
+  - status: "OK"
+    name: "punish"
+  - status: "OK"
+    name: "Starseek"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-punisher.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dm-punisher.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-punisher.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsP/dm-punisher.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/3/5/c73d70/dm-punisher.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/3/5/c73d70/dm-punisher.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Punisher"
+playerCount: "2-10"
+themes:
+  Egyptian: 1.0
+bots: true

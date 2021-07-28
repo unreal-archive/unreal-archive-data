@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:10"
+game: "Unreal Tournament"
+name: "SFTDM-KillingFields"
+author: "Grady"
+description: "None"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "SFTDM-KillingFields_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/S/SFTDM-KillingFields_shot_1.png"
+originalFilename: "sftdm-killingfields.zip"
+hash: "4ecea62929d9a05d3d315aa5996d88816f1876ea"
+fileSize: 4124536
+files:
+- name: "_gr1.utx"
+  fileSize: 952197
+  hash: "7c7933ed8d6438f4c377e527e7aac8e06ba25174"
+- name: "mil1.uax"
+  fileSize: 676369
+  hash: "fe28fa776f42fa16a88ec20c6d58587811e646b0"
+- name: "SFTDM-KillingFields.unr"
+  fileSize: 1757181
+  hash: "e1041a380e42a11e7d60a2c2c55798b118f4cc17"
+- name: "ABTEX.utx"
+  fileSize: 310023
+  hash: "6ed0bee3e92b3e06f8d84a5cb748f22339029b2f"
+- name: "Indus5.utx"
+  fileSize: 3210994
+  hash: "6f701f378df841e8d21f66cd6c66789d9fec0904"
+otherFiles: 1
+dependencies:
+  SFTDM-KillingFields.unr:
+  - status: "OK"
+    name: "_gr1"
+  - status: "MISSING"
+    name: "sf_desert3"
+  - status: "MISSING"
+    name: "sf_tree1"
+  - status: "OK"
+    name: "mil1"
+  - status: "MISSING"
+    name: "SF"
+  - status: "OK"
+    name: "ABTEX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/sftdm-killingfields.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/StrikeForce/&file=sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/StrikeForce&file=sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Misc/sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/StrikeForce/sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Strike%20Force/T/4/e/cea629/sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Strike%20Force/T/4/e/cea629/sftdm-killingfields.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Strike Force"
+title: "KillingFields"
+playerCount: "8-10"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.3
+  Nali Castle: 0.3
+  Skaarj Tech: 0.2
+bots: true

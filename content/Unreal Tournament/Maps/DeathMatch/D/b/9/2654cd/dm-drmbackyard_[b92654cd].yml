@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:28"
+game: "Unreal Tournament"
+name: "DM-DRMBackyard"
+author: "Dremoan"
+description: "None"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-drmbackyard_shot_b92654cd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/b/9/2654cd/dm-drmbackyard_shot_b92654cd_1.png"
+originalFilename: "DM-DRMBackyard.zip"
+hash: "b92654cd6ddc30a761a6cf3e39fd9f84ba79ca1a"
+fileSize: 1164987
+files:
+- name: "DM-DRMBackyard.unr"
+  fileSize: 2203542
+  hash: "315725c558cc997cb10b9ac733e39e8a0c5fa19a"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 0
+dependencies:
+  DM-DRMBackyard.unr:
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-DRMBackyard.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/b/9/2654cd/DM-DRMBackyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/b/9/2654cd/DM-DRMBackyard.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DRMBackyard"
+playerCount: "6-8"
+themes:
+  Industrial: 0.8
+  Ancient: 0.1
+  Natural: 0.1
+bots: true

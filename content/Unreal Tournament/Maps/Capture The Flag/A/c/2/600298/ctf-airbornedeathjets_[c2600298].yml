@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-22 21:14"
+game: "Unreal Tournament"
+name: "CTF-=AirborneDeath=Jets"
+author: "Aaron Leitch (OmletteDuFromage=AD=)"
+description: "Clan =Airborne Death=  \"Fly Or Die!!\""
+releaseDate: "2016-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-=AirborneDeath=Jets_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-=AirborneDeath=Jets_shot_1.png"
+originalFilename: "CTF-=AirborneDeath=Jets_c2600298.rar"
+hash: "c260029849779fff62a1a93cb35d339afa9baa80"
+fileSize: 2647318
+files:
+- name: "CTF-=AirborneDeath=Jets.unr"
+  fileSize: 5090927
+  hash: "369ae3669ed097125ebe0d1551fab292cda263c4"
+- name: "BeachSand.utx"
+  fileSize: 181045
+  hash: "78af00645dbd2e729badc6b51c51d0019b8b982d"
+- name: "AirborneDeath.utx"
+  fileSize: 2343920
+  hash: "fd21c2a6547ca04e4f3a77561153fcfe010a486a"
+otherFiles: 1
+dependencies:
+  CTF-=AirborneDeath=Jets.unr:
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2"
+  - status: "OK"
+    name: "BeachSand"
+  - status: "OK"
+    name: "AirborneDeath"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-=AirborneDeath=Jets_c2600298.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/c/2/600298/CTF-=AirborneDeath=Jets_c2600298.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/c/2/600298/CTF-=AirborneDeath=Jets_c2600298.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Clan =Airborne Death= Jets"
+playerCount: "20"
+themes:
+  Tech: 0.3
+  Industrial: 0.1
+  City: 0.2
+  Natural: 0.3
+bots: true

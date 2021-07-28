@@ -1,0 +1,79 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 22:57"
+game: "Unreal Tournament"
+name: "DM Inf War"
+author: "Wizardsblade and DeathWarden"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "DM_Inf_War_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/DM_Inf_War_shot_1.png"
+- type: "IMAGE"
+  name: "DM_Inf_War_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/DM_Inf_War_shot_2.png"
+originalFilename: "DM-inf-war.zip"
+hash: "93f0a20acf87a4b94d271bd9fb8cde65f65cc1ac"
+fileSize: 2409531
+files:
+- name: "InfAdds.u"
+  fileSize: 555131
+  hash: "1be767d832720970d402a151e57b777a384e7f8c"
+- name: "War.utx"
+  fileSize: 207984
+  hash: "2a527bd849c78d19a2dac886052b404d25cfbd5d"
+- name: "DM-INF-War.unr"
+  fileSize: 1426279
+  hash: "f27cc3e3fd820e5904fee94bd8b94ae510d47a36"
+- name: "CTF-INF-War.unr"
+  fileSize: 1427497
+  hash: "2865a07274924179c75fbca8d9cb6221059a1422"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+otherFiles: 1
+dependencies:
+  DM-INF-War.unr:
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "War"
+  - status: "OK"
+    name: "InfAdds"
+  CTF-INF-War.unr:
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "War"
+  - status: "OK"
+    name: "InfAdds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/DM-inf-war.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/9/3/f0a20a/DM-inf-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/9/3/f0a20a/DM-inf-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-INF-War"
+  title: "INF-War"
+  author: "Wizardsblade and DeathWarden"
+- name: "CTF-INF-War"
+  title: "CTF-INF-War"
+  author: "Wizardsblade and DeathWarden"
+gametype: "Infiltration"
+themes:
+  Nali Temple: 0.9
+  City: 0.1

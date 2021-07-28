@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 17:47"
+game: "Unreal Tournament 2004"
+name: "DM-DeathAboard-beta-2"
+author: "(MwM)«JøñêZy»"
+description: "Stranded at sea, on a sinking boat, the contestants must do what they\
+  \ can to survive"
+releaseDate: "2004-09"
+attachments: []
+originalFilename: "Death_Aboard_6.0.zip"
+hash: "050c6b9b54e52f2090771a12ec3039055b098799"
+fileSize: 11635428
+files:
+- name: "HourDinoraTex.utx"
+  fileSize: 18741403
+  hash: "22ca7dbe0faa1ef3f7117a71a93dfaa4e86136e5"
+- name: "HourDinora.usx"
+  fileSize: 4056062
+  hash: "2d579af82f16c14cf290446669a2a155ffc4a81a"
+- name: "DM-DeathAboard-beta-2.ut2"
+  fileSize: 3081903
+  hash: "2f05d9a789aa596245bb125cb083fa30bf11cd1e"
+otherFiles: 1
+dependencies:
+  HourDinora.usx:
+  - status: "OK"
+    name: "HourDinoraTex"
+  DM-DeathAboard-beta-2.ut2:
+  - status: "OK"
+    name: "HourDinora"
+  - status: "OK"
+    name: "HourDinoraTex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7524"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/D/Death_Aboard_6.0.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/D/0/5/0c6b9b/Death_Aboard_6.0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/D/0/5/0c6b9b/Death_Aboard_6.0.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-DeathAboard-beta-2"
+playerCount: "12"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: false

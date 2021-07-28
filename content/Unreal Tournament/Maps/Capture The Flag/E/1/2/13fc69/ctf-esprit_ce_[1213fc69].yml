@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:21"
+game: "Unreal Tournament"
+name: "CTF-Esprit_CE"
+author: "John Paul 'Decker' Jones//Edited by |2Åmßõ*Ä§§*"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Esprit_CE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/CTF-Esprit_CE_shot_1.png"
+originalFilename: "ctf-esprit_ce.zip"
+hash: "1213fc697fef670a745e87b96faa122b08c44b67"
+fileSize: 786533
+files:
+- name: "CTF-Esprit_CE.unr"
+  fileSize: 2402606
+  hash: "3148cafe4418016cba69f4d2b413585fb8a63b92"
+- name: "EspritDeCorp.u"
+  fileSize: 8375
+  hash: "8b3d310a023f6bd93b8afe57b0b358ecfbf316f7"
+- name: "Esprit.utx"
+  fileSize: 90271
+  hash: "24da40d83fbfefa12d8e71b72db5b18922a0f442"
+otherFiles: 1
+dependencies:
+  CTF-Esprit_CE.unr:
+  - status: "OK"
+    name: "EspritDeCorp"
+  - status: "OK"
+    name: "Esprit"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/ctf-esprit_ce.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsE/&file=ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf_esprit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsE/ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/1/2/13fc69/ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/1/2/13fc69/ctf-esprit_ce.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Esprit_CE"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.1
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+bots: true

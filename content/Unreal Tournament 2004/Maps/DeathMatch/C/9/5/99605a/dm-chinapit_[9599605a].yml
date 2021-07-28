@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 18:41"
+game: "Unreal Tournament 2004"
+name: "DM-ChinaPit"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-ChinaPit_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-ChinaPit_shot_1.png"
+- type: "IMAGE"
+  name: "DM-ChinaPit_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-ChinaPit_shot_2.png"
+originalFilename: "dm-chinapit.zip"
+hash: "9599605a1f3d0a46280df26bd6fcee16225fb699"
+fileSize: 14043515
+files:
+- name: "Achinamesh.usx"
+  fileSize: 5140007
+  hash: "b8365468f3c6a6b5cc236251737ac8e24532a88d"
+- name: "DM-ChinaPit.ut2"
+  fileSize: 268840
+  hash: "7f4349277ebc288cb278192144de0387035edad1"
+- name: "chinatex.utx"
+  fileSize: 15179078
+  hash: "d1525f5708ad41f953bf88686a24b1463fff13c6"
+- name: "Chinasnds.uax"
+  fileSize: 515572
+  hash: "7078542f6065b80168a2c390ba9b17ec13e82b97"
+otherFiles: 2
+dependencies:
+  DM-ChinaPit.ut2:
+  - status: "OK"
+    name: "Chinasnds"
+  - status: "OK"
+    name: "chinatex"
+  - status: "OK"
+    name: "Achinamesh"
+  Achinamesh.usx:
+  - status: "OK"
+    name: "chinatex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4441"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/dm-chinapit.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/9/5/99605a/dm-chinapit.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/9/5/99605a/dm-chinapit.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ChinaPit"
+playerCount: "Unknown"
+themes: {}
+bots: false

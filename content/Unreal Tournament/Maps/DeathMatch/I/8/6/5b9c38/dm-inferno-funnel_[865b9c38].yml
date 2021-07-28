@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:01"
+game: "Unreal Tournament"
+name: "DM-INFERNO-FUNNEL"
+author: "-=Noda=-"
+description: "None"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-inferno-funnel_shot_865b9c38_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/8/6/5b9c38/dm-inferno-funnel_shot_865b9c38_1.png"
+originalFilename: "DM-INFERNO-FUNNEL.zip"
+hash: "865b9c383715abce9b1350e2267c09f349eabbe9"
+fileSize: 4419880
+files:
+- name: "TripleH.umx"
+  fileSize: 2233074
+  hash: "f8526e50a299b5cc11c73dfaf18369610249854c"
+- name: "DM-INFERNO-FUNNEL.unr"
+  fileSize: 3164360
+  hash: "d7ff3aa73d3d73a7d549096f2fd6fe29c76635ac"
+- name: "UTChaosMap.u"
+  fileSize: 1574716
+  hash: "18c7097cbbe405d4905e74974a9d424e70483bf1"
+- name: "ClusterRedeemer.u"
+  fileSize: 71126
+  hash: "c47150cabd1c564c331fecb6ea2f67244559c026"
+otherFiles: 0
+dependencies:
+  DM-INFERNO-FUNNEL.unr:
+  - status: "OK"
+    name: "ClusterRedeemer"
+  - status: "OK"
+    name: "TripleH"
+  - status: "OK"
+    name: "UTChaosMap"
+  UTChaosMap.u:
+  - status: "MISSING"
+    name: "ChaosSounds"
+  - status: "MISSING"
+    name: "Chaostex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-INFERNO-FUNNEL.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-INFERNO-FUNNEL.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/8/6/5b9c38/DM-INFERNO-FUNNEL.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/8/6/5b9c38/DM-INFERNO-FUNNEL.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "-=InfernoFunnel=-"
+playerCount: "6-16"
+themes:
+  Natural: 1.0
+bots: true

@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:12"
+game: "Unreal"
+name: "DM[SP]Breakfast"
+author: "John *Remixed by RUSH*"
+description: "Early one morning"
+releaseDate: "2008-09"
+attachments: []
+originalFilename: "DM[SP]Breakfast.zip"
+hash: "be12c843a3e6a511a445b893012e71d0dee26dbc"
+fileSize: 13524431
+files:
+- name: "brektex.utx"
+  fileSize: 2699469
+  hash: "9cbbbc2bf130580f9f079381cad1d1c9c36bc35b"
+- name: "SP_Hit.umx"
+  fileSize: 5074244
+  hash: "f333ce45885ad8b44914aab0160c2450ec728f6b"
+- name: "chaostex.utx"
+  fileSize: 20485021
+  hash: "4653c099c4f73ac86c0f5bc6eab05c08a022bc4f"
+- name: "DM[SP]Breakfast.unr"
+  fileSize: 4794624
+  hash: "b8f8f613826e94da98da9ae0e28576682d9e650c"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+otherFiles: 0
+dependencies:
+  DM[SP]Breakfast.unr:
+  - status: "OK"
+    name: "SP_Hit"
+  - status: "MISSING"
+    name: "Uzi"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "MISSING"
+    name: "BoomDarts"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "OK"
+    name: "brektex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DBreakfast.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/b/e/12c843/DM%255BSP%255DBreakfast.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/b/e/12c843/DM%255BSP%255DBreakfast.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Breakfast"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

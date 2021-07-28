@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:23"
+game: "Unreal Tournament"
+name: "DM-Gallery"
+author: "Chris Bartlett aka MrSpoon"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-Gallery_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-Gallery_shot_1.png"
+originalFilename: "dm-gallery.zip"
+hash: "064678de5bb3f77d5283f8f46ce51d5ef4dbc8d2"
+fileSize: 1001175
+files:
+- name: "DM-Gallery.unr"
+  fileSize: 2397479
+  hash: "cba4450ea0f1389eccfeec588ca8a52cc5516a90"
+- name: "arty.utx"
+  fileSize: 603287
+  hash: "fe75138b46f85b1d398570b167d6d0ddf71c2fe2"
+otherFiles: 1
+dependencies:
+  DM-Gallery.unr:
+  - status: "OK"
+    name: "arty"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/dm-gallery.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/DM-Gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/0/6/4678de/dm-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/0/6/4678de/dm-gallery.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Gallery"
+playerCount: "6-14"
+themes:
+  Ancient: 0.9
+  Egyptian: 0.1
+bots: true

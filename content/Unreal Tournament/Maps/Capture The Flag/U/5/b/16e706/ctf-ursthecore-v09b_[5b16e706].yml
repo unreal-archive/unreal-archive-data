@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:49"
+game: "Unreal Tournament"
+name: "CTF-(UrS)TheCore-v09b"
+author: "Patrick 'Sp0ngeb0b' Peltzer"
+description: "None"
+releaseDate: "2014-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-(UrS)TheCore-v09b_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-(UrS)TheCore-v09b_shot_1.png"
+originalFilename: "CTF-(UrS)TheCore-v09b.zip"
+hash: "5b16e70610c7548139d2c08a9f8fec1481a947c7"
+fileSize: 24387044
+files:
+- name: "ProgressCool.umx"
+  fileSize: 8517740
+  hash: "76fc89ec035ff1dcb8e0cad2ae24a07f02c21185"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-(UrS)TheCore-v09b.unr"
+  fileSize: 12489462
+  hash: "046ce0990aeab5cf9049fe41c0a8205617030fb8"
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+otherFiles: 1
+dependencies:
+  CTF-(UrS)TheCore-v09b.unr:
+  - status: "OK"
+    name: "UTtech4"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "ProgressCool"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%28UrS%29TheCore-v09b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-(UrS)TheCore-v09b.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/5/b/16e706/CTF-(UrS)TheCore-v09b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/5/b/16e706/CTF-(UrS)TheCore-v09b.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF: The Core Reactor"
+playerCount: "6-16"
+themes:
+  Tech: 0.4
+  Industrial: 0.6
+bots: true

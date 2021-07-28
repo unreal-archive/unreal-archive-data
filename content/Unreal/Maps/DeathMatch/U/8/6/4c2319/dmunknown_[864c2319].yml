@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:50"
+game: "Unreal"
+name: "DMUNKNOWN"
+author: "Myscha the sled dog"
+description: "None"
+releaseDate: "2004-01"
+attachments: []
+originalFilename: "DMUNKNOWN.zip"
+hash: "864c23199a31667c13ac81880bd38a07de10283f"
+fileSize: 160239
+files:
+- name: "TheBlob.u"
+  fileSize: 26865
+  hash: "59582943741844479a8fafaa6376a0caa3eed563"
+- name: "DMUNKNOWN.unr"
+  fileSize: 458107
+  hash: "7c1a5f6fc3c2414899413f0c6f1a80c5e5f112d5"
+- name: "alien.u"
+  fileSize: 26342
+  hash: "e62fa118f60e1e2c309f35c0ca54fcd14224f055"
+- name: "JehGrenade.u"
+  fileSize: 15885
+  hash: "030878b462537fee8c4bd1814d4ca1deffcae360"
+otherFiles: 3
+dependencies:
+  DMUNKNOWN.unr:
+  - status: "OK"
+    name: "theblob"
+  - status: "OK"
+    name: "alien"
+  - status: "OK"
+    name: "JehGrenade"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMUNKNOWN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/U/8/6/4c2319/DMUNKNOWN.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/U/8/6/4c2319/DMUNKNOWN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/U/8/6/4c2319/DMUNKNOWN.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMMorbias"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 1.0
+bots: true

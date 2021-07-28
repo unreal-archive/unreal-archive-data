@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:19"
+game: "Unreal Tournament"
+name: "DM-Obscure"
+author: "Nick 'Cornholeo' Heen"
+description: "None"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Obscure_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/O/DM-Obscure_shot_1.png"
+originalFilename: "dm-obscure.zip"
+hash: "1dfc73aecc0c5e8a617721f968e18fa769cb4826"
+fileSize: 6321746
+files:
+- name: "DM-Obscure.unr"
+  fileSize: 1106023
+  hash: "8154c8b44c8d863dd6c4e7f1aaa66a1f8f82fa24"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 1
+dependencies:
+  DM-Obscure.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-obscure.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/dm-obscure.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/O/1/d/fc73ae/dm-obscure.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/O/1/d/fc73ae/dm-obscure.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Obscure Reasons"
+playerCount: "4 - 10"
+themes:
+  Tech: 0.9
+bots: true

@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:38"
+game: "Unreal Tournament"
+name: "DM-CMC-MansionOfChaos"
+author: "papercoffee and gopostal"
+description: "\"Chaos displays its nature in many different ways.\" cit. paper van\
+  \ coffee"
+releaseDate: "2017-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-CMC-MansionOfChaos_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CMC-MansionOfChaos_shot_1.png"
+originalFilename: "DM-CMC-MansionOfChaos(1).7z"
+hash: "f3f0d3cedd81781193e12b1c66850afdbca6e6d7"
+fileSize: 11153629
+files:
+- name: "ReactiveDecos.u"
+  fileSize: 14515961
+  hash: "d0c3d300e3759cd859c03cf5ec5707ca11e9c948"
+- name: "MansionChaos.utx"
+  fileSize: 7356798
+  hash: "4e49187196884f520a9e178b9a88d92933f5e81a"
+- name: "DM-CMC-MansionOfChaos.unr"
+  fileSize: 1626538
+  hash: "1989dd62f13c125c0d34ba42a16801f290e21f2c"
+- name: "mind_dimension-LoopEdit.umx"
+  fileSize: 961501
+  hash: "d20e8b2f7b03664a3a99ee12c8995e78fcf85df9"
+otherFiles: 1
+dependencies:
+  DM-CMC-MansionOfChaos.unr:
+  - status: "OK"
+    name: "MansionChaos"
+  - status: "OK"
+    name: "ReactiveDecos"
+  - status: "OK"
+    name: "mind_dimension-LoopEdit"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CMC-MansionOfChaos%281%29.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CMC-MansionOfChaos(1).7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CMC-MansionOfChaos.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/f/3/f0d3ce/DM-CMC-MansionOfChaos(1).7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/f/3/f0d3ce/DM-CMC-MansionOfChaos(1).7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Mansion Of Chaos"
+playerCount: "1-6"
+themes:
+  Egyptian: 0.9
+  Nali Castle: 0.1
+bots: true

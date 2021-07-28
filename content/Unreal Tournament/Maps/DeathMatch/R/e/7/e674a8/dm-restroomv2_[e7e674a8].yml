@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 23:50"
+game: "Unreal Tournament"
+name: "DM-RestRoomV2"
+author: "Optimized for UT by Raven"
+description: "Welcome to the Rest Room"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-RestRoomV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-RestRoomV2_shot_1.png"
+originalFilename: "DM-RestRoomV2.zip"
+hash: "e7e674a8887685130d946f8cafdb5d9e3e7e8cb6"
+fileSize: 588443
+files:
+- name: "Restroom.utx"
+  fileSize: 354943
+  hash: "84efa95bee87f84856acbfbfe28c8b23793454f0"
+- name: "Restroom1.utx"
+  fileSize: 354943
+  hash: "67c62fa97b913e5d8a9116e0ad58308881c4939f"
+- name: "DM-RestRoomV2.unr"
+  fileSize: 1045279
+  hash: "88775138fcdff2f5747ea4a78124ab90d92c2aaa"
+otherFiles: 0
+dependencies:
+  DM-RestRoomV2.unr:
+  - status: "OK"
+    name: "Restroom"
+  - status: "MISSING"
+    name: "BRdmSE"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-RestRoomV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/DM-RestRoomV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-RestRoomV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-RestRoomV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/e/7/e674a8/DM-RestRoomV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/e/7/e674a8/DM-RestRoomV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dm-Rest RoomV2"
+playerCount: "8-16"
+themes:
+  Industrial: 0.2
+  Ancient: 0.6
+  Natural: 0.2
+bots: true

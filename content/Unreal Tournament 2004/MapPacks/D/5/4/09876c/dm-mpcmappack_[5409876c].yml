@@ -1,0 +1,104 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-05-11 20:53"
+game: "Unreal Tournament 2004"
+name: "Dm Mpcmappack"
+author: "Various"
+description: "None"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "Dm_Mpcmappack_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/Dm_Mpcmappack_shot_5.png"
+- type: "IMAGE"
+  name: "Dm_Mpcmappack_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/Dm_Mpcmappack_shot_6.png"
+- type: "IMAGE"
+  name: "Dm_Mpcmappack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/Dm_Mpcmappack_shot_1.png"
+- type: "IMAGE"
+  name: "Dm_Mpcmappack_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/Dm_Mpcmappack_shot_4.png"
+- type: "IMAGE"
+  name: "Dm_Mpcmappack_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/Dm_Mpcmappack_shot_3.png"
+- type: "IMAGE"
+  name: "Dm_Mpcmappack_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/D/Dm_Mpcmappack_shot_2.png"
+originalFilename: "dm-mpcmappack.zip"
+hash: "5409876c655cca03d7446e97f9923ddd12ff875b"
+fileSize: 21196498
+files:
+- name: "DM-MPC-SHROOM-ARENA.ut2"
+  fileSize: 6728126
+  hash: "98f2d14c2ace51b199cd257f606dc675b3c28409"
+- name: "DM-MPC-FRANKY_ARENA.ut2"
+  fileSize: 26287335
+  hash: "85fe28909838d6f6977dbf38c1ad751356d7a41a"
+- name: "DM-MPC-HELLS_ARENA.ut2"
+  fileSize: 3403549
+  hash: "99854a94e2dbf2fde4019147f97dd91258aa22af"
+- name: "DM-MPC-GALLERY-ARENA.ut2"
+  fileSize: 11743179
+  hash: "b5a839095af74ee5808056f5169320f84e859cf0"
+- name: "DM-MPC-UFO_ARENA.ut2"
+  fileSize: 5998854
+  hash: "4c44024e0d4d058d5f8ad0a4f51f13217424047c"
+- name: "DM-MPC-SKELETAL_ARENA.ut2"
+  fileSize: 5368245
+  hash: "3df23cb9095e4d031da544f8fdc304bc5312172c"
+- name: "MPCGOD.utx"
+  fileSize: 767615
+  hash: "2f889014a298e0226b4f0cbb0543a823f214039c"
+otherFiles: 3
+dependencies:
+  DM-MPC-HELLS_ARENA.ut2:
+  - status: "OK"
+    name: "MPCGOD"
+  MPCGOD.utx:
+  - status: "MISSING"
+    name: "NewWeapons2004"
+  - status: "MISSING"
+    name: "SniperAnims"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4752"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/D/dm-mpcmappack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/D/5/4/09876c/dm-mpcmappack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/D/5/4/09876c/dm-mpcmappack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-MPC-UFO_ARENA"
+  title: "MPC-UFO-ARENA"
+  author: "THE(X)FILES"
+- name: "DM-MPC-SKELETAL_ARENA"
+  title: "MPC-SKELETAL-ARENA"
+  author: "THE(X)FILES"
+- name: "DM-MPC-SHROOM-ARENA"
+  title: "SHROOM ARENA"
+  author: "THEXFILES"
+- name: "DM-MPC-GALLERY-ARENA"
+  title: "MPC-GALLERY-ARENA"
+  author: "THE(X)FILES"
+- name: "DM-MPC-FRANKY_ARENA"
+  title: "MPC-FRANKY-ARENA"
+  author: "THE(X)FILES"
+- name: "DM-MPC-HELLS_ARENA"
+  title: "MPC HELLS ARENA"
+  author: "THEXFILES"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+  Ancient: 0.1

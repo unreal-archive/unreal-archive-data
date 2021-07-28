@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 05:30"
+game: "Unreal Tournament"
+name: "BT+(CN)NineEleven-EZ"
+author: "[i4g]CouilleNoire"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "BT+(CN)NineEleven-EZ_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/C/BT%2B(CN)NineEleven-EZ_shot_1.png"
+originalFilename: "bt+(cn)nineeleven-ez.zip"
+hash: "08d65436bf5ce29e73c404694eaa7461ec03195e"
+fileSize: 10916120
+files:
+- name: "BT+(CN)NineEleven-EZ.unr"
+  fileSize: 6663393
+  hash: "dcac2205a6eeb501f17e65690596a775da46495b"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "JumpSound.uax"
+  fileSize: 37651
+  hash: "03b9fcebc290e48db95e91897dedb8c6226b989d"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+- name: "xrhsont.umx"
+  fileSize: 3090082
+  hash: "bd29ea1a1110f93973d3253f8000ea5ac1b07a6e"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+otherFiles: 0
+dependencies:
+  BT+(CN)NineEleven-EZ.unr:
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "xrhsont"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "JumpSound"
+  Jump.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt%2B%28cn%29nineeleven-ez.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/C/bt%2B(cn)nineeleven-ez.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt%2B%28cn%29nineeleven-ez.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt%2B%28cn%29nineeleven-ez.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/C/0/8/d65436/bt%252B(cn)nineeleven-ez.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/C/0/8/d65436/bt%252B(cn)nineeleven-ez.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT+(CN)NineEleven (EZ Version)"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Ancient: 0.1
+  City: 0.6
+  Skaarj Tech: 0.2
+bots: false

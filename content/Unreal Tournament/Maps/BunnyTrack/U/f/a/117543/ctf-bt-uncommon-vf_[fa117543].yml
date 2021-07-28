@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 19:44"
+game: "Unreal Tournament"
+name: "CTF-BT-UnCommon-vF"
+author: "ShadowMan"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-UnCommon-vF_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/U/CTF-BT-UnCommon-vF_shot_1.png"
+originalFilename: "CTF-BT-UnCommon-vF.zip"
+hash: "fa117543af940231ad397fd3cc87ced528e00575"
+fileSize: 40145229
+files:
+- name: "CTF-BT-UnCommon-vF.unr"
+  fileSize: 17148214
+  hash: "b22ce45a3d3124deb81d45e5d55740d46d27daef"
+- name: "UnCommonSM.umx"
+  fileSize: 1191045
+  hash: "e9c9e160e8c23b68d8e3c7d70cd65cbd952f6963"
+- name: "UnCommon.uax"
+  fileSize: 37699187
+  hash: "ad91131ad447cbfa288ca78e941f6ccbab4e3b0f"
+- name: "UnComm_sm.utx"
+  fileSize: 2238966
+  hash: "d1cae5386fdf25d80c61ca7f30d7abe1ae8b4f88"
+- name: "UncommonTorch.u"
+  fileSize: 5751
+  hash: "f96448c217983c9769bbe13fd0d009dec7d6cf26"
+otherFiles: 1
+dependencies:
+  CTF-BT-UnCommon-vF.unr:
+  - status: "OK"
+    name: "UncommonTorch"
+  - status: "OK"
+    name: "UnCommonSM"
+  - status: "OK"
+    name: "UnComm_sm"
+  - status: "OK"
+    name: "UnCommon"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7585"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/U/f/a/117543/CTF-BT-UnCommon-vF.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/U/f/a/117543/CTF-BT-UnCommon-vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/U/f/a/117543/CTF-BT-UnCommon-vF.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-UnCommon"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.1
+  Ancient: 0.3
+  Skaarj Tech: 0.3
+  Nali Castle: 0.3
+bots: false

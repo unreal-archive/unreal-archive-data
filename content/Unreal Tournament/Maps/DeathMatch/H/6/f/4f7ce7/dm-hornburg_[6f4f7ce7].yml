@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:16"
+game: "Unreal Tournament"
+name: "DM-HornBurg"
+author: "Fate"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-HornBurg_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HornBurg_shot_4.png"
+- type: "IMAGE"
+  name: "DM-HornBurg_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HornBurg_shot_3.png"
+- type: "IMAGE"
+  name: "DM-HornBurg_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HornBurg_shot_5.png"
+- type: "IMAGE"
+  name: "DM-HornBurg_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HornBurg_shot_2.png"
+- type: "IMAGE"
+  name: "DM-HornBurg_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HornBurg_shot_1.png"
+originalFilename: "dm-hornburg.zip"
+hash: "6f4f7ce7f6ee257bed14eb8771d29de48fc786ac"
+fileSize: 5281245
+files:
+- name: "chicoruinspack.utx"
+  fileSize: 3151438
+  hash: "ede065a0fc344030c307ca0f6a72efe890aff175"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "Rust.umx"
+  fileSize: 3200303
+  hash: "d93d1909df8703c4bb48380b4c5b09a847a387b5"
+- name: "DM-HornBurg.unr"
+  fileSize: 1147038
+  hash: "b7a1713af2b4b5cbf35ce3f0bd43b95ccf983541"
+otherFiles: 5
+dependencies:
+  DM-HornBurg.unr:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "Rust"
+  chicoruinspack.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/dm-hornburg.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsH/&file=dm-hornburg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-hornburg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsH/dm-hornburg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4883"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/6/f/4f7ce7/dm-hornburg.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/6/f/4f7ce7/dm-hornburg.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "War in HornBurg"
+playerCount: "2-8"
+themes:
+  Ancient: 0.7
+  Natural: 0.3
+bots: true

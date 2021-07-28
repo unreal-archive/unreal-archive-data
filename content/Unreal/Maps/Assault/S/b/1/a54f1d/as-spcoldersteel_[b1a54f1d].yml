@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:41"
+game: "Unreal"
+name: "AS-[SP]ColderSteel"
+author: "Shock Systems"
+description: "None"
+releaseDate: "2010-03"
+attachments:
+- type: "IMAGE"
+  name: "as-spcoldersteel_shot_b1a54f1d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Assault/S/as-spcoldersteel_shot_b1a54f1d_1.png"
+originalFilename: "AS-[SP]ColderSteel.zip"
+hash: "b1a54f1d542aaba3a3ab45403e2e8f3aad9591a6"
+fileSize: 6378584
+files:
+- name: "AS-[SP]ColderSteel.unr"
+  fileSize: 12667792
+  hash: "218003ff09828addd8a787f9fe73022af157cf95"
+- name: "Colossus.umx"
+  fileSize: 1323781
+  hash: "1972164aef400a25b3c0db65c05527bb4ec0befb"
+otherFiles: 0
+dependencies:
+  AS-[SP]ColderSteel.unr:
+  - status: "MISSING"
+    name: "SP_Assault"
+  - status: "OK"
+    name: "Colossus"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Assault/S/AS-%5BSP%5DColderSteel.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Assault/S/b/1/a54f1d/AS-%255BSP%255DColderSteel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Assault/S/b/1/a54f1d/AS-%255BSP%255DColderSteel.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-[SP]Colder Steel"
+playerCount: "12 to 16"
+themes:
+  Tech: 0.7
+  Natural: 0.3
+bots: true

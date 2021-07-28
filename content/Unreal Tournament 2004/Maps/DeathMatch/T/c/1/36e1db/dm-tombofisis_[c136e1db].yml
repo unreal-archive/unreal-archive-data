@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 14:19"
+game: "Unreal Tournament 2004"
+name: "DM-TombOfIsis"
+author: "Shawn \"Darkhound\" Forney"
+description: "Once a forgotten relic, this tomb has been renovated by Liandri and\
+  \ once again stands ready to welcome the souls of the departed."
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-TombOfIsis_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-TombOfIsis_shot_2.png"
+- type: "IMAGE"
+  name: "DM-TombOfIsis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-TombOfIsis_shot_1.png"
+originalFilename: "dm-tombofisis.zip"
+hash: "c136e1dbb241d749774a4205fc2380749c908c60"
+fileSize: 900751
+files:
+- name: "DH-Egypt.usx"
+  fileSize: 180003
+  hash: "f12eb7778a0ff5a1ff205efad5ec8888594d6f4e"
+- name: "DM-TombOfIsis.ut2"
+  fileSize: 2647113
+  hash: "9cd0a4b5b0d122a9b76fde11bcf89e1be209ae51"
+otherFiles: 2
+dependencies:
+  DM-TombOfIsis.ut2:
+  - status: "OK"
+    name: "DH-Egypt"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2511"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/T/c/1/36e1db/dm-tombofisis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/T/c/1/36e1db/dm-tombofisis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/c/1/36e1db/dm-tombofisis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tomb of Isis"
+playerCount: "4-8"
+themes:
+  Egyptian: 1.0
+bots: true

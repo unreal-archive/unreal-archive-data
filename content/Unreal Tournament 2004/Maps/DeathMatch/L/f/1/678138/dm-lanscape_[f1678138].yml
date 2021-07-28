@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 16:01"
+game: "Unreal Tournament 2004"
+name: "DM-LanScape"
+author: "Whole Lotta Holes"
+description: "None"
+releaseDate: "2006-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-LanScape_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LanScape_shot_2.png"
+- type: "IMAGE"
+  name: "DM-LanScape_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LanScape_shot_1.png"
+- type: "IMAGE"
+  name: "DM-LanScape_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LanScape_shot_3.png"
+originalFilename: "dm-lanscape.zip"
+hash: "f1678138ddc20a58a0f5b31100f78f4142e53fc9"
+fileSize: 17822827
+files:
+- name: "Lanscapetex.utx"
+  fileSize: 8986908
+  hash: "17c7185410643cc86fb9c2a5414afb76eef1e103"
+- name: "Lanscapemeshes.usx"
+  fileSize: 52006
+  hash: "ade6962c90dbcf9e9fc4a7153bf8ee79970e826e"
+- name: "DM-LanScape.ut2"
+  fileSize: 48508342
+  hash: "8da2d156526e2417cf9ef24cd799467de302c979"
+otherFiles: 4
+dependencies:
+  Lanscapemeshes.usx:
+  - status: "OK"
+    name: "Lanscapetex"
+  DM-LanScape.ut2:
+  - status: "OK"
+    name: "Lanscapemeshes"
+  - status: "OK"
+    name: "Lanscapetex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/dm-lanscape.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-lanscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/L/f/1/678138/dm-lanscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/f/1/678138/dm-lanscape.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Lanscape"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: true

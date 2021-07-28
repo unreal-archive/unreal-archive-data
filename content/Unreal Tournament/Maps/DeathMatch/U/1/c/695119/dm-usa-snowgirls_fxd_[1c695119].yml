@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 03:18"
+game: "Unreal Tournament"
+name: "DM-uSa-Snowgirls_fxd"
+author: "Salty Dog"
+description: "For my friends @ [uSa]"
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-uSa-Snowgirls_fxd_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-uSa-Snowgirls_fxd_shot_1.png"
+originalFilename: "DM-uSa-Snowgirls_fxd.zip"
+hash: "1c695119a45eda06ae4080c8cd1f980d8d0899e2"
+fileSize: 6473132
+files:
+- name: "SnowGirlstex.utx"
+  fileSize: 2962283
+  hash: "d8c1f757e8e58aceae77b3964b6f5cd40a04a794"
+- name: "DM-uSa-Snowgirls_fxd.unr"
+  fileSize: 1193045
+  hash: "c293867034ee61cbc44962c9194e1f60d87a037a"
+- name: "SnowGirlsfx.uax"
+  fileSize: 7697953
+  hash: "b1f1111b75ef0df6b84aa779e6c105955efbe4b3"
+- name: "SnowGirlPak.u"
+  fileSize: 124316
+  hash: "cc6445ce0e74c0d92ef51ed8f3684c7fda923caa"
+otherFiles: 0
+dependencies:
+  DM-uSa-Snowgirls_fxd.unr:
+  - status: "OK"
+    name: "SnowGirlstex"
+  - status: "OK"
+    name: "SnowGirlsfx"
+  - status: "OK"
+    name: "SnowGirlPak"
+  SnowGirlPak.u:
+  - status: "OK"
+    name: "SnowGirlstex"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-uSa-Snowgirls_fxd.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-uSa-Snowgirls_fxd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/1/c/695119/DM-uSa-Snowgirls_fxd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/1/c/695119/DM-uSa-Snowgirls_fxd.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Merry Christmas [uSa]"
+playerCount: "24"
+themes: {}
+bots: true

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:05"
+game: "Unreal Tournament"
+name: "TO-RapidWatersNightAssault-Final"
+author: "Stretchnuts Rush:FBR Original:Flux"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "TO-RapidWatersNightAssault-Final_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/R/TO-RapidWatersNightAssault-Final_shot_1.png"
+originalFilename: "TO-RapidWatersNightAssault.zip"
+hash: "eb97f57b0feb1cd8e0a3fa373748750481069c13"
+fileSize: 636062
+files:
+- name: "rwna.utx"
+  fileSize: 200716
+  hash: "1270c98d623fb7a89cfc2913188c0f30e4eb5276"
+- name: "TO-RapidWatersNightAssault-Final.unr"
+  fileSize: 2026821
+  hash: "dc1b261e6a61d9b2ac5c5dcb9f11560387673ea2"
+otherFiles: 1
+dependencies:
+  TO-RapidWatersNightAssault-Final.unr:
+  - status: "OK"
+    name: "rwna"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-RapidWatersNightAssault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/R/TO-RapidWatersNightAssault.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-rwna.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-RapidWatersNightAssault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-rwna.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/R/e/b/97f57b/TO-RapidWatersNightAssault.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/R/e/b/97f57b/TO-RapidWatersNightAssault.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Rapid Waters Night Assault"
+playerCount: "8-10"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.2
+bots: true

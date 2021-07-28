@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 03:01"
+game: "Unreal Tournament 2004"
+name: "VCTF-LS_Spookyville-SE"
+author: "Simeon \"Lord Simeon\" Spargo"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-LS_Spookyville-SE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/L/VCTF-LS_Spookyville-SE_shot_1.png"
+- type: "IMAGE"
+  name: "VCTF-LS_Spookyville-SE_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/L/VCTF-LS_Spookyville-SE_shot_2.png"
+originalFilename: "o3ap_vctf-ls_spookyville-se.zip"
+hash: "c70f3d3bf6836aca43f0822b545daeff17bace4a"
+fileSize: 6268908
+files:
+- name: "JackMeshes.usx"
+  fileSize: 154348
+  hash: "41de3f0b9c8b504d899c98964b76cdf3dc49db2e"
+- name: "Jack.u"
+  fileSize: 6119
+  hash: "9d88298e877b511ca93e5457edd7f477d891274d"
+- name: "ThrillerMJ.ogg"
+  fileSize: 3367256
+  hash: "f7443a643eca81cefe7cc7f4766915caf8eec8cf"
+- name: "JackSkins.utx"
+  fileSize: 350128
+  hash: "7705b2beae36e68f4f5ca506919c4252bf7bc0e2"
+- name: "VCTF-LS_Spookyville-SE.ut2"
+  fileSize: 6018012
+  hash: "69de4ff3625f655a97ffbbba705500ed9b5c43da"
+otherFiles: 4
+dependencies:
+  JackMeshes.usx:
+  - status: "OK"
+    name: "JackSkins"
+  VCTF-LS_Spookyville-SE.ut2:
+  - status: "OK"
+    name: "JackMeshes"
+  - status: "OK"
+    name: "JackSkins"
+  Jack.u:
+  - status: "OK"
+    name: "JackMeshes"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/VCTF/&file=o3ap_vctf-ls_spookyville-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/L/o3ap_vctf-ls_spookyville-se.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3714"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/L/c/7/0f3d3b/o3ap_vctf-ls_spookyville-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/L/c/7/0f3d3b/o3ap_vctf-ls_spookyville-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-LS_Spookyville-SE"
+playerCount: "10-20"
+themes: {}
+bots: true

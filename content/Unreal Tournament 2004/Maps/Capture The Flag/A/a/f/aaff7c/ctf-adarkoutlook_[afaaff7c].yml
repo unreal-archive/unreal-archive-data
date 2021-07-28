@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 19:55"
+game: "Unreal Tournament 2004"
+name: "CTF-ADarkOutlook"
+author: "{SPF}ZYX2323"
+description: "LookOut By ZYX2323"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-ADarkOutlook_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/CTF-ADarkOutlook_shot_1.png"
+originalFilename: "ctf-adarkoutlook.zip"
+hash: "afaaff7c7db900452fbd918c7de38db186679434"
+fileSize: 4707398
+files:
+- name: "CTF-ADarkOutlook.ut2"
+  fileSize: 4740523
+  hash: "ac6ebffe99b46b72b6dc8efcad2bca7a550183d4"
+- name: "ZYX2323.utx"
+  fileSize: 10429014
+  hash: "f912cece36c91f1a2e677f45c67635287f597263"
+- name: "ZYX2323OUT.usx"
+  fileSize: 1215319
+  hash: "665e306425f6260036e6915429270d7d0983542c"
+otherFiles: 2
+dependencies:
+  ZYX2323OUT.usx:
+  - status: "OK"
+    name: "ZYX2323"
+  CTF-ADarkOutlook.ut2:
+  - status: "OK"
+    name: "ZYX2323"
+  - status: "OK"
+    name: "ZYX2323OUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-adarkoutlook.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/a/f/aaff7c/ctf-adarkoutlook.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/a/f/aaff7c/ctf-adarkoutlook.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "A Dark Outlook"
+playerCount: "16"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: true

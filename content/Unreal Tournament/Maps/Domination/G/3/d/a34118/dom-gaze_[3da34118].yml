@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 23:04"
+game: "Unreal Tournament"
+name: "DOM-Gaze"
+author: "Johan 'IceCat' Samuelsson"
+description: "None"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "DOM-Gaze_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/G/DOM-Gaze_shot_1.png"
+- type: "IMAGE"
+  name: "DOM-Gaze_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/G/DOM-Gaze_shot_2.png"
+originalFilename: "dom-gaze.zip"
+hash: "3da341187f5fb354e4effd983b6f3d6a78e88232"
+fileSize: 728242
+files:
+- name: "OUTRUN2K.umx"
+  fileSize: 468098
+  hash: "b415ed69c107c0fc3d70adde54d4cd2c633ee690"
+- name: "DOM-Gaze.unr"
+  fileSize: 1201083
+  hash: "e434a97b9147ad0acdb1d308ef84a63803452f7b"
+otherFiles: 2
+dependencies:
+  DOM-Gaze.unr:
+  - status: "OK"
+    name: "OUTRUN2K"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=387"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/G/dom-gaze.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/G/3/d/a34118/dom-gaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/G/3/d/a34118/dom-gaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "The Mysterious Gaze"
+playerCount: "4 or 6"
+themes:
+  Nali Temple: 0.5
+  Industrial: 0.4
+  Skaarj Tech: 0.1
+bots: true

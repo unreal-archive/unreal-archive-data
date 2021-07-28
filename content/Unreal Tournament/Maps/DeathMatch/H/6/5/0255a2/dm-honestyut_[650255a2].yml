@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:16"
+game: "Unreal Tournament"
+name: "DM-HonestyUT"
+author: "Francois Lacombe, aka Orion(Co30)"
+description: "Agonizer, eat your heart out :-)"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-HonestyUT_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HonestyUT_shot_1.png"
+originalFilename: "dm-honesty.zip"
+hash: "650255a214791671bf75367c98994b26bbd871bf"
+fileSize: 1119322
+files:
+- name: "HonLight.u"
+  fileSize: 5086
+  hash: "6aebb226e99e648487f4efff4498acf9a71883e0"
+- name: "DM-HonestyUT.unr"
+  fileSize: 3613929
+  hash: "a32befca80938e1d62db02e6df4774f143c06f1c"
+otherFiles: 1
+dependencies:
+  DM-HonestyUT.unr:
+  - status: "OK"
+    name: "HonLight"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/dm-honesty.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsH/&file=dm-honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsH/dm-honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/6/5/0255a2/dm-honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/6/5/0255a2/dm-honesty.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Honesty"
+playerCount: "Better with over eight"
+themes:
+  Ancient: 0.1
+  Skaarj Tech: 0.9
+bots: true

@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 17:55"
+game: "Unreal Tournament"
+name: "CTF-'FTB-Mole"
+author: "Chad \"GreyTiger\" Barnett"
+description: "None"
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-'FTB-Mole_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-'FTB-Mole_shot_1.png"
+originalFilename: "CTF-'FTB-Mole.zip"
+hash: "7b7fb347b447d910bff74c0876804e1a1658e622"
+fileSize: 1746574
+files:
+- name: "airport.utx"
+  fileSize: 2480859
+  hash: "c07dab47ab3e5bb86389865ff47d1267676b6b61"
+- name: "candyland.utx"
+  fileSize: 784164
+  hash: "c2e351f4ffdf05f2837ef975e25fbe4574433612"
+- name: "FTBEgyptLogos.utx"
+  fileSize: 311101
+  hash: "6bd6c85e96a4bdeb5d062ae8a72c0bb1c915e277"
+- name: "CTF-'FTB-Mole.unr"
+  fileSize: 1524498
+  hash: "d43435cde90d2f01a1bccd41724094c1a65a9455"
+- name: "Colours.utx"
+  fileSize: 796313
+  hash: "6203307e8f86d662e1f6445379d939bb6b8480b1"
+otherFiles: 0
+dependencies:
+  CTF-'FTB-Mole.unr:
+  - status: "OK"
+    name: "FTBEgyptLogos"
+  - status: "OK"
+    name: "candyland"
+  - status: "OK"
+    name: "airport"
+  - status: "OK"
+    name: "Colours"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=CTF-%27FTB-Mole.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-'FTB-Mole.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%27FTB-Mole.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/7/b/7fb347/CTF-'FTB-Mole.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/7/b/7fb347/CTF-'FTB-Mole.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-KillerCrush"
+playerCount: "4-8 Players"
+themes:
+  Industrial: 0.9
+bots: true

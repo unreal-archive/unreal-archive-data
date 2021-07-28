@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:05"
+game: "Unreal Tournament"
+name: "CTF-(jBi)Lunar-Station"
+author: "{jBi}LexiconDevil"
+description: "None"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-(jBi)Lunar-Station_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/CTF-(jBi)Lunar-Station_shot_1.png"
+originalFilename: "ctf-(jbi)lunar-station.zip"
+hash: "b71f45e9f88720a8ce11ef1b74d42e29b7bcd4ae"
+fileSize: 6350561
+files:
+- name: "CTF-(jBi)Lunar-Station.unr"
+  fileSize: 1293898
+  hash: "f6b1a053bc71ba6d2fceab479e1046dc0a266cd6"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+otherFiles: 1
+dependencies:
+  CTF-(jBi)Lunar-Station.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%28jbi%29lunar-station.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/ctf-(jbi)lunar-station.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/b/7/1f45e9/ctf-(jbi)lunar-station.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/b/7/1f45e9/ctf-(jbi)lunar-station.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "LunarStation"
+playerCount: "4-10"
+themes:
+  Tech: 0.9
+bots: true

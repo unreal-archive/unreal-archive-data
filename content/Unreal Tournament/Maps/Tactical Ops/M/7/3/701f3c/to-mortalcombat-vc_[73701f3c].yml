@@ -1,0 +1,101 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:59"
+game: "Unreal Tournament"
+name: "TO-MortalCombat-vc"
+author: "Map ByTopSecretMPK"
+description: "Play The Best Die Like The Rest"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "TO-MortalCombat-vc_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/M/TO-MortalCombat-vc_shot_1.png"
+originalFilename: "TO-MortalCombat-v1.zip"
+hash: "73701f3ce020ba7b27b0242fd6b81a1eace75ad3"
+fileSize: 7944613
+files:
+- name: "NGMT1.utx"
+  fileSize: 3557213
+  hash: "f391b904f701afdc0259f928cf3b2ca7d97b2185"
+- name: "Babylon.umx"
+  fileSize: 269168
+  hash: "2072e8686fbe0820fef9bc6d6566a7dca7d2550c"
+- name: "TO-MortalCombat-vc.unr"
+  fileSize: 15438171
+  hash: "72c9c416ebb1baa253603d707f91dd4a3c1ad46a"
+- name: "D_kombat.umx"
+  fileSize: 438866
+  hash: "9446660dca7ebb5715a095b13059d5db009d55a9"
+- name: "A.umx"
+  fileSize: 1166656
+  hash: "2467abb6d978ecec6e59295ddb8274d4e4dca32c"
+- name: "A94final.umx"
+  fileSize: 349708
+  hash: "4570febe553e4c9be9cebb2fe8f78a8c4477a126"
+otherFiles: 3
+dependencies:
+  NGMT1.utx:
+  - status: "MISSING"
+    name: "TODatas"
+  TO-MortalCombat-vc.unr:
+  - status: "OK"
+    name: "A"
+  - status: "MISSING"
+    name: "TODatas"
+  - status: "MISSING"
+    name: "terrorist3tex"
+  - status: "OK"
+    name: "A94final"
+  - status: "MISSING"
+    name: "TO-Neuro1"
+  - status: "OK"
+    name: "D_kombat"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "Verdon"
+  - status: "OK"
+    name: "Babylon"
+  - status: "MISSING"
+    name: "TODecos"
+  - status: "MISSING"
+    name: "TO-Rig2"
+  - status: "MISSING"
+    name: "CargoShip"
+  - status: "MISSING"
+    name: "TO-(c)-text-1"
+  - status: "MISSING"
+    name: "RKLphoto1"
+  - status: "MISSING"
+    name: "s_SWAT"
+  - status: "OK"
+    name: "NGMT1"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-MortalCombat-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/M/TO-MortalCombat-v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-MortalCombat-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/M/7/3/701f3c/TO-MortalCombat-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/M/7/3/701f3c/TO-MortalCombat-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Mortal Combat Map1"
+playerCount: "32"
+themes:
+  Tech: 0.1
+  Indistrial: 0.9
+bots: false

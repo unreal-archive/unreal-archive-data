@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:54"
+game: "Unreal"
+name: "DM-INF[SP]Caqueta"
+author: "-reaper-"
+description: "None"
+releaseDate: "2010-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-infspcaqueta_shot_972073e5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/I/dm-infspcaqueta_shot_972073e5_1.png"
+originalFilename: "DM-INF[SP]Caqueta.zip"
+hash: "972073e50088c839c7fcb3043099a02ac681eaa9"
+fileSize: 7552829
+files:
+- name: "DM-INF[SP]Caqueta.unr"
+  fileSize: 7530699
+  hash: "2ae3325c5d568db8000692ed136efb669b05c55d"
+- name: "Animal_Pack1.u"
+  fileSize: 2192402
+  hash: "08067207103da3bef9656aa1ffafd23a105632d2"
+- name: "atoll.uax"
+  fileSize: 4345674
+  hash: "6073c3e5434f113df80f4a8954b039fd17c3773f"
+otherFiles: 0
+dependencies:
+  DM-INF[SP]Caqueta.unr:
+  - status: "OK"
+    name: "atoll"
+  - status: "OK"
+    name: "Animal_Pack1"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/I/DM-INF%5BSP%5DCaqueta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/I/9/7/2073e5/DM-INF%255BSP%255DCaqueta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/I/9/7/2073e5/DM-INF%255BSP%255DCaqueta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-INF[SP]Caqueta"
+playerCount: "10-14"
+themes:
+  Natural: 1.0
+bots: true

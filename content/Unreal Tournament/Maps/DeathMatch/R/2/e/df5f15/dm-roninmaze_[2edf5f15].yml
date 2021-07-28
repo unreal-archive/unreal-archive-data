@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:35"
+game: "Unreal Tournament"
+name: "DM-RoninMaze"
+author: "Mitchell \"-1337ster-\" LeBlanc"
+description: "Enter The RoninMaze: Where more lives have fallen than any other arena\
+  \ elsewhere on the planet."
+releaseDate: "1999-12"
+attachments: []
+originalFilename: "DM-RoninMaze RC1.zip"
+hash: "2edf5f15c39c0de68e7638f985e8380ad1a9ccad"
+fileSize: 86010
+files:
+- name: "DM-RoninMaze.unr"
+  fileSize: 511865
+  hash: "bf4f2a3a9b1294e4f68dc87a5d59decca479cd83"
+- name: "RoninMaze.utx"
+  fileSize: 441607
+  hash: "288f07dd4825780096e6264de30481a704c3b489"
+otherFiles: 1
+dependencies:
+  DM-RoninMaze.unr:
+  - status: "OK"
+    name: "RoninMaze"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6977"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/DM-RoninMaze%20RC1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/2/e/df5f15/DM-RoninMaze%2520RC1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/2/e/df5f15/DM-RoninMaze%2520RC1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "RoninMaze RC1"
+playerCount: "2-12"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.2
+bots: true

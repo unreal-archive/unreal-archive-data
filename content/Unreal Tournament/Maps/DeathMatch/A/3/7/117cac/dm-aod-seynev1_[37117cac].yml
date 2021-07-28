@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 03:19"
+game: "Unreal Tournament"
+name: "DM-{AoD}-SeyneV1"
+author: "R@dius"
+description: "None"
+releaseDate: "2007-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-{AoD}-SeyneV1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-%7BAoD%7D-SeyneV1_shot_1.png"
+originalFilename: "DM-{AoD}-SeyneV1.zip"
+hash: "37117cac1b9406e3e5125720724968909f3290a1"
+fileSize: 7500328
+files:
+- name: "{AoD}Avatars.utx"
+  fileSize: 1862402
+  hash: "8a29dd166bb479bd99cd7ba0a7343a26e2148fae"
+- name: "{AoD}4.utx"
+  fileSize: 2590021
+  hash: "9e1726bc3e15bff92be881b2ffc5e4b213d601e4"
+- name: "city_cool.utx"
+  fileSize: 3422055
+  hash: "9f55bf0c8c5088b090dbdbcf8d8b0f1ab3484911"
+- name: "DM-{AoD}-SeyneV1.unr"
+  fileSize: 3692429
+  hash: "de67d1af8096003afc6a87245b2419897b3ba48c"
+- name: "{AoD}Textures.utx"
+  fileSize: 2303469
+  hash: "96fc822db666154dd978b702c0a370ca31c2b9ab"
+- name: "Phx-fstf.umx"
+  fileSize: 1020515
+  hash: "05a2df4c6f9bfdb08a31a765cf15a0f739be8cbc"
+otherFiles: 0
+dependencies:
+  DM-{AoD}-SeyneV1.unr:
+  - status: "OK"
+    name: "city_cool"
+  - status: "OK"
+    name: "{AoD}4"
+  - status: "OK"
+    name: "Phx-fstf"
+  - status: "OK"
+    name: "{AoD}Avatars"
+  - status: "OK"
+    name: "{AoD}Textures"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-%7BAoD%7D-SeyneV1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%7BAoD%7D-SeyneV1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/3/7/117cac/DM-%257BAoD%257D-SeyneV1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/3/7/117cac/DM-%257BAoD%257D-SeyneV1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[BBST]Seyne"
+playerCount: "8-15"
+themes:
+  Skaarj Tech: 1.0
+bots: false

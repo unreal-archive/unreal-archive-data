@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:55"
+game: "Unreal Tournament"
+name: "CTF-BT-SpaceBunniesLV"
+author: "[FEB]|[KaPLaN]  Fluffy Evil Bunnies #[FEB]"
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-SpaceBunniesLV_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SpaceBunniesLV_shot_1.png"
+originalFilename: "CTF-BT-SpaceBunniesLV.zip"
+hash: "3b41469274c978b55680c35f500e6852e30efe93"
+fileSize: 2910717
+files:
+- name: "CTF-BT-SpaceBunniesLV.unr"
+  fileSize: 5728654
+  hash: "c34d239735cf82cf4d482b8811cde9cbb731cf19"
+- name: "Hobbit.utx"
+  fileSize: 67001
+  hash: "871f61f1269ad04d577a40ed444e99c103dd4328"
+- name: "illness.utx"
+  fileSize: 3769602
+  hash: "2781ac8cdbb6ffc456578cfd12e256b9f9d6b6fa"
+otherFiles: 0
+dependencies:
+  CTF-BT-SpaceBunniesLV.unr:
+  - status: "OK"
+    name: "illness"
+  - status: "OK"
+    name: "Hobbit"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-SpaceBunniesLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-SpaceBunniesLV.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-SpaceBunniesLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/3/b/414692/CTF-BT-SpaceBunniesLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/3/b/414692/CTF-BT-SpaceBunniesLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Bunny Track: Space Bunnies - Ladder Version -"
+playerCount: "2-10"
+themes:
+  Skaarj Crypt: 0.1
+  Industrial: 0.6
+  Ancient: 0.3
+bots: false

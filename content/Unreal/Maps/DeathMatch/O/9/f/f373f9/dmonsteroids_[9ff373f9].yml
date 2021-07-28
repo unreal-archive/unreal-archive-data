@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:47"
+game: "Unreal"
+name: "DMOnsteroids"
+author: "michahman"
+description: "None"
+releaseDate: "2008-07"
+attachments: []
+originalFilename: "DMOnSteroids.zip"
+hash: "9ff373f914bae1b993256646c2d5c60eb45b0acc"
+fileSize: 11730207
+files:
+- name: "CompulsTex.utx"
+  fileSize: 4946973
+  hash: "21a73f3a5933dafc3a87f20ee44728e2eb8571da"
+- name: "DMOnsteroids.unr"
+  fileSize: 1943981
+  hash: "55d1e53e05f935f68e7f03f338533893dba3b577"
+- name: "RmSky.utx"
+  fileSize: 4202674
+  hash: "ab970b819345809335e4298b7cdf4b9bc3291bc2"
+- name: "Ditto.utx"
+  fileSize: 2874138
+  hash: "16644921a3c6ff852bd1913e6bc29dc3dfe3171d"
+- name: "darksfx.uax"
+  fileSize: 943764
+  hash: "7488c172a74b97177bdf41c0da72f9e98f16f184"
+- name: "AderranceTex.utx"
+  fileSize: 5020113
+  hash: "94f2c42a9a34c9034373d5efda36d27045c12ae6"
+- name: "station.utx"
+  fileSize: 1465444
+  hash: "b3be9046897bf4c1915a796fc8524d6ee951fc5d"
+- name: "realsky.utx"
+  fileSize: 526851
+  hash: "533b71e19f73b7fbb856420a919cdab11516de1f"
+otherFiles: 0
+dependencies:
+  DMOnsteroids.unr:
+  - status: "OK"
+    name: "darksfx"
+  - status: "OK"
+    name: "Ditto"
+  - status: "OK"
+    name: "realsky"
+  - status: "OK"
+    name: "AderranceTex"
+  - status: "MISSING"
+    name: "Ditto3"
+  - status: "OK"
+    name: "RmSky"
+  - status: "OK"
+    name: "CompulsTex"
+  - status: "MISSING"
+    name: "AFconeytex"
+  - status: "OK"
+    name: "station"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMOnSteroids.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/O/9/f/f373f9/DMOnSteroids.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/O/9/f/f373f9/DMOnSteroids.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/O/9/f/f373f9/DMOnSteroids.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMsteroids"
+playerCount: "Unknown"
+themes:
+  Tech: 0.4
+  Natural: 0.1
+  Skaarj Tech: 0.5
+bots: false

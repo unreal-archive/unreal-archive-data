@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:53"
+game: "Unreal"
+name: "DM-Malevolence+"
+author: "Rich 'Akuma' Eastwood  *  Converted From UT By  }{LoKi}{  *"
+description: "None"
+releaseDate: "2004-04"
+attachments: []
+originalFilename: "DM-Malevolence+.zip"
+hash: "610becbefcac76412afe7d3cc247dc1b22019d11"
+fileSize: 4093317
+files:
+- name: "DualMag.u"
+  fileSize: 21309
+  hash: "65e67f69ac72957db3655f0e219489b57ea21cc7"
+- name: "DM-Malevolence+.unr"
+  fileSize: 1004134
+  hash: "e862fa7f91e6597a0d6efd1a9ee284d2d4c9d895"
+- name: "malevolencetex.utx"
+  fileSize: 2396613
+  hash: "4036081ad2a48627bd8cf54e6c3f1d4435511fa2"
+- name: "Foregone.umx"
+  fileSize: 1992753
+  hash: "0aff4437d220127a8c193ab7b6402821edca5c79"
+otherFiles: 2
+dependencies:
+  DM-Malevolence+.unr:
+  - status: "OK"
+    name: "DualMag"
+  - status: "OK"
+    name: "malevolencetex"
+  - status: "OK"
+    name: "Foregone"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=DM-Malevolence%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/DM-Malevolence%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsM/DM-Malevolence+.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Theme/UTConvertedMaps/DM-Malevolence+.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/6/1/0becbe/DM-Malevolence%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/6/1/0becbe/DM-Malevolence%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Malevolence"
+playerCount: "2-6"
+themes:
+  Natural: 0.3
+  Skaarj Tech: 0.7
+bots: true

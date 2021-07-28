@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:32"
+game: "Unreal Tournament"
+name: "CTFM-Pressure"
+author: "Original by Juan Pancho conv. by Merkalinam"
+description: "Take the flag!!!"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-Pressure_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/P/CTFM-Pressure_shot_1.png"
+originalFilename: "ctfm-pressure.zip"
+hash: "42347efae70a08fccbe3d218c7adf23cf219a15e"
+fileSize: 616173
+files:
+- name: "Noface.umx"
+  fileSize: 202858
+  hash: "36615db3a2be64ea856f089d8a27400d625490b0"
+- name: "CTFM-Pressure.unr"
+  fileSize: 1595061
+  hash: "4919cbbeda8680eb748d2de0f5f7f51b6d430d2d"
+otherFiles: 1
+dependencies:
+  CTFM-Pressure.unr:
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "OK"
+    name: "Noface"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-pressure.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/P/ctfm-pressure.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-pressure.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-pressure.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/P/4/2/347efa/ctfm-pressure.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/P/4/2/347efa/ctfm-pressure.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Multi-CTF Pressure"
+playerCount: "12-16"
+themes:
+  Industrial: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.8
+bots: true

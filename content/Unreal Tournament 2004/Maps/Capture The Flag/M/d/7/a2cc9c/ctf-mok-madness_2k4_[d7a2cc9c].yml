@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 13:05"
+game: "Unreal Tournament 2004"
+name: "CTF-MOK-Madness_2k4"
+author: "Fragman{MOK}"
+description: "The Madness Of FragMan!"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-MOK-Madness_2k4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/CTF-MOK-Madness_2k4_shot_1.png"
+originalFilename: "ctf-mok-madness_2k4.zip"
+hash: "d7a2cc9c2fab09fb3f32e7d3591605fcc6ac7ddf"
+fileSize: 3804349
+files:
+- name: "CTF-MOK-Madness_2k4.ut2"
+  fileSize: 1485843
+  hash: "51d5890098d340a95d276ed004383423c4239a37"
+- name: "MOKlogoV5.utx"
+  fileSize: 4239358
+  hash: "b345f968dd3d45a9107331bd671253c4efb8f3a2"
+- name: "MOK-Madness.utx"
+  fileSize: 1771649
+  hash: "38e064be1c8b4ac23f2f5ff03d47a56876650648"
+- name: "dtroomtexture.utx"
+  fileSize: 1543213
+  hash: "2d2c7321a3e9ae92517cdf5adbff63e13391c388"
+otherFiles: 1
+dependencies:
+  CTF-MOK-Madness_2k4.ut2:
+  - status: "OK"
+    name: "MOK-Madness"
+  - status: "OK"
+    name: "MOKlogoV5"
+  - status: "OK"
+    name: "dtroomtexture"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/ctf-mok-madness_2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/d/7/a2cc9c/ctf-mok-madness_2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/d/7/a2cc9c/ctf-mok-madness_2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "MOK-Madness_2K4"
+playerCount: "16"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: true

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:16"
+game: "Unreal Tournament"
+name: "CTF-DA_DomeOfDespair"
+author: "Nomad 'TheDisciple'"
+description: "Do you feel lucky, punk?"
+releaseDate: "2003-03"
+attachments: []
+originalFilename: "ctf-}da{_domeofdespair.zip"
+hash: "147c4812500a87932d6764efd4514ffa8e45a936"
+fileSize: 1400586
+files:
+- name: "Druid.umx"
+  fileSize: 901647
+  hash: "e7aaf1c009fe71454770ad63e1cd3b5a2da25ac4"
+- name: "CTF-DA_DomeOfDespair.unr"
+  fileSize: 585637
+  hash: "ab8588cc2194fa7dc85d6c43daef68bb0f14a38c"
+- name: "clanlogos2.utx"
+  fileSize: 975694
+  hash: "1bc4e56c97f0271bc2a85c7d39fff6c05ae280bd"
+otherFiles: 0
+dependencies:
+  CTF-DA_DomeOfDespair.unr:
+  - status: "OK"
+    name: "Druid"
+  - status: "OK"
+    name: "clanlogos2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Dda%7B_domeofdespair.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-%7Dda%7B_domeofdespair.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/1/4/7c4812/ctf-%257Dda%257B_domeofdespair.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/1/4/7c4812/ctf-%257Dda%257B_domeofdespair.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-DA_DomeOfDespair"
+playerCount: "4-16"
+themes:
+  Industrial: 1.0
+bots: true

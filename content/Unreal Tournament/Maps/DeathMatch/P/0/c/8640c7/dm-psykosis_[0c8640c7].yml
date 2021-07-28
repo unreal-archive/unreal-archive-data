@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:32"
+game: "Unreal Tournament"
+name: "DM-Psykosis]["
+author: "PsykoWalrus (Tony Collins)"
+description: "Get Psykotic !"
+releaseDate: "1999-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-Psykosis][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-Psykosis%5D%5B_shot_1.png"
+originalFilename: "dm-psykosis][.zip"
+hash: "0c8640c7670493bd12d03e8bc669c3beecabba34"
+fileSize: 1012947
+files:
+- name: "krays.utx"
+  fileSize: 178980
+  hash: "40efbed5dba128e81a77ae166b6779c82a6baadc"
+- name: "realsky.utx"
+  fileSize: 526851
+  hash: "533b71e19f73b7fbb856420a919cdab11516de1f"
+- name: "DM-Psykosis][.unr"
+  fileSize: 1584973
+  hash: "9a3e857041f57ce4e22933dd18947a8282a3941c"
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+otherFiles: 1
+dependencies:
+  DM-Psykosis][.unr:
+  - status: "OK"
+    name: "realsky"
+  - status: "OK"
+    name: "krays"
+  - status: "OK"
+    name: "DigSh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-psykosis%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dm-psykosis%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-psykosis%5D%5B-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-psykosis%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsP/dm-psykosis%5d%5b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/0/c/8640c7/dm-psykosis%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/0/c/8640c7/dm-psykosis%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Psykosis Sector"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  City: 0.1
+  Skaarj Tech: 0.8
+bots: true

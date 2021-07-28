@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 21:09"
+game: "Unreal Tournament 2004"
+name: "Rocket Launchers are yellow instead of red."
+author: "Unknown"
+description: ""
+releaseDate: "2002-10"
+attachments: []
+originalFilename: "yellowrl.zip"
+hash: "a5fb4ed69a270da8d0fb075bc5911733dbcc8ce5"
+fileSize: 30811
+files:
+- name: "YellowRL.u"
+  fileSize: 2406
+  hash: "f65d45f4848cb44e94ddfbeddf13ebabd8eec36a"
+- name: "YellowRLskins.utx"
+  fileSize: 87904
+  hash: "aeafbbff3acc817a7591b371efca0d2f1072b97f"
+otherFiles: 2
+dependencies:
+  YellowRL.u:
+  - status: "OK"
+    name: "YellowRLskins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/yellowrl.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/R/a/5/fb4ed6/yellowrl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/R/a/5/fb4ed6/yellowrl.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Rocket Launchers are yellow instead of red."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:28"
+variationOf: "9928bc6182ef919d638dc769abcc5e3036e83b9f"
+game: "Unreal Tournament"
+name: "DM-DeepWoods2"
+author: "Jon \"Athan\" Yu"
+description: "GO GO GO!"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-deepwoods2_shot_f6825951_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/f/6/825951/dm-deepwoods2_shot_f6825951_1.png"
+originalFilename: "DM-DeepWoods2.zip"
+hash: "f68259515a776f35767da8f9357148c43956a104"
+fileSize: 2706303
+files:
+- name: "DM-DeepWoods2.unr"
+  fileSize: 1906372
+  hash: "2f910b5856cc8f7bf440da4784dc8cf5c57e0b96"
+- name: "Bio.umx"
+  fileSize: 2056353
+  hash: "9b5cfa46487e77dd71a6a899efee236159d65e7d"
+- name: "stuff.utx"
+  fileSize: 142023
+  hash: "572e3d43b41125832c40248151556df24d25cc77"
+- name: "InfAdds.u"
+  fileSize: 587515
+  hash: "393b9167dd79a6d39aaba72d1f85ef3954ac237f"
+otherFiles: 0
+dependencies:
+  DM-DeepWoods2.unr:
+  - status: "OK"
+    name: "Bio"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "stuff"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/f/6/825951/DM-DeepWoods2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/f/6/825951/DM-DeepWoods2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/f/6/825951/DM-DeepWoods2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-DeepWood2"
+playerCount: "16+"
+themes:
+  Tech: 0.1
+  City: 0.3
+  Natural: 0.5
+bots: true

@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:49"
+game: "Unreal Tournament"
+name: "CTF-Genesis"
+author: "Alex Jigga Man\" Ridolfi"
+description: "None"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Genesis_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-Genesis_shot_1.png"
+originalFilename: "ctf-genesis.zip"
+hash: "8e672ea2a8fcc64ccb25641c59b18786f7ef7e3b"
+fileSize: 1080614
+files:
+- name: "Thadfrummp.u"
+  fileSize: 356209
+  hash: "bba2d5107abc716485f6869dac1eff97ae740a62"
+- name: "ParticleSystem_40.u"
+  fileSize: 20553
+  hash: "a139647e01d129a1c66d129750065494d7e34291"
+- name: "CTF-Genesis.unr"
+  fileSize: 2495995
+  hash: "55ef8d4609899a08d7a859f6f4a0c539788d9bb3"
+- name: "frump.utx"
+  fileSize: 442410
+  hash: "9cb246fcdb3b37543604309bc59f4c8ab8542058"
+- name: "Particle_40.utx"
+  fileSize: 33340
+  hash: "8952cceb3f8be875d4f0cacdfcdde15dd317f792"
+otherFiles: 2
+dependencies:
+  CTF-Genesis.unr:
+  - status: "OK"
+    name: "Thadfrummp"
+  - status: "OK"
+    name: "frump"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "ParticleSystem_40"
+  - status: "MISSING"
+    name: "SGTech1"
+  ParticleSystem_40.u:
+  - status: "OK"
+    name: "Particle_40"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6107"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/ctf-genesis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/8/e/672ea2/ctf-genesis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/8/e/672ea2/ctf-genesis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Genesis"
+playerCount: "Unknown"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: false

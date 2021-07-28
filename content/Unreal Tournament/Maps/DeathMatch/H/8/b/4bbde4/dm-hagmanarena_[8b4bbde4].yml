@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:14"
+game: "Unreal Tournament"
+name: "DM-HagmanArena"
+author: "Michael \"Hagman\" Petersen"
+description: "Welcome to my Hagman-map !!!"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-HagmanArena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/DM-HagmanArena_shot_1.png"
+originalFilename: "dm-hagmanarena.zip"
+hash: "8b4bbde4d87ada7b43deca4d92f68330ddbcabc1"
+fileSize: 244372
+files:
+- name: "Hagman1.utx"
+  fileSize: 88976
+  hash: "08c52ef0ee9c2811b8396a7720ed9f074b8949c6"
+- name: "DM-HagmanArena.unr"
+  fileSize: 529969
+  hash: "4cae978a86d8e38a8e18aa17058605af1a1c95a4"
+otherFiles: 1
+dependencies:
+  DM-HagmanArena.unr:
+  - status: "OK"
+    name: "Hagman1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/dm-hagmanarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsH/&file=dm-hagmanarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-hagmanarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsH/dm-hagmanarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/8/b/4bbde4/dm-hagmanarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/8/b/4bbde4/dm-hagmanarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Hagman-Arena"
+playerCount: "2-16"
+themes:
+  Industrial: 0.2
+  Ancient: 0.8
+bots: true

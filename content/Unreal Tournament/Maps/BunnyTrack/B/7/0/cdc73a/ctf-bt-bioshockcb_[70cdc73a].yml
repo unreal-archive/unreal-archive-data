@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 13:26"
+game: "Unreal Tournament"
+name: "CTF-BT-BioshockCB"
+author: "JoMaX"
+description: "None"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-BioshockCB_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-BioshockCB_shot_1.png"
+originalFilename: "CTF-BT-BioshockCB.zip"
+hash: "70cdc73a6940664484850db32e04b9f18aee9127"
+fileSize: 27592028
+files:
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "CTF-BT-BioshockCB.unr"
+  fileSize: 12546806
+  hash: "394fadd60006707872be043e7d699a08697b39c0"
+- name: "HourKraden_UT.utx"
+  fileSize: 14586278
+  hash: "f90db87bc8d204b8970cb6beed5401b6b4ad4769"
+- name: "ElectricHead.umx"
+  fileSize: 4874367
+  hash: "40d5d9f8cfc24f89504a9117fc36f27372330be5"
+- name: "superduper.utx"
+  fileSize: 3231079
+  hash: "6ef249ab1f57a8104bc3fd461414890be664cde0"
+otherFiles: 0
+dependencies:
+  CTF-BT-BioshockCB.unr:
+  - status: "OK"
+    name: "ElectricHead"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "superduper"
+  - status: "OK"
+    name: "HourKraden_UT"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-BioshockCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-BioshockCB.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-BioshockCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-BioshockCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/B/7/0/cdc73a/CTF-BT-BioshockCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/B/7/0/cdc73a/CTF-BT-BioshockCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "JmX BioshocK"
+playerCount: "1-10"
+themes:
+  Indistrial: 1.0
+bots: false

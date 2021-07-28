@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:13"
+game: "Unreal Tournament 2004"
+name: "HealthBot 1.10"
+author: "Unknown"
+description: ""
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "healthbot110.zip"
+hash: "3332ae810dee02a4a0c3f5026c71e75ab234a215"
+fileSize: 1069684
+files:
+- name: "healthbot.u"
+  fileSize: 1116519
+  hash: "fc1acd939155a113bfac51cdba36830898f4747b"
+- name: "healthbottextures.utx"
+  fileSize: 898705
+  hash: "90594827b0b05cd951c96f3c652b93666b74addc"
+otherFiles: 3
+dependencies:
+  healthbot.u:
+  - status: "OK"
+    name: "healthbottextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/healthbot110.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/H/3/3/32ae81/healthbot110.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/H/3/3/32ae81/healthbot110.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "HealthBot 1.10"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

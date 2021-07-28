@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:45"
+game: "Unreal Tournament"
+name: "DM-INF-CityStorageLotA]["
+author: "David Brown"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-CityStorageLotA][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-CityStorageLotA%5D%5B_shot_1.png"
+originalFilename: "dm-inf-citystoragelota.zip"
+hash: "1c50b3a6ee2270bbd55f4b751b2ff7d1c5e003f0"
+fileSize: 2558201
+files:
+- name: "INFHighSchool.utx"
+  fileSize: 1981429
+  hash: "45e400e14452613aab9e54c5955b1cd760ebc017"
+- name: "DM-INF-CityStorageLotA][.unr"
+  fileSize: 4688193
+  hash: "ff926e5ce70ade5beb6a33d8e70fe8c7248c9441"
+otherFiles: 1
+dependencies:
+  DM-INF-CityStorageLotA][.unr:
+  - status: "OK"
+    name: "INFHighSchool"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-citystoragelota.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-citystoragelota.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/C/1/c/50b3a6/dm-inf-citystoragelota.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/C/1/c/50b3a6/dm-inf-citystoragelota.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "City Storage Lot A"
+playerCount: "6-16"
+themes:
+  City: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.8
+bots: true

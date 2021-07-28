@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:18"
+game: "Unreal Tournament"
+name: "DM-Tutorial_40"
+author: "Michael \"Bot_40\" Rippon"
+description: "y4y"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-Tutorial_40_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-Tutorial_40_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Tutorial_40_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-Tutorial_40_shot_2.png"
+originalFilename: "dm-tutorial_40.zip"
+hash: "0532d54cac437c787ab38b8b5bfc3e79e01d9b60"
+fileSize: 2899680
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "DM-Tutorial_40.unr"
+  fileSize: 1202199
+  hash: "c1d15506e4105966a9ae1344c2076b87e36530e1"
+otherFiles: 2
+dependencies:
+  DM-Tutorial_40.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "Fifth"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-tutorial_40.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/dm-tutorial_40.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=653"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/0/5/32d54c/dm-tutorial_40.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/0/5/32d54c/dm-tutorial_40.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Architecture Tutorial Map"
+playerCount: "2"
+themes:
+  Industrial: 0.6
+  Skaarj Tech: 0.4
+bots: true

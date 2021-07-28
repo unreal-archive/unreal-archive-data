@@ -1,0 +1,116 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-05-10 21:44"
+game: "Unreal Tournament"
+name: "Funnel Pack"
+author: "Various"
+description: "None"
+releaseDate: "2010-05"
+attachments:
+- type: "IMAGE"
+  name: "Funnel_Pack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/F/Funnel_Pack_shot_1.png"
+originalFilename: "Funnel-Pack.zip"
+hash: "30316de646f15ebb02a31f5f55d65f22fb54477d"
+fileSize: 8984701
+files:
+- name: "DM-Funnel-Mega-UK.unr"
+  fileSize: 2757650
+  hash: "f73fa5b7b06475d8b74c31f6aeb895e641a18f5e"
+- name: "ClusterRedeemer.u"
+  fileSize: 71126
+  hash: "c47150cabd1c564c331fecb6ea2f67244559c026"
+- name: "lol-legos.utx"
+  fileSize: 2577177
+  hash: "a86086f1edd91bf1ff40fe54cb9f5a9ef94d66d0"
+- name: "charlie.umx"
+  fileSize: 3449394
+  hash: "fff634b89665fad730c0675de7dd7b56c245eda0"
+- name: "kissmy.umx"
+  fileSize: 2207830
+  hash: "c1e5fe4fabd76e337c2d4319fae4f350b8bd065d"
+- name: "{UK}FreeRunners.utx"
+  fileSize: 88949
+  hash: "caeed49065d3d43a61e8855bacbd71d8591deeb7"
+- name: "DM-beta{UK}Funnel_IIIRemix.unr"
+  fileSize: 120964
+  hash: "340e808cdf9fe3c7b2f96c9c5fb02aa3cbe1ddde"
+- name: "DM-beta{UK}Funnel_IIIRemixLEGO.unr"
+  fileSize: 270585
+  hash: "eda034cbf790552aa54ac0afb3e55076dd372524"
+- name: "Funnel_Mad.utx"
+  fileSize: 2002220
+  hash: "b275db214854ac135f447a0796ab62f109cde900"
+- name: "UKHealthPack.utx"
+  fileSize: 105823
+  hash: "701901a8036165bff13238a65f97aa1c063cab39"
+- name: "kissmy.umx"
+  fileSize: 2207830
+  hash: "c1e5fe4fabd76e337c2d4319fae4f350b8bd065d"
+- name: "{UK}FreeRunners.utx"
+  fileSize: 88949
+  hash: "caeed49065d3d43a61e8855bacbd71d8591deeb7"
+- name: "ClusterRedeemer.u"
+  fileSize: 71126
+  hash: "c47150cabd1c564c331fecb6ea2f67244559c026"
+- name: "{UK}FreeRunnersLogo.utx"
+  fileSize: 88970
+  hash: "b499e8b34d70d84a4f765de02886d1344b8f641e"
+otherFiles: 0
+dependencies:
+  DM-Funnel-Mega-UK.unr:
+  - status: "OK"
+    name: "{UK}FreeRunnersLogo"
+  - status: "OK"
+    name: "UKHealthPack"
+  - status: "OK"
+    name: "Funnel_Mad"
+  - status: "OK"
+    name: "charlie"
+  DM-beta{UK}Funnel_IIIRemix.unr:
+  - status: "OK"
+    name: "{UK}FreeRunners"
+  - status: "OK"
+    name: "ClusterRedeemer"
+  - status: "OK"
+    name: "kissmy"
+  DM-beta{UK}Funnel_IIIRemixLEGO.unr:
+  - status: "OK"
+    name: "lol-legos"
+  - status: "OK"
+    name: "{UK}FreeRunners"
+  - status: "OK"
+    name: "ClusterRedeemer"
+  - status: "OK"
+    name: "kissmy"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7755"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/F/Funnel-Pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/F/3/0/316de6/Funnel-Pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/F/3/0/316de6/Funnel-Pack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Funnel-Mega-UK"
+  title: "FunnelMAD Funnel Mega"
+  author: ">>>UZI<<<VS-=Scorpion=-"
+- name: "DM-beta{UK}Funnel_IIIRemixLEGO"
+  title: "Funnel III"
+  author: "Voxel vs Scorpion"
+- name: "DM-beta{UK}Funnel_IIIRemix"
+  title: "Funnel III"
+  author: "Voxel vs Sorpion"
+gametype: "DeathMatch"
+themes:
+  Skaarj Crypt: 1.0

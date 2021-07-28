@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:00"
+variationOf: "ec6f9018b9a8834f90967a04d4e8298631b9c885"
+game: "Unreal"
+name: "INF_FCB"
+author: "Stone"
+description: "Get ready to sin......."
+releaseDate: "1999-07"
+attachments: []
+originalFilename: "INF_FCB.zip"
+hash: "ec7b00f459ac351969f200e9e67f5cfc080e6fdf"
+fileSize: 3398875
+files:
+- name: "Blade.utx"
+  fileSize: 2327164
+  hash: "8c2667ad67176f0135e322dd7d6ecbeae9442f13"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "INF_FCB.unr"
+  fileSize: 1959074
+  hash: "565c29b6fcf58474c7fa9f3829855afc54ffdc56"
+- name: "Urban.utx"
+  fileSize: 679765
+  hash: "b2f3f7ddc4f12b20b0c06041404aff71dafdfbcf"
+- name: "MWorld.utx"
+  fileSize: 824622
+  hash: "0afeb2b79befe9a2f4bb41b69527343af18b0b67"
+otherFiles: 1
+dependencies:
+  INF_FCB.unr:
+  - status: "OK"
+    name: "MWorld"
+  - status: "OK"
+    name: "Blade"
+  - status: "OK"
+    name: "Vierheilig"
+  - status: "OK"
+    name: "Urban"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_FCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/F/INF_FCB.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_FCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/F/e/c/7b00f4/INF_FCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/F/e/c/7b00f4/INF_FCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Freeport City Bank"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  Industrial: 0.5
+  City: 0.1
+  Skaarj Tech: 0.1
+bots: true

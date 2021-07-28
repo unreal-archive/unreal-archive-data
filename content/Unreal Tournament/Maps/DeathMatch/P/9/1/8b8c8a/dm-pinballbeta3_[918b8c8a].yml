@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:26"
+game: "Unreal Tournament"
+name: "DM-PinballBETA3"
+author: "Zombie"
+description: "Welcome...let's play Pinball!!!"
+releaseDate: "2007-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-PinballBETA3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PinballBETA3_shot_1.png"
+- type: "IMAGE"
+  name: "DM-PinballBETA3_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PinballBETA3_shot_2.png"
+originalFilename: "dm-pinbalbeta3.zip"
+hash: "918b8c8a17f4d1c0d4524cdf5d9fafd957fbc710"
+fileSize: 2661547
+files:
+- name: "DM-PinballBETA3.unr"
+  fileSize: 4644255
+  hash: "8679a17d86a98aeccf52cb0d28f0ce46083070fe"
+- name: "pinballA.uax"
+  fileSize: 22468
+  hash: "640985c6ab8afe75441e5143eb729072c4148054"
+- name: "pinball.utx"
+  fileSize: 3592935
+  hash: "859a944c69f42489c91856a33cd04ba533b2726b"
+otherFiles: 1
+dependencies:
+  DM-PinballBETA3.unr:
+  - status: "OK"
+    name: "pinballA"
+  - status: "OK"
+    name: "pinball"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-pinbalbeta3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-pinbalbeta3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/9/1/8b8c8a/dm-pinbalbeta3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/9/1/8b8c8a/dm-pinbalbeta3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "PinBall"
+playerCount: "Unknown"
+themes: {}
+bots: false

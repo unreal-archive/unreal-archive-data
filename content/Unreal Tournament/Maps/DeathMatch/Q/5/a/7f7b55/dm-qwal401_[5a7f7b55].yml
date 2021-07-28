@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:32"
+game: "Unreal Tournament"
+name: "DM-Qwal401"
+author: "zzz"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Qwal401_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/Q/DM-Qwal401_shot_1.png"
+originalFilename: "dm-qwal401.zip"
+hash: "5a7f7b5592fe2b07c5a13a1272cb8a31a69efaf6"
+fileSize: 1840967
+files:
+- name: "zzzbusy.uax"
+  fileSize: 287936
+  hash: "99ce27db6f0697d09e6e3c98e3aee351dbb04d21"
+- name: "DM-Qwal401.unr"
+  fileSize: 1292812
+  hash: "93035e910e033faae8fc3f84492f255811c213b8"
+- name: "zzzpump.uax"
+  fileSize: 1519753
+  hash: "758c7f3b19e64c98bfaa67482797d234831c4095"
+otherFiles: 1
+dependencies:
+  DM-Qwal401.unr:
+  - status: "OK"
+    name: "zzzpump"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "zzzbusy"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/Q/dm-qwal401.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsQ/&file=dm-qwal401.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-qwal401.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsQ/dm-qwal401.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/Q/5/a/7f7b55/dm-qwal401.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/Q/5/a/7f7b55/dm-qwal401.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Qwal401"
+playerCount: "2-12"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  Natural: 0.1
+bots: true

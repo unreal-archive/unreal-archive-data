@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:06"
+game: "Unreal Tournament"
+name: "DM-Destiny2"
+author: "Lee 'Deceased' Kay"
+description: "None"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-Destiny2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-Destiny2_shot_1.png"
+originalFilename: "dm-destiny2.zip"
+hash: "26d7d0dd8c9e785a2906732030a0d942754bd8e2"
+fileSize: 2328372
+files:
+- name: "Sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "DM-Destiny2.unr"
+  fileSize: 1388188
+  hash: "c46d2256b02b0f100f7875361334e9c4835e97a2"
+otherFiles: 1
+dependencies:
+  DM-Destiny2.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-destiny2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dm-destiny2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-destiny2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsD/dm-destiny2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/2/6/d7d0dd/dm-destiny2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/2/6/d7d0dd/dm-destiny2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Destiny ]["
+playerCount: "2 - 4"
+themes:
+  Tech: 1.0
+bots: false

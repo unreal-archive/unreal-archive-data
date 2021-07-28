@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-17 21:45"
+variationOf: "2b5b310c8bd4663a78d45718ed1d5d737b080ea0"
+game: "Unreal Tournament"
+name: "DM-HellsGate(Q3T3)"
+author: "TNT"
+description: "Welcome To Hell"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-hellsgateq3t3_shot_fa9827cc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/f/a/9827cc/dm-hellsgateq3t3_shot_fa9827cc_1.png"
+- type: "IMAGE"
+  name: "dm-hellsgateq3t3_shot_fa9827cc_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/f/a/9827cc/dm-hellsgateq3t3_shot_fa9827cc_2.png"
+- type: "IMAGE"
+  name: "dm-hellsgateq3t3_shot_fa9827cc_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/f/a/9827cc/dm-hellsgateq3t3_shot_fa9827cc_3.png"
+originalFilename: "HellGate(Q3T3).zip"
+hash: "fa9827cc74f5402c4c7d08d65456adf479929754"
+fileSize: 3532635
+files:
+- name: "Quake3_TNT_2.utx"
+  fileSize: 940164
+  hash: "ba97f437be7861f3dd6c9e03b4e7b99206c40b9c"
+- name: "DM-HellsGate(Q3T3).unr"
+  fileSize: 3141089
+  hash: "fc6898cbf143a13b40de12dd15b45ca268737d5f"
+- name: "Quake3_TNT_1.utx"
+  fileSize: 1076698
+  hash: "24cbf08a09689df0f75cb4a8d1f5d3827dab5358"
+otherFiles: 5
+dependencies:
+  DM-HellsGate(Q3T3).unr:
+  - status: "OK"
+    name: "Quake3_TNT_2"
+  - status: "OK"
+    name: "Quake3_TNT_1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/HellGate(Q3T3).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/f/a/9827cc/HellGate(Q3T3).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/f/a/9827cc/HellGate(Q3T3).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-HellsGate(Q3T3)"
+playerCount: "2-6"
+themes:
+  Nali Temple: 0.2
+  Skaarj Crypt: 0.7
+bots: true

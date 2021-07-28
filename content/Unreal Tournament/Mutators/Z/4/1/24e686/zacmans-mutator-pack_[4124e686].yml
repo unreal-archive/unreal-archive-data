@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-05-26 21:12"
+game: "Unreal Tournament"
+name: "Zacman's Mutator Pack"
+author: "Zacman"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "ZacmansMutatorPack_4124e686.zip"
+hash: "4124e686f5325e6ceee8ad5c836ec73b5d16e6a5"
+fileSize: 49473
+files:
+- name: "WTFMODE.u"
+  fileSize: 2170
+  hash: "a92de0fecea4b18801492e7238297609acab2844"
+- name: "TEHBOOMER.u"
+  fileSize: 25403
+  hash: "649f2b220e048c58c825a472d1f5a69bbdd24a6f"
+- name: "TEHBOOMERSKINZ.utx"
+  fileSize: 101211
+  hash: "4f5f5ccbfb2358b78a86f6a36183f514abf406dc"
+otherFiles: 2
+dependencies:
+  TEHBOOMER.u:
+  - status: "OK"
+    name: "TEHBOOMERSKINZ"
+  - status: "OK"
+    name: "WTFMODE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/Z/ZacmansMutatorPack_4124e686.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/Z/4/1/24e686/ZacmansMutatorPack_4124e686.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/Z/4/1/24e686/ZacmansMutatorPack_4124e686.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Redeemer to HNAC"
+  description: ""
+- name: "Cow Instagib"
+  description: ""
+- name: "HNAC Arena"
+  description: ""
+- name: "Redeemer Fun Arena"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

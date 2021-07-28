@@ -1,0 +1,92 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:51"
+game: "Unreal Tournament"
+name: "DM-INF-MarbleConstruction"
+author: "Michael Giese"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-inf-marbleconstruction_shot_b2befa6f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Infiltration/M/b/2/befa6f/dm-inf-marbleconstruction_shot_b2befa6f_1.png"
+- type: "IMAGE"
+  name: "dm-inf-marbleconstruction_shot_b2befa6f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Infiltration/M/b/2/befa6f/dm-inf-marbleconstruction_shot_b2befa6f_2.png"
+originalFilename: "dm-inf-marbleconstruction.zip"
+hash: "b2befa6fe3625ee28a2512b8c284526812a2936a"
+fileSize: 2995183
+files:
+- name: "PatheticoMonsters.u"
+  fileSize: 16398
+  hash: "2daff6ffe2262daec3445af909426e22277dcde3"
+- name: "DM-INF-MarbleConstruction.unr"
+  fileSize: 7082777
+  hash: "e2e980d361d099a80c44fc54e9e405780d4db7cf"
+otherFiles: 3
+dependencies:
+  DM-INF-MarbleConstruction.unr:
+  - status: "MISSING"
+    name: "RWorld"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "mmpack"
+  - status: "MISSING"
+    name: "INF_Belgrade"
+  - status: "MISSING"
+    name: "rw_HillbaseFoot"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "rw_ctf"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+  - status: "OK"
+    name: "PatheticoMonsters"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "MISSING"
+    name: "rw_InstallFoot"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "Inf_siberiatex"
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "MISSING"
+    name: "rw_Install"
+  - status: "MISSING"
+    name: "rw_TPack2"
+  - status: "MISSING"
+    name: "rw_TPack1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-marbleconstruction.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-marbleconstruction.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/M/b/2/befa6f/dm-inf-marbleconstruction.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/M/b/2/befa6f/dm-inf-marbleconstruction.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "TDM-Marble Construction"
+playerCount: "2 to 24"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.1
+  Industrial: 0.1
+  Ancient: 0.6
+  City: 0.2
+bots: true

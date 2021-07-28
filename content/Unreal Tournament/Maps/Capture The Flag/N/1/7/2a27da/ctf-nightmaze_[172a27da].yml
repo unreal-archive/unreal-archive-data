@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:13"
+game: "Unreal Tournament"
+name: "CTF-NightMaze"
+author: "Metalfist"
+description: "Get lost"
+releaseDate: "2011-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-NightMaze_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NightMaze_shot_1.png"
+originalFilename: "CTF-NightMaze.zip"
+hash: "172a27da39f74c0deafeea4feedd829f5a0e2821"
+fileSize: 1426904
+files:
+- name: "amber.umx"
+  fileSize: 844487
+  hash: "dc57717ff78aac328e4f278e4b6ca1fe9d4d6d44"
+- name: "TeamTeleporter.u"
+  fileSize: 19478
+  hash: "18e07a0e22079c7b4abae83c5bd105a561b9fa3a"
+- name: "CTF-NightMaze.unr"
+  fileSize: 7096940
+  hash: "53b51d71d45c1e66f52131516b0bb033b7836a23"
+otherFiles: 1
+dependencies:
+  CTF-NightMaze.unr:
+  - status: "OK"
+    name: "TeamTeleporter"
+  - status: "OK"
+    name: "amber"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-NightMaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NightMaze.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-NightMaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/1/7/2a27da/CTF-NightMaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/1/7/2a27da/CTF-NightMaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-NightMaze"
+playerCount: "4-12"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true

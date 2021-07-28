@@ -1,0 +1,84 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 13:30"
+game: "Unreal Tournament 2004"
+name: "Relicsredux"
+author: "Angelheart"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "Relicsredux_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/R/Relicsredux_shot_2.png"
+- type: "IMAGE"
+  name: "Relicsredux_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/R/Relicsredux_shot_1.png"
+originalFilename: "relicsredux.zip"
+hash: "c874c345b472859f7f073b2b7445e3a879396775"
+fileSize: 23637771
+files:
+- name: "Relicmesh.usx"
+  fileSize: 15722719
+  hash: "f5b248da3f5bfed9df8d953b6a6521c79fb63d03"
+- name: "Relicsky.utx"
+  fileSize: 6294295
+  hash: "f81cd7bd3a32bf78515ba0559399c8cdf2ef1d13"
+- name: "DM-Relics2dusk.ut2"
+  fileSize: 14878811
+  hash: "815dda8ac382c765b38834ef67fcaaed46358503"
+- name: "Reltex.utx"
+  fileSize: 8736555
+  hash: "c5485fe0ca3b6c9726f827ecba4ad9a0e0259b86"
+- name: "DM-Relics2day.ut2"
+  fileSize: 15053863
+  hash: "1855aa258fde54ce949ba6abe1f2775a4e0c07d1"
+- name: "Relicsnds.uax"
+  fileSize: 1459481
+  hash: "c71e1ae21174eb9f4412b02790b62c37039b3f30"
+otherFiles: 1
+dependencies:
+  DM-Relics2day.ut2:
+  - status: "OK"
+    name: "Reltex"
+  - status: "OK"
+    name: "Relicsnds"
+  - status: "OK"
+    name: "Relicmesh"
+  - status: "OK"
+    name: "Relicsky"
+  DM-Relics2dusk.ut2:
+  - status: "OK"
+    name: "Reltex"
+  - status: "OK"
+    name: "Relicsnds"
+  - status: "OK"
+    name: "Relicmesh"
+  - status: "OK"
+    name: "Relicsky"
+  Relicmesh.usx:
+  - status: "OK"
+    name: "Reltex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/R/relicsredux.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/R/c/8/74c345/relicsredux.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/R/c/8/74c345/relicsredux.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Relics2day"
+  title: "DM-RelicsRedux"
+  author: "Angelheart"
+- name: "DM-Relics2dusk"
+  title: "DM-RelicsRedux"
+  author: "Angelheart"
+gametype: "DeathMatch"
+themes:
+  Natural: 1.0

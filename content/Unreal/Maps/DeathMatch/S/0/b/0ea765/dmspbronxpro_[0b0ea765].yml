@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:12"
+game: "Unreal"
+name: "DM[SP]BronxPro"
+author: "Juergen Vierheilig *Modified by RUSH*"
+description: "Meet Me At The Club!"
+releaseDate: "2009-12"
+attachments: []
+originalFilename: "DM[SP]BronxPro.zip"
+hash: "0b0ea765b22a24131e102c4fde0827d1af531798"
+fileSize: 8027794
+files:
+- name: "DM[SP]BronxPro.unr"
+  fileSize: 3650863
+  hash: "2cb48eef75347f2108511c6c1314f69c8df129d6"
+- name: "SP_RainbowInTheDark.umx"
+  fileSize: 11202721
+  hash: "f34e59052796bc47cf102a18e11482307b1f39df"
+otherFiles: 0
+dependencies:
+  DM[SP]BronxPro.unr:
+  - status: "MISSING"
+    name: "BronxSound"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "SP_RainbowInTheDark"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "AssaultM79"
+  - status: "MISSING"
+    name: "BronxTex1"
+  - status: "MISSING"
+    name: "uzi"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "AssaultTommyGun"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "Vierheilig"
+  - status: "MISSING"
+    name: "Assault_Dicer"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DBronxPro.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/0/b/0ea765/DM%255BSP%255DBronxPro.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/0/b/0ea765/DM%255BSP%255DBronxPro.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Bronx Pro"
+playerCount: "6-8"
+themes:
+  Industrial: 0.8
+  Nali Castle: 0.1
+bots: true

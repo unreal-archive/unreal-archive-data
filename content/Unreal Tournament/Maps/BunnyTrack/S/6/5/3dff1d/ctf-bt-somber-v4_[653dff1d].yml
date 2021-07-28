@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:54"
+game: "Unreal Tournament"
+name: "CTF-BT-Somber-v4"
+author: "kLeptO*"
+description: "None"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Somber-v4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Somber-v4_shot_1.png"
+originalFilename: "CTF-BT-Somber-v4.zip"
+hash: "653dff1de9dd68a22738da636698d8d642b08335"
+fileSize: 16747607
+files:
+- name: "CTF-BT-Somber-v4.unr"
+  fileSize: 17008039
+  hash: "1df26bd3df9aa42318075efde28970110901c683"
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "Shaft.umx"
+  fileSize: 3080750
+  hash: "e8cb2fb6ce3198178fddb632caf3e33eaa3a4b6d"
+- name: "WOTDetail.utx"
+  fileSize: 89046
+  hash: "102e6f2704d6ffbed60649b5903121cb9281e021"
+otherFiles: 1
+dependencies:
+  CTF-BT-Somber-v4.unr:
+  - status: "OK"
+    name: "ForsakenT"
+  - status: "OK"
+    name: "Shaft"
+  - status: "OK"
+    name: "DoorsSnd"
+  ForsakenT.utx:
+  - status: "PARTIAL"
+    name: "WOTDetail"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Somber-v4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Somber-v4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7582"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/6/5/3dff1d/CTF-BT-Somber-v4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/6/5/3dff1d/CTF-BT-Somber-v4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Somber-v4"
+playerCount: "2-8"
+themes:
+  Ancient: 1.0
+bots: false

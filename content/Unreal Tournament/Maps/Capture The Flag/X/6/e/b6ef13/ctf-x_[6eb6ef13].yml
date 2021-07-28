@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:03"
+game: "Unreal Tournament"
+name: "CTF-X"
+author: "S.Kranendonk aka MadnessX"
+description: "X to tha bone"
+releaseDate: "2002-04"
+attachments: []
+originalFilename: "ctf-x.zip"
+hash: "6eb6ef139db13c4aaf8e45f84a6aa270749d6ade"
+fileSize: 4353462
+files:
+- name: "X.uax"
+  fileSize: 5204990
+  hash: "24a3f9e48ec4708cee07534e3008604c9e710e87"
+- name: "CTF-X.unr"
+  fileSize: 173731
+  hash: "590262f60ddd780bdfc9f4cd776bf82bef01875e"
+otherFiles: 0
+dependencies:
+  CTF-X.unr:
+  - status: "OK"
+    name: "X"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-x.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/6/e/b6ef13/ctf-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/6/e/b6ef13/ctf-x.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "-X-"
+playerCount: "4-16"
+themes:
+  Skaarj Tech: 1.0
+bots: false

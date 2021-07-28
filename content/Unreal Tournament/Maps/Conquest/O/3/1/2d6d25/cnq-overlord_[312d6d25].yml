@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-19 22:00"
-variationOf: null
 game: "Unreal Tournament"
 name: "CNQ-Overlord"
 author: "Dave Ewing"
@@ -23,7 +22,6 @@ dependencies:
   CNQ-Overlord.unr:
   - status: "OK"
     name: "SignOver"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/C/cnq-overlord.zip"
   main: true
@@ -34,6 +32,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=cnq-overlord.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Conquest/O/3/1/2d6d25/cnq-overlord.zip"
   main: false
   repack: false
   state: "OK"

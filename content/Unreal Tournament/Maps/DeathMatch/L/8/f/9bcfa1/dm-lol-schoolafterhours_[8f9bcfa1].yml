@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:57"
+game: "Unreal Tournament"
+name: "DM-lol-SchoolAfterHours"
+author: "Russell Sitka + <lol>BK"
+description: "The students and faculty have left, let's go fraggin!"
+releaseDate: "2008-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-lol-SchoolAfterHours_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-SchoolAfterHours_shot_1.png"
+originalFilename: "DM-lol-SchoolAfterHours.zip"
+hash: "8f9bcfa1a4ecd27c8e3a2e5d09d278ef3682268d"
+fileSize: 5516176
+files:
+- name: "SchoolAfterHours.utx"
+  fileSize: 960548
+  hash: "e1f99cd71b115b33acc3e26a99c8cbe564516bf0"
+- name: "DM-lol-SchoolAfterHours.unr"
+  fileSize: 4464630
+  hash: "a4d21b823dfe472a791e1d3edd812ce5c1091038"
+- name: "SchoolsOut.umx"
+  fileSize: 4647239
+  hash: "ab56bcb1d2ec82e52080fc1126893170ace2e4b5"
+otherFiles: 0
+dependencies:
+  DM-lol-SchoolAfterHours.unr:
+  - status: "OK"
+    name: "SchoolsOut"
+  - status: "OK"
+    name: "SchoolAfterHours"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Funnel/&file=DM-lol-SchoolAfterHours.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lol-SchoolAfterHours.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-lol-SchoolAfterHours.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/8/f/9bcfa1/DM-lol-SchoolAfterHours.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/8/f/9bcfa1/DM-lol-SchoolAfterHours.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-lol-SchoolAfterHours"
+playerCount: "2-16"
+themes:
+  Skaarj Crypt: 0.1
+  Industrial: 0.1
+  City: 0.6
+  Skaarj Tech: 0.2
+bots: true

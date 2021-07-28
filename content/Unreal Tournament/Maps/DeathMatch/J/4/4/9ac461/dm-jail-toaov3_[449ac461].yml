@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:40"
+game: "Unreal Tournament"
+name: "DM-Jail-TOAOv3"
+author: "[VSK]AssWaxer"
+description: "Origional author Common"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-Jail-TOAOv3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/J/DM-Jail-TOAOv3_shot_1.png"
+originalFilename: "DM-Jail-TOAOv3.zip"
+hash: "449ac4614414b2cdd903517dae568dc91e66f6cc"
+fileSize: 5567625
+files:
+- name: "TOAO-KILLER2.utx"
+  fileSize: 443720
+  hash: "a479c9049b185fbcc344273626c7571f85795236"
+- name: "DM-Jail-TOAOv3.unr"
+  fileSize: 1861884
+  hash: "0ae824b551cd66f5538fbf3e5467a1a73ab922ce"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "TOAO-killer.utx"
+  fileSize: 8312512
+  hash: "55198888853b7d474801e8d4cb2140b08673f660"
+otherFiles: 0
+dependencies:
+  DM-Jail-TOAOv3.unr:
+  - status: "OK"
+    name: "TOAO-killer"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "TOAO-KILLER2"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/J/DM-Jail-TOAOv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Jail-TOAOv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/J/4/4/9ac461/DM-Jail-TOAOv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/J/4/4/9ac461/DM-Jail-TOAOv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-VSK-Jail"
+playerCount: "6 to 14"
+themes:
+  Tech: 0.8
+  Ancient: 0.2
+bots: false

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 22:40"
+game: "Unreal Tournament 2004"
+name: "ONS-Butterfly"
+author: "Timo -SnakeCobra- Sehrbruch"
+description: "Again the Battle takes places high above the roofs of NYC. But now there\
+  \ are big airfights. Do you have what it takes to win?"
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "ONS-Butterfly_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/B/ONS-Butterfly_shot_1.png"
+- type: "IMAGE"
+  name: "ONS-Butterfly_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/B/ONS-Butterfly_shot_2.png"
+originalFilename: "ons-butterfly.zip"
+hash: "0206ab5f151f89ce09185e7161ac0d2df692e19f"
+fileSize: 9448429
+files:
+- name: "SC-Butterfly.utx"
+  fileSize: 1398636
+  hash: "2fad74accbff82334cf480ffd1642e0d042b3234"
+- name: "sc-butterfly.ogg"
+  fileSize: 7597207
+  hash: "b1bfe96cef0a9d950b7cb41049748e7d9b3d850d"
+- name: "SC-Butterfly-Static.usx"
+  fileSize: 94255
+  hash: "bddc6a7765f946af98939b3b328d7c98837a057f"
+- name: "ONS-Butterfly.ut2"
+  fileSize: 3958425
+  hash: "f0d844b0418e319d9063a4625039139a44ec9ac5"
+otherFiles: 2
+dependencies:
+  SC-Butterfly-Static.usx:
+  - status: "OK"
+    name: "SC-Butterfly"
+  ONS-Butterfly.ut2:
+  - status: "OK"
+    name: "SC-Butterfly-Static"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3789"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/B/ons-butterfly.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/B/0/2/06ab5f/ons-butterfly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/B/0/2/06ab5f/ons-butterfly.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "Operation Butterfly"
+playerCount: "2-16"
+themes:
+  Industrial: 1.0
+bots: false

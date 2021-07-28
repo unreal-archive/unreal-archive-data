@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:42"
+game: "Unreal Tournament 2004"
+name: "DM-{MaC}theJourney2k4"
+author: "{MaC}4nik3r"
+description: "None"
+releaseDate: "2004-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-{MaC}theJourney2k4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%7BMaC%7DtheJourney2k4_shot_1.png"
+- type: "IMAGE"
+  name: "DM-{MaC}theJourney2k4_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%7BMaC%7DtheJourney2k4_shot_2.png"
+originalFilename: "dm-thejourney.zip"
+hash: "e4ab6c4d52d7b0de5c78af8147712f4da647624a"
+fileSize: 5137537
+files:
+- name: "test23ms.usx"
+  fileSize: 3102163
+  hash: "96551ff37a40e238cd04e09cc2f54d0e18acc809"
+- name: "DM-{MaC}theJourney2k4.ut2"
+  fileSize: 3036753
+  hash: "d3b75d29cbb369f7ed791881ae0801ab3c6ddf9d"
+- name: "autotx.utx"
+  fileSize: 835929
+  hash: "a7385e79e4b635b48446ce78c591172d2e68a9d4"
+- name: "carisound.ogg"
+  fileSize: 3114849
+  hash: "6cd0a64c67d59e23fb6a3fd62f41ed2d68c90ddd"
+otherFiles: 1
+dependencies:
+  DM-{MaC}theJourney2k4.ut2:
+  - status: "OK"
+    name: "test23ms"
+  - status: "OK"
+    name: "autotx"
+  test23ms.usx:
+  - status: "OK"
+    name: "autotx"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3530"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dm-thejourney.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/e/4/ab6c4d/dm-thejourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/e/4/ab6c4d/dm-thejourney.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{MaC}theJourney"
+playerCount: "Unknown"
+themes: {}
+bots: false

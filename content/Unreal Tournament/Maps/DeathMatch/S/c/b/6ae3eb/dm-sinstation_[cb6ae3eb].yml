@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-12 18:36"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-SinStation"
 author: "Zenman[SiN]"
@@ -35,16 +34,18 @@ dependencies:
   DM-SinStation.unr:
   - status: "OK"
     name: "Store"
-    providedBy: null
   - status: "OK"
     name: "jtex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/c/b/6ae3eb/umod-station.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/c/b/6ae3eb/umod-station.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/c/b/6ae3eb/umod-station.zip"
   main: false
   repack: false
   state: "OK"

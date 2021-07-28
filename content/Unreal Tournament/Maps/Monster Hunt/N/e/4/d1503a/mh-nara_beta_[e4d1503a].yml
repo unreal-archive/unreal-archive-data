@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:00"
+game: "Unreal Tournament"
+name: "MH-nara_Beta"
+author: "Justin"
+description: "None"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "MH-nara_Beta_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/N/MH-nara_Beta_shot_1.png"
+originalFilename: "mh-nara_beta.zip"
+hash: "e4d1503a4dcc68624c44b69d7472d555a0cf8287"
+fileSize: 1918598
+files:
+- name: "MH-nara_Beta.unr"
+  fileSize: 3339541
+  hash: "238d83d2f0e01dc085c07b8f64bd559cab33b873"
+- name: "utend.umx"
+  fileSize: 1460582
+  hash: "f8f00031e8b30670de2d36c3df8fd68cc9574a71"
+otherFiles: 0
+dependencies:
+  MH-nara_Beta.unr:
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "utend"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-nara_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/N/mh-nara_beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-nara_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/N/e/4/d1503a/mh-nara_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/N/e/4/d1503a/mh-nara_beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Nara_Beta"
+playerCount: "5-6"
+themes:
+  Ancient: 0.8
+  Nali Castle: 0.1
+bots: false

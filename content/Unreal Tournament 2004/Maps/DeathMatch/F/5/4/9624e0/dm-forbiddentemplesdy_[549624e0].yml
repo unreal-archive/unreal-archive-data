@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-10-31 11:59"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "DM-ForbiddenTemplesD@Y"
 author: "Final Sage"
@@ -79,17 +78,18 @@ dependencies:
   ShinRyuuSC.usx:
   - status: "OK"
     name: "ShinRyuu"
-    providedBy: null
   SPECIES_ShinRyuu.u:
   - status: "OK"
     name: "ShinRyuuSC"
-    providedBy: null
   - status: "OK"
     name: "ShinRyuu"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/F/5/4/9624e0/ut2k4mdl-shinryuu_re-archive.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/5/4/9624e0/ut2k4mdl-shinryuu_re-archive.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

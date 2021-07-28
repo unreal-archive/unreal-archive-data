@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:39"
+game: "Unreal Tournament"
+name: "DM-FuelDepot_4ZSZ"
+author: "Salty Dog & Jock U Larity"
+description: "Another day dawns, another battle beckons !!!"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-FuelDepot_4ZSZ_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FuelDepot_4ZSZ_shot_1.png"
+originalFilename: "DM-FuelDepot.zip"
+hash: "06c5610e7a5af3f9d14231349dd5d4c8c9924c65"
+fileSize: 13923306
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "FDsounds.uax"
+  fileSize: 393244
+  hash: "d7b68f2ae3d330a5a94c73b80a2013c1be3dcdee"
+- name: "DM-FuelDepot_4ZSZ.unr"
+  fileSize: 8541153
+  hash: "6c71bd6d1051c59aa1ed842b426283daec8d9948"
+- name: "FDpack.u"
+  fileSize: 22486
+  hash: "fbcc8072138f6b8a2205e61e4ad32c6bdf8db783"
+- name: "FDmusic.umx"
+  fileSize: 6329602
+  hash: "2cfefc6eda23709322073d18353bc9e39f549473"
+- name: "FDeptex.utx"
+  fileSize: 4924965
+  hash: "13d67d3e7599f15b8b4e197a7fdd44b73afc620b"
+otherFiles: 0
+dependencies:
+  FDpack.u:
+  - status: "OK"
+    name: "FDeptex"
+  DM-FuelDepot_4ZSZ.unr:
+  - status: "OK"
+    name: "FDsounds"
+  - status: "OK"
+    name: "FDpack"
+  - status: "OK"
+    name: "FDmusic"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "FDeptex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-FuelDepot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FuelDepot.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/0/6/c5610e/DM-FuelDepot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/0/6/c5610e/DM-FuelDepot.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FuelDepot"
+playerCount: "12..32"
+themes:
+  Tech: 0.2
+  Industrial: 0.5
+  City: 0.1
+  Skaarj Tech: 0.3
+bots: true

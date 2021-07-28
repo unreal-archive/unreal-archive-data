@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:50"
+game: "Unreal"
+name: "DMhillbilly1"
+author: "Marazia"
+description: "Watch your six !"
+releaseDate: "2004-07"
+attachments: []
+originalFilename: "hillibilly.zip"
+hash: "703abc279f4e8492c81e42d0b791710a5161b2b5"
+fileSize: 11555055
+files:
+- name: "DMhillbilly1.unr"
+  fileSize: 4953009
+  hash: "0da3fd5730b069b52f176143b4a20b97a6aed64a"
+- name: "ConstantSorrow.umx"
+  fileSize: 8220258
+  hash: "6cc7230f5ca9f1e90d92313557ff0c96393894d6"
+- name: "MWorld.utx"
+  fileSize: 824622
+  hash: "0afeb2b79befe9a2f4bb41b69527343af18b0b67"
+- name: "SequoiaTXT1.utx"
+  fileSize: 3082670
+  hash: "7a41adba00bd649f258661c9fc363535dd5d85f0"
+- name: "SequoiaTXT2.utx"
+  fileSize: 151520
+  hash: "94d9007583272a94b00e91ccfd0da536800c5e11"
+otherFiles: 0
+dependencies:
+  DMhillbilly1.unr:
+  - status: "OK"
+    name: "ConstantSorrow"
+  - status: "MISSING"
+    name: "M01Sky"
+  - status: "OK"
+    name: "MWorld"
+  - status: "OK"
+    name: "SequoiaTXT2"
+  - status: "OK"
+    name: "SequoiaTXT1"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/sinji_maps/hillibilly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/7/0/3abc27/hillibilly.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/7/0/3abc27/hillibilly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/7/0/3abc27/hillibilly.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "HillBillySorrow"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Ancient: 0.1
+  Skaarj Tech: 0.6
+  Nali Castle: 0.2
+bots: false

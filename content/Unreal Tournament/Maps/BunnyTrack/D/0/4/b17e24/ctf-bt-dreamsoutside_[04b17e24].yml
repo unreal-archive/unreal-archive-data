@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:22"
+game: "Unreal Tournament"
+name: "CTF-BT-DreamsOutside"
+author: "Xanx.tdk"
+description: "None"
+releaseDate: "2015-01"
+attachments: []
+originalFilename: "CTF-BT-DreamsOutside.zip"
+hash: "04b17e24706836a056525611a8bafd7ccfae018c"
+fileSize: 16758004
+files:
+- name: "CTF-BT-DreamsOutside.unr"
+  fileSize: 835074
+  hash: "f4963bd535eea8b3eb372639366575792fe283b5"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "Sintec.uax"
+  fileSize: 221811
+  hash: "bfa1eb8b67dbb6acf59d7d1140dae69994b5a077"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "Journey.umx"
+  fileSize: 556161
+  hash: "6fea524c32d65075894686a96a4674669c3240e1"
+otherFiles: 0
+dependencies:
+  CTF-BT-DreamsOutside.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Sintec"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "Journey"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-DreamsOutside.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/D/CTF-BT-DreamsOutside.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-DreamsOutside.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/D/0/4/b17e24/CTF-BT-DreamsOutside.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/D/0/4/b17e24/CTF-BT-DreamsOutside.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "DreamsOutside"
+playerCount: "8-16"
+themes:
+  Tech: 0.5
+  Egyptian: 0.3
+  City: 0.1
+  Natural: 0.1
+bots: false

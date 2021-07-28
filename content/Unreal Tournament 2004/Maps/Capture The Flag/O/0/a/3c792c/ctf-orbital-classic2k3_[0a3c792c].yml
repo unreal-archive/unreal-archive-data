@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 08:32"
+game: "Unreal Tournament 2004"
+name: "CTF-Orbital-Classic2k3"
+author: "[VF]Strawa"
+description: "Remake of UT Orbital map, same UT feeling. Enjoy!"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Orbital-Classic2k3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/O/CTF-Orbital-Classic2k3_shot_1.png"
+originalFilename: "ctf-orbital-classic2k3.zip"
+hash: "0a3c792c19700384a769f663497d432ab3e94bb5"
+fileSize: 5199354
+files:
+- name: "Save_Me.ogg"
+  fileSize: 1871726
+  hash: "a86f01d5b7d58f94611aa91cdf8206d601006b8e"
+- name: "BootsOfJumpingMeshes.usx"
+  fileSize: 114545
+  hash: "6a15ca4345cc6ce58b8a01dbcc3790517c08bdd5"
+- name: "BootsOfJumpingSounds.uax"
+  fileSize: 31257
+  hash: "1e10b0c41eb4fcb63128c002d988ba6a4362080d"
+- name: "CTF-Orbital-Classic2k3.ut2"
+  fileSize: 8446653
+  hash: "b8566cb5688e96252d0f1061736e71e566fd2eda"
+- name: "strawa-orbital-meshes.usx"
+  fileSize: 4573
+  hash: "cc1281a45076d47ac1cc381724f8c1cad777bd5d"
+- name: "BootsOfJumping.u"
+  fileSize: 19549
+  hash: "e547bccd885b31871032514350d027b9464bd0b1"
+- name: "Orbital-strawa.utx"
+  fileSize: 988074
+  hash: "0b2bbad49afd8e917b61a5f9084345e1773e8b01"
+otherFiles: 4
+dependencies:
+  CTF-Orbital-Classic2k3.ut2:
+  - status: "OK"
+    name: "strawa-orbital-meshes"
+  - status: "OK"
+    name: "Orbital-strawa"
+  - status: "OK"
+    name: "BootsOfJumping"
+  BootsOfJumping.u:
+  - status: "OK"
+    name: "BootsOfJumpingMeshes"
+  - status: "OK"
+    name: "BootsOfJumpingSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/O/ctf-orbital-classic2k3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/O/0/a/3c792c/ctf-orbital-classic2k3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/O/0/a/3c792c/ctf-orbital-classic2k3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Orbital Classic 2003"
+playerCount: "Unknown"
+themes: {}
+bots: true

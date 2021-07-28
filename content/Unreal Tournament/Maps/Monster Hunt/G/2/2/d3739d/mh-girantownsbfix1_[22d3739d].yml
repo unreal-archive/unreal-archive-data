@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:20"
+game: "Unreal Tournament"
+name: "MH-GiranTown+SBFix1"
+author: "Red_Fist/Fixes by Barbie"
+description: "Original map, by THUNDERBOLT"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "MH-GiranTown+SBFix1_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/G/MH-GiranTown%2BSBFix1_shot_2.png"
+- type: "IMAGE"
+  name: "MH-GiranTown+SBFix1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/G/MH-GiranTown%2BSBFix1_shot_1.png"
+originalFilename: "MH-GiranTown+SBFix1.7z"
+hash: "22d3739d9575ba56c9092a85f8b0537c892a3249"
+fileSize: 15922189
+files:
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "MH-GiranTown+SBFix1.unr"
+  fileSize: 19057144
+  hash: "61142938b328d2963ec85f6102381add080a55ac"
+- name: "PropertyFlipper.u"
+  fileSize: 10138
+  hash: "54f563748f7052c75961163fc5f98fb0e2bf9420"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "QuakeMPak2.u"
+  fileSize: 2131149
+  hash: "2db1bb954aaf1a6fb18d11a7ed1ce448108ce5cb"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 3
+dependencies:
+  MH-GiranTown+SBFix1.unr:
+  - status: "OK"
+    name: "QuakeMPak2"
+  - status: "OK"
+    name: "PropertyFlipper"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-GiranTown%2BSBFix1.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/G/MH-GiranTown%2BSBFix1.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/G/2/2/d3739d/MH-GiranTown%252BSBFix1.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/2/2/d3739d/MH-GiranTown%252BSBFix1.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-GiranTown"
+playerCount: "1"
+themes:
+  Ancient: 0.9
+  Nali Castle: 0.1
+bots: true

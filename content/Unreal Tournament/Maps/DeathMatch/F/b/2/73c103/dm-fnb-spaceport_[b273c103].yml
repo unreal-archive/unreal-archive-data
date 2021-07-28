@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:42"
+game: "Unreal Tournament"
+name: "DM-FNB-SpacePort"
+author: "Rob -=FraGnBraG=- Burns"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-FNB-SpacePort_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-SpacePort_shot_3.png"
+- type: "IMAGE"
+  name: "DM-FNB-SpacePort_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-SpacePort_shot_2.png"
+- type: "IMAGE"
+  name: "DM-FNB-SpacePort_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-SpacePort_shot_1.png"
+originalFilename: "DM-FNB-SpacePort.zip"
+hash: "b273c1033b884bb9aec86e6c0c21fd61521595cf"
+fileSize: 15602439
+files:
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "DM-FNB-SpacePort.unr"
+  fileSize: 12489524
+  hash: "99522e6f408a42f53e7246627888ba433a3ad4c1"
+otherFiles: 5
+dependencies:
+  DM-FNB-SpacePort.unr:
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "K_vision"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-SpacePort.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-FNB-SpacePort.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/b/2/73c103/DM-FNB-SpacePort.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/b/2/73c103/DM-FNB-SpacePort.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FNB-Spaceport (UTR)"
+playerCount: "10-24"
+themes: {}
+bots: true

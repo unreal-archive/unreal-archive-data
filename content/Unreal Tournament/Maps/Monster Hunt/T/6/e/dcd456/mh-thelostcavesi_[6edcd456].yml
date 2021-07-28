@@ -1,0 +1,93 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:36"
+game: "Unreal Tournament"
+name: "MH-TheLostCaves]I[+"
+author: "Tygra"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-TheLostCaves]I[+_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/MH-TheLostCaves%5DI%5B%2B_shot_1.png"
+originalFilename: "mh-thelostcaves]i[+.zip"
+hash: "6edcd4563953e76e7723c47338d647610937a23a"
+fileSize: 9589766
+files:
+- name: "ty_dxeffects.utx"
+  fileSize: 162605
+  hash: "bdee2294db54c922579d7bbc4897f27a4f25337d"
+- name: "Unreality.u"
+  fileSize: 92382
+  hash: "9138d51986736414028e37cd7ff52b98c93c0831"
+- name: "Unreality2.u"
+  fileSize: 149510
+  hash: "55540beb27bd6fcf1ff44d92e460fa696ec663ab"
+- name: "Found99.umx"
+  fileSize: 708564
+  hash: "1a872cb5ef70d326535354016fdbfa1095e4d919"
+- name: "Spinner.u"
+  fileSize: 1551609
+  hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+- name: "TyUnr.utx"
+  fileSize: 9954142
+  hash: "af21fc27e195d4754f0e95bb23175295cbfbfd4f"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-TheLostCaves]I[+.unr"
+  fileSize: 6203316
+  hash: "119109b873601b7d77de33b7f37e427f0d02da5a"
+otherFiles: 1
+dependencies:
+  Unreality.u:
+  - status: "OK"
+    name: "TyUnr"
+  MH-TheLostCaves]I[+.unr:
+  - status: "OK"
+    name: "Found99"
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "TyUnr"
+  - status: "OK"
+    name: "Unreality"
+  - status: "OK"
+    name: "Unreality2"
+  - status: "OK"
+    name: "ty_dxeffects"
+  - status: "OK"
+    name: "MonsterHunt"
+  Unreality2.u:
+  - status: "PARTIAL"
+    name: "TyUnr"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-thelostcaves%5Di%5B%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/mh-thelostcaves%5Di%5B%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-thelostcaves%5Di%5B%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/T/6/e/dcd456/mh-thelostcaves%255Di%255B%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/6/e/dcd456/mh-thelostcaves%255Di%255B%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Lost Caves"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.2
+  Skaarj Tech: 0.2
+bots: true

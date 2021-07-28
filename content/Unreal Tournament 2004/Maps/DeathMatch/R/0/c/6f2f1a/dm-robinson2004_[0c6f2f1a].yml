@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 21:29"
+game: "Unreal Tournament 2004"
+name: "DM-Robinson2004"
+author: "PapyFireBird"
+description: "DM-Robinson2004: Le soleil se lève ...,c'est une belle journé qui s'annonce\
+  \ ,le sable est chaud et il fait bon vivre sous l ombre des cocotiés .Mais ne vous\
+  \ y fiez pas car beaucoup aimeraient profiter de ce petit coin de paradis.Serez\
+  \ vous capable de défendre votre téritoir..."
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-Robinson2004_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-Robinson2004_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Robinson2004_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-Robinson2004_shot_2.png"
+originalFilename: "dm-robinson2004.zip"
+hash: "0c6f2f1a439d7cb203e866f623e74b31e89cb5f9"
+fileSize: 6379194
+files:
+- name: "robintex.utx"
+  fileSize: 14745149
+  hash: "a0af1fb49e6bc072462dab23f1de56cb5c20010c"
+- name: "DM-Robinson2004.ut2"
+  fileSize: 5188657
+  hash: "654f40796e6e1d97ae3c64320916f6cade48cf7d"
+- name: "robinmesh.usx"
+  fileSize: 3149254
+  hash: "ef4838880c7782d33b59ab87064412a9457ca9f8"
+otherFiles: 3
+dependencies:
+  DM-Robinson2004.ut2:
+  - status: "OK"
+    name: "robintex"
+  - status: "OK"
+    name: "robinmesh"
+  robinmesh.usx:
+  - status: "OK"
+    name: "robintex"
+downloads:
+- url: "https://gamebanana.com/maps/download/15687"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/dm-robinson2004.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2953"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/R/0/c/6f2f1a/dm-robinson2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/0/c/6f2f1a/dm-robinson2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Robinson2004"
+playerCount: "2-5"
+themes:
+  Natural: 1.0
+bots: true

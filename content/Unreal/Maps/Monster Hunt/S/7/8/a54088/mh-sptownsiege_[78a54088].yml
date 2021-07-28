@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:08"
+game: "Unreal"
+name: "MH-[SP]TownSiege"
+author: "THUNDERBOLT"
+description: "None"
+releaseDate: "2011-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-sptownsiege_shot_78a54088_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-sptownsiege_shot_78a54088_1.png"
+originalFilename: "MH-[SP]TownSiege.zip"
+hash: "78a540888e5c82813ab22dcacbe6c2bf414bf4d3"
+fileSize: 20781889
+files:
+- name: "Scotch.umx"
+  fileSize: 880505
+  hash: "71dc165b095da884386b7a3061aec44f6b03068e"
+- name: "MH-[SP]TownSiege.unr"
+  fileSize: 36693986
+  hash: "abf2144043a406b4d48931141a07a8ba8e506493"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "AmbCity.uax"
+  fileSize: 643667
+  hash: "e5a82e544d635b6609e73d0010913d2c08a93ff7"
+otherFiles: 0
+dependencies:
+  MH-[SP]TownSiege.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "AssaultBlueBaller"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "MISSING"
+    name: "AssaultEXU"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "SPAlternatePawns"
+  - status: "OK"
+    name: "AmbCity"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "AssaultSeekNuker"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DTownSiege.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/8/a54088/MH-%255BSP%255DTownSiege.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/8/a54088/MH-%255BSP%255DTownSiege.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Town Siege"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.3
+  Skaarj Tech: 0.4
+  Nali Castle: 0.3
+bots: true

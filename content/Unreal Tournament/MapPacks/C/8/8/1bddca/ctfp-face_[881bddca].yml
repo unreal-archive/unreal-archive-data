@@ -1,7 +1,6 @@
 --- !<MAP_PACK>
 contentType: "MAP_PACK"
 firstIndex: "2019-10-12 18:29"
-variationOf: null
 game: "Unreal Tournament"
 name: "Ctfp Face"
 author: "Various"
@@ -38,11 +37,9 @@ dependencies:
   CTFP-QuickCuddle.unr:
   - status: "OK"
     name: "CTFPlus"
-    providedBy: null
   CTFP-Face.unr:
   - status: "OK"
     name: "CTFPlus"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/8/8/1bddca/ctfp-face.zip"
   main: true
@@ -53,6 +50,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=GameTypes/CTF/CTFPlus/&file=ctfp-face.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/C/8/8/1bddca/ctfp-face.zip"
   main: false
   repack: false
   state: "OK"

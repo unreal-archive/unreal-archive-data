@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:40"
+game: "Unreal"
+name: "DM[SP]DittosPlayground"
+author: "Rattman *Imported from UT by RUSH*"
+description: "Welcome To Rattland"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "DM[SP]DittosPlayground_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/DM%5BSP%5DDittosPlayground_shot_1.png"
+originalFilename: "DM[SP]DittosPlayground.zip"
+hash: "7f26b9d2135e8f9fc92b8db325829979e11b584e"
+fileSize: 10227083
+files:
+- name: "LadderSounds.uax"
+  fileSize: 247341
+  hash: "1437d44dd85b7f96663368ff94903dc4f65b31ed"
+- name: "DM[SP]DittosPlayground.unr"
+  fileSize: 4508242
+  hash: "7827abb8a67b1fa88a0ff236ae55e33a8de7ab21"
+- name: "AnotherThingComin.umx"
+  fileSize: 13717528
+  hash: "50628c3d0dfb64911ae1ff35a11d3d1993c06b32"
+otherFiles: 0
+dependencies:
+  DM[SP]DittosPlayground.unr:
+  - status: "MISSING"
+    name: "AssaultAddon"
+  - status: "MISSING"
+    name: "AssaultChainGun"
+  - status: "OK"
+    name: "LadderSounds"
+  - status: "MISSING"
+    name: "uzi"
+  - status: "MISSING"
+    name: "Egypt"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "OK"
+    name: "AnotherThingComin"
+  - status: "MISSING"
+    name: "Assault_G11"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Assault/&file=DM%5BSP%5DDittosPlayground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Assault/DM%5bSP%5dDittosPlayground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/7/f/26b9d2/DM%5BSP%5DDittosPlayground.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/7/f/26b9d2/DM%255BSP%255DDittosPlayground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/7/f/26b9d2/DM%255BSP%255DDittosPlayground.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Nightyme Playground"
+playerCount: "8-12"
+themes:
+  Egyptian: 1.0
+bots: true

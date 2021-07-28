@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 05:50"
+game: "Unreal Tournament"
+name: "BT-(CN)Uncapturable"
+author: "[i4g]CouilleNoire"
+description: "None"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "BT-(CN)Uncapturable_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/C/BT-(CN)Uncapturable_shot_1.png"
+originalFilename: "bt-(cn)uncapturable.zip"
+hash: "3366dc12300a4461c570eb272c88f3ec6d6fbffd"
+fileSize: 3502550
+files:
+- name: "creature.umx"
+  fileSize: 573658
+  hash: "f16279ff88128e076d94fc1ea473397064183a83"
+- name: "DavidMGras.utx"
+  fileSize: 4386669
+  hash: "d2068bf5a9edcc57ba6ce15c5c9cd350494c4034"
+- name: "BT-(CN)Uncapturable.unr"
+  fileSize: 645169
+  hash: "12006543409d9a6aa54915deace602ca4e532161"
+otherFiles: 0
+dependencies:
+  DavidMGras.utx:
+  - status: "MISSING"
+    name: "ONPFootsteps"
+  BT-(CN)Uncapturable.unr:
+  - status: "OK"
+    name: "DavidMGras"
+  - status: "OK"
+    name: "creature"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-%28cn%29uncapturable.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/C/bt-(cn)uncapturable.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-%28cn%29uncapturable.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-%28cn%29uncapturable.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/C/3/3/66dc12/bt-(cn)uncapturable.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/C/3/3/66dc12/bt-(cn)uncapturable.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-(CN)Uncapturable"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Ancient: 0.8
+  Natural: 0.1
+bots: false

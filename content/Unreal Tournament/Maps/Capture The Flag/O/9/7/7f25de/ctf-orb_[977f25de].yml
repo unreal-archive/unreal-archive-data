@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:25"
+variationOf: "f4c54e5568693512785da2d095d6a921bfc5cf5f"
+game: "Unreal Tournament"
+name: "CTF-Orb"
+author: "Squacky <squacky@ufl.edu>"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-orb_shot_977f25de_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/9/7/7f25de/ctf-orb_shot_977f25de_1.png"
+originalFilename: "ctf-orb.zip"
+hash: "977f25de1f6c350206294bffc0c98aa5d3fa79be"
+fileSize: 2058895
+files:
+- name: "HyperBore.umx"
+  fileSize: 1657898
+  hash: "eb6cfe95f74da5478dd2628003cce1b827830ad9"
+- name: "CTF-Orb.unr"
+  fileSize: 2183719
+  hash: "0900f52384923136bccaee8e2d8a684a8bbf26c2"
+otherFiles: 1
+dependencies:
+  CTF-Orb.unr:
+  - status: "OK"
+    name: "HyperBore"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-orb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/9/7/7f25de/ctf-orb.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/9/7/7f25de/ctf-orb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/9/7/7f25de/ctf-orb.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Orbital CTF Arena"
+playerCount: "8 - 16"
+themes:
+  Industrial: 0.9
+bots: true

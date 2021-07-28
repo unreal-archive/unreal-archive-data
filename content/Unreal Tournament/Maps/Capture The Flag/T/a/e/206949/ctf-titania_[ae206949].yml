@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:40"
+game: "Unreal Tournament"
+name: "CTF-Titania"
+author: "Squacky <squacky@ufl.edu>"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-titania_shot_ae206949_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/e/206949/ctf-titania_shot_ae206949_1.png"
+originalFilename: "ctf-titania.zip"
+hash: "ae206949a6778d9d6af8414ba92f94bcc2f48428"
+fileSize: 2349685
+files:
+- name: "UTDMT.utx"
+  fileSize: 64814
+  hash: "2510c5f58e34ec89b6602f4a152f8c3ad722bcc1"
+- name: "UTDMT.u"
+  fileSize: 67130
+  hash: "78d5d65e93f2312d7d015c4cfdd66513caca77b7"
+- name: "CTF-Titania.unr"
+  fileSize: 3796549
+  hash: "7ad54f461cadcce6e7355337df18d101fe292597"
+- name: "QUAKE3c.utx"
+  fileSize: 1756884
+  hash: "24825a99bdc76cda3eb138fdf37d69e510d560f9"
+otherFiles: 2
+dependencies:
+  CTF-Titania.unr:
+  - status: "OK"
+    name: "UTDMT"
+  - status: "OK"
+    name: "QUAKE3c"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsT/&file=ctf-titania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-titania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsT/ctf-titania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/e/206949/ctf-titania.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/e/206949/ctf-titania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/a/e/206949/ctf-titania.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF - Titania"
+playerCount: "8 to 10"
+themes:
+  Tech: 0.8
+  Skaarj Crypt: 0.1
+bots: true

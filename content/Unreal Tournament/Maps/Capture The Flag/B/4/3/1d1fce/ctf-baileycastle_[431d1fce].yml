@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:10"
+game: "Unreal Tournament"
+name: "CTF-BaileyCastle"
+author: "Deepak O V"
+description: "Welcome to motte and bailey castle."
+releaseDate: "2013-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BaileyCastle_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-BaileyCastle_shot_1.png"
+originalFilename: "CTF-BaileyCastle.zip"
+hash: "431d1fceb32a3b609d393370b93cef70022f8a44"
+fileSize: 2037248
+files:
+- name: "CTF-BaileyCastle.unr"
+  fileSize: 3501537
+  hash: "4df83a911a23839816fa8ae08b3d056396f3b806"
+- name: "SkywardAction.umx"
+  fileSize: 973065
+  hash: "531bb91875305697bd3ba62c93d188c45f98761b"
+otherFiles: 1
+dependencies:
+  CTF-BaileyCastle.unr:
+  - status: "OK"
+    name: "SkywardAction"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-BaileyCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-BaileyCastle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/4/3/1d1fce/CTF-BaileyCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/4/3/1d1fce/CTF-BaileyCastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Motte and Bailey Castle"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Ancient: 0.5
+  Nali Castle: 0.3
+bots: true

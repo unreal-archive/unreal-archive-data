@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:55"
+game: "Unreal Tournament"
+name: "CTF-BT-II-Aztec-v2"
+author: "Isotoxin & Night_Terror"
+description: "Welcome to Aztec Tomb"
+releaseDate: "2012-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-II-Aztec-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT-II-Aztec-v2_shot_1.png"
+originalFilename: "CTF-BT-II-Aztec-v2.rar"
+hash: "318c66c4b37ea262eda863a49fd3e7277e17e4c9"
+fileSize: 8829944
+files:
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "FurryMover3.u"
+  fileSize: 8658
+  hash: "a7734e1bddccae4bda2b155f42432e975e8e8772"
+- name: "CTF-BT-II-Aztec-v2.unr"
+  fileSize: 22071111
+  hash: "92d9391a81fe6ff53161e35830653fb1e80236d6"
+- name: "safecounter.u"
+  fileSize: 1846
+  hash: "16a39aec0a169bf46e463c3459deb970c67d1b58"
+- name: "xm_rainforest.umx"
+  fileSize: 701222
+  hash: "0a6b5a89414274eec03a301b1b9647873d8a7f3e"
+otherFiles: 1
+dependencies:
+  CTF-BT-II-Aztec-v2.unr:
+  - status: "OK"
+    name: "SafeCounter"
+  - status: "OK"
+    name: "xm_rainforest"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "FurryMover3"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-II-Aztec-v2.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT-II-Aztec-v2.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/I/3/1/8c66c4/CTF-BT-II-Aztec-v2.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/I/3/1/8c66c4/CTF-BT-II-Aztec-v2.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Aztec Tomb"
+playerCount: "2-4"
+themes:
+  Skaarj Crypt: 0.1
+  Ancient: 0.9
+bots: false

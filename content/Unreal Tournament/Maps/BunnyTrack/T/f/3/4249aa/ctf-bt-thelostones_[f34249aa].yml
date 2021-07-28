@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 15:06"
+variationOf: "b0f5ff06da553056630ced9fcb5cd4c4742ac297"
+game: "Unreal Tournament"
+name: "CTF-BT-TheLostOnes"
+author: "Lotus"
+description: "Go.. Fight.. RUSH!"
+releaseDate: "2010-02"
+attachments: []
+originalFilename: "CTF-BT-TheLostOnes.rar"
+hash: "f34249aa5abacb7809e9924b480b414c8cf78918"
+fileSize: 20959310
+files:
+- name: "quake3.utx"
+  fileSize: 20127764
+  hash: "68bc9bcad42cc943643aacdd071b2f82d31a5a16"
+- name: "CTF-BT-TheLostOnes.unr"
+  fileSize: 3313353
+  hash: "8652d4beddf1d756c0bfe260cf4fa3bb5381a445"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "seti.umx"
+  fileSize: 682733
+  hash: "d03ccd366d8d31423aaa1055ddb4ddc6e9c5b455"
+- name: "Metalmys.utx"
+  fileSize: 2120359
+  hash: "5bcee20acbaf2c8ccd1eb769995b4611430903c0"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-BT-TheLostOnes.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "quake3"
+  - status: "OK"
+    name: "seti"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-TheLostOnes.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/T/CTF-BT-TheLostOnes.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-TheLostOnes.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/T/f/3/4249aa/CTF-BT-TheLostOnes.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/T/f/3/4249aa/CTF-BT-TheLostOnes.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-Forgotten"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.8
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+bots: false

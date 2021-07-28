@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 20:49"
+game: "Unreal Tournament 2004"
+name: "DM-S3M-METALLICA"
+author: "Bobkov Andrey :: Shadow3 (.:MEDVED:.)"
+description: "Welcome to the Metallica's Training Grounds, somewhere in Black forest."
+releaseDate: "2008-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_3.png"
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_5.png"
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_1.png"
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_7.png"
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_2.png"
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_4.png"
+- type: "IMAGE"
+  name: "DM-S3M-METALLICA_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/DM-S3M-METALLICA_shot_6.png"
+originalFilename: "dm_s3m_metallica.zip"
+hash: "72e75ba6361502fbcf186b7b7e07fef715a7418e"
+fileSize: 29021853
+files:
+- name: "S3MStaticMeshes101.usx"
+  fileSize: 3158865
+  hash: "4a0763196b241a602b8832cff30fed321d671b44"
+- name: "S3MTextures101b.utx"
+  fileSize: 44534335
+  hash: "69e85ea05674116ed5b0fbdc43d868a5e7bde188"
+- name: "DM-S3M-METALLICA.UT2"
+  fileSize: 36397705
+  hash: "b5bd9e81e3343e9d5ee727626aab013ca28af689"
+otherFiles: 8
+dependencies:
+  S3MStaticMeshes101.usx:
+  - status: "OK"
+    name: "S3MTextures101b"
+  DM-S3M-METALLICA.UT2:
+  - status: "OK"
+    name: "S3MStaticMeshes101"
+  - status: "OK"
+    name: "S3MTextures101b"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=12711138"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/dm_s3m_metallica.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/S/7/2/e75ba6/dm_s3m_metallica.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/S/7/2/e75ba6/dm_s3m_metallica.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "METALLICA"
+playerCount: "2-16"
+themes:
+  Ancient: 0.4
+  City: 0.6
+bots: true

@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:05"
+game: "Unreal Tournament"
+name: "DM-ArizanNight"
+author: "Scott \"Deathschy_Hell\" Hrivnak"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-ArizanNight_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-ArizanNight_shot_2.png"
+- type: "IMAGE"
+  name: "DM-ArizanNight_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-ArizanNight_shot_1.png"
+originalFilename: "dm-arizannight.zip"
+hash: "08fa7c3bbc050b6af1d84e6e787b257c7cab1e23"
+fileSize: 5406906
+files:
+- name: "DM-ArizanNight.unr"
+  fileSize: 1798280
+  hash: "b3f3e748cde962a1310d835fbc9e172b8f08c4f9"
+- name: "DLightbox.u"
+  fileSize: 5917
+  hash: "1b66616865553ee16aae464294b1bcc5414db57d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "WarHead.umx"
+  fileSize: 580618
+  hash: "bfd22f83c46243395f54ce1c8e29fe68a0d8cb3a"
+otherFiles: 1
+dependencies:
+  DM-ArizanNight.unr:
+  - status: "OK"
+    name: "WarHead"
+  - status: "OK"
+    name: "DLightbox"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-arizannight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-arizannight.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1653"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/0/8/fa7c3b/dm-arizannight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/0/8/fa7c3b/dm-arizannight.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dm-ArizanNight"
+playerCount: "8-12"
+themes:
+  Tech: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.3
+  Indistrial: 0.4
+bots: true

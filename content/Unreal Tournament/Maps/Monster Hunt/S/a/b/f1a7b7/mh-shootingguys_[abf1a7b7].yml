@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:16"
+variationOf: "b9ac79d22e7c53cf0fc793706e0d477d0da9968f"
+game: "Unreal Tournament"
+name: "MH-ShootingGuys"
+author: "Cygma-N"
+description: "None"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-shootingguys_shot_abf1a7b7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/a/b/f1a7b7/mh-shootingguys_shot_abf1a7b7_1.png"
+originalFilename: "mh-shootingguys.zip"
+hash: "abf1a7b7acc29cce33b20ae7463d258bea0cb82f"
+fileSize: 1795943
+files:
+- name: "av_ktb.umx"
+  fileSize: 2354959
+  hash: "3f697193ffe80d5245f9c62073793ddde598db8e"
+- name: "BPSE.u"
+  fileSize: 137928
+  hash: "63b0d66f6e1a058b8bbfc5d68d82e1edcb8d08d7"
+- name: "BBoyLikePak.u"
+  fileSize: 27144
+  hash: "65dbed8b2e944c75e61b291c51c0479763027c80"
+- name: "BBoyShare.u"
+  fileSize: 171743
+  hash: "d9152592a01e3d9f2c7df8131c81b28f3f60fd90"
+- name: "MH-ShootingGuys.unr"
+  fileSize: 2883602
+  hash: "c603e029cdc7f2fc47a03fd503d825632302b0b9"
+otherFiles: 0
+dependencies:
+  MH-ShootingGuys.unr:
+  - status: "OK"
+    name: "BBoyLikePak"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "BBoyShare"
+  - status: "OK"
+    name: "av_ktb"
+  - status: "OK"
+    name: "BPSE"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-shootingguys.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/mh-shootingguys.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-shootingguys.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/a/b/f1a7b7/mh-shootingguys.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/a/b/f1a7b7/mh-shootingguys.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Shooting Guys"
+playerCount: "1-6"
+themes:
+  Egyptian: 1.0
+bots: false

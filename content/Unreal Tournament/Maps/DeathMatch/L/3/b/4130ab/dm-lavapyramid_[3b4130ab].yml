@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:50"
+game: "Unreal Tournament"
+name: "DM-LavaPyramid"
+author: "Maarten 'Eagle' Tops"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-LavaPyramid_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-LavaPyramid_shot_1.png"
+originalFilename: "dm-lavapyramid.zip"
+hash: "3b4130ab7b96a3f97f6689045d85715b7423761d"
+fileSize: 1134629
+files:
+- name: "WarLord.umx"
+  fileSize: 658746
+  hash: "4e0d7a5c25bba5116970a229a6731a7b239dbfd1"
+- name: "DM-LavaPyramid.unr"
+  fileSize: 2895425
+  hash: "c2c6ce96929b62521c8952b93fbcf6b82eed61b2"
+otherFiles: 1
+dependencies:
+  DM-LavaPyramid.unr:
+  - status: "OK"
+    name: "WarLord"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-lavapyramid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-lavapyramid.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/3/b/4130ab/dm-lavapyramid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/3/b/4130ab/dm-lavapyramid.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Lava Pyramid"
+playerCount: "6 - 12"
+themes:
+  Nali Temple: 0.3
+  Egyptian: 0.6
+  Natural: 0.1
+bots: true

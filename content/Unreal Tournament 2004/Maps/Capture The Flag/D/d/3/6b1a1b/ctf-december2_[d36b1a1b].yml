@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 08:59"
+game: "Unreal Tournament 2004"
+name: "CTF-December2"
+author: "Joe Wilcox with some lighting love from Warren Marshal"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-December2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/CTF-December2_shot_1.png"
+originalFilename: "ctf-december2.zip"
+hash: "d36b1a1b73d6b2c25676b432f555e11cc20b9976"
+fileSize: 3080672
+files:
+- name: "CTF-December2.ut2"
+  fileSize: 11054773
+  hash: "ce35212aad01d45d9714376fb6dd79feb9d7ff03"
+- name: "micro.utx"
+  fileSize: 1748467
+  hash: "bcb8f117396a033ee5f47e5fa905f1f5150615f3"
+otherFiles: 1
+dependencies:
+  CTF-December2.ut2:
+  - status: "OK"
+    name: "micro"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=783"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/ctf-december2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/d/3/6b1a1b/ctf-december2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/d/3/6b1a1b/ctf-december2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "December"
+playerCount: "8-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

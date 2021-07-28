@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-03 16:15"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "TTM 2003 v3.0. Type MENU in the console for in-game menu."
 author: "default anymore"
@@ -35,20 +34,21 @@ dependencies:
   ttm2003_staticmeshes.usx:
   - status: "MISSING"
     name: "TTM2003_HealthTex"
-    providedBy: null
   ttm2003v3.u:
   - status: "OK"
     name: "ttm2003v21_crosshairs"
-    providedBy: null
   - status: "OK"
     name: "ttm2003v2_gametex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/T/ttm2003v3-umod.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/T/f/1/d6a164/ttm2003v3-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/T/f/1/d6a164/ttm2003v3-umod.zip"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:45"
+game: "Unreal Tournament"
+name: "DM-RSA-Zebrastripe"
+author: "[KFH]FoamyGal"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-RSA-Zebrastripe_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-RSA-Zebrastripe_shot_1.png"
+- type: "IMAGE"
+  name: "DM-RSA-Zebrastripe_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-RSA-Zebrastripe_shot_2.png"
+originalFilename: "dm-kfhzebrastripe.zip"
+hash: "cdcc38826f59d18cbe4716d41b358ce02fa735ad"
+fileSize: 897460
+files:
+- name: "CrashTC.umx"
+  fileSize: 1080948
+  hash: "a0e40c3dbb760967be03313d5974202db4fd6693"
+- name: "DM-RSA-Zebrastripe.unr"
+  fileSize: 1267532
+  hash: "46d0c5e1e6351a9a4a5eec4f764477f8aa7c39d7"
+otherFiles: 1
+dependencies:
+  DM-RSA-Zebrastripe.unr:
+  - status: "OK"
+    name: "CrashTC"
+  - status: "MISSING"
+    name: "ATATAttackpf"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-kfhzebrastripe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/dm-kfhzebrastripe.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/c/d/cc3882/dm-kfhzebrastripe.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/c/d/cc3882/dm-kfhzebrastripe.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Pride Arena"
+playerCount: "2-4"
+themes: {}
+bots: false

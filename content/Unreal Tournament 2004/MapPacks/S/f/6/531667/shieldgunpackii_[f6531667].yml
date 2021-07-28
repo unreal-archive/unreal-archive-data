@@ -1,0 +1,95 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-05 15:23"
+game: "Unreal Tournament 2004"
+name: "Shieldgunpackii"
+author: "Jos 'Sjosz' Hendriks"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "Shieldgunpackii_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Shieldgunpackii_shot_4.png"
+- type: "IMAGE"
+  name: "Shieldgunpackii_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Shieldgunpackii_shot_3.png"
+- type: "IMAGE"
+  name: "Shieldgunpackii_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Shieldgunpackii_shot_1.png"
+- type: "IMAGE"
+  name: "Shieldgunpackii_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Shieldgunpackii_shot_2.png"
+originalFilename: "shieldgunpackii.zip"
+hash: "f6531667ed6e3c65f2f03df38d1dfe48a83e59ba"
+fileSize: 5600905
+files:
+- name: "DM-SG-Frozen.ut2"
+  fileSize: 2315145
+  hash: "1526876cb12a6d90a574c51c433e699f6af62bd6"
+- name: "DM-SG-Cenotaph.ut2"
+  fileSize: 2358732
+  hash: "2368eb20349ded12e55f3a4e11e5b32addc7b96a"
+- name: "DM-SG-Grinder.ut2"
+  fileSize: 4878979
+  hash: "3c072a45764ee8f082e7427bf2ea19ca9645acd4"
+- name: "lolshieldgun.u"
+  fileSize: 2655
+  hash: "2e02e4fea4f25341d2189ac3322b10c4c6e76882"
+- name: "DM-SG-Minefield.ut2"
+  fileSize: 11411461
+  hash: "025526d37744ce0b14e63593f1d6cce1a74902fe"
+otherFiles: 7
+dependencies:
+  DM-SG-Cenotaph.ut2:
+  - status: "OK"
+    name: "lolshieldgun"
+  DM-SG-Grinder.ut2:
+  - status: "OK"
+    name: "lolshieldgun"
+  DM-SG-Minefield.ut2:
+  - status: "OK"
+    name: "lolshieldgun"
+  DM-SG-Frozen.ut2:
+  - status: "OK"
+    name: "lolshieldgun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/S/shieldgunpackii.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=3854474"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/MapPacks/&file=shieldgun_pack_v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=shieldgunpackii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/S/f/6/531667/shieldgunpackii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/S/f/6/531667/shieldgunpackii.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-SG-Frozen"
+  title: "Frozen Lake"
+  author: "Jos 'Sjosz' Hendriks"
+- name: "DM-SG-Cenotaph"
+  title: "Scarab"
+  author: "Jos 'Sjosz' Hendriks"
+- name: "DM-SG-Grinder"
+  title: "Slaughterhouse Grinder"
+  author: "Jos 'Sjosz' Hendriks"
+- name: "DM-SG-Minefield"
+  title: "Minefield"
+  author: "Jos 'Sjosz' Hendriks"
+gametype: "DeathMatch"
+themes: {}

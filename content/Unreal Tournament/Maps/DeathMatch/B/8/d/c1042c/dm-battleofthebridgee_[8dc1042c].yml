@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:23"
+game: "Unreal Tournament"
+name: "DM-BattleOfTheBridgeE"
+author: "-=SDA=-Salty Dog & Jock.U.Larity"
+description: "Assault that bridge!"
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-BattleOfTheBridgeE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BattleOfTheBridgeE_shot_1.png"
+originalFilename: "DM-BattleOfTheBridgeE.zip"
+hash: "8dc1042c8b20f4ea7797b38111e6523be9d1b99b"
+fileSize: 14389963
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+- name: "DM-BattleOfTheBridgeE.unr"
+  fileSize: 3943204
+  hash: "85fc1e873a5b31e42aaf46df75654782adbc2dae"
+- name: "WBtex.utx"
+  fileSize: 4413424
+  hash: "ed7f282c18724cc95a341dcd825821535b14ed76"
+- name: "WB2pack.u"
+  fileSize: 56296
+  hash: "5217c4a7ab8c3a1fcf8a9b727ae75d0fb31a8c32"
+- name: "WBsfx.uax"
+  fileSize: 8246074
+  hash: "86037a1bb4d5a1332873c58a4404cf4e8d51e260"
+otherFiles: 0
+dependencies:
+  DM-BattleOfTheBridgeE.unr:
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "WB2pack"
+  - status: "OK"
+    name: "WBsfx"
+  - status: "OK"
+    name: "WBtex"
+  - status: "OK"
+    name: "SGTech1"
+  WB2pack.u:
+  - status: "OK"
+    name: "WBtex"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-BattleOfTheBridgeE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-BattleOfTheBridgeE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/8/d/c1042c/DM-BattleOfTheBridgeE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/8/d/c1042c/DM-BattleOfTheBridgeE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-SDA-Battle Of The Bridge"
+playerCount: "12..32"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Natural: 0.5
+  Indistrial: 0.2
+bots: true

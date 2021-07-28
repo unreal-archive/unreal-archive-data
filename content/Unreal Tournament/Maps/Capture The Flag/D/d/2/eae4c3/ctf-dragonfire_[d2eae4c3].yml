@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:20"
+game: "Unreal Tournament"
+name: "CTF-DragonFire"
+author: "<|DF|>ShadowWraith"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-DragonFire_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/CTF-DragonFire_shot_1.png"
+originalFilename: "ctf-dragonfire.zip.zip"
+hash: "d2eae4c31296a408dee96e7f46fc500549621465"
+fileSize: 1367007
+files:
+- name: "CTF-DragonFire.unr"
+  fileSize: 618982
+  hash: "8699b5203458b07b2a3a44b647e088a1f5b81165"
+- name: "teckno.utx"
+  fileSize: 456904
+  hash: "63778f1335e348ede418322a6c9db1c345c73251"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+otherFiles: 1
+dependencies:
+  CTF-DragonFire.unr:
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "OK"
+    name: "teckno"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-dragonfire.zip.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsD/&file=ctf-dragonfire.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-dragonfire.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-dragonfire.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsD/ctf-dragonfire.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/d/2/eae4c3/ctf-dragonfire.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/d/2/eae4c3/ctf-dragonfire.zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-DragonFire"
+playerCount: "6-10"
+themes:
+  Industrial: 0.2
+  City: 0.4
+  Natural: 0.4
+bots: true

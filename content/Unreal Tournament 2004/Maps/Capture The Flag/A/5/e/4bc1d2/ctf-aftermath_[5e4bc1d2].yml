@@ -1,0 +1,94 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 14:22"
+game: "Unreal Tournament 2004"
+name: "CTF-AfterMath"
+author: "Agent Scully"
+description: "It has been 1000 years since the great battle of timberland and the\
+  \ destruction of the halo ring. This once"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-AfterMath_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/CTF-AfterMath_shot_1.png"
+originalFilename: "ctf-aftermath.7z"
+hash: "5e4bc1d277cd14d566c972f1e8c6a14bc4ff0622"
+fileSize: 10556382
+files:
+- name: "HaloGhostTex.utx"
+  fileSize: 5005320
+  hash: "d5341107316fd17b18894b067c5cdb99de63dd42"
+- name: "Colonialtex.utx"
+  fileSize: 1532115
+  hash: "29742ff1035aecef782fe58fddbdea991a1c3e14"
+- name: "halomeshes.usx"
+  fileSize: 612344
+  hash: "d2f3510e503f443d4253d33883efaf6dac3f914d"
+- name: "HaloTextures.utx"
+  fileSize: 3672810
+  hash: "354776def7322c92cd2c859e8835a9e8b4ddf8d0"
+- name: "HaloGhostSM.usx"
+  fileSize: 315269
+  hash: "5b3246555d2b5cb3692acba28b52de5f16dec08b"
+- name: "HaloVehicles_SM.usx"
+  fileSize: 2722268
+  hash: "786c886940be99b1c6cd215ffd8efe136065a0bf"
+- name: "HaloVehicles_T.utx"
+  fileSize: 4236807
+  hash: "8381d780880f37bd07cce6675b1e43af6d33bd82"
+- name: "CTF-AfterMath.ut2"
+  fileSize: 19239639
+  hash: "173a3f367950372865f77412ce9cab6f29496aac"
+- name: "Colonialmesh.usx"
+  fileSize: 70363
+  hash: "f11573135fefa1e56c0cebb7f45fbe39df8c12a9"
+otherFiles: 1
+dependencies:
+  HaloVehicles_SM.usx:
+  - status: "OK"
+    name: "HaloVehicles_T"
+  halomeshes.usx:
+  - status: "OK"
+    name: "HaloTextures"
+  HaloGhostSM.usx:
+  - status: "OK"
+    name: "HaloGhostTex"
+  CTF-AfterMath.ut2:
+  - status: "OK"
+    name: "HaloGhostSM"
+  - status: "OK"
+    name: "HaloGhostTex"
+  - status: "OK"
+    name: "Colonialmesh"
+  - status: "OK"
+    name: "Colonialtex"
+  - status: "OK"
+    name: "HaloVehicles_SM"
+  - status: "OK"
+    name: "halomeshes"
+  Colonialmesh.usx:
+  - status: "OK"
+    name: "Colonialtex"
+downloads:
+- url: "https://gamebanana.com/maps/download/21212"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/ctf-aftermath.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/5/e/4bc1d2/ctf-aftermath.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/5/e/4bc1d2/ctf-aftermath.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Torlan"
+playerCount: "8-16"
+themes: {}
+bots: true

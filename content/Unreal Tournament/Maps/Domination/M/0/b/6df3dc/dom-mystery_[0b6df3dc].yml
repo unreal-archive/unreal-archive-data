@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:59"
+game: "Unreal Tournament"
+name: "DOM-Mystery"
+author: "Roberto 'Homeslice' Tobar"
+description: "None"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "DOM-Mystery_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/M/DOM-Mystery_shot_1.png"
+originalFilename: "dom-mystery.zip"
+hash: "0b6df3dc9076c30e6a4c012090ba1b12de929a90"
+fileSize: 2122303
+files:
+- name: "Seti.umx"
+  fileSize: 682733
+  hash: "d03ccd366d8d31423aaa1055ddb4ddc6e9c5b455"
+- name: "DOM-Mystery.unr"
+  fileSize: 1168570
+  hash: "15b6f58b971752ac7c6f8e37f78fc3d56ee45336"
+- name: "Hpak01.utx"
+  fileSize: 4655498
+  hash: "a331cc54397eef3c5d405638d86f1d1cd6a08ba2"
+otherFiles: 1
+dependencies:
+  DOM-Mystery.unr:
+  - status: "OK"
+    name: "Seti"
+  - status: "OK"
+    name: "Hpak01"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/M/dom-mystery.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=dom-mystery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=dom-mystery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Domination/dom-mystery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=513"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/M/0/b/6df3dc/dom-mystery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/M/0/b/6df3dc/dom-mystery.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Mystery Condo Complex"
+playerCount: "6-10"
+themes:
+  Nali Temple: 0.4
+  Ancient: 0.4
+  City: 0.2
+bots: true

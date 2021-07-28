@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:18"
+game: "Unreal Tournament"
+name: "DM-Stadium"
+author: "David Lecuirot"
+description: "Lets Rock!"
+releaseDate: "2003-02"
+attachments: []
+originalFilename: "DM-Stadium.zip"
+hash: "08302bd174980d4d5b2a2d6ea5df59cca11da6ec"
+fileSize: 429510
+files:
+- name: "DM-Stadium.unr"
+  fileSize: 252895
+  hash: "6c5573a6089e4fa0e2bf9e8f38c82bc60e50a310"
+- name: "Citytex.utx"
+  fileSize: 115993
+  hash: "c76695b45fb74074fc0cedf05226908e2b66f7d8"
+- name: "StadiumPack.utx"
+  fileSize: 380857
+  hash: "b7ebf998d999014283f20506b825947159c7e954"
+otherFiles: 2
+dependencies:
+  DM-Stadium.unr:
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "StadiumPack"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-Stadium.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-stadium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/0/8/302bd1/DM-Stadium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/0/8/302bd1/DM-Stadium.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Duke3d Stadium"
+playerCount: "12"
+themes:
+  City: 1.0
+bots: true

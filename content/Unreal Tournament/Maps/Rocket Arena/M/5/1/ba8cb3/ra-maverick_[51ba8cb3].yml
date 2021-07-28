@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-16 20:10"
-variationOf: null
 game: "Unreal Tournament"
 name: "RA-Maverick"
 author: "Tyler A. Perry AKA Maverick"
@@ -29,10 +28,8 @@ dependencies:
   RA-Maverick.unr:
   - status: "MISSING"
     name: "RocketArena"
-    providedBy: null
   - status: "OK"
     name: "MavFX"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Rocket%20Arena/M/ra-maverick.zip"
   main: true
@@ -55,6 +52,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Rocket%20Arena/M/5/1/ba8cb3/ra-maverick.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Rocket%20Arena/M/5/1/ba8cb3/ra-maverick.zip"
   main: false
   repack: false
   state: "OK"

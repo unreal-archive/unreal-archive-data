@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 00:09"
+game: "Unreal Tournament 2004"
+name: "CTF-BurgerWars][2k4"
+author: "Paul Verbers aka ManiaC[Esfz]"
+description: "The rise and fall of Ronald McDonald. No time for eating a burger.......you'll\
+  \ be dead before your first bite. So better watch your head!!!"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BurgerWars][2k4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/CTF-BurgerWars%5D%5B2k4_shot_1.png"
+originalFilename: "CTF-BurgerWars][2k4.7z"
+hash: "07bbf81012ce814c7f2f82d983793771efd32197"
+fileSize: 4334731
+files:
+- name: "CTF-BurgerWars][2k4.ut2"
+  fileSize: 6389329
+  hash: "19805aa5c9ce361a38fb81441f2d48136f32cd4b"
+- name: "AmbCity.uax"
+  fileSize: 643667
+  hash: "e5a82e544d635b6609e73d0010913d2c08a93ff7"
+- name: "MacKingTex.utx"
+  fileSize: 4286772
+  hash: "957faa738a9813b15df8fd46571e2e83d87e969d"
+- name: "Lock.ogg"
+  fileSize: 1977508
+  hash: "537982647e917da5c029b41136806b123b3534a3"
+otherFiles: 0
+dependencies:
+  CTF-BurgerWars][2k4.ut2:
+  - status: "OK"
+    name: "MacKingTex"
+  - status: "OK"
+    name: "AmbCity"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/CTF/&file=CTF-BurgerWars%5D%5B2k4.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/CTF-BurgerWars%5D%5B2k4.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/0/7/bbf810/CTF-BurgerWars%255D%255B2k4.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/0/7/bbf810/CTF-BurgerWars%255D%255B2k4.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "BurgerWars][2k4"
+playerCount: "8-12"
+themes:
+  Industrial: 1.0
+bots: true

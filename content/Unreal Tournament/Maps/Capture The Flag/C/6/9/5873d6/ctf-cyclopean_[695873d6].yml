@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:41"
+game: "Unreal Tournament"
+name: "CTF-Cyclopean"
+author: "Mattias \"West\" Westlund"
+description: "None"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Cyclopean_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-Cyclopean_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Cyclopean_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-Cyclopean_shot_1.png"
+originalFilename: "ctf-cyclopean.zip"
+hash: "695873d6c4321e5e11dd649023a5c0d4ccef4b81"
+fileSize: 1776494
+files:
+- name: "Dusk.umx"
+  fileSize: 589723
+  hash: "6e29f13da19add182244286e5d02f7c6fd13eb31"
+- name: "CTF-Cyclopean.unr"
+  fileSize: 2837417
+  hash: "de1e3915cb9a8bedeb5d8007dbb81bd2ce0849b7"
+otherFiles: 2
+dependencies:
+  CTF-Cyclopean.unr:
+  - status: "OK"
+    name: "Dusk"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-cyclopean.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-cyclopean.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4816"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/9/5873d6/ctf-cyclopean.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/6/9/5873d6/ctf-cyclopean.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Cyclopean Temple"
+playerCount: "6-12"
+themes:
+  Nali Temple: 1.0
+bots: true

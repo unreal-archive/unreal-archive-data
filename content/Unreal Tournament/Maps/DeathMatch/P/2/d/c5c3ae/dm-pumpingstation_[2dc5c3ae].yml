@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:32"
+game: "Unreal Tournament"
+name: "DM-PumpingStation"
+author: "KAIN"
+description: "Another UT map by  KAIN"
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "dm-pumpingstation.zip"
+hash: "2dc5c3aebf1643580db0122424a63a0fa5fbe40d"
+fileSize: 3057495
+files:
+- name: "DM-PumpingStation.unr"
+  fileSize: 1435672
+  hash: "15dc26d2f828da62217756e4b13e5f504318b195"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+otherFiles: 1
+dependencies:
+  DM-PumpingStation.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-pumpingstation.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsP/&file=dm-pumpingstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-pumpingstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsP/dm-pumpingstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/2/d/c5c3ae/dm-pumpingstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/2/d/c5c3ae/dm-pumpingstation.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Pumping Station"
+playerCount: "6"
+themes:
+  Ancient: 0.1
+  City: 0.9
+bots: false

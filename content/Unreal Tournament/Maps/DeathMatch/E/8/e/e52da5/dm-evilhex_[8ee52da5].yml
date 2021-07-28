@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:10"
+game: "Unreal Tournament"
+name: "DM-EvilHex"
+author: "Doctor Evil"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-EvilHex_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-EvilHex_shot_1.png"
+originalFilename: "dm-evilhex.zip"
+hash: "8ee52da527b64dbd343f2f11229fe923cbdbcd90"
+fileSize: 550107
+files:
+- name: "Golgoth.umx"
+  fileSize: 922473
+  hash: "39de2b2b35984b5412b7d855f29e28aed6a378e3"
+- name: "DM-EvilHex.unr"
+  fileSize: 235041
+  hash: "37e59c4df93f50616937f73a70e8cb22df6d7f4b"
+otherFiles: 1
+dependencies:
+  DM-EvilHex.unr:
+  - status: "OK"
+    name: "Golgoth"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-evilhex.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsE/&file=dm-evilhex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-EvilHex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsE/dm-evilhex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/8/e/e52da5/dm-evilhex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/8/e/e52da5/dm-evilhex.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Evil Hex"
+playerCount: "4-8"
+themes:
+  Ancient: 0.6
+  Egyptian: 0.4
+bots: true

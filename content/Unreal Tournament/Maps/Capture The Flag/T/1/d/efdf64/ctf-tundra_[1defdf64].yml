@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-10-12 18:24"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-Tundra"
 author: "Arne \"Ether\" Claassen"
@@ -26,7 +25,6 @@ dependencies:
   CTF-Tundra.unr:
   - status: "OK"
     name: "EverSmoke"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/1/d/efdf64/ctf-tundra.zip"
   main: true
@@ -37,6 +35,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/CTF/&file=ctf-tundra.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/1/d/efdf64/ctf-tundra.zip"
   main: false
   repack: false
   state: "OK"

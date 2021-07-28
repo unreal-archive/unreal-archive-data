@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:59"
+game: "Unreal Tournament"
+name: "DM-DiningRoom"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "dm-diningroom.zip"
+hash: "3d61563cca6f9d4153961253de7850a8aaf82579"
+fileSize: 1627606
+files:
+- name: "Mypack.utx"
+  fileSize: 824048
+  hash: "a61358a81e4cccb5a560ceaecaf6fc15806a4c3a"
+- name: "BassQ.umx"
+  fileSize: 757917
+  hash: "3571860e0a62304f9cf61dfa6412f2b5ee9a33dd"
+- name: "DM-DiningRoom.unr"
+  fileSize: 1836586
+  hash: "665d61aac5f10d693de620adb201d0a333041ac4"
+otherFiles: 0
+dependencies:
+  DM-DiningRoom.unr:
+  - status: "OK"
+    name: "Mypack"
+  - status: "OK"
+    name: "BassQ"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-diningroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/3/d/61563c/dm-diningroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/3/d/61563c/dm-diningroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/3/d/61563c/dm-diningroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DiningRoomDD"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

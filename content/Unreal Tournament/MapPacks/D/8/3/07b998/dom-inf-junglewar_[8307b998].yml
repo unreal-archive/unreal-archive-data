@@ -1,0 +1,97 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 23:04"
+game: "Unreal Tournament"
+name: "Dom Inf Junglewar"
+author: "(IF)ECale3"
+description: "None"
+releaseDate: "2002-07"
+attachments: []
+originalFilename: "dom-inf-junglewar.zip"
+hash: "8307b998e13de0ee7a89536e6e67c7953e9cf218"
+fileSize: 1810620
+files:
+- name: "DM-INF-JungleWarfare.unr"
+  fileSize: 1307091
+  hash: "8a8ede602f4b7fc67f5eedccb1e91f751fbea88c"
+- name: "lptmeshes.utx"
+  fileSize: 222636
+  hash: "f49da81366a86e586655caef3440361672767fc8"
+- name: "JungleWar.utx"
+  fileSize: 621009
+  hash: "e2e7efb5559948a0bc05f7f071fcd4bd3c49e25c"
+- name: "lpthighres.u"
+  fileSize: 4072
+  hash: "ac9e07f0ef45e7899854b399f1ce349311dc553c"
+- name: "DOM-INF-JungleWar.unr"
+  fileSize: 1354891
+  hash: "626382ab7d89a932874bef723a8f95381a0248b1"
+otherFiles: 1
+dependencies:
+  DOM-INF-JungleWar.unr:
+  - status: "OK"
+    name: "JungleWar"
+  - status: "OK"
+    name: "lpthighres"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "rw_TerraPack_A"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  DM-INF-JungleWarfare.unr:
+  - status: "OK"
+    name: "JungleWar"
+  - status: "OK"
+    name: "lpthighres"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "rw_TerraPack_A"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  lpthighres.u:
+  - status: "OK"
+    name: "lptmeshes"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dom-inf-junglewar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/dom-inf-junglewar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/8/3/07b998/dom-inf-junglewar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/8/3/07b998/dom-inf-junglewar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DOM-INF-JungleWar"
+  title: "JungleWar"
+  author: "(IF)ECale3"
+- name: "DM-INF-JungleWarfare"
+  title: "JungleWar"
+  author: "(IF)ECale3"
+gametype: "Infiltration"
+themes:
+  Tech: 0.5
+  Natural: 0.1
+  Skaarj Tech: 0.5

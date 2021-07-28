@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:41"
+game: "Unreal Tournament"
+name: "DM-[JAPAN]-Kubik"
+author: "Walm & nekoneko=[SAK]="
+description: "None"
+releaseDate: "2014-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-[JAPAN]-Kubik_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAPAN%5D-Kubik_shot_1.png"
+originalFilename: "DM-[JAPAN]-Kubik.zip"
+hash: "60d2a98123d2ea636f0760952c4fcf3a4e527e43"
+fileSize: 4933379
+files:
+- name: "Covenant.umx"
+  fileSize: 1813718
+  hash: "5cf46bf16dc1f7c9234b1f55dd0bdb79929e8fe0"
+- name: "DM-[JAPAN]-Kubik.unr"
+  fileSize: 5350244
+  hash: "295b36da056f6cdabce24023f3af35fa8d4f78e2"
+- name: "Editor_Neko.u"
+  fileSize: 264280
+  hash: "46e7e62bfb2969c73bdbb2e2d3f40d026a7f7164"
+otherFiles: 0
+dependencies:
+  DM-[JAPAN]-Kubik.unr:
+  - status: "OK"
+    name: "covenant"
+  - status: "OK"
+    name: "Editor_neko"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BJAPAN%5D-Kubik.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAPAN%5D-Kubik.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/J/6/0/d2a981/DM-%255BJAPAN%255D-Kubik.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/J/6/0/d2a981/DM-%255BJAPAN%255D-Kubik.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "NWKubik"
+playerCount: "2 - 4"
+themes:
+  Industrial: 0.4
+  Skaarj Tech: 0.6
+bots: true

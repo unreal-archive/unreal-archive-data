@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:36"
+game: "Unreal Tournament"
+name: "CTF-BT-Foulness"
+author: "*KOCIAN*"
+description: "BT-Foulness"
+releaseDate: "2008-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Foulness_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/F/CTF-BT-Foulness_shot_1.png"
+originalFilename: "CTF-BT-Foulness.zip"
+hash: "d40fe8f15cf107290135536e25766bf0ab43b106"
+fileSize: 5940113
+files:
+- name: "outpost.umx"
+  fileSize: 2833618
+  hash: "e5be150d62253401560e4a59b6320a1b18881bae"
+- name: "tree405.u"
+  fileSize: 198748
+  hash: "6215b64d644a4228870ea429496517405aba233c"
+- name: "CTF-BT-Foulness.unr"
+  fileSize: 9401700
+  hash: "918fede87ec9b0316ba0bf072f23b19715bfd76c"
+otherFiles: 0
+dependencies:
+  CTF-BT-Foulness.unr:
+  - status: "OK"
+    name: "tree405"
+  - status: "OK"
+    name: "outpost"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Foulness.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/F/CTF-BT-Foulness.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/F/d/4/0fe8f1/CTF-BT-Foulness.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/F/d/4/0fe8f1/CTF-BT-Foulness.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Foulness"
+playerCount: "8-12"
+themes:
+  Tech: 0.1
+  Natural: 0.9
+bots: false

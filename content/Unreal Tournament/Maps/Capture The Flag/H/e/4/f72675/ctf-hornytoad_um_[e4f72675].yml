@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:23"
+game: "Unreal Tournament"
+name: "CTF-HornyToad_UM"
+author: "IronMan_Oz"
+description: "Intense! Machine"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-hornytoad_um_shot_e4f72675_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/e/4/f72675/ctf-hornytoad_um_shot_e4f72675_1.png"
+originalFilename: "hornytoad_um.zip"
+hash: "e4f726753040d8bde616c40a7bbb56f908ea9079"
+fileSize: 413431
+files:
+- name: "CTF-HornyToad_UM.unr"
+  fileSize: 919032
+  hash: "d7b2522c731beda5fab7ba83e2f4d5b5c792beef"
+- name: "UMachine.utx"
+  fileSize: 201334
+  hash: "be03a0f344799707eaf8bcaef35069c81be16c76"
+otherFiles: 1
+dependencies:
+  CTF-HornyToad_UM.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "UMachine"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=hornytoad_um.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/hornytoad_um.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/e/4/f72675/hornytoad_um.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/e/4/f72675/hornytoad_um.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Horny Toad Unreal  Machine"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.3
+  Tech: 0.4
+  Industrial: 0.1
+  Skaarj Tech: 0.3
+bots: true

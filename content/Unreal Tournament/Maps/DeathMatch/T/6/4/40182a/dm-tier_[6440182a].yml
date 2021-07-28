@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:37"
+game: "Unreal Tournament"
+name: "DM-Tier"
+author: "DarkED aka Sine Deviance"
+description: "None"
+releaseDate: "2012-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-Tier_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-Tier_shot_1.png"
+originalFilename: "DM-Tier.zip"
+hash: "6440182a7dad85da84e0b0b938e87671d122ff75"
+fileSize: 6669734
+files:
+- name: "DM-Tier.unr"
+  fileSize: 24650815
+  hash: "f130f69b296e1e9b277875cc8be45311b0237815"
+- name: "Tier_HourPitores_Supplemental.utx"
+  fileSize: 267995
+  hash: "a0d6df1db502d9d8aeb26399ca3490d3fb4a6fb5"
+otherFiles: 1
+dependencies:
+  DM-Tier.unr:
+  - status: "OK"
+    name: "Tier_HourPitores_Supplemental"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Tier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/DM-Tier.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/6/4/40182a/DM-Tier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/6/4/40182a/DM-Tier.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Tier Facility"
+playerCount: "2 - 6"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true

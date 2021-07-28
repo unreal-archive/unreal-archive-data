@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:49"
+game: "Unreal Tournament"
+name: "DM-(2)-uSa-Snowgirls2"
+author: "Salty Dog"
+description: "For my friends @ [uSa]"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-(2)-uSa-Snowgirls2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/DM-(2)-uSa-Snowgirls2_shot_1.png"
+originalFilename: "DM-(2)-uSa-Snowgirls2.zip"
+hash: "f358bdfc183de201c0e7ddf4790535336fdf065d"
+fileSize: 6501173
+files:
+- name: "SnowGirlPak.u"
+  fileSize: 124316
+  hash: "cc6445ce0e74c0d92ef51ed8f3684c7fda923caa"
+- name: "WBblank.umx"
+  fileSize: 481
+  hash: "87a226497db323b6ab63193a4cb54893a575cc22"
+- name: "DM-(2)-uSa-Snowgirls2.unr"
+  fileSize: 1193729
+  hash: "887084f1532c5ca38d3fda8a43058e1d25f6e36e"
+- name: "SnowGirlstex.utx"
+  fileSize: 2962283
+  hash: "d8c1f757e8e58aceae77b3964b6f5cd40a04a794"
+- name: "SnowGirlsfx.uax"
+  fileSize: 7697953
+  hash: "b1f1111b75ef0df6b84aa779e6c105955efbe4b3"
+otherFiles: 0
+dependencies:
+  DM-(2)-uSa-Snowgirls2.unr:
+  - status: "OK"
+    name: "SnowGirlstex"
+  - status: "OK"
+    name: "SnowGirlsfx"
+  - status: "OK"
+    name: "SnowGirlPak"
+  - status: "OK"
+    name: "WBblank"
+  SnowGirlPak.u:
+  - status: "OK"
+    name: "SnowGirlstex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%282%29-uSa-Snowgirls2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/DM-(2)-uSa-Snowgirls2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/0/f/3/58bdfc/DM-(2)-uSa-Snowgirls2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/0/f/3/58bdfc/DM-(2)-uSa-Snowgirls2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Merry Christmas [uSa]"
+playerCount: "24"
+themes: {}
+bots: true

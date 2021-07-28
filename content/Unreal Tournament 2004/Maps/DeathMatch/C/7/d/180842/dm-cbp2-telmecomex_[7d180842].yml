@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 17:09"
+game: "Unreal Tournament 2004"
+name: "DM-CBP2-TelMecoMEX"
+author: "Rogelio Olguin"
+description: "In the outskirts of Mexico City that is now know as the City of the\
+  \ worlds has made a little room for the most famous of all sports in the universe\
+  \ known as Liandri Tournaments.  In hopes of the Mexican government to keep people\
+  \ from dying from starvation and the quick depletion of water resources globally\
+  \ they decided to make the Tel Meco Mex water treatment and conservation plant.\
+  \  This Plant has given the last hope to the people of Earth after the famous Skaarj\
+  \ wars left the Earth in famine and completely an utter disorder.  Other countries\
+  \ lined up behind Mexico to combat the aftermath when the idea of the Tel Meco Mex\
+  \ water treatment and conservation plant was constructed.  Mexico is not the wealthiest\
+  \ of nations anymore, but every nation on Earth is thankful for the helping hand\
+  \ Mexico has given them and its people.  These Tel Meco Mex plants only work at\
+  \ half capacity currently.  As a part of history in the rejuvenation of the world\
+  \ Mexico's government has become affiliated with the Liandri to open up a small\
+  \ section for battles to the Death,  to entertain the people of the City of the\
+  \ Worlds"
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-CBP2-TelMecoMEX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-CBP2-TelMecoMEX_shot_1.png"
+originalFilename: "dm-telmecomex.zip"
+hash: "7d180842895008140ce531e98db9a42c87c03e05"
+fileSize: 17044687
+files:
+- name: "Desp-TelMecoMex.usx"
+  fileSize: 1569865
+  hash: "71707c6b4b8fa4d3764125de6f4a859fa526d5f3"
+- name: "The_Freek.ogg"
+  fileSize: 5774167
+  hash: "b20838492d2d527e192da517f99686c2eb33dcf7"
+- name: "DespTel_mecoMEXTEX.utx"
+  fileSize: 10251443
+  hash: "909cffeb5aa45ae6bf51eccc5a8c6c476b011d44"
+- name: "DM-CBP2-TelMecoMEX.ut2"
+  fileSize: 43744160
+  hash: "19c6db38b7664329a6c77dcde297972da71e6491"
+otherFiles: 1
+dependencies:
+  DM-CBP2-TelMecoMEX.ut2:
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+  - status: "OK"
+    name: "Desp-TelMecoMex"
+  Desp-TelMecoMex.usx:
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/dm-telmecomex.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dm-telmecomex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3233"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/7/d/180842/dm-telmecomex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/7/d/180842/dm-telmecomex.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tel Meco Mex"
+playerCount: "4-8"
+themes:
+  Tech: 1.0
+bots: true

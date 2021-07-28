@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:44"
+variationOf: "f896130a63d3e0090eee6e22a3488aa089ef7746"
+game: "Unreal Tournament"
+name: "CTF-MainHQ"
+author: "The_Flurry and Half-Demon"
+description: "None"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-mainhq_shot_ae36dd0b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/a/e/36dd0b/ctf-mainhq_shot_ae36dd0b_1.png"
+originalFilename: "mainhq.zip"
+hash: "ae36dd0ba989e9a1e6f99d09893251530d4c7848"
+fileSize: 4650048
+files:
+- name: "CTF-MainHQ.unr"
+  fileSize: 829579
+  hash: "92dd76607726088643e8a7ccf97b98a38621245c"
+- name: "pb_totalizator.umx"
+  fileSize: 323167
+  hash: "071a09ce4485bee80f8986975d05383f362bf621"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "MyLevel.utx"
+  fileSize: 67007
+  hash: "0004f51dc7f632691b0a570437f35e4810137701"
+otherFiles: 1
+dependencies:
+  CTF-MainHQ.unr:
+  - status: "OK"
+    name: "pb_totalizator"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/mainhq.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsM/&file=mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsMisc/Misc/&file=mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsMisc/&file=mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsM/mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsMisc/mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/a/e/36dd0b/mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/a/e/36dd0b/mainhq.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Main Headquarters"
+playerCount: "1-14"
+themes:
+  Tech: 0.9
+bots: false

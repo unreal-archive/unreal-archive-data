@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:41"
+game: "Unreal"
+name: "CTF[SP]AircraftCarrier"
+author: "Zencoder *Imported from UT by RUSH*"
+description: "Zoom!"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF[SP]AircraftCarrier_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DAircraftCarrier_shot_1.png"
+originalFilename: "CTF[SP]AircraftCarrier.zip"
+hash: "61b5c9998847097a003f9ef4f2481f44ab28a441"
+fileSize: 16824464
+files:
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "RainFX.utx"
+  fileSize: 11444974
+  hash: "d00583021fa26e3554f118e8067b76ab0e8fd849"
+- name: "CTF[SP]AircraftCarrier.unr"
+  fileSize: 1802592
+  hash: "d5c827cfa3f97f34b5f24298c09167d3ad425264"
+- name: "Indus5.utx"
+  fileSize: 3210994
+  hash: "6f701f378df841e8d21f66cd6c66789d9fec0904"
+- name: "AssaultDecor.u"
+  fileSize: 160988
+  hash: "3fd97b99aceffac5926bd4e5ab4b9464a4fe991c"
+otherFiles: 0
+dependencies:
+  CTF[SP]AircraftCarrier.unr:
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "AssaultDecor"
+  - status: "MISSING"
+    name: "Uzi"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "MISSING"
+    name: "AssaultCTF"
+  - status: "OK"
+    name: "RainFX"
+  - status: "OK"
+    name: "Indus5"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF%5BSP%5DAircraftCarrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DAircraftCarrier.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Capture%20The%20Flag/S/6/1/b5c999/CTF%255BSP%255DAircraftCarrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Capture%20The%20Flag/S/6/1/b5c999/CTF%255BSP%255DAircraftCarrier.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF [SP]   - Aircraft Carriers -"
+playerCount: "16-20"
+themes:
+  Tech: 0.3
+  Industrial: 0.4
+  City: 0.2
+  Natural: 0.2
+bots: true

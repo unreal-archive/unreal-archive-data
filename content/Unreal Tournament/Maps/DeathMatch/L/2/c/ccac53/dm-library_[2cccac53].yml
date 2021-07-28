@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:46"
+game: "Unreal Tournament"
+name: "DM-Library"
+author: "Si \"Kain\" Cass"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Library_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-Library_shot_1.png"
+originalFilename: "dm-007library.zip"
+hash: "2cccac537cd51363d5167c51f9c5764565e9563d"
+fileSize: 667107
+files:
+- name: "007Tex.utx"
+  fileSize: 288558
+  hash: "242cffd708578d29eb46b1c23d2161243f8d3afb"
+- name: "Untitled.utx"
+  fileSize: 142023
+  hash: "572e3d43b41125832c40248151556df24d25cc77"
+- name: "DM-Library.unr"
+  fileSize: 1441814
+  hash: "f79d563a14a1cd8e28b6094f8274e2aec0f7859b"
+otherFiles: 1
+dependencies:
+  DM-Library.unr:
+  - status: "OK"
+    name: "007Tex"
+  - status: "OK"
+    name: "Untitled"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-007library.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1534476"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Maps0/&file=dm-007library.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-007library.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/Maps0/dm-007library.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/2/c/ccac53/dm-007library.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/2/c/ccac53/dm-007library.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DOM-Library"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.2
+bots: true

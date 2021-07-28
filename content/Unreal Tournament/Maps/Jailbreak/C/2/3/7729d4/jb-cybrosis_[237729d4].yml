@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:06"
+variationOf: "29cc2bfe3ca3803c1b1ec74ab2014f0517b797af"
+game: "Unreal Tournament"
+name: "JB-Cybrosis]["
+author: "Alan Willard (JB by CoolDude)"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "JB-Cybrosis][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/C/JB-Cybrosis%5D%5B_shot_1.png"
+originalFilename: "jb-cybrosis][.zip"
+hash: "237729d4b8cb52e3f4e8da6d83c00faca621adf3"
+fileSize: 2766697
+files:
+- name: "JBArena.u"
+  fileSize: 93157
+  hash: "289937bfef80b1bd875b6c53e96060119c04369b"
+- name: "JailBreak.u"
+  fileSize: 1483009
+  hash: "ce891867bb5d95830a45674ec8cde6c765f01a2f"
+- name: "Screen.u"
+  fileSize: 309292
+  hash: "1b5cab634e09f393db1832a50eb10d0f46ca67ca"
+- name: "JBSpecials.u"
+  fileSize: 324160
+  hash: "ac3ed7c3c3d3fdc9fe8304204f008c495f34c075"
+- name: "JB-Cybrosis][.unr"
+  fileSize: 8306304
+  hash: "17fb620b6c6024d62de022fdac3dd500695676f6"
+otherFiles: 2
+dependencies:
+  JB-Cybrosis][.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "JBSpecials"
+  - status: "OK"
+    name: "JailBreak"
+  - status: "OK"
+    name: "JBArena"
+  Screen.u:
+  - status: "MISSING"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "ScreenFonts"
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+  JailBreak.u:
+  - status: "MISSING"
+    name: "JBAudio"
+  JBSpecials.u:
+  - status: "OK"
+    name: "JailBreak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-cybrosis%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/C/2/3/7729d4/jb-cybrosis%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/C/2/3/7729d4/jb-cybrosis%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/C/2/3/7729d4/jb-cybrosis%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Cybrosis-]["
+playerCount: "8-12"
+themes: {}
+bots: true

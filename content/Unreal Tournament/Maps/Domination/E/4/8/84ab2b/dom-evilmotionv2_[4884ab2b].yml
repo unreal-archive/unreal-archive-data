@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 23:08"
+game: "Unreal Tournament"
+name: "DOM-EvilMotionV2"
+author: "Doctor Evil"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DOM-EvilMotionV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/E/DOM-EvilMotionV2_shot_1.png"
+originalFilename: "DOM-EvilMotionV2.zip"
+hash: "4884ab2b8b600b0ffbf599a712dfc3065d753e9a"
+fileSize: 227254
+files:
+- name: "blank.umx"
+  fileSize: 37359
+  hash: "a70e48ad2af4a4928a2b8128aea4ba5c36cc0af5"
+- name: "DOM-EvilMotionV2.unr"
+  fileSize: 635896
+  hash: "f568fe6e69c66c0a0c4b02f180ab2e3dda59525e"
+otherFiles: 1
+dependencies:
+  DOM-EvilMotionV2.unr:
+  - status: "OK"
+    name: "blank"
+  - status: "MISSING"
+    name: "rtSounds"
+  - status: "MISSING"
+    name: "CrokxDeco"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=DOM-EvilMotionV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/E/DOM-EvilMotionV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=DOM-EvilMotionV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/E/4/8/84ab2b/DOM-EvilMotionV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/E/4/8/84ab2b/DOM-EvilMotionV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "Evil Motion Sickness, Version 2"
+playerCount: "8-10"
+themes:
+  Industrial: 0.3
+  Ancient: 0.7
+bots: true

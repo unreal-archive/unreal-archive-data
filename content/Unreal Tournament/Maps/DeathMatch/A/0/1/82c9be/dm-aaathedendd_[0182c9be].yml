@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:28"
+game: "Unreal Tournament"
+name: "DM-[AAA]TheDenDD"
+author: "[FSW]"
+description: "Origional Author [FSW] Dilligas"
+releaseDate: "2011-06"
+attachments: []
+originalFilename: "DM-[AAA]TheDenDD.zip"
+hash: "0182c9be7a059aecc174c13e6fb606e5467848ee"
+fileSize: 6221540
+files:
+- name: "Donuttex.utx"
+  fileSize: 1503861
+  hash: "d4a0403c313bc5914a13f999bbc1990383886eaf"
+- name: "LTBHTF-AAA.umx"
+  fileSize: 3347852
+  hash: "b171fcc43a28c3553d9d2687e6880549917372ee"
+- name: "Entertainment.utx"
+  fileSize: 620967
+  hash: "e63cd4950d0772d2fb2515297bdf42af86c39b96"
+- name: "DM-[AAA]TheDenDD.unr"
+  fileSize: 2060527
+  hash: "c892712e59edb8b86ed7c967d3c37cd4181215b6"
+- name: "OurHouse.utx"
+  fileSize: 3910043
+  hash: "4735c9c7e51b1d248aeba489226b5844efc68100"
+otherFiles: 0
+dependencies:
+  DM-[AAA]TheDenDD.unr:
+  - status: "OK"
+    name: "LTBHTF-AAA"
+  - status: "OK"
+    name: "Entertainment"
+  - status: "OK"
+    name: "Donuttex"
+  - status: "OK"
+    name: "OurHouse"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BAAA%5DTheDenDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-%5BAAA%5DTheDenDD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/0/1/82c9be/DM-%255BAAA%255DTheDenDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/0/1/82c9be/DM-%255BAAA%255DTheDenDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TheDenDD"
+playerCount: "2-18"
+themes:
+  Industrial: 1.0
+bots: true

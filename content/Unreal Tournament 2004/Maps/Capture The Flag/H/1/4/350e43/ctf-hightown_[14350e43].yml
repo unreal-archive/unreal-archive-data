@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 09:14"
+game: "Unreal Tournament 2004"
+name: "CTF-HighTown"
+author: "Xiu"
+description: "Will you survive the enemy and vertigo?"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-HighTown_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/CTF-HighTown_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-HighTown_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/CTF-HighTown_shot_2.png"
+originalFilename: "ctf-hightown.zip"
+hash: "14350e43d4ec976b783bc03d94c7274a0faeb01b"
+fileSize: 35462792
+files:
+- name: "CTF-HighTown.ut2"
+  fileSize: 8072322
+  hash: "a17986802020356a10fce3c45b2ee2471e34b667"
+- name: "HighTown.usx"
+  fileSize: 36809197
+  hash: "7a753e32a94d3f4f83f196c7b65842882a4f8a87"
+- name: "HighTown.utx"
+  fileSize: 35006447
+  hash: "608e1c4cc0679a5204849d2fb20bbe432ba632bf"
+otherFiles: 1
+dependencies:
+  CTF-HighTown.ut2:
+  - status: "OK"
+    name: "HighTown"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2345"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/ctf-hightown.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/1/4/350e43/ctf-hightown.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/1/4/350e43/ctf-hightown.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-HighTown"
+playerCount: "4-12"
+themes: {}
+bots: true

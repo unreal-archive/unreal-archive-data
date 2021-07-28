@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-16 20:10"
-variationOf: null
 game: "Unreal Tournament"
 name: "SD-RuwherArena"
 author: "Stefan \"LegalAssassin\" Siverud"
@@ -23,13 +22,10 @@ dependencies:
   SD-RuwherArena.unr:
   - status: "MISSING"
     name: "Smashdroid"
-    providedBy: null
   - status: "MISSING"
     name: "CometArena"
-    providedBy: null
   - status: "MISSING"
     name: "SmashDroidMaps"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/S/sd-ruwherarena.zip"
   main: true
@@ -48,6 +44,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Single%20Player/S/0/8/5bf3e6/sd-ruwherarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Smashdroids/R/0/8/5bf3e6/sd-ruwherarena.zip"
   main: false
   repack: false
   state: "OK"

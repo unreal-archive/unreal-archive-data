@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:31"
+game: "Unreal Tournament"
+name: "CTF-BT-NSMFactory"
+author: "-=(FBT)=-Raylen"
+description: "None"
+releaseDate: "2011-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-NSMFactory_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/N/CTF-BT-NSMFactory_shot_1.png"
+originalFilename: "CTF-BT-NSMFactory.zip"
+hash: "555c8d6f87afff9aeb6c919a6dfefbb0b732b09d"
+fileSize: 18279696
+files:
+- name: "CTF-BT-NSMFactory.unr"
+  fileSize: 32755852
+  hash: "d166ab0c4fd89df53de02eef34e188c21c3a10c0"
+- name: "RayScripts.u"
+  fileSize: 1814
+  hash: "bd473a0b274770d5dbd8a8f6496154ce78862d93"
+- name: "HourKraden_UT.utx"
+  fileSize: 14586278
+  hash: "f90db87bc8d204b8970cb6beed5401b6b4ad4769"
+- name: "FurryKicker.u"
+  fileSize: 3804
+  hash: "17e635a27b375c1ee0bc15f899a3a672b2fb0d7f"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+otherFiles: 1
+dependencies:
+  CTF-BT-NSMFactory.unr:
+  - status: "OK"
+    name: "FurryKicker"
+  - status: "OK"
+    name: "RayScripts"
+  - status: "OK"
+    name: "HourKraden_UT"
+  - status: "OK"
+    name: "Isotoxin"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-NSMFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/N/CTF-BT-NSMFactory.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-NSMFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/N/5/5/5c8d6f/CTF-BT-NSMFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/N/5/5/5c8d6f/CTF-BT-NSMFactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "NSM Factory"
+playerCount: "2+"
+themes:
+  Industrial: 1.0
+bots: false

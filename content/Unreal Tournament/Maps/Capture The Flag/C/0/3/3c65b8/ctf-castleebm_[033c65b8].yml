@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-16 18:16"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-CastleEBM"
 author: "Steven Kimak (Rump Roast)"
@@ -32,10 +31,8 @@ dependencies:
   CTF-CastleEBM.unr:
   - status: "OK"
     name: "EBM"
-    providedBy: null
   - status: "OK"
     name: "CastleEBM"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/ctf-castleebm.zip"
   main: true
@@ -62,6 +59,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/0/3/3c65b8/ctf-castleebm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/0/3/3c65b8/ctf-castleebm.zip"
   main: false
   repack: false
   state: "OK"

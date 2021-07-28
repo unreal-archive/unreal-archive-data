@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:13"
+variationOf: "7f81b95c44c8b9fac19d036a1b44cb6b17f904c7"
+game: "Unreal Tournament"
+name: "DM-Funhouse"
+author: "Brian Kim"
+description: "None"
+releaseDate: "1999-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-funhouse_shot_0a99c540_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/0/a/99c540/dm-funhouse_shot_0a99c540_1.png"
+originalFilename: "dm-funhouse.zip"
+hash: "0a99c5405646802d2abc19c7f9d89d53e526f95b"
+fileSize: 1032237
+files:
+- name: "Funhouse.uax"
+  fileSize: 50044
+  hash: "9811d92f8cbeea5b9451a4cc2e14a511a101eb4d"
+- name: "DM-Funhouse.unr"
+  fileSize: 1114381
+  hash: "151bd3286a779c619e8d2d805590fd021ed06728"
+- name: "shagadelic.utx"
+  fileSize: 1336236
+  hash: "4356aab1392ec1bc9d0dbefa9483a3cd499b8ebb"
+otherFiles: 1
+dependencies:
+  DM-Funhouse.unr:
+  - status: "OK"
+    name: "shagadelic"
+  - status: "OK"
+    name: "Funhouse"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dm-funhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsF/dm-funhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/0/a/99c540/dm-funhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/0/a/99c540/dm-funhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/0/a/99c540/dm-funhouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Funhouse"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

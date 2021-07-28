@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-16 18:25"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-HouseOfCards"
 author: "Nathan Davies"
@@ -29,13 +28,16 @@ dependencies:
   CTF-HouseOfCards.unr:
   - status: "OK"
     name: "HouseOfCards"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/f/c/808672/ctf-houseofcards.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/f/c/808672/ctf-houseofcards.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/f/c/808672/ctf-houseofcards.zip"
   main: false
   repack: false
   state: "OK"

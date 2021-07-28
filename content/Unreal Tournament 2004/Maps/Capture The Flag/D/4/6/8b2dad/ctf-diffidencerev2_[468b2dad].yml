@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 19:58"
+game: "Unreal Tournament 2004"
+name: "CTF-DiffidenceREV2"
+author: "Ryan \"BluJay\" Pendleton"
+description: "\"From equality proceeds diffidence...  From diffidence war.\" -Thomas\
+  \ Hobbes \"Leviathan\""
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-DiffidenceREV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/CTF-DiffidenceREV2_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-DiffidenceREV2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/CTF-DiffidenceREV2_shot_2.png"
+originalFilename: "ctf-diffidence.zip"
+hash: "468b2dad332afbbcba90ad63de630b932d398aec"
+fileSize: 6869155
+files:
+- name: "CathedralJunkT.utx"
+  fileSize: 8413909
+  hash: "6f03c067980dc823400383a9b2fe806480e5c56f"
+- name: "CTF-DiffidenceREV2.ut2"
+  fileSize: 9612497
+  hash: "3c8162a17668a1a3db75721edff166d93817829a"
+- name: "CathedralJunk.usx"
+  fileSize: 2467386
+  hash: "638652b7d177cec88acce0506429fd6b94b82aa3"
+otherFiles: 2
+dependencies:
+  CathedralJunk.usx:
+  - status: "OK"
+    name: "CathedralJunkT"
+  CTF-DiffidenceREV2.ut2:
+  - status: "OK"
+    name: "CathedralJunkT"
+  - status: "OK"
+    name: "CathedralJunk"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/ctf-diffidence.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1477"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/4/6/8b2dad/ctf-diffidence.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/4/6/8b2dad/ctf-diffidence.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Diffidence Rev 1"
+playerCount: "8"
+themes:
+  Egyptian: 0.9
+  Ancient: 0.1
+bots: true

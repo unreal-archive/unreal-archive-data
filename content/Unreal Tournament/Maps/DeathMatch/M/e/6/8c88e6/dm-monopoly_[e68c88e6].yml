@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:33"
+game: "Unreal Tournament"
+name: "DM-Monopoly"
+author: "J. Martin - www.geocities.com/j4unreal"
+description: "One rainy afternoon..."
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-monopoly_shot_e68c88e6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/e/6/8c88e6/dm-monopoly_shot_e68c88e6_1.png"
+originalFilename: "DM-Monopoly.zip"
+hash: "e68c88e658b0969d9070c50b0c09af815548ddab"
+fileSize: 695073
+files:
+- name: "DMCmono.utx"
+  fileSize: 1928793
+  hash: "91c8e2ba6e3cf8ac1395b24208e7cc1a26aff540"
+- name: "DMCmonox.uax"
+  fileSize: 10979
+  hash: "51e795c1dda7e1a77d617a62e86fc09db2b8d25c"
+- name: "DM-Monopoly.unr"
+  fileSize: 2150696
+  hash: "e6e5ec2169b8a0b4c83dd5970249c8a63572ffb7"
+otherFiles: 1
+dependencies:
+  DM-Monopoly.unr:
+  - status: "OK"
+    name: "DMCmonox"
+  - status: "OK"
+    name: "DMCmono"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/ut_only_maps/DM-Monopoly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/e/6/8c88e6/DM-Monopoly.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/e/6/8c88e6/DM-Monopoly.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/e/6/8c88e6/DM-Monopoly.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Monopoly"
+playerCount: "Unknown"
+themes: {}
+bots: true

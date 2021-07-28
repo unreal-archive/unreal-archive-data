@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:16"
+game: "Unreal Tournament"
+name: "DM-SkaarjStorage"
+author: "Rogelio \"Desperado#2\" Olguin"
+description: "Welcome to my level :)"
+releaseDate: "2007-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-SkaarjStorage_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-SkaarjStorage_shot_1.png"
+originalFilename: "DM-SkaarjStorage.zip"
+hash: "b3548f0e2c80ab43f2f8faf964ad1da1b62b80a7"
+fileSize: 1641033
+files:
+- name: "DM-SkaarjStorage.unr"
+  fileSize: 2754231
+  hash: "0ca04462523b150c54efb029b11b5294fc963041"
+- name: "breaks8.umx"
+  fileSize: 1999898
+  hash: "20edd8a5f954d15757c16c978c4a1d9433057816"
+otherFiles: 0
+dependencies:
+  DM-SkaarjStorage.unr:
+  - status: "OK"
+    name: "breaks8"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-SkaarjStorage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-SkaarjStorage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/b/3/548f0e/DM-SkaarjStorage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/b/3/548f0e/DM-SkaarjStorage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Skaarj Storage Station"
+playerCount: "4-10"
+themes:
+  Natural: 0.6
+  Skaarj Tech: 0.4
+bots: true

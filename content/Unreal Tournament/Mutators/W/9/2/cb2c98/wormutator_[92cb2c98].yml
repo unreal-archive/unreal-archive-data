@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-05-09 18:19"
+variationOf: "c740adefa8b0d607a4a3e9f879b382ca93203592"
+game: "Unreal Tournament"
+name: "**WORMutator**"
+author: "Unknown"
+description: " Choose what weapons and powerups you want to play with, By J.Follis"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "worm141.zip"
+hash: "92cb2c9887a5ada498ffce192b107150d2917b3b"
+fileSize: 103039
+files:
+- name: "WORMreplacer.u"
+  fileSize: 277759
+  hash: "8eae1010b80d400e77f91121ffc11898148323cf"
+- name: "WORMmenu.u"
+  fileSize: 69985
+  hash: "fa423b1e34c0351c68c634e0c26ec1c053df182b"
+otherFiles: 4
+dependencies:
+  WORMmenu.u:
+  - status: "OK"
+    name: "WORMreplacer"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=worm141.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/W/9/2/cb2c98/worm141.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/W/9/2/cb2c98/worm141.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "**WORMutator**"
+  description: " Choose what weapons and powerups you want to play with, By J.Follis"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

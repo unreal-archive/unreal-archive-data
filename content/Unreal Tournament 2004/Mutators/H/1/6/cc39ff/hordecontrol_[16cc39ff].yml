@@ -1,0 +1,58 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-20 00:26"
+variationOf: "fd4d510ff85ba8b94cc509d945d3f02e1f71e83f"
+game: "Unreal Tournament 2004"
+name: "HordeControl"
+author: "Kangus"
+description: ""
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "WyRM-HC-r1.zip"
+hash: "16cc39ff295ec1329e35a79ac0fb21789d9bfc90"
+fileSize: 1200432
+files:
+- name: "Evil.u"
+  fileSize: 25488
+  hash: "54723782ff826654f445c1d8de426e0cb1dcbe7a"
+- name: "Kang_MonsterSkins.utx"
+  fileSize: 2186835
+  hash: "ead0ebf38ab078d44879b75b72ecf8cad54ea17b"
+- name: "Invasion_Kang.u"
+  fileSize: 117625
+  hash: "b52705a2fd815dfdf6dda0adb45835df8717ee5b"
+- name: "SangHC.u"
+  fileSize: 8150
+  hash: "e3534824f1d63d92dbd0b929627410d5f198537c"
+- name: "SangHCSkins.utx"
+  fileSize: 88979
+  hash: "79fcbc86e5562a9d16a75d173226d3ad62e18be3"
+otherFiles: 2
+dependencies:
+  Invasion_Kang.u:
+  - status: "OK"
+    name: "Kang_MonsterSkins"
+  SangHC.u:
+  - status: "OK"
+    name: "SangHCSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/WyRM-HC-r1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/H/1/6/cc39ff/WyRM-HC-r1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/H/1/6/cc39ff/WyRM-HC-r1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "HordeControl"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

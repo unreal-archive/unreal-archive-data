@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:36"
+game: "Unreal Tournament"
+name: "CTF-BT-Overnight-v2"
+author: "Janttu"
+description: "VRN Clan Owns"
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Overnight-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/O/CTF-BT-Overnight-v2_shot_1.png"
+originalFilename: "CTF-BT-Overnight-v2.zip"
+hash: "3da2ec2855e3f1dc050d937096f78ad8e5e49e8f"
+fileSize: 20292699
+files:
+- name: "Quake3.utx"
+  fileSize: 20127764
+  hash: "68bc9bcad42cc943643aacdd071b2f82d31a5a16"
+- name: "CTF-BT-Overnight-v2.unr"
+  fileSize: 4628959
+  hash: "de195504d125caef1c30f14eb80b92353a2aeace"
+- name: "NBMiriel.umx"
+  fileSize: 4022786
+  hash: "983ebfec77112771d04872e2a8fbe9be13e3ff87"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+otherFiles: 0
+dependencies:
+  Jump.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+  CTF-BT-Overnight-v2.unr:
+  - status: "OK"
+    name: "Quake3"
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "NBMiriel"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-Overnight-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/O/CTF-BT-Overnight-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Overnight-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/O/3/d/a2ec28/CTF-BT-Overnight-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/O/3/d/a2ec28/CTF-BT-Overnight-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BunnyTrack: Overnight (v2)"
+playerCount: "1-10"
+themes:
+  Tech: 0.9
+  Natural: 0.1
+bots: false

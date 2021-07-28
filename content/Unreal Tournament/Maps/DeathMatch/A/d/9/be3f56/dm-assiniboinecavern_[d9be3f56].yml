@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:07"
+game: "Unreal Tournament"
+name: "DM-AssiniboineCavern"
+author: "Idlewild"
+description: "None"
+releaseDate: "1999-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-AssiniboineCavern_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AssiniboineCavern_shot_1.png"
+- type: "IMAGE"
+  name: "DM-AssiniboineCavern_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AssiniboineCavern_shot_2.png"
+originalFilename: "dm-assiniboinecavern.zip"
+hash: "d9be3f566812c69476530ddd4a5469c962940629"
+fileSize: 12370322
+files:
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "SSColdSteel.utx"
+  fileSize: 3315728
+  hash: "4930587c29b952d568b6d7eff1dfb5102fe14d53"
+- name: "Sindemo.utx"
+  fileSize: 1541138
+  hash: "20d27b776d626e2c33df5833a43791177c0aa842"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+- name: "DM-AssiniboineCavern.unr"
+  fileSize: 12085957
+  hash: "646a69a815c9131c8e953aa7dc501cb7492ce017"
+- name: "TO-Alien.utx"
+  fileSize: 902483
+  hash: "8735bc6bccc2fd1088a5635cfdad8704939a9dfa"
+- name: "city_tex3.utx"
+  fileSize: 1148826
+  hash: "835ae368210092d5d1546549b8f8aef86c598b3e"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 2
+dependencies:
+  DM-AssiniboineCavern.unr:
+  - status: "OK"
+    name: "SSColdSteel"
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "city_tex3"
+  - status: "OK"
+    name: "Sindemo"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "TO-Alien"
+  - status: "OK"
+    name: "cbrad_indus"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-assiniboinecavern.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-assiniboinecavern.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=771"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/d/9/be3f56/dm-assiniboinecavern.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/d/9/be3f56/dm-assiniboinecavern.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Assiniboine Cavern"
+playerCount: "8-24"
+themes:
+  Nali Temple: 0.5
+  Natural: 0.1
+  Skaarj Tech: 0.4
+bots: true

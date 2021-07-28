@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:50"
+game: "Unreal"
+name: "DmJurassicPark-a12"
+author: "Jeff Martin. www.geocities.com/j4unreal"
+description: "Welcome to Jurassic Park."
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "dmjurassicpark-a12_shot_96b3fb6d_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/J/9/6/b3fb6d/dmjurassicpark-a12_shot_96b3fb6d_2.png"
+- type: "IMAGE"
+  name: "dmjurassicpark-a12_shot_96b3fb6d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/J/9/6/b3fb6d/dmjurassicpark-a12_shot_96b3fb6d_1.png"
+originalFilename: "jurassicpark.zip"
+hash: "96b3fb6dd88c0951bd953a91797171012c00ebe9"
+fileSize: 2679403
+files:
+- name: "Lindstradt.u"
+  fileSize: 10100
+  hash: "15321cb11855d11fd0020c2e905bd80df15709a8"
+- name: "DmJurassicPark-a12Night.unr"
+  fileSize: 1934332
+  hash: "07d46f56b7af87936a1f2a3808e992f8a496961d"
+- name: "JurassicPark2.utx"
+  fileSize: 791887
+  hash: "43e39d6935b1a6e386d090b3ed9e1499de9fd526"
+- name: "DmJurassicPark-a12.unr"
+  fileSize: 1922761
+  hash: "be96efe9a9e441baa1ef90350036aaacae49b64a"
+- name: "JurassicParkSnd.uax"
+  fileSize: 512889
+  hash: "5afcccaaed230ccda06fd461d413497d7c67578b"
+- name: "JurassicPark.utx"
+  fileSize: 1490063
+  hash: "8a2ce071da06e2417b436358ff3422016f1f3732"
+- name: "JurassicParkS2.uax"
+  fileSize: 271757
+  hash: "fc2a1ff905bd25063c75c205bb72f5ab426159dc"
+otherFiles: 2
+dependencies:
+  DmJurassicPark-a12Night.unr:
+  - status: "OK"
+    name: "JurassicPark2"
+  - status: "OK"
+    name: "JurassicPark"
+  - status: "OK"
+    name: "JurassicParkSnd"
+  - status: "OK"
+    name: "Lindstradt"
+  - status: "MISSING"
+    name: "jurassic"
+  DmJurassicPark-a12.unr:
+  - status: "OK"
+    name: "JurassicPark2"
+  - status: "OK"
+    name: "JurassicPark"
+  - status: "OK"
+    name: "JurassicParkSnd"
+  - status: "OK"
+    name: "Lindstradt"
+  - status: "MISSING"
+    name: "jurassic"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/jurassicpark.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/J/9/6/b3fb6d/jurassicpark.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/J/9/6/b3fb6d/jurassicpark.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/J/9/6/b3fb6d/jurassicpark.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Jurassic Park"
+playerCount: "Unknown"
+themes:
+  Tech: 0.4
+  Natural: 0.6
+bots: true

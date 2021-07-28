@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:43"
+game: "Unreal Tournament"
+name: "DM-TheConstruct"
+author: "Sgt.G"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-TheConstruct_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-TheConstruct_shot_1.png"
+originalFilename: "dm-theconstruct.zip"
+hash: "f94b8f74ec2570c96da27a7b1d203d45576ebcd6"
+fileSize: 11593360
+files:
+- name: "Matex.utx"
+  fileSize: 4288342
+  hash: "0ceb9d7cbfd84fa5ecf5985ec746107a530724a8"
+- name: "Industrial_Pack1.u"
+  fileSize: 2164988
+  hash: "e48d99d0577ec376c0a55d505601db7378af9c28"
+- name: "KosovoTex.utx"
+  fileSize: 863237
+  hash: "71e9445bf56480be22b9e199cc8efadd10303c11"
+- name: "DM-TheConstruct.unr"
+  fileSize: 3607570
+  hash: "e36e927995c9e694b9b065c1a66d68667da88ce3"
+- name: "FractalFX.utx"
+  fileSize: 1417366
+  hash: "aa5436e45b090cdaeec0e9f87e51e8ab2596c631"
+- name: "chaostex2.utx"
+  fileSize: 773339
+  hash: "9235522c366ba7a8140cdff84f1d2070bfd09335"
+- name: "chaostex.utx"
+  fileSize: 20485021
+  hash: "4653c099c4f73ac86c0f5bc6eab05c08a022bc4f"
+otherFiles: 2
+dependencies:
+  DM-TheConstruct.unr:
+  - status: "OK"
+    name: "Industrial_Pack1"
+  - status: "OK"
+    name: "Matex"
+  - status: "OK"
+    name: "KosovoTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/dm-theconstruct.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dm-theconstruct.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-theconstruct.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsT/dm-theconstruct.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/f/9/4b8f74/dm-theconstruct.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/f/9/4b8f74/dm-theconstruct.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Matrix Construct"
+playerCount: "12-16"
+themes:
+  Tech: 0.3
+  City: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.4
+bots: true

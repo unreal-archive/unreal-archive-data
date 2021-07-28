@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:48"
+game: "Unreal Tournament 2004"
+name: "CTF-Dana"
+author: "kurt'commander_keen'loeffler"
+description: "In one of the largest middle eastern deserts under the hot sand was\
+  \ a temple. Recently uncovered by the Human/Skaarj war, this temple was bought by\
+  \ Liandri. the torches where lit, weapons placed, and the fights began... | | |\
+  \ ...once again, Bright As Day..."
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Dana_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/CTF-Dana_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Dana_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/CTF-Dana_shot_1.png"
+originalFilename: "ctf-dana.zip"
+hash: "7fd91d77adcb6b2fb1c78fe935cd2bc8d54df73f"
+fileSize: 12752898
+files:
+- name: "CTF-Dana.ut2"
+  fileSize: 22047204
+  hash: "3f78a11b76351539fd0416998a3b37ee42275b64"
+- name: "k_persia_tex.utx"
+  fileSize: 16642253
+  hash: "61f091219a40cab1ca08d07d2d99d70b5e0e63bd"
+- name: "k_persian_static.usx"
+  fileSize: 1359445
+  hash: "4e1bde9a6697433f5e3f667927dd90e413bda685"
+otherFiles: 2
+dependencies:
+  k_persian_static.usx:
+  - status: "OK"
+    name: "k_persia_tex"
+  CTF-Dana.ut2:
+  - status: "OK"
+    name: "k_persian_static"
+  - status: "OK"
+    name: "k_persia_tex"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsD/&file=ctf-dana.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/ctf-dana.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-dana.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-dana.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsD/ctf-dana.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://gamebanana.com/maps/download/15905"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2479"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/7/f/d91d77/ctf-dana.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/7/f/d91d77/ctf-dana.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Dana"
+playerCount: "4"
+themes:
+  Ancient: 1.0
+bots: true

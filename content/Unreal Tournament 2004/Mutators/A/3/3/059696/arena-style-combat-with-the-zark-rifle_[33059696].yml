@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:49"
+game: "Unreal Tournament 2004"
+name: "Arena-style combat with the Zark Rifle"
+author: "Dade"
+description: ""
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "ZarkArena.zip"
+hash: "33059696d6fd7eb6ef203b6496fc9047531cb3d9"
+fileSize: 9228
+files:
+- name: "ZarkArena.u"
+  fileSize: 22074
+  hash: "4e2082ff86b30b8acaf8b4ecb9904f46214bf2da"
+otherFiles: 2
+dependencies:
+  ZarkArena.u:
+  - status: "MISSING"
+    name: "NewWeapons2004"
+  - status: "MISSING"
+    name: "SniperAnims"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/ZarkArena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/A/3/3/059696/ZarkArena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/3/3/059696/ZarkArena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Arena-style combat with the Zark Rifle"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

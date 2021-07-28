@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 11:17"
+game: "Unreal Tournament 2004"
+name: "DM-TheBlackCrypt"
+author: "Brian'Bah_Mee'Johnson"
+description: "Deep in the heart of the Ebon Desert lies the dreaded Black Crypt. \
+  \ A refuge for black arts cultists, this temple leeches its own energy from the\
+  \ spirits of the dead."
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-TheBlackCrypt_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-TheBlackCrypt_shot_1.png"
+originalFilename: "dm-theblackcrypt.zip"
+hash: "8069941778f5f76ceb91f844e28661b1c63a748c"
+fileSize: 11540828
+files:
+- name: "PIT.utx"
+  fileSize: 10775650
+  hash: "b4562479770acf403eaa28c5ec970bff4a1f9042"
+- name: "DM-TheBlackCrypt.ut2"
+  fileSize: 16874230
+  hash: "c6a28d7572b5490925c20d7f79e82b8b11932c7f"
+- name: "Brianmeshes.usx"
+  fileSize: 2853389
+  hash: "fa6a88ec334329418fc8af220afe7bc3ffa8ad0e"
+otherFiles: 1
+dependencies:
+  DM-TheBlackCrypt.ut2:
+  - status: "OK"
+    name: "Brianmeshes"
+  - status: "OK"
+    name: "PIT"
+  Brianmeshes.usx:
+  - status: "OK"
+    name: "PIT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/T/dm-theblackcrypt.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/T/8/0/699417/dm-theblackcrypt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/8/0/699417/dm-theblackcrypt.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Black Crypt"
+playerCount: "4"
+themes:
+  Ancient: 0.9
+bots: true

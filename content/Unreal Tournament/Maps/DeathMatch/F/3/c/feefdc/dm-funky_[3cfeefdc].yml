@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:39"
+game: "Unreal Tournament"
+name: "DM-Funky+"
+author: "\"TYGRA\" Dmitry Gribanoff"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-Funky+_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-Funky%2B_shot_1.png"
+originalFilename: "DM-Funky+.zip"
+hash: "3cfeefdce3c3cb72eb6d09560eec893a283b4abb"
+fileSize: 9678321
+files:
+- name: "Justforthefunkof.umx"
+  fileSize: 1497395
+  hash: "83b7edb631a87aad8df66d590d6f380a7c08c1d1"
+- name: "DM-Funky+.unr"
+  fileSize: 6233645
+  hash: "09953c9f986a548d6c787ac3eefdab44cdacce0b"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "SkeletalChars.u"
+  fileSize: 1591818
+  hash: "345d2658bbc6bcc7ded148ab723161280569e0a7"
+- name: "MatrixMov.utx"
+  fileSize: 2137802
+  hash: "c0476196a2cc2f41a336df8b91d2cca6694804fd"
+otherFiles: 1
+dependencies:
+  DM-Funky+.unr:
+  - status: "OK"
+    name: "SkeletalChars"
+  - status: "OK"
+    name: "Justforthefunkof"
+  - status: "OK"
+    name: "MatrixMov"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Funky%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-Funky%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/3/c/feefdc/DM-Funky%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/3/c/feefdc/DM-Funky%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Funky in St.Petersburg +"
+playerCount: "Map for Two"
+themes: {}
+bots: true

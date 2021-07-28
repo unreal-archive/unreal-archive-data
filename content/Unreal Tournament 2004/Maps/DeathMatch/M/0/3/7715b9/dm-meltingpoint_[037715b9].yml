@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 20:28"
+game: "Unreal Tournament 2004"
+name: "DM-MeltingPoint"
+author: "Aquarius"
+description: "Set on Cratu 5 a planet known for its volcanic activities, in an abandoned\
+  \ power plant which used to produce energy with the help of the local volcanoes."
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-MeltingPoint_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MeltingPoint_shot_1.png"
+- type: "IMAGE"
+  name: "DM-MeltingPoint_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-MeltingPoint_shot_2.png"
+originalFilename: "dm-meltingpoint.zip"
+hash: "037715b9bda7d8ac0e4f30982c1c8196526d7425"
+fileSize: 4469371
+files:
+- name: "DM-MeltingPoint.ut2"
+  fileSize: 1617932
+  hash: "83daba73c6bcc57273840ff7dcb00fbbbae8d369"
+- name: "Aquarius_Meshes.usx"
+  fileSize: 3507682
+  hash: "6a83ec57a909ae6374668a4680a4147a41433b91"
+- name: "Aquarius_Textures.utx"
+  fileSize: 3439193
+  hash: "8fb7ce8527e5647507f8eed6fc1e46394ed31121"
+otherFiles: 2
+dependencies:
+  Aquarius_Meshes.usx:
+  - status: "OK"
+    name: "Aquarius_Textures"
+  DM-MeltingPoint.ut2:
+  - status: "OK"
+    name: "Aquarius_Meshes"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4245"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dm-meltingpoint.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/0/3/7715b9/dm-meltingpoint.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/0/3/7715b9/dm-meltingpoint.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Melting Point"
+playerCount: "2-4"
+themes: {}
+bots: true

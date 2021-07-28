@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:25"
+game: "Unreal Tournament"
+name: "DM-Miniarena"
+author: "Viper - Nuklear Fusion"
+description: "Welcome ...... to the MiniArena"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-miniarena_shot_3e985762_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/3/e/985762/dm-miniarena_shot_3e985762_1.png"
+originalFilename: "dm-miniarena.zip"
+hash: "3e985762f6930a6f70fa0784674b44637cba0873"
+fileSize: 963544
+files:
+- name: "DM-Miniarena.unr"
+  fileSize: 656898
+  hash: "71842f40737216cd5bafb31c01197ec1edc07eec"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+otherFiles: 1
+dependencies:
+  DM-Miniarena.unr:
+  - status: "OK"
+    name: "MTextSetA"
+  - status: "OK"
+    name: "K_vision"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-miniarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-miniarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-miniarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-miniarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/3/e/985762/dm-miniarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/3/e/985762/dm-miniarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ancient Missile Silo"
+playerCount: "2-3"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true

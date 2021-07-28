@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:22"
+game: "Unreal Tournament"
+name: "CTF-NoonRaid"
+author: "John Paul 'Decker' Jones"
+description: "None"
+releaseDate: "2007-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-noonraid_shot_a5940f60_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/a/5/940f60/ctf-noonraid_shot_a5940f60_1.png"
+originalFilename: "CTF-NoonRaid.zip"
+hash: "a5940f60f2ae5c099fc82f4f366b0dff325efd2a"
+fileSize: 766786
+files:
+- name: "Decker.utx"
+  fileSize: 289602
+  hash: "5570c5b18f134d6d9994de4d50301a7aa2e685c8"
+- name: "NGZ.u"
+  fileSize: 917
+  hash: "39776c59c978f5b586291cb15fbc162054da0a46"
+- name: "CTF-NoonRaid.unr"
+  fileSize: 1818567
+  hash: "d47ebe2577706cb55bc60bbdb7ffb50ed497eab7"
+otherFiles: 0
+dependencies:
+  CTF-NoonRaid.unr:
+  - status: "OK"
+    name: "NGZ"
+  - status: "OK"
+    name: "Decker"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-NoonRaid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/a/5/940f60/CTF-NoonRaid.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/a/5/940f60/CTF-NoonRaid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/a/5/940f60/CTF-NoonRaid.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Noon Raid"
+playerCount: "6-10"
+themes:
+  Nali Castle: 0.9
+bots: true

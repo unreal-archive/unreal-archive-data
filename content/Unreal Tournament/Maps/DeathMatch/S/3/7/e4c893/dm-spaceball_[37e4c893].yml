@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:39"
+game: "Unreal Tournament"
+name: "DM-SpaceBall"
+author: "TWolf"
+description: "Welcome to Spaceball"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-SpaceBall_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-SpaceBall_shot_1.png"
+originalFilename: "dm-spaceball.zip"
+hash: "37e4c89308d17105e664f58031950e4341f17055"
+fileSize: 595379
+files:
+- name: "DM-SpaceBall.unr"
+  fileSize: 952816
+  hash: "d1d629c8e743d393d0d15f73e09e0bb8d5f54e95"
+- name: "blank.umx"
+  fileSize: 37359
+  hash: "a70e48ad2af4a4928a2b8128aea4ba5c36cc0af5"
+- name: "twolfmap.utx"
+  fileSize: 1056850
+  hash: "3c5bfa0fc7134593ad072b141356b7d3029f89e9"
+otherFiles: 1
+dependencies:
+  DM-SpaceBall.unr:
+  - status: "OK"
+    name: "blank"
+  - status: "OK"
+    name: "twolfmap"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-spaceball.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-spaceball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-spaceball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-spaceball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/3/7/e4c893/dm-spaceball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/3/7/e4c893/dm-spaceball.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "SpaceBall"
+playerCount: "2 - 6 players"
+themes:
+  City: 1.0
+bots: true

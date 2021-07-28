@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:38"
+game: "Unreal Tournament"
+name: "TO-Cabal"
+author: "Mr._Hankey"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "TO-Cabal_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/C/TO-Cabal_shot_1.png"
+originalFilename: "TO-Cabal.zip"
+hash: "d3f1a56d04f7d97be23b2daea4e0c21ef729c217"
+fileSize: 597640
+files:
+- name: "TO-Cabal.unr"
+  fileSize: 1963668
+  hash: "8259a8951f82d7bfe60a965435145e29dacfc0d4"
+- name: "sw_tomi.utx"
+  fileSize: 229324
+  hash: "75d17a17d8d1d36d4164930c6bd9da43a144994d"
+otherFiles: 0
+dependencies:
+  TO-Cabal.unr:
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "s_SWAT"
+  - status: "OK"
+    name: "sw_tomi"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-Cabal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/C/TO-Cabal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-Cabal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/C/d/3/f1a56d/TO-Cabal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/C/d/3/f1a56d/TO-Cabal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Cabal"
+playerCount: "8-12"
+themes:
+  Industrial: 0.4
+  City: 0.4
+  Skaarj Tech: 0.1
+bots: true

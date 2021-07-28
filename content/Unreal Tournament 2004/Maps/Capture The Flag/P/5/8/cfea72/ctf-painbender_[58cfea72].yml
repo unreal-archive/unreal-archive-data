@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 20:05"
+game: "Unreal Tournament 2004"
+name: "CTF-Painbender"
+author: "Swartz&Osiris"
+description: "||                     CTF-PAINBENDER ||"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Painbender_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/CTF-Painbender_shot_1.png"
+originalFilename: "ctf-painbender.zip"
+hash: "58cfea720e38810b844864663820eb59cb82e8c1"
+fileSize: 7230713
+files:
+- name: "CTF-Painbender.ut2"
+  fileSize: 18280261
+  hash: "caa85ebce732cb09791378fb40f745dff54a454c"
+- name: "OsirisTex1.utx"
+  fileSize: 4286825
+  hash: "0c8ab408a383a626b9d9ac62f6a14d31360f07eb"
+otherFiles: 1
+dependencies:
+  CTF-Painbender.ut2:
+  - status: "OK"
+    name: "OsirisTex1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/ctf-painbender.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/5/8/cfea72/ctf-painbender.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/5/8/cfea72/ctf-painbender.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "PainbenderV2"
+playerCount: "10-16"
+themes:
+  Industrial: 0.7
+  Natural: 0.3
+bots: true

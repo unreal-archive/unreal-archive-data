@@ -1,7 +1,6 @@
 --- !<MAP_PACK>
 contentType: "MAP_PACK"
 firstIndex: "2019-02-19 22:01"
-variationOf: null
 game: "Unreal Tournament"
 name: "Mctfmaps"
 author: "Various"
@@ -41,25 +40,19 @@ dependencies:
   MCTF-Leadworks.unr:
   - status: "MISSING"
     name: "MultiCTF"
-    providedBy: null
   MCTF-Barricade.unr:
   - status: "MISSING"
     name: "MultiCTFTex"
-    providedBy: null
   - status: "MISSING"
     name: "MultiCTF"
-    providedBy: null
   MCTF-Gharden.unr:
   - status: "MISSING"
     name: "MultiCTF"
-    providedBy: null
   MCTF-Face4.unr:
   - status: "MISSING"
     name: "MultiCTFTex"
-    providedBy: null
   - status: "MISSING"
     name: "MultiCTF"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/M/mctfmaps.zip"
   main: true
@@ -70,6 +63,10 @@ downloads:
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=ToStore/&file=mctfmaps.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/M/5/1/4eab1a/mctfmaps.zip"
   main: false
   repack: false
   state: "OK"

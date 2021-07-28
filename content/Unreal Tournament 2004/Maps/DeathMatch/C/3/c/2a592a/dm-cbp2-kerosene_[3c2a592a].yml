@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 18:39"
+game: "Unreal Tournament 2004"
+name: "DM-CBP2-Kerosene"
+author: "Paul 'TAZ' Mader"
+description: "A small arena in an isolated part of a refuel and repair station. Huge\
+  \ engines pumping up the kerosene from tanks deep under the building complex."
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-CBP2-Kerosene_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-CBP2-Kerosene_shot_1.png"
+- type: "IMAGE"
+  name: "DM-CBP2-Kerosene_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/DM-CBP2-Kerosene_shot_2.png"
+originalFilename: "dm-cbp2-kerosene.zip"
+hash: "3c2a592a8c64bfabe253d3cf41a89526b33a590f"
+fileSize: 20498257
+files:
+- name: "DM-CBP2-Kerosene.ut2"
+  fileSize: 20620825
+  hash: "1dcff23376a57722f231916562f4ce25f00c5c41"
+- name: "PaulsTECH.usx"
+  fileSize: 3573991
+  hash: "2d8ced5d9c0e413d3187ddbd0fc9688a3736323f"
+- name: "PaulsTex.utx"
+  fileSize: 42059642
+  hash: "75359e3ea0833944460a3f9064e8461dce7e555f"
+otherFiles: 2
+dependencies:
+  DM-CBP2-Kerosene.ut2:
+  - status: "OK"
+    name: "PaulsTex"
+  - status: "OK"
+    name: "PaulsTECH"
+  PaulsTECH.usx:
+  - status: "OK"
+    name: "PaulsTex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2857"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/dm-cbp2-kerosene.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/C/3/c/2a592a/dm-cbp2-kerosene.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/3/c/2a592a/dm-cbp2-kerosene.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Kerosene"
+playerCount: "4-6"
+themes:
+  Tech: 1.0
+bots: true

@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 11:44"
+game: "Unreal"
+name: "AS-[SP]TwinTower"
+author: "T. Ahlen"
+description: "None"
+releaseDate: "2010-04"
+attachments:
+- type: "IMAGE"
+  name: "as-sptwintower_shot_9b98ca95_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Assault/S/as-sptwintower_shot_9b98ca95_1.png"
+originalFilename: "AS-[SP]TwinTower.zip"
+hash: "9b98ca95ca3d62010be30acd85fcd6d83fee8f1d"
+fileSize: 4330534
+files:
+- name: "AS-[SP]TwinTower.unr"
+  fileSize: 4380111
+  hash: "d64deeadc6f5fa9b23a64cd79f2cface73c2a28d"
+- name: "Seeker2.umx"
+  fileSize: 1848082
+  hash: "6128158fcaaac79a3e263cc288579002c80163d7"
+otherFiles: 0
+dependencies:
+  AS-[SP]TwinTower.unr:
+  - status: "MISSING"
+    name: "SP_Assault"
+  - status: "OK"
+    name: "Seeker2"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Assault/S/AS-%5BSP%5DTwinTower.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Assault/S/9/b/98ca95/AS-%255BSP%255DTwinTower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Assault/S/9/b/98ca95/AS-%255BSP%255DTwinTower.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-[SP]TwinTower"
+playerCount: "2-10"
+themes:
+  Skaarj Tech: 1.0
+bots: true

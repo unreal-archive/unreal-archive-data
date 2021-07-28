@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 05:55"
+game: "Unreal"
+name: "TarMin0"
+author: "Molnár \"makemeunreal\" Balázs"
+description: "Kill the local warlord."
+releaseDate: "1998-06"
+attachments:
+- type: "IMAGE"
+  name: "TarMin0_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Single%20Player/T/TarMin0_shot_1.png"
+- type: "IMAGE"
+  name: "TarMin0_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Single%20Player/T/TarMin0_shot_2.png"
+- type: "IMAGE"
+  name: "TarMin0_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Single%20Player/T/TarMin0_shot_3.png"
+- type: "IMAGE"
+  name: "TarMin0_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Single%20Player/T/TarMin0_shot_4.png"
+originalFilename: "TarMin0.zip"
+hash: "97bbf5b50ef6420be3c78cdef8e2746a3ceaafa8"
+fileSize: 17198790
+files:
+- name: "TornSound.uax"
+  fileSize: 155760
+  hash: "995307a1076e387c937c4b7b0fd28afa2147200b"
+- name: "TarMin0.unr"
+  fileSize: 2256624
+  hash: "777ab4a9ea1d5eb6cc87c64eecb8cb4869935edf"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "liandrimines.utx"
+  fileSize: 177768
+  hash: "5dc9cf84412bc97ee67ef006f3bf775e4f5bf8b3"
+- name: "Torn.u"
+  fileSize: 219685
+  hash: "3dad59a73b93f4ea5921d214d2e202f0e95b93e0"
+- name: "Foregone.umx"
+  fileSize: 1992753
+  hash: "0aff4437d220127a8c193ab7b6402821edca5c79"
+- name: "TCrystal.utx"
+  fileSize: 158014
+  hash: "e109087742b726e76e79fa4f52a0f732587a811f"
+otherFiles: 5
+dependencies:
+  TarMin0.unr:
+  - status: "OK"
+    name: "UTtech1"
+  - status: "OK"
+    name: "Torn"
+  - status: "OK"
+    name: "Foregone"
+  - status: "OK"
+    name: "liandrimines"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SinglePlayer&file=TarMin0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Single%20Player/T/TarMin0.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Single%20Player/T/9/7/bbf5b5/TarMin0.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Single%20Player/T/9/7/bbf5b5/TarMin0.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "Liandri Tarydium Mines"
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  Skaarj Tech: 0.7
+bots: false

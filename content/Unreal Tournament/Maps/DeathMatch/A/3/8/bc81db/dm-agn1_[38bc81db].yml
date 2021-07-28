@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:15"
+game: "Unreal Tournament"
+name: "DM-AGN1"
+author: "AGN Team"
+description: "None"
+releaseDate: "2001-09"
+attachments: []
+originalFilename: "DM-AGN1.zip"
+hash: "38bc81db0801859eed755bd987eab0646c818358"
+fileSize: 5192277
+files:
+- name: "AGN_UT.utx"
+  fileSize: 6375268
+  hash: "9da9eb8adf585eee74bf87a8ae7ebe0f528bd72a"
+- name: "DM-AGN1.unr"
+  fileSize: 4386351
+  hash: "72f5703796b4633af045c541936d46b36e1a7e96"
+otherFiles: 0
+dependencies:
+  DM-AGN1.unr:
+  - status: "OK"
+    name: "AGN_UT"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-AGN1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-AGN1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/3/8/bc81db/DM-AGN1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/3/8/bc81db/DM-AGN1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "AGN Tournament"
+playerCount: "8"
+themes:
+  Ancient: 0.9
+bots: true

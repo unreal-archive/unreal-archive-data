@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:26"
+game: "Unreal Tournament"
+name: "MH-TB-DarkForest"
+author: "ALEJANDRO LLADOS ALIAS \"THUNDERBOLT\""
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-TB-DarkForest_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/MH-TB-DarkForest_shot_1.png"
+originalFilename: "mh-tb-darkforest.zip"
+hash: "4a36ed270cda2dcf2dc5a41385a06fad9bae8026"
+fileSize: 9763056
+files:
+- name: "ds_nl_b.umx"
+  fileSize: 915082
+  hash: "faad7bd036ce04b4618d92d341496a07e06ef979"
+- name: "onslaughtvehicles.u"
+  fileSize: 7917906
+  hash: "de68dcfe9851221bdc55227e9aea27d45553177e"
+- name: "utend.umx"
+  fileSize: 1460582
+  hash: "f8f00031e8b30670de2d36c3df8fd68cc9574a71"
+- name: "MH-TB-DarkForest.unr"
+  fileSize: 1326497
+  hash: "b09ef3ae144ee24ab3f082ae83d2c5140c6ccc86"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "BPak.u"
+  fileSize: 259553
+  hash: "f552452dd11750875906f4290373f62bb577eb8b"
+otherFiles: 2
+dependencies:
+  MH-TB-DarkForest.unr:
+  - status: "OK"
+    name: "ds_nl_b"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "OK"
+    name: "BPak"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "onslaughtvehicles"
+  - status: "OK"
+    name: "utend"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-tb-darkforest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/mh-tb-darkforest.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-tb-darkforest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/T/4/a/36ed27/mh-tb-darkforest.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/4/a/36ed27/mh-tb-darkforest.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH(THUNDERBOLT)-DARKFOREST"
+playerCount: "10-14"
+themes:
+  Nali Temple: 0.2
+  Ancient: 0.2
+  Natural: 0.7
+bots: true

@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:23"
+game: "Unreal Tournament"
+name: "MH-subway"
+author: "Steve Long steve@shorenet.net"
+description: "all aboard, let's get outta here!"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-subway.zip"
+hash: "35a7b9f9e4fad7950e363cc8d3fdeb4f9455b83d"
+fileSize: 3139794
+files:
+- name: "MH-subway.unr"
+  fileSize: 3222559
+  hash: "e2145ca7ef1b2ea031ab2d5030aa5436fc6850de"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "Hub2.umx"
+  fileSize: 935513
+  hash: "2f96577dd9ace02498be200d9880c444c9291b2f"
+- name: "asgard2.u"
+  fileSize: 73938
+  hash: "b9907084f5d3a65f69bd7a5c8ea73ceb2aa4c2fe"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+otherFiles: 2
+dependencies:
+  MH-subway.unr:
+  - status: "OK"
+    name: "Fifth"
+  - status: "OK"
+    name: "K_vision"
+  - status: "OK"
+    name: "Hub2"
+  - status: "OK"
+    name: "asgard2"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-subway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/mh-subway.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-subway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/3/5/a7b9f9/mh-subway.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/3/5/a7b9f9/mh-subway.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "subway"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.7
+bots: false

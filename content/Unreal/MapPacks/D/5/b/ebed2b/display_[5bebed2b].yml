@@ -1,0 +1,56 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-12 18:18"
+game: "Unreal"
+name: "Display"
+author: "JasposDesign"
+description: "None"
+releaseDate: "1999-10"
+attachments: []
+originalFilename: "Display.zip"
+hash: "5bebed2bbbcc156b3cb035f949cb285be6b3d9d8"
+fileSize: 1236316
+files:
+- name: "Display.unr"
+  fileSize: 2082434
+  hash: "bf4e03a71d2f82adf4cb852a259694e748a33a09"
+- name: "Disauto.unr"
+  fileSize: 2082411
+  hash: "4d059d0541f79742971f7ffc752b6490e14faed6"
+otherFiles: 1
+dependencies:
+  Disauto.unr:
+  - status: "MISSING"
+    name: "test"
+  - status: "MISSING"
+    name: "Hpak01"
+  Display.unr:
+  - status: "MISSING"
+    name: "test"
+  - status: "MISSING"
+    name: "Hpak01"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/5/b/ebed2b/Display.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/D/5/b/ebed2b/Display.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/D/5/b/ebed2b/Display.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "Display"
+  title: "Display"
+  author: "JasposDesign"
+- name: "Disauto"
+  title: "DisplayAuto"
+  author: "JasposDesign"
+gametype: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.9

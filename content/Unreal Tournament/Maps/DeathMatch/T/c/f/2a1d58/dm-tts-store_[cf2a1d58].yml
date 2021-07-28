@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 02:02"
+game: "Unreal Tournament"
+name: "DM-TTS-STORE"
+author: "[TTS]Assebas"
+description: "http://tts.servebeer.com"
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "DM-TTS-STORE.zip"
+hash: "cf2a1d58e7241445ca6d754f7b2deaa36ad41eec"
+fileSize: 10478071
+files:
+- name: "DRMPa.utx"
+  fileSize: 3643483
+  hash: "dffa527f17d075599ea50b8e4d456fb6bcdef2cd"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DM-TTS-STORE.unr"
+  fileSize: 7445164
+  hash: "da6039190754272663c271c98e3fef52b47c5896"
+- name: "DRLRse.utx"
+  fileSize: 354975
+  hash: "dbc36e2efe7b90011982626580075073dabfd651"
+- name: "noxxpack.utx"
+  fileSize: 914942
+  hash: "1ffd65e75842903d66542de085cf19de23a6f3fb"
+- name: "eltonIT.umx"
+  fileSize: 3605504
+  hash: "85c4b9bad9d8730277cc4f811e47e85812badd65"
+- name: "Donuttex.utx"
+  fileSize: 1503861
+  hash: "d4a0403c313bc5914a13f999bbc1990383886eaf"
+otherFiles: 0
+dependencies:
+  DM-TTS-STORE.unr:
+  - status: "OK"
+    name: "eltonIT"
+  - status: "OK"
+    name: "DRMPa"
+  - status: "OK"
+    name: "DRLRse"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "Donuttex"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/DM-TTS-STORE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-TTS-STORE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/c/f/2a1d58/DM-TTS-STORE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/c/f/2a1d58/DM-TTS-STORE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "TTS-STORE"
+playerCount: "8 to 18"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: true

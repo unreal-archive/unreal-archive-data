@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 21:46"
+game: "Unreal Tournament"
+name: "CTF-BT-BackOnMars"
+author: "Whitey"
+description: "None"
+releaseDate: "2013-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-BackOnMars_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-BackOnMars_shot_1.png"
+originalFilename: "CTF-BT-BackOnMars.rar"
+hash: "2a239f1c6627eab3da33f20da03253b5e8c39637"
+fileSize: 9206453
+files:
+- name: "DoorsMod.uax"
+  fileSize: 2547363
+  hash: "b39b5239d559454f4824bda26dd788e818c5e583"
+- name: "ARYX.umx"
+  fileSize: 22013
+  hash: "b7dbb4c032d59dfbba877cf09ad1da4317321a48"
+- name: "CTF-BT-BackOnMars.unr"
+  fileSize: 12890011
+  hash: "ee68e88e8f9faa615abf639972aa9ac6b8857a4c"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  CTF-BT-BackOnMars.unr:
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "ARYX"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-BackOnMars.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/B/CTF-BT-BackOnMars.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/B/2/a/239f1c/CTF-BT-BackOnMars.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/B/2/a/239f1c/CTF-BT-BackOnMars.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-BackOnMars"
+playerCount: "1-8"
+themes:
+  Skaarj Tech: 0.8
+  Indistrial: 0.2
+bots: false

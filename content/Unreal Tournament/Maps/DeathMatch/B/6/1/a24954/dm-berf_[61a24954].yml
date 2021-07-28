@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:24"
+variationOf: "3fa8833f172d24fba3a8ed22e91f669a2d8a2545"
+game: "Unreal Tournament"
+name: "DM-Berf"
+author: "Terry \"Extra\" Owers"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-berf_shot_61a24954_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/6/1/a24954/dm-berf_shot_61a24954_1.png"
+originalFilename: "DM-Berf.zip"
+hash: "61a24954f493d91db1f297c49fa2d4423fd96696"
+fileSize: 4712679
+files:
+- name: "Berth.utx"
+  fileSize: 3083668
+  hash: "63fc8afdf28ed5da75061c306e6b9a9047db8fe3"
+- name: "IcarasSasha2.umx"
+  fileSize: 3730239
+  hash: "dd3f70688ca4b417a933c3c691cee3ff03eb0194"
+- name: "DM-Berf.unr"
+  fileSize: 2196573
+  hash: "7f2cb07f71e10ffb95cf70e8b96a400749a1edd6"
+otherFiles: 0
+dependencies:
+  DM-Berf.unr:
+  - status: "OK"
+    name: "Berth"
+  - status: "OK"
+    name: "IcarasSasha2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Berf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/6/1/a24954/DM-Berf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/6/1/a24954/DM-Berf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/6/1/a24954/DM-Berf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Berf"
+playerCount: "10 - 16"
+themes: {}
+bots: true

@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-11-10 00:43"
+variationOf: "490d3ca793e4977e1d6146b50381151dccc39470"
+game: "Unreal Tournament 2004"
+name: "DM-Fluoxetine"
+author: "Ryan (R-SIN) H."
+description: "I decided, since I created inside my computer (DM-CpuFrenzy), I would\
+  \ create what was outside of the Computer case.... which is my bedroom ! This time\
+  \ you are the size of a small rodent battling it out in my room !"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-fluoxetine_shot_ce2f0e57_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/e/2f0e57/dm-fluoxetine_shot_ce2f0e57_2.png"
+- type: "IMAGE"
+  name: "dm-fluoxetine_shot_ce2f0e57_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/e/2f0e57/dm-fluoxetine_shot_ce2f0e57_1.png"
+originalFilename: "dm-fluoxetine_ce2f0e57.zip"
+hash: "ce2f0e57cfd4c6461dcfe3609dacd06df2b85f9d"
+fileSize: 6630687
+files:
+- name: "Fluoxetinesnds.uax"
+  fileSize: 1101539
+  hash: "ebe1e8a4249ddb20f4f3d9641d319c34589a7cdb"
+- name: "Fluoxetine_meshes.usx"
+  fileSize: 1674331
+  hash: "cbda352779b8e0846b86e96efaadf56f0906de02"
+- name: "Fluoxetine_textures.utx"
+  fileSize: 17092246
+  hash: "8a1ccc91a62ab7bd4af5c876d963240abc3fc74d"
+- name: "DM-Fluoxetine.ut2"
+  fileSize: 3810445
+  hash: "ac6e6d67cb971fa7b61017442c26876ff8ca0a81"
+otherFiles: 2
+dependencies:
+  DM-Fluoxetine.ut2:
+  - status: "OK"
+    name: "Fluoxetinesnds"
+  - status: "OK"
+    name: "Fluoxetine_meshes"
+  - status: "OK"
+    name: "Fluoxetine_textures"
+  Fluoxetine_meshes.usx:
+  - status: "OK"
+    name: "Fluoxetine_textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/e/2f0e57/dm-fluoxetine_ce2f0e57.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/e/2f0e57/dm-fluoxetine_ce2f0e57.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/c/e/2f0e57/dm-fluoxetine_ce2f0e57.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Fluoxetine"
+playerCount: "2-6"
+themes: {}
+bots: true

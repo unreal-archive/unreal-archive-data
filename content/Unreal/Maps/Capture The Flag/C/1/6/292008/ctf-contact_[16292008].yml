@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:33"
+game: "Unreal"
+name: "CTF-Contact"
+author: "[UrS]SytesTyun"
+description: "Prepare To BOOM!"
+releaseDate: "1998-05"
+attachments: []
+originalFilename: "ctf-contact.unr.zip"
+hash: "162920084723c93299c8e46fdb496cc47c554d29"
+fileSize: 618580
+files:
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "CTF-Contact.unr"
+  fileSize: 775245
+  hash: "512da97d5d1a706a92bfc194ca50eaf0b1e4552c"
+otherFiles: 0
+dependencies:
+  CTF-Contact.unr:
+  - status: "MISSING"
+    name: "Coret_FX"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "UT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-contact.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Capture%20The%20Flag/C/ctf-contact.unr.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Capture%20The%20Flag/C/1/6/292008/ctf-contact.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Capture%20The%20Flag/C/1/6/292008/ctf-contact.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Contact"
+playerCount: "10"
+themes:
+  Natural: 1.0
+bots: true

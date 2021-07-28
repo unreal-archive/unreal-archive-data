@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:44"
+game: "Unreal Tournament"
+name: "CTF-BT-GothikConvent"
+author: "Warlord"
+description: "None"
+releaseDate: "2015-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-GothikConvent_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/G/CTF-BT-GothikConvent_shot_1.png"
+originalFilename: "CTF-BT-GothikConvent.zip"
+hash: "2533d50208f51e765d3b07e9101a080e0b0d0fd7"
+fileSize: 14731244
+files:
+- name: "CTF-BT-GothikConvent.unr"
+  fileSize: 13685335
+  hash: "6039d3205a813359098ea48e9d9e0a54fc61fcee"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "FurryMover4.u"
+  fileSize: 9204
+  hash: "20dfe6e59997bd5b2c099e89451ce2f0d2ad14eb"
+- name: "LeptisMagnaAlchemist.umx"
+  fileSize: 5537148
+  hash: "f1aac2639f5c77f2f3a2053bcae5441c079b7518"
+- name: "MAXAincentXXLpk.utx"
+  fileSize: 9140469
+  hash: "23a1cdd5f21feee83d7e155fdb38ad6bc42bc1af"
+- name: "FurryDelayedTrigger2.u"
+  fileSize: 11430
+  hash: "8a5e53dedba1fd6504d515578e5733f47a74c54c"
+otherFiles: 0
+dependencies:
+  CTF-BT-GothikConvent.unr:
+  - status: "OK"
+    name: "MAXAincentXXLpk"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "LeptisMagnaAlchemist"
+  - status: "OK"
+    name: "FurryDelayedTrigger2"
+  - status: "OK"
+    name: "FurryMover4"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-GothikConvent.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/G/CTF-BT-GothikConvent.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/G/2/5/33d502/CTF-BT-GothikConvent.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/G/2/5/33d502/CTF-BT-GothikConvent.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Gothik Convent"
+playerCount: "2-12"
+themes:
+  Ancient: 0.9
+bots: false

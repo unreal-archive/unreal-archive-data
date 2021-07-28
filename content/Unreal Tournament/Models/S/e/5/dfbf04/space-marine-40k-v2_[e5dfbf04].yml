@@ -1,0 +1,160 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2018-12-25 19:16"
+variationOf: "ad804a8feb3e79db0f408e4320827a97a9e794eb"
+game: "Unreal Tournament"
+name: "Space Marine 40K v.2"
+author: "EBM"
+description: "None"
+releaseDate: "2007-10"
+attachments:
+- type: "IMAGE"
+  name: "Space_Marine_40K_v.2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Models/S/Space_Marine_40K_v.2_shot_1.png"
+- type: "IMAGE"
+  name: "Space_Marine_40K_v.2_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Models/S/Space_Marine_40K_v.2_shot_3.png"
+- type: "IMAGE"
+  name: "Space_Marine_40K_v.2_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Models/S/Space_Marine_40K_v.2_shot_4.png"
+- type: "IMAGE"
+  name: "Space_Marine_40K_v.2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Models/S/Space_Marine_40K_v.2_shot_2.png"
+originalFilename: "WH40k Stuff.rar"
+hash: "e5dfbf04f9982ac85834c61f39af816b2c91232d"
+fileSize: 63884571
+files:
+- name: "ForceCommanderPlayer.u"
+  fileSize: 1125
+  hash: "df07be57c5ee9c842e8336636dfd0c9a3bd254b5"
+- name: "Ork.u"
+  fileSize: 11888793
+  hash: "ed92d3a3665cf1d4d3c9e630bf554b6f3f96c24c"
+- name: "ImperialGuard.u"
+  fileSize: 18144591
+  hash: "ce17374950a97ee972bd69632c34171b6d20e0e3"
+- name: "Cultist.u"
+  fileSize: 8061088
+  hash: "e44a13d3145c7b2cf251d1893871d7e859ee3717"
+- name: "CultistPlayer.u"
+  fileSize: 984
+  hash: "f6e4d973d50fe0c3749b8311fa193f647d747de6"
+- name: "PossessedChaosMarine.u"
+  fileSize: 5506567
+  hash: "91eca328e00027c038670a5ede4504497708a1bb"
+- name: "KhorneBerserker.u"
+  fileSize: 10027164
+  hash: "f7e17a190e3f8533e89f113d13041b0bcda69ead"
+- name: "SpaceMarineSkins_CSM.utx"
+  fileSize: 1002066
+  hash: "9a1b1bb756df5ec61c2766a1e255c89147b76a58"
+- name: "ChaosMarine.u"
+  fileSize: 6995459
+  hash: "095723e625ebb6f27bc0dd32a6f431850726f3d3"
+- name: "ChaosLord.u"
+  fileSize: 10781129
+  hash: "a0483cd881b52e09b513c952fbca42f04ecd988f"
+- name: "SpaceMarine.u"
+  fileSize: 11839768
+  hash: "e56b32f60f2338f4005fda7788ef31d52efb6073"
+- name: "SpaceMarine40KSkins.utx"
+  fileSize: 1002190
+  hash: "f3e56dbf534f95136c11a53694063505779f6bfa"
+- name: "SpaceMarineSkins4.utx"
+  fileSize: 1199907
+  hash: "bcde6fb4abb88da75cd318a850be9ddac56f520c"
+- name: "SpaceMarine40Kv2.u"
+  fileSize: 1330386
+  hash: "7381bf86df8098286966e5e372e71d3da0cd903c"
+- name: "ChaosLordPlayer.u"
+  fileSize: 1604
+  hash: "36841f71732a77e8aba4c235c83d66eb8bad75d4"
+- name: "SpaceMarineSkins.utx"
+  fileSize: 1002086
+  hash: "62a287b460129db8524c75286fda6cf0b1b1eeca"
+- name: "SpaceMarine40K.u"
+  fileSize: 759911
+  hash: "c49b53b7fe82d8dad22139491a3197f96d97adfc"
+- name: "ChaosSorcerer.u"
+  fileSize: 6776272
+  hash: "6d8cbca7d8be826d25a03a4ec40ea9ee12214822"
+- name: "ForceCommander.u"
+  fileSize: 9174453
+  hash: "ced1b4f215de7b22aaa78a37fcaaea5e4303e35c"
+- name: "KhorneBerserkerPlayer.u"
+  fileSize: 1662
+  hash: "966263de1e65a229650bd2d265df157477d5ae73"
+- name: "Orkz.u"
+  fileSize: 1738776
+  hash: "82623747309e0ac73698f9b46ca23704053cf1ae"
+- name: "SpaceMarineSkins3.utx"
+  fileSize: 1074931
+  hash: "6f18cb24455032674d966460193bcddffb939b96"
+- name: "ChaosChampion.u"
+  fileSize: 6212172
+  hash: "8b21716b6352dd95bbb7c6b469cfea955b01fc3b"
+- name: "OrkzSkins.utx"
+  fileSize: 1539480
+  hash: "158d9c45ca92167e3bc324184d70c4c1f74537e0"
+otherFiles: 29
+dependencies:
+  CultistPlayer.u:
+  - status: "OK"
+    name: "Cultist"
+  - status: "MISSING"
+    name: "oldmodels"
+  ForceCommanderPlayer.u:
+  - status: "OK"
+    name: "SpaceMarine40Kv2"
+  - status: "OK"
+    name: "ForceCommander"
+  SpaceMarine40Kv2.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+  ChaosLordPlayer.u:
+  - status: "OK"
+    name: "SpaceMarine40Kv2"
+  - status: "OK"
+    name: "ChaosLord"
+  Orkz.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+  KhorneBerserkerPlayer.u:
+  - status: "OK"
+    name: "SpaceMarine40Kv2"
+  - status: "OK"
+    name: "KhorneBerserker"
+  SpaceMarine40K.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Skins/SkinsW/&file=WH40k%20Stuff.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Models/S/WH40k%20Stuff.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Skins/&file=WH40k+Stuff.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Models/S/e/5/dfbf04/WH40k%2520Stuff.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Models/S/e/5/dfbf04/WH40k%2520Stuff.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+models:
+- "Space Marine 40K v.2"
+skins:
+- "Space Marines IV"
+- "Chaos Space Marines"
+- "Greenskin"
+- "Space Marines III"
+- "Space Marines I"
+- "Default"

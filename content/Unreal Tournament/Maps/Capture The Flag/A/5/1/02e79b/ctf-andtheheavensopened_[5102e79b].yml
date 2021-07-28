@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:36"
+game: "Unreal Tournament"
+name: "CTF-AndTheHeavensOpened"
+author: "HortonsWho"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-AndTheHeavensOpened_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AndTheHeavensOpened_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-AndTheHeavensOpened_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AndTheHeavensOpened_shot_1.png"
+originalFilename: "ctf-andtheheavensopened.zip"
+hash: "5102e79b7dc48dad90d1df36bf63c2274d06caf3"
+fileSize: 4857704
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "CTF-AndTheHeavensOpened.unr"
+  fileSize: 6578643
+  hash: "27cd1cfbd8f5f8b755dc2d1f1d7198e1025dca36"
+- name: "Mw_wellb.umx"
+  fileSize: 1756808
+  hash: "9966c9db473e05ab85e747b33f62b7843c799247"
+otherFiles: 2
+dependencies:
+  CTF-AndTheHeavensOpened.unr:
+  - status: "OK"
+    name: "Mw_wellb"
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsA/&file=ctf-andtheheavensopened.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-andtheheavensopened.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-andtheheavensopened.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-andtheheavensopened.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsA/ctf-andtheheavensopened.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2223"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/1/02e79b/ctf-andtheheavensopened.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/5/1/02e79b/ctf-andtheheavensopened.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "AndTheHeavensOpened"
+playerCount: "10-16"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

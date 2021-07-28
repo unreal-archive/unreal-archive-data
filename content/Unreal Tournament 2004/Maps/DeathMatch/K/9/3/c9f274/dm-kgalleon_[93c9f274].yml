@@ -1,0 +1,96 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 21:25"
+variationOf: "1c96ef0e11924e214fc133ecb28520d764ba6fd6"
+game: "Unreal Tournament 2004"
+name: "DM-KGalleon]["
+author: "Dima 'Venom' Smirnow"
+description: "The indigenous people of Koos World are waterborne and find there to"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-KGalleon][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/K/DM-KGalleon%5D%5B_shot_1.png"
+originalFilename: "dmkgalleonv1.6.rar"
+hash: "93c9f2744a43d320054d63c10a6351c42ebb5325"
+fileSize: 7737068
+files:
+- name: "RipperMeshes.usx"
+  fileSize: 408808
+  hash: "8e3b2eb004c96a552aa86c851fdcb31c4392ca12"
+- name: "RipperTex.utx"
+  fileSize: 375046
+  hash: "cdf1410f3a2296e6fb6c55d1fb28424c920a1af9"
+- name: "sg_UT2003_pickups.usx"
+  fileSize: 83308
+  hash: "357157a0bf23c0756cedb35eea7004d891600d61"
+- name: "DM-KGalleon][.ut2"
+  fileSize: 17956708
+  hash: "68672568be1453a9a7a6eaaa7f31d99c0f1b8be2"
+- name: "Ripper.u"
+  fileSize: 23008
+  hash: "e515203e9dfd59a3dc4899f79db616dbf0ed0823"
+- name: "UT2Game.u"
+  fileSize: 128147
+  hash: "6505f7c478d11aa467eb5ee5b457694b9fc0fbbf"
+- name: "sg_UT2003_Jumpboots.utx"
+  fileSize: 351754
+  hash: "4cc1ba8c901513e458e0dbd7b7d75ffa97e53734"
+- name: "RipperAnim.ukx"
+  fileSize: 198711
+  hash: "c88a1b71c790a3229214ce10b4fe0fc2640b0161"
+- name: "Lock.ogg"
+  fileSize: 1977508
+  hash: "537982647e917da5c029b41136806b123b3534a3"
+- name: "RipperSounds.uax"
+  fileSize: 117608
+  hash: "90f3f4f58b6e125afa0fa552f280eb9a7d85729d"
+otherFiles: 3
+dependencies:
+  RipperMeshes.usx:
+  - status: "OK"
+    name: "RipperTex"
+  DM-KGalleon][.ut2:
+  - status: "OK"
+    name: "Ripper"
+  - status: "OK"
+    name: "UT2Game"
+  UT2Game.u:
+  - status: "MISSING"
+    name: "AS_Vehicles_M"
+  Ripper.u:
+  - status: "MISSING"
+    name: "RipperAnim"
+  - status: "OK"
+    name: "RipperTex"
+  - status: "OK"
+    name: "RipperSounds"
+  - status: "OK"
+    name: "RipperMeshes"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=3933889"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/K/dmkgalleonv1.6.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dmkgalleonv1.6.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/K/9/3/c9f274/dmkgalleonv1.6.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/K/9/3/c9f274/dmkgalleonv1.6.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Koos Galleon"
+playerCount: "Unknown"
+themes: {}
+bots: true

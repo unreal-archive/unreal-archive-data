@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 18:06"
+game: "Unreal Tournament 2004"
+name: "DM-1on1-WeepingTomb"
+author: "Guesscui"
+description: "This place is the terminal of pains.  Doleful souls gathered here. \
+  \ Their enmity tears could kill anything in this tomb.  Only way to break it is\
+  \ to sacrifice the warriors blood!"
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-1on1-WeepingTomb_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/W/DM-1on1-WeepingTomb_shot_2.png"
+- type: "IMAGE"
+  name: "DM-1on1-WeepingTomb_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/W/DM-1on1-WeepingTomb_shot_1.png"
+originalFilename: "dm-1on1-weepingtomb.zip"
+hash: "6e633fa5a00b0b9bbaec9b12bcad76db2d8dd65c"
+fileSize: 4846841
+files:
+- name: "DM-1on1-WeepingTomb.ut2"
+  fileSize: 4263437
+  hash: "6c1319d68144f67f4ee621891549d63a34a11310"
+- name: "White-Temple.utx"
+  fileSize: 6551656
+  hash: "2bdb09ceaf3abd7dcf2e9a84b711f27eebdff997"
+- name: "newtest-1.usx"
+  fileSize: 3384343
+  hash: "fadac8e37dc84fda8eadaa19e1e1e7fac2691a04"
+otherFiles: 2
+dependencies:
+  newtest-1.usx:
+  - status: "OK"
+    name: "White-Temple"
+  DM-1on1-WeepingTomb.ut2:
+  - status: "OK"
+    name: "White-Temple"
+  - status: "OK"
+    name: "newtest-1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3740"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/1%20on%201/W/6/e/633fa5/dm-1on1-weepingtomb.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/1%20on%201/W/6/e/633fa5/dm-1on1-weepingtomb.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/1%20on%201/W/6/e/633fa5/dm-1on1-weepingtomb.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "WeepingTomb"
+playerCount: "2-5"
+themes: {}
+bots: true

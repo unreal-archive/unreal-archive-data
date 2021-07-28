@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:53"
+game: "Unreal Tournament"
+name: "CTF-Hyperpod"
+author: "Coreper"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-hyperpod_shot_4d7054da_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/4/d/7054da/ctf-hyperpod_shot_4d7054da_1.png"
+originalFilename: "ctf-hyperpod.zip"
+hash: "4d7054da24dd94778768671c3eddd2a790e2ca25"
+fileSize: 185382
+files:
+- name: "EspritDeCorp.u"
+  fileSize: 8375
+  hash: "8b3d310a023f6bd93b8afe57b0b358ecfbf316f7"
+- name: "CTF-Hyperpod.unr"
+  fileSize: 181569
+  hash: "d99f01c59c1c367e3a882b81078a82fe817d5e75"
+otherFiles: 2
+dependencies:
+  CTF-Hyperpod.unr:
+  - status: "MISSING"
+    name: "CTFScrollingMessageTexture"
+  - status: "OK"
+    name: "EspritDeCorp"
+  - status: "MISSING"
+    name: "Isotoxin"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5435"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/4/d/7054da/ctf-hyperpod.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/4/d/7054da/ctf-hyperpod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/4/d/7054da/ctf-hyperpod.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Hyperpod"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 1.0
+bots: false

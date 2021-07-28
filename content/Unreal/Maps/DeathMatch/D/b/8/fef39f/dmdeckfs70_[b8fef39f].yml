@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:48"
+game: "Unreal"
+name: "DMDeckFS70"
+author: "Skull Hunter"
+description: "None"
+releaseDate: "2002-12"
+attachments: []
+originalFilename: "DMDeckFS70.zip"
+hash: "b8fef39f1de1f5771a9dafbecea1820d89f4431e"
+fileSize: 2616405
+files:
+- name: "UE_sky1.utx"
+  fileSize: 351894
+  hash: "39e24de2d8ef439de673d30a9594c3d80195a6d7"
+- name: "DMDeckFS70.unr"
+  fileSize: 2054788
+  hash: "b1c8fcc9090215df8a763f93193c1eb3f4ba2d42"
+- name: "QUAKE3b.utx"
+  fileSize: 1399265
+  hash: "6b3d676bc4d13078ba7a024b98476f04dba173aa"
+- name: "QUAKE3.utx"
+  fileSize: 1057078
+  hash: "efc884209d06c147eb28d7c5604a8f35dc6567ea"
+otherFiles: 0
+dependencies:
+  DMDeckFS70.unr:
+  - status: "MISSING"
+    name: "Fleshdance1"
+  - status: "OK"
+    name: "QUAKE3"
+  - status: "OK"
+    name: "QUAKE3b"
+  - status: "OK"
+    name: "UE_sky1"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=DMDeckFS70.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/DMDeckFS70.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsD/DMDeckFS70.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMDeckFS70.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/D/b/8/fef39f/DMDeckFS70.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/D/b/8/fef39f/DMDeckFS70.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMDeckFS70"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.7
+  Nali Castle: 0.1
+bots: true

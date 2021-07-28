@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:14"
+game: "Unreal Tournament"
+name: "CTF-NoceV2"
+author: "Shane Lingo {Redone by: Magna_Omega_X}"
+description: "The New and Hopefully Improved..."
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-NoceV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NoceV2_shot_1.png"
+originalFilename: "ctf-nocev2.zip"
+hash: "c34921c45e9a9876f87fcbad507d75a4c6f25a50"
+fileSize: 1027561
+files:
+- name: "CTF-NoceV2.unr"
+  fileSize: 1224772
+  hash: "730704cdcef6a7a22d236e26ecf4205b566aa5d8"
+- name: "Medivo2.umx"
+  fileSize: 890416
+  hash: "62ecbd6f28ee7877b4a25e5f63c74a1d431bb732"
+otherFiles: 0
+dependencies:
+  CTF-NoceV2.unr:
+  - status: "OK"
+    name: "Medivo2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-nocev2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-nocev2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=77"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/c/3/4921c4/ctf-nocev2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/c/3/4921c4/ctf-nocev2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-NoceV2"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.2
+  Industrial: 0.8
+bots: true

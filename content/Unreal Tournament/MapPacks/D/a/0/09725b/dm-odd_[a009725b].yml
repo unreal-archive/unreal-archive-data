@@ -1,0 +1,74 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 07:09"
+game: "Unreal Tournament"
+name: "Dm Odd"
+author: "Roberto 'GR�d (V)�g@' Ramirez"
+description: "None"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "Dm_Odd_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Odd_shot_2.png"
+- type: "IMAGE"
+  name: "Dm_Odd_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/Dm_Odd_shot_1.png"
+originalFilename: "dm-odd.zip"
+hash: "a009725b1b5183d34b2378943f1fd9a80115ace3"
+fileSize: 11313510
+files:
+- name: "DM-Odd(High).unr"
+  fileSize: 12355079
+  hash: "ba0a941efc316bcac0d95dd4c2a5b5bf5ef15a91"
+- name: "DM-Odd(Low).unr"
+  fileSize: 8361181
+  hash: "21e22e4cb4acb413d0c630eec6501d4a8fe7d9bf"
+- name: "HourRustyCrapStuff.utx"
+  fileSize: 2289310
+  hash: "65cddad236e02c20feee87c8de8de92875f366e7"
+otherFiles: 1
+dependencies:
+  DM-Odd(Low).unr:
+  - status: "OK"
+    name: "HourRustyCrapStuff"
+  DM-Odd(High).unr:
+  - status: "OK"
+    name: "HourRustyCrapStuff"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-odd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsO/&file=dm-odd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsO/dm-odd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/a/0/09725b/dm-odd.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/D/a/0/09725b/dm-odd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/a/0/09725b/dm-odd.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-Odd(High)"
+  title: "OddWorld"
+  author: "Roberto 'GRëd (V)èg@' Ramirez"
+- name: "DM-Odd(Low)"
+  title: "OddWorld"
+  author: "Roberto 'GRëd (V)èg@' Ramirez"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.9

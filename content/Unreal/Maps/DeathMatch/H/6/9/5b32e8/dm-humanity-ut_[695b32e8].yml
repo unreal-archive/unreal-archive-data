@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:45"
+game: "Unreal"
+name: "Dm-Humanity-UT"
+author: "Converted From UT To Unreal By Jet<NxS>"
+description: "A Farce To Be Reckoned With!"
+releaseDate: "2008-07"
+attachments: []
+originalFilename: "DMHumanity-ported.zip"
+hash: "695b32e8fe00cd107adbbd9c41b289ea5655776f"
+fileSize: 2404159
+files:
+- name: "Humanity.utx"
+  fileSize: 890397
+  hash: "5db69093ecc76186579420299c804c9fd96cc076"
+- name: "Razor-ub.umx"
+  fileSize: 1088474
+  hash: "9c47cd9b83405e9f4951f043f343890dc7e73a34"
+- name: "oldquadshot.u"
+  fileSize: 627783
+  hash: "7c88f2dc299cf6adaf2fe114e43c2d974baafd08"
+- name: "Dm-Humanity-UT.unr"
+  fileSize: 1980300
+  hash: "c42d8861e5673d6ddb140326425552cbf5e4d460"
+otherFiles: 0
+dependencies:
+  Dm-Humanity-UT.unr:
+  - status: "OK"
+    name: "Razor-ub"
+  - status: "OK"
+    name: "oldquadshot"
+  - status: "OK"
+    name: "Humanity"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMHumanity-ported.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/6/9/5b32e8/DMHumanity-ported.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/6/9/5b32e8/DMHumanity-ported.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/6/9/5b32e8/DMHumanity-ported.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Humanity"
+playerCount: "8-10"
+themes:
+  Tech: 0.9
+  Ancient: 0.1
+bots: true

@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 11:54"
+game: "Unreal Tournament 2004"
+name: "AS-X-Isle_Final"
+author: "Unknown"
+description: "This scenario - a reconstruction of fight for one of the seven confidential\
+  \ islands, transformed to research laboratories. Attacked should destroy a locator,\
+  \ it will disconnect alarm system. But before it, they also should destroy two antennas,\
+  \ which make the basic system. When the locator will be destroyed, attacking can\
+  \ use all forces for fast capture."
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "AS-X-Isle_Final_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/AS-X-Isle_Final_shot_1.png"
+originalFilename: "as-x-isle_final.zip"
+hash: "991664e87edc62287be45d21681d17416ed692a1"
+fileSize: 13138110
+files:
+- name: "X-IsleWater.utx"
+  fileSize: 1491275
+  hash: "581a9a99f9e8c0c96b520a70d4c680f7265bdc77"
+- name: "X-IsleTex.utx"
+  fileSize: 14229382
+  hash: "b19873ea4988e402a0d77336732f1c5c8a612097"
+- name: "X-IsleSounds.uax"
+  fileSize: 3975781
+  hash: "39082705b6df6946afaddb3551857d90aa80f612"
+- name: "X-IsleMeshOutdoor.usx"
+  fileSize: 1980981
+  hash: "cb411273c78b786803ecf111659ff93a031e573a"
+- name: "AS-X-Isle_Final.ut2"
+  fileSize: 17024340
+  hash: "10a577d5d2649a017510d1c7d374eb699f3ddb31"
+otherFiles: 1
+dependencies:
+  AS-X-Isle_Final.ut2:
+  - status: "OK"
+    name: "X-IsleSounds"
+  - status: "OK"
+    name: "X-IsleTex"
+  - status: "OK"
+    name: "X-IsleMeshOutdoor"
+  - status: "OK"
+    name: "X-IsleWater"
+  X-IsleMeshOutdoor.usx:
+  - status: "OK"
+    name: "X-IsleTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_final.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Assault/&file=as-x-isle_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/X/9/9/1664e8/as-x-isle_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/X/9/9/1664e8/as-x-isle_final.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "X-Isle"
+playerCount: "10-32"
+themes:
+  Industrial: 0.7
+  Ancient: 0.2
+bots: true

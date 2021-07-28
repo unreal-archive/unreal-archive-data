@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:03"
+game: "Unreal Tournament"
+name: "DM-LLTF-FoamDuel"
+author: "[LLTF]FoamyGal"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-lltf-foamduel_shot_249aa99a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/2/4/9aa99a/dm-lltf-foamduel_shot_249aa99a_2.png"
+- type: "IMAGE"
+  name: "dm-lltf-foamduel_shot_249aa99a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/2/4/9aa99a/dm-lltf-foamduel_shot_249aa99a_1.png"
+- type: "IMAGE"
+  name: "dm-lltf-foamduel_shot_249aa99a_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/2/4/9aa99a/dm-lltf-foamduel_shot_249aa99a_3.png"
+originalFilename: "DM-lltf-foamduel.zip"
+hash: "249aa99aa6fede1cfd570ed41659af5f31b5ee46"
+fileSize: 1964552
+files:
+- name: "vlxtextures1.utx"
+  fileSize: 1932021
+  hash: "e46d4d9ce46e1729d59aa32e3abd2644b693d160"
+- name: "DM-LLTF-FoamDuel.unr"
+  fileSize: 571228
+  hash: "f09cf00b44e03cb092aa746844ea7ee926081f95"
+- name: "LLTF-2004-BUMPKLF.umx"
+  fileSize: 119964
+  hash: "b31418a087271c6aae808d58bca3be3c6bcf31d1"
+- name: "LLTFLogo.utx"
+  fileSize: 17835
+  hash: "4cb06bf2f0a8108871d1b0842cae646a6301e0f4"
+otherFiles: 3
+dependencies:
+  DM-LLTF-FoamDuel.unr:
+  - status: "OK"
+    name: "vlxtextures1"
+  - status: "OK"
+    name: "LLTFLogo"
+  - status: "OK"
+    name: "LLTF-2004-BUMPKLF"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-lltf-foamduel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-lltf-foamduel.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/2/4/9aa99a/DM-lltf-foamduel.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/2/4/9aa99a/DM-lltf-foamduel.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "1v1 BioFoam Duel"
+playerCount: "2 (max is 4)"
+themes: {}
+bots: true

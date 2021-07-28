@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:43"
+game: "Unreal Tournament"
+name: "CTF-Zion"
+author: "Derek Barrance\"Ice Falcon\""
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Zion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/CTF-Zion_shot_1.png"
+originalFilename: "ctf-zion.zip"
+hash: "a137d75e8a6aed77df6151f2f3ca5d162dde229e"
+fileSize: 4238778
+files:
+- name: "CTF-Zion.unr"
+  fileSize: 3025529
+  hash: "95de70694c002fc4272a4fd4d205884877ff1486"
+- name: "Warlord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+- name: "Quakearena.utx"
+  fileSize: 3203647
+  hash: "1733385a6744242cbe0c1ef258aadbdf0ed6ae7d"
+otherFiles: 1
+dependencies:
+  CTF-Zion.unr:
+  - status: "OK"
+    name: "Quakearena"
+  - status: "OK"
+    name: "WarLord"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/ctf-zion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsZ/&file=ctf-zion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-zion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsZ/ctf-zion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/a/1/37d75e/ctf-zion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/a/1/37d75e/ctf-zion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Zion"
+playerCount: "12-14"
+themes:
+  Skaarj Crypt: 0.2
+  Ancient: 0.8
+bots: true

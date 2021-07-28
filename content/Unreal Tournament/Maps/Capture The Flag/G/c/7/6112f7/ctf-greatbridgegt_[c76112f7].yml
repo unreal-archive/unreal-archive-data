@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:24"
+game: "Unreal Tournament"
+name: "CTF-GreatBridgeGT"
+author: "Sasha Vasyliev"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "CTF-GreatBridgeGT_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/CTF-GreatBridgeGT_shot_1.png"
+originalFilename: "ctf-greatbridgegt.zip"
+hash: "c76112f78fb87b76cdc44c26a2ef75d5217670b7"
+fileSize: 5722564
+files:
+- name: "handmade2.utx"
+  fileSize: 45495
+  hash: "3c0723407ce6bb73cf2e381e6aae977b777f4044"
+- name: "MyGlass.utx"
+  fileSize: 266301
+  hash: "d91f8a7a63f2990bd1c8502ee36924e7e78eaad1"
+- name: "HP_Basic.utx"
+  fileSize: 5874023
+  hash: "10734a5a407ddaeac8921486ce42bb265bdd1853"
+- name: "HandMade.utx"
+  fileSize: 89015
+  hash: "2036dc0525b4d6cb86c6ce2cf313244f98602e60"
+- name: "CTF-GreatBridgeGT.unr"
+  fileSize: 3490186
+  hash: "d92406d8c80c9dcb7d4fe825d7992d94a6e77dc0"
+otherFiles: 1
+dependencies:
+  CTF-GreatBridgeGT.unr:
+  - status: "OK"
+    name: "MyGlass"
+  - status: "OK"
+    name: "HP_Basic"
+  - status: "OK"
+    name: "HandMade"
+  - status: "OK"
+    name: "handmade2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/ctf-greatbridgegt.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsG/&file=ctf-greatbridgegt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-greatbridgegt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-greatbridgegt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsG/ctf-greatbridgegt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/c/7/6112f7/ctf-greatbridgegt.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/c/7/6112f7/ctf-greatbridgegt.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Great bridge in great cave"
+playerCount: "6-14"
+themes:
+  Nali Temple: 0.6
+  Skaarj Crypt: 0.2
+  Natural: 0.1
+bots: true

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:01"
+game: "Unreal"
+name: "MH-[SP]Shakrah"
+author: "Derdak2rot"
+description: "Temples Of Shakrah Version2"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-spshakrah_shot_769f0ba4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spshakrah_shot_769f0ba4_1.png"
+originalFilename: "MH-[SP]Shakrah.zip"
+hash: "769f0ba4fd01a7ef7bd5c3fc8ed16b45f5680d99"
+fileSize: 3631841
+files:
+- name: "Enigma.umx"
+  fileSize: 2010616
+  hash: "58bdd07f24e7a38fc4374210d19a66b8bddbf066"
+- name: "MH-[SP]Shakrah.unr"
+  fileSize: 6012248
+  hash: "294e1992e28dd63833b6cb716988b0c6a6c096f8"
+otherFiles: 0
+dependencies:
+  MH-[SP]Shakrah.unr:
+  - status: "OK"
+    name: "Enigma"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DShakrah.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]Shakrah.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/6/9f0ba4/MH-%255BSP%255DShakrah.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/6/9f0ba4/MH-%255BSP%255DShakrah.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Temples Of Shakrah"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.7
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.1
+bots: true

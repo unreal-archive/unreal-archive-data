@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 04:10"
+game: "Unreal Tournament"
+name: "MM-Cave"
+author: "Deepak O V"
+description: "Welcome to cave"
+releaseDate: "2016-11"
+attachments:
+- type: "IMAGE"
+  name: "MM-Cave_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Unknown/M/MM-Cave_shot_1.png"
+originalFilename: "MM-Cave.zip"
+hash: "542afbca54c1872f5f73037e8f1a337e88f5f2cf"
+fileSize: 624418
+files:
+- name: "MM-Cave.unr"
+  fileSize: 467543
+  hash: "6830bbf0abd996b3a8bb06779491283e20f1b7ed"
+- name: "Return.umx"
+  fileSize: 708319
+  hash: "c3cd70ed751b86e4cc8bdbd237f5b97dbc378783"
+otherFiles: 0
+dependencies:
+  MM-Cave.unr:
+  - status: "OK"
+    name: "Return"
+  - status: "MISSING"
+    name: "MMPawns"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterMatch&file=MM-Cave.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/M/MM-Cave.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Unknown/M/5/4/2afbca/MM-Cave.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Unknown/M/5/4/2afbca/MM-Cave.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "Cave"
+playerCount: "2-4"
+themes:
+  Natural: 0.9
+  Nali Castle: 0.1
+bots: true

@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:40"
+game: "Unreal"
+name: "DMSniperZahltag"
+author: "Juergen Vierheilig  *Remix by RUSH*"
+description: "F I G H T  ! ! !"
+releaseDate: "2005-04"
+attachments: []
+originalFilename: "DMSniperZahltag.zip"
+hash: "f09ad5d071676a245748b76d892b06993b1597e9"
+fileSize: 14044879
+files:
+- name: "SPTex.utx"
+  fileSize: 10588904
+  hash: "6a5af4e1bf3e7c8f0befbaf056854c4213578add"
+- name: "Ditto.utx"
+  fileSize: 2874138
+  hash: "16644921a3c6ff852bd1913e6bc29dc3dfe3171d"
+- name: "Ditto2.utx"
+  fileSize: 1055648
+  hash: "cd62fd9a93d002de17dfafa7a187f25e8d7ff7b3"
+- name: "Ditto3.utx"
+  fileSize: 1289232
+  hash: "e52c6ffd394d1938ab0dc9339ba5c4cffbbbb213"
+- name: "SPSound.uax"
+  fileSize: 1697632
+  hash: "dc78ec8a74ca5cf0adc9a2880c11c3a9abe61a62"
+- name: "DMSniperZahltag.unr"
+  fileSize: 8808206
+  hash: "2f25e55946cecb79d53499e25a4b22354f2a692d"
+otherFiles: 0
+dependencies:
+  DMSniperZahltag.unr:
+  - status: "OK"
+    name: "Ditto"
+  - status: "MISSING"
+    name: "city"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "Metalmys"
+  - status: "OK"
+    name: "Ditto3"
+  - status: "OK"
+    name: "Ditto2"
+  - status: "OK"
+    name: "SPSound"
+  - status: "OK"
+    name: "SPTex"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Assault/&file=DMSniperZahltag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DMSniperZahltag.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Assault/DMSniperZahltag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/f/0/9ad5d0/DMSniperZahltag.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/f/0/9ad5d0/DMSniperZahltag.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sniper Zahltag"
+playerCount: "16"
+themes:
+  Tech: 0.3
+  Industrial: 0.2
+  City: 0.1
+  Skaarj Tech: 0.4
+  Nali Castle: 0.1
+bots: true

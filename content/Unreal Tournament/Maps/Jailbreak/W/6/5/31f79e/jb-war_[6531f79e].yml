@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:07"
+variationOf: "83ab9fa51390f4b459caea0f89d08e50b1afcf69"
+game: "Unreal Tournament"
+name: "JB-War"
+author: "Ira \"Wiz\" Taraday"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "jb-war_shot_6531f79e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/W/6/5/31f79e/jb-war_shot_6531f79e_1.png"
+originalFilename: "jb-war.zip"
+hash: "6531f79e49847ed200791233368695c7f9f11acc"
+fileSize: 1756875
+files:
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "JB-War.unr"
+  fileSize: 4714575
+  hash: "2ac57bf03e364b75c44f946a5d37127a810ab758"
+otherFiles: 1
+dependencies:
+  JB-War.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "NBSpecials"
+  - status: "MISSING"
+    name: "JBArena"
+  - status: "MISSING"
+    name: "JBSpecials"
+  - status: "MISSING"
+    name: "Jailbreak"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jb-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=jb-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Jailbreak/jb-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/W/6/5/31f79e/jb-war.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/W/6/5/31f79e/jb-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/W/6/5/31f79e/jb-war.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "War"
+playerCount: "14"
+themes:
+  Tech: 0.2
+  Industrial: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.3
+  Nali Castle: 0.1
+bots: true

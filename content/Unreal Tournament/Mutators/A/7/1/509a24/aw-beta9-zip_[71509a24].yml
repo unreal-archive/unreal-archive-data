@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-09-23 07:35"
-variationOf: null
 game: "Unreal Tournament"
 name: "Aw Beta9 Zip"
 author: "Unknown"
@@ -32,26 +31,25 @@ dependencies:
   ApocalypseX.u:
   - status: "OK"
     name: "Apocalypse"
-    providedBy: null
   - status: "OK"
     name: "ApocalypseFx"
-    providedBy: null
   Apocalypse.u:
   - status: "OK"
     name: "ApocalypseTex2"
-    providedBy: null
   - status: "OK"
     name: "ApocalypseFx"
-    providedBy: null
   - status: "OK"
     name: "ApocalypseTex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/A/7/1/509a24/aw_beta9_zip.zip"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=GameTypes/ApocalypseX/&file=aw_beta9_zip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/A/7/1/509a24/aw_beta9_zip.zip"
   main: false
   repack: false
   state: "OK"

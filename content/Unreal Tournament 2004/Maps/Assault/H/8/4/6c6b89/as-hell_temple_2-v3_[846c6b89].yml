@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 23:46"
+game: "Unreal Tournament 2004"
+name: "AS-Hell_Temple_2-v3"
+author: "Naabis"
+description: "Welcome to Hell Temple 2, creation by Naabis."
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "AS-Hell_Temple_2-v3_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/H/AS-Hell_Temple_2-v3_shot_2.png"
+- type: "IMAGE"
+  name: "AS-Hell_Temple_2-v3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/H/AS-Hell_Temple_2-v3_shot_1.png"
+originalFilename: "as-hell_temple2v3.zip"
+hash: "846c6b897dd3d6bf8cd78466c232dc9c26165107"
+fileSize: 16869935
+files:
+- name: "TFAMap.u"
+  fileSize: 21814
+  hash: "4769d810763cd19e6218101f9409ae9bb5076f5b"
+- name: "KarmaOnline.u"
+  fileSize: 3929
+  hash: "5832caf2744ad1f510b51212b188f6836447b19d"
+- name: "fastcars.u"
+  fileSize: 70935
+  hash: "8e2d33725ee399505d01fd8eb3c3d3bdbdce057a"
+- name: "GTIS2.ogg"
+  fileSize: 5257296
+  hash: "541416a6de1e5226e11ccef56477f8a14122fd83"
+- name: "AS-Hell_Temple_2-v3.ut2"
+  fileSize: 27272492
+  hash: "0c1be503b3bec21d21746863daa53c50887dc69e"
+otherFiles: 2
+dependencies:
+  AS-Hell_Temple_2-v3.ut2:
+  - status: "OK"
+    name: "TFAMap"
+  - status: "OK"
+    name: "fastcars"
+  - status: "OK"
+    name: "KarmaOnline"
+  fastcars.u:
+  - status: "MISSING"
+    name: "ONSVehicles-A"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Assault/&file=as-hell_temple2v3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/H/as-hell_temple2v3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4426"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/H/8/4/6c6b89/as-hell_temple2v3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/H/8/4/6c6b89/as-hell_temple2v3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Hell_Temple_2"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Industrial: 0.3
+  Ancient: 0.1
+bots: false

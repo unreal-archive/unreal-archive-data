@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:03"
+variationOf: "1acbbc5708beead4e33b4f5ff0e2836daefc87c1"
+game: "Unreal Tournament"
+name: "CTF-(Fall0utII)"
+author: "BranDon \"BranDoom\" Flowers"
+description: "Fallout V2.2"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fall0utii_shot_9892d043_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/9/8/92d043/ctf-fall0utii_shot_9892d043_1.png"
+- type: "IMAGE"
+  name: "ctf-fall0utii_shot_9892d043_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/9/8/92d043/ctf-fall0utii_shot_9892d043_2.png"
+originalFilename: "ctf-(fall0utii).zip"
+hash: "9892d0437364430ab0026d209cdc2f169b7e745a"
+fileSize: 3611948
+files:
+- name: "CTF-(Fall0utII).unr"
+  fileSize: 6396251
+  hash: "2dfc593e535f9c84acaaee1fbc1b10b178f6f615"
+- name: "Soabm.umx"
+  fileSize: 784878
+  hash: "76407e50edc0efceb3ffb10862562a47b4e01701"
+- name: "Annex.utx"
+  fileSize: 1826479
+  hash: "a32ee344b2ee474ff9f947af00f92926086ea818"
+otherFiles: 2
+dependencies:
+  CTF-(Fall0utII).unr:
+  - status: "OK"
+    name: "Annex"
+  - status: "OK"
+    name: "Soabm"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%28fall0utii%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-(fall0utii).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-fallout2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-falloutii.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=574"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/9/8/92d043/ctf-(fall0utii).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/9/8/92d043/ctf-(fall0utii).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "~Fallout V2.2~"
+playerCount: "16-32"
+themes:
+  Ancient: 0.2
+  City: 0.7
+  Natural: 0.2
+bots: true

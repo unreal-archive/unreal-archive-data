@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 02:49"
+game: "Unreal Tournament 2004"
+name: "vCTF-Castle-Belch"
+author: "Simonetto 'Liberatore' Diego & Belch"
+description: "These two castles, rised over an ancient vulcanico crater, are one of\
+  \ the worst arenas of vCTF. Too few free space and too much blood here... Welcome\
+  \ to the battles in Castles !"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "vCTF-Castle-Belch_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/V/vCTF-Castle-Belch_shot_2.png"
+- type: "IMAGE"
+  name: "vCTF-Castle-Belch_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/V/vCTF-Castle-Belch_shot_1.png"
+originalFilename: "VCTF-Castle-Belch.zip"
+hash: "b26bc314fb1ac9e62914c6ab011a0241e4a775ca"
+fileSize: 7187768
+files:
+- name: "InfernalX.usx"
+  fileSize: 79283
+  hash: "5786055b3ab92d9d65d49addb68f3479cecbfdda"
+- name: "vCTF-Castle-Belch.ut2"
+  fileSize: 15020703
+  hash: "db446cfac6ebf1b2964d1f59ba6066e4cef20413"
+- name: "AW-2004Shaders.utx"
+  fileSize: 2286899
+  hash: "8a3f3d6b084d647ce9735fee146906bb1cda6b24"
+otherFiles: 2
+dependencies:
+  vCTF-Castle-Belch.ut2:
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "OK"
+    name: "InfernalX"
+  - status: "MISSING"
+    name: "ClassicUT_1"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/VCTF/&file=VCTF-Castle-Belch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/V/VCTF-Castle-Belch.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6074"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/C/b/2/6bc314/VCTF-Castle-Belch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/C/b/2/6bc314/VCTF-Castle-Belch.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "2Castles"
+playerCount: "10-14"
+themes:
+  Industrial: 0.5
+  Egyptian: 0.5
+bots: true

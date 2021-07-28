@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:16"
+game: "Unreal Tournament"
+name: "CTF-FragFestV1"
+author: "*SA*EQ{~LoB~}"
+description: "Frag \"N\" Cap!!"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FragFestV1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FragFestV1_shot_1.png"
+originalFilename: "ctf-fragfestv1.zip"
+hash: "e311ffd756dc47fbde6a97c029f9be555b4af40d"
+fileSize: 772400
+files:
+- name: "Partyanm.umx"
+  fileSize: 297477
+  hash: "f0fe398e7393e4067867f6c9a26f77012ad0fa23"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "CTF-FragFestV1.unr"
+  fileSize: 710761
+  hash: "9c93af5fc49eb7d27b224ce9e6c1ac022ef1051f"
+otherFiles: 0
+dependencies:
+  CTF-FragFestV1.unr:
+  - status: "OK"
+    name: "Partyanm"
+  - status: "OK"
+    name: "Factory"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-fragfestv1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-fragfestv1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/3/11ffd7/ctf-fragfestv1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/e/3/11ffd7/ctf-fragfestv1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Frag Fest!!"
+playerCount: "2-10"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.9
+bots: true

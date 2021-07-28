@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:55"
+game: "Unreal Tournament"
+name: "DM-BattlePlatform"
+author: "Joe 'Particle Man' McGoldrick II"
+description: "Welcome to the Mesa"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-BattlePlatform_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BattlePlatform_shot_1.png"
+originalFilename: "dm-battleplatform.zip"
+hash: "3cb3ef4f96ce06dfba36d71853f12f137d82120f"
+fileSize: 362816
+files:
+- name: "DM-BattlePlatform.unr"
+  fileSize: 1017487
+  hash: "29b3a8c8f43e52c9d342487bc2b24b0ab93f7e97"
+- name: "dean-pk1.utx"
+  fileSize: 88979
+  hash: "b15b0fb322be57405a9d7e1b0dd7ceb4414b3fcf"
+- name: "TRON.utx"
+  fileSize: 374649
+  hash: "e083e42e6ef3654ad6c1d6667f70d87a587463c0"
+otherFiles: 1
+dependencies:
+  DM-BattlePlatform.unr:
+  - status: "OK"
+    name: "dean-pk1"
+  - status: "OK"
+    name: "TRON"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-battleplatform.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-battleplatform.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-battleplatform.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-battleplatform.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/3/c/b3ef4f/dm-battleplatform.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/3/c/b3ef4f/dm-battleplatform.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Battle Platform"
+playerCount: "6-8"
+themes:
+  Skaarj Tech: 0.9
+  Indistrial: 0.1
+bots: true

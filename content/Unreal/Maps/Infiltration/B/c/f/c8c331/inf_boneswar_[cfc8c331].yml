@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:00"
+game: "Unreal"
+name: "INF_BonesWar"
+author: "BONE"
+description: "None"
+releaseDate: "1999-11"
+attachments: []
+originalFilename: "INF_BonesWar.zip"
+hash: "cfc8c33134f373482b5fa57ef41ab30426b13bb0"
+fileSize: 1437137
+files:
+- name: "DDay.uax"
+  fileSize: 1534753
+  hash: "dc49d1387a90d763c11e3efa7e535e2ba8cc70ae"
+- name: "INF_BonesWar.unr"
+  fileSize: 834213
+  hash: "ffff563bd0b008a27ea43d6bfed887985b81bdbc"
+otherFiles: 0
+dependencies:
+  INF_BonesWar.unr:
+  - status: "OK"
+    name: "DDay"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_BonesWar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/B/INF_BonesWar.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_BonesWar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/B/c/f/c8c331/INF_BonesWar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/B/c/f/c8c331/INF_BonesWar.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Bone'sWar"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.4
+  Skaarj Tech: 0.4
+bots: true

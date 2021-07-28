@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 23:16"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "CTF-GauntletClassic-UT99"
 author: "Cliff Bleszinski, Unreal4Eva"
@@ -29,14 +28,16 @@ dependencies:
   CTF-GauntletClassic-UT99.ut2:
   - status: "OK"
     name: "SpaceFX"
-    providedBy: null
   SpaceFX.utx:
   - status: "MISSING"
     name: "GenFX"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/4/a/7cc5b8/CTF-GauntletClassic-UT99.rar"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/4/a/7cc5b8/CTF-GauntletClassic-UT99.rar"
+  main: false
   repack: false
   state: "OK"
 deleted: false

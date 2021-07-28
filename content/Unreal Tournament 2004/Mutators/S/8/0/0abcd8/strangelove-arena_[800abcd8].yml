@@ -1,0 +1,58 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 16:47"
+game: "Unreal Tournament 2004"
+name: "StrangeLove Arena"
+author: "AlphaOne"
+description: "Fly the redeemer rocket."
+releaseDate: "2004-04"
+attachments: []
+originalFilename: "StrangeLove3.3.zip"
+hash: "800abcd8fcd82f79975bf2c995ccf1732d97ea5c"
+fileSize: 83102
+files:
+- name: "StrangeLove.u"
+  fileSize: 95754
+  hash: "ac96d2d68646bceeb420c8ab02b76cc6df9fa18e"
+- name: "StrangeLoveSM.usx"
+  fileSize: 79527
+  hash: "2297be12f37fdaa21866a03473258ea09d93d796"
+otherFiles: 2
+dependencies:
+  StrangeLove.u:
+  - status: "OK"
+    name: "StrangeLoveSM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/StrangeLove3.3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/S/8/0/0abcd8/StrangeLove3.3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/S/8/0/0abcd8/StrangeLove3.3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "StrangeLove Arena"
+  description: "Fly the redeemer rocket."
+weapons:
+- name: "SL"
+  description: "The first time you witness this miniature nuclear device in action,\
+    \ you'll agree it is the most powerful weapon in the Tournament.|Launch a slow-moving\
+    \ but utterly devastating missile with the primary fire; but make sure you're\
+    \ out of the Redeemer's impressive blast radius before it impacts. The secondary\
+    \ fire allows you to guide the nuke yourself with a rocket's-eye view.||Keep in\
+    \ mind, however, that you are vulnerable to attack when steering the Redeemer's\
+    \ projectile. Due to the extreme bulkiness of its ammo, the Redeemer is exhausted\
+    \ after a single shot."
+vehicles:
+- name: "Vehicle"
+  description: "Vehicle"
+- name: "Strange Love Missile"
+  description: "Strange Love Missile"
+hasConfigMenu: false
+hasKeybinds: false

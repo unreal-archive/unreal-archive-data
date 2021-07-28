@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-03 16:48"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "UT2004 RPG"
 author: "the wrong amount"
@@ -30,20 +29,21 @@ dependencies:
   UT2004RPG.u:
   - status: "OK"
     name: "UTRPGStatics"
-    providedBy: null
   - status: "OK"
     name: "UTRPGTextures"
-    providedBy: null
   UTRPGStatics.usx:
   - status: "OK"
     name: "UTRPGTextures"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/UT2004RPG12a.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/U/c/1/5f842d/UT2004RPG12a.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/U/c/1/5f842d/UT2004RPG12a.zip"
   main: false
   repack: false
   state: "OK"

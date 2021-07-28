@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:39"
+game: "Unreal Tournament"
+name: "CTF-INF-Hillfight"
+author: "fist_mlrs"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-INF-Hillfight_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/CTF-INF-Hillfight_shot_1.png"
+originalFilename: "ctf-inf-hillfight.zip"
+hash: "136727ea1e7e92b292dc46befd2b9a3399caad84"
+fileSize: 4008387
+files:
+- name: "fmhillfight.utx"
+  fileSize: 4269703
+  hash: "794d51f459a1dc2a0c60359b5efc93d8dc5cef54"
+- name: "CTF-INF-Hillfight.unr"
+  fileSize: 6193980
+  hash: "700756090ba91d269e5fb0be0d8d7d62da06cb1a"
+otherFiles: 0
+dependencies:
+  CTF-INF-Hillfight.unr:
+  - status: "MISSING"
+    name: "INF_MS[Misc]_TerraFirma"
+  - status: "MISSING"
+    name: "INF_Assets2"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Concrete"
+  - status: "OK"
+    name: "fmhillfight"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "belgramb"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  - status: "MISSING"
+    name: "INF_MS[Misc]_Wood"
+  - status: "MISSING"
+    name: "INF_MS[Classic]_Stone"
+  - status: "MISSING"
+    name: "INF_MS[Rustic]_Wood"
+  fmhillfight.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=ctf-inf-hillfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/ctf-inf-hillfight.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/H/1/3/6727ea/ctf-inf-hillfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/H/1/3/6727ea/ctf-inf-hillfight.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Hillfight"
+playerCount: "Unknown"
+themes: {}
+bots: true

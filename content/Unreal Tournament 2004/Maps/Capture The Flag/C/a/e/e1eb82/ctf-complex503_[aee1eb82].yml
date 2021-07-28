@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 14:31"
+game: "Unreal Tournament 2004"
+name: "CTF-Complex503"
+author: "Sander"
+description: "Complex 503"
+releaseDate: "2003-07"
+attachments: []
+originalFilename: "ctf-complex503.zip"
+hash: "aee1eb82b03b8c0be6f22648c2a958f770a156ef"
+fileSize: 17695522
+files:
+- name: "CTF-Complex503.ut2"
+  fileSize: 15768781
+  hash: "5944624765df06732343075e1ab50ecaa373ac30"
+- name: "Mission_09T.utx"
+  fileSize: 26027256
+  hash: "d8fc088b208e26aaacbf40792e17a5b8c9436c5c"
+- name: "Complex503.usx"
+  fileSize: 14666559
+  hash: "3927323f0bd22dc253a8b939b2f0e3ea2f0ad300"
+otherFiles: 1
+dependencies:
+  CTF-Complex503.ut2:
+  - status: "OK"
+    name: "Mission_09T"
+  - status: "OK"
+    name: "Complex503"
+  Complex503.usx:
+  - status: "OK"
+    name: "Mission_09T"
+downloads:
+- url: "https://gamebanana.com/maps/download/18616"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/ctf-complex503.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/a/e/e1eb82/ctf-complex503.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/a/e/e1eb82/ctf-complex503.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Complex 503"
+playerCount: "8-16"
+themes:
+  Industrial: 0.3
+  Egyptian: 0.6
+bots: true

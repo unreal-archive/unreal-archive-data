@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:25"
+game: "Unreal Tournament"
+name: "CTF-'uK-LavaSiegeV2(unlocked)"
+author: "Unreal Killers"
+description: "None"
+releaseDate: "2012-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-'uK-LavaSiegeV2(unlocked)_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-'uK-LavaSiegeV2(unlocked)_shot_1.png"
+originalFilename: "CTF-'uK-LavaSiegeV2.zip"
+hash: "b9c69cebd2deed83cd07b3fe38605076c621fb22"
+fileSize: 1206499
+files:
+- name: "Eversmok.umx"
+  fileSize: 795864
+  hash: "cebd445a9b0fb87bfb91c5258586cb8e77be8dc4"
+- name: "CTF-'uK-LavaSiegeV2(unlocked).unr"
+  fileSize: 1620155
+  hash: "ee79911dc16f1642274ade706badde6ed337abba"
+- name: "uK_Logosv2.utx"
+  fileSize: 177696
+  hash: "1a2be4a78032293a10a082427a3fbeb3d1b3d80c"
+otherFiles: 0
+dependencies:
+  CTF-'uK-LavaSiegeV2(unlocked).unr:
+  - status: "OK"
+    name: "uK_Logosv2"
+  - status: "OK"
+    name: "Eversmok"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Siege/&file=CTF-%27uK-LavaSiegeV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-'uK-LavaSiegeV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Siege&file=CTF-%27uK-LavaSiegeV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/b/9/c69ceb/CTF-'uK-LavaSiegeV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/b/9/c69ceb/CTF-'uK-LavaSiegeV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "|uK| Lava Siege"
+playerCount: "8-20"
+themes:
+  Industrial: 0.3
+  Natural: 0.7
+bots: true

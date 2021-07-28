@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:03"
+game: "Unreal Tournament"
+name: "DM-Dominis"
+author: "by Nathillien Thilsa"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-dominis_shot_7472b634_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/7/4/72b634/dm-dominis_shot_7472b634_1.png"
+originalFilename: "dm-dominis.zip"
+hash: "7472b634b8b6bc37bc63f467aa4dc172cd856261"
+fileSize: 3183452
+files:
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "Light_Stand_01.u"
+  fileSize: 5388
+  hash: "4bc8ecd3a6fd905957b4261efc71056d736000a2"
+- name: "DM-Dominis.unr"
+  fileSize: 9924933
+  hash: "8d1f22db22ad9251d328afefa3a2dce44c43fbac"
+- name: "Torch_1.u"
+  fileSize: 3380
+  hash: "bdd493c2a0899d23f1b98d0d070888cdbc5656f6"
+otherFiles: 0
+dependencies:
+  DM-Dominis.unr:
+  - status: "OK"
+    name: "Watcher"
+  - status: "OK"
+    name: "Torch_1"
+  - status: "OK"
+    name: "Light_Stand_01"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-dominis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/7/4/72b634/dm-dominis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/7/4/72b634/dm-dominis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/7/4/72b634/dm-dominis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Dominis"
+playerCount: "Ideal for 5-8"
+themes:
+  Skaarj Crypt: 0.3
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.5
+bots: true

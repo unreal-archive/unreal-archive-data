@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:22"
+game: "Unreal"
+name: "inf_urbanarenaSE2"
+author: "rich/akuma"
+description: "time to chew bubblegum & kick ass - and i'm all outa bubblegum"
+releaseDate: "1999-09"
+attachments: []
+originalFilename: "inf_urbanarenase2.zip"
+hash: "96153b569eb57bc194b39e7ef064441c32ae3579"
+fileSize: 2832004
+files:
+- name: "dmurbsoundfx.uax"
+  fileSize: 60832
+  hash: "cfe4391c026108738665a6338b5b797177c0ed9f"
+- name: "infurbanarena.utx"
+  fileSize: 370089
+  hash: "1043ba65454e1e2d7606466360c9740acd162a84"
+- name: "inf_urbanarenaSE2.unr"
+  fileSize: 3206140
+  hash: "5d9fdcbba8c251ccd80b48a164aa12548041cf62"
+- name: "a3extra.utx"
+  fileSize: 200436
+  hash: "2953891e2419f34cfbccab3aa042347cfa234f33"
+- name: "NBSpecials.u"
+  fileSize: 112077
+  hash: "60fd4dba640bd575ebaeafee37bb0f2a9ffe1c63"
+- name: "a3text.utx"
+  fileSize: 2068743
+  hash: "81a074aab84063b063c12f0a4be2916d7a8a3276"
+- name: "NBSpecialT.utx"
+  fileSize: 116962
+  hash: "724fcd8a98dcb1866d02c9577b8a9120fa6ce841"
+otherFiles: 1
+dependencies:
+  inf_urbanarenaSE2.unr:
+  - status: "OK"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "a3extra"
+  - status: "OK"
+    name: "dmurbsoundfx"
+  - status: "MISSING"
+    name: "Infiltration"
+  - status: "OK"
+    name: "infurbanarena"
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/U/9/6/153b56/inf_urbanarenase2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/U/9/6/153b56/inf_urbanarenase2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/U/9/6/153b56/inf_urbanarenase2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "inf_urbanarenase2"
+playerCount: "Unknown"
+themes:
+  City: 0.4
+  Skaarj Tech: 0.5
+bots: true

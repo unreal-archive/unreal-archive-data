@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:39"
+game: "Unreal Tournament"
+name: "DM-Funeral"
+author: "Ken Pilarski"
+description: "Dominate the crypt!!!"
+releaseDate: "2005-10"
+attachments: []
+originalFilename: "DM-Funeral.zip"
+hash: "8f73445f7c936f94790433fd1b31a7cf13d9acd9"
+fileSize: 698542
+files:
+- name: "DM-Funeral.unr"
+  fileSize: 1209432
+  hash: "65d0f6f65485f5f94102ce1a1ffd149a7acf1f71"
+- name: "FUNERAL.umx"
+  fileSize: 411382
+  hash: "5b68dbdf1014fe5331cc20253e7985ab2734a3e7"
+otherFiles: 0
+dependencies:
+  DM-Funeral.unr:
+  - status: "OK"
+    name: "FUNERAL"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Funeral.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-Funeral.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/8/f/73445f/DM-Funeral.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/8/f/73445f/DM-Funeral.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Funeral"
+playerCount: "8-16"
+themes:
+  Nali Temple: 1.0
+bots: true

@@ -1,0 +1,92 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:45"
+game: "Unreal Tournament"
+name: "DM-Archives"
+author: "Si \"Kain\" Cass"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Archives_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Archives_shot_1.png"
+originalFilename: "dm-007archives.zip"
+hash: "72dd8bd10cab5d4bdc65381cf9905b4c3b8af8f5"
+fileSize: 736967
+files:
+- name: "Exp.u"
+  fileSize: 80074
+  hash: "4510526cd4555f12bfe872065cfda7721713447d"
+- name: "DM-Archives.unr"
+  fileSize: 1067048
+  hash: "70a2a7bc68153ddf197f061808ea03d62af2c342"
+- name: "Untitled.utx"
+  fileSize: 142023
+  hash: "572e3d43b41125832c40248151556df24d25cc77"
+- name: "007Tex.utx"
+  fileSize: 288558
+  hash: "242cffd708578d29eb46b1c23d2161243f8d3afb"
+- name: "Exp.uax"
+  fileSize: 79210
+  hash: "8d43ecd102bf85a8cf700fb0b1b813d786f47100"
+- name: "NBDeco.u"
+  fileSize: 8425
+  hash: "2ea75425d7841bddd872a6177381a9ee667e9412"
+otherFiles: 2
+dependencies:
+  DM-Archives.unr:
+  - status: "OK"
+    name: "Untitled"
+  - status: "OK"
+    name: "007Tex"
+  - status: "OK"
+    name: "Exp"
+  - status: "OK"
+    name: "NBDeco"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-007archives.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1534467"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Maps0/&file=dm-007archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-007archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/Maps0/dm-007archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/7/2/dd8bd1/dm-007archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/7/2/dd8bd1/dm-007archives.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Archives"
+playerCount: "2-8"
+themes:
+  Ancient: 0.1
+  Skaarj Tech: 0.4
+  Nali Castle: 0.1
+  Indistrial: 0.5
+bots: true

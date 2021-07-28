@@ -1,0 +1,97 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 20:13"
+game: "Unreal Tournament 2004"
+name: "AS-T4M-NuclearShip-v2"
+author: "CraZyFrag"
+description: "Your mission is to intercept and destroy a ship and a submarine which\
+  \ are transporting two nuclear weapons. Destroy them now !"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "AS-T4M-NuclearShip-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/AS-T4M-NuclearShip-v2_shot_1.png"
+originalFilename: "ast4mnuclearshipv2.zip"
+hash: "27e34ce4fb41fee9bf5cf7a587f6daa070cbd4e4"
+fileSize: 1133721
+files:
+- name: "watercraft.u"
+  fileSize: 347144
+  hash: "557e30dbb7c1ba2b2cd7c66aa2b3541888c7f285"
+- name: "watercraft-A.ukx"
+  fileSize: 143880
+  hash: "3c03a7dcfb806ed44f759924fc2f8382249df1e1"
+- name: "watercraft-SM.usx"
+  fileSize: 171488
+  hash: "89b6b0d23773592c483e8712bb0ad85c3a2f302f"
+- name: "AS-T4M-NuclearShip-v2.ut2"
+  fileSize: 2382262
+  hash: "18f8a89ffa0f22b2bd8e23b2286c9493826b28ee"
+- name: "watercraft-TX.utx"
+  fileSize: 260205
+  hash: "d70e7e76a7e4450338c35fb7cf527748dc037a4f"
+- name: "wcBTR-A.ukx"
+  fileSize: 282554
+  hash: "be4388fbe72be730450d5a32a5d82a1ad514c9d6"
+otherFiles: 1
+dependencies:
+  watercraft.u:
+  - status: "OK"
+    name: "watercraft-SM"
+  - status: "MISSING"
+    name: "wcSoldier-A"
+  - status: "MISSING"
+    name: "wcBTR-A"
+  - status: "MISSING"
+    name: "wcFodderGun-SM"
+  - status: "MISSING"
+    name: "ONSBPAnimations"
+  - status: "MISSING"
+    name: "wcFodderGun-TX"
+  - status: "MISSING"
+    name: "watercraft-A"
+  - status: "MISSING"
+    name: "AS_Vehicles_M"
+  - status: "MISSING"
+    name: "wcSoldier-TX"
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "OK"
+    name: "watercraft-TX"
+  - status: "MISSING"
+    name: "ONSVehicles-A"
+  AS-T4M-NuclearShip-v2.ut2:
+  - status: "OK"
+    name: "watercraft"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5017805"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/T/ast4mnuclearshipv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Assault/&file=ast4mnuclearshipv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5413"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/T/2/7/e34ce4/ast4mnuclearshipv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/T/2/7/e34ce4/ast4mnuclearshipv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "AS-T4M-NuclearShip-v2"
+playerCount: "10-20"
+themes:
+  Natural: 1.0
+bots: false

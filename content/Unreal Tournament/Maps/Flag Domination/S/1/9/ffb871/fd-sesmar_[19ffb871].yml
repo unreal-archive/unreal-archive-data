@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-06-07 14:59"
+game: "Unreal Tournament"
+name: "FD-Sesmar"
+author: "Juan Pancho ' XceptOne ' Eekels"
+description: "DOMINATE!!!!"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "FD-Sesmar_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Flag%20Domination/S/FD-Sesmar_shot_1.png"
+originalFilename: "fd-sesmar_19ffb871.zip"
+hash: "19ffb8716dd2607bf743d453340131a1e398b7be"
+fileSize: 705458
+files:
+- name: "FDDecals.utx"
+  fileSize: 1586965
+  hash: "d420df572b13034247233de01c2a62628ee34b53"
+- name: "FD-Sesmar.unr"
+  fileSize: 2262756
+  hash: "33a943a2e2d7dc2ad506d658b114b9f64fdb67d0"
+otherFiles: 0
+dependencies:
+  FD-Sesmar.unr:
+  - status: "OK"
+    name: "FDDecals"
+  - status: "MISSING"
+    name: "FlagDom"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Flag%20Domination/S/fd-sesmar_19ffb871.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Flag%20Domination/S/1/9/ffb871/fd-sesmar_19ffb871.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Flag%20Domination/S/1/9/ffb871/fd-sesmar_19ffb871.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Flag Domination"
+title: "Tomb of Sesmar"
+playerCount: "6 - 12"
+themes:
+  Nali Temple: 0.5
+  Egyptian: 0.3
+  Natural: 0.2
+bots: true

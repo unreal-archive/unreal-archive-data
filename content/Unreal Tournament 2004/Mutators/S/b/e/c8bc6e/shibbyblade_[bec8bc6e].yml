@@ -1,0 +1,63 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 19:35"
+game: "Unreal Tournament 2004"
+name: "Shibbyblade"
+author: "Blade"
+description: "None"
+releaseDate: "2003-11"
+attachments: []
+originalFilename: "shibbyblade.zip"
+hash: "bec8bc6e4518eb8d242cc61adeaf3d57791dec42"
+fileSize: 1047086
+files:
+- name: "ShibbyBladeAnim.ukx"
+  fileSize: 87790
+  hash: "cad716604fcfa4628d7a80a63928344e9f04d383"
+- name: "ShibbyBladeStatic.usx"
+  fileSize: 227925
+  hash: "58d3917de46df75c76a8cb059d5239a56d7cec75"
+- name: "ShibbyBladeSounds.uax"
+  fileSize: 60965
+  hash: "8cbd0f1493c688336db61c99b081a19f0cb0689f"
+- name: "ShibbyBlade.u"
+  fileSize: 14100
+  hash: "3e286e0e50c8680b9d9696e48a8c7bd92510bb62"
+- name: "ShibbyBladeTex.utx"
+  fileSize: 2099377
+  hash: "9da44c979d44800841f061057fb073503cc87bf8"
+otherFiles: 2
+dependencies:
+  ShibbyBladeStatic.usx:
+  - status: "OK"
+    name: "ShibbyBladeTex"
+  ShibbyBlade.u:
+  - status: "MISSING"
+    name: "ShibbyBladeAnim"
+  - status: "OK"
+    name: "ShibbyBladeStatic"
+  - status: "OK"
+    name: "ShibbyBladeSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/shibbyblade.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/S/b/e/c8bc6e/shibbyblade.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/S/b/e/c8bc6e/shibbyblade.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Shibby Blade Arena"
+  description: ""
+- name: "Shibby Blade"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

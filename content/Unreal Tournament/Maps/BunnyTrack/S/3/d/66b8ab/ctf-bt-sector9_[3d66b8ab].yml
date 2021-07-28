@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:50"
+game: "Unreal Tournament"
+name: "CTF-BT-Sector9"
+author: "Isotoxin`"
+description: "None"
+releaseDate: "2009-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Sector9_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Sector9_shot_1.png"
+originalFilename: "CTF-BT-Sector9.rar"
+hash: "3d66b8abb4903d8c3d3d157386180cf6ed80c9f6"
+fileSize: 16691433
+files:
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "CTF-BT-Sector9.unr"
+  fileSize: 7936208
+  hash: "0ea4df7e64cb21bd971676aeafbddbf0ccf14d7c"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  CTF-BT-Sector9.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "blank"
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Anc"
+  - status: "MISSING"
+    name: "GennFX"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-Sector9.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/S/CTF-BT-Sector9.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Sector9.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/S/3/d/66b8ab/CTF-BT-Sector9.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/S/3/d/66b8ab/CTF-BT-Sector9.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-Sector9"
+playerCount: "1-8"
+themes:
+  Industrial: 0.9
+bots: false

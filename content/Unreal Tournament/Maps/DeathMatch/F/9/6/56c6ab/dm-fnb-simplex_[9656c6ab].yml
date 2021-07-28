@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:18"
+variationOf: "578ae980c2b5c81efce3948c0097c7760dd29f28"
+game: "Unreal Tournament"
+name: "DM-FNB-SimpleX"
+author: "Rob -=FraGnBraG=- Burns"
+description: "This is the original FULL SimpleX map :)"
+releaseDate: "2006-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-FNB-SimpleX_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-SimpleX_shot_1.png"
+originalFilename: "dm-fnb-simplex.zip"
+hash: "9656c6abdc43385cad2a9b9ebb87f407e84e0fdd"
+fileSize: 21045361
+files:
+- name: "DM-FNB-SimpleX.unr"
+  fileSize: 36377294
+  hash: "ac963971f38eedbadc6664a7117f41cb73d77277"
+- name: "KalydonEX.umx"
+  fileSize: 5377696
+  hash: "18efbab00475606c5cc6e976d09ebcd5cdb6e678"
+- name: "noxxpack.utx"
+  fileSize: 914942
+  hash: "1ffd65e75842903d66542de085cf19de23a6f3fb"
+otherFiles: 0
+dependencies:
+  DM-FNB-SimpleX.unr:
+  - status: "OK"
+    name: "KalydonEX"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-fnb-simplex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/9/6/56c6ab/dm-fnb-simplex.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/9/6/56c6ab/dm-fnb-simplex.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/9/6/56c6ab/dm-fnb-simplex.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FNB-SimpleX"
+playerCount: "4-8"
+themes:
+  Industrial: 1.0
+bots: true

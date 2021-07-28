@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:26"
+game: "Unreal Tournament"
+name: "DM-Motorball"
+author: "KuroiTenshi"
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Motorball_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-Motorball_shot_1.png"
+originalFilename: "dm-motorball.zip"
+hash: "3578c63256d0bc9762e594eb0dca01b14d1f069d"
+fileSize: 446215
+files:
+- name: "SCZone.u"
+  fileSize: 1945
+  hash: "122386a74d47b140d54668ed6751d16344c87b72"
+- name: "SGTech1.utx"
+  fileSize: 168910
+  hash: "0d9a53418d20f971a72b2ca9bb8a548fc7c2a22c"
+- name: "DM-Motorball.unr"
+  fileSize: 1633489
+  hash: "c01be301abf0b90873608b4184377ab90bd7c94b"
+otherFiles: 2
+dependencies:
+  DM-Motorball.unr:
+  - status: "OK"
+    name: "SCZone"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-motorball.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-motorball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-motorball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-motorball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/3/5/78c632/dm-motorball.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/3/5/78c632/dm-motorball.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Motorball"
+playerCount: "4 - 8"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.3
+  Industrial: 0.3
+  City: 0.1
+bots: true

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:25"
+game: "Unreal Tournament"
+name: "CTF-Waterworx"
+author: "Sinistral[Spirit]"
+description: "Visit the {DBM} clan website at http://pages.eidosnet.co.uk/~dbmclanitt/"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Waterworx_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-Waterworx_shot_1.png"
+originalFilename: "CTF-Waterworx.zip"
+hash: "9cab6def1169a51b240c79136c73f108dec39092"
+fileSize: 1175655
+files:
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "waterworx.utx"
+  fileSize: 532344
+  hash: "f3c15d17db8ce06e41325f1ba8cdfe0a9c7b0300"
+- name: "CTF-Waterworx.unr"
+  fileSize: 1813250
+  hash: "00fe19b0b8ee2a1212381b394727319031f34d01"
+otherFiles: 1
+dependencies:
+  CTF-Waterworx.unr:
+  - status: "OK"
+    name: "waterworx"
+  - status: "OK"
+    name: "k_vision"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Waterworx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/CTF-Waterworx.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/9/c/ab6def/CTF-Waterworx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/9/c/ab6def/CTF-Waterworx.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Waterworx"
+playerCount: "8 or more"
+themes:
+  Industrial: 0.2
+  City: 0.2
+  Natural: 0.6
+bots: true

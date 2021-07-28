@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 09:22"
+game: "Unreal Tournament 2004"
+name: "CTF-KnightsRealm"
+author: "{TDC}Sergio"
+description: "Knights Realm, designed for 10-16 players, places you in a medieval\
+  \ setting high in the mountains. A fight to the death will decide who claims the\
+  \ right to the realm. Look for more maps from {TDC} Clan. www.tdcclan.net"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-KnightsRealm_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/CTF-KnightsRealm_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-KnightsRealm_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/CTF-KnightsRealm_shot_1.png"
+originalFilename: "ctf-knightsrealm.zip"
+hash: "465c6b78105f0c48d6e3cd17795c0e59894464ba"
+fileSize: 13722000
+files:
+- name: "CTF-KnightsRealm.ut2"
+  fileSize: 13904876
+  hash: "9d2116057e423d69e00cbec8d66169a835d86ca7"
+- name: "R3tex.utx"
+  fileSize: 18411222
+  hash: "5982bd56f81954a05e5fcd7624a1428f95e4bf83"
+otherFiles: 2
+dependencies:
+  CTF-KnightsRealm.ut2:
+  - status: "OK"
+    name: "R3tex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2403"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/ctf-knightsrealm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/4/6/5c6b78/ctf-knightsrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/4/6/5c6b78/ctf-knightsrealm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-KnightsRealm"
+playerCount: "10-16"
+themes:
+  Industrial: 0.2
+  Ancient: 0.6
+  Egyptian: 0.2
+bots: true

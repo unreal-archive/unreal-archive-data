@@ -1,0 +1,122 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 17:45"
+game: "Unreal Tournament 2004"
+name: "DM-ZeitKind2K4"
+author: "<[NBS]>Flak"
+description: "Zeitkind has long been a favorite of the UT99 Sniper Community and is\
+  \ a staple at Fraggalonia Sniper Arena. This is a UT2k4 recreation of Juergen Vierheilig's\
+  \ Masterpiece, using most of the original textures. Have fun campers."
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_1.png"
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_3.png"
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_5.png"
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_6.png"
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_2.png"
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_7.png"
+- type: "IMAGE"
+  name: "DM-ZeitKind2K4_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Z/DM-ZeitKind2K4_shot_4.png"
+originalFilename: "dm-zeitkind2k4.zip"
+hash: "e2732bc25f258ce20448b14992fe55354d3a29e9"
+fileSize: 19047495
+files:
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "ClassicUT_1.usx"
+  fileSize: 15329
+  hash: "a0bc1d48c444331094863d3453753005a33a7342"
+- name: "zeitkindb.utx"
+  fileSize: 1266131
+  hash: "aa3aff12928176678fcb1f3e51f7813ea80daf28"
+- name: "zkind01.utx"
+  fileSize: 1108790
+  hash: "0856dc461d75308a0cda38ffe179e3cd71e08449"
+- name: "zeitksigns.utx"
+  fileSize: 458862
+  hash: "338ae78f0b808850e364654c5a7546f9f6d7c2c8"
+- name: "DM-ZeitKind2K4.ut2"
+  fileSize: 8243083
+  hash: "005a920d2f5c0053bbf4b51af2634617d0eccbdc"
+- name: "zeitkindtextures.utx"
+  fileSize: 2303144
+  hash: "c0d7c829bef8487df8c7f37f391e3a139e4a9c6e"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+- name: "Liquids.utx"
+  fileSize: 14013
+  hash: "d34fe4685e675780d6c25ff24ad0f13bfe6b8b8a"
+- name: "crime.utx"
+  fileSize: 5869519
+  hash: "68721f88cf74f34a08d924fc71161f88973e6a5d"
+- name: "GenFluid.utx"
+  fileSize: 5510043
+  hash: "5ee9f593826f9099b6a94457e38942cf13c31bf8"
+- name: "SniperTownTex.utx"
+  fileSize: 3174603
+  hash: "cbaa92482a8eda607c5059d43bf0235e92fa8d0f"
+otherFiles: 7
+dependencies:
+  Liquids.utx:
+  - status: "OK"
+    name: "genfluid"
+  DM-ZeitKind2K4.ut2:
+  - status: "OK"
+    name: "zkind01"
+  - status: "OK"
+    name: "zeitkind"
+  - status: "OK"
+    name: "zeitkindb"
+  - status: "OK"
+    name: "crime"
+  - status: "OK"
+    name: "SniperTownTex"
+  - status: "OK"
+    name: "zeitkindtextures"
+  - status: "OK"
+    name: "Liquids"
+  - status: "OK"
+    name: "ClassicUT_1"
+  - status: "OK"
+    name: "zeitksigns"
+  - status: "OK"
+    name: "Vierheilig"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/Z/dm-zeitkind2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsZ/&file=dm-zeitkind2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/Z/e/2/732bc2/dm-zeitkind2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/Z/e/2/732bc2/dm-zeitkind2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ZeitKind2K4"
+playerCount: "24-32"
+themes:
+  Industrial: 1.0
+bots: false

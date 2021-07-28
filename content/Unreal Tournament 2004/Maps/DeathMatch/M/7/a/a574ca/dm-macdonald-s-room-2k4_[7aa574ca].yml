@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 19:10"
+game: "Unreal Tournament 2004"
+name: "DM-{MaC}Donald-s-Room-2k4"
+author: "{MaC}4nik3r"
+description: "made for a good friend"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-{MaC}Donald-s-Room-2k4_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%7BMaC%7DDonald-s-Room-2k4_shot_1.png"
+- type: "IMAGE"
+  name: "DM-{MaC}Donald-s-Room-2k4_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%7BMaC%7DDonald-s-Room-2k4_shot_2.png"
+originalFilename: "dm-donald-s-room2k4.zip"
+hash: "7aa574ca36c730eaf12834f2887183883594decd"
+fileSize: 10838118
+files:
+- name: "donalds.ogg"
+  fileSize: 1276099
+  hash: "bed3537d7b45069fdc00e4996941daad25b10765"
+- name: "donaldms.usx"
+  fileSize: 3840353
+  hash: "7837c7a59b4e99d81856690344072009892df992"
+- name: "DM-{MaC}Donald-s-Room-2k4.ut2"
+  fileSize: 4583066
+  hash: "d7fa5904ede472b99d1ffec94a34921f12076e70"
+- name: "donaldtx.utx"
+  fileSize: 18142197
+  hash: "7d4872f40ec047b9f8af4ab277a8018d17a86fb0"
+otherFiles: 1
+dependencies:
+  donaldms.usx:
+  - status: "OK"
+    name: "donaldtx"
+  DM-{MaC}Donald-s-Room-2k4.ut2:
+  - status: "OK"
+    name: "donaldms"
+  - status: "OK"
+    name: "donaldtx"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3529"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/dm-donald-s-room2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/7/a/a574ca/dm-donald-s-room2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/7/a/a574ca/dm-donald-s-room2k4.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{MaC}Donald-s-Room"
+playerCount: "12"
+themes:
+  Egyptian: 1.0
+bots: false

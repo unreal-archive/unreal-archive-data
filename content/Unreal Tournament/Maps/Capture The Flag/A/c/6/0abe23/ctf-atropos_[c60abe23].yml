@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 20:24"
+game: "Unreal Tournament"
+name: "CTF-Atropos"
+author: "Andy 'Chrysaor' Monroe"
+description: "www.chrysaor.org"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-atropos_shot_c60abe23_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-atropos_shot_c60abe23_1.png"
+originalFilename: "ctfatropos.zip"
+hash: "c60abe23838ad01a1d00c0b32cdfde9424a2ee98"
+fileSize: 6340906
+files:
+- name: "CTF-Atropos.unr"
+  fileSize: 15261794
+  hash: "4090214a9637d116dc10e0aea85c5ead3a91fbb2"
+- name: "Atropos.utx"
+  fileSize: 2688239
+  hash: "80196a460a728f66773cb9b10c27430b679c9b50"
+otherFiles: 2
+dependencies:
+  CTF-Atropos.unr:
+  - status: "OK"
+    name: "Atropos"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=3931467"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctfatropos.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/c/6/0abe23/ctfatropos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/c/6/0abe23/ctfatropos.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Atropos"
+playerCount: "8-14"
+themes:
+  Natural: 1.0
+bots: true

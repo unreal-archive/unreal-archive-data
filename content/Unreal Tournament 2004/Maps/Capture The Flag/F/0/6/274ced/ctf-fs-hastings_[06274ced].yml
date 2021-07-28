@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-19 16:43"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "CTF-{Fs}-Hastings"
 author: "Feuersturm"
@@ -49,21 +48,21 @@ dependencies:
   CTFDownFallSM.usx:
   - status: "OK"
     name: "CTFDownFallTexes"
-    providedBy: null
   CTF-{Fs}-Hastings.ut2:
   - status: "OK"
     name: "CTFDownFallTexes"
-    providedBy: null
   - status: "OK"
     name: "VCTFBattlegroundSM"
-    providedBy: null
   VCTFBattlegroundSM.usx:
   - status: "OK"
     name: "VCTFBattlegroundTexes"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/0/6/274ced/CTF-%7BFs%7D-Hastings.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/0/6/274ced/CTF-%257BFs%257D-Hastings.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

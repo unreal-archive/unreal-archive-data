@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:46"
+game: "Unreal Tournament"
+name: "DM-A7D-Meh"
+author: "HortonsWho"
+description: "None"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-a7d-meh_shot_b7080142_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/b/7/080142/dm-a7d-meh_shot_b7080142_1.png"
+originalFilename: "DM-A7D-Meh.zip"
+hash: "b70801429787c5c88e7eb3b73cbf044e5df2fefe"
+fileSize: 4026094
+files:
+- name: "BaseTexPack.utx"
+  fileSize: 3897961
+  hash: "23e99edbef53ec1b5889f031ecb90432bb8d4b96"
+- name: "DM-A7D-Meh.unr"
+  fileSize: 2303740
+  hash: "77fb5b067ab4a205e7383574a8b107732df460b8"
+- name: "te-secwo.umx"
+  fileSize: 942489
+  hash: "a0a1c5e1c270389c1626fffd78e13f2ee1bb456c"
+otherFiles: 0
+dependencies:
+  DM-A7D-Meh.unr:
+  - status: "OK"
+    name: "te-secwo"
+  - status: "OK"
+    name: "BaseTexPack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-A7D-Meh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-A7D-Meh.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/b/7/080142/DM-A7D-Meh.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/b/7/080142/DM-A7D-Meh.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-A7D-Meh"
+playerCount: "6"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

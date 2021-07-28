@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:35"
+game: "Unreal"
+name: "DM[SP]BladeRunner"
+author: "&Th�n�t��. * Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2005-05"
+attachments: []
+originalFilename: "DM-[SP]bladerunner.zip"
+hash: "5573abd53fc2b285540355ef53a8631aca09a324"
+fileSize: 6221887
+files:
+- name: "DM[SP]BladeRunner.unr"
+  fileSize: 10559327
+  hash: "6eb6ae1780def6fdb83b94cf38b4ed2ff35f975c"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+otherFiles: 0
+dependencies:
+  DM[SP]BladeRunner.unr:
+  - status: "OK"
+    name: "city"
+  - status: "MISSING"
+    name: "AssualtSnds"
+  - status: "MISSING"
+    name: "Assualt"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM-%5BSP%5Dbladerunner.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/5/5/73abd5/DM-%255BSP%255Dbladerunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/5/5/73abd5/DM-%255BSP%255Dbladerunner.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "BladeRunner"
+playerCount: "Unknown"
+themes:
+  City: 0.8
+  Natural: 0.2
+bots: true

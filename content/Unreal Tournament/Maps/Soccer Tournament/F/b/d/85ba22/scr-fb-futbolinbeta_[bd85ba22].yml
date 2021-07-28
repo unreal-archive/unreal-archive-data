@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:54"
+game: "Unreal Tournament"
+name: "SCR-(FB)-Futbolin(BETA)"
+author: "-=GDA=-"
+description: "None"
+releaseDate: "2007-11"
+attachments: []
+originalFilename: "SCR-FB-futbolinBETA.zip"
+hash: "bd85ba22e00adc291256fc16682a245948064e7d"
+fileSize: 948942
+files:
+- name: "futbolin.utx"
+  fileSize: 157080
+  hash: "eaeaabe295b8e7358a0f5a3884d19de4a3a0b2b5"
+- name: "sepiastadium.utx"
+  fileSize: 1417729
+  hash: "0bc8d36a547c110616b5eabc0e27ade34b0da747"
+- name: "SCR-(FB)-Futbolin(BETA).unr"
+  fileSize: 598672
+  hash: "3e82a30b054c63c949ad5d767171f926c048456e"
+otherFiles: 0
+dependencies:
+  SCR-(FB)-Futbolin(BETA).unr:
+  - status: "OK"
+    name: "futbolin"
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "MISSING"
+    name: "SoccerScores"
+  - status: "OK"
+    name: "sepiastadium"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-FB-futbolinBETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-FB-futbolinBETA.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-FB-futbolinBETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-FB-futbolinBETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/F/b/d/85ba22/SCR-FB-futbolinBETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/F/b/d/85ba22/SCR-FB-futbolinBETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "SCR-FB-Futbolin"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Ancient: 0.6
+  Nali Castle: 0.3
+bots: false

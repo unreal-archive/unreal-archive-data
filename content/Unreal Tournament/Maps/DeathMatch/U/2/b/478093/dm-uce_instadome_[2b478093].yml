@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:19"
+game: "Unreal Tournament"
+name: "DM-UCE_InstaDome"
+author: "Sixt Senseless"
+description: "UCE will blow youre head off"
+releaseDate: "2003-09"
+attachments: []
+originalFilename: "dm-uce_instadome.zip"
+hash: "2b478093bac0664e0cb7738c05e53f53b51a5f66"
+fileSize: 1471977
+files:
+- name: "DM-UCE_InstaDome.unr"
+  fileSize: 281357
+  hash: "b527891f4e9c129365c89775a18e5f00a9ce8307"
+- name: "ucetex_1.utx"
+  fileSize: 946337
+  hash: "e18798ab41e276c98c8e236e934964bfe06540a7"
+- name: "Xtortion.utx"
+  fileSize: 853804
+  hash: "a93f5c074dcf30129ed3ad145de081623c041cea"
+- name: "chcballs.umx"
+  fileSize: 1339907
+  hash: "b610e4a816930f8a4386eecc0d387ac5fe18eeaa"
+otherFiles: 0
+dependencies:
+  DM-UCE_InstaDome.unr:
+  - status: "OK"
+    name: "chcballs"
+  - status: "OK"
+    name: "ucetex_1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-uce_instadome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-uce_instadome.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/2/b/478093/dm-uce_instadome.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/2/b/478093/dm-uce_instadome.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-UCE_KillerDome"
+playerCount: "2-20"
+themes:
+  Industrial: 1.0
+bots: true

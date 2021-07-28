@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:43"
+game: "Unreal Tournament"
+name: "CTF-'Z-Nimbus-FIXED"
+author: "Z A C"
+description: "Another fixed by me >:D"
+releaseDate: "2012-08"
+attachments: []
+originalFilename: "CTF-'Z-Nimbus-FIXED.zip"
+hash: "e36ffea6793a0cf2ed2b7d1a39528004b93b13a6"
+fileSize: 14251433
+files:
+- name: "crystalcaverns.umx"
+  fileSize: 433381
+  hash: "6c689847eb2a2b0e776c23fb2e6a3996f3dc67e5"
+- name: "Nimbus.utx"
+  fileSize: 16250027
+  hash: "a59bd0e1b207cb714f5986e394984cbbfbcf6bf3"
+- name: "CTF-'Z-Nimbus-FIXED.unr"
+  fileSize: 16125076
+  hash: "103efe5df94b58a431bf0c0c5a64b564fb927ade"
+- name: "ZacPackFIXLOGO.utx"
+  fileSize: 790688
+  hash: "4c300c47bf1047c9734c9ceed77e007469fe9db2"
+- name: "WeaponTest.utx"
+  fileSize: 270397
+  hash: "72309816e8cd5838139be83d1ee1110031dc98d4"
+otherFiles: 0
+dependencies:
+  CTF-'Z-Nimbus-FIXED.unr:
+  - status: "OK"
+    name: "WeaponTest"
+  - status: "OK"
+    name: "crystalcaverns"
+  - status: "OK"
+    name: "ZacPackFIXLOGO"
+  - status: "OK"
+    name: "Nimbus"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%27Z-Nimbus-FIXED.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/CTF-'Z-Nimbus-FIXED.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/e/3/6ffea6/CTF-'Z-Nimbus-FIXED.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/e/3/6ffea6/CTF-'Z-Nimbus-FIXED.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Nimbus Altitude."
+playerCount: "as many as needded"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true

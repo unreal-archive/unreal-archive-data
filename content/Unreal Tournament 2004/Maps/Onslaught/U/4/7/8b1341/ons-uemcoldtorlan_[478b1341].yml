@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 20:27"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ONS-{UEM}ColdTorlan"
 author: "U.E.M"
@@ -37,10 +36,13 @@ dependencies:
   ONS-{UEM}ColdTorlan.ut2:
   - status: "OK"
     name: "Cold_Torlan_SM"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/U/4/7/8b1341/ONS-%7BUEM%7DColdTorlan.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/U/4/7/8b1341/ONS-%257BUEM%257DColdTorlan.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

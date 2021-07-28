@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:19"
+game: "Unreal Tournament"
+name: "MH-SkyLand1"
+author: "Tomo"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-SkyLand1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/MH-SkyLand1_shot_1.png"
+originalFilename: "mh-skyland1.zip"
+hash: "db92ba9712f7477d30de14810f5540ce59ce2cd5"
+fileSize: 1268191
+files:
+- name: "SkyTwn.umx"
+  fileSize: 849903
+  hash: "d6add6fc55b0638260893c09b74bd295596e9e82"
+- name: "MH-SkyLand1.unr"
+  fileSize: 1016521
+  hash: "fad7f7bb39e5f9ebbdf858db5b063a9dacf3558e"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MH-SkyLand1.unr:
+  - status: "OK"
+    name: "SkyTwn"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-skyland1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/mh-skyland1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-skyland1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/d/b/92ba97/mh-skyland1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/d/b/92ba97/mh-skyland1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "SkyLand1"
+playerCount: "3-6"
+themes:
+  Natural: 1.0
+bots: false

@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-09-23 07:37"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "WMD/Napalm Fix"
 author: "Kamek"
@@ -29,62 +28,48 @@ dependencies:
   SuperWeapons.u:
   - status: "MISSING"
     name: "MP_FPArms"
-    providedBy: null
   - status: "OK"
     name: "SuperWeaponSounds"
-    providedBy: null
   - status: "OK"
     name: "SuperWeaponTex"
-    providedBy: null
   - status: "MISSING"
     name: "BaseFX"
-    providedBy: null
   - status: "MISSING"
     name: "FPSGame"
-    providedBy: null
   - status: "MISSING"
     name: "MultiGame"
-    providedBy: null
   - status: "MISSING"
     name: "FX"
-    providedBy: null
   - status: "MISSING"
     name: "MultiBase"
-    providedBy: null
   - status: "MISSING"
     name: "Patch1_mesh"
-    providedBy: null
   - status: "MISSING"
     name: "MP_Weapons"
-    providedBy: null
   - status: "MISSING"
     name: "Postal2Game"
-    providedBy: null
   - status: "MISSING"
     name: "nathans"
-    providedBy: null
   - status: "MISSING"
     name: "GenFX"
-    providedBy: null
   - status: "MISSING"
     name: "MiscSounds"
-    providedBy: null
   - status: "MISSING"
     name: "Inventory"
-    providedBy: null
   - status: "MISSING"
     name: "stuff"
-    providedBy: null
   - status: "OK"
     name: "SuperWeaponMeshes"
-    providedBy: null
   SuperWeaponMeshes.usx:
   - status: "OK"
     name: "SuperWeaponTex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/a/7/001053/SuperWeapons.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/W/a/7/001053/SuperWeapons.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

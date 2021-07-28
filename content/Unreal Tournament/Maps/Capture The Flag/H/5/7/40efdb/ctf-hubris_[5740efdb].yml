@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 20:06"
+game: "Unreal Tournament"
+name: "CTF-Hubris"
+author: "Squirrelinabox"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Hubris_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-Hubris_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Hubris_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-Hubris_shot_1.png"
+originalFilename: "ctf-hubris.zip"
+hash: "5740efdb65c607d5460232dbf2da39e7de61d9ee"
+fileSize: 4043411
+files:
+- name: "chicoruinspack.utx"
+  fileSize: 3151174
+  hash: "286101e2f1007046349e32c07a5f8b8eeb9d0fbb"
+- name: "te-secwo.umx"
+  fileSize: 942489
+  hash: "a0a1c5e1c270389c1626fffd78e13f2ee1bb456c"
+- name: "CTF-Hubris.unr"
+  fileSize: 3008863
+  hash: "13c3dbc5757c930feba1d1b7d4510cfbc0d212d2"
+otherFiles: 2
+dependencies:
+  CTF-Hubris.unr:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "te-secwo"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsH/&file=ctf-hubris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-hubris.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-hubris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-hubris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsH/ctf-hubris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2137"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/5/7/40efdb/ctf-hubris.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/5/7/40efdb/ctf-hubris.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Hubris"
+playerCount: "8-14"
+themes:
+  Industrial: 0.3
+  Ancient: 0.6
+  Skaarj Tech: 0.2
+bots: true

@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 20:43"
+game: "Unreal Tournament"
+name: "CTF-Stonehenge"
+author: "[moo]TurboSi @ Rainbow"
+description: "Stonehenge Revisited"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Stonehenge_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Stonehenge_shot_1.png"
+originalFilename: "ctf-stonehenge.zip"
+hash: "df02e0c2eb72693ad96251f5ad1a5f4e0abb3419"
+fileSize: 832213
+files:
+- name: "Stone.uax"
+  fileSize: 93828
+  hash: "b9e75f2b7f48d99aba53ed99b2603a13553abeed"
+- name: "CTF-Stonehenge.unr"
+  fileSize: 1827585
+  hash: "1ca166a7d7adb337ec22274a6c63ae47670faed7"
+otherFiles: 0
+dependencies:
+  CTF-Stonehenge.unr:
+  - status: "OK"
+    name: "Stone"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsS/&file=ctf-stonehenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-stonehenge.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-stonehenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsS/ctf-stonehenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/f/02e0c2/ctf-stonehenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/f/02e0c2/ctf-stonehenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Stonehenge Revisited"
+playerCount: "8-12"
+themes:
+  Natural: 1.0
+bots: true

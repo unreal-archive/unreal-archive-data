@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:11"
+game: "Unreal Tournament"
+name: "DM-LP-Freezing_Moon"
+author: "Uncle_Bob"
+description: "None"
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-LP-Freezing_Moon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/DM-LP-Freezing_Moon_shot_1.png"
+originalFilename: "DM-LP-Freezing_Moon.zip"
+hash: "3275a14d1a60d5153075e5077edd66087008b53d"
+fileSize: 4088205
+files:
+- name: "DM-LP-Freezing_Moon.unr"
+  fileSize: 5771904
+  hash: "b9504bd600a22ea2e1835e8cdeb5a3092bbc45bf"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+otherFiles: 0
+dependencies:
+  DM-LP-Freezing_Moon.unr:
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "Fifth"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-LP-Freezing_Moon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/DM-LP-Freezing_Moon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/3/2/75a14d/DM-LP-Freezing_Moon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/3/2/75a14d/DM-LP-Freezing_Moon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Below the Freezing Moon"
+playerCount: "4-16"
+themes: {}
+bots: true

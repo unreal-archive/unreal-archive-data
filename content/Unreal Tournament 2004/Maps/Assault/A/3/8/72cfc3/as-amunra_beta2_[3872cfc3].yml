@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 13:59"
+game: "Unreal Tournament 2004"
+name: "AS-AmunRa_Beta2"
+author: "Spike & Azazel-{666}-"
+description: ""
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "AS-AmunRa_Beta2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/A/AS-AmunRa_Beta2_shot_1.png"
+originalFilename: "as-amunra_beta2.7z"
+hash: "3872cfc31b5032779f2e786299c89514dbb8ea21"
+fileSize: 10716689
+files:
+- name: "AS-AmunRa_Beta2.ut2"
+  fileSize: 29968299
+  hash: "004cac624b1711c95065a698b071cb2e228fe2a8"
+- name: "MymAssault.u"
+  fileSize: 90426
+  hash: "6f75e7a172328014ae4a44254e7b7f96a04d418d"
+- name: "AmunRaSounds.uax"
+  fileSize: 4280676
+  hash: "d59732bc11baa77ed00ee882c8b3e12b90b14d21"
+otherFiles: 1
+dependencies:
+  AS-AmunRa_Beta2.ut2:
+  - status: "OK"
+    name: "AmunRaSounds"
+  - status: "MISSING"
+    name: "Aliens"
+  - status: "MISSING"
+    name: "HumanFemaleA"
+  - status: "OK"
+    name: "MymAssault"
+  - status: "MISSING"
+    name: "HumanMaleA"
+downloads:
+- url: "https://gamebanana.com/maps/download/15269"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/A/as-amunra_beta2.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/A/3/8/72cfc3/as-amunra_beta2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/A/3/8/72cfc3/as-amunra_beta2.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "The Staff of Amun Ra"
+playerCount: "12"
+themes:
+  Egyptian: 1.0
+bots: true

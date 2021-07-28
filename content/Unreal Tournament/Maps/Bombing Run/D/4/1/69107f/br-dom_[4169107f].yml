@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 10:20"
+game: "Unreal Tournament"
+name: "BR-Dom"
+author: "Per$oX-UK"
+description: "None"
+releaseDate: "2011-02"
+attachments:
+- type: "IMAGE"
+  name: "BR-Dom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Bombing%20Run/D/BR-Dom_shot_1.png"
+originalFilename: "BR-Dom.rar"
+hash: "4169107f50b33e7ecc923bc5521fd92396ee10f3"
+fileSize: 236164
+files:
+- name: "PX-CTF-Dom.utx"
+  fileSize: 88975
+  hash: "8a55c5b755e284b884c5df8c1f4aae9c02ed9310"
+- name: "BR-Dom.unr"
+  fileSize: 503960
+  hash: "bba8a5def4d5191974122cddfd4769c8096d8134"
+otherFiles: 0
+dependencies:
+  BR-Dom.unr:
+  - status: "MISSING"
+    name: "aBrBase"
+  - status: "OK"
+    name: "PX-CTF-Dom"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BombingRun/&file=BR-Dom.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Bombing%20Run/D/BR-Dom.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BombingRun&file=BR-Dom.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Bombing%20Run/D/4/1/69107f/BR-Dom.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Bombing%20Run/D/4/1/69107f/BR-Dom.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Bombing Run"
+title: "CTF Dom(ination)"
+playerCount: "16"
+themes:
+  Industrial: 1.0
+bots: true

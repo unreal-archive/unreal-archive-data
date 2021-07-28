@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 05:18"
+game: "Unreal Tournament"
+name: "AS-ULabs"
+author: "sobo aka Cash"
+description: "The Secret Underground Materials Laboratories"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "AS-ULabs_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/AS-ULabs_shot_1.png"
+originalFilename: "AS-ULabs.zip"
+hash: "e7a6c04999683d7bce0bd029db01a26e62767add"
+fileSize: 2272137
+files:
+- name: "ULabs.utx"
+  fileSize: 189838
+  hash: "19218808dbd21b1c71e9cd08ee91e6e81f9d45d5"
+- name: "AS-ULabs.unr"
+  fileSize: 7475848
+  hash: "a90ac5c9f8031c5ca180f5273d297f37a9603b33"
+- name: "mutts.uax"
+  fileSize: 419818
+  hash: "1767536bf61da2e1714abedf435a0da3a3714fdb"
+otherFiles: 0
+dependencies:
+  AS-ULabs.unr:
+  - status: "MISSING"
+    name: "AdesertS"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "ULabs"
+  - status: "OK"
+    name: "mutts"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=AS-ULabs.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/AS-ULabs.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=AS-ULabs.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/U/e/7/a6c049/AS-ULabs.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/U/e/7/a6c049/AS-ULabs.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Underground Labs"
+playerCount: "8-12"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.1
+  Indistrial: 0.7
+bots: false

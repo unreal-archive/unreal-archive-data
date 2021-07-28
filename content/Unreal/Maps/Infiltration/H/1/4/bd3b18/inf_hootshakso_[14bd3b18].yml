@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:00"
+game: "Unreal"
+name: "INF_Hootshak(SO)"
+author: ".50cal"
+description: "Kill, kill, KILL!"
+releaseDate: "2006-08"
+attachments: []
+originalFilename: "INF_Hootshak(SO).zip"
+hash: "14bd3b18d37e3100d9f94cdcd0421172f9e176b2"
+fileSize: 2765858
+files:
+- name: "INF_Hootshak(SO).unr"
+  fileSize: 2811110
+  hash: "c191dfb3f849d64976a1eb5d8d32ca6eb015cb41"
+- name: "sky.utx"
+  fileSize: 4202675
+  hash: "058c39ecc39dd08a8ec2cc41fe97a236d71b9f7e"
+otherFiles: 1
+dependencies:
+  INF_Hootshak(SO).unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_Hootshak%28SO%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/H/INF_Hootshak(SO).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_Hootshak(SO).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/H/1/4/bd3b18/INF_Hootshak(SO).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/H/1/4/bd3b18/INF_Hootshak(SO).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Hootshak(SO)"
+playerCount: "Yessah!"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.9
+bots: true

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:48"
+game: "Unreal Tournament"
+name: "MH-uza2"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-uza2.zip"
+hash: "3ace932377a424555b557fba86784cd28a411cb0"
+fileSize: 1371833
+files:
+- name: "pump.umx"
+  fileSize: 589543
+  hash: "4eef873ba3d2f1fa2feb78eb0c67952d59814634"
+- name: "ds_nl.umx"
+  fileSize: 910639
+  hash: "7b07dde0a464cc68465e35a61b4c11bdd238aa8b"
+- name: "EK_map_pack.u"
+  fileSize: 94489
+  hash: "dce81d6bf10556c4af71d46fc209833e0d196862"
+- name: "Monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-uza2.unr"
+  fileSize: 753403
+  hash: "ffa22ab21f5eff8d96fbfb3f1d95c3e4f11d62a5"
+- name: "vivace_ka.u"
+  fileSize: 38523
+  hash: "b66732e2fdbf8afb7ec5a0b9298aa018bea4b4bd"
+otherFiles: 1
+dependencies:
+  MH-uza2.unr:
+  - status: "OK"
+    name: "EK_map_pack"
+  - status: "OK"
+    name: "ds_nl"
+  - status: "OK"
+    name: "Monsterhunt"
+  - status: "OK"
+    name: "vivace_ka"
+  - status: "OK"
+    name: "pump"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-uza2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/U/mh-uza2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-uza2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/U/3/a/ce9323/mh-uza2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/3/a/ce9323/mh-uza2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-uza2"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  Ancient: 0.5
+  Natural: 0.3
+bots: false

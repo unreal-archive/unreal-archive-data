@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:42"
+game: "Unreal Tournament"
+name: "DM-funnel-chaos-UK-"
+author: "-=Scorpion=-"
+description: "UKFreeRunners"
+releaseDate: "2010-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-funnel-chaos-UK-_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-funnel-chaos-UK-_shot_1.png"
+originalFilename: "DM-funnel-chaos-UK-.zip"
+hash: "20f91abf05cd12d8a5c12145b8653d0e2379fa07"
+fileSize: 50820433
+files:
+- name: "ClusterRedeemer.u"
+  fileSize: 71126
+  hash: "c47150cabd1c564c331fecb6ea2f67244559c026"
+- name: "4OClock.umx"
+  fileSize: 4788228
+  hash: "c01088f311bb01a9bc30f39d7ac786ae246efbc3"
+- name: "NaliWeaponsIIX.u"
+  fileSize: 84635871
+  hash: "04df28ba4c0699090aae2ab15394c1da98960a18"
+- name: "ParticleSpawnerUK.u"
+  fileSize: 8894
+  hash: "09d223e9c5f8c446bb8093ba14b78079c578da4f"
+- name: "UKHealthPack.utx"
+  fileSize: 105823
+  hash: "701901a8036165bff13238a65f97aa1c063cab39"
+- name: "DM-funnel-chaos-UK-.unr"
+  fileSize: 749421
+  hash: "a1dcbb91c47b7ef04c2a6cce2b88de39aeb49410"
+otherFiles: 0
+dependencies:
+  DM-funnel-chaos-UK-.unr:
+  - status: "OK"
+    name: "UKHealthPack"
+  - status: "OK"
+    name: "4OClock"
+  - status: "OK"
+    name: "ParticleSpawnerUK"
+  - status: "OK"
+    name: "NaliWeaponsIIX"
+  - status: "OK"
+    name: "ClusterRedeemer"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7753"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-funnel-chaos-UK-.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/2/0/f91abf/DM-funnel-chaos-UK-.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/2/0/f91abf/DM-funnel-chaos-UK-.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Funnel-Chaos-UK"
+playerCount: "8-16"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

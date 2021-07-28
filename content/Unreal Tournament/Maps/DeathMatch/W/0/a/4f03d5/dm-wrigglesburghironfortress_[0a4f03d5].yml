@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:26"
+game: "Unreal Tournament"
+name: "DM-WrigglesburghIronFortress"
+author: "Stuart 'LizardGenes' Lindsay"
+description: "None"
+releaseDate: "2007-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-WrigglesburghIronFortress_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/DM-WrigglesburghIronFortress_shot_1.png"
+- type: "IMAGE"
+  name: "DM-WrigglesburghIronFortress_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/DM-WrigglesburghIronFortress_shot_2.png"
+originalFilename: "dm-wrigglesburghironfortress.zip"
+hash: "0a4f03d540a82cd3d5752643cb289ae0a6c01a3f"
+fileSize: 5936838
+files:
+- name: "WIFSounds.uax"
+  fileSize: 5861558
+  hash: "1a7535a76e4527db872e63d9961066cc7eda7c0b"
+- name: "Opal.umx"
+  fileSize: 878087
+  hash: "a1518487353e6cdf16b29a684dbbfcf48e8696a4"
+- name: "DM-WrigglesburghIronFortress.unr"
+  fileSize: 3295507
+  hash: "690efcb237d874f17530752a3418897762a552fe"
+otherFiles: 2
+dependencies:
+  DM-WrigglesburghIronFortress.unr:
+  - status: "OK"
+    name: "Opal"
+  - status: "OK"
+    name: "WIFSounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-wrigglesburghironfortress.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/dm-wrigglesburghironfortress.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6113"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/0/a/4f03d5/dm-wrigglesburghironfortress.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/0/a/4f03d5/dm-wrigglesburghironfortress.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Wrigglesburgh Iron Fortress"
+playerCount: "4"
+themes:
+  Tech: 0.2
+  Industrial: 0.2
+  City: 0.6
+bots: false

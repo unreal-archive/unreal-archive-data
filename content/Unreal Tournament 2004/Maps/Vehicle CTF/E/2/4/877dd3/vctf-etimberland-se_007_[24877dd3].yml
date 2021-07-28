@@ -1,0 +1,132 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 19:38"
+game: "Unreal Tournament 2004"
+name: "VCTF-eTimberland-SE_007"
+author: "Agent Scully"
+description: "Halo's Timberland"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-eTimberland-SE_007_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/E/VCTF-eTimberland-SE_007_shot_1.png"
+originalFilename: "vctf-timberland-se_007.zip"
+hash: "24877dd31d7e6c0e445f24ab2d63624b91c15126"
+fileSize: 17703499
+files:
+- name: "HaloGhost.u"
+  fileSize: 35905
+  hash: "734f3f45306dbc161bd0cde5bd754aac94bbbc2e"
+- name: "halomeshes.usx"
+  fileSize: 612344
+  hash: "d2f3510e503f443d4253d33883efaf6dac3f914d"
+- name: "HaloVehicles_T.utx"
+  fileSize: 4236807
+  hash: "8381d780880f37bd07cce6675b1e43af6d33bd82"
+- name: "HaloGhostMesh.ukx"
+  fileSize: 156659
+  hash: "f6e426ea0a82569eb24b15c262d901c015302a28"
+- name: "HaloGhostTex.utx"
+  fileSize: 5005320
+  hash: "d5341107316fd17b18894b067c5cdb99de63dd42"
+- name: "HaloVehicles_A.ukx"
+  fileSize: 3121878
+  hash: "5acb5baa8e3e5637b41499251bf0a9f3d4050dc6"
+- name: "VCTF-eTimberland-SE_007.ut2"
+  fileSize: 21545860
+  hash: "b1235497e699229d1cf4a5094d00131951609dc0"
+- name: "HaloGhostSM.usx"
+  fileSize: 315269
+  hash: "5b3246555d2b5cb3692acba28b52de5f16dec08b"
+- name: "PumaSounds.uax"
+  fileSize: 278845
+  hash: "c70c168922e3da510a8e26e751118618380d11b6"
+- name: "Ghost.uax"
+  fileSize: 294653
+  hash: "d263fb804ab6bd3e2da2471c14fb503d79bde81d"
+- name: "HaloWarthog.u"
+  fileSize: 23012
+  hash: "d063f6634ee75e999a467f5e08566dacb297f22f"
+- name: "HaloRWarthog.u"
+  fileSize: 20296
+  hash: "ef3338fda663a63564a36b85e0d7780c27dc8aad"
+- name: "HaloTextures.utx"
+  fileSize: 3672810
+  hash: "354776def7322c92cd2c859e8835a9e8b4ddf8d0"
+- name: "HaloVehicles_SM.usx"
+  fileSize: 2722268
+  hash: "786c886940be99b1c6cd215ffd8efe136065a0bf"
+otherFiles: 1
+dependencies:
+  HaloVehicles_SM.usx:
+  - status: "OK"
+    name: "HaloVehicles_T"
+  halomeshes.usx:
+  - status: "OK"
+    name: "HaloTextures"
+  HaloRWarthog.u:
+  - status: "MISSING"
+    name: "HaloVehicles_A"
+  - status: "OK"
+    name: "HaloVehicles_SM"
+  - status: "OK"
+    name: "PumaSounds"
+  - status: "OK"
+    name: "HaloVehicles_T"
+  HaloGhostSM.usx:
+  - status: "OK"
+    name: "HaloGhostTex"
+  HaloGhost.u:
+  - status: "OK"
+    name: "HaloGhostSM"
+  - status: "OK"
+    name: "HaloGhostTex"
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "MISSING"
+    name: "HaloGhostMesh"
+  - status: "OK"
+    name: "Ghost"
+  HaloWarthog.u:
+  - status: "MISSING"
+    name: "HaloVehicles_A"
+  - status: "OK"
+    name: "HaloVehicles_SM"
+  - status: "OK"
+    name: "PumaSounds"
+  - status: "OK"
+    name: "HaloVehicles_T"
+  VCTF-eTimberland-SE_007.ut2:
+  - status: "OK"
+    name: "halomeshes"
+  - status: "OK"
+    name: "HaloWarthog"
+  - status: "OK"
+    name: "HaloGhost"
+  - status: "OK"
+    name: "HaloTextures"
+  - status: "OK"
+    name: "HaloRWarthog"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/E/vctf-timberland-se_007.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/VCTF/&file=vctf-timberland-se_007.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/E/2/4/877dd3/vctf-timberland-se_007.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/E/2/4/877dd3/vctf-timberland-se_007.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "Torlan"
+playerCount: "8-16"
+themes: {}
+bots: true

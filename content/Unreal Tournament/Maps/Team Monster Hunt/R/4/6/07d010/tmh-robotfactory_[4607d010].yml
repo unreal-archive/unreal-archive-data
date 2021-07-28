@@ -1,0 +1,106 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:25"
+game: "Unreal Tournament"
+name: "TMH-RobotFactory"
+author: "Alucard and Titled"
+description: "None"
+releaseDate: "2007-02"
+attachments:
+- type: "IMAGE"
+  name: "TMH-RobotFactory_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/R/TMH-RobotFactory_shot_1.png"
+originalFilename: "tmh-robotfactory.zip"
+hash: "4607d010d0b15c94f0294962226b770bdb387998"
+fileSize: 8548976
+files:
+- name: "ImpossibleBotJRMSounds.uax"
+  fileSize: 1042420
+  hash: "6cc94ad71f6054938d44d5ec94c5fdd0c9ed6059"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "olweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "TMH-RobotFactory.unr"
+  fileSize: 9190026
+  hash: "e5ab100bb5bed1719c20d00f3a5d62d723b3c5f0"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "impbot.u"
+  fileSize: 526892
+  hash: "ea8816b9e5456f2cf2c27db45998469f276506ca"
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+- name: "TeamMH.u"
+  fileSize: 1277228
+  hash: "199b65a34043b8bd4ebdf398060f0ac5efa116c2"
+- name: "ImpossibleBotJRM.u"
+  fileSize: 977053
+  hash: "928c4769aae175ca78db0b3a2eff38af48452ab7"
+otherFiles: 2
+dependencies:
+  impbot.u:
+  - status: "OK"
+    name: "ImpossibleBotJRM"
+  ImpossibleBotJRM.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  - status: "OK"
+    name: "ImpossibleBotJRMSounds"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  TeamMH.u:
+  - status: "OK"
+    name: "MonsterHunt"
+  TMH-RobotFactory.unr:
+  - status: "OK"
+    name: "oldskool"
+  - status: "OK"
+    name: "TeamMH"
+  - status: "OK"
+    name: "ImpossibleBotJRM"
+  - status: "OK"
+    name: "impbot"
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  - status: "OK"
+    name: "ImpossibleBotJRMSounds"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TeamMonsterHunt/&file=tmh-robotfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/R/tmh-robotfactory.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TeamMonsterHunt&file=tmh-robotfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/R/4/6/07d010/tmh-robotfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Team%20Monster%20Hunt/R/4/6/07d010/tmh-robotfactory.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Team Monster Hunt"
+title: "The Liandri Robot facility"
+playerCount: "4-10"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.8
+bots: true

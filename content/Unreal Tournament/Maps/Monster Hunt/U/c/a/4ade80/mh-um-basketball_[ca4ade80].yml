@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 05:30"
+game: "Unreal Tournament"
+name: "MH-UM-BasketBall"
+author: "'Zac"
+description: "Monsterhunt on a basketball court. legit eh?"
+releaseDate: "2013-05"
+attachments: []
+originalFilename: "MH-UM-BasketBall.zip"
+hash: "ca4ade80957ca9a6c665b8f0e246160e169f8c4e"
+fileSize: 9529833
+files:
+- name: "MH-UM-BasketBall.unr"
+  fileSize: 1997516
+  hash: "4f1f4f7dd16f1cd54f458dd015fd664b7b686964"
+- name: "UThigh.utx"
+  fileSize: 2029628
+  hash: "498ef14014b086ae5447c3095f79f8cc2f7adcf1"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "AfterR.umx"
+  fileSize: 2419607
+  hash: "aaa1c534424d16e09c9c380662a766d9787a0118"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "Estadio.utx"
+  fileSize: 7726264
+  hash: "c40191ed96c6e456c738977642b038e84fa42980"
+- name: "Spinner.utx"
+  fileSize: 1485989
+  hash: "c2337c0c173a58d737b2db28308c0b043a92e2b2"
+otherFiles: 0
+dependencies:
+  MH-UM-BasketBall.unr:
+  - status: "OK"
+    name: "Estadio"
+  - status: "OK"
+    name: "Citytex"
+  - status: "MISSING"
+    name: "Spinner"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "AfterR"
+  - status: "OK"
+    name: "UThigh"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-UM-BasketBall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/U/MH-UM-BasketBall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-UM-BasketBall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/U/c/a/4ade80/MH-UM-BasketBall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/c/a/4ade80/MH-UM-BasketBall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Basketball Court"
+playerCount: "Unknown"
+themes:
+  City: 0.6
+  Nali Castle: 0.4
+bots: true

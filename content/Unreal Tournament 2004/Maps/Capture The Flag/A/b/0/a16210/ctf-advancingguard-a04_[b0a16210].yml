@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-06-08 23:26"
+game: "Unreal Tournament 2004"
+name: "CTF-AdvancingGuard-a04"
+author: "Luciano 'Neon_Knight' Balducchi"
+description: "This outpost is an old Skaarj facility bought by the Liandri Mining\
+  \ Corporation in order to use in the Tournament, as part of a deal with the Skaarj\
+  \ empire. In exchange, the Liandri would provide machinery and manpower to the Skaarj\
+  \ empire. This won't be your usual face-to-face Capture The Flag arena, since there's\
+  \ an enemy at any corner. Watch out!"
+releaseDate: "2014-11"
+attachments: []
+originalFilename: "CTF-AdvancingGuard-a04_b0a16210.zip"
+hash: "b0a1621046a13ab9b163b00a279f1c03bbb61dcc"
+fileSize: 2282553
+files:
+- name: "CTF-AdvancingGuard-a04.ut2"
+  fileSize: 6769158
+  hash: "92673c867c1494310a5786fdab799406928c3bc7"
+- name: "AM-AG-Statics.usx"
+  fileSize: 168007
+  hash: "4534d784549a38f0790c673bf21e754b79f45918"
+- name: "AM-AG-DespCTFTexs.utx"
+  fileSize: 1433269
+  hash: "4b3402984d9d76efee8682ddb9761347d90ebda9"
+otherFiles: 1
+dependencies:
+  CTF-AdvancingGuard-a04.ut2:
+  - status: "OK"
+    name: "AM-AG-DespCTFTexs"
+  - status: "OK"
+    name: "AM-AG-Statics"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/CTF-AdvancingGuard-a04_b0a16210.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/0/a16210/CTF-AdvancingGuard-a04_b0a16210.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/0/a16210/CTF-AdvancingGuard-a04_b0a16210.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Advancing Guard"
+playerCount: "Unknown"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true

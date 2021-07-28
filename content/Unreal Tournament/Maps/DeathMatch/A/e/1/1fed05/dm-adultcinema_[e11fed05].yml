@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:24"
+game: "Unreal Tournament"
+name: "DM-AdultCinema"
+author: "Graeme \"Skippy\" Blenkinsopp"
+description: "gblenk@btinternet.com"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-AdultCinema_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AdultCinema_shot_1.png"
+originalFilename: "dm-adultcinema.zip"
+hash: "e11fed05df9fe075748544aefbbc3c54195acc57"
+fileSize: 5977363
+files:
+- name: "DM-AdultCinema.unr"
+  fileSize: 4036196
+  hash: "16f1be432d7b18e27190f9f5dab726c0e2618a8f"
+- name: "DolbyDigital.uax"
+  fileSize: 940807
+  hash: "1e020824c2266f1c61f63ac6416cd9e50ccc67a2"
+- name: "Cinema.utx"
+  fileSize: 8174367
+  hash: "4cd0c03122d24e33f5ac0c126fdc4adf399673b7"
+- name: "Cineobjs.u"
+  fileSize: 92262
+  hash: "3a5fe6f81d8c06ad7951b5b8c44c502961bb14bb"
+otherFiles: 1
+dependencies:
+  DM-AdultCinema.unr:
+  - status: "OK"
+    name: "DolbyDigital"
+  - status: "OK"
+    name: "Cinema"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=1534769"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-adultcinema.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-adultcinema.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-adultcinema.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsA/dm-adultcinema.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/e/1/1fed05/dm-adultcinema.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/e/1/1fed05/dm-adultcinema.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Adult Cinema"
+playerCount: "4-6"
+themes:
+  Ancient: 0.3
+  Indistrial: 0.7
+bots: true

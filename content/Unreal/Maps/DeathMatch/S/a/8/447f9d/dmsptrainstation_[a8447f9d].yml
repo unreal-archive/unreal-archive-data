@@ -1,0 +1,97 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:51"
+game: "Unreal"
+name: "DM[SP]TrainStation"
+author: "Miguel Angelo Paredes *Imported from UT by RUSH*"
+description: "Train Kept A Rollin All Night Long!"
+releaseDate: "2001-08"
+attachments: []
+originalFilename: "DM[SP]TrainStation.zip"
+hash: "a8447f9ddf08b4b3fd487aac21cb9435ac470704"
+fileSize: 10167862
+files:
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "Trofa_Station.utx"
+  fileSize: 818236
+  hash: "533b8a814a8841970a77bab87dd23ab2b6c4879c"
+- name: "ShaneSky.utx"
+  fileSize: 584486
+  hash: "e067555b9a8323073fc51973b76417df7f0850c0"
+- name: "ShaneDay.utx"
+  fileSize: 388457
+  hash: "ffc3a43f2aac732306a944a9b1582bd1bd96073f"
+- name: "comboio.utx"
+  fileSize: 1338886
+  hash: "ee6134cf2a64422a43601a9ced7aecb5bf77e12b"
+- name: "Ribeira3.utx"
+  fileSize: 3154935
+  hash: "810725d873016c9586ff4d412d283ad8c4189b27"
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+- name: "Zeitkinds.uax"
+  fileSize: 678370
+  hash: "9e12373ec502874a958bd6486480b6d886743942"
+- name: "Estadio128.utx"
+  fileSize: 73477
+  hash: "cb81ea188c7928038e58700f429c1fbbb02fa73a"
+- name: "DM[SP]TrainStation.unr"
+  fileSize: 3162954
+  hash: "b35f9f2e30a7aa4726e2b102d8111f980dc135fe"
+- name: "SPServers.utx"
+  fileSize: 793424
+  hash: "2127b29ad17d6a36c64a5d6cb11b4ec867b0459e"
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+otherFiles: 0
+dependencies:
+  DM[SP]TrainStation.unr:
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "Estadio128"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Trofa_Station"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "OK"
+    name: "Sniper"
+  - status: "OK"
+    name: "Zeitkinds"
+  - status: "OK"
+    name: "comboio"
+  - status: "OK"
+    name: "SPServers"
+  - status: "OK"
+    name: "Ribeira3"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DTrainStation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DTrainStation.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/a/8/447f9d/DM%255BSP%255DTrainStation.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/a/8/447f9d/DM%255BSP%255DTrainStation.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Train Station"
+playerCount: "10-20"
+themes:
+  Industrial: 0.8
+  City: 0.1
+bots: true

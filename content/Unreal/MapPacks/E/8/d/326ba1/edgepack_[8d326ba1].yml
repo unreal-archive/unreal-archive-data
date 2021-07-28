@@ -1,0 +1,62 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 10:00"
+game: "Unreal"
+name: "Edgepack"
+author: "Various"
+description: "None"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "Edgepack.zip"
+hash: "8d326ba1b2f559b63c38990840e6da39a7dee168"
+fileSize: 584998
+files:
+- name: "Magzine.u"
+  fileSize: 14522
+  hash: "18812d4e51f396963db0ed8f62cfa62fd8f2d7e5"
+- name: "DmSSO.unr"
+  fileSize: 788130
+  hash: "77a6f7e31d8aa6e5c14e837dea0cbe5b17c26bed"
+- name: "DmFurious.unr"
+  fileSize: 812429
+  hash: "39088080fbd71e839b83ce0a6b8695ad47b75998"
+- name: "DmDD.unr"
+  fileSize: 520269
+  hash: "1132bedd9d5ab1e1c5bbda51c2457a9959bcfd9a"
+otherFiles: 1
+dependencies:
+  DmDD.unr:
+  - status: "OK"
+    name: "Magzine"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/Edgepack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/E/8/d/326ba1/Edgepack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/E/8/d/326ba1/Edgepack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/E/8/d/326ba1/Edgepack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DmDD"
+  title: "Dm Dark Duelist"
+  author: "Xavious"
+- name: "DmSSO"
+  title: "DM Space Station Orbitus"
+  author: "Xavious"
+- name: "DmFurious"
+  title: "DmFurious"
+  author: "Xavious (designed by }TCP{Furious)"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.9
+  Ancient: 0.1

@@ -1,0 +1,85 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 23:30"
+game: "Unreal Tournament 2004"
+name: "Spamtastic"
+author: "Various"
+description: "None"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "Spamtastic_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Spamtastic_shot_3.png"
+- type: "IMAGE"
+  name: "Spamtastic_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Spamtastic_shot_1.png"
+- type: "IMAGE"
+  name: "Spamtastic_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/S/Spamtastic_shot_2.png"
+originalFilename: "spamtastic.zip"
+hash: "003e3899bd64f9d8846e97279459e463a387676b"
+fileSize: 5323890
+files:
+- name: "JB-w00tabolous.ut2"
+  fileSize: 6054752
+  hash: "0ca3856079227c69df61aa87f8481fcac69dbd9b"
+- name: "JB-Impasse.ut2"
+  fileSize: 6097288
+  hash: "577003a09262871a1fe6596fdd75f9b8c05deeac"
+- name: "JB-2ManJob.ut2"
+  fileSize: 4944079
+  hash: "b0cc78a357436207fb4f6cb29cea275386561e57"
+otherFiles: 3
+dependencies:
+  JB-w00tabolous.ut2:
+  - status: "MISSING"
+    name: "JBToolbox"
+  - status: "MISSING"
+    name: "Jailbreak"
+  JB-2ManJob.ut2:
+  - status: "MISSING"
+    name: "JBToolbox"
+  - status: "MISSING"
+    name: "Jailbreak"
+  JB-Impasse.ut2:
+  - status: "MISSING"
+    name: "JBToolbox"
+  - status: "MISSING"
+    name: "Jailbreak"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/MapPacks/&file=spamtastic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/S/spamtastic.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=spamtastic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/MapPacks/S/0/0/3e3899/spamtastic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/S/0/0/3e3899/spamtastic.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "JB-w00tabolous"
+  title: "w00tabolous"
+  author: "^NiTRo (JB by 4WD)"
+- name: "JB-2ManJob"
+  title: "2 Man Job"
+  author: "UT99-Fusion | UT2004-Flak (JB by 4WD)"
+- name: "JB-Impasse"
+  title: "Impasse"
+  author: "Toadstool (JB by 4WD)"
+gametype: "Jailbreak"
+themes:
+  Tech: 0.3
+  Industrial: 0.6
+  Egyptian: 0.1

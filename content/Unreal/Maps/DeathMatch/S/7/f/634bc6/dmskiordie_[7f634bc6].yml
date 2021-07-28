@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:40"
+variationOf: "11d70cbb776d482e3a81cef81a74c2e17e86c226"
+game: "Unreal"
+name: "DMSkiorDie"
+author: "R@dius *Rebuilt by RUSH*"
+description: "None"
+releaseDate: "2003-11"
+attachments: []
+originalFilename: "DMSkiorDie.zip"
+hash: "7f634bc62da440fe07da430b3d448188cf9a6ed6"
+fileSize: 6133475
+files:
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+- name: "ski.utx"
+  fileSize: 3530134
+  hash: "64df91ed12ab6a2d5511385563dfafd109785ecb"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "DMSkiorDie.unr"
+  fileSize: 6409129
+  hash: "e4eccdfe0b624e1d710bb3067e7ddebf4594aed7"
+- name: "Ski3.uax"
+  fileSize: 286735
+  hash: "3708b1e767ae266457b7ab72b3b36143a7d5976f"
+otherFiles: 0
+dependencies:
+  DMSkiorDie.unr:
+  - status: "OK"
+    name: "Ski3"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Sniper"
+  - status: "OK"
+    name: "ski"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Assault/&file=DMSkiorDie.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DMSkiorDie.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Assault/DMSkiorDie.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/7/f/634bc6/DMSkiorDie.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/7/f/634bc6/DMSkiorDie.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ski or Die"
+playerCount: "8-15"
+themes:
+  Natural: 0.2
+  Nali Castle: 0.7
+bots: false

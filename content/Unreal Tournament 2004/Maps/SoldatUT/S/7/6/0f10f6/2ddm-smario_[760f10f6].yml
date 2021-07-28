@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-23 16:13"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "2DDM-SMario"
 author: "Hans"
@@ -32,20 +31,20 @@ dependencies:
   "2DDM-SMarioStaticMeshes1.usx":
   - status: "OK"
     name: "2DDM-SMarioTextures1"
-    providedBy: null
   "2DDM-SMario.ut2":
   - status: "MISSING"
     name: "k0lpA_2D"
-    providedBy: null
   - status: "OK"
     name: "2DDM-SMarioTextures1"
-    providedBy: null
   - status: "OK"
     name: "2DDM-SMarioStaticMeshes1"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/0/7/6/0f10f6/2DDM-SMario.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2DDM-SMario.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

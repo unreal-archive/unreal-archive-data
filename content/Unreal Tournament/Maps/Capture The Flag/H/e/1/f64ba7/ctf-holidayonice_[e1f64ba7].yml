@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:25"
+game: "Unreal Tournament"
+name: "CTF-HolidayOnIce"
+author: "G. Garau a.k.a. {SQUAD}Shin"
+description: "{DC} vs {SQUAD}, Instagib Icehockey League Finals...."
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-HolidayOnIce_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/CTF-HolidayOnIce_shot_1.png"
+originalFilename: "ctf-holidayonice.zip"
+hash: "e1f64ba725f08aec91d9fa9fb1805167f0cbab26"
+fileSize: 1271088
+files:
+- name: "CTF-HolidayOnIce.unr"
+  fileSize: 1318603
+  hash: "dfa71cdb7705333f4a58c6444a96277b453a694a"
+- name: "ShinTex.utx"
+  fileSize: 2358383
+  hash: "e1955557862e70399e5342ad66395556b92c0f8f"
+otherFiles: 1
+dependencies:
+  CTF-HolidayOnIce.unr:
+  - status: "OK"
+    name: "ShinTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-holidayonice.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsH/&file=ctf-holidayonice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-holidayonice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-holidayonice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsH/ctf-holidayonice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/e/1/f64ba7/ctf-holidayonice.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/e/1/f64ba7/ctf-holidayonice.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "HolidayOnIce"
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  Ancient: 0.7
+bots: true

@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:02"
+game: "Unreal Tournament"
+name: "DM-Indicator-A"
+author: "Marcel \"_Unreal_\" Hottewitzsch"
+description: "Infos at: _Unreal_@web.de"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Indicator-A_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-Indicator-A_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Indicator-A_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-Indicator-A_shot_1.png"
+originalFilename: "DM-Indicator-A.zip"
+hash: "c64f5ff853bb8e50d4afa0517ae82952d08cd54d"
+fileSize: 2264682
+files:
+- name: "SNOW.U"
+  fileSize: 8309
+  hash: "5db28b88bc205cd7dc42f78ff346691ce01ab73d"
+- name: "DM-Indicator-A.unr"
+  fileSize: 5083599
+  hash: "43f69cedc99b58089f7dd30db146e35593f6fbe4"
+- name: "SNOWTEX.UTX"
+  fileSize: 3514
+  hash: "29232241a8247e845b4425a6245b6c3c19b269a0"
+otherFiles: 2
+dependencies:
+  DM-Indicator-A.unr:
+  - status: "OK"
+    name: "snow"
+  SNOW.U:
+  - status: "OK"
+    name: "snowtex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Indicator-A.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-Indicator-A.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/c/6/4f5ff8/DM-Indicator-A.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/c/6/4f5ff8/DM-Indicator-A.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Meineckes Testbunker 6 - Indicator-A"
+playerCount: "2 - 6"
+themes: {}
+bots: true

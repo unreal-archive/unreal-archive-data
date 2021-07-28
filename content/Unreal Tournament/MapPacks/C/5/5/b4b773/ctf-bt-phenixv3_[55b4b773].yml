@@ -1,0 +1,69 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-01-28 05:49"
+game: "Unreal Tournament"
+name: "CTF BT Phenixv3"
+author: "[MOD]Phenom and Nix"
+description: "None"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF_BT_Phenixv3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/CTF_BT_Phenixv3_shot_1.png"
+- type: "IMAGE"
+  name: "CTF_BT_Phenixv3_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/CTF_BT_Phenixv3_shot_2.png"
+originalFilename: "CTF-BT-Phenixv3.zip"
+hash: "55b4b77363bb31bcdc82087fdc75a4b2014d38ee"
+fileSize: 9138739
+files:
+- name: "BT-Phenixv3.unr"
+  fileSize: 8415573
+  hash: "c399b4e47ba9f2b8edb693d0ae8dc91fcd2b90e4"
+- name: "CTF-BT-Phenixv3.unr"
+  fileSize: 8415573
+  hash: "c399b4e47ba9f2b8edb693d0ae8dc91fcd2b90e4"
+- name: "flyingsteps.umx"
+  fileSize: 4381576
+  hash: "a8cff4b4342f99d68d9ff7073710820b0147d593"
+otherFiles: 1
+dependencies:
+  BT-Phenixv3.unr:
+  - status: "OK"
+    name: "flyingsteps"
+  - status: "MISSING"
+    name: "SGTech1"
+  CTF-BT-Phenixv3.unr:
+  - status: "OK"
+    name: "flyingsteps"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Phenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/CTF-BT-Phenixv3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/C/5/5/b4b773/CTF-BT-Phenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/C/5/5/b4b773/CTF-BT-Phenixv3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "BT-Phenixv3"
+  title: "BT-Phenix"
+  author: "[MOD]Phenom and Nix"
+- name: "CTF-BT-Phenixv3"
+  title: "BT-Phenix"
+  author: "[MOD]Phenom and Nix"
+gametype: "BunnyTrack"
+themes:
+  Tech: 0.2
+  Industrial: 0.8

@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-03 21:05"
+game: "Unreal Tournament"
+name: "NoMapProtection"
+author: "Unknown"
+description: "Removes crashing protected maps"
+releaseDate: "2016-04"
+attachments: []
+originalFilename: "SiegeUL_0025_2.zip"
+hash: "659c3e1a071eae2e7f9740243041c23abd473540"
+fileSize: 7002635
+files:
+- name: "SiegeUL_0025_2.u"
+  fileSize: 2219307
+  hash: "eb6a885e3fe935e1721a99b5ac039836487e3e3e"
+- name: "NoMapProtection.u"
+  fileSize: 1601
+  hash: "a83169f5dbaf7ad9b6ffbb1ea15b7c4114e88953"
+- name: "NetRateMod.u"
+  fileSize: 4885
+  hash: "5a2324e9de52ececc86faf53f6be68d1e3c0c417"
+- name: "XC_Siege_r3.u"
+  fileSize: 197609
+  hash: "5aba6d4568a8ba558f7e7d8b66c504b4cebc574e"
+- name: "SiegeUtil_A.u"
+  fileSize: 1972
+  hash: "e9c49a12c6db4e247a6766c5aa17c25fc3f4e5db"
+- name: "sgUMedia.u"
+  fileSize: 11184062
+  hash: "83c91a697e65ef594b5157d60197319bf2da5b69"
+- name: "sgMedia2.u"
+  fileSize: 267187
+  hash: "f076a7b66f301d3c4a439e0ff2681f957a10d780"
+- name: "sgMedia.u"
+  fileSize: 1366827
+  hash: "e18331bfa1d3b3e14aa4bfe729f3aabae19e8506"
+otherFiles: 15
+dependencies:
+  SiegeUL_0025_2.u:
+  - status: "OK"
+    name: "sgUMedia"
+  - status: "OK"
+    name: "sgMedia"
+  - status: "OK"
+    name: "sgMedia2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Siege&file=SiegeUL_0025_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/N/SiegeUL_0025_2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/N/6/5/9c3e1a/SiegeUL_0025_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/N/6/5/9c3e1a/SiegeUL_0025_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "NoMapProtection"
+  description: "Removes crashing protected maps"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

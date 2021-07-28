@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:21"
+game: "Unreal Tournament"
+name: "DM-TheTower"
+author: "Shuhou \"XepptizZ\" Tse"
+description: "None"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-thetower_shot_e77c85c2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/e/7/7c85c2/dm-thetower_shot_e77c85c2_1.png"
+- type: "IMAGE"
+  name: "dm-thetower_shot_e77c85c2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/e/7/7c85c2/dm-thetower_shot_e77c85c2_2.png"
+originalFilename: "DM-TheTower.zip"
+hash: "e77c85c2deff6a83c7133f423b5126d72ae07d7e"
+fileSize: 3301890
+files:
+- name: "DM-TheTower.unr"
+  fileSize: 4488197
+  hash: "922f5e447576f32875db94b37a2b08b45fe043ff"
+- name: "CrashTC.umx"
+  fileSize: 1080948
+  hash: "a0e40c3dbb760967be03313d5974202db4fd6693"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+otherFiles: 2
+dependencies:
+  DM-TheTower.unr:
+  - status: "OK"
+    name: "CrashTC"
+  - status: "OK"
+    name: "Anc"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/DM-TheTower.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-thetower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3481"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/e/7/7c85c2/DM-TheTower.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/e/7/7c85c2/DM-TheTower.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Tower of Babylon"
+playerCount: "2-8"
+themes:
+  Ancient: 0.4
+  City: 0.4
+  Nali Castle: 0.1
+bots: true

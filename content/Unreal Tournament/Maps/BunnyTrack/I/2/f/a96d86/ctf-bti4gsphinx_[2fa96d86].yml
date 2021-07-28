@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 15:53"
+game: "Unreal Tournament"
+name: "CTF-BT+(i4G)Sphinx"
+author: "Medic & CouilleNoire (i4Games)"
+description: "None"
+releaseDate: "2006-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT+(i4G)Sphinx_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/I/CTF-BT%2B(i4G)Sphinx_shot_1.png"
+originalFilename: "ctf-bt+(i4G)Sphinx.zip"
+hash: "2fa96d862ffde16f73a64c2f47bfb75083c25574"
+fileSize: 4025833
+files:
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+- name: "i4GSphinx.u"
+  fileSize: 49078
+  hash: "0b95c6f07a926b22e5ce5eef2a35f7a6bd1256ec"
+- name: "CTF-BT+(i4G)Sphinx.unr"
+  fileSize: 8842370
+  hash: "0add3cc2a8ca8ecb50e5fd7effe9570f5522c252"
+- name: "i4G_Sphinx.umx"
+  fileSize: 1046136
+  hash: "6297e1c4bd782ab17cef5955f469cb924ac0ec24"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+otherFiles: 1
+dependencies:
+  CTF-BT+(i4G)Sphinx.unr:
+  - status: "OK"
+    name: "i4GSphinx"
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "i4G_Sphinx"
+  Jump.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=ctf-bt%2B%28i4G%29Sphinx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/I/ctf-bt%2B(i4G)Sphinx.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=ctf-bt%2B%28i4G%29Sphinx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=ctf-bt%2B%28i4G%29Sphinx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/I/2/f/a96d86/ctf-bt%252B(i4G)Sphinx.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/I/2/f/a96d86/ctf-bt%252B(i4G)Sphinx.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT+: Sphinx"
+playerCount: "2-14"
+themes:
+  Egyptian: 1.0
+bots: false

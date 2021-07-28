@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:00"
+game: "Unreal Tournament"
+name: "DOM-TheUnderground"
+author: "Jason \"Jaymian\" Julkowski"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "DOM-TheUnderground_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/T/DOM-TheUnderground_shot_1.png"
+originalFilename: "dom-theunderground.zip"
+hash: "5e3be4792eaf3e8539501d6dde017e53eb3ee159"
+fileSize: 7043048
+files:
+- name: "SFDeco.u"
+  fileSize: 8501852
+  hash: "b91db5251f35269de5bfa4369ad21ef90b1b6d6f"
+- name: "DOM-TheUnderground.unr"
+  fileSize: 4000710
+  hash: "26c4a776b9dada8a35968423b3c2c8b675cf1390"
+- name: "motorpool.utx"
+  fileSize: 5005308
+  hash: "59aaf354d03298c4713bce526220b4a6e8c6d892"
+otherFiles: 1
+dependencies:
+  DOM-TheUnderground.unr:
+  - status: "OK"
+    name: "motorpool"
+  - status: "OK"
+    name: "SFDeco"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/T/dom-theunderground.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=dom-theunderground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=dom-theunderground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Domination/dom-theunderground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/T/5/e/3be479/dom-theunderground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/T/5/e/3be479/dom-theunderground.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "The Underground"
+playerCount: "6-12"
+themes:
+  Industrial: 0.2
+  Ancient: 0.1
+  City: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.3
+bots: true

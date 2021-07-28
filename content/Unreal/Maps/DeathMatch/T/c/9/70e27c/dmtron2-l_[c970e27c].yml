@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:50"
+game: "Unreal"
+name: "DmTron2-L"
+author: "J. Martin - jsmaps@hotmail.com"
+description: "Greetings Program!"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "dmtron.zip"
+hash: "c970e27cdc803454438fab02d7a0dd1e290f3797"
+fileSize: 594251
+files:
+- name: "TronAudio.uax"
+  fileSize: 205822
+  hash: "daffee9344beeee17c1b28b3c21f50a51ab641f4"
+- name: "Tron.utx"
+  fileSize: 1198221
+  hash: "febe604db1d8fbc676cd14f0f73aab65b62d1b58"
+- name: "MaleOneBotNPC.u"
+  fileSize: 1057
+  hash: "cbee420226133de94df6ba4b7f841edc4642476e"
+- name: "DmTron2-L.unr"
+  fileSize: 1201232
+  hash: "158916ba0ba2893d503f1a345b060d7a7df706a7"
+otherFiles: 1
+dependencies:
+  DmTron2-L.unr:
+  - status: "OK"
+    name: "TronAudio"
+  - status: "OK"
+    name: "MaleOneBotNPC"
+  - status: "OK"
+    name: "Tron"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/maps_author/j4unreal/dmtron.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/c/9/70e27c/dmtron.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/c/9/70e27c/dmtron.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/c/9/70e27c/dmtron.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "TRON"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:54"
+game: "Unreal"
+name: "MH-[SP]Nagrath"
+author: "HellFire"
+description: "None"
+releaseDate: "2008-09"
+attachments: []
+originalFilename: "MH-[SP]Nagrath.zip"
+hash: "7c229f513893e4a15585ce4042323a059ca275ee"
+fileSize: 4043191
+files:
+- name: "Return.umx"
+  fileSize: 708319
+  hash: "c3cd70ed751b86e4cc8bdbd237f5b97dbc378783"
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "NCGreenSeas.umx"
+  fileSize: 1170121
+  hash: "56cc928ca816c45c2eb2c6b5ae176a31184c9b45"
+- name: "MH-[SP]Nagrath.unr"
+  fileSize: 6681102
+  hash: "5b942c7cc523be25bf415b614806868c39a0013c"
+otherFiles: 0
+dependencies:
+  MH-[SP]Nagrath.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "NCGreenSeas"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DNagrath.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/c/229f51/MH-%255BSP%255DNagrath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/c/229f51/MH-%255BSP%255DNagrath.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Into the Valley of Nagrath"
+playerCount: "5-10"
+themes:
+  Nali Temple: 0.4
+  Nali Castle: 0.5
+bots: true

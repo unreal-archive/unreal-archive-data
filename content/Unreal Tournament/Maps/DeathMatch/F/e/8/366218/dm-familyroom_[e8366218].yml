@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:13"
+game: "Unreal Tournament"
+name: "DM-FamilyRoom"
+author: "BronxBobby"
+description: "\"By BronxBobby\""
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-FamilyRoom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FamilyRoom_shot_1.png"
+originalFilename: "dm-familyroom.zip"
+hash: "e8366218dd53e878a2b229d2dd91a9d137b692c6"
+fileSize: 3710029
+files:
+- name: "Core_utm.umx"
+  fileSize: 2713879
+  hash: "1813f72623c0afd6c8ade2d3a27576bce4b31593"
+- name: "DM-FamilyRoom.unr"
+  fileSize: 712675
+  hash: "267e2462141d0de17c13e8cacce9e12453b00953"
+- name: "BronxBobby.utx"
+  fileSize: 3112727
+  hash: "278b8a3badb0772eee2125711e13445df601515a"
+- name: "FamilyRoom.uax"
+  fileSize: 95799
+  hash: "4f4d5259e2d61d76f080b5a09f55b317cb0fb617"
+otherFiles: 1
+dependencies:
+  DM-FamilyRoom.unr:
+  - status: "OK"
+    name: "FamilyRoom"
+  - status: "OK"
+    name: "BronxBobby"
+  - status: "OK"
+    name: "Core_utm"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-familyroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/dm-familyroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/e/8/366218/dm-familyroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/e/8/366218/dm-familyroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FamilyRoom"
+playerCount: "2-15"
+themes: {}
+bots: true

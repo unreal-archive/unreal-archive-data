@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:27"
+game: "Unreal"
+name: "DmConfined"
+author: "Sean \"The GuRu\" Tierney"
+description: "Welcome to DMConfined"
+releaseDate: "1999-07"
+attachments: []
+originalFilename: "dm-confined.zip"
+hash: "84cbbe4cd546149ff3fac0c24a315f0347510566"
+fileSize: 1765702
+files:
+- name: "QUAKE3b.utx"
+  fileSize: 1399265
+  hash: "6b3d676bc4d13078ba7a024b98476f04dba173aa"
+- name: "ShaneSky.utx"
+  fileSize: 584486
+  hash: "e067555b9a8323073fc51973b76417df7f0850c0"
+- name: "sky1.utx"
+  fileSize: 88992
+  hash: "60a3b7f6de01a025dcbd43b382b286c798fda7b1"
+- name: "DmConfined.unr"
+  fileSize: 1980548
+  hash: "9af309f786f7749b01219f0932eea72b09b67f1c"
+otherFiles: 1
+dependencies:
+  DmConfined.unr:
+  - status: "MISSING"
+    name: "realsky"
+  - status: "OK"
+    name: "QUAKE3b"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5357039"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dm-confined.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dmconfined.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsC/dmconfined.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmconfined.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/8/4/cbbe4c/dm-confined.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/C/8/4/cbbe4c/dm-confined.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMConfined"
+playerCount: "2 - 6"
+themes:
+  Skaarj Tech: 0.9
+bots: false

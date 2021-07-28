@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 23:15"
+game: "Unreal Tournament"
+name: "CTF-BT-Langres"
+author: "macz"
+description: "None"
+releaseDate: "2012-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Langres_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/L/CTF-BT-Langres_shot_1.png"
+originalFilename: "CTF-BT-Langres.zip"
+hash: "c929b480c13090bee9c6cc462f7ca352c9a5dc9f"
+fileSize: 5326999
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "MYBT-tex.utx"
+  fileSize: 5252635
+  hash: "ae9619fcfb2e2c273b2924a32feb625330982d60"
+- name: "CTF-BT-Langres.unr"
+  fileSize: 517404
+  hash: "77b73a136544a411a3c7557c3525126c67052a87"
+otherFiles: 0
+dependencies:
+  CTF-BT-Langres.unr:
+  - status: "OK"
+    name: "MYBT-tex"
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Langres.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/L/CTF-BT-Langres.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Langres.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/L/c/9/29b480/CTF-BT-Langres.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/L/c/9/29b480/CTF-BT-Langres.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Langres"
+playerCount: "1 - 8"
+themes:
+  Industrial: 1.0
+bots: false

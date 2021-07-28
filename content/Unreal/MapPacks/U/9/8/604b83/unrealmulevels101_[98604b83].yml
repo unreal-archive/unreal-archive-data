@@ -1,0 +1,121 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-10-11 09:32"
+game: "Unreal"
+name: "UnrealMULevels101"
+author: "Master_Unreal"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "UnrealMULevels101.zip"
+hash: "98604b83df7e25458536bb7f494278d1d52e5985"
+fileSize: 7922936
+files:
+- name: "L4DPrison.unr"
+  fileSize: 6441384
+  hash: "a881c944da47044cedf07e9c27383672718ac12f"
+- name: "MU.utx"
+  fileSize: 2388439
+  hash: "1337c34f9aa0e0a5930a456f0dda2176de6095b8"
+- name: "L1Prison.unr"
+  fileSize: 5841653
+  hash: "fb86b3e02e6737906dbd66cb3d20089a129e2f52"
+- name: "DualBetamag.u"
+  fileSize: 475916
+  hash: "24bd97c0a7a62e635261f44050a65b34e2f03bbc"
+- name: "L3DarkCore.unr"
+  fileSize: 1344885
+  hash: "dec68574add6ac2d121e6c9582ac5894873d3563"
+- name: "MUS.uax"
+  fileSize: 286198
+  hash: "666f168c58faaccf00cb5f2912594b86e51bb4cf"
+- name: "MU2.utx"
+  fileSize: 5909675
+  hash: "543dc45003cf30932488e00febaa9d7fa6ce4275"
+- name: "MU3.utx"
+  fileSize: 1294465
+  hash: "7f5324f9b9dce3d76b6d1246bce2cf5b5d6b9828"
+- name: "L2PowerCore.unr"
+  fileSize: 1495676
+  hash: "59040368868ab20b3d291c8fb5428823282badf6"
+- name: "MUPawns.u"
+  fileSize: 2897
+  hash: "7f9f1dd666e18df128a0ef5dbccd79c130a7c2b8"
+otherFiles: 0
+dependencies:
+  MUPawns.u:
+  - status: "MISSING"
+    name: "MUMeshes"
+  - status: "OK"
+    name: "MUS"
+  - status: "OK"
+    name: "MU3"
+  L2PowerCore.unr:
+  - status: "OK"
+    name: "MU3"
+  - status: "OK"
+    name: "MU2"
+  L4DPrison.unr:
+  - status: "OK"
+    name: "MUPawns"
+  - status: "OK"
+    name: "MU3"
+  - status: "OK"
+    name: "MU2"
+  - status: "MISSING"
+    name: "new3"
+  - status: "OK"
+    name: "DualBetamag"
+  - status: "OK"
+    name: "MU"
+  L1Prison.unr:
+  - status: "MISSING"
+    name: "AlienEsque"
+  - status: "OK"
+    name: "MU2"
+  - status: "MISSING"
+    name: "new3"
+  - status: "OK"
+    name: "DualBetamag"
+  - status: "OK"
+    name: "MU"
+  L3DarkCore.unr:
+  - status: "OK"
+    name: "MU3"
+  - status: "OK"
+    name: "MU2"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/UnrealMULevels101.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/U/9/8/604b83/UnrealMULevels101.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/U/9/8/604b83/UnrealMULevels101.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/U/9/8/604b83/UnrealMULevels101.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "L2PowerCore"
+  title: "The Power Core"
+  author: "Master_Unreal"
+- name: "L4DPrison"
+  title: "The Dark Prison"
+  author: "Master_Unreal"
+- name: "L1Prison"
+  title: "The Prison"
+  author: "Master_Unreal"
+- name: "L3DarkCore"
+  title: "Once Was Power Core"
+  author: "Master_Unreal"
+gametype: "Unknown"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.9

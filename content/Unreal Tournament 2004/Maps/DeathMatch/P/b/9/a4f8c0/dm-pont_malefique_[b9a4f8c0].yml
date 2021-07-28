@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 13:38"
+game: "Unreal Tournament 2004"
+name: "DM-pont_malefique"
+author: "Gorth_le_Barbare"
+description: "Le pont malefique, un jeu MB"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-pont_malefique_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/P/DM-pont_malefique_shot_1.png"
+- type: "IMAGE"
+  name: "DM-pont_malefique_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/P/DM-pont_malefique_shot_2.png"
+originalFilename: "dm-pont_malefique.zip"
+hash: "b9a4f8c056e075c9e5390baf3c84f467716c0908"
+fileSize: 15453499
+files:
+- name: "pont_malefique.utx"
+  fileSize: 18394862
+  hash: "03154c08a6e0dca5c1d5a866f1e1d2b2406b2d84"
+- name: "pont_malefique.usx"
+  fileSize: 7642935
+  hash: "846e738f9da2c138fcedc3537d09c70707c2813a"
+- name: "DM-pont_malefique.ut2"
+  fileSize: 3261747
+  hash: "4891f311265852271fd89e52c63b7544f4c92373"
+otherFiles: 3
+dependencies:
+  DM-pont_malefique.ut2:
+  - status: "OK"
+    name: "pont_malefique"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4665"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/P/dm-pont_malefique.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/P/b/9/a4f8c0/dm-pont_malefique.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/P/b/9/a4f8c0/dm-pont_malefique.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Le pont malefique"
+playerCount: "2-6"
+themes:
+  Industrial: 0.2
+  Natural: 0.8
+bots: true

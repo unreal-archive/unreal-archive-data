@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-12 00:09"
+game: "Unreal Tournament 2004"
+name: "VCTF-Monopoly[UBB]"
+author: "[UBB]American_Strength"
+description: "It was 1934, the height of the Depression, when Charles B. Darrow of\
+  \ Germantown, Pennsylvania, invented Monopoly. It was a huge success. How will it\
+  \ fair as a VCTF map?"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "VCTF-Monopoly[UBB]_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/M/VCTF-Monopoly%5BUBB%5D_shot_2.png"
+- type: "IMAGE"
+  name: "VCTF-Monopoly[UBB]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/M/VCTF-Monopoly%5BUBB%5D_shot_1.png"
+originalFilename: "vctf-monopoly[ubb].zip"
+hash: "c621548bc29d861fb3b1a6014915c634965c566f"
+fileSize: 6531530
+files:
+- name: "VCTF-Monopoly[UBB].ut2"
+  fileSize: 4332503
+  hash: "e61988cebd66caee0b8c98b6b7e390a145b999d4"
+- name: "monopoly.utx"
+  fileSize: 11428639
+  hash: "2dea33fcdb29997a7a23d6bd4c5aabc5beae1c5e"
+- name: "monopoly_mesh.usx"
+  fileSize: 3312399
+  hash: "9393eebd45f2264094e8fe134de0308b751fdc2e"
+- name: "monopoly_door.usx"
+  fileSize: 157358
+  hash: "cd46440fe38d5fa141afd11f37b10f30e6e77d90"
+- name: "monopoly_sounds.uax"
+  fileSize: 316434
+  hash: "e10de6bba1d78738a86956f92dfad5e2b715c0c7"
+otherFiles: 2
+dependencies:
+  monopoly_mesh.usx:
+  - status: "OK"
+    name: "monopoly"
+  VCTF-Monopoly[UBB].ut2:
+  - status: "OK"
+    name: "monopoly_sounds"
+  - status: "OK"
+    name: "monopoly"
+  - status: "MISSING"
+    name: "CBP2-Pasargadae-SM"
+  - status: "OK"
+    name: "monopoly_mesh"
+  - status: "OK"
+    name: "monopoly_door"
+  monopoly_door.usx:
+  - status: "MISSING"
+    name: "BedroomsTex"
+  - status: "OK"
+    name: "monopoly"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4423"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/M/vctf-monopoly%5Bubb%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/M/c/6/21548b/vctf-monopoly%255Bubb%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/M/c/6/21548b/vctf-monopoly%255Bubb%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-[UBB]Monopoly"
+playerCount: "Unknown"
+themes: {}
+bots: true

@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 20:48"
+game: "Unreal Tournament 2004"
+name: "ONS-Flurry"
+author: "Mark 'Gonk' Fanucci"
+description: "A frozen pond, sheer cliffs, and plenty of carnage is the only way to\
+  \ summarize this map."
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "ONS-Flurry_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/F/ONS-Flurry_shot_1.png"
+- type: "IMAGE"
+  name: "ONS-Flurry_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/F/ONS-Flurry_shot_2.png"
+originalFilename: "ons-flurry.zip"
+hash: "00b08422a3c2e1f452452de8635704b90ab10e8d"
+fileSize: 8783825
+files:
+- name: "UPLogoONS01.utx"
+  fileSize: 1768148
+  hash: "72569fc91650bfe3c8ca97786b21b00ff71e4773"
+- name: "UPLogoMesh01.usx"
+  fileSize: 5548
+  hash: "d6471a27ea8265897d5b01673971cc3f9e90f7ec"
+- name: "ONS-Flurry.ut2"
+  fileSize: 14780807
+  hash: "9340ee94fef4d1a4cb619ebf24b05fccb2a323b5"
+otherFiles: 2
+dependencies:
+  UPLogoMesh01.usx:
+  - status: "OK"
+    name: "UPLogoONS01"
+  ONS-Flurry.ut2:
+  - status: "OK"
+    name: "UPLogoMesh01"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/F/ons-flurry.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2589"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/F/0/0/b08422/ons-flurry.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/F/0/0/b08422/ons-flurry.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "Flurry"
+playerCount: "16-24"
+themes:
+  Egyptian: 0.1
+  Natural: 0.9
+bots: true

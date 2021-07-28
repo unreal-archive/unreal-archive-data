@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:50"
+game: "Unreal Tournament"
+name: "DM-Access]["
+author: "TYRANTBOSS"
+description: "Access]["
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "dm-access.zip"
+hash: "6d637de80e427289fddd283500e1fe1711b41df9"
+fileSize: 727305
+files:
+- name: "AesSedaiT.utx"
+  fileSize: 246049
+  hash: "feb6571b14fa540d8fab219f39f04136f1d66ca4"
+- name: "WOTDetail.utx"
+  fileSize: 266422
+  hash: "3ef483a161ba7c55be3c49c47afb7f9e779c1795"
+- name: "DM-Access][.unr"
+  fileSize: 841311
+  hash: "97202c85c221d5589c174f9d8ab4d0cc8ffe8453"
+- name: "Store.utx"
+  fileSize: 110003
+  hash: "875514ba5ed326782c781afefb937ddfa71bd89c"
+otherFiles: 1
+dependencies:
+  DM-Access][.unr:
+  - status: "OK"
+    name: "Store"
+  - status: "OK"
+    name: "AesSedaiT"
+  AesSedaiT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-access.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-access.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Access%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-access.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsA/dm-access.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/6/d/637de8/dm-access.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/6/d/637de8/dm-access.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Access]["
+playerCount: "Unknown"
+themes:
+  Tech: 0.5
+  Skaarj Tech: 0.2
+  Indistrial: 0.3
+bots: true

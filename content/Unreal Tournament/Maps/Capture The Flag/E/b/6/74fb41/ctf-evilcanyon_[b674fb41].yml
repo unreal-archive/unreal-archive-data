@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:21"
+game: "Unreal Tournament"
+name: "CTF-EvilCanyon"
+author: "Max Kerfoot"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-EvilCanyon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/CTF-EvilCanyon_shot_1.png"
+originalFilename: "ctf-evilcanyon.zip"
+hash: "b674fb41a622397db562fea9623b26e8b9e798bc"
+fileSize: 311272
+files:
+- name: "CTF-EvilCanyon.unr"
+  fileSize: 799833
+  hash: "1fa1084b2999d155b899e3add85f9059a2301d67"
+- name: "NBCRM.u"
+  fileSize: 55253
+  hash: "19da3e04d3aa9c039a9fd66bfc8bed428d475a9f"
+otherFiles: 1
+dependencies:
+  CTF-EvilCanyon.unr:
+  - status: "OK"
+    name: "NBCRM"
+  - status: "MISSING"
+    name: "WarGate"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/ctf-evilcanyon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsE/&file=ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsE/ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/b/6/74fb41/ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/b/6/74fb41/ctf-evilcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Evil Canyon"
+playerCount: "6-16"
+themes:
+  Tech: 0.3
+  Skaarj Crypt: 0.1
+  Ancient: 0.4
+  Natural: 0.1
+bots: true

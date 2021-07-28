@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:07"
+game: "Unreal Tournament"
+name: "DM-Mourning"
+author: "{jBi}LexiconDevil"
+description: "None"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-Mourning_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-Mourning_shot_1.png"
+originalFilename: "dm-mourning.zip"
+hash: "84424262fbdd91f86309d33c113c7a77db9dfdfb"
+fileSize: 7075921
+files:
+- name: "DM-Mourning.unr"
+  fileSize: 1878920
+  hash: "e02da82e8deccc979e17e2454514d955379ffbf3"
+- name: "te-secwo.umx"
+  fileSize: 942489
+  hash: "a0a1c5e1c270389c1626fffd78e13f2ee1bb456c"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+otherFiles: 1
+dependencies:
+  DM-Mourning.unr:
+  - status: "OK"
+    name: "te-secwo"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-mourning.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-mourning.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2918"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/8/4/424262/dm-mourning.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/8/4/424262/dm-mourning.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Mourning"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Skaarj Crypt: 0.4
+bots: true

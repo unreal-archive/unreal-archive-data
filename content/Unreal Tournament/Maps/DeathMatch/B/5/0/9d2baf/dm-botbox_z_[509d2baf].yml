@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:57"
+game: "Unreal Tournament"
+name: "DM-Botbox_Z"
+author: "Dave \"Bonedog\" Hiler"
+description: "--<(   In Memory of B.B. Fritz   )>--"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Botbox_Z_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-Botbox_Z_shot_1.png"
+originalFilename: "dm-botbox_z.zip"
+hash: "509d2baf0b6c2a20889d2875f23dc97aae8afa9f"
+fileSize: 1169717
+files:
+- name: "Temp2.utx"
+  fileSize: 975706
+  hash: "605ff7086ff7310020506589bb574d65295dc965"
+- name: "DM-Botbox_Z.unr"
+  fileSize: 532603
+  hash: "2496d7fe9753a6cd3ede2f5ddb8e895c20d0ad3d"
+- name: "Temp1.utx"
+  fileSize: 1259377
+  hash: "c534356c72bfac0442f9c592046440f40ccbf305"
+otherFiles: 2
+dependencies:
+  DM-Botbox_Z.unr:
+  - status: "OK"
+    name: "Temp2"
+  - status: "OK"
+    name: "Temp1"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-botbox_z.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-botbox_z.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-botbox_z.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-botbox_z.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/5/0/9d2baf/dm-botbox_z.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/5/0/9d2baf/dm-botbox_z.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Botbox Z"
+playerCount: "2-6"
+themes:
+  Tech: 1.0
+bots: true

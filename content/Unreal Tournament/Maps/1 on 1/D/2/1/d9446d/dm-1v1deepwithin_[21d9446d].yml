@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:25"
+game: "Unreal Tournament"
+name: "DM-1v1DeepWithIn"
+author: "TNT"
+description: "Time To Die"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-1v1DeepWithIn_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/D/DM-1v1DeepWithIn_shot_1.png"
+originalFilename: "dm_1v1deepwithin.zip"
+hash: "21d9446de7b2b1a3605d189c3882e8441b74e778"
+fileSize: 3077920
+files:
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+- name: "DM-1v1DeepWithIn.unr"
+  fileSize: 2134652
+  hash: "a8c644176d991e10991ad9b02df1ec2dcdd6e814"
+otherFiles: 1
+dependencies:
+  DM-1v1DeepWithIn.unr:
+  - status: "OK"
+    name: "ForsakenT"
+  ForsakenT.utx:
+  - status: "MISSING"
+    name: "WOTDetail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/Maps0/&file=dm_1v1deepwithin.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/D/dm_1v1deepwithin.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm_1v1deepwithin.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/Maps0/dm_1v1deepwithin.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/1%20on%201/D/2/1/d9446d/dm_1v1deepwithin.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/1%20on%201/D/2/1/d9446d/dm_1v1deepwithin.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "1v1-DeepWithIn"
+playerCount: "1v1"
+themes:
+  Ancient: 0.9
+  Nali Castle: 0.1
+bots: true

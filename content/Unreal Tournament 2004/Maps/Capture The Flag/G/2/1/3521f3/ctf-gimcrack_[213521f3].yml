@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 08:20"
+game: "Unreal Tournament 2004"
+name: "CTF-GimCrack"
+author: "Ghetto Smack"
+description: "When you stuck in a cheap and shoddy house, all you can do is BRING\
+  \ DA PAIN! Watch out now"
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-GimCrack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/CTF-GimCrack_shot_1.png"
+originalFilename: "ctf-gimcrack.zip"
+hash: "213521f30cbfc46d0972e69a511da0e7ffd27565"
+fileSize: 5229476
+files:
+- name: "CTF-GimCrack.ut2"
+  fileSize: 9191622
+  hash: "91570741326033d0ee2b2787bc7b8262ecaedd83"
+- name: "HoodStucked.utx"
+  fileSize: 5676688
+  hash: "478a4e03f541a4eab86e4890c6cdb8b9eb0e0dbd"
+- name: "Fluoxetine_textures.utx"
+  fileSize: 465877
+  hash: "b0f2919d60db2f0813b5bbe675732c20460481b2"
+- name: "Fluoxetine_meshes.usx"
+  fileSize: 1672501
+  hash: "772a2e5dbc0f1bbe01b333a40df50a7d9272a0ad"
+otherFiles: 1
+dependencies:
+  CTF-GimCrack.ut2:
+  - status: "OK"
+    name: "Fluoxetine_meshes"
+  - status: "OK"
+    name: "HoodStucked"
+  Fluoxetine_meshes.usx:
+  - status: "OK"
+    name: "Fluoxetine_textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/ctf-gimcrack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/2/1/3521f3/ctf-gimcrack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/2/1/3521f3/ctf-gimcrack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Gimcrack shack"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

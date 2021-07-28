@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 13:05"
+game: "Unreal"
+name: "MH-[SP]SunkenShip"
+author: "Tentacle-HunteR"
+description: "Shipwreck Lagoon"
+releaseDate: "2012-01"
+attachments: []
+originalFilename: "MH-[SP]SunkenShip.zip"
+hash: "7ae7a9148c69418ad8919812df1815310a082a92"
+fileSize: 1301342
+files:
+- name: "MH-[SP]SunkenShip.unr"
+  fileSize: 1882649
+  hash: "7fa81e5cd9cd99ed61be31828e83f0919d43cbea"
+- name: "Np-ty.umx"
+  fileSize: 1069011
+  hash: "36c6b664817654f1001eba78357ca83bd32075ac"
+otherFiles: 0
+dependencies:
+  MH-[SP]SunkenShip.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "Np-ty"
+  - status: "MISSING"
+    name: "Predator"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DSunkenShip.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]SunkenShip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/a/e7a914/MH-%255BSP%255DSunkenShip.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/a/e7a914/MH-%255BSP%255DSunkenShip.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Shipwreck Lagoon"
+playerCount: "4-12"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.2
+  Nali Castle: 0.7
+bots: true

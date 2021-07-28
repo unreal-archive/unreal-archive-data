@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:03"
+game: "Unreal Tournament"
+name: "CTF-X-Temple"
+author: "DV8AO1"
+description: "Welcome to Temple X...."
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-X-Temple_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/CTF-X-Temple_shot_1.png"
+originalFilename: "ctf-x-temple.zip"
+hash: "2c1f62b50f6e98e00c42e6922464df6fbc4c90a1"
+fileSize: 451174
+files:
+- name: "xtemple.utx"
+  fileSize: 351166
+  hash: "afd5cf69bc04b840c70ef02abf10aa50e4551255"
+- name: "CTF-X-Temple.unr"
+  fileSize: 1003323
+  hash: "8e5e5663803f3598dfc37e0a45acb6692cc08e5a"
+otherFiles: 0
+dependencies:
+  CTF-X-Temple.unr:
+  - status: "OK"
+    name: "xtemple"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-x-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-x-temple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/2/c/1f62b5/ctf-x-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/2/c/1f62b5/ctf-x-temple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "TEMPLE-[ X ]-"
+playerCount: "10"
+themes:
+  Nali Temple: 1.0
+bots: false

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 13:55"
+game: "Unreal Tournament 2004"
+name: "DM-ReaveR"
+author: "James 'ReaveR' Espinoza"
+description: "Rejected arena from Liandri Corp.  FIGURES!"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-ReaveR_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-ReaveR_shot_2.png"
+- type: "IMAGE"
+  name: "DM-ReaveR_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-ReaveR_shot_3.png"
+- type: "IMAGE"
+  name: "DM-ReaveR_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-ReaveR_shot_1.png"
+originalFilename: "dm-reaver.zip"
+hash: "01507d9aedc592e97cb6b8d5b7cf659b67763052"
+fileSize: 1034491
+files:
+- name: "ramon.utx"
+  fileSize: 383966
+  hash: "4c12dbd74f9cf30d6ee8f6dc93b850163730b391"
+- name: "DM-ReaveR.ut2"
+  fileSize: 1952242
+  hash: "2d1787cd9d8b266570b5ead3abdf7c60835bef51"
+otherFiles: 3
+dependencies:
+  DM-ReaveR.ut2:
+  - status: "OK"
+    name: "ramon"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1094"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/dm-reaver.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/R/0/1/507d9a/dm-reaver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/0/1/507d9a/dm-reaver.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ReaveR"
+playerCount: "4-8"
+themes:
+  Tech: 1.0
+bots: true

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 20:36"
+game: "Unreal Tournament 2004"
+name: "CTF-Moria"
+author: "Nenad(PASHKO)Pazanin"
+description: "We now have but one choice. We must face the long dark of Moria. Be\
+  \ on your guard. There are older and fouler things than orcs in the deep places\
+  \ of the world."
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Moria_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/CTF-Moria_shot_1.png"
+originalFilename: "ctf-moria.zip"
+hash: "cdaec287de75d74ca84ea32d54899d7eabfec36f"
+fileSize: 16019460
+files:
+- name: "CTF-Moria.ut2"
+  fileSize: 31294380
+  hash: "7ab8e5f1615cde1e27b326fc960496408433962c"
+- name: "MoriaSounds.uax"
+  fileSize: 3447282
+  hash: "f69a2ff0e6b31ddee91b675d2f0b78a11a63426c"
+- name: "Journey.ogg"
+  fileSize: 3676973
+  hash: "a0daf8dafeb1c299bc26c5ef070dd2d018ca04e5"
+otherFiles: 1
+dependencies:
+  CTF-Moria.ut2:
+  - status: "OK"
+    name: "MoriaSounds"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3770"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/c/d/aec287/ctf-moria.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/c/d/aec287/ctf-moria.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/c/d/aec287/ctf-moria.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Moria"
+playerCount: "8-12"
+themes:
+  Egyptian: 0.8
+  Natural: 0.2
+bots: true

@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 14:11"
+game: "Unreal Tournament 2004"
+name: "AS-RaPyramidv4_2"
+author: "`Zippy`"
+description: "Can you survive all 6 worlds, then escape?"
+releaseDate: "2014-04"
+attachments:
+- type: "IMAGE"
+  name: "AS-RaPyramidv4_2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/R/AS-RaPyramidv4_2_shot_1.png"
+originalFilename: "as-rapyramidv4_2_2.zip"
+hash: "20ae803d712c1c5139c8472e3c0489237b9d365d"
+fileSize: 18920689
+files:
+- name: "RaDamTypes2.u"
+  fileSize: 4598
+  hash: "97e1f9a3036621fbd9a5839d629950fffb5448c8"
+- name: "Copan.ogg"
+  fileSize: 2237705
+  hash: "80145f4a3fb7b66e53154bc18b84e8a57a85a0eb"
+- name: "TFAMap.u"
+  fileSize: 21814
+  hash: "4769d810763cd19e6218101f9409ae9bb5076f5b"
+- name: "OSMTex.utx"
+  fileSize: 627326
+  hash: "b8a65362b5c34f9b5b4abd32125ba568e3648aa8"
+- name: "MovingVolumeTwo.u"
+  fileSize: 659
+  hash: "6b29832a3c0027a9cd42e73af1ecac05d8fc2ffb"
+- name: "OSMT.u"
+  fileSize: 587306
+  hash: "96e244740a19f717eaa80a544f2b48c9635692db"
+- name: "AS-RaPyramidv4_2.ut2"
+  fileSize: 47698510
+  hash: "9b51c06c4cc6cf1813f1f0529b5165fe5d9537d8"
+otherFiles: 1
+dependencies:
+  OSMT.u:
+  - status: "MISSING"
+    name: "ThunderCrash"
+  - status: "MISSING"
+    name: "HumanMaleA"
+  - status: "OK"
+    name: "OSMTex"
+  AS-RaPyramidv4_2.ut2:
+  - status: "OK"
+    name: "TFAMap"
+  - status: "OK"
+    name: "RaDamTypes2"
+  - status: "OK"
+    name: "OSMT"
+  - status: "OK"
+    name: "MovingVolumeTwo"
+downloads:
+- url: "https://gamebanana.com/maps/download/180459"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/R/as-rapyramidv4_2_2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/R/2/0/ae803d/as-rapyramidv4_2_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/R/2/0/ae803d/as-rapyramidv4_2_2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "RaPyramid"
+playerCount: "7"
+themes:
+  Egyptian: 0.9
+  Natural: 0.1
+bots: true

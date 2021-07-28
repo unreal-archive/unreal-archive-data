@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:13"
+game: "Unreal"
+name: "DM[SP]GasWorks"
+author: "*Recreated from UT by RUSH*"
+description: "None"
+releaseDate: "2008-09"
+attachments:
+- type: "IMAGE"
+  name: "dmspgasworks_shot_4276fd4a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/dmspgasworks_shot_4276fd4a_1.png"
+originalFilename: "DM[SP]GasWorks.zip"
+hash: "4276fd4a2a8b0bedfad6cd2365f6c82e9f965b94"
+fileSize: 13381095
+files:
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+- name: "GasWorksTex.utx"
+  fileSize: 3221475
+  hash: "b74b3086067782f2a8a97e8010792cb5073811ef"
+- name: "DM[SP]GasWorks.unr"
+  fileSize: 1919150
+  hash: "2a7e237f7fa1f71ad3f6eeb442f288a921a35087"
+- name: "SP_BlackHoleSun.umx"
+  fileSize: 14023845
+  hash: "b7432b09dcca1c5c6a76d7482ace70bbbc9c0ac0"
+otherFiles: 0
+dependencies:
+  DM[SP]GasWorks.unr:
+  - status: "OK"
+    name: "SP_BlackHoleSun"
+  - status: "OK"
+    name: "GasWorksTex"
+  - status: "MISSING"
+    name: "uzi"
+  - status: "MISSING"
+    name: "AssaultTommyGun"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "Assault_Dicer"
+  - status: "MISSING"
+    name: "SPFleshbomb"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DGasWorks.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/4/2/76fd4a/DM%255BSP%255DGasWorks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/4/2/76fd4a/DM%255BSP%255DGasWorks.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP]GasWorks"
+playerCount: "8-12"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+  Natural: 0.1
+bots: true

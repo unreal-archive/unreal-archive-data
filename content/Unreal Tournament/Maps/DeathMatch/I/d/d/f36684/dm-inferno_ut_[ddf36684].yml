@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:17"
+game: "Unreal Tournament"
+name: "DM-Inferno_UT"
+author: "Unknown"
+description: "Hellish Inferno"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-Inferno_UT_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-Inferno_UT_shot_1.png"
+originalFilename: "dm-inferno_ut.zip"
+hash: "ddf3668480c89e41bafd03973ccc382b65dd5536"
+fileSize: 3269589
+files:
+- name: "DM-Inferno_UT.unr"
+  fileSize: 2781869
+  hash: "f9ee9b7ae3c87198f51aeb41fddf0fb814c5e5a3"
+- name: "Trauma.umx"
+  fileSize: 770247
+  hash: "34efff13a32c1d5bc4fdbd01fe8882f27e30251b"
+- name: "Sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "AncientCavesTex.utx"
+  fileSize: 152518
+  hash: "a3a08941fd3bcb1845a0f312820afb4b98ffeae2"
+otherFiles: 1
+dependencies:
+  DM-Inferno_UT.unr:
+  - status: "OK"
+    name: "Sky"
+  - status: "OK"
+    name: "Trauma"
+  - status: "OK"
+    name: "AncientCavesTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inferno_ut.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsI/&file=dm-inferno_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-inferno_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsI/dm-inferno_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/I/d/d/f36684/dm-inferno_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/I/d/d/f36684/dm-inferno_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Inferno"
+playerCount: "2-4"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

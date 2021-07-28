@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:57"
+game: "Unreal Tournament"
+name: "CTF-((SMP2))Enigmatic"
+author: "[OsL]Madis"
+description: "None"
+releaseDate: "2011-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-((SMP2))Enigmatic_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-((SMP2))Enigmatic_shot_1.png"
+originalFilename: "CTF-((SMP2))Enigmatic.zip"
+hash: "7443056811ea2ccda6c0b736cf13942d1e2e67a2"
+fileSize: 5281497
+files:
+- name: "SMP2Tex.utx"
+  fileSize: 356330
+  hash: "1283809282da6b15e83595c885a002a1b3b91ab3"
+- name: "XenonCore.utx"
+  fileSize: 1052867
+  hash: "e07a94a0c3150a0026d693c88b175b167adbae64"
+- name: "suborbital_graviton_1.umx"
+  fileSize: 4542885
+  hash: "8d7faa354fb612951a1541e0e2a35b357ae248be"
+- name: "CTF-((SMP2))Enigmatic.unr"
+  fileSize: 3205424
+  hash: "667c8f951ea4056e8087e78df2cab77fad1368fe"
+- name: "XenonDecos.u"
+  fileSize: 5009
+  hash: "9c2293200e905ec2c21ae0da1435dd3725ee428c"
+- name: "MadisCityMesh.u"
+  fileSize: 63680
+  hash: "2bc1ee4a1537abb192bb06036f863c9054303413"
+otherFiles: 1
+dependencies:
+  XenonDecos.u:
+  - status: "OK"
+    name: "XenonCore"
+  MadisCityMesh.u:
+  - status: "MISSING"
+    name: "MadisCityMeshTex"
+  CTF-((SMP2))Enigmatic.unr:
+  - status: "OK"
+    name: "SMP2Tex"
+  - status: "OK"
+    name: "XenonDecos"
+  - status: "OK"
+    name: "suborbital_graviton_1"
+  - status: "OK"
+    name: "MadisCityMesh"
+  - status: "OK"
+    name: "XenonCore"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-%28%28SMP2%29%29Enigmatic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-((SMP2))Enigmatic.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-%28%28SMP2%29%29Enigmatic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/7/4/430568/CTF-((SMP2))Enigmatic.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/7/4/430568/CTF-((SMP2))Enigmatic.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Enigmatic Epiphany by [OsL]Madis"
+playerCount: "8-16"
+themes:
+  Industrial: 0.5
+  Ancient: 0.3
+  City: 0.1
+bots: false

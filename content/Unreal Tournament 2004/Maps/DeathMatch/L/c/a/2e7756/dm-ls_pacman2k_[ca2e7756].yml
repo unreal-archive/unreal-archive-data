@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 12:51"
+game: "Unreal Tournament 2004"
+name: "DM-LS_Pacman2k"
+author: "Simeon \"Lord Simeon\" Spargo"
+description: "Pacman meets UT2003."
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-LS_Pacman2k_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LS_Pacman2k_shot_1.png"
+- type: "IMAGE"
+  name: "DM-LS_Pacman2k_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LS_Pacman2k_shot_2.png"
+originalFilename: "dm-ls_pacman2k.zip"
+hash: "ca2e7756f92dbfb36d62be1bbba6a754f4f2dce5"
+fileSize: 3986618
+files:
+- name: "DM-LS_Pacman2k.ut2"
+  fileSize: 4200091
+  hash: "aa44161ab4d820ab7d1100d56ebe0331bbb0dfc0"
+- name: "BootsOfJumpingSounds.uax"
+  fileSize: 31257
+  hash: "1e10b0c41eb4fcb63128c002d988ba6a4362080d"
+- name: "BootsOfJumping.u"
+  fileSize: 8202
+  hash: "528e2c20c0e1a2330833c56012fc3496dfb7efc7"
+- name: "power_pill_pacman.ogg"
+  fileSize: 3620284
+  hash: "0676280f7a505b8b8fdc8211137d64ac0034e97b"
+otherFiles: 1
+dependencies:
+  DM-LS_Pacman2k.ut2:
+  - status: "OK"
+    name: "BootsOfJumping"
+  BootsOfJumping.u:
+  - status: "OK"
+    name: "BootsOfJumpingSounds"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1223"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/dm-ls_pacman2k.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/L/c/a/2e7756/dm-ls_pacman2k.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/c/a/2e7756/dm-ls_pacman2k.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LS_Pacman2k"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true

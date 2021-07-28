@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 20:01"
+game: "Unreal Tournament"
+name: "MH-LongCorridor"
+author: "[SW]strangelove"
+description: "March along the Long Corridor!"
+releaseDate: "2004-11"
+attachments: []
+originalFilename: "MH-LongCorridor.zip"
+hash: "fe683c2fd7bbf175719b2c929351e5a39cce7421"
+fileSize: 641421
+files:
+- name: "MH-LongCorridor.unr"
+  fileSize: 406054
+  hash: "19feaf8381b7f486dd6aa9bd47b949334046ae66"
+- name: "FF8B3-1.umx"
+  fileSize: 605473
+  hash: "4c7e10214b50e35b8e0cc59298ff64b8c2ff90b3"
+otherFiles: 0
+dependencies:
+  MH-LongCorridor.unr:
+  - status: "OK"
+    name: "FF8B3-1"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/MH-LongCorridor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LongCorridor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/L/f/e/683c2f/MH-LongCorridor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/f/e/683c2f/MH-LongCorridor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Long Corridor"
+playerCount: "4-8"
+themes:
+  Ancient: 1.0
+bots: false

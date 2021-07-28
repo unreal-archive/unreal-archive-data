@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:56"
+game: "Unreal Tournament"
+name: "DM-UK-Space-Arena-2010-Beta"
+author: "-=Scorpion=-"
+description: "FUCK CHEATERS"
+releaseDate: "2010-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-UK-Space-Arena-2010-Beta_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Space-Arena-2010-Beta_shot_1.png"
+originalFilename: "DM-UK-Space-Arena-2010-Beta.rar"
+hash: "c74de467ab65d35c8037634370c6888ef0ad1223"
+fileSize: 43181243
+files:
+- name: "NaliWeaponsIIX.u"
+  fileSize: 84635871
+  hash: "04df28ba4c0699090aae2ab15394c1da98960a18"
+- name: "UK-Space-2010.utx"
+  fileSize: 1758317
+  hash: "225bd68b0b25fdbedb0f1005676f733db3a3d3f2"
+- name: "Out-Of-Space.umx"
+  fileSize: 6662795
+  hash: "3b8b9d300dd1d819abdab7116874a124950c9581"
+- name: "DM-UK-Space-Arena-2010-Beta.unr"
+  fileSize: 1417942
+  hash: "90eee0fa166e9ef9eb1e5b42dfa031cce964fc65"
+- name: "UKNukeZone.u"
+  fileSize: 6651
+  hash: "93f0f3f8183359fabb844e93abf1db0a8f76cb35"
+- name: "UK-CameraSpot.u"
+  fileSize: 14005
+  hash: "c01cee2685766f995957baad33765cff2da82f5c"
+- name: "space-arena.utx"
+  fileSize: 725269
+  hash: "6a018da837343e1b1562d81ed0cb71958e3c92b6"
+otherFiles: 0
+dependencies:
+  DM-UK-Space-Arena-2010-Beta.unr:
+  - status: "OK"
+    name: "Out-Of-Space"
+  - status: "OK"
+    name: "space-arena"
+  - status: "OK"
+    name: "UKNukeZone"
+  - status: "OK"
+    name: "NaliWeaponsIIX"
+  - status: "OK"
+    name: "UK-CameraSpot"
+  - status: "OK"
+    name: "UK-Space-2010"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-UK-Space-Arena-2010-Beta.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-UK-Space-Arena-2010-Beta.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/c/7/4de467/DM-UK-Space-Arena-2010-Beta.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/c/7/4de467/DM-UK-Space-Arena-2010-Beta.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "UK-Space-Arena-2010"
+playerCount: "4-16"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.9
+bots: true

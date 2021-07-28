@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:03"
+variationOf: "c046b0532716e4b49ac92891992e01ee78981fab"
+game: "Unreal Tournament"
+name: "CTF-X-Forts"
+author: "Vadim Vechirko"
+description: "Enjoy!"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-x-forts_shot_51f86c74_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-x-forts_shot_51f86c74_1.png"
+- type: "IMAGE"
+  name: "ctf-x-forts_shot_51f86c74_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-x-forts_shot_51f86c74_2.png"
+originalFilename: "ctf-x-forts.zip"
+hash: "51f86c74ff4a5501d299a5836a7d9990c8e3cf3f"
+fileSize: 6647948
+files:
+- name: "Neverland.umx"
+  fileSize: 6658947
+  hash: "cb5bdae7090d10e02faa6521b5ae06586fdd17c8"
+- name: "CTF-X-Forts.unr"
+  fileSize: 3345243
+  hash: "7c0763c6b96253bd807ddfbb8e96a8630d7ec6a9"
+- name: "Wcollide.utx"
+  fileSize: 286108
+  hash: "05b1bb1729b943dae6f24f07c68c5e226a3ed237"
+otherFiles: 2
+dependencies:
+  CTF-X-Forts.unr:
+  - status: "OK"
+    name: "Neverland"
+  - status: "OK"
+    name: "Wcollide"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-x-forts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-x-forts.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2308"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/5/1/f86c74/ctf-x-forts.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/5/1/f86c74/ctf-x-forts.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-X-Forts"
+playerCount: "8-16"
+themes:
+  Industrial: 1.0
+bots: true

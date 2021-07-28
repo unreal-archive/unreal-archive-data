@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:06"
+game: "Unreal Tournament"
+name: "CTF-FaceOffCTF"
+author: "Magnus and Chris"
+description: "The countdown has begun..."
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FaceOffCTF_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FaceOffCTF_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-FaceOffCTF_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FaceOffCTF_shot_1.png"
+originalFilename: "ctf-faceoffctf.zip"
+hash: "f8209c1ed54340b8178b373758c99a0fa3f83584"
+fileSize: 4708385
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-FaceOffCTF.unr"
+  fileSize: 1926571
+  hash: "c433ae54819cb11dc71295fa8af4679052764203"
+otherFiles: 2
+dependencies:
+  CTF-FaceOffCTF.unr:
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-faceoffctf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-faceoffctf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=698"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/f/8/209c1e/ctf-faceoffctf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/f/8/209c1e/ctf-faceoffctf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Face Off CTF"
+playerCount: "2-8"
+themes:
+  Tech: 1.0
+bots: true

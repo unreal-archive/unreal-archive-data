@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 14:48"
+variationOf: "1cb0e205f53f01f65deddbc9fde114c42093c20a"
+game: "Unreal Tournament 2004"
+name: "DM-Aristocracy2004"
+author: "Paul 'TAZ' Mader"
+description: "The rising sun cast deep shadows in the streets. The wet grass is covered\
+  \ with blood and the morning air smells sulphurous. Only when the tournament starts\
+  \ this silence is broken and the ancient walls tremble by the sounds of exploding\
+  \ rockets."
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-aristocracy2004_shot_09935413_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-aristocracy2004_shot_09935413_1.png"
+- type: "IMAGE"
+  name: "dm-aristocracy2004_shot_09935413_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-aristocracy2004_shot_09935413_2.png"
+originalFilename: "dm-aristocracy2004.zip"
+hash: "099354136ac8b6d051f2efed9bf9db15ef02cb9b"
+fileSize: 11349439
+files:
+- name: "R3tex.utx"
+  fileSize: 18411221
+  hash: "a3b8aa1f3533b79f4e42d4d4cd5b2a5632e02d68"
+- name: "R3meshes.usx"
+  fileSize: 4042493
+  hash: "12080ef1a08b24643115f39b397cb1f9cac44138"
+- name: "DM-Aristocracy2004.ut2"
+  fileSize: 6996768
+  hash: "76b9c82c58983fd220f9d58983578ac87914d636"
+otherFiles: 2
+dependencies:
+  R3meshes.usx:
+  - status: "OK"
+    name: "R3tex"
+  DM-Aristocracy2004.ut2:
+  - status: "OK"
+    name: "R3tex"
+  - status: "OK"
+    name: "R3meshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-aristocracy2004.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dm-aristocracy2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2509"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/A/0/9/935413/dm-aristocracy2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/0/9/935413/dm-aristocracy2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Aristocracy"
+playerCount: "4-8"
+themes:
+  Industrial: 0.6
+  Ancient: 0.2
+  Natural: 0.2
+bots: true

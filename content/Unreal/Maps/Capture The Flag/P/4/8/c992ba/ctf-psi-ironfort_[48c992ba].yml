@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:32"
+game: "Unreal"
+name: "CTF-PSI-IronFort]["
+author: "Deathschy_Hell"
+description: "Take the fort!"
+releaseDate: "1998-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-PSI-IronFort][_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Capture%20The%20Flag/P/CTF-PSI-IronFort%5D%5B_shot_1.png"
+originalFilename: "ctf-psi-ironfort][.zip"
+hash: "48c992ba7fb8a02e84dd213c31d8895ffbb40c94"
+fileSize: 1464063
+files:
+- name: "jtex.utx"
+  fileSize: 764002
+  hash: "575dbd4873bb4e0de7b1610fa409364091f2eb2b"
+- name: "CTF-PSI-IronFort][.unr"
+  fileSize: 2002219
+  hash: "925cf6397a1648599e18deac4dd83a30df35f70e"
+- name: "Neve.umx"
+  fileSize: 704465
+  hash: "4f1fbaa2f96569f57e5d2a4d3b2e04bcc47b6303"
+otherFiles: 1
+dependencies:
+  CTF-PSI-IronFort][.unr:
+  - status: "MISSING"
+    name: "Psi"
+  - status: "OK"
+    name: "jtex"
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-psi-ironfort%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Capture%20The%20Flag/P/ctf-psi-ironfort%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1712"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Capture%20The%20Flag/P/4/8/c992ba/ctf-psi-ironfort%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Capture%20The%20Flag/P/4/8/c992ba/ctf-psi-ironfort%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Iron Fortress2"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.6
+bots: true

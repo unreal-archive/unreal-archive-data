@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:42"
+game: "Unreal Tournament"
+name: "CTF-Veitnam"
+author: "John \"The Body\" Garber"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Veitnam_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/CTF-Veitnam_shot_1.png"
+originalFilename: "ctf-veitnam.zip"
+hash: "9b4f122605ac74d09543e9e8f5ac36fb89a6c095"
+fileSize: 4812106
+files:
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "CTF-Veitnam.unr"
+  fileSize: 1939284
+  hash: "991006a71c78d7cb46d76411211c19a02e35d218"
+- name: "WWW.utx"
+  fileSize: 2951409
+  hash: "eca756f640e51fc25847d3ed69162c3e5c011863"
+- name: "Arizona.utx"
+  fileSize: 778058
+  hash: "b8ab68a2fafdfab5280f4fcb16e11686867b2796"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Wcollide.utx"
+  fileSize: 286108
+  hash: "05b1bb1729b943dae6f24f07c68c5e226a3ed237"
+- name: "MyLevel.utx"
+  fileSize: 67007
+  hash: "cc1ec28a472587485b73a3ce897a9ef008b67445"
+otherFiles: 2
+dependencies:
+  CTF-Veitnam.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Wcollide"
+  - status: "OK"
+    name: "Arizona"
+  - status: "OK"
+    name: "WWW"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/ctf-veitnam.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsV/&file=ctf-veitnam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-veitnam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsV/ctf-veitnam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/9/b/4f1226/ctf-veitnam.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/V/9/b/4f1226/ctf-veitnam.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Veitnam"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.2
+  Ancient: 0.1
+  Natural: 0.2
+  Skaarj Tech: 0.3
+bots: true

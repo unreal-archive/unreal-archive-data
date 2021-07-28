@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-04-06 20:07"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-BT-Resistance"
 author: "NuLL"
@@ -32,19 +31,20 @@ dependencies:
   CTF-BT-Resistance.unr:
   - status: "OK"
     name: "ProjectileSpawner"
-    providedBy: null
   - status: "OK"
     name: "flamp02"
-    providedBy: null
   - status: "OK"
     name: "FurryMover4"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/d/e/5fc3c6/CTF-BT-Resistance.zip"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-Resistance.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/d/e/5fc3c6/CTF-BT-Resistance.zip"
   main: false
   repack: false
   state: "OK"

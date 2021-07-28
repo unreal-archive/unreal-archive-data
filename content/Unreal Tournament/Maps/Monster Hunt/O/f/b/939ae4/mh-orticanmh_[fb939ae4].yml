@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 20:03"
+game: "Unreal Tournament"
+name: "MH-OrticanMH"
+author: "Sjoerd \"Hourences\" De Jong 1st maker"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-orticanmh_shot_fb939ae4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/O/f/b/939ae4/mh-orticanmh_shot_fb939ae4_1.png"
+originalFilename: "MH-OrticanMH.zip"
+hash: "fb939ae406077103c6ef2111ed9a71a558a8ade3"
+fileSize: 5548271
+files:
+- name: "Dynatrig.u"
+  fileSize: 5695
+  hash: "bd6bd89c0f6f2e99fb299e5dcba734590f2f5ed6"
+- name: "MH-OrticanMH.unr"
+  fileSize: 15507485
+  hash: "c61238c1430c0b5a3fdc148b7180228628a32a51"
+- name: "utend.umx"
+  fileSize: 1460582
+  hash: "f8f00031e8b30670de2d36c3df8fd68cc9574a71"
+otherFiles: 0
+dependencies:
+  MH-OrticanMH.unr:
+  - status: "MISSING"
+    name: "QueenSong"
+  - status: "OK"
+    name: "Dynatrig"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "utend"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/MH-OrticanMH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/O/MH-OrticanMH.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/O/f/b/939ae4/MH-OrticanMH.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/f/b/939ae4/MH-OrticanMH.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Ortican monster hunt!"
+playerCount: "1-15"
+themes:
+  Tech: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.5
+  Nali Castle: 0.1
+bots: true

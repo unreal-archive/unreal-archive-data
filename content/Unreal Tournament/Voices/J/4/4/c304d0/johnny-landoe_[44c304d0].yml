@@ -1,7 +1,6 @@
 --- !<VOICE>
 contentType: "VOICE"
 firstIndex: "2019-10-12 18:18"
-variationOf: null
 game: "Unreal Tournament"
 name: "Johnny Landoe"
 author: "Unknown"
@@ -26,13 +25,16 @@ dependencies:
   skvoice1.u:
   - status: "OK"
     name: "SkVoices"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Voices/J/4/4/c304d0/SKTaunts.exe"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Voices/J/4/4/c304d0/SKTaunts.exe"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Voices/J/4/4/c304d0/SKTaunts.exe"
   main: false
   repack: false
   state: "OK"

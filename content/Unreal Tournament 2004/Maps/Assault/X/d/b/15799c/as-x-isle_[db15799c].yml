@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-11-01 14:17"
+variationOf: "9b63d54f6ae4f1eedc3231e0737703ccccb23838"
+game: "Unreal Tournament 2004"
+name: "AS-X-Isle"
+author: "Unknown"
+description: "It's scenario a recreation of the battle for one of the seven secret\
+  \ islands, reequiped to secret researching labs. Attackers must destroy Locator,\
+  \ It will disable alarm system. But before that, attackers must destroy 2 transmission\
+  \ antens, which supports primary defending system. When Locator will be destoyed,\
+  \ attackers can use all resources, for quick assault"
+releaseDate: "2007-01"
+attachments:
+- type: "IMAGE"
+  name: "as-x-isle_shot_db15799c_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_shot_db15799c_3.png"
+- type: "IMAGE"
+  name: "as-x-isle_shot_db15799c_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_shot_db15799c_6.png"
+- type: "IMAGE"
+  name: "as-x-isle_shot_db15799c_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_shot_db15799c_5.png"
+- type: "IMAGE"
+  name: "as-x-isle_shot_db15799c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_shot_db15799c_2.png"
+- type: "IMAGE"
+  name: "as-x-isle_shot_db15799c_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_shot_db15799c_4.png"
+- type: "IMAGE"
+  name: "as-x-isle_shot_db15799c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle_shot_db15799c_1.png"
+originalFilename: "as-x-isle.7z"
+hash: "db15799c9879f5ba6b7561df219b2eadaa803b7b"
+fileSize: 10533036
+files:
+- name: "X-IsleWater.utx"
+  fileSize: 1491275
+  hash: "581a9a99f9e8c0c96b520a70d4c680f7265bdc77"
+- name: "X-IsleTex.utx"
+  fileSize: 14054365
+  hash: "2f3bbc3634b90e493618655caa06b5ad55d213b0"
+- name: "X-IsleMeshOutdoor.usx"
+  fileSize: 1970526
+  hash: "72e1be256f71184db020f9b13c31cb4748ef6ee0"
+- name: "AS-X-Isle.ut2"
+  fileSize: 16426761
+  hash: "281539e174745b12573f443b16baec1ffb7070f2"
+- name: "X-IsleSounds.uax"
+  fileSize: 3975781
+  hash: "39082705b6df6946afaddb3551857d90aa80f612"
+otherFiles: 6
+dependencies:
+  AS-X-Isle.ut2:
+  - status: "OK"
+    name: "X-IsleSounds"
+  - status: "OK"
+    name: "X-IsleTex"
+  - status: "OK"
+    name: "X-IsleMeshOutdoor"
+  - status: "OK"
+    name: "X-IsleWater"
+  X-IsleMeshOutdoor.usx:
+  - status: "OK"
+    name: "X-IsleTex"
+downloads:
+- url: "https://gamebanana.com/maps/download/36590"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/X/as-x-isle.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Assault/X/d/b/15799c/as-x-isle.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Assault/X/d/b/15799c/as-x-isle.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "X-Isle"
+playerCount: "10-32"
+themes:
+  Industrial: 0.7
+  Ancient: 0.2
+bots: true

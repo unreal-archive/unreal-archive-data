@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:53"
+game: "Unreal Tournament"
+name: "CTF-ArcticJets3a"
+author: "Zencoder <http://www.zencoder.com>"
+description: "Brrr its cold in here... there must be some jet fighters in the atmosphere!"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-ArcticJets3a_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-ArcticJets3a_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-ArcticJets3a_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-ArcticJets3a_shot_1.png"
+originalFilename: "ctf-arcticjets3.zip"
+hash: "01876e1d32d28643cfd8e1b6bae02d80cf31a039"
+fileSize: 3376911
+files:
+- name: "HEROES.umx"
+  fileSize: 488673
+  hash: "d72dcce8ca0e2d419b9ad8f00069873e80820fd6"
+- name: "chaossounds2.uax"
+  fileSize: 3183219
+  hash: "7582a5906c9e595b6c27a6acb2f4c5cae299c650"
+- name: "CTF-ArcticJets3a.unr"
+  fileSize: 2119475
+  hash: "5861bcd5e8f9ad59245ed3bb1f611ca034ec59b6"
+otherFiles: 2
+dependencies:
+  CTF-ArcticJets3a.unr:
+  - status: "OK"
+    name: "chaossounds2"
+  - status: "OK"
+    name: "HEROES"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-arcticjets3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-arcticjets3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-arcticjets3a.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=200"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/0/1/876e1d/ctf-arcticjets3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/0/1/876e1d/ctf-arcticjets3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "- Arctic Jets 3 -"
+playerCount: "12-16"
+themes:
+  Tech: 0.4
+  City: 0.4
+  Natural: 0.2
+bots: true

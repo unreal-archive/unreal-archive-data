@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 02:29"
+variationOf: "d4298facfb90bc544cf386bd0e1fdd908ab614f0"
+game: "Unreal Tournament"
+name: "MA-Source"
+author: "Su \"|\\|E|_|TR0|\\|\" Wang"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "ma-source_shot_cadec7a5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Arena/S/c/a/dec7a5/ma-source_shot_cadec7a5_1.png"
+originalFilename: "ma-source.zip"
+hash: "cadec7a53e9c7a1229c8d490b43d218e5fdd91e8"
+fileSize: 806470
+files:
+- name: "MA-Source.unr"
+  fileSize: 878417
+  hash: "8d0375a61064a38ff6db18c1144259983eb71861"
+- name: "Gomorra.umx"
+  fileSize: 303975
+  hash: "f4a41d389b2a1a1d68af5d574fd68afb89d4dfed"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MA-Source.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Gomorra"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterArena/&file=ma-source.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Arena/S/ma-source.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterArena&file=ma-source.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Arena/S/c/a/dec7a5/ma-source.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Arena/S/c/a/dec7a5/ma-source.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Arena"
+title: "The Source"
+playerCount: "Up to 8"
+themes:
+  Skaarj Tech: 1.0
+bots: true

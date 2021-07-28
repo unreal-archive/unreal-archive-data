@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:40"
+game: "Unreal Tournament"
+name: "Dm-GrandCanyonFinal"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "dm-grandcanyon.zip"
+hash: "0821be33aa021d8dba5c2e3a078c01cf89cb5a35"
+fileSize: 5768568
+files:
+- name: "Jbterrain.u"
+  fileSize: 91022
+  hash: "ffe67c6a67ceda9e51e253a6aeb3d0477b623ebd"
+- name: "reallife1.utx"
+  fileSize: 312574
+  hash: "27fd86a7c4bb91f41d9556aa218a07c9462d7855"
+- name: "Dm-GrandCanyonFinal.unr"
+  fileSize: 1209159
+  hash: "3162a0f19005bb6412105b95af24241bb7b29fc2"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "DmGrandCanyon.utx"
+  fileSize: 6217689
+  hash: "7f9355cc902a68d9614a2ab42863cb9c08bdfe7a"
+otherFiles: 0
+dependencies:
+  Dm-GrandCanyonFinal.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "reallife1"
+  - status: "OK"
+    name: "DmGrandCanyon"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  - status: "OK"
+    name: "Jbterrain"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsG/&file=dm-grandcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-grandcanyon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-grandcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-grandcanyonfinal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsG/dm-grandcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/0/8/21be33/dm-grandcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/0/8/21be33/dm-grandcanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dm-GrandCanyonFinal"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

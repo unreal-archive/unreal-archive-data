@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 19:17"
+game: "Unreal Tournament 2004"
+name: "SFTDM-Operation-GoldSnake"
+author: "Michael -Kodiak- Joy"
+description: "An unknown terrorists cell has infiltrated this expensive hotel outside\
+  \ of Chicago.  They are attempting to assassinate several government VIPs within\
+  \ the facility.  The elevators have been shut down so the Strike Force will be able\
+  \ to defeat the terrorists before they have a chance to harm anyone in the building."
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "SFTDM-Operation-GoldSnake_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Single%20Player/S/SFTDM-Operation-GoldSnake_shot_3.png"
+- type: "IMAGE"
+  name: "SFTDM-Operation-GoldSnake_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Single%20Player/S/SFTDM-Operation-GoldSnake_shot_1.png"
+- type: "IMAGE"
+  name: "SFTDM-Operation-GoldSnake_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Single%20Player/S/SFTDM-Operation-GoldSnake_shot_2.png"
+originalFilename: "sfcontest-goldsnake.zip"
+hash: "4681d82e4704cb85b3bc5ea43c0e19fee8d9b6f9"
+fileSize: 4051537
+files:
+- name: "SFTDM-Operation-GoldSnake.ut2"
+  fileSize: 11926547
+  hash: "7bd10ef4dfa2a2de202397115ffae626084104b1"
+- name: "KodiakHotelTex.utx"
+  fileSize: 2198544
+  hash: "68a0c4f53b483d29ff12d38eb23b45a73d817985"
+- name: "KodiakHotelSM.usx"
+  fileSize: 273076
+  hash: "7e7d7119b48295471a2fc40bc65d75d6507e765c"
+otherFiles: 3
+dependencies:
+  KodiakHotelSM.usx:
+  - status: "OK"
+    name: "KodiakHotelTex"
+  - status: "MISSING"
+    name: "ZiGDevMeshSkins"
+  - status: "MISSING"
+    name: "SF_FishBulbTexs"
+  - status: "MISSING"
+    name: "ZiGTextures1"
+  SFTDM-Operation-GoldSnake.ut2:
+  - status: "OK"
+    name: "KodiakHotelTex"
+  - status: "MISSING"
+    name: "SF_FishBulbMeshes"
+  - status: "MISSING"
+    name: "ZiGFoliageSm"
+  - status: "MISSING"
+    name: "ZiGStMeshes"
+  - status: "OK"
+    name: "KodiakHotelSM"
+  - status: "MISSING"
+    name: "ZiGCountrySideSm"
+  - status: "MISSING"
+    name: "ZiGTextures1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Single%20Player/S/sfcontest-goldsnake.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Strike%20Force/T/4/6/81d82e/sfcontest-goldsnake.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Strike%20Force/T/4/6/81d82e/sfcontest-goldsnake.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Strike Force"
+title: "Operation GoldSnake"
+playerCount: "14"
+themes: {}
+bots: true

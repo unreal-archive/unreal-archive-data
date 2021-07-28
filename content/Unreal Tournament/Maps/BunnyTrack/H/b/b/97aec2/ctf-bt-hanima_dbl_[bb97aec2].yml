@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:03"
+game: "Unreal Tournament"
+name: "CTF-BT-Hanima_dbl"
+author: "Anonymous"
+description: "None"
+releaseDate: "2008-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Hanima_dbl_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/H/CTF-BT-Hanima_dbl_shot_1.png"
+originalFilename: "CTF-BT-Hanima_dbl.zip"
+hash: "bb97aec20645bb4b2c77dca3b7a2db3f21d8d2fe"
+fileSize: 11175607
+files:
+- name: "CoreTexDetail.utx"
+  fileSize: 17922
+  hash: "3c77108f4818d903abe2cde499339693333aadd8"
+- name: "Badmeat.utx"
+  fileSize: 2570232
+  hash: "21a7d6c268cf946b213712060194b0fde46e7011"
+- name: "CoreTexMetal.utx"
+  fileSize: 5586282
+  hash: "81756980d649500cc7c5c5b532ec071e1ae7ea37"
+- name: "CTF-BT-Hanima_dbl.unr"
+  fileSize: 937534
+  hash: "7e44a67ec2573f769f95b2db58de1a673c501826"
+- name: "Ultimum.utx"
+  fileSize: 542916
+  hash: "a9425cdb8e2403a40be7a6097db2454e563f7fff"
+- name: "1capleton1.umx"
+  fileSize: 5435751
+  hash: "7abf38c6692ba1cf75bbbe061958b5122e25dde3"
+- name: "CoreTexCeramic.utx"
+  fileSize: 149500
+  hash: "3524e050cf847ae9a02131bb7eaa38b16aa5d49c"
+otherFiles: 0
+dependencies:
+  CTF-BT-Hanima_dbl.unr:
+  - status: "OK"
+    name: "Badmeat"
+  - status: "OK"
+    name: "Ultimum"
+  - status: "OK"
+    name: "CoreTexCeramic"
+  - status: "OK"
+    name: "CoreTexMetal"
+  - status: "OK"
+    name: "1capleton1"
+  CoreTexMetal.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  CoreTexCeramic.utx:
+  - status: "PARTIAL"
+    name: "CoreTexDetail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-Hanima_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/H/CTF-BT-Hanima_dbl.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Hanima_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Hanima_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/H/b/b/97aec2/CTF-BT-Hanima_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/H/b/b/97aec2/CTF-BT-Hanima_dbl.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-Hanima (dbl)"
+playerCount: "Unknown"
+themes: {}
+bots: false

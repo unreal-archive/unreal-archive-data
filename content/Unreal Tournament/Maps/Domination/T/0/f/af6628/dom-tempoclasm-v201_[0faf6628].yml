@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 23:24"
+game: "Unreal Tournament"
+name: "DOM-TempoClasm-v201"
+author: "Mike \"Hellscrag\" Wilberforce"
+description: "None"
+releaseDate: "2010-02"
+attachments:
+- type: "IMAGE"
+  name: "DOM-TempoClasm-v201_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/T/DOM-TempoClasm-v201_shot_1.png"
+originalFilename: "DOM-TempoClasm-v201.rar"
+hash: "0faf662846b647e20ae5cf1ef3de5113b55e0a2b"
+fileSize: 12851490
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "TempoclasmMusic.uax"
+  fileSize: 20294041
+  hash: "37129494683d7a0f7707546ded4428eb69938a9d"
+- name: "TempoClasmTex.utx"
+  fileSize: 1152570
+  hash: "be2261cbeec9a353bef3f33575691fa2a2258799"
+- name: "TempoClasmCode.u"
+  fileSize: 31599
+  hash: "78630bec11f696b3d16f5535e5168e8c423f0074"
+- name: "DOM-TempoClasm-v201.unr"
+  fileSize: 16343919
+  hash: "f2c043a5f3271590295578b4fa66c2bc084f6874"
+- name: "Blank.umx"
+  fileSize: 481
+  hash: "45ee888578fcfba57eeed5147d916e7da8ab9567"
+otherFiles: 1
+dependencies:
+  DOM-TempoClasm-v201.unr:
+  - status: "OK"
+    name: "TempoClasmCode"
+  - status: "OK"
+    name: "Blank"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "TempoclasmMusic"
+  - status: "OK"
+    name: "TempoClasmTex"
+  TempoClasmCode.u:
+  - status: "OK"
+    name: "TempoClasmTex"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Domination/&file=DOM-TempoClasm-v201.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/T/DOM-TempoClasm-v201.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Domination&file=DOM-TempoClasm-v201.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Domination/T/0/f/af6628/DOM-TempoClasm-v201.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/T/0/f/af6628/DOM-TempoClasm-v201.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "The TempoClasm v2.01"
+playerCount: "8-24"
+themes:
+  Nali Temple: 0.4
+  Industrial: 0.2
+  Ancient: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.2
+bots: true

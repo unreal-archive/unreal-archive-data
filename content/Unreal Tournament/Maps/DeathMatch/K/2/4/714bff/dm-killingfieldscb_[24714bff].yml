@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:08"
+game: "Unreal Tournament"
+name: "DM-KillingFieldsCB"
+author: "David Brown · edit by EvilGrins"
+description: "None"
+releaseDate: "2016-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-KillingFieldsCB_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/DM-KillingFieldsCB_shot_1.png"
+originalFilename: "DM-KillingFieldsCB.zip"
+hash: "24714bffb583a66611a02a8169d121d7394c0630"
+fileSize: 2237613
+files:
+- name: "LaughPack.u"
+  fileSize: 754249
+  hash: "81bd5b11bb6f28fa5ec22629c8b0be94db696aad"
+- name: "DM-KillingFieldsCB.unr"
+  fileSize: 1284670
+  hash: "b14f022a3888e87a19987daf490548ef71782930"
+- name: "ScarredHorizon.umx"
+  fileSize: 361933
+  hash: "02f5afbe111e92deffc314025914a5f16d4efc7a"
+- name: "CyberusUT.u"
+  fileSize: 1397524
+  hash: "020f85e5690a3beb14c294d16c804c51691a6333"
+otherFiles: 0
+dependencies:
+  DM-KillingFieldsCB.unr:
+  - status: "OK"
+    name: "LaughPack"
+  - status: "OK"
+    name: "CyberusUT"
+  - status: "OK"
+    name: "ScarredHorizon"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-KillingFieldsCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/DM-KillingFieldsCB.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/2/4/714bff/DM-KillingFieldsCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/2/4/714bff/DM-KillingFieldsCB.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Cyberus' Sniper Killing Fields"
+playerCount: "1-10"
+themes:
+  Natural: 0.3
+  Skaarj Tech: 0.7
+bots: true

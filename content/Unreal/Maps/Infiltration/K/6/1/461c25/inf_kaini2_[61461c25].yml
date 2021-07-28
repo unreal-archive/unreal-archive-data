@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "INF_Kaini2"
+author: "LifesBane(4Corners) and Robes"
+description: "Welcome to Kaini Industries"
+releaseDate: "1999-12"
+attachments: []
+originalFilename: "INF_Kaini2.zip"
+hash: "61461c2585c7d3b771d1b40705e6a1421b20f656"
+fileSize: 1570145
+files:
+- name: "INF_Kaini2.unr"
+  fileSize: 1487362
+  hash: "60a85e918bd3d5a76af7753c5dee0b3035d73c79"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "Urban.utx"
+  fileSize: 679765
+  hash: "b2f3f7ddc4f12b20b0c06041404aff71dafdfbcf"
+- name: "TimedMine.u"
+  fileSize: 2808
+  hash: "182a9a3879a760121a25c8a9560f8d3d932ea4ee"
+otherFiles: 1
+dependencies:
+  TimedMine.u:
+  - status: "MISSING"
+    name: "Infiltration"
+  INF_Kaini2.unr:
+  - status: "OK"
+    name: "Vierheilig"
+  - status: "OK"
+    name: "Urban"
+  - status: "MISSING"
+    name: "Infiltration"
+  - status: "OK"
+    name: "TimedMine"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_Kaini2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/K/INF_Kaini2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_Kaini2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/K/6/1/461c25/INF_Kaini2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/K/6/1/461c25/INF_Kaini2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Kaini Industries"
+playerCount: "Teams of 4"
+themes:
+  Industrial: 0.9
+  City: 0.1
+  Nali Castle: 0.1
+bots: true

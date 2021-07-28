@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:44"
+game: "Unreal Tournament"
+name: "DM-THPS2{Warehouse}"
+author: "Lord Simeon"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-THPS2{Warehouse}_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/DM-THPS2%7BWarehouse%7D_shot_1.png"
+originalFilename: "dm-thps2.zip"
+hash: "0c70c9e7b48ebf32f1f504d828cc67c8232c0edb"
+fileSize: 933667
+files:
+- name: "Hawk2.utx"
+  fileSize: 1052708
+  hash: "24eff0c62712e9d1e717257f61c738044c677945"
+- name: "DM-THPS2{Warehouse}.unr"
+  fileSize: 1809077
+  hash: "43902a1db55f3c15d0567513399a824780f4a87d"
+otherFiles: 1
+dependencies:
+  DM-THPS2{Warehouse}.unr:
+  - status: "OK"
+    name: "Hawk2"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "CargoShip"
+  - status: "MISSING"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/dm-thps2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dm-thps2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-thps2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsT/dm-thps2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/0/c/70c9e7/dm-thps2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/0/c/70c9e7/dm-thps2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "THPS2"
+playerCount: "5"
+themes:
+  Industrial: 0.4
+  City: 0.6
+bots: true

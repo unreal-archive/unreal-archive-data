@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:08"
+game: "Unreal Tournament"
+name: "DM-BCE_CharlotteB1"
+author: "Team Chraysend"
+description: "Don't lose your head."
+releaseDate: "2010-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-BCE_CharlotteB1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BCE_CharlotteB1_shot_1.png"
+originalFilename: "DM-BCE_Charlotte.zip"
+hash: "f03184801629e4f3837893d329c457369b895f11"
+fileSize: 3370549
+files:
+- name: "candyland.utx"
+  fileSize: 784164
+  hash: "c2e351f4ffdf05f2837ef975e25fbe4574433612"
+- name: "DM-BCE_CharlotteB1.unr"
+  fileSize: 2636027
+  hash: "ffff2d4ebb564d44a4ce7749f4607c4230dbeb28"
+- name: "DessertWitch.umx"
+  fileSize: 2117465
+  hash: "7a7c6ec6896013626ad31278c19e10d034a86c1a"
+otherFiles: 0
+dependencies:
+  DM-BCE_CharlotteB1.unr:
+  - status: "OK"
+    name: "candyland"
+  - status: "OK"
+    name: "DessertWitch"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-BCE_Charlotte.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-BCE_Charlotte.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/f/0/318480/DM-BCE_Charlotte.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/f/0/318480/DM-BCE_Charlotte.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Realm of the dessert witch"
+playerCount: "4-6"
+themes:
+  Nali Castle: 0.5
+  Indistrial: 0.5
+bots: true

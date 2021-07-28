@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 20:22"
+game: "Unreal Tournament 2004"
+name: "DM-LostHope"
+author: "Jonas Funk"
+description: "That's how lost hopes look like. When the roof of the central storage\
+  \ broke, the owner of the old factory had to sell it after 50 years of production.\
+  \  The Liandri Corporation bought the warehouse of the factory and while the chimney\
+  \ is still smoking, there are already fights in the warehouse..."
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-LostHope_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LostHope_shot_1.png"
+- type: "IMAGE"
+  name: "DM-LostHope_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/L/DM-LostHope_shot_2.png"
+originalFilename: "dm-losthope.zip"
+hash: "221fb525c514e9a0eba78d9acf59bfaa46b774d9"
+fileSize: 13960740
+files:
+- name: "Tensile.utx"
+  fileSize: 17241345
+  hash: "8627e123d91913a1e56facdc40dbca9010677ca1"
+- name: "DM-LostHope.ut2"
+  fileSize: 12078025
+  hash: "59a48e97aa385b59c37e98bf0d1d39a2d6c23b99"
+- name: "Tensile_Steel.usx"
+  fileSize: 580625
+  hash: "5e2f6c6f5830b0450b66797ce6c43dbd3e43b176"
+otherFiles: 2
+dependencies:
+  DM-LostHope.ut2:
+  - status: "OK"
+    name: "Tensile_Steel"
+  - status: "OK"
+    name: "Tensile"
+  Tensile_Steel.usx:
+  - status: "OK"
+    name: "Tensile"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3684"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/L/dm-losthope.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/L/2/2/1fb525/dm-losthope.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/L/2/2/1fb525/dm-losthope.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The old warehouse"
+playerCount: "2-4"
+themes:
+  Industrial: 0.3
+  Natural: 0.7
+bots: true

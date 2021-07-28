@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:06"
+game: "Unreal Tournament"
+name: "CTF-BasementLounge"
+author: "NumbNutz"
+description: "None"
+releaseDate: "2003-07"
+attachments: []
+originalFilename: "ctf-basementlounge.zip"
+hash: "15cde822f80c168c15b612fd0d7451294c853530"
+fileSize: 3858272
+files:
+- name: "thc.utx"
+  fileSize: 445397
+  hash: "c758eb8c0f202c86792ef6c8d4032ecbe6424700"
+- name: "nptonnberrymario.umx"
+  fileSize: 3744383
+  hash: "e0cb614e7ec58f52fedeab2932f1c1171ade4d78"
+- name: "CTF-BasementLounge.unr"
+  fileSize: 1895728
+  hash: "0c1657c17b82504b93b26e0ec5edef6c1ea5a6d9"
+- name: "NPMario.utx"
+  fileSize: 346158
+  hash: "b7de4243e9aa7c9f35065651b3e98242a3eb1b5d"
+otherFiles: 0
+dependencies:
+  CTF-BasementLounge.unr:
+  - status: "OK"
+    name: "nptonnberrymario"
+  - status: "OK"
+    name: "thc"
+  - status: "OK"
+    name: "NPMario"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-basementlounge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-basementlounge.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/1/5/cde822/ctf-basementlounge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/1/5/cde822/ctf-basementlounge.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-BasementLounge"
+playerCount: "5-10"
+themes:
+  Skaarj Crypt: 0.7
+  Skaarj Tech: 0.3
+bots: true

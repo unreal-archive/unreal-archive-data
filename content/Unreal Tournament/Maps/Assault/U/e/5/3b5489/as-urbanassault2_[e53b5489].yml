@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 05:20"
+game: "Unreal Tournament"
+name: "AS-UrbanAssault2"
+author: "T. LeTigre Ahlen"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "AS-UrbanAssault2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/AS-UrbanAssault2_shot_1.png"
+originalFilename: "as-urbanassault2.zip"
+hash: "e53b5489e552091dcadfc0453eed0ba0bcc62690"
+fileSize: 4587049
+files:
+- name: "TAcars.utx"
+  fileSize: 342431
+  hash: "3bdec3ff89138c65dac45ec38f4b74f78d43dca9"
+- name: "TAsky.utx"
+  fileSize: 177649
+  hash: "c9e33ea78e5993e3f9f79b38675706bb04590a08"
+- name: "AS-UrbanAssault2.unr"
+  fileSize: 6156248
+  hash: "adf0eb37efc39b09b15ba86371b4defa26c02b3c"
+- name: "TAconeytex.utx"
+  fileSize: 2762604
+  hash: "1a545c2bd7001e4ebcddff6f488f9298d15e702e"
+- name: "TAconeysigns.utx"
+  fileSize: 451072
+  hash: "6532169fd42c621a1f0708a583361d7cbe691c1c"
+otherFiles: 1
+dependencies:
+  AS-UrbanAssault2.unr:
+  - status: "OK"
+    name: "TAconeytex"
+  - status: "OK"
+    name: "TAconeysigns"
+  - status: "OK"
+    name: "TAsky"
+  - status: "OK"
+    name: "TAcars"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/as-urbanassault2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/U/e/5/3b5489/as-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/U/e/5/3b5489/as-urbanassault2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "UrbanAssault 2"
+playerCount: "4-8"
+themes:
+  Tech: 0.1
+  Ancient: 0.3
+  City: 0.3
+  Skaarj Tech: 0.4
+bots: true

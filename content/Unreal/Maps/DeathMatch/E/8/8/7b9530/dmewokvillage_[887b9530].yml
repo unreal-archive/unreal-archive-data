@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:40"
+game: "Unreal"
+name: "DMEwokVillage"
+author: "TheOne *Remixed by RUSH*"
+description: "None"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "DMEwokVillage.zip"
+hash: "887b9530a860ac0d73fdff2000509fdfb64b4c8a"
+fileSize: 1799876
+files:
+- name: "EwokTex.utx"
+  fileSize: 667299
+  hash: "113abdaf7823cac396ad68f1b050b38ca0027c5d"
+- name: "DMEwokVillage.unr"
+  fileSize: 4225450
+  hash: "59ebc6436bf5195d4d10812c7cfdb2294b70f972"
+- name: "EwokSounds.uax"
+  fileSize: 175764
+  hash: "6e91faf313e4a7ce6180439faeb2a439de13d578"
+otherFiles: 0
+dependencies:
+  DMEwokVillage.unr:
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "EwokTex"
+  - status: "MISSING"
+    name: "Predator"
+  - status: "OK"
+    name: "EwokSounds"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Assault/&file=DMEwokVillage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/E/DMEwokVillage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Assault/DMEwokVillage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/E/8/8/7b9530/DMEwokVillage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/E/8/8/7b9530/DMEwokVillage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ewok Village"
+playerCount: "8-16"
+themes:
+  Natural: 1.0
+bots: true

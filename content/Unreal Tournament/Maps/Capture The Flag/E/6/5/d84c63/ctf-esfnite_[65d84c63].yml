@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:10"
+variationOf: "ddbc98fd241fca7e43768fb117af5422faf1b25c"
+game: "Unreal Tournament"
+name: "CTF-ESFNite"
+author: "{ESF}Dragon"
+description: "Sleep Tight"
+releaseDate: "2002-01"
+attachments: []
+originalFilename: "ctf-{esf}nite.zip"
+hash: "65d84c63d47122a325c0f8e4155cf13379111d8f"
+fileSize: 553710
+files:
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "CTF-ESFNite.unr"
+  fileSize: 597350
+  hash: "4135b6135a56bd1775bb3b21433865fc8b0044ba"
+otherFiles: 0
+dependencies:
+  CTF-ESFNite.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "MISSING"
+    name: "Citytex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Besf%7Dnite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/ctf-%7Besf%7Dnite.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/6/5/d84c63/ctf-%257Besf%257Dnite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/6/5/d84c63/ctf-%257Besf%257Dnite.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "ESF Nightmare"
+playerCount: "12-16"
+themes:
+  Tech: 0.3
+  Industrial: 0.1
+  Ancient: 0.1
+  Natural: 0.5
+bots: false

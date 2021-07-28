@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:50"
+game: "Unreal Tournament"
+name: "MH-[SP]HellFire"
+author: "---{Derdak2rot}---"
+description: "None"
+releaseDate: "2008-08"
+attachments:
+- type: "IMAGE"
+  name: "MH-[SP]HellFire_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DHellFire_shot_1.png"
+originalFilename: "MH-[SP]HellFire.zip"
+hash: "4c383d185fd34cb1540d5daa552a433b8cb70435"
+fileSize: 14710162
+files:
+- name: "KR-Chemical-Burn.umx"
+  fileSize: 4333611
+  hash: "e64de0e1b0a0c92759d43147d62c01b2652b5b88"
+- name: "MH-[SP]HellFire.unr"
+  fileSize: 19732107
+  hash: "4a6ba8aec9e7f9a7db793625ff24236946539890"
+- name: "PainKiller-Military.umx"
+  fileSize: 2482445
+  hash: "1c0ba61fac71a3457360690864dab19e19b6ef4a"
+otherFiles: 0
+dependencies:
+  MH-[SP]HellFire.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_MHpack"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "PainKiller-Military"
+  - status: "OK"
+    name: "KR-Chemical-Burn"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-%5BSP%5DHellFire.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DHellFire.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]HellFire.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/4/c/383d18/MH-%255BSP%255DHellFire.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/4/c/383d18/MH-%255BSP%255DHellFire.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] HellFire"
+playerCount: "6-10"
+themes:
+  Ancient: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.8
+bots: true

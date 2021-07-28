@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:48"
+game: "Unreal"
+name: "DM-Stir-Crazy"
+author: "Minky"
+description: "Welcome to the Pen, You want out, you fight your way out!"
+releaseDate: "2006-06"
+attachments: []
+originalFilename: "DMStir-Crazy.zip"
+hash: "69656153449629dd58d572529486478ba453bc07"
+fileSize: 1925909
+files:
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "DM-Stir-Crazy.unr"
+  fileSize: 6278211
+  hash: "1feb1f6255cb528f401e499e9804ec5a20e62816"
+- name: "Minky4.utx"
+  fileSize: 51994
+  hash: "5132d659649f831f86930a3c2850be543db70f75"
+- name: "hshot.umx"
+  fileSize: 1710375
+  hash: "088af51de7253cd79e8ad8a164ca94a905ff954c"
+otherFiles: 1
+dependencies:
+  DM-Stir-Crazy.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "hshot"
+  - status: "OK"
+    name: "Minky4"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMStir-Crazy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/6/9/656153/DMStir-Crazy.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/6/9/656153/DMStir-Crazy.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/6/9/656153/DMStir-Crazy.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Stir-Crazy"
+playerCount: "6 to 10"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.7
+  Nali Castle: 0.2
+bots: true

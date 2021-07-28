@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:50"
+game: "Unreal Tournament"
+name: "CTF-SkatePark[BSC]"
+author: "[BSC]Suxy/FoZzel"
+description: "None"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-SkatePark[BSC]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-SkatePark%5BBSC%5D_shot_1.png"
+originalFilename: "ctf-skatepark[bsc].zip"
+hash: "7d297fe1f6b0ca4623d9c177976089273387b258"
+fileSize: 11010937
+files:
+- name: "Cinema.utx"
+  fileSize: 8174367
+  hash: "4cd0c03122d24e33f5ac0c126fdc4adf399673b7"
+- name: "dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+- name: "CTF-SkatePark[BSC].unr"
+  fileSize: 422909
+  hash: "032cd502112ece52f26bba259dfca5ae7a79cb50"
+- name: "Darkcity.utx"
+  fileSize: 7375173
+  hash: "acbae84274af1b2ae8782de8045985d9d5338401"
+- name: "175City9.utx"
+  fileSize: 263121
+  hash: "922049694e0839db49e228f6bfe8e201c4834c5e"
+otherFiles: 0
+dependencies:
+  CTF-SkatePark[BSC].unr:
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "Darkcity"
+  - status: "OK"
+    name: "175City9"
+  - status: "OK"
+    name: "Cinema"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-skatepark%5Bbsc%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-skatepark%5Bbsc%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/7/d/297fe1/ctf-skatepark%255Bbsc%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/7/d/297fe1/ctf-skatepark%255Bbsc%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-SkatePark"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 0.3
+  Industrial: 0.7
+bots: false

@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:21"
+game: "Unreal Tournament"
+name: "DM-Calamity"
+author: "Boon-qiv-"
+description: "None"
+releaseDate: "2011-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-Calamity_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Calamity_shot_4.png"
+- type: "IMAGE"
+  name: "DM-Calamity_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Calamity_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Calamity_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Calamity_shot_1.png"
+- type: "IMAGE"
+  name: "DM-Calamity_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Calamity_shot_3.png"
+originalFilename: "DM-Calamity.zip"
+hash: "08395e8444972624a8c3ef63ad491f046c33fd63"
+fileSize: 1502129
+files:
+- name: "ZAN_MET.umx"
+  fileSize: 1357144
+  hash: "5b36f26014eb39e4a32fbd2b719dece01d8355d1"
+- name: "Editor_neko.u"
+  fileSize: 264280
+  hash: "46e7e62bfb2969c73bdbb2e2d3f40d026a7f7164"
+- name: "DM-Calamity.unr"
+  fileSize: 494871
+  hash: "c3330fe3baf9c28f2a5294e27a7ec1ec75dca558"
+otherFiles: 3
+dependencies:
+  DM-Calamity.unr:
+  - status: "OK"
+    name: "Editor_neko"
+  - status: "OK"
+    name: "ZAN_MET"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7996"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-Calamity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/0/8/395e84/DM-Calamity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/0/8/395e84/DM-Calamity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Calamity"
+playerCount: "2-4"
+themes:
+  Industrial: 0.7
+  Nali Castle: 0.3
+bots: true

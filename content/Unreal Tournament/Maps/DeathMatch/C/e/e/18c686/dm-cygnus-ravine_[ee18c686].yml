@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:32"
+game: "Unreal Tournament"
+name: "DM-Cygnus Ravine"
+author: "Colin 'Carnage' Murphy"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-Cygnus_Ravine_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-Cygnus_Ravine_shot_1.png"
+originalFilename: "DM-CygnusRavine.zip"
+hash: "ee18c686a3901a231fc0e42570c5318f0bb00c9b"
+fileSize: 3030543
+files:
+- name: "EventHorizons.umx"
+  fileSize: 1739634
+  hash: "610fba8d4da057d9696ac5189cfc2b95e64e13fa"
+- name: "DM-Cygnus Ravine.unr"
+  fileSize: 5170167
+  hash: "70146055f093e2b2b70c12ee41edc945d13b67a2"
+otherFiles: 1
+dependencies:
+  DM-Cygnus Ravine.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "EventHorizons"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CygnusRavine.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CygnusRavine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/e/e/18c686/DM-CygnusRavine.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/e/e/18c686/DM-CygnusRavine.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Cygnus Ravine"
+playerCount: "8-16"
+themes:
+  Tech: 0.7
+  Industrial: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true

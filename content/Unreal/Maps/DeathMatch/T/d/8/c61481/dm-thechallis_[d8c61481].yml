@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:32"
+game: "Unreal"
+name: "DM-TheChallis"
+author: "Bruce Wiechmann   aka  slider"
+description: "None"
+releaseDate: "2005-08"
+attachments: []
+originalFilename: "DM-TheChallis.zip"
+hash: "d8c61481d427e4102b20c1e230e4ca13a785262b"
+fileSize: 4277773
+files:
+- name: "Seeker.umx"
+  fileSize: 1539259
+  hash: "51f202d674c169a4f9a55043bd556a2f14ae8cf3"
+- name: "Formulas1.utx"
+  fileSize: 3280954
+  hash: "5f65c0dba4202a6fe201d3ea4d440e9616b52401"
+- name: "DM-TheChallis.unr"
+  fileSize: 1139928
+  hash: "44a9884718f4eee8a441b1308d6184da13041fd4"
+otherFiles: 1
+dependencies:
+  DM-TheChallis.unr:
+  - status: "OK"
+    name: "Seeker"
+  - status: "OK"
+    name: "Formulas1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-TheChallis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/DM-TheChallis.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DM-TheChallis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/d/8/c61481/DM-TheChallis.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/d/8/c61481/DM-TheChallis.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Challis"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.4
+  Skaarj Tech: 0.6
+bots: false

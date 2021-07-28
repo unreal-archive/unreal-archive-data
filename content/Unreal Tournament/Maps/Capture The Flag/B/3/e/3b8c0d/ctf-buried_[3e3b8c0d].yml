@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:12"
+game: "Unreal Tournament"
+name: "CTF-Buried"
+author: "DeluxeOrgasm"
+description: "None"
+releaseDate: "2017-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Buried_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Buried_shot_1.png"
+originalFilename: "CTF-Buried.zip"
+hash: "3e3b8c0d4eea64d92ff42f5087498ad7d2f57d13"
+fileSize: 4496834
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+- name: "CTF-Buried.unr"
+  fileSize: 879082
+  hash: "2f51f02ba7911ef9b50f6aed9518e63348a5eab3"
+otherFiles: 0
+dependencies:
+  CTF-Buried.unr:
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Buried.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Buried.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/3/e/3b8c0d/CTF-Buried.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/3/e/3b8c0d/CTF-Buried.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Buried at Fort Deluxe"
+playerCount: "8-10"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Natural: 0.6
+bots: true

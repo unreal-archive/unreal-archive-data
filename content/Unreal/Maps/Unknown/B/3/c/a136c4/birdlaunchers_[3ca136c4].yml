@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-02-03 19:51"
-variationOf: null
 game: "Unreal"
 name: "BirdLaunchers"
 author: "MinorWolf"
@@ -23,13 +22,16 @@ dependencies:
   BirdLaunchers.unr:
   - status: "OK"
     name: "BirdL"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/B/bird.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/B/3/c/a136c4/bird.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/B/3/c/a136c4/bird.zip"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:50"
+game: "Unreal Tournament"
+name: "DM-ZeitkindPro(UT)"
+author: "Juergen Vierheilig"
+description: "Welcome to DM-Zeitkind. Have a nice dead!"
+releaseDate: "1999-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-ZeitkindPro(UT)_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/Z/DM-ZeitkindPro(UT)_shot_1.png"
+originalFilename: "dm-zeitkind-pro-addon.zip"
+hash: "ceee31a0dab92d7d6818385febf08437d231791c"
+fileSize: 1836501
+files:
+- name: "dinosound111199.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "DM-ZeitkindPro(UT).unr"
+  fileSize: 3827748
+  hash: "382c9263d92a632620708be004a1b0e8e06e7aaf"
+otherFiles: 1
+dependencies:
+  DM-ZeitkindPro(UT).unr:
+  - status: "MISSING"
+    name: "BronxTex2"
+  - status: "MISSING"
+    name: "haeuser"
+  - status: "MISSING"
+    name: "BronxTex1"
+  - status: "MISSING"
+    name: "BronxSound"
+  - status: "MISSING"
+    name: "BronxSignes"
+  - status: "MISSING"
+    name: "zeitkind"
+  - status: "MISSING"
+    name: "Vierheilig"
+  - status: "MISSING"
+    name: "terror1"
+  - status: "OK"
+    name: "dinosound111199"
+  - status: "MISSING"
+    name: "BronxSignes2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/Z/dm-zeitkind-pro-addon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsZ/&file=dm-zeitkind-pro-addon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-zeitkind-pro-addon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsZ/dm-zeitkind-pro-addon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/Z/c/e/ee31a0/dm-zeitkind-pro-addon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/Z/c/e/ee31a0/dm-zeitkind-pro-addon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Zeitkind"
+playerCount: "8 - 16 Players"
+themes:
+  Industrial: 1.0
+bots: true

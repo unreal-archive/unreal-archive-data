@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 20:24"
+game: "Unreal Tournament 2004"
+name: "DM-{MaC}-Moao-Island"
+author: "{MaC}4nik3r"
+description: "Mapname was given by my cat | http://www.mac-clan.info"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-{MaC}-Moao-Island_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%7BMaC%7D-Moao-Island_shot_1.png"
+- type: "IMAGE"
+  name: "DM-{MaC}-Moao-Island_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/M/DM-%7BMaC%7D-Moao-Island_shot_2.png"
+originalFilename: "dm-mac-moao-island.zip"
+hash: "297172ddaa0ad90139d67365b28646100631f4bd"
+fileSize: 6885717
+files:
+- name: "DM-{MaC}-Moao-Island.ut2"
+  fileSize: 6711473
+  hash: "41b40c0551106a4fe97c11ab71b752c61926a608"
+- name: "dmmacinsel.usx"
+  fileSize: 1482202
+  hash: "9c2964113813346c1d4b6c525e0af3e3778ca65b"
+- name: "iko.ogg"
+  fileSize: 2127446
+  hash: "fba4abe996ee4c6d3df94900b9fe94d244bc0509"
+- name: "macdminsel.utx"
+  fileSize: 7047816
+  hash: "6f58073a8efa7afdc741e854b24d5984d3e01c0b"
+otherFiles: 1
+dependencies:
+  dmmacinsel.usx:
+  - status: "OK"
+    name: "macdminsel"
+  DM-{MaC}-Moao-Island.ut2:
+  - status: "OK"
+    name: "macdminsel"
+  - status: "OK"
+    name: "dmmacinsel"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4119"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/2/9/7172dd/dm-mac-moao-island.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/M/2/9/7172dd/dm-mac-moao-island.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/2/9/7172dd/dm-mac-moao-island.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{MaC}-Moao-Island"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 12:41"
+game: "Unreal Tournament 2004"
+name: "CTF-Beta-Foreground"
+author: "KazeoHin"
+description: "Public Beta version B.1"
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Beta-Foreground_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/CTF-Beta-Foreground_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-Beta-Foreground_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/CTF-Beta-Foreground_shot_1.png"
+originalFilename: "ctf-foreground-beta.zip"
+hash: "7980e4620206549dda75f8b3fed21fd2aae3c4ae"
+fileSize: 13786140
+files:
+- name: "CTF-Beta-Foreground.ut2"
+  fileSize: 8623922
+  hash: "0be5e59a25c6228c6dc214464cee9d953dedeb02"
+- name: "sakuratex.utx"
+  fileSize: 36512640
+  hash: "850bdf5d74c494ab276b1d90774fdc2444ad685b"
+- name: "sakurastatic.usx"
+  fileSize: 6041610
+  hash: "2baea9b225100ca2a553f222e3c0db6c8f9cd305"
+otherFiles: 2
+dependencies:
+  CTF-Beta-Foreground.ut2:
+  - status: "OK"
+    name: "sakuratex"
+  - status: "OK"
+    name: "sakurastatic"
+  sakurastatic.usx:
+  - status: "OK"
+    name: "sakuratex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/ctf-foreground-beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/7/9/80e462/ctf-foreground-beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/7/9/80e462/ctf-foreground-beta.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "DM-Foreground"
+playerCount: "10-16"
+themes: {}
+bots: true

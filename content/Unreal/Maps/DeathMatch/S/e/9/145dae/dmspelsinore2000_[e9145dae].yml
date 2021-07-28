@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:13"
+game: "Unreal"
+name: "DM[SP]Elsinore2000"
+author: "Cliff Bleszinski"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "DM[SP]Elsinore2000.zip"
+hash: "e9145dae60426ab13c6be2654773da5497df03a4"
+fileSize: 10322938
+files:
+- name: "DM[SP]Elsinore2000.unr"
+  fileSize: 3690678
+  hash: "3101170e2f1d7f2e0cb629b89aaed40f39176eb4"
+- name: "SP_FromYesterday.umx"
+  fileSize: 10735000
+  hash: "47d55816114118399566dfa1772f6f246e77b63c"
+otherFiles: 0
+dependencies:
+  DM[SP]Elsinore2000.unr:
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "AssaultAddon"
+  - status: "MISSING"
+    name: "uzi"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "AssaultTommyGun"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "AssaultMedia"
+  - status: "MISSING"
+    name: "Assault_Dicer"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "OK"
+    name: "SP_FromYesterday"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DElsinore2000.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/e/9/145dae/DM%255BSP%255DElsinore2000.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/e/9/145dae/DM%255BSP%255DElsinore2000.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Elsinore2000"
+playerCount: "More the merry"
+themes:
+  Nali Castle: 1.0
+bots: true

@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 19:43"
+game: "Unreal Tournament"
+name: "CTF-(Kraken)Quad"
+author: "(Kraken)"
+description: "None"
+releaseDate: "2007-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-krakenquad_shot_bbb378ba_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/b/b378ba/ctf-krakenquad_shot_bbb378ba_1.png"
+originalFilename: "CTF-(Kraken)Quad.zip"
+hash: "bbb378ba06cd8ec423666226fd2a02c27a817a22"
+fileSize: 4909259
+files:
+- name: "MarsSkyBox.utx"
+  fileSize: 2106695
+  hash: "7ec1385d3632c28cfd4d2065a351f407ad8e64ec"
+- name: "CTF-(Kraken)Quad.unr"
+  fileSize: 2391217
+  hash: "f27334311e517de1a46a59bbfc677abe890b0d09"
+- name: "NuLLs_Textures_2k4.utx"
+  fileSize: 6104264
+  hash: "de4220cc991745fda650cbc0352aa3947a29dd49"
+otherFiles: 1
+dependencies:
+  CTF-(Kraken)Quad.unr:
+  - status: "OK"
+    name: "NuLLs_Textures_2k4"
+  - status: "OK"
+    name: "MarsSkyBox"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-%28Kraken%29Quad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/CTF-(Kraken)Quad.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/b/b378ba/CTF-(Kraken)Quad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/b/b378ba/CTF-(Kraken)Quad.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(Kraken)Quad"
+playerCount: "12-14"
+themes:
+  Tech: 1.0
+bots: true

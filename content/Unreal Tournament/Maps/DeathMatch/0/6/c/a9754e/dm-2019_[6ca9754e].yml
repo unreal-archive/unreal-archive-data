@@ -1,0 +1,101 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 21:13"
+variationOf: "ed8ef3890be08a8416e7963eb865163760ea76b9"
+game: "Unreal Tournament"
+name: "DM-2019"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-2019_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/DM-2019_shot_1.png"
+originalFilename: "DM-2019.zip"
+hash: "6ca9754e32d0d531ad77e9c89823e484081af537"
+fileSize: 19156494
+files:
+- name: "BRdeco2.u"
+  fileSize: 58046
+  hash: "18bb92c9a6d6fb79d31d627b3d30e7cca66d3ce0"
+- name: "BRsnds.uax"
+  fileSize: 2339031
+  hash: "06d8a80a7e724e22cf2b7099fecb14dc5a178715"
+- name: "BRdeco.u"
+  fileSize: 180276
+  hash: "bed893c14a40c7a1d5fa30b6cf37de4e70a2c1ce"
+- name: "Runrtex.utx"
+  fileSize: 10674618
+  hash: "346de2411fc7b1fb822b2b937124948e162107e2"
+- name: "BRunpak.utx"
+  fileSize: 5599693
+  hash: "a34a83dd6288b66248d3738abb936e9679378d0b"
+- name: "Runrintex.utx"
+  fileSize: 6793442
+  hash: "c47b5e0b711f7d11f59b4b339237a6cbc79b9d96"
+- name: "Brundeco2.u"
+  fileSize: 240304
+  hash: "5f0dcedaebc8702103dd0b8e783337aead70c468"
+- name: "DM-2019.unr"
+  fileSize: 5163220
+  hash: "fea470d8dd0876895ee05183aa9eb23e51de3705"
+otherFiles: 1
+dependencies:
+  Brundeco2.u:
+  - status: "OK"
+    name: "Runrtex"
+  - status: "OK"
+    name: "BRunpak"
+  - status: "OK"
+    name: "Runrintex"
+  BRdeco.u:
+  - status: "OK"
+    name: "BRunpak"
+  DM-2019.unr:
+  - status: "OK"
+    name: "BRsnds"
+  - status: "OK"
+    name: "Runrtex"
+  - status: "OK"
+    name: "BRdeco2"
+  - status: "OK"
+    name: "BRdeco"
+  - status: "OK"
+    name: "Brundeco2"
+  - status: "OK"
+    name: "BRunpak"
+  - status: "OK"
+    name: "Runrintex"
+  BRdeco2.u:
+  - status: "OK"
+    name: "BRunpak"
+  - status: "OK"
+    name: "Runrintex"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/DM-2019.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-2019.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/0/6/c/a9754e/DM-2019.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/0/6/c/a9754e/DM-2019.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-2019"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

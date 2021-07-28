@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:55"
+game: "Unreal Tournament"
+name: "DM-BBBWarfield"
+author: "BBB_Inferno&Maarten"
+description: "Les3Vallees-Warfield"
+releaseDate: "1999-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-bbbwarfield_shot_c6112f6f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/c/6/112f6f/dm-bbbwarfield_shot_c6112f6f_1.png"
+originalFilename: "dm-bbbwarfield.zip"
+hash: "c6112f6f77912badc13c50fb219e0ad350458f57"
+fileSize: 904067
+files:
+- name: "MDC.UTX"
+  fileSize: 512999
+  hash: "a82b6940cb2c496c6521813a884cd9ecb55f6e54"
+- name: "NBTank.utx"
+  fileSize: 465770
+  hash: "1c519912ca1c0d93a8386c24e065057a39d2b477"
+- name: "DM-BBBWarfield.unr"
+  fileSize: 1017513
+  hash: "8ff0e4985afbb849fd9af838f1ad28ec02181036"
+otherFiles: 1
+dependencies:
+  DM-BBBWarfield.unr:
+  - status: "OK"
+    name: "MDC"
+  - status: "OK"
+    name: "NBTank"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/dm-bbbwarfield.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsB/&file=dm-bbbwarfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-bbbwarfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsB/dm-bbbwarfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/c/6/112f6f/dm-bbbwarfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/c/6/112f6f/dm-bbbwarfield.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Warfield"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.8
+  Natural: 0.2
+bots: true

@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 16:15"
+game: "Unreal Tournament 2004"
+name: "CTF-Helicoil2"
+author: "SnakeCobra"
+description: "High above the roofs of NYC this CTF-AirStadium has been set up by the\
+  \ Liandri Corp to have a CTF-Feeling never broadcasted on TV before"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Helicoil2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/CTF-Helicoil2_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-Helicoil2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/CTF-Helicoil2_shot_2.png"
+originalFilename: "ctf-helicoil2.zip"
+hash: "bef90c9d18e093b9f95f701c4d1d47bad41b6b01"
+fileSize: 7831439
+files:
+- name: "Helicoil.ogg"
+  fileSize: 7119817
+  hash: "0343114cb1b2131b4d53394ca57e3da6243be1b9"
+- name: "snakecobra_helistatics.usx"
+  fileSize: 16371
+  hash: "85ee4e76148cf7442e30fee1b76790237a74b5bd"
+- name: "snakecobra_helicoil.utx"
+  fileSize: 1399354
+  hash: "60b03667fee7d583e3f396cd745770017dfe87fa"
+- name: "CTF-Helicoil2.ut2"
+  fileSize: 1811726
+  hash: "f4c3b3d1a2cca140af1d789800c54e32d3e74ab6"
+otherFiles: 2
+dependencies:
+  CTF-Helicoil2.ut2:
+  - status: "OK"
+    name: "snakecobra_helistatics"
+  snakecobra_helistatics.usx:
+  - status: "OK"
+    name: "snakecobra_helicoil"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3617"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/ctf-helicoil2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/b/e/f90c9d/ctf-helicoil2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/b/e/f90c9d/ctf-helicoil2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Helicoil 2"
+playerCount: "2-6"
+themes: {}
+bots: true

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 22:53"
+game: "Unreal Tournament 2004"
+name: "ONS-Torlan"
+author: "Alkan 'Swat_Ak' Kurt"
+description: "Set on the dried outskirts of a lush jungle continent, two factions\
+  \ clash in fierce combat for control of a major communications tower and its adjacent\
+  \ power supply. With the dam holding back the waters from the nearby jungle, the\
+  \ dried out riverbed running across the battlefield allows for an easy attack route\
+  \ into enemy territory and could provide a decisive victor with ownership of the\
+  \ enormous Comm-tower as the reward."
+releaseDate: "2007-07"
+attachments:
+- type: "IMAGE"
+  name: "ONS-Torlan_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/T/ONS-Torlan_shot_1.png"
+- type: "IMAGE"
+  name: "ONS-Torlan_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/T/ONS-Torlan_shot_2.png"
+originalFilename: "ons-jb-torlan.zip"
+hash: "e878b39d2c21ed61f01d9275012835428120da2e"
+fileSize: 5372488
+files:
+- name: "myLevelTorlan.utx"
+  fileSize: 2666862
+  hash: "8e5f5323adf06b4265d10ec15c4a772b763c5bfa"
+- name: "ONS-Torlan.ut2"
+  fileSize: 12723591
+  hash: "bf675f387a5a6a155c930de0c8489e47379d2dfb"
+otherFiles: 1
+dependencies:
+  ONS-Torlan.ut2:
+  - status: "MISSING"
+    name: "JBToolbox"
+  - status: "MISSING"
+    name: "JBStaticMeshes"
+  - status: "MISSING"
+    name: "JBVehicles"
+  - status: "MISSING"
+    name: "Jailbreak"
+  - status: "OK"
+    name: "myLevelTorlan"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6402"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/T/ons-jb-torlan.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/T/e/8/78b39d/ons-jb-torlan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/T/e/8/78b39d/ons-jb-torlan.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "Torlan"
+playerCount: "8-16"
+themes:
+  Tech: 0.9
+  Natural: 0.1
+bots: true

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:14"
+game: "Unreal Tournament"
+name: "DM-TrenchedUT"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-trenchedut_shot_33b73a61_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/3/3/b73a61/dm-trenchedut_shot_33b73a61_1.png"
+originalFilename: "dm-trenchedut.zip"
+hash: "33b73a616e879a549baaf383dd807cf64afa16a0"
+fileSize: 1660717
+files:
+- name: "trenchtex.utx"
+  fileSize: 1351507
+  hash: "32fbc2569b601ee06337e8e1fa8b5a3c13cc901c"
+- name: "DM-TrenchedUT.unr"
+  fileSize: 2249055
+  hash: "3c869af9af2174b6654137e188ce529e1047e985"
+otherFiles: 0
+dependencies:
+  DM-TrenchedUT.unr:
+  - status: "OK"
+    name: "trenchtex"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-trenchedut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/3/3/b73a61/dm-trenchedut.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/3/3/b73a61/dm-trenchedut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/3/3/b73a61/dm-trenchedut.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TrenchedUT"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.6
+  Skaarj Tech: 0.3
+bots: true

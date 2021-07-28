@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 06:24"
+game: "Unreal Tournament"
+name: "DM-ChaosUT_ChaosArena"
+author: "by MassChAoS"
+description: "None"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-ChaosUT_ChaosArena_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-ChaosUT_ChaosArena_shot_1.png"
+originalFilename: "dm-chaosut_chaosarena.zip"
+hash: "cf23c9d7933b7c0949dec9c98b47727cc0b5604d"
+fileSize: 817525
+files:
+- name: "JezzTex.utx"
+  fileSize: 1012263
+  hash: "8e8ee941c55d0d2a55fc2833f981433a76663a91"
+- name: "DM-ChaosUT_ChaosArena.unr"
+  fileSize: 520435
+  hash: "2f78883901a11d516bc7660fc142afe7be7c9139"
+otherFiles: 1
+dependencies:
+  DM-ChaosUT_ChaosArena.unr:
+  - status: "OK"
+    name: "JezzTex"
+  - status: "MISSING"
+    name: "ChaosUT"
+  - status: "MISSING"
+    name: "UTChaosMap"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-chaosut_chaosarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-chaosut_chaosarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/c/f/23c9d7/dm-chaosut_chaosarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/c/f/23c9d7/dm-chaosut_chaosarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ChaosUT_ChaosArena"
+playerCount: "2-5"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: true

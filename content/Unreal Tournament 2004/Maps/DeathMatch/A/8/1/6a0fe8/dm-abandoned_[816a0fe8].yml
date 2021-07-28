@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-02-19 20:12"
+game: "Unreal Tournament 2004"
+name: "DM-Abandoned"
+author: "Anthony 'Bean' Nichols"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Abandoned_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/DM-Abandoned_shot_1.png"
+originalFilename: "dm-abandoned.zip"
+hash: "816a0fe81249860151c3bef3946136283cf09213"
+fileSize: 2486342
+files:
+- name: "DM-Abandoned.ut2"
+  fileSize: 18683636
+  hash: "88d13e93b60c56f0785e5efc4288acc3c5a8bcdf"
+- name: "BeanAbandonHW.usx"
+  fileSize: 365161
+  hash: "51c539996d50238770c37544140b5f66ef59c4cc"
+- name: "BeanAbandon.utx"
+  fileSize: 351362
+  hash: "b2234f6c799f8c5d217421cdc2f83b8968747082"
+otherFiles: 1
+dependencies:
+  DM-Abandoned.ut2:
+  - status: "OK"
+    name: "BeanAbandonHW"
+  - status: "OK"
+    name: "BeanAbandon"
+  BeanAbandonHW.usx:
+  - status: "OK"
+    name: "BeanAbandon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/dm-abandoned.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/A/8/1/6a0fe8/dm-abandoned.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/8/1/6a0fe8/dm-abandoned.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Abandoned Outpost"
+playerCount: "4-7"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true

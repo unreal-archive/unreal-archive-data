@@ -1,0 +1,95 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:13"
+game: "Unreal Tournament"
+name: "MH-EelhandraValley"
+author: "chicoverde"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-eelhandravalley.zip"
+hash: "cf565306517fc6f83e980775eebf6f0f9252af0d"
+fileSize: 9062483
+files:
+- name: "Deadsounds.uax"
+  fileSize: 535026
+  hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "DawnT.utx"
+  fileSize: 441605
+  hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "HHzombii.utx"
+  fileSize: 1238059
+  hash: "b4b5f206d360a9d1fefa5bdd6a1fcaccba5d1758"
+- name: "UTMHpack.u"
+  fileSize: 4498715
+  hash: "be3c69a56f792c235ee41e65707af38a4a8b4ed2"
+- name: "MH-EelhandraValley.unr"
+  fileSize: 6427449
+  hash: "74c74263f9fbae1d57e7c40dfd251435a00d2d57"
+- name: "Guardian.umx"
+  fileSize: 376293
+  hash: "6e49315744c340a9515b1949cd3c5d8a171a5dc4"
+- name: "UTemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+- name: "HauntedCreatures.u"
+  fileSize: 565379
+  hash: "3173950f2af3637af7b76ec7c8ade46543ccb9c8"
+otherFiles: 2
+dependencies:
+  HauntedCreatures.u:
+  - status: "OK"
+    name: "Deadsounds"
+  - status: "OK"
+    name: "DawnT"
+  MH-EelhandraValley.unr:
+  - status: "OK"
+    name: "UTemple"
+  - status: "OK"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "HauntedCreatures"
+  - status: "OK"
+    name: "Guardian"
+  - status: "OK"
+    name: "Fifth"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "HHzombii"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-eelhandravalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/E/mh-eelhandravalley.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-eelhandravalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/E/c/f/565306/mh-eelhandravalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/c/f/565306/mh-eelhandravalley.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Valley of Eelhandra"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.6
+  Nali Castle: 0.1
+bots: true

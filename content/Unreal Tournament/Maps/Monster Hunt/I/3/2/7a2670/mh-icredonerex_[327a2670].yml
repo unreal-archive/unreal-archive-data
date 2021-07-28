@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:39"
+game: "Unreal Tournament"
+name: "MH-ICRedone(Rex)+"
+author: "<GF>-REX!! -&- DAG (War Master)"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-ICRedone(Rex)+_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/I/MH-ICRedone(Rex)%2B_shot_1.png"
+originalFilename: "mh-icredone[rex]+.zip"
+hash: "327a26704304e371f31699d9d2005c522f259c5c"
+fileSize: 4461204
+files:
+- name: "MH-ICRedone(Rex)+.unr"
+  fileSize: 2785249
+  hash: "a9d7a017338d4bc5a914e6d6db450752afd70779"
+- name: "NPIntruder.umx"
+  fileSize: 1416312
+  hash: "0df9eb95188b0e5e28c443b68f71a41611e064aa"
+- name: "monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "EndEx.umx"
+  fileSize: 3123573
+  hash: "04734198c8c8a0e137386f90279693127e5ef409"
+otherFiles: 2
+dependencies:
+  MH-ICRedone(Rex)+.unr:
+  - status: "OK"
+    name: "monsterhunt"
+  - status: "OK"
+    name: "NPIntruder"
+  - status: "OK"
+    name: "EndEx"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-icredone%5Brex%5D%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/I/mh-icredone%5Brex%5D%2B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-icredone%5Brex%5D%2B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/I/3/2/7a2670/mh-icredone%255Brex%255D%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/3/2/7a2670/mh-icredone%255Brex%255D%252B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Inscrutable Castle Redone: Rex's Version"
+playerCount: "1-5 Intelligent"
+themes:
+  Natural: 0.7
+  Nali Castle: 0.3
+bots: true

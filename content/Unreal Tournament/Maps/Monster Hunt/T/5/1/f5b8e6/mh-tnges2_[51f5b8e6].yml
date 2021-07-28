@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:38"
+game: "Unreal Tournament"
+name: "MH-TNGES2"
+author: "Boom-Boy"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "MH-TNGES2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/MH-TNGES2_shot_1.png"
+originalFilename: "mh-tnges2.zip"
+hash: "51f5b8e6a8f30eca8bd1617007bf064c83e7ff48"
+fileSize: 1020361
+files:
+- name: "MH-TNGES2.unr"
+  fileSize: 1037492
+  hash: "094d5c88d1282eea04028f897f5c84345f89303b"
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 1
+dependencies:
+  MH-TNGES2.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "DigSh"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-tnges2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/mh-tnges2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-tnges2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/T/5/1/f5b8e6/mh-tnges2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/5/1/f5b8e6/mh-tnges2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Great Escape"
+playerCount: "1-6"
+themes:
+  Nali Castle: 0.9
+  Skaarj Tech: 0.1
+bots: true

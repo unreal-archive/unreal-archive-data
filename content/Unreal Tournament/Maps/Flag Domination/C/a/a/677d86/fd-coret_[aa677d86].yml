@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-06-07 14:59"
+game: "Unreal Tournament"
+name: "FD-Coret"
+author: "Alan 'Talisman' Willard"
+description: "Welcome to Coret Facility. Enjoy your stay."
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "FD-Coret_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Flag%20Domination/C/FD-Coret_shot_1.png"
+originalFilename: "fd-coret_aa677d86.zip"
+hash: "aa677d8645f5825d8ad3479210f2d37a00338cbb"
+fileSize: 1187795
+files:
+- name: "FDCoret.utx"
+  fileSize: 266322
+  hash: "7ab3bc26e2084b7758c1dc3fd9316db21efb93a9"
+- name: "FD-Coret.unr"
+  fileSize: 3546361
+  hash: "af82439d1cf4469b019edcc494ee79527fa91752"
+otherFiles: 0
+dependencies:
+  FD-Coret.unr:
+  - status: "MISSING"
+    name: "FlagDom"
+  - status: "OK"
+    name: "FDCoret"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Flag%20Domination/C/fd-coret_aa677d86.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Flag%20Domination/C/a/a/677d86/fd-coret_aa677d86.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Flag%20Domination/C/a/a/677d86/fd-coret_aa677d86.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Flag Domination"
+title: "Coret Facility"
+playerCount: "6-12"
+themes:
+  Tech: 1.0
+bots: true

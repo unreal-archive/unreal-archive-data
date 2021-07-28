@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:15"
+variationOf: "81f194f6475d1d32ef2a22d2f0fd39e39af94b44"
+game: "Unreal Tournament"
+name: "DM-Hangar18"
+author: "Polaris"
+description: "None"
+releaseDate: "1999-12"
+attachments: []
+originalFilename: "dm-hangar18.zip"
+hash: "909756d41207e77ef329ec2b3baf634fe1c234a6"
+fileSize: 1950917
+files:
+- name: "deathdungeon.umx"
+  fileSize: 1363283
+  hash: "ca3cc31479781ffe692d5e9b13b0cba6b5838d02"
+- name: "polaris.utx"
+  fileSize: 795519
+  hash: "e12911fc9e5d817e47adbd78b90459d670d01dd8"
+- name: "DM-Hangar18.unr"
+  fileSize: 986305
+  hash: "92675f97c9e90df323e781c7faddcaec8b57c152"
+otherFiles: 1
+dependencies:
+  DM-Hangar18.unr:
+  - status: "OK"
+    name: "deathdungeon"
+  - status: "OK"
+    name: "polaris"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/dm-hangar18.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsH/&file=dm-hangar18.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-hangar18.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsH/dm-hangar18.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/H/9/0/9756d4/dm-hangar18.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/H/9/0/9756d4/dm-hangar18.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Hangar 18"
+playerCount: "6-16 players"
+themes:
+  Tech: 0.5
+  Industrial: 0.1
+  Ancient: 0.1
+  Natural: 0.3
+bots: true

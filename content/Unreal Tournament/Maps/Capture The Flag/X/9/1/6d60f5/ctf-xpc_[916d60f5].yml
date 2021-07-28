@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:16"
+game: "Unreal Tournament"
+name: "CTF-{XPC}"
+author: "{XPC}AkwardTiming"
+description: "visit www.powercows.net"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xpc_shot_916d60f5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/9/1/6d60f5/ctf-xpc_shot_916d60f5_1.png"
+originalFilename: "ctf-{xpc}.zip"
+hash: "916d60f5d64bd1652c6baa421ad0c686f01ecf41"
+fileSize: 942054
+files:
+- name: "CTF-{XPC}.unr"
+  fileSize: 3430278
+  hash: "26e5611c21423130e3c09f28500230ea74e20781"
+- name: "XPCT.utx"
+  fileSize: 133666
+  hash: "7f979666ebb391be5a70f4110e737cab9f52b42a"
+otherFiles: 0
+dependencies:
+  CTF-{XPC}.unr:
+  - status: "OK"
+    name: "XPCT"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bxpc%7D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-%7Bxpc%7D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/9/1/6d60f5/ctf-%257Bxpc%257D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/9/1/6d60f5/ctf-%257Bxpc%257D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "{XPC}"
+playerCount: "16"
+themes:
+  Tech: 0.5
+  Natural: 0.5
+bots: true

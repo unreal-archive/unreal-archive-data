@@ -1,0 +1,88 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:25"
+game: "Unreal Tournament"
+name: "DM-INF-Swamprat"
+author: "Angelheart/DarkSniper"
+description: "None"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Swamprat_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Swamprat_shot_1.png"
+originalFilename: "DM-inf-swamprat.zip"
+hash: "19a7d8baf1f9a22981ba19503d61576f8effb014"
+fileSize: 5207577
+files:
+- name: "forestpack.utx"
+  fileSize: 1056777
+  hash: "31cfc2aa68ee4b9138d0e73fbd15594282be60a8"
+- name: "Swamptex.utx"
+  fileSize: 1380599
+  hash: "f63817e8e475f5c5a0f432118682705b1eef35d6"
+- name: "Woodsnds.uax"
+  fileSize: 584316
+  hash: "306ec299b30341359c9dbde0a0d4e12ed99d7c10"
+- name: "Omhapak.utx"
+  fileSize: 1348994
+  hash: "3c1007b045626ba270bd892691157bacc1ace841"
+- name: "Omhadec.u"
+  fileSize: 154028
+  hash: "e0460e7594f53a4a161073d619e32f89e9609bbd"
+- name: "Forestdecs.u"
+  fileSize: 104162
+  hash: "afde5b1ed66405b9068a99ab667d24f9956735e7"
+- name: "DM-INF-Swamprat.unr"
+  fileSize: 4525234
+  hash: "d21deb57ed7b9fe761e0153c99f3a382f59684b7"
+- name: "Swampsnds.uax"
+  fileSize: 337805
+  hash: "87d6e884283b841e64acdfb930a8278bcbe278e8"
+otherFiles: 0
+dependencies:
+  DM-INF-Swamprat.unr:
+  - status: "OK"
+    name: "Forestdecs"
+  - status: "OK"
+    name: "Swamptex"
+  - status: "OK"
+    name: "Woodsnds"
+  - status: "OK"
+    name: "Swampsnds"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "OK"
+    name: "Omhadec"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  Forestdecs.u:
+  - status: "PARTIAL"
+    name: "forestpack"
+  Omhadec.u:
+  - status: "OK"
+    name: "Omhapak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-swamprat.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-inf-swamprat.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/S/1/9/a7d8ba/DM-inf-swamprat.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/S/1/9/a7d8ba/DM-inf-swamprat.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Swamp Rat Swamp"
+playerCount: "6-16"
+themes: {}
+bots: true

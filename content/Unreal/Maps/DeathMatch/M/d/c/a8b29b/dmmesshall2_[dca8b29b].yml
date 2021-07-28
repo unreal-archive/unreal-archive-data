@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:54"
+game: "Unreal"
+name: "DMMessHall2"
+author: "Crusader"
+description: "Welcome Back My Lord"
+releaseDate: "1998-08"
+attachments: []
+originalFilename: "dmmesshall2.zip"
+hash: "dca8b29b4cea5af46304b0c87363b651fdee2e3d"
+fileSize: 291157
+files:
+- name: "DexSG.u"
+  fileSize: 174589
+  hash: "efbb51341bd94d5140d3d69141778e78f7dfdb32"
+- name: "DMMessHall2.unr"
+  fileSize: 381781
+  hash: "9d18b3e007b8e28e7a56b296ebf85529cd5ec6ad"
+- name: "DexShotgun.uax"
+  fileSize: 30528
+  hash: "9146836dfd23f90744a4c2060498006136f0050f"
+otherFiles: 2
+dependencies:
+  DexSG.u:
+  - status: "OK"
+    name: "DexShotGun"
+  DMMessHall2.unr:
+  - status: "OK"
+    name: "DexSG"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dmmesshall2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/dmmesshall2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsM/dmmesshall2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmmesshall2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/d/c/a8b29b/dmmesshall2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/d/c/a8b29b/dmmesshall2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMMessHall2"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true

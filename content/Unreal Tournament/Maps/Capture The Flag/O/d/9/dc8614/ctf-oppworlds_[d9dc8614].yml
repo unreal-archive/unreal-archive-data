@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 01:55"
+game: "Unreal Tournament"
+name: "CTF-OppWorlds"
+author: "Andrew \"Andson\" Ashcroft"
+description: "Get more maps from:  http://andsmaps.unrealcenter.com"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-OppWorlds_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/CTF-OppWorlds_shot_1.png"
+originalFilename: "CTF-OpposingWorlds.zip"
+hash: "d9dc8614149a328e53a661f20cfa7908172ed9c9"
+fileSize: 415229
+files:
+- name: "CTF-OppWorlds.unr"
+  fileSize: 1405210
+  hash: "160249ac32a18458d699bfaf94b53b92a41b507d"
+otherFiles: 1
+dependencies:
+  CTF-OppWorlds.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-OpposingWorlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/CTF-OpposingWorlds.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/d/9/dc8614/CTF-OpposingWorlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/d/9/dc8614/CTF-OpposingWorlds.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Opposing Worlds"
+playerCount: "8 - 10"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+bots: true

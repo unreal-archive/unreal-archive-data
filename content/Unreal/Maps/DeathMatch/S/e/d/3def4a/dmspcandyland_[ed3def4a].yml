@@ -1,0 +1,95 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:30"
+game: "Unreal"
+name: "DM[SP]CandyLand"
+author: "CG*Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2008-07"
+attachments:
+- type: "IMAGE"
+  name: "DM[SP]CandyLand_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/DM%5BSP%5DCandyLand_shot_1.png"
+originalFilename: "DM[SP]CandyLand.zip"
+hash: "ed3def4a687910c375c0584d8271972ac4dd1a4b"
+fileSize: 9716342
+files:
+- name: "DM[SP]CandyLand][.unr"
+  fileSize: 2501341
+  hash: "7dcfb40b1cda07080dfd4ca88dcc030679b717be"
+- name: "DM[SP]CandyLand.unr"
+  fileSize: 2455168
+  hash: "421c14a14714ac025c52b335bde8303665d73620"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "metallica_sandman.umx"
+  fileSize: 5316688
+  hash: "7c8c66da1d11d392084da83b2c40afe19787573a"
+- name: "candyland.utx"
+  fileSize: 784164
+  hash: "c2e351f4ffdf05f2837ef975e25fbe4574433612"
+otherFiles: 1
+dependencies:
+  DM[SP]CandyLand.unr:
+  - status: "MISSING"
+    name: "uzi"
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "candyland"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "ShrinkerGun"
+  - status: "OK"
+    name: "metallica_sandman"
+  - status: "MISSING"
+    name: "Assault_G11"
+  DM[SP]CandyLand][.unr:
+  - status: "MISSING"
+    name: "uzi"
+  - status: "OK"
+    name: "city"
+  - status: "OK"
+    name: "candyland"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "ShrinkerGun"
+  - status: "OK"
+    name: "metallica_sandman"
+  - status: "MISSING"
+    name: "Assault_G11"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM%5BSP%5DCandyLand.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DCandyLand.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/e/d/3def4a/DM%255BSP%255DCandyLand.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/e/d/3def4a/DM%255BSP%255DCandyLand.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Candyland"
+playerCount: "4"
+themes:
+  City: 1.0
+bots: true

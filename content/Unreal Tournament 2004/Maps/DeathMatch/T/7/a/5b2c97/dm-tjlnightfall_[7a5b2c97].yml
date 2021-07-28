@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:45"
+game: "Unreal Tournament 2004"
+name: "DM-TJLNightFall"
+author: "Aftermass [TJL1]"
+description: "None"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "dm-tjlnightfall.zip"
+hash: "7a5b2c970e4e5be818a8e662a5cc17f3511a622e"
+fileSize: 1635953
+files:
+- name: "ROS.utx"
+  fileSize: 165325
+  hash: "60796ff24881df0edca1377163bebc7e7f63b6b6"
+- name: "TJL.utx"
+  fileSize: 5842775
+  hash: "234a1db4361265c4aece2ac711416580545a4b12"
+- name: "DM-TJLNightFall.ut2"
+  fileSize: 1119955
+  hash: "441a21096a3ae9399b91340bcd65a1b7bc50db8c"
+otherFiles: 0
+dependencies:
+  DM-TJLNightFall.ut2:
+  - status: "OK"
+    name: "ROS"
+  - status: "OK"
+    name: "TJL"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6592"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/T/dm-tjlnightfall.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/T/7/a/5b2c97/dm-tjlnightfall.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/7/a/5b2c97/dm-tjlnightfall.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "A Death Match at NightFall is good for the soul......."
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

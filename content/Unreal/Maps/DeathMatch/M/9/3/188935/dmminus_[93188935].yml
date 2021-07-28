@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:46"
+game: "Unreal"
+name: "dmMinus"
+author: "Minus"
+description: "None"
+releaseDate: "2007-06"
+attachments: []
+originalFilename: "DMMinus.zip"
+hash: "931889351f130284814a89eaab252431391d101b"
+fileSize: 160776
+files:
+- name: "LWArena2.utx"
+  fileSize: 1081136
+  hash: "3183b67a28b91400e1806c53ceb98925c4c09039"
+- name: "dmMinus.unr"
+  fileSize: 137789
+  hash: "a3b2147a6ccb9013939cd4dff65a0a6529b1ae1e"
+otherFiles: 1
+dependencies:
+  dmMinus.unr:
+  - status: "OK"
+    name: "LWArena2"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMMinus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/9/3/188935/DMMinus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/M/9/3/188935/DMMinus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/M/9/3/188935/DMMinus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "My First Attempt"
+playerCount: "4 to 8"
+themes:
+  Nali Temple: 0.9
+  Skaarj Tech: 0.1
+bots: false

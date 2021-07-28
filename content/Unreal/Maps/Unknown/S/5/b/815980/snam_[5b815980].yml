@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:30"
+game: "Unreal"
+name: "SnaM"
+author: "Ruud Wijntjes (all additions by >KamiKazi<)"
+description: "None"
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "SnaM.zip"
+hash: "5b815980ddf426b7b1bfba3928bc0c262954b478"
+fileSize: 3921089
+files:
+- name: "SnaM.unr"
+  fileSize: 769985
+  hash: "919ad549c0a5e28520c3a71757e3db90b8280355"
+- name: "Urban.utx"
+  fileSize: 4189020
+  hash: "be8cbaa1f222558981cd486e91123d17c9e9e79b"
+- name: "KKGodzilla.uax"
+  fileSize: 635923
+  hash: "5032baedbdc2ea4e2da1553414f6c7de19546d64"
+otherFiles: 0
+dependencies:
+  SnaM.unr:
+  - status: "OK"
+    name: "Urban"
+  - status: "OK"
+    name: "KKGodzilla"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/SnaM.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/S/5/b/815980/SnaM.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/S/5/b/815980/SnaM.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/S/5/b/815980/SnaM.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "S'naM"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.6
+  City: 0.2
+  Natural: 0.1
+  Nali Castle: 0.2
+bots: false

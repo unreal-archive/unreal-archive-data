@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:55"
+game: "Unreal Tournament"
+name: "DM-!!{DMF}DarthThane"
+author: "{DMF}SAVAGE"
+description: "None"
+releaseDate: "2007-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-!!{DMF}DarthThane_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/DM-!!%7BDMF%7DDarthThane_shot_1.png"
+originalFilename: "DM-!!{DMF}DarthThane.zip"
+hash: "447d789a675f7bd42b2dce23aa25975ce23d57ae"
+fileSize: 10375052
+files:
+- name: "saber.u"
+  fileSize: 897673
+  hash: "89d77e3a804e3cd48d0f2916df14e23995c2b0ac"
+- name: "imperialmarch.umx"
+  fileSize: 4044358
+  hash: "0a465dab18d461494497978995d6f8d064a8a440"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "guitars.utx"
+  fileSize: 4325453
+  hash: "5ead0813358efe922aee812ba1f8109fc480a326"
+- name: "FredBedTex.utx"
+  fileSize: 988741
+  hash: "0ff88345e5cb4698d983688ccc4a37689e866f5c"
+- name: "DM-!!{DMF}DarthThane.unr"
+  fileSize: 9525200
+  hash: "ba6a3b9f6066d0a2165b98776fb6bf12aa8ef11a"
+otherFiles: 0
+dependencies:
+  DM-!!{DMF}DarthThane.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "FredBedTex"
+  - status: "OK"
+    name: "saber"
+  - status: "OK"
+    name: "guitars"
+  - status: "OK"
+    name: "imperialmarch"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DM-!!%7BDMF%7DDarthThane.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%21%21%7BDMF%7DDarthThane.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/4/4/7d789a/DM-!!%257BDMF%257DDarthThane.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/4/4/7d789a/DM-!!%257BDMF%257DDarthThane.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "{DMF}Darth Thane"
+playerCount: "6-10"
+themes:
+  Tech: 1.0
+bots: false

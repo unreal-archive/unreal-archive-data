@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:25"
+game: "Unreal Tournament"
+name: "DM-PG13"
+author: "JiveTurkey"
+description: "None"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-PG13_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PG13_shot_2.png"
+- type: "IMAGE"
+  name: "DM-PG13_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/P/DM-PG13_shot_1.png"
+originalFilename: "dm-pg13.zip"
+hash: "4423430fae6e3a7c17c7b2d55af366956e66b867"
+fileSize: 241978
+files:
+- name: "DM-PG13.unr"
+  fileSize: 512260
+  hash: "859a98a96a756feffb23c63c03db171fd2ca6be4"
+- name: "ProvingGrounds.utx"
+  fileSize: 141975
+  hash: "e09f731a7d757b3f13e3c5e4f36fe94914341548"
+otherFiles: 2
+dependencies:
+  DM-PG13.unr:
+  - status: "OK"
+    name: "ProvingGrounds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-pg13.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/P/dm-pg13.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2433"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/P/4/4/23430f/dm-pg13.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/P/4/4/23430f/dm-pg13.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "PG-13: 'Rage'"
+playerCount: "2-4"
+themes:
+  Skaarj Tech: 0.9
+bots: true

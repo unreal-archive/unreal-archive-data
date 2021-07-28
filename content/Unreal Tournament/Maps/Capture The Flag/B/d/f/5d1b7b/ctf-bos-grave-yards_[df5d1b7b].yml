@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:06"
+game: "Unreal Tournament"
+name: "CTF-BoS Grave Yards"
+author: "Sam Plate."
+description: "All may enter, NONE will leave."
+releaseDate: "2002-01"
+attachments: []
+originalFilename: "ctf-{bos}graveyards.zip"
+hash: "df5d1b7bc651f76dbb56d0110b234f2d86c3dc2e"
+fileSize: 1436921
+files:
+- name: "Druid.umx"
+  fileSize: 901647
+  hash: "e7aaf1c009fe71454770ad63e1cd3b5a2da25ac4"
+- name: "CTF-BoS Grave Yards.unr"
+  fileSize: 2743644
+  hash: "6e56e59e5609d9ed2fb5093f035bb7860e87765e"
+- name: "bosgothik.utx"
+  fileSize: 316351
+  hash: "7bfa9adf0971e28eb10462f2948eea3bf549be69"
+otherFiles: 0
+dependencies:
+  CTF-BoS Grave Yards.unr:
+  - status: "OK"
+    name: "Druid"
+  - status: "OK"
+    name: "bosgothik"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bbos%7Dgraveyards.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-%7Bbos%7Dgraveyards.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/d/f/5d1b7b/ctf-%257Bbos%257Dgraveyards.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/d/f/5d1b7b/ctf-%257Bbos%257Dgraveyards.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-BoS Grave Yards"
+playerCount: "10-16"
+themes:
+  Nali Temple: 0.3
+  Skaarj Crypt: 0.2
+  Egyptian: 0.4
+  Natural: 0.1
+bots: false

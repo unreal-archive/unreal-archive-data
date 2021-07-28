@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:19"
+game: "Unreal Tournament"
+name: "CTF-FacingButtzII"
+author: "IronMan_Oz"
+description: "Thunder Buttz"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-FacingButtzII_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FacingButtzII_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-FacingButtzII_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/CTF-FacingButtzII_shot_1.png"
+originalFilename: "ctf-buttz][.zip"
+hash: "911188c0ff3c79603a97279adaa2fc58070f89e8"
+fileSize: 569154
+files:
+- name: "buttfart.uax"
+  fileSize: 62767
+  hash: "052a467a19acd3984ea63d485f3f4a3e476f6797"
+- name: "buttz.utx"
+  fileSize: 351131
+  hash: "dbec3455beb55375f06aaa1aeb439f388eb4bdab"
+- name: "CTF-FacingButtzII.unr"
+  fileSize: 913233
+  hash: "2f4d496bb10176d6db2c57fe0d98db64b9c4db31"
+otherFiles: 2
+dependencies:
+  CTF-FacingButtzII.unr:
+  - status: "OK"
+    name: "buttfart"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "buttz"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-buttz%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/ctf-buttz%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=578"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/9/1/1188c0/ctf-buttz%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/9/1/1188c0/ctf-buttz%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Facing Buttz ][ Revised"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.3
+  Ancient: 0.3
+  Natural: 0.3
+bots: true

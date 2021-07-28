@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:05"
+game: "Unreal Tournament"
+name: "DM-JungleBaseNight-2"
+author: "Pat-BadKarma-Fitzsimons"
+description: "None"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-JungleBaseNight-2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/J/DM-JungleBaseNight-2_shot_1.png"
+originalFilename: "DM-JungleBaseNight-2.zip"
+hash: "a5528c3af39781135cb4256bb097dc0c7656108f"
+fileSize: 1777356
+files:
+- name: "DM-JungleBaseNight-2.unr"
+  fileSize: 2377560
+  hash: "1fbc1d2e261f974e362f7dedbe5ec31a7e57c880"
+- name: "Junglepf.utx"
+  fileSize: 1483911
+  hash: "b6a67de57a4ea862d23d0d5ec0d92c1a13cb2617"
+- name: "sf_airradar.utx"
+  fileSize: 354993
+  hash: "ccdf138209cc10069a2a38dab3e6195d1e6beab3"
+otherFiles: 0
+dependencies:
+  DM-JungleBaseNight-2.unr:
+  - status: "OK"
+    name: "Junglepf"
+  - status: "OK"
+    name: "sf_airradar"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-JungleBaseNight-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/J/DM-JungleBaseNight-2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/J/a/5/528c3a/DM-JungleBaseNight-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/J/a/5/528c3a/DM-JungleBaseNight-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "JungleBase"
+playerCount: "4-10"
+themes:
+  Industrial: 0.4
+  Natural: 0.6
+bots: true

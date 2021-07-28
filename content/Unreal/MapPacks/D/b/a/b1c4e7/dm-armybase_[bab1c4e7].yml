@@ -1,0 +1,77 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 19:38"
+game: "Unreal"
+name: "Dm Armybase"
+author: "Various"
+description: "None"
+releaseDate: "1999-01"
+attachments: []
+originalFilename: "dm-armybase.zip"
+hash: "bab1c4e7e8cc8d35d8d3c9fc599a1c0a63e13334"
+fileSize: 282843
+files:
+- name: "DmArmyBase.unr"
+  fileSize: 731885
+  hash: "dda079820f916001d0ab6df670e3eb2615e953dd"
+- name: "GiRailgun.unr"
+  fileSize: 38193
+  hash: "be6795e7e5b3b27ec58ec6c307c717d2da4ab5a0"
+- name: "railgun.uax"
+  fileSize: 89904
+  hash: "e529051f23e25d22a4b0878516c0d1c90839ba09"
+- name: "Giweapons.u"
+  fileSize: 12151
+  hash: "37f0c14ce6e88fb6680c827ec82fb9a17db69d69"
+otherFiles: 2
+dependencies:
+  GiRailgun.unr:
+  - status: "OK"
+    name: "Giweapons"
+  DmArmyBase.unr:
+  - status: "OK"
+    name: "Giweapons"
+  Giweapons.u:
+  - status: "OK"
+    name: "railgun"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=5327620"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/dm-armybase.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=dmarmybase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsA/dmarmybase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmarmybase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/D/b/a/b1c4e7/dm-armybase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/D/b/a/b1c4e7/dm-armybase.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DmArmyBase"
+  title: "Army Base"
+  author: "Blair Williams"
+- name: "GiRailgun"
+  title: "GiRailgun"
+  author: "Unknown"
+gametype: "DeathMatch"
+themes:
+  Natural: 0.9
+  Nali Castle: 0.1

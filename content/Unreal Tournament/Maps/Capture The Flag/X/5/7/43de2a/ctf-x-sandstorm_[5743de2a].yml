@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:03"
+game: "Unreal Tournament"
+name: "CTF-X-Sandstorm"
+author: "Deviate"
+description: "None"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "ctf-x-sandstorm.zip"
+hash: "5743de2a4ed6330f76521851e6cb76b7b719391f"
+fileSize: 67866
+files:
+- name: "exodus.utx"
+  fileSize: 88997
+  hash: "ec81a438fa853d3913861f5d4045910426f804b7"
+- name: "CTF-X-Sandstorm.unr"
+  fileSize: 200166
+  hash: "e8a4ea363739ea4848e2050a9b3fb6b837481587"
+otherFiles: 0
+dependencies:
+  CTF-X-Sandstorm.unr:
+  - status: "MISSING"
+    name: "esflog"
+  - status: "OK"
+    name: "exodus"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-x-sandstorm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/ctf-x-sandstorm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/5/7/43de2a/ctf-x-sandstorm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/X/5/7/43de2a/ctf-x-sandstorm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "}X{ Sandstorm"
+playerCount: "Unknown"
+themes:
+  Egyptian: 0.8
+  Natural: 0.2
+bots: false

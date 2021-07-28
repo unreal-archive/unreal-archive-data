@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 12:54"
+game: "Unreal Tournament 2004"
+name: "CTF-KnightHawk"
+author: "[NBS-t]KnightHäwk"
+description: "My First CTF Map"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-KnightHawk_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/CTF-KnightHawk_shot_1.png"
+originalFilename: "ctf-knighthawk.zip"
+hash: "68c6d0f9f220011a72b564b4fe0738bf29f89061"
+fileSize: 1953460
+files:
+- name: "KnightHawk.utx"
+  fileSize: 4209480
+  hash: "c76cedbe93dc5e12286b536723cfb111fc1291bc"
+- name: "CTF-KnightHawk.ut2"
+  fileSize: 971208
+  hash: "bbce3ac60ace763bd84338454b80be130115d631"
+otherFiles: 1
+dependencies:
+  CTF-KnightHawk.ut2:
+  - status: "OK"
+    name: "KnightHawk"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/ctf-knighthawk.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/6/8/c6d0f9/ctf-knighthawk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/6/8/c6d0f9/ctf-knighthawk.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "KnightHawk's CTF Map"
+playerCount: "2-16"
+themes: {}
+bots: false

@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:09"
+game: "Unreal Tournament"
+name: "CTF-(UTW)Hall_of_Fame2009"
+author: "[UTW]R@m$e$"
+description: "www.ut-world.eu"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-(UTW)Hall_of_Fame2009_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-(UTW)Hall_of_Fame2009_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-(UTW)Hall_of_Fame2009_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-(UTW)Hall_of_Fame2009_shot_1.png"
+originalFilename: "CTF-(UTW)Hall_of_Fame2009.zip"
+hash: "d489a448b22e7f72693b0b1ae4c34cd0728655ba"
+fileSize: 6972314
+files:
+- name: "2000.umx"
+  fileSize: 673950
+  hash: "657e5df2f039d192234638c36165795c3dafd1f2"
+- name: "HourPitores_UT.utx"
+  fileSize: 6266307
+  hash: "28d8b736181a51e9a8363b0668079dedf52856a7"
+- name: "CTF-(UTW)Hall_of_Fame2009.unr"
+  fileSize: 4487096
+  hash: "ae6e05b32b96ae1b0b3d1298a5bd6d0ac15832c4"
+otherFiles: 3
+dependencies:
+  CTF-(UTW)Hall_of_Fame2009.unr:
+  - status: "OK"
+    name: "HourPitores_UT"
+  - status: "OK"
+    name: "2000"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7323"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/CTF-(UTW)Hall_of_Fame2009.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/d/4/89a448/CTF-(UTW)Hall_of_Fame2009.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/d/4/89a448/CTF-(UTW)Hall_of_Fame2009.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Hall of Fame 2009"
+playerCount: "8-24"
+themes:
+  Industrial: 1.0
+bots: true

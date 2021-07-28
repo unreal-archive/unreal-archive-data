@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:47"
+game: "Unreal Tournament"
+name: "DmCanyon"
+author: "SoulReaver(marvin)"
+description: "None"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "DmCanyon.zip"
+hash: "d8bf3ba144fd65eb1981142e4ded3232bd88d5c8"
+fileSize: 1739534
+files:
+- name: "DM-Monsters.utx"
+  fileSize: 265310
+  hash: "cf5ff2f4ce1d46eba14f4b9296ce069f417a2841"
+- name: "CanyonMODS.u"
+  fileSize: 4309
+  hash: "244774a8d31b748665598ea8e52dd21fa87661c5"
+- name: "DmCanyon.unr"
+  fileSize: 3657461
+  hash: "c509e281bd58f18229fd739c577adfe05e5ab46c"
+- name: "DMmonsters.u"
+  fileSize: 27752
+  hash: "11fbfc9e6d626f36cc7a84fbd8301aacca92c6b9"
+- name: "CanyonSOUNDS.uax"
+  fileSize: 370969
+  hash: "e38378f1258690cd9c0be1211055de44f58af8f1"
+otherFiles: 1
+dependencies:
+  DmCanyon.unr:
+  - status: "OK"
+    name: "CanyonMODS"
+  - status: "MISSING"
+    name: "HighestPointTrigger"
+  - status: "OK"
+    name: "DMmonsters"
+  - status: "MISSING"
+    name: "hub2"
+  DMmonsters.u:
+  - status: "OK"
+    name: "DM-Monsters"
+  CanyonMODS.u:
+  - status: "OK"
+    name: "CanyonSOUNDS"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=DmCanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/DmCanyon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsC/DmCanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/d/8/bf3ba1/DmCanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/d/8/bf3ba1/DmCanyon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Harobed Village"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Ancient: 0.1
+  Natural: 0.1
+  Nali Castle: 0.6
+bots: false

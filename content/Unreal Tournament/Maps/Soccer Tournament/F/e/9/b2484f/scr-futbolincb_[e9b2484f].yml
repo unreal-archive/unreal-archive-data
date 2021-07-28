@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:55"
+game: "Unreal Tournament"
+name: "SCR-FutbolinCB"
+author: "-=GDA=-"
+description: "None"
+releaseDate: "2008-02"
+attachments: []
+originalFilename: "SCR-FutbolinCB.rar"
+hash: "e9b2484f8bf359987a4d36409fdcd006dee89b8b"
+fileSize: 881268
+files:
+- name: "SCR-FutbolinCB.unr"
+  fileSize: 598874
+  hash: "55e9dcf10d7fbafd9e2823961a1a9d4987118904"
+- name: "sepiastadium.utx"
+  fileSize: 1417729
+  hash: "0bc8d36a547c110616b5eabc0e27ade34b0da747"
+- name: "futbolin.utx"
+  fileSize: 157080
+  hash: "eaeaabe295b8e7358a0f5a3884d19de4a3a0b2b5"
+otherFiles: 0
+dependencies:
+  SCR-FutbolinCB.unr:
+  - status: "OK"
+    name: "futbolin"
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "MISSING"
+    name: "SoccerScores"
+  - status: "OK"
+    name: "sepiastadium"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-FutbolinCB.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-FutbolinCB.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-FutbolinCB.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-FutbolinCB.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/F/e/9/b2484f/SCR-FutbolinCB.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/F/e/9/b2484f/SCR-FutbolinCB.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "SCR-FB-Futbolin"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Ancient: 0.6
+  Nali Castle: 0.3
+bots: false

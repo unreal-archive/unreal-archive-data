@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:00"
+game: "Unreal Tournament"
+name: "DM-CircleOfDeath"
+author: "Joel \"Scorpion\" Persson"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-CircleOfDeath_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CircleOfDeath_shot_1.png"
+originalFilename: "dm-circleofdeath.zip"
+hash: "b3d14f8549b397e481ece855bcf05aab8ee1e1e3"
+fileSize: 453703
+files:
+- name: "slumber.umx"
+  fileSize: 369507
+  hash: "4b67724e007715323fe3da4244dd06c9109c042a"
+- name: "DM-CircleOfDeath.unr"
+  fileSize: 822620
+  hash: "fb740b1be5a6ccf6500dee77d13cd744145cb2aa"
+otherFiles: 1
+dependencies:
+  DM-CircleOfDeath.unr:
+  - status: "OK"
+    name: "slumber"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-circleofdeath.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-circleofdeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-circleofdeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-circleofdeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/b/3/d14f85/dm-circleofdeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/b/3/d14f85/dm-circleofdeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Circle Of Death"
+playerCount: "2-6"
+themes:
+  Nali Temple: 0.9
+  City: 0.1
+bots: true

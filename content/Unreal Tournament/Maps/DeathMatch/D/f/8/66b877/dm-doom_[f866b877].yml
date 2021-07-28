@@ -1,0 +1,101 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:07"
+game: "Unreal Tournament"
+name: "DM-Doom]["
+author: "TYRANTBOSS"
+description: "None"
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "dm-doom][.zip"
+hash: "f866b877f45a22d69704e0625f2629cf9bbb9ffb"
+fileSize: 4350743
+files:
+- name: "city.utx"
+  fileSize: 89030
+  hash: "0e4300901d9e89e924f2379972a82bf5a026906a"
+- name: "cf_mansion.utx"
+  fileSize: 578642
+  hash: "15bde6db804d7ec3bea6eeae8a3daf3402ba4663"
+- name: "DM-Doom][.unr"
+  fileSize: 847311
+  hash: "9e6991f6f2e32fd52e723507e164494cc98db18f"
+- name: "Tyrant.utx"
+  fileSize: 6997
+  hash: "e101023cb76d9e28a2136642efe050728b756863"
+- name: "AesSedaiT.utx"
+  fileSize: 381042
+  hash: "d93cb768d1b23fee3db6ce075974e59b3cb44770"
+- name: "revenant.utx"
+  fileSize: 709763
+  hash: "ac9a1ff954f1939daac63fcefebda8000825c426"
+- name: "UT.utx"
+  fileSize: 266377
+  hash: "4ddb6ce4cb290b5b291d1017666fe8a809b95838"
+- name: "WOTDetail.utx"
+  fileSize: 266422
+  hash: "9edfd649196295baa343df5b116ee36e00a652d6"
+- name: "Enigma.umx"
+  fileSize: 2010620
+  hash: "4c86a3919d521c7ff524a7b7e01289c5791595d2"
+- name: "MordethT.utx"
+  fileSize: 355182
+  hash: "ffd293e8e801c073e55cc8079c6e0015fda3a6f8"
+otherFiles: 1
+dependencies:
+  MordethT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+  DM-Doom][.unr:
+  - status: "OK"
+    name: "MordethT"
+  - status: "OK"
+    name: "revenant"
+  - status: "OK"
+    name: "AesSedaiT"
+  - status: "OK"
+    name: "Tyrant"
+  - status: "OK"
+    name: "cf_mansion"
+  AesSedaiT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/dm-doom%5D%5B.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsD/&file=dm-doom%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-doom%5D%5B-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-doom%5D%5B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsD/dm-doom%5d%5b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/D/f/8/66b877/dm-doom%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/D/f/8/66b877/dm-doom%255D%255B.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Doom]["
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.7
+  Ancient: 0.1
+  City: 0.1
+  Natural: 0.1
+bots: true

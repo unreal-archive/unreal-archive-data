@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:02"
+game: "Unreal Tournament"
+name: "CTFM-Exyme"
+author: "RJGexplode"
+description: "Go go go!"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-Exyme_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/CTFM-Exyme_shot_2.png"
+- type: "IMAGE"
+  name: "CTFM-Exyme_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/CTFM-Exyme_shot_1.png"
+originalFilename: "ctfm-exyme.zip"
+hash: "418aed87091cd5df9e653416e511ee73c4920f49"
+fileSize: 2931392
+files:
+- name: "necktie.umx"
+  fileSize: 488210
+  hash: "f21caf5b89a389683b2f66a942fcd91feaac9b9b"
+- name: "CTFM-Exyme.unr"
+  fileSize: 446748
+  hash: "064d7fc610ce9c20848fd56a6dcfe2ac91199667"
+- name: "Extro.uax"
+  fileSize: 2871719
+  hash: "235dccf8d1798b9a9df0d3b6c05a78b67a6c7cf2"
+otherFiles: 2
+dependencies:
+  CTFM-Exyme.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "necktie"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/ctfm-exyme.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-exyme.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-exyme.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-exyme.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-exyme.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/4/1/8aed87/ctfm-exyme.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/E/4/1/8aed87/ctfm-exyme.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Exyme"
+playerCount: "4-20"
+themes:
+  Tech: 1.0
+bots: true

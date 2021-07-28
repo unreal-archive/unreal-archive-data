@@ -1,0 +1,91 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:42"
+game: "Unreal"
+name: "DMSniperHarbor"
+author: "!BL��D *IMported from UT by RUSH*"
+description: "None"
+releaseDate: "2004-01"
+attachments: []
+originalFilename: "DM-sniperharbor.zip"
+hash: "597d3e76b28772fe76656cc35164dd105365dc84"
+fileSize: 34915201
+files:
+- name: "ShaneChurch.utx"
+  fileSize: 4398103
+  hash: "9fe9d5f363d2f5e0703d7a32bf8a13106a654271"
+- name: "RainFX.utx"
+  fileSize: 11444974
+  hash: "d00583021fa26e3554f118e8067b76ab0e8fd849"
+- name: "Crypt2.utx"
+  fileSize: 7377678
+  hash: "1bc977a9fb6ac41a426a47ad537651476579115f"
+- name: "UTCrypt.utx"
+  fileSize: 2104426
+  hash: "b93685a0f1bd0e23344e122fda12868079582fa9"
+- name: "DMSniperHarbor.unr"
+  fileSize: 8776400
+  hash: "1db6ddf21f2d0ab8c46b14a743994cfff1e489bc"
+- name: "UTTech2.utx"
+  fileSize: 293309
+  hash: "2789ae4b2e186a7ce62997cedcc57a8a5763c858"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "Sniper.utx"
+  fileSize: 711173
+  hash: "5fd30c12a749c920ae98a3c9443d7663d5230c44"
+- name: "Harbor.utx"
+  fileSize: 1166468
+  hash: "11ae6c157a7d92a3b4236846e063d124191e0111"
+- name: "XbpFX.utx"
+  fileSize: 2431423
+  hash: "3c9a99f5ff60baca8e9cb0046564efba645233fa"
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+otherFiles: 0
+dependencies:
+  DMSniperHarbor.unr:
+  - status: "OK"
+    name: "UTCrypt"
+  - status: "OK"
+    name: "Harbor"
+  - status: "OK"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "UTTech2"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "OK"
+    name: "Sniper"
+  - status: "OK"
+    name: "ShaneChurch"
+  - status: "OK"
+    name: "RainFX"
+  - status: "OK"
+    name: "Crypt2"
+  - status: "OK"
+    name: "XbpFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM-sniperharbor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/5/9/7d3e76/DM-sniperharbor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/5/9/7d3e76/DM-sniperharbor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sniper Harbor"
+playerCount: "6-14"
+themes:
+  Industrial: 0.9
+bots: false

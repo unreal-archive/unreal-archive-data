@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:59"
+game: "Unreal Tournament"
+name: "CTF-Bewildering"
+author: "BeWilderBeest"
+description: "None"
+releaseDate: "2007-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Bewildering_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Bewildering_shot_1.png"
+originalFilename: "CTF-Bewildering.zip"
+hash: "d061aaa580657a6814d4f7799b0e5944e3d16063"
+fileSize: 2145080
+files:
+- name: "6Hcomp.utx"
+  fileSize: 23442
+  hash: "d99110c73a811d00c4cf138045644eaec29cc247"
+- name: "CTF-Bewildering.unr"
+  fileSize: 1580529
+  hash: "9f82122fca382325facef64ebfd01af73f6c2af7"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 0
+dependencies:
+  CTF-Bewildering.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "6Hcomp"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-Bewildering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Bewildering.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/d/0/61aaa5/CTF-Bewildering.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/d/0/61aaa5/CTF-Bewildering.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Bewildering Discharge"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 0.2
+  Indistrial: 0.8
+bots: true

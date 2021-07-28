@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:32"
+game: "Unreal Tournament"
+name: "CTFM-Igloos"
+author: "{G}ABU5E"
+description: "It's Cold Outside!"
+releaseDate: "2013-01"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-igloos_shot_bfe84606_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/I/b/f/e84606/ctfm-igloos_shot_bfe84606_1.png"
+originalFilename: "ctfm-igloos.zip"
+hash: "bfe846068b5393e4417f680672ba212217e0f193"
+fileSize: 2816070
+files:
+- name: "CTF4Team.utx"
+  fileSize: 2918421
+  hash: "1812064a7f8f14b0d9ffe1e114d2992ac05e4b8d"
+- name: "CTFM-Igloos.unr"
+  fileSize: 1735113
+  hash: "9a92fc4d7a098a0fe7bbf5541b64eaabc84990ae"
+otherFiles: 1
+dependencies:
+  CTFM-Igloos.unr:
+  - status: "OK"
+    name: "CTF4Team"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-igloos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-igloos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/I/b/f/e84606/ctfm-igloos.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/I/b/f/e84606/ctfm-igloos.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/I/b/f/e84606/ctfm-igloos.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Icy Igloos"
+playerCount: "4-16"
+themes:
+  Natural: 1.0
+bots: true

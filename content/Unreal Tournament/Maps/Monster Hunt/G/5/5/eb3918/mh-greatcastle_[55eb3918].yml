@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:23"
+game: "Unreal Tournament"
+name: "MH-GreatCastle"
+author: "Cardiologist"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-greatcastle_shot_55eb3918_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/G/5/5/eb3918/mh-greatcastle_shot_55eb3918_1.png"
+originalFilename: "mh-greatcastle.zip"
+hash: "55eb3918382ae52970ad983a6481a37c851fe675"
+fileSize: 1804253
+files:
+- name: "Gala.umx"
+  fileSize: 968143
+  hash: "e16755d37a54e2b3e5540f91481901a41d6e5118"
+- name: "Monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Shutdown.umx"
+  fileSize: 1078663
+  hash: "6c6a1bd2748de0f2c23554b36da2b4adb1224b08"
+- name: "MH-GreatCastle.unr"
+  fileSize: 2006150
+  hash: "6b91bff5f87bbdeafce80fe7d1ffc1371475328b"
+otherFiles: 2
+dependencies:
+  MH-GreatCastle.unr:
+  - status: "OK"
+    name: "Gala"
+  - status: "OK"
+    name: "Shutdown"
+  - status: "OK"
+    name: "Monsterhunt"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-greatcastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/G/mh-greatcastle.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-greatcastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/G/5/5/eb3918/mh-greatcastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/5/5/eb3918/mh-greatcastle.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Great Castle"
+playerCount: "8-16"
+themes:
+  Natural: 0.3
+  Nali Castle: 0.7
+bots: false

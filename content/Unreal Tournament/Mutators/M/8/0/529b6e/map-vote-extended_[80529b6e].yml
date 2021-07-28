@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2020-09-20 11:39"
-variationOf: null
 game: "Unreal Tournament"
 name: "Map Vote Extended"
 author: "Unknown"
@@ -23,10 +22,13 @@ dependencies:
   MVES.u:
   - status: "OK"
     name: "MVE1"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/M/8/0/529b6e/MVE1.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/M/8/0/529b6e/MVE1.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

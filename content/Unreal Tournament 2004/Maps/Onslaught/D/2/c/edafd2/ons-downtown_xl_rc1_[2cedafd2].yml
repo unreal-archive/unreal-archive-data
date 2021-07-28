@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 22:42"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ONS-Downtown_XL_RC1"
 author: "Sanch3z / Crusha K. Rool"
@@ -32,17 +31,18 @@ dependencies:
   ONS-Downtown_XL_RC1.ut2:
   - status: "OK"
     name: "DowntownTex"
-    providedBy: null
   - status: "OK"
     name: "DowntownSM"
-    providedBy: null
   DowntownSM.usx:
   - status: "OK"
     name: "DowntownTex"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/D/2/c/edafd2/ONS-Downtown_XL_RC1.rar"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/D/2/c/edafd2/ONS-Downtown_XL_RC1.rar"
+  main: false
   repack: false
   state: "OK"
 deleted: false

@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:06"
+game: "Unreal Tournament"
+name: "DM-Atlanter"
+author: "Jakub Warenczuk"
+description: "Old wreck"
+releaseDate: "2011-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Atlanter_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-Atlanter_shot_1.png"
+originalFilename: "DM-Atlanter.rar"
+hash: "95b3114ad760947fb8d84d9dacdd58a363cc4eb1"
+fileSize: 1390869
+files:
+- name: "DM-Atlanter.unr"
+  fileSize: 2363668
+  hash: "40d4cd37295d74d274a7eca8c6aaee2f64b317e9"
+- name: "Wrack.utx"
+  fileSize: 956259
+  hash: "0df8a754ab2d621ec556e89d98491606d1e6676a"
+otherFiles: 0
+dependencies:
+  DM-Atlanter.unr:
+  - status: "OK"
+    name: "Wrack"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Atlanter.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/DM-Atlanter.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/9/5/b3114a/DM-Atlanter.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/9/5/b3114a/DM-Atlanter.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Wreck of Atlanter"
+playerCount: "2/12"
+themes:
+  Natural: 1.0
+bots: true

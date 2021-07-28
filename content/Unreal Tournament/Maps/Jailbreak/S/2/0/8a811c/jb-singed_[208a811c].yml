@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 02:13"
+variationOf: "2bf854cff3cea0d41b1fe506e278d528206aa948"
+game: "Unreal Tournament"
+name: "JB-Singed"
+author: "Cory Spooner 'TheSpoonDog'"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "JB-Singed_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/S/JB-Singed_shot_1.png"
+originalFilename: "jb-singed.zip"
+hash: "208a811cc5bd113c3c5809096e3e0fd8566b432f"
+fileSize: 1827362
+files:
+- name: "JailBreak.u"
+  fileSize: 1483009
+  hash: "ce891867bb5d95830a45674ec8cde6c765f01a2f"
+- name: "JB-Singed.unr"
+  fileSize: 4208160
+  hash: "53630e71ccb76078c2d2468f93a72ddb46295840"
+- name: "JBArena.u"
+  fileSize: 93157
+  hash: "289937bfef80b1bd875b6c53e96060119c04369b"
+- name: "JBSpecials.u"
+  fileSize: 324160
+  hash: "ac3ed7c3c3d3fdc9fe8304204f008c495f34c075"
+otherFiles: 1
+dependencies:
+  JBArena.u:
+  - status: "OK"
+    name: "JailBreak"
+  JB-Singed.unr:
+  - status: "OK"
+    name: "JailBreak"
+  - status: "OK"
+    name: "JBArena"
+  - status: "OK"
+    name: "JBSpecials"
+  JailBreak.u:
+  - status: "MISSING"
+    name: "JBAudio"
+  JBSpecials.u:
+  - status: "OK"
+    name: "JailBreak"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-singed.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/S/2/0/8a811c/jb-singed.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/S/2/0/8a811c/jb-singed.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/S/2/0/8a811c/jb-singed.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "Singed"
+playerCount: "6-10"
+themes: {}
+bots: true

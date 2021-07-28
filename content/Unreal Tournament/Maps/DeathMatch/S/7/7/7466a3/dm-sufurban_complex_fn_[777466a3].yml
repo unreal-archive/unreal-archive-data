@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 00:17"
+game: "Unreal Tournament"
+name: "DM-(SUF)Urban_Complex_FN"
+author: "{SUF}Skull_skewer"
+description: "Welcome to UrbanComplex!!"
+releaseDate: "2008-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-(SUF)Urban_Complex_FN_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-(SUF)Urban_Complex_FN_shot_1.png"
+originalFilename: "DM-(SUF)Urban_Complex_FN.zip"
+hash: "777466a31b2a681aff4bc686ab2adf3de87d0e84"
+fileSize: 10930475
+files:
+- name: "UComplex.utx"
+  fileSize: 3040730
+  hash: "1ff79098b1aa44ea6dd722f5e9171680cb7da2c5"
+- name: "DM-(SUF)Urban_Complex_FN.unr"
+  fileSize: 4855793
+  hash: "af7dd4bf85bdce477e118d906a424b0aecae0a2b"
+- name: "BringMeToLife.umx"
+  fileSize: 7619822
+  hash: "0b5c47027a9f6b5a69d49182ece5a18e6ee055ea"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+otherFiles: 0
+dependencies:
+  DM-(SUF)Urban_Complex_FN.unr:
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "BringMeToLife"
+  - status: "OK"
+    name: "UComplex"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-(SUF)Urban_Complex_FN.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%28SUF%29Urban_Complex_FN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/7/7/7466a3/DM-(SUF)Urban_Complex_FN.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/7/7/7466a3/DM-(SUF)Urban_Complex_FN.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "(SUF)UrbanComplex"
+playerCount: "14-18"
+themes:
+  Ancient: 1.0
+bots: false

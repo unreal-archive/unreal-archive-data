@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 11:36"
+game: "Unreal Tournament 2004"
+name: "DM-RamsesPalace"
+author: "VW Man"
+description: "Now lost in the sands of time, Ramses Palace was once a place erected\
+  \ to show off the might and wealth of the pharaohs. It was designed to make visiting\
+  \ kings and dignitaries feel insignificant to the epic size and proportions of Egypt.\
+  \ Now the outside gates are closed forever. Meanwhile the palace door invites you\
+  \ in..."
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-RamsesPalace_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-RamsesPalace_shot_1.png"
+- type: "IMAGE"
+  name: "DM-RamsesPalace_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/DM-RamsesPalace_shot_2.png"
+originalFilename: "ramsespalace.zip"
+hash: "52a09c79ca1d75d6f430f5ed75646ed35bcac7f8"
+fileSize: 7323207
+files:
+- name: "MyPackage.usx"
+  fileSize: 2390386
+  hash: "10e18ea1634c48b25c86e4a9021ff254be7398b3"
+- name: "DM-RamsesPalace.ut2"
+  fileSize: 9067474
+  hash: "fdbd2b2195347bf819facf524a1689f661d7735f"
+- name: "DSjunkmesh.usx"
+  fileSize: 7665673
+  hash: "24f9c50e0189654d27dd83f304c4c4bdf65ff9b6"
+- name: "Ramses.utx"
+  fileSize: 6730325
+  hash: "72dec31a4d745f0a87c9cd6d2479749ebd18d41c"
+otherFiles: 1
+dependencies:
+  MyPackage.usx:
+  - status: "OK"
+    name: "Ramses"
+  DSjunkmesh.usx:
+  - status: "MISSING"
+    name: "DSjunktex"
+  DM-RamsesPalace.ut2:
+  - status: "OK"
+    name: "Ramses"
+  - status: "OK"
+    name: "DSjunkmesh"
+  - status: "OK"
+    name: "MyPackage"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/ramsespalace.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/R/5/2/a09c79/ramsespalace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/5/2/a09c79/ramsespalace.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Ramses Palace"
+playerCount: "2-24"
+themes:
+  Industrial: 0.2
+  Egyptian: 0.6
+  Ancient: 0.1
+  Natural: 0.2
+bots: false

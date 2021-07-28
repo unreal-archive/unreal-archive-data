@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 20:03"
+game: "Unreal Tournament"
+name: "CTFM-WaterHaZZard"
+author: "The Shadow"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "CTFM-WaterHaZZard_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/W/CTFM-WaterHaZZard_shot_1.png"
+originalFilename: "ctfm-waterhazzard.zip"
+hash: "b032f9aadec34f0e2f0213f6828e4ae174d489d2"
+fileSize: 1123547
+files:
+- name: "Crymine.utx"
+  fileSize: 618063
+  hash: "d515d8c4164423c5a48c9af12ee20d265909141d"
+- name: "CTFM-WaterHaZZard.unr"
+  fileSize: 2581718
+  hash: "d92c060bd612500bb0d33a9fdc216a5f21a529a3"
+otherFiles: 2
+dependencies:
+  CTFM-WaterHaZZard.unr:
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "OK"
+    name: "Crymine"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/W/ctfm-waterhazzard.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTFM/&file=ctfm-waterhazzard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=ctfm-waterhazzard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTFM&file=ctfm-waterhazzard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTFM/ctfm-waterhazzard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/W/b/0/32f9aa/ctfm-waterhazzard.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/W/b/0/32f9aa/ctfm-waterhazzard.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "CTFM-WaterHaZZard"
+playerCount: "8-16"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.2
+bots: true

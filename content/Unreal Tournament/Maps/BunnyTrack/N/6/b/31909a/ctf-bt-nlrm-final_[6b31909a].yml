@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-21 19:35"
+game: "Unreal Tournament"
+name: "CTF-BT-NLRM-Final"
+author: "X-Raided"
+description: "None"
+releaseDate: "2014-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-NLRM-Final_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/N/CTF-BT-NLRM-Final_shot_1.png"
+originalFilename: "CTF-BT-NLRM-Final.zip"
+hash: "6b31909a573ec8e47915b65479554b24ee3d0be9"
+fileSize: 8483013
+files:
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "doom_mus02.umx"
+  fileSize: 3610114
+  hash: "62c233273e698b43126d212bf4529dd530319967"
+- name: "CTF-BT-NLRM-Final.unr"
+  fileSize: 2692382
+  hash: "4b5b944987097325dbfa641d5fd4658ca89d3a23"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "DLAncient2.utx"
+  fileSize: 4248770
+  hash: "d7900238f523d0a4028442b440ed1ffbf4c9b110"
+otherFiles: 0
+dependencies:
+  CTF-BT-NLRM-Final.unr:
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "DLAncient2"
+  - status: "OK"
+    name: "Anc"
+  - status: "OK"
+    name: "doom_mus02"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-NLRM-Final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/N/CTF-BT-NLRM-Final.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/N/6/b/31909a/CTF-BT-NLRM-Final.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/N/6/b/31909a/CTF-BT-NLRM-Final.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT: NLRM-Final"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: false

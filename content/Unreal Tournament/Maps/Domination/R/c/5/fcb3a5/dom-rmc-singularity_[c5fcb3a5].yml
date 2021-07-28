@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2021-01-23 02:10"
-variationOf: null
 game: "Unreal Tournament"
 name: "DOM-RMC-Singularity"
 author: "Myth"
@@ -26,13 +25,16 @@ dependencies:
   DOM-RMC-Singularity.unr:
   - status: "OK"
     name: "SGTech1"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/R/c/5/fcb3a5/DOM-RMC-Singularity.zip"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Maps/Domination/&file=DOM-RMC-Singularity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/R/c/5/fcb3a5/DOM-RMC-Singularity.zip"
   main: false
   repack: false
   state: "OK"

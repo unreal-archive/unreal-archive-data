@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 10:22"
+variationOf: "2ce1e0f03a92f242410df005fd83b8faa6865f79"
+game: "Unreal"
+name: "MH-[SP]Portal"
+author: "gopostal"
+description: "None"
+releaseDate: "2011-06"
+attachments:
+- type: "IMAGE"
+  name: "mh-spportal_shot_7610c826_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/7/6/10c826/mh-spportal_shot_7610c826_1.png"
+originalFilename: "MH-[SP]Portal.zip"
+hash: "7610c826689a8108f5543e405b22643e97885c75"
+fileSize: 15509282
+files:
+- name: "portalssnds.uax"
+  fileSize: 9763827
+  hash: "d1b72515f648f1ccfc0ae9d02362bd9185bbbdad"
+- name: "MH-[SP]Portal.unr"
+  fileSize: 16608782
+  hash: "d54d2d761477cc4d36233fbc56a64429b3a2e45e"
+otherFiles: 0
+dependencies:
+  MH-[SP]Portal.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "portalssnds"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "AssaultDecor"
+  - status: "MISSING"
+    name: "AssaultPortalgun"
+  - status: "MISSING"
+    name: "Animal_Pack1"
+  - status: "MISSING"
+    name: "THmapPak"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]Portal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/7/6/10c826/MH-%5BSP%5DPortal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/7/6/10c826/MH-%255BSP%255DPortal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/7/6/10c826/MH-%255BSP%255DPortal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]Portal"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.4
+  Natural: 0.4
+  Skaarj Tech: 0.1
+bots: true

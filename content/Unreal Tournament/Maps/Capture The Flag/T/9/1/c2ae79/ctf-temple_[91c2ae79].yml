@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:14"
+game: "Unreal Tournament"
+name: "CTF-Temple"
+author: "Deepak O V"
+description: "None"
+releaseDate: "2012-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Temple_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-Temple_shot_1.png"
+originalFilename: "CTF-Temple.rar"
+hash: "91c2ae791c79eaee344fe34d2836854722ed1113"
+fileSize: 905870
+files:
+- name: "CTF-Temple.unr"
+  fileSize: 1434216
+  hash: "d774efe635eea5416facc90cac912b3d23f8798a"
+- name: "Return.umx"
+  fileSize: 708319
+  hash: "c3cd70ed751b86e4cc8bdbd237f5b97dbc378783"
+otherFiles: 1
+dependencies:
+  CTF-Temple.unr:
+  - status: "OK"
+    name: "Return"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Temple.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/CTF-Temple.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/9/1/c2ae79/CTF-Temple.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/9/1/c2ae79/CTF-Temple.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Temple"
+playerCount: "2-4"
+themes:
+  Nali Temple: 0.1
+  Ancient: 0.1
+  Natural: 0.7
+  Nali Castle: 0.1
+bots: true

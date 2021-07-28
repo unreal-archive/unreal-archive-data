@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 22:08"
+game: "Unreal Tournament 2004"
+name: "DM-WauzKitchen"
+author: "Paul Forschelen"
+description: "You're being thrown into the gigantic room called WauzKitchen. You,\
+  \ as a very little person, have to find your way around across the map. Be aware\
+  \ of your smallness, you might get hurt whenever you jump from too high spots. Now\
+  \ take a look at my map and enjoy!!"
+releaseDate: "2008-09"
+attachments: []
+originalFilename: "dmwauzkitchen.rar"
+hash: "49a4a6e78a022e1e8c5c8634a0a82c221b47c30f"
+fileSize: 19099737
+files:
+- name: "Rebirthing.ogg"
+  fileSize: 3911381
+  hash: "2b0a96b93dff2c41c5139020d61fd037391fbf8c"
+- name: "DM-WauzKitchen.ut2"
+  fileSize: 1889539
+  hash: "d894926aff49d6b56c15cb822c8f9ec6af9e2af7"
+- name: "WauzKitchenMesh.usx"
+  fileSize: 18781669
+  hash: "55a70bc3f0d4efb80c740b40a1503e952efa3f56"
+- name: "WauzKitchenTex.utx"
+  fileSize: 16880289
+  hash: "4d6cff23fdd2b435f9531203bbc68c73c64fc87e"
+otherFiles: 2
+dependencies:
+  WauzKitchenMesh.usx:
+  - status: "OK"
+    name: "WauzKitchenTex"
+  DM-WauzKitchen.ut2:
+  - status: "OK"
+    name: "WauzKitchenTex"
+  - status: "OK"
+    name: "WauzKitchenMesh"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=12244092"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/W/dmwauzkitchen.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/W/4/9/a4a6e7/dmwauzkitchen.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/W/4/9/a4a6e7/dmwauzkitchen.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Kitchen"
+playerCount: "12-20"
+themes: {}
+bots: true

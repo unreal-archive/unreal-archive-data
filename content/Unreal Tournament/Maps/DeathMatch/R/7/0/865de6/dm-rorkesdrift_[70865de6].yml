@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:06"
+game: "Unreal Tournament"
+name: "DM-RorkesDrift"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-rorkesdrift_shot_70865de6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/7/0/865de6/dm-rorkesdrift_shot_70865de6_1.png"
+originalFilename: "DM-RorkesDrift.zip"
+hash: "70865de6535f5dd8b15b93fccfbb4240f03e889a"
+fileSize: 2678481
+files:
+- name: "Driftpak.utx"
+  fileSize: 788356
+  hash: "750bfd54460913efa499cfba7c16197c8828b230"
+- name: "DM-RorkesDrift.unr"
+  fileSize: 1545600
+  hash: "bfc226858ced27b51c6b41d90df61c2125b63994"
+- name: "driftsnds.uax"
+  fileSize: 174365
+  hash: "c7decac3a0f339ad5cdca5f269752627bfe4fdef"
+- name: "Drftdecos.u"
+  fileSize: 59921
+  hash: "636c35b3aaf86e18a7757afbd9cb73a07dee1ea1"
+- name: "Driftex.utx"
+  fileSize: 2025300
+  hash: "2b933f418a1c5f2c3dd2e229f79816c7f8a11ecc"
+otherFiles: 0
+dependencies:
+  Drftdecos.u:
+  - status: "OK"
+    name: "Driftpak"
+  DM-RorkesDrift.unr:
+  - status: "OK"
+    name: "driftsnds"
+  - status: "OK"
+    name: "Driftpak"
+  - status: "OK"
+    name: "Driftex"
+  - status: "OK"
+    name: "Drftdecos"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-RorkesDrift.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/7/0/865de6/DM-RorkesDrift.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/7/0/865de6/DM-RorkesDrift.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/7/0/865de6/DM-RorkesDrift.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-RorkesDrift"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

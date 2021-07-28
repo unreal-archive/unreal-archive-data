@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:43"
+game: "Unreal Tournament"
+name: "CTF-'Z-RimeIsleFIXED"
+author: "I fixed this"
+description: "Fixed by Z A C dopee nuff"
+releaseDate: "2012-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-'Z-RimeIsleFIXED_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/CTF-'Z-RimeIsleFIXED_shot_1.png"
+originalFilename: "CTF-'Z-RimeIsleFIXED.zip"
+hash: "c8d92835cdc0c3f807cd79023a6117af01278541"
+fileSize: 3335699
+files:
+- name: "ZacPackFIXLOGO.utx"
+  fileSize: 790688
+  hash: "4c300c47bf1047c9734c9ceed77e007469fe9db2"
+- name: "CTF-'Z-RimeIsleFIXED.unr"
+  fileSize: 6148420
+  hash: "9150b8147af755be227f882c7fdae82ff5a0dc43"
+- name: "ZacPackCTF.utx"
+  fileSize: 2137352
+  hash: "3fc013ea9ad50300e2b666f83ab16dc1a21a01df"
+otherFiles: 0
+dependencies:
+  CTF-'Z-RimeIsleFIXED.unr:
+  - status: "OK"
+    name: "ZacPackCTF"
+  - status: "MISSING"
+    name: "RazorubArrange"
+  - status: "OK"
+    name: "ZacPackFIXLOGO"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-%27Z-RimeIsleFIXED.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/CTF-'Z-RimeIsleFIXED.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/c/8/d92835/CTF-'Z-RimeIsleFIXED.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/Z/c/8/d92835/CTF-'Z-RimeIsleFIXED.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "RimeIsle FIXED By Z A C"
+playerCount: "10 - 16"
+themes:
+  Ancient: 0.8
+  Egyptian: 0.1
+  Natural: 0.1
+bots: true

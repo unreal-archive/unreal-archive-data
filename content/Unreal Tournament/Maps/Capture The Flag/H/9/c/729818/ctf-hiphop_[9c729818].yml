@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:25"
+game: "Unreal Tournament"
+name: "CTF-HipHop"
+author: "Esko 'Varpu' Ilola, Music: Kalle and Viljami"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-hiphop_shot_9c729818_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/9/c/729818/ctf-hiphop_shot_9c729818_1.png"
+originalFilename: "ctf-hiphop-v01.zip"
+hash: "9c72981879300b0a85180c1843ecf1403082df1c"
+fileSize: 2830072
+files:
+- name: "HipHopIntro.umx"
+  fileSize: 549668
+  hash: "7d389436f8cb79fb6e6c8c3cda614e9537b5acb4"
+- name: "HipHop2.umx"
+  fileSize: 166355
+  hash: "7d7882eafeeecd4b2656e9cf475de68f834223d0"
+- name: "HipHop3.umx"
+  fileSize: 83360
+  hash: "4dd098eac0f50f063e6fbe25dbc5e30e15f97d9b"
+- name: "HipHop4.umx"
+  fileSize: 69987
+  hash: "0dbcb5b8594a7cbc1b18f8dd2e4cfb0e568e0fff"
+- name: "CTF-HipHop.unr"
+  fileSize: 4007909
+  hash: "cabe29bf2c2be3b5281600d56bcd32927dfdf02e"
+- name: "HipHop5.umx"
+  fileSize: 266858
+  hash: "9e1684411f412b12dc83d2aa28604abf98b5d1e6"
+- name: "Disease.u"
+  fileSize: 10774
+  hash: "85abf867a5ee163c28361c55a1babfb14356f532"
+- name: "HipHop1.umx"
+  fileSize: 181437
+  hash: "c1eb83b11d65b8230bbf2c891b793feb72f195df"
+otherFiles: 1
+dependencies:
+  CTF-HipHop.unr:
+  - status: "OK"
+    name: "HipHop4"
+  - status: "OK"
+    name: "HipHop5"
+  - status: "OK"
+    name: "HipHop2"
+  - status: "OK"
+    name: "HipHop3"
+  - status: "OK"
+    name: "Disease"
+  - status: "OK"
+    name: "HipHopIntro"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/ctf-hiphop-v01.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsH/&file=ctf-hiphop-v01.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-hiphop-v01.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-hiphop-v01.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsH/ctf-hiphop-v01.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/9/c/729818/ctf-hiphop-v01.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/9/c/729818/ctf-hiphop-v01.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Hip Hop"
+playerCount: "6-16"
+themes: {}
+bots: true

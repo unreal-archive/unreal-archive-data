@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:02"
+variationOf: "2a9df4d60efc9900e6634dbd319f6e44dfd51d27"
+game: "Unreal Tournament"
+name: "DM-MosEisley-night"
+author: "BadKarma"
+description: "None"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-moseisley-night_shot_0a634282_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/0/a/634282/dm-moseisley-night_shot_0a634282_1.png"
+originalFilename: "DM-MosEisley-night.zip"
+hash: "0a6342827e700e71f3bd0c748a0c4efefd3f43cc"
+fileSize: 3882877
+files:
+- name: "SW1.umx"
+  fileSize: 2174542
+  hash: "95f41e0f7fdb94a9d10d2bb1e6b47d084c4a6d12"
+- name: "Mos-Eisley.utx"
+  fileSize: 2111684
+  hash: "294e5d798a56daf0833c958a0db2f431b6dd9732"
+- name: "DM-MosEisley-night.unr"
+  fileSize: 5767488
+  hash: "4fb54a144848af6ba4a1f75341b4a81805d5189c"
+otherFiles: 1
+dependencies:
+  DM-MosEisley-night.unr:
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "Mos-Eisley"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/0/a/634282/DM-MosEisley-night.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/0/a/634282/DM-MosEisley-night.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/0/a/634282/DM-MosEisley-night.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Mos-Eisley-night"
+playerCount: "8-14"
+themes:
+  Nali Temple: 0.3
+  Tech: 0.5
+  Ancient: 0.1
+bots: true

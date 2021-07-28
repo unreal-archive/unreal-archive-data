@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 14:46"
+game: "Unreal Tournament"
+name: "CTF-BT-RobinHood"
+author: "BlinDer`"
+description: "BT-RobinHood - Enjoy!"
+releaseDate: "2007-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-RobinHood_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-RobinHood_shot_1.png"
+originalFilename: "CTF-BT-RobinHood.zip"
+hash: "a763d2704b0eb3614e7d231e4bb585ac368134c5"
+fileSize: 23218460
+files:
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "WOTDetail.utx"
+  fileSize: 89046
+  hash: "102e6f2704d6ffbed60649b5903121cb9281e021"
+- name: "CTF-BT-RobinHood.unr"
+  fileSize: 26648332
+  hash: "e77dce037bb7664d1227a5220e95d4e71312591a"
+- name: "Thronez.utx"
+  fileSize: 5650779
+  hash: "91b9b0b5906f4c19c0c6d53f2187e712abd87cc8"
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+otherFiles: 1
+dependencies:
+  CTF-BT-RobinHood.unr:
+  - status: "OK"
+    name: "Thronez"
+  - status: "OK"
+    name: "ForsakenT"
+  - status: "OK"
+    name: "Tree_PACK1"
+  ForsakenT.utx:
+  - status: "PARTIAL"
+    name: "WOTDetail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-RobinHood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-RobinHood.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-RobinHood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/R/a/7/63d270/CTF-BT-RobinHood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/a/7/63d270/CTF-BT-RobinHood.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-RobinHood"
+playerCount: "2-12"
+themes:
+  Ancient: 0.1
+  Natural: 0.4
+  Nali Castle: 0.5
+bots: false

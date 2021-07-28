@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-04 02:48"
-variationOf: null
 game: "Unreal Tournament"
 name: "XMaps"
 author: "Unknown"
@@ -80,13 +79,16 @@ dependencies:
   XMaps.u:
   - status: "OK"
     name: "XMapsClient232"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/X/XMapsv232_Umod.rar"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/X/9/a/ee5cd1/XMapsv232_Umod.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/X/9/a/ee5cd1/XMapsv232_Umod.rar"
   main: false
   repack: false
   state: "OK"

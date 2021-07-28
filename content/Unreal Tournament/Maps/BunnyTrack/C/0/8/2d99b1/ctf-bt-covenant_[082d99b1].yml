@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:32"
+game: "Unreal Tournament"
+name: "CTF-BT-Covenant"
+author: "Splashy"
+description: "None"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Covenant_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/C/CTF-BT-Covenant_shot_1.png"
+originalFilename: "CTF-BT-Covenant.zip"
+hash: "082d99b1a407578c178974628f36082a9c711ab3"
+fileSize: 29708029
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "CTF-BT-Covenant.unr"
+  fileSize: 15638442
+  hash: "24edb7596bcceedf5a6b69b553a421e8dc797797"
+- name: "SplashTunes.umx"
+  fileSize: 3422078
+  hash: "206bbe466e1e75fc7fe2ff3486ec5b7393c84187"
+- name: "quake3.utx"
+  fileSize: 20127764
+  hash: "68bc9bcad42cc943643aacdd071b2f82d31a5a16"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  CTF-BT-Covenant.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "SplashTunes"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "quake3"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Covenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/C/CTF-BT-Covenant.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/C/0/8/2d99b1/CTF-BT-Covenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/C/0/8/2d99b1/CTF-BT-Covenant.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-Covenant"
+playerCount: "12"
+themes:
+  Industrial: 0.9
+bots: false

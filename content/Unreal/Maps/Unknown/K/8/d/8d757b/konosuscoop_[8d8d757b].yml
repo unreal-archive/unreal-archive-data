@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:29"
+game: "Unreal"
+name: "KonosusCoop"
+author: "MP by Robert Wey  - SP by W3RM"
+description: "None"
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "KonosusCoop.zip"
+hash: "8d8d757ba504cc79518d525923dd3e99967cc19a"
+fileSize: 3821887
+files:
+- name: "KonosusCoop.unr"
+  fileSize: 5428269
+  hash: "a07c80aeff5f0354146af2502ded0a4d0ff7238d"
+- name: "UPakGuns.u"
+  fileSize: 2948041
+  hash: "bc2b61e3b708523068d37b7d1aa9eaf91eb80714"
+- name: "CT2.utx"
+  fileSize: 529198
+  hash: "b0d2b8ac3e969458b801a06cd6768a6a361dca2d"
+otherFiles: 0
+dependencies:
+  KonosusCoop.unr:
+  - status: "OK"
+    name: "UPakGuns"
+  - status: "OK"
+    name: "CT2"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/coop_maps/KonosusCoop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/K/8/d/8d757b/KonosusCoop.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/K/8/d/8d757b/KonosusCoop.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/K/8/d/8d757b/KonosusCoop.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Unknown"
+title: "Konosus"
+playerCount: "10"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.5
+  Skaarj Tech: 0.4
+bots: true

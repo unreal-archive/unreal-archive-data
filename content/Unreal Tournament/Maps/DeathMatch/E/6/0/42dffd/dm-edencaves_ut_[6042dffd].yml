@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:08"
+game: "Unreal Tournament"
+name: "DM-EdenCaves_UT"
+author: "Orion(co30), aka Francois Lacombe."
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-EdenCaves_UT_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/DM-EdenCaves_UT_shot_1.png"
+originalFilename: "dm-edencaves_ut.zip"
+hash: "6042dffd22e83da769d0a4e8f8302ce3c9351811"
+fileSize: 5382233
+files:
+- name: "DM-EdenCaves_UT.unr"
+  fileSize: 2887845
+  hash: "1cfbbc6cf17b1b81c1f4502e661f40650b28f248"
+- name: "supernova.umx"
+  fileSize: 5243524
+  hash: "89215e858c91676dc60513573738f6cebb890ae5"
+otherFiles: 1
+dependencies:
+  DM-EdenCaves_UT.unr:
+  - status: "OK"
+    name: "supernova"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-edencaves_ut.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsE/&file=dm-edencaves_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-edencaves_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsE/dm-edencaves_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/6/0/42dffd/dm-edencaves_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/6/0/42dffd/dm-edencaves_ut.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The caves of Eden"
+playerCount: "For anything over 8"
+themes:
+  Natural: 1.0
+bots: true

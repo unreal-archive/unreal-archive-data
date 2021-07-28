@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:43"
+game: "Unreal Tournament"
+name: "DM-INF-Bunkers"
+author: "ThunderChunky"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Bunkers_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Bunkers_shot_1.png"
+originalFilename: "dm-inf-bunkers.zip"
+hash: "bc36dacc76afd17f5895e79d14c058eb8d8ec131"
+fileSize: 2194795
+files:
+- name: "tc_bunkers.utx"
+  fileSize: 2728433
+  hash: "03885b5dd2aa6e3342fa93799644972ff7984ece"
+- name: "DM-INF-Bunkers.unr"
+  fileSize: 1230892
+  hash: "6341c3354c2342dfe49a8d110ecfdd69eff48e88"
+otherFiles: 0
+dependencies:
+  DM-INF-Bunkers.unr:
+  - status: "MISSING"
+    name: "rw_TPack4"
+  - status: "OK"
+    name: "tc_bunkers"
+  - status: "MISSING"
+    name: "Inf_siberiatex"
+  - status: "MISSING"
+    name: "rw_TPack2"
+  tc_bunkers.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=dm-inf-bunkers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/dm-inf-bunkers.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/B/b/c/36dacc/dm-inf-bunkers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/B/b/c/36dacc/dm-inf-bunkers.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Bunkers"
+playerCount: "8-16"
+themes:
+  City: 0.2
+  Natural: 0.8
+bots: true

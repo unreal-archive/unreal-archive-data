@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:53"
+game: "Unreal"
+name: "DMKonosus"
+author: "Robert A. Wey,  diinc@ecenet.com"
+description: "The Secret of Minos"
+releaseDate: "1999-04"
+attachments: []
+originalFilename: "dmkonosus.zip"
+hash: "51788ee4d7533971c9cf5d20c7af9fe3b865af95"
+fileSize: 1754255
+files:
+- name: "DMKonosus.unr"
+  fileSize: 5117012
+  hash: "4b4056d7c3f865995a2e437cd6a957089a5bc71e"
+- name: "CT2.utx"
+  fileSize: 529198
+  hash: "b0d2b8ac3e969458b801a06cd6768a6a361dca2d"
+otherFiles: 1
+dependencies:
+  DMKonosus.unr:
+  - status: "OK"
+    name: "CT2"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsK/&file=dmkonosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/K/dmkonosus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsK/dmkonosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/K/5/1/788ee4/dmkonosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/K/5/1/788ee4/dmkonosus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Konosus"
+playerCount: "16"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.5
+  Skaarj Tech: 0.4
+bots: true

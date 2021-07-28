@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:50"
+game: "Unreal Tournament"
+name: "MH-(WM)SpawnKill"
+author: "DAG (War Master)"
+description: "Fight against the Protectors and Titaneous"
+releaseDate: "2004-09"
+attachments: []
+originalFilename: "mh-wmspawnkill.zip"
+hash: "df46f5a1b8c0cd7c37fe0e28ce309accaabe8d1f"
+fileSize: 954737
+files:
+- name: "MH-(WM)SpawnKill.unr"
+  fileSize: 667681
+  hash: "3698124a7f7a7ace50ecd9afbc2ab0c31ced9dce"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "PAIN.umx"
+  fileSize: 207514
+  hash: "69ad92efea0af2378fc5aabb403842c1911fd9af"
+otherFiles: 0
+dependencies:
+  MH-(WM)SpawnKill.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "PAIN"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-wmspawnkill.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/W/mh-wmspawnkill.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-wmspawnkill.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/W/d/f/46f5a1/mh-wmspawnkill.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/W/d/f/46f5a1/mh-wmspawnkill.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-(WM)SpawnKill"
+playerCount: "8-12"
+themes:
+  Industrial: 0.6
+  Skaarj Tech: 0.4
+bots: false

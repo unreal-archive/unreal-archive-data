@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:21"
+game: "Unreal Tournament"
+name: "DM-UpInSpace"
+author: "²°K!l_l_å°³"
+description: "My Map"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-UpInSpace_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UpInSpace_shot_1.png"
+originalFilename: "dm-upinspace.zip"
+hash: "416fff5ba373f75e9e0c8e7a37cb9f795b8a107d"
+fileSize: 6575722
+files:
+- name: "2000.umx"
+  fileSize: 673950
+  hash: "657e5df2f039d192234638c36165795c3dafd1f2"
+- name: "sksclan10.utx"
+  fileSize: 2462438
+  hash: "0be90c5645d6ea5539024e6df46b3f80d7129035"
+- name: "GenFluid.utx"
+  fileSize: 5510043
+  hash: "5ee9f593826f9099b6a94457e38942cf13c31bf8"
+- name: "DM-UpInSpace.unr"
+  fileSize: 2684633
+  hash: "f4e52753d23a8f15b8bf193cf5fe381ae8cdc8fa"
+otherFiles: 1
+dependencies:
+  DM-UpInSpace.unr:
+  - status: "OK"
+    name: "sksclan10"
+  - status: "OK"
+    name: "2000"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-upinspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-upinspace.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2406"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/4/1/6fff5b/dm-upinspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/4/1/6fff5b/dm-upinspace.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Up Up In Space"
+playerCount: "4-20"
+themes: {}
+bots: false

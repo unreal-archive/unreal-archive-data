@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:50"
+game: "Unreal Tournament"
+name: "DM-RecPool[FBI]"
+author: "[FBI]MadSquirrel"
+description: "Swim at your own risk.  Don't pee in the pool."
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-RecPool[FBI]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-RecPool%5BFBI%5D_shot_1.png"
+originalFilename: "DM-RecPool[FBI].zip"
+hash: "06ddc7ce367daa57ae74fb0b8e3fcdddd117ec78"
+fileSize: 8198648
+files:
+- name: "Aenima.umx"
+  fileSize: 8668713
+  hash: "6ec8d1ac8163fbeab5f6134ac69351d704d4e271"
+- name: "rec_pool.utx"
+  fileSize: 1221620
+  hash: "51f289525608a8327a9a4cc1fcddb0770794b434"
+- name: "DM-RecPool[FBI].unr"
+  fileSize: 3835825
+  hash: "acf66c72452dd447e18375ee2deb62a19357cfc9"
+otherFiles: 1
+dependencies:
+  DM-RecPool[FBI].unr:
+  - status: "OK"
+    name: "rec_pool"
+  - status: "OK"
+    name: "Aenima"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/DM-RecPool%5BFBI%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-RecPool%5BFBI%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4255"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/0/6/ddc7ce/DM-RecPool%255BFBI%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/0/6/ddc7ce/DM-RecPool%255BFBI%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-RecPool[FBI]"
+playerCount: "10-16"
+themes:
+  Skaarj Crypt: 0.3
+  City: 0.1
+  Natural: 0.6
+bots: false

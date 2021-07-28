@@ -1,0 +1,84 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-19 22:13"
+game: "Unreal Tournament 2004"
+name: "Arkonweapons Betav03"
+author: "Donator"
+description: "None"
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_1.png"
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_5.png"
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_7.png"
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_2.png"
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_4.png"
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_6.png"
+- type: "IMAGE"
+  name: "Arkonweapons_Betav03_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/Arkonweapons_Betav03_shot_3.png"
+originalFilename: "arkonweapons_betav03.zip"
+hash: "ce17961184ea715cfba0d2a5375b779270e29a9e"
+fileSize: 7131593
+files:
+- name: "ArkonShields.u"
+  fileSize: 21608
+  hash: "50e5c3e8f37a70d1982d565aea3b7202328db2f6"
+- name: "ArkonWeapons.u"
+  fileSize: 613344
+  hash: "08d90b528439aa359db05044eda9dd1cdcda0781"
+- name: "ArkonShields.utx"
+  fileSize: 652
+  hash: "9f7fc3d233a6f96adcd0a41bba2c6325e4e16dee"
+- name: "ArkonWeaponsTex.utx"
+  fileSize: 17314604
+  hash: "560db2c7b332508e2eb55751d0ed61a4ba3f32cc"
+- name: "ArkonWeaponsSMesh.usx"
+  fileSize: 2010719
+  hash: "f096bd6b24bccdf3108568f04e8da849753ff534"
+otherFiles: 10
+dependencies:
+  ArkonWeapons.u:
+  - status: "OK"
+    name: "ArkonWeaponsSMesh"
+  - status: "OK"
+    name: "ArkonShields"
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+  ArkonWeaponsSMesh.usx:
+  - status: "OK"
+    name: "ArkonWeaponsTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/arkonweapons_betav03.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/A/c/e/179611/arkonweapons_betav03.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/c/e/179611/arkonweapons_betav03.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "ArkonWeapons"
+  description: ""
+- name: "ArkonShields"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

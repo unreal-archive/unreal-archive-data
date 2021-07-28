@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 03:57"
+game: "Unreal Tournament"
+name: "CTF-AtomicCoret"
+author: "Miltiades (clan: *4FF*)"
+description: "Welcome in my level,if you have suggestions: miltiades@free.fr"
+releaseDate: "2000-04"
+attachments: []
+originalFilename: "ctf-atomiccoret.rar"
+hash: "0550632033693d4b5cd9b229bf6d1c162d3db79e"
+fileSize: 1491169
+files:
+- name: "CTF-AtomicCoret.unr"
+  fileSize: 3765918
+  hash: "9a8a9f595d839a12a42a56797019769b7bf50df5"
+- name: "gateways.umx"
+  fileSize: 1025666
+  hash: "d5336d997f7406403ffda19c8f83d6091a4ff9a2"
+otherFiles: 1
+dependencies:
+  CTF-AtomicCoret.unr:
+  - status: "OK"
+    name: "gateways"
+  - status: "MISSING"
+    name: "Deck16"
+  - status: "MISSING"
+    name: "AtomicCoret"
+  - status: "MISSING"
+    name: "QUAKE3c"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-atomiccoret.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-atomiccoret.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/0/5/506320/ctf-atomiccoret.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/0/5/506320/ctf-atomiccoret.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Atomic Coret Facility"
+playerCount: "10-16"
+themes:
+  Tech: 0.4
+  Industrial: 0.5
+bots: true

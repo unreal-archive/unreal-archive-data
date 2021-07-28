@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:23"
+game: "Unreal Tournament"
+name: "DM-!!![Mini-Me]"
+author: "http://ut99maps.wordpress.com"
+description: "None"
+releaseDate: "2011-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-!!![Mini-Me]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-!!!%5BMini-Me%5D_shot_1.png"
+originalFilename: "DM-Mini-Me.rar"
+hash: "b488c5be79a2d75ccfdb5e24898884f458541090"
+fileSize: 17215715
+files:
+- name: "!!!minime.utx"
+  fileSize: 6993680
+  hash: "33c2dba8937793ee675965413f85a1a4d79d16cf"
+- name: "Their-Law.umx"
+  fileSize: 17647105
+  hash: "22af22b9433894cdd73602876c0c814be4765996"
+- name: "DM-!!![Mini-Me].unr"
+  fileSize: 2381020
+  hash: "762df7c53d71156a5aa9207da17506067e9695e2"
+otherFiles: 1
+dependencies:
+  DM-!!![Mini-Me].unr:
+  - status: "OK"
+    name: "Their-Law"
+  - status: "OK"
+    name: "!!!minime"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Mini-Me.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/DM-Mini-Me.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/b/4/88c5be/DM-Mini-Me.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/b/4/88c5be/DM-Mini-Me.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Mini-Me"
+playerCount: "999"
+themes:
+  Ancient: 0.2
+  City: 0.7
+bots: true

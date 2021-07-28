@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 06:40"
+game: "Unreal Tournament"
+name: "BT-TombRaider-v1b"
+author: "Big Bull3t aka {DSI}Anghellic"
+description: "None"
+releaseDate: "2006-12"
+attachments:
+- type: "IMAGE"
+  name: "BT-TombRaider-v1b_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/T/BT-TombRaider-v1b_shot_1.png"
+originalFilename: "bt-tombraider-v1b.zip"
+hash: "027c39c3b7024ac7ab81096682540f6a927e1b09"
+fileSize: 17139532
+files:
+- name: "BT-TombRaider-v1b.unr"
+  fileSize: 13567345
+  hash: "dcdc754d0523d484d6d755c6fd2cea21c704cdbf"
+- name: "LaraMelody.umx"
+  fileSize: 11272816
+  hash: "4e484699f13b1f5c69f770be5bfde3b2ba49618b"
+- name: "LaraCroft.u"
+  fileSize: 1976226
+  hash: "9c145efdcdfa0e091aefb845c6a146082d87ec66"
+- name: "TombRaider.utx"
+  fileSize: 2650821
+  hash: "6cb49835371e350f8bd8c3ccbcb487ef471f3f38"
+otherFiles: 1
+dependencies:
+  BT-TombRaider-v1b.unr:
+  - status: "OK"
+    name: "LaraCroft"
+  - status: "OK"
+    name: "LaraMelody"
+  - status: "OK"
+    name: "TombRaider"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-tombraider-v1b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/T/bt-tombraider-v1b.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-tombraider-v1b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-tombraider-v1b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/T/0/2/7c39c3/bt-tombraider-v1b.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/T/0/2/7c39c3/bt-tombraider-v1b.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Lara Croft's Mansion"
+playerCount: "2-12"
+themes:
+  Nali Temple: 0.2
+  Industrial: 0.4
+  Ancient: 0.4
+  Natural: 0.1
+bots: false

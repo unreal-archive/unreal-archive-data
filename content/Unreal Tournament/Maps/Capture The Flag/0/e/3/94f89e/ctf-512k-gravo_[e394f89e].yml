@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 00:53"
+game: "Unreal Tournament"
+name: "CTF-512K-Gravo"
+author: "SpEcTra_7 a.k.a Rocky"
+description: "None"
+releaseDate: "2014-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-512K-Gravo_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-512K-Gravo_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-512K-Gravo_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-512K-Gravo_shot_1.png"
+originalFilename: "CTF-512K-Gravo.zip"
+hash: "e394f89e1e57e951d1a706eee9326b39f8270b37"
+fileSize: 3137922
+files:
+- name: "CTF-512K-Gravo.unr"
+  fileSize: 520520
+  hash: "03e72ce88ad1dd7dc385562b7c4044ec7653f7bd"
+- name: "KR-Corrugation.umx"
+  fileSize: 4136075
+  hash: "412ab9c08026c8e0e5b830ac151407c4c495a87e"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 2
+dependencies:
+  CTF-512K-Gravo.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "KR-Corrugation"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-512K-Gravo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-512K-Gravo.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/e/3/94f89e/CTF-512K-Gravo.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/e/3/94f89e/CTF-512K-Gravo.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Gravo"
+playerCount: "5-10"
+themes:
+  Industrial: 1.0
+bots: true

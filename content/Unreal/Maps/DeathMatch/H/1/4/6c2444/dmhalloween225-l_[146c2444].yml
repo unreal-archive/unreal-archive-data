@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-17 15:00"
+game: "Unreal"
+name: "DmHalloween225-L"
+author: "J.  Martin. www.geocities.com/j4unreal"
+description: "Trick or Treat!"
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "dmhalloween_146c2444.zip"
+hash: "146c2444a6a435764f60ddb40833fee1e4e7f1e6"
+fileSize: 2685459
+files:
+- name: "HalloweenSounds.uax"
+  fileSize: 687414
+  hash: "1dca5ecffbf16a1b343ef334dd7c7819c0eef2c9"
+- name: "DmHalloween225-L.unr"
+  fileSize: 3405470
+  hash: "b21e890137de0367f5c0edc218a7acd25ad4b232"
+- name: "HalloweenTex.utx"
+  fileSize: 3093992
+  hash: "7782ebaa03059e73c5105ec19d251a3fd0a3f99f"
+otherFiles: 1
+dependencies:
+  DmHalloween225-L.unr:
+  - status: "OK"
+    name: "HalloweenTex"
+  - status: "OK"
+    name: "HalloweenSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/H/dmhalloween_146c2444.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/H/1/4/6c2444/dmhalloween_146c2444.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/H/1/4/6c2444/dmhalloween_146c2444.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Halloween"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.7
+bots: true

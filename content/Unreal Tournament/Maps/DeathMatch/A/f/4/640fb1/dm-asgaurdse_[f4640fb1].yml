@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:06"
+game: "Unreal Tournament"
+name: "DM-AsgaurdSE"
+author: "Brandon\"BranDoom\"Flowers"
+description: "Version SE"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-AsgaurdSE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/DM-AsgaurdSE_shot_1.png"
+originalFilename: "dm-asgaurdse.zip"
+hash: "f4640fb1dbc0551e0938abeca14d7d9f287254cb"
+fileSize: 3715212
+files:
+- name: "DM-AsgaurdSE.unr"
+  fileSize: 7175584
+  hash: "08b0c52d8a9fd934040c84a4b499863978e041a5"
+- name: "Asgaurd.utx"
+  fileSize: 1069655
+  hash: "c5249edce78d2a60fa5c74a008013fd2c823caf5"
+- name: "Zan_oc.umx"
+  fileSize: 1196663
+  hash: "83d445054a8a4b04790e2799f9eb809f51507b5f"
+otherFiles: 1
+dependencies:
+  DM-AsgaurdSE.unr:
+  - status: "OK"
+    name: "Zan_oc"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "OK"
+    name: "Asgaurd"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-asgaurdse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/dm-asgaurdse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=588"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/f/4/640fb1/dm-asgaurdse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/f/4/640fb1/dm-asgaurdse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Asguärd CompoundSE"
+playerCount: "2-10"
+themes:
+  Indistrial: 1.0
+bots: true

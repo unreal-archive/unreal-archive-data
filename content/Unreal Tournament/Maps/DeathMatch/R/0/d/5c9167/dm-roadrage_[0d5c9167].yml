@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 17:05"
+game: "Unreal Tournament"
+name: "DM-RoadRage"
+author: "Mr.Phantastic"
+description: "Kill Them All"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-RoadRage_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-RoadRage_shot_1.png"
+originalFilename: "DM-RoadRage.zip"
+hash: "0d5c916709c59d63c7cfddca129cd6463323ef0c"
+fileSize: 3500555
+files:
+- name: "Engine.utx"
+  fileSize: 1140892
+  hash: "710454a81696af74fe82a4eb6a56fb0fd159dc21"
+- name: "a3text.utx"
+  fileSize: 2068743
+  hash: "81a074aab84063b063c12f0a4be2916d7a8a3276"
+- name: "Store.utx"
+  fileSize: 2461664
+  hash: "c4d6f4c1d86fcf07dee2fae3250d3db39ab35d4f"
+- name: "MyLevel.utx"
+  fileSize: 99829
+  hash: "618d5a9478a89618e3c24846b0c8b329b91616dc"
+- name: "Mtrixsnds.uax"
+  fileSize: 264473
+  hash: "39f50c4a2f7a33a340ee8a6ac3daec24c3da2a7f"
+- name: "DM-RoadRage.unr"
+  fileSize: 1739011
+  hash: "eef025b126b4918137cbd229656158a28786f672"
+otherFiles: 0
+dependencies:
+  DM-RoadRage.unr:
+  - status: "OK"
+    name: "Mtrixsnds"
+  - status: "OK"
+    name: "Store"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-RoadRage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/DM-RoadRage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/0/d/5c9167/DM-RoadRage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/0/d/5c9167/DM-RoadRage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-RoadRage"
+playerCount: "5"
+themes:
+  Industrial: 0.1
+  City: 0.9
+bots: true

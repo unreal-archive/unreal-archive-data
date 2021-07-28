@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 13:53"
+game: "Unreal Tournament 2004"
+name: "DM-RAZ31"
+author: "Oliver 'Raziel31' Garrigue-]|YO!|["
+description: "!!! A gothic place, lost in space !!!"
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-raz31_shot_24925032_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/dm-raz31_shot_24925032_1.png"
+originalFilename: "dm-raz31.zip"
+hash: "249250325bb0dd121a08607c37b84c0ac0c980b7"
+fileSize: 13555482
+files:
+- name: "RazielTitle.utx"
+  fileSize: 176224
+  hash: "aa757a9f552c34079891c4c3be8b9bfcd85df629"
+- name: "Raziel31Mesh.usx"
+  fileSize: 4691978
+  hash: "6fab0794da793764b3fc4f01c94fea25d3d20805"
+- name: "ShaderEOO.utx"
+  fileSize: 1062844
+  hash: "1fa0ad6f6692c9c3a4d556edf0ee531c6e0918b4"
+- name: "OTextures.utx"
+  fileSize: 700406
+  hash: "17d78653f410e4d83477c6faea79ad8966be97bc"
+- name: "DM-TheEyesOfOdin.ogg"
+  fileSize: 7511659
+  hash: "950d9f1bb60e77771108de4ab1520b1324adfac6"
+- name: "DM-RAZ31.ut2"
+  fileSize: 8319269
+  hash: "6080f090d034d289542edb1c448aa92d671b457f"
+- name: "ShaderEOO1.utx"
+  fileSize: 1063043
+  hash: "bd1bef5ff617972fa8c4c60a6ac496b7cd87d492"
+otherFiles: 2
+dependencies:
+  DM-RAZ31.ut2:
+  - status: "OK"
+    name: "RazielTitle"
+  - status: "OK"
+    name: "OTextures"
+  - status: "OK"
+    name: "Raziel31Mesh"
+  - status: "OK"
+    name: "ShaderEOO1"
+  Raziel31Mesh.usx:
+  - status: "OK"
+    name: "OTextures"
+  - status: "OK"
+    name: "ShaderEOO"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1779"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/dm-raz31.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/R/2/4/925032/dm-raz31.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/2/4/925032/dm-raz31.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-RAZ31"
+playerCount: "8-20"
+themes:
+  Industrial: 0.6
+  Egyptian: 0.4
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 06:21"
+game: "Unreal Tournament"
+name: "BT-DiabloTemple"
+author: "|llCllol|ldll3ll|."
+description: "None"
+releaseDate: "2007-01"
+attachments: []
+originalFilename: "bt-diablotemple.zip"
+hash: "53d1f9fbb3fbd73803027caf09b9d6cb49606adf"
+fileSize: 2073511
+files:
+- name: "sky.utx"
+  fileSize: 4228487
+  hash: "4612c4cb0d9fc19ba8cf2f2c717f2ff53972b7cb"
+- name: "barcodeclan.utx"
+  fileSize: 132884
+  hash: "c91938d370062f01c6ac2c199a934e6b9e442ebf"
+- name: "BT-DiabloTemple.unr"
+  fileSize: 801169
+  hash: "79f341804930890a6782165bc858f4b54c204641"
+otherFiles: 0
+dependencies:
+  BT-DiabloTemple.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "xmas002"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-diablotemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/D/bt-diablotemple.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-diablotemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-diablotemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/D/5/3/d1f9fb/bt-diablotemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/D/5/3/d1f9fb/bt-diablotemple.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-DiabloTemple"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 1.0
+bots: false

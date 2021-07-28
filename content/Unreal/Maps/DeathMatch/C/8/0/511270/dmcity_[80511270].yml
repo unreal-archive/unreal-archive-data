@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-11 09:42"
+game: "Unreal"
+name: "DMCity"
+author: "<CK>Jöjjê"
+description: "None"
+releaseDate: "2003-10"
+attachments: []
+originalFilename: "DMCity.zip"
+hash: "80511270a5246baf319fa4a522c447e7029029bc"
+fileSize: 5725279
+files:
+- name: "DMCity.unr"
+  fileSize: 953895
+  hash: "95ad55bd0d4dd1fccfe991a8823339891b7e5cc5"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+- name: "dinosound111199.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+otherFiles: 0
+dependencies:
+  DMCity.unr:
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "dinosound111199"
+  - status: "OK"
+    name: "zeitkind"
+  - status: "OK"
+    name: "Vierheilig"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/C/8/0/511270/DMCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/C/8/0/511270/DMCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/C/8/0/511270/DMCity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMCity"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: false

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:22"
+game: "Unreal Tournament"
+name: "DM-VSK-GiantBedroom"
+author: "[VSK]AssWaxer"
+description: ""
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-VSK-GiantBedroom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/V/DM-VSK-GiantBedroom_shot_1.png"
+originalFilename: "dm-vsk-giantbedroom.zip"
+hash: "59dac21c4df21272283c0718019815558a9471e8"
+fileSize: 4515832
+files:
+- name: "DM-VSK-GiantBedroom.unr"
+  fileSize: 1811410
+  hash: "f2b1e3c4982d8993fcdc9b9b881d8c96debe3848"
+- name: "kissmy.umx"
+  fileSize: 2207830
+  hash: "c1e5fe4fabd76e337c2d4319fae4f350b8bd065d"
+- name: "VSK-Stuff.utx"
+  fileSize: 2779884
+  hash: "cce26e2bf90174436e0a9c719f1a4550be2d85ac"
+- name: "VSKROCKS.utx"
+  fileSize: 640915
+  hash: "f8be185d95d8c05e59a7da847aa67716cbf8df59"
+- name: "beds.utx"
+  fileSize: 1250923
+  hash: "8a618185076674c9c8b016e19f99b132d0cf1a51"
+otherFiles: 0
+dependencies:
+  DM-VSK-GiantBedroom.unr:
+  - status: "OK"
+    name: "VSKROCKS"
+  - status: "OK"
+    name: "VSK-Stuff"
+  - status: "OK"
+    name: "beds"
+  - status: "OK"
+    name: "kissmy"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-vsk-giantbedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/V/dm-vsk-giantbedroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/V/5/9/dac21c/dm-vsk-giantbedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/V/5/9/dac21c/dm-vsk-giantbedroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-VSK-GiantBedroom"
+playerCount: "3-20"
+themes:
+  Nali Temple: 0.2
+  Ancient: 0.7
+  Natural: 0.1
+bots: true

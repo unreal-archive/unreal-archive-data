@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:10"
+game: "Unreal Tournament"
+name: "CTF-EXOR"
+author: "Mattias \"NeutralizeR\" Ekh"
+description: "Welcome to DmExor Ctf Remix!!"
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "dm-exor.zip"
+hash: "d02571e596d95bdc16e28ef9d7eed81a40b80f2f"
+fileSize: 1179046
+files:
+- name: "Assault.u"
+  fileSize: 3368
+  hash: "7bb660a66438d6ab2d7604714eaa3e2fc32f9a22"
+- name: "CTF-EXOR.unr"
+  fileSize: 3830078
+  hash: "c557b3ea4571cdc57bb66c1893628f229f968af2"
+otherFiles: 1
+dependencies:
+  CTF-EXOR.unr:
+  - status: "OK"
+    name: "Assault"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-exor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/dm-exor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/0/2571e5/dm-exor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/0/2571e5/dm-exor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Dm-Exor Ctf-Remix"
+playerCount: "16"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: true

@@ -1,7 +1,6 @@
 --- !<VOICE>
 contentType: "VOICE"
 firstIndex: "2020-04-06 14:56"
-variationOf: null
 game: "Unreal Tournament"
 name: "RoboCop II"
 author: "Unknown"
@@ -23,13 +22,16 @@ dependencies:
   RoboCopIIPackage.u:
   - status: "OK"
     name: "RoboCopII"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Voices/R/8/1/ac2fd2/RoboCopIIPackage.zip"
   main: true
   repack: false
   state: "OK"
 - url: "http://medor.no-ip.org/index.php?dir=Voices/&file=RoboCopIIPackage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Voices/R/8/1/ac2fd2/RoboCopIIPackage.zip"
   main: false
   repack: false
   state: "OK"

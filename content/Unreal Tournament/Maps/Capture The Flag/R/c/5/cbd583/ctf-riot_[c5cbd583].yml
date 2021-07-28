@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:34"
+game: "Unreal Tournament"
+name: "CTF-Riot"
+author: "Heiko Dreyer"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Riot_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/CTF-Riot_shot_1.png"
+originalFilename: "ctf-riot.zip"
+hash: "c5cbd58319dc79cd784b14a30ecaef3bf05b0498"
+fileSize: 2214994
+files:
+- name: "CTF-Riot.unr"
+  fileSize: 4096001
+  hash: "281bf03952ec1a7327a4d051d2ef5fbd80de5d90"
+- name: "Riot.utx"
+  fileSize: 1567655
+  hash: "78ee03592c6809040c0b853d8ee166bd9687e190"
+otherFiles: 1
+dependencies:
+  CTF-Riot.unr:
+  - status: "OK"
+    name: "Riot"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/ctf-riot.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404496"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsR/&file=ctf-riot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-riot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsR/ctf-riot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/c/5/cbd583/ctf-riot.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/c/5/cbd583/ctf-riot.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Riot"
+playerCount: "4-10"
+themes:
+  Industrial: 0.3
+  City: 0.4
+  Skaarj Tech: 0.2
+bots: true

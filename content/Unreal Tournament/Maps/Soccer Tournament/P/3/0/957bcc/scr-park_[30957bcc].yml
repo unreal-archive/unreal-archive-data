@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:04"
+game: "Unreal Tournament"
+name: "SCR-Park"
+author: "Bober"
+description: "None"
+releaseDate: "2007-10"
+attachments: []
+originalFilename: "SCR-Park.rar"
+hash: "30957bcc91d6e19c45b626b4b93e7b632db4536b"
+fileSize: 2350526
+files:
+- name: "SCR-Park.unr"
+  fileSize: 309954
+  hash: "7dda60510b5f3fa3767d832fa49550e34615faf5"
+- name: "BadSky.utx"
+  fileSize: 5079092
+  hash: "39244d8fcb9e7e9fa2fd73521a7948b64528e05d"
+- name: "Colors.utx"
+  fileSize: 12589
+  hash: "43a23fef0644986d50aae20da55468e372868fb6"
+otherFiles: 0
+dependencies:
+  SCR-Park.unr:
+  - status: "OK"
+    name: "Colors"
+  - status: "MISSING"
+    name: "Soccer"
+  - status: "OK"
+    name: "BadSky"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/Soccer/&file=SCR-Park.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Unknown/S/SCR-Park.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Soccer&file=SCR-Park.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Soccer/SCR-Park.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Soccer%20Tournament/P/3/0/957bcc/SCR-Park.rar"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Soccer%20Tournament/P/3/0/957bcc/SCR-Park.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Soccer Tournament"
+title: "Park"
+playerCount: "2-4"
+themes:
+  Skaarj Crypt: 0.2
+  City: 0.3
+  Natural: 0.4
+bots: false

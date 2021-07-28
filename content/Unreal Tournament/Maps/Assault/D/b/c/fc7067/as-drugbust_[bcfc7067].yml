@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:06"
+game: "Unreal Tournament"
+name: "AS-DRUGBUST"
+author: "D. R. Lamberson (OSMIUM) & T. Cox (SkyHawk)"
+description: "Get that stash!"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "AS-DRUGBUST_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/D/AS-DRUGBUST_shot_1.png"
+originalFilename: "as-drugbust.zip"
+hash: "bcfc7067a42db878a25e00532656dfdee83765a1"
+fileSize: 2318326
+files:
+- name: "CargoShip.utx"
+  fileSize: 1934737
+  hash: "428f9264e6a7de5a11195f2926e81024a77088dc"
+- name: "AS-DRUGBUST.unr"
+  fileSize: 3023016
+  hash: "f0231fbd6e5b3c287ca664d50ad7286ddae7eeab"
+- name: "asdrugb.utx"
+  fileSize: 512478
+  hash: "cb6e1b3b0b1bbaae0efeff6f7587d7e380be9b6a"
+- name: "BotNPC1.u"
+  fileSize: 34598
+  hash: "b36e0e4d52620a48c4b7bef56f54441056f183e2"
+otherFiles: 1
+dependencies:
+  AS-DRUGBUST.unr:
+  - status: "OK"
+    name: "asdrugb"
+  - status: "OK"
+    name: "CargoShip"
+  - status: "OK"
+    name: "BotNPC1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/D/as-drugbust.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-drugbust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-drugbust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-drugbust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/D/b/c/fc7067/as-drugbust.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/D/b/c/fc7067/as-drugbust.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Drug Bust"
+playerCount: "6-12"
+themes:
+  Industrial: 0.3
+  Ancient: 0.2
+  City: 0.4
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 10:18"
+game: "Unreal Tournament 2004"
+name: "DM-GimCrack"
+author: "Ghetto Smack"
+description: "When you stuck in a cheap and shoddy house, all you can do is BRING\
+  \ DA PAIN! Watch out now"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-GimCrack_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/G/DM-GimCrack_shot_1.png"
+originalFilename: "dm-gimcrack.zip"
+hash: "f243e724771cb5b707bfd8baf9843515b97268d2"
+fileSize: 5232510
+files:
+- name: "HoodStucked.utx"
+  fileSize: 5676688
+  hash: "478a4e03f541a4eab86e4890c6cdb8b9eb0e0dbd"
+- name: "Fluoxetine_meshes.usx"
+  fileSize: 1672501
+  hash: "772a2e5dbc0f1bbe01b333a40df50a7d9272a0ad"
+- name: "Fluoxetine_textures.utx"
+  fileSize: 465877
+  hash: "b0f2919d60db2f0813b5bbe675732c20460481b2"
+- name: "DM-GimCrack.ut2"
+  fileSize: 9199681
+  hash: "cc9720f260fcff73b37fce5ccab49dbd8a7abbae"
+otherFiles: 1
+dependencies:
+  DM-GimCrack.ut2:
+  - status: "OK"
+    name: "Fluoxetine_meshes"
+  - status: "OK"
+    name: "HoodStucked"
+  Fluoxetine_meshes.usx:
+  - status: "OK"
+    name: "Fluoxetine_textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/G/dm-gimcrack.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/G/f/2/43e724/dm-gimcrack.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/f/2/43e724/dm-gimcrack.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Gimcrack shack"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

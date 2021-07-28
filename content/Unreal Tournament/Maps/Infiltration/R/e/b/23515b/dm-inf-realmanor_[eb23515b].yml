@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:21"
+game: "Unreal Tournament"
+name: "DM-INF-RealManor"
+author: "AngelHeart"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-RealManor_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-RealManor_shot_1.png"
+originalFilename: "DM-inf-realmanor.zip"
+hash: "eb23515bb71c9659775fc3feb10c55ee5e3b0e4c"
+fileSize: 2651269
+files:
+- name: "DM-INF-RealManor.unr"
+  fileSize: 7164595
+  hash: "eefb6ab2cecdeaee0e23236cbc65986433a22fe0"
+- name: "Manorsnds.uax"
+  fileSize: 281785
+  hash: "e633bee421ffd01ab15d18dda2549d7847192980"
+otherFiles: 0
+dependencies:
+  DM-INF-RealManor.unr:
+  - status: "MISSING"
+    name: "Jmansion"
+  - status: "OK"
+    name: "Manorsnds"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-realmanor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-inf-realmanor.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/R/e/b/23515b/DM-inf-realmanor.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/R/e/b/23515b/DM-inf-realmanor.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "RealManor"
+playerCount: "8"
+themes:
+  Nali Temple: 0.1
+  City: 0.7
+  Natural: 0.2
+bots: true

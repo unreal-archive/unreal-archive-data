@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:24"
+game: "Unreal Tournament"
+name: "DM-UNLD-Epitaph-Fix"
+author: "U.N.Real Level Design (Master Builder)"
+description: "Your..................!!Epitaph!!"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-UNLD-Epitaph-Fix_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UNLD-Epitaph-Fix_shot_1.png"
+originalFilename: "DM-UNLD-Epitaph-Fix.zip"
+hash: "d917debd91b55d0b68de1f489f2dfde60a445241"
+fileSize: 7587928
+files:
+- name: "Epitaph_SoundFx.uax"
+  fileSize: 2268192
+  hash: "cdf6b030df42e235c72b96d17735c6ef55c934ca"
+- name: "DM-UNLD-Epitaph-Fix.unr"
+  fileSize: 11370193
+  hash: "79cbcb3ec782cc669b361a2c613cab1899680cd1"
+- name: "UNLD_Gothic_Pickups.u"
+  fileSize: 1044318
+  hash: "a64ef6c8a71d1bd35640fa74892857c8df9cbff6"
+- name: "Epitaph_Decor.u"
+  fileSize: 408322
+  hash: "682a879abcc3bccc42910f0856d20a0c94f3f543"
+otherFiles: 0
+dependencies:
+  DM-UNLD-Epitaph-Fix.unr:
+  - status: "OK"
+    name: "Epitaph_SoundFx"
+  - status: "OK"
+    name: "Epitaph_Decor"
+  - status: "OK"
+    name: "UNLD_Gothic_Pickups"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/DM-UNLD-Epitaph-Fix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-UNLD-Epitaph-Fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/d/9/17debd/DM-UNLD-Epitaph-Fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/d/9/17debd/DM-UNLD-Epitaph-Fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Epitaph"
+playerCount: "4 - 10"
+themes:
+  Ancient: 0.3
+  Nali Castle: 0.6
+bots: true

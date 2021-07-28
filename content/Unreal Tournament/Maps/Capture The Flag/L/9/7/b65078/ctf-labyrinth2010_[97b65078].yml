@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 05:45"
+game: "Unreal Tournament"
+name: "CTF-Labyrinth2010"
+author: "Dana \"HoLLoWDoG\"Hunt"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Labyrinth2010_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/CTF-Labyrinth2010_shot_1.png"
+originalFilename: "ctf-labyrinth2010.zip"
+hash: "97b650782a65cab4f66217ae591b2aece0e0fdeb"
+fileSize: 922067
+files:
+- name: "labyrinth.utx"
+  fileSize: 496669
+  hash: "46695cd3228ffdf9e767bb4010e4070dc067dda1"
+- name: "CTF-Labyrinth2010.unr"
+  fileSize: 3470820
+  hash: "08d31c94ca8457dfa79878165299a405aff2bd71"
+otherFiles: 1
+dependencies:
+  CTF-Labyrinth2010.unr:
+  - status: "OK"
+    name: "labyrinth"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-labyrinth2010.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/ctf-labyrinth2010.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=360"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/9/7/b65078/ctf-labyrinth2010.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/9/7/b65078/ctf-labyrinth2010.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Labyrinth2010"
+playerCount: "5-10"
+themes:
+  Natural: 1.0
+bots: true

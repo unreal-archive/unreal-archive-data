@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:47"
+game: "Unreal Tournament"
+name: "DM-KTB-Bathroom"
+author: "[KTB]AssWaxer"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-KTB-Bathroom_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/DM-KTB-Bathroom_shot_1.png"
+originalFilename: "dm-ktb-bathroom.zip"
+hash: "9a282486fe3f4188fe316072bb58c6f24bd48cee"
+fileSize: 1060118
+files:
+- name: "PAINmaker.umx"
+  fileSize: 309611
+  hash: "106403d20b1ccd2712da6c803d40b573df5ba5e0"
+- name: "Shitter.utx"
+  fileSize: 289471
+  hash: "e9c91f4e7166f46abb3bcd8bf48599def4f8d381"
+- name: "DM-KTB-Bathroom.unr"
+  fileSize: 1188037
+  hash: "3bb1adf0a3adcf9bb9ff55c5652605217eca8c8e"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 0
+dependencies:
+  DM-KTB-Bathroom.unr:
+  - status: "OK"
+    name: "PAINmaker"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "Shitter"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ktb-bathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/dm-ktb-bathroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/9/a/282486/dm-ktb-bathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/9/a/282486/dm-ktb-bathroom.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-KTB-Bathroom"
+playerCount: "3-12"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true

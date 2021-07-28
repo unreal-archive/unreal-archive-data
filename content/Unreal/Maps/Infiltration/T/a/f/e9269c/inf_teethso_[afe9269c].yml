@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-10-12 18:21"
+variationOf: "93797acc8df75a0a8024394096084423ceaffe3e"
+game: "Unreal"
+name: "INF_TeethSO"
+author: "Robes"
+description: "None"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "INF_TeethSO.zip"
+hash: "afe9269c9154eecc5f55a87a5def1d9c368741ca"
+fileSize: 831249
+files:
+- name: "Sindemo.utx"
+  fileSize: 133557
+  hash: "2a4acae941ffb0b3ae3d1e0e378024a833f34ea9"
+- name: "INF_TeethSO.unr"
+  fileSize: 365264
+  hash: "1113dee5f950e3dea4eb35ee27a65f72e6c097b6"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+otherFiles: 1
+dependencies:
+  INF_TeethSO.unr:
+  - status: "OK"
+    name: "Sindemo"
+  - status: "MISSING"
+    name: "Infiltration"
+  - status: "OK"
+    name: "Vierheilig"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/T/a/f/e9269c/INF_TeethSO.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/T/a/f/e9269c/INF_TeethSO.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/T/a/f/e9269c/INF_TeethSO.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Bite The Teeth"
+playerCount: "8"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: true

@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:31"
+game: "Unreal Tournament"
+name: "DM-NWBleak-CE100"
+author: "Mike \"theBAMNman\" Blakesley , Boon-qiv-"
+description: "{DnF}3d is a loser"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWBleak-CE100_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWBleak-CE100_shot_1.png"
+originalFilename: "DM-NWBleak-CE100.zip"
+hash: "aa32543af195578d951d2274f21f896ac82d5d0d"
+fileSize: 1860046
+files:
+- name: "PickupSound.uax"
+  fileSize: 659247
+  hash: "73a05ac339f4a7347c76eabd204a5602c33af156"
+- name: "DM-NWBleak-CE100.unr"
+  fileSize: 826107
+  hash: "136d1b0863ac73712374ca5034418eae87f04192"
+- name: "2k4chargerMESHES.u"
+  fileSize: 1610436
+  hash: "b91ee93e997a3dc8a3a29f7b09898eba8e318c36"
+- name: "2k4Pickup.u"
+  fileSize: 233365
+  hash: "63663d1a3756b436540b1804d1b3d15105d70750"
+otherFiles: 0
+dependencies:
+  DM-NWBleak-CE100.unr:
+  - status: "OK"
+    name: "2k4Pickup"
+  - status: "OK"
+    name: "PickupSound"
+  - status: "OK"
+    name: "2k4chargerMESHES"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWBleak-CE100.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWBleak-CE100.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/a/a/32543a/DM-NWBleak-CE100.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/a/a/32543a/DM-NWBleak-CE100.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Less Bleak"
+playerCount: "10"
+themes:
+  Industrial: 0.3
+  Ancient: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.3
+bots: true

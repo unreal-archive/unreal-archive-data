@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:38"
+game: "Unreal Tournament"
+name: "DM-Reasons"
+author: "Josh \"ReMoRsELeSs\" Tyrell"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-Reasons_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/DM-Reasons_shot_1.png"
+originalFilename: "dm-reasons.zip"
+hash: "b6e6ac01f6f3000ef30048b2f7d74731ec9b653e"
+fileSize: 3141018
+files:
+- name: "REM-Lunarian.utx"
+  fileSize: 3502035
+  hash: "06fa5afb176d5a9a4049e07d143d3631ca21ea4b"
+- name: "DM-Reasons.unr"
+  fileSize: 2115753
+  hash: "e6120b9a78c44151e75191fd99d25defdf920398"
+otherFiles: 1
+dependencies:
+  DM-Reasons.unr:
+  - status: "OK"
+    name: "REM-Lunarian"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-reasons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/dm-reasons.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/R/b/6/e6ac01/dm-reasons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/R/b/6/e6ac01/dm-reasons.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ReasonsBeing"
+playerCount: "2-10"
+themes:
+  Industrial: 0.4
+  Natural: 0.3
+  Skaarj Tech: 0.3
+bots: true

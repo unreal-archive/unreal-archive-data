@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 06:31"
+game: "Unreal Tournament"
+name: "BT-Phazon"
+author: "Map by aphlA and Thanks to K'rool"
+description: "None"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "BT-Phazon_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/P/BT-Phazon_shot_1.png"
+originalFilename: "bt-phazon.zip"
+hash: "b989bc996f11ea5d1d046225f8351f680b6ab72a"
+fileSize: 7722861
+files:
+- name: "BT-Phazon.unr"
+  fileSize: 12993935
+  hash: "00939003a8cd61cca43f71d5509761e0d8fa280f"
+- name: "ProjectileSpawner.u"
+  fileSize: 3300
+  hash: "39b919070b5f76fb3c811336617be0cad37b2030"
+- name: "Phazon.umx"
+  fileSize: 2817264
+  hash: "5de5def0dd62966290b157e47f85bc256a995cfb"
+otherFiles: 0
+dependencies:
+  BT-Phazon.unr:
+  - status: "OK"
+    name: "ProjectileSpawner"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Phazon"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/BT/&file=bt-phazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/P/bt-phazon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=bt-phazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=bt-phazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/P/b/9/89bc99/bt-phazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/P/b/9/89bc99/bt-phazon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Phazon"
+playerCount: "Unknown"
+themes:
+  Tech: 0.9
+  Skaarj Tech: 0.1
+bots: false

@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:28"
+game: "Unreal Tournament"
+name: "DM-OilRefinery"
+author: "Some (some@unreality.org)"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-OilRefinery_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/O/DM-OilRefinery_shot_1.png"
+originalFilename: "dm-oilrefinery.zip"
+hash: "bb7b40dec16588fc3bdcabe1071e2f003b2a9d08"
+fileSize: 656767
+files:
+- name: "DM-OilRefinery.unr"
+  fileSize: 1180969
+  hash: "4fe2f583615464dbe4a9563dfe3aa9f0804b2a14"
+- name: "Flyinti.umx"
+  fileSize: 587616
+  hash: "08d80c8b617926568e56706e092ca3e53fa674f6"
+otherFiles: 1
+dependencies:
+  DM-OilRefinery.unr:
+  - status: "OK"
+    name: "Flyinti"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/dm-oilrefinery.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsO/&file=dm-oilrefinery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-oilrefinery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsO/dm-oilrefinery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/O/b/b/7b40de/dm-oilrefinery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/O/b/b/7b40de/dm-oilrefinery.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Cairo Oil Refinery"
+playerCount: "2-6"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.2
+bots: true

@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:11"
+game: "Unreal Tournament"
+name: "CTF-Tritium"
+author: "Joar 'Qbic' Lillerust"
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-tritium_shot_236c3b6b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/2/3/6c3b6b/ctf-tritium_shot_236c3b6b_1.png"
+- type: "IMAGE"
+  name: "ctf-tritium_shot_236c3b6b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/2/3/6c3b6b/ctf-tritium_shot_236c3b6b_2.png"
+originalFilename: "ctf-tritium.zip"
+hash: "236c3b6b9595c8981c1bd6bd93d75d5ebe6fe2d6"
+fileSize: 1674231
+files:
+- name: "QbicT1.utx"
+  fileSize: 915122
+  hash: "1f62e2dded5926ea0161bc86c75e55cf53f73592"
+- name: "CTF-Tritium.unr"
+  fileSize: 3180361
+  hash: "3bcafecf63c295925eecddad0b5472267bed324f"
+otherFiles: 2
+dependencies:
+  CTF-Tritium.unr:
+  - status: "OK"
+    name: "QbicT1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=576"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/2/3/6c3b6b/ctf-tritium.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/2/3/6c3b6b/ctf-tritium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/2/3/6c3b6b/ctf-tritium.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Tritium"
+playerCount: "6-10"
+themes:
+  Tech: 0.9
+  Ancient: 0.1
+bots: true

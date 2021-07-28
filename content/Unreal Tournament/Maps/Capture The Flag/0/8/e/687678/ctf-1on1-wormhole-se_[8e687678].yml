@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:27"
+game: "Unreal Tournament"
+name: "CTF-1on1-Wormhole-SE"
+author: "SabbathCat"
+description: "Wormy"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-1on1-Wormhole-SE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-1on1-Wormhole-SE_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-1on1-Wormhole-SE_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-1on1-Wormhole-SE_shot_2.png"
+originalFilename: "ctf-1on1-wormhole-se.zip"
+hash: "8e68767833b35259e7f4d2cbac87f646317ec674"
+fileSize: 1506014
+files:
+- name: "flagbasejrm1.u"
+  fileSize: 357257
+  hash: "6cd4410c1d58d712d811cdd705823f0bab6979f1"
+- name: "CTF-1on1-Wormhole-SE.unr"
+  fileSize: 3326150
+  hash: "fcfe905cd8d22a21d1a382fe9d7d3f13ce73834e"
+otherFiles: 2
+dependencies:
+  flagbasejrm1.u:
+  - status: "MISSING"
+    name: "SGTech1"
+  CTF-1on1-Wormhole-SE.unr:
+  - status: "OK"
+    name: "flagbasejrm1"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/Maps0/&file=ctf-1on1-wormhole-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/ctf-1on1-wormhole-se.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-1on1-wormhole-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-1on1-wormhole-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/Maps0/ctf-1on1-wormhole-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2052"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/8/e/687678/ctf-1on1-wormhole-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/8/e/687678/ctf-1on1-wormhole-se.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Wormhole Special Edition"
+playerCount: "2-6"
+themes:
+  Tech: 1.0
+bots: true

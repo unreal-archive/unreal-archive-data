@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:09"
+game: "Unreal Tournament"
+name: "DM-ESR~Arena"
+author: "Dark_Knight"
+description: "EAT ESR AND DIE!!!!"
+releaseDate: "2003-01"
+attachments: []
+originalFilename: "dm-esrarena.zip"
+hash: "d38fde15ebac37874d855348bc1c908d40fc2901"
+fileSize: 5109578
+files:
+- name: "sks-Aerials.umx"
+  fileSize: 3862591
+  hash: "078cba67351e383aa8da89129bbeb37ab6f6d067"
+- name: "DM-ESR~Arena.unr"
+  fileSize: 949885
+  hash: "ef2257cb450b712219bb7abba73c66a561d3ee61"
+- name: "dArKtExTs.utx"
+  fileSize: 2722605
+  hash: "a574908a97574dbf29b1721f91a1194d79c84368"
+otherFiles: 1
+dependencies:
+  DM-ESR~Arena.unr:
+  - status: "MISSING"
+    name: "sks-Alive"
+  - status: "OK"
+    name: "dArKtExTs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-esrarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsE/&file=dm-esrarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-esrarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsE/dm-esrarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/d/3/8fde15/dm-esrarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/d/3/8fde15/dm-esrarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Enhanced Shock Rifle Arena"
+playerCount: "12-16"
+themes:
+  Natural: 1.0
+bots: true

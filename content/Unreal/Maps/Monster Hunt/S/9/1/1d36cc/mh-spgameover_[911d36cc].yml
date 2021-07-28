@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:39"
+game: "Unreal"
+name: "MH-[SP]GameOver"
+author: "Nightrider / HornD"
+description: "MH-(_@_)_GameOver - fixed and pimped for Alienclan by (_@_)_Gay_Tails"
+releaseDate: "2018-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-spgameover_shot_911d36cc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Monster%20Hunt/S/mh-spgameover_shot_911d36cc_1.png"
+originalFilename: "MH-[SP]GameOver.zip"
+hash: "911d36cc6d75f4921bee5551573a8a455a92c687"
+fileSize: 3553425
+files:
+- name: "MH-[SP]GameOver.unr"
+  fileSize: 3162619
+  hash: "f520b4f5e575406acb900e99e41edc9e9ec84dfd"
+- name: "Seeker2.umx"
+  fileSize: 1848082
+  hash: "6128158fcaaac79a3e263cc288579002c80163d7"
+otherFiles: 0
+dependencies:
+  MH-[SP]GameOver.unr:
+  - status: "MISSING"
+    name: "SPHumane"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Seeker2"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DGameOver.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Monster%20Hunt/S/9/1/1d36cc/MH-%255BSP%255DGameOver.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/9/1/1d36cc/MH-%255BSP%255DGameOver.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP]GameOver"
+playerCount: "4+"
+themes:
+  Nali Temple: 0.4
+  Natural: 0.5
+bots: true

@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:25"
+game: "Unreal Tournament"
+name: "DM-MiningVillageBeta1"
+author: "by Gennady 'Requiem' Dashkevitz"
+description: "None"
+releaseDate: "1998-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-MiningVillageBeta1_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MiningVillageBeta1_shot_1.png"
+originalFilename: "dm-miningvillagebeta1.zip"
+hash: "e1f0dad5cbe599c9467a33db9959ac36c2138518"
+fileSize: 2257936
+files:
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "MiningVillage.utx"
+  fileSize: 2481
+  hash: "878bd3d9f06b24401f5fe5f75182bd8d879256f3"
+- name: "DM-MiningVillageBeta1.unr"
+  fileSize: 4950784
+  hash: "e8c0ba6eea781590c0cc93e8c6a0f1e020614d80"
+otherFiles: 2
+dependencies:
+  DM-MiningVillageBeta1.unr:
+  - status: "PARTIAL"
+    name: "MiningVillage"
+  - status: "MISSING"
+    name: "a3text"
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-miningvillagebeta1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-miningvillagebeta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-miningvillagebeta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-miningvillagebeta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/e/1/f0dad5/dm-miningvillagebeta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/e/1/f0dad5/dm-miningvillagebeta1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The mining village"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.1
+  Industrial: 0.1
+  Ancient: 0.5
+  City: 0.1
+bots: true

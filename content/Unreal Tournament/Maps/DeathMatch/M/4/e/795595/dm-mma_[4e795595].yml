@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:25"
+game: "Unreal Tournament"
+name: "DM-MMA"
+author: "Mark \"Maroth\" Perkins"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-MMA_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MMA_shot_1.png"
+originalFilename: "dm-mma.zip"
+hash: "4e795595f906fbc9ee49e1319c2686aeb8f0eaa3"
+fileSize: 341954
+files:
+- name: "MMA.umx"
+  fileSize: 532
+  hash: "d322ad99fcbdc7306221552834838d470de63898"
+- name: "DM-MMA.unr"
+  fileSize: 905303
+  hash: "7dd66c69c5d47c87f072b0fd4831fcbefb56ba5e"
+otherFiles: 1
+dependencies:
+  DM-MMA.unr:
+  - status: "OK"
+    name: "MMA"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-mma.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-mma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-mma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-mma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/4/e/795595/dm-mma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/4/e/795595/dm-mma.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "MMA"
+playerCount: "2-5"
+themes:
+  Nali Temple: 0.5
+  Natural: 0.2
+  Nali Castle: 0.2
+bots: true

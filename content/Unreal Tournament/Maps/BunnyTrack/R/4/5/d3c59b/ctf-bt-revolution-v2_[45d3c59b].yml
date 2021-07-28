@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:51"
+game: "Unreal Tournament"
+name: "CTF-BT-Revolution-v2"
+author: "-=(FBT)=-Raylen"
+description: "None"
+releaseDate: "2010-02"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Revolution-v2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-Revolution-v2_shot_1.png"
+originalFilename: "CTF-BT-Revolution-v2.zip"
+hash: "45d3c59bcebe4debe6dc8fe1b116110a375c7d81"
+fileSize: 20111617
+files:
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "2010.utx"
+  fileSize: 6234545
+  hash: "3f6e0bbc365decdf3e60f39aba45628674a38171"
+- name: "FurryDelayedTrigger2.u"
+  fileSize: 11430
+  hash: "8a5e53dedba1fd6504d515578e5733f47a74c54c"
+- name: "CTF-BT-Revolution-v2.unr"
+  fileSize: 19939406
+  hash: "678a78696f95bf2a3ea1459aef58617dddc64848"
+otherFiles: 0
+dependencies:
+  CTF-BT-Revolution-v2.unr:
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "FurryDelayedTrigger2"
+  - status: "OK"
+    name: "2010"
+  - status: "OK"
+    name: "DoorsSnd"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Revolution-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-Revolution-v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/R/4/5/d3c59b/CTF-BT-Revolution-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/4/5/d3c59b/CTF-BT-Revolution-v2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "The Industrial Revolution"
+playerCount: "4-20"
+themes: {}
+bots: false

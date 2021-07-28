@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:26"
+variationOf: "37b6ac2de09721a59626c12359f047ea50111174"
+game: "Unreal Tournament"
+name: "DM-AAA-Xmas-UTFreak"
+author: "Denis \"UT Freak\" Reimer"
+description: "None"
+releaseDate: "2004-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-aaa-xmas-utfreak_shot_380ec47e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/3/8/0ec47e/dm-aaa-xmas-utfreak_shot_380ec47e_1.png"
+originalFilename: "DM-AAA-Xmas-UTFreak.zip"
+hash: "380ec47e598e456bf8f42dfc5440736cc33c7cdd"
+fileSize: 3784590
+files:
+- name: "TAcars.utx"
+  fileSize: 342431
+  hash: "3bdec3ff89138c65dac45ec38f4b74f78d43dca9"
+- name: "UTF_winter.utx"
+  fileSize: 290702
+  hash: "9d5eb39f1f271d3a2e9bbceab085e64e822a009a"
+- name: "TAconeytex.utx"
+  fileSize: 2762604
+  hash: "1a545c2bd7001e4ebcddff6f488f9298d15e702e"
+- name: "DM-AAA-Xmas-UTFreak.unr"
+  fileSize: 3311346
+  hash: "f9f1f561b6c3efbf6e00e3ccde6b1e473afec6f1"
+- name: "Scotch.umx"
+  fileSize: 880505
+  hash: "71dc165b095da884386b7a3061aec44f6b03068e"
+otherFiles: 0
+dependencies:
+  DM-AAA-Xmas-UTFreak.unr:
+  - status: "OK"
+    name: "TAconeytex"
+  - status: "OK"
+    name: "TAcars"
+  - status: "OK"
+    name: "UTF_winter"
+  - status: "OK"
+    name: "Scotch"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/3/8/0ec47e/DM-AAA-Xmas-UTFreak.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/A/3/8/0ec47e/DM-AAA-Xmas-UTFreak.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/A/3/8/0ec47e/DM-AAA-Xmas-UTFreak.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Xmas-UT Freak"
+playerCount: "2-6"
+themes:
+  Industrial: 0.1
+  Ancient: 0.3
+  City: 0.4
+  Nali Castle: 0.1
+bots: true

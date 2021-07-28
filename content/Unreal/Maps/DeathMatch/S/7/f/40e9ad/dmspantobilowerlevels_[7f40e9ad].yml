@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:33"
+game: "Unreal"
+name: "DMspantobiLowerLevels"
+author: "Doze (Emil Gustavsson)"
+description: "Bugs or comments: spantobi@hem1.passagen.se"
+releaseDate: "1999-01"
+attachments: []
+originalFilename: "dmspantobilowerlevels.zip"
+hash: "7f40e9ad182bfa9fa262bca7822186590f82c50c"
+fileSize: 2008920
+files:
+- name: "cwb_pak3.utx"
+  fileSize: 1241772
+  hash: "31703abe8e70fa26fc85a9917fb86f55bd9b65d6"
+- name: "DMspantobiLowerLevels.unr"
+  fileSize: 1005211
+  hash: "4be8db04bc0f27f646f3548d8441e7d33ec82b1d"
+- name: "cwb_pak2.utx"
+  fileSize: 975732
+  hash: "69a8da7cfa472e2836ae59e86ee36bf48f821e96"
+otherFiles: 1
+dependencies:
+  DMspantobiLowerLevels.unr:
+  - status: "OK"
+    name: "cwb_pak3"
+  - status: "OK"
+    name: "cwb_pak2"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6175265"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/dmspantobilowerlevels.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dmspantobilowerlevels.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsS/dmspantobilowerlevels.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmspantobilowerlevels.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/7/f/40e9ad/dmspantobilowerlevels.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/7/f/40e9ad/dmspantobilowerlevels.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Spantobi Lower Levels"
+playerCount: "5-8+"
+themes:
+  Tech: 0.6
+  Natural: 0.1
+  Skaarj Tech: 0.3
+bots: true

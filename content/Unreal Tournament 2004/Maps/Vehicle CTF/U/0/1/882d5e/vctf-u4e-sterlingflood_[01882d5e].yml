@@ -1,0 +1,162 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 19:40"
+variationOf: "5273575c17d9b197bc7f8e2e787cd12af5a8107f"
+game: "Unreal Tournament 2004"
+name: "VCTF-U4E-SterlingFlood"
+author: "www.winkyboy.com"
+description: "Someone left the faucet running!  Fight on land, sea, or air to capture\
+  \ the enemy's flag and use the wildest weapons imaginable with UNREAL4EVER.  Official\
+  \ thanks to DaJMasta for GoodKarma, MrEvil for BootsOfJumping, CMan for Viper Boats,\
+  \ Xilver for Seal Raft, Locust by Splash and Gel, Jumpboots by MrEvil, TeamSymbols\
+  \ by Bonehed316"
+releaseDate: "2004-09"
+attachments:
+- type: "IMAGE"
+  name: "vctf-u4e-sterlingflood_shot_01882d5e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/vctf-u4e-sterlingflood_shot_01882d5e_2.png"
+- type: "IMAGE"
+  name: "vctf-u4e-sterlingflood_shot_01882d5e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/vctf-u4e-sterlingflood_shot_01882d5e_1.png"
+originalFilename: "vctf-u4e-sterlingflood.zip"
+hash: "01882d5ecfc61a7b1be051b06344123414009588"
+fileSize: 22278062
+files:
+- name: "watercraft.u"
+  fileSize: 64557
+  hash: "14a805cd5e6ee8793bef451395f1562c7e8edcdc"
+- name: "SetTeamSymbols.u"
+  fileSize: 3438
+  hash: "b07c6ede8cc16cb079dff6a659b8b0c566a61646"
+- name: "watercraft-SM.usx"
+  fileSize: 44990
+  hash: "850657132d01178cf08f9441bdd7e33d09919ef6"
+- name: "winkyKitchenTextures.utx"
+  fileSize: 24486730
+  hash: "f0d6f8baf488f8fb3a8baea306976d6d9434b6f2"
+- name: "GoodKarma.u"
+  fileSize: 31016
+  hash: "046a88f20fecb028ec388d33a6160ff9566a4de3"
+- name: "Kopholus.u"
+  fileSize: 70854
+  hash: "75694e3818ffce39d2f52b44bc4bd216d868ce8f"
+- name: "KASPvehicleSM.usx"
+  fileSize: 594401
+  hash: "e816ae1a67fbdf7efa96da1516e5cebe3eb2c872"
+- name: "u4eTeamSymbols.utx"
+  fileSize: 1051363
+  hash: "eabf0beb3e131c0c872c973365b4b7be1a14f6de"
+- name: "ONSBoard-SM.usx"
+  fileSize: 335522
+  hash: "0446bf5545129bac4e9f7c290596b56331ad27af"
+- name: "KASPvehicleTX.utx"
+  fileSize: 1083493
+  hash: "b0ef5b9976282f5d424389578e18e9bf9c646c0a"
+- name: "VCTF-U4E-SterlingFlood.ut2"
+  fileSize: 17181769
+  hash: "a2e3d80e2812dd79d9427bbe1f87c643c017401d"
+- name: "watercraft-A.ukx"
+  fileSize: 136112
+  hash: "05c27216fea4c9d693324e106c834ead9598ec10"
+- name: "winkyKitchen.usx"
+  fileSize: 12193668
+  hash: "7721a0cbcfb281f49cbf59bc81fd9261f0c9bf51"
+- name: "Board.u"
+  fileSize: 72626
+  hash: "80a16cb3862d874dab09ac26df174f10cfe6d4de"
+- name: "ONSBoard-A.ukx"
+  fileSize: 862237
+  hash: "d1ebde6b2b66473b7627f716b72a57fe0194cb47"
+- name: "watercraft-TX.utx"
+  fileSize: 87907
+  hash: "931debf5505e0b1fbdf5fbd74bb3127e30c241b6"
+- name: "ONSBoardSounds-S.uax"
+  fileSize: 161160
+  hash: "08b24cec6e5799b19469149bdeba9c4767c1bf81"
+- name: "KASPvehicles.ukx"
+  fileSize: 618853
+  hash: "ddd3df19f9f76019bc4ea1bd540c05ef9a50ec33"
+otherFiles: 6
+dependencies:
+  Kopholus.u:
+  - status: "OK"
+    name: "KASPvehicleSM"
+  - status: "MISSING"
+    name: "KASPvehicles"
+  - status: "MISSING"
+    name: "ONSFullAnimations"
+  watercraft.u:
+  - status: "OK"
+    name: "watercraft-SM"
+  - status: "MISSING"
+    name: "ONSVehicles-A"
+  - status: "MISSING"
+    name: "watercraft-A"
+  winkyKitchen.usx:
+  - status: "OK"
+    name: "winkyKitchenTextures"
+  KASPvehicleSM.usx:
+  - status: "OK"
+    name: "KASPvehicleTX"
+  Board.u:
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "OK"
+    name: "ONSBoard-SM"
+  - status: "MISSING"
+    name: "ONSBoard-A"
+  - status: "OK"
+    name: "ONSBoardSounds-S"
+  VCTF-U4E-SterlingFlood.ut2:
+  - status: "MISSING"
+    name: "Dollbomb-Pickup"
+  - status: "OK"
+    name: "u4eTeamSymbols"
+  - status: "OK"
+    name: "watercraft"
+  - status: "MISSING"
+    name: "u4e_pickups"
+  - status: "OK"
+    name: "winkyKitchen"
+  - status: "OK"
+    name: "Board"
+  - status: "MISSING"
+    name: "U4E-Grenades"
+  - status: "OK"
+    name: "winkyKitchenTextures"
+  - status: "OK"
+    name: "SetTeamSymbols"
+  - status: "OK"
+    name: "Kopholus"
+  - status: "MISSING"
+    name: "ONSBoard-A"
+  - status: "MISSING"
+    name: "UFOKARMA"
+  - status: "OK"
+    name: "GoodKarma"
+  - status: "MISSING"
+    name: "u4e3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/vctf-u4e-sterlingflood.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/VCTF/&file=vctf-u4e-sterlingflood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/0/1/882d5e/vctf-u4e-sterlingflood.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/0/1/882d5e/vctf-u4e-sterlingflood.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-U4E-SterlingFlood"
+playerCount: "10-20"
+themes:
+  Industrial: 1.0
+bots: true

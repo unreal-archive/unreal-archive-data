@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:47"
+game: "Unreal"
+name: "DmVendettaVenue"
+author: "RageOnU(KWAK)"
+description: "None"
+releaseDate: "1999-06"
+attachments: []
+originalFilename: "dm-vendettavenue.zip"
+hash: "2724b115663419d1f80c8a3a908bed8ec217e8d4"
+fileSize: 651701
+files:
+- name: "NBSpecials.u"
+  fileSize: 112077
+  hash: "60fd4dba640bd575ebaeafee37bb0f2a9ffe1c63"
+- name: "NBSpecialT.utx"
+  fileSize: 116962
+  hash: "724fcd8a98dcb1866d02c9577b8a9120fa6ce841"
+- name: "DmVendettaVenue.unr"
+  fileSize: 1905620
+  hash: "79b486c31553ec9b472f252703ab74b81dec1131"
+otherFiles: 1
+dependencies:
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+  DmVendettaVenue.unr:
+  - status: "OK"
+    name: "NBSpecials"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dm-vendettavenue.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsV/&file=dm-vendettavenue.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-vendettavenue.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsV/dm-vendettavenue.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/V/2/7/24b115/dm-vendettavenue.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/V/2/7/24b115/dm-vendettavenue.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmVendettaVenue"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Natural: 0.3
+  Skaarj Tech: 0.1
+bots: true

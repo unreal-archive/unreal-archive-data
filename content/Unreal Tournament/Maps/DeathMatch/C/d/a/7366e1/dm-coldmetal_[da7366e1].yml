@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 21:43"
+game: "Unreal Tournament"
+name: "DM-ColdMetal"
+author: "Martin 'M13' Rykfors"
+description: "None"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "DM-ColdMetal_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-ColdMetal_shot_1.png"
+- type: "IMAGE"
+  name: "DM-ColdMetal_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-ColdMetal_shot_2.png"
+originalFilename: "dm-coldmetal.zip"
+hash: "da7366e10a66c9c716229f21cc29e360b8de400a"
+fileSize: 2374244
+files:
+- name: "DM-ColdMetal.unr"
+  fileSize: 1749658
+  hash: "7c9e5872e68dcce08926eb75e9627edbb3f79589"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 2
+dependencies:
+  DM-ColdMetal.unr:
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-coldmetal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-coldmetal.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=761"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/d/a/7366e1/dm-coldmetal.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/d/a/7366e1/dm-coldmetal.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Cold Metal"
+playerCount: "2 - 5"
+themes:
+  Industrial: 1.0
+bots: true

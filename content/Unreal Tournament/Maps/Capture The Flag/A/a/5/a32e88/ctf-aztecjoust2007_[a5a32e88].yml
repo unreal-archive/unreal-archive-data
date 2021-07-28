@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:41"
+game: "Unreal Tournament"
+name: "CTF-AztecJoust(2007)"
+author: "--ShadowMan--"
+description: "None"
+releaseDate: "2006-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-AztecJoust(2007)_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AztecJoust(2007)_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-AztecJoust(2007)_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-AztecJoust(2007)_shot_2.png"
+originalFilename: "ctf-aztecjoust(2007).zip"
+hash: "a5a32e88c3ae4b46b60463c29c8cb58a16daf7c5"
+fileSize: 2357378
+files:
+- name: "GroanSM.umx"
+  fileSize: 2300620
+  hash: "33586aebd25a69ec6fef97e1ce037e70dca7d05e"
+- name: "CTF-AztecJoust(2007).unr"
+  fileSize: 1111296
+  hash: "23a764cf4bcd24f26d46266a33d8c4ff7d595b00"
+- name: "AztecTorch1.u"
+  fileSize: 12443
+  hash: "bd6be940aa36e458674d8ddc21798b27437f7f82"
+otherFiles: 1
+dependencies:
+  CTF-AztecJoust(2007).unr:
+  - status: "OK"
+    name: "GroanSM"
+  - status: "OK"
+    name: "AztecTorch1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6575"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/ctf-aztecjoust(2007).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/a/5/a32e88/ctf-aztecjoust(2007).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/a/5/a32e88/ctf-aztecjoust(2007).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-AztecJoust(2007)"
+playerCount: "12"
+themes:
+  Nali Temple: 0.5
+  Tech: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.2
+bots: true

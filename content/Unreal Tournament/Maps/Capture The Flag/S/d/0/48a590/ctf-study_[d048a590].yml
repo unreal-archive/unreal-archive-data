@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 01:25"
+game: "Unreal Tournament"
+name: "CTF-Study"
+author: "DireIce"
+description: "None"
+releaseDate: "2002-01"
+attachments: []
+originalFilename: "CTF-Study.zip"
+hash: "d048a5907a9e8fc0c0139f0ed8a52ec1f15e3c9e"
+fileSize: 1163447
+files:
+- name: "CTF-Study.unr"
+  fileSize: 1418130
+  hash: "45946b49b6641554dc317d8fb11be223c43db424"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "mortalkombat.umx"
+  fileSize: 623128
+  hash: "474a8426a70e67eb723f4c3b682cc0b3fc151aea"
+otherFiles: 0
+dependencies:
+  CTF-Study.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "mortalkombat"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/LGI/&file=CTF-Study.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-Study.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF-Study.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/0/48a590/CTF-Study.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/0/48a590/CTF-Study.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Study"
+playerCount: "6-16"
+themes:
+  Skaarj Crypt: 0.3
+  Industrial: 0.1
+  Ancient: 0.1
+  Nali Castle: 0.5
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 19:57"
+game: "Unreal Tournament"
+name: "DM-!Sem[UT]HardEd"
+author: "Matthias 'SniperMM' Mohr"
+description: "None"
+releaseDate: "2014-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-!Sem[UT]HardEd_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-!Sem%5BUT%5DHardEd_shot_1.png"
+originalFilename: "DM-!Sem[UT]HardEd.zip"
+hash: "f0945e8b5b9fea961b64ba481860133db8b1cfa2"
+fileSize: 6784406
+files:
+- name: "DM-!Sem[UT]HardEd.unr"
+  fileSize: 3900811
+  hash: "cc651c2f460aae387c092870c2432d5f73ef0bfa"
+- name: "UnrealTeamSmackMyBitch.umx"
+  fileSize: 6353837
+  hash: "1746ccf618d3c4a95cf3988b6e1974d369bf8517"
+otherFiles: 0
+dependencies:
+  DM-!Sem[UT]HardEd.unr:
+  - status: "MISSING"
+    name: "UnrealTeamUzi1"
+  - status: "OK"
+    name: "UnrealTeamSmackMyBitch"
+  - status: "MISSING"
+    name: "Redeemer2k3"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch/Funnel&file=DM-%21Sem%5BUT%5DHardEd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-!Sem%5BUT%5DHardEd.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/f/0/945e8b/DM-!Sem%255BUT%255DHardEd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/f/0/945e8b/DM-!Sem%255BUT%255DHardEd.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sem"
+playerCount: "2-6"
+themes:
+  Natural: 1.0
+bots: true

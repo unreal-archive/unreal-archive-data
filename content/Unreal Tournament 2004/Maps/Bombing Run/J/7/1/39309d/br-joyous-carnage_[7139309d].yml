@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 08:21"
+game: "Unreal Tournament 2004"
+name: "br-Joyous-carnage"
+author: "mtbpman"
+description: "In your eternal quest to score you have somehow found your way to my\
+  \ accursed halls...sorry no pussy here. Hope you can get off on death, carnage,\
+  \ mayham."
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "br-Joyous-carnage_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/J/br-Joyous-carnage_shot_1.png"
+originalFilename: "br-joyouscarnage.zip"
+hash: "7139309d537f3fe479da781ebb9f3b6f0ac87b33"
+fileSize: 7858536
+files:
+- name: "CathedralJunkT.utx"
+  fileSize: 8413909
+  hash: "6f03c067980dc823400383a9b2fe806480e5c56f"
+- name: "CathedralJunk.usx"
+  fileSize: 2467386
+  hash: "638652b7d177cec88acce0506429fd6b94b82aa3"
+- name: "DarkiAncient.usx"
+  fileSize: 4874999
+  hash: "213876261200afed8fac3976c951c5b455dcb89e"
+- name: "br-Joyous-carnage.ut2"
+  fileSize: 6924310
+  hash: "4b13e1169578016b8f9db9dfc18295aedc6c54a8"
+otherFiles: 1
+dependencies:
+  CathedralJunk.usx:
+  - status: "OK"
+    name: "CathedralJunkT"
+  br-Joyous-carnage.ut2:
+  - status: "MISSING"
+    name: "RahnemMesh"
+  - status: "MISSING"
+    name: "BombingSpree"
+  - status: "MISSING"
+    name: "q3import"
+  - status: "OK"
+    name: "DarkiAncient"
+  - status: "OK"
+    name: "CathedralJunk"
+  - status: "MISSING"
+    name: "R3meshes"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3108"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Bombing%20Run/J/br-joyouscarnage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Bombing%20Run/J/7/1/39309d/br-joyouscarnage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/J/7/1/39309d/br-joyouscarnage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Bombing Run"
+title: "Psychotica"
+playerCount: "12"
+themes:
+  Industrial: 0.2
+  Ancient: 0.7
+  Egyptian: 0.1
+bots: true

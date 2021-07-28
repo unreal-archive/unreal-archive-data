@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:18"
+game: "Unreal Tournament"
+name: "CTF-CupaW00t-V2"
+author: "Rakiayn"
+description: "None"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "CTF-CupaW00t-V2_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CupaW00t-V2_shot_3.png"
+- type: "IMAGE"
+  name: "CTF-CupaW00t-V2_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CupaW00t-V2_shot_4.png"
+- type: "IMAGE"
+  name: "CTF-CupaW00t-V2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CupaW00t-V2_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-CupaW00t-V2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/CTF-CupaW00t-V2_shot_2.png"
+originalFilename: "ctf-cupaw00t.zip"
+hash: "bfa731886ece421a480b2c20ad0176c644dee496"
+fileSize: 641341
+files:
+- name: "CTF-CupaW00t-V2.unr"
+  fileSize: 1394064
+  hash: "44c32056c08cab977eadba6eccbaee57387112c4"
+- name: "FallDamageHandler.u"
+  fileSize: 7587
+  hash: "6f0da354e7b9ff4ab072af92106c0a18dd02d3e6"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 4
+dependencies:
+  CTF-CupaW00t-V2.unr:
+  - status: "OK"
+    name: "FallDamageHandler"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/f/a73188/ctf-cupaw00t.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/f/a73188/ctf-cupaw00t.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/b/f/a73188/ctf-cupaw00t.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Cupaw00t-V2"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.1
+  Industrial: 0.6
+  Natural: 0.3
+  Skaarj Tech: 0.1
+bots: true

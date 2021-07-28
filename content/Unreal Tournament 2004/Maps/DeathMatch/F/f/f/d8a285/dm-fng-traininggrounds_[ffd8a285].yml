@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 21:16"
+game: "Unreal Tournament 2004"
+name: "DM-FnG-TrainingGrounds"
+author: "Raspnex, XOR"
+description: "Train your jumps, shock combos and aiming. +++ The Fun 'n' Games Community:\
+  \ http://www.fng-community.com"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "dmfngtraininggrounds.zip"
+hash: "ffd8a28559e4c82362037ddb9ada2c70c87a182e"
+fileSize: 4455945
+files:
+- name: "LKS_TrainingStaticMeshes.usx"
+  fileSize: 347940
+  hash: "a9398007efd1622ef2ece4990e02501c1c72ed92"
+- name: "FnG-TrainingGrounds-SMeshes.usx"
+  fileSize: 66351
+  hash: "234b4e230e4bb570314ad26a9a797f0e94792ff2"
+- name: "FnG-TrainingGrounds-Textures.utx"
+  fileSize: 4808228
+  hash: "2c8822cca374eae285900c8160c8210ed40a60f9"
+- name: "DM-FnG-TrainingGrounds.ut2"
+  fileSize: 2899540
+  hash: "168c618bfb35c5759a81c91e44f15116d7ffcf1e"
+- name: "LKS_TrainingTextures.utx"
+  fileSize: 1640754
+  hash: "e86e45cc7cec3da4f59bceafcb8db0241f23adb8"
+otherFiles: 1
+dependencies:
+  DM-FnG-TrainingGrounds.ut2:
+  - status: "OK"
+    name: "FnG-TrainingGrounds-SMeshes"
+  - status: "OK"
+    name: "FnG-TrainingGrounds-Textures"
+  - status: "OK"
+    name: "LKS_TrainingStaticMeshes"
+  LKS_TrainingStaticMeshes.usx:
+  - status: "OK"
+    name: "LKS_TrainingTextures"
+  FnG-TrainingGrounds-SMeshes.usx:
+  - status: "OK"
+    name: "FnG-TrainingGrounds-Textures"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=3661909"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/F/dmfngtraininggrounds.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=dmfngtraininggrounds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/f/d8a285/dmfngtraininggrounds.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/f/d8a285/dmfngtraininggrounds.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "FnG TrainingGrounds"
+playerCount: "1-16"
+themes:
+  Tech: 0.4
+  Industrial: 0.6
+bots: true

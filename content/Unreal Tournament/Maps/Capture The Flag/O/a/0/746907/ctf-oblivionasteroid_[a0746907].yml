@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:21"
+variationOf: "a8daf6343119f2d7a1393b41826220d9d389c65e"
+game: "Unreal Tournament"
+name: "CTF-OblivionAsteroid"
+author: "Joe 'theswarm' Baker"
+description: "The victors shall be awarded freedom from this hell"
+releaseDate: "2002-02"
+attachments: []
+originalFilename: "ctf-oblivionasteroid.zip"
+hash: "a07469074d0ac8fd237a7b2ab803446739edf358"
+fileSize: 286227
+files:
+- name: "CTF-OblivionAsteroid.unr"
+  fileSize: 975247
+  hash: "d1f7d82c591744a1890733d8eef3fba522c2c55b"
+otherFiles: 2
+dependencies:
+  CTF-OblivionAsteroid.unr:
+  - status: "MISSING"
+    name: "SSPX2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-oblivionasteroid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/ctf-oblivionasteroid.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/a/0/746907/ctf-oblivionasteroid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/a/0/746907/ctf-oblivionasteroid.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "The Oblivion Asteroid"
+playerCount: "4-8 Players"
+themes:
+  Tech: 0.3
+  Natural: 0.7
+bots: true

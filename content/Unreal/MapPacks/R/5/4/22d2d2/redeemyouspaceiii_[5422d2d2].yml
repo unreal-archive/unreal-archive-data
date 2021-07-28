@@ -1,0 +1,111 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 19:41"
+game: "Unreal"
+name: "RedeemYouSpaceIII"
+author: "Mr.Paci"
+description: "None"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "RedeemYouSpaceIII.zip"
+hash: "5422d2d2e033462a8ecd4c1645e5f07a593effd5"
+fileSize: 6511859
+files:
+- name: "14OldQuarter.unr"
+  fileSize: 7982068
+  hash: "f5058186afeb7a1bf8d4e4b6f3683b2c5bed018f"
+- name: "11Village.unr"
+  fileSize: 4266884
+  hash: "d0bfe01b4d80cfc108c96bbe019453419760e756"
+- name: "12ColdPassage.unr"
+  fileSize: 4488597
+  hash: "55eb655e0442f3bc6ed224e3a69a902d879baea1"
+- name: "WormHole2.unr"
+  fileSize: 73874
+  hash: "49965aac04febe9e90dc050fde951c23656343fe"
+- name: "treeC1.u"
+  fileSize: 198908
+  hash: "ac6c80ed165366c062e2f6b7fce1e1f42ecf1109"
+- name: "15CourtyArd.unr"
+  fileSize: 3418378
+  hash: "58e399aacb7c0d1082e942c44cec5f304a90e9d9"
+- name: "13Cemetery.unr"
+  fileSize: 2894757
+  hash: "1131ca7abf40103d14a9267d1aaec33fb1911689"
+otherFiles: 1
+dependencies:
+  "15CourtyArd.unr":
+  - status: "MISSING"
+    name: "MGSkin"
+  - status: "MISSING"
+    name: "oldquadshot"
+  "14OldQuarter.unr":
+  - status: "OK"
+    name: "treeC1"
+  - status: "MISSING"
+    name: "oldquadshot"
+  "11Village.unr":
+  - status: "MISSING"
+    name: "MGSkin"
+  - status: "OK"
+    name: "treeC1"
+  - status: "MISSING"
+    name: "oldquadshot"
+  "12ColdPassage.unr":
+  - status: "MISSING"
+    name: "MGSkin"
+  - status: "MISSING"
+    name: "oldquadshot"
+  - status: "MISSING"
+    name: "WoT"
+  "13Cemetery.unr":
+  - status: "MISSING"
+    name: "MGSkin"
+  - status: "OK"
+    name: "treeC1"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/COOP/&file=RedeemYouSpaceIII.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/R/RedeemYouSpaceIII.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/COOP/RedeemYouSpaceIII.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/R/5/4/22d2d2/RedeemYouSpaceIII.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/R/5/4/22d2d2/RedeemYouSpaceIII.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "13Cemetery"
+  title: "Haros - Cemery"
+  author: "Mr.Paci"
+- name: "WormHole2"
+  title: "WormHole"
+  author: "Mr.Paci"
+- name: "15CourtyArd"
+  title: "Haros - Courtyard"
+  author: "Mr.Paci"
+- name: "11Village"
+  title: "Haros - Isthia Village"
+  author: "Mr.Paci"
+- name: "14OldQuarter"
+  title: "Haros - OldQuarter"
+  author: "Mr.Paci"
+- name: "12ColdPassage"
+  title: "Haros - Cold Passage"
+  author: "Mr.Paci"
+gametype: "Unknown"
+themes:
+  Ancient: 0.1
+  Natural: 0.2
+  Nali Castle: 0.7

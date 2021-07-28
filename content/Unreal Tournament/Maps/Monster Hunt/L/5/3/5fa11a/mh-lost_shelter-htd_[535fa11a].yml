@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:49"
+game: "Unreal Tournament"
+name: "MH-Lost_Shelter-HTD"
+author: "Jimbo"
+description: "Be Ready For War"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "mh-lost_shelter-htd.zip"
+hash: "535fa11a22ecd2030eb91a1287cf710e21f0b7fc"
+fileSize: 3674482
+files:
+- name: "Beast.umx"
+  fileSize: 647226
+  hash: "d2947cea77137e3aab4808603458493bccaa4689"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+- name: "Blackstar.umx"
+  fileSize: 395478
+  hash: "69f8ab5ad8b8b8031409aedc103fc177cd28e713"
+- name: "Mullog.u"
+  fileSize: 1019898
+  hash: "ff110fe280583cc87a3c8dc35267ddeca9d64f26"
+- name: "Mullogskin.utx"
+  fileSize: 1479730
+  hash: "2b1e84c5dca118756402e72d683805242a6c8e08"
+- name: "MH-Lost_Shelter-HTD.unr"
+  fileSize: 1783343
+  hash: "1bbaa8abb64195acd4374d3ef1712756b2a3f03b"
+otherFiles: 2
+dependencies:
+  Mullog.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  - status: "OK"
+    name: "Mullogskin"
+  MH-Lost_Shelter-HTD.unr:
+  - status: "OK"
+    name: "Mullog"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Beast"
+  - status: "OK"
+    name: "Blackstar"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-lost_shelter-htd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/L/mh-lost_shelter-htd.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-lost_shelter-htd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/L/5/3/5fa11a/mh-lost_shelter-htd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/5/3/5fa11a/mh-lost_shelter-htd.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Lost_Shelter-HTD"
+playerCount: "4-6"
+themes:
+  Tech: 1.0
+bots: false

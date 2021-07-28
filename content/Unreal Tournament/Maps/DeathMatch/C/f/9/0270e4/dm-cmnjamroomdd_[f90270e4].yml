@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 01:10"
+game: "Unreal Tournament"
+name: "DM-CMNjamroomDD"
+author: "Common&DoctoR_DeatH"
+description: "Hey Who Farted???"
+releaseDate: "2001-08"
+attachments: []
+originalFilename: "DM-CMNjamroomDD.zip"
+hash: "f90270e400fa997c7f17e7f0daa63fcce9e7cc37"
+fileSize: 5252892
+files:
+- name: "firestarter.umx"
+  fileSize: 564616
+  hash: "5eed9b55772b3449d3e22a0fc89d7b1883367b40"
+- name: "DM-CMNjamroomDD.unr"
+  fileSize: 985302
+  hash: "1b44d563e60a812b35c7fde592f88071dd014b13"
+- name: "Siege.utx"
+  fileSize: 2403012
+  hash: "83e521da3e1047f12f208c57762b60769a960e53"
+- name: "gmc.utx"
+  fileSize: 702280
+  hash: "f52fc78fe1d12829b2fc467b2519946cb321361c"
+- name: "Meatytex.utx"
+  fileSize: 3868762
+  hash: "358f61c4a4b8347048d46d8908046f7458d231d9"
+- name: "Wood.utx"
+  fileSize: 1800815
+  hash: "e87996ce5c648d5e5267dfea9df4800437d0b955"
+otherFiles: 1
+dependencies:
+  DM-CMNjamroomDD.unr:
+  - status: "OK"
+    name: "firestarter"
+  - status: "OK"
+    name: "Wood"
+  - status: "OK"
+    name: "Meatytex"
+  - status: "OK"
+    name: "Siege"
+  - status: "MISSING"
+    name: "BRdmSE"
+  - status: "MISSING"
+    name: "Donuttex"
+  - status: "OK"
+    name: "GMC"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CMNjamroomDD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-CMNjamroomDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CMNjamroomDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-CMNjamroomDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/f/9/0270e4/DM-CMNjamroomDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/f/9/0270e4/DM-CMNjamroomDD.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNjamroomDD"
+playerCount: "8 to 14"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

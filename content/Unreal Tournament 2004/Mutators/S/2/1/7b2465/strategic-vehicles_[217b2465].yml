@@ -1,0 +1,91 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2020-08-09 11:36"
+game: "Unreal Tournament 2004"
+name: "Strategic Vehicles"
+author: "Missilemaster"
+description: "If you have no brain, just back away slowly..."
+releaseDate: "2007-01"
+attachments: []
+originalFilename: "StrategicVehicles.7z"
+hash: "217b2465473fb038dc41b793bad6221cf77fc467"
+fileSize: 99087
+files:
+- name: "StrategicVehicles.u"
+  fileSize: 425241
+  hash: "41fa57df0b9aed7d85bef15ab5659148fabfe629"
+otherFiles: 3
+dependencies:
+  StrategicVehicles.u:
+  - status: "MISSING"
+    name: "ONSWeapons-A"
+  - status: "MISSING"
+    name: "AS_VehiclesFull_M"
+  - status: "MISSING"
+    name: "ONSVehicles-A"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/2/1/7b2465/StrategicVehicles.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/S/2/1/7b2465/StrategicVehicles.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Strategic Vehicles"
+  description: "If you have no brain, just back away slowly..."
+weapons:
+- name: "Vehicle Duplicator"
+  description: "And you thought recycling wasn't combat-related."
+- name: "Vehicle Archiver"
+  description: "Stores vehicles and recreates them, both in a unknown, magic way."
+- name: "Superb Storage Rifle"
+  description: "Sponsored by Doubletank Corp--inventing a new impossible vehicle every\
+    \ day!"
+- name: "Vehicle Modifier"
+  description: "Use this to remove a weapon from one vehicle and place it on another.\
+    \ Manta-tanks anyone?"
+- name: "Vehicle Remote"
+  description: "Allows you to control a vehicle remotely. Go on attack runs from the\
+    \ safety of your base!"
+- name: "Vehicle Upgrader"
+  description: "Improves your team's vehicles by upgrading their engines or attaching\
+    \ a shield generator."
+- name: "Super Shock Rifle"
+  description: "The ASMD Shock Rifle has changed little since its incorporation into\
+    \ the Tournaments. The ASMD sports two firing modes capable of acting in concert\
+    \ to neutralize opponents in a devastating shockwave.||This combination attack\
+    \ is achieved when the weapon operator utilizes the secondary fire mode to deliver\
+    \ a charge of seeded plasma to the target.|Once the slow-moving plasma charge\
+    \ is within range of the target, the weapon operator may fire the photon beam\
+    \ into the plasma core, releasing the explosive energy of the anti-photons contained\
+    \ within the plasma's EM field."
+vehicles:
+- name: "StrategicVehicles.FlyingFlyingScorpion"
+  description: "StrategicVehicles.FlyingFlyingScorpion"
+- name: "Flying Scorpion"
+  description: "Flying Scorpion"
+- name: "StrategicVehicles.GroundedFlyingScorpion"
+  description: "StrategicVehicles.GroundedFlyingScorpion"
+- name: "Human Spacefighter"
+  description: "Human Spacefighter"
+- name: "Infiltrator"
+  description: "Infiltrator"
+- name: "StrategicVehicles.NamelessWarpTruck"
+  description: "StrategicVehicles.NamelessWarpTruck"
+- name: "Skaarj Spacefighter"
+  description: "Skaarj Spacefighter"
+- name: "Vehicle"
+  description: "Vehicle"
+- name: "Spacecraft Carrier"
+  description: "Spacecraft Carrier"
+- name: "Launchpad"
+  description: "Launchpad"
+- name: "Stealth Raptor"
+  description: "Stealth Raptor"
+- name: "SpaceBender"
+  description: "SpaceBender"
+hasConfigMenu: false
+hasKeybinds: false

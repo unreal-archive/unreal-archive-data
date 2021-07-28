@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-18 22:09"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "ONS-{Fs}-BridgeHead"
 author: "Feuersturm"
@@ -47,17 +46,18 @@ dependencies:
   ONS-{Fs}-BridgeHead.ut2:
   - status: "OK"
     name: "VCTFBridgeHeadTexes"
-    providedBy: null
   - status: "OK"
     name: "VCTFBridgeHeadSM"
-    providedBy: null
   VCTFBridgeHeadSM.usx:
   - status: "OK"
     name: "VCTFBridgeHeadTexes"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/F/b/d/e736fb/ONS-%7BFs%7D-BridgeHead.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/F/b/d/e736fb/ONS-%257BFs%257D-BridgeHead.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

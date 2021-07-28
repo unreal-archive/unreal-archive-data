@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:21"
+game: "Unreal Tournament"
+name: "DM-LivingRMse"
+author: "Dustin Fair (Dremoan)"
+description: "Make yourselft right at home."
+releaseDate: "2000-11"
+attachments: []
+originalFilename: "dm-livingrmse.zip"
+hash: "636f39c1896b03368dd14d55046175e415767411"
+fileSize: 995602
+files:
+- name: "DRLR.utx"
+  fileSize: 178921
+  hash: "13454936c7ebf28eb5bf17f772959703c9d8edac"
+- name: "DRLRse.utx"
+  fileSize: 354975
+  hash: "dbc36e2efe7b90011982626580075073dabfd651"
+- name: "DM-LivingRMse.unr"
+  fileSize: 1498955
+  hash: "bc1f96dc09c3ddd6b703aaccee80fafa9d7cf05a"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 1
+dependencies:
+  DM-LivingRMse.unr:
+  - status: "OK"
+    name: "DRLR"
+  - status: "OK"
+    name: "DRLRse"
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/dm-livingrmse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dm-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/GMC/&file=DM-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/GMC&file=DM-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsL/dm-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/L/6/3/6f39c1/dm-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/L/6/3/6f39c1/dm-livingrmse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LivingRM Second Edition"
+playerCount: "8-12"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true

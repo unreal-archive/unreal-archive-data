@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:10"
+game: "Unreal Tournament"
+name: "DM-euro2004"
+author: "Marc Visser"
+description: "HAVE FRAGS !!!!!!!!"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "dm-euro2004.zip"
+hash: "c0c6b38ee08de33ec743565c956525f06abb1096"
+fileSize: 561563
+files:
+- name: "DM-euro2004.unr"
+  fileSize: 262886
+  hash: "ec42d8a21878e7554afe08d4fbce7a5ec553b1ad"
+- name: "euro_2004.utx"
+  fileSize: 1577108
+  hash: "ca250234bbd68b53b62414b428026ed1715fc712"
+otherFiles: 0
+dependencies:
+  DM-euro2004.unr:
+  - status: "OK"
+    name: "euro_2004"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-euro2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/dm-euro2004.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=3044"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/E/c/0/c6b38e/dm-euro2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/E/c/0/c6b38e/dm-euro2004.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "fire_hals"
+playerCount: "5-10"
+themes:
+  Industrial: 1.0
+bots: false

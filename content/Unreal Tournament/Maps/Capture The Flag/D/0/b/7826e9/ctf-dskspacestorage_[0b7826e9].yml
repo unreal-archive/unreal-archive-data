@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:08"
+game: "Unreal Tournament"
+name: "CTF-[[DsK]]SPACESTORAGE"
+author: "Rick\"PsYchOtiC_[[DsK]]\""
+description: "None"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "ctf-{dsk}spacestorage.zip"
+hash: "0b7826e9569f0004417377ba57b1891a6badb04e"
+fileSize: 3933682
+files:
+- name: "dsk3.utx"
+  fileSize: 267114
+  hash: "4825126995877045c1b2e2fcf2bbf320c54c5f62"
+- name: "DSK6.utx"
+  fileSize: 882042
+  hash: "f8c3aefefa84cf713b17dbe5b8f1055200a0c301"
+- name: "CTF-[[DsK]]SPACESTORAGE.unr"
+  fileSize: 1005546
+  hash: "3b4d204ea25156bd67300f0f0674fa3a22633b1b"
+- name: "dsk4.utx"
+  fileSize: 266060
+  hash: "39e4dd3574dd53fe59ad242ebb90e35b7524aec8"
+- name: "prong.umx"
+  fileSize: 4219137
+  hash: "9ca126ff3f357fb98f32fb45596fc10cbf2501ee"
+otherFiles: 0
+dependencies:
+  CTF-[[DsK]]SPACESTORAGE.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "dsk3"
+  - status: "OK"
+    name: "prong"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-%7Bdsk%7Dspacestorage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-%7Bdsk%7Dspacestorage.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/0/b/7826e9/ctf-%257Bdsk%257Dspacestorage.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/0/b/7826e9/ctf-%257Bdsk%257Dspacestorage.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-[[DsK]]SPACESTORAGE"
+playerCount: "10-12"
+themes:
+  Industrial: 0.4
+  City: 0.5
+bots: false

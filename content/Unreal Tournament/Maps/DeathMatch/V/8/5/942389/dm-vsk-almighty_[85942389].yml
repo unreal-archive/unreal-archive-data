@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:48"
+game: "Unreal Tournament"
+name: "DM-VSK-Almighty"
+author: "[VSK]AssWaxer"
+description: ""
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-VSK-Almighty_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/V/DM-VSK-Almighty_shot_1.png"
+originalFilename: "dm-vsk-almighty.zip"
+hash: "8594238900331aaa35b6acb14124d34cd640bd39"
+fileSize: 795289
+files:
+- name: "PAINmaker.umx"
+  fileSize: 309611
+  hash: "106403d20b1ccd2712da6c803d40b573df5ba5e0"
+- name: "DM-VSK-Almighty.unr"
+  fileSize: 1131651
+  hash: "6ccea058e56f057863d7ece4b64a22ed6221979f"
+- name: "VSKBkyd.utx"
+  fileSize: 266333
+  hash: "bded0d96a230a1b4f4022dd2d4877b41163d0ada"
+- name: "sal1.utx"
+  fileSize: 88969
+  hash: "f7f79af97f53fee0c0db98b504053607a31e2c6d"
+otherFiles: 1
+dependencies:
+  DM-VSK-Almighty.unr:
+  - status: "OK"
+    name: "PAINmaker"
+  - status: "OK"
+    name: "sal1"
+  - status: "OK"
+    name: "VSKBkyd"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/V/dm-vsk-almighty.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsV/&file=dm-vsk-almighty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-vsk-almighty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsV/dm-vsk-almighty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/V/8/5/942389/dm-vsk-almighty.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/V/8/5/942389/dm-vsk-almighty.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-VSK-Almighty"
+playerCount: "2-16"
+themes:
+  Industrial: 1.0
+bots: true

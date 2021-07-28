@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:31"
+game: "Unreal Tournament"
+name: "DM-NWCampgrounds-BE"
+author: "nekoneko=[SAK]= & SmileY , Boon-qiv-"
+description: "When you can hold a gun you arent dead"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWCampgrounds-BE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWCampgrounds-BE_shot_1.png"
+originalFilename: "DM-NWCampgrounds-BE.zip"
+hash: "aecc4857af0d424a26813bf0930740519d4b8110"
+fileSize: 8188625
+files:
+- name: "PickupSound.uax"
+  fileSize: 659247
+  hash: "73a05ac339f4a7347c76eabd204a5602c33af156"
+- name: "DM-NWCampgrounds-BE.unr"
+  fileSize: 2091349
+  hash: "6c52e185d8e0c05805dc6e91cc968136cad9229a"
+- name: "RazorubArrange.umx"
+  fileSize: 5988697
+  hash: "042b8aa0e3297aeba48a1ddab8f327bad41c63f4"
+- name: "2k4Pickup.u"
+  fileSize: 233365
+  hash: "63663d1a3756b436540b1804d1b3d15105d70750"
+- name: "2k4chargerMESHES.u"
+  fileSize: 1610436
+  hash: "b91ee93e997a3dc8a3a29f7b09898eba8e318c36"
+otherFiles: 0
+dependencies:
+  DM-NWCampgrounds-BE.unr:
+  - status: "OK"
+    name: "2k4Pickup"
+  - status: "OK"
+    name: "2k4chargerMESHES"
+  - status: "OK"
+    name: "RazorubArrange"
+  - status: "OK"
+    name: "PickupSound"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWCampgrounds-BE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWCampgrounds-BE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/a/e/cc4857/DM-NWCampgrounds-BE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/a/e/cc4857/DM-NWCampgrounds-BE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Campgrounds- Boon Edition -"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.2
+  Industrial: 0.6
+  Skaarj Tech: 0.1
+bots: true

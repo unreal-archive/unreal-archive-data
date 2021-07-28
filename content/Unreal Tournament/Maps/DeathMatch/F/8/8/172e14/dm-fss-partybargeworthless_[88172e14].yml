@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:24"
+game: "Unreal Tournament"
+name: "DM-FSS-PartyBargeWorthless"
+author: "Common&DoctoR_DeatH"
+description: "Lost at sea"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-FSS-PartyBargeWorthless_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FSS-PartyBargeWorthless_shot_1.png"
+originalFilename: "DM-FSS-PartyBargeWorthless.zip"
+hash: "88172e142792991f4c9f0dcc9aec03909989564a"
+fileSize: 33776058
+files:
+- name: "MyLevel.utx"
+  fileSize: 66986
+  hash: "be62de863d157c3f373d550618d1c08b2833f032"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "WorthyAmongWorthless.umx"
+  fileSize: 12239053
+  hash: "6da3b6a77ef3efb162642fae4c73f27ddfbe1a28"
+- name: "DM-FSS-PartyBargeWorthless.unr"
+  fileSize: 1015620
+  hash: "d0c88c2650f93fca110c366e85f761d76637687b"
+- name: "photo.utx"
+  fileSize: 8538368
+  hash: "229ef0567d617660906e317a6ae5e2a534e253b5"
+otherFiles: 0
+dependencies:
+  DM-FSS-PartyBargeWorthless.unr:
+  - status: "OK"
+    name: "WorthyAmongWorthless"
+  - status: "OK"
+    name: "photo"
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-FSS-PartyBargeWorthless.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FSS-PartyBargeWorthless.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/8/8/172e14/DM-FSS-PartyBargeWorthless.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/8/8/172e14/DM-FSS-PartyBargeWorthless.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNboatDD"
+playerCount: "6 to 14"
+themes:
+  Industrial: 0.6
+  Ancient: 0.4
+bots: true

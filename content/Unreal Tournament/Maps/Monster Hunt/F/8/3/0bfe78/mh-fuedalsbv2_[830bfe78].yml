@@ -1,0 +1,104 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:18"
+game: "Unreal Tournament"
+name: "MH-Fuedal(SB)V2"
+author: "DAVID R. LAMBERSON (OSMIUM), modded for MH by Barbie"
+description: "GET THAT GEM!!!"
+releaseDate: "2016-02"
+attachments:
+- type: "IMAGE"
+  name: "MH-Fuedal(SB)V2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/F/MH-Fuedal(SB)V2_shot_1.png"
+originalFilename: "MH-Fuedal(SB)V2.7z"
+hash: "830bfe785209c09d2c157013a5c4e79b49ed3184"
+fileSize: 27480317
+files:
+- name: "SBRetriggerableCreatureFactoryV2.u"
+  fileSize: 5036
+  hash: "dca270da2d89018555d4f99663335bd9aeede537"
+- name: "LPPlantDecos01.u"
+  fileSize: 16279
+  hash: "dde650e5b360fbcafdfb2d431f2ba953bce8e800"
+- name: "SBSubwayToSallySiebenInstrumental.umx"
+  fileSize: 8847757
+  hash: "aa4f82f377a5f8a7c13e1e155f4c615a8060a5ae"
+- name: "WarlordMusic.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "PlantDecos01.utx"
+  fileSize: 534298
+  hash: "709fba85d66dbac6363980c3e8c74d854ff37255"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "Fuedal.utx"
+  fileSize: 2320815
+  hash: "6922d3aeb82b750065f530ad9bbba099e91b64d0"
+- name: "SBBarbiesWorld.uax"
+  fileSize: 788184
+  hash: "37bb0913cd828e0b062544afb46a9286a73fa6bd"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "MH-Fuedal(SB)V2.unr"
+  fileSize: 4132286
+  hash: "070991202e7751cead3b846790b133d4b09ea12d"
+otherFiles: 3
+dependencies:
+  MH-Fuedal(SB)V2.unr:
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "LPPlantDecos01"
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "SBRetriggerableCreatureFactoryV2"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Fuedal"
+  - status: "OK"
+    name: "SBBarbiesWorld"
+  - status: "OK"
+    name: "SBSubwayToSallySiebenInstrumental"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "WarlordMusic"
+  LPPlantDecos01.u:
+  - status: "OK"
+    name: "PlantDecos01"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Fuedal%28SB%29V2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/F/MH-Fuedal(SB)V2.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/F/8/3/0bfe78/MH-Fuedal(SB)V2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/8/3/0bfe78/MH-Fuedal(SB)V2.7z"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "FUEDAL"
+playerCount: "10-16"
+themes:
+  Industrial: 0.4
+  Ancient: 0.1
+  Nali Castle: 0.5
+bots: false

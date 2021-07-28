@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:21"
+game: "Unreal"
+name: "Dm[SP]SpaceBeacon"
+author: "Bert de Jong *Remixed by RUSH*"
+description: "Keep your head down!"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "dmspspacebeacon_shot_99b3caf5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/dmspspacebeacon_shot_99b3caf5_1.png"
+originalFilename: "DM[SP]SpaceBeacon.zip"
+hash: "99b3caf5353fde2f858c12d88081a094f87e1af0"
+fileSize: 8667398
+files:
+- name: "Dm[SP]SpaceBeacon.unr"
+  fileSize: 16932480
+  hash: "4156abf4ff18b70ce59c86af92c2cca9ece94322"
+- name: "SP_LikeaStone.umx"
+  fileSize: 6406812
+  hash: "f1f316531f3e6b66e27ef0d1fda75465dc8ede74"
+otherFiles: 0
+dependencies:
+  Dm[SP]SpaceBeacon.unr:
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "SP_LikeaStone"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/DM%5BSP%5DSpaceBeacon.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/S/9/9/b3caf5/DM%255BSP%255DSpaceBeacon.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/S/9/9/b3caf5/DM%255BSP%255DSpaceBeacon.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] 3rd Space Beacon"
+playerCount: "8+"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.8
+bots: true

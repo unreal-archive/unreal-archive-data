@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 08:15"
+game: "Unreal Tournament 2004"
+name: "BR-CatWalk"
+author: "Tsami"
+description: "A strange place for a ball game."
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "BR-CatWalk_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/BR-CatWalk_shot_1.png"
+- type: "IMAGE"
+  name: "BR-CatWalk_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/BR-CatWalk_shot_2.png"
+originalFilename: "br-catwalk.zip"
+hash: "af4b9e1e524351d9cf522af6c42be473efd2a5e6"
+fileSize: 4206674
+files:
+- name: "CatArch.usx"
+  fileSize: 31402
+  hash: "a5f6e3264e98fe381af5748e795b208d17157b19"
+- name: "ModifiedAbeam.usx"
+  fileSize: 25129
+  hash: "cb1712dca6923838157faefba62d83d059c95a3a"
+- name: "BR-CatWalk.ut2"
+  fileSize: 12534407
+  hash: "049c9efd2fb0901a6ffb2ef33ed70cc8656733c6"
+otherFiles: 2
+dependencies:
+  BR-CatWalk.ut2:
+  - status: "OK"
+    name: "CatArch"
+  - status: "OK"
+    name: "ModifiedAbeam"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1773"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/br-catwalk.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/a/f/4b9e1e/br-catwalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/C/a/f/4b9e1e/br-catwalk.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Bombing Run"
+title: "CatWalk"
+playerCount: "10-14"
+themes:
+  Tech: 0.5
+  Industrial: 0.4
+bots: true

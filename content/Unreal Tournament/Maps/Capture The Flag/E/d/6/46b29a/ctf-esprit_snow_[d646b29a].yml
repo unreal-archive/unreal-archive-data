@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 20:48"
+game: "Unreal Tournament"
+name: "CTF-Esprit_SnOw"
+author: "Redone by Deflector & Rambo"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-esprit_snow_shot_d646b29a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/6/46b29a/ctf-esprit_snow_shot_d646b29a_1.png"
+- type: "IMAGE"
+  name: "ctf-esprit_snow_shot_d646b29a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/6/46b29a/ctf-esprit_snow_shot_d646b29a_2.png"
+originalFilename: "ctf-esprit_snow.zip"
+hash: "d646b29aefc76c0d7a5eaa19052c9eb65896ed80"
+fileSize: 4315269
+files:
+- name: "CTF-Esprit_SnOw.unr"
+  fileSize: 2255142
+  hash: "a9f0b1a51bbe8bc64a837674da52b32104db0b28"
+- name: "EsSnOw.utx"
+  fileSize: 177681
+  hash: "ad0635647845b8889288375c19fd3b765d14f203"
+- name: "Savatage_Christmas.umx"
+  fileSize: 4452130
+  hash: "4f52ff2491e8bf30f348b80397099840decd6683"
+otherFiles: 1
+dependencies:
+  CTF-Esprit_SnOw.unr:
+  - status: "OK"
+    name: "Savatage_Christmas"
+  - status: "MISSING"
+    name: "EspritDeCorp"
+  - status: "OK"
+    name: "EsSnOw"
+  - status: "MISSING"
+    name: "Esprit"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=377"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/6/46b29a/ctf-esprit_snow.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/6/46b29a/ctf-esprit_snow.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/d/6/46b29a/ctf-esprit_snow.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Christmas Esprit de Corp"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.7
+  Nali Castle: 0.3
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-17 15:00"
+game: "Unreal"
+name: "DmJsVilla"
+author: "Jeff Martin - www.geocities.com/j4unreal"
+description: "J's Unfinished Villa. All are welcome here."
+releaseDate: "2009-02"
+attachments:
+- type: "IMAGE"
+  name: "DmJsVilla_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/J/DmJsVilla_shot_1.png"
+originalFilename: "dmjsvilla_5ae7619e.zip"
+hash: "5ae7619e5761de909de3797f0a2b7475275c01da"
+fileSize: 2003323
+files:
+- name: "DmJsVilla.unr"
+  fileSize: 2745552
+  hash: "45f0c32ba793c1b03ed512f81ea886f89974d6ff"
+- name: "DmJsVilla-s.unr"
+  fileSize: 2042624
+  hash: "1fc12dcccd618f881961d23ad9db65106f216a62"
+- name: "JeffsVilla.uax"
+  fileSize: 153546
+  hash: "fa748c361dbc13c018fcea56f62707e0b1835552"
+otherFiles: 1
+dependencies:
+  DmJsVilla-s.unr:
+  - status: "OK"
+    name: "JeffsVilla"
+  DmJsVilla.unr:
+  - status: "OK"
+    name: "JeffsVilla"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/J/dmjsvilla_5ae7619e.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/J/5/a/e7619e/dmjsvilla_5ae7619e.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/J/5/a/e7619e/dmjsvilla_5ae7619e.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "J's Unfinished Villa"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: true

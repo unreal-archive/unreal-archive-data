@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:46"
+game: "Unreal Tournament"
+name: "DM-Urban"
+author: "David Münnich"
+description: "None"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Urban_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-Urban_shot_1.png"
+originalFilename: "dm-urban.zip"
+hash: "1c4f948d96e5f0d27db568efcad2de55367f0d35"
+fileSize: 3418396
+files:
+- name: "DM-Urban.unr"
+  fileSize: 5879577
+  hash: "eed713dc221998c3e3d807a03f78b9ce57671a3d"
+- name: "Terrorist3tex.utx"
+  fileSize: 2243766
+  hash: "698305c03d055b66c31cca60f81e17154f84948f"
+otherFiles: 1
+dependencies:
+  DM-Urban.unr:
+  - status: "OK"
+    name: "terrorist3tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-urban.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsU/&file=dm-urban.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-urban.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsU/dm-urban.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/1/c/4f948d/dm-urban.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/1/c/4f948d/dm-urban.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Urban"
+playerCount: "2-4"
+themes:
+  Industrial: 0.3
+  City: 0.2
+  Skaarj Tech: 0.4
+bots: true

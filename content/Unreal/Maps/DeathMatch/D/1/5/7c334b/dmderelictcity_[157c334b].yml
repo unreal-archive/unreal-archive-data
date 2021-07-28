@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-17 05:40"
+game: "Unreal"
+name: "DMDerelictCity"
+author: "(Skull_skewer *Imported from UT by RUSH*"
+description: "Welcome to DerelictCitY!!"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "DM-derelictcity.zip"
+hash: "157c334b35645c061a24137626c749bbe0f0e9ea"
+fileSize: 5130768
+files:
+- name: "Derelict.utx"
+  fileSize: 3574813
+  hash: "ff9f92dae666b475b90b8f9a8a81036affffb638"
+- name: "DMDerelictCity.unr"
+  fileSize: 5500623
+  hash: "f4d34da970de62487f3d0ba23645f01a52e19b6d"
+- name: "Animal_Pack1.u"
+  fileSize: 2192402
+  hash: "08067207103da3bef9656aa1ffafd23a105632d2"
+otherFiles: 0
+dependencies:
+  DMDerelictCity.unr:
+  - status: "MISSING"
+    name: "city"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Derelict"
+  - status: "MISSING"
+    name: "TobioTrees"
+  - status: "MISSING"
+    name: "Sniper"
+  - status: "OK"
+    name: "Animal_Pack1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/DM-derelictcity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/D/1/5/7c334b/DM-derelictcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/D/1/5/7c334b/DM-derelictcity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DerelictCity"
+playerCount: "14-16"
+themes:
+  City: 0.9
+  Natural: 0.1
+bots: false

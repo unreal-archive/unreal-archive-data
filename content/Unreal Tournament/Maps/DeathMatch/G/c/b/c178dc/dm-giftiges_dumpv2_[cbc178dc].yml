@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 21:28"
+game: "Unreal Tournament"
+name: "DM-Giftiges_DumpV2"
+author: "Kevin Day -- K&D_Enterprise"
+description: "Welcome to Giftiges Dump"
+releaseDate: "2008-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-Giftiges_DumpV2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/DM-Giftiges_DumpV2_shot_1.png"
+originalFilename: "DM-Giftiges_DumpV2.zip"
+hash: "cbc178dc86625d433c8878708a88af84cfe66dd5"
+fileSize: 3202693
+files:
+- name: "Greys.utx"
+  fileSize: 1949634
+  hash: "1a068c11a1f8fed44e1104e792a093aef8e59be0"
+- name: "GiftesSounds.uax"
+  fileSize: 846996
+  hash: "7b78e9f60134d73bf57deef414ed82a5c99f8b48"
+- name: "DM-Giftiges_DumpV2.unr"
+  fileSize: 6080840
+  hash: "32c32527ac6260882198e7354a7e1cbf7889cb03"
+otherFiles: 0
+dependencies:
+  DM-Giftiges_DumpV2.unr:
+  - status: "OK"
+    name: "GiftesSounds"
+  - status: "OK"
+    name: "Greys"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7496"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/DM-Giftiges_DumpV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/c/b/c178dc/DM-Giftiges_DumpV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/c/b/c178dc/DM-Giftiges_DumpV2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Giftiges Dump (Toxic Dump)"
+playerCount: "10 plus"
+themes:
+  Tech: 1.0
+bots: true

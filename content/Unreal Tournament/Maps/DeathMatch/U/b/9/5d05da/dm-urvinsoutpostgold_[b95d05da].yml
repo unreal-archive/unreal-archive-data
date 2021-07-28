@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:46"
+game: "Unreal Tournament"
+name: "DM-UrvinsOutpost[Gold]"
+author: "Eyuva 'S' NRG"
+description: "Die Human!"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "DM-UrvinsOutpost[Gold]_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-UrvinsOutpost%5BGold%5D_shot_1.png"
+originalFilename: "dm-urvinsoutpost[gold].zip"
+hash: "b95d05daab606868e4336845ed58800e2f3a1a6d"
+fileSize: 1302007
+files:
+- name: "Urvin.utx"
+  fileSize: 266321
+  hash: "14c3ca104632e79e37eed443dbb512d77d1dda4b"
+- name: "DM-UrvinsOutpost[Gold].unr"
+  fileSize: 1313673
+  hash: "88e5d9524353eb6b9a1fc3cd21b505f1a05ed9d0"
+- name: "Battle3s.umx"
+  fileSize: 575491
+  hash: "2164340fae70d096488bfc9911ede898acdb5e0b"
+- name: "Decor3.utx"
+  fileSize: 871713
+  hash: "ab732f6bfccd80ccc10de627af4e209e7d73b327"
+otherFiles: 3
+dependencies:
+  DM-UrvinsOutpost[Gold].unr:
+  - status: "OK"
+    name: "Decor3"
+  - status: "OK"
+    name: "Urvin"
+  - status: "OK"
+    name: "Battle3s"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-urvinsoutpost%5Bgold%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsU/&file=dm-urvinsoutpost%5Bgold%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-urvinsoutpost%5Bgold%5D-2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-urvinsoutpost%5Bgold%5D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsU/dm-urvinsoutpost%5bgold%5d.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/b/9/5d05da/dm-urvinsoutpost%255Bgold%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/b/9/5d05da/dm-urvinsoutpost%255Bgold%255D.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Urvin's Outpost [Gold Edition]"
+playerCount: "7-11"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.3
+  Industrial: 0.2
+  Skaarj Tech: 0.4
+bots: true

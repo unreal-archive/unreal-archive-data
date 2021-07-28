@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:36"
+game: "Unreal Tournament"
+name: "DM-FNB-OrionsRevenge"
+author: "Rob -=FraGnBraG=- Burns"
+description: "None"
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-FNB-OrionsRevenge_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-OrionsRevenge_shot_2.png"
+- type: "IMAGE"
+  name: "DM-FNB-OrionsRevenge_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-OrionsRevenge_shot_1.png"
+- type: "IMAGE"
+  name: "DM-FNB-OrionsRevenge_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-OrionsRevenge_shot_3.png"
+originalFilename: "DM-FNB-OrionsRevenge.zip"
+hash: "b830c1a4e849d31c8dd2e76a64d244da0bb66035"
+fileSize: 23856830
+files:
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "NPresurect.umx"
+  fileSize: 4469536
+  hash: "f4ba7e2a140df34e75c8159bb537f75f95788f9c"
+- name: "DM-FNB-OrionsRevenge.unr"
+  fileSize: 20989725
+  hash: "c3ffd4ac790306def3489cca83b3e677882c1d7a"
+otherFiles: 5
+dependencies:
+  DM-FNB-OrionsRevenge.unr:
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "NPresurect"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsF/&file=DM-FNB-OrionsRevenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/F/DM-FNB-OrionsRevenge.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=8104"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/F/b/8/30c1a4/DM-FNB-OrionsRevenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/F/b/8/30c1a4/DM-FNB-OrionsRevenge.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FNB-OrionsRevenge (UTR)"
+playerCount: "6-12"
+themes: {}
+bots: true

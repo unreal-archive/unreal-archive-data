@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 08:55"
+game: "Unreal Tournament"
+name: "CTF-((SMP))MINIPIPE"
+author: "Modified by windigo"
+description: "None"
+releaseDate: "2011-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-((SMP))MINIPIPE_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-((SMP))MINIPIPE_shot_1.png"
+originalFilename: "CTF-((SMP))MINIPIPE.zip"
+hash: "a344c11571b23f2beca2858df1627a83c8d0fd27"
+fileSize: 4633625
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-((SMP))MINIPIPE.unr"
+  fileSize: 915911
+  hash: "56f530f1507717c4f601d285eba5728d12632007"
+- name: "SMP.utx"
+  fileSize: 266317
+  hash: "c8d3889443f8b88780341c722933d9bcc720864e"
+otherFiles: 0
+dependencies:
+  CTF-((SMP))MINIPIPE.unr:
+  - status: "OK"
+    name: "SMP"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-%28%28SMP%29%29MINIPIPE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-((SMP))MINIPIPE.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-%28%28SMP%29%29MINIPIPE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/a/3/44c115/CTF-((SMP))MINIPIPE.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/a/3/44c115/CTF-((SMP))MINIPIPE.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-MINIPIPE"
+playerCount: "2-6"
+themes:
+  Industrial: 0.9
+bots: false

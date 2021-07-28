@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:45"
+variationOf: "92bd1ca78874c5f293be12c3531faa86d26dc7d5"
+game: "Unreal"
+name: "DmAscender"
+author: "Fleshdance"
+description: "Gravity and fear of falling"
+releaseDate: "1999-05"
+attachments: []
+originalFilename: "DmAscender.zip"
+hash: "8ccdb2cb49856f459a9e413adba79195ce6a3d12"
+fileSize: 684451
+files:
+- name: "Ascender.uax"
+  fileSize: 213161
+  hash: "c3095d39cdcaf9600352c68a1decdf0a7777e679"
+- name: "DmAscender.unr"
+  fileSize: 1286105
+  hash: "bc59c97cea2a9ce011ad850d7706fda4805afbd5"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "Prong.uax"
+  fileSize: 175987
+  hash: "5ffaf313e0b9d1f0d24ec3797fa078c304aa3be4"
+otherFiles: 2
+dependencies:
+  DmAscender.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "Prong"
+  - status: "OK"
+    name: "Ascender"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsA/&file=DmAscender.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/DmAscender.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsA/DmAscender.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/A/8/c/cdb2cb/DmAscender.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/A/8/c/cdb2cb/DmAscender.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ascender"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 1.0
+bots: true

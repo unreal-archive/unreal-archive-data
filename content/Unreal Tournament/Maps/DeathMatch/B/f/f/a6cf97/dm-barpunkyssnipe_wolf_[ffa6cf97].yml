@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 14:14"
+game: "Unreal Tournament"
+name: "DM-BarPunkysSnipe_Wolf"
+author: "Dremoan modified by Punky Brewster"
+description: "Yohoho, I said Yohoho--Cause CPT Morgan told you so"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "DM-BarPunkysSnipe_Wolf_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/DM-BarPunkysSnipe_Wolf_shot_1.png"
+originalFilename: "DM-BarPunkysSnipe_Wolf.zip"
+hash: "ffa6cf97ab958844af132427c1b100074201117a"
+fileSize: 7017195
+files:
+- name: "DM-BarPunkysSnipe_Wolf.unr"
+  fileSize: 2966058
+  hash: "01ee64a4ee5ee1bba2a6902d3d7a0b3658cb69d4"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "Sober.umx"
+  fileSize: 3382374
+  hash: "a701c5186e2cd52a5bb53441c15f61e85fdc30a5"
+- name: "DRMPa.utx"
+  fileSize: 3643483
+  hash: "dffa527f17d075599ea50b8e4d456fb6bcdef2cd"
+- name: "BarPB.utx"
+  fileSize: 1933515
+  hash: "649d3d6b99da375990a0796b003e837dc6b6ff53"
+otherFiles: 0
+dependencies:
+  DM-BarPunkysSnipe_Wolf.unr:
+  - status: "OK"
+    name: "DRMPa"
+  - status: "OK"
+    name: "Sober"
+  - status: "OK"
+    name: "Rt-Detail"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "BarPB"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-BarPunkysSnipe_Wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/DM-BarPunkysSnipe_Wolf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/B/f/f/a6cf97/DM-BarPunkysSnipe_Wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/B/f/f/a6cf97/DM-BarPunkysSnipe_Wolf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bar Punky's Snipe Hunt C"
+playerCount: "8-10"
+themes:
+  Indistrial: 1.0
+bots: true

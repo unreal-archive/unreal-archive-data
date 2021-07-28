@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 22:26"
+game: "Unreal Tournament"
+name: "CTF-BT-Easy-but-long-EZ"
+author: "GiorgiO.pX5"
+description: "None"
+releaseDate: "2016-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-Easy-but-long-EZ_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/E/CTF-BT-Easy-but-long-EZ_shot_1.png"
+originalFilename: "CTF-BT-Easy-but-long-EZ.zip"
+hash: "d78da4015f8431d8269bb6dd7d0d2def033bd7f9"
+fileSize: 14906119
+files:
+- name: "RT-Gnosis.utx"
+  fileSize: 12954443
+  hash: "72c81bf334ef71f93de04df929d376b23d3bdd29"
+- name: "hm4.umx"
+  fileSize: 2180316
+  hash: "cb990e4474a7c9771505ab20017c609269cbbff1"
+- name: "CTF-BT-Easy-but-long-EZ.unr"
+  fileSize: 4904954
+  hash: "74811b90f904e6bb2a703a5087f26c4528fa0a75"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+otherFiles: 0
+dependencies:
+  CTF-BT-Easy-but-long-EZ.unr:
+  - status: "OK"
+    name: "RT-Gnosis"
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "hm4"
+  Jump.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+  RT-Gnosis.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Easy-but-long-EZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/E/CTF-BT-Easy-but-long-EZ.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Easy-but-long-EZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/E/d/7/8da401/CTF-BT-Easy-but-long-EZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/E/d/7/8da401/CTF-BT-Easy-but-long-EZ.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "Map Made By Giorgio.pX5"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: false

@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:32"
+variationOf: "12a140c0fd59066dce37a6622421b4a3f4397354"
+game: "Unreal Tournament"
+name: "CTF-PandoraBox"
+author: "Made by Tuy"
+description: "None"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-pandorabox_shot_64010ff6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/6/4/010ff6/ctf-pandorabox_shot_64010ff6_1.png"
+originalFilename: "ctf-pandorasbox.zip"
+hash: "64010ff6b384d1497852a08a7c1ba6c67e1b3fc7"
+fileSize: 168741
+files:
+- name: "MapTuy.utx"
+  fileSize: 45297
+  hash: "c5146d86c19f513068e0945e947ca8fc77752985"
+- name: "CTF-PandoraBox.unr"
+  fileSize: 511733
+  hash: "65f7d1efe81d41245741bf41e533384f5df62692"
+otherFiles: 1
+dependencies:
+  CTF-PandoraBox.unr:
+  - status: "OK"
+    name: "MapTuy"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/ctf-pandorasbox.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/6/4/010ff6/ctf-pandorasbox.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/6/4/010ff6/ctf-pandorasbox.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Pandora's Box"
+playerCount: "6-14"
+themes:
+  Nali Temple: 1.0
+bots: true

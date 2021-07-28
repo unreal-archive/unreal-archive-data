@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 20:00"
+game: "Unreal Tournament"
+name: "CTF4-FNB-GOMP"
+author: "-=FraGnBraG=-"
+description: "CTF4 version of CTF-300K-GOMP. (c)2007, 2011 Rob Burns."
+releaseDate: "2011-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF4-FNB-GOMP_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/CTF4-FNB-GOMP_shot_1.png"
+- type: "IMAGE"
+  name: "CTF4-FNB-GOMP_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/CTF4-FNB-GOMP_shot_2.png"
+originalFilename: "CTFFNB-GOMP.zip"
+hash: "31438cf40d6a7389759fcbb739edda613d8a7d03"
+fileSize: 1005779
+files:
+- name: "CTF4-FNB-GOMP.unr"
+  fileSize: 453008
+  hash: "a3fc1b58c38f5efaeafc9a11d1780783d8ee88e0"
+- name: "CTF4-FNB-GOMP-UTR.unr"
+  fileSize: 453731
+  hash: "ba2ea1fe5d8df162d000f60b6ad9e868d593f2c3"
+- name: "Unreal4.umx"
+  fileSize: 939568
+  hash: "89a64713a808ccd31a4885f6d0cbd3538e7ddcc3"
+otherFiles: 2
+dependencies:
+  CTF4-FNB-GOMP.unr:
+  - status: "MISSING"
+    name: "CTF4"
+  - status: "OK"
+    name: "Unreal4"
+  CTF4-FNB-GOMP-UTR.unr:
+  - status: "MISSING"
+    name: "CTF4"
+  - status: "OK"
+    name: "Unreal4"
+  - status: "MISSING"
+    name: "XPickups"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsF/&file=CTFFNB-GOMP.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/CTFFNB-GOMP.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=8093"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/3/1/438cf4/CTFFNB-GOMP.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/F/3/1/438cf4/CTFFNB-GOMP.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "CTF4-FNB-GOMP"
+playerCount: "12-24"
+themes:
+  Skaarj Tech: 1.0
+bots: true

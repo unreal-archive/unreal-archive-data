@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 09:19"
+game: "Unreal Tournament"
+name: "CTF-[SLV]UT-SLV"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-[SLV]UT-SLV_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-%5BSLV%5DUT-SLV_shot_1.png"
+originalFilename: "CTF-[SLV]UT-SLV.zip"
+hash: "2fec400c9e54211bff9e5d2eccc09bebbc83a01c"
+fileSize: 564931
+files:
+- name: "ChainTexTD.utx"
+  fileSize: 840314
+  hash: "3767f00cd7992f9747ef10c9c948f35b98246e97"
+- name: "CTF-[SLV]UT-SLV.unr"
+  fileSize: 1000835
+  hash: "79ade0e1e9b3560a191b4f1086d2913d8236159f"
+- name: "utslim.utx"
+  fileSize: 88954
+  hash: "5e37fe28b00af55ae75cd8646dff01d658b3061f"
+- name: "koaclan2.utx"
+  fileSize: 663001
+  hash: "89e2a34135a4ebdb19eef29aedc4cbc5bb9987aa"
+otherFiles: 0
+dependencies:
+  CTF-[SLV]UT-SLV.unr:
+  - status: "OK"
+    name: "koaclan2"
+  - status: "OK"
+    name: "utslim"
+  - status: "OK"
+    name: "ChainTexTD"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/SLV/&file=CTF-%5BSLV%5DUT-SLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/CTF-%5BSLV%5DUT-SLV.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-%5BSLV%5DUT-SLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/f/ec400c/CTF-%255BSLV%255DUT-SLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/f/ec400c/CTF-%255BSLV%255DUT-SLV.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "WWW.UT-SLV.COM"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.2
+  Industrial: 0.5
+  Skaarj Tech: 0.1
+bots: true

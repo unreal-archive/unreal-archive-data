@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 21:18"
+game: "Unreal Tournament"
+name: "CTF-[4]-Scandinavium"
+author: "Chrille \"Electrofryer\" Blomqvist"
+description: "None"
+releaseDate: "2012-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-[4]-Scandinavium_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-%5B4%5D-Scandinavium_shot_1.png"
+originalFilename: "CTF-[4]-Scandinavium.zip"
+hash: "a36d3dc9549541d6e31433ad74c4f3cfa317fcf0"
+fileSize: 4388637
+files:
+- name: "CTF4.u"
+  fileSize: 929167
+  hash: "9ee0f8dbcf1a40e0ec41147e4b57ccb2787dec3c"
+- name: "UrkCTF.utx"
+  fileSize: 716110
+  hash: "84ab191cf4dc4b2058b57174d0eb2d4acd59a106"
+- name: "CTF-[4]-Scandinavium.unr"
+  fileSize: 4414413
+  hash: "28b3a45413c72ed3f81c790115b28963faa8e861"
+- name: "CTF4Team.utx"
+  fileSize: 2918421
+  hash: "1812064a7f8f14b0d9ffe1e114d2992ac05e4b8d"
+otherFiles: 0
+dependencies:
+  CTF4.u:
+  - status: "MISSING"
+    name: "FlagMutator"
+  CTF-[4]-Scandinavium.unr:
+  - status: "OK"
+    name: "CTF4"
+  - status: "OK"
+    name: "UrkCTF"
+  - status: "OK"
+    name: "CTF4Team"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF4/&file=CTF-%5B4%5D-Scandinavium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/CTF-%5B4%5D-Scandinavium.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF4&file=CTF-%5B4%5D-Scandinavium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/a/3/6d3dc9/CTF-%255B4%255D-Scandinavium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/a/3/6d3dc9/CTF-%255B4%255D-Scandinavium.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Scandinavium (converted by Eagle)"
+playerCount: "16-24"
+themes:
+  Skaarj Crypt: 0.1
+  City: 0.2
+  Skaarj Tech: 0.7
+bots: true

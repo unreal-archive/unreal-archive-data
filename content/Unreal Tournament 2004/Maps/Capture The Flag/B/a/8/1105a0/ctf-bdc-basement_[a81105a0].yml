@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 15:53"
+game: "Unreal Tournament 2004"
+name: "CTF-BDC-Basement"
+author: "[BDC]Maverick"
+description: "[BDC]ATARXY'S BASEMENT"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BDC-Basement_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/CTF-BDC-Basement_shot_1.png"
+- type: "IMAGE"
+  name: "CTF-BDC-Basement_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/CTF-BDC-Basement_shot_2.png"
+originalFilename: "ctf-bdc-basement.zip"
+hash: "a81105a01020a98e6ace3128037d5b6cb58730d7"
+fileSize: 23853791
+files:
+- name: "CTF-BDC-Basement.ut2"
+  fileSize: 21080826
+  hash: "96029ca0e2b5d0aa223e99b22260e895baf2611a"
+- name: "BDC-Amorpheus.OGG"
+  fileSize: 3241068
+  hash: "312295601e895c7b9f6d1aa77a76abbd399f8675"
+- name: "Runmesh_Lite.usx"
+  fileSize: 6205632
+  hash: "cb6818737d02a0917f3cb48b7b63bd7a64fa08ea"
+- name: "TT.utx"
+  fileSize: 6472190
+  hash: "0c86a0f16864f0f82051e9a99a788a5877547dbf"
+- name: "sHoKbedroom.utx"
+  fileSize: 5458349
+  hash: "d32b9800b4ddeefe38b6c059254845763daece36"
+- name: "sHoKBedroom2.utx"
+  fileSize: 3625227
+  hash: "426fc814946b61068d4d55cc1690e7fbcb4828f9"
+- name: "DRM_TV.usx"
+  fileSize: 80677
+  hash: "aa4c98218c9d953c954b5bd8183b5022f40b1521"
+- name: "sHoKbedroommeshes.usx"
+  fileSize: 20444532
+  hash: "f6be09580b39c50e2343ed0bdcbe7773bfca639d"
+otherFiles: 2
+dependencies:
+  sHoKbedroommeshes.usx:
+  - status: "OK"
+    name: "TT"
+  - status: "OK"
+    name: "sHoKBedroom2"
+  - status: "OK"
+    name: "sHoKbedroom"
+  CTF-BDC-Basement.ut2:
+  - status: "OK"
+    name: "Runmesh_Lite"
+  - status: "OK"
+    name: "sHoKbedroommeshes"
+  - status: "OK"
+    name: "DRM_TV"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2810"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/ctf-bdc-basement.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/a/8/1105a0/ctf-bdc-basement.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/B/a/8/1105a0/ctf-bdc-basement.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-BDC-BASEMENT"
+playerCount: "8"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: true

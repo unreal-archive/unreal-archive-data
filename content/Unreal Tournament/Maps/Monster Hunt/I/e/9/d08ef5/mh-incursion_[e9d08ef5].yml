@@ -1,0 +1,91 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 04:31"
+variationOf: "6fca498807e88f4d0256345cb65a7f76d52414bb"
+game: "Unreal Tournament"
+name: "MH-Incursion+"
+author: "LeaderX"
+description: "None"
+releaseDate: "2005-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-incursion_shot_e9d08ef5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/I/mh-incursion_shot_e9d08ef5_1.png"
+originalFilename: "MH-Incursion+[1].unr.zip"
+hash: "e9d08ef540470d2bca26142e9675386eaf3b714e"
+fileSize: 8314184
+files:
+- name: "chcballs.umx"
+  fileSize: 1339907
+  hash: "b610e4a816930f8a4386eecc0d387ac5fe18eeaa"
+- name: "LP-Remix.umx"
+  fileSize: 4973198
+  hash: "fca20264529774b09612a63072f6d280ad99eff3"
+- name: "NBSpecialsUU.u"
+  fileSize: 239628
+  hash: "603bfb151155bd4d8e91c691afd040c63590be55"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "UnrealApacheV2.u"
+  fileSize: 2052132
+  hash: "535d9c2a5a44863838de5a88313fccd71c9d4a30"
+- name: "MH-Incursion+.unr"
+  fileSize: 4954500
+  hash: "d2ca27cb2d9f32642a4a53bf70993ea10078c265"
+- name: "HeliRadarHUDV2.utx"
+  fileSize: 3350841
+  hash: "64b5877dbd7a212567826933fab8a734d2e54428"
+otherFiles: 0
+dependencies:
+  MH-Incursion+.unr:
+  - status: "OK"
+    name: "NBSpecialsUU"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "UnrealApacheV2"
+  - status: "OK"
+    name: "chcballs"
+  - status: "OK"
+    name: "LP-Remix"
+  - status: "OK"
+    name: "HeliRadarHUDV2"
+  NBSpecialsUU.u:
+  - status: "OK"
+    name: "NBSpecialT"
+  UnrealApacheV2.u:
+  - status: "OK"
+    name: "HeliRadarHUDV2"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-Incursion%2B%5B1%5D.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/I/MH-Incursion%2B%5B1%5D.unr.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-Incursion%2B%5B1%5D.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/I/e/9/d08ef5/MH-Incursion%252B%255B1%255D.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/e/9/d08ef5/MH-Incursion%252B%255B1%255D.unr.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Incursion"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.1
+  Industrial: 0.1
+  Ancient: 0.5
+  City: 0.1
+bots: true

@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 09:43"
+game: "Unreal Tournament"
+name: "CTF-BT-Ae750(v2)"
+author: "ShadowMan"
+description: "None"
+releaseDate: "2008-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bt-ae750v2_shot_0cf0d1ce_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/A/ctf-bt-ae750v2_shot_0cf0d1ce_1.png"
+originalFilename: "CTF-BT-Ae750(v2).zip"
+hash: "0cf0d1ce7994e06fb6f62f71c8b8e275525f4fe4"
+fileSize: 6380429
+files:
+- name: "QuittePas.umx"
+  fileSize: 1360887
+  hash: "440c3ed7a23c8e9c8807d58f2f86b82f1be0c694"
+- name: "AeMeshes.u"
+  fileSize: 12078
+  hash: "ba4ad507342626de0cd1d785faf7d61e513b42a6"
+- name: "CTF-BT-Ae750(v2).unr"
+  fileSize: 7933803
+  hash: "c6e42355a90c35f5c1bd94f0662e13a4a5199c5a"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "MacPlants.u"
+  fileSize: 10523
+  hash: "b1fe78f36e6269dfd0621330be5af7f922b5f2d0"
+otherFiles: 0
+dependencies:
+  CTF-BT-Ae750(v2).unr:
+  - status: "OK"
+    name: "AeMeshes"
+  - status: "OK"
+    name: "QuittePas"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "MacPlants"
+  AeMeshes.u:
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-Ae750%28v2%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-Ae750%28v2%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-Ae750%28v2%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-Ae750%28v2%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/A/0/c/f0d1ce/CTF-BT-Ae750(v2).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/A/0/c/f0d1ce/CTF-BT-Ae750(v2).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/A/0/c/f0d1ce/CTF-BT-Ae750(v2).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT-Ae750"
+playerCount: "6"
+themes:
+  Skaarj Crypt: 0.1
+  Industrial: 0.4
+  Ancient: 0.1
+  Nali Castle: 0.3
+  Skaarj Tech: 0.1
+bots: false

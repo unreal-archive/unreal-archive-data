@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 04:16"
+game: "Unreal Tournament"
+name: "CTF-Aterium"
+author: "Blacklightning"
+description: "None"
+releaseDate: "2014-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Aterium_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-Aterium_shot_1.png"
+originalFilename: "CTF-Aterium.zip"
+hash: "7fce54f361d91d9c69f1161656ad2580cece88ef"
+fileSize: 21069842
+files:
+- name: "Himalia.umx"
+  fileSize: 8581763
+  hash: "8de76b8ba9d5711b796dc206c54ca53db5aaccd9"
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "CTF-Aterium.unr"
+  fileSize: 1669961
+  hash: "898b675b8cefc78618476cebe84f6bd4fe4016e7"
+- name: "HourPitores_UT.utx"
+  fileSize: 6266307
+  hash: "28d8b736181a51e9a8363b0668079dedf52856a7"
+otherFiles: 0
+dependencies:
+  CTF-Aterium.unr:
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "HourPitores_UT"
+  - status: "OK"
+    name: "Himalia"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/SLV&file=CTF-Aterium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/CTF-Aterium.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/7/f/ce54f3/CTF-Aterium.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/7/f/ce54f3/CTF-Aterium.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Aterium"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.5
+  Natural: 0.5
+bots: false

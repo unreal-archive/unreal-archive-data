@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 00:26"
+game: "Unreal Tournament"
+name: "JB-Phasma"
+author: "ElBundee"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "jb-phasma_shot_7a2f6c11_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Jailbreak/P/7/a/2f6c11/jb-phasma_shot_7a2f6c11_1.png"
+originalFilename: "jb-phasma.zip"
+hash: "7a2f6c1157f95f6445e0f197a6355479dca2f124"
+fileSize: 1606052
+files:
+- name: "JB-Phasma.unr"
+  fileSize: 4787683
+  hash: "066eccbd82230cb85d513eda4c48617f961eb75d"
+- name: "PrisonSlith.u"
+  fileSize: 20377
+  hash: "4b0294709572cb71b09352433b396c4b62f780c0"
+otherFiles: 1
+dependencies:
+  JB-Phasma.unr:
+  - status: "OK"
+    name: "PrisonSlith"
+  - status: "MISSING"
+    name: "JailBreak"
+  - status: "MISSING"
+    name: "JBArena"
+  PrisonSlith.u:
+  - status: "MISSING"
+    name: "JailBreak"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/Jailbreak/&file=jb-phasma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Jailbreak&file=jb-phasma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://fpsnetwork.com/downloads/index.php?path=ut99%2Fmaps/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Jailbreak/P/7/a/2f6c11/JB-Phasma.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Jailbreak/P/7/a/2f6c11/JB-Phasma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Jailbreak/P/7/a/2f6c11/JB-Phasma.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Jailbreak"
+title: "JB-Phasma"
+playerCount: "4-16"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.2
+  Natural: 0.2
+  Skaarj Tech: 0.5
+bots: true

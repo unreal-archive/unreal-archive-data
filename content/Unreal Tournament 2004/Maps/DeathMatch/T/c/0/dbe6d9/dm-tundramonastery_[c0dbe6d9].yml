@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 11:23"
+game: "Unreal Tournament 2004"
+name: "DM-TundraMonastery"
+author: "Brandon 'LoserMan' Burdge"
+description: "The spirits of the ancient Nali monks wait to torment those who fall\
+  \ in battle here."
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-TundraMonastery_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-TundraMonastery_shot_1.png"
+- type: "IMAGE"
+  name: "DM-TundraMonastery_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-TundraMonastery_shot_2.png"
+originalFilename: "dm-tundramonastery.zip"
+hash: "c0dbe6d970214b583f2d9646fbfd2a6c7b2ec209"
+fileSize: 9687700
+files:
+- name: "TundraMeshes.usx"
+  fileSize: 9469031
+  hash: "e16d1185b1d789d9add22564913ba883e5b97821"
+- name: "DM-TundraMonastery.ut2"
+  fileSize: 11021895
+  hash: "0db985c45c8b020364b60483d4efb8b761312cdd"
+- name: "TundraMaterials.utx"
+  fileSize: 5272228
+  hash: "a9e50b9d6bfb03a95882f33476d68e16dd6b22d7"
+otherFiles: 2
+dependencies:
+  DM-TundraMonastery.ut2:
+  - status: "OK"
+    name: "TundraMaterials"
+  - status: "OK"
+    name: "TundraMeshes"
+  TundraMeshes.usx:
+  - status: "OK"
+    name: "TundraMaterials"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/T/dm-tundramonastery.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/T/c/0/dbe6d9/dm-tundramonastery.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/c/0/dbe6d9/dm-tundramonastery.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tundra Monastery"
+playerCount: "4-8"
+themes:
+  Industrial: 0.2
+  Natural: 0.8
+bots: true

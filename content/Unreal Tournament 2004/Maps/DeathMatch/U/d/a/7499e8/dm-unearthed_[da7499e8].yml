@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 21:50"
+game: "Unreal Tournament 2004"
+name: "DM-Unearthed"
+author: "Mike Blackney"
+description: "A lonely planet circling Hoedus II, a routine cleansing mission in the\
+  \ periphery of Necris space.  Your Cleaner team has unearthed a clutch of vile Necris\
+  \ Bloodthirsters.  You have the advantage -- Bloodthirsters cannot live in light\
+  \ from the blue sun.  Lure them outside then finish them off."
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-Unearthed_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-Unearthed_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Unearthed_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/U/DM-Unearthed_shot_1.png"
+originalFilename: "dm-unearthed.zip"
+hash: "da7499e85de00f5eccc28affca3460acd0851a17"
+fileSize: 10166291
+files:
+- name: "SwingDoor.u"
+  fileSize: 4374
+  hash: "5da1b8222649aaff5ea456ed8f8937312aeb8628"
+- name: "OutsideVolume.u"
+  fileSize: 2327
+  hash: "5341f97c6074f72efb47d9b2f378183a343aa2b0"
+- name: "ClientMaterialTrigger.u"
+  fileSize: 9256
+  hash: "6289be40169d7c443437657987327b26425b589c"
+- name: "TriggerProjector.u"
+  fileSize: 10578
+  hash: "e92cabc91b5695e0696cf894f0bfd44b92a80bb9"
+- name: "DM-Unearthed.ut2"
+  fileSize: 21036528
+  hash: "fca397306db0e6b6cd9d31f2a447295d982a21dd"
+- name: "TriggerSunlight.u"
+  fileSize: 6900
+  hash: "5e3f31abbd2aa76dacaeae372d5f6e40cf1f585c"
+- name: "TriggerZoneinfo.u"
+  fileSize: 10159
+  hash: "c5bf8024406e89af1b4aeac568c769a16627a2e7"
+- name: "TimedTrigger.u"
+  fileSize: 1514
+  hash: "f7dce69915b61dc011ee481390cc5e713bfaec2a"
+otherFiles: 3
+dependencies:
+  DM-Unearthed.ut2:
+  - status: "OK"
+    name: "TriggerProjector"
+  - status: "OK"
+    name: "TriggerSunlight"
+  - status: "OK"
+    name: "OutsideVolume"
+  - status: "OK"
+    name: "ClientMaterialTrigger"
+  - status: "OK"
+    name: "SwingDoor"
+  - status: "OK"
+    name: "TriggerZoneinfo"
+  - status: "OK"
+    name: "TimedTrigger"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=5873"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/U/dm-unearthed.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/U/d/a/7499e8/dm-unearthed.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/U/d/a/7499e8/dm-unearthed.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Unearthed"
+playerCount: "4-8"
+themes:
+  Ancient: 1.0
+bots: true

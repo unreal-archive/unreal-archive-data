@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:31"
+game: "Unreal Tournament"
+name: "CTF-Omega"
+author: "SiR_CharLZ"
+description: "www.planetunreal.com/uedlab"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Omega_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/CTF-Omega_shot_1.png"
+originalFilename: "ctf-omega.zip"
+hash: "ec0746f69736ee065d67132842718ba13e5281aa"
+fileSize: 1354081
+files:
+- name: "astro1.utx"
+  fileSize: 289429
+  hash: "bc257a083d1c4f3b77709a519cd44c21e479ebdb"
+- name: "MET.u"
+  fileSize: 3433
+  hash: "b2aa258b8a3dd7c72cc22bbdf3f97425e0a44b30"
+- name: "CTF-Omega.unr"
+  fileSize: 4048742
+  hash: "ee73118df84879c8db89f6add30301d0992d9dcc"
+otherFiles: 1
+dependencies:
+  MET.u:
+  - status: "MISSING"
+    name: "MadEvilTwin"
+  CTF-Omega.unr:
+  - status: "OK"
+    name: "astro1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/ctf-omega.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsO/&file=ctf-omega.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-omega.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsO/ctf-omega.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/e/c/0746f6/ctf-omega.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/e/c/0746f6/ctf-omega.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Omega"
+playerCount: "8-14 Players"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

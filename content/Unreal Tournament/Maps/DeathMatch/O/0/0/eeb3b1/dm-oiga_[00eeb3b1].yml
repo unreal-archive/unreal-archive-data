@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:28"
+game: "Unreal Tournament"
+name: "DM-Oiga"
+author: "David 'DavidM' Münnich"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-Oiga_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/O/DM-Oiga_shot_1.png"
+originalFilename: "dm-oiga.zip"
+hash: "00eeb3b15cb330a05b7d0ede65f4d3cc5ac4be44"
+fileSize: 1322141
+files:
+- name: "DM-Oiga.unr"
+  fileSize: 2086947
+  hash: "a0bdd05c29cec382c329158c1bd7f14d162f0a04"
+- name: "norrin.uax"
+  fileSize: 230426
+  hash: "f2d9ee516cb278ad64435364d7eda15427570f46"
+- name: "dmq3-2.utx"
+  fileSize: 808202
+  hash: "d82c6537fc07f74863812daa2840734defae85f7"
+otherFiles: 1
+dependencies:
+  DM-Oiga.unr:
+  - status: "OK"
+    name: "norrin"
+  - status: "OK"
+    name: "dmq3-2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/dm-oiga.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsO/&file=dm-oiga.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-oiga.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsO/dm-oiga.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/O/0/0/eeb3b1/dm-oiga.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/O/0/0/eeb3b1/dm-oiga.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "-Oiga-"
+playerCount: "2"
+themes:
+  Ancient: 0.5
+  Nali Castle: 0.5
+bots: true

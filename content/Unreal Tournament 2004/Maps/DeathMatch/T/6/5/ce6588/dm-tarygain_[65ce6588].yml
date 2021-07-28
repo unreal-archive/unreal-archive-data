@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 17:48"
+game: "Unreal Tournament 2004"
+name: "DM-Tarygain"
+author: "Mapmaster Earl - Music by Steve"
+description: "Those buildings belonged some time ago to a big complex, which became\
+  \ totally wasted by a storm jears ago. The company Tarygain, which mined Traydium\
+  \ for the Gen Mo' Kai and the Humans there, could just rescue this part of the complex\
+  \ and sold it recently Liandri...."
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "DM-Tarygain_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-Tarygain_shot_2.png"
+- type: "IMAGE"
+  name: "DM-Tarygain_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/T/DM-Tarygain_shot_1.png"
+originalFilename: "dm_tarygain.zip"
+hash: "65ce65880cba1e8b274e5a8d83e8dcbf5e9307d3"
+fileSize: 16467547
+files:
+- name: "Cubes.utx"
+  fileSize: 17378095
+  hash: "5d299ec261079befe3ccac20ae2af9fe9c8b680a"
+- name: "DM-Tarygain.ut2"
+  fileSize: 22211430
+  hash: "9338f3e7fde00b0203865cd0c42e81f6e0725dd4"
+- name: "caution.ogg"
+  fileSize: 2233195
+  hash: "5f9749196685f82601ad9ff3cbf689561fa12125"
+otherFiles: 2
+dependencies:
+  Cubes.utx:
+  - status: "MISSING"
+    name: "UEDWasserTut"
+  DM-Tarygain.ut2:
+  - status: "OK"
+    name: "Cubes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/T/dm_tarygain.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dm_tarygain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/DeathMatch/T/6/5/ce6588/dm_tarygain.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/6/5/ce6588/dm_tarygain.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tarygain Tarydiumworks"
+playerCount: "3-8"
+themes:
+  Industrial: 0.1
+  Ancient: 0.9
+bots: true

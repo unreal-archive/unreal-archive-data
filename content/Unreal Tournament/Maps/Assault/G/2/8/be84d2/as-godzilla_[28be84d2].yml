@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 19:35"
+game: "Unreal Tournament"
+name: "AS-Godzilla"
+author: "Author: Antti ''Chaos_Snake'' Kupiainen"
+description: "None"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "AS-Godzilla_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/G/AS-Godzilla_shot_1.png"
+- type: "IMAGE"
+  name: "AS-Godzilla_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/G/AS-Godzilla_shot_2.png"
+- type: "IMAGE"
+  name: "AS-Godzilla_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/G/AS-Godzilla_shot_3.png"
+originalFilename: "AS-Godzilla.zip"
+hash: "28be84d201b06c907284a79c26c8261351bd477f"
+fileSize: 8356018
+files:
+- name: "RA3_HellMarch.umx"
+  fileSize: 9485413
+  hash: "fbe959f166554259ea590157215b8994e906761d"
+- name: "AS-Godzilla.unr"
+  fileSize: 1681833
+  hash: "dea6a1e7479b7c2ad695db02e61b63b578e7b328"
+- name: "BoomSND.uax"
+  fileSize: 210540
+  hash: "b25b0d2a5c3ace3d8ac8163ae752a46cd8f5fc6a"
+otherFiles: 3
+dependencies:
+  AS-Godzilla.unr:
+  - status: "OK"
+    name: "BoomSND"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "RA3_HellMarch"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=AS-Godzilla.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/G/AS-Godzilla.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=7422"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/G/2/8/be84d2/AS-Godzilla.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/G/2/8/be84d2/AS-Godzilla.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Godzillas Attack!"
+playerCount: "Play with 16 Godzillas and with 16"
+themes:
+  Tech: 0.1
+  City: 0.8
+  Natural: 0.1
+bots: true

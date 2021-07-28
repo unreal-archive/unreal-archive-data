@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-12-23 09:07"
-variationOf: null
 game: "Unreal Tournament"
 name: "CTF-Spacewar"
 author: "Jonas 'Neo' Barkowski  <Jonas.Barkowski@web.de>"
@@ -32,19 +31,20 @@ dependencies:
   CTF-Spacewar.unr:
   - status: "OK"
     name: "LinkinPark"
-    providedBy: null
   - status: "OK"
     name: "quake3c"
-    providedBy: null
   - status: "MISSING"
     name: "Skycas"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/ctf-spacewar.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/7/0a4af1/ctf-spacewar.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/7/0a4af1/ctf-spacewar.zip"
   main: false
   repack: false
   state: "OK"

@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 22:19"
+game: "Unreal Tournament"
+name: "DM-Suddendeath"
+author: "Christian Hoegemann"
+description: "None"
+releaseDate: "2012-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-suddendeath_shot_b59f4410_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/b/5/9f4410/dm-suddendeath_shot_b59f4410_1.png"
+originalFilename: "DM-Suddendeath.zip"
+hash: "b59f44108e5301f868bcfeeb00adf1918dcc2705"
+fileSize: 4401293
+files:
+- name: "DM-Suddendeath.unr"
+  fileSize: 884717
+  hash: "0b01a762481622e470f419348c2214595bed0255"
+- name: "ARYX.umx"
+  fileSize: 22013
+  hash: "ffd28c0342403d202f702458d0461347ff322e4d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 0
+dependencies:
+  DM-Suddendeath.unr:
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "ARYX"
+downloads:
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/DM-Suddendeath.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/b/5/9f4410/DM-Suddendeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/b/5/9f4410/DM-Suddendeath.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Suddendeath"
+playerCount: "4 - 12"
+themes:
+  Tech: 1.0
+bots: true

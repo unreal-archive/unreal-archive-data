@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-08-29 16:36"
+game: "Unreal Tournament"
+name: "DM-UnevenGround"
+author: "Don Buddha"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-unevenground_shot_bb7ecc5d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/b/b/7ecc5d/dm-unevenground_shot_bb7ecc5d_1.png"
+originalFilename: "dm-unevenground.zip"
+hash: "bb7ecc5d04698e20ed100955e5d80e326f60cb68"
+fileSize: 466515
+files:
+- name: "unevenground.utx"
+  fileSize: 88980
+  hash: "0b888eea648b598926d1120e477f298a975fcf59"
+- name: "DM-UnevenGround.unr"
+  fileSize: 1952703
+  hash: "dbbb3751bf9d2e1f3bfacd239c987bb9df235276"
+otherFiles: 1
+dependencies:
+  DM-UnevenGround.unr:
+  - status: "MISSING"
+    name: "Sky"
+  - status: "MISSING"
+    name: "RuneI"
+  - status: "MISSING"
+    name: "Metals"
+  - status: "OK"
+    name: "unevenground"
+  - status: "MISSING"
+    name: "Aquaduct"
+  - status: "MISSING"
+    name: "Hell"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-unevenground.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/b/b/7ecc5d/dm-unevenground.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/b/b/7ecc5d/dm-unevenground.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "UnevenGround"
+playerCount: "2-4"
+themes: {}
+bots: false

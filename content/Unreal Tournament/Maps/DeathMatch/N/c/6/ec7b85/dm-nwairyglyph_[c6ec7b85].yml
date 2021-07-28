@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:29"
+game: "Unreal Tournament"
+name: "DM-NWAiryglyph"
+author: "krs.ks@gustavip.jp"
+description: "None"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWAiryglyph_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWAiryglyph_shot_1.png"
+originalFilename: "DM-NWAiryglyph.zip"
+hash: "c6ec7b8542ca9478b107350fd2ca7a260dba5ccc"
+fileSize: 8566850
+files:
+- name: "DM-NWAiryglyph.unr"
+  fileSize: 2695208
+  hash: "7d2f1676ed4183ad117bd19f86fb02e088baa2f8"
+- name: "Chrysanthemum_in_Winter.umx"
+  fileSize: 3654754
+  hash: "167f36b0d237cf4208511918ee695bcc93c7cfc1"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 0
+dependencies:
+  DM-NWAiryglyph.unr:
+  - status: "OK"
+    name: "Chrysanthemum_in_Winter"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWAiryglyph.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWAiryglyph.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/c/6/ec7b85/DM-NWAiryglyph.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/c/6/ec7b85/DM-NWAiryglyph.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "NWAiryglyph"
+playerCount: "2-14"
+themes:
+  Tech: 0.4
+  Nali Castle: 0.5
+bots: true

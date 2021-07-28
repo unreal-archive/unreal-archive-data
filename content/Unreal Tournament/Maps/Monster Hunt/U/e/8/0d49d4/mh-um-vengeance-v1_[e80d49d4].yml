@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:43"
+game: "Unreal Tournament"
+name: "MH-UM-Vengeance-v1"
+author: "EAD_Elemental, GTD-Carthage/Hitman"
+description: "None"
+releaseDate: "2016-08"
+attachments: []
+originalFilename: "MH-UM-Vengeance-v1.zip"
+hash: "e80d49d462daa45f22003d984414082b7ea8d2a0"
+fileSize: 12963762
+files:
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "HourIceSkaarj.utx"
+  fileSize: 3469929
+  hash: "28f6e126c65134b4e0d42722bf252ebba0d547d5"
+- name: "GotAPresentForYa.umx"
+  fileSize: 6249099
+  hash: "011698e529dbbf5d4aec9064ce65b02260edf709"
+- name: "MH-UM-Vengeance-v1.unr"
+  fileSize: 13020498
+  hash: "0ced7a7493ff03916db7851ff314a61d6cc82967"
+otherFiles: 0
+dependencies:
+  MH-UM-Vengeance-v1.unr:
+  - status: "OK"
+    name: "HourIceSkaarj"
+  - status: "OK"
+    name: "GotAPresentForYa"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "olroot"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-UM-Vengeance-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/U/MH-UM-Vengeance-v1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/U/e/8/0d49d4/MH-UM-Vengeance-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/e/8/0d49d4/MH-UM-Vengeance-v1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-UM-Vengeance-v1"
+playerCount: "up to 10"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.9
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:01"
+game: "Unreal Tournament"
+name: "DM-CombattBase"
+author: "Federico Lorelli  \"Freddy\""
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "DM-CombattBase_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-CombattBase_shot_1.png"
+originalFilename: "dm-combattbase.zip"
+hash: "c72c80390d843e33dafac725c058cefeca873470"
+fileSize: 1176778
+files:
+- name: "DM-CombattBase.unr"
+  fileSize: 3732631
+  hash: "ed1e19bfc18bcbce36c416917536ca3067ebb854"
+- name: "Base.utx"
+  fileSize: 112124
+  hash: "0544c5649359de516ef2bc20a9bd29307f488c93"
+otherFiles: 1
+dependencies:
+  DM-CombattBase.unr:
+  - status: "OK"
+    name: "Base"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-combattbase.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-combattbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-combattbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-combattbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/c/7/2c8039/dm-combattbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/c/7/2c8039/dm-combattbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Combatt Base"
+playerCount: "2-7"
+themes:
+  Nali Temple: 0.3
+  Industrial: 0.3
+  Skaarj Tech: 0.4
+bots: true

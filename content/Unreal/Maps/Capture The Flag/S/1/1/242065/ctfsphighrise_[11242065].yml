@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 02:45"
+game: "Unreal"
+name: "CTF[SP]HighRise"
+author: "Commander *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2008-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF[SP]HighRise_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DHighRise_shot_1.png"
+originalFilename: "CTF[SP]HighRise.zip"
+hash: "11242065c7201313ea552cc469d5ff6ad9562449"
+fileSize: 4237990
+files:
+- name: "CTF[SP]HighRise.unr"
+  fileSize: 2468526
+  hash: "2df8ec16c7d858afb814a044997ccb2db3853ac8"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+otherFiles: 0
+dependencies:
+  CTF[SP]HighRise.unr:
+  - status: "OK"
+    name: "city"
+  - status: "MISSING"
+    name: "Uzi"
+  - status: "MISSING"
+    name: "Assault_G11"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+  - status: "MISSING"
+    name: "AssaultCTF"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=CTF%5BSP%5DHighRise.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Capture%20The%20Flag/S/CTF%5BSP%5DHighRise.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Capture%20The%20Flag/S/1/1/242065/CTF%255BSP%255DHighRise.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Capture%20The%20Flag/S/1/1/242065/CTF%255BSP%255DHighRise.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF [SP]Highrise"
+playerCount: "8 - 14"
+themes:
+  City: 1.0
+bots: true

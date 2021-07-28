@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 22:47"
+game: "Unreal Tournament"
+name: "DM-KTB-LivingRM"
+author: "[KTB]AssWaxer"
+description: ""
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-KTB-LivingRM_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/DM-KTB-LivingRM_shot_1.png"
+originalFilename: "dm-ktb-livingrm.zip"
+hash: "0aee9da40d1865e96d17bc8bc1d62e1d54d964e1"
+fileSize: 2078027
+files:
+- name: "DRLR.utx"
+  fileSize: 178921
+  hash: "13454936c7ebf28eb5bf17f772959703c9d8edac"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DRLRse.utx"
+  fileSize: 354975
+  hash: "dbc36e2efe7b90011982626580075073dabfd651"
+- name: "DM-KTB-LivingRM.unr"
+  fileSize: 1571800
+  hash: "53e3ed89d78d375e9393685a63ec35b3184e6649"
+- name: "Porno.utx"
+  fileSize: 2669943
+  hash: "29c12e6c4ddb397014f922e709596aba5586d553"
+otherFiles: 0
+dependencies:
+  DM-KTB-LivingRM.unr:
+  - status: "OK"
+    name: "DRLR"
+  - status: "OK"
+    name: "DRLRse"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "Porno"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-ktb-livingrm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/dm-ktb-livingrm.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/0/a/ee9da4/dm-ktb-livingrm.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/0/a/ee9da4/dm-ktb-livingrm.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-KTB-LivingRm"
+playerCount: "3-12"
+themes:
+  Industrial: 1.0
+bots: true

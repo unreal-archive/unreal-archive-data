@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:28"
+game: "Unreal Tournament"
+name: "DM-Whiterock"
+author: "Aahz"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Whiterock_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/DM-Whiterock_shot_1.png"
+originalFilename: "DM-inf-whiterock.zip"
+hash: "d233a03f5bc2f2cadce9bebbdad4cc93471c254a"
+fileSize: 3279274
+files:
+- name: "Quarry1.utx"
+  fileSize: 2645977
+  hash: "2944f0843a403c4c451221b78138526520bfe7db"
+- name: "quickbro.umx"
+  fileSize: 325546
+  hash: "e7e27dc5f56732030ab654a6c11814a39ce183a8"
+- name: "DM-Whiterock.unr"
+  fileSize: 5063805
+  hash: "bbcbc72c6a88ebf1a91cd459e2633c957220c796"
+otherFiles: 1
+dependencies:
+  DM-Whiterock.unr:
+  - status: "OK"
+    name: "Quarry1"
+  - status: "OK"
+    name: "quickbro"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-inf-whiterock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/DM-inf-whiterock.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/W/d/2/33a03f/DM-inf-whiterock.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/W/d/2/33a03f/DM-inf-whiterock.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Whiterock Quarry"
+playerCount: "4-8"
+themes:
+  Industrial: 0.5
+  Natural: 0.3
+  Nali Castle: 0.1
+bots: true

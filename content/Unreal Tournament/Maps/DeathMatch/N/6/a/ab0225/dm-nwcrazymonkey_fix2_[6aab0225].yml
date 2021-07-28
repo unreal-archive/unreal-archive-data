@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:32"
+game: "Unreal Tournament"
+name: "DM-NWCrazyMonkey_fix2"
+author: "krs.ks@gustavip.jp"
+description: "None"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWCrazyMonkey_fix2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWCrazyMonkey_fix2_shot_1.png"
+originalFilename: "DM-NWCrazyMonkey_fix2.zip"
+hash: "6aab0225004e90b2d1c42cb97130708ac25cb536"
+fileSize: 13640098
+files:
+- name: "NerveRack.umx"
+  fileSize: 7922260
+  hash: "4f04bcdafb87948a2781055e51631dfc27da4c57"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "DM-NWCrazyMonkey_fix2.unr"
+  fileSize: 4484374
+  hash: "6874e0009ef3eda8b2cc1356bbc8085c57930f38"
+otherFiles: 0
+dependencies:
+  DM-NWCrazyMonkey_fix2.unr:
+  - status: "OK"
+    name: "NerveRack"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWCrazyMonkey_fix2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWCrazyMonkey_fix2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/6/a/ab0225/DM-NWCrazyMonkey_fix2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/6/a/ab0225/DM-NWCrazyMonkey_fix2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "NWCrazyMonkey"
+playerCount: "4-16"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.8
+bots: true

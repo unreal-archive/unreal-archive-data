@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2020-09-19 16:10"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "CTF-Insurrection2"
 author: "Pavel Koksharov aka Pashtet aka Morozka"
@@ -69,27 +68,25 @@ dependencies:
   SecondChance.usx:
   - status: "OK"
     name: "2ndChance"
-    providedBy: null
   CTF-Insurrection2.ut2:
   - status: "OK"
     name: "Ld_Alarma"
-    providedBy: null
   - status: "OK"
     name: "SecondChance"
-    providedBy: null
   - status: "OK"
     name: "NewHLStreet"
-    providedBy: null
   - status: "OK"
     name: "New_HL2_StreetMesh"
-    providedBy: null
   New_HL2_StreetMesh.usx:
   - status: "OK"
     name: "NewHLStreet"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/I/7/5/36b674/CTF-Insurrection2.zip"
   main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/I/7/5/36b674/CTF-Insurrection2.zip"
+  main: false
   repack: false
   state: "OK"
 deleted: false

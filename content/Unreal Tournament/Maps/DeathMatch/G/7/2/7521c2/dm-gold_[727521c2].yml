@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 15:46"
+game: "Unreal Tournament"
+name: "DM-Gold"
+author: "Common&DoctoR_DeatH"
+description: "Minner 49 ers"
+releaseDate: "2008-01"
+attachments: []
+originalFilename: "DM-Gold.zip"
+hash: "727521c2494b9709505da7d3a15b8fadc61e7da2"
+fileSize: 1285164
+files:
+- name: "DM-Gold.unr"
+  fileSize: 1055288
+  hash: "cf7d3b98946aa5f7940528a5bd3b06fbeceeb788"
+- name: "WarLord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+otherFiles: 0
+dependencies:
+  DM-Gold.unr:
+  - status: "OK"
+    name: "WarLord"
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-Gold.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/DM-Gold.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/G/7/2/7521c2/DM-Gold.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/G/7/2/7521c2/DM-Gold.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNgoldDD"
+playerCount: "6 to 14"
+themes:
+  Natural: 1.0
+bots: true

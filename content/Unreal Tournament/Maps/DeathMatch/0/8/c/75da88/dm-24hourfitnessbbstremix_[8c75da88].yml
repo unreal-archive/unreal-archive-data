@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 13:23"
+game: "Unreal Tournament"
+name: "DM-24hourFitnessBBSTRemix"
+author: "Remix By [BBST]B@BySiTter"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "DM-24hourFitnessBBSTRemix_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/DM-24hourFitnessBBSTRemix_shot_1.png"
+originalFilename: "DM-24hourFitnessBBSTRemix.zip"
+hash: "8c75da88bf50919d60d5bee7474ddaf9dd1b3320"
+fileSize: 8431292
+files:
+- name: "SOD24h.umx"
+  fileSize: 5162430
+  hash: "ddcdf1c69f31035050d07dcda4d122c08328edaa"
+- name: "DM-24hourFitnessBBSTRemix.unr"
+  fileSize: 6959698
+  hash: "661a9f5e23b8fcc4ccb132aa6d4b71698aad4aa4"
+- name: "24hBBST.utx"
+  fileSize: 3336125
+  hash: "9168d1abaffedcd26dc505e7619c25d63a31b14a"
+otherFiles: 0
+dependencies:
+  DM-24hourFitnessBBSTRemix.unr:
+  - status: "OK"
+    name: "24hBBST"
+  - status: "OK"
+    name: "SOD24h"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-24hourFitnessBBSTRemix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/DM-24hourFitnessBBSTRemix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/0/8/c/75da88/DM-24hourFitnessBBSTRemix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/0/8/c/75da88/DM-24hourFitnessBBSTRemix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "24hourFitnessBBSTRemix"
+playerCount: "8-15"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.6
+  Ancient: 0.1
+  Egyptian: 0.1
+  Natural: 0.2
+bots: true

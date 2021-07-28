@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:24"
+game: "Unreal Tournament"
+name: "DM-Knell"
+author: "Nick 'Neoduck' Donaldson & Sam 'Mambo' Sutton"
+description: "None"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-knell_shot_e8fbfe69_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/e/8/fbfe69/dm-knell_shot_e8fbfe69_1.png"
+- type: "IMAGE"
+  name: "dm-knell_shot_e8fbfe69_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/e/8/fbfe69/dm-knell_shot_e8fbfe69_2.png"
+originalFilename: "dm-knell.zip"
+hash: "e8fbfe69167342bf4217fcdfa850c7a95ef5f4c3"
+fileSize: 2630360
+files:
+- name: "DM-Knell.unr"
+  fileSize: 4166374
+  hash: "d4afa204aab3870e89555b5fe4c2dfa049c8ec71"
+- name: "MySky.utx"
+  fileSize: 1754493
+  hash: "23333ffce84a62ad3f069ed82d61109e0bc6ab0a"
+- name: "lionmesh.u"
+  fileSize: 76323
+  hash: "505c8783e1a87762ff5c4c02282e19e9f94013b6"
+otherFiles: 2
+dependencies:
+  DM-Knell.unr:
+  - status: "OK"
+    name: "MySky"
+  - status: "OK"
+    name: "lionmesh"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1154"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/e/8/fbfe69/dm-knell.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/K/e/8/fbfe69/dm-knell.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/K/e/8/fbfe69/dm-knell.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dead Man's Knell"
+playerCount: "2 - 6"
+themes:
+  Ancient: 0.8
+  Natural: 0.1
+bots: true

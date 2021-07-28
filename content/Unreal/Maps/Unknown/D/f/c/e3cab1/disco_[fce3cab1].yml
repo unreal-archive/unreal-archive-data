@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2019-01-13 16:43"
-variationOf: null
 game: "Unreal"
 name: "disco"
 author: "Jon Renner"
@@ -20,13 +19,16 @@ dependencies:
   disco.unr:
   - status: "MISSING"
     name: "Doodoo2"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Unknown/D/disco.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Unknown/D/f/c/e3cab1/disco.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Unknown/D/f/c/e3cab1/disco.zip"
   main: false
   repack: false
   state: "OK"

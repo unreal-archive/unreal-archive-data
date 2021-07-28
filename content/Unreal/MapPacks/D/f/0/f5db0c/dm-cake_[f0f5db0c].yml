@@ -1,0 +1,79 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-01 07:06"
+game: "Unreal"
+name: "Dm Cake"
+author: "Various"
+description: "None"
+releaseDate: "1996-09"
+attachments:
+- type: "IMAGE"
+  name: "Dm_Cake_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/D/Dm_Cake_shot_1.png"
+originalFilename: "dm-cake.zip"
+hash: "f0f5db0c450d69df01a6e83096c4d2006b5efcaa"
+fileSize: 372410
+files:
+- name: "Danish.utx"
+  fileSize: 177865
+  hash: "e3b0aeed92ba4a60cb5a122521b949b7393d9770"
+- name: "DM-Cake.unr"
+  fileSize: 446220
+  hash: "a0febe668ec984fa568e9968d8f969ff3c94f5f7"
+- name: "DM-FragFest.unr"
+  fileSize: 180976
+  hash: "3366ddd404ce3f2eff27c138acb0b8248c4ed9a6"
+otherFiles: 2
+dependencies:
+  DM-Cake.unr:
+  - status: "OK"
+    name: "Danish"
+  - status: "MISSING"
+    name: "Botpack"
+  DM-FragFest.unr:
+  - status: "MISSING"
+    name: "uttech2"
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "Coret_FX"
+  - status: "MISSING"
+    name: "Course"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/dm-cake.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-cake.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-cake.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-cake.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/D/f/0/f5db0c/dm-cake.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/D/f/0/f5db0c/dm-cake.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-FragFest"
+  title: "DM-FragFest"
+  author: "The Artist"
+- name: "DM-Cake"
+  title: "Dm Cake"
+  author: "Danish Cake"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0

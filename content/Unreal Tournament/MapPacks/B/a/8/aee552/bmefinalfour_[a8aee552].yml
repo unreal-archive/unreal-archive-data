@@ -1,0 +1,74 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-01-14 05:49"
+game: "Unreal Tournament"
+name: "Bmefinalfour"
+author: "Various"
+description: "None"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "Bmefinalfour_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/B/Bmefinalfour_shot_1.png"
+- type: "IMAGE"
+  name: "Bmefinalfour_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/B/Bmefinalfour_shot_4.png"
+- type: "IMAGE"
+  name: "Bmefinalfour_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/B/Bmefinalfour_shot_2.png"
+- type: "IMAGE"
+  name: "Bmefinalfour_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/B/Bmefinalfour_shot_3.png"
+originalFilename: "bmefinalfour.zip"
+hash: "a8aee55213e3979b0a0df4ba9c9ace998b57ec97"
+fileSize: 1015611
+files:
+- name: "CTF-SpoondogBME.unr"
+  fileSize: 962090
+  hash: "17ad942a76559bcf9dc325d1d5f83c76afbfddc0"
+- name: "CTF-SweatySpiderBME.unr"
+  fileSize: 1233796
+  hash: "f64fc93cfd4c4d1773893f87da3823eb39421318"
+- name: "CTF-Bot_40BME.unr"
+  fileSize: 944996
+  hash: "484132a5459653acba3ff44c59a8f2489c056a60"
+- name: "CTF-OshadowOBME.unr"
+  fileSize: 552697
+  hash: "74845e86452be5c5f46265f1a449b2f156cd7ddd"
+otherFiles: 4
+dependencies:
+  CTF-OshadowOBME.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/B/bmefinalfour.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/MapPacks/B/a/8/aee552/bmefinalfour.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/B/a/8/aee552/bmefinalfour.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-Bot_40BME"
+  title: "BlockiestMapEver_40"
+  author: "Michael \"Bot_40\" Rippon"
+- name: "CTF-OshadowOBME"
+  title: "CTF-OshadowOBME"
+  author: "Fazal 'OshadowO' Khan"
+- name: "CTF-SweatySpiderBME"
+  title: "Sweaty Spider BME"
+  author: "Sweaty Spider"
+- name: "CTF-SpoondogBME"
+  title: "SpoonDog's Blockiest Map Ever!"
+  author: "Cory Spooner 'TheSpoonDog'"
+gametype: "Capture The Flag"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.2

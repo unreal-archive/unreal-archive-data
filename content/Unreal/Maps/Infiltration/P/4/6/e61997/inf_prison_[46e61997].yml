@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:01"
+game: "Unreal"
+name: "INF_Prison"
+author: "BONE"
+description: "Your doin' Time!"
+releaseDate: "1999-07"
+attachments: []
+originalFilename: "INF_Prison.zip"
+hash: "46e61997a159fbfa4b55136c43954312f0592cf7"
+fileSize: 1666012
+files:
+- name: "Blade.utx"
+  fileSize: 2327164
+  hash: "8c2667ad67176f0135e322dd7d6ecbeae9442f13"
+- name: "INF_Prison.unr"
+  fileSize: 965935
+  hash: "edc4b482c8db6caa748562c2fc77ed7a5205b110"
+otherFiles: 0
+dependencies:
+  INF_Prison.unr:
+  - status: "OK"
+    name: "Blade"
+  - status: "MISSING"
+    name: "Infiltration"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/Infiltration/&file=INF_Prison.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Infiltration/P/INF_Prison.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/Infiltration/INF_Prison.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/Infiltration/P/4/6/e61997/INF_Prison.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Infiltration/P/4/6/e61997/INF_Prison.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Prison"
+playerCount: "Unknown"
+themes:
+  City: 0.8
+  Nali Castle: 0.1
+bots: true

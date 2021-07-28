@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:53"
+game: "Unreal Tournament"
+name: "CTF-DoxThornsV2"
+author: "«Ðô×»©}{@¤§"
+description: "None"
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "ctf-doxthornsv2.zip"
+hash: "7a804878cd3b79caef1c59d21554b1c534f80b1f"
+fileSize: 274262
+files:
+- name: "CTF-DoxThornsV2.unr"
+  fileSize: 124575
+  hash: "bc9a54b5979698fd9c554b48062373480fb38906"
+- name: "EsSnOw.utx"
+  fileSize: 177681
+  hash: "ad0635647845b8889288375c19fd3b765d14f203"
+- name: "DoxTextures.utx"
+  fileSize: 265421
+  hash: "ca9f17c581135ae8dd188a62400ab5b0d734d657"
+otherFiles: 1
+dependencies:
+  CTF-DoxThornsV2.unr:
+  - status: "OK"
+    name: "DoxTextures"
+  - status: "OK"
+    name: "EsSnOw"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-doxthornsv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-doxthornsv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/7/a/804878/ctf-doxthornsv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/7/a/804878/ctf-doxthornsv2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-DoxThornsV2"
+playerCount: "2 to 12"
+themes:
+  Industrial: 1.0
+bots: false

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 19:40"
+game: "Unreal Tournament"
+name: "CTF-Beholder"
+author: "Ray \"Tekno_Fobe\" Smith"
+description: "Prepare to meet thy doom!"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Beholder_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/CTF-Beholder_shot_1.png"
+originalFilename: "ctf-beholder.zip"
+hash: "960356afd08d1d72c40a2b59dfc906f6982ecb77"
+fileSize: 1610684
+files:
+- name: "CTF-Beholder.unr"
+  fileSize: 870109
+  hash: "b7f4f8bd4b020656511e8cb7317c539ec44c1b7f"
+- name: "Castle.utx"
+  fileSize: 1656831
+  hash: "6dafad716da2b923db669b0d5e1f109421c7e55a"
+otherFiles: 1
+dependencies:
+  CTF-Beholder.unr:
+  - status: "OK"
+    name: "Castle"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsB/&file=ctf-beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/ctf-beholder.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/&file=ctf-beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsB/ctf-beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-Beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/9/6/0356af/ctf-beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/9/6/0356af/ctf-beholder.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Temple of the Beholder"
+playerCount: "12 - 16"
+themes:
+  Nali Temple: 0.6
+  Skaarj Crypt: 0.4
+bots: true

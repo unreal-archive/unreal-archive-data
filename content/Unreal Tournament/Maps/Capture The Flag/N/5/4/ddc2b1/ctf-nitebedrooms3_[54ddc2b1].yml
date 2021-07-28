@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 06:14"
+game: "Unreal Tournament"
+name: "CTF-NiteBedrooms3"
+author: "Kid Ying, WoodY & Noc"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "CTF-NiteBedrooms3_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/CTF-NiteBedrooms3_shot_1.png"
+originalFilename: "ctf-nitebedrooms3.zip"
+hash: "54ddc2b1fb5d9a390ff5d83e1cb2d59fe94159ea"
+fileSize: 2691313
+files:
+- name: "NiteBedroom3.utx"
+  fileSize: 2063417
+  hash: "1af4a26ff00bcff9f215bdfd6051b4bba8f1854a"
+- name: "NiteBedroom.utx"
+  fileSize: 1288218
+  hash: "ced02a823f4a7418d1f6f13663f87e46900b2d15"
+- name: "1_MissileTex.utx"
+  fileSize: 1311955
+  hash: "305742707416a172099dc0770e0dc5d7cbadfc06"
+- name: "CTF-NiteBedrooms3.unr"
+  fileSize: 2008648
+  hash: "ab55b2464806bc861f21cd552462de225045cfdd"
+otherFiles: 0
+dependencies:
+  CTF-NiteBedrooms3.unr:
+  - status: "MISSING"
+    name: "Bedroom"
+  - status: "OK"
+    name: "NiteBedroom"
+  - status: "OK"
+    name: "1_MissileTex"
+  - status: "OK"
+    name: "NiteBedroom3"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-nitebedrooms3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/ctf-nitebedrooms3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/5/4/ddc2b1/ctf-nitebedrooms3.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/5/4/ddc2b1/ctf-nitebedrooms3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "*Nite Time Bedrooms3*"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.7
+  Natural: 0.2
+bots: true

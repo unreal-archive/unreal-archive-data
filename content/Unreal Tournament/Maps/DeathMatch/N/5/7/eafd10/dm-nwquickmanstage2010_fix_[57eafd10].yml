@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 16:39"
+game: "Unreal Tournament"
+name: "DM-NWQuickManStage2010_fix"
+author: "gust"
+description: "None"
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "DM-NWQuickManStage2010_fix_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWQuickManStage2010_fix_shot_1.png"
+originalFilename: "DM-NWQuickManStage2010_fix.zip"
+hash: "57eafd10b6ec11a18fcd32d41014c36ebdd9f37c"
+fileSize: 13921643
+files:
+- name: "2K4chargerMESHES.u"
+  fileSize: 1610436
+  hash: "b91ee93e997a3dc8a3a29f7b09898eba8e318c36"
+- name: "rm2_boss.umx"
+  fileSize: 3437011
+  hash: "f7aa5214e22bf3e3f3fa3c4e00d3f5f61f290f25"
+- name: "DM-NWQuickManStage2010_fix.unr"
+  fileSize: 2349881
+  hash: "85b825744ab0c5d2da92f6ea3c4b26aa93f262f7"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "rm2_QuickMan_Stage.umx"
+  fileSize: 9412445
+  hash: "578fa8cc964029a023e79ef31f41114aa36a7c40"
+otherFiles: 0
+dependencies:
+  DM-NWQuickManStage2010_fix.unr:
+  - status: "OK"
+    name: "rm2_QuickMan_Stage"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "2K4chargerMESHES"
+  - status: "OK"
+    name: "rm2_boss"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-NWQuickManStage2010_fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/DM-NWQuickManStage2010_fix.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/5/7/eafd10/DM-NWQuickManStage2010_fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/5/7/eafd10/DM-NWQuickManStage2010_fix.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "NWQuickManStage2010"
+playerCount: "2-12"
+themes:
+  Ancient: 0.1
+  Skaarj Tech: 0.9
+bots: true

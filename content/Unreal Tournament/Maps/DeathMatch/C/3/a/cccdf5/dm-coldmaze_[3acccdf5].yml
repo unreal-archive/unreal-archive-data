@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:01"
+game: "Unreal Tournament"
+name: "DM-ColdMaze"
+author: "§löth(CöA)"
+description: "Don't get lost!"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-ColdMaze_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/DM-ColdMaze_shot_1.png"
+originalFilename: "dm-coldmaze.zip"
+hash: "3acccdf5988102e992b949293fff41a2df0d2304"
+fileSize: 1095088
+files:
+- name: "revenant.utx"
+  fileSize: 798368
+  hash: "3b73c83cf2f00d239c16f10c53114787db85ba75"
+- name: "DM-ColdMaze.unr"
+  fileSize: 1019074
+  hash: "982d0af4a625e1c475672b77e096878a38d908d5"
+otherFiles: 2
+dependencies:
+  DM-ColdMaze.unr:
+  - status: "OK"
+    name: "revenant"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-coldmaze.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsC/&file=dm-coldmaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-coldmaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsC/dm-coldmaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/3/a/cccdf5/dm-coldmaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/3/a/cccdf5/dm-coldmaze.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-coldmaze"
+playerCount: "6-8"
+themes:
+  Industrial: 1.0
+bots: true

@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 20:21"
+game: "Unreal Tournament"
+name: "DM-(SDA)-SkulkyArena"
+author: "Skulking_Ghost"
+description: "None"
+releaseDate: "2005-08"
+attachments: []
+originalFilename: "dm-(sda)-skulkyarena.zip"
+hash: "55f26ce6f743dfd7ac2e0615999a5a42676242ec"
+fileSize: 6550887
+files:
+- name: "Human.umx"
+  fileSize: 5706007
+  hash: "c7afcac05b8624bae579948ae55f34a4df8a365b"
+- name: "DM-(SDA)-SkulkyArena.unr"
+  fileSize: 233311
+  hash: "1f726a4674d6307ce224599e77a77ced56f9a2e0"
+- name: "Mausoleum1on1.utx"
+  fileSize: 1349766
+  hash: "feabf0f699c06dbc93097cc454fbff92d07a57c4"
+otherFiles: 0
+dependencies:
+  DM-(SDA)-SkulkyArena.unr:
+  - status: "OK"
+    name: "Human"
+  - status: "OK"
+    name: "Mausoleum1on1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-%28sda%29-skulkyarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-(sda)-skulkyarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/5/5/f26ce6/dm-(sda)-skulkyarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/5/5/f26ce6/dm-(sda)-skulkyarena.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Translocator Arena"
+playerCount: "1-10"
+themes: {}
+bots: false

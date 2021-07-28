@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:39"
+game: "Unreal Tournament"
+name: "DM-UKS-movie"
+author: "RJ"
+description: "None"
+releaseDate: "2003-09"
+attachments: []
+originalFilename: "uks movie set.zip"
+hash: "ec3484f7123a9590e1b95a7ee7fcdb2b9b353d2d"
+fileSize: 759593
+files:
+- name: "sandladatex.utx"
+  fileSize: 363778
+  hash: "21f706ee01a3cb98bbb20afa63665d7eee2f2ba5"
+- name: "DM-UKS-movie.unr"
+  fileSize: 1321968
+  hash: "345ac678832bcb806a793515c3ec5d5fc8192be8"
+- name: "Camera1.u"
+  fileSize: 8899
+  hash: "e049b5781e5f171b6550f34a8a7a58693373a79c"
+otherFiles: 0
+dependencies:
+  DM-UKS-movie.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "SGirlSkins_PanteraUKSx"
+  - status: "OK"
+    name: "sandladatex"
+  - status: "OK"
+    name: "Camera1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=uks+movie+set.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/uks%20movie%20set.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/e/c/3484f7/uks%2520movie%2520set.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/e/c/3484f7/uks%2520movie%2520set.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "UKS Movie Set"
+playerCount: "1-8"
+themes:
+  Natural: 1.0
+bots: false

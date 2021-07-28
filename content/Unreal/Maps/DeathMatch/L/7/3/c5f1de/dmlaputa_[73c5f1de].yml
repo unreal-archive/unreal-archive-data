@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:31"
+game: "Unreal"
+name: "DmLaputa"
+author: "Jennifer Diane Reitz    lupa@otakuworld.com"
+description: "LAPUTA     The Castle In The Sky"
+releaseDate: "1999-09"
+attachments: []
+originalFilename: "dmlaputa.zip"
+hash: "73c5f1dea9a0283c16d8d808fb0fd7a8d190146e"
+fileSize: 2564812
+files:
+- name: "DmLaputa.unr"
+  fileSize: 5391422
+  hash: "9feade6c8472af5a725c8e973d04fe7dcb99b9c5"
+- name: "Miyazaki.utx"
+  fileSize: 2771906
+  hash: "cd93d505a53bd8a7d4dabd8cc1fbd7f4a2ae93da"
+- name: "LaputaOld.umx"
+  fileSize: 576376
+  hash: "8a108ec1d72fd2a1dbcfdb13feb260ad1b5635d8"
+otherFiles: 1
+dependencies:
+  DmLaputa.unr:
+  - status: "OK"
+    name: "LaputaOld"
+  - status: "OK"
+    name: "Miyazaki"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6137042"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/dmlaputa.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dmlaputa.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsL/dmlaputa.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/DMLAPUTA.ZIP"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/L/7/3/c5f1de/dmlaputa.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/L/7/3/c5f1de/dmlaputa.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "LAPUTA     The Castle In The Sky"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: false

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 23:10"
+game: "Unreal Tournament"
+name: "DM-Naboopf"
+author: "Pat-Badkarma-Fitzsimons"
+description: "None"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-Naboopf_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/N/DM-Naboopf_shot_1.png"
+originalFilename: "dm-naboopf.zip"
+hash: "0d494628e18424fc62f33a734430c05317370314"
+fileSize: 6507848
+files:
+- name: "SW1.umx"
+  fileSize: 2174542
+  hash: "95f41e0f7fdb94a9d10d2bb1e6b47d084c4a6d12"
+- name: "SWpf.uax"
+  fileSize: 49933
+  hash: "6835c71b029bbf1f2ac12ad0293c7b5c3816c096"
+- name: "Naboopf.utx"
+  fileSize: 6693670
+  hash: "393da64c5d84d73abbfb7cc896f75fb730f366ce"
+- name: "DM-Naboopf.unr"
+  fileSize: 6000589
+  hash: "7a6ce642b774b40546b144c7ad8066428ffa9aa6"
+otherFiles: 0
+dependencies:
+  DM-Naboopf.unr:
+  - status: "OK"
+    name: "Naboopf"
+  - status: "OK"
+    name: "SW1"
+  - status: "OK"
+    name: "SWpf"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-naboopf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/N/dm-naboopf.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/N/0/d/494628/dm-naboopf.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/N/0/d/494628/dm-naboopf.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Naboo"
+playerCount: "6-10"
+themes:
+  Ancient: 1.0
+bots: true

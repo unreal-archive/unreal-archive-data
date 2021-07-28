@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 02:33"
+game: "Unreal Tournament 2004"
+name: "UWRC-Colorado"
+author: "UltraNew-B"
+description: "A high speed course set in a scenic Colorado canyon.."
+releaseDate: "2004-05"
+attachments:
+- type: "IMAGE"
+  name: "UWRC-Colorado_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/UnWheel/R/UWRC-Colorado_shot_1.png"
+originalFilename: "UWRC_Colorado.zip"
+hash: "dfa610b8e0952b3ee512609f9d33b3e7337fdfad"
+fileSize: 6527515
+files:
+- name: "UW_SMTextures01.utx"
+  fileSize: 4219257
+  hash: "f0e4bd2380a666d92925a001c863aff3ac19740a"
+- name: "UW_SMDecoMesh.usx"
+  fileSize: 827757
+  hash: "412b52bc1f580ff3a44212d7e084a152d2c85160"
+- name: "UWRC-Colorado.ut2"
+  fileSize: 14506856
+  hash: "28da3ea2b40d90f47d720d9f277f5cd7d73833a0"
+otherFiles: 1
+dependencies:
+  UWRC-Colorado.ut2:
+  - status: "MISSING"
+    name: "UnWheel"
+  - status: "MISSING"
+    name: "UWDecoMesh"
+  - status: "OK"
+    name: "UW_SMDecoMesh"
+  - status: "MISSING"
+    name: "UnWheelBuildingMesh"
+  - status: "OK"
+    name: "UW_SMTextures01"
+  - status: "MISSING"
+    name: "UnWheelMappingTextures"
+  UW_SMDecoMesh.usx:
+  - status: "OK"
+    name: "UW_SMTextures01"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=UWRC_Colorado.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/UnWheel/R/UWRC_Colorado.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/UnWheel/R/d/f/a610b8/UWRC_Colorado.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/UnWheel/R/d/f/a610b8/UWRC_Colorado.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "UnWheel"
+title: "UWRC-Colorado"
+playerCount: "1-6"
+themes:
+  Industrial: 1.0
+bots: false

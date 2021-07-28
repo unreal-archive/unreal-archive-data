@@ -1,0 +1,115 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 01:15"
+game: "Unreal Tournament"
+name: "DM-INF-Azteca"
+author: "A. Leon, aka Alpha_9"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "DM-INF-Azteca_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Azteca_shot_1.png"
+originalFilename: "DM-INF-Azteca.zip"
+hash: "ed00792a1b714ca14480ee878da704e193eb6a83"
+fileSize: 5364699
+files:
+- name: "Azteca.utx"
+  fileSize: 1593685
+  hash: "939bfd3f3cd836522ac9db04921d9ac9f6f72b9c"
+- name: "INF_A9armytrk.utx"
+  fileSize: 245615
+  hash: "c353958a18f11006cdd272328f2cbadd504fb3fa"
+- name: "DM-INF-Azteca.unr"
+  fileSize: 7035240
+  hash: "e3a9913ff44f14096b1b516a8ef367e0eca8497d"
+- name: "INF_A9terra.utx"
+  fileSize: 1860864
+  hash: "0cdfe354eb3c8418f876bd9d1e7abdbddfbb5a8e"
+- name: "MWorld.utx"
+  fileSize: 826189
+  hash: "6b702dddf927142ac692f1e42de955a3f1114591"
+otherFiles: 1
+dependencies:
+  INF_A9terra.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+  INF_A9armytrk.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+  DM-INF-Azteca.unr:
+  - status: "MISSING"
+    name: "rw_TPack4"
+  - status: "MISSING"
+    name: "rw_TPack3"
+  - status: "MISSING"
+    name: "rw_BTFFoot"
+  - status: "MISSING"
+    name: "RWorld"
+  - status: "MISSING"
+    name: "mmpack"
+  - status: "MISSING"
+    name: "rw_HillbaseFoot"
+  - status: "OK"
+    name: "INF_A9armytrk"
+  - status: "OK"
+    name: "MWorld"
+  - status: "MISSING"
+    name: "scrammisc"
+  - status: "OK"
+    name: "Azteca"
+  - status: "MISSING"
+    name: "rw_InstallFoot"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "OK"
+    name: "INF_A9terra"
+  - status: "MISSING"
+    name: "INF_PeruTex"
+  - status: "MISSING"
+    name: "rw_Tpack0"
+  - status: "MISSING"
+    name: "rw_TerrainFoot"
+  - status: "MISSING"
+    name: "Inf_SubTEX"
+  - status: "MISSING"
+    name: "sp_Tpack0"
+  - status: "MISSING"
+    name: "INF_RussTex"
+  - status: "MISSING"
+    name: "rw_Install"
+  - status: "MISSING"
+    name: "NWorld"
+  - status: "MISSING"
+    name: "rw_TPack2"
+  Azteca.utx:
+  - status: "MISSING"
+    name: "INF_Mapping"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Infiltration&file=DM-INF-Azteca.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/I/DM-INF-Azteca.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Infiltration/A/e/d/00792a/DM-INF-Azteca.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Infiltration/A/e/d/00792a/DM-INF-Azteca.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Infiltration"
+title: "Azteca"
+playerCount: "16"
+themes:
+  Skaarj Crypt: 0.1
+  Industrial: 0.1
+  City: 0.1
+  Natural: 0.4
+  Nali Castle: 0.2
+bots: true

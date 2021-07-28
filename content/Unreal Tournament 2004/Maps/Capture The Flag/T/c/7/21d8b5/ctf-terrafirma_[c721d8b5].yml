@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 13:23"
+game: "Unreal Tournament 2004"
+name: "CTF-TerraFirma"
+author: "Djako 'Daedalus' Carey"
+description: "Many ages ago, when this ancient planet was not quite so ancient...\
+  \ it was a time of middle earth. Beyond the misty mountains and the dark forest\
+  \ there you'll find..."
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "CTF-TerraFirma_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/CTF-TerraFirma_shot_1.png"
+originalFilename: "ctf-terrafirma.zip"
+hash: "c721d8b5f9d3669586d22ec5bb9ddcf1afa0e9f3"
+fileSize: 6636064
+files:
+- name: "CTF-TerraFirma.ut2"
+  fileSize: 15130702
+  hash: "fcb0aa2486b13aace514ec05699afecc4a7965e0"
+- name: "Dj_TerraFirma_SM.usx"
+  fileSize: 1765826
+  hash: "194bb9cab1db8e4bcc4d7d03dffd96582a9fe9c7"
+otherFiles: 1
+dependencies:
+  CTF-TerraFirma.ut2:
+  - status: "OK"
+    name: "Dj_TerraFirma_SM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/ctf-terrafirma.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamebanana.com/maps/download/16388"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=2919"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/c/7/21d8b5/ctf-terrafirma.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/T/c/7/21d8b5/ctf-terrafirma.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Terra Firma"
+playerCount: "14-16"
+themes:
+  Industrial: 0.1
+  Egyptian: 0.4
+  Natural: 0.5
+bots: true

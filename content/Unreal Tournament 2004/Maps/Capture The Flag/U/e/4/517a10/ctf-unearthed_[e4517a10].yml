@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 10:16"
+game: "Unreal Tournament 2004"
+name: "CTF-Unearthed"
+author: "Chris 'Plutonic' Blundell"
+description: "CTF-Unearthed is loosely based on the graphic novel by Katsuhiro Otomo\
+  \ called The Legend of Mother Sarah: Tunnel Town.  In the novel a weapon is used\
+  \ alter the axial tilt of the Earth in order to bury the contaminated remnants of\
+  \ a nuclear holocaust.  Subsequent generations - now living in a barren, resource-poor\
+  \ world - tunnel into the buried cities in order to reclaim and recycle the materials\
+  \ trapped there."
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Unearthed_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/CTF-Unearthed_shot_1.png"
+originalFilename: "ctf-unearthed.zip"
+hash: "e4517a10bf2b8d69b2acf8a02209bea08febd23c"
+fileSize: 7376416
+files:
+- name: "PlutonicUnearthedT.utx"
+  fileSize: 5814528
+  hash: "6a97473bc7c2b463e6a4829d2cc642116a047a03"
+- name: "PlutonicUnearthed.usx"
+  fileSize: 1682046
+  hash: "40afe1962285b9a2b7323b4f83310817a648150c"
+- name: "CTF-Unearthed.ut2"
+  fileSize: 17348580
+  hash: "6f74ef5cc3a6c212ba1900421db0a974220cc5fd"
+otherFiles: 1
+dependencies:
+  CTF-Unearthed.ut2:
+  - status: "OK"
+    name: "PlutonicUnearthed"
+  - status: "OK"
+    name: "PlutonicUnearthedT"
+  PlutonicUnearthed.usx:
+  - status: "OK"
+    name: "PlutonicUnearthedT"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1096"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/e/4/517a10/ctf-unearthed.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/e/4/517a10/ctf-unearthed.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/U/e/4/517a10/ctf-unearthed.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Unearthed City"
+playerCount: "4-8"
+themes:
+  Industrial: 0.9
+  Natural: 0.1
+bots: true

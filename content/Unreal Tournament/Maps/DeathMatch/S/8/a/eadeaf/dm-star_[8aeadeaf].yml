@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:40"
+game: "Unreal Tournament"
+name: "DM-Star"
+author: "]LBN[BaNd-AiD"
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Star_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-Star_shot_1.png"
+originalFilename: "dm-star.zip"
+hash: "8aeadeaf60370a1954b6fa3910d8d5c9e31df905"
+fileSize: 295288
+files:
+- name: "bladrave.umx"
+  fileSize: 165235
+  hash: "90cec759314ebabc7a109d4065b69e67d5abd2d6"
+- name: "DM-Star.unr"
+  fileSize: 526047
+  hash: "f4fa9fc842400f23f5aac85eae95e6cad48805ea"
+otherFiles: 1
+dependencies:
+  DM-Star.unr:
+  - status: "OK"
+    name: "bladrave"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-star.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-star.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-star.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-star.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/8/a/eadeaf/dm-star.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/8/a/eadeaf/dm-star.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Temple of Stargoddess"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.5
+  Industrial: 0.2
+  Ancient: 0.1
+  Natural: 0.3
+bots: true

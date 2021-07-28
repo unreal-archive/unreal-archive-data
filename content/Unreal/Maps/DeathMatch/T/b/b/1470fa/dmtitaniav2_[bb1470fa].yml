@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 17:58"
+game: "Unreal"
+name: "DMTitaniaV2"
+author: "Squacky(squacky@ufl.edu)  TitanScript: GorGor(pcyr@slip.net)"
+description: "None"
+releaseDate: "1999-03"
+attachments: []
+originalFilename: "dmtitaniav2.zip"
+hash: "bb1470fac3fcc466b57ff15d422f2b667dc8e04b"
+fileSize: 450566
+files:
+- name: "DeathMatchTitan.u"
+  fileSize: 15436
+  hash: "105b7c09f4d90142153ce1f39f601f55fab1da06"
+- name: "DMTitaniaV2.unr"
+  fileSize: 1349515
+  hash: "18c6f4b680d91fddd469f7c347212a8a629b3917"
+otherFiles: 2
+dependencies:
+  DMTitaniaV2.unr:
+  - status: "OK"
+    name: "DeathMatchTitan"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsT/&file=dmtitaniav2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/dmtitaniav2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsT/dmtitaniav2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/Maps/DeathMatch/T/b/b/1470fa/dmtitaniav2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/DeathMatch/T/b/b/1470fa/dmtitaniav2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM Titania"
+playerCount: "6-10"
+themes:
+  Nali Castle: 0.8
+  Skaarj Tech: 0.2
+bots: true

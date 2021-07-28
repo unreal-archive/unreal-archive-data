@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 22:45"
+game: "Unreal Tournament"
+name: "DM-MazeOfTitania"
+author: "Robin 'Rob' Pamart"
+description: "None"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-MazeOfTitania_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/DM-MazeOfTitania_shot_1.png"
+originalFilename: "dm-mazeoftitania.zip"
+hash: "7e797c71af8725d750c18a887417472127a876d5"
+fileSize: 671966
+files:
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+- name: "DM-MazeOfTitania.unr"
+  fileSize: 749941
+  hash: "643ca8954b96363f3e2a26065fbacbc8e74e5d94"
+- name: "UTDMT.utx"
+  fileSize: 64814
+  hash: "2510c5f58e34ec89b6602f4a152f8c3ad722bcc1"
+- name: "UTDMT.u"
+  fileSize: 67130
+  hash: "78d5d65e93f2312d7d015c4cfdd66513caca77b7"
+otherFiles: 3
+dependencies:
+  DM-MazeOfTitania.unr:
+  - status: "OK"
+    name: "DigSh"
+  - status: "OK"
+    name: "UTDMT"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsM/&file=dm-mazeoftitania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/dm-mazeoftitania.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-mazeoftitania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsM/dm-mazeoftitania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/M/7/e/797c71/dm-mazeoftitania.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/M/7/e/797c71/dm-mazeoftitania.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Maze of Titania"
+playerCount: "8-16"
+themes:
+  Nali Temple: 1.0
+bots: true

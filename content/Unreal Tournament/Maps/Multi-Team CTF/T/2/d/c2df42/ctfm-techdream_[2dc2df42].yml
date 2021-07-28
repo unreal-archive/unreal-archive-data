@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 12:20"
+variationOf: "4f36a398dd67ddb749760b7c6426723daab2154b"
+game: "Unreal Tournament"
+name: "CTFM-TechDream"
+author: "Cory Spooner 'TheSpoonDog'"
+description: "Dream of a Techno World!"
+releaseDate: "1998-05"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-techdream_shot_2dc2df42_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/2/d/c2df42/ctfm-techdream_shot_2dc2df42_1.png"
+originalFilename: "ctfm-techdream.zip"
+hash: "2dc2df42041f4186d48e6e203ab7f55450e4dca4"
+fileSize: 2799890
+files:
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "CTFM-TechDream.unr"
+  fileSize: 4884200
+  hash: "dfd3cdd37527169228c943b5e1ede7894110c0a9"
+otherFiles: 1
+dependencies:
+  CTFM-TechDream.unr:
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "MISSING"
+    name: "MultiCTF"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "K_vision"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctfm-techdream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/2/d/c2df42/ctfm-techdream.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/2/d/c2df42/ctfm-techdream.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/2/d/c2df42/ctfm-techdream.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Techno Dream"
+playerCount: "16"
+themes: {}
+bots: true

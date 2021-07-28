@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 22:53"
+variationOf: "820822c019218925505f2a3cc08b3d5bafb17888"
+game: "Unreal Tournament 2004"
+name: "ONS-[TR]Transmission"
+author: "Joe 'Relic' Unik"
+description: "An earthquake has hit a modest city. Most buildings survived the rumble...with\
+  \ the exception of a few older buildings. The city's power infrastructure is on\
+  \ the brink. Random aftershocks still exist from the quake. The city's power is\
+  \ distributed by transmission towers, and 2 main cores built into the city's two\
+  \ biggest skyscrapers. Two groups of militia are determined to take control of them."
+releaseDate: "2004-12"
+attachments:
+- type: "IMAGE"
+  name: "ons-trtransmission_shot_2cda14f6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/T/ons-trtransmission_shot_2cda14f6_1.png"
+originalFilename: "onstrtransmission.zip"
+hash: "2cda14f667f96e2069163004fb9651e402987e64"
+fileSize: 8233270
+files:
+- name: "Dweather.u"
+  fileSize: 190927
+  hash: "5cee72adda6c32c70b0720a928421dc616368196"
+- name: "DWeather-Tex.utx"
+  fileSize: 706752
+  hash: "11ceaa8d0a2efdd21c376233aafc5c79c64da204"
+- name: "DWeather-smesh.usx"
+  fileSize: 41507
+  hash: "01469e3b5663f47a162d14d48effd3cd389aad16"
+- name: "ONS-[TR]Transmission.ut2"
+  fileSize: 29140414
+  hash: "51c72d02c61ecc67a7fc8f30a2c6845577b46ee5"
+otherFiles: 1
+dependencies:
+  Dweather.u:
+  - status: "OK"
+    name: "DWeather-smesh"
+  - status: "OK"
+    name: "DWeather-tex"
+  ONS-[TR]Transmission.ut2:
+  - status: "OK"
+    name: "Dweather"
+downloads:
+- url: "https://gamefront.online/files2/service/thankyou?id=6573773"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/T/onstrtransmission.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Onslaught/T/2/c/da14f6/onstrtransmission.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Onslaught/T/2/c/da14f6/onstrtransmission.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Onslaught"
+title: "TR_Transmission"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.1
+  City: 0.9
+bots: true

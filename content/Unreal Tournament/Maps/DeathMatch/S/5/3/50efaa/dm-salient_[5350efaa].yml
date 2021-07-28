@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:35"
+game: "Unreal Tournament"
+name: "DM-Salient"
+author: "El Chicoverde"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "DM-Salient_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/DM-Salient_shot_1.png"
+originalFilename: "dm-salient.zip"
+hash: "5350efaa15ba541952f25d21b78492f05d7acf28"
+fileSize: 2835456
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DM-Salient.unr"
+  fileSize: 3597083
+  hash: "6ed080b938342169329dceded8df7b7d90db1c33"
+otherFiles: 1
+dependencies:
+  DM-Salient.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/dm-salient.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsS/&file=dm-salient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-salient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsS/dm-salient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/DM-Salient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/5/3/50efaa/dm-salient.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/5/3/50efaa/dm-salient.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Salient"
+playerCount: "3-5"
+themes:
+  Tech: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.2
+bots: true

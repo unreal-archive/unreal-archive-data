@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:32"
+game: "Unreal Tournament"
+name: "CTF-Phobia"
+author: "Clan Fear"
+description: "Welcome to Phobia"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-Phobia_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/CTF-Phobia_shot_1.png"
+originalFilename: "ctf-phobia.zip"
+hash: "61beecdf433942e342d7914b11c1f4d1e7dfa9c4"
+fileSize: 1392354
+files:
+- name: "Phobia.utx"
+  fileSize: 182583
+  hash: "4ca0e6cdfc050ad23868e96e013c1ff433bc6011"
+- name: "Death.umx"
+  fileSize: 1023849
+  hash: "5a4595357061407e7b597caf8256a92f03697f3b"
+- name: "CTF-Phobia.unr"
+  fileSize: 2016500
+  hash: "018316e664eef23828d4b5652dce444dd55dcf9b"
+otherFiles: 1
+dependencies:
+  CTF-Phobia.unr:
+  - status: "OK"
+    name: "Phobia"
+  - status: "OK"
+    name: "Death"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/ctf-phobia.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1404400"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/CTF/MapsP/&file=ctf-phobia.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-phobia.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/CTF/MapsP/ctf-phobia.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/6/1/beecdf/ctf-phobia.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/P/6/1/beecdf/ctf-phobia.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Phobia"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.9
+  Natural: 0.1
+bots: true

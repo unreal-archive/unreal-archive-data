@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:08"
+game: "Unreal Tournament"
+name: "AS-Throne"
+author: "SteelHORN"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "AS-Throne_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/T/AS-Throne_shot_1.png"
+originalFilename: "as-throne.zip"
+hash: "7373f50b127113b2f6b8e6a612cdfbee10afd372"
+fileSize: 1880986
+files:
+- name: "AS-Throne.unr"
+  fileSize: 3381346
+  hash: "2acd3cafdd472acbeac9c1c35b41ecb7f412e14d"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "Liandri.utx"
+  fileSize: 1172037
+  hash: "075570ddda5e6a62a93a556151c508f53fb9a0fa"
+otherFiles: 1
+dependencies:
+  AS-Throne.unr:
+  - status: "OK"
+    name: "Liandri"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/T/as-throne.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403148"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-throne.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-throne.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-throne.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/T/7/3/73f50b/as-throne.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/T/7/3/73f50b/as-throne.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Throne of Liandri"
+playerCount: "6 - 12"
+themes:
+  Tech: 0.2
+  Industrial: 0.2
+  City: 0.6
+bots: true

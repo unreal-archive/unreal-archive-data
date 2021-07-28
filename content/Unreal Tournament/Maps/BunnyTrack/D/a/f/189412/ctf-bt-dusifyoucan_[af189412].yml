@@ -1,0 +1,112 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 08:00"
+game: "Unreal Tournament"
+name: "CTF-BT-(DuS)IfYouCan"
+author: "Emil"
+description: "GL & HF!"
+releaseDate: "2011-04"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-(DuS)IfYouCan_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/D/CTF-BT-(DuS)IfYouCan_shot_1.png"
+originalFilename: "CTF-BT-(DuS)IfYouCan.zip"
+hash: "af189412dbadbef2f38c8c47b1d639c4b4b4572f"
+fileSize: 21679520
+files:
+- name: "SSFuture.utx"
+  fileSize: 1730708
+  hash: "aa47615d4e9f37233a159c3fbabc42cb50f66401"
+- name: "Nanoblue.utx"
+  fileSize: 1627361
+  hash: "b2e01149d1517e25849855595e92bf4815db83de"
+- name: "Syrion.utx"
+  fileSize: 3870698
+  hash: "5df201e1784288dc70d3c81ba9fd759a9bb01659"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "FurryDelayedTrigger2.u"
+  fileSize: 11430
+  hash: "8a5e53dedba1fd6504d515578e5733f47a74c54c"
+- name: "FootstepChanger.u"
+  fileSize: 6359
+  hash: "94b3bc05df4fed4f1dc7d9fbcd88bb149b78198a"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "syphdh.umx"
+  fileSize: 56799
+  hash: "eb395cf37e00df34538ab71e997f2c843e8e2f06"
+- name: "CTF-BT-(DuS)IfYouCan.unr"
+  fileSize: 2068986
+  hash: "fcf84e4e4be995ec9693e6ec742965ef68606789"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+otherFiles: 0
+dependencies:
+  CTF-BT-(DuS)IfYouCan.unr:
+  - status: "OK"
+    name: "SSFuture"
+  - status: "OK"
+    name: "FootstepChanger"
+  - status: "OK"
+    name: "Jump"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "ONPFootsteps"
+  - status: "OK"
+    name: "syphdh"
+  - status: "OK"
+    name: "Nanoblue"
+  - status: "OK"
+    name: "FurryDelayedTrigger2"
+  - status: "OK"
+    name: "Syrion"
+  Jump.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/&file=CTF-BT-%28DuS%29IfYouCan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/D/CTF-BT-(DuS)IfYouCan.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/BunnyTrack/CTF-BT/&file=CTF-BT-%28DuS%29IfYouCan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/BunnyTrack&file=CTF-BT-%28DuS%29IfYouCan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-%28DuS%29IfYouCan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/D/a/f/189412/CTF-BT-(DuS)IfYouCan.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/D/a/f/189412/CTF-BT-(DuS)IfYouCan.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "If you can!"
+playerCount: "2-4"
+themes:
+  Tech: 0.9
+  Natural: 0.1
+bots: false

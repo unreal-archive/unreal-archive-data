@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 18:06"
+game: "Unreal Tournament"
+name: "AS-CrashSite"
+author: "Ciller / AGA"
+description: "Some things should never be discovered..."
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "AS-CrashSite_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/C/AS-CrashSite_shot_1.png"
+originalFilename: "as-crashsite.zip"
+hash: "3d137a55f351b0bb29a2e23a1c8605f2474d003c"
+fileSize: 4317042
+files:
+- name: "AS-CrashSite.unr"
+  fileSize: 2783375
+  hash: "732dd76c8de0510613c4f339b91a689a1388f337"
+- name: "submarine.utx"
+  fileSize: 814406
+  hash: "e6b57d4186737af81b16079bdf478cc960b458b2"
+- name: "paper_anim.utx"
+  fileSize: 701974
+  hash: "0f7ebfd293f21e85dc62533171df4c08cffe163e"
+- name: "AmbAlien.uax"
+  fileSize: 1875709
+  hash: "091f33eb9d7963892ac151411ccbcae4932e31c0"
+- name: "furniture_aga.utx"
+  fileSize: 1822733
+  hash: "bb3937f08cabaa0f467460a0804a213110a422a1"
+otherFiles: 1
+dependencies:
+  AS-CrashSite.unr:
+  - status: "OK"
+    name: "AmbAlien"
+  - status: "OK"
+    name: "furniture_aga"
+  - status: "OK"
+    name: "submarine"
+  - status: "OK"
+    name: "paper_anim"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/C/as-crashsite.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://gamefront.online/files2/service/thankyou?id=1403052"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Assault/&file=as-crashsite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/Assault&file=as-crashsite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Assault/as-crashsite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Assault/C/3/d/137a55/as-crashsite.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Assault/C/3/d/137a55/as-crashsite.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Crash Site"
+playerCount: "10"
+themes:
+  Industrial: 0.2
+  Natural: 0.8
+bots: true

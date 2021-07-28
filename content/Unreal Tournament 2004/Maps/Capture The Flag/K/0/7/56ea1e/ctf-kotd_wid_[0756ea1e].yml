@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-11 09:23"
+game: "Unreal Tournament 2004"
+name: "CTF-KOTD_WID"
+author: "Michael \"widowmaker\" Cranston"
+description: "It is a dark cloudy night. You are trapped in a graveyard, apparently\
+  \ the parting gift from the now defunct Necris. Only the winner will live to see\
+  \ the light of day. The losers become permanent residents of the arena. That is\
+  \ why they call it the: Keeper of the Dead."
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "CTF-KOTD_WID_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/CTF-KOTD_WID_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-KOTD_WID_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/CTF-KOTD_WID_shot_1.png"
+originalFilename: "ctf-kotd_wid.zip"
+hash: "0756ea1e177de12fb5ae825a41a768b813dbc3ac"
+fileSize: 3501616
+files:
+- name: "CTF-KOTD_WID.ut2"
+  fileSize: 13060223
+  hash: "eab73f78c2b20121fd73017167b63a42974fa118"
+- name: "WID_KOTD_Mesh.usx"
+  fileSize: 1918365
+  hash: "dfbe9a855d115d500d4d778fbbba8b67feed63ca"
+- name: "Wid_KOTD_Tex.utx"
+  fileSize: 3497921
+  hash: "27043b4f0c92561fd5624fe9fad6f053be54e589"
+otherFiles: 2
+dependencies:
+  CTF-KOTD_WID.ut2:
+  - status: "OK"
+    name: "Wid_KOTD_Tex"
+  - status: "OK"
+    name: "WID_KOTD_Mesh"
+  WID_KOTD_Mesh.usx:
+  - status: "OK"
+    name: "Wid_KOTD_Tex"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=1792"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/ctf-kotd_wid.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/0/7/56ea1e/ctf-kotd_wid.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/0/7/56ea1e/ctf-kotd_wid.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Keeper of the Dead"
+playerCount: "8-12"
+themes:
+  Industrial: 0.1
+  Egyptian: 0.9
+bots: true

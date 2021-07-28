@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 02:29"
+variationOf: "fb7c107120bdfecea08fe169260d96252eb4ce3b"
+game: "Unreal Tournament"
+name: "MA-StarshipTroopers"
+author: "Christopher Link"
+description: "None"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "ma-starshiptroopers_shot_6e9abfa3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Arena/S/6/e/9abfa3/ma-starshiptroopers_shot_6e9abfa3_1.png"
+originalFilename: "ma-starshiptroopers.zip"
+hash: "6e9abfa3717024690486e0b0eb6226507170e0ab"
+fileSize: 5351388
+files:
+- name: "InfAdds.u"
+  fileSize: 1250742
+  hash: "a5d635dee0a2dddf740b8917a4d385472edca5b1"
+- name: "MA-StarshipTroopers.unr"
+  fileSize: 1063690
+  hash: "b2e1ec83616df129a8b7d20155dd26b0db3e7e6b"
+- name: "Invasion.utx"
+  fileSize: 1740456
+  hash: "fab0aad5c328ac9f78591e80deac1059a00a822a"
+- name: "Invasion.u"
+  fileSize: 3874295
+  hash: "96fd48065620d1120878143351e003850481c249"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MA-StarshipTroopers.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "PARTIAL"
+    name: "Invasion"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterArena/&file=ma-starshiptroopers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Arena/S/ma-starshiptroopers.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterArena&file=ma-starshiptroopers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Arena/S/6/e/9abfa3/ma-starshiptroopers.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Arena/S/6/e/9abfa3/ma-starshiptroopers.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Arena"
+title: "The Starship Troopers"
+playerCount: "5-8"
+themes:
+  Tech: 0.1
+  Industrial: 0.8
+  Natural: 0.1
+bots: true

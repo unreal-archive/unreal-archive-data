@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:54"
+variationOf: "13da6d35e1f083bda06653ac772f5a4919305b66"
+game: "Unreal Tournament"
+name: "DM-$$$-Stalingrad-$$$"
+author: "Maarten v Oortmerssen (_@_)_ICaRuS"
+description: "None"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-stalingrad-_shot_c35528e4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/c/3/5528e4/dm-stalingrad-_shot_c35528e4_1.png"
+originalFilename: "stalingrad.zip"
+hash: "c35528e44e17c4294fc4ab817260f040828dee46"
+fileSize: 5890796
+files:
+- name: "MOHAA.umx"
+  fileSize: 5347616
+  hash: "8ccaaad9150387103d45e5ea8e016f601c418632"
+- name: "Store.utx"
+  fileSize: 7020
+  hash: "6cf8b8bdcdb402bcf1e4b1ff2c43d5b0333b90f9"
+- name: "DM-$$$-Stalingrad-$$$.unr"
+  fileSize: 4344307
+  hash: "7fc20c1170ef4f4fb2f8053446f7ec30a218eb05"
+- name: "GliderKIT.utx"
+  fileSize: 617700
+  hash: "7ee2710fcf2b738985dc330a9b5ff5336fc12501"
+- name: "FaAForX.utx"
+  fileSize: 2975372
+  hash: "fbfa5c3e9bc971597706cecb06e51245035b2d76"
+otherFiles: 1
+dependencies:
+  DM-$$$-Stalingrad-$$$.unr:
+  - status: "OK"
+    name: "MOHAA"
+  - status: "MISSING"
+    name: "Store"
+  - status: "OK"
+    name: "GliderKIT"
+  - status: "OK"
+    name: "FaAForX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/stalingrad.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsMisc/&file=stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/&file=stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/Misc/stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/S/c/3/5528e4/stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/c/3/5528e4/stalingrad.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(_@_)_Stalingrad"
+playerCount: "4 - 16"
+themes:
+  Industrial: 1.0
+bots: true

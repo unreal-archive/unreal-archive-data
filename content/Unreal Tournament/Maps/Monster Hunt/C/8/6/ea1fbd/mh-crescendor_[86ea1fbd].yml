@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 07:03"
+game: "Unreal Tournament"
+name: "MH-Crescendo(R)"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "MH-Crescendo(R)_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/C/MH-Crescendo(R)_shot_1.png"
+originalFilename: "mh-crescendo(r).zip"
+hash: "86ea1fbd9e91c34bcb31e436f711a6b4ef252894"
+fileSize: 19119710
+files:
+- name: "BR-village.utx"
+  fileSize: 3285001
+  hash: "f03c3b0bb63c524ca3ee7ab6f16dd78dc394b5aa"
+- name: "AssaultGuns.u"
+  fileSize: 1302028
+  hash: "e8753617b3ca9d67ce1f28eeeb8a1b1e9a2a6ff1"
+- name: "BPC-midian.umx"
+  fileSize: 4504375
+  hash: "6b0673ef8720045d625bb73e4e88493f62e87a92"
+- name: "AP-aqualinespirit.umx"
+  fileSize: 4958805
+  hash: "5fda00e824c8db52a6a74755ac04e8dab271a115"
+- name: "MH-Crescendo(R).unr"
+  fileSize: 8936742
+  hash: "98439eac89dd70618e6b2ccf95a9482460fc5582"
+- name: "AP-Salem.umx"
+  fileSize: 6955289
+  hash: "6fd1d72f7730748897fb3d08f8ac8daca110507b"
+- name: "HealingGunBeta.u"
+  fileSize: 845922
+  hash: "64142c7701c1b9c349df917317427d820f819d15"
+- name: "Monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MH-Crescendo(R).unr:
+  - status: "OK"
+    name: "AP-Salem"
+  - status: "OK"
+    name: "AP-aqualinespirit"
+  - status: "OK"
+    name: "AssaultGuns"
+  - status: "OK"
+    name: "Monsterhunt"
+  - status: "OK"
+    name: "BPC-midian"
+  - status: "OK"
+    name: "HealingGunBeta"
+  - status: "OK"
+    name: "BR-village"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-crescendo%28r%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/C/mh-crescendo(r).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-crescendo%28r%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/C/8/6/ea1fbd/mh-crescendo(r).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/8/6/ea1fbd/mh-crescendo(r).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Crescendo"
+playerCount: "Unknown"
+themes: {}
+bots: true

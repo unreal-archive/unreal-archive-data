@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-05-10 22:09"
+game: "Unreal Tournament"
+name: "DM-CMNstreetDD"
+author: "Common&DoctoR DeatH"
+description: "Please Visit www.utgmc.com"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "dm-cmnstreetdd.zip"
+hash: "354874576f34eb0e56ec37ae16e9d06a31ee36a0"
+fileSize: 4615982
+files:
+- name: "SAS-Kong1.utx"
+  fileSize: 4830055
+  hash: "7018db4a6c2da6e5d91b45ba742158bdd00454dc"
+- name: "DM-CMNstreetDD.unr"
+  fileSize: 1167551
+  hash: "05b57dbd55866a0cb0275ef86307f362d99da09f"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "Doom.umx"
+  fileSize: 1363447
+  hash: "4f4bf94b513f6731aee13ae8b1b7b27e76772ff7"
+otherFiles: 1
+dependencies:
+  DM-CMNstreetDD.unr:
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "Doom"
+  - status: "OK"
+    name: "SAS-Kong1"
+downloads:
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=394"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cmnstreetdd.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/C/3/5/487457/dm-cmnstreetdd.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/C/3/5/487457/dm-cmnstreetdd.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "CMNstreetDD"
+playerCount: "8 to 14"
+themes: {}
+bots: true

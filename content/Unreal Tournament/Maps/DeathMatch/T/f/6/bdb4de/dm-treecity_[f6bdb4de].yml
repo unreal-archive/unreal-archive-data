@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 00:14"
+game: "Unreal Tournament"
+name: "DM-Treecity"
+author: "Dillon Sharlet"
+description: "None"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-treecity_shot_f6bdb4de_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/f/6/bdb4de/dm-treecity_shot_f6bdb4de_1.png"
+originalFilename: "dm-treecity.zip"
+hash: "f6bdb4de359085b3b43a35c5b68afddc6dfd4bf3"
+fileSize: 1311968
+files:
+- name: "Treeforts.utx"
+  fileSize: 465939
+  hash: "20b7f1a3b84ecf3d70bff76ecd05c0f1dd53c2a6"
+- name: "DM-Treecity.unr"
+  fileSize: 1305599
+  hash: "f807fac6701a14638420ac4ce9594f1705d48997"
+- name: "noxxpack.utx"
+  fileSize: 914942
+  hash: "1ffd65e75842903d66542de085cf19de23a6f3fb"
+otherFiles: 0
+dependencies:
+  DM-Treecity.unr:
+  - status: "OK"
+    name: "Treeforts"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-treecity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/f/6/bdb4de/dm-treecity.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/T/f/6/bdb4de/dm-treecity.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/T/f/6/bdb4de/dm-treecity.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tree City"
+playerCount: "6-12"
+themes:
+  Tech: 0.3
+  Industrial: 0.5
+  Ancient: 0.1
+  Natural: 0.1
+bots: true

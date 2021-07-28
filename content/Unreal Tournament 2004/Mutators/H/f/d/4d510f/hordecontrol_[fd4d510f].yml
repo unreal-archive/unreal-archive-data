@@ -1,7 +1,6 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
 firstIndex: "2019-02-20 00:26"
-variationOf: null
 game: "Unreal Tournament 2004"
 name: "HordeControl"
 author: "Kangus"
@@ -41,21 +40,22 @@ dependencies:
   Invasion_Kang.u:
   - status: "OK"
     name: "Kang_MonsterSkins"
-    providedBy: null
   SangHC.u:
   - status: "OK"
     name: "SangHCSkins"
-    providedBy: null
   InvK_MonsterPM.u:
   - status: "OK"
     name: "Invasion_Pear"
-    providedBy: null
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/WyRM-HC-r3-umod.zip"
   main: true
   repack: false
   state: "OK"
 - url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament%202004/Mutators/H/f/d/4d510f/WyRM-HC-r3-umod.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/H/f/d/4d510f/WyRM-HC-r3-umod.zip"
   main: false
   repack: false
   state: "OK"

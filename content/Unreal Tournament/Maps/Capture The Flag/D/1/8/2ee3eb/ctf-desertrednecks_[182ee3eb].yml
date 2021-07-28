@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:50"
+game: "Unreal Tournament"
+name: "CTF-DesertRedNecks"
+author: "Zencoder <britton_wesley@yahoo.com>"
+description: "Yeehaw!"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "CTF-DesertRedNecks_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/CTF-DesertRedNecks_shot_2.png"
+- type: "IMAGE"
+  name: "CTF-DesertRedNecks_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/CTF-DesertRedNecks_shot_1.png"
+originalFilename: "ctf-desertrednecks.zip"
+hash: "182ee3ebad100cad455b65cb5b88cab26348523e"
+fileSize: 2735146
+files:
+- name: "nr-cbs2.umx"
+  fileSize: 910667
+  hash: "9e2948b3598f1c39e198cc69dfc4c7a4323e451b"
+- name: "CTF-DesertRedNecks.unr"
+  fileSize: 4679866
+  hash: "b28818b44b13269b4011613eff56f68b5142809c"
+otherFiles: 2
+dependencies:
+  CTF-DesertRedNecks.unr:
+  - status: "OK"
+    name: "nr-cbs2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/CTF&file=ctf-desertrednecks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/ctf-desertrednecks.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=598"
+  main: false
+  repack: false
+  state: "MISSING"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/1/8/2ee3eb/ctf-desertrednecks.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/1/8/2ee3eb/ctf-desertrednecks.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "- Desert Rednecks -"
+playerCount: "16 - 20"
+themes:
+  Industrial: 0.2
+  City: 0.1
+  Natural: 0.7
+  Nali Castle: 0.1
+bots: true

@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-16 19:46"
+game: "Unreal Tournament"
+name: "DM-Underground Base"
+author: "Eyuva 'S' NRG"
+description: "Enjoy"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "DM-Underground_Base_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/DM-Underground_Base_shot_1.png"
+originalFilename: "dm-undergroundbase.zip"
+hash: "19a94e3acbc34db18e8e614e77d8d5a72b49d0b4"
+fileSize: 402903
+files:
+- name: "DM-Underground Base.unr"
+  fileSize: 1299423
+  hash: "a8cc0d772da097aa97f60eed9542d36024fff9e2"
+- name: "Princess.utx"
+  fileSize: 222643
+  hash: "e10b9283f1cad959dde767b8be4edb21daa46bf6"
+otherFiles: 1
+dependencies:
+  DM-Underground Base.unr:
+  - status: "OK"
+    name: "Princess"
+  - status: "MISSING"
+    name: "a3text"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/dm-undergroundbase.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/DeathMatch/MapsU/&file=dm-undergroundbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=dm-undergroundbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/DeathMatch/MapsU/dm-undergroundbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/U/1/9/a94e3a/dm-undergroundbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/U/1/9/a94e3a/dm-undergroundbase.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Princess Seyulifini's Underground Base"
+playerCount: "10 - 16"
+themes:
+  Nali Temple: 0.3
+  Industrial: 0.3
+  Skaarj Tech: 0.4
+bots: true

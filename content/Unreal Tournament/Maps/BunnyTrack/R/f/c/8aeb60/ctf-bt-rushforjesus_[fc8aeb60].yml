@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-01-28 05:51"
+game: "Unreal Tournament"
+name: "CTF-BT-RushForJesus"
+author: "Splashy and Mike"
+description: "Welcome"
+releaseDate: "2009-03"
+attachments:
+- type: "IMAGE"
+  name: "CTF-BT-RushForJesus_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-RushForJesus_shot_1.png"
+originalFilename: "CTF-BT-RushForJesus.zip"
+hash: "fc8aeb6098c682b60bb6441926627fd74250025e"
+fileSize: 19071802
+files:
+- name: "gothicsounds.uax"
+  fileSize: 669536
+  hash: "c1e1d16243058abc95810da9f79d94395d0416b4"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "CTF-BT-RushForJesus.unr"
+  fileSize: 7702925
+  hash: "4dfcc09395db744a427b685bf15a43fa00bb43c2"
+- name: "USP-Church.uax"
+  fileSize: 4994239
+  hash: "1355cb87fc710040d13f172cf35ddcd993a3425c"
+- name: "blank.umx"
+  fileSize: 2238
+  hash: "65b7226ed8df93798994a92db227d9ec148e4f64"
+otherFiles: 0
+dependencies:
+  CTF-BT-RushForJesus.unr:
+  - status: "OK"
+    name: "blank"
+  - status: "OK"
+    name: "USP-Church"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "gothicsounds"
+downloads:
+- url: "http://www.i4games.euhttp://www.i4games.eu/maps/CTF-BT-RushForJesus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/R/CTF-BT-RushForJesus.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/BunnyTrack/R/f/c/8aeb60/CTF-BT-RushForJesus.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/R/f/c/8aeb60/CTF-BT-RushForJesus.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "BunnyTrack"
+title: "BT-RushForJesus"
+playerCount: "2-12"
+themes:
+  Ancient: 1.0
+bots: false

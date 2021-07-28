@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 18:35"
+game: "Unreal Tournament"
+name: "DM-[JAPAN]-Airyglyph"
+author: "krs.ks@gustavip.jp"
+description: "None"
+releaseDate: "2014-05"
+attachments:
+- type: "IMAGE"
+  name: "DM-[JAPAN]-Airyglyph_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAPAN%5D-Airyglyph_shot_1.png"
+originalFilename: "DM-[JAPAN]-Airyglyph.zip"
+hash: "12545097aaad0ed2addf7a681912dc0e9a5bc3d9"
+fileSize: 8566862
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "Chrysanthemum_In_Winter.umx"
+  fileSize: 3654754
+  hash: "167f36b0d237cf4208511918ee695bcc93c7cfc1"
+- name: "DM-[JAPAN]-Airyglyph.unr"
+  fileSize: 2695208
+  hash: "7d2f1676ed4183ad117bd19f86fb02e088baa2f8"
+otherFiles: 0
+dependencies:
+  DM-[JAPAN]-Airyglyph.unr:
+  - status: "OK"
+    name: "Chrysanthemum_in_Winter"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BJAPAN%5D-Airyglyph.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/J/DM-%5BJAPAN%5D-Airyglyph.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/DeathMatch/J/1/2/545097/DM-%255BJAPAN%255D-Airyglyph.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/J/1/2/545097/DM-%255BJAPAN%255D-Airyglyph.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "NWAiryglyph"
+playerCount: "2-14"
+themes:
+  Tech: 0.4
+  Nali Castle: 0.5
+bots: true

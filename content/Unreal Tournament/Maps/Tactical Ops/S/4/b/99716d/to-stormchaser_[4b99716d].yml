@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 11:13"
+game: "Unreal Tournament"
+name: "TO-StormChaser"
+author: "[BlazE]_/[{SpEeDo}]\\"
+description: "None"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "TO-StormChaser_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/S/TO-StormChaser_shot_1.png"
+originalFilename: "TO-StormChaserbeta1.1.zip"
+hash: "4b99716d5a4360bdc50308d42401a344e8fc549e"
+fileSize: 814218
+files:
+- name: "Streets.utx"
+  fileSize: 158592
+  hash: "e02eca185000a41f3946a399e6eaef0e16352903"
+- name: "TO-StormChaser.unr"
+  fileSize: 2064807
+  hash: "9a252fba448de3927054b59421d9292547a1466c"
+otherFiles: 1
+dependencies:
+  TO-StormChaser.unr:
+  - status: "MISSING"
+    name: "s_SWAT"
+  - status: "OK"
+    name: "Streets"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-StormChaserbeta1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/S/TO-StormChaserbeta1.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-StormChaserbeta1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/S/4/b/99716d/TO-StormChaserbeta1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/S/4/b/99716d/TO-StormChaserbeta1.1.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Tactical Ops"
+title: "Storm Chaser"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Ancient: 0.3
+  Natural: 0.2
+  Nali Castle: 0.2
+bots: true

@@ -1,0 +1,115 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-17 10:01"
+game: "Unreal Tournament"
+name: "MH-LiandriInvasion"
+author: "Cedric \" Derdak2rot \" Pierron"
+description: "None"
+releaseDate: "2005-03"
+attachments:
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_7.png"
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_2.png"
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_5.png"
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_6.png"
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_1.png"
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_3.png"
+- type: "IMAGE"
+  name: "MH-LiandriInvasion_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/L/MH-LiandriInvasion_shot_4.png"
+originalFilename: "mh-liandriinvasion.zip"
+hash: "e70d7921b74b48731927a1260abd546e3c23b6dd"
+fileSize: 6825949
+files:
+- name: "MH-LiandriInvasion.unr"
+  fileSize: 9375640
+  hash: "9a69d2070d8943caa9ee606e985ec73db6f72733"
+- name: "SpaceMarines.umx"
+  fileSize: 478011
+  hash: "b685b6d1a4491789da8d836372517ec9768fcfa0"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "OLweapons.u"
+  fileSize: 1295107
+  hash: "343c3018b234bd7d1b5c05ae0732b8d1bebf6c50"
+- name: "U1Sounds.uax"
+  fileSize: 665991
+  hash: "fe7ff2898460303d3724206ea45ecb84ade2cfc2"
+- name: "osxbackgroundchanger.u"
+  fileSize: 4504
+  hash: "9decf8d7df5cbb9a71840058d1783eaadcc7eebb"
+- name: "LiandriSkins.utx"
+  fileSize: 3267763
+  hash: "4d8163f12d6d138e3d6935207ad84d808a146ab0"
+otherFiles: 13
+dependencies:
+  osxbackgroundchanger.u:
+  - status: "OK"
+    name: "olroot"
+  OLweapons.u:
+  - status: "OK"
+    name: "U1Sounds"
+  MH-LiandriInvasion.unr:
+  - status: "OK"
+    name: "olweapons"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SpaceMarines"
+  - status: "OK"
+    name: "LiandriSkins"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/L/mh-liandriinvasion.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/Misc/&file=mh-liandriinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=mh-liandriinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=mh-liandriinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://uttexture.com/UT/Downloads/Maps/MonsterHunt/mh-liandriinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/L/e/7/0d7921/mh-liandriinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/e/7/0d7921/mh-liandriinvasion.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-LiandriInvasion"
+playerCount: "4-10"
+themes: {}
+bots: true

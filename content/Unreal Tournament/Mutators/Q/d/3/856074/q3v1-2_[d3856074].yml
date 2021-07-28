@@ -1,0 +1,69 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-04 01:09"
+game: "Unreal Tournament"
+name: "Q3v1 2"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "Q3v1_2_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/Q/Q3v1_2_shot_2.png"
+- type: "IMAGE"
+  name: "Q3v1_2_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/Q/Q3v1_2_shot_1.png"
+originalFilename: "Q3v1.2.zip"
+hash: "d38560743febe52fe7fe13d55810b142358df181"
+fileSize: 9916856
+files:
+- name: "Q3Armor.u"
+  fileSize: 220702
+  hash: "841acb24fd9e6d5dc7048d5fde037f3fc4bbe181"
+- name: "Q3Gore.u"
+  fileSize: 952282
+  hash: "89224b527cd7fb30496c7bd1e9a1fac0a96d5899"
+- name: "Q3Health.u"
+  fileSize: 324243
+  hash: "f9fe827f77e1f863d5ee497e93e58609ec2d46ca"
+- name: "Q3Weaps.u"
+  fileSize: 27719428
+  hash: "0c52de8585f53e5131ecb04c7967785f25fde268"
+otherFiles: 6
+dependencies:
+  Q3Health.u:
+  - status: "OK"
+    name: "Q3Weaps"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Mods/&file=Q3v1.2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/Q/Q3v1.2.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/Q/d/3/856074/Q3v1.2.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/Q/d/3/856074/Q3v1.2.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Q3A - Quake 3 Gore"
+  description: " New type of Gore from Quake 3!"
+- name: "Q3A - Quake 3 Weapons v1.2"
+  description: "Quake 3 Weapons Now For UT99."
+- name: "Q3A - Rail Gun Arena"
+  description: "Do you like Rail Gun?"
+- name: "Q3A - Rail Instagib Gun Arena"
+  description: "Do you like Instagib Rail Gun?"
+- name: "Q3A - Rocket Launcher Arena"
+  description: "Please don't do Rocket Spam LoL!"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

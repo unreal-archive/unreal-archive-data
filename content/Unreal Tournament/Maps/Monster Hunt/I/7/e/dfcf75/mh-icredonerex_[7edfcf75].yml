@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 04:29"
+variationOf: "164d5aa7e9fca0e886a27dbe65a047984450ab90"
+game: "Unreal Tournament"
+name: "MH-ICRedone(Rex)"
+author: "<GF>-REX!! -&- DAG (War Master)"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-icredonerex_shot_7edfcf75_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/I/7/e/dfcf75/mh-icredonerex_shot_7edfcf75_1.png"
+originalFilename: "MH-ICRedone(Rex).zip"
+hash: "7edfcf75d937576641adfb1faa6f0925cf686042"
+fileSize: 4132804
+files:
+- name: "NPIntruder.umx"
+  fileSize: 1416312
+  hash: "0df9eb95188b0e5e28c443b68f71a41611e064aa"
+- name: "EndEx.umx"
+  fileSize: 3123573
+  hash: "04734198c8c8a0e137386f90279693127e5ef409"
+- name: "MH-ICRedone(Rex).unr"
+  fileSize: 2789082
+  hash: "a3db714944b208cad370ab79a8d07465c4d41ca3"
+otherFiles: 1
+dependencies:
+  MH-ICRedone(Rex).unr:
+  - status: "OK"
+    name: "NPIntruder"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "EndEx"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=Maps/MonsterHunt/&file=MH-ICRedone%28Rex%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/I/MH-ICRedone(Rex).zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-ICRedone%28Rex%29.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/I/7/e/dfcf75/MH-ICRedone(Rex).zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/7/e/dfcf75/MH-ICRedone(Rex).zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "The Inscrutable Castle Redone: Rex's Version"
+playerCount: "1-5 Intelligent"
+themes:
+  Natural: 0.7
+  Nali Castle: 0.3
+bots: true

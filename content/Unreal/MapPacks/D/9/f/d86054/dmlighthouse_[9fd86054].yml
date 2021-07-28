@@ -1,0 +1,73 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2019-02-03 19:46"
+game: "Unreal"
+name: "Dmlighthouse"
+author: "Various"
+description: "None"
+releaseDate: "1998-06"
+attachments: []
+originalFilename: "dmlighthouse.zip"
+hash: "9fd8605458ff229ad90e965b6830160109938dcb"
+fileSize: 367484
+files:
+- name: "Giweapons.u"
+  fileSize: 12151
+  hash: "37f0c14ce6e88fb6680c827ec82fb9a17db69d69"
+- name: "DMLighthouse.unr"
+  fileSize: 1703547
+  hash: "8429896a72015232bb8112bc04bdd3667c9cee84"
+- name: "GiRailgun.unr"
+  fileSize: 38193
+  hash: "be6795e7e5b3b27ec58ec6c307c717d2da4ab5a0"
+- name: "railgun.uax"
+  fileSize: 89904
+  hash: "e529051f23e25d22a4b0878516c0d1c90839ba09"
+otherFiles: 2
+dependencies:
+  GiRailgun.unr:
+  - status: "OK"
+    name: "Giweapons"
+  Giweapons.u:
+  - status: "OK"
+    name: "railgun"
+  DMLighthouse.unr:
+  - status: "OK"
+    name: "Giweapons"
+downloads:
+- url: "http://unreal.ut-files.com/index.php?dir=Maps/DeathMatch/MapsL/&file=dmlighthouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/dmlighthouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://unrealtexture.com/Unreal/Downloads/Maps/DeathMatch/MapsL/dmlighthouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/dm_maps/dmlighthouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal/MapPacks/D/9/f/d86054/dmlighthouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/D/9/f/d86054/dmlighthouse.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "GiRailgun"
+  title: "GiRailgun"
+  author: "Unknown"
+- name: "DMLighthouse"
+  title: "DMLighthouse"
+  author: "Crusasder"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.9
+  Natural: 0.1
