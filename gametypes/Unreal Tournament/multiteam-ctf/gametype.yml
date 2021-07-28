@@ -39,21 +39,22 @@ credits:
   CTFM-Sphere:
   - "SlayerA"
 gameTypes:
-  - name: "MultiCTF"
-    description: ""
+- name: "MultiCTF"
+  description: ""
 mutators:
-  - name: "(MCTF) Speed"
-    description: "Changes a flag carriers speed!"
-  - name: "(MCTF) InstaReward"
-    description: "People who capture flags get an InstaGib rifle!"
-  - name: "(MCTF) Exploding Flags"
-    description: "Dropped flags explode after a certain time elapses!"
-  - name: "(MCTF) One Flag Bring Home"
-    description: "After capturing on an opponent in One Flag mode, you are teleported home!"
-  - name: "(MCTF) Dancing Bots"
-    description: "Bots will dance after flag captures!"
-  - name: "(MCTF) Humans vs. Bots"
-    description: "All-bot teams will all be against the human team"
+- name: "(MCTF) Speed"
+  description: "Changes a flag carriers speed!"
+- name: "(MCTF) InstaReward"
+  description: "People who capture flags get an InstaGib rifle!"
+- name: "(MCTF) Exploding Flags"
+  description: "Dropped flags explode after a certain time elapses!"
+- name: "(MCTF) One Flag Bring Home"
+  description: "After capturing on an opponent in One Flag mode, you are teleported\
+    \ home!"
+- name: "(MCTF) Dancing Bots"
+  description: "Bots will dance after flag captures!"
+- name: "(MCTF) Humans vs. Bots"
+  description: "All-bot teams will all be against the human team"
 maps:
 - name: "CTFM-TestRoom"
   title: "The Test Room"
@@ -77,6 +78,10 @@ releases:
       repack: false
       state: "OK"
     - url: "http://medor.no-ip.org/index.php?dir=GameTypes/CTF/MultiCTF/&file=MultiCTF2Beta5_ZIP.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/gametypes/Unreal%20Tournament/multiteam-ctf/MultiCTF2Beta5_ZIP.zip"
       main: false
       repack: false
       state: "OK"
