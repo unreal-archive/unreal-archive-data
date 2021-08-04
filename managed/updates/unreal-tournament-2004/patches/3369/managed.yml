@@ -17,9 +17,10 @@ downloads:
   version: "3369"
   description: ""
   localFile: "/tmp/ut2004-winpatch3369.exe"
+  platform: "WINDOWS"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament\
-         \ 2004/Patches/ut2004-winpatch3369.exe"
+      \ 2004/Patches/ut2004-winpatch3369.exe"
     main: true
     repack: false
     state: "OK"
@@ -27,16 +28,23 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament%202004/Patches/ut2004-winpatch3369.exe"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "ut2004-winpatch3369.exe"
+  hash: "67535d1f79e86e9eb2845de3e915dfe2268f1186"
   fileSize: 13323776
-  platform: "WINDOWS"
   synced: true
+  deleted: false
 - title: "Linux Manual Install"
   version: "3369"
   description: ""
   localFile: "/tmp/ut2004-lnxpatch3369-2.tar.bz2"
+  platform: "LINUX"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament\
-         \ 2004/Patches/ut2004-lnxpatch3369-2.tar.bz2"
+      \ 2004/Patches/ut2004-lnxpatch3369-2.tar.bz2"
     main: true
     repack: false
     state: "OK"
@@ -44,16 +52,23 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament%202004/Patches/ut2004-lnxpatch3369-2.tar.bz2"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "ut2004-lnxpatch3369-2.tar.bz2"
+  hash: "a8cc33877a02a0a09c288b5fc248efde282f7bdf"
   fileSize: 22465217
-  platform: "LINUX"
   synced: true
+  deleted: false
 - title: "MacOS Installer"
   version: "3369"
   description: ""
   localFile: "/tmp/ut2004-macpatch3369.dmg.bz2"
+  platform: "MACOS"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament\
-         \ 2004/Patches/ut2004-macpatch3369.dmg.bz2"
+      \ 2004/Patches/ut2004-macpatch3369.dmg.bz2"
     main: true
     repack: false
     state: "OK"
@@ -61,7 +76,13 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament%202004/Patches/ut2004-macpatch3369.dmg.bz2"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "ut2004-macpatch3369.dmg.bz2"
+  hash: "03d2af67f15234594e1a1fc456a340a0749ece09"
   fileSize: 90656216
-  platform: "MACOS"
   synced: true
+  deleted: false
 published: true

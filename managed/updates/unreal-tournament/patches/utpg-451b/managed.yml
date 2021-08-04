@@ -10,55 +10,75 @@ author: "Unreal Tournament Preservation Group"
 homepage: "https://web.archive.org/web/20160803031207/http://www.utpg.org:80/"
 description: "Backward-compatible community produced patch for Unreal Tournament"
 releaseDate: "2004-03-14"
-titleImage: null
 images: []
 downloads:
 - title: "Windows Installer (exe)"
   version: "451b"
   description: ""
   localFile: "/tmp/UTPGPatch451b.exe"
+  platform: "WINDOWS"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451b.exe"
     main: true
     repack: false
     state: "OK"
-  - url:  "http://medor.no-ip.org/index.php?dir=Patches/&file=utpgpatch451.exe"
+  - url: "http://medor.no-ip.org/index.php?dir=Patches/&file=utpgpatch451.exe"
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Patches/UTPGPatch451b.exe"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "UTPGPatch451b.exe"
+  hash: "4c90ea322990174e7ea7ceb7752cbe15c40c77b5"
   fileSize: 3621888
-  platform: "WINDOWS"
   synced: true
+  deleted: false
 - title: "Windows Manual Install (zip)"
   version: "451b"
   description: ""
   localFile: "/tmp/UTPGPatch451b.zip"
+  platform: "WINDOWS"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451b.zip"
     main: true
     repack: false
     state: "OK"
-  - url:  "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451b.zip"
+  - url: "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451b.zip"
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Patches/UTPGPatch451b.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "UTPGPatch451b.zip"
+  hash: "7bbb5b7ed9bc0cd253ac29dae14c970f7bcfca55"
   fileSize: 3096505
-  platform: "WINDOWS"
   synced: true
+  deleted: false
 - title: "Linux Manual Install"
   version: "451"
   description: ""
   localFile: "/tmp/UTPGPatch451.tar.bz2"
+  platform: "LINUX"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451.tar.bz2"
     main: true
     repack: false
     state: "OK"
-  - url:  "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451LINUX.tar.gz"
+  - url: "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451LINUX.tar.gz"
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Patches/UTPGPatch451.tar.bz2"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "UTPGPatch451.tar.bz2"
+  hash: "b41da146dd67d7f60f1c8b52ed829c84b99207d2"
   fileSize: 3064473
-  platform: "LINUX"
   synced: true
+  deleted: false
 published: true

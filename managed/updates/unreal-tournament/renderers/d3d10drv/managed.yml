@@ -17,26 +17,34 @@ downloads:
   version: "v29"
   description: ""
   localFile: "/tmp/d3d10drv-v29.zip"
+  platform: "WINDOWS"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/d3d10drv-v29.zip"
     main: true
     repack: false
     state: "OK"
-  - url:  "http://www.kentie.net/article/d3d10drv/files/d3d10drv-v29.zip"
+  - url: "http://www.kentie.net/article/d3d10drv/files/d3d10drv-v29.zip"
     main: false
     repack: false
     state: "OK"
-  - url:  "http://medor.no-ip.org/index.php?dir=Video_Renders/D3D10/&file=d3d10drv-v29.zip"
+  - url: "http://medor.no-ip.org/index.php?dir=Video_Renders/D3D10/&file=d3d10drv-v29.zip"
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Renderers/d3d10drv-v29.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "d3d10drv-v29.zip"
+  hash: "07bf26fe348116830c5c86326bb112b74519b0d4"
   fileSize: 221052
-  platform: "WINDOWS"
   synced: true
+  deleted: false
 - title: "Source Code"
   version: "v29"
   description: ""
   localFile: "/tmp/d3d10drv-v29-src.zip"
+  platform: "ANY"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/d3d10drv-v29-src.zip"
     main: true
@@ -46,13 +54,20 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Renderers/d3d10drv-v29-src.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "d3d10drv-v29-src.zip"
+  hash: "0ac6ec66987a3f24742e83a20ec4ef8e3a6d12d7"
   fileSize: 504924
-  platform: "ANY"
   synced: true
+  deleted: false
 - title: "Games Source"
   version: "v29"
   description: ""
   localFile: "/tmp/games.zip"
+  platform: "ANY"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/games.zip"
     main: true
@@ -62,7 +77,13 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Renderers/games.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "games.zip"
+  hash: "3ebac9edfc40c7a8a5b37aa9008b7c501cd5e65c"
   fileSize: 11077198
-  platform: "ANY"
   synced: true
+  deleted: false
 published: true

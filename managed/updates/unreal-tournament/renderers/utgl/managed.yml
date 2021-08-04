@@ -17,6 +17,7 @@ downloads:
   version: "3.7"
   description: ""
   localFile: "/tmp/utglr37.zip"
+  platform: "WINDOWS"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/utglr37.zip"
     main: true
@@ -30,13 +31,20 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Renderers/utglr37.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "utglr37.zip"
+  hash: "0d673c22912d6ed3823e7ad9628d35a401a1b040"
   fileSize: 88180
-  platform: "WINDOWS"
   synced: true
+  deleted: false
 - title: "Linux (zip)"
   version: "3.6"
   description: ""
   localFile: "/tmp/utglr36_for_linux.zip"
+  platform: "LINUX"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/utglr36_for_linux.zip"
     main: true
@@ -46,13 +54,20 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Renderers/utglr36_for_linux.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "utglr36_for_linux.zip"
+  hash: "00b504d9bf9b84342246fc67ced49dcc7c5a7c1f"
   fileSize: 86706
-  platform: "LINUX"
   synced: true
+  deleted: false
 - title: "Source Code"
   version: "3.7"
   description: ""
   localFile: "/tmp/utglr37src.zip"
+  platform: "ANY"
   downloads:
   - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/utglr37src.zip"
     main: true
@@ -62,7 +77,13 @@ downloads:
     main: false
     repack: false
     state: "OK"
+  - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/patches-updates/Unreal%20Tournament/Renderers/utglr37src.zip"
+    main: false
+    repack: false
+    state: "OK"
+  originalFilename: "utglr37src.zip"
+  hash: "2bef6edeb0ffc4f945150dc3dc7017e5004ee480"
   fileSize: 114336
-  platform: "ANY"
   synced: true
+  deleted: false
 published: true
