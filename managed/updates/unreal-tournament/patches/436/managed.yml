@@ -18,8 +18,14 @@ downloads:
   description: ""
   localFile: "/tmp/UTPatch436nodelta.exe"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPatch436nodelta.exe"
-  - "http://www.ut-files.com/index.php?dir=Patches/&file=UTPatch436nodelta.exe"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPatch436nodelta.exe"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://www.ut-files.com/index.php?dir=Patches/&file=UTPatch436nodelta.exe"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 33766912
   platform: "WINDOWS"
   synced: true

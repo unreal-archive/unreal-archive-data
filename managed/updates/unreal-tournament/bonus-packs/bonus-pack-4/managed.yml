@@ -18,8 +18,14 @@ downloads:
   description: ""
   localFile: "/home/shrimp/tmp/utbonuspack4-zip.zip"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Bonus%20Packs/utbonuspack4-zip.zip"
-  - "https://www.fileplanet.com/archive/p-6440/Unreal-Tournament-Bonus-Pack-4-Zip-installer"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Bonus%20Packs/utbonuspack4-zip.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "https://www.fileplanet.com/archive/p-6440/Unreal-Tournament-Bonus-Pack-4-Zip-installer"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 14017081
   platform: "ANY"
   synced: true
@@ -29,10 +35,22 @@ downloads:
   description: ""
   localFile: "/home/shrimp/tmp/utbonuspack4.zip"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Bonus%20Packs/utbonuspack4.zip"
-  - "http://ut-files.com/index.php?dir=Patches/&file=utbonuspack4.zip"
-  - "http://medor.no-ip.org/index.php?dir=Patches/&file=utbonuspack4.zip"
-  - "http://www.fileplanet.com/53827/50000/fileinfo/Unreal-Tournament-Bonus-Pack-#4-%5BUMOD-installer%5D"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal%20Tournament/Bonus%20Packs/utbonuspack4.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://ut-files.com/index.php?dir=Patches/&file=utbonuspack4.zip"
+    main: false
+    repack: false
+    state: "OK"
+  - url: "http://medor.no-ip.org/index.php?dir=Patches/&file=utbonuspack4.zip"
+    main: false
+    repack: false
+    state: "OK"
+  - url: "http://www.fileplanet.com/53827/50000/fileinfo/Unreal-Tournament-Bonus-Pack-#4-%5BUMOD-installer%5D"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 14916708
   platform: "ANY"
   synced: true

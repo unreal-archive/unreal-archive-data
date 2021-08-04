@@ -18,9 +18,18 @@ downloads:
   description: ""
   localFile: "/home/shrimp/tmp/UnrealPatch226Final.exe"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/UnrealPatch226Final.exe"
-  - "http://unreal.ut-files.com/index.php?dir=Patches/GamePatches/&file=UnrealPatch226Final.exe"
-  - "https://www.oldunreal.com/patch/unreal/official/UnrealPatch226Final.exe"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/UnrealPatch226Final.exe"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://unreal.ut-files.com/index.php?dir=Patches/GamePatches/&file=UnrealPatch226Final.exe"
+    main: false
+    repack: false
+    state: "OK"
+  - url: "https://www.oldunreal.com/patch/unreal/official/UnrealPatch226Final.exe"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 19226589
   platform: "WINDOWS"
   synced: true

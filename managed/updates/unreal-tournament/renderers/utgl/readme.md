@@ -1,5 +1,7 @@
 ## Installation instructions
 
+> Note: This driver is now included in Patch 469+.
+
 Go to your `UnrealTournament\System` directory. Make a backup of your old `OpenGLDrv.dll` (Windows) or `OpenGLDrv.so` (Linux) in case the new one doesn't work. Then put the new `OpenGLDrv.dll` or `OpenGLDrv.so` in your `UnrealTournament\System` directory. This one contains a number of optimizations that should improve performance over the base UT 436 OpenGL renderer. It also contains a number of new options, which are described further down on this page.
 
 ----

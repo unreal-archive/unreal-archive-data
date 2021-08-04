@@ -1,5 +1,7 @@
 ## Installation instructions
 
+> Note: This driver is now included in Patch 469+.
+
 > Note: You need to have at least an OpenGL 3.3 capable card to use this 
 > renderer!
 

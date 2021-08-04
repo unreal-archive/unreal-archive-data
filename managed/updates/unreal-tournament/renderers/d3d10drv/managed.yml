@@ -18,9 +18,18 @@ downloads:
   description: ""
   localFile: "/tmp/d3d10drv-v29.zip"
   downloads:
-  - "http://www.ut-files.com/index.php?dir=Video_Renders/OpenGL/&file=utglr37.zip"
-  - "http://www.kentie.net/article/d3d10drv/files/d3d10drv-v29.zip"
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/d3d10drv-v29.zip"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/d3d10drv-v29.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url:  "http://www.kentie.net/article/d3d10drv/files/d3d10drv-v29.zip"
+    main: false
+    repack: false
+    state: "OK"
+  - url:  "http://medor.no-ip.org/index.php?dir=Video_Renders/D3D10/&file=d3d10drv-v29.zip"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 221052
   platform: "WINDOWS"
   synced: true
@@ -29,8 +38,14 @@ downloads:
   description: ""
   localFile: "/tmp/d3d10drv-v29-src.zip"
   downloads:
-  - "http://www.kentie.net/article/d3d10drv/files/src/d3d10drv-v29-src.zip"
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/d3d10drv-v29-src.zip"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/d3d10drv-v29-src.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://www.kentie.net/article/d3d10drv/files/src/d3d10drv-v29-src.zip"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 504924
   platform: "ANY"
   synced: true
@@ -39,8 +54,14 @@ downloads:
   description: ""
   localFile: "/tmp/games.zip"
   downloads:
-  - "http://www.cwdohnal.com/utglr/utglr37src.zip"
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/games.zip"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/games.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://www.kentie.net/article/d3d10drv/files/src/games.zip"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 11077198
   platform: "ANY"
   synced: true

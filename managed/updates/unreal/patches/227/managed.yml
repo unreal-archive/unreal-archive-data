@@ -18,8 +18,14 @@ downloads:
   description: ""
   localFile: "/home/shrimp/tmp/227ReleaseNotes.pdf"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/227ReleaseNotes.pdf"
-  - "https://www.oldunreal.com/patch/unreal/oldunreal/227ReleaseNotes.pdf"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/227ReleaseNotes.pdf"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "https://www.oldunreal.com/patch/unreal/oldunreal/227ReleaseNotes.pdf"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 441380
   platform: "ANY"
   synced: true
@@ -29,9 +35,18 @@ downloads:
   description: ""
   localFile: "/home/shrimp/tmp/UnrealGoldPatch227i.7z"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/UnrealGoldPatch227i.7z"
-  - "https://www.oldunreal.com/patch/unreal/oldunreal/UnrealGoldPatch227i.7z"
-  - "http://unreal.ut-files.com/index.php?dir=Patches/227Patch/&file=UnrealGoldPatch227i.7z"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/UnrealGoldPatch227i.7z"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "https://www.oldunreal.com/patch/unreal/oldunreal/UnrealGoldPatch227i.7z"
+    main: false
+    repack: false
+    state: "OK"
+  - url: "http://unreal.ut-files.com/index.php?dir=Patches/227Patch/&file=UnrealGoldPatch227i.7z"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 86125808
   platform: "ANY"
   synced: true
@@ -41,9 +56,18 @@ downloads:
   description: ""
   localFile: "/home/shrimp/tmp/UnrealClassicPatch227i.7z"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/UnrealClassicPatch227i.7z"
-  - "https://www.oldunreal.com/patch/unreal/oldunreal/UnrealClassicPatch227i.7z"
-  - "http://unreal.ut-files.com/index.php?dir=Patches/227Patch/&file=UnrealClassicPatch227i.7z"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/patches-updates/Unreal/Patches/UnrealClassicPatch227i.7z"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "https://www.oldunreal.com/patch/unreal/oldunreal/UnrealClassicPatch227i.7z"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://unreal.ut-files.com/index.php?dir=Patches/227Patch/&file=UnrealClassicPatch227i.7z"
+    main: true
+    repack: false
+    state: "OK"
   fileSize: 79643033
   platform: "ANY"
   synced: true

@@ -18,8 +18,14 @@ downloads:
   description: ""
   localFile: "/tmp/XOpenGL1.0.0.9_UT4.36.zip"
   downloads:
-  - "http://www.oldunreal.com/betatest/XOpenGL1.0.0.9_UT4.36.zip"
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/XOpenGL1.0.0.9_UT4.36.zip"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Renderers/XOpenGL1.0.0.9_UT4.36.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url: "http://www.oldunreal.com/betatest/XOpenGL1.0.0.9_UT4.36.zip"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 872561
   platform: "WINDOWS"
   synced: true

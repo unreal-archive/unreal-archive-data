@@ -18,8 +18,14 @@ downloads:
   description: ""
   localFile: "/tmp/UTPGPatch451b.exe"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451b.exe"
-  - "http://medor.no-ip.org/index.php?dir=Patches/&file=utpgpatch451.exe"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451b.exe"
+    main: true
+    repack: false
+    state: "OK"
+  - url:  "http://medor.no-ip.org/index.php?dir=Patches/&file=utpgpatch451.exe"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 3621888
   platform: "WINDOWS"
   synced: true
@@ -28,8 +34,14 @@ downloads:
   description: ""
   localFile: "/tmp/UTPGPatch451b.zip"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451b.zip"
-  - "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451b.zip"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451b.zip"
+    main: true
+    repack: false
+    state: "OK"
+  - url:  "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451b.zip"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 3096505
   platform: "WINDOWS"
   synced: true
@@ -38,8 +50,14 @@ downloads:
   description: ""
   localFile: "/tmp/UTPGPatch451.tar.bz2"
   downloads:
-  - "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451.tar.bz2"
-  - "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451LINUX.tar.gz"
+  - url: "https://f002.backblazeb2.com/file/unreal-archive-files/updates/Unreal Tournament/Patches/UTPGPatch451.tar.bz2"
+    main: true
+    repack: false
+    state: "OK"
+  - url:  "http://medor.no-ip.org/index.php?dir=Entire_Server_Download/&file=UTPGPatch451LINUX.tar.gz"
+    main: false
+    repack: false
+    state: "OK"
   fileSize: 3064473
   platform: "LINUX"
   synced: true
