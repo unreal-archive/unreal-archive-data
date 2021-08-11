@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-11 17:52"
+variationOf: "4c34baf59800e5cc939850ad52ca5533e85a28ed"
+game: "Unreal Tournament"
+name: "CTF-Hiekka]["
+author: "bongoliath"
+description: "None"
+releaseDate: "2021-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-hiekka_shot_7719362c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/7/19362c/ctf-hiekka_shot_7719362c_1.png"
+originalFilename: "CTF-Hiekka][cpl.rar"
+hash: "7719362cd834cf8eeb5b82d9058f981c77f171f0"
+fileSize: 888268
+files:
+- name: "egyptian.utx"
+  fileSize: 409600
+  hash: "ba96c51b4bfd29e111c7119bcc2ae2d9d5ff068f"
+- name: "CTF-Hiekka][.unr"
+  fileSize: 2805469
+  hash: "dd2812794c6521e439f16371d57bae4dbc08bbed"
+otherFiles: 1
+dependencies:
+  CTF-Hiekka][.unr:
+  - status: "OK"
+    name: "egyptian"
+  - status: "MISSING"
+    name: "swJumpPad"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/H/7/7/19362c/CTF-Hiekka%5D%5Bcpl.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Hiekka"
+playerCount: "8-14"
+themes:
+  Nali Temple: 0.2
+  Egyptian: 0.7
+bots: true
