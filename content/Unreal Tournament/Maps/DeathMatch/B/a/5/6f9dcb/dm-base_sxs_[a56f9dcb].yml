@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:11"
+variationOf: "2514d3c0368191bdabfd5b5a678b478431b90c23"
+game: "Unreal Tournament"
+name: "DM-Base_SXS"
+author: "Jed \"SiXWiNGS\" Elkins"
+description: "None"
+releaseDate: "2009-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-base_sxs_shot_a56f9dcb_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/a/5/6f9dcb/dm-base_sxs_shot_a56f9dcb_1.png"
+originalFilename: "base_sxs.zip"
+hash: "a56f9dcbece8b90c5d867fa577e8e6fa616216b6"
+fileSize: 4335719
+files:
+- name: "Chaossounds.uax"
+  fileSize: 5272094
+  hash: "107b951d886200901a4482afa4f0d0c499c31ef0"
+- name: "DM-Base_SXS.unr"
+  fileSize: 1528795
+  hash: "090c28f368cfde58fb98fdec47ad582141140c4b"
+otherFiles: 1
+dependencies:
+  DM-Base_SXS.unr:
+  - status: "OK"
+    name: "chaossounds"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/a/5/6f9dcb/base_sxs.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Base SXS"
+playerCount: "2 - 5"
+themes:
+  Tech: 0.3
+  City: 0.3
+  Industrial: 0.1
+  Skaarj Tech: 0.3
+bots: true

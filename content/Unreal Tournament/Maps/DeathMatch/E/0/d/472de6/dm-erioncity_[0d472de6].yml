@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:13"
+variationOf: "d5b9352a21a42842ad13962c5417183e210f5d45"
+game: "Unreal Tournament"
+name: "DM-ErionCity"
+author: "Klaus \"Titanus\" Kremser"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-erioncity_shot_0d472de6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/0/d/472de6/dm-erioncity_shot_0d472de6_1.png"
+originalFilename: "DM-Erion City.zip"
+hash: "0d472de64c897c22439c4b4300da7cd21cc7b8f3"
+fileSize: 7431142
+files:
+- name: "HmmwvPrefab.utx"
+  fileSize: 611210
+  hash: "e3696f53e1515031e0021bc4cae82421e85d81ee"
+- name: "SPA.UMX"
+  fileSize: 347770
+  hash: "b0cb36ee13c8e8dce18a603224545b7634579123"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Matex.utx"
+  fileSize: 4288342
+  hash: "0ceb9d7cbfd84fa5ecf5985ec746107a530724a8"
+- name: "DM-ErionCity.unr"
+  fileSize: 8158397
+  hash: "6db81f6ef268ff83320297f985fdae300ca8c773"
+otherFiles: 0
+dependencies:
+  DM-ErionCity.unr:
+  - status: "OK"
+    name: "SPA"
+  - status: "OK"
+    name: "HmmwvPrefab"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Matex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/0/d/472de6/DM-Erion%20City.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ErionCity"
+playerCount: "8-16"
+themes:
+  City: 0.5
+  Natural: 0.2
+  Skaarj Tech: 0.2
+bots: true

@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:12"
+variationOf: "cbbcebc9a2ba1b587a98919d538fdb7ce3311045"
+game: "Unreal Tournament"
+name: "DM-Baykal"
+author: "\"TYGRA\" Dmitry Gribanoff"
+description: "None"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-baykal_shot_ec304b71_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/e/c/304b71/dm-baykal_shot_ec304b71_1.png"
+originalFilename: "DM-Baykal.zip"
+hash: "ec304b7196a4f4e501f21b5b09393b489a5deb6d"
+fileSize: 5464557
+files:
+- name: "ty_runewater.utx"
+  fileSize: 24370
+  hash: "04dd805f981a24c0810696d83c04cb7c53e088b9"
+- name: "ty_dxeffects.utx"
+  fileSize: 162605
+  hash: "bdee2294db54c922579d7bbc4897f27a4f25337d"
+- name: "Phx-fstf.umx"
+  fileSize: 1020515
+  hash: "05a2df4c6f9bfdb08a31a765cf15a0f739be8cbc"
+- name: "ty_runelava.utx"
+  fileSize: 90122
+  hash: "d6cbe3a399b1c1ee7d32dcbdd15e50e681960110"
+- name: "Baykal.uax"
+  fileSize: 1719446
+  hash: "b911c17d81daba350b5b3e01720c9df0f6cb25f2"
+- name: "DM-Baykal.unr"
+  fileSize: 5433124
+  hash: "a365df3e0eb4b4aca606704a1b8b9831223b8e5f"
+- name: "de.u"
+  fileSize: 72169
+  hash: "5e220383ed8260509ba288f520d10d81ff7ad103"
+- name: "Xtortion.utx"
+  fileSize: 853804
+  hash: "a93f5c074dcf30129ed3ad145de081623c041cea"
+otherFiles: 0
+dependencies:
+  DM-Baykal.unr:
+  - status: "OK"
+    name: "ty_dxeffects"
+  - status: "OK"
+    name: "ty_runelava"
+  - status: "OK"
+    name: "Baykal"
+  - status: "OK"
+    name: "Phx-fstf"
+  - status: "OK"
+    name: "ty_runewater"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/e/c/304b71/DM-Baykal.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Baykal - Enigmatic facts"
+playerCount: "12-24"
+themes:
+  Industrial: 0.9
+  Nali Castle: 0.1
+bots: true

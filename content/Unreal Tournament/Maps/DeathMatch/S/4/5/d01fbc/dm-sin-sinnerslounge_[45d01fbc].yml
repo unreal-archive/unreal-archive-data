@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:12"
+game: "Unreal Tournament"
+name: "DM-SIN-SinnersLounge"
+author: "~SIN~Mercinary-REDONE"
+description: "Evil resides here"
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "DM-SIN-SinnersLounge.zip"
+hash: "45d01fbc988a8308ca2cd6f2608e1bfc14318d5f"
+fileSize: 6564659
+files:
+- name: "DRLRse.utx"
+  fileSize: 354975
+  hash: "dbc36e2efe7b90011982626580075073dabfd651"
+- name: "yon.umx"
+  fileSize: 5762453
+  hash: "76cf03c520fd7b01d2d0369fc001a6f30e055fd5"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DM-SIN-SinnersLounge.unr"
+  fileSize: 2406170
+  hash: "3ee56a5f6591e5f82cbaaad667a5ac98ca04b99b"
+otherFiles: 0
+dependencies:
+  DM-SIN-SinnersLounge.unr:
+  - status: "OK"
+    name: "DRLRse"
+  - status: "OK"
+    name: "BRdmSE"
+  - status: "OK"
+    name: "yon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/4/5/d01fbc/DM-SIN-SinnersLounge.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-SinnersLounge"
+playerCount: "8-12"
+themes:
+  Industrial: 0.6
+  City: 0.4
+bots: true
