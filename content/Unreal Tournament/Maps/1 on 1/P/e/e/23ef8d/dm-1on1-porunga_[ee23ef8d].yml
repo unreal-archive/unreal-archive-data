@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-28 23:37"
+variationOf: "1f6364c3a953bd595fa2c14c31f41325cc62ed7f"
+game: "Unreal Tournament"
+name: "DM-1on1-Porunga"
+author: "Pufa91"
+description: "None"
+releaseDate: "2013-06"
+attachments: []
+originalFilename: "DM-Porunga.rar"
+hash: "ee23ef8d9308aed4400c7439bc55fb03197943a9"
+fileSize: 13177050
+files:
+- name: "DM-1on1-Porunga.unr"
+  fileSize: 1880621
+  hash: "5bc5874b70fd857fdfa27d69754ba53ac6eeb976"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "RT-Gnosis.utx"
+  fileSize: 12954443
+  hash: "72c81bf334ef71f93de04df929d376b23d3bdd29"
+otherFiles: 1
+dependencies:
+  DM-1on1-Porunga.unr:
+  - status: "OK"
+    name: "RT-Gnosis"
+  - status: "OK"
+    name: "anc2"
+  RT-Gnosis.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/P/e/e/23ef8d/DM-Porunga.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "1 on 1"
+title: "Porunga"
+playerCount: "2-4"
+themes:
+  Tech: 0.1
+  Natural: 0.2
+  Ancient: 0.7
+bots: true
