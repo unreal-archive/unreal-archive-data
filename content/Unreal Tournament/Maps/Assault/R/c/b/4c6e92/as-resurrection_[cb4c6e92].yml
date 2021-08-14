@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 18:05"
+game: "Unreal Tournament"
+name: "AS-Resurrection]["
+author: "NarkyBark  (psarris@cesium.clock.org)"
+description: "\"...and the day will come, when your defenses will fall, and I will\
+  \ live again.\""
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "as-resurrection_shot_cb4c6e92_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/c/b/4c6e92/as-resurrection_shot_cb4c6e92_1.png"
+originalFilename: "as-resurrection2.zip"
+hash: "cb4c6e923356e200b3c77d2331f245dff0d17684"
+fileSize: 1576412
+files:
+- name: "ResurrectTex.utx"
+  fileSize: 102653
+  hash: "b6711c6272f1d49653bc799f54fc9756dab8aca8"
+- name: "AS-Resurrection][.unr"
+  fileSize: 2718966
+  hash: "14c81f01057609cfb9a3a385b6f0fa9cc90c6d0d"
+- name: "ResurrectAux.uax"
+  fileSize: 741394
+  hash: "81c387d777182835721c313b38135f6cf9f9f1ef"
+otherFiles: 1
+dependencies:
+  AS-Resurrection][.unr:
+  - status: "OK"
+    name: "ResurrectTex"
+  - status: "OK"
+    name: "ResurrectAux"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/R/c/b/4c6e92/as-resurrection2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Resurrection of the Warlock"
+playerCount: "6 - 12"
+themes:
+  Skaarj Crypt: 0.4
+  Ancient: 0.5
+bots: true
