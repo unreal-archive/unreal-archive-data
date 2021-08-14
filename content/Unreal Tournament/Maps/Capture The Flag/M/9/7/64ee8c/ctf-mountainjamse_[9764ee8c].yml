@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 18:06"
+game: "Unreal Tournament"
+name: "CTF-MountainJamSE"
+author: "Brian R. Dempsey"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-mountainjamse_shot_9764ee8c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/9/7/64ee8c/ctf-mountainjamse_shot_9764ee8c_1.png"
+originalFilename: "ctf-mountainjamse.zip"
+hash: "9764ee8c034c5c98c7ed62510ebf3680109a17f8"
+fileSize: 7214048
+files:
+- name: "EATGAirstrike.u"
+  fileSize: 2974
+  hash: "98387d9740cdef9ebe7617b523ec62bd2f722c17"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "MJ12_Music.umx"
+  fileSize: 1533344
+  hash: "2730241be3c94169323648c7067e375b23148d57"
+- name: "CTF-MountainJamSE.unr"
+  fileSize: 28630055
+  hash: "a09990490f7d52ced82c7389c6b8133eed1374a7"
+otherFiles: 1
+dependencies:
+  CTF-MountainJamSE.unr:
+  - status: "OK"
+    name: "EATGAirstrike"
+  - status: "OK"
+    name: "MJ12_Music"
+  - status: "OK"
+    name: "InfAdds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/9/7/64ee8c/ctf-mountainjamse.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Mountain Jam Expedition Second Edition"
+playerCount: "16-20"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.3
+  Natural: 0.3
+  Industrial: 0.1
+  Skaarj Tech: 0.2
+bots: true
