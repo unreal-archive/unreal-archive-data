@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 21:19"
+game: "Unreal Tournament"
+name: "DOM-BriansBattlegrounds"
+author: "Brian R. Dempsey"
+description: "None"
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "dom-briansbattlegrounds_shot_4b59074d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/B/4/b/59074d/dom-briansbattlegrounds_shot_4b59074d_1.png"
+originalFilename: "dom-briansbattlegrounds.zip"
+hash: "4b59074d6fc9bd152f170e6dd3ca70ee98f0e20b"
+fileSize: 2116510
+files:
+- name: "EATGAirstrike.u"
+  fileSize: 2974
+  hash: "98387d9740cdef9ebe7617b523ec62bd2f722c17"
+- name: "DOM-BriansBattlegrounds.unr"
+  fileSize: 7278859
+  hash: "05779ab7917d836cb069e83b7e4277dd9219c4d0"
+otherFiles: 1
+dependencies:
+  DOM-BriansBattlegrounds.unr:
+  - status: "OK"
+    name: "EATGAirstrike"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/B/4/b/59074d/dom-briansbattlegrounds.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "DOM-Brians' Battlegrounds"
+playerCount: "10-16"
+themes:
+  Nali Temple: 0.7
+  Tech: 0.1
+  Natural: 0.1
+  Skaarj Tech: 0.1
+bots: true
