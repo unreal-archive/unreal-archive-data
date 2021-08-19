@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 18:06"
+game: "Unreal Tournament"
+name: "CTF-Warfare]["
+author: "Nick.C & B.Dempsey"
+description: "None"
+releaseDate: "2003-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-warfare_shot_e9e70a31_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/e/9/e70a31/ctf-warfare_shot_e9e70a31_1.png"
+originalFilename: "ctf-warfare2.zip"
+hash: "e9e70a31bffc92e28078bac0af4ce1122f0e4385"
+fileSize: 5322393
+files:
+- name: "CTF-Warfare][.unr"
+  fileSize: 14127194
+  hash: "e30ba71bad61f157e71b47b7bd1eac26753dc8b7"
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+otherFiles: 1
+dependencies:
+  CTF-Warfare][.unr:
+  - status: "OK"
+    name: "MTextSetA"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/W/e/9/e70a31/ctf-warfare2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Warfare]["
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Natural: 0.3
+  Industrial: 0.1
+  Skaarj Tech: 0.3
+bots: true
