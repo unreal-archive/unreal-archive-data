@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:12"
+variationOf: "eb86796e64e7f7e9f84dfc24f14d3b7e990270f8"
+game: "Unreal Tournament"
+name: "DM-UrbanSniper"
+author: "David Brown"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-urbansniper_shot_ce50cbce_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/c/e/50cbce/dm-urbansniper_shot_ce50cbce_1.png"
+originalFilename: "DM-UrbanSniper.zip"
+hash: "ce50cbceeff7f535f92798e203b04c19f43d9b4e"
+fileSize: 2597934
+files:
+- name: "WarGate.umx"
+  fileSize: 825589
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
+- name: "Xtortion.utx"
+  fileSize: 853804
+  hash: "a93f5c074dcf30129ed3ad145de081623c041cea"
+- name: "DM-UrbanSniper.unr"
+  fileSize: 5414049
+  hash: "f54d82fd5131377a6ae767a6e7cef0068c308792"
+otherFiles: 0
+dependencies:
+  DM-UrbanSniper.unr:
+  - status: "OK"
+    name: "WarGate"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/c/e/50cbce/DM-UrbanSniper.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "UrbanSniper"
+playerCount: "10-20"
+themes:
+  City: 0.6
+  Industrial: 0.2
+  Skaarj Tech: 0.1
+bots: true

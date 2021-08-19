@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:12"
+variationOf: "01ea256d49cd41bc29cabcd1d8a09481c065a2f2"
+game: "Unreal Tournament"
+name: "DM-{BL}ZarkValley"
+author: "{BL}Hawkwind"
+description: "Welcome to the Valley of the Zark"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-blzarkvalley_shot_b3a7cbf6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/b/3/a7cbf6/dm-blzarkvalley_shot_b3a7cbf6_1.png"
+originalFilename: "DM-{BL}ZarkValley.zip"
+hash: "b3a7cbf61d3a17c7a310ca561112ee5acb188ef5"
+fileSize: 3216256
+files:
+- name: "BLTextures.utx"
+  fileSize: 2569943
+  hash: "77de78144e67adbd9c00483cd9ea833869e87a15"
+- name: "Strato.umx"
+  fileSize: 2089760
+  hash: "b623dd5ce97170d329069cfb418acd19e9cfdc11"
+- name: "DM-{BL}ZarkValley.unr"
+  fileSize: 1287481
+  hash: "cfab553a1debd5a6ee7dbb5791a837235b1a9901"
+- name: "de.u"
+  fileSize: 72169
+  hash: "5e220383ed8260509ba288f520d10d81ff7ad103"
+otherFiles: 0
+dependencies:
+  DM-{BL}ZarkValley.unr:
+  - status: "OK"
+    name: "Strato"
+  - status: "OK"
+    name: "BLTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/b/3/a7cbf6/DM-%7BBL%7DZarkValley.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Zark Valley"
+playerCount: "6-12"
+themes:
+  Natural: 0.8
+  City: 0.2
+bots: true

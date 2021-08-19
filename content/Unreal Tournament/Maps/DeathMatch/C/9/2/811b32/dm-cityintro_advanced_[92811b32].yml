@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:11"
+game: "Unreal Tournament"
+name: "DM-CityIntro_Advanced"
+author: "Tim 'Knappz' Knapton"
+description: "Welcome to the City"
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-cityintro_advanced_shot_92811b32_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/9/2/811b32/dm-cityintro_advanced_shot_92811b32_1.png"
+originalFilename: "DM-CityIntro_Advanced.zip"
+hash: "92811b32f967db0f6bc6fc8920166a56c5a75650"
+fileSize: 1368880
+files:
+- name: "DM-CityIntro_Advanced.unr"
+  fileSize: 2744047
+  hash: "882afe1a152b4103181ddf7df8162db91ff2c0ea"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "de.u"
+  fileSize: 72169
+  hash: "5e220383ed8260509ba288f520d10d81ff7ad103"
+otherFiles: 0
+dependencies:
+  DM-CityIntro_Advanced.unr:
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/9/2/811b32/DM-CityIntro_Advanced.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "City Intro Advanced"
+playerCount: "8-12"
+themes:
+  Tech: 0.1
+  City: 0.9
+bots: true

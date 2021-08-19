@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-16 17:12"
+game: "Unreal Tournament"
+name: "CTF-DeadlyOutpost"
+author: "Achilles"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-deadlyoutpost_shot_e3dc8347_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/e/3/dc8347/ctf-deadlyoutpost_shot_e3dc8347_1.png"
+originalFilename: "DM-deadlyoutpost.zip"
+hash: "e3dc83476142c702e3c9090e048431859f09ed11"
+fileSize: 4487125
+files:
+- name: "CTF-DeadlyOutpost.unr"
+  fileSize: 8531568
+  hash: "e7956ad18fb3fd8a498e3531b62e887f20667c32"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 1
+dependencies:
+  CTF-DeadlyOutpost.unr:
+  - status: "OK"
+    name: "richrig"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/e/3/dc8347/DM-deadlyoutpost.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "DeadlyOutpost"
+playerCount: "10-16"
+themes:
+  Natural: 0.2
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true
