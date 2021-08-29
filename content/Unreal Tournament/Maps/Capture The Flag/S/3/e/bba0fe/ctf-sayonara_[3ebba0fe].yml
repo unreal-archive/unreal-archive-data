@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-08-28 23:39"
+game: "Unreal Tournament"
+name: "CTF-Sayonara"
+author: "Pufa91"
+description: "None"
+releaseDate: "2011-09"
+attachments: []
+originalFilename: "CTF-Sayonara.rar"
+hash: "3ebba0fee638276af359af36757d8e3e52ba737a"
+fileSize: 4232711
+files:
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "CTF-Sayonara.unr"
+  fileSize: 4759750
+  hash: "5d941f0a80e3e7b78d250a417b39cd1aaafd1ce9"
+otherFiles: 1
+dependencies:
+  CTF-Sayonara.unr:
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "Anc"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/3/e/bba0fe/CTF-Sayonara.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Sayonara"
+playerCount: "8-12"
+themes:
+  Tech: 0.2
+  Natural: 0.3
+  Ancient: 0.4
+bots: true
