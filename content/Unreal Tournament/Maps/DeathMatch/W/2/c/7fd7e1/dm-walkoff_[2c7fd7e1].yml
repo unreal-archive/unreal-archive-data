@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-09-05 09:19"
+game: "Unreal Tournament"
+name: "DM-WalkOff"
+author: "Jeff Martin jm@islandalien.com"
+description: "Welcome to the dark underworld of male modeling :-)"
+releaseDate: "2020-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-walkoff_shot_2c7fd7e1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/W/2/c/7fd7e1/dm-walkoff_shot_2c7fd7e1_1.png"
+originalFilename: "DM-Walkoff.zip"
+hash: "2c7fd7e15be5f0c59cf2bbfbcaccda9debcfd082"
+fileSize: 13933522
+files:
+- name: "DM-WalkOff.unr"
+  fileSize: 1026525
+  hash: "6514e01500a10a8efa233768113c1dbeae55fbe4"
+- name: "Counterfeit.utx"
+  fileSize: 16645398
+  hash: "8a67295f76abfa5e9b0fcd0f8cce4f4ba19d02a4"
+- name: "WalkOffClub.uax"
+  fileSize: 2291797
+  hash: "52662c3140125f5fb2dbad137dd4be59a2c50c0b"
+- name: "CounterHill.utx"
+  fileSize: 1131000
+  hash: "2fc16d49c925718834e2f41b0f6cb25d0aae6212"
+- name: "WalkOff.utx"
+  fileSize: 5536562
+  hash: "6cc8fb3ed0a91b084efc349eaee7d31b0cee4c33"
+otherFiles: 1
+dependencies:
+  DM-WalkOff.unr:
+  - status: "OK"
+    name: "WalkOff"
+  - status: "MISSING"
+    name: "CounterAudio"
+  - status: "OK"
+    name: "CounterHill"
+  - status: "OK"
+    name: "Counterfeit"
+  - status: "OK"
+    name: "WalkOffClub"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/W/2/c/7fd7e1/DM-Walkoff.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "It's a walk off"
+playerCount: "2 Supermodel"
+themes:
+  Tech: 0.7
+  City: 0.3
+bots: false

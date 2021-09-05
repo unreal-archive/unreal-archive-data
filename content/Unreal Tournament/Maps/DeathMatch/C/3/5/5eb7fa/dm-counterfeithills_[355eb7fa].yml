@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-09-05 09:19"
+game: "Unreal Tournament"
+name: "DM-CounterfeitHills"
+author: "Jeff Martin jm@islandalien.com"
+description: "None"
+releaseDate: "2020-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-counterfeithills_shot_355eb7fa_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/3/5/5eb7fa/dm-counterfeithills_shot_355eb7fa_1.png"
+originalFilename: "DM-CounterfeitHills.zip"
+hash: "355eb7fa5e2052e6ff8934ab0e076a2fcb73947f"
+fileSize: 11243399
+files:
+- name: "DM-CounterfeitHills.unr"
+  fileSize: 818843
+  hash: "5d85581c0e3bb13898c39e9f5ebc49504688a630"
+- name: "DM-CounterfeitHills-Extra.unr"
+  fileSize: 835200
+  hash: "c15212d9de88e68165bf1896527c28b4a0ba7ba7"
+- name: "CounterAudio.uax"
+  fileSize: 2013159
+  hash: "9766233c9fb7acf5dcd7d2553dd8a33c6bc2c25b"
+- name: "CounterHill.utx"
+  fileSize: 1131000
+  hash: "2fc16d49c925718834e2f41b0f6cb25d0aae6212"
+- name: "Counterfeit.utx"
+  fileSize: 16645398
+  hash: "8a67295f76abfa5e9b0fcd0f8cce4f4ba19d02a4"
+otherFiles: 1
+dependencies:
+  DM-CounterfeitHills-Extra.unr:
+  - status: "OK"
+    name: "CounterAudio"
+  - status: "OK"
+    name: "CounterHill"
+  - status: "OK"
+    name: "Counterfeit"
+  DM-CounterfeitHills.unr:
+  - status: "OK"
+    name: "CounterAudio"
+  - status: "OK"
+    name: "CounterHill"
+  - status: "OK"
+    name: "Counterfeit"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/3/5/5eb7fa/DM-CounterfeitHills.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Counterfeit Hills"
+playerCount: "3"
+themes: {}
+bots: true
