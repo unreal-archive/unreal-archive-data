@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-09-05 09:19"
+game: "Unreal Tournament"
+name: "DM-Counterfiet"
+author: "Jeff Martin jm@islandalien.com"
+description: "Buyer Beware"
+releaseDate: "2020-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-counterfiet_shot_23325ea4_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/2/3/325ea4/dm-counterfiet_shot_23325ea4_3.png"
+- type: "IMAGE"
+  name: "dm-counterfiet_shot_23325ea4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/2/3/325ea4/dm-counterfiet_shot_23325ea4_1.png"
+- type: "IMAGE"
+  name: "dm-counterfiet_shot_23325ea4_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/2/3/325ea4/dm-counterfiet_shot_23325ea4_2.png"
+originalFilename: "DM-Counterfeits.zip"
+hash: "23325ea49cd326a57e12da40218b8b49801b7a7a"
+fileSize: 10606392
+files:
+- name: "CounterAudio.uax"
+  fileSize: 2013159
+  hash: "9766233c9fb7acf5dcd7d2553dd8a33c6bc2c25b"
+- name: "DM-Counterfiet.unr"
+  fileSize: 1170622
+  hash: "99a5e4ba072fb64a3aed56d75ab2293569b24098"
+- name: "Counterfeit.utx"
+  fileSize: 16645398
+  hash: "8a67295f76abfa5e9b0fcd0f8cce4f4ba19d02a4"
+otherFiles: 3
+dependencies:
+  DM-Counterfiet.unr:
+  - status: "OK"
+    name: "CounterAudio"
+  - status: "OK"
+    name: "Counterfeit"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/2/3/325ea4/DM-Counterfeits.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Counterfeits"
+playerCount: "Me"
+themes: {}
+bots: true
