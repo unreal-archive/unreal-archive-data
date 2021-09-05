@@ -1,0 +1,73 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2021-09-05 09:21"
+game: "Unreal Tournament"
+name: "CTF Godzilla Vs Kong 2021"
+author: "Jeff Martin jm@islandalien.com"
+description: "None"
+releaseDate: "2021-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-godzilla-vs-kong-2021_shot_96001fa0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/9/6/001fa0/ctf-godzilla-vs-kong-2021_shot_96001fa0_2.png"
+- type: "IMAGE"
+  name: "ctf-godzilla-vs-kong-2021_shot_96001fa0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/C/9/6/001fa0/ctf-godzilla-vs-kong-2021_shot_96001fa0_1.png"
+originalFilename: "CTF-Godzilla-vs-Kong-2021.zip"
+hash: "96001fa0c97d12882778dd38e08618b33b13a685"
+fileSize: 23670806
+files:
+- name: "Godzilla-vs-Kong-Snd.uax"
+  fileSize: 2666639
+  hash: "8679fbf0faf2308b1bfd7984cd67268676ebbf7d"
+- name: "CTF-Godzilla-vs-Kong-Night.unr"
+  fileSize: 1397129
+  hash: "e247cfff0708ae0d8ca26fb986b482caf927cbb7"
+- name: "BOC-Godzilla.umx"
+  fileSize: 9706633
+  hash: "0d6002fa0b53774a72561004a5687707a489d876"
+- name: "BeastieBoysIntergalactic.umx"
+  fileSize: 9249429
+  hash: "bb5d348609b8f1f65dfac619c4295371126ab455"
+- name: "CTF-Godzilla-vs-Kong-Day.unr"
+  fileSize: 1344898
+  hash: "a406aafb214ad6b36c39d3b0f9733625d5d50edc"
+- name: "Godzilla-vs-Kong.utx"
+  fileSize: 3995928
+  hash: "746c4c18d6ccac27f55cb6b350044681c63455b0"
+otherFiles: 2
+dependencies:
+  CTF-Godzilla-vs-Kong-Day.unr:
+  - status: "OK"
+    name: "Godzilla-vs-Kong-Snd"
+  - status: "OK"
+    name: "Godzilla-vs-Kong"
+  - status: "OK"
+    name: "BeastieBoysIntergalactic"
+  - status: "OK"
+    name: "BOC-Godzilla"
+  CTF-Godzilla-vs-Kong-Night.unr:
+  - status: "OK"
+    name: "Godzilla-vs-Kong-Snd"
+  - status: "OK"
+    name: "Godzilla-vs-Kong"
+  - status: "OK"
+    name: "BOC-Godzilla"
+  - status: "OK"
+    name: "BeastieBoysIntergalactic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/C/9/6/001fa0/CTF-Godzilla-vs-Kong-2021.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "CTF-Godzilla-vs-Kong-Night"
+  title: "GODZILLA vs KONG"
+  author: "Jeff Martin jm@islandalien.com"
+- name: "CTF-Godzilla-vs-Kong-Day"
+  title: "GODZILLA vs KONG"
+  author: "Jeff Martin jm@islandalien.com"
+gametype: "Capture The Flag"
+themes:
+  Tech: 1.0
