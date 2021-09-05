@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-09-29 11:06"
+game: "Unreal Tournament"
+name: "MH-MF-FuriaV2"
+author: "MH-MF-FuriaV2"
+description: "Choose Your Team Colour"
+releaseDate: "2021-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-mf-furiav2_shot_0c4b4612_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/M/0/c/4b4612/mh-mf-furiav2_shot_0c4b4612_1.png"
+originalFilename: "MH-MHF-FuriaV2.rar"
+hash: "0c4b4612af3486b1afe5b9415da4a4873f4fd1a8"
+fileSize: 2540619
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-MF-FuriaV2.unr"
+  fileSize: 710473
+  hash: "97924c21c7844cb4c760a4b178e3ddddd73856fe"
+- name: "ZAN_MET.umx"
+  fileSize: 1357144
+  hash: "5b36f26014eb39e4a32fbd2b719dece01d8355d1"
+- name: "FINALITY.umx"
+  fileSize: 650801
+  hash: "a3978d1def2c87949b797b150c37f979ae6c3020"
+- name: "UPSXDragon.u"
+  fileSize: 2026873
+  hash: "42a06571f0bb0a30ba28ccb761398544fca3879f"
+otherFiles: 0
+dependencies:
+  MH-MF-FuriaV2.unr:
+  - status: "OK"
+    name: "FINALITY"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "BoostV2"
+  - status: "OK"
+    name: "UPSXDragon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/M/0/c/4b4612/MH-MHF-FuriaV2.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Furia Part 2"
+playerCount: "12-16"
+themes:
+  Nali Temple: 0.8
+  Tech: 0.2
+bots: true
