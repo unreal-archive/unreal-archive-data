@@ -1,0 +1,38 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-09-12 12:04"
+game: "Unreal Tournament"
+name: "DmOblinox"
+author: "IPedii"
+description: "None"
+releaseDate: "2020-04"
+attachments: []
+originalFilename: "DmOblinox.zip"
+hash: "fdd7ab8348e8cfc4c7401bfafdbd343aa12d877a"
+fileSize: 1464358
+files:
+- name: "DmOblinox.unr"
+  fileSize: 4455208
+  hash: "5176ac6c4035fdaa15f45c1fd17a51d92ab5a7a1"
+- name: "pb_totalizator.umx"
+  fileSize: 323167
+  hash: "071a09ce4485bee80f8986975d05383f362bf621"
+otherFiles: 0
+dependencies:
+  DmOblinox.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "pb_totalizator"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/f/d/d7ab83/DmOblinox.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Oblinox"
+playerCount: "5 to 10"
+themes:
+  Skaarj Tech: 1.0
+bots: true
