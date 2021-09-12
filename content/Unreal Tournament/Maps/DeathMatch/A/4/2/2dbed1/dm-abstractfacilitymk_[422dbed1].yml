@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-09-13 01:13"
+game: "Unreal Tournament"
+name: "DM-AbstractFacilityMK"
+author: "Senad \"drob\" Matic Karic"
+description: "None"
+releaseDate: "2021-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-abstractfacilitymk_shot_422dbed1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/4/2/2dbed1/dm-abstractfacilitymk_shot_422dbed1_1.png"
+originalFilename: "DM-AbstractFacilityMK.zip"
+hash: "422dbed1e6f5e3e3081415de6d55bc881b873ddb"
+fileSize: 27477094
+files:
+- name: "DM-AbstractFacilityMK.unr"
+  fileSize: 6127438
+  hash: "8747d0acd472fbe9a89ac120babdfc2df93f2b36"
+- name: "Heat.umx"
+  fileSize: 8392705
+  hash: "ffd4108e357c200a0f824daab66025451c0d27d5"
+- name: "mojeteksture_generic.utx"
+  fileSize: 55979123
+  hash: "9dbdfe11dfa502edb5c7b3f9fcf763a16d554051"
+otherFiles: 2
+dependencies:
+  DM-AbstractFacilityMK.unr:
+  - status: "OK"
+    name: "Heat"
+  - status: "OK"
+    name: "mojeteksture_generic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/4/2/2dbed1/DM-AbstractFacilityMK.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Abstract Facility"
+playerCount: "10 - 16"
+themes: {}
+bots: true
