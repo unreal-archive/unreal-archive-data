@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2021-11-25 08:36"
+game: "Unreal Tournament"
+name: "DarknetMH"
+author: "Unknown"
+description: "None"
+releaseDate: "2021-11"
+attachments: []
+originalFilename: "DarknetMH.rar"
+hash: "249161ea039bf66db6a7083407965c13f66dc822"
+fileSize: 2338538
+files:
+- name: "MHMayhem.u"
+  fileSize: 1702341
+  hash: "591c36c7e6d889eb9ccdf5497a2c132a1921428e"
+- name: "DarknetMH.u"
+  fileSize: 1702341
+  hash: "591c36c7e6d889eb9ccdf5497a2c132a1921428e"
+otherFiles: 3
+dependencies:
+  DarknetMH.u:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  MHMayhem.u:
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/D/2/4/9161ea/DarknetMH.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "MHMayhem"
+  description: ""
+- name: "MHMayhem SM"
+  description: ""
+- name: "MHMayhem Pinata"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
