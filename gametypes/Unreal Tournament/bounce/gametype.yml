@@ -1,0 +1,230 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-10-30"
+game: "Unreal Tournament"
+name: "Bounce!"
+author: "Team Chraysend"
+description: "The goal of Bounce is to knock your opponents into the various pools,\
+  \ pits, and other traps that litter the arenas"
+titleImage: ""
+bannerImage: ""
+links:
+  Homepage: "http://chraysend.blogspot.nl/"
+  ModDB: "https://www.moddb.com/mods/bounce"
+credits: {}
+gameTypes:
+- name: "Bounce Death Match"
+  description: ""
+- name: "Bounce Team Game"
+  description: ""
+mutators:
+- name: "Bounce Rifle arena"
+  description: "Fight with bounce rifles only"
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Who Pushed Me?"
+  description: "If you push somebody so he/she falls to his/her death, you get the\
+    \ score for it."
+maps:
+- name: "DM-BCE_Bounce!"
+  title: "Bounce!"
+  author: "Kayako Amaya"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_bounce6880788122869492812.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_bounce6880788122869492812.png"
+- name: "DM-BCE_BurningRiver"
+  title: "The Burning River"
+  author: "Marton"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_burningriver10346450082798382700.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_burningriver10346450082798382700.png"
+- name: "DM-BCE_DisappearingCastle"
+  title: "Howl's Disappearing castle"
+  author: "Titled"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_disappearingcastle15759868595358913056.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_disappearingcastle15759868595358913056.png"
+- name: "DM-BCE_FrostyRoofs"
+  title: "Frosty roofs of Farlon"
+  author: "Mortan \"Vatcilli\" Lestaria"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_frostyroofs4297420134946147947.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_frostyroofs4297420134946147947.png"
+- name: "DM-BCE_High"
+  title: "Tokyo Heights"
+  author: "Mortan Lestaria"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_high12154957066437172553.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_high12154957066437172553.png"
+- name: "DM-BCE_LiandriSewers"
+  title: "Liandri Sewers"
+  author: "Kayako + Titled"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_liandrisewers3973491432341800425.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_liandrisewers3973491432341800425.png"
+- name: "DM-BCE_haunting"
+  title: "The Haunted Mansion"
+  author: "L4dy 4bys+Vatcilli"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-bce_haunting13705350211809208478.png"
+    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/B/bounce/maps/dm-bce_haunting13705350211809208478.png"
+releases:
+- title: "Release"
+  version: "2.1"
+  releaseDate: "05-2013"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/BouncePackFix.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/bounce/BouncePackFix.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "BouncePackFix.zip"
+    hash: "738d4b4f5bde7b128a7e08687f708d7d8d8cc7d5"
+    fileSize: 7974394
+    synced: true
+    deleted: false
+    files:
+    - name: "DM-BCE_DisappearingCastle.unr"
+      fileSize: 784918
+      hash: "05f16b945b630f7349d9e6ff8527f42f0ff0e6aa"
+    - name: "Satunnel.umx"
+      fileSize: 1186953
+      hash: "f958c0eba3198f5c19e28243eebb2b8be985fcba"
+    - name: "richrig.utx"
+      fileSize: 2234223
+      hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+    - name: "DM-BCE_Bounce!.unr"
+      fileSize: 1577237
+      hash: "1549704ec631efbedcc7e358e4606aa5bd79aae9"
+    - name: "Citytex.utx"
+      fileSize: 939520
+      hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+    - name: "UnrealBounce.u"
+      fileSize: 294152
+      hash: "fe16b5b4d193be00e522bf9b36329e6329a84c14"
+    - name: "DM-BCE_BurningRiver.unr"
+      fileSize: 326464
+      hash: "e6337921a9752bcebde5b0c8c33c71e8d98f8995"
+    - name: "WhoPushedMe.u"
+      fileSize: 10619
+      hash: "396af2352094a5e65a382588aa9917f90121f3a9"
+    - name: "DM-BCE_haunting.unr"
+      fileSize: 1469554
+      hash: "63d5075ea11e8efe1a2b2c7b31b86b2e964e677d"
+    - name: "DM-BCE_FrostyRoofs.unr"
+      fileSize: 2903599
+      hash: "8d14a215aab250b00c95dbb47cc06f594c7798b7"
+    - name: "DM-BCE_High.unr"
+      fileSize: 959422
+      hash: "f9936b817e336e5dee73bba07ca4b8f38131916a"
+    - name: "DM-BCE_LiandriSewers.unr"
+      fileSize: 850580
+      hash: "1f509e00c929fad42fefa14e0845245d4e6fd394"
+    - name: "swJumpPad.u"
+      fileSize: 23548
+      hash: "7212941ffe366e45715531864ca15ad88208362e"
+    - name: "candyland.utx"
+      fileSize: 784164
+      hash: "c2e351f4ffdf05f2837ef975e25fbe4574433612"
+    - name: "EnhancedItems.u"
+      fileSize: 305359
+      hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+    - name: "icequeen2.umx"
+      fileSize: 1136469
+      hash: "46f9ea20f9c6d299efcba8fa4093c747e7b2e5ab"
+    otherFiles: 4
+    dependencies:
+      WhoPushedMe.u:
+      - status: "OK"
+        name: "EnhancedItems"
+      DM-BCE_FrostyRoofs.unr:
+      - status: "OK"
+        name: "richrig"
+      - status: "OK"
+        name: "candyland"
+      - status: "OK"
+        name: "icequeen2"
+      UnrealBounce.u:
+      - status: "OK"
+        name: "WhoPushedMe"
+      DM-BCE_High.unr:
+      - status: "OK"
+        name: "Citytex"
+      DM-BCE_haunting.unr:
+      - status: "OK"
+        name: "Satunnel"
+  deleted: false
+- title: "Map Pack"
+  version: "2"
+  releaseDate: "07-2013"
+  description: "Requires installing the release first"
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/BouncePack2FixedAgain.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/bounce/BouncePack2FixedAgain.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "BouncePack2FixedAgain.zip"
+    hash: "c812db7e42fa6be90585a4752afce89c39605a45"
+    fileSize: 7248635
+    synced: true
+    deleted: false
+    files:
+    - name: "DM-BCE_Minefields.unr"
+      fileSize: 6019245
+      hash: "a64469ba96d24a4104240e0172609766ddd5b17a"
+    - name: "CTF-BCE_MineFields.unr"
+      fileSize: 6019245
+      hash: "a64469ba96d24a4104240e0172609766ddd5b17a"
+    - name: "DM-BCE_caverns.unr"
+      fileSize: 758547
+      hash: "e7d394e1cb0afbabe4a9705b26899477eb70852a"
+    - name: "MineFX.utx"
+      fileSize: 27249
+      hash: "91d6def90de77f5441d1180cfc984ab3333e095a"
+    - name: "DOM-BCE_MineFields.unr"
+      fileSize: 6019245
+      hash: "a64469ba96d24a4104240e0172609766ddd5b17a"
+    - name: "DM-BCE_CyberspaceV2.unr"
+      fileSize: 775133
+      hash: "86822f9945a4bb5076a1c21395c8c51775590853"
+    - name: "CFCsuspence.umx"
+      fileSize: 825572
+      hash: "9655ab3e58af16e1a01cb596a43e508c081a0ae9"
+    - name: "DM-BCE_U3dG0bl1n.unr"
+      fileSize: 355732
+      hash: "9f8ef6db35784cd41c85032feec5ab4cfc137fa0"
+    otherFiles: 2
+    dependencies:
+      DOM-BCE_MineFields.unr:
+      - status: "OK"
+        name: "CFCsuspence"
+      - status: "OK"
+        name: "MineFX"
+      DM-BCE_Minefields.unr:
+      - status: "OK"
+        name: "CFCsuspence"
+      - status: "OK"
+        name: "MineFX"
+      CTF-BCE_MineFields.unr:
+      - status: "OK"
+        name: "CFCsuspence"
+      - status: "OK"
+        name: "MineFX"
+  deleted: false
+deleted: false
