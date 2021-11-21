@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 03:48"
+game: "Unreal"
+name: "MH-[SP]Dungeons"
+author: "DUSTIN"
+description: "None"
+releaseDate: "2005-07"
+attachments: []
+originalFilename: "MH-[SP]Dungeons.zip"
+hash: "b5ba70a19111c445fc7bc4de7e9857efa64d901c"
+fileSize: 1921804
+files:
+- name: "TY_RuneLava.utx"
+  fileSize: 90122
+  hash: "d6cbe3a399b1c1ee7d32dcbdd15e50e681960110"
+- name: "MH-[SP]Dungeons.unr"
+  fileSize: 3250883
+  hash: "c0fad0b2aa711cd16694e048d5acde2b4982b3e4"
+- name: "chcballs.umx"
+  fileSize: 1339907
+  hash: "b610e4a816930f8a4386eecc0d387ac5fe18eeaa"
+otherFiles: 0
+dependencies:
+  MH-[SP]Dungeons.unr:
+  - status: "MISSING"
+    name: "Newmca16"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "Crater"
+  - status: "OK"
+    name: "chcballs"
+  - status: "OK"
+    name: "TY_RuneLava"
+  - status: "MISSING"
+    name: "Spire"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=Maps/MonsterHunt&file=MH-%5BSP%5DDungeons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Monster%20Hunt/S/MH-%5BSP%5DDungeons.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]Dungeons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Monster%20Hunt/S/b/5/ba70a1/MH-%255BSP%255DDungeons.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/b/5/ba70a1/MH-%255BSP%255DDungeons.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[SP] Dungeon"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 1.0
+bots: true

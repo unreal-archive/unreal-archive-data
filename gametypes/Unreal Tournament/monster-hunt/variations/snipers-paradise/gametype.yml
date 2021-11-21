@@ -1,0 +1,133 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2021-11-21"
+game: "Unreal Tournament"
+name: "SP Monster Hunt"
+author: "Sniper's Paradise"
+description: "Sniper's Paradise Monster Hunt is a team based modification for Unreal Tournament ported\
+  \ to Unreal."
+titleImage: ""
+bannerImage: ""
+links:
+  Homepage: "http://www.snipersparadise.net/monsterhunt.html"
+credits: {}
+gameTypes: []
+mutators: []
+maps: []
+releases:
+- title: "SP Monster Hunt"
+  version: ""
+  releaseDate: "2008-09"
+  description: "SP Monster Hunt ported to Unreal"
+  files:
+  - title: "Zip Package"
+    localFile: "/tmp/mozilla_shrimp0/SP_MonsterHunt.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/sp-monster-hunt/SP_MonsterHunt.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "SP_MonsterHunt.zip"
+    hash: "4044fe4130d5f3cee80dd7f89cffc5ac67faf3f6"
+    fileSize: 19491302
+    synced: true
+    deleted: false
+    files:
+    - name: "napali103.u"
+      fileSize: 3423991
+      hash: "1e17b257a7459a39e66c3b4b45543e0ce5020594"
+    - name: "Deadsounds.uax"
+      fileSize: 535026
+      hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+    - name: "MiniMonsters.u"
+      fileSize: 7212
+      hash: "92f0cdea4fc43619ff029badcab537cbe75b0eb7"
+    - name: "Deadsounds.uax"
+      fileSize: 535026
+      hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+    - name: "Predator.u"
+      fileSize: 1337319
+      hash: "00ce4f441b44b13a73e14858c746a295d34a29fd"
+    - name: "Spinner.u"
+      fileSize: 1551609
+      hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+    - name: "SP_HauntedCreatures.u"
+      fileSize: 582804
+      hash: "8998d78126bf797ae4c6580fb8abe952a955dbbb"
+    - name: "AssaultMedia.u"
+      fileSize: 7868862
+      hash: "f403115c80501167b2317dd20a8c325015537ba7"
+    - name: "DawnT.utx"
+      fileSize: 441605
+      hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+    - name: "SP_MHpack.u"
+      fileSize: 4466895
+      hash: "2d87ed8c0bb4c60382f349c8e722c749036adebc"
+    - name: "SP_HellfireCannon.u"
+      fileSize: 694568
+      hash: "64b691ff7791c0a8a2720a6e1e22c60c362eea5a"
+    - name: "SP_MonsterHuntORIGINAL.u"
+      fileSize: 764152
+      hash: "aab5975ecd50f61584032ddd451fd5fcfba1c91c"
+    - name: "SP_MHMonsters.u"
+      fileSize: 4501840
+      hash: "e72d2f0ab872892ee3545e9795385fdd620861fe"
+    - name: "SP_MonsterHunt.u"
+      fileSize: 750414
+      hash: "217b8a9666d0238acc7b3e6cdb82fca2b01a7f29"
+    - name: "SP_GhandiWeapons.u"
+      fileSize: 974953
+      hash: "abe86c1202a64afc75876ac4b62d1f5e837b14e6"
+    - name: "Dawn.u"
+      fileSize: 2467
+      hash: "af98e56b991114e7a170fb1b2d756d2050ef3139"
+    - name: "AssualtSnds.uax"
+      fileSize: 1265752
+      hash: "49b231cd1e827489aafb1f341f154ba3c7012dbd"
+    - name: "MHSkins.utx"
+      fileSize: 1506824
+      hash: "58f24b2cbab0ce17774efdba49f11e35ded365b7"
+    - name: "SP_Queen.u"
+      fileSize: 1673992
+      hash: "ab656a7999e3b310e67e1b8d2783e5328835f5a0"
+    - name: "Deadsounds.uax"
+      fileSize: 535026
+      hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+    - name: "SP_MHCoopMonsters.u"
+      fileSize: 35588
+      hash: "7e82ffc968c645a3182757bdc13a2bafa2aa89ed"
+    - name: "Dawn.u"
+      fileSize: 2467
+      hash: "af98e56b991114e7a170fb1b2d756d2050ef3139"
+    - name: "DawnT.utx"
+      fileSize: 441605
+      hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+    otherFiles: 4
+    dependencies:
+      SP_MHpack.u:
+      - status: "OK"
+        name: "SP_GhandiWeapons"
+      SP_MHCoopMonsters.u:
+      - status: "OK"
+        name: "SP_GhandiWeapons"
+      SP_GhandiWeapons.u:
+      - status: "OK"
+        name: "AssualtSnds"
+      - status: "OK"
+        name: "AssaultMedia"
+      Dawn.u:
+      - status: "OK"
+        name: "Deadsounds"
+      - status: "OK"
+        name: "DawnT"
+      SP_HauntedCreatures.u:
+      - status: "OK"
+        name: "Deadsounds"
+      - status: "OK"
+        name: "DawnT"
+      SP_MonsterHunt.u:
+      - status: "OK"
+        name: "SP_GhandiWeapons"
+  deleted: false
+deleted: false
