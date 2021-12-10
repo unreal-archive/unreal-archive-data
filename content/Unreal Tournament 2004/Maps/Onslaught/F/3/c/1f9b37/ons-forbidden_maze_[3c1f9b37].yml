@@ -64,21 +64,15 @@ dependencies:
   UWM.u:
   - status: "OK"
     name: "rWeaponSkins"
-  - status: "MISSING"
-    name: "ONSWeapons-A"
-  - status: "MISSING"
-    name: "NewWeapons2004"
-  - status: "MISSING"
+  - status: "OK"
     name: "FHIAnim"
-  - status: "MISSING"
-    name: "Weapons"
   - status: "OK"
     name: "rWeaponMeshes"
   - status: "OK"
     name: "FHIsmeshes"
   - status: "OK"
     name: "rEffects"
-  - status: "MISSING"
+  - status: "OK"
     name: "rWeaponAnims"
   - status: "OK"
     name: "rWeaponSounds"
@@ -89,6 +83,13 @@ dependencies:
     name: "rWeaponMeshes"
   - status: "OK"
     name: "rWeaponFX"
+  FHIAnim.ukx:
+  - status: "OK"
+    name: "FHITex"
+  - status: "OK"
+    name: "FHIWeaponTex"
+  - status: "OK"
+    name: "rEffects"
   ONS-Forbidden_Maze.ut2:
   - status: "OK"
     name: "UWM"
@@ -100,12 +101,13 @@ dependencies:
   - status: "OK"
     name: "rWeaponFX"
   FHIsmeshes.usx:
-  - status: "MISSING"
-    name: "Weapons"
   - status: "OK"
     name: "FHITex"
   - status: "OK"
     name: "FHIWeaponTex"
+  rWeaponAnims.ukx:
+  - status: "OK"
+    name: "rWeaponSkins"
 downloads:
 - url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=6002"
   main: false

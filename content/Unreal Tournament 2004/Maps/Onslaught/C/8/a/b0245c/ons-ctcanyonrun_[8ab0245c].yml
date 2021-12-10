@@ -82,33 +82,22 @@ dependencies:
   ONS-CTCanyonRun.ut2:
   - status: "OK"
     name: "ONSBladeRunner"
-  - status: "OK"
+  - status: "PARTIAL"
     name: "ONSLocust"
   - status: "OK"
     name: "ONSMyViper"
   - status: "OK"
     name: "ONSCIRCEFighter"
   ONSMyViper.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "ONSViper"
   - status: "OK"
     name: "Viper"
   - status: "OK"
     name: "ViperSkin"
-  ONSLocust.u:
-  - status: "OK"
-    name: "Locust"
-  - status: "OK"
-    name: "LocustSkin"
-  ONSBladeRunner.u:
-  - status: "MISSING"
-    name: "ONSWeapons-A"
+  BladeRunner.ukx:
   - status: "OK"
     name: "BRSkin"
-  - status: "MISSING"
-    name: "BladeRunner"
-  - status: "OK"
-    name: "BRDead"
   MyMut.u:
   - status: "OK"
     name: "ONSLocust"
@@ -118,6 +107,25 @@ dependencies:
     name: "ONSMyViper"
   - status: "OK"
     name: "ONSBladeRunner"
+  ONSCIRCE.ukx:
+  - status: "OK"
+    name: "CIRCESkin"
+  ONSLocust.ukx:
+  - status: "OK"
+    name: "LocustSkin"
+  ONSViper.ukx:
+  - status: "OK"
+    name: "ViperSkin"
+  ONSLocust.u:
+  - status: "OK"
+    name: "LocustSkin"
+  ONSBladeRunner.u:
+  - status: "OK"
+    name: "BRSkin"
+  - status: "OK"
+    name: "BladeRunner"
+  - status: "OK"
+    name: "BRDead"
   BRDead.usx:
   - status: "OK"
     name: "BRSkin"
@@ -126,14 +134,14 @@ dependencies:
     name: "CIRCESkin"
   - status: "OK"
     name: "CIRCEDead"
-  - status: "MISSING"
-    name: "ONSCIRCE"
-  Viper.usx:
   - status: "OK"
-    name: "ViperSkin"
+    name: "ONSCIRCE"
   CIRCEDead.usx:
   - status: "OK"
     name: "CIRCESkin"
+  Viper.usx:
+  - status: "OK"
+    name: "ViperSkin"
   Locust.usx:
   - status: "OK"
     name: "LocustSkin"

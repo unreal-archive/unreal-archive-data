@@ -67,9 +67,9 @@ files:
   hash: "786c886940be99b1c6cd215ffd8efe136065a0bf"
 otherFiles: 1
 dependencies:
-  halomeshes.usx:
+  HaloVehicles_SM.usx:
   - status: "OK"
-    name: "HaloTextures"
+    name: "HaloVehicles_T"
   VCTF-SideWinder_e006.ut2:
   - status: "OK"
     name: "halomeshes"
@@ -83,11 +83,16 @@ dependencies:
     name: "HaloScorpion"
   - status: "OK"
     name: "HaloRWarthog"
-  HaloVehicles_SM.usx:
+  halomeshes.usx:
+  - status: "OK"
+    name: "HaloTextures"
+  HaloVehicles_A.ukx:
+  - status: "OK"
+    name: "HaloVehicles_SM"
   - status: "OK"
     name: "HaloVehicles_T"
   HaloRWarthog.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloVehicles_A"
   - status: "OK"
     name: "HaloVehicles_SM"
@@ -95,11 +100,8 @@ dependencies:
     name: "PumaSounds"
   - status: "OK"
     name: "HaloVehicles_T"
-  HaloGhostSM.usx:
-  - status: "OK"
-    name: "HaloGhostTex"
   HaloScorpion.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloVehicles_A"
   - status: "OK"
     name: "ScorpionSounds"
@@ -107,19 +109,20 @@ dependencies:
     name: "HaloVehicles_SM"
   - status: "OK"
     name: "HaloVehicles_T"
+  HaloGhostSM.usx:
+  - status: "OK"
+    name: "HaloGhostTex"
   HaloGhost.u:
   - status: "OK"
     name: "HaloGhostSM"
   - status: "OK"
     name: "HaloGhostTex"
-  - status: "MISSING"
-    name: "ONSWeapons-A"
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloGhostMesh"
   - status: "OK"
     name: "Ghost"
   HaloWarthog.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloVehicles_A"
   - status: "OK"
     name: "HaloVehicles_SM"
@@ -127,6 +130,11 @@ dependencies:
     name: "PumaSounds"
   - status: "OK"
     name: "HaloVehicles_T"
+  HaloGhostMesh.ukx:
+  - status: "OK"
+    name: "HaloGhostSM"
+  - status: "OK"
+    name: "HaloGhostTex"
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/vctf-sidewinder1.1.zip"
   main: true

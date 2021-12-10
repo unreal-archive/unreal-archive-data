@@ -61,10 +61,13 @@ files:
   hash: "9d74e034e60d834116aa13700eab40c5af3a2f1f"
 otherFiles: 2
 dependencies:
+  bauen.usx:
+  - status: "MISSING"
+    name: "lneu"
   rxneu.usx:
   - status: "OK"
     name: "lneu"
-  - status: "PARTIAL"
+  - status: "OK"
     name: "rx6"
   - status: "OK"
     name: "raumstation"
@@ -72,9 +75,6 @@ dependencies:
     name: "rx1"
   - status: "MISSING"
     name: "rx2"
-  bauen.usx:
-  - status: "MISSING"
-    name: "lneu"
   bauen.utx:
   - status: "MISSING"
     name: "lneu"
@@ -97,7 +97,7 @@ dependencies:
   - status: "OK"
     name: "raumstation"
   rsarchitecture.usx:
-  - status: "PARTIAL"
+  - status: "OK"
     name: "larsdiverse"
 downloads:
 - url: "http://www.unrealplayground.com/forums/downloads.php?do=file&id=4485"

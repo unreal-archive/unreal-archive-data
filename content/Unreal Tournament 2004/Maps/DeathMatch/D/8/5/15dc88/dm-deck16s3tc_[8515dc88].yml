@@ -46,15 +46,12 @@ files:
   hash: "187aa5c56dc3d01d715d897e500024abd6d7ebb8"
 otherFiles: 2
 dependencies:
-  RipperMeshes.usx:
-  - status: "OK"
-    name: "RipperTex"
   DM-Deck16][S3TC.ut2:
   - status: "OK"
     name: "AmbModern"
   - status: "OK"
     name: "DoorsMod"
-  - status: "MISSING"
+  - status: "OK"
     name: "RipperAnim"
   - status: "OK"
     name: "RipperTex"
@@ -64,6 +61,12 @@ dependencies:
     name: "RipperSounds"
   - status: "OK"
     name: "RipperMeshes"
+  RipperMeshes.usx:
+  - status: "OK"
+    name: "RipperTex"
+  RipperAnim.ukx:
+  - status: "OK"
+    name: "RipperTex"
 downloads:
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/D/dm-deck16%5D%5Bs3tc.zip"
   main: true

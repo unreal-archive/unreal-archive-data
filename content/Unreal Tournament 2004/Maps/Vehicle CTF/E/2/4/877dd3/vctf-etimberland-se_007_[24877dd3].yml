@@ -58,19 +58,24 @@ files:
   hash: "786c886940be99b1c6cd215ffd8efe136065a0bf"
 otherFiles: 1
 dependencies:
-  HaloVehicles_SM.usx:
-  - status: "OK"
-    name: "HaloVehicles_T"
   halomeshes.usx:
   - status: "OK"
     name: "HaloTextures"
+  HaloVehicles_SM.usx:
+  - status: "OK"
+    name: "HaloVehicles_T"
   HaloRWarthog.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloVehicles_A"
   - status: "OK"
     name: "HaloVehicles_SM"
   - status: "OK"
     name: "PumaSounds"
+  - status: "OK"
+    name: "HaloVehicles_T"
+  HaloVehicles_A.ukx:
+  - status: "OK"
+    name: "HaloVehicles_SM"
   - status: "OK"
     name: "HaloVehicles_T"
   HaloGhostSM.usx:
@@ -81,14 +86,12 @@ dependencies:
     name: "HaloGhostSM"
   - status: "OK"
     name: "HaloGhostTex"
-  - status: "MISSING"
-    name: "ONSWeapons-A"
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloGhostMesh"
   - status: "OK"
     name: "Ghost"
   HaloWarthog.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloVehicles_A"
   - status: "OK"
     name: "HaloVehicles_SM"
@@ -96,6 +99,11 @@ dependencies:
     name: "PumaSounds"
   - status: "OK"
     name: "HaloVehicles_T"
+  HaloGhostMesh.ukx:
+  - status: "OK"
+    name: "HaloGhostSM"
+  - status: "OK"
+    name: "HaloGhostTex"
   VCTF-eTimberland-SE_007.ut2:
   - status: "OK"
     name: "halomeshes"

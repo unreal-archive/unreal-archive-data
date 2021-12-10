@@ -50,10 +50,6 @@ files:
 otherFiles: 5
 dependencies:
   OSMT.u:
-  - status: "MISSING"
-    name: "ThunderCrash"
-  - status: "MISSING"
-    name: "HumanMaleA"
   - status: "OK"
     name: "OSMTex"
   OSM-ResidentUnreal2.ut2:
@@ -61,10 +57,13 @@ dependencies:
     name: "REJill"
   - status: "OK"
     name: "OSMT"
-  - status: "MISSING"
+  - status: "OK"
     name: "REJillAnim"
   - status: "OK"
     name: "OSMTex"
+  REJillAnim.ukx:
+  - status: "OK"
+    name: "REJill"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Maps/OSM/&file=osm-residentunreal2.zip"
   main: false
