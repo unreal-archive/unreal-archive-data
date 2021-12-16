@@ -1,26 +1,25 @@
 --- !<MAP>
 contentType: "MAP"
-firstIndex: "2019-01-17 05:35"
-variationOf: "cfe29a1fe5eb2a5eb0de759d0e5bc3ffa1d8ac50"
+firstIndex: "2018-10-17 02:31"
 game: "Unreal Tournament"
 name: "DM-[E$C]BanzaisCrib"
 author: "Unknown"
 description: "None"
-releaseDate: "2007-02"
+releaseDate: "2009-04"
 attachments: []
 originalFilename: "DM-[E$C]BanzaisCrib.zip"
-hash: "0841bf34549d127697a8f64d5cb0ebabc5803d40"
+hash: "cfe29a1fe5eb2a5eb0de759d0e5bc3ffa1d8ac50"
 fileSize: 4359253
 files:
-- name: "BanzaiTex.utx"
-  fileSize: 1832285
-  hash: "09f1d89aef860872654f95b81e6619224bb76c76"
-- name: "DM-[E$C]BanzaisCrib.unr"
-  fileSize: 5259591
-  hash: "646def8d7ffdf95e0e1bcd60522c6db6a151a32d"
 - name: "bed.utx"
   fileSize: 1800815
   hash: "e87996ce5c648d5e5267dfea9df4800437d0b955"
+- name: "DM-[E$C]BanzaisCrib.unr"
+  fileSize: 5259591
+  hash: "646def8d7ffdf95e0e1bcd60522c6db6a151a32d"
+- name: "BanzaiTex.utx"
+  fileSize: 1832285
+  hash: "09f1d89aef860872654f95b81e6619224bb76c76"
 - name: "Bud2.utx"
   fileSize: 3397716
   hash: "818d7007178f5beeb43a8bf0aa95eda27ce81fa1"
@@ -29,15 +28,20 @@ dependencies:
   DM-[E$C]BanzaisCrib.unr:
   - status: "OK"
     name: "bed"
-    providedBy: null
   - status: "OK"
     name: "Bud2"
-    providedBy: null
   - status: "OK"
     name: "BanzaiTex"
-    providedBy: null
 downloads:
-- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/0/8/41bf34/DM-%5BE$C%5DBanzaisCrib.zip"
+- url: "http://ut99maps.gamezoo.org/maps.html"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-%5BE%24C%5DBanzaisCrib.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/c/f/e29a1f/DM-%5BE$C%5DBanzaisCrib.zip"
   main: true
   repack: false
   state: "OK"
@@ -47,4 +51,4 @@ title: "DM-[E$C]BanzaisCrib"
 playerCount: "Unknown"
 themes:
   Ancient: 1.0
-bots: false
+bots: true
