@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:55"
+game: "Unreal Tournament"
+name: "DM-Skaaj TechGothic"
+author: "Loki ( Bilczynski)"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-skaaj-techgothic_shot_70082159_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/7/0/082159/dm-skaaj-techgothic_shot_70082159_1.png"
+originalFilename: "DM-Skaarj_TechGothic.rar"
+hash: "700821598267b3a9ca8897be2ae32dd39a842b60"
+fileSize: 5216691
+files:
+- name: "forsaken_t.utx"
+  fileSize: 23530
+  hash: "67cee8cc8fe24ff2fa6ac42b275418b19491f1c8"
+- name: "DM-Skaaj TechGothic.unr"
+  fileSize: 7056199
+  hash: "876b80e06e7c41102bd56773f0a82da1e3a3a929"
+- name: "Loki.utx"
+  fileSize: 235553
+  hash: "3ad9ab14c2fa12b5d0afc5cc9a57347bba65b265"
+- name: "WOTDetail.utx"
+  fileSize: 443788
+  hash: "497f9003384e989ca0fb08d6650839f072219864"
+- name: "SGTech1.utx"
+  fileSize: 2255794
+  hash: "87d924fc9f7cc267c475478ccd5688f6fe90a8b3"
+- name: "Splendor.utx"
+  fileSize: 1713136
+  hash: "bda1ac5a6f763390c4e1aac6f93913453e6083ef"
+- name: "ForsakenT.utx"
+  fileSize: 89125
+  hash: "92c2141a398fd8a41de6ad32df2db02faf7234dd"
+- name: "EXTRAS.UTX"
+  fileSize: 887346
+  hash: "4cef5cdccfca184eb8e427866cef87c2ae875f7c"
+- name: "FreeClinic.utx"
+  fileSize: 45539
+  hash: "b762557a3aad877b3b9a413405cf08d2ef662df0"
+otherFiles: 0
+dependencies:
+  forsaken_t.utx:
+  - status: "MISSING"
+    name: "WOTDetail"
+  DM-Skaaj TechGothic.unr:
+  - status: "OK"
+    name: "Splendor"
+  - status: "OK"
+    name: "Extras"
+  - status: "OK"
+    name: "ForsakenT"
+  - status: "OK"
+    name: "Loki"
+  - status: "OK"
+    name: "FreeClinic"
+  - status: "OK"
+    name: "forsaken_t"
+  - status: "OK"
+    name: "SGTech1"
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/7/0/082159/DM-Skaarj_TechGothic.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Skaarj TechGothic"
+playerCount: "2-12"
+themes:
+  Tech: 0.2
+  City: 0.6
+  Industrial: 0.1
+bots: true

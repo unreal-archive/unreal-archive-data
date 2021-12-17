@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:11"
+variationOf: "6ec7b9df8ee46ae431a450c10e1b287c2d284b9d"
+game: "Unreal Tournament"
+name: "DM-AYetisEDGE"
+author: "Russell Whitehead aka \"The Yeti\""
+description: "Welcome to THE YETI'S EDGE"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-ayetisedge_shot_2e7f8be4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/2/e/7f8be4/dm-ayetisedge_shot_2e7f8be4_1.png"
+originalFilename: "DM-Ayetisedge.rar"
+hash: "2e7f8be4d0d1866df6fc65c349975f8f10b3f4a0"
+fileSize: 1685285
+files:
+- name: "DM-AYetisEDGE.unr"
+  fileSize: 3113951
+  hash: "5055c5786dd162917004640b3362529a7867bbc5"
+- name: "Yeti.utx"
+  fileSize: 1074164
+  hash: "727c51632cbaf837b5a987b86bb228e9fa31f9c8"
+- name: "YetiBirds.utx"
+  fileSize: 674992
+  hash: "914d1afebf90669c099839a41da2a95cf55e04a6"
+otherFiles: 1
+dependencies:
+  DM-AYetisEDGE.unr:
+  - status: "OK"
+    name: "Yeti"
+  - status: "OK"
+    name: "YetiBirds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/2/e/7f8be4/DM-Ayetisedge.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "A Yeti's Edge"
+playerCount: "2-16"
+themes:
+  Skaarj Crypt: 0.1
+  City: 0.4
+  Natural: 0.1
+  Nali Castle: 0.1
+  Ancient: 0.3
+bots: true

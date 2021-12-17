@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:52"
+variationOf: "11a3a0e1c04f7bc62c4a6e846630ad6b840ccd0e"
+game: "Unreal Tournament"
+name: "DM-Lemuria"
+author: "Alexey 'Vodkins' Morozov"
+description: "Who said \"GE !\" ?"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-lemuria_shot_52060226_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/L/5/2/060226/dm-lemuria_shot_52060226_1.png"
+originalFilename: "dm-lemuria.rar"
+hash: "520602261cefea4ead9b5d01f3df09ed305e06f6"
+fileSize: 2179501
+files:
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "DM-Lemuria.unr"
+  fileSize: 6490619
+  hash: "7b1a234d36e9859c5edb7cd80861229dd296297f"
+otherFiles: 1
+dependencies:
+  DM-Lemuria.unr:
+  - status: "OK"
+    name: "Watcher"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/L/5/2/060226/dm-lemuria.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Lemuria Ephemeral Realm"
+playerCount: "4 - 16"
+themes:
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Nali Castle: 0.5
+  Ancient: 0.3
+bots: true

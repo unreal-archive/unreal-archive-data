@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:13"
+variationOf: "046fa44a1508f1e6bb699ce26fad0d912fd2d1e3"
+game: "Unreal Tournament"
+name: "DM-ChaosUT_DM4"
+author: "MassChAoS; rebuild of Q2 level by Nat"
+description: "None"
+releaseDate: "2000-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-chaosut_dm4_shot_edfd7b12_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/e/d/fd7b12/dm-chaosut_dm4_shot_edfd7b12_1.png"
+originalFilename: "DM-Chaosut_dm4.rar"
+hash: "edfd7b12cf1701c3fede4ad5a0817aaecb255c8d"
+fileSize: 928228
+files:
+- name: "chaosjump.utx"
+  fileSize: 884501
+  hash: "2338056b86bb01b81a4ec9144573daf10ad48e8d"
+- name: "DM-ChaosUT_DM4.unr"
+  fileSize: 1888778
+  hash: "62d59b40d52ab839698c19b8124a07c62def77ed"
+otherFiles: 1
+dependencies:
+  DM-ChaosUT_DM4.unr:
+  - status: "OK"
+    name: "chaosjump"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/e/d/fd7b12/DM-Chaosut_dm4.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "ChaosDM4 - Jump"
+playerCount: "4-16"
+themes:
+  Industrial: 1.0
+bots: true

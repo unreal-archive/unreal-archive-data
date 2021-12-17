@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:48"
+game: "Unreal Tournament"
+name: "DM-UDHanger"
+author: "Andy (Gingerlord) White"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-udhanger_shot_c8695fda_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/U/c/8/695fda/dm-udhanger_shot_c8695fda_1.png"
+originalFilename: "DM-Udhanger.rar"
+hash: "c8695fda6639fa0e65f215f35939455d3f2bd956"
+fileSize: 338920
+files:
+- name: "Doom.utx"
+  fileSize: 425524
+  hash: "570da4292c31b41f8ebca26991ce43f3aa522e34"
+- name: "DM-UDHanger.unr"
+  fileSize: 782120
+  hash: "125b3c751389bb0439ffedb0960cce6f0926fb79"
+otherFiles: 1
+dependencies:
+  DM-UDHanger.unr:
+  - status: "OK"
+    name: "Doom"
+  - status: "MISSING"
+    name: "Isotoxin"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/U/c/8/695fda/DM-Udhanger.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Ultimate DOOM Hanger"
+playerCount: "2 - 6"
+themes:
+  Natural: 0.5
+  Ancient: 0.5
+bots: true

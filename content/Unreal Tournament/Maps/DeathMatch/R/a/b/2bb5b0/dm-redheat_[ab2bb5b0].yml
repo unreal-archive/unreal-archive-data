@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:46"
+variationOf: "641be16bed1db161c10055e1ace0a7c75b658cb3"
+game: "Unreal Tournament"
+name: "DM-RedHeat"
+author: "Daniel Pflugbeil"
+description: "None"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-redheat_shot_ab2bb5b0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/a/b/2bb5b0/dm-redheat_shot_ab2bb5b0_1.png"
+originalFilename: "DM-Redheat.rar"
+hash: "ab2bb5b09e5743cb98931d0c20bfebdb5453a0c9"
+fileSize: 1551942
+files:
+- name: "rheat.utx"
+  fileSize: 1114422
+  hash: "e2ad89edbab27949838de03e8ed9be97317e518f"
+- name: "DM-RedHeat.unr"
+  fileSize: 2388675
+  hash: "0142f07a5acbe39a382560fcd46c396321b8d55f"
+otherFiles: 1
+dependencies:
+  DM-RedHeat.unr:
+  - status: "OK"
+    name: "rheat"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/a/b/2bb5b0/DM-Redheat.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "RedHeat"
+playerCount: "6 - 10"
+themes:
+  Tech: 0.4
+  Skaarj Tech: 0.6
+bots: true

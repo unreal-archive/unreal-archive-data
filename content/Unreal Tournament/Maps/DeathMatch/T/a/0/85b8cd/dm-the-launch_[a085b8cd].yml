@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:57"
+game: "Unreal Tournament"
+name: "DM-The Launch"
+author: "Phil \"Fatcat_uk\" Stowell & GaZ\"Munkyboy\" Morgan"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-the-launch_shot_a085b8cd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/T/a/0/85b8cd/dm-the-launch_shot_a085b8cd_1.png"
+originalFilename: "DM-Thelaunch.rar"
+hash: "a085b8cd9167ea216379d0984696bd6144740903"
+fileSize: 1524034
+files:
+- name: "DM-The Launch.unr"
+  fileSize: 1103877
+  hash: "f63ea423368611820f62df108eb66e836c08ed13"
+- name: "Biggun.utx"
+  fileSize: 200839
+  hash: "fda4175abf4102f5fe70843b6f7515eebfa94914"
+- name: "launch.utx"
+  fileSize: 2732329
+  hash: "3018d8bff793b14c753c63db75d5d18168cdd1ad"
+- name: "Matex.utx"
+  fileSize: 45299
+  hash: "d9979f16df2d8bfd1c149cb54f982e0647da6539"
+- name: "Longestyard.utx"
+  fileSize: 88980
+  hash: "012b2e1fd7d217ebc508852fe4a0eaef312b2359"
+otherFiles: 1
+dependencies:
+  DM-The Launch.unr:
+  - status: "OK"
+    name: "Longestyard"
+  - status: "MISSING"
+    name: "Matex"
+  - status: "OK"
+    name: "launch"
+  - status: "OK"
+    name: "Biggun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/a/0/85b8cd/DM-Thelaunch.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Launch"
+playerCount: "8-12"
+themes:
+  Tech: 0.2
+  City: 0.1
+  Industrial: 0.8
+bots: true

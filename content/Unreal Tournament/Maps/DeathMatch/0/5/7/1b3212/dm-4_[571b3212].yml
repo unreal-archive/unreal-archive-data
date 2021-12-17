@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:08"
+game: "Unreal Tournament"
+name: "dm-4"
+author: "Alek \"Kopruch\" Kozlowski"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-4_shot_571b3212_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/5/7/1b3212/dm-4_shot_571b3212_1.png"
+originalFilename: "DM-4.rar"
+hash: "571b3212692398a05d51fe6e63eff35a53d5305d"
+fileSize: 381601
+files:
+- name: "BadP.utx"
+  fileSize: 106067
+  hash: "4c869117ac90ebadf8164361e1075bb51cbcbcda"
+- name: "dm-4.unr"
+  fileSize: 1234103
+  hash: "6e76ad489e391e649fe92713279ac8ed4ddaada7"
+otherFiles: 1
+dependencies:
+  dm-4.unr:
+  - status: "OK"
+    name: "BadP"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/5/7/1b3212/DM-4.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM4 - The Bad Place"
+playerCount: "2-5"
+themes:
+  Nali Temple: 0.7
+  City: 0.2
+  Industrial: 0.1
+bots: true

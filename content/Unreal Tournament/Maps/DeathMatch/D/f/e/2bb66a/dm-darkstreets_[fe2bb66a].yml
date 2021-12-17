@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:15"
+variationOf: "913265c31ee2e77b410e3e0ee95db14d035b5521"
+game: "Unreal Tournament"
+name: "DM-DarkStreets"
+author: "Grzegorz Borkowski  BOREK"
+description: "Witam na mojej mapce   :-D"
+releaseDate: "2000-02"
+attachments: []
+originalFilename: "DM-DarkStreets.rar"
+hash: "fe2bb66acc0067fad6994c041b6e6fda24c37a68"
+fileSize: 3611808
+files:
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "zeitkind.utx"
+  fileSize: 1895633
+  hash: "46bf1e580f96cf9a47d9d94143e66731245f4d6b"
+- name: "DM-DarkStreets.unr"
+  fileSize: 1348258
+  hash: "8a571c275429c1ee6638eba689fd8d5e096b468b"
+- name: "TSigns.utx"
+  fileSize: 182949
+  hash: "620f8cc8657297365b6623ddb6f0e25de6739de5"
+- name: "Wszystkie.utx"
+  fileSize: 1042654
+  hash: "4d14dd0258bb395d8d559c4da01e6fe2411f9e08"
+otherFiles: 1
+dependencies:
+  DM-DarkStreets.unr:
+  - status: "OK"
+    name: "zeitkind"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "TSigns"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/f/e/2bb66a/DM-DarkStreets.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dark-Streets"
+playerCount: "4-16"
+themes:
+  Tech: 0.1
+  City: 0.9
+bots: false

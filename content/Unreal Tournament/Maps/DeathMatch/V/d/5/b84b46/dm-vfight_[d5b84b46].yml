@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:49"
+game: "Unreal Tournament"
+name: "DM-Vfight"
+author: "UP"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-vfight_shot_d5b84b46_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/V/d/5/b84b46/dm-vfight_shot_d5b84b46_1.png"
+originalFilename: "DM-Vfight.rar"
+hash: "d5b84b4688d0c9ab835d70e94a7ae19bbb2f5b02"
+fileSize: 1227113
+files:
+- name: "orbit.utx"
+  fileSize: 88971
+  hash: "c4fe9250a7c7ed6535ea86a69de0f228337fe43d"
+- name: "DM-Vfight.unr"
+  fileSize: 1258852
+  hash: "ccd6d5673d7001d18363e5ebd7fa25831b2212dd"
+- name: "rob.utx"
+  fileSize: 976031
+  hash: "5d424be26c0191685623fc0ae4843cc2bd10fb04"
+- name: "MyLevel.utx"
+  fileSize: 132861
+  hash: "c6ea00d15720b19d094017a5117240af8a80e988"
+otherFiles: 1
+dependencies:
+  DM-Vfight.unr:
+  - status: "OK"
+    name: "rob"
+  - status: "OK"
+    name: "orbit"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/V/d/5/b84b46/DM-Vfight.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Vfight"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.3
+  Nali Castle: 0.6
+bots: true

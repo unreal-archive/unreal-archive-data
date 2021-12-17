@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:43"
+variationOf: "bb4aee67684cecd6500d1437f5a37e653cbb4d91"
+game: "Unreal Tournament"
+name: "DM-Outpost13"
+author: "Musashi (SoLiD HawK) TAZaki"
+description: "FULLY LOADED!"
+releaseDate: "2000-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-outpost13_shot_425c739c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/O/4/2/5c739c/dm-outpost13_shot_425c739c_1.png"
+originalFilename: "DM-Outpost13.rar"
+hash: "425c739cd1298dd15001a3edbf9aa35e718ac665"
+fileSize: 1599562
+files:
+- name: "op13.uax"
+  fileSize: 156180
+  hash: "c836a58e4ee9bf2183da5a679b4fc1837e26a05b"
+- name: "DM-Outpost13.unr"
+  fileSize: 3295205
+  hash: "40fd1d8d32e1fbfc1f0fc850fb67c7a2d42a6912"
+- name: "Biggun.utx"
+  fileSize: 951102
+  hash: "9c80d0800a92479be52cf7bd97d21047da188c4c"
+otherFiles: 1
+dependencies:
+  DM-Outpost13.unr:
+  - status: "OK"
+    name: "Biggun"
+  - status: "OK"
+    name: "op13"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/4/2/5c739c/DM-Outpost13.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Outpost 13"
+playerCount: "8-18"
+themes:
+  Natural: 0.2
+  Industrial: 0.6
+  Skaarj Tech: 0.2
+bots: true

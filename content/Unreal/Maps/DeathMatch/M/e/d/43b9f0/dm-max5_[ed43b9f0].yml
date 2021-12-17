@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:39"
+variationOf: "def6312ff39b8138eeceee0440bf0c354366a0c7"
+game: "Unreal"
+name: "dm-max5"
+author: "Maury \"ruineR\" de Geofroy"
+description: "Levels and Reviews - www.planetunreal.com/ruiner"
+releaseDate: "1999-08"
+attachments: []
+originalFilename: "DM-Max5.rar"
+hash: "ed43b9f0ca5080cfc6b83031494a4640404f8c18"
+fileSize: 1327210
+files:
+- name: "Prong.uax"
+  fileSize: 175987
+  hash: "5ffaf313e0b9d1f0d24ec3797fa078c304aa3be4"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "QUAKE3b.utx"
+  fileSize: 1399265
+  hash: "6b3d676bc4d13078ba7a024b98476f04dba173aa"
+- name: "dm-max5.unr"
+  fileSize: 1104123
+  hash: "49dd641b4470debea755bfd0db71728bd2e39db5"
+otherFiles: 1
+dependencies:
+  dm-max5.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "Prong"
+  - status: "OK"
+    name: "QUAKE3b"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/M/e/d/43b9f0/DM-Max5.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Max Five"
+playerCount: "2-8"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.8
+bots: true

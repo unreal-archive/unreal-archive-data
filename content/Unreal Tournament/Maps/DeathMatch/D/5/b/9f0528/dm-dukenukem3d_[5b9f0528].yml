@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:52"
+game: "Unreal Tournament"
+name: "DM-DukeNukem3D"
+author: "Alex \"Alucard\" D. G."
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-dukenukem3d_shot_5b9f0528_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/5/b/9f0528/dm-dukenukem3d_shot_5b9f0528_1.png"
+originalFilename: "dm-dukenukem3d.rar"
+hash: "5b9f0528cb20bf0c68d30eca5e618697347173f2"
+fileSize: 2473220
+files:
+- name: "DM-DukeNukem3D.unr"
+  fileSize: 2440461
+  hash: "329c4abd43dc44bb9e22abecac40b90d2eec6d98"
+- name: "Mitextura.utx"
+  fileSize: 1900490
+  hash: "c86d872b4ce73a49e7129cee74681438efa78f61"
+- name: "teckno.utx"
+  fileSize: 650960
+  hash: "317b99b6d8060c6fe98a1de99f8296a054c89fe9"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+otherFiles: 1
+dependencies:
+  DM-DukeNukem3D.unr:
+  - status: "OK"
+    name: "teckno"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "Mitextura"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/5/b/9f0528/dm-dukenukem3d.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "HOLLYWOOD HOLOCAUST"
+playerCount: "2-8"
+themes:
+  Tech: 0.1
+  City: 0.2
+  Industrial: 0.6
+  Skaarj Tech: 0.1
+  Ancient: 0.1
+bots: true

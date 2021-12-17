@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:57"
+variationOf: "2965e489e7b4bd5f563a4aa7fb27c051d32ce532"
+game: "Unreal Tournament"
+name: "DM-The Dark Town"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-08"
+attachments: []
+originalFilename: "DM-TheDarkTown.rar"
+hash: "7e877cb5f05ce6823ba1c6b5340ecf77eb376e7a"
+fileSize: 3555845
+files:
+- name: "cus1.utx"
+  fileSize: 884150
+  hash: "ca177789f3a6814eec2c7b54c52ada7569b7fa23"
+- name: "DM-The Dark Town .unr"
+  fileSize: 2985582
+  hash: "fa883565308346cf08e6102730b6b11e85aa257e"
+- name: "Matex.utx"
+  fileSize: 4288342
+  hash: "0ceb9d7cbfd84fa5ecf5985ec746107a530724a8"
+otherFiles: 1
+dependencies:
+  DM-The Dark Town .unr:
+  - status: "OK"
+    name: "Matex"
+  - status: "OK"
+    name: "cus1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/T/7/e/877cb5/DM-TheDarkTown.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-The Dark Town"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  City: 0.8
+  Natural: 0.1
+bots: false

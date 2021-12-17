@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:38"
+variationOf: "ae80363c0f52cce578169226314760b41665f8d4"
+game: "Unreal Tournament"
+name: "DM-KitchenChaos"
+author: "Chris \"Nemesis\" Gibbs"
+description: "welcome to the kitchen"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-kitchenchaos_shot_a8e338e6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/K/a/8/e338e6/dm-kitchenchaos_shot_a8e338e6_1.png"
+originalFilename: "DM-KitchenChaos.rar"
+hash: "a8e338e6a2dd0f419353516556ad1d457be67140"
+fileSize: 1645637
+files:
+- name: "DM-KitchenChaos.unr"
+  fileSize: 1600921
+  hash: "b3f8d79fc2d3beae0b9f8967125ec6e5b821d0f3"
+- name: "Fastfood.utx"
+  fileSize: 1128416
+  hash: "fe63a940e08674532a28a1a76955db6f7cfea985"
+- name: "Decor1.utx"
+  fileSize: 1091032
+  hash: "a367bc9750f5ad370c65a8e2b1e5eacd35d662db"
+- name: "candyland.utx"
+  fileSize: 95917
+  hash: "f9de018ae08dade2bb99587f48e0ed227a1513d4"
+otherFiles: 1
+dependencies:
+  DM-KitchenChaos.unr:
+  - status: "OK"
+    name: "Fastfood"
+  - status: "OK"
+    name: "Decor1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/K/a/8/e338e6/DM-KitchenChaos.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Kitchen Chaos"
+playerCount: "6-10"
+themes:
+  Tech: 0.2
+  City: 0.1
+  Industrial: 0.7
+bots: true

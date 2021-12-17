@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:11"
+game: "Unreal Tournament"
+name: "DM-BattleRuins"
+author: "Michael 'The Shadow' Saager"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-battleruins_shot_fab25f79_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/f/a/b25f79/dm-battleruins_shot_fab25f79_1.png"
+originalFilename: "DM-Battleruins.rar"
+hash: "fab25f79732e6cda625e22c72eb3deef8c0b5177"
+fileSize: 598412
+files:
+- name: "SPA.UMX"
+  fileSize: 347770
+  hash: "b0cb36ee13c8e8dce18a603224545b7634579123"
+- name: "DM-BattleRuins.unr"
+  fileSize: 1411382
+  hash: "19e0eb28bfb09f5a72d96fc273883f7f57299b7d"
+otherFiles: 1
+dependencies:
+  DM-BattleRuins.unr:
+  - status: "OK"
+    name: "Spa"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/f/a/b25f79/DM-Battleruins.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Battleruins"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.7
+  Natural: 0.1
+  Nali Castle: 0.2
+bots: true

@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:05"
+variationOf: "2e836ef8dbaf04409e36dcf47922843381559002"
+game: "Unreal Tournament"
+name: "DM-GrudgeMatch"
+author: "Justin \"whisper\" Hart"
+description: "None"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-grudgematch_shot_d76b6056_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/G/d/7/6b6056/dm-grudgematch_shot_d76b6056_1.png"
+originalFilename: "DM-Grudgematch.rar"
+hash: "d76b60562eea34185b8a5490223a075f1403a1b3"
+fileSize: 1035398
+files:
+- name: "GrudgeMatch.utx"
+  fileSize: 5568
+  hash: "5f0714c4b274c77b2c83bdca5575dbfc14b19051"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "DM-GrudgeMatch.unr"
+  fileSize: 1861395
+  hash: "7d21d0344831aaa381efc6a4eeff207e36b07d79"
+otherFiles: 1
+dependencies:
+  DM-GrudgeMatch.unr:
+  - status: "OK"
+    name: "GrudgeMatch"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/G/d/7/6b6056/DM-Grudgematch.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Grudge Match"
+playerCount: "2"
+themes:
+  Skaarj Crypt: 0.6
+  Natural: 0.2
+  Ancient: 0.2
+bots: true

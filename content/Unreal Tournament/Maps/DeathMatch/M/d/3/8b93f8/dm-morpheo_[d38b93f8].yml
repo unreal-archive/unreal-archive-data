@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:40"
+game: "Unreal Tournament"
+name: "DM-Morpheo"
+author: "Peeter"
+description: "Nobody ever makes their first jump."
+releaseDate: "2000-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-morpheo_shot_d38b93f8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/d/3/8b93f8/dm-morpheo_shot_d38b93f8_1.png"
+originalFilename: "DM-Morpheo.rar"
+hash: "d38b93f88d6d5df2aaa845bfdfbf0e9d404cb500"
+fileSize: 606734
+files:
+- name: "newmorph.utx"
+  fileSize: 505455
+  hash: "9b537ed595e57e0405ef82a29f4ed648779d64fb"
+- name: "DM-Morpheo.unr"
+  fileSize: 1288378
+  hash: "8e1f87a3aa5c42c15ee4ced9343d56a40d64088f"
+otherFiles: 1
+dependencies:
+  DM-Morpheo.unr:
+  - status: "OK"
+    name: "newmorph"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/d/3/8b93f8/DM-Morpheo.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Morpheo's Crypts"
+playerCount: "2 to 6"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Skaarj Crypt: 0.1
+  City: 0.3
+  Industrial: 0.3
+bots: true

@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:42"
+variationOf: "f5ac3b0c1afe1578ec7605e4a3c0ced764af8cbe"
+game: "Unreal Tournament"
+name: "DM-Oiga"
+author: "David 'DavidM' Münnich"
+description: "None"
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-oiga_shot_1be2261c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/O/1/b/e2261c/dm-oiga_shot_1be2261c_1.png"
+originalFilename: "DM-Oiga.rar"
+hash: "1be2261cf84e931bcb1f2a1fbb43004dd8218411"
+fileSize: 1200545
+files:
+- name: "norrin.uax"
+  fileSize: 230426
+  hash: "f2d9ee516cb278ad64435364d7eda15427570f46"
+- name: "DM-Oiga.unr"
+  fileSize: 2086947
+  hash: "a0bdd05c29cec382c329158c1bd7f14d162f0a04"
+- name: "dmq3-2.utx"
+  fileSize: 808202
+  hash: "d82c6537fc07f74863812daa2840734defae85f7"
+otherFiles: 1
+dependencies:
+  DM-Oiga.unr:
+  - status: "OK"
+    name: "norrin"
+  - status: "OK"
+    name: "dmq3-2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/O/1/b/e2261c/DM-Oiga.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "-Oiga-"
+playerCount: "2"
+themes:
+  Nali Castle: 0.5
+  Ancient: 0.5
+bots: true

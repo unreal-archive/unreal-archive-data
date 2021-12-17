@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:15"
+game: "Unreal Tournament"
+name: "DM-Damned"
+author: "Arjan Vroegop a.k.a. Evil Atje"
+description: "None"
+releaseDate: "2000-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-damned_shot_437dcac2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/4/3/7dcac2/dm-damned_shot_437dcac2_1.png"
+originalFilename: "DM-Damned.rar"
+hash: "437dcac2bd03ba57abe17e2b07c5270bfc1423cf"
+fileSize: 1353972
+files:
+- name: "EvilTex.utx"
+  fileSize: 222697
+  hash: "dbe4c24c7f8c3536cc12d0e13ffb0c0e2efdf42e"
+- name: "DM-Damned.unr"
+  fileSize: 4850329
+  hash: "62209313f891b01449b3abff60dcb19c865e1ec2"
+otherFiles: 1
+dependencies:
+  DM-Damned.unr:
+  - status: "OK"
+    name: "EvilTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/4/3/7dcac2/DM-Damned.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Keep of the Damned"
+playerCount: "12-16"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

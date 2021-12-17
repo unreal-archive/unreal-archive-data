@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:12"
+variationOf: "8533bbb2b54cf0fb87e79e538faaed62a9b03787"
+game: "Unreal Tournament"
+name: "DM-ChaosUT_CT"
+author: "Unknown"
+description: "Welcome to the temple....."
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-chaosut_ct_shot_2cd466c2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/2/c/d466c2/dm-chaosut_ct_shot_2cd466c2_1.png"
+originalFilename: "DM-ChaosUT_CT.rar"
+hash: "2cd466c27d3e6e991b402449971c481d4a218b64"
+fileSize: 908525
+files:
+- name: "C_Temple.utx"
+  fileSize: 577297
+  hash: "34c4fff8797ef2966aa23d6fc18613b0449ea130"
+- name: "DM-ChaosUT_CT.unr"
+  fileSize: 1650817
+  hash: "9d4a76a2e3ffb8c51a211c63e07bc9e4bea00054"
+otherFiles: 1
+dependencies:
+  DM-ChaosUT_CT.unr:
+  - status: "OK"
+    name: "C_Temple"
+  - status: "MISSING"
+    name: "JezzTex"
+  - status: "MISSING"
+    name: "UTChaosMap"
+  - status: "MISSING"
+    name: "ChaosUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/2/c/d466c2/DM-ChaosUT_CT.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ChaosUT_CT"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Tech: 0.1
+  City: 0.3
+  Ancient: 0.2
+bots: true

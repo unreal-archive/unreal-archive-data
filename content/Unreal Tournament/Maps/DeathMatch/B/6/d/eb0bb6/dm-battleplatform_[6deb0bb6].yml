@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:11"
+variationOf: "3cb3ef4f96ce06dfba36d71853f12f137d82120f"
+game: "Unreal Tournament"
+name: "DM-BattlePlatform"
+author: "Joe 'Particle Man' McGoldrick II"
+description: "Welcome to the Mesa"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-battleplatform_shot_6deb0bb6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/6/d/eb0bb6/dm-battleplatform_shot_6deb0bb6_1.png"
+originalFilename: "DM-Battleplatform.rar"
+hash: "6deb0bb654a59c831398fc72193d89a42578b281"
+fileSize: 329456
+files:
+- name: "DM-BattlePlatform.unr"
+  fileSize: 1017487
+  hash: "29b3a8c8f43e52c9d342487bc2b24b0ab93f7e97"
+- name: "dean-pk1.utx"
+  fileSize: 88979
+  hash: "b15b0fb322be57405a9d7e1b0dd7ceb4414b3fcf"
+- name: "TRON.utx"
+  fileSize: 374649
+  hash: "e083e42e6ef3654ad6c1d6667f70d87a587463c0"
+otherFiles: 1
+dependencies:
+  DM-BattlePlatform.unr:
+  - status: "OK"
+    name: "dean-pk1"
+  - status: "OK"
+    name: "TRON"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/6/d/eb0bb6/DM-Battleplatform.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Battle Platform"
+playerCount: "6-8"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.9
+bots: true

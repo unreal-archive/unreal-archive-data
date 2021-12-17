@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:39"
+variationOf: "6e694560d28677141585789ce6722f92f024035b"
+game: "Unreal Tournament"
+name: "DM-MatrixHall"
+author: "Loki ( Bilczynski )"
+description: "Welcam to the desert od the realms"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-matrixhall_shot_4cb1fa9f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/4/c/b1fa9f/dm-matrixhall_shot_4cb1fa9f_2.png"
+- type: "IMAGE"
+  name: "dm-matrixhall_shot_4cb1fa9f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/4/c/b1fa9f/dm-matrixhall_shot_4cb1fa9f_1.png"
+originalFilename: "DM-MatrixHall.rar"
+hash: "4cb1fa9fb483b7ab95531d8d2b621485f6a21942"
+fileSize: 2841563
+files:
+- name: "Extras.utx"
+  fileSize: 887346
+  hash: "4cef5cdccfca184eb8e427866cef87c2ae875f7c"
+- name: "MatrixHall.umod"
+  fileSize: 5534221
+  hash: "64ade8a342b501a32b244424acadcac82bc60d22"
+- name: "MatrixWorld.umx"
+  fileSize: 2283178
+  hash: "5e5788e54dc1e8cb26664e262b2ef795fdab838f"
+- name: "DM-MatrixHall.unr"
+  fileSize: 1812717
+  hash: "e1ff51131179404f22fd0f6018849654c1c1a560"
+- name: "Matrix.utx"
+  fileSize: 520481
+  hash: "d2011aa2b5ca75c0243589b258c4165356487bbd"
+otherFiles: 2
+dependencies:
+  DM-MatrixHall.unr:
+  - status: "OK"
+    name: "MatrixWorld"
+  - status: "OK"
+    name: "Extras"
+  - status: "OK"
+    name: "Matrix"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/4/c/b1fa9f/DM-MatrixHall.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Matrix Hall"
+playerCount: "2-6"
+themes:
+  City: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+  Ancient: 0.1
+bots: true

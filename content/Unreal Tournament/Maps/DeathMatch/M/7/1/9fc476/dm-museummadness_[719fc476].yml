@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 08:41"
+variationOf: "24a7f13537d6c4bae1026b7c73d9212e94c88c00"
+game: "Unreal Tournament"
+name: "DM-MuseumMadness"
+author: "Aahz"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-museummadness_shot_719fc476_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/7/1/9fc476/dm-museummadness_shot_719fc476_1.png"
+originalFilename: "DM-Museummadness.rar"
+hash: "719fc476da2c045c846f62666a62ecc0e336e5c6"
+fileSize: 5141427
+files:
+- name: "Art.utx"
+  fileSize: 1948517
+  hash: "f41355dbdde3036cfe428e3f3dd1a566a6f4c58b"
+- name: "FineArt.utx"
+  fileSize: 4299114
+  hash: "8d28254d57908002fd8bf4510d01b43beda0a3bf"
+- name: "DM-MuseumMadness.unr"
+  fileSize: 5563192
+  hash: "cef36b4b8a15061b54955786ecdb04d1fab41a6a"
+otherFiles: 1
+dependencies:
+  DM-MuseumMadness.unr:
+  - status: "OK"
+    name: "Art"
+  - status: "OK"
+    name: "FineArt"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/7/1/9fc476/DM-Museummadness.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Museum Madness"
+playerCount: "3-7"
+themes:
+  Nali Temple: 0.2
+  City: 0.3
+  Natural: 0.2
+  Industrial: 0.1
+  Ancient: 0.1
+bots: true

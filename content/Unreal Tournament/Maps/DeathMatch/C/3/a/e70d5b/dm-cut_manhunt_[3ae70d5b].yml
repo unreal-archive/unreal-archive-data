@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-17 09:12"
+variationOf: "6f4e2239c1837cf719017988cb689377a67c217f"
+game: "Unreal Tournament"
+name: "DM-CUT_Manhunt"
+author: "Deon 'Apart' Botha"
+description: "Does this work? lol..."
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-cut_manhunt_shot_3ae70d5b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/3/a/e70d5b/dm-cut_manhunt_shot_3ae70d5b_1.png"
+originalFilename: "DM-CUT_Manhunt.rar"
+hash: "3ae70d5b8ad2d9bc24960fcb509f7b609c51fcda"
+fileSize: 695812
+files:
+- name: "ice_crystal.u"
+  fileSize: 91386
+  hash: "37b775897699717bf83e28af7a7e3393e4e8fcfe"
+- name: "DM-CUT_Manhunt.unr"
+  fileSize: 1801110
+  hash: "56e2dd2e8a63782943579072121fd2cf0f7156d0"
+otherFiles: 1
+dependencies:
+  DM-CUT_Manhunt.unr:
+  - status: "MISSING"
+    name: "UTChaosMap"
+  - status: "OK"
+    name: "ice_crystal"
+  - status: "MISSING"
+    name: "ChaosUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/3/a/e70d5b/DM-CUT_Manhunt.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "ManHunt"
+playerCount: "2 - 4"
+themes:
+  City: 0.1
+  Natural: 0.3
+  Industrial: 0.6
+bots: true
