@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-03-26 20:28"
+game: "Unreal Tournament"
+name: "CTF-arctic_ArenaBeta"
+author: "KingRichet"
+description: "Absolute Chill"
+releaseDate: "2015-10"
+attachments: []
+originalFilename: "CTF-arctic_ArenaBeta.rar"
+hash: "7c325d2b0bcd0ac3d60027e0c9f99e8408bfbda3"
+fileSize: 10932459
+files:
+- name: "absolutechill.umx"
+  fileSize: 3799720
+  hash: "7f90847a6d0d80976904db9e9196d57132cafbd4"
+- name: "HourIceSkaarj.utx"
+  fileSize: 3469929
+  hash: "28f6e126c65134b4e0d42722bf252ebba0d547d5"
+- name: "CTF-arctic_ArenaBeta.unr"
+  fileSize: 14749989
+  hash: "df74312e05e15054e4463ae53d852c03c55de71f"
+otherFiles: 0
+dependencies:
+  CTF-arctic_ArenaBeta.unr:
+  - status: "OK"
+    name: "HourIceSkaarj"
+  - status: "OK"
+    name: "absolutechill"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/7/c/325d2b/CTF-arctic_ArenaBeta.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "Arctic Arena"
+playerCount: "4-6"
+themes:
+  Tech: 1.0
+bots: true
