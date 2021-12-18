@@ -1,0 +1,81 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 12:56"
+game: "Unreal Tournament 2004"
+name: "Doom 3 Weapons"
+author: "Iniquitous"
+description: "Replaces UT2004 weapons with Doom 3 weapons."
+releaseDate: "2015-10"
+attachments: []
+originalFilename: "Doom3WeaponPackv1.zip"
+hash: "2e98f2c9b0eaa9c5e7567bc18f36c757cbdfd241"
+fileSize: 10977761
+files:
+- name: "Doom3_weapon_sounds_v1.uax"
+  fileSize: 6762783
+  hash: "52eeb8d2d8383a09c60760326117de11897d9ba1"
+- name: "Doom3_weapon_texv1.utx"
+  fileSize: 5562032
+  hash: "dd9b4bdcbe9e06cf6f906d2dba66f834220b5f1e"
+- name: "Doom3WeaponPackv1.u"
+  fileSize: 291745
+  hash: "443300f62cdd2a7cd255c83f714f3d487107da56"
+- name: "Doom3_weapon_animsv1.ukx"
+  fileSize: 3621898
+  hash: "f15706b6bcb52453a3f8dce67d3725b6e4682760"
+- name: "Doom3_weapon_staticmeshes_v1.usx"
+  fileSize: 879927
+  hash: "c17a402b228ce22acb732a527254a7217d4c2092"
+otherFiles: 3
+dependencies:
+  Doom3WeaponPackv1.u:
+  - status: "OK"
+    name: "Doom3_weapon_texv1"
+  - status: "OK"
+    name: "Doom3_weapon_staticmeshes_v1"
+  - status: "OK"
+    name: "Doom3_weapon_sounds_v1"
+  - status: "OK"
+    name: "Doom3_weapon_animsv1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/D/2/e/98f2c9/Doom3WeaponPackv1.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Doom 3 Weapons"
+  description: "Replaces UT2004 weapons with Doom 3 weapons."
+weapons:
+- name: "BFG"
+  description: "This prototype fires a threaded variable energy charge. UAC technicians\
+    \ have warned of stability issues at full power."
+- name: "Chaingun"
+  description: "The Chain Gun's 0.30 caliber armor piercing round delivers substantial\
+    \ damage, but heavy recoil reduces accuracy."
+- name: "Chainsaw"
+  description: "Self powered chain-blade cutting tool. Part of a shipment incorrectly\
+    \ routed to the Mars dropship distribution center."
+- name: "Machinegun"
+  description: "The MG-88 Enforcer delivers a high rate of fire and dependable accuracy\
+    \ when fired in short bursts. Standard Marine Infantry issue."
+- name: "Pistol"
+  description: "All UAC Security and Military personnel are supplied with this basic\
+    \ projectile side arm."
+- name: "Plasma Gun"
+  description: "Energy based weapon developed in the Mars weapon facility. Unit is\
+    \ powered by plasma canisters manufactured in the EnPro facility."
+- name: "Rocket Launcher"
+  description: "A portable self-propelled rocket designed for demolition and debris\
+    \ removal, this model has been modified for use as a military weapon."
+- name: "Shotgun"
+  description: "The shotgun deals considerable damage at close range, however the\
+    \ wide spread limits long range effectiveness."
+- name: "Super Shotgun"
+  description: "The Vulcan 1270 Double Barrel Shotgun fires two 12-guage rounds simultaneously\
+    \ and can take down even the largest of game."
+- name: "D3Weapon"
+  description: "D3Weapon"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
