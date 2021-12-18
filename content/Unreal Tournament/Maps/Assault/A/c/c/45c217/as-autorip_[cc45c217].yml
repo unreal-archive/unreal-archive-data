@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-14 11:12"
+variationOf: "de7a13d19432694a311f1183356bda58fe84d563"
+game: "Unreal Tournament"
+name: "AS-AutoRIP"
+author: "Unknown"
+description: "Destroy the Cannon!"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "as-autorip_shot_cc45c217_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/A/c/c/45c217/as-autorip_shot_cc45c217_1.png"
+originalFilename: "as-autorip.zip"
+hash: "cc45c21708846a93049c2e64e35c14de8724e5b6"
+fileSize: 3129198
+files:
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+- name: "Autorip.uax"
+  fileSize: 7177
+  hash: "74dc60c8ec3316fb312af4b4517c67aa13559449"
+- name: "AS-AutoRIP.unr"
+  fileSize: 5048124
+  hash: "08103ee1f4468b5a45e996a12ae878fcde76fe0d"
+- name: "Autorip.u"
+  fileSize: 20122
+  hash: "47535c0b65492df6252bf04a45fe3dedf80e1925"
+- name: "Autorip3.utx"
+  fileSize: 367164
+  hash: "0e7df822f7de6375e6c6ca753e2ccd2262b24735"
+- name: "AssaultBonusPack.u"
+  fileSize: 131000
+  hash: "94d8c8a9b3f5f61af0f62c97893d63f3f99abe99"
+- name: "Autorip2.utx"
+  fileSize: 892443
+  hash: "e3f7be9d0e935814866bfbe33dd860f7ef236425"
+- name: "ripcord4.umx"
+  fileSize: 917409
+  hash: "bc987f1acdd39a70d8ff1fb449c50c21ab46a557"
+otherFiles: 1
+dependencies:
+  AS-AutoRIP.unr:
+  - status: "OK"
+    name: "AssaultBonusPack"
+  - status: "OK"
+    name: "Autorip"
+  - status: "OK"
+    name: "Autorip3"
+  - status: "OK"
+    name: "Autorip2"
+  - status: "OK"
+    name: "ripcord4"
+  - status: "OK"
+    name: "cbrad_indus"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/A/c/c/45c217/as-autorip.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Autocannon R.I.P"
+playerCount: "Unknown"
+themes:
+  Tech: 0.4
+  City: 0.1
+  Natural: 0.1
+  Industrial: 0.4
+bots: true
