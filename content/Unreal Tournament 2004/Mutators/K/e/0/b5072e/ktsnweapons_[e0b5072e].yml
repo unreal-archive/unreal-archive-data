@@ -1,0 +1,68 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 21:46"
+variationOf: "eee4fcb9a65fe91984fcdeb867bca66748bb9d95"
+game: "Unreal Tournament 2004"
+name: "KTSNweapons"
+author: "Unknown"
+description: "Replaces AR and Bio to G2984 and M940."
+releaseDate: "2022-04"
+attachments: []
+originalFilename: "ut2004ktsnweaponsmutatorbeta002.zip"
+hash: "e0b5072e4875b78ab0ae52642a48573efe0bd358"
+fileSize: 1648204
+files:
+- name: "KTSNUT2weapons.u"
+  fileSize: 36430
+  hash: "48defe158225e00ce0a792a7d506911ed9fb6097"
+- name: "KTSNUT2pistolATex.utx"
+  fileSize: 5680557
+  hash: "d7a1fcf52c335dc7a2d5024047dd61494acc693b"
+- name: "KTSNUT2smgSFX.uax"
+  fileSize: 452145
+  hash: "6accac729e1d1d8c278faf38a5f88e87ecfac982"
+- name: "KTSNUT2PistolASFX.uax"
+  fileSize: 226159
+  hash: "026351b529be149005e80ebb8df64f7a1f998c87"
+- name: "KTSNUT2guns.uax"
+  fileSize: 632892
+  hash: "97584c021cb2decf48e373a4e658025e6f5804d6"
+- name: "KTSNUT2smg.ukx"
+  fileSize: 371013
+  hash: "effe411e9b31211f6684b1e11bfcc5c2bc9e26cf"
+- name: "KTSNUT2pistolA.ukx"
+  fileSize: 278626
+  hash: "6c9484375d10c915ea9f85841b43042c53a7d51d"
+- name: "KTSNUT2smgTex.utx"
+  fileSize: 87882
+  hash: "4db6759c73b3324b7febf64b351590e80953a8bc"
+otherFiles: 2
+dependencies:
+  KTSNUT2weapons.u:
+  - status: "OK"
+    name: "KTSNUT2smgSFX"
+  - status: "OK"
+    name: "KTSNUT2pistolA"
+  - status: "OK"
+    name: "KTSNUT2smg"
+  - status: "OK"
+    name: "KTSNUT2guns"
+  - status: "OK"
+    name: "KTSNUT2pistolASFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/K/e/0/b5072e/ut2004ktsnweaponsmutatorbeta002.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "KTSNweapons"
+  description: "Replaces AR and Bio to G2984 and M940."
+weapons:
+- name: "KTSNG2984"
+  description: "G2984 pistol."
+- name: "KTSNM940"
+  description: "M940 sub-machine gun."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
