@@ -1,0 +1,100 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 12:57"
+game: "Unreal Tournament 2004"
+name: "Quake4WeaponPackv2"
+author: "Iniquitous"
+description: "None"
+releaseDate: "2015-10"
+attachments: []
+originalFilename: "Quake4WeaponPackv2.zip"
+hash: "8cd1eb4d23a36d59cb1c96de1709d950b2d9fea1"
+fileSize: 18657425
+files:
+- name: "Quake4WeaponPackv2.u"
+  fileSize: 303779
+  hash: "b83b3076ff94ab0428108388c01eb6e1e3d2cf67"
+- name: "q4_textures_v2.utx"
+  fileSize: 12510448
+  hash: "fd9507151e3739bb9ca8cfdeded7e674ee664e3d"
+- name: "q4_staticmeshes_v2.usx"
+  fileSize: 1027963
+  hash: "d11555ae2204982492e3315ba7e380aeff4bd22b"
+- name: "q4_sounds_v1.uax"
+  fileSize: 11107033
+  hash: "d58adb887f3a4f904c26eaf97efdd45c6a869dd4"
+- name: "q4_weapon_anims_v2.ukx"
+  fileSize: 3594883
+  hash: "1951c5ceba80e0a371de807b7b82500de57da5d1"
+otherFiles: 3
+dependencies:
+  Quake4WeaponPackv2.u:
+  - status: "OK"
+    name: "q4_weapon_anims_v2"
+  - status: "OK"
+    name: "q4_staticmeshes_v2"
+  - status: "OK"
+    name: "q4_textures_v2"
+  - status: "OK"
+    name: "q4_sounds_v1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/Q/8/c/d1eb4d/Quake4WeaponPackv2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators: []
+weapons:
+- name: "Dark Matter Gun"
+  description: "The Dark Matter Gun is a very powerful Weapon that fires balls of\
+    \ Dark Matter that can kill most enemies in one hit and most stronger enemies\
+    \ in 2 hits. It can also deal large amounts of damage against bosses. When fired,\
+    \ the dark matter ball slowly travels through the air, much like the BFG10k blast,\
+    \ until it hits a wall. Most enemies will be sucked into the small blackhole and\
+    \ killed off whilst larger enemies will take a second shot to kill. On contact\
+    \ with a wall, the Dark Matter will explode dealing damage to nearby enemy caught\
+    \ in the blast radius."
+- name: "Gauntlet"
+  description: "The Gauntlet is a circular-saw-like melee weapon. The Gauntlet is\
+    \ the weapon to humiliate somebody with!"
+- name: "Grenade Launcher"
+  description: "The Grenade Launcher fires grenades as its name implies. These grenades\
+    \ will bounce for about three seconds before exploding. Grenades will automatically\
+    \ explode upon contact with an enemy or exploding barrel."
+- name: "Hyperblaster"
+  description: "The Hyperblaster is a tubular, fully-automatic energy rifle that fires\
+    \ powerful, fast-moving plasma balls. It does decent damage and has a very high\
+    \ rate of fire, making it effective against most foes in game."
+- name: "Lightning Gun"
+  description: "The Lightning Gun or just simply LG is an experimental Strogg Weapon\
+    \ that fires a single, continuous beam of lightning at a target. The Lightning\
+    \ Gun doesn't need to be reloaded, making it easy to use. However, it does burn\
+    \ ammunition at an insane rate."
+- name: "Machinegun"
+  description: "The Machine Gun is a compact, select-fire automatic assault rifle\
+    \ operated by the Space Marine Corps as their primary service rifle. Small, accurate\
+    \ and all-purpose, the rifle is the most common Human Weapons on Stroggos and\
+    \ commonly used by Tactical Stroggs."
+- name: "Nailgun"
+  description: "The Nailgun is a powerful, compact, full-auto Strogg rotary cannon\
+    \ that shoots Nails; which are un-aerodynamic Flechettes which shatter on impact,\
+    \ inflicting splash damage."
+- name: "Napalm Launcher"
+  description: "The Napalm Launcher is a weapon that fires balls that light on fire\
+    \ when they hit something, whether it be a player or the wall. The Napalm Launcher\
+    \ is a great area-denial weapon."
+- name: "Railgun"
+  description: "The Railgun fires a depleted uranium Slug that can kill weak enemies\
+    \ in one shot, and inflict major damage on medium enemies. Unfortunately, it also\
+    \ has a delay of about 1.6 seconds between each shot for the weapon to cool down\
+    \ from firing."
+- name: "Rocket Launcher"
+  description: "The Rocket Launcher is very versatile weapon, capable of destroying\
+    \ groups of weak enemies with few shots, and taking out strong enemies."
+- name: "Shotgun"
+  description: "The Shotgun is a pump-action shotgun that fires a volley of pellets.\
+    \ The Shotgun must be pumped after each shot and each round must be loaded individually.\
+    \ The Shotgun is ineffective past close range."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
