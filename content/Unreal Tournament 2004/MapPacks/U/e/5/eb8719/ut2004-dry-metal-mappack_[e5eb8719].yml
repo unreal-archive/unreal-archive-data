@@ -1,0 +1,118 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-02-24 11:53"
+game: "Unreal Tournament 2004"
+name: "UT2004 Dry Metal Mappack"
+author: "Feuersturm"
+description: "None"
+releaseDate: "2012-12"
+attachments:
+- type: "IMAGE"
+  name: "ut2004-dry-metal-mappack_shot_e5eb8719_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/e/5/eb8719/ut2004-dry-metal-mappack_shot_e5eb8719_5.png"
+- type: "IMAGE"
+  name: "ut2004-dry-metal-mappack_shot_e5eb8719_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/e/5/eb8719/ut2004-dry-metal-mappack_shot_e5eb8719_2.png"
+- type: "IMAGE"
+  name: "ut2004-dry-metal-mappack_shot_e5eb8719_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/e/5/eb8719/ut2004-dry-metal-mappack_shot_e5eb8719_4.png"
+- type: "IMAGE"
+  name: "ut2004-dry-metal-mappack_shot_e5eb8719_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/e/5/eb8719/ut2004-dry-metal-mappack_shot_e5eb8719_1.png"
+- type: "IMAGE"
+  name: "ut2004-dry-metal-mappack_shot_e5eb8719_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/e/5/eb8719/ut2004-dry-metal-mappack_shot_e5eb8719_3.png"
+originalFilename: "UT2004-Dry-Metal-Mappack.zip"
+hash: "e5eb8719bd0ef354c5df538b4a23fde611cd8dc6"
+fileSize: 66198126
+files:
+- name: "VCTFBattlegroundSM.usx"
+  fileSize: 11330520
+  hash: "0d68d93220c84a0cb2017df99c2d839a65ff590d"
+- name: "ONS-{Fs}-Dry-Metal.ut2"
+  fileSize: 23539566
+  hash: "b1b1c674bf4b1b5fd4f5cd8379b80b450959866d"
+- name: "DM-{Fs}-Dry-Metal.ut2"
+  fileSize: 17091118
+  hash: "4ccdb6e6564ef80de7e6d28efd5a0abab57c619c"
+- name: "BR-{Fs}-Dry-Metal.ut2"
+  fileSize: 17740685
+  hash: "4468acd55d39c0c43e7e87170b8e7b36e7908aec"
+- name: "VCTF-{Fs}-Dry-Metal.ut2"
+  fileSize: 26117031
+  hash: "2ceb8584b9a3bd279359f344960ecf4e31a07b7b"
+- name: "CTFDownFallSM.usx"
+  fileSize: 2825762
+  hash: "94d1e495d15f160b9a4432b06c1953ceb6656731"
+- name: "CTF-{Fs}-Dry-Metal.ut2"
+  fileSize: 38287397
+  hash: "a6dd1989673c5f6887829a85bfba5b8f7fe0beca"
+- name: "CTFDownFallTexes.utx"
+  fileSize: 7457727
+  hash: "0f1a43ae1e203e3e2bb42d8ab5932dad4eaee2d7"
+- name: "ONSSiegeTexes.utx"
+  fileSize: 6473327
+  hash: "0fe643eb93aa36ca57863622275755aff12d389c"
+- name: "VCTFBattlegroundTexes.utx"
+  fileSize: 10449422
+  hash: "6ef806a167c0bff0e1a3f1255e256ed4ff37ef37"
+otherFiles: 21
+dependencies:
+  CTFDownFallSM.usx:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  CTF-{Fs}-Dry-Metal.ut2:
+  - status: "OK"
+    name: "ONSSiegeTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+  VCTF-{Fs}-Dry-Metal.ut2:
+  - status: "OK"
+    name: "ONSSiegeTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+  ONS-{Fs}-Dry-Metal.ut2:
+  - status: "OK"
+    name: "ONSSiegeTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+  VCTFBattlegroundSM.usx:
+  - status: "OK"
+    name: "VCTFBattlegroundTexes"
+  DM-{Fs}-Dry-Metal.ut2:
+  - status: "OK"
+    name: "ONSSiegeTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+  BR-{Fs}-Dry-Metal.ut2:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  - status: "OK"
+    name: "ONSSiegeTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/U/e/5/eb8719/UT2004-Dry-Metal-Mappack.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-{Fs}-Dry-Metal"
+  title: "Dry Metal"
+  author: "Feuersturm"
+- name: "BR-{Fs}-Dry-Metal"
+  title: "Dry Metal"
+  author: "Feuersturm"
+- name: "CTF-{Fs}-Dry-Metal"
+  title: "Dry Metal"
+  author: "Feuersturm"
+- name: "VCTF-{Fs}-Dry-Metal"
+  title: "Dry Metal"
+  author: "Feuersturm"
+- name: "ONS-{Fs}-Dry-Metal"
+  title: "Dry Metal"
+  author: "Feuersturm"
+gametype: "Mixed"
+themes:
+  Industrial: 1.0
