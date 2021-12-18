@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-03 09:06"
+game: "Unreal Tournament"
+name: "DM-Crone"
+author: "Kuba'Deadkatz'Cieslik"
+description: "..."
+releaseDate: "2006-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-crone_shot_10f84e6c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/1/0/f84e6c/dm-crone_shot_10f84e6c_1.png"
+originalFilename: "DM-Crone.rar"
+hash: "10f84e6c59cda90646e544214ab22ada81f311c3"
+fileSize: 1614931
+files:
+- name: "cronelight.u"
+  fileSize: 16663
+  hash: "f02d223d9f95e663a2e39e9d7edd81d10ea94fe2"
+- name: "DM-Crone.unr"
+  fileSize: 3918568
+  hash: "da13aafcb2348021a88c008309241c1102037465"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+otherFiles: 1
+dependencies:
+  DM-Crone.unr:
+  - status: "OK"
+    name: "cronelight"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/1/0/f84e6c/DM-Crone.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Crone Station"
+playerCount: "8 - 10"
+themes:
+  Tech: 0.1
+  Industrial: 0.6
+  Ancient: 0.3
+bots: true
