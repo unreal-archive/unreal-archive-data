@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 13:08"
+game: "Unreal Tournament 2004"
+name: "Mesh Preload v5"
+author: "INIQUITOUS"
+description: "Preloads monsters, designed for invasion."
+releaseDate: "2009-04"
+attachments:
+- type: "IMAGE"
+  name: "mesh-preload-v5_shot_b5136c2e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/M/b/5/136c2e/mesh-preload-v5_shot_b5136c2e_1.png"
+- type: "IMAGE"
+  name: "mesh-preload-v5_shot_b5136c2e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/M/b/5/136c2e/mesh-preload-v5_shot_b5136c2e_2.png"
+originalFilename: "MeshPreloadv5.zip"
+hash: "b5136c2ed9e2a1f5b5ac959d4ebf5d6728eb6934"
+fileSize: 1560167
+files:
+- name: "ServerCharacters01Ini.u"
+  fileSize: 969
+  hash: "7702e9aaeff9340827bf492602588861f0c6c7d6"
+- name: "MeshPreloadv5.u"
+  fileSize: 1514537
+  hash: "16152bcf3b5ffedf00e6b436baefc28be419f2ec"
+- name: "ServerCharactersMeshPreload.utx"
+  fileSize: 5348807
+  hash: "08df3c29cbb37ecf5b828f25e0c81959b327f61a"
+otherFiles: 5
+dependencies:
+  ServerCharacters01Ini.u:
+  - status: "OK"
+    name: "ServerCharactersMeshPreload"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/b/5/136c2e/MeshPreloadv5.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Mesh Preload v5"
+  description: "Preloads monsters, designed for invasion."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
