@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-14 13:27"
+variationOf: "6651ef925123a33d51dc9b0a66473150d3cde303"
+game: "Unreal Tournament"
+name: "AS-HWF_CE_finalbeta"
+author: "Fer / Grz Censored by Pyke"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "as-hwf_ce_finalbeta_shot_fca8d415_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/H/f/c/a8d415/as-hwf_ce_finalbeta_shot_fca8d415_1.png"
+originalFilename: "as-hwf_ce_finalbeta.zip"
+hash: "fca8d4153c1f3801a03da83fce17c5125c5b0855"
+fileSize: 6692773
+files:
+- name: "jtex.utx"
+  fileSize: 356315
+  hash: "af96b2da862f075a7592f5a402567a05174b8bdd"
+- name: "labby.utx"
+  fileSize: 2667348
+  hash: "edb577bf15db5e0bb389d87e7bf616cdb2de2892"
+- name: "byter.utx"
+  fileSize: 1002345
+  hash: "fb304c4e0d0fb902f2e1bd2f042360ca3def8a87"
+- name: "Store.utx"
+  fileSize: 2372986
+  hash: "4930e07cfc28c1b5f23e04cf7e6c91fe0346d5ad"
+- name: "HWF.umx"
+  fileSize: 2482243
+  hash: "2694873fb4ea981b480fdac8bb10680b446018a1"
+- name: "AS-HWF_CE_finalbeta.unr"
+  fileSize: 6651179
+  hash: "95f0e5503f9a7ea573ab3ac0db020f756a5afeef"
+otherFiles: 0
+dependencies:
+  AS-HWF_CE_finalbeta.unr:
+  - status: "OK"
+    name: "Store"
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "HWF"
+  - status: "MISSING"
+    name: "cbrad_indus"
+  - status: "OK"
+    name: "byter"
+  - status: "OK"
+    name: "labby"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/H/f/c/a8d415/as-hwf_ce_finalbeta.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Heavy Water Factory CE_beta2"
+playerCount: "8 - 12"
+themes:
+  Industrial: 0.7
+  City: 0.2
+bots: true
