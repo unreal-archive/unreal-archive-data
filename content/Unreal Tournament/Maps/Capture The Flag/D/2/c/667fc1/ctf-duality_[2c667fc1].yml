@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-01-18 20:16"
+game: "Unreal Tournament"
+name: "CTF-Duality"
+author: "bongoliath"
+description: "None"
+releaseDate: "2022-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-duality_shot_2c667fc1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/2/c/667fc1/ctf-duality_shot_2c667fc1_1.png"
+originalFilename: "CTF-Duality.rar"
+hash: "2c667fc1fc33c5341fd1a414a5d07031583a97c3"
+fileSize: 7609675
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "CTF-Duality.unr"
+  fileSize: 1137158
+  hash: "387cc5ec45c297890035292a5e1ec76a90897a7c"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "mstrkrft-bounce.umx"
+  fileSize: 2789999
+  hash: "e01e2ecf8dcbfc4ff967f59021af7b1ddf9ab762"
+otherFiles: 1
+dependencies:
+  CTF-Duality.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "Wood"
+  - status: "MISSING"
+    name: "Xnome"
+  - status: "OK"
+    name: "mstrkrft-bounce"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/2/c/667fc1/CTF-Duality.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Duality"
+playerCount: "4-8"
+themes:
+  Tech: 0.4
+  Industrial: 0.5
+bots: true
