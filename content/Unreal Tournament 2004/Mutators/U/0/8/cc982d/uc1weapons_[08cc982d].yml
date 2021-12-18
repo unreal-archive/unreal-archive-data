@@ -1,0 +1,139 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 14:29"
+game: "Unreal Tournament 2004"
+name: "UC1Weapons"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-12"
+attachments: []
+originalFilename: "UC1Weapons.zip"
+hash: "08cc982dd34dc15dbca5074606f52b54fc8c7522"
+fileSize: 7351680
+files:
+- name: "UC1Weapons.u"
+  fileSize: 91101
+  hash: "c06a7920d7472c6ab9d2565179cd5a96a827adaa"
+- name: "UnrealChampionshipWeps.ukx"
+  fileSize: 2894422
+  hash: "3d7acd90a6959b4f2369530f0d946709caaa21d0"
+- name: "UC1WeaponSkins.utx"
+  fileSize: 15439006
+  hash: "7400b5320b331f972349f225fd72da0e7740542c"
+- name: "UT2003Weapons.uax"
+  fileSize: 1568621
+  hash: "e1786f643163411ceaa599bc2654359fe05fd31c"
+- name: "UCWeaponStatics.usx"
+  fileSize: 999626
+  hash: "d46c5afaf4b60fa4b60b81505b318bd3e24d6765"
+otherFiles: 1
+dependencies:
+  UC1Weapons.u:
+  - status: "OK"
+    name: "UCWeaponStatics"
+  - status: "OK"
+    name: "UC1WeaponSkins"
+  - status: "OK"
+    name: "UT2003Weapons"
+  - status: "OK"
+    name: "UnrealChampionshipWeps"
+  UCWeaponStatics.usx:
+  - status: "OK"
+    name: "UC1WeaponSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/0/8/cc982d/UC1Weapons.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Floaty Cadavers"
+  description: "Your kills weigh lightly on your conscience."
+- name: "Unreal Championship InstaGib"
+  description: "Instant-kill combat with modified Shock Rifles from Unreal Championship."
+- name: "Unreal Championship Weapons"
+  description: "Unreal Championship Weapons- Weapon models from the console version\
+    \ of UT2, titled Unreal Championship."
+weapons:
+- name: "UC Assault Rifle"
+  description: "Inexpensive and easily produced, the AR770 provides a lightweight\
+    \ 5.56mm combat solution that is most effective against unarmored foes. With low-to-moderate\
+    \ armor penetration capabilities, this rifle is best suited to a role as a light\
+    \ support weapon.|The optional M355 Grenade Launcher provides the punch that makes\
+    \ this weapon effective against heavily armored enemies.  Pick up a second assault\
+    \ rifle to double your fire power."
+- name: "UC Bio-Rifle"
+  description: "The GES BioRifle continues to be one of the most controversial weapons\
+    \ in the Tournament. Loved by some, loathed by others, the BioRifle has long been\
+    \ the subject of debate over its usefulness.||Some Tournament purists argue that\
+    \ it is the equivalent of a cowardly minefield. Others argue that it enhances\
+    \ the tactical capabilities of defensive combatants.|Despite the debate, the weapon\
+    \ provides rapid-fire wide-area coverage in primary firing mode, and a single-fire\
+    \ variable payload secondary firing mode. In layman's terms, this equates to being\
+    \ able to pepper an area with small globs of Biosludge, or launch one large glob\
+    \ at the target."
+- name: "UC Flak Cannon"
+  description: "Trident Defensive Technologies Series 7 Flechette Cannon has been\
+    \ taken to the next step in evolution with the production of the Mk3 Negotiator.\
+    \ The ionized flechettes are capable of delivering second and third-degree burns\
+    \ to organic tissue, cauterizing the wound instantly.||Payload delivery is achieved\
+    \ via one of two methods: ionized flechettes launched in a spread pattern directly\
+    \ from the barrel; or via fragmentation grenades that explode on impact, radiating\
+    \ flechettes in all directions."
+- name: "The UC Link"
+  description: "Riordan Dynamic Weapon Systems combines the best of weapon design\
+    \ in the Advanced Plasma Rifle v23, commonly known as the Link Gun.|While the\
+    \ primary firing mode of the Link remains the same as its plasma-firing predecessor,\
+    \ the secondary cutting torch has been replaced with a switchable energy matrix.\
+    \ Upon contacting a teammate, it converts to a harmless carrier stream, offloading\
+    \ energy from the onboard cells to boost the output of any targeted player also\
+    \ using the Link.|It should be noted that while players are boosting a teammate,\
+    \ they are unable to defend themselves from attack."
+- name: "UC Minigun"
+  description: " With an unloaded weight of only 8 kilograms, the Schultz-Metzger\
+    \ T23-A 23mm rotary cannon is portable and maneuverable, easily worn across the\
+    \ back when employing the optional carrying strap.|The T23-A is the rotary cannon\
+    \ of choice for the discerning soldier."
+- name: "UC Rocket Launcher"
+  description: "The Trident Tri-barrel Rocket Launcher is extremely popular among\
+    \ competitors who enjoy more bang for their buck.|The rotating rear loading barrel\
+    \ design allows for both single- and multi-warhead launches, letting you place\
+    \ up to three dumb fire rockets on target.|The warheads are designed to deliver\
+    \ maximum concussive force to the target and surrounding area upon detonation."
+- name: "UC Shock Rifle"
+  description: "The ASMD Shock Rifle has changed little since its incorporation into\
+    \ the Tournaments. The ASMD sports two firing modes capable of acting in concert\
+    \ to neutralize opponents in a devastating shockwave.||This combination attack\
+    \ is achieved when the weapon operator utilizes the secondary fire mode to deliver\
+    \ a charge of seeded plasma to the target.|Once the slow-moving plasma charge\
+    \ is within range of the target, the weapon operator may fire the photon beam\
+    \ into the plasma core, releasing the explosive energy of the anti-photons contained\
+    \ within the plasma's EM field."
+- name: "UC Lightning Gun"
+  description: "The Lightning Gun is a high-power energy rifle capable of ablating\
+    \ even the heaviest carapace armor. Acquisition of a target at long range requires\
+    \ a steady hand, but the anti-jitter effect of the optical system reduces the\
+    \ weapon's learning curve significantly. Once the target has been acquired, the\
+    \ operator depresses the trigger, painting a proton 'patch' on the target. Milliseconds\
+    \ later the rifle emits a high voltage arc of electricity, which seeks out the\
+    \ charge differential and annihilates the target."
+- name: "UC Translocator"
+  description: "The Translocator was originally designed by Liandri Corporation's\
+    \ R&D sector to facilitate the rapid recall of miners during tunnel collapses.\
+    \ However, rapid deresolution and reconstitution can have several unwelcome effects,\
+    \ including increases in aggression and paranoia.||In order to prolong the careers\
+    \ of today's contenders, limits have been placed on Translocator use in the lower-ranked\
+    \ leagues. The latest iteration of the Translocator features a remotely operated\
+    \ camera, exceptionally useful when scouting out areas of contention.|It should\
+    \ be noted that while viewing the camera's surveillance output, the user is effectively\
+    \ blind to their immediate surroundings."
+- name: "UC Shield Gun"
+  description: "The Kemphler DD280 Riot Control Device has the ability to resist and\
+    \ reflect incoming projectiles and energy beams. The plasma wave inflicts massive\
+    \ damage, rupturing tissue, pulverizing organs, and flooding the bloodstream with\
+    \ dangerous gas bubbles.||This weapon may be intended for combat at close range,\
+    \ but when wielded properly should be considered as dangerous as any other armament\
+    \ in your arsenal."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

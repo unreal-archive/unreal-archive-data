@@ -1,0 +1,91 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 14:29"
+game: "Unreal Tournament 2004"
+name: "UT2004 ZenCodersWeapons 203NoUmod"
+author: "Lonewolf"
+description: "None"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "UT2004-ZenCodersWeapons-203NoUmod.7z"
+hash: "621d24f265a6ad7d2ca94ee8d7eb4470d8f592ac"
+fileSize: 894964
+files:
+- name: "ZenWIconsPulse.utx"
+  fileSize: 671
+  hash: "45c2986249ea44af856c882b29cf97201fbc4f3e"
+- name: "ZWeaponsSnd2.uax"
+  fileSize: 6650
+  hash: "c04cd02914c84d4e95cf7da62c541e644f8bf704"
+- name: "ZWeaponsAnim2.ukx"
+  fileSize: 457443
+  hash: "c3c33bd75cd1fc800fc98dc2ab3421bf08371fe5"
+- name: "ZenWIcons.utx"
+  fileSize: 181223
+  hash: "eabac177e0e9ec83937b67ecea8adabbcef30590"
+- name: "ZWNewShotgunAnim.ukx"
+  fileSize: 145613
+  hash: "8eacb19cfacf4e9a0425cf3fc4b4edd0186cd84b"
+- name: "ZWeaponsStatic2004.usx"
+  fileSize: 615377
+  hash: "cba7a6361274555d2dd9a39f9fb9617b8196e51d"
+- name: "ZAmmoSkins3.utx"
+  fileSize: 175529
+  hash: "ce0cb02ddb5a4234f4d6dc79a87981b20234ddd7"
+- name: "ZWeaponsSnd.uax"
+  fileSize: 66091
+  hash: "15651484abfd6be0ebe08e5b00c8e9430125cce8"
+- name: "ZenCodersWeapons-203.u"
+  fileSize: 122316
+  hash: "45973e4d594806ce27055b43df4cc8d9db29f5e7"
+- name: "ZWeaponsTextures2.utx"
+  fileSize: 2103361
+  hash: "f5c3a35cc697f7a35a63909144899bc62940209a"
+otherFiles: 3
+dependencies:
+  ZWeaponsStatic2004.usx:
+  - status: "OK"
+    name: "ZenWIcons"
+  - status: "OK"
+    name: "ZWeaponsTextures2"
+  ZenCodersWeapons-203.u:
+  - status: "OK"
+    name: "ZWeaponsStatic2004"
+  - status: "OK"
+    name: "ZWeaponsAnim2"
+  - status: "OK"
+    name: "ZWNewShotgunAnim"
+  - status: "OK"
+    name: "ZenWIconsPulse"
+  - status: "OK"
+    name: "ZWeaponsSnd"
+  - status: "OK"
+    name: "ZenWIcons"
+  - status: "OK"
+    name: "ZWeaponsSnd2"
+  - status: "OK"
+    name: "ZAmmoSkins3"
+  ZenWIconsPulse.utx:
+  - status: "OK"
+    name: "ZenWIcons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/6/2/1d24f2/UT2004-ZenCodersWeapons-203NoUmod.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: " -= Benelli ShotGun v.2.03 =- "
+  description: "Replace a weapon by the Zencoder's Benelli Shotgun."
+- name: " -= MP5 v.2.03 =- "
+  description: "Replace a weapon by the Zencoder's MP5."
+weapons:
+- name: "Benelli Shotgun"
+  description: "Benelli Shotgun"
+- name: "Zen Benelli Shotgun"
+  description: "Zen Benelli Shotgun"
+- name: "MP5"
+  description: "MP5"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
