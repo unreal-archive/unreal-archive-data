@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-15 00:21"
+variationOf: "2a6befb9a662c79d7fb0de6376039074fdaa3d25"
+game: "Unreal Tournament"
+name: "AS-Ruins"
+author: "Smartass w/ help from Stak"
+description: "Mostly done by Smartass, botpathed and level info by Starkhide.  From\
+  \ original Unreal by Shane Caudle."
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "as-ruins_shot_ad9173a9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/a/d/9173a9/as-ruins_shot_ad9173a9_1.png"
+originalFilename: "as-ruins.zip"
+hash: "ad9173a9b30bb8bb3353d598c5551468cf956224"
+fileSize: 2760159
+files:
+- name: "AS-Ruins.unr"
+  fileSize: 5996719
+  hash: "1b79a5c76c59f39a826f4013e96f19e705856976"
+- name: "UTemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+otherFiles: 1
+dependencies:
+  AS-Ruins.unr:
+  - status: "OK"
+    name: "UTemple"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/R/a/d/9173a9/as-ruins.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Ruins"
+playerCount: "6-12"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.2
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true
