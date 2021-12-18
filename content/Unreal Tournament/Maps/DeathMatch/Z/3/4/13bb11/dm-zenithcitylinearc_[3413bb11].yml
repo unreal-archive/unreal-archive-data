@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-26 23:55"
+game: "Unreal Tournament"
+name: "DM-ZenithCity[LineARC]"
+author: "[LineARC]"
+description: "Mapped By LineARC"
+releaseDate: "2021-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-zenithcitylinearc_shot_3413bb11_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/Z/3/4/13bb11/dm-zenithcitylinearc_shot_3413bb11_1.png"
+originalFilename: "DM-ZenithCity[LineARC].rar"
+hash: "3413bb112ac8a910508f759967e9a2bcac7cd30d"
+fileSize: 19408935
+files:
+- name: "OnTheRun.umx"
+  fileSize: 5597597
+  hash: "5c0e2a5ec591bf3188e8fb3a4539ecfa7d7938c9"
+- name: "chaossounds.uax"
+  fileSize: 5272094
+  hash: "107b951d886200901a4482afa4f0d0c499c31ef0"
+- name: "ZenithCity.utx"
+  fileSize: 1202614
+  hash: "60742850716eb17e13a1a212e55405a230afd903"
+- name: "DM-ZenithCity[LineARC].unr"
+  fileSize: 6994138
+  hash: "eeb9a9f9fca0699de0769a53cea235e8c3bede05"
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+otherFiles: 0
+dependencies:
+  DM-ZenithCity[LineARC].unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ZenithCity"
+  - status: "OK"
+    name: "chaossounds"
+  - status: "OK"
+    name: "OnTheRun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/Z/3/4/13bb11/DM-ZenithCity%5BLineARC%5D.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[LineARC]City"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.3
+  City: 0.6
+  Natural: 0.1
+bots: true
