@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-11 10:38"
+game: "Unreal Tournament"
+name: "DM-[DT]Arena"
+author: "[DT]Playtek"
+description: "None"
+releaseDate: "2002-09"
+attachments: []
+originalFilename: "DT Arena.zip"
+hash: "ddda5067cfb404cef29b1f1616d84d92cb3de318"
+fileSize: 198283
+files:
+- name: "DM-[DT]Arena.unr"
+  fileSize: 488885
+  hash: "a0258e8a85a80114c0f8214c94e68f35c26a39c7"
+- name: "[DT]Arena1.utx"
+  fileSize: 398197
+  hash: "5b79b59b0bdf7f86aa7406716c819342851cb37e"
+- name: "[DT]Arena2.utx"
+  fileSize: 398197
+  hash: "5b79b59b0bdf7f86aa7406716c819342851cb37e"
+otherFiles: 0
+dependencies:
+  DM-[DT]Arena.unr:
+  - status: "OK"
+    name: "[DT]Arena2"
+  - status: "OK"
+    name: "[DT]Arena1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/d/d/da5067/DT%20Arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "[DT]Arena"
+playerCount: "8"
+themes:
+  Industrial: 0.5
+  City: 0.5
+bots: false

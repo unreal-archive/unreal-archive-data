@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-02-11 10:38"
+game: "Unreal Tournament 2004"
+name: "Petri"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "petri.zip"
+hash: "1b6fbe26c1fadd86deeb55db748b381742ba6a96"
+fileSize: 22025
+files:
+- name: "petrigaze.u"
+  fileSize: 43293
+  hash: "ac9a160a409bc075bf924727928c6538be0e735b"
+- name: "PetriGun.u"
+  fileSize: 21279
+  hash: "3a221ae9f13e554c2a9d04eb392366ef727fcdc9"
+otherFiles: 4
+dependencies:
+  petrigaze.u:
+  - status: "OK"
+    name: "PetriGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/1/b/6fbe26/petri.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Petrifier Rifle."
+  description: "Replaces the sniper rifle and lightening gun with the Petrifier Rifle"
+- name: "Petrifying Gaze - All Players"
+  description: "Gives all players a petrifying gaze! Press / to activate it."
+- name: "Petrifying Gaze"
+  description: "Gives Alek a petrifying gaze! Press / to activate it."
+weapons:
+- name: "Petrifier Rifle"
+  description: "The classic sniper rifle, with modified bullets - a quantum viral\
+    \ tip will transform any kill into a decimated stone statue."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

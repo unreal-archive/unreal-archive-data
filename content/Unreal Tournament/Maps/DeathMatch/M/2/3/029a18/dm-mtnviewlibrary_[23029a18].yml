@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-11 10:38"
+game: "Unreal Tournament"
+name: "DM-MtnViewLibrary"
+author: "WMHamby"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-mtnviewlibrary_shot_23029a18_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/2/3/029a18/dm-mtnviewlibrary_shot_23029a18_1.png"
+originalFilename: "Dm-MtnViewLibrary.zip"
+hash: "23029a184ef50fc171aeec60fc9a6842c2ce4118"
+fileSize: 4791766
+files:
+- name: "den_libr.utx"
+  fileSize: 2262517
+  hash: "0d58dc14e3b1b65e35d2fb7cc6e31c2dc3f37869"
+- name: "Decor3.utx"
+  fileSize: 871713
+  hash: "ab732f6bfccd80ccc10de627af4e209e7d73b327"
+- name: "DM-MtnViewLibrary.unr"
+  fileSize: 1167352
+  hash: "44159cda295967e268490e50b92f93d528317a02"
+- name: "bed.utx"
+  fileSize: 1800815
+  hash: "e87996ce5c648d5e5267dfea9df4800437d0b955"
+- name: "club.utx"
+  fileSize: 1490662
+  hash: "92d07cdef6adab202a38254ef3c5984913a088bc"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "Foregone.umx"
+  fileSize: 1992753
+  hash: "0aff4437d220127a8c193ab7b6402821edca5c79"
+otherFiles: 0
+dependencies:
+  DM-MtnViewLibrary.unr:
+  - status: "OK"
+    name: "bed"
+  - status: "OK"
+    name: "Decor3"
+  - status: "OK"
+    name: "den_libr"
+  - status: "OK"
+    name: "club"
+  - status: "OK"
+    name: "BRdmSE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/2/3/029a18/Dm-MtnViewLibrary.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Mt. View Library"
+playerCount: "8"
+themes:
+  Nali Castle: 0.1
+  Ancient: 0.6
+  Egyptian: 0.3
+bots: false
