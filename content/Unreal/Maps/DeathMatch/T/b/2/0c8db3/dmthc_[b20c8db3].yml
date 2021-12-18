@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-12 07:48"
+game: "Unreal"
+name: "DmTHC"
+author: "princalbt"
+description: "Map by: princalbt (www.princalbt.com/thc)"
+releaseDate: "2001-01"
+attachments: []
+originalFilename: "DmTHC.zip"
+hash: "b20c8db3dcca0dd8302a9f2bbfa9efdf261da8d7"
+fileSize: 599987
+files:
+- name: "DmTHC.unr"
+  fileSize: 1396568
+  hash: "de5900047a10a76eace87dee49916deff7bf37c5"
+- name: "thc.utx"
+  fileSize: 445397
+  hash: "c758eb8c0f202c86792ef6c8d4032ecbe6424700"
+otherFiles: 0
+dependencies:
+  DmTHC.unr:
+  - status: "MISSING"
+    name: "JumpPad"
+  - status: "OK"
+    name: "thc"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/b/2/0c8db3/DmTHC.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmTheHighClan"
+playerCount: "2-4"
+themes:
+  Tech: 0.6
+  Skaarj Tech: 0.3
+  Ancient: 0.1
+bots: false
