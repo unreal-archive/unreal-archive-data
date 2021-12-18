@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-15 00:49"
+variationOf: "2be941537ef8013b4d092b576ee82189eeb7c8ac"
+game: "Unreal Tournament"
+name: "AS-WorseThingsbeta"
+author: "SteelHORN"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "as-worsethingsbeta_shot_3a9196dc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/W/3/a/9196dc/as-worsethingsbeta_shot_3a9196dc_1.png"
+originalFilename: "as-worsethingsbeta.zip"
+hash: "3a9196dc06db346ac462b9ffb529270148e0ff64"
+fileSize: 3659403
+files:
+- name: "oilbase.u"
+  fileSize: 113179
+  hash: "a96b8fb211bdf73b9c7208a7f69b92350ff3bd0c"
+- name: "Scarab.utx"
+  fileSize: 1780186
+  hash: "4d4a514a1048f853fd7e98eefad96a6b6003384e"
+- name: "AS-WorseThingsbeta.unr"
+  fileSize: 7059295
+  hash: "dbae0c91c0270e730650f6b33f23c803e0fbe49f"
+- name: "Shorn.utx"
+  fileSize: 971216
+  hash: "4e3c7fb02d1b26597e76e60fa119fc63c005b3d8"
+otherFiles: 1
+dependencies:
+  AS-WorseThingsbeta.unr:
+  - status: "OK"
+    name: "Scarab"
+  - status: "OK"
+    name: "oilbase"
+  - status: "MISSING"
+    name: "AssaultBonusPack"
+  - status: "OK"
+    name: "Shorn"
+  oilbase.u:
+  - status: "OK"
+    name: "Scarab"
+  - status: "OK"
+    name: "Shorn"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/W/3/a/9196dc/as-worsethingsbeta.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Worse Things Happen At Sea"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.8
+  City: 0.1
+bots: true
