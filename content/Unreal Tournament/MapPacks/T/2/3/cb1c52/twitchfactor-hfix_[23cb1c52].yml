@@ -1,0 +1,78 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-03-22 20:50"
+game: "Unreal Tournament"
+name: "Twitchfactor Hfix"
+author: "David Smith"
+description: "None"
+releaseDate: "1999-11"
+attachments: []
+originalFilename: "twitchfactor-hfix.zip"
+hash: "23cb1c521b54c39386ba419de134e3a414d949f3"
+fileSize: 2237718
+files:
+- name: "TW2-Hub.unr"
+  fileSize: 503319
+  hash: "09360b070415fe3a556e0eef1dfa25556779bcc2"
+- name: "TW3-Castle.unr"
+  fileSize: 2011685
+  hash: "0841846c8746d70cc057cb3c3d303a19e8922bb0"
+- name: "TW5-Temple.unr"
+  fileSize: 1555475
+  hash: "33f7d28e3d52e4221888cade7d5891d96cd5cf0f"
+- name: "TW4-Jungle.unr"
+  fileSize: 1374712
+  hash: "b86be478e4b34c22a5093e43caca9421aa055493"
+- name: "TW1-Entry.unr"
+  fileSize: 1665271
+  hash: "34aa90634d64225ad6a8a3ca5d8b2a9762b5534c"
+otherFiles: 1
+dependencies:
+  TW2-Hub.unr:
+  - status: "MISSING"
+    name: "Hub2"
+  TW1-Entry.unr:
+  - status: "MISSING"
+    name: "UPak"
+  - status: "MISSING"
+    name: "UTemple"
+  TW3-Castle.unr:
+  - status: "MISSING"
+    name: "UPak"
+  TW4-Jungle.unr:
+  - status: "MISSING"
+    name: "UPak"
+  - status: "MISSING"
+    name: "dusk"
+  TW5-Temple.unr:
+  - status: "MISSING"
+    name: "UPak"
+  - status: "MISSING"
+    name: "SkyTwn"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/T/2/3/cb1c52/twitchfactor-hfix.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "TW2-Hub"
+  title: "TW2-Hub"
+  author: "Unknown"
+- name: "TW3-Castle"
+  title: "TW3-Castle"
+  author: "Unknown"
+- name: "TW5-Temple"
+  title: "TW5-Temple"
+  author: "Unknown"
+- name: "TW4-Jungle"
+  title: "TW4-Jungle"
+  author: "David Smith"
+- name: "TW1-Entry"
+  title: "Big Valley"
+  author: "David Smith"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.4
+  Nali Castle: 0.3
