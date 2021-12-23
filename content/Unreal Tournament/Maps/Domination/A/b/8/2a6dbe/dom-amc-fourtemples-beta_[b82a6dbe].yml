@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-23 21:05"
+game: "Unreal Tournament"
+name: "DOM-AMC-FourTemples-BETA"
+author: "Rob -=FraGnBraG=- Burns"
+description: "(c)2002-2018 Rob Burns. Speedy 5 CP DOM - Best with 4 Teams!"
+releaseDate: "2018-10"
+attachments:
+- type: "IMAGE"
+  name: "dom-amc-fourtemples-beta_shot_b82a6dbe_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/A/b/8/2a6dbe/dom-amc-fourtemples-beta_shot_b82a6dbe_2.png"
+- type: "IMAGE"
+  name: "dom-amc-fourtemples-beta_shot_b82a6dbe_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/A/b/8/2a6dbe/dom-amc-fourtemples-beta_shot_b82a6dbe_1.png"
+originalFilename: "DOM-AMC-FourTemples-BETA.zip"
+hash: "b82a6dbe7d94b7136a952c54027107fe31fe6a7f"
+fileSize: 18723250
+files:
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "DOM-AMC-FourTemples-BETA.unr"
+  fileSize: 12538319
+  hash: "b714cc54f5580e4c21dcc42a724ebae973477766"
+- name: "Utemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+otherFiles: 4
+dependencies:
+  DOM-AMC-FourTemples-BETA.unr:
+  - status: "OK"
+    name: "Utemple"
+  - status: "MISSING"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "XPickups"
+  - status: "MISSING"
+    name: "FacePalmT"
+  - status: "MISSING"
+    name: "UPSXDragon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/A/b/8/2a6dbe/DOM-AMC-FourTemples-BETA.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/A/b/8/2a6dbe/DOM-AMC-FourTemples-BETA.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "AMC Four Temples and a Pyramid 5-CP BETA"
+playerCount: "12-24"
+themes:
+  Nali Temple: 0.6
+  City: 0.1
+  Natural: 0.1
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true

@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-23 21:02"
+game: "Unreal Tournament"
+name: "DM-ScreenDemo"
+author: "ElBundee"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-screendemo_shot_be73822e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/b/e/73822e/dm-screendemo_shot_be73822e_1.png"
+- type: "IMAGE"
+  name: "dm-screendemo_shot_be73822e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/b/e/73822e/dm-screendemo_shot_be73822e_2.png"
+originalFilename: "jb-antipody-110.zip"
+hash: "be73822ea69b277da55c3b6c10b6fe182a9a3508"
+fileSize: 1772422
+files:
+- name: "JB-Antipody-110.unr"
+  fileSize: 2946533
+  hash: "6ceee7716e48308d224918bdf5091a98d6726d14"
+- name: "Screen.u"
+  fileSize: 191850
+  hash: "62b42cadc1d4cce8833641653cc532c3ecbb3897"
+- name: "DM-ScreenDemo.unr"
+  fileSize: 388185
+  hash: "48d581b32647754d837cbbe1a6b80bfb7c1c6cf6"
+- name: "Screen.umod"
+  fileSize: 1903759
+  hash: "c821e2ba247cf2cc42020006016e3638823725e1"
+- name: "ScriptedScreen.utx"
+  fileSize: 244270
+  hash: "b5f75a008483ebae1d70dbc153ed48ff76feda47"
+- name: "ScreenFonts.utx"
+  fileSize: 1032240
+  hash: "ee3da8e5af8fa8a9b5563c7b1542bf020c626ad6"
+- name: "Neve.umx"
+  fileSize: 704465
+  hash: "4f1fbaa2f96569f57e5d2a4d3b2e04bcc47b6303"
+otherFiles: 6
+dependencies:
+  Screen.u:
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+  JB-Antipody-110.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "MISSING"
+    name: "JBArena"
+  - status: "OK"
+    name: "Neve"
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "JBSpecials"
+  - status: "MISSING"
+    name: "Jailbreak"
+  DM-ScreenDemo.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/b/e/73822e/jb-antipody-110.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/b/e/73822e/jb-antipody-110.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Screen Demo"
+playerCount: "1-4"
+themes:
+  Industrial: 1.0
+bots: false

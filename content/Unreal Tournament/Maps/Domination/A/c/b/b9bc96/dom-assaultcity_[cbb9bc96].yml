@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-23 21:05"
+game: "Unreal Tournament"
+name: "DOM-AssaultCity"
+author: "Jungle Warfare"
+description: "None"
+releaseDate: "2018-11"
+attachments:
+- type: "IMAGE"
+  name: "dom-assaultcity_shot_cbb9bc96_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/A/c/b/b9bc96/dom-assaultcity_shot_cbb9bc96_1.png"
+- type: "IMAGE"
+  name: "dom-assaultcity_shot_cbb9bc96_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/A/c/b/b9bc96/dom-assaultcity_shot_cbb9bc96_2.png"
+originalFilename: "DOM-AssaultCity-V1.rar"
+hash: "cbb9bc965b486020f49e1691a03820dd5356cdd5"
+fileSize: 1308404
+files:
+- name: "Tank.u"
+  fileSize: 139770
+  hash: "524aa10b09ac3bb37ac72d40774ffa67862f7ad3"
+- name: "tanktexlayer.utx"
+  fileSize: 600618
+  hash: "debad6c2789d960aa9e5c2fe37532afb0809f138"
+- name: "DOM-AssaultCity.unr"
+  fileSize: 1770776
+  hash: "d4fac319fca883b7358ca5b6ecc0abf163fe37be"
+otherFiles: 1
+dependencies:
+  DOM-AssaultCity.unr:
+  - status: "OK"
+    name: "tanktexlayer"
+  - status: "OK"
+    name: "Tank"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/A/c/b/b9bc96/DOM-AssaultCity-V1.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Domination/A/c/b/b9bc96/DOM-AssaultCity-V1.rar"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Domination"
+title: "AssaultCity"
+playerCount: "4-16"
+themes:
+  Nali Temple: 0.3
+  City: 0.1
+  Natural: 0.1
+  Industrial: 0.2
+  Skaarj Tech: 0.4
+bots: true

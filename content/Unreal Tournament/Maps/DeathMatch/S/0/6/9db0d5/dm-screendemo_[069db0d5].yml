@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-23 21:01"
+variationOf: "be73822ea69b277da55c3b6c10b6fe182a9a3508"
+game: "Unreal Tournament"
+name: "DM-ScreenDemo"
+author: "ElBundee"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-screendemo_shot_069db0d5_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/0/6/9db0d5/dm-screendemo_shot_069db0d5_3.png"
+- type: "IMAGE"
+  name: "dm-screendemo_shot_069db0d5_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/0/6/9db0d5/dm-screendemo_shot_069db0d5_2.png"
+- type: "IMAGE"
+  name: "dm-screendemo_shot_069db0d5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/0/6/9db0d5/dm-screendemo_shot_069db0d5_1.png"
+originalFilename: "jb-midnightcity3.zip"
+hash: "069db0d5af5dd7ffdb278235227c44ae9edfbc0e"
+fileSize: 3151103
+files:
+- name: "Screen.u"
+  fileSize: 157657
+  hash: "1186873b0cb5a37ea92daf608ea5600208591eaa"
+- name: "DM-ScreenDemo.unr"
+  fileSize: 388076
+  hash: "ac7161b4d52b51092ead705ac35fa64905325a28"
+- name: "ScriptedScreen.utx"
+  fileSize: 244270
+  hash: "b5f75a008483ebae1d70dbc153ed48ff76feda47"
+- name: "ScreenFonts.utx"
+  fileSize: 1032240
+  hash: "ee3da8e5af8fa8a9b5563c7b1542bf020c626ad6"
+- name: "Screen.umod"
+  fileSize: 2347954
+  hash: "0f2d1d436882eded4d7b60f81db13531f8b6d790"
+- name: "JB-MidnightCity3.unr"
+  fileSize: 10630874
+  hash: "6995ba2f18304e118c77704ec7e557d31715cce5"
+otherFiles: 9
+dependencies:
+  Screen.u:
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+  DM-ScreenDemo.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+  JB-MidnightCity3.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "JBSpecials"
+  - status: "MISSING"
+    name: "Jailbreak"
+  - status: "OK"
+    name: "ScreenFonts"
+  - status: "MISSING"
+    name: "MidnightCityTextures"
+  - status: "MISSING"
+    name: "JBArena"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/0/6/9db0d5/jb-midnightcity3.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/DeathMatch/S/0/6/9db0d5/jb-midnightcity3.zip"
+  main: false
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Screen Demo"
+playerCount: "1-4"
+themes:
+  Industrial: 1.0
+bots: false
