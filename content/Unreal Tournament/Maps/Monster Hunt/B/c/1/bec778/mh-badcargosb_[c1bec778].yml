@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2021-12-24 15:34"
+game: "Unreal Tournament"
+name: "MH-BadCargo(SB)"
+author: "Mr. Blowtatoes/MH conversion by Barbie"
+description: "Bad Cargo?"
+releaseDate: "2021-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-badcargosb_shot_c1bec778_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/B/c/1/bec778/mh-badcargosb_shot_c1bec778_1.png"
+- type: "IMAGE"
+  name: "mh-badcargosb_shot_c1bec778_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/B/c/1/bec778/mh-badcargosb_shot_c1bec778_2.png"
+originalFilename: "MH-BadCargo(SB).7z"
+hash: "c1bec77842527d31fa01487bca6e16d44c14628c"
+fileSize: 13648026
+files:
+- name: "MH-BadCargo(SB).unr"
+  fileSize: 4457230
+  hash: "b78968d3319dca206d973071efed9a4a241a770b"
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "WarlordMultiProjectiles_Rev1.u"
+  fileSize: 4002
+  hash: "07dc6ec549207591013c9f9dadc12453b094b757"
+- name: "SBBeepTriggerV1.u"
+  fileSize: 2383
+  hash: "03c734f56269d821babda2a018b7e2555a2ce9ef"
+otherFiles: 4
+dependencies:
+  MH-BadCargo(SB).unr:
+  - status: "OK"
+    name: "WarlordMultiProjectiles_Rev1"
+  - status: "OK"
+    name: "SBBeepTriggerV1"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/B/c/1/bec778/MH-BadCargo(SB).7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Bad Cargo?"
+playerCount: "2-4"
+themes:
+  Tech: 0.1
+  Natural: 0.3
+  Industrial: 0.5
+  Skaarj Tech: 0.1
+bots: true
