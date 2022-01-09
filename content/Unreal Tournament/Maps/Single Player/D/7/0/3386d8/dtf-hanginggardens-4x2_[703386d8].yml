@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-01-08 14:56"
+game: "Unreal Tournament"
+name: "DTF-HangingGardens-4x2"
+author: "Ted 'irongull' Johnson"
+description: "In the hanging gardens, please don't scream"
+releaseDate: "2000-10"
+attachments:
+- type: "IMAGE"
+  name: "dtf-hanginggardens-4x2_shot_703386d8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/D/7/0/3386d8/dtf-hanginggardens-4x2_shot_703386d8_1.png"
+originalFilename: "DTF-HangingGardens-4x2a.zip"
+hash: "703386d87a8407107f5baa493708f3ef496caabd"
+fileSize: 3000502
+files:
+- name: "DTF-HangingGardens-4x2.unr"
+  fileSize: 7992215
+  hash: "9dd4d4b21f822e0dc06dad365e69f934a2b6aecd"
+- name: "PoisonSea.utx"
+  fileSize: 2202434
+  hash: "2e5e5b6661f37ee8061e1f691dd6ac662a886ca5"
+- name: "HangingGardens.utx"
+  fileSize: 864333
+  hash: "2542faddd78828ea086ad1721816c8d74a0b6d35"
+otherFiles: 1
+dependencies:
+  DTF-HangingGardens-4x2.unr:
+  - status: "OK"
+    name: "PoisonSea"
+  - status: "MISSING"
+    name: "JumpHelperV02"
+  - status: "MISSING"
+    name: "DominateTheFlagV01"
+  - status: "OK"
+    name: "HangingGardens"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/D/7/0/3386d8/DTF-HangingGardens-4x2a.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Dominate The Flag"
+title: "Hanging Gardens 4x2"
+playerCount: "20"
+themes:
+  Natural: 0.2
+  Skaarj Tech: 0.8
+bots: true
