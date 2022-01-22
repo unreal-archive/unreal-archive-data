@@ -67,7 +67,7 @@ There is a client, it's used for the chat windows, before joining a multiplayer 
 There's no server functionality that comes with UT. Check out [UT IRC reporter (UTR)](https://web.archive.org/web/20010602033321/http://www.planetunreal.com/utreporter/).
  
 
-# 6. How can I change the brightness of various lights from UnrealScript?
+## 6. How can I change the brightness of various lights from UnrealScript?
 
 First, make sure the lights you want to control all have `bDynamicLight` set to true. Then, go 
 through all the `ZoneInfo`s and change the `AmbientBrightness`.
@@ -210,7 +210,7 @@ defaultproperties {
 }
 ```
  
-# 14. I put pawns (e.g. Unreal 1 monsters) into my level in UnrealEd. Why don't they show up?
+## 14. I put pawns (e.g. Unreal 1 monsters) into my level in UnrealEd. Why don't they show up?
 
 Set `Level.Game.bNoMonsters` and `Level.Game.bHumansOnly` to false. Also, try setting it to a single player game.
  

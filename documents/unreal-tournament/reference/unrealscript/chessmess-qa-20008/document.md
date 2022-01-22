@@ -254,7 +254,7 @@ _JohnMcL, WarBots coder:_
 
 Make sure you set `BestBase.bHidden = false` in the `EndGame()` code.
  
-# 15. I have created some textures and built a UTX file, which has been dumped in the Textures directory under my UT directory. Upon building a level and applying some textures (after importing the UTX) I try to run the level (after building) and I get a message telling me that the package cannot be found. How do I get textures, from the UTX file into a map, so that I can run the map from UED2?
+## 15. I have created some textures and built a UTX file, which has been dumped in the Textures directory under my UT directory. Upon building a level and applying some textures (after importing the UTX) I try to run the level (after building) and I get a message telling me that the package cannot be found. How do I get textures, from the UTX file into a map, so that I can run the map from UED2?
 
 _Aaron Leiby, from Legend Entertainment comments:_
 

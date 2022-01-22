@@ -1,4 +1,4 @@
-# 1. Anyone know of the proper way to code C++ DLL's that you can access via UnrealScript?  Do I need to be a licensed developer?
+## 1. Anyone know of the proper way to code C++ DLL's that you can access via UnrealScript?  Do I need to be a licensed developer?
 
 You don't need to be a licensee, you just need the public headers for the version of UT that you're working on. 
 
@@ -6,7 +6,7 @@ Unfortunately, only the 402 headers have been released, and your DLL file will o
 and I did up DLL tutorial which you can find here: http://www.sleepwalkertc.com/members/blitz/native/native.html You 
 can find the 402 public headers at: http://openut.sourceforge.net/.
  
-# 2. Good information regarding the use custom player skins and the use of SetMultiSkin()? 
+## 2. Good information regarding the use custom player skins and the use of SetMultiSkin()? 
 
 If you are going to use the `SetMultiSkin` stuff, and want too use the FaceSkin stuff, you NEED to subclass `TournamentPlayer`, 
 instead of `PlayerPawn`. When you do that, there are a few important vars that you need to set to get the skins to appear 
