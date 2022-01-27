@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-01-21 03:58"
+game: "Unreal Tournament 2004"
+name: "ManHack"
+author: "hitting someone"
+description: "None"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "ManHack.zip"
+hash: "1fdbb40dcbe56ca1298c54f51eea2cad874ef0ec"
+fileSize: 1774850
+files:
+- name: "ManHackMedia.u"
+  fileSize: 3936307
+  hash: "d0397c61e5d3aa35011f2e973ba3567734b92927"
+- name: "ManHack.u"
+  fileSize: 89501
+  hash: "f8b92344eb2f05cb15383504ca7c208222b352d3"
+otherFiles: 4
+dependencies:
+  ManHack.u:
+  - status: "OK"
+    name: "ManHackMedia"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/1/f/dbb40d/ManHack.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "ManHackMatch"
+  description: "Set the ManHack as the default weapon to turn the arena into a raging\
+    \ slaughterhouse."
+- name: "Show Damage"
+  description: "You will see the amount of damage you inflict."
+- name: "Weapon Replacer"
+  description: "Replace the standard Weapons with your Weapons of choice. Weapons\
+    \ marked with * are standard ones."
+weapons:
+- name: "ManHack"
+  description: "The most wanted serial killer in the history of mankind was Damon\
+    \ Adamus - a genius and madman who surgically modified his own body to become\
+    \ a half machine monstrosity. |Using a selfmade stealth-device he traveled the\
+    \ outer colony planets, killing 2222 colonists - eating several of those colonists\
+    \ he was called the 'ManEater'. After finishing his 'work' without being caught\
+    \ a single time he decided to end his life fighting - infiltrating a spacemarine\
+    \ outpost on MT-803 he died together with 46 marines. |However, the weapon he\
+    \ invented - the ManHack - was quickly copied by the Liandri Corp for use in the\
+    \ Tournament."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
