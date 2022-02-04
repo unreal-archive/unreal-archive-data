@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-03 09:06"
+game: "Unreal Tournament"
+name: "DM-Cobalt"
+author: "Hubert 'Charon' Switek"
+description: "None"
+releaseDate: "2006-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-cobalt_shot_4b611c70_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/4/b/611c70/dm-cobalt_shot_4b611c70_1.png"
+originalFilename: "DM-Cobalt.zip"
+hash: "4b611c70323e75ec58ad5458a170a2faa824e585"
+fileSize: 3599975
+files:
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+- name: "DM-Cobalt.unr"
+  fileSize: 7517989
+  hash: "fda29ae3cd862242faec4c8e906f40707e64bcdf"
+otherFiles: 1
+dependencies:
+  DM-Cobalt.unr:
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/4/b/611c70/DM-Cobalt.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Cobalt"
+playerCount: "2-4"
+themes:
+  Industrial: 0.7
+  Skaarj Tech: 0.3
+bots: true
