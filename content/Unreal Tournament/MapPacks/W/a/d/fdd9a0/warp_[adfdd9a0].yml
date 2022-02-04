@@ -1,0 +1,66 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-02-03 09:13"
+game: "Unreal Tournament"
+name: "Warp"
+author: "QTIT"
+description: "None"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "warp_shot_adfdd9a0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/W/a/d/fdd9a0/warp_shot_adfdd9a0_1.png"
+- type: "IMAGE"
+  name: "warp_shot_adfdd9a0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/W/a/d/fdd9a0/warp_shot_adfdd9a0_2.png"
+originalFilename: "Warp.zip"
+hash: "adfdd9a031be7aac767cbf619210578db7c6747c"
+fileSize: 6257421
+files:
+- name: "DM-CursedTomb.unr"
+  fileSize: 2426643
+  hash: "bb86c9aaad5db558aa148799fcd72deac8c52940"
+- name: "Aquaduct.utx"
+  fileSize: 2794902
+  hash: "c4d269b09a607e812275f1e9911affb40a32c727"
+- name: "UTemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+- name: "UNDERANCIENT.utx"
+  fileSize: 2374281
+  hash: "0c704022f527036ab0d113da33d831d01d53fd9c"
+- name: "FOUND99to2005.umx"
+  fileSize: 708566
+  hash: "5583057a899267e9463d7475d9382f8ed8f84f50"
+- name: "DM-CubicMadness.unr"
+  fileSize: 611884
+  hash: "bb0502ee6dac2a9273f12a6338837be8b3adaad9"
+otherFiles: 0
+dependencies:
+  DM-CursedTomb.unr:
+  - status: "OK"
+    name: "UNDERANCIENT"
+  - status: "OK"
+    name: "Aquaduct"
+  - status: "OK"
+    name: "UTemple"
+  DM-CubicMadness.unr:
+  - status: "OK"
+    name: "FOUND99to2005"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/W/a/d/fdd9a0/Warp.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "DM-CursedTomb"
+  title: "Cursed Tomb"
+  author: "QTIT"
+- name: "DM-CubicMadness"
+  title: "Cubic Madness"
+  author: "Qtit the Brave"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.5
+  Skaarj Crypt: 0.5
