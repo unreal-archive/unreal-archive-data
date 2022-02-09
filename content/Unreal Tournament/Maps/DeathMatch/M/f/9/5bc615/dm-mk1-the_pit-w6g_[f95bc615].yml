@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-07 13:22"
+game: "Unreal Tournament"
+name: "dm-mk1-the_pit-w6g"
+author: "Peter \"BIGFOOT_PI\" Issa"
+description: "Fight!!"
+releaseDate: "2022-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-mk1-the_pit-w6g_shot_f95bc615_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/M/f/9/5bc615/dm-mk1-the_pit-w6g_shot_f95bc615_1.png"
+originalFilename: "DM-MK1-ThePit.zip"
+hash: "f95bc615c2192a165cb64cf5797a4937f97f14dd"
+fileSize: 2969252
+files:
+- name: "pitfloorbladebh.u"
+  fileSize: 2639
+  hash: "1036e500f764570016af2f4d0b2f5efcbfc68192"
+- name: "dm-mk1-the_pit-w6g.unr"
+  fileSize: 1523237
+  hash: "29917b1536746bdce04bf81d18d23466a3273ad6"
+- name: "MK1_Pit_tex.utx"
+  fileSize: 2280912
+  hash: "49d70d67a27fb00e3017b6db086f3ccfe913ec8a"
+- name: "MK1-The_Pit_song.umx"
+  fileSize: 1377909
+  hash: "ce70730f98ffeba4f085d464dc04a02943c3956b"
+- name: "pitfloorblade3.u"
+  fileSize: 2621
+  hash: "0aad9a1164b1f1f7fe63f989c9f2078981491ded"
+- name: "mk1sounds.uax"
+  fileSize: 191824
+  hash: "bf8faf67a25c786944c9bfea813b158a5e0c6e88"
+- name: "pitfloorbladeb1a.u"
+  fileSize: 2647
+  hash: "aeffd6ea87186c32c6d60e2daac7fcda0c1f54e4"
+otherFiles: 0
+dependencies:
+  pitfloorbladeb1a.u:
+  - status: "OK"
+    name: "MK1_Pit_tex"
+  dm-mk1-the_pit-w6g.unr:
+  - status: "OK"
+    name: "pitfloorblade3"
+  - status: "OK"
+    name: "MK1-The_Pit_song"
+  - status: "OK"
+    name: "pitfloorbladeb1a"
+  - status: "OK"
+    name: "MK1_Pit_tex"
+  - status: "OK"
+    name: "mk1sounds"
+  - status: "OK"
+    name: "pitfloorbladebh"
+  pitfloorblade3.u:
+  - status: "OK"
+    name: "MK1_Pit_tex"
+  pitfloorbladebh.u:
+  - status: "OK"
+    name: "MK1_Pit_tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/M/f/9/5bc615/DM-MK1-ThePit.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "MK1-The Pit"
+playerCount: "2-8+"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.8
+bots: false

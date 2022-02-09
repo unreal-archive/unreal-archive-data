@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-07 13:22"
+game: "Unreal Tournament"
+name: "CTF-Stadium"
+author: "LORDKOR"
+description: "HTTP://WWW.LORDKOR.COM"
+releaseDate: "2000-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-stadium_shot_17df6566_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/1/7/df6566/ctf-stadium_shot_17df6566_1.png"
+originalFilename: "ctf-stadium.zip"
+hash: "17df6566969292becd40586c524287f0434089f7"
+fileSize: 328817
+files:
+- name: "Numbers.utx"
+  fileSize: 552894
+  hash: "72acc512ad631c6b0a823beed24d7009726efeea"
+- name: "CTF-Stadium.unr"
+  fileSize: 187299
+  hash: "49bec53f262b0e50416a51837e176ef3dbbaf25b"
+otherFiles: 1
+dependencies:
+  CTF-Stadium.unr:
+  - status: "OK"
+    name: "Numbers"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/1/7/df6566/ctf-stadium.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-STADIUM"
+playerCount: "10-20"
+themes:
+  Nali Temple: 0.7
+  City: 0.3
+bots: true
