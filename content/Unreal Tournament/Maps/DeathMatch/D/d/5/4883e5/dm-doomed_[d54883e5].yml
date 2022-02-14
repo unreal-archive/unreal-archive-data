@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-14 10:11"
+game: "Unreal Tournament"
+name: "DM-DOOMED"
+author: "SWIFT_DEATH"
+description: "Welcome to your doom!"
+releaseDate: "2009-01"
+attachments: []
+originalFilename: "unreal-tournament swift-death.zip"
+hash: "d54883e516d4162fed0f1911d1927cc80018db0c"
+fileSize: 3624132
+files:
+- name: "noxxpack.utx"
+  fileSize: 914942
+  hash: "1ffd65e75842903d66542de085cf19de23a6f3fb"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "DOOM.umx"
+  fileSize: 3442412
+  hash: "a8dffdffedce1e3cf53b94b456bd9219417d1ae4"
+- name: "UNATCO.utx"
+  fileSize: 220155
+  hash: "be7c39003c3a2f3c528242b3b31ed952c791814a"
+- name: "CoreTexDetail.utx"
+  fileSize: 67425
+  hash: "ba6c1708817bb8b5705a18d2c164e57dfeb48db1"
+- name: "CoreTexMetal.utx"
+  fileSize: 98435
+  hash: "0bde59f2430c8646b693536b7d55fb6cb04c5319"
+- name: "DM-DOOMED.unr"
+  fileSize: 1431703
+  hash: "acae4d21ffc36bff1a6f3545d00fe20588573e27"
+- name: "CoreTexTiles.utx"
+  fileSize: 72440
+  hash: "e44cc01079f38045d374d8c7c63f7e45581f1377"
+- name: "HK_Helibase.utx"
+  fileSize: 32897
+  hash: "957145f9d230f605106d0a0ccd17ffcbfb1528ca"
+otherFiles: 1
+dependencies:
+  HK_Helibase.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  DM-DOOMED.unr:
+  - status: "OK"
+    name: "HK_Helibase"
+  - status: "OK"
+    name: "DOOM"
+  - status: "OK"
+    name: "UNATCO"
+  - status: "OK"
+    name: "CoreTexTiles"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "CoreTexMetal"
+  UNATCO.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  CoreTexMetal.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/d/5/4883e5/unreal-tournament%20swift-death.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Doomed"
+playerCount: "2"
+themes:
+  Tech: 0.5
+  Natural: 0.1
+  Industrial: 0.2
+  Skaarj Tech: 0.2
+  Ancient: 0.1
+bots: true
