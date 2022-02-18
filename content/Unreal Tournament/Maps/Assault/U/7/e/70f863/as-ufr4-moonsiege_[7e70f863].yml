@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-15 00:48"
+variationOf: "b41fbe81293ebd6f17fdac304cded6abf297d141"
+game: "Unreal Tournament"
+name: "AS-UFR4-MoonSiege"
+author: "Gator"
+description: "Recapture Moon Outpost and Shoot Down the Attacking Spacecraft!"
+releaseDate: "2009-12"
+attachments:
+- type: "IMAGE"
+  name: "as-ufr4-moonsiege_shot_7e70f863_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/7/e/70f863/as-ufr4-moonsiege_shot_7e70f863_1.png"
+originalFilename: "as-ufr4-moonsiege.zip"
+hash: "7e70f863e78ba241655ccda39ebaba3c5c66d035"
+fileSize: 1143078
+files:
+- name: "UFR-Star.utx"
+  fileSize: 1502262
+  hash: "29d9c9c2d2903b106d05e9bd5b37d8d7913e4a77"
+- name: "AS-UFR4-MoonSiege.unr"
+  fileSize: 2636571
+  hash: "eae67565f27df2c5208e2392462718ca0908ce6b"
+- name: "Bettermover.u"
+  fileSize: 5073
+  hash: "5f46c9dd82274cd78b99c71f18b777b2da7c4381"
+- name: "Bridge38.utx"
+  fileSize: 179132
+  hash: "7d4ce5bce6263776f971b2a915563c81341e7b87"
+otherFiles: 2
+dependencies:
+  AS-UFR4-MoonSiege.unr:
+  - status: "OK"
+    name: "UFR-Star"
+  - status: "MISSING"
+    name: "QUAKE3c"
+  - status: "OK"
+    name: "Bridge38"
+  - status: "OK"
+    name: "Bettermover"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/7/e/70f863/as-ufr4-moonsiege.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Moon Siege"
+playerCount: "8-12"
+themes:
+  Tech: 0.9
+  City: 0.1
+bots: true
