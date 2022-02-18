@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-15 00:06"
+variationOf: "000db54071ab0f062fc4cb2083acca0ba9415978"
+game: "Unreal Tournament"
+name: "AS-Research"
+author: "-«[M¥S]»-Humphro"
+description: "-«[M¥S]»-Humphro is ur daddy!"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "as-research_shot_97190520_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/9/7/190520/as-research_shot_97190520_1.png"
+originalFilename: "as-research(public_beta3).zip"
+hash: "9719052057dd10492243644a97a7735c381a842c"
+fileSize: 2260031
+files:
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "blast.umx"
+  fileSize: 226817
+  hash: "ae8f084f72e017669b95a1531be4a51ea286026a"
+- name: "AS-Research.unr"
+  fileSize: 3395327
+  hash: "be60fa9d87de6b54f865dcd9e4d1f7473f52e36c"
+otherFiles: 0
+dependencies:
+  AS-Research.unr:
+  - status: "MISSING"
+    name: "riv3"
+  - status: "MISSING"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "blast"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/R/9/7/190520/as-research(public_beta3).zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Research Compound"
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  Natural: 0.2
+  Industrial: 0.5
+bots: false

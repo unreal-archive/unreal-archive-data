@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-15 00:06"
+variationOf: "c0869c1732ef89bfe04bbae6b0ab2fa62c752714"
+game: "Unreal Tournament"
+name: "AS-RocketCommandSE"
+author: "Claude \"Mier\" Meyer .:. SE Version by '//3iRd(o)"
+description: "Welcome to Rocket Command"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "as-rocketcommandse_shot_e156b7b4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/e/1/56b7b4/as-rocketcommandse_shot_e156b7b4_1.png"
+originalFilename: "as-rocketcommandse.zip"
+hash: "e156b7b48f95c80e2fe5e1c1404e85daeba61b4d"
+fileSize: 3809952
+files:
+- name: "AS-RocketCommandSE.unr"
+  fileSize: 8628455
+  hash: "2dd61ed2863faf9b3e2c138c64c8e440cfe9d6a3"
+- name: "1_MissileTexSE.utx"
+  fileSize: 720910
+  hash: "99cfc35c99c98282cba6b62a0663bdd00af3a97b"
+- name: "mier1snd.uax"
+  fileSize: 281666
+  hash: "9a62a52233db14b5d3d4bba5d02eb2655c45c6ab"
+- name: "AssaultBonusPack.u"
+  fileSize: 131000
+  hash: "94d8c8a9b3f5f61af0f62c97893d63f3f99abe99"
+- name: "K_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+otherFiles: 0
+dependencies:
+  AS-RocketCommandSE.unr:
+  - status: "OK"
+    name: "1_MissileTexSE"
+  - status: "OK"
+    name: "AssaultBonusPack"
+  - status: "OK"
+    name: "K_vision"
+  - status: "OK"
+    name: "mier1snd"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/R/e/1/56b7b4/as-rocketcommandse.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Assault"
+title: "Rocket Command [Second Edition]"
+playerCount: "8-12"
+themes:
+  Natural: 0.1
+  Industrial: 0.3
+  Skaarj Tech: 0.6
+bots: false
