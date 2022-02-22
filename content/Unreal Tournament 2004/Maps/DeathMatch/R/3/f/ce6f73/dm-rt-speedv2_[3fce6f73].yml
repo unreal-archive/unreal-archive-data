@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-02-22 13:06"
+game: "Unreal Tournament 2004"
+name: "DM-RT-Speedv2"
+author: "Rasie1"
+description: "Deathmatch on the two moving trucks. Fixed by JU.HiTekk"
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-rt-speedv2_shot_3fce6f73_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/3/f/ce6f73/dm-rt-speedv2_shot_3fce6f73_1.png"
+originalFilename: "617_DM-RT-Speedv2.7z"
+hash: "3fce6f738fef8401107563c9f321e5fb5c04a824"
+fileSize: 1242129
+files:
+- name: "DM-RT-Speedv2.ut2"
+  fileSize: 3547273
+  hash: "227680ef8b0698975f44da49190f6d52e9058155"
+- name: "RT-ConvoyAssault.utx"
+  fileSize: 87903
+  hash: "904c0f58d3fdade789bcccc32fe64f0961766408"
+- name: "rt-reunion.ogg"
+  fileSize: 790037
+  hash: "dd9b32015aec95d8b1e0b48aed014b266177a9f9"
+otherFiles: 1
+dependencies:
+  DM-RT-Speedv2.ut2:
+  - status: "OK"
+    name: "RT-ConvoyAssault"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/3/f/ce6f73/617_DM-RT-Speedv2.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-RT-Speed"
+playerCount: "12"
+themes: {}
+bots: true
