@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-03-09 07:59"
+game: "Unreal Tournament"
+name: "SmartSB v103"
+author: "ProAsm"
+description: ""
+releaseDate: "2022-02"
+attachments: []
+originalFilename: "ssb103.zip"
+hash: "fd264c640a4d0baddc3d790b2867b77d615a3629"
+fileSize: 1367358
+files:
+- name: "SmartSBStats.u"
+  fileSize: 809
+  hash: "4595cccbaaa27e686900e7ecda7ef610de766c81"
+- name: "SmartSB103.u"
+  fileSize: 2623688
+  hash: "c1288a5c48d45088b2dece7ddc8f5755a9811b7a"
+otherFiles: 2
+dependencies:
+  SmartSB103.u:
+  - status: "OK"
+    name: "SmartSBStats"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/S/f/d/264c64/ssb103.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "SmartSB v103"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
