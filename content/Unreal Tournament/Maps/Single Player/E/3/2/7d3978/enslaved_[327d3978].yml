@@ -1,0 +1,104 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-03-09 11:04"
+game: "Unreal Tournament"
+name: "Enslaved"
+author: "Maciej \"Kaka\" Kakareko"
+description: "None"
+releaseDate: "2022-03"
+attachments:
+- type: "IMAGE"
+  name: "enslaved_shot_327d3978_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/E/3/2/7d3978/enslaved_shot_327d3978_1.png"
+originalFilename: "SP-EnslavedV2.0.zip"
+hash: "327d397841d91cbb54fee27e818e5dbd7f5a115b"
+fileSize: 24697342
+files:
+- name: "KKPackage.u"
+  fileSize: 2495825
+  hash: "6977c1b16f3472ab8cdd20fa8d020f48bc54db72"
+- name: "Moroset.umx"
+  fileSize: 580306
+  hash: "735879aafeecf8796c0ee69d9bc94d9fa8781e48"
+- name: "zxu97SkyCity.umx"
+  fileSize: 449608
+  hash: "85cb98a2211f8f778bda00e8cd45e849de607372"
+- name: "KKSkins.utx"
+  fileSize: 17066520
+  hash: "7e00e824a87b08d49c7a8171195c0fdd0cf4933c"
+- name: "RParticles.u"
+  fileSize: 257653
+  hash: "04ec0eec0af162f4e58a386dddf02787a298769b"
+- name: "Enslaved.unr"
+  fileSize: 22880349
+  hash: "58d2585c5d221e51cc7c8b8cf1d8afb22c34b4eb"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+- name: "TerrainSkins1.utx"
+  fileSize: 11976447
+  hash: "de9419dd9088421a8fd4418dbb0aedd042eb1f33"
+- name: "Opal.umx"
+  fileSize: 878087
+  hash: "a1518487353e6cdf16b29a684dbbfcf48e8696a4"
+- name: "KKPackage2.u"
+  fileSize: 15197
+  hash: "dfb5fe311ade2e2be143fb2129f86036a63efe0b"
+- name: "InfAdds.u"
+  fileSize: 555131
+  hash: "1be767d832720970d402a151e57b777a384e7f8c"
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "UIPlants.u"
+  fileSize: 240798
+  hash: "d0c9d5bba92276dac114b5fc2f6f4a44f80b6983"
+otherFiles: 1
+dependencies:
+  KKPackage.u:
+  - status: "OK"
+    name: "UIPlants"
+  - status: "OK"
+    name: "KKSkins"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "OldSkool"
+  Enslaved.unr:
+  - status: "OK"
+    name: "KKPackage2"
+  - status: "OK"
+    name: "Watcher"
+  - status: "OK"
+    name: "Opal"
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "RParticles"
+  - status: "OK"
+    name: "zxu97SkyCity"
+  - status: "OK"
+    name: "TerrainSkins1"
+  - status: "OK"
+    name: "KKPackage"
+  - status: "OK"
+    name: "KKSkins"
+  - status: "OK"
+    name: "Moroset"
+  KKPackage2.u:
+  - status: "OK"
+    name: "KKPackage"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/E/3/2/7d3978/SP-EnslavedV2.0.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Single Player"
+title: "Enslaved"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 0.7
+  Skaarj Tech: 0.1
+  Ancient: 0.2
+bots: true
