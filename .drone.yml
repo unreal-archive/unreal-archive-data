@@ -2,6 +2,9 @@ kind: pipeline
 name: default
 type: docker
 
+concurrency:
+  limit: 1
+
 steps:
   - name: verify
     image: openjdk:11-jre
