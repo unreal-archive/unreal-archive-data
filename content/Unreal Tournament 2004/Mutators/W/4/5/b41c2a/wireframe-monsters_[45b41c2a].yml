@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 13:18"
+game: "Unreal Tournament 2004"
+name: "WireFrame Monsters"
+author: "INIQUITOUS"
+description: "A cool mutator that can display monsters in wireframe mode"
+releaseDate: "2009-03"
+attachments: []
+originalFilename: "WireFrameMonsters.rar"
+hash: "45b41c2a4a26068d575a381b8789ab06d56ef307"
+fileSize: 11580
+files:
+- name: "WireFrameMonsters.u"
+  fileSize: 39787
+  hash: "45c7647ebf3cf004fe18d91c3007b4ab9e9f368c"
+- name: "WireMonsters.utx"
+  fileSize: 6850
+  hash: "bc518fc28efa6bb21834e5b5c860acbdfe7293f7"
+otherFiles: 3
+dependencies:
+  WireFrameMonsters.u:
+  - status: "OK"
+    name: "WireMonsters"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/4/5/b41c2a/WireFrameMonsters.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "WireFrame Monsters"
+  description: "A cool mutator that can display monsters in wireframe mode"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
