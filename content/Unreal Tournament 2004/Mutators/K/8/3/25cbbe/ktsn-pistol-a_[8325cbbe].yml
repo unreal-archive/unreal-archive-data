@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-04-28 21:46"
+game: "Unreal Tournament 2004"
+name: "KTSN Pistol A"
+author: "Unknown"
+description: "Replaces Assault Rifle to G2984 Handgun."
+releaseDate: "2022-03"
+attachments: []
+originalFilename: "ut2004ktsng2984handgunmutatorbeta001.zip"
+hash: "8325cbbe8fc7f08dc17a50bdd8c57745bd04718b"
+fileSize: 1395457
+files:
+- name: "KTSNUT2guns.uax"
+  fileSize: 632892
+  hash: "97584c021cb2decf48e373a4e658025e6f5804d6"
+- name: "KTSNUT2PistolASFX.uax"
+  fileSize: 226159
+  hash: "026351b529be149005e80ebb8df64f7a1f998c87"
+- name: "KTSNUT2pistolA.u"
+  fileSize: 300420
+  hash: "1b9c6755f2b21f6fde77e185ccd00319a9cb557b"
+- name: "KTSNUT2pistolA.ukx"
+  fileSize: 278626
+  hash: "6c9484375d10c915ea9f85841b43042c53a7d51d"
+- name: "KTSNUT2pistolATex.utx"
+  fileSize: 5680557
+  hash: "d7a1fcf52c335dc7a2d5024047dd61494acc693b"
+otherFiles: 1
+dependencies:
+  KTSNUT2pistolA.u:
+  - status: "OK"
+    name: "KTSNUT2pistolATex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/K/8/3/25cbbe/ut2004ktsng2984handgunmutatorbeta001.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "KTSN Pistol A"
+  description: "Replaces Assault Rifle to G2984 Handgun."
+weapons:
+- name: "KTSN G2984"
+  description: "G2984 pistol."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
