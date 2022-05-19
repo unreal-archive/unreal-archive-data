@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-19 14:24"
+game: "Unreal Tournament 3"
+name: "DM-Samosa"
+author: "Mario \"nELsOn\" Marquardt"
+description: "The cake might be a lie but the pie certainly is not..."
+releaseDate: "2010-11"
+attachments: []
+originalFilename: "DM-Samosa_PC.7z"
+hash: "bcb5f97349493d60989499b083895f4c2d47e4ef"
+fileSize: 6683695
+files:
+- name: "SuperPie.upk"
+  fileSize: 1089046
+  hash: "16ef9bb1bb92298729a26424edcf1e6306c3ea87"
+- name: "ApplePie.u"
+  fileSize: 18530
+  hash: "a67564001f5eded1dbbb1d406945f0865e78ad07"
+- name: "DM-Samosa.ut3"
+  fileSize: 15738687
+  hash: "f5b5c052efada554729849fda3f656f825a0c317"
+otherFiles: 2
+dependencies:
+  DM-Samosa.ut3:
+  - status: "OK"
+    name: "ApplePie"
+  ApplePie.u:
+  - status: "OK"
+    name: "SuperPie"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/S/b/c/b5f973/DM-Samosa_PC.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Samosa"
+playerCount: "2 to 12"
+themes: {}
+bots: true
