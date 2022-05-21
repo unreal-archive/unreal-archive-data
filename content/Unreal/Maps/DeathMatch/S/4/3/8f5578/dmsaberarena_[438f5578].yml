@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 16:33"
+game: "Unreal"
+name: "DmSaberArena"
+author: "Buster aka Sneaki_B"
+description: "- gatherstone@shaw.ca -"
+releaseDate: "2009-01"
+attachments: []
+originalFilename: "dmsaberarena.zip"
+hash: "438f5578e343aae7eed872649ebf4d269e78adea"
+fileSize: 549279
+files:
+- name: "UTSky2.utx"
+  fileSize: 289427
+  hash: "e66e97f40c465fa031ee71fdfe106d2678705b02"
+- name: "DmSaberArena.unr"
+  fileSize: 3093328
+  hash: "2b3a11c65a8c09129890593de741f2f3e79703ce"
+- name: "DualMag.u"
+  fileSize: 21309
+  hash: "65e67f69ac72957db3655f0e219489b57ea21cc7"
+otherFiles: 1
+dependencies:
+  DmSaberArena.unr:
+  - status: "OK"
+    name: "DualMag"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/4/3/8f5578/dmsaberarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DmSaberArena"
+playerCount: "2 to 6"
+themes:
+  Natural: 1.0
+bots: false
