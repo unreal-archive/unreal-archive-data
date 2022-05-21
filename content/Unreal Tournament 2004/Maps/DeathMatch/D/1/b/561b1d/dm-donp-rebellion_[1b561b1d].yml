@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-24 19:17"
+game: "Unreal Tournament 2004"
+name: "DM-DoNP-Rebellion"
+author: "Net Lizzard"
+description: "After a few years under Skaarj pressure, Nali folks realized they can't\
+  \ take it anymore; their priests blessed them to raise a rebellion and the most\
+  \ wicked bastards of Skaarj have been punished with extreme violence. Unfortunately,\
+  \ that movement was suppressed quickly and now the entire Nali race is facing a\
+  \ menace of extinction."
+releaseDate: "2015-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-donp-rebellion_shot_1b561b1d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/D/1/b/561b1d/dm-donp-rebellion_shot_1b561b1d_1.png"
+originalFilename: "DM-Rebellion.zip"
+hash: "1b561b1d613ef71e50b1e627dadfb43d5e0ee4a4"
+fileSize: 48598071
+files:
+- name: "DoorsAnc.uax"
+  fileSize: 3740119
+  hash: "567b14acc8be624f71fa790a5f613245ab312d72"
+- name: "AmbOutside.uax"
+  fileSize: 5469933
+  hash: "92315e2a3380c60eba087ef6a4b466e50b8014ad"
+- name: "ONP-FightOfDestiny.ogg"
+  fileSize: 5618223
+  hash: "f7edeb1954ee6c88505d95a46ce439d4fe982f3d"
+- name: "AmbAncient.uax"
+  fileSize: 6773021
+  hash: "c04feec8d75fe4bd7a422231779e25f5a1a016a2"
+- name: "DM-DoNP-Rebellion.ut2"
+  fileSize: 46815530
+  hash: "1961c6646533109b49f7d554659a88789e30f8e7"
+- name: "R3tex.utx"
+  fileSize: 18411222
+  hash: "5982bd56f81954a05e5fcd7624a1428f95e4bf83"
+otherFiles: 0
+dependencies:
+  DM-DoNP-Rebellion.ut2:
+  - status: "OK"
+    name: "AmbAncient"
+  - status: "OK"
+    name: "DoorsAnc"
+  - status: "OK"
+    name: "AmbOutside"
+  - status: "OK"
+    name: "R3tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/D/1/b/561b1d/DM-Rebellion.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Nali Rebel Town"
+playerCount: "2-8"
+themes:
+  Industrial: 0.3
+  Ancient: 0.6
+bots: true
