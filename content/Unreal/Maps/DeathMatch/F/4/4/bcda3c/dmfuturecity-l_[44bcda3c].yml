@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 16:54"
+game: "Unreal"
+name: "DmFutureCity-L"
+author: "J. jsmaps@hotmail.com"
+description: "None"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "dmfuturecity.zip"
+hash: "44bcda3cc33ce5cce1d2dc2ff96e2681a90c14dd"
+fileSize: 835132
+files:
+- name: "Parachute.u"
+  fileSize: 88718
+  hash: "f0e91bd20084fc4e287747a849f6c9796d535005"
+- name: "DmFutureCity-L.unr"
+  fileSize: 3287268
+  hash: "ab2763f11bb8a552b09baae81458f9e60a66e284"
+otherFiles: 1
+dependencies:
+  DmFutureCity-L.unr:
+  - status: "MISSING"
+    name: "FCityAds"
+  - status: "OK"
+    name: "Parachute"
+  - status: "MISSING"
+    name: "FCity"
+  - status: "MISSING"
+    name: "FCityAudio"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/F/4/4/bcda3c/dmfuturecity.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Future City"
+playerCount: "Unknown"
+themes:
+  Natural: 0.8
+  Tech: 0.2
+bots: true
