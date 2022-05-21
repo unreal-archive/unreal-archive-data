@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 17:32"
+game: "Unreal"
+name: "Dm-Grinder"
+author: "Elliot (Unreal conversion by Pitbull)"
+description: "Welcome to the Heavy Metal Grinder"
+releaseDate: "2004-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-grinder_shot_f8449d67_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/G/f/8/449d67/dm-grinder_shot_f8449d67_1.png"
+originalFilename: "Dm-Grinder.zip"
+hash: "f8449d67bff285eb82fdcda4a0618938d5eb6c3c"
+fileSize: 2950996
+files:
+- name: "firebr.umx"
+  fileSize: 1914284
+  hash: "7adc45504f1010fa5724c80a9c64e86882710230"
+- name: "Dm-Grinder.unr"
+  fileSize: 3998134
+  hash: "154beed1a6b99adfeee7bf73396d27151bfa987b"
+otherFiles: 1
+dependencies:
+  Dm-Grinder.unr:
+  - status: "OK"
+    name: "firebr"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/G/f/8/449d67/Dm-Grinder.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Grinder"
+playerCount: "2-6"
+themes:
+  Skaarj Tech: 1.0
+bots: true
