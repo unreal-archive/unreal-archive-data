@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 18:10"
+game: "Unreal"
+name: "DmTheMappersCafe111"
+author: "J. Martin - jsmaps@hotmail.com"
+description: "Just off the freeway..."
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "dmthemapperscafe111_shot_33b85217_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/T/3/3/b85217/dmthemapperscafe111_shot_33b85217_1.png"
+originalFilename: "DmTheMappersCafe111.zip"
+hash: "33b8521789219d1fc4e4a21b304a8bde96c7845b"
+fileSize: 4471330
+files:
+- name: "MappersMusic.uax"
+  fileSize: 1466956
+  hash: "e316cff11ed16f1fadfc6d2ea011eaaf9d60a38a"
+- name: "MappersCafe.utx"
+  fileSize: 2937441
+  hash: "c9c7ce7ebd82d94ceb252bca1155fe5f8d570878"
+- name: "MCCelebs.utx"
+  fileSize: 410703
+  hash: "7a21978c2de500f5104b56e71f429c332412abcb"
+- name: "MappersCafeSnd.uax"
+  fileSize: 780126
+  hash: "96c50fe10b32a7f1683fdd181c246135efa0e770"
+- name: "DmTheMappersCafe111.unr"
+  fileSize: 2933265
+  hash: "d308dbb3b22b7208f80ae82f2572c23e36776877"
+otherFiles: 1
+dependencies:
+  DmTheMappersCafe111.unr:
+  - status: "OK"
+    name: "MappersMusic"
+  - status: "OK"
+    name: "MappersCafeSnd"
+  - status: "OK"
+    name: "MappersCafe"
+  - status: "OK"
+    name: "MCCelebs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/3/3/b85217/DmTheMappersCafe111.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "The Mapper's Cafe"
+playerCount: "Unknown"
+themes:
+  Natural: 0.5
+  Tech: 0.5
+bots: false
