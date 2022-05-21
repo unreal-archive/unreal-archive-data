@@ -1,0 +1,47 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-05-22 17:00"
+game: "Unreal"
+name: "Dmgas"
+author: "J. Martin. jsmaps@hotmail.com"
+description: "None"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "dmgas.zip"
+hash: "26876e4e6ec35b93256af873122aee724d6fa74b"
+fileSize: 987811
+files:
+- name: "GasLE.utx"
+  fileSize: 1156607
+  hash: "19c9f5800badb168491912686b40cbe508e3a598"
+- name: "GasLE.uax"
+  fileSize: 366898
+  hash: "06b29168cff86a01bb1385e7a0bacbc64d43d5e4"
+- name: "gas.unr"
+  fileSize: 1079038
+  hash: "a6a6f907c3ed10c70acfc4215b29d1cce9a25cc2"
+- name: "DMGas.unr"
+  fileSize: 1092245
+  hash: "b5f09c5b78b324db597e24c1c2ab728f715b7122"
+otherFiles: 1
+dependencies:
+  DMGas.unr:
+  - status: "OK"
+    name: "GasLE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/D/2/6/876e4e/dmgas.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+maps:
+- name: "gas"
+  title: "Gas"
+  author: "J. Martin. jsmaps@hotmail.com"
+- name: "DMGas"
+  title: "Gas"
+  author: "J. Martin. jsmaps@hotmail.com"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.5
+  Natural: 0.5

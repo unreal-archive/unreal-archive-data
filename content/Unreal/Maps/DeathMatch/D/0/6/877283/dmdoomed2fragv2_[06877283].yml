@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 17:00"
+game: "Unreal"
+name: "dmDoomed2FragV2"
+author: "PsiTrix[MoA] [bot support by Krull)"
+description: "None"
+releaseDate: "2005-06"
+attachments: []
+originalFilename: "dmDoomed2FragV2.zip"
+hash: "06877283457baffab0d0838b904bf207d9696dc1"
+fileSize: 984545
+files:
+- name: "dmDoomed2FragV2.unr"
+  fileSize: 937248
+  hash: "a5de051efcfc7a92e142b454a510d4afb6a1ba67"
+- name: "d3tex.utx"
+  fileSize: 1499554
+  hash: "c57d124fd06fb4fa9ac12099d488d49723c2882c"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+otherFiles: 0
+dependencies:
+  dmDoomed2FragV2.unr:
+  - status: "OK"
+    name: "d3tex"
+  - status: "OK"
+    name: "JumpPad"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/0/6/877283/dmDoomed2FragV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Doomed 2 Frag"
+playerCount: "10"
+themes:
+  Natural: 1.0
+bots: true
