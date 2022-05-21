@@ -1,0 +1,77 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-21 21:16"
+game: "Unreal Tournament"
+name: "UTPure RC7G"
+author: "opening the file called"
+description: "None"
+releaseDate: "2004-12"
+attachments: []
+originalFilename: "UTPure RC7G.zip"
+hash: "59fe96612813f4e3bf191d27c9cd6c9e2c6439fa"
+fileSize: 538756
+files:
+- name: "PurePkgLog.u"
+  fileSize: 12224
+  hash: "19242fb8c82da06a103e4ee2d6ac6b0ad2a84db8"
+- name: "BP1Handler7G.u"
+  fileSize: 15623
+  hash: "e242e88ca1203c495ae8d827e44c8dd6f1cb9311"
+- name: "PureStat7G.u"
+  fileSize: 110153
+  hash: "1d737e4c3078c4ef7804176297022b183d1a5fdc"
+- name: "UTPureRC7G.u"
+  fileSize: 393869
+  hash: "10b694071c2c6efbbff02bb3b9359ca3de99a91d"
+- name: "BP4Handler7G.u"
+  fileSize: 6215
+  hash: "5e80070836f514da0d4d1c39b68bd5ca2ac83442"
+- name: "VAHandler7G.u"
+  fileSize: 144369
+  hash: "cb20dabb0ee4c9f4b52e8c8d2c1ee14015295bc8"
+- name: "PureINTLog.u"
+  fileSize: 11120
+  hash: "91129bc46d8cf7f429c7e0a14dee7a9827c0c6f9"
+- name: "ZPPure7G.u"
+  fileSize: 46990
+  hash: "64edf3be3b9bec6872ce2026678c8a7bcff22c28"
+otherFiles: 9
+dependencies:
+  BP1Handler7G.u:
+  - status: "OK"
+    name: "UTPureRC7G"
+  PureStat7G.u:
+  - status: "OK"
+    name: "UTPureRC7G"
+  BP4Handler7G.u:
+  - status: "OK"
+    name: "UTPureRC7G"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  ZPPure7G.u:
+  - status: "OK"
+    name: "UTPureRC7G"
+  VAHandler7G.u:
+  - status: "OK"
+    name: "UTPureRC7G"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/U/5/9/fe9661/UTPure%20RC7G.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Pure: ZeroPing"
+  description: " Optimized netcode for better play."
+- name: "Pure: ZeroPing AccuGib"
+  description: " InstaGib plus ZeroPing.  Mmmmmmm."
+- name: "Pure: ZeroPing ColorAccuGib"
+  description: " InstaGib plus ZeroPing with Colored Shots!."
+- name: "Pure: ZeroPing ShockArena"
+  description: " ShockArena with ZeroPing."
+- name: "Pure: ZeroPing SniperArena"
+  description: " SniperArena with ZeroPing."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
