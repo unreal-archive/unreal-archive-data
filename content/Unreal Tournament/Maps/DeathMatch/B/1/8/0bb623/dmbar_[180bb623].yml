@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 17:12"
+game: "Unreal Tournament"
+name: "DMBar"
+author: "J.Martin. jsmaps@hotmail.com"
+description: "Welcome to J\x92s Bar. A place where Unreal warriors can meet, have\
+  \ a drink, and embellish their achievements."
+releaseDate: "2001-03"
+attachments:
+- type: "IMAGE"
+  name: "dmbar_shot_180bb623_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/1/8/0bb623/dmbar_shot_180bb623_1.png"
+originalFilename: "dmbar.zip"
+hash: "180bb623b8ec4a55f6b5659db44303310a5a05a8"
+fileSize: 1265151
+files:
+- name: "Wine.u"
+  fileSize: 80641
+  hash: "0bba8d938a6fa3b08c0b8ddfe4b27008753e1e12"
+- name: "DMBarTex.utx"
+  fileSize: 1318687
+  hash: "3ed8ea751fa982d0e11775612bf5b741250eed42"
+- name: "DMBar.unr"
+  fileSize: 622411
+  hash: "5998fa5a58a210fc648b700e60deb2a283465d76"
+- name: "Whiskey.u"
+  fileSize: 493709
+  hash: "14b4b2333fdffd47a30483257aac38a3add1d01f"
+- name: "Beer.u"
+  fileSize: 378662
+  hash: "61d8745f81876792f3507426a3232f6bf6cd2f5c"
+- name: "DMBarAux.uax"
+  fileSize: 546926
+  hash: "b981a995386a0ce2d2cac96fdab551ba391b40ad"
+otherFiles: 2
+dependencies:
+  DMBar.unr:
+  - status: "OK"
+    name: "Wine"
+  - status: "OK"
+    name: "DMBarAux"
+  - status: "OK"
+    name: "DMBarTex"
+  - status: "OK"
+    name: "Beer"
+  - status: "OK"
+    name: "Whiskey"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/1/8/0bb623/dmbar.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "J's Bar"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.8
+bots: false
