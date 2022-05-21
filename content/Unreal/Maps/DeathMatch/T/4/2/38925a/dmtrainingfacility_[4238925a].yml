@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 18:26"
+game: "Unreal"
+name: "DMTrainingFacility"
+author: "40oz"
+description: "None"
+releaseDate: "2001-12"
+attachments: []
+originalFilename: "dmtrainingfacility.zip"
+hash: "4238925ac4fcf6cf351c7307d1f785e274378ec2"
+fileSize: 5877788
+files:
+- name: "DMTrainingFacility.unr"
+  fileSize: 961981
+  hash: "9b6a6bf340cf4b47a44ab245e335104486f088a7"
+- name: "urban.utx"
+  fileSize: 4189020
+  hash: "be8cbaa1f222558981cd486e91123d17c9e9e79b"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Dmwestern.utx"
+  fileSize: 88979
+  hash: "ac2be785602e546819bf23df81743c504b6a228a"
+- name: "club.utx"
+  fileSize: 347853
+  hash: "6de6f3a518389641bfb80b2af3d1d554e7fcb7e9"
+- name: "Vierheilig.utx"
+  fileSize: 1063445
+  hash: "dbc4b601b3806ec173323f392ce90a3c1e0a6212"
+otherFiles: 1
+dependencies:
+  DMTrainingFacility.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "urban"
+  - status: "MISSING"
+    name: "Serpentine"
+  - status: "OK"
+    name: "club"
+  - status: "OK"
+    name: "Vierheilig"
+  - status: "OK"
+    name: "Dmwestern"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/4/2/38925a/dmtrainingfacility.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DMTrainingFacility"
+playerCount: "8-10"
+themes:
+  City: 0.7
+  Natural: 0.1
+  Industrial: 0.2
+bots: false

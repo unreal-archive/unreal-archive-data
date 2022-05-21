@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 18:26"
+game: "Unreal"
+name: "DmSkullysBasement"
+author: "Skully - www.sufclan.org"
+description: "Welcome to Skully's Basement"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "dmskullysbasement_shot_8905e204_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/S/8/9/05e204/dmskullysbasement_shot_8905e204_1.png"
+originalFilename: "DmSkullysBasement.zip"
+hash: "8905e204d8c9f8c22f34496ecb93b3db682ea604"
+fileSize: 6979792
+files:
+- name: "WesternWood.utx"
+  fileSize: 4466382
+  hash: "1b1fa7919a66168f2bf0eee06a308cd046e033fa"
+- name: "DmSkullysBasement.unr"
+  fileSize: 11389081
+  hash: "adbae9d601e69bb1dfb1d609305a34afa39f32f9"
+otherFiles: 1
+dependencies:
+  DmSkullysBasement.unr:
+  - status: "OK"
+    name: "WesternWood"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/S/8/9/05e204/DmSkullysBasement.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Skully's Basement"
+playerCount: "16-20"
+themes:
+  Natural: 0.6
+  Ancient: 0.4
+bots: false
