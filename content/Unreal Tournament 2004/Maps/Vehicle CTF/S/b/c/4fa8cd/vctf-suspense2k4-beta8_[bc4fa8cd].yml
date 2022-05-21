@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-21 20:38"
+variationOf: "46b4172bfcad63046d065feb83af347f49e12bec"
+game: "Unreal Tournament 2004"
+name: "VCTF-Suspense2K4-Beta8"
+author: "Jeffrey"
+description: "Suspense remade from UT3."
+releaseDate: "2008-12"
+attachments:
+- type: "IMAGE"
+  name: "vctf-suspense2k4-beta8_shot_bc4fa8cd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/b/c/4fa8cd/vctf-suspense2k4-beta8_shot_bc4fa8cd_1.png"
+originalFilename: "Suspense2K4-Beta8.rar"
+hash: "bc4fa8cd06de4ea5505bbed802ec783e817365cb"
+fileSize: 10888443
+files:
+- name: "EONSLocustSM.usx"
+  fileSize: 231831
+  hash: "8d6b35178a06fd1c311a828a8c101c1be9a65257"
+- name: "VCTF-Suspense2K4-Beta8.ut2"
+  fileSize: 28777338
+  hash: "50c11f0237f5ccc62d8d5b3fdd60bbf177d11b21"
+- name: "EONSLocustA.ukx"
+  fileSize: 74599
+  hash: "187fd38da0625e04a905683109e03960f0e94234"
+otherFiles: 1
+dependencies:
+  EONSLocustA.ukx:
+  - status: "OK"
+    name: "EONSLocustSM"
+  VCTF-Suspense2K4-Beta8.ut2:
+  - status: "OK"
+    name: "EONSLocustSM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/b/c/4fa8cd/Suspense2K4-Beta8.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-Suspense"
+playerCount: "12-20"
+themes:
+  Ancient: 1.0
+bots: true
