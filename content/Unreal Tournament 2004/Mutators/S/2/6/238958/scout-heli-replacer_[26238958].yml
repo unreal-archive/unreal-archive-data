@@ -1,0 +1,60 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-24 18:57"
+game: "Unreal Tournament 2004"
+name: "Scout Heli Replacer"
+author: "Unknown"
+description: "Replaces specifice chosen vehicle with SH-1000 'Piranha' Scout Helicopter."
+releaseDate: "2015-02"
+attachments: []
+originalFilename: "ScoutHeliV2.zip"
+hash: "262389583946d97b2c8f68efb16914eb0eab4871"
+fileSize: 3422354
+files:
+- name: "ScoutHeliSnds.uax"
+  fileSize: 679437
+  hash: "799049207a1d7de21676e661602dcb231d100b03"
+- name: "ScoutHeliAnim.ukx"
+  fileSize: 352775
+  hash: "9e57961279cdac4c2e8c75d738b86017552a6823"
+- name: "SctHeliTX.utx"
+  fileSize: 9572994
+  hash: "3510df06e6f248f899922befb7572299c8366e04"
+- name: "ScoutHelicopterV2.u"
+  fileSize: 125092
+  hash: "899ed275596ae81a1efe9cf115ac1829857a6be0"
+- name: "SCTHeliStaticMesh.usx"
+  fileSize: 485939
+  hash: "a04c8aa7d7c93968b4ef6e7f777a8b4c800cdda0"
+otherFiles: 2
+dependencies:
+  ScoutHelicopterV2.u:
+  - status: "OK"
+    name: "ScoutHeliSnds"
+  - status: "OK"
+    name: "ScoutHeliAnim"
+  - status: "OK"
+    name: "SCTHeliStaticMesh"
+  - status: "OK"
+    name: "SctHeliTX"
+  ScoutHeliAnim.ukx:
+  - status: "OK"
+    name: "SctHeliTX"
+  SCTHeliStaticMesh.usx:
+  - status: "OK"
+    name: "SctHeliTX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/2/6/238958/ScoutHeliV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Scout Heli Replacer"
+  description: "Replaces specifice chosen vehicle with SH-1000 'Piranha' Scout Helicopter."
+weapons: []
+vehicles:
+- name: "SH-1000 Piranha"
+  description: "SH-1000 Piranha"
+hasConfigMenu: false
+hasKeybinds: false

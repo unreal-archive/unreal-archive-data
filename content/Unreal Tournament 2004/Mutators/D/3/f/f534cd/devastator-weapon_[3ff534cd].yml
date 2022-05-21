@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-24 18:56"
+game: "Unreal Tournament 2004"
+name: "Devastator Weapon"
+author: "Unknown"
+description: "Replace all Rocket Launchers with Devastator Weapons."
+releaseDate: "2015-03"
+attachments: []
+originalFilename: "DNDevastatorV2.zip"
+hash: "3ff534cdb83827b2fa6a4d2008519dabe7887357"
+fileSize: 923875
+files:
+- name: "DNDevastatorSnds.uax"
+  fileSize: 126525
+  hash: "3323e8e5bd82cce13896ba92b60473beb4830273"
+- name: "DNDevTex.utx"
+  fileSize: 592262
+  hash: "a27db594a209ea8d0003df1a3f008cc5b2e1e9ca"
+- name: "DNDevastatorMeshes.usx"
+  fileSize: 138663
+  hash: "f3b39f5cd37218968b584646547f626ed0f3ac75"
+- name: "DNDevastatorAnims.ukx"
+  fileSize: 1538280
+  hash: "4edae3a7d010e7025f06d9ba5f977accb8b2159a"
+- name: "DNDevastatorV2.u"
+  fileSize: 50980
+  hash: "a3d8ee01ca6010ca0af73233a8b8daee2454260e"
+otherFiles: 2
+dependencies:
+  DNDevastatorMeshes.usx:
+  - status: "OK"
+    name: "DNDevTex"
+  DNDevastatorAnims.ukx:
+  - status: "OK"
+    name: "DNDevTex"
+  DNDevastatorV2.u:
+  - status: "OK"
+    name: "DNDevastatorMeshes"
+  - status: "OK"
+    name: "DNDevastatorSnds"
+  - status: "OK"
+    name: "DNDevTex"
+  - status: "OK"
+    name: "DNDevastatorAnims"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/D/3/f/f534cd/DNDevastatorV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Devastator Weapon"
+  description: "Replace all Rocket Launchers with Devastator Weapons."
+weapons:
+- name: "Devastator"
+  description: "Straight out of the pentagons secret labs comes this double barreled\
+    \ brute of a weapon which lets loose swarms of minature stinger missiles in the\
+    \ direction of your enemies."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
