@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 13:56"
+game: "Unreal Tournament"
+name: "MH-XV-LaserV0"
+author: "Edin 'Doc_EDo' Hozic"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-laserv0_shot_90115f7d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/X/9/0/115f7d/mh-xv-laserv0_shot_90115f7d_1.png"
+originalFilename: "MH-XV-LaserV0.7z"
+hash: "90115f7d73744aa5bfc560b61805e6b6cd63cd48"
+fileSize: 1477829
+files:
+- name: "MH-XV-LaserV0.unr"
+  fileSize: 5147520
+  hash: "caba1a0a9d0c79ca51addbc6c35d223b0a2f7c7c"
+- name: "factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+otherFiles: 1
+dependencies:
+  MH-XV-LaserV0.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "FixGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/X/9/0/115f7d/MH-XV-LaserV0.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "A Farewell To Laser"
+playerCount: "8+"
+themes:
+  Tech: 0.1
+  Natural: 0.2
+  Industrial: 0.2
+  Skaarj Tech: 0.3
+  Ancient: 0.1
+bots: true

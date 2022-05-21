@@ -1,0 +1,138 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 13:57"
+game: "Unreal Tournament"
+name: "MH-XV-MeltTownV1"
+author: "Kaal\"TheSinew\"979"
+description: "None"
+releaseDate: "2022-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-melttownv1_shot_9fdb429f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/X/9/f/db429f/mh-xv-melttownv1_shot_9fdb429f_1.png"
+originalFilename: "MH-XV-MeltTownV1.7z"
+hash: "9fdb429fd52f79bcc5fb030735a69cac515363b7"
+fileSize: 21493061
+files:
+- name: "epiccustommodels.u"
+  fileSize: 2408888
+  hash: "dbf510e3ade53c9a428189602c598493ddd933e2"
+- name: "Final13.umx"
+  fileSize: 3198914
+  hash: "6a2ed918a56cc2eb4ad19db9e8beed4666e4139d"
+- name: "MH-XV-MeltTownV1.unr"
+  fileSize: 7943942
+  hash: "a20e0a530b389ff53ab6646170cf0870a86e4b38"
+- name: "noxxpack.utx"
+  fileSize: 914942
+  hash: "1ffd65e75842903d66542de085cf19de23a6f3fb"
+- name: "genest.u"
+  fileSize: 1537248
+  hash: "515d13d5b96db073de7096450d0c9ac8ebc2f478"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "insekt.u"
+  fileSize: 1568237
+  hash: "8d1d2db0deb0323b4343c4fd6752a39554f4b64b"
+- name: "SkeletalChars.u"
+  fileSize: 1591818
+  hash: "345d2658bbc6bcc7ded148ab723161280569e0a7"
+- name: "baron.u"
+  fileSize: 293943
+  hash: "f2e997f659ac04d1091440fdd4073caa16e903c4"
+- name: "olweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "genestPawn.u"
+  fileSize: 3342955
+  hash: "c79fa711f84b074261bf88550daf22ff2d944837"
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+- name: "imp.u"
+  fileSize: 183700
+  hash: "464c8b7916d132f7eafd4fe7d91bbd93b55f54fe"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "SevenB.u"
+  fileSize: 8323248
+  hash: "2891ac85ff981b3826b7df84ebdf81944d075a50"
+- name: "Fisk.u"
+  fileSize: 748438
+  hash: "13e43546618b93b51ff98618975c7100598bc215"
+otherFiles: 1
+dependencies:
+  Fisk.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  MH-XV-MeltTownV1.unr:
+  - status: "OK"
+    name: "olweapons"
+  - status: "OK"
+    name: "insekt"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "SevenB"
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  - status: "OK"
+    name: "Final13"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "genestPawn"
+  - status: "MISSING"
+    name: "FixGun"
+  - status: "OK"
+    name: "SGTech1"
+  SevenB.u:
+  - status: "OK"
+    name: "oldskool"
+  - status: "OK"
+    name: "SkeletalChars"
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  genestPawn.u:
+  - status: "OK"
+    name: "baron"
+  - status: "OK"
+    name: "genest"
+  - status: "OK"
+    name: "Fisk"
+  - status: "OK"
+    name: "SevenB"
+  - status: "OK"
+    name: "imp"
+  - status: "OK"
+    name: "olweapons"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/X/9/f/db429f/MH-XV-MeltTownV1.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-MeltTown"
+playerCount: "16"
+themes:
+  Natural: 0.7
+  Industrial: 0.2
+  Skaarj Tech: 0.1
+bots: true

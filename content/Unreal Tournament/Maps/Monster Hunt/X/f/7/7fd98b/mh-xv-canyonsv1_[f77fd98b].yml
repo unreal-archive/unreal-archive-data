@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 13:57"
+game: "Unreal Tournament"
+name: "MH-XV-CanyonsV1"
+author: "Tom \"TomCom\" Davies"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-canyonsv1_shot_f77fd98b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/X/f/7/7fd98b/mh-xv-canyonsv1_shot_f77fd98b_1.png"
+originalFilename: "MH-XV-CanyonsV1.7z"
+hash: "f77fd98b4154fb2bdd9691165a68e736288f15c8"
+fileSize: 896994
+files:
+- name: "Canyons.utx"
+  fileSize: 88988
+  hash: "0354474790e1f8bf6c04f83915c967138697a324"
+- name: "MH-XV-CanyonsV1.unr"
+  fileSize: 2246049
+  hash: "754fb9f13ac613958f5a6dad5513837be22e5121"
+- name: "Airfight-snow.utx"
+  fileSize: 841225
+  hash: "6cca8cd528f25d3133fbfc894271899c4b40f08a"
+- name: "BattleOfBritian.utx"
+  fileSize: 200790
+  hash: "7ad7059684c3b8e823e5da8863a7e69147edfbe9"
+otherFiles: 1
+dependencies:
+  MH-XV-CanyonsV1.unr:
+  - status: "OK"
+    name: "Canyons"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "BattleOfBritian"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "FixGun"
+  - status: "OK"
+    name: "Airfight-snow"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/X/f/7/7fd98b/MH-XV-CanyonsV1.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Canyons"
+playerCount: "12+"
+themes:
+  Natural: 0.7
+  City: 0.3
+bots: false
