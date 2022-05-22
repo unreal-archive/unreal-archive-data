@@ -1,0 +1,75 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-21 20:52"
+game: "Unreal Tournament"
+name: "TechnoloGBonusPack"
+author: "Richard 'technoloG' Nalezynski"
+description: "None"
+releaseDate: "2002-08-16"
+attachments:
+- type: "IMAGE"
+  name: "technologbonuspack_shot_b4d77b18_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/T/b/4/d77b18/technologbonuspack_shot_b4d77b18_1.png"
+originalFilename: "technoloGBonusPack.zip"
+hash: "b4d77b184d3adb30ec4d5149ee3f9dbd096540f0"
+fileSize: 2135529
+files:
+- name: "UExplorer.u"
+  fileSize: 2194277
+  hash: "d6d18066a128b1ed276cb6d52a1fd1d37a4c54ce"
+- name: "SpellUNREAL.u"
+  fileSize: 1585196
+  hash: "9f2b7f0a16097c64dfce6303d3fcca15a0bd94fb"
+- name: "AmericanFlags.u"
+  fileSize: 358638
+  hash: "8f572faba7f49b6c0c70f160d72563cad4d6ecb5"
+- name: "Crosshairs.utx"
+  fileSize: 126666
+  hash: "676a3c0a2cff7f8d20e9baa2167304ab6bb30aa2"
+- name: "TKingOfTheHill.u"
+  fileSize: 98031
+  hash: "4e2e74fcc89f5a51ddf763257d22ca1f3dc9668f"
+- name: "FullyLoaded.u"
+  fileSize: 6691
+  hash: "85a88bd54a003d982ca2fb29fb8c38ceb8935c24"
+- name: "Relics2.u"
+  fileSize: 1486598
+  hash: "3a1f074dc1881fcc366179f6c053c483d80c38fa"
+otherFiles: 8
+dependencies:
+  TKingOfTheHill.u:
+  - status: "OK"
+    name: "SpellUNREAL"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/T/b/4/d77b18/technoloGBonusPack.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "Tournament King of the Hill"
+  description: "Become the king and get special treatment."
+- name: "Spell UNREAL"
+  description: "Collect letters to gain godlike abilities."
+- name: "Patriotism: American Flags"
+  description: "Show your patriotism by changing the original team flags to American\
+    \ flags."
+- name: "Relic: Affinity"
+  description: "A magical relic that imparts the ability to slowly regenerate ammunition."
+- name: "Relic: Equilibrium"
+  description: "A magical relic that imparts the ability to add damage to health."
+- name: "Relic: Evasion"
+  description: "A magical relic that makes it easier to avoid being hurt."
+- name: "Relic: Illusion"
+  description: "A magical relic that imparts the ability to be transparent."
+- name: "Relic: Immunity"
+  description: "A magical relic that imparts the ability to be resistant to damage\
+    \ zones."
+- name: "Relic: Silence"
+  description: "A magical relic that imparts the ability to be unheard."
+- name: "Fully Loaded"
+  description: "Receive all UT weapons, full ammo, armor, and health."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: true
