@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 13:57"
+game: "Unreal Tournament"
+name: "MH-XV-LostInTimeV1"
+author: "Derdak2rot (original), Buggie (XV)"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-lostintimev1_shot_fcb76fb7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/X/f/c/b76fb7/mh-xv-lostintimev1_shot_fcb76fb7_1.png"
+originalFilename: "MH-XV-LostInTimeV1.7z"
+hash: "fcb76fb718cbe0d2a24d7d7157b3d4914beaafbb"
+fileSize: 3113271
+files:
+- name: "new3.umx"
+  fileSize: 447873
+  hash: "0c43aef2669ed8ad701e5f2a3f76ceec41364bdc"
+- name: "Unreal4.umx"
+  fileSize: 939568
+  hash: "89a64713a808ccd31a4885f6d0cbd3538e7ddcc3"
+- name: "MH-XV-LostInTimeV1.unr"
+  fileSize: 10381038
+  hash: "d0f8d21318dc5ea602c21dd84fac375b54b5a367"
+otherFiles: 2
+dependencies:
+  MH-XV-LostInTimeV1.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "new3"
+  - status: "OK"
+    name: "Unreal4"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "FixGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/X/f/c/b76fb7/MH-XV-LostInTimeV1.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "XVehicles"
+title: "Lost In Time - Monster Hunt"
+playerCount: "4"
+themes:
+  Nali Temple: 0.9
+bots: true
