@@ -1,0 +1,61 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-21 20:43"
+game: "Unreal Tournament"
+name: "*Cosmic*"
+author: "Chris \"kloc Thirteen\""
+description: "Each Player will have a differnt mutation"
+releaseDate: "2000-10-18"
+attachments:
+- type: "IMAGE"
+  name: "cosmic_shot_8d18d646_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/8/d/18d646/cosmic_shot_8d18d646_1.png"
+- type: "IMAGE"
+  name: "cosmic_shot_8d18d646_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/8/d/18d646/cosmic_shot_8d18d646_4.png"
+- type: "IMAGE"
+  name: "cosmic_shot_8d18d646_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/8/d/18d646/cosmic_shot_8d18d646_2.png"
+- type: "IMAGE"
+  name: "cosmic_shot_8d18d646_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/8/d/18d646/cosmic_shot_8d18d646_5.png"
+- type: "IMAGE"
+  name: "cosmic_shot_8d18d646_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/8/d/18d646/cosmic_shot_8d18d646_6.png"
+- type: "IMAGE"
+  name: "cosmic_shot_8d18d646_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/8/d/18d646/cosmic_shot_8d18d646_3.png"
+originalFilename: "CosmicV300.zip"
+hash: "8d18d646f24ef34645b9f21df606db645fc33f00"
+fileSize: 220418
+files:
+- name: "Cosmic.u"
+  fileSize: 236285
+  hash: "1bae72c8a7aab4d4f83f9c749d6684a936b6ec3f"
+- name: "CUBaseMemorySlots.u"
+  fileSize: 1342
+  hash: "35b7d5c646ed9002e7a5d1b14e21897a4f196373"
+- name: "CUMemorySlot.u"
+  fileSize: 6470
+  hash: "5c22e0ea98b6f0c8ebdc1a222307f6264b7cf57c"
+otherFiles: 11
+dependencies:
+  CUBaseMemorySlots.u:
+  - status: "OK"
+    name: "CUMemorySlot"
+  CUMemorySlot.u:
+  - status: "OK"
+    name: "Cosmic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/8/d/18d646/CosmicV300.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+mutators:
+- name: "*Cosmic*"
+  description: "Each Player will have a differnt mutation"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
