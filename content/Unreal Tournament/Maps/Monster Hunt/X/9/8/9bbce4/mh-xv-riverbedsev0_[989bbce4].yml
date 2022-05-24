@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 13:57"
+game: "Unreal Tournament"
+name: "MH-XV-RiverbedSEv0"
+author: "Grz (original), Snuggs (SE), Buggie (XV)"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-riverbedsev0_shot_989bbce4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/X/9/8/9bbce4/mh-xv-riverbedsev0_shot_989bbce4_1.png"
+originalFilename: "MH-XV-RiverbedSEv0.7z"
+hash: "989bbce46b93a604fac7761084b8c8e429ba9f24"
+fileSize: 3167650
+files:
+- name: "floatingdeath.utx"
+  fileSize: 1595020
+  hash: "53ca5886fd813980eac7c91368e974a8fd9bcf82"
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+- name: "MH-XV-RiverbedSEv0.unr"
+  fileSize: 5935715
+  hash: "2ba46e95516a2b151d75234cd5dc0a07a8f3fd41"
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+- name: "River.umx"
+  fileSize: 675874
+  hash: "74b278e09b26972027a65549edf82290c5121545"
+otherFiles: 2
+dependencies:
+  MH-XV-RiverbedSEv0.unr:
+  - status: "OK"
+    name: "MTextSetA"
+  - status: "OK"
+    name: "floatingdeath"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "River"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "MISSING"
+    name: "FixGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/X/9/8/9bbce4/MH-XV-RiverbedSEv0.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Riverbed [Second Edition]"
+playerCount: "2-14"
+themes:
+  City: 0.5
+  Natural: 0.1
+  Industrial: 0.5
+bots: true

@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 13:57"
+game: "Unreal Tournament"
+name: "MH-XV-ArdenV1"
+author: "Kimmo \"Cardiologist\" Kontto (original), Buggie (XV)"
+description: "Your journey begins"
+releaseDate: "2022-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-ardenv1_shot_a5a9109a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/X/a/5/a9109a/mh-xv-ardenv1_shot_a5a9109a_1.png"
+originalFilename: "MH-XV-ArdenV1.7z"
+hash: "a5a9109a432d7438307e6545187c5d8760a08d82"
+fileSize: 2580884
+files:
+- name: "MH-XV-ArdenV1.unr"
+  fileSize: 6344691
+  hash: "b37ed6fa8a748ad4ed43ec30aefdc71efe819e60"
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "Crater.umx"
+  fileSize: 896351
+  hash: "1e840e29828ddbd98359957c9dd5e0e551b5c967"
+- name: "Megatitan.u"
+  fileSize: 17433
+  hash: "e55349b6056d97c6dd5b0c29c2fe25acf27de4ff"
+- name: "Shutdown.umx"
+  fileSize: 1078663
+  hash: "6c6a1bd2748de0f2c23554b36da2b4adb1224b08"
+otherFiles: 2
+dependencies:
+  MH-XV-ArdenV1.unr:
+  - status: "OK"
+    name: "Watcher"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "Megatitan"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "Crater"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "Shutdown"
+  - status: "MISSING"
+    name: "FixGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/X/a/5/a9109a/MH-XV-ArdenV1.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "Monster Hunt"
+title: "Ar'Den Valley"
+playerCount: "Yes"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: true
