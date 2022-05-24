@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-21 19:22"
+game: "Unreal"
+name: "DMDiemortalsKeep"
+author: "Daniel Blair-Johns, arteris@technologist.com"
+description: "None"
+releaseDate: "1998-06"
+attachments: []
+originalFilename: "DMDiemortalsKeep.zip"
+hash: "00f91cc08dc6576361a4e1bf41dd530a4d46be30"
+fileSize: 271257
+files:
+- name: "OSPWeapons.u"
+  fileSize: 33920
+  hash: "c86531334385bc4e6eb9c0d3ca457d41a32af9b0"
+- name: "quad.u"
+  fileSize: 13627
+  hash: "2bbb0a44de625b6e2c06c750ec46ce5b2a216241"
+- name: "DMDiemortalsKeep.unr"
+  fileSize: 689667
+  hash: "dab7ffcb8937e6f600cfa14b7f7e46772fe650fe"
+otherFiles: 2
+dependencies:
+  DMDiemortalsKeep.unr:
+  - status: "OK"
+    name: "OSPWeapons"
+  - status: "OK"
+    name: "quad"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/D/0/0/f91cc0/DMDiemortalsKeep.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Diemortal's Keep"
+playerCount: "Unknown"
+themes: {}
+bots: false
