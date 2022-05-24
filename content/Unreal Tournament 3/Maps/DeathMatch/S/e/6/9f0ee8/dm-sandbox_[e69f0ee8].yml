@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-21 17:22"
+game: "Unreal Tournament 3"
+name: "DM-Sandbox"
+author: "Chris Manack"
+description: "Its G.I.Joe warefare on familar grounds, the city park Sandbox!"
+releaseDate: "2008-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-sandbox_shot_e69f0ee8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/DeathMatch/S/e/6/9f0ee8/dm-sandbox_shot_e69f0ee8_1.png"
+- type: "IMAGE"
+  name: "dm-sandbox_shot_e69f0ee8_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/DeathMatch/S/e/6/9f0ee8/dm-sandbox_shot_e69f0ee8_2.png"
+- type: "IMAGE"
+  name: "dm-sandbox_shot_e69f0ee8_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/DeathMatch/S/e/6/9f0ee8/dm-sandbox_shot_e69f0ee8_4.png"
+- type: "IMAGE"
+  name: "dm-sandbox_shot_e69f0ee8_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/DeathMatch/S/e/6/9f0ee8/dm-sandbox_shot_e69f0ee8_5.png"
+- type: "IMAGE"
+  name: "dm-sandbox_shot_e69f0ee8_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/DeathMatch/S/e/6/9f0ee8/dm-sandbox_shot_e69f0ee8_3.png"
+originalFilename: "DM-Sandbox_01.7z"
+hash: "e69f0ee8934745f5088f3a3e8c9c9e7aa96448e7"
+fileSize: 40250144
+files:
+- name: "Chris_SandBox_Meshes.upk"
+  fileSize: 8274394
+  hash: "b1fd718435bb6166e9f12a6094f40ee7c0086925"
+- name: "Chris_Textures.upk"
+  fileSize: 1124319
+  hash: "9e5cccef1e9ac4b2ef3e8d856fbc0865973520d6"
+- name: "DM-Sandbox.ut3"
+  fileSize: 135564756
+  hash: "f34f6b3061efc814d76df2d4f2705f4ba20af2d3"
+- name: "DM-Sandbox_LOC_int.upk"
+  fileSize: 393578
+  hash: "1a84099f346e2de6b34cc5680470968da329dfdd"
+otherFiles: 7
+dependencies:
+  DM-Sandbox.ut3:
+  - status: "OK"
+    name: "Chris_Textures"
+  - status: "OK"
+    name: "Chris_SandBox_Meshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/S/e/6/9f0ee8/DM-Sandbox_01.7z"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Sandbox"
+playerCount: "4 to 16"
+themes: {}
+bots: true
