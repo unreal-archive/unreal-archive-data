@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-21 19:09"
+game: "Unreal Tournament"
+name: "DMBong"
+author: "J. Martin. jsmaps@hotmail.com"
+description: "None"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "dmbong.zip"
+hash: "0b60173b08de08995513b6052fc35cad88da1ce5"
+fileSize: 224525
+files:
+- name: "Bong.utx"
+  fileSize: 877468
+  hash: "060dbd9ef9cd2753261df1265b04e4840f87d10d"
+- name: "DMBong.unr"
+  fileSize: 184079
+  hash: "09ef49757cd1c3e206551945660e33d6e0459483"
+otherFiles: 1
+dependencies:
+  DMBong.unr:
+  - status: "OK"
+    name: "Bong"
+  - status: "MISSING"
+    name: "EverSmoke"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/0/b/60173b/dmbong.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Bong"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.9
+bots: false
