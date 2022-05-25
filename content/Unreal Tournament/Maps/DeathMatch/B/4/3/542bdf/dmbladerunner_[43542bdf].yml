@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 16:50"
+game: "Unreal Tournament"
+name: "DMBladerunner"
+author: "J. Martin - jsmaps@hotmail.com"
+description: "November - 2019"
+releaseDate: "2001-12"
+attachments: []
+originalFilename: "dmbladerunner.zip"
+hash: "43542bdf141acde92809837d95f604ea33e91411"
+fileSize: 779963
+files:
+- name: "GoldWatch.u"
+  fileSize: 50962
+  hash: "25fb14609a1ca46fe7789ec02e2ba19e06865243"
+- name: "DMBladerunner.unr"
+  fileSize: 3994880
+  hash: "9745b6415869f1f718fd99f9e699f0b7516ec441"
+otherFiles: 0
+dependencies:
+  DMBladerunner.unr:
+  - status: "MISSING"
+    name: "BladerunnerTex"
+  - status: "OK"
+    name: "GoldWatch"
+  - status: "MISSING"
+    name: "BladerunnerSnd"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/4/3/542bdf/dmbladerunner.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Bladerunner"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  City: 0.9
+bots: true
