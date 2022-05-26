@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-07-20 21:22"
+game: "Unreal Tournament"
+name: "DM-AmericanSuburbs"
+author: "Daniel \"Nova\" Eskildsen"
+description: "None"
+releaseDate: "2022-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-americansuburbs_shot_cb475672_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/c/b/475672/dm-americansuburbs_shot_cb475672_1.png"
+originalFilename: "DM-AmericanSuburbs.zip"
+hash: "cb47567226ae063fffbb0e3ce4997561e6ecbcb1"
+fileSize: 8320026
+files:
+- name: "NovaSuburbsModels.u"
+  fileSize: 268455
+  hash: "ec2cdd54734bb620b06b96c11d98b005c51c3b8e"
+- name: "NovaSuburbs.utx"
+  fileSize: 2899103
+  hash: "92c2caa0ea70eacbc176d9bddc5f910a65c46800"
+- name: "NovaBirds.uax"
+  fileSize: 2471252
+  hash: "acb2ff07a0ec19b76d45130cd83e6f617f49ded5"
+- name: "DM-AmericanSuburbsDaylight.unr"
+  fileSize: 5744921
+  hash: "6bd4f314cb2d5c0310376ab2da14205a8b33368a"
+- name: "DM-AmericanSuburbs.unr"
+  fileSize: 9242814
+  hash: "3dd925e6749b50fcf070567faebb908ba5a8f351"
+- name: "NovaLandscape.utx"
+  fileSize: 1754507
+  hash: "871566d16c7657f1a68fd284ae49f435f3dbbb6a"
+- name: "NovaSky.utx"
+  fileSize: 7804901
+  hash: "afbe6a82c94aa1e5bb53c5c49a885d7e0d3dd696"
+otherFiles: 1
+dependencies:
+  DM-AmericanSuburbsDaylight.unr:
+  - status: "OK"
+    name: "NovaSuburbsModels"
+  - status: "OK"
+    name: "NovaLandscape"
+  - status: "OK"
+    name: "NovaSuburbs"
+  - status: "OK"
+    name: "NovaSky"
+  - status: "OK"
+    name: "NovaBirds"
+  DM-AmericanSuburbs.unr:
+  - status: "OK"
+    name: "NovaSuburbsModels"
+  - status: "OK"
+    name: "NovaSuburbs"
+  - status: "OK"
+    name: "NovaSky"
+  - status: "OK"
+    name: "NovaBirds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/c/b/475672/DM-AmericanSuburbs.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "American Suburbs"
+playerCount: "12-16"
+themes:
+  Industrial: 1.0
+bots: true
