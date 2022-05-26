@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-06-03 22:04"
+game: "Unreal Tournament 2004"
+name: "UB-Forbidden"
+author: "Kenneth"
+description: "None"
+releaseDate: "2014-04"
+attachments: []
+originalFilename: "UB-Forbidden.rar"
+hash: "7c6faed826557ea33a1eb00a6f749f9ac5806345"
+fileSize: 1491483
+files:
+- name: "Forbidden.utx"
+  fileSize: 1002530
+  hash: "caf364cab62f5db226c35653cf19242cf57c39fa"
+- name: "Forbiddenmesh.usx"
+  fileSize: 64647
+  hash: "1eb789139e1f783800a719e80e105ec7bca35c90"
+- name: "UB-Forbidden.ut2"
+  fileSize: 4039331
+  hash: "747d64d36016f635e5860bb0a9cffb92abccdfa2"
+otherFiles: 0
+dependencies:
+  Forbiddenmesh.usx:
+  - status: "OK"
+    name: "Forbidden"
+  UB-Forbidden.ut2:
+  - status: "OK"
+    name: "Forbiddenmesh"
+  - status: "MISSING"
+    name: "CoooPG"
+  - status: "MISSING"
+    name: "AmbAncient"
+  - status: "MISSING"
+    name: "AmbOutside"
+  - status: "OK"
+    name: "Forbidden"
+  - status: "MISSING"
+    name: "U1Pawns"
+  - status: "MISSING"
+    name: "GenFluid"
+  - status: "MISSING"
+    name: "DoorsAnc"
+  - status: "MISSING"
+    name: "PlaceableWeps"
+  - status: "MISSING"
+    name: "GenFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/U/7/c/6faed8/UB-Forbidden.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Unknown"
+title: "Forbidden Journey"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
