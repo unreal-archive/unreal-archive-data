@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 18:10"
+game: "Unreal"
+name: "Dm-Zahltag+"
+author: "Juergen Vierheilig & Buster aka Sneaki_B"
+description: "Buster - gatherstone@shaw.ca"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "dm-zahltag.zip"
+hash: "fc685859999fc6f094693038279537310f9d625b"
+fileSize: 4545970
+files:
+- name: "Dm-Zahltag+.unr"
+  fileSize: 3201974
+  hash: "6e4e6048ff6c60f4d5473746e6c509968493f878"
+- name: "DinoSound111199.uax"
+  fileSize: 1324535
+  hash: "e27fbe4cde7cc107fbdf2bc308fc7c71c977c2f3"
+- name: "Dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+- name: "UTSky2.utx"
+  fileSize: 289427
+  hash: "e66e97f40c465fa031ee71fdfe106d2678705b02"
+otherFiles: 1
+dependencies:
+  Dm-Zahltag+.unr:
+  - status: "OK"
+    name: "UTSky2"
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "dinosound111199"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/Z/f/c/685859/dm-zahltag.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Dm-Zahltag+"
+playerCount: "8 to 16"
+themes:
+  Industrial: 0.9
+bots: false
