@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-23 00:53"
+variationOf: "f8641fc902ce79d42d4d9f7ba7edaf001c5d8d8d"
+game: "Unreal"
+name: "DMFranks_BedRoom"
+author: "Jurz"
+description: "None"
+releaseDate: "2001-02"
+attachments: []
+originalFilename: "dmfranks_bedroom.zip"
+hash: "897a6f9e829bb50ef3f34e912c56296947af2032"
+fileSize: 20536058
+files:
+- name: "UT_ArtFX.utx"
+  fileSize: 1993831
+  hash: "a4f795e4b04b54d8c54d00df40184acb6e7d7ded"
+- name: "DMFranks_BedRoom.unr"
+  fileSize: 2203750
+  hash: "2089a70b1b31a680f28bb544756e6744a812f08b"
+- name: "stereo.utx"
+  fileSize: 168935
+  hash: "ed0de691e052c837aa05c2246b0e8ee73db0551c"
+- name: "WTTJ2050.uax"
+  fileSize: 24596354
+  hash: "44f64d1a8ead30c5fe4bcf8631980ec42239d210"
+otherFiles: 0
+dependencies:
+  DMFranks_BedRoom.unr:
+  - status: "OK"
+    name: "UT_ArtFX"
+  - status: "OK"
+    name: "stereo"
+  - status: "OK"
+    name: "WTTJ2050"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/F/8/9/7a6f9e/dmfranks_bedroom.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Franks_BedRoom"
+playerCount: "8"
+themes:
+  Nali Temple: 0.2
+  Nali Castle: 0.8
+bots: false

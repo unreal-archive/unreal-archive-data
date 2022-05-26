@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-23 00:53"
+game: "Unreal"
+name: "DM-BarPunkysSnipeHuntC"
+author: "Dremoan modified by Punky Brewster"
+description: "Yohoho, I said Yohoho--Cause CPT Morgan told you so"
+releaseDate: "2007-10"
+attachments: []
+originalFilename: "DM-BarPunkysSnipeHuntC.rar"
+hash: "05c20dc8fc56f4fe4b36da999662675480532dec"
+fileSize: 12342329
+files:
+- name: "DM-BarPunkysSnipeHuntC.unr"
+  fileSize: 4016610
+  hash: "7b3813a331af2c8419d029e1e6b9b937d42c5357"
+- name: "UTWeapons.u"
+  fileSize: 14906280
+  hash: "5aca9e80a71067c7f65ba4c4364ea62dc25acd28"
+- name: "UTInv.u"
+  fileSize: 763569
+  hash: "8c9d37ce0713641c21278ededc9b5355f1721f84"
+- name: "Rt-Detail.utx"
+  fileSize: 488524
+  hash: "30cde1c19023b49f46ca79c4276a2d6de9a63c72"
+- name: "BRdmSE.utx"
+  fileSize: 607997
+  hash: "6240386be291368f1aee88c4789889ecdead7abb"
+- name: "DRMPa.utx"
+  fileSize: 3643482
+  hash: "184bad9d757357d087b96427cd9a5fda63df6b24"
+- name: "UTMaps.u"
+  fileSize: 27367
+  hash: "533e1b960958d46b3e5319cb4babaab44dab5141"
+otherFiles: 0
+dependencies:
+  DM-BarPunkysSnipeHuntC.unr:
+  - status: "OK"
+    name: "DRMPa"
+  - status: "OK"
+    name: "UTWeapons"
+  - status: "OK"
+    name: "UTMaps"
+  - status: "OK"
+    name: "UTInv"
+  - status: "OK"
+    name: "Rt-Detail"
+  - status: "OK"
+    name: "BRdmSE"
+  UTMaps.u:
+  - status: "OK"
+    name: "UTWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/B/0/5/c20dc8/DM-BarPunkysSnipeHuntC.rar"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bar Punky's Snipe Hunt C"
+playerCount: "8-10"
+themes:
+  Industrial: 1.0
+bots: true
