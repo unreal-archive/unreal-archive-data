@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 17:12"
+variationOf: "d881122d93974bb47cb88e277cb7712cf881702a"
+game: "Unreal"
+name: "DmAmsterdam6nb-L"
+author: "J. jsmaps@hotmail.com"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "dmamsterdam6nb-l_shot_969ba351_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/A/9/6/9ba351/dmamsterdam6nb-l_shot_969ba351_1.png"
+originalFilename: "dmamsterdam06.zip"
+hash: "969ba3517289d3ac73573794660ba64dd399be81"
+fileSize: 1348141
+files:
+- name: "DmAmsterdam6nb-L.unr"
+  fileSize: 1989647
+  hash: "05037d73d42459e871be68539e3153c4b58e7e20"
+- name: "AmsterdamAudio.uax"
+  fileSize: 1234957
+  hash: "724415cf37c52105d7d9ec80f822b4080ed84bf7"
+otherFiles: 1
+dependencies:
+  DmAmsterdam6nb-L.unr:
+  - status: "MISSING"
+    name: "city"
+  - status: "MISSING"
+    name: "Slums"
+  - status: "OK"
+    name: "AmsterdamAudio"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/A/9/6/9ba351/dmamsterdam06.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Amsterdam"
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  City: 0.8
+bots: true
