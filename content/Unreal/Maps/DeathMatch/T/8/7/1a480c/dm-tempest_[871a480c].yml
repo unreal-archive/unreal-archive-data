@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-22 17:45"
+game: "Unreal"
+name: "Dm-Tempest"
+author: "Cliff Bleszinski (Unreal conversion by Pitbull)"
+description: "None"
+releaseDate: "2004-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-tempest_shot_871a480c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/DeathMatch/T/8/7/1a480c/dm-tempest_shot_871a480c_1.png"
+originalFilename: "Dm-Tempest.zip"
+hash: "871a480c61de6375a32b4c56c91deb701817ddd6"
+fileSize: 3954985
+files:
+- name: "Dm-Tempest.unr"
+  fileSize: 4386332
+  hash: "813b29c8bee2347a1a54873cd39cf8a8be5e1502"
+- name: "Botpck10.umx"
+  fileSize: 1514831
+  hash: "bf17a3552395fc8561032c73c84ab81d1b734f8a"
+otherFiles: 1
+dependencies:
+  Dm-Tempest.unr:
+  - status: "OK"
+    name: "Botpck10"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/DeathMatch/T/8/7/1a480c/Dm-Tempest.zip"
+  main: true
+  repack: false
+  state: "OK"
+deleted: false
+gametype: "DeathMatch"
+title: "Tempest"
+playerCount: "4-16"
+themes:
+  Ancient: 1.0
+bots: true
