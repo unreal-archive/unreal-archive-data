@@ -1,0 +1,54 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-27 16:24"
+game: "Unreal Tournament 2004"
+name: "UT3Manta"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-06"
+attachments: []
+originalFilename: "UT3Manta.zip"
+hash: "48aacf9412aeb0f66520de54c88c10da6dc3a400"
+fileSize: 6795214
+files:
+- name: "UT3MantaTex.utx"
+  fileSize: 6730924
+  hash: "f1824cda84c770f197e96055e6d72e76513a3dce"
+- name: "UT3MantaSM.usx"
+  fileSize: 2930
+  hash: "005b8bcfe1f62b13cbf7416edb8fe6185f923745"
+- name: "UT3Manta.u"
+  fileSize: 776929
+  hash: "9f7383652b895e8c78cb2a0affb8b40f13b2b914"
+- name: "UT3MantaAnims.ukx"
+  fileSize: 1454773
+  hash: "cf17922edd907c382ff6338396723942ca186fe4"
+otherFiles: 3
+dependencies:
+  UT3Manta.u:
+  - status: "OK"
+    name: "UT3MantaSM"
+  - status: "OK"
+    name: "UT3MantaTex"
+  - status: "OK"
+    name: "UT3MantaAnims"
+  UT3MantaAnims.ukx:
+  - status: "OK"
+    name: "UT3MantaTex"
+  UT3MantaSM.usx:
+  - status: "OK"
+    name: "UT3MantaTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/4/8/aacf94/UT3Manta.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "UT3 Manta"
+  description: "UT3 Manta"
+hasConfigMenu: false
+hasKeybinds: false

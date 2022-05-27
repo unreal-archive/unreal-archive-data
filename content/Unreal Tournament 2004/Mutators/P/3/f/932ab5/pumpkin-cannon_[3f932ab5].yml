@@ -1,0 +1,54 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-05-27 16:25"
+game: "Unreal Tournament 2004"
+name: "Pumpkin Cannon"
+author: "Parkis G"
+description: "Change Flak Cannon with Pumpkin Cannon."
+releaseDate: "2013-09"
+attachments: []
+originalFilename: "PumpkinGunUT2k4.zip"
+hash: "3f932ab58d99fc8fe3654795323cbcba7d9f24d3"
+fileSize: 1475751
+files:
+- name: "PumpkinGunStat.usx"
+  fileSize: 64290
+  hash: "8fb57fcd4702258168e3935e29a213d53388c62e"
+- name: "PumpkinCannon.u"
+  fileSize: 22084
+  hash: "bd065118c7e1de5c7d4699708c290691e56d4b4f"
+- name: "PumpkinGunText.utx"
+  fileSize: 3082045
+  hash: "d2b940e5035069271a73f04135ce76f2276d0afd"
+otherFiles: 2
+dependencies:
+  PumpkinGunStat.usx:
+  - status: "OK"
+    name: "PumpkinGunText"
+  PumpkinCannon.u:
+  - status: "OK"
+    name: "PumpkinGunStat"
+  - status: "OK"
+    name: "PumpkinGunText"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/3/f/932ab5/PumpkinGunUT2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Pumpkin Cannon"
+  description: "Change Flak Cannon with Pumpkin Cannon."
+weapons:
+- name: "Pumpkin Cannon"
+  description: "Trident Defensive Technologies Series 7 Flechette Cannon has been\
+    \ taken to the next step in evolution with the production of the Mk3 Negotiator.\
+    \ The ionized flechettes are capable of delivering second and third-degree burns\
+    \ to organic tissue, cauterizing the wound instantly.||Payload delivery is achieved\
+    \ via one of two methods: ionized flechettes launched in a spread pattern directly\
+    \ from the barrel; or via fragmentation grenades that explode on impact, radiating\
+    \ flechettes in all directions."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
