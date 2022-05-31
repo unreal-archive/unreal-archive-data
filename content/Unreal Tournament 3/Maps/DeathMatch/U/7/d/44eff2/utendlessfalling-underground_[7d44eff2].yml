@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-05-29 16:14"
+variationOf: "354ea22c7beeb4053ba0b8eeea7caa9d9aa93945"
+game: "Unreal Tournament 3"
+name: "UTEndlessFalling-UnderGround"
+author: "Unknown"
+description: ""
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "endlessfalling.rar"
+hash: "7d44eff2e59aca740f1900c4b2aa0cffb1eee00e"
+fileSize: 34173205
+files:
+- name: "STAIR_STAIRSLOGIC.upk"
+  fileSize: 1179541
+  hash: "c09e9935237d1ea8020391addecc4a2cfe33f9cc"
+- name: "UTEndlessFalling-UnderGround.ut3"
+  fileSize: 1749506
+  hash: "9e01534d090906dae9aa81299b5fad5c8bc35c5e"
+- name: "STAIR_SOUND.upk"
+  fileSize: 11640088
+  hash: "32ac63f87a075d03e87f5e102a63dc9ef311b471"
+- name: "Building.upk"
+  fileSize: 78932447
+  hash: "fec7a103c35618a94c23771b27c258ebc625a7c5"
+- name: "Package_StairFirst.upk"
+  fileSize: 5288457
+  hash: "187584dd27687c6984da482c8b2df8d8c59b9d3d"
+- name: "UTEndlessFalling.u"
+  fileSize: 36828
+  hash: "cbad5e53c343251a8e5cd1c127694d21033ed52d"
+- name: "STAIR_BG_FULL.upk"
+  fileSize: 129684
+  hash: "15b2282ef96d87fce21a2a865826bafe60353e1f"
+- name: "STAIR_BG.upk"
+  fileSize: 533799
+  hash: "d34bec6fe48f27c2ec679e01722edcb0105547a4"
+otherFiles: 2
+dependencies:
+  UTEndlessFalling-UnderGround.ut3:
+  - status: "OK"
+    name: "Building"
+  - status: "OK"
+    name: "STAIR_STAIRSLOGIC"
+  - status: "OK"
+    name: "Package_StairFirst"
+  - status: "OK"
+    name: "STAIR_SOUND"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/Unknown/U/7/d/44eff2/endlessfalling.rar"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%203/Maps/DeathMatch/U/7/d/44eff2/endlessfalling.rar"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "UTEndlessFallingDM"
+playerCount: "Unknown"
+themes: {}
+bots: false

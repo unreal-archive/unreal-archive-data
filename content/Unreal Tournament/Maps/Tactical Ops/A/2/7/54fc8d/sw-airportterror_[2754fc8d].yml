@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-18 10:26"
+game: "Unreal Tournament"
+name: "SW-AirportTerror"
+author: "Werner Poetzelberger Converted By OuT-Of-LuCk"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "SW-AirportTerror_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Tactical%20Ops/S/SW-AirportTerror_shot_1.png"
+originalFilename: "TO-AirportTerror.zip"
+hash: "2754fc8dbf402811f7860d625d75e20b13698ed9"
+fileSize: 929829
+files:
+- name: "airport.utx"
+  fileSize: 2480859
+  hash: "c07dab47ab3e5bb86389865ff47d1267676b6b61"
+- name: "SW-AirportTerror.unr"
+  fileSize: 1871839
+  hash: "6bc1d70764471831785622fe4f7705f8ee6f9101"
+- name: "container.utx"
+  fileSize: 88954
+  hash: "27bd92ce6f19da4c58ae912c10516e64ae9f4c59"
+otherFiles: 1
+dependencies:
+  SW-AirportTerror.unr:
+  - status: "OK"
+    name: "container"
+  - status: "MISSING"
+    name: "s_SWAT"
+  - status: "OK"
+    name: "airport"
+downloads:
+- url: "http://ut-files.com/index.php?dir=Maps/TO/TO22/&file=TO-AirportTerror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Tactical%20Ops/S/TO-AirportTerror.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Maps/TO/TO22&file=TO-AirportTerror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Maps/Tactical%20Ops/S/2/7/54fc8d/TO-AirportTerror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Tactical%20Ops/S/2/7/54fc8d/TO-AirportTerror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament/Maps/Tactical%20Ops/S/2/7/54fc8d/TO-AirportTerror.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament/Maps/Tactical%20Ops/A/2/7/54fc8d/TO-AirportTerror.zip"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Tactical Ops"
+title: "Airport Terror"
+playerCount: "6-24"
+themes:
+  Industrial: 1.0
+bots: true
