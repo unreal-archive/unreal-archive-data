@@ -32,8 +32,7 @@ steps:
       PUB_ROOT:
         from_secret: PUB_ROOT
     commands:
-      - apt update && apt install -y rsync openssh-client git-restore-mtime
-      - git restore-mtime
+      - apt update && apt install -y rsync openssh-client
       - ./bin/publish.sh ./
     when:
       ref:
