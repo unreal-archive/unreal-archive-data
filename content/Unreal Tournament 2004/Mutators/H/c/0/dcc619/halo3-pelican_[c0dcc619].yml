@@ -1,0 +1,57 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-06-03 22:04"
+game: "Unreal Tournament 2004"
+name: "Halo3 Pelican"
+author: "Unknown"
+description: "Replaces the Raptor with the Pelican from Halo3"
+releaseDate: "2014-04"
+attachments: []
+originalFilename: "Halo3Pelican_Beta.rar"
+hash: "c0dcc61939e2d052886cfe743e24121346f15c84"
+fileSize: 16870012
+files:
+- name: "SciFi_Vehicles_T.utx"
+  fileSize: 37404303
+  hash: "e8d35ddb92e4968d74e158313ab2c961102e1f52"
+- name: "SciFi_SM.usx"
+  fileSize: 2172566
+  hash: "78c90077455c49914dabfda7985c2001020693f8"
+- name: "SciFiPelican.u"
+  fileSize: 126868
+  hash: "8ca9b7cb6d90c79e9d422cafa3c7351bc8751f32"
+- name: "SciFiPelican_Beta.ukx"
+  fileSize: 5263414
+  hash: "35300f103f6b6301692f2f3d880c0ad2933fb74a"
+- name: "SciFiPelicanSounds.uax"
+  fileSize: 21810
+  hash: "7313c4b12d2d7ddaaf1ee0906f21e9c8066efd73"
+otherFiles: 1
+dependencies:
+  SciFiPelican_Beta.ukx:
+  - status: "OK"
+    name: "SciFi_Vehicles_T"
+  SciFiPelican.u:
+  - status: "OK"
+    name: "SciFiPelican_Beta"
+  - status: "OK"
+    name: "SciFi_SM"
+  SciFi_SM.usx:
+  - status: "OK"
+    name: "SciFi_Vehicles_T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/c/0/dcc619/Halo3Pelican_Beta.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Halo3 Pelican"
+  description: "Replaces the Raptor with the Pelican from Halo3"
+weapons: []
+vehicles:
+- name: "Halo3 Pelican"
+  description: "Halo3 Pelican"
+hasConfigMenu: false
+hasKeybinds: false
