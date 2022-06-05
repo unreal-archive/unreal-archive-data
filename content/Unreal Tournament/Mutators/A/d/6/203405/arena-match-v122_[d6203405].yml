@@ -1,0 +1,99 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:11"
+game: "Unreal Tournament"
+name: "Arena Match v1.22"
+author: "Wormbo"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_3.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_5.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_6.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_1.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_7.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_2.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_4.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_8.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_8.png"
+- type: "IMAGE"
+  name: "ArenaMatch122_Non_UMOD_shot_9.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/ArenaMatch122_Non_UMOD_shot_9.png"
+originalFilename: "ArenaMatch122_non-UMOD.zip"
+hash: "d6203405cfc58867863564df37e3e6e7ee08e3f8"
+fileSize: 307923
+files:
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+- name: "ArenaMatch.u"
+  fileSize: 154772
+  hash: "ace5be87df2fcaf4d9407c924aa3b88341e527ef"
+- name: "EWindow.u"
+  fileSize: 50887
+  hash: "60cbdf25b3e360b628da917113156dbdba171b97"
+otherFiles: 13
+dependencies:
+  ArenaMatch.u:
+  - status: "OK"
+    name: "EnhancedItems"
+  - status: "OK"
+    name: "EWindow"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/Arenas/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/A/ArenaMatch122_non-UMOD.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Arenas&file=ArenaMatch122_non-UMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/A/d/6/203405/ArenaMatch122_non-UMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/A/d/6/203405/ArenaMatch122_non-UMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament/Mutators/A/d/6/203405/ArenaMatch122_non-UMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament/Mutators/A/d/6/203405/ArenaMatch122_non-UMOD.zip"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Arena Match"
+  description: "Play only with the weapon specified in the Mods menu."
+- name: "Arena Physics"
+  description: "Apply the physics modifications selected in the Arena Match configuration."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: true
