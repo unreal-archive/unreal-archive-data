@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-06-03 22:04"
+game: "Unreal Tournament 2004"
+name: "Fuel Rod Guns"
+author: "Unknown"
+description: "Replace all AVRiLs with Fuel Rod Guns."
+releaseDate: "2014-03"
+attachments: []
+originalFilename: "FuelRodGunMod.zip"
+hash: "ac871a6fc9e551af319e176efbc2d2f2f32ca736"
+fileSize: 1560213
+files:
+- name: "FuelRodModTex.utx"
+  fileSize: 12584548
+  hash: "e6efe4f19838bf396631ac8a5cbd4f2f3f72ddd8"
+- name: "FuelRodGunMod.u"
+  fileSize: 63745
+  hash: "cb0bda359250e4295818fc0a20e29be5dee3c1d1"
+otherFiles: 2
+dependencies:
+  FuelRodGunMod.u:
+  - status: "OK"
+    name: "FuelRodModTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/a/c/871a6f/FuelRodGunMod.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Fuel Rod Guns"
+  description: "Replace all AVRiLs with Fuel Rod Guns."
+weapons:
+- name: "Fuel Rod Gun"
+  description: "The AVRiL, or Anti-Vehicle Rocket Launcher, shoots homing missiles\
+    \ that pack quite a punch."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

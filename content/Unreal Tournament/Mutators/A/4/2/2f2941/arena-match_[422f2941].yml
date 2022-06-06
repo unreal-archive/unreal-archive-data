@@ -1,0 +1,103 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2019-02-01 08:11"
+game: "Unreal Tournament"
+name: "Arena Match"
+author: "Wormbo"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "Arenamatch_shot_9.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_9.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_1.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_4.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_5.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_8.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_8.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_7.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_2.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_3.png"
+- type: "IMAGE"
+  name: "Arenamatch_shot_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/A/Arenamatch_shot_6.png"
+originalFilename: "arenamatch.zip"
+hash: "422f2941ba89ae0fdb919558212f4425a2ee7662"
+fileSize: 267175
+files:
+- name: "ArenaMatch.umod"
+  fileSize: 534721
+  hash: "ee2aaecda8618b1da20abde4cfef2155c13d6da3"
+- name: "ArenaMatch.u"
+  fileSize: 73671
+  hash: "291aee0dcf2c751d71bb9c1526596276ff0d9337"
+- name: "EnhancedItems.u"
+  fileSize: 274236
+  hash: "22494c55814b76565b3589895c954f5f10d068ab"
+otherFiles: 13
+dependencies:
+  ArenaMatch.u:
+  - status: "OK"
+    name: "EnhancedItems"
+downloads:
+- url: "http://www.ut-files.com/index.php?dir=GameTypes/Arenas/"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/A/arenamatch.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Apprehension&file=arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://medor.no-ip.org/index.php?dir=Gametypes/Arenas&file=arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://files.vohzd.com/unrealarchive/Unreal%20Tournament/Mutators/A/4/2/2f2941/arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "http://ut-files.com/index.php?dir=GameTypes/Arenas/&file=arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Mutators/A/4/2/2f2941/arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament/Mutators/A/4/2/2f2941/arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament/Mutators/A/4/2/2f2941/arenamatch.zip"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Arena Match"
+  description: "Play only with the weapon specified in the Mods menu."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
