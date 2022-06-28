@@ -1,0 +1,42 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-06-27 14:30"
+variationOf: "1cf4f1669f9ba7e807d255af6db331959b3423db"
+game: "Unreal Tournament 2004"
+name: "Bunny"
+author: "Nullunit2000"
+description: "None"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "bunny_shot_172f2b74_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/B/1/7/2f2b74/bunny_shot_172f2b74_1.png"
+originalFilename: "ut2mdl-bunny.7z"
+hash: "172f2b74398a3b3b40a9bee184149a32d2b7af8c"
+fileSize: 750532
+files:
+- name: "BunnyAnim.ukx"
+  fileSize: 995788
+  hash: "8975fe7dc5d5830da62d0f2d302e945a5d607ed6"
+- name: "BunnyTexture.utx"
+  fileSize: 656980
+  hash: "d0397882a0c71fd74e875e4a6e08d157bf56f040"
+- name: "Bunny.upl"
+  fileSize: 244
+  hash: "bc3389e19cf3d21154d94f01ad218e74a5f75d79"
+otherFiles: 1
+dependencies:
+  BunnyAnim.ukx:
+  - status: "OK"
+    name: "BunnyTexture"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/B/1/7/2f2b74/ut2mdl-bunny.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Bunny"
+skins:
+- "Bunny"
