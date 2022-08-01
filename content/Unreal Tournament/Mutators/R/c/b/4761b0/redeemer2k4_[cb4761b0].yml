@@ -1,0 +1,47 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-08-25 05:51"
+game: "Unreal Tournament"
+name: "Redeemer2k4"
+author: "Unknown"
+description: "None"
+releaseDate: "2018-08"
+attachments: []
+originalFilename: "Redeemer2k4.7z"
+hash: "cb4761b068126d2191d8a81e25ed476f809e4955"
+fileSize: 745049
+files:
+- name: "Vengeance2k4.u"
+  fileSize: 63573
+  hash: "f04605743aefd622312a9233c8149f1327f8095a"
+- name: "Redeemer2k4.u"
+  fileSize: 1361238
+  hash: "7f57eb037a8c444381a0fac3bb600e6e94615f8e"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+otherFiles: 3
+dependencies:
+  Redeemer2k4.u:
+  - status: "OK"
+    name: "EnhancedItems"
+  Vengeance2k4.u:
+  - status: "OK"
+    name: "Redeemer2k4"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/R/c/b/4761b0/Redeemer2k4.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Redeemer 2k4"
+  description: "Upgrade the Redeemer with UT2004 sounds and visual effects."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
