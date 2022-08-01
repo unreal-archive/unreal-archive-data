@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-08-31 02:18"
+game: "Unreal Tournament 3"
+name: "VCTF-{hPCM}-Icefields"
+author: "Unknown"
+description: "Another HardPCM Conversion from HaloCE (hardpcm666@gmail.com). Respect\
+  \ to the original Authors: Microsoft, Bungie, Gearbox."
+releaseDate: "2009-03"
+attachments: []
+originalFilename: "ut3 vctf-hpcm-icefields.zip"
+hash: "87be6be1c16f1b45d7168e32a1f47977943db8e7"
+fileSize: 22032812
+files:
+- name: "RipperLite.u"
+  fileSize: 86868
+  hash: "146de707aa006a9552c412a924b068d4fa3140a2"
+- name: "Hacker.u"
+  fileSize: 57425
+  hash: "a2b807de50c5ccafb105928a0eea77f648ed4f86"
+- name: "VCTF-{hPCM}-Icefields.ut3"
+  fileSize: 18634443
+  hash: "9f92916e005dc606a42ec8e2f8496266d69f9983"
+- name: "hPCM_Script_2009A03M29D.u"
+  fileSize: 126323
+  hash: "73ad055fd5a76e9fa55c39058e73794c4b212e90"
+- name: "VCTF-{hPCM}-Icefields_LOC_FRA.upk"
+  fileSize: 876665
+  hash: "287fc42c89f12bba9abc675103616befacd05165"
+- name: "HackerResources.upk"
+  fileSize: 1205958
+  hash: "7479c36ec77f386fb28f46cb282b30f1db028392"
+- name: "hPCM_Script_2009A03M22D.u"
+  fileSize: 1543536
+  hash: "c439aa89288d9567bc1d0a43ecfd23d3ce95f4cb"
+- name: "hPCM_Stuff_Icefields.upk"
+  fileSize: 6140501
+  hash: "d07c8ef46e5007d073c5c583914e041437649fed"
+- name: "RipperLitePack.upk"
+  fileSize: 118524
+  hash: "5ce93dc66e84b755b8e6ad24c011b57f2b27f4d2"
+otherFiles: 6
+dependencies:
+  Hacker.u:
+  - status: "OK"
+    name: "HackerResources"
+  RipperLite.u:
+  - status: "OK"
+    name: "RipperLitePack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/Vehicle%20CTF/H/8/7/be6be1/ut3%20vctf-hpcm-icefields.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "{hPCM}-Icefields"
+playerCount: "2 to 32  to kick ass now !!!"
+themes: {}
+bots: true
