@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-09-07 11:56"
+game: "Unreal Tournament 2004"
+name: "ONS-AirMars-H3"
+author: "Sean 'Lo Ping' Henry"
+description: "In 2362 the Liandri subsideary 'AirMars' is well on the way to terraforming\
+  \ Mars.   This project is not without its critics.  Two bands of competing environmental\
+  \ groups will stop at nothing to halt the process and save the native Martian single-celled\
+  \ organisms.  Seize the airship core to insure victory."
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "ons-airmars-h3_shot_38c4b94b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/A/3/8/c4b94b/ons-airmars-h3_shot_38c4b94b_1.png"
+originalFilename: "ONS-AirMars-H3.zip"
+hash: "38c4b94bf2c99b334881a85e7e5af3f64b133ece"
+fileSize: 3800137
+files:
+- name: "ONS-AirMars-H3.ut2"
+  fileSize: 10080143
+  hash: "aeea312bd44f0436aad64d34b31d170ff6b43ac2"
+- name: "HornetTex.utx"
+  fileSize: 350767
+  hash: "b6df1975e118ec8325ccca6136ed774868be1bb1"
+- name: "ONSHornet.u"
+  fileSize: 15375
+  hash: "942c957ebf88d7a9026fcdfedd64e82eb7ede6b4"
+otherFiles: 0
+dependencies:
+  ONS-AirMars-H3.ut2:
+  - status: "OK"
+    name: "HornetTex"
+  - status: "OK"
+    name: "ONSHornet"
+  ONSHornet.u:
+  - status: "OK"
+    name: "HornetTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/A/3/8/c4b94b/ONS-AirMars-H3.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Onslaught"
+title: "AirMars"
+playerCount: "18"
+themes:
+  Tech: 0.7
+  Industrial: 0.3
+bots: true
