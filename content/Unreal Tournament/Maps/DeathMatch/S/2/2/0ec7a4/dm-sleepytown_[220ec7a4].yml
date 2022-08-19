@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-08-15 19:37"
+game: "Unreal Tournament"
+name: "DM-SleepyTown"
+author: "T. \"LeTigre\" Ahlen"
+description: "None"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-sleepytown_shot_220ec7a4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/S/2/2/0ec7a4/dm-sleepytown_shot_220ec7a4_1.png"
+originalFilename: "DM-SleepyTownII.zip"
+hash: "220ec7a4441a27be1441c24f8a3e01a9eef258ed"
+fileSize: 32081383
+files:
+- name: "TAhood.utx"
+  fileSize: 2272614
+  hash: "a0e8d0e8e339dfe744994f0fb5a2cae6641ed524"
+- name: "DieH.utx"
+  fileSize: 893029
+  hash: "6410f74233b0db5194496f8a45c43ff9bfbd5290"
+- name: "STREETEX.UTX"
+  fileSize: 6991743
+  hash: "011c59cf97e16e3ed1dfa382981435bbbff838a1"
+- name: "Foom100.utx"
+  fileSize: 6067236
+  hash: "1995758043c0ee029f56e2e97db70aa5c022c098"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "Factory.utx"
+  fileSize: 17489095
+  hash: "82ef6a0b1c245cf6a0c1f26ced9eab51b4cc727e"
+- name: "DM-SleepyTown_II.unr"
+  fileSize: 3503595
+  hash: "b19321247794f39de27aa2ec76a03cf3ccf768ea"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "DM-SleepyTown.unr"
+  fileSize: 2536733
+  hash: "aec2cd84ad3b17765b22a74310dd90b826ca60a5"
+- name: "PlutonicUrban.utx"
+  fileSize: 6223113
+  hash: "eaf8cedd484807583e77769015a74140368a376d"
+- name: "TAsky.utx"
+  fileSize: 177649
+  hash: "c9e33ea78e5993e3f9f79b38675706bb04590a08"
+otherFiles: 1
+dependencies:
+  DM-SleepyTown.unr:
+  - status: "OK"
+    name: "TAsky"
+  - status: "OK"
+    name: "TAhood"
+  DM-SleepyTown_II.unr:
+  - status: "OK"
+    name: "PlutonicUrban"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "Foom100"
+  - status: "OK"
+    name: "DieH"
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "TAsky"
+  - status: "OK"
+    name: "STREETEX"
+  - status: "OK"
+    name: "TAhood"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/S/2/2/0ec7a4/DM-SleepyTownII.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-SleepyTown"
+playerCount: "2-6"
+themes:
+  Tech: 0.1
+  City: 0.2
+  Skaarj Tech: 0.7
+bots: true
