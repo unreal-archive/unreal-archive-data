@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-08-25 05:51"
+game: "Unreal Tournament"
+name: "LongRangeIdentify"
+author: "Wormbo"
+description: "None"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "longrangeidentify_shot_8a90f4cf_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/L/8/a/90f4cf/longrangeidentify_shot_8a90f4cf_1.png"
+originalFilename: "LongRangeIdentify.umod"
+hash: "8a90f4cf46a25f7a013a76e8bf7c231a05adfc60"
+fileSize: 372422
+files:
+- name: "LongRangeIdentify.u"
+  fileSize: 13937
+  hash: "6e9ba092a3ab76a47e9f16ba3786f8f6fb63b85b"
+- name: "LongRangeIdentify.umod"
+  fileSize: 372422
+  hash: "8a90f4cf46a25f7a013a76e8bf7c231a05adfc60"
+- name: "EIConfigWindow.u"
+  fileSize: 20343
+  hash: "b0e348ecaa2eba8b5adbadd707540479e22a102b"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+otherFiles: 5
+dependencies:
+  LongRangeIdentify.u:
+  - status: "OK"
+    name: "EnhancedItems"
+  - status: "OK"
+    name: "EIConfigWindow"
+  EIConfigWindow.u:
+  - status: "OK"
+    name: "EnhancedItems"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/L/8/a/90f4cf/LongRangeIdentify.umod"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Disable Auto-Activate"
+  description: "UT enables auto-activation for all items. Use this mutator to disable\
+    \ that feature on maps with Unreal items."
+- name: "Long Range Target Identify"
+  description: "Make the target identification message appear even if the target is\
+    \ further away."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
