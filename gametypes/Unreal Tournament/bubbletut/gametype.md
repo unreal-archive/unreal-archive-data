@@ -1,9 +1,8 @@
 ### About
-BubbletUT is a new gametype for UT of the popular Bubblet! game out and about
-(www.hobsoft.de/bubblet/bubblet.htm). Bubblet is a logic/puzzle game where you have a
-grid of bubblets to pop. Sounds simple, except that the more bubblets you have connected
-when you pop them, the more points you get for it. Throw in 4 different modes of play, and
-you have a quite challenging (at times) simple little puzzle game.
+BubbletUT is a new gametype for UT of the popular Bubblet! game. Bubblet is a logic/puzzle game 
+where you have a grid of bubblets to pop. Sounds simple, except that the more bubblets you have 
+connected when you pop them, the more points you get for it. Throw in 4 different modes of play,
+and you have a quite challenging (at times) simple little puzzle game.
 
 To play, simply select BubbletUT from the GameType pulldown box under practice game.
 Make sure you do not have any mutators selected, as these might have adverse affects on play.
