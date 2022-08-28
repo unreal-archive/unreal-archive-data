@@ -1,0 +1,61 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2022-08-28"
+game: "Unreal Tournament"
+name: "BubbletUT"
+author: "Martin \"Pfhoenix\" Actor"
+description: "BubbletUT is a new gametype for UT of the popular Bubblet!"
+titleImage: ""
+bannerImage: ""
+links:
+  ModDB: "https://www.moddb.com/mods/bubbletut"
+credits: {}
+gameTypes:
+- name: "BubbletUT"
+  description: ""
+mutators: []
+maps:
+- name: "BUT-Basic"
+  title: "BubbletUT Playing Grounds"
+  author: "Martin \"Pfhoenix\" Actor"
+releases:
+- title: "Release"
+  version: "1.2"
+  releaseDate: "2000-09"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/3098-BubbletUT_Raw.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/bubbletut/3098-BubbletUT_Raw.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/gametypes/Unreal%20Tournament/bubbletut/3098-BubbletUT_Raw.zip"
+      main: false
+      repack: false
+      state: "OK"
+    - url: "https://www.moddb.com/mods/bubbletut/downloads/bubbletut-raw"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "3098-BubbletUT_Raw.zip"
+    hash: "2ae70d7ed8438e183b9742218ef2f18c12fc3c9a"
+    fileSize: 28368
+    synced: true
+    deleted: false
+    files:
+    - name: "BubbletUT.u"
+      fileSize: 64711
+      hash: "2bdefba50643eaa3fe989412d85dc93bb28fad75"
+    - name: "BUT-Basic.unr"
+      fileSize: 29401
+      hash: "533a598c1e208f3aec3763e274c8e2e6bfeb95a0"
+    otherFiles: 2
+    dependencies:
+      BUT-Basic.unr:
+      - status: "OK"
+        name: "BubbletUT"
+  deleted: false
+deleted: false
