@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-08-28 14:54"
+game: "Unreal Tournament 2004"
+name: "Zombies of NightMare"
+author: "]kė]]4h"
+description: "Do you believe in undeads?"
+releaseDate: "2004-12"
+attachments: []
+originalFilename: "Zombies_Of_Nightmare_Final.7z"
+hash: "5558f3e9e8af625554babbd72aa5040f9616ace7"
+fileSize: 12668777
+files:
+- name: "ZombieGib.utx"
+  fileSize: 2843571
+  hash: "80b1cd3d3c9c2b1a8e7917469f805ff9b8f6ac56"
+- name: "ZoNnewTex.utx"
+  fileSize: 22503301
+  hash: "bf96c89a721a040fdcecb1574691d5013f2ee316"
+- name: "MonsterZombies.u"
+  fileSize: 531435
+  hash: "e72d389c10d073324a782c2335677405f1bf1431"
+- name: "ZoNnewMdl.ukx"
+  fileSize: 11288569
+  hash: "c8e64764e4940533cc5cc0e8ad035e09830cd3c9"
+- name: "Trite.ka"
+  fileSize: 77309
+  hash: "2c0c4b3d09edf893ee0bf61a83ee50cb667c5b8e"
+- name: "Zombies.u"
+  fileSize: 1016410
+  hash: "bc78b462186659576def2e5dadef372ebf30416a"
+otherFiles: 4
+dependencies:
+  MonsterZombies.u:
+  - status: "OK"
+    name: "ZombieGib"
+  - status: "OK"
+    name: "ZoNnewTex"
+  - status: "OK"
+    name: "ZoNnewMdl"
+  ZoNnewMdl.ukx:
+  - status: "OK"
+    name: "ZoNnewTex"
+  Zombies.u:
+  - status: "OK"
+    name: "ZoNnewTex"
+  - status: "OK"
+    name: "ZoNnewMdl"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/Z/5/5/58f3e9/Zombies_Of_Nightmare_Final.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Zombies of NightMare"
+  description: "Do you believe in undeads?"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
