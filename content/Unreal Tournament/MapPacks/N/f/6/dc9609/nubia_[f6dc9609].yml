@@ -1,0 +1,70 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-09-04 22:06"
+game: "Unreal Tournament"
+name: "Nubia"
+author: "bongoliath"
+description: "None"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "nubia_shot_f6dc9609_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/N/f/6/dc9609/nubia_shot_f6dc9609_1.png"
+- type: "IMAGE"
+  name: "nubia_shot_f6dc9609_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/N/f/6/dc9609/nubia_shot_f6dc9609_2.png"
+originalFilename: "Nubia.rar"
+hash: "f6dc9609a75ea9a2c9da44ea0d626bdf5aca61ad"
+fileSize: 6664366
+files:
+- name: "DM-Nubia.unr"
+  fileSize: 2412771
+  hash: "a211c24fbf8a3eac408fa1294203c3bf24174fdc"
+- name: "DOM-Nubia.unr"
+  fileSize: 2412593
+  hash: "d1e9682b725ba936e658c603ffdcd9881db6dca4"
+- name: "egyptian.utx"
+  fileSize: 409600
+  hash: "ba96c51b4bfd29e111c7119bcc2ae2d9d5ff068f"
+- name: "JeepThrills.umx"
+  fileSize: 7827081
+  hash: "3ed0424c5760fa7d7fee697055215f2b7cbd9d72"
+otherFiles: 1
+dependencies:
+  DOM-Nubia.unr:
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "OK"
+    name: "egyptian"
+  - status: "MISSING"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "JeepThrills"
+  DM-Nubia.unr:
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "OK"
+    name: "egyptian"
+  - status: "MISSING"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "JeepThrills"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/N/f/6/dc9609/Nubia.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Nubia"
+  title: "DM-Nubia"
+  author: "bongoliath"
+- name: "DOM-Nubia"
+  title: "DM-Nubia"
+  author: "bongoliath"
+gametype: "Mixed"
+themes:
+  Nali Temple: 0.2
+  Industrial: 0.1
+  Egyptian: 0.7
