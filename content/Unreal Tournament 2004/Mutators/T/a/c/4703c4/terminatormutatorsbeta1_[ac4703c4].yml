@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-09-18 16:44"
+game: "Unreal Tournament 2004"
+name: "TerminatorMutatorsBeta1"
+author: "Unknown"
+description: "None"
+releaseDate: "2016-02"
+attachments: []
+originalFilename: "TerminatorMutatorsBeta1.zip"
+hash: "ac4703c42587e8a823caa0e5459fe3440635312a"
+fileSize: 1346256
+files:
+- name: "SPRanim.ukx"
+  fileSize: 539820
+  hash: "57cbc1af9a9671b74f1cec5f6b58ea39e9adcd56"
+- name: "Skynet.u"
+  fileSize: 61955
+  hash: "be1c011e7a07afca3f330514b9ee467b441fe1bf"
+- name: "SkynetSounds.uax"
+  fileSize: 104385
+  hash: "23599ffa75886ebba979069754f5f1d9837ad035"
+- name: "SkynetRifleText.utx"
+  fileSize: 1533648
+  hash: "9b36aa29233de27e2678d7318f95689439c0d1fa"
+- name: "SkynetRifleStatic.usx"
+  fileSize: 243052
+  hash: "bb700256d408f8c5f2ef1be56af76a957a887075"
+otherFiles: 2
+dependencies:
+  Skynet.u:
+  - status: "MISSING"
+    name: "Termtex"
+  - status: "MISSING"
+    name: "Termmesh"
+  - status: "OK"
+    name: "SkynetSounds"
+  - status: "OK"
+    name: "SkynetRifleStatic"
+  - status: "PARTIAL"
+    name: "SkynetRifleText"
+  - status: "OK"
+    name: "SPRanim"
+  SkynetRifleStatic.usx:
+  - status: "OK"
+    name: "SkynetRifleText"
+  SPRanim.ukx:
+  - status: "OK"
+    name: "SkynetRifleText"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/T/a/c/4703c4/TerminatorMutatorsBeta1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Skynet Pulse Rifle"
+  description: "Skynet Terminator's weapon of choice. Change Link Gun for the Skynet\
+    \ Pulse Rifle."
+- name: "Terminator Pulse Rifle"
+  description: "Skynet Terminator's weapon of choice. Change Link Gun for the Skynet\
+    \ Pulse Rifle."
+weapons:
+- name: "SkynetPulseRifle"
+  description: "SkynetPulseRifle"
+- name: "TerminatorPulseRifle"
+  description: "TerminatorPulseRifle"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
