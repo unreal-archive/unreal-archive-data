@@ -1,0 +1,66 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-09-18 10:06"
+game: "Unreal Tournament 2004"
+name: "HL2 Buggy"
+author: "Unknown"
+description: "Replaces the HellBender with the HL2 Buggy"
+releaseDate: "2011-10"
+attachments: []
+originalFilename: "HL2Buggy.zip"
+hash: "a7fc3e734f6fc73b27c03ebca7f42d314660a6c1"
+fileSize: 6447208
+files:
+- name: "ONSHl2Buggy.ukx"
+  fileSize: 1595938
+  hash: "112e591f35d392be38585027afa721c6d3d577b9"
+- name: "HL2BuggyMesh.usx"
+  fileSize: 1938026
+  hash: "9aa6d617201230ab4cce74f59b78cf895557a434"
+- name: "HL2BuggySounds.uax"
+  fileSize: 996515
+  hash: "ba019df826d38453eaa633f5652af32971da9e13"
+- name: "ONSHL2Tex.utx"
+  fileSize: 6030387
+  hash: "c3ed3efc0c8757b0844797832f6073087c963389"
+- name: "HL2BuggyTex.utx"
+  fileSize: 5942713
+  hash: "259a4f9f4a80a36f7cb4830d42bb3ff2b61012b7"
+- name: "HL2Buggy.u"
+  fileSize: 26424
+  hash: "388ef4fa347f55450f5ce51dabab363fadc7c13a"
+otherFiles: 1
+dependencies:
+  ONSHl2Buggy.ukx:
+  - status: "OK"
+    name: "HL2BuggyMesh"
+  - status: "PARTIAL"
+    name: "ONSHL2Tex"
+  HL2BuggyMesh.usx:
+  - status: "PARTIAL"
+    name: "ONSHL2Tex"
+  HL2Buggy.u:
+  - status: "OK"
+    name: "ONSHl2Buggy"
+  - status: "OK"
+    name: "ONSHL2Tex"
+  - status: "OK"
+    name: "HL2BuggyMesh"
+  - status: "OK"
+    name: "HL2BuggySounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/a/7/fc3e73/HL2Buggy.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "HL2 Buggy"
+  description: "Replaces the HellBender with the HL2 Buggy"
+weapons: []
+vehicles:
+- name: "Half Life Buggy"
+  description: "Half Life Buggy"
+hasConfigMenu: false
+hasKeybinds: false
