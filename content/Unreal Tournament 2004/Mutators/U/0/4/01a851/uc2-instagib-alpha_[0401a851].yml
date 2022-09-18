@@ -1,0 +1,89 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-09-18 08:48"
+game: "Unreal Tournament 2004"
+name: "UC2 InstaGib Alpha"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-04"
+attachments: []
+originalFilename: "UC2_InstaGib_Alpha.rar"
+hash: "0401a851e55d7522b643f747a72d617ca9216cf0"
+fileSize: 3683185
+files:
+- name: "UC2WeaponSounds.uax"
+  fileSize: 2791927
+  hash: "6d5fef0a5705e31109878ac29ffa54911bfbbd9e"
+- name: "UC2_InstaGib_v1.u"
+  fileSize: 82435
+  hash: "95303a7e8f97f134b060f92907f5ef0776bbbe41"
+- name: "UC2WeaponAnimations.ukx"
+  fileSize: 3077366
+  hash: "063b83dd3a6386ad5656a02c1340799a3ba8d2bc"
+- name: "UC2WeaponMaterials.utx"
+  fileSize: 2867569
+  hash: "43b9ca161c60bd9e288b0b798e2ec95aec7868a5"
+- name: "UC2SniperRifle.u"
+  fileSize: 35852
+  hash: "13a4c176c3f999f9f5334baa1d63635391da0158"
+- name: "UC2WeaponStatic.usx"
+  fileSize: 1070436
+  hash: "33abc8650ee21e9a85e8fbf933404e44b5242b9d"
+otherFiles: 2
+dependencies:
+  UC2SniperRifle.u:
+  - status: "OK"
+    name: "UC2WeaponSounds"
+  - status: "OK"
+    name: "UC2WeaponAnimations"
+  - status: "OK"
+    name: "UC2WeaponStatic"
+  - status: "OK"
+    name: "UC2WeaponMaterials"
+  UC2_InstaGib_v1.u:
+  - status: "OK"
+    name: "UC2WeaponSounds"
+  - status: "OK"
+    name: "UC2WeaponAnimations"
+  - status: "OK"
+    name: "UC2WeaponStatic"
+  - status: "OK"
+    name: "UC2WeaponMaterials"
+  UC2WeaponStatic.usx:
+  - status: "OK"
+    name: "UC2WeaponMaterials"
+  UC2WeaponAnimations.ukx:
+  - status: "OK"
+    name: "UC2WeaponMaterials"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/0/4/01a851/UC2_InstaGib_Alpha.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UC2 Sniper Rifles"
+  description: "Replace all sniper rifles or lightning guns with the UC2 Sniper Rifle."
+- name: "UC2 Sniper InstaGib"
+  description: "Instant-kill combat with modified Sniper Rifles from Unreal Championship\
+    \ 2."
+weapons:
+- name: "Unreal Championship 2 Sniper Rifle"
+  description: "The old Axon Research long-range target interdiction rifle is the\
+    \ weapon of choice for the discerning Sniper. A Tyridium bullet is charged with\
+    \ anti-photons to create a instant-kill shot no matter the distace."
+- name: "Insta-Gib Shield Gun"
+  description: "The Kemphler DD280 Riot Control Device has the ability to resist and\
+    \ reflect incoming projectiles and energy beams. The plasma wave inflicts massive\
+    \ damage, rupturing tissue, pulverizing organs, and flooding the bloodstream with\
+    \ dangerous gas bubbles.||This weapon may be intended for combat at close range,\
+    \ but when wielded properly should be considered as dangerous as any other armament\
+    \ in your arsenal."
+- name: "Insta-Gib Sniper Rifle"
+  description: "The old Axon Research long-range target interdiction rifle is the\
+    \ weapon of choice for the discerning Sniper. A Tyridium bullet is charged with\
+    \ anti-photons to create a instant-kill shot no matter the distace."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
