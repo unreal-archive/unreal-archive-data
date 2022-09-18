@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-09-17 10:59"
+game: "Unreal Tournament"
+name: "DM-1z-Marks-Town-1z"
+author: "Mark Innes"
+description: "funena"
+releaseDate: "2009-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-1z-marks-town-1z_shot_ad7b569b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/a/d/7b569b/dm-1z-marks-town-1z_shot_ad7b569b_1.png"
+originalFilename: "marks_town_ut99.rar"
+hash: "ad7b569bdb3f778cf1edc4d0d7ac065ca4eaa000"
+fileSize: 6852221
+files:
+- name: "MyLevel.utx"
+  fileSize: 88978
+  hash: "41ac2ea927fcc277b90f452feab3e3cb9b58e697"
+- name: "DM-1z-Marks-Town-1z.unr"
+  fileSize: 9215098
+  hash: "882f0c269251c394539c734f1b7d540fbd641415"
+- name: "[UT]A1MyTown.utx"
+  fileSize: 11775578
+  hash: "5c9ef328dc4d7e41fabcc8e5cdc66894af546dfb"
+- name: "Doors.uax"
+  fileSize: 392257
+  hash: "6b6f9c7ebb1cbbfc200bfeaceedfbe2ffbbe0378"
+otherFiles: 1
+dependencies:
+  DM-1z-Marks-Town-1z.unr:
+  - status: "OK"
+    name: "[UT]A1MyTown"
+  - status: "OK"
+    name: "Doors"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/a/d/7b569b/marks_town_ut99.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Marks-Town"
+playerCount: "Unknown"
+themes:
+  City: 0.3
+  Industrial: 0.2
+  Ancient: 0.5
+bots: true
