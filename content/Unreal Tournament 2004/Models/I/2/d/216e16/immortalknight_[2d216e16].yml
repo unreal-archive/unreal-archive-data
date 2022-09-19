@@ -1,0 +1,47 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-09-19 01:01"
+game: "Unreal Tournament 2004"
+name: "ImmortalKnight"
+author: "Unknown"
+description: "None"
+releaseDate: "2011-10"
+attachments:
+- type: "IMAGE"
+  name: "immortalknight_shot_2d216e16_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/I/2/d/216e16/immortalknight_shot_2d216e16_1.png"
+originalFilename: "IK-KNIGHT-V1.zip"
+hash: "2d216e160363d1f9f91e51b45f95dde3ddf27fd4"
+fileSize: 2654507
+files:
+- name: "ImmortalKnight.upl"
+  fileSize: 445
+  hash: "c7d5546cf9a821b35cdf3a9ba2452354417b3664"
+- name: "IK_ModelTextures.utx"
+  fileSize: 875203
+  hash: "ab8fe25e3b292ebb675f2e80ee301ebe6a62f4a0"
+- name: "ImmortalKnightMod.u"
+  fileSize: 985
+  hash: "250e15f117bf1bf4000d9c897928bb54005ece7a"
+- name: "IK_PlayerModel.ukx"
+  fileSize: 3977014
+  hash: "7b0b14df6903960bf9254b30200a47056a8d5217"
+otherFiles: 3
+dependencies:
+  IK_PlayerModel.ukx:
+  - status: "OK"
+    name: "IK_ModelTextures"
+  ImmortalKnightMod.u:
+  - status: "OK"
+    name: "IK_ModelTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/I/2/d/216e16/IK-KNIGHT-V1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "ImmortalKnight"
+skins:
+- "ImmortalKnight"
