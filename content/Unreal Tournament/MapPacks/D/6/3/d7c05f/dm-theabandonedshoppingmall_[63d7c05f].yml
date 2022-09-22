@@ -1,0 +1,67 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-10-13 00:03"
+game: "Unreal Tournament"
+name: "DM TheAbandonedShoppingMall"
+author: "Jeff Martin jm@islandalien.com"
+description: "None"
+releaseDate: "2021-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-theabandonedshoppingmall_shot_63d7c05f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/6/3/d7c05f/dm-theabandonedshoppingmall_shot_63d7c05f_1.png"
+- type: "IMAGE"
+  name: "dm-theabandonedshoppingmall_shot_63d7c05f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/6/3/d7c05f/dm-theabandonedshoppingmall_shot_63d7c05f_2.png"
+originalFilename: "DM-TheAbandonedShoppingMall.zip"
+hash: "63d7c05f980d12a5dfaa1517e9d76ff54b2dc3c2"
+fileSize: 21179609
+files:
+- name: "CTF-TheAbandonedShoppingMall.unr"
+  fileSize: 4314530
+  hash: "afce9e2e18140a3a5ee6746641794fc03e7f2085"
+- name: "asmTex.utx"
+  fileSize: 17983682
+  hash: "0697b2ccb175a1fa31c89a53f2392f44bab0f517"
+- name: "asmSound.uax"
+  fileSize: 3120593
+  hash: "55e8d37e592f61f7522b6d41065c72663ed0222a"
+- name: "DM-TheAbandonedShoppingMall.unr"
+  fileSize: 4260648
+  hash: "9ed950b510b57580966b762f800cedf4f7e9006d"
+- name: "angie420.umx"
+  fileSize: 6008209
+  hash: "433687186e3c2f29f8a163abc539f7372533683d"
+otherFiles: 1
+dependencies:
+  DM-TheAbandonedShoppingMall.unr:
+  - status: "OK"
+    name: "asmTex"
+  - status: "OK"
+    name: "angie420"
+  - status: "OK"
+    name: "asmSound"
+  CTF-TheAbandonedShoppingMall.unr:
+  - status: "OK"
+    name: "asmTex"
+  - status: "OK"
+    name: "angie420"
+  - status: "OK"
+    name: "asmSound"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/6/3/d7c05f/DM-TheAbandonedShoppingMall.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CTF-TheAbandonedShoppingMall"
+  title: "The Abandoned Shopping Mall"
+  author: "Jeff Martin jm@islandalien.com"
+- name: "DM-TheAbandonedShoppingMall"
+  title: "The Abandoned Shopping Mall"
+  author: "Jeff Martin jm@islandalien.com"
+gametype: "Mixed"
+themes:
+  City: 1.0
