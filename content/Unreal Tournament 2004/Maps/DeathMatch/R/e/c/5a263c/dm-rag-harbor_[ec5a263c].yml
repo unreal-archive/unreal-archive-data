@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-06 07:03"
+game: "Unreal Tournament 2004"
+name: "DM-RAG-Harbor"
+author: "=RAG=Feuersturm"
+description: "We, the RAG Technology Corporation load and unload your ships as fast\
+  \ as possible and with great pleasure. We transport your cargo on the fastest and\
+  \ most secure way. Put believe in us, you won't regret it."
+releaseDate: "2010-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-rag-harbor_shot_ec5a263c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/e/c/5a263c/dm-rag-harbor_shot_ec5a263c_1.png"
+- type: "IMAGE"
+  name: "dm-rag-harbor_shot_ec5a263c_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/e/c/5a263c/dm-rag-harbor_shot_ec5a263c_4.png"
+- type: "IMAGE"
+  name: "dm-rag-harbor_shot_ec5a263c_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/e/c/5a263c/dm-rag-harbor_shot_ec5a263c_3.png"
+- type: "IMAGE"
+  name: "dm-rag-harbor_shot_ec5a263c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/e/c/5a263c/dm-rag-harbor_shot_ec5a263c_2.png"
+originalFilename: "ut-2004 dm-rag-harbor.zip"
+hash: "ec5a263c9b77da27a1666ccf44bb6afdf78a2a59"
+fileSize: 19500776
+files:
+- name: "VCTFHarborTexes.utx"
+  fileSize: 12791395
+  hash: "c86159098d0459c443d39e6524e96d69a6962196"
+- name: "Recoil.ogg"
+  fileSize: 3605429
+  hash: "5e9e9a9ad0b002246510895837be3c92cce81bde"
+- name: "DM-RAG-Harbor.ut2"
+  fileSize: 17738985
+  hash: "a185c6c6dc5e931d5eabae55ac130467c70e6f4b"
+- name: "VCTFHarborSM.usx"
+  fileSize: 5231877
+  hash: "242f4b112fd5a80d09058c91094520d6307a6daa"
+otherFiles: 4
+dependencies:
+  DM-RAG-Harbor.ut2:
+  - status: "OK"
+    name: "VCTFHarborTexes"
+  - status: "OK"
+    name: "VCTFHarborSM"
+  VCTFHarborSM.usx:
+  - status: "OK"
+    name: "VCTFHarborTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/e/c/5a263c/ut-2004%20dm-rag-harbor.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "RAG Technology Corp. Harbor"
+playerCount: "12"
+themes:
+  Tech: 1.0
+bots: true
