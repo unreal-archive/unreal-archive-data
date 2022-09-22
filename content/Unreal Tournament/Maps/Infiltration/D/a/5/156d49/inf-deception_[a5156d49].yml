@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-09-15 13:09"
+game: "Unreal Tournament"
+name: "INF-Deception"
+author: "ZipIce or DarkSide"
+description: "None"
+releaseDate: "2003-05"
+attachments: []
+originalFilename: "inf-deception.zip"
+hash: "a5156d49c0cb1e5e7825ad5a7d318499b8d92cd3"
+fileSize: 5100589
+files:
+- name: "INF-Deception.unr"
+  fileSize: 1217124
+  hash: "1fc9b9183d2d38e5d3cfd5325b343f9977eae6df"
+- name: "Textures_CW.utx"
+  fileSize: 952265
+  hash: "c9a6d878a8ff54af6c6a1f21c8274ef127f91eda"
+- name: "Cow_Inf.utx"
+  fileSize: 1097686
+  hash: "0c9ec547595e62d7904ca46e8dbb00a6003dbae0"
+- name: "castle1.utx"
+  fileSize: 4533635
+  hash: "4290e57d2b029dba45fbba6a127f08e55b1f49b0"
+otherFiles: 1
+dependencies:
+  INF-Deception.unr:
+  - status: "OK"
+    name: "Cow_Inf"
+  - status: "OK"
+    name: "Textures_CW"
+  - status: "MISSING"
+    name: "UPak"
+  - status: "MISSING"
+    name: "infiltration"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Infiltration/D/a/5/156d49/inf-deception.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Infiltration"
+title: "INF-Deception"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.6
+  Skaarj Tech: 0.3
+bots: true
