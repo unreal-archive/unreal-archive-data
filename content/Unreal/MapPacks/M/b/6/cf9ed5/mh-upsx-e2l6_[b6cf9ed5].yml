@@ -1,0 +1,71 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-10-14 22:58"
+game: "Unreal"
+name: "MH UPSX E2L6"
+author: "Matthew Kagle (mod by Leo)"
+description: "None"
+releaseDate: "2009-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-upsx-e2l6_shot_b6cf9ed5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/M/b/6/cf9ed5/mh-upsx-e2l6_shot_b6cf9ed5_1.png"
+originalFilename: "MH-UPSX-E2L6.rar"
+hash: "b6cf9ed5a50a0c06b97e0d2498c26954c22e0217"
+fileSize: 2408594
+files:
+- name: "E2L6MH.unr"
+  fileSize: 2720314
+  hash: "d44b6d65c2cae7a0eda5ea240bf959c7569bb2c7"
+- name: "Fourth.umx"
+  fileSize: 917601
+  hash: "182a935d9c4234ba79066fde68456901f97ae101"
+- name: "zxu97StarOne.umx"
+  fileSize: 707847
+  hash: "65e1758702eabdf3226ffa946d590b56742dc15d"
+- name: "MH-UPSX-E2L6.unr"
+  fileSize: 2818798
+  hash: "284a1465fb49da2183aea12ee085ad73779f2ceb"
+- name: "zxu97Dusk.umx"
+  fileSize: 581680
+  hash: "e3fd25feca4d6ef41999b6db6939fead225ff447"
+otherFiles: 2
+dependencies:
+  MH-UPSX-E2L6.unr:
+  - status: "OK"
+    name: "zxu97Dusk"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "zxu97StarOne"
+  - status: "MISSING"
+    name: "NPScript"
+  E2L6MH.unr:
+  - status: "OK"
+    name: "zxu97Dusk"
+  - status: "OK"
+    name: "zxu97StarOne"
+  - status: "MISSING"
+    name: "NPScript"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/M/b/6/cf9ed5/MH-UPSX-E2L6.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "E2L6MH"
+  title: "Secret Laboratory"
+  author: "Matthew Kagle (mod by Leo)"
+- name: "MH-UPSX-E2L6"
+  title: "Secret Laboratory"
+  author: "Matthew Kagle (mod by Leo)"
+gametype: "Monster Hunt"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.2
+  Skaarj Tech: 0.1
+  Ancient: 0.6

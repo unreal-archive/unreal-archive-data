@@ -1,0 +1,88 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-10-14 22:58"
+game: "Unreal"
+name: "MH UPSX E2L7"
+author: "Matthew Kagle (mod by Leo)"
+description: "None"
+releaseDate: "2009-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-upsx-e2l7_shot_0552ebf3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/M/0/5/52ebf3/mh-upsx-e2l7_shot_0552ebf3_1.png"
+originalFilename: "MH-UPSX-E2L7.rar"
+hash: "0552ebf338cf269fbbfc299892ac394821373d75"
+fileSize: 3635748
+files:
+- name: "zxu97Orch3.umx"
+  fileSize: 718801
+  hash: "d256fa1b9bf5807617cf3224f22eb7b30270b5f5"
+- name: "zxu97Magnus.umx"
+  fileSize: 814766
+  hash: "b0dc8fe158227185bb6d6804ad81634fcd7267b3"
+- name: "E2L7MH.unr"
+  fileSize: 2906215
+  hash: "cc76371dbc7f23ee581bad814d5ce9a1a5954dd7"
+- name: "zxu97Inoxx.umx"
+  fileSize: 561506
+  hash: "a3559c347cd9dd3c364b1cea88e3ff4c691e32cc"
+- name: "zxu97Unreal2.umx"
+  fileSize: 681065
+  hash: "8751c6b16cb3041958247703023fbccd69c37892"
+- name: "MH-UPSX-E2L7.unr"
+  fileSize: 3005695
+  hash: "3c1e8d5bda7c3d124bfc150def9e186e89f80ce1"
+otherFiles: 2
+dependencies:
+  E2L7MH.unr:
+  - status: "OK"
+    name: "zxu97Inoxx"
+  - status: "OK"
+    name: "zxu97Unreal2"
+  - status: "MISSING"
+    name: "Crypt_FX"
+  - status: "MISSING"
+    name: "NPScript"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "OK"
+    name: "zxu97Magnus"
+  - status: "OK"
+    name: "zxu97Orch3"
+  MH-UPSX-E2L7.unr:
+  - status: "OK"
+    name: "zxu97Inoxx"
+  - status: "OK"
+    name: "zxu97Unreal2"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "Crypt_FX"
+  - status: "MISSING"
+    name: "NPScript"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "OK"
+    name: "zxu97Magnus"
+  - status: "OK"
+    name: "zxu97Orch3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/M/0/5/52ebf3/MH-UPSX-E2L7.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "E2L7MH"
+  title: "Ancient Ship"
+  author: "Matthew Kagle (mod by Leo)"
+- name: "MH-UPSX-E2L7"
+  title: "Ancient Ship"
+  author: "Matthew Kagle (mod by Leo)"
+gametype: "Monster Hunt"
+themes:
+  Nali Temple: 0.3
+  Skaarj Crypt: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.4
