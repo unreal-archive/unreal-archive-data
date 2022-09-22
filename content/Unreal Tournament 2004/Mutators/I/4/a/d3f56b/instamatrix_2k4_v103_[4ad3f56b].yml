@@ -1,0 +1,100 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-07 04:26"
+game: "Unreal Tournament 2004"
+name: "InstaMatrix_2k4_v103"
+author: "Unknown"
+description: "Instant-kill combat with modified weapons."
+releaseDate: "2005-05"
+attachments: []
+originalFilename: "im2k4-beta.zip"
+hash: "4ad3f56b652ff053417de4fd6d528d7de226edb4"
+fileSize: 15111108
+files:
+- name: "InstaMatrix_2k4_v103.u"
+  fileSize: 534916
+  hash: "7b362096cbbd5c84646796702a5f6d9231c4efb5"
+- name: "IM_Textures.utx"
+  fileSize: 13662405
+  hash: "91e6f6fb06905e1c414abb1369683e88cf3289f7"
+- name: "IM_TeamTex.utx"
+  fileSize: 26158529
+  hash: "35e38993ae8778c8016d2bff237e20dfa3c68d22"
+otherFiles: 3
+dependencies:
+  InstaMatrix_2k4_v103.u:
+  - status: "OK"
+    name: "IM_TeamTex"
+  - status: "OK"
+    name: "IM_Textures"
+  IM_TeamTex.utx:
+  - status: "OK"
+    name: "IM_Textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/I/4/a/d3f56b/im2k4-beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "InstaMatrix_2k4_v103"
+  description: "Instant-kill combat with modified weapons."
+weapons:
+- name: "IM-Assault Rifle"
+  description: "Inexpensive and easily produced, the AR770 provides a lightweight\
+    \ 5.56mm combat solution that is most effective against unarmored foes. With low-to-moderate\
+    \ armor penetration capabilities, this rifle is best suited to a role as a light\
+    \ support weapon.|The optional M355 Grenade Launcher provides the punch that makes\
+    \ this weapon effective against heavily armored enemies.  Pick up a second assault\
+    \ rifle to double your fire power."
+- name: "IM-Bio-Rifle"
+  description: "IM-Bio-Rifle"
+- name: "IM-Flak Cannon"
+  description: "IM-Flak Cannon"
+- name: "IM-Link Gun"
+  description: "Riordan Dynamic Weapon Systems combines the best of weapon design\
+    \ in the Advanced Plasma Rifle v23, commonly known as the Link Gun.|While the\
+    \ primary firing mode of the Link remains the same as its plasma-firing predecessor,\
+    \ the secondary cutting torch has been replaced with a switchable energy matrix.\
+    \ Upon contacting a teammate, it converts to a harmless carrier stream, offloading\
+    \ energy from the onboard cells to boost the output of any targeted player also\
+    \ using the Link.|It should be noted that while players are boosting a teammate,\
+    \ they are unable to defend themselves from attack."
+- name: "IM-Minigun"
+  description: "The Schultz-Metzger T23-A 23mm rotary cannon is capable of firing\
+    \ both high-velocity caseless ammunition and cased rounds. With an unloaded weight\
+    \ of only 8 kilograms, the T23 is portable and maneuverable, easily worn across\
+    \ the back when employing the optional carrying strap.|The T23-A is the rotary\
+    \ cannon of choice for the discerning soldier."
+- name: "IM-Rocket Launcher"
+  description: "IM-Rocket Launcher"
+- name: "IM-Shield Gun"
+  description: "The Kemphler DD280 Riot Control Device has the ability to resist and\
+    \ reflect incoming projectiles and energy beams. The plasma wave inflicts massive\
+    \ damage, rupturing tissue, pulverizing organs, and flooding the bloodstream with\
+    \ dangerous gas bubbles.||This weapon may be intended for combat at close range,\
+    \ but when wielded properly should be considered as dangerous as any other armament\
+    \ in your arsenal."
+- name: "IM-Shock Rifle"
+  description: "The ASMD Shock Rifle has changed little since its incorporation into\
+    \ the Tournaments. The ASMD sports two firing modes capable of acting in concert\
+    \ to neutralize opponents in a devastating shockwave.||This combination attack\
+    \ is achieved when the weapon operator utilizes the secondary fire mode to deliver\
+    \ a charge of seeded plasma to the target.|Once the slow-moving plasma charge\
+    \ is within range of the target, the weapon operator may fire the photon beam\
+    \ into the plasma core, releasing the explosive energy of the anti-photons contained\
+    \ within the plasma's EM field."
+- name: "IM-Lightning Gun"
+  description: "IM-Lightning Gun"
+- name: "IM-TransLocator"
+  description: "IM Translocator"
+- name: "IM-Sniper Rifle"
+  description: "This high muzzle velocity sniper rifle with a 10X scope is a lethal\
+    \ weapon at any range, especially if you can land a head shot."
+- name: "IM-Mine Layer"
+  description: "The Spider Mine Layer is used for deploying spider mines, autonomous\
+    \ mobile mines that are highly effective against both foot soldiers and vehicles."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
