@@ -1,0 +1,94 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-10-06 07:22"
+game: "Unreal Tournament 2004"
+name: "UEMDefanceMaps"
+author: "U.E.M"
+description: "None"
+releaseDate: "2008-07"
+attachments:
+- type: "IMAGE"
+  name: "uemdefancemaps_shot_544b3790_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/5/4/4b3790/uemdefancemaps_shot_544b3790_2.png"
+- type: "IMAGE"
+  name: "uemdefancemaps_shot_544b3790_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/5/4/4b3790/uemdefancemaps_shot_544b3790_1.png"
+- type: "IMAGE"
+  name: "uemdefancemaps_shot_544b3790_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/5/4/4b3790/uemdefancemaps_shot_544b3790_3.png"
+originalFilename: "UEMDefanceMaps.zip"
+hash: "544b37900a084456d9029ff0defd4d3c6cddb127"
+fileSize: 21360647
+files:
+- name: "CTF-{UEM}-Defance.ut2"
+  fileSize: 13300897
+  hash: "4b64c3719d515250aadb1474a4ae1d5cf84fae0b"
+- name: "DM-{aNtiBot}-Defance.ogg"
+  fileSize: 2434782
+  hash: "593170a23f2d671924252b658c22ed5b7a8ea248"
+- name: "ONSDefanceTexes.utx"
+  fileSize: 4285942
+  hash: "74099c1601406f04212df458e8878c9f6312a454"
+- name: "Riverbe3.ogg"
+  fileSize: 1644962
+  hash: "4fe609755e960b1ad526bf9c4455d1f05ca24422"
+- name: "ONS-{UEM}-Defance.ut2"
+  fileSize: 11171902
+  hash: "22154dc7cd7d7fc27f7e2ddb47248697e70947a6"
+- name: "CTFDefanceSM.usx"
+  fileSize: 1124460
+  hash: "22b23f733fecee4bba1e0f1ee4ad35029d521ad4"
+- name: "CTFDefanceTexes.utx"
+  fileSize: 1793738
+  hash: "ca40599f63142b83984b77064a2e8afe40bbb79d"
+- name: "DTR-c-Action.ogg"
+  fileSize: 2726652
+  hash: "af322c6c31d1d5fe5ba6eaf3d9a8b9367dc8971c"
+- name: "ONSDefanceSM.usx"
+  fileSize: 545737
+  hash: "6d6506c742874ba307a453a629843c0443b89761"
+- name: "DM-{UEM}-Defance.ut2"
+  fileSize: 16232029
+  hash: "98f727e2dbfe6b2b4b4696dac03c36d1a025e2af"
+otherFiles: 3
+dependencies:
+  ONSDefanceSM.usx:
+  - status: "OK"
+    name: "ONSDefanceTexes"
+  CTF-{UEM}-Defance.ut2:
+  - status: "OK"
+    name: "CTFDefanceSM"
+  - status: "OK"
+    name: "CTFDefanceTexes"
+  CTFDefanceSM.usx:
+  - status: "OK"
+    name: "CTFDefanceTexes"
+  DM-{UEM}-Defance.ut2:
+  - status: "OK"
+    name: "CTFDefanceSM"
+  ONS-{UEM}-Defance.ut2:
+  - status: "OK"
+    name: "ONSDefanceTexes"
+  - status: "OK"
+    name: "ONSDefanceSM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/U/5/4/4b3790/UEMDefanceMaps.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "ONS-{UEM}-Defance"
+  title: "Defance"
+  author: "U.E.M"
+- name: "CTF-{UEM}-Defance"
+  title: "Defance"
+  author: "U.E.M"
+- name: "DM-{UEM}-Defance"
+  title: "Defance"
+  author: "U.E.M"
+gametype: "Mixed"
+themes:
+  Natural: 0.3
+  Ancient: 0.7
