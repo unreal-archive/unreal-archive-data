@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-02 09:34"
+game: "Unreal Tournament 2004"
+name: "DM-1on1-{Fs}-Hastings"
+author: "Feuersturm"
+description: "This base represents a reproduction of Operation Hastings of the official\
+  \ Battlefield Bad Company 2 Vietnam addon! I hope you like it! See you on the battlefield!"
+releaseDate: "2012-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1-fs-hastings_shot_2ecf52a0_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/F/2/e/cf52a0/dm-1on1-fs-hastings_shot_2ecf52a0_3.png"
+- type: "IMAGE"
+  name: "dm-1on1-fs-hastings_shot_2ecf52a0_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/F/2/e/cf52a0/dm-1on1-fs-hastings_shot_2ecf52a0_4.png"
+- type: "IMAGE"
+  name: "dm-1on1-fs-hastings_shot_2ecf52a0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/F/2/e/cf52a0/dm-1on1-fs-hastings_shot_2ecf52a0_1.png"
+- type: "IMAGE"
+  name: "dm-1on1-fs-hastings_shot_2ecf52a0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/1%20on%201/F/2/e/cf52a0/dm-1on1-fs-hastings_shot_2ecf52a0_2.png"
+originalFilename: "DM-1on1-{Fs}-Hastings.zip"
+hash: "2ecf52a0c930433cb8d0ea611e7dc1da752efa85"
+fileSize: 28165808
+files:
+- name: "DM-1on1-{Fs}-Hastings.ut2"
+  fileSize: 13246360
+  hash: "7af9bcc72870943950751f2f2cac9e1162b6cb73"
+- name: "VCTFBattlegroundSM.usx"
+  fileSize: 11330520
+  hash: "0d68d93220c84a0cb2017df99c2d839a65ff590d"
+- name: "CTFDownFallTexes.utx"
+  fileSize: 7457727
+  hash: "0f1a43ae1e203e3e2bb42d8ab5932dad4eaee2d7"
+- name: "DMBattleground.ogg"
+  fileSize: 5396107
+  hash: "43a508fe0e8751d3e9dd83b492505a97934188e1"
+- name: "CTFDownFallSM.usx"
+  fileSize: 2825762
+  hash: "94d1e495d15f160b9a4432b06c1953ceb6656731"
+- name: "VCTFBattlegroundTexes.utx"
+  fileSize: 10449422
+  hash: "6ef806a167c0bff0e1a3f1255e256ed4ff37ef37"
+otherFiles: 4
+dependencies:
+  CTFDownFallSM.usx:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  DM-1on1-{Fs}-Hastings.ut2:
+  - status: "OK"
+    name: "VCTFBattlegroundTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+  VCTFBattlegroundSM.usx:
+  - status: "OK"
+    name: "VCTFBattlegroundTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/1%20on%201/F/2/e/cf52a0/DM-1on1-%7BFs%7D-Hastings.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "1 on 1"
+title: "Hastings"
+playerCount: "2"
+themes:
+  Ancient: 1.0
+bots: true
