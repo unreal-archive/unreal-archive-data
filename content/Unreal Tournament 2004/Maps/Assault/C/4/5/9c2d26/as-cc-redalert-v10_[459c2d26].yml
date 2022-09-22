@@ -1,0 +1,91 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-01 13:14"
+game: "Unreal Tournament 2004"
+name: "AS-C&C-RedAlert-v10"
+author: "Tsumetai"
+description: "The sequal to the famous Fort Sport Command & Conquer map. Based on\
+  \ the old game Command & Conquer Red Alert. The object of the game is to build your\
+  \ base fisrt."
+releaseDate: "2011-09"
+attachments:
+- type: "IMAGE"
+  name: "as-cc-redalert-v10_shot_459c2d26_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/C/4/5/9c2d26/as-cc-redalert-v10_shot_459c2d26_1.png"
+originalFilename: "AS-C&C-ReAlert.zip"
+hash: "459c2d26c571ea26ff855735646b6ddcc52e9ac6"
+fileSize: 13683649
+files:
+- name: "AS-C&C-RedAlert-v10.ut2"
+  fileSize: 16667018
+  hash: "13947985b2f09dff9463e073c8983185fb1a15cf"
+- name: "CACRedAlertMeshTwo.ukx"
+  fileSize: 1259451
+  hash: "8c945158575ffac343aafcf6b7bd678186636cd7"
+- name: "CACRedAlertSounds.uax"
+  fileSize: 1216025
+  hash: "c9c4988df5e82cf0a7fb2d47cb718b9227e7f878"
+- name: "CACRedAlertTwo.u"
+  fileSize: 215556
+  hash: "cf2a0367bca1e5a55956144068d704f4a5113881"
+- name: "CACRedAlertTex.utx"
+  fileSize: 5337843
+  hash: "dc517a86cd956cf22cf6a25bf81d6305058fcac1"
+- name: "CACRedAlertStaticTwo.usx"
+  fileSize: 304946
+  hash: "49706b14e8d362a3e24c4b68d6fadaccbbcdba84"
+- name: "CACRedAlertTexEx.utx"
+  fileSize: 7166988
+  hash: "405abac3bbeead5ed9b9d013c991894fbd54a1b2"
+otherFiles: 0
+dependencies:
+  CACRedAlertStaticTwo.usx:
+  - status: "OK"
+    name: "CACRedAlertTex"
+  AS-C&C-RedAlert-v10.ut2:
+  - status: "OK"
+    name: "CACRedAlertTex"
+  - status: "MISSING"
+    name: "AdvancedArmor"
+  - status: "OK"
+    name: "CACRedAlertSounds"
+  - status: "OK"
+    name: "CACRedAlertStaticTwo"
+  - status: "OK"
+    name: "CACRedAlertTwo"
+  CACRedAlertMeshTwo.ukx:
+  - status: "OK"
+    name: "CACRedAlertTexEx"
+  - status: "OK"
+    name: "CACRedAlertTex"
+  CACRedAlertTwo.u:
+  - status: "OK"
+    name: "CACRedAlertMeshTwo"
+  - status: "OK"
+    name: "CACRedAlertSounds"
+  - status: "MISSING"
+    name: "AdvancedArmor_ST"
+  - status: "OK"
+    name: "CACRedAlertTex"
+  - status: "MISSING"
+    name: "AdvancedArmor_anim"
+  - status: "OK"
+    name: "CACRedAlertStaticTwo"
+  - status: "MISSING"
+    name: "AdvancedArmor"
+  - status: "OK"
+    name: "CACRedAlertTexEx"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/C/4/5/9c2d26/AS-C%26C-ReAlert.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "FS Command & Conquer Red Alert"
+playerCount: "8-12"
+themes:
+  Natural: 0.7
+  Ancient: 0.3
+bots: true
