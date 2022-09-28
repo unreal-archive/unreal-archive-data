@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-09-27 08:59"
+game: "Unreal Tournament 2004"
+name: "DM-[RUT]-Rankin"
+author: "Sjoerd De Jong, JUD"
+description: "A medium sized map set in an old industrial building, in the middle\
+  \ of a heavy thunderstorm. (Overhauled by JUD)."
+releaseDate: "2010-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-rut-rankin_shot_2cd4e16a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/2/c/d4e16a/dm-rut-rankin_shot_2cd4e16a_1.png"
+originalFilename: "DM-[RUT]-Rankin.7z"
+hash: "2cd4e16a7cadedaa05e5ac971d917e55ed2a20a0"
+fileSize: 25771318
+files:
+- name: "RankinTEX.utx"
+  fileSize: 50481599
+  hash: "7b93e2a4e4d98f5ddd1db762b51d028fe1bc4dbb"
+- name: "DM-[RUT]-Rankin.ut2"
+  fileSize: 13176905
+  hash: "8463891f84d1eeddb38799448402b0441d79985b"
+- name: "RankinStatic.usx"
+  fileSize: 342683
+  hash: "2f3d6244e707cc83b44a7a9cb77ae111c3fc33d9"
+otherFiles: 1
+dependencies:
+  RankinStatic.usx:
+  - status: "OK"
+    name: "RankinTEX"
+  DM-[RUT]-Rankin.ut2:
+  - status: "OK"
+    name: "RankinTEX"
+  - status: "OK"
+    name: "RankinStatic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/2/c/d4e16a/DM-%5BRUT%5D-Rankin.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Rankin"
+playerCount: "2-8"
+themes:
+  Industrial: 1.0
+bots: true
