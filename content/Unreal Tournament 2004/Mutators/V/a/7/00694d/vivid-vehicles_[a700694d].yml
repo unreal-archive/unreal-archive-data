@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-09-27 12:41"
+game: "Unreal Tournament 2004"
+name: "Vivid Vehicles"
+author: "Unknown"
+description: "Vehicle skins are more vividly red and blue."
+releaseDate: "2004-09"
+attachments: []
+originalFilename: "vividvehicles.zip"
+hash: "a700694d3c8bc6c9d88768b0a5d69768fefca32d"
+fileSize: 1914309
+files:
+- name: "VividVehicles.u"
+  fileSize: 15263
+  hash: "2dd77ce094e753194f517eddaa2c16bc632aa1ff"
+- name: "GrayOBP.utx"
+  fileSize: 4195467
+  hash: "e5dfa27667df8ad1f23f9e9b96b127e30a21d661"
+- name: "ColorVehicleSkins.utx"
+  fileSize: 879877
+  hash: "103b8b04682bfb505a9eaa812d487ee4cf7be6cc"
+otherFiles: 3
+dependencies:
+  ColorVehicleSkins.utx:
+  - status: "OK"
+    name: "GrayOBP"
+  VividVehicles.u:
+  - status: "OK"
+    name: "ColorVehicleSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/V/a/7/00694d/vividvehicles.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Vivid Vehicles"
+  description: "Vehicle skins are more vividly red and blue."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
