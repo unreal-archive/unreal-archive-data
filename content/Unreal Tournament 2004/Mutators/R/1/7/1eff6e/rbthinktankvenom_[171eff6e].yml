@@ -1,0 +1,70 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-01 20:24"
+game: "Unreal Tournament 2004"
+name: "RBThinkTankVenom"
+author: "Unknown"
+description: "None"
+releaseDate: "2007-06"
+attachments: []
+originalFilename: "RBThinkTankVenom.zip"
+hash: "171eff6e6d1cdc63ec7ba9fe00ffc1d3442e3948"
+fileSize: 14379276
+files:
+- name: "RBThinkTankVenom.u"
+  fileSize: 316438
+  hash: "82a7d9dbd1c31faa0d60427214b4e60d0ca1e799"
+- name: "LibHTTP4.u"
+  fileSize: 190004
+  hash: "289d079fb3a395e6525a74db4e9cf0210e0d465d"
+- name: "Spider_v3.ukx"
+  fileSize: 1735757
+  hash: "2fb03506a156947a5be3e9d13b2e6b1e6ecfd181"
+- name: "VenomTex.utx"
+  fileSize: 3745730
+  hash: "4b0d0dfa312543e58177c861b6944b0d640f4a62"
+- name: "VenomArmor.usx"
+  fileSize: 1250733
+  hash: "b478b6f7137be4972826eb86e2ba45a6df3b7655"
+- name: "VenomSounds.uax"
+  fileSize: 5133649
+  hash: "867298dcd8e17b47eee826d4b6f55299c99ddd76"
+otherFiles: 3
+dependencies:
+  RBThinkTankVenom.u:
+  - status: "OK"
+    name: "VenomSounds"
+  - status: "OK"
+    name: "LIBHTTP4"
+  - status: "OK"
+    name: "VenomArmor"
+  - status: "OK"
+    name: "VenomTex"
+  - status: "OK"
+    name: "Spider_v3"
+  Spider_v3.ukx:
+  - status: "OK"
+    name: "VenomTex"
+  - status: "OK"
+    name: "VenomSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/1/7/1eff6e/RBThinkTankVenom.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons:
+- name: "Super Leet Laser Cannon"
+  description: "The ASMD Shock Rifle has changed little since its incorporation into\
+    \ the Tournaments. The ASMD sports two firing modes capable of acting in concert\
+    \ to neutralize opponents in a devastating shockwave.||This combination attack\
+    \ is achieved when the weapon operator utilizes the secondary fire mode to deliver\
+    \ a charge of seeded plasma to the target.|Once the slow-moving plasma charge\
+    \ is within range of the target, the weapon operator may fire the photon beam\
+    \ into the plasma core, releasing the explosive energy of the anti-photons contained\
+    \ within the plasma's EM field."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
