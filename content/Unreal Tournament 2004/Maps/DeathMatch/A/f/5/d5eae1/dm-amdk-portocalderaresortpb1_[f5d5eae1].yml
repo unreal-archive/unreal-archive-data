@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-01 13:28"
+game: "Unreal Tournament 2004"
+name: "DM-AMDK-PortoCalderaResortPB1"
+author: "MDK1311"
+description: "A resort in the PortoCaldera Archipelago"
+releaseDate: "2012-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-amdk-portocalderaresortpb1_shot_f5d5eae1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/f/5/d5eae1/dm-amdk-portocalderaresortpb1_shot_f5d5eae1_1.png"
+- type: "IMAGE"
+  name: "dm-amdk-portocalderaresortpb1_shot_f5d5eae1_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/f/5/d5eae1/dm-amdk-portocalderaresortpb1_shot_f5d5eae1_3.png"
+- type: "IMAGE"
+  name: "dm-amdk-portocalderaresortpb1_shot_f5d5eae1_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/f/5/d5eae1/dm-amdk-portocalderaresortpb1_shot_f5d5eae1_2.png"
+originalFilename: "DM-AMDK-PortoCalderaResortPB1.rar"
+hash: "f5d5eae1d21ca0d3adab64920760b3acc4864a7e"
+fileSize: 21972970
+files:
+- name: "AMDK-PortoCalderaTEX.utx"
+  fileSize: 46826674
+  hash: "c601eb00015db537fd09a22fe4a533c8e28fb77f"
+- name: "DM-AMDK-PortoCalderaResortPB1.ut2"
+  fileSize: 5806222
+  hash: "6a1feab29e235d2a09ced7f2cfa455de17f98677"
+- name: "AMDK-PortoCalderaMeshes.usx"
+  fileSize: 4918420
+  hash: "86c4dbac3f25e88aca4b682a1c5e17ce50815e02"
+otherFiles: 3
+dependencies:
+  AMDK-PortoCalderaMeshes.usx:
+  - status: "OK"
+    name: "AMDK-PortoCalderaTex"
+  DM-AMDK-PortoCalderaResortPB1.ut2:
+  - status: "OK"
+    name: "AMDK-PortoCalderaTex"
+  - status: "OK"
+    name: "AMDK-PortoCalderaMeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/f/5/d5eae1/DM-AMDK-PortoCalderaResortPB1.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Porto Caldera Resort"
+playerCount: "2-6"
+themes: {}
+bots: true
