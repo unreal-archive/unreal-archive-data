@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-01 20:04"
+game: "Unreal Tournament 2004"
+name: "CTF-Gazprom"
+author: "Alexander \"MeatmaN\" Sladkov"
+description: "Real building. Real war. Unreal Tournament!!!"
+releaseDate: "2005-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-gazprom_shot_563cd75a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/5/6/3cd75a/ctf-gazprom_shot_563cd75a_2.png"
+- type: "IMAGE"
+  name: "ctf-gazprom_shot_563cd75a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/5/6/3cd75a/ctf-gazprom_shot_563cd75a_1.png"
+- type: "IMAGE"
+  name: "ctf-gazprom_shot_563cd75a_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/5/6/3cd75a/ctf-gazprom_shot_563cd75a_3.png"
+- type: "IMAGE"
+  name: "ctf-gazprom_shot_563cd75a_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/5/6/3cd75a/ctf-gazprom_shot_563cd75a_4.png"
+originalFilename: "CTF-Gazprom.rar"
+hash: "563cd75aca8041e0b392033d938c283d20f05904"
+fileSize: 22436523
+files:
+- name: "WatcherOfSkies.ogg"
+  fileSize: 4129990
+  hash: "1f1b1465a51ad12fe72b24bd3b16443af5c44365"
+- name: "GaspromMeshes.usx"
+  fileSize: 3660399
+  hash: "d18415dac63b1ace1ee5f54c661bd01485c58df6"
+- name: "CTF-Gazprom.ut2"
+  fileSize: 21297888
+  hash: "d268ac636396bb48d7b215b4040e4ac6bed343f6"
+- name: "XXX-textures.utx"
+  fileSize: 41636090
+  hash: "4427088000bf46b5b7f5541ce25524be754f5d3f"
+otherFiles: 4
+dependencies:
+  CTF-Gazprom.ut2:
+  - status: "OK"
+    name: "GaspromMeshes"
+  - status: "OK"
+    name: "XXX-textures"
+  GaspromMeshes.usx:
+  - status: "OK"
+    name: "XXX-textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/5/6/3cd75a/CTF-Gazprom.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Gazprom 2003-2005"
+playerCount: "32"
+themes:
+  Tech: 0.1
+  City: 0.6
+  Natural: 0.1
+  Industrial: 0.1
+bots: true
