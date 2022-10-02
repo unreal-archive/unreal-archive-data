@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-02 09:33"
+game: "Unreal Tournament 2004"
+name: "DM-{Fs}-Hastings"
+author: "Feuersturm"
+description: "This base represents a reproduction of Operation Hastings of the official\
+  \ Battlefield Bad Company 2 Vietnam addon! I hope you like it! See you on the battlefield!"
+releaseDate: "2012-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-fs-hastings_shot_fa4fc2f2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/a/4fc2f2/dm-fs-hastings_shot_fa4fc2f2_1.png"
+- type: "IMAGE"
+  name: "dm-fs-hastings_shot_fa4fc2f2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/a/4fc2f2/dm-fs-hastings_shot_fa4fc2f2_2.png"
+- type: "IMAGE"
+  name: "dm-fs-hastings_shot_fa4fc2f2_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/a/4fc2f2/dm-fs-hastings_shot_fa4fc2f2_4.png"
+- type: "IMAGE"
+  name: "dm-fs-hastings_shot_fa4fc2f2_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/a/4fc2f2/dm-fs-hastings_shot_fa4fc2f2_3.png"
+originalFilename: "DM-{Fs}-Hastings.zip"
+hash: "fa4fc2f260b06f996a2cda882654579fcd00b051"
+fileSize: 24977240
+files:
+- name: "CTFDownFallSM.usx"
+  fileSize: 2825762
+  hash: "94d1e495d15f160b9a4432b06c1953ceb6656731"
+- name: "VCTFBattlegroundTexes.utx"
+  fileSize: 10449422
+  hash: "6ef806a167c0bff0e1a3f1255e256ed4ff37ef37"
+- name: "DM-{Fs}-Hastings.ut2"
+  fileSize: 20158149
+  hash: "56c737dc414df4f470b97faf8e3c4e3388d075ce"
+- name: "CTFDownFallTexes.utx"
+  fileSize: 7457727
+  hash: "0f1a43ae1e203e3e2bb42d8ab5932dad4eaee2d7"
+- name: "VCTFBattlegroundSM.usx"
+  fileSize: 11330520
+  hash: "0d68d93220c84a0cb2017df99c2d839a65ff590d"
+otherFiles: 4
+dependencies:
+  CTFDownFallSM.usx:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  VCTFBattlegroundSM.usx:
+  - status: "OK"
+    name: "VCTFBattlegroundTexes"
+  DM-{Fs}-Hastings.ut2:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/F/f/a/4fc2f2/DM-%7BFs%7D-Hastings.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Hastings"
+playerCount: "14"
+themes:
+  Ancient: 1.0
+bots: true
