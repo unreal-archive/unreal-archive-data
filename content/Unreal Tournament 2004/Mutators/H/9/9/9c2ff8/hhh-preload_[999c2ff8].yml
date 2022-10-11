@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-08 22:20"
+game: "Unreal Tournament 2004"
+name: "HHH Preload"
+author: "Unknown"
+description: "preloads resources for HHHBOSS"
+releaseDate: "2013-10"
+attachments: []
+originalFilename: "HHH_InvasionBOSS.zip"
+hash: "999c2ff855101c0f562a0fd65ee38015de1caa81"
+fileSize: 223226
+files:
+- name: "HHHBOSS.u"
+  fileSize: 286115
+  hash: "32de5bcdc893e38bd88edeb233f728d24f1a30ac"
+otherFiles: 3
+dependencies:
+  HHHBOSS.u:
+  - status: "MISSING"
+    name: "HHHanim"
+  - status: "MISSING"
+    name: "HHHtext"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/9/9/9c2ff8/HHH_InvasionBOSS.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "HHH Preload"
+  description: "preloads resources for HHHBOSS"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
