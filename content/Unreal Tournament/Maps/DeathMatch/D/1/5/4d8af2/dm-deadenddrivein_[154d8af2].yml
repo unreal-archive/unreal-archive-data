@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-11 01:29"
+game: "Unreal Tournament"
+name: "DM-DeadEndDriveIn"
+author: "Jeff Martin jm@islandalien.com"
+description: "None"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-deadenddrivein_shot_154d8af2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/1/5/4d8af2/dm-deadenddrivein_shot_154d8af2_2.png"
+- type: "IMAGE"
+  name: "dm-deadenddrivein_shot_154d8af2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/1/5/4d8af2/dm-deadenddrivein_shot_154d8af2_1.png"
+originalFilename: "DM-DeadEndDriveIn.zip"
+hash: "154d8af249ebac74177ac5d2c3ad3681be6f9808"
+fileSize: 7284431
+files:
+- name: "DM-DeadEndDriveIn-Lobby.unr"
+  fileSize: 440497
+  hash: "2013419eadaa9b1e44a4445dbaee849573464a31"
+- name: "DEDITex.utx"
+  fileSize: 7850692
+  hash: "7b296d2643fe6d85e8b5b9768412e99b6a620154"
+- name: "DEDISnd.uax"
+  fileSize: 3292429
+  hash: "9a07a9a7add25acd27107640052b3b9595476c56"
+- name: "DM-DeadEndDriveIn.unr"
+  fileSize: 1090486
+  hash: "888b98a5877187690c0db4a05ef87c672926804b"
+otherFiles: 2
+dependencies:
+  DM-DeadEndDriveIn-Lobby.unr:
+  - status: "OK"
+    name: "DEDITex"
+  DM-DeadEndDriveIn.unr:
+  - status: "OK"
+    name: "DEDISnd"
+  - status: "OK"
+    name: "DEDITex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/1/5/4d8af2/DM-DeadEndDriveIn.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dead End Drive In"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: true
