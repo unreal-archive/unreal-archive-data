@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-17 01:13"
+game: "Unreal Tournament"
+name: "DM-80'sVideoStore"
+author: "Jeff Martin jm@islandalien.com"
+description: "None"
+releaseDate: "2021-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-80svideostore_shot_2bfda3d2_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/2/b/fda3d2/dm-80svideostore_shot_2bfda3d2_2.png"
+- type: "IMAGE"
+  name: "dm-80svideostore_shot_2bfda3d2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/0/2/b/fda3d2/dm-80svideostore_shot_2bfda3d2_1.png"
+originalFilename: "DM-80sVideoStore.zip"
+hash: "2bfda3d29a56c1fd2c565819ab9bcf31795d2fe4"
+fileSize: 4709131
+files:
+- name: "DM-80'sVideoStore.unr"
+  fileSize: 746038
+  hash: "84ac1ca15df980b136746dea9b55a6c703067d46"
+- name: "BlockTV.utx"
+  fileSize: 2518507
+  hash: "02a0dbcb2bbb76c190c3f86ae0c599aa019a5143"
+- name: "BlockbustedTex.utx"
+  fileSize: 8464229
+  hash: "e96c5a89613de8429474bdbc48a8ba25108ec80a"
+otherFiles: 2
+dependencies:
+  DM-80'sVideoStore.unr:
+  - status: "OK"
+    name: "BlockbustedTex"
+  - status: "OK"
+    name: "BlockTV"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/0/2/b/fda3d2/DM-80sVideoStore.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "80's Video Store"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true
