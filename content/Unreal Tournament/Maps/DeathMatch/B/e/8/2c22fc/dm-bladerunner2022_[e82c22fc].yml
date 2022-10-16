@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-13 00:56"
+game: "Unreal Tournament"
+name: "DM-BladeRunner2022"
+author: "Jeff Martin jm@islandalien.com"
+description: "November - 2019"
+releaseDate: "2022-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-bladerunner2022_shot_e82c22fc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/B/e/8/2c22fc/dm-bladerunner2022_shot_e82c22fc_1.png"
+originalFilename: "DM-BladeRunner2022.zip"
+hash: "e82c22fcf790f6933c066541756326025692256c"
+fileSize: 3120949
+files:
+- name: "MaleOneBotNPC.u"
+  fileSize: 1057
+  hash: "cbee420226133de94df6ba4b7f841edc4642476e"
+- name: "DM-BladeRunner2022.unr"
+  fileSize: 3536186
+  hash: "af8a5193252bc2d1400b8e4294da2200f8eaae68"
+- name: "BladerunnerSnd.uax"
+  fileSize: 2024467
+  hash: "30e0ff9ac8854251b15141cd3a734813cbd16387"
+- name: "BladerunnerTex.utx"
+  fileSize: 2308491
+  hash: "310239de9c5526192e6d5de825425219f3b676cb"
+- name: "BRExtra.utx"
+  fileSize: 268974
+  hash: "872ad9890de83ebeb91538d363655730211512ab"
+otherFiles: 1
+dependencies:
+  DM-BladeRunner2022.unr:
+  - status: "OK"
+    name: "BladerunnerTex"
+  - status: "OK"
+    name: "BladerunnerSnd"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/B/e/8/2c22fc/DM-BladeRunner2022.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "BLADE RUNNER"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  City: 0.9
+bots: true
