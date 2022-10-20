@@ -1,0 +1,115 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-20 17:25"
+game: "Unreal Tournament 3"
+name: "XS Prototypes MSUC 4 Release"
+author: "XS Vehicles"
+description: "None"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "xsprototypesmsuc4release.zip"
+hash: "7479bd36248e3931e3354b737c39a126b5a49795"
+fileSize: 17697201
+files:
+- name: "XS_Vehicles.u"
+  fileSize: 593274
+  hash: "9e5116e126e0ae25847181a1347a6fc81858ba7c"
+- name: "XSTutorials.upk"
+  fileSize: 138391
+  hash: "225271165a6c096f08973793728803baafffa3a4"
+- name: "Manticore.upk"
+  fileSize: 2044510
+  hash: "0e9175b53f25192b4c2d8a895cfafa776231ec80"
+- name: "FlakTank.upk"
+  fileSize: 8239906
+  hash: "ebe91d4566eaa45ae3ed53827476a5bd6d1e708e"
+- name: "XS_Phoenix.u"
+  fileSize: 173121
+  hash: "7b8ff93bc455c8cb0c19f701697cf79aede8f6b5"
+- name: "XS_Base.u"
+  fileSize: 397998
+  hash: "fc541f5378b2c59772444907d39e9eb60b8835a4"
+- name: "Harpy.upk"
+  fileSize: 12801818
+  hash: "61add962697b99bf750e2a27ec238e049cc274b7"
+- name: "Manticore_Fix.upk"
+  fileSize: 6213
+  hash: "5c51fd124a153ac62368d111ad871fad464bc60f"
+- name: "XSPrototypesMaterials.upk"
+  fileSize: 1154401
+  hash: "1679f5805802063abacf2ab8d932e66704d77c8d"
+- name: "XS_Behemoth.u"
+  fileSize: 159755
+  hash: "8ec8f5590ebe6098ea92f071506b1da113e66ea8"
+- name: "XS_Cyclops.u"
+  fileSize: 138983
+  hash: "079b0d1692dc80f1d635036b62d5250346df8a15"
+- name: "Condor.upk"
+  fileSize: 1502189
+  hash: "90ff5724be6f6282a8348c864670c3fc498d79db"
+- name: "Cyclops.upk"
+  fileSize: 6325
+  hash: "8a050b363d718e885332c926419c022cce5cab48"
+- name: "Behemoth.upk"
+  fileSize: 6448240
+  hash: "8a4476d79c3650876e2be637f0026610f71fa6b7"
+- name: "XS_Manticore.u"
+  fileSize: 163744
+  hash: "0f7221901e75318691541946da1b4f533395f958"
+- name: "XSVehiclesMutatorUI.upk"
+  fileSize: 1167859
+  hash: "955c8d4c1c9330184d492d020deb094a165b6e41"
+otherFiles: 14
+dependencies:
+  XS_Cyclops.u:
+  - status: "OK"
+    name: "XS_Base"
+  XS_Behemoth.u:
+  - status: "OK"
+    name: "Behemoth"
+  - status: "OK"
+    name: "XS_Base"
+  XS_Phoenix.u:
+  - status: "OK"
+    name: "Condor"
+  - status: "OK"
+    name: "XS_Base"
+  - status: "OK"
+    name: "FlakTank"
+  XS_Manticore.u:
+  - status: "OK"
+    name: "Harpy"
+  - status: "OK"
+    name: "Manticore_Fix"
+  - status: "OK"
+    name: "Manticore"
+  - status: "OK"
+    name: "XS_Base"
+  XS_Base.u:
+  - status: "OK"
+    name: "XSTutorials"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/X/7/4/79bd36/xsprototypesmsuc4release.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "XS Vehicles Tutorial Mutator"
+  description: "Displays context-sensitive tutorials when using XS Vehicles in Instant\
+    \ Action."
+- name: "Vehicle Set Replacement"
+  description: "Replace vehicles on a per-team basis using configurable sets."
+weapons: []
+vehicles:
+- name: "XS Cyclops Prototype"
+  description: ""
+- name: "XS Phoenix Prototype"
+  description: ""
+- name: "XS Manticore Prototype"
+  description: ""
+- name: "XS Behemoth Prototype"
+  description: ""
+hasConfigMenu: true
+hasKeybinds: false
