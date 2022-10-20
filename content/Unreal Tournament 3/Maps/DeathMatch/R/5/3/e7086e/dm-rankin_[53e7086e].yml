@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-18 07:46"
+game: "Unreal Tournament 3"
+name: "DM-Rankin"
+author: "Lordz"
+description: "A medium sized map set in an old industrial building, in the middle\
+  \ of a heavy thunderstorm!"
+releaseDate: "2008-03"
+attachments: []
+originalFilename: "DM-Rankin_classic.rar"
+hash: "53e7086e02e5fe65ea77eda95de2e7c9b0f07038"
+fileSize: 177966102
+files:
+- name: "DM-Rankin.ut3"
+  fileSize: 34679176
+  hash: "1415b73be091d53e06ff4d789e0398368e3a74ff"
+- name: "Rankin.upk"
+  fileSize: 173809159
+  hash: "9abb22e7a635ac2ca98b1cdf63bb4a06cb56fba4"
+- name: "RankinMusic.upk"
+  fileSize: 36171263
+  hash: "c45a5d13fe75385dc6900df20f33bca863cd66cb"
+otherFiles: 2
+dependencies:
+  DM-Rankin.ut3:
+  - status: "OK"
+    name: "RankinMusic"
+  - status: "OK"
+    name: "Rankin"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/R/5/3/e7086e/DM-Rankin_classic.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Rankin classic"
+playerCount: "2 to 8"
+themes: {}
+bots: true
