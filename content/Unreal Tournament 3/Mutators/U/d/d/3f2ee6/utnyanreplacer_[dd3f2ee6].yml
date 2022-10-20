@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-20 03:33"
+game: "Unreal Tournament 3"
+name: "UTNyanReplacer"
+author: "Unknown"
+description: "Replaces the Redeemer with the Nyan Cat"
+releaseDate: "2011-09"
+attachments: []
+originalFilename: "UTNyan_Final.zip"
+hash: "dd3f2ee6188b8a1fb7bd5b893a7db95f377b8b18"
+fileSize: 5623647
+files:
+- name: "WP_NyanPack.upk"
+  fileSize: 6294968
+  hash: "9cc7fb3bd68599c7b31e19758de437f650c8afe1"
+- name: "UTNyan.u"
+  fileSize: 23568
+  hash: "8c95cc84fd602af09a1d866a6921977fe2557a2b"
+otherFiles: 2
+dependencies:
+  UTNyan.u:
+  - status: "OK"
+    name: "WP_NyanPack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/d/d/3f2ee6/UTNyan_Final.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UTNyanReplacer"
+  description: "Replaces the Redeemer with the Nyan Cat"
+weapons:
+- name: "NyanCat"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
