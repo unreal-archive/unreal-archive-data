@@ -1,0 +1,63 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-22 09:23"
+game: "Unreal Tournament 2004"
+name: "ImperialBlaster EEv2INI"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-01"
+attachments: []
+originalFilename: "ImperialBlaster_EEv2INI.zip"
+hash: "f4e24af54456c706a5e112f258e6189b76a113b9"
+fileSize: 2349761
+files:
+- name: "Blastermesh.ukx"
+  fileSize: 476824
+  hash: "22211a20533a79b36e81005c3146150b3b0dbe69"
+- name: "Blastersm.usx"
+  fileSize: 253037
+  hash: "055ff7d32522cea7c60bb3ce9084d7218dbdded8"
+- name: "Blastersounds.uax"
+  fileSize: 170837
+  hash: "e27d468c0b472d284367adfc5687e800948daaaa"
+- name: "BlasterRifleINIv2.u"
+  fileSize: 261097
+  hash: "d2267e735935bc923ea7659d08105080967fec67"
+- name: "Blastertex.utx"
+  fileSize: 4563570
+  hash: "ddeee8f22316e0ef0766125d3d9b769eea42650a"
+otherFiles: 3
+dependencies:
+  Blastersm.usx:
+  - status: "OK"
+    name: "Blastertex"
+  Blastermesh.ukx:
+  - status: "OK"
+    name: "Blastertex"
+  BlasterRifleINIv2.u:
+  - status: "OK"
+    name: "Blastertex"
+  - status: "OK"
+    name: "Blastersounds"
+  - status: "OK"
+    name: "Blastersm"
+  - status: "OK"
+    name: "Blastermesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/I/f/4/e24af5/ImperialBlaster_EEv2INI.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BlasterRifle Arena v2"
+  description: "Star Wars Blaster Rifle Replaces The LinkGun"
+- name: "Star Wars Blaster Rifle Replacement"
+  description: "Add the Star Wars Blaster Rifle to other gametypes."
+weapons:
+- name: "Imperial Blaster Rifle(EvilEngine version)"
+  description: "Imperial Blaster Rifle(EvilEngine version)"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
