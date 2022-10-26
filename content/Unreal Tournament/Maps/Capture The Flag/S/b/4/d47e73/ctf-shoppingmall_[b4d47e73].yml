@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-10-25 23:28"
+game: "Unreal Tournament"
+name: "CTF-ShoppingMall"
+author: "Jeff Martin jm@islandalien.com"
+description: "None"
+releaseDate: "2020-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-shoppingmall_shot_b4d47e73_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/4/d47e73/ctf-shoppingmall_shot_b4d47e73_1.png"
+originalFilename: "CTF-Shoppingmall.zip"
+hash: "b4d47e732173dc34548d7674dffe133974a8bbc1"
+fileSize: 3353848
+files:
+- name: "ShoppingMuzak.uax"
+  fileSize: 1681335
+  hash: "5f117ff3e8b142291226ab41dbcdb0a9ea5b9f83"
+- name: "CTF-ShoppingMall.unr"
+  fileSize: 2348263
+  hash: "9573aefe1e770e8a5fc32b98c426c783d0bbe7aa"
+- name: "ShoppingMall.utx"
+  fileSize: 1370742
+  hash: "bc935775c374e68dd9f4828fecda589f0ec31403"
+- name: "ShoppingMall2020.utx"
+  fileSize: 2122255
+  hash: "39d43dd3a789b52da205ab3426fbb3f94742885e"
+otherFiles: 1
+dependencies:
+  CTF-ShoppingMall.unr:
+  - status: "OK"
+    name: "ShoppingMall2020"
+  - status: "OK"
+    name: "ShoppingMuzak"
+  - status: "OK"
+    name: "ShoppingMall"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/4/d47e73/CTF-Shoppingmall.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF Shopping Mall"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true
