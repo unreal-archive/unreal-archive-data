@@ -1,0 +1,73 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-10-30 02:11"
+game: "Unreal Tournament 3"
+name: "Resistance"
+author: "Unknown"
+description: "Replaces UDamage and Berserk with Resistance. Resistance protects you\
+  \ from knockdowns and falling damage, plus regenerating your shield."
+releaseDate: "2011-12"
+attachments: []
+originalFilename: "Hammer.7F.zip"
+hash: "b606aa588f42115576e8bfa2890613a12bd42286"
+fileSize: 6484737
+files:
+- name: "Hammer.u"
+  fileSize: 164559
+  hash: "972d3f8ad69defa6bd5df7337dbe951745cbd236"
+- name: "WP_Hammer.upk"
+  fileSize: 9743493
+  hash: "0bc7360e18064d159a0f68e7842ab58afd416219"
+otherFiles: 2
+dependencies:
+  Hammer.u:
+  - status: "OK"
+    name: "WP_Hammer"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/R/b/6/06aa58/Hammer.7F.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Resistance"
+  description: "Replaces UDamage and Berserk with Resistance. Resistance protects\
+    \ you from knockdowns and falling damage, plus regenerating your shield."
+weapons:
+- name: "N-09 Regulator"
+  description: "Necris 9-Core Goliath Hammer \"Regulator\" is a portable implementation\
+    \ of Axon Goliath. Using high-density antimatters, it became possible to achieve\
+    \ enough impulse to propel the uranium shells, which will explode with matter-antimatter\
+    \ cancellation. Furthermore, this neutralizing blast have been found to be able\
+    \ to break through Nanoblack-based defenses, such as the Invulnerability Protection\
+    \ Device. Soon after its introduction, many combatants inquired of a scope be\
+    \ attached to this dead-accurate Goliath Hammer. Later it was nicknamed \"Regulator\"\
+    , after the invincibility of highland campers wielding this N-09."
+- name: "N-16 Singularity"
+  description: "Necris 16-Core Singularity Hammer was originally intended to be equipped\
+    \ on a Necris vehicle prototype. While testing their new tech, Phayder Corporation\
+    \ found out that the quantum accelerator units were reacting with Nanoblack energy,\
+    \ destablizing nearby spacetime continuum. The optimized product with this discovery,\
+    \ N-16 Singularity can generate unstable rifts which will be a significant threat\
+    \ to the wielder himself and his opponents."
+- name: "N-04 Catalyst"
+  description: "Necris Quad-Catalyst Hammer is an implementation of ASMD Tech. This\
+    \ Hammer spits out catalyst projectiles at a rate of 240/min. Upon contact with\
+    \ any surface or flesh, the projectiles then will emit high-voltage catalyst currents\
+    \ which will rip anything apart."
+- name: "N-02 Diffusion Shock Rifle"
+  description: "Diffusion Shock Rifle is a modification of the stock weapon, to an\
+    \ edge in tournament competition. Each discharge of this weapon stuns your opponents\
+    \ for a second, enough for both offensive and defensive purposes. Additionally,\
+    \ Necris tech have enabled the ASMD core of this weapon to boost by three different\
+    \ condense levels: 1, 4, 16. Level.4 Core deals 4 times more damage, which is\
+    \ suitable for instant gibbing after knocking your opponents down with Level.1\
+    \ Core. The highest condense level is Level.16."
+- name: "N-42 Infinity"
+  description: "Infinity, the last superweapon you'll ever need, grants you the power\
+    \ to remove your opponents from competition. After stocking this weapon with full\
+    \ ammo, press AltFire to WIN."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
