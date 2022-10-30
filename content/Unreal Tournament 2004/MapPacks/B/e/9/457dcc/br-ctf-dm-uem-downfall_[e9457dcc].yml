@@ -1,0 +1,82 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-10-22 07:59"
+game: "Unreal Tournament 2004"
+name: "BR CTF DM UEM DownFall"
+author: "UEM"
+description: "None"
+releaseDate: "2009-06"
+attachments:
+- type: "IMAGE"
+  name: "br-ctf-dm-uem-downfall_shot_e9457dcc_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/B/e/9/457dcc/br-ctf-dm-uem-downfall_shot_e9457dcc_2.png"
+- type: "IMAGE"
+  name: "br-ctf-dm-uem-downfall_shot_e9457dcc_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/B/e/9/457dcc/br-ctf-dm-uem-downfall_shot_e9457dcc_3.png"
+- type: "IMAGE"
+  name: "br-ctf-dm-uem-downfall_shot_e9457dcc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/B/e/9/457dcc/br-ctf-dm-uem-downfall_shot_e9457dcc_1.png"
+originalFilename: "BR-CTF-DM-UEM-DownFall.7z"
+hash: "e9457dcceb1f1041eadf2e3d43c91d39b300ef84"
+fileSize: 17182107
+files:
+- name: "CTFDownFallSM.usx"
+  fileSize: 2825762
+  hash: "94d1e495d15f160b9a4432b06c1953ceb6656731"
+- name: "Descension.ogg"
+  fileSize: 5108347
+  hash: "82fbb6895cd65ebc267477e47bdcb71792847a9d"
+- name: "DM-{UEM}-DownFall.ut2"
+  fileSize: 22883152
+  hash: "85ffecd1d11286ef9da4d5830585517bf61c1aef"
+- name: "CTF-{UEM}-DownFall.ut2"
+  fileSize: 12731983
+  hash: "b2949810c221ba7917c28d404860ed082565c90c"
+- name: "BR-{UEM}-DownFall.ut2"
+  fileSize: 9221084
+  hash: "d5b1bbc51aee2c3a6a09f5f1a51cd8567aa476fc"
+- name: "CTFDownFallTexes.utx"
+  fileSize: 6407771
+  hash: "a517d9895bcf389c59abe9c56748a0a71f7da2c5"
+otherFiles: 4
+dependencies:
+  CTF-{UEM}-DownFall.ut2:
+  - status: "OK"
+    name: "CTFDownFallSM"
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  CTFDownFallSM.usx:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  DM-{UEM}-DownFall.ut2:
+  - status: "OK"
+    name: "CTFDownFallSM"
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  BR-{UEM}-DownFall.ut2:
+  - status: "OK"
+    name: "CTFDownFallSM"
+  - status: "OK"
+    name: "CTFDownFallTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/B/e/9/457dcc/BR-CTF-DM-UEM-DownFall.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-{UEM}-DownFall"
+  title: "DownFall"
+  author: "UEM"
+- name: "CTF-{UEM}-DownFall"
+  title: "DownFall"
+  author: "UEM"
+- name: "BR-{UEM}-DownFall"
+  title: "DownFall"
+  author: "UEM"
+gametype: "Mixed"
+themes:
+  Natural: 0.1
+  Industrial: 0.2
+  Ancient: 0.7
