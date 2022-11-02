@@ -1,0 +1,93 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-02 10:43"
+game: "Unreal Tournament 2004"
+name: "GravVortexRep"
+author: "Unknown"
+description: "A Simple Mod that will replace the redeemer w a vortex"
+releaseDate: "2007-08"
+attachments: []
+originalFilename: "GravVortex.rar"
+hash: "032f76b82d41d80197f8c306d059d147a762d38f"
+fileSize: 5196477
+files:
+- name: "GravVortexMut.u"
+  fileSize: 2778
+  hash: "f53b4ea2ceed6b5f2f1cc4b2d812ad9e32dd06d1"
+- name: "GravVortexSound.uax"
+  fileSize: 3045204
+  hash: "eebf69f0913040ca283694a6b35791e24f7c1184"
+- name: "GravVortex.u"
+  fileSize: 3138219
+  hash: "a0a38792e779c1d2f53fcef42abe6843f3431f8e"
+- name: "GravVortex_003.utx"
+  fileSize: 1395805
+  hash: "266577654ea39d955a31aeb0d8e93cd9e7e4a97b"
+- name: "GravVortexPickups.usx"
+  fileSize: 198269
+  hash: "a2e81602bcce92f5ce201ba113838671a1c9ccca"
+- name: "GravVortex_001.utx"
+  fileSize: 613417
+  hash: "8e4b03979ae6e2b01279096ba63bd92079a79b1a"
+- name: "GravVortexExtras.usx"
+  fileSize: 44905
+  hash: "ea3a5988b60768a306e20f9a0991629b13ce2da0"
+- name: "GravVortex_006.utx"
+  fileSize: 38989
+  hash: "05834737da581294e14d7c64b8a8dd8753d240e9"
+- name: "GravVortex_2.ukx"
+  fileSize: 300438
+  hash: "74349d766fdf0e48f0667e1fc1a304bfe6ac864f"
+- name: "GravVortex_Extras1.ukx"
+  fileSize: 46502
+  hash: "15ccbeb81911cb1de1039ae577782e0812c80089"
+otherFiles: 3
+dependencies:
+  GravVortexPickups.usx:
+  - status: "OK"
+    name: "GravVortex_003"
+  GravVortexMut.u:
+  - status: "OK"
+    name: "GravVortex"
+  GravVortexExtras.usx:
+  - status: "OK"
+    name: "GravVortex_003"
+  GravVortex_2.ukx:
+  - status: "OK"
+    name: "GravVortex_003"
+  GravVortex.u:
+  - status: "OK"
+    name: "GravVortexPickups"
+  - status: "OK"
+    name: "GravVortex_006"
+  - status: "OK"
+    name: "GravVortex_Extras1"
+  - status: "OK"
+    name: "GravVortex_003"
+  - status: "OK"
+    name: "GravVortex_001"
+  - status: "OK"
+    name: "GravVortexExtras"
+  - status: "OK"
+    name: "GravVortex_2"
+  - status: "OK"
+    name: "GravVortexSound"
+  GravVortex_Extras1.ukx:
+  - status: "OK"
+    name: "GravVortex_003"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/G/0/3/2f76b8/GravVortex.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "GravVortexRep"
+  description: "A Simple Mod that will replace the redeemer w a vortex"
+weapons:
+- name: "Gravity Vortex"
+  description: "Gravity Vortex"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
