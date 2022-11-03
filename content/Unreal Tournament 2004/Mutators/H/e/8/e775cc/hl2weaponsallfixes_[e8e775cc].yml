@@ -1,0 +1,54 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-04 02:01"
+game: "Unreal Tournament 2004"
+name: "HL2Weapons&AllFixes"
+author: "Unknown"
+description: "None"
+releaseDate: "2011-06"
+attachments: []
+originalFilename: "HL2Weapons&AllFixes.zip"
+hash: "e8e775cc75cc90b384ef27a9d226c4230cd3ae71"
+fileSize: 40737835
+files:
+- name: "hl2weapons.u"
+  fileSize: 2771175
+  hash: "f4f73375446766bce8d50f72ce3cc8c18758bf0d"
+- name: "HL2WepsAnim.ukx"
+  fileSize: 8716288
+  hash: "f2668f4d85dff0023a6e1a066f119b38d4d28077"
+- name: "HL2WepsSound.uax"
+  fileSize: 1409024
+  hash: "8600445ea43b38562f2a4a077712560d37c3c3b1"
+- name: "HL2MonSoundsB.uax"
+  fileSize: 20021248
+  hash: "d0d4f4c352fbcfbadf42a7d196d06f571c626bb3"
+- name: "HL2MonsterAnims.ukx"
+  fileSize: 31264741
+  hash: "ed54bfec04a9ffedc529cb157e42b98ef80b6eb0"
+otherFiles: 3
+dependencies:
+  hl2weapons.u:
+  - status: "MISSING"
+    name: "HL2MonsterSounds"
+  - status: "OK"
+    name: "HL2WepsSound"
+  - status: "OK"
+    name: "HL2MonSoundsB"
+  - status: "OK"
+    name: "HL2WepsAnim"
+  HL2MonsterAnims.ukx:
+  - status: "MISSING"
+    name: "HL2MonsterSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/e/8/e775cc/HL2Weapons%26AllFixes.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
