@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-04 04:31"
+game: "Unreal Tournament 3"
+name: "Allow Railgun"
+author: "William \"Revilution\" Miller"
+description: "Replaces Sniper Rifle by Quake 4 Railgun, Instagib can be enabled via\
+  \ Configuration Menu."
+releaseDate: "2014-11"
+attachments: []
+originalFilename: "UTRailgunV1.2.zip"
+hash: "f9e1299fbd6f72af38d213ab32bcd0b8a33ef0d9"
+fileSize: 1927195
+files:
+- name: "WP_Railgun.upk"
+  fileSize: 2531135
+  hash: "04db3fe07b5e61792546d6c761748b94cb0ef781"
+- name: "UTRailgun.u"
+  fileSize: 97500
+  hash: "ad1ccd132016f6bcd92003cbb5363c891729890f"
+otherFiles: 3
+dependencies:
+  UTRailgun.u:
+  - status: "OK"
+    name: "WP_Railgun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/A/f/9/e1299f/UTRailgunV1.2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Allow Railgun"
+  description: "Replaces Sniper Rifle by Quake 4 Railgun, Instagib can be enabled\
+    \ via Configuration Menu."
+weapons:
+- name: "Railgun"
+  description: "The Railgun fires a depleted uranium Slug that can kill weak enemies\
+    \ in one shot, and inflict major damage on Vehicles. Unfortunately, it also have\
+    \ a delay around 1.6 seconds between each shot for the weapon to cool down from\
+    \ firing."
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
