@@ -1,0 +1,76 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-11-04 02:05"
+game: "Unreal Tournament 2004"
+name: "ViVi"
+author: "XenoAisam"
+description: "None"
+releaseDate: "2008-08"
+attachments:
+- type: "IMAGE"
+  name: "vivi_shot_d751da40_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/V/d/7/51da40/vivi_shot_d751da40_4.png"
+- type: "IMAGE"
+  name: "vivi_shot_d751da40_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/V/d/7/51da40/vivi_shot_d751da40_3.png"
+- type: "IMAGE"
+  name: "vivi_shot_d751da40_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/V/d/7/51da40/vivi_shot_d751da40_1.png"
+- type: "IMAGE"
+  name: "vivi_shot_d751da40_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/V/d/7/51da40/vivi_shot_d751da40_2.png"
+originalFilename: "vivi_ut2k4.zip"
+hash: "d751da40c5a16d5de7a205d95c7b0680c68ef452"
+fileSize: 5633879
+files:
+- name: "VVKOtexture.utx"
+  fileSize: 4505849
+  hash: "51a3102587476f2aed553af407dfa9c1223650a2"
+- name: "SonicWave.usx"
+  fileSize: 80818
+  hash: "543294611889a62399bfaea47ffdc32b47c87f98"
+- name: "vvko1stweap.utx"
+  fileSize: 5639557
+  hash: "a516360a6062eeb1b24dccbeb448dc253c79fbed"
+- name: "VV-KO.upl"
+  fileSize: 806
+  hash: "a3df9a405a21a10806f36fad767d5415fd4faaa9"
+- name: "VVKO1st.ukx"
+  fileSize: 503912
+  hash: "324107e60a54d06fa4caf6307ca6bd10036259dc"
+- name: "SoulEater.u"
+  fileSize: 1548934
+  hash: "9ac00ed0587083b6495d1ed87424c74edfabb2ba"
+- name: "VV-KO.ukx"
+  fileSize: 2261227
+  hash: "a85d9314a781ba736db7d02303ec21fe4d729402"
+otherFiles: 4
+dependencies:
+  SoulEater.u:
+  - status: "OK"
+    name: "vvko1stweap"
+  - status: "OK"
+    name: "SonicWave"
+  - status: "OK"
+    name: "VVKO1st"
+  VVKO1st.ukx:
+  - status: "OK"
+    name: "vvko1stweap"
+  VV-KO.ukx:
+  - status: "OK"
+    name: "VVKOtexture"
+  VVKOtexture.utx:
+  - status: "OK"
+    name: "vvko1stweap"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/V/d/7/51da40/vivi_ut2k4.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "ViVi"
+skins:
+- "ViVi"
+- "ViVicell"
