@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-04 04:20"
+game: "Unreal Tournament 3"
+name: "AddCHS"
+author: "Unknown"
+description: "Adds Space Marines chainsword as default inventory!"
+releaseDate: "2011-10"
+attachments: []
+originalFilename: "UT3 Chainsword.zip"
+hash: "c8c0778ab38d255b4396800f07ed2ede03db53f7"
+fileSize: 1599811
+files:
+- name: "WP_CHS.upk"
+  fileSize: 2457775
+  hash: "7ac1da50362adb219cde8985ed73fe716de9e59b"
+- name: "CHSW.u"
+  fileSize: 58505
+  hash: "e76afedfc6afebaf9b5831814544bbd6b3976d12"
+otherFiles: 1
+dependencies:
+  CHSW.u:
+  - status: "OK"
+    name: "WP_CHS"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/A/c/8/c0778a/UT3%20Chainsword.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "AddCHS"
+  description: "Adds Space Marines chainsword as default inventory!"
+weapons:
+- name: "Chainsword"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
