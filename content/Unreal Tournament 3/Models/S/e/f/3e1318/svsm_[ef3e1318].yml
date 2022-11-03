@@ -1,0 +1,42 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-11-04 04:03"
+game: "Unreal Tournament 3"
+name: "SvsM"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-09"
+attachments: []
+originalFilename: "SvsM.rar"
+hash: "ef3e1318c0379ffd635e929ea138fc42e1849229"
+fileSize: 7203051
+files:
+- name: "SonicH.u"
+  fileSize: 14290
+  hash: "b3bee97b68524c69bcb48fae68f3ca477ecf93c3"
+- name: "Mario.upk"
+  fileSize: 7378273
+  hash: "6965bc82ff4ea1a1d3efe6b9fd5a6ec34db45e7b"
+- name: "Sonic.upk"
+  fileSize: 4604318
+  hash: "7d8c1d202517b612dab9daadf8d638bc56925745"
+- name: "SupM.u"
+  fileSize: 14016
+  hash: "ebfbdfd6d9c607c5a247e799f6728a7795a8a413"
+otherFiles: 1
+dependencies:
+  SupM.u:
+  - status: "OK"
+    name: "Mario"
+  SonicH.u:
+  - status: "OK"
+    name: "Sonic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Models/S/e/f/3e1318/SvsM.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models: []
+skins: []
