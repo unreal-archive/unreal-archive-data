@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-04 04:30"
+game: "Unreal Tournament 3"
+name: "Sentinel Gear V1.0 Final"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-08"
+attachments:
+- type: "IMAGE"
+  name: "sentinelgear-v1-0final_shot_7ecb4e2e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/S/7/e/cb4e2e/sentinelgear-v1-0final_shot_7ecb4e2e_1.png"
+- type: "IMAGE"
+  name: "sentinelgear-v1-0final_shot_7ecb4e2e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/S/7/e/cb4e2e/sentinelgear-v1-0final_shot_7ecb4e2e_2.png"
+originalFilename: "SentinelGear_v1.0final.zip"
+hash: "7ecb4e2e6561d312e1ebff8f5e777d88cbb0d4bd"
+fileSize: 1698124
+files:
+- name: "SentinelGear_Resources.upk"
+  fileSize: 2555649
+  hash: "9770a1663f8a97779309d4150441af489b86514b"
+- name: "UTMutator_SentinelGear.u"
+  fileSize: 81989
+  hash: "3e08a29ce9db3f2e5da40c0c8e48e5f5fdde7b54"
+otherFiles: 5
+dependencies:
+  UTMutator_SentinelGear.u:
+  - status: "OK"
+    name: "SentinelGear_Resources"
+  - status: "MISSING"
+    name: "UTMutator_Sentinel"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/S/7/e/cb4e2e/SentinelGear_v1.0final.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mil-Spec Sentinels 1.0 beta 3"
+  description: "Makes Sentinels tougher and increases the power of the standard Sentinel\
+    \ weapons."
+- name: "Experimental Sentinel Upgrades 1.0 beta 3"
+  description: "Makes some powerful extra upgrades available for your Sentinels."
+- name: "Experimental Sentinel Weapons 1.0 beta 3"
+  description: "Makes some super-weapons available for your Sentinels."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
