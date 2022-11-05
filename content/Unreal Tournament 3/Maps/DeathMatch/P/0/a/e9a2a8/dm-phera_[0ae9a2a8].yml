@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-05 14:06"
+game: "Unreal Tournament 3"
+name: "DM-Phera"
+author: "Mario \"nELsOn\" Marquardt"
+description: "This place used to be a way station for countless Nali pilgrims. But\
+  \ then the Great Flood came and this temple lay forgotten for almost a century."
+releaseDate: "2010-04"
+attachments: []
+originalFilename: "DM-Phera.zip"
+hash: "0ae9a2a864deb9985ae48fc4ff171ed2109e987c"
+fileSize: 43730248
+files:
+- name: "fruitpickup.upk"
+  fileSize: 1917683
+  hash: "1778da4d0d79785cc87a506dffb8c82459e59328"
+- name: "DM-Phera.ut3"
+  fileSize: 59500679
+  hash: "0b96f232879c9a5a5837d7ee3a5b26d23c7dfebc"
+- name: "HealingFruit.u"
+  fileSize: 4790
+  hash: "589fac84f4bf87522dae4de86a54831c7468c49d"
+otherFiles: 2
+dependencies:
+  DM-Phera.ut3:
+  - status: "OK"
+    name: "fruitpickup"
+  - status: "OK"
+    name: "HealingFruit"
+  - status: "MISSING"
+    name: "CBP3-VeloCity"
+  HealingFruit.u:
+  - status: "OK"
+    name: "fruitpickup"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/P/0/a/e9a2a8/DM-Phera.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Phera"
+playerCount: "2 to 8"
+themes: {}
+bots: true
