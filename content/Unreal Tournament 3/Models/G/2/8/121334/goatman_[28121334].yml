@@ -1,0 +1,48 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-11-04 04:34"
+game: "Unreal Tournament 3"
+name: "Goatman"
+author: "Johannes \"Fraeger\" Boehm"
+description: "None"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "goatman_shot_28121334_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Models/G/2/8/121334/goatman_shot_28121334_1.png"
+originalFilename: "goatman_ut3.zip"
+hash: "28121334d504d6da0f184e331e1360c82e4ee9d9"
+fileSize: 51325322
+files:
+- name: "Family_EvilGoat.u"
+  fileSize: 6775
+  hash: "9e077e0b8f7171b18169282edd159d2f1509168b"
+- name: "Ch_Goat.upk"
+  fileSize: 80773696
+  hash: "135f4f55735563091d2b0c19c7068f6e4efbb254"
+- name: "Family_Goat.u"
+  fileSize: 12956
+  hash: "552233ce644ae49e1d66c4d13571e187c9589a2e"
+otherFiles: 3
+dependencies:
+  Family_EvilGoat.u:
+  - status: "OK"
+    name: "Family_Goat"
+  Family_Goat.u:
+  - status: "OK"
+    name: "Ch_Goat"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Models/G/2/8/121334/goatman_ut3.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Goatman"
+- "EvilGoatman"
+- "Goatman2"
+- "Goatman3"
+- "Goatman4"
+- "Goatman1"
+skins: []
