@@ -1,0 +1,74 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-04 04:23"
+game: "Unreal Tournament 3"
+name: "UT3 BestOfUnreal Part1 Beta"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-02"
+attachments: []
+originalFilename: "UT3-BestOfUnreal-Part1-beta.zip"
+hash: "59b043bdf5754deaa7c9b2ff28f4611bd2d04188"
+fileSize: 6288088
+files:
+- name: "BestOfUShockRifle.upk"
+  fileSize: 3823169
+  hash: "3aa315ae622d6232ea1d838bb02b4f375d79adaa"
+- name: "Ut3BestOfULinkGun.u"
+  fileSize: 11352
+  hash: "54ed4c684824d393fb07a8527041a666400fdfb6"
+- name: "Ut3BestOfUShockRifle.u"
+  fileSize: 8210
+  hash: "74f98c8bcbdd092f507728a24f76874688a7f3c3"
+- name: "BestOfULinkGun.upk"
+  fileSize: 3467317
+  hash: "350e09fd990a96eb67589b54016253b72b189d9d"
+- name: "Ut99Hammer.upk"
+  fileSize: 1473087
+  hash: "43d46c15f3d7ec447a682f321bc04a827248b69b"
+- name: "UT99Hammer-Beta.u"
+  fileSize: 17115
+  hash: "81c885b2d50c1949b67048f6224d15304d61825b"
+otherFiles: 4
+dependencies:
+  Ut3BestOfULinkGun.u:
+  - status: "OK"
+    name: "BestOfULinkGun"
+  Ut3BestOfUShockRifle.u:
+  - status: "OK"
+    name: "BestOfUShockRifle"
+  UT99Hammer-Beta.u:
+  - status: "OK"
+    name: "UT99Hammer"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/5/9/b043bd/UT3-BestOfUnreal-Part1-beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "-= BEST OF UNREAL LinkGun =-"
+  description: "Replaces the UT3 LinkGun by the UT2003 LinkGun with UT2004 fire sounds\
+    \ and UT2003 Lightning gun switch sound by -=Musc@t=- 2012"
+- name: "-= UT99 Impact Hammer Arena =-"
+  description: "Unreal Tournament Hammer Arena. Every pawn has only the UT99 Impact\
+    \ Hammer in his inventory and maybe the translocator. Made by -=Musc@t=- in January\
+    \ 2012."
+- name: "-= BEST OF UNREAL UT99 Impact Hammer (beta2) =-"
+  description: "Replaces the UT3 Hammer by the UT99 Hammer. Made by -=Musc@t=- in\
+    \ January 2012."
+- name: "-= BEST OF UNREAL Shock Rifle =-"
+  description: "Replaces the UT3 Shock Rifle by the UT2003 Shock Rifle with UT2003\
+    \ combo sound and UT99 fire sounds by -=Musc@t=- 2012"
+weapons:
+- name: "BEST OF UNREAL LinkGun"
+  description: "UT2003 LinkGun with UT2004 fire sounds and UT2003 Lightning gun switch\
+    \ sound"
+- name: "UT99 Impact Hammer"
+  description: ""
+- name: "BEST OF U ShockRifle"
+  description: "UT2003 Shock Rifle with UT2003 combo sound and UT99 fire sounds"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
