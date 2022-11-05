@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-05 13:56"
+game: "Unreal Tournament 2004"
+name: "Badger"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-03"
+attachments: []
+originalFilename: "Badger.zip"
+hash: "f10aab05158fc87621857f0d2bf6f04e60c27c45"
+fileSize: 11047268
+files:
+- name: "badger.u"
+  fileSize: 40829
+  hash: "36171598b5c73592cdbad6abcb0d1470a3b281fe"
+- name: "badger_ukx.ukx"
+  fileSize: 5214396
+  hash: "7f39f939f4cb086f6f61016d15b76514af647430"
+- name: "badger_utx.utx"
+  fileSize: 5214396
+  hash: "d1ccddd8dddabd758952c38ecc5e6abc498625dd"
+- name: "badger_usx.usx"
+  fileSize: 5214396
+  hash: "85b49baee5a24b1d1842dbfe45b20d20feb0871f"
+- name: "badger_uax.uax"
+  fileSize: 5214396
+  hash: "817a03435de51b5dc2093a051cbe0cea4bcb8f53"
+otherFiles: 1
+dependencies:
+  badger.u:
+  - status: "OK"
+    name: "badger_usx"
+  - status: "OK"
+    name: "badger_utx"
+  - status: "OK"
+    name: "badger_uax"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/f/1/0aab05/Badger.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "Badger MiniTank"
+  description: "Badger MiniTank"
+hasConfigMenu: false
+hasKeybinds: false
