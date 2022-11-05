@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-04 04:25"
+game: "Unreal Tournament 3"
+name: "Ripper Lite - Replace Stinger"
+author: "Unknown"
+description: "Replaces the Stinger with the Ripper Lite."
+releaseDate: "2008-08"
+attachments:
+- type: "IMAGE"
+  name: "ripper-lite-replace-stinger_shot_1ba8dbf1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/R/1/b/a8dbf1/ripper-lite-replace-stinger_shot_1ba8dbf1_1.png"
+- type: "IMAGE"
+  name: "ripper-lite-replace-stinger_shot_1ba8dbf1_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/R/1/b/a8dbf1/ripper-lite-replace-stinger_shot_1ba8dbf1_2.png"
+originalFilename: "ripperlitev2.7z"
+hash: "1ba8dbf14942b48ee33d5af31393eb97a9cb1f5d"
+fileSize: 578587
+files:
+- name: "RipperLite.u"
+  fileSize: 86868
+  hash: "146de707aa006a9552c412a924b068d4fa3140a2"
+- name: "RipperLitePack.upk"
+  fileSize: 228746
+  hash: "ed9e43b2d5bf8f137a6c8fb191941808ea4549cc"
+otherFiles: 5
+dependencies:
+  RipperLite.u:
+  - status: "OK"
+    name: "RipperLitePack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/R/1/b/a8dbf1/ripperlitev2.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Ripper Lite - Replace Stinger"
+  description: "Replaces the Stinger with the Ripper Lite."
+weapons:
+- name: "Ripper"
+  description: "Liandri's newly-reinstated version of the infamous Ripper. Primary\
+    \ ejects a fast-travelling blade that can slice through bone and muscle, and can\
+    \ pin enemies to surfaces. Secondary fire releases an explosive blade that does\
+    \ less damage, but can send enemies flying through the air, providing a tactical\
+    \ advantage."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
