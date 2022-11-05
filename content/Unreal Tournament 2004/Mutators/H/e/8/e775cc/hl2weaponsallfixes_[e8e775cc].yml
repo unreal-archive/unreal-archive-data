@@ -1,0 +1,156 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-05 09:50"
+game: "Unreal Tournament 2004"
+name: "HL2Weapons&AllFixes"
+author: "Unknown"
+description: "None"
+releaseDate: "2011-06"
+attachments: []
+originalFilename: "HL2Weapons&AllFixes.zip"
+hash: "e8e775cc75cc90b384ef27a9d226c4230cd3ae71"
+fileSize: 40737835
+files:
+- name: "HL2WepsSound.uax"
+  fileSize: 1409024
+  hash: "8600445ea43b38562f2a4a077712560d37c3c3b1"
+- name: "HL2MonSoundsB.uax"
+  fileSize: 20021248
+  hash: "d0d4f4c352fbcfbadf42a7d196d06f571c626bb3"
+- name: "hl2weapons.u"
+  fileSize: 2771175
+  hash: "f4f73375446766bce8d50f72ce3cc8c18758bf0d"
+- name: "HL2MonsterAnims.ukx"
+  fileSize: 31264741
+  hash: "ed54bfec04a9ffedc529cb157e42b98ef80b6eb0"
+- name: "HL2WepsAnim.ukx"
+  fileSize: 8716288
+  hash: "f2668f4d85dff0023a6e1a066f119b38d4d28077"
+otherFiles: 3
+dependencies:
+  hl2weapons.u:
+  - status: "MISSING"
+    name: "HL2MonsterSounds"
+  - status: "OK"
+    name: "HL2WepsSound"
+  - status: "OK"
+    name: "HL2MonSoundsB"
+  - status: "OK"
+    name: "HL2WepsAnim"
+  HL2MonsterAnims.ukx:
+  - status: "MISSING"
+    name: "HL2MonsterSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/e/8/e775cc/HL2Weapons%26AllFixes.zip"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/H/e/8/e775cc/HL2Weapons%2526AllFixes.zip"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "HL2 Mega GravityGun Match"
+  description: "Replaces every Gun with the Mega Gravity Gun"
+- name: "HL2 Weapons"
+  description: "Replaces every Standard Deathmatch Gun with a HL2 one"
+- name: "HL2 Mega GravityGun Match"
+  description: "Replaces every Gun with the Mega Gravity Gun"
+- name: "HL2 Weapons"
+  description: "Replaces every Standard Deathmatch Gun with a HL2 one"
+weapons:
+- name: "Crossbow"
+  description: "The new crossbow is a sniper's dream. It fires a piece of heated rebar\
+    \ over a long distance, and can be used to pin people to wall. It is a one shot\
+    \ one kill weapon against all but the toughest enemies."
+- name: "Crowbar"
+  description: "The same old weapon we know and love from the first game. Use it to\
+    \ play whack-a-mole with headcrabs, scanners and manhacks."
+- name: "Zero Point Energy Field Manipulator"
+  description: "The greatest weapon ever made. The gravity gun can be used to interact\
+    \ with almost every non-organic object in the game. It turns barrels and propane\
+    \ tanks into bludgeons of death, and makes retrieving weapons, health and ammunition\
+    \ child's play."
+- name: "Combine Assault Rifle"
+  description: "Using the omnipresent Combine pulse technology, the Combine Assault\
+    \ Rifle does devastating amounts of damage quickly, at the expense of ammunition\
+    \ at a high rate. The alternate fire shoots a plasma ball that bounces around\
+    \ like a giant rubber ball, killing anything it touches outright (with the exception\
+    \ of some of the larger foes)."
+- name: ".357 Magnum"
+  description: "Similar to the original .357 from half-life, this one does not have\
+    \ a zoom function. It also doesn\x92t carry as much ammunition. However, it packs\
+    \ a massive punch, and you will forget about any shortcomings the first time you\
+    \ see a Combine flip from a headshot."
+- name: "Modified Zero Point Energy Field Manipulator"
+  description: "The greatest weapon ever made. The gravity gun can be used to interact\
+    \ with almost every non-organic object in the game. It turns barrels and propane\
+    \ tanks into bludgeons of death, and makes retrieving weapons, health and ammunition\
+    \ child's play."
+- name: "USP Match"
+  description: "Simply a standard side arm, the pistol is great for taking out headcrabs\
+    \ and setting explosive barrels on fire. It is also a godsend after you have run\
+    \ around with nothing but a crowbar and foul language."
+- name: "RPG Launcher"
+  description: "Still the best tool around for taking out flying targets. The HL2\
+    \ version lacks the alternate fire that turns off the targeting laser, but who\
+    \ used that mode anyway?"
+- name: "Sub-Machine Gun MP-7"
+  description: "The MP7 is a respectable little submachine gun with a high rate of\
+    \ fire but fairly low level of damage. To make up for that it also has a grenade\
+    \ launcher alternate fire that can be very useful in tight situations."
+- name: "SPAS-12"
+  description: "Essentially the same beast as HL1, with both single and double fire.\
+    \ It is a powerful, effective weapon at close range, great for taking out zombies\
+    \ and antlions. The one main difference between it and its predecessor is that\
+    \ it only holds 6 shells, so conserve your ammo!"
+- name: "Crossbow"
+  description: "The new crossbow is a sniper's dream. It fires a piece of heated rebar\
+    \ over a long distance, and can be used to pin people to wall. It is a one shot\
+    \ one kill weapon against all but the toughest enemies."
+- name: "Crowbar"
+  description: "The same old weapon we know and love from the first game. Use it to\
+    \ play whack-a-mole with headcrabs, scanners and manhacks."
+- name: "Zero Point Energy Field Manipulator"
+  description: "The greatest weapon ever made. The gravity gun can be used to interact\
+    \ with almost every non-organic object in the game. It turns barrels and propane\
+    \ tanks into bludgeons of death, and makes retrieving weapons, health and ammunition\
+    \ child's play."
+- name: "Combine Assault Rifle"
+  description: "Using the omnipresent Combine pulse technology, the Combine Assault\
+    \ Rifle does devastating amounts of damage quickly, at the expense of ammunition\
+    \ at a high rate. The alternate fire shoots a plasma ball that bounces around\
+    \ like a giant rubber ball, killing anything it touches outright (with the exception\
+    \ of some of the larger foes)."
+- name: ".357 Magnum"
+  description: "Similar to the original .357 from half-life, this one does not have\
+    \ a zoom function. It also doesn\x92t carry as much ammunition. However, it packs\
+    \ a massive punch, and you will forget about any shortcomings the first time you\
+    \ see a Combine flip from a headshot."
+- name: "Modified Zero Point Energy Field Manipulator"
+  description: "The greatest weapon ever made. The gravity gun can be used to interact\
+    \ with almost every non-organic object in the game. It turns barrels and propane\
+    \ tanks into bludgeons of death, and makes retrieving weapons, health and ammunition\
+    \ child's play."
+- name: "USP Match"
+  description: "Simply a standard side arm, the pistol is great for taking out headcrabs\
+    \ and setting explosive barrels on fire. It is also a godsend after you have run\
+    \ around with nothing but a crowbar and foul language."
+- name: "RPG Launcher"
+  description: "Still the best tool around for taking out flying targets. The HL2\
+    \ version lacks the alternate fire that turns off the targeting laser, but who\
+    \ used that mode anyway?"
+- name: "Sub-Machine Gun MP-7"
+  description: "The MP7 is a respectable little submachine gun with a high rate of\
+    \ fire but fairly low level of damage. To make up for that it also has a grenade\
+    \ launcher alternate fire that can be very useful in tight situations."
+- name: "SPAS-12"
+  description: "Essentially the same beast as HL1, with both single and double fire.\
+    \ It is a powerful, effective weapon at close range, great for taking out zombies\
+    \ and antlions. The one main difference between it and its predecessor is that\
+    \ it only holds 6 shells, so conserve your ammo!"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
