@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-06 17:43"
+game: "Unreal Tournament"
+name: "CUWE 1"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "cuwe-1_shot_bfe608db_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/C/b/f/e608db/cuwe-1_shot_bfe608db_1.png"
+originalFilename: "CUWE_1.zip"
+hash: "bfe608db2c07ec13d81da0ef8f9dabad92397444"
+fileSize: 16159
+files:
+- name: "CUwe.u"
+  fileSize: 25895
+  hash: "c5d986b8c176b0a58d9ce8be5afcbb200f938c2a"
+- name: "CUWE.umod"
+  fileSize: 31159
+  hash: "a8debe86975e2076635f353f3ce29bd5f69df636"
+otherFiles: 4
+dependencies:
+  CUwe.u:
+  - status: "MISSING"
+    name: "Cosmic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/C/b/f/e608db/CUWE_1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "WeaponExpert(Alpha)"
+  description: " Specialist"
+- name: "WeaponExpert OldWeapons"
+  description: " Allows Unreal weapons to be used (for use with WeaponExpert IM)"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
