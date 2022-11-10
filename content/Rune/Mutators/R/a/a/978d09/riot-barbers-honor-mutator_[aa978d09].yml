@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-11 07:28"
+game: "Rune"
+name: "[Riot Barber's] Honor Mutator"
+author: "Dark \"da riot Barber\" Chlor1"
+description: ""
+releaseDate: "2003-11"
+attachments: []
+originalFilename: "MOD-RIOTHONOR.zip"
+hash: "aa978d09dd853fc90ff7ca15e7ce9a8db3738013"
+fileSize: 261329
+files:
+- name: "RiotHonorFX.utx"
+  fileSize: 179284
+  hash: "12b2e5227673dfe8b6f8925564b1915fdaf719b1"
+- name: "Riothonor.u"
+  fileSize: 16251
+  hash: "b0140143e659baa2a52feb58a0e384db0849832f"
+- name: "Voicesamples.uax"
+  fileSize: 441312
+  hash: "dc4d07cf85d8ac5688516b3725c2116a973d99a4"
+otherFiles: 2
+dependencies:
+  Riothonor.u:
+  - status: "OK"
+    name: "RiotHonorFX"
+  - status: "OK"
+    name: "Voicesamples"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Mutators/R/a/a/978d09/MOD-RIOTHONOR.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "[Riot Barber's] Honor Mutator"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

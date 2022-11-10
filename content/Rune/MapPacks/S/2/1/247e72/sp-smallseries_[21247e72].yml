@@ -1,0 +1,88 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-11 07:15"
+game: "Rune"
+name: "SP SmallSeries"
+author: "Jake \"Kid Ying\" Byrd"
+description: "None"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "SP-SmallSeries.zip"
+hash: "21247e72da23cffb657cbc5a3a89708a36285040"
+fileSize: 13501814
+files:
+- name: "BattleSmall3.run"
+  fileSize: 844236
+  hash: "3674a39e8d4894cd29f16361680ad9cbd80b7c2f"
+- name: "JBSmall.utx"
+  fileSize: 2046971
+  hash: "9e4f1b8f459582dc138f485e67d372f12c5205e4"
+- name: "DM-BedroomBETA.run"
+  fileSize: 691788
+  hash: "848c5678057c32a1494bd4cc6576cd5d10e2aefc"
+- name: "DM-BathroomBETA.run"
+  fileSize: 672247
+  hash: "e939706ea79b619527c1e349200ee1bcd9bfe15b"
+- name: "SmallSnds.uax"
+  fileSize: 13671328
+  hash: "63f484201ac80ba6c5db6b0592d03b8ce223edd5"
+- name: "BattleSmall.run"
+  fileSize: 838666
+  hash: "9c3e4f90c52e11f425f1692814842f9cbafcd6b7"
+- name: "BattleSmall2.run"
+  fileSize: 695002
+  hash: "d64c1331e8c5d88e2b7ee58a70ef4f41f7912f93"
+otherFiles: 1
+dependencies:
+  BattleSmall2.run:
+  - status: "OK"
+    name: "SmallSnds"
+  - status: "OK"
+    name: "JBSmall"
+  BattleSmall.run:
+  - status: "OK"
+    name: "SmallSnds"
+  - status: "OK"
+    name: "JBSmall"
+  DM-BathroomBETA.run:
+  - status: "OK"
+    name: "SmallSnds"
+  - status: "OK"
+    name: "JBSmall"
+  BattleSmall3.run:
+  - status: "OK"
+    name: "SmallSnds"
+  - status: "OK"
+    name: "JBSmall"
+  DM-BedroomBETA.run:
+  - status: "OK"
+    name: "SmallSnds"
+  - status: "OK"
+    name: "JBSmall"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/S/2/1/247e72/SP-SmallSeries.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "BattleSmall3"
+  title: "Battle at Familrum"
+  author: "Jake \"Kid Ying\" Byrd"
+- name: "DM-BedroomBETA"
+  title: "DM - Bedroom (beta2)"
+  author: "Jake \"Kid Ying\" Byrd"
+- name: "DM-BathroomBETA"
+  title: "DM-Bathroom (beta2)"
+  author: "Jake \"Kid Ying\" Byrd"
+- name: "BattleSmall"
+  title: "Escape of Bedrumstir"
+  author: "Jake \"Kid Ying\" Byrd"
+- name: "BattleSmall2"
+  title: "Cleansing at Bathundren"
+  author: "Jake \"Kid Ying\" Byrd"
+gametype: "DeathMatch"
+themes:
+  Natural: 0.4
+  Ancient: 0.6

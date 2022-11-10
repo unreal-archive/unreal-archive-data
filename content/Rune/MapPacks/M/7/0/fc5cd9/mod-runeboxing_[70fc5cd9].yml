@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-11 07:29"
+game: "Rune"
+name: "MOD Runeboxing"
+author: "Various"
+description: "None"
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "mod-runeboxing_shot_70fc5cd9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/MapPacks/M/7/0/fc5cd9/mod-runeboxing_shot_70fc5cd9_1.png"
+originalFilename: "MOD-runeboxing.zip"
+hash: "70fc5cd9af201c9d2bd819cd84a9b6d4da32ce94"
+fileSize: 1445403
+files:
+- name: "AR-DongleBoxing.run"
+  fileSize: 484500
+  hash: "2b1a80e248dc19b8788090988fb09ea708706bd3"
+- name: "PBAG1.u"
+  fileSize: 254482
+  hash: "bb7a5f8afe0b091c7d344aa2a4558892cb03a3ee"
+- name: "AR-RuneBoxing.run"
+  fileSize: 1127617
+  hash: "5e8ca050a51dcfce6ab7e31a0f74c58e143feba2"
+- name: "RuneBoxingtex.utx"
+  fileSize: 1011906
+  hash: "1c7f49d61cab54f87eac49ac2b563d8b9198b8f5"
+- name: "bglove.u"
+  fileSize: 523911
+  hash: "6c2673a07c5b3f9ee9f79a65ff2545142dd2864b"
+- name: "dumbell.u"
+  fileSize: 60382
+  hash: "846815a504d7a7077d631bb9e4ed9554006843cf"
+otherFiles: 4
+dependencies:
+  AR-DongleBoxing.run:
+  - status: "OK"
+    name: "bglove"
+  - status: "OK"
+    name: "RuneBoxingtex"
+  AR-RuneBoxing.run:
+  - status: "OK"
+    name: "bglove"
+  - status: "OK"
+    name: "RuneBoxingtex"
+  - status: "OK"
+    name: "dumbell"
+  - status: "OK"
+    name: "PBAG1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/M/7/0/fc5cd9/MOD-runeboxing.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "AR-DongleBoxing"
+  title: "AR-DongleBoxing"
+  author: "dongle"
+- name: "AR-RuneBoxing"
+  title: "Rune Boxing Beta Map"
+  author: "skreWball"
+gametype: "Arena Match"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1

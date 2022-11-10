@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-11 07:29"
+game: "Rune"
+name: "SarkSupport v2"
+author: "Kyrexus Dragellus"
+description: ""
+releaseDate: "2002-02"
+attachments: []
+originalFilename: "MOD-Sark Support Mutator v2.zip"
+hash: "050e5b0d9942cd795705b191b2c1c2953e468e9e"
+fileSize: 51988
+files:
+- name: "SSM2.u"
+  fileSize: 31401
+  hash: "b06c3cd83e941416e022804143d07dddab78e50f"
+- name: "SSM_Players.u"
+  fileSize: 23303
+  hash: "1392de55f7eddf408a0ed90855dbad978a8ce536"
+- name: "SSM_WPlugins.u"
+  fileSize: 144131
+  hash: "c17b7e8b98a872296ecd6e49ef2637cb9c15d5c6"
+otherFiles: 3
+dependencies:
+  SSM2.u:
+  - status: "OK"
+    name: "SSM_WPlugins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Mutators/S/0/5/0e5b0d/MOD-Sark%20Support%20Mutator%20v2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "SarkSupport v2"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

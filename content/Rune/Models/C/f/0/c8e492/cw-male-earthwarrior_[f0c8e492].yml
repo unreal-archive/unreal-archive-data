@@ -1,0 +1,75 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-11-11 07:37"
+game: "Rune"
+name: "CW Male EarthWarrior"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-06"
+attachments: []
+originalFilename: "Skins-ColorfulWarriors_Male_RuneBots_Pack.zip"
+hash: "f0c8e49220d67f51cb80c6749298f61ecd97ff22"
+fileSize: 4587549
+files:
+- name: "mewExt.u"
+  fileSize: 8145
+  hash: "101716b44f45447481ac55870cb4854e7979bf5c"
+- name: "mbw.u"
+  fileSize: 1864224
+  hash: "cb57d870cc51c07dba1879cc526cd52d9224e08f"
+- name: "ConanExt.u"
+  fileSize: 11980
+  hash: "ef1af0e9a960a0a24659e0d59cda2964d8f2d841"
+- name: "mew.u"
+  fileSize: 1866340
+  hash: "efb56f4101ee278dc4e6be5fc9d53b3b5293e542"
+- name: "mgw.u"
+  fileSize: 1864221
+  hash: "dc239a3b97fcecfc062e403bb1ce2620dee0319b"
+- name: "mrw.u"
+  fileSize: 1864191
+  hash: "578be935e82750505518f6b6dafe69120b026749"
+- name: "ConanModel.u"
+  fileSize: 3645886
+  hash: "1470a7ecf06e0cabbb093b819a62413df01ab85d"
+- name: "mgwExt.u"
+  fileSize: 8153
+  hash: "79f9b2e28bd43ef440c2939494ea78be72198e7d"
+otherFiles: 9
+dependencies:
+  ConanModel.u:
+  - status: "MISSING"
+    name: "RuneBots"
+  mewExt.u:
+  - status: "MISSING"
+    name: "RuneBots"
+  - status: "OK"
+    name: "mew"
+  ConanExt.u:
+  - status: "OK"
+    name: "ConanModel"
+  - status: "MISSING"
+    name: "RuneBots"
+  mgwExt.u:
+  - status: "MISSING"
+    name: "RuneBots"
+  - status: "OK"
+    name: "mgw"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Models/C/f/0/c8e492/Skins-ColorfulWarriors_Male_RuneBots_Pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "CW Male EarthWarrior"
+- "CW Male JungleWarrior"
+- "CW Male Red BT"
+- "CW Male Red RT"
+- "CW RedWarrior"
+- "CW Male Black BT"
+- "CW Male Black RT"
+- "CW Male Green BT"
+- "CW Male Green RT"
+skins: []
