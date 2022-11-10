@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:10"
+game: "Rune"
+name: "DM-CarnivalofFreaks"
+author: "Steve \"SoulSaver\" Maisch"
+description: "Prepare to Freak"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-carnivaloffreaks_shot_ea490ff4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/C/e/a/490ff4/dm-carnivaloffreaks_shot_ea490ff4_1.png"
+originalFilename: "DM-Carnivaloffreaks.zip"
+hash: "ea490ff4feca53fc6ec82ae437fdd87d7d32db90"
+fileSize: 1330890
+files:
+- name: "circus.utx"
+  fileSize: 2171102
+  hash: "75901b793d4eddee399bd8bb5d2c549b731af3db"
+- name: "circusmusic.uax"
+  fileSize: 180056
+  hash: "18283d46d5775bb1986a85e28a61a41bfcc98c16"
+- name: "DM-CarnivalofFreaks.run"
+  fileSize: 1809036
+  hash: "ffd7aed758887bc9891b73a106c5f6d82950a85d"
+otherFiles: 1
+dependencies:
+  DM-CarnivalofFreaks.run:
+  - status: "OK"
+    name: "circus"
+  - status: "OK"
+    name: "circusmusic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/C/e/a/490ff4/DM-Carnivaloffreaks.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Carnival of Freaks"
+playerCount: "8-12 players"
+themes:
+  Industrial: 1.0
+bots: false

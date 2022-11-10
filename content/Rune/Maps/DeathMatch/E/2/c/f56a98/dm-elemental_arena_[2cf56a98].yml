@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:01"
+game: "Rune"
+name: "DM-Elemental_Arena"
+author: "Chris 'Plutonic' Blundell"
+description: "None"
+releaseDate: "2001-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-elemental_arena_shot_2cf56a98_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/E/2/c/f56a98/dm-elemental_arena_shot_2cf56a98_1.png"
+originalFilename: "DM-Elemental_Arena.zip"
+hash: "2cf56a98babdfb5bfa4375d7806be17d33615524"
+fileSize: 1798712
+files:
+- name: "CounterZone.u"
+  fileSize: 5294
+  hash: "541d11ab2ba5983d99aebb7f141abc7c48de20a4"
+- name: "DM-Elemental_Arena.run"
+  fileSize: 6148529
+  hash: "86edd4428a1b18407cbffe241ec820ca27927453"
+- name: "Elmental_Arena.utx"
+  fileSize: 1088338
+  hash: "eb876d7dd161a35f49076b0f105348643673614e"
+otherFiles: 1
+dependencies:
+  DM-Elemental_Arena.run:
+  - status: "OK"
+    name: "Elmental_Arena"
+  - status: "OK"
+    name: "CounterZone"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/E/2/c/f56a98/DM-Elemental_Arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Elemental Arena"
+playerCount: "2-14"
+themes:
+  Natural: 0.2
+  Industrial: 0.8
+bots: false

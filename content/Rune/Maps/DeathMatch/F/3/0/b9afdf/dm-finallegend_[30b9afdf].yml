@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:49"
+game: "Rune"
+name: "DM-FinalLegend"
+author: "Unknown"
+description: "None"
+releaseDate: "2007-10"
+attachments: []
+originalFilename: "DM-FinalLegend.zip"
+hash: "30b9afdf62e7b1e0f4c8f48e078ef0fb569892df"
+fileSize: 2615131
+files:
+- name: "DelivText_b.utx"
+  fileSize: 1112780
+  hash: "60bc58334110c1083ed21b05c6a740246bfe22f7"
+- name: "HouseMuzak.uax"
+  fileSize: 1052866
+  hash: "f4f29591bbd47a7577b28bfc561be093ef4276a9"
+- name: "DM-FinalLegend.run"
+  fileSize: 4769446
+  hash: "ef9be50b1dc5ef87940c2f59bbf9a670e56def18"
+- name: "CoreTexSky.utx"
+  fileSize: 882561
+  hash: "fba8923769e606bb8dbd7a6592bf6664fd4c1abf"
+otherFiles: 1
+dependencies:
+  DM-FinalLegend.run:
+  - status: "OK"
+    name: "CoreTexSky"
+  - status: "OK"
+    name: "HouseMuzak"
+  - status: "OK"
+    name: "DelivText_b"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/F/3/0/b9afdf/DM-FinalLegend.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-FinalLegend"
+playerCount: "Unknown"
+themes:
+  Natural: 0.5
+  Ancient: 0.5
+bots: false

@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:15"
+game: "Rune"
+name: "AR-WindTunnel"
+author: "Converted by Ping, Adapted by Essic"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "ar-windtunnel_shot_9c5ff145_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/W/9/c/5ff145/ar-windtunnel_shot_9c5ff145_1.png"
+originalFilename: "AR-WindTunnel.zip"
+hash: "9c5ff145f25777e6587751ddf048085108f5a9bf"
+fileSize: 596374
+files:
+- name: "Windt.utx"
+  fileSize: 199253
+  hash: "7d827452cb13c58a3c72a09fb48d2e0019443585"
+- name: "windtunnel.uax"
+  fileSize: 96046
+  hash: "399c6e4ebfe247e8ec741086d53b78bbe1082712"
+- name: "AR-WindTunnel.run"
+  fileSize: 1180459
+  hash: "a9e43d18b3dce1b4509d74981e83efed161256da"
+otherFiles: 0
+dependencies:
+  AR-WindTunnel.run:
+  - status: "OK"
+    name: "Windt"
+  - status: "OK"
+    name: "windtunnel"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/W/9/c/5ff145/AR-WindTunnel.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "Ride the Wind"
+playerCount: "2-8"
+themes: {}
+bots: true

@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:00"
+game: "Rune"
+name: "AR-GDO HeadQuarters"
+author: "[GDO] $auron1L / Serial Killer"
+description: "Welcome to HeadQuarters"
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "ar-gdo-headquarters_shot_9189fd22_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/G/9/1/89fd22/ar-gdo-headquarters_shot_9189fd22_1.png"
+originalFilename: "ar-gdo_headquarters.zip"
+hash: "9189fd2259bdd758a6d33c63bb5ac64cdaf33277"
+fileSize: 385739
+files:
+- name: "EscudoGDO.u"
+  fileSize: 752
+  hash: "82f71b6456fedd56b60120285497e14143dc840b"
+- name: "ArmasGDO.utx"
+  fileSize: 88992
+  hash: "b0b14910a8b3a54762e241346aa9ff90359600c5"
+- name: "AR-GDO HeadQuarters.run"
+  fileSize: 803574
+  hash: "adb1941cbf93bb62aec34bb95b0047a7f64819a5"
+- name: "1on1ArenaGDO.utx"
+  fileSize: 353739
+  hash: "fa46b9ad9b77f59c2f0870900930ecaceca19969"
+otherFiles: 0
+dependencies:
+  AR-GDO HeadQuarters.run:
+  - status: "OK"
+    name: "1on1ArenaGDO"
+  - status: "OK"
+    name: "EscudoGDO"
+  EscudoGDO.u:
+  - status: "OK"
+    name: "ArmasGDO"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/G/9/1/89fd22/ar-gdo_headquarters.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "AR-GDO HeadQuarters"
+playerCount: "6"
+themes:
+  Industrial: 0.2
+  Ancient: 0.8
+bots: true

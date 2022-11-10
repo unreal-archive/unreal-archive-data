@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:58"
+game: "Rune"
+name: "DM-THCs-Dojo"
+author: "BongMaster"
+description: "None"
+releaseDate: "2002-10"
+attachments: []
+originalFilename: "DM-thcs-dojo.zip"
+hash: "5dbe9fd5d8d0b763ff0f569b360bf7e64918c009"
+fileSize: 885777
+files:
+- name: "myWood.utx"
+  fileSize: 310413
+  hash: "d5bbaa038534172c8b41b5d3e10025df58a412de"
+- name: "DM-THCs-Dojo.run"
+  fileSize: 345314
+  hash: "55cc54957fb2aeb5a26a254f8fa20c3864a61ca2"
+- name: "MeZZaTextures.utx"
+  fileSize: 356317
+  hash: "9d06dca707ff355e3a65f4ade0cb45535bf26a38"
+- name: "Interior.utx"
+  fileSize: 401969
+  hash: "cd5e3e5d80135faf34d7b467ed7084d77e70a264"
+- name: "DojoTex.utx"
+  fileSize: 515044
+  hash: "d59b44d4ae37fa1816779c413809164c66474d8f"
+- name: "MyLevel.utx"
+  fileSize: 132883
+  hash: "c992317323cf39b1d999da6850adb91e6a2e6370"
+otherFiles: 0
+dependencies:
+  DM-THCs-Dojo.run:
+  - status: "OK"
+    name: "Interior"
+  - status: "OK"
+    name: "myWood"
+  - status: "OK"
+    name: "DojoTex"
+  - status: "OK"
+    name: "MeZZaTextures"
+  - status: "MISSING"
+    name: "thc"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/T/5/d/be9fd5/DM-thcs-dojo.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "THC-Dojo"
+playerCount: "4-8"
+themes: {}
+bots: false

@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:15"
+game: "Rune"
+name: "AR-ShadowLords ]["
+author: "§oliD-Demon"
+description: "Realm of Shadowlords"
+releaseDate: "2014-01"
+attachments:
+- type: "IMAGE"
+  name: "ar-shadowlords-_shot_726810a1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/S/7/2/6810a1/ar-shadowlords-_shot_726810a1_1.png"
+originalFilename: "AR-ShadowLordsModified.zip"
+hash: "726810a194d8cbf00f6246ac31236975da9ee5c8"
+fileSize: 428626
+files:
+- name: "AR-ShadowLords ][.run"
+  fileSize: 841435
+  hash: "06635616d6cbf9c0f5efd52d4e3e6629194ea2ab"
+- name: "scm1.utx"
+  fileSize: 46587
+  hash: "9055af9fbd9f4243344ff789e544854c0a331a84"
+- name: "scm2.utx"
+  fileSize: 185414
+  hash: "f99eaae0f192906edc8dd1b27cf3e0ef42866fdc"
+otherFiles: 1
+dependencies:
+  AR-ShadowLords ][.run:
+  - status: "OK"
+    name: "scm2"
+  scm2.utx:
+  - status: "OK"
+    name: "scm1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/S/7/2/6810a1/AR-ShadowLordsModified.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "Shadow Lords2"
+playerCount: "4-6"
+themes:
+  Natural: 0.9
+  Ancient: 0.1
+bots: true

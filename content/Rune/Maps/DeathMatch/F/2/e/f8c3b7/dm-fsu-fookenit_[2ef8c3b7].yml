@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:02"
+game: "Rune"
+name: "DM-FSU-Fookenit"
+author: "George e[FSU]CrimSon_ReD Mercado"
+description: "Fookshetup.com - Delivering Whoopass"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-fsu-fookenit_shot_2ef8c3b7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/F/2/e/f8c3b7/dm-fsu-fookenit_shot_2ef8c3b7_1.png"
+originalFilename: "DM-FSU-Fookenit.zip"
+hash: "2ef8c3b7b958e47a83af67f65f85a4a4fde79b5c"
+fileSize: 540789
+files:
+- name: "CRedFookenit.utx"
+  fileSize: 440501
+  hash: "62bb3923c3a618ed27f568b2df454252210fb372"
+- name: "DM-FSU-Fookenit.run"
+  fileSize: 687882
+  hash: "a7a19856a47d79aebdfd7ec73706ed1065cec0c3"
+- name: "getfooked.utx"
+  fileSize: 113552
+  hash: "2c9cb74c1e8c8174b2e5003826ee94449f006862"
+otherFiles: 0
+dependencies:
+  DM-FSU-Fookenit.run:
+  - status: "OK"
+    name: "getfooked"
+  - status: "OK"
+    name: "CRedFookenit"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/F/2/e/f8c3b7/DM-FSU-Fookenit.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "FOOKEN IT!"
+playerCount: "8"
+themes:
+  Industrial: 0.1
+  Ancient: 0.9
+bots: false

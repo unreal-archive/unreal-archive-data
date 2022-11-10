@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:05"
+game: "Rune"
+name: "DM-Startrap"
+author: "Unknown"
+description: "None"
+releaseDate: "2001-07"
+attachments: []
+originalFilename: "DM-Startrap.zip"
+hash: "2745e3ed2129bf139674ddb6ec18c40d3358a7f8"
+fileSize: 7135492
+files:
+- name: "DM-Startrap.run"
+  fileSize: 3066408
+  hash: "a9027c824428c98ea66f922267f0da5d45e894c5"
+- name: "Detail.utx"
+  fileSize: 1729964
+  hash: "b9e2e9123c154d3a92b8e39abd6ff77637e0b85e"
+- name: "UniverseBastiFX.utx"
+  fileSize: 1114681
+  hash: "c62a7d86fc188a46f79f7809104186071ca8316b"
+- name: "Starship.utx"
+  fileSize: 7590442
+  hash: "b65f117faf61e374949d6b583bb96c101fbc954b"
+otherFiles: 1
+dependencies:
+  DM-Startrap.run:
+  - status: "OK"
+    name: "UniverseBastiFX"
+  - status: "OK"
+    name: "Starship"
+  Starship.utx:
+  - status: "OK"
+    name: "Detail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/S/2/7/45e3ed/DM-Startrap.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Startrap"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:53"
+game: "Rune"
+name: "DM-EvilCity"
+author: "-DarthLoX- and Thor"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-evilcity_shot_e85fc50f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/E/e/8/5fc50f/dm-evilcity_shot_e85fc50f_1.png"
+originalFilename: "DM-EvilCity.zip"
+hash: "e85fc50f7888ee283cdd6edcb7c7c69078ea1ba7"
+fileSize: 1679738
+files:
+- name: "Office.utx"
+  fileSize: 288248
+  hash: "9b0c7f55f94859269e5f65c363552e4d8b2a3e9c"
+- name: "EnviroSounds.uax"
+  fileSize: 496361
+  hash: "dd5a79fc56bcb5eac3d1f95bb2fd4dea197aa3ce"
+- name: "DM-EvilCity.run"
+  fileSize: 2979726
+  hash: "cdad91eeb048ebea35cbded8dfaec756b7c151a1"
+- name: "EvilCity.utx"
+  fileSize: 158430
+  hash: "2661fa3b420be2ffec325d3c90f70ad5a89a97ab"
+- name: "DARTHLOX.utx"
+  fileSize: 112134
+  hash: "f82f1044dd9651df60eca886111913bd133906f5"
+otherFiles: 1
+dependencies:
+  DM-EvilCity.run:
+  - status: "OK"
+    name: "Office"
+  - status: "OK"
+    name: "DARTHLOX"
+  - status: "OK"
+    name: "EvilCity"
+  - status: "OK"
+    name: "EnviroSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/E/e/8/5fc50f/DM-EvilCity.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-EvilCity"
+playerCount: "4 - 6"
+themes:
+  Natural: 0.1
+  Industrial: 0.3
+  Ancient: 0.6
+bots: false

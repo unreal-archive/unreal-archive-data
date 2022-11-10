@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 21:02"
+game: "Rune"
+name: "Reincarnation Intro"
+author: "Various"
+description: "None"
+releaseDate: "2006-01"
+attachments: []
+originalFilename: "reincarnation_intro.zip"
+hash: "1a1c9e951824cd98a7363f2b5e9e6325897f717a"
+fileSize: 5338532
+files:
+- name: "NewTex.utx"
+  fileSize: 781893
+  hash: "d98973f310c8ba4e8d425281ca89c08c43e430df"
+- name: "NewTex2.utx"
+  fileSize: 1609572
+  hash: "f1c2ab31ff4e51af6c44aa1c43afc80b3fabacfc"
+- name: "Reincarnation.utx"
+  fileSize: 265407
+  hash: "e60a91432ba5e92d7aa38c42275458341b6c81cb"
+- name: "StartReincarnation.run"
+  fileSize: 1604734
+  hash: "63466bb4aab2dedc130fb7ea87f3a37359fdfc49"
+- name: "UndyingTex.utx"
+  fileSize: 3338409
+  hash: "a15bf6638736791200f0d735b2cd56a30045465a"
+- name: "FollowThem.run"
+  fileSize: 1658029
+  hash: "d0f97976b37ec325388fad1038ee958368965b2a"
+otherFiles: 1
+dependencies:
+  StartReincarnation.run:
+  - status: "OK"
+    name: "UndyingTex"
+  - status: "OK"
+    name: "Reincarnation"
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "NewTex2"
+  FollowThem.run:
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "UndyingTex"
+  - status: "OK"
+    name: "NewTex2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/R/1/a/1c9e95/reincarnation_intro.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "StartReincarnation"
+  title: "Reincarnation Intro"
+  author: "Andreas \"Haltyr\" Winkelmann"
+- name: "FollowThem"
+  title: ""
+  author: "Unknown"
+gametype: "Entries and Intros"
+themes:
+  Natural: 0.3
+  Industrial: 0.4
+  Ancient: 0.3

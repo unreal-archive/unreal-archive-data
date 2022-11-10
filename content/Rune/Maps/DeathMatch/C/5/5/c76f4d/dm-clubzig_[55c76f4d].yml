@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:10"
+game: "Rune"
+name: "DM-ClubZig"
+author: "Marc 'Groan' Dufour"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-clubzig_shot_55c76f4d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/C/5/5/c76f4d/dm-clubzig_shot_55c76f4d_1.png"
+originalFilename: "DM-ClubZig.zip"
+hash: "55c76f4dea2c1f0e8ee023854536e7c9ddae2c11"
+fileSize: 4888355
+files:
+- name: "PoolStuff.u"
+  fileSize: 442203
+  hash: "ba28dc08fcc5d2e843cbbebf0cce488f177ee4a4"
+- name: "BarDecor.u"
+  fileSize: 219171
+  hash: "aba5e1468eb2f1f6c5624224354d422cdb88de38"
+- name: "DiscoText3.utx"
+  fileSize: 1695921
+  hash: "c5951fbacc3f9a2c6250cf93b9bdb4a613214dab"
+- name: "DM-ClubZig.run"
+  fileSize: 2624281
+  hash: "eb30ae018ab7f27f93c1137b02c5720a5dab8e69"
+- name: "disco.uax"
+  fileSize: 3479951
+  hash: "fe96220ac6cacbed849032f61aaae7b204638a44"
+otherFiles: 1
+dependencies:
+  DM-ClubZig.run:
+  - status: "OK"
+    name: "disco"
+  - status: "OK"
+    name: "DiscoText3"
+  - status: "OK"
+    name: "BarDecor"
+  - status: "OK"
+    name: "PoolStuff"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/C/5/5/c76f4d/DM-ClubZig.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Club Zig"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+  Ancient: 0.1
+bots: false

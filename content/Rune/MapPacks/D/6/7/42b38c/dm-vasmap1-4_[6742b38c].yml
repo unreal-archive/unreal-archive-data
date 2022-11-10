@@ -1,0 +1,49 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 22:09"
+game: "Rune"
+name: "DM VasMap1 4"
+author: "Various"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-vasmap1-4_shot_6742b38c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/MapPacks/D/6/7/42b38c/dm-vasmap1-4_shot_6742b38c_1.png"
+originalFilename: "DM-VasMap1-4.zip"
+hash: "6742b38c1b65dae89889d03defff355739031dec"
+fileSize: 1938014
+files:
+- name: "DM-Sin.run"
+  fileSize: 1867821
+  hash: "4914181d1a1c4a442117b68b78c7d0c0323462fc"
+- name: "DM-VUR-MAP1-4.run"
+  fileSize: 4058475
+  hash: "06c05cabf17fd392c4cf1a96393128817597291c"
+otherFiles: 0
+dependencies:
+  DM-VUR-MAP1-4.run:
+  - status: "MISSING"
+    name: "Vasweapons"
+  - status: "MISSING"
+    name: "VURGame"
+  - status: "MISSING"
+    name: "VasMonsters"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/D/6/7/42b38c/DM-VasMap1-4.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Sin"
+  title: "Sins of the fallen"
+  author: "Jason Leigh \"Punchy\""
+- name: "DM-VUR-MAP1-4"
+  title: "VasUltimaRune Map"
+  author: "Kal Corp"
+gametype: "DeathMatch"
+themes:
+  Industrial: 0.3
+  Ancient: 0.7

@@ -1,0 +1,90 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 20:49"
+game: "Rune"
+name: "Sp Making Of An Odinsblade   Part i"
+author: "Various"
+description: "None"
+releaseDate: "2001-10"
+attachments: []
+originalFilename: "sp-making_of_an_odinsblade_-_part_i.zip"
+hash: "1021e8099c416d05c0cceb71dc7e6198f1c303fd"
+fileSize: 3201352
+files:
+- name: "FR-Final.run"
+  fileSize: 507738
+  hash: "70e1fe261e44cfdddc81d4fd4be10d5c6ed71bc2"
+- name: "FR-Cave.run"
+  fileSize: 1208844
+  hash: "2a9972df777a6017459cd25c33a16033532cdaec"
+- name: "FRSounds.uax"
+  fileSize: 2139826
+  hash: "fb75d7470fd573eb3f94f22023de76c9c0fde632"
+- name: "FR-Intro.run"
+  fileSize: 8046
+  hash: "903e82b4eb471df9eb60fd71524124005a80d844"
+- name: "FR-Passage.run"
+  fileSize: 1425293
+  hash: "2c99315bb0d65a711a43b2dbefb92efff769fb72"
+- name: "FR-Prison.run"
+  fileSize: 950563
+  hash: "a97fb4edba1600532592259ac6ea890d8c11fb46"
+- name: "FR-Lower.run"
+  fileSize: 1207723
+  hash: "bda686c4fb3ad9807840d61dfc875ec438b15ed2"
+- name: "FR-Story.run"
+  fileSize: 378059
+  hash: "9c14c3dd52d460fabad7ae2ee076e2c63e9ce543"
+- name: "FR-Start.run"
+  fileSize: 1145584
+  hash: "e947c3e50a77ac5d43afb23cc0ead55244d55790"
+otherFiles: 1
+dependencies:
+  FR-Story.run:
+  - status: "OK"
+    name: "FRSounds"
+  FR-Prison.run:
+  - status: "OK"
+    name: "FRSounds"
+  FR-Final.run:
+  - status: "OK"
+    name: "FRSounds"
+  FR-Start.run:
+  - status: "OK"
+    name: "FRSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/S/1/0/21e809/sp-making_of_an_odinsblade_-_part_i.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "FR-Final"
+  title: "Upper Castle"
+  author: "Fragmeat"
+- name: "FR-Cave"
+  title: "Goblin Caverns"
+  author: "Fragmeat"
+- name: "FR-Intro"
+  title: "FR-Intro"
+  author: "Unknown"
+- name: "FR-Passage"
+  title: "Lower Passages"
+  author: "Unknown"
+- name: "FR-Prison"
+  title: "Goblin Prison"
+  author: "Fragmeat"
+- name: "FR-Lower"
+  title: "Lower Castle"
+  author: "Fragmeat"
+- name: "FR-Story"
+  title: "Story"
+  author: "Fragmeat"
+- name: "FR-Start"
+  title: "Village of Beesbreck"
+  author: "Fragmeat"
+gametype: "Single Player"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2

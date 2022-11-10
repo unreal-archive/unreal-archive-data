@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:56"
+game: "Rune"
+name: "DM-ConqueringGrounds"
+author: "=iNi=Deliverance(P.A.)"
+description: "Try To OverTake the \"HonorSector\""
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-conqueringgrounds_shot_ba317d14_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/C/b/a/317d14/dm-conqueringgrounds_shot_ba317d14_1.png"
+originalFilename: "DM-ConqueringGrounds.zip"
+hash: "ba317d14015afa00ed57eae8e40aace8047cb2a6"
+fileSize: 1442930
+files:
+- name: "DM-ConqueringGrounds.run"
+  fileSize: 1568778
+  hash: "af3050d5d4b8bf948d5162573dba5c23b28bd0ef"
+- name: "Detail.utx"
+  fileSize: 1729964
+  hash: "b9e2e9123c154d3a92b8e39abd6ff77637e0b85e"
+- name: "floortext.utx"
+  fileSize: 123315
+  hash: "e354a8731b7389f344a934c7089df270538c8476"
+- name: "ini_text.utx"
+  fileSize: 99892
+  hash: "2b35f6d808592c1424471983000aefaa8a5b4658"
+otherFiles: 1
+dependencies:
+  floortext.utx:
+  - status: "OK"
+    name: "Detail"
+  DM-ConqueringGrounds.run:
+  - status: "OK"
+    name: "floortext"
+  - status: "OK"
+    name: "ini_text"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/C/b/a/317d14/DM-ConqueringGrounds.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "=iNi= ConqueringGrounds =iNi="
+playerCount: "2-8"
+themes:
+  Industrial: 0.2
+  Ancient: 0.8
+bots: false

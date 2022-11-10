@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:48"
+variationOf: "0c31c3e81a4a847bca3c84b5a828e13b520e13da"
+game: "Rune"
+name: "DM-HallOfTitans"
+author: "-DarthLoX-"
+description: "None"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "DM-HallOfTitans.zip"
+hash: "b0ea8c44461382382e84b1c9b97fd581192875fc"
+fileSize: 2430646
+files:
+- name: "GenIn.utx"
+  fileSize: 504876
+  hash: "287c1c3ff1276b9dc0ff202336ab66f100c43c42"
+- name: "NaliCast.utx"
+  fileSize: 424166
+  hash: "81b40f21a691c8081f3bb641c326873e6687f47e"
+- name: "Detail.utx"
+  fileSize: 1729964
+  hash: "b9e2e9123c154d3a92b8e39abd6ff77637e0b85e"
+- name: "Zonk.utx"
+  fileSize: 795537
+  hash: "15b3de38bf3f4068462bce8dc6962b03685275a8"
+- name: "Ancient.utx"
+  fileSize: 112264
+  hash: "008c03df75ce5febc88fcad460c9f9db2a1f9b8d"
+- name: "Hauntedtex.utx"
+  fileSize: 67030
+  hash: "55460a3a4ede4eeb388cb706f6971862b8b7c601"
+- name: "DM-HallOfTitans.run"
+  fileSize: 690950
+  hash: "f585bbaadf34c5f0a919d91b12df32bcd6799ec5"
+otherFiles: 1
+dependencies:
+  Ancient.utx:
+  - status: "OK"
+    name: "Detail"
+  DM-HallOfTitans.run:
+  - status: "OK"
+    name: "NaliCast"
+  - status: "OK"
+    name: "GenIn"
+  - status: "OK"
+    name: "Ancient"
+  - status: "OK"
+    name: "Zonk"
+  - status: "OK"
+    name: "Hauntedtex"
+  NaliCast.utx:
+  - status: "OK"
+    name: "Detail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/H/b/0/ea8c44/DM-HallOfTitans.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Hall of the Titans"
+playerCount: "6-8"
+themes:
+  Nali Temple: 0.1
+  Ancient: 0.8
+bots: false

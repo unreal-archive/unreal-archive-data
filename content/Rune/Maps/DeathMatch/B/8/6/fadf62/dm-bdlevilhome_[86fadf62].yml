@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:09"
+game: "Rune"
+name: "DM-(BDL)Evilhome"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-05"
+attachments: []
+originalFilename: "DM-(BDL)Evilhome.zip"
+hash: "86fadf620b969878c6821d1b8530026640297db7"
+fileSize: 1135395
+files:
+- name: "mine.utx"
+  fileSize: 278615
+  hash: "36942e28c0100704474431f3f693aa1183db989c"
+- name: "DM-(BDL)Evilhome.run"
+  fileSize: 656279
+  hash: "f046c4bf5fdddb5e8dbd0ebfdedc464ea060b574"
+- name: "Nalicast.utx"
+  fileSize: 833256
+  hash: "99baa014cf2459e648ea2c4382b4cede98b87174"
+- name: "Detail.utx"
+  fileSize: 221843
+  hash: "61179c9f08553d4a525bde44c64c7d287278db02"
+otherFiles: 0
+dependencies:
+  DM-(BDL)Evilhome.run:
+  - status: "OK"
+    name: "NaliCast"
+  - status: "OK"
+    name: "Mine"
+  Nalicast.utx:
+  - status: "OK"
+    name: "Detail"
+  mine.utx:
+  - status: "OK"
+    name: "Detail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/B/8/6/fadf62/DM-(BDL)Evilhome.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(BDL)Evilhome"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 0.9
+  Skaarj Tech: 0.1
+bots: false

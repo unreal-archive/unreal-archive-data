@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:36"
+game: "Rune"
+name: "DM-Ouroboros"
+author: "DarkToad & Testicules"
+description: "Welcome To Omegus"
+releaseDate: "2001-04"
+attachments: []
+originalFilename: "AR-OuroborosTrainingFacility.zip"
+hash: "c21e5ed7b65f8a6680196f3affe530487c6bdbbf"
+fileSize: 215080
+files:
+- name: "DM-Ouroboros.run"
+  fileSize: 502065
+  hash: "99739dc199b18b2173f8371f82c0a0cb6806a1b5"
+- name: "Omegus.utx"
+  fileSize: 244362
+  hash: "42928b6c96e5349598566dae2aa43479eb2a61ab"
+- name: "DahrKrealm.u"
+  fileSize: 33864
+  hash: "e231bb826da017c7f345c29b15775b44c3ed70aa"
+otherFiles: 2
+dependencies:
+  DM-Ouroboros.run:
+  - status: "OK"
+    name: "Omegus"
+  - status: "OK"
+    name: "DahrKrealm"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/O/c/2/1e5ed7/AR-OuroborosTrainingFacility.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Ouroboros Training Facility"
+playerCount: "6-12"
+themes:
+  Industrial: 0.7
+  Ancient: 0.3
+bots: false

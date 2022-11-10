@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:44"
+game: "Rune"
+name: "DM-Bushido3"
+author: "BlackMamba"
+description: "None"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "DM-Bushido3.zip"
+hash: "c27d38f134a33849bab04c88b895d8ced579bc64"
+fileSize: 1769561
+files:
+- name: "Katana.u"
+  fileSize: 103913
+  hash: "06b9680c9cb69026ebc18249829e5b5aac092d2f"
+- name: "bushido.utx"
+  fileSize: 960591
+  hash: "bfbaaebbb25381436709f18eaf2ea635d8e8b962"
+- name: "bushido3.utx"
+  fileSize: 928677
+  hash: "212d0c389587b9b8d49fa5e17c8713e5d62be354"
+- name: "DWing.u"
+  fileSize: 19235
+  hash: "21d3293c50f83dd1cdb3d73c798cb23795d7be0c"
+- name: "Riotsword.u"
+  fileSize: 230583
+  hash: "bbe47663f44eef75b6382383e1b85726f7feba78"
+- name: "Staff.u"
+  fileSize: 1758
+  hash: "b8ae4043deeb6eaa9664173504b966b8771079fd"
+- name: "DojoWeapons.u"
+  fileSize: 98513
+  hash: "0a203094c4f1e8b214e0fe675a7b446646296ffe"
+- name: "DM-Bushido3.run"
+  fileSize: 2439131
+  hash: "2eebda8bd67e29e3fef399c0ea037778db378e86"
+otherFiles: 1
+dependencies:
+  DM-Bushido3.run:
+  - status: "OK"
+    name: "bushido"
+  - status: "OK"
+    name: "Staff"
+  - status: "OK"
+    name: "DWing"
+  - status: "OK"
+    name: "Riotsword"
+  - status: "OK"
+    name: "bushido3"
+  - status: "OK"
+    name: "DojoWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/B/c/2/7d38f1/DM-Bushido3.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bushido III"
+playerCount: "2-8"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:49"
+game: "Rune"
+name: "DM-[LoR]ManaFortress"
+author: "Mike Kidney"
+description: "6-10"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-lormanafortress_shot_afa30e10_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/a/f/a30e10/dm-lormanafortress_shot_afa30e10_1.png"
+originalFilename: "DM-ManaFortress.zip"
+hash: "afa30e10c254b7c50f41c33f088eaecfe55788d4"
+fileSize: 957576
+files:
+- name: "DM-[LoR]ManaFortress.run"
+  fileSize: 2476534
+  hash: "cba31e8f7306615837c61ceeefbdc516248a8805"
+- name: "mkMana.utx"
+  fileSize: 457220
+  hash: "1ee20cac78bf7155835e9253535ad82a4b165d0f"
+otherFiles: 1
+dependencies:
+  DM-[LoR]ManaFortress.run:
+  - status: "OK"
+    name: "mkMana"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/a/f/a30e10/DM-ManaFortress.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "TDM-ManaFortress"
+playerCount: "5on5 (Team)"
+themes:
+  Industrial: 0.7
+  Ancient: 0.3
+bots: false

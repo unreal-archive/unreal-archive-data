@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:37"
+game: "Rune"
+name: "DM-1on1Holmgang"
+author: "Harald Hardbalne"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1holmgang_shot_7ba7d3bc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/1%20on%201/H/7/b/a7d3bc/dm-1on1holmgang_shot_7ba7d3bc_1.png"
+originalFilename: "DM-1on1Holmgang.zip"
+hash: "7ba7d3bcc59f6d70e63dda7bfce352f3cd21cd5f"
+fileSize: 471142
+files:
+- name: "dm-holmgang.utx"
+  fileSize: 88993
+  hash: "c6d6ee096c975260eb8a3db77f69cfe1f652d621"
+- name: "signs.utx"
+  fileSize: 132871
+  hash: "38fec864d02c4d34fa2c10d1957fef41e87c7859"
+- name: "DM-1on1Holmgang.run"
+  fileSize: 1047001
+  hash: "22bdd9b90c1a85121a4514055c2a1a2c206ea735"
+otherFiles: 0
+dependencies:
+  DM-1on1Holmgang.run:
+  - status: "OK"
+    name: "dm-holmgang"
+  - status: "MISSING"
+    name: "Signs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/1%20on%201/H/7/b/a7d3bc/DM-1on1Holmgang.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "1 on 1"
+title: "1 on 1 Holmgang Arenas"
+playerCount: "2 - 12"
+themes:
+  Natural: 0.1
+  Ancient: 0.8
+bots: false

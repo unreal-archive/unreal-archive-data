@@ -1,0 +1,37 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:55"
+game: "Rune"
+name: "AR-BIWS"
+author: "Bleeder"
+description: "None"
+releaseDate: "2001-09"
+attachments: []
+originalFilename: "ar-biws.zip"
+hash: "0a0c653b33de59f5bfba6890c4f19a111567a3fb"
+fileSize: 771420
+files:
+- name: "sigs.utx"
+  fileSize: 2421403
+  hash: "207c48d7c2461ca743ed7d157ef3346a91c07325"
+- name: "AR-BIWS.run"
+  fileSize: 493780
+  hash: "3568022e17121ac394c36006792799ee80b17762"
+otherFiles: 0
+dependencies:
+  AR-BIWS.run:
+  - status: "OK"
+    name: "sigs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/B/0/a/0c653b/ar-biws.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "BIWS Arenas!"
+playerCount: "4 vs 4 MAX"
+themes:
+  Ancient: 1.0
+bots: true

@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:56"
+game: "Rune"
+name: "DM-SteelCage20"
+author: "Matt Ellis - Idometrius"
+description: "Welcome To Steel Cage Match!"
+releaseDate: "2000-11"
+attachments: []
+originalFilename: "DM-SteelCage2.zip"
+hash: "92ce5c8ad747810bb8aadc825aafb90f45cdec00"
+fileSize: 265299
+files:
+- name: "scm1.utx"
+  fileSize: 46587
+  hash: "9055af9fbd9f4243344ff789e544854c0a331a84"
+- name: "DM-SteelCage20.run"
+  fileSize: 322878
+  hash: "f994508a2a7f97eef86105008f0c3ec3b03d7cae"
+- name: "scm2.utx"
+  fileSize: 185414
+  hash: "f99eaae0f192906edc8dd1b27cf3e0ef42866fdc"
+otherFiles: 2
+dependencies:
+  scm2.utx:
+  - status: "OK"
+    name: "scm1"
+  DM-SteelCage20.run:
+  - status: "OK"
+    name: "scm2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/S/9/2/ce5c8a/DM-SteelCage2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Steel Cage Match 2.0"
+playerCount: "3-6"
+themes: {}
+bots: false

@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:54"
+game: "Rune"
+name: "DM-[AA]Strip_Joint"
+author: "Andrew Aidman"
+description: "Welcome to the Party!"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-aastrip_joint_shot_3d5d44fe_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/A/3/d/5d44fe/dm-aastrip_joint_shot_3d5d44fe_1.png"
+originalFilename: "DM-[AA]_Strip_Joint.zip"
+hash: "3d5d44fe106592e10189dfc1bf3048dfeb81ee32"
+fileSize: 2370739
+files:
+- name: "Ninja.utx"
+  fileSize: 934829
+  hash: "b4005214a6ad8805a9c81f93b7965889c8db2f84"
+- name: "ShadowTexs.utx"
+  fileSize: 1437853
+  hash: "064a7e2bd5641d15669792cb16b1b912b720b4ac"
+- name: "Elmental_Arena.utx"
+  fileSize: 1088338
+  hash: "eb876d7dd161a35f49076b0f105348643673614e"
+- name: "ClockTower.utx"
+  fileSize: 390039
+  hash: "a2718865aae8979e15c14ae58e53ad45cc20ab5b"
+- name: "DM-[AA]Strip_Joint.run"
+  fileSize: 1218374
+  hash: "22a8886a904933ff5149cbd619d8b67c2bddfe75"
+otherFiles: 2
+dependencies:
+  DM-[AA]Strip_Joint.run:
+  - status: "OK"
+    name: "Elmental_Arena"
+  - status: "OK"
+    name: "ShadowTexs"
+  - status: "OK"
+    name: "ClockTower"
+  - status: "OK"
+    name: "Ninja"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/A/3/d/5d44fe/DM-%5BAA%5D_Strip_Joint.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Strip Club"
+playerCount: "2-8"
+themes:
+  Industrial: 0.3
+  Ancient: 0.7
+bots: false

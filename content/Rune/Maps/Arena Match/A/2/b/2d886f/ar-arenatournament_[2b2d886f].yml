@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:58"
+game: "Rune"
+name: "AR-ArenaTournament"
+author: "RazorAlle"
+description: "None"
+releaseDate: "2001-10"
+attachments: []
+originalFilename: "ar-arenatournament.zip"
+hash: "2b2d886f13e2845cd8e95bff24dc89448384465a"
+fileSize: 681089
+files:
+- name: "Alle.utx"
+  fileSize: 486908
+  hash: "13985a2607eb6e1a2839d1ce30ada608edb2b1ac"
+- name: "Stadium.uax"
+  fileSize: 131861
+  hash: "4314af1cf76f39d5d3aee1bef86b7875b9eac88c"
+- name: "AR-ArenaTournament.run"
+  fileSize: 1043487
+  hash: "f37a6f46cc7d951f3163170b1cd42e9f2bd912c7"
+- name: "GreatFire.utx"
+  fileSize: 13215
+  hash: "ba8c4af7f8fbec3a2eec359ab7e31c72386ddb49"
+otherFiles: 1
+dependencies:
+  AR-ArenaTournament.run:
+  - status: "OK"
+    name: "Stadium"
+  - status: "OK"
+    name: "Alle"
+  - status: "OK"
+    name: "GreatFire"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/A/2/b/2d886f/ar-arenatournament.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "AR-ArenaTournament"
+playerCount: "1 on 1"
+themes:
+  Industrial: 1.0
+bots: false

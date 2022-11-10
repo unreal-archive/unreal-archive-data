@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:56"
+game: "Rune"
+name: "DM-[LoR]Starship"
+author: "MikeKidney"
+description: "None"
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-lorstarship_shot_978194e5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/9/7/8194e5/dm-lorstarship_shot_978194e5_1.png"
+- type: "IMAGE"
+  name: "dm-lorstarship_shot_978194e5_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/9/7/8194e5/dm-lorstarship_shot_978194e5_2.png"
+originalFilename: "DM-Starship.zip"
+hash: "978194e52f305e27bdca80cefdb0c22605e7fd5c"
+fileSize: 2600886
+files:
+- name: "Starship.utx"
+  fileSize: 1694474
+  hash: "78a11fe070fb35cfb4cdb48b13b18dde7aa99a48"
+- name: "Detail.utx"
+  fileSize: 1729964
+  hash: "b9e2e9123c154d3a92b8e39abd6ff77637e0b85e"
+- name: "DM-[LoR]Starship.run"
+  fileSize: 1149070
+  hash: "db0ca6560bdfd35fb9d35e2b8bd39727830544b8"
+- name: "space.uax"
+  fileSize: 15109
+  hash: "ba421e5d8d1a18c73e0b3a2b78aebe4f55a24900"
+- name: "Mine.utx"
+  fileSize: 232622
+  hash: "78ddb5a286b61dcb0e8dde404bf5efb9ebb7c983"
+otherFiles: 2
+dependencies:
+  Starship.utx:
+  - status: "OK"
+    name: "Detail"
+  DM-[LoR]Starship.run:
+  - status: "OK"
+    name: "space"
+  - status: "OK"
+    name: "Mine"
+  - status: "OK"
+    name: "Starship"
+  Mine.utx:
+  - status: "OK"
+    name: "Detail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/9/7/8194e5/DM-Starship.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Starship"
+playerCount: "4-8"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: false

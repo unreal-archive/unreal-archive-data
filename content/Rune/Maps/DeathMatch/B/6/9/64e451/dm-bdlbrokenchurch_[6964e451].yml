@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:01"
+game: "Rune"
+name: "DM-(BDL)BrokenChurch"
+author: "(BDL)Psycho"
+description: "None"
+releaseDate: "2002-03"
+attachments: []
+originalFilename: "DM-(BDL)BrokenChurch.zip"
+hash: "6964e451467af682c40e51bd213b9e4def1edaf0"
+fileSize: 809728
+files:
+- name: "DM-(BDL)BrokenChurch.run"
+  fileSize: 1360231
+  hash: "6ef8047d3041c40d17fad79fbf2323d1e0204dde"
+- name: "DARTHLOX.utx"
+  fileSize: 112134
+  hash: "f82f1044dd9651df60eca886111913bd133906f5"
+- name: "church.utx"
+  fileSize: 244667
+  hash: "c4a32561767c670e03109326ddf603f73491444a"
+- name: "Office.utx"
+  fileSize: 288248
+  hash: "9b0c7f55f94859269e5f65c363552e4d8b2a3e9c"
+otherFiles: 0
+dependencies:
+  DM-(BDL)BrokenChurch.run:
+  - status: "OK"
+    name: "Office"
+  - status: "OK"
+    name: "church"
+  - status: "OK"
+    name: "DARTHLOX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/B/6/9/64e451/DM-(BDL)BrokenChurch.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-(BDL)BrokenChurch"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: false

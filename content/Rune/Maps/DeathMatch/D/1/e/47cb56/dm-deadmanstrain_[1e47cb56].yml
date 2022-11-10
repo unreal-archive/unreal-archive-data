@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:53"
+game: "Rune"
+name: "DM-DeadMansTrain"
+author: "-=DarK=-Shadow"
+description: "None"
+releaseDate: "2003-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-deadmanstrain_shot_1e47cb56_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/D/1/e/47cb56/dm-deadmanstrain_shot_1e47cb56_1.png"
+originalFilename: "DM-DeadmansTrain.zip"
+hash: "1e47cb5613807f428adf8f2cfd59a3cf7f9a3f41"
+fileSize: 750910
+files:
+- name: "trains.uax"
+  fileSize: 623272
+  hash: "2a7a3238f8b699c80232c27851689e461b43df41"
+- name: "traintovalhalla.utx"
+  fileSize: 265094
+  hash: "dda4e1abd738d2a645b68966a78b9f7abfaf7085"
+- name: "DM-DeadMansTrain.run"
+  fileSize: 748279
+  hash: "db204a82aa8767349ae4d455146ac395bea3e3ad"
+otherFiles: 1
+dependencies:
+  DM-DeadMansTrain.run:
+  - status: "OK"
+    name: "trains"
+  - status: "OK"
+    name: "traintovalhalla"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/D/1/e/47cb56/DM-DeadmansTrain.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dead Man's Train"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: false

@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:47"
+game: "Rune"
+name: "DM-TWCv1"
+author: "DM-Omega DM-Arena"
+description: "None"
+releaseDate: "2001-03"
+attachments: []
+originalFilename: "DM-TWC.zip"
+hash: "67580fd994f6dcc8c52b6edc6d9855861d30026b"
+fileSize: 3531721
+files:
+- name: "DM-TWCv1.run"
+  fileSize: 1102971
+  hash: "97845f198b412e8e102cf8234ea578bde5549193"
+- name: "TWC Wavy.utx"
+  fileSize: 12760
+  hash: "dd2547fc201503bcfebdd19ee18a963b7dfd2333"
+- name: "TWC Fire.utx"
+  fileSize: 7879
+  hash: "e4a49385e195582d03d01f4a5f7e3b30256cf9c0"
+- name: "FFA.utx"
+  fileSize: 9627
+  hash: "249b1ea6a8b7a1ce06fadc22112209ec9b4a2518"
+- name: "TWCWave.utx"
+  fileSize: 5242
+  hash: "2593960ac3b8a8dd39302c73cf547324c9e79499"
+- name: "Area.utx"
+  fileSize: 9332
+  hash: "738c0df35ae5cc254e060dc849f909d7f5002c1b"
+- name: "Apos.utx"
+  fileSize: 1119278
+  hash: "2481f202be01204fb669a6cac3a49ca78b67befc"
+- name: "smill.utx"
+  fileSize: 182994
+  hash: "d984b93d2f3300f616dec6ff9e3ca706a4571eae"
+- name: "smill2.u"
+  fileSize: 7051
+  hash: "b1e110590703f34304eef6944bd0d8e20a70a7cd"
+- name: "Icenitex.utx"
+  fileSize: 2422185
+  hash: "cc6a92056aad56c298dfd7ca3c625aa8cea4da97"
+- name: "TWCTexture.utx"
+  fileSize: 8354
+  hash: "6dea9dc2285f1acf70c068bc847c4397a9d1cb7f"
+- name: "EXPERTTEX.utx"
+  fileSize: 1632801
+  hash: "557aae7004b5abab5afe9d419d86a15f4e4619c2"
+- name: "smillimport.u"
+  fileSize: 1011
+  hash: "f852bcbde818bf84dfbc9df89f1d4718b7acc7a5"
+otherFiles: 1
+dependencies:
+  smill2.u:
+  - status: "OK"
+    name: "smill"
+  DM-TWCv1.run:
+  - status: "OK"
+    name: "FFA"
+  - status: "OK"
+    name: "TWCWave"
+  - status: "OK"
+    name: "EXPERTTEX"
+  - status: "OK"
+    name: "Apos"
+  - status: "OK"
+    name: "smill2"
+  - status: "OK"
+    name: "Area"
+  - status: "OK"
+    name: "Icenitex"
+  - status: "OK"
+    name: "TWCTexture"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/T/6/7/580fd9/DM-TWC.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-TWCv1"
+playerCount: "None"
+themes:
+  Natural: 1.0
+bots: false

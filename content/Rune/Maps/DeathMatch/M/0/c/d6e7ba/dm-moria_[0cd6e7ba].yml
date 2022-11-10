@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:40"
+game: "Rune"
+name: "DM-Moria"
+author: "draz 'TaWs' tadic"
+description: "None"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-moria_shot_0cd6e7ba_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/M/0/c/d6e7ba/dm-moria_shot_0cd6e7ba_1.png"
+originalFilename: "dm-moria.zip"
+hash: "0cd6e7ba1d697e0e051d662fed71ea349bfe5810"
+fileSize: 4666859
+files:
+- name: "WoT.utx"
+  fileSize: 488959
+  hash: "011c71075941355f9ade4ef4a2088aba58d5a4d5"
+- name: "gothictex.utx"
+  fileSize: 3661417
+  hash: "05fafd516e61fa8b7f64cc898b3c58ded42c3fa4"
+- name: "DM-Moria.run"
+  fileSize: 6126641
+  hash: "e45b1c26c65d20fb1f42e6dcd8f72c752118f95d"
+otherFiles: 0
+dependencies:
+  DM-Moria.run:
+  - status: "OK"
+    name: "gothictex"
+  - status: "OK"
+    name: "WoT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/M/0/c/d6e7ba/dm-moria.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Moria"
+playerCount: "2 to 10"
+themes:
+  Industrial: 1.0
+bots: true

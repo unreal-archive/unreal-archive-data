@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:52"
+game: "Rune"
+name: "dm-roadhouse"
+author: "Idometrius - Matt Ellis"
+description: "Welcome To Idometrius' Roadhouse!"
+releaseDate: "2001-05"
+attachments: []
+originalFilename: "DM-Roadhouse.zip"
+hash: "6703cf63d746900e07dcddd064e2780e8f76059a"
+fileSize: 3382715
+files:
+- name: "roadhouse2.uax"
+  fileSize: 3069466
+  hash: "0ee70c9657bb4a88cd7e62549bf83e3bc20f0739"
+- name: "roadhouse.utx"
+  fileSize: 34568
+  hash: "51985d381ad035eff6753473925b864b6cd897df"
+- name: "dm-roadhouse.run"
+  fileSize: 2373341
+  hash: "5e70c8eb3ec973cb06ba8d125ca18963385714fe"
+otherFiles: 1
+dependencies:
+  dm-roadhouse.run:
+  - status: "OK"
+    name: "roadhouse"
+  - status: "OK"
+    name: "roadhouse2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/R/6/7/03cf63/DM-Roadhouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Roadhouse"
+playerCount: "2-6"
+themes:
+  Industrial: 0.7
+  Ancient: 0.3
+bots: true

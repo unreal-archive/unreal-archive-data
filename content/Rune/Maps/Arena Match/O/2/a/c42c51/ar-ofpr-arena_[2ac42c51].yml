@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:15"
+game: "Rune"
+name: "AR-OFPR Arena"
+author: "Mattousai"
+description: "None"
+releaseDate: "2002-07"
+attachments: []
+originalFilename: "AR-OFPR_Arena.zip"
+hash: "2ac42c517fdc9f5efb98052b5bc6957a0453cabf"
+fileSize: 931762
+files:
+- name: "AR-OFPR Arena.run"
+  fileSize: 736173
+  hash: "b7f5095221059a2651eb872a02c7b75ba7cf47d4"
+- name: "OFPR.utx"
+  fileSize: 1322842
+  hash: "4fc68416bc9ef2e46981548e566a5ef9dce79fb5"
+- name: "OFPRsounds.uax"
+  fileSize: 234327
+  hash: "0cf00a231fb2c1b68ff4c8e221d5e5459650e8ab"
+otherFiles: 1
+dependencies:
+  AR-OFPR Arena.run:
+  - status: "OK"
+    name: "OFPRsounds"
+  - status: "OK"
+    name: "OFPR"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/O/2/a/c42c51/AR-OFPR_Arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "OFPR Arena"
+playerCount: "3v3"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+bots: true

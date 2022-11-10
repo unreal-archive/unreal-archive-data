@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:58"
+game: "Rune"
+name: "AR-Morbid"
+author: "Shawn \"Wicked' Norwood"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "ar-morbid_shot_8b1ef9df_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/M/8/b/1ef9df/ar-morbid_shot_8b1ef9df_1.png"
+originalFilename: "ar-morbid.zip"
+hash: "8b1ef9df2d7ddf924dbd0c3306e0fabf7af38dae"
+fileSize: 606465
+files:
+- name: "shit.utx"
+  fileSize: 355020
+  hash: "b2d741451739c81912c02736cdd3add2a3fbcd99"
+- name: "Liquid.utx"
+  fileSize: 1761
+  hash: "9a64eef2db7dcd9ebf44e3ea9738fe54efc53697"
+- name: "AR-Morbid.run"
+  fileSize: 1197773
+  hash: "5c81217d98e72bda1a71b26decbab6ce032feaf5"
+otherFiles: 0
+dependencies:
+  Liquid.utx:
+  - status: "OK"
+    name: "shit"
+  AR-Morbid.run:
+  - status: "OK"
+    name: "Liquid"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/M/8/b/1ef9df/ar-morbid.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "MorbidTransition"
+playerCount: "Maz 4 vs 4"
+themes:
+  Natural: 1.0
+bots: true

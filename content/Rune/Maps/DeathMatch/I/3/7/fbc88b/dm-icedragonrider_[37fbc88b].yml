@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:00"
+game: "Rune"
+name: "DM-IceDragonRider"
+author: "Jorge Salgado"
+description: "None"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-icedragonrider_shot_37fbc88b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/I/3/7/fbc88b/dm-icedragonrider_shot_37fbc88b_1.png"
+originalFilename: "DM-IceDragonRider.zip"
+hash: "37fbc88b8607ebe261a19f19ddcc6040a64f174a"
+fileSize: 6594685
+files:
+- name: "IDR-marble.utx"
+  fileSize: 354015
+  hash: "4a192b94810c9827e2c83943d535aa87c55357a5"
+- name: "DM-IceDragonRider.run"
+  fileSize: 6393880
+  hash: "608efca6b64672649b8b6d969ff1894bc7913c20"
+- name: "Total Rune.utx"
+  fileSize: 88998
+  hash: "1e1d1a32899c3c5bb41cc6014552739bfa386a78"
+- name: "revenant.utx"
+  fileSize: 3901612
+  hash: "e035c4ef657dc7a8775552c3f615f02d017b01ea"
+otherFiles: 1
+dependencies:
+  DM-IceDragonRider.run:
+  - status: "OK"
+    name: "revenant"
+  - status: "OK"
+    name: "Total Rune"
+  - status: "OK"
+    name: "IDR-marble"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/I/3/7/fbc88b/DM-IceDragonRider.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "IceDragonRider"
+playerCount: "6-10"
+themes: {}
+bots: false

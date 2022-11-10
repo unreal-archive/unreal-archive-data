@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:48"
+game: "Rune"
+name: "DM-HauntedManor"
+author: "Steve \"SoulSaver\" Maisch"
+description: "Welcome to my Nightmare"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-hauntedmanor_shot_b4181f2f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/H/b/4/181f2f/dm-hauntedmanor_shot_b4181f2f_1.png"
+originalFilename: "DM-HauntedManor.zip"
+hash: "b4181f2f732b40b8eb025ae180e47276508e9126"
+fileSize: 4425636
+files:
+- name: "DM-HauntedManor.run"
+  fileSize: 3848920
+  hash: "783028e927f8be7f362c2acb19e74fb45853efd3"
+- name: "Zonk.utx"
+  fileSize: 3181151
+  hash: "76ca59be1f801a39c09f3e2b15db69e20666c4b1"
+- name: "Hauntedtex.utx"
+  fileSize: 1374941
+  hash: "0f0d53d4a63664d2cdf849feeaa36592f77e782f"
+otherFiles: 1
+dependencies:
+  DM-HauntedManor.run:
+  - status: "OK"
+    name: "Zonk"
+  - status: "OK"
+    name: "Hauntedtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/H/b/4/181f2f/DM-HauntedManor.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-HauntedManor"
+playerCount: "6-8 players"
+themes:
+  Industrial: 1.0
+bots: false

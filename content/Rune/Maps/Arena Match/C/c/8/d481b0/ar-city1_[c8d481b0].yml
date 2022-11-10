@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:00"
+game: "Rune"
+name: "AR-City1"
+author: "-=ROV=-TaWs"
+description: "None"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "ar-city1_shot_c8d481b0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/C/c/8/d481b0/ar-city1_shot_c8d481b0_1.png"
+- type: "IMAGE"
+  name: "ar-city1_shot_c8d481b0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/C/c/8/d481b0/ar-city1_shot_c8d481b0_2.png"
+originalFilename: "ar-city.zip"
+hash: "c8d481b055421a35170fc2ef8e648ed17cae4486"
+fileSize: 1680779
+files:
+- name: "AR-City1.run"
+  fileSize: 2119837
+  hash: "b0a6855cb816201dd1996a90012e20c7158218e8"
+- name: "signs.utx"
+  fileSize: 1060622
+  hash: "6ac16c46b00580978c3298e32dc95cc8aef8a32c"
+- name: "MyTextures.utx"
+  fileSize: 397972
+  hash: "df7c17d47668ea78b0c5120f5f58a433f4a51095"
+otherFiles: 3
+dependencies:
+  AR-City1.run:
+  - status: "OK"
+    name: "MyTextures"
+  - status: "OK"
+    name: "signs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/C/c/8/d481b0/ar-city.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "AR-city"
+playerCount: "up to 4 on 4"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: true

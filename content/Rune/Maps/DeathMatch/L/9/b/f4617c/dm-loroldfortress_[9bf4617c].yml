@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:05"
+game: "Rune"
+name: "DM-[LoR]OldFortress"
+author: "Mike Kidney"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-loroldfortress_shot_9bf4617c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/9/b/f4617c/dm-loroldfortress_shot_9bf4617c_1.png"
+originalFilename: "DM-OldFortress.zip"
+hash: "9bf4617cf274af8ab4c35ed94ab652af5835ad78"
+fileSize: 769672
+files:
+- name: "MKSKY.utx"
+  fileSize: 497826
+  hash: "76def43e0a7de58eb6d0aa43dce3a752c847d4cd"
+- name: "MKwalls.utx"
+  fileSize: 177773
+  hash: "72701a166d4940d629a53cffdf2493db14310500"
+- name: "DM-[LoR]OldFortress.run"
+  fileSize: 2338385
+  hash: "4973ee01d340c2cc7db3b739abd81581d8caded6"
+otherFiles: 1
+dependencies:
+  DM-[LoR]OldFortress.run:
+  - status: "OK"
+    name: "MKSKY"
+  - status: "OK"
+    name: "MKwalls"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/9/b/f4617c/DM-OldFortress.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-OldFortress"
+playerCount: "4-8"
+themes:
+  Natural: 0.2
+  Industrial: 0.6
+  Ancient: 0.2
+bots: false

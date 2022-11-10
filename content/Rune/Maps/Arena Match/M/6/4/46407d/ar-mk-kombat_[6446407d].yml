@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:55"
+game: "Rune"
+name: "AR-MK-Kombat"
+author: "Pain"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "ar-mk-kombat_shot_6446407d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/M/6/4/46407d/ar-mk-kombat_shot_6446407d_1.png"
+originalFilename: "ar-kombat.zip"
+hash: "6446407dcd074ae9d70f58fd1839f2b0a6801f8f"
+fileSize: 878742
+files:
+- name: "MK.uax"
+  fileSize: 250746
+  hash: "a0e2db3af507fc80fe7fbee2edf7380bd0e2d0bd"
+- name: "Kombat.utx"
+  fileSize: 622520
+  hash: "0c09d43e7dd78111fd6da52cdb6bda80f8bda7e8"
+- name: "AR-MK-Kombat.run"
+  fileSize: 489059
+  hash: "6d96dc245af10bf487094373a4be651138b19626"
+otherFiles: 1
+dependencies:
+  AR-MK-Kombat.run:
+  - status: "OK"
+    name: "Kombat"
+  - status: "OK"
+    name: "MK"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/M/6/4/46407d/ar-kombat.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "Kombat"
+playerCount: "Max TeamArena Allies: 4"
+themes:
+  Natural: 1.0
+bots: true

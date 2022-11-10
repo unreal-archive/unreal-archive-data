@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:39"
+game: "Rune"
+name: "DM-HellArena"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-hellarena_shot_9c0a4150_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/H/9/c/0a4150/dm-hellarena_shot_9c0a4150_1.png"
+originalFilename: "hell_arena.rar"
+hash: "9c0a4150f4588b2e56332327408943d53ac6f082"
+fileSize: 10213813
+files:
+- name: "JeffCatcombs.utx"
+  fileSize: 5781042
+  hash: "d39281a0349c961beac2e330f2d8f183d021c56a"
+- name: "DM-HellArena.run"
+  fileSize: 8620292
+  hash: "f21d7f2f5f5a7ca4aca6fbb9ca21b4faac427747"
+- name: "OneirosSkybox.utx"
+  fileSize: 1674774
+  hash: "352730f2175b45c0ae54df6d2940feba1637c595"
+otherFiles: 0
+dependencies:
+  DM-HellArena.run:
+  - status: "OK"
+    name: "JeffCatcombs"
+  - status: "OK"
+    name: "OneirosSkybox"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/H/9/c/0a4150/hell_arena.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-HellArena"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

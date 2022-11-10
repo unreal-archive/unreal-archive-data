@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:48"
+game: "Rune"
+name: "DM-Dodoshi"
+author: "BlackMamba"
+description: "None"
+releaseDate: "2007-12"
+attachments: []
+originalFilename: "DM-Dodoshi.zip"
+hash: "035c78afec68504b15257b2eeede1cf2d9821c65"
+fileSize: 1567330
+files:
+- name: "bmpack.utx"
+  fileSize: 1590770
+  hash: "ed230c27d28daf095a7b0c67855b15c2302cce28"
+- name: "DM-Dodoshi.run"
+  fileSize: 817955
+  hash: "175ec156d0bb202c69729ebca5d37d3ac63a259d"
+- name: "WickydWolves.u"
+  fileSize: 439686
+  hash: "efec1690cb7129ad90115254bff45c8cb391b7b0"
+otherFiles: 1
+dependencies:
+  DM-Dodoshi.run:
+  - status: "OK"
+    name: "bmpack"
+  - status: "OK"
+    name: "WickydWolves"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/D/0/3/5c78af/DM-Dodoshi.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Dodoshii"
+playerCount: "2-6"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: true

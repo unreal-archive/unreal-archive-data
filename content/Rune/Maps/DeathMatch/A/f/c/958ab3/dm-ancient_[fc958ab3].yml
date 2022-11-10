@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:49"
+game: "Rune"
+name: "DM-Ancient"
+author: "Andrew Bryant A.KA (PG)Neversober"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-ancient_shot_fc958ab3_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/A/f/c/958ab3/dm-ancient_shot_fc958ab3_1.png"
+originalFilename: "DM-Ancient.zip"
+hash: "fc958ab3ed3d641ad892b42885eb6cf8763b3ee5"
+fileSize: 2471246
+files:
+- name: "Zonk.utx"
+  fileSize: 3181151
+  hash: "76ca59be1f801a39c09f3e2b15db69e20666c4b1"
+- name: "Plunder.utx"
+  fileSize: 89019
+  hash: "e2f4b35d728e9638792efd5d999bf6be0180edbb"
+- name: "DM-Ancient.run"
+  fileSize: 584301
+  hash: "f4ed1868de0764593ac4a34d7c1bb02e778b6329"
+otherFiles: 0
+dependencies:
+  DM-Ancient.run:
+  - status: "OK"
+    name: "Zonk"
+  - status: "OK"
+    name: "Plunder"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/A/f/c/958ab3/DM-Ancient.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Ancient"
+playerCount: "3-6"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: false

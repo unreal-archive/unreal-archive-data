@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:48"
+game: "Rune"
+name: "DM-rookie"
+author: "Jon \"Shrapnel\" Cruz"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-rookie_shot_75ba64bb_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/R/7/5/ba64bb/dm-rookie_shot_75ba64bb_2.png"
+- type: "IMAGE"
+  name: "dm-rookie_shot_75ba64bb_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/R/7/5/ba64bb/dm-rookie_shot_75ba64bb_1.png"
+originalFilename: "DM-Rookie.zip"
+hash: "75ba64bbaba62ec29d7db6f89fc9d8c3cf95d8f7"
+fileSize: 2500066
+files:
+- name: "basketball.u"
+  fileSize: 1487537
+  hash: "921bc801f2e23a4a212654a5e28e16dd1e680466"
+- name: "DM-rookie.run"
+  fileSize: 4449481
+  hash: "fc3ad7d63da21fc65e5358dba586fe5bbe9fcb36"
+- name: "ShrapMask.utx"
+  fileSize: 532412
+  hash: "4526f3153bd9d223ae34423eb5ab89ccbb1313d7"
+otherFiles: 2
+dependencies:
+  DM-rookie.run:
+  - status: "OK"
+    name: "basketball"
+  - status: "OK"
+    name: "ShrapMask"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/R/7/5/ba64bb/DM-Rookie.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Die, You Rookies!"
+playerCount: "4 and more, no less"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: false

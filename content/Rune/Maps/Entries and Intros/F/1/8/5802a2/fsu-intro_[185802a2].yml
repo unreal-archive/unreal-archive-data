@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 10:10"
+game: "Rune"
+name: "FSU-Intro"
+author: "Laura"
+description: "None"
+releaseDate: "2002-12"
+attachments: []
+originalFilename: "fsu_intro.zip"
+hash: "185802a231f3d3f9f67d18476405cce4b7568692"
+fileSize: 1332200
+files:
+- name: "ze.utx"
+  fileSize: 452167
+  hash: "2303e2ff806ab67d0439ab19ff33f028726a1dc9"
+- name: "ze2.u"
+  fileSize: 8734
+  hash: "34982ed3df10875c6a81e6938fbdca2961d382f4"
+- name: "FSU-Intro.run"
+  fileSize: 258458
+  hash: "375e700620a4d53dbb22d985a0e2d5ac671b72c6"
+- name: "fsu4a.u"
+  fileSize: 8610
+  hash: "862ae0b980efe64189abf367e54929b3cb9165d7"
+- name: "fsu4.u"
+  fileSize: 450222
+  hash: "5bfb343ce9abeccf4d8d040c114be9d29c6c7129"
+- name: "fsu4.utx"
+  fileSize: 450222
+  hash: "025f3fec26973e9c00eaf9cb5f39c7042cba68b4"
+- name: "ze.u"
+  fileSize: 457467
+  hash: "44370cb51237d179d54f6b95ed880712b2b33387"
+otherFiles: 3
+dependencies:
+  FSU-Intro.run:
+  - status: "OK"
+    name: "ze2"
+  - status: "OK"
+    name: "fsu4a"
+  ze2.u:
+  - status: "OK"
+    name: "ze"
+  fsu4a.u:
+  - status: "OK"
+    name: "fsu4"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Unknown/F/1/8/5802a2/fsu_intro.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Entries and Intros"
+title: "fookintro"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: false

@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:46"
+game: "Rune"
+name: "DM-AncientHildir"
+author: "Walleck and Bombs"
+description: "None"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-ancienthildir_shot_ae4c341b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/A/a/e/4c341b/dm-ancienthildir_shot_ae4c341b_1.png"
+originalFilename: "dm-ancienthildr.rar"
+hash: "ae4c341b54bda6c1f848ecae3af06bcc913e9acc"
+fileSize: 1564725
+files:
+- name: "RuneProjectAncientHildr.uax"
+  fileSize: 211732
+  hash: "9fdcae590b7279047729ba94b893e9fbfd351a7d"
+- name: "DM-AncientHildir.run"
+  fileSize: 1442124
+  hash: "ed6bd8e793de7838e970fdd6e542b6f44052c976"
+- name: "RuneProject.utx"
+  fileSize: 26135
+  hash: "efa783fc5b6fc1b7f91c6d023cb59fc6b410d7c2"
+- name: "egyptsky.utx"
+  fileSize: 1735210
+  hash: "8ecdb294c25a66f39ed27730e8965339415d3e8b"
+- name: "MLRuneProjectAH.utx"
+  fileSize: 67032
+  hash: "1b7cb39646c1dced59bd50440739e12e4c59cffb"
+otherFiles: 1
+dependencies:
+  DM-AncientHildir.run:
+  - status: "OK"
+    name: "RuneProjectAncientHildr"
+  - status: "OK"
+    name: "RuneProject"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/A/a/e/4c341b/dm-ancienthildr.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-AncientHildir"
+playerCount: "2-8"
+themes:
+  Industrial: 0.1
+  Ancient: 0.9
+bots: true

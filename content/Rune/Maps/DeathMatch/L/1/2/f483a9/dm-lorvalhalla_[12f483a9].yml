@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:57"
+game: "Rune"
+name: "DM-[LoR]Valhalla"
+author: "Mike Kidney"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-lorvalhalla_shot_12f483a9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/1/2/f483a9/dm-lorvalhalla_shot_12f483a9_1.png"
+originalFilename: "DM-[LoR]Valhalla.zip"
+hash: "12f483a97151cca55d67041f865d2d149b3f5ee9"
+fileSize: 5895147
+files:
+- name: "IDR-marble.utx"
+  fileSize: 354015
+  hash: "4a192b94810c9827e2c83943d535aa87c55357a5"
+- name: "SkyCity.utx"
+  fileSize: 672267
+  hash: "5d50e39c495f29de6691781eee9bdbc3d27ad8bf"
+- name: "DM-[LoR]Valhalla.run"
+  fileSize: 1246863
+  hash: "e9a4f2b77c70c6c0d9a93711b06ec69557c59948"
+- name: "revenant.utx"
+  fileSize: 3901612
+  hash: "e035c4ef657dc7a8775552c3f615f02d017b01ea"
+- name: "ShadowTexs.utx"
+  fileSize: 1437853
+  hash: "064a7e2bd5641d15669792cb16b1b912b720b4ac"
+otherFiles: 0
+dependencies:
+  DM-[LoR]Valhalla.run:
+  - status: "OK"
+    name: "revenant"
+  - status: "OK"
+    name: "SkyCity"
+  - status: "OK"
+    name: "ShadowTexs"
+  - status: "OK"
+    name: "IDR-marble"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/1/2/f483a9/DM-%5BLoR%5DValhalla.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Valhalla"
+playerCount: "4-6"
+themes:
+  Natural: 0.3
+  Ancient: 0.7
+bots: false

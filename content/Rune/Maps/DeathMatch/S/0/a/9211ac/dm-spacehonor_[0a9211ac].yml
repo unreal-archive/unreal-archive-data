@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:52"
+game: "Rune"
+name: "DM-SpaceHonor"
+author: "[DS]-JetBoom"
+description: "Welcome! Fight with Honor!"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-spacehonor_shot_0a9211ac_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/S/0/a/9211ac/dm-spacehonor_shot_0a9211ac_2.png"
+- type: "IMAGE"
+  name: "dm-spacehonor_shot_0a9211ac_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/S/0/a/9211ac/dm-spacehonor_shot_0a9211ac_1.png"
+originalFilename: "DM-SpaceHonor.zip"
+hash: "0a9211acbd0522772ec27625f252bf89d7e66283"
+fileSize: 638095
+files:
+- name: "Rockin.uax"
+  fileSize: 322956
+  hash: "0654529460e9409c8e7dacbcfcc9bb8917272c33"
+- name: "DM-SpaceHonor.run"
+  fileSize: 256986
+  hash: "74c52be7140050302a2e151b760c698c4706911d"
+- name: "MyLevel.utx"
+  fileSize: 67024
+  hash: "3969ee45464dd4919594678aed2ec24d323510e7"
+otherFiles: 2
+dependencies:
+  DM-SpaceHonor.run:
+  - status: "MISSING"
+    name: "CounterZone"
+  - status: "OK"
+    name: "Rockin"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/S/0/a/9211ac/DM-SpaceHonor.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Space Honor"
+playerCount: "2-10"
+themes:
+  Industrial: 1.0
+bots: false

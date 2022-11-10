@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:58"
+game: "Rune"
+name: "DM-Sturgess_040414a"
+author: "bFrank, Unter den Uebrigen"
+description: "Sturgess Islands, Alaska"
+releaseDate: "2004-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-sturgess_040414a_shot_88f3ef1f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/S/8/8/f3ef1f/dm-sturgess_040414a_shot_88f3ef1f_1.png"
+originalFilename: "DM-Sturgess_040414a.zip"
+hash: "88f3ef1f2b095de1b5465274dd429eba2b54ae51"
+fileSize: 309969
+files:
+- name: "DM-Sturgess_040414a.run"
+  fileSize: 891513
+  hash: "479560557827f6defd0815f8059b706094684624"
+- name: "Skolf_040414a.utx"
+  fileSize: 353486
+  hash: "3dc2b8f71f1d6e1a50424c863b4e063291c5b4bb"
+- name: "SkolfInfo_040412.utx"
+  fileSize: 1513
+  hash: "38079c6e4bf4650dac820fb5b607aae002812981"
+otherFiles: 0
+dependencies:
+  Skolf_040414a.utx:
+  - status: "OK"
+    name: "SkolfInfo_040412"
+  DM-Sturgess_040414a.run:
+  - status: "OK"
+    name: "SkolfInfo_040412"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/S/8/8/f3ef1f/DM-Sturgess_040414a.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Sturgess Island"
+playerCount: "4-8"
+themes:
+  Natural: 1.0
+bots: true

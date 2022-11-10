@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:36"
+game: "Rune"
+name: "DM-1on1ArenaGDO"
+author: "[GDO] Seri@l Killer"
+description: "Bem Vindo para 1on1 Arena GDO"
+releaseDate: "2006-02"
+attachments: []
+originalFilename: "DM-1on1ArenaGDO.zip"
+hash: "91da9d6f8f362aa001ec3fe3acfcd68d8c85c3cf"
+fileSize: 273069
+files:
+- name: "EscudoGDO.u"
+  fileSize: 752
+  hash: "82f71b6456fedd56b60120285497e14143dc840b"
+- name: "DM-1on1ArenaGDO.run"
+  fileSize: 915526
+  hash: "7388f1f74b1195f0f3e4b8d04388d51781191448"
+- name: "1on1ArenaGDO.utx"
+  fileSize: 353739
+  hash: "fa46b9ad9b77f59c2f0870900930ecaceca19969"
+- name: "ArmasGDO.utx"
+  fileSize: 88992
+  hash: "b0b14910a8b3a54762e241346aa9ff90359600c5"
+otherFiles: 1
+dependencies:
+  DM-1on1ArenaGDO.run:
+  - status: "OK"
+    name: "1on1ArenaGDO"
+  - status: "OK"
+    name: "EscudoGDO"
+  EscudoGDO.u:
+  - status: "OK"
+    name: "ArmasGDO"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/1%20on%201/A/9/1/da9d6f/DM-1on1ArenaGDO.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "1 on 1"
+title: "1on1 Arena GDO v2.0"
+playerCount: "16 players"
+themes:
+  Industrial: 0.8
+  Ancient: 0.1
+bots: false

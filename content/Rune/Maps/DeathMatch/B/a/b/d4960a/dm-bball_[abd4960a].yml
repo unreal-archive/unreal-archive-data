@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:08"
+variationOf: "2ee77927735fc29523cc48cb4bc7cf2d439b3a39"
+game: "Rune"
+name: "DM-bball"
+author: "Jon \"Shrapnel\" Cruz"
+description: "None"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-bball_shot_abd4960a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/B/a/b/d4960a/dm-bball_shot_abd4960a_2.png"
+- type: "IMAGE"
+  name: "dm-bball_shot_abd4960a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/B/a/b/d4960a/dm-bball_shot_abd4960a_1.png"
+originalFilename: "DM-Bball.zip"
+hash: "abd4960ab7be8a8387598179a0faf0b3a944bd8a"
+fileSize: 4990330
+files:
+- name: "basketball.u"
+  fileSize: 1487537
+  hash: "921bc801f2e23a4a212654a5e28e16dd1e680466"
+- name: "shrapbasketball.utx"
+  fileSize: 4776639
+  hash: "9460ba3f28db56a2582189ce56a3619810582444"
+- name: "shrapgrass.utx"
+  fileSize: 532473
+  hash: "49abe0a4e90620f2c8106f06f13582c20d934a14"
+- name: "DM-bball.run"
+  fileSize: 4404570
+  hash: "cad0544e5a9d4c4c14258f9850acd326f1e780bf"
+otherFiles: 2
+dependencies:
+  DM-bball.run:
+  - status: "OK"
+    name: "basketball"
+  - status: "OK"
+    name: "shrapgrass"
+  - status: "OK"
+    name: "shrapbasketball"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/B/a/b/d4960a/DM-Bball.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Basketball for Vikings"
+playerCount: "4 and more"
+themes:
+  Natural: 1.0
+bots: false

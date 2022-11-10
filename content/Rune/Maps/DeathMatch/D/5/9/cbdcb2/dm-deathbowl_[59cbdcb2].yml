@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:50"
+game: "Rune"
+name: "DM-DeathBowl"
+author: "William \"Jet Boom\" Moodhe"
+description: "None"
+releaseDate: "2001-09"
+attachments: []
+originalFilename: "DM-DeathBowl.zip"
+hash: "59cbdcb227fde57fd41361946e060923b54b363d"
+fileSize: 168711
+files:
+- name: "dbs.u"
+  fileSize: 3671
+  hash: "de12c0e2a096fa24b57d1544a80769d81f7166bd"
+- name: "DwarfBitch.utx"
+  fileSize: 89002
+  hash: "9016b111910a6260f84170c2a62cd014134a09c7"
+- name: "DM-DeathBowl.run"
+  fileSize: 296049
+  hash: "49be569cc85e072dd18aef8c55c7b11939e7339f"
+- name: "DS.u"
+  fileSize: 1447
+  hash: "6a8eb43624f8cf31bc2361153edd2e87e2b72f0a"
+- name: "DStex.utx"
+  fileSize: 100959
+  hash: "2b39bfad28eeeae26d71bc557b07baad7a26a578"
+otherFiles: 1
+dependencies:
+  dbs.u:
+  - status: "OK"
+    name: "DwarfBitch"
+  DS.u:
+  - status: "OK"
+    name: "DStex"
+  DM-DeathBowl.run:
+  - status: "OK"
+    name: "DS"
+  - status: "OK"
+    name: "dbs"
+  - status: "OK"
+    name: "DStex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/D/5/9/cbdcb2/DM-DeathBowl.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "§ - Death Bowl - §"
+playerCount: "Lots"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+bots: false

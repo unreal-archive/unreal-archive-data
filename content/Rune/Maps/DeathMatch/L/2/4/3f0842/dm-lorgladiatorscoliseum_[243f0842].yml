@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:51"
+game: "Rune"
+name: "DM-[LoR]GladiatorsColiseum"
+author: "Mike Kidney"
+description: "None"
+releaseDate: "2002-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-lorgladiatorscoliseum_shot_243f0842_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/2/4/3f0842/dm-lorgladiatorscoliseum_shot_243f0842_1.png"
+- type: "IMAGE"
+  name: "dm-lorgladiatorscoliseum_shot_243f0842_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/2/4/3f0842/dm-lorgladiatorscoliseum_shot_243f0842_2.png"
+originalFilename: "DM-GladiatorsColiseum.zip"
+hash: "243f0842956bdd8bc7bd0f7770acf8523c421cfe"
+fileSize: 1576880
+files:
+- name: "Hauntedtex.utx"
+  fileSize: 1374941
+  hash: "0f0d53d4a63664d2cdf849feeaa36592f77e782f"
+- name: "crowd.uax"
+  fileSize: 176856
+  hash: "6e663f0bdc32c33c4e37cf5be22837445be1b6d7"
+- name: "rose.utx"
+  fileSize: 23435
+  hash: "a6f6a9b8f85b4c30770cd6f2fa8320667437f207"
+- name: "DM-[LoR]GladiatorsColiseum.run"
+  fileSize: 1325509
+  hash: "a0dafc73470682691854354af2a9d91160a793cd"
+otherFiles: 2
+dependencies:
+  DM-[LoR]GladiatorsColiseum.run:
+  - status: "OK"
+    name: "crowd"
+  - status: "OK"
+    name: "rose"
+  - status: "OK"
+    name: "Hauntedtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/2/4/3f0842/DM-GladiatorsColiseum.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "GladiatorsDream"
+playerCount: "3-6"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2
+bots: true

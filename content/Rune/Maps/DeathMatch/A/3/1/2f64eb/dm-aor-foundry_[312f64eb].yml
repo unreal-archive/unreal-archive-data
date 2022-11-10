@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:04"
+game: "Rune"
+name: "DM-(AoR)-Foundry"
+author: "Darkwolf"
+description: "None"
+releaseDate: "2001-06"
+attachments: []
+originalFilename: "DM-Foundry.zip"
+hash: "312f64ebdfcb0bc2205185a3c0e8d9f8462788bf"
+fileSize: 488972
+files:
+- name: "Darkwolf.utx"
+  fileSize: 88980
+  hash: "9fece613aa26fb6b41ef27cc073246aec706110c"
+- name: "AoR_2_0.utx"
+  fileSize: 88993
+  hash: "47ac9f8c6ccb275aefd0b0b0693b156bcb6d0ca2"
+- name: "MyTextures.utx"
+  fileSize: 88995
+  hash: "d17728f4739ef4562b837fd8f73e1ba17ab425c3"
+- name: "Texture-aor.utx"
+  fileSize: 467579
+  hash: "a2e4b53b7db66577eaf11a6acf2c90856133f273"
+- name: "DM-(AoR)-Foundry.run"
+  fileSize: 407060
+  hash: "d7ea8871a794d2a58306204cac6434e018269d45"
+otherFiles: 0
+dependencies:
+  DM-(AoR)-Foundry.run:
+  - status: "OK"
+    name: "MyTextures"
+  - status: "OK"
+    name: "Texture-aor"
+  - status: "OK"
+    name: "Darkwolf"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/A/3/1/2f64eb/DM-Foundry.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Foundry"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

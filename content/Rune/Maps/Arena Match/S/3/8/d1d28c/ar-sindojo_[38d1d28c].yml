@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:13"
+game: "Rune"
+name: "AR-SinDojo"
+author: "Wicked/Bleeder"
+description: "~BIWS Arenas~"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "ar-sindojo_shot_38d1d28c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/S/3/8/d1d28c/ar-sindojo_shot_38d1d28c_1.png"
+originalFilename: "AR-SinDojo.zip"
+hash: "38d1d28c72d1991ff070e53bec206ef2ea5ba13d"
+fileSize: 567001
+files:
+- name: "DojoWeapons.u"
+  fileSize: 98513
+  hash: "0a203094c4f1e8b214e0fe675a7b446646296ffe"
+- name: "AR-SinDojo.run"
+  fileSize: 1007195
+  hash: "1fc8ee49a79b4e4f44fd32cbfe80ea47eecbfc27"
+- name: "DojoTex.utx"
+  fileSize: 515044
+  hash: "d59b44d4ae37fa1816779c413809164c66474d8f"
+otherFiles: 1
+dependencies:
+  AR-SinDojo.run:
+  - status: "OK"
+    name: "DojoTex"
+  - status: "OK"
+    name: "DojoWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/S/3/8/d1d28c/AR-SinDojo.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "SinDojo"
+playerCount: "Max 3 vs 3"
+themes:
+  Industrial: 0.6
+  Ancient: 0.4
+bots: true

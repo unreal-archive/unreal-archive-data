@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:55"
+game: "Rune"
+name: "AR-HeavenHellArena"
+author: "[OcA]_RazorALLE"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "ar-heavenhellarena_shot_702e0bc1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/H/7/0/2e0bc1/ar-heavenhellarena_shot_702e0bc1_1.png"
+originalFilename: "ar-heavenhellarena.zip"
+hash: "702e0bc14ee6efca5364eedbc2bfd92ddc0f06d2"
+fileSize: 746098
+files:
+- name: "AR-HeavenHellArena.run"
+  fileSize: 2935342
+  hash: "fcada09ccaf02eefdf00eadd8bc03a44454296bd"
+- name: "GreatFire.utx"
+  fileSize: 13215
+  hash: "ba8c4af7f8fbec3a2eec359ab7e31c72386ddb49"
+- name: "Alle3.utx"
+  fileSize: 191350
+  hash: "40187bef252b5bf6ff8249be573ca57a4f70bcb2"
+otherFiles: 1
+dependencies:
+  AR-HeavenHellArena.run:
+  - status: "OK"
+    name: "GreatFire"
+  - status: "OK"
+    name: "Alle3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/H/7/0/2e0bc1/ar-heavenhellarena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "AR-HeavenHellArena"
+playerCount: "1 on 1"
+themes:
+  Natural: 0.5
+  Industrial: 0.1
+  Ancient: 0.4
+bots: true

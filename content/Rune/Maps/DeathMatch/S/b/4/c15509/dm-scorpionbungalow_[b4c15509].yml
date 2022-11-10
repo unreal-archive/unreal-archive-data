@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:41"
+game: "Rune"
+name: "DM-[scorpion]Bungalow"
+author: "[Scorpion]Knight"
+description: "None"
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "DM-[scorpion]Bungalow.zip"
+hash: "b4c1550956b1db2b1c94cb6410ed8b53446d46a8"
+fileSize: 1303809
+files:
+- name: "Wendol][Snd.uax"
+  fileSize: 124101
+  hash: "f0c90db1fd9236259b10617b69cc80c8a036b0af"
+- name: "DM-[scorpion]Bungalow.run"
+  fileSize: 251013
+  hash: "fafe77f63559723cb18d4fbfa02f9a01bc2d8b20"
+- name: "Stextures.utx"
+  fileSize: 289528
+  hash: "4d9f6d4f8f8a36793216006d40f56f84e57d1c6a"
+- name: "Hauntedtex.utx"
+  fileSize: 1374941
+  hash: "0f0d53d4a63664d2cdf849feeaa36592f77e782f"
+otherFiles: 0
+dependencies:
+  DM-[scorpion]Bungalow.run:
+  - status: "OK"
+    name: "Stextures"
+  - status: "MISSING"
+    name: "Wendol]["
+  - status: "OK"
+    name: "Hauntedtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/S/b/4/c15509/DM-%5Bscorpion%5DBungalow.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-[scorpion]Bungalow"
+playerCount: "2-4"
+themes:
+  Industrial: 0.1
+  Ancient: 0.9
+bots: false

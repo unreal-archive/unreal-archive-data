@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:55"
+game: "Rune"
+name: "DM-TyrsChallenge"
+author: "Idometrius - Matt Ellis"
+description: "Welcome To Tyr's Challenge!"
+releaseDate: "2000-12"
+attachments: []
+originalFilename: "DM-TyrsChallenge.zip"
+hash: "9504c13e9fe0ca4d5638783a3b9cb3b158d4c1ee"
+fileSize: 781545
+files:
+- name: "DM-TyrsChallenge.run"
+  fileSize: 2224556
+  hash: "874bac219d2053307a4a47c2eff9f29ca4c77e91"
+- name: "ISVFX.utx"
+  fileSize: 24364
+  hash: "0deb93f1248b3f0968c99c586a8a80bf6fc85c78"
+- name: "tyr2.uax"
+  fileSize: 634505
+  hash: "0334b780dcdf39389db0f04fd8294e6a30144c47"
+otherFiles: 1
+dependencies:
+  DM-TyrsChallenge.run:
+  - status: "OK"
+    name: "tyr2"
+  - status: "OK"
+    name: "ISVFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/T/9/5/04c13e/DM-TyrsChallenge.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Tyr's Challenge"
+playerCount: "4-8"
+themes:
+  Natural: 1.0
+bots: true

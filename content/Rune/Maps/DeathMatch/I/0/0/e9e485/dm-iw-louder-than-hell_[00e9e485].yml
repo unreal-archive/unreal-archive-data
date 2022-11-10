@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:49"
+game: "Rune"
+name: "DM-=IW=-Louder Than Hell"
+author: "-=IW=-RagnarSnow"
+description: "None"
+releaseDate: "2005-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-iw-louder-than-hell_shot_00e9e485_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/I/0/0/e9e485/dm-iw-louder-than-hell_shot_00e9e485_1.png"
+originalFilename: "DM-LouderThanHell.zip"
+hash: "00e9e485e4a567986e8f49f2d18f663ebbc92fad"
+fileSize: 4844605
+files:
+- name: "ShaneChurch.utx"
+  fileSize: 5064523
+  hash: "fc244f7b24a74c261c59b633fb70c7e41c82e612"
+- name: "DM-=IW=-Louder Than Hell.run"
+  fileSize: 410518
+  hash: "e5b7eca0c2081c52bc4aa3b63f65300239049bcd"
+- name: "Detail.utx"
+  fileSize: 1729964
+  hash: "b9e2e9123c154d3a92b8e39abd6ff77637e0b85e"
+- name: "LouderThanHell.utx"
+  fileSize: 132869
+  hash: "89105a4162a8b7f43fb8f917ab3a8b1d7d40b968"
+otherFiles: 1
+dependencies:
+  DM-=IW=-Louder Than Hell.run:
+  - status: "OK"
+    name: "ShaneChurch"
+  - status: "OK"
+    name: "LouderThanHell"
+  ShaneChurch.utx:
+  - status: "OK"
+    name: "Detail"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/I/0/0/e9e485/DM-LouderThanHell.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-=IW=-Louder Than Hell"
+playerCount: "4-10"
+themes:
+  Industrial: 0.1
+  Ancient: 0.9
+bots: false

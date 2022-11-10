@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:09"
+game: "Rune"
+name: "DM-[LoR]LordsOfRune"
+author: "Mike Kidney"
+description: "None"
+releaseDate: "2002-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-lorlordsofrune_shot_6a11cad0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/6/a/11cad0/dm-lorlordsofrune_shot_6a11cad0_1.png"
+originalFilename: "DM-[LoR}LordsOfRune.zip"
+hash: "6a11cad04e20bbbaedc9d53723f55c924360e1e7"
+fileSize: 179382
+files:
+- name: "lor.utx"
+  fileSize: 67004
+  hash: "6af5fbd113579dfdc48425538713d7e1dd2a352b"
+- name: "LoRNames.utx"
+  fileSize: 398325
+  hash: "7152fcb39182a8e437b88f01300a624c4ba331b5"
+- name: "DM-[LoR]LordsOfRune.run"
+  fileSize: 367026
+  hash: "bd85a2db00ea0f1e85b358f6f4cf904899c818cc"
+otherFiles: 1
+dependencies:
+  DM-[LoR]LordsOfRune.run:
+  - status: "OK"
+    name: "LoRNames"
+  - status: "OK"
+    name: "lor"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/6/a/11cad0/DM-%5BLoR%7DLordsOfRune.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LordsOfRune"
+playerCount: "2-4"
+themes:
+  Ancient: 1.0
+bots: false

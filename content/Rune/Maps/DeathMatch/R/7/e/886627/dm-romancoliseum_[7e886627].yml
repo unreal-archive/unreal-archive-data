@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:58"
+game: "Rune"
+name: "DM-RomanColiseum"
+author: "Putz"
+description: "A Roman Death"
+releaseDate: "2001-02"
+attachments: []
+originalFilename: "DM-RomanColiseum.rar"
+hash: "7e886627df86ba1a7e14d2e31d4c032753f3b64e"
+fileSize: 1006672
+files:
+- name: "rose.utx"
+  fileSize: 23435
+  hash: "a6f6a9b8f85b4c30770cd6f2fa8320667437f207"
+- name: "DM-RomanColiseum.run"
+  fileSize: 7130726
+  hash: "13038ea231cf6f5b94a17d51ba184daabc3b208c"
+- name: "a roman death.utx"
+  fileSize: 30189
+  hash: "814a7574c68f3bac3aa3088a34434389e69fc7c5"
+- name: "crowd.uax"
+  fileSize: 176856
+  hash: "6e663f0bdc32c33c4e37cf5be22837445be1b6d7"
+otherFiles: 0
+dependencies:
+  DM-RomanColiseum.run:
+  - status: "OK"
+    name: "crowd"
+  - status: "PARTIAL"
+    name: "a roman death"
+  - status: "OK"
+    name: "rose"
+  - status: "MISSING"
+    name: "Hauntedtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/R/7/e/886627/DM-RomanColiseum.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "A Roman Death"
+playerCount: "2-6"
+themes:
+  Ancient: 1.0
+bots: false

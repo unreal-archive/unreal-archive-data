@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:49"
+game: "Rune"
+name: "DM-Herot"
+author: "Hrothgar"
+description: "Welcome to Herot my glorious mead hall"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-herot_shot_96b13c18_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/H/9/6/b13c18/dm-herot_shot_96b13c18_1.png"
+originalFilename: "DM-Herot.zip"
+hash: "96b13c188176ad73980d89198f2edbb734650034"
+fileSize: 688270
+files:
+- name: "IDR-marble.utx"
+  fileSize: 354015
+  hash: "4a192b94810c9827e2c83943d535aa87c55357a5"
+- name: "DARTHLOX.utx"
+  fileSize: 112134
+  hash: "f82f1044dd9651df60eca886111913bd133906f5"
+- name: "DM-Herot.run"
+  fileSize: 1759721
+  hash: "181a1919c751f41b678fe1190b7deb2306776ba6"
+otherFiles: 0
+dependencies:
+  DM-Herot.run:
+  - status: "OK"
+    name: "IDR-marble"
+  - status: "OK"
+    name: "DARTHLOX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/H/9/6/b13c18/DM-Herot.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Herot"
+playerCount: "4-6"
+themes:
+  Natural: 0.1
+  Industrial: 0.6
+  Ancient: 0.3
+bots: false

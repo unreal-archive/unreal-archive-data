@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:55"
+game: "Rune"
+name: "AR-ArenaGDO"
+author: "[GDO] Seri@l Killer"
+description: "Bem Vindo para Arena GDO"
+releaseDate: "2006-03"
+attachments:
+- type: "IMAGE"
+  name: "ar-arenagdo_shot_5e9fad47_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Arena%20Match/A/5/e/9fad47/ar-arenagdo_shot_5e9fad47_1.png"
+originalFilename: "ar-arenagdo.zip"
+hash: "5e9fad4768458e63d69abeab089ebfc9a3169618"
+fileSize: 244122
+files:
+- name: "EscudoGDO.u"
+  fileSize: 752
+  hash: "82f71b6456fedd56b60120285497e14143dc840b"
+- name: "ArmasGDO.utx"
+  fileSize: 88992
+  hash: "b0b14910a8b3a54762e241346aa9ff90359600c5"
+- name: "AR-ArenaGDO.run"
+  fileSize: 349509
+  hash: "686fa96c459296121ad297797c30a6d6075694bb"
+- name: "1on1ArenaGDO.utx"
+  fileSize: 353739
+  hash: "fa46b9ad9b77f59c2f0870900930ecaceca19969"
+otherFiles: 1
+dependencies:
+  AR-ArenaGDO.run:
+  - status: "OK"
+    name: "1on1ArenaGDO"
+  - status: "OK"
+    name: "EscudoGDO"
+  EscudoGDO.u:
+  - status: "OK"
+    name: "ArmasGDO"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/A/5/e/9fad47/ar-arenagdo.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "Arena GDO"
+playerCount: "8 players"
+themes:
+  Industrial: 1.0
+bots: true

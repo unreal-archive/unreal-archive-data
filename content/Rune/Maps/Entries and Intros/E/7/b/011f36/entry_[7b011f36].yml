@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:03"
+game: "Rune"
+name: "Entry"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "entry.zip"
+hash: "7b011f36fab166f7b661baebca9281538ae8b13c"
+fileSize: 8742358
+files:
+- name: "SuperSongs.uax"
+  fileSize: 8702198
+  hash: "8e609ab6a6111f1639fdf0e6d2015b88dea5d283"
+- name: "Entry.run"
+  fileSize: 541477
+  hash: "d83b3ab86614a03b73be2237ed9cdbbe52b15c74"
+- name: "Announcer.uax"
+  fileSize: 923311
+  hash: "6cfada39a802cca17478678e6935394c07e21de3"
+otherFiles: 1
+dependencies:
+  Entry.run:
+  - status: "OK"
+    name: "Announcer"
+  - status: "OK"
+    name: "SuperSongs"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Unknown/E/7/b/011f36/entry.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Entries and Intros"
+title: "Entry"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.6
+  Ancient: 0.4
+bots: false

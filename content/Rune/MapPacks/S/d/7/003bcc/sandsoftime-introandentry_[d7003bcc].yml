@@ -1,0 +1,46 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 21:02"
+game: "Rune"
+name: "SandsOfTime IntroAndEntry"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "SandsOfTime-IntroAndEntry.zip"
+hash: "d7003bcc477d11cce06f1aa6497f868f78a4fe17"
+fileSize: 114622128
+files:
+- name: "Entry.run"
+  fileSize: 24988
+  hash: "8dfe2b5be173c23c3d0b632cc9631d21ea720d7e"
+- name: "Intro.run"
+  fileSize: 24988
+  hash: "8dfe2b5be173c23c3d0b632cc9631d21ea720d7e"
+- name: "StinkyAC.uax"
+  fileSize: 128149458
+  hash: "6b29377a6dfb74a9c1d6493758114c514a26a2fd"
+otherFiles: 1
+dependencies:
+  Entry.run:
+  - status: "OK"
+    name: "StinkyAC"
+  Intro.run:
+  - status: "OK"
+    name: "StinkyAC"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/S/d/7/003bcc/SandsOfTime-IntroAndEntry.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "Entry"
+  title: "Entry"
+  author: "Unknown"
+- name: "Intro"
+  title: "Intro"
+  author: "Unknown"
+gametype: "Entries and Intros"
+themes: {}

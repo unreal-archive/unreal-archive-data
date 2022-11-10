@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:59"
+game: "Rune"
+name: "DM-Club_Dro"
+author: "Hydro aka (=!N!=)Dro"
+description: "Club Dro"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-club_dro_shot_2bc0b502_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/C/2/b/c0b502/dm-club_dro_shot_2bc0b502_1.png"
+originalFilename: "DM-Club_Dro.zip"
+hash: "2bc0b5025a6a3c0c48ea56fa5c27a642c09efdfb"
+fileSize: 572320
+files:
+- name: "BarDecor.u"
+  fileSize: 219174
+  hash: "a980c4152ed752737cce0d12ccb59e82c4ac54c0"
+- name: "Dro_Tex1.utx"
+  fileSize: 200802
+  hash: "bc891a6e6c7f6473dfff6a91c17d271ffa49e712"
+- name: "Dropile1.utx"
+  fileSize: 200802
+  hash: "bc891a6e6c7f6473dfff6a91c17d271ffa49e712"
+- name: "DM-Club_Dro.run"
+  fileSize: 567376
+  hash: "649e49ae3f016f9ee8a3552970232fd6441bae83"
+otherFiles: 1
+dependencies:
+  DM-Club_Dro.run:
+  - status: "OK"
+    name: "Dropile1"
+  - status: "OK"
+    name: "Dro_Tex1"
+  - status: "OK"
+    name: "BarDecor"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/C/2/b/c0b502/DM-Club_Dro.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Club Dro"
+playerCount: "2-14"
+themes:
+  Industrial: 1.0
+bots: false

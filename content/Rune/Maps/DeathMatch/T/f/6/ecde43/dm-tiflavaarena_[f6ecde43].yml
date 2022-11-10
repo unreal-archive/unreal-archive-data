@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:03"
+game: "Rune"
+name: "DM-=!TIF!=LavaArena"
+author: "=!TIF!=Koffer"
+description: "None"
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "DM-=!TIF!=LavaArena.zip"
+hash: "f6ecde4321fd533aa35da0f4c8e576f237b06711"
+fileSize: 504404
+files:
+- name: "=!TIF!=065.utx"
+  fileSize: 132876
+  hash: "9a0b6b3f08b1f1aa65f6e2d2412801642d4aac2e"
+- name: "DM-=!TIF!=LavaArena.run"
+  fileSize: 568475
+  hash: "245fdf382227f300fe16be475f618f93cefd774d"
+- name: "=!TIF!=Texture.utx"
+  fileSize: 397966
+  hash: "53c5ae14bb191d5fcc77bd7d5868000a29c1f8e1"
+otherFiles: 0
+dependencies:
+  DM-=!TIF!=LavaArena.run:
+  - status: "OK"
+    name: "=!TIF!=Texture"
+  - status: "OK"
+    name: "=!TIF!=065"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/T/f/6/ecde43/DM-=!TIF!=LavaArena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-=!TIF!=LavaArena"
+playerCount: "4-8"
+themes:
+  Natural: 1.0
+bots: false

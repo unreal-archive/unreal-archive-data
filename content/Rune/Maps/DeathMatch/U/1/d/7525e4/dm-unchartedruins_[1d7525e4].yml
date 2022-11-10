@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:47"
+game: "Rune"
+name: "DM-UnChartedRuins"
+author: "{-G-}_Vegeta_{-G-}"
+description: "None"
+releaseDate: "2001-07"
+attachments: []
+originalFilename: "DM-UnChartedRuins.zip"
+hash: "1d7525e481b734e9b9cc5c29b07806e7d65ecef0"
+fileSize: 668724
+files:
+- name: "SmellyThing.u"
+  fileSize: 13146
+  hash: "2356b10bb3556ed817f28bf37125a0491d58414e"
+- name: "DM-UnChartedRuins.run"
+  fileSize: 1819755
+  hash: "61cd18a17d8728d7107fc6ccd23bf3e52ed449fc"
+- name: "SmellyThingWEP.utx"
+  fileSize: 177688
+  hash: "cf58cb7a6a451aefee95242bc0c12f8c82236dcd"
+otherFiles: 0
+dependencies:
+  SmellyThing.u:
+  - status: "OK"
+    name: "SmellyThingWEP"
+  DM-UnChartedRuins.run:
+  - status: "OK"
+    name: "SmellyThing"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/U/1/d/7525e4/DM-UnChartedRuins.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "UnCharted Ruins"
+playerCount: "6-8"
+themes:
+  Industrial: 1.0
+bots: false

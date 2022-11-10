@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 22:04"
+game: "Rune"
+name: "DM-UC-1on1-Arena"
+author: "Himself"
+description: "1 on 1 Arena - Fight with Honor"
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "DM-uc-1on1-arena.zip"
+hash: "74aa872c13f6923145afcf93002ddfb551df8030"
+fileSize: 881652
+files:
+- name: "DM-UC-1on1-Arena.run"
+  fileSize: 188166
+  hash: "3f20bd1d36c6a9087fc0073241e4438503f4e7f1"
+- name: "Dro_Tex1.utx"
+  fileSize: 200802
+  hash: "bc891a6e6c7f6473dfff6a91c17d271ffa49e712"
+- name: "MightySold.utx"
+  fileSize: 492342
+  hash: "60184bdf0b5efcbf794064058fdc1137f822cb0d"
+otherFiles: 0
+dependencies:
+  DM-UC-1on1-Arena.run:
+  - status: "OK"
+    name: "Dro_Tex1"
+  - status: "OK"
+    name: "MightySold"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/U/7/4/aa872c/DM-uc-1on1-arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "1 on 1 Arena"
+playerCount: "6"
+themes:
+  Industrial: 1.0
+bots: false

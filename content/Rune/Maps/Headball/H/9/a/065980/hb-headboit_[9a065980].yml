@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:50"
+game: "Rune"
+name: "HB-HeadBoit"
+author: "[OcA]MightyBOIT"
+description: "None"
+releaseDate: "2001-09"
+attachments:
+- type: "IMAGE"
+  name: "hb-headboit_shot_9a065980_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/Headball/H/9/a/065980/hb-headboit_shot_9a065980_1.png"
+originalFilename: "hb-headboit.zip"
+hash: "9a065980981648a31bf0ea47b57ade348dbcc3b9"
+fileSize: 247348
+files:
+- name: "MightyHead.utx"
+  fileSize: 90540
+  hash: "fe6dcc42e7c11f840e2e7ce2512ac048abe612ef"
+- name: "HB-HeadBoit.run"
+  fileSize: 445883
+  hash: "f0ab143cb501edfcdb4bee6bbc6079832e705f68"
+- name: "oca_tex.utx"
+  fileSize: 352895
+  hash: "e7a99db411e56a7a30464abdb305a08e7e51edf4"
+otherFiles: 0
+dependencies:
+  HB-HeadBoit.run:
+  - status: "OK"
+    name: "MightyHead"
+  - status: "OK"
+    name: "oca_tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Headball/H/9/a/065980/hb-headboit.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Headball"
+title: "HB-HeadBoit"
+playerCount: "2-6"
+themes:
+  Industrial: 1.0
+bots: true

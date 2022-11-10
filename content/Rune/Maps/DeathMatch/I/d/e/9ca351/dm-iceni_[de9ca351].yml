@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:43"
+game: "Rune"
+name: "DM-Iceni"
+author: "Angelheart"
+description: "None"
+releaseDate: "2000-11"
+attachments: []
+originalFilename: "DM-Iceni.zip"
+hash: "de9ca35158f05cc27f65371e17d21df51b7e427c"
+fileSize: 3236615
+files:
+- name: "Icenitex.utx"
+  fileSize: 2422185
+  hash: "cc6a92056aad56c298dfd7ca3c625aa8cea4da97"
+- name: "Celtsnds.uax"
+  fileSize: 185791
+  hash: "574f0d6f3d5a636c4829524700ea148be4b50de3"
+- name: "DM-Iceni.run"
+  fileSize: 2849213
+  hash: "a1999a08d457d87f358d65e2cf5ced75532e9a8a"
+otherFiles: 1
+dependencies:
+  DM-Iceni.run:
+  - status: "OK"
+    name: "Icenitex"
+  - status: "OK"
+    name: "Celtsnds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/I/d/e/9ca351/DM-Iceni.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Iceni"
+playerCount: "4-5 maybe"
+themes:
+  Natural: 0.5
+  Ancient: 0.5
+bots: false

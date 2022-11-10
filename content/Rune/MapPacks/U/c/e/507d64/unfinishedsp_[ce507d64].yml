@@ -1,0 +1,138 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 20:49"
+game: "Rune"
+name: "Unfinishedsp"
+author: "Various"
+description: "None"
+releaseDate: "2005-04"
+attachments:
+- type: "IMAGE"
+  name: "unfinishedsp_shot_ce507d64_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/MapPacks/U/c/e/507d64/unfinishedsp_shot_ce507d64_1.png"
+originalFilename: "unfinishedsp.zip"
+hash: "ce507d649e5b5b74647ef1ea30bd893f2fe771a4"
+fileSize: 10746416
+files:
+- name: "MountainPassA.run"
+  fileSize: 3225844
+  hash: "e12532b5d9357ab5fb5d48f436f78f5ef4ff2749"
+- name: "ShadowAndFlame.run"
+  fileSize: 2101357
+  hash: "d1395bd3d85b5bf9229420d9bb783472de573bfa"
+- name: "ZombieRitual.run"
+  fileSize: 3007949
+  hash: "b42243e9bd63d5422f67303e48aa1c48ac1d6f9a"
+- name: "SP-Startmap.run"
+  fileSize: 904710
+  hash: "4fb1b7297871ae465ba07d60801e1f6915b3cb9b"
+- name: "NewTex.utx"
+  fileSize: 781893
+  hash: "d98973f310c8ba4e8d425281ca89c08c43e430df"
+- name: "NewTex2.utx"
+  fileSize: 1609572
+  hash: "f1c2ab31ff4e51af6c44aa1c43afc80b3fabacfc"
+- name: "CSnds.uax"
+  fileSize: 50021
+  hash: "9f6444ff77fcd08bea7f3a6193ea351f66d1f7f0"
+- name: "Harbour.run"
+  fileSize: 4398808
+  hash: "3c5503f236fd6e643283add466ddc2d0ce2b1018"
+- name: "Arenafighter.run"
+  fileSize: 1334349
+  hash: "b1ddab31a01579e60eccdf7d9adc2ece539970c4"
+- name: "GoblinsLair.run"
+  fileSize: 876537
+  hash: "353a474d18a5c780d54328734185679818c9631b"
+- name: "MountainPassB.run"
+  fileSize: 2920675
+  hash: "5af7aea8c1c1e7cf685cee193225362e2a6272b6"
+- name: "ALongWayDown.run"
+  fileSize: 2898617
+  hash: "f3e8eb91a9a9fc9168dae965dd5374a2315a41f2"
+- name: "MountainVillage.run"
+  fileSize: 2189542
+  hash: "9931a9580a980a5856a7424e2e21b8b8f4176ae2"
+- name: "Fjord.run"
+  fileSize: 2172085
+  hash: "5c731607e7002f55503d57305766b1331474d56c"
+otherFiles: 2
+dependencies:
+  MountainVillage.run:
+  - status: "OK"
+    name: "NewTex2"
+  Arenafighter.run:
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "CSnds"
+  - status: "OK"
+    name: "NewTex2"
+  ZombieRitual.run:
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "NewTex2"
+  Harbour.run:
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "NewTex2"
+  ALongWayDown.run:
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "NewTex2"
+  Fjord.run:
+  - status: "OK"
+    name: "NewTex"
+  MountainPassA.run:
+  - status: "OK"
+    name: "NewTex"
+  - status: "OK"
+    name: "NewTex2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/U/c/e/507d64/unfinishedsp.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "MountainPassA"
+  title: "Mountain Passage A"
+  author: "Andreas\"EvilDick\"Winkelmann"
+- name: "ShadowAndFlame"
+  title: "Shadow And Flame"
+  author: "Andreas \"EvilDick\" Winkelmann"
+- name: "ZombieRitual"
+  title: "Zombie Ritual"
+  author: "Andreas \"EvilDick\" Winkelmann"
+- name: "Harbour"
+  title: "Northern Lights"
+  author: "Andreas"
+- name: "Arenafighter"
+  title: "Arenafighter"
+  author: "Unknown"
+- name: "SP-Startmap"
+  title: "HiddenCaves"
+  author: "Andreas \"Haltyr\" Winkelmann"
+- name: "GoblinsLair"
+  title: "GoblinsLair"
+  author: "Andreas \"EvilDick\" Winkelmann"
+- name: "MountainPassB"
+  title: ""
+  author: "Unknown"
+- name: "ALongWayDown"
+  title: ""
+  author: "Andreas"
+- name: "MountainVillage"
+  title: "MountainVillage"
+  author: "Unknown"
+- name: "Fjord"
+  title: "Fjord"
+  author: "Unknown"
+gametype: "Single Player"
+themes:
+  Industrial: 0.8
+  Ancient: 0.2

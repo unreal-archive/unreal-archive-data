@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:35"
+game: "Rune"
+name: "DM-1on1arena_roachpc"
+author: "Himself. Modified: Sturm"
+description: "1 on 1 Arena - Fight With Honor"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "DM-1on1arena_roachpc.zip"
+hash: "8fdf3b1a76a680b6a657def152b2e7c2fea100f0"
+fileSize: 146361
+files:
+- name: "[MUA]_ShortFuse.u"
+  fileSize: 83579
+  hash: "759a7e8f7e7b9f425bfede8688640cda15180da8"
+- name: "[MUA]_LongFuse.u"
+  fileSize: 83844
+  hash: "32ec5ddde6bee9e59b2993bcf83f233cea71cdc9"
+- name: "DM-1on1arena_roachpc.run"
+  fileSize: 238363
+  hash: "6485f230517f5778cb79824bb9a8d4f864ac068b"
+otherFiles: 0
+dependencies:
+  DM-1on1arena_roachpc.run:
+  - status: "OK"
+    name: "[MUA]_ShortFuse"
+  - status: "OK"
+    name: "[MUA]_LongFuse"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/1%20on%201/A/8/f/df3b1a/DM-1on1arena_roachpc.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "1 on 1"
+title: "1 on 1 Arena Roach"
+playerCount: "4"
+themes:
+  Industrial: 0.4
+  Ancient: 0.6
+bots: false

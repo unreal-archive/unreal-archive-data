@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:46"
+game: "Rune"
+name: "DM-ForTheLastTime"
+author: "Unknown"
+description: "None"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "DM-ForTheLastTime.zip"
+hash: "428e4bc8534c4e71fcf3043bf1c96b443a004ac8"
+fileSize: 2847414
+files:
+- name: "DM-ForTheLastTime.run"
+  fileSize: 2509403
+  hash: "0891d219eee095292a3393aa615bd6eaedc628dd"
+- name: "MightySold.utx"
+  fileSize: 492342
+  hash: "60184bdf0b5efcbf794064058fdc1137f822cb0d"
+- name: "WoT2.utx"
+  fileSize: 2341057
+  hash: "0a0d74dc6f3ac9731479ab0befe848289243e606"
+otherFiles: 1
+dependencies:
+  DM-ForTheLastTime.run:
+  - status: "MISSING"
+    name: "Stextures"
+  - status: "OK"
+    name: "MightySold"
+  - status: "OK"
+    name: "WoT2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/F/4/2/8e4bc8/DM-ForTheLastTime.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ForTheLastTime"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false

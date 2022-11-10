@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:29"
+game: "Rune"
+name: "DM-Lichtenstein"
+author: "Baldur"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-lichtenstein_shot_54ab7cb6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/L/5/4/ab7cb6/dm-lichtenstein_shot_54ab7cb6_1.png"
+originalFilename: "DM-Lichtenstein.zip"
+hash: "54ab7cb686bd24bbc9168783fdd5bee08cca8592"
+fileSize: 503175
+files:
+- name: "MyCounter.u"
+  fileSize: 3752
+  hash: "72b8cdd733977cb02a5d078c7c615e1c6b9eb423"
+- name: "DM-Lichtenstein.run"
+  fileSize: 990327
+  hash: "7aa3cf5388cf36e3ba5e85fdd7e352761b0bdab7"
+- name: "Lichtenstein.utx"
+  fileSize: 352486
+  hash: "105ec4c66869c80cf5dc016652a122f78ec85e35"
+otherFiles: 2
+dependencies:
+  DM-Lichtenstein.run:
+  - status: "OK"
+    name: "MyCounter"
+  - status: "OK"
+    name: "Lichtenstein"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/L/5/4/ab7cb6/DM-Lichtenstein.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "In the Courtyard of the Mad King"
+playerCount: "4-8"
+themes:
+  Natural: 0.3
+  Ancient: 0.7
+bots: true

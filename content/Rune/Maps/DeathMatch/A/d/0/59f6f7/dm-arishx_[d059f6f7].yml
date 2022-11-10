@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 20:46"
+game: "Rune"
+name: "DM-Aris[Hx]"
+author: "BlackMamba"
+description: "None"
+releaseDate: "2005-12"
+attachments: []
+originalFilename: "DM-Aris[HX].zip"
+hash: "d059f6f70dae6c1b81f251a30183757a9bd45fb1"
+fileSize: 938734
+files:
+- name: "DojoWeapons.u"
+  fileSize: 98513
+  hash: "0a203094c4f1e8b214e0fe675a7b446646296ffe"
+- name: "DojoTex.utx"
+  fileSize: 515044
+  hash: "d59b44d4ae37fa1816779c413809164c66474d8f"
+- name: "aristext.utx"
+  fileSize: 265402
+  hash: "65a1c038c735b8caae5fa0e83ce74880a50a4209"
+- name: "DM-Aris[Hx].run"
+  fileSize: 2372969
+  hash: "d3e82b1fe81cacb9b03e663f2dc356730d48037a"
+otherFiles: 1
+dependencies:
+  DM-Aris[Hx].run:
+  - status: "OK"
+    name: "DojoWeapons"
+  - status: "OK"
+    name: "aristext"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/A/d/0/59f6f7/DM-Aris%5BHX%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Aris"
+playerCount: "2-8"
+themes:
+  Industrial: 0.1
+  Ancient: 0.9
+bots: false

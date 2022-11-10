@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:01"
+game: "Rune"
+name: "AR-Kyrashome"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-12"
+attachments: []
+originalFilename: "ar-kyrashome.zip"
+hash: "31ca271cb6287a6727f909e490c5b6b1e0aade74"
+fileSize: 656556
+files:
+- name: "Kyra.utx"
+  fileSize: 497826
+  hash: "8da2df5668d9e2f7266943f35db83c7c7ac542a4"
+- name: "AR-Kyrashome.run"
+  fileSize: 234362
+  hash: "016557d6b2a0edb73fb6c73c32401b59fb90cf2a"
+- name: "Texture-aor.utx"
+  fileSize: 467579
+  hash: "a2e4b53b7db66577eaf11a6acf2c90856133f273"
+otherFiles: 0
+dependencies:
+  AR-Kyrashome.run:
+  - status: "OK"
+    name: "Texture-aor"
+  - status: "OK"
+    name: "Kyra"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/Arena%20Match/K/3/1/ca271c/ar-kyrashome.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Arena Match"
+title: "AR-Kyrashome"
+playerCount: "Unknown"
+themes: {}
+bots: true

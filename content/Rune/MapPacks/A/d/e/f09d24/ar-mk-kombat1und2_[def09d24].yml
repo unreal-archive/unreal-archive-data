@@ -1,0 +1,63 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 20:55"
+game: "Rune"
+name: "Ar Mk Kombat1und2"
+author: "Various"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "ar-mk-kombat1und2_shot_def09d24_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/MapPacks/A/d/e/f09d24/ar-mk-kombat1und2_shot_def09d24_2.png"
+- type: "IMAGE"
+  name: "ar-mk-kombat1und2_shot_def09d24_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/MapPacks/A/d/e/f09d24/ar-mk-kombat1und2_shot_def09d24_1.png"
+originalFilename: "ar-mk-kombat1und2.zip"
+hash: "def09d246f4caf8e557afdac8c6c3e7dd81ddf25"
+fileSize: 1411086
+files:
+- name: "MK.uax"
+  fileSize: 250746
+  hash: "a0e2db3af507fc80fe7fbee2edf7380bd0e2d0bd"
+- name: "KV2_SND.uax"
+  fileSize: 181725
+  hash: "b059e5bdd80795663b28e6d16984fc431321be95"
+- name: "AR-Kombatv2.run"
+  fileSize: 626350
+  hash: "fb2a7ee77d32123089e10c4fdada1422dec59087"
+- name: "AR-MK-Kombat.run"
+  fileSize: 489059
+  hash: "6d96dc245af10bf487094373a4be651138b19626"
+- name: "Kombat.utx"
+  fileSize: 622520
+  hash: "0c09d43e7dd78111fd6da52cdb6bda80f8bda7e8"
+otherFiles: 5
+dependencies:
+  AR-MK-Kombat.run:
+  - status: "OK"
+    name: "Kombat"
+  - status: "OK"
+    name: "MK"
+  AR-Kombatv2.run:
+  - status: "OK"
+    name: "Kombat"
+  - status: "OK"
+    name: "KV2_SND"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/MapPacks/A/d/e/f09d24/ar-mk-kombat1und2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "AR-Kombatv2"
+  title: "Kombat_v2"
+  author: "-=ROV=-Pain"
+- name: "AR-MK-Kombat"
+  title: "Kombat"
+  author: "Pain"
+gametype: "Arena Match"
+themes:
+  Natural: 1.0

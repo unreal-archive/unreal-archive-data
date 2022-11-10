@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-10 21:49"
+game: "Rune"
+name: "DM-NightBattle"
+author: "Philipp \"MeZZaNiNe\" Ross"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-nightbattle_shot_3b5c4260_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/N/3/b/5c4260/dm-nightbattle_shot_3b5c4260_1.png"
+originalFilename: "DM-NightBattle.zip"
+hash: "3b5c426004659eaee32440575942dfc50a29d6b8"
+fileSize: 724571
+files:
+- name: "Facing3.utx"
+  fileSize: 578623
+  hash: "1bd5a7c70a2b9b0361a7a8127592a34957637e8e"
+- name: "MeZZaTextures.utx"
+  fileSize: 356317
+  hash: "9d06dca707ff355e3a65f4ade0cb45535bf26a38"
+- name: "DM-NightBattle.run"
+  fileSize: 1037815
+  hash: "eb9b2862c757f78a97d6a9c2e7436094a8b96dac"
+- name: "scarab.utx"
+  fileSize: 5513
+  hash: "8a07b1633103439692e5056c137888fc19183384"
+otherFiles: 0
+dependencies:
+  DM-NightBattle.run:
+  - status: "OK"
+    name: "Facing3"
+  - status: "OK"
+    name: "scarab"
+  - status: "OK"
+    name: "MeZZaTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/N/3/b/5c4260/DM-NightBattle.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-NightBattle"
+playerCount: "2-8"
+themes:
+  Natural: 1.0
+bots: false
