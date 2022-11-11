@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-11 08:10"
+variationOf: "b21827af501e9fe67d404d966efa8e09b6b67075"
+game: "Rune"
+name: "DM-[BBA]VillageV15"
+author: "MenjiN"
+description: "BBA test map"
+releaseDate: "2002-08"
+attachments: []
+originalFilename: "dm-bbavillagev15.zip"
+hash: "f36de0e6edf6b291827e5934d31e58138ecfb1a7"
+fileSize: 641305
+files:
+- name: "BBAtexture0.utx"
+  fileSize: 170556
+  hash: "a996f1ae32a5b40625069064247c1df4699b69db"
+- name: "DM-[BBA]VillageV15.run"
+  fileSize: 1487041
+  hash: "0b472944bc1b68f6daab3ef512fe0ef72adc0d20"
+- name: "Skull.utx"
+  fileSize: 95683
+  hash: "61263800334894ef986e85365a1029182426d103"
+otherFiles: 0
+dependencies:
+  DM-[BBA]VillageV15.run:
+  - status: "OK"
+    name: "BBAtexture0"
+  - status: "OK"
+    name: "Skull"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/B/f/3/6de0e6/dm-bbavillagev15.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "[BBA]Village"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.5
+  Ancient: 0.5
+bots: false

@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-11 08:09"
+variationOf: "55ace2b2fb72115a63fe3588d2a270529fa2e423"
+game: "Rune"
+name: "DM-(AoR)-Revenge-Arena"
+author: "HeadHunter AoR"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-aor-revenge-arena_shot_ab7efe63_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Rune/Maps/DeathMatch/A/a/b/7efe63/dm-aor-revenge-arena_shot_ab7efe63_1.png"
+originalFilename: "DM-(AoR)-Revenge-Arena.zip"
+hash: "ab7efe63f941dcd1b6cafa6aefbd17d2f5905d0a"
+fileSize: 107475
+files:
+- name: "AoR_2_0.utx"
+  fileSize: 88993
+  hash: "47ac9f8c6ccb275aefd0b0b0693b156bcb6d0ca2"
+- name: "MyTextures.utx"
+  fileSize: 88995
+  hash: "d17728f4739ef4562b837fd8f73e1ba17ab425c3"
+- name: "DM-(AoR)-Revenge-Arena.run"
+  fileSize: 199874
+  hash: "85b80a12ebe61ae07ef3d6a9c167c9ba49ea12cf"
+otherFiles: 0
+dependencies:
+  DM-(AoR)-Revenge-Arena.run:
+  - status: "OK"
+    name: "MyTextures"
+  - status: "OK"
+    name: "AoR_2_0"
+  - status: "MISSING"
+    name: "Texture-aor"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Rune/Maps/DeathMatch/A/a/b/7efe63/DM-(AoR)-Revenge-Arena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "AoR-Revenge-Arena"
+playerCount: "2-6 Player"
+themes:
+  Industrial: 0.4
+  Ancient: 0.6
+bots: false
