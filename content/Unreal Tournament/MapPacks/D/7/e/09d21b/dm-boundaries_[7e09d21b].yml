@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-10 23:52"
+game: "Unreal Tournament"
+name: "DM Boundaries"
+author: "no0ne."
+description: "None"
+releaseDate: "2022-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-boundaries_shot_7e09d21b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/7/e/09d21b/dm-boundaries_shot_7e09d21b_1.png"
+- type: "IMAGE"
+  name: "dm-boundaries_shot_7e09d21b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/D/7/e/09d21b/dm-boundaries_shot_7e09d21b_2.png"
+originalFilename: "DM-Boundaries.zip"
+hash: "7e09d21b42f574306973a8aa55f1d2f83c4114dd"
+fileSize: 8241490
+files:
+- name: "DM-Boundaries_Monsters.unr"
+  fileSize: 2258181
+  hash: "3d6a374a9e926912802fdabb562fa80847299d33"
+- name: "DM-Boundaries_noMonsters.unr"
+  fileSize: 2260096
+  hash: "f992c38bc1660997d000cf6cd7338f9bb3f89bef"
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "Constellations.utx"
+  fileSize: 4210225
+  hash: "777b79357a107da5b2af789bc49c3449ff98f87f"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+otherFiles: 5
+dependencies:
+  DM-Boundaries_Monsters.unr:
+  - status: "OK"
+    name: "Constellations"
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "Anc"
+  DM-Boundaries_noMonsters.unr:
+  - status: "OK"
+    name: "Constellations"
+  - status: "OK"
+    name: "anc2"
+  - status: "OK"
+    name: "Anc"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/D/7/e/09d21b/DM-Boundaries.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Boundaries_Monsters"
+  title: "DM-Boundaries"
+  author: "no0ne."
+- name: "DM-Boundaries_noMonsters"
+  title: "DM-Boundaries"
+  author: "no0ne."
+gametype: "DeathMatch"
+themes:
+  Industrial: 0.4
+  Skaarj Tech: 0.6
