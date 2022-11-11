@@ -1,0 +1,65 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2022-11-12"
+game: "Unreal Tournament 2004"
+name: "Old Skool Monsta Toolz"
+author: "Old Skool Monsta Toolz Team"
+description: "Story-driven adventures that offer monsters, traps and puzzles to conquer."
+titleImage: "title.png"
+bannerImage: ""
+links:
+  ModDB: "https://www.moddb.com/mods/old-skool-monsta-toolz"
+credits:
+  Author:
+  - "Glenn Storm (SuperApe)"
+gameTypes:
+- name: "OSM Adventure"
+  description: "Story-driven adventures that offer monsters, traps and puzzles to\
+    \ conquer."
+mutators:
+- name: "MutFlashlight"
+  description: "MutFlashlight"
+- name: "OSMT Populate"
+  description: "Populates any map with stock Old Skool Monsta Toolz creatures.|Creatures\
+    \ will form teams, explore the map and attack players on sight.|Matches will end\
+    \ when last creature dies, unless the game type requires overtime."
+maps: []
+releases:
+- title: "Final Release"
+  version: "1.53"
+  releaseDate: "2014-10-30"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/OSMT_v1.53.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament%202004/old-skool-monsta-toolz/OSMT_v1.53.zip"
+      main: true
+      repack: false
+      state: "OK"
+    originalFilename: "OSMT_v1.53.zip"
+    hash: "f82fe79930287d0d09dfb1887c7aeb8441ba0755"
+    fileSize: 576504
+    synced: true
+    deleted: false
+    files:
+    - name: "OSMT.u"
+      fileSize: 844527
+      hash: "29a8ea570a60cccfe37421a4bfd5b14036613d6f"
+    - name: "Flashlight.usx"
+      fileSize: 18193
+      hash: "1931f9e13b0a3466ede5b82e4ad5be2171f80423"
+    - name: "OSMTex.utx"
+      fileSize: 693400
+      hash: "9d2f30a39a8f70c2939db39d0e5161062bcbaa2a"
+    otherFiles: 4
+    dependencies:
+      OSMT.u:
+      - status: "OK"
+        name: "OSMTex"
+      Flashlight.usx:
+      - status: "OK"
+        name: "OSMTex"
+  deleted: false
+deleted: false
