@@ -1,0 +1,74 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-12 12:38"
+game: "Unreal Tournament 2004"
+name: "EVA"
+author: "Unknown"
+description: "None"
+releaseDate: "2014-06"
+attachments: []
+originalFilename: "EVA.rar"
+hash: "40df026f5b74864a519bcec5e7f3e2414d27e638"
+fileSize: 43112413
+files:
+- name: "1945.utx"
+  fileSize: 2429102
+  hash: "3f1c702d4f183a3adc43e742e9019b4cfff8ac2d"
+- name: "EVA.u"
+  fileSize: 52099
+  hash: "1862c90fc44483142e4f0a028d3fba502d63262e"
+- name: "EVA_Tex.utx"
+  fileSize: 17480321
+  hash: "424865943f268a2a21c5216885cc05fa5a77e725"
+- name: "A.u"
+  fileSize: 4942011
+  hash: "1324129b55557b0ff869334ba32fb5e268827ad5"
+- name: "RO_vehicles.uax"
+  fileSize: 40331761
+  hash: "f03db39590b16a00f4b0b50fa0611fb41c2ac58c"
+- name: "G_FX.utx"
+  fileSize: 36621394
+  hash: "d1f40a5ddb14ff02075380aecbea9efa6fbdd7f7"
+- name: "EVA_Anim.ukx"
+  fileSize: 1627251
+  hash: "7503b06133853eadf4085bf1b3e49bbd5a6f157a"
+- name: "DKVehiclesMesh.usx"
+  fileSize: 9540
+  hash: "9abb13c44bf145c31ad62cbf433492277a055e4c"
+otherFiles: 1
+dependencies:
+  EVA.u:
+  - status: "OK"
+    name: "A"
+  - status: "OK"
+    name: "G_FX"
+  - status: "OK"
+    name: "EVA_Anim"
+  - status: "OK"
+    name: "EVA_Tex"
+  - status: "OK"
+    name: "RO_vehicles"
+  - status: "OK"
+    name: "DKVehiclesMesh"
+  - status: "OK"
+    name: "1945"
+  EVA_Tex.utx:
+  - status: "MISSING"
+    name: "CH_Rocket_tex"
+  EVA_Anim.ukx:
+  - status: "OK"
+    name: "EVA_Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/E/4/0/df026f/EVA.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "EVA"
+  description: "EVA"
+hasConfigMenu: false
+hasKeybinds: false
