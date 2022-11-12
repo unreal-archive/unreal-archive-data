@@ -1,0 +1,127 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-12 03:43"
+game: "Unreal Tournament 2004"
+name: "OSM Geothermal"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-02"
+attachments: []
+originalFilename: "UT2K4_OSM-Geothermal-nopatch.zip"
+hash: "b71f76213a969494c7233d30c747a73845a262bc"
+fileSize: 51175703
+files:
+- name: "OSM-ResearchA.ut2"
+  fileSize: 24635714
+  hash: "a395def0349b0f0e647a95715b0ee896b3afe84d"
+- name: "CBP2-Tropica-SM.usx"
+  fileSize: 1795624
+  hash: "a5bc335ab7659efb108cacf0d729931af231194b"
+- name: "DespTel_mecoMEXTEX.utx"
+  fileSize: 10251443
+  hash: "909cffeb5aa45ae6bf51eccc5a8c6c476b011d44"
+- name: "DW_Lavaworks_edit.utx"
+  fileSize: 15855439
+  hash: "b8d49fd76073a9d4bada157c8c527ed508c40920"
+- name: "OSMTex.utx"
+  fileSize: 627326
+  hash: "b8a65362b5c34f9b5b4abd32125ba568e3648aa8"
+- name: "CBP2-Tropica-Tex.utx"
+  fileSize: 16598020
+  hash: "a64a9bb221040affb2e4a6b39e235206fb51f17d"
+- name: "OSMT.u"
+  fileSize: 587306
+  hash: "96e244740a19f717eaa80a544f2b48c9635692db"
+- name: "OSM-ResearchB.ut2"
+  fileSize: 25161351
+  hash: "847c2652b895f8b3db6cc627b012a87ea4633793"
+- name: "OSM-BaseLevel.ut2"
+  fileSize: 23637284
+  hash: "0d2ea09bc44cf6dc7ddce0db4383e993deedd411"
+- name: "DW_Lavamesh.usx"
+  fileSize: 5142692
+  hash: "480ac53115c942f33eed570eae33bb592d1aa6c8"
+- name: "Desp-TelMecoMex.usx"
+  fileSize: 1569865
+  hash: "71707c6b4b8fa4d3764125de6f4a859fa526d5f3"
+- name: "DW_Lavaworks.utx"
+  fileSize: 15855439
+  hash: "2c34629ef322ecc79cc1496400cd8c16698e795a"
+otherFiles: 4
+dependencies:
+  OSM-ResearchA.ut2:
+  - status: "OK"
+    name: "DW_Lavamesh"
+  - status: "MISSING"
+    name: "AGCMesh"
+  - status: "OK"
+    name: "OSMT"
+  - status: "OK"
+    name: "DW_Lavaworks_edit"
+  - status: "OK"
+    name: "Desp-TelMecoMex"
+  - status: "OK"
+    name: "DW_Lavaworks"
+  - status: "OK"
+    name: "OSMTex"
+  DW_Lavamesh.usx:
+  - status: "OK"
+    name: "DW_Lavaworks"
+  CBP2-Tropica-SM.usx:
+  - status: "OK"
+    name: "CBP2-Tropica-Tex"
+  OSMT.u:
+  - status: "OK"
+    name: "OSMTex"
+  OSM-ResearchB.ut2:
+  - status: "OK"
+    name: "DW_Lavamesh"
+  - status: "MISSING"
+    name: "AGCMesh"
+  - status: "OK"
+    name: "OSMT"
+  - status: "OK"
+    name: "DW_Lavaworks_edit"
+  - status: "OK"
+    name: "Desp-TelMecoMex"
+  - status: "OK"
+    name: "DW_Lavaworks"
+  - status: "OK"
+    name: "OSMTex"
+  OSM-BaseLevel.ut2:
+  - status: "OK"
+    name: "DW_Lavamesh"
+  - status: "OK"
+    name: "OSMT"
+  - status: "OK"
+    name: "DW_Lavaworks_edit"
+  - status: "OK"
+    name: "Desp-TelMecoMex"
+  - status: "OK"
+    name: "DW_Lavaworks"
+  - status: "OK"
+    name: "OSMTex"
+  Desp-TelMecoMex.usx:
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/U/b/7/1f7621/UT2K4_OSM-Geothermal-nopatch.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "OSM-ResearchB"
+  title: "OSM-ResearchB"
+  author: "Unknown"
+- name: "OSM-BaseLevel"
+  title: "OSM-BaseLevel"
+  author: "Unknown"
+- name: "OSM-ResearchA"
+  title: "OSM-ResearchA"
+  author: "Unknown"
+gametype: "Single Player"
+themes:
+  Tech: 0.4
+  Industrial: 0.6
