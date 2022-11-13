@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-14 15:15"
+game: "Unreal Tournament 2004"
+name: "RainbowShockRifle - Config"
+author: "INIQUITOUS aka Ini"
+description: "RainbowRifle config mutator"
+releaseDate: "2009-04"
+attachments: []
+originalFilename: "RainbowShockRifle.zip"
+hash: "35ec701010e22ef93aea4343d36fe06c3bf6687a"
+fileSize: 649254
+files:
+- name: "RainbowShockRifle.u"
+  fileSize: 160621
+  hash: "8b887641aba6b6c72ebb389f2888fa168422b1e9"
+- name: "RainbowShockRifleTex.utx"
+  fileSize: 1652643
+  hash: "8216ce992363bfc3f25089120759bbd49e74d319"
+otherFiles: 3
+dependencies:
+  RainbowShockRifle.u:
+  - status: "OK"
+    name: "RainbowShockRifleTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/3/5/ec7010/RainbowShockRifle.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "RainbowShockRifle - Config"
+  description: "RainbowRifle config mutator"
+weapons:
+- name: "Rainbow Shock Rifle"
+  description: "The Rainbow Shock Rifle!"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
