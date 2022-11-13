@@ -1,0 +1,77 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-15 02:25"
+game: "Unreal Tournament 2004"
+name: "Crazy-Froggers"
+author: "Unknown"
+description: "Adds several options to modify Ballistic Weapons and contains several\
+  \ fixes for Ballistic Weapons.||http://crazy-froggers.com"
+releaseDate: "2013-10"
+attachments: []
+originalFilename: "CF_Mutator_V2.0.zip"
+hash: "4e94131c0d3b4178ba127d483dc7a03cab6d0a29"
+fileSize: 7339487
+files:
+- name: "CFMutatorTex.utx"
+  fileSize: 3646288
+  hash: "9a7a744b869f87470bef3a4dd0b23cdfb29fc7cd"
+- name: "CFMutatorStatics.usx"
+  fileSize: 933
+  hash: "c1231e49428de0e6483ce49618c5337c4a72ccc7"
+- name: "CFMutatorSnd.uax"
+  fileSize: 2589651
+  hash: "2cf0dcdefb2a1d7fb0ecc4341c110a6a2196e324"
+- name: "CFMutatorAnims.ukx"
+  fileSize: 588188
+  hash: "76b55cda97b7a972e810c691983ffa6269d067c6"
+- name: "CFMutator.u"
+  fileSize: 460737
+  hash: "aee44b51671479b3fe4064cb6b1d31c2c8bcc745"
+otherFiles: 4
+dependencies:
+  CFMutatorAnims.ukx:
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  CFMutator.u:
+  - status: "MISSING"
+    name: "BWBP4-Sounds"
+  - status: "OK"
+    name: "CFMutatorTex"
+  - status: "MISSING"
+    name: "BallisticSounds3"
+  - status: "MISSING"
+    name: "BallisticSounds2"
+  - status: "OK"
+    name: "CFMutatorSnd"
+  - status: "MISSING"
+    name: "BallisticSounds_25"
+  - status: "MISSING"
+    name: "BallisticV25"
+  - status: "MISSING"
+    name: "BallisticBlood25"
+  - status: "OK"
+    name: "CFMutatorStatics"
+  - status: "MISSING"
+    name: "BCoreV25"
+  - status: "OK"
+    name: "CFMutatorAnims"
+  - status: "MISSING"
+    name: "BallisticEffects2"
+  CFMutatorStatics.usx:
+  - status: "OK"
+    name: "CFMutatorTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/4/e/94131c/CF_Mutator_V2.0.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Crazy-Froggers"
+  description: "Adds several options to modify Ballistic Weapons and contains several\
+    \ fixes for Ballistic Weapons.||http://crazy-froggers.com"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
