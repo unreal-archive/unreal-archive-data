@@ -1,0 +1,49 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-14 15:21"
+game: "Unreal Tournament 2004"
+name: "Tumbler2"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-12"
+attachments: []
+originalFilename: "tumbler2.zip"
+hash: "8e12fa5798e16a788d653849c8fcd07f755d0d23"
+fileSize: 1115554
+files:
+- name: "Gtextures.utx"
+  fileSize: 1486524
+  hash: "d7f10df238b032da8cef43c5d0e4b31a5e8d1ce8"
+- name: "GStaticMeshes.usx"
+  fileSize: 768067
+  hash: "3d443236f1fde1b9e5dd55c4b5299305fe2ca253"
+- name: "GVehicles.u"
+  fileSize: 24666
+  hash: "ac8fbb8aae02b66b93efa8a5e4be54d742993b6c"
+- name: "GAnims.ukx"
+  fileSize: 1686017
+  hash: "ffb87c690bce8e3769a46d9b2a38218b6e9d5a93"
+otherFiles: 1
+dependencies:
+  GVehicles.u:
+  - status: "OK"
+    name: "GAnims"
+  GAnims.ukx:
+  - status: "OK"
+    name: "GStaticMeshes"
+  - status: "OK"
+    name: "Gtextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/T/8/e/12fa57/tumbler2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "Tumbler"
+  description: "Tumbler"
+hasConfigMenu: false
+hasKeybinds: false
