@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-14 15:15"
+game: "Unreal Tournament 2004"
+name: "Petz! Beta_1"
+author: "INIQUITOUS"
+description: "Petz, choose a monster pet to follow you around, pets can't attack or\
+  \ be damaged."
+releaseDate: "2008-12"
+attachments: []
+originalFilename: "Petz.rar"
+hash: "37be78f3d3e6eb20266149722a903f1a2bc1afec"
+fileSize: 124080
+files:
+- name: "PetzBeta_1.u"
+  fileSize: 472967
+  hash: "0a9d479a2eb9153946c51f458957b4a9f088d572"
+- name: "PetzSatore.u"
+  fileSize: 1721
+  hash: "0cdec41ce39b3bd14b4f9d3eb6349f90c50d040c"
+- name: "PetzQuake.u"
+  fileSize: 1278
+  hash: "f84f5d3b8ad65f91d0d35d2b03a92e749fba44c1"
+otherFiles: 3
+dependencies:
+  PetzQuake.u:
+  - status: "MISSING"
+    name: "QuakeMonsters"
+  PetzSatore.u:
+  - status: "MISSING"
+    name: "Satoremonsterpackv120"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/3/7/be78f3/Petz.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Petz! Beta_1"
+  description: "Petz, choose a monster pet to follow you around, pets can't attack\
+    \ or be damaged."
+weapons:
+- name: "Yummy Gibs"
+  description: "Feed your pets with yummy gibs!"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
