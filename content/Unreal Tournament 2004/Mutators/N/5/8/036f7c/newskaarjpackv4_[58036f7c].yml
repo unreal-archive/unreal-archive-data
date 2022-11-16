@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-17 17:13"
+game: "Unreal Tournament 2004"
+name: "NewSkaarjPackv4"
+author: "Unknown"
+description: "None"
+releaseDate: "2013-12"
+attachments: []
+originalFilename: "NewSkaarjPackv4.rar"
+hash: "58036f7cde6ea75811f736f66326458f0956eec5"
+fileSize: 2223676
+files:
+- name: "MonsterPackTexv4.utx"
+  fileSize: 3026697
+  hash: "fc0a4fcacc8e68bd38d4c5281e086f8b1881e9f7"
+- name: "NewSkaarjPackv4.u"
+  fileSize: 48297
+  hash: "61fbae013025e7b47f09ee727acaa9dbd9935518"
+- name: "NewSkaarjPack.utx"
+  fileSize: 355043
+  hash: "91b099e74ad070476adc44a368724919b2fb24bf"
+otherFiles: 1
+dependencies:
+  NewSkaarjPackv4.u:
+  - status: "OK"
+    name: "NewSkaarjPack"
+  - status: "OK"
+    name: "MonsterPackTexv4"
+  - status: "MISSING"
+    name: "satoreMonsterPackTexture"
+  - status: "MISSING"
+    name: "SatoreMonsterPackv120"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/N/5/8/036f7c/NewSkaarjPackv4.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
