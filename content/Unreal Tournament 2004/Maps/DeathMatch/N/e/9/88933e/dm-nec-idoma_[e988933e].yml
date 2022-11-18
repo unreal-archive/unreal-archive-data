@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-02 21:06"
+game: "Unreal Tournament 2004"
+name: "DM-NEC-Idoma"
+author: "Sjoerd De Jong (Necrificated by GP)"
+description: "None"
+releaseDate: "2012-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-nec-idoma_shot_e988933e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/N/e/9/88933e/dm-nec-idoma_shot_e988933e_1.png"
+originalFilename: "DM-NEC-Idoma.7z"
+hash: "e988933ed42f696be97adebe6a9f1cbd05dfd8e6"
+fileSize: 63269861
+files:
+- name: "NEC_Meshes.usx"
+  fileSize: 20024687
+  hash: "c8e038d8e2b93558147be8d2ad4c9b204b15c3c7"
+- name: "DM-NEC-Idoma.ut2"
+  fileSize: 16264270
+  hash: "0a881d1914b2461021d24afaa3e8bc88eca733f1"
+- name: "NEC_Tex.utx"
+  fileSize: 270899712
+  hash: "d09fc0e04c1106ec5c43dfa89a41182e2d2a18c8"
+otherFiles: 0
+dependencies:
+  NEC_Meshes.usx:
+  - status: "OK"
+    name: "NEC_Tex"
+  DM-NEC-Idoma.ut2:
+  - status: "OK"
+    name: "NEC_Tex"
+  - status: "OK"
+    name: "NEC_Meshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/N/e/9/88933e/DM-NEC-Idoma.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Idoma (NECRIS)"
+playerCount: "2-3"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true
