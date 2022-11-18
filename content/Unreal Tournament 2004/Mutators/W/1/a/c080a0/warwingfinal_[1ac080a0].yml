@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:18"
+game: "Unreal Tournament 2004"
+name: "Warwingfinal"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-04"
+attachments: []
+originalFilename: "warwingfinal.zip"
+hash: "1ac080a012e68f6049113ed2f22b4033a32cb842"
+fileSize: 1943311
+files:
+- name: "WarWingSM.usx"
+  fileSize: 283714
+  hash: "7f3a8799a46ad11d17ba62c2274e2e3422d5a8b4"
+- name: "WWTex.utx"
+  fileSize: 3324101
+  hash: "f7aa83a02b11c016800a287b90328425f87dc773"
+- name: "WarWingM.ukx"
+  fileSize: 616830
+  hash: "05c86ff5bbd7e4afeee682fc428fa642e316e897"
+- name: "WarWing.u"
+  fileSize: 419059
+  hash: "54b1c08d8f24c6d69d4ffc670e4e975beb40be62"
+otherFiles: 2
+dependencies:
+  WarWing.u:
+  - status: "OK"
+    name: "WarWingSM"
+  - status: "OK"
+    name: "WWTex"
+  - status: "OK"
+    name: "WarWingM"
+  WarWingM.ukx:
+  - status: "OK"
+    name: "WWTex"
+  WarWingSM.usx:
+  - status: "OK"
+    name: "WWTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/1/a/c080a0/warwingfinal.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "WarWing"
+  description: "WarWing"
+- name: "WarWing Co-Pilot seat"
+  description: "WarWing Co-Pilot seat"
+hasConfigMenu: false
+hasKeybinds: false
