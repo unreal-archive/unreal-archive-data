@@ -1,0 +1,112 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:13"
+game: "Unreal Tournament 2004"
+name: "HelixMut"
+author: "Hyperforce"
+description: "Replace any vehicles with the Helix Extended Support vehicle Made By\
+  \ Hyperforce.   Some call it the Leviathan of the sky, some call it target practice:\
+  \ The Helix ESV.   A powerfull flying MFV used by the taran militairy for fast transport\
+  \ and supression fire has finaly made its way into the tournament there to prove\
+  \ itsself to the contestance that its more than a big version of the Raptor.   It\
+  \ uses the same anti gravity systems as the raptor so it needs a skillfull pilot\
+  \ to controll it.              Specs: The helix is a multifunctional vehicle, capable\
+  \ of Attack (at least 2 people needed), Defence (at least 2 people needed) support,\
+  \ (1 person needed), and transport (for now only caracter transport because of a\
+  \ karma in the main system of ut2004 prevents vehicles from being blocked by a moving\
+  \ animation like the rear door). The vehicle has 2 player seats, the pilot can open\
+  \ and close the rear door while the co-pilot can use a duel minigun turret to ventilate\
+  \ everyone in its sights. the Duel Minigun brings 21 MM deplented uranium shells\
+  \ to its target with so much power and speed the driver can just hold its crosshair\
+  \ on the target and shoot it to pieces. The only downpart to the huge firepower\
+  \ of this weapon is the mussleflash that makes it hard to aim. The Vehicle also\
+  \ has an Item Depo that can re-arm and heal teammates.               A high amount\
+  \ of stabelizers keeps the vehicle stable in flight, unfortionaly the ASMD weapons\
+  \ are able to overload these stabelizers and make the vehicle hard to controll for\
+  \ 1 or 2 seconds.                                                              \
+  \                                                                              \
+  \                                                                              \
+  \                                                                              \
+  \                                                                              \
+  \                                // with some help form:  Jonathan Zepp, Rens2Sea\
+  \ and all ppl from the ICE (infensus Clan Europe) Clan that helped me test this\
+  \ vehicle"
+releaseDate: "2004-11"
+attachments:
+- type: "IMAGE"
+  name: "helixmut_shot_64c4185f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/6/4/c4185f/helixmut_shot_64c4185f_1.png"
+- type: "IMAGE"
+  name: "helixmut_shot_64c4185f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/6/4/c4185f/helixmut_shot_64c4185f_2.png"
+originalFilename: "HelixESV.zip"
+hash: "64c4185f497e3967cace0d6ed586827d9b19110f"
+fileSize: 5941437
+files:
+- name: "Helix.usx"
+  fileSize: 2803591
+  hash: "df42e95ee6bb254c43720fa58bb504442e9e92fd"
+- name: "ESV.utx"
+  fileSize: 3671713
+  hash: "19a1336f2b16b53391cd2fbc43cb41f52c8e6010"
+- name: "HelixESV.u"
+  fileSize: 59001
+  hash: "86afedf22f657c0e14739a44c0eb24636152c571"
+- name: "Helix_final.ukx"
+  fileSize: 3908866
+  hash: "27bbd217b3164702a3233ccef7060aaa48800902"
+otherFiles: 4
+dependencies:
+  Helix_final.ukx:
+  - status: "OK"
+    name: "ESV"
+  HelixESV.u:
+  - status: "OK"
+    name: "Helix_final"
+  - status: "OK"
+    name: "ESV"
+  - status: "OK"
+    name: "Helix"
+  Helix.usx:
+  - status: "OK"
+    name: "ESV"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/6/4/c4185f/HelixESV.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "HelixMut"
+  description: "Replace any vehicles with the Helix Extended Support vehicle Made\
+    \ By Hyperforce.   Some call it the Leviathan of the sky, some call it target\
+    \ practice: The Helix ESV.   A powerfull flying MFV used by the taran militairy\
+    \ for fast transport and supression fire has finaly made its way into the tournament\
+    \ there to prove itsself to the contestance that its more than a big version of\
+    \ the Raptor.   It uses the same anti gravity systems as the raptor so it needs\
+    \ a skillfull pilot to controll it.              Specs: The helix is a multifunctional\
+    \ vehicle, capable of Attack (at least 2 people needed), Defence (at least 2 people\
+    \ needed) support, (1 person needed), and transport (for now only caracter transport\
+    \ because of a karma in the main system of ut2004 prevents vehicles from being\
+    \ blocked by a moving animation like the rear door). The vehicle has 2 player\
+    \ seats, the pilot can open and close the rear door while the co-pilot can use\
+    \ a duel minigun turret to ventilate everyone in its sights. the Duel Minigun\
+    \ brings 21 MM deplented uranium shells to its target with so much power and speed\
+    \ the driver can just hold its crosshair on the target and shoot it to pieces.\
+    \ The only downpart to the huge firepower of this weapon is the mussleflash that\
+    \ makes it hard to aim. The Vehicle also has an Item Depo that can re-arm and\
+    \ heal teammates.               A high amount of stabelizers keeps the vehicle\
+    \ stable in flight, unfortionaly the ASMD weapons are able to overload these stabelizers\
+    \ and make the vehicle hard to controll for 1 or 2 seconds.                  \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \        // with some help form:  Jonathan Zepp, Rens2Sea and all ppl from the\
+    \ ICE (infensus Clan Europe) Clan that helped me test this vehicle"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

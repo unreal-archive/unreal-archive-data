@@ -1,0 +1,76 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:14"
+game: "Unreal Tournament 2004"
+name: "Stakeoutbeta1 3"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-03"
+attachments: []
+originalFilename: "stakeoutbeta1.3.zip"
+hash: "743fe526fa9b93a8837dbe471e9a6c91cc653246"
+fileSize: 2349820
+files:
+- name: "stakeoutmeshes.usx"
+  fileSize: 1523153
+  hash: "9143282046a717daaaf4601dc4e7d427a598f5e7"
+- name: "stakeoutreplace.u"
+  fileSize: 2664
+  hash: "883f38de4f4a79946c019197ebd45dbfc22bd5f3"
+- name: "stakeoutanim.ukx"
+  fileSize: 2287010
+  hash: "bde2f3c37eaf8f085560e2cf4852656a30d8ad4b"
+- name: "stakeoutsounds.uax"
+  fileSize: 36431
+  hash: "75262f61c9d143fe154bc116cfbeee2bb1adb1cc"
+- name: "stakeout.u"
+  fileSize: 57106
+  hash: "03f3f42a68dc83c69e0dd3f54b783e3a9c59ec19"
+- name: "stakeouttex.utx"
+  fileSize: 2706837
+  hash: "4eef2f251f6302e7c2c05c682b945ae62bca3c0a"
+otherFiles: 2
+dependencies:
+  stakeout.u:
+  - status: "OK"
+    name: "stakeoutmeshes"
+  - status: "OK"
+    name: "stakeoutsounds"
+  - status: "OK"
+    name: "stakeouttex"
+  - status: "OK"
+    name: "stakeoutanim"
+  stakeoutreplace.u:
+  - status: "OK"
+    name: "StakeOut"
+  stakeoutanim.ukx:
+  - status: "OK"
+    name: "stakeouttex"
+  stakeoutmeshes.usx:
+  - status: "OK"
+    name: "stakeouttex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/7/4/3fe526/stakeoutbeta1.3.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "stakelauncher"
+  description: "Replace all lightning guns with stakelaunchers."
+- name: "Stakeout Arena"
+  description: "Replace weapons and ammo in map."
+weapons:
+- name: "Stakelauncher"
+  description: "Stake GUN"
+- name: "pike"
+  description: "The Kemphler DD280 Riot Control Device has the ability to resist and\
+    \ reflect incoming projectiles and energy beams. The plasma wave inflicts massive\
+    \ damage, rupturing tissue, pulverizing organs, and flooding the bloodstream with\
+    \ dangerous gas bubbles.||This weapon may be intended for combat at close range,\
+    \ but when wielded properly should be considered as dangerous as any other armament\
+    \ in your arsenal."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

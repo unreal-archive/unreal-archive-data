@@ -1,0 +1,61 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:13"
+game: "Unreal Tournament 2004"
+name: "Neo_Bulldog_v2_1"
+author: "HyperForce99"
+description: "Replace any vehicles with the Neo Bulldog (Version 2.1)(a semi remake\
+  \ of the original ut2003 bulldog Made By Hyperforce, this version has extra passenger\
+  \ seats."
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "neo_bulldog_v2_1_shot_9dc91e9e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/N/9/d/c91e9e/neo_bulldog_v2_1_shot_9dc91e9e_1.png"
+originalFilename: "neo_bulldog_v2.1.zip"
+hash: "9dc91e9ea41a3217194745ad392b7606421388aa"
+fileSize: 3379634
+files:
+- name: "Neo_bulldog_v2_1.u"
+  fileSize: 29060
+  hash: "79cbbb024ea602961bd4e613fdadc611ddc98d83"
+- name: "NBulldog.ukx"
+  fileSize: 1473946
+  hash: "4c81d870b1da1469f9c4617ceef4aa01c4a6d694"
+- name: "BullTex2.utx"
+  fileSize: 350380
+  hash: "f9500cacd57ea9b6f560dc95ed1d414817191525"
+- name: "NeoBulldog.usx"
+  fileSize: 1629558
+  hash: "5a8b69d9d6fbc3d38a74e43e5ad0706790e38eeb"
+- name: "BullTex.utx"
+  fileSize: 2797039
+  hash: "5ff7877f39208148d3ed9140c249bd4f32686830"
+otherFiles: 3
+dependencies:
+  Neo_bulldog_v2_1.u:
+  - status: "OK"
+    name: "BullTex2"
+  - status: "OK"
+    name: "NBulldog"
+  NBulldog.ukx:
+  - status: "OK"
+    name: "BullTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/N/9/d/c91e9e/neo_bulldog_v2.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Neo_Bulldog_v2_1"
+  description: "Replace any vehicles with the Neo Bulldog (Version 2.1)(a semi remake\
+    \ of the original ut2003 bulldog Made By Hyperforce, this version has extra passenger\
+    \ seats."
+weapons: []
+vehicles:
+- name: "Neo_Bulldog_v2_1"
+  description: "Neo_Bulldog_v2_1"
+hasConfigMenu: false
+hasKeybinds: false

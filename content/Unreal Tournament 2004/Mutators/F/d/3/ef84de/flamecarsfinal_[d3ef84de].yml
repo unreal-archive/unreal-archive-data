@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:13"
+game: "Unreal Tournament 2004"
+name: "Flamecarsfinal"
+author: "Unknown"
+description: "None"
+releaseDate: "2005-04"
+attachments: []
+originalFilename: "flamecarsfinal.zip"
+hash: "d3ef84de39041036c120830d5d0b70dd8001e393"
+fileSize: 2843728
+files:
+- name: "FCMesh.usx"
+  fileSize: 1066669
+  hash: "f8dd92c26ee4abd084cebd1c72c7f041d5eb06ae"
+- name: "FlameCar.u"
+  fileSize: 102551
+  hash: "35074db7914d5f5f57e2de2439c4950923999354"
+- name: "FlameMesh.ukx"
+  fileSize: 869778
+  hash: "ae104d307884e688bc00fdb7ef6c3f1c8871fd38"
+- name: "FlameTex.utx"
+  fileSize: 2989763
+  hash: "6c1409ee6538a4b6c2b31b5d3a4612bd3f2e329a"
+otherFiles: 3
+dependencies:
+  FlameMesh.ukx:
+  - status: "OK"
+    name: "FlameTex"
+  - status: "OK"
+    name: "FCMesh"
+  FlameCar.u:
+  - status: "OK"
+    name: "FlameMesh"
+  - status: "OK"
+    name: "FCMesh"
+  - status: "OK"
+    name: "FlameTex"
+  FCMesh.usx:
+  - status: "OK"
+    name: "FlameTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/d/3/ef84de/flamecarsfinal.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Napalm Car"
+  description: "Replaces the Scorpion with the Napalm Car"
+- name: "Flamethrower Car"
+  description: "Replaces the Scorpion with the Flamethrower Car"
+weapons: []
+vehicles:
+- name: "Napalm Car"
+  description: "Napalm Car"
+- name: "Flame Thrower Car"
+  description: "Flame Thrower Car"
+hasConfigMenu: false
+hasKeybinds: false
