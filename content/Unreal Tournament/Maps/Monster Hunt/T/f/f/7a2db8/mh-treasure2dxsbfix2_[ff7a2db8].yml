@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-04 12:42"
+game: "Unreal Tournament"
+name: "MH-Treasure2DX+SBFix2"
+author: "Bean/Fixes by Barbie"
+description: "None"
+releaseDate: "2022-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-treasure2dxsbfix2_shot_ff7a2db8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/f/f/7a2db8/mh-treasure2dxsbfix2_shot_ff7a2db8_1.png"
+- type: "IMAGE"
+  name: "mh-treasure2dxsbfix2_shot_ff7a2db8_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/f/f/7a2db8/mh-treasure2dxsbfix2_shot_ff7a2db8_2.png"
+originalFilename: "MH-Treasure2DX+SBFix2.7z"
+hash: "ff7a2db8ad22769e52a5580c2784c8e21d0032df"
+fileSize: 1326763
+files:
+- name: "Humane.u"
+  fileSize: 62341
+  hash: "ac5a0ae2d4bac9297c22edc21ba86ac61b02933d"
+- name: "SBHumaneFixesV0.u"
+  fileSize: 34542
+  hash: "3282a565f729f08de6a27f3a32254f372168c8d6"
+- name: "BPak.u"
+  fileSize: 259553
+  hash: "f552452dd11750875906f4290373f62bb577eb8b"
+- name: "MH-Treasure2DX+SBFix2.unr"
+  fileSize: 2342337
+  hash: "1bed0e1be505ceaa980de27cc409abd80250720e"
+- name: "commandoskins_grants.utx"
+  fileSize: 1596502
+  hash: "b36761a2c9be48a984f526dddf15b5109f2f5420"
+otherFiles: 2
+dependencies:
+  SBHumaneFixesV0.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+  - status: "OK"
+    name: "Humane"
+  Humane.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+  MH-Treasure2DX+SBFix2.unr:
+  - status: "OK"
+    name: "BPak"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SBHumaneFixesV0"
+  - status: "OK"
+    name: "Humane"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/f/f/7a2db8/MH-Treasure2DX%2BSBFix2.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "new hostile has come!"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Nali Castle: 0.4
+  Egyptian: 0.5
+bots: true
