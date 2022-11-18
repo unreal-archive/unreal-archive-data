@@ -1,0 +1,196 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "Enchansed Weapons V1 1"
+author: "Rumple"
+description: "None"
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "Enchansed Weapons v1.1.rar"
+hash: "999c9e18e508f062b99400935fb0d8750f3c3d39"
+fileSize: 10641459
+files:
+- name: "BioStinger.u"
+  fileSize: 37275
+  hash: "abd5cb51db227f15e9543f97b8a9f0abfad084b9"
+- name: "RTitan.u"
+  fileSize: 6419
+  hash: "d30ce703191e4bcd89ee9dc379ccab10ef295fba"
+- name: "WP_EHSniperB.upk"
+  fileSize: 1855182
+  hash: "01f9fcc5360c435f9205d39c31d9e114caddddc5"
+- name: "WP_EHRedeemer.upk"
+  fileSize: 2232183
+  hash: "315a97f39696fefa05798c54ea9195f59081902e"
+- name: "A_Weapon_EnforcerRE.upk"
+  fileSize: 1445106
+  hash: "6f18da6b5cf64908195ce4502487a545846c8426"
+- name: "A_Weapon_EHRL.upk"
+  fileSize: 922422
+  hash: "864f502d45e2a0baa4d634b99493932d213610cb"
+- name: "EHFlak.u"
+  fileSize: 93034
+  hash: "a95ab5e85f3a6d9759d151284eede8d57d529fc2"
+- name: "A_Weapon_EMPAvril.upk"
+  fileSize: 2773974
+  hash: "e7d23e8effc0674984ef51828f7d56cc64b7d5a8"
+- name: "A_Weapon_EHImpactHammer.upk"
+  fileSize: 3981827
+  hash: "8c513e6f1ae70ddd00496a83c11ef6a2447f8483"
+- name: "WP_EHLinkGun.upk"
+  fileSize: 982191
+  hash: "0c783e9769563d749473c5a56c14a31a7735bcbe"
+- name: "EHShock.u"
+  fileSize: 50177
+  hash: "c627f161e8373004fa27335767df6e0a739cdefb"
+- name: "WP_Scorcher.upk"
+  fileSize: 2027432
+  hash: "0a48e2bfc01bb34383f213e2427780a87578503d"
+- name: "WP_EHShockRifle.upk"
+  fileSize: 1125588
+  hash: "597ab48190a3f16d624042c9956e860248ea876b"
+- name: "SwarmAvril.u"
+  fileSize: 24497
+  hash: "c558015cfd0aec07a87baf9fd3a07731991b668e"
+- name: "EMPAvrilC.u"
+  fileSize: 28698
+  hash: "060a7aabdcd95528bce202cd953e233ac1a5ccee"
+- name: "EnforcerA.u"
+  fileSize: 49227
+  hash: "82b7a8cc214a701fda3e70319091960ced988c66"
+- name: "A_Weapon_EHFlak.upk"
+  fileSize: 1791353
+  hash: "76ca47f69e0ad934755e64193e57ab6f7199b70e"
+- name: "EHBioRifle.u"
+  fileSize: 38764
+  hash: "169bb24683209d62d768029555655f41f03006f9"
+- name: "RBoard.u"
+  fileSize: 29331
+  hash: "73bbe75b00a7744b890b73627d03b25c7a260dbe"
+- name: "EHScorcher.u"
+  fileSize: 119481
+  hash: "3dba61472cb7ef801efa9222fb07d8999f1a79b7"
+- name: "PPC.u"
+  fileSize: 21238
+  hash: "00afc6bcbe9e8912e0522fcd9481bc73065577be"
+- name: "EHRedeemerII.u"
+  fileSize: 30716
+  hash: "496c5be099d1196bae5c85519b9fa780f4b3a9ae"
+- name: "WP_PPC.upk"
+  fileSize: 1111743
+  hash: "691857d8700da5059adc848fef2b26c3fd67a5a9"
+- name: "SwarmAvrilB.u"
+  fileSize: 24513
+  hash: "82d19e938234d19c57f9146f1511ab43c25e7ea6"
+- name: "VH_RHoverboard.upk"
+  fileSize: 1961889
+  hash: "55525e8e604e61be56239ffaf27e3a8f214f2cda"
+- name: "EHLink.u"
+  fileSize: 146609
+  hash: "fa962419fe389d63c8e528909307ecaee5640ecc"
+- name: "EMPAvrilPlaceHolder.u"
+  fileSize: 4874
+  hash: "d42c74aaff1f2ac3984c27cd4269eb8656a029f1"
+- name: "EHSniperB.u"
+  fileSize: 76676
+  hash: "21bc511e371ee56dbbf40070fe462af666ae6aef"
+- name: "PPCPlaceHolder.u"
+  fileSize: 6915
+  hash: "21add36be29f80c67f28951921e2f73f8265c291"
+- name: "EHIH.u"
+  fileSize: 41679
+  hash: "943600f1710966f3b44af167da33d5ac66eaf55d"
+- name: "A_Weapon_BioStinger.upk"
+  fileSize: 435580
+  hash: "ba9a5d69fafdcd600aa638b946cac595c3ddcfe8"
+otherFiles: 20
+dependencies:
+  EHRedeemerII.u:
+  - status: "OK"
+    name: "WP_EHRedeemer"
+  EHScorcher.u:
+  - status: "OK"
+    name: "WP_Scorcher"
+  BioStinger.u:
+  - status: "OK"
+    name: "EHBioRifle"
+  - status: "OK"
+    name: "A_Weapon_BioStinger"
+  PPC.u:
+  - status: "OK"
+    name: "WP_PPC"
+  EHShock.u:
+  - status: "OK"
+    name: "WP_EHShockRifle"
+  EHLink.u:
+  - status: "OK"
+    name: "WP_EHLinkGun"
+  EMPAvrilC.u:
+  - status: "OK"
+    name: "A_Weapon_EMPAvril"
+  EHSniperB.u:
+  - status: "OK"
+    name: "WP_EHSniperB"
+  RBoard.u:
+  - status: "OK"
+    name: "VH_RHoverboard"
+  EnforcerA.u:
+  - status: "OK"
+    name: "A_Weapon_EnforcerRE"
+  EHIH.u:
+  - status: "OK"
+    name: "A_Weapon_EHImpactHammer"
+  EHFlak.u:
+  - status: "OK"
+    name: "A_Weapon_EHFlak"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/E/9/9/9c9e18/Enchansed%20Weapons%20v1.1.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UTMutator_Rboard"
+  description: ""
+- name: "UTMutator_RHero"
+  description: "Rumple Titan"
+weapons:
+- name: "UTWeap_SwarmAvrilB_Content"
+  description: ""
+- name: "UTWeap_PPC"
+  description: ""
+- name: "UTWeap_EMPAvrilPlaceHolder"
+  description: ""
+- name: "UTWeap_EHBioRifle_Content"
+  description: ""
+- name: "UTWeap_SwarmAvril_Content"
+  description: ""
+- name: "UTWeap_EHImpactHammer"
+  description: ""
+- name: "UTWeap_EHLinkGun"
+  description: ""
+- name: "UTWeap_PPCPlaceHolder"
+  description: ""
+- name: "UTWeap_EHScorcher_Content"
+  description: ""
+- name: "UTWeap_BioStinger"
+  description: ""
+- name: "UTWeap_EMPAvrilC"
+  description: ""
+- name: "UTWeap_EnforcerA"
+  description: ""
+- name: "UTWeap_EHRocketLauncher"
+  description: ""
+- name: "UTWeap_EHShockRifle"
+  description: ""
+- name: "UTWeap_EHSniperB"
+  description: ""
+- name: "UTWeap_EHRedeemerII"
+  description: ""
+- name: "UTWeap_EHFlakCannon"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

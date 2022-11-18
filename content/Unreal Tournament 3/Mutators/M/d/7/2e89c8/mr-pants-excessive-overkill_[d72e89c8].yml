@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "Mr. Pants' Excessive Overkill"
+author: "Unknown"
+description: "An over the top weapons mutator."
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "excessiveut3.zip"
+hash: "d72e89c8139e5760a192847a89bec807ac7cd2c8"
+fileSize: 99060
+files:
+- name: "Excessive.u"
+  fileSize: 478633
+  hash: "fcf94f142ce34c855133f5fb475df616adbe1558"
+- name: "Excessive_FlakCannon.upk"
+  fileSize: 56565
+  hash: "a80233c1939cc6dd8ab7e14a84298191132bbc48"
+otherFiles: 2
+dependencies:
+  Excessive.u:
+  - status: "OK"
+    name: "Excessive_FlakCannon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/M/d/7/2e89c8/excessiveut3.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mr. Pants' Excessive Overkill"
+  description: "An over the top weapons mutator."
+weapons:
+- name: "Mr. Pants' Excessive Overkill"
+  description: ""
+- name: "UTWeap_EOShockRifle"
+  description: ""
+- name: "UTWeap_EOBioRifle"
+  description: ""
+- name: "UTWeap_EOFlakCannon"
+  description: ""
+- name: "UTWeap_EOAvril"
+  description: ""
+- name: "UTWeap_EOEnforcer"
+  description: ""
+- name: "UTWeap_EOImpactHammer"
+  description: ""
+- name: "UTWeap_EOLinkGun"
+  description: ""
+- name: "UTWeap_EORedeemer"
+  description: ""
+- name: "UTWeap_EOSniperRifle"
+  description: ""
+- name: "UTWeap_EOStinger"
+  description: ""
+- name: "UTWeap_EODualWeapon"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

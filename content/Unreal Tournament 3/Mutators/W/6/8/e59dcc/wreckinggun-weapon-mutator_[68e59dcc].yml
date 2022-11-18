@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "WreckingGun Weapon Mutator"
+author: "Unknown"
+description: "Replace the default pistol with the WreckingGun!"
+releaseDate: "2008-05"
+attachments: []
+originalFilename: "WreckingGun.zip"
+hash: "68e59dcc96d997865fd3fdc240bf4c30b37d6835"
+fileSize: 2328201
+files:
+- name: "WP_WreckingGun.upk"
+  fileSize: 3570565
+  hash: "b2cf065863bd182df24f7e004afffa4be46d38a4"
+- name: "UTMutator_WreckingGun.u"
+  fileSize: 24103
+  hash: "92fa62963f57fb950b6bacc39a46e687c0bdece2"
+otherFiles: 2
+dependencies:
+  UTMutator_WreckingGun.u:
+  - status: "OK"
+    name: "WP_WreckingGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/W/6/8/e59dcc/WreckingGun.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "WreckingGun Weapon Mutator"
+  description: "Replace the default pistol with the WreckingGun!"
+weapons:
+- name: "WreckingGun"
+  description: "Incendiary shell launching steampunk weapon."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

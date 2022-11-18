@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "Vortex Gun Mutator"
+author: "Unknown"
+description: "Add the way-cool VortexGun to the game!"
+releaseDate: "2008-07"
+attachments: []
+originalFilename: "VortexGunMod.7z"
+hash: "0d19aa7e0b18c3766fcae2f62a229810e27fb6e2"
+fileSize: 198951
+files:
+- name: "WP_VortexGun.upk"
+  fileSize: 941488
+  hash: "a23bd4f2244c848aac65bf7397e9c778081f98f9"
+- name: "VortexGun.u"
+  fileSize: 103108
+  hash: "c24a7d914c68f6e0b09e150fcd87be839d38591f"
+otherFiles: 2
+dependencies:
+  VortexGun.u:
+  - status: "OK"
+    name: "WP_VortexGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/V/0/d/19aa7e/VortexGunMod.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Vortex Gun Mutator"
+  description: "Add the way-cool VortexGun to the game!"
+weapons:
+- name: "Vortex Gun"
+  description: "Forcefield Energy Weapon"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
