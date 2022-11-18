@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-26 13:46"
+game: "Unreal Tournament 2004"
+name: "RagdollMadness Beta2"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-06"
+attachments: []
+originalFilename: "RagdollMadness_Beta2.zip"
+hash: "a47dbb3a73005a4ea7a30f659c714c15906589e3"
+fileSize: 37175
+files:
+- name: "RagdollMadness.u"
+  fileSize: 98225
+  hash: "8419aa64fc403dbb1a5cfae21fac727eae94e73e"
+otherFiles: 3
+dependencies: {}
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/a/4/7dbb3a/RagdollMadness_Beta2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Ragdoll Madness: Base mutator"
+  description: "Just gives the feign death and player ragdolling features. ||| Scripted\
+    \ by Kognefaure, with the help of Foxpaw's Karma ragdoll injury system (Unrealwiki.com)"
+- name: "Ragdoll Madness: Harpoons BETA"
+  description: "Gives the ability to place harpoon traps. | Once a trap detects a\
+    \ player, it fires a harpoon at him. If it hits, the player gets impaled and is\
+    \ tracted toward the trap. The player will be dropped a few times before being\
+    \ released (as long as he has survived...). | You cannot destroy a trap, but some\
+    \ weapons can enhance them with special features. || Scripted by Kognefaure"
+- name: "Ragdoll madness: Physics"
+  description: "Just customize lots of properties linked to the physics of ragdolls\
+    \ simulation ||| Scripted by Kognefaure"
+- name: "Ragdoll Madness: Softies!"
+  description: "The players can't stand pain and fall down when they are badly hit.\
+    \ |A player falls down when the sum of the damages he gets are higher than the\
+    \ Fall Down Damage property. This sum reduces over time. ||| Scripted by Kognefaure"
+weapons:
+- name: "Harpoon trap"
+  description: "Harpoon trap"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
