@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-27 18:49"
+game: "Unreal Tournament 2004"
+name: "KFmonsters"
+author: "Unknown"
+description: "None"
+releaseDate: "2014-11"
+attachments: []
+originalFilename: "KFmonsters.rar"
+hash: "ef2d23717b52a322a99f16cacf2d3344509bbb20"
+fileSize: 35783156
+files:
+- name: "KFmonsters.u"
+  fileSize: 128187
+  hash: "37dfcffb1819ba781b6bfb7945a0d88ab0cef9b1"
+- name: "KFzeds.ukx"
+  fileSize: 30997747
+  hash: "bdacb0ff979d9a54f8354401189cd29d41b679f3"
+- name: "KFSounds.uax"
+  fileSize: 18530147
+  hash: "fec002c6c4e1866b8d27f760642ea44a0446889a"
+- name: "KFRagdolls.ka"
+  fileSize: 538616
+  hash: "7c43a7178f264abfcdffae00109fdfe50bee9c49"
+- name: "KFskins.utx"
+  fileSize: 19425976
+  hash: "6ad132d563fd89f7dad3e3a10616f25519c64050"
+otherFiles: 2
+dependencies:
+  KFmonsters.u:
+  - status: "OK"
+    name: "KFZeds"
+  - status: "OK"
+    name: "KFskins"
+  - status: "OK"
+    name: "KFSounds"
+  KFzeds.ukx:
+  - status: "OK"
+    name: "KFskins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/K/e/f/2d2371/KFmonsters.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
