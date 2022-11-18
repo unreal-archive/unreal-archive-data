@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:40"
+game: "Unreal Tournament 2004"
+name: "LIPATCReplace"
+author: "Unknown"
+description: "Replace any vehicle with the LIP ATC."
+releaseDate: "2011-04"
+attachments: []
+originalFilename: "LIPATC_v0.95.zip"
+hash: "248cd0808588910563116b188266899a0750816d"
+fileSize: 1567644
+files:
+- name: "LIPATCTex.utx"
+  fileSize: 2797539
+  hash: "23452e623bec65d73d430d129baf433c4fcb80ad"
+- name: "LIPATCSounds.uax"
+  fileSize: 38567
+  hash: "35383d0bd1ea5c985c92beda716a002c8dea6faa"
+- name: "LIPATC.u"
+  fileSize: 15575
+  hash: "289036c11070ad091fc61b9946f807c5ef328f1d"
+- name: "LIPATCMesh.ukx"
+  fileSize: 210481
+  hash: "d81e7fd6dd37dd209e9d3a1103749d077ab76dd6"
+otherFiles: 2
+dependencies:
+  LIPATC.u:
+  - status: "OK"
+    name: "LIPATCSounds"
+  - status: "OK"
+    name: "LIPATCTex"
+  - status: "OK"
+    name: "LIPATCMesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/L/2/4/8cd080/LIPATC_v0.95.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "LIPATCReplace"
+  description: "Replace any vehicle with the LIP ATC."
+weapons: []
+vehicles:
+- name: "Atomic Toilet Car"
+  description: "Atomic Toilet Car"
+hasConfigMenu: false
+hasKeybinds: false
