@@ -1,0 +1,93 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:00"
+game: "Unreal Tournament 2004"
+name: "Blackstrider Vehicle Replacer"
+author: "Hasan Kamal-Al-Deen"
+description: "Replace any vehicle with the Blackstrider, for either or both teams."
+releaseDate: "2008-04"
+attachments:
+- type: "IMAGE"
+  name: "blackstrider-vehicle-replacer_shot_7472be39_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/7/4/72be39/blackstrider-vehicle-replacer_shot_7472be39_2.png"
+- type: "IMAGE"
+  name: "blackstrider-vehicle-replacer_shot_7472be39_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/7/4/72be39/blackstrider-vehicle-replacer_shot_7472be39_3.png"
+- type: "IMAGE"
+  name: "blackstrider-vehicle-replacer_shot_7472be39_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/7/4/72be39/blackstrider-vehicle-replacer_shot_7472be39_1.png"
+originalFilename: "BlackstriderBETA.zip"
+hash: "7472be39d77dc06a89728551f29663efd0bbd63a"
+fileSize: 11894521
+files:
+- name: "XMath.u"
+  fileSize: 17817
+  hash: "6c3d8021fd183a0f60924a351bfec520d730867e"
+- name: "BlackstriderRag.ka"
+  fileSize: 34144
+  hash: "d96ebe2ee16f2ee8cbe482654cf3b49f391e9de9"
+- name: "BlackStriderSounds.uax"
+  fileSize: 304367
+  hash: "ff70b749947ee3006234c9095da4b1c7c6863628"
+- name: "BlackStriderAnims.ukx"
+  fileSize: 9756115
+  hash: "d2511811de79551503565047ec1fe513ba75dd63"
+- name: "DirectionalEmitter.u"
+  fileSize: 5672
+  hash: "bf2b3dec99add8935b8826f009a4340dc60ba530"
+- name: "BasicIK.u"
+  fileSize: 37263
+  hash: "641e2cc2ff8e975ea41af7e221d4b41edfd32f60"
+- name: "BlackStrider.u"
+  fileSize: 185362
+  hash: "85cc86be24895c6c3db9b7f4793a87bf70e37e19"
+- name: "BlackStriderTex.utx"
+  fileSize: 6992353
+  hash: "d8bf1bdbba9343331e8a4382ed274b97bada2ea5"
+- name: "Blackstrider-SM.usx"
+  fileSize: 2736080
+  hash: "a8105e30ff1c2dfadbb830ba749e138833518a41"
+otherFiles: 5
+dependencies:
+  BasicIK.u:
+  - status: "OK"
+    name: "XMath"
+  BlackStrider.u:
+  - status: "OK"
+    name: "BlackStriderAnims"
+  - status: "OK"
+    name: "BasicIK"
+  - status: "OK"
+    name: "DirectionalEmitter"
+  - status: "OK"
+    name: "Blackstrider-SM"
+  - status: "OK"
+    name: "BlackstriderSounds"
+  - status: "OK"
+    name: "BlackStriderTex"
+  - status: "OK"
+    name: "XMath"
+  Blackstrider-SM.usx:
+  - status: "OK"
+    name: "BlackStriderTex"
+  BlackStriderAnims.ukx:
+  - status: "OK"
+    name: "BlackStriderTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/7/4/72be39/BlackstriderBETA.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Blackstrider Vehicle Replacer"
+  description: "Replace any vehicle with the Blackstrider, for either or both teams."
+weapons: []
+vehicles:
+- name: "Black Strider Turret"
+  description: "Black Strider Turret"
+- name: "Black Strider"
+  description: "Black Strider"
+hasConfigMenu: false
+hasKeybinds: false
