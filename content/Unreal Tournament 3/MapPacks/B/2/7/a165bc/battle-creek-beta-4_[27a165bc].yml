@@ -1,0 +1,49 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-12-01 07:02"
+game: "Unreal Tournament 3"
+name: "Battle Creek Beta 4"
+author: "Nyle \"Chaosnight\" MacDonald"
+description: "None"
+releaseDate: "2008-10"
+attachments: []
+originalFilename: "Battle Creek Beta 4.zip"
+hash: "27a165bca439c99b689bf8881855433f48ca2430"
+fileSize: 22378520
+files:
+- name: "DM-BattleCreek_LOC_int.upk"
+  fileSize: 22365589
+  hash: "8f4b2d34760034baf7f1da0c37fad22a7f1cb878"
+- name: "CTF-BattleCreek.ut3"
+  fileSize: 22366390
+  hash: "78f459f711deb4d77268872b70c72f812445d08b"
+- name: "CTF-BattleCreek_LOC_int.upk"
+  fileSize: 22366390
+  hash: "c81b5c3e7497335b188ac827203bcba5971b456c"
+- name: "DM-BattleCreek.ut3"
+  fileSize: 22365477
+  hash: "06efce6d3911ecd61983d0e4dbb48063ae16800b"
+otherFiles: 8
+dependencies:
+  CTF-BattleCreek.ut3:
+  - status: "MISSING"
+    name: "Crysis_Content3"
+  DM-BattleCreek.ut3:
+  - status: "MISSING"
+    name: "Crysis_Content3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/MapPacks/B/2/7/a165bc/Battle%20Creek%20Beta%204.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CTF-BattleCreek"
+  title: "BattleCreek"
+  author: "Nyle \"Chaosnight\" MacDonald"
+- name: "DM-BattleCreek"
+  title: "BattleCreek"
+  author: "Nyle \"Chaosnight\" MacDonald"
+gametype: "Mixed"
+themes: {}
