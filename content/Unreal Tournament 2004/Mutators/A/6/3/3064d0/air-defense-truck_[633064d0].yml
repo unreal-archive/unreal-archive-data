@@ -1,0 +1,130 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-05 11:13"
+game: "Unreal Tournament 2004"
+name: "Air Defense Truck"
+author: "Unknown"
+description: "Customizable Air Defense Truck. "
+releaseDate: "2005-08"
+attachments: []
+originalFilename: "AirDefBeta8.zip"
+hash: "633064d0e4be2ab6943bbb990258026f8394ad43"
+fileSize: 7783968
+files:
+- name: "AirDefAni.ukx"
+  fileSize: 1509259
+  hash: "3275eb500c5af0db8186e9f9ebc342e542454710"
+- name: "Air Defense Truck.ut4mod"
+  fileSize: 26195222
+  hash: "1869989146e8d49fd9cb0ec4636b652926c8a3ac"
+- name: "AirDef.u"
+  fileSize: 236693
+  hash: "d36e753587f7c057f6f482205d90e2b7864c4a46"
+- name: "AirDefSM.usx"
+  fileSize: 1277468
+  hash: "610d19152c1c69784d1cb6568abeb0d71af0acdb"
+- name: "AirDefTex.utx"
+  fileSize: 22131777
+  hash: "ca1e5ea566837972c9860f4ca5c4e82f5f0907ab"
+- name: "AirDefAud.uax"
+  fileSize: 1032306
+  hash: "0e4579c632dc99fd827b9dfa51bc7c54e948dbb1"
+otherFiles: 2
+dependencies:
+  AirDef.u:
+  - status: "OK"
+    name: "AirDefSM"
+  - status: "OK"
+    name: "AirDefTex"
+  - status: "OK"
+    name: "AirDefAni"
+  - status: "OK"
+    name: "AirDefAud"
+  AirDefSM.usx:
+  - status: "OK"
+    name: "AirDefTex"
+  AirDefAni.ukx:
+  - status: "OK"
+    name: "AirDefSM"
+  - status: "OK"
+    name: "AirDefTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/6/3/3064d0/AirDefBeta8.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Air Defense Truck"
+  description: "Customizable Air Defense Truck. "
+weapons: []
+vehicles:
+- name: "Air Defense Truck"
+  description: "Air Defense Truck"
+- name: "Cannon Turret"
+  description: "Cannon Turret"
+- name: "Cannon Turret"
+  description: "Cannon Turret"
+- name: "Cannon Turret"
+  description: "Cannon Turret"
+- name: "Cannon Turret"
+  description: "Cannon Turret"
+- name: "Quad 20mm Turret"
+  description: "Quad 20mm Turret"
+- name: "Quad 20mm Turret"
+  description: "Quad 20mm Turret"
+- name: "Quad 20mm Turret"
+  description: "Quad 20mm Turret"
+- name: "Quad 20mm Turret"
+  description: "Quad 20mm Turret"
+- name: ".88 Mag Rotory Cannon Turret"
+  description: ".88 Mag Rotory Cannon Turret"
+- name: ".88 Mag Rotory Cannon Turret"
+  description: ".88 Mag Rotory Cannon Turret"
+- name: ".88 Mag Rotory Cannon Turret"
+  description: ".88 Mag Rotory Cannon Turret"
+- name: ".88 Mag Rotory Cannon Turret"
+  description: ".88 Mag Rotory Cannon Turret"
+- name: "Missile Launcher"
+  description: "Missile Launcher"
+- name: "Missile Launcher"
+  description: "Missile Launcher"
+- name: "Missile Launcher"
+  description: "Missile Launcher"
+- name: "Missile Launcher"
+  description: "Missile Launcher"
+- name: "Tazer Turret"
+  description: "Tazer Turret"
+- name: "Tazer Turret"
+  description: "Tazer Turret"
+- name: "Tazer Turret"
+  description: "Tazer Turret"
+- name: "Tazer Turret"
+  description: "Tazer Turret"
+- name: "Flakrocket Turret"
+  description: "Flakrocket Turret"
+- name: "Flakrocket Turret"
+  description: "Flakrocket Turret"
+- name: "Flakrocket Turret"
+  description: "Flakrocket Turret"
+- name: "Flakrocket Turret"
+  description: "Flakrocket Turret"
+- name: "Dark Matter Disruptor"
+  description: "Dark Matter Disruptor"
+- name: "Dark Matter Disruptor"
+  description: "Dark Matter Disruptor"
+- name: "Dark Matter Disruptor"
+  description: "Dark Matter Disruptor"
+- name: "Dark Matter Disruptor"
+  description: "Dark Matter Disruptor"
+- name: "Flak Turret"
+  description: "Flak Turret"
+- name: "Flak Turret"
+  description: "Flak Turret"
+- name: "Flak Turret"
+  description: "Flak Turret"
+- name: "Flak Turret"
+  description: "Flak Turret"
+hasConfigMenu: false
+hasKeybinds: false
