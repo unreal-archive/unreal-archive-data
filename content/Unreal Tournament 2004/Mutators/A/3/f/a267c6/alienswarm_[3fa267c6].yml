@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-17 17:12"
+game: "Unreal Tournament 2004"
+name: "AlienSwarm"
+author: "Unknown"
+description: "None"
+releaseDate: "2014-07"
+attachments: []
+originalFilename: "AlienSwarm.rar"
+hash: "3fa267c63cf6b9cebac0bfd18bc83d8784a65bdd"
+fileSize: 11843712
+files:
+- name: "SwarmAlienSkins.utx"
+  fileSize: 6121239
+  hash: "0c077070c7e51d0e3f09daf0f8f6f73e8d81a06e"
+- name: "SwarmAliens.ukx"
+  fileSize: 20011599
+  hash: "fb5271f95728496093a91ff0851f143d245210bd"
+- name: "AlienSwarm.u"
+  fileSize: 37305
+  hash: "d0d038cce6a7430f03fbbc0c351511e2757d7f64"
+otherFiles: 1
+dependencies:
+  AlienSwarm.u:
+  - status: "OK"
+    name: "SwarmAlienSkins"
+  - status: "OK"
+    name: "SwarmAliens"
+  SwarmAliens.ukx:
+  - status: "OK"
+    name: "SwarmAlienSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/3/f/a267c6/AlienSwarm.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
