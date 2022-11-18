@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-30 02:00"
+game: "Unreal Tournament 2004"
+name: "FrozenSteel VCTF ONS"
+author: "U.E.M"
+description: "None"
+releaseDate: "2008-10"
+attachments:
+- type: "IMAGE"
+  name: "frozensteel-vctf-ons_shot_7f49e733_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/F/7/f/49e733/frozensteel-vctf-ons_shot_7f49e733_2.png"
+- type: "IMAGE"
+  name: "frozensteel-vctf-ons_shot_7f49e733_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/F/7/f/49e733/frozensteel-vctf-ons_shot_7f49e733_1.png"
+originalFilename: "FrozenSteel_VCTF_ONS.7z"
+hash: "7f49e733b15c4f84248379b118c3379f7875a0e0"
+fileSize: 11994298
+files:
+- name: "VCTF-{UEM}-FrozenSteel.ut2"
+  fileSize: 13689656
+  hash: "0ad261c42dff60f14efbdabc0fa619409fd596d8"
+- name: "ONSFrozenSteelTexes.utx"
+  fileSize: 8195250
+  hash: "5b6f6c53120ba1e5194fae96b09c1d727f947140"
+- name: "ONSFrozenSteelSM.usx"
+  fileSize: 2980786
+  hash: "6b33f1a5496cadc26c7e6f4f6ad09aa80ff0b739"
+- name: "TCM-MassDistortion.ogg"
+  fileSize: 3701450
+  hash: "148a063d80e4dd690ee118914ac9aa9aeb26f434"
+- name: "ONS-{UEM}-FrozenSteel.ut2"
+  fileSize: 13672904
+  hash: "adebdb458c3ad88761c4403c7cc207b350bc21de"
+otherFiles: 3
+dependencies:
+  ONSFrozenSteelSM.usx:
+  - status: "OK"
+    name: "ONSFrozenSteelTexes"
+  VCTF-{UEM}-FrozenSteel.ut2:
+  - status: "OK"
+    name: "ONSFrozenSteelSM"
+  - status: "OK"
+    name: "ONSFrozenSteelTexes"
+  ONS-{UEM}-FrozenSteel.ut2:
+  - status: "OK"
+    name: "ONSFrozenSteelSM"
+  - status: "OK"
+    name: "ONSFrozenSteelTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/F/7/f/49e733/FrozenSteel_VCTF_ONS.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "VCTF-{UEM}-FrozenSteel"
+  title: "Frozen Steel"
+  author: "U.E.M"
+- name: "ONS-{UEM}-FrozenSteel"
+  title: "Frozen Steel"
+  author: "U.E.M"
+gametype: "Mixed"
+themes:
+  Tech: 0.7
+  Natural: 0.2
+  Ancient: 0.1

@@ -1,0 +1,56 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-11-30 02:01"
+game: "Unreal Tournament 2004"
+name: "ONS VCTF UEM DeathFeud"
+author: "UEM"
+description: "None"
+releaseDate: "2009-04"
+attachments:
+- type: "IMAGE"
+  name: "ons-vctf-uem-deathfeud_shot_8f85e302_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/O/8/f/85e302/ons-vctf-uem-deathfeud_shot_8f85e302_1.png"
+- type: "IMAGE"
+  name: "ons-vctf-uem-deathfeud_shot_8f85e302_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/O/8/f/85e302/ons-vctf-uem-deathfeud_shot_8f85e302_2.png"
+originalFilename: "ONS-VCTF-UEM-DeathFeud.7z"
+hash: "8f85e30234d6dcd4f3b0998ac7260e1dbd890178"
+fileSize: 24179566
+files:
+- name: "VCTF-{UEM}-DeathFeud.ut2"
+  fileSize: 13897032
+  hash: "fb7f7abc04797106bec5e1b20a38c142f277a696"
+- name: "VCTFDeathFeudTexes.utx"
+  fileSize: 9356115
+  hash: "2f73a88ec77c4b31f18717f85faab1df00e5fc2d"
+- name: "deathfeudmusic.ogg"
+  fileSize: 5614144
+  hash: "c4627adfb9b671d2adc1c7a65240b307633cbf81"
+- name: "ONS-{UEM}-DeathFeud.ut2"
+  fileSize: 13776147
+  hash: "5fac2b6a676952c46f0619257c625ab6544cbc41"
+otherFiles: 2
+dependencies:
+  VCTF-{UEM}-DeathFeud.ut2:
+  - status: "OK"
+    name: "VCTFDeathFeudTexes"
+  ONS-{UEM}-DeathFeud.ut2:
+  - status: "OK"
+    name: "VCTFDeathFeudTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/O/8/f/85e302/ONS-VCTF-UEM-DeathFeud.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "VCTF-{UEM}-DeathFeud"
+  title: "DeathFeud"
+  author: "UEM"
+- name: "ONS-{UEM}-DeathFeud"
+  title: "DeathFeud"
+  author: "UEM"
+gametype: "Mixed"
+themes:
+  Tech: 1.0
