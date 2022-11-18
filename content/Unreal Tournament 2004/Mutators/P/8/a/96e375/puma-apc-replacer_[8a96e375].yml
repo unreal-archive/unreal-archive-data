@@ -1,0 +1,90 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 00:56"
+game: "Unreal Tournament 2004"
+name: "Puma APC Replacer"
+author: "Unknown"
+description: "The BTR80A Puma Amphibious APC.|Armed with a 30mm HE Cannon, AT-7 Anti-Vehicle\
+  \ Guided Rocket, and 4 side mounted machineguns, the Puma is capable of transporting\
+  \ a total of 9 people into and out of the battlefield, no matter the terrain, and\
+  \ even has the ability to travel in water. Its a multi-functional vehicle, which\
+  \ excells in bother Offensive and defensive capabilities. This mutator will replace\
+  \ the Goliath Tank with your choice of Puma Camo types.|Created by Wangtang."
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "BTRPuma.zip"
+hash: "8a96e375459f13f6bbe582ba8693a6fd771d4499"
+fileSize: 6365298
+files:
+- name: "BTR80AV3_Anim.ukx"
+  fileSize: 1254205
+  hash: "5f59aef201c6839e157fa2a7b65c32e2104c9698"
+- name: "BTR80Av3.u"
+  fileSize: 60727
+  hash: "80900fa44ee1a26341c3019a234fed669c6fb9c5"
+- name: "BTR80Av3_Static.usx"
+  fileSize: 1571974
+  hash: "f000308627a3ad07450ab3b0740cde488dbf91a6"
+- name: "BTR80_V3_Tex.utx"
+  fileSize: 9879322
+  hash: "765f41daec1cbf8ea965559d4dee6a1c3d1e9cb8"
+- name: "BTR80Av3_Sound.uax"
+  fileSize: 2304665
+  hash: "1dbec208c229f288077aa21b4797a0f29c753b2c"
+otherFiles: 3
+dependencies:
+  BTR80AV3_Anim.ukx:
+  - status: "OK"
+    name: "BTR80_V3_Tex"
+  BTR80Av3_Static.usx:
+  - status: "OK"
+    name: "BTR80_V3_Tex"
+  BTR80Av3.u:
+  - status: "OK"
+    name: "BTR80Av3_Anim"
+  - status: "OK"
+    name: "BTR80_V3_Tex"
+  - status: "OK"
+    name: "BTR80Av3_Static"
+  - status: "OK"
+    name: "BTR80Av3_Sound"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/8/a/96e375/BTRPuma.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Puma APC Replacer"
+  description: "The BTR80A Puma Amphibious APC.|Armed with a 30mm HE Cannon, AT-7\
+    \ Anti-Vehicle Guided Rocket, and 4 side mounted machineguns, the Puma is capable\
+    \ of transporting a total of 9 people into and out of the battlefield, no matter\
+    \ the terrain, and even has the ability to travel in water. Its a multi-functional\
+    \ vehicle, which excells in bother Offensive and defensive capabilities. This\
+    \ mutator will replace the Goliath Tank with your choice of Puma Camo types.|Created\
+    \ by Wangtang."
+weapons: []
+vehicles:
+- name: "Puma Urban"
+  description: "Puma Urban"
+- name: "Puma Desert"
+  description: "Puma Desert"
+- name: "Puma Harrier"
+  description: "Puma Harrier"
+- name: "Puma Jungle"
+  description: "Puma Jungle"
+- name: "Puma Winter"
+  description: "Puma Winter"
+- name: "'Puma' 7.62mm MG"
+  description: "'Puma' 7.62mm MG"
+- name: "'Puma' 7.62mm MG"
+  description: "'Puma' 7.62mm MG"
+- name: "'Puma' 7.62mm MG"
+  description: "'Puma' 7.62mm MG"
+- name: "'Puma' 7.62mm MG"
+  description: "'Puma' 7.62mm MG"
+- name: "'Puma' 7.62mm MG"
+  description: "'Puma' 7.62mm MG"
+hasConfigMenu: false
+hasKeybinds: false
