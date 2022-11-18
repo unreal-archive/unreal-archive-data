@@ -1,0 +1,78 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-22 02:25"
+game: "Unreal Tournament 2004"
+name: "ArmyWeapons"
+author: "holding"
+description: "Adds the following weapons:|M4 M203, Frag Grenades, M249 SAW, M870 Shotgun,\
+  \ RPG-7, M24 Sniper, M82 Sniper||Configure mutator to set which weapons to use,\
+  \ method of replacement and other options.||v3.5"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "armyweapons_shot_f05e4b28_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/f/0/5e4b28/armyweapons_shot_f05e4b28_1.png"
+originalFilename: "armyweapons3_5.7z"
+hash: "f05e4b283c301d11d6e73bd675917a1a90262060"
+fileSize: 1419025
+files:
+- name: "ArmyWeapons.u"
+  fileSize: 2390652
+  hash: "e790c80c5180378adfa178484f9162153c13d080"
+otherFiles: 3
+dependencies: {}
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/f/0/5e4b28/armyweapons3_5.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "ArmyWeapons"
+  description: "Adds the following weapons:|M4 M203, Frag Grenades, M249 SAW, M870\
+    \ Shotgun, RPG-7, M24 Sniper, M82 Sniper||Configure mutator to set which weapons\
+    \ to use, method of replacement and other options.||v3.5"
+weapons:
+- name: "Frag Grenades"
+  description: "Frag Grenades are powerful explosives with a large explosion radius.\
+    \ They have three second fuses which can be 'cooked' off before throwing by holding\
+    \ the fire button. Cooking a grenade too long will result in your injury or death.\
+    \ Grenades can also be exploded by weaponfire and explosions. Primary fire throws\
+    \ them full strength, secondary fire throws them at half strength. The Frag Grenades\
+    \ are difficult to use well, but are very deadly when they are timed right."
+- name: "M249 SAW"
+  description: "The M249 SAW is an automatic rifle that is fairly accurate for its\
+    \ very quick rate of fire, but it has heavy recoil. This is a powerful close-range\
+    \ weapon."
+- name: "M24 Sniper"
+  description: "The M24 is a single-fire sniper rifle that must recharge between shots,\
+    \ which takes 2 seconds. It has a 5-round chamber which takes over 4 seconds to\
+    \ reload. It has pin-point accuracy, and little recoil. Secondary fire operates\
+    \ the high-power scope. This sniper rifle is preferred by those who only want\
+    \ to shoot once per target."
+- name: "M4 Rifle"
+  description: "The M4 is an automatic rifle that fires fairly quickly and is quite\
+    \ accurate. It takes about 2 seconds to reload its 30-round clip. It has moderate\
+    \ recoil. The attached M203 grenade launcher fires impact-detonated 40mm grenades.\
+    \ This is a good all-around weapon. The tournament version of the M4 is light\
+    \ enough so that players can wield two M4s at once, to double the fire rate. However,\
+    \ it also doubles the reload time and lowers accuracy. Still, dual M4s are a force\
+    \ to be reckoned with."
+- name: "M82 Sniper"
+  description: "The M82 Barret is a semi-automatic sniper rifle. It has a 10-round\
+    \ clip which takes about 3 seconds to reload. It's accuracy is almost dead-on,\
+    \ but it has heavy recoil. Secondary fire operates the high-power scope. This\
+    \ sniper rifle is better for quick multiple snipes."
+- name: "M870 Shotgun"
+  description: "The M870 is a single-fire pump-action shotgun. Due to the wide spread\
+    \ of the pellets, it is quite limited in range, and has heavy recoil. At close\
+    \ range where most of the pellets will hit, this weapon can quickly eliminate\
+    \ any target."
+- name: "RPG-7"
+  description: "The RPG-7 is a launcher that fires rocket propelled grenades which\
+    \ move very quickly and deliver high damage. Reloading another RPG takes about\
+    \ two seconds. This weapon can effectively take out targets medium range."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
