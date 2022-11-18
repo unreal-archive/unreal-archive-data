@@ -1,0 +1,95 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:35"
+game: "Unreal Tournament 2004"
+name: "A.S.M.D. Tank"
+author: "Hyperforce"
+description: "Replace any vehicles with the A.S.M.D. TANK (BETA version: 0.97) Made\
+  \ By Hyperforce.                                                               \
+  \                                                                              \
+  \                                                                              \
+  \                                                                              \
+  \                                                                              \
+  \                               // with some help form: Rens2Sea and all ppl that\
+  \ helped me test this vehicle.                                                 \
+  \            Axon research's latest creation: The A.S.M.D. Tank. combining state\
+  \ of the art ASMD tech with heavy duty powercores and the latest defencive and offencive\
+  \ weapons makes this vehicle the ultimate anti-Vehicle-Vehicle. Mounted with a hybride\
+  \ plasma projector, a Shock Beam Cannon and 2 advanced skymine launchers this hover\
+  \ vehicle will obliverate anything in its way. The Shock Turret may recharge slow,\
+  \ its power is like nothing you've ever seen before (except for the infamous leviathan\
+  \ assault station.) Capable of transforming to gain a better position on the battlefield.\
+  \ Fast and agile as it is, this vehicle will crush, fry and blow up any obstacle\
+  \ on its path. (COMPLETE BOT SUPPORT INCLUDED) (WARNING: AIR TARGETS MAY BE HARD\
+  \ TO HIT DU TO TURRET PITCH LIMITS)"
+releaseDate: "2005-06"
+attachments:
+- type: "IMAGE"
+  name: "asmd-tank_shot_20783520_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/2/0/783520/asmd-tank_shot_20783520_2.png"
+- type: "IMAGE"
+  name: "asmd-tank_shot_20783520_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/2/0/783520/asmd-tank_shot_20783520_1.png"
+originalFilename: "A.S.M.D_TANK_0.97_Manual.rar"
+hash: "20783520855da8420651e41e75a940a794e41d1a"
+fileSize: 5878973
+files:
+- name: "ASMDTANK_TEX.utx"
+  fileSize: 5554362
+  hash: "5001b82c349b3511ced35cbf5c3df24049f40708"
+- name: "ASMDTANK_ANIMnew.ukx"
+  fileSize: 3752046
+  hash: "06400f737d7bc6d4dfa2ab25085c5faa40b0e298"
+- name: "ASMD_TANK.u"
+  fileSize: 107428
+  hash: "1f480699d6e1e2e3be7a16953f7ca6036b26b176"
+- name: "ASMD_static.usx"
+  fileSize: 4167735
+  hash: "8caae6d9bfd33a6df9951182ac3760572a634b1b"
+otherFiles: 4
+dependencies:
+  ASMD_static.usx:
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+  ASMDTANK_ANIMnew.ukx:
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+  ASMD_TANK.u:
+  - status: "OK"
+    name: "ASMD_static"
+  - status: "OK"
+    name: "ASMDTANK_ANIMnew"
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/2/0/783520/A.S.M.D_TANK_0.97_Manual.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "A.S.M.D. Tank"
+  description: "Replace any vehicles with the A.S.M.D. TANK (BETA version: 0.97) Made\
+    \ By Hyperforce.                                                             \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                         // with some help form: Rens2Sea and\
+    \ all ppl that helped me test this vehicle.                                  \
+    \                           Axon research's latest creation: The A.S.M.D. Tank.\
+    \ combining state of the art ASMD tech with heavy duty powercores and the latest\
+    \ defencive and offencive weapons makes this vehicle the ultimate anti-Vehicle-Vehicle.\
+    \ Mounted with a hybride plasma projector, a Shock Beam Cannon and 2 advanced\
+    \ skymine launchers this hover vehicle will obliverate anything in its way. The\
+    \ Shock Turret may recharge slow, its power is like nothing you've ever seen before\
+    \ (except for the infamous leviathan assault station.) Capable of transforming\
+    \ to gain a better position on the battlefield. Fast and agile as it is, this\
+    \ vehicle will crush, fry and blow up any obstacle on its path. (COMPLETE BOT\
+    \ SUPPORT INCLUDED) (WARNING: AIR TARGETS MAY BE HARD TO HIT DU TO TURRET PITCH\
+    \ LIMITS)"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
