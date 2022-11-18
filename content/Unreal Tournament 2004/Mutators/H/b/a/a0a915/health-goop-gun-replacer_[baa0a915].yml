@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-27 19:10"
+game: "Unreal Tournament 2004"
+name: "Health Goop Gun Replacer"
+author: "Unknown"
+description: "Replaces all Bio-Rifles with Health Goop Guns, and all Bio ammo with\
+  \ Health Goop Ammo."
+releaseDate: "2004-07"
+attachments: []
+originalFilename: "HealthGoopGunBE.7z"
+hash: "baa0a915c2ed7b3d67f95190828a4cbb17e59662"
+fileSize: 151826
+files:
+- name: "HealthGoopGun.u"
+  fileSize: 13453
+  hash: "2616c70e5e9e88d5e68dadc358bec31c807f1941"
+- name: "HealthGoopGunT.utx"
+  fileSize: 292567
+  hash: "3b78950905ff439484b9f928ed97e4eb936c5d6e"
+otherFiles: 2
+dependencies:
+  HealthGoopGun.u:
+  - status: "OK"
+    name: "HealthGoopGunT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/b/a/a0a915/HealthGoopGunBE.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Health Goop Gun Replacer"
+  description: "Replaces all Bio-Rifles with Health Goop Guns, and all Bio ammo with\
+    \ Health Goop Ammo."
+weapons:
+- name: "Health Goop Rifle"
+  description: "The Health Goop Rifle is the backup every combatent on his last legs\
+    \ wishes for, portable health, in variable doses. It's also a god send to team\
+    \ mates, just don't heal the wrong man, or life could be that little bit more\
+    \ difficult."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
