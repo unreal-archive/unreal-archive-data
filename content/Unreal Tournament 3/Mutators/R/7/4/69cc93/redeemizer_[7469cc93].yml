@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:52"
+game: "Unreal Tournament 3"
+name: "Redeemizer"
+author: "HO0815XX"
+description: "Replaces the RocketLauncher with an overpowered Version !"
+releaseDate: "2010-10"
+attachments: []
+originalFilename: "RedeemizerV2_0Final.rar"
+hash: "7469cc932e83286718694108acc6257d94d85108"
+fileSize: 7199116
+files:
+- name: "WP_Redeemizer.upk"
+  fileSize: 10089869
+  hash: "70a5f2dd0dc951185829c687e81a33bcd30021d2"
+- name: "UI_Scenes_Redeemizer.upk"
+  fileSize: 123879
+  hash: "f281c4547c9ff102da20ce0378a6b8982b34082b"
+- name: "Redeemizer.u"
+  fileSize: 144279
+  hash: "da180d78ca910e026372a3c4154ea10aa39dcd52"
+otherFiles: 2
+dependencies:
+  Redeemizer.u:
+  - status: "OK"
+    name: "WP_Redeemizer"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/R/7/4/69cc93/RedeemizerV2_0Final.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Redeemizer"
+  description: "Replaces the RocketLauncher with an overpowered Version !"
+weapons:
+- name: "Redeemizer"
+  description: "Fun-Weapon ! It's a heavily increased RocketLauncher. You should use\
+    \ it on big Outdoor- or Giant-Maps.Tip: Set the 'bNoSelfDamage' to true, this\
+    \ will avoid you from 'self-redeemizing', and you can do 'Rocketjumps'."
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

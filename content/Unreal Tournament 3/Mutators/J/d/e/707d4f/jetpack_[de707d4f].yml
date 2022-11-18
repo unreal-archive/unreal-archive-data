@@ -1,0 +1,38 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:52"
+game: "Unreal Tournament 3"
+name: "Jetpack"
+author: "Unknown"
+description: "Jetpack fun! Hold down Jump to jet around. By Pfhoenix (mesh by Bez)."
+releaseDate: "2008-01"
+attachments: []
+originalFilename: "jetpack3_v1.2.zip"
+hash: "de707d4fb984d1c7c1ff65f90184bad876f5c91f"
+fileSize: 1400556
+files:
+- name: "Jetpack.u"
+  fileSize: 52554
+  hash: "d76dc7cc676d20962b6400729b16c4480d5e498d"
+- name: "jetpack_mesh.upk"
+  fileSize: 1699690
+  hash: "af516ae1c6980a3ee9275192081c81f340d62fe3"
+otherFiles: 2
+dependencies:
+  Jetpack.u:
+  - status: "OK"
+    name: "jetpack_mesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/J/d/e/707d4f/jetpack3_v1.2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Jetpack"
+  description: "Jetpack fun! Hold down Jump to jet around. By Pfhoenix (mesh by Bez)."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

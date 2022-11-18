@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:52"
+game: "Unreal Tournament 3"
+name: "Grapple Gun"
+author: "Unknown"
+description: "A simple grapple/repulsor gun."
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "GrappleHookV1.zip"
+hash: "467e3daa546aeaf8fbe15ccbeb30a6ea0be8fb07"
+fileSize: 2353674
+files:
+- name: "GrappleHook.u"
+  fileSize: 178440
+  hash: "c74b940c67916a393180b737f6ca4b4c2c6c395e"
+- name: "UI_Scenes_GrappleHook.upk"
+  fileSize: 253881
+  hash: "6a4405ceea2749988f77d4174d4d978e26843dac"
+- name: "WP_GrappleGun.upk"
+  fileSize: 4749941
+  hash: "4542805c4bdf90eb02cde22853a9f6f62112e937"
+otherFiles: 2
+dependencies:
+  GrappleHook.u:
+  - status: "OK"
+    name: "WP_GrappleGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/G/4/6/7e3daa/GrappleHookV1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Grapple Gun"
+  description: "A simple grapple/repulsor gun."
+weapons:
+- name: "Grapple Hook"
+  description: ""
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:52"
+game: "Unreal Tournament 3"
+name: "Talking Icon Mutator"
+author: "the Publisher or Creator of said"
+description: "Server mutator which displays an icon over a players head when typing"
+releaseDate: "2010-06"
+attachments: []
+originalFilename: "TalkingIcon.zip"
+hash: "80ae8c4359cee921e2505440350ef3993b9be074"
+fileSize: 231686
+files:
+- name: "TalkingIcon.u"
+  fileSize: 353912
+  hash: "221fbc1a8bf967d04a05fab109ca832ed8173805"
+- name: "TorlanRu_Content.upk"
+  fileSize: 276530
+  hash: "6759b2900b9d277c7020d8b8fab4ff333f88a49a"
+- name: "UnrealScriptTools14.u"
+  fileSize: 6399
+  hash: "740c622326af1ca15bb81234e0e80bc509eed901"
+- name: "TalkingIconResources.upk"
+  fileSize: 318677
+  hash: "59934f1e0bab155f6401601606c63a790f07cea3"
+otherFiles: 3
+dependencies:
+  TalkingIcon.u:
+  - status: "OK"
+    name: "UnrealScriptTools14"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/T/8/0/ae8c43/TalkingIcon.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Talking Icon Mutator"
+  description: "Server mutator which displays an icon over a players head when typing"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
