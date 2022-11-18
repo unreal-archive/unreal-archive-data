@@ -1,0 +1,65 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-17 16:36"
+game: "Unreal Tournament 3"
+name: "Titan Team Fix"
+author: "s commit to"
+description: "Configurable Team Balancer"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "titan-team-fix_shot_81a17343_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/T/8/1/a17343/titan-team-fix_shot_81a17343_1.png"
+- type: "IMAGE"
+  name: "titan-team-fix_shot_81a17343_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/T/8/1/a17343/titan-team-fix_shot_81a17343_2.png"
+- type: "IMAGE"
+  name: "titan-team-fix_shot_81a17343_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/T/8/1/a17343/titan-team-fix_shot_81a17343_3.png"
+originalFilename: "TitanTeamFixUT3_v2.0Beta51.zip"
+hash: "81a173435a257f76f70211816e42fd8418b6f25d"
+fileSize: 170320
+files:
+- name: "TitanTeamFixUT3.u"
+  fileSize: 289011
+  hash: "d4b5e16d25f820c5471eb9a37fa7c6c75999a9b0"
+- name: "UnrealScriptTools2.u"
+  fileSize: 12777
+  hash: "b3adeffff129dcda46b932076e777a0ed4a47773"
+- name: "TTFWebAdmin.u"
+  fileSize: 43739
+  hash: "87d626d4c739d185d020ba1d60b19ebf9549ca58"
+- name: "TTFDebug.u"
+  fileSize: 8421
+  hash: "b6a69ac9c17073787ed449378dfb197c899ee697"
+- name: "TTFMsg.u"
+  fileSize: 29946
+  hash: "38bf5b976613ad3ee58a2d6bec7d9dc8cab9422b"
+otherFiles: 9
+dependencies:
+  TitanTeamFixUT3.u:
+  - status: "OK"
+    name: "TTFDebug"
+  - status: "OK"
+    name: "UnrealScriptTools2"
+  - status: "OK"
+    name: "TTFMsg"
+  TTFWebAdmin.u:
+  - status: "MISSING"
+    name: "WebAdmin"
+  - status: "OK"
+    name: "TitanTeamFixUT3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/T/8/1/a17343/TitanTeamFixUT3_v2.0Beta51.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Titan Team Fix"
+  description: "Configurable Team Balancer"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

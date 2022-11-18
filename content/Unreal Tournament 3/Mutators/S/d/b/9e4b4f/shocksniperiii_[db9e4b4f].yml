@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-17 16:36"
+game: "Unreal Tournament 3"
+name: "ShockSniperIII"
+author: "HO0815XX"
+description: "Replaces the ShockRifle with the ShockSniperRifle III (Zoom/Headshots)"
+releaseDate: "2010-03"
+attachments: []
+originalFilename: "ShockSniperIIIV1.2Final.rar"
+hash: "db9e4b4fd6057b7453b5bb17388660e169c9d360"
+fileSize: 7007412
+files:
+- name: "WP_ShockSniperIII.upk"
+  fileSize: 8643784
+  hash: "b615f82603c7368309c00512dab6d5827b8c3b94"
+- name: "ShockSniperIII.u"
+  fileSize: 111202
+  hash: "ca6eb05546f082ac8c324b9b2f12926e01d99909"
+- name: "UI_Scenes_ShockSniperIII.upk"
+  fileSize: 183124
+  hash: "646662e68ba84b7b02882baa4be2cc56ea241353"
+otherFiles: 2
+dependencies:
+  ShockSniperIII.u:
+  - status: "OK"
+    name: "WP_ShockSniperIII"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/S/d/b/9e4b4f/ShockSniperIIIV1.2Final.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "ShockSniperIII"
+  description: "Replaces the ShockRifle with the ShockSniperRifle III (Zoom/Headshots)"
+weapons:
+- name: "ShockSniperRifle III"
+  description: "ShockSniperRifle III"
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
