@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-25 14:42"
+game: "Unreal Tournament 2004"
+name: "Play with all available Super Weapons X!"
+author: "Unknown"
+description: ""
+releaseDate: "2004-04"
+attachments: []
+originalFilename: "swx2k4beta.zip"
+hash: "e30220cd6d4757ea954a9b0c1b264b7066c0af29"
+fileSize: 4411391
+files:
+- name: "SWX.u"
+  fileSize: 2278059
+  hash: "40d486d5ba191a5442568b936f8318635bad5eee"
+- name: "RPSRmodel.ukx"
+  fileSize: 458682
+  hash: "d34b9c5ca486113b71285ebeb259cfe40b395c31"
+- name: "SWXtextures.utx"
+  fileSize: 11275440
+  hash: "aa852bf4d50227aab94c76bc3b636f274f785f1e"
+otherFiles: 1
+dependencies:
+  SWX.u:
+  - status: "OK"
+    name: "SWXtextures"
+  - status: "OK"
+    name: "RPSRmodel"
+  RPSRmodel.ukx:
+  - status: "OK"
+    name: "SWXtextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/e/3/0220cd/swx2k4beta.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Play with all available Super Weapons X!"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
