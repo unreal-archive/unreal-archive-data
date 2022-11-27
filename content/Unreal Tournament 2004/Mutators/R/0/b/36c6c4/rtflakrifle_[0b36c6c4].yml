@@ -1,0 +1,61 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:49"
+game: "Unreal Tournament 2004"
+name: "RTFlakRifle"
+author: "Unknown"
+description: "None"
+releaseDate: "2013-07"
+attachments: []
+originalFilename: "RTFlakRifle.zip"
+hash: "0b36c6c42f821cea4999a915e777e0c00fe9dab5"
+fileSize: 5871892
+files:
+- name: "RTFlakRifle.u"
+  fileSize: 2859990
+  hash: "6669ad9d07852e12dfca904570fd48c4d5ecde1a"
+- name: "RTFlakRifleSounds.uax"
+  fileSize: 319068
+  hash: "8ab87b9f320171d5a4ede5171e2365adb0120bd4"
+- name: "RTFlakRifleSM.usx"
+  fileSize: 1563554
+  hash: "8442acd9a73f34882646c752a0c48afe7de3c678"
+- name: "RTFlakRifle.ukx"
+  fileSize: 2837108
+  hash: "19aa086c5e5ff9b17c1332c5745ddc4648005509"
+- name: "RTFlakTextures.utx"
+  fileSize: 5592973
+  hash: "402ca69d3edfe1d2830a7fa5402ddd8077b119c8"
+otherFiles: 2
+dependencies:
+  RTFlakRifle.u:
+  - status: "OK"
+    name: "RTFlakRifleSounds"
+  - status: "OK"
+    name: "RTFlakTextures"
+  - status: "OK"
+    name: "RTFlakRifleSM"
+  RTFlakRifleSM.usx:
+  - status: "OK"
+    name: "RTFlakTextures"
+  RTFlakRifle.ukx:
+  - status: "OK"
+    name: "RTFlakRifleSounds"
+  - status: "OK"
+    name: "RTFlakTextures"
+  - status: "OK"
+    name: "RTFlakRifleSM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/R/0/b/36c6c4/RTFlakRifle.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons:
+- name: "RT Flak Rifle"
+  description: "RT Flak Rifle made by Rasiel. Visit http://rusut.ru/ for more."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
