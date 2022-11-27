@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-27 19:13"
+game: "Unreal Tournament 2004"
+name: "Dog Catcher"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-02"
+attachments: []
+originalFilename: "Dog_Catcher.zip"
+hash: "081934011704c82e3a1814f993b1318229adaf4f"
+fileSize: 753570
+files:
+- name: "VPl_Dc_Tex.utx"
+  fileSize: 1622587
+  hash: "c3e1519675f0495a2551a044bebf6d44cb6c3be3"
+- name: "Vpl_DC_Mesh.usx"
+  fileSize: 332746
+  hash: "cf2f0515a96ab0819df373bca78f0b165cc9f9af"
+- name: "vpl_dcatcher.u"
+  fileSize: 46153
+  hash: "2452f8097862f9b6fde09e1aede06073076b1f3d"
+otherFiles: 1
+dependencies:
+  Vpl_DC_Mesh.usx:
+  - status: "OK"
+    name: "VPl_Dc_Tex"
+  vpl_dcatcher.u:
+  - status: "OK"
+    name: "VPl_Dc_Tex"
+  - status: "OK"
+    name: "Vpl_DC_Mesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/D/0/8/193401/Dog_Catcher.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
