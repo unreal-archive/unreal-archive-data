@@ -1,0 +1,69 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:14"
+game: "Unreal Tournament 2004"
+name: "Personell Vehicles"
+author: "spawning too close to APC"
+description: "Adds Personnel Transport to the map"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "personnel_vehicles.zip"
+hash: "e7effa120b67acafd0596df47a2d4068dbfe2783"
+fileSize: 2380635
+files:
+- name: "ONS_PV.usx"
+  fileSize: 655459
+  hash: "a0f0c707bea41f35723848279e7892bdddf1a74f"
+- name: "ONSPerV.ukx"
+  fileSize: 1500246
+  hash: "f2050bce150a773f642c96de91868a7ca6aca8b7"
+- name: "ONSTrike.u"
+  fileSize: 129351
+  hash: "a0b3a794fa0f5946fa9657bde1654ff60ffbe9ac"
+- name: "ONSPVtex.utx"
+  fileSize: 2099413
+  hash: "1bcd1736cd7196fa7ad9710e66851805b3d43e5a"
+otherFiles: 3
+dependencies:
+  ONSPerV.ukx:
+  - status: "OK"
+    name: "ONSPVtex"
+  ONSTrike.u:
+  - status: "OK"
+    name: "ONS_PV"
+  - status: "PARTIAL"
+    name: "ONSPerV"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/e/7/effa12/personnel_vehicles.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Personell Vehicles"
+  description: "Adds Personnel Transport to the map"
+weapons: []
+vehicles:
+- name: "Wasp Mk1"
+  description: "Wasp Mk1"
+- name: "Wasp"
+  description: "Wasp"
+- name: "Hoverfly MK1"
+  description: "Hoverfly MK1"
+- name: "Hoverfly"
+  description: "Hoverfly"
+- name: "APC Passenger"
+  description: "APC Passenger"
+- name: "APC"
+  description: "APC"
+- name: "Hornet MK1"
+  description: "Hornet MK1"
+- name: "Hornet"
+  description: "Hornet"
+- name: "Bee MK1"
+  description: "Bee MK1"
+- name: "APC Turret"
+  description: "APC Turret"
+hasConfigMenu: false
+hasKeybinds: false
