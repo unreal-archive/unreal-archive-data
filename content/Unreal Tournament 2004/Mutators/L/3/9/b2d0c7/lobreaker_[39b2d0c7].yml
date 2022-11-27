@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:40"
+game: "Unreal Tournament 2004"
+name: "Lobreaker"
+author: "RED-FROG"
+description: "Replace the Goliath Tank with the Lobreaker Tank. Made by RED-FROG"
+releaseDate: "2005-12"
+attachments: []
+originalFilename: "lobreaker.zip"
+hash: "39b2d0c7432e0688ceff598bbc61a5b7cba8c607"
+fileSize: 790092
+files:
+- name: "Lobreaker.u"
+  fileSize: 361928
+  hash: "482e31985c3bdc11aeb26ebd053e46be3d12de0d"
+- name: "VHRFLobreaker.ukx"
+  fileSize: 465662
+  hash: "435bee4f50c44a5f5321e443d2f45f9234b60ca0"
+- name: "VHRFLobreakerSM.usx"
+  fileSize: 723114
+  hash: "f7c9ff5890f8ef0867dfd4ef7fc28a20f5124cb0"
+otherFiles: 2
+dependencies:
+  VHRFLobreaker.ukx:
+  - status: "OK"
+    name: "VHRFLobreakerSM"
+  Lobreaker.u:
+  - status: "OK"
+    name: "VHRFLobreakerSM"
+  - status: "OK"
+    name: "VHRFLobreaker"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/L/3/9/b2d0c7/lobreaker.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Lobreaker"
+  description: "Replace the Goliath Tank with the Lobreaker Tank. Made by RED-FROG"
+weapons: []
+vehicles:
+- name: "Lobreaker"
+  description: "Lobreaker"
+- name: "Lobreaker Turret"
+  description: "Lobreaker Turret"
+hasConfigMenu: false
+hasKeybinds: false

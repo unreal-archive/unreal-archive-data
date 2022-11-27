@@ -1,0 +1,165 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:40"
+game: "Unreal Tournament 2004"
+name: "UT2004 BestOFUnreal1 1"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-01"
+attachments: []
+originalFilename: "UT2004-BestOFUnreal1.1.zip"
+hash: "28930a70cc0596686220d0afc1247797c938e4e8"
+fileSize: 6902024
+files:
+- name: "BestUnrealSnds.uax"
+  fileSize: 7914286
+  hash: "eabb7a54ef9381e282cd67d014a14f4261b5a3e0"
+- name: "SuperASMD.u"
+  fileSize: 3997
+  hash: "9e9a1a22afdfe55843dfb4f0d20ed1fb442031a5"
+- name: "BestOfUShockText.utx"
+  fileSize: 64234
+  hash: "71cfa7c6ab02e3da838905043ae09ea419bcbc5c"
+- name: "BestOfUnrealAnim.ukx"
+  fileSize: 799360
+  hash: "f414835e275b9ad389c5bf563ad12267bcab7cfc"
+- name: "BestOfUnreal-101.u"
+  fileSize: 323436
+  hash: "dc6b8d84f338e250e95b230897f651329457a2a8"
+- name: "BestAnnouncerHack.uax"
+  fileSize: 152129
+  hash: "32ce6e60746748e1ad2c2176f00c3a8b32c5c424"
+- name: "BestOfUnrealTextures.utx"
+  fileSize: 3455108
+  hash: "3f97ca801052ae99e560b8f1a4bdeb96caea1844"
+- name: "BestOfUnrealSM.usx"
+  fileSize: 109018
+  hash: "634c76c77559ff4f608f3255a3c206e126fd768e"
+otherFiles: 9
+dependencies:
+  BestOfUnreal-101.u:
+  - status: "OK"
+    name: "BestOfUnrealAnim"
+  - status: "OK"
+    name: "BestOfUnrealTextures"
+  - status: "OK"
+    name: "BestOfUnrealSM"
+  - status: "OK"
+    name: "BestOfUShockText"
+  - status: "OK"
+    name: "BestUnrealSnds"
+  BestOfUnrealAnim.ukx:
+  - status: "OK"
+    name: "BestOfUnrealTextures"
+  BestOfUnrealSM.usx:
+  - status: "OK"
+    name: "BestOfUnrealTextures"
+  SuperASMD.u:
+  - status: "OK"
+    name: "BestOfUnreal-101"
+  - status: "OK"
+    name: "BestUnrealSnds"
+  - status: "MISSING"
+    name: "PlaceableWeps"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/2/8/930a70/UT2004-BestOFUnreal1.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "-= BEST Of U InstaGib =-"
+  description: "Instant-kill combat with modified Shock Rifles."
+- name: " -= BEST Of U Classic add-on =- "
+  description: "This ownage mutator adds some UTClassic game rules and the UT99 return\
+    \ sound and drop sound of the CTF Flag (also in DOM & Bombing Run). It also solve\
+    \ the Telefrag problem online in a soft way. By -=Musc@t=-"
+- name: " -= BEST Of U Weapons and pickups =- "
+  description: "This ownage mutator replaces some default weapons by an old or a new\
+    \ Unreal version of the same type just for your own pleasure... or maybe just\
+    \ mine..Cough! Most of the modified weapon sounds, flag Sounds come from UT99,\
+    \ some from UT3 or UT2003. Teh dam best Unreal weapons and sounds eva guys!!!\
+    \ By -=Musc@t=-"
+- name: " -= BEST Of U Sniper Rifle =- "
+  description: "Replace a weapon by the Best Of U Sniper Rifle."
+- name: "-= BEST Of U Hammer Arena =-"
+  description: "Hammer Arena with the UT99 Impact Hammer."
+- name: " -= BEST Of U Impact Hammer =- "
+  description: "Replace a weapon by the UT99 Impact Hammer."
+weapons:
+- name: "Best Of U Tech3 Assault Rifle"
+  description: "The Well know UT2004 Assault Rifle modified with different parts from\
+    \ the Old or/and advanced handgun and Assault rifle models to have a great balance\
+    \ between confort, precision and new technology."
+- name: "Best Of U Bio-Rifle"
+  description: "The Well know UT2 Bio-Rifle modified with different parts from the\
+    \ Old or/and advanced models to have a great balance between the old confort and\
+    \ the new technology."
+- name: "Best Of U Classic Rocket Launcher"
+  description: "UT2 Rocket Launcher modified with different parts from the Old or/and\
+    \ advanced models to have ALT grenade launcher and 5 preloaded charges a great\
+    \ balance between the old confort and the new technology."
+- name: "Best Of U Flak Cannon"
+  description: "The Well know UT2 Flak Cannon modified with different parts from the\
+    \ Old or/and advanced models to have a great balance between the old confort and\
+    \ the new technology."
+- name: "Best Of U Hammer"
+  description: "The first impact hammer modified with different parts from the advanced\
+    \ models to have a great balance between the old confort and the new technology."
+- name: "Best Of U Link Gun"
+  description: "The Well know UT2003 LinkGun modified with different parts from the\
+    \ Old or/and advanced models to have a great balance between the old confort and\
+    \ the new technology."
+- name: "Best Of U Minigun"
+  description: "The Well know UT2 Minigun modified with different parts from the Old\
+    \ or/and advanced models to have a great balance between the old confort and the\
+    \ new technology."
+- name: "Best Of U Rocket Launcher"
+  description: "The Well know UT2 Rocket Launcher modified with different parts from\
+    \ the Old or/and advanced models to have a great balance between the old confort\
+    \ and the new technology."
+- name: "Best Of U Shock Rifle"
+  description: "The Well know UT2003 Shock Rifle modified with different parts from\
+    \ the Old or/and advanced models to have a great balance between the old confort\
+    \ and the new technology."
+- name: "Best Of U Crazy Sniper Rifle"
+  description: "The Well know UT2004 Target Painter modified with different sniper\
+    \ rifles parts from the Old or/and advanced models to have a powerful nice looking\
+    \ sniper rifle. Of course because of the new sniper cannon the painter option\
+    \ is no longer available"
+- name: "Best Super Combo Shock Rifle"
+  description: "The Well know UT2003 Super Shock Rifle largely modified to do combo\
+    \ and Instashot."
+- name: "Best Of U Super Shock Rifle"
+  description: "The Well know UT2003 Shock Rifle modified with different parts from\
+    \ the Old or/and advanced models to have a great balance between the old confort\
+    \ and the new technology."
+- name: "Best Of U Translocator"
+  description: "The Well know UT2004 Translocator modified with different parts from\
+    \ the Old or/and advanced models to have a great balance between the old confort\
+    \ and the new technology."
+- name: "Best Of U Zoom Super Shock Rifle"
+  description: "The Well know UT2003 Zoom Shock Rifle modified with different parts\
+    \ from the Old or/and advanced models to have a great balance between the old\
+    \ confort and the new technology."
+- name: "Super ASMD"
+  description: "Super ASMD"
+- name: "CrotchShot Super Shock Rifle"
+  description: "UT2004 Zoom Shock Rifle with crotch shot messages."
+- name: "CrotchShot Zoom Super Shock Rifle"
+  description: "UT2004 Zoom Super Shock Rifle with crotch shot messages."
+- name: "InstaPWN Super Shock Rifle"
+  description: "UT2004 Super Shock Rifle modified to feel like the old tournament\
+    \ model."
+- name: "Unreal Championship Enhanced Super Shock Rifle"
+  description: "The Unreal Championship Super Shock Rifle now available in this new\
+    \ Galaxie System."
+- name: "UT3 Super Shock Rifle"
+  description: "UT3 Super Shock Rifle ported to UT2004."
+- name: "Nut Zoom Enhanced Super Shock Rifle"
+  description: "The Well know UT2004 Super Shock Rifle largely modified to rock the\
+    \ house."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
