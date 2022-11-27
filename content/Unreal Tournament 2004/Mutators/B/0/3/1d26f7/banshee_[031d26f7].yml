@@ -1,0 +1,64 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-27 19:10"
+variationOf: "3770e57689ca03fd38631152410c5ce12e825391"
+game: "Unreal Tournament 2004"
+name: "Banshee"
+author: "Unknown"
+description: "Replaces the raptor with the Banshee from Halo"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "banshee_final.zip"
+hash: "031d26f75dc01f98894ab40f40518549b45776b1"
+fileSize: 2493737
+files:
+- name: "Banshee.ukx"
+  fileSize: 188868
+  hash: "1e06afd49d6aa5dd26e1467bee86eac2e53969e9"
+- name: "BansheeSounds.uax"
+  fileSize: 165731
+  hash: "e7014450c1cbb6630b868607227dbdda57a8a8cc"
+- name: "HaloBanshee.u"
+  fileSize: 42913
+  hash: "933ba61895d30c1fef3c1f40da065151eb5ded7d"
+- name: "BansheeTextures.utx"
+  fileSize: 4601099
+  hash: "86f6c57b3542306a095f066d6b3a17ac3148bdf6"
+- name: "BansheeMeshes.usx"
+  fileSize: 502046
+  hash: "51981c31ad96d06545d73608a62af5278df5ebf1"
+otherFiles: 1
+dependencies:
+  BansheeMeshes.usx:
+  - status: "OK"
+    name: "BansheeTextures"
+  Banshee.ukx:
+  - status: "OK"
+    name: "BansheeTextures"
+  - status: "OK"
+    name: "BansheeMeshes"
+  HaloBanshee.u:
+  - status: "OK"
+    name: "BansheeSounds"
+  - status: "OK"
+    name: "Banshee"
+  - status: "OK"
+    name: "BansheeMeshes"
+  - status: "OK"
+    name: "BansheeTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/0/3/1d26f7/banshee_final.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Banshee"
+  description: "Replaces the raptor with the Banshee from Halo"
+weapons: []
+vehicles:
+- name: "Banshee"
+  description: "Banshee"
+hasConfigMenu: false
+hasKeybinds: false

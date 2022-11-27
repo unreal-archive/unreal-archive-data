@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-27 19:10"
+game: "Unreal Tournament 2004"
+name: "FlakRat Replaces Scorpion"
+author: "Unknown"
+description: "Replaces the Scorpion with the FlakRat"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "Flack_Rat.zip"
+hash: "7d57cfb2409eb4a8fd24df7ccd09af25f3b6f81d"
+fileSize: 1515536
+files:
+- name: "ONSFlakRatDead.usx"
+  fileSize: 525918
+  hash: "f0a51f16168b9de8c1c75eef13ed28420fd14e89"
+- name: "FlakRatB002.u"
+  fileSize: 75736
+  hash: "653ff09e683ab0e96f213527c5d8776022026462"
+- name: "ONSFlakRat.ukx"
+  fileSize: 551901
+  hash: "9dbaa26eb85612b05ce5d3a4d7a909a73eeab1c4"
+- name: "FlakRatTex.utx"
+  fileSize: 3846523
+  hash: "2ff877c66f95c4a21a109df4e3bfb6050f529316"
+otherFiles: 2
+dependencies:
+  ONSFlakRatDead.usx:
+  - status: "OK"
+    name: "FlakRatTex"
+  ONSFlakRat.ukx:
+  - status: "OK"
+    name: "FlakRatTex"
+  FlakRatB002.u:
+  - status: "OK"
+    name: "FlakRatTex"
+  - status: "OK"
+    name: "ONSFlakRatDead"
+  - status: "OK"
+    name: "ONSFlakRat"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/7/d/57cfb2/Flack_Rat.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "FlakRat Replaces Scorpion"
+  description: "Replaces the Scorpion with the FlakRat"
+weapons: []
+vehicles:
+- name: "FlakRat"
+  description: "FlakRat"
+hasConfigMenu: false
+hasKeybinds: false
