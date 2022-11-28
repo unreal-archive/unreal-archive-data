@@ -1,0 +1,84 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 01:45"
+game: "Unreal Tournament 2004"
+name: "Land Raider Helios"
+author: "SGO Gobi"
+description: "Replace the Goliath with the Land Raider Helios from the Warhammer 40000\
+  \ universe.||The Helios is a large fire support tank, harnessing the awesome power\
+  \ of two twin-linked Lascannon sponsons and a devastating Whirlwind missile launcher.||Notes:|1\
+  \ - To enter, walk into the cargo hold and press Use.|2 - The Whirlwind Missile\
+  \ Launcher cannot be fired while the Helios is on the move.|3 - Use Jump and Crouch\
+  \ to increase and decrease the Whirlwind's range.|4 - The lascannon sponsons are\
+  \ operated by the Helios fire control systems, but can be manually overridden."
+releaseDate: "2011-12"
+attachments: []
+originalFilename: "Land_Raider_Helios_beta06.zip"
+hash: "e1efcabde5261ca386dd53c9e59479dc7cdbd642"
+fileSize: 8415264
+files:
+- name: "ONSMAT_T.utx"
+  fileSize: 21106186
+  hash: "40f69aaa5fb2db2c6bac9e871fb70a5cd2535b33"
+- name: "ONSMAT_A.ukx"
+  fileSize: 2093928
+  hash: "62c144897d7ac3095c8af9ec6aac275ab2498cb0"
+- name: "ONSMAT.u"
+  fileSize: 152041
+  hash: "4e046f73c5b1745e7409f3e1ec88c2aed4d0a036"
+- name: "ONSMAT_S.uax"
+  fileSize: 1575358
+  hash: "caf248946a4530da3babf7bfea673b0a72461fcc"
+- name: "ONSMAT_SM.usx"
+  fileSize: 3176502
+  hash: "1a3ff2b02799c1a257d68b594dd6fb1c7212064b"
+otherFiles: 2
+dependencies:
+  ONSMAT.u:
+  - status: "OK"
+    name: "ONSMAT_A"
+  - status: "OK"
+    name: "ONSMAT_T"
+  - status: "OK"
+    name: "ONSMAT_S"
+  - status: "OK"
+    name: "ONSMAT_SM"
+  ONSMAT_A.ukx:
+  - status: "OK"
+    name: "ONSMAT_T"
+  ONSMAT_SM.usx:
+  - status: "OK"
+    name: "ONSMAT_T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/L/e/1/efcabd/Land_Raider_Helios_beta06.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Land Raider Helios"
+  description: "Replace the Goliath with the Land Raider Helios from the Warhammer\
+    \ 40000 universe.||The Helios is a large fire support tank, harnessing the awesome\
+    \ power of two twin-linked Lascannon sponsons and a devastating Whirlwind missile\
+    \ launcher.||Notes:|1 - To enter, walk into the cargo hold and press Use.|2 -\
+    \ The Whirlwind Missile Launcher cannot be fired while the Helios is on the move.|3\
+    \ - Use Jump and Crouch to increase and decrease the Whirlwind's range.|4 - The\
+    \ lascannon sponsons are operated by the Helios fire control systems, but can\
+    \ be manually overridden."
+weapons: []
+vehicles:
+- name: "Land Raider Helios"
+  description: "Land Raider Helios"
+- name: "Camera Turret"
+  description: "Camera Turret"
+- name: "Command Seat"
+  description: "Command Seat"
+- name: "Left Lascannon Sponson"
+  description: "Left Lascannon Sponson"
+- name: "Right Lascannon Sponson"
+  description: "Right Lascannon Sponson"
+- name: "Passenger Seat"
+  description: "Passenger Seat"
+hasConfigMenu: false
+hasKeybinds: false
