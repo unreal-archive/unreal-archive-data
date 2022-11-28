@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:52"
+game: "Unreal Tournament 3"
+name: "UTCompIIIv4 Beta2"
+author: "default"
+description: "None"
+releaseDate: "2009-04"
+attachments: []
+originalFilename: "UTCompIIIv4_beta2.zip"
+hash: "b36f0dbc9c90b9737b2ca1b8b1f4e39e5dc7f3e9"
+fileSize: 1744032
+files:
+- name: "utcomp3v4b2.u"
+  fileSize: 1333952
+  hash: "005d04f27a7c4b5d555f0843b5fdfd3c1fdb6952"
+- name: "utcomp3menusv4b2.upk"
+  fileSize: 3024640
+  hash: "ad2075132312c0ce244f4866253ab7a47a76073d"
+- name: "utcomp3Contentv4b2.upk"
+  fileSize: 2420046
+  hash: "e21d1928ad2017ad0f87ebfba900d98b692ba329"
+otherFiles: 4
+dependencies:
+  utcomp3v4b2.u:
+  - status: "OK"
+    name: "utcomp3menusv4b2"
+  - status: "OK"
+    name: "utcomp3Contentv4b2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/b/3/6f0dbc/UTCompIIIv4_beta2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UTCompIII v4 beta2"
+  description: "A mutator adding extra customization options, press f5 to configure\
+    \ in-game."
+- name: "utcomp ping compensation"
+  description: "utcomp ping compensation"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

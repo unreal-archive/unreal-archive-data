@@ -1,0 +1,64 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:52"
+game: "Unreal Tournament 3"
+name: "ExionFX"
+author: "Unknown"
+description: "ExionFX: Modified weapons and vehicles, sounds and effects."
+releaseDate: "2009-04"
+attachments: []
+originalFilename: "exionfx.zip"
+hash: "a8bb0cf875745698ac970f7c29914296182f7136"
+fileSize: 8186298
+files:
+- name: "ExionFX.u"
+  fileSize: 653431
+  hash: "d05be6c7bcb2d81cc267f53bc34792e49cfdbb48"
+- name: "ExionFXContent.upk"
+  fileSize: 11918776
+  hash: "0a503102654a347803ab06b794e3b2312b2abe95"
+otherFiles: 2
+dependencies:
+  ExionFX.u:
+  - status: "OK"
+    name: "ExionFXContent"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/E/a/8/bb0cf8/exionfx.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "ExionFX"
+  description: "ExionFX: Modified weapons and vehicles, sounds and effects."
+weapons:
+- name: "Exion type Enforcer"
+  description: "Exion type Enforcer"
+- name: "Exion type Sniper Rifle"
+  description: "Exion type Sniper Rifle"
+- name: "Exion type Link Gun"
+  description: "Exion type Link Gun"
+- name: "Exion type Rocket Launcher"
+  description: "Exion type Rocket Launcher"
+- name: "Exion type Stinger Minigun"
+  description: "Exion type Stinger Minigun"
+- name: "Exion type Avril"
+  description: "Exion type Avril"
+vehicles:
+- name: "Exion type Manta"
+  description: "Exion type Manta"
+- name: "Exion type Raptor"
+  description: "Exion type Raptor"
+- name: "Exion type Goliath"
+  description: "Exion type Goliath"
+- name: "Exion type HellBender"
+  description: "Exion type HellBender"
+- name: "Exion type Scorpion"
+  description: "Exion type Scorpion"
+- name: "Exion type SPMA"
+  description: "Exion type SPMA"
+- name: "Exion type Cicada"
+  description: "Exion type Cicada"
+hasConfigMenu: false
+hasKeybinds: false
