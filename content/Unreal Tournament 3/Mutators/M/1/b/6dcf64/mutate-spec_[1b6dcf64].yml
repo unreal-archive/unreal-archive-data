@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "Mutate Spec"
+author: "RattleSN4K3"
+description: "Lets you switch from an active player back to spectator-mode"
+releaseDate: "2012-11"
+attachments: []
+originalFilename: "MutateSpec_v0.2.zip"
+hash: "1b6dcf64b2278efffd07dd5a07d5173b1e8d1a75"
+fileSize: 62117
+files:
+- name: "MutateSpec.u"
+  fileSize: 273190
+  hash: "92f3f274580b53b5df589ed0bb7af4110495bddc"
+- name: "MutateSpecWebAdmin.u"
+  fileSize: 38543
+  hash: "b0300ba5c4c201bdb1bf1ff090e8aa01d7788803"
+otherFiles: 2
+dependencies:
+  MutateSpecWebAdmin.u:
+  - status: "MISSING"
+    name: "WebAdmin"
+  - status: "OK"
+    name: "MutateSpec"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/M/1/b/6dcf64/MutateSpec_v0.2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mutate Spec"
+  description: "Lets you switch from an active player back to spectator-mode"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

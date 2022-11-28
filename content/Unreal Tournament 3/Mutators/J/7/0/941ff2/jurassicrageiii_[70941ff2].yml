@@ -1,0 +1,66 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "JurassicRageIII"
+author: "previous release"
+description: "None"
+releaseDate: "2008-10"
+attachments: []
+originalFilename: "JurassicRageIII.zip"
+hash: "70941ff2ed5163c017d2ff7651efff7c91fe4cb8"
+fileSize: 3767937
+files:
+- name: "JR_RexData.upk"
+  fileSize: 1149527
+  hash: "45707e48d2ca2b043609074ef37daf9fc47c9dba"
+- name: "JR_Rex.upk"
+  fileSize: 682929
+  hash: "7ca10720e7770dbf337b6b043c28460b2c9da51b"
+- name: "JR_Raptor.upk"
+  fileSize: 1058599
+  hash: "5d3b9c177d4744f1e65cbeaee2a0a1e3fa0ccd25"
+- name: "JR_RaptorSounds.upk"
+  fileSize: 373279
+  hash: "15261c6b90e9cf81ab4316b176fb7becf08c288e"
+- name: "JR.u"
+  fileSize: 218593
+  hash: "31135851dc355b8dfbf144a93e42bcb31855e507"
+- name: "JR_RexSounds.upk"
+  fileSize: 287426
+  hash: "66e8d17d8ad3ce34e88e729a4c568a50e402f093"
+- name: "JR_UI.upk"
+  fileSize: 221062
+  hash: "423ee655eb530494a9558975ffe4f439a090fe42"
+- name: "JR_RaptorData.upk"
+  fileSize: 1328061
+  hash: "973e56e6288fa5297ebbe503df0722ebae5eb3bb"
+otherFiles: 2
+dependencies:
+  JR.u:
+  - status: "OK"
+    name: "JR_RaptorSounds"
+  - status: "OK"
+    name: "JR_Rex"
+  - status: "OK"
+    name: "JR_Raptor"
+  - status: "OK"
+    name: "JR_RexSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/J/7/0/941ff2/JurassicRageIII.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Jurassic Rage: Velociraptors"
+  description: "Respawner malfunction is bringing velociraptors to the battlefield.\
+    \ They're all around us. Stay sharp."
+- name: "Jurassic Rage: T-Rex"
+  description: "Respawner malfunction is getting worse. Bigger and nastier creatures\
+    \ are being created."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "Mutator_GeigerArena"
+author: "Unknown"
+description: "Replaces all Weapons with the GeigerCannon."
+releaseDate: "2011-09"
+attachments: []
+originalFilename: "GeigerCannonV2.zip"
+hash: "b15e07cea20330430e96f91f0cd210e58e31acb9"
+fileSize: 521408
+files:
+- name: "GeigerCannon.u"
+  fileSize: 88388
+  hash: "e8663d73bff2b368b6e28a2b611ee023521d20be"
+- name: "WP_GeigerCannon.upk"
+  fileSize: 1472456
+  hash: "71d66dcdb10d25ebaaf2514baf17e4c6703b0b8c"
+otherFiles: 2
+dependencies:
+  GeigerCannon.u:
+  - status: "OK"
+    name: "WP_GeigerCannon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/M/b/1/5e07ce/GeigerCannonV2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mutator_GeigerArena"
+  description: "Replaces all Weapons with the GeigerCannon."
+weapons:
+- name: "UTWeap_GeigerCannon"
+  description: ""
+- name: "UTWeap_GeigerCannon_CovSkin"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

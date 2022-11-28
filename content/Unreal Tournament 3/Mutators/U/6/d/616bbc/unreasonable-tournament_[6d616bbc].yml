@@ -1,0 +1,85 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "Unreasonable Tournament"
+author: "Unknown"
+description: "Replaces all weapons with their Unreasonable equivalents, as well as\
+  \ enabling modified health, jump, dodge, and hoverboard."
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "URST 1.0.zip"
+hash: "6d616bbcc4a5616143558fca19f2b5036e084e05"
+fileSize: 2197482
+files:
+- name: "WP_BlobLobber.upk"
+  fileSize: 61700
+  hash: "0c0301dbbd160ab0e5f4ef90b0acc5ed5af0758f"
+- name: "WP_LeechGun.upk"
+  fileSize: 40491
+  hash: "0304338624a987e33c99069fefd9b0172fd0aa6d"
+- name: "WP_FlashCannon.upk"
+  fileSize: 99509
+  hash: "59a6335adf4097d872b953eb2377f64c9f11fa42"
+- name: "WP_PsychoRifle.upk"
+  fileSize: 155019
+  hash: "2cccc2724f3bc9a65911c6c42d30e0b8969c6963"
+- name: "Unreasonable.u"
+  fileSize: 302735
+  hash: "4887ad86079678404688ad06012adc808451112f"
+- name: "WP_HuntingSpheres.upk"
+  fileSize: 3028601
+  hash: "ba0314c1172befc0b442f05f59e1c53d8bdc16ba"
+- name: "WP_CueBall.upk"
+  fileSize: 58616
+  hash: "55211f58d8841ea2ca0ab7714bf36a6cafdfac65"
+otherFiles: 3
+dependencies:
+  Unreasonable.u:
+  - status: "OK"
+    name: "WP_BlobLobber"
+  - status: "OK"
+    name: "WP_LeechGun"
+  - status: "OK"
+    name: "WP_PsychoRifle"
+  - status: "OK"
+    name: "WP_CueBall"
+  - status: "OK"
+    name: "WP_FlashCannon"
+  - status: "OK"
+    name: "WP_HuntingSpheres"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/6/d/616bbc/URST%201.0.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Unreasonable Tournament"
+  description: "Replaces all weapons with their Unreasonable equivalents, as well\
+    \ as enabling modified health, jump, dodge, and hoverboard."
+weapons:
+- name: "Anansi"
+  description: ""
+- name: "Cue Ball"
+  description: ""
+- name: "Hunting Spheres"
+  description: ""
+- name: "Flash Cannon"
+  description: ""
+- name: "Psycho Rifle"
+  description: ""
+- name: "Leech Gun"
+  description: ""
+- name: "Ranger"
+  description: ""
+- name: "Scorchers"
+  description: ""
+- name: "Bhairava"
+  description: ""
+- name: "Blob Lobber"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

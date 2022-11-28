@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "RealWeapons replacer"
+author: "Unknown"
+description: ""
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "realweapons-v3.0.rar"
+hash: "a7554d9f7df0120d0f9ed9b31f1c6d5deb7f4738"
+fileSize: 8747961
+files:
+- name: "realweaponsmod.u"
+  fileSize: 304660
+  hash: "82cabafe7ff155185833c1bcee7aaf112e7e7e5b"
+- name: "RealWeapons.upk"
+  fileSize: 20066820
+  hash: "eda04f74a9e56f7df64262dbd14e53cbb2357736"
+otherFiles: 2
+dependencies:
+  realweaponsmod.u:
+  - status: "OK"
+    name: "realweapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/R/a/7/554d9f/realweapons-v3.0.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "RealWeapons replacer"
+  description: ""
+weapons:
+- name: "AK47weapon"
+  description: ""
+- name: "realweaponsClass"
+  description: ""
+- name: "chainSawWeaponOne"
+  description: ""
+- name: "MP5kweapon"
+  description: ""
+- name: "realweaponsMeleeClass"
+  description: ""
+- name: "spas12weapon"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-28 02:36"
+game: "Unreal Tournament 3"
+name: "DM-LoTrapTest"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "lotrap.zip"
+hash: "d8af27885d010e841427ed83ef2ee2470b59c650"
+fileSize: 1891512
+files:
+- name: "PP_LoTrap.upk"
+  fileSize: 2009
+  hash: "0c29296ef17dc6076bb0034cf519ed62c0b0c1dc"
+- name: "WP_LoTrap.upk"
+  fileSize: 3402129
+  hash: "481931df53a479b5a80737bd168c587900d81078"
+- name: "LoTrap_Temp.upk"
+  fileSize: 8203
+  hash: "9abf9e3ce0ed69d2d44aa973c7d9d804bedc4761"
+- name: "DM-LoTrapTest.ut3"
+  fileSize: 130721
+  hash: "442f4032972010d1c79637dbfbfeb67ceaf0b225"
+- name: "LoTrap.u"
+  fileSize: 55519
+  hash: "1da5de6210cf310a9391534e28a26641a82eca96"
+otherFiles: 5
+dependencies:
+  DM-LoTrapTest.ut3:
+  - status: "OK"
+    name: "WP_LoTrap"
+  - status: "OK"
+    name: "LoTrap"
+  - status: "MISSING"
+    name: "GP_RaceGame"
+  LoTrap.u:
+  - status: "OK"
+    name: "WP_LoTrap"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/L/d/8/af2788/lotrap.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-LoTrapTest"
+playerCount: "alike"
+themes: {}
+bots: true
