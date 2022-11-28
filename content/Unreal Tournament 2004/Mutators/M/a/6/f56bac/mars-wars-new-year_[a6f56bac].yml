@@ -1,0 +1,74 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-11-28 02:00"
+game: "Unreal Tournament 2004"
+name: "Mars Wars New Year"
+author: "Unknown"
+description: "Happy New Year!!!"
+releaseDate: "2009-12"
+attachments: []
+originalFilename: "MW3_NewYearMutator.zip"
+hash: "a6f56bac2ab6499227130bd024f55fbc967b4278"
+fileSize: 427682
+files:
+- name: "RFNewYearSnd.uax"
+  fileSize: 440260
+  hash: "7d5c0f7c698cf215b8685bbab73f7b9c00e6a841"
+- name: "RFNewYear.u"
+  fileSize: 126316
+  hash: "0db2ffc79dcaef83910bc23dfb781803afb06ae6"
+otherFiles: 2
+dependencies:
+  RFNewYear.u:
+  - status: "MISSING"
+    name: "RFWeapons"
+  - status: "MISSING"
+    name: "RFmodStaticMesh"
+  - status: "MISSING"
+    name: "RFEffects"
+  - status: "OK"
+    name: "RFNewYearSnd"
+  - status: "MISSING"
+    name: "RFrealHUDTextures"
+  - status: "MISSING"
+    name: "RFmodTextures"
+  - status: "MISSING"
+    name: "RFWeaponSounds"
+  - status: "MISSING"
+    name: "RFSystem"
+  - status: "MISSING"
+    name: "RFWeaponTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/a/6/f56bac/MW3_NewYearMutator.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mars Wars New Year"
+  description: "Happy New Year!!!"
+weapons:
+- name: "Assault Rifle"
+  description: "UAR-42 Ultor Military Assault Rifle|This weapon is designed to offer\
+    \ all the benefits of a full-length rifle in a compact design. It is capable of\
+    \ firing three-round bursts or full automatic fire. Compared to fully automatic\
+    \ fire, three-round bursts offer increased control and aim but potentially decreased\
+    \ force, unless fired at close range. The high-velocity armor-piercing shells\
+    \ inflict massive damage on unarmed targets and will penetrate body armor easily.\
+    \ This is the standard rifle issued to Ultor soldiers."
+- name: "Remote Charge"
+  description: "URC-15 Ultor Remote Mining Charge|This is a medium-sized, high-explosive\
+    \ remotely detonated charge. They are effective against unarmored and armored\
+    \ personnel as well as light vehicles."
+- name: "Rocket Launcher"
+  description: "URL-6T Ultor Tactical Rocket Launcher|Primary Fire: Fires 'dumb' rockets,\
+    \ automatically fires a rocket every 1,80 seconds."
+- name: "NewYear Machine Gun"
+  description: "UAP-32/20 Ultor Submachine Gun|This weapon is slightly larger than\
+    \ the handgun and is capable of full automatic fire. Heavier than the handgun,\
+    \ the machine pistol offers better control in full auto mode, though it remains\
+    \ inaccurate at medium or long range."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
