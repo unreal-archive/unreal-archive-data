@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-29 05:31"
+variationOf: "d079c047043d7800b50ad552ac167da64f0a27b3"
+game: "Unreal Tournament 2004"
+name: "DM-HMStormWitch"
+author: "AngelHeart"
+description: "The Stormwitch and the North Light"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "dm-hmstormwitch.rar"
+hash: "caee675c15a30ee024123a6babd81bbd465cb491"
+fileSize: 17081636
+files:
+- name: "Stormsnds.uax"
+  fileSize: 2543110
+  hash: "f9a68ee426d78f414d76c00649f292f2adc4af1e"
+- name: "Stormesh.usx"
+  fileSize: 4219489
+  hash: "ca93e1a5d125dea0312c64e9c6a788af325a9f39"
+- name: "DM-HMStormWitch.ut2"
+  fileSize: 8077393
+  hash: "83d064736efca39196fdc2ad1d06798cc748996c"
+- name: "Stormtex.utx"
+  fileSize: 28278111
+  hash: "98a01c4bbb5dfa94bb858ac8b089d1963e84f3d0"
+otherFiles: 1
+dependencies:
+  Stormesh.usx:
+  - status: "OK"
+    name: "Stormtex"
+  DM-HMStormWitch.ut2:
+  - status: "OK"
+    name: "Stormtex"
+  - status: "OK"
+    name: "Stormesh"
+  - status: "OK"
+    name: "Stormsnds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/H/c/a/ee675c/dm-hmstormwitch.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-HMSstormwitch"
+playerCount: "Unknown"
+themes:
+  Natural: 0.4
+  Industrial: 0.6
+bots: true
