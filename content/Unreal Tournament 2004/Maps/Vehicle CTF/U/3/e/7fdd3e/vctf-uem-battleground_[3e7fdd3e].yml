@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-11-30 17:25"
+game: "Unreal Tournament 2004"
+name: "VCTF-{UEM}-Battleground"
+author: "UEM"
+description: "In the centre of the Death Zone, a new battleground has been found,\
+  \ a place of mother nature's beauty and pure destruction. This place is a valley,\
+  \ surrounded by hot and dead deserts. You can die on the valley's ground or you\
+  \ dry out on the desert's ground. It's up to you !"
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "vctf-uem-battleground_shot_3e7fdd3e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/3/e/7fdd3e/vctf-uem-battleground_shot_3e7fdd3e_1.png"
+- type: "IMAGE"
+  name: "vctf-uem-battleground_shot_3e7fdd3e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/3/e/7fdd3e/vctf-uem-battleground_shot_3e7fdd3e_2.png"
+- type: "IMAGE"
+  name: "vctf-uem-battleground_shot_3e7fdd3e_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/3/e/7fdd3e/vctf-uem-battleground_shot_3e7fdd3e_4.png"
+- type: "IMAGE"
+  name: "vctf-uem-battleground_shot_3e7fdd3e_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/3/e/7fdd3e/vctf-uem-battleground_shot_3e7fdd3e_3.png"
+originalFilename: "VCTF-UEM-Battleground.7z"
+hash: "3e7fdd3e828489701435d1fa7f154a923c3c1f8f"
+fileSize: 29353602
+files:
+- name: "uNr3ALITY-Surfacing.ogg"
+  fileSize: 2917123
+  hash: "848ac75bc1a14a4c20a8d74ad77e91b1f438fb94"
+- name: "VCTFBattlegroundTexes.utx"
+  fileSize: 10449422
+  hash: "6ef806a167c0bff0e1a3f1255e256ed4ff37ef37"
+- name: "VCTFBattlegroundSM.usx"
+  fileSize: 11330520
+  hash: "0d68d93220c84a0cb2017df99c2d839a65ff590d"
+- name: "VCTF-{UEM}-Battleground.ut2"
+  fileSize: 18371371
+  hash: "a52e857d7987a5e7e0ca6f5279033b61402efaf5"
+otherFiles: 5
+dependencies:
+  VCTF-{UEM}-Battleground.ut2:
+  - status: "OK"
+    name: "VCTFBattlegroundTexes"
+  - status: "OK"
+    name: "VCTFBattlegroundSM"
+  VCTFBattlegroundSM.usx:
+  - status: "OK"
+    name: "VCTFBattlegroundTexes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/U/3/e/7fdd3e/VCTF-UEM-Battleground.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "Battleground"
+playerCount: "12-20"
+themes:
+  Natural: 1.0
+bots: true
