@@ -1,0 +1,104 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-01 00:08"
+game: "Unreal Tournament 2004"
+name: "Sniper Weapons Pack"
+author: "MrBee\""
+description: "None"
+releaseDate: "2008-10"
+attachments:
+- type: "IMAGE"
+  name: "sniper-weapons-pack_shot_a542da43_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/a/5/42da43/sniper-weapons-pack_shot_a542da43_3.png"
+- type: "IMAGE"
+  name: "sniper-weapons-pack_shot_a542da43_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/a/5/42da43/sniper-weapons-pack_shot_a542da43_1.png"
+- type: "IMAGE"
+  name: "sniper-weapons-pack_shot_a542da43_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/a/5/42da43/sniper-weapons-pack_shot_a542da43_2.png"
+originalFilename: "Sniper_Weapons_Pack.7z"
+hash: "a542da434e8d56b9d3d200b68a0a6a12314cf84f"
+fileSize: 8504565
+files:
+- name: "IK_Shad.utx"
+  fileSize: 6689832
+  hash: "9a817cc8cd0025a0a5b09b9722bd7707d57898ca"
+- name: "IK_LeviathanANI_v1c.ukx"
+  fileSize: 740116
+  hash: "8325d62e0182bc7118ef4f54a7433618ea5b8ad8"
+- name: "IK_Stealth_V1.u"
+  fileSize: 10176124
+  hash: "477c76a8064745dd72c6bd1d0046b6550f936ef3"
+- name: "IK_Leviathan_V1c.u"
+  fileSize: 3941667
+  hash: "82d12266b9d86e3ad590618b2a72d7905fab13d4"
+- name: "Sig66Bv1.ukx"
+  fileSize: 1956368
+  hash: "ced063be8946b5b8330ec68b4e54914dbed2bd72"
+- name: "staticSig66.usx"
+  fileSize: 1102759
+  hash: "389b10076553b18d27bad4b27b52eed03a2ce030"
+- name: "IK_LeviathanSM_V1c.usx"
+  fileSize: 559689
+  hash: "80dd9cc47068bb10d085f95b1c6471af4cf1ad48"
+- name: "IK_SIG66_LR.u"
+  fileSize: 13743664
+  hash: "afa6836aece398c79633a3cacd16b708fe421e93"
+otherFiles: 13
+dependencies:
+  IK_LeviathanSM_V1c.usx:
+  - status: "OK"
+    name: "IK_Leviathan_V1c"
+  IK_LeviathanANI_v1c.ukx:
+  - status: "OK"
+    name: "IK_Leviathan_V1c"
+  IK_Leviathan_V1c.u:
+  - status: "OK"
+    name: "IK_LeviathanANI_V1c"
+  - status: "OK"
+    name: "IK_LeviathanSM_V1c"
+  IK_SIG66_LR.u:
+  - status: "OK"
+    name: "Sig66Bv1"
+  - status: "OK"
+    name: "IK_Shad"
+  - status: "OK"
+    name: "staticSig66"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/a/5/42da43/Sniper_Weapons_Pack.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "{IK}SIG66 LR"
+  description: "{IK}SIG66 LR: Powerful assault/sniper rifle that shoots high velocity\
+    \ armor piercing Killer bullets.  Equipped with a silencer, 20x (DTS)- Digital\
+    \ Targeting Scope and the new lazer B6-Radar System Range Detector with LCD Screen.||**IK-LAB\
+    \ PRODUCTION** ||By MrBee"
+- name: "{IK}Stealth V1"
+  description: "{IK}Stealth V1: Powerful sniper/assault rifle that shoots high velocity\
+    \ armor piercing bullets.  Equipped with silencer, 18x (DTS)- Digital Targeting\
+    \ Scope, and (LRSA)- Long Range Sensor Array.||by çyßêrhåwk of IK Labs"
+- name: "{IK}Leviathan V1c"
+  description: "{IK}Leviathan V1c: Powerful assault/sniper rifle that shoots high\
+    \ velocity armor piercing bullets.  Equipped with an 18x (DTS)- Digital Targeting\
+    \ Scope and (LRSA)- Long Range Sensor Array.||by çyßêrhåwk"
+weapons:
+- name: "{IK}SIG66 LR"
+  description: "{IK}SIG66 LR: Powerful assault/sniper rifle that shoots high velocity\
+    \ armor piercing Killer bullets.  Equipped with a silencer, 20x (DTS)- Digital\
+    \ Targeting Scope, and a lazer B6-Radar System Range Detect Sensor Screen.**IK-LAB\
+    \ GUN PRODUCTION**||By MrBee®"
+- name: "{IK}Stealth V1"
+  description: "{IK}Stealth V1: Powerful sniper/assault rifle that shoots high velocity\
+    \ armor piercing bullets.  Equipped with silencer, 18x (DTS)- Digital Targeting\
+    \ Scope, and (LRSA)- Long Range Sensor Array.||by çyßêrhåwk of IK Labs"
+- name: "{IK}Leviathan V1c"
+  description: "{IK}Leviathan V1c: Powerful assault/sniper rifle that shoots high\
+    \ velocity armor piercing bullets.  Equipped with an 18x (DTS)- Digital Targeting\
+    \ Scope and (LRSA)- Long Range Sensor Array.||by çyßêrhåwk"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
