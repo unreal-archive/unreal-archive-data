@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-01 18:01"
+game: "Unreal Tournament"
+name: "MH-TowerOfDeath1-R02"
+author: "Dragon Zolee"
+description: "Tower of Death Part-1 Remake"
+releaseDate: "2022-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-towerofdeath1-r02_shot_65a33a47_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/T/6/5/a33a47/mh-towerofdeath1-r02_shot_65a33a47_1.png"
+originalFilename: "MH-Tower of Death 1 - R02.zip"
+hash: "65a33a47433a80750c0a1d9edbbc1ea02dcae2b0"
+fileSize: 7812847
+files:
+- name: "Dragon01.utx"
+  fileSize: 5527957
+  hash: "d36237d4505c3225dc98b950520fb7efb6165c2c"
+- name: "TodTreeWay.umx"
+  fileSize: 219043
+  hash: "14c10fe3e962a79e47e465aa36dbac12609e8d14"
+- name: "TodMain.umx"
+  fileSize: 284628
+  hash: "59042a1f7eca1ffbc69b36bb1727b01900350996"
+- name: "TodDevilfish.umx"
+  fileSize: 152789
+  hash: "a68167b8da66ec39ad322d52b07cceb73aee4d45"
+- name: "DragonDecoEgypt.u"
+  fileSize: 1509958
+  hash: "b720e2ddb023ef35fc44c575308c0e82a5db1199"
+- name: "TodKrall.umx"
+  fileSize: 91881
+  hash: "7c895640e6a13ce371c7c6352eb0d541fa4330a3"
+- name: "TodEnd.umx"
+  fileSize: 1062401
+  hash: "12490f41479dfbc771acfbbaaaf6a483c2bcfb8f"
+- name: "TodJump.umx"
+  fileSize: 483764
+  hash: "54414d916b0e94e88739a399da7d42e8cb54fb66"
+- name: "MH-TowerOfDeath1-R02.unr"
+  fileSize: 6522122
+  hash: "752a771545a073ea92979f3bc02981244ee43b42"
+otherFiles: 0
+dependencies:
+  MH-TowerOfDeath1-R02.unr:
+  - status: "OK"
+    name: "TodKrall"
+  - status: "OK"
+    name: "TodTreeWay"
+  - status: "OK"
+    name: "Dragon01"
+  - status: "OK"
+    name: "TodEnd"
+  - status: "OK"
+    name: "TodMain"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "TodJump"
+  - status: "OK"
+    name: "TodDevilfish"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/T/6/5/a33a47/MH-Tower%20of%20Death%201%20-%20R02.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Tower of Death - Escape (Remake)"
+playerCount: "6-10"
+themes:
+  Nali Temple: 0.1
+  City: 0.1
+  Egyptian: 0.8
+bots: true
