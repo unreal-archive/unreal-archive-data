@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-02 03:54"
+game: "Unreal Tournament 2004"
+name: "DM-Q3DM7"
+author: "Jsh"
+description: "A map remake of Id Software's Q3DM7, also know as Temple of Retribution.\
+  \ - Still one of the best maps ever been built."
+releaseDate: "2011-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-q3dm7_shot_4550a209_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/Q/4/5/50a209/dm-q3dm7_shot_4550a209_1.png"
+originalFilename: "DM-Q3DM7.zip"
+hash: "4550a20988b52d67c5dd3775a0d252cb81971528"
+fileSize: 7635547
+files:
+- name: "DM-Q3DM7.ut2"
+  fileSize: 7853336
+  hash: "1dd90401beff9f6358e75e55fb1b56217f0f5f11"
+- name: "Nostalgia1.usx"
+  fileSize: 2095782
+  hash: "f94df66556e8103c37cf8aa371bcaaf83353ee8e"
+- name: "Nostalgia1tex.utx"
+  fileSize: 3457138
+  hash: "1bcde66692e361fd57c9c34eb3aa943dfe5faee7"
+- name: "GI_grey.utx"
+  fileSize: 8741262
+  hash: "22b29f063e92129b533074e8abb3262a280871d8"
+otherFiles: 1
+dependencies:
+  Nostalgia1.usx:
+  - status: "OK"
+    name: "Nostalgia1tex"
+  DM-Q3DM7.ut2:
+  - status: "OK"
+    name: "GI_grey"
+  - status: "OK"
+    name: "Nostalgia1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/Q/4/5/50a209/DM-Q3DM7.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Temple of Retribution"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true
