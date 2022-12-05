@@ -1,0 +1,54 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-12-05 11:13"
+game: "Unreal Tournament 2004"
+name: "Metroid"
+author: "-Turret 49"
+description: "None"
+releaseDate: "2007-06"
+attachments:
+- type: "IMAGE"
+  name: "metroid_shot_9bea8f44_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/M/9/b/ea8f44/metroid_shot_9bea8f44_1.png"
+originalFilename: "metroidlarva_ut.zip"
+hash: "9bea8f44813ae5d78ba3e06f15c58ca6dad350e9"
+fileSize: 582250
+files:
+- name: "MetroidTex.utx"
+  fileSize: 1028084
+  hash: "bba76b41fe4f58ad983b8963a453fd8856f852b3"
+- name: "MetroidSpecies.u"
+  fileSize: 149343
+  hash: "e5429b64d3e54ac2d3aed21bd9e461dc6ca7d813"
+- name: "MetroidAnim.ukx"
+  fileSize: 275967
+  hash: "95137924b0ab292dfa8489265675b624f938ec42"
+- name: "MetroidLarva.upl"
+  fileSize: 358
+  hash: "c063bcdf402771cc49ddc62826e6a1d8a8890aeb"
+- name: "MetroidLarva.u"
+  fileSize: 5630
+  hash: "5c2bd473fc3c337f6e2864e039940561b9f9b7b4"
+otherFiles: 3
+dependencies:
+  MetroidLarva.u:
+  - status: "OK"
+    name: "MetroidSpecies"
+  - status: "OK"
+    name: "MetroidTex"
+  - status: "OK"
+    name: "MetroidAnim"
+  MetroidAnim.ukx:
+  - status: "OK"
+    name: "MetroidTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/M/9/b/ea8f44/metroidlarva_ut.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Metroid"
+skins:
+- "Metroid"
