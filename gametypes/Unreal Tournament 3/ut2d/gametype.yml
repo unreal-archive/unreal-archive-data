@@ -1,0 +1,74 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2022-12-05"
+game: "Unreal Tournament 3"
+name: "UT2D"
+author: "Joe Bates"
+description: "UT2D for UT3 is a mod that turns Unreal Tournament into a 2D shooter"
+titleImage: "title.png"
+bannerImage: "banner.jpg"
+links:
+  ModDB: "https://www.moddb.com/mods/ut2d"
+credits:
+  Author:
+  - "Joe Bates"
+gameTypes:
+- name: "UT2D Deathmatch"
+  description: ""
+- name: "UT2D Team Deathmatch"
+  description: ""
+- name: "UT2D Capture The Flag"
+  description: ""
+- name: "UT2D Duel"
+  description: ""
+mutators:
+- name: "UT2D Instagib"
+  description: "Players are equipped with a one shot kill instagib rifle, and all\
+    \ pickups are removed from the game."
+maps:
+- name: "UT2D-Coret2D"
+  title: "UT2D-Coret2D"
+  author: "Joe Bates"
+releases:
+- title: "2.0 PC"
+  version: "2.0"
+  releaseDate: "2008-10-28"
+  description: ""
+  files:
+  - title: "Release"
+    localFile: "/home/shrimp/Downloads/UT2D-2.0-PC.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament%203/ut2d/UT2D-2.0-PC.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "https://www.moddb.com/mods/ut2d/downloads/ut2d-20-pc"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "UT2D-2.0-PC.zip"
+    hash: "f542052eb1aabc8592a732a58567184cf00e1a4b"
+    fileSize: 24905228
+    synced: true
+    deleted: false
+    files:
+    - name: "UT2DMutator_Instagib.u"
+      fileSize: 16592
+      hash: "61c302ef2de811ff3f13bc0957b334c8584bd87f"
+    - name: "UT2D.u"
+      fileSize: 272049
+      hash: "8d657a107b974fda36cd2219c982250891d6dcfe"
+    - name: "UT2D-Coret2D_LOC_int.upk"
+      fileSize: 1202395
+      hash: "65ce39d6a315547a213d7edc1aea8490e60595d8"
+    - name: "UT2D-Coret2D.ut3"
+      fileSize: 26503538
+      hash: "ae591b92f69207d10fa3c8bbeeebbd55b3e21287"
+    otherFiles: 3
+    dependencies:
+      UT2DMutator_Instagib.u:
+      - status: "OK"
+        name: "UT2D"
+  deleted: false
+deleted: false
