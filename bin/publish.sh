@@ -41,4 +41,4 @@ set -x
 
 # publish files via rsync
 echo "Publishing content"
-rsync -rzht --info=progress2 -e"ssh -i /tmp/deploy_key -o StrictHostKeychecking=no" ${WWW_LOCATION}/* ${PUB_USER}@${PUB_HOST}:${PUB_ROOT}
+rsync -rzht -e"ssh -i /tmp/deploy_key -o StrictHostKeychecking=no" ${WWW_LOCATION}/* ${PUB_USER}@${PUB_HOST}:${PUB_ROOT}
