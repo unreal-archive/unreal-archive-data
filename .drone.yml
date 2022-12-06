@@ -7,7 +7,7 @@ concurrency:
 
 steps:
   - name: verify
-    image: openjdk:11-jre
+    image: azul/zulu-openjdk-debian:17-latest
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
@@ -16,8 +16,9 @@ steps:
     when:
       event:
         - pull_request
+
   - name: publish
-    image: openjdk:11-jre
+    image: azul/zulu-openjdk-debian:17-latest
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
@@ -37,8 +38,9 @@ steps:
     when:
       ref:
         - refs/heads/master
+
   - name: sync-search
-    image: openjdk:11-jre
+    image: azul/zulu-openjdk-debian:17-latest
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
