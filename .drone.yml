@@ -12,6 +12,7 @@ steps:
       - name: ua-bin-cache
         path: /tmp/ua/
     commands:
+      - apt update && apt install -y curl
       - ./bin/verify.sh ./
     when:
       event:
@@ -33,7 +34,7 @@ steps:
       PUB_ROOT:
         from_secret: PUB_ROOT
     commands:
-      - apt update && apt install -y rsync openssh-client
+      - apt update && apt install -y rsync openssh-client curl
       - ./bin/publish.sh ./
     when:
       ref:
@@ -50,6 +51,7 @@ steps:
       MSE_TOKEN:
         from_secret: MSE_TOKEN
     commands:
+      - apt update && apt install -y curl
       - ./bin/sync-search.sh ./
     when:
       ref:
