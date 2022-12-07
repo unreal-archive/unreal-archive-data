@@ -1,0 +1,103 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-07 07:32"
+game: "Unreal Tournament"
+name: "MH-SeriousSam-Dunes-T1"
+author: "Dragon Zolee"
+description: "None"
+releaseDate: "2022-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-serioussam-dunes-t1_shot_ecc6dfe2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/S/e/c/c6dfe2/mh-serioussam-dunes-t1_shot_ecc6dfe2_1.png"
+originalFilename: "MH-SeriousSam-Dunes.zip"
+hash: "ecc6dfe2359ad0fdfd7cd8330817f6838e0e5d8d"
+fileSize: 36932757
+files:
+- name: "MH-SeriousSam-Dunes-T1.unr"
+  fileSize: 6938186
+  hash: "6fe7ccdebdaf3e8249c88eb1f8aeadfab0021b9c"
+- name: "TigerRifle.u"
+  fileSize: 1061759
+  hash: "ba357db41f6161ab00715d9502ff17029a6601f6"
+- name: "Sam2Dragon.uax"
+  fileSize: 5653494
+  hash: "860e77142be84b56ab351d6a66a49f6b613d16ac"
+- name: "WarlordMultiProjectiles_Rev1.u"
+  fileSize: 4002
+  hash: "07dc6ec549207591013c9f9dadc12453b094b757"
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+- name: "Mullog.u"
+  fileSize: 1019898
+  hash: "ff110fe280583cc87a3c8dc35267ddeca9d64f26"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MonsterHunt2Gold.u"
+  fileSize: 10944653
+  hash: "5826e7007a955f5eb6ea4460b353f8923a4ea89d"
+- name: "SsamDunesText.utx"
+  fileSize: 22982456
+  hash: "4d42d3df3152b3fec647b3dd8d03fa1fa403830d"
+- name: "Sam2End.umx"
+  fileSize: 2133312
+  hash: "8e96e6d9d422ba236e8899aba42696f367b52ac5"
+- name: "Mullogskin.utx"
+  fileSize: 1479730
+  hash: "2b1e84c5dca118756402e72d683805242a6c8e08"
+- name: "spinner.u"
+  fileSize: 2331252
+  hash: "a081414a22c94669d960bdd06618c9b992512713"
+- name: "Sam2Dragon.umx"
+  fileSize: 5401379
+  hash: "32ce71647516777c7ac83845b5813dc4dfc967b8"
+otherFiles: 6
+dependencies:
+  Mullog.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  - status: "OK"
+    name: "Mullogskin"
+  MonsterHunt2Gold.u:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "null48"
+  MH-SeriousSam-Dunes-T1.unr:
+  - status: "OK"
+    name: "MonsterHunt2Gold"
+  - status: "OK"
+    name: "SsamDunesText"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Mullog"
+  - status: "OK"
+    name: "Sam2End"
+  - status: "OK"
+    name: "WarlordMultiProjectiles_Rev1"
+  - status: "MISSING"
+    name: "null48"
+  - status: "OK"
+    name: "Sam2Dragon"
+  - status: "MISSING"
+    name: "THUNDERBOLTDecoEgypt2"
+  - status: "OK"
+    name: "spinner"
+  - status: "OK"
+    name: "TigerRifle"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/S/e/c/c6dfe2/MH-SeriousSam-Dunes.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Serious Sam - Dunes"
+playerCount: "4-8"
+themes:
+  Egyptian: 1.0
+bots: true
