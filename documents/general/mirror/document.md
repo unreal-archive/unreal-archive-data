@@ -17,7 +17,7 @@ Before you begin, you will need the following (see above for more detail):
 
 1. Java 17 JRE
    - for Linux, install OpenJDK 17 JRE using your package manager
-   - for windows, I would recommend [Azul's Zulu Community Edition JRE](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jre)
+   - for windows, I would recommend [Azul's Zulu Community Edition JRE](https://www.azul.com/downloads/?version=java-17-lts&architecture=x86-64-bit&package=jre#download-openjdk)
 2. Download the `unreal-archive` tool
    - the latest can always be [downloaded here](https://code.shrimpworks.za.net/artefacts/unreal-archive/latest/)
    - on Linux, you may download the `unreal-archive` binary, and make it executable via `chmod +x unreal-archive`
