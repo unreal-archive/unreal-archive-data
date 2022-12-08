@@ -6,6 +6,11 @@ concurrency:
   limit: 1
 
 steps:
+  - name: submodules
+    image: alpine/git
+    commands:
+      - git submodule update --init --recursive
+
   - name: verify
     image: azul/zulu-openjdk-debian:17-latest
     volumes:
