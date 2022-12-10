@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:00"
+game: "Unreal Tournament 3"
+name: "UT3Fixer P3 1"
+author: "the"
+description: "None"
+releaseDate: "2008-05"
+attachments: []
+originalFilename: "UT3Fixer_P3.1.zip"
+hash: "790798908c336ae75a06fe01b8a6f052c1ad0925"
+fileSize: 25502
+files:
+- name: "UT3Fixer_BRPG.u"
+  fileSize: 8140
+  hash: "bf5b756040f5275fb4e25b384647f3edd7eb5f8d"
+- name: "UT3Fixer.u"
+  fileSize: 7993
+  hash: "8d06894b1cc83b60034094b1492a0e089c548b9c"
+- name: "UT3Fixer_BTFA.u"
+  fileSize: 8146
+  hash: "72d37c2fa186c76a4db919b9fb5d2c8f4df75bda"
+otherFiles: 8
+dependencies:
+  UT3Fixer_BRPG.u:
+  - status: "MISSING"
+    name: "BattleRPG"
+  UT3Fixer_BTFA.u:
+  - status: "MISSING"
+    name: "BattleTeamArena"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/7/9/079890/UT3Fixer_P3.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT3Fixer"
+  description: ""
+- name: "UT3Fixer_BTFA"
+  description: ""
+- name: "UT3Fixer_BRPG"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

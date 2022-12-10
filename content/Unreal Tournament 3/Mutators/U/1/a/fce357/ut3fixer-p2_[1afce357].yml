@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:00"
+game: "Unreal Tournament 3"
+name: "UT3Fixer P2"
+author: "Nico de Vries"
+description: "None"
+releaseDate: "2008-05"
+attachments: []
+originalFilename: "UT3Fixer_P2.zip"
+hash: "1afce357c48cf90ca89c4a345a472fcc829d81e2"
+fileSize: 23709
+files:
+- name: "UT3Fixer_BRPG.u"
+  fileSize: 7800
+  hash: "50637cd94719cb8786752345d2e31e4623e61415"
+- name: "UT3Fixer.u"
+  fileSize: 7645
+  hash: "72a673b0d8f4fb30da4ad608b12ac1209be1c4b4"
+- name: "UT3Fixer_BTFA.u"
+  fileSize: 7806
+  hash: "8d8347039c6efc6fe80544a4e705845649e707f8"
+otherFiles: 5
+dependencies:
+  UT3Fixer_BRPG.u:
+  - status: "MISSING"
+    name: "BattleRPG"
+  UT3Fixer_BTFA.u:
+  - status: "MISSING"
+    name: "BattleTeamArena"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/1/a/fce357/UT3Fixer_P2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT3Fixer_BRPG"
+  description: ""
+- name: "UT3Fixer_BTFA"
+  description: ""
+- name: "UT3Fixer"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
