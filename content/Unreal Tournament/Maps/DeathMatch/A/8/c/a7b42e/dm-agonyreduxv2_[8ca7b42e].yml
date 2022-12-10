@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-17 23:16"
+game: "Unreal Tournament"
+name: "DM-Agony[ReduX]V2"
+author: "LuNiC / NiX"
+description: "None"
+releaseDate: "2022-08"
+attachments: []
+originalFilename: "Agony[ReduX].zip"
+hash: "8ca7b42e194d47b0e17754220c18b6858b4b0f93"
+fileSize: 26953791
+files:
+- name: "xonotic.umx"
+  fileSize: 13001495
+  hash: "2a76e6e7df7c07c54b411329ce565b7e3f1d42ef"
+- name: "DM-Agony[ReduX]V2.unr"
+  fileSize: 23543748
+  hash: "0ffd421ed2076697b49c8a0074f036f6778ac06c"
+- name: "Deck99.utx"
+  fileSize: 1241816
+  hash: "a443ab462d00c5ef2cfd5129c8d5ecfae0687da5"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 0
+dependencies:
+  DM-Agony[ReduX]V2.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "LunicLogo"
+  - status: "OK"
+    name: "Deck99"
+  - status: "OK"
+    name: "xonotic"
+  - status: "MISSING"
+    name: "IndusDeck"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/8/c/a7b42e/Agony%5BReduX%5D.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Agony[Redux]"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.3
+  Nali Castle: 0.1
+  Ancient: 0.5
+bots: true
