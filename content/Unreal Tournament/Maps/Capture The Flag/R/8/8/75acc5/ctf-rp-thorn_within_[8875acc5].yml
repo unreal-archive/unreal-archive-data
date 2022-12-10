@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:15"
+game: "Unreal Tournament"
+name: "CTF-RP-Thorn_Within"
+author: "Raven and Prozac"
+description: "Careful what you wish!!"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-rp-thorn_within_shot_8875acc5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/8/8/75acc5/ctf-rp-thorn_within_shot_8875acc5_1.png"
+- type: "IMAGE"
+  name: "ctf-rp-thorn_within_shot_8875acc5_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/8/8/75acc5/ctf-rp-thorn_within_shot_8875acc5_2.png"
+originalFilename: "ctfrptw.zip"
+hash: "8875acc5db4636e3846c41f75dc06c497f681cf3"
+fileSize: 1030662
+files:
+- name: "CTF-RP-Thorn_Within.unr"
+  fileSize: 3792972
+  hash: "0ec08dcf9e781eb4b4c543ca9491f36e94160f9e"
+- name: "shards.u"
+  fileSize: 14088
+  hash: "0058dd90caef3eeaf1fce4cf2df72636aebaf828"
+- name: "raven_thing.u"
+  fileSize: 34303
+  hash: "dacb51d181f9916cd1a1d4b7ef42c0e050f666ec"
+- name: "CTF-RP-Thorn Within.umod"
+  fileSize: 3883939
+  hash: "b93eb94fcbf4d83c7523ecc8ac833f24fd3aa788"
+- name: "shards.uax"
+  fileSize: 9387
+  hash: "be0ceff22d5e155e214d2a0791102739f4266d14"
+otherFiles: 2
+dependencies:
+  CTF-RP-Thorn_Within.unr:
+  - status: "OK"
+    name: "shards"
+  - status: "OK"
+    name: "raven_thing"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/8/8/75acc5/ctfrptw.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Thorn Within"
+playerCount: "10-12"
+themes:
+  Nali Temple: 0.2
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Nali Castle: 0.6
+bots: true

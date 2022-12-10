@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:15"
+game: "Unreal Tournament"
+name: "AS-RP-Metro"
+author: "Raven and Sakorius"
+description: "If you will walking blindly, you can be massacred by the train"
+releaseDate: "2002-09"
+attachments:
+- type: "IMAGE"
+  name: "as-rp-metro_shot_b74f0ab6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/b/7/4f0ab6/as-rp-metro_shot_b74f0ab6_1.png"
+- type: "IMAGE"
+  name: "as-rp-metro_shot_b74f0ab6_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/b/7/4f0ab6/as-rp-metro_shot_b74f0ab6_3.png"
+- type: "IMAGE"
+  name: "as-rp-metro_shot_b74f0ab6_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/R/b/7/4f0ab6/as-rp-metro_shot_b74f0ab6_2.png"
+originalFilename: "asrptms.zip"
+hash: "b74f0ab697dc85c9ae0507bfb9e9353bccf4e7ff"
+fileSize: 1835104
+files:
+- name: "The Metro - Station.umod"
+  fileSize: 4779064
+  hash: "cdd4a98fdf4b159d6e00f77eb51720f8f76b9c80"
+- name: "train.u"
+  fileSize: 100451
+  hash: "ec11b095cc430469ecc565fe5e03c88de4ca7f53"
+- name: "Metro.uax"
+  fileSize: 109852
+  hash: "3ec8b2bcd67c641ab3b3cf2713777ed77aae79bd"
+- name: "AS-RP-Metro.unr"
+  fileSize: 3695123
+  hash: "1ff4643127ca75b0d34c1717f43136624fca845d"
+- name: "Metro_RaS.utx"
+  fileSize: 932799
+  hash: "1a5f5d4bdd9e1e8f5faf61bd69c7dbdf5b7981c3"
+otherFiles: 3
+dependencies:
+  AS-RP-Metro.unr:
+  - status: "OK"
+    name: "Metro_RaS"
+  - status: "OK"
+    name: "Metro"
+  - status: "OK"
+    name: "train"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/R/b/7/4f0ab6/asrptms.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "The Metro - Station"
+playerCount: "14-16"
+themes:
+  Tech: 0.3
+  City: 0.5
+  Industrial: 0.2
+bots: true
