@@ -1,0 +1,168 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 18:30"
+game: "Unreal Tournament"
+name: "TheFifthVortex 1"
+author: "Various"
+description: "None"
+releaseDate: "2013-11"
+attachments: []
+originalFilename: "TheFifthVortex.1.zip"
+hash: "4bba50cbcac0b55c45ce7de8f3c7c2253a0130cb"
+fileSize: 17525610
+files:
+- name: "OlFifthVortex.u"
+  fileSize: 89854
+  hash: "d957fb62f8a4b62779ec9900fc7c28a7a7899c76"
+- name: "EhactoraFour.unr"
+  fileSize: 4007534
+  hash: "e21406ea49aace652c8c311273a69d98143e4e2b"
+- name: "Dusk.umx"
+  fileSize: 589723
+  hash: "6e29f13da19add182244286e5d02f7c6fd13eb31"
+- name: "Scout.uax"
+  fileSize: 104885
+  hash: "87a66850d9e972a49294ead97d3927d65bb718ce"
+- name: "EhactoraThree.unr"
+  fileSize: 15223605
+  hash: "dd9542f1a88bb738ab0fcaf3c389cf74c1fc5e17"
+- name: "Marine.uax"
+  fileSize: 1688796
+  hash: "c512729e25ed1a6793c9496cf2d2d092b82aaff6"
+- name: "Mountain.umx"
+  fileSize: 920629
+  hash: "7715eb1a64ba0739a5a34ec95d2e75825e076d68"
+- name: "EhactoraTwo.unr"
+  fileSize: 6264846
+  hash: "35919a4d28dee89bca54a0a3788e3f56890c00a5"
+- name: "Indus1.utx"
+  fileSize: 1985856
+  hash: "c601b6f8ebb20fe059b5802ec6f04a0f77fc6751"
+- name: "Return.umx"
+  fileSize: 708319
+  hash: "c3cd70ed751b86e4cc8bdbd237f5b97dbc378783"
+- name: "Sacred.umx"
+  fileSize: 635539
+  hash: "cafce88d215fbb6f0c723477f918a73a777c8e89"
+- name: "EhactoraOutro.unr"
+  fileSize: 2026503
+  hash: "21094655d801e41304a087cf219911a45cf200b6"
+- name: "EhactoraIntro.unr"
+  fileSize: 1366463
+  hash: "ae27e1909ee1b519a8de028ef775254405a49c0e"
+- name: "UPakDecoMeshes.u"
+  fileSize: 1101081
+  hash: "2a692670f853c18fc7aef92ae9987ee2bfcc6d03"
+- name: "napali105.u"
+  fileSize: 3427456
+  hash: "aa8d2b045469404a8384cbc351b36a0a31990c62"
+- name: "EhactoraOne.unr"
+  fileSize: 4748896
+  hash: "5de204db7e668f4ac6479c1f9bad70c1bad8ede9"
+- name: "EhactoraFive.unr"
+  fileSize: 10157332
+  hash: "1292468655c194e8e2bc9fa361cde415fa3cbd4d"
+otherFiles: 2
+dependencies:
+  OlFifthVortex.u:
+  - status: "MISSING"
+    name: "olroot"
+  EhactoraTwo.unr:
+  - status: "MISSING"
+    name: "UTemple"
+  - status: "OK"
+    name: "Marine"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Scout"
+  - status: "OK"
+    name: "napali105"
+  EhactoraThree.unr:
+  - status: "OK"
+    name: "Sacred"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "napali105"
+  EhactoraOne.unr:
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Scout"
+  - status: "OK"
+    name: "napali105"
+  - status: "OK"
+    name: "Dusk"
+  EhactoraFive.unr:
+  - status: "OK"
+    name: "Mountain"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Scout"
+  - status: "OK"
+    name: "napali105"
+  - status: "MISSING"
+    name: "WarLord"
+  - status: "MISSING"
+    name: "utend"
+  EhactoraFour.unr:
+  - status: "MISSING"
+    name: "Surface"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Scout"
+  EhactoraOutro.unr:
+  - status: "MISSING"
+    name: "UTemple"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Scout"
+  - status: "OK"
+    name: "napali105"
+  EhactoraIntro.unr:
+  - status: "OK"
+    name: "Return"
+  - status: "OK"
+    name: "napali105"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Scout"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/T/4/b/ba50cb/TheFifthVortex.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "EhactoraFour"
+  title: "Entrance to the Fifth Vortex"
+  author: "Doublez-Down, Teridax, and Nivlek"
+- name: "EhactoraOutro"
+  title: "Fifth Vortex Outro"
+  author: "Doublez-Down, Teridax, Shane Caudle, Jeremy War"
+- name: "EhactoraIntro"
+  title: "Fifth Vortex Intro"
+  author: "Teridax, Rob 'Doublez-Down' Collins, and Eenocks"
+- name: "EhactoraThree"
+  title: "Ehactora's Valley"
+  author: "Teridax & Rob 'Doublez-Down' Collins"
+- name: "EhactoraOne"
+  title: "Ehactora's Passage Part One"
+  author: "Rob 'Doublez-Down' Collins"
+- name: "EhactoraTwo"
+  title: "Ehactora's Passage Part Two"
+  author: "Rob 'Doublez-Down' Collins and Shane Caudle"
+- name: "EhactoraFive"
+  title: "The Fifth Vortex"
+  author: "Doublez-Down, Teridax, Shane Caudle"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.3
+  Ancient: 0.1
