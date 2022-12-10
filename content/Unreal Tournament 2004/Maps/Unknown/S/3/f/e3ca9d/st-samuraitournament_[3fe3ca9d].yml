@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-11 23:47"
+game: "Unreal Tournament 2004"
+name: "ST-SamuraiTournament"
+author: "Vicken Bastajian"
+description: "This is an incomplete single-player game.  All you can do is fight the\
+  \ same character repeatedly.  The number of enemies you fight is equal to the level\
+  \ you're on.  So if you're on level 4, you'll fight four enemies at once.  It ends\
+  \ when you get bored."
+releaseDate: "2023-02"
+attachments: []
+originalFilename: "Samurai_TournamentMOD.zip"
+hash: "3fe3ca9db6150b46a53e9b9636132200fa479fc1"
+fileSize: 1827050
+files:
+- name: "SamTourSounds.uax"
+  fileSize: 38019
+  hash: "a19c6bdbde5bbab26d62f5647987ca14cda71d5d"
+- name: "ST-SamuraiTournament.ut2"
+  fileSize: 4815913
+  hash: "502d9377e6a8df40486db6677a8a7dbbb2b0b1ce"
+- name: "SamTourAnimation.ukx"
+  fileSize: 403002
+  hash: "ba70cee4002e1fcc5eb73ae0292af9a1693823e9"
+- name: "SamuraiTournament.u"
+  fileSize: 144087
+  hash: "ea1e3561bbbb387856f59c87a23f172af4c2d039"
+- name: "SamTourMeshes.usx"
+  fileSize: 49992
+  hash: "6caac04df10d71b73d314b21be52a221aab45fee"
+- name: "SamTourTextures.utx"
+  fileSize: 1824868
+  hash: "ecaa1dbb51a324711ce89a91e9c60ad06dc4208a"
+otherFiles: 4
+dependencies:
+  SamTourMeshes.usx:
+  - status: "OK"
+    name: "SamTourTextures"
+  ST-SamuraiTournament.ut2:
+  - status: "OK"
+    name: "SamTourTextures"
+  - status: "OK"
+    name: "SamuraiTournament"
+  SamuraiTournament.u:
+  - status: "OK"
+    name: "SamTourTextures"
+  - status: "OK"
+    name: "SamTourSounds"
+  - status: "OK"
+    name: "SamTourAnimation"
+  - status: "OK"
+    name: "SamTourMeshes"
+  SamTourAnimation.ukx:
+  - status: "OK"
+    name: "SamTourTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/S/3/f/e3ca9d/Samurai_TournamentMOD.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Unknown"
+title: "Samurai Tournament"
+playerCount: "1"
+themes:
+  Natural: 1.0
+bots: false

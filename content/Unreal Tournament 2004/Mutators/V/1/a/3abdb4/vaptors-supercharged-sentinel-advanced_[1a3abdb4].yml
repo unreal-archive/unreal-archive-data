@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 23:48"
+game: "Unreal Tournament 2004"
+name: "Vaptor's SuperCharged: Sentinel Advanced"
+author: "Unknown"
+description: "Gives A MORE POWERFULL Sentinel Deployer as a default weapon And (3\
+  \ optional Bonus Hand Weapons) and replaces some power-ups with Sentinel Deployer\
+  \ ammo and replaces minihealth with monster maker ammo."
+releaseDate: "2004-12"
+attachments: []
+originalFilename: "SENTINELSTEROIDS.zip"
+hash: "1a3abdb4dee52fefc772aec9002e22654b92faf8"
+fileSize: 4416339
+files:
+- name: "EXTREMES.utx"
+  fileSize: 1231451
+  hash: "19a69c69e44526bbc5df877e36cff7dcca9c9e0c"
+- name: "SENTINELSTEROIDS.u"
+  fileSize: 7033152
+  hash: "f4f318b62c15324d2af6230f6dd24f9cf36f2a4f"
+otherFiles: 3
+dependencies:
+  SENTINELSTEROIDS.u:
+  - status: "OK"
+    name: "EXTREMES"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/V/1/a/3abdb4/SENTINELSTEROIDS.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Vaptor's SuperCharged: Sentinel Advanced"
+  description: "Gives A MORE POWERFULL Sentinel Deployer as a default weapon And (3\
+    \ optional Bonus Hand Weapons) and replaces some power-ups with Sentinel Deployer\
+    \ ammo and replaces minihealth with monster maker ammo."
+weapons:
+- name: "baBUZZSAW"
+  description: "THIS PLASMA SAW even though it looks heavy its internal antigravmodule\
+    \ makes it the lightest weapon ever"
+- name: "baFakeMonsterWeapon"
+  description: "baFakeMonsterWeapon"
+- name: "GOUL GUN"
+  description: "GOUL GUN"
+- name: "avdSentinel Deployer"
+  description: "Used to deploy, upgrade, retrieve, repair and sabotage Sentinels."
+- name: "baGuardian Deployer"
+  description: "baGuardianDeployer"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
