@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-26 15:26"
+game: "Unreal Tournament"
+name: "AS-UTOverLordOld"
+author: "Dave Ewing"
+description: "None"
+releaseDate: "2022-12"
+attachments:
+- type: "IMAGE"
+  name: "as-utoverlordold_shot_8dd1e0db_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/U/8/d/d1e0db/as-utoverlordold_shot_8dd1e0db_1.png"
+originalFilename: "AS-UTOverLordOld.rar"
+hash: "8dd1e0dbcff9eaf6f7866e9729e2e2f12bc80583"
+fileSize: 1180120
+files:
+- name: "AS-UTOverLordOld.unr"
+  fileSize: 3019289
+  hash: "67aa8b4d0688ba3df3d9a8a3db8862f0a9a11638"
+- name: "UTuntexA.utx"
+  fileSize: 199790
+  hash: "e99a60fb43a0321111c26e85ae1dd46df0b6215c"
+- name: "UPB-Chizrash.umx"
+  fileSize: 457105
+  hash: "f807091035472d629d135a602cc9dea1c584eb33"
+otherFiles: 1
+dependencies:
+  AS-UTOverLordOld.unr:
+  - status: "OK"
+    name: "UTuntexA"
+  - status: "OK"
+    name: "UPB-Chizrash"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/U/8/d/d1e0db/AS-UTOverLordOld.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "AS-Overlord OLD"
+playerCount: "8-12"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true
