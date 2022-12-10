@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-24 16:22"
+game: "Unreal Tournament"
+name: "CTF-enMakhana"
+author: "David 'DarkSniper' Brown"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-enmakhana_shot_0a9277fe_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/0/a/9277fe/ctf-enmakhana_shot_0a9277fe_1.png"
+originalFilename: "CTF-enMakhana.zip"
+hash: "0a9277fe82895fa0ce2bdad265ed6db3b02171a1"
+fileSize: 31859950
+files:
+- name: "Foom100.utx"
+  fileSize: 6067236
+  hash: "1995758043c0ee029f56e2e97db70aa5c022c098"
+- name: "CTF-enMakhana.unr"
+  fileSize: 4515484
+  hash: "50fb8d023301fc37967209baef94ce8b5ddd0963"
+- name: "AncientClub_eM.umx"
+  fileSize: 27100572
+  hash: "0fa0d078cb77b904633c0d21069cc64cb0c90eb7"
+otherFiles: 1
+dependencies:
+  CTF-enMakhana.unr:
+  - status: "OK"
+    name: "Foom100"
+  - status: "OK"
+    name: "AncientClub_eM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/E/0/a/9277fe/CTF-enMakhana.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-enMakhana"
+playerCount: "4-12"
+themes:
+  Industrial: 0.7
+  Skaarj Crypt: 0.2
+bots: true

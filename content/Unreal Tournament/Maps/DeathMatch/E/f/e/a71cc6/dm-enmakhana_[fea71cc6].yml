@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-24 16:22"
+game: "Unreal Tournament"
+name: "DM-enMakhana"
+author: "David 'DarkSniper' Brown"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-enmakhana_shot_fea71cc6_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/E/f/e/a71cc6/dm-enmakhana_shot_fea71cc6_1.png"
+originalFilename: "DM-enMakhana.zip"
+hash: "fea71cc64fd0f6e7868c1a49c30819e99b2eb6a6"
+fileSize: 31184348
+files:
+- name: "DM-enMakhana.unr"
+  fileSize: 2301335
+  hash: "c64dfd43d4b839c1db5ffe90b9e790d12156a5a0"
+- name: "Foom100.utx"
+  fileSize: 6067236
+  hash: "1995758043c0ee029f56e2e97db70aa5c022c098"
+- name: "AncientClub_eM.umx"
+  fileSize: 27100572
+  hash: "0fa0d078cb77b904633c0d21069cc64cb0c90eb7"
+otherFiles: 1
+dependencies:
+  DM-enMakhana.unr:
+  - status: "OK"
+    name: "Foom100"
+  - status: "OK"
+    name: "AncientClub_eM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/E/f/e/a71cc6/DM-enMakhana.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "enMakhana"
+playerCount: "2-8"
+themes:
+  Industrial: 0.7
+  Skaarj Crypt: 0.3
+bots: true

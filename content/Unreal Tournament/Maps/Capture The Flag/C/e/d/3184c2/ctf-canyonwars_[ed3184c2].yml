@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-24 16:21"
+game: "Unreal Tournament"
+name: "CTF-CanyonWars"
+author: "David -DarkSniper- Brown"
+description: "None"
+releaseDate: "2023-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-canyonwars_shot_ed3184c2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/d/3184c2/ctf-canyonwars_shot_ed3184c2_1.png"
+originalFilename: "CTF-CanyonWars.zip"
+hash: "ed3184c2aba287d91843e63a8c2f30e7db87933a"
+fileSize: 12251610
+files:
+- name: "CTF-CanyonWars.unr"
+  fileSize: 4350154
+  hash: "932055cb4ca953e725508522a887ea6b37d90b91"
+- name: "DS_CanyonW.utx"
+  fileSize: 13576312
+  hash: "608e99952bbac120b6dc5b48e70b5a8afc60cabc"
+- name: "DS_LongForSnd.uax"
+  fileSize: 1247081
+  hash: "c24655d6f3a92b254beddc07d88ff028b081e4e9"
+- name: "DS_LongForgotten.umx"
+  fileSize: 2071440
+  hash: "b092c058f02de21e7a23238db36fc79a26d3a26e"
+otherFiles: 1
+dependencies:
+  CTF-CanyonWars.unr:
+  - status: "OK"
+    name: "DS_LongForSnd"
+  - status: "OK"
+    name: "DS_LongForgotten"
+  - status: "OK"
+    name: "DS_CanyonW"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/d/3184c2/CTF-CanyonWars.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Canyon Wars"
+playerCount: "10-20"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.8
+bots: true
