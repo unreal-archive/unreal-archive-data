@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:50"
+game: "Unreal Tournament 3"
+name: "UTMutator_Coda"
+author: "Unknown"
+description: "Replace all weapons with Coda Swords"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "coda-sword.zip"
+hash: "8a0ffe801d06271e3062cdcee19df4b76466ad11"
+fileSize: 6360514
+files:
+- name: "CodaTest.upk"
+  fileSize: 8981525
+  hash: "b9db3ee4807da341a28e1acaa36cd11110ddc0b7"
+- name: "CodaScriptPackage.u"
+  fileSize: 130149
+  hash: "c57d3d05e4b2b67b7b88154b816ca0627f572c18"
+otherFiles: 3
+dependencies:
+  CodaScriptPackage.u:
+  - status: "OK"
+    name: "CodaTest"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/8/a/0ffe80/coda-sword.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UTMutator_Coda"
+  description: "Replace all weapons with Coda Swords"
+weapons:
+- name: "CodaSlashWeapon"
+  description: "Coda Sword Weapon, drag to wind up, then release to strike!"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

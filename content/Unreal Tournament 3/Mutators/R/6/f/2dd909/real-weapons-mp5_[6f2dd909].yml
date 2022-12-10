@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:51"
+game: "Unreal Tournament 3"
+name: "Real Weapons Mp5"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "real-weapons-mp5.zip"
+hash: "6f2dd909966ecc45590caceab0ad665e893ebe9e"
+fileSize: 9928289
+files:
+- name: "RealWeapons.upk"
+  fileSize: 16691073
+  hash: "fb9a35b6ed134579b4823b1250c4f20f52651608"
+- name: "RealWeaponsMod.u"
+  fileSize: 264426
+  hash: "3029b0126ea679ffbc4ea3551ef14b0181dbd7b7"
+otherFiles: 2
+dependencies:
+  RealWeaponsMod.u:
+  - status: "OK"
+    name: "Realweapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/R/6/f/2dd909/real-weapons-mp5.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "bez_AK47s_and_MP5ks_only"
+  description: "AK47s_and_MP5ks_only"
+- name: "bez_RealWeapons"
+  description: "RealWeapons Replacements"
+- name: "bez_chainSaws_only"
+  description: "chainSaws only"
+weapons:
+- name: "AK47weapon"
+  description: "AK47"
+- name: "MP5kweapon"
+  description: "MP5k"
+- name: "realweaponsClass"
+  description: ""
+- name: "chainSawWeaponOne"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

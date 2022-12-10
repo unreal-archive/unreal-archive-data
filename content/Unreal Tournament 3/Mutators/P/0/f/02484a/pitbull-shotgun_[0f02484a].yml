@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:51"
+game: "Unreal Tournament 3"
+name: "Pitbull Shotgun"
+author: "Unknown"
+description: ""
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "pitbull-shotgun.zip"
+hash: "0f02484a58e8668b294a511c3a2ab73514eeaf11"
+fileSize: 6520516
+files:
+- name: "WP_RSShotgun.upk"
+  fileSize: 8099704
+  hash: "f2fc3dc5f1a8e48f5f0c4a4d6dbcb5a4bc43af90"
+- name: "FX_RSStdEffects1.upk"
+  fileSize: 1997306
+  hash: "ea3aa18fead8a70e47fd5cdc60feb392902a2bb9"
+- name: "UTRSShotgun.u"
+  fileSize: 68632
+  hash: "0f5ed429348d7531d6f5189ea5ffa2e2f84b6580"
+otherFiles: 3
+dependencies:
+  UTRSShotgun.u:
+  - status: "OK"
+    name: "WP_RSShotgun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/P/0/f/02484a/pitbull-shotgun.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Pitbull Shotgun"
+  description: ""
+weapons:
+- name: "Pitbull Shotgun"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

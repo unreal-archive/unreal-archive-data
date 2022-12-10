@@ -1,0 +1,38 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:50"
+game: "Unreal Tournament 3"
+name: "V01_dispatcherReplacement"
+author: "Unknown"
+description: "replaces the raptor"
+releaseDate: "2008-10"
+attachments: []
+originalFilename: "dispatcher-vehicle-v1.1.zip"
+hash: "0f9521e4bf62fd5d0255b9fd691dddc96dc97984"
+fileSize: 13670935
+files:
+- name: "dispatcher.u"
+  fileSize: 127557
+  hash: "3ff4e62d43b8668b09cd9970c31fb734618521a4"
+- name: "v01Dispatcher.upk"
+  fileSize: 17724549
+  hash: "7c347d9f243f1284fa28c8e08de2d948db6c1e90"
+otherFiles: 2
+dependencies:
+  dispatcher.u:
+  - status: "OK"
+    name: "v01Dispatcher"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/V/0/f/9521e4/dispatcher-vehicle-v1.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "V01_dispatcherReplacement"
+  description: "replaces the raptor"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
