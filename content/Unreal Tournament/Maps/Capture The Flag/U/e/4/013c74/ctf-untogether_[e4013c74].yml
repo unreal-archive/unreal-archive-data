@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-21 00:53"
+game: "Unreal Tournament"
+name: "CTF-Untogether"
+author: "Niall Moody"
+description: "None"
+releaseDate: "2002-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-untogether_shot_e4013c74_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/e/4/013c74/ctf-untogether_shot_e4013c74_1.png"
+originalFilename: "CTF-Untogether.ZIP"
+hash: "e4013c74831ad8d0b525aed50b427727138ced6a"
+fileSize: 619187
+files:
+- name: "NiallGrass.u"
+  fileSize: 22317
+  hash: "55c763e58e5dc18873374219dda5a5a88d0dab6a"
+- name: "CTF-Untogether.unr"
+  fileSize: 1512672
+  hash: "70887d7ea6c4338ae9f7b70b9bfdf9a8ff8954f3"
+- name: "Blank.umx"
+  fileSize: 34876
+  hash: "704e716e1573644b86cf1473e9b0bc3272ce83a0"
+otherFiles: 1
+dependencies:
+  CTF-Untogether.unr:
+  - status: "OK"
+    name: "Blank"
+  - status: "OK"
+    name: "NiallGrass"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/e/4/013c74/CTF-Untogether.ZIP"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Untogether"
+playerCount: "6-8"
+themes:
+  Tech: 0.2
+  Natural: 0.6
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true
