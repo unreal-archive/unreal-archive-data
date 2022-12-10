@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-08 11:48"
+variationOf: "8b78f22795ce7e7737b4474a83afddc77252b01d"
+game: "Unreal Tournament"
+name: "CTFM-7Hexagons"
+author: "Doctor Evil"
+description: "None"
+releaseDate: "2002-07"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-7hexagons_shot_c31ae026_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/0/c/3/1ae026/ctfm-7hexagons_shot_c31ae026_1.png"
+originalFilename: "CTFM-7HexagonsRepack.zip"
+hash: "c31ae026f42b22d07d09bac7a47b3b2ce4a0a236"
+fileSize: 4687848
+files:
+- name: "ATATAttackpf.utx"
+  fileSize: 4052496
+  hash: "c4c0b7d67dedaa436363ac3b70c4286337a099cd"
+- name: "CTFM-7Hexagons.unr"
+  fileSize: 579193
+  hash: "e8d7ef9a41ba88765b29552a6ca313ff91120319"
+- name: "lestatpack.utx"
+  fileSize: 2306164
+  hash: "6292e409ba85ff3177a8e6a042c4246f7e31abf0"
+- name: "Danza.umx"
+  fileSize: 1709284
+  hash: "44d973dbb72669e8eb5df6dca7aeb00ae625ec79"
+otherFiles: 1
+dependencies:
+  CTFM-7Hexagons.unr:
+  - status: "OK"
+    name: "ATATAttackpf"
+  - status: "OK"
+    name: "lestatpack"
+  - status: "OK"
+    name: "Danza"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/0/c/3/1ae026/CTFM-7HexagonsRepack.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Multi-Team CTF"
+title: "CTFM-7Hexagons"
+playerCount: "12"
+themes:
+  Ancient: 0.6
+  Egyptian: 0.4
+bots: true
