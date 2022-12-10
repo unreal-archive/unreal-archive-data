@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-04 15:02"
+game: "Unreal Tournament"
+name: "DM-Antidote-LE102"
+author: "subz`"
+description: "None"
+releaseDate: "2022-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-antidote-le102_shot_f08ecdd9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/A/f/0/8ecdd9/dm-antidote-le102_shot_f08ecdd9_1.png"
+originalFilename: "DM-Antidote-LE102.rar"
+hash: "f08ecdd96e0fc3015f9cafc3d9cc3d1646e477af"
+fileSize: 10820536
+files:
+- name: "Evil-Lair-4.utx"
+  fileSize: 15749418
+  hash: "3a469b2a9ade0f67c3dac8fc2613d46f5143c206"
+- name: "DM-Antidote-LE102.unr"
+  fileSize: 748416
+  hash: "6da69dee019a0a97b4c9b7d4d08b55931a358085"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 0
+dependencies:
+  DM-Antidote-LE102.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Evil-Lair-4"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/A/f/0/8ecdd9/DM-Antidote-LE102.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Antidote"
+playerCount: "2-4"
+themes:
+  Natural: 1.0
+bots: true
