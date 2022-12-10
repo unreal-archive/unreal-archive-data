@@ -1,0 +1,110 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 18:35"
+game: "Unreal Tournament"
+name: "Revelations Pt 1 NonUMOD"
+author: "Various"
+description: "None"
+releaseDate: "2009-10"
+attachments: []
+originalFilename: "Revelations Pt.1-NonUMOD.rar"
+hash: "9a54bd33941d067e0a8cac27cc0de83567a1152c"
+fileSize: 15137218
+files:
+- name: "UMS.u"
+  fileSize: 212719
+  hash: "88fcb738785dcde2a032c99828ef8919be92e2b8"
+- name: "Revelations-1.unr"
+  fileSize: 11207762
+  hash: "ae498f959a4cf066d6d88b6fddbc9e78ba93846d"
+- name: "RMusicPlayer.u"
+  fileSize: 49094
+  hash: "e669be60e94b9ce7e40d305cdfc9c2076ff84b49"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "NoMusic.umx"
+  fileSize: 1947
+  hash: "8c5ca694a54593eb9b0c2e416933c4424e3e1224"
+- name: "YdpTex.utx"
+  fileSize: 1872879
+  hash: "8bb8013b81c4053d56e5a00c0ea207621ac3acf1"
+- name: "Marine.UAX"
+  fileSize: 1688796
+  hash: "c512729e25ed1a6793c9496cf2d2d092b82aaff6"
+- name: "RMusicPlayer_SDK.u"
+  fileSize: 18310
+  hash: "a953283d0c41abfb743e045150d5a08fe77541d3"
+- name: "umsspacemarine.u"
+  fileSize: 7065808
+  hash: "e70d857a69cff208cab882a5fa9b8eff0d8b9dd3"
+- name: "Vortex.umx"
+  fileSize: 643501
+  hash: "967f11b3e274c318357f38f127fc78b90447701d"
+- name: "Rdxp1.u"
+  fileSize: 138717
+  hash: "4930e9a4e76717c7e6915493ff48334850ea3898"
+- name: "R-1Ending.unr"
+  fileSize: 231644
+  hash: "952057cca9af0a6dfc726e76f0a627ff87f57629"
+otherFiles: 18
+dependencies:
+  RMusicPlayer_SDK.u:
+  - status: "OK"
+    name: "RMusicPlayer"
+  - status: "MISSING"
+    name: "oldskool"
+  Revelations-1.unr:
+  - status: "OK"
+    name: "Rdxp1"
+  - status: "OK"
+    name: "YdpTex"
+  - status: "OK"
+    name: "Fifth"
+  - status: "OK"
+    name: "Vortex"
+  - status: "OK"
+    name: "RMusicPlayer"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "umsspacemarine"
+  Rdxp1.u:
+  - status: "OK"
+    name: "Marine"
+  - status: "OK"
+    name: "YdpTex"
+  - status: "OK"
+    name: "umsspacemarine"
+  R-1Ending.unr:
+  - status: "OK"
+    name: "RMusicPlayer"
+  - status: "OK"
+    name: "YdpTex"
+  - status: "OK"
+    name: "UMS"
+  umsspacemarine.u:
+  - status: "OK"
+    name: "Marine"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/R/9/a/54bd33/Revelations%20Pt.1-NonUMOD.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "Revelations-1"
+  title: "Revelations Part 1"
+  author: "RediscoveryX"
+- name: "R-1Ending"
+  title: "R-1Ending"
+  author: "Unknown"
+gametype: "Unknown"
+themes:
+  Tech: 0.2
+  Industrial: 0.1
+  Skaarj Tech: 0.7
