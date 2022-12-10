@@ -1,0 +1,73 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-13 04:26"
+game: "Unreal Tournament"
+name: "INF29man"
+author: "Bastard'O / Jeremy / Los Pescados"
+description: "None"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "inf29man_shot_a5a7b13d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/I/a/5/a7b13d/inf29man_shot_a5a7b13d_1.png"
+originalFilename: "INF29man.7z"
+hash: "a5a7b13de2bac283c0941aaa0ad009e5447ae701"
+fileSize: 5359467
+files:
+- name: "RealWorld.u"
+  fileSize: 16300
+  hash: "540b94acefffd7d304a3d35efd5311c5cd36072c"
+- name: "Entry.unr"
+  fileSize: 11810
+  hash: "0a03cca514353ffdf532afe1da9b0e89a26c0001"
+- name: "DM-INF-ShootingRange.unr"
+  fileSize: 15404955
+  hash: "582437b4d7b992c251bf000d583ac6cdbb664e0c"
+otherFiles: 0
+dependencies:
+  Entry.unr:
+  - status: "MISSING"
+    name: "INFLogo"
+  DM-INF-ShootingRange.unr:
+  - status: "MISSING"
+    name: "INF_Pawns"
+  - status: "MISSING"
+    name: "InfAdds"
+  - status: "MISSING"
+    name: "INF_cFacesINF"
+  - status: "MISSING"
+    name: "INF_Core"
+  - status: "MISSING"
+    name: "INF_cCamosDesert"
+  - status: "MISSING"
+    name: "INF_Assets"
+  - status: "MISSING"
+    name: "INF_Equip"
+  - status: "MISSING"
+    name: "INF_Assets2"
+  - status: "MISSING"
+    name: "INF_Assets3"
+  - status: "MISSING"
+    name: "INF_Decorations"
+  - status: "MISSING"
+    name: "INF_Mapping"
+  - status: "OK"
+    name: "RealWorld"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/I/a/5/a7b13d/INF29man.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "Entry"
+  title: "Entry"
+  author: "Unknown"
+- name: "DM-INF-ShootingRange"
+  title: "Shooting Range"
+  author: "Bastard'O / Jeremy / Los Pescados"
+gametype: "Infiltration"
+themes: {}
