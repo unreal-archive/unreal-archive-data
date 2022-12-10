@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 04:57"
+game: "Unreal Tournament 2004"
+name: "Inviso-Raptor Replacer"
+author: "Missile 'Noob Coder' Master\""
+description: "Replaces all Raptors with the Inviso-Raptor, made by Missile 'Noob Coder'\
+  \ Master"
+releaseDate: "2006-01"
+attachments: []
+originalFilename: "Inviso-Raptor.zip"
+hash: "08fe676e38e58d110c07c0c96c940fd0119574cf"
+fileSize: 6733
+files:
+- name: "SpyPlaneTex.utx"
+  fileSize: 340
+  hash: "2f8cbd2ebb82dec77f7866895530ecc1f9802694"
+- name: "SpyPlane.u"
+  fileSize: 10507
+  hash: "6aef4c7796d212d6422b49f9841db77e37298457"
+otherFiles: 3
+dependencies:
+  SpyPlane.u:
+  - status: "OK"
+    name: "SpyPlaneTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/I/0/8/fe676e/Inviso-Raptor.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Inviso-Raptor Replacer"
+  description: "Replaces all Raptors with the Inviso-Raptor, made by Missile 'Noob\
+    \ Coder' Master"
+weapons: []
+vehicles:
+- name: "Inviso-Raptor"
+  description: "Inviso-Raptor"
+hasConfigMenu: false
+hasKeybinds: false
