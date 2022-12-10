@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-05 06:00"
+game: "Unreal Tournament"
+name: "DM-1on1-Xenode"
+author: "Diablo"
+description: "Welcome to the Arena..."
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1-xenode_shot_685f401f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/X/6/8/5f401f/dm-1on1-xenode_shot_685f401f_1.png"
+originalFilename: "DM-1on1-Xenode.zip"
+hash: "685f401fbcad1c101ed87245a908dc0f98efafb2"
+fileSize: 6397293
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "DM-1on1-Xenode.unr"
+  fileSize: 760882
+  hash: "c37b5d7a2418150f79572dffcfadde2b03b051c7"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "sky16.utx"
+  fileSize: 551617
+  hash: "c191d51fb6d29583b8478e65e2177efdcb493198"
+otherFiles: 1
+dependencies:
+  DM-1on1-Xenode.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "sky16"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/X/6/8/5f401f/DM-1on1-Xenode.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "1 on 1"
+title: "Xenode Orbital Arena"
+playerCount: "2"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true
