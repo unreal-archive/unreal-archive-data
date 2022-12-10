@@ -1,0 +1,38 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:32"
+game: "Unreal Tournament 3"
+name: "BattleRPG"
+author: "the"
+description: "BattleRPG adds RPG things to UT3"
+releaseDate: "2007-12"
+attachments: []
+originalFilename: "BattleRPG_P1.zip"
+hash: "3dbe4a23e03dcc6fd26e2fc399628667677e0050"
+fileSize: 261255
+files:
+- name: "BattleRPG.u"
+  fileSize: 101990
+  hash: "23bb846a24575e12064af601d9c8d1e0a57bffec"
+- name: "UI_Scenes_Scoreboards_BR.upk"
+  fileSize: 448422
+  hash: "966df77fbb710c9d50a8fca8cbb1a911a50f9961"
+otherFiles: 3
+dependencies:
+  BattleRPG.u:
+  - status: "OK"
+    name: "UI_Scenes_Scoreboards_BR"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/B/3/d/be4a23/BattleRPG_P1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BattleRPG"
+  description: "BattleRPG adds RPG things to UT3"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

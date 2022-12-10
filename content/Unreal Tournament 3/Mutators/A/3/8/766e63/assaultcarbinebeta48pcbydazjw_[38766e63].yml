@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:31"
+game: "Unreal Tournament 3"
+name: "AssaultCarbineBeta48PCByDazJW"
+author: "DazJW"
+description: "None"
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "assaultcarbinebeta48pcbydazjw_shot_38766e63_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/A/3/8/766e63/assaultcarbinebeta48pcbydazjw_shot_38766e63_1.png"
+originalFilename: "AssaultCarbineBeta48PCByDazJW.7z"
+hash: "38766e637f56ebfd0f7b0bd57b013bafee595271"
+fileSize: 1885755
+files:
+- name: "Mod_DZWPASRifle.u"
+  fileSize: 46361
+  hash: "0934d264eb944a6eab2ff123b5fc93b869f968f0"
+- name: "DZ_WP_ASRifle.upk"
+  fileSize: 4426796
+  hash: "064e9854a3a6ea4e7d788abcdcc018fbc5f73c8b"
+otherFiles: 3
+dependencies:
+  Mod_DZWPASRifle.u:
+  - status: "OK"
+    name: "DZ_WP_ASRifle"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/A/3/8/766e63/AssaultCarbineBeta48PCByDazJW.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Spawn - Assault Carbine"
+  description: "Spawn with the Assault Carbine."
+- name: "Arena - Assault Carbine"
+  description: "Play an Assault Carbine only game with unlimited ammo."
+weapons:
+- name: "Assault Carbine"
+  description: "The Assault Carbine is a rapid fire bullet weapon with an attached\
+    \ grenade launcher."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

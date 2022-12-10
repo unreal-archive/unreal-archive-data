@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:34"
+game: "Unreal Tournament 3"
+name: "Jurassic Rage"
+author: "weapons more"
+description: "Respawner malfunction is bringing velociraptors to the battlefield.\
+  \ They're all around us. Stay sharp."
+releaseDate: "2008-10"
+attachments: []
+originalFilename: "JurassicRagePC_r39.zip"
+hash: "0c9405db2ceca6a7a5ccdbe401a52ca88f82cd4e"
+fileSize: 2022256
+files:
+- name: "JR.u"
+  fileSize: 153194
+  hash: "17b166c013081f9afc4bb879f54e797cca6f7297"
+- name: "JR_RaptorData.upk"
+  fileSize: 1351866
+  hash: "461c2ed79f61cb410d06a8110b955a4b28ef7f17"
+- name: "JR_UI.upk"
+  fileSize: 107334
+  hash: "4270d44c0343e9d4124e47a07d2c7b72994dd8aa"
+- name: "JR_RaptorSounds.upk"
+  fileSize: 306526
+  hash: "6d251b755895cdf2887039fa3efb7a5e7f150c9f"
+- name: "JR_Raptor.upk"
+  fileSize: 1047146
+  hash: "c627e393ffa1e878e475ab4e0171082af2aa7e0a"
+otherFiles: 2
+dependencies:
+  JR.u:
+  - status: "OK"
+    name: "JR_RaptorSounds"
+  - status: "OK"
+    name: "JR_Raptor"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/J/0/c/9405db/JurassicRagePC_r39.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Jurassic Rage"
+  description: "Respawner malfunction is bringing velociraptors to the battlefield.\
+    \ They're all around us. Stay sharp."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

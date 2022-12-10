@@ -1,0 +1,49 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:34"
+game: "Unreal Tournament 3"
+name: "Ripper - Replace Flak Cannon"
+author: "Unknown"
+description: "Replaces the Flak Cannon with the Ripper."
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "ripper-replace-flak-cannon_shot_4be1451a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/R/4/b/e1451a/ripper-replace-flak-cannon_shot_4be1451a_2.png"
+- type: "IMAGE"
+  name: "ripper-replace-flak-cannon_shot_4be1451a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/R/4/b/e1451a/ripper-replace-flak-cannon_shot_4be1451a_1.png"
+originalFilename: "ripperut3.7z"
+hash: "4be1451aa8fc7924b960f67f324b45705f301740"
+fileSize: 10247699
+files:
+- name: "Ripper.u"
+  fileSize: 58809
+  hash: "2219ae672194b42543522438cdf9f4f87e27c9a7"
+- name: "RipperPack.upk"
+  fileSize: 11946955
+  hash: "fe09280d8e6af3e5eb8efc221542fc3865381505"
+otherFiles: 5
+dependencies:
+  Ripper.u:
+  - status: "OK"
+    name: "RipperPack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/R/4/b/e1451a/ripperut3.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Ripper - Replace Flak Cannon"
+  description: "Replaces the Flak Cannon with the Ripper."
+weapons:
+- name: "Ripper"
+  description: "Liandri's newly-reinstated version of the infamous Ripper. Primary\
+    \ ejects a fast-travelling blade that can slice through bone and muscle, and can\
+    \ pin enemies to surfaces. Secondary fire releases a heavy explosive payload that\
+    \ weighs so much its trajectory is limited."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
