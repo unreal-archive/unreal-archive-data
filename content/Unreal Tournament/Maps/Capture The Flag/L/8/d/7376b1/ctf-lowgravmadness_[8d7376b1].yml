@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-21 21:16"
+game: "Unreal Tournament"
+name: "CTF-LowGravMadness"
+author: "Aspide"
+description: "Gravity? what's that?"
+releaseDate: "2023-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-lowgravmadness_shot_8d7376b1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/8/d/7376b1/ctf-lowgravmadness_shot_8d7376b1_1.png"
+originalFilename: "CTF-LowGravMadness.zip"
+hash: "8d7376b173cb3dee0088261d5460fd16357ff1f0"
+fileSize: 7047789
+files:
+- name: "Transam.umx"
+  fileSize: 443870
+  hash: "a7b2c938407923142705428b78f0a5b04507a393"
+- name: "CTF-LowGravMadness.unr"
+  fileSize: 11757757
+  hash: "ed4137fd0cb98d3f7c02cf5edbeeca15cd8f0f7b"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  CTF-LowGravMadness.unr:
+  - status: "OK"
+    name: "Transam"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/8/d/7376b1/CTF-LowGravMadness.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Low Gravity Madness"
+playerCount: "4-16"
+themes:
+  Tech: 1.0
+bots: true
