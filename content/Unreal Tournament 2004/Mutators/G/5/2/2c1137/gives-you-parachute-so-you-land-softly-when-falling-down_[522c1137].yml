@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-06 05:19"
+game: "Unreal Tournament 2004"
+name: "Gives you parachute so you land softly when falling down."
+author: "RoAR team"
+description: ""
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "7EbA_edo_chute1.zip"
+hash: "522c11376bfd9fa7f6081512501f13f8c5b92afe"
+fileSize: 132445
+files:
+- name: "edo_chute1_tx.utx"
+  fileSize: 175589
+  hash: "423b7439472a92807d6a4b932f965ff3a7b3955f"
+- name: "edo_chute1.u"
+  fileSize: 23309
+  hash: "310b437f7cc6b0ebb990e5091f770db09f881a05"
+- name: "edo_chute1_sm.usx"
+  fileSize: 21082
+  hash: "3bd09d5cb64958790c95de890d9d5a5112c4cc57"
+otherFiles: 2
+dependencies:
+  edo_chute1.u:
+  - status: "OK"
+    name: "edo_chute1_tx"
+  - status: "OK"
+    name: "edo_chute1_sm"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/G/5/2/2c1137/7EbA_edo_chute1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Gives you parachute so you land softly when falling down."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
