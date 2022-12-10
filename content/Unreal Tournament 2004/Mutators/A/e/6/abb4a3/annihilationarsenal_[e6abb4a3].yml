@@ -1,42 +1,44 @@
 --- !<MUTATOR>
 contentType: "MUTATOR"
-firstIndex: "2022-11-28 01:13"
-variationOf: "e6abb4a375c2eb50b704dd57c73b68b05c17918a"
+firstIndex: "2023-02-06 05:24"
 game: "Unreal Tournament 2004"
-name: "AnnihilationarsenalV2"
+name: "AnnihilationArsenal"
 author: "tes free"
 description: "None"
-releaseDate: "2004-05"
+releaseDate: "2004-07"
 attachments: []
-originalFilename: "annihilationarsenalV2.zip"
-hash: "4302819fc97e21db2dae65eb242b4a529da90a43"
-fileSize: 24787606
+originalFilename: "AnnihilationArsenal.rar"
+hash: "e6abb4a375c2eb50b704dd57c73b68b05c17918a"
+fileSize: 24007994
 files:
+- name: "AnnihilationArsenalVehicles.ukx"
+  fileSize: 3830963
+  hash: "1c0c85071873857d8f24300945ba8daeb7384fa5"
+- name: "AnnihilationArsenal.ut4mod"
+  fileSize: 52644541
+  hash: "2505bcc0099be6950d2bcd4b233d117b15c422db"
 - name: "AnnihilationArsenalMeshes.ukx"
   fileSize: 2757573
   hash: "87a912cd422f63abc9fbe1d89af063712709866f"
+- name: "AnnihilationArsenalTex.utx"
+  fileSize: 4505948
+  hash: "3095140eb12b2d6a18867388e68d38f0297ef6e7"
+- name: "AnnihilationArsenalVehicleTextures.utx"
+  fileSize: 35679049
+  hash: "5ef6b3eade5320acfe6ef7902ee4e33fcb9a1f3a"
+- name: "annihilationarsenalsounds.uax"
+  fileSize: 2723727
+  hash: "2a04a1bfc176f38c3930faeccbf1e95b0527645b"
 - name: "annihilationarsenal.u"
-  fileSize: 570801
-  hash: "9bf67685aed5954d1a3de71e3d154ef7ba55bdba"
+  fileSize: 616583
+  hash: "56ac2ecd77f0acc00ae768baf9b7d6f13c66fae3"
 - name: "AnnihilationArsenalEff.utx"
   fileSize: 47615
   hash: "50cdc54a57d6ba1bd58cb895b64f2d489a39f2e0"
 - name: "AnnihilationArsenalStaticMeshes.usx"
-  fileSize: 2070591
-  hash: "be98bae95cac1d111a8e9c9e2c2ebdf17f0eb9f2"
-- name: "AnnihilationArsenalVehicleTextures.utx"
-  fileSize: 34061445
-  hash: "565e8ea11fab2c3736c933cf99a8ad083f403170"
-- name: "AnnihilationArsenalVehicles.ukx"
-  fileSize: 3175951
-  hash: "81b4eb4a3bacdd491cbcae696ae8a6b98163f951"
-- name: "annihilationarsenalsounds.uax"
-  fileSize: 2238990
-  hash: "0bee44b10b7e38ab345094e178597984621c41dd"
-- name: "AnnihilationArsenalTex.utx"
-  fileSize: 4505948
-  hash: "3095140eb12b2d6a18867388e68d38f0297ef6e7"
-otherFiles: 3
+  fileSize: 2461349
+  hash: "84c0d28730d4a60e4159da464d062c145b9fabe4"
+otherFiles: 2
 dependencies:
   AnnihilationArsenalVehicles.ukx:
   - status: "OK"
@@ -67,24 +69,8 @@ dependencies:
   - status: "OK"
     name: "AnnihilationArsenalEff"
 downloads:
-- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/4/3/02819f/annihilationarsenalV2.zip"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/e/6/abb4a3/AnnihilationArsenal.rar"
   main: true
-  repack: false
-  state: "OK"
-- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/4/3/02819f/annihilationarsenalV2.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/annihilationarsenalV2.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Mutators/A/4/3/02819f/annihilationarsenalV2.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%202004/Mutators/A/4/3/02819f/annihilationarsenalV2.zip"
-  main: false
   repack: false
   state: "OK"
 links: {}
@@ -135,8 +121,8 @@ vehicles:
   description: "JackRabbit"
 - name: "OsaGame"
   description: "OsaGame"
-- name: "Vehicle"
-  description: "Vehicle"
+- name: "PLS"
+  description: "PLS"
 - name: "Passenger Seat"
   description: "Passenger Seat"
 - name: "Vehicle"
@@ -145,8 +131,6 @@ vehicles:
   description: "Hind Minigun Turret"
 - name: "Hind 3rd Turret"
   description: "Hind 3rd Turret"
-- name: "Vehicle"
-  description: "Vehicle"
 - name: "Wombat"
   description: "Wombat"
 hasConfigMenu: false
