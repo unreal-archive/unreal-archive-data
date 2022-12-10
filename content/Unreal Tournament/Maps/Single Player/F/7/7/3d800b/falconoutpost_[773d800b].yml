@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-15 18:27"
+game: "Unreal Tournament"
+name: "FalconOutpost"
+author: "Rob 'Doublez-Down' Collins"
+description: "None"
+releaseDate: "2013-08"
+attachments:
+- type: "IMAGE"
+  name: "falconoutpost_shot_773d800b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Single%20Player/F/7/7/3d800b/falconoutpost_shot_773d800b_1.png"
+originalFilename: "Falcon Outpost Final with All files.zip"
+hash: "773d800b09942a15288f2a699bfda15b2529ebd1"
+fileSize: 18700698
+files:
+- name: "FalconOutpostOutro.unr"
+  fileSize: 2240723
+  hash: "37a08cc8f13bb1c139e8a70991f5ae1d606e211a"
+- name: "Newmca13.umx"
+  fileSize: 841195
+  hash: "7f6fc7aa36778599cdbeae41e0e8c9ec2adf10fa"
+- name: "UPakDecoMeshes.u"
+  fileSize: 1101081
+  hash: "2a692670f853c18fc7aef92ae9987ee2bfcc6d03"
+- name: "RainFX.utx"
+  fileSize: 13802700
+  hash: "383d4a01b69eb5a32fb48c567c4a820aa7743696"
+- name: "Dusk.umx"
+  fileSize: 589723
+  hash: "6e29f13da19add182244286e5d02f7c6fd13eb31"
+- name: "FalconOutpost.unr"
+  fileSize: 13205568
+  hash: "8f2df50cd01dbd760a0f24447e12e1a3e5412786"
+- name: "Warlord.umx"
+  fileSize: 658700
+  hash: "1b5dacdd176353dd969a517a5cf1d2e8a22166b8"
+otherFiles: 1
+dependencies:
+  FalconOutpostOutro.unr:
+  - status: "MISSING"
+    name: "Return"
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  FalconOutpost.unr:
+  - status: "OK"
+    name: "UPakDecoMeshes"
+  - status: "OK"
+    name: "Newmca13"
+  - status: "OK"
+    name: "Dusk"
+  - status: "OK"
+    name: "WarLord"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Single%20Player/F/7/7/3d800b/Falcon%20Outpost%20Final%20with%20All%20files.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Single Player"
+title: "Assault on Outpost Seven"
+playerCount: "1"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.9
+bots: true
