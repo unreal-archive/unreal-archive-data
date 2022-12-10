@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-15 19:04"
+game: "Unreal Tournament"
+name: "shoalBlackLabel"
+author: "ebd"
+description: "Wow! Another fun day in space!"
+releaseDate: "2021-09"
+attachments:
+- type: "IMAGE"
+  name: "shoalblacklabel_shot_8f15219c_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Scavenger%20Hunt/O/8/f/15219c/shoalblacklabel_shot_8f15219c_2.png"
+- type: "IMAGE"
+  name: "shoalblacklabel_shot_8f15219c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Scavenger%20Hunt/O/8/f/15219c/shoalblacklabel_shot_8f15219c_1.png"
+originalFilename: "shoalBlackLabel.zip"
+hash: "8f15219cbc7b1959a6de6fc8ae062c7357b00a09"
+fileSize: 9719600
+files:
+- name: "AlternatePawns.u"
+  fileSize: 4639337
+  hash: "d35daf3ce5d3b8fd53c870a29a0f18bad2248dd7"
+- name: "firetrucks.u"
+  fileSize: 3398575
+  hash: "4bc3a3c445832f5778cfb77b048a2d5d53a66544"
+- name: "StarShoal.umx"
+  fileSize: 94178
+  hash: "d4d3d0c3261c35d48dc0f0f213de53d139319342"
+- name: "trashbag.u"
+  fileSize: 3040633
+  hash: "16c607b4fad4aa7bd1093cce87078e57b9024dca"
+- name: "shoalBlackLabel.unr"
+  fileSize: 8946139
+  hash: "3f689e0265aed7196cf7ab0b457d83e77948e44d"
+otherFiles: 3
+dependencies:
+  trashbag.u:
+  - status: "OK"
+    name: "firetrucks"
+  shoalBlackLabel.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "Twilight"
+  - status: "MISSING"
+    name: "UTemple"
+  - status: "OK"
+    name: "trashbag"
+  - status: "MISSING"
+    name: "Unreal4"
+  - status: "OK"
+    name: "StarShoal"
+  - status: "MISSING"
+    name: "Footsteps"
+  - status: "OK"
+    name: "AlternatePawns"
+  - status: "OK"
+    name: "firetrucks"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Scavenger%20Hunt/O/8/f/15219c/shoalBlackLabel.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Scavenger Hunt"
+title: "Star Shoal Episode Infinity ~Black Label~"
+playerCount: "Single Player"
+themes:
+  Nali Temple: 0.7
+  Natural: 0.1
+  Skaarj Tech: 0.1
+  Nali Castle: 0.1
+bots: true
