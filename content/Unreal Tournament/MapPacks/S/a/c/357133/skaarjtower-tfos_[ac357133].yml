@@ -1,0 +1,119 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 16:43"
+game: "Unreal Tournament"
+name: "Skaarjtower Tfos"
+author: "Various"
+description: "None"
+releaseDate: "2005-05"
+attachments:
+- type: "IMAGE"
+  name: "skaarjtower-tfos_shot_ac357133_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/a/c/357133/skaarjtower-tfos_shot_ac357133_3.png"
+- type: "IMAGE"
+  name: "skaarjtower-tfos_shot_ac357133_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/a/c/357133/skaarjtower-tfos_shot_ac357133_2.png"
+- type: "IMAGE"
+  name: "skaarjtower-tfos_shot_ac357133_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/S/a/c/357133/skaarjtower-tfos_shot_ac357133_1.png"
+originalFilename: "skaarjtower-tfos.zip"
+hash: "ac3571335a5421ed5ea367487cbce1653609561f"
+fileSize: 13873146
+files:
+- name: "jason.umx"
+  fileSize: 5283073
+  hash: "c12763ba1b31695e2b8d0089640415378fdf09cd"
+- name: "stfos.u"
+  fileSize: 89969
+  hash: "26b8b7f30249cec5ff5471771b62f4ccd72b3dc1"
+- name: "ST-Neriux.unr"
+  fileSize: 3620103
+  hash: "a0b29cc3d9f25534b6297260120edb0051728357"
+- name: "C_Torch.u"
+  fileSize: 2646
+  hash: "8c7eaf6d68e8fdeb160aaea92f6bc716a88d5bd8"
+- name: "sdmfar.umx"
+  fileSize: 2057805
+  hash: "a15955d2073012b3d0b031b5b0679de53c4a1a5b"
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+- name: "survivor.umx"
+  fileSize: 898882
+  hash: "00d9a2fd853cf0961008bad61b486cda2e503df2"
+- name: "Alone.umx"
+  fileSize: 706619
+  hash: "149c15f96d4e0ceb76ba8123b3fbf8598460314b"
+- name: "ride_t_hell.umx"
+  fileSize: 1381916
+  hash: "15f9b4d45b6883460ac7d14adfb0089d02ed4024"
+- name: "ST-thecoastline.unr"
+  fileSize: 3555083
+  hash: "ea61e4b10b30593df2d308797c7f1c6aa5b69187"
+- name: "ST-NrgatothBase.unr"
+  fileSize: 6600944
+  hash: "8308961de19dde93c35aecf1a28cf36f440d0a8e"
+- name: "ST-SeGrethValley.unr"
+  fileSize: 5885986
+  hash: "872842c78e52798a898d63311be4265c8e6fcb8a"
+- name: "suspense.umx"
+  fileSize: 1792125
+  hash: "ff3c213fd5b7768dab93c17dc502b35bbcac2bc8"
+otherFiles: 7
+dependencies:
+  stfos.u:
+  - status: "MISSING"
+    name: "olroot"
+  ST-SeGrethValley.unr:
+  - status: "OK"
+    name: "suspense"
+  - status: "OK"
+    name: "survivor"
+  ST-thecoastline.unr:
+  - status: "OK"
+    name: "sdmfar"
+  - status: "OK"
+    name: "ForsakenT"
+  ForsakenT.utx:
+  - status: "MISSING"
+    name: "WOTDetail"
+  ST-Neriux.unr:
+  - status: "OK"
+    name: "ride_t_hell"
+  - status: "OK"
+    name: "Alone"
+  ST-NrgatothBase.unr:
+  - status: "OK"
+    name: "C_Torch"
+  - status: "OK"
+    name: "ride_t_hell"
+  - status: "OK"
+    name: "survivor"
+  - status: "OK"
+    name: "jason"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/S/a/c/357133/skaarjtower-tfos.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "ST-Neriux"
+  title: "Starship Neriux"
+  author: "base geometry by Eenocks reduxed by Cardi"
+- name: "ST-thecoastline"
+  title: "Approaching the coast"
+  author: "Kimmo \"Cardiologist\" Kontto"
+- name: "ST-NrgatothBase"
+  title: "Nr'Gatoth Base"
+  author: "Kimmo \"Cardiologist\" Kontto"
+- name: "ST-SeGrethValley"
+  title: "Valley of Se'Greth"
+  author: "Kimmo \"Cardiologist\" Kontto"
+gametype: "Unknown"
+themes:
+  Natural: 0.2
+  Nali Castle: 0.1
+  Skaarj Tech: 0.5
+  Ancient: 0.2
