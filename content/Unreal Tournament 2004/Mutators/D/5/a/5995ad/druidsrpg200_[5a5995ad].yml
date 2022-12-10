@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 10:27"
+variationOf: "1b3f305c3001591825d0cf4c702ca2faba367bd3"
+game: "Unreal Tournament 2004"
+name: "DruidsRPG200"
+author: "TheDruidXpawX and Shantara"
+description: "None"
+releaseDate: "2006-07"
+attachments: []
+originalFilename: "DruidsRPG200.zip"
+hash: "5a5995ad304c6b111c5b727733b9618fed51bacc"
+fileSize: 95543
+files:
+- name: "DruidsRPGShaders1.utx"
+  fileSize: 1412
+  hash: "a0ba8ca11a24acd4fa0fa9c0136cd3fdfb004e48"
+- name: "DruidsRPG200.u"
+  fileSize: 297371
+  hash: "09dd354be7f0b117b0b3ffca1a68ed9c96de74a8"
+otherFiles: 4
+dependencies:
+  DruidsRPG200.u:
+  - status: "OK"
+    name: "DruidsRPGShaders1"
+  - status: "MISSING"
+    name: "UTRPGTextures"
+  - status: "MISSING"
+    name: "UT2004RPG"
+  - status: "MISSING"
+    name: "UTRPGTextures2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/D/5/a/5995ad/DruidsRPG200.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Druid's RPG Upgrade Mutator"
+  description: "Druid's RPG Upgrade Mutator. Needed to upgrade old RPG Data"
+- name: "Druid's Invasion RPG HUD"
+  description: "Show Friendly Monsters In HUD and show monsters on a danger scale\
+    \ from Green to Red"
+- name: "Score Fix"
+  description: "Changes scoring and RPG Points for various game types."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

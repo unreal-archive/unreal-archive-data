@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 10:27"
+game: "Unreal Tournament 2004"
+name: "VCTF-DW-EffectsDemo-Windtest"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-10"
+attachments: []
+originalFilename: "DWeather_241004.rar"
+hash: "e2f09a4fbb45cf066197c68faea024b538ae6191"
+fileSize: 1098288
+files:
+- name: "VCTF-DW-EffectsDemo-Windtest.ut2"
+  fileSize: 5797470
+  hash: "0cf10acc02db39d71d10cbd4d266cd96d1c109fb"
+- name: "DWeather-smesh.usx"
+  fileSize: 41507
+  hash: "01469e3b5663f47a162d14d48effd3cd389aad16"
+- name: "DWeather-Tex.utx"
+  fileSize: 706752
+  hash: "11ceaa8d0a2efdd21c376233aafc5c79c64da204"
+- name: "Dweather.u"
+  fileSize: 196380
+  hash: "fbded94b1e3d1b54d5025b022f91479812342f0c"
+otherFiles: 1
+dependencies:
+  Dweather.u:
+  - status: "OK"
+    name: "DWeather-smesh"
+  - status: "OK"
+    name: "DWeather-tex"
+  VCTF-DW-EffectsDemo-Windtest.ut2:
+  - status: "OK"
+    name: "DWeather"
+  - status: "OK"
+    name: "DWeather-smesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/D/e/2/f09a4f/DWeather_241004.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "VCTF-DW-EffectsDemo-Windtest"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.4
+  Ancient: 0.6
+bots: true
