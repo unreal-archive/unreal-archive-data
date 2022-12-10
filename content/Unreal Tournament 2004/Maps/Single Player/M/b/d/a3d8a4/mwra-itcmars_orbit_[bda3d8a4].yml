@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 01:47"
+game: "Unreal Tournament 2004"
+name: "MWRA-(ITC)Mars_Orbit"
+author: "Tempus"
+description: "In Space near the Mars Planet Orbit there is a structure perfect for\
+  \ Rail Arena matches."
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "mwra-itcmars_orbit_shot_bda3d8a4_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Single%20Player/M/b/d/a3d8a4/mwra-itcmars_orbit_shot_bda3d8a4_2.png"
+- type: "IMAGE"
+  name: "mwra-itcmars_orbit_shot_bda3d8a4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Single%20Player/M/b/d/a3d8a4/mwra-itcmars_orbit_shot_bda3d8a4_1.png"
+originalFilename: "MWRA-ITCMars_Orbit.rar"
+hash: "bda3d8a41ef2779b3ed2e1633aa769978a64c474"
+fileSize: 8352352
+files:
+- name: "MWRA-(ITC)Mars_Orbit.ut2"
+  fileSize: 2120302
+  hash: "501b940e2f8d9942007efad874b34d850785983e"
+- name: "MW-Tempus_Meshes.usx"
+  fileSize: 2452019
+  hash: "d50041778f67376fec7104a30ba3ec72cf62ca58"
+- name: "Petrol.ogg"
+  fileSize: 7124244
+  hash: "bd24322867cf9d9113b418dd126dedd49839a6f4"
+otherFiles: 2
+dependencies:
+  MWRA-(ITC)Mars_Orbit.ut2:
+  - status: "MISSING"
+    name: "RFLevelTextures"
+  - status: "OK"
+    name: "MW-Tempus_Meshes"
+  MW-Tempus_Meshes.usx:
+  - status: "MISSING"
+    name: "RFLevelTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Single%20Player/M/b/d/a3d8a4/MWRA-ITCMars_Orbit.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Single Player"
+title: "Mars Orbit"
+playerCount: "8-16"
+themes:
+  Natural: 0.9
+  Tech: 0.1
+bots: true

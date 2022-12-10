@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 01:49"
+variationOf: "d602f7abc7f5d6df855665b0d98cc943324dcd35"
+game: "Unreal Tournament 2004"
+name: "ONS-Hyrule"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-07"
+attachments: []
+originalFilename: "ONS-Hyrule.zip"
+hash: "6e5f8bd0a25138a704fc8f2f649cd90e5464e4e1"
+fileSize: 5682404
+files:
+- name: "Zelda3Textures.utx"
+  fileSize: 1929543
+  hash: "a51a3fefdaaac2ecf14ca7cc9804d112fc7160aa"
+- name: "Zelda3SMesh.usx"
+  fileSize: 516483
+  hash: "8fef0307c5aab4320d1286090a8095340696a930"
+- name: "ONS-Hyrule.ut2"
+  fileSize: 19771344
+  hash: "a64e4fa60b431a16ec6175babbdf6af54c8a1f28"
+otherFiles: 0
+dependencies:
+  Zelda3SMesh.usx:
+  - status: "OK"
+    name: "Zelda3Textures"
+  ONS-Hyrule.ut2:
+  - status: "OK"
+    name: "Zelda3SMesh"
+  - status: "OK"
+    name: "Zelda3Textures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/H/6/e/5f8bd0/ONS-Hyrule.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Onslaught"
+title: "ONS-Hyrule"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.1
+  Egyptian: 0.9
+bots: true

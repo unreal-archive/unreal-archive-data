@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 01:47"
+game: "Unreal Tournament 2004"
+name: "CTF-Napali"
+author: "Unknown"
+description: "An Ancient temple on the planet of Napali, a mining operation was run\
+  \ here but after it failed to turn a profit it was handed over to the tournament\
+  \ as a CTF arena"
+releaseDate: "2006-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-napali_shot_3a1b093b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/N/3/a/1b093b/ctf-napali_shot_3a1b093b_1.png"
+originalFilename: "Napali.zip"
+hash: "3a1b093bff46be1af3cd00a35665fcb1935050bb"
+fileSize: 5206636
+files:
+- name: "Sanctuary.utx"
+  fileSize: 4195336
+  hash: "c3829dc60d76dcbe9e1df9265cb08634c0254b4f"
+- name: "CTF-Napali.ut2"
+  fileSize: 10322282
+  hash: "3881838e96935e931ec0bcacda6f54d08aced670"
+- name: "SanctuaryRocks.usx"
+  fileSize: 1097721
+  hash: "d9adf3f4cd3e8a5f7507886c2d97f84855236e68"
+otherFiles: 0
+dependencies:
+  CTF-Napali.ut2:
+  - status: "OK"
+    name: "SanctuaryRocks"
+  - status: "OK"
+    name: "Sanctuary"
+  SanctuaryRocks.usx:
+  - status: "OK"
+    name: "Sanctuary"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/N/3/a/1b093b/Napali.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Napali"
+playerCount: "4-6"
+themes:
+  Ancient: 1.0
+bots: true
