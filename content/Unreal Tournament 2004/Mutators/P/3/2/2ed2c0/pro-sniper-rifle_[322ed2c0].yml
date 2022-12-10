@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 06:57"
+game: "Unreal Tournament 2004"
+name: "Pro-Sniper Rifle"
+author: "Unknown"
+description: "-Professional Sniper Rifle-||Up to 20x electronic scope.|Hypersonic\
+  \ bullets.|Silencer.|Infinite power in your hands.|Ready to shredd up you enemies?"
+releaseDate: "2005-04"
+attachments: []
+originalFilename: "a.zip"
+hash: "322ed2c05e813fb1812cba1c87423fd5162c2c28"
+fileSize: 1104555
+files:
+- name: "ProSniperRifleV1.u"
+  fileSize: 292579
+  hash: "81fa685ec9eb5f9ae76f34c4cdc41d47f50bb691"
+- name: "Sniper_CustomEE_SM.usx"
+  fileSize: 225558
+  hash: "94ce331a1b10582cb98c113177842616d8fd04db"
+- name: "Sniper_customEE.ukx"
+  fileSize: 2258417
+  hash: "89180a166dc71be687a037f8d53455e4e9265da0"
+otherFiles: 3
+dependencies:
+  Sniper_CustomEE_SM.usx:
+  - status: "OK"
+    name: "Sniper_customEE"
+  ProSniperRifleV1.u:
+  - status: "OK"
+    name: "Sniper_CustomEE"
+  - status: "OK"
+    name: "Sniper_CustomEE_SM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/3/2/2ed2c0/a.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Pro-Sniper Rifle"
+  description: "-Professional Sniper Rifle-||Up to 20x electronic scope.|Hypersonic\
+    \ bullets.|Silencer.|Infinite power in your hands.|Ready to shredd up you enemies?"
+weapons:
+- name: "Professional Sniper Rifle"
+  description: "The -Professional Sniper Rifle- is a silenced higly letal rifle.|Primary\
+    \ fire shots hypersonic bullets.|Secondary fire is a 20x electronic scope."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
