@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-15 17:43"
+game: "Unreal"
+name: "swtM1"
+author: "Swordtail"
+description: "None"
+releaseDate: "2008-12"
+attachments:
+- type: "IMAGE"
+  name: "swtm1_shot_2d77eceb_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/Maps/Tactical%20Ops/T/2/d/77eceb/swtm1_shot_2d77eceb_1.png"
+originalFilename: "swtm1_v2.rar"
+hash: "2d77eceb80951432224bf899a54cd955c5e175c8"
+fileSize: 6337349
+files:
+- name: "swtClasses1.u"
+  fileSize: 1344016
+  hash: "0d24bae562699aef4dfa724eea86cda6bf139081"
+- name: "swtM1_end.unr"
+  fileSize: 1498400
+  hash: "103eed0794ae81733bc4413053f02944d24afbed"
+- name: "space.u"
+  fileSize: 6361
+  hash: "e5eaf81d8b666eaa988f383efe61d302d682e842"
+- name: "CoreTexMisc2.utx"
+  fileSize: 423870
+  hash: "1aaa3f560358e989e26ed8cd70721fe5e79d682a"
+- name: "Langs.utx"
+  fileSize: 2898567
+  hash: "46a24505e8565769694f0fa4deb05e71c6ebbc9f"
+- name: "swtMusic1.umx"
+  fileSize: 473410
+  hash: "19159c5b9a110398115c269aa2a18a4eaa3b9f67"
+- name: "swtM1.unr"
+  fileSize: 11392710
+  hash: "22f85e8d35ef2d4ab55e3729c2475d73d18853f0"
+- name: "swtTex1.utx"
+  fileSize: 5360706
+  hash: "db71df8610e92bb6e06749199466fb8763d737d5"
+- name: "SwtSounds.uax"
+  fileSize: 791110
+  hash: "6e16443d576b5c2128b277775a09bef34de23a2a"
+otherFiles: 1
+dependencies:
+  swtM1.unr:
+  - status: "OK"
+    name: "space"
+  - status: "OK"
+    name: "swtMusic1"
+  - status: "OK"
+    name: "swtTex1"
+  - status: "OK"
+    name: "CoreTexMisc2"
+  - status: "OK"
+    name: "SwtSounds"
+  - status: "OK"
+    name: "swtClasses1"
+  swtM1_end.unr:
+  - status: "OK"
+    name: "swtClasses1"
+  - status: "OK"
+    name: "swtTex1"
+  swtClasses1.u:
+  - status: "OK"
+    name: "swtTex1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/Maps/Tactical%20Ops/T/2/d/77eceb/swtm1_v2.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Tactical Ops"
+title: "UMS Solaris"
+playerCount: "Unknown"
+themes:
+  Tech: 0.3
+  Natural: 0.2
+  Nali Castle: 0.1
+  Ancient: 0.4
+bots: true
