@@ -1,0 +1,82 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-06 19:33"
+game: "Unreal Tournament 2004"
+name: "UT2004 Mappack 1"
+author: "Various"
+description: "None"
+releaseDate: "2004-08"
+attachments:
+- type: "IMAGE"
+  name: "ut2004-mappack-1_shot_64aed5ce_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/6/4/aed5ce/ut2004-mappack-1_shot_64aed5ce_2.png"
+- type: "IMAGE"
+  name: "ut2004-mappack-1_shot_64aed5ce_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/6/4/aed5ce/ut2004-mappack-1_shot_64aed5ce_1.png"
+- type: "IMAGE"
+  name: "ut2004-mappack-1_shot_64aed5ce_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/6/4/aed5ce/ut2004-mappack-1_shot_64aed5ce_3.png"
+- type: "IMAGE"
+  name: "ut2004-mappack-1_shot_64aed5ce_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/U/6/4/aed5ce/ut2004-mappack-1_shot_64aed5ce_4.png"
+originalFilename: "UT2004 Mappack 1.zip"
+hash: "64aed5ce8db3a42770a83a5caede59b55cf27830"
+fileSize: 29627805
+files:
+- name: "DM-Aristocracy2004.ut2"
+  fileSize: 6996768
+  hash: "76b9c82c58983fd220f9d58983578ac87914d636"
+- name: "DM-Tempest2.ut2"
+  fileSize: 8226599
+  hash: "ede4707582b27bbb29d56ae17249b264dd449043"
+- name: "DM-1on1-Incuvasion.ut2"
+  fileSize: 20947198
+  hash: "e5ed6ad036bcbf2772b7b77f5fe7fb5a206aabf4"
+- name: "R3tex.utx"
+  fileSize: 18411221
+  hash: "a3b8aa1f3533b79f4e42d4d4cd5b2a5632e02d68"
+- name: "R3meshes.usx"
+  fileSize: 4042493
+  hash: "12080ef1a08b24643115f39b397cb1f9cac44138"
+- name: "DM-Tempest2.ogg"
+  fileSize: 2103115
+  hash: "4ba9689db5f90b1e0b533e468a0bd2ee17cf5d1d"
+- name: "DM-Forbidden.ut2"
+  fileSize: 19710755
+  hash: "8f7621f2d0a7332a4d1876aaa07827122ab3d72f"
+otherFiles: 5
+dependencies:
+  R3meshes.usx:
+  - status: "OK"
+    name: "R3tex"
+  DM-Aristocracy2004.ut2:
+  - status: "OK"
+    name: "R3tex"
+  - status: "OK"
+    name: "R3meshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/U/6/4/aed5ce/UT2004%20Mappack%201.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Aristocracy2004"
+  title: "Aristocracy"
+  author: "Paul 'TAZ' Mader"
+- name: "DM-Tempest2"
+  title: "Tempest 2291"
+  author: "x`zz5"
+- name: "DM-1on1-Incuvasion"
+  title: "Incuvasion"
+  author: "Alexander Lehmann"
+- name: "DM-Forbidden"
+  title: "Forbidden"
+  author: "David Spalinski & Warbeast"
+gametype: "Mixed"
+themes:
+  Tech: 0.7
+  Natural: 0.1
+  Industrial: 0.2
+  Ancient: 0.1

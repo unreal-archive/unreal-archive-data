@@ -1,0 +1,172 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-06 19:33"
+game: "Unreal Tournament 2004"
+name: "Ut2004 Flying Vehicle Pack"
+author: "Devlyn Napoli"
+description: "None"
+releaseDate: "2007-08"
+attachments:
+- type: "IMAGE"
+  name: "ut2004-flying-vehicle-pack_shot_ea7a684c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/U/e/a/7a684c/ut2004-flying-vehicle-pack_shot_ea7a684c_1.png"
+originalFilename: "Ut2004 Flying Vehicle Pack.zip"
+hash: "ea7a684c34dc10aca76145808d5330b0d7027c87"
+fileSize: 26252165
+files:
+- name: "LED.u"
+  fileSize: 27634254
+  hash: "37021353fcf3eebcacdf20ee13880791bdc90a2f"
+- name: "WarWingM.ukx"
+  fileSize: 616830
+  hash: "05c86ff5bbd7e4afeee682fc428fa642e316e897"
+- name: "edo_chute1_tx.utx"
+  fileSize: 175589
+  hash: "423b7439472a92807d6a4b932f965ff3a7b3955f"
+- name: "WarWingSM.usx"
+  fileSize: 283714
+  hash: "7f3a8799a46ad11d17ba62c2274e2e3422d5a8b4"
+- name: "Kore_Vehicle.u"
+  fileSize: 43923
+  hash: "0a4f89f5819f65daeff06d59955db7e4a4fc3039"
+- name: "DN_AtakapaStatic.usx"
+  fileSize: 1720048
+  hash: "b60bc27b8451b624ab6f77281c4cc275598d99a2"
+- name: "WarWing.u"
+  fileSize: 419059
+  hash: "54b1c08d8f24c6d69d4ffc670e4e975beb40be62"
+- name: "DN_AtakapaAnim.ukx"
+  fileSize: 723543
+  hash: "bd11f622ced35e26f21b3576a7adbab62b6c10de"
+- name: "DN_AtakapaSounds.uax"
+  fileSize: 377698
+  hash: "88fb45c2db7dceb98d2f657806db8b962b346bca"
+- name: "edo_chute1.u"
+  fileSize: 23309
+  hash: "310b437f7cc6b0ebb990e5091f770db09f881a05"
+- name: "HaloBanshee.u"
+  fileSize: 42913
+  hash: "933ba61895d30c1fef3c1f40da065151eb5ded7d"
+- name: "Kore_SM.usx"
+  fileSize: 307307
+  hash: "61e3dfd01c3525c6a759916894f038de9c015848"
+- name: "BansheeTextures.utx"
+  fileSize: 4601099
+  hash: "86f6c57b3542306a095f066d6b3a17ac3148bdf6"
+- name: "Kore_Tex.utx"
+  fileSize: 2797076
+  hash: "a099ac4d6115670a440d438a2a9bcb92fae785b9"
+- name: "edo_chute1_sm.usx"
+  fileSize: 21082
+  hash: "3bd09d5cb64958790c95de890d9d5a5112c4cc57"
+- name: "DN_AtakapaTexs.utx"
+  fileSize: 7255799
+  hash: "62f304d1ddca9077d0855029dde201a5a3bbf8ee"
+- name: "WWTex.utx"
+  fileSize: 3324101
+  hash: "f7aa83a02b11c016800a287b90328425f87dc773"
+- name: "BansheeMeshes.usx"
+  fileSize: 502046
+  hash: "51981c31ad96d06545d73608a62af5278df5ebf1"
+- name: "NAtakapa.u"
+  fileSize: 64100
+  hash: "0d06a72f6e1a2e8c234fad974bc919ba9e3e5804"
+- name: "BansheeSounds.uax"
+  fileSize: 165731
+  hash: "e7014450c1cbb6630b868607227dbdda57a8a8cc"
+- name: "Kore_Vehicles.ukx"
+  fileSize: 413864
+  hash: "1a4379c32d1c12978f0d711529bdaf628fb309ac"
+- name: "Banshee.ukx"
+  fileSize: 188868
+  hash: "1e06afd49d6aa5dd26e1467bee86eac2e53969e9"
+otherFiles: 13
+dependencies:
+  WarWing.u:
+  - status: "OK"
+    name: "WarWingSM"
+  - status: "OK"
+    name: "WWTex"
+  - status: "OK"
+    name: "WarWingM"
+  WarWingM.ukx:
+  - status: "OK"
+    name: "WWTex"
+  BansheeMeshes.usx:
+  - status: "OK"
+    name: "BansheeTextures"
+  Kore_Vehicle.u:
+  - status: "OK"
+    name: "Kore_Vehicles"
+  - status: "OK"
+    name: "Kore_Tex"
+  - status: "OK"
+    name: "Kore_SM"
+  WarWingSM.usx:
+  - status: "OK"
+    name: "WWTex"
+  DN_AtakapaStatic.usx:
+  - status: "OK"
+    name: "DN_AtakapaTexs"
+  DN_AtakapaAnim.ukx:
+  - status: "OK"
+    name: "DN_AtakapaTexs"
+  edo_chute1.u:
+  - status: "OK"
+    name: "edo_chute1_tx"
+  - status: "OK"
+    name: "edo_chute1_sm"
+  HaloBanshee.u:
+  - status: "OK"
+    name: "BansheeSounds"
+  - status: "OK"
+    name: "Banshee"
+  - status: "OK"
+    name: "BansheeMeshes"
+  - status: "OK"
+    name: "BansheeTextures"
+  Banshee.ukx:
+  - status: "OK"
+    name: "BansheeTextures"
+  - status: "OK"
+    name: "BansheeMeshes"
+  NAtakapa.u:
+  - status: "OK"
+    name: "DN_AtakapaAnim"
+  - status: "OK"
+    name: "DN_AtakapaStatic"
+  - status: "OK"
+    name: "DN_AtakapaSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/e/a/7a684c/Ut2004%20Flying%20Vehicle%20Pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Atakapa Arena"
+  description: "Whether the Atakapa Indians practiced cannibalism for subsistence\
+    \ or ritual is unknown. What is known is that neither the former nor latter are\
+    \ that reasons this battle chopper is used in the Tournament. This vehicle sports\
+    \ a front mounted 50 caliber chaingun that fires exploding rounds with remarkable\
+    \ accuracy and guided missiles useful for air to air as well as Mantas. Replaces\
+    \ Raptors with the R-213 Atakapa."
+- name: "Cerberus Mutator"
+  description: "Replace the Cicada with the Cerberus"
+- name: "Banshee"
+  description: "Replaces the raptor with the Banshee from Halo"
+weapons: []
+vehicles:
+- name: "WarWing"
+  description: "WarWing"
+- name: "WarWing Co-Pilot seat"
+  description: "WarWing Co-Pilot seat"
+- name: "Atakapa"
+  description: "Atakapa"
+- name: "Cerberus"
+  description: "Cerberus"
+- name: "Banshee"
+  description: "Banshee"
+hasConfigMenu: false
+hasKeybinds: false
