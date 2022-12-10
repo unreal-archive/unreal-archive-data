@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 21:23"
+game: "Unreal Tournament 2004"
+name: "DM-Citadel"
+author: "N3tL!zzard"
+description: "Enter destroyed Citadel and turn off the reactor to save City 17."
+releaseDate: "2011-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-citadel_shot_fce6e5cd_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/C/f/c/e6e5cd/dm-citadel_shot_fce6e5cd_1.png"
+originalFilename: "DM-Citadel.zip"
+hash: "fce6e5cdeb813f8daa08de3ff1e0969ccbfd16e4"
+fileSize: 17054389
+files:
+- name: "HL2Tex.utx"
+  fileSize: 30070834
+  hash: "99fce9bc7bd1ecc2bfb4dbac4a4ec5f5594cc069"
+- name: "HL2Static.usx"
+  fileSize: 9521833
+  hash: "def4f96af7a9b81c326b10932caaf6f4639f0c56"
+- name: "DM-Citadel.ut2"
+  fileSize: 2400693
+  hash: "1464b81f19751c53f5b59f62d25da7d563f52a11"
+otherFiles: 1
+dependencies:
+  DM-Citadel.ut2:
+  - status: "OK"
+    name: "HL2Tex"
+  - status: "OK"
+    name: "HL2Static"
+  HL2Static.usx:
+  - status: "OK"
+    name: "HL2Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/C/f/c/e6e5cd/DM-Citadel.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Combine Citadel"
+playerCount: "Unknown"
+themes: {}
+bots: true
