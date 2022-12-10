@@ -1,0 +1,90 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 16:34"
+game: "Unreal Tournament"
+name: "Return The Heart"
+author: "Various"
+description: "None"
+releaseDate: "2010-07"
+attachments:
+- type: "IMAGE"
+  name: "return-the-heart_shot_30b67355_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/R/3/0/b67355/return-the-heart_shot_30b67355_1.png"
+originalFilename: "Return the Heart.rar"
+hash: "30b673554786ebf9f985c43dae5f800584a11743"
+fileSize: 5863068
+files:
+- name: "DDHeart.u"
+  fileSize: 67584
+  hash: "a94f4e2c5b10a9057ae4165cf16df19508d5e862"
+- name: "Suspense.umx"
+  fileSize: 594095
+  hash: "91ab8884d145808658dd8e147f0fcdeeee46d5d2"
+- name: "HyperBore.umx"
+  fileSize: 1657898
+  hash: "eb6cfe95f74da5478dd2628003cce1b827830ad9"
+- name: "DM-Relinquished.unr"
+  fileSize: 4018657
+  hash: "12ee53792be081ea6c02ebb1b75ad7434f9f8c35"
+- name: "Karkuth.unr"
+  fileSize: 5749268
+  hash: "cd11f5d4b489801193334e757c3ca711ededd93a"
+- name: "Pitchiz.unr"
+  fileSize: 3081317
+  hash: "e934ee64b6ebb566a026e83a94eb5e7316a91ddf"
+- name: "DivineAnnex.unr"
+  fileSize: 4552295
+  hash: "84951e54c4c001bcaffc84aea36be491a2e3061b"
+otherFiles: 2
+dependencies:
+  Karkuth.unr:
+  - status: "MISSING"
+    name: "oldskool"
+  - status: "OK"
+    name: "Suspense"
+  - status: "MISSING"
+    name: "EverSmoke"
+  DM-Relinquished.unr:
+  - status: "OK"
+    name: "HyperBore"
+  DivineAnnex.unr:
+  - status: "MISSING"
+    name: "UTemple"
+  - status: "MISSING"
+    name: "OldSkool"
+  Pitchiz.unr:
+  - status: "MISSING"
+    name: "OldSkool"
+  - status: "OK"
+    name: "Suspense"
+  - status: "MISSING"
+    name: "seti"
+  DDHeart.u:
+  - status: "MISSING"
+    name: "olroot"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/R/3/0/b67355/Return%20the%20Heart.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Relinquished"
+  title: "DM-Relinquished"
+  author: "Rob Collins + Nachimir"
+- name: "Karkuth"
+  title: "Karkuth Monastery"
+  author: "Rob 'Doublez-Down' Collins"
+- name: "Pitchiz"
+  title: "Pit of Chizra"
+  author: "Rob 'Doublez-Down' Collins"
+- name: "DivineAnnex"
+  title: "Divine Annex"
+  author: "Rob 'Doublez-Down' Collins"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.5
+  Industrial: 0.1
+  Nali Castle: 0.2
+  Ancient: 0.2
