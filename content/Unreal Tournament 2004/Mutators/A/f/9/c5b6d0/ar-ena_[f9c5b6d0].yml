@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 08:57"
+game: "Unreal Tournament 2004"
+name: "AR-ena"
+author: "Unknown"
+description: "Replace AssaultRifles with the GJAC-AR"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "GJAC ARena.zip"
+hash: "f9c5b6d09c029db114e1de9e884ff95deccfdba6"
+fileSize: 131855
+files:
+- name: "GJACARena.u"
+  fileSize: 53085
+  hash: "ebea2f7cebd285cc2e652a0aaa20cd8d4021f3c5"
+- name: "GJACsounds.uax"
+  fileSize: 133725
+  hash: "c47dc7e65ca3cfbbdbf97dc37c11c094887574c0"
+otherFiles: 3
+dependencies:
+  GJACARena.u:
+  - status: "OK"
+    name: "GJACsounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/f/9/c5b6d0/GJAC%20ARena.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "AR-ena"
+  description: "Replace AssaultRifles with the GJAC-AR"
+weapons:
+- name: "GJAC-AR"
+  description: "Inexpensive and easily produced, the AR770 provides a lightweight\
+    \ 5.56mm combat solution that is most effective against unarmored foes. With low-to-moderate\
+    \ armor penetration capabilities, this rifle is best suited to a role as a light\
+    \ support weapon.|The optional M355 Grenade Launcher provides the punch that makes\
+    \ this weapon effective against heavily armored enemies.  Pick up a second assault\
+    \ rifle to double your fire power."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
