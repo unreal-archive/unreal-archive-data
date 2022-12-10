@@ -1,0 +1,84 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 02:51"
+game: "Unreal Tournament 2004"
+name: "BTR8-80 APC"
+author: "Wangtang"
+description: "The BTR-80 is an 8 wheeled amphibious apc, armed with a 30mm HE Cannon,\
+  \ and is capable of carrying a total of 8 passengers (1 driver, 1 gunner, 6 passengers)\
+  \ onto the battle field is relative safety. This vehicle will replace the Hellbender.\
+  \ The 'D' is the Desert camo version, and the 'U' is the urban camo version, and\
+  \ the 'J' is the Jungle camo version. By Wangtang."
+releaseDate: "2007-03"
+attachments: []
+originalFilename: "modern_warfare_vehicles.zip"
+hash: "ae67bdb5f5ed33fd67fb2ae2c03a9f8c08414c58"
+fileSize: 5263883
+files:
+- name: "BTR80v2Static.usx"
+  fileSize: 2366959
+  hash: "53f59703ea5e379729723c948709869b3490c800"
+- name: "BTR80v2Sound.uax"
+  fileSize: 1444027
+  hash: "bd85d5d54ed6f804559e98fdc0045f738754d096"
+- name: "BTR80v2Anim.ukx"
+  fileSize: 1091162
+  hash: "bf3a14295af25d4fc6fee507793601147ee4eb9c"
+- name: "BTR80v2Tex.utx"
+  fileSize: 7342029
+  hash: "ee617ef7da06220d8a958ad39520d8fe8afb0d53"
+- name: "watercraft-TX.utx"
+  fileSize: 260205
+  hash: "d70e7e76a7e4450338c35fb7cf527748dc037a4f"
+- name: "BTR80v2.u"
+  fileSize: 95752
+  hash: "c6934cf6c3384c3630b938e599aecea4f82d2603"
+otherFiles: 3
+dependencies:
+  BTR80v2Static.usx:
+  - status: "OK"
+    name: "BTR80v2Tex"
+  BTR80v2Anim.ukx:
+  - status: "OK"
+    name: "BTR80v2Tex"
+  BTR80v2.u:
+  - status: "OK"
+    name: "BTR80v2Anim"
+  - status: "OK"
+    name: "BTR80v2Static"
+  - status: "OK"
+    name: "BTR80v2Tex"
+  - status: "OK"
+    name: "watercraft-TX"
+  - status: "OK"
+    name: "BTR80v2Sound"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/a/e/67bdb5/modern_warfare_vehicles.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BTR8-80 APC"
+  description: "The BTR-80 is an 8 wheeled amphibious apc, armed with a 30mm HE Cannon,\
+    \ and is capable of carrying a total of 8 passengers (1 driver, 1 gunner, 6 passengers)\
+    \ onto the battle field is relative safety. This vehicle will replace the Hellbender.\
+    \ The 'D' is the Desert camo version, and the 'U' is the urban camo version, and\
+    \ the 'J' is the Jungle camo version. By Wangtang."
+weapons: []
+vehicles:
+- name: "BTR-80D"
+  description: "BTR-80D"
+- name: "BTR-80J"
+  description: "BTR-80J"
+- name: "BTR-80U"
+  description: "BTR-80U"
+- name: "BTR-80D"
+  description: "BTR-80D"
+- name: "BTR-80J"
+  description: "BTR-80J"
+- name: "BTR-80U"
+  description: "BTR-80U"
+hasConfigMenu: false
+hasKeybinds: false
