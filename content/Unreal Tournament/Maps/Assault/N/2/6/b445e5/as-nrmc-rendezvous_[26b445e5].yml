@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-26 15:22"
+game: "Unreal Tournament"
+name: "AS-NRMC-Rendezvous"
+author: "Aspide"
+description: "None"
+releaseDate: "2021-12"
+attachments:
+- type: "IMAGE"
+  name: "as-nrmc-rendezvous_shot_26b445e5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/N/2/6/b445e5/as-nrmc-rendezvous_shot_26b445e5_1.png"
+originalFilename: "AS-NRMC-Rendezvous.zip"
+hash: "26b445e51533b2ce698821f653970d4367ceb7bb"
+fileSize: 38741591
+files:
+- name: "AS-NRMC-Rendezvous.unr"
+  fileSize: 25340531
+  hash: "4ff04ec31a406db93fe50cff026f70e1f81c5c8d"
+- name: "Pinball.umx"
+  fileSize: 158188
+  hash: "e55a75e5b1adc4f94e7a317d03970705494c7b26"
+- name: "BlackHoleSunscreen.umx"
+  fileSize: 32033230
+  hash: "75db16370066d481ae9ab44899797cc02bda4d82"
+- name: "RendezvousScripts.u"
+  fileSize: 301607
+  hash: "ac03f72cc9774b03a3e3e363d04a26360ca62498"
+otherFiles: 2
+dependencies:
+  RendezvousScripts.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+  AS-NRMC-Rendezvous.unr:
+  - status: "OK"
+    name: "RendezvousScripts"
+  - status: "OK"
+    name: "Pinball"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  - status: "MISSING"
+    name: "Factory"
+  - status: "MISSING"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "BlackHoleSunscreen"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/N/2/6/b445e5/AS-NRMC-Rendezvous.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "Rendezvous Point"
+playerCount: "8-16"
+themes:
+  Tech: 0.4
+  Skaarj Crypt: 0.1
+  City: 0.1
+  Industrial: 0.1
+  Skaarj Tech: 0.2
+bots: true

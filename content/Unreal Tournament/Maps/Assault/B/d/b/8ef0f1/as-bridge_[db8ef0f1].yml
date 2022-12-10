@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-26 15:20"
+game: "Unreal Tournament"
+name: "AS-Bridge"
+author: "Claude Meyer aka Mier (icedragon@sl.lu)"
+description: "None"
+releaseDate: "2000-03"
+attachments:
+- type: "IMAGE"
+  name: "as-bridge_shot_db8ef0f1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/B/d/b/8ef0f1/as-bridge_shot_db8ef0f1_1.png"
+originalFilename: "AS-BridgeEL.zip"
+hash: "db8ef0f170f0e332682c7c6c631704ba2042d168"
+fileSize: 1582788
+files:
+- name: "Mier02Tex.utx"
+  fileSize: 84097
+  hash: "d6832e1fe5e10ecfd99e19022db6d6965648ed05"
+- name: "AS-Bridge.unr"
+  fileSize: 4816700
+  hash: "f7451e430a5a5462c527f36a60c7d3b3797450bb"
+otherFiles: 1
+dependencies:
+  AS-Bridge.unr:
+  - status: "OK"
+    name: "Mier02Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/B/d/b/8ef0f1/AS-BridgeEL.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "Bridge"
+playerCount: "6-18"
+themes:
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Industrial: 0.2
+  Skaarj Tech: 0.6
+bots: true

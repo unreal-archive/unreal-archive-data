@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-26 15:20"
+game: "Unreal Tournament"
+name: "AS-BioassaultSE_preview2"
+author: "EVILTOM / GRZ / '//3iRd(o) / Snuggs"
+description: "UTA 4ever !"
+releaseDate: "2019-03"
+attachments:
+- type: "IMAGE"
+  name: "as-bioassaultse_preview2_shot_a476b55f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Assault/B/a/4/76b55f/as-bioassaultse_preview2_shot_a476b55f_1.png"
+originalFilename: "AS-BioassaultSE_preview2-fix.zip"
+hash: "a476b55f0a7fdfced8c0c219e39a4778951b011a"
+fileSize: 7242699
+files:
+- name: "riv3.utx"
+  fileSize: 2878920
+  hash: "0f21f3115531873a443d9a4c95538b99cbe6c681"
+- name: "MTextSetA.utx"
+  fileSize: 520542
+  hash: "8369d9af762664c484d16e40ecd698ce5892bb6a"
+- name: "AS-BioassaultSE_preview2.unr"
+  fileSize: 9828878
+  hash: "ecf9be762011d384d0f4ffae2d43bd0b65fc70a0"
+- name: "AssaultBonusPack.u"
+  fileSize: 131000
+  hash: "94d8c8a9b3f5f61af0f62c97893d63f3f99abe99"
+- name: "HmmwvPrefab.utx"
+  fileSize: 611210
+  hash: "e3696f53e1515031e0021bc4cae82421e85d81ee"
+- name: "Submarine2.utx"
+  fileSize: 1815463
+  hash: "1e40710fc9958652c9780e87e62feda92d59d6b6"
+otherFiles: 0
+dependencies:
+  AS-BioassaultSE_preview2.unr:
+  - status: "OK"
+    name: "riv3"
+  - status: "OK"
+    name: "MTextSetA"
+  - status: "OK"
+    name: "AssaultBonusPack"
+  - status: "OK"
+    name: "HmmwvPrefab"
+  - status: "OK"
+    name: "Submarine2"
+  - status: "MISSING"
+    name: "Bio"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Assault/B/a/4/76b55f/AS-BioassaultSE_preview2-fix.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "BioAssault [Second Edition]"
+playerCount: "12"
+themes:
+  Tech: 0.1
+  Natural: 0.2
+  Industrial: 0.7
+bots: true
