@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-13 05:51"
+game: "Unreal Tournament 3"
+name: "VCTF-RedRoom"
+author: "TKBS"
+description: "None"
+releaseDate: "2011-10"
+attachments:
+- type: "IMAGE"
+  name: "vctf-redroom_shot_5f977051_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/Vehicle%20CTF/R/5/f/977051/vctf-redroom_shot_5f977051_1.png"
+originalFilename: "RedRoom.rar"
+hash: "5f977051d5abbfccaa30ec9a08c9748742f54644"
+fileSize: 18319453
+files:
+- name: "WP_SuperSheep.upk"
+  fileSize: 3126683
+  hash: "67a245f19658b0e9afeee33b20dc9f3ea211888f"
+- name: "RipperLite.u"
+  fileSize: 85178
+  hash: "31c0f2be8d4081ebf73f0d3689fe134b38faf6ad"
+- name: "RipperLitePack.upk"
+  fileSize: 118524
+  hash: "c2ed8648b6140af6edd25247b123ac2aa614ec28"
+- name: "SuperSheep.u"
+  fileSize: 7633
+  hash: "02e0e87d1363e3062a9f1d8b18507fb42f9e071e"
+- name: "VCTF-RedRoom_LOC_int.upk"
+  fileSize: 1169827
+  hash: "9e648809fa7b8281ac0995be2d21a0d56a9bfd31"
+- name: "VCTF-RedRoom.ut3"
+  fileSize: 22120046
+  hash: "da1d7cdf2cf3074b640bf2150a1f91a52a571b78"
+otherFiles: 1
+dependencies:
+  SuperSheep.u:
+  - status: "OK"
+    name: "WP_SuperSheep"
+  RipperLite.u:
+  - status: "OK"
+    name: "RipperLitePack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/Vehicle%20CTF/R/5/f/977051/RedRoom.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "RedRoom"
+playerCount: "2 to 32"
+themes: {}
+bots: true
