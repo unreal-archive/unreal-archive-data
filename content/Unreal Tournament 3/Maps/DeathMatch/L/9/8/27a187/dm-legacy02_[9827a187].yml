@@ -1,0 +1,95 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-16 23:19"
+game: "Unreal Tournament 3"
+name: "DM-Legacy02"
+author: "Lord Porksword"
+description: "Prisoner 849 has emerged from the wreakage of the Vortex Rikers into\
+  \ a strange alien landscape.  The sound of waterfalls dominates your ears.  Welcome\
+  \ to my re-visualized remake of the original Ny Leves Falls."
+releaseDate: "2014-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-legacy02_shot_9827a187_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Maps/DeathMatch/L/9/8/27a187/dm-legacy02_shot_9827a187_1.png"
+originalFilename: "LegacyMap2-SPv1a.rar"
+hash: "9827a1874ee18948ad58105ecfcb3a8b04d7262b"
+fileSize: 124594793
+files:
+- name: "Legacy.u"
+  fileSize: 16275
+  hash: "a25ec2123079b00ea60a5e72f1a9bd2174b80ced"
+- name: "AutoMag.u"
+  fileSize: 194875
+  hash: "a1d3816deae6da1c6a4dad79d9a3d8f5adc8d3cc"
+- name: "WP_DispersionPistol.upk"
+  fileSize: 7636467
+  hash: "c03a47810d7b2ec031626fac44287005dacadc5c"
+- name: "DispersionPistol.u"
+  fileSize: 104158
+  hash: "bd1d8ca557e786abeb81687256e1859a6ffc7813"
+- name: "NaliFruit.u"
+  fileSize: 4707
+  hash: "3146dd6c8812354edf99d7676b831e9c002b909c"
+- name: "LegacyHealth.u"
+  fileSize: 4726
+  hash: "32d591184728b0776576364321f63cbd01292c88"
+- name: "LegacyUT3_Nali_v2.upk"
+  fileSize: 7567253
+  hash: "06d63304fcbfbfb64c9e88c127c82bec86058fd6"
+- name: "LegacyPickup.u"
+  fileSize: 23921
+  hash: "013030750a8fb1e9eee95295d06ac3a397130a0e"
+- name: "LegacyFruit.upk"
+  fileSize: 533743
+  hash: "9858f55404249049984df101b1057aebfbd8ffbf"
+- name: "WP_Automag.upk"
+  fileSize: 2185913
+  hash: "064b894caa01d9743ecb00141e58f049bc2c2cc3"
+- name: "WP_Legacy.upk"
+  fileSize: 32875722
+  hash: "c179c52f157c1cccc632f5de253caa5ec524c606"
+- name: "DM-Legacy02.ut3"
+  fileSize: 114598487
+  hash: "82213638d561271f06f21040aab87de13da75297"
+- name: "U_Pickups_UT3.upk"
+  fileSize: 4000394
+  hash: "cbd6d7ce8a9d8417de28c59cecc93d63fb0e80ec"
+- name: "LegacyBandage.u"
+  fileSize: 4824
+  hash: "c322a72d5da9e001e9c978d2e4e91687a3ae8108"
+- name: "LegacyVest.u"
+  fileSize: 6454
+  hash: "ca4be3e96d452b679a75e3b0fd8f3d76868774d4"
+otherFiles: 4
+dependencies:
+  NaliFruit.u:
+  - status: "OK"
+    name: "U_Pickups_UT3"
+  Legacy.u:
+  - status: "MISSING"
+    name: "CH_Legacy"
+  DispersionPistol.u:
+  - status: "OK"
+    name: "WP_DispersionPistol"
+  AutoMag.u:
+  - status: "OK"
+    name: "WP_Automag"
+  LegacyBandage.u:
+  - status: "OK"
+    name: "U_Pickups_UT3"
+  LegacyHealth.u:
+  - status: "OK"
+    name: "U_Pickups_UT3"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/L/9/8/27a187/LegacyMap2-SPv1a.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Legacy 02"
+playerCount: "Set to 1"
+themes: {}
+bots: true
