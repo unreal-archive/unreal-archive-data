@@ -1,0 +1,55 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 07:27"
+game: "Unreal Tournament 2004"
+name: "Heaven of Relics 1.2"
+author: "3 points each 1"
+description: "Adds the famous relics to your game. The relics will move around the\
+  \ map and you will be able to pick up one of them that will give you special powers.|Remember\
+  \ to assign a button for tossing relics."
+releaseDate: "2006-07"
+attachments: []
+originalFilename: "heavenofrelics12.zip"
+hash: "757805089842a324457c17aca4b2221636d53cf3"
+fileSize: 1482364
+files:
+- name: "XRelicsTextures.utx"
+  fileSize: 3402007
+  hash: "42d0e3e99f54a53c02beaeb4def4548b72c4d7ad"
+- name: "XRelics.u"
+  fileSize: 327766
+  hash: "29e7e08cfc60ecf88eaa5562a29e010a01ce04ac"
+- name: "XRelicsSM.usx"
+  fileSize: 349934
+  hash: "6b226ce6d7095388960bdf8cdc7287a00196cd1c"
+- name: "XRelicsSounds.uax"
+  fileSize: 475434
+  hash: "7f03c55a25f4f8812338b2cd51909bb0f14fb46b"
+otherFiles: 6
+dependencies:
+  XRelicsSM.usx:
+  - status: "OK"
+    name: "XRelicsTextures"
+  XRelics.u:
+  - status: "OK"
+    name: "XRelicsSM"
+  - status: "OK"
+    name: "XRelicsTextures"
+  - status: "OK"
+    name: "XRelicsSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/7/5/780508/heavenofrelics12.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Heaven of Relics 1.2"
+  description: "Adds the famous relics to your game. The relics will move around the\
+    \ map and you will be able to pick up one of them that will give you special powers.|Remember\
+    \ to assign a button for tossing relics."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
