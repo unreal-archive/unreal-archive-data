@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-05 18:10"
+variationOf: "2c4de77f800c90699383461356bf7f2924ba686c"
+game: "Unreal Tournament 3"
+name: "DM-Crate"
+author: "Unknown"
+description: "Display a popup that choose randomly a gift for you"
+releaseDate: "2008-07"
+attachments: []
+originalFilename: "MutatorWeeks_001.zip"
+hash: "498fd57abaabce4db8d33670f5d6190b7d65399f"
+fileSize: 3804488
+files:
+- name: "EA_SurpriseGift_Package.upk"
+  fileSize: 192899
+  hash: "71f40a96c3dd30dda25c08066aee337fbc492350"
+- name: "LP_Disguise_Assets.upk"
+  fileSize: 3748835
+  hash: "eec79f434979ed090f0638c2d59577e491899e01"
+- name: "MWSurprise.u"
+  fileSize: 71275
+  hash: "bca94c8a74557cedca17732ea1544f624303425a"
+- name: "MWPower.u"
+  fileSize: 43334
+  hash: "49deab51341c6ae9f46a72afbb73d976a9e81feb"
+- name: "MWLight.u"
+  fileSize: 44546
+  hash: "11a86f8fe6359e68cb9af3b59e2262326e9e3755"
+- name: "DM-CrateDeathmatch.ut3"
+  fileSize: 563679
+  hash: "533a6dce6631d1e52dc1481de2fb7a107ddbe863"
+- name: "DM-Crate.ut3"
+  fileSize: 345469
+  hash: "3da1c09c0b769fbe6412fc328f95d8dc4e7b98f2"
+otherFiles: 6
+dependencies:
+  MWSurprise.u:
+  - status: "OK"
+    name: "LP_Disguise_Assets"
+  DM-CrateDeathmatch.ut3:
+  - status: "OK"
+    name: "LP_Disguise_Assets"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Maps/DeathMatch/C/4/9/8fd57a/MutatorWeeks_001.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Surprise Gift"
+playerCount: "Unknown"
+themes: {}
+bots: false

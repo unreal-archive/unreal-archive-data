@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:10"
+game: "Unreal Tournament 3"
+name: "Titan Team Fix"
+author: "TTF"
+description: "Configurable Team Balancer"
+releaseDate: "2008-05"
+attachments: []
+originalFilename: "TitanTeamFixUT3_v1.0.rar"
+hash: "9acfc579bed09a7dd0ac93b318f95b44f2bf9022"
+fileSize: 47216
+files:
+- name: "TTFMsg.u"
+  fileSize: 11491
+  hash: "293369a6a175ae878596898fa84ebbb194cca720"
+- name: "TitanTeamFixUT3.u"
+  fileSize: 113559
+  hash: "1bf3d629c5b44a547dbdd21ff2469937c8594831"
+- name: "UnrealScriptTools14.u"
+  fileSize: 6399
+  hash: "740c622326af1ca15bb81234e0e80bc509eed901"
+otherFiles: 3
+dependencies:
+  TitanTeamFixUT3.u:
+  - status: "OK"
+    name: "UnrealScriptTools14"
+  - status: "OK"
+    name: "TTFMsg"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/T/9/a/cfc579/TitanTeamFixUT3_v1.0.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Titan Team Fix"
+  description: "Configurable Team Balancer"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

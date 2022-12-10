@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:10"
+game: "Unreal Tournament 3"
+name: "UTFusrodahReplacer"
+author: "Unknown"
+description: "Replaces the Redeemer with the \"Fusrodah\" Redeemer"
+releaseDate: "2012-02"
+attachments: []
+originalFilename: "UT3-Fusrodah Redeemer V1.00.zip"
+hash: "871044ed9a1dfed5609b86b613a18149db37baeb"
+fileSize: 3617077
+files:
+- name: "A_Weapon_Fusrodah.upk"
+  fileSize: 3743796
+  hash: "a8ba8f86383548cacdb5525bbe25df5c3018261f"
+- name: "UTFusrodah.u"
+  fileSize: 20716
+  hash: "470ba8a262e19a3f1ca63e4c6c51d2a7e8ecd836"
+otherFiles: 2
+dependencies:
+  UTFusrodah.u:
+  - status: "OK"
+    name: "A_Weapon_Fusrodah"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/8/7/1044ed/UT3-Fusrodah%20Redeemer%20V1.00.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UTFusrodahReplacer"
+  description: "Replaces the Redeemer with the \"Fusrodah\" Redeemer"
+weapons:
+- name: "UTWeap_Fusrodah_Content"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

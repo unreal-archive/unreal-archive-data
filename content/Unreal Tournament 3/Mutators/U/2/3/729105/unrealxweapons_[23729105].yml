@@ -1,0 +1,84 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:10"
+game: "Unreal Tournament 3"
+name: "Unreal[x]Weapons"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-07"
+attachments: []
+originalFilename: "Unreal[x]Weapons.rar"
+hash: "23729105db4d8894f3658cd7a5ed3c87604258c4"
+fileSize: 8951199
+files:
+- name: "UT2004_FlakCannon.u"
+  fileSize: 14191
+  hash: "ca09250962a2a4dfc25b00cd7c0ee8dffeb7d0f9"
+- name: "WP_UT2004Redeemer.upk"
+  fileSize: 907868
+  hash: "20c126e49cacd0b48f54d1513ae2cd671faf0309"
+- name: "UT2004_Redeemer.u"
+  fileSize: 9927
+  hash: "17d01d5b57f54263a30df3fee35bfbc4c06bc913"
+- name: "WP_UT2004FlakCannon.upk"
+  fileSize: 5822928
+  hash: "f7a34730b39d4401c3c4aa243cc17ad54def4d89"
+- name: "WP_UT99Chainsaw.upk"
+  fileSize: 846162
+  hash: "c8a4725735e6e01bb28e6ca8002d04db29471996"
+- name: "WP_UT2004LightningGun.upk"
+  fileSize: 3976808
+  hash: "aeaf1af170483b7e1a13fcb74c49b8c045a2aee2"
+- name: "UT2004_LightningGun.u"
+  fileSize: 43430
+  hash: "9f24cd29818073076e1440316f76ae298541370b"
+- name: "UT99_Chainsaw.u"
+  fileSize: 120800
+  hash: "948fad7dfa10c191899a23f40c447602090b8ba5"
+otherFiles: 5
+dependencies:
+  UT2004_FlakCannon.u:
+  - status: "OK"
+    name: "WP_UT2004FlakCannon"
+  UT2004_LightningGun.u:
+  - status: "OK"
+    name: "WP_UT2004LightningGun"
+  UT99_Chainsaw.u:
+  - status: "OK"
+    name: "WP_UT99Chainsaw"
+  UT2004_Redeemer.u:
+  - status: "OK"
+    name: "WP_UT2004Redeemer"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/U/2/3/729105/Unreal%5Bx%5DWeapons.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT2004FlakMut"
+  description: "Swaps the FlakCannon + Ammo for the UT2004 Flak + Ammo"
+- name: "UTMutator_UT2004Redeemer"
+  description: "Replaces the Redeemer Proj with the UT2004 'Swallow This' Proj"
+- name: "LightningGunMutator"
+  description: "Swaps the SniperRifle + Ammo for the LightningGun[UT2004]"
+- name: "Chainsaw Mutator"
+  description: "Add the Chainsaw to your Default Inventory"
+weapons:
+- name: "UTWeap_UT2004FlakCannon"
+  description: "Flak Cannon [UT2004]"
+- name: "UT2004Redeemer"
+  description: "The UT2004 'Swallow This' Projectile"
+- name: "UT2004Weap_LightningGun"
+  description: "LightningGun[UT2004]"
+- name: "IGNORE"
+  description: "IGNORE & DO NOT USE THIS WEAPON CLASS"
+- name: "UT99 Chainsaw"
+  description: "The Chainsaw is a devastating melee weapon capable of instantly inflicting\
+    \ massive damage.When the trigger is held down, Primary Fire unleashes a constant\
+    \ razor sharp attack capable of dismembering opponents. AltFire gives bursts of\
+    \ speed and bursts of bloodshed"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

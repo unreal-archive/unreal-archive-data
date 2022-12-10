@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:11"
+game: "Unreal Tournament 3"
+name: "Custom UT v1"
+author: "Unknown"
+description: ""
+releaseDate: "2007-12"
+attachments: []
+originalFilename: "CustomUTv1.zip"
+hash: "da7cab4711931ecbf062d811130922381ab73fcc"
+fileSize: 397456
+files:
+- name: "CustomUTContent.upk"
+  fileSize: 200061
+  hash: "18e65ae6ad536c9c0058d7218cae3d479e16b240"
+- name: "customutv1.u"
+  fileSize: 388940
+  hash: "f3371205db760ad7f02b4a83348e9666c0bbca53"
+- name: "CustomUTv1Menus.upk"
+  fileSize: 954175
+  hash: "581ed0c41950012d5562ff2a972d393f0eb80e6b"
+otherFiles: 3
+dependencies:
+  customutv1.u:
+  - status: "OK"
+    name: "CustomUTv1Menus"
+  - status: "OK"
+    name: "CustomUTContent"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/C/d/a/7cab47/CustomUTv1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Custom UT v1"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

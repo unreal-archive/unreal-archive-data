@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:10"
+game: "Unreal Tournament 3"
+name: "Q_HitSound"
+author: "SFX"
+description: "Hear a sound when you Damage your foes. Volume adjusted by SFX. By:\
+  \ *PingFre@K*"
+releaseDate: "2008-01"
+attachments: []
+originalFilename: "Q_HitSound.zip"
+hash: "7654937fe805d096e58f85c8e31e788529d1d5e3"
+fileSize: 9873
+files:
+- name: "Q_HitSound.u"
+  fileSize: 7155
+  hash: "360c5dd0d3efabe432be18bad11ca64dfdb43227"
+- name: "Q_HitS_Content.upk"
+  fileSize: 10169
+  hash: "01006f8f465e980c0de515d203818571e5466607"
+otherFiles: 2
+dependencies:
+  Q_HitSound.u:
+  - status: "OK"
+    name: "Q_HitS_Content"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/Q/7/6/54937f/Q_HitSound.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Q_HitSound"
+  description: "Hear a sound when you Damage your foes. Volume adjusted by SFX. By:\
+    \ *PingFre@K*"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
