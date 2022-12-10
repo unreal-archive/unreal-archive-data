@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 12:44"
+variationOf: "2a33ed1cfb4cbc0ca5036cbcf9b6609309c4765b"
+game: "Unreal Tournament 2004"
+name: "DM-Refined"
+author: "Michael Rice \"1973\""
+description: "Southern skies and flying shrapnel"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-refined_shot_bc6ecaed_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/R/b/c/6ecaed/dm-refined_shot_bc6ecaed_1.png"
+originalFilename: "dm-refined.rar"
+hash: "bc6ecaed594cb1309f26c1fa37ef4343a4a674e4"
+fileSize: 24092993
+files:
+- name: "kf.utx"
+  fileSize: 14239354
+  hash: "d3ec9594ec0ca9e95a0e942bc893120b2087061d"
+- name: "DM-Refined.ut2"
+  fileSize: 26307494
+  hash: "5c19a63f2cf7469b01a9e58f06c241c58ef536f6"
+- name: "refined.utx"
+  fileSize: 1646792
+  hash: "31bba38711592c16876eb69921c78b4521787557"
+- name: "cityruin.utx"
+  fileSize: 19260536
+  hash: "a3a063344975b531dc9e29ec3303159f916f695e"
+otherFiles: 1
+dependencies:
+  DM-Refined.ut2:
+  - status: "OK"
+    name: "cityruin"
+  - status: "OK"
+    name: "kf"
+  - status: "OK"
+    name: "refined"
+  refined.utx:
+  - status: "OK"
+    name: "kf"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/R/b/c/6ecaed/dm-refined.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Refined"
+playerCount: "2-12"
+themes:
+  Industrial: 1.0
+bots: true
