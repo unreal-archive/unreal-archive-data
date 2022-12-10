@@ -1,0 +1,192 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 19:03"
+game: "Unreal Tournament"
+name: "Weedrow2V1"
+author: "Various"
+description: "None"
+releaseDate: "2016-04"
+attachments: []
+originalFilename: "Weedrow2V1.zip"
+hash: "a832f81a00ca3f97302c7fdee34061dc39b9d929"
+fileSize: 64715780
+files:
+- name: "Weedrow.umx"
+  fileSize: 269172
+  hash: "745d4541f66bdca6d04b7a6a0fa7988dc89f61d8"
+- name: "NaliSkeletons.u"
+  fileSize: 7645970
+  hash: "af4e9e1424de12e02cc1c08b037d03de31fcb17d"
+- name: "creepybasement.umx"
+  fileSize: 2013770
+  hash: "c91858290f730ba1bdca2b1c58456b9a9dda73e9"
+- name: "firetrucks.u"
+  fileSize: 3398077
+  hash: "98307c3f1a4de927b431cfafcb3575837d358210"
+- name: "CoW2-02-DS.unr"
+  fileSize: 22025512
+  hash: "245d5a32386069b0e62c11a6eb82255836035e91"
+- name: "CoW2-01-Intro.unr"
+  fileSize: 7702095
+  hash: "0bbd4b36da0298af17bb7714c536baac769f1d45"
+- name: "weedrow2.u"
+  fileSize: 29873137
+  hash: "a6519138d080d23fc080347faece4f152598c07d"
+- name: "CoW2-03-OTT.unr"
+  fileSize: 13134370
+  hash: "362c80598f209073ef717eb33e0338e8ad172ccd"
+- name: "Crypt2.utx"
+  fileSize: 7370018
+  hash: "37ba6110928746205676fef7362294d5ff1f107b"
+- name: "gallery.u"
+  fileSize: 4526706
+  hash: "005bba87655f70601ace9bfb33230cdbd6516754"
+- name: "WeedrowIntro.umx"
+  fileSize: 2971355
+  hash: "90a371537c1aed78882a157aca83858665193bd8"
+- name: "CoW2-05-Credits.unr"
+  fileSize: 10067978
+  hash: "409534e5ae805da53de392c5fd244961b38ea308"
+- name: "PrisonChase.umx"
+  fileSize: 1804488
+  hash: "f07c9ae89c682b1e9116ca628ef46fc4ac76780e"
+- name: "WeedrowDrone3.umx"
+  fileSize: 1528684
+  hash: "08d610f2dec3a379b3fe552f7f94f65c517398c3"
+- name: "CoW2-04-ITU.unr"
+  fileSize: 14188881
+  hash: "fa75cd449ddb27625e2d59cc929f50c4c886bd01"
+- name: "FFVictory.umx"
+  fileSize: 693476
+  hash: "ce98cd9b61c11d3fbca70b0fdfeb1daa73172b1d"
+- name: "CoW2-06-Flyby.unr"
+  fileSize: 877764
+  hash: "c972cfc4ee4f1be0672d7502f7c573010715ae2d"
+- name: "mallorywilcox.u"
+  fileSize: 142500
+  hash: "1fd26a4688d12561b9b64bf160a4b156ab17f54b"
+- name: "misirlou.umx"
+  fileSize: 1911113
+  hash: "f6a4f86ab67c1ccba914287222251c7791ed5e6b"
+otherFiles: 1
+dependencies:
+  CoW2-05-Credits.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "weedrow2"
+  - status: "OK"
+    name: "NaliSkeletons"
+  - status: "OK"
+    name: "firetrucks"
+  CoW2-01-Intro.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "Opal"
+  - status: "OK"
+    name: "weedrow2"
+  - status: "MISSING"
+    name: "Guardian"
+  - status: "OK"
+    name: "misirlou"
+  - status: "MISSING"
+    name: "Isotoxin"
+  - status: "MISSING"
+    name: "WarGate"
+  - status: "OK"
+    name: "firetrucks"
+  gallery.u:
+  - status: "OK"
+    name: "firetrucks"
+  CoW2-06-Flyby.unr:
+  - status: "OK"
+    name: "weedrow2"
+  - status: "MISSING"
+    name: "flyby"
+  CoW2-04-ITU.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "weedrow2"
+  - status: "OK"
+    name: "firetrucks"
+  CoW2-02-DS.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "WeedrowDrone3"
+  - status: "OK"
+    name: "mallorywilcox"
+  - status: "OK"
+    name: "PrisonChase"
+  - status: "OK"
+    name: "WeedrowIntro"
+  - status: "OK"
+    name: "creepybasement"
+  - status: "OK"
+    name: "weedrow2"
+  - status: "OK"
+    name: "firetrucks"
+  - status: "OK"
+    name: "Weedrow"
+  NaliSkeletons.u:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "UPak"
+  weedrow2.u:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "UPak"
+  - status: "OK"
+    name: "firetrucks"
+  mallorywilcox.u:
+  - status: "OK"
+    name: "weedrow2"
+  - status: "OK"
+    name: "firetrucks"
+  CoW2-03-OTT.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "FFVictory"
+  - status: "OK"
+    name: "weedrow2"
+  - status: "OK"
+    name: "gallery"
+  - status: "OK"
+    name: "firetrucks"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/W/a/8/32f81a/Weedrow2V1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CoW2-05-Credits"
+  title: "The Chronicles of Weedrow 2: Credits"
+  author: "Team CoW"
+- name: "CoW2-04-ITU"
+  title: "The Chronicles of Weedrow 2: Into The Unknown"
+  author: "Team CoW"
+- name: "CoW2-06-Flyby"
+  title: "Nali Castle"
+  author: "Shane Caudle"
+- name: "CoW2-02-DS"
+  title: "The Chronicles of Weedrow 2: Dark Secrets..."
+  author: "Team CoW"
+- name: "CoW2-01-Intro"
+  title: "The Chronicles of Weedrow 2: Intro"
+  author: "Team CoW"
+- name: "CoW2-03-OTT"
+  title: "The Chronicles of Weedrow 2: On Takk's Trail"
+  author: "Team CoW"
+gametype: "Unknown"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.6
+  Skaarj Tech: 0.2
+  Ancient: 0.1
