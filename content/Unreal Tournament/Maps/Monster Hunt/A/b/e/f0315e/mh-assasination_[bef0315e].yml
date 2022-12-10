@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-15 23:53"
+game: "Unreal Tournament"
+name: "MH-Assasination"
+author: "Galvatron"
+description: "\"In nomine patre et fili et spiritu sancti\""
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-assasination_shot_bef0315e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Hunt/A/b/e/f0315e/mh-assasination_shot_bef0315e_1.png"
+originalFilename: "Assasination.zip"
+hash: "bef0315e6c29f423a14a21ed9c628d22be920020"
+fileSize: 2382195
+files:
+- name: "WarGate.umx"
+  fileSize: 825589
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
+- name: "MH-Assasination.unr"
+  fileSize: 6014813
+  hash: "3e7aeac61986dc152cc27c2c6a047aefdf4aa26c"
+otherFiles: 1
+dependencies:
+  MH-Assasination.unr:
+  - status: "OK"
+    name: "WarGate"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Hunt/A/b/e/f0315e/Assasination.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Assasination"
+playerCount: "2-8"
+themes:
+  Natural: 0.1
+  Industrial: 0.1
+  Skaarj Tech: 0.3
+  Nali Castle: 0.2
+  Egyptian: 0.2
+bots: true
