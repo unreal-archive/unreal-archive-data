@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 20:52"
+game: "Unreal Tournament 2004"
+name: "DM-DeathFan2k4"
+author: "Myscha the Sled dog/N3tL!zzard"
+description: "2k4 version of DmDeathFan"
+releaseDate: "2011-01"
+attachments: []
+originalFilename: "DM-DeathFan2k4.rar"
+hash: "efca544cf29d265e53bae259ee46a5ee914f9250"
+fileSize: 10854819
+files:
+- name: "Ripjack.u"
+  fileSize: 65959
+  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
+- name: "DeathFanTex.utx"
+  fileSize: 535389
+  hash: "19f259fc93aa5528b01c51c78e85ae7def379a3f"
+- name: "ripjackTex.utx"
+  fileSize: 3030389
+  hash: "21be7b3b41eae9e4b98974e0dee442ec1bd1e3d3"
+- name: "ripjackSM.usx"
+  fileSize: 378267
+  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
+- name: "Ripjack.u"
+  fileSize: 65959
+  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
+- name: "ripjackSounds.uax"
+  fileSize: 594868
+  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
+- name: "DeathFanStatic.usx"
+  fileSize: 14359
+  hash: "b24840f9f22753bf651c2b391203698c54eb06cd"
+- name: "ripjackAnim.ukx"
+  fileSize: 660717
+  hash: "133d6b8c2ce143c1193b69ecb07acf331cc224a3"
+- name: "ripjackSM.usx"
+  fileSize: 378267
+  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
+- name: "ripjackSounds.uax"
+  fileSize: 594868
+  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
+- name: "ripjackTex.utx"
+  fileSize: 3030389
+  hash: "21be7b3b41eae9e4b98974e0dee442ec1bd1e3d3"
+- name: "Run.ogg"
+  fileSize: 6471636
+  hash: "1c7de9af34a59832d72b245e3f606db4753d4534"
+- name: "ripjackAnim.ukx"
+  fileSize: 660717
+  hash: "133d6b8c2ce143c1193b69ecb07acf331cc224a3"
+- name: "DM-DeathFan2k4.ut2"
+  fileSize: 1086243
+  hash: "bc07d3a0909ff56b1fc1bd76ca2126181609fcc0"
+- name: "DoorsMod.uax"
+  fileSize: 2547363
+  hash: "b39b5239d559454f4824bda26dd788e818c5e583"
+otherFiles: 7
+dependencies:
+  ripjackSM.usx:
+  - status: "OK"
+    name: "ripjackTex"
+  Ripjack.u:
+  - status: "OK"
+    name: "ripjackSounds"
+  - status: "OK"
+    name: "ripjackTex"
+  - status: "OK"
+    name: "ripjackSM"
+  - status: "OK"
+    name: "ripjackAnim"
+  ripjackAnim.ukx:
+  - status: "OK"
+    name: "ripjackTex"
+  DM-DeathFan2k4.ut2:
+  - status: "OK"
+    name: "Doorsmod"
+  - status: "OK"
+    name: "DeathFanStatic"
+  - status: "OK"
+    name: "DeathFanTex"
+  - status: "OK"
+    name: "Ripjack"
+  DeathFanStatic.usx:
+  - status: "OK"
+    name: "DeathFanTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/D/e/f/ca544c/DM-DeathFan2k4.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Death Fan"
+playerCount: "2-4"
+themes: {}
+bots: true
