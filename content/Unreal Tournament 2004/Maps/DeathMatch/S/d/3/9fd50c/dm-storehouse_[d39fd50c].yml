@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-11 23:06"
+game: "Unreal Tournament 2004"
+name: "DM-Storehouse"
+author: "Chorus"
+description: "This is my first UT map. Old ramshackle storeroom with a lot of crates,\
+  \ containers and barrels. Each shot can easily ruin this place. Don`t spend ammo\
+  \ in vain!"
+releaseDate: "2008-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-storehouse_shot_d39fd50c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/d/3/9fd50c/dm-storehouse_shot_d39fd50c_1.png"
+originalFilename: "Storehouse.zip"
+hash: "d39fd50c660f8f4372d92552310c18aa2304edc9"
+fileSize: 3291234
+files:
+- name: "Supremacy_II.ogg"
+  fileSize: 904251
+  hash: "f3e2f52a9609eb7decadf19061d9e42420cd074c"
+- name: "ChorusStorehouseStatic.usx"
+  fileSize: 721634
+  hash: "b779d9b27e9f5e8cf3f2aeeb1b4fc3e3918897e4"
+- name: "DM-Storehouse.ut2"
+  fileSize: 1429031
+  hash: "632094ff7d587d6eaac14d2c9259da8570719c5f"
+- name: "ChorusStorehouse.utx"
+  fileSize: 4775283
+  hash: "46d3f5f16377b896a4475cf164ffbb884802dae2"
+otherFiles: 1
+dependencies:
+  DM-Storehouse.ut2:
+  - status: "OK"
+    name: "ChorusStorehouseStatic"
+  - status: "OK"
+    name: "ChorusStorehouse"
+  ChorusStorehouseStatic.usx:
+  - status: "OK"
+    name: "ChorusStorehouse"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/d/3/9fd50c/Storehouse.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Storehouse"
+playerCount: "2-5"
+themes:
+  Tech: 1.0
+bots: true
