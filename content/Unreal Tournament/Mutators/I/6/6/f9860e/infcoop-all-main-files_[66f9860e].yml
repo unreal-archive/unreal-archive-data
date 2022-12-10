@@ -1,0 +1,95 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 04:21"
+game: "Unreal Tournament"
+name: "INFCOOP All Main Files"
+author: "StinkMarder"
+description: "None"
+releaseDate: "2021-02"
+attachments:
+- type: "IMAGE"
+  name: "infcoop-all-main-files_shot_66f9860e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/I/6/6/f9860e/infcoop-all-main-files_shot_66f9860e_1.png"
+- type: "IMAGE"
+  name: "infcoop-all-main-files_shot_66f9860e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Mutators/I/6/6/f9860e/infcoop-all-main-files_shot_66f9860e_2.png"
+originalFilename: "INFCOOP_All_main_files.rar"
+hash: "66f9860e9e3f5d209429f8a9cdb1a0a456513fab"
+fileSize: 6636428
+files:
+- name: "INFCoopUnreal.u"
+  fileSize: 8204
+  hash: "cf42a93c4f461ee9d98e6d3bfd24718fdbc50aee"
+- name: "INF286AmbientGlowFix.u"
+  fileSize: 1293
+  hash: "0736db8987a412c8e92d5255e27042368effd9db"
+- name: "UTTranslator.u"
+  fileSize: 6252
+  hash: "99438c731cc66ef3dbb2de7bb82e32c8be32dd73"
+- name: "MutLoader.u"
+  fileSize: 2537
+  hash: "fd4fbcc01649704e5d9fee5b07ee76dc4da9fc83"
+- name: "MoreMonsters.u"
+  fileSize: 6083
+  hash: "278239781a6f66e7d810a629e0131ecbd76cb6c8"
+- name: "RTNPSkipIntermission.u"
+  fileSize: 1184
+  hash: "fdc1a1192e19797926fe8ef4f17ef4f40a49ac62"
+- name: "UPak.u"
+  fileSize: 11447490
+  hash: "4a5a86a1f9113cfdc05f7a755e834d8aee640396"
+- name: "INFColoredSmoke.u"
+  fileSize: 352046
+  hash: "cff9e68c00940686007f4e83a45a5fab22c0ec65"
+- name: "stmutils.u"
+  fileSize: 8358
+  hash: "3eec74895719490be4ce9d267cc59b64a949a1f3"
+otherFiles: 19
+dependencies:
+  INFColoredSmoke.u:
+  - status: "MISSING"
+    name: "INF_Effects"
+  - status: "MISSING"
+    name: "INF_Equip"
+  - status: "MISSING"
+    name: "INF_Core"
+  INFCoopUnreal.u:
+  - status: "OK"
+    name: "stmutils"
+  - status: "MISSING"
+    name: "INF_GameTypes"
+  - status: "MISSING"
+    name: "InfiltrationUT"
+  MoreMonsters.u:
+  - status: "OK"
+    name: "stmutils"
+  RTNPSkipIntermission.u:
+  - status: "OK"
+    name: "UPak"
+  UPak.u:
+  - status: "MISSING"
+    name: "UPakFonts"
+  - status: "MISSING"
+    name: "marine"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Mutators/I/6/6/f9860e/INFCOOP_All_main_files.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "RTNP - Skip Intermissions"
+  description: "Skips intermission maps in RTNP."
+- name: "UTTranslator"
+  description: "Makes the Unreal translator work with UT."
+- name: "INF 2.86 AmbientGlow bugfix"
+  description: ""
+- name: "MoreMonsters"
+  description: "Multiplies the number of monsters in a map."
+- name: "INF Colored Smoke"
+  description: "M18 green, M18 yellow, M18 violet"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
