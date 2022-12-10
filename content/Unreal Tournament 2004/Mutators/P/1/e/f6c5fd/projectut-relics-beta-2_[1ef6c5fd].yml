@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 00:25"
+game: "Unreal Tournament 2004"
+name: "ProjectUT Relics Beta 2"
+author: "Nijel 'Morphias' Manthey"
+description: "Reborn from the old days, these relics will enhance your abilities and\
+  \ provide improved defence and offence. Randomally placed through out a level, they\
+  \ will only remain in one place for a short time. ||(C)2004 Nijel 'Morphias' Manthey\
+  \ - www.projectut.com"
+releaseDate: "2004-11"
+attachments: []
+originalFilename: "PUT_Relics_Final_Beta2.zip"
+hash: "1ef6c5fd63f4ed1236c29fd705af904ca6d0d7bf"
+fileSize: 1536166
+files:
+- name: "PUT_RelicSounds.uax"
+  fileSize: 1134772
+  hash: "038e71ef56bb56efc34d37d3160b9a886467ca16"
+- name: "PUT_RelicTextures.utx"
+  fileSize: 1496300
+  hash: "368a8649062ac89483972623fda3fe351de9050c"
+- name: "PUT_RelicMeshes.usx"
+  fileSize: 592537
+  hash: "b9bc1359eaa070e3252724879d6dfc22addd5e1d"
+- name: "PUT_Relics.u"
+  fileSize: 59656
+  hash: "6230cff9e439417ba2db4b92fca3356d8e02e570"
+otherFiles: 4
+dependencies:
+  PUT_RelicMeshes.usx:
+  - status: "OK"
+    name: "PUT_RelicTextures"
+  PUT_Relics.u:
+  - status: "OK"
+    name: "PUT_RelicSounds"
+  - status: "OK"
+    name: "PUT_RelicMeshes"
+  - status: "OK"
+    name: "PUT_RelicTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/1/e/f6c5fd/PUT_Relics_Final_Beta2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "ProjectUT Relics Beta 2"
+  description: "Reborn from the old days, these relics will enhance your abilities\
+    \ and provide improved defence and offence. Randomally placed through out a level,\
+    \ they will only remain in one place for a short time. ||(C)2004 Nijel 'Morphias'\
+    \ Manthey - www.projectut.com"
+weapons:
+- name: "Vengeance Relic"
+  description: "Vengeance Relic"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
