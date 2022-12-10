@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-12 01:19"
+game: "Unreal Tournament 2004"
+name: "Terry's Language Control"
+author: "Unknown"
+description: "Filters out any adult language from any Terry based monsters."
+releaseDate: "2013-10"
+attachments: []
+originalFilename: "TerryMonsterPack.zip"
+hash: "08bb8d9268517d656fc6a16d8fa280ab0bc5d976"
+fileSize: 8091358
+files:
+- name: "TerryMonsterTex.utx"
+  fileSize: 3763048
+  hash: "096a7f7b58b50783c807f2a090438d14fbfa5183"
+- name: "TerryMonsterSnds.uax"
+  fileSize: 8139872
+  hash: "f894c7f1dd37b7f338af6a296e44b2216c0cb56e"
+- name: "TerryMonsterPack.u"
+  fileSize: 239666
+  hash: "830336620a007ae1580aa460b0cae127e1dbeca8"
+otherFiles: 2
+dependencies:
+  TerryMonsterPack.u:
+  - status: "OK"
+    name: "TerryMonsterTex"
+  - status: "OK"
+    name: "TerryMonsterSnds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/T/0/8/bb8d92/TerryMonsterPack.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Terry's Language Control"
+  description: "Filters out any adult language from any Terry based monsters."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
