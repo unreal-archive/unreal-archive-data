@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 23:00"
+game: "Unreal Tournament 2004"
+name: "Super Tank"
+author: "Unknown"
+description: "Replaces Tanks with SUPER TANKS!!!!!!!|The Super Tank has 2 powerful\
+  \ turrets and better manoeuvreability then the Goliath. Plus, it has a better paint\
+  \ job! ||Created by Charybdis. www.aaronash.com"
+releaseDate: "2007-07"
+attachments:
+- type: "IMAGE"
+  name: "super-tank_shot_a51c8814_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/a/5/1c8814/super-tank_shot_a51c8814_1.png"
+originalFilename: "SuperTank.zip"
+hash: "a51c88140b9e2128e07bd3ccb99f8122cb6979f2"
+fileSize: 1863973
+files:
+- name: "SuperTankTex.utx"
+  fileSize: 5593000
+  hash: "b46feaee6f7cdf8a4489a0c29a50157219213959"
+- name: "SuperTank.u"
+  fileSize: 26997
+  hash: "b849f1619750fff0add2cf7ae0ac9ed1d0572d93"
+otherFiles: 3
+dependencies:
+  SuperTank.u:
+  - status: "OK"
+    name: "SuperTankTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/a/5/1c8814/SuperTank.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Super Tank"
+  description: "Replaces Tanks with SUPER TANKS!!!!!!!|The Super Tank has 2 powerful\
+    \ turrets and better manoeuvreability then the Goliath. Plus, it has a better\
+    \ paint job! ||Created by Charybdis. www.aaronash.com"
+weapons: []
+vehicles:
+- name: "Super Tank"
+  description: "Super Tank"
+- name: "Super Tank Cannon Turret"
+  description: "Super Tank Cannon Turret"
+- name: "Super Tank Minigun Turret"
+  description: "Super Tank Minigun Turret"
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,110 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 23:00"
+game: "Unreal Tournament 2004"
+name: "Super Weapons X"
+author: "Unknown"
+description: "Play with all available super Weapons X!"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_5.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_3.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_9.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_9.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_7.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_8.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_8.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_1.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_6.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_4.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_da496902_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/d/a/496902/super-weapons-x_shot_da496902_2.png"
+originalFilename: "swx2k4umod.zip"
+hash: "da4969022c7ab79bb0f881c529c00dfa5f3356e5"
+fileSize: 5629755
+files:
+- name: "SWXMeshes.usx"
+  fileSize: 19283
+  hash: "4a69f2151d063372fe56e02ff7cba7cdb0d4efbb"
+- name: "SWX.u"
+  fileSize: 3068950
+  hash: "df350c41b2b46bc121006a3596992fe3dbe42fad"
+- name: "SWXtextures.utx"
+  fileSize: 12892915
+  hash: "d49697c499150be8bffca69f3074f319ec3e1001"
+- name: "RPSRmodel.ukx"
+  fileSize: 458682
+  hash: "d34b9c5ca486113b71285ebeb259cfe40b395c31"
+- name: "swx2k4.ut4mod"
+  fileSize: 16720428
+  hash: "fbd674dac8f546185660adc1a307a13a6b118f3a"
+otherFiles: 18
+dependencies:
+  SWX.u:
+  - status: "OK"
+    name: "SWXMeshes"
+  - status: "OK"
+    name: "SWXtextures"
+  - status: "OK"
+    name: "RPSRmodel"
+  SWXMeshes.usx:
+  - status: "OK"
+    name: "SWXtextures"
+  RPSRmodel.ukx:
+  - status: "OK"
+    name: "SWXtextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/d/a/496902/swx2k4umod.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Super Weapons X"
+  description: "Play with all available super Weapons X!"
+weapons:
+- name: "Black and White Gun X"
+  description: "Black and White Gun X"
+- name: "Magma Gun"
+  description: "Magma Gun"
+- name: "Retro-Plasma Assault Rifle"
+  description: "Retro-Plasma Assault Rifle"
+- name: "Retro-Plasma Sniper Rifle"
+  description: "Retro-Plasma Sniper Rifle"
+- name: "Super Flak Cannon X"
+  description: "Super Flak Cannon X"
+- name: "Super Rocket Launcher X"
+  description: "Super Rocket Launcher X"
+- name: "Super Shock Rifle X"
+  description: "The Super Weapons Super Shock Rifle is back, and it still packs a\
+    \ punch under the right hands. It can chain-combo alt-fire projectiles to end\
+    \ up with a bigger beam after every one, up to 5 times as big. When at its maximum\
+    \ size, and when it hits a wall, the resultant explosion gives off an ion cannon\
+    \ type of explosion, with deadly consequences. But this requires time, skill,\
+    \ and ammo, as the resultant  beam drains ammo fast, up to 20 ammo for the linking."
+- name: "Super Weapons Gattling Gun"
+  description: "Super Weapons Gattling Gun"
+- name: "Super Weapons Ice Gun"
+  description: "The Super Weapons Ice Gun. Shoots ice spikes that can slow down a\
+    \ target. Also shoots huge ice chunks for big damage."
+vehicles:
+- name: "Retro-Plasma Tank"
+  description: "Retro-Plasma Tank"
+hasConfigMenu: false
+hasKeybinds: false
