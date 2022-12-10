@@ -1,0 +1,70 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 18:08"
+game: "Unreal Tournament"
+name: "Tridigv4"
+author: "Various"
+description: "None"
+releaseDate: "2013-01"
+attachments:
+- type: "IMAGE"
+  name: "tridigv4_shot_bdb21fcc_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/b/d/b21fcc/tridigv4_shot_bdb21fcc_1.png"
+- type: "IMAGE"
+  name: "tridigv4_shot_bdb21fcc_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/b/d/b21fcc/tridigv4_shot_bdb21fcc_2.png"
+- type: "IMAGE"
+  name: "tridigv4_shot_bdb21fcc_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/MapPacks/T/b/d/b21fcc/tridigv4_shot_bdb21fcc_3.png"
+originalFilename: "tridigv4.zip"
+hash: "bdb21fccdf67da1b379b3ed6d5dfdf348bb29e82"
+fileSize: 10366412
+files:
+- name: "tridigintro.unr"
+  fileSize: 4955683
+  hash: "e725fa10f8eddeb118897bec1f4d4ef302d7b303"
+- name: "tridigmap.unr"
+  fileSize: 22090806
+  hash: "4ec69c16965d6331b94477e5f1de4bed694650cb"
+- name: "tridigend.unr"
+  fileSize: 3217827
+  hash: "3844056a520c9956e2e113676fb11e66bedb2910"
+otherFiles: 2
+dependencies:
+  tridigmap.unr:
+  - status: "MISSING"
+    name: "Chizra1"
+  - status: "MISSING"
+    name: "EndEx"
+  tridigend.unr:
+  - status: "MISSING"
+    name: "utend"
+  tridigintro.unr:
+  - status: "MISSING"
+    name: "QueenSong"
+  - status: "MISSING"
+    name: "Crater"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/T/b/d/b21fcc/tridigv4.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "tridigintro"
+  title: "Arriving at the Triamid ruins"
+  author: "Turboman"
+- name: "tridigmap"
+  title: "The Triamid Ruins"
+  author: "Turboman"
+- name: "tridigend"
+  title: "Escaping the Triamid Ruins"
+  author: "Unknown"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.3
+  Natural: 0.2
+  Skaarj Tech: 0.4
+  Ancient: 0.1
