@@ -1,0 +1,83 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-15 19:02"
+game: "Unreal Tournament"
+name: "Weedrowvol1v1 3"
+author: "Various"
+description: "None"
+releaseDate: "2022-07"
+attachments: []
+originalFilename: "weedrowvol1v1.3.zip"
+hash: "2e24487ae98ce279cbdc8eaf3cac6051acaa5744"
+fileSize: 20774681
+files:
+- name: "CoW-02-Obac.unr"
+  fileSize: 23958650
+  hash: "a606510b84d6b1b5fca671f992a02ad1aa8e3015"
+- name: "BattlebeastAnnouncer.uax"
+  fileSize: 1902297
+  hash: "13b1a39e65b09dc174b5a956e14e386ada0173e7"
+- name: "CoW-03-Totb.unr"
+  fileSize: 16824782
+  hash: "1cd30c7a4cfacaa32315b473d748414138be4f3a"
+- name: "CoW-01-Ahib.unr"
+  fileSize: 16704181
+  hash: "7753960d732058151b897103fe50b627ed49e8ca"
+- name: "TitPack0.u"
+  fileSize: 6584
+  hash: "1bad02a5e2b46d638d7bebaad60e2a675f590b2c"
+otherFiles: 2
+dependencies:
+  CoW-02-Obac.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "BattlebeastAnnouncer"
+  - status: "OK"
+    name: "TitPack0"
+  - status: "MISSING"
+    name: "Newmca9"
+  - status: "MISSING"
+    name: "EndEx"
+  - status: "MISSING"
+    name: "Nali"
+  CoW-01-Ahib.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "TitPack0"
+  - status: "MISSING"
+    name: "DigSh"
+  CoW-03-Totb.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "QueenSong"
+  - status: "OK"
+    name: "TitPack0"
+  - status: "MISSING"
+    name: "EndEx"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/MapPacks/W/2/e/24487a/weedrowvol1v1.3.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CoW-02-Obac"
+  title: "The Chronicles of Weedrow: Of Blobs and Chalices"
+  author: "Mman, Turbo, Qtit, ebd, Frieza, sana"
+- name: "CoW-03-Totb"
+  title: "The Chronicles of Weedrow: Taking on the Bloblet"
+  author: "Mman, Frieza, ebd, Qtit, Turboman"
+- name: "CoW-01-Ahib"
+  title: "The Chronicles of Weedrow: A Hero is Born"
+  author: "Qtit, Frieza, zacman, ebd, Turboman"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.4
+  Natural: 0.1
+  Nali Castle: 0.1
+  Skaarj Tech: 0.4
+  Ancient: 0.1
