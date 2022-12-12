@@ -52,8 +52,11 @@ steps:
         path: /tmp/ua/
     environment:
       SITE_URL: https://unrealarchive.org
-      MSE_URL: https://unrealarchive.org/search/api
-      MSE_TOKEN:
+      MSE_CONTENT_URL: https://unrealarchive.org/search/api/ua
+      MSE_CONTENT_TOKEN:
+        from_secret: MSE_TOKEN
+      MSE_WIKI_URL: https://unrealarchive.org/search/api/uaw
+      MSE_WIKI_TOKEN:
         from_secret: MSE_TOKEN
     commands:
       - apt update && apt install -y curl

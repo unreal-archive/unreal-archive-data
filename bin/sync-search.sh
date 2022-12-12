@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ## Variables set by CI
-#   MSE_URL   - base url of Minimum Effort Search service instance
-#   MSE_TOKEN - service token to allow posting documents
+#   MSE_CONTENT_URL   - base url of Minimum Effort Search service instance
+#   MSE_CONTENT_TOKEN - service token to allow posting documents
 #   SITE_URL  - published website root url
 
 UA_VERSION=latest
