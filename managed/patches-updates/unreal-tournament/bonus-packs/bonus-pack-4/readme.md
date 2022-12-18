@@ -49,7 +49,7 @@ This pack also contains 2 updated UT maps.
 
 ---
 
-[https://www.unrealtournament.com](www.unrealtournament.com)<br/>
-[https://www.epicgames.com](www.epicgames.com)
+[https://www.unrealtournament.com](https://www.unrealtournament.com)<br/>
+[https://www.epicgames.com](https://www.epicgames.com)
 
 _Enjoy!_
