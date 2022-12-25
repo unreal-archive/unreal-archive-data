@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "DM-SBFColdSeclusion"
+author: "Josh Wallace"
+description: "A secluded part of the cold tundra."
+releaseDate: "2004-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-sbfcoldseclusion_shot_bc07378d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/S/b/c/07378d/dm-sbfcoldseclusion_shot_bc07378d_1.png"
+originalFilename: "SnowballFight!.7z"
+hash: "bc07378dec0fe56cc152275291ee8f1473961794"
+fileSize: 459555
+files:
+- name: "DM-SBFColdSeclusion.ut2"
+  fileSize: 4243059
+  hash: "9d28a2aaf040928587e4ea633bad41ce32cea420"
+- name: "snowballTEX.utx"
+  fileSize: 112943
+  hash: "35c98f1621f3ba51376d19bff0f10dccf89925a5"
+- name: "snowballfight.u"
+  fileSize: 20429
+  hash: "8e75a87934b74dba9e4b4ba7dd39d284d0d3a0d2"
+- name: "snowballSM.usx"
+  fileSize: 86908
+  hash: "48d070df6d84677070efc0ecaa23b5a8c54301ef"
+otherFiles: 2
+dependencies:
+  snowballfight.u:
+  - status: "OK"
+    name: "snowballTEX"
+  - status: "OK"
+    name: "snowballSM"
+  snowballSM.usx:
+  - status: "OK"
+    name: "snowballTex"
+  DM-SBFColdSeclusion.ut2:
+  - status: "OK"
+    name: "snowballfight"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/S/b/c/07378d/SnowballFight!.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Cold Seclusion"
+playerCount: "32"
+themes: {}
+bots: true

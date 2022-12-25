@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:18"
+variationOf: "7fd91d77adcb6b2fb1c78fe935cd2bc8d54df73f"
+game: "Unreal Tournament 2004"
+name: "CTF-Dana"
+author: "kurt'commander_keen'loeffler"
+description: "In one of the largest middle eastern deserts under the hot sand was\
+  \ a temple. Recently uncovered by the Human/Skaarj war, this temple was bought by\
+  \ Liandri. the torches where lit, weapons placed, and the fights began... | | |\
+  \ ...once again, Bright As Day..."
+releaseDate: "2004-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-dana_shot_61c08cc7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/6/1/c08cc7/ctf-dana_shot_61c08cc7_1.png"
+- type: "IMAGE"
+  name: "ctf-dana_shot_61c08cc7_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/6/1/c08cc7/ctf-dana_shot_61c08cc7_2.png"
+originalFilename: "CTF-Dana.7z"
+hash: "61c08cc7896d379a619cd137e027403cafee20e1"
+fileSize: 8875303
+files:
+- name: "k_persia_tex.utx"
+  fileSize: 16642253
+  hash: "61f091219a40cab1ca08d07d2d99d70b5e0e63bd"
+- name: "k_persian_static.usx"
+  fileSize: 1359445
+  hash: "4e1bde9a6697433f5e3f667927dd90e413bda685"
+- name: "CTF-Dana.ut2"
+  fileSize: 22047204
+  hash: "3f78a11b76351539fd0416998a3b37ee42275b64"
+otherFiles: 2
+dependencies:
+  k_persian_static.usx:
+  - status: "OK"
+    name: "k_persia_tex"
+  CTF-Dana.ut2:
+  - status: "OK"
+    name: "k_persian_static"
+  - status: "OK"
+    name: "k_persia_tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/D/6/1/c08cc7/CTF-Dana.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Dana"
+playerCount: "4"
+themes:
+  Ancient: 1.0
+bots: true

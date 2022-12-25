@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:08"
+variationOf: "3da0a2a86d3df34a9a5c02d46e3feddb0b400ffa"
+game: "Unreal Tournament 2004"
+name: "AS-OneJump-ShieldJumping"
+author: "ù)v(indz-$l@y3r"
+description: "My Second AS map. IT has 6 rooms, which go: Very Easy, Easy, Medium,Hard,Very\
+  \ Hard,EXTREME"
+releaseDate: "2007-06"
+attachments: []
+originalFilename: "AS-OneJump-ShieldJumping.7z"
+hash: "cc15c8b52b6bbdb444564dffcaf4c3b2a37a781e"
+fileSize: 4151115
+files:
+- name: "Village.utx"
+  fileSize: 1689041
+  hash: "3854fe7d0e61fd4a362f58e8ce505f478f447467"
+- name: "AS-OneJump-ShieldJumping.ut2"
+  fileSize: 987149
+  hash: "dbc579519118bf4e895898c52189e51d518ec4b3"
+- name: "{=GF=}MyLettersAndSigns.usx"
+  fileSize: 3723474
+  hash: "e0c5b7d6e8fe53af548d4c27b24bfc3a4ece58ba"
+- name: "Queen.utx"
+  fileSize: 2515085
+  hash: "f60c2cefefc7d97939f92fc97456585c55a1bb36"
+- name: "TechTexPackage.utx"
+  fileSize: 2519516
+  hash: "e807dd690afe3687ea7fb9fb7ca2595a582beadd"
+- name: "MutDMShieldGunFix.u"
+  fileSize: 16828
+  hash: "6413d2f5bebb162788d057b4f88523296c48bb57"
+- name: "AbaddonShield.u"
+  fileSize: 2086
+  hash: "aa25fd264e556e3d022496933b2e37eebd9af7d8"
+otherFiles: 1
+dependencies:
+  AbaddonShield.u:
+  - status: "MISSING"
+    name: "MayanShieldgun"
+  AS-OneJump-ShieldJumping.ut2:
+  - status: "OK"
+    name: "TechTexPackage"
+  - status: "OK"
+    name: "MutDMShieldGunFix"
+  - status: "OK"
+    name: "{=GF=}MyLettersAndSigns"
+  - status: "OK"
+    name: "AbaddonShield"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/O/c/c/15c8b5/AS-OneJump-ShieldJumping.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "One Jump Shield Jumping"
+playerCount: "4"
+themes:
+  Ancient: 1.0
+bots: true

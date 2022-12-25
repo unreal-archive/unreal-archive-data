@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "Kakutou V101"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-05"
+attachments: []
+originalFilename: "Kakutou v101.7z"
+hash: "f74106257d20899df04e9f06890cc679e12e2a38"
+fileSize: 244739
+files:
+- name: "K2k4Sounds.uax"
+  fileSize: 87548
+  hash: "b5406260608ec19bd36563dd54c67d0ab1cbbd9d"
+- name: "Kakutou2k4.u"
+  fileSize: 186856
+  hash: "0ae99fc0b1cab66796ef869836c9c6c1268ea031"
+otherFiles: 3
+dependencies:
+  Kakutou2k4.u:
+  - status: "OK"
+    name: "K2k4Sounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/K/f/7/410625/Kakutou%20v101.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Kakutou 2004"
+  description: "Players spawn with martial art skills instead of the ShieldGun."
+- name: "Kakutou Arena 2004"
+  description: "No Weapons, Martial arts Arena fighting for 2004."
+weapons:
+- name: "Unarmed"
+  description: "Unarmed"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

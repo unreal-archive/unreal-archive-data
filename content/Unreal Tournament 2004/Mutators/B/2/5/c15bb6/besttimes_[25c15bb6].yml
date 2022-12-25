@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:24"
+game: "Unreal Tournament 2004"
+name: "BestTimes"
+author: "Unknown"
+description: "Records BestMap Time completion"
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "UltraBTimes.rar"
+hash: "25c15bb689b9638c601220fc819bcd3df155e84f"
+fileSize: 278687
+files:
+- name: "ultraClientBTimes.u"
+  fileSize: 63958
+  hash: "0469b224e22c3f1f5095591d22693f085eb5f421"
+- name: "ultraServerBTimes.u"
+  fileSize: 196198
+  hash: "449d034611f1c49950d60633587a0c6392490bee"
+- name: "ultrabtimessnd.uax"
+  fileSize: 333247
+  hash: "3044b219e6d84c94f8d2e4464d47fe65b0facd5d"
+otherFiles: 3
+dependencies:
+  ultraClientBTimes.u:
+  - status: "OK"
+    name: "ultrabtimessnd"
+  ultraServerBTimes.u:
+  - status: "OK"
+    name: "ultraClientBTimes"
+  - status: "OK"
+    name: "ultrabtimessnd"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/2/5/c15bb6/UltraBTimes.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BestTimes"
+  description: "Records BestMap Time completion"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

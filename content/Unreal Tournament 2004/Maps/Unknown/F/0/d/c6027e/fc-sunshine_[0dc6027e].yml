@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 18:35"
+game: "Unreal Tournament 2004"
+name: "FC-SunShine"
+author: "Bigcheese"
+description: "It's a nice sunny day to build a fort..."
+releaseDate: "2006-05"
+attachments:
+- type: "IMAGE"
+  name: "fc-sunshine_shot_0dc6027e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Unknown/F/0/d/c6027e/fc-sunshine_shot_0dc6027e_1.png"
+originalFilename: "Fort Constructor v01.7z"
+hash: "0dc6027ea8553ac53a37608380a0801f646dbf08"
+fileSize: 228626
+files:
+- name: "FortConstructor.u"
+  fileSize: 52777
+  hash: "0310055fafe1d221119d351d3cff3b4e54426ca5"
+- name: "FC-SunShine.ut2"
+  fileSize: 629888
+  hash: "796421e61794bbcb279063ed34b5982b6a1250d6"
+- name: "FortConstructorStatic.usx"
+  fileSize: 5110
+  hash: "b5e8e53e74453364e11913a2b1af688bbd37da3c"
+- name: "FortConstructorTex.utx"
+  fileSize: 263207
+  hash: "749a6d6304c4660a84452c63bb66ab7f7f012ada"
+otherFiles: 1
+dependencies:
+  FortConstructorStatic.usx:
+  - status: "OK"
+    name: "FortConstructorTex"
+  FortConstructor.u:
+  - status: "OK"
+    name: "FortConstructorStatic"
+  - status: "OK"
+    name: "FortConstructorTex"
+  FC-SunShine.ut2:
+  - status: "OK"
+    name: "FortConstructorStatic"
+  - status: "OK"
+    name: "FortConstructor"
+  - status: "OK"
+    name: "FortConstructorTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Unknown/F/0/d/c6027e/Fort%20Constructor%20v01.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Unknown"
+title: "SunShine"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true

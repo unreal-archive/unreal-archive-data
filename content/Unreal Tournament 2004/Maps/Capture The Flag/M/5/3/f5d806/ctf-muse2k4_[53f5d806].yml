@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:02"
+variationOf: "0c077d7d084ccf5e1fa869a1dad2838e122695f3"
+game: "Unreal Tournament 2004"
+name: "CTF-Muse2k4"
+author: "MortalPlague"
+description: "Long ago, artists flocked to this spot, renowned for"
+releaseDate: "2004-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-muse2k4_shot_53f5d806_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/5/3/f5d806/ctf-muse2k4_shot_53f5d806_2.png"
+- type: "IMAGE"
+  name: "ctf-muse2k4_shot_53f5d806_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/5/3/f5d806/ctf-muse2k4_shot_53f5d806_1.png"
+originalFilename: "CTF-Muse2k4.7z"
+hash: "53f5d80641698824ae81507b9f1a8ee81803d67f"
+fileSize: 6080880
+files:
+- name: "DBShipTex.utx"
+  fileSize: 7777127
+  hash: "465ca12692a28ff1118769f1f45ecc283900df6a"
+- name: "CTF-Muse2k4.ut2"
+  fileSize: 20563413
+  hash: "ea831aa3afbce6558a11fb9737c6267f594968ae"
+- name: "DBShipwur.usx"
+  fileSize: 1508276
+  hash: "2e62600d3e07af87433effaabc68fee581ffa32c"
+otherFiles: 2
+dependencies:
+  DBShipwur.usx:
+  - status: "OK"
+    name: "DBShipTex"
+  CTF-Muse2k4.ut2:
+  - status: "OK"
+    name: "DBShipwur"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/5/3/f5d806/CTF-Muse2k4.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Muse"
+playerCount: "8-14"
+themes:
+  Ancient: 0.3
+  City: 0.6
+bots: true

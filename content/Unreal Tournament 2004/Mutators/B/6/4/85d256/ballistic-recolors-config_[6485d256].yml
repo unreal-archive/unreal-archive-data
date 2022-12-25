@@ -1,0 +1,776 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:08"
+game: "Unreal Tournament 2004"
+name: "Ballistic Recolors [Config]"
+author: "Unknown"
+description: "This mutator allows you to always spawn with fists. You can also use\
+  \ it to grant Instagib rifles and enable randomized or enhanced damage for the Ballistic\
+  \ mod.|Made by Sergeant Kelly and Captain Xavious."
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_1.png"
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_6.png"
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_2.png"
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_3.png"
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_4.png"
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_5.png"
+- type: "IMAGE"
+  name: "ballistic-recolors-config_shot_6485d256_7.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/ballistic-recolors-config_shot_6485d256_7.png"
+originalFilename: "Sergeant Kellys Weapons V10.044 Weapon Drops 4 5.7z"
+hash: "6485d25638c350be0337a3186c083f6f154859d8"
+fileSize: 145692308
+files:
+- name: "BWBPRecolors4Exp.u"
+  fileSize: 629360
+  hash: "d713911d2d5d8e47ebcd3974faa68c5935ec9f7a"
+- name: "PackageSounds4.uax"
+  fileSize: 51467330
+  hash: "37a874022553b668dd069d7fb1e5457bfba09853"
+- name: "BallisticRecolors4Anim.ukx"
+  fileSize: 48500275
+  hash: "7c57a066251f877803ba57b68c5255e9c51c34bc"
+- name: "BallisticRecolors4.utx"
+  fileSize: 151923310
+  hash: "d97b7e23e435e64a7096fb1e612a0ad30c3ce9d4"
+- name: "PackageSounds4A.uax"
+  fileSize: 26425929
+  hash: "ebe83c0e08bb604a34c4da0eac760778a48d2d51"
+- name: "BWBPRecolors4Main.u"
+  fileSize: 1966886
+  hash: "d978c58fe83b76a05e5cecf903b75cc1f1004f27"
+- name: "BallisticRecolors4Static.usx"
+  fileSize: 27894887
+  hash: "6515eeb8e1013dfe3a8cdeda8064b7878abe9d98"
+- name: "BallisticRecolors4ExpStatic.usx"
+  fileSize: 22678642
+  hash: "3c025764ff9978ac15f85bb5eb512db781d64c1d"
+- name: "BallisticRecolors4AnimA.ukx"
+  fileSize: 39116321
+  hash: "bde6fc3287b8f81bb0d9860bc61679c09149c4f5"
+- name: "BallisticRecolors4Exp.utx"
+  fileSize: 73979145
+  hash: "14ccc50b7bfc0e4e8b9667a67ab13488b89c3c3e"
+otherFiles: 14
+dependencies:
+  BWBPRecolors4Exp.u:
+  - status: "MISSING"
+    name: "BWBP3-Sounds"
+  - status: "MISSING"
+    name: "BWBP4-Sounds"
+  - status: "MISSING"
+    name: "BallisticSounds3"
+  - status: "MISSING"
+    name: "BallisticSounds2"
+  - status: "MISSING"
+    name: "BWBP2-Sounds2"
+  - status: "OK"
+    name: "PackageSounds4"
+  - status: "OK"
+    name: "BallisticRecolors4Anim"
+  - status: "MISSING"
+    name: "BCoreV25"
+  - status: "MISSING"
+    name: "BallisticEffects"
+  - status: "MISSING"
+    name: "BallisticEffects2"
+  - status: "MISSING"
+    name: "BWBP2-FX"
+  - status: "OK"
+    name: "BallisticRecolors4Exp"
+  - status: "OK"
+    name: "BallisticRecolors4ExpStatic"
+  - status: "OK"
+    name: "PackageSounds4A"
+  - status: "MISSING"
+    name: "BallisticUI2"
+  - status: "MISSING"
+    name: "BallisticSounds_25"
+  - status: "MISSING"
+    name: "BallisticV25"
+  - status: "OK"
+    name: "BallisticRecolors4AnimA"
+  - status: "MISSING"
+    name: "BallisticHardware2"
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  - status: "OK"
+    name: "BallisticRecolors4Static"
+  - status: "OK"
+    name: "BWBPRecolors4Main"
+  - status: "MISSING"
+    name: "BWAddPack-RS-Sounds"
+  - status: "MISSING"
+    name: "BallisticTextures_25"
+  - status: "MISSING"
+    name: "BallisticHardware_25"
+  BallisticRecolors4Static.usx:
+  - status: "MISSING"
+    name: "BallisticEffects"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  BallisticRecolors4.utx:
+  - status: "MISSING"
+    name: "BWAddPack-RS-Effects"
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "MISSING"
+    name: "BallisticUI2"
+  - status: "MISSING"
+    name: "BWBP4-Tex"
+  - status: "MISSING"
+    name: "BallisticEffects"
+  BallisticRecolors4AnimA.ukx:
+  - status: "MISSING"
+    name: "BWBP3-Sounds"
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "OK"
+    name: "PackageSounds4A"
+  - status: "MISSING"
+    name: "BallisticSounds2"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  - status: "MISSING"
+    name: "BallisticAnims2"
+  - status: "OK"
+    name: "BallisticRecolors4Exp"
+  - status: "OK"
+    name: "PackageSounds4"
+  BallisticRecolors4Exp.utx:
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "MISSING"
+    name: "BallisticUI2"
+  - status: "MISSING"
+    name: "BallisticEffects"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  BallisticRecolors4Anim.ukx:
+  - status: "MISSING"
+    name: "BWBP3b-Anims"
+  - status: "MISSING"
+    name: "BWBP4-Sounds"
+  - status: "MISSING"
+    name: "BWBP3-Tex"
+  - status: "MISSING"
+    name: "BallisticSounds2"
+  - status: "MISSING"
+    name: "BWAddPack-RS-Skins"
+  - status: "OK"
+    name: "PackageSounds4"
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "MISSING"
+    name: "BallisticEffects"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  - status: "MISSING"
+    name: "BallisticAnims2"
+  - status: "MISSING"
+    name: "BWBP2-Sounds"
+  BallisticRecolors4ExpStatic.usx:
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  - status: "OK"
+    name: "BallisticRecolors4Exp"
+  BWBPRecolors4Main.u:
+  - status: "MISSING"
+    name: "BWBP3-Sounds"
+  - status: "MISSING"
+    name: "BWBP4-Sounds"
+  - status: "MISSING"
+    name: "BWBP3-Tex"
+  - status: "MISSING"
+    name: "BallisticSounds3"
+  - status: "MISSING"
+    name: "BWBP4-Anims"
+  - status: "MISSING"
+    name: "BallisticSounds2"
+  - status: "MISSING"
+    name: "BWBP2-Tex"
+  - status: "OK"
+    name: "PackageSounds4"
+  - status: "OK"
+    name: "BallisticRecolors4Anim"
+  - status: "MISSING"
+    name: "BCoreV25"
+  - status: "MISSING"
+    name: "BWBP4-Tex"
+  - status: "MISSING"
+    name: "BallisticEffects"
+  - status: "MISSING"
+    name: "BallisticEffects2"
+  - status: "MISSING"
+    name: "BWBP2-FX"
+  - status: "MISSING"
+    name: "BWBP4-Hardware"
+  - status: "MISSING"
+    name: "BallisticAnims2"
+  - status: "MISSING"
+    name: "BallisticUI2"
+  - status: "MISSING"
+    name: "BallisticV25"
+  - status: "MISSING"
+    name: "BWBP2b-Anims"
+  - status: "MISSING"
+    name: "BallisticHardware2"
+  - status: "MISSING"
+    name: "BallisticWeapons2"
+  - status: "MISSING"
+    name: "BWBP2Hardware"
+  - status: "OK"
+    name: "BallisticRecolors4"
+  - status: "OK"
+    name: "BallisticRecolors4Static"
+  - status: "MISSING"
+    name: "BWBP3Hardware"
+  - status: "MISSING"
+    name: "BWAddPack-RS-Sounds"
+  - status: "MISSING"
+    name: "BWBP2-Sounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/6/4/85d256/Sergeant%20Kellys%20Weapons%20V10.044%20Weapon%20Drops%204%205.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Ballistic Recolors [Config]"
+  description: "This mutator allows you to always spawn with fists. You can also use\
+    \ it to grant Instagib rifles and enable randomized or enhanced damage for the\
+    \ Ballistic mod.|Made by Sergeant Kelly and Captain Xavious."
+weapons:
+- name: "A49 Skrith Blaster"
+  description: "A49 Skrith Blaster||Manufacturer: Unknown Skrith Engineers|Primary:\
+    \ Rapid Energy Pulses|Secondary: Disorienting Blast||An interesting piece of Skrith\
+    \ technology, the A49 Skrith Blaster seems to be an attempt at a miniaturized\
+    \ A73 Skrith Rifle, to fill an intermediary role somewhere between that of a side\
+    \ arm and full sized assault weapon, roughly equivalent to a human sub-machine\
+    \ gun or sub-assault rifle. Its compact size and respectable power makes it considerably\
+    \ better than its cousin, the A42 Whip, but an unexplainable lack of samples found\
+    \ on skrith fighters, plus the weapon's unreliable rate of fire and tendency to\
+    \ overheat suggest that this was an unsuccessful weapon that failed to see full\
+    \ scale use. || The weapon's curious defensive light and sound based function\
+    \ is capable of disorienting attackers at point blank, but its very existence\
+    \ is brought to question by scientists and soldiers alike. Veterans of Skrith\
+    \ assaults argue that Skrith would have no need of this function, often being\
+    \ able to strike quickly without being seen. Researchers theorize that perhaps\
+    \ this weapon was a mark of shame, given to skrith unable to remain hidden from\
+    \ view of their enemy."
+- name: "A73-E Skrith Rifle"
+  description: "A73 Elite Skrith Rifle||Manufacturer: Unknown Skrith Engineers|Primary:\
+    \ Energy Bolt|Secondary: Blade Stab||The A73-E is a specialized version of the\
+    \ Skrith standard rifle and is rarely seen on the battlefield. Aside from the\
+    \ red tint, the Elite model is very similar in appearance to the standard. Scans\
+    \ show, however, that this special version fires projectiles at roughly 3 times\
+    \ the standard heat level and has an odd permanent electrical charge coursing\
+    \ through the blades. If encountered in the field, it is advised to report the\
+    \ occurrence to HQ immediately for testing."
+- name: "AH104 Assault Pistol"
+  description: "AH-104 'Pounder' Handcannon||Manufacturer: Enravion Combat Solutions|Primary:\
+    \ HEAP Rounds|Secondary: Laser Sight||'The handcannon of the future.' Those were\
+    \ the words of Enravion as they publically released this modified version of the\
+    \ AM67. Nicknamed the 'Pounder' for its potent .600 explosive armor piercing rounds;\
+    \ the AH104 can legally carry the name handcannon. Its immense stopping power\
+    \ and anti-armor capability make this weapon a favorite of military leaders and\
+    \ personnel across the worlds. The full-steel AH104 is known to be absurdly heavy\
+    \ (12 lbs unloaded) in order to compensate for the power of its large rounds and\
+    \ cannot be dual wielded. It also comes equipped with a laser targeting system\
+    \ in place of the usual AM67 flash bulb."
+- name: "AH208 Assault Pistol"
+  description: "AH-208 'Eagle' Assault Pistol||Manufacturer: Enravion Combat Solutions|Primary:\
+    \ Magnum Rounds|Secondary: Pistol Whip|Special: Laser Dot||Built as a more affordable\
+    \ alternative to the AH104, the AH208 is an alternate design chambered for .44\
+    \ magnum rounds instead of the usual $100 .600 HEAP ones. It is less accurate\
+    \ than the AH104 and D49, but its 8 round magazine and faster reload times let\
+    \ it put more rounds down range than both. Its significant weight and recoil means\
+    \ it requires both hands to shoot and is harder to control than its revolver and\
+    \ handcannon siblings, a fact that comes into play where range is a concern. While\
+    \ not as popular as its larger .600 cousin, the AH208 packs a formidable punch\
+    \ and is a force to be reckoned with."
+- name: "X5W Black Ops Blade"
+  description: "X5W Black Ops Wrist Blade||Manufacturer: Enravion Combat Solutions|Primary:\
+    \ Slash|Secondary: Prepared Slash|Special: Block||A rare variant of the X5 short\
+    \ combat sword, the X5W is a special edition wrist blade developed for the UTC\
+    \ Black Ops paramilitary forces. Given to the elite assassination squads during\
+    \ the Skrith wars, this blade proved itself many times in close quarters combat.\
+    \ It is constructed using modern forging techniques and the highest quality materials,\
+    \ is built to last and is one of the only blades capable of standing its own against\
+    \ a charging Skrith warrior. Don't leave home without one."
+- name: "Bulldog .75 Assault Cannon"
+  description: "R20 Bulldog .75 Assault Cannon||Manufacturer: Black & Wood|Primary:\
+    \ .75 BOLT Rounds|Secondary: FRAG-12 Grenade||In the large universe of guns, Black\
+    \ & Wood's R20 Bulldog is a cannon. In keeping up with their excellent reputation,\
+    \ Black & Wood's Bulldog was designed as an extremely reliable and high powered\
+    \ dual-feed munition launcher. Capable of punching a 2 foot hole in the toughest\
+    \ of Cryon grunts at 50 yards and shattering enemy structures with relative ease,\
+    \ the massive .75 caliber BOLT rounds devastate anything they smash into. Designated\
+    \ 'thermoBaric Ordinance, Lead Trajectory', the acronym desicribes the payload\
+    \ and trajectory of the massive primary munition of the Bulldog. The secondary\
+    \ ammo feed can be chambered with a number of different 20mm rounds, but the preferred\
+    \ shells are an adaption of the potent FRAG-12 explosive slugs, used for ripping\
+    \ a hole in thicker armor to allow the BOLT rounds to finish the job."
+- name: "CYLO Firestorm IV"
+  description: "CYLO Firestorm IV||Manufacturer: Dipheox Combat Arms|Primary: Select\
+    \ Fire Assault Rifle|Secondary: Melee Slash||The CYLO Firestorm IV is an upgraded\
+    \ version of Dipheox's most popular weapon. The IV has been redesigned from the\
+    \ ground up for maximum efficiency and can now chamber the fearsome 5.56mm incendiary\
+    \ rounds. This special ammunition expands under high heat and can deal enhanced\
+    \ stopping power when used in heated environments due to round mushrooming. Upgrades\
+    \ to the ammo feed and clip lock greatly reduce the chance of jams and ensures\
+    \ a more stable rate of fire, however these have been known to malfunction under\
+    \ excessive stress. Likewise, prolonged use of the incendiary ammunition should\
+    \ be avoided due to potential damage to the barrel and control mechanisms.||While\
+    \ not as versatile as its shotgun equipped cousin, the CYLO Firestorm is still\
+    \ very deadly in urban combat. Proper training with the bayonet can turn the gun\
+    \ itself into a deadly melee weapon."
+- name: "CYLO Assault Weapon"
+  description: "CYLO Versatile Urban Assault Weapon||Manufacturer: Dipheox Combat\
+    \ Arms|Primary: Select Fire Assault Rifle|Secondary: Semi-Automatic 16 Gauge Shotgun|Special:\
+    \ Melee Slash||Dipheox's most popular weapon, the CYLO Versatile Urban Assault\
+    \ Weapon is designed with one goal in mind: Brutal close quarters combat. The\
+    \ CYLO accomplishes this goal quite well, earning itself the nickname of Badger\
+    \ with its small frame, brutal effectiveness, and unpredictability. UTC refuses\
+    \ to let this weapon in the hands of its soldiers because of its erratic firing\
+    \ and tendency to jam.||The CYLO Versatile UAW is fully capable for urban combat.\
+    \ The rifle's caseless 7.62mm rounds can easily shoot through doors and thin walls,\
+    \ while the shotgun can clear a room quickly with its semi-automatic firing. Proper\
+    \ training with the bayonet can turn the gun itself into a deadly melee weapon."
+- name: "Redwood Super-10"
+  description: "Redwood Super-10 Double Barreled Shotgun||Manufacturer: Redwood Firearms|Primary:\
+    \ Single Shot|Secondary: Melee Swipe||This primitive artifact has managed to survive\
+    \ the passage of time. Behind it trails a brutal story of bloodshed and sacrifice.\
+    \ For every scar, a life taken; every gouge, a life saved."
+- name: "Fists"
+  description: "Your fists. Go get some bloody knuckles."
+- name: "XM300 Dragon Nanoblade"
+  description: "XM300 Dragon Nanoblade||Manufacturer: XWI Elite Systems|Primary: Slash|Secondary:\
+    \ Double Slash|Special: Block||The Dragon Nanoblade is a technological marvel.\
+    \ A weapon consisting of a nanotechnologically created blade which is dynamically\
+    \ 'forged' on command into a non-eutactic solid. Nanoscale whetting devices ensure\
+    \ that the blade is both unbreakable and lethally sharp. The true weapon of a\
+    \ modern warrior."
+- name: "FMD G28 Medicinal Aerosol"
+  description: "FMD G28 Medicinal Aerosol||Manufacturer: UTC Defense Tech|Primary:\
+    \ Throw Grenade|Secondary: Roll Grenade|Special: Release Clip||The FMD G28 Medicinal\
+    \ Aerosol is a lightweight smoke grenade filled with various healing compounds\
+    \ and nano-assemblers for quick wound repair on the fly. It is a medic's best\
+    \ friend, and has been used to save many soldiers' lives. It has unfortunately\
+    \ also been the cause of a few deaths, as the gas can be ignited under the right\
+    \ conditions and the grenade itself is quite heavy and can cause concussions if\
+    \ thrown with sufficient velocity. || Surgeon General's Warning: The G28 Medicinal\
+    \ Aerosol is a temporary healing agent, and should not be used in place of quality\
+    \ medical care. May cause cancer."
+- name: "GRSXX Golden Pistol"
+  description: "GRSXX Pistol||Manufacturer: Drake & Co Firearms|Primary: Accelerated\
+    \ 9mm Rounds|Secondary: Focused Beam Matrix|| The Golden GRSXX is a truly rare\
+    \ sight. With only thirty-two ever produced, prices range in the tens of millions.\
+    \ A much improved version of the GRS9, the GRSXX boasts an enhanced UTC Mk6 Power\
+    \ Coil and a Model 8 magnetic accelerator in the lining of the barrel. The power\
+    \ coil boosts the laser's power output while substantially decreasing battery\
+    \ drainage. At the cost of battery damage, the laser matrix generator can also\
+    \ fire a compact energy burst by overloading and detonating the Mk6 coils. [Barrel\
+    \ is made of 24-Karat gold with an underlying platinum-titanium casing.]"
+- name: "The Golden Gun"
+  description: "The Golden Gun||Manufacturer: Auric Enterprises|Primary: Golden Bullet|Secondary:\
+    \ Iron Sights||One bullet against my six? I only need one."
+- name: "HMC-117 Photon Cannon"
+  description: "HMC-117 Volatile Photon Cannon||Manufacturer: Nexron Defence|Primary:\
+    \ Charged Photon Blast|Secondary: Sweeping Plasma Beam|Special: None|The HMC-117\
+    \ Volatile Photon Cannon, often nicknamed 'The Sentinel', was created originally\
+    \ as a tool for testing heat shielding on space craft. It was often used by shuttle\
+    \ crews for zero-G EVA repairs during rough space trips. Due to a couple horrifying\
+    \ accidents and its tendency to melt through bulkheads, the HMC was scrapped in\
+    \ favor of other testing and repair methods. Deemed an overall failure, somehow\
+    \ a variant of this bulky device managed to find its way onto the field and proved\
+    \ to be quite effective at taking out Cryon units. The power and reliability of\
+    \ its industrial grade photon generator was praised by many troopers and not even\
+    \ the strongest of Cryons could withstand a fully charged photon blast. While\
+    \ the original HMC power cells are long gone, Nexron modified HMCs can successfully\
+    \ run on HVPC power cells."
+- name: "H-V Plasma Cannon Mk5"
+  description: "H-V Magnetic Plasma Cannon Mk5||Manufacturer: Nexron Defence|Primary:\
+    \ Contained Plasma Charge|Secondary: Directed Plasma Pulse||[Document Begins]\
+    \ The High Voltage Magnetic Plasma Cannon [Mark 5] - Codename 'Shock & Awe' -\
+    \ is a potent energy delivery system. State of the art magnetically charged sustaining\
+    \ coils powered by a portable back-mounted power generator can now, due to a recent\
+    \ breakthrough in plasma technology, successfully govern an operational array\
+    \ of plasma injectors. The Mk-5 uses these injectors to artificially condense\
+    \ and contain small 1 eV plasma 'charges' that can be propelled at high velocities\
+    \ towards hostile forces. Testing is currently underway. [Document Ends]"
+- name: "E-V Plasma Cannon 9000"
+  description: "E-V Hyper Plasma Cannon 9000||Manufacturer: Nexron Defence|Primary:\
+    \ Super Plasma Charge|Secondary: Directed Plasma Pulse||[Document Begins - Details\
+    \ Classified] --- (--- ----- ------ ------) -- - ----- ---- ------- -- ---- ---\
+    \ ------ -- --- ---. ---- -- ------ -- --------- -- --------. ------ ---- ------\
+    \ ------ --- --- -- - ------ -------- ------ -------------- --- - ---. -------\
+    \ ----. ------- ----- -- - ----- --- --- ------- -- -------- ------ --- ----------.\
+    \ ---- ------- -- --- ---- ---------- --. ----- ---- -----. ---- - -- ---------\
+    \ ----- - ---------- --- -- -----. *[Info Removed]* Troops have been noted calling\
+    \ the (--- ----- ----- ------) a Big F-cking Gun."
+- name: "LS-14 Laser Carbine"
+  description: "LS-14 Directed Energy Projection Weapon||Manufacturer: UTC Defense\
+    \ Tech|Primary: Focused Photon Beam|Secondary: Mini Rockets||The LS-14 Laser Carbine\
+    \ is UTC Defense Tech's latest energy based assault weapon. The LS-14 features\
+    \ a computer control system which allows the weapon to moderate both primary and\
+    \ secondary functions, and has an easy to read screen that can tell the user the\
+    \ status of its various systems. Ammunition counts, heat levels, and many other\
+    \ useful bits of information are simply a touch of a button away - a feature praised\
+    \ by many soldiers. This laser carbine features a magazine style battery, a side\
+    \ mounted mini rocket launcher, and a scope, making this weapon incredibly versatile.\
+    \ ||Unlike other directed energy weapons, the LS14 comes with a multitude of integrated\
+    \ safety features that prevent it from critically overloading, however these can\
+    \ be disabled if the user wishes. It is important to note that while the LS-14\
+    \ is primarily a recoilless laser weapon, it is known to expel excess gas at higher\
+    \ temperatures which can make aiming difficult."
+- name: "LS-440M Instagib Rifle"
+  description: "LS-440M Enhanced Shock Rifle||Manufacturer: UTC Defense Tech|Primary:\
+    \ Charged Photon Beam|Secondary: Rapid Photon Beam||The LS-440M is a specialized\
+    \ LS14 upgraded by Nexron defense. The LS-440M was designed expressly to pierce\
+    \ Skrith energy armor, and as such has massively boosted energy levels. Power\
+    \ is provided by a heavy duty E-115 backpack, the same used on high output E-V\
+    \ and H-V plasma cannons. While the backpack hampers mobility, it gauarantees\
+    \ that users will not run out of power in a firefight. Caution: Due to the rifle's\
+    \ extreme power outputs, all LS-440Ms have safety systems on override. Full protective\
+    \ gear must be worn at all times, as the unshielded core vents can emit in excess\
+    \ of 3,000 rads."
+- name: "M30A1 Tactical Rifle"
+  description: "M30A1 Tactical Rifle||Manufacturer: Enravion Combat Solutions|Primary:\
+    \ Accurate Rifle Fire|Secondary: Charged Gauss Fire|Special: Laser Dot||A further\
+    \ improvement on their crowning achievement, the M30A1 is the long range version\
+    \ of the famed rifle. With a forward mounted laser sight and heavy 7.62 rifle\
+    \ rounds, the M30A1 Tactical Rifle can accurately snipe targets at any distance.\
+    \ In order to compensate for the slower firing speed and increased recoil, Enravion\
+    \ added a secondary gauss projectile accelerator to the barrel. By simply depressing\
+    \ the trigger twice in quick succession, the user can activate the system and\
+    \ propel the bullet at a much higher velocity through the armor and flesh of unsuspecting\
+    \ victims. (With regards to a minor recharge time.) The A1 comes equipped with\
+    \ a mounted camera sight for increased accuracy."
+- name: "MR-DR88 Machine Pistol"
+  description: "MR-DR88 Machine Pistol||Manufacturer: UTC Defense Tech/Krome Firepower|Primary:\
+    \ Automatic 9mm rounds|Secondary: Melee bash||This bull pup style weapon, made\
+    \ by UTC Defense Tech, features a ring magazine holding 36 rounds of 9mm ammunition\
+    \ that wraps around the forearm and has a spiked steel knuckle on it. Because\
+    \ the bulk of the weight sits on the forearm and not on the wrist, this weapon\
+    \ is very easy to use either single or in pairs. With the unique magazine, some\
+    \ users may find reloading this weapon to be challenging, UTC designed an entirely\
+    \ new feed system for this weapon and as such is still in its experimental stages.\
+    \ This DR88 model uses the same Krome muzzle flash system as the Fifty-9 for massive\
+    \ amounts of style."
+- name: "NEX Plas-Edge Sword"
+  description: "NEX Plas-Edge Sword||Manufacturer: Nexron Defence|Primary: Slash|Secondary:\
+    \ Charged Slash|Special: Block|| The NEX Plas-Edge Mod 0 is the first in a line\
+    \ of high tech energy based swords pioneered by Nexron defense. Unlike the later\
+    \ nanosword designs, the NEX Mod 0 uses only the supercharged ionic gas channel\
+    \ for energy and relies on a traditional metal sword for the cutting. This approach\
+    \ was quickly abandoned as Element 115's plasma field unfortunately proved to\
+    \ be highly unstable with erratic charge levels and random dangerous overheats.\
+    \ The blade's excessive heat also required a different approach - scientists noted\
+    \ that after prolonged exposure the blade ionized the surrounding atmosphere and\
+    \ made breathing difficult. When using the NEX in combat, be careful not to overcharge\
+    \ it as the blade is prone to discharge when completely energized. It should be\
+    \ noted that the plas-edge's coils are incredibly unstable and will absorb any\
+    \ and all incoming energy. With an effect similar to skrith anti-energy armor,\
+    \ this can be used to the user's advantage in the field by absorbing enemy plasma\
+    \ charges and using them to strike a supercharged blow."
+- name: "R98 Hunting Rifle"
+  description: "R98 Hunting Rifle||Manufacturer: UTC Defense Tech|Primary: Single\
+    \ Powerful Shot|Secondary: Engage Iron-Sights||The R98 Hunting Rifle is the designated\
+    \ civillian version of the popular R78A1 Sniper Rifle. While it lacks the military\
+    \ scope and superb accuracy of the original, the R98 is still a force to be reckoned\
+    \ with. Comes with a variety of custom camo finishes and a quick action bolt perfect\
+    \ for hunting in the woods. (Good for approx 300 uses.) Like the R78, the R98\
+    \ is only as good as the soldier using it."
+- name: "RS04 .45 Compact"
+  description: "RS04 .45 Compact||Manufacturer: Drake & Co Firearms|Primary: .45 Fire|Secondary:\
+    \ Flashlight||A brand new precision handgun designed by Drake & Co firearms, the\
+    \ Redstrom .45 is to be the military version of the current 10mm RS8. Dubbed the\
+    \ RS04, this unique and accurate pistol is still in its prototype stages. The\
+    \ .45 HV rounds used in the RS04 prototype allow for much improved stopping power\
+    \ at the expense of clip capacity and recoil. Current features include a tactical\
+    \ flashlight and a quick loading double shot firemode. Currently undergoing combat\
+    \ testing by private military contractors, the 8-round Redstrom is seen frequently\
+    \ in the battlefields of corporate warfare. The RS04 .45 Compact model is the\
+    \ latest variant."
+- name: "SK-410 Assault Shotgun"
+  description: "SK-410 Assault Shotgun||Manufacturer: Zavod Tochnogo Voorujeniya (ZTV\
+    \ Export)|Primary: 8-Gauge Explosive Shot|Secondary: Melee||The SK-410 shotgun\
+    \ is a large-bore, compact shotgun based off the popular AK-490 design. While\
+    \ it is illegal on several major planets, this powerful weapon and its signature\
+    \ explosive shotgun shells are almost ubiquitous. A weapon originally designed\
+    \ for breaching use, the SK-410 is now found in the hands of civillians and terrorists\
+    \ throughout the worlds. It had become so prolific with outer colony terrorist\
+    \ groups that the UTC began the SKAS assault weapon program in an effort to find\
+    \ a powerful shotgun of their own."
+- name: "SKAS-21 Super Shotgun"
+  description: "SKAS-21 Super Shotgun||Manufacturer: UTC Defense Tech|Primary: Variable\
+    \ Fire Buckshot|Secondary: Tri-Barrel Blast||The SKAS-21 Super Assault Shotgun\
+    \ is a brand-new, state-of-the-art weapons system developed by UTC Defense Tech.\
+    \ It has been nicknamed 'The Decimator' for its ability to sweep entire streets\
+    \ clean of hostiles in seconds. Built to provide sustained suppressive fire, the\
+    \ fully automatic SKAS fires from an electrically assisted, rotating triple-barrel\
+    \ system. An electric motor housed in the stock operates various internal functions,\
+    \ making this gun one of the few gas-operated/gatling hybrids. Non-ambidexterous\
+    \ models can disable this system for use with low-impulse ammunition, however\
+    \ use with standard ammunition is not recommended due to the resulting overpressurization.\
+    \ This heavy duty shotgun fires 10 gauge ammunition from a 18 round U drum by\
+    \ default, however 12 gauge (SKAS/M-21), grenade launching (SRAC/G-21), and box\
+    \ fed (SAS/CE-3) variants exist as well. Handle with care, as this is one expensive\
+    \ gun. This particular variant has a smart choke enabled on manual fire for increased\
+    \ accuracy."
+- name: "SM-AT/AA Recoilless Rifle"
+  description: "Flak 16 Single Man Anti-Tank/Anti-Air Recoilless Rifle||Manufacturer:\
+    \ UTC Defense Tech|Primary: Launch Rocket|Secondary: Detonate Rocket||The Flak\
+    \ 16 SM-AT/AA Recoilless Rifle is a reloadable, single shot rocket launcher. The\
+    \ portable version of the Flak 54 AT/AA system, the Flak 16 SM-AT/AA is housed\
+    \ in a G5 casing and fires high-speed AP shaped charges for maximum penetration\
+    \ and damage. Engineered after UTC generals noticed the Cryons' knack for overrunning\
+    \ and taking over their Flak 54 sites, this new portable Recoilless Rifle has\
+    \ been the bane of Cryon armored divisions ever since."
+- name: "SRAC-21/G Autocannon"
+  description: "SRAC-21/G Autocannon||Manufacturer: UTC Defense Tech|Primary: FRAG-12\
+    \ Shot|Secondary: Tri-Barrel Blast||The SRAC-21/G 20mm Autocannon is the grenade\
+    \ launching variant of the SKAS-21 weapon system. It fires the highly potent FRAG-12\
+    \ explosive round, which turns what is normally a close range suppression shotgun\
+    \ into a long range sniping cannon. It fires from the same electrically assisted,\
+    \ rotating triple-barrel system as the SKAS-21, which means that it can also be\
+    \ used with manual mode to further propel the generally low-impulse explosive\
+    \ charge. The explosive charges are designed to detonate on contact, which means\
+    \ the SRAC can be used in a similar fashion to a standard slug firing rifles.\
+    \ A laser sight is included on all SRACs due to a lack of back up iron sights.\
+    \ Handle with care, as this is one expensive gun."
+- name: "SRS Mod-2 Battle Rifle"
+  description: "SRS Mod-2 Battle Rifle||Manufacturer: NDTR Industries|Primary: Powerful\
+    \ Rifle Fire|Secondary: Iron Sights||Popular demand for a civillian variant of\
+    \ the SRS-655 Battle Rifle spurred the creation of the versatile semi-automatic\
+    \ SRS Mod-2 Battle Rifle. Designed and refined in NDTR Industries' top notch R&D\
+    \ labs before the war, the Mod-2 is the precursor to the now-famous SRS-900. Customers\
+    \ can choose from a variety of targeting scopes, calibers and camouflage patterns\
+    \ to personalize their firearm. This specific version has been custom-modified\
+    \ with a suppressor mount and holographic sight. The SRS Mod-2 was awarded a 10\
+    \ out of 10 by the Gentleman's Rifle Association for amazing precision and accuracy\
+    \ and was quoted to be 'the best gun for big game and home defense!' Gold variants\
+    \ are unfortunately currently out of stock."
+- name: "Redwood Sawn-Off"
+  description: "Redwood Sawn-Off Shotgun||Manufacturer: Redwood Firearms|Primary:\
+    \ Double Barrel Shot|Secondary: Single Barrel Shot||The layers of caked blood\
+    \ and dirt are the only indication of the passing of time on this ancient weapon,\
+    \ once used by the ring leader of a now long gone gang in the old west. Having\
+    \ cut off most of the barrel, the owner found it much easier to conceal and found\
+    \ he could carry a second one, inspiring fear and false loyalty in those around\
+    \ him. Though he's gone, his weapon remains as formidable as it was then, firing\
+    \ 12 gauge buckshot rounds, either in pairs or single shot. Without most of its\
+    \ barrel, the ease of use due to being much lighter is readily apparent, even\
+    \ in the hands of an amateur. Still packs one hell of a kick."
+- name: "T9CN Machine Pistol"
+  description: "T9CN 'Hammer' Machine Pistol||Manufacturer: Drake & Co Firearms|Primary:\
+    \ Auto 9mm Rounds|Secondary: Iron Sights|| The T9CN was the precursor to the standard\
+    \ GRS9 Pistol, and it sported a rugged automatic firing mechanism and nickel finish.\
+    \ The automatic variant was designed with use by counter-terrorism units in mind,\
+    \ but sadly a lack of compensator gave the gun horrible inaccuracy and recoil.\
+    \ Most CTU's quickly dropped the GRS1 in favor of other more accurate machine\
+    \ pistols like the XRS-10 and the XK2, however infamous outlaw Var Dehidra and\
+    \ his cronies stole a stash of T9CN's and found good use for them. They were known\
+    \ for spraying them to keep enemies at bay and even tilting them to the side like\
+    \ gangsters of old. Their brazen use of police equipment inspired robberies throughout\
+    \ the cosmos!"
+- name: "X83A1 Anti-Materiel Rifle"
+  description: "X-83 A1 Anti-Materiel Rifle||Manufacturer: Evravion Combat Solutions\
+    \ |Primary: Single Powerful Shot|Secondary: Activate Zooming Scope|Special: (Scoped)\
+    \ Activate Night Vision/Detector|Special: (Unscoped) Mount X-83 A1||Enravion's\
+    \ high powered X-83 A1 Anti-Material Rifle is a fearsome sight on the modern day\
+    \ battlefield. With an effective range of about 1.1 miles, the X-83 can target\
+    \ and eliminate infantry and light vehicles with ease and at range using its specialized\
+    \ .50 cal N6-BMG HEAP rounds. This special operations weapon, designed to disable\
+    \ key targets like parked aircraft and APCs, was used extensively prior to the\
+    \ Skrith wars. While replaced mainly by the heavier Flak 16 SM-AT/AA and M75-TIC\
+    \ during the wars, the X-83 has been brought back into the limelight following\
+    \ the infamous assassination of UTC General Alan Winchester by feared Outworld\
+    \ terrorist group, The Hand. It should be noted that this is a specialist's rifle\
+    \ and can be difficult to use without training."
+- name: "XM84 Heavy Tech Grenade"
+  description: "XM84 Heavy Disruptor Grenade||Manufacturer: XWI Elite Systems|Primary:\
+    \ Throw Grenade|Secondary: Roll Grenade|Special: Release Clip||The XM84 Heavy\
+    \ Disruptor grenade is an advanced electromagnetic pulsar weapon designed for\
+    \ incapacitation and disorientation. State of the art field psionic generators\
+    \ ensure the XM84 can tackle all types of targets. A fission criticality-inducing\
+    \ core combined with the Tandem MS flux generator gives the XM84 the destructive\
+    \ ability to strip away energy shields and fry any electrical system without a\
+    \ Warship-Grade Faraday cage. Warning: Long term exposure to armed XM84s is known\
+    \ to cause acute radiation poisoning and cerebral hemorrhaging. Proximity to a\
+    \ disruptive burst will cause permanent memory loss and irreversible neurological\
+    \ damage."
+- name: "XMB-500 Personal Minigun"
+  description: "XMB-500 Personal Minigun|Manuacturer: Enravion Combat Solutions|Primary:\
+    \ Auto fire||The XMV-500 Personal Suppression System is a prototype weapon being\
+    \ developed by Enravion as a low-recoil, precision minigun. The XMB-500 has been\
+    \ designed for ease of use with infantry and boasts firerates of 600 to 2400 RPM;\
+    \ combined with the potent incendiary rounds, the accurate XMB-500 is perfect\
+    \ for cutting down large amounts of enemy troops. This weapon has excellent accuracy\
+    \ when stationary but unfortunately cannot be fired safely at the higher speeds\
+    \ while moving. To prevent damage to the user and the weapon, the XMB-500 will\
+    \ automatically lock when mobile at cyclic speeds over 600 RPM. It should be noted\
+    \ that the speed sensor will malfunction if submerged in liquid or not properly\
+    \ cared for."
+- name: "AH250 Assault Pistol"
+  description: "AH-250 'Hawk' Assault Pistol||Manufacturer: Enravion Combat Solutions|Primary:\
+    \ Magnum Rounds|Secondary: Scope|The new AH-250 is an updated version of Enravion's\
+    \ AH-208 model. Equipped with a compensator for recoil, match-grade internals,\
+    \ and a precision scope, the AH-250 is a powerful and precise sidearm. Big game\
+    \ hunters have taken a liking to the gun and it can be seen in almost every outer\
+    \ planet action flick. Military adoption remains low due to the heavy recoil and\
+    \ impracticality of carrying around such a large sidearm."
+- name: "AK-490 Battle Rifle"
+  description: "AK-490 Battle Rifle||Manufacturer: Zavod Tochnogo Voorujeniya (ZTV\
+    \ Export)|Primary: 7.62 AP Rounds|Secondary: Stock Smack||Chambering 7.62mm armor\
+    \ piercing rounds, this rifle is a homage to its' distant predecessor, the AK-47.\
+    \ Though the weapons' looks have hardly changed at all, this model features a\
+    \ vastly improved firing mechanism, allowing it to operate in the most punishing\
+    \ of conditions. Equipped with a heavy reinforced stock, launchable ballistic\
+    \ bayonet, and 20 round box mag, this automatic powerhouse is guaranteed to cut\
+    \ through anything in its way. ZVT Exports designed this weapon to be practical\
+    \ and very easy to maintain. With its rugged and reliable design, the AK490 has\
+    \ spread throughout the cosmos and can be found just about anywhere."
+- name: "FSSG-50 Marksman Rifle"
+  description: "FSSG-50 .50 Marksman Rifle||Manufacturer: NDTR Industries |Primary:\
+    \ Accurate .50 Fire|Secondary: Activate Scope|Special:Toggle IR Scope||[Fallschirmjä\
+    gerscharfschützengewehr] FSsG-50 is the name given to high-performance FG50 Machineguns\
+    \ that are then equipped with match-grade barrels and high-quality custom marksman\
+    \ stocks. FG-50s with exceptional target groupings and perfect reliability ratings\
+    \ are the primary candidates for the FSsG upgrade, though some production plants\
+    \ with extremely tight tolerances and quality control specifically produce the\
+    \ FSsG variant. The result is a very accurate sniper rifle with a muzzle velocity\
+    \ far higher than its standard cousin. These elite rifles are very rarely mounted\
+    \ on vehicle platforms and are often utilized by sharpshooters equipped with enhanced\
+    \ scopes and match-grade N6-BMG rounds for hard target interdiction. This FSSG-50\
+    \ is firing the mass produced N1-Incendiary round and has an Aeris Mark 2 Suresight\
+    \ scope attached."
+- name: "MOA-C Chaff Grenade"
+  description: "MOA-C Chaff Rifle Grenade||Manufacturer: Majestic Firearms 12|Primary:\
+    \ Throw Grenade|Secondary: Melee |Special: Release Clip||Majestic Firearm 12's\
+    \ MOA-C Chaff Grenade is designed to be barrel fired with any* type of rifle round\
+    \ on the market. There's no need to unload your rifle to fire a grenade; the grenade\
+    \ stem's primer catches the bullet to ignite the shaped charge of the stem while\
+    \ leaving the barrel, offering a two stage propellant system that gives the grenade\
+    \ a greater velocity than standard rifle grenades. The MOA-C Chaff Grenade can\
+    \ also be utilized by infantry not equipped with the MJ51 Carbine as a hand thrown\
+    \ grenade. The soldier simply primes the grenade by twisting the cap and throws\
+    \ it. Due to the shaped charge still being present at the time of impact, the\
+    \ grenade tends to produce a higher explosive yield when thrown rather than shot\
+    \ from the rifle. Majestic Firearms 12 is not responsible injuries caused by inappropriate\
+    \ use of the grenade in this manner."
+- name: "FMD H14 Combat Defibrillator"
+  description: "FMD H14 Combat Defibrillator||Manufacturer: UTC Defense Tech|Primary:\
+    \ Electric Jab|Secondary: Electric Uppercut|Special: Electric Dispersion Ring||When\
+    \ UTC troops stationed in medical bays around the galaxy asked for a lightweight\
+    \ and portable device to revive fallen troops, R&D teams came up with the FMD\
+    \ H14 Combat Defibrillator Unit. The H14 is a set of advanced defrillators worn\
+    \ around the hands, which are designed to bring portable resuscitation without\
+    \ sacrificing weight. However, live tests on the field quickly found that the\
+    \ H14 carried too much charge, so instead of saving lives, it just ended them.\
+    \ The H14s can still be used to charge and activate suit life-support systems,\
+    \ giving the user and his allies a small health boost. The H14 is now deployed\
+    \ as a force multiplier for select Berserker Squads, who make great use of its\
+    \ damage reducing dispersion field."
+- name: "MARS-3 CQB Assault Rifle"
+  description: "MARS-3 CQB Assault Rifle||Manufacturer: NDTR Industries|Primary: Rapid\
+    \ Rifle Fire|Secondary: 40mm Pulse Mine|Special: Suppressor ||The 3 variant of\
+    \ the Modular Assault Rifle System is one of many rifles built under NDTR Industries'\
+    \ MARS project. The project, which was aimed to produce a successor to the army's\
+    \ current M50 and M30 rifles, has produced a number of functional prototypes.\
+    \ The 3 variant is a short barreled model designed for CQC use with non-standard\
+    \ ammunition. Field tests have shown excellent results when loaded with Snowstorm\
+    \ or Firestorm rounds, and above-average performance with Zero-G, toxic and electro\
+    \ rounds. This specific MARS-3 is loaded with 5.45mm suppressor-ready low velocity\
+    \ rounds and is set to fire at a blistering 850 RPM. Unlike the sharpshooter MARS-2\
+    \ variant, the MARS-3 also comes with an advanced grenade launcher that can chamber\
+    \ 40mm JRGM Fission shockwave grenades. These grenades were developed during the\
+    \ first Skrith war and were invaluable for disrupting Skrith ambushes."
+- name: "FG50 Heavy Machine Gun"
+  description: "FG50 Heavy Machine Gun||Manufacturer: NDTR Industries|Primary: Automatic\
+    \ .50 Fire|Secondary: Holosight|Special: Laser Sight||The FG50 Heavy Machine Gun\
+    \ is a specialized .50 caliber weapon designed for use on automated weapons platforms\
+    \ and vehicles. Built under contract for the UTC, the NDTR FG50 is the primary\
+    \ weapon for many light assault vehicles and combat drones. An infantry version\
+    \ was developed for UTC's Sub-Orbital Insertion Troops as a high powered combat\
+    \ rifle, after complaints that the current M925 was too bulky to carry and store\
+    \ in Armored Insertion Pods and that the MG33 simply did not pack the punch required\
+    \ to stop a charging Skrith.||Hunter-killer SOIT teams swear by the FG50 now,\
+    \ and praise its ability to fire with precision and accuracy. However ask any\
+    \ veteran and you'll hear many stories about those who disrespected the power\
+    \ of the weapon and foolishly ended up with broken arms and damaged prides. The\
+    \ HMG is not a weapon to toy with."
+- name: "LK-05 Advanced Carbine"
+  description: "LK-05 Advanced Carbine||Manufacturer: XWI Elite Systems|Primary: Accurate\
+    \ Rifle Fire|Secondary: Attach Suprressor|Special: Toggle Flashlight/Laser||The\
+    \ LK-05 Carbine is an extremely high-quality assault weapon manufactured exclusively\
+    \ for select PMCs and paramilitary groups. It is very rarely seen on the battlefield\
+    \ as no Terran-recongized militaries publicly use it, and XWI does not admit to\
+    \ manufacturing firearms or weapons of any kind. Despite this, a large amount\
+    \ of casualities on both the Terran and Skrith sides are attributed to the LK-05.\
+    \ It notably uses specialized, custom-tooled 5.56mm ammunition that is both match-grade\
+    \ and disintigrating, much to the chagrin of crime scene investigators. Investigations\
+    \ into XWI's ties to various PMC groups and high-profile assassinations are on-going,\
+    \ but unlikely to succeed."
+- name: "MARS-2 Assault Rifle"
+  description: "MARS-2 Assault Rifle||Manufacturer: NDTR Industries|Primary: 5.56mm\
+    \ STN Rifle Rounds|Secondary: Integrated Scope||The 2 variant of the Modular Assault\
+    \ Rifle System is one of many rifles built under NDTR Industries' MARS project.\
+    \ The project, which aimed to produce a successor to the army's current M50 and\
+    \ M30 rifles, has produced a number of functional prototypes. The 2 variant is\
+    \ a sharpshooter model with a longer barrel and an advanced IRNV integral scope.\
+    \ The advanced scope mounted on the MARS-2 can switch between standard, infrared/night\
+    \ vision, and an advanced targeting system to help the user target foes where\
+    \ visibility may be impared. Current tests show the MARS-2 to be reliable and\
+    \ effective, yet expensive."
+- name: "MJ51 Carbine"
+  description: "MJ51 Carbine||Manufacturer: Majestic Firearms 12|Primary: 5.56mm CAP\
+    \ Rifle Fire|Secondary: Attach Smoke Grenade||The MJ51 is a 3-round burst carbine\
+    \ based off the popular M50 assault rifle. Unlike the M50 and SAR though, it fires\
+    \ a shorter 5.56mm CAP round and is more controllable than its larger cousin,\
+    \ though this comes at the expense of long range accuracy and power. While the\
+    \ S-AR 12 is the UTC's weapon of choice for close range engagements, the MJ51\
+    \ is often seen in the hands of MP and urban security details. When paired with\
+    \ its native MOA-C Rifle Grenade attachment, the MJ51 makes an efficient riot\
+    \ control weapon. |Majestic Firearms 12 designed their MJ51 carbine alongside\
+    \ their MOA-C Chaff Grenade to produce a rifle with grenade launching capabilities\
+    \ without the need of a bulky launcher that has to be sperately maintained. Utilizing\
+    \ a hardened tungsten barrel and an advanced rifle grenade design, a soldier is\
+    \ able to seamlessly ready a grenade projectile without having to rechamber specilized\
+    \ rounds or operate a secondary weapon."
+- name: "X8 Ballistic Knife"
+  description: "X8 Ballistic Knife||Manufacturer: Zavod Tochnogo Voorujeniya|Primary:\
+    \ Slash / Stab|Secondary: Launch Blade||A counterpart to Enravion\x92s X3 Knife,\
+    \ the X8 Ballistic Knife is the Eastern Bloc\x92s preferred way to deal with CQC\
+    \ enemies. While primarily used as a bayonet on the venerable AK490, the X8 is\
+    \ still quite effective in hand to hand fighting thanks to its lethally sharp\
+    \ blade. When opponents are too far to gut personally, the unique gas propellant\
+    \ mechanism inside the hilt of the knife lets the user turn their knife into a\
+    \ fast moving spear. Several unfortunate accidents have caused the X8 to be considered\
+    \ unfit for civilian use."
+vehicles:
+- name: "X-83 A1 Mounted Rifle"
+  description: "X-83 A1 Mounted Rifle"
+- name: "FG50 Mounted MG"
+  description: "FG50 Mounted MG"
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 18:26"
+game: "Unreal Tournament 2004"
+name: "DM-MaskTest"
+author: "Jefe"
+description: "It's all good."
+releaseDate: "2011-09"
+attachments: []
+originalFilename: "Angel Mapper Halloween 2011 v1.7z"
+hash: "8d2dbb0aafecb2ab6bf5c51fd11a794ae1e4cf13"
+fileSize: 710387
+files:
+- name: "AngelMapperHalloweenTextures.utx"
+  fileSize: 613794
+  hash: "e1463996435158ea88eb5cd71a22215be1dea48a"
+- name: "HalloweenJefe.usx"
+  fileSize: 1877712
+  hash: "2a9791841196f7445fcacc27b25998bc2227aa2a"
+- name: "AngelMapperHalloweenMeshes.usx"
+  fileSize: 187887
+  hash: "ff3c94ef17aa21921a2da4442d17077364c381e5"
+- name: "HMDEK2011.u"
+  fileSize: 44465
+  hash: "e99a94b7d8b67fee4edb9ea1c9170c2beec48294"
+- name: "DM-MaskTest.ut2"
+  fileSize: 93019
+  hash: "364f1a15f522d14f8d14947fd97f2b114792888e"
+otherFiles: 3
+dependencies:
+  HMDEK2011.u:
+  - status: "OK"
+    name: "AngelMapperHalloweenMeshes"
+  - status: "OK"
+    name: "HalloweenJefe"
+  AngelMapperHalloweenMeshes.usx:
+  - status: "OK"
+    name: "AngelMapperHalloweenTextures"
+  DM-MaskTest.ut2:
+  - status: "OK"
+    name: "AngelMapperHalloweenMeshes"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/M/8/d/2dbb0a/Angel%20Mapper%20Halloween%202011%20v1.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MaskTest"
+playerCount: "2"
+themes: {}
+bots: true

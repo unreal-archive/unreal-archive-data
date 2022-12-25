@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 16:58"
+game: "Unreal Tournament 2004"
+name: "AS-T4M-NuclearShip-v2"
+author: "CraZyFrag"
+description: "Your mission is to intercept and destroy a ship and a submarine which\
+  \ are transporting two nuclear weapons. Destroy them now !"
+releaseDate: "2006-04"
+attachments:
+- type: "IMAGE"
+  name: "as-t4m-nuclearship-v2_shot_c6ce36d7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/T/c/6/ce36d7/as-t4m-nuclearship-v2_shot_c6ce36d7_1.png"
+originalFilename: "AS-T4M-NuclearShip-v2.7z"
+hash: "c6ce36d7af4c6f3d4f6e033acc19b1d40dcf913f"
+fileSize: 851552
+files:
+- name: "wcBTR-A.ukx"
+  fileSize: 282554
+  hash: "be4388fbe72be730450d5a32a5d82a1ad514c9d6"
+- name: "watercraft-SM.usx"
+  fileSize: 171488
+  hash: "89b6b0d23773592c483e8712bb0ad85c3a2f302f"
+- name: "watercraft.u"
+  fileSize: 347144
+  hash: "557e30dbb7c1ba2b2cd7c66aa2b3541888c7f285"
+- name: "watercraft-TX.utx"
+  fileSize: 260205
+  hash: "d70e7e76a7e4450338c35fb7cf527748dc037a4f"
+- name: "AS-T4M-NuclearShip-v2.ut2"
+  fileSize: 2382262
+  hash: "18f8a89ffa0f22b2bd8e23b2286c9493826b28ee"
+- name: "watercraft-A.ukx"
+  fileSize: 143880
+  hash: "3c03a7dcfb806ed44f759924fc2f8382249df1e1"
+otherFiles: 2
+dependencies:
+  watercraft.u:
+  - status: "OK"
+    name: "watercraft-SM"
+  - status: "MISSING"
+    name: "wcSoldier-A"
+  - status: "OK"
+    name: "wcBTR-A"
+  - status: "MISSING"
+    name: "wcFodderGun-SM"
+  - status: "MISSING"
+    name: "wcFodderGun-TX"
+  - status: "OK"
+    name: "watercraft-A"
+  - status: "MISSING"
+    name: "wcSoldier-TX"
+  - status: "OK"
+    name: "watercraft-TX"
+  watercraft-A.ukx:
+  - status: "OK"
+    name: "watercraft-TX"
+  AS-T4M-NuclearShip-v2.ut2:
+  - status: "OK"
+    name: "watercraft"
+  wcBTR-A.ukx:
+  - status: "OK"
+    name: "watercraft-TX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/T/c/6/ce36d7/AS-T4M-NuclearShip-v2.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "AS-T4M-NuclearShip-v2"
+playerCount: "10-20"
+themes:
+  Natural: 1.0
+bots: true

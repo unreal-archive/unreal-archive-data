@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:11"
+game: "Unreal Tournament 2004"
+name: "AS-U4V-SmallQuest-V10B-PWCPatch"
+author: "|U4V|$hinji Fixed for BestTimes by Sgt.Muffin"
+description: "Small Quest With Patch for BestTimes 2.10 & Clan Manager"
+releaseDate: "2009-06"
+attachments:
+- type: "IMAGE"
+  name: "as-u4v-smallquest-v10b-pwcpatch_shot_6a83c9e0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/U/6/a/83c9e0/as-u4v-smallquest-v10b-pwcpatch_shot_6a83c9e0_2.png"
+- type: "IMAGE"
+  name: "as-u4v-smallquest-v10b-pwcpatch_shot_6a83c9e0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/U/6/a/83c9e0/as-u4v-smallquest-v10b-pwcpatch_shot_6a83c9e0_1.png"
+originalFilename: "AS-U4V-SmallQuest-V10B-PWCPatch.zip"
+hash: "6a83c9e00fca24ce1205c58ab0d76dae62aa143e"
+fileSize: 9973623
+files:
+- name: "2K5_Stargate_SM.usx"
+  fileSize: 2419520
+  hash: "32c06a2ed84331ed7e78c486ca139e65dbe21108"
+- name: "BattleBikes.u"
+  fileSize: 283363
+  hash: "54c5e543097e5554ba39f2a6f1358f99d39415ad"
+- name: "TFAMap.u"
+  fileSize: 21814
+  hash: "4769d810763cd19e6218101f9409ae9bb5076f5b"
+- name: "BattleBikes_Anim.ukx"
+  fileSize: 3973744
+  hash: "9265a8d2e0a61e500eeedc9739d921f50c4a90f3"
+- name: "AS-U4V-SmallQuest-V10B-PWCPatch.ut2"
+  fileSize: 21369828
+  hash: "5c944fdc5a06314edd1d3e6d62d27fa32e87caf4"
+- name: "BattleBike_Snds.uax"
+  fileSize: 689914
+  hash: "aa14be9936f28294e6cebb9682d5bbaf9642bb70"
+- name: "2k5_ShinjiLogo.usx"
+  fileSize: 2320772
+  hash: "b73ecd2168cc529270aaa897e3cb66a1a7351afc"
+- name: "BattleBike_Tex.utx"
+  fileSize: 14333964
+  hash: "e5654de96f7bc027220dc5d3d936361cbef2a0b6"
+- name: "BattleBikes_ST.usx"
+  fileSize: 1161468
+  hash: "406dcb3a7aef68eae00f3ce7b73efe937e92fbdc"
+otherFiles: 1
+dependencies:
+  BattleBikes.u:
+  - status: "OK"
+    name: "BattleBikes_ST"
+  - status: "OK"
+    name: "BattleBikes_Anim"
+  - status: "OK"
+    name: "BattleBike_Snds"
+  - status: "OK"
+    name: "BattleBike_Tex"
+  BattleBikes_Anim.ukx:
+  - status: "OK"
+    name: "BattleBike_Tex"
+  AS-U4V-SmallQuest-V10B-PWCPatch.ut2:
+  - status: "OK"
+    name: "BattleBikes"
+  - status: "OK"
+    name: "2k5_ShinjiLogo"
+  - status: "OK"
+    name: "2K5_Stargate_SM"
+  BattleBikes_ST.usx:
+  - status: "OK"
+    name: "BattleBike_Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/U/6/a/83c9e0/AS-U4V-SmallQuest-V10B-PWCPatch.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "SmallQuest PWC Patch"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Industrial: 0.1
+  Ancient: 0.2
+bots: true

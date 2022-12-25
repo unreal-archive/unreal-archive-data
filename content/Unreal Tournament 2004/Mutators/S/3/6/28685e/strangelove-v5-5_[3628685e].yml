@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:08"
+game: "Unreal Tournament 2004"
+name: "Strangelove V5 5"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "Strangelove v5.5.7z"
+hash: "3628685e137a05147eb451e614709bdfb9769a09"
+fileSize: 273759
+files:
+- name: "StrangeLove55.u"
+  fileSize: 208157
+  hash: "4d3cba0a6791bd08a058d2bf11b60551ef00712c"
+- name: "StrangeLoveAnim55.ukx"
+  fileSize: 228999
+  hash: "3bcf2fff514e74ea355a2405eef251643d11167f"
+- name: "StrangeLoveTex55.utx"
+  fileSize: 2102050
+  hash: "8203005a4ad53e3c06473ba07b7598e98e7dcdbc"
+otherFiles: 2
+dependencies:
+  StrangeLove55.u:
+  - status: "OK"
+    name: "StrangeLoveAnim55"
+  - status: "OK"
+    name: "StrangeLoveTex55"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/3/6/28685e/Strangelove%20v5.5.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "StrangeLove Arena ver.5.5"
+  description: "Replaces all weapons in the level with Strangeloves."
+- name: "StrangeLove Old Skool ver.5.5"
+  description: "Replaces all weapons in the level with Strangeloves."
+weapons:
+- name: "StrangeLove IR"
+  description: "The first time you witness this miniature nuclear device in action,\
+    \ you'll agree it is the most powerful weapon in the Tournament.|Launch a slow-moving\
+    \ but utterly devastating missile with the primary fire; but make sure you're\
+    \ out of the Redeemer's impressive blast radius before it impacts. The secondary\
+    \ fire allows you to guide the nuke yourself with a rocket's-eye view.||Keep in\
+    \ mind, however, that you are vulnerable to attack when steering the Redeemer's\
+    \ projectile. Due to the extreme bulkiness of its ammo, the Redeemer is exhausted\
+    \ after a single shot."
+vehicles:
+- name: "Hold tight!"
+  description: "Hold tight!"
+hasConfigMenu: false
+hasKeybinds: false

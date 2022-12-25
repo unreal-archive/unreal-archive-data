@@ -1,0 +1,50 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-12-25 17:33"
+variationOf: "02b2bce844dc12468036c8d03d1229c7b8038c29"
+game: "Unreal Tournament 2004"
+name: "Bender"
+author: "Epic Games"
+description: "None"
+releaseDate: "2018-09"
+attachments:
+- type: "IMAGE"
+  name: "bender_shot_351f72f8_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/B/3/5/1f72f8/bender_shot_351f72f8_1.png"
+originalFilename: "ut2k4-bender.7z"
+hash: "351f72f8f646eb6ef7b69ca644f103abc68b8a88"
+fileSize: 4937320
+files:
+- name: "Bender.upl"
+  fileSize: 715
+  hash: "7dc2c5c394e951d8cc658b9ec410305952162848"
+- name: "Bender.ukx"
+  fileSize: 1598973
+  hash: "a3f1293e3008c2da0d7a387921c3840e498bf617"
+- name: "BenderSkins.utx"
+  fileSize: 7452455
+  hash: "18965efbaf013509cc90d447fb7c55c35495516a"
+- name: "bender.ka"
+  fileSize: 52744
+  hash: "70501fc3f3dab0973695cca823cc5fb7458c5639"
+- name: "BenderVoice2k4.u"
+  fileSize: 4084141
+  hash: "4e960b09f13e799274d8cbcfa33204fb2f898e08"
+otherFiles: 1
+dependencies:
+  Bender.ukx:
+  - status: "OK"
+    name: "BenderVoice2k4"
+  - status: "OK"
+    name: "BenderSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/B/3/5/1f72f8/ut2k4-bender.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Bender"
+skins:
+- "Bender"

@@ -1,0 +1,120 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "Fodder Gun"
+author: "Unknown"
+description: "Replace that crumby old Spider Mine Gun and that icky Bio-Rifle with\
+  \ the SUPER AWESOME-O FODDER GUN 2004!!"
+releaseDate: "2005-07"
+attachments: []
+originalFilename: "Watercraft v1.3.3355b.7z"
+hash: "33041735ebed2b28b8eef9632c59e933bce821dd"
+fileSize: 1258421
+files:
+- name: "wcFodderGun-SM.usx"
+  fileSize: 14772
+  hash: "c477ae9023a5328f8b48ebb36c2d5a9ff40a8f93"
+- name: "wcFodderGun-TX.utx"
+  fileSize: 1002605
+  hash: "5cc96aee4c80353f180f8c013ed65c55b8bd9ed6"
+- name: "watercraft.u"
+  fileSize: 366320
+  hash: "ae6245d3e792da8c8ca45c49dacc9a948f677495"
+- name: "wcBTR-A.ukx"
+  fileSize: 351485
+  hash: "4ba1c6b4a44ad1bebc29e5b3711e3020feba782d"
+- name: "watercraft-TX.utx"
+  fileSize: 303873
+  hash: "84dcc4556fb9f59976183974d444b4dc3779608e"
+- name: "watercraft-A.ukx"
+  fileSize: 143880
+  hash: "3c03a7dcfb806ed44f759924fc2f8382249df1e1"
+- name: "wcSoldier-A.ukx"
+  fileSize: 273013
+  hash: "455da68f902ec344fd6dec203810adde18311eae"
+- name: "wcSoldier-TX.utx"
+  fileSize: 965278
+  hash: "3af208fc3913fa5743b5d24dcaa6a9cef3071adc"
+- name: "watercraft-SM.usx"
+  fileSize: 182418
+  hash: "bb6109c25e7b82b17809b66c2bc9d7039c7e831f"
+otherFiles: 2
+dependencies:
+  watercraft-SM.usx:
+  - status: "OK"
+    name: "watercraft-TX"
+  watercraft.u:
+  - status: "OK"
+    name: "watercraft-SM"
+  - status: "OK"
+    name: "wcSoldier-A"
+  - status: "OK"
+    name: "wcBTR-A"
+  - status: "OK"
+    name: "wcFodderGun-SM"
+  - status: "OK"
+    name: "wcFodderGun-TX"
+  - status: "OK"
+    name: "watercraft-A"
+  - status: "OK"
+    name: "wcSoldier-TX"
+  - status: "OK"
+    name: "watercraft-TX"
+  watercraft-A.ukx:
+  - status: "OK"
+    name: "watercraft-TX"
+  wcSoldier-A.ukx:
+  - status: "OK"
+    name: "wcSoldier-TX"
+  - status: "OK"
+    name: "wcFodderGun-TX"
+  wcBTR-A.ukx:
+  - status: "OK"
+    name: "watercraft-TX"
+  wcFodderGun-SM.usx:
+  - status: "OK"
+    name: "wcFodderGun-TX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/3/3/041735/Watercraft%20v1.3.3355b.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Fodder Gun"
+  description: "Replace that crumby old Spider Mine Gun and that icky Bio-Rifle with\
+    \ the SUPER AWESOME-O FODDER GUN 2004!!"
+weapons:
+- name: "Torpedo"
+  description: "The Torpedo, Scourge of the Seas."
+- name: "Fodder Gun"
+  description: "Sphunk Systems FG-2004 Long-range tactical unit teleporter."
+vehicles:
+- name: "RaftGun"
+  description: "RaftGun"
+- name: "Energy Turret"
+  description: "Energy Turret"
+- name: "Energy Turret"
+  description: "Energy Turret"
+- name: "SeaLion"
+  description: "SeaLion"
+- name: "SealLion Rear Turret"
+  description: "SealLion Rear Turret"
+- name: "SealLion"
+  description: "SealLion"
+- name: "SealLion Passanger Gun"
+  description: "SealLion Passanger Gun"
+- name: "SeaLion"
+  description: "SeaLion"
+- name: "Manta"
+  description: "Manta"
+- name: "Energy Turret"
+  description: "Energy Turret"
+- name: "Seal"
+  description: "Seal"
+- name: "Minigun Turret"
+  description: "Minigun Turret"
+hasConfigMenu: false
+hasKeybinds: false

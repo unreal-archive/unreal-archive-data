@@ -1,0 +1,47 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-12-25 18:17"
+game: "Unreal Tournament 2004"
+name: "Portal Gun Levels"
+author: "Various"
+description: "None"
+releaseDate: "2006-08"
+attachments: []
+originalFilename: "Portal Gun Levels.7z"
+hash: "7b9592bfb7b53dd0ee335642bf811fd9fc1d0f94"
+fileSize: 605286
+files:
+- name: "DM-Portal-Nereid.ut2"
+  fileSize: 377194
+  hash: "3e2e266f59dd79b3fa5f038015ec25ceba3e6a3b"
+- name: "DM-PortalFun.ut2"
+  fileSize: 971371
+  hash: "0432252d51c3c234a3bd533d3d9a321957d13809"
+- name: "DM-PortalGun2.ut2"
+  fileSize: 4677305
+  hash: "6eaf3b88a8b3a23c73f07b44bd0433b04362fe06"
+otherFiles: 0
+dependencies:
+  DM-PortalGun2.ut2:
+  - status: "MISSING"
+    name: "PortalGun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/P/7/b/9592bf/Portal%20Gun%20Levels.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Portal-Nereid"
+  title: "Nereid Portal Trials"
+  author: "Nereid"
+- name: "DM-PortalFun"
+  title: "Portal Fun"
+  author: "Ikkuh"
+- name: "DM-PortalGun2"
+  title: "DM-PortalGun2"
+  author: "dub"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0

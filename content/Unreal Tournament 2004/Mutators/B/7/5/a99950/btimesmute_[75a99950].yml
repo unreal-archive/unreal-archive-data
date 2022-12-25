@@ -1,0 +1,38 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:24"
+game: "Unreal Tournament 2004"
+name: "BTimesMute"
+author: "Unknown"
+description: "BTimesMute"
+releaseDate: "2007-07"
+attachments: []
+originalFilename: "BestTimes(OldPublic).rar"
+hash: "75a99950ba5fcee2df05c80a84709a1dffe3eb6b"
+fileSize: 37366
+files:
+- name: "DBestTimesA.u"
+  fileSize: 8094
+  hash: "380baaddeae12a53a6cc63f0fc4e60a24b1c63ba"
+- name: "ServerBTimes.u"
+  fileSize: 109041
+  hash: "71768b01e0bd766eead4ebcd6be4db49a873750f"
+otherFiles: 2
+dependencies:
+  ServerBTimes.u:
+  - status: "OK"
+    name: "DBestTimesA"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/7/5/a99950/BestTimes(OldPublic).rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BTimesMute"
+  description: "BTimesMute"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

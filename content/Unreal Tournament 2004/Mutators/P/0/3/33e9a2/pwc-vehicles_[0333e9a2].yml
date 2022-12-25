@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 17:30"
+game: "Unreal Tournament 2004"
+name: "PWC Vehicles"
+author: "Unknown"
+description: "Replaces vehicles with customized PWC-Gaming ones. Colored Team Skins\
+  \ and Tweaked speed and health."
+releaseDate: "2009-09"
+attachments: []
+originalFilename: "PWCVehicles.rar"
+hash: "0333e9a247b0677e5ef6b70ff479d5ec0bd85a76"
+fileSize: 4005211
+files:
+- name: "PWCPluginTextures.utx"
+  fileSize: 7004408
+  hash: "1f644e798f990f2ab60a85052051024894966033"
+- name: "PWCPluginPack.u"
+  fileSize: 6572
+  hash: "7ac57ef624ec724b6c4e354c2e3c32ec50905c78"
+otherFiles: 2
+dependencies:
+  PWCPluginPack.u:
+  - status: "OK"
+    name: "PWCPluginTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/0/3/33e9a2/PWCVehicles.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "PWC Vehicles"
+  description: "Replaces vehicles with customized PWC-Gaming ones. Colored Team Skins\
+    \ and Tweaked speed and health."
+weapons: []
+vehicles:
+- name: "PWC Raptor"
+  description: "PWC Raptor"
+- name: "PWC Manta"
+  description: "PWC Manta"
+- name: "PWC Goliath"
+  description: "PWC Goliath"
+- name: "HellBender"
+  description: "HellBender"
+- name: "Scorpion"
+  description: "Scorpion"
+hasConfigMenu: false
+hasKeybinds: false

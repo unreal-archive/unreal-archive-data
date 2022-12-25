@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "Monster Manager"
+author: "Unknown"
+description: "Manage monster attributes and configure random various changes to monster\
+  \ attributes, including size, speed, points and health."
+releaseDate: "2005-04"
+attachments: []
+originalFilename: "MonsterManager 1.8.7z"
+hash: "aba7c4722d50fd9aff1eb0294ccbecf2b453c977"
+fileSize: 114811
+files:
+- name: "FriendlyMonsterIdentify.u"
+  fileSize: 1253
+  hash: "4454d0cc3f13ed3bcffcbff0a4780e6fa1ade40d"
+- name: "MonsterManager_1_8.u"
+  fileSize: 531359
+  hash: "6c73c827c5f448484dda6e79e425b10d2149b6a6"
+otherFiles: 5
+dependencies:
+  MonsterManager_1_8.u:
+  - status: "OK"
+    name: "FriendlyMonsterIdentify"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/a/b/a7c472/MonsterManager%201.8.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Monster Manager"
+  description: "Manage monster attributes and configure random various changes to\
+    \ monster attributes, including size, speed, points and health."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

@@ -1,0 +1,134 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:05"
+game: "Unreal Tournament 2004"
+name: "Annihilation Arsenal 3"
+author: "SithLegend"
+description: "None"
+releaseDate: "2018-10"
+attachments: []
+originalFilename: "Annihilation Arsenal 3.7z"
+hash: "d5ad4c5f84c66cfed458adc5d0778c0398de69ba"
+fileSize: 15201578
+files:
+- name: "AnnihilationArsenalVehicleTextures.utx"
+  fileSize: 35679049
+  hash: "5ef6b3eade5320acfe6ef7902ee4e33fcb9a1f3a"
+- name: "AnnihilationArsenalMeshes.ukx"
+  fileSize: 2757573
+  hash: "87a912cd422f63abc9fbe1d89af063712709866f"
+- name: "AnnihilationArsenalEff.utx"
+  fileSize: 47615
+  hash: "50cdc54a57d6ba1bd58cb895b64f2d489a39f2e0"
+- name: "annihilationarsenal.u"
+  fileSize: 616583
+  hash: "56ac2ecd77f0acc00ae768baf9b7d6f13c66fae3"
+- name: "AnnihilationArsenalTex.utx"
+  fileSize: 4505948
+  hash: "3095140eb12b2d6a18867388e68d38f0297ef6e7"
+- name: "AnnihilationArsenalStaticMeshes.usx"
+  fileSize: 2461349
+  hash: "84c0d28730d4a60e4159da464d062c145b9fabe4"
+- name: "annihilationarsenalsounds.uax"
+  fileSize: 2723727
+  hash: "2a04a1bfc176f38c3930faeccbf1e95b0527645b"
+- name: "AnnihilationArsenalVehicles.ukx"
+  fileSize: 3830963
+  hash: "1c0c85071873857d8f24300945ba8daeb7384fa5"
+otherFiles: 4
+dependencies:
+  AnnihilationArsenalVehicles.ukx:
+  - status: "OK"
+    name: "AnnihilationArsenalVehicleTextures"
+  - status: "OK"
+    name: "AnnihilationArsenalStaticMeshes"
+  AnnihilationArsenalMeshes.ukx:
+  - status: "OK"
+    name: "AnnihilationArsenalTex"
+  annihilationarsenal.u:
+  - status: "OK"
+    name: "AnnihilationArsenalVehicles"
+  - status: "OK"
+    name: "AnnihilationArsenalVehicleTextures"
+  - status: "OK"
+    name: "AnnihilationArsenalTex"
+  - status: "OK"
+    name: "AnnihilationArsenalEff"
+  - status: "OK"
+    name: "AnnihilationArsenalMeshes"
+  - status: "OK"
+    name: "annihilationarsenalsounds"
+  - status: "OK"
+    name: "AnnihilationArsenalStaticMeshes"
+  AnnihilationArsenalStaticMeshes.usx:
+  - status: "OK"
+    name: "AnnihilationArsenalVehicleTextures"
+  - status: "OK"
+    name: "AnnihilationArsenalEff"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/d/5/ad4c5f/Annihilation%20Arsenal%203.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "AnnihilationArsenal Vehicle Arena"
+  description: "Select a AnnihilationArsenal Vehicle That Will Replace All Vehicles\
+    \ In The Match."
+- name: "AnnihilationArsenal Vehicles"
+  description: "Select a AnnihilationArsenal Vehicle That Will Replace ut2004 vehicles."
+- name: "AnnihilationArsenal Weapons"
+  description: "Select what AnnihilationArsenal Weapons Will Replace Ut2004 Weapons"
+weapons:
+- name: "Flamethrower"
+  description: "Flamethrower"
+- name: "Gl-R80-a"
+  description: "Gl-R80-a"
+- name: "Hawk"
+  description: "Hawk"
+- name: "M280-A"
+  description: "M280-A"
+- name: "Phantom"
+  description: "Phantom"
+- name: "Pulsar"
+  description: "Pulsar"
+- name: "SigmaSeven"
+  description: "SigmaSeven"
+- name: "Arkadian"
+  description: "This high muzzle velocity sniper rifle with a 10X scope is a lethal\
+    \ weapon at any range, especially if you can land a head shot."
+- name: "Chaingun"
+  description: "Chaingun"
+- name: "WidowMaker"
+  description: "This high muzzle velocity sniper rifle with a 10X scope is a lethal\
+    \ weapon at any range, especially if you can land a head shot."
+vehicles:
+- name: "Vehicle"
+  description: "Vehicle"
+- name: "Wild Boar"
+  description: "Wild Boar"
+- name: "WildBoar Cannon"
+  description: "WildBoar Cannon"
+- name: "Hind"
+  description: "Hind"
+- name: "Hippo"
+  description: "Hippo"
+- name: "JackRabbit"
+  description: "JackRabbit"
+- name: "OsaGame"
+  description: "OsaGame"
+- name: "PLS"
+  description: "PLS"
+- name: "Passenger Seat"
+  description: "Passenger Seat"
+- name: "Vehicle"
+  description: "Vehicle"
+- name: "Hind Minigun Turret"
+  description: "Hind Minigun Turret"
+- name: "Hind 3rd Turret"
+  description: "Hind 3rd Turret"
+- name: "Wombat"
+  description: "Wombat"
+hasConfigMenu: false
+hasKeybinds: false

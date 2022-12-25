@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-12-25 18:10"
+game: "Unreal Tournament 2004"
+name: "GrovePack"
+author: "Matt 'Goldfenix' Rose"
+description: "None"
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "grovepack_shot_b282447e_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/G/b/2/82447e/grovepack_shot_b282447e_2.png"
+- type: "IMAGE"
+  name: "grovepack_shot_b282447e_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/G/b/2/82447e/grovepack_shot_b282447e_1.png"
+originalFilename: "GrovePack.7z"
+hash: "b282447e9c73ecfb6d96de8c618d855c42f28087"
+fileSize: 22559920
+files:
+- name: "BR-Grove.ut2"
+  fileSize: 18736798
+  hash: "314e995ce85039243ca91ec55ae315e2bcc40e9c"
+- name: "TorvusBog.ogg"
+  fileSize: 9752824
+  hash: "0a5b70489b73320727f6808b21342393af13347f"
+- name: "MattTropicalTex.utx"
+  fileSize: 23883928
+  hash: "452e9cf2085ebec32f40f2988ca9829d4527aea4"
+- name: "DOM-Grove-SE.ut2"
+  fileSize: 18299116
+  hash: "9bf6ecd322cde7e024bb97370a0e380b5ff55eb6"
+- name: "MattTropical.usx"
+  fileSize: 22260837
+  hash: "4ef60b03f952752b6b1002c8a41845c33d3ec634"
+otherFiles: 8
+dependencies:
+  BR-Grove.ut2:
+  - status: "OK"
+    name: "MattTropicalTex"
+  - status: "OK"
+    name: "MattTropical"
+  DOM-Grove-SE.ut2:
+  - status: "OK"
+    name: "MattTropicalTex"
+  - status: "OK"
+    name: "MattTropical"
+  MattTropical.usx:
+  - status: "OK"
+    name: "MattTropicalTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/G/b/2/82447e/GrovePack.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "BR-Grove"
+  title: "Sacred Grove"
+  author: "Matt 'Goldfenix' Rose"
+- name: "DOM-Grove-SE"
+  title: "Sacred Grove"
+  author: "Matt 'Goldfenix' Rose"
+gametype: "Mixed"
+themes:
+  Natural: 0.2
+  Industrial: 0.1
+  Ancient: 0.7

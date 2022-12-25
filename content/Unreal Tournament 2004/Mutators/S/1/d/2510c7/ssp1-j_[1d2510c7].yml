@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 17:40"
+variationOf: "457bfbfd8dd6d69e9d57ed9820417babd747d0ba"
+game: "Unreal Tournament 2004"
+name: "SSP1 J"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-12"
+attachments: []
+originalFilename: "SSP1-J.7z"
+hash: "1d2510c719a764d676c8a5af6792407ae62200a4"
+fileSize: 362250
+files:
+- name: "SSPAnims.ukx"
+  fileSize: 21027
+  hash: "63a028b2f7ec853dbfed6941e90f7df53e31c78f"
+- name: "SSPStatics.usx"
+  fileSize: 39607
+  hash: "a3072415e4ed29bc51b08d9473ae7f8f21b3ab0f"
+- name: "SpeciesStatsPlus.u"
+  fileSize: 711756
+  hash: "b40eba375b3e471250c39065da041a0efb3f893b"
+- name: "SSPTex.utx"
+  fileSize: 88169
+  hash: "88800c8488893ebf681de90fd42ee4de8b8d31fc"
+otherFiles: 5
+dependencies:
+  SpeciesStatsPlus.u:
+  - status: "OK"
+    name: "SSPAnims"
+  - status: "OK"
+    name: "SSPTex"
+  - status: "OK"
+    name: "SSPStatics"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/1/d/2510c7/SSP1-J.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Species Stats Plus"
+  description: "Each race has unique (and customizable!) combat statistics, abilities,\
+    \ and strengths."
+- name: "Player Classes Plus"
+  description: "Each team will be only of a specific class-set. Special abilities\
+    \ and statistical differences abound!"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

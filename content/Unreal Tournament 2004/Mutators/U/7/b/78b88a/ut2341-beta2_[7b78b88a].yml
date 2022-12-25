@@ -1,0 +1,159 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:08"
+game: "Unreal Tournament 2004"
+name: "UT2341 Beta2"
+author: "Unknown"
+description: "None"
+releaseDate: "2014-08"
+attachments: []
+originalFilename: "UT2341 Beta2.7z"
+hash: "7b78b88a5122fff9b3ae894e7c9b330ff66be23e"
+fileSize: 24309598
+files:
+- name: "UT2341Weapons_SM.usx"
+  fileSize: 8088722
+  hash: "83f7e77587c9ac8e568e0a82e626d6e540d63abd"
+- name: "UT2341Weapons_Sounds.uax"
+  fileSize: 2771070
+  hash: "e7d5627d8c95653f7863f9610bb15b523cc2ee4b"
+- name: "OLTeamGamesTex.utx"
+  fileSize: 19771943
+  hash: "1417dcf82f33b060d3c4f115972d37bd0e0176fa"
+- name: "UTRFonts.utx"
+  fileSize: 2254897
+  hash: "19f20285c846765b9e4376c2c7844d49b52d08ab"
+- name: "UT2341Weapons_Anims.ukx"
+  fileSize: 16615446
+  hash: "6c6fedb360252cd8e21b4ac676e51aa7c9e186e3"
+- name: "UT2341Weapons_BETA2.u"
+  fileSize: 911196
+  hash: "9c6a7aff0d9c8cccc866aeeaf5c92c2ade6d726f"
+- name: "UT2341Weapons_Tex.utx"
+  fileSize: 44279516
+  hash: "e7d3caa0219534ae6280e9696a47d70dce47db19"
+- name: "UTRHUDTextures.utx"
+  fileSize: 1099903
+  hash: "1c94851c73b15c1033863956459e89609d509305"
+otherFiles: 1
+dependencies:
+  UT2341Weapons_BETA2.u:
+  - status: "OK"
+    name: "UT2341Weapons_Anims"
+  - status: "OK"
+    name: "UT2341Weapons_Sounds"
+  - status: "OK"
+    name: "UTRHUDTextures"
+  - status: "OK"
+    name: "UT2341Weapons_Tex"
+  - status: "OK"
+    name: "UT2341Weapons_SM"
+  - status: "OK"
+    name: "OLTeamGamesTex"
+  - status: "OK"
+    name: "UTRFonts"
+  UT2341Weapons_SM.usx:
+  - status: "OK"
+    name: "UT2341Weapons_Tex"
+  UT2341Weapons_Anims.ukx:
+  - status: "OK"
+    name: "UT2341Weapons_Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/7/b/78b88a/UT2341%20Beta2.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT2341: Instagib"
+  description: "Instagib, UT2341-style."
+- name: "Unreal Tournament 2341"
+  description: "Replaces the standard weapons with UT2341 equivalents. Modifies Pawn\
+    \ properties and the gravity to simulate Unreal Tournament."
+weapons:
+- name: "GES Bio-Rifle"
+  description: "Classification: Toxic Rifle||Primary Fire: Wads of Tarydium byproduct\
+    \ are lobbed at a medium rate of fire.||Secondary Fire: When trigger is held down,\
+    \ the BioRifle will create a much larger wad of byproduct. When this wad is launched,\
+    \ it will burst into smaller wads which will adhere to any surfaces.||Techniques:\
+    \ Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be\
+    \ caused by covering entryways with this lethal green waste."
+- name: "Enforcer"
+  description: "Classification: Light PistolnnPrimary Fire: Accurate but slow firing\
+    \ instant hit.nnSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots faster\
+    \ and less accurately than the primary fire.nnTechniques: Collect two for twice\
+    \ the damage."
+- name: "Flak Cannon"
+  description: "Classification: Heavy Shrapnel||Primary Fire: White hot chunks of\
+    \ scrap metal are sprayed forth, shotgun style.||Secondary Fire: A grenade full\
+    \ of shrapnel is lobbed at the enemy.||Techniques: The Flak Cannon is far more\
+    \ useful in close range combat situations."
+- name: "Impact Hammer"
+  description: "Classification: Melee Piston||Primary Fire: When trigger is held down,\
+    \ touch opponents with this piston to inflict massive damage.||Secondary Fire:\
+    \ Damages opponents at close range and has the ability to deflect projectiles.||Techniques:\
+    \ Shoot at the ground while jumping to jump extra high."
+- name: "Minigun"
+  description: "Classification: Gatling Gun||Primary Fire: Bullets are sprayed forth\
+    \ at a medium to fast rate of fire and good accuracy.||Secondary Fire: Minigun\
+    \ fires twice as fast and is half as accurate.||Techniques: Secondary fire is\
+    \ much more useful at close range, but can eat up tons of ammunition."
+- name: "Pulse Gun"
+  description: "Classification: Plasma Rifle||Primary Fire: Medium sized, fast moving\
+    \ plasma balls are fired at a fast rate of fire.||Secondary Fire: A bolt of green\
+    \ lightning is expelled for 100 meters, which will shock all opponents.||Techniques:\
+    \ Firing and keeping the secondary fire's lightning on an opponent will melt them\
+    \ in seconds."
+- name: "Redeemer"
+  description: "Classification: Thermonuclear Device||Primary Fire: Launches a huge\
+    \ yet slow moving missile that, upon striking a solid surface, will explode and\
+    \ send out a gigantic shock wave, instantly pulverizing anyone or anything within\
+    \ its colossal radius, including yourself.||Secondary Fire: Take control of the\
+    \ missile and fly it anywhere.  You can press the primary fire button to explode\
+    \ the missile early.||Techniques: Remember that while this rocket is being piloted\
+    \ you are a sitting duck.  If an opponent manages to hit your incoming Redeemer\
+    \ missile while it's in the air, the missile will explode harmlessly."
+- name: "Ripper"
+  description: "Classification: Ballistic Blade Launcher||Primary Fire: Razor sharp\
+    \ titanium disks are launched at a medium rate of speed. Shots will ricochet off\
+    \ of any surfaces.||Secondary Fire: Explosive disks are launched at a slow rate\
+    \ of fire.||Techniques: Aim for the necks of your opponents."
+- name: "Rocket Launcher"
+  description: "Classification: Heavy Ballistic||Primary Fire: Slow moving but deadly\
+    \ rockets are fired at opponents. Trigger can be held down to load up to six rockets\
+    \ at a time, which can be fired at once.||Secondary Fire: Grenades are lobbed\
+    \ from the barrel. Secondary trigger can be held as well to load up to six grenades.||Techniques:\
+    \ Keeping this weapon pointed at an opponent will cause it to lock on, and while\
+    \ the gun is locked the next rocket fired will be a homing rocket.  Because the\
+    \ Rocket Launcher can load up multiple rockets, it fires when you release the\
+    \ fire button."
+- name: "ASMD Shock Rifle"
+  description: "Classification: Energy Rifle||Primary Fire: Instant hit laser beam.||Secondary\
+    \ Fire: Large, slow moving plasma balls.||Techniques: Hitting the secondary fire\
+    \ plasma balls with the regular fire's laser beam will cause an immensely powerful\
+    \ explosion."
+- name: "Sniper Rifle"
+  description: "Classification: Long Range Ballistic||Regular Fire: Fires a high powered\
+    \ bullet. Can kill instantly when applied to the cranium of opposing forces. ||Secondary\
+    \ Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme\
+    \ precision from hundreds of yards away.||Techniques: Great for long distance\
+    \ headshots!"
+- name: "Super Shock Rifle"
+  description: "Classification: Energy Rifle||Primary Fire: Instant hit laser beam.||Secondary\
+    \ Fire: Large, slow moving plasma balls.||Techniques: Hitting the secondary fire\
+    \ plasma balls with the regular fire's laser beam will cause an immensely powerful\
+    \ explosion."
+- name: "Translocator"
+  description: "The Translocator was originally designed by Liandri Corporation's\
+    \ R&D sector to facilitate the rapid recall of miners during tunnel collapses.\
+    \ However, rapid deresolution and reconstitution can have several unwelcome effects,\
+    \ including increases in aggression and paranoia.||In order to prolong the careers\
+    \ of today's contenders, limits have been placed on Translocator use in the lower-ranked\
+    \ leagues. The latest iteration of the Translocator features a remotely operated\
+    \ camera, exceptionally useful when scouting out areas of contention.|It should\
+    \ be noted that while viewing the camera's surveillance output, the user is effectively\
+    \ blind to their immediate surroundings."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

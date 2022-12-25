@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:26"
+game: "Unreal Tournament 2004"
+name: "BestTimesFINAL"
+author: "Unknown"
+description: "None"
+releaseDate: "2016-11"
+attachments: []
+originalFilename: "BestTimesFINAL.rar"
+hash: "608f22c1f64835329ada62ed8035887c91033422"
+fileSize: 933480
+files:
+- name: "ClientBTimesV7.u"
+  fileSize: 1089649
+  hash: "58848157a252228a6df256a3cf665f5daa7c04c9"
+- name: "ServerBTimes.u"
+  fileSize: 405437
+  hash: "48878574cc530b0520c9c27d3428edfa99696157"
+- name: "TextureBTimes.utx"
+  fileSize: 273053
+  hash: "25d4047eb589a588adf2a552656bd652fd560886"
+- name: "TrialGroup.u"
+  fileSize: 122259
+  hash: "eedc477956777563bc3a2eba65581c9641ac93b5"
+- name: "ServerBTimes.u"
+  fileSize: 379542
+  hash: "522e664be8f5d04cedf26ed1ccafa36d39ea3418"
+- name: "TrialGroup.u"
+  fileSize: 122259
+  hash: "eedc477956777563bc3a2eba65581c9641ac93b5"
+- name: "TextureBTimes.utx"
+  fileSize: 273053
+  hash: "25d4047eb589a588adf2a552656bd652fd560886"
+- name: "ClientBTimesV6.u"
+  fileSize: 882037
+  hash: "f482e84b497c17802615cedcae4f2caf2b086085"
+otherFiles: 8
+dependencies:
+  ServerBTimes.u:
+  - status: "OK"
+    name: "TrialGroup"
+  - status: "OK"
+    name: "ClientBTimesV6"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/B/6/0/8f22c1/BestTimesFINAL.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BestTimes"
+  description: "Records Best MapTime completion"
+- name: "BestTimes"
+  description: "Records Best MapTime completion"
+weapons:
+- name: "Spawn Manager"
+  description: "Spawn Manager"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

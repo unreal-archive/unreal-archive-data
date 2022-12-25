@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:03"
+variationOf: "b3bcc1d7329ec5f3de7539f592853e42422c7dd6"
+game: "Unreal Tournament 2004"
+name: "CTF-FaceOfCivilization"
+author: "Sergeant_Rommel"
+description: "CTF-Face in 'steel-and-concrete' style!"
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-faceofcivilization_shot_21ca8a5a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/2/1/ca8a5a/ctf-faceofcivilization_shot_21ca8a5a_2.png"
+- type: "IMAGE"
+  name: "ctf-faceofcivilization_shot_21ca8a5a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/2/1/ca8a5a/ctf-faceofcivilization_shot_21ca8a5a_1.png"
+originalFilename: "CTF-FaceOfCivilization.7z"
+hash: "21ca8a5a73b97ab22f36c0ccb862ad9480e4057a"
+fileSize: 2670888
+files:
+- name: "TowerTex.utx"
+  fileSize: 1398631
+  hash: "aba81963e1d5dc893c27fcf1c195321f4cc891c3"
+- name: "NewAeroPack.usx"
+  fileSize: 1619639
+  hash: "2a9d9c65e49764f3a29374d6dfe5157150d02a01"
+- name: "CTF-FaceOfCivilization.ut2"
+  fileSize: 8158513
+  hash: "81e014ee0fa61ed301472b792b1ae2aed973bc7a"
+- name: "strange.usx"
+  fileSize: 2697241
+  hash: "c3faef13e161eb4c4394c2d92e8a3835c9f1d140"
+otherFiles: 1
+dependencies:
+  strange.usx:
+  - status: "OK"
+    name: "TowerTex"
+  CTF-FaceOfCivilization.ut2:
+  - status: "OK"
+    name: "strange"
+  - status: "OK"
+    name: "TowerTex"
+  - status: "OK"
+    name: "NewAeroPack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/2/1/ca8a5a/CTF-FaceOfCivilization.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "theNewFace"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true

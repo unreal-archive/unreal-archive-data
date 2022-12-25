@@ -1,0 +1,313 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:07"
+game: "Unreal Tournament 2004"
+name: "Unreal Tournament 3 Weapons B4"
+author: "GreatEmerald and Wormbo"
+description: "None"
+releaseDate: "2014-07"
+attachments: []
+originalFilename: "Unreal Tournament 3 Weapons b4.7z"
+hash: "ef2d513958ac14fea061e03548f9dc0478faf0f7"
+fileSize: 46764393
+files:
+- name: "UT3LinkGun.uax"
+  fileSize: 886747
+  hash: "6e9ba72c574aaa4fe4d30fcd2281923946ce5571"
+- name: "UT3WP_All_Materials.utx"
+  fileSize: 1463
+  hash: "c368211529eec28da23d50881275c37995072bb5"
+- name: "UT3Envy_Effects.utx"
+  fileSize: 1201754
+  hash: "5c937e0218b69a6a33943c03797c29ef8c4f718e"
+- name: "UT3PICKUPS_Mesh.usx"
+  fileSize: 1803233
+  hash: "54ff8b497030de873caa9dad00ed43661a338077"
+- name: "UT3Style.u"
+  fileSize: 629246
+  hash: "1dffb6d7d53ffe7fec357f62a15d04152c82830f"
+- name: "UT3VH_Nemesis.utx"
+  fileSize: 13412
+  hash: "a301b700f67e63e2b14829d02f009a13e8b0ca7d"
+- name: "UT3Pickups-SM.usx"
+  fileSize: 15317627
+  hash: "5a3ca5241ae1186f795320d274d6d2fe9547b5f2"
+- name: "UT3GP_Onslaught_Mesh.usx"
+  fileSize: 400705
+  hash: "9847f43abfade6c0b16f45d5105db296a73e1893"
+- name: "UT3Pickups.utx"
+  fileSize: 32587941
+  hash: "3f5c3205f4c5f7b3175b71232327a16280436949"
+- name: "UT3Common.u"
+  fileSize: 11463
+  hash: "1e88d8be621233d429f042bf7093b7eb2112f692"
+- name: "UT3UN_CubeMaps.utx"
+  fileSize: 931775
+  hash: "82b430e6f0e8cf668d05189dd671d2577a54ca94"
+- name: "UT3WPStatics.usx"
+  fileSize: 4402349
+  hash: "6d67cde0165be3d84ca16236688c43bdf52f409d"
+- name: "UT3A_Pickups.uax"
+  fileSize: 615197
+  hash: "419f20784c33e2cea61220d683e8496dd9dafd02"
+- name: "UT3HUD.utx"
+  fileSize: 1490594
+  hash: "2c6305baa9d4f44cd1946a98998bbaa0946d201b"
+- name: "UT3PickupSounds.uax"
+  fileSize: 1840162
+  hash: "a26dc68ae1726ce68f54bb2a5a4b7b99390d1920"
+- name: "UT3Translocator.uax"
+  fileSize: 797751
+  hash: "da65506a41744fd60954e708a75efc35476cedc2"
+- name: "UT3A_Pickups_Powerups.uax"
+  fileSize: 875092
+  hash: "4c87296e00f2401efb4bd4eee0e3052cda1dc9f2"
+- name: "UT3WP_LinkGun.utx"
+  fileSize: 8609
+  hash: "429673b779307929ea7570f66842470c2a443089"
+- name: "UT3GP_Onslaught_Materials.utx"
+  fileSize: 1574014
+  hash: "abdc28f9e1097e2dfde82b2d8f0a7f0333d8806b"
+- name: "UT3WP_BioRifle_Materials.utx"
+  fileSize: 525559
+  hash: "3e4346000ffadf76690884b94c0cce04422a92c6"
+- name: "UT3Weapons2.uax"
+  fileSize: 7948440
+  hash: "574f4c54f144d4465659b00ae9db0815a9f2d400"
+- name: "UT3WeaponSkins.utx"
+  fileSize: 62445110
+  hash: "39c149433b37a651870ecdf6dbf5a244c6eadc2a"
+- name: "UT3Weapons.uax"
+  fileSize: 1865002
+  hash: "daf3190c9c7830973e80664c6f40a805b52e0a56"
+- name: "MutWeapMilestoneAnnounce_Snd.uax"
+  fileSize: 1617902
+  hash: "2293d7f7a1df98eb60551ec84c7e146faff579fb"
+- name: "UT3WeaponAnims.ukx"
+  fileSize: 24220943
+  hash: "479ced6598ed0324e54d9231ebbe3bbc86211ea2"
+otherFiles: 3
+dependencies:
+  UT3WPStatics.usx:
+  - status: "OK"
+    name: "UT3WeaponSkins"
+  UT3Style.u:
+  - status: "OK"
+    name: "UT3WeaponAnims"
+  - status: "OK"
+    name: "MutWeapMilestoneAnnounce_Snd"
+  - status: "OK"
+    name: "UT3PickupSounds"
+  - status: "OK"
+    name: "UT3WP_BioRifle_Materials"
+  - status: "OK"
+    name: "UT3Pickups"
+  - status: "OK"
+    name: "UT3WPStatics"
+  - status: "OK"
+    name: "UT3Weapons"
+  - status: "OK"
+    name: "UT3PICKUPS_Mesh"
+  - status: "OK"
+    name: "UT3HUD"
+  - status: "OK"
+    name: "UT3GP_Onslaught_Mesh"
+  - status: "OK"
+    name: "UT3Common"
+  - status: "OK"
+    name: "UT3A_Pickups_Powerups"
+  - status: "OK"
+    name: "UT3Weapons2"
+  - status: "OK"
+    name: "UT3Translocator"
+  - status: "OK"
+    name: "UT3LinkGun"
+  - status: "OK"
+    name: "UT3WeaponSkins"
+  - status: "OK"
+    name: "UT3Pickups-SM"
+  - status: "OK"
+    name: "UT3A_Pickups"
+  UT3WeaponSkins.utx:
+  - status: "OK"
+    name: "UT3VH_Nemesis"
+  - status: "OK"
+    name: "UT3WP_BioRifle_Materials"
+  - status: "OK"
+    name: "UT3Pickups"
+  - status: "OK"
+    name: "UT3WP_All_Materials"
+  - status: "OK"
+    name: "UT3Envy_Effects"
+  - status: "OK"
+    name: "UT3UN_CubeMaps"
+  UT3WP_BioRifle_Materials.utx:
+  - status: "OK"
+    name: "UT3WeaponSkins"
+  - status: "OK"
+    name: "UT3Envy_Effects"
+  UT3PICKUPS_Mesh.usx:
+  - status: "OK"
+    name: "UT3Pickups"
+  UT3Pickups-SM.usx:
+  - status: "OK"
+    name: "UT3WeaponSkins"
+  - status: "OK"
+    name: "UT3Pickups"
+  UT3Common.u:
+  - status: "OK"
+    name: "UT3HUD"
+  - status: "OK"
+    name: "UT3Weapons2"
+  UT3WeaponAnims.ukx:
+  - status: "OK"
+    name: "UT3WeaponSkins"
+  UT3GP_Onslaught_Mesh.usx:
+  - status: "OK"
+    name: "UT3GP_Onslaught_Materials"
+  UT3Pickups.utx:
+  - status: "OK"
+    name: "UT3WeaponSkins"
+  - status: "OK"
+    name: "UT3WP_BioRifle_Materials"
+  - status: "OK"
+    name: "UT3WP_LinkGun"
+  - status: "OK"
+    name: "UT3UN_CubeMaps"
+  - status: "OK"
+    name: "UT3Envy_Effects"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/e/f/2d5139/Unreal%20Tournament%203%20Weapons%20b4.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT3 Like the Back of My Hand"
+  description: "Addds a counter of all the pickups in the map and how many of those\
+    \ you have picked up already, and does an announcement when you manage pick up\
+    \ all of them. This way it emulates UT3 award 'Like the Back of My Hand' and promotes\
+    \ map exploration."
+- name: "UT3 InstaGib"
+  description: "Instant-kill combat with modified UT3 Shock Rifles."
+- name: "UT3 Weapon Streak Announcement"
+  description: "Announces streaks for every weapon, not just for Flak Monkeys and\
+    \ Combo Whores. This version works with the UT3 weapon variants."
+- name: "UT3 Weapons"
+  description: "Modifies UT2004 weapons so they work similarly to their UT3 counterparts."
+weapons:
+- name: "UT3 Longbow AVRiL"
+  description: "The Longbow Anti-Vehicle Rocket Launcher, a.k.a. the 'AVRiL', gives\
+    \ dismounted infantry a fighting chance in an armored conflict. Its solid fuel\
+    \ missile can be 'dumbfired' as an unguided rocket, but the AVRiL's famed kill\
+    \ percentages come from its optical tracking system.|The alternate fire zooms\
+    \ and locks on to a vehicle, guiding the missile towards its target at inescapable\
+    \ speeds. The missile's microdappled control planes use increased surface area\
+    \ to give unprecedented turning radius, guaranteeing delivery of its shaped PolyDiChlorite\
+    \ charge into all but the most nimble vehicles.|The AVRiL is notoriously slow\
+    \ to reload, so it should be employed with caution in a pitched battle.|Note,\
+    \ the Longbow's targeting laser is (not yet) standardized for most Axon military\
+    \ equipment, so it can be used in other battlefield applications such as directing\
+    \ spider mines."
+- name: "UT3 Bio Rifle"
+  description: "The GES BioRifle processes Tarydium from its stable crystalline form\
+    \ into a reactive mutagenic sludge. It can rapidly disperse these toxins for wide-area\
+    \ coverage, or fire a virulent payload of variable, but usually lethal, capacity.\
+    \ In layman's terms, this means the BioRifle can pepper an area with small globs\
+    \ of biosludge, or launch one noxious glob at the target. The BioRifle's ability\
+    \ to carpet an area with a toxic minefield makes it a notoriously effective defensive\
+    \ weapon."
+- name: "UT3 Enforcer"
+  description: "For decades, the Enforcer pistol was the combat sidearm of choice.\
+    \ Veteran soldiers appreciated the lightweight handgun's power, accuracy, and\
+    \ balance. In recent years, the ever-burning desire for greater firepower led\
+    \ to general issue of the AR770 assault rifle. Military procurement officers were\
+    \ drawn to the AR770's higher cyclic rate and underslung M355 grenade launcher,\
+    \ but seasoned combatants missed the dependability of the Enforcer. Axon Research\
+    \ listened to the soldiers, and their new Enforcer MP ('Machine Pistol') model\
+    \ provides the best of both worlds. Side-fed magazines provide greater capacity,\
+    \ while balancing the shooter's aim when wielding two pistols. With a deadly accurate\
+    \ semi-automatic mode, and a selectable burst fire mode, the Enforcer is back,\
+    \ and the modern battlefield will never be the same."
+- name: "UT3 Flak Cannon"
+  description: "Trident Defensive Technologies continues to tweak and refine the flak\
+    \ cannon with their newly released Mk4 'Peacekeeper.' In spite of its new name,\
+    \ the flak cannon remains banned from most military conflicts for high incidences\
+    \ of maiming and collateral damage. Still, the flak cannon is the weapon of choice\
+    \ for unconventional warfare in urban terrain. The primary mode detonates the\
+    \ flak shell in the barrel, launching shrapnel forward in a deadly shotgun pattern\
+    \ but often deafening the operator. The cannon also lobs an explosive flak shell\
+    \ that detonates on contact, sending shrapnel in a dangerously wide and unpredictable\
+    \ radius."
+- name: "UT3 Impact Hammer"
+  description: "The Impact Hammer, originally designed for sub-surface drift mining,\
+    \ can focus several hundred metric tons of pressure into the space of a few square\
+    \ centimeters. The impact, and resulting shock wave, easily destabilizes solid\
+    \ stone to speed ore separation and excavation. After several mining accidents\
+    \ highlighted the Hammer's devastating effect on the human body, the N.E.G. military\
+    \ took interest. To improve the Hammer's effectiveness against vehicles with shock-absorbing\
+    \ armor, an alternate electromagnetic pulse (EMP) mode was added. The EMP violently\
+    \ scrambles onboard computer systems, quickly leading to engine failure. Field\
+    \ testing showed the EMP has a similar effect on infantry powerups, knocking them\
+    \ off soldiers and enabling battlefield recovery."
+- name: "UT3 Link Gun"
+  description: "Riordan Dynamic Weapon Systems combines the best of weapon design\
+    \ in the Advanced Plasma Rifle v23, commonly known as the Link Gun.|While the\
+    \ primary firing mode of the Link remains the same as its plasma-firing predecessor,\
+    \ the secondary cutting torch has been replaced with a switchable energy matrix.\
+    \ Upon contacting a teammate, it converts to a harmless carrier stream, offloading\
+    \ energy from the onboard cells to boost the output of any targeted player also\
+    \ using the Link.|It should be noted that while players are boosting a teammate,\
+    \ they are unable to defend themselves from attack."
+- name: "UT3 Stinger Minigun"
+  description: "Replacing the Minigun in this year's Tournament, the 'Stinger' is\
+    \ actually a Liandri mining tool converted into military service.|The Stinger\
+    \ fires shards of unprocessed Tarydium crystal at an alarming rate, raking opponents\
+    \ with a storm of deadly needles. The alternate fire shoots larger hunks of crystal\
+    \ that can knock back an opponent, sometimes even pinning them to walls."
+- name: "UT3 Redeemer"
+  description: "'Even your least effective soldiers will earn a respectable bodycount\
+    \ with this tactical nuclear device.' So said the original brochure for the Redeemer,\
+    \ still unchallenged in its role as the most powerful man-portable weapon system\
+    \ known through the galaxy.|The slow-moving but utterly devastating missile, affectionately\
+    \ known as 'Lola' by veteran soldiers, now uses an Enhanced Radiation payload.\
+    \ This ensures maximum tissue failure without undue property damage, perfect for\
+    \ modern assault-and-capture tactics.|The Redeemer's alternate mode fires the\
+    \ missile using the disposable fly-by-wire guidance system, though the manual\
+    \ recommends using this mode only in areas of relative safety."
+- name: "UT3 Rocket Launcher"
+  description: "Each year, more accidental deaths are caused by the Trident Tri-barrel\
+    \ Rocket Launcher than in vehicular accidents and extreme sports combined. The\
+    \ kill radius for its standard dumbfire rocket is surprisingly high by design\
+    \ - so accidentally firing upon a nearby wall, or a nearby enemy soldier, can\
+    \ be quite fatal for the operator. The alternate fire adds to this suicidal lethality\
+    \ by loading and firing up to three rockets at once, in a spread, tight spiral,\
+    \ or lobbed like grenades. Regardless of the grim statistics, veteran soldiers\
+    \ still consider the 'old 8 ball' the most expedient way to put explosive ordnance\
+    \ on target."
+- name: "UT3 Shock Rifle"
+  description: "The ASMD Shock Rifle has changed little since its first incorporation\
+    \ into the Liandri Tournament. The ASMD sports two firing modes: a thin photon\
+    \ beam, and a sphere of unstable plasma energy. These modes are each deadly in\
+    \ their own right, but used together they can neutralize opponents in a devastating\
+    \ shockwave. The energy spheres can be detonated with the photon beam, releasing\
+    \ the explosive energy of the anti-photons in the plasma's EM containment field."
+- name: "UT3 Sniper Rifle"
+  description: "The venerable Axon Research long-range target interdiction rifle is\
+    \ the weapon of choice for the discerning sniper. Acquisition of a target at distance\
+    \ requires a steady hand, but the rewards merit the effort: the high-caliber round\
+    \ is lethal at any range. With a precise headshot, the target will be neutralized\
+    \ by the super-sonic bullet long before they hear the report. As they say in the\
+    \ N.E.G. Marines: 'any shot you hear is nothing to be worried about.'"
+- name: "UT3 Translocator"
+  description: "The Translocator was originally designed by Liandri R&D for rapid\
+    \ rescue of expensive mining equipment during tunnel collapses and related emergencies.\
+    \ The technology also saved couintless lives, but not without a cost: rapid deresolution\
+    \ and reconstitution led to synaptic disruptions, and the debilitating symptoms\
+    \ like Teleportation Related Dementia (TReDs).||Today, after years of lucrative\
+    \ military development contracts, portable teleportation technology has been declared\
+    \ 'sufficiently safe' for regular use by frontline infantry."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

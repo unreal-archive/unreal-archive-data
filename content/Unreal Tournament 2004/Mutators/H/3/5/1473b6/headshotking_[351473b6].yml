@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:26"
+game: "Unreal Tournament 2004"
+name: "HeadShotKing!"
+author: "ideaprison"
+description: "You can only make Headshots to score points! When you reach an * ammount\
+  \ of kills you get to be a HeadShotKing! Creator: ideaprison"
+releaseDate: "2007-04"
+attachments: []
+originalFilename: "Headshot King.7z"
+hash: "351473b64ec25a7e0d652d4ea910269ca07488f8"
+fileSize: 64114
+files:
+- name: "HeadShotKing.u"
+  fileSize: 77433
+  hash: "8a8b08112a17afe8d072383977b5819f96eb844b"
+- name: "HSK.usx"
+  fileSize: 265171
+  hash: "51fbb069f2d544d39101851250a3f6f536f3d584"
+otherFiles: 2
+dependencies:
+  HeadShotKing.u:
+  - status: "OK"
+    name: "HSK"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/3/5/1473b6/Headshot%20King.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "HeadShotKing!"
+  description: "You can only make Headshots to score points! When you reach an * ammount\
+    \ of kills you get to be a HeadShotKing! Creator: ideaprison"
+weapons:
+- name: "Sniper Rifle"
+  description: "HeadShotKing's Classic Sniper Rifle."
+- name: "Lightning Gun"
+  description: "HeadShotKing's Lightning Rifle"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

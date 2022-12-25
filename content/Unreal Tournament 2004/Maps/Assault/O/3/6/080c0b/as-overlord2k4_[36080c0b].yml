@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:03"
+variationOf: "948be08e715fd4c38577b8f490fe9a3d6f60d8d0"
+game: "Unreal Tournament 2004"
+name: "AS-Overlord2k4"
+author: "Dave Reid"
+description: "This scenario is a recreation of one of the most famous, and important\
+  \ events in World War history, Operation Overlord."
+releaseDate: "2013-05"
+attachments:
+- type: "IMAGE"
+  name: "as-overlord2k4_shot_36080c0b_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/O/3/6/080c0b/as-overlord2k4_shot_36080c0b_2.png"
+- type: "IMAGE"
+  name: "as-overlord2k4_shot_36080c0b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/O/3/6/080c0b/as-overlord2k4_shot_36080c0b_1.png"
+originalFilename: "AS-Overlord2k4.7z"
+hash: "36080c0b479c4148e12ece2d45e00493f53e1ee7"
+fileSize: 4240113
+files:
+- name: "AS-Overlord2k4.ut2"
+  fileSize: 29889801
+  hash: "a41447b06eb97971d1394c93b2f82782c28d34f0"
+- name: "OverlordStatic.usx"
+  fileSize: 81845
+  hash: "7d78626723078c790bc5c91b0e19e1cd0378e3dd"
+- name: "Overlord2k4Classes.u"
+  fileSize: 15293
+  hash: "32ecf77b6229bebbfe88e6d0cec41277b0155dcf"
+otherFiles: 2
+dependencies:
+  Overlord2k4Classes.u:
+  - status: "OK"
+    name: "OverlordStatic"
+  AS-Overlord2k4.ut2:
+  - status: "OK"
+    name: "Overlord2k4Classes"
+  - status: "OK"
+    name: "OverlordStatic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/O/3/6/080c0b/AS-Overlord2k4.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "Operation Overlord 2004"
+playerCount: "12-24"
+themes:
+  Tech: 0.7
+  Industrial: 0.2
+bots: true

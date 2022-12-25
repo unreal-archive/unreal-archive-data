@@ -1,0 +1,136 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "Nostalgic_2006C"
+author: "Unknown"
+description: "A Mutator That Makes You Feel Like Playing UT A Bit"
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "nostalgic_2006c-_shot_50b4736d_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/N/5/0/b4736d/nostalgic_2006c-_shot_50b4736d_1.png"
+originalFilename: "Nostalgic 2006C.7z"
+hash: "50b4736dc76f18b1d26bb86c183aca2a071985d7"
+fileSize: 7274815
+files:
+- name: "nostapicturesX.utx"
+  fileSize: 8622736
+  hash: "bd49a025c0ecbdd26fcefbf9efaea5842b78d777"
+- name: "Nostalgic_2006C.u"
+  fileSize: 1904655
+  hash: "6910820405160bd02c3d5562f43c743735114a0b"
+- name: "chunkspics.utx"
+  fileSize: 804330
+  hash: "3e8e7d5436a6a46549aee5ee61210bdab36071cd"
+- name: "Nosfonts.utx"
+  fileSize: 3331771
+  hash: "65fcf08d4c30b8d2fb0028c3254a305ee97e194e"
+- name: "oldmeshes.ukx"
+  fileSize: 851630
+  hash: "f22c5708d052bb93210308fc18db9d67b6f7a8a1"
+- name: "OldSoundsX.uax"
+  fileSize: 4397685
+  hash: "19462e821f69a8086ef7c0f1fe358ec3a5a35dad"
+- name: "oldstatic.usx"
+  fileSize: 536494
+  hash: "02022e2a65b281fa1e4d42981e9f899e13ccb7a4"
+otherFiles: 5
+dependencies:
+  oldstatic.usx:
+  - status: "OK"
+    name: "nostaPicturesX"
+  oldmeshes.ukx:
+  - status: "OK"
+    name: "nostaPicturesX"
+  Nostalgic_2006C.u:
+  - status: "OK"
+    name: "oldmeshes"
+  - status: "OK"
+    name: "chunkspics"
+  - status: "OK"
+    name: "Nosfonts"
+  - status: "OK"
+    name: "nostapicturesX"
+  - status: "OK"
+    name: "OldSoundsX"
+  - status: "OK"
+    name: "oldstatic"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/N/5/0/b4736d/Nostalgic%202006C.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Nostalgic_2006C "
+  description: "A Mutator That Makes You Feel Like Playing UT A Bit"
+weapons:
+- name: "GES Bio Rifle"
+  description: "Classification: Toxic RiflennPrimary Fire: Wads of Tarydium byproduct\
+    \ are lobbed at a medium rate of fire.nnSecondary Fire: When trigger is held down,\
+    \ the BioRifle will create a much larger wad of byproduct. When this wad is launched,\
+    \ it will burst into smaller wads which will adhere to any surfaces.nnTechniques:\
+    \ Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be\
+    \ caused by covering entryways with this lethal green waste."
+- name: "UT Flak Cannon"
+  description: "Classification: Heavy ShrapnelnnPrimary Fire: White hot chunks of\
+    \ scrap metal are sprayed forth, shotgun style.nnSecondary Fire: A grenade full\
+    \ of shrapnel is lobbed at the enemy.nnTechniques: The Flak Cannon is far more\
+    \ useful in close range combat situations."
+- name: "Pulse Gun"
+  description: "Classification: Plasma RiflennPrimary Fire: Medium sized, fast moving\
+    \ plasma balls are fired at a fast rate of fire.nnSecondary Fire: A bolt of green\
+    \ lightning is expelled for 100 meters, which will shock all opponents.nnTechniques:\
+    \ Firing and keeping the secondary fire's lightning on an opponent will melt them\
+    \ in seconds."
+- name: "UT Minigun"
+  description: "Classification: Gatling GunnnPrimary Fire: Bullets are sprayed forth\
+    \ at a medium to fast rate of fire and good accuracy.nnSecondary Fire: Minigun\
+    \ fires twice as fast and is half as accurate.nnTechniques: Secondary fire is\
+    \ much more useful at close range, but can eat up tons of ammunition."
+- name: "UT Rocketlauncher"
+  description: "Classification: Heavy BallisticnnPrimary Fire: Slow moving but deadly\
+    \ rockets are fired at opponents. Trigger can be held down to load up to six rockets\
+    \ at a time, which can be fired at once.nnSecondary Fire: Grenades are lobbed\
+    \ from the barrel. Secondary trigger can be held as well to load up to six grenades.nnTechniques:\
+    \ Keeping this weapon pointed at an opponent will cause it to lock on, and while\
+    \ the gun is locked the next rocket fired will be a homing rocket.  Because the\
+    \ Rocket Launcher can load up multiple rockets, it fires when you release the\
+    \ fire button.  If you prefer, it can be configured to fire a rocket as soon as\
+    \ you press fire button down, at the expense of the multiple rocket load-up feature.\
+    \  This is set in the Input Options menu."
+- name: "ASMD Shock Rifle"
+  description: "Energy RiflennPrimary Fire: Instant hit laser beam.nnSecondary Fire:\
+    \ Large, slow moving plasma balls.nnTechniques: Hitting the secondary fire plasma\
+    \ balls with the regular fire's laser beam will cause an immensely powerful explosion."
+- name: "Impact Hammer (UT)"
+  description: "Melee Piston Primary Fire: When trigger is held down, touch opponents\
+    \ with this piston to inflict massive damage. Secondary Fire: Damages opponents\
+    \ at close range and has the ability to deflect projectiles. Techniques: Shoot\
+    \ at the ground while jumping to jump extra high."
+- name: "Ripjack"
+  description: "Liandri's continued failure to deliver an updated replacement for\
+    \ the beloved Ripper has led an independant weapons developer to take up the gauntlet.\
+    \ The weapons and munitions division of R.A.D. Technologies has most certainly\
+    \ delivered the goods. Featuring a sleek new look combined with deadly destructive\
+    \ capabilites, the MkII Ripjack is a lethal weapon to be faced with. Get too cocky\
+    \ and you could easily lose your head. Twitch your trigger finger at just the\
+    \ wrong moment and you could just as easily shred yourself with an explosive razor.\
+    \ Utmost caution is advised both while wielding the weapon and facing a competent\
+    \ opponent wielding it."
+- name: "Enforcer"
+  description: "Classification: Light PistolnnPrimary Fire: Accurate but slow firing\
+    \ instant hit.nnSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice\
+    \ as fast and half as accurate as the primary fire.nnTechniques: Collect two for\
+    \ twice the damage."
+- name: "UT Sniper Rifle"
+  description: "Classification: Long Range BallisticnnRegular Fire: Fires a high powered\
+    \ bullet. Can kill instantly when applied to the cranium of opposing forces. nnSecondary\
+    \ Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme\
+    \ precision from hundreds of yards away.nnTechniques: Great for long distance\
+    \ headshots!"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

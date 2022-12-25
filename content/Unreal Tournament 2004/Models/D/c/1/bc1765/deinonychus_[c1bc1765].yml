@@ -1,0 +1,50 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-12-25 17:44"
+variationOf: "b5944e44f18e43f60bd4b3beb8991e003243648f"
+game: "Unreal Tournament 2004"
+name: "Deinonychus"
+author: "s of the 1st Amendment -"
+description: "None"
+releaseDate: "2011-10"
+attachments:
+- type: "IMAGE"
+  name: "deinonychus_shot_c1bc1765_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Models/D/c/1/bc1765/deinonychus_shot_c1bc1765_1.png"
+originalFilename: "raptor2004.7z"
+hash: "c1bc1765754706266ba2be6c38d8cfcfebe1d721"
+fileSize: 6049020
+files:
+- name: "raptor.ka"
+  fileSize: 68018
+  hash: "265ee8d6eb5e9f4cf85d70d62ccba27facbef4e4"
+- name: "Raptor.ukx"
+  fileSize: 3427283
+  hash: "d793942ed0a2e2a282494e90ee1f9fac7858cdcd"
+- name: "RaptorSkins.utx"
+  fileSize: 3060320
+  hash: "53cdd8a099a9a0b801a0d23db76f29f6f03d5725"
+- name: "RaptorVoice.u"
+  fileSize: 3246356
+  hash: "7614e603ece8d74ede798126152de787a921ce60"
+- name: "Raptor.upl"
+  fileSize: 706
+  hash: "cf6f8e23764452b533341b86736e711999ba7803"
+otherFiles: 1
+dependencies:
+  Raptor.ukx:
+  - status: "OK"
+    name: "RaptorVoice"
+  - status: "OK"
+    name: "RaptorSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/D/c/1/bc1765/raptor2004.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Deinonychus"
+skins:
+- "Deinonychus"

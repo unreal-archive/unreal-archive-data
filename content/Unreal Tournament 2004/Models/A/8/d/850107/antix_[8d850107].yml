@@ -1,0 +1,51 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2022-12-25 17:30"
+game: "Unreal Tournament 2004"
+name: "Antix"
+author: "iniquitous"
+description: "None"
+releaseDate: "2008-09"
+attachments: []
+originalFilename: "Unipsycho Monster.7z"
+hash: "8d85010700aacf58cd241d8245782b311f9dd680"
+fileSize: 2275424
+files:
+- name: "UniPsychos_Tex.utx"
+  fileSize: 6293223
+  hash: "d65e63e7802d179062604d8bcb42bbdfca90d3e3"
+- name: "UniPsychos.upl"
+  fileSize: 886
+  hash: "47659d19c0500104c066190b55707ae5706ace58"
+- name: "Unipsycho.u"
+  fileSize: 69032
+  hash: "fc72564e78032eabefbaf50e494407318d42a2eb"
+- name: "UniPsychos_Karma.ka"
+  fileSize: 107809
+  hash: "dd89ac8ab08b5319469b0a3f4a90df79f75f30cb"
+- name: "UniPsychos_Anims.ukx"
+  fileSize: 2472472
+  hash: "6fc0ab3a3c24c41e51325f4c653e5c7f2eeb88ff"
+otherFiles: 2
+dependencies:
+  Unipsycho.u:
+  - status: "OK"
+    name: "UniPsychos_Tex"
+  - status: "OK"
+    name: "UniPsychos_Anims"
+  UniPsychos_Anims.ukx:
+  - status: "OK"
+    name: "UniPsychos_Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Models/A/8/d/850107/Unipsycho%20Monster.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Antix"
+- "Krypt"
+skins:
+- "Antix"
+- "Krypt"

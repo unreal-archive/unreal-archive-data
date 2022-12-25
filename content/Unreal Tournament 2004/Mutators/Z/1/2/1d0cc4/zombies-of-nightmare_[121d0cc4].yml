@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 17:34"
+game: "Unreal Tournament 2004"
+name: "Zombies of NightMare"
+author: "Unknown"
+description: "Do you believe in undeads?"
+releaseDate: "2004-10"
+attachments:
+- type: "IMAGE"
+  name: "zombies-of-nightmare_shot_121d0cc4_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/Z/1/2/1d0cc4/zombies-of-nightmare_shot_121d0cc4_1.png"
+originalFilename: "Zombies_Of_Nightmare_1.4.7z"
+hash: "121d0cc47bfcbc304e4e8fed743e7937c0341051"
+fileSize: 4670648
+files:
+- name: "Zombietex.utx"
+  fileSize: 15160956
+  hash: "78eb9586253894401cededc72735913a140cc342"
+- name: "NightMare.u"
+  fileSize: 993502
+  hash: "b1c229f0d2b4990780f989107203c32a8aee0174"
+- name: "Zombiemdl.ukx"
+  fileSize: 1211372
+  hash: "9c43d330cab9b80b631261d78db996183bbf2d2f"
+otherFiles: 3
+dependencies:
+  NightMare.u:
+  - status: "OK"
+    name: "Zombiemdl"
+  - status: "OK"
+    name: "Zombietex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/Z/1/2/1d0cc4/Zombies_Of_Nightmare_1.4.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Zombies of NightMare"
+  description: "Do you believe in undeads?"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

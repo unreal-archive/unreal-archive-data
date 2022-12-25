@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:14"
+game: "Unreal Tournament 2004"
+name: "AS-{PW}Topia[Race]"
+author: "SLT^Frase - Adjusted by [MPUK]Limited"
+description: "Set in a world unlike all others, attackers must use a range of vechicles\
+  \ to finally reach their goal and escape SLTopia."
+releaseDate: "2006-02"
+attachments:
+- type: "IMAGE"
+  name: "as-pwtopiarace_shot_9a5f0fa2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/P/9/a/5f0fa2/as-pwtopiarace_shot_9a5f0fa2_1.png"
+originalFilename: "AS-{PW}Topia[Race].7z"
+hash: "9a5f0fa2d9fc405a1e42cdb52fce94887a0d3dbe"
+fileSize: 409682
+files:
+- name: "TIMPRV.u"
+  fileSize: 33072
+  hash: "ce4468ae7aeda986ded7dc32941010ee23e0906c"
+- name: "TeamVehicleFactory.u"
+  fileSize: 9348
+  hash: "637f448c9f3a3e2c8e9f14de48e36b7d59fa55a1"
+- name: "AS-{PW}Topia[Race].ut2"
+  fileSize: 1180470
+  hash: "b8e7437ccb19aba9b51dfb355570652290fcb6f9"
+otherFiles: 2
+dependencies:
+  AS-{PW}Topia[Race].ut2:
+  - status: "OK"
+    name: "TIMPRV"
+  - status: "OK"
+    name: "TeamVehicleFactory"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/P/9/a/5f0fa2/AS-%7BPW%7DTopia%5BRace%5D.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "SLTopia"
+playerCount: "8-16"
+themes:
+  Tech: 0.7
+  Natural: 0.2
+  Industrial: 0.1
+bots: true

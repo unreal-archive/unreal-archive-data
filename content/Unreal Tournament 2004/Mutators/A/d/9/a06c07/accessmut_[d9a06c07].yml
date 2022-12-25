@@ -1,0 +1,39 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:24"
+variationOf: "86106a43575f95b911ad3e310a58a29818886e95"
+game: "Unreal Tournament 2004"
+name: "AccessMut"
+author: "Unknown"
+description: "AccessMut"
+releaseDate: "2007-12"
+attachments: []
+originalFilename: "AccessPlus.rar"
+hash: "d9a06c07bc1ee3050eb917552c64391f3fab7bb2"
+fileSize: 53705
+files:
+- name: "AccessPlus.u"
+  fileSize: 176976
+  hash: "2e2b1b3fec66c963d43d8f287b49b1c53a34b835"
+- name: "AccessPlusUI.u"
+  fileSize: 9302
+  hash: "a93d1528675d9dfe7f071b9bfa9cc5346f3e97a8"
+otherFiles: 3
+dependencies:
+  AccessPlus.u:
+  - status: "OK"
+    name: "AccessPlusUI"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/d/9/a06c07/AccessPlus.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "AccessMut"
+  description: "AccessMut"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

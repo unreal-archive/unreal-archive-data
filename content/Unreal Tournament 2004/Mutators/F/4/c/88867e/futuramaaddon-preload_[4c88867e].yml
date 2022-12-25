@@ -1,0 +1,85 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 17:30"
+game: "Unreal Tournament 2004"
+name: "FuturamaAddOn Preload"
+author: "INIQUITOUS"
+description: "preloads resources for FuturamaAddOn"
+releaseDate: "2006-04"
+attachments: []
+originalFilename: "Futurama AddOn.7z"
+hash: "4c88867ec6362eede38faa54729a9ebd9bb207e0"
+fileSize: 384411
+files:
+- name: "FuturamaAddOn.u"
+  fileSize: 296999
+  hash: "bf64aecb2842e06caddbe3c229744c4b4f8a081d"
+- name: "MPINIv2.utx"
+  fileSize: 1061365
+  hash: "e19eff6144da6e53160f8cc70c60faf31348673b"
+- name: "MPINIv2meshes.usx"
+  fileSize: 135523
+  hash: "7985b87cee087fbed732cd7833d6b3d6d22b08ce"
+otherFiles: 3
+dependencies:
+  MPINIv2meshes.usx:
+  - status: "OK"
+    name: "MPINIv2"
+  FuturamaAddOn.u:
+  - status: "MISSING"
+    name: "BenderVoice2k4"
+  - status: "MISSING"
+    name: "Fry"
+  - status: "MISSING"
+    name: "fryvoice"
+  - status: "MISSING"
+    name: "Leelavoice"
+  - status: "MISSING"
+    name: "JunkVoice"
+  - status: "OK"
+    name: "MPINIv2"
+  - status: "OK"
+    name: "MPINIv2meshes"
+  - status: "MISSING"
+    name: "BenderSkins"
+  - status: "MISSING"
+    name: "Farnsskins"
+  - status: "MISSING"
+    name: "Bender"
+  - status: "MISSING"
+    name: "JunkYardMech"
+  - status: "MISSING"
+    name: "Farnsworth"
+  - status: "MISSING"
+    name: "JunkMechSkins"
+  - status: "MISSING"
+    name: "FarnsVoice"
+  - status: "MISSING"
+    name: "FryAnim"
+  - status: "MISSING"
+    name: "Leela"
+  - status: "MISSING"
+    name: "Leelaanim"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/4/c/88867e/Futurama%20AddOn.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "FuturamaAddOn Preload "
+  description: "preloads resources for FuturamaAddOn"
+weapons:
+- name: "Redeemer"
+  description: "The first time you witness this miniature nuclear device in action,\
+    \ you'll agree it is the most powerful weapon in the Tournament.|Launch a slow-moving\
+    \ but utterly devastating missile with the primary fire; but make sure you're\
+    \ out of the Redeemer's impressive blast radius before it impacts. The secondary\
+    \ fire allows you to guide the nuke yourself with a rocket's-eye view.||Keep in\
+    \ mind, however, that you are vulnerable to attack when steering the Redeemer's\
+    \ projectile. Due to the extreme bulkiness of its ammo, the Redeemer is exhausted\
+    \ after a single shot."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

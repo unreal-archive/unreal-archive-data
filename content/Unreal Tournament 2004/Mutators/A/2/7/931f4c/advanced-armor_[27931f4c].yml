@@ -1,0 +1,92 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:24"
+game: "Unreal Tournament 2004"
+name: "Advanced Armor"
+author: "Unknown"
+description: "AdvancedArmorMutator"
+releaseDate: "2018-09"
+attachments:
+- type: "IMAGE"
+  name: "advanced-armor_shot_27931f4c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/2/7/931f4c/advanced-armor_shot_27931f4c_1.png"
+originalFilename: "Advanced Armor Air Power III Mut.7z"
+hash: "27931f4c187ccca3dd7d5eebd4929d38c3807556"
+fileSize: 2256646
+files:
+- name: "AdvancedArmor_ST.usx"
+  fileSize: 4068354
+  hash: "ad4c59092d8868b00a766ca8a54dc38c90aad8fd"
+- name: "AdvancedArmor.u"
+  fileSize: 182431
+  hash: "adbc224eafe69f4cd1c0800c3707b82f3187a9a1"
+- name: "AdvancedArmor_Tex.utx"
+  fileSize: 2295524
+  hash: "67c6f11c52ed1bd837294b56a5833b3cb9a26bf6"
+- name: "AdvancedArmor_anim.ukx"
+  fileSize: 4040024
+  hash: "5f9486277b393e4123ef198a5dd1ab7008ca5a23"
+- name: "AdvancedArmor_Snd.uax"
+  fileSize: 119331
+  hash: "c4aad4946dee879e2d0641f4b0c51b323a68b194"
+otherFiles: 6
+dependencies:
+  AdvancedArmor_ST.usx:
+  - status: "OK"
+    name: "AdvancedArmor_Tex"
+  AdvancedArmor_anim.ukx:
+  - status: "OK"
+    name: "AdvancedArmor_Tex"
+  - status: "OK"
+    name: "AdvancedArmor_ST"
+  AdvancedArmor.u:
+  - status: "MISSING"
+    name: "APVerIII"
+  - status: "OK"
+    name: "AdvancedArmor_Tex"
+  - status: "OK"
+    name: "AdvancedArmor_SND"
+  - status: "OK"
+    name: "AdvancedArmor_ST"
+  - status: "OK"
+    name: "AdvancedArmor_anim"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/2/7/931f4c/Advanced%20Armor%20Air%20Power%20III%20Mut.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Advanced Armor"
+  description: "AdvancedArmorMutator"
+weapons: []
+vehicles:
+- name: "Troop Carrier Passenger"
+  description: "Troop Carrier Passenger"
+- name: "HellBenderMKV"
+  description: "HellBenderMKV"
+- name: "HellBenderMKV Rear Turret"
+  description: "HellBenderMKV Rear Turret"
+- name: "HellBenderMKV Side Turret"
+  description: "HellBenderMKV Side Turret"
+- name: "Troop Carrier"
+  description: "Troop Carrier"
+- name: "APC Rear Turret"
+  description: "APC Rear Turret"
+- name: "Troop Carrier"
+  description: "Troop Carrier"
+- name: "Armadillo Passenger"
+  description: "Armadillo Passenger"
+- name: "Armadillo Rear Turret"
+  description: "Armadillo Rear Turret"
+- name: "Hurricane Minigun Turret"
+  description: "Hurricane Minigun Turret"
+- name: "Hurricane"
+  description: "Hurricane"
+- name: "Mobile Missile Launcher"
+  description: "Mobile Missile Launcher"
+- name: "ScorpionMKV"
+  description: "ScorpionMKV"
+hasConfigMenu: false
+hasKeybinds: false

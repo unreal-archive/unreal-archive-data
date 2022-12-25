@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:26"
+game: "Unreal Tournament 2004"
+name: "PsionicsMutator V1 0 With UE"
+author: "Andrew Glover"
+description: "None"
+releaseDate: "2007-04"
+attachments: []
+originalFilename: "PsionicsMutator v1.0 with UE.7z"
+hash: "a5324be03e2a3797404523b1b7094aba40e53e8e"
+fileSize: 707451
+files:
+- name: "MutPsychicPowers.u"
+  fileSize: 658986
+  hash: "faf50fde48dafc31ef1bc0f469e2bec62d76cf12"
+- name: "unrealextension.u"
+  fileSize: 62278
+  hash: "a352fc4a1199aceaa89b7f3c306e20eca53ab4d0"
+- name: "MutRadar.u"
+  fileSize: 2135516
+  hash: "fe8d8217da3ea743edda1d8581945ddc2df1b57a"
+otherFiles: 8
+dependencies:
+  MutPsychicPowers.u:
+  - status: "OK"
+    name: "unrealextension"
+  MutRadar.u:
+  - status: "OK"
+    name: "unrealextension"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/a/5/324be0/PsionicsMutator%20v1.0%20with%20UE.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Psionics"
+  description: "With the newly discovered Psionics Implant Chip becoming a legal inclusion\
+    \ in the tournament, competitors now find themselves capable of a host of new\
+    \ and exciting moves"
+- name: "Radar"
+  description: "Adds a radar to the hud"
+- name: "UT2004 Bulldog"
+  description: "It's Back.  This mutator lets you select which vehicle the now working\
+    \ Bulldog replaces."
+- name: "Phantom Head Changer"
+  description: "A test to show off the functionality of the xMutator.  You can see\
+    \ the changes but they can't even see your head!"
+weapons: []
+vehicles:
+- name: "Bulldog"
+  description: "Bulldog"
+hasConfigMenu: false
+hasKeybinds: true

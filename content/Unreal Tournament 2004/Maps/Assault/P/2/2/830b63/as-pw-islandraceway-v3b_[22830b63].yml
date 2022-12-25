@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:12"
+game: "Unreal Tournament 2004"
+name: "AS-PW-IslandRaceway-V3B"
+author: "Ben Beckwith"
+description: "This volcanic archipelago served once as a gateway in the human wars\
+  \ of the 21st century. Transformed for tournament use, a series of bridges now connects\
+  \ the islands. These bridges, though excellent use for ground based vehicles, do\
+  \ not provide a direct path to battle. Manta's will be the primary choice for transportation."
+releaseDate: "2006-08"
+attachments:
+- type: "IMAGE"
+  name: "as-pw-islandraceway-v3b_shot_22830b63_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/P/2/2/830b63/as-pw-islandraceway-v3b_shot_22830b63_1.png"
+- type: "IMAGE"
+  name: "as-pw-islandraceway-v3b_shot_22830b63_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/P/2/2/830b63/as-pw-islandraceway-v3b_shot_22830b63_2.png"
+originalFilename: "AS-PW-IslandRaceway-V3B.7z"
+hash: "22830b6399e16b9b37805ddb8bb853a1e06562b9"
+fileSize: 2628066
+files:
+- name: "PWScorpion.u"
+  fileSize: 1400702
+  hash: "e0e3204a63b370e9dd9f74ff3b9edc0723f308ec"
+- name: "KASPvehicleTX.utx"
+  fileSize: 1083493
+  hash: "b0ef5b9976282f5d424389578e18e9bf9c646c0a"
+- name: "Kopholus.u"
+  fileSize: 70854
+  hash: "75694e3818ffce39d2f52b44bc4bd216d868ce8f"
+- name: "KASPvehicleSM.usx"
+  fileSize: 594401
+  hash: "e816ae1a67fbdf7efa96da1516e5cebe3eb2c872"
+- name: "AS-PW-IslandRaceway-V3B.ut2"
+  fileSize: 11102004
+  hash: "0802cf69c27b5d6a4bb9883cd9a53520290c1705"
+- name: "KASPvehicles.ukx"
+  fileSize: 618853
+  hash: "ddd3df19f9f76019bc4ea1bd540c05ef9a50ec33"
+- name: "pwscorpion.utx"
+  fileSize: 1399738
+  hash: "19508899ee9a33e8878a8de97aba79aeeffb7aa3"
+otherFiles: 3
+dependencies:
+  Kopholus.u:
+  - status: "OK"
+    name: "KASPvehicleSM"
+  - status: "OK"
+    name: "KASPvehicles"
+  KASPvehicles.ukx:
+  - status: "OK"
+    name: "KASPvehicleTX"
+  AS-PW-IslandRaceway-V3B.ut2:
+  - status: "OK"
+    name: "pwscorpion"
+  - status: "OK"
+    name: "Kopholus"
+  - status: "MISSING"
+    name: "RacistBender"
+  KASPvehicleSM.usx:
+  - status: "OK"
+    name: "KASPvehicleTX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/P/2/2/830b63/AS-PW-IslandRaceway-V3B.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "Mario Raceway"
+playerCount: "8-16"
+themes:
+  Natural: 0.5
+  Tech: 0.5
+bots: true

@@ -1,0 +1,80 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "Wormbot v2"
+author: "Wormbo"
+description: "Wormbo's IRC Reporter Bot"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "WormbotreporterV2.7z"
+hash: "29b2e5007a990d758a8235d716c6838ead045bed"
+fileSize: 112106
+files:
+- name: "WormbotHandlerOLTeamGames.u"
+  fileSize: 5621
+  hash: "860d6e58725b09f1341fb96573b82d32cf6d027b"
+- name: "WormbotHandlerBonuspack.u"
+  fileSize: 7720
+  hash: "cc0479465acd49d19413fe63894146bb4f88f4cd"
+- name: "WormbotHandlerAssault.u"
+  fileSize: 19006
+  hash: "b756b8316a2e196c470a74b550906bae17a25f7a"
+- name: "WormbotReporter.u"
+  fileSize: 414070
+  hash: "4052afe707aa1940a0ac74558d96f4605051bad0"
+- name: "WormbotHandlerUTComp.u"
+  fileSize: 5832
+  hash: "9aaaf1e91048ff2cb3d000b32df04a2175211e93"
+- name: "WormbotHandlerJailbreak.u"
+  fileSize: 17106
+  hash: "96dccdd9977460399acea44b94db97d379aa2e6d"
+- name: "WormbotHandlerAntiTCC.u"
+  fileSize: 7111
+  hash: "2244bccebcc36c440bdfdab77670f925e7329b90"
+- name: "WormbotHandlerInvasion.u"
+  fileSize: 13270
+  hash: "4fb00f49bbe27f5433a72713c448469a9ff625c6"
+otherFiles: 10
+dependencies:
+  WormbotHandlerAntiTCC.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  WormbotHandlerUTComp.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  WormbotHandlerBonuspack.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  WormbotHandlerInvasion.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  WormbotHandlerAssault.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  WormbotHandlerOLTeamGames.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  - status: "MISSING"
+    name: "OLTeamGames"
+  WormbotHandlerJailbreak.u:
+  - status: "OK"
+    name: "WormbotReporter"
+  - status: "MISSING"
+    name: "Jailbreak"
+  - status: "MISSING"
+    name: "JBAddonLlama"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/2/9/b2e500/WormbotreporterV2.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Wormbot v2"
+  description: "Wormbo's IRC Reporter Bot"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

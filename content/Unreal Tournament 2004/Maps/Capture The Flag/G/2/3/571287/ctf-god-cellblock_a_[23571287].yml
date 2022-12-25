@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:25"
+game: "Unreal Tournament 2004"
+name: "CTF-GOD-CellBlock_A"
+author: "»G.o.D«Raven"
+description: "Forever imprisoned, the »G.o.D« clan members find a way to continue\
+  \ their tournament progress by inviting other clans to compete under lockdown."
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "CTF-GOD-CellBlock_A.7z"
+hash: "23571287447e6a686d707c1d0c80a478a882b457"
+fileSize: 3138713
+files:
+- name: "god_XD_tex.utx"
+  fileSize: 1049631
+  hash: "069234d21e6782dc060d7f4f71e9fbeaf42200ee"
+- name: "CTF-ShowerRoom.usx"
+  fileSize: 702407
+  hash: "d8a575fc647ba68304d72489e66626f1c28945c5"
+- name: "CTF-GOD-CellBlock_A.ut2"
+  fileSize: 9569276
+  hash: "ad9ab3e16a0bc37f36314f5140df7195d3655f17"
+- name: "GodSigs.usx"
+  fileSize: 326379
+  hash: "dac1d2ff3bf7a7bca61efe1e771144d5c4c31e0b"
+- name: "GOD_codes.utx"
+  fileSize: 4197464
+  hash: "8640dbba9decc44b079ee5456a7bc53b79ad995a"
+- name: "CTF-Slammer.usx"
+  fileSize: 390906
+  hash: "7bed5717945ec507b2ae5c1838d0196003695530"
+otherFiles: 0
+dependencies:
+  CTF-GOD-CellBlock_A.ut2:
+  - status: "OK"
+    name: "GOD_codes"
+  - status: "OK"
+    name: "CTF-ShowerRoom"
+  - status: "OK"
+    name: "CTF-Slammer"
+  - status: "OK"
+    name: "god_XD_tex"
+  - status: "MISSING"
+    name: "god_sig3o"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/2/3/571287/CTF-GOD-CellBlock_A.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Cell Block A"
+playerCount: "4-8"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: false

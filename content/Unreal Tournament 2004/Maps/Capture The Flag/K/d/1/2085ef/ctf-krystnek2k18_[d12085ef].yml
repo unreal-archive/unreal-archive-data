@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:06"
+game: "Unreal Tournament 2004"
+name: "CTF-Krystnek2k18"
+author: "Nutter"
+description: "A heavily modified version of an old GF map I made in 2004."
+releaseDate: "2018-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-krystnek2k18_shot_d12085ef_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/d/1/2085ef/ctf-krystnek2k18_shot_d12085ef_1.png"
+originalFilename: "CTF-Krystnek2k18.7z"
+hash: "d12085efd35ed665788a19288dfec8be8e4e3a52"
+fileSize: 19355365
+files:
+- name: "CTF-Krystnek2k18.ut2"
+  fileSize: 30363698
+  hash: "6feb5ff7b6f7bd03fd75e6e8bc4c7dd5b998ca04"
+- name: "CTFKrystnekTextures.utx"
+  fileSize: 65715782
+  hash: "5909f4c20327835b441049749330a5d7aeb4f8d3"
+- name: "CTFKrystnekSM.usx"
+  fileSize: 8532049
+  hash: "eeac289b18e1ce3c86e3020edcfe2cb2c9bb9282"
+otherFiles: 0
+dependencies:
+  CTFKrystnekSM.usx:
+  - status: "OK"
+    name: "CTFKrystnekTextures"
+  CTF-Krystnek2k18.ut2:
+  - status: "OK"
+    name: "CTFKrystnekTextures"
+  - status: "OK"
+    name: "CTFKrystnekSM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/K/d/1/2085ef/CTF-Krystnek2k18.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Kystnek"
+playerCount: "8-16"
+themes:
+  Industrial: 0.5
+  Ancient: 0.4
+  Egyptian: 0.1
+bots: true

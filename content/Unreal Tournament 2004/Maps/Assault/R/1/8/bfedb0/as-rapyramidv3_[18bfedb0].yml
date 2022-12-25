@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:08"
+game: "Unreal Tournament 2004"
+name: "AS-RaPyramidv3"
+author: "`Zippy`"
+description: "Can you complete all of the five worlds..?"
+releaseDate: "2007-08"
+attachments:
+- type: "IMAGE"
+  name: "as-rapyramidv3_shot_18bfedb0_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/R/1/8/bfedb0/as-rapyramidv3_shot_18bfedb0_2.png"
+- type: "IMAGE"
+  name: "as-rapyramidv3_shot_18bfedb0_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/R/1/8/bfedb0/as-rapyramidv3_shot_18bfedb0_1.png"
+originalFilename: "AS-RaPyramidv3.7z"
+hash: "18bfedb06f5a3f4bb3a79a1ea7f417fdda7fc338"
+fileSize: 13263977
+files:
+- name: "RaDamTypes.u"
+  fileSize: 2208
+  hash: "78cc157dd06cf953787cb74b26cb985d57bda04e"
+- name: "TFAMap.u"
+  fileSize: 21814
+  hash: "4769d810763cd19e6218101f9409ae9bb5076f5b"
+- name: "MovingVolume.u"
+  fileSize: 653
+  hash: "7912b4fdeeed51801cdbfc108080ba59a40558e0"
+- name: "Copan.ogg"
+  fileSize: 2237705
+  hash: "80145f4a3fb7b66e53154bc18b84e8a57a85a0eb"
+- name: "AS-RaPyramidv3.ut2"
+  fileSize: 37799424
+  hash: "052eb8c7ba6940c86866d410768634b842e3c182"
+- name: "OSMTex.utx"
+  fileSize: 627326
+  hash: "b8a65362b5c34f9b5b4abd32125ba568e3648aa8"
+- name: "OSMT.u"
+  fileSize: 587306
+  hash: "96e244740a19f717eaa80a544f2b48c9635692db"
+otherFiles: 2
+dependencies:
+  OSMT.u:
+  - status: "OK"
+    name: "OSMTex"
+  AS-RaPyramidv3.ut2:
+  - status: "OK"
+    name: "TFAMap"
+  - status: "OK"
+    name: "MovingVolume"
+  - status: "OK"
+    name: "RaDamTypes"
+  - status: "OK"
+    name: "OSMT"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/R/1/8/bfedb0/AS-RaPyramidv3.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "RaPyramid"
+playerCount: "7"
+themes:
+  Natural: 0.1
+  Egyptian: 0.9
+bots: true

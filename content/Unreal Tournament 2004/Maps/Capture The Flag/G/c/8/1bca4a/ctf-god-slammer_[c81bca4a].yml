@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:11"
+game: "Unreal Tournament 2004"
+name: "CTF-GOD-Slammer"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-10"
+attachments: []
+originalFilename: "CTF-GOD-Slammer.7z"
+hash: "c81bca4a09286d7e2ad78e59813d74e0c8e05788"
+fileSize: 1819909
+files:
+- name: "GOD_codes.utx"
+  fileSize: 4197464
+  hash: "8640dbba9decc44b079ee5456a7bc53b79ad995a"
+- name: "CTF-Slammer.usx"
+  fileSize: 390906
+  hash: "7bed5717945ec507b2ae5c1838d0196003695530"
+- name: "GOD_x2.utx"
+  fileSize: 1398717
+  hash: "c9162aa354a565d8a40e78cc80b1f9ccd7be4aea"
+- name: "CTF-GOD-Slammer.ut2"
+  fileSize: 3360768
+  hash: "018385d67f4c4eb31f7b2eef62a85f5800b48478"
+- name: "god_sig3o.utx"
+  fileSize: 2797075
+  hash: "6dc83811fd97542bedfaaa9686b71d475fb2e0ab"
+otherFiles: 0
+dependencies:
+  CTF-GOD-Slammer.ut2:
+  - status: "OK"
+    name: "GOD_codes"
+  - status: "OK"
+    name: "CTF-Slammer"
+  - status: "OK"
+    name: "god_sig3o"
+  - status: "OK"
+    name: "GOD_x2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/c/8/1bca4a/CTF-GOD-Slammer.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-GOD-Slammer"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: false

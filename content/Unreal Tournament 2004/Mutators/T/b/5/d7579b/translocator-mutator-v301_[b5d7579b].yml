@@ -1,0 +1,88 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:24"
+game: "Unreal Tournament 2004"
+name: "TransLocator Mutator V301"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "TransLocator Mutator v301.7z"
+hash: "b5d7579b8120840c72cb1ca2a280ec7264fda634"
+fileSize: 1346352
+files:
+- name: "BeaconLight.utx"
+  fileSize: 7065
+  hash: "d14674f526a43bfb474f9e9cea7bef81b7c152ea"
+- name: "UTTrans.ukx"
+  fileSize: 36455
+  hash: "3a74e9ac15c0d2ccd7746080cb82629bdff2d5a4"
+- name: "OldWeapons.utx"
+  fileSize: 2797025
+  hash: "6c7b5178a298c525f448ec7fb148df788ac73b65"
+- name: "TLMutator-301.u"
+  fileSize: 545018
+  hash: "daafe29ddbd504745cab2d68dbfaa9b04247eea9"
+- name: "TL-Shield-Announcer.uax"
+  fileSize: 656790
+  hash: "c3ae3228db8bfd2f3adb2266a8959c354d5424e9"
+- name: "TLStatic.usx"
+  fileSize: 222197
+  hash: "acb11a3d40f112db643bf56aeeacec38f8f6bfae"
+otherFiles: 4
+dependencies:
+  UTTrans.ukx:
+  - status: "OK"
+    name: "OldWeapons"
+  TLMutator-301.u:
+  - status: "OK"
+    name: "TL-Shield-Announcer"
+  - status: "OK"
+    name: "BeaconLight"
+  - status: "OK"
+    name: "OldWeapons"
+  - status: "OK"
+    name: "UTTrans"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/T/b/5/d7579b/TransLocator%20Mutator%20v301.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "-=TL Mutator 3.01=-"
+  description: "Configure your Translocator. UT Translocator, UT2003 Translocator\
+    \ or UT2004 Translocator. UT sounds or no sound. Trail or no trail. Skins, trail\
+    \ color, fire rate, speed, charge rate, etc. Change the Shieldgun sound for the\
+    \ UT hammer sound. Announcer for telefrags and Shieldgun frags, etc. etc. etc."
+- name: "-=UT Translocator LE 3.01=-"
+  description: "Replace the UT2004 Translocator beacon by the UT Translocator beacon.\
+    \ Equivalent fire rate and velocity to obtain the same effect in UT2004. Original\
+    \ UT sounds and unlimited Translocations. The TL beacon goes a little bit further\
+    \ than the UT one. This version is not configurable. Telepunt is allowed and the\
+    \ shielgun sound is changed for the UT hammer sound. Locked Edition for league\
+    \ match or stuff like that. You can use the UT2004 TL launcher or UT2003 TL launcher\
+    \ models."
+weapons:
+- name: "Modified Translocator"
+  description: "Configurable UT2004 Translocator.  Part of the TLMutator."
+- name: "Telepunt ShieldGun"
+  description: "This ShieldGun was modified for Telepunting with the UT Translocator."
+- name: "Telepunt ShieldGun UTSnd"
+  description: "This ShieldGun was modified for Telepunting with the UT Translocator\
+    \ and has the UT Impact Hammer sound."
+- name: "ShieldGun UTSnd"
+  description: "ShieldGun with UT Impact Hammer sound."
+- name: "UT2003 Translocator"
+  description: "Configurable UT2003 Translocator. Part of the TLMutator."
+- name: "UT Translocator"
+  description: "This configurable Translocator launch the old Unreal Tournament Translocator\
+    \ Beacon and use the UT2003 Launcher model. Part of the TLMutator."
+- name: "UT Translocator LE"
+  description: "This Translocator launch the old Unreal Tournament Translocator Beacon\
+    \ and use the UT2004 Launcher model or the UT2003 Launcher. It's the old UT Translocator\
+    \ ported to UT2004. Part of the TLMutatorLE."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:17"
+variationOf: "5b01b60a23c09cac35ed18a50122bab0a3978216"
+game: "Unreal Tournament 2004"
+name: "CTF-Gralada"
+author: "Rogelio Olguin"
+description: "Deep in the mountains of Granica, two miles north of Argento del Alma,\
+  \ lies the isolated geothermal facility Gralada, operating with minimal human intervention\
+  \ under the supervision of a program known as The Priestess. Housed in metallic\
+  \ statues, The Priestess has been rumored by visiting engineers to send cries for\
+  \ freedom echoing through the plant's empty passages. Thankless as it is, however,\
+  \ the Priestess is unswerving in her task of maintaining Gralada's perpetually producing\
+  \ power."
+releaseDate: "2005-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-gralada_shot_f2a87ec9_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/f/2/a87ec9/ctf-gralada_shot_f2a87ec9_1.png"
+originalFilename: "CTF-Gralada.7z"
+hash: "f2a87ec9db1dc95bf20e0d16aa73c69216046a86"
+fileSize: 29066479
+files:
+- name: "CTF-Gralada.ut2"
+  fileSize: 45452866
+  hash: "db12ae67e415630dd4f02050eef65a1adb9fb2d7"
+- name: "DespTel_mecoMEXTEX.utx"
+  fileSize: 10251443
+  hash: "909cffeb5aa45ae6bf51eccc5a8c6c476b011d44"
+- name: "DOTHSLimits.ogg"
+  fileSize: 1826044
+  hash: "721f88aac5b89edb5fc7b5beae8747cc1cd81881"
+- name: "DespTech2.utx"
+  fileSize: 78034352
+  hash: "4f6510e28235e88a257473afcdc10156ff8c09e0"
+- name: "DespTech2-STA.usx"
+  fileSize: 6158578
+  hash: "53e83e0d795929c18bba24333cb480a9414c57c6"
+- name: "Desp-TelMecoMex.usx"
+  fileSize: 1569865
+  hash: "71707c6b4b8fa4d3764125de6f4a859fa526d5f3"
+otherFiles: 1
+dependencies:
+  DespTech2-STA.usx:
+  - status: "OK"
+    name: "DespTech2"
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+  CTF-Gralada.ut2:
+  - status: "OK"
+    name: "DespTech2-STA"
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+  - status: "OK"
+    name: "Desp-TelMecoMex"
+  - status: "OK"
+    name: "DespTech2"
+  Desp-TelMecoMex.usx:
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/G/f/2/a87ec9/CTF-Gralada.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Gralada"
+playerCount: "18"
+themes:
+  Tech: 0.5
+  City: 0.3
+  Industrial: 0.1
+bots: true

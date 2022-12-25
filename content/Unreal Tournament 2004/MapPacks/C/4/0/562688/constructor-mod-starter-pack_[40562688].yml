@@ -1,0 +1,79 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2022-12-25 18:23"
+game: "Unreal Tournament 2004"
+name: "Constructor Mod Starter Pack"
+author: "Various"
+description: "None"
+releaseDate: "2019-01"
+attachments:
+- type: "IMAGE"
+  name: "constructor-mod-starter-pack_shot_40562688_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/C/4/0/562688/constructor-mod-starter-pack_shot_40562688_1.png"
+- type: "IMAGE"
+  name: "constructor-mod-starter-pack_shot_40562688_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/C/4/0/562688/constructor-mod-starter-pack_shot_40562688_2.png"
+originalFilename: "Constructor_Mod_Starter_Pack.zip"
+hash: "405626884bfb8526ca685d492a0e4807830e692c"
+fileSize: 18446896
+files:
+- name: "Constructor.u"
+  fileSize: 1234651
+  hash: "14f5b150672facae3f9dea630c48f41da711b1aa"
+- name: "AS-PWC-SnowValley2006-SE.ut2"
+  fileSize: 19923319
+  hash: "7ea5e15711bd2052427144522a454c9f53f9ecdf"
+- name: "pwvehicles.u"
+  fileSize: 2856
+  hash: "ebd5221bc4c45a4d3dd6be6e9315b2708a9869fa"
+- name: "ConstConvexMeshes.u"
+  fileSize: 11204
+  hash: "60d9e3374a2e51b9cd2ac6a682d65ddf519e7ac9"
+- name: "AS-ConstructorValley-[Final]-Fix-3.ut2"
+  fileSize: 62435822
+  hash: "95a34b894d0eff0a0a9d509b51ce34295f61df63"
+- name: "MoverrifleB.u"
+  fileSize: 33172
+  hash: "20afb51e4d88f951243464c4d94ff30d5f5f7d9e"
+- name: "pwvehicles_tex.u"
+  fileSize: 8884281
+  hash: "7f4f316d9c6099a7520a491388214778cd474ae4"
+otherFiles: 1
+dependencies:
+  Constructor.u:
+  - status: "OK"
+    name: "ConstConvexMeshes"
+  AS-ConstructorValley-[Final]-Fix-3.ut2:
+  - status: "OK"
+    name: "pwvehicles"
+  - status: "OK"
+    name: "MoverrifleB"
+  - status: "OK"
+    name: "Constructor"
+  AS-PWC-SnowValley2006-SE.ut2:
+  - status: "OK"
+    name: "Constructor"
+  - status: "OK"
+    name: "pwvehicles"
+  pwvehicles.u:
+  - status: "OK"
+    name: "pwvehicles_tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/C/4/0/562688/Constructor_Mod_Starter_Pack.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "AS-PWC-SnowValley2006-SE"
+  title: "PWC Snow Valley - Constructor"
+  author: "Sgt.Muffin"
+- name: "AS-ConstructorValley-[Final]-Fix-3"
+  title: "Constructor Valley Final"
+  author: "Joe 'Joeking' Strange"
+gametype: "Assault"
+themes:
+  Tech: 0.5
+  City: 0.1
+  Natural: 0.5

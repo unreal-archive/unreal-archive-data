@@ -1,0 +1,58 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:27"
+game: "Unreal Tournament 2004"
+name: "Aerial View"
+author: "Unknown"
+description: "Flight + 3rd person view + jump boots."
+releaseDate: "2018-09"
+attachments:
+- type: "IMAGE"
+  name: "aerial-view_shot_b951f229_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/b/9/51f229/aerial-view_shot_b951f229_3.png"
+- type: "IMAGE"
+  name: "aerial-view_shot_b951f229_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/b/9/51f229/aerial-view_shot_b951f229_2.png"
+- type: "IMAGE"
+  name: "aerial-view_shot_b951f229_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/A/b/9/51f229/aerial-view_shot_b951f229_1.png"
+originalFilename: "AerialView.7z"
+hash: "b951f2290389c6c70d7a5fe46bac721ca6f9dfd8"
+fileSize: 667458
+files:
+- name: "AerialViewSounds.uax"
+  fileSize: 19454
+  hash: "85b928cdfb659e7f2803f299609eac3856c0fac0"
+- name: "AerialViewTextures.utx"
+  fileSize: 1164539
+  hash: "9a24f155acbd7b6fe28d983eac156678ab1a6668"
+- name: "AerialViewStaticMeshes.usx"
+  fileSize: 561711
+  hash: "75ec821e1ff5d5debbfca0a273d106817653eaaf"
+- name: "AerialView.u"
+  fileSize: 87130
+  hash: "6559160a6e700edebdafb17f3b0ae2b520379c52"
+otherFiles: 9
+dependencies:
+  AerialView.u:
+  - status: "OK"
+    name: "AerialViewStaticMeshes"
+  - status: "OK"
+    name: "AerialViewTextures"
+  AerialViewStaticMeshes.usx:
+  - status: "OK"
+    name: "AerialViewTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/A/b/9/51f229/AerialView.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Aerial View"
+  description: "Flight + 3rd person view + jump boots."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

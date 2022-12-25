@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 18:09"
+variationOf: "2c58548601d7f8183f46b1c16d1c154b1dae8adb"
+game: "Unreal Tournament 2004"
+name: "ONS-TorlanEnhanceWeapons"
+author: "Streamline Studios/Hourences"
+description: "Set on the dried outskirts of a lush jungle continent, two factions\
+  \ clash in fierce combat for control of a major communications tower and its adjacent\
+  \ power supply. With the dam holding back the waters from the nearby jungle, the\
+  \ dried out riverbed running across the battlefield allows for an easy attack route\
+  \ into enemy territory and could provide a decisive victor with ownership of the\
+  \ enormous Comm-tower as the reward."
+releaseDate: "2010-04"
+attachments:
+- type: "IMAGE"
+  name: "ons-torlanenhanceweapons_shot_5ba1ef2a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Onslaught/T/5/b/a1ef2a/ons-torlanenhanceweapons_shot_5ba1ef2a_1.png"
+originalFilename: "Enhanced Weapons.7z"
+hash: "5ba1ef2ab701814b09e1a580cf5920368c12e3be"
+fileSize: 14588030
+files:
+- name: "EHWeaponsStatic.usx"
+  fileSize: 215671
+  hash: "7b6d7fc164a667f7511436146ced517e9992dcad"
+- name: "EnhancedAnim.ukx"
+  fileSize: 1729887
+  hash: "5791d02fbabc3690d37bff46199ca76ee804ceb4"
+- name: "ONS-TorlanEnhanceWeapons.ut2"
+  fileSize: 8512175
+  hash: "03cd69c0a3a02c683c2e230c6b203c88b589939c"
+- name: "EHWeapons.u"
+  fileSize: 923467
+  hash: "b59134f16407fc9e6964a04c5ce98ee829bb1bb4"
+- name: "EHWeaponSkins.utx"
+  fileSize: 21198266
+  hash: "a3b456df6b4bfc644954735eef5d68c873055bf3"
+- name: "EHSounds.uax"
+  fileSize: 4144584
+  hash: "8d43f55fb7f2a175f693715b3ff47cc331591d05"
+otherFiles: 2
+dependencies:
+  EHWeapons.u:
+  - status: "OK"
+    name: "EHWeaponSkins"
+  - status: "OK"
+    name: "EHSounds"
+  - status: "OK"
+    name: "EHWeaponsStatic"
+  - status: "OK"
+    name: "EnhancedAnim"
+  EHWeaponsStatic.usx:
+  - status: "OK"
+    name: "EHWeaponSkins"
+  EnhancedAnim.ukx:
+  - status: "OK"
+    name: "EHWeaponSkins"
+  ONS-TorlanEnhanceWeapons.ut2:
+  - status: "OK"
+    name: "EHWeapons"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Onslaught/T/5/b/a1ef2a/Enhanced%20Weapons.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Onslaught"
+title: "Torlan"
+playerCount: "8-16"
+themes:
+  Tech: 1.0
+bots: true

@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 16:59"
+variationOf: "20ae803d712c1c5139c8472e3c0489237b9d365d"
+game: "Unreal Tournament 2004"
+name: "AS-RaPyramidv4"
+author: "`Zippy`"
+description: "Can you survive all 6 worlds, then escape?"
+releaseDate: "2014-04"
+attachments:
+- type: "IMAGE"
+  name: "as-rapyramidv4_shot_7900ee16_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/R/7/9/00ee16/as-rapyramidv4_shot_7900ee16_1.png"
+originalFilename: "as-rapyramidv4_2.zip"
+hash: "7900ee1695b8e8e1ccb66dc9f5800374335a211b"
+fileSize: 18934328
+files:
+- name: "MovingVolume.u"
+  fileSize: 653
+  hash: "7912b4fdeeed51801cdbfc108080ba59a40558e0"
+- name: "TFAMap.u"
+  fileSize: 21814
+  hash: "4769d810763cd19e6218101f9409ae9bb5076f5b"
+- name: "OSMTex.utx"
+  fileSize: 627326
+  hash: "b8a65362b5c34f9b5b4abd32125ba568e3648aa8"
+- name: "Copan.ogg"
+  fileSize: 2237705
+  hash: "80145f4a3fb7b66e53154bc18b84e8a57a85a0eb"
+- name: "RaDamTypes2.u"
+  fileSize: 4598
+  hash: "97e1f9a3036621fbd9a5839d629950fffb5448c8"
+- name: "OSMT.u"
+  fileSize: 587306
+  hash: "96e244740a19f717eaa80a544f2b48c9635692db"
+- name: "AS-RaPyramidv4.ut2"
+  fileSize: 47649649
+  hash: "ee384c562249ae76b1cf044d452f25ec6d578622"
+otherFiles: 1
+dependencies:
+  OSMT.u:
+  - status: "OK"
+    name: "OSMTex"
+  AS-RaPyramidv4.ut2:
+  - status: "OK"
+    name: "TFAMap"
+  - status: "OK"
+    name: "RaDamTypes2"
+  - status: "OK"
+    name: "OSMT"
+  - status: "OK"
+    name: "MovingVolume"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/R/7/9/00ee16/as-rapyramidv4_2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "RaPyramid"
+playerCount: "7"
+themes:
+  Natural: 0.1
+  Egyptian: 0.9
+bots: true

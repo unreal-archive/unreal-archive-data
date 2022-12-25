@@ -1,0 +1,81 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-25 18:26"
+game: "Unreal Tournament 2004"
+name: "Cover Pawn"
+author: "Meowcat"
+description: "Cover Pawn: Can hug walls while moving"
+releaseDate: "2006-12"
+attachments: []
+originalFilename: "GearsofUT Alpha.7z"
+hash: "6a85ac26a014450663e629cf306462794e21d2e7"
+fileSize: 1555592
+files:
+- name: "CoverPawnSounds.uax"
+  fileSize: 340339
+  hash: "908438fd472e85c2e70a0dcc233e196ccb6c949b"
+- name: "CoverPawnGame.u"
+  fileSize: 391987
+  hash: "21958d97897420cd2596feb31064c3e2057cab21"
+- name: "CoverPawnAnims.ukx"
+  fileSize: 1404701
+  hash: "a46b8e87415c2db715e9ccd7b7928be3ea17d6d5"
+- name: "Yarm_Karma.ka"
+  fileSize: 58085
+  hash: "a88856b6841fe3364a0afc599e561eab5fc6f920"
+- name: "CoverPawnStat.usx"
+  fileSize: 257406
+  hash: "052e4b9f365ca7a46877a963a7f3df4a76d66c86"
+- name: "CoverPawnTex.utx"
+  fileSize: 3231863
+  hash: "30f9a406d072917b420c7e2027a617d97a614b52"
+otherFiles: 3
+dependencies:
+  CoverPawnStat.usx:
+  - status: "OK"
+    name: "CoverPawnTex"
+  CoverPawnAnims.ukx:
+  - status: "OK"
+    name: "CoverPawnTex"
+  CoverPawnGame.u:
+  - status: "OK"
+    name: "CoverPawnAnims"
+  - status: "OK"
+    name: "CoverPawnTex"
+  - status: "OK"
+    name: "CoverPawnsounds"
+  - status: "OK"
+    name: "CoverPawnStat"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/6/a/85ac26/GearsofUT%20Alpha.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Cover Pawn"
+  description: "Cover Pawn: Can hug walls while moving"
+weapons:
+- name: "ARB Assault Rifle"
+  description: "Standard Bullpup Infantry Assault Rifle.  Capable of three rounds\
+    \ bursts."
+- name: "Tactical Auto Shotgun"
+  description: "Recently adopted by the U.S.M.C., this shotgun is a semiautomatic\
+    \ 12 guage capable of firing all seven of it shells in under 2 seconds."
+- name: "Russian Bayonet"
+  description: "Devastating close range weapon.  When approaching a foe from behind,\
+    \ can be used to silently kill him with a single slash."
+- name: "M67Grenades"
+  description: "M67 Frag grenades.  These grenades are perfect for clearing rooms\
+    \ prior to assaults or against unarmored personnel."
+- name: "HK Mk23 SOCOM"
+  description: "HK Mk23 SOCOM Pistol."
+- name: "PSG1R Sniper Rifle"
+  description: "Specialized Tactical Rifle.  Good for long Range Targets."
+- name: "M18Grenades"
+  description: "M18 Smoke grenades.  These grenades are perfect for obscuring rooms\
+    \ prior to assaults."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true

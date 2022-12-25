@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2022-12-25 17:13"
+game: "Unreal Tournament 2004"
+name: "AS-PW-HellbenderRace3-V1"
+author: "{PW}Sgt.Muffin"
+description: "The Real HellbenderRace 3"
+releaseDate: "2006-06"
+attachments:
+- type: "IMAGE"
+  name: "as-pw-hellbenderrace3-v1_shot_d60ae646_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Assault/P/d/6/0ae646/as-pw-hellbenderrace3-v1_shot_d60ae646_1.png"
+originalFilename: "AS-PW-HellbenderRace3-V1.7z"
+hash: "d60ae646f265939c6805c8d93cbe389519d46201"
+fileSize: 6446978
+files:
+- name: "RacistBenderHorn.uax"
+  fileSize: 81901
+  hash: "e8baad1aaad59e95d88d9f7c16f9de011b543e53"
+- name: "RacistBender.u"
+  fileSize: 2268
+  hash: "1f88d49c9a16a051521d82d4442cddbf592e1e7b"
+- name: "AS-PW-HellbenderRace3-V1.ut2"
+  fileSize: 19024009
+  hash: "4dab74e815d00a99df3959e30b6e39417dc2bc39"
+- name: "RacistBenderTex.utx"
+  fileSize: 11187835
+  hash: "130c0472ad944678e5b01f4a42f6f409eb5af130"
+otherFiles: 2
+dependencies:
+  AS-PW-HellbenderRace3-V1.ut2:
+  - status: "OK"
+    name: "RacistBender"
+  RacistBender.u:
+  - status: "OK"
+    name: "RacistBenderHorn"
+  - status: "OK"
+    name: "RacistBenderTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Assault/P/d/6/0ae646/AS-PW-HellbenderRace3-V1.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "{PW} Hellbender Race 3"
+playerCount: "16-32"
+themes:
+  Tech: 1.0
+bots: true
