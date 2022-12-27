@@ -1,0 +1,54 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2022-12-27 22:59"
+game: "Unreal Tournament 2004"
+name: "Psymonvehicles"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-01"
+attachments: []
+originalFilename: "Psymonvehicles.zip"
+hash: "c83d9fe6ddf14f384f1916f5c843ebc1bf11ecb9"
+fileSize: 5580999
+files:
+- name: "PsymonSkins.utx"
+  fileSize: 8914444
+  hash: "4ebeec016387a7fa7f38be9c146089c98f8a0787"
+- name: "VCTF-PsymoNBred+++.ut2"
+  fileSize: 596389
+  hash: "66d489e1b959573df97e9015d66d4129de7bc36a"
+- name: "PsymoNVehicles.u"
+  fileSize: 159800
+  hash: "f1ae310b96bbcebdf45cd6ae900fd2cb73b35e05"
+otherFiles: 1
+dependencies:
+  VCTF-PsymoNBred+++.ut2:
+  - status: "OK"
+    name: "PsymoNVehicles"
+  PsymoNVehicles.u:
+  - status: "OK"
+    name: "PsymoNSkins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/c/8/3d9fe6/Psymonvehicles.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "Admin Car"
+  description: "Admin Car"
+- name: "PsymoN HellBender"
+  description: "PsymoN HellBender"
+- name: "PsymoN's Manta"
+  description: "PsymoN's Manta"
+- name: "PsymoN's Raptor"
+  description: "PsymoN's Raptor"
+- name: "PsymoN's Scorpion"
+  description: "PsymoN's Scorpion"
+- name: "PsymoN's Tank"
+  description: "PsymoN's Tank"
+hasConfigMenu: false
+hasKeybinds: false
