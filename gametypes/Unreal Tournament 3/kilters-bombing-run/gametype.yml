@@ -1,0 +1,58 @@
+--- !<GameType>
+contentType: "GameType"
+addedDate: "2022-12-31"
+game: "Unreal Tournament 3"
+name: "Kilter's Bombing Run"
+author: "Off-Kilter's Funhouse"
+description: "KilterBR is our version of Bombing Run, done in the 2k4 style, with\
+  \ Adrenaline!"
+titleImage: ""
+bannerImage: "screenshot.jpg"
+links:
+  Homepage: "http://kiltersfunhouse.com"
+credits:
+  Team:
+  - "[PAIN]*Off-Kilter"
+  - "Torch/2112"
+gameTypes:
+- name: "KilterBR"
+  description: ""
+mutators: []
+maps: []
+releases:
+- title: "1.0b9"
+  version: "1.0b9"
+  releaseDate: "2010-02-07"
+  description: ""
+  files:
+  - title: "Release"
+    localFile: "/home/shrimp/Downloads/KilterBR1.0b9.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament%203/kilters-bombing-run/KilterBR1.0b9.zip"
+      main: true
+      repack: false
+      state: "OK"
+    - url: "https://kiltersfunhouse.com/download/kilter-bombing-run-1-0b9/?wpdmdl=352"
+      main: false
+      repack: false
+      state: "OK"
+    originalFilename: "KilterBR1.0b9.zip"
+    hash: "a96e02ca38b11389d011b52b5875956251099bc3"
+    fileSize: 3437752
+    synced: true
+    deleted: false
+    files:
+    - name: "KilterBR.u"
+      fileSize: 488131
+      hash: "ad961288b7e334b0249a92e60045801ac6a02c1b"
+    - name: "KilterBRAssets.upk"
+      fileSize: 4586108
+      hash: "d0c239f8bd4e086db8971eb7caf415b0c01211a1"
+    otherFiles: 5
+    dependencies:
+      KilterBR.u:
+      - status: "OK"
+        name: "KilterBRAssets"
+  deleted: false
+deleted: false
