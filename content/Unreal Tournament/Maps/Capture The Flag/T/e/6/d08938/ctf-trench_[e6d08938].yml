@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-01-27 01:56"
+game: "Unreal Tournament"
+name: "CTF-Trench"
+author: "shai-hulud"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-trench_shot_e6d08938_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/6/d08938/ctf-trench_shot_e6d08938_1.png"
+originalFilename: "CTFTrench.7z"
+hash: "e6d0893817d2e6e9a6e759199cad0f17854f65d8"
+fileSize: 7762188
+files:
+- name: "WaterflameRocketRace.umx"
+  fileSize: 5294575
+  hash: "63c6a652e55df1df3fb11460a4bca0847a3004ef"
+- name: "CTF-Trench.unr"
+  fileSize: 13035501
+  hash: "f38066305f1b223fd225e3480849cede66d39609"
+otherFiles: 1
+dependencies:
+  CTF-Trench.unr:
+  - status: "OK"
+    name: "WaterflameRocketRace"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/6/d08938/CTFTrench.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Trench"
+playerCount: "10-12"
+themes:
+  Tech: 0.1
+  City: 0.1
+  Industrial: 0.2
+  Skaarj Tech: 0.1
+  Ancient: 0.6
+bots: true
