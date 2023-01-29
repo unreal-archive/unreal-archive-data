@@ -29,6 +29,8 @@ steps:
         path: /tmp/ua/
     environment:
       LANG: "en_GB.UTF-8"
+      LANGUAGE: "en_GB:en"
+      LC_ALL: "en_GB.UTF-8"
     commands:
       - /tmp/ua/bin/unreal-archive summary --content-path=./ --store=NOP
     when:
@@ -42,6 +44,8 @@ steps:
         path: /tmp/ua/
     environment:
       LANG: "en_GB.UTF-8"
+      LANGUAGE: "en_GB:en"
+      LC_ALL: "en_GB.UTF-8"
       SITE_URL: https://unrealarchive.org
       PUB_USER:
         from_secret: PUB_USER
@@ -65,6 +69,8 @@ steps:
         path: /tmp/ua/
     environment:
       LANG: "en_GB.UTF-8"
+      LANGUAGE: "en_GB:en"
+      LC_ALL: "en_GB.UTF-8"
       SITE_URL: https://unrealarchive.org
       MSE_CONTENT_URL: https://unrealarchive.org/search/api/ua
       MSE_CONTENT_TOKEN:
