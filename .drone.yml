@@ -75,6 +75,7 @@ steps:
       MSE_WIKI_TOKEN:
         from_secret: MSE_TOKEN
     commands:
+      - apt update && apt install -y locales-all
       - /tmp/ua/bin/unreal-archive search-submit --content-path=./ --store=NOP
     when:
       ref:
