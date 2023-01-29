@@ -16,6 +16,8 @@ steps:
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
+      - name: apt-cache
+        path: /var/cache/apt
     commands:
       - apt update && apt install -y curl unzip
       - curl https://code.shrimpworks.za.net/artefacts/net/shrimpworks/unreal-archive/latest/unreal-archive-latest.zip -o unreal-archive-latest.zip
@@ -38,6 +40,8 @@ steps:
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
+      - name: apt-cache
+        path: /var/cache/apt
     environment:
       LANG: "en_US.UTF-8"
       LANGUAGE: "en_US:en"
@@ -63,6 +67,8 @@ steps:
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
+      - name: apt-cache
+        path: /var/cache/apt
     environment:
       LANG: "en_US.UTF-8"
       LANGUAGE: "en_US:en"
@@ -83,4 +89,6 @@ steps:
 
 volumes:
   - name: ua-bin-cache
+    temp: {}
+  - name: apt-cache
     temp: {}
