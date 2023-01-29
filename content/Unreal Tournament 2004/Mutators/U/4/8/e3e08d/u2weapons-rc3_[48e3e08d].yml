@@ -247,7 +247,7 @@ dependencies:
   SpecialFX.utx:
   - status: "OK"
     name: "LowlandsT"
-  343T.utx:
+  "343T.utx":
   - status: "OK"
     name: "Arch_WalkwaysT"
   Arch_BuildingsT.utx:
@@ -277,7 +277,7 @@ dependencies:
   Arch_WalkwaysT.utx:
   - status: "OK"
     name: "DetailTextures"
-  343M.usx:
+  "343M.usx":
   - status: "OK"
     name: "343T"
   - status: "OK"
@@ -316,7 +316,7 @@ downloads:
   main: false
   repack: false
   state: "OK"
-- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators//U2Weapons-RC3.7z"
+- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/U2Weapons-RC3.7z"
   main: false
   repack: false
   state: "OK"
@@ -324,44 +324,88 @@ links: {}
 deleted: false
 mutators:
 - name: "Unreal II or XMP Weapons"
-  description: "Add the Unreal II weapons to other gametypes. Fully customisable, you can choose between Unreal II and XMP weapon behaviour."
+  description: "Add the Unreal II weapons to other gametypes. Fully customisable,\
+    \ you can choose between Unreal II and XMP weapon behaviour."
 - name: "Shield Reward"
-  description: "Any remaining shields are thrown from players when they are fragged. Also includes Unreal II-style shield pickups."
+  description: "Any remaining shields are thrown from players when they are fragged.\
+    \ Also includes Unreal II-style shield pickups."
 - name: "Unreal II Power Stations"
-  description: "Replaces Health Chargers with Health Stations and Shield Chargers with Energy Stations from Unreal II."
+  description: "Replaces Health Chargers with Health Stations and Shield Chargers\
+    \ with Energy Stations from Unreal II."
 weapons:
 - name: "Duster Combat Assault Rifle"
-  description: "The M32 Duster Comber Assault Rifle is the standard infantry weapon for the Terran Military grunt. Very effective overall - you can hose down an area using the primary fire mode or deliver a lethal single punch with the alternate fire."
+  description: "The M32 Duster Comber Assault Rifle is the standard infantry weapon\
+    \ for the Terran Military grunt. Very effective overall - you can hose down an\
+    \ area using the primary fire mode or deliver a lethal single punch with the alternate\
+    \ fire."
 - name: "Auto Turret"
-  description: "The Automatic Turret is an automated deployable, used as field support or as an automated defence. It has a dual mounted chaingun that has properties similar to the ones of Combat Assault Rifle."
+  description: "The Automatic Turret is an automated deployable, used as field support\
+    \ or as an automated defence. It has a dual mounted chaingun that has properties\
+    \ similar to the ones of Combat Assault Rifle."
 - name: "Deployable Item"
   description: "Deployable Item"
 - name: "Proximity Sensor"
-  description: "Proximity Sensors are small devices made entirely for scanning the area for any activity. When in the area, scanned by radio waves, a living object appears, it has to have the team's identification badge, otherwise the Proximity Sensor automatically sets off an alarm."
+  description: "Proximity Sensors are small devices made entirely for scanning the\
+    \ area for any activity. When in the area, scanned by radio waves, a living object\
+    \ appears, it has to have the team's identification badge, otherwise the Proximity\
+    \ Sensor automatically sets off an alarm."
 - name: "Shark Rocket Launcher"
-  description: "Nothing beats the primary fire mode of the Shark Rocket Launcher for accurate, long-range devastation with significant splash damage. The alt-fire drunken missiles are wildly unpredictable, but are good for saturating an area or providing suppressing fire."
+  description: "Nothing beats the primary fire mode of the Shark Rocket Launcher for\
+    \ accurate, long-range devastation with significant splash damage. The alt-fire\
+    \ drunken missiles are wildly unpredictable, but are good for saturating an area\
+    \ or providing suppressing fire."
 - name: "Duster Combat Assault Rifle"
-  description: "The M32 Duster Comber Assault Rifle is the standard infantry weapon for the Terran Military grunt. Very effective overall - you can hose down an area using the primary fire mode or deliver a lethal single punch with the alternate fire."
+  description: "The M32 Duster Comber Assault Rifle is the standard infantry weapon\
+    \ for the Terran Military grunt. Very effective overall - you can hose down an\
+    \ area using the primary fire mode or deliver a lethal single punch with the alternate\
+    \ fire."
 - name: "Shock Lance"
-  description: "The Shock Lance Energy Rifle is the favourite weapon of the Izarians, the strike force of one of the Skaarj clans. The Izarians use the weapon mainly for frightening enemies, as a beacon for Skaarj or to fry electronics. Therefore it isn't at all effective against enemies, but extremely effective against vehicles and deployables."
+  description: "The Shock Lance Energy Rifle is the favourite weapon of the Izarians,\
+    \ the strike force of one of the Skaarj clans. The Izarians use the weapon mainly\
+    \ for frightening enemies, as a beacon for Skaarj or to fry electronics. Therefore\
+    \ it isn't at all effective against enemies, but extremely effective against vehicles\
+    \ and deployables."
 - name: "Field Generator"
-  description: "The Field Generator is a small device that, when within proximity of another Field Generator, creates a strong force field that stops enemies from going through."
+  description: "The Field Generator is a small device that, when within proximity\
+    \ of another Field Generator, creates a strong force field that stops enemies\
+    \ from going through."
 - name: "Vulcan Flamethrower"
-  description: "The UA69 Vulcan Flamethrower is the most lethal short-range weapon in the Terran arsenal - you can incinerate entire squads of enemies at close quarters."
+  description: "The UA69 Vulcan Flamethrower is the most lethal short-range weapon\
+    \ in the Terran arsenal - you can incinerate entire squads of enemies at close\
+    \ quarters."
 - name: "Hydra Grenade Launcher"
-  description: "The M406 Hydra Grenade Launcher is an amazingly versatile and effective piece of military hardware, perhaps the best all-around portable weapon in the Terran arsenal. It uses universal Grenades that explode in various ways."
+  description: "The M406 Hydra Grenade Launcher is an amazingly versatile and effective\
+    \ piece of military hardware, perhaps the best all-around portable weapon in the\
+    \ Terran arsenal. It uses universal Grenades that explode in various ways."
 - name: "Land Mine"
-  description: "Land Mines are explosives that detonate when anyone trips over them. They are extremely lethal - there is almost no chance of surviving the blast if you trip on one. Be very cautious, because friendly mines are almost as dangerous as enemy mines."
+  description: "Land Mines are explosives that detonate when anyone trips over them.\
+    \ They are extremely lethal - there is almost no chance of surviving the blast\
+    \ if you trip on one. Be very cautious, because friendly mines are almost as dangerous\
+    \ as enemy mines."
 - name: "Laser Trip Mine"
-  description: "TG-17 anti-personnel explosive Laser Trip Mines are often useful for sealing off areas. They emit a small laser beam that helps them scan the area for any kind of movement. Once it's detected, the Laser Trip Mine detonates."
+  description: "TG-17 anti-personnel explosive Laser Trip Mines are often useful for\
+    \ sealing off areas. They emit a small laser beam that helps them scan the area\
+    \ for any kind of movement. Once it's detected, the Laser Trip Mine detonates."
 - name: "Magnum Pistol"
-  description: "The Magnum is the most powerful sidearm out there. Best for medium range targets, when you’re too far away for the shotgun, but too close for the sniper rifle.|The pistol uses special 0.50 caliber explosive bullets that are quite rare, but powerful. They explode a few miliseconds after hitting the target, effectively incinerating its internal organs."
+  description: "The Magnum is the most powerful sidearm out there. Best for medium\
+    \ range targets, when you’re too far away for the shotgun, but too close for the\
+    \ sniper rifle.|The pistol uses special 0.50 caliber explosive bullets that are\
+    \ quite rare, but powerful. They explode a few miliseconds after hitting the target,\
+    \ effectively incinerating its internal organs."
 - name: "Shark Rocket Launcher"
-  description: "Nothing beats the primary fire mode of the Shark Rocket Launcher for accurate, long-range devastation with significant splash damage. The alt-fire drunken missiles are wildly unpredictable, but are good for saturating an area or providing suppressing fire."
+  description: "Nothing beats the primary fire mode of the Shark Rocket Launcher for\
+    \ accurate, long-range devastation with significant splash damage. The alt-fire\
+    \ drunken missiles are wildly unpredictable, but are good for saturating an area\
+    \ or providing suppressing fire."
 - name: "Rocket Turret"
-  description: "The Rocket Turret is an automated deployable, used as field support or as an automated defence. It has a dual mounted Rocket Launcher that fires rockets similar to those of the Shark Rocket Launcher."
+  description: "The Rocket Turret is an automated deployable, used as field support\
+    \ or as an automated defence. It has a dual mounted Rocket Launcher that fires\
+    \ rockets similar to those of the Shark Rocket Launcher."
 - name: "Widowmaker Sniper Rifle"
-  description: "The T72 Widowmaker Sniper Rifle is a highly specialized weapon that should be used only for long-range sniping, but it does its job very, very well. Its targeting system compensates for wind and other variables to create an instant hit on virtually any target you can see."
+  description: "The T72 Widowmaker Sniper Rifle is a highly specialized weapon that\
+    \ should be used only for long-range sniping, but it does its job very, very well.\
+    \ Its targeting system compensates for wind and other variables to create an instant\
+    \ hit on virtually any target you can see."
 vehicles:
 - name: "Vehicle"
   description: "Vehicle"
