@@ -11,20 +11,33 @@ steps:
     commands:
       - git submodule update --init --recursive
 
-  - name: verify
-    image: azul/zulu-openjdk-debian:17-latest
+  - name: install-unreal-archive
+    image: debian:bullseye-slim
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
     commands:
-      - apt update && apt install -y curl
-      - ./bin/verify.sh ./
+      - apt update && apt install -y curl unzip
+      - curl https://code.shrimpworks.za.net/artefacts/net/shrimpworks/unreal-archive/latest/unreal-archive-latest.zip -o unreal-archive-latest.zip
+      - unzip unreal-archive-latest.zip
+      - mv unreal-archive/* /tmp/ua/
+    when:
+      event:
+        - pull_request
+
+  - name: verify
+    image: debian:bullseye-slim
+    volumes:
+      - name: ua-bin-cache
+        path: /tmp/ua/
+    commands:
+      - /tmp/ua/bin/unreal-archive summary --content-path=./ --store=NOP
     when:
       event:
         - pull_request
 
   - name: publish
-    image: azul/zulu-openjdk-debian:17-latest
+    image: debian:bullseye-slim
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
@@ -39,14 +52,14 @@ steps:
       PUB_ROOT:
         from_secret: PUB_ROOT
     commands:
-      - apt update && apt install -y rsync openssh-client curl
+      - apt update && apt install -y rsync openssh-client
       - ./bin/publish.sh ./
     when:
       ref:
         - refs/heads/master
 
   - name: sync-search
-    image: azul/zulu-openjdk-debian:17-latest
+    image: debian:bullseye-slim
     volumes:
       - name: ua-bin-cache
         path: /tmp/ua/
@@ -59,8 +72,7 @@ steps:
       MSE_WIKI_TOKEN:
         from_secret: MSE_TOKEN
     commands:
-      - apt update && apt install -y curl
-      - ./bin/sync-search.sh ./
+      - /tmp/ua/bin/unreal-archive search-submit --content-path=./ --store=NOP
     when:
       ref:
         - refs/heads/master

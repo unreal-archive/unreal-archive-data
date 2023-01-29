@@ -8,20 +8,13 @@
 #   SITE_URL  - published website root url
 
 UA_VERSION=latest
-UA_BIN=/tmp/ua/unreal-archive
+UA_BIN=/tmp/ua/bin/unreal-archive
 
 WWW_LOCATION=/tmp/ua-www
 
 export STATIC_ROOT="${SITE_URL}/static"
 
 set -e
-
-# download unreal-archive binary
-if [ ! -f ${UA_BIN} ]; then
-  echo "Downloading unreal-archive binary"
-  curl https://code.shrimpworks.za.net/artefacts/unreal-archive/${UA_VERSION}/unreal-archive --output ${UA_BIN}
-  chmod +x ${UA_BIN}
-fi
 
 # execute unreal-archive www command
 echo "Building static content"
