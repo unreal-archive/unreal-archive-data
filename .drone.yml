@@ -20,8 +20,7 @@ steps:
       - apt update && apt install -y curl unzip
       - curl https://code.shrimpworks.za.net/artefacts/net/shrimpworks/unreal-archive/latest/unreal-archive-latest.zip -o unreal-archive-latest.zip
       - unzip unreal-archive-latest.zip
-      - mv unreal-archive /tmp/ua
-      - ls -al /tmp/ua/
+      - mv unreal-archive/* /tmp/ua/
 #    when:
 #      event:
 #        - pull_request
@@ -32,7 +31,6 @@ steps:
       - name: ua-bin-cache
         path: /tmp/ua/
     commands:
-      - ls -al /tmp/ua/
       - /tmp/ua/bin/unreal-archive summary --content-path=./ --store=NOP
 #    when:
 #      event:
