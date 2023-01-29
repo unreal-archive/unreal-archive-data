@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-01-28 16:21"
+game: "Unreal Tournament"
+name: "CTF-BoM-CommandCenterV1"
+author: ")BoM(X-Cellerator"
+description: "Welcome to the )BoM( Command Center"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bom-commandcenterv1_shot_5fe193ae_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/5/f/e193ae/ctf-bom-commandcenterv1_shot_5fe193ae_2.png"
+- type: "IMAGE"
+  name: "ctf-bom-commandcenterv1_shot_5fe193ae_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/5/f/e193ae/ctf-bom-commandcenterv1_shot_5fe193ae_1.png"
+originalFilename: "CTF-BoM-CommandCenterV1.zip"
+hash: "5fe193ae81ef9e0852d8158a509cc2254cd1e7cf"
+fileSize: 11689183
+files:
+- name: "IronMaidenFearOfTheDark2.umx"
+  fileSize: 5969163
+  hash: "b3aa68cc08bb40a79f625f08c24ce22fac487a92"
+- name: "bom-Command-Center.utx"
+  fileSize: 10355123
+  hash: "4e8b885fbb55cf00ea28385e0bc63b3e074838de"
+- name: "CTF-BoM-CommandCenterV1.unr"
+  fileSize: 4708645
+  hash: "14d6e0e4368616a7de22b6b0d33588af6900a869"
+otherFiles: 2
+dependencies:
+  CTF-BoM-CommandCenterV1.unr:
+  - status: "OK"
+    name: "IronMaidenFearOfTheDark2"
+  - status: "OK"
+    name: "bom-Command-Center"
+  - status: "MISSING"
+    name: "chaossounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Capture%20The%20Flag/B/5/f/e193ae/CTF-BoM-CommandCenterV1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "BoM-CommandCenter"
+playerCount: "6-20"
+themes:
+  Industrial: 0.4
+  Ancient: 0.5
+bots: true
