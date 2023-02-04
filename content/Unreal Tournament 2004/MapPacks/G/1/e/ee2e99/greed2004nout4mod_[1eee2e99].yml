@@ -1,0 +1,62 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-04 08:01"
+game: "Unreal Tournament 2004"
+name: "Greed2004NoUt4mod"
+author: "Mysterial"
+description: "None"
+releaseDate: "2023-02"
+attachments:
+- type: "IMAGE"
+  name: "greed2004nout4mod_shot_1eee2e99_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/MapPacks/G/1/e/ee2e99/greed2004nout4mod_shot_1eee2e99_1.png"
+originalFilename: "Greed2004NoUt4mod.zip"
+hash: "1eee2e99477b0c0f920a1c304d25a77081f25cbb"
+fileSize: 1497365
+files:
+- name: "GreedStatics.usx"
+  fileSize: 245278
+  hash: "b7227e31b99530f03cd2e5949405b12b18695c79"
+- name: "DM-Greed-Arena.ut2"
+  fileSize: 1484515
+  hash: "3ca5fa8e5cc35f63a6cbcd88b3362f9d5e9200a1"
+- name: "Greed.u"
+  fileSize: 379670
+  hash: "016262b4ef0c85f8545e6204dfc5409f3a28a436"
+- name: "GreedTex.utx"
+  fileSize: 1990517
+  hash: "021aa43fac3185dc3525c8afe674a11b9d4b4531"
+- name: "GreedSounds.uax"
+  fileSize: 138734
+  hash: "731296c00932829cded0e7edf829c3cbbb06d69f"
+otherFiles: 3
+dependencies:
+  Greed.u:
+  - status: "OK"
+    name: "GreedStatics"
+  - status: "OK"
+    name: "GreedTex"
+  - status: "OK"
+    name: "GreedSounds"
+  GreedStatics.usx:
+  - status: "OK"
+    name: "GreedTex"
+  DM-Greed-Arena.ut2:
+  - status: "OK"
+    name: "Greed"
+  - status: "OK"
+    name: "GreedStatics"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/MapPacks/G/1/e/ee2e99/Greed2004NoUt4mod.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Greed-Arena"
+  title: "The Arena"
+  author: "Mysterial"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0
