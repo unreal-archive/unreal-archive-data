@@ -1,0 +1,38 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:11"
+game: "Unreal Tournament 3"
+name: "BattleMOD"
+author: "Nico de Vries"
+description: "BattleMOD allows you to confiure UT3 in many ways"
+releaseDate: "2007-11"
+attachments: []
+originalFilename: "BattleMOD_V4.1.zip"
+hash: "7369a995939d3467c8c2473b4d6cf81729dd34d6"
+fileSize: 265192
+files:
+- name: "UI_Scenes_Scoreboards_BM.upk"
+  fileSize: 449626
+  hash: "69669387437d844bbbe4d7b735a6672c1b6e5cb0"
+- name: "BattleMOD.u"
+  fileSize: 49115
+  hash: "396ad99a3a7262e8871c1168a19f627c61a94c51"
+otherFiles: 3
+dependencies:
+  BattleMOD.u:
+  - status: "OK"
+    name: "UI_Scenes_Scoreboards_BM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/B/7/3/69a995/BattleMOD_V4.1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BattleMOD"
+  description: "BattleMOD allows you to confiure UT3 in many ways"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
