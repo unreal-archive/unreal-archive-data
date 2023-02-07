@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:51"
+game: "Unreal Tournament 3"
+name: "Thor Lightning Gun"
+author: "Unknown"
+description: ""
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "thor-lightning-gun.zip"
+hash: "33dec027628aa087af136dca50201aebeafcc57f"
+fileSize: 11104230
+files:
+- name: "FX_RSStdEffects1.upk"
+  fileSize: 1997306
+  hash: "ea3aa18fead8a70e47fd5cdc60feb392902a2bb9"
+- name: "WP_RSLightninggun.upk"
+  fileSize: 13998769
+  hash: "ab2b22ddf29ce920dd4c4eb3dfb378c3bd10aeaf"
+- name: "UTRSLightninggun.u"
+  fileSize: 145982
+  hash: "f16ca59ca61ba6b0ccf8bea8dc5e78aa7794840d"
+otherFiles: 3
+dependencies:
+  UTRSLightninggun.u:
+  - status: "OK"
+    name: "WP_RSLightninggun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/T/3/3/dec027/thor-lightning-gun.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Thor Lightning Gun"
+  description: ""
+weapons:
+- name: "Thor Lightning Gun"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
