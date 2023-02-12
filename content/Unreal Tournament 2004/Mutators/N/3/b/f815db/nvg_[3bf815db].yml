@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 10:27"
+game: "Unreal Tournament 2004"
+name: "NVG"
+author: "Unknown"
+description: "Night Vision Goggles, bind key before using!"
+releaseDate: "2004-04"
+attachments: []
+originalFilename: "Eck_NVG.zip"
+hash: "3bf815db03f3b0ae4b4ba2c193b59d03ab1846ff"
+fileSize: 4879
+files:
+- name: "NVG_Tex.utx"
+  fileSize: 352
+  hash: "bc19a94ad9c60cd66ecd517b354cb675df79e0d2"
+- name: "Eck_NVG.u"
+  fileSize: 7189
+  hash: "c338c40033162f19a9b335e691d6adc81cc73d9f"
+otherFiles: 3
+dependencies:
+  Eck_NVG.u:
+  - status: "OK"
+    name: "NVG_Tex"
+  NVG_Tex.utx:
+  - status: "MISSING"
+    name: "TDWeapTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/N/3/b/f815db/Eck_NVG.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "NVG"
+  description: "Night Vision Goggles, bind key before using!"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
