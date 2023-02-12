@@ -1,0 +1,191 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 09:48"
+game: "Unreal Tournament 2004"
+name: "FD LR Weapons V1 2"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "fd-lr-weapons-v1-2_shot_5113c2f1_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/F/5/1/13c2f1/fd-lr-weapons-v1-2_shot_5113c2f1_1.png"
+originalFilename: "FD-LR Weapons v1.2.rar"
+hash: "5113c2f1cea18478e9263fbb1adfe1add38e7a60"
+fileSize: 39968
+files:
+- name: "LRMinigun.u"
+  fileSize: 8142
+  hash: "7c337ce0669ba47004b69ce228b7c1ae44e25f18"
+- name: "FDLinkGun.u"
+  fileSize: 13813
+  hash: "bc6c495ae19a916d97f8b0eaf793da437efa83d2"
+- name: "LRRedeemer.u"
+  fileSize: 10080
+  hash: "4753be94a363fa30baba76e42d318e69fbfcfead"
+- name: "LRFlakCannon.u"
+  fileSize: 11177
+  hash: "dd2332a29039408124dc252ec3ee518856885f41"
+- name: "FD-LR Weapons v1.2.ut4mod"
+  fileSize: 151889
+  hash: "b9d1564fbc07a052951d02aae47eef4defb064d8"
+- name: "FDSniper.u"
+  fileSize: 12057
+  hash: "a1effa0cd69b80582802afc338ac694cde31be4e"
+- name: "LRRocketLauncher.u"
+  fileSize: 12372
+  hash: "2f4796581212b712957c715b44f4ce061a9467a2"
+- name: "FDShockRifle.u"
+  fileSize: 13628
+  hash: "db9cf1d5b7fc362b055257040613170375534160"
+- name: "FDLaserSniper.u"
+  fileSize: 9848
+  hash: "d920a0d6c88dbec868623f7c894e142282087617"
+- name: "FDLRWeapons.u"
+  fileSize: 8251
+  hash: "a03d3d24cd905e39ea148c093515c007ef2fe3c1"
+otherFiles: 11
+dependencies:
+  FDLRWeapons.u:
+  - status: "OK"
+    name: "FDShockRifle"
+  - status: "OK"
+    name: "FDLinkGun"
+  - status: "OK"
+    name: "FDLaserSniper"
+  - status: "OK"
+    name: "LRFlakCannon"
+  - status: "OK"
+    name: "LRRocketLauncher"
+  - status: "OK"
+    name: "FDSniper"
+  - status: "OK"
+    name: "LRRedeemer"
+  - status: "OK"
+    name: "LRMinigun"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/5/1/13c2f1/FD-LR%20Weapons%20v1.2.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Flying Destroyer Sniper Rifle"
+  description: "Ersetzt das Classic Sniper Rifle durch das Flying Destroyer Sniper\
+    \ Rifle!"
+- name: "Flying Destroyer Link Gun"
+  description: "Ersetzt die Link Gun durch die Flying Destroyer Link Gun!"
+- name: "FD/LR Weapons"
+  description: "Ersetzt einige Waffe durch ihre vom Flying Destroyer oder Landraider\
+    \ modifizierten Gegenstücke."
+- name: "Landraider Rocket Launcher"
+  description: "Ersetzt den Rocket Launcher durch den Landraider Rocket Launcher!"
+- name: "Flying Destroyer Laser Sniper Rifle"
+  description: "Ersetzt die Lightning Gun durch das Flying Destroyer Laser Sniper!"
+- name: "Landraider Flak Cannon"
+  description: "Ersetzt die Flak Cannon durch die Landraider Flak Cannon!"
+- name: "Flying Destroyer Shock Rifle"
+  description: "Ersetzt das Shock Rifle durch das Flying Destroyer Shock Rifle!"
+- name: "Landraider Redeemer"
+  description: "Ersetzt den Redeemer durch den Landraider Redeemer!"
+- name: "Landraider Minigun"
+  description: "Ersetzt die Minigun durch die Landraider Minigun!"
+weapons:
+- name: "Flying Destroyer Sniper Rifle"
+  description: "Dieses Sniper Rifle wurde vom Flying Destroyer höchstpersönlich konstruiert.\
+    \ Da es einem Kämpfer im Feuergefecht oft an Zeit fehlt, verschießt das Flying\
+    \ Destroyer Sniper Rifle seine Projektile mit MG-Frequenz und einer deutlich geringeren\
+    \ Schadenswirkung! Was allerdings bleibt, ist die Chance auf einen Sofort-Kill\
+    \ per Kopfschuss und auf diesem Gebiet eignet sich keine Waffe besser als das\
+    \ Flying Destroyer Sniper Rifle. Die speziellen titanummantelten Projektile verhindern\
+    \ außerdem eine Rauchentwicklung beim Abschuss, sodass man ungestört feuern kann,\
+    \ bis keine Munition mehr vorhanden ist. Bis dahin sollte man allerdings genü\
+    gend Feinde im wahrsten Sinne des Wortes zerschlagen haben!"
+- name: "Flying Destroyer Link Gun"
+  description: "FDWeaponTech kontruierte diese Waffe zur Terminierung feindlicher\
+    \ Lebensformen ohne die eigene Gefährdung. Die Flying Destroyer Link Gun verwendet\
+    \ spezielle Elementarplasmazellen, um 2 Laserstrahlen verwenden zu können: Primä\
+    r wird ein supererhitzter Thermolaser abgefeuert, der extremen Schaden anrichtet,\
+    \ aber nur auf kurze Distanz zu gebrauchen ist. Sekundär verschießt diese Link-Gun-Modifikation\
+    \ einen Vakuum-Strahl, der auf eine stark erweiterte Distanz getroffene Feinde\
+    \ bei keinerlei Schadenswirkung an sich heranzieht. Durch strategisches Wechseln\
+    \ zwischen beiden Feuermodi kann man jeden Gegner perfekt erledigen, problematisch\
+    \ wird es allerdings, wenn man mehreren Gegnern gleichzeitig gegenübersteht. In\
+    \ diesem Fall sollte man sich besser für eine andere Waffe entscheiden, in einem\
+    \ 1on1-Duell ist die Flying Destroyer Link Gun allerdings erste Wahl!"
+- name: "Landraider Rocket Launcher"
+  description: "Nachdem der Landraider eine wichtige Schlacht verloren hatte, weil\
+    \ der Flying Destroyer mit einer überragenden Luftwaffe antrat, ließ er diese\
+    \ Waffe konstruieren. Der Landraider Rocket Launcher verschießt wasserstoffgetriebene\
+    \ Raketen, die große Geschwindigkeiten erreichen können, und feindliche Ziele\
+    \ im Falle eines Treffers weit über das Kampffeld schleudern. Eine weitere Änderung\
+    \ erfuhr der Sekundärmodus der Waffe: Der Ladevorgang geht unglaublich schnell\
+    \ von statten und man kann den Gegner mit dieser Waffe in einer regelrechten Raketenflut\
+    \ ersticken lassen. Das einzige Problem: Da die Wasserstoffraketen das ganze Schlachtfeld\
+    \ zerfetzen würde, wenn sie richtig explodieren würden, entschied man sich dafü\
+    r, diese Raketen weniger explosiv zu machen, was Schaden und Gebietseffekt etwas\
+    \ senkt. Diese Waffenmodifikation erfasst außerdem feindliche Ziele mit doppelter\
+    \ Geschwindigkeit. Eine durch und durch gelungene Waffe, die besonders bei sehr\
+    \ beweglichen Feinden sinnvoll ist!"
+- name: "Flying Destroyer Laser Sniper"
+  description: "Aufgrund der Sympathie des Flying Destroyers für das Shock Rifle ließ\
+    \ er von FDWeaponTech das Flying Destroyer Laser Sniper konstruieren. Diese Waffe\
+    \ ist eine Symbiose aus Lightning Gun und Shock Rifle. Sie kann zwar keine Kopfschü\
+    sse ausführen, allerdings wurde die Durchschlagskraft der Waffe deutlich erhö\
+    ht, zusätzlich wurde auch die Schlagkraft gesteigert, sodass getroffene Gegner\
+    \ weit zurückgeschleudert werden. Dieses Mordwerkzeug eignet sich für jeden, der\
+    \ mit einem normalen Sniper Rifle nicht umgehen kann, da ein Kopfschuss hierbei\
+    \ für einen Kill nicht zwingend nötig ist."
+- name: "Landraider Flak Cannon"
+  description: "Die Flak Cannon, die schon immer zu den besonderen Lieblingswaffen\
+    \ des Landraiders gehörte, wurde im Zuge des Krieges mit dem Flying Destroyer\
+    \ als erste Waffe aus dem Tournament im 'echten Leben' verwendet, allerdings erst,\
+    \ nachdem sie in einige Bereichen verbessert wurde: Die ionisierten Projektile\
+    \ werden nun neben dem allseits bekannten, weit gestreuten Schuss (welcher nur\
+    \ geringfügig in Sachen Abschusswinkel modifiziert wurde) auch in hoher Frequenz\
+    \ abgefeuert. Diese Technologie wurde durch ein spezielles Elektronen-Ladesystem\
+    \ ermöglicht, dass eine normale Flak-Ladung jederzeit in ihre Einzelteile zerlegen\
+    \ kann. Durch die entstehenden Abstoßkräfte werden alle Projektile mit SEHR kurzem\
+    \ Intervall aus dem Abschussrohr geschleudert, sodass eine unglaubliche Distanzwirkung\
+    \ erzielt werden kann. Allerdings sind diese aufgeteilten Flak-Ladungen etwas\
+    \ ungenau und richten auch nicht so viel Schaden an. Dennoch ist die Landraider\
+    \ Flak Cannon eine tödliche waffe, die, richtig eingesetzt zu einem Unbesiegbarkeitsstatus\
+    \ führt!"
+- name: "Flying Destroyer Shock Rifle"
+  description: "FDWeaponTech entwickelte im Auftrag vom Flying Destroyer diese hochleistungs\
+    \ Shock Rifle. Sie verschießt anstatt der standardmäßigen Schock-Strahlen gebü\
+    ndelte Wärmestrahlen, die den Gegner nur schwach schädigen und kaum zurückwerfen.\
+    \ Dies kann man jedoch nur behaupten, wenn diese Strahlen in Maßen auftreten.\
+    \ Bei 5 Schuss pro Sekunde und einer Munitionskapazität von insgesamt 200 Schuss\
+    \ ist diese Tatsache noch einmal zu belegen. Der Sekundärmodus der ShockRifle\
+    \ erhielt ebenfalls eine andere Funktion: Anstatt des Schock-Kerns wird eine in\
+    \ eine Rakete eingelassene Vakuum-Ionenladung verschossen, die im Ionenpainter-Stil\
+    \ alles auslöscht, was ihr zu nahe kommt. Der Munitionsverbrauch ist allerdings\
+    \ extrem hoch, will heißen, um diesen Schlag auszulösen wird die gesamte Muntion\
+    \ (200 Schuss) in die Rakete gepumpt, so entsteht der tödliche Effekt, allerdings\
+    \ wird das Flying Destroyer Shock Rifle danach unbrauchbar. Daher sollte dieser\
+    \ Schuss nur in Extremsituationen verwendet werden. Alles in allem ist das Flying\
+    \ Destroyer Shock Rifle ein Mordinstrument erster Güte."
+- name: "Landraider Redeemer"
+  description: "Name: Landraider Redeemer|Funktion: Vollständige Auslöschung aller\
+    \ Gegner||Mehr ist über diese Geheimwaffe des Landraiders, die auch als 'Feuerregenbringer'\
+    \ bezeichnet wird, nicht bekannt! Man weiß nur, dass sie den absoluten Höhepunkt\
+    \ der destruktiven Energie des Landraider darstellt!"
+- name: "Landraider Minigun"
+  description: "Unter allen Landraider-Waffen ist die Minigun die einzige, die hauptsä\
+    chlich als Hochfrequenzgeschütz mit großer Munitionskapazität fungiert! Sie verwendet\
+    \ einen Massebeschleuniger um spezielle Aluminiumprojektile auf hohe Geschwindigkeiten\
+    \ zu bringen. So können die Kugeln ihr Ziel nicht verfehlen und treffen mit 100%\
+    \ Genauigkeit, allerdings richten sie aufgrund ihres leichten Materials weniger\
+    \ Schaden an. Beim Sekundärfeuermodus ist das anders: Hierbei werden die Massebeschleuniger\
+    \ überladen, sodass gewaltige Energien freiwerden, die so ziemlich alles in Sekundeschnelle\
+    \ zerlegen können. Durch zusätzliche Überladungsenergien, richten die Projektile\
+    \ bei Fahrzeugen sogar doppelten Schaden an. Nur: Das Überladen der Massebeschleuniger\
+    \ dauert seine Zeit und und verbraucht mehr Munition wie ein normaler Schuss,\
+    \ daher sollte dieser Modus nur im Notfall verwendet werden! Dennoch eignet sich\
+    \ die Landraider-Minigun hervorragend, um feindliche Infantrie im wahrsten Sinne\
+    \ des Wortes 'wegzupusten'!"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

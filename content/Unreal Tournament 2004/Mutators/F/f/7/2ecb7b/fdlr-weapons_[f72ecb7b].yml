@@ -1,0 +1,64 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 09:48"
+game: "Unreal Tournament 2004"
+name: "FD/LR Weapons"
+author: "Unknown"
+description: "Ersetzt einige Waffe durch ihre vom Flying Destroyer oder Landraider\
+  \ modifizierten Gegenstücke."
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "fdlr-weapons_shot_f72ecb7b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/F/f/7/2ecb7b/fdlr-weapons_shot_f72ecb7b_1.png"
+originalFilename: "FDLRWeapons.rar"
+hash: "f72ecb7b004f5ede1d98b7a1d979d6df735c7e2f"
+fileSize: 30794
+files:
+- name: "LRMinigun.u"
+  fileSize: 8148
+  hash: "a636a6665991f56776df31b1065b7bae77c87591"
+- name: "FD-LR Weapons.ut4mod"
+  fileSize: 97372
+  hash: "6ff86c3b985e84b36990ba0490119c61426380a7"
+- name: "FDLinkGun.u"
+  fileSize: 13819
+  hash: "9b4d7a6129c2c805134588bc8ad92d81ec40ec36"
+- name: "FDShockRifle.u"
+  fileSize: 13634
+  hash: "844ab99523f16353e27e139f941626d6e49e2cb5"
+- name: "LRFlakCannon.u"
+  fileSize: 11183
+  hash: "55e0ed6a2608d0e12083d622f6241249bf1f20dd"
+- name: "FDLRWeapons.u"
+  fileSize: 5165
+  hash: "c9cfa085609542c04e12dfdf63737a817cd06db3"
+- name: "FDSniper.u"
+  fileSize: 12063
+  hash: "4b161af66aa142d9ed51ea6eb7770435d78cfc24"
+otherFiles: 3
+dependencies:
+  FDLRWeapons.u:
+  - status: "OK"
+    name: "FDShockRifle"
+  - status: "OK"
+    name: "FDLinkGun"
+  - status: "OK"
+    name: "FDSniper"
+  - status: "OK"
+    name: "LRFlakCannon"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/F/f/7/2ecb7b/FDLRWeapons.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "FD/LR Weapons"
+  description: "Ersetzt einige Waffe durch ihre vom Flying Destroyer oder Landraider\
+    \ modifizierten Gegenstücke."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
