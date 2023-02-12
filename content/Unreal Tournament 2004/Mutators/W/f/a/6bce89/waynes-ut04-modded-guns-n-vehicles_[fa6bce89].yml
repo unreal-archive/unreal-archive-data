@@ -1,0 +1,178 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-06 15:55"
+game: "Unreal Tournament 2004"
+name: "Wayne's Ut04 Modded Guns n Vehicles"
+author: "Unknown"
+description: "None"
+releaseDate: "2007-08"
+attachments: []
+originalFilename: "Wayne's ut04 modded guns n vehicles.zip"
+hash: "fa6bce89288480880f4a9b568700cf14773af5d4"
+fileSize: 30403721
+files:
+- name: "Insta.u"
+  fileSize: 1762
+  hash: "fec61a0b11e7ea204f1529f52161f7bb487ca3a0"
+- name: "ERL.u"
+  fileSize: 8535
+  hash: "85ed74cbb046931aefcf1d626e5d6be4b785c5f3"
+- name: "JetPackMesh.ukx"
+  fileSize: 5770959
+  hash: "2c29ba1b55cc014a3cc82a5da414776b73ce5c07"
+- name: "FlakRifle.u"
+  fileSize: 14370
+  hash: "cab2715822267b88fd9151a77a689a03a3479230"
+- name: "OMFG.u"
+  fileSize: 287080
+  hash: "c31ad3d0e41c6effe16c10fb26a38d356cf966b2"
+- name: "RSIcons.utx"
+  fileSize: 220223
+  hash: "533ccc450e43c0b971bc0223124c0f5dabc1cca4"
+- name: "MyMini.u"
+  fileSize: 3732
+  hash: "bf9104ba3ce403aab8a832ef79f2080ed0172e60"
+- name: "Jetpack.u"
+  fileSize: 51107
+  hash: "3d180ba87e0afb749b71dc0bb8ffdcda8ed18d28"
+- name: "Remote_strike.u"
+  fileSize: 242788
+  hash: "a89428ef8395afb183c3fa7f86ccf4e379d261f3"
+- name: "JetpackTextures.utx"
+  fileSize: 51256
+  hash: "d532aa9be84b27c15e35ed4333a574d5a3e5ec1d"
+- name: "JetpackSM.usx"
+  fileSize: 7091247
+  hash: "c0fb3582ea5e1173bc3a51733b1599e08474b70e"
+- name: "SuperHealth.u"
+  fileSize: 2412
+  hash: "5f2cfc812967c1390d22ad9eebc67b5c40517b51"
+- name: "WoRMlite.u"
+  fileSize: 13331
+  hash: "e1a30a62ce7cf31b86f07768a07f7956e2407e32"
+- name: "Remotetextures.utx"
+  fileSize: 14533698
+  hash: "fdd7e6ca3678a377f0d280f4bb0e7380f75a358c"
+- name: "GSR.u"
+  fileSize: 3811
+  hash: "ad0d61a0ec3e4cb97e4a6f6f0a5d0e3f52dd6b5d"
+- name: "Remote_static.usx"
+  fileSize: 11546173
+  hash: "02d3b67e35a7b2e923fa014acfa9210a9f053c4c"
+- name: "RemoteWeapons.ukx"
+  fileSize: 16662473
+  hash: "3060aa0b63f61088ea3941d81abd5d2cdceb49fd"
+- name: "MST.u"
+  fileSize: 36216
+  hash: "dc1e4193b9ad223275ffa0eb2f1e6bf491e97530"
+- name: "Comm.uax"
+  fileSize: 7216541
+  hash: "9749c1ab8e3cb8a8e0efdbf5203fb820ac716113"
+- name: "OMFG.u"
+  fileSize: 284661
+  hash: "d90757755b158fa7680f615b1506ff34439e3581"
+otherFiles: 13
+dependencies:
+  MST.u:
+  - status: "OK"
+    name: "Remote_strike"
+  GSR.u:
+  - status: "OK"
+    name: "OMFG"
+  - status: "OK"
+    name: "Remote_strike"
+  MyMini.u:
+  - status: "OK"
+    name: "OMFG"
+  Remote_strike.u:
+  - status: "OK"
+    name: "Comm"
+  - status: "OK"
+    name: "RSIcons"
+  - status: "OK"
+    name: "Remotetextures"
+  - status: "OK"
+    name: "RemoteWeapons"
+  - status: "OK"
+    name: "WoRMlite"
+  - status: "OK"
+    name: "Remote_static"
+  Remote_static.usx:
+  - status: "OK"
+    name: "Remotetextures"
+  RemoteWeapons.ukx:
+  - status: "OK"
+    name: "Remotetextures"
+  Jetpack.u:
+  - status: "OK"
+    name: "JetPackMesh"
+  - status: "OK"
+    name: "JetpackSM"
+  - status: "OK"
+    name: "JetpackTextures"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/W/f/a/6bce89/Wayne's%20ut04%20modded%20guns%20n%20vehicles.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Jetpack"
+  description: "Gives players a jetpack to fly around with."
+- name: "Remote Strike v7 ut2004 mutator"
+  description: "Replace the standard UT2004 weapons with Remote Strike weapons v7\
+    \ UT2004"
+weapons:
+- name: "Drevin 9mm Silenced SMG"
+  description: "Drevin 9mm Silenced SMG"
+- name: "RemoteStrikeWeapon"
+  description: "RemoteStrikeWeapon"
+- name: "15mm Caseless auto Pistol"
+  description: "15MM Caseless Auto Pistol: A semi auto pistol firing a caseless 15\
+    \ mm round which causes alot of damage, primary fire allows you to fire as fast\
+    \ as you want but has lower damage than secondary fire which is aimed and has\
+    \ hollow tip bullets causing more damage."
+- name: "Nexus Assault Rifle"
+  description: "Nexus Assault Rifle: Standard Army issue Assault rifle firing bullets\
+    \ and alt fire grenades, primary fire however is very effective and it fires large\
+    \ rounds."
+- name: "Heavy 80mm Company Mortar"
+  description: "Heavy Company mortar : 60mm rounds rainign down on your opponenets\
+    \ bases , secondary fire lands mines into the area which explode after a certain\
+    \ time."
+- name: "MG Heavy Machine Gun"
+  description: "Heavy MG2 Machine Gun : Rapid Fire auto machine gun, it causes heavy\
+    \ damage in both modes but alt fire is slower firing due to a heavier round being\
+    \ fired causing more damage than primary fire."
+- name: "LR2 Heavy Sniper Rifle 60mm"
+  description: "LR2 Heavy Sniper Rifle : The Heavy Boy of the Remote Strike Weapons\
+    \ Mod : Capable of 1 shot 1 kill at extreme ranges its disadvantage is a slow\
+    \ fire rate and small clip."
+- name: "105mm Howitzer"
+  description: "105mm Howitzer : A personal Artillery piece Prmiary fires a SHRAPNEL\
+    \ shell which bursts on impact throwing 5-6 grenades into the area into which\
+    \ it has just impacted causing even more problems for soldiers in the area. Secondary\
+    \ fire fires a cloud of 5 mini shells into a wide area, excellent for base defence. "
+- name: "KRUPPS Heavy Support Weapon"
+  description: "Heavy Support Weapon"
+- name: "Gauss Heavy Hunting Rifle"
+  description: "Gauss .100 Heavy Rifle : An odditiy in that this was desinged to shoot\
+    \ alien lifeforms when terra forming new planets, Primary fire is a heavy uranium\
+    \ slug that travels slowly but has enormous damage and secondary fire is a BAYONET."
+- name: "Defender camouflaged 500 Shotgun"
+  description: "Defender 500(camouflage. Semi Auto Pump Shotgun Primary fire fires\
+    \ 9 pellets into a target, alt fore which costs more ammunition fires 20 pellets\
+    \ in a much larger spread pattern and causes more damage per pellet."
+- name: "Defender Black 500 Shotgun"
+  description: "Defender 500(black) A fast firing AUTO shotgun capable of clearing\
+    \ an area within seconds, alt fire has a torch so you can see in the dark."
+- name: "Bofors SMG 10mm"
+  description: "Bofors 10mm Light SUBMG : An insane close to medium range SMG,Primary\
+    \ fire sprays your target with fire whilst alt fire has a sneaky silenced fire\
+    \ ;)"
+- name: "Enhanced Rocket Launcher"
+  description: "Enhanced Rocket Launcher."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
