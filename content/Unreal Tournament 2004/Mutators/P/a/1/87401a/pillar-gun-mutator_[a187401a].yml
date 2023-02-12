@@ -1,0 +1,59 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 00:24"
+variationOf: "66b7c64d914e6b70bac4949b914f384fa57a377b"
+game: "Unreal Tournament 2004"
+name: "Pillar Gun Mutator"
+author: "Unknown"
+description: "Replaces the shock rifle with the Pi||ar Gun!"
+releaseDate: "2006-06"
+attachments:
+- type: "IMAGE"
+  name: "pillar-gun-mutator_shot_a187401a_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/P/a/1/87401a/pillar-gun-mutator_shot_a187401a_1.png"
+- type: "IMAGE"
+  name: "pillar-gun-mutator_shot_a187401a_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/P/a/1/87401a/pillar-gun-mutator_shot_a187401a_2.png"
+- type: "IMAGE"
+  name: "pillar-gun-mutator_shot_a187401a_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/P/a/1/87401a/pillar-gun-mutator_shot_a187401a_4.png"
+- type: "IMAGE"
+  name: "pillar-gun-mutator_shot_a187401a_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/P/a/1/87401a/pillar-gun-mutator_shot_a187401a_3.png"
+originalFilename: "PillarGunMutatorV1.2.zip"
+hash: "a187401a5318815413f1b3f7516279fb0e74993e"
+fileSize: 1081748
+files:
+- name: "PillarGun.u"
+  fileSize: 10632
+  hash: "066ea2fec55c8f134fe2623e48040bb5d8715e12"
+- name: "LumberTex.utx"
+  fileSize: 1398682
+  hash: "a3a9fee4fb32eb2f9569b7570e345b03846249f1"
+- name: "DeadMetal.usx"
+  fileSize: 736813
+  hash: "b85c7f43b17860186cfab3339a13dfd4b75d30a3"
+otherFiles: 6
+dependencies:
+  PillarGun.u:
+  - status: "OK"
+    name: "DeadMetal"
+  DeadMetal.usx:
+  - status: "OK"
+    name: "LumberTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/a/1/87401a/PillarGunMutatorV1.2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Pillar Gun Mutator"
+  description: "Replaces the shock rifle with the Pi||ar Gun!"
+weapons:
+- name: "Pillar Gun"
+  description: "The Pillar Gun !"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
