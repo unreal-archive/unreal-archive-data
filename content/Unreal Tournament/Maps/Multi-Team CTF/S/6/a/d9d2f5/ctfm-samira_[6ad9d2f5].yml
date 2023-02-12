@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-04 16:26"
+game: "Unreal Tournament"
+name: "CTFM-Samira"
+author: "Bryan 'Koolflux' Owen"
+description: "None"
+releaseDate: "2020-03"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-samira_shot_6ad9d2f5_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/6/a/d9d2f5/ctfm-samira_shot_6ad9d2f5_1.png"
+originalFilename: "CTFM-Samira.zip"
+hash: "6ad9d2f5a4e004f91b14798a1d8087b572f7a3eb"
+fileSize: 3633324
+files:
+- name: "CTFM-Samira.unr"
+  fileSize: 4243152
+  hash: "b6bcc535bf9ee462cbebf8ccf57e4fc3bfcd2722"
+- name: "CTF4Team.utx"
+  fileSize: 2181759
+  hash: "23eb1eb571515c4b945d996084e2c1f163f8182c"
+- name: "dream_tear_down.umx"
+  fileSize: 943181
+  hash: "6c78288beaaaf3d6d4c56a06720554917ff5ce87"
+otherFiles: 1
+dependencies:
+  CTFM-Samira.unr:
+  - status: "OK"
+    name: "dream_tear_down"
+  - status: "OK"
+    name: "CTF4Team"
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Multi-Team%20CTF/S/6/a/d9d2f5/CTFM-Samira.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Tomb of Samira"
+playerCount: "Ideal for 8 to 12"
+themes:
+  Nali Temple: 0.3
+  Egyptian: 0.6
+bots: true
