@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-06 15:40"
+game: "Unreal Tournament 2004"
+name: "XR76-Mut"
+author: "PheonixEclipse"
+description: "Enables the XR-76 to replace the HellBender.| Enjoy! || Model by PhoenixEclipse.\
+  \ | Code and sucky skin by Ghost3021."
+releaseDate: "2005-01"
+attachments: []
+originalFilename: "XR-76-Beta2.zip"
+hash: "7d65468e72bdad14472d319e5b16a8685d21d9db"
+fileSize: 414432
+files:
+- name: "XR76Mesh.ukx"
+  fileSize: 273871
+  hash: "f5ac5dc9a07a0375b73eea0d950ba4f2f4e1924e"
+- name: "XR76Tex.utx"
+  fileSize: 712034
+  hash: "dec005c182201fd1f8ccb178094c244fdf0ba4e7"
+- name: "XR76SCript.u"
+  fileSize: 24544
+  hash: "b3e21ba8f343c86e97dab954ac65745bc7aba692"
+- name: "XR76staticrefer.usx"
+  fileSize: 111094
+  hash: "422a827f352a85be735058e91f0644da13af8fb1"
+otherFiles: 3
+dependencies:
+  XR76SCript.u:
+  - status: "OK"
+    name: "XR76Mesh"
+  - status: "OK"
+    name: "XR76Tex"
+  - status: "OK"
+    name: "XR76staticrefer"
+  XR76Mesh.ukx:
+  - status: "OK"
+    name: "XR76Tex"
+  - status: "OK"
+    name: "XR76staticrefer"
+  XR76staticrefer.usx:
+  - status: "OK"
+    name: "XR76Tex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/X/7/d/65468e/XR-76-Beta2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "XR76-Mut"
+  description: "Enables the XR-76 to replace the HellBender.| Enjoy! || Model by PhoenixEclipse.\
+    \ | Code and sucky skin by Ghost3021."
+weapons: []
+vehicles:
+- name: "Passenger"
+  description: "Passenger"
+- name: "XR-76"
+  description: "XR-76"
+hasConfigMenu: false
+hasKeybinds: false

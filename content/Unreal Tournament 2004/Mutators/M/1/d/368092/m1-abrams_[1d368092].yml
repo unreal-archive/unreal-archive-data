@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 03:03"
+game: "Unreal Tournament 2004"
+name: "M1 Abrams"
+author: "Unknown"
+description: "Replaces the Goliath with the M1 Abrams"
+releaseDate: "2005-05"
+attachments: []
+originalFilename: "M1Abrams002.zip"
+hash: "1d368092fb6c9f36a2661558df35599fe3fca7ae"
+fileSize: 2918615
+files:
+- name: "M1Abrams.ukx"
+  fileSize: 922357
+  hash: "19d7370052015cd28be3ec64a023e83abca35e76"
+- name: "M1.u"
+  fileSize: 34715
+  hash: "c0e7520f5d3e00371803d8ab0bd7f69c905a7bd0"
+- name: "MagnumM1Tank_T.utx"
+  fileSize: 8740352
+  hash: "fd7a0dc9305b9a91d3632965daa2a655dad64d6c"
+otherFiles: 2
+dependencies:
+  M1Abrams.ukx:
+  - status: "OK"
+    name: "MagnumM1Tank_T"
+  M1.u:
+  - status: "MISSING"
+    name: "haloscorpion"
+  - status: "OK"
+    name: "M1Abrams"
+  - status: "OK"
+    name: "MagnumM1Tank_T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/1/d/368092/M1Abrams002.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "M1 Abrams"
+  description: "Replaces the Goliath with the M1 Abrams"
+weapons: []
+vehicles:
+- name: "Goliath"
+  description: "Goliath"
+- name: "Goliath"
+  description: "Goliath"
+hasConfigMenu: false
+hasKeybinds: false

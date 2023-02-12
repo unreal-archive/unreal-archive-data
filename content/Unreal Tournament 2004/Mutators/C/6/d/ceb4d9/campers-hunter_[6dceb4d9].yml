@@ -1,0 +1,47 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-06 05:24"
+game: "Unreal Tournament 2004"
+name: "Campers Hunter"
+author: "Unknown"
+description: "There's an agent in the system. He's called <<the Hunter>>. And he doesn't\
+  \ like campers."
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "Anti-Camper 1.0b.zip"
+hash: "6dceb4d949b9e92fffa23b30c29a9cf16262dd0f"
+fileSize: 17619
+files:
+- name: "AntiCamper.u"
+  fileSize: 42733
+  hash: "7347cbb3f0725f9328e4f0689c96425df71ecc9f"
+otherFiles: 2
+dependencies:
+  AntiCamper.u:
+  - status: "MISSING"
+    name: "Smith"
+  - status: "MISSING"
+    name: "smithskins"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/6/d/ceb4d9/Anti-Camper%201.0b.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Campers Hunter"
+  description: "There's an agent in the system. He's called <<the Hunter>>. And he\
+    \ doesn't like campers."
+weapons:
+- name: "Lightning Gun"
+  description: "The Lightning Gun is a high-power energy rifle capable of ablating\
+    \ even the heaviest carapace armor. Acquisition of a target at long range requires\
+    \ a steady hand, but the anti-jitter effect of the optical system reduces the\
+    \ weapon's learning curve significantly. Once the target has been acquired, the\
+    \ operator depresses the trigger, painting a proton 'patch' on the target. Milliseconds\
+    \ later the rifle emits a high voltage arc of electricity, which seeks out the\
+    \ charge differential and annihilates the target."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

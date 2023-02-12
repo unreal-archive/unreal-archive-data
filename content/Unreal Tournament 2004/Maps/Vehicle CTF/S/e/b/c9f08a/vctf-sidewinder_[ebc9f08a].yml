@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-06 16:09"
+game: "Unreal Tournament 2004"
+name: "VCTF-Sidewinder"
+author: "Poenix"
+description: "None"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "vctf-sidewinder.zip"
+hash: "ebc9f08ac28abe9d5fd6ce40986bd35eddb67ca8"
+fileSize: 6200611
+files:
+- name: "Sidewindertextures.utx"
+  fileSize: 4431147
+  hash: "1f585e7907b35009ff26e7f71bd9a5775e46d0f0"
+- name: "sidewinder2textures.utx"
+  fileSize: 7512161
+  hash: "1821ac82963c334caea1b618b7bd6fdaff1b11f9"
+- name: "VCTF-Sidewinder.ut2"
+  fileSize: 2068910
+  hash: "e495e490e6e6c31961354c0de58834331495b928"
+otherFiles: 1
+dependencies:
+  VCTF-Sidewinder.ut2:
+  - status: "OK"
+    name: "sidewinder2textures"
+  - status: "OK"
+    name: "Sidewindertextures"
+  - status: "MISSING"
+    name: "Halo"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/e/b/c9f08a/vctf-sidewinder.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "Sidewinder"
+playerCount: "4-8"
+themes: {}
+bots: true

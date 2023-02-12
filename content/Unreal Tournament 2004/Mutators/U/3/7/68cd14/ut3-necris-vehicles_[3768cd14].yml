@@ -1,0 +1,57 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-06 21:17"
+game: "Unreal Tournament 2004"
+name: "UT3 Necris Vehicles"
+author: "Unknown"
+description: "Replaces UT2004 vehicles with versions similar to their UT3 Necris counterparts."
+releaseDate: "2011-01"
+attachments: []
+originalFilename: "UT3ViperB1.zip"
+hash: "3768cd14ebc70a1559d9a5cb97a346bf91d5de08"
+fileSize: 15782566
+files:
+- name: "UT3Vehicles-SM.usx"
+  fileSize: 1076561
+  hash: "5ad0eed2c7caffacde63a3d2648b4316ab81841b"
+- name: "UT3Vehicles.u"
+  fileSize: 4502849
+  hash: "ecd9472a9cf310d5b22071aef1a9418ec4238b60"
+- name: "UT3VehiclesTex.utx"
+  fileSize: 28841269
+  hash: "aa0025a517f276c2e9beebef057126906bb6b8f6"
+- name: "UT3VehiclesAnims.ukx"
+  fileSize: 2260819
+  hash: "a46823b54c9b88b6893aa1d5440cf5d71c17a25b"
+otherFiles: 2
+dependencies:
+  UT3Vehicles.u:
+  - status: "OK"
+    name: "UT3Vehicles-SM"
+  - status: "OK"
+    name: "UT3VehiclesAnims"
+  - status: "OK"
+    name: "UT3VehiclesTex"
+  UT3Vehicles-SM.usx:
+  - status: "OK"
+    name: "UT3VehiclesTex"
+  UT3VehiclesAnims.ukx:
+  - status: "OK"
+    name: "UT3VehiclesTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/U/3/7/68cd14/UT3ViperB1.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT3 Necris Vehicles"
+  description: "Replaces UT2004 vehicles with versions similar to their UT3 Necris\
+    \ counterparts."
+weapons: []
+vehicles:
+- name: "UT3 Viper"
+  description: "UT3 Viper"
+hasConfigMenu: false
+hasKeybinds: false

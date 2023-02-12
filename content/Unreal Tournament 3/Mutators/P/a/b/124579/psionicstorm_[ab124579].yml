@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-05 18:10"
+variationOf: "22d4e0e16be64ea64e9fd854881eaa3cbc1a9184"
+game: "Unreal Tournament 3"
+name: "PsionicStorm"
+author: "te RAM"
+description: "None"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "PsionicStorm.zip"
+hash: "ab124579ef7e226857398bd1cec7a2ac418ef825"
+fileSize: 8881372
+files:
+- name: "ImpactExtensionPackage.upk"
+  fileSize: 1871660
+  hash: "706d2098cf7f34971d6f1ef9573ef524a8bf180b"
+- name: "ImpactExtension.u"
+  fileSize: 236051
+  hash: "3dbdf309f2dd51493b219b5fe22828fb480e4729"
+- name: "PsionicStorm.u"
+  fileSize: 467796
+  hash: "7c631761cfecee0a4acc61962eef9d9820b9f300"
+- name: "PsionicStormPackage.upk"
+  fileSize: 1365466
+  hash: "659fd8990d5526ec1f721f3102afb4a40a58d3ab"
+otherFiles: 4
+dependencies:
+  ImpactExtension.u:
+  - status: "OK"
+    name: "ImpactExtensionPackage"
+  PsionicStorm.u:
+  - status: "OK"
+    name: "ImpactExtension"
+  - status: "OK"
+    name: "ImpactExtensionPackage"
+  - status: "OK"
+    name: "PsionicStormPackage"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/P/a/b/124579/PsionicStorm.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Radar"
+  description: "Places on the radar on the HUD for more intense fragging"
+- name: "Psionic Storm"
+  description: "Recently discovered technology allows for grafting of specialised\
+    \ nano-particles to the brain, unlocking vast stores of untapped potential.  Potential\
+    \ for destruction."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

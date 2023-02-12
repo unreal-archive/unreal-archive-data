@@ -1,0 +1,76 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 00:24"
+game: "Unreal Tournament 2004"
+name: "Porkmaniipackage"
+author: "using the"
+description: "None"
+releaseDate: "2006-12"
+attachments:
+- type: "IMAGE"
+  name: "porkmaniipackage_shot_1be01e93_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/P/1/b/e01e93/porkmaniipackage_shot_1be01e93_1.png"
+originalFilename: "porkmaniipackage.rar"
+hash: "1be01e93ec1b69c3a9a5e33baebeb4cf6cd01071"
+fileSize: 277976
+files:
+- name: "psUT2003HUD.u"
+  fileSize: 137470
+  hash: "0bec5a073317e0d24201100119fe941139d4d82f"
+- name: "DualWield.u"
+  fileSize: 438345
+  hash: "367b8a99b252c935fd1a8916442a950a8d402b89"
+- name: "psUT2004HUD_Dual.u"
+  fileSize: 36470
+  hash: "48ecb4ddc09110f3e6984f6b34a1eae3402b6376"
+- name: "DualWield_RPG.u"
+  fileSize: 36442
+  hash: "f29117622b882196bb395a5d68b54482344c9f27"
+- name: "psAltHUD.u"
+  fileSize: 87755
+  hash: "4daac862fbef89f756dab5a82ce8ddb092764909"
+- name: "psUT2003HUD_Dual.u"
+  fileSize: 51971
+  hash: "7be05aad4b07524028cc5b755a22207f28047426"
+otherFiles: 11
+dependencies:
+  psUT2004HUD_Dual.u:
+  - status: "OK"
+    name: "psAltHUD"
+  - status: "OK"
+    name: "DualWield"
+  psUT2003HUD.u:
+  - status: "OK"
+    name: "psAltHUD"
+  psUT2003HUD_Dual.u:
+  - status: "OK"
+    name: "psUT2003HUD"
+  - status: "OK"
+    name: "psAltHUD"
+  - status: "OK"
+    name: "DualWield"
+  DualWield_RPG.u:
+  - status: "MISSING"
+    name: "UT2004RPG"
+  - status: "OK"
+    name: "DualWield"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/P/1/b/e01e93/porkmaniipackage.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Dual Wielding"
+  description: "Gives each player the Dual Weapon, allowing them to dual-wield (nearly)\
+    \ any two weapons."
+- name: "Alternate HUDs"
+  description: "Sick of that same old boring HUD? Change it!||Created by PsychoticSteve."
+- name: "UT2003 HUD"
+  description: "Replaces the UT2004 HUD with the UT2003 HUD. Only for game-types using\
+    \ the DM, TDM, BR, CTF or DDOM HUDs."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
