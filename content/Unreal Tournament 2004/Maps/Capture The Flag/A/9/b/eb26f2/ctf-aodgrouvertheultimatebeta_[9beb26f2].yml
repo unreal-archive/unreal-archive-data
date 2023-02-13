@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-13 01:49"
+game: "Unreal Tournament 2004"
+name: "CTF-(AOD)Grouver(TheUltimate)BETA"
+author: "T.C.U a.k.a Grouver"
+description: "T.C.U'S First CFT Map."
+releaseDate: "2006-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-aodgrouvertheultimatebeta_shot_9beb26f2_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/9/b/eb26f2/ctf-aodgrouvertheultimatebeta_shot_9beb26f2_1.png"
+originalFilename: "CTF-(AOD)Grouver(TheUltimate)BETA.zip"
+hash: "9beb26f265af0e7d7adacb98bc17006d0297ccbe"
+fileSize: 33824534
+files:
+- name: "CS_VehicleCollision_S.usx"
+  fileSize: 733839
+  hash: "4e7b64df40209f03055291fb04c8fecfc93cf4f0"
+- name: "scifiTex.utx"
+  fileSize: 3496870
+  hash: "91723d3c1ccf3c05403ad319d13e60cceeb4b060"
+- name: "CTF-(AOD)Grouver(TheUltimate)BETA.ut2"
+  fileSize: 27012912
+  hash: "5219b980258aca8e7a56e2f7139d29177dcbe0f8"
+- name: "grouver4tech.usx"
+  fileSize: 3446249
+  hash: "8402784865be9700df6749195fe911c7b4e18a5a"
+- name: "Grouver1.utx"
+  fileSize: 5943870
+  hash: "7f1baee4b18a6174bc0f6b7b06ef454c601ae5e3"
+- name: "CS_Vehicles_T.utx"
+  fileSize: 4284751
+  hash: "d010e9074fc0ab5675e46c344d0230c44933fcbc"
+- name: "CS_DeadVehicles_S.usx"
+  fileSize: 1304292
+  hash: "e0ebea6d1338bf5cee46c161751c8c9bf8060ba3"
+- name: "grouver2.usx"
+  fileSize: 6978631
+  hash: "72f68813673a90f3b8f156c5112821f1b28e1910"
+- name: "grouver5roud.usx"
+  fileSize: 3384815
+  hash: "3627245b2278537ada2038796375c0bb4861889e"
+otherFiles: 0
+dependencies:
+  CTF-(AOD)Grouver(TheUltimate)BETA.ut2:
+  - status: "OK"
+    name: "grouver2"
+  - status: "OK"
+    name: "grouver5roud"
+  - status: "OK"
+    name: "CS_DeadVehicles_S"
+  CS_DeadVehicles_S.usx:
+  - status: "OK"
+    name: "CS_Vehicles_T"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/9/b/eb26f2/CTF-(AOD)Grouver(TheUltimate)BETA.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-(AOD)Grouver(TheUltimate)BETA"
+playerCount: "10-20"
+themes:
+  Industrial: 1.0
+bots: true
