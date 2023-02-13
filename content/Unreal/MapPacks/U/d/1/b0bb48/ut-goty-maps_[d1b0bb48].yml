@@ -1,0 +1,67 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-02-12 11:58"
+game: "Unreal"
+name: "UT GOTY Maps"
+author: "Various"
+description: "None"
+releaseDate: "1999-12"
+attachments:
+- type: "IMAGE"
+  name: "ut-goty-maps_shot_d1b0bb48_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/U/d/1/b0bb48/ut-goty-maps_shot_d1b0bb48_2.png"
+- type: "IMAGE"
+  name: "ut-goty-maps_shot_d1b0bb48_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal/MapPacks/U/d/1/b0bb48/ut-goty-maps_shot_d1b0bb48_1.png"
+originalFilename: "UT GOTY Maps.7z"
+hash: "d1b0bb4822986e08e088e63c59f92a7abeca46a9"
+fileSize: 50282142
+files:
+- name: "CTF-HallOfGiants.unr"
+  fileSize: 1648699
+  hash: "e2ad03e9c01f4c3426ddd813b4c733f066cacb50"
+- name: "CTF-Orbital.unr"
+  fileSize: 3886842
+  hash: "83f701703ad44ec6cfc98eeee41fa43423b4b3d9"
+otherFiles: 0
+dependencies:
+  CTF-HallOfGiants.unr:
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Nether"
+  - status: "MISSING"
+    name: "Addon1"
+  - status: "MISSING"
+    name: "Botpack"
+  CTF-Orbital.unr:
+  - status: "MISSING"
+    name: "SaveMe"
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "UTtech2"
+  - status: "MISSING"
+    name: "ShaneChurch"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "XbpFX"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal/MapPacks/U/d/1/b0bb48/UT%20GOTY%20Maps.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CTF-HallOfGiants"
+  title: "Hall Of Giants"
+  author: "Juan Pancho 'XceptOne' Eekels"
+- name: "CTF-Orbital"
+  title: "Oribital Station 12"
+  author: "Dave Ewing"
+gametype: "Capture The Flag"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
