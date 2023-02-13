@@ -1,0 +1,88 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 23:06"
+game: "Unreal Tournament 2004"
+name: "STAKEOUT1.5"
+author: "Unknown"
+description: "Replace  guns with a stakelauncher."
+releaseDate: "2006-03"
+attachments:
+- type: "IMAGE"
+  name: "-stakeout15_shot_6e9cc31c_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/S/6/e/9cc31c/-stakeout15_shot_6e9cc31c_1.png"
+originalFilename: "Stakeout 1.5.zip"
+hash: "6e9cc31cf5418e9ed486d60f8d3ad83e12fec55d"
+fileSize: 9026842
+files:
+- name: "stakeoutarena.u"
+  fileSize: 8488
+  hash: "1168aa75dd10c2418faf3c78cbe0ba453d7480fe"
+- name: "stakeoutsounds.uax"
+  fileSize: 944773
+  hash: "14650f638a980fc68318d9e56735e88e9a33ddaf"
+- name: "stakeoutmeshes.usx"
+  fileSize: 1206479
+  hash: "828ccad9a2aa4b6edab503c14c19275c033dc084"
+- name: "stakeoutwings.ukx"
+  fileSize: 349390
+  hash: "f2b26314f3a8bf4c7b4cd8c8eebef4c565e7bd91"
+- name: "stakeouttex.utx"
+  fileSize: 8699102
+  hash: "d2778cd2a929b16526cf4fd980b8d11ec1033c2d"
+- name: "stakeoutanim.ukx"
+  fileSize: 7307604
+  hash: "1c04ecea6a585216d3d40db438a4140a697aacb1"
+- name: "stakeoutwingstex.utx"
+  fileSize: 350056
+  hash: "959b23cff5f1ce07c57f1aefb081ba7c8465420b"
+- name: "stakeout.u"
+  fileSize: 161909
+  hash: "373200a7b4578667c5f7032d7bdc50b515085cf3"
+otherFiles: 6
+dependencies:
+  stakeoutwings.ukx:
+  - status: "OK"
+    name: "stakeoutwingstex"
+  stakeout.u:
+  - status: "OK"
+    name: "stakeoutsounds"
+  - status: "OK"
+    name: "stakeoutanim"
+  - status: "OK"
+    name: "stakeoutmeshes"
+  - status: "OK"
+    name: "stakeouttex"
+  - status: "OK"
+    name: "stakeoutwings"
+  stakeoutarena.u:
+  - status: "OK"
+    name: "StakeOut"
+  stakeoutanim.ukx:
+  - status: "OK"
+    name: "stakeouttex"
+  stakeoutmeshes.usx:
+  - status: "OK"
+    name: "stakeouttex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/6/e/9cc31c/Stakeout%201.5.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: " STAKEOUT1.5"
+  description: "Replace  guns with a stakelauncher."
+weapons:
+- name: "Stakelauncher"
+  description: "Stake GUN"
+- name: "pike"
+  description: "The Kemphler DD280 Riot Control Device has the ability to resist and\
+    \ reflect incoming projectiles and energy beams. The plasma wave inflicts massive\
+    \ damage, rupturing tissue, pulverizing organs, and flooding the bloodstream with\
+    \ dangerous gas bubbles.||This weapon may be intended for combat at close range,\
+    \ but when wielded properly should be considered as dangerous as any other armament\
+    \ in your arsenal."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

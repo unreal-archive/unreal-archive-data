@@ -1,0 +1,49 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 23:06"
+game: "Unreal Tournament 2004"
+name: "InstaStake"
+author: "Unknown"
+description: "Make pin ups of your friends."
+releaseDate: "2004-11"
+attachments: []
+originalFilename: "Stakeout.rar"
+hash: "42325fe7c6616bce5c25957f45c6234ebf4ab7de"
+fileSize: 157683
+files:
+- name: "stakeouttex.utx"
+  fileSize: 586754
+  hash: "d89bed5f55d9ac4aac6ae5f682118e60607d3ffa"
+- name: "Stakeout.u"
+  fileSize: 26481
+  hash: "ac1c4920c17ab22c4a60dc3bab1358d98684cdc4"
+- name: "stakeoutmeshes.usx"
+  fileSize: 586785
+  hash: "9207f818d076003828d1cab58904397c9ae8b59d"
+- name: "Stakeout.ut4mod"
+  fileSize: 1201597
+  hash: "c3947f52eb794e0ebfe3f272929c90b4bd001686"
+otherFiles: 1
+dependencies:
+  Stakeout.u:
+  - status: "OK"
+    name: "stakeoutmeshes"
+  stakeoutmeshes.usx:
+  - status: "OK"
+    name: "stakeouttex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/I/4/2/325fe7/Stakeout.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "InstaStake"
+  description: "Make pin ups of your friends."
+weapons:
+- name: "Stakelauncher"
+  description: "."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
