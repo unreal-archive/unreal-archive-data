@@ -1,0 +1,57 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 22:59"
+game: "Unreal Tournament 2004"
+name: "StrangeLove54"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "StrangeLove54.zip"
+hash: "c51b3a75d72fbd038fa9d32dbd11a90928c3f22d"
+fileSize: 373373
+files:
+- name: "StrangeLoveTex54.utx"
+  fileSize: 2102050
+  hash: "8203005a4ad53e3c06473ba07b7598e98e7dcdbc"
+- name: "StrangeLove54.u"
+  fileSize: 202699
+  hash: "99cfa2cb02657aeafb7e8e97d4b5618721c35262"
+- name: "StrangeLoveAnim54.ukx"
+  fileSize: 228999
+  hash: "3bcf2fff514e74ea355a2405eef251643d11167f"
+otherFiles: 1
+dependencies:
+  StrangeLove54.u:
+  - status: "OK"
+    name: "StrangeLoveAnim54"
+  - status: "OK"
+    name: "StrangeLoveTex54"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/c/5/1b3a75/StrangeLove54.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "StrangeLove Arena ver.54"
+  description: "Replaces all weapons in the level with Strangeloves and gives the\
+    \ minigun as the secondary weapon."
+- name: "StrangeLove Old Skool ver.54"
+  description: "Only replaces the redeemer pickup Strangeloves."
+weapons:
+- name: "StrangeLove IR"
+  description: "The first time you witness this miniature nuclear device in action,\
+    \ you'll agree it is the most powerful weapon in the Tournament.|Launch a slow-moving\
+    \ but utterly devastating missile with the primary fire; but make sure you're\
+    \ out of the Redeemer's impressive blast radius before it impacts. The secondary\
+    \ fire allows you to guide the nuke yourself with a rocket's-eye view.||Keep in\
+    \ mind, however, that you are vulnerable to attack when steering the Redeemer's\
+    \ projectile. Due to the extreme bulkiness of its ammo, the Redeemer is exhausted\
+    \ after a single shot."
+vehicles:
+- name: "Hold tight!"
+  description: "Hold tight!"
+hasConfigMenu: false
+hasKeybinds: false

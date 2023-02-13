@@ -1,0 +1,66 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 22:59"
+variationOf: "217b2465473fb038dc41b793bad6221cf77fc467"
+game: "Unreal Tournament 2004"
+name: "Strategic Vehicles"
+author: "Missilemaster"
+description: "If you have no brain, just back away slowly..."
+releaseDate: "2006-08"
+attachments: []
+originalFilename: "StrategicVehicles.zip"
+hash: "c58154591a3c85d10daaad5875ea0abce76e4043"
+fileSize: 75023
+files:
+- name: "SpyPlaneTex.utx"
+  fileSize: 340
+  hash: "2f8cbd2ebb82dec77f7866895530ecc1f9802694"
+- name: "StrategicVehicles.u"
+  fileSize: 232175
+  hash: "1bfc6df4e55d59b471032b9a2caed7c0fbe6f560"
+otherFiles: 3
+dependencies:
+  StrategicVehicles.u:
+  - status: "OK"
+    name: "SpyPlaneTex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/c/5/815459/StrategicVehicles.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Strategic Vehicles"
+  description: "If you have no brain, just back away slowly..."
+weapons:
+- name: "Storage Rifle"
+  description: "Stores vehicles and recreates them, both in a unknown, magic way."
+- name: "Superb Storage Rifle"
+  description: "Sponsored by Doubletank Corp--inventing a new impossible vehicle every\
+    \ day!"
+vehicles:
+- name: "StrategicVehicles.FlyingFlyingScorpion"
+  description: "StrategicVehicles.FlyingFlyingScorpion"
+- name: "Flying Scorpion"
+  description: "Flying Scorpion"
+- name: "StrategicVehicles.GroundedFlyingScorpion"
+  description: "StrategicVehicles.GroundedFlyingScorpion"
+- name: "Human Spacefighter"
+  description: "Human Spacefighter"
+- name: "Infiltrator"
+  description: "Infiltrator"
+- name: "Skaarj Spacefighter"
+  description: "Skaarj Spacefighter"
+- name: "Vehicle"
+  description: "Vehicle"
+- name: "Spacecraft Carrier"
+  description: "Spacecraft Carrier"
+- name: "Launchpad"
+  description: "Launchpad"
+- name: "Stealth Raptor"
+  description: "Stealth Raptor"
+- name: "SpaceBender"
+  description: "SpaceBender"
+hasConfigMenu: false
+hasKeybinds: false
