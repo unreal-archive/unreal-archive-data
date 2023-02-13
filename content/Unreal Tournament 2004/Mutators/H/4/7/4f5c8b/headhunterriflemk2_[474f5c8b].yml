@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 07:27"
+game: "Unreal Tournament 2004"
+name: "HeadhunterRifleMk2"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-06"
+attachments:
+- type: "IMAGE"
+  name: "headhunterriflemk2_shot_474f5c8b_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Mutators/H/4/7/4f5c8b/headhunterriflemk2_shot_474f5c8b_1.png"
+originalFilename: "HeadhunterRifleMk2.zip"
+hash: "474f5c8b142d1a767f1cc5d25b97d6ea1b485a8e"
+fileSize: 1509525
+files:
+- name: "SGOSRStatic.usx"
+  fileSize: 109672
+  hash: "01b86ac813c65f0781df21cf57c5538412e3e194"
+- name: "SGOSR.u"
+  fileSize: 741850
+  hash: "530b6fe3a3a53c7c3e022320a8215a8d9ce597f7"
+- name: "HeadhunterRifleMk2.ut4mod"
+  fileSize: 4288510
+  hash: "6da5ffb63ad463761e42c7769dbdfbe299f2d55e"
+- name: "SGOSRMesh.ukx"
+  fileSize: 236013
+  hash: "b30cae9d7c0f97850a21c4faf98b7029e8656442"
+- name: "SGOSRTex.utx"
+  fileSize: 2278255
+  hash: "b2dade0aa5d86fa13834af5451745b94de13dab6"
+- name: "SGOSRSounds.uax"
+  fileSize: 885302
+  hash: "8bb3921a2f04d6a048a0018666ad6c28b99fb810"
+otherFiles: 4
+dependencies:
+  SGOSRMesh.ukx:
+  - status: "OK"
+    name: "SGOSRTex"
+  SGOSRStatic.usx:
+  - status: "OK"
+    name: "SGOSRTex"
+  SGOSR.u:
+  - status: "OK"
+    name: "SGOSRSounds"
+  - status: "OK"
+    name: "SGOSRTex"
+  - status: "OK"
+    name: "SGOSRStatic"
+  - status: "OK"
+    name: "SGOSRMesh"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/4/7/4f5c8b/HeadhunterRifleMk2.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Headhunter Rifle Mk2 Arena"
+  description: "Replaces all weapons with the Headhunter Rifle Mk2."
+- name: "Headhunter Rifle Mk2"
+  description: "Replace a weapon by the Headhunter Rifle Mk2."
+weapons:
+- name: "Headhunter Rifle"
+  description: "Headhunter Rifle"
+- name: "Headhunter Rifle MK2"
+  description: "Headhunter Rifle MK2"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
