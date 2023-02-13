@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-11 23:47"
+game: "Unreal Tournament 2004"
+name: "SatoreMonsterPackVersion115Patch"
+author: "the small file"
+description: "None"
+releaseDate: "2023-02"
+attachments: []
+originalFilename: "satoreMonsterPackVersion115Patch.zip"
+hash: "fff6e5abf8ec6419263994aa9c9dbb03257b31da"
+fileSize: 1920037
+files:
+- name: "satoreMonsterPackv115.u"
+  fileSize: 2881894
+  hash: "533dd97a230dbafc7028842e55f25f5c83e0b271"
+otherFiles: 3
+dependencies:
+  satoreMonsterPackv115.u:
+  - status: "MISSING"
+    name: "satoreMonsterPackSound"
+  - status: "MISSING"
+    name: "satoreMonsterPackMeshes"
+  - status: "MISSING"
+    name: "satoreMonsterPackTexture"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/S/f/f/f6e5ab/satoreMonsterPackVersion115Patch.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "satoreMonsterConfig Version1.15"
+  description: "MonsterConfig."
+- name: "satoreMonsterPack Version1.15"
+  description: "Add Queen,Titan,Mercenary for Invasion."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
