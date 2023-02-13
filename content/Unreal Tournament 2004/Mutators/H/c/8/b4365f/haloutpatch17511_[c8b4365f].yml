@@ -1,0 +1,89 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 08:14"
+game: "Unreal Tournament 2004"
+name: "HaloUTPatch17511"
+author: "Exodus"
+description: "None"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "HaloUTPatch17511.zip"
+hash: "c8b4365f50791b78e8f42cffe307383c97fc8440"
+fileSize: 553239
+files:
+- name: "HaloUTWarthog_MG.u"
+  fileSize: 647824
+  hash: "0c7b394d083e0c0bb4e3d6cf54c9984fd3b0eef9"
+- name: "HaloGhost.u"
+  fileSize: 39447
+  hash: "8f94ade38526563f36dbf7dcd5555062dbce6991"
+- name: "HaloUTwarthog_RL.u"
+  fileSize: 795542
+  hash: "6748b93902a8fd14dd6f47c36c866070de01eb7f"
+otherFiles: 4
+dependencies:
+  HaloUTwarthog_RL.u:
+  - status: "MISSING"
+    name: "HaloUTWarthogs_tex"
+  - status: "MISSING"
+    name: "HaloUTWarthogs_TC"
+  - status: "MISSING"
+    name: "HaloUTWarthogSounds"
+  - status: "MISSING"
+    name: "HaloUTVehicles_SM"
+  HaloGhost.u:
+  - status: "MISSING"
+    name: "HaloGhostSM"
+  - status: "MISSING"
+    name: "HaloGhostTex"
+  - status: "MISSING"
+    name: "HaloGhostMesh"
+  - status: "MISSING"
+    name: "HaloUTBanshee"
+  - status: "MISSING"
+    name: "Ghost"
+  - status: "MISSING"
+    name: "HaloUTGhostTex"
+  HaloUTWarthog_MG.u:
+  - status: "MISSING"
+    name: "HaloUTWarthogs_tex"
+  - status: "MISSING"
+    name: "HaloUTWarthogs_TC"
+  - status: "MISSING"
+    name: "HaloUTWarthogSounds"
+  - status: "MISSING"
+    name: "HaloUTVehicles_SM"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/H/c/8/b4365f/HaloUTPatch17511.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "HaloUT Warthog MG"
+  description: "Replaces the UT Scorpion with the WarthogMG from Halo"
+- name: "HaloUT Ghost"
+  description: "Replaces the manta with the Ghost from Halo"
+- name: "HaloUT Warthog RL"
+  description: "Replaces the HellBender with the WarthogRL from Halo"
+weapons: []
+vehicles:
+- name: "HaloUT Warthog MG Passenger Seat"
+  description: "HaloUT Warthog MG Passenger Seat"
+- name: "HaloUT Warthog MG Turret"
+  description: "HaloUT Warthog MG Turret"
+- name: "HaloUT Warthog MG"
+  description: "HaloUT Warthog MG"
+- name: "HaloUT Ghost"
+  description: "HaloUT Ghost"
+- name: "HaloUT Ghost [UT-style]"
+  description: "HaloUT Ghost [UT-style]"
+- name: "HaloUT Warthog RL Passenger Seat"
+  description: "HaloUT Warthog RL Passenger Seat"
+- name: "HaloUT Warthog RL Turret"
+  description: "HaloUT Warthog RL Turret"
+- name: "HaloUT Rocket Warthog"
+  description: "HaloUT Rocket Warthog"
+hasConfigMenu: false
+hasKeybinds: false
