@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 02:50"
+variationOf: "b238bb8582a2d005c227cdc88540f3573584e506"
+game: "Unreal Tournament 2004"
+name: "mass vacuum"
+author: "Unknown"
+description: "the mass vacuum is a weapon with zoom capabilitys that allows you to\
+  \ pull your enemys to your position!"
+releaseDate: "2005-02"
+attachments: []
+originalFilename: "massvacuumbeta2[1].0.rar"
+hash: "ce06794c2052e856c0ef33e96f7b72556b544ed3"
+fileSize: 75697
+files:
+- name: "massvacuum.u"
+  fileSize: 18457
+  hash: "7135755d77d59537db897f99ffa4eb78b1c4a323"
+- name: "massvacuumpickup.usx"
+  fileSize: 96697
+  hash: "f72a200d061d816d060ba1d154e28c7514d2b72e"
+- name: "massvacuumanim.ukx"
+  fileSize: 154158
+  hash: "c5010aadc581adc56840fb03e90716c0fee1be70"
+otherFiles: 2
+dependencies:
+  massvacuum.u:
+  - status: "OK"
+    name: "massvacuumanim"
+  - status: "OK"
+    name: "massvacuumpickup"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/c/e/06794c/massvacuumbeta2%5B1%5D.0.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "mass vacuum"
+  description: "the mass vacuum is a weapon with zoom capabilitys that allows you\
+    \ to pull your enemys to your position!"
+weapons:
+- name: "mass vacuum"
+  description: "The Mass vacuum is a weapon that when its projectile comes in contact\
+    \ with the foe it will pull him towards you. the first attack is for this function\
+    \ the 2ndary attack is a zoom feature."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
