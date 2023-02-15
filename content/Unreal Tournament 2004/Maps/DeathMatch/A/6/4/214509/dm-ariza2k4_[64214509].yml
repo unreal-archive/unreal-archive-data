@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 21:22"
+variationOf: "ca28e859b67868fc3ebab81158c95da212716e0e"
+game: "Unreal Tournament 2004"
+name: "DM-Ariza2k4"
+author: "Myscha the Sled dog/N3tL!zzard"
+description: "Remake of classic Unreal map DmAriza."
+releaseDate: "2011-01"
+attachments: []
+originalFilename: "DM-Ariza2k4Final.rar"
+hash: "64214509fc682ca293c6f8ab7cd13b2850cc2ea7"
+fileSize: 3238451
+files:
+- name: "Ripjack.u"
+  fileSize: 65959
+  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
+- name: "ripjackSounds.uax"
+  fileSize: 594868
+  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
+- name: "Ripjack.u"
+  fileSize: 65959
+  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
+- name: "HubEffects.utx"
+  fileSize: 222123
+  hash: "e907a74633fdc5e2e19cb6e9373861a30ffc8fbc"
+- name: "ripjackAnim.ukx"
+  fileSize: 660717
+  hash: "133d6b8c2ce143c1193b69ecb07acf331cc224a3"
+- name: "ripjackTex.utx"
+  fileSize: 3030389
+  hash: "21be7b3b41eae9e4b98974e0dee442ec1bd1e3d3"
+- name: "ripjackTex.utx"
+  fileSize: 3030389
+  hash: "21be7b3b41eae9e4b98974e0dee442ec1bd1e3d3"
+- name: "ripjackAnim.ukx"
+  fileSize: 660717
+  hash: "133d6b8c2ce143c1193b69ecb07acf331cc224a3"
+- name: "ripjackSM.usx"
+  fileSize: 378267
+  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
+- name: "ripjackSM.usx"
+  fileSize: 378267
+  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
+- name: "ripjackSounds.uax"
+  fileSize: 594868
+  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
+- name: "DM-Ariza2k4.ut2"
+  fileSize: 3873212
+  hash: "cdb3e7a6f65c9f20b43e7f7807de9a5d95a75879"
+otherFiles: 7
+dependencies:
+  ripjackSM.usx:
+  - status: "OK"
+    name: "ripjackTex"
+  HubEffects.utx:
+  - status: "MISSING"
+    name: "genfluid"
+  - status: "MISSING"
+    name: "GenFX"
+  Ripjack.u:
+  - status: "OK"
+    name: "ripjackSounds"
+  - status: "OK"
+    name: "ripjackTex"
+  - status: "OK"
+    name: "ripjackSM"
+  - status: "OK"
+    name: "ripjackAnim"
+  ripjackAnim.ukx:
+  - status: "OK"
+    name: "ripjackTex"
+  DM-Ariza2k4.ut2:
+  - status: "OK"
+    name: "Ripjack"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/6/4/214509/DM-Ariza2k4Final.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Ariza"
+playerCount: "Unknown"
+themes: {}
+bots: true
