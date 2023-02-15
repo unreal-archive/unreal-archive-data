@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-02-12 21:48"
+game: "Unreal Tournament 2004"
+name: "DM-AAO_In_Space]["
+author: "AbbaAutyOne"
+description: "Many years ago, this orbitant station was a great planetarium theatre.\
+  \ After a lot of mortal incidents happened to visitors the planetarium was closed.\
+  \ Now, Liandri presents a new DM arena. Enjoy the stars when you fall from borders!"
+releaseDate: "2005-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-aao_in_space_shot_9ca8a841_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%202004/Maps/DeathMatch/A/9/c/a8a841/dm-aao_in_space_shot_9ca8a841_1.png"
+originalFilename: "DM-AAO_In_Space.zip"
+hash: "9ca8a841c8cd5dfe2605b6c54f072517207bbc8e"
+fileSize: 1106059
+files:
+- name: "AAO_INSPACE_HARDWARE.utx"
+  fileSize: 175507
+  hash: "a8f9446a4a6619e289c40a168b9810034c9ea5bb"
+- name: "DM-AAO_In_Space][.ut2"
+  fileSize: 2008073
+  hash: "e4bdb5407b5db0673fa0214beb99667d42935d78"
+- name: "AAO_INSPACE_SMP.usx"
+  fileSize: 1575018
+  hash: "8f7e5c128d4a5b10634283ed6b2c575f37347bee"
+otherFiles: 2
+dependencies:
+  DM-AAO_In_Space][.ut2:
+  - status: "OK"
+    name: "AAO_INSPACE_SMP"
+  AAO_INSPACE_SMP.usx:
+  - status: "OK"
+    name: "AAO_INSPACE_HARDWARE"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Maps/DeathMatch/A/9/c/a8a841/DM-AAO_In_Space.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "In Space Planetarium"
+playerCount: "8"
+themes:
+  Natural: 0.5
+  Industrial: 0.5
+bots: true
