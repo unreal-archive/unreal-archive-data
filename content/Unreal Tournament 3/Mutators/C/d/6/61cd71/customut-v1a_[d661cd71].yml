@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:33"
+game: "Unreal Tournament 3"
+name: "CustomUT v1a"
+author: "Unknown"
+description: "A mutator adding extra customization options, press f5 to configure\
+  \ in-game."
+releaseDate: "2007-12"
+attachments: []
+originalFilename: "CustomUTv1a.zip"
+hash: "d661cd716d9f4b11f1aea0a87bc3963c334e4b1e"
+fileSize: 423677
+files:
+- name: "customutmenusv1a.upk"
+  fileSize: 1009642
+  hash: "acd5b9918f0dbf8fc939e61ce417ea63b003cb6e"
+- name: "CustomUTv1a.u"
+  fileSize: 456826
+  hash: "9cbcc93e66eba6c1022fb3fb90fbd4ff3ee89b0a"
+- name: "CustomUTContentv1a.upk"
+  fileSize: 199922
+  hash: "d6cda3951b4081b7c3723a2806d20db7a44b6fbc"
+otherFiles: 4
+dependencies:
+  CustomUTv1a.u:
+  - status: "OK"
+    name: "CustomUTContentv1a"
+  - status: "OK"
+    name: "customutmenusv1a"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/C/d/6/61cd71/CustomUTv1a.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "CustomUT v1a"
+  description: "A mutator adding extra customization options, press f5 to configure\
+    \ in-game."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

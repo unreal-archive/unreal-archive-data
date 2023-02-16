@@ -1,0 +1,65 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:33"
+game: "Unreal Tournament 3"
+name: "Harpy10"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-10"
+attachments:
+- type: "IMAGE"
+  name: "harpy10_shot_f74f3d57_5.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/harpy10_shot_f74f3d57_5.png"
+- type: "IMAGE"
+  name: "harpy10_shot_f74f3d57_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/harpy10_shot_f74f3d57_2.png"
+- type: "IMAGE"
+  name: "harpy10_shot_f74f3d57_4.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/harpy10_shot_f74f3d57_4.png"
+- type: "IMAGE"
+  name: "harpy10_shot_f74f3d57_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/harpy10_shot_f74f3d57_1.png"
+- type: "IMAGE"
+  name: "harpy10_shot_f74f3d57_3.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/harpy10_shot_f74f3d57_3.png"
+- type: "IMAGE"
+  name: "harpy10_shot_f74f3d57_6.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/harpy10_shot_f74f3d57_6.png"
+originalFilename: "Harpy10.7z"
+hash: "f74f3d5779ec8551c84ca442b7adceff43d4a7bc"
+fileSize: 7152283
+files:
+- name: "XS_Harpy.u"
+  fileSize: 332518
+  hash: "5aa32fe9deb819785595035046a2d4cb7fe89430"
+- name: "Harpy.upk"
+  fileSize: 8785777
+  hash: "2c4f6346507f6f90dc137a57a9c7f42a80d52d50"
+- name: "XS_Base.u"
+  fileSize: 38897
+  hash: "2e59b1eebf8b4c83a3bd29e51453448c8001d8dd"
+otherFiles: 9
+dependencies:
+  XS_Harpy.u:
+  - status: "OK"
+    name: "Harpy"
+  - status: "OK"
+    name: "XS_Base"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/H/f/7/4f3d57/Harpy10.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "XS Vehicles: Harpy"
+  description: "Replaces all flying vehicles and the Nightshade with the Harpy gunship."
+- name: "XS Vehicles: Harpy replaces all"
+  description: "Replaces all vehicles in a map with the Harpy."
+weapons: []
+vehicles:
+- name: "XS Harpy"
+  description: ""
+hasConfigMenu: false
+hasKeybinds: false

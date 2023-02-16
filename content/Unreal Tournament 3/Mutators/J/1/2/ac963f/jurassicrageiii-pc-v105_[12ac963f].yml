@@ -1,0 +1,72 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:33"
+game: "Unreal Tournament 3"
+name: "Jurassicrageiii Pc V105"
+author: "weapons"
+description: "None"
+releaseDate: "2008-11"
+attachments:
+- type: "IMAGE"
+  name: "jurassicrageiii-pc-v105_shot_12ac963f_2.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/J/1/2/ac963f/jurassicrageiii-pc-v105_shot_12ac963f_2.png"
+- type: "IMAGE"
+  name: "jurassicrageiii-pc-v105_shot_12ac963f_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament%203/Mutators/J/1/2/ac963f/jurassicrageiii-pc-v105_shot_12ac963f_1.png"
+originalFilename: "jurassicrageiii_pc_v105.7z"
+hash: "12ac963f98387bc80cc541ace9fc959e80032406"
+fileSize: 3326168
+files:
+- name: "JR_Rex.upk"
+  fileSize: 769013
+  hash: "c1d4f92fddf97195c0d51f3f607fb83f89869ef7"
+- name: "JR_RaptorData.upk"
+  fileSize: 1299460
+  hash: "505870e0c8a93303ce9a1e7ca928371fcb242cd3"
+- name: "JR_UI.upk"
+  fileSize: 221062
+  hash: "bad0da6626334b2946bcce4f396ed16bbdcd68e2"
+- name: "JR.u"
+  fileSize: 273526
+  hash: "71e25fed53feb3c3ff1c1cb7c7c432e359621d04"
+- name: "JR_RaptorSounds.upk"
+  fileSize: 373279
+  hash: "ddb9e61c4d5442f7221d55a48d8179b64802d3ae"
+- name: "JR_Raptor.upk"
+  fileSize: 1060616
+  hash: "18a4304e032474c3f43e3c03910609929c5527e1"
+- name: "JR_RexData.upk"
+  fileSize: 1149720
+  hash: "85e845fa906faf688b733754c5b1b4fc6ddf6183"
+- name: "JR_RexSounds.upk"
+  fileSize: 287426
+  hash: "b5d6a59de2820938eb4b3d66c6080cf87e655e5f"
+otherFiles: 4
+dependencies:
+  JR.u:
+  - status: "OK"
+    name: "JR_RaptorSounds"
+  - status: "OK"
+    name: "JR_Rex"
+  - status: "OK"
+    name: "JR_Raptor"
+  - status: "OK"
+    name: "JR_RexSounds"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/J/1/2/ac963f/jurassicrageiii_pc_v105.7z"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Jurassic Rage: Velociraptors"
+  description: "Respawner malfunction is bringing velociraptors to the battlefield.\
+    \ They're all around us. Stay sharp."
+- name: "Jurassic Rage: T-Rex"
+  description: "Respawner malfunction is getting worse. Bigger and nastier creatures\
+    \ are being created."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
