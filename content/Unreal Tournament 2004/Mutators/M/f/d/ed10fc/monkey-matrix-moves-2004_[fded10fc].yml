@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-12 02:51"
+game: "Unreal Tournament 2004"
+name: "Monkey Matrix Moves 2004"
+author: "Adam 'MonkeyCircus' Bradley, Rob '[Apoc]Death' Gutermuth"
+description: "There is no spoon... Please do not forget to set your BulletTime activation\
+  \ keybind via the controls page in the UT2004 settings menu."
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "MonkeyMatrixMoves2004_v130_selfextractor.exe"
+hash: "fded10fc61067161084d69b8d1f3afe01c1b951d"
+fileSize: 332913
+files:
+- name: "matrixrings.utx"
+  fileSize: 373255
+  hash: "5c638195981dd6632c2a92aeeffaccdb0d8e4a92"
+- name: "MonkeyMatrixInterface.utx"
+  fileSize: 350599
+  hash: "32faf8c8dd334ebbc6ebfbd83c22d57cbbfbdf69"
+- name: "Matrix2004_v130.u"
+  fileSize: 451504
+  hash: "c8097fe4a47fc84531b409f0002bb4257062ff55"
+otherFiles: 4
+dependencies:
+  Matrix2004_v130.u:
+  - status: "OK"
+    name: "matrixrings"
+  - status: "OK"
+    name: "MonkeyMatrixInterface"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/M/f/d/ed10fc/MonkeyMatrixMoves2004_v130_selfextractor.exe"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/M/f/d/ed10fc/MonkeyMatrixMoves2004_v130_selfextractor.exe"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "MonkeyMatrixMoves 2004"
+  description: "There is no spoon... Please do not forget to set your BulletTime activation\
+    \ keybind via the controls page in the UT2004 settings menu."
+weapons:
+- name: "MatrixWeapon"
+  description: "MatrixWeapon"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
