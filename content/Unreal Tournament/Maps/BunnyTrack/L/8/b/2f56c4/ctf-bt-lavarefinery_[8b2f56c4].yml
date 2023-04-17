@@ -1,17 +1,37 @@
 --- !<MAP>
 contentType: "MAP"
-firstIndex: "2019-01-28 05:43"
-variationOf: "8b2f56c4032e729abcf0af4a7a952f28a0168122"
+firstIndex: "2023-03-17 23:16"
 game: "Unreal Tournament"
 name: "CTF-BT-LavaRefinery"
 author: "Unknown"
 description: "None"
-releaseDate: "2010-04"
+releaseDate: "2010-08"
 attachments: []
 originalFilename: "CTF-BT-LavaRefinery.zip"
-hash: "ccbd207dad2d46892ed519ec634f16139713e8e4"
-fileSize: 2144452
+hash: "8b2f56c4032e729abcf0af4a7a952f28a0168122"
+fileSize: 19666149
 files:
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "Factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "FordText.utx"
+  fileSize: 1777727
+  hash: "109850139ed5f3f0478a3a5efed9c5eaa1531b8a"
+- name: "ZephonTechStuff.utx"
+  fileSize: 2445575
+  hash: "b554f0145e46c62a544521a3d81c0926f9c163d5"
+- name: "Jump.utx"
+  fileSize: 2671894
+  hash: "a28c81b3057b2b5cb4ca503f7480af47d28bb2b8"
+- name: "Phazon.umx"
+  fileSize: 2817264
+  hash: "5de5def0dd62966290b157e47f85bc256a995cfb"
 - name: "CTF-BT-LavaRefinery.unr"
   fileSize: 7743839
   hash: "526c57e7f9928d9f7a164f86d6dd24dbfdbe732f"
@@ -74,29 +94,12 @@ dependencies:
     name: "Model644"
   - status: "MISSING"
     name: "Model467"
+  Jump.utx:
+  - status: "OK"
+    name: "Rt-Detail"
 downloads:
-- url: "http://www.i4games.eu/maps/CTF-BT-LavaRefinery.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/L/CTF-BT-LavaRefinery.zip"
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/BunnyTrack/L/8/b/2f56c4/CTF-BT-LavaRefinery.zip"
   main: true
-  repack: false
-  state: "OK"
-- url: "https://files.vohzd.com/unreal/unreal-tournament/maps/bunny-track/CTF-BT-LavaRefinery.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/BunnyTrack/L/c/c/bd207d/CTF-BT-LavaRefinery.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament/Maps/BunnyTrack/L/c/c/bd207d/CTF-BT-LavaRefinery.zip"
-  main: false
-  repack: false
-  state: "OK"
-- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament/Maps/BunnyTrack/L/c/c/bd207d/CTF-BT-LavaRefinery.zip"
-  main: false
   repack: false
   state: "OK"
 links: {}
