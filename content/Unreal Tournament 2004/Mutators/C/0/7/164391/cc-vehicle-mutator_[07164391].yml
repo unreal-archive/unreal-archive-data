@@ -1,0 +1,99 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-04-02 00:22"
+game: "Unreal Tournament 2004"
+name: "Cc Vehicle Mutator"
+author: "Unknown"
+description: "None"
+releaseDate: "2004-12"
+attachments: []
+originalFilename: "cc-vehicle-mutator.zip"
+hash: "0716439151bfbd166d21b29b9958d32cf5c4a765"
+fileSize: 11772520
+files:
+- name: "utcncstaticmesh.usx"
+  fileSize: 2727165
+  hash: "35f84c27e5fe33d3fdcf77e217e4dfb3573e8e77"
+- name: "utcncmechtex.utx"
+  fileSize: 14856049
+  hash: "6b1c7aee64290bb2ac83ee972e70490724f77bb9"
+- name: "utcncmechanim.ukx"
+  fileSize: 3843145
+  hash: "081e49262602fc16026d0085e38c27a7afda2569"
+- name: "cncvehiclepack.u"
+  fileSize: 496372
+  hash: "43dd4876d8588b0c71e99ce47a1b65855810abd3"
+otherFiles: 2
+dependencies:
+  utcncmechanim.ukx:
+  - status: "OK"
+    name: "utcncmechtex"
+  cncvehiclepack.u:
+  - status: "OK"
+    name: "utcncmechanim"
+  - status: "OK"
+    name: "utcncstaticmesh"
+  - status: "OK"
+    name: "utcncmechtex"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%202004/Mutators/C/0/7/164391/cc-vehicle-mutator.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UTC&C Turret Mutator"
+  description: "Replace the Unreal laser turrets with defenses from the Command and\
+    \ Conquer Universe."
+- name: "UTC&C Vehicle Mutator"
+  description: "Replace the Unreal vehicles with units from the Command and Conquer\
+    \ Universe."
+weapons: []
+vehicles:
+- name: "APC"
+  description: "APC"
+- name: "APC"
+  description: "APC"
+- name: "Advanced Guard Tower"
+  description: "Advanced Guard Tower"
+- name: "Apocalypse Tank"
+  description: "Apocalypse Tank"
+- name: "Bradley"
+  description: "Bradley"
+- name: "Raptor"
+  description: "Raptor"
+- name: "Flak Track Flak Turret"
+  description: "Flak Track Flak Turret"
+- name: "Flak Track"
+  description: "Flak Track"
+- name: "Flame Tank"
+  description: "Flame Tank"
+- name: "Grizzly"
+  description: "Grizzly"
+- name: "Humm-Vee"
+  description: "Humm-Vee"
+- name: "MRLS"
+  description: "MRLS"
+- name: "Mobile Artillery"
+  description: "Mobile Artillery"
+- name: "Recon Bike"
+  description: "Recon Bike"
+- name: "Nod Turret"
+  description: "Nod Turret"
+- name: "Obelisk of light"
+  description: "Obelisk of light"
+- name: "Orca"
+  description: "Orca"
+- name: "Rhino"
+  description: "Rhino"
+- name: "RPG Turret"
+  description: "RPG Turret"
+- name: "SAM Site"
+  description: "SAM Site"
+- name: "Sentry Gun"
+  description: "Sentry Gun"
+- name: "Stealth Tank"
+  description: "Stealth Tank"
+hasConfigMenu: false
+hasKeybinds: false
