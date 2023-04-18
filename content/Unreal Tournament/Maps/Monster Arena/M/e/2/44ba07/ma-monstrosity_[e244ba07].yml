@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-16 12:04"
+variationOf: "428a02b0814f936005f57a21a64ddfcbcf2ed5b3"
+game: "Unreal Tournament"
+name: "MA-Monstrosity"
+author: "Marton Xerxuon"
+description: "Beware the skaarj!"
+releaseDate: "2005-11"
+attachments:
+- type: "IMAGE"
+  name: "ma-monstrosity_shot_e244ba07_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Monster%20Arena/M/e/2/44ba07/ma-monstrosity_shot_e244ba07_1.png"
+originalFilename: "MA-Monstrosity.zip"
+hash: "e244ba072d2c29262b48bab9d784b493f53240ad"
+fileSize: 2906793
+files:
+- name: "MA-Monstrosity.unr"
+  fileSize: 616591
+  hash: "1d94a479b1f329d8a39320382b48697c3cca5d17"
+- name: "nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+- name: "7B-IntoTheFray.umx"
+  fileSize: 2152307
+  hash: "904b2235ff4ff8a0d777fc9216e65d292dd781e3"
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+otherFiles: 0
+dependencies:
+  MA-Monstrosity.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Watcher"
+  - status: "OK"
+    name: "Nali"
+  - status: "OK"
+    name: "7B-IntoTheFray"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Monster%20Arena/M/e/2/44ba07/MA-Monstrosity.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Arena"
+title: "Monstrosity"
+playerCount: "3 to 6"
+themes:
+  Natural: 1.0
+bots: true

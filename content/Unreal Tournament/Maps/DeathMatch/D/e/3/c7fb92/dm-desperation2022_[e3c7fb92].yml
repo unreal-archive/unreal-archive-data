@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-03-04 15:02"
+game: "Unreal Tournament"
+name: "DM-Desperation2022"
+author: "Jacobus 'kes' Dekkers // 2022 by subz`"
+description: "Welcome to Desperation"
+releaseDate: "2022-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-desperation2022_shot_e3c7fb92_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/D/e/3/c7fb92/dm-desperation2022_shot_e3c7fb92_1.png"
+originalFilename: "DM-Desperation2022.rar"
+hash: "e3c7fb929e2b731f0c2905fd2eb2a299e7aaba10"
+fileSize: 32931628
+files:
+- name: "anc2.utx"
+  fileSize: 2050350
+  hash: "93a5cb18607edd3867080202991b730b418d9849"
+- name: "HourIndusX_UT.utx"
+  fileSize: 10698925
+  hash: "05855bf28aa4f5751840ff32d517ac24921ef866"
+- name: "Ace.utx"
+  fileSize: 30412803
+  hash: "00f7ecf344bf6c6e16068cf715aae5d82b6bf501"
+- name: "DM-Desperation2022.unr"
+  fileSize: 4928101
+  hash: "669ca7042a36e11fd7f3552ed440a39684d9d11d"
+otherFiles: 0
+dependencies:
+  DM-Desperation2022.unr:
+  - status: "OK"
+    name: "Ace"
+  - status: "OK"
+    name: "HourIndusX_UT"
+  - status: "OK"
+    name: "anc2"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/D/e/3/c7fb92/DM-Desperation2022.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Desperation2022"
+playerCount: "4-8"
+themes:
+  Industrial: 0.5
+  Ancient: 0.4
+bots: true
