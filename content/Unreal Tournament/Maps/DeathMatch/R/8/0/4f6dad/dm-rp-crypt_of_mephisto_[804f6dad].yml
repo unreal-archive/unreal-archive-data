@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:14"
+game: "Unreal Tournament"
+name: "DM-RP-Crypt_of_Mephisto"
+author: "Raven"
+description: "You die painful death"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-rp-crypt_of_mephisto_shot_804f6dad_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/8/0/4f6dad/dm-rp-crypt_of_mephisto_shot_804f6dad_1.png"
+originalFilename: "dmrptcom.zip"
+hash: "804f6dad161c206fb4cd505c27b43ec426f29570"
+fileSize: 676928
+files:
+- name: "TCOM.utx"
+  fileSize: 9959
+  hash: "6e2730c9523f3e0079d65fac58b03b74be929b25"
+- name: "DM-RP-The Crypt of DM-RP-The Crypt of Mephisto.umod"
+  fileSize: 1880217
+  hash: "fa9075d039a5586566de15b9c08c06c4501c33b9"
+- name: "DM-RP-Crypt_of_Mephisto.unr"
+  fileSize: 1076572
+  hash: "94365bfeb07a21197ed54a982d1530b7f2fd3ca6"
+- name: "dmrptcom.uax"
+  fileSize: 242256
+  hash: "eeeaeda86229a75f2cf76b0fa3a7656db8152e2b"
+- name: "TCOAG.utx"
+  fileSize: 300275
+  hash: "87f1d396ac1992e767709b760ab03cc9f2a64614"
+- name: "TCOAG.u"
+  fileSize: 246906
+  hash: "5760bf8650e6d01d50f1b43db43f3c55c68870de"
+otherFiles: 1
+dependencies:
+  DM-RP-Crypt_of_Mephisto.unr:
+  - status: "OK"
+    name: "TCOM"
+  - status: "OK"
+    name: "dmrptcom"
+  - status: "OK"
+    name: "TCOAG"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/8/0/4f6dad/dmrptcom.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Crypt of Mephisto"
+playerCount: "3-5"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.9
+bots: true

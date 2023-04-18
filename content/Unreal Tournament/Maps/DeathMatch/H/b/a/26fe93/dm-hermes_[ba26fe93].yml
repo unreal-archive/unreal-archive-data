@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:14"
+variationOf: "0f3cdd4a38459914299c06c075c40e45865e46e8"
+game: "Unreal Tournament"
+name: "DM-Hermes"
+author: "Hubert 'Charon' Switek"
+description: "None"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-hermes_shot_ba26fe93_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/H/b/a/26fe93/dm-hermes_shot_ba26fe93_1.png"
+originalFilename: "hermes.zip"
+hash: "ba26fe93c85d0b9181bdd6b6ad53a491e2065df4"
+fileSize: 239769
+files:
+- name: "DM-Hermes.unr"
+  fileSize: 703598
+  hash: "511a3870321ea38f2f5006d8edec2fe8800738d9"
+- name: "Charons_AShard10.u"
+  fileSize: 22788
+  hash: "f9684748e6ccde2dfd851c1686dc9d982f36b5cf"
+otherFiles: 1
+dependencies:
+  DM-Hermes.unr:
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Charons_AShard10"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/H/b/a/26fe93/hermes.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Hermes"
+playerCount: "2-4"
+themes:
+  Tech: 1.0
+bots: true

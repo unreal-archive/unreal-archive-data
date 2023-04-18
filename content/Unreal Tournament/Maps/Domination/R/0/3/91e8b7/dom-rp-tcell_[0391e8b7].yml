@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:14"
+game: "Unreal Tournament"
+name: "DOM-RP-TCell"
+author: "Raven"
+description: "None"
+releaseDate: "2001-12"
+attachments:
+- type: "IMAGE"
+  name: "dom-rp-tcell_shot_0391e8b7_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/Domination/R/0/3/91e8b7/dom-rp-tcell_shot_0391e8b7_1.png"
+originalFilename: "domrptc.zip"
+hash: "0391e8b7a8811bccf4e754601ddd0f47cad85859"
+fileSize: 308601
+files:
+- name: "Cube.utx"
+  fileSize: 45316
+  hash: "1e83aa7a4fdfbb038042baed7e0bd62153a57e8e"
+- name: "DOM-RP-TCell.unr"
+  fileSize: 964286
+  hash: "5d5828fc12f7c450bf869f027295026ffff88be3"
+- name: "domrptc.umod"
+  fileSize: 1012978
+  hash: "e000cc8a18bf7a566c83066b8cfc39b17ace77c0"
+otherFiles: 1
+dependencies:
+  DOM-RP-TCell.unr:
+  - status: "OK"
+    name: "Cube"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/Domination/R/0/3/91e8b7/domrptc.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Domination"
+title: "Titan Cell"
+playerCount: "4-6"
+themes:
+  Tech: 0.4
+  Natural: 0.1
+  Industrial: 0.5
+bots: true

@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:14"
+game: "Unreal Tournament"
+name: "DM-RP-1on1-RaegXP"
+author: "Raven"
+description: "None"
+releaseDate: "2004-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-rp-1on1-raegxp_shot_e3142593_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/1%20on%201/D/e/3/142593/dm-rp-1on1-raegxp_shot_e3142593_1.png"
+originalFilename: "RaegXP.rar"
+hash: "e31425939ea260e000012966bdaac6a5b9e52f45"
+fileSize: 396164
+files:
+- name: "DM-RP-1on1-RaegXP.unr"
+  fileSize: 1257315
+  hash: "2ade2e8e6d9592077c10c573a1c4ccad6c4dc139"
+- name: "RaegXP.utx"
+  fileSize: 113574
+  hash: "113acb93ad073f780feaa811e2ca000b34950633"
+- name: "RainGenerator.u"
+  fileSize: 21749
+  hash: "74db99f853274f17c1a2eff7f289a5536f024ba8"
+- name: "Rain.utx"
+  fileSize: 29839
+  hash: "aa6dbf42cc07331dab8b2a01b4580d26224bf892"
+otherFiles: 1
+dependencies:
+  DM-RP-1on1-RaegXP.unr:
+  - status: "OK"
+    name: "RainGenerator"
+  - status: "OK"
+    name: "RaegXP"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/1%20on%201/D/e/3/142593/RaegXP.rar"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "1 on 1"
+title: "RaegXP"
+playerCount: "2"
+themes:
+  City: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.2
+bots: true

@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-04-09 22:14"
+game: "Unreal Tournament"
+name: "DM-RP-BadDream"
+author: "Raven"
+description: "You die painful death!!!"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-rp-baddream_shot_407ad6bb_1.png"
+  url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/R/4/0/7ad6bb/dm-rp-baddream_shot_407ad6bb_1.png"
+originalFilename: "BadDream.zip"
+hash: "407ad6bb11f5821062888aea54f33014eb89106d"
+fileSize: 5212702
+files:
+- name: "BD_piorun.utx"
+  fileSize: 513400
+  hash: "ca58dea2480712c1b7ae4cc47c8d970fafd787e7"
+- name: "BadDream.utx"
+  fileSize: 5256390
+  hash: "cef4614f9a2c36598d7dcd9a10c79dd870f20737"
+- name: "gateways.umx"
+  fileSize: 1025666
+  hash: "d5336d997f7406403ffda19c8f83d6091a4ff9a2"
+- name: "dmrptcom.uax"
+  fileSize: 242256
+  hash: "eeeaeda86229a75f2cf76b0fa3a7656db8152e2b"
+- name: "DM-RP-BadDream.unr"
+  fileSize: 1839848
+  hash: "946bfcc8044fd3318de021951ce2ac5a08143261"
+- name: "BadDream_snd.uax"
+  fileSize: 121689
+  hash: "ee8ec362c4a9bb669bb70db43a7f498e11343eb7"
+otherFiles: 1
+dependencies:
+  DM-RP-BadDream.unr:
+  - status: "OK"
+    name: "gateways"
+  - status: "OK"
+    name: "BadDream_snd"
+  - status: "OK"
+    name: "BD_piorun"
+  - status: "OK"
+    name: "BadDream"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/R/4/0/7ad6bb/BadDream.zip"
+  main: true
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Bad Dream - The Crypt of Mephisto ]["
+playerCount: "6-8"
+themes:
+  Skaarj Crypt: 0.6
+  Ancient: 0.3
+bots: true
