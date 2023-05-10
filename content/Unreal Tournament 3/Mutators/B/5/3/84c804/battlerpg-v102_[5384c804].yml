@@ -1,0 +1,146 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-02-13 05:32"
+game: "Unreal Tournament 3"
+name: "BattleRPG V10.2"
+author: "Nico de Vries"
+description: "With BattleRPG each player gets a persistent level and persistent experience.\
+  \ This means the server keeps a database and remembers your achievements permanently.\
+  \ For each point you score you get experience, if you have enough experience you\
+  \ go to the next level: * The first 25 levels are very easy to get players to learn\
+  \ how RPG works * Reaching level 80 requires some serious playing but is doable\
+  \ * Level 100 is tougher to reach * Over level 100 it becomes hard * Over level\
+  \ 110 it becomes extremely hard  Besides experience and levels you also collect\
+  \ Mana. Mana is not persisent, if you leave the server you lose your Mana. Mana\
+  \ can be used for artifacts and for the Ultra GIB and Quantum weapon magic.  For\
+  \ each level you get some RPG$. With those RPG$ you can buy abilities. You can press\
+  \ the L button to open the BattleRPG menu and start buying (or selling) abilities.\
+  \  Examples of abilities are 'Health bonus', 'Weapon speed', 'Vampirism' and 'Quick\
+  \ foot'.  BattleRPG also has magic weapons. Examples of magic are 'Quantum', 'Bounce',\
+  \ 'Knockback' and 'Ultra GIB'.  BattleRPG also has artifacts. Examples of artifacts\
+  \ are 'God Mode', 'Spiderpig' and 'Mana Gambling'."
+releaseDate: "2009-06-27"
+attachments: []
+originalFilename: "BattleRPG_V10.2.7z"
+hash: "5384c804f0bbdbf236f955b17326722f255174ff"
+fileSize: 15351349
+files:
+- name: "GaltanorsInvasion.u"
+  fileSize: 641426
+  hash: "ebf5d581fef53d6a8ed1b722bc2212f1f1ea5649"
+- name: "UTGamePlus.u"
+  fileSize: 802740
+  hash: "fe178d753c9683e02d3a1e0c3159bd4c85e85178"
+- name: "GaltanorsInvasionContent.upk"
+  fileSize: 6863857
+  hash: "6c9eaa02db41afd6c2a6d3ee76f925489800b956"
+- name: "BattleRPG.u"
+  fileSize: 693967
+  hash: "3bd683068ac89b84d2e544da648383ae9cbd239d"
+- name: "GaltanorsInvasionContent.upk"
+  fileSize: 6863857
+  hash: "6c9eaa02db41afd6c2a6d3ee76f925489800b956"
+- name: "BattleRPG.u"
+  fileSize: 696730
+  hash: "7cb26ecaac532219d2234c2717afa17a37e1a294"
+- name: "UTGamePlusContent.upk"
+  fileSize: 649180
+  hash: "90ab3898a54b0187b677b0f81c4dcf678c856519"
+- name: "BattleRPGContent.upk"
+  fileSize: 3752641
+  hash: "97efe64b223abd1ae51be0fc681e74f106cc62df"
+- name: "UTGamePlusContent.upk"
+  fileSize: 649180
+  hash: "90ab3898a54b0187b677b0f81c4dcf678c856519"
+- name: "CH_DHRodents_GICH.upk"
+  fileSize: 10159363
+  hash: "83d22f1cd32193a7a5d85110193e47efaa15ab62"
+- name: "BattleRPG.u"
+  fileSize: 665793
+  hash: "e902cc32fa33a65b4c60e2243327c7bb7cc5514a"
+- name: "GaltanorsInvasion.u"
+  fileSize: 641426
+  hash: "ebf5d581fef53d6a8ed1b722bc2212f1f1ea5649"
+- name: "CH_DHRodents_GICH.upk"
+  fileSize: 10159363
+  hash: "83d22f1cd32193a7a5d85110193e47efaa15ab62"
+- name: "UTGamePlus.u"
+  fileSize: 802740
+  hash: "fe178d753c9683e02d3a1e0c3159bd4c85e85178"
+otherFiles: 25
+dependencies:
+  UTGamePlus.u:
+  - status: "OK"
+    name: "UTGamePlusContent"
+  GaltanorsInvasion.u:
+  - status: "OK"
+    name: "CH_DHRodents_GICH"
+  - status: "OK"
+    name: "GaltanorsInvasionContent"
+  BattleRPG.u:
+  - status: "OK"
+    name: "UTGamePlus"
+  - status: "OK"
+    name: "BattleRPGContent"
+downloads:
+- url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament%203/Mutators/B/5/3/84c804/BattleRPG_V10.2.7z"
+  main: true
+  repack: false
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%203/Mutators/B/5/3/84c804/BattleRPG_V10.2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%203/Mutators/B/5/3/84c804/BattleRPG_V10.2.7z"
+  main: false
+  repack: false
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%203/Mutators/B/5/3/84c804/BattleRPG_V10.2.7z"
+  main: false
+  repack: false
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BattleRPG"
+  description: "BattleRPG adds RPG to UT3"
+- name: "BattleRPG"
+  description: "BattleRPG adds RPG to UT3"
+- name: "Open Vehicles"
+  description: "Unlocks all vehicles on a map so any team can grab them."
+- name: "Always Dualies"
+  description: "Always give players dual enforcer to start with."
+- name: "Weapon Arena"
+  description: "Specify what weapons players start with and what to do with the weapons\
+    \ in the level."
+- name: "Instagib Arena"
+  description: "All players get only an instagib rifle."
+- name: "Map Specific Settings"
+  description: "Allow you to customize game settings at various levels by game type,\
+    \ map type, and specific maps. You can override values at any level and even specify\
+    \ additional mutators!"
+- name: "Connection Logger"
+  description: "Keeps a log of all players that connect to your server as well as\
+    \ their IP addresses and unique ids."
+- name: "Open Vehicles"
+  description: "Unlocks all vehicles on a map so any team can grab them."
+- name: "Always Dualies"
+  description: "Always give players dual enforcer to start with."
+- name: "Weapon Arena"
+  description: "Specify what weapons players start with and what to do with the weapons\
+    \ in the level."
+- name: "Instagib Arena"
+  description: "All players get only an instagib rifle."
+- name: "Map Specific Settings"
+  description: "Allow you to customize game settings at various levels by game type,\
+    \ map type, and specific maps. You can override values at any level and even specify\
+    \ additional mutators!"
+- name: "Connection Logger"
+  description: "Keeps a log of all players that connect to your server as well as\
+    \ their IP addresses and unique ids."
+- name: "BattleRPG"
+  description: "BattleRPG adds RPG to UT3"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
