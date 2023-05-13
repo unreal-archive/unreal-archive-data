@@ -74,11 +74,11 @@ steps:
       LANGUAGE: "en_US:en"
       LC_ALL: "en_US.UTF-8"
       SITE_URL: https://unrealarchive.org
-      MSE_CONTENT_URL: https://unrealarchive.org/search/api/ua
-      MSE_CONTENT_TOKEN:
+      MES_CONTENT_URL: https://unrealarchive.org/search/api/ua
+      MES_CONTENT_TOKEN:
         from_secret: MSE_TOKEN
-      MSE_WIKI_URL: https://unrealarchive.org/search/api/uaw
-      MSE_WIKI_TOKEN:
+      MES_WIKI_URL: https://unrealarchive.org/search/api/uaw
+      MES_WIKI_TOKEN:
         from_secret: MSE_TOKEN
     commands:
       - apt update && apt install -y locales-all
