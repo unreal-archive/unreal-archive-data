@@ -75,7 +75,7 @@ per the command listing above.
 If you're familiar with Java, some of the more interesting work to be done is
 in the content indexing process. You'll find all the code for content 
 classification, data types, the indexing process and individual content type
-metadata extraction within the `net.shrimpworks.unreal.archive.content` package
+metadata extraction within the `org.unrealarchive.indexing` package
 within the `src` directory.
 
 There are certainly improvements which can be made to things like author 
