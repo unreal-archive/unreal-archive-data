@@ -65,7 +65,7 @@ maps:
   screenshot:
     type: "IMAGE"
     name: "spf-aeryopolis15555104113526700482.png"
-    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/S/spatial-fear/maps/spf-aeryopolis15555104113526700482.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/S/spatial-fear/spf-aeryopolis15555104113526700482.png"
 - name: "SPF-Command"
   title: "Command"
   author: "IVANGRAPHICS"
@@ -96,7 +96,7 @@ maps:
   screenshot:
     type: "IMAGE"
     name: "spf-journeysend16376161065569929016.png"
-    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/S/spatial-fear/maps/spf-journeysend16376161065569929016.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/S/spatial-fear/spf-journeysend16376161065569929016.png"
 - name: "SPF-Science"
   title: "Science"
   author: "Abram 'Atmosphere' Andis"
@@ -106,7 +106,7 @@ maps:
   screenshot:
     type: "IMAGE"
     name: "spf-training2484854928385473114.png"
-    url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/GameTypes/S/spatial-fear/maps/spf-training2484854928385473114.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/S/spatial-fear/spf-training2484854928385473114.png"
 - name: "SPF-intro"
   title: "Intro Sequence"
   author: "IVANGRAPHICS [Ivan Tanziura]"
@@ -121,24 +121,19 @@ releases:
     platform: "ANY"
     downloads:
     - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/spatial-fear/Spatial_Fear_1.2_ZIP.zip"
-      main: true
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://www.moddb.com/mods/spatial-fear/downloads/spatial-fear-12-zip"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://unrealarchiveusa.blob.core.windows.net/files/gametypes/Unreal%20Tournament/spatial-fear/Spatial_Fear_1.2_ZIP.zip"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://unrealarchivesgp.blob.core.windows.net/files/gametypes/Unreal%20Tournament/spatial-fear/Spatial_Fear_1.2_ZIP.zip"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/spatial-fear/Spatial_Fear_1.2_ZIP.zip"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     originalFilename: "Spatial_Fear_1.2_ZIP.zip"
     hash: "4cce735971ecc5b0b7e07e66f7601821d886e64e"
@@ -428,24 +423,19 @@ releases:
     platform: "WINDOWS"
     downloads:
     - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/spatial-fear/199-SpartialFear1.2_Setup.exe"
-      main: true
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://www.moddb.com/mods/spatial-fear/downloads/spatial-fear-12-setup"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://unrealarchiveusa.blob.core.windows.net/files/gametypes/Unreal%20Tournament/spatial-fear/199-SpartialFear1.2_Setup.exe"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://unrealarchivesgp.blob.core.windows.net/files/gametypes/Unreal%20Tournament/spatial-fear/199-SpartialFear1.2_Setup.exe"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/spatial-fear/199-SpartialFear1.2_Setup.exe"
-      main: false
-      repack: false
+      direct: false
       state: "OK"
     originalFilename: "199-SpartialFear1.2_Setup.exe"
     hash: "02cc8555ca964bd776e7263d3c9dacec4cbce2ac"

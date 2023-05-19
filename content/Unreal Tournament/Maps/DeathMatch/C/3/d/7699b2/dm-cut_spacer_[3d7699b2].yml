@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-20 06:28"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-CUT_Spacer"
 author: "MassChAoS"
@@ -11,6 +10,9 @@ attachments:
 - type: "IMAGE"
   name: "dm-cut_spacer_shot_3d7699b2_1.png"
   url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/3/d/7699b2/dm-cut_spacer_shot_3d7699b2_1.png"
+- type: "IMAGE"
+  name: "dm-cut_spacer_shot_3d7699b2_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/3/d/7699b2/dm-cut_spacer_shot_3d7699b2_1.png"
 originalFilename: "dm-cut_spacer_v1.zip"
 hash: "3d7699b2f1396f1a697940bf35d990ae2f11fc55"
 fileSize: 263126
@@ -23,23 +25,19 @@ dependencies:
   DM-CUT_Spacer.unr:
   - status: "MISSING"
     name: "ChaosUT"
-    providedBy: null
   - status: "MISSING"
     name: "UTChaosMap"
-    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/chaosut&file=dm-cut_spacer_v1.zip"
-  main: false
-  repack: false
+  direct: false
   state: "OK"
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/dm-cut_spacer_v1.zip"
-  main: true
-  repack: false
+  direct: false
   state: "OK"
 - url: "https://files.vohzd.com/unreal/unreal-tournament/maps/death-match/dm-cut_spacer_v1.zip"
-  main: false
-  repack: false
+  direct: false
   state: "OK"
+links: {}
 deleted: false
 gametype: "DeathMatch"
 title: "Chaos In Space!"

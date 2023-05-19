@@ -1,7 +1,6 @@
 --- !<MAP>
 contentType: "MAP"
 firstIndex: "2018-10-19 14:40"
-variationOf: null
 game: "Unreal Tournament"
 name: "DM-CUT_DM4"
 author: "by MassChAoS; rebuild of Q2 level by Nat"
@@ -11,6 +10,9 @@ attachments:
 - type: "IMAGE"
   name: "dm-cut_dm4_shot_38b7e40b_1.png"
   url: "https://f002.backblazeb2.com/file/unreal-archive-images/Unreal%20Tournament/Maps/DeathMatch/C/3/8/b7e40b/dm-cut_dm4_shot_38b7e40b_1.png"
+- type: "IMAGE"
+  name: "dm-cut_dm4_shot_38b7e40b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/3/8/b7e40b/dm-cut_dm4_shot_38b7e40b_1.png"
 originalFilename: "DM-CUT_DM4.zip"
 hash: "38b7e40bb3ff2a7dbed6ec09781fa80a3b497a96"
 fileSize: 3501825
@@ -32,68 +34,51 @@ dependencies:
   ChaosUT.u:
   - status: "MISSING"
     name: "ChaosSounds"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUTMedia3"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUTMedia4"
-    providedBy: null
   - status: "MISSING"
     name: "chaostex2"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUTMedia1"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUTMedia2"
-    providedBy: null
   - status: "MISSING"
     name: "chaos_special_tex"
-    providedBy: null
   - status: "MISSING"
     name: "chaostex"
-    providedBy: null
   - status: "MISSING"
     name: "chaossounds2"
-    providedBy: null
   UTChaosMap.u:
   - status: "MISSING"
     name: "ChaosSounds"
-    providedBy: null
   - status: "MISSING"
     name: "ChaosUTMedia3"
-    providedBy: null
   - status: "MISSING"
     name: "Chaostex"
-    providedBy: null
   DM-CUT_DM4.unr:
   - status: "OK"
     name: "CUT_DM4"
-    providedBy: null
   - status: "OK"
     name: "ChaosUT"
-    providedBy: null
   - status: "OK"
     name: "UTChaosMap"
-    providedBy: null
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=Maps/DeathMatch&file=DM-CUT_DM4.zip"
-  main: false
-  repack: false
+  direct: false
   state: "OK"
 - url: "https://f002.backblazeb2.com/file/unreal-archive-files/Unreal%20Tournament/Maps/DeathMatch/C/DM-CUT_DM4.zip"
-  main: true
-  repack: false
+  direct: false
   state: "OK"
 - url: "https://files.vohzd.com/unreal/unreal-tournament/maps/death-match/DM-CUT_DM4.zip"
-  main: false
-  repack: false
+  direct: false
   state: "OK"
+links: {}
 deleted: false
 gametype: "DeathMatch"
 title: "Jump"
 playerCount: "4 - 14"
 themes:
-  Industrial: 1
+  Industrial: 1.0
 bots: true

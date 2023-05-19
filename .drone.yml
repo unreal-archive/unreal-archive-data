@@ -5,6 +5,11 @@ type: docker
 concurrency:
   limit: 1
 
+
+clone:
+  depth: 1
+  retries: 2
+
 steps:
   - name: submodules
     image: alpine/git
