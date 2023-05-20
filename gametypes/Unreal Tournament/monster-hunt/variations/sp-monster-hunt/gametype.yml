@@ -1,11 +1,11 @@
---- !<GameType>
+---
 contentType: "GameType"
 addedDate: "2021-11-21"
 game: "Unreal Tournament"
 name: "SP Monster Hunt"
 author: "Sniper's Paradise"
-description: "Sniper's Paradise Monster Hunt is a team based modification for Unreal Tournament ported\
-  \ to Unreal."
+description: "Sniper's Paradise Monster Hunt is a team based modification for Unreal\
+  \ Tournament ported to Unreal."
 titleImage: ""
 bannerImage: ""
 links:
@@ -24,13 +24,11 @@ releases:
     localFile: "/tmp/mozilla_shrimp0/SP_MonsterHunt.zip"
     platform: "ANY"
     downloads:
-    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/sp-monster-hunt/SP_MonsterHunt.zip"
-      main: true
-      repack: false
-      state: "OK"
     - url: "http://www.snipersparadise.net/download/mods/SP_MonsterHunt.zip"
-      main: true
-      repack: false
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/sp-monster-hunt/SP_MonsterHunt.zip"
+      direct: true
       state: "OK"
     originalFilename: "SP_MonsterHunt.zip"
     hash: "4044fe4130d5f3cee80dd7f89cffc5ac67faf3f6"

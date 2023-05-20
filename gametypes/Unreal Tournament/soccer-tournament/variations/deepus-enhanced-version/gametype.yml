@@ -1,4 +1,4 @@
---- !<GameType>
+---
 contentType: "GameType"
 addedDate: "2020-12-18"
 game: "Unreal Tournament"
@@ -8,7 +8,6 @@ description: "Soccer Tournament is a fun little mod which allows you to play a f
   \ of soccer in a variety of interesting and unusual locations."
 titleImage: ""
 bannerImage: ""
-releaseDate: "2018-04"
 links:
   Homepage: "http://forum.ultimateut.tk/viewtopic.php?f=4&t=996"
 credits:
@@ -18,6 +17,9 @@ credits:
   - "[os]rush"
   Original mod:
   - "Kenneth \"Shrimp\" Watson"
+gameTypes: []
+mutators: []
+maps: []
 releases:
 - title: "Release"
   version: "2019-10"
@@ -28,13 +30,11 @@ releases:
     localFile: "/home/shrimp/tmp/Soccer.zip"
     platform: "ANY"
     downloads:
-    - url: "https://f002.backblazeb2.com/file/unreal-archive-files/gametypes/Unreal%20Tournament/deepus-version/Soccer.zip"
-      main: true
-      repack: false
-      state: "OK"
     - url: "http://ultimateut.tk/ut_files/game_types/Soccer.zip"
-      main: false
-      repack: false
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/deepus-enhanced-version/Soccer.zip"
+      direct: true
       state: "OK"
     originalFilename: "Soccer.zip"
     hash: "0a2657c36da7aa63177808c3e9eb637b03b3d6e6"
@@ -56,6 +56,5 @@ releases:
       Soccer.u:
       - status: "OK"
         name: "SoccerSounds"
-        providedBy: null
   deleted: false
 deleted: false
