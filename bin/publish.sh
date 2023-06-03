@@ -22,7 +22,7 @@ mkdir -p ${WWW_LOCATION}
 ${UA_BIN} www ${WWW_LOCATION} --content-path=$1 --store=NOP \
   --with-search=true \
   --with-latest=true \
-  --with-submit=true \
+  --with-submit=false \
   --with-packages=true \
   --with-wikis=true
 
