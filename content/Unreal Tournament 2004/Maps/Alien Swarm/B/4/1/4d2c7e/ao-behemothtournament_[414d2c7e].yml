@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-06-17 20:51"
+game: "Unreal Tournament 2004"
+name: "AO-BehemothTournament"
+author: "reallybaddog"
+description: "None"
+releaseDate: "2005-04"
+attachments: []
+originalFilename: "AO-BehemothTournament.zip"
+hash: "414d2c7e0c350e4c8725693d39a7b86b200a6716"
+fileSize: 1105844
+files:
+- name: "BeToursounds.uax"
+  fileSize: 1093227
+  hash: "1d7bb294eb74470b2d12dd1d9d0b2ef3154e5831"
+- name: "AO-BehemothTournament.ut2"
+  fileSize: 954700
+  hash: "bc0622d369c9cd6393b0d9d4dddb544632bc8c93"
+- name: "BehTex.utx"
+  fileSize: 7030
+  hash: "c22a1ef3ee6c138484b494f494b06031823bbfed"
+otherFiles: 1
+dependencies:
+  AO-BehemothTournament.ut2:
+  - status: "MISSING"
+    name: "AoQueenSounds"
+  - status: "OK"
+    name: "BeToursounds"
+  - status: "MISSING"
+    name: "AoSoldierPortraits"
+  - status: "OK"
+    name: "BehTex"
+  - status: "MISSING"
+    name: "AoPrototype"
+  - status: "MISSING"
+    name: "AoAI"
+  - status: "MISSING"
+    name: "AoInterfaceTextures"
+  - status: "MISSING"
+    name: "AoObjectives"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Alien%20Swarm/B/4/1/4d2c7e/AO-BehemothTournament.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Alien Swarm"
+title: "AO-BehemothTournament"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Natural: 0.1
+  Industrial: 0.4
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-06-17 20:51"
+game: "Unreal Tournament 2004"
+name: "AO-DM-CrabShack"
+author: "Moses2k"
+description: ":o !!!"
+releaseDate: "2005-03"
+attachments: []
+originalFilename: "AO-DM-CrabShack.zip"
+hash: "541ed1f27a0a9b6707d0181e9f43b2c0b099519b"
+fileSize: 1484522
+files:
+- name: "crap.ogg"
+  fileSize: 444016
+  hash: "567ddb42fbc32eddf732697df1ed11cccbeb492f"
+- name: "AO-DM-CrabShack.ut2"
+  fileSize: 729364
+  hash: "57498f11faa8f03248e89d85843ac01afdfac0cc"
+- name: "WLTDOstim.uax"
+  fileSize: 903699
+  hash: "c4f59f41aec6f48515c2cd9caa1e00268e142acb"
+- name: "omg.utx"
+  fileSize: 175648
+  hash: "43941ab8304a95c76c110806c41d5b567abd9f9a"
+- name: "baz.u"
+  fileSize: 1011
+  hash: "35f0024bfab40faec250f41158af905e539ddea4"
+otherFiles: 1
+dependencies:
+  baz.u:
+  - status: "OK"
+    name: "omg"
+  - status: "MISSING"
+    name: "AoSoldierProfiles"
+  AO-DM-CrabShack.ut2:
+  - status: "OK"
+    name: "omg"
+  - status: "OK"
+    name: "WLTDOstim"
+  - status: "MISSING"
+    name: "AoPrototype"
+  - status: "MISSING"
+    name: "AODeco"
+  - status: "MISSING"
+    name: "AoAI"
+  - status: "MISSING"
+    name: "AoObjectives"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Alien%20Swarm/D/5/4/1ed1f2/AO-DM-CrabShack.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Alien Swarm"
+title: "AO-DM-CrabShack"
+playerCount: "2-6"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true
