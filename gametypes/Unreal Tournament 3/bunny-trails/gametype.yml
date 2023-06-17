@@ -1,0 +1,52 @@
+---
+contentType: "GameType"
+addedDate: "2023-06-17"
+game: "Unreal Tournament 3"
+name: "Bunny Trails"
+author: "arDru"
+description: "Bunny Trails is a UT3 team game type in which the goal is to go through\
+  \ a series of obstacles and reach a hard-to-get place faster than the other team\
+  \ does."
+titleImage: "title.png"
+bannerImage: "title.png"
+links:
+  Archived Homepage: "https://web.archive.org/web/20110201110629/http://tamtemple.com/"
+credits: {}
+gameTypes: []
+mutators: []
+maps: []
+releases:
+- title: "Release"
+  version: "20101008"
+  releaseDate: "2010-10-16"
+  description: ""
+  files:
+  - title: "Release ZIP"
+    localFile: "/home/shrimp/Downloads/BunnyTrailsGame_v20101008.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%203/bunny-trails/BunnyTrailsGame_v20101008.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BunnyTrailsGame_v20101008.zip"
+    hash: "b634c329336715e395b21d3c3f15341a0d96d180"
+    fileSize: 114065
+    synced: true
+    deleted: false
+    files:
+    - name: "BTRamp.u"
+      fileSize: 13196
+      hash: "25fa47f043a0681664fe2eafd8a8f721bbeca89f"
+    - name: "BunnyTrailsGameContent.upk"
+      fileSize: 131095
+      hash: "1649cea7bbf3004a3a704c39df5fb107ff83b53d"
+    - name: "BunnyTrailsGame.u"
+      fileSize: 137877
+      hash: "88b89b80b469872f850a1da1dcd53d3128f6429b"
+    otherFiles: 2
+    dependencies:
+      BunnyTrailsGame.u:
+      - status: "OK"
+        name: "BunnyTrailsGameContent"
+  deleted: false
+deleted: false
