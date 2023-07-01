@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-17 23:40"
+game: "Unreal Tournament 3"
+name: "-=Unlimited Translocations=-"
+author: "Unknown"
+description: "Unlimited translocations with UT translocator sounds + Telepunt enabled.\
+  \ Version 1.5, Special edition for UT3 by -=Musc@t=-."
+releaseDate: "2007-12"
+attachments: []
+originalFilename: "UT3-UnlimitedTL.7z"
+hash: "9f3716831b7ebd17aca55c89907e9775a50b8da8"
+fileSize: 204610
+files:
+- name: "UnlimitedTL.u"
+  fileSize: 34272
+  hash: "031c94af5b4689f9aac00e2416a43402b4751171"
+- name: "UTTranslocatorSnds.upk"
+  fileSize: 254665
+  hash: "4f8764b0a99eacd1e08bf7a1d34c7471dac1f7ae"
+otherFiles: 3
+dependencies:
+  UnlimitedTL.u:
+  - status: "OK"
+    name: "UTTranslocatorSnds"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/U/9/f/371683/UT3-UnlimitedTL.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "-=Unlimited Translocations=-"
+  description: "Unlimited translocations with UT translocator sounds + Telepunt enabled.\
+    \ Version 1.5, Special edition for UT3 by -=Musc@t=-."
+weapons:
+- name: "UT99Weap_ImpactHammer"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

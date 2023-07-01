@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-17 23:40"
+game: "Unreal Tournament 3"
+name: "UltraInstagib"
+author: "HO0815XX"
+description: "ULTRA-Instagib !! Gives all players a enhanced InstagibRifle"
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "UltraInstagibV1_71.7z"
+hash: "b2fe74ce183a14258722e76d4e823ae7a6519fec"
+fileSize: 6215175
+files:
+- name: "WP_UltraInstagibRifle.upk"
+  fileSize: 8615452
+  hash: "d792cb90d34ce00f90a0ebc290c142acfc10b5bb"
+- name: "UltraInstagib.u"
+  fileSize: 99498
+  hash: "637a3df26e5c979654533630dfbab88537369cf6"
+- name: "UI_Scenes_UltraInstagib.upk"
+  fileSize: 216161
+  hash: "bd1303e4ccb4d70726b035b943dd4aab0a2dbd14"
+otherFiles: 2
+dependencies:
+  UltraInstagib.u:
+  - status: "OK"
+    name: "WP_UltraInstagibRifle"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/U/b/2/fe74ce/UltraInstagibV1_71.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UltraInstagib"
+  description: "ULTRA-Instagib !! Gives all players a enhanced InstagibRifle"
+weapons:
+- name: "UltraInstagibRifle"
+  description: "ULTRA-InstagibRifle"
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
