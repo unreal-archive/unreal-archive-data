@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-01 07:59"
+game: "Unreal Tournament"
+name: "MH-OperationBlackWidow"
+author: "Aspide"
+description: "Show the Queen who's boss...."
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-operationblackwidow_shot_da9b79fc_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/d/a/9b79fc/mh-operationblackwidow_shot_da9b79fc_1.png"
+originalFilename: "MH-OperationBlackWidowV1.1.zip"
+hash: "da9b79fc8f53c3051e10ed5325c4e292f585d129"
+fileSize: 3893704
+files:
+- name: "zxu97StarOne.umx"
+  fileSize: 707847
+  hash: "65e1758702eabdf3226ffa946d590b56742dc15d"
+- name: "Tarwel.umx"
+  fileSize: 412030
+  hash: "c4f8062590b0f852c675433ea484bf2d0184807b"
+- name: "MH-OperationBlackWidow.unr"
+  fileSize: 7733374
+  hash: "878bcb6e5118ec66ef6faf14b1520a80505e6581"
+- name: "zxu97Orch3.umx"
+  fileSize: 718801
+  hash: "d256fa1b9bf5807617cf3224f22eb7b30270b5f5"
+otherFiles: 1
+dependencies:
+  MH-OperationBlackWidow.unr:
+  - status: "OK"
+    name: "Tarwel"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "zxu97StarOne"
+  - status: "OK"
+    name: "zxu97Orch3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/d/a/9b79fc/MH-OperationBlackWidowV1.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Operation Black Widow"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.3
+  Skaarj Tech: 0.1
+bots: true
