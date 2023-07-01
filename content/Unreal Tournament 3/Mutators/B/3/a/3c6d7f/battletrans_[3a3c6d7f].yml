@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-31 22:01"
+game: "Unreal Tournament 3"
+name: "BattleTRANS"
+author: "Nico de Vries"
+description: ""
+releaseDate: "2008-04"
+attachments: []
+originalFilename: "BattleTRANS_V3.2.7z"
+hash: "3a3c6d7f09604567b0a08e5a6477ca9e46046c8d"
+fileSize: 31652
+files:
+- name: "BattleTRANS.u"
+  fileSize: 68467
+  hash: "2d6224efbe0d8399ff681bffbc9c97dd61fb1dea"
+- name: "BattleTRANSContent.upk"
+  fileSize: 91218
+  hash: "a10a1b0b99a3da4dfc71fc00f1247152bae9aee4"
+otherFiles: 3
+dependencies:
+  BattleTRANS.u:
+  - status: "OK"
+    name: "BattleTRANSContent"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/B/3/a/3c6d7f/BattleTRANS_V3.2.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "BattleTRANS"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
