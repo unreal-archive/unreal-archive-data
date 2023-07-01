@@ -1,0 +1,57 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-07-18 00:16"
+game: "Unreal Tournament 3"
+name: "Mango Map Pack Release"
+author: "Inferno"
+description: "None"
+releaseDate: "2010-04"
+attachments: []
+originalFilename: "Mango Map Pack Release.7z"
+hash: "0757bc5918e77dac5dbb5bf113632cab7df7821b"
+fileSize: 21565639
+files:
+- name: "DM-Afterburn.ut3"
+  fileSize: 10557896
+  hash: "e2ed6c0d60222c5573bf23f3c90bb1cc533ddd6b"
+- name: "DM-Forlorn.ut3"
+  fileSize: 9127058
+  hash: "bd8fb385acb4bbfe124df2bb6afae5cf10df850a"
+- name: "BattleToads.upk"
+  fileSize: 15686941
+  hash: "a4602774eaf923c6ad98ce99a2edef89c9e12eba"
+- name: "DM-Abandon.ut3"
+  fileSize: 57862810
+  hash: "4f61e00e6759f8fa3bc1d43be817016a63b68d4e"
+- name: "Pingas.upk"
+  fileSize: 1181494
+  hash: "c824dc4b39829bcda684bea9c9a081a5a70dddaa"
+- name: "MP_Abandon.upk"
+  fileSize: 1746093
+  hash: "e14741d38722e4683268d2d9cddde94a7423d89a"
+otherFiles: 4
+dependencies:
+  DM-Afterburn.ut3:
+  - status: "OK"
+    name: "BattleToads"
+  DM-Forlorn.ut3:
+  - status: "OK"
+    name: "Pingas"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/MapPacks/M/0/7/57bc59/Mango%20Map%20Pack%20Release.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Afterburn"
+  title: "Afterburn"
+  author: "Inferno"
+- name: "DM-Forlorn"
+  title: "Forlorn"
+  author: "Inferno"
+- name: "DM-Abandon"
+  title: "Abandon"
+  author: "Inferno"
+gametype: "DeathMatch"
+themes: {}
