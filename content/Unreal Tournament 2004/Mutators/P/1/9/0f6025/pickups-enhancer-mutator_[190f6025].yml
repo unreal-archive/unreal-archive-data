@@ -1,0 +1,50 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-01 08:00"
+game: "Unreal Tournament 2004"
+name: "Pickups Enhancer Mutator"
+author: "Unknown"
+description: "Replaces Pickups and Adrenaline with new Pickups."
+releaseDate: "2023-06"
+attachments: []
+originalFilename: "PickupsEnhancerMutatorV1.1.zip"
+hash: "190f6025b1d52bc2264948fade2687875fceb0ef"
+fileSize: 3061533
+files:
+- name: "PickupsEnhancer.u"
+  fileSize: 104488
+  hash: "6db9c1f33b0105ba72161dc8df3505aa45d4bc7d"
+- name: "PickupsEnhancerMesh.usx"
+  fileSize: 403127
+  hash: "72d5b1703b8ecba4aceb68048e1bf4fd2d7799ee"
+- name: "PickupsEnhancerSounds.uax"
+  fileSize: 425441
+  hash: "afe0757532f98cc7a8ee9a8330ec1402252d240d"
+- name: "PickupsEnhancerTextures.utx"
+  fileSize: 9843898
+  hash: "bf7618b4f3edc6e72b21d2f86b91e236f6d719f7"
+otherFiles: 3
+dependencies:
+  PickupsEnhancerMesh.usx:
+  - status: "OK"
+    name: "PickupsEnhancerTextures"
+  PickupsEnhancer.u:
+  - status: "OK"
+    name: "PickupsEnhancerMesh"
+  - status: "OK"
+    name: "PickupsEnhancerSounds"
+  - status: "OK"
+    name: "PickupsEnhancerTextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/P/1/9/0f6025/PickupsEnhancerMutatorV1.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Pickups Enhancer Mutator"
+  description: "Replaces Pickups and Adrenaline with new Pickups."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
