@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-22 16:59"
+game: "Unreal Tournament 3"
+name: "Ut3 Quakes Big Fing Gun"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "ut3_quakes_big_fing_gun.7z"
+hash: "99f3472339dbb32107063b53ff9ab7e7a6a1c8f4"
+fileSize: 8859254
+files:
+- name: "Quake_BFG.upk"
+  fileSize: 12152725
+  hash: "1961c6713c7c09932fe30a80875fc408103aa7ef"
+- name: "UT3_BFG.u"
+  fileSize: 59073
+  hash: "e158eaaee8a9d3cf4d35a1e920f1050f30f7a55a"
+otherFiles: 2
+dependencies:
+  UT3_BFG.u:
+  - status: "OK"
+    name: "Quake_BFG"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/U/9/9/f34723/ut3_quakes_big_fing_gun.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons:
+- name: "UTWeap_BFG"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
