@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-28 14:26"
+game: "Unreal Tournament 3"
+name: "Weapon - Bowgun"
+author: "DazJW"
+description: "Make the Bowgun your starting weapon and alter its characteristics."
+releaseDate: "2009-09"
+attachments:
+- type: "IMAGE"
+  name: "weapon-bowgun_shot_1df8e686_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/W/1/d/f8e686/weapon-bowgun_shot_1df8e686_1.png"
+- type: "IMAGE"
+  name: "weapon-bowgun_shot_1df8e686_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/W/1/d/f8e686/weapon-bowgun_shot_1df8e686_2.png"
+originalFilename: "BowGunBeta2PCbyDazJW.zip"
+hash: "1df8e686ef782568c8aa75cc875043b571700a5c"
+fileSize: 1615763
+files:
+- name: "DZ_WP_BowGun.upk"
+  fileSize: 2576132
+  hash: "945fa3ead1b6463f11fe62a0bec3adcc60da817d"
+- name: "Mod_DZBowGun.u"
+  fileSize: 72681
+  hash: "a2bfa0f81d97460cf01f2641cbfe75bd2bd629bf"
+otherFiles: 5
+dependencies:
+  Mod_DZBowGun.u:
+  - status: "OK"
+    name: "DZ_WP_BowGun"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/W/1/d/f8e686/BowGunBeta2PCbyDazJW.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Weapon - Bowgun"
+  description: "Make the Bowgun your starting weapon and alter its characteristics."
+weapons:
+- name: "Bowgun"
+  description: "There's nothing quite like stealthily flanking your enemy, firing\
+    \ off a near-silent shot and then watching them explode into a shower of gibs."
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false

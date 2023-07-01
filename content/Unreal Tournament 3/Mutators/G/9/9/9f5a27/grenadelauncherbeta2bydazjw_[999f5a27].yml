@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-28 14:27"
+game: "Unreal Tournament 3"
+name: "GrenadeLauncherBeta2byDazJW"
+author: "DazJW"
+description: "None"
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "grenadelauncherbeta2bydazjw_shot_999f5a27_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/G/9/9/9f5a27/grenadelauncherbeta2bydazjw_shot_999f5a27_1.png"
+originalFilename: "GrenadeLauncherBeta2byDazJW.zip"
+hash: "999f5a27a082654eaa30e5b99e768e035a56e70e"
+fileSize: 7604609
+files:
+- name: "DZ_WP_DZQGL.upk"
+  fileSize: 9588254
+  hash: "71f1a30e3c2d21f15aba22088bc8556373d2ac3d"
+- name: "Mod_DZWPQGL.u"
+  fileSize: 31476
+  hash: "defce3595df5a137fd89e75540d89af3548baf52"
+otherFiles: 3
+dependencies:
+  Mod_DZWPQGL.u:
+  - status: "OK"
+    name: "DZ_WP_DZQGL"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/G/9/9/9f5a27/GrenadeLauncherBeta2byDazJW.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Spawn - Grenade Launcher"
+  description: "Spawn with the Grenade Launcher and limited ammo."
+- name: "Arena - Grenade Launcher"
+  description: "Play a Grenade Launcher only game with infinite ammo."
+weapons:
+- name: "Grenade Launcher"
+  description: "The Grenade Launcher can fire bouncing grenades with a timer or impact\
+    \ detonation grenades.  Both types explode on contact with enemies."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
