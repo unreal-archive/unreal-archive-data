@@ -1,0 +1,69 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-27 19:02"
+game: "Unreal Tournament 2004"
+name: "AliensFixed"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-09"
+attachments: []
+originalFilename: "AliensFixed.zip"
+hash: "5be9b5c81e38d8373efb351a95d199eb7a823cc3"
+fileSize: 7809529
+files:
+- name: "AliensFixed.u"
+  fileSize: 1280688
+  hash: "226e427da0aa171ba775d734f5d273b9a480ea17"
+- name: "Xenogibs.utx"
+  fileSize: 1042102
+  hash: "14afaed2a8bebcbbe616795d80d26552715a29ec"
+- name: "EDWAlienTex.utx"
+  fileSize: 1760377
+  hash: "b00fd7a0f73befcba6e913ee3d6e4b647c4aa89d"
+- name: "XenoShaders.utx"
+  fileSize: 121425
+  hash: "8eb922701a863108004bb3b1c34d514f7e05d4f5"
+- name: "Alieninvmesh.ukx"
+  fileSize: 910143
+  hash: "fb455497e397ff1e3171bba194d1fc6236445bf3"
+- name: "EDWAlienQueenMeshINI.ukx"
+  fileSize: 1525290
+  hash: "a9e41296aef679df36ed4aa7bed0b48e5e9379cd"
+- name: "Aliensounds.u"
+  fileSize: 3686185
+  hash: "a8bf542b67fabd28efef0c38dcfa34d948004ab4"
+- name: "AlieninvmeshINI.ukx"
+  fileSize: 1795532
+  hash: "62d705798e4ef46523f43fb45415294fbb66d728"
+otherFiles: 2
+dependencies:
+  EDWAlienTex.utx:
+  - status: "OK"
+    name: "Alieninvmesh"
+  EDWAlienQueenMeshINI.ukx:
+  - status: "OK"
+    name: "EDWAlienTex"
+  AliensFixed.u:
+  - status: "OK"
+    name: "EDWAlienQueenMeshINI"
+  - status: "OK"
+    name: "XenoShaders"
+  - status: "OK"
+    name: "Aliensounds"
+  - status: "OK"
+    name: "AlieninvmeshINI"
+  - status: "OK"
+    name: "EDWAlienTex"
+  - status: "OK"
+    name: "Xenogibs"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/A/5/b/e9b5c8/AliensFixed.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
