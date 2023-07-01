@@ -1,0 +1,47 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-07-26 23:33"
+game: "Unreal Tournament 3"
+name: "DM 1on1 Lavahole Maxed Editon"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "DM-1on1_Lavahole_Maxed editon.7z"
+hash: "ecfc1a92f576bfef19aaaa5f4be61611ce971868"
+fileSize: 7461503
+files:
+- name: "DM-1on1_Lavahole.ut3"
+  fileSize: 26155553
+  hash: "83f06fee1b038dbeaca6969890f8714ab8983ae2"
+- name: "max_ed_lava.upk"
+  fileSize: 3874485
+  hash: "afb00c009ff8173b8ceea49fe4abaed4a25e8374"
+- name: "DM-1on1_Lavahole_maxed_ed.ut3"
+  fileSize: 26398371
+  hash: "abab04d20d8142c6ae015a352af6f69cec27ecd3"
+- name: "Mytest2Package.upk"
+  fileSize: 2035525
+  hash: "a10a2fecfeb71242cd6adf878cd9cbd363b4b604"
+otherFiles: 8
+dependencies:
+  DM-1on1_Lavahole_maxed_ed.ut3:
+  - status: "OK"
+    name: "max_ed_lava"
+  - status: "OK"
+    name: "Mytest2Package"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/MapPacks/D/e/c/fc1a92/DM-1on1_Lavahole_Maxed%20editon.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-1on1_Lavahole"
+  title: "1on1_Lavahole"
+  author: "Unknown"
+- name: "DM-1on1_Lavahole_maxed_ed"
+  title: "1on1_Lavahole_maxed_ed"
+  author: "Unknown"
+gametype: "1 on 1"
+themes: {}
