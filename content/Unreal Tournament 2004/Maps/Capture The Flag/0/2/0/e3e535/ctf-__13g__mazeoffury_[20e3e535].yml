@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-30 18:13"
+game: "Unreal Tournament 2004"
+name: "ctf-__13g__mazeoffury"
+author: "»]13G[«Ghòst»"
+description: "Simple, get thier flag take it tou your base!-But, can u find the flags??"
+releaseDate: "2023-07"
+attachments: []
+originalFilename: "ctf-__13g__mazeoffury.zip"
+hash: "20e3e5356857645ce9f81c44c1307eecd2fa084e"
+fileSize: 1821723
+files:
+- name: "ctf-__13g__mazeoffury.ut2"
+  fileSize: 2259277
+  hash: "5ea66ccfd088e056e289a85dce5ce1afd8ab0325"
+- name: "1Torlanights.utx"
+  fileSize: 5498730
+  hash: "4a2db8c299fe3fe4ddcf1eebd7644a657f369aef"
+- name: "1Tmeshes.usx"
+  fileSize: 178345
+  hash: "337e978a8756c3bf3870e3b62e150b2818376a7b"
+otherFiles: 0
+dependencies:
+  ctf-__13g__mazeoffury.ut2:
+  - status: "OK"
+    name: "1Tmeshes"
+  "1Tmeshes.usx":
+  - status: "OK"
+    name: "1Torlanights"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/0/2/0/e3e535/ctf-__13g__mazeoffury.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Maze Of Fury"
+playerCount: "2-32"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true
