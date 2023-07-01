@@ -1,0 +1,101 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-07-18 00:00"
+game: "Unreal Tournament 3"
+name: "BBMP Final V1 7"
+author: "Inferno"
+description: "None"
+releaseDate: "2010-09"
+attachments: []
+originalFilename: "BBMP Final v1.7.rar"
+hash: "2e948aeb21607ae425bcfdccc93418f6434a0f08"
+fileSize: 87905011
+files:
+- name: "DM-Revelations.ut3"
+  fileSize: 54758616
+  hash: "8a016540de10d9bbcbc6ec03f33d3dd07218b949"
+- name: "MP_SquareCourt.upk"
+  fileSize: 127325
+  hash: "69397c1d91d53a1398ee2f53405e03b6a70cd5c9"
+- name: "CTF-RatTrap_LOC_int.upk"
+  fileSize: 726970
+  hash: "efc7f7f65485f8027e08f38af06de1a2d235e630"
+- name: "TeamSpawn.u"
+  fileSize: 2266
+  hash: "3ec9985b2d433786f0709da9bd4052d6213219b9"
+- name: "DM-FreezerBurn.ut3"
+  fileSize: 32065243
+  hash: "eff1a54cfa4ee5dba89c6d2a342c9214efe7dbec"
+- name: "MP_FreezerBurn.upk"
+  fileSize: 7473041
+  hash: "28ec9bf14bc955642a0a698865f6da9cca41f3c4"
+- name: "MP_RatTrap.upk"
+  fileSize: 2462417
+  hash: "f78facdc305a6588ecf57e3eb708facdbf985c15"
+- name: "LocalShaderCache-PC-D3D-SM3.upk"
+  fileSize: 1702745
+  hash: "ee41221cc9d35bac380ea8fc32e183a33843449a"
+- name: "VCTF-Revelations.ut3"
+  fileSize: 54666353
+  hash: "0e903dbe71f11764ed6b73eaa7b25569070549da"
+- name: "DM-SquareCourt.ut3"
+  fileSize: 783903
+  hash: "67ccf2c198cc82e52bf4d323e3da4166bb2fd6fc"
+- name: "CTF-RatTrap.ut3"
+  fileSize: 13603065
+  hash: "600340ef893fec5bf3d6805d2e354ad79a0ae346"
+- name: "DM-RatTrap.ut3"
+  fileSize: 8534142
+  hash: "2e9d5e5fdcf40602c769ccacd2c2e5753dfb575f"
+- name: "MP_Revelations.upk"
+  fileSize: 74402336
+  hash: "d7be0e6c8908e56fe09a29a15709095285e82c13"
+otherFiles: 7
+dependencies:
+  DM-RatTrap.ut3:
+  - status: "OK"
+    name: "MP_RatTrap"
+  DM-FreezerBurn.ut3:
+  - status: "OK"
+    name: "MP_FreezerBurn"
+  CTF-RatTrap.ut3:
+  - status: "OK"
+    name: "MP_RatTrap"
+  DM-Revelations.ut3:
+  - status: "OK"
+    name: "MP_Revelations"
+  - status: "OK"
+    name: "TeamSpawn"
+  DM-SquareCourt.ut3:
+  - status: "OK"
+    name: "MP_SquareCourt"
+  VCTF-Revelations.ut3:
+  - status: "OK"
+    name: "MP_Revelations"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/MapPacks/B/2/e/948aeb/BBMP%20Final%20v1.7.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Revelations"
+  title: "Revelations"
+  author: "Inferno"
+- name: "VCTF-Revelations"
+  title: "Revelations"
+  author: "Inferno"
+- name: "DM-SquareCourt"
+  title: "Gridlock"
+  author: "Inferno"
+- name: "CTF-RatTrap"
+  title: "Detained"
+  author: "Inferno"
+- name: "DM-RatTrap"
+  title: "Detained"
+  author: "Inferno"
+- name: "DM-FreezerBurn"
+  title: "Iron Works"
+  author: "Inferno"
+gametype: "Mixed"
+themes: {}
