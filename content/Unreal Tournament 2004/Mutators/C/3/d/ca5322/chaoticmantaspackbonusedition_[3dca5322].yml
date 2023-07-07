@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-06 15:38"
+game: "Unreal Tournament 2004"
+name: "ChaoticMantasPackBonusEdition"
+author: "LIP-Rampage Felipe Vasconcellos"
+description: "None"
+releaseDate: "2011-07"
+attachments:
+- type: "IMAGE"
+  name: "chaoticmantaspackbonusedition_shot_3dca5322_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/C/3/d/ca5322/chaoticmantaspackbonusedition_shot_3dca5322_1.png"
+originalFilename: "ChaoticMantasPackBonusEdition.zip"
+hash: "3dca5322f946356048a473c0540a98241fa37a77"
+fileSize: 60646
+files:
+- name: "LIPChaoticMantasPackBE.u"
+  fileSize: 57390
+  hash: "6ef84c2f22b4384dc00729a37a7320274d329326"
+otherFiles: 3
+dependencies:
+  LIPChaoticMantasPackBE.u:
+  - status: "MISSING"
+    name: "LIPChaoticMantasTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/C/3/d/ca5322/ChaoticMantasPackBonusEdition.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "CMPBE-LIP Node Exploder Replace"
+  description: "Replace any vehicle with the CMP Node Exploder (Bonus Edition)."
+- name: "CMPBE-LIP Wind Blade Replace"
+  description: "Replace any vehicle with the CMP Wind Blade (Bonus Edition)."
+- name: "CMPBE-LIP Short Circuit Replace"
+  description: "Replace any vehicle with the CMP Short Circuit (Bonus Edition)."
+- name: "CMPBE-LIP Pulse Traitor Replace"
+  description: "Replace any vehicle with the CMP Pulse Traitor (Bonus Edition)."
+weapons: []
+vehicles:
+- name: "Node Exploder BE"
+  description: "Node Exploder BE"
+- name: "Wind Blade BE"
+  description: "Wind Blade BE"
+- name: "Short Circuit BE"
+  description: "Short Circuit BE"
+- name: "Pulse Traitor BE"
+  description: "Pulse Traitor BE"
+hasConfigMenu: false
+hasKeybinds: false
