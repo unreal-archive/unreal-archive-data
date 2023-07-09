@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-10 01:16"
+game: "Unreal Tournament"
+name: "CTF-FloridaSharkAttackII-M"
+author: "Jeff Martin jm@islandalien.com"
+description: "You're going to need a bigger boat."
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-floridasharkattackii-m_shot_455d4ed3_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/4/5/5d4ed3/ctf-floridasharkattackii-m_shot_455d4ed3_1.png"
+originalFilename: "CTF-FloridaSharkAttackII-M.zip"
+hash: "455d4ed3a7aa237b4090ff0c40a576d566b1dd38"
+fileSize: 15122586
+files:
+- name: "FatboySlim.umx"
+  fileSize: 10482567
+  hash: "9bfa256ce7c46bf48680de9797cb5e6700e2ead6"
+- name: "CTF-FloridaSharkAttackII-M.unr"
+  fileSize: 1956171
+  hash: "6c4806488421c695e8bdea745a10a5be0488bb16"
+- name: "FSAIISnd.uax"
+  fileSize: 2307894
+  hash: "b856585480e6df57b87bfb126dbf0348a0758dc5"
+- name: "FSAII.utx"
+  fileSize: 5085675
+  hash: "effcd4127154faffa735be9dc19117aeec9256ce"
+otherFiles: 3
+dependencies:
+  CTF-FloridaSharkAttackII-M.unr:
+  - status: "OK"
+    name: "FSAII"
+  - status: "OK"
+    name: "FatboySlim"
+  - status: "OK"
+    name: "FSAIISnd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/4/5/5d4ed3/CTF-FloridaSharkAttackII-M.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Florida Shark Attack II \"The Sequel\""
+playerCount: "Unknown"
+themes:
+  Natural: 0.7
+  City: 0.3
+bots: true
