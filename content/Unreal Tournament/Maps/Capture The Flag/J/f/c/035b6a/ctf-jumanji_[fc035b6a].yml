@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-10 01:25"
+game: "Unreal Tournament"
+name: "CTF-Jumanji"
+author: "Jeff Martin - www.islandalien.com/unreal"
+description: "If you chose to leave the game save JUMANJI and call out its name."
+releaseDate: "2023-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-jumanji_shot_fc035b6a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/f/c/035b6a/ctf-jumanji_shot_fc035b6a_1.png"
+originalFilename: "CTF-Jumanji.zip"
+hash: "fc035b6a1e36164a57221934cda4c4baf6189904"
+fileSize: 25263162
+files:
+- name: "JumanjiTex.utx"
+  fileSize: 4428051
+  hash: "34f1ef6b4f96b74318339c0fdf0f790ac716cff2"
+- name: "CTF-Jumanji.unr"
+  fileSize: 324643
+  hash: "dfe184a6412896cde810ad31c6742793669aa152"
+- name: "JumanjiSnd.uax"
+  fileSize: 839913
+  hash: "c226b49b9dda7787fa3f813cd61fb43d4c29ff2d"
+- name: "WelcomeTTJungle.umx"
+  fileSize: 11856397
+  hash: "b16f16219dcb89f6586bdfe39cdcb50443510d19"
+- name: "FightDancing.umx"
+  fileSize: 10997376
+  hash: "a1a1ee3a442e58700718cecc3b62b7193e63cdf9"
+otherFiles: 1
+dependencies:
+  CTF-Jumanji.unr:
+  - status: "OK"
+    name: "JumanjiTex"
+  - status: "OK"
+    name: "JumanjiSnd"
+  - status: "OK"
+    name: "FightDancing"
+  - status: "OK"
+    name: "WelcomeTTJungle"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/J/f/c/035b6a/CTF-Jumanji.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Jumanji"
+playerCount: "4 Adventurous"
+themes:
+  Nali Temple: 0.9
+  Natural: 0.1
+bots: true
