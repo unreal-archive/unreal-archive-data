@@ -25,8 +25,8 @@ steps:
         path: /var/cache/apt
     commands:
       - apt update && apt install -y curl
-      - curl https://code.shrimpworks.za.net/artefacts/org/unrealarchive/unreal-archive/latest/unreal-archive-latest.tgz -o unreal-archive-latest.tgz
-      - tar xzf unreal-archive-latest.tgz
+      - curl https://code.shrimpworks.za.net/artefacts/org/unrealarchive/unreal-archive/www/www-latest.tgz -o www-latest.tgz
+      - tar xzf www-latest.tgz
       - mv unreal-archive/* /tmp/ua/
 
   - name: verify
@@ -35,7 +35,7 @@ steps:
       - name: ua-bin-cache
         path: /tmp/ua/
     commands:
-      - /tmp/ua/bin/unreal-archive summary --content-path=./ --store=NOP
+      - /tmp/ua/bin/www summary --content-path=./ --store=NOP
     when:
       event:
         - pull_request
@@ -87,7 +87,7 @@ steps:
         from_secret: MSE_TOKEN
     commands:
       - apt update && apt install -y locales-all
-      - /tmp/ua/bin/unreal-archive search-submit --content-path=./ --store=NOP
+      - /tmp/ua/bin/www search-submit --content-path=./ --store=NOP
     when:
       ref:
         - refs/heads/master
