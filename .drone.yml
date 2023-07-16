@@ -27,7 +27,7 @@ steps:
       - apt update && apt install -y curl
       - curl https://code.shrimpworks.za.net/artefacts/org/unrealarchive/www/latest/www-latest.tgz -o www-latest.tgz
       - tar xzf www-latest.tgz
-      - mv unreal-archive/* /tmp/ua/
+      - mv unreal-archive-www/* /tmp/ua/
 
   - name: verify
     image: debian:bullseye-slim
