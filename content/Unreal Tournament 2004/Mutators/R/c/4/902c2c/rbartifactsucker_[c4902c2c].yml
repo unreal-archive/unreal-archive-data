@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-18 17:05"
+game: "Unreal Tournament 2004"
+name: "RBArtifactSucker"
+author: "Unknown"
+description: "None"
+releaseDate: "2008-03"
+attachments: []
+originalFilename: "RBArtifactSucker.zip"
+hash: "c4902c2cab183469e06149ef9373c053b0d22a67"
+fileSize: 20850
+files:
+- name: "ArtifactSucker.usx"
+  fileSize: 42386
+  hash: "3bceede2511e7dfb1eb301423683b54fe3534ecd"
+- name: "RBArtifactSucker.u"
+  fileSize: 22220
+  hash: "71c5ce92e2de12d6a3901a9519501c81e697667b"
+- name: "ArtifactSuckerSkins.utx"
+  fileSize: 314
+  hash: "54bc0807e0f8dfb93db86dc51d74ffb953b25d22"
+otherFiles: 1
+dependencies:
+  RBArtifactSucker.u:
+  - status: "OK"
+    name: "ArtifactSucker"
+  - status: "OK"
+    name: "ArtifactSuckerSkins"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/R/c/4/902c2c/RBArtifactSucker.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
