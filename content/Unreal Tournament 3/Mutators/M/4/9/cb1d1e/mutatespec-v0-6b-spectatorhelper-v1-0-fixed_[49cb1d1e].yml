@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-22 11:40"
+game: "Unreal Tournament 3"
+name: "MutateSpec V0 6b SpectatorHelper V1 0 Fixed"
+author: "RattleSN4K3"
+description: "None"
+releaseDate: "2018-04"
+attachments: []
+originalFilename: "MutateSpec_v0.6b_SpectatorHelper_v1.0_fixed.zip"
+hash: "49cb1d1ece3bb426fada0a5acdec37b2f22923a3"
+fileSize: 72468
+files:
+- name: "MutateSpecClient.u"
+  fileSize: 34132
+  hash: "7fe6be68a6ae74d22dcc8d99fa6343e1a0870bb1"
+- name: "SpectatorHelper.u"
+  fileSize: 34803
+  hash: "23dde97e7b1344e5dfb341ce1edc8f094dc0213e"
+- name: "MutateSpec.u"
+  fileSize: 178670
+  hash: "bda7b9b3ae6b229669032173a85c741ead9b52a6"
+otherFiles: 6
+dependencies:
+  MutateSpec.u:
+  - status: "OK"
+    name: "MutateSpecClient"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/M/4/9/cb1d1e/MutateSpec_v0.6b_SpectatorHelper_v1.0_fixed.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mutate Spec"
+  description: "Lets you switch from an active player back to spectator-mode"
+- name: "Mutate Spec Activator"
+  description: "Activates 'Mute Spec' once the demo recording has started. This prevents\
+    \ having a dependency in demo files"
+- name: "Spectator Helper"
+  description: "Adds new spectator controls and enhancing features"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
