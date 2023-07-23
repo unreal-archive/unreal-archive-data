@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-07-22 18:59"
+game: "Unreal Tournament 3"
+name: "Freeze Ray"
+author: "Unknown"
+description: "Replaces Shock Rifle with a modified Shock Rifle which freezes enemies.\
+  \ This new Shock Rifle is known as the Freeze Ray."
+releaseDate: "2008-02"
+attachments: []
+originalFilename: "FreezeRay_1.31_PC.zip"
+hash: "c1d385d8bf9767fe6dbd230cb2a69ba1778d021c"
+fileSize: 27612
+files:
+- name: "Weapon_FreezeRay.u"
+  fileSize: 62203
+  hash: "49058e4ee8bae6612bad37f476a405b49d1ccfed"
+- name: "FreezeRayContent.upk"
+  fileSize: 31130
+  hash: "264cc03fbe4775aa887feb543573372632278d9e"
+otherFiles: 2
+dependencies:
+  Weapon_FreezeRay.u:
+  - status: "OK"
+    name: "FreezeRayContent"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/F/c/1/d385d8/FreezeRay_1.31_PC.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Freeze Ray"
+  description: "Replaces Shock Rifle with a modified Shock Rifle which freezes enemies.\
+    \ This new Shock Rifle is known as the Freeze Ray."
+weapons:
+- name: "Freeze Ray"
+  description: "The Freeze Ray will freeze enemies in their place momentarely. Freeze\
+    \ enemies with either Fire Mode. Primary has a faster fire rate but does not freeze\
+    \ the enemy fully. Secondary has a slower fire rate and freezes the enemy fully\
+    \ with one blast. Over time the enemies thaw themselves out so keep them frozen\
+    \ with the Freeze Ray. Tip: Use Secondary to freeze then keep frozen with Primary."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
