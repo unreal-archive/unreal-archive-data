@@ -1,0 +1,37 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-27 00:20"
+game: "Unreal Tournament 3"
+name: "UT2D-GreenHill"
+author: "Rikhanz"
+description: ""
+releaseDate: "2008-08"
+attachments: []
+originalFilename: "UT2D-GreenHill.1.zip"
+hash: "453fcda8549103cd30e314e1f2f9bd6665bfa2a3"
+fileSize: 7575579
+files:
+- name: "SonicMod.upk"
+  fileSize: 11474942
+  hash: "bc92d1e1c6814d9060f2c9eef6efde819a6d2466"
+- name: "UT2D-GreenHill.ut3"
+  fileSize: 38113447
+  hash: "51a69adb6d54a0b629e8384fee0e8d4cd92a70a9"
+otherFiles: 2
+dependencies:
+  UT2D-GreenHill.ut3:
+  - status: "OK"
+    name: "SonicMod"
+  - status: "MISSING"
+    name: "UT2D"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Maps/UT2D/G/4/5/3fcda8/UT2D-GreenHill.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "UT2D"
+title: "GreenHill"
+playerCount: "2 to 6"
+themes: {}
+bots: true
