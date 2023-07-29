@@ -35,4 +35,4 @@ set -x
 
 # publish files via rsync
 echo "Publishing content"
-rsync -rzht -e"ssh -i /tmp/deploy_key -o StrictHostKeychecking=no" ${WWW_LOCATION}/* ${PUB_USER}@${PUB_HOST}:${PUB_ROOT}
+ls ${WWW_LOCATION} | xargs -P4 -I% rsync -rzht -e"ssh -i /tmp/deploy_key -o StrictHostKeychecking=no" ${WWW_LOCATION}/% ${PUB_USER}@${PUB_HOST}:${PUB_ROOT}
