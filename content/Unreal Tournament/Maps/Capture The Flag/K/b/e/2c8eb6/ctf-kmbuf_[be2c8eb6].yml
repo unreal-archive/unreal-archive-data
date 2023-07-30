@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-30 15:07"
+game: "Unreal Tournament"
+name: "CTF-KMBUF"
+author: "Rogue Cheddar"
+description: "None"
+releaseDate: "2004-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-kmbuf_shot_be2c8eb6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/e/2c8eb6/ctf-kmbuf_shot_be2c8eb6_1.png"
+originalFilename: "ctf-kmbuf.zip"
+hash: "be2c8eb6a055cfd345f27575ea80e1eb326e4c53"
+fileSize: 3196783
+files:
+- name: "CTF-KMBUF.unr"
+  fileSize: 973040
+  hash: "4ee9710142b0d60e883d064b776522223bf88544"
+- name: "kylemom_uncle.umx"
+  fileSize: 3167295
+  hash: "1171c6e860f12badd5797e2810a789197a1271ec"
+- name: "KMBUF.utx"
+  fileSize: 709646
+  hash: "cc3d6294c9b2389dfbb8d10d3c963b4c93c640ca"
+otherFiles: 1
+dependencies:
+  CTF-KMBUF.unr:
+  - status: "OK"
+    name: "KMBUF"
+  - status: "OK"
+    name: "kylemom_uncle"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/b/e/2c8eb6/ctf-kmbuf.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Kyle's Mom is a Bitch, you Uncle Fucker"
+playerCount: "No more than 28"
+themes:
+  Tech: 1.0
+bots: true
