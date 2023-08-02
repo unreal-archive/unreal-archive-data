@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-01 19:57"
+game: "Unreal Tournament"
+name: "CTF-LowGravMadness]["
+author: "Aspide"
+description: "See You Starside..."
+releaseDate: "2023-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-lowgravmadness_shot_7ddbd93e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/7/d/dbd93e/ctf-lowgravmadness_shot_7ddbd93e_1.png"
+originalFilename: "CTF-LowGravMadness][.zip"
+hash: "7ddbd93e75f28c175311987ec57d850a94a5c20e"
+fileSize: 6642284
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-LowGravMadness][.unr"
+  fileSize: 10162488
+  hash: "0254944ba3d6d930937d3337ebc14a4e9ba61d05"
+- name: "night_owl.umx"
+  fileSize: 920986
+  hash: "01bbd49180c45aba39778c37e5e0eff2f48c6dd5"
+otherFiles: 1
+dependencies:
+  CTF-LowGravMadness][.unr:
+  - status: "OK"
+    name: "night_owl"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/7/d/dbd93e/CTF-LowGravMadness%5D%5B.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Low Gravity Madness ]["
+playerCount: "4-10"
+themes:
+  Tech: 1.0
+bots: true
