@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-01 08:14"
+game: "Unreal Tournament 2004"
+name: "CTF-Arena[NC]"
+author: "Walther ''GOKU'' Berk"
+description: "This fast paced map is dedicated to the noclan. The setting is an American\
+  \ Foorball stadium with 10.000 people watching you, while the scoreboard shows the\
+  \ actual game scores and time! Be sure your world detail is set to high or higher."
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-arenanc_shot_61e38645_1.png"
+- type: "IMAGE"
+  name: "ctf-arenanc_shot_61e38645_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/6/1/e38645/ctf-arenanc_shot_61e38645_2.png"
+originalFilename: "ctf-arena-nc.zip"
+hash: "61e3864526d52c1484796519fb3105987670e2f6"
+fileSize: 19895791
+files:
+- name: "CTF-Arena[NC].ut2"
+  fileSize: 23942598
+  hash: "a27290d2faa78a5531269c2543b33d7d975732ac"
+- name: "Stadium.usx"
+  fileSize: 17056016
+  hash: "8c77ac85cc8d77ad35c7eccfe3826ed57213cafa"
+otherFiles: 2
+dependencies:
+  CTF-Arena[NC].ut2:
+  - status: "OK"
+    name: "stadium"
+  - status: "MISSING"
+    name: "cYScoreboard2"
+  - status: "MISSING"
+    name: "DeathBall"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/6/1/e38645/ctf-arena-nc.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Arena of NoClan"
+playerCount: "2"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true
