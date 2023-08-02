@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-05 16:44"
+game: "Unreal Tournament"
+name: "CTF-FNB-AllGoodThings-BETA1"
+author: "FraGnBraG"
+description: "Copyright (c) 2019, 2020 Rob Burns. All Rights Reserved."
+releaseDate: "2020-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fnb-allgoodthings-beta1_shot_86201531_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/6/201531/ctf-fnb-allgoodthings-beta1_shot_86201531_4.png"
+- type: "IMAGE"
+  name: "ctf-fnb-allgoodthings-beta1_shot_86201531_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/6/201531/ctf-fnb-allgoodthings-beta1_shot_86201531_3.png"
+- type: "IMAGE"
+  name: "ctf-fnb-allgoodthings-beta1_shot_86201531_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/6/201531/ctf-fnb-allgoodthings-beta1_shot_86201531_2.png"
+- type: "IMAGE"
+  name: "ctf-fnb-allgoodthings-beta1_shot_86201531_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/6/201531/ctf-fnb-allgoodthings-beta1_shot_86201531_1.png"
+originalFilename: "CTF-FNB-AllGoodThings-BETA1.zip"
+hash: "86201531ba2e95074a43917b08a62188466da05c"
+fileSize: 40262998
+files:
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "Moroset.umx"
+  fileSize: 580306
+  hash: "735879aafeecf8796c0ee69d9bc94d9fa8781e48"
+- name: "FacePalmM.u"
+  fileSize: 261502
+  hash: "e91e48872be8d41952af1bafb429bae60d0574d2"
+- name: "CTF-FNB-AllGoodThings-BETA1.unr"
+  fileSize: 66077337
+  hash: "5621d68d10ebe84ac6e9fe023cb1a72caa79ef5f"
+otherFiles: 4
+dependencies:
+  FacePalmM.u:
+  - status: "MISSING"
+    name: "FacePalmT"
+  CTF-FNB-AllGoodThings-BETA1.unr:
+  - status: "OK"
+    name: "FacePalmM"
+  - status: "OK"
+    name: "Moroset"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/8/6/201531/CTF-FNB-AllGoodThings-BETA1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF FNB All Good Things BETA1"
+playerCount: "8-16"
+themes:
+  Tech: 0.7
+  Industrial: 0.1
+  Ancient: 0.1
+bots: true
