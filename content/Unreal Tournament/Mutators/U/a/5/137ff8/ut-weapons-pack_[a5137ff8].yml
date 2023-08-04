@@ -1,0 +1,76 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-04 00:11"
+game: "Unreal Tournament"
+name: "UT Weapons PACK"
+author: "Unknown"
+description: "None"
+releaseDate: "2011-12"
+attachments: []
+originalFilename: "UT weapons PACK.rar"
+hash: "a5137ff89dbb6e61f62b8c50e49b5c91d3df3fe1"
+fileSize: 4118535
+files:
+- name: "ArcX.u"
+  fileSize: 1866363
+  hash: "b84c84df6db6ce0e110bc7f1467d48258c283303"
+- name: "AAADeemeR2_LS.u"
+  fileSize: 1252719
+  hash: "0469f92d294a62ac516de0845627e6702f7a4541"
+- name: "AAADeemeR.u"
+  fileSize: 1096944
+  hash: "e93897ba5e652c740215a4e62a720120b7c74c2b"
+- name: "AVPSounds.uax"
+  fileSize: 217132
+  hash: "e607f8a63198b4a9571c97256a603f6abea34f3f"
+- name: "AVP.u"
+  fileSize: 576529
+  hash: "4ac092e45a6293e5f3c9169bc1c2faf76f9f3653"
+- name: "AAAZoookahV3.u"
+  fileSize: 810853
+  hash: "d47ab017a1d88105048fbbd9391c138b83be93a9"
+- name: "AssaultGuns.u"
+  fileSize: 1302028
+  hash: "e8753617b3ca9d67ce1f28eeeb8a1b1e9a2a6ff1"
+- name: "CherryBomb.u"
+  fileSize: 560431
+  hash: "1dc20fadef7671a5db77dfd5275a63a4cb065fca"
+- name: "MultiWeapons.u"
+  fileSize: 1791843
+  hash: "5611ec9c29f21fb726a0e0f0f05a40bd8d99c104"
+- name: "AAAzooG.utx"
+  fileSize: 398001
+  hash: "b26fabbe3092c32d7593e098f417f684f5b41a2c"
+- name: "AAADeem2.utx"
+  fileSize: 795591
+  hash: "19e60cdb80c85ded7cdb95dc0d0867d0d373f148"
+otherFiles: 9
+dependencies:
+  AAADeemeR2_LS.u:
+  - status: "OK"
+    name: "AAADeem2"
+  AVP.u:
+  - status: "OK"
+    name: "AVPSounds"
+  AAAZoookahV3.u:
+  - status: "OK"
+    name: "AAAzooG"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/U/a/5/137ff8/UT%20weapons%20PACK.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "ArcaneX Custom Weapons"
+  description: " Replaces UT weapons with ArcaneX's custom-built weapons"
+- name: "AssaultRifleArena2"
+  description: "AssaultRifle2 Arena"
+- name: "CherryBomb"
+  description: ""
+- name: "AssaultRifleArena"
+  description: "AssaultRifle Arena"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
