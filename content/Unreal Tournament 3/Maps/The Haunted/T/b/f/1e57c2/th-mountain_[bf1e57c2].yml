@@ -2,37 +2,35 @@
 contentType: "MAP"
 firstIndex: "2023-08-04 00:18"
 game: "Unreal Tournament 3"
-name: "TH-GraveDawn"
-author: "TH-Custom Content Development"
+name: "TH-Mountain"
+author: "TH-Custom Content Development; Supports Survival and demonizer."
 description: ""
-releaseDate: "2010-06"
+releaseDate: "2010-05"
 attachments: []
-originalFilename: "TH-GraveDawn_Final.rar"
-hash: "cc02c0fe43cb32e524273878cfe45475de1e5a47"
-fileSize: 6691946
+originalFilename: "TH-Mountain_v1.0.rar"
+hash: "bf1e57c28556804a950b7603b47e2f5ff025705e"
+fileSize: 8749939
 files:
-- name: "TH-GraveDawn.ut3"
-  fileSize: 23498278
-  hash: "549585ff48fc5744d2de6d0532e2b082d55b517c"
+- name: "TH-Mountain.ut3"
+  fileSize: 35876729
+  hash: "1d20c0f96c26826a0838ddb0dded528d2fe5ac82"
 otherFiles: 1
 dependencies:
-  TH-GraveDawn.ut3:
-  - status: "MISSING"
-    name: "TH_cds_Foliage1"
+  TH-Mountain.ut3:
   - status: "MISSING"
     name: "TH_BaseMaterials"
+  - status: "MISSING"
+    name: "TH_Temple"
   - status: "MISSING"
     name: "TH_GraveyardMesh"
   - status: "MISSING"
     name: "HauntedGame"
   - status: "MISSING"
+    name: "TH_Liquids"
+  - status: "MISSING"
     name: "TH_MapEffects1"
   - status: "MISSING"
     name: "TH_Terrains2"
-  - status: "MISSING"
-    name: "TH_Terrains1"
-  - status: "MISSING"
-    name: "TH_Sounds_Zombie"
   - status: "MISSING"
     name: "TH_Foliage1"
   - status: "MISSING"
@@ -50,9 +48,11 @@ dependencies:
   - status: "MISSING"
     name: "TH_EnvMaterials1"
   - status: "MISSING"
+    name: "TH_Excavation"
+  - status: "MISSING"
     name: "TH_GhostTown"
   - status: "MISSING"
-    name: "TH_cds_EnvMaterials1"
+    name: "TH_Prop_Set3"
   - status: "MISSING"
     name: "TH_Prop_Set4"
   - status: "MISSING"
@@ -66,13 +66,13 @@ dependencies:
   - status: "MISSING"
     name: "TH_Prop_Set5"
 downloads:
-- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Maps/Thievery/G/c/c/02c0fe/TH-GraveDawn_Final.rar"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Maps/Thievery/M/b/f/1e57c2/TH-Mountain_v1.0.rar"
   direct: true
   state: "OK"
 links: {}
 deleted: false
-gametype: "Thievery"
-title: "GraveDawn"
+gametype: "The Haunted"
+title: "Mountain"
 playerCount: "Unknown"
 themes: {}
 bots: true

@@ -2,21 +2,23 @@
 contentType: "MAP"
 firstIndex: "2023-08-04 00:18"
 game: "Unreal Tournament 3"
-name: "TH-Shipment"
+name: "TH-GraveDawn"
 author: "TH-Custom Content Development"
 description: ""
 releaseDate: "2010-06"
 attachments: []
-originalFilename: "TH-Shipment_Final.rar"
-hash: "3931f49c78d8c934e905be82e7dca3d5c56bc100"
-fileSize: 1269786
+originalFilename: "TH-GraveDawn_Final.rar"
+hash: "cc02c0fe43cb32e524273878cfe45475de1e5a47"
+fileSize: 6691946
 files:
-- name: "TH-Shipment.ut3"
-  fileSize: 8378701
-  hash: "e5b702841c7b719e0bfae292aff7b069e2560946"
+- name: "TH-GraveDawn.ut3"
+  fileSize: 23498278
+  hash: "549585ff48fc5744d2de6d0532e2b082d55b517c"
 otherFiles: 1
 dependencies:
-  TH-Shipment.ut3:
+  TH-GraveDawn.ut3:
+  - status: "MISSING"
+    name: "TH_cds_Foliage1"
   - status: "MISSING"
     name: "TH_BaseMaterials"
   - status: "MISSING"
@@ -24,15 +26,23 @@ dependencies:
   - status: "MISSING"
     name: "HauntedGame"
   - status: "MISSING"
-    name: "TH_Liquids"
-  - status: "MISSING"
     name: "TH_MapEffects1"
+  - status: "MISSING"
+    name: "TH_Terrains2"
   - status: "MISSING"
     name: "TH_Terrains1"
   - status: "MISSING"
+    name: "TH_Sounds_Zombie"
+  - status: "MISSING"
+    name: "TH_Foliage1"
+  - status: "MISSING"
     name: "TH_Destructables1"
   - status: "MISSING"
+    name: "TH_rocks1"
+  - status: "MISSING"
     name: "TH_Sounds_Ambient"
+  - status: "MISSING"
+    name: "TH_GraveyardMesh2"
   - status: "MISSING"
     name: "TH_skies"
   - status: "MISSING"
@@ -42,23 +52,27 @@ dependencies:
   - status: "MISSING"
     name: "TH_GhostTown"
   - status: "MISSING"
-    name: "TH_Prop_Set3"
+    name: "TH_cds_EnvMaterials1"
   - status: "MISSING"
     name: "TH_Prop_Set4"
   - status: "MISSING"
     name: "TH_Prop_Set1"
   - status: "MISSING"
+    name: "TH_EnvMaterials4"
+  - status: "MISSING"
     name: "TH_Prop_Set2"
+  - status: "MISSING"
+    name: "TH_Swamp"
   - status: "MISSING"
     name: "TH_Prop_Set5"
 downloads:
-- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Maps/Thievery/S/3/9/31f49c/TH-Shipment_Final.rar"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Maps/Thievery/G/c/c/02c0fe/TH-GraveDawn_Final.rar"
   direct: true
   state: "OK"
 links: {}
 deleted: false
-gametype: "Thievery"
-title: "Shipment"
+gametype: "The Haunted"
+title: "GraveDawn"
 playerCount: "Unknown"
 themes: {}
 bots: true
