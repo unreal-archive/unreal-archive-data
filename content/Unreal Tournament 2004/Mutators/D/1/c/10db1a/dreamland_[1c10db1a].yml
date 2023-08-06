@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-10 18:43"
+game: "Unreal Tournament 2004"
+name: "Dreamland"
+author: "Jarronis, The Vampiric Unicorn"
+description: "None"
+releaseDate: "2004-10"
+attachments: []
+originalFilename: "dreamland.rar"
+hash: "1c10db1af810ad9123c213b131306168f1a4bece"
+fileSize: 10844
+files:
+- name: "Dreamland.u"
+  fileSize: 24009
+  hash: "80a9dd4614b316511a45fe56066a956e37d0cd1f"
+- name: "DreamTex.utx"
+  fileSize: 526678
+  hash: "1e105f4bd33be870acb25c367ceb3c626ae70735"
+- name: "DreamStat.usx"
+  fileSize: 839
+  hash: "ecdd7e32fcdd61febd72ad53c9bb05e684fb24b6"
+otherFiles: 3
+dependencies:
+  Dreamland.u:
+  - status: "OK"
+    name: "DreamStat"
+  - status: "OK"
+    name: "DreamTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/D/1/c/10db1a/dreamland.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Bloom"
+  description: "Adds Bloom to the gameplay."
+- name: "Dreamland"
+  description: "Adds Motionblur to the gameplay."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
