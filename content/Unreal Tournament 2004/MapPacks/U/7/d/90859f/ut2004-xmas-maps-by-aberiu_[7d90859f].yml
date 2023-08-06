@@ -1,0 +1,99 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-08-10 18:24"
+game: "Unreal Tournament 2004"
+name: "Ut2004 Xmas Maps By Aberiu"
+author: "Unreal Christmas tree by Aberiu"
+description: "None"
+releaseDate: "2015-11"
+attachments:
+- type: "IMAGE"
+  name: "ut2004-xmas-maps-by-aberiu_shot_7d90859f_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/7/d/90859f/ut2004-xmas-maps-by-aberiu_shot_7d90859f_2.png"
+- type: "IMAGE"
+  name: "ut2004-xmas-maps-by-aberiu_shot_7d90859f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/7/d/90859f/ut2004-xmas-maps-by-aberiu_shot_7d90859f_1.png"
+- type: "IMAGE"
+  name: "ut2004-xmas-maps-by-aberiu_shot_7d90859f_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/7/d/90859f/ut2004-xmas-maps-by-aberiu_shot_7d90859f_3.png"
+originalFilename: "ut2004_xmas_maps_by_aberiu.zip"
+hash: "7d90859fd21556f98e507ea4c5c9ffaed158ea5a"
+fileSize: 31248743
+files:
+- name: "UChristmasPickups_tex.utx"
+  fileSize: 19625117
+  hash: "8c2a024121b261f15b4bee96ce011a70519f9a7c"
+- name: "UChristmasPickups_mesh.usx"
+  fileSize: 1791650
+  hash: "11501aa18d4d1557895a0a805eefca554e717589"
+- name: "UChristmasTree_tex.utx"
+  fileSize: 4918137
+  hash: "1b38a5b77441d1443f6dea302373eec110db97ab"
+- name: "WeaponGiftBoxes.u"
+  fileSize: 11053
+  hash: "065c5de777d891b4a295058fd32936ca34c77a47"
+- name: "UChristmasTree_mesh.usx"
+  fileSize: 5550868
+  hash: "2dd82fef292fa2823a15586527c94028cbe1273d"
+- name: "DM-Xmas-Compressed.ut2"
+  fileSize: 10977303
+  hash: "fd776f69481c4487ce078eef92953b4122dfefeb"
+- name: "DM-Xmas-Rankin.ut2"
+  fileSize: 17746590
+  hash: "8a743c7e6a9e4dfc843f25ba56722a4e12452a2a"
+- name: "DM-Xmas-Grendelkeep.ut2"
+  fileSize: 30511906
+  hash: "8f9af2a8a306489830d01135f0e8f0f85f1a9301"
+otherFiles: 3
+dependencies:
+  UChristmasPickups_mesh.usx:
+  - status: "OK"
+    name: "UChristmasPickups_tex"
+  WeaponGiftBoxes.u:
+  - status: "OK"
+    name: "UChristmasPickups_tex"
+  - status: "OK"
+    name: "UChristmasPickups_mesh"
+  DM-Xmas-Rankin.ut2:
+  - status: "OK"
+    name: "UChristmasTree_mesh"
+  - status: "OK"
+    name: "UChristmasPickups_tex"
+  - status: "OK"
+    name: "UChristmasPickups_mesh"
+  UChristmasTree_mesh.usx:
+  - status: "OK"
+    name: "UChristmasTree_tex"
+  DM-Xmas-Compressed.ut2:
+  - status: "OK"
+    name: "UChristmasTree_mesh"
+  - status: "OK"
+    name: "UChristmasPickups_tex"
+  - status: "OK"
+    name: "UChristmasPickups_mesh"
+  DM-Xmas-Grendelkeep.ut2:
+  - status: "OK"
+    name: "UChristmasTree_mesh"
+  - status: "OK"
+    name: "UChristmasPickups_tex"
+  - status: "OK"
+    name: "UChristmasPickups_mesh"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/U/7/d/90859f/ut2004_xmas_maps_by_aberiu.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Xmas-Compressed"
+  title: "Compressed"
+  author: "Unreal Christmas tree by Aberiu"
+- name: "DM-Xmas-Rankin"
+  title: "Rankin-FE"
+  author: "Unreal Christmas tree by Aberiu"
+- name: "DM-Xmas-Grendelkeep"
+  title: "Grendelkeep"
+  author: "Unreal Christmas tree by Aberiu"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0
