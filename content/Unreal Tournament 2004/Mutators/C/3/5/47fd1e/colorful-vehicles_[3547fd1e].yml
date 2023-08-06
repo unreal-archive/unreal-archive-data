@@ -1,0 +1,64 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-10 17:39"
+game: "Unreal Tournament 2004"
+name: "Colorful Vehicles"
+author: "UnShame"
+description: "Replaces standard and ECE vehicles with more colorful blue and red ones."
+releaseDate: "2013-02"
+attachments:
+- type: "IMAGE"
+  name: "colorful-vehicles_shot_3547fd1e_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/C/3/5/47fd1e/colorful-vehicles_shot_3547fd1e_2.png"
+- type: "IMAGE"
+  name: "colorful-vehicles_shot_3547fd1e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/C/3/5/47fd1e/colorful-vehicles_shot_3547fd1e_1.png"
+originalFilename: "ColorfulVehiclesRC1.zip"
+hash: "3547fd1e46dbd01bd4eaed1d3a6c0226757a1b7e"
+fileSize: 20844013
+files:
+- name: "ColorfulVehicles.u"
+  fileSize: 358574
+  hash: "4af8438dad355072d78149ad6b93e0899ce08b6d"
+- name: "ColorfulSkinsTex.utx"
+  fileSize: 14865660
+  hash: "af1f2de7bb30626868d19ced1efc0a77798950b5"
+otherFiles: 5
+dependencies:
+  ColorfulVehicles.u:
+  - status: "OK"
+    name: "ColorfulSkinsTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/C/3/5/47fd1e/ColorfulVehiclesRC1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Colorful Vehicles"
+  description: "Replaces standard and ECE vehicles with more colorful blue and red\
+    \ ones."
+weapons: []
+vehicles:
+- name: "DragonFly"
+  description: "DragonFly"
+- name: "Cicada"
+  description: "Cicada"
+- name: "Goliath"
+  description: "Goliath"
+- name: "HellBender"
+  description: "HellBender"
+- name: "Leviathan"
+  description: "Leviathan"
+- name: "Manta"
+  description: "Manta"
+- name: "Paladin"
+  description: "Paladin"
+- name: "Raptor"
+  description: "Raptor"
+- name: "SPMA"
+  description: "SPMA"
+- name: "Scorpion"
+  description: "Scorpion"
+hasConfigMenu: false
+hasKeybinds: false
