@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-10 18:30"
+game: "Unreal Tournament 2004"
+name: "DM-{CoM}-Castle"
+author: "{UEM}Feuersturm , .:i4L:.m@sTêR>,<"
+description: "This is the first Map by the Call of Mappers Community ! Visit us at\
+  \ www.com-ued.de.vu"
+releaseDate: "2009-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-com-castle_shot_c31487f9_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/c/3/1487f9/dm-com-castle_shot_c31487f9_3.png"
+- type: "IMAGE"
+  name: "dm-com-castle_shot_c31487f9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/c/3/1487f9/dm-com-castle_shot_c31487f9_1.png"
+- type: "IMAGE"
+  name: "dm-com-castle_shot_c31487f9_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/c/3/1487f9/dm-com-castle_shot_c31487f9_2.png"
+- type: "IMAGE"
+  name: "dm-com-castle_shot_c31487f9_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/c/3/1487f9/dm-com-castle_shot_c31487f9_4.png"
+originalFilename: "DM-{CoM}--Castle.zip"
+hash: "c31487f950e690e328d7812f74f5009b2460a192"
+fileSize: 20610190
+files:
+- name: "DMCastleSM.usx"
+  fileSize: 1487208
+  hash: "3e6306abb666cbe31b48af53213576d6cf2bab60"
+- name: "DMCastleTexes.utx"
+  fileSize: 16217295
+  hash: "757a013333a24fbdd91cf54bab1777ce01a64776"
+- name: "DM-{CoM}-Castle.ut2"
+  fileSize: 15654164
+  hash: "2493ac26f5046fa7d735fa15927ea35b534e77ac"
+otherFiles: 3
+dependencies:
+  DM-{CoM}-Castle.ut2:
+  - status: "OK"
+    name: "DMCastleTexes"
+  - status: "OK"
+    name: "DMCastleSM"
+  DMCastleSM.usx:
+  - status: "OK"
+    name: "DMCastleTexes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/C/c/3/1487f9/DM-%7BCoM%7D--Castle.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "CoM-Castle"
+playerCount: "8"
+themes:
+  Natural: 1.0
+bots: true
