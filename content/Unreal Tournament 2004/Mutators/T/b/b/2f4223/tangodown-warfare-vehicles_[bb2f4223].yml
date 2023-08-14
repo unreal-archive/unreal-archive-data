@@ -1,0 +1,165 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-10 17:41"
+game: "Unreal Tournament 2004"
+name: "TangoDown Warfare Vehicles"
+author: "Herr General"
+description: "Tango Down Warfare Vehicles by Meowcat.  A set of modern warfare vehicles:\
+  \ M1 Abrams Tank, Blackhawk Helicopter, Motorcycle w/wo sidecar, HMMWV with .50\
+  \ cal machine gun or Mk18 GL, a Jeep (IFAV) with .30 cal machine gun, small recon/attack\
+  \ AH-6 helicopter and troop transport version MH-6 Helicopter, MH-53 Heavy Lift\
+  \ Helicopter, ATV Quad, LAV25 Infantry Fighting Vehicle (and Air Defense version),\
+  \ and Zodiac Rubber Raft."
+releaseDate: "2014-05"
+attachments: []
+originalFilename: "TDVehicles127_M.zip"
+hash: "bb2f4223f21b0646b61589abf4cfa6e53db7091b"
+fileSize: 13778049
+files:
+- name: "TD_hummerMesh.ukx"
+  fileSize: 9648593
+  hash: "430cdb73e079216024db4fd091844d708f3b8b9a"
+- name: "TDHummerTex.utx"
+  fileSize: 24348365
+  hash: "7b7714114d71cc155b9cc1a8fc7b4471be1452e3"
+- name: "TD_Vehicles.u"
+  fileSize: 1570770
+  hash: "8d3d5bb2b871e0441892af6184aa1df3d5ac5f34"
+- name: "TD_HummerStat.usx"
+  fileSize: 8503030
+  hash: "ad8051bddcd7863d762d4a11ce08909982b477e6"
+otherFiles: 2
+dependencies:
+  TD_hummerMesh.ukx:
+  - status: "OK"
+    name: "TD_HummerStat"
+  - status: "OK"
+    name: "TDHummerTex"
+  TD_HummerStat.usx:
+  - status: "OK"
+    name: "TDHummerTex"
+  TD_Vehicles.u:
+  - status: "OK"
+    name: "TD_hummerMesh"
+  - status: "OK"
+    name: "TDHummerTex"
+  - status: "OK"
+    name: "TD_HummerStat"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/T/b/b/2f4223/TDVehicles127_M.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "TangoDown Warfare Vehicles"
+  description: "Tango Down Warfare Vehicles by Meowcat.  A set of modern warfare vehicles:\
+    \ M1 Abrams Tank, Blackhawk Helicopter, Motorcycle w/wo sidecar, HMMWV with .50\
+    \ cal machine gun or Mk18 GL, a Jeep (IFAV) with .30 cal machine gun, small recon/attack\
+    \ AH-6 helicopter and troop transport version MH-6 Helicopter, MH-53 Heavy Lift\
+    \ Helicopter, ATV Quad, LAV25 Infantry Fighting Vehicle (and Air Defense version),\
+    \ and Zodiac Rubber Raft."
+weapons: []
+vehicles:
+- name: "AH-6 CoPilot Gunner"
+  description: "AH-6 CoPilot Gunner"
+- name: "UH-60 Minigun"
+  description: "UH-60 Minigun"
+- name: "CH46 Rear gun"
+  description: "CH46 Rear gun"
+- name: "CH46 Doorgun"
+  description: "CH46 Doorgun"
+- name: "Hound MI4 Doorgun"
+  description: "Hound MI4 Doorgun"
+- name: "LAV-25 IFV Turret"
+  description: "LAV-25 IFV Turret"
+- name: "MBT90 Tank Turret"
+  description: "MBT90 Tank Turret"
+- name: "MH53 Minigun"
+  description: "MH53 Minigun"
+- name: "MH-6 CoPilot Seat"
+  description: "MH-6 CoPilot Seat"
+- name: "M240 sidecar"
+  description: "M240 sidecar"
+- name: "AH6 Helicopter"
+  description: "AH6 Helicopter"
+- name: "Hummer Passenger Seat"
+  description: "Hummer Passenger Seat"
+- name: "HMMWV Passenger Seat"
+  description: "HMMWV Passenger Seat"
+- name: "Raven Passenger Seat"
+  description: "Raven Passenger Seat"
+- name: "MI4-Hound Passenger Compartment"
+  description: "MI4-Hound Passenger Compartment"
+- name: "IFAV Passenger Seat"
+  description: "IFAV Passenger Seat"
+- name: "Motorcycle Passenger Seat"
+  description: "Motorcycle Passenger Seat"
+- name: "MH-6 Side Bench"
+  description: "MH-6 Side Bench"
+- name: "MH-6 Side Bench"
+  description: "MH-6 Side Bench"
+- name: "MH53 Passenger Seat"
+  description: "MH53 Passenger Seat"
+- name: "UH-60 Helicopter"
+  description: "UH-60 Helicopter"
+- name: "CH46 Helicopter"
+  description: "CH46 Helicopter"
+- name: "CH46 Test Helicopter"
+  description: "CH46 Test Helicopter"
+- name: "M240 turret"
+  description: "M240 turret"
+- name: "MiG35 Jet"
+  description: "MiG35 Jet"
+- name: "LAV25-AD"
+  description: "LAV25-AD"
+- name: "LAV25 IFV"
+  description: "LAV25 IFV"
+- name: "MBT90 Tank"
+  description: "MBT90 Tank"
+- name: "MBT90-IS Tank"
+  description: "MBT90-IS Tank"
+- name: "MBT90 Tank Turret"
+  description: "MBT90 Tank Turret"
+- name: "MBT90 Tank"
+  description: "MBT90 Tank"
+- name: "MH53 Helicopter"
+  description: "MH53 Helicopter"
+- name: "MH6 Helicopter"
+  description: "MH6 Helicopter"
+- name: "MH-6 Helicopter Alt"
+  description: "MH-6 Helicopter Alt"
+- name: "MI4-Hound"
+  description: "MI4-Hound"
+- name: "ATV"
+  description: "ATV"
+- name: "HMMWV"
+  description: "HMMWV"
+- name: "HMMWV-GL"
+  description: "HMMWV-GL"
+- name: "Hummer top turret"
+  description: "Hummer top turret"
+- name: "M60 turret"
+  description: "M60 turret"
+- name: "Hummer top turret"
+  description: "Hummer top turret"
+- name: "IFAV"
+  description: "IFAV"
+- name: "Scout Motorcycle"
+  description: "Scout Motorcycle"
+- name: "Recon Motorcycle"
+  description: "Recon Motorcycle"
+- name: "Zodiac Raft"
+  description: "Zodiac Raft"
+- name: "Zodiac AR Raft"
+  description: "Zodiac AR Raft"
+- name: "Hummer top turret"
+  description: "Hummer top turret"
+- name: "Hummer top turret"
+  description: "Hummer top turret"
+- name: "M240 turret"
+  description: "M240 turret"
+- name: "M240 Zodiac"
+  description: "M240 Zodiac"
+hasConfigMenu: false
+hasKeybinds: false
