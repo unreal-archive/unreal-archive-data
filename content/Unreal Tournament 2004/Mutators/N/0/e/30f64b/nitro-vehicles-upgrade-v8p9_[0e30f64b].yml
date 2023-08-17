@@ -1,0 +1,123 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-11 02:24"
+game: "Unreal Tournament 2004"
+name: "Nitro Vehicles Upgrade (v8p9)"
+author: "Unknown"
+description: "The mutator enhances vehicles with a powerful nitro boost. It also adds\
+  \ shield and repair functionality to selected vehicles and brings some new vehicles.\
+  \ The mutator is written specially for racing."
+releaseDate: "2011-10"
+attachments: []
+originalFilename: "NV8version9.zip"
+hash: "0e30f64b77ea3ba48846cd5b041e8501f2e82da0"
+fileSize: 7902061
+files:
+- name: "unrealextension.u"
+  fileSize: 62278
+  hash: "a352fc4a1199aceaa89b7f3c306e20eca53ab4d0"
+- name: "VenomBL2.u"
+  fileSize: 4293825
+  hash: "90ce575aa0fff5f2bc4e1263f15674dfa76a1995"
+- name: "NV8_Patch9.u"
+  fileSize: 355742
+  hash: "5cc20def131b446f944de227329e6921562293af"
+- name: "NV8_Patch9_rc.utx"
+  fileSize: 11774913
+  hash: "10839ef325b9df09c07b0d2a9829a36812ebaa46"
+otherFiles: 1
+dependencies:
+  NV8_Patch9.u:
+  - status: "OK"
+    name: "VenomBL2"
+  - status: "OK"
+    name: "NV8_Patch9_rc"
+  - status: "OK"
+    name: "unrealextension"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/N/0/e/30f64b/NV8version9.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Nitro Vehicles Upgrade (v8p9)"
+  description: "The mutator enhances vehicles with a powerful nitro boost. It also\
+    \ adds shield and repair functionality to selected vehicles and brings some new\
+    \ vehicles. The mutator is written specially for racing."
+weapons: []
+vehicles:
+- name: "Bono"
+  description: "Bono"
+- name: "Crunch"
+  description: "Crunch"
+- name: "Cicada"
+  description: "Cicada"
+- name: "Prison Cicada"
+  description: "Prison Cicada"
+- name: "Prison Cicada Laser Turret"
+  description: "Prison Cicada Laser Turret"
+- name: "Nitro TC-1200"
+  description: "Nitro TC-1200"
+- name: "Nitro TC-1300"
+  description: "Nitro TC-1300"
+- name: "Teamwork HybridBender"
+  description: "Teamwork HybridBender"
+- name: "Admin HybridBender"
+  description: "Admin HybridBender"
+- name: "Teamwork HybridBender"
+  description: "Teamwork HybridBender"
+- name: "Teamwork NitroLeveler"
+  description: "Teamwork NitroLeveler"
+- name: "NitroBender"
+  description: "NitroBender"
+- name: "RacingBender"
+  description: "RacingBender"
+- name: "SoloBender"
+  description: "SoloBender"
+- name: "NitroScorpion"
+  description: "NitroScorpion"
+- name: "Quantum NitroScorpion"
+  description: "Quantum NitroScorpion"
+- name: "Derby Quantum NitroScorpion"
+  description: "Derby Quantum NitroScorpion"
+- name: "Quantum NitroScorpion"
+  description: "Quantum NitroScorpion"
+- name: "Unarmed NitroScorpion"
+  description: "Unarmed NitroScorpion"
+- name: "Unarmed NitroScorpion"
+  description: "Unarmed NitroScorpion"
+- name: "Minigun NitroScorpion"
+  description: "Minigun NitroScorpion"
+- name: "Plasma NitroScorpion"
+  description: "Plasma NitroScorpion"
+- name: "Plasma NitroScorpion"
+  description: "Plasma NitroScorpion"
+- name: "Shock NitroScorpion"
+  description: "Shock NitroScorpion"
+- name: "Derby Shock NitroScorpion"
+  description: "Derby Shock NitroScorpion"
+- name: "AntiCamp Shock NitroScorpion"
+  description: "AntiCamp Shock NitroScorpion"
+- name: "Shock NitroScorpion"
+  description: "Shock NitroScorpion"
+- name: "Raptor"
+  description: "Raptor"
+- name: "Quantum Raptor"
+  description: "Quantum Raptor"
+- name: "Admin Quantum Raptor"
+  description: "Admin Quantum Raptor"
+- name: "Prison Raptor"
+  description: "Prison Raptor"
+- name: "NitroSPMA"
+  description: "NitroSPMA"
+- name: "Unarmed NitroSPMA"
+  description: "Unarmed NitroSPMA"
+- name: "Teamwork NitroBender"
+  description: "Teamwork NitroBender"
+- name: "Venom"
+  description: "Venom"
+- name: "Admin Venom"
+  description: "Admin Venom"
+hasConfigMenu: false
+hasKeybinds: false

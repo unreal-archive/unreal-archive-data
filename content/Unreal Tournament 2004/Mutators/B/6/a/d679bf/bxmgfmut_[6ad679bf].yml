@@ -1,0 +1,48 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-11 02:23"
+game: "Unreal Tournament 2004"
+name: "BxMGFMut"
+author: "Unknown"
+description: "None"
+releaseDate: "2011-11"
+attachments: []
+originalFilename: "BxMGFMut.rar"
+hash: "6ad679bfb38652fbe5e8a5a89df9eaa3d014ff16"
+fileSize: 13538
+files:
+- name: "BmgfM.u"
+  fileSize: 31851
+  hash: "573274a211a39bed2e8307f688716f5a3f5de462"
+- name: "Bx_tex.utx"
+  fileSize: 5994
+  hash: "8bfc379f39cec17035ed263aae7c74ad68350cb9"
+otherFiles: 1
+dependencies:
+  BmgfM.u:
+  - status: "OK"
+    name: "Bx_tex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/B/6/a/d679bf/BxMGFMut.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Full invisibility"
+  description: "All players are invisible."
+- name: "Rank up mutator"
+  description: "Add some bonuses from kill spee."
+weapons:
+- name: "Eternal radiator"
+  description: "The ASMD Shock Rifle has changed little since its incorporation into\
+    \ the Tournaments. The ASMD sports two firing modes capable of acting in concert\
+    \ to neutralize opponents in a devastating shockwave.||This combination attack\
+    \ is achieved when the weapon operator utilizes the secondary fire mode to deliver\
+    \ a charge of seeded plasma to the target.|Once the slow-moving plasma charge\
+    \ is within range of the target, the weapon operator may fire the photon beam\
+    \ into the plasma core, releasing the explosive energy of the anti-photons contained\
+    \ within the plasma's EM field."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
