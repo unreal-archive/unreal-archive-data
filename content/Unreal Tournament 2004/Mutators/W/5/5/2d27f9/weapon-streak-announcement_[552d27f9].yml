@@ -1,0 +1,39 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-08-11 02:10"
+game: "Unreal Tournament 2004"
+name: "Weapon Streak Announcement"
+author: "Unknown"
+description: "Announces streaks for every weapon, not just for Flak Monkeys and Combo\
+  \ Whores."
+releaseDate: "2012-11"
+attachments: []
+originalFilename: "WeapMilestoneAnnouncer.zip"
+hash: "552d27f91c41361f9a7a816c0a5e18a4f17fa064"
+fileSize: 1446892
+files:
+- name: "MutWeapMilestoneAnnounce.u"
+  fileSize: 29629
+  hash: "901c9e4b3defce62341f4b45fac2b2e7e54ccd3f"
+- name: "MutWeapMilestoneAnnounce_Snd.uax"
+  fileSize: 1617902
+  hash: "2293d7f7a1df98eb60551ec84c7e146faff579fb"
+otherFiles: 3
+dependencies:
+  MutWeapMilestoneAnnounce.u:
+  - status: "OK"
+    name: "MutWeapMilestoneAnnounce_Snd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/W/5/5/2d27f9/WeapMilestoneAnnouncer.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Weapon Streak Announcement"
+  description: "Announces streaks for every weapon, not just for Flak Monkeys and\
+    \ Combo Whores."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
