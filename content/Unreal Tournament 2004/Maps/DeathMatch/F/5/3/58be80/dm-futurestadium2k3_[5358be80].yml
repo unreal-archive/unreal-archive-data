@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-17 22:47"
+game: "Unreal Tournament 2004"
+name: "DM-Futurestadium2k3"
+author: "Zlin and 95Blitz"
+description: "None"
+releaseDate: "2002-11"
+attachments: []
+originalFilename: "dmfuture2k3.zip"
+hash: "5358be80957b5e21fe926d27788eac71ad96f769"
+fileSize: 6132146
+files:
+- name: "DM-Futurestadium2k3.ut2"
+  fileSize: 3021571
+  hash: "6e05a15e80e5cb42413f8bb7ba0f3f611361b7c8"
+- name: "Do You Call.ogg"
+  fileSize: 4071671
+  hash: "360d8ed2b15cf70e83c495c6ca81b94bef544eea"
+- name: "futureshot.utx"
+  fileSize: 3534817
+  hash: "69a85acb1a81d58b68b8df516fd044b1f727dba4"
+otherFiles: 1
+dependencies:
+  DM-Futurestadium2k3.ut2:
+  - status: "OK"
+    name: "futureshot"
+  - status: "MISSING"
+    name: "ATI"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/F/5/3/58be80/dmfuture2k3.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "FutureStadium2k3"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Ancient: 0.8
+bots: true
