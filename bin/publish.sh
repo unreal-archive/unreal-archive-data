@@ -24,7 +24,8 @@ ${UA_BIN} www ${WWW_LOCATION} --content-path=$1 --store=NOP \
   --with-latest=true \
   --with-submit=true \
   --with-packages=true \
-  --with-wikis=true
+  --with-wikis=true \
+  --with-umod=true
 
 # prepare private key
 echo "Preparing upload credentials"
