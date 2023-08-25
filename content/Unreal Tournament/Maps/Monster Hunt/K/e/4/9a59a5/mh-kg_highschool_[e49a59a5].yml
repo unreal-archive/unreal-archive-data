@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-25 12:39"
+variationOf: "5e6869988382f922817b3ee535200f5bb760b0d7"
+game: "Unreal Tournament"
+name: "MH-KG_HighSchool"
+author: "OFG"
+description: "None"
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-kg_highschool_shot_e49a59a5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/K/e/4/9a59a5/mh-kg_highschool_shot_e49a59a5_1.png"
+originalFilename: "mh-kg_highschool.zip"
+hash: "e49a59a51f7ccaedfbe9cb9fd77621d821f26e34"
+fileSize: 6832889
+files:
+- name: "ofg.utx"
+  fileSize: 5881821
+  hash: "7df122f0ad550369ec9d9a214ab9dd1a011695c3"
+- name: "MH-KG_HighSchool.unr"
+  fileSize: 16198022
+  hash: "a7134463dcfe59a70f75fb94b3f5e9ce9c5e16f4"
+- name: "ofg2.utx"
+  fileSize: 409237
+  hash: "a32431b31b5cc1ac308c637e7e307b6f58b0a097"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+otherFiles: 2
+dependencies:
+  MH-KG_HighSchool.unr:
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ofg"
+  - status: "OK"
+    name: "ofg2"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/K/e/4/9a59a5/mh-kg_highschool.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Kwansei Gakuin High School"
+playerCount: "12-24"
+themes:
+  Tech: 0.1
+  Natural: 0.1
+  Industrial: 0.7
+  Ancient: 0.1
+bots: true
