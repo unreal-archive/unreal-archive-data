@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-25 20:19"
+game: "Unreal Tournament"
+name: "SW-Chiesa"
+author: "r@yden"
+description: "None"
+releaseDate: "2000-12"
+attachments:
+- type: "IMAGE"
+  name: "sw-chiesa_shot_0be346d7_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Tactical%20Ops/C/0/b/e346d7/sw-chiesa_shot_0be346d7_1.png"
+originalFilename: "SW-Chiesa.zip"
+hash: "0be346d77ca35a41100c36c221121cb31928cbef"
+fileSize: 1905553
+files:
+- name: "SW-Chiesa.unr"
+  fileSize: 3748699
+  hash: "e0a339b95f1e92e3e292cc74eac5ba6ea0af2e22"
+- name: "Nali.umx"
+  fileSize: 952740
+  hash: "a2e0e58ccf7383704c71b752f4ccc897c783bc6d"
+otherFiles: 1
+dependencies:
+  SW-Chiesa.unr:
+  - status: "MISSING"
+    name: "terrorist3tex"
+  - status: "OK"
+    name: "Nali"
+  - status: "MISSING"
+    name: "s_SWAT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Tactical%20Ops/C/0/b/e346d7/SW-Chiesa.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Tactical Ops"
+title: "Chiesa"
+playerCount: "6-10"
+themes:
+  Natural: 0.3
+  Industrial: 0.2
+  Nali Castle: 0.3
+  Skaarj Tech: 0.1
+  Ancient: 0.1
+bots: true
