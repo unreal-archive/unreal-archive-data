@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-08-25 19:43"
+game: "Unreal Tournament"
+name: "MH-Smyrna"
+author: "annabella"
+description: "None"
+releaseDate: "2014-01"
+attachments: []
+originalFilename: "mh-smyrna.zip"
+hash: "e88a837255dcaeb0be64c2bb38f0826eb6bfb758"
+fileSize: 8334157
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "FCommando_annaBella.utx"
+  fileSize: 448315
+  hash: "b9e70989030a11fc3676368facb514d4e25cf226"
+- name: "Nickel.umx"
+  fileSize: 5187071
+  hash: "5173e84f125051bc93a44e94f952b3d828dba11f"
+- name: "MH-Smyrna.unr"
+  fileSize: 3653655
+  hash: "da46da32d147b2e51d2bcf067b69ff544f2517c4"
+- name: "AUT_HG.utx"
+  fileSize: 5429005
+  hash: "f52322a08e3ca680c8cebbba39359a2cb8c2fbb0"
+otherFiles: 2
+dependencies:
+  MH-Smyrna.unr:
+  - status: "OK"
+    name: "FCommando_annaBella"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Nickel"
+  - status: "OK"
+    name: "AUT_HG"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/e/8/8a8372/mh-smyrna.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Smyrna"
+playerCount: "8"
+themes:
+  Tech: 0.1
+  City: 0.6
+  Ancient: 0.2
+bots: true
