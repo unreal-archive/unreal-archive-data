@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-06 03:52"
+game: "Unreal Tournament"
+name: "SFTDM-Reactor-Sector-4_SF"
+author: "Spooger & Islington"
+description: "None"
+releaseDate: "2000-11"
+attachments:
+- type: "IMAGE"
+  name: "sftdm-reactor-sector-4_sf_shot_c1150574_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Strike%20Force/T/c/1/150574/sftdm-reactor-sector-4_sf_shot_c1150574_1.png"
+originalFilename: "sftdm_reactorsector4.zip"
+hash: "c11505749c69fbec6f3b132872d8bfbe3a9affc2"
+fileSize: 5566335
+files:
+- name: "DP_Pack2.utx"
+  fileSize: 5613003
+  hash: "14e74d7bf5f2e5ee3f6f5ce94d4c7a3774c75602"
+- name: "RS.uax"
+  fileSize: 2573083
+  hash: "190f68f39a24a24e9ab5630c28050ad400ce404c"
+- name: "SFTDM-Reactor-Sector-4_SF.unr"
+  fileSize: 2587436
+  hash: "fe35fd4d8db450bd3ccf00b4b71ce834496ecf34"
+otherFiles: 0
+dependencies:
+  SFTDM-Reactor-Sector-4_SF.unr:
+  - status: "OK"
+    name: "RS"
+  - status: "MISSING"
+    name: "SF"
+  - status: "MISSING"
+    name: "DP_Pack-1"
+  - status: "OK"
+    name: "DP_Pack2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Strike%20Force/T/c/1/150574/sftdm_reactorsector4.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Strike Force"
+title: "Reactor-Sector 4"
+playerCount: "8-16"
+themes:
+  Tech: 0.8
+  City: 0.1
+  Industrial: 0.1
+bots: true

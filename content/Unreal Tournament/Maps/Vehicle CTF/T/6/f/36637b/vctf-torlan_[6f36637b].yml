@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-06 03:52"
+game: "Unreal Tournament"
+name: "VCTF-Torlan"
+author: "MYTH//GUNDAM"
+description: "None"
+releaseDate: "2008-12"
+attachments: []
+originalFilename: "vctf-torlan.zip"
+hash: "6f36637b0b5b723cf95faf0d7df05fbaf7fe4dc0"
+fileSize: 42624946
+files:
+- name: "VCTF-Torlan.unr"
+  fileSize: 4804183
+  hash: "537aa983ff1bae44e4608eaa6e458c346ea2400c"
+- name: "SDG-ONS01Remix.umx"
+  fileSize: 45967502
+  hash: "f94cdf71891fdbb29ff1e23800745f9c72ebba45"
+otherFiles: 0
+dependencies:
+  VCTF-Torlan.unr:
+  - status: "MISSING"
+    name: "onslaughtpatch"
+  - status: "OK"
+    name: "SDG-ONS01Remix"
+  - status: "MISSING"
+    name: "onslaughtvehicles"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Vehicle%20CTF/T/6/f/36637b/vctf-torlan.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "ONS-TORLAN"
+playerCount: "10-32"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true
