@@ -1,0 +1,45 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-10-27 23:35"
+game: "Unreal Tournament 2004"
+name: "Dm Cylinder  Cone"
+author: "Various"
+description: "None"
+releaseDate: "2010-08"
+attachments: []
+originalFilename: "dm-cylinder__cone.7z"
+hash: "7f6fd21706ed66c6d6775f4876141ac8314aad6e"
+fileSize: 970696
+files:
+- name: "DM-Cylinder_Room.ut2"
+  fileSize: 363676
+  hash: "090b3f1cd03ec49a3f7cdd2d4ad7d2bdc84e0028"
+- name: "DM-CONE_ROOM.ut3"
+  fileSize: 256308
+  hash: "0eb3915ce4752219b08a04120a3e3d64a5f362ed"
+otherFiles: 2
+dependencies:
+  DM-CONE_ROOM.ut3:
+  - status: "MISSING"
+    name: "GP_Onslaught"
+  - status: "MISSING"
+    name: "EngineMaterials"
+  - status: "MISSING"
+    name: "UTGame"
+  - status: "MISSING"
+    name: "UTGameContent"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/D/7/f/6fd217/dm-cylinder__cone.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Cylinder_Room"
+  title: "DM-CYLINDER_ROOM"
+  author: "JBINGFA"
+- name: "DM-CONE_ROOM"
+  title: "DM-CONE_ROOM"
+  author: "Unknown"
+gametype: "DeathMatch"
+themes: {}
