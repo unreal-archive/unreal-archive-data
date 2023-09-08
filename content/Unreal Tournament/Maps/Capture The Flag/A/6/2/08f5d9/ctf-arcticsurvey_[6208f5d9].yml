@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-27 19:23"
+game: "Unreal Tournament"
+name: "CTF-ArcticSurvey"
+author: "MYTHGUNDAM"
+description: "None"
+releaseDate: "2009-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-arcticsurvey_shot_6208f5d9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/6/2/08f5d9/ctf-arcticsurvey_shot_6208f5d9_1.png"
+originalFilename: "029_ctf-articsurvey.7z"
+hash: "6208f5d910587e8c5c948d4ecfae6bdca722d060"
+fileSize: 33327355
+files:
+- name: "SDG-ONS09.umx"
+  fileSize: 35983981
+  hash: "86de7127c5a107fe107ba0db465c5a463578f02c"
+- name: "CTF-ArcticSurvey.unr"
+  fileSize: 1811281
+  hash: "66fc0dbe448a634a10df48423ba8f348b066752f"
+- name: "chaossounds2.uax"
+  fileSize: 3183219
+  hash: "7582a5906c9e595b6c27a6acb2f4c5cae299c650"
+otherFiles: 0
+dependencies:
+  CTF-ArcticSurvey.unr:
+  - status: "OK"
+    name: "SDG-ONS09"
+  - status: "MISSING"
+    name: "AirFightUT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/6/2/08f5d9/029_ctf-articsurvey.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "DED-ArcticSurvey"
+playerCount: "32 almas de"
+themes:
+  Tech: 0.4
+  City: 0.4
+  Natural: 0.2
+bots: true
