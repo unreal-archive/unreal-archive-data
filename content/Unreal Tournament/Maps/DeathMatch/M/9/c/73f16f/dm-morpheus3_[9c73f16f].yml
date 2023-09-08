@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:45"
+game: "Unreal Tournament"
+name: "DM-Morpheus3"
+author: "Unknown"
+description: "Nobody ever makes their first jump."
+releaseDate: "2009-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-morpheus3_shot_9c73f16f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/c/73f16f/dm-morpheus3_shot_9c73f16f_1.png"
+originalFilename: "047_dm-morpheus3.7z"
+hash: "9c73f16f90e0d0c8d750c9461c94edae29e64526"
+fileSize: 15106258
+files:
+- name: "KR-Morpheus3.umx"
+  fileSize: 18761868
+  hash: "ab162f2871e2c862375d807e1fc2aab1783a5967"
+- name: "DM-Morpheus3.unr"
+  fileSize: 1228014
+  hash: "4f2d1dcacfc608af05df2ba716b1effdf33306cc"
+otherFiles: 0
+dependencies:
+  DM-Morpheus3.unr:
+  - status: "OK"
+    name: "KR-Morpheus3"
+  - status: "MISSING"
+    name: "NaliWeaponsIIBeta1c"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/c/73f16f/047_dm-morpheus3.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Morpheus3"
+playerCount: "8 almas de"
+themes:
+  Tech: 0.2
+  City: 0.3
+  Industrial: 0.5
+bots: true
