@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:58"
+game: "Unreal"
+name: "DM-Kargo"
+author: "]IKN[-MYTHNOTAUR"
+description: "Cargo Ship"
+releaseDate: "2009-02"
+attachments: []
+originalFilename: "dm-kargo.zip"
+hash: "236ed85772000dc123e70d2693326638f656be48"
+fileSize: 20557172
+files:
+- name: "DmSpaceshipRJ.utx"
+  fileSize: 102451
+  hash: "16eb250c636e4df99dbe3013b4596ee10ee4008f"
+- name: "KR-DM1.umx"
+  fileSize: 22518750
+  hash: "9ec600a22ad7c1a4a2991a9d876ece8aa377fb1d"
+- name: "DM-Kargo.unr"
+  fileSize: 1953225
+  hash: "de1063169c16ee6337aa0ae8e4efb6ffbe1aed48"
+otherFiles: 0
+dependencies:
+  DM-Kargo.unr:
+  - status: "OK"
+    name: "KR-DM1"
+  - status: "OK"
+    name: "DmSpaceshipRJ"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/K/2/3/6ed857/dm-kargo.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Kargo"
+playerCount: "Unknown"
+themes: {}
+bots: true
