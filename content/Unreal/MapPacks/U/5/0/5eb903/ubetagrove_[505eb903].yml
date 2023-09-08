@@ -1,0 +1,53 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal"
+name: "Ubetagrove"
+author: "Ryan Armstrong"
+description: "None"
+releaseDate: "1999-06"
+attachments: []
+originalFilename: "ubetagrove.zip"
+hash: "505eb903fb74c089b70374a5e2f3fc9990e1da93"
+fileSize: 1807844
+files:
+- name: "dmbetagrove.unr"
+  fileSize: 520433
+  hash: "902b08c1333638352a33a3ec76c2b452a8e42d47"
+- name: "shockdoors.uax"
+  fileSize: 191290
+  hash: "6572da7c4bdc87c3495601909d3237f896ccce52"
+- name: "dkbetagrove.unr"
+  fileSize: 513308
+  hash: "e51dfc50b05f652d62fd5b07b61b1c0d8f29f431"
+- name: "Shock.utx"
+  fileSize: 5783645
+  hash: "0776942be0ff19b085f4431f9189934bc41ca8ce"
+otherFiles: 1
+dependencies:
+  dkbetagrove.unr:
+  - status: "OK"
+    name: "Shock"
+  - status: "OK"
+    name: "shockdoors"
+  dmbetagrove.unr:
+  - status: "OK"
+    name: "Shock"
+  - status: "OK"
+    name: "shockdoors"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/5/0/5eb903/ubetagrove.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "dmbetagrove"
+  title: "Beta Grove"
+  author: "Ryan Armstrong"
+- name: "dkbetagrove"
+  title: "Beta Grove"
+  author: "Ryan Armstrong"
+gametype: "Mixed"
+themes:
+  Natural: 1.0

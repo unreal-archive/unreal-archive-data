@@ -1,0 +1,70 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal"
+name: "Utssfloor3"
+author: "Zerker"
+description: "None"
+releaseDate: "2000-09"
+attachments:
+- type: "IMAGE"
+  name: "utssfloor3_shot_d5c2b969_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/d/5/c2b969/utssfloor3_shot_d5c2b969_1.png"
+- type: "IMAGE"
+  name: "utssfloor3_shot_d5c2b969_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/d/5/c2b969/utssfloor3_shot_d5c2b969_2.png"
+originalFilename: "utssfloor3.zip"
+hash: "d5c2b9695d82448db58142f2b6439d588dbba61e"
+fileSize: 1976420
+files:
+- name: "dm-maintenance.unr"
+  fileSize: 885499
+  hash: "1afb817f1eee4554cb2fbbd3ed3a87522d1d2d35"
+- name: "dom-maintenance.unr"
+  fileSize: 855807
+  hash: "f38005dffa91e4032ea0419b45c3b7d2b2c58fcf"
+- name: "shockdoors.uax"
+  fileSize: 191290
+  hash: "6572da7c4bdc87c3495601909d3237f896ccce52"
+- name: "Shock.utx"
+  fileSize: 5783645
+  hash: "0776942be0ff19b085f4431f9189934bc41ca8ce"
+otherFiles: 0
+dependencies:
+  dom-maintenance.unr:
+  - status: "MISSING"
+    name: "shocknew"
+  - status: "OK"
+    name: "shockdoors"
+  - status: "MISSING"
+    name: "shockspot"
+  - status: "OK"
+    name: "shock"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "Seeker2"
+  dm-maintenance.unr:
+  - status: "OK"
+    name: "shockdoors"
+  - status: "OK"
+    name: "shock"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "Seeker2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/d/5/c2b969/utssfloor3.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "dm-maintenance"
+  title: "Maintenace Level"
+  author: "Zerker"
+- name: "dom-maintenance"
+  title: "Maintenace Level"
+  author: "Zerker"
+gametype: "Mixed"
+themes: {}

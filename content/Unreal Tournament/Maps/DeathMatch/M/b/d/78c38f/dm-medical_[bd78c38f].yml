@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal Tournament"
+name: "dm-medical"
+author: "Ryan Armstrong (Zerker)"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-medical_shot_bd78c38f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/b/d/78c38f/dm-medical_shot_bd78c38f_1.png"
+originalFilename: "utssfloor1.zip"
+hash: "bd78c38fa8a6c4af98c4a2518ea267fddb9092f3"
+fileSize: 2716813
+files:
+- name: "Shock.utx"
+  fileSize: 5783645
+  hash: "0776942be0ff19b085f4431f9189934bc41ca8ce"
+- name: "dm-medical.unr"
+  fileSize: 2398346
+  hash: "d37667ad111f8777af0b7050eb7b6d7984403fce"
+- name: "MedicalDeck.umx"
+  fileSize: 230864
+  hash: "f4250b0a30e8fcfe2cfe3ef7566a274bf0e5a7d7"
+- name: "shocknew.utx"
+  fileSize: 1894809
+  hash: "859bfd931348f785499ea4065a5fed41a91ef912"
+otherFiles: 0
+dependencies:
+  dm-medical.unr:
+  - status: "OK"
+    name: "shocknew"
+  - status: "MISSING"
+    name: "shockdoors"
+  - status: "MISSING"
+    name: "shockspot"
+  - status: "OK"
+    name: "MedicalDeck"
+  - status: "OK"
+    name: "shock"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/b/d/78c38f/utssfloor1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Medical Level"
+playerCount: "8+"
+themes:
+  Natural: 1.0
+bots: true

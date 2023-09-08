@@ -1,0 +1,67 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal"
+name: "Utbetagrove"
+author: "Zerker"
+description: "None"
+releaseDate: "2000-01"
+attachments:
+- type: "IMAGE"
+  name: "utbetagrove_shot_a7dcdc38_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/a/7/dcdc38/utbetagrove_shot_a7dcdc38_1.png"
+- type: "IMAGE"
+  name: "utbetagrove_shot_a7dcdc38_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/a/7/dcdc38/utbetagrove_shot_a7dcdc38_2.png"
+originalFilename: "utbetagrove.zip"
+hash: "a7dcdc380360e57b81f40af1aff326f48c32f2f2"
+fileSize: 1837220
+files:
+- name: "dom-betagrove.unr"
+  fileSize: 589625
+  hash: "ccfb0d324ce672a0b1b547879935933ecadc1e16"
+- name: "dm-betagrove.unr"
+  fileSize: 589393
+  hash: "6794bb472015745715252ee103b1a4459210fda9"
+- name: "shockdoors.uax"
+  fileSize: 191290
+  hash: "6572da7c4bdc87c3495601909d3237f896ccce52"
+- name: "Shock.utx"
+  fileSize: 5783645
+  hash: "0776942be0ff19b085f4431f9189934bc41ca8ce"
+otherFiles: 0
+dependencies:
+  dm-betagrove.unr:
+  - status: "OK"
+    name: "shockdoors"
+  - status: "MISSING"
+    name: "Enigma"
+  - status: "OK"
+    name: "shock"
+  - status: "MISSING"
+    name: "Botpack"
+  dom-betagrove.unr:
+  - status: "OK"
+    name: "shockdoors"
+  - status: "MISSING"
+    name: "Enigma"
+  - status: "OK"
+    name: "shock"
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/a/7/dcdc38/utbetagrove.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "dom-betagrove"
+  title: "Beta Grove"
+  author: "Zerker"
+- name: "dm-betagrove"
+  title: "Beta Grove"
+  author: "Zerker"
+gametype: "Mixed"
+themes:
+  Natural: 1.0

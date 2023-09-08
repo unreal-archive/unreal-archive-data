@@ -1,0 +1,61 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal Tournament"
+name: "Uticecaverns"
+author: "Ryan Armstrong (Zerker)"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "uticecaverns_shot_660bb47f_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/6/6/0bb47f/uticecaverns_shot_660bb47f_2.png"
+- type: "IMAGE"
+  name: "uticecaverns_shot_660bb47f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/6/6/0bb47f/uticecaverns_shot_660bb47f_1.png"
+originalFilename: "uticecaverns.zip"
+hash: "660bb47fbdb87c496dc1882eed8ccc8f77e58e1b"
+fileSize: 3072305
+files:
+- name: "dom-IceCavernsF2.unr"
+  fileSize: 1930750
+  hash: "77ddbc97153e31b9526aa0057ada6a4fd63e6836"
+- name: "IceCaverns.umx"
+  fileSize: 54099
+  hash: "d88f6895a4177c99f9ebf1010351accb63d0fc4a"
+- name: "Snowice.utx"
+  fileSize: 2453512
+  hash: "bf47d002aa1c03eb70e2ec6e433cfa8e303955e2"
+- name: "dm-IceCavernsF2.unr"
+  fileSize: 1938435
+  hash: "643d71f3795f3925ad042fa4b8cd232b281454c3"
+otherFiles: 0
+dependencies:
+  dm-IceCavernsF2.unr:
+  - status: "OK"
+    name: "Snowice"
+  - status: "OK"
+    name: "IceCaverns"
+  dom-IceCavernsF2.unr:
+  - status: "OK"
+    name: "Snowice"
+  - status: "OK"
+    name: "IceCaverns"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/6/6/0bb47f/uticecaverns.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "dom-IceCavernsF2"
+  title: "The Ice Caverns, Floor 2"
+  author: "Ryan Armstrong (Zerker)"
+- name: "dm-IceCavernsF2"
+  title: "The Ice Caverns, Floor 2"
+  author: "Ryan Armstrong (Zerker)"
+gametype: "Mixed"
+themes:
+  Skaarj Crypt: 0.3
+  Natural: 0.3
+  Nali Castle: 0.4
