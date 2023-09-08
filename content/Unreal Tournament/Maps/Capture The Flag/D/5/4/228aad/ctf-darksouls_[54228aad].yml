@@ -1,0 +1,37 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-08 12:50"
+game: "Unreal Tournament"
+name: "CTF-DarkSouls"
+author: "BONE"
+description: "This is the DS Clan map"
+releaseDate: "2023-09"
+attachments: []
+originalFilename: "CTF-DarkSouls.zip"
+hash: "54228aad5bcaa8628ecb703e09a08dedd4935e4b"
+fileSize: 333702
+files:
+- name: "dslogo.utx"
+  fileSize: 88998
+  hash: "3be86c7389f6cbfbd96ecf6015ef3a26823626fd"
+- name: "CTF-DarkSouls.unr"
+  fileSize: 967073
+  hash: "1b7f5f292579c58c31975805e78a89c75b21fc87"
+otherFiles: 0
+dependencies:
+  CTF-DarkSouls.unr:
+  - status: "OK"
+    name: "dslogo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/5/4/228aad/CTF-DarkSouls.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "DS Clan map 98'"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.9
+  Ancient: 0.1
+bots: true
