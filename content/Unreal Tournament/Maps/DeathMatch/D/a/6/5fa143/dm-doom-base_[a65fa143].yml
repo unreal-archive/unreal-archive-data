@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-04 12:24"
+game: "Unreal Tournament"
+name: "DM-Doom-Base"
+author: "Psimorph"
+description: "Wellcome to Doom Training Base"
+releaseDate: "2005-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-doom-base_shot_a65fa143_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/a/6/5fa143/dm-doom-base_shot_a65fa143_1.png"
+originalFilename: "dm_doom_base.rar"
+hash: "a65fa1430e1ceec4dbf0f4232829b2fe5153346a"
+fileSize: 707230
+files:
+- name: "DM-Doom-Base.unr"
+  fileSize: 1633580
+  hash: "afbc4f502f02b87d05243487ef31639800dbc431"
+- name: "DoomMod.u"
+  fileSize: 16025
+  hash: "fe3a9d4f316cbcb30acf2f8b4260479c56c50d26"
+- name: "DoomTex.utx"
+  fileSize: 892321
+  hash: "caf463c57c8b16e614a69ee00f63a2c054ff103f"
+otherFiles: 1
+dependencies:
+  DM-Doom-Base.unr:
+  - status: "OK"
+    name: "DoomMod"
+  - status: "OK"
+    name: "DoomTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/a/6/5fa143/dm_doom_base.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Doom Base"
+playerCount: "2-4"
+themes:
+  Natural: 1.0
+bots: true

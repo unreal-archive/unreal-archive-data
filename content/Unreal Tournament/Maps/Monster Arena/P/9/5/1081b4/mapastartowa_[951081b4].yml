@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-04 12:24"
+game: "Unreal Tournament"
+name: "MapaStartowa"
+author: "VenoX"
+description: "None"
+releaseDate: "2016-07"
+attachments: []
+originalFilename: "MapaStartowa.rar"
+hash: "951081b4310d51fcd8e255666b02ccd41b37e0a1"
+fileSize: 1972358
+files:
+- name: "MapaStartowa.unr"
+  fileSize: 14202
+  hash: "4a531d2a36bf91f698263fac6ada0beb1a4c91c0"
+- name: "venox_domyslna.utx"
+  fileSize: 132871
+  hash: "0b8166178630c4300d4834fd8567f5722345bcd9"
+- name: "venox_pack.utx"
+  fileSize: 530445
+  hash: "2ee7f14691197551b3fba0d82813bebbb4880972"
+- name: "ADESYS2.umx"
+  fileSize: 1014483
+  hash: "3a8f29112164311b250fb2dfa04c993159e60eda"
+otherFiles: 0
+dependencies:
+  MapaStartowa.unr:
+  - status: "OK"
+    name: "venox_pack"
+  - status: "OK"
+    name: "ADESYS2"
+  - status: "OK"
+    name: "venox_domyslna"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Arena/P/9/5/1081b4/MapaStartowa.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Arena"
+title: "Mapa startowa serwera BunnyTrack"
+playerCount: "Unknown"
+themes: {}
+bots: false

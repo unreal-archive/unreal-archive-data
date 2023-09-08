@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-04 12:24"
+game: "Unreal Tournament"
+name: "CTF-River-Stix"
+author: "Alex_Gan"
+description: "DOOM WILL WON!!!"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-river-stix_shot_581e44a7_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/5/8/1e44a7/ctf-river-stix_shot_581e44a7_1.png"
+originalFilename: "stix.rar"
+hash: "581e44a79ccedeb89edadf1523b80cb59d9fedda"
+fileSize: 1142969
+files:
+- name: "Stix.utx"
+  fileSize: 198421
+  hash: "8ce03bb1a9a9b6b79fb31015656cfa478e793b9d"
+- name: "CTF-River-Stix.unr"
+  fileSize: 2029494
+  hash: "f731c01286e68f26ebebf768150eff7c1fc31152"
+- name: "Mayhem.umx"
+  fileSize: 957967
+  hash: "be6b5cdebffd5b7bffc09043cc84870b498dd94e"
+otherFiles: 0
+dependencies:
+  CTF-River-Stix.unr:
+  - status: "OK"
+    name: "Stix"
+  - status: "OK"
+    name: "Mayhem"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/5/8/1e44a7/stix.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "River-Stix"
+playerCount: "8-24"
+themes:
+  Industrial: 1.0
+bots: true
