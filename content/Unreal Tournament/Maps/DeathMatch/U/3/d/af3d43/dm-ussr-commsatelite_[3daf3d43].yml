@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:40"
+game: "Unreal Tournament"
+name: "DM-[USSR]-CommSatelite"
+author: "MYTH"
+description: "None"
+releaseDate: "2008-07"
+attachments: []
+originalFilename: "063_dm-_ussr_-commsatelite.zip"
+hash: "3daf3d439e53f2e2bfc155fc1b89b70dae27db83"
+fileSize: 1458380
+files:
+- name: "DM-[USSR]-CommSatelite.unr"
+  fileSize: 1381504
+  hash: "042def2d32ea60200a303e5cb4069651bd11fa1e"
+- name: "TECKNO.UTX"
+  fileSize: 602903
+  hash: "15f6d092b59886e45677d07cf44c02fcee1cd784"
+- name: "rock.umx"
+  fileSize: 827751
+  hash: "dcfd6b44868bad12a73f1a01a4bfe366e38ddbb4"
+otherFiles: 0
+dependencies:
+  DM-[USSR]-CommSatelite.unr:
+  - status: "OK"
+    name: "Rock"
+  - status: "OK"
+    name: "teckno"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/3/d/af3d43/063_dm-_ussr_-commsatelite.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "COMM SATELITE"
+playerCount: "5-9"
+themes:
+  Skaarj Tech: 1.0
+bots: true

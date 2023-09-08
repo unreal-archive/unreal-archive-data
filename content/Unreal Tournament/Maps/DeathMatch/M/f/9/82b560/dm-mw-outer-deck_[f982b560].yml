@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:40"
+game: "Unreal Tournament"
+name: "DM-(MW)-Outer-Deck"
+author: "(MW)-(S)-MYTHGUNDAM"
+description: "None"
+releaseDate: "2013-08"
+attachments: []
+originalFilename: "095_dm-_mw_-outer-deck.zip"
+hash: "f982b5606562577d8f2f5f4c4f2d7a658dfbab80"
+fileSize: 1003290
+files:
+- name: "prong.utx"
+  fileSize: 1157297
+  hash: "1953356f732c73f1e141951b2b98cd57b721d17b"
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "DM-(MW)-Outer-Deck.unr"
+  fileSize: 607229
+  hash: "4bd4472b8b8ca0d83a5390f48de211ecdee153f8"
+otherFiles: 0
+dependencies:
+  DM-(MW)-Outer-Deck.unr:
+  - status: "OK"
+    name: "JumpPad"
+  - status: "OK"
+    name: "Prong"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/f/9/82b560/095_dm-_mw_-outer-deck.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "OUTER DECK"
+playerCount: "2-6"
+themes:
+  Skaarj Tech: 0.9
+bots: true
