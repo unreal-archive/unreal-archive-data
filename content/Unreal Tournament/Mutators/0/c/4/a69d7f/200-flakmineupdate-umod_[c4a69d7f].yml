@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-10-20 19:46"
+game: "Unreal Tournament"
+name: "200 Flakmineupdate Umod"
+author: "FlakMineCannons.\")"
+description: "None"
+releaseDate: "2001-08"
+attachments: []
+originalFilename: "200_flakmineupdate_umod.zip"
+hash: "c4a69d7fe40256451d99409ff20e952fcf5a025b"
+fileSize: 11527
+files:
+- name: "FlakmineUpdate.umod"
+  fileSize: 36274
+  hash: "17f79f2e94b769e9492dc24cb1c1986a88526252"
+- name: "FlakmineUpdate.u"
+  fileSize: 31715
+  hash: "e54295ab671d8a17f9bcc6fa2abcf71e91faeb26"
+otherFiles: 3
+dependencies:
+  FlakmineUpdate.u:
+  - status: "MISSING"
+    name: "FlakMine"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/0/c/4/a69d7f/200_flakmineupdate_umod.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "FlakMine Arena"
+  description: "All weapons are replaced by FlakMineCannons."
+- name: "Volatile Ammo (FlakMine support)"
+  description: " Ammo explodes when shot."
+- name: "FlakMine Mutator"
+  description: " All FlakCannons are replaced by FlakMineCannons! Also with Akimbo\
+    \ Arena support!"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
