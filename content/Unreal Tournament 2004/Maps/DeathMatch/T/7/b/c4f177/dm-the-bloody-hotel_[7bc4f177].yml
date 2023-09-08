@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-30 20:40"
+variationOf: "f3d593c806ea7d99ace49ade5e1fc6834c459cec"
+game: "Unreal Tournament 2004"
+name: "DM-The Bloody Hotel"
+author: "Toff"
+description: "Stay at The Bloody Hotel and you might find that you'll never leave."
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "dm-bloodyhotel01.zip"
+hash: "7bc4f17712e9c6285670e286ade18d0072ed3338"
+fileSize: 37753430
+files:
+- name: "GOMNM.usx"
+  fileSize: 16700444
+  hash: "8140c07b2fcbe52ad581fa4b6da6b33494ae53a9"
+- name: "DM-The Bloody Hotel.ut2"
+  fileSize: 5301550
+  hash: "0d4cdaccb5bc52af694972c01bb0e1ff2e8ac90b"
+- name: "GOMSGlobalTex.utx"
+  fileSize: 93860803
+  hash: "68cb087286c95598321320da278b18252070d7ce"
+otherFiles: 1
+dependencies:
+  GOMNM.usx:
+  - status: "OK"
+    name: "GOMSGlobalTex"
+  DM-The Bloody Hotel.ut2:
+  - status: "OK"
+    name: "GOMSGlobalTex"
+  - status: "OK"
+    name: "GOMNM"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/T/7/b/c4f177/dm-bloodyhotel01.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Bloody Hotel"
+playerCount: "Unknown"
+themes: {}
+bots: true
