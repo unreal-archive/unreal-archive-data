@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 12:18"
+game: "Unreal Tournament"
+name: "Dm-Qro"
+author: "Aztlán"
+description: "None"
+releaseDate: "2009-03"
+attachments: []
+originalFilename: "014_dm-qro-mex.rar"
+hash: "7e43b6987b7eac60c7ca683bdcf0d1608fa9677d"
+fileSize: 7750899
+files:
+- name: "Blade.utx"
+  fileSize: 2327164
+  hash: "8c2667ad67176f0135e322dd7d6ecbeae9442f13"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Dm-Qro.unr"
+  fileSize: 2679412
+  hash: "c8019e3b71b9759030bfe96c8bd5c7805f593e48"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "Lian-X.utx"
+  fileSize: 670538
+  hash: "fc576cf9a93b6cb39faf27a05c68f37464f6e489"
+- name: "Infiltration.u"
+  fileSize: 7222679
+  hash: "db2aa81d65311ff9a1af51534643c8f8c63bcb17"
+- name: "carlostx1.utx"
+  fileSize: 23456
+  hash: "cc8152f906082b34407932024839dd21557cdc29"
+otherFiles: 2
+dependencies:
+  Dm-Qro.unr:
+  - status: "OK"
+    name: "Blade"
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "carlostx1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/Q/7/e/43b698/014_dm-qro-mex.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Qro-Mex."
+playerCount: "6-16"
+themes:
+  Tech: 0.1
+  City: 0.7
+  Skaarj Tech: 0.3
+bots: true
