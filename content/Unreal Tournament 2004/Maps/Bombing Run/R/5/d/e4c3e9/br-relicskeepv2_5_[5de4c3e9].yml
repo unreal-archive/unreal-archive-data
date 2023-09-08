@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-31 11:46"
+game: "Unreal Tournament 2004"
+name: "BR-RelicsKeep[V2_5]"
+author: "Relic [aka] Joe Unik"
+description: "Stormy night in a creepy keep ... perfect setting for some gibs"
+releaseDate: "2006-11"
+attachments: []
+originalFilename: "brrelicskeepv2_5.zip"
+hash: "5de4c3e948330c63d33da5eec805bf676a141659"
+fileSize: 22803034
+files:
+- name: "RoAR_Aaron_tx.utx"
+  fileSize: 1203431
+  hash: "a3ba4bfcd10e5bed35cb2a644cc3ceedf429e1ee"
+- name: "RoAR_DocEDo.usx"
+  fileSize: 3114276
+  hash: "50ed7b15c17fbc4ee7d00e852fb7c88af2ff4ceb"
+- name: "Ty_GreekSmeshes.usx"
+  fileSize: 3962652
+  hash: "47ec95bb09defd3e98d4f4fd6207506d82259f91"
+- name: "BR-RelicsKeep[V2_5].ut2"
+  fileSize: 17718038
+  hash: "cd3249a7bcfe8849493894d4cce0f33f8ebbe702"
+- name: "RoAR_Aaron_Mesh.usx"
+  fileSize: 295602
+  hash: "a9edb18adfa86cfe9e5b1454c1b1e12675ab9924"
+- name: "RoAR_DocEDo_tx.utx"
+  fileSize: 2513821
+  hash: "45d39b7a50972406712eabd6a0257fdde49341d1"
+- name: "Ty_Greek.utx"
+  fileSize: 24039277
+  hash: "6a7e55b4b718e4a01a09c27b9c0bf5557f586c4e"
+otherFiles: 1
+dependencies:
+  Ty_GreekSmeshes.usx:
+  - status: "OK"
+    name: "Ty_Greek"
+  BR-RelicsKeep[V2_5].ut2:
+  - status: "OK"
+    name: "Ty_GreekSmeshes"
+  - status: "OK"
+    name: "RoAR_Aaron_tx"
+  RoAR_DocEDo.usx:
+  - status: "OK"
+    name: "RoAR_DocEDo_tx"
+  RoAR_Aaron_Mesh.usx:
+  - status: "OK"
+    name: "RoAR_Aaron_tx"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/R/5/d/e4c3e9/brrelicskeepv2_5.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Bombing Run"
+title: "Relic's Keep"
+playerCount: "20"
+themes:
+  Natural: 0.1
+  Industrial: 0.2
+  Ancient: 0.7
+bots: true
