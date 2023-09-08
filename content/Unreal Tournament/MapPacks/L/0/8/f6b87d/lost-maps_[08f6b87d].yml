@@ -1,0 +1,64 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-09-21 01:08"
+game: "Unreal Tournament"
+name: "Lost Maps"
+author: "[MZK]Jaimin_P"
+description: "None"
+releaseDate: "2023-09"
+attachments:
+- type: "IMAGE"
+  name: "lost-maps_shot_08f6b87d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/L/0/8/f6b87d/lost-maps_shot_08f6b87d_1.png"
+originalFilename: "Lost Maps.zip"
+hash: "08f6b87dea73ca05468cd38cc4e702e0ea8a1a00"
+fileSize: 12089858
+files:
+- name: "mzk.utx"
+  fileSize: 704751
+  hash: "485f785961f29593ab4f38cdee9e2189f0070810"
+- name: "rockhouse.umx"
+  fileSize: 4112347
+  hash: "5ed001f47fe3cace61c05033b3431e1eb3500a04"
+- name: "jaiminpic.utx"
+  fileSize: 88959
+  hash: "5d5291d20257f3279dce80141c2222494f3f3498"
+- name: "soultosqueeze.umx"
+  fileSize: 6967835
+  hash: "717fa87f31626beef551056bf854bf00985e0eac"
+- name: "DM-[MZK]DownwardSpiral.unr"
+  fileSize: 4453189
+  hash: "60c46022cb8953948e489b630255c2d41a43cc3e"
+- name: "MZKText.utx"
+  fileSize: 1015386
+  hash: "d021a4c60ffc7ce0fafa5e71d6f85b79d4ddb839"
+- name: "DM-[MZK]TittieTemple.unr"
+  fileSize: 2901346
+  hash: "e37af28b61897847d28135dbe50119d3083dc6b9"
+otherFiles: 0
+dependencies:
+  DM-[MZK]DownwardSpiral.unr:
+  - status: "OK"
+    name: "jaiminpic"
+  - status: "OK"
+    name: "soultosqueeze"
+  DM-[MZK]TittieTemple.unr:
+  - status: "OK"
+    name: "rockhouse"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/L/0/8/f6b87d/Lost%20Maps.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-[MZK]DownwardSpiral"
+  title: "The Downward Spiral"
+  author: "[MZK]Jaimin_P"
+- name: "DM-[MZK]TittieTemple"
+  title: "MZKs The Tittie Temple"
+  author: "[MZK]Jaimin_P"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.7
+  Tech: 0.3
