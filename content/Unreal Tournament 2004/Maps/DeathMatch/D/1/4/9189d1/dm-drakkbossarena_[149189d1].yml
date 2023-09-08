@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-30 20:13"
+game: "Unreal Tournament 2004"
+name: "DM-DrakkBossArena"
+author: "Inkerman D Gurjiy"
+description: "Upgradation of original Unreal ][ Awakening map from last episode of\
+  \ the M03 mission. NOTE!!! You must set 32-bit color depth in Settings for good\
+  \ visual effects"
+releaseDate: "2006-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-drakkbossarena_shot_149189d1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/D/1/4/9189d1/dm-drakkbossarena_shot_149189d1_1.png"
+originalFilename: "dm-drakkbossarena.zip"
+hash: "149189d195397fe199e6e190ec235c7580dce7a3"
+fileSize: 13855723
+files:
+- name: "DrakkBossStaticMeshes.usx"
+  fileSize: 5504033
+  hash: "7acf491dc3aa4c665d705f16311887533bb4812d"
+- name: "DrakkBossSounds.uax"
+  fileSize: 4953497
+  hash: "9e149a5c51c75e0cc9c86608681bdc51482b67d3"
+- name: "DrakkBossTextures.utx"
+  fileSize: 13602284
+  hash: "8d847d748d7f4d1a5ccc48612c20716239dfbbb8"
+- name: "DM-DrakkBossArena.ut2"
+  fileSize: 3889843
+  hash: "4ad0aae03495bbe24bc13c57f8cec2b63544174d"
+otherFiles: 2
+dependencies:
+  DrakkBossStaticMeshes.usx:
+  - status: "OK"
+    name: "DrakkBossTextures"
+  DM-DrakkBossArena.ut2:
+  - status: "OK"
+    name: "DrakkBossTextures"
+  - status: "OK"
+    name: "DrakkBossSounds"
+  - status: "OK"
+    name: "DrakkBossStaticMeshes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/D/1/4/9189d1/dm-drakkbossarena.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Drakk Boss Arena v1 beta"
+playerCount: "2-6"
+themes: {}
+bots: true
