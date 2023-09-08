@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-05 05:35"
+game: "Unreal Tournament"
+name: "DOM-[SOH]-LavaFont"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-02"
+attachments: []
+originalFilename: "ClanSH-DOM.zip"
+hash: "5a8d85d67faea82b5d71b2f3773739b285cead56"
+fileSize: 769199
+files:
+- name: "SOHLogo.utx"
+  fileSize: 1748599
+  hash: "2e029ce658f73096aebdd7dba1f6b25bd42d80de"
+- name: "DOM-[SOH]-LavaFont--[SurFace].unr"
+  fileSize: 1060769
+  hash: "da3e2f3e7fa8a89bea6b2550fa55254fe1ce8e00"
+- name: "DOM-[SOH]-LavaFont.unr"
+  fileSize: 503849
+  hash: "8cb7805f84219a29a9590b0bb854337f3ae1c679"
+otherFiles: 0
+dependencies:
+  DOM-[SOH]-LavaFont--[SurFace].unr:
+  - status: "OK"
+    name: "SOHLogo"
+  DOM-[SOH]-LavaFont.unr:
+  - status: "MISSING"
+    name: "Spire2"
+  - status: "OK"
+    name: "SOHLogo"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/S/5/a/8d85d6/ClanSH-DOM.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Domination"
+title: "DOM-[SOH]-LavaFont"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true
