@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-17 22:10"
+game: "Unreal Tournament 2004"
+name: "DM-MetalDream2k5-1"
+author: "Charles 'Superchaz' Hollenbeck"
+description: "DOM-MetalDream ported into UT2k4 and made into a DM....because DDom\
+  \ sucks!!. Original Author: Cedric 'Inoxx' Fiorentino. Enjoy!"
+releaseDate: "2007-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-metaldream2k5-1_shot_b0bbab10_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/b/0/bbab10/dm-metaldream2k5-1_shot_b0bbab10_1.png"
+originalFilename: "735_dm-metaldream.rar"
+hash: "b0bbab10946ef8ca11191fb2591cdc282cb7f48e"
+fileSize: 23068929
+files:
+- name: "UTtech3.utx"
+  fileSize: 285894
+  hash: "eb3abb9c35a0c193ac20cba47973418669038486"
+- name: "UTbase1.utx"
+  fileSize: 544617
+  hash: "a1ff27837a8c1ecae7955fe278f6a062a6ad3be8"
+- name: "firebr.ogg"
+  fileSize: 2339149
+  hash: "894427b6e3b24fac4288929ef2f1de0c36deebd7"
+- name: "UTtech2.utx"
+  fileSize: 3404233
+  hash: "3c298abec256301fc9804e4e6a4579b409c0bc8c"
+- name: "Coret_FX.utx"
+  fileSize: 1024846
+  hash: "c5cc6701885ba74abc1f772fd6b8a6c95690bc31"
+- name: "XbpFX.utx"
+  fileSize: 2431423
+  hash: "3c9a99f5ff60baca8e9cb0046564efba645233fa"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "XFX.utx"
+  fileSize: 198416
+  hash: "238a8557b677078667b228f0553ef10c3efc604d"
+- name: "DM-MetalDream2k5-1.ut2"
+  fileSize: 10725615
+  hash: "5ef6ad196e828611913541b4d60d53277670bae6"
+- name: "PlayrShp.utx"
+  fileSize: 3852760
+  hash: "17684f968f93b2c8f0dfa49e5c554b24b5fa3b4d"
+otherFiles: 0
+dependencies:
+  DM-MetalDream2k5-1.ut2:
+  - status: "MISSING"
+    name: "HubEffects"
+  - status: "OK"
+    name: "XbpFX"
+  XFX.utx:
+  - status: "MISSING"
+    name: "genfluid"
+  - status: "MISSING"
+    name: "GenFX"
+  - status: "MISSING"
+    name: "DecayedS"
+  XbpFX.utx:
+  - status: "MISSING"
+    name: "GenFluid"
+  - status: "OK"
+    name: "XFX"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/b/0/bbab10/735_dm-metaldream.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MetalDream2k5"
+playerCount: "12"
+themes:
+  Industrial: 1.0
+bots: true
