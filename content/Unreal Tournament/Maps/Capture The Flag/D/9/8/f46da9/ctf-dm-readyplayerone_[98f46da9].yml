@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-11 01:30"
+game: "Unreal Tournament"
+name: "CTF-DM-ReadyPlayerOne"
+author: "Jeff Martin www.islandalien.com/unreal"
+description: "Columbus Ohio 2045 \"The Stacks\""
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-dm-readyplayerone_shot_98f46da9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/9/8/f46da9/ctf-dm-readyplayerone_shot_98f46da9_1.png"
+originalFilename: "CTF-DM-ReadyPlayerOne.zip"
+hash: "98f46da9239d9a34329af6a98a6405a46acca1b6"
+fileSize: 14987356
+files:
+- name: "CTF-DM-ReadyPlayerOne.unr"
+  fileSize: 3299339
+  hash: "197bc93b2854c69359b364c054231cbad1db9dc2"
+- name: "ReadyPlayer1TEX.utx"
+  fileSize: 5663151
+  hash: "2aebcf0bf5b845b0c4b9869e73223ffe47920dc2"
+- name: "VanHalenJUMP.umx"
+  fileSize: 10235273
+  hash: "5da563c4e0d3095b5753ce0ba9505c3caf87989e"
+- name: "ReadyPlayer1SND.uax"
+  fileSize: 2361714
+  hash: "81ce7cc8058f5cc464daa265233ab65a0347e0d2"
+otherFiles: 1
+dependencies:
+  CTF-DM-ReadyPlayerOne.unr:
+  - status: "OK"
+    name: "ReadyPlayer1TEX"
+  - status: "OK"
+    name: "ReadyPlayer1SND"
+  - status: "OK"
+    name: "VanHalenJUMP"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/9/8/f46da9/CTF-DM-ReadyPlayerOne.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Ready Player One"
+playerCount: "Unknown"
+themes: {}
+bots: true
