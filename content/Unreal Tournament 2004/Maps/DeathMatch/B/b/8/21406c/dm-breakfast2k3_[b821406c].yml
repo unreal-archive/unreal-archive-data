@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-16 15:47"
+game: "Unreal Tournament 2004"
+name: "DM-Breakfast2K3"
+author: "Angelheart"
+description: "Breakfast is served."
+releaseDate: "2003-05"
+attachments: []
+originalFilename: "dm-breakfast2k3.zip"
+hash: "b821406cccb74ccc2bbc54919757dacf4f74ef39"
+fileSize: 3284208
+files:
+- name: "Breaktex.utx"
+  fileSize: 3635976
+  hash: "9963480241cfc355c78a9edd4354a82865aebf9e"
+- name: "Breakmesh.usx"
+  fileSize: 2108012
+  hash: "3229b20d1a7fa65bf5919f41a3621e9f5254ce51"
+- name: "DM-Breakfast2K3.ut2"
+  fileSize: 350458
+  hash: "dcc7f050ba0b75006aef021bacc5e3683fb44d9a"
+otherFiles: 1
+dependencies:
+  Breakmesh.usx:
+  - status: "OK"
+    name: "Breaktex"
+  DM-Breakfast2K3.ut2:
+  - status: "OK"
+    name: "Breakmesh"
+  - status: "OK"
+    name: "Breaktex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/b/8/21406c/dm-breakfast2k3.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Breakfast2K3"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true
