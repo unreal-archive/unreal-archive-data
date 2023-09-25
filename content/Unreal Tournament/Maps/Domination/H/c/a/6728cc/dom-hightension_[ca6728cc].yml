@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-24 20:58"
+game: "Unreal Tournament"
+name: "DOM-HighTension"
+author: "Aspide"
+description: "Mind the gap..."
+releaseDate: "2023-09"
+attachments:
+- type: "IMAGE"
+  name: "dom-hightension_shot_ca6728cc_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/H/c/a/6728cc/dom-hightension_shot_ca6728cc_1.png"
+originalFilename: "DOM-HighTension.zip"
+hash: "ca6728cc6906aa5165749ec41956e0a9c9af43d9"
+fileSize: 3727350
+files:
+- name: "SabbyCP.u"
+  fileSize: 822790
+  hash: "d16eef7d352a813d982e9887e5846f2c2c585ad2"
+- name: "DOM-HighTension.unr"
+  fileSize: 11525418
+  hash: "5e113c7b8bd03110c30178d0d56cef8dca4c2e38"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "mind_dimension-LoopEdit.umx"
+  fileSize: 961501
+  hash: "d20e8b2f7b03664a3a99ee12c8995e78fcf85df9"
+otherFiles: 1
+dependencies:
+  DOM-HighTension.unr:
+  - status: "OK"
+    name: "SabbyCP"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "mind_dimension-LoopEdit"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/H/c/a/6728cc/DOM-HighTension.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Domination"
+title: "High Tension"
+playerCount: "5-10"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true
