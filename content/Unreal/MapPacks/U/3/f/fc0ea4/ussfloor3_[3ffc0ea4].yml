@@ -1,0 +1,52 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal"
+name: "Ussfloor3"
+author: "Ryan Armstrong"
+description: "None"
+releaseDate: "1999-07"
+attachments: []
+originalFilename: "ussfloor3.zip"
+hash: "3ffc0ea48832ee020caf0e9da6b04fd682fa45bc"
+fileSize: 1957088
+files:
+- name: "dmmaintenance.unr"
+  fileSize: 791181
+  hash: "c6a3dc6d2668551a13210658a1a45f40b901392a"
+- name: "Shock.utx"
+  fileSize: 5783645
+  hash: "0776942be0ff19b085f4431f9189934bc41ca8ce"
+- name: "shockdoors.uax"
+  fileSize: 191290
+  hash: "6572da7c4bdc87c3495601909d3237f896ccce52"
+- name: "dkmaintenance.unr"
+  fileSize: 779732
+  hash: "45a3b0089621471a726e702d51dbfdfcb20750de"
+otherFiles: 0
+dependencies:
+  dmmaintenance.unr:
+  - status: "OK"
+    name: "Shock"
+  - status: "OK"
+    name: "shockdoors"
+  dkmaintenance.unr:
+  - status: "OK"
+    name: "Shock"
+  - status: "OK"
+    name: "shockdoors"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/3/f/fc0ea4/ussfloor3.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "dmmaintenance"
+  title: "Maintenace Level"
+  author: "Ryan Armstrong"
+- name: "dkmaintenance"
+  title: "Maintenace Level"
+  author: "Ryan Armstrong"
+gametype: "Mixed"
+themes: {}

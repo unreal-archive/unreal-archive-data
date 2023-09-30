@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-09-29 13:36"
+game: "Unreal Tournament"
+name: "dm-security"
+author: "Zerker"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-security_shot_f0fa4f98_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/f/0/fa4f98/dm-security_shot_f0fa4f98_1.png"
+originalFilename: "utssfloor8.zip"
+hash: "f0fa4f985abca5fa96575080cb5da807e051b96c"
+fileSize: 2749963
+files:
+- name: "SecurityLevel.umx"
+  fileSize: 533249
+  hash: "86def2264d4bc3f2bad0cf6e0641bdd5d597310a"
+- name: "shocknew.utx"
+  fileSize: 1894809
+  hash: "859bfd931348f785499ea4065a5fed41a91ef912"
+- name: "dm-security.unr"
+  fileSize: 1823309
+  hash: "e9ba5e13396ecb67c4412470a66b078c98b7d83d"
+- name: "Shock.utx"
+  fileSize: 5783645
+  hash: "0776942be0ff19b085f4431f9189934bc41ca8ce"
+otherFiles: 0
+dependencies:
+  dm-security.unr:
+  - status: "OK"
+    name: "shocknew"
+  - status: "MISSING"
+    name: "shockdoors"
+  - status: "MISSING"
+    name: "shockspot"
+  - status: "OK"
+    name: "shock"
+  - status: "OK"
+    name: "SecurityLevel"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/f/0/fa4f98/utssfloor8.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Security Level"
+playerCount: "4 -16"
+themes:
+  Natural: 1.0
+bots: true
