@@ -1,0 +1,125 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-10-05 05:34"
+game: "Unreal Tournament"
+name: "Unreal Tournament 2004 Mappack"
+author: "Various"
+description: "None"
+releaseDate: "2010-01"
+attachments:
+- type: "IMAGE"
+  name: "806-unreal-tournament-2004-mappack_shot_9ffcd8f3_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806-unreal-tournament-2004-mappack_shot_9ffcd8f3_3.png"
+- type: "IMAGE"
+  name: "806-unreal-tournament-2004-mappack_shot_9ffcd8f3_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806-unreal-tournament-2004-mappack_shot_9ffcd8f3_5.png"
+- type: "IMAGE"
+  name: "806-unreal-tournament-2004-mappack_shot_9ffcd8f3_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806-unreal-tournament-2004-mappack_shot_9ffcd8f3_4.png"
+- type: "IMAGE"
+  name: "806-unreal-tournament-2004-mappack_shot_9ffcd8f3_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806-unreal-tournament-2004-mappack_shot_9ffcd8f3_6.png"
+- type: "IMAGE"
+  name: "806-unreal-tournament-2004-mappack_shot_9ffcd8f3_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806-unreal-tournament-2004-mappack_shot_9ffcd8f3_1.png"
+- type: "IMAGE"
+  name: "806-unreal-tournament-2004-mappack_shot_9ffcd8f3_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806-unreal-tournament-2004-mappack_shot_9ffcd8f3_2.png"
+originalFilename: "806_unreal-tournament-2004-mappack.rar"
+hash: "9ffcd8f30509f166cd9503e415cac13b5929309b"
+fileSize: 91595442
+files:
+- name: "DM-UT2003-Leviathan.unr"
+  fileSize: 794591
+  hash: "f7ccdd3b4d0a20c190ce9d520e845ee899e8bd1b"
+- name: "KR-Collision-Course.umx"
+  fileSize: 21345751
+  hash: "eb5aae4f68c54b3708bc2dc26adc2f66d6dc6228"
+- name: "DM-UT2004-1on1-Crash.unr"
+  fileSize: 1826234
+  hash: "b24d82766d1bee2ccbb223c4419fa613bd0fecb3"
+- name: "DM-UT2004-Deck17.unr"
+  fileSize: 1298438
+  hash: "5070a7ca78b6a97a34f379239e7c1a24ab19a37a"
+- name: "2k4MapTex.utx"
+  fileSize: 25520548
+  hash: "1ea3510a2f7770705a0f432aadbd992ebe364eca"
+- name: "DM-UT2003-Gael.unr"
+  fileSize: 596392
+  hash: "8ce4c595a559f35e14a881d1754ef4cc26779652"
+- name: "KR-HyperBlast-Redux.umx"
+  fileSize: 35992212
+  hash: "cf36fddae44d85956492d764b10fb2947fa0af15"
+- name: "DM-UT2003-TrainingDay.unr"
+  fileSize: 736303
+  hash: "c5f99aa69db5ab465446c1c5d93a7ded5dc9748d"
+- name: "Level6.umx"
+  fileSize: 5310600
+  hash: "8afb1a9dbbb1870ac1c567a1ed0d181e787fdee1"
+- name: "KR-Rankin.umx"
+  fileSize: 33871501
+  hash: "295b9ee2d6175afe1e2225a8b26c0f8c4fa3b096"
+- name: "DM-UT2004-Rankin.unr"
+  fileSize: 1795225
+  hash: "124c068f859f5127b83f6cd52c199e03cd95409d"
+otherFiles: 1
+dependencies:
+  DM-UT2003-TrainingDay.unr:
+  - status: "OK"
+    name: "KR-Collision-Course"
+  DM-UT2004-Rankin.unr:
+  - status: "OK"
+    name: "2k4MapTex"
+  - status: "OK"
+    name: "KR-Rankin"
+  DM-UT2004-1on1-Crash.unr:
+  - status: "OK"
+    name: "Level6"
+  DM-UT2003-Leviathan.unr:
+  - status: "OK"
+    name: "Level6"
+  - status: "OK"
+    name: "2k4MapTex"
+  DM-UT2004-Deck17.unr:
+  - status: "MISSING"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "OK"
+    name: "KR-HyperBlast-Redux"
+  DM-UT2003-Gael.unr:
+  - status: "OK"
+    name: "KR-Collision-Course"
+  - status: "OK"
+    name: "2k4MapTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/9/f/fcd8f3/806_unreal-tournament-2004-mappack.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UT2003-Leviathan"
+  title: "Leviathan"
+  author: "MYTHGUNDAM James Schmalz"
+- name: "DM-UT2004-1on1-Crash"
+  title: "UT2004 Crash"
+  author: "Paul Fahss // MythGundam"
+- name: "DM-UT2004-Deck17"
+  title: "Deck17"
+  author: "MYTHGUNDAM"
+- name: "DM-UT2003-Gael"
+  title: "Gael"
+  author: "James Schmalz"
+- name: "DM-UT2003-TrainingDay"
+  title: "Training Day UT2003"
+  author: "MYTHGUNDAM"
+- name: "DM-UT2004-Rankin"
+  title: "Rankin"
+  author: "Sjoerd De Jong"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Industrial: 0.3
+  Skaarj Tech: 0.4
