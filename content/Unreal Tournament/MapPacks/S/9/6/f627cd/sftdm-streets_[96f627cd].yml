@@ -1,0 +1,58 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-10-06 03:52"
+game: "Unreal Tournament"
+name: "Sftdm Streets"
+author: "Pat-BadKarma-Fitzsimons"
+description: "None"
+releaseDate: "2001-02"
+attachments:
+- type: "IMAGE"
+  name: "sftdm-streets_shot_96f627cd_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/9/6/f627cd/sftdm-streets_shot_96f627cd_2.png"
+- type: "IMAGE"
+  name: "sftdm-streets_shot_96f627cd_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/9/6/f627cd/sftdm-streets_shot_96f627cd_1.png"
+originalFilename: "sftdm_streets.zip"
+hash: "96f627cdb450fd52c491985423f63751ef7c32b7"
+fileSize: 4071291
+files:
+- name: "SFDM-StreetsPart1.unr"
+  fileSize: 1894723
+  hash: "d1717f7511e1f88a8bd01c4df6e859d5b272546a"
+- name: "SFTDM-StreetsPart1.unr"
+  fileSize: 1893586
+  hash: "24317cba2cc2bc1f5ac253cd831b43b859c9ea26"
+- name: "TheStreetpf.utx"
+  fileSize: 4715648
+  hash: "ffb4d8061601421a5ce7a8e560de9667a9b67053"
+otherFiles: 0
+dependencies:
+  SFTDM-StreetsPart1.unr:
+  - status: "MISSING"
+    name: "SF"
+  - status: "OK"
+    name: "TheStreetpf"
+  SFDM-StreetsPart1.unr:
+  - status: "MISSING"
+    name: "SF"
+  - status: "OK"
+    name: "TheStreetpf"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/9/6/f627cd/sftdm_streets.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "SFDM-StreetsPart1"
+  title: "TheStreetPart1"
+  author: "Pat-BadKarma-Fitzsimons"
+- name: "SFTDM-StreetsPart1"
+  title: "TheStreetPart1"
+  author: "Pat-BadKarma-Fitzsimons"
+gametype: "Strike Force"
+themes:
+  Industrial: 0.6
+  Ancient: 0.1
+  Egyptian: 0.3

@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-06 03:53"
+game: "Unreal Tournament"
+name: "VCTF-MartianStandoff"
+author: "(MW)-(S)MYTH//GUNDAM"
+description: "None"
+releaseDate: "2009-01"
+attachments: []
+originalFilename: "war-martian_standoff.zip"
+hash: "bd7456c0d24e1964c342711cd5c2afdb804b8709"
+fileSize: 48660136
+files:
+- name: "WAR-MartianStandoff.umx"
+  fileSize: 58011963
+  hash: "0938647232270480a9b5341c7e3e105158d53659"
+- name: "VCTF-MartianStandoff.unr"
+  fileSize: 4047685
+  hash: "549284abdde82889f1253186cba257816180cfa8"
+otherFiles: 0
+dependencies:
+  VCTF-MartianStandoff.unr:
+  - status: "MISSING"
+    name: "onslaughtpatch"
+  - status: "MISSING"
+    name: "onslaughtvehicles"
+  - status: "OK"
+    name: "WAR-MartianStandoff"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Vehicle%20CTF/M/b/d/7456c0/war-martian_standoff.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "Starsiege: WAR-MartianStandoff"
+playerCount: "10-32"
+themes:
+  Natural: 1.0
+bots: true

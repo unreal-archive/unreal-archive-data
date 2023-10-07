@@ -1,0 +1,64 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-10-06 03:52"
+game: "Unreal Tournament"
+name: "Sftdm Junglebase2"
+author: "Pat-BadKarma-Fitzsimons"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "sftdm-junglebase2_shot_402632aa_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/4/0/2632aa/sftdm-junglebase2_shot_402632aa_2.png"
+- type: "IMAGE"
+  name: "sftdm-junglebase2_shot_402632aa_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/4/0/2632aa/sftdm-junglebase2_shot_402632aa_1.png"
+originalFilename: "sftdm_junglebase2.zip"
+hash: "402632aa2c25f6ca350ba5e10cc7e848657f8d62"
+fileSize: 2403572
+files:
+- name: "SFTDM-JungleBaseDay-2.unr"
+  fileSize: 2359782
+  hash: "fd8cc5e456e57b018a08f8cd36d72a956293a047"
+- name: "Junglepf.utx"
+  fileSize: 1483911
+  hash: "b6a67de57a4ea862d23d0d5ec0d92c1a13cb2617"
+- name: "sf_airradar.utx"
+  fileSize: 354993
+  hash: "ccdf138209cc10069a2a38dab3e6195d1e6beab3"
+- name: "SFTDM-JungleBasenight-2.unr"
+  fileSize: 2365506
+  hash: "b6db68f86ea5327b75feb28aa7658174f9a959f2"
+otherFiles: 1
+dependencies:
+  SFTDM-JungleBaseDay-2.unr:
+  - status: "OK"
+    name: "sf_airradar"
+  - status: "OK"
+    name: "Junglepf"
+  - status: "MISSING"
+    name: "SF"
+  SFTDM-JungleBasenight-2.unr:
+  - status: "OK"
+    name: "Junglepf"
+  - status: "MISSING"
+    name: "SF"
+  - status: "OK"
+    name: "sf_airradar"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/4/0/2632aa/sftdm_junglebase2.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "SFTDM-JungleBaseDay-2"
+  title: "JungleBase"
+  author: "Pat-BadKarma-Fitzsimons"
+- name: "SFTDM-JungleBasenight-2"
+  title: "JungleBase"
+  author: "Pat-BadKarma-Fitzsimons"
+gametype: "Strike Force"
+themes:
+  Natural: 0.6
+  Industrial: 0.4

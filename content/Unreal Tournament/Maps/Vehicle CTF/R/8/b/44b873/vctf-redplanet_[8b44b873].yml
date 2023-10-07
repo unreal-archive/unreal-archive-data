@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-06 03:52"
+game: "Unreal Tournament"
+name: "VCTF-RedPlanet"
+author: "(MW)-(R)-MYTH//GUNDAM"
+description: "Fight for a free Mars!"
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "vctf-redplanet_shot_8b44b873_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Vehicle%20CTF/R/8/b/44b873/vctf-redplanet_shot_8b44b873_1.png"
+originalFilename: "vctf-redplanet.zip"
+hash: "8b44b873073ffc7dd86d1402809c46b89425249d"
+fileSize: 33674332
+files:
+- name: "marsky.utx"
+  fileSize: 225294
+  hash: "ef2291179db68354b6f45ab13f7baab2b9893718"
+- name: "VCTF-RedPlanet.unr"
+  fileSize: 2678959
+  hash: "820643ce675a7b26e97933bf75d2e805c98f9036"
+- name: "SDG-ONS02.umx"
+  fileSize: 42956457
+  hash: "93028b58bd3a56684810e6c0b7358718bdbfbaf6"
+- name: "mars.uax"
+  fileSize: 722820
+  hash: "c273e9253fdc982c08e460bd81c9ef4f8f540345"
+- name: "Marstex1.utx"
+  fileSize: 385029
+  hash: "ba3fe2cb5579699d1ce2668599682e9caa4b4b0c"
+- name: "ApplesInfinity2nd.u"
+  fileSize: 575399
+  hash: "d5c35685309a5c387436e5067af0dbfed04121e1"
+otherFiles: 0
+dependencies:
+  VCTF-RedPlanet.unr:
+  - status: "OK"
+    name: "Marstex1"
+  - status: "MISSING"
+    name: "onslaughtvehicles"
+  - status: "OK"
+    name: "ApplesInfinity2nd"
+  - status: "OK"
+    name: "SDG-ONS02"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Vehicle%20CTF/R/8/b/44b873/vctf-redplanet.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "RedPlanet"
+playerCount: "12-16"
+themes:
+  Tech: 0.3
+  Natural: 0.4
+  Industrial: 0.2
+  Skaarj Tech: 0.2
+bots: true
