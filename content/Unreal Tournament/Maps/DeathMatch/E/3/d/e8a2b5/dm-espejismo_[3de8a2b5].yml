@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:45"
+game: "Unreal Tournament"
+name: "DM-Espejismo"
+author: "By \"Zardoz\""
+description: "None"
+releaseDate: "2005-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-espejismo_shot_3de8a2b5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/E/3/d/e8a2b5/dm-espejismo_shot_3de8a2b5_1.png"
+originalFilename: "Espejismo.rar"
+hash: "3de8a2b5c752c68d7201f3fe29e6fb0d96e0feac"
+fileSize: 3223485
+files:
+- name: "DMEspej.utx"
+  fileSize: 2471650
+  hash: "8e014b9b589fd38d061d3cc18e38ef523dddd490"
+- name: "DM-Espejismo.unr"
+  fileSize: 3303224
+  hash: "ad3c8117809e64e5f42446961ad0284961d08de9"
+- name: "Doom.utx"
+  fileSize: 89019
+  hash: "9d0c7424bff11e630d43fe31d8e543f760202bbe"
+- name: "Soabm.umx"
+  fileSize: 784878
+  hash: "76407e50edc0efceb3ffb10862562a47b4e01701"
+otherFiles: 1
+dependencies:
+  DM-Espejismo.unr:
+  - status: "OK"
+    name: "DMEspej"
+  - status: "OK"
+    name: "Doom"
+  - status: "OK"
+    name: "Soabm"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/E/3/d/e8a2b5/Espejismo.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Espejismo"
+playerCount: "7-19"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.5
+  Industrial: 0.2
+bots: true

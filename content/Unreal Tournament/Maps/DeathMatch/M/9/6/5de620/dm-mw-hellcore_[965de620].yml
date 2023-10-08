@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:45"
+game: "Unreal Tournament"
+name: "DM-(MW)-HellCore"
+author: "-(MW)-(S)RAULINHO"
+description: "Metal Warriors!!!"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "245_dm-_mw_-hellcore.rar"
+hash: "965de620eb50d901a605fe81673130989d11967f"
+fileSize: 2940662
+files:
+- name: "DM-(MW)-HellCore.unr"
+  fileSize: 553697
+  hash: "31c9d962fc654bfc039b48e9d88f853ac16c228c"
+- name: "zenmusic.umx"
+  fileSize: 2642193
+  hash: "381dc1755fc02f2e0c2f4ec5c5765c2ae6f6e81e"
+- name: "JB-AF-Pack-1.utx"
+  fileSize: 578701
+  hash: "158dc1b21f85b48bacf143fa33834a4ac0563343"
+otherFiles: 1
+dependencies:
+  DM-(MW)-HellCore.unr:
+  - status: "OK"
+    name: "zenmusic"
+  - status: "OK"
+    name: "JB-AF-Pack-1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/6/5de620/245_dm-_mw_-hellcore.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MetalWarriors - BlastZone"
+playerCount: "2-4"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  Skaarj Tech: 0.1
+bots: true
