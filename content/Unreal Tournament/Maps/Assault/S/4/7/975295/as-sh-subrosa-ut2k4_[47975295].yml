@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 11:59"
+game: "Unreal Tournament"
+name: "AS-[[SH]]-SubRosa-UT2K4"
+author: "Unknown"
+description: "None"
+releaseDate: "2023-04"
+attachments: []
+originalFilename: "AS-[[SH]]-SubRosa-UT2k4-repack.zip"
+hash: "479752954553196506c843d7992c3a57d36c4301"
+fileSize: 23039027
+files:
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+- name: "AS-[[SH]]-SubRosa-UT2K4.unr"
+  fileSize: 8794015
+  hash: "e76689fadbe44ed0e015dae4c79e814b989c53dd"
+- name: "Autorip3.utx"
+  fileSize: 367164
+  hash: "0e7df822f7de6375e6c6ca753e2ccd2262b24735"
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "CTF-W00T.utx"
+  fileSize: 2450595
+  hash: "9d6b1850dac5a1812dcee5a3e518bc64adbc4f7a"
+- name: "SSMetal.utx"
+  fileSize: 6515536
+  hash: "bca33715118428d172bb5ddd5a476eefb096f78b"
+- name: "1_MissileTex.utx"
+  fileSize: 1311955
+  hash: "305742707416a172099dc0770e0dc5d7cbadfc06"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+otherFiles: 0
+dependencies:
+  AS-[[SH]]-SubRosa-UT2K4.unr:
+  - status: "OK"
+    name: "Fallout"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "Autorip3"
+  - status: "OK"
+    name: "uttech4"
+  - status: "OK"
+    name: "1_MissileTex"
+  - status: "OK"
+    name: "SSMetal"
+  - status: "OK"
+    name: "CTF-W00T"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Assault/S/4/7/975295/AS-%5B%5BSH%5D%5D-SubRosa-UT2k4-repack.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "AS-[[SH]]-SubRosa-UT2K4"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Natural: 0.1
+  Industrial: 0.8
+bots: true
