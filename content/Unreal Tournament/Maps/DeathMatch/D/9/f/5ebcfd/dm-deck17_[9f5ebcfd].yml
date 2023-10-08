@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 12:18"
+game: "Unreal Tournament"
+name: "DM-Deck17"
+author: "(MW)-(S)MYTH//GUNDAM"
+description: "Unreal Tournament 2004"
+releaseDate: "2008-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-deck17_shot_9f5ebcfd_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/9/f/5ebcfd/dm-deck17_shot_9f5ebcfd_1.png"
+originalFilename: "418_dm-deck17.zip"
+hash: "9f5ebcfdb26aa770a54fa2da32aefd65e30bab94"
+fileSize: 33935185
+files:
+- name: "zcSaber.u"
+  fileSize: 895053
+  hash: "b345380afd6ce9edfbbccbf1291890e03271ed28"
+- name: "DM-Deck17.unr"
+  fileSize: 893111
+  hash: "165790f26204107ad80e0c610284ed122ddc0686"
+- name: "KR-Godown.umx"
+  fileSize: 35991177
+  hash: "3fcdae6bd55d1833b242dca64d4da00794fb26ca"
+- name: "MultiCTFTex.utx"
+  fileSize: 941080
+  hash: "3b48af6bf2f50d2d4583f4e11ab65c0d903d3cb8"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+otherFiles: 2
+dependencies:
+  DM-Deck17.unr:
+  - status: "OK"
+    name: "oldskool"
+  - status: "OK"
+    name: "KR-Godown"
+  - status: "OK"
+    name: "MultiCTFTex"
+  - status: "MISSING"
+    name: "olweapons"
+  - status: "OK"
+    name: "zcSaber"
+  oldskool.u:
+  - status: "MISSING"
+    name: "olroot"
+  - status: "MISSING"
+    name: "olweapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/9/f/5ebcfd/418_dm-deck17.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Deck17"
+playerCount: "2-16"
+themes:
+  Tech: 0.2
+  Skaarj Tech: 0.8
+bots: true
