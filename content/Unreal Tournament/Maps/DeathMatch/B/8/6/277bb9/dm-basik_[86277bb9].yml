@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 12:12"
+game: "Unreal Tournament"
+name: "DM-Basik"
+author: "2'Face"
+description: "None"
+releaseDate: "2007-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-basik_shot_86277bb9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/B/8/6/277bb9/dm-basik_shot_86277bb9_1.png"
+originalFilename: "355_dm-basik.zip"
+hash: "86277bb98b41d527a8e10b0b4d4d3165da00b49b"
+fileSize: 32343833
+files:
+- name: "MySounds.uax"
+  fileSize: 2341076
+  hash: "91f785a73d99b989329fbeaa8cc032d3b3487b75"
+- name: "BasicTexture.utx"
+  fileSize: 20744547
+  hash: "0b45f86147512bb578a8be83b9b7649aa71d9c44"
+- name: "Sub2.umx"
+  fileSize: 3444590
+  hash: "c682e31d69d46f354e43ed327edba7a7310aaad9"
+- name: "DM-Basik.unr"
+  fileSize: 41576561
+  hash: "b15268137bb2520f573bbfe2a227db1b246ce1a5"
+otherFiles: 1
+dependencies:
+  DM-Basik.unr:
+  - status: "OK"
+    name: "BasicTexture"
+  - status: "OK"
+    name: "MySounds"
+  - status: "OK"
+    name: "Sub2"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/B/8/6/277bb9/355_dm-basik.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Basik Arena"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+bots: true

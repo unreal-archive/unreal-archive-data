@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-07 12:13"
+game: "Unreal Tournament"
+name: "DM-Gael"
+author: "James Schmalz"
+description: "None"
+releaseDate: "2009-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-gael_shot_1947e237_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/1/9/47e237/dm-gael_shot_1947e237_1.png"
+originalFilename: "095_dm-gael.7z"
+hash: "1947e237a07b7ed49834b36ccdcdbc4bc40a2240"
+fileSize: 34505742
+files:
+- name: "2k4MapTex.utx"
+  fileSize: 25520548
+  hash: "1ea3510a2f7770705a0f432aadbd992ebe364eca"
+- name: "DM-Gael.unr"
+  fileSize: 596392
+  hash: "8ce4c595a559f35e14a881d1754ef4cc26779652"
+- name: "KR-Collision-Course.umx"
+  fileSize: 21345751
+  hash: "eb5aae4f68c54b3708bc2dc26adc2f66d6dc6228"
+otherFiles: 0
+dependencies:
+  DM-Gael.unr:
+  - status: "OK"
+    name: "KR-Collision-Course"
+  - status: "OK"
+    name: "2k4MapTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/1/9/47e237/095_dm-gael.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Gael"
+playerCount: "Unknown"
+themes: {}
+bots: true
