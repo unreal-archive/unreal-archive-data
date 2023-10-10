@@ -1,0 +1,56 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-10-10 09:43"
+game: "Unreal"
+name: "Necris Pack"
+author: "Essjay 'Unpunished' Campbell"
+description: "None"
+releaseDate: "2007-04"
+attachments: []
+originalFilename: "926_necrispack.rar"
+hash: "222691d8a4a32594a210407ceaeae4b3ee5d1672"
+fileSize: 1111390
+files:
+- name: "Nanoblack.u"
+  fileSize: 593371
+  hash: "856efc3d41a1c799a271cd8f3e72b9191e2637a1"
+- name: "NecShip.utx"
+  fileSize: 482883
+  hash: "6017a02835a0d491ced2f5f072d83f8982f09f32"
+- name: "EndTex.utx"
+  fileSize: 355820
+  hash: "8e56bcbb020e17b78b753826fb76454899249233"
+- name: "DmNecArena.unr"
+  fileSize: 601702
+  hash: "196b61f232fb3754b1840da2157aebdd0042b8c1"
+- name: "NecWarship.unr"
+  fileSize: 1206202
+  hash: "3ad82219cbc218817ea7fe0b0ba5394ea25e0a0d"
+otherFiles: 4
+dependencies:
+  NecWarship.unr:
+  - status: "OK"
+    name: "NecShip"
+  - status: "OK"
+    name: "Nanoblack"
+  DmNecArena.unr:
+  - status: "OK"
+    name: "NecShip"
+  - status: "OK"
+    name: "EndTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/0/2/2/2691d8/926_necrispack.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DmNecArena"
+  title: "Necris Arena"
+  author: "Essjay 'Unpunished' Campbell"
+- name: "NecWarship"
+  title: "Necris Warship"
+  author: "Essjay 'Unpunished' Campbell"
+gametype: "DeathMatch"
+themes:
+  Natural: 1.0
