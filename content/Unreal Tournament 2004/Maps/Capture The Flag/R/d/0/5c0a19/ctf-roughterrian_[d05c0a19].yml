@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-10 14:09"
+game: "Unreal Tournament 2004"
+name: "CTF-RoughTerrian"
+author: "The-Crow[DOJ]"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-roughterrian_shot_d05c0a19_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/R/d/0/5c0a19/ctf-roughterrian_shot_d05c0a19_1.png"
+originalFilename: "ctf-rough_terrain.zip"
+hash: "d05c0a190a6bdbea99eae3d3142a85f0885d06ad"
+fileSize: 554630
+files:
+- name: "CrowTex.utx"
+  fileSize: 6019
+  hash: "9d5a977a7bc21ee1561271a585aa5316337d6646"
+- name: "CTF-RoughTerrian.ut2"
+  fileSize: 4531522
+  hash: "3fcfcf7648fd4da0f3ef4ba0b80d2b9ff9e7fc6e"
+otherFiles: 1
+dependencies:
+  CTF-RoughTerrian.ut2:
+  - status: "OK"
+    name: "CrowTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/R/d/0/5c0a19/ctf-rough_terrain.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Rough Terrian"
+playerCount: "10-20"
+themes:
+  Natural: 0.8
+  Industrial: 0.2
+bots: true
