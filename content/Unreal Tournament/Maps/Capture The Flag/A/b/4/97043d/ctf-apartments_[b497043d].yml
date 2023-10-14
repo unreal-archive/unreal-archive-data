@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-13 16:15"
+variationOf: "852459bfd51c8026d6df18c14e58eece973f54a5"
+game: "Unreal Tournament"
+name: "CTF-Apartments"
+author: "K1A14G86"
+description: "Renting goes for $200 a month."
+releaseDate: "2003-06"
+attachments: []
+originalFilename: "241_ctf-apartments.zip"
+hash: "b497043d8f2f50c29e944194bf81f41c0cedb604"
+fileSize: 4920410
+files:
+- name: "CTF-Apartments.unr"
+  fileSize: 385101
+  hash: "ff1f8fb6953ad0177428139052657af30650c6e8"
+- name: "ksink.utx"
+  fileSize: 14573685
+  hash: "895aa7848511d76e8b40f3a5a89458aa31188e65"
+otherFiles: 1
+dependencies:
+  CTF-Apartments.unr:
+  - status: "OK"
+    name: "ksink"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/b/4/97043d/241_ctf-apartments.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Apartments"
+playerCount: "2-16"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.1
+  City: 0.6
+bots: true
