@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-28 22:55"
+game: "Unreal Tournament"
+name: "DM-Incubus"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-09"
+attachments: []
+originalFilename: "dm-incubus.zip"
+hash: "7ce4a47092432061ec0751a615fe538ba70fab10"
+fileSize: 19718987
+files:
+- name: "RT-Gnosis.utx"
+  fileSize: 12954443
+  hash: "72c81bf334ef71f93de04df929d376b23d3bdd29"
+- name: "Sangfroid.utx"
+  fileSize: 1865060
+  hash: "75787cb70469db43a24e0daca944bb682be8a62b"
+- name: "DM-Incubus.unr"
+  fileSize: 1211239
+  hash: "d15a245a7b8d8cfed165f65912af4d764ce534ff"
+- name: "Flamel.utx"
+  fileSize: 8697794
+  hash: "363a56298f74a24148004f80f4b49bd7fc072a09"
+otherFiles: 0
+dependencies:
+  DM-Incubus.unr:
+  - status: "OK"
+    name: "Sangfroid"
+  - status: "OK"
+    name: "Flamel"
+  RT-Gnosis.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+  Flamel.utx:
+  - status: "MISSING"
+    name: "Rt-Detail"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/I/7/c/e4a470/dm-incubus.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Incubus"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Skaarj Crypt: 0.9
+bots: true
