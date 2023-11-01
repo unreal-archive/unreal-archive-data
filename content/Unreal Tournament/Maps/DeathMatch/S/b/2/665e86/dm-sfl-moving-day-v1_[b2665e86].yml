@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-11 10:12"
+game: "Unreal Tournament"
+name: "DM-{SFL}-MOVING-DAY-V1"
+author: "BY-{SFL}sketchpad"
+description: "Welcome"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-sfl-moving-day-v1_shot_b2665e86_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/b/2/665e86/dm-sfl-moving-day-v1_shot_b2665e86_1.png"
+originalFilename: "{SFL}-MOVING-DAY-V1.zip"
+hash: "b2665e86a8b02b59dc9224af7f715fabb93555d1"
+fileSize: 10178248
+files:
+- name: "removaltex.utx"
+  fileSize: 2453818
+  hash: "e288378c87c7647b4d8b7f76c34d90516aec2c7b"
+- name: "DM-{SFL}-MOVING-DAY-V1.unr"
+  fileSize: 9297028
+  hash: "044fa220fb3556d3e0290947d43d0458c6dbc595"
+- name: "deadmanlegendsrise.umx"
+  fileSize: 6181006
+  hash: "8740feb238021b35825c33847c0579b975d075ae"
+otherFiles: 0
+dependencies:
+  DM-{SFL}-MOVING-DAY-V1.unr:
+  - status: "OK"
+    name: "removaltex"
+  - status: "OK"
+    name: "deadmanlegendsrise"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/b/2/665e86/%7BSFL%7D-MOVING-DAY-V1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "{SFL}-MOVING-DAY-V1"
+playerCount: "8-16"
+themes:
+  Tech: 0.2
+  Natural: 0.1
+  Ancient: 0.7
+bots: true

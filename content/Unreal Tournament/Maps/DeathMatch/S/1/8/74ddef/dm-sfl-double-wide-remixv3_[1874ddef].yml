@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-11 10:13"
+game: "Unreal Tournament"
+name: "DM-{SFL}-DOUBLE-WIDE-REMIXv3"
+author: "RED[WOLF]"
+description: "None"
+releaseDate: "2023-07"
+attachments: []
+originalFilename: "{SFL}double wide remix.rar"
+hash: "1874ddeff88b8216c859a4035a14ad825c73c41a"
+fileSize: 23336864
+files:
+- name: "TRILERTEX.utx"
+  fileSize: 6392813
+  hash: "5660ec759b060f152b04097ccbc7c662b836fe36"
+- name: "REDTEX.utx"
+  fileSize: 4231961
+  hash: "22f3cc5cda184f44b6c133f2560b9dfbce2b5a4d"
+- name: "redneckdoublewide2.umx"
+  fileSize: 11745337
+  hash: "49eb833f8a8a1bed8e4f21b3b5e414dfd2b4cb95"
+- name: "DM-{SFL}-DOUBLE-WIDE-REMIXv3.unr"
+  fileSize: 19440760
+  hash: "aa19f7498066663306e91cc7ba8cdace34dd270a"
+- name: "AppleHouseTex.utx"
+  fileSize: 3627173
+  hash: "2d441482ac6dc47a2cc9e2c9f0389f8457ba1898"
+otherFiles: 0
+dependencies:
+  DM-{SFL}-DOUBLE-WIDE-REMIXv3.unr:
+  - status: "OK"
+    name: "redneckdoublewide2"
+  - status: "OK"
+    name: "TRILERTEX"
+  - status: "OK"
+    name: "AppleHouseTex"
+  - status: "OK"
+    name: "REDTEX"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/1/8/74ddef/%7BSFL%7Ddouble%20wide%20remix.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-[WOLF]-DOUBLE-WIDE[RM]"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
