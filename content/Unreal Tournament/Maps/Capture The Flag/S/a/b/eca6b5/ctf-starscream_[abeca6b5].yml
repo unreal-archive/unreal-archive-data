@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-06 01:25"
+game: "Unreal Tournament"
+name: "CTF-Starscream"
+author: "Bryan 'Koolflux' Owen"
+description: "One shall stand, one shall fall."
+releaseDate: "2019-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-starscream_shot_abeca6b5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/a/b/eca6b5/ctf-starscream_shot_abeca6b5_1.png"
+originalFilename: "CTF-Starscream.zip"
+hash: "abeca6b5eef7a90985ac41c4abf8aa748a4ab828"
+fileSize: 4933090
+files:
+- name: "CTF-Starscream.unr"
+  fileSize: 2323487
+  hash: "9cbf79041aef34c74117e302361064a394969a1a"
+- name: "CRP_Coret_FX.utx"
+  fileSize: 8392354
+  hash: "aef58d5a4fa24aaee991d4cc885222d591311ccf"
+- name: "flagbasejrm1.u"
+  fileSize: 357257
+  hash: "6cd4410c1d58d712d811cdd705823f0bab6979f1"
+- name: "Lights.utx"
+  fileSize: 680109
+  hash: "52fdd70fe37a05be46619acac604882b9f744d20"
+otherFiles: 1
+dependencies:
+  flagbasejrm1.u:
+  - status: "MISSING"
+    name: "SGTech1"
+  CTF-Starscream.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "CRP_Coret_FX"
+  - status: "OK"
+    name: "Lights"
+  - status: "OK"
+    name: "flagbasejrm1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/a/b/eca6b5/CTF-Starscream.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "FFS Starscream"
+playerCount: "6 - 10"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true

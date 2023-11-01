@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-06 01:25"
+game: "Unreal Tournament"
+name: "DM-Diego-ToyFactory"
+author: "Diego_{HoF}"
+description: "None"
+releaseDate: "2019-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-diego-toyfactory_shot_7be4776f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/7/b/e4776f/dm-diego-toyfactory_shot_7be4776f_1.png"
+originalFilename: "DM-Diego-ToyFactory.rar"
+hash: "7be4776f5674de229cea345d76334007f58b5e2b"
+fileSize: 5795094
+files:
+- name: "Lollypop-ToyFactory.umx"
+  fileSize: 11769019
+  hash: "617adfd289556234553addaa3248cd56e89d3f15"
+- name: "DM-Diego-ToyFactory.unr"
+  fileSize: 459904
+  hash: "dcbc7ddcda03619e70b42d5854c335951b279ed5"
+- name: "Lollypop.utx"
+  fileSize: 207580
+  hash: "a2c9732d8660a755666a89e58b9067c9f5aa47de"
+otherFiles: 0
+dependencies:
+  DM-Diego-ToyFactory.unr:
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "Lollypop-ToyFactory"
+  - status: "OK"
+    name: "Lollypop"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/7/b/e4776f/DM-Diego-ToyFactory.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Toy Factory"
+playerCount: "4-8"
+themes: {}
+bots: true

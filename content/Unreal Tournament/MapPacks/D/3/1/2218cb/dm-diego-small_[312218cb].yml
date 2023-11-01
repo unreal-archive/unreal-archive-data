@@ -1,0 +1,51 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-06 01:25"
+game: "Unreal Tournament"
+name: "DM Diego Small"
+author: "Diego_{HoF}"
+description: "None"
+releaseDate: "2019-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-diego-small_shot_312218cb_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/3/1/2218cb/dm-diego-small_shot_312218cb_1.png"
+- type: "IMAGE"
+  name: "dm-diego-small_shot_312218cb_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/3/1/2218cb/dm-diego-small_shot_312218cb_2.png"
+originalFilename: "DM-Diego-Small.rar"
+hash: "312218cbea21d6316f54588c69962ebaeb9db3a2"
+fileSize: 7432743
+files:
+- name: "C&CActofInstinct.umx"
+  fileSize: 15047947
+  hash: "792cebe9f8a73cf1847477d4f6089b1318a89280"
+- name: "DM-Diego-Small.unr"
+  fileSize: 394169
+  hash: "ab46ee0fa7a0f55a7f8df7fd930defa7793ad46d"
+- name: "DM-Diego-IGSmall.unr"
+  fileSize: 392891
+  hash: "93e7b60713bdb4d2bed778ac2f06b1fe8f021d63"
+otherFiles: 0
+dependencies:
+  DM-Diego-Small.unr:
+  - status: "OK"
+    name: "C&CActofInstinct"
+  DM-Diego-IGSmall.unr:
+  - status: "OK"
+    name: "C&CActofInstinct"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/3/1/2218cb/DM-Diego-Small.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-Diego-Small"
+  title: "Small"
+  author: "Diego_{HoF}"
+- name: "DM-Diego-IGSmall"
+  title: "IG-Small"
+  author: "Diego_{HoF}"
+gametype: "DeathMatch"
+themes: {}
