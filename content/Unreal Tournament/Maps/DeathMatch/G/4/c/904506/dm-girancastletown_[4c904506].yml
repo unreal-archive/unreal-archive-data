@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-17 13:53"
+game: "Unreal Tournament"
+name: "DM-GiranCastleTown"
+author: "LuniC"
+description: "None"
+releaseDate: "2023-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-girancastletown_shot_4c904506_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/4/c/904506/dm-girancastletown_shot_4c904506_1.png"
+originalFilename: "DM-GiranCastleTown_repack.zip"
+hash: "4c90450654f570665a8255aede491d43c92cf9e3"
+fileSize: 16426376
+files:
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "DM-GiranCastleTown.unr"
+  fileSize: 25192428
+  hash: "013701b9ff894377deac05b5663dc538bf859d25"
+- name: "GiranTheme.umx"
+  fileSize: 5601907
+  hash: "0093669c41c398c4961795a8798d958dc41a1b13"
+otherFiles: 0
+dependencies:
+  DM-GiranCastleTown.unr:
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "GiranTheme"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/4/c/904506/DM-GiranCastleTown_repack.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Giran Castle Town"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
