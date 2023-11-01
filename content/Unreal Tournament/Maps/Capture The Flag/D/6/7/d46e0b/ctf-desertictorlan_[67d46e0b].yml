@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-21 14:52"
+game: "Unreal Tournament"
+name: "CTF-DeserticTorlan"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-02"
+attachments: []
+originalFilename: "099_ctf-desertictorlan.7z"
+hash: "67d46e0b8414677af6ad4cc646676fa1f2053531"
+fileSize: 27370350
+files:
+- name: "Tribes2-Desert.umx"
+  fileSize: 25825934
+  hash: "0f68080420b9a0c2d02744c4303e9b5174c5cde2"
+- name: "Starsiege.uax"
+  fileSize: 3322872
+  hash: "3825be5e0774ede1632566b41e0ca2a1f0a73cda"
+- name: "CTF-DeserticTorlan.unr"
+  fileSize: 4646838
+  hash: "722a6049381b3c6a6ac23f8b31e71c7477db9117"
+otherFiles: 0
+dependencies:
+  CTF-DeserticTorlan.unr:
+  - status: "MISSING"
+    name: "onslaughtpatch"
+  - status: "OK"
+    name: "Tribes2-Desert"
+  - status: "OK"
+    name: "Starsiege"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/D/6/7/d46e0b/099_ctf-desertictorlan.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Desertic Torlan"
+playerCount: "10-32"
+themes:
+  Industrial: 0.9
+  Skaarj Tech: 0.1
+bots: true

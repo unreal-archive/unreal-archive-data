@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-17 22:10"
+game: "Unreal Tournament 2004"
+name: "DM-Pong"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-03"
+attachments: []
+originalFilename: "UnrealPong.rar"
+hash: "d350c7f29b2ebf8c80289deb3e67acaae2568789"
+fileSize: 29018
+files:
+- name: "UnrealPong.u"
+  fileSize: 20750
+  hash: "b2023f9d37e6882420b60367f0b01ff617592385"
+- name: "DM-Pong.ut2"
+  fileSize: 64847
+  hash: "8628f900fcccc1d59037ee777c02cfc4a6eb21e5"
+- name: "Pong.usx"
+  fileSize: 38581
+  hash: "767054e29462b158c01946673825608d0ee098a8"
+otherFiles: 1
+dependencies:
+  DM-Pong.ut2:
+  - status: "OK"
+    name: "UnrealPong"
+  UnrealPong.u:
+  - status: "OK"
+    name: "Pong"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/P/d/3/50c7f2/UnrealPong.rar"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/P/d/3/50c7f2/UnrealPong.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Pong"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true

@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-21 14:52"
+game: "Unreal Tournament"
+name: "CTF-Orbital2"
+author: "Dave Ewing - MYTHNOTAUR"
+description: "None"
+releaseDate: "2009-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-orbital2_shot_c2333b8f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/c/2/333b8f/ctf-orbital2_shot_c2333b8f_1.png"
+originalFilename: "982_ctf-orbital2.7z"
+hash: "c2333b8f49506f607c4213116e972162b8641ba2"
+fileSize: 19059981
+files:
+- name: "B sun.utx"
+  fileSize: 354975
+  hash: "cbda39c42d74bc0dc991b80a9d8a84f71b6edf64"
+- name: "GundamBattleAssault2_soundtrack2.umx"
+  fileSize: 20564036
+  hash: "e89b7f20f3000c3b042d6a7bf2686a5b0072d39f"
+- name: "CTF-Orbital2.unr"
+  fileSize: 3887950
+  hash: "6ec927e84c2085c3902a1ea039e33ff6b74444a2"
+otherFiles: 0
+dependencies:
+  CTF-Orbital2.unr:
+  - status: "OK"
+    name: "GundamBattleAssault2_soundtrack2"
+  - status: "OK"
+    name: "B sun"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/c/2/333b8f/982_ctf-orbital2.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Pegasi Star Orbital Ship"
+playerCount: "24 almas de"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+bots: true

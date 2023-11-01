@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-27 19:55"
+game: "Unreal Tournament"
+name: "CTF-Torlan"
+author: "MYTH//GUNDAM"
+description: "None"
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-torlan_shot_e88f49aa_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/8/8f49aa/ctf-torlan_shot_e88f49aa_1.png"
+originalFilename: "773_ctf-torlan.zip"
+hash: "e88f49aa7ed461e258e0ba238261017f48d9b0db"
+fileSize: 38651876
+files:
+- name: "CTF-Torlan.unr"
+  fileSize: 4824973
+  hash: "ed4a3186c395f9d5a998b0933de88642ecf8f515"
+- name: "SDG-ONS01.umx"
+  fileSize: 41157025
+  hash: "3c32aa5867e209b362839e04999e60958d63191e"
+otherFiles: 0
+dependencies:
+  CTF-Torlan.unr:
+  - status: "MISSING"
+    name: "onslaughtpatch"
+  - status: "OK"
+    name: "SDG-ONS01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/e/8/8f49aa/773_ctf-torlan.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "ONS-TORLAN"
+playerCount: "10-32"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true
