@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-13 11:51"
+game: "Unreal Tournament"
+name: "AS-O-MG_beta2a"
+author: "Muttley && Weirdo && Che"
+description: "None"
+releaseDate: "2022-02"
+attachments:
+- type: "IMAGE"
+  name: "as-o-mg_beta2a_shot_b5a345f4_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Assault/O/b/5/a345f4/as-o-mg_beta2a_shot_b5a345f4_1.png"
+originalFilename: "AS-O-MG_beta2a.zip"
+hash: "b5a345f41bd7aeed3158b8ac191d8139179e2287"
+fileSize: 19195542
+files:
+- name: "UTA2sounds.uax"
+  fileSize: 1524593
+  hash: "b6967ae90b3e4b2c9a773bdb96c5c48ff93a1ef7"
+- name: "NewAssaultTexPack1.utx"
+  fileSize: 3062583
+  hash: "9df0db9e45966b96824cd366acfa3e0c132d5df3"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "AS-O-MG_beta2a.unr"
+  fileSize: 14842693
+  hash: "3364377a5064735cc100b9e0a0e974647b251c01"
+- name: "MonkeyG.utx"
+  fileSize: 6473311
+  hash: "34fd44281b6ba159a3fb926226f866dd8dc1d8d3"
+- name: "riv3.utx"
+  fileSize: 2878920
+  hash: "0f21f3115531873a443d9a4c95538b99cbe6c681"
+otherFiles: 0
+dependencies:
+  AS-O-MG_beta2a.unr:
+  - status: "OK"
+    name: "riv3"
+  - status: "OK"
+    name: "NewAssaultTexPack1"
+  - status: "MISSING"
+    name: "AssaultBonusPack"
+  - status: "OK"
+    name: "MonkeyG"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "UTA2sounds"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Assault/O/b/5/a345f4/AS-O-MG_beta2a.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Assault"
+title: "AS-O-MG"
+playerCount: "6-12"
+themes:
+  Tech: 0.4
+  Natural: 0.5
+  Ancient: 0.1
+bots: true
