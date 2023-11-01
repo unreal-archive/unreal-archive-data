@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-27 19:23"
+game: "Unreal Tournament"
+name: "CTF-CybridAssault"
+author: "MYTHNOTAUR"
+description: "(c)2003-2008  Rob Burns."
+releaseDate: "2009-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-cybridassault_shot_f9d0e97b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/9/d0e97b/ctf-cybridassault_shot_f9d0e97b_1.png"
+originalFilename: "808_cybridmothership.7z"
+hash: "f9d0e97bd1ac7dfe824028ddb8c281ce46a8a446"
+fileSize: 45297752
+files:
+- name: "KR-SkaarjAssault.umx"
+  fileSize: 31662992
+  hash: "f1a01267b9cb296f8dda2efaf570a97969c1b9d3"
+- name: "CTF-CybridAssault.unr"
+  fileSize: 34820650
+  hash: "beac9b9b6ddae1ea4978ca5e6efa2ccbb19f2000"
+- name: "TrekBorg.uax"
+  fileSize: 2562694
+  hash: "3b05eab836fa4d4aa66ae9bf48a6a3fcef37b8f1"
+- name: "Soldierskins_shadowknight.utx"
+  fileSize: 1429061
+  hash: "ce0736b442895b9044041f0c06537e6e30d7ab68"
+otherFiles: 0
+dependencies:
+  CTF-CybridAssault.unr:
+  - status: "OK"
+    name: "TrekBorg"
+  - status: "OK"
+    name: "Soldierskins_shadowknight"
+  - status: "OK"
+    name: "KR-SkaarjAssault"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/f/9/d0e97b/808_cybridmothership.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Starsiege 2845: Cybrid Assault"
+playerCount: "10-16"
+themes: {}
+bots: true

@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-13 16:15"
+game: "Unreal Tournament"
+name: "CTF-GM2-Interactive_v1"
+author: "-=GDA=-"
+description: "None"
+releaseDate: "2010-11"
+attachments:
+- type: "IMAGE"
+  name: "ctf-gm2-interactive_v1_shot_bfae61b1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/b/f/ae61b1/ctf-gm2-interactive_v1_shot_bfae61b1_1.png"
+originalFilename: "293_ctf-gm2-interactive_v1.rar"
+hash: "bfae61b1f35d450749d325f92cb2f96d07489040"
+fileSize: 3299201
+files:
+- name: "CTF-GM2-Interactive_v1.unr"
+  fileSize: 2975115
+  hash: "6476e7dc2cb9ac592f3f7a9db09a943b2948a17c"
+- name: "255_gamersmafia.utx"
+  fileSize: 1761054
+  hash: "f55ed99fed8401784b3e79b8dca5346b82e459d9"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 0
+dependencies:
+  CTF-GM2-Interactive_v1.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "255_gamersmafia"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/b/f/ae61b1/293_ctf-gm2-interactive_v1.rar"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/G/b/f/ae61b1/293_ctf-gm2-interactive_v1.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-GM-Interactive"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.2
+  Industrial: 0.6
+  Skaarj Tech: 0.2
+bots: true

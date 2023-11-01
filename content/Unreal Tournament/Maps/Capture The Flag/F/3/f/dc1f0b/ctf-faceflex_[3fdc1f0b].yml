@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-13 16:15"
+game: "Unreal Tournament"
+name: "CTF-FaceFlex"
+author: "BULBAFLEX"
+description: "None"
+releaseDate: "2008-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-faceflex_shot_3fdc1f0b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/f/dc1f0b/ctf-faceflex_shot_3fdc1f0b_1.png"
+originalFilename: "CTF-FaceFlex.zip"
+hash: "3fdc1f0bff56cdeef0783d67376096718eabd485"
+fileSize: 1201336
+files:
+- name: "Magustaka.umx"
+  fileSize: 1450021
+  hash: "92fc05911b604cffbace1e9dd0bcf32eef609a39"
+- name: "nebula.utx"
+  fileSize: 621028
+  hash: "7595f9142d8bde77b86fecf5ff9c3eca8a58a65b"
+- name: "CTF-FaceFlex.unr"
+  fileSize: 927181
+  hash: "545c67cf9c361ac149fa61225da661857cdb259a"
+otherFiles: 0
+dependencies:
+  CTF-FaceFlex.unr:
+  - status: "OK"
+    name: "nebula"
+  - status: "OK"
+    name: "Magustaka"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/f/dc1f0b/CTF-FaceFlex.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/f/dc1f0b/CTF-FaceFlex.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Facing Worlds"
+playerCount: "4-10"
+themes:
+  Tech: 0.1
+  Industrial: 0.6
+  Ancient: 0.3
+bots: true

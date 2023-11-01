@@ -1,0 +1,65 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-10-21 14:52"
+game: "Unreal Tournament"
+name: "934 Ctf Twinsiege"
+author: "Various"
+description: "None"
+releaseDate: "2009-02"
+attachments:
+- type: "IMAGE"
+  name: "934-ctf-twinsiege_shot_40c31e81_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/4/0/c31e81/934-ctf-twinsiege_shot_40c31e81_1.png"
+- type: "IMAGE"
+  name: "934-ctf-twinsiege_shot_40c31e81_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/4/0/c31e81/934-ctf-twinsiege_shot_40c31e81_2.png"
+originalFilename: "934_ctf-twinsiege.7z"
+hash: "40c31e8185a9641be518dd62b0ca4ff0c1867efd"
+fileSize: 25007901
+files:
+- name: "DM-RevoXX.unr"
+  fileSize: 1611037
+  hash: "8b76908a475ac2eee61e258995c2bbd9c51ab318"
+- name: "KR-From-Below-v2.umx"
+  fileSize: 23712684
+  hash: "46ff10431bb28e43838a985cc71209481923e397"
+- name: "Starsiege.uax"
+  fileSize: 3322872
+  hash: "3825be5e0774ede1632566b41e0ca2a1f0a73cda"
+- name: "CTF-TwinSiege.unr"
+  fileSize: 2129166
+  hash: "fa4f184c7bd77fd91e4059f7afaf08ef715fd34f"
+otherFiles: 0
+dependencies:
+  DM-RevoXX.unr:
+  - status: "MISSING"
+    name: "Fluid"
+  - status: "MISSING"
+    name: "TriggerAmbientSound"
+  - status: "MISSING"
+    name: "TriggerWaterZone"
+  CTF-TwinSiege.unr:
+  - status: "OK"
+    name: "KR-From-Below-v2"
+  - status: "OK"
+    name: "Starsiege"
+  - status: "MISSING"
+    name: "AirFightUT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/0/4/0/c31e81/934_ctf-twinsiege.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-RevoXX"
+  title: "RevoXX Arena - Pre-BETA *PREVIEW*"
+  author: "RevoXX and RoninMastaFX"
+- name: "CTF-TwinSiege"
+  title: "Twin Siege"
+  author: "]IKN[-MYTHNOTAUR"
+gametype: "Mixed"
+themes:
+  Tech: 0.3
+  Natural: 0.1
+  Industrial: 0.6
