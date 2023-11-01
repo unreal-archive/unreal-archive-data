@@ -1,0 +1,47 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:47"
+game: "Unreal"
+name: "SplashLeo"
+author: "Unknown (mod by Leo, additions by yrex)"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "splashleo_shot_068fbee6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/S/0/6/8fbee6/splashleo_shot_068fbee6_1.png"
+originalFilename: "SplashLeo.rar"
+hash: "068fbee6ed037d29474511b058104e01774c5aaf"
+fileSize: 683804
+files:
+- name: "DmSplashLeo.unr"
+  fileSize: 728058
+  hash: "4ddcd3c96dffc89962acccfdcc4ce5b1164dcccf"
+- name: "DMU-SplashLeo.unr"
+  fileSize: 817295
+  hash: "5cf3e7bfb910f1476ac7eadde77040c55a91f813"
+- name: "UPB-Isotoxin96.umx"
+  fileSize: 470047
+  hash: "0f9729a29b04e461d1c95937f5ee73d37adcc15c"
+otherFiles: 1
+dependencies:
+  DMU-SplashLeo.unr:
+  - status: "OK"
+    name: "UPB-Isotoxin96"
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/S/0/6/8fbee6/SplashLeo.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DmSplashLeo"
+  title: "Splash"
+  author: "Unknown (mod by Leo, additions by yrex)"
+- name: "DMU-SplashLeo"
+  title: "Splash"
+  author: "Unknown (mod by Leo, additions by yrex)"
+gametype: "DeathMatch"
+themes: {}

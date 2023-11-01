@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-08 09:46"
+game: "Unreal Tournament"
+name: "MH-MonsterArena"
+author: "Diablo"
+description: "TAKE 'EM DOWN!!!"
+releaseDate: "2022-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-monsterarena_shot_a510d702_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/a/5/10d702/mh-monsterarena_shot_a510d702_1.png"
+originalFilename: "MH-MonsterArena.zip"
+hash: "a510d7020e466ae4fc9b4729e4d020182731c545"
+fileSize: 5996250
+files:
+- name: "MH-MonsterArena.unr"
+  fileSize: 230426
+  hash: "0cd26b55d5f3562f53eae40a44abe06ac5edc4b7"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  MH-MonsterArena.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/a/5/10d702/MH-MonsterArena.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Monster Arena"
+playerCount: "2"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: false
