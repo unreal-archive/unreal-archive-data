@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-14 07:13"
+game: "Unreal Tournament"
+name: "MH-MothershipAssaultV1-1"
+author: "Aspide"
+description: "In the hornet's nest..."
+releaseDate: "2023-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-mothershipassaultv1-1_shot_1d2877c8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/1/d/2877c8/mh-mothershipassaultv1-1_shot_1d2877c8_1.png"
+originalFilename: "MH-MothershipAssaultV1.1.zip"
+hash: "1d2877c87ee0e1bb37e32d340e86753c6e44fca2"
+fileSize: 6332374
+files:
+- name: "EndEx.umx"
+  fileSize: 3123573
+  hash: "04734198c8c8a0e137386f90279693127e5ef409"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+- name: "Return.umx"
+  fileSize: 708319
+  hash: "c3cd70ed751b86e4cc8bdbd237f5b97dbc378783"
+- name: "MH-MothershipAssaultV1-1.unr"
+  fileSize: 6884220
+  hash: "4f9d68a47a89e23b0ad38816d767114145152761"
+otherFiles: 1
+dependencies:
+  MH-MothershipAssaultV1-1.unr:
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "Return"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "EndEx"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/1/d/2877c8/MH-MothershipAssaultV1.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Mothership Assault"
+playerCount: "4-8"
+themes:
+  Natural: 0.7
+  Skaarj Tech: 0.2
+bots: true
