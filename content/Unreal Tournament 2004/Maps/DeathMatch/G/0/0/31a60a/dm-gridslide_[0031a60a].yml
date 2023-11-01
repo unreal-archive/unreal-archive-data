@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-07 11:10"
+game: "Unreal Tournament 2004"
+name: "DM-GridSlide"
+author: "ReNeGaDe-DeAtH"
+description: "In a techno world..."
+releaseDate: "2003-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-gridslide_shot_0031a60a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/0/0/31a60a/dm-gridslide_shot_0031a60a_1.png"
+- type: "IMAGE"
+  name: "dm-gridslide_shot_0031a60a_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/0/0/31a60a/dm-gridslide_shot_0031a60a_2.png"
+originalFilename: "dm-gridslide.zip"
+hash: "0031a60a3202b5e0ea21b55dc4296f2d40a03d68"
+fileSize: 4175506
+files:
+- name: "CwP-Savage.ogg"
+  fileSize: 993889
+  hash: "98beddc913eb2c2338fa295f584c72325e33170a"
+- name: "Grid.utx"
+  fileSize: 6993506
+  hash: "c00ba98afd6f4f5a4a45e76c2a0fa04d30e792a5"
+- name: "GridRush.usx"
+  fileSize: 16246
+  hash: "74ae22c971b06c5288b586b54b976e6bad5c029c"
+- name: "DM-GridSlide.ut2"
+  fileSize: 17341696
+  hash: "221c55e340828c223a40f8e2ab5a0f9b332508d1"
+otherFiles: 1
+dependencies:
+  GridRush.usx:
+  - status: "OK"
+    name: "Grid"
+  DM-GridSlide.ut2:
+  - status: "OK"
+    name: "GridRush"
+  - status: "OK"
+    name: "Grid"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/0/0/31a60a/dm-gridslide.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "GridSlide"
+playerCount: "Unknown"
+themes: {}
+bots: true
