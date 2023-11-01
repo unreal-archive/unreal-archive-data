@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-28 16:27"
+game: "Unreal Tournament"
+name: "DM-Train"
+author: "David 'Wolf633' Maciejewski"
+description: "None"
+releaseDate: "2009-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-train_shot_425f80c0_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/4/2/5f80c0/dm-train_shot_425f80c0_1.png"
+- type: "IMAGE"
+  name: "dm-train_shot_425f80c0_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/4/2/5f80c0/dm-train_shot_425f80c0_3.png"
+- type: "IMAGE"
+  name: "dm-train_shot_425f80c0_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/4/2/5f80c0/dm-train_shot_425f80c0_2.png"
+originalFilename: "DMTrain.rar"
+hash: "425f80c0e81012bba0b410af4104a4eca6daa269"
+fileSize: 14146655
+files:
+- name: "HalfLife.utx"
+  fileSize: 1223766
+  hash: "ecfe8b391d6265285f3851596990011dc1ede390"
+- name: "hl2_track2.umx"
+  fileSize: 18596099
+  hash: "ba83e49c005dc171f8c7900dbd33792954c69ab7"
+- name: "DM-Train.unr"
+  fileSize: 2729206
+  hash: "5b77e7f508840cd75643257fa5fe8e4a14f2f079"
+otherFiles: 3
+dependencies:
+  DM-Train.unr:
+  - status: "OK"
+    name: "HalfLife"
+  - status: "OK"
+    name: "hl2_track2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/4/2/5f80c0/DMTrain.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dangerous Train-Ride"
+playerCount: "2-4"
+themes:
+  Industrial: 0.6
+  Skaarj Tech: 0.4
+bots: true

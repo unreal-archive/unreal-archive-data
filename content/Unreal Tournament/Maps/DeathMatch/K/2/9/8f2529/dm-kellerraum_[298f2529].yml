@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-28 16:26"
+game: "Unreal Tournament"
+name: "DM-Kellerraum"
+author: "illuminatus"
+description: "Kellerraum"
+releaseDate: "2009-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-kellerraum_shot_298f2529_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/K/2/9/8f2529/dm-kellerraum_shot_298f2529_2.png"
+- type: "IMAGE"
+  name: "dm-kellerraum_shot_298f2529_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/K/2/9/8f2529/dm-kellerraum_shot_298f2529_1.png"
+originalFilename: "DM-Kellerraum.7z"
+hash: "298f252962f85b4dd63e25f193bd02bc02e2c977"
+fileSize: 9459569
+files:
+- name: "kellerraum.umx"
+  fileSize: 7530133
+  hash: "955527fc2d4d86260aa69acc25b300fac8d8d146"
+- name: "Ancient.utx"
+  fileSize: 10170681
+  hash: "9f98ce22945f9e2f804a5d26263eb604ebd8212c"
+- name: "DM-Kellerraum.unr"
+  fileSize: 24947
+  hash: "90d331ffff0f280c1cb2fc64edb05eae28f18fcf"
+- name: "keller.utx"
+  fileSize: 88991
+  hash: "7c07ba03adc47b6df1253cdff1e33105e27b6634"
+otherFiles: 2
+dependencies:
+  DM-Kellerraum.unr:
+  - status: "OK"
+    name: "kellerraum"
+  - status: "OK"
+    name: "keller"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/K/2/9/8f2529/DM-Kellerraum.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Kellerraum"
+playerCount: "2-6"
+themes:
+  Nali Temple: 1.0
+bots: true
