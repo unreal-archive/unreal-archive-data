@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:08"
+game: "Unreal Tournament"
+name: "DM-[LIANDRI]Inferno]NIX["
+author: "Unknown"
+description: "None"
+releaseDate: "2021-04"
+attachments: []
+originalFilename: "Inferno.zip"
+hash: "92b3b846e3484dfc460ce853ad6fe3f5df508c3f"
+fileSize: 12798067
+files:
+- name: "RipNTear.umx"
+  fileSize: 11370238
+  hash: "3356d5d095a537e96d8080dcb02a32348a41d4b2"
+- name: "HELL_TEX.utx"
+  fileSize: 1064461
+  hash: "1444b1d07b3bd35b2a36f4c28a8ec91bebba575b"
+- name: "DM-[LIANDRI]Inferno]NIX[.unr"
+  fileSize: 4011189
+  hash: "a22fa860273aa288b3d91299b005a8548eef8687"
+- name: "NiXSkulls.utx"
+  fileSize: 266383
+  hash: "5c6075e3d6ccf1deb9930466e8661c6adbe7c78d"
+otherFiles: 0
+dependencies:
+  DM-[LIANDRI]Inferno]NIX[.unr:
+  - status: "OK"
+    name: "NiXSkulls"
+  - status: "OK"
+    name: "HELL_TEX"
+  - status: "MISSING"
+    name: "GhostT"
+  - status: "OK"
+    name: "RipNTear"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/L/9/2/b3b846/Inferno.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-[LIANDRI]Inferno]NIX["
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  Ancient: 0.8
+bots: true
