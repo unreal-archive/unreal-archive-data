@@ -1,0 +1,49 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:30"
+game: "Unreal Tournament"
+name: "BetaFractal"
+author: "Dave Ewing"
+description: "None"
+releaseDate: "2023-07"
+attachments:
+- type: "IMAGE"
+  name: "betafractal_shot_bd50ec34_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/b/d/50ec34/betafractal_shot_bd50ec34_1.png"
+- type: "IMAGE"
+  name: "betafractal_shot_bd50ec34_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/b/d/50ec34/betafractal_shot_bd50ec34_2.png"
+originalFilename: "BetaFractal.rar"
+hash: "bd50ec340c70c38e58aaae95060f78547fcbad0e"
+fileSize: 430421
+files:
+- name: "DM-UTFractalOld.unr"
+  fileSize: 891481
+  hash: "74c41dd0c539aed1730b2611989cc225c1af7388"
+- name: "BetaFract.utx"
+  fileSize: 23306
+  hash: "3b28972afa1d0f0a6162052f8857fcd298abebd6"
+- name: "DM-UTFractalB.unr"
+  fileSize: 750430
+  hash: "29cf5548f20361afe90c215350f232f1ae40e86e"
+otherFiles: 1
+dependencies:
+  DM-UTFractalB.unr:
+  - status: "OK"
+    name: "BetaFract"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/b/d/50ec34/BetaFractal.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UTFractalOld"
+  title: "DM-Fractal"
+  author: "Dave Ewing"
+- name: "DM-UTFractalB"
+  title: "DM-Fractal - 222 edition"
+  author: "Dave Ewing"
+gametype: "DeathMatch"
+themes:
+  Industrial: 1.0

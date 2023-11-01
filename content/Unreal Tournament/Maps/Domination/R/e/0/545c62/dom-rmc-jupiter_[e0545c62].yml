@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-08 09:32"
+game: "Unreal Tournament"
+name: "DOM-RMC-Jupiter"
+author: "Michael 'ExpEM' Nunn"
+description: "None"
+releaseDate: "2021-10"
+attachments:
+- type: "IMAGE"
+  name: "dom-rmc-jupiter_shot_e0545c62_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/R/e/0/545c62/dom-rmc-jupiter_shot_e0545c62_1.png"
+originalFilename: "DOM-RMC-Jupiter.zip"
+hash: "e0545c62509558d4f4869781158b420458b1da62"
+fileSize: 2469660
+files:
+- name: "DOM-RMC-Jupiter.unr"
+  fileSize: 1824622
+  hash: "043fecdd8f544c0329fa75b5075f6e149189178b"
+- name: "ExpEM_CyberSpeech.uax"
+  fileSize: 321123
+  hash: "946530f4718a6e1a7bb3cd4b9ec9e009394ff429"
+- name: "ExpEM_Jupiter.u"
+  fileSize: 80861
+  hash: "345dd0684eb074a0110ba756c55c4aa85273cd8a"
+- name: "DeusExDanceMix_Music.umx"
+  fileSize: 1738728
+  hash: "51059e6e8a0da58b4cf17ebb425a60f13412dbd4"
+- name: "ExpEM_JupiterSkins.utx"
+  fileSize: 554277
+  hash: "dc7ed29654fdb25db385bb56687f269210759bf7"
+otherFiles: 1
+dependencies:
+  ExpEM_Jupiter.u:
+  - status: "OK"
+    name: "ExpEM_JupiterSkins"
+  DOM-RMC-Jupiter.unr:
+  - status: "OK"
+    name: "ExpEM_CyberSpeech"
+  - status: "OK"
+    name: "ExpEM_Jupiter"
+  - status: "OK"
+    name: "ExpEM_JupiterSkins"
+  - status: "OK"
+    name: "DeusExDanceMix_Music"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "RichRig"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/R/e/0/545c62/DOM-RMC-Jupiter.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Domination"
+title: "Jupiter Tower"
+playerCount: "4-9"
+themes:
+  Tech: 1.0
+bots: true
