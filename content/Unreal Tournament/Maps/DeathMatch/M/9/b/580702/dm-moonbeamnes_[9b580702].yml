@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:16"
+game: "Unreal Tournament"
+name: "DM-Moonbeam[NES]"
+author: "THUNDERBOLT"
+description: "None"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-moonbeamnes_shot_9b580702_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/b/580702/dm-moonbeamnes_shot_9b580702_1.png"
+originalFilename: "DM-Moonbeam[NES]_repack.zip"
+hash: "9b5807024808c1774628c0cddad9d42db0552263"
+fileSize: 54473538
+files:
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "TBNeonSCIFI.utx"
+  fileSize: 19406545
+  hash: "ad817c5d4cb416cc80619b16db62f1de74893d8b"
+- name: "DM-Moonbeam[NES].unr"
+  fileSize: 43684551
+  hash: "1f09f6488ea9302dac4813cfb6005fbdba86d50b"
+- name: "TBSshipsFX.uax"
+  fileSize: 16236547
+  hash: "5f79c8aec1e5ed121f93e17ef685e65ebc4166bf"
+- name: "CITELogo.utx"
+  fileSize: 364639
+  hash: "8fc3e83b6a05252097a41d901abc26a393225a5b"
+- name: "utsMold.umx"
+  fileSize: 15459151
+  hash: "f0dfd88a983d13fbd8bc37dfaeb8ae72eb83ddd2"
+- name: "UPak2.utx"
+  fileSize: 621089
+  hash: "c638e31f04d1b4a0e536a8a50e48644cb47b9038"
+otherFiles: 0
+dependencies:
+  DM-Moonbeam[NES].unr:
+  - status: "OK"
+    name: "utsMold"
+  - status: "OK"
+    name: "UPak2"
+  - status: "OK"
+    name: "TBSshipsFX"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "TBNeonSCIFI"
+  - status: "OK"
+    name: "CITELogo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/b/580702/DM-Moonbeam%5BNES%5D_repack.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MH-(dU)CoruscantCity"
+playerCount: "16"
+themes:
+  Ancient: 1.0
+bots: true

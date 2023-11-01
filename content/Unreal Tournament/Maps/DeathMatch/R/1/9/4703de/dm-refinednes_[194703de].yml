@@ -1,0 +1,89 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:16"
+game: "Unreal Tournament"
+name: "DM-Refined[NES]"
+author: "Reworked by Lunic"
+description: "None"
+releaseDate: "2022-05"
+attachments: []
+originalFilename: "DM-Refined[NES].zip"
+hash: "194703de819e6dd2344b5ee9d933d0413ec0d4fe"
+fileSize: 31969793
+files:
+- name: "Snowice.utx"
+  fileSize: 2453512
+  hash: "bf47d002aa1c03eb70e2ec6e433cfa8e303955e2"
+- name: "DM-Refined[NES].unr"
+  fileSize: 9108793
+  hash: "748817dea14e49276536e2f65a19b43be1ba3a09"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "Ribeira3.utx"
+  fileSize: 3154935
+  hash: "810725d873016c9586ff4d412d283ad8c4189b27"
+- name: "Metro.utx"
+  fileSize: 8617262
+  hash: "06e90f23b0da8c6e40aabeee38d42aebcd13a994"
+- name: "Katen.umx"
+  fileSize: 11070186
+  hash: "7fe1e447d733f4bd4836ae6e18f51d5fe64545f7"
+- name: "Xtortion.utx"
+  fileSize: 853804
+  hash: "a93f5c074dcf30129ed3ad145de081623c041cea"
+- name: "miguel27.utx"
+  fileSize: 382152
+  hash: "085bee80efef31ad0fc85854138c2baca792bc74"
+- name: "NESparts.utx"
+  fileSize: 726400
+  hash: "2855c02072b4016fe7150de28a8cd210687f0f0d"
+- name: "TrofaCity2.utx"
+  fileSize: 2402279
+  hash: "ae7511ee56a19d43ec350796885b81ffd39dce0f"
+- name: "DaySkyBox.utx"
+  fileSize: 4333594
+  hash: "a2e7f9ce45e5ce9ce1bf7a1b9a8a8d11d12bbc4b"
+otherFiles: 0
+dependencies:
+  DM-Refined[NES].unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "TrofaCity2"
+  - status: "OK"
+    name: "Snowice"
+  - status: "OK"
+    name: "miguel27"
+  - status: "OK"
+    name: "NESparts"
+  - status: "OK"
+    name: "DaySkyBox"
+  - status: "OK"
+    name: "Katen"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "Metro"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "Ribeira3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/1/9/4703de/DM-Refined%5BNES%5D.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Refined"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true
