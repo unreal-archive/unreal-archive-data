@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-14 20:13"
+game: "Unreal Tournament"
+name: "MH-Addicted"
+author: "Jetlagg"
+description: "None"
+releaseDate: "2013-06"
+attachments: []
+originalFilename: "MH-Addicted.7z"
+hash: "7ea3181c7af73cbb0baaea25c1adbcddf9e7d8d1"
+fileSize: 11874942
+files:
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+- name: "bpak.u"
+  fileSize: 259553
+  hash: "f552452dd11750875906f4290373f62bb577eb8b"
+- name: "SavingAbel-Addicted.umx"
+  fileSize: 4743140
+  hash: "de3d21c631954e2b4e913aa82147fabc51fe3a10"
+- name: "HealingGunBeta.u"
+  fileSize: 845922
+  hash: "64142c7701c1b9c349df917317427d820f819d15"
+- name: "MH-Addicted.unr"
+  fileSize: 12926056
+  hash: "35914c61555633c975adddc842cca51d0586adaf"
+- name: "Mullog.u"
+  fileSize: 1019898
+  hash: "ff110fe280583cc87a3c8dc35267ddeca9d64f26"
+- name: "Mullogskin.utx"
+  fileSize: 1479730
+  hash: "2b1e84c5dca118756402e72d683805242a6c8e08"
+otherFiles: 0
+dependencies:
+  Mullog.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  - status: "OK"
+    name: "Mullogskin"
+  MH-Addicted.unr:
+  - status: "OK"
+    name: "SavingAbel-Addicted"
+  - status: "OK"
+    name: "BPak"
+  - status: "OK"
+    name: "Mullog"
+  - status: "MISSING"
+    name: "Humane"
+  - status: "MISSING"
+    name: "Monsterhunt"
+  - status: "OK"
+    name: "HealingGunBeta"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/7/e/a3181c/MH-Addicted.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Addicted"
+playerCount: "Unknown"
+themes:
+  Natural: 0.6
+  Ancient: 0.4
+bots: true
