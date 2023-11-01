@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-17 16:55"
+game: "Unreal Tournament 2004"
+name: "DM-Gen Mo`Kai Forest"
+author: "N3K0M4J1N"
+description: "Spiel"
+releaseDate: "2003-01"
+attachments: []
+originalFilename: "gen_mo_kai_forestv2.zip"
+hash: "887af6a63e8acbff07fb8ca22910181769e2cf2e"
+fileSize: 2431713
+files:
+- name: "philip wasser.utx"
+  fileSize: 2098194
+  hash: "461d0c26ad633550d49b936b1367e21eb59d19e7"
+- name: "DM-Gen Mo`Kai Forest.ut2"
+  fileSize: 4127869
+  hash: "17a3a1303578c725e4f2616e709ee6d5ed06a920"
+- name: "philip wasser2.utx"
+  fileSize: 131435
+  hash: "5f871efb9fbaf6ccc4c7da2afee3da9544358152"
+- name: "philip.usx"
+  fileSize: 2817218
+  hash: "ab1fce4ea35deb551c58ab912b07631beee3e889"
+otherFiles: 1
+dependencies:
+  DM-Gen Mo`Kai Forest.ut2:
+  - status: "OK"
+    name: "philip wasser"
+  - status: "OK"
+    name: "philip wasser2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/8/8/7af6a6/gen_mo_kai_forestv2.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Gen Mo`Kai Forest"
+playerCount: "10-20"
+themes:
+  Ancient: 1.0
+bots: true
