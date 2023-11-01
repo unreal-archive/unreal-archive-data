@@ -1,0 +1,71 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-10-31 09:05"
+game: "Rune"
+name: "sabreMatch"
+author: "netshade <netshade@disinfo.net>"
+description: ""
+releaseDate: "2000-10"
+attachments: []
+originalFilename: "sabre-01.zip"
+hash: "152750fcef00387b46c8241ffd68aa9ce0efe471"
+fileSize: 293704
+files:
+- name: "sabreMatch.utx"
+  fileSize: 20645
+  hash: "5534e1b45a8834405c2cbbace4a856d8b774a01e"
+- name: "sabreMatch.u"
+  fileSize: 24232
+  hash: "1af5c378907e49cdd5718adeefbd2e683fb02d20"
+- name: "sabreMatchSnds.uax"
+  fileSize: 290686
+  hash: "88284e146ada706c1d14c6e914b52c511381a372"
+otherFiles: 2
+dependencies:
+  sabreMatch.utx:
+  - status: "MISSING"
+    name: "RuneI"
+  - status: "MISSING"
+    name: "RuneFX2"
+  - status: "MISSING"
+    name: "OtherSnd"
+  - status: "MISSING"
+    name: "objects"
+  - status: "OK"
+    name: "sabreMatchSnds"
+  - status: "MISSING"
+    name: "WeaponsSnd"
+  - status: "MISSING"
+    name: "weapons"
+  - status: "MISSING"
+    name: "RuneFX"
+  sabreMatch.u:
+  - status: "MISSING"
+    name: "RuneI"
+  - status: "MISSING"
+    name: "RuneFX2"
+  - status: "MISSING"
+    name: "OtherSnd"
+  - status: "MISSING"
+    name: "objects"
+  - status: "OK"
+    name: "sabreMatchSnds"
+  - status: "MISSING"
+    name: "WeaponsSnd"
+  - status: "MISSING"
+    name: "weapons"
+  - status: "MISSING"
+    name: "RuneFX"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/S/1/5/2750fc/sabre-01.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "sabreMatch"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

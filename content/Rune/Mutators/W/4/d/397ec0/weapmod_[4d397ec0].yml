@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-10-31 09:05"
+game: "Rune"
+name: "Weapmod"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-10"
+attachments: []
+originalFilename: "weapmod.zip"
+hash: "4d397ec07b66eb875ebe1abb5796c0b2b1772d2e"
+fileSize: 3089
+files:
+- name: "Zonk3.u"
+  fileSize: 4753
+  hash: "be5f3dc376d2b9330ba1b64dfd8fa9f55f16357d"
+- name: "Zonk2.u"
+  fileSize: 1749
+  hash: "d89600965bec9ff29a60442bcdc689e24fd9bd97"
+otherFiles: 2
+dependencies:
+  Zonk3.u:
+  - status: "MISSING"
+    name: "RuneI"
+  Zonk2.u:
+  - status: "MISSING"
+    name: "RuneI"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/W/4/d/397ec0/weapmod.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "ThorsHammer Match"
+  description: ""
+- name: "VampireBlade"
+  description: ""
+- name: "Axe Match"
+  description: ""
+- name: "Limbspark Match"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
