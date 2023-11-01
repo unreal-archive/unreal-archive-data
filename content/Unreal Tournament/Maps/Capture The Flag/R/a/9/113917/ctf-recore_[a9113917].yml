@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-10 14:56"
+game: "Unreal Tournament"
+name: "CTF-[-re]Core"
+author: "*NIX*"
+description: "None"
+releaseDate: "2021-04"
+attachments: []
+originalFilename: "Core.zip"
+hash: "a9113917442571207d481162ecdf2d1136f7aa17"
+fileSize: 14629801
+files:
+- name: "Atlantika.umx"
+  fileSize: 14582603
+  hash: "4c9f859220a4211ed77534f3a17f1dec80b7026a"
+- name: "Re-spaced.utx"
+  fileSize: 1507851
+  hash: "c5a1c602305d86815f79b80dc148937ddc84b4cf"
+- name: "ReTeamLogo.utx"
+  fileSize: 443737
+  hash: "1476a6e2f902717c9ce76f9468d201eebae8b403"
+- name: "CTF-[-re]Core.unr"
+  fileSize: 1854940
+  hash: "757d4dae6b17ee259c93490b5bbe9176013f90b6"
+otherFiles: 0
+dependencies:
+  CTF-[-re]Core.unr:
+  - status: "OK"
+    name: "Atlantika"
+  - status: "OK"
+    name: "ReTeamLogo"
+  - status: "OK"
+    name: "Re-spaced"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/R/a/9/113917/Core.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-[-re]Core"
+playerCount: "Unknown"
+themes:
+  Industrial: 0.7
+  Ancient: 0.3
+bots: true
