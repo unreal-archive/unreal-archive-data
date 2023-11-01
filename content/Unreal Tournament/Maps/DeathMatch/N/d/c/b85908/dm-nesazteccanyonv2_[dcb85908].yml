@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-15 13:25"
+game: "Unreal Tournament"
+name: "DM-[NES]AztecCanyonV2"
+author: "Lunic aka. NiX"
+description: "None"
+releaseDate: "2022-03"
+attachments: []
+originalFilename: "DM-[NES]AztecCanyonV2.zip"
+hash: "dcb85908ea19de932bd82d6b3d245a28e40bd910"
+fileSize: 6964899
+files:
+- name: "NixTex2021.utx"
+  fileSize: 3451243
+  hash: "3b2744c5f6957115c7da6c4ef3e579b82c40aed0"
+- name: "DM-[NES]AztecCanyonV2.unr"
+  fileSize: 10509678
+  hash: "8896e865199308544bef5ebd6f6242f9a33616fe"
+- name: "LunicLogo.utx"
+  fileSize: 725113
+  hash: "2331775e0403d982a27cc585ab4066008eec6405"
+- name: "NESColdStone.utx"
+  fileSize: 2037151
+  hash: "2ab9ff7be107c062608e138d28275a1784253547"
+- name: "NESteleports.utx"
+  fileSize: 1569996
+  hash: "13cc60e88ec6f797881c7ed4e8f9a4877db25e88"
+otherFiles: 0
+dependencies:
+  DM-[NES]AztecCanyonV2.unr:
+  - status: "OK"
+    name: "LunicLogo"
+  - status: "OK"
+    name: "NESColdStone"
+  - status: "OK"
+    name: "NESteleports"
+  - status: "OK"
+    name: "NixTex2021"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/d/c/b85908/DM-%5BNES%5DAztecCanyonV2.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "AztecCanyon"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.1
+  Nali Castle: 0.7
+bots: true

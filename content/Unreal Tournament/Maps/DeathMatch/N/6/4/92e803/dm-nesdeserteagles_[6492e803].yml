@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-15 13:25"
+game: "Unreal Tournament"
+name: "DM-[NES]DesertEagles"
+author: "NiX"
+description: "None"
+releaseDate: "2022-03"
+attachments: []
+originalFilename: "DM-[NES]DesertEagles.zip"
+hash: "6492e8032702fca20f6bcfb97ccc50dd4b886be7"
+fileSize: 34799514
+files:
+- name: "NESContainers.utx"
+  fileSize: 2178397
+  hash: "e72e9771bb21888fe9ae93cd75449c580f82eacd"
+- name: "CITELogo.utx"
+  fileSize: 364639
+  hash: "8fc3e83b6a05252097a41d901abc26a393225a5b"
+- name: "DaySkyBox.utx"
+  fileSize: 4333594
+  hash: "a2e7f9ce45e5ce9ce1bf7a1b9a8a8d11d12bbc4b"
+- name: "OldComrades.umx"
+  fileSize: 8028843
+  hash: "54ccdfab0d2c5dad607735d05262b9f40ef54d1d"
+- name: "Metro.utx"
+  fileSize: 8617262
+  hash: "06e90f23b0da8c6e40aabeee38d42aebcd13a994"
+- name: "Metalmys.utx"
+  fileSize: 2120359
+  hash: "5bcee20acbaf2c8ccd1eb769995b4611430903c0"
+- name: "[NES]Logos.utx"
+  fileSize: 1205688
+  hash: "f26e72ec210fc49996a99a4cdeb0e27bcab7b257"
+- name: "IndusDeck.utx"
+  fileSize: 22453014
+  hash: "b25a5856040b45e6a43c2f60682d0be2b82a04ac"
+- name: "DM-[NES]DesertEagles.unr"
+  fileSize: 5905845
+  hash: "ba9ed4ed074cb4daabd207951634effa1c06c198"
+- name: "DesertCity.utx"
+  fileSize: 1334832
+  hash: "df7911a49dd39b57c0c99ca7bb39db270a8a3afa"
+otherFiles: 0
+dependencies:
+  DM-[NES]DesertEagles.unr:
+  - status: "OK"
+    name: "NESContainers"
+  - status: "OK"
+    name: "DesertCity"
+  - status: "OK"
+    name: "DaySkyBox"
+  - status: "OK"
+    name: "OldComrades"
+  - status: "OK"
+    name: "[NES]Logos"
+  - status: "OK"
+    name: "Metro"
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "OK"
+    name: "IndusDeck"
+  - status: "OK"
+    name: "CITELogo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/6/4/92e803/DM-%5BNES%5DDesertEagles.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "[NES]DesertEagles"
+playerCount: "Unknown"
+themes:
+  City: 0.3
+  Industrial: 0.4
+  Egyptian: 0.2
+bots: true
