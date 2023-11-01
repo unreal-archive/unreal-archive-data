@@ -1,0 +1,75 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-09 07:29"
+game: "Unreal Tournament 2004"
+name: "ONS [WAR] Mos Eisley"
+author: "MaDCaT75"
+description: "None"
+releaseDate: "2009-08"
+attachments:
+- type: "IMAGE"
+  name: "ons-war-mos-eisley_shot_d3dad697_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/O/d/3/dad697/ons-war-mos-eisley_shot_d3dad697_2.png"
+- type: "IMAGE"
+  name: "ons-war-mos-eisley_shot_d3dad697_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/O/d/3/dad697/ons-war-mos-eisley_shot_d3dad697_3.png"
+- type: "IMAGE"
+  name: "ons-war-mos-eisley_shot_d3dad697_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/O/d/3/dad697/ons-war-mos-eisley_shot_d3dad697_1.png"
+originalFilename: "ONS-[WAR]-Mos-Eisley.zip"
+hash: "d3dad69762dcbfdd7c9d838debf32f919e1f21df"
+fileSize: 21559012
+files:
+- name: "MadCat.u"
+  fileSize: 6411
+  hash: "4f09c7acec129ffaf8a0c317232b217cc17a4f64"
+- name: "Mos Eisley Spaceport.ogg"
+  fileSize: 3232906
+  hash: "5b009b6d068d4b46e98e271e56ed02711e11b03b"
+- name: "ONS-[WAR]-Mos-Eisley-BetterFPS.ut2"
+  fileSize: 23406528
+  hash: "a46ed2ef165b67746c40adaaec294d2021578543"
+- name: "ONS-[WAR]-Mos-Eisley.ut2"
+  fileSize: 23406481
+  hash: "4b748c65667a27765d757c552649d5d89380febe"
+- name: "EisleyTextures.utx"
+  fileSize: 701422
+  hash: "bbc16f266f4876f208bf73629427998b70451b18"
+- name: "Eisley.usx"
+  fileSize: 16428239
+  hash: "6a29e6c31c803b29a2f05dd17177e3b99847792b"
+otherFiles: 2
+dependencies:
+  Eisley.usx:
+  - status: "OK"
+    name: "EisleyTextures"
+  ONS-[WAR]-Mos-Eisley.ut2:
+  - status: "OK"
+    name: "Eisley"
+  - status: "OK"
+    name: "MadCat"
+  - status: "OK"
+    name: "EisleyTextures"
+  ONS-[WAR]-Mos-Eisley-BetterFPS.ut2:
+  - status: "OK"
+    name: "Eisley"
+  - status: "OK"
+    name: "MadCat"
+  - status: "OK"
+    name: "EisleyTextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/O/d/3/dad697/ONS-%5BWAR%5D-Mos-Eisley.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "ONS-[WAR]-Mos-Eisley-BetterFPS"
+  title: "Mos Eisley SpacePort"
+  author: "MaDCaT75"
+- name: "ONS-[WAR]-Mos-Eisley"
+  title: "Mos Eisley SpacePort"
+  author: "MaDCaT75"
+gametype: "Onslaught"
+themes:
+  Natural: 1.0
