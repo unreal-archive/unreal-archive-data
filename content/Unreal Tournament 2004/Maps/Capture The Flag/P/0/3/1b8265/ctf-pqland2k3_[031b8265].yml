@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-02 16:22"
+game: "Unreal Tournament 2004"
+name: "CTF-PQLand2k3"
+author: "Damien LAURENT"
+description: "Hu"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-pqland2k3_shot_031b8265_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/0/3/1b8265/ctf-pqland2k3_shot_031b8265_1.png"
+- type: "IMAGE"
+  name: "ctf-pqland2k3_shot_031b8265_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/0/3/1b8265/ctf-pqland2k3_shot_031b8265_2.png"
+originalFilename: "ctf-pqland2k3.zip"
+hash: "031b82655f0b41c4bfba4f0f7c9ae6dec4e48401"
+fileSize: 14875735
+files:
+- name: "n_meshes.usx"
+  fileSize: 800514
+  hash: "1e4c061cf9b862e49e7b7a4133aa74111d651d89"
+- name: "kitdepq.usx"
+  fileSize: 340315
+  hash: "c09513627b9bf7eeb4c462e3393206b832122271"
+- name: "vangogh.usx"
+  fileSize: 7161780
+  hash: "7034cd71d8c50be1b7499a115d00e3a56d05751a"
+- name: "vangogh.utx"
+  fileSize: 10654659
+  hash: "34b1c77e23c2beb55afeb4da65dc7ea28a0a9619"
+- name: "CTF-PQLand2k3.ut2"
+  fileSize: 7771575
+  hash: "8bee52faaefaee442e6cad0353621475c40bebf3"
+- name: "Mirwais--never-young-again.ogg"
+  fileSize: 4634390
+  hash: "68bcc7b24725b22ac0a978065b0149a0a146f438"
+- name: "n_textures.utx"
+  fileSize: 1794185
+  hash: "bd3b2d5f1ca9a631459b75171bf360416e852fef"
+otherFiles: 2
+dependencies:
+  n_meshes.usx:
+  - status: "OK"
+    name: "n_textures"
+  - status: "OK"
+    name: "vangogh"
+  kitdepq.usx:
+  - status: "PARTIAL"
+    name: "vangogh"
+  CTF-PQLand2k3.ut2:
+  - status: "OK"
+    name: "vangogh"
+  - status: "OK"
+    name: "n_textures"
+  - status: "OK"
+    name: "kitdepq"
+  - status: "OK"
+    name: "n_meshes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/P/0/3/1b8265/ctf-pqland2k3.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "PQLand2k3 a Citadel-like"
+playerCount: "Botmatch"
+themes:
+  Natural: 0.2
+  Industrial: 0.6
+  Ancient: 0.2
+bots: true
