@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-10-31 21:42"
+variationOf: "c20ce680862eca7cd6a34c98e18dfcd2b909e7f7"
+game: "Unreal Tournament"
+name: "CTF-(((AYF)))"
+author: "John \"SabbathCat\" Martin"
+description: "AYB!!!"
+releaseDate: "2003-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-ayf_shot_f9f5f590_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/f/9/f5f590/ctf-ayf_shot_f9f5f590_1.png"
+- type: "IMAGE"
+  name: "ctf-ayf_shot_f9f5f590_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/f/9/f5f590/ctf-ayf_shot_f9f5f590_2.png"
+originalFilename: "allyourfacectfmap.zip"
+hash: "f9f5f5907e5fc80912704f8c226dc029365e4d4a"
+fileSize: 4257234
+files:
+- name: "Foregone3.umx"
+  fileSize: 2919124
+  hash: "f8774ac0e603a8976d0d48effd13e9c46eb9e4bc"
+- name: "flagbasejrm1.u"
+  fileSize: 357257
+  hash: "6cd4410c1d58d712d811cdd705823f0bab6979f1"
+- name: "CTF-(((AYF))).unr"
+  fileSize: 2707378
+  hash: "ad8aed2ff799847d2d4b00b3ee08db3ade492f11"
+otherFiles: 2
+dependencies:
+  CTF-(((AYF))).unr:
+  - status: "OK"
+    name: "Foregone3"
+  - status: "OK"
+    name: "flagbasejrm1"
+  flagbasejrm1.u:
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/f/9/f5f590/allyourfacectfmap.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "All Your Face"
+playerCount: "2-10 mofo"
+themes: {}
+bots: true
