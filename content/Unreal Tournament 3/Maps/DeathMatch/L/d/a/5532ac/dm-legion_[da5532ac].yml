@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-04 14:35"
+game: "Unreal Tournament 3"
+name: "DM-Legion"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "dm-legion.rar"
+hash: "da5532ac3a5fd2ebd2acefe189e570ae48d4c42e"
+fileSize: 161683778
+files:
+- name: "D3_ES_FX.upk"
+  fileSize: 918694
+  hash: "d0af8f5ec5517c6b0cf26e1eba48dcc0d66f71de"
+- name: "D3_MasterFX.upk"
+  fileSize: 4921655
+  hash: "dc86bc8db99b2b768f488da9b93317c15d716998"
+- name: "D3_Audio.upk"
+  fileSize: 27413080
+  hash: "bb49f1de132b213e43c425c3127e5531bdb652d6"
+- name: "D3_ES_Sky.upk"
+  fileSize: 16139662
+  hash: "fbc410c2b79a135258f0d72ca671999e8c24ed0c"
+- name: "ES_TileTerrainBase.upk"
+  fileSize: 16371487
+  hash: "251ed51b7bb462a05f47732ee74dde88aa867c56"
+- name: "DM-Legion.ut3"
+  fileSize: 6567941
+  hash: "e6d530a878679d50191a0fae7c9869b6b9b4aae2"
+- name: "D3_ES_Terrain.upk"
+  fileSize: 75687263
+  hash: "b31ed50a4bb552ec94a1955fc07e2ce10d478001"
+- name: "D3_MI_Shaders.upk"
+  fileSize: 3385220
+  hash: "eee87798ab6fd03b92640aa8c34ecdbb3784b2c0"
+- name: "D3_ES_Props.upk"
+  fileSize: 67229366
+  hash: "fc98531cbdbbafee079f8bdc881efbbb451c025e"
+- name: "D3_Custom_Shaders.upk"
+  fileSize: 2730329
+  hash: "a4563fcba2216a3df1cd4c5ca1a8477109612574"
+- name: "D3_PlayerFX.upk"
+  fileSize: 1609052
+  hash: "2be11aa2aefe98c683ce00f936fa7458429117c4"
+otherFiles: 1
+dependencies:
+  DM-Legion.ut3:
+  - status: "OK"
+    name: "D3_MI_Shaders"
+  - status: "OK"
+    name: "D3_MasterFX"
+  - status: "OK"
+    name: "D3_ES_FX"
+  - status: "OK"
+    name: "D3_ES_Terrain"
+  - status: "OK"
+    name: "D3_Audio"
+  - status: "OK"
+    name: "D3_ES_Sky"
+  - status: "OK"
+    name: "D3_ES_Props"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Maps/DeathMatch/L/d/a/5532ac/dm-legion.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Legion"
+playerCount: "Unknown"
+themes: {}
+bots: true
