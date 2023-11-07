@@ -1,8 +1,8 @@
---- !<MAP>
-contentType: "MAP"
-firstIndex: "2019-05-10 21:15"
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-11-07 09:01"
 game: "Unreal Tournament"
-name: "DM-Arc I"
+name: "DD DM MapPack"
 author: "Unknown"
 description: "None"
 releaseDate: "2011-07"
@@ -14,12 +14,12 @@ files:
 - name: "DM-Arc I.unr"
   fileSize: 140002
   hash: "a00e39f03f91002d3b2be9647fc330828fe85fb8"
-- name: "DM-Arc II.unr"
-  fileSize: 89984
-  hash: "1b8eb00ca5220d6d21820b59cf78fe822c4c9503"
 - name: "DM-Arc III.unr"
   fileSize: 166319
   hash: "85c8c4e97d23d2150c66ee763b0eda55944e52f8"
+- name: "DM-Arc II.unr"
+  fileSize: 89984
+  hash: "1b8eb00ca5220d6d21820b59cf78fe822c4c9503"
 otherFiles: 0
 dependencies: {}
 downloads:
@@ -40,10 +40,19 @@ downloads:
   state: "OK"
 links: {}
 deleted: false
+maps:
+- name: "DM-Arc I"
+  title: "DM-Arc I"
+  author: "Unknown"
+- name: "DM-Arc III"
+  title: "DM-Arc III"
+  author: "Unknown"
+- name: "DM-Arc II"
+  title: "DM-Arc II"
+  author: "Unknown"
 gametype: "DeathMatch"
-title: "DM-Arc I"
-playerCount: "Unknown"
 themes:
-  Skaarj Tech: 0.1
-  Indistrial: 0.9
-bots: true
+  Nali Temple: 0.1
+  City: 0.4
+  Natural: 0.2
+  Industrial: 0.3
