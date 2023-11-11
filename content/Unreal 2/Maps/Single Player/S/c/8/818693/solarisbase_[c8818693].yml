@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-06 22:31"
+game: "Unreal 2"
+name: "SolarisBase"
+author: "Matthias Worch"
+description: "None"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "SolarisBase.zip"
+hash: "c8818693456d79287f6b6ac1934ad84568b902bc"
+fileSize: 3549192
+files:
+- name: "SolarisM.usx"
+  fileSize: 1002684
+  hash: "4bc0a52633a660b1e9ba0b4ce3092f204f42a07b"
+- name: "SolarisBase.un2"
+  fileSize: 8984008
+  hash: "2eea89f89ef8f3c8af9fd8bbd58d5cae3ba69c40"
+- name: "SolarisT.utx"
+  fileSize: 1908034
+  hash: "ce1a6529d99512d76af9f99182b887428ad14fdc"
+otherFiles: 1
+dependencies:
+  SolarisT.utx:
+  - status: "MISSING"
+    name: "Mission_01T"
+  - status: "MISSING"
+    name: "JamesT"
+  - status: "MISSING"
+    name: "Mission_09T"
+  - status: "MISSING"
+    name: "Mission_08T"
+  - status: "MISSING"
+    name: "MattT"
+  - status: "MISSING"
+    name: "Mission_06T"
+  - status: "MISSING"
+    name: "GraysonT"
+  - status: "MISSING"
+    name: "DetailTextures"
+  SolarisM.usx:
+  - status: "MISSING"
+    name: "Mission_01T"
+  - status: "OK"
+    name: "SolarisT"
+  - status: "MISSING"
+    name: "AtlantisT"
+  - status: "MISSING"
+    name: "Mission_09T"
+  - status: "MISSING"
+    name: "MattT"
+  - status: "MISSING"
+    name: "Mission_06T"
+  - status: "MISSING"
+    name: "GraysonT"
+  - status: "MISSING"
+    name: "RW_T"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Unknown/S/c/8/818693/SolarisBase.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Single Player"
+title: "Solaris Station"
+playerCount: "Unknown"
+themes: {}
+bots: false
