@@ -1,0 +1,64 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-11-10 09:06"
+variationOf: "538c1a45c0bd38c4c6f4f351a33bcdc73b4fa8e3"
+game: "Unreal Tournament 2004"
+name: "Dm Mm Hollowrock"
+author: "Morphias"
+description: "None"
+releaseDate: "2003-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-mm-hollowrock_shot_6ca5a386_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/D/6/c/a5a386/dm-mm-hollowrock_shot_6ca5a386_2.png"
+- type: "IMAGE"
+  name: "dm-mm-hollowrock_shot_6ca5a386_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/D/6/c/a5a386/dm-mm-hollowrock_shot_6ca5a386_3.png"
+- type: "IMAGE"
+  name: "dm-mm-hollowrock_shot_6ca5a386_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/D/6/c/a5a386/dm-mm-hollowrock_shot_6ca5a386_1.png"
+originalFilename: "dm-mm-hollowrock.zip"
+hash: "6ca5a386567a83c39808e82710bf00c5ed52d955"
+fileSize: 12453168
+files:
+- name: "DM-MM-HollowRock_Storm.ut2"
+  fileSize: 5126384
+  hash: "4f6ee6b61fe269220267c4eae0e47d8deda3b2c8"
+- name: "PropTrigger.u"
+  fileSize: 46911
+  hash: "3f0fbe13f51ec1b364facaf836ffefb751a88ec7"
+- name: "KR-MM-2.ogg"
+  fileSize: 4675766
+  hash: "6af385fb5f871cdb202126b613a1d86e39d625ae"
+- name: "MM-NightStorm.uax"
+  fileSize: 3656663
+  hash: "ab95c62e2aae58a2e63a9c9bae2958c8c45d16d5"
+- name: "DM-MM-HollowRock_Misty.ut2"
+  fileSize: 7085485
+  hash: "c0d79b73b3d5b6cdc6b42fef36c66ab60541e577"
+otherFiles: 2
+dependencies:
+  DM-MM-HollowRock_Misty.ut2:
+  - status: "OK"
+    name: "MM-NightStorm"
+  DM-MM-HollowRock_Storm.ut2:
+  - status: "OK"
+    name: "MM-NightStorm"
+  - status: "OK"
+    name: "PropTrigger"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/D/6/c/a5a386/dm-mm-hollowrock.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-MM-HollowRock_Storm"
+  title: "Hollow Rock -Storm-"
+  author: "Morphias"
+- name: "DM-MM-HollowRock_Misty"
+  title: "Hollow Rock -Misty-"
+  author: "Morphias"
+gametype: "DeathMatch"
+themes:
+  City: 1.0
