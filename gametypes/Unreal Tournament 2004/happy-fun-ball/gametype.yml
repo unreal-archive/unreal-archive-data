@@ -1,0 +1,137 @@
+---
+contentType: "GameType"
+addedDate: "2023-11-12"
+game: "Unreal Tournament 2004"
+name: "Happy Fun Ball"
+author: "Happy Fun Ball Team"
+description: "Knock the ball into an opponent's goal"
+titleImage: ""
+bannerImage: ""
+altNames: []
+links: {}
+credits:
+  UT2004 Author:
+  - "Pfhoenix"
+  UT2003 Contributors:
+  - "Pfhoenix"
+  - "TwinsenEd"
+  - "Mongo"
+  - "DoctorSchwa"
+  - "Mia`cova"
+gameTypes:
+- name: "Happy Fun Ball"
+  description: "Happy Fun Ball is about taking a huge ball, making players force it\
+    \ into goals while avoiding getting crushed or squished, and having a happy fun\
+    \ time doing it."
+mutators: []
+maps:
+- name: "HFB-Bends"
+  title: "Bends in Fun"
+  author: "Brian \"Doctor Schwa\" Kelly"
+  screenshot:
+    type: "IMAGE"
+    name: "hfb-bends432208386614538968.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/happy-fun-ball/maps/hfb-bends432208386614538968.png"
+- name: "HFB-Orena"
+  title: "Ball O'rena"
+  author: "Martin \"Pfhoenix\" Actor"
+  screenshot:
+    type: "IMAGE"
+    name: "hfb-orena6630736138618424373.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/happy-fun-ball/maps/hfb-orena6630736138618424373.png"
+releases:
+- title: "Happy Fun Ball"
+  version: "UT2003 Version"
+  releaseDate: "2002-11-09"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/hfball.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202004/happy-fun-ball/hfball.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "hfball.zip"
+    hash: "4894499050c1b785ea48994c7d3e39ca800d5d06"
+    fileSize: 1388759
+    synced: true
+    deleted: false
+    files:
+    - name: "HFBall_T.utx"
+      fileSize: 563
+      hash: "07d769644592557ba96c3f5fd6f14786684eb045"
+    - name: "HFBall.u"
+      fileSize: 119184
+      hash: "d4f9bcce9a82dab76a7434944c8ff311164903a0"
+    - name: "HFB-SchwaA.ut2"
+      fileSize: 2930855
+      hash: "1c85a9b5fc536de649c64aef1876c280a0cb3061"
+    - name: "HFB-orena.ut2"
+      fileSize: 3756481
+      hash: "11aa9f6c555fdae745ac1243eb151dc756766c0c"
+    - name: "HFBall_S.usx"
+      fileSize: 209501
+      hash: "8baf64c14f8741cdaddb0f42d24717bb99e16dc6"
+    otherFiles: 4
+    dependencies:
+      HFBall.u:
+      - status: "OK"
+        name: "HFBall_T"
+      - status: "OK"
+        name: "HFBall_S"
+      HFB-SchwaA.ut2:
+      - status: "OK"
+        name: "HFBall"
+      HFB-orena.ut2:
+      - status: "OK"
+        name: "HFBall"
+  deleted: false
+- title: "Happy Fun Ball"
+  version: "UT2004 Version"
+  releaseDate: "2004-06-01"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/happyfunball.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202004/happy-fun-ball/happyfunball.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "happyfunball.zip"
+    hash: "24c30061c462001b07a7c8c2e78029c103201fcb"
+    fileSize: 1648060
+    synced: true
+    deleted: false
+    files:
+    - name: "HFBall_T.utx"
+      fileSize: 529930
+      hash: "c2026409a1e7cd0dc7a305dfd895b19d8c93a963"
+    - name: "HFBall_S.usx"
+      fileSize: 136631
+      hash: "bfd1a58bf32216a1550c644ea61c243b934d6810"
+    - name: "HFB-Orena.ut2"
+      fileSize: 3755545
+      hash: "c3e0fbfee2a6bc9dd991357f390ed6da6bdc1e83"
+    - name: "HFB-Bends.ut2"
+      fileSize: 2910232
+      hash: "d26891eb6d3a6c8736e6623c24a7a20387345c17"
+    - name: "HFBall.u"
+      fileSize: 125534
+      hash: "2d25a5b3caa5eb2096c6842d8b290c6da274c603"
+    otherFiles: 2
+    dependencies:
+      HFB-Bends.ut2:
+      - status: "OK"
+        name: "HFBall"
+      HFBall.u:
+      - status: "OK"
+        name: "HFBall_T"
+      - status: "OK"
+        name: "HFBall_S"
+      HFB-Orena.ut2:
+      - status: "OK"
+        name: "HFBall"
+  deleted: false
+deleted: false

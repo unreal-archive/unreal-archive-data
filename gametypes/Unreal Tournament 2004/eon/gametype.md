@@ -1,0 +1,2 @@
+Eon is a first person combat game set in the cataclysmic final hour of a living universe - the epic final battle between good and
+evil that speeds its way toward the world's unmaking. These simple constructions of Eon are intended as a sample of the fully produced game.
