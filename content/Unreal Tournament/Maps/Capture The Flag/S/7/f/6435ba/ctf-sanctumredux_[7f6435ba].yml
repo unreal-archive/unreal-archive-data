@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-05 00:00"
+game: "Unreal Tournament"
+name: "CTF-SanctumRedux"
+author: "Martijn \"dixeh\" Kooij"
+description: "20 Years of UT99!"
+releaseDate: "2020-07"
+attachments: []
+originalFilename: "CTF-SanctumRedux.rar"
+hash: "7f6435bab24570d45d4e7b8304879a4efc63023d"
+fileSize: 16640848
+files:
+- name: "Splendor.utx"
+  fileSize: 3257993
+  hash: "c742c4345df4b402ff675908f4da4f45e45af5ac"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTF-SanctumRedux.unr"
+  fileSize: 5665285
+  hash: "3f182d1e3b08b9da389a63a755b9c3ea048a6436"
+- name: "SafeQuake.utx"
+  fileSize: 20174043
+  hash: "70ac549af6aaa4d1f8e0858ac3fdb82c1c0fd57b"
+otherFiles: 2
+dependencies:
+  CTF-SanctumRedux.unr:
+  - status: "OK"
+    name: "Splendor"
+  - status: "OK"
+    name: "SafeQuake"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/7/f/6435ba/CTF-SanctumRedux.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Sanctum Redux"
+playerCount: "8-12"
+themes:
+  Skaarj Crypt: 0.8
+  Ancient: 0.2
+bots: true
