@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-28 16:13"
+game: "Unreal Tournament"
+name: "CTF-[ASL]Fastaction"
+author: "/\\~[ASLYE|702|R]~/\\"
+description: "Arena 2011"
+releaseDate: "2010-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-aslfastaction_shot_8f19a88e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/8/f/19a88e/ctf-aslfastaction_shot_8f19a88e_1.png"
+originalFilename: "CTF-[ASL]Fastaction.7z"
+hash: "8f19a88eabec2f7a82b69c48038b7588112aa3a0"
+fileSize: 13447490
+files:
+- name: "UTTech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+- name: "CTF-[ASL]Fastaction.unr"
+  fileSize: 404740
+  hash: "d96ad30287b64e90cfe7d77196cb9c36d081d7b9"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "ReachingDimensions.umx"
+  fileSize: 3376217
+  hash: "bb665d3393f5aa1ed9d191fcd4ecaad54ea855c0"
+otherFiles: 0
+dependencies:
+  CTF-[ASL]Fastaction.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "UTtech4"
+  - status: "OK"
+    name: "ReachingDimensions"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/8/f/19a88e/CTF-%5BASL%5DFastaction.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Fastaction"
+playerCount: "10-16"
+themes:
+  Natural: 0.2
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+bots: true

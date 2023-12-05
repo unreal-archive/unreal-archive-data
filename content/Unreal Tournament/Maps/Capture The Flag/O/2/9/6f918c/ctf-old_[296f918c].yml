@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-28 16:15"
+game: "Unreal Tournament"
+name: "CTF-Old"
+author: "Christian\"Cobra\"Trepanier"
+description: "None"
+releaseDate: "2008-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-old_shot_296f918c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/2/9/6f918c/ctf-old_shot_296f918c_1.png"
+- type: "IMAGE"
+  name: "ctf-old_shot_296f918c_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/2/9/6f918c/ctf-old_shot_296f918c_2.png"
+originalFilename: "CTF-Old.7z"
+hash: "296f918cb04d17b2e0325ec23d160ee7678bc5dc"
+fileSize: 9477476
+files:
+- name: "CTF-Old.unr"
+  fileSize: 6905365
+  hash: "5808dfff2be9013a94dd447ea2c4996a0a03d591"
+- name: "TAconeytex.utx"
+  fileSize: 2762604
+  hash: "1a545c2bd7001e4ebcddff6f488f9298d15e702e"
+- name: "TAconeysigns.utx"
+  fileSize: 451072
+  hash: "6532169fd42c621a1f0708a583361d7cbe691c1c"
+- name: "snowpack.utx"
+  fileSize: 1019610
+  hash: "881477d78a553c881cd96946b27a4462f1ec5d89"
+- name: "Snowall.utx"
+  fileSize: 452392
+  hash: "f9b883b52204a219dfb4bcb4e8bd2e59d6e3ff75"
+- name: "hause_tex.utx"
+  fileSize: 630310
+  hash: "5a5fc931068d259d2a04dc3b564fed1a404f6ee8"
+- name: "Snow.utx"
+  fileSize: 452392
+  hash: "f9b883b52204a219dfb4bcb4e8bd2e59d6e3ff75"
+- name: "rhine.utx"
+  fileSize: 1153086
+  hash: "b7729d8da34058b1a2c5621b7d78c45e697fc542"
+- name: "TheBoysAreBackInTown.umx"
+  fileSize: 5927571
+  hash: "a823d69e60c3995b81e951cdb02d8661c5ed476e"
+otherFiles: 3
+dependencies:
+  CTF-Old.unr:
+  - status: "OK"
+    name: "TAconeytex"
+  - status: "OK"
+    name: "Snow"
+  - status: "OK"
+    name: "TheBoysAreBackInTown"
+  - status: "OK"
+    name: "rhine"
+  - status: "OK"
+    name: "snowpack"
+  - status: "OK"
+    name: "Snowall"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/O/2/9/6f918c/CTF-Old.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Old"
+playerCount: "8-12"
+themes:
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Industrial: 0.1
+  Nali Castle: 0.5
+  Ancient: 0.1
+bots: true
