@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-27 22:08"
+game: "Unreal Tournament"
+name: "CTF-Canalize"
+author: "Joe"
+description: "None"
+releaseDate: "2006-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-canalize_shot_e2abbdcf_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/abbdcf/ctf-canalize_shot_e2abbdcf_1.png"
+- type: "IMAGE"
+  name: "ctf-canalize_shot_e2abbdcf_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/abbdcf/ctf-canalize_shot_e2abbdcf_3.png"
+- type: "IMAGE"
+  name: "ctf-canalize_shot_e2abbdcf_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/abbdcf/ctf-canalize_shot_e2abbdcf_2.png"
+originalFilename: "CTF-Canalize.7z"
+hash: "e2abbdcfb21fb4eca32ab3cb4f6625a321daedf5"
+fileSize: 4659538
+files:
+- name: "Newmca16.umx"
+  fileSize: 446913
+  hash: "c56e21dc93d2f1a519b1d06581e189c4870d04ca"
+- name: "j_tex.utx"
+  fileSize: 1531594
+  hash: "6be322693ae1fdf089ac62f0d537cfc55112f9c3"
+- name: "CTF-Canalize.unr"
+  fileSize: 6803780
+  hash: "3b959f67adb3b78cd0e893781d3a12946f8a87af"
+otherFiles: 3
+dependencies:
+  CTF-Canalize.unr:
+  - status: "OK"
+    name: "j_tex"
+  - status: "OK"
+    name: "Newmca16"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/C/e/2/abbdcf/CTF-Canalize.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Canalize"
+playerCount: "6-10"
+themes: {}
+bots: true
