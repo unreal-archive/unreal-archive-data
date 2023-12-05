@@ -1,0 +1,78 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2023-11-27 20:45"
+variationOf: "b13afa62662ece2c675210c39f94ca18e16ba7d5"
+game: "Unreal Tournament 2004"
+name: "Yoshi"
+author: "Goldfenix"
+description: "None"
+releaseDate: "2006-11"
+attachments:
+- type: "IMAGE"
+  name: "yoshi_shot_21e17557_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/Y/2/1/e17557/yoshi_shot_21e17557_1.png"
+- type: "IMAGE"
+  name: "yoshi_shot_21e17557_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/Y/2/1/e17557/yoshi_shot_21e17557_2.png"
+- type: "IMAGE"
+  name: "yoshi_shot_21e17557_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/Y/2/1/e17557/yoshi_shot_21e17557_3.png"
+originalFilename: "yoshi_v1_ut2k4.zip"
+hash: "21e175575af8b21b92c390600923ad5a9ab001f9"
+fileSize: 4752975
+files:
+- name: "YoshiTex.utx"
+  fileSize: 38322371
+  hash: "3c2900ded6d9167252577fe0de036a495771f09d"
+- name: "YoshiGib.usx"
+  fileSize: 960602
+  hash: "c36acd8116cfbdff97f22de95dbe6b521f9fe61b"
+- name: "SPECIES_yoshi.u"
+  fileSize: 5779
+  hash: "c5da7a53a5adab6757242845bf5d44953e6446f4"
+- name: "Yoshis.upl"
+  fileSize: 2446
+  hash: "0341527857bfb4a5414a87c103efac4e5c9424c9"
+- name: "YoshiVoice2k4.u"
+  fileSize: 472973
+  hash: "c992ddc34231acd5b01802d9b46e526d880e3687"
+- name: "Yoshi_SoundFX.uax"
+  fileSize: 568705
+  hash: "d6b77346f18bec6ff195f473bb148f9e55300cb3"
+- name: "YoshiPack.ukx"
+  fileSize: 2777392
+  hash: "47f8fa0014924eae6b918da3f72bb5d5d024f66c"
+- name: "YoshiSkel.ka"
+  fileSize: 58802
+  hash: "f5982ac901cb6aac11826ae75da6f1d0aa6efb84"
+otherFiles: 2
+dependencies:
+  SPECIES_yoshi.u:
+  - status: "OK"
+    name: "YoshiGib"
+  - status: "OK"
+    name: "Yoshi_SoundFX"
+  - status: "OK"
+    name: "YoshiTex"
+  YoshiPack.ukx:
+  - status: "OK"
+    name: "YoshiVoice2k4"
+  - status: "OK"
+    name: "Yoshi_SoundFX"
+  - status: "OK"
+    name: "YoshiTex"
+  YoshiGib.usx:
+  - status: "OK"
+    name: "YoshiTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/Y/2/1/e17557/yoshi_v1_ut2k4.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+models:
+- "Yoshi"
+skins:
+- "Yoshi"
+- "Yoshi!"
+- "Yoshi..."
