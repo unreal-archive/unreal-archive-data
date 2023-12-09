@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:30"
+game: "Unreal Tournament"
+name: "BetaSesmarPack"
+author: "Various"
+description: "None"
+releaseDate: "2023-07"
+attachments:
+- type: "IMAGE"
+  name: "betasesmarpack_shot_1bd94640_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/1/b/d94640/betasesmarpack_shot_1bd94640_2.png"
+- type: "IMAGE"
+  name: "betasesmarpack_shot_1bd94640_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/1/b/d94640/betasesmarpack_shot_1bd94640_3.png"
+- type: "IMAGE"
+  name: "betasesmarpack_shot_1bd94640_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/1/b/d94640/betasesmarpack_shot_1bd94640_1.png"
+originalFilename: "BetaSesmarPack.rar"
+hash: "1bd946407a91ad6e607e41123b8d0b0c375697da"
+fileSize: 2814122
+files:
+- name: "DOM-UTSesmarOld.unr"
+  fileSize: 5171057
+  hash: "617948a9cd748668b616a7de1b64af7904720eb6"
+- name: "DOM-UTSesmarBTex.unr"
+  fileSize: 4061609
+  hash: "01465c1f9450541447bd1b7dc591c6952088f0be"
+- name: "ASP-UnWorld2.umx"
+  fileSize: 801831
+  hash: "7e2c20b9532beceb9468f09cc8125c105001e903"
+- name: "DOM-UTSesmarB.unr"
+  fileSize: 4061605
+  hash: "78b54cffedcccbb222519416ee0841160b754a6c"
+- name: "EgyptOldB.utx"
+  fileSize: 1550922
+  hash: "c47400372045e822af0c35ddfa72414fed482d75"
+otherFiles: 1
+dependencies:
+  DOM-UTSesmarOld.unr:
+  - status: "OK"
+    name: "EgyptOldB"
+  - status: "OK"
+    name: "ASP-UnWorld2"
+  DOM-UTSesmarBTex.unr:
+  - status: "OK"
+    name: "EgyptOldB"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/1/b/d94640/BetaSesmarPack.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DOM-UTSesmarOld"
+  title: "Sesmar"
+  author: "Juan Pancho Eekels"
+- name: "DOM-UTSesmarBTex"
+  title: "Tomb of Sesmar - 222 version"
+  author: "Juan Pancho ' XceptOne ' Eekels"
+- name: "DOM-UTSesmarB"
+  title: "Tomb of Sesmar - 222 version"
+  author: "Juan Pancho ' XceptOne ' Eekels"
+gametype: "Domination"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.2
+  Egyptian: 0.2

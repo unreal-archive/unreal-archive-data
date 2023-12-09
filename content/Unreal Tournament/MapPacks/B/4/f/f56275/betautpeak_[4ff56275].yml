@@ -1,0 +1,59 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:30"
+game: "Unreal Tournament"
+name: "BetaUTPeak"
+author: "Various"
+description: "None"
+releaseDate: "2023-08"
+attachments:
+- type: "IMAGE"
+  name: "betautpeak_shot_4ff56275_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/4/f/f56275/betautpeak_shot_4ff56275_1.png"
+- type: "IMAGE"
+  name: "betautpeak_shot_4ff56275_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/4/f/f56275/betautpeak_shot_4ff56275_2.png"
+- type: "IMAGE"
+  name: "betautpeak_shot_4ff56275_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/4/f/f56275/betautpeak_shot_4ff56275_3.png"
+originalFilename: "BetaUTPeak.rar"
+hash: "4ff56275a40d1e00237952dcc59c7730b0b3b902"
+fileSize: 1756888
+files:
+- name: "Razorback.umx"
+  fileSize: 941633
+  hash: "da9ab9605d7abca64f62bc8d1eb11a8428fe1bb6"
+- name: "DM-UTPeakB.unr"
+  fileSize: 1425913
+  hash: "eb0d3b86cf352832b50d29e90c6366f8bde5422b"
+- name: "DM-UTPeakOld.unr"
+  fileSize: 1690045
+  hash: "41c600ebe678abc746e0656ffeabce9065d76b94"
+- name: "DM-UTPeakBMus.unr"
+  fileSize: 1425936
+  hash: "5d7053c18ae429a425d60b9d812c4872c0670566"
+otherFiles: 1
+dependencies:
+  DM-UTPeakBMus.unr:
+  - status: "OK"
+    name: "Razorback"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/4/f/f56275/BetaUTPeak.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UTPeakB"
+  title: "The Peak"
+  author: "Juan Pancho ' XceptOne ' Eekels"
+- name: "DM-UTPeakOld"
+  title: "ThePeak"
+  author: "Juan Pancho Eekels"
+- name: "DM-UTPeakBMus"
+  title: "The Peak - 222 Edition"
+  author: "Juan Pancho ' XceptOne ' Eekels"
+gametype: "DeathMatch"
+themes:
+  Nali Castle: 0.4
+  Ancient: 0.6

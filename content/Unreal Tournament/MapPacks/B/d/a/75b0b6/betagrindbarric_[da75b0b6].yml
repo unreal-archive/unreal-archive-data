@@ -1,0 +1,76 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:30"
+game: "Unreal Tournament"
+name: "BetaGrindBarric"
+author: "Various"
+description: "None"
+releaseDate: "2023-09"
+attachments:
+- type: "IMAGE"
+  name: "betagrindbarric_shot_da75b0b6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/d/a/75b0b6/betagrindbarric_shot_da75b0b6_1.png"
+- type: "IMAGE"
+  name: "betagrindbarric_shot_da75b0b6_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/d/a/75b0b6/betagrindbarric_shot_da75b0b6_3.png"
+- type: "IMAGE"
+  name: "betagrindbarric_shot_da75b0b6_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/d/a/75b0b6/betagrindbarric_shot_da75b0b6_2.png"
+- type: "IMAGE"
+  name: "betagrindbarric_shot_da75b0b6_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/d/a/75b0b6/betagrindbarric_shot_da75b0b6_4.png"
+originalFilename: "BetaGrindBarric.rar"
+hash: "da75b0b6f9270c91bb00fc6e011e3ee642179655"
+fileSize: 3356020
+files:
+- name: "DM-UTGrinderB.unr"
+  fileSize: 2607550
+  hash: "7f090c05a468d7033335a9faf0117ee5f446adaf"
+- name: "DM-UTGrinder2.unr"
+  fileSize: 2281775
+  hash: "ddee7ea4f4c09af48c03a20ab3c41a1e37888628"
+- name: "DM-UTBarricadeBLight.unr"
+  fileSize: 1702068
+  hash: "2cb491f7f3e9eec4998465445f253954e3e63b84"
+- name: "UPB-Magnus.umx"
+  fileSize: 815769
+  hash: "db334854e6460124ac60d62c9ea5aea6205c1494"
+- name: "DM-UTBarricadeB.unr"
+  fileSize: 1677567
+  hash: "41fd1bb2c841545266fb87e0ad2b4c6177d567a3"
+- name: "FireBr-DMU.umx"
+  fileSize: 1958026
+  hash: "cb1fd3140c6e9c817000dbb51966c107e51568b3"
+otherFiles: 1
+dependencies:
+  DM-UTGrinderB.unr:
+  - status: "OK"
+    name: "FireBr-DMU"
+  DM-UTGrinder2.unr:
+  - status: "OK"
+    name: "UPB-Magnus"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/B/d/a/75b0b6/BetaGrindBarric.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UTGrinderB"
+  title: "DM-Grinder - 222 edition"
+  author: "Myscha the sled dog"
+- name: "DM-UTGrinder2"
+  title: "DM-Grinder"
+  author: "Myscha the sled dog"
+- name: "DM-UTBarricadeBLight"
+  title: "Orion's Barricade - 222 edition"
+  author: "Cliff Bleszinski"
+- name: "DM-UTBarricadeB"
+  title: "Orion's Barricade - 222 edition"
+  author: "Cliff Bleszinski"
+gametype: "DeathMatch"
+themes:
+  Industrial: 0.2
+  Nali Castle: 0.1
+  Skaarj Tech: 0.4
+  Ancient: 0.3
