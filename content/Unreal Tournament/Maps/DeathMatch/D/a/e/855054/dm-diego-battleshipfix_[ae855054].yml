@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-08 09:54"
+game: "Unreal Tournament"
+name: "DM-Diego-BattleshipFIX"
+author: "Diego_{HoF}"
+description: "None"
+releaseDate: "2021-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-diego-battleshipfix_shot_ae855054_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/a/e/855054/dm-diego-battleshipfix_shot_ae855054_1.png"
+originalFilename: "DM-Diego-BattleshipFIX.rar"
+hash: "ae8550549ebc8c51ef866c33b71937112c910909"
+fileSize: 1095006
+files:
+- name: "BattleShipJJ1.umx"
+  fileSize: 606630
+  hash: "d210905bb974d0a0ba1357c3e6f3b5b55b7993f4"
+- name: "DM-Diego-BattleshipFIX.unr"
+  fileSize: 1280629
+  hash: "f6ec5cb5978d7019661f65de1e97be8d307774f1"
+- name: "JJBattleshipv1.utx"
+  fileSize: 3846900
+  hash: "9bfe44c284480e4f54fe3db319f1d3e1702cf8ea"
+otherFiles: 0
+dependencies:
+  DM-Diego-BattleshipFIX.unr:
+  - status: "OK"
+    name: "BattleShipJJ1"
+  - status: "OK"
+    name: "JJBattleshipv1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/a/e/855054/DM-Diego-BattleshipFIX.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Diego-Battleship"
+playerCount: "12-16"
+themes: {}
+bots: true
