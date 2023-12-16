@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-08 09:31"
+game: "Unreal"
+name: "CTF-UTDoria"
+author: "Cliff Bleszinski"
+description: "None"
+releaseDate: "2022-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-utdoria_shot_6d073ad5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/6/d/073ad5/ctf-utdoria_shot_6d073ad5_1.png"
+originalFilename: "CTF-UTDoria.rar"
+hash: "6d073ad5eb0d69fea13a71e00235335c9c4e1413"
+fileSize: 608286
+files:
+- name: "UTuntexA.utx"
+  fileSize: 199790
+  hash: "e99a60fb43a0321111c26e85ae1dd46df0b6215c"
+- name: "CTF-UTDoria.unr"
+  fileSize: 1743394
+  hash: "e0940d2e98b6a09eaa7b155053062096e212e2d0"
+otherFiles: 1
+dependencies:
+  CTF-UTDoria.unr:
+  - status: "OK"
+    name: "UTuntexA"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/6/d/073ad5/CTF-UTDoria.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Casa Doria"
+playerCount: "6-10"
+themes:
+  Industrial: 0.9
+  Skaarj Crypt: 0.1
+bots: true
