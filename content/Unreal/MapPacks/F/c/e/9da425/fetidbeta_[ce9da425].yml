@@ -1,0 +1,50 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:46"
+game: "Unreal"
+name: "FetidBeta"
+author: "Various"
+description: "None"
+releaseDate: "2023-08"
+attachments:
+- type: "IMAGE"
+  name: "fetidbeta_shot_ce9da425_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/F/c/e/9da425/fetidbeta_shot_ce9da425_2.png"
+- type: "IMAGE"
+  name: "fetidbeta_shot_ce9da425_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/F/c/e/9da425/fetidbeta_shot_ce9da425_1.png"
+originalFilename: "FetidBeta.rar"
+hash: "ce9da425d27ae368c7aeecf330626faba3638c50"
+fileSize: 855313
+files:
+- name: "DM-UTFetidB.unr"
+  fileSize: 2044393
+  hash: "07daebaf7fbc588a19bda6d74af34f61382f0a25"
+- name: "NightVision-DM.umx"
+  fileSize: 589684
+  hash: "6e82a38e8eb0eb1965cb1468820bbcbe704b6080"
+- name: "DM-UTFetidOld.unr"
+  fileSize: 1026436
+  hash: "bfc2c4f01a5a243c18b98622b13e51169b2cdc75"
+otherFiles: 1
+dependencies:
+  DM-UTFetidOld.unr:
+  - status: "OK"
+    name: "NightVision-DM"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/F/c/e/9da425/FetidBeta.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UTFetidB"
+  title: "Fetid Sewers - 222 edition"
+  author: "Cedric 'Inoxx' Fiorentino"
+- name: "DM-UTFetidOld"
+  title: "Fetid Sewers - 221 edition"
+  author: "Inoxx"
+gametype: "DeathMatch"
+themes:
+  Industrial: 0.3
+  Skaarj Tech: 0.8
