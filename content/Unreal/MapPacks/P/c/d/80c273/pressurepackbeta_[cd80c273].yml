@@ -1,0 +1,76 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:47"
+game: "Unreal"
+name: "PressurePackBeta"
+author: "Various"
+description: "None"
+releaseDate: "2023-07"
+attachments:
+- type: "IMAGE"
+  name: "pressurepackbeta_shot_cd80c273_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/P/c/d/80c273/pressurepackbeta_shot_cd80c273_1.png"
+- type: "IMAGE"
+  name: "pressurepackbeta_shot_cd80c273_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/P/c/d/80c273/pressurepackbeta_shot_cd80c273_2.png"
+originalFilename: "PressurePackBeta.rar"
+hash: "cd80c273bba8f87a911f30c937dc22247d2c1ed7"
+fileSize: 2010457
+files:
+- name: "FireBr-DMU.umx"
+  fileSize: 1958026
+  hash: "cb1fd3140c6e9c817000dbb51966c107e51568b3"
+- name: "DM-UTPressureB.unr"
+  fileSize: 5803237
+  hash: "1dca3bb61322576a8096786119b7e6b5c3f5ae3e"
+- name: "DM-UTPressureOld.unr"
+  fileSize: 3190177
+  hash: "ed037de1dae769283a976f5dbb697d9de614ea32"
+- name: "Point.umx"
+  fileSize: 443326
+  hash: "13e99f1f415f41e8b249590ccbdc054c8e010724"
+otherFiles: 1
+dependencies:
+  DM-UTPressureB.unr:
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "Pan1"
+  - status: "MISSING"
+    name: "RainFX"
+  - status: "OK"
+    name: "FireBr-DMU"
+  - status: "MISSING"
+    name: "Indus1"
+  - status: "MISSING"
+    name: "Botpack"
+  DM-UTPressureOld.unr:
+  - status: "MISSING"
+    name: "UTtech1"
+  - status: "OK"
+    name: "Point"
+  - status: "MISSING"
+    name: "Pan1"
+  - status: "MISSING"
+    name: "RainFX"
+  - status: "MISSING"
+    name: "Indus1"
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/P/c/d/80c273/PressurePackBeta.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UTPressureB"
+  title: "Pressure - 222 edition"
+  author: "Juan Pancho ' XceptOne ' Eekels"
+- name: "DM-UTPressureOld"
+  title: "Pressure - 221 version"
+  author: "Juan Pancho Eekels"
+gametype: "DeathMatch"
+themes:
+  Industrial: 0.1
+  Skaarj Tech: 0.9

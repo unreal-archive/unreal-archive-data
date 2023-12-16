@@ -1,0 +1,75 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:47"
+game: "Unreal"
+name: "UTKGalleonOl"
+author: "Juan Pancho Eekels"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "utkgalleonol_shot_a40a264c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/a/4/0a264c/utkgalleonol_shot_a40a264c_1.png"
+- type: "IMAGE"
+  name: "utkgalleonol_shot_a40a264c_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/a/4/0a264c/utkgalleonol_shot_a40a264c_2.png"
+originalFilename: "UTKGalleonOl.rar"
+hash: "a40a264cafc74a0a1ab2340f580b8e8f0434ec79"
+fileSize: 1080306
+files:
+- name: "UM-Orchtest.umx"
+  fileSize: 780381
+  hash: "7c0db370a4efaa702f553ca20e626c48f974d236"
+- name: "ASDM-UTKGalleonOld.unr"
+  fileSize: 2607686
+  hash: "9d01d870ba832f6e31d2fd43765ff4e74a6b9dbc"
+- name: "DM-UTKGalleonOld.unr"
+  fileSize: 2607149
+  hash: "3787e30158ba0ce34dc3895db176f6bf7411d944"
+otherFiles: 1
+dependencies:
+  ASDM-UTKGalleonOld.unr:
+  - status: "MISSING"
+    name: "Indus6"
+  - status: "MISSING"
+    name: "Indus5"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "UT"
+  - status: "OK"
+    name: "UM-Orchtest"
+  DM-UTKGalleonOld.unr:
+  - status: "MISSING"
+    name: "Indus6"
+  - status: "MISSING"
+    name: "Indus5"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "UT"
+  - status: "OK"
+    name: "UM-Orchtest"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/a/4/0a264c/UTKGalleonOl.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "ASDM-UTKGalleonOld"
+  title: "AS-KGalleon"
+  author: "Juan Pancho Eekels"
+- name: "DM-UTKGalleonOld"
+  title: "KGalleon - 221 version"
+  author: "Juan Pancho Eekels"
+gametype: "Mixed"
+themes:
+  Tech: 0.4
+  Skaarj Crypt: 0.1
+  Nali Castle: 0.2
+  Ancient: 0.2

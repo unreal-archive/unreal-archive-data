@@ -1,0 +1,67 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:47"
+game: "Unreal Tournament"
+name: "RiotHconvert"
+author: "Hellkeeper"
+description: "None"
+releaseDate: "2023-02"
+attachments:
+- type: "IMAGE"
+  name: "riothconvert_shot_b6fc8ad9_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/R/b/6/fc8ad9/riothconvert_shot_b6fc8ad9_2.png"
+- type: "IMAGE"
+  name: "riothconvert_shot_b6fc8ad9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/R/b/6/fc8ad9/riothconvert_shot_b6fc8ad9_1.png"
+originalFilename: "RiotHconvert.rar"
+hash: "b6fc8ad983260805abdd2dafd056965c73edb221"
+fileSize: 9095799
+files:
+- name: "DMU-RiotH.unr"
+  fileSize: 3437785
+  hash: "e90a302e76d3637f8d6b0e49f8440740c62740a8"
+- name: "DMRiotH_f.unr"
+  fileSize: 3414202
+  hash: "9cc4044ab8a75d9c979d8a4c3767330a3e0e9fea"
+- name: "ASP-MissionB.umx"
+  fileSize: 193435
+  hash: "e4201f2538f17b05332ad5e9d25c4d52f1897d05"
+- name: "UPSXQuad.u"
+  fileSize: 191516
+  hash: "8a6b940af059fff71e8619a83606eb24ab1ca3d9"
+- name: "UPSXQuad.u"
+  fileSize: 194639
+  hash: "2f7ca7b9f5ece27ad6a01b459acecd84008adabc"
+- name: "Footsteps.uax"
+  fileSize: 12828526
+  hash: "4ab9daa3520598b0977f96e0e5a08520e9fbb992"
+otherFiles: 1
+dependencies:
+  DMRiotH_f.unr:
+  - status: "OK"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "Footsteps"
+  DMU-RiotH.unr:
+  - status: "OK"
+    name: "ASP-MissionB"
+  - status: "OK"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "Footsteps"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/R/b/6/fc8ad9/RiotHconvert.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DMU-RiotH"
+  title: "Riot!"
+  author: "Hellkeeper"
+- name: "DMRiotH_f"
+  title: "Riot!"
+  author: "Hellkeeper"
+gametype: "DeathMatch"
+themes:
+  Skaarj Tech: 1.0

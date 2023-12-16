@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2023-12-08 09:47"
+game: "Unreal Tournament"
+name: "TwilightPack"
+author: "Various"
+description: "None"
+releaseDate: "2022-12"
+attachments:
+- type: "IMAGE"
+  name: "twilightpack_shot_ae021b44_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/T/a/e/021b44/twilightpack_shot_ae021b44_3.png"
+- type: "IMAGE"
+  name: "twilightpack_shot_ae021b44_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/T/a/e/021b44/twilightpack_shot_ae021b44_1.png"
+- type: "IMAGE"
+  name: "twilightpack_shot_ae021b44_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/T/a/e/021b44/twilightpack_shot_ae021b44_2.png"
+originalFilename: "TwilightPack.rar"
+hash: "ae021b4437c789dfc365bedf569f0b3a6787ecbb"
+fileSize: 3373766
+files:
+- name: "DM-UTTwilight.unr"
+  fileSize: 3113514
+  hash: "b3413683c98fd13a9f1cd92cae44fb3929c8e636"
+- name: "CTFDMU-Twilight.unr"
+  fileSize: 2467905
+  hash: "fb13249504f8019c30daeaa1ae1c292fe3622cb6"
+- name: "CTFDM-UTTwilight.unr"
+  fileSize: 3123267
+  hash: "5087b650e6c6b0197147b37245ef6e6289da50bd"
+- name: "Twilight.umx"
+  fileSize: 1121006
+  hash: "2b3dcc381003e8a0114411b7f511342a4300ce18"
+- name: "Hub2.umx"
+  fileSize: 935513
+  hash: "2f96577dd9ace02498be200d9880c444c9291b2f"
+otherFiles: 1
+dependencies:
+  DM-UTTwilight.unr:
+  - status: "OK"
+    name: "twilight"
+  CTFDM-UTTwilight.unr:
+  - status: "OK"
+    name: "twilight"
+  CTFDMU-Twilight.unr:
+  - status: "OK"
+    name: "Hub2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/T/a/e/021b44/TwilightPack.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "DM-UTTwilight"
+  title: "Twilight"
+  author: "Jeremy War"
+- name: "CTFDMU-Twilight"
+  title: "Twilight (Unreal)"
+  author: "Jeremy War/Cliff Bleszinski"
+- name: "CTFDM-UTTwilight"
+  title: "Twilight"
+  author: "Jeremy War"
+gametype: "Mixed"
+themes:
+  Natural: 0.8
+  Ancient: 0.2
