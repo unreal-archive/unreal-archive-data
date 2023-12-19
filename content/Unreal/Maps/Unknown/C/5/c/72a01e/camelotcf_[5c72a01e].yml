@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-19 03:32"
+variationOf: "9e73f91256598cedb19769ddf2894e11bd98cbc5"
+game: "Unreal"
+name: "CamelotCF"
+author: "Robert A. Wey and ÐJ_§kàárj"
+description: "In Memory of Guinevere =)"
+releaseDate: "2008-11"
+attachments: []
+originalFilename: "CamelotCF.zip"
+hash: "5c72a01e92d1dbf5e7b60518816d13eba74ab859"
+fileSize: 3548126
+files:
+- name: "CamelotCF.unr"
+  fileSize: 7646331
+  hash: "7cf2e91d2db08608c0a6a8d24dd7087c12da10ac"
+- name: "CamelotKeyTex.utx"
+  fileSize: 1488410
+  hash: "e550590bfcb976877062df649bbf903a0db5017b"
+- name: "Frescos.utx"
+  fileSize: 658577
+  hash: "21da4e53d28fb2ebb0b4b6cd21d3d2c26e678956"
+otherFiles: 1
+dependencies:
+  CamelotCF.unr:
+  - status: "OK"
+    name: "CamelotKeyTex"
+  - status: "OK"
+    name: "Frescos"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Unknown/C/5/c/72a01e/CamelotCF.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Single Player"
+title: "CamelotCF"
+playerCount: "16"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.6
+  Skaarj Tech: 0.2
+  Ancient: 0.1
+bots: true
