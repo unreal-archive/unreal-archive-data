@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-19 20:47"
+game: "Unreal Tournament"
+name: "MH-Flappies]["
+author: "Kaal\"TheSinew\"979 * edited by EvilGrins"
+description: "HOLD THIS POSITION!!!"
+releaseDate: "2020-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-flappies_shot_11598fdf_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/1/598fdf/mh-flappies_shot_11598fdf_2.png"
+- type: "IMAGE"
+  name: "mh-flappies_shot_11598fdf_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/1/598fdf/mh-flappies_shot_11598fdf_1.png"
+- type: "IMAGE"
+  name: "mh-flappies_shot_11598fdf_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/1/598fdf/mh-flappies_shot_11598fdf_4.png"
+- type: "IMAGE"
+  name: "mh-flappies_shot_11598fdf_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/1/598fdf/mh-flappies_shot_11598fdf_3.png"
+originalFilename: "MH-Flappies.zip"
+hash: "11598fdfab83a3eedc3ae44fc0038ef94662bbd2"
+fileSize: 6706485
+files:
+- name: "action1.umx"
+  fileSize: 1478890
+  hash: "e33d73492731f98edf2ce39a0efe59a50848fb91"
+- name: "InstaCombo.u"
+  fileSize: 148934
+  hash: "d3f29f0e666a02a0ed289c68cc97a48ff844b37c"
+- name: "AmbientCreatures.u"
+  fileSize: 683318
+  hash: "03dc6a69d04a7b6882a7450cecdd3cb28ea9cfd1"
+- name: "FlappySkin.utx"
+  fileSize: 879377
+  hash: "1c9f70d3cf994d47b0e4c16972c39a90582169aa"
+- name: "MH-Flappies][.unr"
+  fileSize: 1631357
+  hash: "715ac0c2fe15808955bc04a0018bd9133b4a8b4a"
+- name: "WAPawns.u"
+  fileSize: 49961
+  hash: "566e6aca375dcf501efb4ce3cee46683f67f9939"
+otherFiles: 3
+dependencies:
+  AmbientCreatures.u:
+  - status: "OK"
+    name: "FlappySkin"
+  MH-Flappies][.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "action1"
+  - status: "OK"
+    name: "AmbientCreatures"
+  - status: "OK"
+    name: "InstaCombo"
+  - status: "OK"
+    name: "WAPawns"
+  WAPawns.u:
+  - status: "OK"
+    name: "FlappySkin"
+  - status: "OK"
+    name: "AmbientCreatures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/1/598fdf/MH-Flappies.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "WAPawns"
+playerCount: "6-12"
+themes:
+  Natural: 0.8
+  Skaarj Tech: 0.2
+bots: true
