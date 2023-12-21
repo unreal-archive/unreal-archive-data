@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-21 10:18"
+game: "Unreal Tournament 2004"
+name: "ONS-MasterShower-V3-SP3"
+author: "Sereval"
+description: "MasterShower is a rebuild of MasterBath"
+releaseDate: "2016-10"
+attachments:
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_6.png"
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_2.png"
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_7.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_7.png"
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_1.png"
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_3.png"
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_5.png"
+- type: "IMAGE"
+  name: "ons-mastershower-v3-sp3_shot_9f9d4fb6_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ons-mastershower-v3-sp3_shot_9f9d4fb6_4.png"
+originalFilename: "ONS-MasterShower-V3-SP3.rar"
+hash: "9f9d4fb69eacb807095d13ebd0b5a77d87d3c875"
+fileSize: 11764253
+files:
+- name: "BathSM2.usx"
+  fileSize: 1225344
+  hash: "6e3e352e33e6b6c0a26822b7601ed4d93188117e"
+- name: "ONS-MasterShower-V3-SP3.ut2"
+  fileSize: 19920513
+  hash: "312ae06f5176c85718ae664da46b3e48fd5a631e"
+- name: "BathOtherSM.usx"
+  fileSize: 36127
+  hash: "53225d0ed28063e9560963792461564bdd9fc1ec"
+- name: "BathTex.utx"
+  fileSize: 11062757
+  hash: "ba116aee8b83a075861377bdc61f2a4af86e24c9"
+- name: "BathOtherTex.utx"
+  fileSize: 875461
+  hash: "92a4b5a47d5a8f993bde89f421624ff707f9f8e2"
+- name: "EONS-Scorpion_BETA3.u"
+  fileSize: 285270
+  hash: "9aa199215cb41d6cdbfeacb7a53607d50ccbb83e"
+otherFiles: 6
+dependencies:
+  BathSM2.usx:
+  - status: "OK"
+    name: "BathTex"
+  BathOtherSM.usx:
+  - status: "OK"
+    name: "BathTex"
+  - status: "OK"
+    name: "BathOtherTex"
+  ONS-MasterShower-V3-SP3.ut2:
+  - status: "OK"
+    name: "EONS-Scorpion_BETA3"
+  - status: "OK"
+    name: "BathSM2"
+  - status: "OK"
+    name: "BathTex"
+  - status: "OK"
+    name: "BathOtherSM"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/M/9/f/9d4fb6/ONS-MasterShower-V3-SP3.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Onslaught"
+title: "Master Shower"
+playerCount: "16-32"
+themes:
+  Tech: 0.9
+  Egyptian: 0.1
+bots: true

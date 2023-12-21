@@ -1,0 +1,101 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-21 10:17"
+game: "Unreal Tournament 2004"
+name: "ONS-DoubleSlap-V3"
+author: "VK!* ww.bit.ly/techcom"
+description: "DoubleSl@p"
+releaseDate: "2015-09"
+attachments:
+- type: "IMAGE"
+  name: "ons-doubleslap-v3_shot_cae58325_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ons-doubleslap-v3_shot_cae58325_2.png"
+- type: "IMAGE"
+  name: "ons-doubleslap-v3_shot_cae58325_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ons-doubleslap-v3_shot_cae58325_1.png"
+- type: "IMAGE"
+  name: "ons-doubleslap-v3_shot_cae58325_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ons-doubleslap-v3_shot_cae58325_3.png"
+- type: "IMAGE"
+  name: "ons-doubleslap-v3_shot_cae58325_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ons-doubleslap-v3_shot_cae58325_6.png"
+- type: "IMAGE"
+  name: "ons-doubleslap-v3_shot_cae58325_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ons-doubleslap-v3_shot_cae58325_5.png"
+- type: "IMAGE"
+  name: "ons-doubleslap-v3_shot_cae58325_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ons-doubleslap-v3_shot_cae58325_4.png"
+originalFilename: "ONS-DoubleSlap-V3.rar"
+hash: "cae583256f981a3d9f030cc4c169edbbde66a233"
+fileSize: 16353542
+files:
+- name: "WVRailgunTank.u"
+  fileSize: 2431943
+  hash: "43729864e6452d038958b7b0deabb7ae098ff417"
+- name: "XRelicsTextures.utx"
+  fileSize: 3402007
+  hash: "42d0e3e99f54a53c02beaeb4def4548b72c4d7ad"
+- name: "Ty_RocketTextures.utx"
+  fileSize: 15432103
+  hash: "6cc8a90ceaf91ae5f816a4ee6dba89a0aedaf307"
+- name: "XRelics.u"
+  fileSize: 327766
+  hash: "29e7e08cfc60ecf88eaa5562a29e010a01ce04ac"
+- name: "XRelicsSM.usx"
+  fileSize: 349934
+  hash: "6b226ce6d7095388960bdf8cdc7287a00196cd1c"
+- name: "RBTTLinkScorpionBeta.u"
+  fileSize: 66362
+  hash: "d181ed5787592434d3b509bef811a9d1a933de8b"
+- name: "XRelicsSounds.uax"
+  fileSize: 475434
+  hash: "7f03c55a25f4f8812338b2cd51909bb0f14fb46b"
+- name: "LinkScorpionTex.utx"
+  fileSize: 337902
+  hash: "c7d555ebb3072ea76df2ef0fb6b365fc17fe8af8"
+- name: "ONS-DoubleSlap-V3.ut2"
+  fileSize: 7478097
+  hash: "7eef5e8716e4d1edb57c748cb7a2600a8af7491e"
+- name: "Badgers_V2beta3.u"
+  fileSize: 4695063
+  hash: "b1092c9520faf87ab54e4a3a206df8d025e1101a"
+otherFiles: 6
+dependencies:
+  XRelicsSM.usx:
+  - status: "OK"
+    name: "XRelicsTextures"
+  XRelics.u:
+  - status: "OK"
+    name: "XRelicsSM"
+  - status: "OK"
+    name: "XRelicsTextures"
+  - status: "OK"
+    name: "XRelicsSounds"
+  RBTTLinkScorpionBeta.u:
+  - status: "OK"
+    name: "LinkScorpionTex"
+  Badgers_V2beta3.u:
+  - status: "MISSING"
+    name: "Minotaur_Sound"
+  ONS-DoubleSlap-V3.ut2:
+  - status: "OK"
+    name: "XRelics"
+  - status: "OK"
+    name: "RBTTLinkSCorpionBeta"
+  - status: "OK"
+    name: "WVRailgunTank"
+  - status: "OK"
+    name: "Badgers_V2beta3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/D/c/a/e58325/ONS-DoubleSlap-V3.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Onslaught"
+title: "ONS-DoubleSlap-V3"
+playerCount: "12-32"
+themes:
+  Tech: 0.8
+  Ancient: 0.1
+bots: true
