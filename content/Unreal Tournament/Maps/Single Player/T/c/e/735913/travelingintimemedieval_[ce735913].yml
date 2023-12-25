@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 18:31"
+game: "Unreal Tournament"
+name: "TravelingInTimeMedieval"
+author: "Nikola -(DOG)-"
+description: "None"
+releaseDate: "2015-09"
+attachments: []
+originalFilename: "TravelingInTimeMedieval.zip"
+hash: "ce735913ae52d7d2fec85579a42d68fd6ea02b00"
+fileSize: 27036238
+files:
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "TravelingInTimeMedieval.unr"
+  fileSize: 12771756
+  hash: "9a73eed0b97849b9246d84c035a5dcad56032474"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "DespSnowC.utx"
+  fileSize: 6238968
+  hash: "1ef1f39f70f925a0016ce9b12eb0ae00228ed76d"
+- name: "WOTDetail.utx"
+  fileSize: 1552183
+  hash: "42e2075a8489e2127f46774ce3b3e526d313b14a"
+- name: "TreeC1.u"
+  fileSize: 198908
+  hash: "ac6c80ed165366c062e2f6b7fce1e1f42ecf1109"
+- name: "ForsakenT.utx"
+  fileSize: 2852107
+  hash: "3ea9b8ff54523c8a940b4a07f0ab4532b5ccd736"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+otherFiles: 2
+dependencies:
+  TravelingInTimeMedieval.unr:
+  - status: "OK"
+    name: "treeC1"
+  - status: "MISSING"
+    name: "UDSDemo"
+  - status: "OK"
+    name: "ForsakenT"
+  - status: "OK"
+    name: "DespSnowC"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "MISSING"
+    name: "UPak"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "MISSING"
+    name: "SkyTwn"
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/T/c/e/735913/TravelingInTimeMedieval.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Single Player"
+title: "UnEd project 2015 Traveling in time MEDIEVAL"
+playerCount: "4-8"
+themes:
+  Nali Castle: 0.9
+  Ancient: 0.1
+bots: true

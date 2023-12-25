@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:30"
+game: "Unreal Tournament"
+name: "DM_Rocket_base"
+author: "Nikola-(DOG)- music imported by VooDoo-(DOG)-"
+description: "None"
+releaseDate: "2018-11"
+attachments: []
+originalFilename: "DM_Rocket_base.zip"
+hash: "c4e681ff1ec4721c54291998a5411a0d4adcd6af"
+fileSize: 14434173
+files:
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "Hitech_textures.utx"
+  fileSize: 5942924
+  hash: "fb07b83439fddc8a348593ab0bd49a8ae2e9900e"
+- name: "DM_Rocket_base.unr"
+  fileSize: 2331728
+  hash: "332e94b9c5828de85b8607051418d518163c533e"
+- name: "PluckingTulips.umx"
+  fileSize: 10089118
+  hash: "6c9b8147c05dfc9d2823d4ac4c15fde9313b8058"
+otherFiles: 0
+dependencies:
+  DM_Rocket_base.unr:
+  - status: "OK"
+    name: "Hitech_textures"
+  - status: "OK"
+    name: "Newbies_logo"
+  - status: "OK"
+    name: "PluckingTulips"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/c/4/e681ff/DM_Rocket_base.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Rocket base"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: true

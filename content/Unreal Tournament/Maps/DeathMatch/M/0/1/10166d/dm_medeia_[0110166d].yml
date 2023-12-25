@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:31"
+game: "Unreal Tournament"
+name: "DM_Medeia"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2022-11"
+attachments: []
+originalFilename: "DM_Medeia.zip"
+hash: "0110166db9fae017ca373f10d74dbd6ed2ec42da"
+fileSize: 14806930
+files:
+- name: "ATLiquids.utx"
+  fileSize: 6881
+  hash: "070a35565d5eead5c848a9558f3efc5b61e44cde"
+- name: "SkyBoxPack_Newbies2022.utx"
+  fileSize: 7593027
+  hash: "1635d2fa32ca2ac7cb729634e041cd2dbe28369b"
+- name: "Greek_tex_Newbies.utx"
+  fileSize: 7711282
+  hash: "a87fef20e864eb9b00d323c7c9909b441315250d"
+- name: "Greek_objects_NP.usm"
+  fileSize: 2981170
+  hash: "726551bc85aaa2f4a67315b4af16cd7c210e08a1"
+- name: "Greek_objects_pack.utx"
+  fileSize: 14231369
+  hash: "fc7af6fc9a466958f2d9f143b6c821b362962170"
+- name: "LensFlareColorful.utx"
+  fileSize: 1579931
+  hash: "766c85a359ad2bcf1d7c9d5b6c8802dce75a586c"
+- name: "DM_Medeia.unr"
+  fileSize: 5243628
+  hash: "d2f8f758219591f8bc7e7586b8b62a06915cbe28"
+otherFiles: 0
+dependencies:
+  Greek_objects_NP.usm:
+  - status: "OK"
+    name: "Greek_objects_pack"
+  DM_Medeia.unr:
+  - status: "OK"
+    name: "Greek_objects_NP"
+  - status: "OK"
+    name: "SkyBoxPack_Newbies2022"
+  - status: "OK"
+    name: "Greek_tex_Newbies"
+  - status: "OK"
+    name: "Greek_objects_pack"
+  - status: "OK"
+    name: "ATLiquids"
+  - status: "OK"
+    name: "LensFlareColorful"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/0/1/10166d/DM_Medeia.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Medeia"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

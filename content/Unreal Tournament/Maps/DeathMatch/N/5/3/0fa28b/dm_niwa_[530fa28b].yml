@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:30"
+game: "Unreal Tournament"
+name: "DM_Niwa"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2019-09"
+attachments: []
+originalFilename: "DM_Niwa.zip"
+hash: "530fa28b2444baa12738a18c95e4c28d2734ee57"
+fileSize: 16564949
+files:
+- name: "DeusXDeco.u"
+  fileSize: 337631
+  hash: "e33977228b7d3b1640fb98e7b1a1b135625df044"
+- name: "Wintercold.utx"
+  fileSize: 5235406
+  hash: "c96734edfcc6d88773ab31acd8075fd575003fa3"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "Boundary.umx"
+  fileSize: 957589
+  hash: "c06a687b9c109cc509f0d1e652a48b3ebdb055a1"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "DM_Niwa.unr"
+  fileSize: 5624078
+  hash: "5d9f36a9ed4d6389225b5723b49500ddf200d2cf"
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+- name: "Japanese_tex.utx"
+  fileSize: 9309176
+  hash: "fa1b3e42be4e694186cd607dfc5e44eb48c52b9d"
+otherFiles: 0
+dependencies:
+  DM_Niwa.unr:
+  - status: "OK"
+    name: "Wintercold"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Boundary"
+  - status: "OK"
+    name: "DeusXDeco"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "Japanese_tex"
+  - status: "OK"
+    name: "Newbies_logo"
+  - status: "OK"
+    name: "ParticleTexs"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/5/3/0fa28b/DM_Niwa.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Niwa"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

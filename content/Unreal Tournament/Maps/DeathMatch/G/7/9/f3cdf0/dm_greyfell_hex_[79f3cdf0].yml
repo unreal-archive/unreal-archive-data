@@ -1,0 +1,124 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:28"
+game: "Unreal Tournament"
+name: "DM_Greyfell_hex"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2022-09"
+attachments: []
+originalFilename: "DM_Greyfell_hex.zip"
+hash: "79f3cdf078bdd81e0f96e8f825d0027b283b3d4c"
+fileSize: 65331777
+files:
+- name: "male3skinsbrand.utx"
+  fileSize: 2796723
+  hash: "b56f749da85298b22c1fb7ca39f7a0f3ac0857b2"
+- name: "FNaliSkins.utx"
+  fileSize: 709709
+  hash: "89b73bff6e407525cceb5f4b706f63aa38b253e4"
+- name: "Boxes_TRLE.utx"
+  fileSize: 1045446
+  hash: "440b5c987a1edc44a579932b29709115dd05a2f3"
+- name: "DM_Greyfell_hex.unr"
+  fileSize: 28546937
+  hash: "00d543d878b36956634ef07b3f6881117878b6ac"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "Medidecos.u"
+  fileSize: 60338
+  hash: "bf3d5a32b249c72d22ec879b86a40410a04f9b41"
+- name: "SteeleDawnPak.u"
+  fileSize: 17152503
+  hash: "c9f69da30d000dd64ba864cde2355d0c1f8b907c"
+- name: "G_Decorations_v1.u"
+  fileSize: 5044326
+  hash: "3e6d94057578599d2cd010bc96ee1027c6ba785f"
+- name: "Medieval_convert.utx"
+  fileSize: 22610580
+  hash: "5a3ad04ce4e0f052dab2ad9a77ab7ad5e1602878"
+- name: "DeusXDeco.u"
+  fileSize: 337601
+  hash: "e7afb4db8cd30e12a47e2d919dd41e7781fcac73"
+- name: "Medipak.utx"
+  fileSize: 45285
+  hash: "3e41889a9965297708565899c5a71fe27e5e7fd7"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "ATLiquids.utx"
+  fileSize: 6881
+  hash: "070a35565d5eead5c848a9558f3efc5b61e44cde"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "Meditex.utx"
+  fileSize: 5649520
+  hash: "5f0f160967b7135b943656b8c804c5fe3e55d59e"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "SDVoices.uax"
+  fileSize: 25287067
+  hash: "5f6552e93d80a791edea2896f394bed7a9aac829"
+otherFiles: 0
+dependencies:
+  Medidecos.u:
+  - status: "PARTIAL"
+    name: "Meditex"
+  - status: "OK"
+    name: "Medipak"
+  SteeleDawnPak.u:
+  - status: "OK"
+    name: "SDVoices"
+  - status: "OK"
+    name: "male3skinsbrand"
+  - status: "OK"
+    name: "FNaliSkins"
+  DM_Greyfell_hex.unr:
+  - status: "OK"
+    name: "Boxes_TRLE"
+  - status: "OK"
+    name: "Medieval_convert"
+  - status: "OK"
+    name: "Meditex"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "DXDecoTex01"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "G_Decorations_v1"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "Medidecos"
+  - status: "OK"
+    name: "DeusXDeco"
+  - status: "OK"
+    name: "Newbies_logo"
+  - status: "OK"
+    name: "ATLiquids"
+  - status: "OK"
+    name: "SteeleDawnPak"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/7/9/f3cdf0/DM_Greyfell_hex.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM_Greyfell"
+playerCount: "Unknown"
+themes:
+  Natural: 0.8
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true

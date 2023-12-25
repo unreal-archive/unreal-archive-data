@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:28"
+game: "Unreal Tournament"
+name: "DM_Hyperion"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2022-07"
+attachments: []
+originalFilename: "DM_Hyperion.zip"
+hash: "5f7006bbff517166d5609f093780d7fdcbef4e5e"
+fileSize: 27982815
+files:
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "DM_Hyperion.unr"
+  fileSize: 9934142
+  hash: "55bb429e52a799c99b014b92ab7199974db6b5f5"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "ShaneChurch.utx"
+  fileSize: 5064523
+  hash: "fc244f7b24a74c261c59b633fb70c7e41c82e612"
+- name: "Boxes_TRLE.utx"
+  fileSize: 1045446
+  hash: "440b5c987a1edc44a579932b29709115dd05a2f3"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "DeusXDeco.u"
+  fileSize: 337631
+  hash: "e33977228b7d3b1640fb98e7b1a1b135625df044"
+otherFiles: 0
+dependencies:
+  DM_Hyperion.unr:
+  - status: "OK"
+    name: "Boxes_TRLE"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "DeusXDeco"
+  - status: "OK"
+    name: "Newbies_logo"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/H/5/f/7006bb/DM_Hyperion.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM Hyperion"
+playerCount: "Unknown"
+themes:
+  Natural: 0.9
+  Nali Castle: 0.1
+bots: true
