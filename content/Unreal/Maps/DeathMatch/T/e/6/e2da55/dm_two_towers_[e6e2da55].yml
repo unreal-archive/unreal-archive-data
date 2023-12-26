@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:31"
+game: "Unreal"
+name: "DM_Two_towers"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2019-09"
+attachments: []
+originalFilename: "DM_Two_towers.zip"
+hash: "e6e2da551c37b941793db481a1476589772a0b78"
+fileSize: 33315198
+files:
+- name: "DM_textures.utx"
+  fileSize: 8869639
+  hash: "303bf8d4f1e9c2259aa9068bf2676fb33bbd622e"
+- name: "Clockwork.umx"
+  fileSize: 6513802
+  hash: "54fd87429479596837d9d2fed4cf8eafb5365a0d"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "Meditex.utx"
+  fileSize: 5649520
+  hash: "5f0f160967b7135b943656b8c804c5fe3e55d59e"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "Medidecos.u"
+  fileSize: 60338
+  hash: "bf3d5a32b249c72d22ec879b86a40410a04f9b41"
+- name: "DM_Two_towers.unr"
+  fileSize: 3757318
+  hash: "4414a4c04730ec7737c284b6477a6c8c0c2bb2c9"
+- name: "Medipak.utx"
+  fileSize: 45285
+  hash: "3e41889a9965297708565899c5a71fe27e5e7fd7"
+otherFiles: 0
+dependencies:
+  DM_Two_towers.unr:
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "Medidecos"
+  - status: "OK"
+    name: "DM_textures"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "Clockwork"
+  - status: "OK"
+    name: "Newbies_logo"
+  Medidecos.u:
+  - status: "PARTIAL"
+    name: "Meditex"
+  - status: "OK"
+    name: "Medipak"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/e/6/e2da55/DM_Two_towers.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Two towers"
+playerCount: "Unknown"
+themes: {}
+bots: true

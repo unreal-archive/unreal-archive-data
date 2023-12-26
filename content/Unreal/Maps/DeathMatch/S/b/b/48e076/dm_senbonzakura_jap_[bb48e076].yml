@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:33"
+game: "Unreal"
+name: "DM_Senbonzakura_jap"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2023-11"
+attachments: []
+originalFilename: "DM_Senbonzakura.zip"
+hash: "bb48e0765c3fc8a94940cd3e94351d400ca301b3"
+fileSize: 53144221
+files:
+- name: "Xmas_Newbies_pack.usm"
+  fileSize: 5532049
+  hash: "53894aa133312f284dfd1734f95abeb9f682c0ce"
+- name: "Vanocni_textury_Newbies.utx"
+  fileSize: 33255560
+  hash: "32d0f5dc736ddfdb7a71c2b309f1542cdff4f128"
+- name: "Senbonzakura_Newbies.utx"
+  fileSize: 26062688
+  hash: "15b45cd746f4c6a2c78bf175c49cd695b45d4af1"
+- name: "Vanocni_pack_Newbies.utx"
+  fileSize: 30910447
+  hash: "8b6de20af7a1b81352a7927e8a6ca99cc3d98d75"
+- name: "DM_Senbonzakura_jap.unr"
+  fileSize: 5999652
+  hash: "79b2ce43d863c10faae0d127eb24067a5c9b8df1"
+- name: "Mario_jump.uax"
+  fileSize: 69814
+  hash: "b9572bacd8d961efb6a45d7c2fdd9af035462896"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "Senbonzakura_meshes.usm"
+  fileSize: 16130387
+  hash: "84e0b4eb003254d0ebc002b2abd30e9fae679c1d"
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+otherFiles: 0
+dependencies:
+  DM_Senbonzakura_jap.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Senbonzakura_Newbies"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "Mario_jump"
+  - status: "OK"
+    name: "Xmas_Newbies_pack"
+  - status: "OK"
+    name: "Senbonzakura_meshes"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "ParticleTexs"
+  Senbonzakura_meshes.usm:
+  - status: "OK"
+    name: "Senbonzakura_Newbies"
+  Xmas_Newbies_pack.usm:
+  - status: "OK"
+    name: "Vanocni_textury_Newbies"
+  - status: "OK"
+    name: "Vanocni_pack_Newbies"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/b/b/48e076/DM_Senbonzakura.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Senbonzakura"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

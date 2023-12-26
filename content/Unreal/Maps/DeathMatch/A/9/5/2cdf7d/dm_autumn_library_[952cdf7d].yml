@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:32"
+game: "Unreal"
+name: "DM_Autumn_Library"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2021-07"
+attachments: []
+originalFilename: "DM_Autumn_Library.zip"
+hash: "952cdf7def1e007a4e6e83f5ccd0a9e2d96e2a07"
+fileSize: 23488638
+files:
+- name: "Medieval_Gothic.utx"
+  fileSize: 3958255
+  hash: "ff495b0050651822a7cfda1c9019d48e5ab23af7"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "DM_Autumn_Library.unr"
+  fileSize: 1749661
+  hash: "d035f36a2ce208f635b70a7e91155e59b7eb0945"
+- name: "Boxes_TRLE.utx"
+  fileSize: 1045446
+  hash: "440b5c987a1edc44a579932b29709115dd05a2f3"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "Cottage_Sounds.uax"
+  fileSize: 3423102
+  hash: "335dc2ebbed1115197ac88a417da760c13a49268"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "Decade_Blizzard.umx"
+  fileSize: 2217081
+  hash: "94977c04deed6ebb302ea489a632dd437c811eee"
+otherFiles: 0
+dependencies:
+  DM_Autumn_Library.unr:
+  - status: "OK"
+    name: "Boxes_TRLE"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Cottage_Sounds"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "Medieval_Gothic"
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "Decade_Blizzard"
+  - status: "OK"
+    name: "Newbies_logo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/9/5/2cdf7d/DM_Autumn_Library.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Autumn_library"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.1
+  Ancient: 0.8
+bots: true

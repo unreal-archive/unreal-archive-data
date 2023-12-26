@@ -1,0 +1,135 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-12-25 15:28"
+game: "Unreal"
+name: "DM_Research_labs"
+author: "Nikola -(DOG)- Genyo"
+description: "Let's get it ON!!!!!"
+releaseDate: "2023-11"
+attachments: []
+originalFilename: "DM_Research_Labs.zip"
+hash: "83be3396fa22b30042d53867c156657519d50123"
+fileSize: 79000876
+files:
+- name: "X-pak1.utx"
+  fileSize: 7948740
+  hash: "2a8d40bec5038bba494fa2d39db10177b124584b"
+- name: "FCommandoSkins.utx"
+  fileSize: 5093279
+  hash: "fffd1725196b53fccb403551d9a42dd8e012388d"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "Announcer.uax"
+  fileSize: 1416927
+  hash: "e8282f1024b95c9efb94346da7b188dda464df54"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "DeusXDeco.u"
+  fileSize: 337601
+  hash: "e7afb4db8cd30e12a47e2d919dd41e7781fcac73"
+- name: "Female2Voice.uax"
+  fileSize: 774932
+  hash: "b9d2025e3d997fc2ef104580a491bdb08ce3e7ce"
+- name: "X-pak4.utx"
+  fileSize: 4600519
+  hash: "fc1c6f688bee3970da971658a8fa557defa299bf"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "Futuristic_New_Mesh.utx"
+  fileSize: 11127471
+  hash: "8fc726f25f333ead11eafafdd2c98f60ccd2c218"
+- name: "Male2Voice.uax"
+  fileSize: 701131
+  hash: "a632b9d083e508745420f288e4e1d695d12da1de"
+- name: "BossVoice.uax"
+  fileSize: 859670
+  hash: "4d487a225464cc7ec9b651a5c2598e054f1b9759"
+- name: "Botpack227_Base.u"
+  fileSize: 273799
+  hash: "cc783fc487a68d15ec71a3a353ac61ec62423436"
+- name: "DM_Research_labs.unr"
+  fileSize: 4891343
+  hash: "fc043a3db19af653eab43fcf8980f1c366a9b51e"
+- name: "commandoskins.utx"
+  fileSize: 4318050
+  hash: "9a673861f31bbfbb0b971c1ee0d97fbad06d564f"
+- name: "Female1Voice.uax"
+  fileSize: 818431
+  hash: "8491e5b0a87ba388cf03035139f5f726bb22ad6f"
+- name: "X-medical.utx"
+  fileSize: 910655
+  hash: "7a4811af82ef8b106e65315bd2e2454a755edcdf"
+- name: "SGirlSkins.utx"
+  fileSize: 7226959
+  hash: "5dc9ba7208c199f3fd65b1695791542ab684e371"
+- name: "Male1Voice.uax"
+  fileSize: 762855
+  hash: "8221ba79142f0d1911fbedeab933da955a167360"
+- name: "Soldierskins.utx"
+  fileSize: 7184269
+  hash: "71cd3fc8b299e982eee875ac38f5cd42b2363e10"
+- name: "DecoEgypt2.u"
+  fileSize: 2654338
+  hash: "de2bb6c3e7252a85b6ec36cc5ad2d1fda5bf0652"
+- name: "BossSkins.utx"
+  fileSize: 1867811
+  hash: "72e0d6cabc74de3218ba0f730e4d8acb5f019b98"
+- name: "BotPack.u"
+  fileSize: 39197776
+  hash: "91d7b924c6e269801b48f9d5a7462d09e699689b"
+- name: "LadderFonts.utx"
+  fileSize: 2781435
+  hash: "d5831380d636e28e339a588374b2c60de10af0fc"
+otherFiles: 0
+dependencies:
+  X-pak1.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+  BotPack.u:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Botpack227_Base"
+  DM_Research_labs.unr:
+  - status: "OK"
+    name: "Futuristic_New_Mesh"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "DecoEgypt2"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "X-medical"
+  - status: "OK"
+    name: "X-pak1"
+  - status: "OK"
+    name: "DeusXDeco"
+  - status: "OK"
+    name: "X-pak4"
+  X-pak4.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/8/3/be3396/DM_Research_Labs.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM Radikus"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
