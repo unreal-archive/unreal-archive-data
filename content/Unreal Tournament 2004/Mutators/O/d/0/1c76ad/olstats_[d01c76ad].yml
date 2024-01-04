@@ -1,0 +1,70 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-01-04 07:55"
+game: "Unreal Tournament 2004"
+name: "OLStats"
+author: "Greg \"Overload\" Laabs"
+description: "Turns on stat logging for listen servers and Instant Action games."
+releaseDate: "2015-07"
+attachments:
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_1.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_6.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_4.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_7.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_7.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_2.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_3.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_8.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_8.png"
+- type: "IMAGE"
+  name: "olstats_shot_d01c76ad_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats_shot_d01c76ad_5.png"
+originalFilename: "olstats-3.09.tar.bz2"
+hash: "d01c76ad15609e7f078175067e90fc6795997cc4"
+fileSize: 168108
+files:
+- name: "LibHTTP2.u"
+  fileSize: 76931
+  hash: "15bb09f6fd10ae629c4fdd8c7a90a44cda28eab5"
+- name: "OLStats.u"
+  fileSize: 619695
+  hash: "19efd6951316d1f8e7d0cbec77441514ff2ce176"
+- name: "OLStatsRPG.u"
+  fileSize: 5007
+  hash: "f54fac95b3e8dbe27c3ef255cf56dee3a458ae2c"
+otherFiles: 14
+dependencies:
+  OLStats.u:
+  - status: "OK"
+    name: "LibHTTP2"
+  OLStatsRPG.u:
+  - status: "MISSING"
+    name: "ut2004rpg"
+  - status: "OK"
+    name: "OLStats"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/O/d/0/1c76ad/olstats-3.09.tar.bz2"
+  direct: true
+  state: "OK"
+links:
+  v3.0.9 Homepage: "https://www.dr-lex.be/software/olstats.html"
+deleted: false
+mutators:
+- name: "OLStats"
+  description: "Turns on stat logging for listen servers and Instant Action games."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
