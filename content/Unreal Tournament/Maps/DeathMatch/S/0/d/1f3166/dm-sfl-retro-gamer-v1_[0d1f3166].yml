@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-11 10:12"
+game: "Unreal Tournament"
+name: "DM-{SFL}-RETRO-GAMER-V1"
+author: "{SFL}sketchpad"
+description: "None"
+releaseDate: "2022-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-sfl-retro-gamer-v1_shot_0d1f3166_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/0/d/1f3166/dm-sfl-retro-gamer-v1_shot_0d1f3166_1.png"
+originalFilename: "SFL-RETRO-GAMER-V1.zip"
+hash: "0d1f3166e5ce1efe3aee27e8f0ad94c699c870a7"
+fileSize: 15242249
+files:
+- name: "retrogamer.utx"
+  fileSize: 12544869
+  hash: "88b6a6db5a4975f15700dfe9c49dbb83e85c4a46"
+- name: "DM-{SFL}-RETRO-GAMER-V1.unr"
+  fileSize: 3333818
+  hash: "8ddb651a4d2b6d442328589a693ae4308135eccd"
+- name: "TheCult.umx"
+  fileSize: 5651320
+  hash: "86e1446e0f390a57c806d67958d972f401bc47ad"
+- name: "retrogamer2.utx"
+  fileSize: 5289653
+  hash: "4ce3b72922fe1657601581c5d5698369cbc2af87"
+otherFiles: 0
+dependencies:
+  DM-{SFL}-RETRO-GAMER-V1.unr:
+  - status: "OK"
+    name: "retrogamer"
+  - status: "OK"
+    name: "TheCult"
+  - status: "OK"
+    name: "retrogamer2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/0/d/1f3166/SFL-RETRO-GAMER-V1.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "{SFL}-RETRO-GAMER-V1"
+playerCount: "5-15"
+themes: {}
+bots: true

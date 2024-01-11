@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-11 10:13"
+game: "Unreal Tournament"
+name: "DM-{SFL}Graveyard"
+author: "remixed by {SFL}sketchpad"
+description: "None"
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-sflgraveyard_shot_7d6620f4_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/7/d/6620f4/dm-sflgraveyard_shot_7d6620f4_1.png"
+originalFilename: "{SFL}-Graveyard.zip"
+hash: "7d6620f4feb548bb8dd84395322a2811cc5fc0cd"
+fileSize: 26471205
+files:
+- name: "Soldier_DouTeam1b.utx"
+  fileSize: 7871232
+  hash: "28d33ecc90dd374142d9e8226452bc2ebf90b83e"
+- name: "DM-{SFL}Graveyard.unr"
+  fileSize: 9753230
+  hash: "7431e8db9b5fbbc3f29fc88313b1b4f77e4b6c3f"
+- name: "DOUGraveyard.utx"
+  fileSize: 6352231
+  hash: "0a74834edf8e0ac50808a213c47898ca87b7d756"
+- name: "Graveyard.utx"
+  fileSize: 1307752
+  hash: "57c46d7fd60c8dd1a9d4b8caa8fc5efd2fc478f3"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "SFL-BURN.umx"
+  fileSize: 16798581
+  hash: "1413f745c60538dc19fad75cc6e34484b6686526"
+- name: "SFL_GraveyardSounds.uax"
+  fileSize: 669464
+  hash: "9b825c70a2fc2e695608cfac35b42e700d71a011"
+otherFiles: 0
+dependencies:
+  DM-{SFL}Graveyard.unr:
+  - status: "OK"
+    name: "TobioTrees"
+  - status: "OK"
+    name: "DOUGraveyard"
+  - status: "OK"
+    name: "Soldier_DouTeam1b"
+  - status: "OK"
+    name: "SFL-BURN"
+  - status: "OK"
+    name: "SFL_GraveyardSounds"
+  - status: "OK"
+    name: "Graveyard"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/7/d/6620f4/%7BSFL%7D-Graveyard.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "{SFL}Graveyard"
+playerCount: "6-18"
+themes:
+  Nali Temple: 1.0
+bots: true

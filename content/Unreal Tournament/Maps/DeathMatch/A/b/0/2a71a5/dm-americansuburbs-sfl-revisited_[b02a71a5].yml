@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-11 10:11"
+game: "Unreal Tournament"
+name: "DM-AmericanSuburbs-{SFL}-Revisited"
+author: "Daniel \"Nova\" Eskildsen-remix by {SFL}sketchpad"
+description: "None"
+releaseDate: "2023-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-americansuburbs-sfl-revisited_shot_b02a71a5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/b/0/2a71a5/dm-americansuburbs-sfl-revisited_shot_b02a71a5_1.png"
+originalFilename: "american-suburbs-map sfl.zip"
+hash: "b02a71a5203413a6c0f276e43f41673f2475d6ea"
+fileSize: 8408041
+files:
+- name: "NovaLandscape.utx"
+  fileSize: 1754507
+  hash: "871566d16c7657f1a68fd284ae49f435f3dbbb6a"
+- name: "NovaBirds.uax"
+  fileSize: 2471252
+  hash: "acb2ff07a0ec19b76d45130cd83e6f617f49ded5"
+- name: "DM-AmericanSuburbs-{SFL}-Revisited.unr"
+  fileSize: 9922726
+  hash: "b5bc274049c4951598a82c2b806235f80b6db48d"
+- name: "NovaSuburbs.utx"
+  fileSize: 2899103
+  hash: "92c2caa0ea70eacbc176d9bddc5f910a65c46800"
+- name: "NovaSky.utx"
+  fileSize: 7804901
+  hash: "afbe6a82c94aa1e5bb53c5c49a885d7e0d3dd696"
+- name: "NovaSuburbsModels.u"
+  fileSize: 268455
+  hash: "ec2cdd54734bb620b06b96c11d98b005c51c3b8e"
+otherFiles: 1
+dependencies:
+  DM-AmericanSuburbs-{SFL}-Revisited.unr:
+  - status: "OK"
+    name: "NovaSuburbsModels"
+  - status: "OK"
+    name: "NovaLandscape"
+  - status: "OK"
+    name: "NovaSuburbs"
+  - status: "OK"
+    name: "NovaSky"
+  - status: "OK"
+    name: "NovaBirds"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/b/0/2a71a5/american-suburbs-map%20sfl.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "American Suburbs-{SFL}-Revisited"
+playerCount: "12-16"
+themes:
+  Industrial: 1.0
+bots: true
