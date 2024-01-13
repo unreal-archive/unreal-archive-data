@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:08"
+game: "Unreal Tournament"
+name: "DM-Hyperion[NES]"
+author: "FNB / LuNiC Re-Work/MiX"
+description: "Gigantic Space Station (c)2001-2018 Rob Burns. Normal UT Weapons."
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-hyperionnes_shot_872ea414_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/H/8/7/2ea414/dm-hyperionnes_shot_872ea414_1.png"
+originalFilename: "HYPERION.zip"
+hash: "872ea414a11df1cd3c3cda6a2d8274b6faa8c023"
+fileSize: 22889614
+files:
+- name: "xonotic.umx"
+  fileSize: 13001495
+  hash: "2a76e6e7df7c07c54b411329ce565b7e3f1d42ef"
+- name: "DM-Hyperion[NES].unr"
+  fileSize: 25981439
+  hash: "230bf7f4b1c09bc2307d9f2e2ce65ce7c34a558c"
+- name: "FootstepChanger.u"
+  fileSize: 6359
+  hash: "94b3bc05df4fed4f1dc7d9fbcd88bb149b78198a"
+otherFiles: 0
+dependencies:
+  DM-Hyperion[NES].unr:
+  - status: "OK"
+    name: "FootstepChanger"
+  - status: "OK"
+    name: "xonotic"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/H/8/7/2ea414/HYPERION.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Nexus"
+playerCount: "12-24"
+themes:
+  Tech: 0.5
+  Industrial: 0.3
+  Skaarj Tech: 0.3
+bots: true

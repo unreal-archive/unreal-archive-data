@@ -1,0 +1,95 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:08"
+game: "Unreal Tournament"
+name: "DM-[NES]Art_of_War"
+author: "NiX"
+description: "None"
+releaseDate: "2022-02"
+attachments: []
+originalFilename: "NES_ArtOfWar.zip"
+hash: "fe88962efce839409f9d5bf57f7e71ecbdd2cf07"
+fileSize: 31685317
+files:
+- name: "hawkytex.utx"
+  fileSize: 307421
+  hash: "e00035b9478b621e8021d51a0b1e5d9a9251c2e4"
+- name: "mlnBase.utx"
+  fileSize: 5083821
+  hash: "bb0371225cab797c43577c94a97c7ca9c9638ab9"
+- name: "CITELogo.utx"
+  fileSize: 364639
+  hash: "8fc3e83b6a05252097a41d901abc26a393225a5b"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "DM-[NES]Art_of_War.unr"
+  fileSize: 11538035
+  hash: "25dd090e69d4617e1f7051d5c8119473642f6ac6"
+- name: "frozencity1.utx"
+  fileSize: 1821850
+  hash: "0d31095afb09d5988f136253ccd627f5d212faf7"
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+- name: "HELL_TEX.utx"
+  fileSize: 1064461
+  hash: "1444b1d07b3bd35b2a36f4c28a8ec91bebba575b"
+- name: "sliderTexturesV2.utx"
+  fileSize: 1507364
+  hash: "bfe13c91b91b8caa62166bb4c71f767c64237888"
+- name: "WBtex.utx"
+  fileSize: 4413424
+  hash: "ed7f282c18724cc95a341dcd825821535b14ed76"
+- name: "NixWarTex1.utx"
+  fileSize: 3273796
+  hash: "eca90dde6907288cb2ab1bdfe8084e1a3a2aaa03"
+- name: "NixTex2021.utx"
+  fileSize: 3451243
+  hash: "3b2744c5f6957115c7da6c4ef3e579b82c40aed0"
+- name: "KnightsOfTheSky.umx"
+  fileSize: 18008892
+  hash: "fa973816919c331da0cbdeb41605e4436c6c2ae8"
+otherFiles: 0
+dependencies:
+  DM-[NES]Art_of_War.unr:
+  - status: "OK"
+    name: "NixWarTex1"
+  - status: "OK"
+    name: "sliderTexturesV2"
+  - status: "OK"
+    name: "WBtex"
+  - status: "OK"
+    name: "KnightsOfTheSky"
+  - status: "OK"
+    name: "mlnBase"
+  - status: "OK"
+    name: "HELL_TEX"
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "NixTex2021"
+  - status: "MISSING"
+    name: "Citytex"
+  - status: "OK"
+    name: "Anc"
+  - status: "OK"
+    name: "frozencity1"
+  - status: "OK"
+    name: "hawkytex"
+  - status: "OK"
+    name: "CITELogo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/f/e/88962e/NES_ArtOfWar.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-[NES]Art_of_War"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.7
+  Ancient: 0.1
+bots: true

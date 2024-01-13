@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:09"
+game: "Unreal Tournament"
+name: "DM-SniperTownDepot2022"
+author: "David -DarkSniper- Brown"
+description: "Run!"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-snipertowndepot2022_shot_32f3caac_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/3/2/f3caac/dm-snipertowndepot2022_shot_32f3caac_1.png"
+originalFilename: "SniperTownDepot2022.zip"
+hash: "32f3caac918f6383fce6494ec7042c2430d1e257"
+fileSize: 10298598
+files:
+- name: "DM-SniperTownDepot2022.unr"
+  fileSize: 7875177
+  hash: "39c0291c5a91cb786a9c1e75085a125a863159cf"
+- name: "Foom100.utx"
+  fileSize: 6067236
+  hash: "1995758043c0ee029f56e2e97db70aa5c022c098"
+- name: "WarGate.umx"
+  fileSize: 825589
+  hash: "496fdde34b97ccc149549c4fb16fb75ff3c42907"
+- name: "DS_SniperTownD.utx"
+  fileSize: 5652601
+  hash: "35cc884a8fc0e81fbaa2f48b31f313bf167d4230"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+otherFiles: 1
+dependencies:
+  DM-SniperTownDepot2022.unr:
+  - status: "OK"
+    name: "WarGate"
+  - status: "OK"
+    name: "Foom100"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "DS_SniperTownD"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/3/2/f3caac/SniperTownDepot2022.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Sniper Town 2022"
+playerCount: "10-20"
+themes:
+  City: 0.8
+  Industrial: 0.1
+  Skaarj Tech: 0.1
+bots: true
