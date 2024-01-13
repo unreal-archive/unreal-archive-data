@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 08:29"
+game: "Unreal Tournament"
+name: "DM-{SFL}-HumidFields-Remix"
+author: "Terraniux, the Dutch mapper.{SFL}sketchpad-remix"
+description: "None"
+releaseDate: "2023-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-sfl-humidfields-remix_shot_9e6cfe85_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/9/e/6cfe85/dm-sfl-humidfields-remix_shot_9e6cfe85_1.png"
+originalFilename: "DM-{SFL}-HumidFields-remix.zip"
+hash: "9e6cfe850bf8dbeabf465dcf3f678c98f6fe48f9"
+fileSize: 27180829
+files:
+- name: "mindfields.umx"
+  fileSize: 16746743
+  hash: "d2695608fb74e6f2b4462c4cbc9935f129f883a2"
+- name: "Animal_PACK1.u"
+  fileSize: 2192402
+  hash: "08067207103da3bef9656aa1ffafd23a105632d2"
+- name: "ShadowManNature.utx"
+  fileSize: 5652455
+  hash: "42285e28708ebd3cc240551ef613dcd674aa3cd4"
+- name: "Anc.utx"
+  fileSize: 1784319
+  hash: "7b36674a9083e0c54dea81632c340dc68859bad9"
+- name: "DM-{SFL}-HumidFields-Remix.unr"
+  fileSize: 11126257
+  hash: "8874605f12d95ed981c45c93cf8536ecac32ed6d"
+- name: "SM_Nature.u"
+  fileSize: 256477
+  hash: "2190c782d79b5ef52f37238352526f3d2cc2de41"
+otherFiles: 1
+dependencies:
+  DM-{SFL}-HumidFields-Remix.unr:
+  - status: "OK"
+    name: "mindfields"
+  - status: "OK"
+    name: "SM_Nature"
+  - status: "OK"
+    name: "ShadowManNature"
+  - status: "OK"
+    name: "Animal_PACK1"
+  - status: "OK"
+    name: "Anc"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/9/e/6cfe85/DM-%7BSFL%7D-HumidFields-remix.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-{SFL}-Humidfields-Remix"
+playerCount: "16"
+themes:
+  Tech: 0.3
+  Ancient: 0.6
+bots: true
