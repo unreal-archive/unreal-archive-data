@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 09:12"
+game: "Unreal Tournament"
+name: "DM-{SFL}-Nihilation-sketchpad-remix"
+author: "@J@X remixed by {SFL}sketchpad"
+description: "None"
+releaseDate: "2022-07"
+attachments:
+- type: "IMAGE"
+  name: "dm-sfl-nihilation-sketchpad-remix_shot_9fc63b1d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/9/f/c63b1d/dm-sfl-nihilation-sketchpad-remix_shot_9fc63b1d_1.png"
+originalFilename: "nihilationxl_map_sketchpad_remix.rar"
+hash: "9fc63b1d122a857e7d5b1caf7545b840dec551e3"
+fileSize: 13849022
+files:
+- name: "Kamino.utx"
+  fileSize: 1534553
+  hash: "722a1916ad2840131a90175e1786971884507801"
+- name: "slipdevil3.umx"
+  fileSize: 11843461
+  hash: "3f059c102b7ed5a1b85e30b4457556fdf0b1f3b0"
+- name: "DM-{SFL}-Nihilation-sketchpad-remix.unr"
+  fileSize: 10071288
+  hash: "0a13bbea8070eb0d552a5f02bc71a60084d432a1"
+- name: "sketchtexads.utx"
+  fileSize: 1251978
+  hash: "d131715f53f35f26507f98d792ffa0c09a6f4601"
+otherFiles: 0
+dependencies:
+  DM-{SFL}-Nihilation-sketchpad-remix.unr:
+  - status: "OK"
+    name: "Kamino"
+  - status: "OK"
+    name: "sketchtexads"
+  - status: "OK"
+    name: "slipdevil3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/9/f/c63b1d/nihilationxl_map_sketchpad_remix.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "NihilationXL"
+playerCount: "8-12"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true
