@@ -1,0 +1,67 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-12 14:16"
+game: "Unreal Tournament"
+name: "DM-Village[NES]"
+author: "Lunic"
+description: "None"
+releaseDate: "2022-09"
+attachments: []
+originalFilename: "DM-Village[NES].zip"
+hash: "c5db466a050dbaefd4750872b9429d3856417efd"
+fileSize: 20766645
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "ZephonTechStuff.utx"
+  fileSize: 2445575
+  hash: "b554f0145e46c62a544521a3d81c0926f9c163d5"
+- name: "HourIceSkaarj.utx"
+  fileSize: 3469929
+  hash: "28f6e126c65134b4e0d42722bf252ebba0d547d5"
+- name: "Tree_PACK1.utx"
+  fileSize: 89035
+  hash: "8033ca8cd132ab40fb47344da88282c1a47e3b9e"
+- name: "DespSnowC.utx"
+  fileSize: 6238968
+  hash: "1ef1f39f70f925a0016ce9b12eb0ae00228ed76d"
+- name: "DerdBlueMine.utx"
+  fileSize: 2064599
+  hash: "5f26da8209d3d4bd651b50b7cd45557ed8a95830"
+- name: "ImperialThrone.umx"
+  fileSize: 6305414
+  hash: "5d4d539062ba33a06ba30657ad0843c3e4036112"
+- name: "DM-Village[NES].unr"
+  fileSize: 8440295
+  hash: "506b4083948dcfc52aa768db89c8a58a529d8f13"
+otherFiles: 0
+dependencies:
+  DM-Village[NES].unr:
+  - status: "OK"
+    name: "HourIceSkaarj"
+  - status: "OK"
+    name: "ZephonTechStuff"
+  - status: "OK"
+    name: "DespSnowC"
+  - status: "MISSING"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "ImperialThrone"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "DerdBlueMine"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/V/c/5/db466a/DM-Village%5BNES%5D.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Village / ProjectZephon Level 7"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Skaarj Crypt: 0.9
+bots: true
