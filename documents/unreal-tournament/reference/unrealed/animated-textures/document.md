@@ -1,26 +1,29 @@
 ## Contents
 
-- Using Unreal A.R.T. (Unreal Animating Real-time Textues manual)
-    - Introduction
-    - Applications
-    - Timing and frame rates
-    - Performance and memory
+- [Using Unreal A.R.T. (Unreal Animating Real-time Textues manual)](#Using)
+    - [Introduction](#Introduction)
+    - [Applications](#Applications)
+    - [Timing and frame rates](#Timing)
+    - [Performance and memory](#Performance)
 
-- Creating animating textures
-    - Basics
-    - Palettes and color
-    - Fire textures
-    - Wave textures
-    - Wet textures
-    - Ice textures
+- [Creating animating textures](#Creating)
+    - [Basics](#Basics)
+    - [Palettes and color](#Palettes)
+    - [Fire textures](#Fire)
+    - [Wave textures](#Wave)
+    - [Wet textures](#Wet)
+    - [Ice textures](#Ice)
 
+<span id="Using"></span>
 ## Using Unreal A.R.T.
 
+<span id="Introduction"></span>
 ### Introduction
 
 Unreal's 'Animating Real-time Textures' technology (working title 'fire engine’) enables users to create and apply realistic dynamic
 textures immediately from within the Unreal editor.
 
+<span id="Applications"></span>
 ### Applications
 
 The real-time animating textures can be used almost anywhere in Unreal; on surfaces, moving brushes, and even actors. All of the animating
@@ -33,6 +36,7 @@ formations, fire can look almost volumetric. Microtextures can also benefit from
 The water, wet- and ice-textures can convey much more than realistic water surfaces; used as a general means of warping source art in a
 noisy pattern, force-fields, swirly energy bursts and convincing turbulent flames are just a few of the possibilities.
 
+<span id="Timing"></span>
 ### Timing and frame rates
 
 Fire, wave-and wet-textures are updated iteratively; the new frame takes the state of the last frame as its input, and then updates the
@@ -58,6 +62,7 @@ Fire and water textures may need some 'warming up' time to attain a stable appea
 and waves need some time to spread out. When it is essential for your level to avoid visible texture bootstrapping, you can set the
 PrimeCount variable to some (low) "warming-up" value, from the properties / Animation panel.
 
+<span id="Performance"></span>
 ### Performance and memory
 
 Each frame of an animating texture is created in real-time. This has obvious memory benefits over storing pre-rendered sequences. While all
@@ -88,8 +93,10 @@ Everything tiles in all directions. All stuff, sparks, drops, waves and flames t
 Animations look best if you avoid simple 'cyclic' schemes whenever possible - try to use some random moving sparks or oscillators with
 different frequencies, to drive home the fact the texture is being generated in real-time.
 
+<span id="Creating"></span>
 ## Creating animating textures
 
+<span id="Basics"></span>
 ### Basics
 
 In the Unreal editor, you create a new animating texture by clicking the 'new' button in the texture browser.
@@ -133,6 +140,7 @@ effect types are drawn as you move the mouse, others need consecutive mouse clic
 segments by moving the mouse over the starting point and clicking the right button. Erasing the swarming spark types can be tricky, usually
 it is be easier to clear the texture and start again.
 
+<span id="Palettes"></span>
 ### Palettes and color
 
 Coolness of any fire or water depends almost entirely on the color palette. For the Fire and Wave textures, change the palette by referring
@@ -144,6 +152,7 @@ the Wet and Ice texture types - become dependent on those textures and require t
 Unreal's software transparency (and its texture masking in general) uses a form of masking with holes for all color 0 pixels, so generally
 you would use a ramped palette that fades to black at color 0. For most applications however, the palette is not limited in any way.
 
+<span id="Fire"></span>
 ### Fire textures
 
 <img src="02-fire1.png" alt="custom clouds"> <img src="03-fire2.png" alt="custom clouds"> <img src="04-fire3.png" alt="eels">
@@ -284,6 +293,7 @@ facilitate backward compatibility during Unreal's development process. The follo
 Lightning with some cone sparks at the center; some rotating cylinder sparks applied using the Lathe drawing modes to obtain a
 pseudo-3d look; and a swirl made with 'wheel' sparks.
 
+<span id="Wave"></span>
 ### Wave textures
 
 <img src="09-wave.png" alt="wave example">
@@ -358,6 +368,7 @@ The `DropType` selects the effect you apply to the texture:
 - `DROP_DrippyTap`
     - Like _LeakyTap_, but the intervals are irregular.
 
+<span id="Wet"></span>
 ### Wet textures
 
 Edit this just like the wave effect, but instead of using a palette to simulate light striking the surface, the image of the source texture
@@ -373,6 +384,7 @@ localized water in approximately these areas will give the impression of an irre
 
 _Images suggesting water or shallow depths are useful as source textures for realistic WetTexture animations._
 
+<span id="Ice"></span>
 ### Ice textures
 
 <img src="12-ice1.png" alt="ice example"> <img src="13-ice2.png" alt="ice example"> <img src="14-ice3.png" alt="ice example">
