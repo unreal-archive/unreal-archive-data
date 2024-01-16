@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-15 13:24"
+game: "Unreal Tournament"
+name: "DM-[NES]Ardenhold"
+author: "Lunic"
+description: "None"
+releaseDate: "2022-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-nesardenhold_shot_8a8c5f1a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/8/a/8c5f1a/dm-nesardenhold_shot_8a8c5f1a_1.png"
+originalFilename: "DM-[NES]Ardenhold.zip"
+hash: "8a8c5f1a381de658158c754a1ae44cfd8ae4884b"
+fileSize: 22491580
+files:
+- name: "northrendLun.umx"
+  fileSize: 5386986
+  hash: "cd79844ea07c58e4132877c7fd3e58e3dc8d3d2e"
+- name: "DM-[NES]Ardenhold.unr"
+  fileSize: 36527298
+  hash: "ea0b1c1029c5b807e370433d1f6f00e9ad99072c"
+- name: "WesternWood.utx"
+  fileSize: 4466382
+  hash: "1b1fa7919a66168f2bf0eee06a308cd046e033fa"
+otherFiles: 0
+dependencies:
+  DM-[NES]Ardenhold.unr:
+  - status: "OK"
+    name: "WesternWood"
+  - status: "OK"
+    name: "northrendLun"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/8/a/8c5f1a/DM-%5BNES%5DArdenhold.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Ardenhold"
+playerCount: "Unknown"
+themes:
+  Tech: 0.4
+  Natural: 0.1
+  Nali Castle: 0.3
+  Ancient: 0.1
+bots: true
