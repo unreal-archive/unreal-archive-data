@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-16 00:37"
+game: "Unreal Tournament"
+name: "DM-AirPort"
+author: "Jeff Martin - jm@islandalien.com"
+description: "Don't miss your flight"
+releaseDate: "2024-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-airport_shot_d738eb3a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/d/7/38eb3a/dm-airport_shot_d738eb3a_1.png"
+originalFilename: "DM-Airport.zip"
+hash: "d738eb3ad612e3497be6045bc1c7eef11756273f"
+fileSize: 25731361
+files:
+- name: "FeMaleTwoBotNPC.u"
+  fileSize: 1057
+  hash: "2f4224a876b75db9bcd4d3fc2b4b4ccf1c1c8827"
+- name: "StrangersInTheNight.umx"
+  fileSize: 8271987
+  hash: "c21641d6351077182b736624aa4bc62f93a36084"
+- name: "DM-AirPort.unr"
+  fileSize: 2403609
+  hash: "74da36b48cbd82e0cd0c0354e6a459a684b0c13a"
+- name: "Airport75SND.uax"
+  fileSize: 14966638
+  hash: "155071a43a33d929ec02f434de4d9f8770aa6899"
+- name: "Airport75.utx"
+  fileSize: 11119983
+  hash: "8c91ea5ae3f417e8a66835203ff7bd138c74e6de"
+otherFiles: 1
+dependencies:
+  DM-AirPort.unr:
+  - status: "OK"
+    name: "StrangersInTheNight"
+  - status: "OK"
+    name: "Airport75SND"
+  - status: "OK"
+    name: "FeMaleTwoBotNPC"
+  - status: "OK"
+    name: "Airport75"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/d/7/38eb3a/DM-Airport.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Airport"
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  Tech: 0.8
+bots: true
