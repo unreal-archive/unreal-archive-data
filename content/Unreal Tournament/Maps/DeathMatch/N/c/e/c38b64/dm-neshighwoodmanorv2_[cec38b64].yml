@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-15 13:30"
+game: "Unreal Tournament"
+name: "DM-[NES]HighwoodManorV2"
+author: "NiX / Lunic"
+description: "None"
+releaseDate: "2023-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-neshighwoodmanorv2_shot_cec38b64_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/c/e/c38b64/dm-neshighwoodmanorv2_shot_cec38b64_1.png"
+originalFilename: "DM-[NES]HighwoodManorV2.zip"
+hash: "cec38b6487ec7f91fb33b47dec009894f400a9ab"
+fileSize: 26482946
+files:
+- name: "AmnesiaAmbHorror.umx"
+  fileSize: 2773550
+  hash: "4bf2a9359a5de5142a3e1827ee354ef276833583"
+- name: "AmnesiaAmbNeutral.umx"
+  fileSize: 2679340
+  hash: "e5775f2ee9238efd2f0c29d1800d2fa0238092f1"
+- name: "DM-[NES]HighwoodManorV2.unr"
+  fileSize: 50298003
+  hash: "77fe2a4dbfcbe7e6b0244dd76c94dd9ff0d341bb"
+otherFiles: 0
+dependencies:
+  DM-[NES]HighwoodManorV2.unr:
+  - status: "OK"
+    name: "AmnesiaAmbNeutral"
+  - status: "OK"
+    name: "AmnesiaAmbHorror"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/c/e/c38b64/DM-%5BNES%5DHighwoodManorV2.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Highwood Manor"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 0.9
+  Ancient: 0.1
+bots: true
