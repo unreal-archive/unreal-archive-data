@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-18 22:34"
+game: "Unreal Tournament"
+name: "DM-Andromeda"
+author: "Lunic"
+description: "None"
+releaseDate: "2022-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-andromeda_shot_0f218edb_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/0/f/218edb/dm-andromeda_shot_0f218edb_1.png"
+originalFilename: "DM-Andromeda.zip"
+hash: "0f218edb42b8b27f3e5eba634e8d2549417bf69b"
+fileSize: 23906604
+files:
+- name: "Ambient.uax"
+  fileSize: 9748357
+  hash: "acdec7ddac9576310ebd1045b30aa8eaaaee3315"
+- name: "FootstepChanger.u"
+  fileSize: 6359
+  hash: "94b3bc05df4fed4f1dc7d9fbcd88bb149b78198a"
+- name: "lesaSwarm.umx"
+  fileSize: 6535451
+  hash: "e159a71f2ab69b8db7bfb0445c471a9083b645da"
+- name: "DM-Andromeda.unr"
+  fileSize: 29374578
+  hash: "a2a540b789b34f20f20f5164a9989c6cb9e5a266"
+otherFiles: 1
+dependencies:
+  DM-Andromeda.unr:
+  - status: "OK"
+    name: "lesaSwarm"
+  - status: "OK"
+    name: "Ambient"
+  - status: "OK"
+    name: "FootstepChanger"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/0/f/218edb/DM-Andromeda.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Andromeda"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+bots: true
