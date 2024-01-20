@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-04-01 10:42"
+game: "Unreal Tournament 2004"
+name: "UT2004 Pickups"
+author: "Unknown"
+description: "Replace Unreal 1 Game mod's Unreal 1 pickups with UT2004 pickups."
+releaseDate: "2009-04"
+attachments: []
+originalFilename: "UT2K4Picks.rar"
+hash: "271123e0e054619514bec6cab56156bf20f50c2b"
+fileSize: 40956
+files:
+- name: "sg_UT2003_pickups.usx"
+  fileSize: 83308
+  hash: "357157a0bf23c0756cedb35eea7004d891600d61"
+- name: "UT2K4Picks.u"
+  fileSize: 19238
+  hash: "b75160ff8c940c75ca2248d91c80c3eb36571a4e"
+- name: "UTInvSM.usx"
+  fileSize: 56852
+  hash: "1baa2923106bb2b3205f7fb9af115d1e90f07207"
+otherFiles: 2
+dependencies:
+  UT2K4Picks.u:
+  - status: "MISSING"
+    name: "PlaceableWeps"
+  - status: "OK"
+    name: "UTInvSM"
+  UTInvSM.usx:
+  - status: "MISSING"
+    name: "UTInvisibleSkins"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/2/7/1123e0/UT2K4Picks.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT2004 Pickups"
+  description: "Replace Unreal 1 Game mod's Unreal 1 pickups with UT2004 pickups."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
