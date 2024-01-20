@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:44"
+game: "Unreal Tournament"
+name: "MH-ULabsV0"
+author: "sobo aka Cash"
+description: "The Secret Underground Materials Laboratories"
+releaseDate: "2021-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-ulabsv0_shot_54db0a96_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/5/4/db0a96/mh-ulabsv0_shot_54db0a96_1.png"
+originalFilename: "MH-ULabsV0.zip"
+hash: "54db0a9601a86e40f7c19be67161e503f5bf934a"
+fileSize: 6389071
+files:
+- name: "mutts.uax"
+  fileSize: 419818
+  hash: "1767536bf61da2e1714abedf435a0da3a3714fdb"
+- name: "ULabs.utx"
+  fileSize: 189838
+  hash: "19218808dbd21b1c71e9cd08ee91e6e81f9d45d5"
+- name: "AdesertS.utx"
+  fileSize: 3136889
+  hash: "b5998f37a878d11856df3cc8684adee6086253c3"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "MH-ULabsV0.unr"
+  fileSize: 6244558
+  hash: "9b0681bae98789cd448f995f75b8e5590781fe03"
+otherFiles: 0
+dependencies:
+  MH-ULabsV0.unr:
+  - status: "OK"
+    name: "AdesertS"
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ULabs"
+  - status: "OK"
+    name: "mutts"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/5/4/db0a96/MH-ULabsV0.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Underground Labs"
+playerCount: "8-12"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+bots: true

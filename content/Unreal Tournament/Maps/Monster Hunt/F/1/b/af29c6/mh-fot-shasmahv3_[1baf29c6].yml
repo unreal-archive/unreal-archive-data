@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:43"
+game: "Unreal Tournament"
+name: "MH-FoT-ShasmahV3"
+author: "--=Derdak2rot=--"
+description: "None"
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-fot-shasmahv3_shot_1baf29c6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/b/af29c6/mh-fot-shasmahv3_shot_1baf29c6_1.png"
+originalFilename: "MH-FoT-ShasmahV3.7z"
+hash: "1baf29c692846917bb1c297bed33315126d034c2"
+fileSize: 10034397
+files:
+- name: "MH-FoT-ShasmahV3.unr"
+  fileSize: 23214381
+  hash: "857f59e271cee18beb708976fa76ee8429c90bf7"
+- name: "CrokxFX.utx"
+  fileSize: 13319
+  hash: "a71a2cab27d83678bbf4ed61dca8f13e68fb0463"
+- name: "Np-ty.umx"
+  fileSize: 1069011
+  hash: "36c6b664817654f1001eba78357ca83bd32075ac"
+- name: "Np-cg.umx"
+  fileSize: 635907
+  hash: "7b79cdba47ecd358c1ab554a188171c666257621"
+otherFiles: 1
+dependencies:
+  MH-FoT-ShasmahV3.unr:
+  - status: "OK"
+    name: "Np-cg"
+  - status: "OK"
+    name: "CrokxFX"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Np-ty"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/b/af29c6/MH-FoT-ShasmahV3.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Nali's Shasmah Town"
+playerCount: "12"
+themes:
+  Tech: 0.3
+  Skaarj Crypt: 0.1
+  Industrial: 0.4
+  Skaarj Tech: 0.1
+  Ancient: 0.1
+bots: true
