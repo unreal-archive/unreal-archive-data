@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:03"
+game: "Unreal Tournament"
+name: "MH-X-masNOW!v0"
+author: "M.Berndt [www.3dgamer.de]"
+description: "3dgamer.de wish u a merry X-Mas....."
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-x-masnowv0_shot_6dc3ebf4_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/X/6/d/c3ebf4/mh-x-masnowv0_shot_6dc3ebf4_1.png"
+originalFilename: "MH-X-masNOW!v0.7z"
+hash: "6dc3ebf4f69000ae16ab482fe45d1f3c00b13ef9"
+fileSize: 1834902
+files:
+- name: "MH-X-masNOW!v0.unr"
+  fileSize: 2383661
+  hash: "e0396ff2920655ba4288549760447019311eb665"
+- name: "Warren1.utx"
+  fileSize: 612257
+  hash: "430b4dfc7e0b2f457ef77923ac8ec32af2224baa"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "bells.umx"
+  fileSize: 397263
+  hash: "06849cfaa741431f4389881421cad69d6e6f1f20"
+- name: "MessageTrigger.u"
+  fileSize: 9940
+  hash: "e9e81365ac8616d9ee85e6bf7c5cdac06a037016"
+- name: "Geschenk.u"
+  fileSize: 800811
+  hash: "38d2fbf1e0771c5ad4658c479da93e31a624afcd"
+otherFiles: 1
+dependencies:
+  MH-X-masNOW!v0.unr:
+  - status: "OK"
+    name: "Geschenk"
+  - status: "OK"
+    name: "bells"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "MessageTrigger"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/X/6/d/c3ebf4/MH-X-masNOW!v0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "AS-X-MasNOW!"
+playerCount: "4-8"
+themes:
+  Natural: 0.2
+  Nali Castle: 0.4
+  Ancient: 0.4
+bots: true

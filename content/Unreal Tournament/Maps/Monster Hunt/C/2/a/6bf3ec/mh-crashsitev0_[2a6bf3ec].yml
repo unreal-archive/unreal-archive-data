@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:02"
+game: "Unreal Tournament"
+name: "MH-CrashSiteV0"
+author: "Ciller / AGA"
+description: "Some things should never be discovered..."
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-crashsitev0_shot_2a6bf3ec_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/2/a/6bf3ec/mh-crashsitev0_shot_2a6bf3ec_1.png"
+originalFilename: "MH-CrashSiteV0.7z"
+hash: "2a6bf3ec093705ed7a74219a48e8f29854d9b5f0"
+fileSize: 3683726
+files:
+- name: "AmbAlien.uax"
+  fileSize: 1875709
+  hash: "091f33eb9d7963892ac151411ccbcae4932e31c0"
+- name: "MH-CrashSiteV0.unr"
+  fileSize: 3026031
+  hash: "7db39dc87f56be4d07f80bbefea5dcccca1ba4f9"
+- name: "furniture_aga.utx"
+  fileSize: 1822733
+  hash: "bb3937f08cabaa0f467460a0804a213110a422a1"
+- name: "paper_anim.utx"
+  fileSize: 701974
+  hash: "0f7ebfd293f21e85dc62533171df4c08cffe163e"
+- name: "submarine.utx"
+  fileSize: 814406
+  hash: "e6b57d4186737af81b16079bdf478cc960b458b2"
+otherFiles: 1
+dependencies:
+  MH-CrashSiteV0.unr:
+  - status: "OK"
+    name: "furniture_aga"
+  - status: "OK"
+    name: "submarine"
+  - status: "OK"
+    name: "AmbAlien"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "paper_anim"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/2/a/6bf3ec/MH-CrashSiteV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Crash Site"
+playerCount: "10"
+themes:
+  Natural: 0.8
+  Industrial: 0.2
+bots: true
