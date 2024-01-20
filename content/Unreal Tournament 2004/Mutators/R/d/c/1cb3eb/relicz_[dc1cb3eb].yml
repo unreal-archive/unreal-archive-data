@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-03-07 11:03"
+game: "Unreal Tournament 2004"
+name: "Relicz"
+author: "Ola 'Jolle' Frid"
+description: "Adds relics to the game. Hit Configure Mutators and then Open below\
+  \ Relicz to select which ones."
+releaseDate: "2024-03"
+attachments: []
+originalFilename: "relicz2k4.zip"
+hash: "dc1cb3eb28b4b9be3249ca2d81ea14967bab3390"
+fileSize: 876831
+files:
+- name: "ReliczMeshes.usx"
+  fileSize: 352868
+  hash: "3906cd17f7a73d7b5305702e424350dd86db6a10"
+- name: "ReliczSounds.uax"
+  fileSize: 41995
+  hash: "d23324d85c37542571c1fcf9ad81b8e7deac164e"
+- name: "Relicz.u"
+  fileSize: 92912
+  hash: "efb20479d159028d1c1cc056b3087d70c5a09099"
+- name: "ReliczTextures.utx"
+  fileSize: 1416316
+  hash: "c307673a7d915482ee98e1a3a5b2f3539893c2c4"
+otherFiles: 3
+dependencies:
+  Relicz.u:
+  - status: "OK"
+    name: "ReliczMeshes"
+  - status: "OK"
+    name: "ReliczTextures"
+  - status: "OK"
+    name: "ReliczSounds"
+  ReliczMeshes.usx:
+  - status: "OK"
+    name: "ReliczTextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/R/d/c/1cb3eb/relicz2k4.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Relicz"
+  description: "Adds relics to the game. Hit Configure Mutators and then Open below\
+    \ Relicz to select which ones."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
