@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:17"
+game: "Unreal Tournament"
+name: "CTF-XV-XtremeCraterV0"
+author: "Hobi-Wan"
+description: "None"
+releaseDate: "2023-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-xtremecraterv0_shot_b3dff1a6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/X/b/3/dff1a6/ctf-xv-xtremecraterv0_shot_b3dff1a6_1.png"
+originalFilename: "CTF-XV-XtremeCraterV0.7z"
+hash: "b3dff1a6ab0834e0e60b6d6f4ae03a9793a4c2d0"
+fileSize: 6705654
+files:
+- name: "KR-Sniper-Time.umx"
+  fileSize: 1062773
+  hash: "201abe83b5443868549abee3157ee4b79b7e6c52"
+- name: "CTF-XV-XtremeCraterV0.unr"
+  fileSize: 10986281
+  hash: "356b9b09d88c74220120f2f17175e2931ede2371"
+otherFiles: 2
+dependencies:
+  CTF-XV-XtremeCraterV0.unr:
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "xZones"
+  - status: "MISSING"
+    name: "XStatVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "OK"
+    name: "KR-Sniper-Time"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/X/b/3/dff1a6/CTF-XV-XtremeCraterV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Xtreme Crater"
+playerCount: "4-10"
+themes:
+  Skaarj Tech: 1.0
+bots: true

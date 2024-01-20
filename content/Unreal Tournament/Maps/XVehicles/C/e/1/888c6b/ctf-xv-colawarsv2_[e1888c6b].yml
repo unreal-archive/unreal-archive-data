@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:14"
+game: "Unreal Tournament"
+name: "CTF-XV-ColaWarsV2"
+author: "Dirk_Diggler"
+description: "Fight For Your Tastebuds"
+releaseDate: "2023-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-colawarsv2_shot_e1888c6b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/C/e/1/888c6b/ctf-xv-colawarsv2_shot_e1888c6b_1.png"
+originalFilename: "CTF-XV-ColaWarsV2.7z"
+hash: "e1888c6ba40c9e6022f536326fe3bdfc45196716"
+fileSize: 1578444
+files:
+- name: "CTF-Cola.utx"
+  fileSize: 2783975
+  hash: "61c27cc5b5496bc7f5bb38fe44d9ebe1a66b1315"
+- name: "CTF-XV-ColaWarsV2.unr"
+  fileSize: 2342449
+  hash: "2f390cfd072b9a85f610045aff6797c6ee1e4801"
+otherFiles: 2
+dependencies:
+  CTF-XV-ColaWarsV2.unr:
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "CTF-Cola"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/C/e/1/888c6b/CTF-XV-ColaWarsV2.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "CTF-Cola Wars"
+playerCount: "6-20"
+themes:
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:16"
+game: "Unreal Tournament"
+name: "CTF-XV-Shadow-LEv0"
+author: "magik & subz"
+description: "None"
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-shadow-lev0_shot_7118abdd_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/7/1/18abdd/ctf-xv-shadow-lev0_shot_7118abdd_1.png"
+originalFilename: "CTF-XV-Shadow-LEv0.7z"
+hash: "7118abddc56e866144cdfd4ff4b16a432ba12040"
+fileSize: 15360284
+files:
+- name: "CTF-XV-Shadow-LEv0.unr"
+  fileSize: 4046566
+  hash: "0a28b37000e47fa9b656e04abd4da8bf52ed3154"
+- name: "Evil-Lair-4.utx"
+  fileSize: 15749418
+  hash: "3a469b2a9ade0f67c3dac8fc2613d46f5143c206"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "Evil-Lair-5.utx"
+  fileSize: 7974052
+  hash: "aab9019b5567bedba5c07cb4bc30df0eaf0ebf5e"
+otherFiles: 1
+dependencies:
+  CTF-XV-Shadow-LEv0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "a3text"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "Evil-Lair-5"
+  - status: "OK"
+    name: "Evil-Lair-4"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/7/1/18abdd/CTF-XV-Shadow-LEv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Shadow"
+playerCount: "10"
+themes:
+  Tech: 0.2
+  Industrial: 0.2
+  Skaarj Tech: 0.6
+bots: true

@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:15"
+game: "Unreal Tournament"
+name: "CTF-XV-NWTHv0"
+author: "Alfred"
+description: "None"
+releaseDate: "2024-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-nwthv0_shot_65d20613_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/N/6/5/d20613/ctf-xv-nwthv0_shot_65d20613_1.png"
+originalFilename: "CTF-XV-NWTHv0.7z"
+hash: "65d206138962592b51ebed99c4c53ec11ef782bb"
+fileSize: 15586152
+files:
+- name: "no_fifty-five.umx"
+  fileSize: 1264502
+  hash: "e2596539383375784a4f4cee94b691e19adff792"
+- name: "CTF-XV-NWTHv0.unr"
+  fileSize: 40405132
+  hash: "de10ddae44993385a1f1d8e4e171a1d48b064bed"
+otherFiles: 1
+dependencies:
+  CTF-XV-NWTHv0.unr:
+  - status: "OK"
+    name: "no_fifty-five"
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "XStatVeh"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/N/6/5/d20613/CTF-XV-NWTHv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "00-No-where-2-hide"
+playerCount: "6-10"
+themes: {}
+bots: true

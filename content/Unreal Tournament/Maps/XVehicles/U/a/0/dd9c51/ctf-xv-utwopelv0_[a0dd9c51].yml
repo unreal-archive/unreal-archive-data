@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:12"
+game: "Unreal Tournament"
+name: "CTF-XV-(UTW)OPELv0"
+author: "[UTW]R@m$e$"
+description: "www.ut-world.eu"
+releaseDate: "2024-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-utwopelv0_shot_a0dd9c51_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/U/a/0/dd9c51/ctf-xv-utwopelv0_shot_a0dd9c51_1.png"
+originalFilename: "CTF-XV-(UTW)OPELv0.7z"
+hash: "a0dd9c5161238925c31c03a094e7dfcc49151de9"
+fileSize: 6155067
+files:
+- name: "CTF-XV-(UTW)OPELv0.unr"
+  fileSize: 1519770
+  hash: "7844dc72f5a9da07f8cf68198563f3ffacb20dfa"
+- name: "FeuerFrei.umx"
+  fileSize: 8361882
+  hash: "8b16b6b90c772c35baa79cd023d90c81a5d17b92"
+- name: "utc4.utx"
+  fileSize: 2055230
+  hash: "c2e30e0972e7616092e5f2c6123d480e5f05bb4a"
+- name: "utw.utx"
+  fileSize: 439824
+  hash: "73bb7ea611e8dff0658f3fc5b7ae43f58cdd5cb2"
+otherFiles: 2
+dependencies:
+  CTF-XV-(UTW)OPELv0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "FeuerFrei"
+  - status: "OK"
+    name: "utc4"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "utw"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/U/a/0/dd9c51/CTF-XV-(UTW)OPELv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "(UTW)OPEL"
+playerCount: "4-16"
+themes: {}
+bots: true
