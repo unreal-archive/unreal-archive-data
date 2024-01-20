@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-27 13:11"
+game: "Unreal Tournament"
+name: "ctf-1on1-JoustInSpaceUnFinished"
+author: "Patrick -KillRoy- Buijs"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-1on1-joustinspaceunfinished_shot_fa3261ed_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/f/a/3261ed/ctf-1on1-joustinspaceunfinished_shot_fa3261ed_1.png"
+originalFilename: "ctf-1on1-joustinspaceunfinished.zip"
+hash: "fa3261ed02cf8088fc5bb8bdcf2c566597292d0a"
+fileSize: 17772108
+files:
+- name: "R3pW007Tex.utx"
+  fileSize: 5261657
+  hash: "451b02dea53cea89bf8a4f083e88019f8621e0c9"
+- name: "xutfx.utx"
+  fileSize: 335490
+  hash: "46e593ef0dec35e3b70fa0c3b5074df061bc15cb"
+- name: "R3pTech2022.utx"
+  fileSize: 67270120
+  hash: "e3ee37fb817c90d081ef232a14167ccffb39b543"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "ctf-1on1-JoustInSpaceUnFinished.unr"
+  fileSize: 2653887
+  hash: "0d14db0e734cd1718394fd011369c4b95c54b348"
+otherFiles: 0
+dependencies:
+  R3pTech2022.utx:
+  - status: "OK"
+    name: "R3pW007Tex"
+  ctf-1on1-JoustInSpaceUnFinished.unr:
+  - status: "OK"
+    name: "R3pW007Tex"
+  - status: "OK"
+    name: "R3pTech2022"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/f/a/3261ed/ctf-1on1-joustinspaceunfinished.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Joust in Space"
+playerCount: "2 - 4"
+themes:
+  Tech: 1.0
+bots: true

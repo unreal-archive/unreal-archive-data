@@ -1,0 +1,74 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-02-27 13:13"
+game: "Unreal Tournament"
+name: "Disordermaps"
+author: "Various"
+description: "None"
+releaseDate: "2022-06"
+attachments:
+- type: "IMAGE"
+  name: "disordermaps_shot_72c8d20e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/7/2/c8d20e/disordermaps_shot_72c8d20e_1.png"
+- type: "IMAGE"
+  name: "disordermaps_shot_72c8d20e_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/7/2/c8d20e/disordermaps_shot_72c8d20e_2.png"
+- type: "IMAGE"
+  name: "disordermaps_shot_72c8d20e_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/7/2/c8d20e/disordermaps_shot_72c8d20e_3.png"
+originalFilename: "disordermaps.zip"
+hash: "72c8d20ed9aa302cfd58b49d6f78e5e3c4d53ed9"
+fileSize: 5987930
+files:
+- name: "ComplexDeck.utx"
+  fileSize: 7422018
+  hash: "c718083473efff90da8f292dac471638e99b24e5"
+- name: "CTF-Control-LE2022.unr"
+  fileSize: 751163
+  hash: "7706e5004dafbb12b1a5562c76e9057d89438c36"
+- name: "CTF-2on2-Crates2022.unr"
+  fileSize: 551308
+  hash: "17f8f0046b47bf353749957e30f377bf16c814b7"
+- name: "DrPikko.utx"
+  fileSize: 7891961
+  hash: "66f1ea31cfd651dad6c2d8a318aa1b42bbf8cebc"
+- name: "CTF-LiandriDocks2022.unr"
+  fileSize: 692250
+  hash: "33c307d1f8ce96598bd3c67362ce2db4159f5032"
+otherFiles: 0
+dependencies:
+  CTF-Control-LE2022.unr:
+  - status: "OK"
+    name: "DrPikko"
+  - status: "OK"
+    name: "ComplexDeck"
+  CTF-LiandriDocks2022.unr:
+  - status: "OK"
+    name: "DrPikko"
+  - status: "OK"
+    name: "ComplexDeck"
+  CTF-2on2-Crates2022.unr:
+  - status: "OK"
+    name: "DrPikko"
+  - status: "OK"
+    name: "ComplexDeck"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/7/2/c8d20e/disordermaps.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CTF-Control-LE2022"
+  title: "Control League Edition"
+  author: "John \"2-4\" Tate"
+- name: "CTF-2on2-Crates2022"
+  title: "2on2 Crates 2022"
+  author: "Christiaan \"Rork\" ter Veen"
+- name: "CTF-LiandriDocks2022"
+  title: "Liandri Docks 2022"
+  author: "Remade by Disorder"
+gametype: "Capture The Flag"
+themes:
+  Industrial: 0.5
+  Ancient: 0.5
