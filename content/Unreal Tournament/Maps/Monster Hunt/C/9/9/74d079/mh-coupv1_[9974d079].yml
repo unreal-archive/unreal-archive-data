@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:46"
+game: "Unreal Tournament"
+name: "MH-CoupV1"
+author: "Aahz"
+description: "None"
+releaseDate: "2022-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-coupv1_shot_9974d079_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/9/9/74d079/mh-coupv1_shot_9974d079_1.png"
+originalFilename: "MH-CoupV1.7z"
+hash: "9974d079759e34769882ca2d54492ee68b5fc532"
+fileSize: 4305388
+files:
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "Coup.utx"
+  fileSize: 4025082
+  hash: "ef3e992b52b14699fd674f67de2084652761bb81"
+- name: "MH-CoupV1.unr"
+  fileSize: 6268492
+  hash: "61378403e90c6c9c4397ba8e195c5cb605a6b739"
+otherFiles: 1
+dependencies:
+  MH-CoupV1.unr:
+  - status: "OK"
+    name: "Coup"
+  - status: "OK"
+    name: "Fifth"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/9/9/74d079/MH-CoupV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "The Coup d'Etat"
+playerCount: "4 to 10"
+themes:
+  City: 0.2
+  Natural: 0.1
+  Industrial: 0.1
+  Nali Castle: 0.4
+  Ancient: 0.1
+bots: true

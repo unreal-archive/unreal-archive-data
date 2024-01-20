@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:47"
+game: "Unreal Tournament"
+name: "MH-PandoraV1"
+author: "Snuggs (Che)"
+description: "DIE CHEATERS !!!!"
+releaseDate: "2022-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-pandorav1_shot_f0ffc429_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/P/f/0/ffc429/mh-pandorav1_shot_f0ffc429_1.png"
+originalFilename: "MH-PandoraV1.7z"
+hash: "f0ffc429837f9c9424c9233cd02d272e5db2a6af"
+fileSize: 17184194
+files:
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "MonkeyG.utx"
+  fileSize: 6473311
+  hash: "34fd44281b6ba159a3fb926226f866dd8dc1d8d3"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "Pandora.utx"
+  fileSize: 5863923
+  hash: "77770070f7a4e34ae291ce2527e1e8e27fff50e6"
+- name: "MH-PandoraV1.unr"
+  fileSize: 9991355
+  hash: "12d6d93467edb4858756d682b2c4dff50cd9f43e"
+- name: "NewAssaultTexPack1.utx"
+  fileSize: 3062583
+  hash: "9df0db9e45966b96824cd366acfa3e0c132d5df3"
+otherFiles: 0
+dependencies:
+  MH-PandoraV1.unr:
+  - status: "OK"
+    name: "Pandora"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "NewAssaultTexPack1"
+  - status: "OK"
+    name: "MonkeyG"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/P/f/0/ffc429/MH-PandoraV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Pandora"
+playerCount: "8-12"
+themes:
+  Tech: 0.5
+  Industrial: 0.4
+bots: true

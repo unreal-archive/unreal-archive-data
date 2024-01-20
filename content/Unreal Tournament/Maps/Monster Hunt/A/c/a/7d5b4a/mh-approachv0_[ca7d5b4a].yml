@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:46"
+game: "Unreal Tournament"
+name: "MH-ApproachV0"
+author: "NuLL"
+description: "None"
+releaseDate: "2021-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-approachv0_shot_ca7d5b4a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/c/a/7d5b4a/mh-approachv0_shot_ca7d5b4a_1.png"
+originalFilename: "MH-ApproachV0.7z"
+hash: "ca7d5b4aaec70f6d22f93c4937ca46d498fc5344"
+fileSize: 29093768
+files:
+- name: "DawnQuincasMoreira.umx"
+  fileSize: 11134562
+  hash: "3bc373bd36172f6ed353669ea64d687b89e50832"
+- name: "MH-ApproachV0.unr"
+  fileSize: 33374101
+  hash: "fd1ceb93e054fef642f1c338406045cfb5ecbc3b"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  MH-ApproachV0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "DawnQuincasMoreira"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/c/a/7d5b4a/MH-ApproachV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Approach"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

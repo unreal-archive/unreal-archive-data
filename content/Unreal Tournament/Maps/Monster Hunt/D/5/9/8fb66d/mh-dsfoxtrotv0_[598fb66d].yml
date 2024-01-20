@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:47"
+game: "Unreal Tournament"
+name: "MH-DSFoxtrotV0"
+author: "By Woulff"
+description: "Welcome to DeepSpace Foxtrot!"
+releaseDate: "2021-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-dsfoxtrotv0_shot_598fb66d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/5/9/8fb66d/mh-dsfoxtrotv0_shot_598fb66d_1.png"
+originalFilename: "MH-DSFoxtrotV0.7z"
+hash: "598fb66d7c1d9ac552316ceebd9ff1016ef9051e"
+fileSize: 1705332
+files:
+- name: "ASFOXTROT.utx"
+  fileSize: 6593969
+  hash: "b37101f3c42b2b9e9065fdec6ac21eebe5376dda"
+- name: "MH-DSFoxtrotV0.unr"
+  fileSize: 3149157
+  hash: "9979345e795ebbcc84154c7cb519a5435429c3c1"
+otherFiles: 1
+dependencies:
+  MH-DSFoxtrotV0.unr:
+  - status: "OK"
+    name: "ASFOXTROT"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/5/9/8fb66d/MH-DSFoxtrotV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "DeepSpace Foxtrot"
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  City: 0.2
+  Industrial: 0.2
+  Skaarj Tech: 0.2
+bots: true
