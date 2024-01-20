@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-05 08:49"
+game: "Unreal Tournament"
+name: "CTF-Forsaken!"
+author: "Robert 'Master Builder' Parker"
+description: "Abandon Ship!"
+releaseDate: "2001-07"
+attachments:
+- type: "IMAGE"
+  name: "ctf-forsaken_shot_3daa872c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/d/aa872c/ctf-forsaken_shot_3daa872c_1.png"
+originalFilename: "CTF-Forsaken!.7z"
+hash: "3daa872cd1fbf04faedf0384159218e0a34c4eb3"
+fileSize: 5804628
+files:
+- name: "CTF-Forsaken!.unr"
+  fileSize: 16061177
+  hash: "ab2e48317a0dbed382d0f39f3dea7c36a26ca392"
+- name: "ForsakenTex.utx"
+  fileSize: 970804
+  hash: "8e433bc3c49cebed563c6ba1d8dd986e7156847e"
+- name: "ForsakenFX.uax"
+  fileSize: 1444495
+  hash: "45b785a95b015fb0685a2a789cad654bdfeab733"
+otherFiles: 1
+dependencies:
+  CTF-Forsaken!.unr:
+  - status: "OK"
+    name: "ForsakenFX"
+  - status: "OK"
+    name: "ForsakenTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/3/d/aa872c/CTF-Forsaken!.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Forsaken!"
+playerCount: "11-21"
+themes:
+  Skaarj Tech: 0.9
+  Ancient: 0.1
+bots: true
