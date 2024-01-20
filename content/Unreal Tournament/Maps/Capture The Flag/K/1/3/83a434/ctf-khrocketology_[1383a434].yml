@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-16 16:18"
+game: "Unreal Tournament"
+name: "CTF-([KH])Rocketology"
+author: "Created by KiLLaH! | SkyBox by Madis"
+description: "Welcome to my Sky Station!"
+releaseDate: "2013-03"
+attachments: []
+originalFilename: "CTF-Rocketology.zip"
+hash: "1383a434742489cca0e8422fb0aa556efcfacf32"
+fileSize: 5043393
+files:
+- name: "MadisCityMesh.u"
+  fileSize: 63680
+  hash: "2bc1ee4a1537abb192bb06036f863c9054303413"
+- name: "CTF-([KH])Rocketology.unr"
+  fileSize: 3262873
+  hash: "bb711a52dcbe2beedbac400c9b8a19f8cd67e532"
+- name: "PopEvilHero.umx"
+  fileSize: 1657513
+  hash: "1b04f1631d3872c54fa43c2921565837ea136654"
+otherFiles: 1
+dependencies:
+  MadisCityMesh.u:
+  - status: "MISSING"
+    name: "MadisCityMeshTex"
+  CTF-([KH])Rocketology.unr:
+  - status: "OK"
+    name: "MadisCityMesh"
+  - status: "OK"
+    name: "PopEvilHero"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/K/1/3/83a434/CTF-Rocketology.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-([KH])Rocketology"
+playerCount: "2-16"
+themes:
+  Ancient: 0.8
+  City: 0.2
+bots: true

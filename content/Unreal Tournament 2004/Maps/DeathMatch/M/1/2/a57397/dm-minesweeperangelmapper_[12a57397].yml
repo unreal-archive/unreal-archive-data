@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-16 16:19"
+game: "Unreal Tournament 2004"
+name: "DM-MineSweeperAngelMapper"
+author: "Rachel 'Angel Mapper' Cordone"
+description: "Minesweeper.  For 2k4!"
+releaseDate: "2005-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-minesweeperangelmapper_shot_12a57397_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/1/2/a57397/dm-minesweeperangelmapper_shot_12a57397_1.png"
+originalFilename: "686_Minesweeper2k4.zip"
+hash: "12a57397337f5abd948ee28165a5827da2ef21f0"
+fileSize: 184109
+files:
+- name: "DM-MineSweeperAngelMapper.ut2"
+  fileSize: 379443
+  hash: "5251519d87ea65f65ad18225a91f11c4bfffc88f"
+- name: "MinesweeperTex.utx"
+  fileSize: 495592
+  hash: "d648cd8918f397e6e11b9d4bf1bd9d3f51a06929"
+- name: "Minesweeper.u"
+  fileSize: 33642
+  hash: "2620b0ccf51a50b94f41ab2cb926c8a62575e181"
+otherFiles: 1
+dependencies:
+  Minesweeper.u:
+  - status: "OK"
+    name: "MinesweeperTex"
+  DM-MineSweeperAngelMapper.ut2:
+  - status: "OK"
+    name: "Minesweeper"
+  - status: "OK"
+    name: "MinesweeperTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/M/1/2/a57397/686_Minesweeper2k4.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Minesweeper"
+playerCount: "1"
+themes:
+  Tech: 0.9
+  City: 0.1
+bots: false
