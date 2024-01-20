@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-22 13:35"
+game: "Unreal Tournament"
+name: "DM-DSWashNDry"
+author: "David -DarkSniper- Brown"
+description: "None"
+releaseDate: "2024-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-dswashndry_shot_ebe70d54_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/e/b/e70d54/dm-dswashndry_shot_ebe70d54_1.png"
+originalFilename: "DM-DSWashnDry.zip"
+hash: "ebe70d5429afeea14a4824d24a3e2f302d017b8a"
+fileSize: 33956975
+files:
+- name: "DS-WashnDry.umx"
+  fileSize: 5571168
+  hash: "5a5f94ffc97b5d7bde069572613a6deff6da13be"
+- name: "DM-DSWashNDry.unr"
+  fileSize: 63172058
+  hash: "07e42fc275cb99a7dc3d1bd9e0e353b4bfd0b68e"
+- name: "Industrial_Pack1.u"
+  fileSize: 2164988
+  hash: "e48d99d0577ec376c0a55d505601db7378af9c28"
+otherFiles: 1
+dependencies:
+  DM-DSWashNDry.unr:
+  - status: "OK"
+    name: "DS-WashnDry"
+  - status: "OK"
+    name: "Industrial_Pack1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/e/b/e70d54/DM-DSWashnDry.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Wash N Dry"
+playerCount: "10-20"
+themes:
+  City: 1.0
+bots: true
