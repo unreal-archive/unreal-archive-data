@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-03 08:26"
+game: "Unreal Tournament"
+name: "DM-Grendelkeep"
+author: "Scott"
+description: "None"
+releaseDate: "2021-12"
+attachments: []
+originalFilename: "UDM-Grendelkeep.zip"
+hash: "312edcbb17cccdfa63beb08c65b4826c3e35fe49"
+fileSize: 8058658
+files:
+- name: "GrendelkeepMesh.usm"
+  fileSize: 6041027
+  hash: "10446a967f879541c3812432488c0048db0355f6"
+- name: "UT2k4-Level16.umx"
+  fileSize: 4079334
+  hash: "bd5bae1648df84657507702fcbabe304f3bc318d"
+- name: "DM-Grendelkeep.unr"
+  fileSize: 2093137
+  hash: "7391b357a517e0302c48deef1f808afef962a583"
+otherFiles: 0
+dependencies:
+  DM-Grendelkeep.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "GrendelkeepMesh"
+  - status: "OK"
+    name: "UT2k4-Level16"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/3/1/2edcbb/UDM-Grendelkeep.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Grendelkeep"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 1.0
+bots: true
