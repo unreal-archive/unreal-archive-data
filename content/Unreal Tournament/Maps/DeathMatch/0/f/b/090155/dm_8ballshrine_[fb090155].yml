@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-21 13:24"
+game: "Unreal Tournament"
+name: "DM_8BallShrine"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2023-05"
+attachments: []
+originalFilename: "DM_8BallShrine.zip"
+hash: "fb090155d49adbd23b40368d65c685b18a2c2845"
+fileSize: 39336400
+files:
+- name: "Greece.utx"
+  fileSize: 4791632
+  hash: "aa8058719a60682373184e3b4e500170b2b0e3f3"
+- name: "DM_8BallShrine.unr"
+  fileSize: 1191410
+  hash: "3386ab7d79b0b8dac7c43ea05b61d324b8e912c8"
+- name: "Childrenmix.umx"
+  fileSize: 2233479
+  hash: "96a36d39d2b84a4372946dee28a1d0c4063c58f2"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "Mittelalter.utx"
+  fileSize: 10558123
+  hash: "0613c05365c116b16c97c03e1ede078fcafa7377"
+- name: "treeC1.u"
+  fileSize: 198908
+  hash: "ac6c80ed165366c062e2f6b7fce1e1f42ecf1109"
+- name: "ForsakenT.utx"
+  fileSize: 19766524
+  hash: "a1044e648e5e05772ffe1444119f08feec285969"
+- name: "WOTDetail.utx"
+  fileSize: 1552183
+  hash: "42e2075a8489e2127f46774ce3b3e526d313b14a"
+otherFiles: 0
+dependencies:
+  DM_8BallShrine.unr:
+  - status: "OK"
+    name: "GREECE"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "treeC1"
+  - status: "OK"
+    name: "Childrenmix"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "Mittelalter"
+  - status: "OK"
+    name: "ForsakenT"
+  ForsakenT.utx:
+  - status: "OK"
+    name: "WOTDetail"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/0/f/b/090155/DM_8BallShrine.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "8BallShrine"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Ancient: 0.9
+bots: true

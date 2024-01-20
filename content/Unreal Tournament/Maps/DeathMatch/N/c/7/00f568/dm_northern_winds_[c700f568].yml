@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-21 13:25"
+game: "Unreal Tournament"
+name: "DM_Northern_winds"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2022-10"
+attachments: []
+originalFilename: "DM_Northern_Winds.zip"
+hash: "c700f568c54811112d019ed5fae3e5d7240cd3cb"
+fileSize: 8574398
+files:
+- name: "ATLiquids.utx"
+  fileSize: 6881
+  hash: "070a35565d5eead5c848a9558f3efc5b61e44cde"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "FootstepsSnd.uax"
+  fileSize: 2438638
+  hash: "2f40fe4712790c8eddd7c96658a35fc33765d610"
+- name: "Northern_cold.utx"
+  fileSize: 5754161
+  hash: "47fb7b68c1d6cceb41cc1796530c38bb4d5ab3db"
+- name: "DM_Northern_winds.unr"
+  fileSize: 5387244
+  hash: "e9b1c99e8adad2a3b4fce91253811380c7e939e1"
+- name: "Nightwish-Angel.umx"
+  fileSize: 2442849
+  hash: "6d9beba9d43195e6353af5260c7fa2ce33b338b3"
+otherFiles: 0
+dependencies:
+  DM_Northern_winds.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "Nightwish-Angel"
+  - status: "OK"
+    name: "ATLiquids"
+  - status: "OK"
+    name: "Northern_cold"
+  Northern_cold.utx:
+  - status: "OK"
+    name: "FootstepsSnd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/c/7/00f568/DM_Northern_Winds.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM_Northern_Winds"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true

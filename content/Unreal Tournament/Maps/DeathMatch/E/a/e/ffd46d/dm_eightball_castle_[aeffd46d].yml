@@ -1,0 +1,118 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-21 13:25"
+game: "Unreal Tournament"
+name: "DM_Eightball_castle"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2023-11"
+attachments: []
+originalFilename: "DM_Eightball_Castle.zip"
+hash: "aeffd46d903877eee5dd1187c92eca3a4e7349c3"
+fileSize: 70070164
+files:
+- name: "Vanocni_pack_Newbies.utx"
+  fileSize: 30910447
+  hash: "8b6de20af7a1b81352a7927e8a6ca99cc3d98d75"
+- name: "MediPak.utx"
+  fileSize: 45285
+  hash: "3e41889a9965297708565899c5a71fe27e5e7fd7"
+- name: "Medieval_props_tex.utx"
+  fileSize: 4167534
+  hash: "68be0ace0b2d7630770fdcc956edf9ae3a653d43"
+- name: "MediDecos.u"
+  fileSize: 60338
+  hash: "bf3d5a32b249c72d22ec879b86a40410a04f9b41"
+- name: "Vanocni_textury_Newbies.utx"
+  fileSize: 33255560
+  hash: "32d0f5dc736ddfdb7a71c2b309f1542cdff4f128"
+- name: "MediTex.utx"
+  fileSize: 5649520
+  hash: "5f0f160967b7135b943656b8c804c5fe3e55d59e"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "XAX_Gothic.utx"
+  fileSize: 5939130
+  hash: "bf0fb27454ed285f17f95e80174ea416930bbb08"
+- name: "Medieval_props_Newbies.usm"
+  fileSize: 1525054
+  hash: "e819168537f05c3dc162336c3d07668afff5d9b0"
+- name: "Greek_objects_pack.utx"
+  fileSize: 14231369
+  hash: "fc7af6fc9a466958f2d9f143b6c821b362962170"
+- name: "Xmas_Newbies_pack.usm"
+  fileSize: 5532049
+  hash: "53894aa133312f284dfd1734f95abeb9f682c0ce"
+- name: "DM_Eightball_castle.unr"
+  fileSize: 13752211
+  hash: "517c121c96556197e493b80b95e36ff7b6d8b0fa"
+- name: "Senbonzakura_meshes.usm"
+  fileSize: 16130387
+  hash: "84e0b4eb003254d0ebc002b2abd30e9fae679c1d"
+- name: "Boxes_TRLE.utx"
+  fileSize: 1045446
+  hash: "440b5c987a1edc44a579932b29709115dd05a2f3"
+- name: "Senbonzakura_Newbies.utx"
+  fileSize: 26062688
+  hash: "15b45cd746f4c6a2c78bf175c49cd695b45d4af1"
+- name: "Greek_objects_NP.usm"
+  fileSize: 2981170
+  hash: "726551bc85aaa2f4a67315b4af16cd7c210e08a1"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+otherFiles: 0
+dependencies:
+  Medieval_props_Newbies.usm:
+  - status: "OK"
+    name: "Medieval_props_tex"
+  Greek_objects_NP.usm:
+  - status: "OK"
+    name: "Greek_objects_pack"
+  MediDecos.u:
+  - status: "PARTIAL"
+    name: "Meditex"
+  - status: "OK"
+    name: "Medipak"
+  Senbonzakura_meshes.usm:
+  - status: "OK"
+    name: "Senbonzakura_Newbies"
+  Xmas_Newbies_pack.usm:
+  - status: "OK"
+    name: "Vanocni_textury_Newbies"
+  - status: "OK"
+    name: "Vanocni_pack_Newbies"
+  DM_Eightball_castle.unr:
+  - status: "OK"
+    name: "Boxes_TRLE"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "Xmas_Newbies_pack"
+  - status: "OK"
+    name: "Medieval_props_Newbies"
+  - status: "OK"
+    name: "Senbonzakura_meshes"
+  - status: "OK"
+    name: "Medidecos"
+  - status: "OK"
+    name: "Greek_objects_NP"
+  - status: "OK"
+    name: "XAX_Gothic"
+  - status: "OK"
+    name: "Newbies_logo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/E/a/e/ffd46d/DM_Eightball_Castle.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Eightball_castle"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 1.0
+bots: true

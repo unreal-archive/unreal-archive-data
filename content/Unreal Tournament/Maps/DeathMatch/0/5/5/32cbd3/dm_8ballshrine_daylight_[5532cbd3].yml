@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-21 13:25"
+game: "Unreal Tournament"
+name: "DM_8BallShrine_Daylight"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2023-05"
+attachments: []
+originalFilename: "DM_8BallShrine_Daylight.zip"
+hash: "5532cbd3a71e20ae7684a83efc4cae6bcdeb426e"
+fileSize: 32649383
+files:
+- name: "DM_8BallShrine_Daylight.unr"
+  fileSize: 8408745
+  hash: "cc3f9612c61794d6da6a1cae62eb200d515cdf0f"
+- name: "Greek_objects_pack.utx"
+  fileSize: 14231369
+  hash: "fc7af6fc9a466958f2d9f143b6c821b362962170"
+- name: "Senbonzakura_Newbies.utx"
+  fileSize: 26062688
+  hash: "15b45cd746f4c6a2c78bf175c49cd695b45d4af1"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "Mittelalter.utx"
+  fileSize: 10558123
+  hash: "0613c05365c116b16c97c03e1ede078fcafa7377"
+- name: "Greek_objects_NP.usm"
+  fileSize: 2981170
+  hash: "726551bc85aaa2f4a67315b4af16cd7c210e08a1"
+- name: "Senbonzakura_meshes.usm"
+  fileSize: 16130387
+  hash: "84e0b4eb003254d0ebc002b2abd30e9fae679c1d"
+otherFiles: 0
+dependencies:
+  Greek_objects_NP.usm:
+  - status: "OK"
+    name: "Greek_objects_pack"
+  Senbonzakura_meshes.usm:
+  - status: "OK"
+    name: "Senbonzakura_Newbies"
+  DM_8BallShrine_Daylight.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "Mittelalter"
+  - status: "OK"
+    name: "Senbonzakura_meshes"
+  - status: "OK"
+    name: "Greek_objects_NP"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/0/5/5/32cbd3/DM_8BallShrine_Daylight.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_8BallShrine_Daylight"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
