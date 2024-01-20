@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-03 15:00"
+game: "Unreal Tournament 2004"
+name: "DM-[N6]-BlackWings-Fixed"
+author: "[N6]Creeping.Death"
+description: "Origional  map by Sudasana, 2k4 port/modification by [N6]Creeping.Death"
+releaseDate: "2004-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-n6-blackwings-fixed_shot_8d622843_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/N/8/d/622843/dm-n6-blackwings-fixed_shot_8d622843_1.png"
+originalFilename: "dm-_n6_-blackwings-fixed.zip"
+hash: "8d62284396b7c35e55389b0f4d0d28752c94812c"
+fileSize: 6562187
+files:
+- name: "DBShipwur.usx"
+  fileSize: 1508276
+  hash: "2e62600d3e07af87433effaabc68fee581ffa32c"
+- name: "DBShipTex.utx"
+  fileSize: 7777127
+  hash: "465ca12692a28ff1118769f1f45ecc283900df6a"
+- name: "DM-[N6]-BlackWings-Fixed.ut2"
+  fileSize: 8524254
+  hash: "ff4716cc353599174e0974739054053d6f908c23"
+otherFiles: 1
+dependencies:
+  DBShipwur.usx:
+  - status: "OK"
+    name: "DBShipTex"
+  DM-[N6]-BlackWings-Fixed.ut2:
+  - status: "OK"
+    name: "DBShipwur"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/N/8/d/622843/dm-_n6_-blackwings-fixed.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Blackwings 2k4"
+playerCount: "2-12"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Industrial: 0.4
+  Egyptian: 0.1
+bots: true
