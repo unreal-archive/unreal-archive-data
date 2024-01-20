@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:51"
+game: "Unreal Tournament"
+name: "MH-KomodoV0"
+author: "pinny"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-komodov0_shot_24005082_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/K/2/4/005082/mh-komodov0_shot_24005082_1.png"
+originalFilename: "MH-KomodoV0.7z"
+hash: "240050824cea46457373657646f0221d8b51e3c2"
+fileSize: 1387234
+files:
+- name: "treec1.u"
+  fileSize: 198908
+  hash: "ac6c80ed165366c062e2f6b7fce1e1f42ecf1109"
+- name: "MH-KomodoV0.unr"
+  fileSize: 4926121
+  hash: "12a4fd6b69a23e46a130e21d4a4d73a0c68f5553"
+otherFiles: 0
+dependencies:
+  MH-KomodoV0.unr:
+  - status: "OK"
+    name: "treeC1"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/K/2/4/005082/MH-KomodoV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Komodo"
+playerCount: "1-4"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: true

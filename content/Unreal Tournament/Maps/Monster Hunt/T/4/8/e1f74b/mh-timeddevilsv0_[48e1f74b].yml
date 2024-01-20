@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:52"
+game: "Unreal Tournament"
+name: "MH-TimedDevilsV0"
+author: "Vindicate"
+description: "None"
+releaseDate: "2022-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-timeddevilsv0_shot_48e1f74b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/4/8/e1f74b/mh-timeddevilsv0_shot_48e1f74b_1.png"
+originalFilename: "MH-TimedDevilsV0.7z"
+hash: "48e1f74b1e6db45e234482caeb3adeebe6f8f68a"
+fileSize: 2537577
+files:
+- name: "QBICT1.UTX"
+  fileSize: 915122
+  hash: "1f62e2dded5926ea0161bc86c75e55cf53f73592"
+- name: "MH-TimedDevilsV0.unr"
+  fileSize: 7633964
+  hash: "28db71471202ba049509c8aaf005596dffe63213"
+otherFiles: 0
+dependencies:
+  MH-TimedDevilsV0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "QBICT1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/4/8/e1f74b/MH-TimedDevilsV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "The Time Devils"
+playerCount: "~16"
+themes:
+  Nali Temple: 0.2
+  City: 0.2
+  Natural: 0.4
+  Nali Castle: 0.2
+  Egyptian: 0.1
+bots: true
