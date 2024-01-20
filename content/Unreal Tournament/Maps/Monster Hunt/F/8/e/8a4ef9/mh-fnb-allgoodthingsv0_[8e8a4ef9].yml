@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-06 18:31"
+game: "Unreal Tournament"
+name: "MH-FNB-AllGoodThingsV0"
+author: "FraGnBraG"
+description: "Copyright (c) 2019, 2020 Rob Burns. All Rights Reserved."
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-allgoodthingsv0_shot_8e8a4ef9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/8/e/8a4ef9/mh-fnb-allgoodthingsv0_shot_8e8a4ef9_1.png"
+originalFilename: "MH-FNB-AllGoodThingsV0.7z"
+hash: "8e8a4ef927abea63d8eec5ff071e9e51769d69dd"
+fileSize: 87933598
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "FacePalmM.u"
+  fileSize: 261502
+  hash: "e91e48872be8d41952af1bafb429bae60d0574d2"
+- name: "FacePalmT.utx"
+  fileSize: 85688642
+  hash: "b0e90e89c6839e936a169f4ad7788e95296302f2"
+- name: "MH-FNB-AllGoodThingsV0.unr"
+  fileSize: 65030463
+  hash: "20b3d4b9cdc833de2096075e4bb7ee072b30c982"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "Moroset.umx"
+  fileSize: 580306
+  hash: "735879aafeecf8796c0ee69d9bc94d9fa8781e48"
+otherFiles: 1
+dependencies:
+  FacePalmM.u:
+  - status: "OK"
+    name: "FacePalmT"
+  MH-FNB-AllGoodThingsV0.unr:
+  - status: "OK"
+    name: "FacePalmM"
+  - status: "OK"
+    name: "Moroset"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/8/e/8a4ef9/MH-FNB-AllGoodThingsV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF FNB All Good Things BETA1"
+playerCount: "8-16"
+themes:
+  Tech: 0.7
+  Industrial: 0.1
+  Ancient: 0.1
+bots: true

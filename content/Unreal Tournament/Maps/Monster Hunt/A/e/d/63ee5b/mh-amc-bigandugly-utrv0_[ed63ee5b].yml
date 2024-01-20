@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-06 18:31"
+game: "Unreal Tournament"
+name: "MH-AMC-BigAndUgly-UTRv0"
+author: "Rob -=FraGnBraG=- Burns"
+description: "Gigantic Space Station (c)2001-2018 Rob Burns. Uses UTR Xpickups."
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-amc-bigandugly-utrv0_shot_ed63ee5b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/e/d/63ee5b/mh-amc-bigandugly-utrv0_shot_ed63ee5b_1.png"
+originalFilename: "MH-AMC-BigAndUgly-UTRv0.7z"
+hash: "ed63ee5bc164e548a4a724a8ab25660d8ae0f953"
+fileSize: 24790747
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "MH-AMC-BigAndUgly-UTRv0.unr"
+  fileSize: 33990262
+  hash: "ac7b0650f1f92afb609e42563d20304190438047"
+otherFiles: 3
+dependencies:
+  MH-AMC-BigAndUgly-UTRv0.unr:
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "Isotoxin"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/e/d/63ee5b/MH-AMC-BigAndUgly-UTRv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF AMC Big and Ugly (UTR Xpickups)"
+playerCount: "12-24"
+themes:
+  Tech: 0.5
+  Industrial: 0.3
+  Skaarj Tech: 0.1
+bots: true

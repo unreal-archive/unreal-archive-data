@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-06 18:32"
+game: "Unreal Tournament"
+name: "MH-FNB-HyperFragV0"
+author: "Rob -=FraGnBraG=- Burns"
+description: "OMG another bloody starship CTF (c)2001,2005 Rob Burns"
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-hyperfragv0_shot_8998802b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/8/9/98802b/mh-fnb-hyperfragv0_shot_8998802b_1.png"
+originalFilename: "MH-FNB-HyperFragV0.7z"
+hash: "8998802bcf1dfbe8d25c89fbe627a55a52a7f369"
+fileSize: 13274195
+files:
+- name: "MH-FNB-HyperFragV0.unr"
+  fileSize: 30898400
+  hash: "62e8306f07cc0dbd6d60a6bb97ddf75c4676eed2"
+- name: "Sub2.umx"
+  fileSize: 3444590
+  hash: "c682e31d69d46f354e43ed327edba7a7310aaad9"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  MH-FNB-HyperFragV0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Sub2"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/8/9/98802b/MH-FNB-HyperFragV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF-FNB-HyperFrag"
+playerCount: "10-20"
+themes:
+  Tech: 0.2
+  Industrial: 0.7
+bots: true
