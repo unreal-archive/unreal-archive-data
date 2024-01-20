@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:25"
+game: "Unreal Tournament"
+name: "MH-AMC-DiminutiveV5"
+author: "Michael"
+description: "None"
+releaseDate: "2022-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-amc-diminutivev5_shot_d665bea8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/d/6/65bea8/mh-amc-diminutivev5_shot_d665bea8_1.png"
+originalFilename: "MH-AMC-DiminutiveV5.7z"
+hash: "d665bea84ccbe9401ae8575b2a29c5ea99ba740b"
+fileSize: 1301089
+files:
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "Journey.umx"
+  fileSize: 556161
+  hash: "6fea524c32d65075894686a96a4674669c3240e1"
+- name: "MH-AMC-DiminutiveV5.unr"
+  fileSize: 3349779
+  hash: "eb23a17f848de0d5d69f7e0344fe95dbdd905a57"
+otherFiles: 1
+dependencies:
+  MH-AMC-DiminutiveV5.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Journey"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/d/6/65bea8/MH-AMC-DiminutiveV5.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Edifice Drift"
+playerCount: "3 - 5"
+themes:
+  Tech: 0.3
+  Natural: 0.2
+  Skaarj Tech: 0.4
+bots: true

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:26"
+game: "Unreal Tournament"
+name: "MH-Wolf3Dv6"
+author: "ID software / Loos / Lode Vandevenne"
+description: "Wolfenstein 3D Level 1 total conversion for Unreal by Loos!"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-wolf3dv6_shot_1d28026b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/W/1/d/28026b/mh-wolf3dv6_shot_1d28026b_1.png"
+originalFilename: "MH-Wolf3Dv6.7z"
+hash: "1d28026b621e22aaa09fbe32032f3f1707f8551c"
+fileSize: 5416392
+files:
+- name: "MH-Wolf3Dv6.unr"
+  fileSize: 2415459
+  hash: "74e9c7d6ba18176050eab0918b1979cbc898e273"
+- name: "e1m1_fix.umx"
+  fileSize: 7158545
+  hash: "005648ac493277f07445d971bc7fdbeba765acb3"
+- name: "SodWolfenstein.utx"
+  fileSize: 345030
+  hash: "04220be550a1eb6fd7e38ae7b7ada49f07e71c11"
+- name: "wolf3dnazi.utx"
+  fileSize: 131697
+  hash: "0c9e1cb51df5fcec987ba4d16f6355dfa2828d98"
+- name: "wolfsounds.uax"
+  fileSize: 618805
+  hash: "cce434d4e8974921e225d819e22b99de7b97239e"
+- name: "wolf3dnazi.utx"
+  fileSize: 131689
+  hash: "2b1bc197db24bf82f20395522ca4f6cd69267011"
+- name: "Doom.utx"
+  fileSize: 6448855
+  hash: "3d379e25747d25e367e4000523eb20636bbba6cd"
+- name: "wolf3d.utx"
+  fileSize: 1706343
+  hash: "a4162800695084240a1642fd184e0fe5ca206d17"
+otherFiles: 2
+dependencies:
+  MH-Wolf3Dv6.unr:
+  - status: "OK"
+    name: "e1m1_fix"
+  - status: "OK"
+    name: "wolf3dnazi"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "wolfsounds"
+  - status: "OK"
+    name: "wolf3d"
+  - status: "OK"
+    name: "SodWolfenstein"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/W/1/d/28026b/MH-Wolf3Dv6.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Castle Wolfenstein"
+playerCount: "4-12"
+themes:
+  Natural: 0.9
+  City: 0.1
+bots: true
