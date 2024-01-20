@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:59"
+game: "Unreal Tournament"
+name: "MH-Research][v0"
+author: "Humphro"
+description: "Humphro is ur daddy!"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-researchv0_shot_8fe3fd93_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/f/e3fd93/mh-researchv0_shot_8fe3fd93_1.png"
+originalFilename: "MH-Research][v0.7z"
+hash: "8fe3fd931ec665a7c4646ec71fb4203125a5b3c5"
+fileSize: 6227656
+files:
+- name: "blast.umx"
+  fileSize: 226817
+  hash: "ae8f084f72e017669b95a1531be4a51ea286026a"
+- name: "Humphtex.utx"
+  fileSize: 190077
+  hash: "19e79cf2ebc66567ce34b7098338fe909c60ac59"
+- name: "HalfTrack.utx"
+  fileSize: 501051
+  hash: "758e3c7ca81173d0f6852207f95a55a63ea604c3"
+- name: "Submarine2.utx"
+  fileSize: 1815463
+  hash: "1e40710fc9958652c9780e87e62feda92d59d6b6"
+- name: "MH-Research][v0.unr"
+  fileSize: 3450627
+  hash: "67a9a322c7240687367eeb772e93142fc63bafb8"
+- name: "riv3.utx"
+  fileSize: 2878920
+  hash: "0f21f3115531873a443d9a4c95538b99cbe6c681"
+- name: "AdesertS.utx"
+  fileSize: 3136889
+  hash: "b5998f37a878d11856df3cc8684adee6086253c3"
+otherFiles: 0
+dependencies:
+  MH-Research][v0.unr:
+  - status: "OK"
+    name: "riv3"
+  - status: "OK"
+    name: "AdesertS"
+  - status: "OK"
+    name: "Submarine2"
+  - status: "OK"
+    name: "Humphtex"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "HalfTrack"
+  - status: "OK"
+    name: "blast"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/f/e3fd93/MH-Research%5D%5Bv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Research Compound"
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Natural: 0.1
+  Industrial: 0.4
+  Nali Castle: 0.1
+bots: true

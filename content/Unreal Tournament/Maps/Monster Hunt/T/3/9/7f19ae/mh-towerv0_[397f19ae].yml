@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:00"
+game: "Unreal Tournament"
+name: "MH-TowerV0"
+author: "by Blitz"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-towerv0_shot_397f19ae_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/3/9/7f19ae/mh-towerv0_shot_397f19ae_1.png"
+originalFilename: "MH-TowerV0.7z"
+hash: "397f19aee59662187e2c27b228cc4364d5b0b00d"
+fileSize: 4763127
+files:
+- name: "factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "Mier1snd.uax"
+  fileSize: 281666
+  hash: "9a62a52233db14b5d3d4bba5d02eb2655c45c6ab"
+- name: "MH-TowerV0.unr"
+  fileSize: 1913109
+  hash: "8708a732202528bcca229e2b51798e73e5010707"
+otherFiles: 1
+dependencies:
+  MH-TowerV0.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "mier1snd"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/3/9/7f19ae/MH-TowerV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Prison Tower"
+playerCount: "1+"
+themes:
+  Tech: 0.4
+  City: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.2
+bots: true

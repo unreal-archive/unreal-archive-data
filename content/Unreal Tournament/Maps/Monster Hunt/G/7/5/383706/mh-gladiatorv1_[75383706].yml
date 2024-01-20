@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:58"
+game: "Unreal Tournament"
+name: "MH-GladiatorV1"
+author: "Edin 'Doc_EDo' Hozic + Suck"
+description: "None"
+releaseDate: "2022-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-gladiatorv1_shot_75383706_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/7/5/383706/mh-gladiatorv1_shot_75383706_1.png"
+originalFilename: "MH-GladiatorV1.7z"
+hash: "75383706064f0a6fafc787a2563c2b7c688a705a"
+fileSize: 2291009
+files:
+- name: "k_vision.umx"
+  fileSize: 689549
+  hash: "4b3a77df5f9b13567b411f5c9d3de659bcbfe466"
+- name: "MH-GladiatorV1.unr"
+  fileSize: 5062172
+  hash: "bc14347dec5765374b485f420e4cc5048a39e950"
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+otherFiles: 0
+dependencies:
+  MH-GladiatorV1.unr:
+  - status: "OK"
+    name: "K_vision"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "DigSh"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/7/5/383706/MH-GladiatorV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Gladiator]["
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.2
+  Nali Castle: 0.4
+  Skaarj Tech: 0.2
+bots: true
