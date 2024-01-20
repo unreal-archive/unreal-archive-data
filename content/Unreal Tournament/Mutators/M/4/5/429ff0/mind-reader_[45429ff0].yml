@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-02-06 12:09"
+game: "Unreal Tournament"
+name: "Mind Reader"
+author: "Unknown"
+description: " See what bots are thinking"
+releaseDate: "2023-09"
+attachments: []
+originalFilename: "MindReader-1.19.zip"
+hash: "45429ff0eb3b158ddce03a8a806ab7f9b09b5f06"
+fileSize: 21765
+files:
+- name: "MindReader.u"
+  fileSize: 97421
+  hash: "ca33f95e9cbe70353c80a84a42a917a91c12eadd"
+- name: "MindReaderImpl.u"
+  fileSize: 1029
+  hash: "af924413a27eb8d40943156192b1c96f7b8b7692"
+otherFiles: 2
+dependencies:
+  MindReaderImpl.u:
+  - status: "OK"
+    name: "MindReader"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/M/4/5/429ff0/MindReader-1.19.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "Mind Reader"
+  description: " See what bots are thinking"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
