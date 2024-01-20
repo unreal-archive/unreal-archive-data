@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-28 17:36"
+game: "Unreal Tournament"
+name: "DM-MayanRuins"
+author: "NiX / Lunic"
+description: "None"
+releaseDate: "2023-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-mayanruins_shot_27d88539_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/2/7/d88539/dm-mayanruins_shot_27d88539_1.png"
+originalFilename: "DM-MayanRuins.zip"
+hash: "27d88539e322dd7707fec8ad090dda56eb302b10"
+fileSize: 24792205
+files:
+- name: "DaySkyBox.utx"
+  fileSize: 4333594
+  hash: "a2e7f9ce45e5ce9ce1bf7a1b9a8a8d11d12bbc4b"
+- name: "DM-MayanRuins.unr"
+  fileSize: 40792030
+  hash: "454227f62030416507a1049a1201a98a45ee2e22"
+- name: "atriumherbs.umx"
+  fileSize: 6027014
+  hash: "849c788b099e40c6e3694f05f563092c3dbfcef6"
+otherFiles: 0
+dependencies:
+  DM-MayanRuins.unr:
+  - status: "OK"
+    name: "atriumherbs"
+  - status: "OK"
+    name: "DaySkyBox"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/2/7/d88539/DM-MayanRuins.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MAYAN RUINS"
+playerCount: "Unknown"
+themes:
+  Natural: 0.8
+  Skaarj Crypt: 0.2
+bots: true

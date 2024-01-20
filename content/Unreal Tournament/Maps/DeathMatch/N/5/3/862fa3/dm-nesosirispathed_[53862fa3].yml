@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-28 17:37"
+game: "Unreal Tournament"
+name: "DM-[NES]OsirisPATHED"
+author: "Lunic / NiX"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-nesosirispathed_shot_53862fa3_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/5/3/862fa3/dm-nesosirispathed_shot_53862fa3_1.png"
+originalFilename: "DM-Osiris_Pathed.zip"
+hash: "53862fa35bd323903f009b10219f2692fbac80f0"
+fileSize: 50591750
+files:
+- name: "POERiverways.umx"
+  fileSize: 12426282
+  hash: "4864a10bec0fc3beb66e75bd4f14e6a74d485a63"
+- name: "DaySkyBox.utx"
+  fileSize: 4333594
+  hash: "a2e7f9ce45e5ce9ce1bf7a1b9a8a8d11d12bbc4b"
+- name: "DM-[NES]OsirisPATHED.unr"
+  fileSize: 75671619
+  hash: "288e3da43481266fc872277909cc261898c24b2a"
+otherFiles: 1
+dependencies:
+  DM-[NES]OsirisPATHED.unr:
+  - status: "OK"
+    name: "DaySkyBox"
+  - status: "OK"
+    name: "POERiverways"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/5/3/862fa3/DM-Osiris_Pathed.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "OSIRIS"
+playerCount: "8-16"
+themes:
+  Natural: 0.3
+  Nali Castle: 0.6
+  Ancient: 0.1
+bots: true
