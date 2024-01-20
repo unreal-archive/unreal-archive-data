@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-31 13:22"
+game: "Unreal Tournament"
+name: "MH-(BETA)ThadausV0"
+author: "Rob -=FraGnBraG=- Burns"
+description: "(c)2002, 2005 Rob Burns"
+releaseDate: "2024-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-betathadausv0_shot_413e930c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/4/1/3e930c/mh-betathadausv0_shot_413e930c_1.png"
+originalFilename: "MH-(BETA)ThadausV0.7z"
+hash: "413e930c00a9a0de8248dc88a0918b974be2f738"
+fileSize: 14602970
+files:
+- name: "GreatFire3.utx"
+  fileSize: 2059
+  hash: "802a9714072ec149af0a1029341fb6ab33ea8174"
+- name: "MH-(BETA)ThadausV0.unr"
+  fileSize: 14078737
+  hash: "873994b49cab9f1b257ec61f40f385bb796a01f5"
+- name: "EndEx.umx"
+  fileSize: 3123573
+  hash: "04734198c8c8a0e137386f90279693127e5ef409"
+- name: "WOTabulous.utx"
+  fileSize: 12607625
+  hash: "b910f847aa137879c74a1d2a429218020ac4ecb1"
+otherFiles: 1
+dependencies:
+  MH-(BETA)ThadausV0.unr:
+  - status: "OK"
+    name: "WOTabulous"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "EndEx"
+  - status: "OK"
+    name: "GreatFire3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/4/1/3e930c/MH-(BETA)ThadausV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "T\0h\0a\0d\04\x04u\0s\0 \0L\0a\0m\0e\0n\0t\0\0\0]"
+playerCount: "8-16"
+themes:
+  Natural: 0.8
+  Ancient: 0.2
+bots: true
