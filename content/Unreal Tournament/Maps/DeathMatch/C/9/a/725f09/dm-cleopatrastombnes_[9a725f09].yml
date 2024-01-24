@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-23 13:39"
+game: "Unreal Tournament"
+name: "DM-CleopatrasTomb[NES]"
+author: "Lunic"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-cleopatrastombnes_shot_9a725f09_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/9/a/725f09/dm-cleopatrastombnes_shot_9a725f09_1.png"
+originalFilename: "DM-CleopatrasTomb[NES].zip"
+hash: "9a725f097c0b60c0ca9f3834b4e6ab44dde4d8b2"
+fileSize: 25426263
+files:
+- name: "UTGhostOFAnubis2003.umx"
+  fileSize: 5387383
+  hash: "9970b374a3bebb827ac1a646f621efdd7637e9ae"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "DM-CleopatrasTomb[NES].unr"
+  fileSize: 36353128
+  hash: "e421201a59424956a9b847fd1a223200c4b8ce18"
+otherFiles: 0
+dependencies:
+  DM-CleopatrasTomb[NES].unr:
+  - status: "OK"
+    name: "UTGhostOFAnubis2003"
+  - status: "OK"
+    name: "DoorsSnd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/9/a/725f09/DM-CleopatrasTomb%5BNES%5D.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "CleopatrasTomb"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Skaarj Crypt: 0.2
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true
