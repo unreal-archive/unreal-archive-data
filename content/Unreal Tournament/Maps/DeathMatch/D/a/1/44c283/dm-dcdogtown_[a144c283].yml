@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-25 13:46"
+game: "Unreal Tournament"
+name: "DM-DCDogtown"
+author: "An Urban Street Battle Map"
+description: "None"
+releaseDate: "2023-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-dcdogtown_shot_a144c283_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/a/1/44c283/dm-dcdogtown_shot_a144c283_1.png"
+originalFilename: "DM-DCDogtown.zip"
+hash: "a144c2837cdad434887339e6710c162eaee936b6"
+fileSize: 6473588
+files:
+- name: "DM-DCDogtown.unr"
+  fileSize: 6536827
+  hash: "5a83ffb85bcc0fdaebde0d4df3ec1a32cf5e1016"
+- name: "frozencity1.utx"
+  fileSize: 1821850
+  hash: "0d31095afb09d5988f136253ccd627f5d212faf7"
+- name: "quickbro.umx"
+  fileSize: 325546
+  hash: "e7e27dc5f56732030ab654a6c11814a39ce183a8"
+- name: "dino081199.utx"
+  fileSize: 4324206
+  hash: "493c722bb86b552eea2c19d88403b1c3cea27003"
+otherFiles: 0
+dependencies:
+  DM-DCDogtown.unr:
+  - status: "OK"
+    name: "dino081199"
+  - status: "OK"
+    name: "frozencity1"
+  - status: "OK"
+    name: "quickbro"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/a/1/44c283/DM-DCDogtown.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM or Team DM"
+playerCount: "6-14"
+themes:
+  City: 0.8
+  Natural: 0.1
+  Industrial: 0.1
+bots: true
