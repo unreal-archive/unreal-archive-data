@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-01-25 13:46"
+game: "Unreal Tournament"
+name: "DM-DSBacktoSchool"
+author: "David -DarkSniper- Brown"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-dsbacktoschool_shot_0a448f31_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/0/a/448f31/dm-dsbacktoschool_shot_0a448f31_1.png"
+originalFilename: "DM-DSBacktoSchool.zip"
+hash: "0a448f31f735a27c164c0a25c5cfe2e24a30533d"
+fileSize: 43068098
+files:
+- name: "DSSchoolSD.uax"
+  fileSize: 14662690
+  hash: "e6c11a25d7fdd4f10c534cccaa84713f9680f002"
+- name: "DM-DSBacktoSchool.unr"
+  fileSize: 60334251
+  hash: "e3491ec5ee53c4d55fa8ec1aa17292df516cf2c7"
+- name: "DSSchoolDays.umx"
+  fileSize: 5911919
+  hash: "0d5566c43b4ef1243ff2847b32652ae4e220f2d4"
+otherFiles: 1
+dependencies:
+  DM-DSBacktoSchool.unr:
+  - status: "OK"
+    name: "DSSchoolSD"
+  - status: "OK"
+    name: "DSSchoolDays"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/0/a/448f31/DM-DSBacktoSchool.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DS Back to School"
+playerCount: "8-16"
+themes:
+  Natural: 0.1
+  Egyptian: 0.9
+bots: true
