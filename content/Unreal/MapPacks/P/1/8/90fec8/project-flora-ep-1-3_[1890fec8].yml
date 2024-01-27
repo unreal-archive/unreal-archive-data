@@ -1,0 +1,64 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-01-25 17:46"
+game: "Unreal"
+name: "Project Flora Ep 1-3"
+author: "Makemeunreal"
+description: "None"
+releaseDate: "2013-05"
+attachments: []
+originalFilename: "unreal1projectflora1v5052013.zip"
+hash: "1890fec8727112eeb0a3f8f2769459a458200c37"
+fileSize: 1384657
+files:
+- name: "UPSXQuad.u"
+  fileSize: 190526
+  hash: "fb425e90728bb2fc89f63a4e2144af04abc1477a"
+- name: "PSXMinotaur.u"
+  fileSize: 1269956
+  hash: "4b5c7801ab2928cbcc590a8648793564b102b250"
+- name: "flora1.unr"
+  fileSize: 173265
+  hash: "4fcb6f8622d810ce606986f665c36bbe3f773cb4"
+- name: "flora3.unr"
+  fileSize: 513899
+  hash: "996a9731d50b62d49215d2467c4c6d6dd6eefcbd"
+- name: "flora2.unr"
+  fileSize: 341555
+  hash: "eb1ee2d8dac02e612c78cf88cd8cd2cc6bdf5176"
+otherFiles: 1
+dependencies:
+  flora3.unr:
+  - status: "OK"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "PSXMinotaur"
+  - status: "MISSING"
+    name: "UPak"
+  flora2.unr:
+  - status: "MISSING"
+    name: "UPak"
+  flora1.unr:
+  - status: "MISSING"
+    name: "UPak"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/1/8/90fec8/unreal1projectflora1v5052013.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "flora1"
+  title: "flora1"
+  author: "Makemeunreal"
+- name: "flora3"
+  title: "flora3"
+  author: "makemeunreal"
+- name: "flora2"
+  title: "flora2"
+  author: "makemeunreal"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.3
+  Ancient: 0.1
