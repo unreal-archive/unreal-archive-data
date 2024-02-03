@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-03 08:25"
+game: "Unreal"
+name: "DM-DesertIsle"
+author: "Bastiaan (Checker) Frank"
+description: "None"
+releaseDate: "2022-10"
+attachments: []
+originalFilename: "UDM-DesertIsle.zip"
+hash: "2b7d5731a48ce0f3ec25cf7c8613ff82f0f31484"
+fileSize: 6311578
+files:
+- name: "DM-DesertIsle.unr"
+  fileSize: 1433130
+  hash: "2e81941ac187f145ea2ee1503240c572f2320457"
+- name: "UT2k4-Level13.umx"
+  fileSize: 4221990
+  hash: "ab6658753e2a67a901808153a9b537333d5c1fd6"
+- name: "DesertIsleMeshes.usm"
+  fileSize: 3036616
+  hash: "1579e4621f9ebd8c798f04d3b13cc39959324749"
+otherFiles: 0
+dependencies:
+  DM-DesertIsle.unr:
+  - status: "OK"
+    name: "UT2k4-Level13"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "DesertIsleMeshes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/2/b/7d5731/UDM-DesertIsle.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DesertIsle"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
