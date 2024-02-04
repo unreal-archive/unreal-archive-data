@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-02-04 13:19"
+game: "Unreal Tournament 2004"
+name: "UT3 Viper"
+author: "Unknown"
+description: "This mutator replaces the Manta with the Viper from UT3."
+releaseDate: "2012-02"
+attachments: []
+originalFilename: "UT3ViperB3.7z"
+hash: "120995dfedaf624bcb0f17db1a172b4bcfa8c6f9"
+fileSize: 4086933
+files:
+- name: "UT3ViperTex.utx"
+  fileSize: 13284423
+  hash: "c270feaa71726d31e9b17b5ece16fca7a1866203"
+- name: "UT3ViperAnims.ukx"
+  fileSize: 1178341
+  hash: "1af9d41dbcc975e3ea25df9037684089f887dae6"
+- name: "UT3ViperB3.u"
+  fileSize: 824425
+  hash: "8bf2a1ef31051bea834126e98f3f5defff342e3e"
+- name: "UT3ViperSM.usx"
+  fileSize: 991146
+  hash: "733f18f23fc3f35185fe10edc9f1c8ece5e2df8f"
+otherFiles: 3
+dependencies:
+  UT3ViperB3.u:
+  - status: "OK"
+    name: "UT3ViperTex"
+  - status: "OK"
+    name: "UT3ViperSM"
+  - status: "OK"
+    name: "UT3ViperAnims"
+  UT3ViperAnims.ukx:
+  - status: "OK"
+    name: "UT3ViperTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/1/2/0995df/UT3ViperB3.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT3 Viper"
+  description: "This mutator replaces the Manta with the Viper from UT3."
+weapons: []
+vehicles:
+- name: "UT3 Viper"
+  description: "UT3 Viper"
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-04 13:19"
+game: "Unreal Tournament 2004"
+name: "CTF-FacingWorlds99Redux[KB]BETA6"
+author: "Sly"
+description: "Two different towers + one asteroid + two flags = Facing Worlds    \
+  \                  tribute to Cedric 'Inoxx' Fiorentino"
+releaseDate: "2010-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-facingworlds99reduxkbbeta6_shot_31c4e15e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/3/1/c4e15e/ctf-facingworlds99reduxkbbeta6_shot_31c4e15e_1.png"
+originalFilename: "Face99ReduxBETA6.zip"
+hash: "31c4e15ef3c5961df1946e2073cecdad49a67b52"
+fileSize: 34996467
+files:
+- name: "Ripper2k4.u"
+  fileSize: 22208
+  hash: "9225e9bb82ec3535dd79cd94ee0dc23ccb5a6fb4"
+- name: "AmbModern.uax"
+  fileSize: 6112404
+  hash: "dac845ee6fd628e223a2c36e66d866b145bb5444"
+- name: "Ripper.u"
+  fileSize: 22208
+  hash: "9225e9bb82ec3535dd79cd94ee0dc23ccb5a6fb4"
+- name: "RipperTex.utx"
+  fileSize: 3169064
+  hash: "25c8e7aef20473c66e9b5c0eb77fd113e584c16f"
+- name: "ForegoneDestruction.ogg"
+  fileSize: 4053534
+  hash: "85914c3876533d337f9d982e48d4d068caa0b86b"
+- name: "RipperMeshes.usx"
+  fileSize: 325533
+  hash: "561d49593fdf3d4b2cc05710ea4ac0823953da29"
+- name: "RipperAnim.ukx"
+  fileSize: 804778
+  hash: "8603a9c4651da4ddd7dec2e535b6879fa018c32c"
+- name: "CTF-FacingWorlds99Redux[KB]BETA6.ut2"
+  fileSize: 42593241
+  hash: "503ee4399785f7a1e8e29d3c573385ec633ea66e"
+- name: "RipperSounds.uax"
+  fileSize: 117608
+  hash: "90f3f4f58b6e125afa0fa552f280eb9a7d85729d"
+otherFiles: 3
+dependencies:
+  RipperMeshes.usx:
+  - status: "OK"
+    name: "RipperTex"
+  RipperAnim.ukx:
+  - status: "OK"
+    name: "RipperTex"
+  Ripper2k4.u:
+  - status: "OK"
+    name: "RipperAnim"
+  - status: "OK"
+    name: "RipperTex"
+  - status: "OK"
+    name: "RipperSounds"
+  - status: "OK"
+    name: "RipperMeshes"
+  Ripper.u:
+  - status: "OK"
+    name: "RipperAnim"
+  - status: "OK"
+    name: "RipperTex"
+  - status: "OK"
+    name: "RipperSounds"
+  - status: "OK"
+    name: "RipperMeshes"
+  CTF-FacingWorlds99Redux[KB]BETA6.ut2:
+  - status: "OK"
+    name: "AmbModern"
+  - status: "OK"
+    name: "Ripper2k4"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/3/1/c4e15e/Face99ReduxBETA6.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "The Facing Worlds"
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  Industrial: 0.6
+  Egyptian: 0.1
+  Ancient: 0.1
+bots: true
