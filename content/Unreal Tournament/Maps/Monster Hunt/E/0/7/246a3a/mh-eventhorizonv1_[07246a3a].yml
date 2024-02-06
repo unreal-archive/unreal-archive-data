@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:58"
+game: "Unreal Tournament"
+name: "MH-EventHorizon][v1"
+author: "Ketan 'KeK' Joshi"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-eventhorizonv1_shot_07246a3a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/0/7/246a3a/mh-eventhorizonv1_shot_07246a3a_1.png"
+originalFilename: "MH-EventHorizon][v1.7z"
+hash: "07246a3afc8bb0f301448fd656e5ec7e40808009"
+fileSize: 2454265
+files:
+- name: "MH-EventHorizon][v1.unr"
+  fileSize: 2768257
+  hash: "0cf89f36389747b9e67f46fe290b3a0e1c987f55"
+- name: "bigassgun.utx"
+  fileSize: 4213040
+  hash: "d04a586c944cbfc671977172f058d69d01293f3e"
+- name: "m-i.umx"
+  fileSize: 336634
+  hash: "e5f151bdb616b3887639014861f469650860b903"
+otherFiles: 1
+dependencies:
+  MH-EventHorizon][v1.unr:
+  - status: "OK"
+    name: "m-i"
+  - status: "OK"
+    name: "bigassgun"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/0/7/246a3a/MH-EventHorizon%5D%5Bv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Event Horizon II"
+playerCount: "5-10"
+themes:
+  Tech: 0.4
+  Natural: 0.3
+  Industrial: 0.1
+  Skaarj Tech: 0.2
+bots: true
