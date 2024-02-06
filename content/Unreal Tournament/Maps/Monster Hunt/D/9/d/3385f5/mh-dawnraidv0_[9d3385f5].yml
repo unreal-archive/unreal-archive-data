@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:39"
+game: "Unreal Tournament"
+name: "MH-DawnRaidV0"
+author: "Muttley"
+description: "Fight!"
+releaseDate: "2021-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-dawnraidv0_shot_9d3385f5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/9/d/3385f5/mh-dawnraidv0_shot_9d3385f5_1.png"
+originalFilename: "MH-DawnRaidV0.zip"
+hash: "9d3385f57b7e4018ab03a5676ac9b2a7c8609fef"
+fileSize: 7100260
+files:
+- name: "MonkeyG.utx"
+  fileSize: 6473311
+  hash: "34fd44281b6ba159a3fb926226f866dd8dc1d8d3"
+- name: "DawnRaid.utx"
+  fileSize: 234502
+  hash: "882f2abc2f40a380166882c5bae094738dd8c453"
+- name: "MH-DawnRaidV0.unr"
+  fileSize: 8442798
+  hash: "1bc3750573c49ab4c4d81ab4fbea3d9916a8d78e"
+- name: "GatewaysII.umx"
+  fileSize: 1024642
+  hash: "62e39358cc417bdd9b90199b446b28ec13233517"
+otherFiles: 1
+dependencies:
+  MH-DawnRaidV0.unr:
+  - status: "OK"
+    name: "DawnRaid"
+  - status: "OK"
+    name: "MonkeyG"
+  - status: "OK"
+    name: "GatewaysII"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/9/d/3385f5/MH-DawnRaidV0.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "AS-DawnRaid"
+playerCount: "6-12"
+themes:
+  Tech: 0.3
+  Industrial: 0.5
+  Skaarj Tech: 0.2
+bots: true
