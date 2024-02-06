@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:51"
+game: "Unreal Tournament"
+name: "MH-FalloutShelterV0"
+author: "ExpEM"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-falloutshelterv0_shot_fb50ca3e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/f/b/50ca3e/mh-falloutshelterv0_shot_fb50ca3e_1.png"
+originalFilename: "MH-FalloutShelterV0.7z"
+hash: "fb50ca3e6cc83282b588993ed064b7d5eebeff6d"
+fileSize: 2516471
+files:
+- name: "MH-FalloutShelterV0.unr"
+  fileSize: 5707576
+  hash: "d61aa871579c76a955f91f1210f6c467c3206f03"
+- name: "ExitSigns.utx"
+  fileSize: 32831
+  hash: "c93b742b8f05173c34035f2d37fbf08d89575dd0"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 0
+dependencies:
+  MH-FalloutShelterV0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ExitSigns"
+  - status: "OK"
+    name: "RichRig"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/f/b/50ca3e/MH-FalloutShelterV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Fallout Shelter"
+playerCount: "1-32"
+themes:
+  City: 0.5
+  Industrial: 0.4
+  Skaarj Tech: 0.1
+bots: true
