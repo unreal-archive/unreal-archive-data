@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:17"
+game: "Unreal Tournament"
+name: "CTF-XV-TorlanV2"
+author: "BlackCheetah"
+description: "None"
+releaseDate: "2022-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-torlanv2_shot_1bc65acb_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/T/1/b/c65acb/ctf-xv-torlanv2_shot_1bc65acb_1.png"
+originalFilename: "CTF-XV-TorlanV2.7z"
+hash: "1bc65acba4a4ee7adf37e841f67f81f76edc7416"
+fileSize: 4742262
+files:
+- name: "CTF-XV-TorlanV2.unr"
+  fileSize: 6252770
+  hash: "9b14e04cfadc262a978310368c7235f3dac526f9"
+- name: "Torlan.umx"
+  fileSize: 5082454
+  hash: "58ba2ac876fa29249a2e7b9f5d4419ddf53733ef"
+otherFiles: 1
+dependencies:
+  CTF-XV-TorlanV2.unr:
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "OK"
+    name: "Torlan"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/T/1/b/c65acb/CTF-XV-TorlanV2.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "UT2k4 Torlan Conversion"
+playerCount: "10-32"
+themes:
+  Industrial: 1.0
+bots: true

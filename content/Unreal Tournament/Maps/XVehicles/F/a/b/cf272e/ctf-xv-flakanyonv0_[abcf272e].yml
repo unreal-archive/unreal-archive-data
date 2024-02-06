@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:15"
+game: "Unreal Tournament"
+name: "CTF-XV-FlakanyonV0"
+author: "HumaK"
+description: "None"
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-flakanyonv0_shot_abcf272e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/F/a/b/cf272e/ctf-xv-flakanyonv0_shot_abcf272e_1.png"
+originalFilename: "CTF-XV-FlakanyonV0.7z"
+hash: "abcf272e6d2c8a758ec5c8c1ac0372302cf04200"
+fileSize: 200020
+files:
+- name: "CTF-XV-FlakanyonV0.unr"
+  fileSize: 840365
+  hash: "0c62071c5f330deb4883bc8944808b60a3044427"
+otherFiles: 1
+dependencies:
+  CTF-XV-FlakanyonV0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/F/a/b/cf272e/CTF-XV-FlakanyonV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Flakanyon"
+playerCount: "6-8"
+themes:
+  Industrial: 0.7
+  Skaarj Tech: 0.3
+bots: true

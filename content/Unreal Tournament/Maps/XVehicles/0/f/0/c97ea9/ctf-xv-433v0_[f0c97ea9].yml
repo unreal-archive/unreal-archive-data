@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:12"
+game: "Unreal Tournament"
+name: "CTF-XV-433v0"
+author: "Peter \"fKd\" Ward"
+description: "None"
+releaseDate: "2022-11"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-433v0_shot_f0c97ea9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/0/f/0/c97ea9/ctf-xv-433v0_shot_f0c97ea9_1.png"
+originalFilename: "CTF-XV-433v0.7z"
+hash: "f0c97ea9fb9d055b3e7c9575929256e1b131fb81"
+fileSize: 726911
+files:
+- name: "CTF-XV-433v0.unr"
+  fileSize: 3829785
+  hash: "bca7cfac5e7c83b3127de1eeb2a72dbda1538180"
+- name: "433.utx"
+  fileSize: 200902
+  hash: "33c1fba48edaae2e925fbbcecff7513d3f3f1dfa"
+otherFiles: 2
+dependencies:
+  CTF-XV-433v0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "433"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/0/f/0/c97ea9/CTF-XV-433v0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "CTF-433"
+playerCount: "8-32"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true

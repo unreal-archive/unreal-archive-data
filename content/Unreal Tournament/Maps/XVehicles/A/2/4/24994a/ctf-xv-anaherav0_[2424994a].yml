@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:12"
+game: "Unreal Tournament"
+name: "CTF-XV-AnaheraV0"
+author: "Wulff"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-anaherav0_shot_2424994a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/2/4/24994a/ctf-xv-anaherav0_shot_2424994a_1.png"
+originalFilename: "CTF-XV-AnaheraV0.7z"
+hash: "2424994aceea2a576ddd77508191c6875f827843"
+fileSize: 13535049
+files:
+- name: "CTF-XV-AnaheraV0.unr"
+  fileSize: 28610376
+  hash: "b16e2f675f020a0b2c15428ca0ba6524b6d36250"
+- name: "SDG-ONS08.umx"
+  fileSize: 3472252
+  hash: "d3280fa28b24e9dd52c91a91a2a51b27d8c5ae41"
+otherFiles: 1
+dependencies:
+  CTF-XV-AnaheraV0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "xZones"
+  - status: "OK"
+    name: "SDG-ONS08"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/2/4/24994a/CTF-XV-AnaheraV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Anahera"
+playerCount: "8-16"
+themes: {}
+bots: true

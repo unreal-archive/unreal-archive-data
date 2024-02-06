@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:12"
+game: "Unreal Tournament"
+name: "CTF-XV-Anda][XL3v0"
+author: "CharGer_GTi"
+description: "None"
+releaseDate: "2022-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-andaxl3v0_shot_05c16bfe_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/0/5/c16bfe/ctf-xv-andaxl3v0_shot_05c16bfe_1.png"
+originalFilename: "CTF-XV-Anda][XL3v0.7z"
+hash: "05c16bfeb2fe8657e6f895a7cd7cfe86f1d87914"
+fileSize: 5606840
+files:
+- name: "CTF-XV-Anda][XL3v0.unr"
+  fileSize: 2472636
+  hash: "69c71d8bc80b3e6aece4c0a54728a0d5db690b18"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 2
+dependencies:
+  CTF-XV-Anda][XL3v0.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/0/5/c16bfe/CTF-XV-Anda%5D%5BXL3v0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Anda - Extra Large V3"
+playerCount: "8-12"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  Skaarj Tech: 0.7
+bots: true

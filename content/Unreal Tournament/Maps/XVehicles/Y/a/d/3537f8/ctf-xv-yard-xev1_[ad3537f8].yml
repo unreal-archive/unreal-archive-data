@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:17"
+game: "Unreal Tournament"
+name: "CTF-XV-Yard-XEv1"
+author: "]OfC[Saint"
+description: "None"
+releaseDate: "2023-09"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-yard-xev1_shot_ad3537f8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/Y/a/d/3537f8/ctf-xv-yard-xev1_shot_ad3537f8_1.png"
+originalFilename: "CTF-XV-Yard-XEv1.7z"
+hash: "ad3537f81db8149c5509927acdb9dba563453a15"
+fileSize: 3211952
+files:
+- name: "CTF-XV-Yard-XEv1.unr"
+  fileSize: 1416100
+  hash: "111316b199d3119f8c85cfd9a14ef227846ca427"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+otherFiles: 2
+dependencies:
+  CTF-XV-Yard-XEv1.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "Fallout"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/Y/a/d/3537f8/CTF-XV-Yard-XEv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "CTF-Yard"
+playerCount: "4"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true

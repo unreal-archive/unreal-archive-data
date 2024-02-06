@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:15"
+game: "Unreal Tournament"
+name: "CTF-XV-GooYou-MiAv1"
+author: "ZaZeRaZiFiN"
+description: "None"
+releaseDate: "2023-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-gooyou-miav1_shot_248bd7d1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/G/2/4/8bd7d1/ctf-xv-gooyou-miav1_shot_248bd7d1_1.png"
+originalFilename: "CTF-XV-GooYou-MiAv1.7z"
+hash: "248bd7d1377bc40b11f1b8b349a4789aa8c72332"
+fileSize: 4769371
+files:
+- name: "CTF-XV-GooYou-MiAv1.unr"
+  fileSize: 10332400
+  hash: "47111a8336cf0addb9903c5d7956d123aba6c076"
+- name: "bioforgeacid.umx"
+  fileSize: 1035929
+  hash: "7888bddbd0e35082f7a46009f237a059d4328672"
+otherFiles: 1
+dependencies:
+  CTF-XV-GooYou-MiAv1.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "xZones"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+  - status: "OK"
+    name: "bioforgeacid"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/G/2/4/8bd7d1/CTF-XV-GooYou-MiAv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "GooYou2k10"
+playerCount: "6-10"
+themes: {}
+bots: true

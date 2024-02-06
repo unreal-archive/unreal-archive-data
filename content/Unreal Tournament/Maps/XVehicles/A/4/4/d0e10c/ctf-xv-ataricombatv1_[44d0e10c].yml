@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:13"
+game: "Unreal Tournament"
+name: "CTF-XV-AtariCombatV1"
+author: "Rumpleforeskin"
+description: "Get Ready For A Retro Fragfest!"
+releaseDate: "2023-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-ataricombatv1_shot_44d0e10c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/4/4/d0e10c/ctf-xv-ataricombatv1_shot_44d0e10c_1.png"
+originalFilename: "CTF-XV-AtariCombatV1.7z"
+hash: "44d0e10c6366f79da77499ef3e837b33d635ba5f"
+fileSize: 2780970
+files:
+- name: "CTF-XV-AtariCombatV1.unr"
+  fileSize: 5054597
+  hash: "c30eb4fc3c4fefb220dbf25c06f625b4ee5f910c"
+- name: "atari_2600.umx"
+  fileSize: 890522
+  hash: "37cf337bc9755bc6eb91937e424159cc354c7b15"
+otherFiles: 2
+dependencies:
+  CTF-XV-AtariCombatV1.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "OK"
+    name: "atari_2600"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/4/4/d0e10c/CTF-XV-AtariCombatV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Atari_Combat"
+playerCount: "6-10"
+themes: {}
+bots: true

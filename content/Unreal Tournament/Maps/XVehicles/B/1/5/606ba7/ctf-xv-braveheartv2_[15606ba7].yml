@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:13"
+game: "Unreal Tournament"
+name: "CTF-XV-BraveheartV2"
+author: "[FED]Billy_B  Billy_B@FedaykinUTclan.cjb.net"
+description: "[FED] CLAN Custom Map"
+releaseDate: "2022-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-braveheartv2_shot_15606ba7_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/B/1/5/606ba7/ctf-xv-braveheartv2_shot_15606ba7_1.png"
+originalFilename: "CTF-XV-BraveheartV2.7z"
+hash: "15606ba726fc6bcd436f341c04ceb0800a874d0e"
+fileSize: 1649779
+files:
+- name: "Braveheart.utx"
+  fileSize: 693109
+  hash: "c655669d1b36628707ab7c6e765556346c0ddb77"
+- name: "Eversmok.umx"
+  fileSize: 795864
+  hash: "cebd445a9b0fb87bfb91c5258586cb8e77be8dc4"
+- name: "CTF-XV-BraveheartV2.unr"
+  fileSize: 2515708
+  hash: "85d7643ddcda4054ae4559f62a8d4e9ccdfe1de6"
+otherFiles: 3
+dependencies:
+  CTF-XV-BraveheartV2.unr:
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "Eversmok"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "Braveheart"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/B/1/5/606ba7/CTF-XV-BraveheartV2.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "[FED]Ace's Braveheart"
+playerCount: "4-12"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.5
+  Ancient: 0.3
+bots: true
