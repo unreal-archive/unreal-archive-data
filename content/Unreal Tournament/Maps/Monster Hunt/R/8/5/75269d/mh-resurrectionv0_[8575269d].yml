@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:47"
+game: "Unreal Tournament"
+name: "MH-Resurrection][v0"
+author: "NarkyBark  (psarris@cesium.clock.org)"
+description: "\"...and the day will come, when your defenses will fall, and I will\
+  \ live again.\""
+releaseDate: "2022-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-resurrectionv0_shot_8575269d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/5/75269d/mh-resurrectionv0_shot_8575269d_1.png"
+originalFilename: "MH-Resurrection][v0.7z"
+hash: "8575269ddf671f96a566efbc551d472f667a7459"
+fileSize: 1146935
+files:
+- name: "MH-Resurrection][v0.unr"
+  fileSize: 2345474
+  hash: "765eb6331ec41e55d6599d2ee6a14db1e687fd77"
+- name: "ResurrectAux.uax"
+  fileSize: 741394
+  hash: "81c387d777182835721c313b38135f6cf9f9f1ef"
+- name: "ResurrectTex.utx"
+  fileSize: 102653
+  hash: "b6711c6272f1d49653bc799f54fc9756dab8aca8"
+otherFiles: 1
+dependencies:
+  MH-Resurrection][v0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ResurrectTex"
+  - status: "OK"
+    name: "ResurrectAux"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/8/5/75269d/MH-Resurrection%5D%5Bv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Resurrection of the Warlock"
+playerCount: "6 - 12"
+themes:
+  Skaarj Crypt: 0.4
+  Ancient: 0.5
+bots: true

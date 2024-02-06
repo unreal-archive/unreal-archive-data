@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:47"
+game: "Unreal Tournament"
+name: "MH-WolfV1"
+author: "Grz"
+description: "None"
+releaseDate: "2022-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-wolfv1_shot_62d270fa_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/W/6/2/d270fa/mh-wolfv1_shot_62d270fa_1.png"
+originalFilename: "MH-WolfV1.7z"
+hash: "62d270fab2e0237f080facf0f5570a6762a44e5e"
+fileSize: 3579389
+files:
+- name: "MH-WolfV1.unr"
+  fileSize: 6219743
+  hash: "a46344d497a3a42ead8794fad5e023f7f93dcd19"
+- name: "opwolf.utx"
+  fileSize: 857588
+  hash: "c4efa0f5dad3b1d3e34e65bc2a8c2008017b2c2a"
+- name: "wolf2.umx"
+  fileSize: 2336323
+  hash: "3f982a8e20494ba2fd355412ebf122dc70ce6804"
+- name: "cbrad_indus.utx"
+  fileSize: 556488
+  hash: "0aa993150536b504553ff36d686801692e555889"
+otherFiles: 1
+dependencies:
+  MH-WolfV1.unr:
+  - status: "OK"
+    name: "wolf2"
+  - status: "MISSING"
+    name: "wolf"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "cbrad_indus"
+  - status: "OK"
+    name: "opwolf"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/W/6/2/d270fa/MH-WolfV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Operation Wolf"
+playerCount: "8-12"
+themes:
+  Tech: 0.7
+  City: 0.1
+  Industrial: 0.1
+  Skaarj Tech: 0.1
+bots: true
