@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:03"
+game: "Unreal Tournament"
+name: "MH-XV-UFR4-MoonSiegeV0"
+author: "Gator"
+description: "Recapture Moon Outpost and Shoot Down the Attacking Spacecraft!"
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-ufr4-moonsiegev0_shot_f94fe620_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/U/f/9/4fe620/mh-xv-ufr4-moonsiegev0_shot_f94fe620_1.png"
+originalFilename: "MH-XV-UFR4-MoonSiegeV0.7z"
+hash: "f94fe620bc7eda0474ea07f347245608d8f36479"
+fileSize: 2186075
+files:
+- name: "Bettermover.u"
+  fileSize: 5073
+  hash: "5f46c9dd82274cd78b99c71f18b777b2da7c4381"
+- name: "UFR-Star.utx"
+  fileSize: 1502262
+  hash: "29d9c9c2d2903b106d05e9bd5b37d8d7913e4a77"
+- name: "Quake3c.utx"
+  fileSize: 1845345
+  hash: "25699fef086351293267a94a7cad30af2382062a"
+- name: "MH-XV-UFR4-MoonSiegeV0.unr"
+  fileSize: 2716957
+  hash: "69686785473f4549282b04d3ae0d87252b3fb475"
+- name: "Bridge38.utx"
+  fileSize: 179132
+  hash: "7d4ce5bce6263776f971b2a915563c81341e7b87"
+otherFiles: 2
+dependencies:
+  MH-XV-UFR4-MoonSiegeV0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "UFR-Star"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "QUAKE3c"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "FixGun"
+  - status: "OK"
+    name: "Bridge38"
+  - status: "OK"
+    name: "Bettermover"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/U/f/9/4fe620/MH-XV-UFR4-MoonSiegeV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "XVehicles"
+title: "Moon Siege"
+playerCount: "8-12"
+themes:
+  Tech: 0.9
+  City: 0.1
+bots: true
