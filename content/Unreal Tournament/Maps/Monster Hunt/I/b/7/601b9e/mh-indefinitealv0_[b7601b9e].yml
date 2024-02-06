@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:59"
+game: "Unreal Tournament"
+name: "MH-IndefiniteALv0"
+author: "Suck"
+description: "None"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-indefinitealv0_shot_b7601b9e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/b/7/601b9e/mh-indefinitealv0_shot_b7601b9e_1.png"
+originalFilename: "MH-IndefiniteALv0.7z"
+hash: "b7601b9ebfe1bc9c43ebb23f5fe3797ddf8b9a88"
+fileSize: 1950795
+files:
+- name: "MH-IndefiniteALv0.unr"
+  fileSize: 5025028
+  hash: "7713df5d187a76c9ed57127eeebccc0ffc58e5fd"
+- name: "Np-ty.umx"
+  fileSize: 1069011
+  hash: "36c6b664817654f1001eba78357ca83bd32075ac"
+otherFiles: 1
+dependencies:
+  MH-IndefiniteALv0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Np-ty"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/b/7/601b9e/MH-IndefiniteALv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "IndefiniteAL"
+playerCount: "8+"
+themes:
+  Natural: 0.8
+  Nali Castle: 0.2
+bots: true

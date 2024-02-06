@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:26"
+game: "Unreal Tournament"
+name: "MH-FoT-ChronoshiftV7"
+author: "Revelation"
+description: "None"
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-fot-chronoshiftv7_shot_c403fdab_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/c/4/03fdab/mh-fot-chronoshiftv7_shot_c403fdab_1.png"
+originalFilename: "MH-FoT-ChronoshiftV7.7z"
+hash: "c403fdabeeee211323deeb605157eefec5cf7683"
+fileSize: 18865143
+files:
+- name: "MH-FoT-ChronoshiftV7.unr"
+  fileSize: 53429612
+  hash: "fe8196433e41b3b7f12fe8c551166041571c9a3c"
+- name: "isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+otherFiles: 1
+dependencies:
+  MH-FoT-ChronoshiftV7.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Isotoxin"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/c/4/03fdab/MH-FoT-ChronoshiftV7.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Project Chronoshift"
+playerCount: "12 - 16"
+themes:
+  Natural: 0.1
+  Ancient: 0.9
+bots: true

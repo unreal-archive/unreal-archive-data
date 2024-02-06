@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:51"
+game: "Unreal Tournament"
+name: "MH-BallisticPVv0"
+author: "SteelHORN"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-ballisticpvv0_shot_0afe8be1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/0/a/fe8be1/mh-ballisticpvv0_shot_0afe8be1_1.png"
+originalFilename: "MH-BallisticPVv0.7z"
+hash: "0afe8be1dfaab08a5402a0cd75f723646a11be76"
+fileSize: 1249915
+files:
+- name: "MH-BallisticPVv0.unr"
+  fileSize: 4897355
+  hash: "8c0a0037a562296924e4d07d3dd1cd411272f2a3"
+- name: "Ballistic.utx"
+  fileSize: 459663
+  hash: "bf6d151a49784a0aeca22d20e205f799c7988e87"
+otherFiles: 1
+dependencies:
+  MH-BallisticPVv0.unr:
+  - status: "OK"
+    name: "Ballistic"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/0/a/fe8be1/MH-BallisticPVv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Ballistic"
+playerCount: "6-12"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Industrial: 0.7
+bots: true

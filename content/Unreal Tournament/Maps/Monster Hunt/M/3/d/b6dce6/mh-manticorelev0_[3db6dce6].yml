@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:47"
+game: "Unreal Tournament"
+name: "MH-ManticoreLEv0"
+author: "Claude Meyer aka Mier"
+description: "None"
+releaseDate: "2021-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-manticorelev0_shot_3db6dce6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/3/d/b6dce6/mh-manticorelev0_shot_3db6dce6_1.png"
+originalFilename: "MH-ManticoreLEv0.7z"
+hash: "3db6dce633d41f84565054925851827269e373b1"
+fileSize: 3112651
+files:
+- name: "AdesertS.utx"
+  fileSize: 3136889
+  hash: "b5998f37a878d11856df3cc8684adee6086253c3"
+- name: "MH-ManticoreLEv0.unr"
+  fileSize: 4267616
+  hash: "11305aff79137293f7075938c432b18b08ffbc84"
+- name: "Mier1snd.uax"
+  fileSize: 281666
+  hash: "9a62a52233db14b5d3d4bba5d02eb2655c45c6ab"
+otherFiles: 0
+dependencies:
+  MH-ManticoreLEv0.unr:
+  - status: "OK"
+    name: "AdesertS"
+  - status: "OK"
+    name: "mier1snd"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/3/d/b6dce6/MH-ManticoreLEv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Manticore"
+playerCount: "6-14"
+themes:
+  Tech: 0.2
+  Industrial: 0.6
+  Skaarj Tech: 0.2
+bots: true

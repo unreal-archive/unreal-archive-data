@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:52"
+game: "Unreal Tournament"
+name: "MH-Vestige16v1"
+author: "Michael 'ExpEM' Nunn"
+description: "None"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-vestige16v1_shot_c33cfa80_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/V/c/3/3cfa80/mh-vestige16v1_shot_c33cfa80_1.png"
+originalFilename: "MH-Vestige16v1.7z"
+hash: "c33cfa80cac26d3a6a01c08fae7cfa028f54cd61"
+fileSize: 7617804
+files:
+- name: "MH-Vestige16v1.unr"
+  fileSize: 8301206
+  hash: "3e9f0cefc652873a313d9b30eab0b0ef995ff558"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  MH-Vestige16v1.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "RichRig"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/V/c/3/3cfa80/MH-Vestige16v1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Rusted Vestige"
+playerCount: "8 - 16"
+themes:
+  Tech: 0.3
+  City: 0.2
+  Industrial: 0.2
+  Skaarj Tech: 0.4
+bots: true

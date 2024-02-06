@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:03"
+game: "Unreal Tournament"
+name: "MH-RamsesV0"
+author: "Aalexanderrr"
+description: "None"
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-ramsesv0_shot_195fcf2d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/1/9/5fcf2d/mh-ramsesv0_shot_195fcf2d_1.png"
+originalFilename: "MH-RamsesV0.7z"
+hash: "195fcf2d7ee11a530d67cbe80f1f96381d57346b"
+fileSize: 1412023
+files:
+- name: "RamsesTex.utx"
+  fileSize: 1851429
+  hash: "793864a794fe809c9428727ad1130a330ec83f09"
+- name: "MH-RamsesV0.unr"
+  fileSize: 1702947
+  hash: "c4a097863e385b1c201633c4393af5fdc0f43e90"
+otherFiles: 1
+dependencies:
+  MH-RamsesV0.unr:
+  - status: "OK"
+    name: "RamsesTex"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/1/9/5fcf2d/MH-RamsesV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Tomb of Ramses"
+playerCount: "6"
+themes:
+  Nali Temple: 0.7
+  Natural: 0.1
+  Egyptian: 0.2
+bots: true

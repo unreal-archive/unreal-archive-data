@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:25"
+game: "Unreal Tournament"
+name: "MH-AMC-MorpheusUnboundedV7"
+author: "King Josh"
+description: "Nobody ever makes their first jump."
+releaseDate: "2022-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-amc-morpheusunboundedv7_shot_a25a3a3a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/a/2/5a3a3a/mh-amc-morpheusunboundedv7_shot_a25a3a3a_1.png"
+originalFilename: "MH-AMC-MorpheusUnboundedV7.7z"
+hash: "a25a3a3aad8678f30f4a16cf40d78aa244f33cdc"
+fileSize: 16239223
+files:
+- name: "SBCounterV4.u"
+  fileSize: 12648
+  hash: "18f20159594315f6a46a23dc0793eec9ff7639ac"
+- name: "MH-AMC-MorpheusUnboundedV7.unr"
+  fileSize: 11173801
+  hash: "b318304611667ba827de2cc7034df8ae5ed0b5b0"
+- name: "CS_v16_2.u"
+  fileSize: 23406327
+  hash: "8bb794d8b5aef93775808e6dc370b38aac6beebb"
+- name: "JoshMorph.utx"
+  fileSize: 18841556
+  hash: "5850366876eeb48ea9ebe6b41a4c7fe804b875dc"
+otherFiles: 2
+dependencies:
+  MH-AMC-MorpheusUnboundedV7.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SBCounterV4"
+  - status: "OK"
+    name: "JoshMorph"
+  - status: "OK"
+    name: "CS_v16_2"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/a/2/5a3a3a/MH-AMC-MorpheusUnboundedV7.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Morpheus Unbounded"
+playerCount: "4-8"
+themes:
+  Industrial: 0.7
+  City: 0.2
+bots: true

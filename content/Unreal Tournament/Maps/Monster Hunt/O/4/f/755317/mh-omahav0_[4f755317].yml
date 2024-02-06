@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:44"
+game: "Unreal Tournament"
+name: "MH-OMAHAv0"
+author: "DAVID R. LAMBERSON (OSMIUM)"
+description: "TAKE THE BEACHHEAD!!! Dedicated to those men who fought for freedom\
+  \ in WWII..."
+releaseDate: "2021-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-omahav0_shot_4f755317_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/4/f/755317/mh-omahav0_shot_4f755317_1.png"
+originalFilename: "MH-OMAHAv0.zip"
+hash: "4f755317325f4b20659647f8c9f8cc6512b4626b"
+fileSize: 3246995
+files:
+- name: "trenchtex.utx"
+  fileSize: 1351507
+  hash: "32fbc2569b601ee06337e8e1fa8b5a3c13cc901c"
+- name: "Riverbed2.utx"
+  fileSize: 120089
+  hash: "1e0f82c2cbceed99eb6b4031b82770ad5429eeb4"
+- name: "furniture_aga.utx"
+  fileSize: 1822733
+  hash: "bb3937f08cabaa0f467460a0804a213110a422a1"
+- name: "MH-OMAHAv0.unr"
+  fileSize: 5430403
+  hash: "cf7b5ad9443e71d637894fd6432e85e8c37f2b28"
+- name: "InfAdds.u"
+  fileSize: 610710
+  hash: "8392ed89936a248934710b5593dd7fea123b4e70"
+otherFiles: 1
+dependencies:
+  MH-OMAHAv0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Riverbed2"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "furniture_aga"
+  - status: "OK"
+    name: "trenchtex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/4/f/755317/MH-OMAHAv0.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "OMAHA BEACH"
+playerCount: "8-20"
+themes:
+  Natural: 0.1
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true

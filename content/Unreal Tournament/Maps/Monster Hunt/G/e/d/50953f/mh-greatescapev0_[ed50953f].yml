@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:59"
+game: "Unreal Tournament"
+name: "MH-GreatescapeV0"
+author: "Mortan Lestaria"
+description: "None"
+releaseDate: "2022-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-greatescapev0_shot_ed50953f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/e/d/50953f/mh-greatescapev0_shot_ed50953f_1.png"
+originalFilename: "MH-GreatescapeV0.7z"
+hash: "ed50953f010c2ce40c6714814f44c3b93671e010"
+fileSize: 637489
+files:
+- name: "TeamMonster.u"
+  fileSize: 604219
+  hash: "8c8c6918d96919c63bbb88c5c0fa3441861ea84f"
+- name: "MH-GreatescapeV0.unr"
+  fileSize: 2216330
+  hash: "5d2a0b8132abd5754111e60c75ec1e933398613c"
+otherFiles: 1
+dependencies:
+  MH-GreatescapeV0.unr:
+  - status: "OK"
+    name: "TeamMonster"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/G/e/d/50953f/MH-GreatescapeV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "The Great Escape"
+playerCount: "4-12 players"
+themes:
+  Ancient: 0.1
+  City: 0.9
+bots: true

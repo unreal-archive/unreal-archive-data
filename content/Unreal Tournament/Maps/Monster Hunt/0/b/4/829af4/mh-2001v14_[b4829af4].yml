@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:25"
+game: "Unreal Tournament"
+name: "MH-2001][v14"
+author: "Wayne \"Slartybartfast\" Young"
+description: "For those who will never make it to Space...."
+releaseDate: "2022-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-2001v14_shot_b4829af4_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/0/b/4/829af4/mh-2001v14_shot_b4829af4_1.png"
+originalFilename: "MH-2001][v14.7z"
+hash: "b4829af47c13101945b033c68f176b845c32699b"
+fileSize: 12882624
+files:
+- name: "earth.utx"
+  fileSize: 443448
+  hash: "9a11647f155cb8db41438bb2d037b3df42732017"
+- name: "DMorbit.utx"
+  fileSize: 2328307
+  hash: "669ee71591397ef75e0cea4df7aa391e0eddc0b9"
+- name: "MH-2001][v14.unr"
+  fileSize: 5014877
+  hash: "2e03c7255c5ee815a7a2a0af3d8422c4f0b2238f"
+- name: "realsky.utx"
+  fileSize: 526851
+  hash: "533b71e19f73b7fbb856420a919cdab11516de1f"
+- name: "BlueDanube.umx"
+  fileSize: 10754010
+  hash: "92c6067e8018b6cb1c7920b341ad0dc4d8855c73"
+- name: "wdy_mods.u"
+  fileSize: 18631
+  hash: "881483038d210a85c81a1c81ed07e1ba6a38a3c9"
+otherFiles: 1
+dependencies:
+  MH-2001][v14.unr:
+  - status: "OK"
+    name: "BlueDanube"
+  - status: "OK"
+    name: "wdy_mods"
+  - status: "OK"
+    name: "Earth"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "realsky"
+  - status: "OK"
+    name: "DMorbit"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/0/b/4/829af4/MH-2001%5D%5Bv14.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "2001: A SPACE ODYSSEY"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.3
+  Natural: 0.1
+  Skaarj Tech: 0.3
+bots: true

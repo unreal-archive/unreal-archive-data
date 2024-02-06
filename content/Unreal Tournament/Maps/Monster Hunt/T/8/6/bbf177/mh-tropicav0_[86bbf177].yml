@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:03"
+game: "Unreal Tournament"
+name: "MH-TropicaV0"
+author: "Shamus Young"
+description: "Tropical Island Assault"
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-tropicav0_shot_86bbf177_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/8/6/bbf177/mh-tropicav0_shot_86bbf177_1.png"
+originalFilename: "MH-TropicaV0.7z"
+hash: "86bbf177d6e381a636182c0b4ab6a47abe303619"
+fileSize: 588818
+files:
+- name: "Tropica.utx"
+  fileSize: 273028
+  hash: "e2db21561ef4d39ca46ce50bcde51ca39b7e7e9d"
+- name: "MH-TropicaV0.unr"
+  fileSize: 1908270
+  hash: "8fb318762337b5f364d8377da7b44c4a5e6d5099"
+otherFiles: 1
+dependencies:
+  MH-TropicaV0.unr:
+  - status: "OK"
+    name: "Tropica"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/8/6/bbf177/MH-TropicaV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Tropical Assault"
+playerCount: "8-12"
+themes:
+  Tech: 0.3
+  Natural: 0.6
+  Industrial: 0.2
+bots: true

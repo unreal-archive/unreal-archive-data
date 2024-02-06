@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:47"
+game: "Unreal Tournament"
+name: "MH-OrbitalDEv1"
+author: "Graham ( DE by Snuggs / '//3iRdo )"
+description: "None"
+releaseDate: "2021-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-orbitaldev1_shot_34789378_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/3/4/789378/mh-orbitaldev1_shot_34789378_1.png"
+originalFilename: "MH-OrbitalDEv1.7z"
+hash: "34789378f94941a01bb5ccb06dbcdd9ad9438afe"
+fileSize: 21112320
+files:
+- name: "MH-OrbitalDEv1.unr"
+  fileSize: 6860522
+  hash: "4e8ac98ed2d56ff5f853c75c053f43ceddbdda53"
+- name: "isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+- name: "JediKnight2.utx"
+  fileSize: 33193401
+  hash: "8f098dd607c6620b02efa11ecaded97210a4c508"
+otherFiles: 0
+dependencies:
+  MH-OrbitalDEv1.unr:
+  - status: "OK"
+    name: "JediKnight2"
+  - status: "OK"
+    name: "Isotoxin"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/O/3/4/789378/MH-OrbitalDEv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Orbital Space Station 5 V1.5"
+playerCount: "6-12"
+themes:
+  Tech: 0.1
+  Industrial: 0.8
+bots: true

@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 11:00"
+game: "Unreal Tournament"
+name: "MH-TrifleHavock][v0"
+author: "Ryan F."
+description: "Fight your way to the Base Lab!"
+releaseDate: "2023-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-triflehavockv0_shot_38b7fcf3_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/3/8/b7fcf3/mh-triflehavockv0_shot_38b7fcf3_1.png"
+originalFilename: "MH-TrifleHavock][v0.7z"
+hash: "38b7fcf30956f9f219951c9feb7826d8aa79a876"
+fileSize: 841699
+files:
+- name: "Bridge38.utx"
+  fileSize: 179132
+  hash: "7d4ce5bce6263776f971b2a915563c81341e7b87"
+- name: "MH-TrifleHavock][v0.unr"
+  fileSize: 3549529
+  hash: "52d5cfe8d1d861d5ec846856e7011e0f711767f6"
+otherFiles: 1
+dependencies:
+  MH-TrifleHavock][v0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Bridge38"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/T/3/8/b7fcf3/MH-TrifleHavock%5D%5Bv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Trifle Havock"
+playerCount: "8-16"
+themes:
+  Tech: 0.3
+  City: 0.1
+  Natural: 0.1
+  Industrial: 0.3
+  Skaarj Tech: 0.2
+bots: true
