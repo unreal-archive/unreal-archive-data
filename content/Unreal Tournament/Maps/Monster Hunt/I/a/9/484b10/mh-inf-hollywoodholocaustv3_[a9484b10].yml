@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-06 10:26"
+game: "Unreal Tournament"
+name: "MH-INF-HollywoodHolocaustV3"
+author: "Chris \"Neon God\" Arpaia"
+description: "Classic Deathmatch Duke-style"
+releaseDate: "2022-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-inf-hollywoodholocaustv3_shot_a9484b10_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/a/9/484b10/mh-inf-hollywoodholocaustv3_shot_a9484b10_1.png"
+originalFilename: "MH-inf-hollywoodholocaustV3.zip"
+hash: "a9484b10a7432d0a5aa85a6989c72c9885689e87"
+fileSize: 3227994
+files:
+- name: "DukeNukemVoice.uax"
+  fileSize: 1872255
+  hash: "a35f2663ff677e9b4b8d1bb87c6823850a5c2d1d"
+- name: "Dukepack.utx"
+  fileSize: 1921495
+  hash: "dda9dd9eade69a5c82d763c7d7ed51817338c3d3"
+- name: "MH-INF-HollywoodHolocaustV3.unr"
+  fileSize: 1749370
+  hash: "2f6df84afdcf289fce9ced79c67dd6042829e79a"
+- name: "WarExplo.u"
+  fileSize: 17737
+  hash: "34d7bdd8a66d96bc7fd1885d24cacf16014d7523"
+- name: "Stalker.umx"
+  fileSize: 756048
+  hash: "7c5c24c538427ba6122018c831757d90fdafa45a"
+otherFiles: 1
+dependencies:
+  MH-INF-HollywoodHolocaustV3.unr:
+  - status: "OK"
+    name: "DukeNukemVoice"
+  - status: "OK"
+    name: "Dukepack"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Stalker"
+  - status: "OK"
+    name: "WarExplo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/I/a/9/484b10/MH-inf-hollywoodholocaustV3.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Hollywood Holocaust"
+playerCount: "2-16"
+themes:
+  Ancient: 0.2
+  City: 0.8
+bots: true
