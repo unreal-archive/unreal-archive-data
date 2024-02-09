@@ -1,0 +1,97 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-09 13:53"
+game: "Unreal Tournament 2004"
+name: "CTF-MetallicMadness_2012Revision"
+author: "Antti ''Chaos_Snake'' Kupiainen"
+description: "The Earth is ruined by humans, world taken over by machines... the worst\
+  \ future ever could happen. You are a slave of machines. You only exist to deify\
+  \ an AI, long ago created by one of your kind. And now you show your revenge to\
+  \ human beings. ||\eÿ\x01\x01Optimized to use [Hyper Agility] mutator.|Recommended\
+  \ to use [Super Agility] mutator when played with a couple of players."
+releaseDate: "2013-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-metallicmadness_2012revision_shot_f6070421_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/f/6/070421/ctf-metallicmadness_2012revision_shot_f6070421_3.png"
+- type: "IMAGE"
+  name: "ctf-metallicmadness_2012revision_shot_f6070421_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/f/6/070421/ctf-metallicmadness_2012revision_shot_f6070421_4.png"
+- type: "IMAGE"
+  name: "ctf-metallicmadness_2012revision_shot_f6070421_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/f/6/070421/ctf-metallicmadness_2012revision_shot_f6070421_1.png"
+- type: "IMAGE"
+  name: "ctf-metallicmadness_2012revision_shot_f6070421_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/f/6/070421/ctf-metallicmadness_2012revision_shot_f6070421_2.png"
+originalFilename: "CTF-MetallicMadness_2012Revision.zip"
+hash: "f607042125ad3b8649875ef0e09bc1018a58e1a1"
+fileSize: 29998284
+files:
+- name: "Arkon2004.u"
+  fileSize: 1874735
+  hash: "81c77b0a92ab7cc9787735556fd53be8b596fd90"
+- name: "Desp-TelMecoMex.usx"
+  fileSize: 1569865
+  hash: "71707c6b4b8fa4d3764125de6f4a859fa526d5f3"
+- name: "SuperAgilityMutaror.u"
+  fileSize: 2941
+  hash: "c67b59f12c178fed121c6fa47b24cba2f26eb6d6"
+- name: "DespTel_mecoMEXTEX.utx"
+  fileSize: 10251443
+  hash: "909cffeb5aa45ae6bf51eccc5a8c6c476b011d44"
+- name: "CTF-MetallicMadness_2012Revision.ut2"
+  fileSize: 47348494
+  hash: "fc68b4c8dae52527698807c3e4ce92872bc76390"
+- name: "Arkon2004SMesh.usx"
+  fileSize: 1201971
+  hash: "06b3ed7fb1499342b8ef1c518a197bef7d004b74"
+- name: "MM2012EE.u"
+  fileSize: 3231
+  hash: "3663c106fcbe080a11867fb2865346653933c8bd"
+- name: "Arkon2004Tex.utx"
+  fileSize: 24441829
+  hash: "f61cb10b9065a5c8b2095dec35c3f2ca153d4cb1"
+- name: "HyperAgilityMutaror.u"
+  fileSize: 4635
+  hash: "a58a366a69c00b3d8ee3a21426c8680491dbe041"
+- name: "Chaos_Snake - Mechanical Madness (MM2012).ogg"
+  fileSize: 4565597
+  hash: "f0b510f6cf6c888c8842542ad41849a22642d767"
+- name: "ArkonShields.u"
+  fileSize: 18383
+  hash: "5209da97ba6623e50b60c0c328c4b09bceb5a4a3"
+otherFiles: 12
+dependencies:
+  Arkon2004SMesh.usx:
+  - status: "OK"
+    name: "Arkon2004Tex"
+  CTF-MetallicMadness_2012Revision.ut2:
+  - status: "OK"
+    name: "Arkon2004"
+  - status: "OK"
+    name: "MM2012EE"
+  - status: "OK"
+    name: "Desp-TelMecoMex"
+  Desp-TelMecoMex.usx:
+  - status: "OK"
+    name: "DespTel_mecoMEXTEX"
+  Arkon2004.u:
+  - status: "OK"
+    name: "Arkon2004Tex"
+  - status: "OK"
+    name: "Arkon2004SMesh"
+  - status: "OK"
+    name: "ArkonShields"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/M/f/6/070421/CTF-MetallicMadness_2012Revision.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Metallic Madness [2012 Revision]"
+playerCount: "2-12"
+themes:
+  Tech: 0.6
+  Industrial: 0.4
+bots: true
