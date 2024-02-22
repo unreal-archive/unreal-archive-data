@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-21 13:25"
+game: "Unreal"
+name: "DM_Demetea"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2022-09"
+attachments: []
+originalFilename: "DM_Demetea.zip"
+hash: "baa8eaa566d2437d9e5400b0d9fbdb441b8be6fb"
+fileSize: 8115695
+files:
+- name: "DeusXDeco.u"
+  fileSize: 337631
+  hash: "e33977228b7d3b1640fb98e7b1a1b135625df044"
+- name: "IvanTorrent_BoundsOfUniverse.umx"
+  fileSize: 3950132
+  hash: "0a18fbd31de667f00a94c2498828be1efc9733a4"
+- name: "DM_Demetea.unr"
+  fileSize: 1486588
+  hash: "2cf628b0aaa52e92d0950784a3f920d3fa0ae958"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+otherFiles: 0
+dependencies:
+  DM_Demetea.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "IvanTorrent_BoundsOfUniverse"
+  - status: "OK"
+    name: "DeusXDeco"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/b/a/a8eaa5/DM_Demetea.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM_Demetea"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.9
+bots: true

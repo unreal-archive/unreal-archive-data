@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-21 13:25"
+game: "Unreal Tournament"
+name: "DM_Gaea"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2021-08"
+attachments: []
+originalFilename: "DM_Gaea.zip"
+hash: "652c68c61edaf6867f8b9beb4dfd45fa84ac44b9"
+fileSize: 11298324
+files:
+- name: "Xfoliage.u"
+  fileSize: 3415678
+  hash: "3002412cc3bfd6fae0ad9a15b0297de48d1aa9f2"
+- name: "Boxes_TRLE.utx"
+  fileSize: 1045446
+  hash: "440b5c987a1edc44a579932b29709115dd05a2f3"
+- name: "GalacticDance.umx"
+  fileSize: 151926
+  hash: "0938cf084329283a0fc84b2354fab58cfde4f080"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "DM_Gaea.unr"
+  fileSize: 7058882
+  hash: "ed0303d856dd091678abe6e8c9a4f2da36c75845"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "X-nalitown.utx"
+  fileSize: 9176451
+  hash: "ce21f5f6d61add9cd9e8ac436d4b383c16990052"
+otherFiles: 0
+dependencies:
+  Xfoliage.u:
+  - status: "OK"
+    name: "X-nalitown"
+  X-nalitown.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+  DM_Gaea.unr:
+  - status: "OK"
+    name: "Boxes_TRLE"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "GalacticDance"
+  - status: "OK"
+    name: "Xfoliage"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/G/6/5/2c68c6/DM_Gaea.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Gaea"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 1.0
+bots: true
