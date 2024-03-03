@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-03 12:45"
+game: "Unreal Tournament"
+name: "MH-UnderDark(SB)"
+author: "Shock Systems/Converted to MH by Barbie"
+description: "Welcome to Under Dark"
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-underdarksb_shot_fc1c8665_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/f/c/1c8665/mh-underdarksb_shot_fc1c8665_1.png"
+- type: "IMAGE"
+  name: "mh-underdarksb_shot_fc1c8665_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/f/c/1c8665/mh-underdarksb_shot_fc1c8665_2.png"
+originalFilename: "MH-UnderDark(SB).7z"
+hash: "fc1c86657572759246f75d3a9e4f1f1948539f5c"
+fileSize: 11466214
+files:
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "SBRandomDispatcherV0.u"
+  fileSize: 7633
+  hash: "b2c59e32195c1fee859d4532a57fffced73928b5"
+- name: "VoiceTMR.umx"
+  fileSize: 2585676
+  hash: "bfc2b9064a2fa07a49dcd1cc5353a4aa6951aa0f"
+- name: "UPSXDragon.u"
+  fileSize: 2026873
+  hash: "42a06571f0bb0a30ba28ccb761398544fca3879f"
+- name: "MH-UnderDark(SB).unr"
+  fileSize: 5595938
+  hash: "32c6585fcded29cc0c07f987affdcaf62f579a91"
+- name: "Chizra1.umx"
+  fileSize: 422386
+  hash: "dcb3cfd52414740cd0cbd8a813d900969b6892d8"
+otherFiles: 2
+dependencies:
+  MH-UnderDark(SB).unr:
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "Chizra1"
+  - status: "OK"
+    name: "UPSXDragon"
+  - status: "OK"
+    name: "sky"
+  - status: "OK"
+    name: "VoiceTMR"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SBRandomDispatcherV0"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/U/f/c/1c8665/MH-UnderDark(SB).7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "UnderDark"
+playerCount: "2-8"
+themes:
+  Natural: 0.2
+  Nali Castle: 0.5
+  Skaarj Tech: 0.3
+bots: true
