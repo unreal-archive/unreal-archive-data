@@ -1,0 +1,90 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-03 15:30"
+game: "Unreal Tournament"
+name: "MH-[DaV][SLV]GasbagArena(NoBug)"
+author: "Unknown"
+description: "None"
+releaseDate: "2020-10"
+attachments: []
+originalFilename: "MH-[DaV][SLV]GasbagArena(NoBug).rar"
+hash: "b9e7608a24beec153bafc40110dd4be62bbfdeab"
+fileSize: 5288543
+files:
+- name: "SLV2Window.u"
+  fileSize: 178966
+  hash: "5f942a46205b5a313c36afc1e686fe71dd7ab8fd"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "SLV2RTMS.u"
+  fileSize: 1600
+  hash: "4ea0e29a043c319fe9083e0f551f32527908f7a0"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "SLV2.u"
+  fileSize: 419937
+  hash: "3709e253a80e4ed35d0cf43b37a325d68aaa470e"
+- name: "MH-[DaV][SLV]GasbagArena(NoBug).unr"
+  fileSize: 1079854
+  hash: "60dc489729fef098bac784a53c2dfdeb5cac3c65"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "SLV2Fonts.utx"
+  fileSize: 345240
+  hash: "abe246c47c63b31826b47a43bdb26d318caeb55e"
+- name: "RocketX3.u"
+  fileSize: 1405815
+  hash: "ebca1871a81e2b1ed88b88d66b74a02d72256f5e"
+otherFiles: 4
+dependencies:
+  RocketX3.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  SLV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  SLV2Window.u:
+  - status: "OK"
+    name: "SLV2"
+  - status: "OK"
+    name: "SLV2Textures"
+  SLV2RTMS.u:
+  - status: "MISSING"
+    name: "RTMS_v11"
+  - status: "OK"
+    name: "SLV2"
+  MH-[DaV][SLV]GasbagArena(NoBug).unr:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "RocketX3"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/b/9/e7608a/MH-%5BDaV%5D%5BSLV%5DGasbagArena(NoBug).rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-[DaV][SLV]GasbagArena(NoBug)"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true
