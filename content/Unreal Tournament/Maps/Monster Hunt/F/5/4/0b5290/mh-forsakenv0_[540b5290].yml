@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-06 18:33"
+game: "Unreal Tournament"
+name: "MH-Forsaken!V0"
+author: "Robert 'Master Builder' Parker"
+description: "Abandon Ship!"
+releaseDate: "2024-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-forsakenv0_shot_540b5290_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/5/4/0b5290/mh-forsakenv0_shot_540b5290_1.png"
+originalFilename: "MH-Forsaken!V0.7z"
+hash: "540b5290ff337ae10fd581f38441a07e690ee6f8"
+fileSize: 6474864
+files:
+- name: "MH-Forsaken!V0.unr"
+  fileSize: 15773141
+  hash: "58d530586715b0100cecf5c61b3a34990ac447c9"
+- name: "spacewlk.umx"
+  fileSize: 1981933
+  hash: "4d47d1402570d94d7fda67fa8eb689a22061a90d"
+- name: "ForsakenFX.uax"
+  fileSize: 1444495
+  hash: "45b785a95b015fb0685a2a789cad654bdfeab733"
+- name: "ForsakenTex.utx"
+  fileSize: 970804
+  hash: "8e433bc3c49cebed563c6ba1d8dd986e7156847e"
+otherFiles: 1
+dependencies:
+  MH-Forsaken!V0.unr:
+  - status: "OK"
+    name: "ForsakenFX"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "spacewlk"
+  - status: "OK"
+    name: "ForsakenTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/5/4/0b5290/MH-Forsaken!V0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Forsaken!"
+playerCount: "11-21"
+themes:
+  Skaarj Tech: 0.9
+  Ancient: 0.1
+bots: true

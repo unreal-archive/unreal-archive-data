@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-06 18:32"
+game: "Unreal Tournament"
+name: "MH-FNB-UnrealGatewaysV0"
+author: "-=FraGnBraG=-"
+description: "CTF based on the Unreal map \"The Gateway\" by Shane Caudle"
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-unrealgatewaysv0_shot_6ea62f2e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/6/e/a62f2e/mh-fnb-unrealgatewaysv0_shot_6ea62f2e_1.png"
+originalFilename: "MH-FNB-UnrealGatewaysV0.7z"
+hash: "6ea62f2e358594b4dd01d6ec15ea3119d74e3c51"
+fileSize: 8380657
+files:
+- name: "gateways.umx"
+  fileSize: 1025666
+  hash: "d5336d997f7406403ffda19c8f83d6091a4ff9a2"
+- name: "MH-FNB-UnrealGatewaysV0.unr"
+  fileSize: 22568272
+  hash: "4837c5c40fd1554edd03f293926199e0b81f860a"
+otherFiles: 1
+dependencies:
+  MH-FNB-UnrealGatewaysV0.unr:
+  - status: "OK"
+    name: "gateways"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/6/e/a62f2e/MH-FNB-UnrealGatewaysV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Gateways CTF"
+playerCount: "8 - 16"
+themes:
+  Tech: 0.6
+  Natural: 0.4
+  Ancient: 0.1
+bots: true

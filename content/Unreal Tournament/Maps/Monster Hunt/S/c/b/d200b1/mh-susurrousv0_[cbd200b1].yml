@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-06 18:32"
+game: "Unreal Tournament"
+name: "MH-SusurrousV0"
+author: "Joe 'Ironblayde' Farrell"
+description: "None"
+releaseDate: "2024-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-susurrousv0_shot_cbd200b1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/c/b/d200b1/mh-susurrousv0_shot_cbd200b1_1.png"
+originalFilename: "MH-SusurrousV0.7z"
+hash: "cbd200b1ede9383dafb5fe720f0cbea25d14a670"
+fileSize: 6439375
+files:
+- name: "MH-SusurrousV0.unr"
+  fileSize: 24045824
+  hash: "a8eb66a2be345f04f56133b31c8dafe82496bf7d"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+otherFiles: 1
+dependencies:
+  MH-SusurrousV0.unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "QueenSong"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/S/c/b/d200b1/MH-SusurrousV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Susurrous Outpost"
+playerCount: "12-20"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: true
