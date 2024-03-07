@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-03-07 16:40"
+game: "Unreal"
+name: "DM_TombStones_Newbies"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2024-03"
+attachments: []
+originalFilename: "DM_TombStones_Newbies.zip"
+hash: "51a029c34e9434e5843b879fcc1af694f8eb024b"
+fileSize: 44309091
+files:
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+- name: "TombStones_NP_sounds.uax"
+  fileSize: 9343398
+  hash: "fb407350619f20a5e04e9e142fd7f3bb17698966"
+- name: "DM_TombStones_Newbies.unr"
+  fileSize: 11960402
+  hash: "46b4cf005f619e0780954d2f67ed67e5e6547713"
+- name: "Northern_cold.utx"
+  fileSize: 5754161
+  hash: "47fb7b68c1d6cceb41cc1796530c38bb4d5ab3db"
+- name: "FootstepsSnd.uax"
+  fileSize: 2438638
+  hash: "2f40fe4712790c8eddd7c96658a35fc33765d610"
+- name: "TombStonesDark.utx"
+  fileSize: 11691373
+  hash: "d52e9ea18448777e244a8febdcb1a2225783f350"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "TombStonesDark_mesh.usm"
+  fileSize: 1608650
+  hash: "0a8858dfbce07997ffcbf911876b440f1fc9c5d2"
+otherFiles: 0
+dependencies:
+  DM_TombStones_Newbies.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "UPak"
+  - status: "OK"
+    name: "TombStonesDark_mesh"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "MISSING"
+    name: "DM_textures"
+  - status: "OK"
+    name: "TombStones_NP_sounds"
+  - status: "OK"
+    name: "ParticleTexs"
+  - status: "OK"
+    name: "Northern_cold"
+  TombStonesDark_mesh.usm:
+  - status: "OK"
+    name: "TombStonesDark"
+  Northern_cold.utx:
+  - status: "OK"
+    name: "FootstepsSnd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/5/1/a029c3/DM_TombStones_Newbies.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM_TombStones_Newbies"
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  Nali Castle: 0.8
+bots: true
