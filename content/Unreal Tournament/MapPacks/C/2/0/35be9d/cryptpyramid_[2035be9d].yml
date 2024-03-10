@@ -1,0 +1,97 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-03-09 20:22"
+game: "Unreal"
+name: "CryptPyramid"
+author: "John W. Anderson"
+description: "None"
+releaseDate: "2017-12"
+attachments: []
+originalFilename: "CryptPyramid.zip"
+hash: "2035be9d5ebbafa7398a6585116cb5a6ce7dcc7c"
+fileSize: 9220515
+files:
+- name: "2017cp-siobhan.unr"
+  fileSize: 1786231
+  hash: "05d6dc443abf632adde6fab6c53db795118b39db"
+- name: "2017cp-batset.unr"
+  fileSize: 1986010
+  hash: "d517ab23519fed7935366d87fb858dc9009891dc"
+- name: "2017cp-seti.unr"
+  fileSize: 4146243
+  hash: "63ff3f0ef2645643570fa7763378246ec8dd500f"
+- name: "UPB-Crypt2.utx"
+  fileSize: 3562477
+  hash: "5b98eb46a21430dfa1b2e250ca106dcf5c1d6b01"
+- name: "2017cp-midian.unr"
+  fileSize: 2249155
+  hash: "a63ba91fa54301d99de1f9a7bbce6124da2b27fb"
+- name: "U96Game.u"
+  fileSize: 5407482
+  hash: "1266f3a60b59173f629d3aae16b9ca27cba0938b"
+- name: "2017cp-volkano.unr"
+  fileSize: 4553109
+  hash: "74a4f2cea803453f5898e999a80f10391a62898a"
+otherFiles: 2
+dependencies:
+  "2017cp-batset.unr":
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "U96Game"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  "2017cp-volkano.unr":
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "Opal"
+  - status: "OK"
+    name: "U96Game"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  "2017cp-seti.unr":
+  - status: "OK"
+    name: "U96Game"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  "2017cp-midian.unr":
+  - status: "MISSING"
+    name: "UTemple"
+  - status: "OK"
+    name: "U96Game"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  "2017cp-siobhan.unr":
+  - status: "OK"
+    name: "U96Game"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  - status: "MISSING"
+    name: "UTemple"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/2/0/35be9d/CryptPyramid.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "2017cp-siobhan"
+  title: "Siobhan"
+  author: "John W. Anderson"
+- name: "2017cp-batset"
+  title: "Batset"
+  author: "John W. Anderson"
+- name: "2017cp-seti"
+  title: "Temple of Seti"
+  author: "John W. Anderson"
+- name: "2017cp-midian"
+  title: "Midianite Temple"
+  author: "John W. Anderson"
+- name: "2017cp-volkano"
+  title: "Volcanic Core"
+  author: "Yrex"
+gametype: "Single Player"
+themes:
+  Natural: 0.9
+  Skaarj Tech: 0.1
