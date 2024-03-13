@@ -1,0 +1,49 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-03-12 13:48"
+game: "Unreal Tournament"
+name: "Sundial 4 Team Edition"
+author: "Alan 'Talisman' Willard, RoninMastaFX & UnrealGGecko"
+description: "None"
+releaseDate: "2024-03"
+attachments:
+- type: "IMAGE"
+  name: "sundial-4-team-edition_shot_761352d8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/7/6/1352d8/sundial-4-team-edition_shot_761352d8_1.png"
+- type: "IMAGE"
+  name: "sundial-4-team-edition_shot_761352d8_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/7/6/1352d8/sundial-4-team-edition_shot_761352d8_2.png"
+originalFilename: "Sundial_4-Team_Edition.zip"
+hash: "761352d8c1113f31d860e6addee2de4fed60b9ae"
+fileSize: 2040851
+files:
+- name: "CTF4-Sundial.unr"
+  fileSize: 2643183
+  hash: "e3645f9b3fc22c1c38264950c5f47a57563d47f7"
+- name: "CTFM-Sundial.unr"
+  fileSize: 2643217
+  hash: "d22c389d6669d5ae3b6ba713fb8027ab58f40bd3"
+otherFiles: 1
+dependencies:
+  CTF4-Sundial.unr:
+  - status: "MISSING"
+    name: "CTF4"
+  CTFM-Sundial.unr:
+  - status: "MISSING"
+    name: "MultiCTF"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/7/6/1352d8/Sundial_4-Team_Edition.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "CTF4-Sundial"
+  title: "Ancient Sundial [CTF4]"
+  author: "Alan 'Talisman' Willard, RoninMastaFX & UnrealGGecko"
+- name: "CTFM-Sundial"
+  title: "Ancient Sundial [CTFM]"
+  author: "Alan 'Talisman' Willard, RoninMastaFX & UnrealGGecko"
+gametype: "Multi-Team CTF"
+themes:
+  Nali Temple: 1.0
