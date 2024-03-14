@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-03-13 08:13"
+game: "Unreal Tournament 3"
+name: "V02_LavIIIReplacement"
+author: "Bez & Chris Rogoski"
+description: "replaces the hellbender"
+releaseDate: "2008-10"
+attachments: []
+originalFilename: "laviii-vehicle-v1.0.rar"
+hash: "853168dcbd08234011d6f3f7f251a729f942786a"
+fileSize: 7123914
+files:
+- name: "LavIII.u"
+  fileSize: 58456
+  hash: "0354193104f0295cdb660c3f68ebc21ff772fb66"
+- name: "vehicle-Lav-III.upk"
+  fileSize: 9869583
+  hash: "f7d2897257d56e7fb520afc2baed1fabf229add6"
+otherFiles: 2
+dependencies:
+  LavIII.u:
+  - status: "OK"
+    name: "vehicle-Lav-III"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/V/8/5/3168dc/laviii-vehicle-v1.0.rar"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "V02_LavIIIReplacement"
+  description: "replaces the hellbender"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
