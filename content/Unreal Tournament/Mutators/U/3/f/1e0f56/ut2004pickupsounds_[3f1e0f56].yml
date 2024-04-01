@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-04-01 10:42"
+game: "Unreal Tournament"
+name: "UT2004PickupSounds"
+author: "s:  GreatEmerald"
+description: "Changes non-unique weapons and item pickup sounds to those of UT2004."
+releaseDate: "2009-05"
+attachments: []
+originalFilename: "UT2004PickupSounds.zip"
+hash: "3f1e0f5608dddffe91d17369bf691929be2ed3de"
+fileSize: 855692
+files:
+- name: "PickupSoundsUT2004.uax"
+  fileSize: 914677
+  hash: "ed566b8ce8c96a845dc9c01a1fc98f585bc085f1"
+- name: "UT2004PickupSounds.u"
+  fileSize: 7120
+  hash: "3d1f7b263d08533e6e70c0c9009ae47e4298f0c5"
+otherFiles: 2
+dependencies:
+  UT2004PickupSounds.u:
+  - status: "OK"
+    name: "PickupSoundsUT2004"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/U/3/f/1e0f56/UT2004PickupSounds.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+mutators:
+- name: "UT2004PickupSounds"
+  description: "Changes non-unique weapons and item pickup sounds to those of UT2004."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
