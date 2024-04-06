@@ -1,0 +1,39 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2024-04-13 22:03"
+game: "Unreal Tournament"
+name: "Duke Nukem"
+author: "EL-DORADO Servers"
+description: "None"
+releaseDate: "2024-04"
+attachments: []
+originalFilename: "ELD_Char_Duke_v101.rar"
+hash: "3d908824dfd6ecd211e4f4c81e3590f6da005e18"
+fileSize: 14505817
+files:
+- name: "ELD_Char_Base.u"
+  fileSize: 110964
+  hash: "27f310e541af29013ce9fd9d1c16a9d400c81c81"
+- name: "ELD_Char_DukeN.u"
+  fileSize: 11839760
+  hash: "43dbaf077b438113522487e87e2450495209ad5a"
+otherFiles: 2
+dependencies:
+  ELD_Char_DukeN.u:
+  - status: "OK"
+    name: "ELD_Char_Base"
+  ELD_Char_Base.u:
+  - status: "MISSING"
+    name: "2k4NewDeath"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/D/3/d/908824/ELD_Char_Duke_v101.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Duke Nukem"
+skins:
+- "Default"
+- "Default"
