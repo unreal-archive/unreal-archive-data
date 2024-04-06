@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-04-07 11:11"
+game: "Unreal Tournament"
+name: "DM-Sliver"
+author: "Prickenstein"
+description: "Welcome to the Sliver Canyon!"
+releaseDate: "2013-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-sliver_shot_2e0710be_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/2/e/0710be/dm-sliver_shot_2e0710be_1.png"
+originalFilename: "DM-Sliver2.0.zip"
+hash: "2e0710beb84dfe722429a5116b0a02301f66bd4c"
+fileSize: 2778463
+files:
+- name: "BossSkins_666.utx"
+  fileSize: 1513427
+  hash: "febe5e99451d80750af180d7e4991f798f38f380"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "DM-Sliver.unr"
+  fileSize: 381138
+  hash: "7f37e136e40b6ea0481072b73933d33c53bab1de"
+otherFiles: 1
+dependencies:
+  DM-Sliver.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "OldWeaponsSounds"
+  - status: "OK"
+    name: "BossSkins_666"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/2/e/0710be/DM-Sliver2.0.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Sliver Canyon"
+playerCount: "2-3"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true
