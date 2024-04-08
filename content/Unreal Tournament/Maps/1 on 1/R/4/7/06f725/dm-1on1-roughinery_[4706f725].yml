@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-04-07 11:10"
+game: "Unreal Tournament"
+name: "DM-1on1-Roughinery"
+author: "Alexander Lehmann (Converted by sn260591)"
+description: "None"
+releaseDate: "2012-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-1on1-roughinery_shot_4706f725_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/1%20on%201/R/4/7/06f725/dm-1on1-roughinery_shot_4706f725_1.png"
+originalFilename: "DM-1on1-Roughinery_ut99.zip"
+hash: "4706f7259694007d72a9129cf62294eedfc2304b"
+fileSize: 11522778
+files:
+- name: "DM-1on1-Roughinery.unr"
+  fileSize: 6426522
+  hash: "bdd5b7727eea6af01ef3f9f520b28da2a9e04eb6"
+- name: "020512.utx"
+  fileSize: 6014784
+  hash: "29ee6258fd6e65cf075c696cffe9434ecd2ae12c"
+- name: "KR-Roughinery.umx"
+  fileSize: 8029942
+  hash: "b90a2976d53cc1fdd9327c0a4bc7a9c747940401"
+- name: "040512.uax"
+  fileSize: 866525
+  hash: "baed94448562e857687fcecaea266e3bc932f06f"
+otherFiles: 1
+dependencies:
+  DM-1on1-Roughinery.unr:
+  - status: "OK"
+    name: "040512"
+  - status: "OK"
+    name: "020512"
+  - status: "OK"
+    name: "KR-Roughinery"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/1%20on%201/R/4/7/06f725/DM-1on1-Roughinery_ut99.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "1 on 1"
+title: "Roughinery"
+playerCount: "2"
+themes:
+  Skaarj Tech: 1.0
+bots: true
