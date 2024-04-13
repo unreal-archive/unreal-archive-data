@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-04-11 13:19"
+game: "Unreal Tournament 2004"
+name: "DM-UG-Factory2k9"
+author: "E!S ( E}I{EG )"
+description: "for fun map"
+releaseDate: "2009-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-ug-factory2k9_shot_6e36cd24_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/U/6/e/36cd24/dm-ug-factory2k9_shot_6e36cd24_1.png"
+originalFilename: "ut-2004 factory2k9.zip"
+hash: "6e36cd24b7a4429addcf67b1a8035bad7e348a6d"
+fileSize: 9171024
+files:
+- name: "AW-Cubes.utx"
+  fileSize: 1294181
+  hash: "9dca57eedb601fbf718136258e7b961946e7818b"
+- name: "FCtext.utx"
+  fileSize: 964319
+  hash: "aaa3058e808db2c1614c3811b6cd2076d4ddf3e1"
+- name: "Logo_UG.utx"
+  fileSize: 175377
+  hash: "2d8ceacbeca9a4a937ee44a557daa8bb393f1e99"
+- name: "DM-UG-Factory2k9.ut2"
+  fileSize: 14164000
+  hash: "056c365fec6e8a0b04f406b25e7a91179367d486"
+- name: "city.utx"
+  fileSize: 5839570
+  hash: "5f3173f5bce7bf8a0e5352d5a77fbf85a952ea55"
+otherFiles: 0
+dependencies:
+  DM-UG-Factory2k9.ut2:
+  - status: "OK"
+    name: "Logo_UG"
+  - status: "OK"
+    name: "FCtext"
+  - status: "OK"
+    name: "city"
+  - status: "MISSING"
+    name: "Tensile"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/U/6/e/36cd24/ut-2004%20factory2k9.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Factory 2009"
+playerCount: "4-8"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true
