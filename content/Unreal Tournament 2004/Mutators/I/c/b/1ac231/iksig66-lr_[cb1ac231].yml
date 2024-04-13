@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-04-09 18:34"
+game: "Unreal Tournament 2004"
+name: "{IK}SIG66 LR"
+author: "Francis Briau *aka(MrBee®)"
+description: "{IK}SIG66 LR: Powerful assault/sniper rifle that shoots high velocity\
+  \ armor piercing Killer bullets.  Equipped with a silencer, 20x (DTS)- Digital Targeting\
+  \ Scope and the new lazer B6-Radar System Range Detector with LCD Screen.||**IK-LAB\
+  \ PRODUCTION** ||By MrBee"
+releaseDate: "2009-12"
+attachments:
+- type: "IMAGE"
+  name: "iksig66-lr_shot_cb1ac231_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/I/c/b/1ac231/iksig66-lr_shot_cb1ac231_1.png"
+originalFilename: "IK_SIG66_LR.zip"
+hash: "cb1ac231b9ba3b5b1f2de8f26e74251c3e56fd74"
+fileSize: 4804917
+files:
+- name: "staticSig66.usx"
+  fileSize: 1102759
+  hash: "389b10076553b18d27bad4b27b52eed03a2ce030"
+- name: "IK_Shad.utx"
+  fileSize: 6689832
+  hash: "9a817cc8cd0025a0a5b09b9722bd7707d57898ca"
+- name: "IK_SIG66_LR.u"
+  fileSize: 13743664
+  hash: "afa6836aece398c79633a3cacd16b708fe421e93"
+- name: "Sig66Bv1.ukx"
+  fileSize: 1956368
+  hash: "ced063be8946b5b8330ec68b4e54914dbed2bd72"
+otherFiles: 5
+dependencies:
+  IK_SIG66_LR.u:
+  - status: "OK"
+    name: "Sig66Bv1"
+  - status: "OK"
+    name: "IK_Shad"
+  - status: "OK"
+    name: "staticSig66"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/I/c/b/1ac231/IK_SIG66_LR.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "{IK}SIG66 LR"
+  description: "{IK}SIG66 LR: Powerful assault/sniper rifle that shoots high velocity\
+    \ armor piercing Killer bullets.  Equipped with a silencer, 20x (DTS)- Digital\
+    \ Targeting Scope and the new lazer B6-Radar System Range Detector with LCD Screen.||**IK-LAB\
+    \ PRODUCTION** ||By MrBee"
+weapons:
+- name: "{IK}SIG66 LR"
+  description: "{IK}SIG66 LR: Powerful assault/sniper rifle that shoots high velocity\
+    \ armor piercing Killer bullets.  Equipped with a silencer, 20x (DTS)- Digital\
+    \ Targeting Scope, and a lazer B6-Radar System Range Detect Sensor Screen.**IK-LAB\
+    \ GUN PRODUCTION**||By MrBee®"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
