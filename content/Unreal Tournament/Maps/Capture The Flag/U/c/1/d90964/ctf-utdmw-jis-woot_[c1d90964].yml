@@ -1,0 +1,108 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-06 06:46"
+game: "Unreal Tournament"
+name: "CTF-UTDMW-JiS-WOOT"
+author: "made by SEISMIC · edited by EvilGrins"
+description: "blame papercoffee for this"
+releaseDate: "2020-08"
+attachments:
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_6.png"
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_1.png"
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_2.png"
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_7.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_7.png"
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_3.png"
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_4.png"
+- type: "IMAGE"
+  name: "ctf-utdmw-jis-woot_shot_c1d90964_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/ctf-utdmw-jis-woot_shot_c1d90964_5.png"
+originalFilename: "CTF-UTDMW-JiS-WOOT.zip"
+hash: "c1d90964dccbfdad3a57d64f180b2e85e2729488"
+fileSize: 12800711
+files:
+- name: "HellhouseT1.u"
+  fileSize: 1187786
+  hash: "b03b6fde2334a86181be48a3291bae1b1a3a81b5"
+- name: "SLV2.u"
+  fileSize: 419937
+  hash: "3709e253a80e4ed35d0cf43b37a325d68aaa470e"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+- name: "UnrealApacheV2.u"
+  fileSize: 2052132
+  hash: "535d9c2a5a44863838de5a88313fccd71c9d4a30"
+- name: "UTDM.u"
+  fileSize: 60403
+  hash: "1d3b6cabcc562d38d7c65f1b7477b4715845c3a8"
+- name: "CTF-UTDMW-JiS-WOOT.unr"
+  fileSize: 7206775
+  hash: "52d5497d1e72296fbc6d55379c2e21626d3ef73c"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "RBAlienXv2.u"
+  fileSize: 3690450
+  hash: "163eee0c57ee312b31037d88bfde227e6534d9a0"
+- name: "RocketXvm.u"
+  fileSize: 2296343
+  hash: "ebf928d857b9bf5cb1845a10d3b24f1beedf426c"
+otherFiles: 8
+dependencies:
+  SLV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+  RocketXvm.u:
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+  CTF-UTDMW-JiS-WOOT.unr:
+  - status: "OK"
+    name: "HellhouseT1"
+  - status: "OK"
+    name: "UnrealApacheV2"
+  - status: "OK"
+    name: "RocketXvm"
+  - status: "OK"
+    name: "UTDM"
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2"
+  - status: "OK"
+    name: "EnhancedItems"
+  - status: "OK"
+    name: "RBAlienXv2"
+  UnrealApacheV2.u:
+  - status: "MISSING"
+    name: "HeliRadarHUDV2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/U/c/1/d90964/CTF-UTDMW-JiS-WOOT.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Jets In Space"
+playerCount: "6 Warlords + 10-14"
+themes:
+  Industrial: 1.0
+bots: true
