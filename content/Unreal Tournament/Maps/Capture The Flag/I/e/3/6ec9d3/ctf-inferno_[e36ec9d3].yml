@@ -1,0 +1,38 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-29 11:26"
+game: "Unreal Tournament"
+name: "CTF-Inferno"
+author: "Fabiano Raffaelli"
+description: ".....Ci rivedremo all'inferno......"
+releaseDate: "2001-01"
+attachments: []
+originalFilename: "CTF-Inferno.ZIP"
+hash: "e36ec9d3922dd89999f5aa575c1e1ad559a8b4d6"
+fileSize: 818184
+files:
+- name: "CTF-Inferno.unr"
+  fileSize: 1113424
+  hash: "3258f949ef8aec283c4562c04e703bfff633d400"
+- name: "M01Sky.utx"
+  fileSize: 352963
+  hash: "ac89f0c2a6ead88e790890f305c8d71e6b9d93c6"
+otherFiles: 1
+dependencies:
+  CTF-Inferno.unr:
+  - status: "OK"
+    name: "M01Sky"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/I/e/3/6ec9d3/CTF-Inferno.ZIP"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Inferno"
+playerCount: "Da 4 a 8 giocatori"
+themes:
+  Natural: 0.8
+  Skaarj Tech: 0.2
+bots: true
