@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-26 05:42"
+variationOf: "d798b43ac50be2bf39c729ab4f5841186e710196"
+game: "Unreal Tournament"
+name: "CTF-FIFA"
+author: "\"TYGRA\" Dmitry Gribanoff"
+description: "None"
+releaseDate: "2001-10"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fifa_shot_ba0a7b1b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/a/0a7b1b/ctf-fifa_shot_ba0a7b1b_1.png"
+originalFilename: "CTF-FIFA.unr.zip"
+hash: "ba0a7b1bd85b693f36a6bf4ceec0cf5352565c4a"
+fileSize: 837184
+files:
+- name: "ty_fifa.utx"
+  fileSize: 197231
+  hash: "1897e6faf610f526aabefef2561f5486027ba123"
+- name: "CTF-FIFA.unr"
+  fileSize: 909845
+  hash: "e6ec388ab3e08b289bb900f76deb7924f50c54e4"
+- name: "insomniac.umx"
+  fileSize: 633456
+  hash: "c6053560558bded51b5be5a65aefc95ca87239a9"
+otherFiles: 0
+dependencies:
+  CTF-FIFA.unr:
+  - status: "OK"
+    name: "ty_fifa"
+  - status: "OK"
+    name: "insomniac"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/b/a/0a7b1b/CTF-FIFA.unr.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "TYGRA'S FIFA 3000"
+playerCount: "2-10"
+themes:
+  Industrial: 0.8
+  Ancient: 0.1
+bots: true

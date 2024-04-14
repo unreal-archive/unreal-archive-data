@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-26 05:42"
+game: "Unreal Tournament"
+name: "CTF-NarrowllVll"
+author: "Michhhhael"
+description: "By popular demand, I present the 5th Narrow !"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-narrowllvll_shot_02fe0afe_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/0/2/fe0afe/ctf-narrowllvll_shot_02fe0afe_1.png"
+originalFilename: "CTF-NarrowllVll.unr.zip"
+hash: "02fe0afe16430b79aaa552c2ed8f4b83ac7f03c1"
+fileSize: 665500
+files:
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "NBSpecialT.utx"
+  fileSize: 116962
+  hash: "724fcd8a98dcb1866d02c9577b8a9120fa6ce841"
+- name: "NBSpecials.utx"
+  fileSize: 89581
+  hash: "41d71bb88819159152a559aadfa5a1380f1c42e7"
+- name: "MicNar5.utx"
+  fileSize: 177691
+  hash: "5486622a567c222e0db3b56c544247e17268506c"
+- name: "CTF-NarrowllVll.unr"
+  fileSize: 1149861
+  hash: "d11075b6286dfc7be99b692f4b4edcf1cef3acfa"
+otherFiles: 0
+dependencies:
+  CTF-NarrowllVll.unr:
+  - status: "OK"
+    name: "MicNar5"
+  - status: "OK"
+    name: "InfAdds"
+  NBSpecials.utx:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/N/0/2/fe0afe/CTF-NarrowllVll.unr.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "NarrowllVll"
+playerCount: "4 to 16"
+themes:
+  City: 0.4
+  Natural: 0.3
+  Industrial: 0.3
+bots: true

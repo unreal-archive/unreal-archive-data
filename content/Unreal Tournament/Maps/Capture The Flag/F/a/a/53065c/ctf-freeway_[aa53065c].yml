@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-26 05:42"
+game: "Unreal Tournament"
+name: "CTF-freeway"
+author: "Leo Bartkus"
+description: "None"
+releaseDate: "2001-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-freeway_shot_aa53065c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/a/a/53065c/ctf-freeway_shot_aa53065c_1.png"
+originalFilename: "CTF-freeway.unr.zip"
+hash: "aa53065c6d3203e1f3098fbd8e1e77ea4b227141"
+fileSize: 5017767
+files:
+- name: "CTF-freeway.unr"
+  fileSize: 5408877
+  hash: "e1e0a2a78f069f62420a1b796a534d395a8f6033"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "cartex.utx"
+  fileSize: 263078
+  hash: "ddd8d54ae561da7f375ed30c652e31e43bfa4428"
+- name: "freewaytex.utx"
+  fileSize: 2978430
+  hash: "4598d0b6eba18efa57e6d40c3a12a28c44d27fdd"
+- name: "camarotex.utx"
+  fileSize: 77723
+  hash: "dac91306a64c1be21f271d966d86ab0e774b1339"
+- name: "jtex.utx"
+  fileSize: 764002
+  hash: "575dbd4873bb4e0de7b1610fa409364091f2eb2b"
+otherFiles: 0
+dependencies:
+  CTF-freeway.unr:
+  - status: "OK"
+    name: "camarotex"
+  - status: "OK"
+    name: "freewaytex"
+  - status: "OK"
+    name: "jtex"
+  - status: "OK"
+    name: "cartex"
+  - status: "OK"
+    name: "a3text"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/F/a/a/53065c/CTF-freeway.unr.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Freeway"
+playerCount: "6-12"
+themes:
+  Industrial: 0.2
+  City: 0.7
+bots: true
