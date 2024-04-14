@@ -1,0 +1,76 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-05-26 10:15"
+game: "Unreal Tournament"
+name: "OutCropCTF"
+author: "Deepak OV made · EvilGrins edited"
+description: "None"
+releaseDate: "2023-02"
+attachments:
+- type: "IMAGE"
+  name: "outcropctf_shot_ebc44ff1_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/outcropctf_shot_ebc44ff1_3.png"
+- type: "IMAGE"
+  name: "outcropctf_shot_ebc44ff1_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/outcropctf_shot_ebc44ff1_4.png"
+- type: "IMAGE"
+  name: "outcropctf_shot_ebc44ff1_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/outcropctf_shot_ebc44ff1_6.png"
+- type: "IMAGE"
+  name: "outcropctf_shot_ebc44ff1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/outcropctf_shot_ebc44ff1_1.png"
+- type: "IMAGE"
+  name: "outcropctf_shot_ebc44ff1_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/outcropctf_shot_ebc44ff1_2.png"
+- type: "IMAGE"
+  name: "outcropctf_shot_ebc44ff1_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/outcropctf_shot_ebc44ff1_5.png"
+originalFilename: "OutCropCTF.zip"
+hash: "ebc44ff1574991b3c8e44c5caf37b7e6b833bf2f"
+fileSize: 19947281
+files:
+- name: "GenEarth_Pack.u"
+  fileSize: 825838
+  hash: "34e63dccde8899a66ebd17e289aeb8d45e14d650"
+- name: "CTF-UTDMT-OutCrop.unr"
+  fileSize: 3355854
+  hash: "b2d4f9402119850bdd014c9426e6f65c279660e8"
+- name: "CTF-XV-OutCrop.unr"
+  fileSize: 3178430
+  hash: "9682f0920bd7ea5a74e443f091f73f6ca8701f87"
+- name: "badtothebone.umx"
+  fileSize: 12999682
+  hash: "e486702b15329eabf52fb9843028832ab0404016"
+otherFiles: 5
+dependencies:
+  CTF-XV-OutCrop.unr:
+  - status: "OK"
+    name: "GenEarth_Pack"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "badtothebone"
+  CTF-UTDMT-OutCrop.unr:
+  - status: "OK"
+    name: "GenEarth_Pack"
+  - status: "OK"
+    name: "badtothebone"
+  - status: "MISSING"
+    name: "UTDMT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/e/b/c44ff1/OutCropCTF.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "CTF-UTDMT-OutCrop"
+  title: "Out Crop Rocks"
+  author: "Deepak OV made · EvilGrins edited"
+- name: "CTF-XV-OutCrop"
+  title: "Out Crop Rocks"
+  author: "Deepak OV made · EvilGrins edited"
+gametype: "Mixed"
+themes:
+  Natural: 1.0
