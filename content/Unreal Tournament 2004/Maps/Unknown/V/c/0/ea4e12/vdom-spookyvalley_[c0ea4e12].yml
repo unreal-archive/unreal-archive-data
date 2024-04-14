@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-19 18:46"
+game: "Unreal Tournament 2004"
+name: "vDOM-SpookyValley+"
+author: "Scott"
+description: "vDOM by Scott"
+releaseDate: "2024-06"
+attachments: []
+originalFilename: "vDOM-SpookyValley+.7z"
+hash: "c0ea4e12dd4544b613b26e932142b64d9cd2aab1"
+fileSize: 7713251
+files:
+- name: "VCTF4-TX.utx"
+  fileSize: 5996990
+  hash: "a87ee83ba9b648a0a6de753433e34146af603496"
+- name: "vDOM-SpookyValley+.ut2"
+  fileSize: 26372632
+  hash: "b521603aba6e7fdb6260d3b47d9f359a476633ae"
+- name: "JackSkins.utx"
+  fileSize: 350128
+  hash: "7705b2beae36e68f4f5ca506919c4252bf7bc0e2"
+- name: "JackMeshes.usx"
+  fileSize: 154348
+  hash: "41de3f0b9c8b504d899c98964b76cdf3dc49db2e"
+- name: "AngelMapperHalloweenMasks.u"
+  fileSize: 27257
+  hash: "7392e3ca7ac8d21184788fea7c87462014e96d15"
+- name: "AngelMapperHalloweenMeshes.usx"
+  fileSize: 187887
+  hash: "ff3c94ef17aa21921a2da4442d17077364c381e5"
+- name: "AngelMapperHalloweenTextures.utx"
+  fileSize: 613794
+  hash: "e1463996435158ea88eb5cd71a22215be1dea48a"
+otherFiles: 0
+dependencies:
+  JackMeshes.usx:
+  - status: "OK"
+    name: "JackSkins"
+  vDOM-SpookyValley+.ut2:
+  - status: "OK"
+    name: "JackMeshes"
+  - status: "MISSING"
+    name: "cDOM2"
+  - status: "MISSING"
+    name: "AmbOutside"
+  - status: "OK"
+    name: "JackSkins"
+  - status: "OK"
+    name: "AngelMapperHalloweenMasks"
+  - status: "OK"
+    name: "VCTF4-TX"
+  AngelMapperHalloweenMeshes.usx:
+  - status: "OK"
+    name: "AngelMapperHalloweenTextures"
+  AngelMapperHalloweenMasks.u:
+  - status: "OK"
+    name: "AngelMapperHalloweenMeshes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Unknown/V/c/0/ea4e12/vDOM-SpookyValley%2B.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "SpookyValley"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: true
