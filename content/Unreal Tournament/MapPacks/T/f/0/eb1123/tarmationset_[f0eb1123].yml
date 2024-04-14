@@ -1,0 +1,51 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-04-28 21:03"
+game: "Unreal Tournament"
+name: "TarmationSet"
+author: "Various"
+description: "None"
+releaseDate: "1999-11"
+attachments: []
+originalFilename: "TarmationSet.zip"
+hash: "f0eb11233982f22024be0025d10bf2a861e79c7c"
+fileSize: 5978270
+files:
+- name: "Tarmation.unr"
+  fileSize: 7841819
+  hash: "db18602b608a4abebb8c603735a7f2e54a64caba"
+- name: "Tarmation2.unr"
+  fileSize: 10116751
+  hash: "4bf489589c67e45feb5b8157e81ba907d99fba51"
+otherFiles: 2
+dependencies:
+  Tarmation.unr:
+  - status: "MISSING"
+    name: "Nali"
+  Tarmation2.unr:
+  - status: "MISSING"
+    name: "K_vision"
+  - status: "MISSING"
+    name: "WarLord"
+  - status: "MISSING"
+    name: "utend"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/T/f/0/eb1123/TarmationSet.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "Tarmation"
+  title: "Tarmation"
+  author: "(TAZ) Mader Paul"
+- name: "Tarmation2"
+  title: "T2 -A rude awakening-"
+  author: "Paul \"TAZ\" Mader"
+gametype: "Unknown"
+themes:
+  Tech: 0.1
+  Natural: 0.2
+  Nali Castle: 0.1
+  Skaarj Tech: 0.7
