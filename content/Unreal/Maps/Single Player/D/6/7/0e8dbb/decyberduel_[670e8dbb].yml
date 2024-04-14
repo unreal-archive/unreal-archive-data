@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-18 18:54"
+variationOf: "aeedda1b8aa79dbbbe58e2cd91adbc7bc2b53e41"
+game: "Unreal"
+name: "deCyberDuel"
+author: "S.West-Bulford (EZkeel)"
+description: "Welcome to deCyberDuel - Enjoy !"
+releaseDate: "1999-02"
+attachments: []
+originalFilename: "decyberduel.zip"
+hash: "670e8dbbdad375cf20bad0a0d70f373f6ae8c4be"
+fileSize: 3813524
+files:
+- name: "Monsters.utx"
+  fileSize: 1630208
+  hash: "e48962666967199ac49d385bb162b41d8b8b445f"
+- name: "deCyberDuel.unr"
+  fileSize: 3175086
+  hash: "ecf4318e0b58c3ab635ee650bed0132f98eddfe6"
+- name: "Arena2.umx"
+  fileSize: 1390725
+  hash: "b6078ec6331a84968ad338d89b4898b910e445dd"
+- name: "Duelsound.uax"
+  fileSize: 2498618
+  hash: "38689ece1b92459d46f9896fdd293e24ef487414"
+- name: "nogun.u"
+  fileSize: 11270
+  hash: "8fffce3140f24b2cd41bd1d994a225c99f874be0"
+otherFiles: 2
+dependencies:
+  deCyberDuel.unr:
+  - status: "OK"
+    name: "Arena2"
+  - status: "OK"
+    name: "nogun"
+  - status: "OK"
+    name: "Monsters"
+  - status: "OK"
+    name: "Duelsound"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Single%20Player/D/6/7/0e8dbb/decyberduel.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Single Player"
+title: "deCyberDuel"
+playerCount: "1"
+themes:
+  Nali Temple: 0.6
+  Tech: 0.1
+  Natural: 0.2
+bots: true
