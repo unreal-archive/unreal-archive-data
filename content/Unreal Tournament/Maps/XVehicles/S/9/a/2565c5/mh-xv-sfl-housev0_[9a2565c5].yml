@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-01 12:45"
+game: "Unreal Tournament"
+name: "MH-XV-{SFL}-HouseV0"
+author: "{SFL}-sketchpad"
+description: "None"
+releaseDate: "2024-06"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-sfl-housev0_shot_9a2565c5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/9/a/2565c5/mh-xv-sfl-housev0_shot_9a2565c5_1.png"
+originalFilename: "MH-XV-{SFL}-HouseV0.7z"
+hash: "9a2565c57705203b8f338c2f00f8e2663ee7db91"
+fileSize: 80450833
+files:
+- name: "4seasons.umx"
+  fileSize: 24960414
+  hash: "a0a5df5bfa5f82b1cb9248d91ea1992eaba6b775"
+- name: "MH-XV-{SFL}-HouseV0.unr"
+  fileSize: 46492786
+  hash: "3bbc98768233ebd025c3ed00cd11562d54fab5cd"
+- name: "sflsounds.uax"
+  fileSize: 59617234
+  hash: "d69486b5f52d2a1f1caf783c798d69256689fab8"
+otherFiles: 2
+dependencies:
+  MH-XV-{SFL}-HouseV0.unr:
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XXMP"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "sflsounds"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "4seasons"
+  - status: "MISSING"
+    name: "FixGun"
+  - status: "MISSING"
+    name: "XHoverVeh"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/9/a/2565c5/MH-XV-%7BSFL%7D-HouseV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "{SFL}-House-v1"
+playerCount: "6-20"
+themes:
+  Tech: 0.6
+  City: 0.3
+bots: true
