@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-02 06:55"
+game: "Unreal Tournament"
+name: "MH-FNB-BigAndRusty-UTRv0"
+author: "Rob -=FraGnBraG=- Burns"
+description: "Fixed version of map for King Mango's UP 6 hour challenge Sep'03. Now\
+  \ with X-Pickups! (c)2003-2011 Rob Burns."
+releaseDate: "2024-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-bigandrusty-utrv0_shot_aa4b35e6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/a/a/4b35e6/mh-fnb-bigandrusty-utrv0_shot_aa4b35e6_1.png"
+originalFilename: "MH-FNB-BigAndRusty-UTRv0.7z"
+hash: "aa4b35e609ab41ebbfaf28c924b8b35aec8c3344"
+fileSize: 3147409
+files:
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "MH-FNB-BigAndRusty-UTRv0.unr"
+  fileSize: 12853495
+  hash: "9b9f5567b27e3725d12fdd742845949026a14b59"
+otherFiles: 1
+dependencies:
+  MH-FNB-BigAndRusty-UTRv0.unr:
+  - status: "MISSING"
+    name: "XPickups"
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/a/a/4b35e6/MH-FNB-BigAndRusty-UTRv0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF-FNB-BigAndRusty-UTR"
+playerCount: "10-24"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true

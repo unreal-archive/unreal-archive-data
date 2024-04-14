@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-02 06:53"
+game: "Unreal Tournament"
+name: "MH-EpicTownV1"
+author: "FraGnBraG and EPIC Mappers"
+description: "Tribute to Epic Games! built for UT99.org Epic Xmas 2012 contest :)"
+releaseDate: "2024-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-epictownv1_shot_b4d59e32_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/b/4/d59e32/mh-epictownv1_shot_b4d59e32_1.png"
+originalFilename: "MH-EpicTownV1.7z"
+hash: "b4d59e32cfcff55a30af89264f08001fd5fb03f8"
+fileSize: 19647046
+files:
+- name: "LPSigns01.utx"
+  fileSize: 1126700
+  hash: "f733718819fd943378b923ab9c4ee2c79e355a37"
+- name: "LPDecoTex01.utx"
+  fileSize: 3197984
+  hash: "c9fc0e51b753b3d897b85bdb4d8e41e8a71d2e1c"
+- name: "CS_v16_2.u"
+  fileSize: 23406327
+  hash: "8bb794d8b5aef93775808e6dc370b38aac6beebb"
+- name: "MH-EpicTownV1.unr"
+  fileSize: 35436210
+  hash: "2f81b6dd4cd2d8214ae399f53be02af4dc6cb57f"
+- name: "TreacherousHeat.umx"
+  fileSize: 1600201
+  hash: "1b5c14388c05816d9c6d136f1726ea6843f05780"
+otherFiles: 3
+dependencies:
+  MH-EpicTownV1.unr:
+  - status: "OK"
+    name: "LPDecoTex01"
+  - status: "OK"
+    name: "TreacherousHeat"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "CS_v16_2"
+  - status: "OK"
+    name: "LPSigns01"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/b/4/d59e32/MH-EpicTownV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "DM-XC-EpicTown-V2"
+playerCount: "16-24"
+themes:
+  City: 0.4
+  Industrial: 0.5
+  Skaarj Tech: 0.1
+bots: true
