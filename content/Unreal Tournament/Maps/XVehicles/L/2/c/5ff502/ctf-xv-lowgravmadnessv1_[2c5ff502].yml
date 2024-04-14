@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-19 06:25"
+game: "Unreal Tournament"
+name: "CTF-XV-LowGravMadness][v1"
+author: "Aspide"
+description: "See You Starside..."
+releaseDate: "2024-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-lowgravmadnessv1_shot_2c5ff502_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/L/2/c/5ff502/ctf-xv-lowgravmadnessv1_shot_2c5ff502_1.png"
+originalFilename: "CTF-XV-LowGravMadness][v1.7z"
+hash: "2c5ff502e6187db6947cc7b00936501a779d1303"
+fileSize: 5716626
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "night_owl.umx"
+  fileSize: 920986
+  hash: "01bbd49180c45aba39778c37e5e0eff2f48c6dd5"
+- name: "CTF-XV-LowGravMadness][v1.unr"
+  fileSize: 10472201
+  hash: "c914a8c701dc551569c1f61bec5f5eeb79fd5865"
+otherFiles: 2
+dependencies:
+  CTF-XV-LowGravMadness][v1.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "night_owl"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/L/2/c/5ff502/CTF-XV-LowGravMadness%5D%5Bv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Low Gravity Madness ]["
+playerCount: "4-10"
+themes:
+  Tech: 1.0
+bots: true
