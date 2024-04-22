@@ -1,0 +1,66 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2024-04-21 12:11"
+game: "Unreal Tournament"
+name: "AVP Alien Drone"
+author: "EL-DORADO Servers"
+description: "None"
+releaseDate: "2024-04"
+attachments: []
+originalFilename: "ELD_AvPPack_v101.rar"
+hash: "d84c6352375043d9ae02319856439fb021c522ad"
+fileSize: 9788259
+files:
+- name: "AvP_Skins.utx"
+  fileSize: 9269678
+  hash: "9d06e9687e2b875e61f7895c2c75b5403f0941c6"
+- name: "AVP_Sounds.uax"
+  fileSize: 6767369
+  hash: "fda336340f4befcd4b38c4a9cc6faceb98e32bfd"
+- name: "ELD_Char_AvPPack.u"
+  fileSize: 35070
+  hash: "040453e82fbf45ae59b070608bd6b5691245e222"
+- name: "ELD_Media17.u"
+  fileSize: 1991274
+  hash: "6b848d5114b15480ed4522e9ef5fa624b3370bc8"
+- name: "ELD_PlayerUI.u"
+  fileSize: 25783
+  hash: "6ddf20d329ffa6365a1b3f0831b9987208a13442"
+otherFiles: 3
+dependencies:
+  ELD_Char_AvPPack.u:
+  - status: "OK"
+    name: "ELD_Media17"
+  - status: "MISSING"
+    name: "ELD_Char_Base"
+  - status: "OK"
+    name: "AvP_Sounds"
+  ELD_Media17.u:
+  - status: "MISSING"
+    name: "ELD_Media10"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/A/d/8/4c6352/ELD_AvPPack_v101.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "AVP Alien Drone"
+- "AVP Alien Empress"
+- "AVP Alien King"
+- "AVP Alien Lurker"
+- "AVP Alien Praetorian"
+- "AVP Alien Queen"
+- "AVP Alien Runner"
+- "AVP Alien Warrior"
+- "AVP Predator Alien"
+- "AVP Predator Berserker"
+- "AVP Predator Brawler"
+- "AVP Predator Celtic"
+- "AVP Predator Elite"
+- "AVP Predator Hish"
+- "AVP Predator Mohawk"
+- "AVP Predator Yautja"
+- "AVP Predator YoungBlood"
+skins: []
