@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-02 06:55"
+game: "Unreal Tournament"
+name: "CTF-XV-SchmallV0"
+author: "bongoliath"
+description: "None"
+releaseDate: "2024-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-schmallv0_shot_d9937847_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/d/9/937847/ctf-xv-schmallv0_shot_d9937847_1.png"
+originalFilename: "CTF-XV-SchmallV0.7z"
+hash: "d9937847ebbaa6a675037b75072d2781947b96ee"
+fileSize: 1890389
+files:
+- name: "CTF-XV-SchmallV0.unr"
+  fileSize: 1794603
+  hash: "b5c14537906bde4c5588d21f9cf77a54578bf4c7"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 2
+dependencies:
+  CTF-XV-SchmallV0.unr:
+  - status: "MISSING"
+    name: "xZones"
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/d/9/937847/CTF-XV-SchmallV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Schmall"
+playerCount: "4-8"
+themes:
+  Industrial: 0.2
+  Ancient: 0.7
+bots: true

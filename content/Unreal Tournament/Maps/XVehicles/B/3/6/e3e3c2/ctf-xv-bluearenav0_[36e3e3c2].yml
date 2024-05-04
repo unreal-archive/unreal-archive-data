@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-02 06:51"
+game: "Unreal Tournament"
+name: "CTF-XV-BlueArenaV0"
+author: "Xanx"
+description: "None"
+releaseDate: "2024-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-bluearenav0_shot_36e3e3c2_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/B/3/6/e3e3c2/ctf-xv-bluearenav0_shot_36e3e3c2_1.png"
+originalFilename: "CTF-XV-BlueArenaV0.7z"
+hash: "36e3e3c261895e47e7fd825f3912c489bf5466e9"
+fileSize: 27683635
+files:
+- name: "BlueBoxSkyX.utx"
+  fileSize: 795517
+  hash: "7d696dfa5400fc107a9f5e816ed1a79b41dde3d3"
+- name: "CTF-XV-BlueArenaV0.unr"
+  fileSize: 3212104
+  hash: "9732ec8e0d9337ed1844e49bf21c3d779371b0a9"
+- name: "BricksWoodTex21.utx"
+  fileSize: 12047801
+  hash: "d53a9fd6295574d47ae8d0a20be0513ff84629e4"
+- name: "BrickPavX.utx"
+  fileSize: 18402675
+  hash: "db852db948724d8afd0dff8c77ece55896e19322"
+- name: "UTtech4.utx"
+  fileSize: 13699768
+  hash: "25748354f87918336aff1a619216dbcf1844dd51"
+otherFiles: 1
+dependencies:
+  CTF-XV-BlueArenaV0.unr:
+  - status: "OK"
+    name: "BricksWoodTex21"
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "xZones"
+  - status: "OK"
+    name: "UTtech4"
+  - status: "OK"
+    name: "BrickPavX"
+  - status: "MISSING"
+    name: "XStatVeh"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "BlueBoxSkyX"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/B/3/6/e3e3c2/CTF-XV-BlueArenaV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Blue Arena"
+playerCount: "4-8"
+themes:
+  Industrial: 0.3
+  Ancient: 0.7
+bots: true

@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-02 06:54"
+game: "Unreal Tournament"
+name: "CTF-XV-DualityV0"
+author: "bongoliath"
+description: "None"
+releaseDate: "2024-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-dualityv0_shot_354b23bd_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/D/3/5/4b23bd/ctf-xv-dualityv0_shot_354b23bd_1.png"
+originalFilename: "CTF-XV-DualityV0.7z"
+hash: "354b23bd79ad632bd172a60cdb57e4455598cb19"
+fileSize: 11364275
+files:
+- name: "CTF-XV-DualityV0.unr"
+  fileSize: 2203211
+  hash: "64a9a4f41a3a81698cf81e6a1bf120ba52281f4c"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "Wood.utx"
+  fileSize: 3954889
+  hash: "039c1775c0d58cc66b1089a0666893e73b3ac271"
+- name: "mstrkrft-bounce.umx"
+  fileSize: 2789999
+  hash: "e01e2ecf8dcbfc4ff967f59021af7b1ddf9ab762"
+- name: "Xnome.utx"
+  fileSize: 4189525
+  hash: "f43f4c0fb22aa8472b960ea06347a0dd7b37a1bb"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 2
+dependencies:
+  CTF-XV-DualityV0.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "Wood"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "Xnome"
+  - status: "OK"
+    name: "mstrkrft-bounce"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/D/3/5/4b23bd/CTF-XV-DualityV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "CTF-Duality"
+playerCount: "4-8"
+themes:
+  Tech: 0.4
+  Industrial: 0.5
+bots: true
