@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-23 07:06"
+game: "Unreal Tournament"
+name: "DM-[NES]ElvenVillage"
+author: "Nix / Lunic"
+description: "None"
+releaseDate: "2024-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-neselvenvillage_shot_c7db2193_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/c/7/db2193/dm-neselvenvillage_shot_c7db2193_1.png"
+originalFilename: "DM-[NES]ElvenVillage.zip"
+hash: "c7db21934ef6ed56d867bed331917bda73e6734c"
+fileSize: 21261945
+files:
+- name: "L2ElvenVillage.umx"
+  fileSize: 5338463
+  hash: "d78aa7d1389df46308ccb6b9a14d377ec872f2e6"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "DM-[NES]ElvenVillage.unr"
+  fileSize: 23924628
+  hash: "f206e260304c943f89d91105dc15f3e5c93167e6"
+otherFiles: 0
+dependencies:
+  DM-[NES]ElvenVillage.unr:
+  - status: "OK"
+    name: "L2ElvenVillage"
+  - status: "OK"
+    name: "DoorsSnd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/N/c/7/db2193/DM-%5BNES%5DElvenVillage.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Elven Village"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
