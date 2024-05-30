@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-26 10:11"
+game: "Unreal Tournament"
+name: "CTFM-UTDMS-TestRoom"
+author: "made by Colin McCann · edited by EvilGrins"
+description: "Welcome to the MultiCTF Test Room"
+releaseDate: "2021-04"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-utdms-testroom_shot_d8a964db_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/U/d/8/a964db/ctfm-utdms-testroom_shot_d8a964db_3.png"
+- type: "IMAGE"
+  name: "ctfm-utdms-testroom_shot_d8a964db_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/U/d/8/a964db/ctfm-utdms-testroom_shot_d8a964db_1.png"
+- type: "IMAGE"
+  name: "ctfm-utdms-testroom_shot_d8a964db_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/U/d/8/a964db/ctfm-utdms-testroom_shot_d8a964db_2.png"
+originalFilename: "CTFM-UTDMS-TestRoom.zip"
+hash: "d8a964dbc146d54428ca92155157ec2fb8dfd161"
+fileSize: 3715930
+files:
+- name: "UTDMskaarjberserker.u"
+  fileSize: 46761
+  hash: "8d298e58d8b852e9c29eb5e10776499658adedac"
+- name: "CTFM-UTDMS-TestRoom.unr"
+  fileSize: 706617
+  hash: "df7fbfaf38a5f4aa920f7067b37320be0536367b"
+- name: "MultiCTF.u"
+  fileSize: 603010
+  hash: "0ea3bfc29b60617cedf5f93a361e0e6df501c4e1"
+- name: "MultiCTFTex.utx"
+  fileSize: 941080
+  hash: "3b48af6bf2f50d2d4583f4e11ab65c0d903d3cb8"
+otherFiles: 3
+dependencies:
+  CTFM-UTDMS-TestRoom.unr:
+  - status: "OK"
+    name: "UTDMskaarjberserker"
+  - status: "OK"
+    name: "MultiCTFTex"
+  - status: "OK"
+    name: "MultiCTF"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Multi-Team%20CTF/U/d/8/a964db/CTFM-UTDMS-TestRoom.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Multi-Team CTF"
+title: "The Test Room"
+playerCount: "4-8"
+themes:
+  Industrial: 1.0
+bots: true
