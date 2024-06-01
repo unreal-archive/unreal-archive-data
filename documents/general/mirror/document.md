@@ -4,21 +4,21 @@ To ensure the longevity of the archive, you're encouraged to create your own
 local (or hosted, if needed) mirrors of both the archive content, and the 
 website itself.
 
-Both are supported by the `unreal-archive` tool.
+Both are supported by the Unreal Archive command line tooling.
 
 ## General Requirements
 
-1. Java 17 JRE
-   - for Linux, install OpenJDK 17 JRE using your package manager
-   - for Windows, I would recommend [Azul's Zulu Community Edition JRE](https://www.azul.com/downloads/?version=java-17-lts&os=windows&architecture=x86-64-bit&package=jre#download-openjdk)
-2. 7-Zip
+1. 7-Zip
    - for Linux, install package `p7zip-full` (Debian-based) or equivalent; this should add command `7z` to your path
    - for Windows, download and install an appropriate version from the [7-zip website](https://www.7-zip.org/download.html).
-3. Download the `unreal-archive` tool
-   - the latest can always be [downloaded here](https://code.shrimpworks.za.net/artefacts/unreal-archive/latest/)
-   - on Linux, you may download the `unreal-archive` binary, and make it executable via `chmod +x unreal-archive`
-   - for Windows, download `unreal-archive-exec.jar`
-4. At least 2GB RAM
+2. Download the Unreal Archive tools:
+   - Linux binaries:
+      - these binaries should require no dependencies, as the JRE is bundled 
+      - for local content mirroring (downloads): [unreal-archive](https://code.shrimpworks.za.net/artefacts/org/unrealarchive/unreal-archive/latest/)
+      - for creating a website mirror: [www](https://code.shrimpworks.za.net/artefacts/org/unrealarchive/www/latest/)
+   - For Windows:
+      - please clone the [Git repository](https://github.com/unreal-archive/unreal-archive) and follow the build instructions from the README to produce native Windows binaries. 
+3. At least 2GB free RAM
    - The tool loads a lot of metadata, and uses a large amount of memory.
 
 ## Local Content Mirror
@@ -35,7 +35,7 @@ $ ./unreal-archive mirror local-mirror /local/mirror/output --concurrency=5
 
 **Windows command prompt**
 ```
-\> java -jar unreal-archive-exec.jar local-mirror c:\local\mirror\output --concurrency=5
+\> unreal-archive.bat local-mirror c:\local\mirror\output --concurrency=5
 ```
 
 A temporary copy of the archive metadata will be downloaded and extracted,
@@ -58,17 +58,17 @@ copy of the website for your own use.
 
 Before you begin, you will need the requirements listed above.
 
-To create a local mirror of the website, run the `unreal-archive` tool with the
-following parameters:
+To create a local mirror of the website, run the Unreal Archive `www` tool with
+the following parameters:
 
 **Linux terminal**
 ```
-$ ./unreal-archive www /local/website/path --local-images=true --content-path=/path/to/unreal-archive-data
+$ ./www www /local/website/path --local-images=true --content-path=/path/to/unreal-archive-data
 ```
 
 **Windows command prompt**
 ```
-\> java -jar unreal-archive-exec.jar www C:\local\website\path --local-images=true 
+\> www.bat www C:\local\website\path --local-images=true 
 ```
 
 This will generate a copy of the website, within the directory specified by
@@ -78,3 +78,5 @@ them remotely.
 
 You may then open the `index.html` file within the output directory to begin
 browsing the site.
+
+Features such as search will not be available locally.
