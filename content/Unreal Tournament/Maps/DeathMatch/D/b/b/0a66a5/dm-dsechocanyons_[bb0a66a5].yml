@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-23 07:11"
+game: "Unreal Tournament"
+name: "DM-DSEchoCanyons"
+author: "David -DarkSniper- Brown"
+description: "None"
+releaseDate: "2024-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-dsechocanyons_shot_bb0a66a5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/b/b/0a66a5/dm-dsechocanyons_shot_bb0a66a5_1.png"
+originalFilename: "DM-DSEchoCanyons.zip"
+hash: "bb0a66a5bbfd16bf4a889f81524963aca013c4b9"
+fileSize: 26228255
+files:
+- name: "WesternProps.u"
+  fileSize: 9198328
+  hash: "2f5e8d6246d93e94fcc9d46deef2b67aba595267"
+- name: "DM-DSEchoCanyons.unr"
+  fileSize: 14788042
+  hash: "c6c382f6bdd317d99de416c2b7e4b3532e6e3684"
+- name: "EchoCanyons_Memories.umx"
+  fileSize: 13964552
+  hash: "6dc0000e7664621b8be242722b12578efba03fff"
+otherFiles: 1
+dependencies:
+  DM-DSEchoCanyons.unr:
+  - status: "OK"
+    name: "EchoCanyons_Memories"
+  - status: "OK"
+    name: "WesternProps"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/D/b/b/0a66a5/DM-DSEchoCanyons.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Echo Canyons"
+playerCount: "8-16"
+themes:
+  Natural: 1.0
+bots: true

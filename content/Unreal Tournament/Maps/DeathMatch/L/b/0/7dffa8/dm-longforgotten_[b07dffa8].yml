@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-23 07:10"
+game: "Unreal Tournament"
+name: "DM-LongForgotten"
+author: "David -DarkSniper- Brown"
+description: "None"
+releaseDate: "2022-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-longforgotten_shot_b07dffa8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/L/b/0/7dffa8/dm-longforgotten_shot_b07dffa8_1.png"
+originalFilename: "DM-LongForgotten.zip"
+hash: "b07dffa84e6a6b57e1ad3152a489185d236cbb6f"
+fileSize: 12294301
+files:
+- name: "DS_LongFor.utx"
+  fileSize: 13508027
+  hash: "8529b5f91f7ecd88776d4e1d963d95caef48c918"
+- name: "DM-LongForgotten.unr"
+  fileSize: 4497623
+  hash: "e577175d6402dda85550bb7522f812693c28fe38"
+- name: "DS_LongForSnd.uax"
+  fileSize: 1247081
+  hash: "c24655d6f3a92b254beddc07d88ff028b081e4e9"
+- name: "DS_LongForgotten.umx"
+  fileSize: 2071440
+  hash: "b092c058f02de21e7a23238db36fc79a26d3a26e"
+otherFiles: 1
+dependencies:
+  DM-LongForgotten.unr:
+  - status: "OK"
+    name: "DS_LongForSnd"
+  - status: "OK"
+    name: "DS_LongForgotten"
+  - status: "OK"
+    name: "DS_LongFor"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/L/b/0/7dffa8/DM-LongForgotten.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Long Forgotten"
+playerCount: "10-20"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.1
+  Skaarj Tech: 0.6
+bots: true

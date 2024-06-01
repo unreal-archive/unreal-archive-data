@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-26 10:12"
+game: "Unreal Tournament"
+name: "DM-Agony-kitty"
+author: "made by ClawFist · edited by EvilGrins"
+description: "None"
+releaseDate: "2017-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-agony-kitty_shot_5f5345b0_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/5/f/5345b0/dm-agony-kitty_shot_5f5345b0_1.png"
+originalFilename: "DM-Agony-kitty.zip"
+hash: "5f5345b096cece0fbb99505188b6eae791c5d624"
+fileSize: 2775409
+files:
+- name: "HubCat.u"
+  fileSize: 747214
+  hash: "0e85bfeca7e87b676506c165e8acb37a1785721d"
+- name: "DM-Agony-kitty.unr"
+  fileSize: 1854363
+  hash: "6325630a8a9b18d9ca75674b3664278e395565c0"
+- name: "WarNukingGround.u"
+  fileSize: 1871058
+  hash: "60e699b04761e44ee8be4bf6fd5ca6eafa983db9"
+otherFiles: 1
+dependencies:
+  WarNukingGround.u:
+  - status: "MISSING"
+    name: "Spinner"
+  DM-Agony-kitty.unr:
+  - status: "OK"
+    name: "WarNukingGround"
+  - status: "OK"
+    name: "HubCat"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/5/f/5345b0/DM-Agony-kitty.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Sanbox of Fluffy"
+playerCount: "4-12"
+themes:
+  Industrial: 0.1
+  Nali Castle: 0.4
+  Ancient: 0.4
+bots: true
