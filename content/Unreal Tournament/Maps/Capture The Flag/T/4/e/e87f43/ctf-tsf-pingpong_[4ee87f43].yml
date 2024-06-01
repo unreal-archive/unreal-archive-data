@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-05-31 07:32"
+game: "Unreal Tournament"
+name: "CTF-[TsF]-PingPong"
+author: "Blackdeath"
+description: "None"
+releaseDate: "2024-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-tsf-pingpong_shot_4ee87f43_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/4/e/e87f43/ctf-tsf-pingpong_shot_4ee87f43_1.png"
+originalFilename: "CTF-TsF-PingPong.zip"
+hash: "4ee87f434e77f1bb3853c4584ed9d43514b725e2"
+fileSize: 235870
+files:
+- name: "CTF-[TsF]-PingPong.unr"
+  fileSize: 342859
+  hash: "479052608ef61f50a2a90acc9fac4f4f0d21b408"
+- name: "Colors.utx"
+  fileSize: 12589
+  hash: "43a23fef0644986d50aae20da55468e372868fb6"
+- name: "cnpopc.umx"
+  fileSize: 63265
+  hash: "1737012dac865f0d92b5d32ae692288c78ce5bc8"
+- name: "TSF_textures_test2.utx"
+  fileSize: 289428
+  hash: "ccd8efe933af49edf20e3bf21bccb391dead8c66"
+otherFiles: 0
+dependencies:
+  CTF-[TsF]-PingPong.unr:
+  - status: "OK"
+    name: "TSF_textures_test2"
+  - status: "OK"
+    name: "Colors"
+  - status: "OK"
+    name: "cnpopc"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/T/4/e/e87f43/CTF-TsF-PingPong.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-[TsF]-PingPong"
+playerCount: "2-4"
+themes:
+  Tech: 1.0
+bots: true
