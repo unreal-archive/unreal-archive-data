@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-06 09:32"
+game: "Unreal Tournament"
+name: "CTF-XV-TerrainTantrumV0"
+author: "Josh 'ReMoRsELeSs' Tyrell"
+description: "None"
+releaseDate: "2024-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-terraintantrumv0_shot_82297420_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/T/8/2/297420/ctf-xv-terraintantrumv0_shot_82297420_1.png"
+originalFilename: "CTF-XV-TerrainTantrumV0.7z"
+hash: "8229742015ed85f4a41f55d9dca8382dbe4d100a"
+fileSize: 4978802
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTF-XV-TerrainTantrumV0.unr"
+  fileSize: 3230088
+  hash: "4a76e0b7e5a9dbc936cf2eee0d3b66d0e7f27d39"
+- name: "OW-IsisRising.umx"
+  fileSize: 1643613
+  hash: "69e5f28e7d9c8731df660363f5867554a7fad222"
+otherFiles: 1
+dependencies:
+  CTF-XV-TerrainTantrumV0.unr:
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "OW-IsisRising"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/T/8/2/297420/CTF-XV-TerrainTantrumV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "TerrainTantrum"
+playerCount: "12 - 24"
+themes:
+  Natural: 0.1
+  Tech: 0.9
+bots: true
