@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-13 10:37"
+game: "Unreal Tournament"
+name: "CTF-XV-DomV0"
+author: "Per$oX-UK"
+description: "None"
+releaseDate: "2024-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-domv0_shot_f7666e60_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/D/f/7/666e60/ctf-xv-domv0_shot_f7666e60_1.png"
+originalFilename: "CTF-XV-DomV0.7z"
+hash: "f7666e60a2ec80400c6fd7ace4d9da2342dd84a7"
+fileSize: 624288
+files:
+- name: "PX-CTF-Dom.utx"
+  fileSize: 88975
+  hash: "8a55c5b755e284b884c5df8c1f4aae9c02ed9310"
+- name: "earthqauke-aftershock_remix.umx"
+  fileSize: 1366864
+  hash: "89ff63449c8395de429d84ae776e2f7af13a2998"
+- name: "CTF-XV-DomV0.unr"
+  fileSize: 868385
+  hash: "5babb6cf2e73f3dd5916166b436604c2cb01e3f0"
+otherFiles: 2
+dependencies:
+  CTF-XV-DomV0.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "PX-CTF-Dom"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "earthqauke-aftershock_remix"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/D/f/7/666e60/CTF-XV-DomV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "CTF Dom(ination)"
+playerCount: "16"
+themes:
+  Industrial: 1.0
+bots: true
