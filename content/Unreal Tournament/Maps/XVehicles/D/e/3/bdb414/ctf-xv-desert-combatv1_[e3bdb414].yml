@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-19 07:34"
+game: "Unreal Tournament"
+name: "CTF-XV-Desert-CombatV1"
+author: ":TsT:Dave / Snake.PLiSKiN"
+description: "None"
+releaseDate: "2024-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-desert-combatv1_shot_e3bdb414_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/D/e/3/bdb414/ctf-xv-desert-combatv1_shot_e3bdb414_1.png"
+originalFilename: "CTF-XV-Desert-CombatV1.7z"
+hash: "e3bdb41491217f87f5b54189c22b884291152137"
+fileSize: 8716865
+files:
+- name: "KR-Assault.umx"
+  fileSize: 1034363
+  hash: "e638fef7dd946b2524042f4c93b418e01b137db6"
+- name: "CTF-XV-Desert-CombatV1.unr"
+  fileSize: 15087833
+  hash: "5324c72a011106d938a9dadcd0523ab2e486d42c"
+otherFiles: 1
+dependencies:
+  CTF-XV-Desert-CombatV1.unr:
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XStatVeh"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "KR-Assault"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/D/e/3/bdb414/CTF-XV-Desert-CombatV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Desert Combat"
+playerCount: "6-8"
+themes:
+  Egyptian: 1.0
+bots: true
