@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-19 18:46"
+game: "Unreal Tournament 2004"
+name: "VDOM-SpookyValleyv1"
+author: "Scott"
+description: "1st VCTF4 map!"
+releaseDate: "2024-06"
+attachments: []
+originalFilename: "VDOM-SpookyValleyv1.7z"
+hash: "5e008b7a493af74afa1e71efee56dc3614f491c5"
+fileSize: 7394505
+files:
+- name: "JackSkins.utx"
+  fileSize: 350128
+  hash: "7705b2beae36e68f4f5ca506919c4252bf7bc0e2"
+- name: "JackMeshes.usx"
+  fileSize: 154348
+  hash: "41de3f0b9c8b504d899c98964b76cdf3dc49db2e"
+- name: "VDOM-SpookyValleyv1.ut2"
+  fileSize: 26381354
+  hash: "18252b533eca49546cd8a14680e989d2103ca99e"
+- name: "VCTF4-TX.utx"
+  fileSize: 5996990
+  hash: "a87ee83ba9b648a0a6de753433e34146af603496"
+otherFiles: 0
+dependencies:
+  JackMeshes.usx:
+  - status: "OK"
+    name: "JackSkins"
+  VDOM-SpookyValleyv1.ut2:
+  - status: "OK"
+    name: "JackMeshes"
+  - status: "MISSING"
+    name: "cDOM2"
+  - status: "MISSING"
+    name: "AmbOutside"
+  - status: "OK"
+    name: "JackSkins"
+  - status: "OK"
+    name: "VCTF4-TX"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Unknown/V/5/e/008b7a/VDOM-SpookyValleyv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "SpookyValley"
+playerCount: "Unknown"
+themes:
+  Ancient: 1.0
+bots: true
