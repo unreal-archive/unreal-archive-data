@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-06-30 16:16"
+variationOf: "5585b6261e9db82674e1be5ca8c3ef6011e986f2"
+game: "Unreal Tournament"
+name: "MH-Barrier"
+author: "Viliam Simko"
+description: "you must find the stargate"
+releaseDate: "2001-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-barrier_shot_ed954aa7_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/e/d/954aa7/mh-barrier_shot_ed954aa7_1.png"
+originalFilename: "MH-Barrier.zip"
+hash: "ed954aa74d931dc077c69406b93d7469cad854c0"
+fileSize: 2970175
+files:
+- name: "FragmOfTime.u"
+  fileSize: 306175
+  hash: "2d7c2c02b4c873db765685c0d9a706854547219e"
+- name: "vlxtextures1.utx"
+  fileSize: 1932021
+  hash: "e46d4d9ce46e1729d59aa32e3abd2644b693d160"
+- name: "sf_tree1.utx"
+  fileSize: 1327770
+  hash: "bac69121b5d7b82b8d7068af1ee0ef8661393367"
+- name: "MH-Barrier.unr"
+  fileSize: 2623394
+  hash: "d9b66f8c782845ebcccd52dfad94b3ac95bb1194"
+otherFiles: 1
+dependencies:
+  MH-Barrier.unr:
+  - status: "OK"
+    name: "vlxtextures1"
+  - status: "OK"
+    name: "FragmOfTime"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "sf_tree1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/B/e/d/954aa7/MH-Barrier.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Barrier"
+playerCount: "Up to 12"
+themes:
+  Tech: 0.2
+  City: 0.2
+  Natural: 0.2
+  Industrial: 0.5
+bots: true
