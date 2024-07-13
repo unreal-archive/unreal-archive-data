@@ -1,0 +1,1417 @@
+---
+contentType: "GameType"
+addedDate: "2024-07-13"
+game: "Unreal Tournament 2004"
+name: "HaloUT"
+author: "Project Torlan Team"
+description: "A full-scale Total Conversion mod aimed at porting HaloPC into the Unreal\
+  \ Tournament 2004 engine"
+titleImage: "title.jpg"
+bannerImage: "banner.jpg"
+altNames: []
+links:
+  ModDB: "https://www.moddb.com/mods/halout"
+problemLinks: {}
+credits:
+  Models and skins:
+  - "EE"
+  - "Qx9"
+  - "UbH"
+  - "Slaughter"
+  - "Xabora"
+  Weapons:
+  - "EE"
+  - "Dandel1984"
+  - "porkmanii"
+  - "Oxygene2k"
+  - "Exodus"
+  Vehicles:
+  - "Mark Jansen"
+  - "Dandel1984"
+  - "porkmanii"
+  - "Magnum"
+  - "EE"
+  - "Exodus"
+  Maps:
+  - "EE"
+  - "Brandon"
+  Gametypes:
+  - "EE"
+  Voicepacks:
+  - "UnrealGrrl"
+  UV Mappers:
+  - "Oxygene2k"
+  - "Whistling Cool"
+  Development Support:
+  - "Xabora"
+  - "Mematrix"
+  - "Captain Valor"
+  - "Exodus"
+  Photos:
+  - "Buffytheslayer"
+  - "EE"
+  - "Exodus"
+  Release:
+  - "Captain Valor"
+  - "Exodus"
+  Testing:
+  - "Dragunov/DMDL"
+  - "Mematrix"
+  - "Dandel"
+  - "Valor"
+  - "Exodus"
+gameTypes:
+- name: "HaloUT Flood Invasion"
+  description: "Replaces INVASION Monsters with the Flood."
+mutators:
+- name: "HaloUT Banshee"
+  description: "Replaces the Raptor with the Banshee from Halo"
+- name: "HaloUT Ghost"
+  description: "Replaces the manta with the Ghost from Halo"
+- name: "HaloUT Jump/Gameplay"
+  description: "Replaces normal UT jumping with Halo-style single jumping and gameplay."
+- name: "HaloUT Pistols"
+  description: "Replace all weapons in the map with halo pistols."
+- name: "HaloUT Species Statistics"
+  description: "Official HaloUT Species Stats by Exodus and EE."
+- name: "HaloUT Warthog MG"
+  description: "Replaces the UT Scorpion with the WarthogMG from Halo"
+- name: "HaloUT Warthog RL"
+  description: "Replaces the HellBender with the WarthogRL from Halo"
+- name: "HaloUT Warthog SPX"
+  description: "Replaces the Manta with the Warthog SPX"
+- name: "HaloUT Weapons [halostyle]"
+  description: "Replaces all default weapons with Halo weapons"
+- name: "HaloUT Weapons [utstyle]"
+  description: "Replaces all default weapons with Halo weapons"
+- name: "HaloUTScorpion"
+  description: "Replace any vehicles with the HaloUTScorpion."
+- name: "Highlight Players"
+  description: "Highlights players (team games only) by attaching team-coloured lights\
+    \ to their shoulders."
+maps:
+- name: "CTF-HUT-BattleCreek"
+  title: "HUT Battle Creek"
+  author: "[^..^]Apo"
+- name: "CTF-HUT-CrossFire"
+  title: "CROSSFIRE"
+  author: "Brandon Furches"
+- name: "CTF-HUT-StoneFalls"
+  title: "CTF-HUT-StoneFalls"
+  author: "ArcadiaVincennes"
+  screenshot:
+    type: "IMAGE"
+    name: "ctf-hut-stonefalls2130543667704145060.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/ctf-hut-stonefalls2130543667704145060.png"
+- name: "CTF-HUT-StoneFallsF"
+  title: "CTF-HUT-StoneFallsF"
+  author: "ArcadiaVincennes"
+  screenshot:
+    type: "IMAGE"
+    name: "ctf-hut-stonefallsf2736130101975713567.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/ctf-hut-stonefallsf2736130101975713567.png"
+- name: "CTF-HUT-XFire-SE"
+  title: "XFIRE-SE"
+  author: "Brandon Furches"
+  screenshot:
+    type: "IMAGE"
+    name: "ctf-hut-xfire-se14071679014976324970.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/ctf-hut-xfire-se14071679014976324970.png"
+- name: "DM-HUT-BattleCreek"
+  title: "HUT Battle Creek"
+  author: "[^..^]Apo"
+- name: "DM-HUT-CrossFire"
+  title: "CROSSFIRE"
+  author: "Brandon Furches/ EvilEngine"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-hut-crossfire17315144267339857061.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/dm-hut-crossfire17315144267339857061.png"
+- name: "DM-HUT-Derelict"
+  title: "DERELICT"
+  author: "Cirion / Perfect Chaos/ EvilEngine"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-hut-derelict10573476024787722388.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/dm-hut-derelict10573476024787722388.png"
+- name: "DM-HUT-Gephyrophilia"
+  title: "Gephyrophilia"
+  author: "Travis \"dIsPoSeAbLe_HeRo"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-hut-gephyrophilia11662506565991785288.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/dm-hut-gephyrophilia11662506565991785288.png"
+- name: "DM-HUT-HALO_Outpost"
+  title: "DM-HUT-HALO-OUTPOST"
+  author: "Hicks"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-hut-halo_outpost16897826699557985834.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/dm-hut-halo_outpost16897826699557985834.png"
+- name: "DM-HUT-Prisoner"
+  title: "DM-Prisoner"
+  author: "EvilEngine"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-hut-prisoner16734191853793057564.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/dm-hut-prisoner16734191853793057564.png"
+- name: "DM-HUT-Tubes"
+  title: "Tubes"
+  author: "dIsPoSeAbLe_HeRo"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-hut-tubes9929500686056564015.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/dm-hut-tubes9929500686056564015.png"
+- name: "ONS-HUT-Infestation"
+  title: "Infestation"
+  author: "Ben 'robo422' Wu"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-hut-infestation9025324688638632957.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/ons-hut-infestation9025324688638632957.png"
+- name: "ONS-HUT-Nexus"
+  title: "Nexus"
+  author: "Kyle 'Dace' Brunette"
+- name: "ONS-HUT-Oculus"
+  title: "Oculus"
+  author: "Ben 'robo422' Wu"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-hut-oculus4616504333814059636.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/ons-hut-oculus4616504333814059636.png"
+- name: "VCTF-HUT-Mombasa"
+  title: "VCTF-HUT-Mombasa"
+  author: "Unknown"
+- name: "VCTF-HUT-Oculus"
+  title: "Oculus"
+  author: "Ben 'robo422' Wu"
+  screenshot:
+    type: "IMAGE"
+    name: "vctf-hut-oculus5657438022199291251.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/GameTypes/H/halout/maps/vctf-hut-oculus5657438022199291251.png"
+releases:
+- title: "Full Release, Patched"
+  version: "1.751"
+  releaseDate: "2005-02"
+  description: ""
+  files:
+  - title: "All in One Package"
+    localFile: "/home/shrimp/Downloads/HaloUT_Allfiles_In_One.1.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202004/halout/HaloUT_Allfiles_In_One.1.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "HaloUT_Allfiles_In_One.1.zip"
+    hash: "8d6a090a3372ae3d48a1f5da3add947c2b52a079"
+    fileSize: 433364305
+    synced: true
+    deleted: false
+    files:
+    - name: "HaloUTBsounds.uax"
+      fileSize: 2076358
+      hash: "a5d278796f04c38e8ff941199f4adaadebc6c41c"
+    - name: "Banshee.ukx"
+      fileSize: 188868
+      hash: "1e06afd49d6aa5dd26e1467bee86eac2e53969e9"
+    - name: "Halo_Weapons.u"
+      fileSize: 329253
+      hash: "6db374e3f16745fe0cfa4c14dbc96785e6ae57f4"
+    - name: "CTF-HUT-StoneFalls.ut2"
+      fileSize: 42153047
+      hash: "50b406d25589cae3cbdfba6a1c52e7a949995bd9"
+    - name: "HaloUTBaseTex.utx"
+      fileSize: 49547328
+      hash: "d9003c8fae769b420cd6c313e064c25cbb850eb0"
+    - name: "ILabMeshes.usx"
+      fileSize: 1204208
+      hash: "27a3cf80da6e6cac971bc454a4f3d10ff589a533"
+    - name: "HUTJackalVoice1.u"
+      fileSize: 3372139
+      hash: "4c261cde7a44a2459b547b62302948cd22fac8e3"
+    - name: "HaloMasterChief-xtra.utx"
+      fileSize: 14874
+      hash: "1fca23c6076930c0ec7c2929709a184688af0237"
+    - name: "HaloUTCortana.upl"
+      fileSize: 514
+      hash: "41d2fe24cf55b6763023ebd916a1be8aecdcef76"
+    - name: "UnWorld2.ogg"
+      fileSize: 2268569
+      hash: "429613e27a797903f29769f0f575baa7cfcdd23e"
+    - name: "HUT717GFX.usx"
+      fileSize: 46554
+      hash: "edcdde0ef10bf5b0eeb6aa5309935e859196159c"
+    - name: "HaloUT_MCxtra.ukx"
+      fileSize: 647056
+      hash: "55cc4c10f928af191906077be2a944550bc997a8"
+    - name: "HUTCXPSkins.upl"
+      fileSize: 19011
+      hash: "aa31b2b09432b9bdb2d7fdce59eac0fb2ea2e4b4"
+    - name: "Halo.utx"
+      fileSize: 87897
+      hash: "5c570c6a5337d1b74d6ecae1a21b22ef14573a69"
+    - name: "HaloUTCovenant.upl"
+      fileSize: 9704
+      hash: "68710319944e07bfc840c7ad09ef08a075e96fd6"
+    - name: "uthalo_marineone.u"
+      fileSize: 5208855
+      hash: "4cbdda1374069c0753779d5a8fb99d4a28e8fd69"
+    - name: "MCvoice.u"
+      fileSize: 245116
+      hash: "981fb2a3244367a3bc626705aa9d560efd75c613"
+    - name: "07 Flawed Legacy.ogg"
+      fileSize: 5424517
+      hash: "07ec1667983d13e1bcfa62b0d257c18889db786b"
+    - name: "Sentianim.ukx"
+      fileSize: 866827
+      hash: "2575d89597c2f6ec2edaabb029f63004fa5a649f"
+    - name: "HaloUTFMC_camos.utx"
+      fileSize: 1753368
+      hash: "0bfeaa5f67d06781d87c6530e0abb8be0364d007"
+    - name: "FPHUT.ka"
+      fileSize: 46355
+      hash: "6fffba4a26950107dfd56b08374d9c5d1330b820"
+    - name: "HUTSargeJohnsonVoice1.u"
+      fileSize: 5342055
+      hash: "7d7c161148b4ce235fc2898d6ec121ec2e87df42"
+    - name: "22 The Long Run.ogg"
+      fileSize: 1947415
+      hash: "9c1935f9ac9e6b0a7c07b6e69651c0d967644012"
+    - name: "CTF-HUT-CrossFire.ut2"
+      fileSize: 2114131
+      hash: "a5c78edb00728205d284e24f883661913bbb6c1d"
+    - name: "HaloScript.u"
+      fileSize: 197189
+      hash: "35cf8043dbef979996aea387b476fb1155a491aa"
+    - name: "HaloUT_pickupexample_smeshes.usx"
+      fileSize: 7107341
+      hash: "c7ccc5569a5e202be773553b56bef51ebe10cea8"
+    - name: "HaloAmbientSounds.uax"
+      fileSize: 2224292
+      hash: "46f8f944175cbfccb96e981790a18c2b218f0601"
+    - name: "HaloTextures.utx"
+      fileSize: 788262
+      hash: "870d01a50d620b1ca9393097285ccd93977488aa"
+    - name: "Infestation.ogg"
+      fileSize: 4407637
+      hash: "8ab719dae1f5c33da5e3e5651f2c338a3d3927a3"
+    - name: "HaloUTScorpion_A.ukx"
+      fileSize: 361115
+      hash: "0158983b0a7008873a8a7a16df25887f60a9b503"
+    - name: "HaloMasterChief.utx"
+      fileSize: 15618519
+      hash: "7fd39a20e0c2c00b7c84fcfa2ab7b67d6e03aa0c"
+    - name: "HaloUTHealthTex.utx"
+      fileSize: 133018
+      hash: "bab1f04c142bc6eccee85ac32a6a23b21eb47711"
+    - name: "CovenantDance.ogg"
+      fileSize: 703565
+      hash: "a109d5e6b2accaf651a979fc59ccf224dfe9b35c"
+    - name: "HaloUT_powerups.ukx"
+      fileSize: 978848
+      hash: "ad3b2e69ff2fc82553e14a1aa87dd4e7a41c5a98"
+    - name: "FloodEliteTextures.utx"
+      fileSize: 547617
+      hash: "5f431826bd71f039a3c6ce04ed29c298fe6b67d9"
+    - name: "BenTex02.utx"
+      fileSize: 10916717
+      hash: "6f14b1679897cbf6a79f4434b9e0dc9b5c86ebf4"
+    - name: "FMCtex-K-Klasnic.utx"
+      fileSize: 11540342
+      hash: "7fadecab5bc4075be1e3bcfcecf308701aacf689"
+    - name: "HUTEliteVoice1.u"
+      fileSize: 6931922
+      hash: "f5f46011e4bacf1e36c2c55e1efab0a47824003c"
+    - name: "camogrunts(2).utx"
+      fileSize: 10402301
+      hash: "e202d681107f5cee5b4088af190f5b1c4fdc6d05"
+    - name: "HaloScorpion_Arctic.u"
+      fileSize: 1609
+      hash: "df72ceec02e52b2e2af01a819ef660a2087a6bc1"
+    - name: "LBPHaloTextures.utx"
+      fileSize: 7798095
+      hash: "5eb4361d15f39b35c6ce5b6e94c4429128af5ed6"
+    - name: "HaloScorpion.u"
+      fileSize: 319958
+      hash: "ff5994464cf0eedaac9d505037249aed7fdaaf92"
+    - name: "DM-HUT-Prisoner.ut2"
+      fileSize: 8609991
+      hash: "4c34e15d02fc58f31c16c17632608dbd1df1380b"
+    - name: "HaloGhostMesh.ukx"
+      fileSize: 156659
+      hash: "f6e426ea0a82569eb24b15c262d901c015302a28"
+    - name: "HaloHumans.ukx"
+      fileSize: 1078511
+      hash: "eb2886b6ca3ac6eac6f17348609269adb3ebea38"
+    - name: "HaloUTWarthog_MG.u"
+      fileSize: 682346
+      hash: "021899a07c77b29cb93c637a2837d2d6439011bc"
+    - name: "HaloUTSceneryMeshes.usx"
+      fileSize: 13528935
+      hash: "10aa1ab33e177c089db376c858a45cb6817d88b7"
+    - name: "DM-HUT-CrossFire.ut2"
+      fileSize: 4020119
+      hash: "b4fc83630d14c1d7cd18fdd37fbd584a12201367"
+    - name: "HaloUTFloodEliteSKEL.ukx"
+      fileSize: 140496
+      hash: "8e06d60b7d0bf754ac7c7b1f24ebac2b9b98c230"
+    - name: "uthalo_cortana.u"
+      fileSize: 7518567
+      hash: "07775eac51afb7ecdda1b6bd0f97d701e9ab992f"
+    - name: "HaloGhostSM.usx"
+      fileSize: 315269
+      hash: "5b3246555d2b5cb3692acba28b52de5f16dec08b"
+    - name: "HaloUTSceneryMeshTex.utx"
+      fileSize: 13920417
+      hash: "9f0bcdbbbf2b1b8ebc9df4783c7e54b5399f6ea8"
+    - name: "HaloUTSargeStacker.u"
+      fileSize: 4916682
+      hash: "5e53b0630c713f0a0b68e17943095c4004ac2bdd"
+    - name: "CTF-HUT-BattleCreek.ut2"
+      fileSize: 11832458
+      hash: "3b7163aa3e7ae179864744b1cb342aa194cf90e5"
+    - name: "FMC-K.ukx"
+      fileSize: 515251
+      hash: "da1e7d1a242aa4ef3279899605fdabc0af412513"
+    - name: "HUTUCortana.ukx"
+      fileSize: 5289611
+      hash: "c9b8d91964463314d6d67096cd026a20d76efc91"
+    - name: "Halosounds.uax"
+      fileSize: 88163858
+      hash: "83981237d0b405d7d42ecb624b561c057f8a884a"
+    - name: "HighCharity.ogg"
+      fileSize: 1703430
+      hash: "ac0596b3df64046d3f5174622d5179ee1d873544"
+    - name: "camojackals.utx"
+      fileSize: 39762559
+      hash: "e5fe954ed0739eec992f7b7cb8702151961b0999"
+    - name: "HaloUT_Jump.u"
+      fileSize: 8744
+      hash: "6c5e5203064b7b67f2d07437d2413bbdc67aebe3"
+    - name: "HaloMasterChief.ukx"
+      fileSize: 15355060
+      hash: "aa4a660acafbee7f76e514947b7b1e13eafc1b2e"
+    - name: "ONS-HUT-Infestation.ut2"
+      fileSize: 67403217
+      hash: "eb4cf10abb6f429fc8e7ef1d62a9cae6da5ae032"
+    - name: "HUT-PB.utx"
+      fileSize: 525659
+      hash: "65926683a89ed3bf50d355ccd3c2f9abca705386"
+    - name: "HereticsSkins.utx"
+      fileSize: 13992625
+      hash: "412c52a9f441695d78f775dafb4d3e4b873a37e0"
+    - name: "HaloHumantex.utx"
+      fileSize: 11541519
+      hash: "8732ae759f70c478e753deed6ba3bb29cd063daa"
+    - name: "HUT_Banshee.ukx"
+      fileSize: 2123007
+      hash: "6d545b26e91b1d8871f7e7725016d2725eb50d13"
+    - name: "HaloUTBanshee.utx"
+      fileSize: 6552391
+      hash: "1d39c3cd2f36545f5eea4ce612d8562fe58e4700"
+    - name: "ONS-HUT-Nexus.ut2"
+      fileSize: 18135163
+      hash: "407dc19fc7e15ad29886988ebb5eea19d61032f0"
+    - name: "Speedy_WH_damaged_SM.usx"
+      fileSize: 652223
+      hash: "40edbfe66629da7afb8192d90979862f9b7fbb56"
+    - name: "HaloCrossHairs.utx"
+      fileSize: 33781
+      hash: "ec16507e41b02c3692ffcf717ac75e321bd548e4"
+    - name: "ILabTex.utx"
+      fileSize: 11625652
+      hash: "bf003a8063e9d0595a1c74c616faf1e2f7d3b09a"
+    - name: "HaloScorpion_Forest.u"
+      fileSize: 1603
+      hash: "3ed3a35ca5a4a0e402028b4f5e16ce2539fb0422"
+    - name: "DM-HUT-Gephyrophilia.ut2"
+      fileSize: 2604236
+      hash: "edca3d03ca90319dcd30e5362b9674c1444c55e7"
+    - name: "camohunters.utx"
+      fileSize: 14596839
+      hash: "e4701e46fab08d395cbdf081f61ace9af819502d"
+    - name: "CTF-HUT-XFire-SE.ut2"
+      fileSize: 12130804
+      hash: "9a0bb5eb3aa915f215b2e4d3c99d286b3890e57b"
+    - name: "DM-HUT-BattleCreek.ut2"
+      fileSize: 11861432
+      hash: "61ab18cee9c47a586cfa99c8c1713eaf91a5fa58"
+    - name: "717splasmaeffects.u"
+      fileSize: 272331
+      hash: "9c18fe40bd61bda692cf3614fb8b1dcdd6bbf4ee"
+    - name: "SpeedyWH_rocket.ukx"
+      fileSize: 1995413
+      hash: "74d903a269bcf2be8050600837f5fb8ee3f22eff"
+    - name: "Haloscript_B.u"
+      fileSize: 1342
+      hash: "44473bf79df24acba33f36db61668bf6fcd85061"
+    - name: "CamoGrunts.utx"
+      fileSize: 3062352
+      hash: "50e9e239e7be4c2b93475284dd5e58f1573faf91"
+    - name: "HaloUTTextures.utx"
+      fileSize: 15845
+      hash: "31c5945847a15793e95ca711948a87aac06d6492"
+    - name: "HaloCreatures.ukx"
+      fileSize: 14057327
+      hash: "cccb3be99d86c0a0617f7154d7e8fbe0b09ba37e"
+    - name: "HaloVehicles.u"
+      fileSize: 118558
+      hash: "07e2cbf0be3fe37ba743f15a06cb4deac05e4c80"
+    - name: "HaloUTVehicles_SM.usx"
+      fileSize: 2722237
+      hash: "f9189ecf571bc996455681f5600ee9407f130a11"
+    - name: "BrandonsHaloTextures.utx"
+      fileSize: 1225067
+      hash: "e4cf22220eb87dba95b2158212ef587fc9878267"
+    - name: "HUTMapTextures.utx"
+      fileSize: 8603588
+      hash: "0179ff11b3ba2e0538203d3d0245894805337cce"
+    - name: "HaloGhost.u"
+      fileSize: 59948
+      hash: "633edc48c53b5168a7fdcaeecc81a7ab3f73b121"
+    - name: "HaloUTWarthog_RL.u"
+      fileSize: 826968
+      hash: "f4454511cf214e7a26c437fb8998a44146b5f3cc"
+    - name: "Halo_Beaver_Creek.utx"
+      fileSize: 8477019
+      hash: "ad8a8cb3b1fa4d90368862c3934339a2b75d6a2a"
+    - name: "HUTQMC.ukx"
+      fileSize: 14661184
+      hash: "045802ca25d69aa93d4479ccb0287d0ef9eabbc7"
+    - name: "HaloUTWarthogs_TC.utx"
+      fileSize: 2797684
+      hash: "bf7a82cffe0131b117b7e66bcb4df4a1c2e43c14"
+    - name: "HaloUTHealthStatic.usx"
+      fileSize: 7510
+      hash: "95461b6ebf7ec1d8df3eb1beb745497916f50242"
+    - name: "ScorpionSounds.uax"
+      fileSize: 379872
+      hash: "367b286d881a19565ff6e797d7dcc07fe70385b6"
+    - name: "HaloScorpion_Desert.u"
+      fileSize: 1603
+      hash: "02c097ee7ee1eb0b36a185f6a007d6131bde92aa"
+    - name: "HaloUTWarthogSounds.uax"
+      fileSize: 278845
+      hash: "c70c168922e3da510a8e26e751118618380d11b6"
+    - name: "Halocreaturestex.utx"
+      fileSize: 30310671
+      hash: "1e39176fd016aa86adc71689d7cbcd8b8c19c6c4"
+    - name: "BansheeMeshes.usx"
+      fileSize: 502046
+      hash: "47aa5a37056f7d25ff89ee22e7d863a419e59820"
+    - name: "HaloUTAI.upl"
+      fileSize: 2201
+      hash: "57a641cdf0d45382ad956b48abff19b49d811d4e"
+    - name: "HaloMasterChief_Slaughter.utx"
+      fileSize: 8915746
+      hash: "a105c9e95d7d46838bc315650b05550e1b2cb61e"
+    - name: "HaloUTFlood.upl"
+      fileSize: 1512
+      hash: "0a1a28312006f50a24bfb2b58d8a656f284d6809"
+    - name: "lost_song.ogg"
+      fileSize: 1082132
+      hash: "7d627a9d3ee739aae4813f03db15bb1edc655355"
+    - name: "StarField.usx"
+      fileSize: 5639603
+      hash: "d1c648688141e8ee54e669e305feb983d99f1dd7"
+    - name: "Haloweapons.ukx"
+      fileSize: 19355292
+      hash: "2aea41571fa43683868374929ad1cafeda7e54cc"
+    - name: "DM-HUT-Derelict.ut2"
+      fileSize: 11494709
+      hash: "f7fe198686f6a8643a5fd5f199f6f61625901c16"
+    - name: "HaloGametypes.u"
+      fileSize: 496167
+      hash: "336a5f59b4af02eade960b01653691f180a0bf2a"
+    - name: "HaloUTScorpion_T.utx"
+      fileSize: 10785806
+      hash: "b57ae72c7170919820da2cd77c3b053e4a74b412"
+    - name: "VCTF-HUT-Oculus.ut2"
+      fileSize: 27822770
+      hash: "78b81abc75788af26d1f078c4fe0405cd516903a"
+    - name: "femalemc_halout.u"
+      fileSize: 4759360
+      hash: "bad7718fae8282d4b5697741ef94620a5aa18ac4"
+    - name: "DM-HUT-HALO_Outpost.ut2"
+      fileSize: 1579467
+      hash: "e77d050e1f7eba10c4b75333d9f7a5c437ec6b23"
+    - name: "HaloUTWarthog_MG.ukx"
+      fileSize: 664863
+      hash: "e5a0b974d4efcf75f36754b6f10d87efeccb3b86"
+    - name: "camojackels.utx"
+      fileSize: 33556385
+      hash: "2ef23b69135f41ef94ed60c1c5729724e3dbcf50"
+    - name: "Skins_Xab.utx"
+      fileSize: 2972532
+      hash: "cbb9c851fc8fec6a03d18b74a87987dd2c29bb59"
+    - name: "HUTUFP.ukx"
+      fileSize: 4565881
+      hash: "1ceaf4dcfdca520a431f90f05186a91a7243ed1d"
+    - name: "RedTribeElite.utx"
+      fileSize: 2185944
+      hash: "7240cb897cf6d877bb3bc1ac0a704c381db065d8"
+    - name: "HaloUTInfectiontex.utx"
+      fileSize: 395
+      hash: "2eacc97fbb4e15a978da5d090fca346a037349fb"
+    - name: "BrandonsHaloSounds.uax"
+      fileSize: 1694768
+      hash: "c71e387c25fa8ff259df57d74b6c15672cf01118"
+    - name: "HaloScorpion_Urban.u"
+      fileSize: 1596
+      hash: "6d57d64bbcf9778c7459fc6af6873def37b85918"
+    - name: "HaloUTWarthogs_tex.utx"
+      fileSize: 3429047
+      hash: "b81f8c2fe330a7b76e7fd1bc13d11d1448802e03"
+    - name: "HUT_GFX.u"
+      fileSize: 150786
+      hash: "59f91bdeab650db96324373d5340450098cc84e9"
+    - name: "HUTSpecies.u"
+      fileSize: 17213
+      hash: "201e33e385e29abfe44f9a69237bd5a74fcf551a"
+    - name: "HaloCreatureKA.ka"
+      fileSize: 364261
+      hash: "55e3fbf0c8ec0e878c42d7bf1864e27afd6cc875"
+    - name: "HaloMasterChief_colors.utx"
+      fileSize: 878939
+      hash: "0f810c06bcdbc31945bab9f0e2dbe10c1ce116d1"
+    - name: "HaloUTBtextures.utx"
+      fileSize: 9575055
+      hash: "ba1e932714f873c767bb5bab53cd026f57374015"
+    - name: "CTF-HUT-StoneFallsF.ut2"
+      fileSize: 41786544
+      hash: "451f811b23ed64576d2aba83ca47fa1c51928595"
+    - name: "HaloUTMarines.upl"
+      fileSize: 3834
+      hash: "87ff9d81ac1ff5a4338402ade21cda79c91e38fd"
+    - name: "HUTGruntVoice1.u"
+      fileSize: 4434034
+      hash: "20cbf918226f8609b29fc6f0de8c96f1c07952bb"
+    - name: "HaloUTWarthog_SPX.ukx"
+      fileSize: 372184
+      hash: "b898db467b254a41cc669f619bbfc553bfebd1f8"
+    - name: "HUTFemMarinesVoice1.u"
+      fileSize: 2708319
+      hash: "3de2ae8f169ab507ce1749c2fefe004d9d60ead8"
+    - name: "HUT_elite_infil.utx"
+      fileSize: 89293
+      hash: "c6db09b7ca02781efa33ce199f2d9d5fb847bca9"
+    - name: "BansheeSounds.uax"
+      fileSize: 165731
+      hash: "e7014450c1cbb6630b868607227dbdda57a8a8cc"
+    - name: "RingModel.usx"
+      fileSize: 19914
+      hash: "55caaa58afdb6cb95c4fdba2ad9dd30e68fff70f"
+    - name: "haloUTwarthog_SPX.u"
+      fileSize: 54521
+      hash: "9bc75ab802dfe2a4a3856d18d5c17f40cad9e1ba"
+    - name: "HaloUTWarthog_RL.ukx"
+      fileSize: 798810
+      hash: "5f1c0b67ece06d3d69375df29a5e7b09fdd198b5"
+    - name: "UTV2004s.u"
+      fileSize: 13191
+      hash: "83e879a0c45c646b2ea0562bb42b738683a71392"
+    - name: "HaloUTScorpion_SM.usx"
+      fileSize: 763547
+      hash: "ae75a077847e8b023488d4c4669ff780f3b42a3d"
+    - name: "DM-HUT-Tubes.ut2"
+      fileSize: 4476827
+      hash: "e9e7f9cb6ad9177ec17e966de7ee4bb43a9d9020"
+    - name: "HalocreaturestexAlt.utx"
+      fileSize: 1311255
+      hash: "a99eec07c2f9606f2e35af8125cb30f853c9cbb2"
+    - name: "SpeedyWH_rocket_TC.utx"
+      fileSize: 3497091
+      hash: "8340e019907ff07e44a0e1391d4d7e68b76c430e"
+    - name: "HUTX_FX.utx"
+      fileSize: 103336
+      hash: "dcaf38896ca3b052e8fd2a92a0d651a24b58336a"
+    - name: "VCTF-HUT-Mombasa.ut2"
+      fileSize: 22481319
+      hash: "b3d4a64320e58778e515f7c248f3b8327589e0ac"
+    - name: "GuiltySpark.ukx"
+      fileSize: 539495
+      hash: "d180ac5420168f6e3c9b1799341fa455ccfdc9cd"
+    - name: "StarFieldTex.utx"
+      fileSize: 5639603
+      hash: "24eb73bbfd600837aed3dd209f4f75b3ee59e96d"
+    - name: "FMC.ukx"
+      fileSize: 6758257
+      hash: "0a6ea52bd06c8f1c6c7263bb78d301ae782cd731"
+    - name: "HaloUT_BulletMarks.utx"
+      fileSize: 68599
+      hash: "1e290311e54ea46834f486c5cb66c66dca835afb"
+    - name: "Ghost.uax"
+      fileSize: 294653
+      hash: "d263fb804ab6bd3e2da2471c14fb503d79bde81d"
+    - name: "psShoulderLights.u"
+      fileSize: 11176
+      hash: "8cc3380ba2be06e127db418806eb8438eed7ada9"
+    - name: "Halogibs.usx"
+      fileSize: 11091214
+      hash: "4ac206a25df6d03e9d3ae7c0fb2f2791695324cc"
+    - name: "TeamSymbols_Halo.utx"
+      fileSize: 3243398
+      hash: "f1e5eb20f33969a4398df2e0dccd423a2b20b29d"
+    - name: "ONS-HUT-Oculus.ut2"
+      fileSize: 27742737
+      hash: "1a4930bd12c15c1cc184c7ade5f226b2dd9747bd"
+    - name: "BlueTribalElite.utx"
+      fileSize: 787467
+      hash: "ce0fdf1419991011f3d265513c3dd6d36b452d41"
+    - name: "HaloUTSpartans.upl"
+      fileSize: 16180
+      hash: "238c2a1fecf47e8b5c20125d7dd57e65f25f5564"
+    - name: "HaloUTAI.ukx"
+      fileSize: 16648823
+      hash: "cebb9b44272c0e26533e3966f4fce410090f4586"
+    - name: "BansheeTextures.utx"
+      fileSize: 4601099
+      hash: "86f6c57b3542306a095f066d6b3a17ac3148bdf6"
+    - name: "HaloGhostTex.utx"
+      fileSize: 5005321
+      hash: "eb0110a340f0512f57b91d33608bb4a4594b92df"
+    - name: "camoelites.utx"
+      fileSize: 15995224
+      hash: "862aa94f48a36fc538fe7316966ffa3109aa8fbe"
+    - name: "HaloUTGhostTex.utx"
+      fileSize: 5617136
+      hash: "a591ddc67993ab7ca5eaef8976ed3488229b14c8"
+    - name: "HaloHealth.u"
+      fileSize: 4444
+      hash: "91ef43b4be91073cad2dd955ea0a00db19f8b8de"
+    - name: "HaloBanshee.u"
+      fileSize: 85273
+      hash: "05dfeba528246a87e44129aef0f05c70169fac48"
+    otherFiles: 46
+    dependencies:
+      RedTribeElite.utx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      HaloUTVehicles_SM.usx:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      DM-HUT-HALO_Outpost.ut2:
+      - status: "OK"
+        name: "HaloUTSceneryMeshes"
+      - status: "OK"
+        name: "HaloTextures"
+      - status: "OK"
+        name: "HaloUTBtextures"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "Halo_Weapons"
+      HaloUTWarthog_MG.u:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      - status: "OK"
+        name: "HaloUTWarthogs_TC"
+      - status: "OK"
+        name: "HaloUTWarthogSounds"
+      - status: "OK"
+        name: "HaloUTVehicles_SM"
+      HaloUTWarthog_RL.ukx:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      - status: "OK"
+        name: "HaloUTWarthogs_TC"
+      - status: "OK"
+        name: "HaloUTWarthogSounds"
+      - status: "PARTIAL"
+        name: "HaloUTWarthog_MG"
+      - status: "OK"
+        name: "HUT717GFX"
+      - status: "OK"
+        name: "HaloUTVehicles_SM"
+      SpeedyWH_rocket_TC.utx:
+      - status: "OK"
+        name: "SpeedyWH_rocket"
+      HaloMasterChief-xtra.utx:
+      - status: "OK"
+        name: "HaloMasterChief"
+      HaloScorpion_Urban.u:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "HaloScorpion"
+      DM-HUT-Gephyrophilia.ut2:
+      - status: "OK"
+        name: "HaloTextures"
+      - status: "OK"
+        name: "Halo_Weapons"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "ILabMeshes"
+      HaloUTWarthogs_TC.utx:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      DM-HUT-Derelict.ut2:
+      - status: "OK"
+        name: "HaloTextures"
+      HaloGhost.u:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "HaloGhostMesh"
+      - status: "OK"
+        name: "Ghost"
+      - status: "OK"
+        name: "HUT717GFX"
+      - status: "OK"
+        name: "HaloUTGhostTex"
+      HaloUTSceneryMeshTex.utx:
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      HaloMasterChief.utx:
+      - status: "OK"
+        name: "Halosounds"
+      ILabMeshes.usx:
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      HaloScorpion_Forest.u:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "HaloScorpion"
+      HereticsSkins.utx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "HaloHumantex"
+      DM-HUT-BattleCreek.ut2:
+      - status: "OK"
+        name: "Halo_Beaver_Creek"
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "Haloweapons"
+      - status: "OK"
+        name: "Halo_Weapons"
+      HaloScorpion_Desert.u:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "HaloScorpion"
+      HaloScorpion.u:
+      - status: "OK"
+        name: "HaloUTScorpion_SM"
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "ScorpionSounds"
+      - status: "OK"
+        name: "HaloCrossHairs"
+      - status: "OK"
+        name: "Haloweapons"
+      - status: "OK"
+        name: "HaloUTWarthog_MG"
+      - status: "OK"
+        name: "HaloUTScorpion_A"
+      DM-HUT-Prisoner.ut2:
+      - status: "OK"
+        name: "Sentianim"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "GuiltySpark"
+      - status: "OK"
+        name: "HaloUTBtextures"
+      HaloMasterChief_colors.utx:
+      - status: "OK"
+        name: "HaloMasterChief"
+      HUT717GFX.usx:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      ONS-HUT-Nexus.ut2:
+      - status: "OK"
+        name: "haloscorpion"
+      - status: "OK"
+        name: "HaloUTScorpion_SM"
+      - status: "OK"
+        name: "HaloUTwarthog_RL"
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "halobanshee"
+      - status: "OK"
+        name: "HaloGhost"
+      - status: "OK"
+        name: "Halo_Weapons"
+      - status: "OK"
+        name: "HaloUTWarthog_MG"
+      - status: "OK"
+        name: "HaloUTHealthTex"
+      FloodEliteTextures.utx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      CTF-HUT-CrossFire.ut2:
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "HaloUTBtextures"
+      - status: "OK"
+        name: "HaloUTBsounds"
+      HaloGhostSM.usx:
+      - status: "OK"
+        name: "HaloGhostTex"
+      VCTF-HUT-Mombasa.ut2:
+      - status: "OK"
+        name: "HaloGhost"
+      - status: "OK"
+        name: "HaloUTSceneryMeshes"
+      - status: "OK"
+        name: "HaloUTWarthog_MG"
+      - status: "OK"
+        name: "HaloUTwarthog_RL"
+      - status: "OK"
+        name: "HaloUTBanshee"
+      Banshee.ukx:
+      - status: "OK"
+        name: "BansheeTextures"
+      - status: "OK"
+        name: "BansheeMeshes"
+      CTF-HUT-StoneFalls.ut2:
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "StarField"
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "HaloGhostTex"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "Halogibs"
+      - status: "OK"
+        name: "HaloUTBtextures"
+      - status: "OK"
+        name: "HaloUTHealthTex"
+      HaloUTFloodEliteSKEL.ukx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "HaloCreatures"
+      - status: "OK"
+        name: "FloodEliteTextures"
+      HaloCreatures.ukx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "Haloscript"
+      - status: "OK"
+        name: "FloodEliteTextures"
+      HaloUTFMC_camos.utx:
+      - status: "OK"
+        name: "FMC"
+      HaloHealth.u:
+      - status: "OK"
+        name: "HaloUTHealthStatic"
+      HaloUTTextures.utx:
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      BansheeMeshes.usx:
+      - status: "OK"
+        name: "BansheeTextures"
+      HaloScorpion_Arctic.u:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "HaloScorpion"
+      Halogibs.usx:
+      - status: "OK"
+        name: "HaloUTAI"
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "HaloMasterChief"
+      - status: "OK"
+        name: "FMC"
+      HaloBanshee.u:
+      - status: "OK"
+        name: "BansheeSounds"
+      - status: "OK"
+        name: "Banshee"
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      - status: "OK"
+        name: "HUT_GFX"
+      - status: "OK"
+        name: "BansheeMeshes"
+      - status: "OK"
+        name: "HaloUTBanshee"
+      - status: "OK"
+        name: "HUT717GFX"
+      HaloUTInfectiontex.utx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      RingModel.usx:
+      - status: "OK"
+        name: "HaloUTBtextures"
+      HaloVehicles.u:
+      - status: "MISSING"
+        name: "HaloVehicles_S"
+      - status: "MISSING"
+        name: "HaloVehicles_A"
+      - status: "MISSING"
+        name: "HaloVehicles_SM"
+      - status: "MISSING"
+        name: "HaloVehicles_T"
+      HaloUTHealthStatic.usx:
+      - status: "OK"
+        name: "HaloUTHealthTex"
+      HUTMapTextures.utx:
+      - status: "OK"
+        name: "HaloUTBtextures"
+      HaloHumans.ukx:
+      - status: "OK"
+        name: "HaloHumantex"
+      HaloScript.u:
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "Halogibs"
+      - status: "OK"
+        name: "HaloMasterChief"
+      - status: "OK"
+        name: "HaloUTInfectiontex"
+      - status: "OK"
+        name: "Halosounds"
+      - status: "OK"
+        name: "HaloCreatures"
+      HaloGhostMesh.ukx:
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "HaloGhostTex"
+      HUT_elite_infil.utx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      DM-HUT-CrossFire.ut2:
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "Halogibs"
+      - status: "OK"
+        name: "HaloUTBtextures"
+      - status: "OK"
+        name: "HaloUTBsounds"
+      haloUTwarthog_SPX.u:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      LBPHaloTextures.utx:
+      - status: "OK"
+        name: "HALO"
+      BlueTribalElite.utx:
+      - status: "OK"
+        name: "Halocreaturestex"
+      DM-HUT-Tubes.ut2:
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "HaloUTSceneryMeshes"
+      - status: "OK"
+        name: "Halo_Weapons"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "ILabMeshes"
+      HaloUTWarthog_RL.u:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      - status: "OK"
+        name: "HaloUTWarthogs_TC"
+      - status: "OK"
+        name: "HaloUTWarthogSounds"
+      - status: "PARTIAL"
+        name: "HaloUTWarthog_MG"
+      - status: "OK"
+        name: "HUT717GFX"
+      - status: "OK"
+        name: "HaloUTVehicles_SM"
+      HaloMasterChief_Slaughter.utx:
+      - status: "OK"
+        name: "HaloMasterChief"
+      ONS-HUT-Infestation.ut2:
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "ILabMeshes"
+      - status: "OK"
+        name: "HaloUTSceneryMeshTex"
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "BansheeMeshes"
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "Halogibs"
+      - status: "OK"
+        name: "HaloUTSceneryMeshes"
+      - status: "OK"
+        name: "HaloTextures"
+      - status: "OK"
+        name: "Haloscript"
+      - status: "OK"
+        name: "HaloUTBsounds"
+      - status: "OK"
+        name: "HaloUTVehicles_SM"
+      CTF-HUT-StoneFallsF.ut2:
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "StarField"
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "HaloGhostTex"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "Halogibs"
+      - status: "OK"
+        name: "HaloUTBtextures"
+      - status: "OK"
+        name: "HaloUTHealthTex"
+      "717splasmaeffects.u":
+      - status: "MISSING"
+        name: "717splasmaeffects2"
+      - status: "OK"
+        name: "HaloGhostSM"
+      - status: "OK"
+        name: "HaloGhostMesh"
+      HaloUTWarthog_SPX.ukx:
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      HaloUTGhostTex.utx:
+      - status: "OK"
+        name: "HaloUTBanshee"
+      CTF-HUT-XFire-SE.ut2:
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "HaloUTSceneryMeshes"
+      - status: "OK"
+        name: "Halo_Weapons"
+      - status: "OK"
+        name: "HaloUTBsounds"
+      ONS-HUT-Oculus.ut2:
+      - status: "OK"
+        name: "haloscorpion"
+      - status: "OK"
+        name: "HaloUTWarthog_RL"
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "ILabMeshes"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "HaloGhost"
+      - status: "OK"
+        name: "HaloTextures"
+      - status: "OK"
+        name: "Halo_Weapons"
+      - status: "OK"
+        name: "HaloUTBsounds"
+      - status: "OK"
+        name: "HaloUTWarthog_MG"
+      HaloUTScorpion_SM.usx:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      CTF-HUT-BattleCreek.ut2:
+      - status: "OK"
+        name: "Halo_Beaver_Creek"
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "Haloweapons"
+      - status: "OK"
+        name: "Halo_Weapons"
+      HaloUTWarthog_MG.ukx:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      - status: "OK"
+        name: "HaloUTWarthogs_tex"
+      - status: "OK"
+        name: "HaloUTWarthogs_TC"
+      - status: "OK"
+        name: "HaloUTWarthogSounds"
+      - status: "OK"
+        name: "HaloUTVehicles_SM"
+      ILabTex.utx:
+      - status: "OK"
+        name: "HaloUTSceneryMeshTex"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "HUTMapTextures"
+      HaloUTScorpion_A.ukx:
+      - status: "OK"
+        name: "HaloUTScorpion_T"
+      HUTSpecies.u:
+      - status: "OK"
+        name: "Haloscript_B"
+      - status: "OK"
+        name: "Haloscript"
+      HaloUTSceneryMeshes.usx:
+      - status: "OK"
+        name: "HaloUTSceneryMeshTex"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "HaloUTTextures"
+      HaloMasterChief.ukx:
+      - status: "OK"
+        name: "Halosounds"
+      VCTF-HUT-Oculus.ut2:
+      - status: "OK"
+        name: "haloscorpion"
+      - status: "OK"
+        name: "HaloUTWarthog_RL"
+      - status: "OK"
+        name: "ILabTex"
+      - status: "OK"
+        name: "HaloHealth"
+      - status: "OK"
+        name: "HaloUTTextures"
+      - status: "OK"
+        name: "HUTMapTextures"
+      - status: "OK"
+        name: "ILabMeshes"
+      - status: "OK"
+        name: "HaloUTBaseTex"
+      - status: "OK"
+        name: "HaloGhost"
+      - status: "OK"
+        name: "HaloTextures"
+      - status: "OK"
+        name: "LBPHaloTextures"
+      - status: "OK"
+        name: "HaloUTBsounds"
+      - status: "OK"
+        name: "HaloUTWarthog_MG"
+      HaloGametypes.u:
+      - status: "OK"
+        name: "Halocreaturestex"
+      - status: "OK"
+        name: "HaloUT_powerups"
+      - status: "OK"
+        name: "HaloScript"
+      FMC-K.ukx:
+      - status: "OK"
+        name: "FMCtex-K-Klasnic"
+      - status: "OK"
+        name: "FMC"
+      Halo_Weapons.u:
+      - status: "OK"
+        name: "Haloweapons"
+      HaloUT_MCxtra.ukx:
+      - status: "OK"
+        name: "HaloMasterChief"
+  deleted: false
+- title: "Post-Release Additions"
+  version: "1.751"
+  releaseDate: "2011-02"
+  description: ""
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/HaloUT_Additions.2.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202004/halout/HaloUT_Additions.2.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "HaloUT_Additions.2.zip"
+    hash: "c64bb6b2da1f03a8424ba8e6f5126c61d76b1111"
+    fileSize: 38854710
+    synced: true
+    deleted: false
+    files:
+    - name: "ONS-HUT-Nexus.ut2"
+      fileSize: 17965260
+      hash: "367a64096699da9c5a40d7e39d30c82c9349a817"
+    - name: "HaloVehicles_T.utx"
+      fileSize: 1809735
+      hash: "1fb45293a8e0e5ab44bb095944e59a8c8875d939"
+    - name: "FMC-K.ukx"
+      fileSize: 515274
+      hash: "c63b7d2bedc7a0721538593720bba0f573d31c18"
+    - name: "HaloVehicles_A.ukx"
+      fileSize: 541642
+      hash: "cbe20d9d2026140d7ca5e72a74bb0d70547e8693"
+    - name: "DM-HUT-Tubes.ut2"
+      fileSize: 4477087
+      hash: "c0ea4a2f848c81d7799746be2abc4f62ef096736"
+    - name: "camojackels.utx"
+      fileSize: 6292473
+      hash: "61eaa56f6c046f76b50913c19a36ce2ba6e7fae2"
+    - name: "CTF-HUT-BattleCreek.ut2"
+      fileSize: 11855022
+      hash: "a9cc6b6dcbc91514c3c4d89ec304c9562c420063"
+    - name: "FMC.ukx"
+      fileSize: 5782927
+      hash: "1c07ed66063f4376028fdb18e86095e2dbe0b610"
+    - name: "HaloMasterChief.utx"
+      fileSize: 14448511
+      hash: "0665702261a964bfbd33cd4c79c879d5b5d1f609"
+    - name: "HaloScorpion.u"
+      fileSize: 55832
+      hash: "c53f2b54328d20b4ec5cd1858caac967c4336c68"
+    - name: "HaloVehicles_SM.usx"
+      fileSize: 797581
+      hash: "08b05c4e12c517438497a61f11b84d8faaf98b08"
+    - name: "DM-HUT-BattleCreek.ut2"
+      fileSize: 11881251
+      hash: "3260ef7b5ab0b0521df749a6ef1bb8e4dbcf7ff7"
+    - name: "VCTF-HUT-Mombasa.ut2"
+      fileSize: 22548574
+      hash: "f629842fab62e1b2d4cb12f86365a1d8ad0d3570"
+    - name: "HaloVehicles_T.utx"
+      fileSize: 1809735
+      hash: "1fb45293a8e0e5ab44bb095944e59a8c8875d939"
+    otherFiles: 3
+    dependencies:
+      HaloVehicles_SM.usx:
+      - status: "OK"
+        name: "HaloVehicles_T"
+      ONS-HUT-Nexus.ut2:
+      - status: "OK"
+        name: "haloscorpion"
+      - status: "MISSING"
+        name: "HaloUTwarthog_RL"
+      - status: "MISSING"
+        name: "halobanshee"
+      - status: "MISSING"
+        name: "HaloGhost"
+      - status: "MISSING"
+        name: "HaloUTWarthog_MG"
+      DM-HUT-Tubes.ut2:
+      - status: "MISSING"
+        name: "HaloUTBaseTex"
+      - status: "MISSING"
+        name: "HaloUTSceneryMeshes"
+      - status: "MISSING"
+        name: "Halo_Weapons"
+      - status: "MISSING"
+        name: "HaloHealth"
+      - status: "MISSING"
+        name: "HaloUTTextures"
+      - status: "MISSING"
+        name: "HUTMapTextures"
+      - status: "MISSING"
+        name: "ILabMeshes"
+      DM-HUT-BattleCreek.ut2:
+      - status: "MISSING"
+        name: "Halo_Beaver_Creek"
+      - status: "MISSING"
+        name: "ILabTex"
+      - status: "MISSING"
+        name: "HaloHealth"
+      - status: "MISSING"
+        name: "HUTMapTextures"
+      - status: "MISSING"
+        name: "Haloweapons"
+      - status: "MISSING"
+        name: "Halo_Weapons"
+      HaloVehicles_A.ukx:
+      - status: "OK"
+        name: "HaloVehicles_SM"
+      - status: "OK"
+        name: "HaloVehicles_T"
+      HaloScorpion.u:
+      - status: "OK"
+        name: "HaloVehicles_A"
+      - status: "MISSING"
+        name: "ScorpionSounds"
+      - status: "OK"
+        name: "HaloVehicles_SM"
+      - status: "OK"
+        name: "HaloVehicles_T"
+      VCTF-HUT-Mombasa.ut2:
+      - status: "MISSING"
+        name: "HaloBanshee"
+      - status: "MISSING"
+        name: "HaloUTwarthog_RL"
+      - status: "MISSING"
+        name: "HaloGhost"
+      - status: "MISSING"
+        name: "HaloUTSceneryMeshes"
+      - status: "MISSING"
+        name: "HaloUTWarthog_MG"
+      - status: "MISSING"
+        name: "HaloUTBanshee"
+      FMC-K.ukx:
+      - status: "MISSING"
+        name: "FMCtex-K-Klasnic"
+      CTF-HUT-BattleCreek.ut2:
+      - status: "MISSING"
+        name: "Halo_Beaver_Creek"
+      - status: "MISSING"
+        name: "ILabTex"
+      - status: "MISSING"
+        name: "HaloHealth"
+      - status: "MISSING"
+        name: "HUTMapTextures"
+      - status: "MISSING"
+        name: "Haloweapons"
+      - status: "MISSING"
+        name: "Halo_Weapons"
+  deleted: false
+deleted: false
