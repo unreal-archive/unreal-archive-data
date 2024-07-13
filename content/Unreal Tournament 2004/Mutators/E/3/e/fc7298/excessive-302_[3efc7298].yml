@@ -25,12 +25,12 @@ files:
 - name: "ExcessiveWeapons.ukx"
   fileSize: 1106953
   hash: "3b1c8f308e48f6d0797a392bbd45b1206d3ed798"
-- name: "ExcessiveV302.u"
-  fileSize: 1988477
-  hash: "fd9d1ebd4cb1089e40e2f5ea8bae3e5197caf0a2"
 - name: "Mr. Pants' ExcessiveOverkill v302.ut4mod"
   fileSize: 13593634
   hash: "69eab6b8a10652ae1bbc00fa4e04b7f647bd321d"
+- name: "ExcessiveV302.u"
+  fileSize: 1988477
+  hash: "fd9d1ebd4cb1089e40e2f5ea8bae3e5197caf0a2"
 - name: "ExcessiveMenu.ogg"
   fileSize: 1146438
   hash: "7df37d03c05d768f857763d0c2ae6a3525fdf4b6"
@@ -54,6 +54,9 @@ dependencies:
     name: "ExcessiveTex"
   - status: "OK"
     name: "ExcessiveWeapons"
+  ExcessiveWeapons.ukx:
+  - status: "OK"
+    name: "ExcessiveTex"
   ExcessiveMesh.usx:
   - status: "OK"
     name: "ExcessiveTex"
@@ -77,6 +80,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Excessive 3.02"

@@ -17,14 +17,17 @@ files:
 - name: "BuratinoTex.utx"
   fileSize: 2186814
   hash: "2adebe47ba77e740f517317d43ca0893e32b0659"
-- name: "Buratino.upl"
-  fileSize: 337
-  hash: "b5a1a3888a727f29d057f75fa48da18e10cba5c1"
 - name: "BuratinoAnim.ukx"
   fileSize: 2050358
   hash: "391a6eb61f81e6a88b9a10c0612bdb13898c94a8"
+- name: "Buratino.upl"
+  fileSize: 337
+  hash: "b5a1a3888a727f29d057f75fa48da18e10cba5c1"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  BuratinoAnim.ukx:
+  - status: "OK"
+    name: "BuratinoTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/buratino_ut2k4.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Buratino"

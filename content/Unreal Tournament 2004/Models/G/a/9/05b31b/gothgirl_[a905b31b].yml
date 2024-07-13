@@ -14,17 +14,20 @@ originalFilename: "ut2k4gothgirl.zip"
 hash: "a905b31b5051b11860c262c78ef8bbb29a00bf11"
 fileSize: 2449403
 files:
-- name: "GothGirl.upl"
-  fileSize: 387
-  hash: "9c9ab4785825e06fb99f6c6a9a12eaec23e5477a"
-- name: "GothGirlTextures.utx"
-  fileSize: 2535847
-  hash: "09af7c1221a0cf528ee99150926f497f33866130"
 - name: "GothGirlAnim.ukx"
   fileSize: 1264169
   hash: "178cb638d0f155502e1249154cc79104baf31029"
+- name: "GothGirlTextures.utx"
+  fileSize: 2535847
+  hash: "09af7c1221a0cf528ee99150926f497f33866130"
+- name: "GothGirl.upl"
+  fileSize: 387
+  hash: "9c9ab4785825e06fb99f6c6a9a12eaec23e5477a"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  GothGirlAnim.ukx:
+  - status: "MISSING"
+    name: "CBP2_GothGirlTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "GothGirl"

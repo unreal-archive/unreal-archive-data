@@ -17,14 +17,17 @@ files:
 - name: "CovertOperatorUTX.utx"
   fileSize: 4283941
   hash: "cfd42fb1ee9ac899907c915232adc89f8de3cde3"
-- name: "CovertOperatorUPL.upl"
-  fileSize: 617
-  hash: "aa73b7e18cf285fa70df83b9570958d5243c1ced"
 - name: "CovertOperatorUKX.ukx"
   fileSize: 2376466
   hash: "c91c902d62506fc5511b9e5d5353fd07798d8cf7"
+- name: "CovertOperatorUPL.upl"
+  fileSize: 617
+  hash: "aa73b7e18cf285fa70df83b9570958d5243c1ced"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  CovertOperatorUKX.ukx:
+  - status: "OK"
+    name: "CovertOperatorUTX"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsC/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Covert-Operator"

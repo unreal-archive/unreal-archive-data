@@ -17,17 +17,20 @@ originalFilename: "ut2k4godhorus_v2.zip"
 hash: "00337374d2abe2a3df49a112350157e058451493"
 fileSize: 17921053
 files:
-- name: "Dios_Horus.ukx"
-  fileSize: 3406935
-  hash: "aae095c12bea3dd01e448798c5081db64f9e168e"
 - name: "GOD_HORUS.upl"
   fileSize: 2828
   hash: "d788c4416d236a000b7892c3015abdc91bf62677"
 - name: "GodHorusTX.utx"
   fileSize: 56075936
   hash: "168683223ff13fac65760a94afc51c3329e2fb8c"
+- name: "Dios_Horus.ukx"
+  fileSize: 3406935
+  hash: "aae095c12bea3dd01e448798c5081db64f9e168e"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Dios_Horus.ukx:
+  - status: "OK"
+    name: "GodHorusTX"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsG/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Karnak"

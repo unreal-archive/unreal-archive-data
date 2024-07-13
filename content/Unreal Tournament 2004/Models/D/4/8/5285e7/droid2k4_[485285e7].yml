@@ -18,12 +18,6 @@ originalFilename: "droid2005_ut2k4.zip"
 hash: "485285e77260e9deae5fcf328e470a2aa82b6dda"
 fileSize: 3340363
 files:
-- name: "droid2k4voice.u"
-  fileSize: 1906383
-  hash: "20342e351d786f8d336fd38ad852f9c49a3b3f1d"
-- name: "Droid.ka"
-  fileSize: 36490
-  hash: "5359746d368b1dcb5a1d484bf73dfe831e1d1458"
 - name: "droid2k4.ukx"
   fileSize: 1346411
   hash: "e6fd3e4a90098e26d4fd4be687ce27ebc137af85"
@@ -33,8 +27,19 @@ files:
 - name: "Droid2k4.upl"
   fileSize: 743
   hash: "5dd23a00311986bd3e551c742cfa761b4c882bb5"
+- name: "droid2k4voice.u"
+  fileSize: 1906383
+  hash: "20342e351d786f8d336fd38ad852f9c49a3b3f1d"
+- name: "Droid.ka"
+  fileSize: 36490
+  hash: "5359746d368b1dcb5a1d484bf73dfe831e1d1458"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  droid2k4.ukx:
+  - status: "OK"
+    name: "droid2k4voice"
+  - status: "OK"
+    name: "Droid2k4Skins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsD/&file=droid2005_ut2k4.zip"
   direct: false
@@ -55,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Droid2k4"

@@ -15,12 +15,12 @@ files:
 - name: "UniPsychos.upl"
   fileSize: 1028
   hash: "11329872bcf541e5fd79f90c95d7594ac7405f11"
-- name: "UniPsychosV2.ut4mod"
-  fileSize: 9758923
-  hash: "867f66c788f084943abebe9ea935bdcbbfc48724"
 - name: "UniPsychos_Karma.ka"
   fileSize: 107809
   hash: "dd89ac8ab08b5319469b0a3f4a90df79f75f30cb"
+- name: "UniPsychosV2.ut4mod"
+  fileSize: 9758923
+  hash: "867f66c788f084943abebe9ea935bdcbbfc48724"
 - name: "UniPsychos_Anims.ukx"
   fileSize: 3352822
   hash: "52377d73aaf29964893d14739941c80e241130f2"
@@ -28,7 +28,10 @@ files:
   fileSize: 6293223
   hash: "d65e63e7802d179062604d8bcb42bbdfca90d3e3"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  UniPsychos_Anims.ukx:
+  - status: "OK"
+    name: "UniPsychos_Tex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/unipsychosv2.zip"
   direct: true

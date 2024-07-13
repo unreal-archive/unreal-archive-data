@@ -24,23 +24,29 @@ originalFilename: "ut2mdl-bioarmorfem.zip"
 hash: "c221ddb04e72c6e9fab94287a9bb74deca8f46e7"
 fileSize: 7044103
 files:
-- name: "Biofem.utx"
-  fileSize: 13143442
-  hash: "e43521fb478b8004c457449f60a1b74c2be360f2"
-- name: "Bioarmormdl.upl"
-  fileSize: 817
-  hash: "8ed672c23f26b5de9c7265a848abbee33af60059"
-- name: "Biofemgold.utx"
-  fileSize: 5932675
-  hash: "6ecebc6850612964d271a7faea6c054d5afdd34f"
-- name: "Bioarmorfemgold.ukx"
-  fileSize: 668784
-  hash: "a8a7776a0e64e8e408aeca8dbf324c6fbc854705"
 - name: "Bioarmorfem.ukx"
   fileSize: 668776
   hash: "d269c632f9ccd15024f48c44d78452f615666004"
+- name: "Bioarmorfemgold.ukx"
+  fileSize: 668784
+  hash: "a8a7776a0e64e8e408aeca8dbf324c6fbc854705"
+- name: "Bioarmormdl.upl"
+  fileSize: 817
+  hash: "8ed672c23f26b5de9c7265a848abbee33af60059"
+- name: "Biofem.utx"
+  fileSize: 13143442
+  hash: "e43521fb478b8004c457449f60a1b74c2be360f2"
+- name: "Biofemgold.utx"
+  fileSize: 5932675
+  hash: "6ecebc6850612964d271a7faea6c054d5afdd34f"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Bioarmorfemgold.ukx:
+  - status: "OK"
+    name: "Biofemgold"
+  Bioarmorfem.ukx:
+  - status: "OK"
+    name: "Biofem"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-bioarmorfem.zip"
   direct: true
@@ -59,6 +65,7 @@ downloads:
   state: "OK"
 links:
   EGF Thread: "https://forums.epicgames.com/unreal-tournament-2003-2004/user-maps-mods/full-releases/70663-bioarmorfem-2-5-pics"
+problemLinks: {}
 deleted: false
 models:
 - "Bio Armor Fem 1"

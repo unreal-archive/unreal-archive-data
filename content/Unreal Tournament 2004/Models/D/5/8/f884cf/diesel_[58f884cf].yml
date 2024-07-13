@@ -17,17 +17,20 @@ originalFilename: "ut2mdl-diesel.zip"
 hash: "58f884cfe59bab2d62073ddc14be6b03b8688187"
 fileSize: 2857619
 files:
+- name: "DieselAnim.ukx"
+  fileSize: 1346231
+  hash: "51d2890f4972b248bd25b2af5eca0677c422283d"
 - name: "Diesel.UPL"
   fileSize: 359
   hash: "096d65b4fc014b33b9d1631fa5dff8f09f8e8ead"
 - name: "DieselTex.utx"
   fileSize: 3628738
   hash: "832051b62ccf55a9eeb59bcba6cd7fd1e8aa8d54"
-- name: "DieselAnim.ukx"
-  fileSize: 1346231
-  hash: "51d2890f4972b248bd25b2af5eca0677c422283d"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  DieselAnim.ukx:
+  - status: "OK"
+    name: "DieselTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-diesel.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Diesel"

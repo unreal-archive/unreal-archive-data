@@ -17,17 +17,20 @@ originalFilename: "ut2mdl-mangaspawn.zip"
 hash: "7804a1f1c5fda2af4f21cf6c298e335427b49a93"
 fileSize: 2958413
 files:
-- name: "mangaX.utx"
-  fileSize: 6991540
-  hash: "74eda7058e2370abd6f64712f3e99cada9d55d4b"
 - name: "Manga.upl"
   fileSize: 237
   hash: "960b0dbe2d3078f655e0854ed362956dabdae659"
+- name: "mangaX.utx"
+  fileSize: 6991540
+  hash: "74eda7058e2370abd6f64712f3e99cada9d55d4b"
 - name: "MangaB.ukx"
   fileSize: 428606
   hash: "44e16804a64e5548240123e8ddebc7cf4576299e"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  MangaB.ukx:
+  - status: "OK"
+    name: "mangaX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-mangaspawn.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Manga"

@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-roka.zip"
 hash: "1b805492348c62bff75c2ff03111c5ea02bf0c90"
 fileSize: 1622236
 files:
-- name: "Roka_texture.utx"
-  fileSize: 1007201
-  hash: "43916825103a446a6daa00bfca9731d474e5d024"
-- name: "Roka.upl"
-  fileSize: 297
-  hash: "2ca91d9174522fd02a836bbd8a5733225700cd5e"
 - name: "Roka_anim.ukx"
   fileSize: 1625698
   hash: "e55eec152b1bb9b7dd01351d22a45cc593dfd5b4"
+- name: "Roka.upl"
+  fileSize: 297
+  hash: "2ca91d9174522fd02a836bbd8a5733225700cd5e"
+- name: "Roka_texture.utx"
+  fileSize: 1007201
+  hash: "43916825103a446a6daa00bfca9731d474e5d024"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Roka_anim.ukx:
+  - status: "OK"
+    name: "Roka_texture"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-roka.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Roka"

@@ -17,17 +17,14 @@ files:
 - name: "harmonizer.utx"
   fileSize: 2529303
   hash: "e9214825e7ec69038d4e1cbd8152b78639d12bd9"
-- name: "harmonizer.upl"
-  fileSize: 243
-  hash: "6ba605970df47b131c4a610327f3a8599b24e53e"
 - name: "HarmonizerMale.ukx"
   fileSize: 2529323
   hash: "afb8cf2649072b49ff9069cdcfd48ba1a86f3d62"
+- name: "harmonizer.upl"
+  fileSize: 243
+  hash: "6ba605970df47b131c4a610327f3a8599b24e53e"
 otherFiles: 1
-dependencies:
-  harmonizer.utx:
-  - status: "MISSING"
-    name: "HumanMaleA"
+dependencies: {}
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-harmonizer.zip"
   direct: true
@@ -45,6 +42,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Harmonizer"

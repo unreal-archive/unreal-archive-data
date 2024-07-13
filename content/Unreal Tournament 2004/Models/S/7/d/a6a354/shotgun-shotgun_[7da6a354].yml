@@ -14,20 +14,23 @@ originalFilename: "ut2mdl-shotgun_shogun.zip"
 hash: "7da6a3541b7ae678d754795b0c4c958edcde8b88"
 fileSize: 2682600
 files:
+- name: "SS6.ukx"
+  fileSize: 1100538
+  hash: "6b90d061cc86476fedb31a9d4fa0ddf7d1dae9cc"
 - name: "SS6.upl"
   fileSize: 210
   hash: "fd21b0475725f326ccd8bd24875230ac03711db4"
 - name: "SS6.utx"
   fileSize: 3985619
   hash: "a1d4aa236ed69bf25b971ef9934884224f2751b6"
-- name: "SS6.ukx"
-  fileSize: 1100538
-  hash: "6b90d061cc86476fedb31a9d4fa0ddf7d1dae9cc"
 otherFiles: 1
 dependencies:
   SS6.utx:
   - status: "MISSING"
-    name: "HumanMaleA"
+    name: "SS5"
+  SS6.ukx:
+  - status: "MISSING"
+    name: "SS5"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-shotgun_shogun.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Shotgun Shotgun"

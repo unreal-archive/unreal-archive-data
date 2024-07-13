@@ -35,6 +35,9 @@ files:
 - name: "PythonAgain01.utx"
   fileSize: 1455122
   hash: "59c49d095c4cc033a28ed057753dfd82d2c52f73"
+- name: "Unreal4Ever.ut2mod"
+  fileSize: 31382274
+  hash: "0640beacc68c1923dec7ea9e1b7119e68c12a90b"
 - name: "BubbleStuff.utx"
   fileSize: 418006
   hash: "d7a97561b708950dea7c2c58ad7314552c3c9fbd"
@@ -47,9 +50,6 @@ files:
 - name: "PythonPickups.usx"
   fileSize: 1283358
   hash: "598ff30aebbb1949bf11b717a4e01dbc8954dbdd"
-- name: "Unreal4Ever.ut2mod"
-  fileSize: 31382274
-  hash: "0640beacc68c1923dec7ea9e1b7119e68c12a90b"
 - name: "fbr04.utx"
   fileSize: 1534804
   hash: "a2670e6036deba92fc9eeaa3470aca082fb6ae42"
@@ -94,6 +94,25 @@ dependencies:
   Katana01.utx:
   - status: "OK"
     name: "U4E-Hands"
+  u4emeshs.ukx:
+  - status: "OK"
+    name: "u4e_textures"
+  - status: "OK"
+    name: "Tomahawk01"
+  - status: "OK"
+    name: "Katana01"
+  - status: "OK"
+    name: "BubbleGun05b"
+  - status: "OK"
+    name: "RiftRifle"
+  - status: "OK"
+    name: "U4E-Grenades"
+  - status: "OK"
+    name: "Beretta01"
+  - status: "OK"
+    name: "Necrosis"
+  - status: "OK"
+    name: "U4E-Hands"
   u4e_pickups.usx:
   - status: "OK"
     name: "SpirlBeams"
@@ -113,6 +132,11 @@ dependencies:
     name: "Beretta01"
   - status: "OK"
     name: "Necrosis"
+  PythonAgain04.ukx:
+  - status: "OK"
+    name: "PythonAgain01"
+  - status: "OK"
+    name: "U4E-Hands"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/u4e-4-ut2k3_v1_umod.zip"
   direct: true
@@ -130,6 +154,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Unreal4Ever Tournament"

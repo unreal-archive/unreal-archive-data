@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-tux.zip"
 hash: "0e02322c186ac9d1baf63bc59d7359f3b4958ac3"
 fileSize: 4082099
 files:
-- name: "Tux.upl"
-  fileSize: 192
-  hash: "de57002309bb2b213a81819c5b8537ed65c88694"
-- name: "tuxtex.utx"
-  fileSize: 2612451
-  hash: "e1dfc6016dc17bbbd4ead348da3a79059c00416a"
 - name: "Tux.ukx"
   fileSize: 6199042
   hash: "e34180b2fbe829e0ff69cdfbeae13c084dfb0db7"
+- name: "tuxtex.utx"
+  fileSize: 2612451
+  hash: "e1dfc6016dc17bbbd4ead348da3a79059c00416a"
+- name: "Tux.upl"
+  fileSize: 192
+  hash: "de57002309bb2b213a81819c5b8537ed65c88694"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  Tux.ukx:
+  - status: "OK"
+    name: "tuxtex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-tux.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tux"

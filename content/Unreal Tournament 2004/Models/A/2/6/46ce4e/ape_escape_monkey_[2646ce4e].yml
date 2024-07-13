@@ -14,20 +14,23 @@ originalFilename: "piposaru_ut2k4.zip"
 hash: "2646ce4ec874b53269fef669de7bf2f108ac7a68"
 fileSize: 1526571
 files:
-- name: "SARU.utx"
-  fileSize: 1242174
-  hash: "ae2793a2afc045cd3db66bb6d7b13ecbc95322b7"
 - name: "PIPOSARU.ka"
   fileSize: 41848
   hash: "9e458cbc6c327e1f5c24193495a14b239ec84aaa"
 - name: "PIPOSARU.ukx"
   fileSize: 1523930
   hash: "e302760a21aa1397939ea9fc67f7ebd3de75b3ba"
+- name: "SARU.utx"
+  fileSize: 1242174
+  hash: "ae2793a2afc045cd3db66bb6d7b13ecbc95322b7"
 - name: "PIPOSARU.upl"
   fileSize: 403
   hash: "dd1338143706735c59b393fd16f472ba72372abd"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  PIPOSARU.ukx:
+  - status: "OK"
+    name: "SARU"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/AnimalsAndMonsters/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Ape_Escape_Monkey"

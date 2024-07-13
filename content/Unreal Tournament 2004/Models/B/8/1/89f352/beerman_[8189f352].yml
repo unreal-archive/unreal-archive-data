@@ -14,17 +14,20 @@ originalFilename: "ut2k4-beerman.zip"
 hash: "8189f35275703dd5a795061767c5ad47a023479c"
 fileSize: 2798983
 files:
-- name: "BeermanTexs.utx"
-  fileSize: 1574051
-  hash: "ace2e7b12e60ba33f612e57303a2df13aecbf9f8"
 - name: "Beerman.upl"
   fileSize: 250
   hash: "3fb77660691952ba478101a021740b693e3d1bb7"
+- name: "BeermanTexs.utx"
+  fileSize: 1574051
+  hash: "ace2e7b12e60ba33f612e57303a2df13aecbf9f8"
 - name: "BeermanAnims.ukx"
   fileSize: 3100963
   hash: "d86b597a790c42d0067b125892e03064a86c66cd"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  BeermanAnims.ukx:
+  - status: "OK"
+    name: "BeermanTexs"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsB/"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Beerman"

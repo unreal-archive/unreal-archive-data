@@ -21,17 +21,20 @@ originalFilename: "NaluriVer2.zip"
 hash: "13572b1db9801eaaa2b511788cd0805ad0298a8d"
 fileSize: 7352842
 files:
-- name: "NaluriAnim.ukx"
-  fileSize: 7293898
-  hash: "8a901f7667c9b4bc9da5df83910edf2f55855ad1"
 - name: "Naluritexture.utx"
   fileSize: 8746004
   hash: "172af3a129258068ad2cae51e457f8265add3eff"
 - name: "Naluri.upl"
   fileSize: 1696
   hash: "aafdecd3cf79d812c0b146c054a88d713dc89a77"
+- name: "NaluriAnim.ukx"
+  fileSize: 7293898
+  hash: "8a901f7667c9b4bc9da5df83910edf2f55855ad1"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  NaluriAnim.ukx:
+  - status: "OK"
+    name: "Naluritexture"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -55,6 +58,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Naluri"

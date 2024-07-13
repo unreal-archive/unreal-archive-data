@@ -17,20 +17,23 @@ originalFilename: "ut2mdl-spawn.zip"
 hash: "e5b9e474b8474f3c8a1cba949556633db99251c0"
 fileSize: 2509255
 files:
-- name: "Spawnmdltex.utx"
-  fileSize: 4524177
-  hash: "f941ad22146f7fb326253ec06f4fda114fa63187"
-- name: "SPECIES_Spawn.u"
-  fileSize: 1152
-  hash: "9a244e56e85d1adc380a4b1af2264af2018bb3e3"
-- name: "Spawnmdlmesh.ukx"
-  fileSize: 1789446
-  hash: "f17996af1472e23bcee059b67a576fa7a5362338"
 - name: "Spawn-mdl.upl"
   fileSize: 577
   hash: "4ebd1b1d37c070015628de89bdc1ad78cf0acf70"
+- name: "Spawnmdltex.utx"
+  fileSize: 4524177
+  hash: "f941ad22146f7fb326253ec06f4fda114fa63187"
+- name: "Spawnmdlmesh.ukx"
+  fileSize: 1789446
+  hash: "f17996af1472e23bcee059b67a576fa7a5362338"
+- name: "SPECIES_Spawn.u"
+  fileSize: 1152
+  hash: "9a244e56e85d1adc380a4b1af2264af2018bb3e3"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Spawnmdlmesh.ukx:
+  - status: "OK"
+    name: "Spawnmdltex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-spawn.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "-SPAWN-"

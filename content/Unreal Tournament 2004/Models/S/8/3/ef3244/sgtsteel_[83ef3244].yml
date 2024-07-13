@@ -18,6 +18,9 @@ originalFilename: "ut2mdl-falloutpowerarmor.zip"
 hash: "83ef3244ed37831c96d58b0144fac29502720ef8"
 fileSize: 2965498
 files:
+- name: "PwrarmPL.upl"
+  fileSize: 634
+  hash: "ca85d1ad1120af85f35bff34243730fbd28885a6"
 - name: "PwrarmRagdoll.ka"
   fileSize: 34393
   hash: "a12d423a60e689bbad10a8ba97f56059989147fe"
@@ -27,11 +30,11 @@ files:
 - name: "Pwrarm.ukx"
   fileSize: 1523436
   hash: "309cd79737ba888167ad3f07c71940129665cbdc"
-- name: "PwrarmPL.upl"
-  fileSize: 634
-  hash: "ca85d1ad1120af85f35bff34243730fbd28885a6"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Pwrarm.ukx:
+  - status: "OK"
+    name: "PwrarmSkin"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-falloutpowerarmor.zip"
   direct: true
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "SgtSteel"

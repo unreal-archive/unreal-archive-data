@@ -17,9 +17,6 @@ originalFilename: "bp-mrsockmonkey_ut2k4.zip"
 hash: "fea5752b5c46fd7d455532b6d31020f54c75d537"
 fileSize: 3889343
 files:
-- name: "BP-MrSockMonkeyAnim.ukx"
-  fileSize: 1235078
-  hash: "59d1c915f3a8100de8604d645c28fd2325577ee3"
 - name: "BP-MrSockMonkeyMod.u"
   fileSize: 1235
   hash: "56319012a88bfedf1a907bc341750b1d6c45509b"
@@ -29,9 +26,15 @@ files:
 - name: "BP-MrSockMonkeyData.upl"
   fileSize: 529
   hash: "2a26f78df3f265d83c0e37ac8c8372eca032f26e"
+- name: "BP-MrSockMonkeyAnim.ukx"
+  fileSize: 1235078
+  hash: "59d1c915f3a8100de8604d645c28fd2325577ee3"
 otherFiles: 2
 dependencies:
   BP-MrSockMonkeyMod.u:
+  - status: "OK"
+    name: "BP-MrSockMonkeyTex"
+  BP-MrSockMonkeyAnim.ukx:
   - status: "OK"
     name: "BP-MrSockMonkeyTex"
 downloads:
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mr.SockMonkey"

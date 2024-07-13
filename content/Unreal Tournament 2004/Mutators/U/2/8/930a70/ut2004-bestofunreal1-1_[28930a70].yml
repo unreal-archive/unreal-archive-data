@@ -11,30 +11,30 @@ originalFilename: "UT2004-BestOFUnreal1.1.zip"
 hash: "28930a70cc0596686220d0afc1247797c938e4e8"
 fileSize: 6902024
 files:
-- name: "BestUnrealSnds.uax"
-  fileSize: 7914286
-  hash: "eabb7a54ef9381e282cd67d014a14f4261b5a3e0"
-- name: "SuperASMD.u"
-  fileSize: 3997
-  hash: "9e9a1a22afdfe55843dfb4f0d20ed1fb442031a5"
-- name: "BestOfUShockText.utx"
-  fileSize: 64234
-  hash: "71cfa7c6ab02e3da838905043ae09ea419bcbc5c"
-- name: "BestOfUnrealAnim.ukx"
-  fileSize: 799360
-  hash: "f414835e275b9ad389c5bf563ad12267bcab7cfc"
-- name: "BestOfUnreal-101.u"
-  fileSize: 323436
-  hash: "dc6b8d84f338e250e95b230897f651329457a2a8"
 - name: "BestAnnouncerHack.uax"
   fileSize: 152129
   hash: "32ce6e60746748e1ad2c2176f00c3a8b32c5c424"
-- name: "BestOfUnrealTextures.utx"
-  fileSize: 3455108
-  hash: "3f97ca801052ae99e560b8f1a4bdeb96caea1844"
+- name: "BestOfUnrealAnim.ukx"
+  fileSize: 799360
+  hash: "f414835e275b9ad389c5bf563ad12267bcab7cfc"
+- name: "BestOfUShockText.utx"
+  fileSize: 64234
+  hash: "71cfa7c6ab02e3da838905043ae09ea419bcbc5c"
+- name: "BestUnrealSnds.uax"
+  fileSize: 7914286
+  hash: "eabb7a54ef9381e282cd67d014a14f4261b5a3e0"
+- name: "BestOfUnreal-101.u"
+  fileSize: 323436
+  hash: "dc6b8d84f338e250e95b230897f651329457a2a8"
 - name: "BestOfUnrealSM.usx"
   fileSize: 109018
   hash: "634c76c77559ff4f608f3255a3c206e126fd768e"
+- name: "BestOfUnrealTextures.utx"
+  fileSize: 3455108
+  hash: "3f97ca801052ae99e560b8f1a4bdeb96caea1844"
+- name: "SuperASMD.u"
+  fileSize: 3997
+  hash: "9e9a1a22afdfe55843dfb4f0d20ed1fb442031a5"
 otherFiles: 9
 dependencies:
   BestOfUnreal-101.u:
@@ -51,9 +51,6 @@ dependencies:
   BestOfUnrealAnim.ukx:
   - status: "OK"
     name: "BestOfUnrealTextures"
-  BestOfUnrealSM.usx:
-  - status: "OK"
-    name: "BestOfUnrealTextures"
   SuperASMD.u:
   - status: "OK"
     name: "BestOfUnreal-101"
@@ -61,6 +58,9 @@ dependencies:
     name: "BestUnrealSnds"
   - status: "MISSING"
     name: "PlaceableWeps"
+  BestOfUnrealSM.usx:
+  - status: "OK"
+    name: "BestOfUnrealTextures"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/U/2/8/930a70/UT2004-BestOFUnreal1.1.zip"
   direct: true
@@ -78,6 +78,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "-= BEST Of U InstaGib =-"

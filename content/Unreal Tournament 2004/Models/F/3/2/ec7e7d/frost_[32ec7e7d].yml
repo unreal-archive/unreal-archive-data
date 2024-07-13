@@ -14,20 +14,22 @@ originalFilename: "frost_ut2k3.zip"
 hash: "32ec7e7de3e2136123fd66f0cc972a23445b1861"
 fileSize: 1935413
 files:
-- name: "Frost.upl"
-  fileSize: 221
-  hash: "fc90850c9c9f4a3477ffb6de3ecf4bae9e3092f1"
-- name: "Frosty.utx"
-  fileSize: 3559287
-  hash: "00a517a36696913b98b38f9edc927f738de9afbb"
 - name: "Frost.ukx"
   fileSize: 588626
   hash: "d3c3cc572baa1b63aefc56371cab9af7a69f3c4e"
+- name: "Frosty.utx"
+  fileSize: 3559287
+  hash: "00a517a36696913b98b38f9edc927f738de9afbb"
+- name: "Frost.upl"
+  fileSize: 221
+  hash: "fc90850c9c9f4a3477ffb6de3ecf4bae9e3092f1"
 otherFiles: 1
 dependencies:
-  Frosty.utx:
+  Frost.ukx:
+  - status: "OK"
+    name: "Frosty"
   - status: "MISSING"
-    name: "HumanFemaleA"
+    name: "Beatrice"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/frost_ut2k3.zip"
   direct: true
@@ -45,6 +47,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Frost"

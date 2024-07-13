@@ -23,20 +23,23 @@ files:
 - name: "kid.upl"
   fileSize: 384
   hash: "ee63c4f7375d49ebd179c974a6a5b84c782c6f66"
-- name: "TheAnnoyingKid.ut2mod"
-  fileSize: 8481452
-  hash: "28ea5a386d313bcf485473e58cbbf9d5edda52c1"
 - name: "akid.ka"
   fileSize: 44179
   hash: "92fa5f73fef25afafa1c5171621f97d57469321e"
 - name: "kid_tex.utx"
   fileSize: 6642196
   hash: "414cd7052f31349246d475e61ac34e5cfff2fa83"
+- name: "TheAnnoyingKid.ut2mod"
+  fileSize: 8481452
+  hash: "28ea5a386d313bcf485473e58cbbf9d5edda52c1"
 - name: "annoying_kid2.ukx"
   fileSize: 1463320
   hash: "5be6362566c85cc1e34b655e10af9a9ccf73afa6"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  annoying_kid2.ukx:
+  - status: "OK"
+    name: "kid_tex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-theannoyingkid.zip"
   direct: true
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Annoying kid"

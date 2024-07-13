@@ -12,15 +12,15 @@ originalFilename: "Remote_strike_2004.zip"
 hash: "1d0b4bfcfeee5a95d4d2fb141c7229c378dcaf5b"
 fileSize: 23519000
 files:
-- name: "Remote_strike_2004.ut4mod"
-  fileSize: 50463190
-  hash: "1ddf4b0a6efe39ef1d2a5120441ede34d4c5624a"
 - name: "WoRMlite.u"
   fileSize: 13331
   hash: "e1a30a62ce7cf31b86f07768a07f7956e2407e32"
 - name: "Comm.uax"
   fileSize: 7216541
   hash: "9749c1ab8e3cb8a8e0efdbf5203fb820ac716113"
+- name: "Remote_strike_2004.ut4mod"
+  fileSize: 50463190
+  hash: "1ddf4b0a6efe39ef1d2a5120441ede34d4c5624a"
 - name: "Remotetextures.utx"
   fileSize: 14533698
   hash: "fdd7e6ca3678a377f0d280f4bb0e7380f75a358c"
@@ -54,6 +54,9 @@ dependencies:
   Remote_static.usx:
   - status: "OK"
     name: "Remotetextures"
+  RemoteWeapons.ukx:
+  - status: "OK"
+    name: "Remotetextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/Remote_strike_2004.zip"
   direct: true
@@ -71,6 +74,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Remote Strike v7 ut2004 mutator"

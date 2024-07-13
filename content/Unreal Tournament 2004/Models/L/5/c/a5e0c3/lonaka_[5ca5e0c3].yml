@@ -20,35 +20,44 @@ originalFilename: "ut2004lyn.zip"
 hash: "5ca5e0c395bbfc601f5481222e62efa3c2d903de"
 fileSize: 4477849
 files:
+- name: "KaoLyn.ukx"
+  fileSize: 503780
+  hash: "703a3568a87b3346bfb1abf7da96351520889381"
+- name: "Lyn.upl"
+  fileSize: 346
+  hash: "4ee6d860865bad7e95ca0c2e883cde8ec2d31320"
 - name: "Lyn.ukx"
   fileSize: 507691
   hash: "4a9624797dbdda2036f0612a2a5d28ddd5056218"
+- name: "Kaolyn.upl"
+  fileSize: 358
+  hash: "c0ec60e0bf0f60a30b1ceae1ea6af24115fa2272"
+- name: "LonakaTX.utx"
+  fileSize: 1770241
+  hash: "c3d4853ead1e186e3501c000d34267532d1c7e51"
 - name: "KaoLynTX.utx"
   fileSize: 1770239
   hash: "441c8b3bf418392ff41dcc59a86255d9783c76aa"
-- name: "LynTX.utx"
-  fileSize: 1770222
-  hash: "34eda9cd32dfe0f5f1f0b7e8d1e4d073b6c62fb8"
 - name: "Lonaka.upl"
   fileSize: 358
   hash: "aacd92adf20369dcef2787e53c460790f06007ee"
 - name: "Lonaka.ukx"
   fileSize: 505868
   hash: "de4717fcc53e98a85f397d98d073f8955c6563b0"
-- name: "Lyn.upl"
-  fileSize: 346
-  hash: "4ee6d860865bad7e95ca0c2e883cde8ec2d31320"
-- name: "KaoLyn.ukx"
-  fileSize: 503780
-  hash: "703a3568a87b3346bfb1abf7da96351520889381"
-- name: "LonakaTX.utx"
-  fileSize: 1770241
-  hash: "c3d4853ead1e186e3501c000d34267532d1c7e51"
-- name: "Kaolyn.upl"
-  fileSize: 358
-  hash: "c0ec60e0bf0f60a30b1ceae1ea6af24115fa2272"
+- name: "LynTX.utx"
+  fileSize: 1770222
+  hash: "34eda9cd32dfe0f5f1f0b7e8d1e4d073b6c62fb8"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  KaoLyn.ukx:
+  - status: "OK"
+    name: "KaoLynTX"
+  Lonaka.ukx:
+  - status: "OK"
+    name: "LonakaTX"
+  Lyn.ukx:
+  - status: "OK"
+    name: "LynTX"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsK/"
   direct: false
@@ -75,6 +84,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lonaka"

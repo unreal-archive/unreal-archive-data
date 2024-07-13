@@ -17,17 +17,20 @@ originalFilename: "nightwish_ut2k4.zip"
 hash: "f7f5f7ca58de5ba68adc98bbbb18c89aabb2bd6a"
 fileSize: 953705
 files:
-- name: "Nightwish.utx"
-  fileSize: 791847
-  hash: "c169eca3a66f5b0e4a462d24a9c59caa10e6e5e6"
-- name: "NwAnim.ukx"
-  fileSize: 1185047
-  hash: "719fff837dda9f5e717356f5bf8ee15f521ee99f"
 - name: "Nightwish.upl"
   fileSize: 279
   hash: "8504232035665e468150b04a7579feeb2b524428"
+- name: "NwAnim.ukx"
+  fileSize: 1185047
+  hash: "719fff837dda9f5e717356f5bf8ee15f521ee99f"
+- name: "Nightwish.utx"
+  fileSize: 791847
+  hash: "c169eca3a66f5b0e4a462d24a9c59caa10e6e5e6"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  NwAnim.ukx:
+  - status: "OK"
+    name: "Nightwish"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsN/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Nightwish"

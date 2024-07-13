@@ -18,17 +18,20 @@ originalFilename: "ONS-Suspense2K4-B11-ADS.rar"
 hash: "d469470a4999019dafa954e82e1b2d4806464b12"
 fileSize: 10851826
 files:
-- name: "EONSLocustA.ukx"
-  fileSize: 74599
-  hash: "187fd38da0625e04a905683109e03960f0e94234"
 - name: "EONSLocustSM.usx"
   fileSize: 231831
   hash: "8d6b35178a06fd1c311a828a8c101c1be9a65257"
+- name: "EONSLocustA.ukx"
+  fileSize: 74599
+  hash: "187fd38da0625e04a905683109e03960f0e94234"
 - name: "ONS-Suspense2K4-B11-ADS.ut2"
   fileSize: 29574685
   hash: "54435006738a73089e0291f4b9ffc807dd342ac9"
 otherFiles: 1
 dependencies:
+  EONSLocustA.ukx:
+  - status: "OK"
+    name: "EONSLocustSM"
   ONS-Suspense2K4-B11-ADS.ut2:
   - status: "OK"
     name: "EONSLocustSM"
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 gametype: "Onslaught"
 title: "ONS-Suspense"

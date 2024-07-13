@@ -18,26 +18,29 @@ files:
 - name: "Effigy.ka"
   fileSize: 58429
   hash: "8a07bb6ac0b8e591f490b3ea21764f44dd40f5e4"
-- name: "Effigy.ukx"
-  fileSize: 2483290
-  hash: "19f46ba4ca85d96ed8c38a62fd998f757ed90cdd"
-- name: "EffigyScripts.u"
-  fileSize: 2005
-  hash: "bb37cbbf751bc118e419ff7ccf254485deb61a9b"
 - name: "xPlayersEffigy.upl"
   fileSize: 362
   hash: "ec5c8fc066b03e7ad6cc07cfd91722bb00707a48"
-- name: "xPlayersEffigy.upl"
-  fileSize: 391
-  hash: "51bf8c7aed3d249ce38cc07d340162b30dcbd658"
+- name: "EffigyScripts.u"
+  fileSize: 2005
+  hash: "bb37cbbf751bc118e419ff7ccf254485deb61a9b"
 - name: "EffigySounds.uax"
   fileSize: 1382694
   hash: "0a67cf4210c3addb62709bb1c976e003a77f9add"
+- name: "Effigy.ukx"
+  fileSize: 2483290
+  hash: "19f46ba4ca85d96ed8c38a62fd998f757ed90cdd"
+- name: "xPlayersEffigy.upl"
+  fileSize: 391
+  hash: "51bf8c7aed3d249ce38cc07d340162b30dcbd658"
 - name: "Effigy.ut2mod"
   fileSize: 5519814
   hash: "d0bd5651cb9eb5ad94b23854eb85fa39b7be6755"
 otherFiles: 2
 dependencies:
+  Effigy.ukx:
+  - status: "OK"
+    name: "EffigyTextures"
   EffigyScripts.u:
   - status: "OK"
     name: "EffigySounds"

@@ -26,17 +26,20 @@ originalFilename: "felina_ut2k4.zip"
 hash: "4f7052a3d355da4037f0979af7fec76f76665320"
 fileSize: 9641642
 files:
+- name: "Felina.upl"
+  fileSize: 4206
+  hash: "5ca3c42812edd9288e36e630a699df59fe7dd050"
 - name: "Felina2K4.ukx"
   fileSize: 716301
   hash: "231b9ce28b5d317d546f1d521ddabcc6b54048f2"
 - name: "FelinaTextures.utx"
   fileSize: 25194723
   hash: "d5d8d65ad26adad9c5c85efefce77aa713925d62"
-- name: "Felina.upl"
-  fileSize: 4206
-  hash: "5ca3c42812edd9288e36e630a699df59fe7dd050"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  Felina2K4.ukx:
+  - status: "OK"
+    name: "FelinaTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsF/&file=felina_ut2k4.zip"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Felina"

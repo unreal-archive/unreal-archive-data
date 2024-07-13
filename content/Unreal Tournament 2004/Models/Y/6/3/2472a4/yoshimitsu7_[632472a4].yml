@@ -26,17 +26,20 @@ originalFilename: "yoshi_ut2003.zip"
 hash: "632472a4d20ce795f749ee20404f0c6d8bdc18e8"
 fileSize: 1122942
 files:
-- name: "Yoshimitsu7MaleA.ukx"
-  fileSize: 203414
-  hash: "b7e4da5e2cd068b8ad6548ab2e0f3a590c04e953"
 - name: "Yoshimitsu7.utx"
   fileSize: 2972163
   hash: "c9fd593f0872f7466b97cebd26d153841a0869ba"
+- name: "Yoshimitsu7MaleA.ukx"
+  fileSize: 203414
+  hash: "b7e4da5e2cd068b8ad6548ab2e0f3a590c04e953"
 - name: "Yoshimitsu7.upl"
   fileSize: 307
   hash: "2e432bd32e45768cd136d453979aa2249c12875c"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Yoshimitsu7MaleA.ukx:
+  - status: "MISSING"
+    name: "yoshimitsu7"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/yoshi_ut2003.zip"
   direct: true
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Yoshimitsu7"

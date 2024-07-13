@@ -14,17 +14,20 @@ originalFilename: "cyberpunk_ut2k3.zip"
 hash: "1a7acfc767420acb27bc9d936085cd4f5d241b25"
 fileSize: 1272153
 files:
+- name: "Cyberpunk.upl"
+  fileSize: 257
+  hash: "7d9580f0e2f137b7d5ebc44149830839bd4abadb"
 - name: "PunkTextures.utx"
   fileSize: 1487127
   hash: "23ce9c7629ed1fe1d1b0fd9a8054b3131031248f"
 - name: "CyberAnimation.ukx"
   fileSize: 1051856
   hash: "2066db86f7c5385cea1757cf950fa083e0be3cb5"
-- name: "Cyberpunk.upl"
-  fileSize: 257
-  hash: "7d9580f0e2f137b7d5ebc44149830839bd4abadb"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  CyberAnimation.ukx:
+  - status: "OK"
+    name: "PunkTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/cyberpunk_ut2k3.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Vertex"

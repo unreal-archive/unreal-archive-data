@@ -14,20 +14,17 @@ originalFilename: "trista.zip"
 hash: "1ea5f7b17de1dcb0f13e372ea7dd349159e74430"
 fileSize: 1188839
 files:
-- name: "trista.ukx"
-  fileSize: 988104
-  hash: "51aced930605ac886f8050d1c4bd660a5f90bbff"
-- name: "trista.utx"
-  fileSize: 988104
-  hash: "eca2b1466b80621ce566f9eafff626752a499475"
 - name: "trista.upl"
   fileSize: 341
   hash: "2519995cba9e3b7f4f06ef113fc3096ac4d70336"
+- name: "trista.utx"
+  fileSize: 988104
+  hash: "eca2b1466b80621ce566f9eafff626752a499475"
+- name: "trista.ukx"
+  fileSize: 988104
+  hash: "51aced930605ac886f8050d1c4bd660a5f90bbff"
 otherFiles: 1
-dependencies:
-  trista.utx:
-  - status: "MISSING"
-    name: "HumanFemaleA"
+dependencies: {}
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -48,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "trista"

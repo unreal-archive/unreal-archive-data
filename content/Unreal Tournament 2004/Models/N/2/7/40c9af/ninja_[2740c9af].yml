@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-ninja.zip"
 hash: "2740c9afce204af94fc97679fb97cf607edab671"
 fileSize: 1817585
 files:
-- name: "Ninja.ukx"
-  fileSize: 2029719
-  hash: "03d39ca527fb78789523c8015a64a036f64af5c5"
-- name: "Ninja.upl"
-  fileSize: 154
-  hash: "31394e1fbb52b6196822acf5703099ff91fb660b"
 - name: "Ninjatex.utx"
   fileSize: 2841857
   hash: "b902f89c3e643528dfb5133349356886822eb67c"
+- name: "Ninja.upl"
+  fileSize: 154
+  hash: "31394e1fbb52b6196822acf5703099ff91fb660b"
+- name: "Ninja.ukx"
+  fileSize: 2029719
+  hash: "03d39ca527fb78789523c8015a64a036f64af5c5"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  Ninja.ukx:
+  - status: "OK"
+    name: "Ninjatex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-ninja.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Ninja"

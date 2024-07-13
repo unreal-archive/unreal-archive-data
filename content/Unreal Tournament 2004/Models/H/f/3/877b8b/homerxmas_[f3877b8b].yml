@@ -20,17 +20,20 @@ originalFilename: "kryzalizxmashomer.zip"
 hash: "f3877b8ba2d5ba352be27e08a480d74543b5dff1"
 fileSize: 1000673
 files:
+- name: "HomerXmas.upl"
+  fileSize: 333
+  hash: "566baf756056c24e1502920fdd3ab0c2e372156e"
 - name: "HomerXAnim.ukx"
   fileSize: 1169165
   hash: "aff6a87acea3baf42272a5249ef20b92b9e9e5fe"
 - name: "HomerX.utx"
   fileSize: 274112
   hash: "740094dd7ed3b890f4e46775bdae88081d3a9ac3"
-- name: "HomerXmas.upl"
-  fileSize: 333
-  hash: "566baf756056c24e1502920fdd3ab0c2e372156e"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  HomerXAnim.ukx:
+  - status: "OK"
+    name: "HomerX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kryzalizxmashomer.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "HomerXmas"

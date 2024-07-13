@@ -15,6 +15,9 @@ originalFilename: "junkmech_ut2k3.zip"
 hash: "69f161d4889426f12795b26b064d1feb7c60d64b"
 fileSize: 5550899
 files:
+- name: "Junkyard Mech.ut2mod"
+  fileSize: 12255479
+  hash: "69bed50cebe43002a7d966944a05ce9f92718407"
 - name: "JunkYardMech.ukx"
   fileSize: 2310966
   hash: "e8034e00e21d0e2bbe898b4c4cd5e58a4da409c8"
@@ -24,9 +27,6 @@ files:
 - name: "JunkYardMech.upl"
   fileSize: 364
   hash: "bdbb23e2a58cbb77c9374c4616c3625abd56eda3"
-- name: "Junkyard Mech.ut2mod"
-  fileSize: 12255479
-  hash: "69bed50cebe43002a7d966944a05ce9f92718407"
 - name: "JunkVoice.u"
   fileSize: 2503310
   hash: "0ec17302e1c1c18a274db7a80e66ee6cddfc76f1"
@@ -34,7 +34,10 @@ files:
   fileSize: 7366960
   hash: "1585856fd55863648e1f394b89cc6434f09a4fdb"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  JunkYardMech.ukx:
+  - status: "OK"
+    name: "JunkMechSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/junkmech_ut2k3.zip"
   direct: true
@@ -52,6 +55,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "JunkYardMech"

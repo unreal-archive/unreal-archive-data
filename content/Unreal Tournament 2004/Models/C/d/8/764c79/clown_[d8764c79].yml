@@ -17,17 +17,20 @@ originalFilename: "kryzalizclown.zip"
 hash: "d8764c79f15bebe40f761024d5ebb2d116f96ad9"
 fileSize: 1082923
 files:
-- name: "ClownTex.utx"
-  fileSize: 787571
-  hash: "010c4a1806bd9bd13ff3aa056a052394bcad6676"
 - name: "ClownAnim.ukx"
   fileSize: 985450
   hash: "ea2f80e6b77820a24ab0b372332eb0a034820e43"
 - name: "Clown.upl"
   fileSize: 328
   hash: "beafafa36e909623e982a383c73cbc319330cf99"
+- name: "ClownTex.utx"
+  fileSize: 787571
+  hash: "010c4a1806bd9bd13ff3aa056a052394bcad6676"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  ClownAnim.ukx:
+  - status: "OK"
+    name: "ClownTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kryzalizclown.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Clown"

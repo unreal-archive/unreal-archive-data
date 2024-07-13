@@ -14,17 +14,20 @@ originalFilename: "ut2k4mdlkouryuu.zip"
 hash: "e3d5df70890a0ad126223c429973b83e9cc532ad"
 fileSize: 3322996
 files:
-- name: "KouRyuu.upl"
-  fileSize: 884
-  hash: "05149b0fb5139905a3cec0597104ebde9358799f"
-- name: "KouRyuuAnim.ukx"
-  fileSize: 1190371
-  hash: "9842129fe4f97102d6c3ec9964d848078f6f808a"
 - name: "KouRyuu.utx"
   fileSize: 6644589
   hash: "428a524c7ff7e89af940a0f62917c406db1ec74f"
+- name: "KouRyuuAnim.ukx"
+  fileSize: 1190371
+  hash: "9842129fe4f97102d6c3ec9964d848078f6f808a"
+- name: "KouRyuu.upl"
+  fileSize: 884
+  hash: "05149b0fb5139905a3cec0597104ebde9358799f"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  KouRyuuAnim.ukx:
+  - status: "OK"
+    name: "KouRyuu"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsK/"
   direct: false

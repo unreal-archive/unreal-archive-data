@@ -11,15 +11,15 @@ originalFilename: "Remote_Strike_v6_1_UMOD.zip"
 hash: "1facff9d97406c2dad5d53d23aaaf9e9da37af56"
 fileSize: 23552168
 files:
-- name: "Remote_Strike_Weapon_Mod_6_1.ut2mod"
-  fileSize: 50617395
-  hash: "11df1a383814569770d42c93ec812ae29111d7c3"
 - name: "Comm.uax"
   fileSize: 7216541
   hash: "9749c1ab8e3cb8a8e0efdbf5203fb820ac716113"
 - name: "Remotetextures.utx"
   fileSize: 14533698
   hash: "fdd7e6ca3678a377f0d280f4bb0e7380f75a358c"
+- name: "Remote_Strike_Weapon_Mod_6_1.ut2mod"
+  fileSize: 50617395
+  hash: "11df1a383814569770d42c93ec812ae29111d7c3"
 - name: "RemoteWeapons.ukx"
   fileSize: 16662473
   hash: "3060aa0b63f61088ea3941d81abd5d2cdceb49fd"
@@ -48,6 +48,9 @@ dependencies:
   Remote_static.usx:
   - status: "OK"
     name: "Remotetextures"
+  RemoteWeapons.ukx:
+  - status: "OK"
+    name: "Remotetextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/Remote_Strike_v6_1_UMOD.zip"
   direct: true
@@ -65,6 +68,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Replace the standard UT2003 weapons with Remote Strike weapons"

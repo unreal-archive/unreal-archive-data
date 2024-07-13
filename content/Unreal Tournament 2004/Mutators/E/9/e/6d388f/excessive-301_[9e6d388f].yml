@@ -20,24 +20,24 @@ originalFilename: "excessivev301.zip"
 hash: "9e6d388fd012f6c69dc6ed2d082fc5f4b079359a"
 fileSize: 4772548
 files:
+- name: "ExcessiveTex.utx"
+  fileSize: 7318083
+  hash: "ef3b116f41a82edc84b004f400e816da8d3f978d"
+- name: "ExcessiveWeapons.ukx"
+  fileSize: 1106953
+  hash: "3b1c8f308e48f6d0797a392bbd45b1206d3ed798"
+- name: "ExcessiveV301.u"
+  fileSize: 1800290
+  hash: "c6cf576b05c960d10e8f13658b96fcb12a452bbd"
+- name: "ExcessiveMenu.ogg"
+  fileSize: 1146438
+  hash: "7df37d03c05d768f857763d0c2ae6a3525fdf4b6"
 - name: "ExcessiveMesh.usx"
   fileSize: 338283
   hash: "53acbe50ffc75e5e618eb8ecf3213c7227c242a6"
 - name: "ExcessiveTex_B.utx"
   fileSize: 373230
   hash: "af9e227f648dbdc83a980000e45c09f4ebf8b94e"
-- name: "ExcessiveTex.utx"
-  fileSize: 7318083
-  hash: "ef3b116f41a82edc84b004f400e816da8d3f978d"
-- name: "ExcessiveV301.u"
-  fileSize: 1800290
-  hash: "c6cf576b05c960d10e8f13658b96fcb12a452bbd"
-- name: "ExcessiveWeapons.ukx"
-  fileSize: 1106953
-  hash: "3b1c8f308e48f6d0797a392bbd45b1206d3ed798"
-- name: "ExcessiveMenu.ogg"
-  fileSize: 1146438
-  hash: "7df37d03c05d768f857763d0c2ae6a3525fdf4b6"
 otherFiles: 6
 dependencies:
   ExcessiveV301.u:
@@ -47,8 +47,11 @@ dependencies:
     name: "ExcessiveMesh"
   - status: "OK"
     name: "ExcessiveTex"
-  - status: "MISSING"
+  - status: "OK"
     name: "ExcessiveWeapons"
+  ExcessiveWeapons.ukx:
+  - status: "OK"
+    name: "ExcessiveTex"
   ExcessiveMesh.usx:
   - status: "OK"
     name: "ExcessiveTex"
@@ -72,6 +75,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Excessive 3.01"

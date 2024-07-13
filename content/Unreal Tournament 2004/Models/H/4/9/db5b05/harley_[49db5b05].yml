@@ -20,17 +20,14 @@ files:
 - name: "Harley.utx"
   fileSize: 2301607
   hash: "ccea359a8923fbf749ec756fa3077d69ebf6f1f8"
-- name: "Harley.upl"
-  fileSize: 336
-  hash: "3238c8a00efab69158bd5bebd473005ac9893dc4"
 - name: "Harley.ukx"
   fileSize: 989370
   hash: "bc5ae812b5883e561c5ca8afb7d06418c0be8948"
+- name: "Harley.upl"
+  fileSize: 336
+  hash: "3238c8a00efab69158bd5bebd473005ac9893dc4"
 otherFiles: 2
-dependencies:
-  Harley.utx:
-  - status: "MISSING"
-    name: "HumanFemaleA"
+dependencies: {}
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-harley.zip"
   direct: true
@@ -48,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Harley"

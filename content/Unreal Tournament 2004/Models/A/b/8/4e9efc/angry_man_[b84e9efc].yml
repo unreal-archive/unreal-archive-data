@@ -14,20 +14,23 @@ originalFilename: "angryman2k4.zip"
 hash: "b84e9efc659de9c0e8b2d321ab95fab873ba7d2e"
 fileSize: 2817254
 files:
+- name: "AngryKarmaAssets.ka"
+  fileSize: 41327
+  hash: "6e08a75ec5ad5860e4f7bd1c55e7c4aeaaedc256"
+- name: "AngryMale.upl"
+  fileSize: 298
+  hash: "ca77475ac5655fc35e006022888d8cf6200ca069"
 - name: "Angry2k4.utx"
   fileSize: 5769010
   hash: "03e9a578157a4178c2541f984352dfb3aa554134"
 - name: "AngryMale.ukx"
   fileSize: 1369688
   hash: "f52d9880b81bcd5f519352e0c0b978d5258289ab"
-- name: "AngryMale.upl"
-  fileSize: 298
-  hash: "ca77475ac5655fc35e006022888d8cf6200ca069"
-- name: "AngryKarmaAssets.ka"
-  fileSize: 41327
-  hash: "6e08a75ec5ad5860e4f7bd1c55e7c4aeaaedc256"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  AngryMale.ukx:
+  - status: "OK"
+    name: "Angry2k4"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/angryman2k4.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Angry_Man"

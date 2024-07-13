@@ -14,17 +14,20 @@ originalFilename: "ut2k4mdl_ws_1t.zip"
 hash: "281408318558d39893496efc42400ad0b3dc2c58"
 fileSize: 3471611
 files:
+- name: "WS-1T.upl"
+  fileSize: 701
+  hash: "75040619df314bc5a74f2e1ee154f685b8a8ddb6"
 - name: "WS-1T.utx"
   fileSize: 4736964
   hash: "9085240f14b70a43e951a06748f0c310dec10310"
 - name: "WS-1TAnim.ukx"
   fileSize: 522722
   hash: "c37e358f743f969a147159056524121905fcf07f"
-- name: "WS-1T.upl"
-  fileSize: 701
-  hash: "75040619df314bc5a74f2e1ee154f685b8a8ddb6"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  WS-1TAnim.ukx:
+  - status: "OK"
+    name: "WS-1T"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Misc/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "WS-1T"

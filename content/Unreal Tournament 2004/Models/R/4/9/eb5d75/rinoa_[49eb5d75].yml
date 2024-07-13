@@ -14,17 +14,20 @@ originalFilename: "ut2k4rinoa.zip"
 hash: "49eb5d75ca149c80f43a825073801d5ae9bf428c"
 fileSize: 1120134
 files:
+- name: "RinoaMesh.ukx"
+  fileSize: 309051
+  hash: "a05a8676d610ad7865dd92af57c1801b88468605"
 - name: "Rinoa.upl"
   fileSize: 546
   hash: "be6829f6742242069ac8f1a08979581c8c820205"
 - name: "RinoaTex.utx"
   fileSize: 2185964
   hash: "0ee1f4864a66ed0cefb9c5a5a1a94e3a20624e8c"
-- name: "RinoaMesh.ukx"
-  fileSize: 309051
-  hash: "a05a8676d610ad7865dd92af57c1801b88468605"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  RinoaMesh.ukx:
+  - status: "OK"
+    name: "RinoaTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Rinoa"

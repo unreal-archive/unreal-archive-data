@@ -20,14 +20,17 @@ files:
 - name: "Barny.ukx"
   fileSize: 1774408
   hash: "7af9c0cedc477058db8939a4aeb6207f06513ae8"
-- name: "BarnyTPD.UPL"
-  fileSize: 243
-  hash: "0f3d1845a8f979904cf414fb1629530bfbb19728"
 - name: "BarnyTextures.utx"
   fileSize: 2097934
   hash: "74920acacf4254e15eea5b26b0418d0c94fd5af4"
+- name: "BarnyTPD.UPL"
+  fileSize: 243
+  hash: "0f3d1845a8f979904cf414fb1629530bfbb19728"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Barny.ukx:
+  - status: "OK"
+    name: "BarnyTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/barny_ut2k3.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Barny The Purple Dino"

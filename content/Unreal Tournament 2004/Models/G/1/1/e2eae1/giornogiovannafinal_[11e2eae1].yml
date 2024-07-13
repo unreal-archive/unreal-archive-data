@@ -11,17 +11,20 @@ originalFilename: "giornomod_e298c.zip"
 hash: "11e2eae1bdaa2bfea50c07a7782a98bc6e3859a4"
 fileSize: 3593756
 files:
-- name: "Giorno.upl"
-  fileSize: 662
-  hash: "ca9a570988552da3c1331036b8964480dc2c5aa0"
 - name: "GiornoGiovannaFinal3.ukx"
   fileSize: 1649192
   hash: "edfb3db5cb597bfb64feef5c249b1d2a57cc2900"
+- name: "Giorno.upl"
+  fileSize: 662
+  hash: "ca9a570988552da3c1331036b8964480dc2c5aa0"
 - name: "Giorno.utx"
   fileSize: 4659799
   hash: "263754eb63407ca6500b95e61189848e4d262af4"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  GiornoGiovannaFinal3.ukx:
+  - status: "MISSING"
+    name: "Giorno"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/G/1/1/e2eae1/giornomod_e298c.zip"
   direct: true
@@ -39,6 +42,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "GiornoGiovannaFinal"

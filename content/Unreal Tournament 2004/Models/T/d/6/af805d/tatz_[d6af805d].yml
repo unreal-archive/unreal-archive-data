@@ -36,14 +36,17 @@ files:
 - name: "TatzAnim.ukx"
   fileSize: 1216201
   hash: "3d00c285947f48ec4a8a1136fd9dbba5bfca8797"
-- name: "Tatz.upl"
-  fileSize: 751
-  hash: "3b66677293d73bc7a0edb313b38c1f36ae017ccc"
 - name: "TatzTextures.utx"
   fileSize: 2535749
   hash: "d9d391b0c88e0f55131289e199babfed7573d53d"
+- name: "Tatz.upl"
+  fileSize: 751
+  hash: "3b66677293d73bc7a0edb313b38c1f36ae017ccc"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  TatzAnim.ukx:
+  - status: "OK"
+    name: "TatzTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -64,6 +67,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tatz"

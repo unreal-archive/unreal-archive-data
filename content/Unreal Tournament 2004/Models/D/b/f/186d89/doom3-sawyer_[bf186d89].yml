@@ -20,17 +20,20 @@ originalFilename: "DOOM3_SawyerZombie.zip"
 hash: "bf186d89e67bfc541c2a50e08a3ce8816a1adc89"
 fileSize: 2131611
 files:
+- name: "Sawyer.UPL"
+  fileSize: 283
+  hash: "e7ffac818cc245e133da4fbb3ae42258b9af4f56"
 - name: "sawyer.utx"
   fileSize: 2928854
   hash: "7c1d0781030baa00ac6ef4949697181d50fe3b16"
 - name: "Doom3Sawyer.ukx"
   fileSize: 903783
   hash: "a109405cc9da4c1447a8e1ae9c7b5987243fb618"
-- name: "Sawyer.UPL"
-  fileSize: 283
-  hash: "e7ffac818cc245e133da4fbb3ae42258b9af4f56"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Doom3Sawyer.ukx:
+  - status: "OK"
+    name: "sawyer"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/D/b/f/186d89/DOOM3_SawyerZombie.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Doom3 Sawyer"

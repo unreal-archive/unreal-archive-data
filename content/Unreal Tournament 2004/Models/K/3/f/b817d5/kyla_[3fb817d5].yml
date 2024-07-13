@@ -17,17 +17,20 @@ originalFilename: "kyla_ut2k3.zip"
 hash: "3fb817d5f4c5ca5ecc527ca52b48a19809b85a1e"
 fileSize: 2288495
 files:
-- name: "Kylaskins.utx"
-  fileSize: 4458674
-  hash: "027caaa593e4a00a37e352969930fa155ebaaab2"
 - name: "Kyla.upl"
   fileSize: 611
   hash: "27d408e8e0c1586b31e2e43cba93e7d1523306d2"
 - name: "Kyla.ukx"
   fileSize: 1062835
   hash: "0fa0057aa55d1f2b4f1ab7d0830593946cdfcc54"
+- name: "Kylaskins.utx"
+  fileSize: 4458674
+  hash: "027caaa593e4a00a37e352969930fa155ebaaab2"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Kyla.ukx:
+  - status: "OK"
+    name: "Kylaskins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kyla_ut2k3.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kyla"

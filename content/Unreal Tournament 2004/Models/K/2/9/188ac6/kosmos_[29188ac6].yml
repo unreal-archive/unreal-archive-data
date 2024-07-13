@@ -14,17 +14,20 @@ originalFilename: "ut2k4mdl-kosmos.zip"
 hash: "29188ac6086411049d9c415a9802332baabd7ef3"
 fileSize: 1806553
 files:
+- name: "KosmosTxtr.utx"
+  fileSize: 4021912
+  hash: "de25e65decce0da8200a860282d2f5bc62e5571f"
 - name: "kosmos.upl"
   fileSize: 642
   hash: "c44eb31ff7323e51d993bab867d18d770e31a1ab"
 - name: "kosmos.ukx"
   fileSize: 700052
   hash: "6ba1300b4b9b04b1cb9c56d41ab28331f0b88dd6"
-- name: "KosmosTxtr.utx"
-  fileSize: 4021912
-  hash: "de25e65decce0da8200a860282d2f5bc62e5571f"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  kosmos.ukx:
+  - status: "OK"
+    name: "KosmosTxtr"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=ut2k4mdl-kosmos.zip"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "KOSMOS"

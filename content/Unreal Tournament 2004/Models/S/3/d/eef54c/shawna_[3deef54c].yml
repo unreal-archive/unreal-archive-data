@@ -15,17 +15,20 @@ originalFilename: "shawna_ut2k4.zip"
 hash: "3deef54c7c204c27ab67e9e2ad34ac40ccbe211e"
 fileSize: 3223694
 files:
+- name: "Shawna.upl"
+  fileSize: 339
+  hash: "678141fb97a2253aaefde5fcac11721d1aed73f8"
 - name: "ShawnaTextures.utx"
   fileSize: 2360896
   hash: "fb1162caa0b339571c1771922ff32c94740014ff"
 - name: "ShawnaAnims.ukx"
   fileSize: 2105723
   hash: "59070fc127b0bb7aac06ab53e1c856baee9a112c"
-- name: "Shawna.upl"
-  fileSize: 339
-  hash: "678141fb97a2253aaefde5fcac11721d1aed73f8"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ShawnaAnims.ukx:
+  - status: "OK"
+    name: "ShawnaTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsS/&file=shawna_ut2k4.zip"
   direct: false
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Shawna"

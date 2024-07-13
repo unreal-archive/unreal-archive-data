@@ -15,9 +15,6 @@ originalFilename: "neofin_ut2k3.zip"
 hash: "5e0c4b8152739c80a8a10f702d1c29295b6deb16"
 fileSize: 2903960
 files:
-- name: "neofin.ukx"
-  fileSize: 1526176
-  hash: "a96f80f18741710e328a365b94974fb1426e6ecf"
 - name: "neofinTex.utx"
   fileSize: 4568658
   hash: "30a1aa45207d90a9b683278ce33d1f50c0b7c753"
@@ -27,8 +24,14 @@ files:
 - name: "neofin.ka"
   fileSize: 80099
   hash: "598c29bb08ea2f2b9b0f241e9287a135633df449"
+- name: "neofin.ukx"
+  fileSize: 1526176
+  hash: "a96f80f18741710e328a365b94974fb1426e6ecf"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  neofin.ukx:
+  - status: "OK"
+    name: "neofinTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/neofin_ut2k3.zip"
   direct: true
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "NeoFin"

@@ -11,6 +11,9 @@ originalFilename: "mechpack.zip"
 hash: "f4d4d9c524c58a7445cf4b4f4ccc40ed2ade801c"
 fileSize: 30705892
 files:
+- name: "Gyro_UKX.ukx"
+  fileSize: 1805478
+  hash: "88c847fd02a5a61aa0e7cadd0eab419cc6478f89"
 - name: "Gyro_T.utx"
   fileSize: 26654846
   hash: "85149553528218dfd36564f20f2c32966c501fad"
@@ -20,21 +23,24 @@ files:
 - name: "Vanguard_T.utx"
   fileSize: 35304523
   hash: "ee0fc020e066e8fd7e9f1661cf31f0bba1ff8ac6"
-- name: "Gyro_UKX.ukx"
-  fileSize: 1805478
-  hash: "88c847fd02a5a61aa0e7cadd0eab419cc6478f89"
 - name: "Vanguard_UKX.ukx"
   fileSize: 2647499
   hash: "21c477a6ae21a85c6416c340e773bc43e4ca782b"
 otherFiles: 2
 dependencies:
   Gyro.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "Gyro_UKX"
   - status: "OK"
     name: "Vanguard_T"
-  - status: "MISSING"
+  - status: "OK"
     name: "Vanguard_UKX"
+  Vanguard_UKX.ukx:
+  - status: "OK"
+    name: "Vanguard_T"
+  Gyro_UKX.ukx:
+  - status: "OK"
+    name: "Gyro_T"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/mechpack.zip"
   direct: true

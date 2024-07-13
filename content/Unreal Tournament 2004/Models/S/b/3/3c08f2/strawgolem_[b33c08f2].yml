@@ -17,14 +17,17 @@ files:
 - name: "straw_x.utx"
   fileSize: 5768807
   hash: "9459d05e5af59541181b2bbb5cb91087d690b769"
-- name: "Straw_Golem_k.ukx"
-  fileSize: 1568443
-  hash: "1eec244f1e95e2a03c0b3b0d5dc22faf5f265650"
 - name: "XPlayersStrawgolem.upl"
   fileSize: 262
   hash: "f518810e1fdea9f026c4b105cf60f669cec5d1fc"
+- name: "Straw_Golem_k.ukx"
+  fileSize: 1568443
+  hash: "1eec244f1e95e2a03c0b3b0d5dc22faf5f265650"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Straw_Golem_k.ukx:
+  - status: "OK"
+    name: "straw_x"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsS/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Strawgolem"

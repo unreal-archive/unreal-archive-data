@@ -15,17 +15,20 @@ originalFilename: "evilkitten_ut2k4.zip"
 hash: "855fdc02088ac15716b12b0670c1e2ed44b31a24"
 fileSize: 3062403
 files:
-- name: "evilkittenanim.ukx"
-  fileSize: 1826553
-  hash: "839ff2253c93e400b77472ef58cf5357904a82c5"
 - name: "evilkitten.utx"
   fileSize: 2885273
   hash: "92a3e558b7b6b25ff51df68155ae6f0943796781"
 - name: "evilkitten.upl"
   fileSize: 316
   hash: "78faa68be6af3c6eaf4db4b8a087b43583823998"
+- name: "evilkittenanim.ukx"
+  fileSize: 1826553
+  hash: "839ff2253c93e400b77472ef58cf5357904a82c5"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  evilkittenanim.ukx:
+  - status: "OK"
+    name: "evilkitten"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsE/"
   direct: false
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "EvilKitten"

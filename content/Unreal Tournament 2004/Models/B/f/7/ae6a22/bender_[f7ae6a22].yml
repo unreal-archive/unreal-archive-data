@@ -17,9 +17,6 @@ files:
 - name: "BenderSkins.utx"
   fileSize: 7452455
   hash: "18965efbaf013509cc90d447fb7c55c35495516a"
-- name: "Bender.upl"
-  fileSize: 715
-  hash: "7dc2c5c394e951d8cc658b9ec410305952162848"
 - name: "bender.ka"
   fileSize: 52744
   hash: "70501fc3f3dab0973695cca823cc5fb7458c5639"
@@ -29,8 +26,16 @@ files:
 - name: "Bender.ukx"
   fileSize: 1598973
   hash: "a3f1293e3008c2da0d7a387921c3840e498bf617"
+- name: "Bender.upl"
+  fileSize: 715
+  hash: "7dc2c5c394e951d8cc658b9ec410305952162848"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  Bender.ukx:
+  - status: "OK"
+    name: "BenderVoice2k4"
+  - status: "OK"
+    name: "BenderSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/&file=Bender-UT2K4_Skin.zip"
   direct: false
@@ -51,6 +56,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bender"

@@ -29,23 +29,26 @@ originalFilename: "airazor-v12.zip"
 hash: "5ba0fca1f14ce1a0a54dade6114035a5c106af94"
 fileSize: 13494066
 files:
-- name: "AirazorAnimation.ukx"
-  fileSize: 1706372
-  hash: "f9322b63ede99d2bc9644efe9ff6f18e4858916c"
 - name: "WorpeX-Airazor.upl"
   fileSize: 744
   hash: "7a02e8f7fbaec9c888ef191423c7246d5ca752a3"
-- name: "Airazor.uax"
-  fileSize: 1753080
-  hash: "608bdf407800420d576d175210e1950f1807b593"
 - name: "Airazor.u"
   fileSize: 1753060
   hash: "5c39fd94da0403fbbb44f8a51906fb232979631a"
 - name: "AirazorTex.utx"
   fileSize: 7054223
   hash: "72b53f45f77102f9f2c3af619b15a7ca8f1da17e"
+- name: "Airazor.uax"
+  fileSize: 1753080
+  hash: "608bdf407800420d576d175210e1950f1807b593"
+- name: "AirazorAnimation.ukx"
+  fileSize: 1706372
+  hash: "f9322b63ede99d2bc9644efe9ff6f18e4858916c"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  AirazorAnimation.ukx:
+  - status: "OK"
+    name: "AirazorTex"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/A/5/b/a0fca1/airazor-v12.zip"
   direct: true
@@ -63,6 +66,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Airazor"

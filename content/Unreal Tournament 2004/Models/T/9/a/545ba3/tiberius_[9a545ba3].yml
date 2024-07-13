@@ -26,17 +26,20 @@ originalFilename: "ut2k4-tiberius.zip"
 hash: "9a545ba3cfc1b3789821777a6453c68b08eeb42b"
 fileSize: 4453747
 files:
+- name: "TiberiusTx.utx"
+  fileSize: 5768986
+  hash: "263433654b79a5f3a2170fcd493a4f4cca0cebc3"
 - name: "Tiberius.upl"
   fileSize: 368
   hash: "6b5b1ee315f8708e8e3f82d3e9668eed2a851f5d"
 - name: "TiberiusAni.ukx"
   fileSize: 1495267
   hash: "2405885737aaf177f4bb762488e013e27cb1da8b"
-- name: "TiberiusTx.utx"
-  fileSize: 5768986
-  hash: "263433654b79a5f3a2170fcd493a4f4cca0cebc3"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  TiberiusAni.ukx:
+  - status: "OK"
+    name: "TiberiusTx"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tiberius"

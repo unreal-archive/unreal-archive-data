@@ -18,17 +18,20 @@ originalFilename: "bender-ubh.zip"
 hash: "b549d6c72f70637bafee1e301364be55d8a708f5"
 fileSize: 1322667
 files:
+- name: "Futuramas-Bender.UPL"
+  fileSize: 231
+  hash: "94d83ba3171f1013792be175ef3ad992ab97d290"
 - name: "BenderTextures.utx"
   fileSize: 3496325
   hash: "21144cfa608de0615f148d77d601decc36da8b93"
 - name: "Bender.ukx"
   fileSize: 1978651
   hash: "88cf841ac62e41385ec2739f4730809a1af1f24c"
-- name: "Futuramas-Bender.UPL"
-  fileSize: 231
-  hash: "94d83ba3171f1013792be175ef3ad992ab97d290"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Bender.ukx:
+  - status: "OK"
+    name: "BenderTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/bender-ubh.zip"
   direct: true
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bender"

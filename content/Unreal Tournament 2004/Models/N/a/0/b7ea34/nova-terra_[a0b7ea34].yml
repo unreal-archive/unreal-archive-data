@@ -23,17 +23,20 @@ originalFilename: "SC2Nova-UT2004.zip"
 hash: "a0b7ea341cbc3b1e8d4ee78a1b645ca10dce34b9"
 fileSize: 8444506
 files:
-- name: "SC2Chars.ukx"
-  fileSize: 2901427
-  hash: "e95ca6364083e6eb09af5e1c1f21cce7ae85d18f"
-- name: "xplayersSC2.upl"
-  fileSize: 632
-  hash: "33d38d76c97dc2e760fcf2483404dd530998c520"
 - name: "SC2PlayerSkins.utx"
   fileSize: 12659902
   hash: "ca539fd7168eb8e0be4786403b64f658ccfd21ea"
+- name: "xplayersSC2.upl"
+  fileSize: 632
+  hash: "33d38d76c97dc2e760fcf2483404dd530998c520"
+- name: "SC2Chars.ukx"
+  fileSize: 2901427
+  hash: "e95ca6364083e6eb09af5e1c1f21cce7ae85d18f"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  SC2Chars.ukx:
+  - status: "OK"
+    name: "SC2PlayerSkins"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/N/a/0/b7ea34/SC2Nova-UT2004.zip"
   direct: true
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Nova Terra"

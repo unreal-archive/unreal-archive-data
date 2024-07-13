@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-massacre.zip"
 hash: "09af9e21111e3b2fb7c617e288b7f24b4e4c95ce"
 fileSize: 2504137
 files:
-- name: "MassacrePL.upl"
-  fileSize: 296
-  hash: "7f9ecdb6343397a4878d83b237f6c81fcea37a62"
 - name: "MassacreMale.ukx"
   fileSize: 1413497
   hash: "78a94ca8a44a96f9f531611fd56698940b89263d"
 - name: "MassacreUT.utx"
   fileSize: 3597255
   hash: "53c0c771eaabcfaa3f38df2c6e534f739923270a"
+- name: "MassacrePL.upl"
+  fileSize: 296
+  hash: "7f9ecdb6343397a4878d83b237f6c81fcea37a62"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  MassacreMale.ukx:
+  - status: "OK"
+    name: "MassacreUT"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-massacre.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Massacre"

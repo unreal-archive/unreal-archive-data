@@ -15,20 +15,23 @@ originalFilename: "ut2k3mdl-angelinterceptor1.1.zip"
 hash: "29769849beda389952346423dc23107e5a9c9c70"
 fileSize: 3698769
 files:
-- name: "AngelInterceptor.ka"
-  fileSize: 29966
-  hash: "9bd8db60ca3617bbd3388de30390723cd303eb6f"
-- name: "AngelInterceptorT.utx"
-  fileSize: 5071065
-  hash: "0722f152cad6152fdf95c5d0ab18d5cbcbbc4854"
-- name: "AngelInterceptorUPL.upl"
-  fileSize: 473
-  hash: "498ad377ac71a1d6db44a7bbcd5d943fe1ef6489"
 - name: "AngelInterceptor.ukx"
   fileSize: 2444718
   hash: "ad31d10f055b5f48d5cc138399eb8ef3d554ad8e"
+- name: "AngelInterceptorT.utx"
+  fileSize: 5071065
+  hash: "0722f152cad6152fdf95c5d0ab18d5cbcbbc4854"
+- name: "AngelInterceptor.ka"
+  fileSize: 29966
+  hash: "9bd8db60ca3617bbd3388de30390723cd303eb6f"
+- name: "AngelInterceptorUPL.upl"
+  fileSize: 473
+  hash: "498ad377ac71a1d6db44a7bbcd5d943fe1ef6489"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  AngelInterceptor.ukx:
+  - status: "OK"
+    name: "AngelInterceptorT"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k3mdl-angelinterceptor1.1.zip"
   direct: true
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "AngelInterceptor"

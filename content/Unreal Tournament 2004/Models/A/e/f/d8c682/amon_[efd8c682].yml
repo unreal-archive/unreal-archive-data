@@ -17,6 +17,9 @@ originalFilename: "ut2004mdlamon.zip"
 hash: "efd8c68289ed605945d35efface79bba36027d2e"
 fileSize: 4085593
 files:
+- name: "AMON.ka"
+  fileSize: 47946
+  hash: "94ef986a9e0f9d6589a37ec77d7a9234f0159ef0"
 - name: "AMON.upl"
   fileSize: 271
   hash: "4a39e49c19692f86d029623b27af35bb5247a840"
@@ -26,11 +29,11 @@ files:
 - name: "AMON.ukx"
   fileSize: 3475083
   hash: "921a1fe35a998e99d49b8553317bfc5f3985348d"
-- name: "AMON.ka"
-  fileSize: 47946
-  hash: "94ef986a9e0f9d6589a37ec77d7a9234f0159ef0"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  AMON.ukx:
+  - status: "OK"
+    name: "AMONtex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsA/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "AMON"

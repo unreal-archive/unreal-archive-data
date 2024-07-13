@@ -14,17 +14,20 @@ originalFilename: "aloscha_ut2k4.zip"
 hash: "9382a095f088320a13dbceeabb041b50a367107b"
 fileSize: 3464831
 files:
-- name: "AloschaPack.ukx"
-  fileSize: 4813370
-  hash: "0db734ecdabc144216ea0bcf24a03fde8fddee90"
-- name: "Aloscha.upl"
-  fileSize: 439
-  hash: "34450f4284be895ed2031f2ad340e125565b01d3"
 - name: "AloschaTX.utx"
   fileSize: 1137370
   hash: "01cadbde7f2841a90434dd547068bcdf4b9c91ec"
+- name: "Aloscha.upl"
+  fileSize: 439
+  hash: "34450f4284be895ed2031f2ad340e125565b01d3"
+- name: "AloschaPack.ukx"
+  fileSize: 4813370
+  hash: "0db734ecdabc144216ea0bcf24a03fde8fddee90"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  AloschaPack.ukx:
+  - status: "OK"
+    name: "AloschaTX"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsA/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Aloscha"

@@ -33,17 +33,20 @@ originalFilename: "ut2k4trooper.zip"
 hash: "e7f5bd798cfed5ebf97f722d1479f6e734bfe9d3"
 fileSize: 5534695
 files:
+- name: "HPBTroop.ukx"
+  fileSize: 842405
+  hash: "558dd38d0758ff65229260dade833414c6064e8e"
 - name: "HPBTroopTex.utx"
   fileSize: 11188902
   hash: "043d7c894e10e382d5b02e6e1857e74e64665943"
 - name: "HPBTroop.upl"
   fileSize: 1601
   hash: "a653f40049a4651cc7a52ad75ce27541776d608d"
-- name: "HPBTroop.ukx"
-  fileSize: 842405
-  hash: "558dd38d0758ff65229260dade833414c6064e8e"
 otherFiles: 8
-dependencies: {}
+dependencies:
+  HPBTroop.ukx:
+  - status: "OK"
+    name: "HPBTroopTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k4trooper.zip"
   direct: true
@@ -61,6 +64,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Soldier1"

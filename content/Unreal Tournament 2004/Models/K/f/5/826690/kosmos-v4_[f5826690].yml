@@ -23,14 +23,17 @@ files:
 - name: "KosmosV4txtr.utx"
   fileSize: 9617048
   hash: "ef4e50077d02c7d078e7026ee47ab513a607e192"
-- name: "kosmosv4.upl"
-  fileSize: 2241
-  hash: "24bb3eeed205067abe4ab10b4427fbcb7c2848c2"
 - name: "kosmosV4.ukx"
   fileSize: 1692501
   hash: "d83446ff2522d2443fc51fb32d405a4705bf046a"
+- name: "kosmosv4.upl"
+  fileSize: 2241
+  hash: "24bb3eeed205067abe4ab10b4427fbcb7c2848c2"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  kosmosV4.ukx:
+  - status: "OK"
+    name: "KosmosV4txtr"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kosmosv4_ut2k4.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kosmos V4"

@@ -20,20 +20,23 @@ files:
 - name: "OptimusUT2K3.utx"
   fileSize: 8874440
   hash: "ecd8638acd8fd9eff16b86766cfce1756bd69ae0"
+- name: "OptimusUT2k3Bot.ukx"
+  fileSize: 365914
+  hash: "2ff9b65700c9312f39b6bf54a544832bcca60776"
+- name: "Optimus.u"
+  fileSize: 3659941
+  hash: "7c88cadfe6387f8fdbb04db1c5043c1ef08d4ec2"
 - name: "Optimus.uax"
   fileSize: 3658207
   hash: "bfb8a1334c250864bf9cf259ae0f2fede2b021ca"
 - name: "optimusUT2K3Bot.upl"
   fileSize: 566
   hash: "15b482e26f545418e93c4b4ee10a1e05c81c631d"
-- name: "Optimus.u"
-  fileSize: 3659941
-  hash: "7c88cadfe6387f8fdbb04db1c5043c1ef08d4ec2"
-- name: "OptimusUT2k3Bot.ukx"
-  fileSize: 365914
-  hash: "2ff9b65700c9312f39b6bf54a544832bcca60776"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  OptimusUT2k3Bot.ukx:
+  - status: "OK"
+    name: "OptimusUT2K3"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdloptimus.zip"
   direct: true
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Optimus Prime Comic"

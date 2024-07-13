@@ -14,17 +14,20 @@ originalFilename: "ut2k4kittyanthro.zip"
 hash: "6c800451c7e331ab0f1415866a99787689b475b6"
 fileSize: 6979257
 files:
-- name: "KitTextures.utx"
-  fileSize: 11279309
-  hash: "e0e3f5fec320205b0205bafaaeaead40365d6dab"
 - name: "Kit.ukx"
   fileSize: 716286
   hash: "b331d55b601e37d44d759bc9f31b14ec2debcf11"
 - name: "Kit.upl"
   fileSize: 1306
   hash: "092d59e01ecf0680d2ce59e6c247fc1bb648c5de"
+- name: "KitTextures.utx"
+  fileSize: 11279309
+  hash: "e0e3f5fec320205b0205bafaaeaead40365d6dab"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Kit.ukx:
+  - status: "OK"
+    name: "KitTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsK/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kit"

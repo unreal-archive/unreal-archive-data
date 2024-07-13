@@ -242,53 +242,68 @@ originalFilename: "blyzut99mdlpack_ut2k4.zip"
 hash: "6c29fbd6f2ec6b4c9bfc03f5d6ab00adc6f70923"
 fileSize: 32493381
 files:
-- name: "UT99commando.utx"
-  fileSize: 2580758
-  hash: "d6b720e327693f7bb6a180da89097f24bd67f304"
-- name: "UT99Fsoldupl.upl"
-  fileSize: 9865
-  hash: "fc345ffe153202a7a339be83c2e678b85e54ce73"
+- name: "UT99soldupl.upl"
+  fileSize: 10105
+  hash: "33263f650c0f92429e11151b93fc18e2be25e561"
+- name: "skaarjutupl.upl"
+  fileSize: 2805
+  hash: "5011d190d384ea424c3abd42be849dfe72244326"
+- name: "UT99.ukx"
+  fileSize: 10352528
+  hash: "164e1e09d44069f4e230f501015b0979593a37bd"
+- name: "ut99skaarj.ukx"
+  fileSize: 5534519
+  hash: "d299c38ad61bc0a9aa6b65358795bbe6485ee441"
+- name: "UT99Fsoldat.ukx"
+  fileSize: 10488517
+  hash: "0d0462fd4597f67e15d1555d325c576f973601d0"
+- name: "UT99Com.ukx"
+  fileSize: 6249121
+  hash: "e144f6bc2a6055240d9592a16f7b43251c4042b5"
+- name: "UT99FCom.ukx"
+  fileSize: 7733186
+  hash: "ad8938cfcc38a301f0dae8748bb5a9810181361a"
+- name: "UT99Fsoldier.utx"
+  fileSize: 4301416
+  hash: "da60064eff614fcda731aed4144aaf52fe8639dd"
+- name: "UT99Fcommando.utx"
+  fileSize: 3024903
+  hash: "8fd7b9a445ef8a12e125a11ea8d39ea2aa1bf2ae"
+- name: "skaarjtex.utx"
+  fileSize: 1846729
+  hash: "d10cadccd976f87a2aae30f06e0a37e2030882ca"
 - name: "UT1Skin.utx"
   fileSize: 5574046
   hash: "18841c8695aaca94cde11f1afd7bfaeff3fc1937"
 - name: "UT99comupl.upl"
   fileSize: 5878
   hash: "24f216de262e8c9bb09b2a4889deeb2878b7349b"
-- name: "skaarjutupl.upl"
-  fileSize: 2805
-  hash: "5011d190d384ea424c3abd42be849dfe72244326"
-- name: "skaarjtex.utx"
-  fileSize: 1846729
-  hash: "d10cadccd976f87a2aae30f06e0a37e2030882ca"
+- name: "UT99commando.utx"
+  fileSize: 2580758
+  hash: "d6b720e327693f7bb6a180da89097f24bd67f304"
+- name: "UT99Fsoldupl.upl"
+  fileSize: 9865
+  hash: "fc345ffe153202a7a339be83c2e678b85e54ce73"
 - name: "UT99Fcomupl.upl"
   fileSize: 6816
   hash: "ceed678c83e9f58548786a9f602a3f8318bea4d8"
-- name: "UT99Fsoldier.utx"
-  fileSize: 4301416
-  hash: "da60064eff614fcda731aed4144aaf52fe8639dd"
-- name: "UT99Fsoldat.ukx"
-  fileSize: 10488517
-  hash: "0d0462fd4597f67e15d1555d325c576f973601d0"
-- name: "UT99FCom.ukx"
-  fileSize: 7733186
-  hash: "ad8938cfcc38a301f0dae8748bb5a9810181361a"
-- name: "UT99Fcommando.utx"
-  fileSize: 3024903
-  hash: "8fd7b9a445ef8a12e125a11ea8d39ea2aa1bf2ae"
-- name: "UT99.ukx"
-  fileSize: 10352528
-  hash: "164e1e09d44069f4e230f501015b0979593a37bd"
-- name: "UT99Com.ukx"
-  fileSize: 6249121
-  hash: "e144f6bc2a6055240d9592a16f7b43251c4042b5"
-- name: "UT99soldupl.upl"
-  fileSize: 10105
-  hash: "33263f650c0f92429e11151b93fc18e2be25e561"
-- name: "ut99skaarj.ukx"
-  fileSize: 5534519
-  hash: "d299c38ad61bc0a9aa6b65358795bbe6485ee441"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ut99skaarj.ukx:
+  - status: "OK"
+    name: "skaarjtex"
+  UT99Fsoldat.ukx:
+  - status: "OK"
+    name: "UT99Fsoldier"
+  UT99Com.ukx:
+  - status: "OK"
+    name: "UT99commando"
+  UT99.ukx:
+  - status: "OK"
+    name: "UT1Skin"
+  UT99FCom.ukx:
+  - status: "OK"
+    name: "UT99Fcommando"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/ModelPacks/"
   direct: false
@@ -312,6 +327,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lauren_UT99"

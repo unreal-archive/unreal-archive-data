@@ -17,23 +17,28 @@ originalFilename: "ut2k4mdl-vanity.zip"
 hash: "41bf05192619f701628e8c560faa285212ca3ef6"
 fileSize: 3947496
 files:
-- name: "VanityAnim.ukx"
-  fileSize: 1534784
-  hash: "b49163a797b9d8fd7f163ff8678e76d801e14926"
-- name: "Vanity.utx"
-  fileSize: 5769396
-  hash: "c1268da0d616629f1e8dd44190231c9145e2eb54"
 - name: "LittleEris.ka"
   fileSize: 26175
   hash: "c6d5c55dd2b767befb502e0e46eac65d8f32f0bc"
+- name: "Vanity.utx"
+  fileSize: 5769396
+  hash: "c1268da0d616629f1e8dd44190231c9145e2eb54"
 - name: "SPECIES_Vanity.u"
   fileSize: 281444
   hash: "4037efbd6463b31e193dc0c8a8a38848a0238fb6"
+- name: "VanityAnim.ukx"
+  fileSize: 1534784
+  hash: "b49163a797b9d8fd7f163ff8678e76d801e14926"
 - name: "Vanity.upl"
   fileSize: 731
   hash: "e7e147e48c1a83bcf7f8326d7490639843ab41f0"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  VanityAnim.ukx:
+  - status: "OK"
+    name: "Vanity"
+  - status: "OK"
+    name: "SPECIES_Vanity"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false

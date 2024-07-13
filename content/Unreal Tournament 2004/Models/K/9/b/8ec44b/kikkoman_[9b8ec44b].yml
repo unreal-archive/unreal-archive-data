@@ -26,20 +26,23 @@ originalFilename: "kikkoman_ut2k4.zip"
 hash: "9b8ec44bae8f6f93518ee276829acab241421301"
 fileSize: 4271537
 files:
-- name: "Kikkoman.upl"
-  fileSize: 574
-  hash: "ec4878916c0eacc250fd172cbfa42808e0d79060"
-- name: "Kikkoman.ukx"
-  fileSize: 2195441
-  hash: "11da7d50a7fd51cc18f27fe2625a40da9c27d1c9"
 - name: "KikkoVoice.u"
   fileSize: 4855436
   hash: "45f1fee6347cbc06abaffd1491ebc239b4b94991"
 - name: "KikkoTextures.utx"
   fileSize: 1577232
   hash: "232e4b5a1d5646d19dafc0dfb6b019251e4125a7"
+- name: "Kikkoman.upl"
+  fileSize: 574
+  hash: "ec4878916c0eacc250fd172cbfa42808e0d79060"
+- name: "Kikkoman.ukx"
+  fileSize: 2195441
+  hash: "11da7d50a7fd51cc18f27fe2625a40da9c27d1c9"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  Kikkoman.ukx:
+  - status: "OK"
+    name: "KikkoTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsK/&file=kikkoman_ut2k4.zip"
   direct: false
@@ -60,6 +63,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kikkoman"

@@ -11,24 +11,27 @@ originalFilename: "soulrage_v1.zip"
 hash: "993a285787a688ba928fb2ee9048cd6294592778"
 fileSize: 18412010
 files:
-- name: "SoulWeapons.ukx"
-  fileSize: 307990
-  hash: "a3a77d29f11dd13f16dd914da33a320e55edcb9c"
+- name: "SoulTextures.utx"
+  fileSize: 3313132
+  hash: "a136fecd8f73fa1dd644148ae3d3b5202fbf92f7"
 - name: "SoulSounds.u"
   fileSize: 11628066
   hash: "f0ecfe503cbc3954dc8b61b3460550260b60a269"
 - name: "SoulMasterSounds.uax"
   fileSize: 9500199
   hash: "723409ad9c847ad8a7ce890deab19c89f136489c"
-- name: "SoulTextures.utx"
-  fileSize: 3313132
-  hash: "a136fecd8f73fa1dd644148ae3d3b5202fbf92f7"
+- name: "SoulWeapons.ukx"
+  fileSize: 307990
+  hash: "a3a77d29f11dd13f16dd914da33a320e55edcb9c"
 otherFiles: 2
 dependencies:
+  SoulWeapons.ukx:
+  - status: "OK"
+    name: "SoulMasterSounds"
   SoulSounds.u:
   - status: "OK"
     name: "SoulMasterSounds"
-  - status: "MISSING"
+  - status: "OK"
     name: "SoulWeapons"
   - status: "OK"
     name: "SoulTextures"
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "SoulRage Audio Mod v1.0"

@@ -14,17 +14,20 @@ originalFilename: "sgtdoom_ut2k3.zip"
 hash: "b7d60e28a92e099261953d09acc128bb54d7665d"
 fileSize: 3377250
 files:
-- name: "SpaceMarinePak.utx"
-  fileSize: 2880105
-  hash: "f6bf93ea79075c93dbc8e84fd5e0b968f314cae6"
 - name: "spacemarineanim.ukx"
   fileSize: 1676233
   hash: "610d6047262ff6ebec53683f98d5db85d1c3cea1"
+- name: "SpaceMarinePak.utx"
+  fileSize: 2880105
+  hash: "f6bf93ea79075c93dbc8e84fd5e0b968f314cae6"
 - name: "SpaceMarine.upl"
   fileSize: 291
   hash: "41bb86099682d5cae907d714e6d7f78e3e0626a2"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  spacemarineanim.ukx:
+  - status: "OK"
+    name: "SpaceMarinePak"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/sgtdoom_ut2k3.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "SpaceMarine"

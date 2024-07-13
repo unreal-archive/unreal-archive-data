@@ -14,6 +14,9 @@ originalFilename: "ut2k4golgotha.zip"
 hash: "595ff994b0236d377d18d4887b4ada0898ba7879"
 fileSize: 3492926
 files:
+- name: "gen_sun.upl"
+  fileSize: 573
+  hash: "6bfb89e009acc7ede2994a0c0d7d8f769e961df7"
 - name: "Golgotha.u"
   fileSize: 965
   hash: "986d03af9a8c8ce7aee68f3634b1efbbdcc1316b"
@@ -23,12 +26,12 @@ files:
 - name: "gentex.utx"
   fileSize: 4109712
   hash: "8e24748d2609f58f041a31a8a6229cc9f6994768"
-- name: "gen_sun.upl"
-  fileSize: 573
-  hash: "6bfb89e009acc7ede2994a0c0d7d8f769e961df7"
 otherFiles: 2
 dependencies:
   Golgotha.u:
+  - status: "OK"
+    name: "gentex"
+  genpack.ukx:
   - status: "OK"
     name: "gentex"
 downloads:
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Golgotha"

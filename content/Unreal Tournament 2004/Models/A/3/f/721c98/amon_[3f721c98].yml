@@ -18,20 +18,23 @@ originalFilename: "ut2mdl-amon.zip"
 hash: "3f721c980f0a06d715622bc87e85a9feadc7a0ec"
 fileSize: 3349005
 files:
-- name: "AMON.ka"
-  fileSize: 46637
-  hash: "bf8930a1fe1aae8ad98ad2296f12acd078755ac1"
-- name: "AMONtex.utx"
-  fileSize: 6839674
-  hash: "f4f0101ab1bd08ac59c48b382475d3506395bd1b"
 - name: "AMON.ukx"
   fileSize: 3440659
   hash: "cbc8877018fd6c8a058af99bbf58fd4204a072e9"
 - name: "AMON.upl"
   fileSize: 275
   hash: "d8cc359fcdcb329b7589719578368c3778ee3cb9"
+- name: "AMONtex.utx"
+  fileSize: 6839674
+  hash: "f4f0101ab1bd08ac59c48b382475d3506395bd1b"
+- name: "AMON.ka"
+  fileSize: 46637
+  hash: "bf8930a1fe1aae8ad98ad2296f12acd078755ac1"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  AMON.ukx:
+  - status: "OK"
+    name: "AMONtex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-amon.zip"
   direct: true
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "AMON"

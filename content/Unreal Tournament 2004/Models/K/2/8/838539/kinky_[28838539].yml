@@ -17,17 +17,20 @@ files:
 - name: "BP-KinkyAnim.ukx"
   fileSize: 1445169
   hash: "c44ca69f5d4f0a876bd16a8902c6209c9ac69259"
+- name: "BP-KinkyData.upl"
+  fileSize: 575
+  hash: "0a32ddba993d0dbbd4871c2205f6bfbb80025b30"
 - name: "BP-KinkyTex.utx"
   fileSize: 3212221
   hash: "228de36a24b0ecf2603538a625cdc987941d9ebe"
 - name: "BP-KinkyMod.u"
   fileSize: 1300
   hash: "d23ea59bec60d0f55c3651d9f9a00124973a0ffe"
-- name: "BP-KinkyData.upl"
-  fileSize: 575
-  hash: "0a32ddba993d0dbbd4871c2205f6bfbb80025b30"
 otherFiles: 1
 dependencies:
+  BP-KinkyAnim.ukx:
+  - status: "OK"
+    name: "BP-KinkyTex"
   BP-KinkyMod.u:
   - status: "OK"
     name: "BP-KinkyTex"
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kinky"

@@ -11,20 +11,17 @@ originalFilename: "gazmask_ut2004_character.zip"
 hash: "f0357eac5741a4f6feb88c42087c67bcbcb74322"
 fileSize: 7671223
 files:
-- name: "Gazmask.upl"
-  fileSize: 300
-  hash: "f9afb8cd4a1242a536b85f3fea0e29b0d72ce226"
-- name: "Gazmask.ukx"
-  fileSize: 6181432
-  hash: "7554b0431e604f5b1f43b4a6e57ca4d4f480c086"
 - name: "Gazmask.utx"
   fileSize: 5415548
   hash: "8e60111175d454ede3505016a7493dfdb3bc48c3"
+- name: "Gazmask.ukx"
+  fileSize: 6181432
+  hash: "7554b0431e604f5b1f43b4a6e57ca4d4f480c086"
+- name: "Gazmask.upl"
+  fileSize: 300
+  hash: "f9afb8cd4a1242a536b85f3fea0e29b0d72ce226"
 otherFiles: 1
-dependencies:
-  Gazmask.utx:
-  - status: "MISSING"
-    name: "HumanFemaleA"
+dependencies: {}
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsG/"
   direct: false
@@ -48,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Gazmask"

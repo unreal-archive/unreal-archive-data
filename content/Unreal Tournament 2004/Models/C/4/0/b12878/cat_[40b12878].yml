@@ -14,17 +14,20 @@ originalFilename: "cat_ut2k4.zip"
 hash: "40b12878b822a336770420a61aaca2a032468ae7"
 fileSize: 5915372
 files:
-- name: "CatTex.utx"
-  fileSize: 7402261
-  hash: "5e4cc7e46b5602537a62f2f5650c59ef96f7b1d7"
 - name: "CatAnim.ukx"
   fileSize: 2344197
   hash: "c34a1337cfee912f207a061fb6ea94c58e5384a8"
+- name: "CatTex.utx"
+  fileSize: 7402261
+  hash: "5e4cc7e46b5602537a62f2f5650c59ef96f7b1d7"
 - name: "Cat.upl"
   fileSize: 326
   hash: "209c507e00c8c23315833eb793a0ae9ac37fdb7c"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  CatAnim.ukx:
+  - status: "OK"
+    name: "CatTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/cat_ut2k4.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Cat"

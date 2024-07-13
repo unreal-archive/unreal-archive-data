@@ -17,20 +17,26 @@ originalFilename: "manga_spawn15_ut2003wip.zip"
 hash: "1447354e7ad56e45555820bf830dd59220930120"
 fileSize: 4578013
 files:
-- name: "mangaD.ukx"
-  fileSize: 425424
-  hash: "dc2cd7b354cec484c7917bac86a85b127b5dee67"
+- name: "mangaX.utx"
+  fileSize: 15382085
+  hash: "f80a0a9ddb131f10ba92e5cedb57b985f68d5c6e"
 - name: "MangaE.upl"
   fileSize: 487
   hash: "da2e36ab0749bef862915542cfc1bf2f5019b27f"
 - name: "MangaB.ukx"
   fileSize: 406289
   hash: "c2bdc7bb5fb08f13cb5b2aa0ae9d9a6e10e822c4"
-- name: "mangaX.utx"
-  fileSize: 15382085
-  hash: "f80a0a9ddb131f10ba92e5cedb57b985f68d5c6e"
+- name: "mangaD.ukx"
+  fileSize: 425424
+  hash: "dc2cd7b354cec484c7917bac86a85b127b5dee67"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  MangaB.ukx:
+  - status: "OK"
+    name: "mangaX"
+  mangaD.ukx:
+  - status: "OK"
+    name: "mangaX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/manga_spawn15_ut2003wip.zip"
   direct: true
@@ -48,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "RManga"

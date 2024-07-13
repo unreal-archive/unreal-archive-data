@@ -15,17 +15,20 @@ originalFilename: "ut2004_catgirl_pack.zip"
 hash: "5bc6ba8cd9484da9e8d4b46860d2ebf7d861aa11"
 fileSize: 6978989
 files:
-- name: "Kit.upl"
-  fileSize: 1306
-  hash: "092d59e01ecf0680d2ce59e6c247fc1bb648c5de"
-- name: "KitTextures.utx"
-  fileSize: 11279364
-  hash: "16f9840087b811cf1fc055df9cec1ea4efbba5a5"
 - name: "Kit.ukx"
   fileSize: 716286
   hash: "b331d55b601e37d44d759bc9f31b14ec2debcf11"
+- name: "KitTextures.utx"
+  fileSize: 11279364
+  hash: "16f9840087b811cf1fc055df9cec1ea4efbba5a5"
+- name: "Kit.upl"
+  fileSize: 1306
+  hash: "092d59e01ecf0680d2ce59e6c247fc1bb648c5de"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Kit.ukx:
+  - status: "OK"
+    name: "KitTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kit"

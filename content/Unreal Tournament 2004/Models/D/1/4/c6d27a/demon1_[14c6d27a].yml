@@ -17,17 +17,20 @@ originalFilename: "ut2k4-Demon.zip"
 hash: "14c6d27a447a59dcf19e19d84f6c7926ef857d09"
 fileSize: 5654359
 files:
+- name: "Demontex.utx"
+  fileSize: 8565711
+  hash: "6ab5e3e77594a099b2475c4a3ca7e7b668e6b0f3"
 - name: "Demonanim.ukx"
   fileSize: 3005603
   hash: "5128701bec2cf73fbd3f833f4ed8251477d5db58"
 - name: "Demon1.upl"
   fileSize: 586
   hash: "b2f7b39aeefdee9b1e1585edb7cb25dc5bc39c9d"
-- name: "Demontex.utx"
-  fileSize: 8565711
-  hash: "6ab5e3e77594a099b2475c4a3ca7e7b668e6b0f3"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Demonanim.ukx:
+  - status: "OK"
+    name: "Demontex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsD/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Demon1"

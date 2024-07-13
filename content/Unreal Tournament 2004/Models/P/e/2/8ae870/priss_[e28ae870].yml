@@ -14,17 +14,20 @@ originalFilename: "PrissMdl_UT2k4.zip"
 hash: "e28ae87059211de09901e758b04b313330ba3aa5"
 fileSize: 2451427
 files:
-- name: "PrissAnim.ukx"
-  fileSize: 2199088
-  hash: "04101f2e356ab3661626dbb0de41191826afc30b"
 - name: "Prisspgv1.upl"
   fileSize: 266
   hash: "dd2ac60f9c182cd20ef04972e9a2133fd56520b1"
+- name: "PrissAnim.ukx"
+  fileSize: 2199088
+  hash: "04101f2e356ab3661626dbb0de41191826afc30b"
 - name: "PrissText.utx"
   fileSize: 4283907
   hash: "dd417e5a6f160343c397dee8b79c45648dda63e9"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  PrissAnim.ukx:
+  - status: "OK"
+    name: "PrissText"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/P/e/2/8ae870/PrissMdl_UT2k4.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Priss"

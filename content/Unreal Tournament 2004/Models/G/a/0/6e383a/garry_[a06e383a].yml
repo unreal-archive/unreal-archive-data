@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-garry.zip"
 hash: "a06e383acc18c26294ae37867f778666524fba46"
 fileSize: 1968763
 files:
-- name: "robber.utx"
-  fileSize: 4895042
-  hash: "a0bdd9f088bb2d2d00bb02041cd3e6a72755f1a1"
 - name: "robber.upl"
   fileSize: 184
   hash: "2b2ca020b7fe9fd1253a47ba48044f7da2e3d5fa"
+- name: "robber.utx"
+  fileSize: 4895042
+  hash: "a0bdd9f088bb2d2d00bb02041cd3e6a72755f1a1"
 - name: "robberanim.ukx"
   fileSize: 1146328
   hash: "70d23a22fec6376f82a2e65ede1f5b8ee376d54e"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  robberanim.ukx:
+  - status: "OK"
+    name: "robber"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-garry.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Garry"

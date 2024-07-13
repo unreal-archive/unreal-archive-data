@@ -26,20 +26,23 @@ originalFilename: "felina_ut2k4_11.zip"
 hash: "c48f40ad03c8d0306f9afc56eb3dfe5483a3fbd6"
 fileSize: 9357880
 files:
-- name: "Felina_TeamColors.upl"
-  fileSize: 2336
-  hash: "70a6699c2bff47b17e355f5d7be257171ac513cf"
-- name: "FelinaTextures.utx"
-  fileSize: 25194786
-  hash: "3b628ae62b45d660f40e99157b6eac09114cad93"
 - name: "Felina.upl"
   fileSize: 2219
   hash: "fe7a8649e260b22e2841230332819d70f8e76225"
+- name: "FelinaTextures.utx"
+  fileSize: 25194786
+  hash: "3b628ae62b45d660f40e99157b6eac09114cad93"
+- name: "Felina_TeamColors.upl"
+  fileSize: 2336
+  hash: "70a6699c2bff47b17e355f5d7be257171ac513cf"
 - name: "Felina2K4.ukx"
   fileSize: 716301
   hash: "231b9ce28b5d317d546f1d521ddabcc6b54048f2"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  Felina2K4.ukx:
+  - status: "OK"
+    name: "FelinaTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsF/"
   direct: false
@@ -63,6 +66,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Felina_CLAS"

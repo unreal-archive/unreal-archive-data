@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-arkas.zip"
 hash: "bb645892d25fd6212a25353c48adddc71f35001c"
 fileSize: 1392998
 files:
-- name: "Arkas_skins.utx"
-  fileSize: 1574034
-  hash: "9b0bd8c366f66a723d8df017e4835a0cd26e8266"
-- name: "Arkas_info.upl"
-  fileSize: 336
-  hash: "48c3dab574b63a28ed652208412e222024967016"
 - name: "ArkasMaleA.ukx"
   fileSize: 699730
   hash: "aded212a6d8189dfefe4544d24f8bd35ba911c24"
+- name: "Arkas_info.upl"
+  fileSize: 336
+  hash: "48c3dab574b63a28ed652208412e222024967016"
+- name: "Arkas_skins.utx"
+  fileSize: 1574034
+  hash: "9b0bd8c366f66a723d8df017e4835a0cd26e8266"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ArkasMaleA.ukx:
+  - status: "OK"
+    name: "Arkas_skins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-arkas.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Arkas"

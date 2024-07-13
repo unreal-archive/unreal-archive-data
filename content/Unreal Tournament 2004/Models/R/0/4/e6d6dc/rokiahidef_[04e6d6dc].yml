@@ -12,17 +12,20 @@ originalFilename: "rokiahi.zip"
 hash: "04e6d6dca67e210996b19e9cbf8f3d326055e590"
 fileSize: 11324846
 files:
-- name: "Rokiahi.utx"
-  fileSize: 21597069
-  hash: "76281124d532a8489ec1f844d0ed60c4409a3d8c"
 - name: "RokiahiAnim.ukx"
   fileSize: 7258596
   hash: "8de7e53d2447c95b24eca3647b8f9a1737d3eef6"
 - name: "Rokiahi.upl"
   fileSize: 800
   hash: "57520fcbd73e5146d94651d054c1b9aae7f335f5"
+- name: "Rokiahi.utx"
+  fileSize: 21597069
+  hash: "76281124d532a8489ec1f844d0ed60c4409a3d8c"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  RokiahiAnim.ukx:
+  - status: "OK"
+    name: "Rokiahi"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -43,6 +46,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "RokiahiDEF"

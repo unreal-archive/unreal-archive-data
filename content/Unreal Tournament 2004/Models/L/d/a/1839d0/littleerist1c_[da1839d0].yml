@@ -17,17 +17,20 @@ originalFilename: "ut2k3skn-littleerisa1.zip"
 hash: "da1839d0ba7185aed237e72cc184c2d9d34966f7"
 fileSize: 1895464
 files:
-- name: "LittleErisA1.upl"
-  fileSize: 828
-  hash: "47150c755a3d90be168468352bc9fb1b12f9f37a"
 - name: "LittleErisAnim.ukx"
   fileSize: 1103351
   hash: "50c417b0185ce1321e2ccc101f9f68a7c7938c75"
 - name: "LittleErisA1.utx"
   fileSize: 2448502
   hash: "e879a2de6eab268a5c152647d67544ce61d5c7ad"
+- name: "LittleErisA1.upl"
+  fileSize: 828
+  hash: "47150c755a3d90be168468352bc9fb1b12f9f37a"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  LittleErisAnim.ukx:
+  - status: "MISSING"
+    name: "LittleEris"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k3skn-littleerisa1.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "LittleErisT1C"

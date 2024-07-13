@@ -18,18 +18,18 @@ files:
 - name: "EHWeaponsStaticB.usx"
   fileSize: 215672
   hash: "bda35a2ec0feb9622f044842069c7f5824139565"
+- name: "EHWeaponSkinsB.utx"
+  fileSize: 21286129
+  hash: "3cf7eb97292b3b102ce81ad1c6b4733e35ee4da6"
+- name: "EnhancedAnimB.ukx"
+  fileSize: 1729885
+  hash: "47fade37480b88231ffa90fe7e8526c36d500987"
 - name: "EHWeaponsB.u"
   fileSize: 1014448
   hash: "cce7f05f4126a53b03bf31d66a7e09961390069a"
 - name: "EHSounds.uax"
   fileSize: 4144584
   hash: "8d43f55fb7f2a175f693715b3ff47cc331591d05"
-- name: "EnhancedAnimB.ukx"
-  fileSize: 1729885
-  hash: "47fade37480b88231ffa90fe7e8526c36d500987"
-- name: "EHWeaponSkinsB.utx"
-  fileSize: 21286129
-  hash: "3cf7eb97292b3b102ce81ad1c6b4733e35ee4da6"
 otherFiles: 2
 dependencies:
   EHWeaponsB.u:
@@ -39,9 +39,12 @@ dependencies:
     name: "EHWeaponSkinsB"
   - status: "OK"
     name: "EHWeaponsStaticB"
-  - status: "MISSING"
+  - status: "OK"
     name: "EnhancedAnimB"
   EHWeaponsStaticB.usx:
+  - status: "OK"
+    name: "EHWeaponSkinsB"
+  EnhancedAnimB.ukx:
   - status: "OK"
     name: "EHWeaponSkinsB"
 downloads:
@@ -64,6 +67,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Enhanced Weapons"

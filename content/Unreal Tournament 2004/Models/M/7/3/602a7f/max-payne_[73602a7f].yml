@@ -14,17 +14,20 @@ originalFilename: "maxpayne2_ut2k3.zip"
 hash: "73602a7fc5fb07093ab35fca6c3682b4e5f69c8c"
 fileSize: 4845170
 files:
-- name: "Maxpayne.UPL"
-  fileSize: 238
-  hash: "cebe9e0cd7c3b65fae4b07d501cb4bf27d2d601e"
 - name: "Maxpayne.ukx"
   fileSize: 2297622
   hash: "678cacbccffd6dde89ab0e8b0d3bfcf5a224d7fc"
+- name: "Maxpayne.UPL"
+  fileSize: 238
+  hash: "cebe9e0cd7c3b65fae4b07d501cb4bf27d2d601e"
 - name: "Maxpaynetextures.utx"
   fileSize: 5593925
   hash: "8608b38a9c94776a7602aeccfe265b19168d9ec8"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Maxpayne.ukx:
+  - status: "OK"
+    name: "Maxpaynetextures"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/M/7/3/602a7f/maxpayne2_ut2k3.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Max Payne"

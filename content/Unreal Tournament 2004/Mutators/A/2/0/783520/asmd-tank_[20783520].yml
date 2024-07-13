@@ -34,24 +34,21 @@ originalFilename: "A.S.M.D_TANK_0.97_Manual.rar"
 hash: "20783520855da8420651e41e75a940a794e41d1a"
 fileSize: 5878973
 files:
-- name: "ASMDTANK_TEX.utx"
-  fileSize: 5554362
-  hash: "5001b82c349b3511ced35cbf5c3df24049f40708"
-- name: "ASMDTANK_ANIMnew.ukx"
-  fileSize: 3752046
-  hash: "06400f737d7bc6d4dfa2ab25085c5faa40b0e298"
 - name: "ASMD_TANK.u"
   fileSize: 107428
   hash: "1f480699d6e1e2e3be7a16953f7ca6036b26b176"
+- name: "ASMDTANK_ANIMnew.ukx"
+  fileSize: 3752046
+  hash: "06400f737d7bc6d4dfa2ab25085c5faa40b0e298"
 - name: "ASMD_static.usx"
   fileSize: 4167735
   hash: "8caae6d9bfd33a6df9951182ac3760572a634b1b"
+- name: "ASMDTANK_TEX.utx"
+  fileSize: 5554362
+  hash: "5001b82c349b3511ced35cbf5c3df24049f40708"
 otherFiles: 4
 dependencies:
   ASMD_static.usx:
-  - status: "OK"
-    name: "ASMDTANK_TEX"
-  ASMDTANK_ANIMnew.ukx:
   - status: "OK"
     name: "ASMDTANK_TEX"
   ASMD_TANK.u:
@@ -59,6 +56,9 @@ dependencies:
     name: "ASMD_static"
   - status: "OK"
     name: "ASMDTANK_ANIMnew"
+  - status: "OK"
+    name: "ASMDTANK_TEX"
+  ASMDTANK_ANIMnew.ukx:
   - status: "OK"
     name: "ASMDTANK_TEX"
 downloads:
@@ -78,6 +78,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "A.S.M.D. Tank"

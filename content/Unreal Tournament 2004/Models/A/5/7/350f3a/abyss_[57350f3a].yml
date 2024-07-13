@@ -20,20 +20,25 @@ originalFilename: "ut2k4mdl-abyss.zip"
 hash: "57350f3a75b11f3bc949e29720bc8a25e8ff19a7"
 fileSize: 4658147
 files:
-- name: "Abyss.utx"
-  fileSize: 7494968
-  hash: "784f51a1012f3e49c29a2c36dfd412e99c96c17f"
-- name: "AbyssAnim.ukx"
-  fileSize: 1468876
-  hash: "7cd6050e95064aee7a225494adbe49ba094c3007"
 - name: "Abyss.upl"
   fileSize: 839
   hash: "78990be32d397daa1bb08a7fed952ecb2a322565"
 - name: "SPECIES_Abyss.u"
   fileSize: 754608
   hash: "a0cb445facf6497eea712d890baa4caacd4a20d1"
+- name: "Abyss.utx"
+  fileSize: 7494968
+  hash: "784f51a1012f3e49c29a2c36dfd412e99c96c17f"
+- name: "AbyssAnim.ukx"
+  fileSize: 1468876
+  hash: "7cd6050e95064aee7a225494adbe49ba094c3007"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  AbyssAnim.ukx:
+  - status: "OK"
+    name: "SPECIES_Abyss"
+  - status: "OK"
+    name: "Abyss"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false

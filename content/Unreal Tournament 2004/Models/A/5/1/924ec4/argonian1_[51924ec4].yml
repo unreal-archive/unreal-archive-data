@@ -17,17 +17,30 @@ files:
 - name: "argonian_3.ukx"
   fileSize: 21857565
   hash: "5b19a8c544d9f523bb66e5e0c9960ddf2422ceb8"
-- name: "argonian.upl"
-  fileSize: 8293
-  hash: "cd39a0d8bfa9706e6e49ad00f717407712e74aa7"
-- name: "argonian_1.ukx"
-  fileSize: 11046656
-  hash: "5b0ecb7bba0ae62c51fdadbdda271300ee51677f"
 - name: "argonian.utx"
   fileSize: 131030013
   hash: "235f30696a373af7ad22078fec2b50540c4c27e8"
+- name: "argonian_1.ukx"
+  fileSize: 11046656
+  hash: "5b0ecb7bba0ae62c51fdadbdda271300ee51677f"
+- name: "argonian.upl"
+  fileSize: 8293
+  hash: "cd39a0d8bfa9706e6e49ad00f717407712e74aa7"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  argonian_2.ukx:
+  - status: "OK"
+    name: "argonian_3"
+  - status: "OK"
+    name: "argonian"
+  argonian_1.ukx:
+  - status: "OK"
+    name: "argonian_3"
+  - status: "OK"
+    name: "argonian"
+  argonian_3.ukx:
+  - status: "OK"
+    name: "argonian"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/A/5/1/924ec4/argonian.zip"
   direct: true
@@ -45,6 +58,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "argonian1"

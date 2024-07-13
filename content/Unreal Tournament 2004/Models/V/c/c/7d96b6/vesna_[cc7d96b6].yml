@@ -17,17 +17,20 @@ originalFilename: "aaliyah_ut2k4.zip"
 hash: "cc7d96b6796aa689c68a7dfdbb0936ad37ccaae5"
 fileSize: 4332481
 files:
+- name: "Vesnaskins.utx"
+  fileSize: 9006435
+  hash: "aab3537d93d0591027a1c903015895ccb561ba1b"
 - name: "Aaliyah.ukx"
   fileSize: 1269256
   hash: "456c28ce1ffef6f01dc38ad3c27ababb1b8cb1b6"
 - name: "Vesna.upl"
   fileSize: 614
   hash: "a7042211712ea08d4e805fcfaa635f77d2ec1868"
-- name: "Vesnaskins.utx"
-  fileSize: 9006435
-  hash: "aab3537d93d0591027a1c903015895ccb561ba1b"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Aaliyah.ukx:
+  - status: "OK"
+    name: "Vesnaskins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Vesna"

@@ -17,14 +17,17 @@ files:
 - name: "Tsukino.ukx"
   fileSize: 431560
   hash: "659e81976c88de88b29a4a67d3e690e70a92b8c6"
-- name: "Tsukino.upl"
-  fileSize: 433
-  hash: "d480d11a2c69d4c510c4c1aa355d807f00aa0b27"
 - name: "TsukinoTex.utx"
   fileSize: 437990
   hash: "a5188b290dc1b58d68b09853d592704c9eb5b6ea"
+- name: "Tsukino.upl"
+  fileSize: 433
+  hash: "d480d11a2c69d4c510c4c1aa355d807f00aa0b27"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Tsukino.ukx:
+  - status: "OK"
+    name: "TsukinoTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Usagi Tsukino"

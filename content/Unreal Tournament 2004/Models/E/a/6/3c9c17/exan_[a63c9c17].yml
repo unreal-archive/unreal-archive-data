@@ -17,14 +17,17 @@ files:
 - name: "EngineXan.upl"
   fileSize: 373
   hash: "62514dec50047c93fee863af8e0204031b449d56"
-- name: "Xan_Engine.utx"
-  fileSize: 22415926
-  hash: "94c79a8bfde67eb62e6447660fb967fb62c51c48"
 - name: "EngineXan_Anims.ukx"
   fileSize: 334009
   hash: "af526cdb665051f3035876820461f20f5490781b"
+- name: "Xan_Engine.utx"
+  fileSize: 22415926
+  hash: "94c79a8bfde67eb62e6447660fb967fb62c51c48"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  EngineXan_Anims.ukx:
+  - status: "OK"
+    name: "Xan_Engine"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsE/&file=enginexan_ut2k4.zip"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "EXan"

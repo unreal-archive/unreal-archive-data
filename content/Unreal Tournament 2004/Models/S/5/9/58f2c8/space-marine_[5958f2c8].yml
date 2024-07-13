@@ -47,17 +47,20 @@ originalFilename: "ut2004_WH40k_Caos-SpaceMarines-Playermodels_v2.7z"
 hash: "5958f2c835daea4263aa87ac5ee35fa5982e1688"
 fileSize: 16850988
 files:
-- name: "WH40kMesh.ukx"
-  fileSize: 13242979
-  hash: "feee7368a1122add58d0417368ba17fc4d56d224"
-- name: "WH40k.upl"
-  fileSize: 1676
-  hash: "ac33c19a28acdb60f601def94952ec6e86796b20"
 - name: "WH40kTex.utx"
   fileSize: 71306668
   hash: "c106f442cacb55b03f4f8d77569fc1ea4c86cdf2"
+- name: "WH40k.upl"
+  fileSize: 1676
+  hash: "ac33c19a28acdb60f601def94952ec6e86796b20"
+- name: "WH40kMesh.ukx"
+  fileSize: 13242979
+  hash: "feee7368a1122add58d0417368ba17fc4d56d224"
 otherFiles: 7
-dependencies: {}
+dependencies:
+  WH40kMesh.ukx:
+  - status: "OK"
+    name: "WH40kTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2004_WH40k_Caos-SpaceMarines-Playermodels_v2.7z"
   direct: true
@@ -75,6 +78,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Space Marine"

@@ -12,28 +12,31 @@ originalFilename: "2k4_rippernew.zip"
 hash: "65ce65da247948c9e268abdbfdfc12cf7498c7ed"
 fileSize: 1392075
 files:
-- name: "RipperAnim.ukx"
-  fileSize: 340329
-  hash: "10ad68ea8d591c04e781ae0c90088c4102313ffd"
 - name: "Ripper.u"
   fileSize: 22158
   hash: "5f994a07cb1104d73ae62d5938002dad91ede462"
 - name: "RipperMeshes.usx"
   fileSize: 325533
   hash: "561d49593fdf3d4b2cc05710ea4ac0823953da29"
-- name: "RipperTex.utx"
-  fileSize: 3169064
-  hash: "25c8e7aef20473c66e9b5c0eb77fd113e584c16f"
 - name: "RipperSounds.uax"
   fileSize: 117608
   hash: "90f3f4f58b6e125afa0fa552f280eb9a7d85729d"
+- name: "RipperAnim.ukx"
+  fileSize: 340329
+  hash: "10ad68ea8d591c04e781ae0c90088c4102313ffd"
+- name: "RipperTex.utx"
+  fileSize: 3169064
+  hash: "25c8e7aef20473c66e9b5c0eb77fd113e584c16f"
 otherFiles: 2
 dependencies:
   RipperMeshes.usx:
   - status: "OK"
     name: "RipperTex"
+  RipperAnim.ukx:
+  - status: "OK"
+    name: "RipperTex"
   Ripper.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "RipperAnim"
   - status: "OK"
     name: "RipperTex"
@@ -58,6 +61,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Ripper Mutator"

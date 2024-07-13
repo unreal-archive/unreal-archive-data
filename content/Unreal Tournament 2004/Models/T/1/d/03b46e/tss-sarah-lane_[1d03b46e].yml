@@ -14,17 +14,20 @@ originalFilename: "tss-saralane4ut2k4.zip"
 hash: "1d03b46ef4addf6402fe4cc6a4a8a8fa62585cc4"
 fileSize: 3219655
 files:
-- name: "TSS-Sarah.upl"
-  fileSize: 422
-  hash: "5fc4cf98d53fec1bf4c33634fc1c702dfc6390b3"
 - name: "TSSSaraSkins01.utx"
   fileSize: 6119410
   hash: "36d3a1233e9fc81df2a3b0f7d8a98bb9cbdbc0a9"
 - name: "TSSSarah01.ukx"
   fileSize: 1627675
   hash: "81dfcdfd2d9207b8a7363fbd923dd2a8eae430dd"
+- name: "TSS-Sarah.upl"
+  fileSize: 422
+  hash: "5fc4cf98d53fec1bf4c33634fc1c702dfc6390b3"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  TSSSarah01.ukx:
+  - status: "OK"
+    name: "TSSSaraSkins01"
 downloads:
 - url: "http://medor.no-ip.org/index.php?dir=&search_mode=f&search=tss-saralane4ut2k4.zip"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "TSS Sarah Lane"

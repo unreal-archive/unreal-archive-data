@@ -14,17 +14,20 @@ originalFilename: "cyloncenturion_ut2k4.zip"
 hash: "2ca17294ff3ea0ff798fceb655300acae0636518"
 fileSize: 1270673
 files:
-- name: "cylontex.utx"
-  fileSize: 4633662
-  hash: "1dd53c7ab5721b7bbc73d75a127297aaf289a884"
-- name: "Cent.ukx"
-  fileSize: 1538420
-  hash: "08d80f26e4b07aa04f030b0e5e52d78704166273"
 - name: "CylonCent.upl"
   fileSize: 650
   hash: "22596912117aed3abb63740774f63fbbcd4cb0ec"
+- name: "Cent.ukx"
+  fileSize: 1538420
+  hash: "08d80f26e4b07aa04f030b0e5e52d78704166273"
+- name: "cylontex.utx"
+  fileSize: 4633662
+  hash: "1dd53c7ab5721b7bbc73d75a127297aaf289a884"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Cent.ukx:
+  - status: "OK"
+    name: "cylontex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/cyloncenturion_ut2k4.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Centurion"

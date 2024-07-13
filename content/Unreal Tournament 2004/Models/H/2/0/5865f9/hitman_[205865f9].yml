@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-47.zip"
 hash: "205865f925dd9f07d376ff2b48112cb41fc569f2"
 fileSize: 323961
 files:
-- name: "HitmanTextures.utx"
-  fileSize: 263232
-  hash: "4cf70ab9a2e1df3e6a000c08c849159a0d61a2a0"
-- name: "HitmanModel.ukx"
-  fileSize: 337217
-  hash: "bad3933fdc2cc815fb79812627162188bda96357"
 - name: "HitmanPL.upl"
   fileSize: 243
   hash: "455a4e8328c1d23e20c1d19a18d30819350a9953"
+- name: "HitmanModel.ukx"
+  fileSize: 337217
+  hash: "bad3933fdc2cc815fb79812627162188bda96357"
+- name: "HitmanTextures.utx"
+  fileSize: 263232
+  hash: "4cf70ab9a2e1df3e6a000c08c849159a0d61a2a0"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  HitmanModel.ukx:
+  - status: "OK"
+    name: "HitmanTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-47.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Hitman"

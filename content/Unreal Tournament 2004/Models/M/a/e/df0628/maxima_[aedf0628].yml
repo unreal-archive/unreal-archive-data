@@ -17,12 +17,12 @@ files:
 - name: "SkyllaMod.u"
   fileSize: 758
   hash: "a65dbf3bfff17bedfa7c7b2990c42b8d904857ee"
-- name: "Maxima Skin.ut4mod"
-  fileSize: 15693066
-  hash: "9d29e6328bc102744a4528634906ffd8658655d9"
 - name: "SkyllaMaximaAnim.ukx"
   fileSize: 1392950
   hash: "9ec82afaaa963f2bdbc1188c03a440ba342e0a5a"
+- name: "Maxima Skin.ut4mod"
+  fileSize: 15693066
+  hash: "9d29e6328bc102744a4528634906ffd8658655d9"
 - name: "MaximaMod.u"
   fileSize: 832
   hash: "c0730c77959edcf0e21b9e165a437a7310cc9c3a"
@@ -46,6 +46,9 @@ dependencies:
   SkyllaOLMod.u:
   - status: "MISSING"
     name: "Skylla"
+  SkyllaMaximaAnim.ukx:
+  - status: "OK"
+    name: "SkyllaSkins_Maxima"
   MaximaXMod.u:
   - status: "OK"
     name: "SkyllaSkins_Maxima"
@@ -79,6 +82,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Maxima"

@@ -14,20 +14,23 @@ originalFilename: "ue2model.rar"
 hash: "45faddd4b47bb7324e44530c0a55b161dd5542fb"
 fileSize: 22198231
 files:
-- name: "UE2Textures.utx"
-  fileSize: 46141448
-  hash: "b7a8265a82f15f57d4fea3d0c43dc99ab5e27d25"
-- name: "Jake.upl"
-  fileSize: 244
-  hash: "f955bae5d4f74e4095589eb7530cdbf793ac3090"
-- name: "UE2Mesh.ukx"
-  fileSize: 2697221
-  hash: "416edb45fc16f0b897e9b2e16b5cc8cd79ad18c7"
 - name: "UE2Soldier.u"
   fileSize: 4622100
   hash: "aa9dc85fe7ae1e630e254528677cf2f3f2b00a26"
+- name: "Jake.upl"
+  fileSize: 244
+  hash: "f955bae5d4f74e4095589eb7530cdbf793ac3090"
+- name: "UE2Textures.utx"
+  fileSize: 46141448
+  hash: "b7a8265a82f15f57d4fea3d0c43dc99ab5e27d25"
+- name: "UE2Mesh.ukx"
+  fileSize: 2697221
+  hash: "416edb45fc16f0b897e9b2e16b5cc8cd79ad18c7"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  UE2Mesh.ukx:
+  - status: "OK"
+    name: "UE2Textures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ue2model.rar"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Jake Logan"

@@ -23,17 +23,20 @@ originalFilename: "zeltas.zip"
 hash: "5a569fa9b09c82df83a5d3743f261407f3d8928a"
 fileSize: 5685200
 files:
-- name: "Zeltas.upl"
-  fileSize: 746
-  hash: "003941c3168a94c654c5422e96c2878804c47431"
-- name: "Zeltas.ukx"
-  fileSize: 1660241
-  hash: "3f8ade485be8163b60a157e8bc54d9a361e5a19e"
 - name: "ZeltasTex.utx"
   fileSize: 11286981
   hash: "4376031ddda75c9fd1e1fce5838e747a682a8818"
+- name: "Zeltas.ukx"
+  fileSize: 1660241
+  hash: "3f8ade485be8163b60a157e8bc54d9a361e5a19e"
+- name: "Zeltas.upl"
+  fileSize: 746
+  hash: "003941c3168a94c654c5422e96c2878804c47431"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  Zeltas.ukx:
+  - status: "OK"
+    name: "ZeltasTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/zeltas.zip"
   direct: true
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Zeltas"

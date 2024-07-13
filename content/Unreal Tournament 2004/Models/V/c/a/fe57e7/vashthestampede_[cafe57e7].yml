@@ -20,9 +20,6 @@ originalFilename: "ut2k4mdl-vash.zip"
 hash: "cafe57e740b246da6bff761ca5ae9b653101b9ff"
 fileSize: 4543554
 files:
-- name: "VashAnim.ukx"
-  fileSize: 981343
-  hash: "1b3fcc83399435068f1ebee1fef86df9e9ae012a"
 - name: "VashVoice2K4.u"
   fileSize: 2251347
   hash: "db517b3f87b8d39acdcf65b566d979e9f1d7be84"
@@ -32,8 +29,14 @@ files:
 - name: "Vash.upl"
   fileSize: 1031
   hash: "776f87505041f2ed827ca555fa893814b1ddd6e8"
+- name: "VashAnim.ukx"
+  fileSize: 981343
+  hash: "1b3fcc83399435068f1ebee1fef86df9e9ae012a"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  VashAnim.ukx:
+  - status: "OK"
+    name: "VashTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsV/"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "VashTheStampede"

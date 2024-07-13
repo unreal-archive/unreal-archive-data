@@ -14,17 +14,20 @@ originalFilename: "juggernalz_ut2k4_11.zip"
 hash: "f3801a467eb92ac87c302473d74dcf9e16f3a3ff"
 fileSize: 2935938
 files:
-- name: "JuggernAlzAnim.ukx"
-  fileSize: 760143
-  hash: "5299686ebdc618a358376afcff794e5c934d12c7"
 - name: "JuggernAlz.utx"
   fileSize: 5768884
   hash: "89d071913ce108c9355d60f3f1c1437bb20003c7"
 - name: "JuggernAlz.upl"
   fileSize: 412
   hash: "62d37c85e741c7358d571d966dba07948e781172"
+- name: "JuggernAlzAnim.ukx"
+  fileSize: 760143
+  hash: "5299686ebdc618a358376afcff794e5c934d12c7"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  JuggernAlzAnim.ukx:
+  - status: "OK"
+    name: "JuggernAlz"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsJ/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "JuggernAlz"

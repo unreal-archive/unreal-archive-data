@@ -15,17 +15,14 @@ files:
 - name: "soria.upl"
   fileSize: 352
   hash: "2629e0fc9b6a1e5fc971a246d45217c1aa02149f"
-- name: "Soria.utx"
-  fileSize: 4328496
-  hash: "769117a1ef56cc132e1873ad47e8e700748ad129"
 - name: "soria.ukx"
   fileSize: 3628851
   hash: "0d45efde461221fe77af4d05a23ade72dde14a92"
+- name: "Soria.utx"
+  fileSize: 4328496
+  hash: "769117a1ef56cc132e1873ad47e8e700748ad129"
 otherFiles: 1
-dependencies:
-  Soria.utx:
-  - status: "MISSING"
-    name: "HumanFemaleA"
+dependencies: {}
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -46,6 +43,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "soria"

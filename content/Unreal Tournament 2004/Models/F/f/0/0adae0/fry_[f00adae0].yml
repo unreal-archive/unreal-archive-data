@@ -14,20 +14,23 @@ originalFilename: "fry_ut2k4.zip"
 hash: "f00adae03337df03b9ea91a39f8660572cb893fd"
 fileSize: 7322029
 files:
+- name: "fryvoice.u"
+  fileSize: 4423631
+  hash: "ab029c71652b9aa0477599be9b884bec3b48fdbc"
 - name: "fry.upl"
   fileSize: 514
   hash: "006b95abd41e1cd57ff27274e43ed79e11717e1e"
 - name: "FryAnim.ukx"
   fileSize: 4874628
   hash: "1778b6f919cf48ad4bdc588f2215f5c35b289328"
-- name: "fryvoice.u"
-  fileSize: 4423631
-  hash: "ab029c71652b9aa0477599be9b884bec3b48fdbc"
 - name: "fry.utx"
   fileSize: 2885230
   hash: "71aab5b940676fc427b80534bc7efd6da80eb470"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  FryAnim.ukx:
+  - status: "OK"
+    name: "fry"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsF/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Fry"

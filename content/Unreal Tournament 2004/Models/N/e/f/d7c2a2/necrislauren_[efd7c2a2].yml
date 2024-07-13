@@ -17,20 +17,23 @@ originalFilename: "necrislauren_ut2k4.zip"
 hash: "efd7c2a2540a85bd4b5f53cea83eabd6e296744a"
 fileSize: 2915642
 files:
-- name: "NecrisLaurenTex.utx"
-  fileSize: 5772290
-  hash: "c0d22a2dcc2696cb799efe9fb5667e24c6659d2f"
-- name: "NecrisLauren.ukx"
-  fileSize: 1870910
-  hash: "41864f100f6c8488c77c01c3745a74dfa1d0ac76"
-- name: "NecrisLauren.upl"
-  fileSize: 805
-  hash: "e435d83a545f3e38e5e852c355d231ba8b9a4f35"
 - name: "NecrisLauren.ka"
   fileSize: 46663
   hash: "66904e2db59d81073beaac039fa15d1a83475834"
+- name: "NecrisLauren.ukx"
+  fileSize: 1870910
+  hash: "41864f100f6c8488c77c01c3745a74dfa1d0ac76"
+- name: "NecrisLaurenTex.utx"
+  fileSize: 5772290
+  hash: "c0d22a2dcc2696cb799efe9fb5667e24c6659d2f"
+- name: "NecrisLauren.upl"
+  fileSize: 805
+  hash: "e435d83a545f3e38e5e852c355d231ba8b9a4f35"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  NecrisLauren.ukx:
+  - status: "OK"
+    name: "NecrisLaurenTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "NecrisLauren"

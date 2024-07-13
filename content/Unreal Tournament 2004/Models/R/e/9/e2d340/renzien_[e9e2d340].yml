@@ -14,20 +14,23 @@ originalFilename: "renzien_ut2k4.zip"
 hash: "e9e2d340a5b177eeb24c9c0c135c82f1998d0c89"
 fileSize: 4524729
 files:
-- name: "RenFinal2.ukx"
-  fileSize: 1526106
-  hash: "b3e5b52bc1967727e8edf6e3cf7fcd8876da8054"
+- name: "Renzien.upl"
+  fileSize: 912
+  hash: "4ff4663ab732d1f762cfcf9d870267335accde6b"
 - name: "RenTex.utx"
   fileSize: 7955553
   hash: "a200a4e8c948bf9253fe94532a9a53139df3b68e"
 - name: "RenDoll.ka"
   fileSize: 45733
   hash: "de52872cfd5487c248ab74e0a70326516181284e"
-- name: "Renzien.upl"
-  fileSize: 912
-  hash: "4ff4663ab732d1f762cfcf9d870267335accde6b"
+- name: "RenFinal2.ukx"
+  fileSize: 1526106
+  hash: "b3e5b52bc1967727e8edf6e3cf7fcd8876da8054"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  RenFinal2.ukx:
+  - status: "OK"
+    name: "RenTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/renzien_ut2k4.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Renzien"

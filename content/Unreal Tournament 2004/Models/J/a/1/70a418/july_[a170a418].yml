@@ -15,17 +15,20 @@ originalFilename: "july_ut2k4mdl_by_aberiu.zip"
 hash: "a170a4182d52d6562ed9094eced957a074478709"
 fileSize: 11692703
 files:
-- name: "July_tex_02.utx"
-  fileSize: 18541754
-  hash: "2327f391cbc8b49efa19b0ee0a6f8dfd808a3024"
 - name: "July.upl"
   fileSize: 415
   hash: "afcd90e015e014eaab2fbdbd0571dbb622032b83"
 - name: "July_02.ukx"
   fileSize: 2574328
   hash: "26185bfa6e95d90ac9a9834440bca9a620df58fc"
+- name: "July_tex_02.utx"
+  fileSize: 18541754
+  hash: "2327f391cbc8b49efa19b0ee0a6f8dfd808a3024"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  July_02.ukx:
+  - status: "OK"
+    name: "July_tex_02"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/july_ut2k4mdl_by_aberiu.zip"
   direct: true
@@ -43,6 +46,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "July"

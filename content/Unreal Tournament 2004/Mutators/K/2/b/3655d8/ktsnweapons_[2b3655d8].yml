@@ -12,30 +12,30 @@ originalFilename: "ut2004ktsnweaponsmutatorbeta003.zip"
 hash: "2b3655d8f1f69b79b176c76c2c81181e1a49fa57"
 fileSize: 1648237
 files:
-- name: "KTSNUT2smgSFX.uax"
-  fileSize: 452145
-  hash: "6accac729e1d1d8c278faf38a5f88e87ecfac982"
-- name: "KTSNUT2smgTex.utx"
-  fileSize: 87882
-  hash: "4db6759c73b3324b7febf64b351590e80953a8bc"
-- name: "KTSNUT2guns.uax"
-  fileSize: 632892
-  hash: "97584c021cb2decf48e373a4e658025e6f5804d6"
-- name: "KTSNUT2pistolATex.utx"
-  fileSize: 5680557
-  hash: "d7a1fcf52c335dc7a2d5024047dd61494acc693b"
-- name: "KTSNUT2pistolA.ukx"
-  fileSize: 278626
-  hash: "6c9484375d10c915ea9f85841b43042c53a7d51d"
-- name: "KTSNUT2smg.ukx"
-  fileSize: 371013
-  hash: "effe411e9b31211f6684b1e11bfcc5c2bc9e26cf"
-- name: "KTSNUT2weapons.u"
-  fileSize: 36478
-  hash: "0a6df2439120c6b84e88a270fb4fd874abff3e94"
 - name: "KTSNUT2PistolASFX.uax"
   fileSize: 226159
   hash: "026351b529be149005e80ebb8df64f7a1f998c87"
+- name: "KTSNUT2guns.uax"
+  fileSize: 632892
+  hash: "97584c021cb2decf48e373a4e658025e6f5804d6"
+- name: "KTSNUT2smgTex.utx"
+  fileSize: 87882
+  hash: "4db6759c73b3324b7febf64b351590e80953a8bc"
+- name: "KTSNUT2smgSFX.uax"
+  fileSize: 452145
+  hash: "6accac729e1d1d8c278faf38a5f88e87ecfac982"
+- name: "KTSNUT2pistolA.ukx"
+  fileSize: 278626
+  hash: "6c9484375d10c915ea9f85841b43042c53a7d51d"
+- name: "KTSNUT2weapons.u"
+  fileSize: 36478
+  hash: "0a6df2439120c6b84e88a270fb4fd874abff3e94"
+- name: "KTSNUT2pistolATex.utx"
+  fileSize: 5680557
+  hash: "d7a1fcf52c335dc7a2d5024047dd61494acc693b"
+- name: "KTSNUT2smg.ukx"
+  fileSize: 371013
+  hash: "effe411e9b31211f6684b1e11bfcc5c2bc9e26cf"
 otherFiles: 2
 dependencies:
   KTSNUT2weapons.u:
@@ -49,6 +49,14 @@ dependencies:
     name: "KTSNUT2guns"
   - status: "OK"
     name: "KTSNUT2pistolASFX"
+  KTSNUT2smg.ukx:
+  - status: "OK"
+    name: "KTSNUT2pistolATex"
+  - status: "OK"
+    name: "KTSNUT2smgTex"
+  KTSNUT2pistolA.ukx:
+  - status: "OK"
+    name: "KTSNUT2pistolATex"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Mutators/K/2/b/3655d8/ut2004ktsnweaponsmutatorbeta003.zip"
   direct: true
@@ -66,6 +74,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "KTSNweapons"

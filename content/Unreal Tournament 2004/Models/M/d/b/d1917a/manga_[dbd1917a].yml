@@ -41,17 +41,20 @@ originalFilename: "ut2mdl-mangaspawn-skinpack.zip"
 hash: "dbd1917ae54499ac3f6e72174fadb91498db4a07"
 fileSize: 4751306
 files:
-- name: "mangaX.utx"
-  fileSize: 15734732
-  hash: "7a1a0358cd17dd13371083d5a8ec0a5e3c49c99b"
 - name: "MangaB.ukx"
   fileSize: 428606
   hash: "44e16804a64e5548240123e8ddebc7cf4576299e"
 - name: "Manga.upl"
   fileSize: 2202
   hash: "06f47cea7d6a6ab3d4ae18a234a74063bb9921f6"
+- name: "mangaX.utx"
+  fileSize: 15734732
+  hash: "7a1a0358cd17dd13371083d5a8ec0a5e3c49c99b"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  MangaB.ukx:
+  - status: "OK"
+    name: "mangaX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-mangaspawn-skinpack.zip"
   direct: true
@@ -69,6 +72,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Manga"

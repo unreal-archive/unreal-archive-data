@@ -12,17 +12,20 @@ originalFilename: "abigail.zip"
 hash: "16d84d1a310156a7714a4a1f0db28cac662e0fbd"
 fileSize: 5906377
 files:
-- name: "femrobanim.ukx"
-  fileSize: 1703780
-  hash: "3200ef21b520ec672fd1706ccc53d06c5d1a2977"
-- name: "femrob.utx"
-  fileSize: 7812157
-  hash: "cc9a4552e74a1e49dea72d9a2a115b7009aadd0a"
 - name: "femrobot.upl"
   fileSize: 361
   hash: "6139a7e7296667f7755ba998d6b5711eeac2ff43"
+- name: "femrob.utx"
+  fileSize: 7812157
+  hash: "cc9a4552e74a1e49dea72d9a2a115b7009aadd0a"
+- name: "femrobanim.ukx"
+  fileSize: 1703780
+  hash: "3200ef21b520ec672fd1706ccc53d06c5d1a2977"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  femrobanim.ukx:
+  - status: "OK"
+    name: "femrob"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/MSUPhase3/"
   direct: false
@@ -43,6 +46,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Abigail"

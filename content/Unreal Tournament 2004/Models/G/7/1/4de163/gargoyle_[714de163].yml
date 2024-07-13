@@ -11,17 +11,20 @@ originalFilename: "ut2k4mdlgargoyle2k4.zip"
 hash: "714de163453358199a2dbfd32f9b1583d66a03b8"
 fileSize: 1970545
 files:
-- name: "Gargoyle2004Tex.utx"
-  fileSize: 6119037
-  hash: "1ef80be37681d6d4d505b824b45eee1661fc743d"
 - name: "Gargoyle.upl"
   fileSize: 1959
   hash: "7e6f5e06f92a5e00f3a81568f41bd5181fe03863"
+- name: "Gargoyle2004Tex.utx"
+  fileSize: 6119037
+  hash: "1ef80be37681d6d4d505b824b45eee1661fc743d"
 - name: "Gargoyle2005Mdl.ukx"
   fileSize: 880199
   hash: "91b63e59aed6e892a0454ff72251f2a0a2134d28"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Gargoyle2005Mdl.ukx:
+  - status: "OK"
+    name: "Gargoyle2004Tex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsG/"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Gargoyle"

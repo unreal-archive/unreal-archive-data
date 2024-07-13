@@ -20,17 +20,20 @@ originalFilename: "rodgort_v1b.zip"
 hash: "781b4149633cf30ddab1bd86fd3f9a03cd84f6e3"
 fileSize: 1716875
 files:
+- name: "rodgort.upl"
+  fileSize: 354
+  hash: "8fec2ec1edcb3813e2f5c4f3957c53f84bee67a9"
 - name: "Rodgort_tex.utx"
   fileSize: 2972158
   hash: "29935135229a5516bfcb809e1d7bb8729a811cd4"
 - name: "RodgortMale.ukx"
   fileSize: 576451
   hash: "8b09dc4ec4832e604bbaef7e02f86afdb616a2ce"
-- name: "rodgort.upl"
-  fileSize: 354
-  hash: "8fec2ec1edcb3813e2f5c4f3957c53f84bee67a9"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  RodgortMale.ukx:
+  - status: "OK"
+    name: "Rodgort_tex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/rodgort_v1b.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Rodgort"

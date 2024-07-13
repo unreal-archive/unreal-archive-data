@@ -17,14 +17,17 @@ files:
 - name: "SmithTskins.utx"
   fileSize: 6822853
   hash: "0e79c20d95f1c6059a067c1404c74968f421c575"
-- name: "Asmith.upl"
-  fileSize: 327
-  hash: "0894b778d00532dbebd2d1a698caab1f85134de6"
 - name: "ASmith.ukx"
   fileSize: 409980
   hash: "9097bbc512a6ea496cc171c65b52359dcea16351"
+- name: "Asmith.upl"
+  fileSize: 327
+  hash: "0894b778d00532dbebd2d1a698caab1f85134de6"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ASmith.ukx:
+  - status: "OK"
+    name: "SmithTskins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsS/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Smith"

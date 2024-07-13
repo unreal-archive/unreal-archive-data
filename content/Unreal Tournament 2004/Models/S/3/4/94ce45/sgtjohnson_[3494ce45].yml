@@ -17,14 +17,17 @@ files:
 - name: "sj.ukx"
   fileSize: 562223
   hash: "ad359dfb086cf505144bca2d02616a4c080ac341"
-- name: "SgJohnson.upl"
-  fileSize: 224
-  hash: "522d801e5ec3f0bf3126869cfbe69bac719b8801"
 - name: "sjtex.utx"
   fileSize: 8218618
   hash: "ffeb18938728bfe5f2a775df6d97f15b344b8398"
+- name: "SgJohnson.upl"
+  fileSize: 224
+  hash: "522d801e5ec3f0bf3126869cfbe69bac719b8801"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  sj.ukx:
+  - status: "OK"
+    name: "sjtex"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/S/3/4/94ce45/Sg%20Johnson%202k4.rar"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Sgt.Johnson"

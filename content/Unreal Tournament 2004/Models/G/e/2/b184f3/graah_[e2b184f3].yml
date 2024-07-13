@@ -14,17 +14,20 @@ originalFilename: "ut2k4mdl-graah.zip"
 hash: "e2b184f3ebcc506f099ccc24d6b0767339c0b81e"
 fileSize: 3760427
 files:
-- name: "Graah.utx"
-  fileSize: 8565851
-  hash: "9d23e65db223585a850294b77a0e2b0442a7a595"
-- name: "GraahAnim.ukx"
-  fileSize: 1443063
-  hash: "22996e875ae8f4fd271008a1d825eb1728880082"
 - name: "Graah.upl"
   fileSize: 440
   hash: "367022d16cd93f96c87af2c3024ea4c8b122c250"
+- name: "GraahAnim.ukx"
+  fileSize: 1443063
+  hash: "22996e875ae8f4fd271008a1d825eb1728880082"
+- name: "Graah.utx"
+  fileSize: 8565851
+  hash: "9d23e65db223585a850294b77a0e2b0442a7a595"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  GraahAnim.ukx:
+  - status: "OK"
+    name: "Graah"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsG/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Graah"

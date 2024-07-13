@@ -14,20 +14,23 @@ originalFilename: "ut2004bgc2032prissretextured.zip"
 hash: "2d31d22e379ca237735d40a71fa31ebb91d806a4"
 fileSize: 5147079
 files:
+- name: "RETEXPrissBGC.upl"
+  fileSize: 293
+  hash: "4407e30ade9284adaa54a34a8bcaae807b59b73a"
 - name: "PrissAnim.ukx"
   fileSize: 2199088
   hash: "04101f2e356ab3661626dbb0de41191826afc30b"
 - name: "RETEXPrissTex.utx"
   fileSize: 34255673
   hash: "c79168c1eb3c7b7192dd2918c98265a1dba1ba01"
-- name: "RETEXPrissBGC.upl"
-  fileSize: 293
-  hash: "4407e30ade9284adaa54a34a8bcaae807b59b73a"
 - name: "PrissText.utx"
   fileSize: 4283907
   hash: "dd417e5a6f160343c397dee8b79c45648dda63e9"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  PrissAnim.ukx:
+  - status: "OK"
+    name: "PrissText"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/R/2/d/31d22e/ut2004bgc2032prissretextured.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "RETEXPriss"

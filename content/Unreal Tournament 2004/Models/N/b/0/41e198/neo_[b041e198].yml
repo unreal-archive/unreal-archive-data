@@ -18,14 +18,17 @@ files:
 - name: "neoskins.utx"
   fileSize: 6123238
   hash: "171724ce3a69d4e012c203b25f812803aa474d75"
-- name: "neo.ukx"
-  fileSize: 396019
-  hash: "89fdc4fc9f9f46e87362e132b8a9638cb37ad495"
 - name: "neo.upl"
   fileSize: 302
   hash: "01398fe85fbb18e3ec6a600f088ee5f9c22e494c"
+- name: "neo.ukx"
+  fileSize: 396019
+  hash: "89fdc4fc9f9f46e87362e132b8a9638cb37ad495"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  neo.ukx:
+  - status: "OK"
+    name: "neoskins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/neo.zip"
   direct: true
@@ -43,6 +46,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "neo"

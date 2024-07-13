@@ -20,20 +20,20 @@ files:
 - name: "george.upl"
   fileSize: 1007
   hash: "980e2d4bc05d83ef7ff67bf0bbaf046d3b7b7d7a"
+- name: "george.ukx"
+  fileSize: 771086
+  hash: "338b6085b883d3a477ebc33c339942d20efb934e"
 - name: "georgejr.ukx"
   fileSize: 1506960
   hash: "bef39ec356df0d38df11b552bf9d87b957ab599f"
 - name: "george.utx"
   fileSize: 771086
   hash: "3a222459d90fcf9416edb324e51153a730419a8e"
-- name: "george.ukx"
-  fileSize: 771086
-  hash: "338b6085b883d3a477ebc33c339942d20efb934e"
 otherFiles: 2
 dependencies:
-  george.utx:
-  - status: "MISSING"
-    name: "HumanMaleA"
+  georgejr.ukx:
+  - status: "OK"
+    name: "george"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsG/"
   direct: false
@@ -57,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "george"

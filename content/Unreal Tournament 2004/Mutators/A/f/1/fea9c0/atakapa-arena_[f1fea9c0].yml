@@ -19,18 +19,18 @@ originalFilename: "AtakapaBattleCopter.zip"
 hash: "f1fea9c0336a5b11900219d6c99a71b2c71acba5"
 fileSize: 4964778
 files:
-- name: "DN_AtakapaTexs.utx"
-  fileSize: 7255799
-  hash: "62f304d1ddca9077d0855029dde201a5a3bbf8ee"
 - name: "NAtakapa.u"
   fileSize: 64100
   hash: "0d06a72f6e1a2e8c234fad974bc919ba9e3e5804"
-- name: "DN_AtakapaStatic.usx"
-  fileSize: 1720048
-  hash: "b60bc27b8451b624ab6f77281c4cc275598d99a2"
+- name: "DN_AtakapaTexs.utx"
+  fileSize: 7255799
+  hash: "62f304d1ddca9077d0855029dde201a5a3bbf8ee"
 - name: "DN_AtakapaAnim.ukx"
   fileSize: 723543
   hash: "bd11f622ced35e26f21b3576a7adbab62b6c10de"
+- name: "DN_AtakapaStatic.usx"
+  fileSize: 1720048
+  hash: "b60bc27b8451b624ab6f77281c4cc275598d99a2"
 - name: "DN_AtakapaSounds.uax"
   fileSize: 377698
   hash: "88fb45c2db7dceb98d2f657806db8b962b346bca"
@@ -39,8 +39,11 @@ dependencies:
   DN_AtakapaStatic.usx:
   - status: "OK"
     name: "DN_AtakapaTexs"
+  DN_AtakapaAnim.ukx:
+  - status: "OK"
+    name: "DN_AtakapaTexs"
   NAtakapa.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "DN_AtakapaAnim"
   - status: "OK"
     name: "DN_AtakapaStatic"
@@ -66,6 +69,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Atakapa Arena"

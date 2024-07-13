@@ -14,20 +14,23 @@ originalFilename: "ut2k4-pierre.zip"
 hash: "f242b8e3634b32b94c04b1a610c567e4166aef31"
 fileSize: 3853392
 files:
+- name: "PierreSkins.utx"
+  fileSize: 2885280
+  hash: "dbdaacf1502b367532b1728b2a07f28507c7b4f9"
 - name: "Pierrevoice.u"
   fileSize: 2365219
   hash: "d3416c9e16e0c04fbe9106dc9910ffbc393d48fc"
 - name: "Pierre.upl"
   fileSize: 645
   hash: "26bf6382685f8d4fe8efcf18973e8082916539d2"
-- name: "PierreSkins.utx"
-  fileSize: 2885280
-  hash: "dbdaacf1502b367532b1728b2a07f28507c7b4f9"
 - name: "Pierre.ukx"
   fileSize: 728511
   hash: "8a2b68de08a0cb1e0ceb383de8d90793f48f3dac"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Pierre.ukx:
+  - status: "OK"
+    name: "PierreSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsP/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Pierre"

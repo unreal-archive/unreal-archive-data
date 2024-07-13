@@ -17,14 +17,17 @@ files:
 - name: "Stickly.utx"
   fileSize: 17368340
   hash: "4485deca661deb84a7f2db7cec5fc655f0b94174"
-- name: "Stickly.upl"
-  fileSize: 294
-  hash: "3247e658537874cde956779717ef8f04ad21ec05"
 - name: "StickAnim.ukx"
   fileSize: 261152
   hash: "048ff25e4197654df3a7e8feffb6378a5dcdc056"
+- name: "Stickly.upl"
+  fileSize: 294
+  hash: "3247e658537874cde956779717ef8f04ad21ec05"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  StickAnim.ukx:
+  - status: "OK"
+    name: "stickly"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsS/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Stickly"

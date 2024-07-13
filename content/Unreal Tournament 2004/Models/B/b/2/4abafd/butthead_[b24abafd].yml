@@ -20,17 +20,20 @@ files:
 - name: "beavisandbuttheadtextures.utx"
   fileSize: 4195600
   hash: "f7eb7b16fff0e1a44e0352fe7a282e66cbb2777a"
-- name: "BeavisandButtheas_butthead.upl"
-  fileSize: 284
-  hash: "b4a630ae15d69fc397f5b643d67c2c7f18373113"
 - name: "BeavisandButtheas_beavis.UPL"
   fileSize: 277
   hash: "841a33b8ad47141d01a2bc01830a77b63f36f89d"
+- name: "BeavisandButtheas_butthead.upl"
+  fileSize: 284
+  hash: "b4a630ae15d69fc397f5b643d67c2c7f18373113"
 - name: "beavisandbutthead.ukx"
   fileSize: 2867113
   hash: "8a678dcdde07887d1b348e46057c7c526579db2b"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  beavisandbutthead.ukx:
+  - status: "OK"
+    name: "beavisandbuttheadtextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/beavis_and_butthead.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Butthead"

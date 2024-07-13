@@ -11,20 +11,17 @@ originalFilename: "ut2k4bang_gundam_v_1.1_updated.zip"
 hash: "1024b6cc88438263370c836079b227b5e3fe39b1"
 fileSize: 2053252
 files:
-- name: "Mudrock.ukx"
-  fileSize: 660694
-  hash: "988f4a7e35188659bd02952ebcd2fd7dfce16520"
-- name: "Mudrock.utx"
-  fileSize: 2846741
-  hash: "f0950bdc3153ead1b1305cdfe0bc3c1db8efdf6a"
 - name: "mudrock.upl"
   fileSize: 246
   hash: "3975c526336003afa81947e7e67b243115838767"
+- name: "Mudrock.utx"
+  fileSize: 2846741
+  hash: "f0950bdc3153ead1b1305cdfe0bc3c1db8efdf6a"
+- name: "Mudrock.ukx"
+  fileSize: 660694
+  hash: "988f4a7e35188659bd02952ebcd2fd7dfce16520"
 otherFiles: 1
-dependencies:
-  Mudrock.utx:
-  - status: "MISSING"
-    name: "Bot"
+dependencies: {}
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k4bang_gundam_v_1.1_updated.zip"
   direct: true
@@ -42,6 +39,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mudrock"

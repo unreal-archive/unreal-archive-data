@@ -11,34 +11,37 @@ originalFilename: "onimercurycrossbowut2004beta2.zip"
 hash: "c0cf4b5a242aae5c1b82954111d8b4a4afb0523b"
 fileSize: 451423
 files:
-- name: "ONIMercBowSounds.uax"
-  fileSize: 608630
-  hash: "dd490c15856c86a5d872f010cf4af6216d548aa9"
-- name: "ONIMercCrossbow.u"
-  fileSize: 4357
-  hash: "4c6ba28490da32cc53a147924e7ea9fe2698988c"
-- name: "ONIMercCrossbowSR.u"
-  fileSize: 4127
-  hash: "a54c531ce2faed146787429fb77ec1ec7caa227a"
 - name: "ONIMercCrossbowTex.utx"
   fileSize: 87888
   hash: "271d0e885c17b3e0b548a8c092a3b870c5283212"
+- name: "ONIMercCrossbowSR.u"
+  fileSize: 4127
+  hash: "a54c531ce2faed146787429fb77ec1ec7caa227a"
 - name: "ONIMercCbow.ukx"
   fileSize: 144421
   hash: "1c42e0bebb4a30592b3d89e4744c394ba6a44a7b"
+- name: "ONIMercCrossbow.u"
+  fileSize: 4357
+  hash: "4c6ba28490da32cc53a147924e7ea9fe2698988c"
+- name: "ONIMercBowSounds.uax"
+  fileSize: 608630
+  hash: "dd490c15856c86a5d872f010cf4af6216d548aa9"
 otherFiles: 3
 dependencies:
+  ONIMercCbow.ukx:
+  - status: "OK"
+    name: "ONIMercCrossbowTex"
   ONIMercCrossbowSR.u:
   - status: "OK"
     name: "ONIMercBowSounds"
-  - status: "MISSING"
+  - status: "OK"
     name: "ONIMercCbow"
   - status: "OK"
     name: "ONIMercCrossbow"
   ONIMercCrossbow.u:
   - status: "OK"
     name: "ONIMercBowSounds"
-  - status: "MISSING"
+  - status: "OK"
     name: "ONIMercCbow"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/O/c/0/cf4b5a/onimercurycrossbowut2004beta2.zip"

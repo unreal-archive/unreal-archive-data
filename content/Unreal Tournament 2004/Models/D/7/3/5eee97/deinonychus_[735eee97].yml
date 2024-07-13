@@ -17,12 +17,12 @@ files:
 - name: "RaptorVoice.u"
   fileSize: 3246356
   hash: "7614e603ece8d74ede798126152de787a921ce60"
-- name: "Raptor.ukx"
-  fileSize: 2888736
-  hash: "9fa879b65526c5778f8224e237fb548148c40f75"
 - name: "RaptorSkins.utx"
   fileSize: 2885298
   hash: "85455c38963e487cb64ac836bc33f83ba81e580e"
+- name: "Raptor.ukx"
+  fileSize: 2888736
+  hash: "9fa879b65526c5778f8224e237fb548148c40f75"
 - name: "Raptor.upl"
   fileSize: 353
   hash: "476007dd6268c0fc7c6e11d5cfdfe0df9683cb02"
@@ -30,7 +30,12 @@ files:
   fileSize: 68018
   hash: "265ee8d6eb5e9f4cf85d70d62ccba27facbef4e4"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Raptor.ukx:
+  - status: "OK"
+    name: "RaptorVoice"
+  - status: "OK"
+    name: "RaptorSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsR/"
   direct: false
@@ -51,6 +56,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Deinonychus"

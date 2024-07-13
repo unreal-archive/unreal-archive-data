@@ -14,20 +14,23 @@ originalFilename: "ut2mdl-mechanatrix.zip"
 hash: "d8a5be0776f2931ce8f2a90873aef6ca44904f10"
 fileSize: 4266970
 files:
-- name: "mechSkins.utx"
-  fileSize: 5856935
-  hash: "98b4a7737a4448401fe5ff5b9f40ebc8c18bdf2f"
+- name: "mechanatrix.upl"
+  fileSize: 335
+  hash: "3c138a6bb28dae9c387f1eead2a4779da681838b"
 - name: "Mechanatrix.ukx"
   fileSize: 2484006
   hash: "309a4e05e3028298937ecf775f4cf2d669a9af69"
 - name: "Mechanatrix.ka"
   fileSize: 50754
   hash: "6166d92538d0962f523be92b68e6ce453ed4791e"
-- name: "mechanatrix.upl"
-  fileSize: 335
-  hash: "3c138a6bb28dae9c387f1eead2a4779da681838b"
+- name: "mechSkins.utx"
+  fileSize: 5856935
+  hash: "98b4a7737a4448401fe5ff5b9f40ebc8c18bdf2f"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Mechanatrix.ukx:
+  - status: "OK"
+    name: "mechSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-mechanatrix.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mechanatrix"

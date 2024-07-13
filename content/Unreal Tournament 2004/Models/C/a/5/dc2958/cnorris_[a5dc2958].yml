@@ -20,17 +20,20 @@ originalFilename: "chucknorrismodel2k4.zip"
 hash: "a5dc2958a962a24953a28ba3fe6b70cf9b4ee7b4"
 fileSize: 1571243
 files:
+- name: "ChuckNorrisSkins.utx"
+  fileSize: 3322858
+  hash: "7da15580f93325f0e61df57143697bc06f974b80"
 - name: "ChuckNorris.upl"
   fileSize: 789
   hash: "77c0c7887c69604430c58d96ed82bb6847958bc5"
 - name: "ChuckNorris.ukx"
   fileSize: 671633
   hash: "cf3b1495769cfa004d7b80d1863ca17c8e4aae2a"
-- name: "ChuckNorrisSkins.utx"
-  fileSize: 3322858
-  hash: "7da15580f93325f0e61df57143697bc06f974b80"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  ChuckNorris.ukx:
+  - status: "OK"
+    name: "ChuckNorrisSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/chucknorrismodel2k4.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "C.Norris"

@@ -32,23 +32,27 @@ files:
 - name: "JerrysVehiclesHorseTexture.utx"
   fileSize: 5593100
   hash: "42fa6bf1a46f249a6b8a629fcd859285fa25c43a"
-- name: "JerrysVehiclesHorse.ukx"
-  fileSize: 227563
-  hash: "27fef4aa0c34abf594f6a622410f011d0fd8fcfa"
 - name: "JerrysVehiclesHorseStatic.usx"
   fileSize: 107128
   hash: "a907741cded6c1e2134b0b38d8daaec74c1df081"
 - name: "JerrysVehiclesHorse.u"
   fileSize: 227889
   hash: "5a1488e537374b2e6bdbc8d97a0650609c036260"
+- name: "JerrysVehiclesHorse.ukx"
+  fileSize: 227563
+  hash: "27fef4aa0c34abf594f6a622410f011d0fd8fcfa"
 otherFiles: 12
 dependencies:
   JerrysVehiclesHorse.ukx:
   - status: "OK"
     name: "JerrysVehiclesHorseTexture"
+  - status: "OK"
+    name: "JerrysVehiclesHorseStatic"
   JerrysVehiclesHorse.u:
   - status: "OK"
     name: "JerrysVehiclesHorseTexture"
+  - status: "OK"
+    name: "JerrysVehiclesHorseStatic"
   JerrysVehiclesHorseStatic.usx:
   - status: "OK"
     name: "JerrysVehiclesHorseTexture"
@@ -69,6 +73,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators: []
 weapons: []

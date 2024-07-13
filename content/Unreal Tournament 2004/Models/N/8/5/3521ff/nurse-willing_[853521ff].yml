@@ -14,17 +14,20 @@ originalFilename: "ut2mdl-nurse.zip"
 hash: "853521ff3c1a6bc6918f54b3569b322c72538ede"
 fileSize: 856206
 files:
-- name: "NurseUPL.upl"
-  fileSize: 366
-  hash: "52ae4bf4fb9ac3ae6da1ad6ca76700edcf56d3e6"
-- name: "Nurse.ukx"
-  fileSize: 191630
-  hash: "1842472f8fe527a0cc3616d29d2b2fab1d45ecef"
 - name: "NurseTex.utx"
   fileSize: 2689482
   hash: "e237b826d20aaaaee5d07db329eb82447906f7c9"
+- name: "Nurse.ukx"
+  fileSize: 191630
+  hash: "1842472f8fe527a0cc3616d29d2b2fab1d45ecef"
+- name: "NurseUPL.upl"
+  fileSize: 366
+  hash: "52ae4bf4fb9ac3ae6da1ad6ca76700edcf56d3e6"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Nurse.ukx:
+  - status: "OK"
+    name: "NurseTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-nurse.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Nurse Willing"

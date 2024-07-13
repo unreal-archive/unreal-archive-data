@@ -11,17 +11,20 @@ originalFilename: "desertpirate_ut2k4.zip"
 hash: "db019f632a7acae41ead6a56d091c901c60d3230"
 fileSize: 1945221
 files:
-- name: "Desert_Pirates.ukx"
-  fileSize: 513118
-  hash: "2b40e5e2cd98dac9adaebb10ca6b28e37971c237"
-- name: "Di_Mi.upl"
-  fileSize: 375
-  hash: "11696abddf6e554e3b21be075ad1661c2326f507"
 - name: "DesertPirates.utx"
   fileSize: 2885306
   hash: "383a6718c32170c3e551489833d12556383648f5"
+- name: "Di_Mi.upl"
+  fileSize: 375
+  hash: "11696abddf6e554e3b21be075ad1661c2326f507"
+- name: "Desert_Pirates.ukx"
+  fileSize: 513118
+  hash: "2b40e5e2cd98dac9adaebb10ca6b28e37971c237"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Desert_Pirates.ukx:
+  - status: "OK"
+    name: "DesertPirates"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/desertpirate_ut2k4.zip"
   direct: true
@@ -39,6 +42,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Desert Pirate"

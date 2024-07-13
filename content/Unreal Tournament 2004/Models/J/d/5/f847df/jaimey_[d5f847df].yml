@@ -23,17 +23,20 @@ files:
 - name: "Jaimey.utx"
   fileSize: 35654305
   hash: "98cd5b66a2f1ab2fa95701645c238dc999be1fe7"
-- name: "Jaimey.ka"
-  fileSize: 26119
-  hash: "b935f9102758186a23faf1d91aeca1b22a78526c"
 - name: "Jaimey'sAnimation.ukx"
   fileSize: 3059197
   hash: "f4eb5c3679738667e9316b2456f6e6f881a768ab"
+- name: "Jaimey.ka"
+  fileSize: 26119
+  hash: "b935f9102758186a23faf1d91aeca1b22a78526c"
 - name: "Jaimey.upl"
   fileSize: 1484
   hash: "b54638477c6ed1e126f2785fcd5c035d131fdaad"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Jaimey'sAnimation.ukx:
+  - status: "OK"
+    name: "Jaimey"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Jaimey"

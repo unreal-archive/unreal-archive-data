@@ -17,17 +17,22 @@ originalFilename: "scorpdk_male01.zip"
 hash: "e9cbed3a11893f768dfc008d980a71609c6653d0"
 fileSize: 3406314
 files:
-- name: "ScorpDK_Male01_B.upl"
-  fileSize: 973
-  hash: "3447740b0627f969620e85feedba8b0897b32805"
 - name: "ScorpDK_Male01_Tex.utx"
   fileSize: 6844800
   hash: "7867851f729c4bd011db784e45f8e7c848e12762"
+- name: "ScorpDK_Male01_B.upl"
+  fileSize: 973
+  hash: "3447740b0627f969620e85feedba8b0897b32805"
 - name: "ScorpDK_Male01.ukx"
   fileSize: 1819525
   hash: "2c86eab20b4454c4a798b752f7f638c0c2311789"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ScorpDK_Male01.ukx:
+  - status: "MISSING"
+    name: "HoodMerc"
+  - status: "OK"
+    name: "ScorpDK_Male01_Tex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/scorpdk_male01.zip"
   direct: true
@@ -45,6 +50,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "-ScorpDeathknight-"

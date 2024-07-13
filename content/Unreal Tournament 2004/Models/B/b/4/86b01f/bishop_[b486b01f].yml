@@ -14,17 +14,20 @@ originalFilename: "bishoputa_ut2k4.zip"
 hash: "b486b01fd55ee910b4427f4ce5cfd7f7d31797f2"
 fileSize: 1382415
 files:
-- name: "BishopTextures.utx"
-  fileSize: 1836426
-  hash: "1eb2ec83768172f65e65d4c8e6bd1e4708d61330"
-- name: "BishopUT.upl"
-  fileSize: 479
-  hash: "611d2389fb968123a3a43ee89b12f9d6eac758ed"
 - name: "BishopUTa.ukx"
   fileSize: 772114
   hash: "412a14aa36961bc50c3ee0c44bb74e627e7abc9a"
+- name: "BishopUT.upl"
+  fileSize: 479
+  hash: "611d2389fb968123a3a43ee89b12f9d6eac758ed"
+- name: "BishopTextures.utx"
+  fileSize: 1836426
+  hash: "1eb2ec83768172f65e65d4c8e6bd1e4708d61330"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  BishopUTa.ukx:
+  - status: "OK"
+    name: "BishopTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsB/&file=bishoputa_ut2k4.zip"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bishop"

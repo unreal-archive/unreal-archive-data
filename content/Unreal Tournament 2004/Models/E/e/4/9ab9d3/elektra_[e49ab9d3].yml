@@ -11,17 +11,20 @@ originalFilename: "Elektrafinal.zip"
 hash: "e49ab9d3148e70b7e6324e53afba2204c82a7002"
 fileSize: 8215201
 files:
-- name: "CatsElektraTex.utx"
-  fileSize: 30287773
-  hash: "eb53b0343921f65316883e3d997947af0af8e0a8"
-- name: "Cats_Elektra.upl"
-  fileSize: 2036
-  hash: "004bee7067b12eeb35a555609d197d5d5aa9e44a"
 - name: "ElektraAnim.ukx"
   fileSize: 1606392
   hash: "d54fdef6dfc209721c5666aa23ce472e8d32b1df"
+- name: "Cats_Elektra.upl"
+  fileSize: 2036
+  hash: "004bee7067b12eeb35a555609d197d5d5aa9e44a"
+- name: "CatsElektraTex.utx"
+  fileSize: 30287773
+  hash: "eb53b0343921f65316883e3d997947af0af8e0a8"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  ElektraAnim.ukx:
+  - status: "OK"
+    name: "CatsElektraTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsE/"
   direct: false

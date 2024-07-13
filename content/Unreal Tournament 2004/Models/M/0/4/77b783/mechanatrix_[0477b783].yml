@@ -15,20 +15,23 @@ originalFilename: "ut2k4_mechanatrix.zip"
 hash: "0477b783478e71911b4dfb9a82b8479314e188c5"
 fileSize: 3841475
 files:
-- name: "Mechanatrix.ka"
-  fileSize: 50754
-  hash: "6166d92538d0962f523be92b68e6ce453ed4791e"
 - name: "mechanatrix.upl"
   fileSize: 496
   hash: "ce7154faa39b1c5a21f19313cdc17aa289e41fef"
-- name: "mechSkins.utx"
-  fileSize: 5856935
-  hash: "3cdb480d84b551308d4689743765543372ab4941"
 - name: "Mechanatrix.ukx"
   fileSize: 1693296
   hash: "b37c758762be941ac2ff150546693d9e860ead69"
+- name: "mechSkins.utx"
+  fileSize: 5856914
+  hash: "324b0f4845adb949e147dfcdf4b326a26ad5386d"
+- name: "Mechanatrix.ka"
+  fileSize: 50754
+  hash: "6166d92538d0962f523be92b68e6ce453ed4791e"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Mechanatrix.ukx:
+  - status: "OK"
+    name: "mechSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsM/"
   direct: false
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mechanatrix"

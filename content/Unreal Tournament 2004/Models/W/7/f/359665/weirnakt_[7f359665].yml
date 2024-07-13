@@ -11,23 +11,28 @@ originalFilename: "unrealwolf_ut2k4.zip"
 hash: "7f3596656d766862fad47eadffff1f39b9a4c4d2"
 fileSize: 16396949
 files:
-- name: "UTWolf.utx"
-  fileSize: 11584396
-  hash: "e938044bb4ab7f46b77d760a6f8e9e36f61162d8"
 - name: "UTWolfVoiceTwo.u"
   fileSize: 11776055
   hash: "acd8e12f1a40cf2be8e7a04b7c5445caaddb3bb0"
+- name: "UTWolf.utx"
+  fileSize: 11584396
+  hash: "e938044bb4ab7f46b77d760a6f8e9e36f61162d8"
 - name: "UTWKarma.ka"
   fileSize: 56010
   hash: "24b3eeda72f89a4232ae1362b490bd475a28d977"
-- name: "UnrealWolf.ukx"
-  fileSize: 2150976
-  hash: "0107c41d11fdf90e412dba876e5261805a6d07e6"
 - name: "UTWolf.upl"
   fileSize: 3245
   hash: "add1600ab58f1ac9d70f82f673589d9f63ead151"
+- name: "UnrealWolf.ukx"
+  fileSize: 2150976
+  hash: "0107c41d11fdf90e412dba876e5261805a6d07e6"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  UnrealWolf.ukx:
+  - status: "OK"
+    name: "UTWolf"
+  - status: "OK"
+    name: "UTWolfVoiceTwo"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/AnimalsAndMonsters/"
   direct: false
@@ -51,6 +56,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Weir'nakt"

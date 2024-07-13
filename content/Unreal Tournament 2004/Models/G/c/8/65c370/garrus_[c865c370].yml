@@ -32,23 +32,26 @@ originalFilename: "masseffect-turian-worpex-11.zip"
 hash: "c865c37071ba160a28bd40bba5a5bed0da2745c7"
 fileSize: 40315638
 files:
-- name: "TurianAnim.ukx"
-  fileSize: 3884057
-  hash: "c0416840a36d79f9aa8a3e049892e0fba4118475"
-- name: "METurianBoss.u"
-  fileSize: 2805113
-  hash: "340531f5f090d2564a14c546567cf91ab28c6b1a"
 - name: "MEGarrus.u"
   fileSize: 4403225
   hash: "2daf6856193c017ca5a5df27d2fcc1975216922b"
 - name: "TurianTex.utx"
   fileSize: 84672074
   hash: "53bde571dc6800ab9c1461aeef983c99f1ed2098"
+- name: "METurianBoss.u"
+  fileSize: 2805113
+  hash: "340531f5f090d2564a14c546567cf91ab28c6b1a"
 - name: "WorpeX-METurian.upl"
   fileSize: 4134
   hash: "c6b9b051a883f9cfde92ea953b98ad7d2993379b"
+- name: "TurianAnim.ukx"
+  fileSize: 3884057
+  hash: "c0416840a36d79f9aa8a3e049892e0fba4118475"
 otherFiles: 10
-dependencies: {}
+dependencies:
+  TurianAnim.ukx:
+  - status: "OK"
+    name: "TurianTex"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/G/c/8/65c370/masseffect-turian-worpex-11.zip"
   direct: true
@@ -66,6 +69,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Garrus"

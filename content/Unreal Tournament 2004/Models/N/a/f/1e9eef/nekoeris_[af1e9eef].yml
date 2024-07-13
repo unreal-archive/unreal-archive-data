@@ -62,38 +62,41 @@ files:
 - name: "NekoErisB2k4.upl"
   fileSize: 510
   hash: "7450aa15ade0bb39ce80a6e1138a72f3c203c646"
-- name: "SPECIES_MercBot.u"
-  fileSize: 2572
-  hash: "2383958766c9a72f0e01a6b42501d53dea987a66"
-- name: "NekoEris2k4forOnLine.upl"
-  fileSize: 490
-  hash: "4f479aeed483a525f97e48027182435dcd14348c"
-- name: "NekoErisB2k4forOnLineA.upl"
-  fileSize: 1497
-  hash: "d5fab71080e14762e5f8a848b4ce55c700820ea1"
-- name: "NekoEris.utx"
-  fileSize: 7126291
-  hash: "a283ee682aa006e1f801a8f5cd860d1c7eb3790a"
-- name: "NekoErisAnim2k4.ukx"
-  fileSize: 1254754
-  hash: "58de2120bd2828069aa6e789ac0c62bbf9f77c5c"
 - name: "NekoErisB2k4forOnLine.upl"
   fileSize: 501
   hash: "cf73e0f14fcf0a5c472ef6b515f312eb5261ab7f"
-- name: "NekoEris2k4A.upl"
-  fileSize: 1512
-  hash: "7c2674ddd85932678473d96fddf48221eff15bee"
+- name: "SPECIES_MercBot.u"
+  fileSize: 2572
+  hash: "2383958766c9a72f0e01a6b42501d53dea987a66"
+- name: "NekoErisAnim2k4.ukx"
+  fileSize: 1254754
+  hash: "58de2120bd2828069aa6e789ac0c62bbf9f77c5c"
 - name: "NekoEris2k4.upl"
   fileSize: 499
   hash: "236fb6bc84ae3ac388cec0110fdec85f148e7084"
 - name: "NekoEris2k4forOnLineA.upl"
   fileSize: 1485
   hash: "ddc1d78d7294cbdda74fc231e38c4b53ba35021c"
+- name: "NekoErisB2k4forOnLineA.upl"
+  fileSize: 1497
+  hash: "d5fab71080e14762e5f8a848b4ce55c700820ea1"
 - name: "NekoErisB2k4A.upl"
   fileSize: 1524
   hash: "39ab8a739ee8bb9db73db16cd7779fc3b4ab1805"
+- name: "NekoEris2k4A.upl"
+  fileSize: 1512
+  hash: "7c2674ddd85932678473d96fddf48221eff15bee"
+- name: "NekoEris2k4forOnLine.upl"
+  fileSize: 490
+  hash: "4f479aeed483a525f97e48027182435dcd14348c"
+- name: "NekoEris.utx"
+  fileSize: 7126291
+  hash: "a283ee682aa006e1f801a8f5cd860d1c7eb3790a"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  NekoErisAnim2k4.ukx:
+  - status: "OK"
+    name: "NekoEris"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=ut2k4mdl-nekoeris.zip"
   direct: false

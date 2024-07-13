@@ -15,9 +15,6 @@ originalFilename: "mikofox_2004_v2.1.zip"
 hash: "74a6df1e72a50ff0a30cc74a286e7dd50a41182b"
 fileSize: 1603893
 files:
-- name: "MikoFox.upl"
-  fileSize: 563
-  hash: "973340ff73c1e0214c16a98bebba03bf04fc2b3b"
 - name: "MikoFox.ukx"
   fileSize: 1308848
   hash: "64ab5a68eb870172de74b9363fb88637e1556de5"
@@ -30,8 +27,14 @@ files:
 - name: "MikoTextures.utx"
   fileSize: 1136954
   hash: "bee3d55290ed79d54c101f62015fb6dd8c19ad8e"
+- name: "MikoFox.upl"
+  fileSize: 563
+  hash: "973340ff73c1e0214c16a98bebba03bf04fc2b3b"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  MikoFox.ukx:
+  - status: "OK"
+    name: "MikoTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/mikofox_2004_v2.1.zip"
   direct: true
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Miko"

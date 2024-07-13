@@ -23,14 +23,17 @@ files:
 - name: "MCT27WarAnim.ukx"
   fileSize: 578285
   hash: "83370b888ed6e7a4d629e03f1edafb51a44d1f29"
-- name: "MCTWarManText.utx"
-  fileSize: 6425802
-  hash: "2bd0f688bbc9eda296cf8f4d9687d546ae7e5183"
 - name: "xLanfeustPlayer.upl"
   fileSize: 360
   hash: "b71253a931a58f55f6c9c9f8400f6576541584f6"
+- name: "MCTWarManText.utx"
+  fileSize: 6425802
+  hash: "2bd0f688bbc9eda296cf8f4d9687d546ae7e5183"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  MCT27WarAnim.ukx:
+  - status: "OK"
+    name: "MCTWarManText"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Male/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lanfeust"

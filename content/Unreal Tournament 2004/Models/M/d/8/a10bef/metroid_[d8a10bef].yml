@@ -17,17 +17,20 @@ files:
 - name: "MetroidSpecies.u"
   fileSize: 149343
   hash: "e5429b64d3e54ac2d3aed21bd9e461dc6ca7d813"
-- name: "MetroidTex.utx"
-  fileSize: 1028084
-  hash: "bba76b41fe4f58ad983b8963a453fd8856f852b3"
-- name: "MetroidAnim.ukx"
-  fileSize: 275967
-  hash: "95137924b0ab292dfa8489265675b624f938ec42"
 - name: "MetroidLarva.upl"
   fileSize: 358
   hash: "c063bcdf402771cc49ddc62826e6a1d8a8890aeb"
+- name: "MetroidAnim.ukx"
+  fileSize: 275967
+  hash: "95137924b0ab292dfa8489265675b624f938ec42"
+- name: "MetroidTex.utx"
+  fileSize: 1028084
+  hash: "bba76b41fe4f58ad983b8963a453fd8856f852b3"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  MetroidAnim.ukx:
+  - status: "OK"
+    name: "MetroidTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsM/&file=metroidlarva_ut2k4.zip"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Metroid"

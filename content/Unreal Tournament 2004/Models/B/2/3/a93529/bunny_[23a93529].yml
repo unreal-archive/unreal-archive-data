@@ -14,17 +14,20 @@ originalFilename: "ut2k3ut2k4bunny.zip"
 hash: "23a93529e3b2042501533bb927037ff26ccff203"
 fileSize: 3917430
 files:
+- name: "bunnytextures.utx"
+  fileSize: 10320842
+  hash: "64758a18d6450ab0b5b5c3ff94a330b15075bcfb"
 - name: "bunny.upl"
   fileSize: 292
   hash: "ab33d873f55fb9f8889a4ce86ea41c740d84af32"
 - name: "bunny.ukx"
   fileSize: 1696745
   hash: "ab9f1219c731d46ed93df9173023e396d6a662be"
-- name: "bunnytextures.utx"
-  fileSize: 10320842
-  hash: "64758a18d6450ab0b5b5c3ff94a330b15075bcfb"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  bunny.ukx:
+  - status: "OK"
+    name: "bunnytextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bunny"

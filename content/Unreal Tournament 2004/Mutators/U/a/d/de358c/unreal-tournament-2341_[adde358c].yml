@@ -12,34 +12,34 @@ originalFilename: "ut2004 UT2341_Beta2.rar"
 hash: "adde358c4e5d3b182256ac73b9910ddb10c45b70"
 fileSize: 29433796
 files:
-- name: "UT2341Weapons_Tex.utx"
-  fileSize: 44279516
-  hash: "e7d3caa0219534ae6280e9696a47d70dce47db19"
-- name: "UT2341Weapons_SM.usx"
-  fileSize: 8088722
-  hash: "83f7e77587c9ac8e568e0a82e626d6e540d63abd"
-- name: "UT2341Weapons_Anims.ukx"
-  fileSize: 16615446
-  hash: "6c6fedb360252cd8e21b4ac676e51aa7c9e186e3"
-- name: "UTRFonts.utx"
-  fileSize: 2254897
-  hash: "19f20285c846765b9e4376c2c7844d49b52d08ab"
 - name: "UT2341Weapons_Sounds.uax"
   fileSize: 2771070
   hash: "e7d5627d8c95653f7863f9610bb15b523cc2ee4b"
 - name: "UT2341Weapons_BETA2.u"
   fileSize: 911196
   hash: "9c6a7aff0d9c8cccc866aeeaf5c92c2ade6d726f"
-- name: "OLTeamGamesTex.utx"
-  fileSize: 19771943
-  hash: "1417dcf82f33b060d3c4f115972d37bd0e0176fa"
+- name: "UT2341Weapons_SM.usx"
+  fileSize: 8088722
+  hash: "83f7e77587c9ac8e568e0a82e626d6e540d63abd"
+- name: "UT2341Weapons_Tex.utx"
+  fileSize: 44279516
+  hash: "e7d3caa0219534ae6280e9696a47d70dce47db19"
+- name: "UTRFonts.utx"
+  fileSize: 2254897
+  hash: "19f20285c846765b9e4376c2c7844d49b52d08ab"
 - name: "UTRHUDTextures.utx"
   fileSize: 1099903
   hash: "1c94851c73b15c1033863956459e89609d509305"
+- name: "UT2341Weapons_Anims.ukx"
+  fileSize: 16615446
+  hash: "6c6fedb360252cd8e21b4ac676e51aa7c9e186e3"
+- name: "OLTeamGamesTex.utx"
+  fileSize: 19771943
+  hash: "1417dcf82f33b060d3c4f115972d37bd0e0176fa"
 otherFiles: 1
 dependencies:
   UT2341Weapons_BETA2.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "UT2341Weapons_Anims"
   - status: "OK"
     name: "UT2341Weapons_Sounds"
@@ -54,6 +54,9 @@ dependencies:
   - status: "OK"
     name: "UTRFonts"
   UT2341Weapons_SM.usx:
+  - status: "OK"
+    name: "UT2341Weapons_Tex"
+  UT2341Weapons_Anims.ukx:
   - status: "OK"
     name: "UT2341Weapons_Tex"
 downloads:
@@ -73,6 +76,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "UT2341: Instagib"

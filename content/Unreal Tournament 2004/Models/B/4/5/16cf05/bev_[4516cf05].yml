@@ -20,17 +20,20 @@ files:
 - name: "Bevonne.ukx"
   fileSize: 542078
   hash: "fa5298f603a7e4b8d49d4651d088af3c8615bed8"
-- name: "Bevonne Model.ut2mod"
-  fileSize: 1885330
-  hash: "f620e5647bdfd56de39e6cfc1c418e55648b3aba"
 - name: "BevTexs.utx"
   fileSize: 1312360
   hash: "ea0d7fd6ff789ee27699cdf12c4fd2c4bfe00b5f"
 - name: "Bevone.upl"
   fileSize: 306
   hash: "b1b155ffdfef91a951f25c60bda07bb5008c368e"
+- name: "Bevonne Model.ut2mod"
+  fileSize: 1885330
+  hash: "f620e5647bdfd56de39e6cfc1c418e55648b3aba"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Bevonne.ukx:
+  - status: "OK"
+    name: "BevTexs"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-bevonne.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bev"

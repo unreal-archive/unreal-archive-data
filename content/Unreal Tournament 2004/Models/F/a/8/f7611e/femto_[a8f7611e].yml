@@ -17,17 +17,20 @@ originalFilename: "femto_ut2k3.zip"
 hash: "a8f7611ed6e465bd629d5f4b325f8559ea9cb02b"
 fileSize: 845877
 files:
-- name: "FemtoAnim.upl"
-  fileSize: 272
-  hash: "25ef97e23c436aac42100163179195ad16038208"
-- name: "FemtoAnim.ukx"
-  fileSize: 1047472
-  hash: "6695ca2a8ce6af8b7b510b28fe6ce0a9e7469133"
 - name: "FemtoTex.utx"
   fileSize: 700705
   hash: "8398e033ca5987de0ba6225f04f784e6ce7758f3"
+- name: "FemtoAnim.ukx"
+  fileSize: 1047472
+  hash: "6695ca2a8ce6af8b7b510b28fe6ce0a9e7469133"
+- name: "FemtoAnim.upl"
+  fileSize: 272
+  hash: "25ef97e23c436aac42100163179195ad16038208"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  FemtoAnim.ukx:
+  - status: "OK"
+    name: "FemtoTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/femto_ut2k3.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Femto"

@@ -12,6 +12,12 @@ originalFilename: "advanced_armor.zip"
 hash: "69f127cb6796d36ac11dbb29ce7a699adc75daae"
 fileSize: 3418027
 files:
+- name: "AdvancedArmor_Snd.uax"
+  fileSize: 119331
+  hash: "c4aad4946dee879e2d0641f4b0c51b323a68b194"
+- name: "AdvancedArmor_ST.usx"
+  fileSize: 2548871
+  hash: "a4af771d5621ebc4c48f0f522987ee8cdd4fa272"
 - name: "AdvancedArmor.u"
   fileSize: 202736
   hash: "c03d08c8de4e17e44e939752ada8f7abe9b6a909"
@@ -21,17 +27,16 @@ files:
 - name: "AdvancedArmor_anim.ukx"
   fileSize: 4041892
   hash: "54f6d73c76761685ad0a54fed721536c0d99a569"
-- name: "AdvancedArmor_Snd.uax"
-  fileSize: 119331
-  hash: "c4aad4946dee879e2d0641f4b0c51b323a68b194"
-- name: "AdvancedArmor_ST.usx"
-  fileSize: 2548871
-  hash: "a4af771d5621ebc4c48f0f522987ee8cdd4fa272"
 otherFiles: 4
 dependencies:
   AdvancedArmor_ST.usx:
   - status: "OK"
     name: "AdvancedArmor_Tex"
+  AdvancedArmor_anim.ukx:
+  - status: "OK"
+    name: "AdvancedArmor_Tex"
+  - status: "OK"
+    name: "AdvancedArmor_ST"
   AdvancedArmor.u:
   - status: "OK"
     name: "AdvancedArmor_Tex"
@@ -39,7 +44,7 @@ dependencies:
     name: "AdvancedArmor_SND"
   - status: "OK"
     name: "AdvancedArmor_ST"
-  - status: "MISSING"
+  - status: "OK"
     name: "AdvancedArmor_anim"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Mods/"
@@ -61,6 +66,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Advanced Armor"

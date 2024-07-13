@@ -14,17 +14,20 @@ originalFilename: "ut2k4-lizzy.zip"
 hash: "2f33b9d911d2c17338260eac46ba244479309f80"
 fileSize: 845324
 files:
-- name: "Lizzy.upl"
-  fileSize: 342
-  hash: "cfa9a95d39cb582d7cf7536d8d1912316f44f648"
 - name: "LizzyTex.utx"
   fileSize: 1574568
   hash: "8a262bd382c8b7f0867ba58a60a1ec965b8046bd"
 - name: "LizzyFemale.ukx"
   fileSize: 397766
   hash: "f195f4c36fdb80c211deea3c8503580bdc50a3f6"
+- name: "Lizzy.upl"
+  fileSize: 342
+  hash: "cfa9a95d39cb582d7cf7536d8d1912316f44f648"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  LizzyFemale.ukx:
+  - status: "OK"
+    name: "LizzyTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsL/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lizzy"

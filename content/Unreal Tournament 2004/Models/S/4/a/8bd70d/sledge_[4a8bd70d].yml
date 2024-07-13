@@ -21,14 +21,17 @@ files:
 - name: "SledgePaxk.utx"
   fileSize: 2185988
   hash: "644443ed75aa40e3e5668d31ad0f8e27089648f4"
-- name: "SledgeMale.ukx"
-  fileSize: 582895
-  hash: "2c2849c01a45c65b83dab3978783aff45157518d"
 - name: "Sledge.upl"
   fileSize: 365
   hash: "8a1470cd4595604ac80d026edf3c03f723f483a9"
+- name: "SledgeMale.ukx"
+  fileSize: 582895
+  hash: "2c2849c01a45c65b83dab3978783aff45157518d"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  SledgeMale.ukx:
+  - status: "OK"
+    name: "SledgePaxk"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/sledge_ut2k3.zip"
   direct: true
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Sledge"

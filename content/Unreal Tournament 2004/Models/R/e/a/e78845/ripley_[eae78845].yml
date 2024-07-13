@@ -36,17 +36,20 @@ files:
 - name: "Ripley2K4VP2.u"
   fileSize: 4993976
   hash: "fd2c9742636ba26dcc8b94b7cf80ae7dc4c15bca"
-- name: "Ripleyskin1.utx"
-  fileSize: 4858022
-  hash: "6af1eeba42e32611898c9b4eb566d29277eb7aeb"
-- name: "ripley.upl"
-  fileSize: 1424
-  hash: "2e406a25185455f808445acfd78ed69ffc661a35"
 - name: "ripbeta3.ukx"
   fileSize: 1297563
   hash: "6e69e4364123f440720bfa3c4f78ef331708d69e"
+- name: "ripley.upl"
+  fileSize: 1424
+  hash: "2e406a25185455f808445acfd78ed69ffc661a35"
+- name: "Ripleyskin1.utx"
+  fileSize: 4858022
+  hash: "6af1eeba42e32611898c9b4eb566d29277eb7aeb"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  ripbeta3.ukx:
+  - status: "OK"
+    name: "Ripleyskin1"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/R/e/a/e78845/Ellen_RipleyV2.zip"
   direct: true
@@ -64,6 +67,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Ripley"

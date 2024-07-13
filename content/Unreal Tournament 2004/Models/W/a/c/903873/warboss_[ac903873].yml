@@ -17,14 +17,17 @@ files:
 - name: "wb_skin.utx"
   fileSize: 263669
   hash: "6ec79c8a476bd23e513f0c807e4ee83887d9b57a"
-- name: "warBoss.upl"
-  fileSize: 169
-  hash: "cd85fce5d40118a8918178d84e99e4798475a6e4"
 - name: "Wboss.ukx"
   fileSize: 493985
   hash: "1bcd3de606c29fe6913c50c839438c5c37fd1c45"
+- name: "warBoss.upl"
+  fileSize: 169
+  hash: "cd85fce5d40118a8918178d84e99e4798475a6e4"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Wboss.ukx:
+  - status: "OK"
+    name: "wb_skin"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/warboss.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "warboss"

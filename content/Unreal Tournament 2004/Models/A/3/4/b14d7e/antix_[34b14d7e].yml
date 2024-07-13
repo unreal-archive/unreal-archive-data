@@ -12,20 +12,23 @@ originalFilename: "unipsychos-noumod.zip"
 hash: "34b14d7e590ee76b0cba0551cf263f37fb8517e4"
 fileSize: 4358071
 files:
-- name: "UniPsychos_Anims.ukx"
-  fileSize: 2472472
-  hash: "6fc0ab3a3c24c41e51325f4c653e5c7f2eeb88ff"
 - name: "UniPsychos.upl"
   fileSize: 886
   hash: "47659d19c0500104c066190b55707ae5706ace58"
 - name: "UniPsychos_Tex.utx"
   fileSize: 6293223
   hash: "d65e63e7802d179062604d8bcb42bbdfca90d3e3"
+- name: "UniPsychos_Anims.ukx"
+  fileSize: 2472472
+  hash: "6fc0ab3a3c24c41e51325f4c653e5c7f2eeb88ff"
 - name: "UniPsychos_Karma.ka"
   fileSize: 107809
   hash: "dd89ac8ab08b5319469b0a3f4a90df79f75f30cb"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  UniPsychos_Anims.ukx:
+  - status: "OK"
+    name: "UniPsychos_Tex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=unipsychos-noumod.zip"
   direct: false
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Antix"

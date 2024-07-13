@@ -20,20 +20,20 @@ originalFilename: "ut2mdl_model_capoeira.zip"
 hash: "a112a905a737ce66e8dece564af5daa5151679f3"
 fileSize: 1781993
 files:
-- name: "CapoeiraMale.ukx"
-  fileSize: 360630
-  hash: "dfedb9f6da6c13d101430abafc11b5625c2f7712"
 - name: "capoeira.utx"
   fileSize: 3858838
   hash: "e4eca2bccaa5bc4d5ab89fa2fd70854bb6900260"
+- name: "CapoeiraMale.ukx"
+  fileSize: 360630
+  hash: "dfedb9f6da6c13d101430abafc11b5625c2f7712"
 - name: "capoeiraskins.upl"
   fileSize: 328
   hash: "b874b982c3ba47afd324648eb9733ad6057e19f1"
 otherFiles: 4
 dependencies:
-  capoeira.utx:
-  - status: "MISSING"
-    name: "Jugg"
+  CapoeiraMale.ukx:
+  - status: "OK"
+    name: "capoeira"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl_model_capoeira.zip"
   direct: true
@@ -51,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Capoeira"

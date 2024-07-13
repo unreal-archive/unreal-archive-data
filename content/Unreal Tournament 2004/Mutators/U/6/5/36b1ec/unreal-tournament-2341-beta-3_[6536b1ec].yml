@@ -11,30 +11,30 @@ originalFilename: "UT2341_BETA3.rar"
 hash: "6536b1ec773da7ecb6d62c10d2e50c5e30c089b6"
 fileSize: 29542044
 files:
-- name: "UTRHUDTextures.utx"
-  fileSize: 1099903
-  hash: "1c94851c73b15c1033863956459e89609d509305"
-- name: "UT2341Weapons_Anims.ukx"
-  fileSize: 16615446
-  hash: "6c6fedb360252cd8e21b4ac676e51aa7c9e186e3"
-- name: "UT2341Weapons_Tex.utx"
-  fileSize: 44279516
-  hash: "e7d3caa0219534ae6280e9696a47d70dce47db19"
-- name: "OLTeamGamesTex.utx"
-  fileSize: 19771943
-  hash: "1417dcf82f33b060d3c4f115972d37bd0e0176fa"
-- name: "UT2341Weapons_SM.usx"
-  fileSize: 8088722
-  hash: "83f7e77587c9ac8e568e0a82e626d6e540d63abd"
-- name: "UT2341Weapons_Sounds.uax"
-  fileSize: 2771070
-  hash: "e7d5627d8c95653f7863f9610bb15b523cc2ee4b"
-- name: "UT2341Weapons_BETA3.u"
-  fileSize: 916906
-  hash: "9cdcd1b8ac76a7bd9c9a5a098494821d0e678538"
 - name: "UTRFonts.utx"
   fileSize: 2254897
   hash: "19f20285c846765b9e4376c2c7844d49b52d08ab"
+- name: "OLTeamGamesTex.utx"
+  fileSize: 19771943
+  hash: "1417dcf82f33b060d3c4f115972d37bd0e0176fa"
+- name: "UT2341Weapons_BETA3.u"
+  fileSize: 916906
+  hash: "9cdcd1b8ac76a7bd9c9a5a098494821d0e678538"
+- name: "UT2341Weapons_Anims.ukx"
+  fileSize: 16615446
+  hash: "6c6fedb360252cd8e21b4ac676e51aa7c9e186e3"
+- name: "UT2341Weapons_SM.usx"
+  fileSize: 8088722
+  hash: "83f7e77587c9ac8e568e0a82e626d6e540d63abd"
+- name: "UTRHUDTextures.utx"
+  fileSize: 1099903
+  hash: "1c94851c73b15c1033863956459e89609d509305"
+- name: "UT2341Weapons_Tex.utx"
+  fileSize: 44279516
+  hash: "e7d3caa0219534ae6280e9696a47d70dce47db19"
+- name: "UT2341Weapons_Sounds.uax"
+  fileSize: 2771070
+  hash: "e7d5627d8c95653f7863f9610bb15b523cc2ee4b"
 otherFiles: 1
 dependencies:
   UT2341Weapons_BETA3.u:
@@ -55,6 +55,9 @@ dependencies:
   UT2341Weapons_SM.usx:
   - status: "OK"
     name: "UT2341Weapons_Tex"
+  UT2341Weapons_Anims.ukx:
+  - status: "OK"
+    name: "UT2341Weapons_Tex"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Mutators/U/6/5/36b1ec/UT2341_BETA3.rar"
   direct: true
@@ -73,6 +76,7 @@ downloads:
   state: "OK"
 links:
   ModDB: "https://www.moddb.com/mods/ut2341-hd-arsenal"
+problemLinks: {}
 deleted: false
 mutators:
 - name: "UT2341: Instagib"

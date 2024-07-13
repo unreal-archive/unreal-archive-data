@@ -14,17 +14,20 @@ originalFilename: "Riroki.zip"
 hash: "4d2aee729fe34ba372eaf0ddd67229458859b9ef"
 fileSize: 3383934
 files:
+- name: "Riroki.upl"
+  fileSize: 814
+  hash: "a81204962900ec80067c74123b3fd5b9467654c9"
 - name: "RirokiAnim.ukx"
   fileSize: 2537923
   hash: "7e38a24ce817dc47f31e9515e8ad2744610f98b4"
 - name: "Rirokitexture.utx"
   fileSize: 4769308
   hash: "885787c3be29ae96ca424c72f8279b59bf9fb007"
-- name: "Riroki.upl"
-  fileSize: 814
-  hash: "a81204962900ec80067c74123b3fd5b9467654c9"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  RirokiAnim.ukx:
+  - status: "OK"
+    name: "Rirokitexture"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Anime/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Riroki"

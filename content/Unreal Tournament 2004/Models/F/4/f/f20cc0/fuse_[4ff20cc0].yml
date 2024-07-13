@@ -14,17 +14,20 @@ originalFilename: "ut2k4mdlpanzercop.zip"
 hash: "4ff20cc07c2e31a9b544db9b43ec27a019f302f2"
 fileSize: 2472257
 files:
+- name: "PanzerCopAnim.ukx"
+  fileSize: 1584388
+  hash: "3a645f0f9c069e50907d903e6e6b4ff5d06e4949"
 - name: "PanzerCop.upl"
   fileSize: 468
   hash: "93e082247ceb6544073485bc77ddd5968d3ffa92"
 - name: "PanzerCopTextures.utx"
   fileSize: 2535769
   hash: "dc3e2bde87627dda3fe12e3c51b2b53e22c00bc9"
-- name: "PanzerCopAnim.ukx"
-  fileSize: 1584388
-  hash: "3a645f0f9c069e50907d903e6e6b4ff5d06e4949"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  PanzerCopAnim.ukx:
+  - status: "OK"
+    name: "PanzerCopTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsP/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Fuse"

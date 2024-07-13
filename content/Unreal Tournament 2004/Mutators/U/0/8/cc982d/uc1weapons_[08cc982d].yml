@@ -11,23 +11,26 @@ originalFilename: "UC1Weapons.zip"
 hash: "08cc982dd34dc15dbca5074606f52b54fc8c7522"
 fileSize: 7351680
 files:
-- name: "UC1Weapons.u"
-  fileSize: 91101
-  hash: "c06a7920d7472c6ab9d2565179cd5a96a827adaa"
-- name: "UnrealChampionshipWeps.ukx"
-  fileSize: 2894422
-  hash: "3d7acd90a6959b4f2369530f0d946709caaa21d0"
 - name: "UC1WeaponSkins.utx"
   fileSize: 15439006
   hash: "7400b5320b331f972349f225fd72da0e7740542c"
-- name: "UT2003Weapons.uax"
-  fileSize: 1568621
-  hash: "e1786f643163411ceaa599bc2654359fe05fd31c"
+- name: "UnrealChampionshipWeps.ukx"
+  fileSize: 2894422
+  hash: "3d7acd90a6959b4f2369530f0d946709caaa21d0"
 - name: "UCWeaponStatics.usx"
   fileSize: 999626
   hash: "d46c5afaf4b60fa4b60b81505b318bd3e24d6765"
+- name: "UC1Weapons.u"
+  fileSize: 91101
+  hash: "c06a7920d7472c6ab9d2565179cd5a96a827adaa"
+- name: "UT2003Weapons.uax"
+  fileSize: 1568621
+  hash: "e1786f643163411ceaa599bc2654359fe05fd31c"
 otherFiles: 1
 dependencies:
+  UCWeaponStatics.usx:
+  - status: "OK"
+    name: "UC1WeaponSkins"
   UC1Weapons.u:
   - status: "OK"
     name: "UCWeaponStatics"
@@ -37,7 +40,7 @@ dependencies:
     name: "UT2003Weapons"
   - status: "OK"
     name: "UnrealChampionshipWeps"
-  UCWeaponStatics.usx:
+  UnrealChampionshipWeps.ukx:
   - status: "OK"
     name: "UC1WeaponSkins"
 downloads:
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Floaty Cadavers"

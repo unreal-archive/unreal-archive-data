@@ -17,25 +17,28 @@ originalFilename: "MrFrostyBossBeta1.zip"
 hash: "effe477bcabf5b88f7505f216a37d22925c3bba6"
 fileSize: 2434275
 files:
+- name: "MrFrostyTex.utx"
+  fileSize: 2185925
+  hash: "4b78addc87b057d29e2145c828d41843ee90fc4d"
+- name: "BadMrFrostybeta1.upl"
+  fileSize: 295
+  hash: "56439ad72f95c33a7db4808bb603f682b6a42097"
 - name: "MrFrostyBoss.u"
   fileSize: 572260
   hash: "0f5ba4622ca4c5b106080390d3246892c18dc3b4"
 - name: "MrFrostyAnim.ukx"
   fileSize: 2696528
   hash: "9601b07f2433b397b693f54c5401e902b211c6a7"
-- name: "BadMrFrostybeta1.upl"
-  fileSize: 295
-  hash: "56439ad72f95c33a7db4808bb603f682b6a42097"
-- name: "MrFrostyTex.utx"
-  fileSize: 2185925
-  hash: "4b78addc87b057d29e2145c828d41843ee90fc4d"
 otherFiles: 4
 dependencies:
   MrFrostyBoss.u:
   - status: "OK"
     name: "MrFrostyTex"
-  - status: "MISSING"
+  - status: "OK"
     name: "MrFrostyAnim"
+  MrFrostyAnim.ukx:
+  - status: "OK"
+    name: "MrFrostyTex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/B/e/f/fe477b/MrFrostyBossBeta1.zip"
   direct: true
@@ -53,6 +56,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "BadMrFrosty"

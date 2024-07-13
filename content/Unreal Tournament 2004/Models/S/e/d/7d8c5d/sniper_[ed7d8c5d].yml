@@ -14,26 +14,41 @@ originalFilename: "tf2sniper_wilddog_skin_and_voicepack.zip"
 hash: "ed7d8c5d14a04ec236f8fb269ab891ecbbd678fe"
 fileSize: 33610221
 files:
-- name: "TF2Sniper.u"
-  fileSize: 17760453
-  hash: "21146ec23a1ba28a5c60af9938751dbad58e2ed4"
-- name: "TF2Sniper.utx"
-  fileSize: 11273718
-  hash: "52f3d5a60bcc779b169506b3c0b190387baf0621"
 - name: "xplayersTF2Sniper.upl"
   fileSize: 609
   hash: "a5ef825e2a49600cadcfc558c7ec382fbd6177a6"
+- name: "YoJoePTX_1.utx"
+  fileSize: 11360947
+  hash: "499d999afea9039fcc1a545386e17debb2da3d3c"
 - name: "YoJoePTX.utx"
   fileSize: 11360947
   hash: "499d999afea9039fcc1a545386e17debb2da3d3c"
-- name: "YoJoeP.upl"
+- name: "YoJoeP_1.upl"
   fileSize: 1033
   hash: "17a32e196fe9d64dd69609dfef6f342de975ba43"
 - name: "YoJoePA.ukx"
   fileSize: 480568
   hash: "a131631ed5772ddb52f56c4978f82a3e410cb02d"
+- name: "YoJoePA_1.ukx"
+  fileSize: 480568
+  hash: "a131631ed5772ddb52f56c4978f82a3e410cb02d"
+- name: "YoJoeP.upl"
+  fileSize: 1033
+  hash: "17a32e196fe9d64dd69609dfef6f342de975ba43"
+- name: "TF2Sniper.utx"
+  fileSize: 11273718
+  hash: "52f3d5a60bcc779b169506b3c0b190387baf0621"
+- name: "TF2Sniper.u"
+  fileSize: 17760453
+  hash: "21146ec23a1ba28a5c60af9938751dbad58e2ed4"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  YoJoePA_1.ukx:
+  - status: "OK"
+    name: "YoJoePTX"
+  YoJoePA.ukx:
+  - status: "OK"
+    name: "YoJoePTX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/tf2sniper_wilddog_skin_and_voicepack.zip"
   direct: true
@@ -51,6 +66,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Sniper"

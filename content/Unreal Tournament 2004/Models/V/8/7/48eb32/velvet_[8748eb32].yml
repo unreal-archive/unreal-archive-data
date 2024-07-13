@@ -17,14 +17,17 @@ files:
 - name: "VelvetII_tex.utx"
   fileSize: 29461891
   hash: "a95e2422f8365f913777c47e20957c9aadab9502"
-- name: "VelvetII_anim.ukx"
-  fileSize: 524129
-  hash: "5e629ca23c1dddbbf7c8bc06bb0817b6310dc913"
 - name: "VelvetII.upl"
   fileSize: 345
   hash: "8bdc4c99749e65b8d6ec5bb984d715ba37b6b88f"
+- name: "VelvetII_anim.ukx"
+  fileSize: 524129
+  hash: "5e629ca23c1dddbbf7c8bc06bb0817b6310dc913"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  VelvetII_anim.ukx:
+  - status: "OK"
+    name: "VelvetII_tex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/V/8/7/48eb32/Velvet.rar"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Velvet"

@@ -20,17 +20,22 @@ files:
 - name: "JumpsuitZombieTextures.utx"
   fileSize: 5681787
   hash: "d9e6a7e3e0ffede6ea6b1368f62ce31caac5547d"
-- name: "Doom3JumpSuitZombie.ukx"
-  fileSize: 849891
-  hash: "6f4061960fc4c330a0ec2e5ddb6b16e39b0a1081"
-- name: "d3jsz.uax"
-  fileSize: 123612
-  hash: "6ff965cbfa0cea073075305c3edd5c3b69986c42"
 - name: "JumpsuitZombie.UPL"
   fileSize: 313
   hash: "305dda16fa073d3516b28f417343ec21b2194ffd"
+- name: "d3jsz.uax"
+  fileSize: 123612
+  hash: "6ff965cbfa0cea073075305c3edd5c3b69986c42"
+- name: "Doom3JumpSuitZombie.ukx"
+  fileSize: 849891
+  hash: "6f4061960fc4c330a0ec2e5ddb6b16e39b0a1081"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Doom3JumpSuitZombie.ukx:
+  - status: "OK"
+    name: "JumpsuitZombieTextures"
+  - status: "OK"
+    name: "d3jsz"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/D/4/7/8a1efb/doom3_jumpsuitzombie.zip"
   direct: true
@@ -48,6 +53,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Doom3 Jumpsuit Zombie"

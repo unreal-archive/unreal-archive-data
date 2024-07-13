@@ -36,14 +36,17 @@ files:
 - name: "SailorSenshi.upl"
   fileSize: 4473
   hash: "8e00d5a60401cb3718373ccd6ef4d9a2350e877b"
-- name: "SailorSenshiTex.utx"
-  fileSize: 4861788
-  hash: "139211a3d0bd6df768e27eb3009edaca29dc90cb"
 - name: "SailorSenshi.ukx"
   fileSize: 7572494
   hash: "b575a368a78d3149344146b0682fa408ae7d92e6"
+- name: "SailorSenshiTex.utx"
+  fileSize: 4861788
+  hash: "139211a3d0bd6df768e27eb3009edaca29dc90cb"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  SailorSenshi.ukx:
+  - status: "OK"
+    name: "SailorSenshiTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/ModelPacks/"
   direct: false
@@ -67,6 +70,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Usagi Tsukino"

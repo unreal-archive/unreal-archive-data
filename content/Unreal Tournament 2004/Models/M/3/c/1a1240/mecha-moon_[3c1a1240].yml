@@ -17,17 +17,20 @@ originalFilename: "ut2k4_model-mecha_sailor_moon_1.1.zip"
 hash: "3c1a124012a6ab1bc4d8018a93712889ee603eb4"
 fileSize: 1362309
 files:
-- name: "MechaMoon.upl"
-  fileSize: 838
-  hash: "a6fa5afe67ce19bba41c17bf67078d24fd741ee3"
 - name: "MechaMoonTex.utx"
   fileSize: 2320775
   hash: "d22743e4429201766bc012e62387856c5caeed9b"
+- name: "MechaMoon.upl"
+  fileSize: 838
+  hash: "a6fa5afe67ce19bba41c17bf67078d24fd741ee3"
 - name: "MechaMoon.ukx"
   fileSize: 710976
   hash: "f94ade07784672565950b0493832b440cb215705"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  MechaMoon.ukx:
+  - status: "OK"
+    name: "MechaMoonTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=ut2k4_model-mecha_sailor_moon_1.1.zip"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mecha Moon"

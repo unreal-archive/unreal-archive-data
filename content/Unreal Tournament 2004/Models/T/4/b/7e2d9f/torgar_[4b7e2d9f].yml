@@ -14,17 +14,20 @@ originalFilename: "torgar_ut2k4.zip"
 hash: "4b7e2d9f163ee9aa23049d8156f26eefd29aea59"
 fileSize: 2409469
 files:
-- name: "TorgarPack.ukx"
-  fileSize: 465572
-  hash: "56c705f54b67dcd6d103a72932813c1e25d4b2d0"
-- name: "Torgar.upl"
-  fileSize: 423
-  hash: "8315b9df66d5daf3732fc0ea60c52b6e51dca523"
 - name: "TorgarTX.utx"
   fileSize: 8478312
   hash: "2a43fe0d10858f17b7f612fb62a539a6e147f7ec"
+- name: "Torgar.upl"
+  fileSize: 423
+  hash: "8315b9df66d5daf3732fc0ea60c52b6e51dca523"
+- name: "TorgarPack.ukx"
+  fileSize: 465572
+  hash: "56c705f54b67dcd6d103a72932813c1e25d4b2d0"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  TorgarPack.ukx:
+  - status: "OK"
+    name: "TorgarTX"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Torgar"

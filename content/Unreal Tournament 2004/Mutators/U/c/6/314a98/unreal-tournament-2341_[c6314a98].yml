@@ -13,31 +13,31 @@ originalFilename: "UT2341_Beta1.rar"
 hash: "c6314a9833c31e6a0785e2c4adf0005087af316d"
 fileSize: 20344477
 files:
-- name: "UT2341Weapons_BETA1.u"
-  fileSize: 631487
-  hash: "9227edb42475e7b42bf96ec538e236316ec397a2"
-- name: "UT2341Weapons_Sounds.uax"
-  fileSize: 2612467
-  hash: "c176886fcaa3e37b475aad2115acaeb9fc96cb48"
-- name: "UT2341Weapons_Anims.ukx"
-  fileSize: 16615394
-  hash: "7f2e8ae676b3a549fab6732cc609918f5568b7ef"
 - name: "UTRHUDTextures.utx"
   fileSize: 661664
   hash: "adf15071937b343c3c38c534de7bb327137e8783"
 - name: "UT2341Weapons_SM.usx"
   fileSize: 7469444
   hash: "11b4ba8ea6e76caec47fb4e155b581072b4d2f1c"
+- name: "UT2341Weapons_BETA1.u"
+  fileSize: 631487
+  hash: "9227edb42475e7b42bf96ec538e236316ec397a2"
+- name: "UT2341Weapons_Sounds.uax"
+  fileSize: 2612467
+  hash: "c176886fcaa3e37b475aad2115acaeb9fc96cb48"
 - name: "UTRFonts.utx"
   fileSize: 2254897
   hash: "19f20285c846765b9e4376c2c7844d49b52d08ab"
+- name: "UT2341Weapons_Anims.ukx"
+  fileSize: 16615394
+  hash: "7f2e8ae676b3a549fab6732cc609918f5568b7ef"
 - name: "UT2341Weapons_Tex.utx"
   fileSize: 40833582
   hash: "12070c6f6af6cd7cce0d78e101e7654648573116"
 otherFiles: 1
 dependencies:
   UT2341Weapons_BETA1.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "UT2341Weapons_Anims"
   - status: "OK"
     name: "UT2341Weapons_Tex"
@@ -48,6 +48,9 @@ dependencies:
   - status: "OK"
     name: "UTRHUDTextures"
   UT2341Weapons_SM.usx:
+  - status: "OK"
+    name: "UT2341Weapons_Tex"
+  UT2341Weapons_Anims.ukx:
   - status: "OK"
     name: "UT2341Weapons_Tex"
 downloads:
@@ -67,6 +70,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Unreal Tournament 2341"

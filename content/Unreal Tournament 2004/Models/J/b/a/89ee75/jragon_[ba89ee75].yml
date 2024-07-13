@@ -23,17 +23,20 @@ originalFilename: "Jragon.zip"
 hash: "ba89ee756faeebb6e62b71b76e71a85cec77712a"
 fileSize: 4870217
 files:
-- name: "Jragon.ukx"
-  fileSize: 1830746
-  hash: "a6cdba21d063ef36d5bd729ee1b6ed3d07bed7c0"
 - name: "Jragon.upl"
   fileSize: 904
   hash: "45dfe059e26ce5cc5c4cfc1083cd25722ef307b3"
 - name: "JragonTex.utx"
   fileSize: 5695034
   hash: "e9a48e11a7f27a0fe8d512e49c2067db01bd2202"
+- name: "Jragon.ukx"
+  fileSize: 1830746
+  hash: "a6cdba21d063ef36d5bd729ee1b6ed3d07bed7c0"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  Jragon.ukx:
+  - status: "OK"
+    name: "JragonTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsJ/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Jragon"

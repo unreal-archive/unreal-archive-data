@@ -17,28 +17,29 @@ originalFilename: "brian-cellshadefix_ut2k4.zip"
 hash: "42e84e7e92d767fb3b57b147a23d4514681842bf"
 fileSize: 3511448
 files:
-- name: "briangrifTEX.utx"
-  fileSize: 2078984
-  hash: "0d13f14696c5c0e50c474de5899bc400ee529e4b"
-- name: "xbriangriffin.upl"
-  fileSize: 546
-  hash: "92a12ffede7f508685561f81a5debbc8a13575c8"
 - name: "briangriffvoice.u"
   fileSize: 2325818
   hash: "dd4c995ff59f8396c62da5a8e57e1bb86c7bb981"
-- name: "BrianGriffin.ukx"
-  fileSize: 2079143
-  hash: "099ee08c57a329066fee642c3ec73c9f09823534"
 - name: "cellshader.utx"
   fileSize: 35443
   hash: "3596bb13151dfbdb2f9b796840f3714ec78d4242"
+- name: "xbriangriffin.upl"
+  fileSize: 546
+  hash: "92a12ffede7f508685561f81a5debbc8a13575c8"
+- name: "briangrifTEX.utx"
+  fileSize: 2078984
+  hash: "0d13f14696c5c0e50c474de5899bc400ee529e4b"
+- name: "BrianGriffin.ukx"
+  fileSize: 2079143
+  hash: "099ee08c57a329066fee642c3ec73c9f09823534"
 otherFiles: 3
 dependencies:
+  BrianGriffin.ukx:
+  - status: "OK"
+    name: "cellshader"
   briangrifTEX.utx:
   - status: "OK"
     name: "cellshader"
-  - status: "MISSING"
-    name: "HumanMaleA"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsB/"
   direct: false
@@ -65,6 +66,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Brian"

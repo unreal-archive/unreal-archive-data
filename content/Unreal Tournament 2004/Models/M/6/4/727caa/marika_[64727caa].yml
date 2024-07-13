@@ -20,17 +20,20 @@ originalFilename: "ut2004mdl_marika.zip"
 hash: "64727caa03d274d9d953137857214b5a8e5a7573"
 fileSize: 3339963
 files:
-- name: "WlsMarikaTex.utx"
-  fileSize: 6273129
-  hash: "a3007ce9b3a64099a7aea362c102c9711dce31c8"
 - name: "WlsMarika.ukx"
   fileSize: 686136
   hash: "44f81571eb3d24596055a3cf11104e03e65db226"
 - name: "WlsMarika.upl"
   fileSize: 361
   hash: "75723c83e16802d6fe73f87676e509d685d37326"
+- name: "WlsMarikaTex.utx"
+  fileSize: 6273129
+  hash: "a3007ce9b3a64099a7aea362c102c9711dce31c8"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  WlsMarika.ukx:
+  - status: "OK"
+    name: "WlsMarikaTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsM/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Marika"

@@ -11,19 +11,19 @@ originalFilename: "strangelove_55.zip"
 hash: "5d81b45532ee645b23473bc32bb3dcf56f99e9c6"
 fileSize: 376340
 files:
-- name: "StrangeLoveTex55.utx"
-  fileSize: 2102050
-  hash: "8203005a4ad53e3c06473ba07b7598e98e7dcdbc"
-- name: "StrangeLoveAnim55.ukx"
-  fileSize: 228999
-  hash: "3bcf2fff514e74ea355a2405eef251643d11167f"
 - name: "StrangeLove55.u"
   fileSize: 208157
   hash: "4d3cba0a6791bd08a058d2bf11b60551ef00712c"
+- name: "StrangeLoveAnim55.ukx"
+  fileSize: 228999
+  hash: "3bcf2fff514e74ea355a2405eef251643d11167f"
+- name: "StrangeLoveTex55.utx"
+  fileSize: 2102050
+  hash: "8203005a4ad53e3c06473ba07b7598e98e7dcdbc"
 otherFiles: 2
 dependencies:
   StrangeLove55.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "StrangeLoveAnim55"
   - status: "OK"
     name: "StrangeLoveTex55"
@@ -44,6 +44,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "StrangeLove Arena ver.5.5"

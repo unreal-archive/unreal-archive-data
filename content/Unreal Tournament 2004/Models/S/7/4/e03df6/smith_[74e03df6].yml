@@ -14,20 +14,23 @@ originalFilename: "ut2k4mdl-smith.zip"
 hash: "74e03df6bc71ee29f73c608248cc85f6514b0e40"
 fileSize: 4835224
 files:
-- name: "AgentSmith.u"
-  fileSize: 3127927
-  hash: "145351d86fe08d75178e8bc19c2b22cfd6c70433"
 - name: "smithskins.utx"
   fileSize: 6123234
   hash: "4ca3039cabb6b272a8816671c105976c815860bb"
-- name: "smith.ukx"
-  fileSize: 410030
-  hash: "0118279086096fa19586c0a97d5618ca48bc3111"
 - name: "Smith.upl"
   fileSize: 351
   hash: "647423866cb71c9ab68355cb30ae3f865d639813"
+- name: "AgentSmith.u"
+  fileSize: 3127927
+  hash: "145351d86fe08d75178e8bc19c2b22cfd6c70433"
+- name: "smith.ukx"
+  fileSize: 410030
+  hash: "0118279086096fa19586c0a97d5618ca48bc3111"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  smith.ukx:
+  - status: "OK"
+    name: "smithskins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k4mdl-smith.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Smith"

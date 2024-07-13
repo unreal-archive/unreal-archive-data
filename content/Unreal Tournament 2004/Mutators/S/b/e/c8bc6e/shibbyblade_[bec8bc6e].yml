@@ -11,12 +11,6 @@ originalFilename: "shibbyblade.zip"
 hash: "bec8bc6e4518eb8d242cc61adeaf3d57791dec42"
 fileSize: 1047086
 files:
-- name: "ShibbyBladeAnim.ukx"
-  fileSize: 87790
-  hash: "cad716604fcfa4628d7a80a63928344e9f04d383"
-- name: "ShibbyBladeStatic.usx"
-  fileSize: 227925
-  hash: "58d3917de46df75c76a8cb059d5239a56d7cec75"
 - name: "ShibbyBladeSounds.uax"
   fileSize: 60965
   hash: "8cbd0f1493c688336db61c99b081a19f0cb0689f"
@@ -26,18 +20,27 @@ files:
 - name: "ShibbyBladeTex.utx"
   fileSize: 2099377
   hash: "9da44c979d44800841f061057fb073503cc87bf8"
+- name: "ShibbyBladeAnim.ukx"
+  fileSize: 87790
+  hash: "cad716604fcfa4628d7a80a63928344e9f04d383"
+- name: "ShibbyBladeStatic.usx"
+  fileSize: 227925
+  hash: "58d3917de46df75c76a8cb059d5239a56d7cec75"
 otherFiles: 2
 dependencies:
   ShibbyBladeStatic.usx:
   - status: "OK"
     name: "ShibbyBladeTex"
   ShibbyBlade.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "ShibbyBladeAnim"
   - status: "OK"
     name: "ShibbyBladeStatic"
   - status: "OK"
     name: "ShibbyBladeSounds"
+  ShibbyBladeAnim.ukx:
+  - status: "OK"
+    name: "ShibbyBladeTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/shibbyblade.zip"
   direct: true
@@ -55,6 +58,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Shibby Blade Arena"

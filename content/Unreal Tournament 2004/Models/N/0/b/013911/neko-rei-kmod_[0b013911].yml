@@ -17,14 +17,17 @@ files:
 - name: "NekoRei.upl"
   fileSize: 353
   hash: "2a0834e6b8bce09e8b5bd64464dad8e76722e071"
-- name: "NekoReiTex.utx"
-  fileSize: 2185925
-  hash: "cb666c11addc5a5a47c2cec894211475aa83db8b"
 - name: "NekoRei.ukx"
   fileSize: 304447
   hash: "938d9513f579e9a34bc0e2be782e35db9d7f31ac"
+- name: "NekoReiTex.utx"
+  fileSize: 2185925
+  hash: "cb666c11addc5a5a47c2cec894211475aa83db8b"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  NekoRei.ukx:
+  - status: "OK"
+    name: "NekoReiTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Neko Rei KMod"

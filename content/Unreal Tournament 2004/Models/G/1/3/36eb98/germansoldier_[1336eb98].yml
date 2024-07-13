@@ -20,17 +20,20 @@ files:
 - name: "JerrysCreaturesTextures.utx"
   fileSize: 5593006
   hash: "3a34fc1141b20a7cf84f69257f22d6a7ff11d2f8"
-- name: "JerrysCreatures.ukx"
-  fileSize: 6463197
-  hash: "38bf67cbc696d63964edde1278c1708de989d1d2"
 - name: "german_soldier.ut4mod"
   fileSize: 12058212
   hash: "65dcf1ab89f705ebe0f14b80a8e938fdc594f722"
+- name: "JerrysCreatures.ukx"
+  fileSize: 6463197
+  hash: "38bf67cbc696d63964edde1278c1708de989d1d2"
 - name: "german_soldier.upl"
   fileSize: 360
   hash: "d3762cb5bb9a38e96c66105cadb1e55b04a63172"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  JerrysCreatures.ukx:
+  - status: "OK"
+    name: "JerrysCreaturesTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Male/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "GermanSoldier"

@@ -20,20 +20,25 @@ originalFilename: "fairy_ut2k3.zip"
 hash: "eea679ada6725e9accbbbde2054deb1f6ea58acd"
 fileSize: 3315448
 files:
-- name: "DawnTextures.utx"
-  fileSize: 2273641
-  hash: "348a393b828822dd48dda33eeaeb77242085df84"
-- name: "DuskTexture.utx"
-  fileSize: 2229841
-  hash: "9e9681b19d40a78ff8964f5b1c850831d4efff9a"
 - name: "FairyButterfly.ukx"
   fileSize: 1710728
   hash: "10ee2c6511061b5dd6762030702757ae70670ec6"
+- name: "DawnTextures.utx"
+  fileSize: 2273641
+  hash: "348a393b828822dd48dda33eeaeb77242085df84"
 - name: "FairyButterfly.upl"
   fileSize: 977
   hash: "3f07b743bac68a98b5a86197429bb23c4b947e7d"
+- name: "DuskTexture.utx"
+  fileSize: 2229841
+  hash: "9e9681b19d40a78ff8964f5b1c850831d4efff9a"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  FairyButterfly.ukx:
+  - status: "OK"
+    name: "DuskTexture"
+  - status: "OK"
+    name: "DawnTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/fairy_ut2k3.zip"
   direct: true
@@ -51,6 +56,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Fairy Dawn"

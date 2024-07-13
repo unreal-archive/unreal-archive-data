@@ -20,17 +20,20 @@ originalFilename: "AP2k4.exe"
 hash: "8fa440cd6e49ccfa1dafe4ec259aeb56cd422cfd"
 fileSize: 3025391
 files:
+- name: "AP2k4.upl"
+  fileSize: 858
+  hash: "9e656890947510e5696ffa23a6e926e97f03f67d"
 - name: "AP2k4.ukx"
   fileSize: 1355331
   hash: "1c0d8f86c7784c328d8eb1053c8a72d8778906e1"
 - name: "AP2k4skins.utx"
   fileSize: 6294941
   hash: "c54502ac7eaffeed449a231930a42a63d435e13f"
-- name: "AP2k4.upl"
-  fileSize: 858
-  hash: "9e656890947510e5696ffa23a6e926e97f03f67d"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  AP2k4.ukx:
+  - status: "OK"
+    name: "AP2k4skins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/MSUPhase3/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "AP2k4"

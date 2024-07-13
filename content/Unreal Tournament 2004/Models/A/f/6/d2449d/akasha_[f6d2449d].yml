@@ -77,12 +77,6 @@ files:
 - name: "UT3PlayerSkins.utx"
   fileSize: 371851348
   hash: "a0bf3932ab74ece7462d48500f63d4fde53e0ff4"
-- name: "Krall.ka"
-  fileSize: 177043
-  hash: "fae1905a9ccf0c10e488f9f9bb7393ea38dfe2ee"
-- name: "UT3HumanFemaleA.ukx"
-  fileSize: 15567690
-  hash: "3b0b8435c892b1d201941016b29c3e43a5b50fca"
 - name: "xplayersUT3.upl"
   fileSize: 12614
   hash: "22c43b2aaedc998a9ee77b697978f6380ddafebb"
@@ -92,8 +86,23 @@ files:
 - name: "UT3HumanMaleA.ukx"
   fileSize: 33560399
   hash: "219f258808c6d21a0c60be223ff52ebf494624c0"
+- name: "Krall.ka"
+  fileSize: 177043
+  hash: "fae1905a9ccf0c10e488f9f9bb7393ea38dfe2ee"
+- name: "UT3HumanFemaleA.ukx"
+  fileSize: 15567690
+  hash: "3b0b8435c892b1d201941016b29c3e43a5b50fca"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  UT3Krall.ukx:
+  - status: "OK"
+    name: "UT3PlayerSkins"
+  UT3HumanFemaleA.ukx:
+  - status: "OK"
+    name: "UT3PlayerSkins"
+  UT3HumanMaleA.ukx:
+  - status: "OK"
+    name: "UT3PlayerSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/ModelPacks/"
   direct: false
@@ -114,6 +123,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Akasha"

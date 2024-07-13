@@ -14,17 +14,20 @@ originalFilename: "troopersclonemodelzip.zip"
 hash: "c1aca164133f7cae9026ed2ac8ec7d3f7c74e2ed"
 fileSize: 1461944
 files:
-- name: "TCloneBetaBot.ukx"
-  fileSize: 309307
-  hash: "54c29d20297ad3a55faf2bcacc8cd564818f4915"
 - name: "TCloneBeta.upl"
   fileSize: 325
   hash: "d791c87cc0a13b476e87690f6717d08629b48a6c"
 - name: "TCloneBeta.utx"
   fileSize: 2123742
   hash: "d9b8e217071c399633e53052852b0ef4e025bd62"
+- name: "TCloneBetaBot.ukx"
+  fileSize: 309307
+  hash: "54c29d20297ad3a55faf2bcacc8cd564818f4915"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  TCloneBetaBot.ukx:
+  - status: "OK"
+    name: "TCloneBeta"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/troopersclonemodelzip.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "CloneTrooper"

@@ -20,14 +20,17 @@ files:
 - name: "Zapp.utx"
   fileSize: 5681541
   hash: "cabb4573a396f30d3e6e079f54dad3bc20d99577"
-- name: "Zappers.u"
-  fileSize: 23096667
-  hash: "904f99bed2627dd9dd87668622a18f59cf0db028"
 - name: "Zapp.upl"
   fileSize: 493
   hash: "4d4ee2dbdfad1383ecd26a5b556f544bf2859f5e"
+- name: "Zappers.u"
+  fileSize: 23096667
+  hash: "904f99bed2627dd9dd87668622a18f59cf0db028"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Zapper.ukx:
+  - status: "OK"
+    name: "Zapp"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsZ/&file=zapp_ut2k4.zip"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Zapp_Brannigan"

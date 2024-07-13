@@ -14,17 +14,20 @@ originalFilename: "ut2k4sion.zip"
 hash: "b01fb6e7fcf94a6906445b0ecb1e2db8a5b637c8"
 fileSize: 852224
 files:
-- name: "Sion.upl"
-  fileSize: 1292
-  hash: "668616436b3a5227c60708c8393661825442ca51"
-- name: "SionEATex.utx"
-  fileSize: 4595602
-  hash: "31eaf0f374939df4bb1dbc132d3a88f5e2559571"
 - name: "SionEAMesh.ukx"
   fileSize: 331437
   hash: "f107f14f1a5995706b6c1088503ec6d41e4346f3"
+- name: "SionEATex.utx"
+  fileSize: 4595602
+  hash: "31eaf0f374939df4bb1dbc132d3a88f5e2559571"
+- name: "Sion.upl"
+  fileSize: 1292
+  hash: "668616436b3a5227c60708c8393661825442ca51"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  SionEAMesh.ukx:
+  - status: "OK"
+    name: "SionEATex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Sion"

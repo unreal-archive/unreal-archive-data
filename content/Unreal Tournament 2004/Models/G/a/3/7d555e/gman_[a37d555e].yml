@@ -29,17 +29,20 @@ originalFilename: "gman_ut2k3.zip"
 hash: "a37d555eef53d5f9169b053025d80fc83197acf9"
 fileSize: 1108222
 files:
-- name: "HitmanModel.ukx"
-  fileSize: 337217
-  hash: "bad3933fdc2cc815fb79812627162188bda96357"
 - name: "gman.utx"
   fileSize: 1573994
   hash: "122bb3405b876c0357abdf9245f2a4e1a6f61489"
 - name: "gman.upl"
   fileSize: 192
   hash: "d1d59df9e88b37d4882c96d80bb62b82af1e04b3"
+- name: "HitmanModel.ukx"
+  fileSize: 337217
+  hash: "bad3933fdc2cc815fb79812627162188bda96357"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  HitmanModel.ukx:
+  - status: "MISSING"
+    name: "HitmanTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/gman_ut2k3.zip"
   direct: true
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "gman"

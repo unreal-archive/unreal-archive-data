@@ -21,14 +21,17 @@ files:
 - name: "smith.upl"
   fileSize: 323
   hash: "58742e40b1a62ba2f9a9656d3014c950f1781997"
-- name: "smith.ukx"
-  fileSize: 410030
-  hash: "0118279086096fa19586c0a97d5618ca48bc3111"
 - name: "smithskins.utx"
   fileSize: 6123234
   hash: "4ca3039cabb6b272a8816671c105976c815860bb"
+- name: "smith.ukx"
+  fileSize: 410030
+  hash: "0118279086096fa19586c0a97d5618ca48bc3111"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  smith.ukx:
+  - status: "OK"
+    name: "smithskins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsA/"
   direct: false
@@ -52,6 +55,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Smith"

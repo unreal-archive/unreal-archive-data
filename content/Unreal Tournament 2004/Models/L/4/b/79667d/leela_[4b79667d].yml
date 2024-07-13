@@ -14,20 +14,23 @@ originalFilename: "leela_ut2k4.zip"
 hash: "4b79667d5830c0aed4ab6b77ade6f84051a77167"
 fileSize: 4077139
 files:
-- name: "Leelavoice.u"
-  fileSize: 3715348
-  hash: "5a98f00197092a8afa212f70b9170d11a226a2d4"
 - name: "Leela.utx"
   fileSize: 2863179
   hash: "893ca8aa34253425ac2f83ef808fff53e0b1cf8d"
-- name: "Leelaanim.ukx"
-  fileSize: 1283402
-  hash: "aa4e6cbc6654e6a205bafaa9292324fec9dfac9e"
 - name: "Leela.upl"
   fileSize: 634
   hash: "98fe4a90d8a30087d44cd33e4ed40b3922e38dbe"
+- name: "Leelavoice.u"
+  fileSize: 3715348
+  hash: "5a98f00197092a8afa212f70b9170d11a226a2d4"
+- name: "Leelaanim.ukx"
+  fileSize: 1283402
+  hash: "aa4e6cbc6654e6a205bafaa9292324fec9dfac9e"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Leelaanim.ukx:
+  - status: "OK"
+    name: "Leela"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Leela"

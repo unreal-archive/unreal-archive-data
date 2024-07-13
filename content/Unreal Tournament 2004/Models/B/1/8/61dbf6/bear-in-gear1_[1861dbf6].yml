@@ -23,17 +23,20 @@ originalFilename: "ut2k4-bearingear.zip"
 hash: "1861dbf680d7683b21c9c547973bb634b19d9c70"
 fileSize: 3861793
 files:
-- name: "bearingear1.upl"
-  fileSize: 1282
-  hash: "ac646a02c33e1e478bfc841d8005d83367ad30cf"
 - name: "bearingearanim.ukx"
   fileSize: 2944589
   hash: "b2157f910bad6e4716127f9caae908fc19b6d018"
+- name: "bearingear1.upl"
+  fileSize: 1282
+  hash: "ac646a02c33e1e478bfc841d8005d83367ad30cf"
 - name: "bearingeartex.utx"
   fileSize: 6294076
   hash: "e3c582368f14af7209351103c0cc9ed9d9bb0bc4"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  bearingearanim.ukx:
+  - status: "OK"
+    name: "bearingeartex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsB/"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bear in gear1"

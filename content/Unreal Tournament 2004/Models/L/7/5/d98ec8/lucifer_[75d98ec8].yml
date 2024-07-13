@@ -17,20 +17,23 @@ originalFilename: "ut2004mdllucifer.zip"
 hash: "75d98ec868ec4920762da4fc4e6246e2d02eef27"
 fileSize: 4081683
 files:
-- name: "Lucifertex.utx"
-  fileSize: 5813308
-  hash: "9690be28e4732e10255e27d9b0cfb2433ce9a5d0"
-- name: "Lucifer.ka"
-  fileSize: 50584
-  hash: "0e89d3575ae58301956a06f39b4436742dc604cb"
 - name: "Lucifer.upl"
   fileSize: 672
   hash: "26dc3ab4753f241d76300bd77ee2b2111d080332"
+- name: "Lucifer.ka"
+  fileSize: 50584
+  hash: "0e89d3575ae58301956a06f39b4436742dc604cb"
+- name: "Lucifertex.utx"
+  fileSize: 5813308
+  hash: "9690be28e4732e10255e27d9b0cfb2433ce9a5d0"
 - name: "Lucifer.ukx"
   fileSize: 2614775
   hash: "3f69e37e485eecd0fb9a0d50298254af6d4bebb9"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Lucifer.ukx:
+  - status: "OK"
+    name: "Lucifertex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsL/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lucifer"

@@ -14,17 +14,20 @@ originalFilename: "ut2k4pandarian_brewmaster.zip"
 hash: "a2be99f4c4daefa5d23c9c614b0a1ba80942c342"
 fileSize: 639643
 files:
-- name: "pandatexs.utx"
-  fileSize: 1923583
-  hash: "4f1f4d0618803dfcf980f940bf9489a24cd42985"
 - name: "pandaanims.ukx"
   fileSize: 409061
   hash: "917eb2b81da3b8fa45a226e9c74441e6a31f26ea"
+- name: "pandatexs.utx"
+  fileSize: 1923583
+  hash: "4f1f4d0618803dfcf980f940bf9489a24cd42985"
 - name: "panda.upl"
   fileSize: 234
   hash: "254be8fbd528d5311c9caf6aec2bb108c8f7e555"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  pandaanims.ukx:
+  - status: "OK"
+    name: "pandatexs"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsP/"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Panda"

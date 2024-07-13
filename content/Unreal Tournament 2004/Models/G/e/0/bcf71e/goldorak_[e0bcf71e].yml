@@ -26,17 +26,20 @@ originalFilename: "ut2mdl-alcorrobots.zip"
 hash: "e0bcf71e9c74e752c93469953a0beb94f149c531"
 fileSize: 5171570
 files:
-- name: "alcor_robot_male.ukx"
-  fileSize: 1335531
-  hash: "a57c5cc394d9324e3b2b7c0f9e9882fc6fd11ae5"
 - name: "alcor_robot.utx"
   fileSize: 14482642
   hash: "3a459a2d08376b635967a3b748f24398b5499206"
+- name: "alcor_robot_male.ukx"
+  fileSize: 1335531
+  hash: "a57c5cc394d9324e3b2b7c0f9e9882fc6fd11ae5"
 - name: "alcor_robot_male.upl"
   fileSize: 1137
   hash: "facdcc1765b6ace90199e7b8806720c5ac456c19"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  alcor_robot_male.ukx:
+  - status: "OK"
+    name: "alcor_robot"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-alcorrobots.zip"
   direct: true
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Goldorak"

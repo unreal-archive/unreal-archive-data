@@ -17,20 +17,23 @@ originalFilename: "ut2k4-twilight.zip"
 hash: "254e3919d1392485b643705421af296a6592c3b8"
 fileSize: 5164475
 files:
+- name: "RoboBunny.upl"
+  fileSize: 269
+  hash: "e2254e5da2772c91375c7018eed70186a076f2aa"
+- name: "BunnyTextures.utx"
+  fileSize: 16080897
+  hash: "4f8fc2682bad2719fd3735316b153baa99e7d3b7"
 - name: "Twilight.upl"
   fileSize: 259
   hash: "9a39418b1cd91b2deaccf5f22b70a33790f5b066"
 - name: "BunnyAnims.ukx"
   fileSize: 1223636
   hash: "af7c6b5111bb266fa3f9d7befb3ad7e501645fc0"
-- name: "BunnyTextures.utx"
-  fileSize: 16080897
-  hash: "4f8fc2682bad2719fd3735316b153baa99e7d3b7"
-- name: "RoboBunny.upl"
-  fileSize: 269
-  hash: "e2254e5da2772c91375c7018eed70186a076f2aa"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  BunnyAnims.ukx:
+  - status: "OK"
+    name: "BunnyTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Twilight"

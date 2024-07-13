@@ -11,23 +11,26 @@ originalFilename: "Quake4WeaponPackv2.zip"
 hash: "8cd1eb4d23a36d59cb1c96de1709d950b2d9fea1"
 fileSize: 18657425
 files:
-- name: "Quake4WeaponPackv2.u"
-  fileSize: 303779
-  hash: "b83b3076ff94ab0428108388c01eb6e1e3d2cf67"
-- name: "q4_textures_v2.utx"
-  fileSize: 12510448
-  hash: "fd9507151e3739bb9ca8cfdeded7e674ee664e3d"
 - name: "q4_staticmeshes_v2.usx"
   fileSize: 1027963
   hash: "d11555ae2204982492e3315ba7e380aeff4bd22b"
 - name: "q4_sounds_v1.uax"
   fileSize: 11107033
   hash: "d58adb887f3a4f904c26eaf97efdd45c6a869dd4"
+- name: "Quake4WeaponPackv2.u"
+  fileSize: 303779
+  hash: "b83b3076ff94ab0428108388c01eb6e1e3d2cf67"
+- name: "q4_textures_v2.utx"
+  fileSize: 12510448
+  hash: "fd9507151e3739bb9ca8cfdeded7e674ee664e3d"
 - name: "q4_weapon_anims_v2.ukx"
   fileSize: 3594883
   hash: "1951c5ceba80e0a371de807b7b82500de57da5d1"
 otherFiles: 3
 dependencies:
+  q4_weapon_anims_v2.ukx:
+  - status: "OK"
+    name: "q4_sounds_v1"
   Quake4WeaponPackv2.u:
   - status: "OK"
     name: "q4_weapon_anims_v2"
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators: []
 weapons:

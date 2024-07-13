@@ -26,17 +26,14 @@ files:
 - name: "armorguy.ukx"
   fileSize: 1175626
   hash: "3f65e7e2dafdec57d3b1ae9c974b03d0bfc0f483"
-- name: "armorguy.upl"
-  fileSize: 378
-  hash: "a3196311053f6496e4387afed13059a48a23cb95"
 - name: "armorguy.utx"
   fileSize: 2661950
   hash: "3768afd7e4557e31b2c22d5ddb1a642a74b08823"
+- name: "armorguy.upl"
+  fileSize: 378
+  hash: "a3196311053f6496e4387afed13059a48a23cb95"
 otherFiles: 5
-dependencies:
-  armorguy.utx:
-  - status: "MISSING"
-    name: "HumanMaleA"
+dependencies: {}
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/armorguy.zip"
   direct: true
@@ -54,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "armorguy"

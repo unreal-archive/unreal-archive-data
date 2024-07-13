@@ -17,12 +17,12 @@ originalFilename: "cerberusbombar.zip"
 hash: "a87f6de90494f9a4cf780e3c5d5da6a3b566b5fe"
 fileSize: 1616579
 files:
-- name: "Kore_Vehicles.ukx"
-  fileSize: 413864
-  hash: "1a4379c32d1c12978f0d711529bdaf628fb309ac"
 - name: "Kore_SM.usx"
   fileSize: 307307
   hash: "61e3dfd01c3525c6a759916894f038de9c015848"
+- name: "Kore_Vehicles.ukx"
+  fileSize: 413864
+  hash: "1a4379c32d1c12978f0d711529bdaf628fb309ac"
 - name: "Kore_Vehicle.u"
   fileSize: 43923
   hash: "0a4f89f5819f65daeff06d59955db7e4a4fc3039"
@@ -32,7 +32,7 @@ files:
 otherFiles: 4
 dependencies:
   Kore_Vehicle.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "Kore_Vehicles"
   - status: "OK"
     name: "Kore_Tex"
@@ -55,6 +55,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Cerberus Mutator"

@@ -17,17 +17,20 @@ originalFilename: "ut2mdl-delta.zip"
 hash: "96acdc0aaeee9281ccd77cab5d717beee3618d7c"
 fileSize: 3565007
 files:
-- name: "DeltaTex.utx"
-  fileSize: 5725917
-  hash: "e39d8729f479cc873a086f55ad9bf32b94f5a9c8"
-- name: "Delta.UPL"
-  fileSize: 352
-  hash: "6d8f6fea3ad7a2714c2891b9d1e51bd5e52dff51"
 - name: "DeltaAnim.ukx"
   fileSize: 1335029
   hash: "df8dd77e504979eb606b6b590de5f04e20acb6ed"
+- name: "Delta.UPL"
+  fileSize: 352
+  hash: "6d8f6fea3ad7a2714c2891b9d1e51bd5e52dff51"
+- name: "DeltaTex.utx"
+  fileSize: 5725917
+  hash: "e39d8729f479cc873a086f55ad9bf32b94f5a9c8"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  DeltaAnim.ukx:
+  - status: "OK"
+    name: "DeltaTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-delta.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Delta"

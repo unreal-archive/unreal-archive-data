@@ -17,14 +17,17 @@ files:
 - name: "FurryFury.upl"
   fileSize: 341
   hash: "6f131028ad88f497bdda2cfd9177f5ac2df208c3"
-- name: "FurryFury.ukx"
-  fileSize: 386802
-  hash: "429a841d1d9fe11cb6bd837100905d8608e6c386"
 - name: "KittyTextures.utx"
   fileSize: 1639455
   hash: "cbd288302171e3ea05657ee72d06ef532cc356ed"
+- name: "FurryFury.ukx"
+  fileSize: 386802
+  hash: "429a841d1d9fe11cb6bd837100905d8608e6c386"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  FurryFury.ukx:
+  - status: "OK"
+    name: "KittyTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kitty.rar"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Kitty"

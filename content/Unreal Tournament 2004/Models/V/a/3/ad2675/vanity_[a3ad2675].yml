@@ -27,14 +27,19 @@ files:
 - name: "LittleEris.ka"
   fileSize: 26175
   hash: "c6d5c55dd2b767befb502e0e46eac65d8f32f0bc"
-- name: "Vanity.upl"
-  fileSize: 731
-  hash: "e7e147e48c1a83bcf7f8326d7490639843ab41f0"
 - name: "SPECIES_Vanity.u"
   fileSize: 281444
   hash: "4037efbd6463b31e193dc0c8a8a38848a0238fb6"
+- name: "Vanity.upl"
+  fileSize: 731
+  hash: "e7e147e48c1a83bcf7f8326d7490639843ab41f0"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  VanityAnim.ukx:
+  - status: "OK"
+    name: "Vanity"
+  - status: "OK"
+    name: "SPECIES_Vanity"
 downloads:
 - url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Models/V/a/3/ad2675/ut2k4mdl-vanity_.7z"
   direct: true
@@ -52,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Vanity"

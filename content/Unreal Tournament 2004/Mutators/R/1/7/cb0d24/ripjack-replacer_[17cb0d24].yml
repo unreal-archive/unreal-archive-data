@@ -12,21 +12,21 @@ originalFilename: "RipJack.7z"
 hash: "17cb0d24e9fd67b0df534f5cd6ae185bc8c1751d"
 fileSize: 1532355
 files:
-- name: "Ripjack.u"
-  fileSize: 65959
-  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
-- name: "ripjackSounds.uax"
-  fileSize: 594868
-  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
-- name: "ripjackSM.usx"
-  fileSize: 378267
-  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
 - name: "ripjackTex.utx"
   fileSize: 3030389
   hash: "21be7b3b41eae9e4b98974e0dee442ec1bd1e3d3"
 - name: "ripjackAnim.ukx"
   fileSize: 660717
   hash: "133d6b8c2ce143c1193b69ecb07acf331cc224a3"
+- name: "ripjackSM.usx"
+  fileSize: 378267
+  hash: "00adb25bf464e34e9df90bf4ea613c29269be3bc"
+- name: "Ripjack.u"
+  fileSize: 65959
+  hash: "00f8ec99af71b82875b33123ca9c7614fae3ca65"
+- name: "ripjackSounds.uax"
+  fileSize: 594868
+  hash: "d7254f05331f1fee890aa350d50702c3109afc26"
 otherFiles: 3
 dependencies:
   ripjackSM.usx:
@@ -39,8 +39,11 @@ dependencies:
     name: "ripjackTex"
   - status: "OK"
     name: "ripjackSM"
-  - status: "MISSING"
+  - status: "OK"
     name: "ripjackAnim"
+  ripjackAnim.ukx:
+  - status: "OK"
+    name: "ripjackTex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/R/1/7/cb0d24/RipJack.7z"
   direct: true
@@ -58,6 +61,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Ripjack Replacer"

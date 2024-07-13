@@ -14,17 +14,20 @@ originalFilename: "ut2003mdl-fatimaauxo.zip"
 hash: "32d705f75a86c4d689ec72cb7fcbca39aae6ef4c"
 fileSize: 1142594
 files:
-- name: "xplayersFatimaAuxo.upl"
-  fileSize: 353
-  hash: "cdcd496984141f9bb4d885046f378d50442b3bfd"
 - name: "FatimaAuxoSkins.utx"
   fileSize: 5768938
   hash: "b6f3cbb69e784409162f3349d2a2b3dca25c234d"
 - name: "FatimaAuxo.ukx"
   fileSize: 448330
   hash: "3b7b5963af8cc597e4c4aa3565b58dd686c8f17c"
+- name: "xplayersFatimaAuxo.upl"
+  fileSize: 353
+  hash: "cdcd496984141f9bb4d885046f378d50442b3bfd"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  FatimaAuxo.ukx:
+  - status: "OK"
+    name: "FatimaAuxoSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2003mdl-fatimaauxo.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Auxo"

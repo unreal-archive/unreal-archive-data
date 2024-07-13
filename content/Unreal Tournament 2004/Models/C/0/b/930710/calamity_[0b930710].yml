@@ -17,26 +17,29 @@ originalFilename: "ut2k4mdl_calamity.zip"
 hash: "0b93071048bc6f65b6b7f2b0f66babcf79413d9d"
 fileSize: 8673139
 files:
-- name: "Calamity.utx"
-  fileSize: 13427833
-  hash: "5ab564ccfa70cd64c6a30b27f01522b82af53fac"
-- name: "CalamityAnim.ukx"
-  fileSize: 2107917
-  hash: "bdb99be10a77918dada29f726b82decda3001974"
-- name: "Calamity.ka"
-  fileSize: 26167
-  hash: "1fc9553dc24582fd44cd86b88925aacccdee5569"
 - name: "CalamityForOnLine.upl"
   fileSize: 1638
   hash: "7e014ace970a4b6a92b46b317f40d822acc4c592"
 - name: "Calamity.upl"
   fileSize: 1602
   hash: "9ac70538f103db71d2776d7341db64330badadf2"
+- name: "CalamityAnim.ukx"
+  fileSize: 2107917
+  hash: "bdb99be10a77918dada29f726b82decda3001974"
+- name: "Calamity.utx"
+  fileSize: 13427833
+  hash: "5ab564ccfa70cd64c6a30b27f01522b82af53fac"
+- name: "Calamity.ka"
+  fileSize: 26167
+  hash: "1fc9553dc24582fd44cd86b88925aacccdee5569"
 - name: "SPECIES_Calamity.u"
   fileSize: 270508
   hash: "cd1c929c8c03fe1f36146799aecd78fcabbd2734"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  CalamityAnim.ukx:
+  - status: "OK"
+    name: "Calamity"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsC/"
   direct: false

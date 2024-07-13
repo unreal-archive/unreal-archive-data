@@ -14,17 +14,20 @@ originalFilename: "ut2k4mdlageha.zip"
 hash: "ff60e9c5cad858d702c7a331a652a0060662e93a"
 fileSize: 3716778
 files:
-- name: "AgehaAnim2k4.ukx"
-  fileSize: 1453805
-  hash: "bbb29ba23af9b342b1ed6967c634134e4ca13765"
 - name: "Ageha.utx"
   fileSize: 7404371
   hash: "0c2a2307c5b2a22e2a7dd9fcb6ef2ff7dabac39c"
 - name: "Ageha.upl"
   fileSize: 797
   hash: "3b9e363b18592f0c8e6ffc629515a0b6c7af23a0"
+- name: "AgehaAnim2k4.ukx"
+  fileSize: 1453805
+  hash: "bbb29ba23af9b342b1ed6967c634134e4ca13765"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  AgehaAnim2k4.ukx:
+  - status: "OK"
+    name: "Ageha"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false

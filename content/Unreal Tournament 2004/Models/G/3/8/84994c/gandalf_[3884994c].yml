@@ -14,17 +14,20 @@ originalFilename: "gandalf.zip"
 hash: "3884994cb94a83e0a99b6f1c22248d339e639070"
 fileSize: 2026894
 files:
-- name: "Gandalf.upl"
-  fileSize: 262
-  hash: "b44ca55908ef03269bdff7c0eb33cb1d1f56d477"
-- name: "GandalfTextures.utx"
-  fileSize: 6292266
-  hash: "ed2d39409108bb69a96eef5b1fdac522a5d9b91b"
 - name: "GandalfAnim.ukx"
   fileSize: 879156
   hash: "5c327b3eec6240fd3419e2e61be0777e36b2a535"
+- name: "GandalfTextures.utx"
+  fileSize: 6292266
+  hash: "ed2d39409108bb69a96eef5b1fdac522a5d9b91b"
+- name: "Gandalf.upl"
+  fileSize: 262
+  hash: "b44ca55908ef03269bdff7c0eb33cb1d1f56d477"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  GandalfAnim.ukx:
+  - status: "OK"
+    name: "GandalfTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/gandalf.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Gandalf"

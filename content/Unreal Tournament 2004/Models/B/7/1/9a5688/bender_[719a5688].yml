@@ -18,20 +18,23 @@ files:
 - name: "BenderVpack.u"
   fileSize: 2791047
   hash: "7662b1969e44743b7a06556c5f31c1d626fed955"
-- name: "Bender.ukx"
-  fileSize: 1541611
-  hash: "5d4eb132abe002aad05e8782ed3b153676e5cf53"
 - name: "bender.ka"
   fileSize: 52744
   hash: "70501fc3f3dab0973695cca823cc5fb7458c5639"
-- name: "BenderSkins.utx"
-  fileSize: 7518030
-  hash: "6ac6ba70fdb1e75fae28bfb8fc6d86b1c1fd50e9"
 - name: "Bender.upl"
   fileSize: 331
   hash: "45f25b76a6e35cac996cd0d798ba4c0bc60e1bc1"
+- name: "Bender.ukx"
+  fileSize: 1541611
+  hash: "5d4eb132abe002aad05e8782ed3b153676e5cf53"
+- name: "BenderSkins.utx"
+  fileSize: 7518030
+  hash: "6ac6ba70fdb1e75fae28bfb8fc6d86b1c1fd50e9"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Bender.ukx:
+  - status: "OK"
+    name: "BenderSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/bender3knew.zip"
   direct: true
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Bender"

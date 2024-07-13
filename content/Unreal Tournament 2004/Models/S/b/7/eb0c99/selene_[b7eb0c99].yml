@@ -11,17 +11,20 @@ originalFilename: "ut2k3skn-selene.zip"
 hash: "b7eb0c994c5eef194b0fbdedd01996886e08ff3b"
 fileSize: 3047104
 files:
-- name: "Selene.ukx"
-  fileSize: 1751449
-  hash: "e843b046f258e840b4dcb29c9d8aa996dc64a2e7"
 - name: "Selene_tex1.utx"
   fileSize: 8063485
   hash: "9f94f2e378150d0bfabf9301a65e64e41f9562ad"
 - name: "xplayersSelene.upl"
   fileSize: 331
   hash: "ff393f86000baca4f94c61fbb2c0ed177002dc00"
+- name: "Selene.ukx"
+  fileSize: 1751449
+  hash: "e843b046f258e840b4dcb29c9d8aa996dc64a2e7"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  Selene.ukx:
+  - status: "OK"
+    name: "Selene_tex1"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k3skn-selene.zip"
   direct: true
@@ -39,6 +42,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Selene"

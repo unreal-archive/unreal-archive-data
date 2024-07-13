@@ -27,20 +27,26 @@ originalFilename: "momo_ut2k4.zip"
 hash: "fb2cfff5fc58d746a5049480d7cf2df4f38db693"
 fileSize: 3586072
 files:
-- name: "Momo.utx"
-  fileSize: 8053978
-  hash: "e242f6eee1134fa0fedd8dee9b789b9a4eb2090d"
-- name: "Momo.upl"
-  fileSize: 691
-  hash: "5b4a4df63cf88e8bb910bb1c4a80f91200d5db5a"
-- name: "Momot.ukx"
-  fileSize: 4139736
-  hash: "0b47cf085797303b2cd18f18d79db9299d388be6"
 - name: "Momos.ukx"
   fileSize: 4139710
   hash: "37d82ad1dc7ebf066a5265b755ab33ef40a1c624"
+- name: "Momo.utx"
+  fileSize: 8053978
+  hash: "e242f6eee1134fa0fedd8dee9b789b9a4eb2090d"
+- name: "Momot.ukx"
+  fileSize: 4139736
+  hash: "0b47cf085797303b2cd18f18d79db9299d388be6"
+- name: "Momo.upl"
+  fileSize: 691
+  hash: "5b4a4df63cf88e8bb910bb1c4a80f91200d5db5a"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  Momot.ukx:
+  - status: "OK"
+    name: "Momo"
+  Momos.ukx:
+  - status: "OK"
+    name: "Momo"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -64,6 +70,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "MOMO"

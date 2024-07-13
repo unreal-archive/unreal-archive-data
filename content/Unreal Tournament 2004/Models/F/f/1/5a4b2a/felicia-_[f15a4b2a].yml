@@ -17,12 +17,12 @@ originalFilename: "ut2mdl-dstlk-B6.zip"
 hash: "f15a4b2a656b56ac14898b800459f6951180d71f"
 fileSize: 8898599
 files:
-- name: "DarkStalkerTex.utx"
-  fileSize: 7196007
-  hash: "4ea0f7a2b1a0a4088e4924ac6827903a588a779e"
 - name: "DSTLK_Species.u"
   fileSize: 1418037
   hash: "071c2a6b4306d93faa8c5cc5889d8835ea1c61a1"
+- name: "DarkStalkerTex.utx"
+  fileSize: 7196007
+  hash: "4ea0f7a2b1a0a4088e4924ac6827903a588a779e"
 - name: "DarkStalkers.ukx"
   fileSize: 7854380
   hash: "a562fc112ba5f677751413d87bab2de4ff750a05"
@@ -30,7 +30,10 @@ files:
   fileSize: 3332
   hash: "dbc1a055ad23e21419caeba772f151ba35ec2973"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  DarkStalkers.ukx:
+  - status: "OK"
+    name: "DarkStalkerTex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/F/f/1/5a4b2a/ut2mdl-dstlk-B6.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Felicia-"

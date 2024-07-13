@@ -11,20 +11,17 @@ originalFilename: "anubis_ut2k4.zip"
 hash: "6223bf4de40438c0f3cc4acb78c0a661f839fbe8"
 fileSize: 4128983
 files:
-- name: "Anubis.ukx"
-  fileSize: 3982519
-  hash: "6c0e31937b21174636e0b1d35fb3ed3d059908ad"
 - name: "Anubis.upl"
   fileSize: 333
   hash: "bcf5b3695780fee613b91f6a266f57635e1ed3ed"
 - name: "Anubis.utx"
   fileSize: 3434487
   hash: "c49d322d2a9cc76dc0f4e3f52bea9cb7ca029af1"
+- name: "Anubis.ukx"
+  fileSize: 3982519
+  hash: "6c0e31937b21174636e0b1d35fb3ed3d059908ad"
 otherFiles: 1
-dependencies:
-  Anubis.utx:
-  - status: "MISSING"
-    name: "Aliens"
+dependencies: {}
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/anubis_ut2k4.zip"
   direct: true
@@ -42,6 +39,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Anubis"

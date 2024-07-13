@@ -11,12 +11,15 @@ originalFilename: "ut2k4-vaptor.zip"
 hash: "a794044851e9d968c4895f23b84ad668de4dffc8"
 fileSize: 4381692
 files:
-- name: "VAPTORtex.utx"
-  fileSize: 1750628
-  hash: "f6ef481866a6b477933b0819bd9d888fdc7b010c"
+- name: "Vantor.ukx"
+  fileSize: 4766395
+  hash: "ee1efa2ac7ef43774c2728501a2cea523c94a46a"
 - name: "Skyshark.upl"
   fileSize: 1483
   hash: "b24abc751aab8ad5c7f7643ec6239830c621a181"
+- name: "VAPTORtex.utx"
+  fileSize: 1750628
+  hash: "f6ef481866a6b477933b0819bd9d888fdc7b010c"
 - name: "SSHARK.ukx"
   fileSize: 196368
   hash: "461204a93b8cba3314359329172160c34718dd4a"
@@ -26,14 +29,14 @@ files:
 - name: "SKYSHARK.utx"
   fileSize: 154076
   hash: "5383f3e2face205c83c52282304e569bf53753e5"
-- name: "Vantor.ukx"
-  fileSize: 4766395
-  hash: "ee1efa2ac7ef43774c2728501a2cea523c94a46a"
 - name: "VAPTOR.upl"
   fileSize: 1509
   hash: "bf2ace16f8151c9ed3e7ba8f7d05c5189a09d59c"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  SSHARK.ukx:
+  - status: "OK"
+    name: "SKYSHARK"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsV/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "skyshark1"

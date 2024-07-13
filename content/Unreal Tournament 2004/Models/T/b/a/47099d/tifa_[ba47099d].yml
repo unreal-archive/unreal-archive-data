@@ -14,17 +14,20 @@ originalFilename: "ut2k4-tifa.zip"
 hash: "ba47099ddec9eba4efaefe110f416d6b35fa38b0"
 fileSize: 421619
 files:
-- name: "TifaMesh.ukx"
-  fileSize: 284181
-  hash: "4e97134ebc816c28079848a05251370fff91f9db"
 - name: "TifaTex.utx"
   fileSize: 874965
   hash: "008e618f9ce64e4f2f0b7ee4f7eaf0791dabd249"
+- name: "TifaMesh.ukx"
+  fileSize: 284181
+  hash: "4e97134ebc816c28079848a05251370fff91f9db"
 - name: "Tifa.upl"
   fileSize: 307
   hash: "d079cc205ee6ba2ab70c8ccabe9d2ae5c08581cb"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  TifaMesh.ukx:
+  - status: "OK"
+    name: "TifaTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tifa"

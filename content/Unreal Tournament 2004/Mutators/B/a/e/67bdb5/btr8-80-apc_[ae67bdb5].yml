@@ -18,27 +18,24 @@ files:
 - name: "BTR80v2Static.usx"
   fileSize: 2366959
   hash: "53f59703ea5e379729723c948709869b3490c800"
-- name: "BTR80v2Sound.uax"
-  fileSize: 1444027
-  hash: "bd85d5d54ed6f804559e98fdc0045f738754d096"
-- name: "BTR80v2Anim.ukx"
-  fileSize: 1091162
-  hash: "bf3a14295af25d4fc6fee507793601147ee4eb9c"
-- name: "BTR80v2Tex.utx"
-  fileSize: 7342029
-  hash: "ee617ef7da06220d8a958ad39520d8fe8afb0d53"
-- name: "watercraft-TX.utx"
-  fileSize: 260205
-  hash: "d70e7e76a7e4450338c35fb7cf527748dc037a4f"
 - name: "BTR80v2.u"
   fileSize: 95752
   hash: "c6934cf6c3384c3630b938e599aecea4f82d2603"
+- name: "watercraft-TX.utx"
+  fileSize: 260205
+  hash: "d70e7e76a7e4450338c35fb7cf527748dc037a4f"
+- name: "BTR80v2Anim.ukx"
+  fileSize: 1091162
+  hash: "bf3a14295af25d4fc6fee507793601147ee4eb9c"
+- name: "BTR80v2Sound.uax"
+  fileSize: 1444027
+  hash: "bd85d5d54ed6f804559e98fdc0045f738754d096"
+- name: "BTR80v2Tex.utx"
+  fileSize: 7342029
+  hash: "ee617ef7da06220d8a958ad39520d8fe8afb0d53"
 otherFiles: 3
 dependencies:
   BTR80v2Static.usx:
-  - status: "OK"
-    name: "BTR80v2Tex"
-  BTR80v2Anim.ukx:
   - status: "OK"
     name: "BTR80v2Tex"
   BTR80v2.u:
@@ -52,6 +49,9 @@ dependencies:
     name: "watercraft-TX"
   - status: "OK"
     name: "BTR80v2Sound"
+  BTR80v2Anim.ukx:
+  - status: "OK"
+    name: "BTR80v2Tex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/B/a/e/67bdb5/modern_warfare_vehicles.zip"
   direct: true

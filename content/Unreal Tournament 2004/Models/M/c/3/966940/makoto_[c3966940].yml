@@ -15,17 +15,20 @@ originalFilename: "ut2k4-makoto.zip"
 hash: "c396694048034581b30d207ec729d00cca798b80"
 fileSize: 369080
 files:
-- name: "MakotoMesh.ukx"
-  fileSize: 362474
-  hash: "7026b6accf05658249fe382cf1022c779d8e54a5"
 - name: "MakotoTex.utx"
   fileSize: 530839
   hash: "d647e36ff83978ff2ac08dc1e4befdc6298d2bda"
+- name: "MakotoMesh.ukx"
+  fileSize: 362474
+  hash: "7026b6accf05658249fe382cf1022c779d8e54a5"
 - name: "Makoto.upl"
   fileSize: 715
   hash: "072d376fb941fb88ce6cdac974792ac2f40f96b8"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  MakotoMesh.ukx:
+  - status: "OK"
+    name: "MakotoTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsM/"
   direct: false
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Makoto"

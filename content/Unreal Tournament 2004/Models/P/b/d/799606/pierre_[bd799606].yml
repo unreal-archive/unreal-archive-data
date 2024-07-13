@@ -21,17 +21,20 @@ files:
 - name: "PierreSkins.utx"
   fileSize: 2885280
   hash: "dbdaacf1502b367532b1728b2a07f28507c7b4f9"
+- name: "Pierre.ut2mod"
+  fileSize: 6000162
+  hash: "231be665023d08c4749be06ae91048c705d6ad44"
 - name: "Pierre.ukx"
   fileSize: 728506
   hash: "96e1ba92679314dbadb19faf428250e8be917bef"
 - name: "Pierre.upl"
   fileSize: 336
   hash: "c9593b3f726a344d23c1b5e5008766df5a414c3b"
-- name: "Pierre.ut2mod"
-  fileSize: 6000162
-  hash: "231be665023d08c4749be06ae91048c705d6ad44"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Pierre.ukx:
+  - status: "OK"
+    name: "PierreSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/pierre_ut2k3.zip"
   direct: true
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Pierre"

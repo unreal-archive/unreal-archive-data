@@ -17,17 +17,20 @@ originalFilename: "tarja_ut2k4.zip"
 hash: "008a034faa3a70a1055a9d598d00583bbeef73d1"
 fileSize: 3468070
 files:
-- name: "Tarja.utx"
-  fileSize: 6296569
-  hash: "2d2c30eb4c66c63e606b68239c93995d6be473a8"
 - name: "Tarja.upl"
   fileSize: 260
   hash: "367947a64cd8b28b3b504044a247f5a39fb21975"
 - name: "TarjaAnim.ukx"
   fileSize: 1235087
   hash: "ca26ebcd63b895134f18c1b421e354d7bdd3487f"
+- name: "Tarja.utx"
+  fileSize: 6296569
+  hash: "2d2c30eb4c66c63e606b68239c93995d6be473a8"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  TarjaAnim.ukx:
+  - status: "OK"
+    name: "Tarja"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tarja"

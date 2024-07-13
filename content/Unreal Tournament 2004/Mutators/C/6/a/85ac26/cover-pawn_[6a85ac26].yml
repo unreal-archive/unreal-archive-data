@@ -11,9 +11,12 @@ originalFilename: "GearsofUT Alpha.7z"
 hash: "6a85ac26a014450663e629cf306462794e21d2e7"
 fileSize: 1555592
 files:
-- name: "CoverPawnSounds.uax"
-  fileSize: 340339
-  hash: "908438fd472e85c2e70a0dcc233e196ccb6c949b"
+- name: "CoverPawnStat.usx"
+  fileSize: 257406
+  hash: "052e4b9f365ca7a46877a963a7f3df4a76d66c86"
+- name: "CoverPawnTex.utx"
+  fileSize: 3231863
+  hash: "30f9a406d072917b420c7e2027a617d97a614b52"
 - name: "CoverPawnGame.u"
   fileSize: 391987
   hash: "21958d97897420cd2596feb31064c3e2057cab21"
@@ -23,12 +26,9 @@ files:
 - name: "Yarm_Karma.ka"
   fileSize: 58085
   hash: "a88856b6841fe3364a0afc599e561eab5fc6f920"
-- name: "CoverPawnStat.usx"
-  fileSize: 257406
-  hash: "052e4b9f365ca7a46877a963a7f3df4a76d66c86"
-- name: "CoverPawnTex.utx"
-  fileSize: 3231863
-  hash: "30f9a406d072917b420c7e2027a617d97a614b52"
+- name: "CoverPawnSounds.uax"
+  fileSize: 340339
+  hash: "908438fd472e85c2e70a0dcc233e196ccb6c949b"
 otherFiles: 3
 dependencies:
   CoverPawnStat.usx:
@@ -63,6 +63,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Cover Pawn"

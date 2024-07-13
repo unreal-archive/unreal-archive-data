@@ -17,17 +17,20 @@ originalFilename: "gena_ut2k4.zip"
 hash: "a0b778b539b9cc9a657da2201531b5ac5ab694d1"
 fileSize: 3564125
 files:
-- name: "GenaAnim.ukx"
-  fileSize: 1984753
-  hash: "6fadc9bd6b2422e32223c48ca8488fa7756dedaa"
 - name: "GenaTex.utx"
   fileSize: 5682395
   hash: "3e3cf3cddc545c3b44981de23c2289ef4bb67d93"
+- name: "GenaAnim.ukx"
+  fileSize: 1984753
+  hash: "6fadc9bd6b2422e32223c48ca8488fa7756dedaa"
 - name: "Gena.upl"
   fileSize: 323
   hash: "f8c9bcb4f49278d827527eea6d72699296122079"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  GenaAnim.ukx:
+  - status: "OK"
+    name: "GenaTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/gena_ut2k4.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Gena"

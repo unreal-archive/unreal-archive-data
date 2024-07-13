@@ -20,14 +20,17 @@ files:
 - name: "JHawk.ka"
   fileSize: 60678
   hash: "6ac2f954f784b68336c31631c0a3d2b0544d29cb"
-- name: "JayHawkAnimMesh.ukx"
-  fileSize: 2224357
-  hash: "00d01c2cf26510a663100d64ca077449f25a5b65"
 - name: "JayHawk.upl"
   fileSize: 337
   hash: "8d27bfb20e79d71f861efa74ff0588b844868ad9"
+- name: "JayHawkAnimMesh.ukx"
+  fileSize: 2224357
+  hash: "00d01c2cf26510a663100d64ca077449f25a5b65"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  JayHawkAnimMesh.ukx:
+  - status: "OK"
+    name: "MyPlayerSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsJ/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "JHawk"

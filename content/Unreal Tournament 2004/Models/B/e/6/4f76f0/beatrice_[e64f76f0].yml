@@ -21,14 +21,17 @@ files:
 - name: "Beatrice.ukx"
   fileSize: 1357340
   hash: "e7c77ade3ab36ae97f17117f4d713ed95eb06911"
-- name: "Beatrice.ut2mod"
-  fileSize: 11929708
-  hash: "3f0d7336c72f0f32f05578836f168a18546306f9"
 - name: "BeatriceSkins.utx"
   fileSize: 10450102
   hash: "778d4edd4414ae04e215d246f44e97d2e8b19f6b"
+- name: "Beatrice.ut2mod"
+  fileSize: 11929708
+  hash: "3f0d7336c72f0f32f05578836f168a18546306f9"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  Beatrice.ukx:
+  - status: "OK"
+    name: "BeatriceSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-beatrice.zip"
   direct: true
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Beatrice"

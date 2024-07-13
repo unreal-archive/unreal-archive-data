@@ -44,20 +44,23 @@ originalFilename: "YahtzeeUT2k4modelBeta2.zip"
 hash: "be6d1f50a57e0c215af9c8d17b93a918e0994176"
 fileSize: 1152736
 files:
-- name: "YahtzeeText.utx"
-  fileSize: 1539937
-  hash: "e83938fd2cf57ccf73c981c32705ce08419645a2"
-- name: "YahtzeePGBeta2.upl"
-  fileSize: 3035
-  hash: "fba5a6283bb55e532f24b1245776ada6ebd202cb"
 - name: "cellshader.utx"
   fileSize: 35443
   hash: "3596bb13151dfbdb2f9b796840f3714ec78d4242"
 - name: "YahtzeeAnim.ukx"
   fileSize: 901281
   hash: "3f120d81856b557ee9f091286b6787e83818f7d9"
+- name: "YahtzeePGBeta2.upl"
+  fileSize: 3035
+  hash: "fba5a6283bb55e532f24b1245776ada6ebd202cb"
+- name: "YahtzeeText.utx"
+  fileSize: 1539937
+  hash: "e83938fd2cf57ccf73c981c32705ce08419645a2"
 otherFiles: 1
 dependencies:
+  YahtzeeAnim.ukx:
+  - status: "OK"
+    name: "YahtzeeText"
   YahtzeeText.utx:
   - status: "OK"
     name: "cellshader"
@@ -78,6 +81,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Yahtzee"

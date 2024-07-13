@@ -11,17 +11,20 @@ originalFilename: "cho_ut2k4.zip"
 hash: "67ce3b2a6535e29cede3687045de3b367f9e1b94"
 fileSize: 2176634
 files:
-- name: "jmChars.upl"
-  fileSize: 339
-  hash: "64a06481fa8e27c11e39874b27f6b6b50f9dc5fe"
 - name: "jmTex.utx"
   fileSize: 4370643
   hash: "87e40c3daab45988dc86ee1a4d283e3047fdb195"
+- name: "jmChars.upl"
+  fileSize: 339
+  hash: "64a06481fa8e27c11e39874b27f6b6b50f9dc5fe"
 - name: "jmChars.ukx"
   fileSize: 1090175
   hash: "36c3677b1f4f1e1e765948be158d2cfd601cceb9"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  jmChars.ukx:
+  - status: "OK"
+    name: "jmTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsC/&file=cho_ut2k4.zip"
   direct: false
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Cho"

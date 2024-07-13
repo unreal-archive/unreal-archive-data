@@ -17,20 +17,23 @@ originalFilename: "ut2k3sailormoon.zip"
 hash: "8420fda33302ad34f88454d21d875d02e2c312c4"
 fileSize: 918235
 files:
-- name: "Species_Sailormoon.u"
-  fileSize: 5796
-  hash: "a1216fdaca5cd4c0af9e53d5a0ed2515ca62527a"
 - name: "Sailormoon.ukx"
   fileSize: 841166
   hash: "2a46f5e627abfeed7984490b23a977c9d8f414a0"
-- name: "Sailormoontex.utx"
-  fileSize: 2276826
-  hash: "50b464be36624256694db108b8affeec23c05b64"
 - name: "Sailormoon.upl"
   fileSize: 1317
   hash: "dd32fb92ec44b7ef08fe281e203a01380ba59df6"
+- name: "Species_Sailormoon.u"
+  fileSize: 5796
+  hash: "a1216fdaca5cd4c0af9e53d5a0ed2515ca62527a"
+- name: "Sailormoontex.utx"
+  fileSize: 2276826
+  hash: "50b464be36624256694db108b8affeec23c05b64"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Sailormoon.ukx:
+  - status: "OK"
+    name: "Sailormoontex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k3sailormoon.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "SailorMoon"

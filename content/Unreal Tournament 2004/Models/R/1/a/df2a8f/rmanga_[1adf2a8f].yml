@@ -60,20 +60,26 @@ originalFilename: "manga_spawnskinpackv2.zip"
 hash: "1adf2a8fb836dc0ab54a831efd04482ed224449d"
 fileSize: 5027322
 files:
-- name: "mangaX.utx"
-  fileSize: 15058945
-  hash: "69ea27dd6d37dddf9777be3a5522e5f2ca655a37"
-- name: "Manga.upl"
-  fileSize: 4048
-  hash: "2cc8dcee00187e389f284a81fccccdea7154539f"
-- name: "mangaD.ukx"
-  fileSize: 425424
-  hash: "dc2cd7b354cec484c7917bac86a85b127b5dee67"
 - name: "MangaB.ukx"
   fileSize: 406289
   hash: "c2bdc7bb5fb08f13cb5b2aa0ae9d9a6e10e822c4"
+- name: "mangaX.utx"
+  fileSize: 15058945
+  hash: "69ea27dd6d37dddf9777be3a5522e5f2ca655a37"
+- name: "mangaD.ukx"
+  fileSize: 425424
+  hash: "dc2cd7b354cec484c7917bac86a85b127b5dee67"
+- name: "Manga.upl"
+  fileSize: 4048
+  hash: "2cc8dcee00187e389f284a81fccccdea7154539f"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  MangaB.ukx:
+  - status: "OK"
+    name: "mangaX"
+  mangaD.ukx:
+  - status: "OK"
+    name: "mangaX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/manga_spawnskinpackv2.zip"
   direct: true
@@ -91,6 +97,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "RManga"

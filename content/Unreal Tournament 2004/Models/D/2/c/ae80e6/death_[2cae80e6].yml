@@ -17,17 +17,20 @@ originalFilename: "death_ut2k4.zip"
 hash: "2cae80e664077033db4fc422c3a4f9bca32a89c8"
 fileSize: 2106031
 files:
-- name: "DeathAnim.ukx"
-  fileSize: 1904893
-  hash: "7ca272850441e18264310e684f3c56790a5acc7c"
 - name: "Death.utx"
   fileSize: 787207
   hash: "f93b6ee94814fd3818d15261136b7e587bf258bb"
 - name: "Death.upl"
   fileSize: 273
   hash: "a83af7f4ba09f4126bb4b88a3ef7c0b90b09e4a7"
+- name: "DeathAnim.ukx"
+  fileSize: 1904893
+  hash: "7ca272850441e18264310e684f3c56790a5acc7c"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  DeathAnim.ukx:
+  - status: "OK"
+    name: "Death"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsD/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Death"

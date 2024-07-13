@@ -30,17 +30,20 @@ files:
 - name: "Beast_Shaders.upl"
   fileSize: 1571
   hash: "aacf060cab2c4da4a71076a9d4c14c4faa14be02"
-- name: "Beast.ut2mod"
-  fileSize: 13761011
-  hash: "85187d4640fdb7f24fd3102be390491c21939f6a"
 - name: "BeastT.utx"
   fileSize: 9443385
   hash: "8cc77910247c7660a95d5ba3a1c12125eff7d900"
 - name: "BeastA.ukx"
   fileSize: 4000493
   hash: "f20787c981300858c635df485700281cf6056e2a"
+- name: "Beast.ut2mod"
+  fileSize: 13761011
+  hash: "85187d4640fdb7f24fd3102be390491c21939f6a"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  BeastA.ukx:
+  - status: "OK"
+    name: "BeastT"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-beast_final.zip"
   direct: true
@@ -58,6 +61,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "The Old One"

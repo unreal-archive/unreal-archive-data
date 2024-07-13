@@ -29,20 +29,20 @@ originalFilename: "kryzalizcomic1rebuild.zip"
 hash: "c447f49bb70285621dc10554b61a52cac4f889b2"
 fileSize: 3905286
 files:
-- name: "KryzalizAnim.ukx"
-  fileSize: 2325385
-  hash: "1bd16cc801fcccb75905cbb1d64031542eaf21e2"
-- name: "KryzalizTex.utx"
-  fileSize: 4303066
-  hash: "3c3539c15a13147e3a6e09461b625b20bec1db20"
 - name: "Comic1.upl"
   fileSize: 1404
   hash: "d3b83f762e60781d48a797f513ed14a67262771e"
+- name: "KryzalizTex.utx"
+  fileSize: 4303066
+  hash: "3c3539c15a13147e3a6e09461b625b20bec1db20"
+- name: "KryzalizAnim.ukx"
+  fileSize: 2325385
+  hash: "1bd16cc801fcccb75905cbb1d64031542eaf21e2"
 otherFiles: 1
 dependencies:
-  KryzalizTex.utx:
-  - status: "MISSING"
-    name: "HumanMaleA"
+  KryzalizAnim.ukx:
+  - status: "OK"
+    name: "KryzalizTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kryzalizcomic1rebuild.zip"
   direct: true
@@ -60,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Batman"

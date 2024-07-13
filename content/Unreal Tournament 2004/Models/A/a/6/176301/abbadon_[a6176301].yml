@@ -17,14 +17,17 @@ files:
 - name: "Hobot.utx"
   fileSize: 2710989
   hash: "536142e950d7a4cf7349f31c3e118ea7cb7307cd"
-- name: "horobot.upl"
-  fileSize: 259
-  hash: "d631216efb707bb2113c5eff51107c810b66b14d"
 - name: "horobot.ukx"
   fileSize: 694807
   hash: "5f20d1bdbabfadf0b3b51496d54a12ce429e0358"
+- name: "horobot.upl"
+  fileSize: 259
+  hash: "d631216efb707bb2113c5eff51107c810b66b14d"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  horobot.ukx:
+  - status: "OK"
+    name: "Hobot"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsA/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Abbadon"

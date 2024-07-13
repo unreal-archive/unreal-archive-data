@@ -20,20 +20,23 @@ files:
 - name: "HitmanModel.ukx"
   fileSize: 337232
   hash: "78fcdef024017ad402f810d1947390fd031a531e"
-- name: "AgentSmith.u"
-  fileSize: 1174163
-  hash: "4cf15621b1cf7f09622edd19a92256767b8250e2"
 - name: "AgentSmith.upl"
   fileSize: 430
   hash: "aa9fb8df73d8c645bbe7975bf838b5cc800c51e5"
-- name: "MeToo.upl"
-  fileSize: 425
-  hash: "cc33b8d4d45c0ebd80ec4478fdfcfb47dd1eaf89"
+- name: "AgentSmith.u"
+  fileSize: 1174163
+  hash: "4cf15621b1cf7f09622edd19a92256767b8250e2"
 - name: "AgentSmithTextures.utx"
   fileSize: 1137105
   hash: "25f6221226f76726af6752e720e1cf78e021f91a"
+- name: "MeToo.upl"
+  fileSize: 425
+  hash: "cc33b8d4d45c0ebd80ec4478fdfcfb47dd1eaf89"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  HitmanModel.ukx:
+  - status: "OK"
+    name: "AgentSmithTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/agentsmith2.0.zip"
   direct: true
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Agent_Smith"

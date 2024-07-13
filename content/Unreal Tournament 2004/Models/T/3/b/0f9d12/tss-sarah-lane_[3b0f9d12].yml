@@ -15,17 +15,20 @@ originalFilename: "tss-saralane4_ut2k4.zip"
 hash: "3b0f9d12d91e7c4451934f7ace09d89271a6e927"
 fileSize: 3219658
 files:
+- name: "TSSSaraSkins01.utx"
+  fileSize: 6119410
+  hash: "36d3a1233e9fc81df2a3b0f7d8a98bb9cbdbc0a9"
 - name: "TSSSarah01.ukx"
   fileSize: 1627675
   hash: "81dfcdfd2d9207b8a7363fbd923dd2a8eae430dd"
 - name: "TSS-Sarah.upl"
   fileSize: 422
   hash: "5fc4cf98d53fec1bf4c33634fc1c702dfc6390b3"
-- name: "TSSSaraSkins01.utx"
-  fileSize: 6119410
-  hash: "36d3a1233e9fc81df2a3b0f7d8a98bb9cbdbc0a9"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  TSSSarah01.ukx:
+  - status: "OK"
+    name: "TSSSaraSkins01"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "TSS Sarah Lane"

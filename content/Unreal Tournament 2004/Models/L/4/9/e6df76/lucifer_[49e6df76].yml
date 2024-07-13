@@ -21,17 +21,20 @@ files:
 - name: "Lucifertex.utx"
   fileSize: 7167798
   hash: "2acfa0b246c2713da1a0399d4f8b6d6e22bf5ac6"
-- name: "Lucifer.ka"
-  fileSize: 47149
-  hash: "4956bee755f7caa830838cad5070aa6c335861b5"
 - name: "Lucifer.ukx"
   fileSize: 2766444
   hash: "d63d99852aee74434fa56ba00a1071e44f675328"
+- name: "Lucifer.ka"
+  fileSize: 47149
+  hash: "4956bee755f7caa830838cad5070aa6c335861b5"
 - name: "Lucifer.upl"
   fileSize: 302
   hash: "230dc859c79e43b92cd35d973d9f51e8e35c2ee0"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Lucifer.ukx:
+  - status: "OK"
+    name: "Lucifertex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-lucifer.zip"
   direct: true
@@ -49,6 +52,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lucifer"

@@ -14,17 +14,20 @@ originalFilename: "ut2003mdl-denanzon.zip"
 hash: "5dfb6e4f7b78583e823a675feac15303e46194e7"
 fileSize: 1083971
 files:
+- name: "DenanZon.ukx"
+  fileSize: 211011
+  hash: "309ae7131531be5b18f5c163c1716ff51b267f80"
 - name: "DenanZonSkins.utx"
   fileSize: 4808787
   hash: "37a7dc10acd7af774f15b1c4af2d1f141b003364"
 - name: "xplayersDenanZon.upl"
   fileSize: 295
   hash: "958b2434a58db1367e6a95e1fa3af6135c5f8320"
-- name: "DenanZon.ukx"
-  fileSize: 211011
-  hash: "309ae7131531be5b18f5c163c1716ff51b267f80"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  DenanZon.ukx:
+  - status: "OK"
+    name: "DenanZonSkins"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2003mdl-denanzon.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Denan'Zon"

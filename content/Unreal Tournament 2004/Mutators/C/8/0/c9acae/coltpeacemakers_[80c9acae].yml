@@ -14,6 +14,9 @@ files:
 - name: "wildwestpak__animations.ukx"
   fileSize: 1089889
   hash: "bae21f146f00b97bbda7b8a1693324765373d099"
+- name: "wildwest_staticmeshes.usx"
+  fileSize: 310643
+  hash: "dd961c3e48603991b098f34f048602c852fac0c6"
 - name: "wildwest_sounds.uax"
   fileSize: 268111
   hash: "203c302e6355645a89c6344ca5ba267b0c5cc26f"
@@ -23,11 +26,11 @@ files:
 - name: "WildwestSkins.utx"
   fileSize: 504031
   hash: "9b872ca4ad05aa76d28c560cb067fdb88652123d"
-- name: "wildwest_staticmeshes.usx"
-  fileSize: 310643
-  hash: "dd961c3e48603991b098f34f048602c852fac0c6"
 otherFiles: 2
 dependencies:
+  wildwestpak__animations.ukx:
+  - status: "OK"
+    name: "WildwestSkins"
   WildWest_v101.u:
   - status: "OK"
     name: "WildwestSkins"
@@ -35,7 +38,7 @@ dependencies:
     name: "wildwest_staticmeshes"
   - status: "OK"
     name: "wildwest_sounds"
-  - status: "MISSING"
+  - status: "OK"
     name: "wildwestpak__animations"
   wildwest_staticmeshes.usx:
   - status: "OK"
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Replaces the Shock Rifle with the Colt."

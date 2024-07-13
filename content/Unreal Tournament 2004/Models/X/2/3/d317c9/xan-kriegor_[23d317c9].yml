@@ -89,32 +89,41 @@ originalFilename: "liandribot_ut2k4.zip"
 hash: "23d317c9693ff829e6fd488df00edbb0add0c1a0"
 fileSize: 47226913
 files:
-- name: "XanMCTanim.ukx"
-  fileSize: 543618
-  hash: "ac4f7cf1d7f9f1622c8273bc95d68ef751ddcac1"
+- name: "ExanTextures.utx"
+  fileSize: 43838005
+  hash: "fea5e4637e0e96f7daa9270553ed69c9f1cb8313"
 - name: "TeamSymbols_XanTeam.utx"
   fileSize: 263267
   hash: "9be42523813321180656f21350d6bf282156f738"
-- name: "XMCT27XanWarExT.upl"
-  fileSize: 3925
-  hash: "6e5d54e920627eabbce50c79d226b7f08a6563f8"
-- name: "OxionAnim.ukx"
-  fileSize: 461537
-  hash: "a06fe18288d33d99e234cc7ca9e701d933efd34d"
 - name: "MCT27XanMkIText.utx"
   fileSize: 19800733
   hash: "7665065ed4aad285d96e74c5dc33cab853ad78bf"
+- name: "OxionAnim.ukx"
+  fileSize: 461537
+  hash: "a06fe18288d33d99e234cc7ca9e701d933efd34d"
 - name: "ExanAnim.ukx"
   fileSize: 702535
   hash: "206dc489eebd3b893a057eb802615c7a73753b3d"
 - name: "WarBossMk2.utx"
   fileSize: 36758245
   hash: "fc0165f922b99d30fb1b4530db59abbb18e7e02c"
-- name: "ExanTextures.utx"
-  fileSize: 43838005
-  hash: "fea5e4637e0e96f7daa9270553ed69c9f1cb8313"
+- name: "XanMCTanim.ukx"
+  fileSize: 543618
+  hash: "ac4f7cf1d7f9f1622c8273bc95d68ef751ddcac1"
+- name: "XMCT27XanWarExT.upl"
+  fileSize: 3925
+  hash: "6e5d54e920627eabbce50c79d226b7f08a6563f8"
 otherFiles: 19
-dependencies: {}
+dependencies:
+  OxionAnim.ukx:
+  - status: "OK"
+    name: "WarBossMk2"
+  ExanAnim.ukx:
+  - status: "OK"
+    name: "ExanTextures"
+  XanMCTanim.ukx:
+  - status: "OK"
+    name: "MCT27XanMkIText"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/ModelPacks/"
   direct: false
@@ -138,6 +147,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Xan Kriegor"

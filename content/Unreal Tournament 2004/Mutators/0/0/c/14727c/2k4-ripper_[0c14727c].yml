@@ -14,18 +14,18 @@ files:
 - name: "Ripper2k4Sounds.uax"
   fileSize: 27946
   hash: "ebc51b25d8e656ba099a6173f28ee23a4e8dedb4"
-- name: "Ripper2k4Anim.ukx"
-  fileSize: 74043
-  hash: "6edb87760d4377c7f848f776e2ab00f00e2b074c"
-- name: "Ripper2k4Tex.utx"
-  fileSize: 110032
-  hash: "2a896b3bd2053e53f1cfa8ccab8ee488ffdfe1c4"
 - name: "Ripper2k4Meshes.usx"
   fileSize: 34858
   hash: "b51f172aa54488db023cbe0903b81b889771aeb8"
 - name: "Ripper2k4.u"
   fileSize: 19639
   hash: "95c9a5c98facc1909fb44b3c879f7f253136c382"
+- name: "Ripper2k4Anim.ukx"
+  fileSize: 74043
+  hash: "6edb87760d4377c7f848f776e2ab00f00e2b074c"
+- name: "Ripper2k4Tex.utx"
+  fileSize: 110032
+  hash: "2a896b3bd2053e53f1cfa8ccab8ee488ffdfe1c4"
 otherFiles: 2
 dependencies:
   Ripper2k4Meshes.usx:
@@ -36,7 +36,7 @@ dependencies:
     name: "Ripper2k4Meshes"
   - status: "OK"
     name: "Ripper2k4Sounds"
-  - status: "MISSING"
+  - status: "OK"
     name: "Ripper2k4Anim"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/2k4_ripper.zip"
@@ -55,6 +55,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Ripper2k4 Mutator - Give at Start"

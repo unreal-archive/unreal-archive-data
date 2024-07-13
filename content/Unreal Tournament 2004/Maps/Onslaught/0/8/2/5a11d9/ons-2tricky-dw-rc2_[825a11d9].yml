@@ -28,17 +28,20 @@ originalFilename: "ONS-2Tricky-DW-RC2.zip"
 hash: "825a11d9cd6f07946199f6cfce443ff23d8523c2"
 fileSize: 6786627
 files:
+- name: "EONSLocustA.ukx"
+  fileSize: 74599
+  hash: "187fd38da0625e04a905683109e03960f0e94234"
 - name: "EONSLocustSM.usx"
   fileSize: 231831
   hash: "8d6b35178a06fd1c311a828a8c101c1be9a65257"
 - name: "ONS-2Tricky-DW-RC2.ut2"
   fileSize: 17087676
   hash: "c0d058b59649ae0c3591e00f93633d9f4dad43bd"
-- name: "EONSLocustA.ukx"
-  fileSize: 74599
-  hash: "187fd38da0625e04a905683109e03960f0e94234"
 otherFiles: 4
 dependencies:
+  EONSLocustA.ukx:
+  - status: "OK"
+    name: "EONSLocustSM"
   ONS-2Tricky-DW-RC2.ut2:
   - status: "OK"
     name: "EONSLocustSM"
@@ -59,6 +62,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 gametype: "Onslaught"
 title: "2Tricky"

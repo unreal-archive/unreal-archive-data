@@ -15,29 +15,31 @@ originalFilename: "farnsworth2k4.zip"
 hash: "768a76c19b5abb4f8d66de981ffbbc4ec9c78291"
 fileSize: 5950925
 files:
-- name: "Farnsworth.upl"
-  fileSize: 844
-  hash: "8dd39fdf0411112dac2892de13f1df44ea1fe2c1"
 - name: "Farnsworth.ukx"
   fileSize: 2808346
   hash: "972f293b98473624574a932a0746c5cea457ac49"
-- name: "FarnsworthCore.u"
-  fileSize: 18109
-  hash: "7a979276f7e41c25e98a1f60ad6451a228bf4b0d"
-- name: "farnsworth.ka"
-  fileSize: 52854
-  hash: "d0a9a102aab082d03a4d4ced28e039e3d0810d49"
 - name: "FarnsVoice.u"
   fileSize: 3348413
   hash: "c236a642ec5c080dbdeb488e48a7a00b85936341"
+- name: "FarnsworthCore.u"
+  fileSize: 18109
+  hash: "7a979276f7e41c25e98a1f60ad6451a228bf4b0d"
+- name: "Farnsworth.upl"
+  fileSize: 844
+  hash: "8dd39fdf0411112dac2892de13f1df44ea1fe2c1"
 - name: "Farnsskins.utx"
   fileSize: 3979571
   hash: "dc8625bc4c3cd4d7cd36e74fe7a540fabc78e0f5"
+- name: "farnsworth.ka"
+  fileSize: 52854
+  hash: "d0a9a102aab082d03a4d4ced28e039e3d0810d49"
 otherFiles: 1
 dependencies:
-  FarnsworthCore.u:
-  - status: "MISSING"
-    name: "NewWeapons2004"
+  Farnsworth.ukx:
+  - status: "OK"
+    name: "Farnsskins"
+  - status: "OK"
+    name: "FarnsVoice"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/farnsworth2k4.zip"
   direct: true
@@ -55,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Farnsworth"

@@ -15,6 +15,12 @@ originalFilename: "ut2k4mdl-littleeris.zip"
 hash: "700286c4a3aaae7c5eb968016f09eca44c30f2ea"
 fileSize: 2341170
 files:
+- name: "LittleEris.utx"
+  fileSize: 3037952
+  hash: "1b6a23e8a4d66023fcf1bce55ac46825b36527a1"
+- name: "LittleEris2k4A.upl"
+  fileSize: 7611
+  hash: "00249da906fae495cc2352bbc528051264536c1f"
 - name: "LittleEris2k4.upl"
   fileSize: 690
   hash: "2c5b7ec2ac92d3dcea8db96c31140b8418457292"
@@ -24,14 +30,11 @@ files:
 - name: "SPECIES_MercBot.u"
   fileSize: 2572
   hash: "2383958766c9a72f0e01a6b42501d53dea987a66"
-- name: "LittleEris2k4A.upl"
-  fileSize: 7611
-  hash: "00249da906fae495cc2352bbc528051264536c1f"
-- name: "LittleEris.utx"
-  fileSize: 3037952
-  hash: "1b6a23e8a4d66023fcf1bce55ac46825b36527a1"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  LittleErisAnim2k4.ukx:
+  - status: "OK"
+    name: "LittleEris"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsL/"
   direct: false

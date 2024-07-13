@@ -23,6 +23,9 @@ files:
 - name: "FreakBoyAnim.ukx"
   fileSize: 1125905
   hash: "413a25fae545b74b9aeadf0939d1619e97c5e032"
+- name: "freakboy.ut2mod"
+  fileSize: 19336334
+  hash: "8d7c13044078599e54154dcb6e9cefbcb80aff89"
 - name: "FreakBoySounds.uax"
   fileSize: 4347007
   hash: "a6fae1c7d48746533fc464a47d1960e6d15652c0"
@@ -32,9 +35,6 @@ files:
 - name: "FreakBoy_2.upl"
   fileSize: 362
   hash: "e38ebe42fb24e67d89d71bfc0735e2bc61c053fc"
-- name: "freakboy.ut2mod"
-  fileSize: 19336334
-  hash: "8d7c13044078599e54154dcb6e9cefbcb80aff89"
 - name: "FreakBoyTex.utx"
   fileSize: 4459177
   hash: "706a63166f79e7e440e2484d1636b5aa9e530218"
@@ -42,7 +42,10 @@ files:
   fileSize: 9370431
   hash: "2e29922c7192fda3733856f99f877bb0f2ae8ba1"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  FreakBoyAnim.ukx:
+  - status: "OK"
+    name: "FreakBoyTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/freakboy_ut2k3.zip"
   direct: true
@@ -60,6 +63,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "FreakBoy_1"

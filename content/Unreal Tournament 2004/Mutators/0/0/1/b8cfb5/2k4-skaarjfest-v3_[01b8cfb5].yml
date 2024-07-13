@@ -11,16 +11,16 @@ originalFilename: "2k4_skaarjfest_v3.zip"
 hash: "01b8cfb501c1596dc2825e3a5ba3bf67db72ab80"
 fileSize: 9848956
 files:
-- name: "SkaarjFest.u"
-  fileSize: 13621309
-  hash: "2deaaf7b143e9d55dbe154c0e28450cf7fc8661e"
 - name: "SkaarjFestAnims.ukx"
   fileSize: 22679
   hash: "2b33c0e121accb90e0213b9570d49b7a8097d024"
+- name: "SkaarjFest.u"
+  fileSize: 13621309
+  hash: "2deaaf7b143e9d55dbe154c0e28450cf7fc8661e"
 otherFiles: 5
 dependencies:
   SkaarjFest.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "SkaarjFestAnims"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/2k4_skaarjfest_v3.zip"
@@ -39,6 +39,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Skaarj Fest - Glaripha and Sniper"

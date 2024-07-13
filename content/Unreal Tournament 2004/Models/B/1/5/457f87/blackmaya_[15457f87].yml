@@ -18,17 +18,20 @@ originalFilename: "Maya.zip"
 hash: "15457f875463f0ed416ac5a1b8f0826484e8353a"
 fileSize: 1937575
 files:
+- name: "Maya.upl"
+  fileSize: 660
+  hash: "6cc233d568cc8bc3d97f3e328d0058cd9396de86"
 - name: "Maya.ukx"
   fileSize: 1080488
   hash: "1f1ace8ad18a0dab521e5b693e226205779e431f"
 - name: "mayaskins.utx"
   fileSize: 4545585
   hash: "6131121aad55fef1d792492fd1c32299f3b78c1f"
-- name: "Maya.upl"
-  fileSize: 660
-  hash: "6cc233d568cc8bc3d97f3e328d0058cd9396de86"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Maya.ukx:
+  - status: "OK"
+    name: "mayaskins"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/B/1/5/457f87/Maya.zip"
   direct: true
@@ -46,6 +49,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "BlackMaya"

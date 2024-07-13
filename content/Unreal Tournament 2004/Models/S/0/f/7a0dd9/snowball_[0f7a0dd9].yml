@@ -14,20 +14,17 @@ originalFilename: "ut2mdl-snowball.zip"
 hash: "0f7a0dd913337d56e3c0d994f31f153acc4479e0"
 fileSize: 2519681
 files:
-- name: "MeckGirl.ukx"
-  fileSize: 4781362
-  hash: "2c9cddbbeddf195662e60541ca76b50d1a472c1e"
 - name: "MeckGirl.utx"
   fileSize: 2247353
   hash: "429fb8362ee0e74189f6a328193c9540abfe730a"
+- name: "MeckGirl.ukx"
+  fileSize: 4781362
+  hash: "2c9cddbbeddf195662e60541ca76b50d1a472c1e"
 - name: "Snowball.upl"
   fileSize: 324
   hash: "726d681182c4f4a9aef2f04c653fdc8ea378f2a6"
 otherFiles: 1
-dependencies:
-  MeckGirl.utx:
-  - status: "MISSING"
-    name: "Jugg"
+dependencies: {}
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-snowball.zip"
   direct: true
@@ -45,6 +42,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Snowball"

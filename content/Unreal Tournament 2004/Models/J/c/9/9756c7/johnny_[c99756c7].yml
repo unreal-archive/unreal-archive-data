@@ -20,14 +20,17 @@ files:
 - name: "jthm.upl"
   fileSize: 360
   hash: "2f34f5aa370204e44b23a2f33af46a584058eb63"
-- name: "Jthmtexs.utx"
-  fileSize: 2274168
-  hash: "58d3466abe6e4d5c91daa6db2df4143e9a547b7b"
 - name: "Jthmanim.ukx"
   fileSize: 830199
   hash: "d46ceb56d8a807e87264b6b63c4014ec38230807"
+- name: "Jthmtexs.utx"
+  fileSize: 2274168
+  hash: "58d3466abe6e4d5c91daa6db2df4143e9a547b7b"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Jthmanim.ukx:
+  - status: "OK"
+    name: "Jthmtexs"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/jthm_v1.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Johnny"

@@ -14,17 +14,20 @@ originalFilename: "ut2k3-delphae.zip"
 hash: "dcc6963ad91a484ed3c0e8beb50182abdd4c508f"
 fileSize: 3688787
 files:
-- name: "Delphae.ukx"
-  fileSize: 441528
-  hash: "5a605ea3eb52bdcd5ac3787b7a15442840cec431"
 - name: "DelphaeTextures.utx"
   fileSize: 16953403
   hash: "3071e1323abb3621e7dde402e550be6926a5b045"
+- name: "Delphae.ukx"
+  fileSize: 441528
+  hash: "5a605ea3eb52bdcd5ac3787b7a15442840cec431"
 - name: "xplayersDelphae.upl"
   fileSize: 341
   hash: "b38babedd735ec67087a18fa793ad71adb7dfdb9"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Delphae.ukx:
+  - status: "OK"
+    name: "DelphaeTextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2k3-delphae.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Delphae"

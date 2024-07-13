@@ -17,17 +17,20 @@ originalFilename: "mikofox_2004_v2.zip"
 hash: "19c71ec22fa515bf733b6f351f899fbd20f3b662"
 fileSize: 1210655
 files:
-- name: "MikoFox.upl"
-  fileSize: 563
-  hash: "973340ff73c1e0214c16a98bebba03bf04fc2b3b"
-- name: "MikoTextures.utx"
-  fileSize: 1136954
-  hash: "1d0b3047a193ab3a12cc2d02f2c6ffc433f87fc0"
 - name: "MikoFox.ukx"
   fileSize: 1308848
   hash: "64ab5a68eb870172de74b9363fb88637e1556de5"
+- name: "MikoTextures.utx"
+  fileSize: 1136954
+  hash: "1d0b3047a193ab3a12cc2d02f2c6ffc433f87fc0"
+- name: "MikoFox.upl"
+  fileSize: 563
+  hash: "973340ff73c1e0214c16a98bebba03bf04fc2b3b"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  MikoFox.ukx:
+  - status: "OK"
+    name: "MikoTextures"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Miko"

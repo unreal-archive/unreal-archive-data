@@ -20,14 +20,17 @@ files:
 - name: "ReiNeko.ukx"
   fileSize: 605573
   hash: "8d3575e38ee7bc62dea6260164d85e9986d6eca4"
-- name: "ReiNekoTex.utx"
-  fileSize: 4371555
-  hash: "934d60c891add0aea00671337bd8767444f26d51"
 - name: "ReiNeko.upl"
   fileSize: 638
   hash: "14a3feb7dd78b88e6b5fb427ae2048dbc286433d"
+- name: "ReiNekoTex.utx"
+  fileSize: 4371555
+  hash: "934d60c891add0aea00671337bd8767444f26d51"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ReiNeko.ukx:
+  - status: "OK"
+    name: "ReiNekoTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsR/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Catgirl Rei K"

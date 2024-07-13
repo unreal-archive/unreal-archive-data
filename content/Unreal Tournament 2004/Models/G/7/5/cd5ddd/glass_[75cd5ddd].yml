@@ -17,14 +17,17 @@ files:
 - name: "WlsGlass.ukx"
   fileSize: 1162979
   hash: "97089d552780ab7a4a78f0742486bbdb06e452c9"
-- name: "WlsGlassTexture.utx"
-  fileSize: 1182472
-  hash: "cb296768768f0cc234f332c3ba75813e2c0e02fc"
 - name: "WlsGlass.upl"
   fileSize: 277
   hash: "aa68b75e03c8e5569c0dac45f55d177e462441a7"
+- name: "WlsGlassTexture.utx"
+  fileSize: 1182472
+  hash: "cb296768768f0cc234f332c3ba75813e2c0e02fc"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  WlsGlass.ukx:
+  - status: "OK"
+    name: "WlsGlassTexture"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Glass"

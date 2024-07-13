@@ -17,14 +17,23 @@ files:
 - name: "UE2Mesh.ukx"
   fileSize: 7931402
   hash: "0b6158657d578e705f22805e9f1a6b4e46a43791"
-- name: "E3Soldier.upl"
-  fileSize: 239
-  hash: "d4a177c3f4d36a4815ad491043e118560f4fc569"
 - name: "UE2Textures.utx"
   fileSize: 17477635
   hash: "20e91d83d8bedc008d0b07bfc15926993f44f577"
+- name: "E3Soldier.upl"
+  fileSize: 239
+  hash: "d4a177c3f4d36a4815ad491043e118560f4fc569"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  UE2Mesh.ukx:
+  - status: "MISSING"
+    name: "BSPY"
+  - status: "OK"
+    name: "UE2Textures"
+  - status: "MISSING"
+    name: "KouRyuu"
+  - status: "MISSING"
+    name: "Billtextures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ue2_soldier.zip"
   direct: true
@@ -42,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "UE2 Soldier"

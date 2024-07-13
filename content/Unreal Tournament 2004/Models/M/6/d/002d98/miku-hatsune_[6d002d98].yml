@@ -32,29 +32,41 @@ originalFilename: "Vocaloids.zip"
 hash: "6d002d9856b3fb0cc6d3b0091287cf80e4286699"
 fileSize: 5763983
 files:
-- name: "MikuAnim.ukx"
-  fileSize: 2634402
-  hash: "84ee6dbfcb8471b9aaf76a326ac1d94b27bca3dd"
-- name: "BRSAnim.ukx"
-  fileSize: 2566805
-  hash: "d271d1b79f2fa9185bd3fa47fae2a5b78a528906"
-- name: "MikuTexture.utx"
-  fileSize: 10265713
-  hash: "a6b52967b4f4c259721f524893637eea8769d3ec"
-- name: "MikuSpecies.u"
-  fileSize: 1725513
-  hash: "c73efeca61c6e508c31744801cd4d24daa4e4e50"
-- name: "MikuHatsune.upl"
-  fileSize: 1494
-  hash: "af16f2e7bc16c1fc16c3f24fe1b11539b9ea189e"
 - name: "NaluriGear.uax"
   fileSize: 238604
   hash: "877ca0ca1add4fed27f449f0a3e804a8099a2e03"
+- name: "MikuAnim.ukx"
+  fileSize: 2634402
+  hash: "84ee6dbfcb8471b9aaf76a326ac1d94b27bca3dd"
+- name: "MikuSpecies.u"
+  fileSize: 1725513
+  hash: "c73efeca61c6e508c31744801cd4d24daa4e4e50"
+- name: "BRSAnim.ukx"
+  fileSize: 2566805
+  hash: "d271d1b79f2fa9185bd3fa47fae2a5b78a528906"
+- name: "MikuHatsune.upl"
+  fileSize: 1494
+  hash: "af16f2e7bc16c1fc16c3f24fe1b11539b9ea189e"
+- name: "MikuTexture.utx"
+  fileSize: 10265713
+  hash: "a6b52967b4f4c259721f524893637eea8769d3ec"
 otherFiles: 5
 dependencies:
   MikuSpecies.u:
   - status: "OK"
     name: "MikuTexture"
+  BRSAnim.ukx:
+  - status: "OK"
+    name: "MikuTexture"
+  - status: "OK"
+    name: "MikuSpecies"
+  - status: "OK"
+    name: "NaluriGear"
+  MikuAnim.ukx:
+  - status: "OK"
+    name: "MikuTexture"
+  - status: "OK"
+    name: "NaluriGear"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/Vocaloids.zip"
   direct: true
@@ -72,6 +84,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Miku Hatsune"

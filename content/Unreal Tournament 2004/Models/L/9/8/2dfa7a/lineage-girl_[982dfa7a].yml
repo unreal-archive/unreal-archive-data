@@ -20,17 +20,20 @@ originalFilename: "LineageGirl.rar"
 hash: "982dfa7a7f673fc6e6d0d57a3c19be1cd141d998"
 fileSize: 5494576
 files:
-- name: "LineageGirl_tex.utx"
-  fileSize: 9096298
-  hash: "557d41a984f6541d36cb22a8929094d831bba376"
-- name: "LineageGirl_anim.ukx"
-  fileSize: 1569692
-  hash: "0125ee4363490490f1ddee9436da18d2847bc898"
 - name: "LineageGirl.upl"
   fileSize: 895
   hash: "afd79b35ddd2106bdb36a6fef70f5f1343b5c73f"
+- name: "LineageGirl_anim.ukx"
+  fileSize: 1569692
+  hash: "0125ee4363490490f1ddee9436da18d2847bc898"
+- name: "LineageGirl_tex.utx"
+  fileSize: 9096298
+  hash: "557d41a984f6541d36cb22a8929094d831bba376"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  LineageGirl_anim.ukx:
+  - status: "OK"
+    name: "LineageGirl_tex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/L/9/8/2dfa7a/LineageGirl.rar"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Venata"

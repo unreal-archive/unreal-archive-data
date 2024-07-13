@@ -14,23 +14,26 @@ originalFilename: "laundryman.zip"
 hash: "bf09f56e9a47592cbd859e9ec6d2f16153d8a99b"
 fileSize: 4558840
 files:
-- name: "LaundryManTex.utx"
-  fileSize: 7167723
-  hash: "22264fd55180522420f50d3e013a49b186fd8406"
 - name: "HHAVoice1.u"
   fileSize: 2315724
   hash: "323546d12ef9589217ed93a7ad9251586867be13"
+- name: "LaundryManTex.utx"
+  fileSize: 7167723
+  hash: "22264fd55180522420f50d3e013a49b186fd8406"
+- name: "LaundryMan.ukx"
+  fileSize: 889737
+  hash: "602452a53f562eccf8f5d1ddd11e070c6afbca2c"
 - name: "LBasket.ka"
   fileSize: 16705
   hash: "f88369017c32176af1bdc095b5db7444919b87be"
 - name: "LaundryMan.upl"
   fileSize: 731
   hash: "b9752908e723e59d467b3352c3703a78bd6865a7"
-- name: "LaundryMan.ukx"
-  fileSize: 889737
-  hash: "602452a53f562eccf8f5d1ddd11e070c6afbca2c"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  LaundryMan.ukx:
+  - status: "OK"
+    name: "LaundryManTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Misc/"
   direct: false
@@ -54,6 +57,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Laundry Man"

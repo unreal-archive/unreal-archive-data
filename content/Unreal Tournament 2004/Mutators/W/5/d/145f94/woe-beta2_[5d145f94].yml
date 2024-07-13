@@ -39,12 +39,6 @@ originalFilename: "woe_beta2.zip"
 hash: "5d145f9459a60884434a04af03496df262d5e337"
 fileSize: 5422410
 files:
-- name: "WoEBeta2StaticMeshes.usx"
-  fileSize: 2452700
-  hash: "e322266b0a479fd5ba2099e29a4620a854f1b4dd"
-- name: "WoEBeta2Sounds.uax"
-  fileSize: 698163
-  hash: "e3f532113df7db7a8ae2eb3fdf53a618f444fe1b"
 - name: "WoEBeta2Meshes.ukx"
   fileSize: 1452814
   hash: "421d070e360fc52805fdfea3c487797c3048abd5"
@@ -54,13 +48,22 @@ files:
 - name: "WoE_beta2.u"
   fileSize: 281951
   hash: "1435cdd5a18262b2a3fe689b30c9978618ac9a02"
+- name: "WoEBeta2Sounds.uax"
+  fileSize: 698163
+  hash: "e3f532113df7db7a8ae2eb3fdf53a618f444fe1b"
+- name: "WoEBeta2StaticMeshes.usx"
+  fileSize: 2452700
+  hash: "e322266b0a479fd5ba2099e29a4620a854f1b4dd"
 otherFiles: 27
 dependencies:
+  WoEBeta2Meshes.ukx:
+  - status: "OK"
+    name: "WoEBeta2Textures"
   WoEBeta2StaticMeshes.usx:
   - status: "OK"
     name: "WoEBeta2Textures"
   WoE_beta2.u:
-  - status: "MISSING"
+  - status: "OK"
     name: "WoEBeta2Meshes"
   - status: "OK"
     name: "WoEBeta2Textures"
@@ -85,6 +88,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Replace the standard UT2003 weapons with WoE weapons."

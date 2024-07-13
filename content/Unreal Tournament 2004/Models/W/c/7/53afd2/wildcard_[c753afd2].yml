@@ -38,6 +38,9 @@ originalFilename: "re-archive_willy.zip"
 hash: "c753afd2f5d6dc122e058af9827dd75fac2b366d"
 fileSize: 4230323
 files:
+- name: "Willy.upl"
+  fileSize: 343
+  hash: "ceb1e708e12b93cff231644bb3e5c9509bb8ab13"
 - name: "WildCard.utx"
   fileSize: 1486537
   hash: "e54ab712110592d18ae2497ef3cee089f117a510"
@@ -53,11 +56,11 @@ files:
 - name: "Willy_textures.utx"
   fileSize: 6119071
   hash: "b19814d553a7f03a3a2e72497e6824824053ccf6"
-- name: "Willy.upl"
-  fileSize: 343
-  hash: "ceb1e708e12b93cff231644bb3e5c9509bb8ab13"
 otherFiles: 10
-dependencies: {}
+dependencies:
+  willy.ukx:
+  - status: "OK"
+    name: "Willy_textures"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/W/c/7/53afd2/re-archive_willy.zip"
   direct: true

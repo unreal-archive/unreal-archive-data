@@ -23,20 +23,27 @@ originalFilename: "ut2k4skn-bunnyeris.zip"
 hash: "a9565ecc6abaa6db259e096b34ce61869b9d1049"
 fileSize: 1316848
 files:
+- name: "BunnyEris.utx"
+  fileSize: 2246691
+  hash: "0faade9117679a448ce435c3f9c55cc303da214f"
+- name: "BunnyErisAnim2k4.ukx"
+  fileSize: 433748
+  hash: "ccacee1123ba33eb49c311a38491a0005f34c290"
 - name: "BunnyEris2k4.upl"
   fileSize: 512
   hash: "f8e2ee9b01afd091f088eb546b9aad58c217fb62"
 - name: "BunnyEris2k4A.upl"
   fileSize: 1543
   hash: "3b3c65f1165e0efc0f9b36b02c8b54edb266801a"
-- name: "BunnyErisAnim2k4.ukx"
-  fileSize: 433748
-  hash: "ccacee1123ba33eb49c311a38491a0005f34c290"
-- name: "BunnyEris.utx"
-  fileSize: 2246691
-  hash: "0faade9117679a448ce435c3f9c55cc303da214f"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  BunnyErisAnim2k4.ukx:
+  - status: "MISSING"
+    name: "LittleErisAnim2k4"
+  - status: "OK"
+    name: "BunnyEris"
+  - status: "MISSING"
+    name: "LittleEris"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsS/"
   direct: false

@@ -11,23 +11,31 @@ originalFilename: "TDVehicles130_Dec232018.zip"
 hash: "ff794ce5040e4634b754fdff7a83cb2b168b8e90"
 fileSize: 23729021
 files:
-- name: "TD_HummerStat.usx"
-  fileSize: 10241147
-  hash: "8f4e7d352881344e8163eb4d70aae50c73d511c9"
 - name: "TD_MegaTruckAnims.ukx"
   fileSize: 5153682
   hash: "d71f1605bdba3e10e941ffeefd53c2afb93ef822"
-- name: "TD_Vehicles.u"
-  fileSize: 2349003
-  hash: "c7e0bebb2b8d6a6fd7b2aa6299d1cea7eb3a4e09"
 - name: "TD_hummerMesh.ukx"
   fileSize: 12508710
   hash: "9b29713012843a2e0bd1a971f08f0cd3aec9c688"
+- name: "TD_Vehicles.u"
+  fileSize: 2349003
+  hash: "c7e0bebb2b8d6a6fd7b2aa6299d1cea7eb3a4e09"
+- name: "TD_HummerStat.usx"
+  fileSize: 10241147
+  hash: "8f4e7d352881344e8163eb4d70aae50c73d511c9"
 - name: "TDHummerTex.utx"
   fileSize: 35995838
   hash: "8c21beac1d06f88ea06aacb138a784e78849245d"
 otherFiles: 2
 dependencies:
+  TD_hummerMesh.ukx:
+  - status: "OK"
+    name: "TD_HummerStat"
+  - status: "OK"
+    name: "TDHummerTex"
+  TD_MegaTruckAnims.ukx:
+  - status: "OK"
+    name: "TDHummerTex"
   TD_HummerStat.usx:
   - status: "OK"
     name: "TDHummerTex"

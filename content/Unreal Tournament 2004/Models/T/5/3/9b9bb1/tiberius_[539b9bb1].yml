@@ -26,17 +26,20 @@ originalFilename: "tiberius.zip"
 hash: "539b9bb1cee6dc6010a8330f5ab32d378f24ae96"
 fileSize: 4433652
 files:
-- name: "TiberiusTx.utx"
-  fileSize: 5768986
-  hash: "263433654b79a5f3a2170fcd493a4f4cca0cebc3"
 - name: "Tiberius.upl"
   fileSize: 355
   hash: "295dc9bfcc757c7f5973a61fa4dba7e73577dec8"
+- name: "TiberiusTx.utx"
+  fileSize: 5768986
+  hash: "263433654b79a5f3a2170fcd493a4f4cca0cebc3"
 - name: "TiberiusAni.ukx"
   fileSize: 1495267
   hash: "2405885737aaf177f4bb762488e013e27cb1da8b"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  TiberiusAni.ukx:
+  - status: "OK"
+    name: "TiberiusTx"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/MSUPhase3/"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tiberius"

@@ -23,26 +23,32 @@ originalFilename: "xeltan_ut2k4.zip"
 hash: "89d1ed7ec453a1472153d7f42cd6d56150d7c430"
 fileSize: 3952825
 files:
-- name: "SlaughterXanMarkIV.ukx"
-  fileSize: 582903
-  hash: "992aec8ff4b039568a5d25c6bb53b0980f5ac8fe"
-- name: "XanIV.ka"
-  fileSize: 38536
-  hash: "2e8549444553c624da146ffa6df16ba8cf4ae8d4"
+- name: "XWbotXeltanBIG.upl"
+  fileSize: 420
+  hash: "5ddd73c70044c595315090e92561398cc542b1c5"
 - name: "XWbotXeltanMedium.upl"
   fileSize: 423
   hash: "1d3d9ecb15b0956f1edab3534e407aa4c010bcf0"
 - name: "XanMarkIV.ukx"
   fileSize: 582895
   hash: "e8f6752e063a09614defb2580ec5e4907209cea5"
+- name: "XanIV.ka"
+  fileSize: 38536
+  hash: "2e8549444553c624da146ffa6df16ba8cf4ae8d4"
+- name: "SlaughterXanMarkIV.ukx"
+  fileSize: 582903
+  hash: "992aec8ff4b039568a5d25c6bb53b0980f5ac8fe"
 - name: "MCT27XanMKIV.utx"
   fileSize: 7432262
   hash: "0dcb4fa04f778600af2bb281b902ef44a2a26b8b"
-- name: "XWbotXeltanBIG.upl"
-  fileSize: 420
-  hash: "5ddd73c70044c595315090e92561398cc542b1c5"
 otherFiles: 4
-dependencies: {}
+dependencies:
+  XanMarkIV.ukx:
+  - status: "OK"
+    name: "MCT27XanMKIV"
+  SlaughterXanMarkIV.ukx:
+  - status: "OK"
+    name: "MCT27XanMKIV"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsX/&file=xeltan_ut2k4.zip"
   direct: false
@@ -63,6 +69,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "XeltanM"

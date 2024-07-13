@@ -14,17 +14,20 @@ originalFilename: "mrpoly_ut2k4.zip"
 hash: "b06f921e15db93442f775eaf2601bbbeda3bf624"
 fileSize: 668309
 files:
-- name: "MrPoly.upl"
-  fileSize: 866
-  hash: "332d29b2437a788c118f732444df0545ea56a065"
 - name: "MrPolyAnims.ukx"
   fileSize: 236917
   hash: "b732eccd908df78baeb3e0ebc2238cbb0bea041a"
+- name: "MrPoly.upl"
+  fileSize: 866
+  hash: "332d29b2437a788c118f732444df0545ea56a065"
 - name: "MrPolyTex.utx"
   fileSize: 4894646
   hash: "fd5b9e7e1d5e2b303d04534f9383ee069bafcdc0"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  MrPolyAnims.ukx:
+  - status: "OK"
+    name: "MrPolyTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Misc/"
   direct: false
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mr.Poly"

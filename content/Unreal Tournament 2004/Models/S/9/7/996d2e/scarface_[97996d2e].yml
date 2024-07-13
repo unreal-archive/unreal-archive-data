@@ -29,20 +29,23 @@ files:
 - name: "ScarfaceSND.u"
   fileSize: 506536
   hash: "147dbcd63fa253725b6abf638f16941e612267ac"
-- name: "ScarfaceSND.uax"
-  fileSize: 506536
-  hash: "320c12e218fa2e1c2780728fea806fac1aeb2b9d"
-- name: "ScarfaceTX.utx"
-  fileSize: 7517580
-  hash: "f263e61c96a16409def5f9d2b13f146185d90194"
-- name: "scarfacePlayer.upl"
-  fileSize: 1321
-  hash: "06f2412f4548f8198af69d302874c4cffa884b10"
 - name: "ScarfaceAn.ukx"
   fileSize: 4707739
   hash: "16a17ecd41a22cead354ebf797df0c793341ae6f"
+- name: "scarfacePlayer.upl"
+  fileSize: 1321
+  hash: "06f2412f4548f8198af69d302874c4cffa884b10"
+- name: "ScarfaceTX.utx"
+  fileSize: 7517580
+  hash: "f263e61c96a16409def5f9d2b13f146185d90194"
+- name: "ScarfaceSND.uax"
+  fileSize: 506536
+  hash: "320c12e218fa2e1c2780728fea806fac1aeb2b9d"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ScarfaceAn.ukx:
+  - status: "OK"
+    name: "ScarfaceTX"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-scarface.zip"
   direct: true
@@ -60,6 +63,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Scarface"

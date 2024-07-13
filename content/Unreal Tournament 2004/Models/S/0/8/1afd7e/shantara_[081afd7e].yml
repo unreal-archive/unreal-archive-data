@@ -29,20 +29,23 @@ originalFilename: "ut2k4-teamstarblade.zip"
 hash: "081afd7ebed89cbce4f7ef60a2ab30ffe36198ed"
 fileSize: 18458739
 files:
-- name: "TSB.upl"
-  fileSize: 1898
-  hash: "c4cdc4635dfe4d7e139b542007164003f515cf27"
-- name: "MaxxRequest.utx"
-  fileSize: 1486606
-  hash: "116f56e0fbce5c24295e9de2217ed303f71fd817"
-- name: "tsb.utx"
-  fileSize: 41429347
-  hash: "e84f859b2eb271fdf81c16c46486d8fcbdec57c2"
 - name: "MaxxEgypt.ukx"
   fileSize: 439460
   hash: "064f87a594063c60f734392a25fbf52264129411"
+- name: "tsb.utx"
+  fileSize: 41429347
+  hash: "e84f859b2eb271fdf81c16c46486d8fcbdec57c2"
+- name: "MaxxRequest.utx"
+  fileSize: 1486606
+  hash: "116f56e0fbce5c24295e9de2217ed303f71fd817"
+- name: "TSB.upl"
+  fileSize: 1898
+  hash: "c4cdc4635dfe4d7e139b542007164003f515cf27"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  MaxxEgypt.ukx:
+  - status: "OK"
+    name: "MaxxRequest"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=ut2k4-teamstarblade.zip"
   direct: false
@@ -63,6 +66,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Shantara"

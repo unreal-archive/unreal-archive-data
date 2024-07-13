@@ -17,17 +17,20 @@ originalFilename: "marilynmanson_ut2k3.zip"
 hash: "4fe795afbc6402291032f6c92dc149fa9a58ab5d"
 fileSize: 2116109
 files:
+- name: "manson.upl"
+  fileSize: 205
+  hash: "87b3874591945ea4ebe9b188fd5a3ec984af6775"
 - name: "mansomat.ukx"
   fileSize: 1365911
   hash: "4d92d3aa170a7aa2bc6902ac31d62b45e82bb68c"
 - name: "mmanson.utx"
   fileSize: 2972169
   hash: "62b0242916e47c1976caa41758ad4d79800d52f3"
-- name: "manson.upl"
-  fileSize: 205
-  hash: "87b3874591945ea4ebe9b188fd5a3ec984af6775"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  mansomat.ukx:
+  - status: "OK"
+    name: "mmanson"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/marilynmanson_ut2k3.zip"
   direct: true
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "manson"

@@ -26,9 +26,6 @@ originalFilename: "RokiahiV2.zip"
 hash: "750d9955a3ecac59e023fb2a387132b068569f54"
 fileSize: 11477312
 files:
-- name: "RokiahiAnim.ukx"
-  fileSize: 6254851
-  hash: "56b8f911ac405dcbd7920dfde280ec4fbd221620"
 - name: "RokiahiSpecies.u"
   fileSize: 2398151
   hash: "528487c3acd89270c2b849c59cfa3cb5870aabf7"
@@ -38,8 +35,14 @@ files:
 - name: "Rokiahi.utx"
   fileSize: 15088880
   hash: "032813092a10364e407304caeb465bc06c519db6"
+- name: "RokiahiAnim.ukx"
+  fileSize: 6254851
+  hash: "56b8f911ac405dcbd7920dfde280ec4fbd221620"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  RokiahiAnim.ukx:
+  - status: "OK"
+    name: "Rokiahi"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Anime/"
   direct: false
@@ -66,6 +69,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "RokiahiDEF"

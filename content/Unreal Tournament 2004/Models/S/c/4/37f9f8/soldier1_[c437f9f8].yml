@@ -11,17 +11,20 @@ originalFilename: "ut2k4-trooper.zip"
 hash: "c437f9f851c03dc6748d4c9af696e66c7e981099"
 fileSize: 4689314
 files:
+- name: "HPBTroop.upl"
+  fileSize: 1601
+  hash: "a653f40049a4651cc7a52ad75ce27541776d608d"
 - name: "HPBTroopTex.utx"
   fileSize: 11188902
   hash: "043d7c894e10e382d5b02e6e1857e74e64665943"
 - name: "HPBTroop.ukx"
   fileSize: 842405
   hash: "558dd38d0758ff65229260dade833414c6064e8e"
-- name: "HPBTroop.upl"
-  fileSize: 1601
-  hash: "a653f40049a4651cc7a52ad75ce27541776d608d"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  HPBTroop.ukx:
+  - status: "OK"
+    name: "HPBTroopTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsT/"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Soldier1"

@@ -14,17 +14,20 @@ originalFilename: "sorc.zip"
 hash: "377061d971be8dc34773038b9e6dd6018d43ec3c"
 fileSize: 1395965
 files:
-- name: "OASkins.utx"
-  fileSize: 2185924
-  hash: "f109644bfd0ee284ef98336c8efdb746f024b420"
 - name: "OAModels.ukx"
   fileSize: 245651
   hash: "12c0b550a672ac33446d5dca488d43f8ac5ac21c"
 - name: "OA_Sorceress.upl"
   fileSize: 500
   hash: "1a19378f0eb8e1f3341a8939bc73b9bdb1aec0d9"
+- name: "OASkins.utx"
+  fileSize: 2185924
+  hash: "f109644bfd0ee284ef98336c8efdb746f024b420"
 otherFiles: 0
-dependencies: {}
+dependencies:
+  OAModels.ukx:
+  - status: "OK"
+    name: "OASkins"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/S/3/7/7061d9/sorc.zip"
   direct: true
@@ -42,6 +45,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Sorceress"

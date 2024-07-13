@@ -20,20 +20,23 @@ originalFilename: "ut2k4_mechanatrix_ver20.zip"
 hash: "9eb702944e31aa45c06fa69e2d75729eee4259b8"
 fileSize: 4451769
 files:
-- name: "mechanatrix_t.upl"
-  fileSize: 1572
-  hash: "75376a457cdd0f56a736d9e05f31f6e0be571e35"
+- name: "Mechanatrix.ka"
+  fileSize: 50754
+  hash: "6166d92538d0962f523be92b68e6ce453ed4791e"
 - name: "Mechanatrix_t.ukx"
   fileSize: 2006942
   hash: "2e7825be391f8d0e19a3164010781f962768a2a3"
 - name: "mech_tSkins.utx"
   fileSize: 14619426
   hash: "d34316b1f6368ec9ad01e0193aff0fbde5e61647"
-- name: "Mechanatrix.ka"
-  fileSize: 50754
-  hash: "6166d92538d0962f523be92b68e6ce453ed4791e"
+- name: "mechanatrix_t.upl"
+  fileSize: 1572
+  hash: "75376a457cdd0f56a736d9e05f31f6e0be571e35"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  Mechanatrix_t.ukx:
+  - status: "OK"
+    name: "mech_tSkins"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsM/"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Mechanatrix_ver2.0"

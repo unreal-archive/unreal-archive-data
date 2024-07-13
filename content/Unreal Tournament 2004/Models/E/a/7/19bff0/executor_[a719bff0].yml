@@ -11,17 +11,20 @@ originalFilename: "ut2k4mdl_executor.zip"
 hash: "a719bff0adf94f75a6b24d4f1bc8645f0c4168c9"
 fileSize: 4216926
 files:
+- name: "Executor_skin.utx"
+  fileSize: 6996977
+  hash: "51bd41060701b2d7d91a605bafa1512bc3af1a02"
 - name: "Executor_Model.ukx"
   fileSize: 410059
   hash: "1181d121f121e71fe1038f19e75288adb87f1d25"
 - name: "xExecutor.upl"
   fileSize: 436
   hash: "267e0630a206348542ddc2004426733333c3fd99"
-- name: "Executor_skin.utx"
-  fileSize: 6996977
-  hash: "51bd41060701b2d7d91a605bafa1512bc3af1a02"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Executor_Model.ukx:
+  - status: "OK"
+    name: "Executor_skin"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -45,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Executor"

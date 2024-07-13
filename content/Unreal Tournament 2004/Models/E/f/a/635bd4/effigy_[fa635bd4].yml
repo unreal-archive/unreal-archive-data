@@ -23,14 +23,19 @@ files:
 - name: "Effigy.ukx"
   fileSize: 2485754
   hash: "634fd0afb50d9adf89ff65512969a9dde4d9ad2a"
-- name: "xPlayersEffigy.upl"
-  fileSize: 355
-  hash: "9da243bc7b12502270b204e8303c91c88d73f156"
 - name: "Effigy.ut2mod"
   fileSize: 7340146
   hash: "86fd53104b340cec9684431898a6e8d95620c3c4"
+- name: "xPlayersEffigy.upl"
+  fileSize: 355
+  hash: "9da243bc7b12502270b204e8303c91c88d73f156"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  Effigy.ukx:
+  - status: "OK"
+    name: "EffigyTextures"
+  - status: "OK"
+    name: "EffigySounds"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-effigy.zip"
   direct: true
@@ -48,6 +53,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Effigy"

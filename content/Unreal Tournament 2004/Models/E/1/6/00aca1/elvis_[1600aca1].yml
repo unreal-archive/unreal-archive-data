@@ -11,17 +11,20 @@ originalFilename: "ut2mdl-elvis.zip"
 hash: "1600aca183538fbd95e2261a6870d7f95c71b1f2"
 fileSize: 6554494
 files:
+- name: "ElvisTex.utx"
+  fileSize: 18708735
+  hash: "f6660142638a25eb8dd49eb8fcb27c8ff062990c"
 - name: "ElvisMale.ukx"
   fileSize: 330938
   hash: "f41f62a004bebe8b315a1fa26e6e3a5dd52e75cd"
 - name: "ElvisPlayer.upl"
   fileSize: 216
   hash: "48f53ffc19107b3cdd8c02e6c132e37355dcffd1"
-- name: "ElvisTex.utx"
-  fileSize: 18708735
-  hash: "f6660142638a25eb8dd49eb8fcb27c8ff062990c"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  ElvisMale.ukx:
+  - status: "OK"
+    name: "ElvisTex"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-elvis.zip"
   direct: true
@@ -39,6 +42,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Elvis"

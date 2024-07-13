@@ -17,17 +17,20 @@ originalFilename: "boid_ut2k4.zip"
 hash: "f58eb22635e03f88287f62c65321ddcf8610f2a5"
 fileSize: 4669046
 files:
-- name: "Boid.upl"
-  fileSize: 652
-  hash: "95cfab43ef4d22a780859712f825d9ac97f92e47"
 - name: "BoidAnim.ukx"
   fileSize: 464200
   hash: "add3cf610baf9491b4e131baef16bd3264572778"
 - name: "Boid.utx"
   fileSize: 22546044
   hash: "2ba401b08d819a913ac41613793b5345a62f6d2f"
+- name: "Boid.upl"
+  fileSize: 652
+  hash: "95cfab43ef4d22a780859712f825d9ac97f92e47"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  BoidAnim.ukx:
+  - status: "OK"
+    name: "Boid"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsB/"
   direct: false
@@ -51,6 +54,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Boid"

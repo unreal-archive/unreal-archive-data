@@ -14,20 +14,23 @@ originalFilename: "ut2k4mdl-marygold.zip"
 hash: "9db3f6133c37da3d4f20d82daf089bc73f97bbb3"
 fileSize: 2141560
 files:
-- name: "Marygold.utx"
-  fileSize: 3036442
-  hash: "833f569884fbd47c127adc1f7c13cecd59e43c4b"
-- name: "Marygold2k4.upl"
-  fileSize: 430
-  hash: "149bc664660b4806c298608406745e8f2ffbd710"
-- name: "CatsAnim2k4.ukx"
-  fileSize: 1286257
-  hash: "9f79e2d8afb3ac3667166aac154c2b5c4a1678ac"
 - name: "JagdTiger2k4.upl"
   fileSize: 853
   hash: "f7a1a980f96d30f823fa568fd790bc7d32321a57"
+- name: "Marygold.utx"
+  fileSize: 3036442
+  hash: "833f569884fbd47c127adc1f7c13cecd59e43c4b"
+- name: "CatsAnim2k4.ukx"
+  fileSize: 1286257
+  hash: "9f79e2d8afb3ac3667166aac154c2b5c4a1678ac"
+- name: "Marygold2k4.upl"
+  fileSize: 430
+  hash: "149bc664660b4806c298608406745e8f2ffbd710"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  CatsAnim2k4.ukx:
+  - status: "OK"
+    name: "Marygold"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/PlayerModels/ModelsM/"
   direct: false

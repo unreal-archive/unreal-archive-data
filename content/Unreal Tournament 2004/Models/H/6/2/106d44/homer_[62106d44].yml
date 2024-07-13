@@ -23,14 +23,17 @@ files:
 - name: "Homer.utx"
   fileSize: 265880
   hash: "976c6a5c7015213c7d9ba671395f395b37f7e33b"
-- name: "HomerAnim.ukx"
-  fileSize: 1141281
-  hash: "48e55b535233957c36e9330905d18740dfb0fddd"
 - name: "Homer.upl"
   fileSize: 292
   hash: "79af76e49b86452e234adebf83c6d7100003c8f3"
+- name: "HomerAnim.ukx"
+  fileSize: 1141281
+  hash: "48e55b535233957c36e9330905d18740dfb0fddd"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  HomerAnim.ukx:
+  - status: "OK"
+    name: "Homer"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/kryzalizhomer.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Homer"

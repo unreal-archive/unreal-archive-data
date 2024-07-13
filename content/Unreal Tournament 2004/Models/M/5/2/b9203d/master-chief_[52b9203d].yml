@@ -20,17 +20,20 @@ originalFilename: "master_chief.zip"
 hash: "52b9203d8b5b432e47dd2471a9183e3b9ed7582a"
 fileSize: 1250801
 files:
-- name: "HMC.upl.upl"
-  fileSize: 215
-  hash: "14e917441352f50606d4cb0b5f15d8b700ead656"
-- name: "HMCmodel.ukx"
-  fileSize: 448861
-  hash: "73bd2f857cb6616b093a001ddb1a0e343e3b208c"
 - name: "HMCtexture.utx"
   fileSize: 1149661
   hash: "f0c71abad23e34e516da052d5e281cbd7bf34982"
+- name: "HMCmodel.ukx"
+  fileSize: 448861
+  hash: "73bd2f857cb6616b093a001ddb1a0e343e3b208c"
+- name: "HMC.upl.upl"
+  fileSize: 215
+  hash: "14e917441352f50606d4cb0b5f15d8b700ead656"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  HMCmodel.ukx:
+  - status: "OK"
+    name: "HMCtexture"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/master_chief.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Master Chief"

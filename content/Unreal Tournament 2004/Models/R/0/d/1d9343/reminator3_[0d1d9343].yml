@@ -17,12 +17,12 @@ originalFilename: "ut2mdl-reminator3.zip"
 hash: "0d1d9343b02062f807fe0129530507807b0dce31"
 fileSize: 4226343
 files:
-- name: "reminator3textures.utx"
-  fileSize: 3285973
-  hash: "2d1baa9b3e3843e7244456abc54ef5cebcdf41e7"
 - name: "Reminator3_for_unreal_2003.ut2mod"
   fileSize: 7407357
   hash: "723c76922ec82979cc8c250c8eba97e0ed2f92b4"
+- name: "reminator3textures.utx"
+  fileSize: 3285973
+  hash: "2d1baa9b3e3843e7244456abc54ef5cebcdf41e7"
 - name: "reminator3anims.ukx"
   fileSize: 4089279
   hash: "ff61a99353daa8fc23677bbf367d3f69806b1717"
@@ -30,7 +30,10 @@ files:
   fileSize: 294
   hash: "5524fe7c89f78a085979c164b917066aea010384"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  reminator3anims.ukx:
+  - status: "OK"
+    name: "reminator3textures"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/models/ut2mdl-reminator3.zip"
   direct: true
@@ -48,6 +51,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Reminator3"

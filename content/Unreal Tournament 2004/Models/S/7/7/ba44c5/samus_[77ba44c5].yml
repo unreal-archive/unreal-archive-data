@@ -74,17 +74,20 @@ originalFilename: "ut2k4_bredgepack.zip"
 hash: "77ba44c5bd775e19cd5635058b7ffbb398855eaf"
 fileSize: 24980798
 files:
-- name: "BredgePack.upl"
-  fileSize: 8300
-  hash: "3a16f7438bcbfc42de55888666ca633de37ca80e"
 - name: "BredgePackAn.ukx"
   fileSize: 7604444
   hash: "961bb654cc1ec69d3268fd8a7fcf0f09dfdc1091"
+- name: "BredgePack.upl"
+  fileSize: 8300
+  hash: "3a16f7438bcbfc42de55888666ca633de37ca80e"
 - name: "BredgePack.utx"
   fileSize: 64856762
   hash: "1179987367e3df2420e36783c0d9bdfff2d0916e"
 otherFiles: 2
-dependencies: {}
+dependencies:
+  BredgePackAn.ukx:
+  - status: "OK"
+    name: "BredgePack"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsU/&file=ut2k4-bredgepack.zip"
   direct: false
@@ -105,6 +108,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Samus."

@@ -11,9 +11,6 @@ originalFilename: "combatambulance.zip"
 hash: "77693faea32dc60e22bb8d8f512184803ae58a8e"
 fileSize: 1614028
 files:
-- name: "Combat Ambulance BETA 1.ut4mod"
-  fileSize: 4872024
-  hash: "e0e87a5aa959bbfe69639f7099451e8b8d528e5c"
 - name: "ONSCombatAmbulance.u"
   fileSize: 1845069
   hash: "87c24a868fbcc3e7f4d66f5f03044cff433cd9c1"
@@ -23,8 +20,17 @@ files:
 - name: "ONSCombatAmbulance.ukx"
   fileSize: 1801098
   hash: "a8b2f3241ed412e4da7278cd7f9576f7de169ab6"
+- name: "Combat Ambulance BETA 1.ut4mod"
+  fileSize: 4872024
+  hash: "e0e87a5aa959bbfe69639f7099451e8b8d528e5c"
 otherFiles: 3
-dependencies: {}
+dependencies:
+  ONSCombatAmbulance.u:
+  - status: "OK"
+    name: "ONSCombatAmbulanceSM"
+  ONSCombatAmbulance.ukx:
+  - status: "OK"
+    name: "ONSCombatAmbulanceSM"
 downloads:
 - url: "https://files.vohzd.com/unreal/unreal-tournament-2004/mutators/combatambulance.zip"
   direct: true
@@ -42,6 +48,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Combat Ambulance Test"

@@ -26,17 +26,20 @@ originalFilename: "mercfb_remake_v1-1.zip"
 hash: "4c249c0bf6872f1ee2690cc82287e6a2fd7363e3"
 fileSize: 9557727
 files:
-- name: "Lilian.upl"
-  fileSize: 419
-  hash: "5283c47483ce3c4d9036a18bc33400e1cd57cb4f"
-- name: "LilianAnim.ukx"
-  fileSize: 7264571
-  hash: "d28c37850000abffc3d8e6d2fc25dfb80d45ea1c"
 - name: "LilianTex.utx"
   fileSize: 9964299
   hash: "c1b11390bc3d6f0ed956a3f0170f675df3a2b1db"
+- name: "LilianAnim.ukx"
+  fileSize: 7264571
+  hash: "d28c37850000abffc3d8e6d2fc25dfb80d45ea1c"
+- name: "Lilian.upl"
+  fileSize: 419
+  hash: "5283c47483ce3c4d9036a18bc33400e1cd57cb4f"
 otherFiles: 5
-dependencies: {}
+dependencies:
+  LilianAnim.ukx:
+  - status: "OK"
+    name: "LilianTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=Skins/SkinsM/&file=mercfb_remake_v1-1.zip"
   direct: false
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Lilian"

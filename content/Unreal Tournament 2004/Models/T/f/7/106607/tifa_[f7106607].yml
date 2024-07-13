@@ -18,14 +18,17 @@ files:
 - name: "TifaMesh.ukx"
   fileSize: 284212
   hash: "df5662fa0dabd4efe7b2284a2acd0100fe1226dd"
-- name: "TifaTex.utx"
-  fileSize: 874965
-  hash: "008e618f9ce64e4f2f0b7ee4f7eaf0791dabd249"
 - name: "Tifa.upl"
   fileSize: 307
   hash: "d079cc205ee6ba2ab70c8ccabe9d2ae5c08581cb"
+- name: "TifaTex.utx"
+  fileSize: 874965
+  hash: "008e618f9ce64e4f2f0b7ee4f7eaf0791dabd249"
 otherFiles: 1
-dependencies: {}
+dependencies:
+  TifaMesh.ukx:
+  - status: "OK"
+    name: "TifaTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Female/"
   direct: false
@@ -52,6 +55,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Tifa"

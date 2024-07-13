@@ -26,20 +26,23 @@ originalFilename: "battlefield2142.rar"
 hash: "170256d9eab2b1aacc3ad314dbbf45f71842e349"
 fileSize: 11086963
 files:
-- name: "BF2142Tex.utx"
-  fileSize: 5770278
-  hash: "a54a76043d189d6d6ff5defbdd66b7b7772737ba"
-- name: "BF2142.upl"
-  fileSize: 562
-  hash: "172e6c0f654ed6ed7229c7883d1ab0807a682b43"
-- name: "BF2142Anim.ukx"
-  fileSize: 3962660
-  hash: "d747afebe097047f72e45ade682cb2392ed89650"
 - name: "BF3Soldier.u"
   fileSize: 8940679
   hash: "4e961f3dc15a4cfdcc820799bd153e2c0ede1874"
+- name: "BF2142Tex.utx"
+  fileSize: 5770278
+  hash: "a54a76043d189d6d6ff5defbdd66b7b7772737ba"
+- name: "BF2142Anim.ukx"
+  fileSize: 3962660
+  hash: "d747afebe097047f72e45ade682cb2392ed89650"
+- name: "BF2142.upl"
+  fileSize: 562
+  hash: "172e6c0f654ed6ed7229c7883d1ab0807a682b43"
 otherFiles: 6
-dependencies: {}
+dependencies:
+  BF2142Anim.ukx:
+  - status: "OK"
+    name: "BF2142Tex"
 downloads:
 - url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Models/A/1/7/0256d9/battlefield2142.rar"
   direct: true
@@ -57,6 +60,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 models:
 - "Adrian"

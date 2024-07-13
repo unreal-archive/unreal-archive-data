@@ -14,23 +14,26 @@ files:
 - name: "Ghost.uax"
   fileSize: 294653
   hash: "d263fb804ab6bd3e2da2471c14fb503d79bde81d"
+- name: "ONSGhost.ukx"
+  fileSize: 149283
+  hash: "87833569b18be4a9d1542eb666357875c3b7458d"
+- name: "HaloGhostTex.utx"
+  fileSize: 5005321
+  hash: "eb0110a340f0512f57b91d33608bb4a4594b92df"
 - name: "HaloGhostSM.usx"
   fileSize: 315269
   hash: "5b3246555d2b5cb3692acba28b52de5f16dec08b"
 - name: "HaloGhost.u"
   fileSize: 35905
   hash: "734f3f45306dbc161bd0cde5bd754aac94bbbc2e"
-- name: "ONSGhost.ukx"
-  fileSize: 149283
-  hash: "87833569b18be4a9d1542eb666357875c3b7458d"
 - name: "HaloGhostMesh.ukx"
   fileSize: 156659
   hash: "f6e426ea0a82569eb24b15c262d901c015302a28"
-- name: "HaloGhostTex.utx"
-  fileSize: 5005321
-  hash: "eb0110a340f0512f57b91d33608bb4a4594b92df"
 otherFiles: 1
 dependencies:
+  ONSGhost.ukx:
+  - status: "PARTIAL"
+    name: "Ghost"
   HaloGhostSM.usx:
   - status: "OK"
     name: "HaloGhostTex"
@@ -39,10 +42,15 @@ dependencies:
     name: "HaloGhostSM"
   - status: "OK"
     name: "HaloGhostTex"
-  - status: "MISSING"
+  - status: "OK"
     name: "HaloGhostMesh"
   - status: "OK"
     name: "Ghost"
+  HaloGhostMesh.ukx:
+  - status: "OK"
+    name: "HaloGhostSM"
+  - status: "OK"
+    name: "HaloGhostTex"
 downloads:
 - url: "http://ut2004.ut-files.com/index.php?dir=UT2004Models/Misc/"
   direct: false
@@ -66,6 +74,7 @@ downloads:
   direct: true
   state: "OK"
 links: {}
+problemLinks: {}
 deleted: false
 mutators:
 - name: "Ghost"
