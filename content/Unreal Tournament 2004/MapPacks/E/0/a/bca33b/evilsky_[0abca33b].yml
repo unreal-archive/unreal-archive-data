@@ -1,0 +1,81 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-08-13 10:03"
+game: "Unreal Tournament 2004"
+name: "EvilSky"
+author: "Doctor Evil"
+description: "None"
+releaseDate: "2005-09"
+attachments:
+- type: "IMAGE"
+  name: "evilsky_shot_0abca33b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/E/0/a/bca33b/evilsky_shot_0abca33b_1.png"
+originalFilename: "EvilSky.7z"
+hash: "0abca33bd0acfa967e73e3b0ce07cdbbe5f6375a"
+fileSize: 3199898
+files:
+- name: "EvilRoads1.utx"
+  fileSize: 335143
+  hash: "f52e9e9c1babbe71cc34137d0efb688d9727e610"
+- name: "CTF4-EvilSky.ut2"
+  fileSize: 4048871
+  hash: "f6eeab22276d53e2197743586bace8cf9c92767a"
+- name: "WonderfulLand.ogg"
+  fileSize: 2207343
+  hash: "a81e53f0a7d9b1556f2b8741060074a4668bb726"
+- name: "ConcussionRifle.u"
+  fileSize: 3721
+  hash: "64746e1307344241142a04df1f198b0fc7de2ef5"
+- name: "EvilRoads2.usx"
+  fileSize: 212078
+  hash: "5c9b13c49094fffe80817fd36def3237cf35e4e7"
+- name: "BR4-EvilSky.ut2"
+  fileSize: 3016485
+  hash: "11488fa3bb452953e2104c861a7cbfffdba7880e"
+otherFiles: 4
+dependencies:
+  EvilRoads2.usx:
+  - status: "OK"
+    name: "EvilRoads1"
+  BR4-EvilSky.ut2:
+  - status: "MISSING"
+    name: "OLTeamGamesMapTex"
+  - status: "OK"
+    name: "EvilRoads1"
+  - status: "OK"
+    name: "EvilRoads2"
+  - status: "MISSING"
+    name: "BR4"
+  - status: "OK"
+    name: "ConcussionRifle"
+  - status: "MISSING"
+    name: "OLTeamGames"
+  CTF4-EvilSky.ut2:
+  - status: "MISSING"
+    name: "OLTeamGamesMapTex"
+  - status: "OK"
+    name: "EvilRoads1"
+  - status: "OK"
+    name: "EvilRoads2"
+  - status: "OK"
+    name: "ConcussionRifle"
+  - status: "MISSING"
+    name: "OLTeamGames"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/E/0/a/bca33b/EvilSky.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "CTF4-EvilSky"
+  title: "Evil Sky"
+  author: "Doctor Evil"
+- name: "BR4-EvilSky"
+  title: "Evil Sky"
+  author: "Doctor Evil"
+gametype: "Mixed"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
