@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-07-31 11:50"
+game: "Unreal Tournament 2004"
+name: "DM-puebloivllage"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-03"
+attachments: []
+originalFilename: "dm-pueblovillage.rar"
+hash: "87e80c9a9d8654a66419820a52c359f6eed75c59"
+fileSize: 6077726
+files:
+- name: "DM-puebloivllage.ut2"
+  fileSize: 5023843
+  hash: "1af18549b4fa44db781f606ceed7196fbf09d1aa"
+- name: "finalcg.usx"
+  fileSize: 1466023
+  hash: "d888fb4219d9ec3ea34e967048320f2fc1cf9f62"
+- name: "finalcgtex.utx"
+  fileSize: 11974217
+  hash: "3473468eb5756707e9d930cfa8e5b21be831b6e3"
+otherFiles: 0
+dependencies:
+  DM-puebloivllage.ut2:
+  - status: "OK"
+    name: "finalcgtex"
+  - status: "OK"
+    name: "finalcg"
+  finalcg.usx:
+  - status: "OK"
+    name: "finalcgtex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/P/8/7/e80c9a/dm-pueblovillage.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-puebloivllage"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true
