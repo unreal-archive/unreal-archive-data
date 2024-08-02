@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-08-02 21:03"
+game: "Unreal Tournament 2004"
+name: "CTF-EvilSky2"
+author: "Doctor Evil"
+description: "Take the high road or the low road, for action high in the sky.||If\
+  \ a concussion rifle flicks you way off the highways, then aim for one of the four\
+  \ ponds of salvation."
+releaseDate: "2015-11"
+attachments: []
+originalFilename: "CTF-EvilSky2.7z"
+hash: "cc7b31fef9447abf2d36eb41e185c130ef7994a4"
+fileSize: 3020605
+files:
+- name: "EvilRoads1.utx"
+  fileSize: 335143
+  hash: "f52e9e9c1babbe71cc34137d0efb688d9727e610"
+- name: "EvilRoads2.usx"
+  fileSize: 212078
+  hash: "5c9b13c49094fffe80817fd36def3237cf35e4e7"
+- name: "ConcussionRifle.u"
+  fileSize: 3721
+  hash: "64746e1307344241142a04df1f198b0fc7de2ef5"
+- name: "WonderfulLand.ogg"
+  fileSize: 2207343
+  hash: "a81e53f0a7d9b1556f2b8741060074a4668bb726"
+- name: "CTF-EvilSky2.ut2"
+  fileSize: 4063395
+  hash: "81d6b748e281abf6a2078dc061a15d5106a84b1f"
+otherFiles: 3
+dependencies:
+  EvilRoads2.usx:
+  - status: "OK"
+    name: "EvilRoads1"
+  CTF-EvilSky2.ut2:
+  - status: "MISSING"
+    name: "OLTeamGamesMapTex"
+  - status: "OK"
+    name: "EvilRoads1"
+  - status: "OK"
+    name: "EvilRoads2"
+  - status: "OK"
+    name: "ConcussionRifle"
+  - status: "MISSING"
+    name: "OLTeamGames"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/E/c/c/7b31fe/CTF-EvilSky2.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Evil Sky"
+playerCount: "20-28"
+themes:
+  Tech: 0.5
+  Industrial: 0.5
+bots: true

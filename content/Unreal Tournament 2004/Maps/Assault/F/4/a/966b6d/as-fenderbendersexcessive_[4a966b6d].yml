@@ -1,0 +1,127 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-08-02 21:03"
+game: "Unreal Tournament 2004"
+name: "AS-FenderBenders[Excessive]"
+author: "G.I.Joan"
+description: "Soccer with Hellbenders!"
+releaseDate: "2007-07"
+attachments:
+- type: "IMAGE"
+  name: "as-fenderbendersexcessive_shot_4a966b6d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Assault/F/4/a/966b6d/as-fenderbendersexcessive_shot_4a966b6d_1.png"
+originalFilename: "AS-PWC-FenderBenders-Excessive.rar"
+hash: "4a966b6dc6a2c0d0433632a266830a4203a30f3d"
+fileSize: 15513734
+files:
+- name: "GravVortex_001.utx"
+  fileSize: 613417
+  hash: "8e4b03979ae6e2b01279096ba63bd92079a79b1a"
+- name: "GravVortexSound.uax"
+  fileSize: 3045204
+  hash: "eebf69f0913040ca283694a6b35791e24f7c1184"
+- name: "ExcessiveWeapons.ukx"
+  fileSize: 1106953
+  hash: "3b1c8f308e48f6d0797a392bbd45b1206d3ed798"
+- name: "ExcessiveV3.u"
+  fileSize: 846766
+  hash: "835950700674e85c1fbdacdc7121cd8c04b35c8d"
+- name: "GravVortex_003.utx"
+  fileSize: 1395805
+  hash: "266577654ea39d955a31aeb0d8e93cd9e7e4a97b"
+- name: "GravVortexPickups.usx"
+  fileSize: 198269
+  hash: "a2e81602bcce92f5ce201ba113838671a1c9ccca"
+- name: "ExcessiveMesh.usx"
+  fileSize: 338283
+  hash: "53acbe50ffc75e5e618eb8ecf3213c7227c242a6"
+- name: "GravVortexExtras.usx"
+  fileSize: 44905
+  hash: "ea3a5988b60768a306e20f9a0991629b13ce2da0"
+- name: "ExcessiveMenu.ogg"
+  fileSize: 1146438
+  hash: "7df37d03c05d768f857763d0c2ae6a3525fdf4b6"
+- name: "AS-FenderBenders[Excessive].ut2"
+  fileSize: 14723962
+  hash: "7c3588c463c4656ad862051a8375c2e42a8e7827"
+- name: "GravVortex_Extras1.ukx"
+  fileSize: 46502
+  hash: "15ccbeb81911cb1de1039ae577782e0812c80089"
+- name: "GravVortex_2.ukx"
+  fileSize: 300438
+  hash: "74349d766fdf0e48f0667e1fc1a304bfe6ac864f"
+- name: "ExcessiveTex.utx"
+  fileSize: 7318083
+  hash: "ef3b116f41a82edc84b004f400e816da8d3f978d"
+- name: "GravVortex.u"
+  fileSize: 3138219
+  hash: "a0a38792e779c1d2f53fcef42abe6843f3431f8e"
+- name: "GravVortex_006.utx"
+  fileSize: 38989
+  hash: "05834737da581294e14d7c64b8a8dd8753d240e9"
+otherFiles: 3
+dependencies:
+  ExcessiveV3.u:
+  - status: "OK"
+    name: "ExcessiveMesh"
+  - status: "OK"
+    name: "ExcessiveTex"
+  - status: "OK"
+    name: "ExcessiveWeapons"
+  GravVortexPickups.usx:
+  - status: "OK"
+    name: "GravVortex_003"
+  ExcessiveWeapons.ukx:
+  - status: "OK"
+    name: "ExcessiveTex"
+  GravVortexExtras.usx:
+  - status: "OK"
+    name: "GravVortex_003"
+  GravVortex_2.ukx:
+  - status: "OK"
+    name: "GravVortex_003"
+  GravVortex.u:
+  - status: "OK"
+    name: "GravVortexPickups"
+  - status: "OK"
+    name: "GravVortex_006"
+  - status: "OK"
+    name: "GravVortex_Extras1"
+  - status: "OK"
+    name: "GravVortex_003"
+  - status: "OK"
+    name: "GravVortex_001"
+  - status: "OK"
+    name: "GravVortexExtras"
+  - status: "OK"
+    name: "GravVortex_2"
+  - status: "OK"
+    name: "GravVortexSound"
+  AS-FenderBenders[Excessive].ut2:
+  - status: "MISSING"
+    name: "HellBenderLightAssault"
+  - status: "OK"
+    name: "GravVortex"
+  - status: "MISSING"
+    name: "ExcessiveV301"
+  GravVortex_Extras1.ukx:
+  - status: "OK"
+    name: "GravVortex_003"
+  ExcessiveMesh.usx:
+  - status: "OK"
+    name: "ExcessiveTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Assault/F/4/a/966b6d/AS-PWC-FenderBenders-Excessive.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Assault"
+title: "AS-J_FenderBenders-v12"
+playerCount: "Unknown"
+themes:
+  Tech: 0.2
+  Industrial: 0.5
+  Ancient: 0.3
+bots: true
