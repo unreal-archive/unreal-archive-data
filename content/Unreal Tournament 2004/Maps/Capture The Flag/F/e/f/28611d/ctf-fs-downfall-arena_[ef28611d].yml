@@ -1,0 +1,62 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-08-13 09:32"
+game: "Unreal Tournament 2004"
+name: "CTF-{Fs}-DownFall-Arena"
+author: "Feuersturm"
+description: "The fusion of the elements is finished, look at the battlefield andunderstand\
+  \ it, if you dont`t do that, you will burn in hell. So now, let the tournament begin,\
+  \ in the name of the Liandri Corporation."
+releaseDate: "2015-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-fs-downfall-arena_shot_ef28611d_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/e/f/28611d/ctf-fs-downfall-arena_shot_ef28611d_2.png"
+- type: "IMAGE"
+  name: "ctf-fs-downfall-arena_shot_ef28611d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/e/f/28611d/ctf-fs-downfall-arena_shot_ef28611d_1.png"
+- type: "IMAGE"
+  name: "ctf-fs-downfall-arena_shot_ef28611d_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/e/f/28611d/ctf-fs-downfall-arena_shot_ef28611d_4.png"
+- type: "IMAGE"
+  name: "ctf-fs-downfall-arena_shot_ef28611d_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/e/f/28611d/ctf-fs-downfall-arena_shot_ef28611d_3.png"
+originalFilename: "CTF-{Fs}-DownFall-Arena.zip"
+hash: "ef28611d895268449be0bf89ee1b9021d17dee34"
+fileSize: 15282815
+files:
+- name: "CTFDownFallTexes.utx"
+  fileSize: 7457727
+  hash: "0f1a43ae1e203e3e2bb42d8ab5932dad4eaee2d7"
+- name: "CTF-{Fs}-DownFall-Arena.ut2"
+  fileSize: 18176133
+  hash: "2dd6a79653213b0fdf6c7085e67cc18b5fd79455"
+- name: "Descension.ogg"
+  fileSize: 5108347
+  hash: "82fbb6895cd65ebc267477e47bdcb71792847a9d"
+- name: "CTFDownFallSM.usx"
+  fileSize: 2825762
+  hash: "94d1e495d15f160b9a4432b06c1953ceb6656731"
+otherFiles: 4
+dependencies:
+  CTFDownFallSM.usx:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  CTF-{Fs}-DownFall-Arena.ut2:
+  - status: "OK"
+    name: "CTFDownFallTexes"
+  - status: "OK"
+    name: "CTFDownFallSM"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/F/e/f/28611d/CTF-%7BFs%7D-DownFall-Arena.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "DownFall-Arena"
+playerCount: "12-24"
+themes:
+  Ancient: 1.0
+bots: true
