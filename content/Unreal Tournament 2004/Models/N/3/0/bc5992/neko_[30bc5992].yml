@@ -1,0 +1,42 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2024-08-15 02:13"
+game: "Unreal Tournament 2004"
+name: "Neko"
+author: "Boom (AbsoluteBoom)"
+description: "None"
+releaseDate: "2024-08"
+attachments:
+- type: "IMAGE"
+  name: "neko_shot_30bc5992_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/N/3/0/bc5992/neko_shot_30bc5992_1.png"
+originalFilename: "OANekoPlayerModelV2.rar"
+hash: "30bc59921a0615902bcb1d8a09e381e9ab0b0b11"
+fileSize: 2624083
+files:
+- name: "OANeko.upl"
+  fileSize: 757
+  hash: "6a04931a1b538520fe5b7424e58c88df97fa81d3"
+- name: "NekoTextures.utx"
+  fileSize: 3016439
+  hash: "8bfc8f3ec053ea7b05147795d6bb0d71ce468ff4"
+- name: "NekoAnimation.ukx"
+  fileSize: 1173003
+  hash: "684fb93284c00e20d31e3b18c3a8d6fdba788987"
+otherFiles: 3
+dependencies:
+  NekoAnimation.ukx:
+  - status: "MISSING"
+    name: "NekoTextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/N/3/0/bc5992/OANekoPlayerModelV2.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Neko"
+skins:
+- "Neko"
+- "RetroNeko"
