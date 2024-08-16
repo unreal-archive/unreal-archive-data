@@ -84,6 +84,9 @@ steps:
       MES_WIKI_URL: https://unrealarchive.org/search/api/uaw
       MES_WIKI_TOKEN:
         from_secret: MSE_TOKEN
+      MES_PACKAGE_URL: https://unrealarchive.org/search/api/uap
+      MES_PACKAGE_TOKEN:
+        from_secret: MSE_TOKEN
     commands:
       - apt update && apt install -y locales-all
       - /tmp/ua/bin/www search-submit --content-path=./ --store=NOP
