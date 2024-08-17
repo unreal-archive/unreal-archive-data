@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-26 07:27"
+game: "Unreal Tournament"
+name: "MH-FNB-SpaceJunkV0"
+author: "Rob -=FraGnBraG=- Burns"
+description: "This is the right version :)"
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-spacejunkv0_shot_1b24c5b8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/b/24c5b8/mh-fnb-spacejunkv0_shot_1b24c5b8_1.png"
+originalFilename: "MH-FNB-SpaceJunkV0.7z"
+hash: "1b24c5b809ea17a144fefe9e97b24d40d1ea73c7"
+fileSize: 6465869
+files:
+- name: "MH-FNB-SpaceJunkV0.unr"
+  fileSize: 9824866
+  hash: "96e8ac22edfa3ac4ca53df23bdd6acc96684c6f4"
+- name: "mir-dlma.umx"
+  fileSize: 2047131
+  hash: "ce5b428b5139eafc7c5ebd9846e99f6bffbc7671"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+otherFiles: 1
+dependencies:
+  MH-FNB-SpaceJunkV0.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "mir-dlma"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/b/24c5b8/MH-FNB-SpaceJunkV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF-FNB-SpaceJunk"
+playerCount: "10+ players"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+bots: true
