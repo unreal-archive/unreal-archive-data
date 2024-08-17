@@ -1,0 +1,142 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2024-08-22 12:52"
+game: "Unreal Tournament"
+name: "Force Commander"
+author: "James Green and"
+description: "None"
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "force-commander_shot_e1412e43_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/F/e/1/412e43/force-commander_shot_e1412e43_1.png"
+- type: "IMAGE"
+  name: "force-commander_shot_e1412e43_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/F/e/1/412e43/force-commander_shot_e1412e43_2.png"
+- type: "IMAGE"
+  name: "force-commander_shot_e1412e43_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/F/e/1/412e43/force-commander_shot_e1412e43_3.png"
+originalFilename: "WH40k_UT_Voicepacks.zip"
+hash: "e1412e431e4cbe665e38f48a09257fac51282404"
+fileSize: 87631179
+files:
+- name: "PossessedChaosMarine.u"
+  fileSize: 5506567
+  hash: "91eca328e00027c038670a5ede4504497708a1bb"
+- name: "SpaceMarine40K.u"
+  fileSize: 759911
+  hash: "c49b53b7fe82d8dad22139491a3197f96d97adfc"
+- name: "Ork.u"
+  fileSize: 11888793
+  hash: "ed92d3a3665cf1d4d3c9e630bf554b6f3f96c24c"
+- name: "ImperialGuard.u"
+  fileSize: 18144591
+  hash: "ce17374950a97ee972bd69632c34171b6d20e0e3"
+- name: "KhorneBerserker.u"
+  fileSize: 10027164
+  hash: "f7e17a190e3f8533e89f113d13041b0bcda69ead"
+- name: "Cultist.u"
+  fileSize: 8061088
+  hash: "e44a13d3145c7b2cf251d1893871d7e859ee3717"
+- name: "ChaosSorcerer.u"
+  fileSize: 6776272
+  hash: "6d8cbca7d8be826d25a03a4ec40ea9ee12214822"
+- name: "Orkz.u"
+  fileSize: 1738776
+  hash: "82623747309e0ac73698f9b46ca23704053cf1ae"
+- name: "ChaosLordPlayer.u"
+  fileSize: 1604
+  hash: "36841f71732a77e8aba4c235c83d66eb8bad75d4"
+- name: "KhorneBerserkerPlayer.u"
+  fileSize: 1662
+  hash: "966263de1e65a229650bd2d265df157477d5ae73"
+- name: "SpaceMarine.u"
+  fileSize: 11839768
+  hash: "e56b32f60f2338f4005fda7788ef31d52efb6073"
+- name: "ChaosChampion.u"
+  fileSize: 6212172
+  hash: "8b21716b6352dd95bbb7c6b469cfea955b01fc3b"
+- name: "AdvancedModelSupport.u"
+  fileSize: 1507796
+  hash: "f912e04b6d4bd97269530f2a25ce374e02430364"
+- name: "ChaosLord.u"
+  fileSize: 10781129
+  hash: "a0483cd881b52e09b513c952fbca42f04ecd988f"
+- name: "UT-AdvancedModelSupport-110.umod"
+  fileSize: 1561833
+  hash: "ec18b1344a531dc918a75a4f71be987473d85cdc"
+- name: "SpaceMarine40Kv2.u"
+  fileSize: 1330386
+  hash: "7381bf86df8098286966e5e372e71d3da0cd903c"
+- name: "ForceCommanderPlayer.u"
+  fileSize: 1125
+  hash: "df07be57c5ee9c842e8336636dfd0c9a3bd254b5"
+- name: "ChaosMarine.u"
+  fileSize: 6995459
+  hash: "095723e625ebb6f27bc0dd32a6f431850726f3d3"
+- name: "CultistPlayer.u"
+  fileSize: 984
+  hash: "f6e4d973d50fe0c3749b8311fa193f647d747de6"
+- name: "ForceCommander.u"
+  fileSize: 9174453
+  hash: "ced1b4f215de7b22aaa78a37fcaaea5e4303e35c"
+otherFiles: 30
+dependencies:
+  ForceCommanderPlayer.u:
+  - status: "OK"
+    name: "SpaceMarine40Kv2"
+  - status: "OK"
+    name: "ForceCommander"
+  CultistPlayer.u:
+  - status: "OK"
+    name: "Cultist"
+  - status: "MISSING"
+    name: "oldmodels"
+  SpaceMarine40Kv2.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  ChaosLordPlayer.u:
+  - status: "OK"
+    name: "SpaceMarine40Kv2"
+  - status: "OK"
+    name: "ChaosLord"
+  Orkz.u:
+  - status: "OK"
+    name: "AdvancedModelSupport"
+  SpaceMarine40K.u:
+  - status: "MISSING"
+    name: "SkeletalChars"
+  KhorneBerserkerPlayer.u:
+  - status: "OK"
+    name: "SpaceMarine40Kv2"
+  - status: "OK"
+    name: "KhorneBerserker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/F/e/1/412e43/WH40k_UT_Voicepacks.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Force Commander"
+- "Chaos Lord"
+- "Khorne Berserker"
+- "Space Marine 40K v.2"
+- "WH40K Ork"
+- "Chaos Space Marine"
+skins:
+- "Space Marines IV"
+- "Default"
+- "Boy"
+- "Dok"
+- "IronJaw"
+- "Skarz"
+- "Tattooed-Red"
+- "Tattooed-Blue"
+- "Greenskin"
+- "Chaos Space Marines"
+- "Chaos Space Marine"
+- "Space Marines I"
+- "Space Marines III"
+- "Octavius"
