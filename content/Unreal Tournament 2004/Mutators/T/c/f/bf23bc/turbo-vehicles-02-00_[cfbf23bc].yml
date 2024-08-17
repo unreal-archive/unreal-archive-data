@@ -1,0 +1,79 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-09-16 13:39"
+game: "Unreal Tournament 2004"
+name: "Turbo Vehicles 02 00"
+author: "Unknown"
+description: "None"
+releaseDate: "2024-03"
+attachments: []
+originalFilename: "turbo-vehicles_02-00.zip"
+hash: "cfbf23bc6d071d53c4de46719f289d02bdf14ab7"
+fileSize: 24680233
+files:
+- name: "turbo-vehicles_02-00.u"
+  fileSize: 315084
+  hash: "fd12b2a3590b4816864fd8d502ed988a36a73249"
+- name: "TurboHornetAnim.ukx"
+  fileSize: 672697
+  hash: "e8e6f64c9ed5d6b595dbf4d7f76c4b64f4b10899"
+- name: "TurboVehiclesSounds_02-00.uax"
+  fileSize: 4966088
+  hash: "c28f3197a5086367f58160348fd6e982a4608709"
+- name: "TurboHornetGlass.utx"
+  fileSize: 504
+  hash: "c5cfd89e3129b66ac0436ab1448bcbc8cfdbf58f"
+- name: "TurboVehiclesTex_02-00.utx"
+  fileSize: 47889150
+  hash: "798510dde473c1591c3a7bcfd6bb6c1a615c45da"
+otherFiles: 1
+dependencies:
+  turbo-vehicles_02-00.u:
+  - status: "OK"
+    name: "TurboHornetAnim"
+  - status: "OK"
+    name: "TurboVehiclesSounds_02-00"
+  - status: "OK"
+    name: "TurboHornetGlass"
+  - status: "OK"
+    name: "TurboVehiclesTex_02-00"
+  TurboHornetAnim.ukx:
+  - status: "OK"
+    name: "TurboHornetGlass"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/T/c/f/bf23bc/turbo-vehicles_02-00.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Turbo Vehicle Randomizer 02-00"
+  description: "Replaces certain vehicles with different turbo vehicles, with distributed\
+    \ spawn probability."
+- name: "Turbo Vehicles"
+  description: "Because you wanted to add a turbo charger."
+weapons: []
+vehicles:
+- name: "Turbo SledgeBender"
+  description: "Turbo SledgeBender"
+- name: "SledgeBender Rear Turret"
+  description: "SledgeBender Rear Turret"
+- name: "SledgeBender Side Turret"
+  description: "SledgeBender Side Turret"
+- name: "Turbo SPMA"
+  description: "Turbo SPMA"
+- name: "Turbo Flea"
+  description: "Turbo Flea"
+- name: "Turbo Hornet"
+  description: "Turbo Hornet"
+- name: "Turbo Leviathan"
+  description: "Turbo Leviathan"
+- name: "Turbo HellBender"
+  description: "Turbo HellBender"
+- name: "Turbo Scorpion"
+  description: "Turbo Scorpion"
+- name: "Turbo Paladin"
+  description: "Turbo Paladin"
+hasConfigMenu: false
+hasKeybinds: false

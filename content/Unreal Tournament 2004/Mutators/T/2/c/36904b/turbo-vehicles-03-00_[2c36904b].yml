@@ -1,0 +1,110 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-09-16 13:39"
+game: "Unreal Tournament 2004"
+name: "Turbo Vehicles 03 00"
+author: "Unknown"
+description: "None"
+releaseDate: "2024-05"
+attachments: []
+originalFilename: "turbo-vehicles_03-00.zip"
+hash: "2c36904b7cabac4d564c64f2edc1812cca59da1d"
+fileSize: 20804830
+files:
+- name: "TurboVehiclesTex_03-00.utx"
+  fileSize: 22998407
+  hash: "95bc3bf18ede62ceb69a73f1ad662ad6fac66f41"
+- name: "TurboVehiclesAnim_03-00.ukx"
+  fileSize: 1678660
+  hash: "8ef793733253bf847fe8a26ecf64782d5c2a3336"
+- name: "TurboVehiclesMesh_03-00.usx"
+  fileSize: 905296
+  hash: "9c264bd839776e44d352f772ab3410a3e394ede7"
+- name: "turbo-vehicles_03-00.u"
+  fileSize: 597177
+  hash: "13105e726efb4d9dc8537003ddeb0b9da381dac2"
+- name: "TurboVehiclesSounds_03-00.uax"
+  fileSize: 8140366
+  hash: "88ee6078664641ca9938fe3b00efa901fac21e97"
+otherFiles: 1
+dependencies:
+  TurboVehiclesMesh_03-00.usx:
+  - status: "OK"
+    name: "TurboVehiclesTex_03-00"
+  TurboVehiclesAnim_03-00.ukx:
+  - status: "OK"
+    name: "TurboVehiclesMesh_03-00"
+  - status: "OK"
+    name: "TurboVehiclesTex_03-00"
+  turbo-vehicles_03-00.u:
+  - status: "OK"
+    name: "TurboVehiclesSounds_03-00"
+  - status: "OK"
+    name: "TurboVehiclesAnim_03-00"
+  - status: "OK"
+    name: "TurboVehiclesMesh_03-00"
+  - status: "OK"
+    name: "TurboVehiclesTex_03-00"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/T/2/c/36904b/turbo-vehicles_03-00.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Turbo Vehicles"
+  description: "Because you wanted to add a turbo charger."
+- name: "Turbo Vehicle Randomizer 03-00"
+  description: "Replaces certain vehicles with different turbo vehicles, with distributed\
+    \ spawn probability."
+weapons: []
+vehicles:
+- name: "Turbo Army Scorpion"
+  description: "Turbo Army Scorpion"
+- name: "Turbo SPMA"
+  description: "Turbo SPMA"
+- name: "Turbo Badger"
+  description: "Turbo Badger"
+- name: "Turbo Badger Turret"
+  description: "Turbo Badger Turret"
+- name: "Elite Turbo Aero Scorpion"
+  description: "Elite Turbo Aero Scorpion"
+- name: "Elite Turbo Racing Scorpion"
+  description: "Elite Turbo Racing Scorpion"
+- name: "Turbo Flea"
+  description: "Turbo Flea"
+- name: "Turbo Aero Scorpion"
+  description: "Turbo Aero Scorpion"
+- name: "Turbo Hornet"
+  description: "Turbo Hornet"
+- name: "LEGENDARY Turbo Racing Scorpion"
+  description: "LEGENDARY Turbo Racing Scorpion"
+- name: "Turbo Scorpion Lite"
+  description: "Turbo Scorpion Lite"
+- name: "Turbo Leviathan"
+  description: "Turbo Leviathan"
+- name: "Vehicle"
+  description: "Vehicle"
+- name: "Turbo Crawler Scorpion"
+  description: "Turbo Crawler Scorpion"
+- name: "Turbo HellBender"
+  description: "Turbo HellBender"
+- name: "Turbo Scorpion"
+  description: "Turbo Scorpion"
+- name: "Turbo Paladin"
+  description: "Turbo Paladin"
+- name: "Turbo SledgeBender"
+  description: "Turbo SledgeBender"
+- name: "TV_Sledge Rear Turret"
+  description: "TV_Sledge Rear Turret"
+- name: "TV_Sledge Side Turret"
+  description: "TV_Sledge Side Turret"
+- name: "Turbo Racing Scorpion"
+  description: "Turbo Racing Scorpion"
+- name: "Unbladed Turbo Scorpion"
+  description: "Unbladed Turbo Scorpion"
+- name: "Turbo Wasp"
+  description: "Turbo Wasp"
+hasConfigMenu: false
+hasKeybinds: false
