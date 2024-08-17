@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-09-16 13:39"
+game: "Unreal Tournament 2004"
+name: "Turbo Vehicles"
+author: "Unknown"
+description: "Because you wanted to add a turbo charger."
+releaseDate: "2024-03"
+attachments: []
+originalFilename: "turbo-vehicles_01-03.zip"
+hash: "a5da32a0636ae5f30242df44b59be420f1bba0f1"
+fileSize: 10541950
+files:
+- name: "TurboVehiclesSounds_1-2.uax"
+  fileSize: 2082264
+  hash: "4e700695f53b61f5c09e4488c7f5edd859cf3087"
+- name: "turbo-vehicles_01-03.u"
+  fileSize: 202615
+  hash: "2dc1d14451b18fd4d8f9569ae969bf9300f6ff8a"
+- name: "FubTex2.utx"
+  fileSize: 25523649
+  hash: "fbbdcad5d297a44cc9c23a25d82d9d81eb92e503"
+otherFiles: 1
+dependencies:
+  turbo-vehicles_01-03.u:
+  - status: "OK"
+    name: "TurboVehiclesSounds_1-2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/T/a/5/da32a0/turbo-vehicles_01-03.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Turbo Vehicles"
+  description: "Because you wanted to add a turbo charger."
+weapons: []
+vehicles:
+- name: "Turbo SPMA"
+  description: "Turbo SPMA"
+- name: "Turbo Leviathan"
+  description: "Turbo Leviathan"
+- name: "Turbo HellBender"
+  description: "Turbo HellBender"
+- name: "Turbo Scorpion"
+  description: "Turbo Scorpion"
+- name: "Turbo Paladin"
+  description: "Turbo Paladin"
+hasConfigMenu: false
+hasKeybinds: false
