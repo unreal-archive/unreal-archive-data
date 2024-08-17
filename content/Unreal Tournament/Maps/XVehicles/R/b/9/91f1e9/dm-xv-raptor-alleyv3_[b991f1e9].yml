@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-24 07:03"
+game: "Unreal Tournament"
+name: "DM-XV-Raptor-AlleyV3"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-xv-raptor-alleyv3_shot_b991f1e9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/R/b/9/91f1e9/dm-xv-raptor-alleyv3_shot_b991f1e9_1.png"
+originalFilename: "DM-XV-Raptor-AlleyV3.7z"
+hash: "b991f1e96296f241a7e0d00f8a2d50e9ab9bc6f2"
+fileSize: 1816744
+files:
+- name: "DM-XV-Raptor-AlleyV3.unr"
+  fileSize: 568294
+  hash: "f96a401fe354077c852056ef3837f1c827dea5dc"
+- name: "RaptorAlleyTEX.utx"
+  fileSize: 2419777
+  hash: "396146b734537660938de9b6b676deac92436f71"
+- name: "super_slimer_-_around_the_world.umx"
+  fileSize: 2000850
+  hash: "5627d0f145539462ce845373c70cefa8aec469ee"
+otherFiles: 1
+dependencies:
+  DM-XV-Raptor-AlleyV3.unr:
+  - status: "OK"
+    name: "RaptorAlleyTEX"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "OK"
+    name: "super_slimer_-_around_the_world"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/R/b/9/91f1e9/DM-XV-Raptor-AlleyV3.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Raptor Alley"
+playerCount: "2-7"
+themes:
+  Natural: 0.2
+  Tech: 0.7
+  City: 0.1
+bots: true
