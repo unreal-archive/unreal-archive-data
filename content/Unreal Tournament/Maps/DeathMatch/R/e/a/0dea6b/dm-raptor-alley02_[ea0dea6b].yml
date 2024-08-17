@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-10-01 01:32"
+game: "Unreal Tournament"
+name: "DM-Raptor-Alley02"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-raptor-alley02_shot_ea0dea6b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/e/a/0dea6b/dm-raptor-alley02_shot_ea0dea6b_1.png"
+originalFilename: "DM-XV-RaptorAlley.zip"
+hash: "ea0dea6b1b99cb3b36b7bf5bc94bbdb91b42475f"
+fileSize: 1296271
+files:
+- name: "RaptorAlleyTEX.utx"
+  fileSize: 2419777
+  hash: "396146b734537660938de9b6b676deac92436f71"
+- name: "DM-Raptor-Alley02.unr"
+  fileSize: 405999
+  hash: "6f768ca241a8b5bd0ebd190322962b69684de221"
+otherFiles: 1
+dependencies:
+  DM-Raptor-Alley02.unr:
+  - status: "OK"
+    name: "RaptorAlleyTEX"
+  - status: "MISSING"
+    name: "XChopVeh"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/e/a/0dea6b/DM-XV-RaptorAlley.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Raptor Alley"
+playerCount: "Unknown"
+themes:
+  Natural: 0.2
+  Tech: 0.7
+  City: 0.1
+bots: true
