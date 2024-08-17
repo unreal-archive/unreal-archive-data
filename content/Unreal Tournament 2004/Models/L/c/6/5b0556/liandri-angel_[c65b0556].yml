@@ -1,0 +1,70 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2024-09-26 12:16"
+game: "Unreal Tournament 2004"
+name: "Liandri-Angel"
+author: "EvilEngine"
+description: "None"
+releaseDate: "2004-08"
+attachments:
+- type: "IMAGE"
+  name: "liandri-angel_shot_c65b0556_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/L/c/6/5b0556/liandri-angel_shot_c65b0556_1.png"
+originalFilename: "ut2004mdlliandriangel.7z"
+hash: "c65b05562a1773e46dbe5acb424028c43d83f397"
+fileSize: 5709399
+files:
+- name: "Liandri-Angel.upl"
+  fileSize: 949
+  hash: "476d199bffc7855838f77799aec3ab30fcdeb0d5"
+- name: "Liandri-Angel.upl"
+  fileSize: 923
+  hash: "2d5d4eddc0f16a4da3dc2feb04ecd9f55b8243c3"
+- name: "LiandriAngelModel.ukx"
+  fileSize: 4348468
+  hash: "ca40b2078caa27ca421e355d4b5315b20424db31"
+- name: "LiandriAngeltextures.utx"
+  fileSize: 10338003
+  hash: "38b2e9bb3cea711167475c5a749bdce9c36b1112"
+- name: "SPECIES_liandri_angel.u"
+  fileSize: 15260
+  hash: "f16488c6d70ac23ad060aa02f9c3accccbe4b073"
+- name: "Liandri_Angel_gibs.utx"
+  fileSize: 2228511
+  hash: "8372c5f28fb37ecf31dce2c97ec5f44e4e92aeb8"
+- name: "LiandriAngelMeshes.usx"
+  fileSize: 513461
+  hash: "96dc9a82b8b2b3771028112e6ee9b407bd3790b3"
+otherFiles: 2
+dependencies:
+  Liandri_Angel_gibs.utx:
+  - status: "OK"
+    name: "LiandriAngeltextures"
+  LiandriAngelMeshes.usx:
+  - status: "PARTIAL"
+    name: "LiandriAngeltextures"
+  - status: "OK"
+    name: "Liandri_Angel_gibs"
+  LiandriAngelModel.ukx:
+  - status: "OK"
+    name: "LiandriAngeltextures"
+  - status: "OK"
+    name: "Liandri_Angel_gibs"
+  SPECIES_liandri_angel.u:
+  - status: "OK"
+    name: "LiandriAngelMeshes"
+  - status: "OK"
+    name: "LiandriAngelModel"
+  - status: "OK"
+    name: "Liandri_Angel_gibs"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Models/L/c/6/5b0556/ut2004mdlliandriangel.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Liandri-Angel"
+skins:
+- "Liandri-Angel"
