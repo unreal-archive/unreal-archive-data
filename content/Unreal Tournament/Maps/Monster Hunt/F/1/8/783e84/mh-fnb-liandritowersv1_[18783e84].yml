@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-27 11:25"
+game: "Unreal Tournament"
+name: "MH-FNB-LiandriTowersV1"
+author: "Rob -=FraGnBraG=- Burns"
+description: "CTF Liandri Towers with UTR XPickups  (c)2004-2018 Robert Burns."
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-liandritowersv1_shot_18783e84_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/8/783e84/mh-fnb-liandritowersv1_shot_18783e84_1.png"
+originalFilename: "MH-FNB-LiandriTowersV1.7z"
+hash: "18783e84b8f19a6acdb20a4d3d393fd7e9d56869"
+fileSize: 22885636
+files:
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "MH-FNB-LiandriTowersV1.unr"
+  fileSize: 37879819
+  hash: "80adc211c9ca6ff0e53f228e26135e9fe79fbac9"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 3
+dependencies:
+  MH-FNB-LiandriTowersV1.unr:
+  - status: "OK"
+    name: "XPickups"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/1/8/783e84/MH-FNB-LiandriTowersV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF-FNB-LiandriTowers BETA2-C"
+playerCount: "12-24"
+themes:
+  Industrial: 0.2
+  Ancient: 0.6
+  City: 0.1
+bots: true

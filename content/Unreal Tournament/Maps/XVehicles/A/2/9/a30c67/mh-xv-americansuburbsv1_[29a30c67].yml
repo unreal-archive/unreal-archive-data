@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-27 11:23"
+game: "Unreal Tournament"
+name: "MH-XV-AmericanSuburbsV1"
+author: "Daniel \"Nova\" Eskildsen"
+description: "None"
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-americansuburbsv1_shot_29a30c67_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/2/9/a30c67/mh-xv-americansuburbsv1_shot_29a30c67_1.png"
+originalFilename: "MH-XV-AmericanSuburbsV1.7z"
+hash: "29a30c674a2d0a405f18bb214695ecb7e48d9ff3"
+fileSize: 6592848
+files:
+- name: "mir-dlma.umx"
+  fileSize: 2047131
+  hash: "ce5b428b5139eafc7c5ebd9846e99f6bffbc7671"
+- name: "MH-XV-AmericanSuburbsV1.unr"
+  fileSize: 10797169
+  hash: "d5820f202a06b9ea3e1f6df5987b043c55d32c02"
+- name: "NovaSuburbs.utx"
+  fileSize: 2899103
+  hash: "92c2caa0ea70eacbc176d9bddc5f910a65c46800"
+- name: "NovaSky.utx"
+  fileSize: 7804901
+  hash: "afbe6a82c94aa1e5bb53c5c49a885d7e0d3dd696"
+- name: "NovaSuburbsModels.u"
+  fileSize: 268455
+  hash: "ec2cdd54734bb620b06b96c11d98b005c51c3b8e"
+- name: "NovaBirds.uax"
+  fileSize: 2471252
+  hash: "acb2ff07a0ec19b76d45130cd83e6f617f49ded5"
+otherFiles: 2
+dependencies:
+  MH-XV-AmericanSuburbsV1.unr:
+  - status: "MISSING"
+    name: "xZones"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "NovaSuburbs"
+  - status: "OK"
+    name: "NovaSky"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XXMP"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "NovaSuburbsModels"
+  - status: "OK"
+    name: "mir-dlma"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "FixGun"
+  - status: "OK"
+    name: "NovaBirds"
+  - status: "MISSING"
+    name: "XHoverVeh"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/2/9/a30c67/MH-XV-AmericanSuburbsV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "American Suburbs"
+playerCount: "12-16"
+themes:
+  Industrial: 1.0
+bots: true

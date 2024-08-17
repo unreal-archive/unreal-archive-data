@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-27 11:23"
+game: "Unreal Tournament"
+name: "MH-FNB-SpacepodsV1"
+author: "Rob -=FraGnBraG=- Burns"
+description: "Another bloody space station (c)2003, 2004 FraGnBraG"
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-spacepodsv1_shot_3d8fc4c4_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/3/d/8fc4c4/mh-fnb-spacepodsv1_shot_3d8fc4c4_1.png"
+originalFilename: "MH-FNB-SpacepodsV1.7z"
+hash: "3d8fc4c4e51707f63c07bbab829e0bf95e63bde0"
+fileSize: 11124121
+files:
+- name: "FNBStarship.utx"
+  fileSize: 7948819
+  hash: "41bdeab7a31078e14f3d64446ccbf6cbff963e60"
+- name: "factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "NYCStreets2_Music.umx"
+  fileSize: 1406663
+  hash: "877f176119d23d06d7c39d6a63c42243a44fb709"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "MH-FNB-SpacepodsV1.unr"
+  fileSize: 9044917
+  hash: "0428912c13fc26d1c0d93767e12c552419689ce5"
+otherFiles: 1
+dependencies:
+  MH-FNB-SpacepodsV1.unr:
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "FNBStarship"
+  - status: "OK"
+    name: "NYCStreets2_Music"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/3/d/8fc4c4/MH-FNB-SpacepodsV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF-FNB-SpacePods"
+playerCount: "8-16"
+themes:
+  Tech: 1.0
+bots: true
