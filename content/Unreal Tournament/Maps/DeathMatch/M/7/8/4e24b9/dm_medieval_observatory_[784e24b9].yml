@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-04 16:48"
+game: "Unreal Tournament"
+name: "DM_Medieval_Observatory"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2024-09"
+attachments: []
+originalFilename: "DM_Medieval_Observatory.zip"
+hash: "784e24b92f707d3165b547bb090a21c25c6ceda9"
+fileSize: 41160921
+files:
+- name: "NP_DM_Medieval_Observatory.usm"
+  fileSize: 4229198
+  hash: "275402b3657f918d98e8b84c09b1e8be44f8507d"
+- name: "ResidentEvil4_Castle.utx"
+  fileSize: 11736597
+  hash: "3d79eff898fa207a074ee36d53e9321a5fe8e875"
+- name: "NP_Medieval_obervatory_texture.utx"
+  fileSize: 53604699
+  hash: "519c02606ccc6b3ef83703104b09ef1f563425c9"
+- name: "DM_Medieval_Observatory.unr"
+  fileSize: 16272401
+  hash: "5441b971f8ab6cf1a58489f899c75c53cb76e4ec"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  DM_Medieval_Observatory.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "NP_Medieval_obervatory_texture"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "ResidentEvil4_Castle"
+  - status: "OK"
+    name: "NP_DM_Medieval_Observatory"
+  NP_DM_Medieval_Observatory.usm:
+  - status: "OK"
+    name: "ResidentEvil4_Castle"
+  - status: "OK"
+    name: "NP_Medieval_obervatory_texture"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/7/8/4e24b9/DM_Medieval_Observatory.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM_Medieval_Observatory"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
