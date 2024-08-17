@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-10-02 10:44"
+game: "Unreal Tournament"
+name: "MH-NigutarV2"
+author: "Buggie"
+description: "None"
+releaseDate: "2024-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-nigutarv2_shot_698ce465_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/N/6/9/8ce465/mh-nigutarv2_shot_698ce465_1.png"
+originalFilename: "MH-NigutarV2.7z"
+hash: "698ce4655d731b5aa885ca90e3696db0449ee9ac"
+fileSize: 1714698
+files:
+- name: "alc_mw.umx"
+  fileSize: 1466386
+  hash: "54100ae9f6a3c1844ba7a12a2e4925d68cfe3381"
+- name: "MH-NigutarV2.unr"
+  fileSize: 13317868
+  hash: "0f2928085382bf484aaabe49a08f37119b50a6bf"
+otherFiles: 0
+dependencies:
+  MH-NigutarV2.unr:
+  - status: "OK"
+    name: "alc_mw"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/N/6/9/8ce465/MH-NigutarV2.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Nigutar"
+playerCount: "4-16"
+themes:
+  Natural: 0.9
+  Skaarj Tech: 0.1
+bots: true
