@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-10-22 11:40"
+game: "Unreal Tournament 2004"
+name: "BR-IYF-California_Hustler"
+author: ".:IYF:.SoulCollector"
+description: "Grab a cold beer and enjoy a game of IYF California Hustler Pool"
+releaseDate: "2006-01"
+attachments:
+- type: "IMAGE"
+  name: "br-iyf-california_hustler_shot_97f33b8c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/I/9/7/f33b8c/br-iyf-california_hustler_shot_97f33b8c_1.png"
+originalFilename: "BR-IYF-California_Hustler.rar"
+hash: "97f33b8ce5be0cc7740006b1f7e6a614be1d77f1"
+fileSize: 3523832
+files:
+- name: "IYF-Pool.utx"
+  fileSize: 8536661
+  hash: "0e271504322f891c6a5b2dc48317a1bf7f45102d"
+- name: "IYF-Beers.usx"
+  fileSize: 1444653
+  hash: "fa5a797eac0322c6ad125d984712cd19fc46227b"
+- name: "BR-IYF-California_Hustler.ut2"
+  fileSize: 4688295
+  hash: "f7a4b8f15efae60ac88d0c5baf0afe8ecceb7ad3"
+otherFiles: 1
+dependencies:
+  BR-IYF-California_Hustler.ut2:
+  - status: "OK"
+    name: "IYF-Pool"
+  - status: "OK"
+    name: "IYF-Beers"
+  IYF-Beers.usx:
+  - status: "OK"
+    name: "IYF-Pool"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/I/9/7/f33b8c/BR-IYF-California_Hustler.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Bombing Run"
+title: "IYF-California_Hustler"
+playerCount: "2-18"
+themes: {}
+bots: true
