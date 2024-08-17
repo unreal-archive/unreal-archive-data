@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-27 11:23"
+game: "Unreal Tournament"
+name: "MH-XV-AmericanSuburbsDaylightV1"
+author: "Daniel \"Nova\" Eskildsen"
+description: "None"
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-xv-americansuburbsdaylightv1_shot_6a9d8215_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/6/a/9d8215/mh-xv-americansuburbsdaylightv1_shot_6a9d8215_1.png"
+originalFilename: "MH-XV-AmericanSuburbsDaylightV1.7z"
+hash: "6a9d821553b5eb329fd852174742e3f45ff67a0d"
+fileSize: 7181975
+files:
+- name: "NovaLandscape.utx"
+  fileSize: 1754507
+  hash: "871566d16c7657f1a68fd284ae49f435f3dbbb6a"
+- name: "MH-XV-AmericanSuburbsDaylightV1.unr"
+  fileSize: 6657134
+  hash: "c16d0c61d95fd789ba12f2e7f197e25c48752e5c"
+- name: "NovaSuburbsModels.u"
+  fileSize: 268455
+  hash: "ec2cdd54734bb620b06b96c11d98b005c51c3b8e"
+- name: "the_majestic_lost.umx"
+  fileSize: 1789608
+  hash: "af2e7d66802909fe5a41c83fa47a052efb99c80b"
+- name: "NovaSuburbs.utx"
+  fileSize: 2899103
+  hash: "92c2caa0ea70eacbc176d9bddc5f910a65c46800"
+- name: "NovaBirds.uax"
+  fileSize: 2471252
+  hash: "acb2ff07a0ec19b76d45130cd83e6f617f49ded5"
+- name: "NovaSky.utx"
+  fileSize: 7804901
+  hash: "afbe6a82c94aa1e5bb53c5c49a885d7e0d3dd696"
+otherFiles: 2
+dependencies:
+  MH-XV-AmericanSuburbsDaylightV1.unr:
+  - status: "MISSING"
+    name: "xZones"
+  - status: "OK"
+    name: "NovaLandscape"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "NovaSuburbs"
+  - status: "OK"
+    name: "NovaSky"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XChopVeh"
+  - status: "MISSING"
+    name: "XXMP"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "NovaSuburbsModels"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "FixGun"
+  - status: "OK"
+    name: "NovaBirds"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "the_majestic_lost"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/A/6/a/9d8215/MH-XV-AmericanSuburbsDaylightV1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "American Suburbs Day"
+playerCount: "12-16"
+themes:
+  Industrial: 1.0
+bots: true

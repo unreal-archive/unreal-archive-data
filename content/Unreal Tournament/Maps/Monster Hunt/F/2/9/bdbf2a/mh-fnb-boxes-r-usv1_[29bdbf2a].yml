@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-27 11:25"
+game: "Unreal Tournament"
+name: "MH-FNB-Boxes-R-uSv1"
+author: "Rob -=FraGnBraG=- Burns"
+description: "Liandri Warehouse. (c)2002-2010 Rob Burns."
+releaseDate: "2024-09"
+attachments:
+- type: "IMAGE"
+  name: "mh-fnb-boxes-r-usv1_shot_29bdbf2a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/2/9/bdbf2a/mh-fnb-boxes-r-usv1_shot_29bdbf2a_1.png"
+originalFilename: "MH-FNB-Boxes-R-uSv1.7z"
+hash: "29bdbf2afd15e630025128d9b297770b77557c1c"
+fileSize: 24185106
+files:
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "MH-FNB-Boxes-R-uSv1.unr"
+  fileSize: 25849455
+  hash: "6d1da595e067c19a626d61db07282ba268a025ce"
+- name: "LPSigns01.utx"
+  fileSize: 1126700
+  hash: "f733718819fd943378b923ab9c4ee2c79e355a37"
+- name: "factory.utx"
+  fileSize: 558319
+  hash: "007039530743b793462de39f2abe83fd5193df4c"
+- name: "LPDecoTex01.utx"
+  fileSize: 3197984
+  hash: "c9fc0e51b753b3d897b85bdb4d8e41e8a71d2e1c"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+otherFiles: 3
+dependencies:
+  MH-FNB-Boxes-R-uSv1.unr:
+  - status: "OK"
+    name: "DXDecoTex01"
+  - status: "OK"
+    name: "Factory"
+  - status: "OK"
+    name: "LPDecoTex01"
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "LPSigns01"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/2/9/bdbf2a/MH-FNB-Boxes-R-uSv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "CTF-FNB-Boxes-R-uS"
+playerCount: "12-20"
+themes:
+  Industrial: 0.8
+  City: 0.2
+bots: true
