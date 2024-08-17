@@ -1,0 +1,227 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-10-22 10:09"
+game: "Unreal Tournament"
+name: "XVehiclesV72"
+author: ".:..: (Dots)."
+description: "None"
+releaseDate: "2024-10"
+attachments: []
+originalFilename: "XVehiclesV72.7z"
+hash: "23b4e9bc626837a265ab7dafe30f98907296c755"
+fileSize: 63477450
+files:
+- name: "xZones.u"
+  fileSize: 4500182
+  hash: "3db440b56cd29a154af549ea68c65a91873fdccf"
+- name: "XHoverVeh.u"
+  fileSize: 14029125
+  hash: "40423421bd8736967429704e773b1f8cc1f5362d"
+- name: "XStatVeh.u"
+  fileSize: 761568
+  hash: "40cb5c40b5820c05a3a67668ddb5de3e183f9e38"
+- name: "XFastWarShell.u"
+  fileSize: 5053
+  hash: "5331061918dbc1929945a64a4c73e34c7e71ab51"
+- name: "XXMP.u"
+  fileSize: 14424571
+  hash: "65295b1f5623c0ebc67ea4f642425323c7c27733"
+- name: "UT3Rewards.u"
+  fileSize: 368937
+  hash: "4eb060372fd0f0823e13339febd8e44040a8cc67"
+- name: "UExplEffects01.utx"
+  fileSize: 107940
+  hash: "af1de79ed215cf24d2f1e872381f4861383cd92e"
+- name: "XVMH.u"
+  fileSize: 1110
+  hash: "cfd86e80bbed3a5848e2e2c3b4c8153bb2adc32b"
+- name: "UExplosionsSet01.utx"
+  fileSize: 1434890
+  hash: "96cfc52c14f225b19301983a4079c525539039aa"
+- name: "XGreed.u"
+  fileSize: 754722
+  hash: "b18e7ad2c08e35f1e36ea945f36959bd7f87df17"
+- name: "UFire.utx"
+  fileSize: 107793
+  hash: "984f4dfe6b57851b217f9789cb010324b80d9e9c"
+- name: "XWeaponLocker.u"
+  fileSize: 457860
+  hash: "06ed45c8854532b19a648b46ed272e62b704e252"
+- name: "USmoke.utx"
+  fileSize: 437794
+  hash: "dd3f2da3fd78c9d7da884aad726f76f0dddcb4fa"
+- name: "DM-XVehiclesTestMap.unr"
+  fileSize: 2691628
+  hash: "1a3176e00fded83bb4b4268a86d3ce28cbc51f8c"
+- name: "XChopVeh.u"
+  fileSize: 14481413
+  hash: "26325b5b6e1d17606ca992403c3566d31b624293"
+- name: "XJumpPad.u"
+  fileSize: 1054702
+  hash: "5b35fccec4225d6b655dd5da305b16912a18bab4"
+- name: "XTreadVeh.u"
+  fileSize: 40903545
+  hash: "8e2d51d7242773749d0aa3eb5484a8bc218e40b4"
+- name: "XWheelVeh.u"
+  fileSize: 45026076
+  hash: "ba92d594187dec1e06862d77e3034a122ee10985"
+- name: "FixGun.u"
+  fileSize: 584320
+  hash: "67fe0f237d8e23289a56225d293cd493df8e68a4"
+- name: "XPaths.u"
+  fileSize: 27124
+  hash: "b88a6f2b3ee492012b538edaea4f09b65a9344fc"
+- name: "CTF-XV-TutorialV1.unr"
+  fileSize: 2866622
+  hash: "6b583a1a0deb72f2027de48c0f0281a53ca38b30"
+- name: "XVehicles.u"
+  fileSize: 7437657
+  hash: "f7e0112139afe194cea542aadacfe3db7e57bb3b"
+otherFiles: 5
+dependencies:
+  xZones.u:
+  - status: "OK"
+    name: "XVehicles"
+  CTF-XV-TutorialV1.unr:
+  - status: "OK"
+    name: "xZones"
+  - status: "OK"
+    name: "XJumpPad"
+  - status: "OK"
+    name: "XStatVeh"
+  - status: "OK"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "XChopVeh"
+  - status: "OK"
+    name: "XVehicles"
+  - status: "OK"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "FixGun"
+  - status: "OK"
+    name: "XHoverVeh"
+  - status: "OK"
+    name: "XWeaponLocker"
+  XStatVeh.u:
+  - status: "OK"
+    name: "XVehicles"
+  XVehicles.u:
+  - status: "OK"
+    name: "XJumpPad"
+  - status: "OK"
+    name: "UFire"
+  - status: "OK"
+    name: "UExplosionsSet01"
+  - status: "OK"
+    name: "XPaths"
+  - status: "OK"
+    name: "USmoke"
+  - status: "OK"
+    name: "XFastWarShell"
+  - status: "OK"
+    name: "FixGun"
+  XHoverVeh.u:
+  - status: "OK"
+    name: "XVehicles"
+  XVMH.u:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  XXMP.u:
+  - status: "OK"
+    name: "XVehicles"
+  - status: "OK"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "XWheelVeh"
+  UT3Rewards.u:
+  - status: "OK"
+    name: "XVehicles"
+  DM-XVehiclesTestMap.unr:
+  - status: "OK"
+    name: "xZones"
+  - status: "OK"
+    name: "XStatVeh"
+  - status: "OK"
+    name: "XTreadVeh"
+  - status: "OK"
+    name: "XChopVeh"
+  - status: "OK"
+    name: "XXMP"
+  - status: "OK"
+    name: "XVehicles"
+  - status: "OK"
+    name: "XWheelVeh"
+  - status: "OK"
+    name: "XHoverVeh"
+  XChopVeh.u:
+  - status: "OK"
+    name: "XVehicles"
+  - status: "OK"
+    name: "XHoverVeh"
+  XTreadVeh.u:
+  - status: "OK"
+    name: "XVehicles"
+  - status: "OK"
+    name: "UExplEffects01"
+  - status: "OK"
+    name: "UExplosionsSet01"
+  - status: "OK"
+    name: "USmoke"
+  XWheelVeh.u:
+  - status: "OK"
+    name: "XVehicles"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/X/2/3/b4e9bc/XVehiclesV72.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "FixGunMutator"
+  description: "Spawn FixGun inside any XVehicle"
+- name: "XVehiclesHUD"
+  description: "XVehciles HUD helper"
+- name: "XVehiclesMH"
+  description: "MH rules for XVehicles"
+- name: "XVehiclesCTF"
+  description: "CTF rules for XVehicles"
+- name: "XVehiclesSummon"
+  description: "Summon XVehicles at any place for debug"
+- name: "XHeli2Raptor"
+  description: "Replace CybotHelico with Raptor"
+- name: "XJeepTDX2Grinder"
+  description: "Replace JeepTDX with Grinder"
+- name: "XTankGKOne2Goliath"
+  description: "Replace Tank GK-1 with Goliath"
+- name: "XTankGKOne2Juggernaut"
+  description: "Replace Tank GK-1 with Juggernaut"
+- name: "XHeli2Banshee"
+  description: "Replace CybotHelico with Banshee"
+- name: "XTankGKOne2TankScorpion"
+  description: "Replace Tank GK-1 with Tank Scorpion"
+- name: "UT3Rewards"
+  description: "UT3 Announcer Rewards for XVehicles"
+- name: "XTankGKOne2Badger"
+  description: "Replace Tank GK-1 with Badger"
+- name: "XTankGKOne2HoverBadger"
+  description: "Replace Tank GK-1 with HoverBadger"
+- name: "XTankGKOne2IonTank"
+  description: "Replace Tank GK-1 with Ion Tank"
+- name: "XHeli2LinkCraft"
+  description: "Replace CybotHelico with LinkCraft"
+- name: "XJeepSDX2Beetle"
+  description: "Replace JeepSDX with Beetle"
+- name: "XManta2Viper"
+  description: "Replace Manta with Viper"
+- name: "XManta2Ghost"
+  description: "Replace Manta with Ghost"
+- name: "XJeepSDX2Scorpion"
+  description: "Replace JeepSDX with Scorpion"
+- name: "XJeepTDX2Hellbender"
+  description: "Replace JeepTDX with Hellbender"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
