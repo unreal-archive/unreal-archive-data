@@ -1,0 +1,77 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-08-23 10:35"
+game: "Unreal Tournament"
+name: "StoreCDBonusPack"
+author: "Various"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "storecdbonuspack_shot_5918ce29_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/5/9/18ce29/storecdbonuspack_shot_5918ce29_1.png"
+- type: "IMAGE"
+  name: "storecdbonuspack_shot_5918ce29_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/5/9/18ce29/storecdbonuspack_shot_5918ce29_2.png"
+- type: "IMAGE"
+  name: "storecdbonuspack_shot_5918ce29_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/5/9/18ce29/storecdbonuspack_shot_5918ce29_3.png"
+- type: "IMAGE"
+  name: "storecdbonuspack_shot_5918ce29_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/5/9/18ce29/storecdbonuspack_shot_5918ce29_4.png"
+originalFilename: "StoreCDBonusPack.zip"
+hash: "5918ce2971adc70ace4e851944c6a48fb5c9f19b"
+fileSize: 6673966
+files:
+- name: "DM-Chronos.unr"
+  fileSize: 1679076
+  hash: "d70a7eb0ed970a63af5a8e698957a34f05bfde4a"
+- name: "Mier02Tex.utx"
+  fileSize: 84097
+  hash: "d6832e1fe5e10ecfd99e19022db6d6965648ed05"
+- name: "sf_desertcanyon.utx"
+  fileSize: 2043596
+  hash: "b1edd4aa5ced023d8a79d37cd51e2c4ec40c60aa"
+- name: "AS-Bridge.unr"
+  fileSize: 4764174
+  hash: "7d06d593d7644960d9e0066060093ae70367c696"
+- name: "CTF-Lucius.unr"
+  fileSize: 2074750
+  hash: "e58df32ee832c0f7eb12b352e3966851cc10bb1c"
+- name: "CTF-Baranco.unr"
+  fileSize: 5876704
+  hash: "6f454e5f0ee5720e7d4c700033a01510680dada2"
+otherFiles: 4
+dependencies:
+  AS-Bridge.unr:
+  - status: "OK"
+    name: "Mier02Tex"
+  CTF-Baranco.unr:
+  - status: "OK"
+    name: "sf_desertcanyon"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/5/9/18ce29/StoreCDBonusPack.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-Chronos"
+  title: "Chronos"
+  author: "Paul \"Acidpablo\" M'BIAKA"
+- name: "AS-Bridge"
+  title: "Bridge"
+  author: "Claude Meyer aka Mier (icedragon@sl.lu)"
+- name: "CTF-Lucius"
+  title: "- Lucius' Pit -"
+  author: "Peter \"Clay\" Nederlof"
+- name: "CTF-Baranco"
+  title: "El Baranco"
+  author: "Rogelio Olguin AKA Desperado#2"
+gametype: "Mixed"
+themes:
+  Tech: 0.2
+  Natural: 0.1
+  Industrial: 0.3
+  Skaarj Tech: 0.5
