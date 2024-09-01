@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-01 11:24"
+game: "Unreal Tournament"
+name: "DM_Oneiros_Amphitheater"
+author: "Nikola-DOG- (Original build by Clive Barkers Undying team)"
+description: "None"
+releaseDate: "2024-08"
+attachments: []
+originalFilename: "DM_Oneiros_Amphitheater.zip"
+hash: "0840c551c9d06aaf5b8633dd15f96a44c3969d6a"
+fileSize: 28192884
+files:
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+- name: "MHAntaliusU.u"
+  fileSize: 24728042
+  hash: "f5921913cde8af5518a2ef7f1d8f8f81a4e4c737"
+- name: "OneirosSkybox.utx"
+  fileSize: 1674447
+  hash: "73807aa870f491711d1e47167109fa568b306908"
+- name: "Mario_jump.uax"
+  fileSize: 69814
+  hash: "b9572bacd8d961efb6a45d7c2fdd9af035462896"
+- name: "DM_Oneiros_Amphitheater.unr"
+  fileSize: 7921366
+  hash: "189cb0e58bcce9c827f9e43d66e591e9bc61f247"
+- name: "OneirosExB.utx"
+  fileSize: 4610699
+  hash: "98b3ec51ddc7414a899407e4def4574fce837338"
+otherFiles: 0
+dependencies:
+  DM_Oneiros_Amphitheater.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Mario_jump"
+  - status: "OK"
+    name: "MHAntaliusU"
+  - status: "OK"
+    name: "OneirosExB"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "OneirosSkybox"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/O/0/8/40c551/DM_Oneiros_Amphitheater.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM Oneiros Amphitheater"
+playerCount: "Unknown"
+themes:
+  Natural: 0.8
+  Nali Castle: 0.2
+bots: true
