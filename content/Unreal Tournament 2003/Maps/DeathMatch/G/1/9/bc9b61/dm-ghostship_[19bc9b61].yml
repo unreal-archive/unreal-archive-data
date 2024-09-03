@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-02-03 15:01"
+game: "Unreal Tournament 2003"
+name: "DM-GhostShip"
+author: "David \"Kabraxis\" Courtemanche"
+description: "A ship attacked by the Skaarj was left drifting through space, and has\
+  \ now become the next tournament arena"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-ghostship_shot_19bc9b61_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/1/9/bc9b61/dm-ghostship_shot_19bc9b61_1.png"
+originalFilename: "dm-ghostship.zip"
+hash: "19bc9b61eb5740e6907e9c265c14bd3be74aaff9"
+fileSize: 1516910
+files:
+- name: "DM-GhostShip.ut2"
+  fileSize: 1925248
+  hash: "66ab1dcc23e03fcb3b8272f38ad216b12b11dc51"
+- name: "ghostship.utx"
+  fileSize: 2098386
+  hash: "125207bfa12a24b83de87257767786c88076eb8d"
+otherFiles: 1
+dependencies:
+  DM-GhostShip.ut2:
+  - status: "OK"
+    name: "ghostship"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/1/9/bc9b61/dm-ghostship.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/G/1/9/bc9b61/dm-ghostship.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-ghostship"
+playerCount: "4-16"
+themes:
+  Natural: 0.1
+  Industrial: 0.9
+bots: true

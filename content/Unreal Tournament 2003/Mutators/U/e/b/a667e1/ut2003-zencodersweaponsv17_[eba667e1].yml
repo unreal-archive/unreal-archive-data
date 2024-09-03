@@ -1,0 +1,80 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-03-02 17:10"
+game: "Unreal Tournament 2003"
+name: "UT2003 Zencodersweaponsv17"
+author: "-=Musc@t=-"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "ut2003-zencodersweaponsv17_shot_eba667e1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/e/b/a667e1/ut2003-zencodersweaponsv17_shot_eba667e1_1.png"
+originalFilename: "UT2003-zencodersweaponsv17.zip"
+hash: "eba667e1662922774a6c7a0f31e8afd795db93b6"
+fileSize: 1530626
+files:
+- name: "ZWeaponsTextures2.utx"
+  fileSize: 2103361
+  hash: "f5c3a35cc697f7a35a63909144899bc62940209a"
+- name: "ZAmmoSkins2.utx"
+  fileSize: 175528
+  hash: "31dd651a4232ba7cd77dc1704f1528c677a4d645"
+- name: "ZWeaponsIcons.utx"
+  fileSize: 350358
+  hash: "92dc70609b7e186313ff24565ff2ea0008068ff0"
+- name: "ZWeaponsSnd.uax"
+  fileSize: 66091
+  hash: "15651484abfd6be0ebe08e5b00c8e9430125cce8"
+- name: "ZWeaponsAnim2.ukx"
+  fileSize: 457443
+  hash: "c3c33bd75cd1fc800fc98dc2ab3421bf08371fe5"
+- name: "ZWeaponsStatic2.usx"
+  fileSize: 1128511
+  hash: "93d8594cfdc63cdfb81efe3f95a23b84ef378dab"
+- name: "ZencodersweaponsV17.u"
+  fileSize: 82632
+  hash: "6f674ccf69bfc5a96c656ac6e574515df40c88ee"
+- name: "ZAmmoSkins3.utx"
+  fileSize: 175529
+  hash: "ce0cb02ddb5a4234f4d6dc79a87981b20234ddd7"
+otherFiles: 5
+dependencies:
+  ZWeaponsAnim2.ukx:
+  - status: "OK"
+    name: "ZWeaponsTextures2"
+  ZencodersweaponsV17.u:
+  - status: "OK"
+    name: "ZWeaponsAnim2"
+  - status: "OK"
+    name: "ZWeaponsIcons"
+  - status: "OK"
+    name: "ZWeaponsSnd"
+  - status: "OK"
+    name: "ZWeaponsStatic2"
+  - status: "OK"
+    name: "ZAmmoSkins3"
+  - status: "OK"
+    name: "ZAmmoSkins2"
+  ZWeaponsStatic2.usx:
+  - status: "OK"
+    name: "Zweaponstextures2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/e/b/a667e1/UT2003-zencodersweaponsv17.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/U/e/b/a667e1/UT2003-zencodersweaponsv17.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "MP5_Mutator"
+  description: ""
+- name: "Benelli_Mutator"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

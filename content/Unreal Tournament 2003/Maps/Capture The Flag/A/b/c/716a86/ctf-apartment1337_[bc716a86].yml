@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-20 20:23"
+variationOf: "83a86e228c85befdebf13ba78ca0d32900f98663"
+game: "Unreal Tournament 2003"
+name: "CTF-Apartment1337"
+author: "Syphir"
+description: "When Syphir is away, UT2004 combatants come out to play!"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-apartment1337_shot_bc716a86_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/c/716a86/ctf-apartment1337_shot_bc716a86_2.png"
+- type: "IMAGE"
+  name: "ctf-apartment1337_shot_bc716a86_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/c/716a86/ctf-apartment1337_shot_bc716a86_1.png"
+originalFilename: "ctfapartment1337.zip"
+hash: "bc716a86bdf94b34c41eac5a0fca07b901c5ea0f"
+fileSize: 15688217
+files:
+- name: "BedroomsTex.utx"
+  fileSize: 6281145
+  hash: "39598949521568973e2ff3723455f28b63046b0b"
+- name: "CTF-Apartment1337.ut2"
+  fileSize: 29212061
+  hash: "df1748bdc2d4d34616e1f17a804978a5d6805bc9"
+- name: "BedroomsHardware.usx"
+  fileSize: 718430
+  hash: "b4e91ef1977000dca9d733c67a2f64291d652fca"
+otherFiles: 2
+dependencies:
+  CTF-Apartment1337.ut2:
+  - status: "OK"
+    name: "BedroomsHardware"
+  - status: "OK"
+    name: "BedroomsTex"
+  BedroomsHardware.usx:
+  - status: "OK"
+    name: "BedroomsTex"
+downloads:
+- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/maps/capture-the-flag/ctfapartment1337.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/c/716a86/ctfapartment1337.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/c/716a86/ctfapartment1337.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/c/716a86/ctfapartment1337.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/A/b/c/716a86/ctfapartment1337.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Apartment1337"
+playerCount: "10-32"
+themes:
+  Industrial: 0.8
+  Natural: 0.2
+bots: true

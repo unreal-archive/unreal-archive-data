@@ -1,0 +1,52 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-10-10 10:05"
+game: "Unreal Tournament 2003"
+name: "Everyone gets jump boots."
+author: "approximately 200% and increase"
+description: ""
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "everyone-gets-jump-boots_shot_1d4bc499_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/E/1/d/4bc499/everyone-gets-jump-boots_shot_1d4bc499_2.png"
+- type: "IMAGE"
+  name: "everyone-gets-jump-boots_shot_1d4bc499_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/E/1/d/4bc499/everyone-gets-jump-boots_shot_1d4bc499_1.png"
+originalFilename: "BootsOfJumping.zip"
+hash: "1d4bc4991ce090b057cc108379f345108059105d"
+fileSize: 116736
+files:
+- name: "BootsOfJumping.u"
+  fileSize: 19549
+  hash: "e547bccd885b31871032514350d027b9464bd0b1"
+- name: "BootsOfJumpingMeshes.usx"
+  fileSize: 114545
+  hash: "6a15ca4345cc6ce58b8a01dbcc3790517c08bdd5"
+- name: "BootsOfJumpingSounds.uax"
+  fileSize: 31257
+  hash: "1e10b0c41eb4fcb63128c002d988ba6a4362080d"
+otherFiles: 4
+dependencies:
+  BootsOfJumping.u:
+  - status: "OK"
+    name: "BootsOfJumpingMeshes"
+  - status: "OK"
+    name: "BootsOfJumpingSounds"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/E/1/d/4bc499/BootsOfJumping.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/E/1/d/4bc499/BootsOfJumping.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Everyone gets jump boots."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

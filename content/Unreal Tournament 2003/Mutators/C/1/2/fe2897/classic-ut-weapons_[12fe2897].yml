@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-10-10 10:05"
+game: "Unreal Tournament 2003"
+name: "Classic UT weapons."
+author: "Rusty Wagner (rusty@acz.org)"
+description: ""
+releaseDate: "2002-10"
+attachments: []
+originalFilename: "classicut.zip"
+hash: "12fe2897b2071c352f2e874d4117f4e0fdda5cbc"
+fileSize: 70291
+files:
+- name: "ClassicUTSounds.uax"
+  fileSize: 52262
+  hash: "2a1522425d8c0e8c6b4a714e1592e873e5f48da0"
+- name: "ClassicUT.u"
+  fileSize: 71925
+  hash: "49e3b8cb844a9508e846579318088ebdc41ef898"
+otherFiles: 2
+dependencies:
+  ClassicUT.u:
+  - status: "OK"
+    name: "ClassicUTSounds"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/C/1/2/fe2897/classicut.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/C/1/2/fe2897/classicut.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Classic UT weapons."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,64 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2023-11-28 16:12"
+game: "Unreal Tournament 2003"
+name: "AirPowerMutator"
+author: "Shawn **Monarch** Yarbrough\t\t\t\t="
+description: ""
+releaseDate: "2003-07"
+attachments: []
+originalFilename: "airpower.zip"
+hash: "9f93a498719d2f28c641881e574d6d7574f4424b"
+fileSize: 15209893
+files:
+- name: "AirPowerTex.utx"
+  fileSize: 16478603
+  hash: "c056834c86299665739beca7a824799140142665"
+- name: "AirPower.ukx"
+  fileSize: 4655792
+  hash: "24a9b1be3cab57cee622edb6d42824ac9d965260"
+- name: "AirPower.u"
+  fileSize: 5752697
+  hash: "d134d77bd1cdb168d14cb43e454e6f491bd7a86a"
+- name: "AirPowerST.usx"
+  fileSize: 1488323
+  hash: "2912adb96ba4cbfcd685e2391c415fd55a2dc5ba"
+- name: "AirPowerSND.uax"
+  fileSize: 5033459
+  hash: "716b9dea9b202e56104624f3de69e8d4984bec95"
+otherFiles: 2
+dependencies:
+  AirPower.ukx:
+  - status: "OK"
+    name: "AirPowerST"
+  - status: "OK"
+    name: "AirPowerTex"
+  - status: "OK"
+    name: "AirPowerSND"
+  AirPower.u:
+  - status: "OK"
+    name: "AirPowerST"
+  - status: "OK"
+    name: "AirPowerTex"
+  - status: "OK"
+    name: "AirPowerSND"
+  AirPowerST.usx:
+  - status: "OK"
+    name: "AirPowerTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/A/9/f/93a498/airpower.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/9/f/93a498/airpower.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "AirPowerMutator"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-02 20:50"
+game: "Unreal Tournament 2003"
+name: "DM-Aboleth"
+author: "by Matthias (Tronic) Dörflinger"
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-aboleth_shot_43fc98de_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/4/3/fc98de/dm-aboleth_shot_43fc98de_1.png"
+- type: "IMAGE"
+  name: "dm-aboleth_shot_43fc98de_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/4/3/fc98de/dm-aboleth_shot_43fc98de_2.png"
+originalFilename: "dm-aboleth.zip"
+hash: "43fc98de77dae67466199e8afc7fa9ecf63dc23d"
+fileSize: 1895803
+files:
+- name: "UEDCubeMap.utx"
+  fileSize: 132989
+  hash: "4a80d47ec9dad77d693834d62bef5a17679f82ae"
+- name: "UEDWasserCube.utx"
+  fileSize: 526168
+  hash: "29f1189b074cd31978fcceae5c6b316b03d15d80"
+- name: "DM-Aboleth.ut2"
+  fileSize: 5341064
+  hash: "5c2c34798b415bcf1f25d88c04dc178a4eaeba6c"
+- name: "Decos.usx"
+  fileSize: 73873
+  hash: "6098452286c7a2727e8a7d903ed1786e366818b5"
+otherFiles: 2
+dependencies:
+  DM-Aboleth.ut2:
+  - status: "OK"
+    name: "decos"
+  - status: "OK"
+    name: "UEDCubeMap"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/4/3/fc98de/dm-aboleth.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/A/4/3/fc98de/dm-aboleth.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Aboleth"
+playerCount: "4-2"
+themes:
+  Industrial: 0.1
+  Egyptian: 0.6
+  Ancient: 0.3
+bots: true

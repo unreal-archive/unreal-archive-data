@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-07-30 18:12"
+game: "Unreal Tournament 2003"
+name: "CTF-supair"
+author: "Gary \"PsyOps Ranger\" Malmgren"
+description: "Late night out on the edge of chicago shooting some paint.  What else\
+  \ could you ask for?"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-supair_shot_74c620e6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/S/7/4/c620e6/ctf-supair_shot_74c620e6_1.png"
+originalFilename: "ctf-supair.zip"
+hash: "74c620e655d7c157185e2e682a2a7a01e884f2a4"
+fileSize: 1041631
+files:
+- name: "CTF-supair.ut2"
+  fileSize: 759865
+  hash: "65b07935d919e792252ca034563f59ca694e8650"
+- name: "PaintballSTM.usx"
+  fileSize: 2265839
+  hash: "137c4b4cb8db85016070ee8de96685afc8174250"
+otherFiles: 0
+dependencies:
+  PaintballSTM.usx:
+  - status: "MISSING"
+    name: "PaintballTextures"
+  CTF-supair.ut2:
+  - status: "MISSING"
+    name: "AF-DeathBall"
+  - status: "OK"
+    name: "PaintballSTM"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/S/7/4/c620e6/ctf-supair.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/S/7/4/c620e6/ctf-supair.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Sup' Air Tournament"
+playerCount: "2-12"
+themes:
+  Tech: 1.0
+bots: true

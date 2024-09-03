@@ -1,0 +1,58 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-02-02 13:43"
+game: "Unreal Tournament 2003"
+name: "'-= Maps Converter CTF =-'"
+author: "-=Musc@t=-"
+description: ""
+releaseDate: "2003-09"
+attachments:
+- type: "IMAGE"
+  name: "-maps-converter-ctf-_shot_32f4b56c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/M/3/2/f4b56c/-maps-converter-ctf-_shot_32f4b56c_1.png"
+- type: "IMAGE"
+  name: "-maps-converter-ctf-_shot_32f4b56c_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/M/3/2/f4b56c/-maps-converter-ctf-_shot_32f4b56c_2.png"
+originalFilename: "MapsConverter100b5.zip"
+hash: "32f4b56c8453851ca7ed1201f38ce3f92dc18e74"
+fileSize: 196838
+files:
+- name: "MapsConverterFOStuff.u"
+  fileSize: 5166
+  hash: "53e099719c82894d6608728a4dc60e225181dbc2"
+- name: "ConverterPedestal.usx"
+  fileSize: 61069
+  hash: "dfc1c8968787b8472d861a58053fc023581f8243"
+- name: "MapsConverter100b5.u"
+  fileSize: 82461
+  hash: "1565463bbab4ab051ef1b388d42a5428857281db"
+- name: "MapsConverter100b5.ut2mod"
+  fileSize: 182125
+  hash: "35428ab839ae7bb2d2cb40f4c14a62bbcbaa6ed1"
+otherFiles: 8
+dependencies:
+  MapsConverter100b5.u:
+  - status: "OK"
+    name: "ConverterPedestal"
+  MapsConverterFOStuff.u:
+  - status: "OK"
+    name: "MapsConverter100b5"
+  - status: "MISSING"
+    name: "FaceOff"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/M/3/2/f4b56c/MapsConverter100b5.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/M/3/2/f4b56c/MapsConverter100b5.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "'-= Maps Converter CTF =-'"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-03 09:23"
+variationOf: "6263f9ea572e1cfedc92a88250d6395e827a1d07"
+game: "Unreal Tournament 2003"
+name: "DM-BDC-Basement"
+author: "[BDC]Maverick"
+description: "[BDC]MAVERICK'S BASEMENT"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-bdc-basement_shot_98e21ef6_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/9/8/e21ef6/dm-bdc-basement_shot_98e21ef6_2.png"
+- type: "IMAGE"
+  name: "dm-bdc-basement_shot_98e21ef6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/9/8/e21ef6/dm-bdc-basement_shot_98e21ef6_1.png"
+originalFilename: "dm-bdc-basement-update.zip"
+hash: "98e21ef6348092664d0505a95e08366a438eca23"
+fileSize: 22114976
+files:
+- name: "sHoKbedroommeshes.usx"
+  fileSize: 20444532
+  hash: "f6be09580b39c50e2343ed0bdcbe7773bfca639d"
+- name: "TT.utx"
+  fileSize: 6472190
+  hash: "0c86a0f16864f0f82051e9a99a788a5877547dbf"
+- name: "DM-BDC-Basement.ut2"
+  fileSize: 13354239
+  hash: "3985de4fdd3fc4eeae5e6f345e9db776c80913d0"
+- name: "Runmesh_Lite.usx"
+  fileSize: 6205632
+  hash: "cb6818737d02a0917f3cb48b7b63bd7a64fa08ea"
+- name: "sHoKBedroom2.utx"
+  fileSize: 3625227
+  hash: "426fc814946b61068d4d55cc1690e7fbcb4828f9"
+- name: "sHoKbedroom.utx"
+  fileSize: 5458349
+  hash: "d32b9800b4ddeefe38b6c059254845763daece36"
+- name: "BDC-Comingdownthemountain.ogg"
+  fileSize: 2961855
+  hash: "ed34cf6d3a30d2b69db4986e453c9a22ca47e227"
+- name: "DRM_TV.usx"
+  fileSize: 80677
+  hash: "aa4c98218c9d953c954b5bd8183b5022f40b1521"
+otherFiles: 2
+dependencies:
+  sHoKbedroommeshes.usx:
+  - status: "OK"
+    name: "TT"
+  - status: "OK"
+    name: "sHoKBedroom2"
+  - status: "OK"
+    name: "sHoKbedroom"
+  DM-BDC-Basement.ut2:
+  - status: "OK"
+    name: "Runmesh_Lite"
+  - status: "OK"
+    name: "sHoKbedroommeshes"
+  - status: "OK"
+    name: "DRM_TV"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/9/8/e21ef6/dm-bdc-basement-update.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/9/8/e21ef6/dm-bdc-basement-update.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BDC-BASEMENT"
+playerCount: "Unknown"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true

@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2023-11-10 09:08"
+game: "Unreal Tournament 2003"
+name: "DM-Reactor"
+author: "Frank \"Scorpion\" Meyer"
+description: "Enter this geothermal reactor for hot fights... or cool deaths."
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-reactor_shot_9788bb01_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/9/7/88bb01/dm-reactor_shot_9788bb01_1.png"
+originalFilename: "dm-reactor.zip"
+hash: "9788bb0103940dddc4ccce152610161bad63c29a"
+fileSize: 2917322
+files:
+- name: "Scorpion.utx"
+  fileSize: 1398664
+  hash: "853d76e3f717d4f58a5237fc82f93c861dbd3090"
+- name: "DM-Reactor.ut2"
+  fileSize: 9620458
+  hash: "43a3a752d138b3f31c5d895635ba8f4fd8b4d5d8"
+otherFiles: 1
+dependencies:
+  DM-Reactor.ut2:
+  - status: "OK"
+    name: "Scorpion"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/9/7/88bb01/dm-reactor.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathMatch/R/9/7/88bb01/dm-reactor.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Reactor"
+playerCount: "8-11"
+themes:
+  Tech: 0.2
+  Industrial: 0.8
+bots: true

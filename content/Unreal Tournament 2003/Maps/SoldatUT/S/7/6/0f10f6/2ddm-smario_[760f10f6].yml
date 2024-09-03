@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2020-09-23 16:13"
+game: "Unreal Tournament 2003"
+name: "2DDM-SMario"
+author: "Hans"
+description: "Wer kennt es nicht? Das Klassiker-Spiel Super Mario Brothers!"
+releaseDate: "2003-06"
+attachments:
+- type: "IMAGE"
+  name: "2ddm-smario_shot_760f10f6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2ddm-smario_shot_760f10f6_1.png"
+- type: "IMAGE"
+  name: "2ddm-smario_shot_760f10f6_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2ddm-smario_shot_760f10f6_2.png"
+originalFilename: "2DDM-SMario.zip"
+hash: "760f10f6fee37255808c377d58933eead9a03fd9"
+fileSize: 882607
+files:
+- name: "2DDM-SMario.ut2"
+  fileSize: 4581926
+  hash: "a3855a1e3698c65258b2bc486b86811061fde1b4"
+- name: "2DDM-SMarioStaticMeshes1.usx"
+  fileSize: 389628
+  hash: "06373ba568c7045fc1268c18ee436dd9b85414fc"
+- name: "2DDM-SMarioTextures1.utx"
+  fileSize: 4589673
+  hash: "bfb183b3c6f86572c56bdcedc253ee6ebd1bb8b0"
+otherFiles: 1
+dependencies:
+  "2DDM-SMarioStaticMeshes1.usx":
+  - status: "OK"
+    name: "2DDM-SMarioTextures1"
+  "2DDM-SMario.ut2":
+  - status: "MISSING"
+    name: "k0lpA_2D"
+  - status: "OK"
+    name: "2DDM-SMarioTextures1"
+  - status: "OK"
+    name: "2DDM-SMarioStaticMeshes1"
+downloads:
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2DDM-SMario.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2DDM-SMario.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2DDM-SMario.zip"
+  direct: true
+  state: "OK"
+- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/maps/soldat-ut/2DDM-SMario.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/SoldatUT/S/7/6/0f10f6/2DDM-SMario.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "SoldatUT"
+title: "2DDM-SMario"
+playerCount: "3"
+themes: {}
+bots: true

@@ -1,0 +1,54 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-03-07 11:03"
+game: "Unreal Tournament 2003"
+name: "Adds relics to the game."
+author: "Ola 'Jolle' Frid"
+description: ""
+releaseDate: "2004-01"
+attachments: []
+originalFilename: "relicz.zip"
+hash: "9eb717995f5c1c31d403dacda618a8350b7187d7"
+fileSize: 1014936
+files:
+- name: "ReliczTextures.utx"
+  fileSize: 1678473
+  hash: "fc10d6ee620213a1dcd4962eeecb19e2d135a257"
+- name: "Relicz.u"
+  fileSize: 87315
+  hash: "1725a59477770bb44f42ee41a81e4182a58590f0"
+- name: "ReliczSounds.uax"
+  fileSize: 41995
+  hash: "b6184d7ea05640b09f7de6400166c45db8d94029"
+- name: "ReliczMeshes.usx"
+  fileSize: 352832
+  hash: "d98d1598ced4fe02e638c32a2f18f6786ac7cd79"
+otherFiles: 2
+dependencies:
+  Relicz.u:
+  - status: "OK"
+    name: "ReliczMeshes"
+  - status: "OK"
+    name: "ReliczTextures"
+  - status: "OK"
+    name: "ReliczSounds"
+  ReliczMeshes.usx:
+  - status: "OK"
+    name: "ReliczTextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/A/9/e/b71799/relicz.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/A/9/e/b71799/relicz.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Adds relics to the game."
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-19 04:23"
+game: "Unreal Tournament 2003"
+name: "ctf-castleage"
+author: "Vault"
+description: "None"
+releaseDate: "2003-12"
+attachments:
+- type: "IMAGE"
+  name: "ctf-castleage_shot_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage_shot_2.png"
+- type: "IMAGE"
+  name: "ctf-castleage_shot_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage_shot_1.png"
+originalFilename: "ctf-castleage.zip"
+hash: "1f2bd2b9a17dd765f2c99bbafbd3cfeda97db9be"
+fileSize: 10200338
+files:
+- name: "ctf-castleage.ut2"
+  fileSize: 9703183
+  hash: "2fcb55bada929c1651dba54c7825a1d88c9f154f"
+- name: "stone_castle.usx"
+  fileSize: 12995783
+  hash: "2175675b61ce8dee4b8d07d8ea92b9fded947199"
+- name: "stone_castle2.utx"
+  fileSize: 6015268
+  hash: "51e9fa51a8f7125bed8591572319cb966c397346"
+otherFiles: 2
+dependencies:
+  stone_castle.usx:
+  - status: "OK"
+    name: "stone_castle2"
+  ctf-castleage.ut2:
+  - status: "OK"
+    name: "stone_castle"
+  - status: "OK"
+    name: "stone_castle2"
+downloads:
+- url: "http://medor.no-ip.org/index.php?dir=&search_mode=f&search=ctf-castleage.zip"
+  direct: false
+  state: "OK"
+- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/maps/capture-the-flag/ctf-castleage.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/C/1/f/2bd2b9/ctf-castleage.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CastleAge"
+playerCount: "12"
+themes:
+  Ancient: 1.0
+bots: true

@@ -1,0 +1,64 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-03-02 17:10"
+game: "Unreal Tournament 2003"
+name: "UT2003 Tl Mutator V28"
+author: "-=Musc@t=-"
+description: "None"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "ut2003-tl-mutator-v28_shot_ff4c4282_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/f/f/4c4282/ut2003-tl-mutator-v28_shot_ff4c4282_1.png"
+originalFilename: "UT2003-tl-mutator-v28.zip"
+hash: "ff4c4282bec893cb6f586d5748ea48176e10fa57"
+fileSize: 1633035
+files:
+- name: "OldWeapons.utx"
+  fileSize: 2797025
+  hash: "6c7b5178a298c525f448ec7fb148df788ac73b65"
+- name: "BeaconLight.utx"
+  fileSize: 7065
+  hash: "d14674f526a43bfb474f9e9cea7bef81b7c152ea"
+- name: "UTTrans.ukx"
+  fileSize: 36455
+  hash: "3a74e9ac15c0d2ccd7746080cb82629bdff2d5a4"
+- name: "TLMutatorV28.u"
+  fileSize: 463416
+  hash: "942b9dc27498e553efa4043d0e317c22bde5fdee"
+- name: "TL-Shield-Announcer.uax"
+  fileSize: 656790
+  hash: "c3ae3228db8bfd2f3adb2266a8959c354d5424e9"
+otherFiles: 5
+dependencies:
+  UTTrans.ukx:
+  - status: "OK"
+    name: "OldWeapons"
+  TLMutatorV28.u:
+  - status: "OK"
+    name: "TL-Shield-Announcer"
+  - status: "OK"
+    name: "BeaconLight"
+  - status: "OK"
+    name: "OldWeapons"
+  - status: "OK"
+    name: "UTTrans"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/f/f/4c4282/UT2003-tl-mutator-v28.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Mutators/U/f/f/4c4282/UT2003-tl-mutator-v28.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "TLMutator"
+  description: ""
+- name: "TLMutatorLE"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
