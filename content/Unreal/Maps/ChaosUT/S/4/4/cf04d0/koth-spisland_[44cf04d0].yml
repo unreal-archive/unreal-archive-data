@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-04 00:46"
+game: "Unreal"
+name: "KOTH-[SP]Island"
+author: "CMG Lee"
+description: "None"
+releaseDate: "2022-06"
+attachments:
+- type: "IMAGE"
+  name: "koth-spisland_shot_44cf04d0_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/ChaosUT/S/4/4/cf04d0/koth-spisland_shot_44cf04d0_1.png"
+originalFilename: "KOTH-[SP]Island.zip"
+hash: "44cf04d0d7f0f7233a1fb14df0c0c551c6c2299a"
+fileSize: 4397060
+files:
+- name: "SP_KoTH.u"
+  fileSize: 167554
+  hash: "d253b81ae153666a746922fc8f4c753e50dd7b62"
+- name: "KOTH-[SP]Island.unr"
+  fileSize: 1551955
+  hash: "43767a953d1c0cbdae2127addc6dd8335c64a4d1"
+- name: "SP_GhandiWeapons.u"
+  fileSize: 5368503
+  hash: "bfd5a649a6e95572387c0b5410c35286fa13ec23"
+otherFiles: 3
+dependencies:
+  SP_GhandiWeapons.u:
+  - status: "MISSING"
+    name: "Emitter"
+  KOTH-[SP]Island.unr:
+  - status: "OK"
+    name: "SP_KoTH"
+  - status: "OK"
+    name: "SP_GhandiWeapons"
+  SP_KoTH.u:
+  - status: "MISSING"
+    name: "Assault_G11"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/ChaosUT/S/4/4/cf04d0/KOTH-%5BSP%5DIsland.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "King of the Hill"
+title: "KOTH [SP]Island"
+playerCount: "8"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.7
+bots: true

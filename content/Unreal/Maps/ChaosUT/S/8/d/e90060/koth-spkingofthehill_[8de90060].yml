@@ -1,0 +1,75 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-04 00:46"
+game: "Unreal"
+name: "KOTH-[SP]KingoftheHill"
+author: "*Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2022-09"
+attachments: []
+originalFilename: "KOTH-[SP]KingoftheHill.zip"
+hash: "8de900607e4278a4a6f1acc08f469f174c9ddcac"
+fileSize: 22244942
+files:
+- name: "KOTH-[SP]KingoftheHill.unr"
+  fileSize: 2796499
+  hash: "f2e951e5252e1fe8d504d508e8e7b95dcec63f34"
+- name: "Assault_G11.u"
+  fileSize: 709863
+  hash: "203dc0adba88a7bc3b9d554bf77d088468846e90"
+- name: "Assualt.u"
+  fileSize: 17605268
+  hash: "9484765fc98120d15428eee61aeb7116f8f6bff6"
+- name: "AssualtSnds.uax"
+  fileSize: 1265752
+  hash: "49b231cd1e827489aafb1f341f154ba3c7012dbd"
+- name: "Assault_G11Snds.uax"
+  fileSize: 723214
+  hash: "37e98cffea2755320071ed9e08b617a75d49b65c"
+- name: "SP_KoTH.u"
+  fileSize: 167554
+  hash: "d253b81ae153666a746922fc8f4c753e50dd7b62"
+- name: "sks-Freebird.umx"
+  fileSize: 8758155
+  hash: "5f51f820da77e97c588ae85a263000f5188f937f"
+- name: "trailorpark11k.umx"
+  fileSize: 4821283
+  hash: "acbd70ebb20382c61ddfec6af580307e6ad77f23"
+- name: "AssaultModels1.u"
+  fileSize: 719950
+  hash: "af6d70c9bd29fc74fc804bca6c911723e00db7f6"
+otherFiles: 3
+dependencies:
+  KOTH-[SP]KingoftheHill.unr:
+  - status: "OK"
+    name: "trailorpark11k"
+  - status: "OK"
+    name: "Assault_G11"
+  - status: "OK"
+    name: "Assualt"
+  - status: "OK"
+    name: "SP_KoTH"
+  - status: "OK"
+    name: "sks-Freebird"
+  Assualt.u:
+  - status: "OK"
+    name: "AssaultModels1"
+  Assault_G11.u:
+  - status: "OK"
+    name: "Assault_G11Snds"
+  SP_KoTH.u:
+  - status: "OK"
+    name: "Assault_G11"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/ChaosUT/S/8/d/e90060/KOTH-%5BSP%5DKingoftheHill.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "King of the Hill"
+title: "KOTH [SP] King of the Hill"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: true

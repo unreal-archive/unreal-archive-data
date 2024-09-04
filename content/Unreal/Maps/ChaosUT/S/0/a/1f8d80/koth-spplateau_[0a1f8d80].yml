@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-04 00:46"
+game: "Unreal"
+name: "KOTH-[SP]Plateau"
+author: "Jaspos"
+description: "None"
+releaseDate: "2022-06"
+attachments:
+- type: "IMAGE"
+  name: "koth-spplateau_shot_0a1f8d80_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/ChaosUT/S/0/a/1f8d80/koth-spplateau_shot_0a1f8d80_1.png"
+originalFilename: "KOTH-[SP]Plateau.zip"
+hash: "0a1f8d8099e1327c32f35461515f9ffa1311a3ad"
+fileSize: 5804956
+files:
+- name: "SP_GhandiWeapons.u"
+  fileSize: 5368503
+  hash: "bfd5a649a6e95572387c0b5410c35286fa13ec23"
+- name: "Organic.umx"
+  fileSize: 1287910
+  hash: "c2de0bb034759b749921bc1c848cd229d34b87e2"
+- name: "SP_KoTH.u"
+  fileSize: 167554
+  hash: "d253b81ae153666a746922fc8f4c753e50dd7b62"
+- name: "KOTH-[SP]Plateau.unr"
+  fileSize: 2116985
+  hash: "0f8628664d4cf53052dd4313e87f725a9f9b2dd4"
+otherFiles: 3
+dependencies:
+  SP_GhandiWeapons.u:
+  - status: "MISSING"
+    name: "Emitter"
+  SP_KoTH.u:
+  - status: "MISSING"
+    name: "Assault_G11"
+  KOTH-[SP]Plateau.unr:
+  - status: "OK"
+    name: "Organic"
+  - status: "OK"
+    name: "SP_KoTH"
+  - status: "OK"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/ChaosUT/S/0/a/1f8d80/KOTH-%5BSP%5DPlateau.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "King of the Hill"
+title: "KOTH [SP]Plateau"
+playerCount: "8-12"
+themes:
+  Natural: 1.0
+bots: true
