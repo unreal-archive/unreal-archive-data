@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-08 10:58"
+game: "Unreal Tournament 2004"
+name: "KF-GreenCity-Revised"
+author: "AndiNo and revised by Mahloeeh (DnM)."
+description: "Take cover in the buildings.|The red doors will open after some time\
+  \ so you can retreat and take cover in the buildings. Always keep a look on doors\
+  \ that open later, creating new escaping possibilities."
+releaseDate: "2010-08"
+attachments: []
+originalFilename: "KF_GreenCity_Revised.zip"
+hash: "be1d3813849d93731a7f05aa3ee7fc4d746bda01"
+fileSize: 4142666
+files:
+- name: "KF-GreenCity-Revised.ut2"
+  fileSize: 3678000
+  hash: "0b8db9fa69ee510e6d644a1c83f745f90657395c"
+- name: "sbsptextures.utx"
+  fileSize: 2097944
+  hash: "79ad15f39281e9a506f6d88806d049b9ae13193d"
+- name: "spungbob.ukx"
+  fileSize: 3109456
+  hash: "cad124b47bee7c717ecd5466331b625c37f9eb42"
+otherFiles: 1
+dependencies:
+  KF-GreenCity-Revised.ut2:
+  - status: "MISSING"
+    name: "KillingFloorTextures"
+  - status: "OK"
+    name: "spungbob"
+  - status: "MISSING"
+    name: "KFMod"
+  - status: "MISSING"
+    name: "KillingFloorLabStatics"
+  - status: "MISSING"
+    name: "KillingFloorOfficeTextures"
+  - status: "MISSING"
+    name: "KillingFloorStatics"
+  - status: "MISSING"
+    name: "PatchTex"
+  spungbob.ukx:
+  - status: "OK"
+    name: "sbsptextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Killing%20Floor/G/b/e/1d3813/KF_GreenCity_Revised.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Killing Floor"
+title: "KF-GreenCity-Revised"
+playerCount: "2-6"
+themes: {}
+bots: true
