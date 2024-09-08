@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-08 10:50"
+game: "Unreal Tournament 2004"
+name: "DB-U"
+author: "HarvesterUT"
+description: "None"
+releaseDate: "2002-12"
+attachments:
+- type: "IMAGE"
+  name: "db-u_shot_1e312ef6_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathBall/U/1/e/312ef6/db-u_shot_1e312ef6_1.png"
+originalFilename: "db-u.zip"
+hash: "1e312ef66d4fd94cb5536feb153a94e2f704d264"
+fileSize: 859672
+files:
+- name: "DB-U.ut2"
+  fileSize: 3319357
+  hash: "0f267cd35338d5e862309562f265af7220b8e08b"
+- name: "harvesteruttex1.utx"
+  fileSize: 877216
+  hash: "5c6b3500faa38beae69bf0134187be0505d4c1c3"
+otherFiles: 1
+dependencies:
+  DB-U.ut2:
+  - status: "OK"
+    name: "harvesteruttex1"
+  - status: "MISSING"
+    name: "DeathBall"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathBall/U/1/e/312ef6/db-u.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathBall"
+title: "DB-U"
+playerCount: "12"
+themes:
+  Tech: 0.4
+  Natural: 0.4
+  Industrial: 0.2
+  Egyptian: 0.1
+bots: true
