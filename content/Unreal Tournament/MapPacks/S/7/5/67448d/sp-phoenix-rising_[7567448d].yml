@@ -1,0 +1,112 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-09-13 09:44"
+game: "Unreal Tournament"
+name: "SP Phoenix Rising"
+author: "Sarevok The Great"
+description: "None"
+releaseDate: "2009-08"
+attachments: []
+originalFilename: "SP-Phoenix Rising.zip"
+hash: "7567448dd25ad8f449d2cda21f75f80c39142cf3"
+fileSize: 26266124
+files:
+- name: "SP-Map01-Phoenix.unr"
+  fileSize: 14328169
+  hash: "c1c469e8e53304f88b1bafdbc4ccf9caaa20c785"
+- name: "ZAN_MET.umx"
+  fileSize: 1357144
+  hash: "5b36f26014eb39e4a32fbd2b719dece01d8355d1"
+- name: "SBva.u"
+  fileSize: 399658
+  hash: "22f8d0d7466fca184603a3f8a2d54a688b752293"
+- name: "SevenB.u"
+  fileSize: 8323248
+  hash: "2891ac85ff981b3826b7df84ebdf81944d075a50"
+- name: "TobioTrees.u"
+  fileSize: 840279
+  hash: "f8d48a4c4896ecb588c8574dc48166322567dfee"
+- name: "SP-Map02-Phoenix_Again.unr"
+  fileSize: 13919443
+  hash: "64cc086815697f837388530d5f8d42eed06a8e7a"
+- name: "Sarevokdeco.u"
+  fileSize: 36641
+  hash: "71fb712f9234d2be5b910474a97513599deec57c"
+- name: "SarevokDecos.u"
+  fileSize: 24240
+  hash: "c0d301e8a1b8154f72173821a54594a248040c57"
+- name: "treeC1.u"
+  fileSize: 198908
+  hash: "ac6c80ed165366c062e2f6b7fce1e1f42ecf1109"
+- name: "iseloredecos.u"
+  fileSize: 188267
+  hash: "d361462bed87d66f8aab653e1aab0f9869a5f4d5"
+- name: "Unreality2.u"
+  fileSize: 149510
+  hash: "55540beb27bd6fcf1ff44d92e460fa696ec663ab"
+- name: "TyUnr.utx"
+  fileSize: 9954142
+  hash: "af21fc27e195d4754f0e95bb23175295cbfbfd4f"
+- name: "Unreality3.u"
+  fileSize: 1127
+  hash: "75ce1016214256aeaf0cd36dc4507035026d9e91"
+- name: "UNREALS.umx"
+  fileSize: 581328
+  hash: "7e60b26e33762219e915f147d227cdf96e8f1c61"
+otherFiles: 2
+dependencies:
+  SP-Map02-Phoenix_Again.unr:
+  - status: "OK"
+    name: "treeC1"
+  - status: "OK"
+    name: "UNREALS"
+  - status: "OK"
+    name: "ZAN_MET"
+  - status: "OK"
+    name: "SevenB"
+  - status: "OK"
+    name: "TobioTrees"
+  SevenB.u:
+  - status: "MISSING"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  - status: "MISSING"
+    name: "olroot"
+  - status: "MISSING"
+    name: "olweapons"
+  SBva.u:
+  - status: "OK"
+    name: "SevenB"
+  SP-Map01-Phoenix.unr:
+  - status: "OK"
+    name: "Unreality2"
+  - status: "OK"
+    name: "SevenB"
+  - status: "OK"
+    name: "iseloredecos"
+  - status: "MISSING"
+    name: "ParticleSystem_43"
+  Unreality2.u:
+  - status: "OK"
+    name: "TyUnr"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/S/7/5/67448d/SP-Phoenix%20Rising.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "SP-Map01-Phoenix"
+  title: "SP-Map01-Phoenix"
+  author: "Sarevok The Great"
+- name: "SP-Map02-Phoenix_Again"
+  title: "SP-Phoenix_Again"
+  author: "Sarevok The Great"
+gametype: "Single Player"
+themes:
+  Natural: 0.3
+  Skaarj Tech: 0.3
+  Nali Castle: 0.3
+  Ancient: 0.1

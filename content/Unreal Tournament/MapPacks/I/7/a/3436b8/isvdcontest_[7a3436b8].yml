@@ -1,0 +1,122 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-09-13 09:42"
+game: "Unreal Tournament"
+name: "ISVDContest"
+author: "Unknown"
+description: "None"
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "ISVDContest.zip"
+hash: "7a3436b879df5caaff8dfc4eb5231e6d702d6699"
+fileSize: 18590042
+files:
+- name: "ISVD.u"
+  fileSize: 526779
+  hash: "72ea77b2f235d967c591c59f5bc86463718e9c1f"
+- name: "QContestTextures.utx"
+  fileSize: 3484126
+  hash: "1145c72652d89b6a0b8c71db13acdeb067c81c83"
+- name: "ISVD02.unr"
+  fileSize: 16206661
+  hash: "76ade2b21eb13c27bf89404f6a1a1c344a4bb67b"
+- name: "RMusicPlayer_SDK.u"
+  fileSize: 18310
+  hash: "a953283d0c41abfb743e045150d5a08fe77541d3"
+- name: "qfonts.u"
+  fileSize: 2421619
+  hash: "e11dcf39dd8a278bb3b52950668edbfcd0ce5b4d"
+- name: "QContestScripts.u"
+  fileSize: 95427
+  hash: "2f8fb37a25bc4b0286ec2a06587df55da9ebb4e9"
+- name: "ISVD03.unr"
+  fileSize: 52241
+  hash: "51d6688f9944ad173cb73cc9430459007d69cb2c"
+- name: "QSkyTextures.utx"
+  fileSize: 5052341
+  hash: "b362c9435edb10e26594987786b74c7b2cb3d66d"
+- name: "QTestScripts.u"
+  fileSize: 52866
+  hash: "bbb6af92926ac7e3568d25c009a7f2f2b9aa13c5"
+- name: "RMusicPlayer.u"
+  fileSize: 49094
+  hash: "e669be60e94b9ce7e40d305cdfc9c2076ff84b49"
+- name: "ISVD01.unr"
+  fileSize: 767145
+  hash: "deca13e775923ec89a966858c552a947e32032c1"
+- name: "QPlanet.u"
+  fileSize: 2828805
+  hash: "051ae160bc6369cdce5deb6e6eb87ec8cc4068ff"
+otherFiles: 7
+dependencies:
+  QContestScripts.u:
+  - status: "OK"
+    name: "QContestTextures"
+  - status: "OK"
+    name: "QFonts"
+  - status: "OK"
+    name: "QSkyTextures"
+  - status: "OK"
+    name: "QTestScripts"
+  - status: "MISSING"
+    name: "OldSkool"
+  QTestScripts.u:
+  - status: "OK"
+    name: "QContestScripts"
+  RMusicPlayer_SDK.u:
+  - status: "OK"
+    name: "RMusicPlayer"
+  - status: "MISSING"
+    name: "oldskool"
+  ISVD.u:
+  - status: "MISSING"
+    name: "olroot"
+  ISVD02.unr:
+  - status: "OK"
+    name: "QContestTextures"
+  - status: "OK"
+    name: "QTestScripts"
+  - status: "OK"
+    name: "QContestScripts"
+  - status: "OK"
+    name: "RMusicPlayer"
+  - status: "OK"
+    name: "QFonts"
+  - status: "OK"
+    name: "QPlanet"
+  ISVD03.unr:
+  - status: "OK"
+    name: "RMusicPlayer"
+  - status: "OK"
+    name: "QSkyTextures"
+  - status: "OK"
+    name: "QContestScripts"
+  ISVD01.unr:
+  - status: "OK"
+    name: "QContestTextures"
+  - status: "MISSING"
+    name: "olroot"
+  - status: "OK"
+    name: "QContestScripts"
+  - status: "OK"
+    name: "RMusicPlayer"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/I/7/a/3436b8/ISVDContest.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "ISVD03"
+  title: ""
+  author: "Unknown"
+- name: "ISVD01"
+  title: ""
+  author: "Unknown"
+- name: "ISVD02"
+  title: "Every Day is Exactly the Same."
+  author: "Unknown"
+gametype: "Unknown"
+themes:
+  Tech: 1.0
