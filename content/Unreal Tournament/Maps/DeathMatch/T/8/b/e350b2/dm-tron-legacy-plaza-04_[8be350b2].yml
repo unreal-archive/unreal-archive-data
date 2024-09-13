@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-10 01:01"
+game: "Unreal Tournament"
+name: "DM-TRON-Legacy-Plaza-04"
+author: "Jeff Martin islandalien.com/unreal"
+description: "Greetings Programs."
+releaseDate: "2024-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-tron-legacy-plaza-04_shot_8be350b2_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/8/b/e350b2/dm-tron-legacy-plaza-04_shot_8be350b2_1.png"
+- type: "IMAGE"
+  name: "dm-tron-legacy-plaza-04_shot_8be350b2_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/8/b/e350b2/dm-tron-legacy-plaza-04_shot_8be350b2_2.png"
+originalFilename: "DM-TRON-Legacy.zip"
+hash: "8be350b2d48536dfc7ad545b5d838546804688a0"
+fileSize: 5007362
+files:
+- name: "TLCredits.umx"
+  fileSize: 2047608
+  hash: "40620d74b942cea05db59388f42ab31ed184ff30"
+- name: "DM-TRON-Legacy-Plaza-04.unr"
+  fileSize: 7544093
+  hash: "b1cc657f8e1e1c281c26f9d2e74d4b0041bbe5af"
+- name: "SoldierSkins_TRON_byDL.utx"
+  fileSize: 2785620
+  hash: "148c9827545264098f74c5a35025751647863fed"
+- name: "CTF-XV-TRON-Legacy-Track-04.unr"
+  fileSize: 3945639
+  hash: "433a9ec8f9c5c4922e4381611f485532f276ea90"
+- name: "DM-TRON-Legacy-Track-04.unr"
+  fileSize: 3944358
+  hash: "f12ede7fc670cdb8ccf486402464e4ba480665f8"
+otherFiles: 3
+dependencies:
+  DM-TRON-Legacy-Plaza-04.unr:
+  - status: "OK"
+    name: "TLCredits"
+  CTF-XV-TRON-Legacy-Track-04.unr:
+  - status: "OK"
+    name: "TLCredits"
+  - status: "MISSING"
+    name: "XWheelVeh"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/8/b/e350b2/DM-TRON-Legacy.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "TRON Legacy Plaza"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: true
