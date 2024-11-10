@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-11-14 01:41"
+game: "Unreal Tournament"
+name: "MH-RTrainV4"
+author: "Bad-Karma"
+description: "None"
+releaseDate: "2024-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-rtrainv4_shot_abc8b8cf_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/a/b/c8b8cf/mh-rtrainv4_shot_abc8b8cf_1.png"
+originalFilename: "MH-RTrainV4.7z"
+hash: "abc8b8cf4e62615f2dd03368a2d87bb764a18306"
+fileSize: 2397723
+files:
+- name: "MH-RTrainV4.unr"
+  fileSize: 5106863
+  hash: "941efe94391cd0b75cbca07c907e9608848886d0"
+- name: "00Pack5.utx"
+  fileSize: 1115900
+  hash: "25e26d9f73420446934233717b16143f5d034bc3"
+- name: "Train.utx"
+  fileSize: 1455875
+  hash: "743fefb47846248c6d2aa88c39bdfc7b60093033"
+- name: "00Pack7L.utx"
+  fileSize: 140490
+  hash: "1add5a593990fb8dc7880167a15baff8e94c6c40"
+otherFiles: 1
+dependencies:
+  MH-RTrainV4.unr:
+  - status: "OK"
+    name: "00Pack7L"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "00Pack5"
+  - status: "OK"
+    name: "Train"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/R/a/b/c8b8cf/MH-RTrainV4.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Racing the train"
+playerCount: "8-16"
+themes:
+  Industrial: 0.5
+  Ancient: 0.5
+bots: true
