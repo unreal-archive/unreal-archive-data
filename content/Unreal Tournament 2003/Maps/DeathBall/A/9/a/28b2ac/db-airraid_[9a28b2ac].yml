@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-09-08 10:49"
+game: "Unreal Tournament 2003"
+name: "DB-Airraid"
+author: "Josh Roden"
+description: "What better place for a nice quiet game of death ball than on the back\
+  \ of a strike aircraft in the middle of battle?"
+releaseDate: "2002-11"
+attachments:
+- type: "IMAGE"
+  name: "db-airraid_shot_9a28b2ac_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathBall/A/9/a/28b2ac/db-airraid_shot_9a28b2ac_1.png"
+originalFilename: "airraidv1.0.zip"
+hash: "9a28b2acddaa695a98e414dfe2a1481c86b0e467"
+fileSize: 11589544
+files:
+- name: "MyTexture.utx"
+  fileSize: 12019284
+  hash: "8dacb6c49ba18b4ce347ed9b5c5d3be8f1861074"
+- name: "thorn.usx"
+  fileSize: 10195413
+  hash: "f850b869ea8fafe5dab5e4b9bd66ec5dd4761738"
+- name: "mystuff.uax"
+  fileSize: 935371
+  hash: "7e33c2d6e082586d2a5975747d1bd3d994c11e11"
+- name: "DB-Airraid.ut2"
+  fileSize: 4667086
+  hash: "678d4356f4d290636debe8a7dce8ed8afa1260ff"
+otherFiles: 1
+dependencies:
+  DB-Airraid.ut2:
+  - status: "OK"
+    name: "mystuff"
+  - status: "MISSING"
+    name: "Deathball"
+  - status: "OK"
+    name: "MyTexture"
+  - status: "OK"
+    name: "thorn"
+  thorn.usx:
+  - status: "OK"
+    name: "MyTexture"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathBall/A/9/a/28b2ac/airraidv1.0.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/DeathBall/A/9/a/28b2ac/airraidv1.0.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathBall"
+title: "DB-Air Raid"
+playerCount: "4-8"
+themes:
+  Industrial: 0.9
+bots: true
