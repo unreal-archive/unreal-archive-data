@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-11-23 20:52"
+game: "Unreal"
+name: "DmTokara"
+author: ".:..:"
+description: "None"
+releaseDate: "2022-06"
+attachments: []
+originalFilename: "DmTokara227.zip"
+hash: "93922f9d1b999970a087a2df9c90a6f1e6c036a8"
+fileSize: 7239733
+files:
+- name: "AlienTech.usm"
+  fileSize: 8254723
+  hash: "650b6a945012578d9f817a59daf1637cb53bbaa5"
+- name: "DmTokara.unr"
+  fileSize: 980932
+  hash: "9bd21ce178399256a003931380c913798aa16737"
+- name: "Level8.umx"
+  fileSize: 1750837
+  hash: "b342cbd46fb3e2c12b0d8c4af098dac502a6fc38"
+otherFiles: 0
+dependencies:
+  DmTokara.unr:
+  - status: "OK"
+    name: "AlienTech"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Level8"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/T/9/3/922f9d/DmTokara227.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Tokara Forest"
+playerCount: "Unknown"
+themes: {}
+bots: true
