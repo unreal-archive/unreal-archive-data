@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-12-01 15:43"
+game: "Unreal Tournament 3"
+name: "\"WarFair\""
+author: "\" content=\"Miles Asvachin\">"
+description: "\"Makes scoring more fair on asymmetrical maps by awarding points only\
+  \ every 2 rounds.\""
+releaseDate: "2008-05"
+attachments: []
+originalFilename: "WarFair_v1.0.zip"
+hash: "283dfbbee0237fd22e7d39d01c621451d337aabc"
+fileSize: 64260
+files:
+- name: "UTMutator_WarFair.u"
+  fileSize: 46093
+  hash: "5454eb52b76dada3fca0a94df33113272630173c"
+- name: "WarFair_Resources.upk"
+  fileSize: 114135
+  hash: "aa632db03b50304d0e61994283fb0fa054fb9e15"
+otherFiles: 3
+dependencies:
+  UTMutator_WarFair.u:
+  - status: "OK"
+    name: "WarFair_Resources"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/W/2/8/3dfbbe/WarFair_v1.0.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "\"WarFair\""
+  description: "\"Makes scoring more fair on asymmetrical maps by awarding points\
+    \ only every 2 rounds.\""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
