@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-11-24 15:34"
+game: "Unreal Tournament"
+name: "CTF-AruraStation"
+author: "Rogelio Olguin"
+description: "Welcome to my level:)"
+releaseDate: "2024-11"
+attachments:
+- type: "IMAGE"
+  name: "ctf-arurastation_shot_ef3e710b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/e/f/3e710b/ctf-arurastation_shot_ef3e710b_1.png"
+originalFilename: "ctf-arurastation.zip"
+hash: "ef3e710b0863e9b119229abe29a6b58d0fed8a85"
+fileSize: 2455868
+files:
+- name: "CTF_Mine-Des.utx"
+  fileSize: 53271
+  hash: "8180b6098fc47b78b38aa7ef3f2fcbe0c1f3e18a"
+- name: "CTF-AruraStation.unr"
+  fileSize: 5615731
+  hash: "4a90d132bcf1fe837f04104c89ec4f314cf8bdab"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+- name: "UE_sky1.utx"
+  fileSize: 351894
+  hash: "39e24de2d8ef439de673d30a9594c3d80195a6d7"
+- name: "Des-space.utx"
+  fileSize: 708648
+  hash: "23f7bd239eb52ae2350c0e053e6f8509d86614c1"
+otherFiles: 1
+dependencies:
+  CTF-AruraStation.unr:
+  - status: "OK"
+    name: "ctf_mine-des"
+  - status: "OK"
+    name: "Des-space"
+  - status: "OK"
+    name: "Isotoxin"
+  - status: "OK"
+    name: "UE_sky1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/e/f/3e710b/ctf-arurastation.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Arura Stations"
+playerCount: "4 on 4"
+themes:
+  Natural: 0.1
+  Skaarj Tech: 0.9
+bots: true
