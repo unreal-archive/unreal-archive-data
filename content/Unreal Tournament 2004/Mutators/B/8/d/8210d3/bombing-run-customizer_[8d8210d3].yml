@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-12-05 03:15"
+game: "Unreal Tournament 2004"
+name: "Bombing Run Customizer"
+author: "AlCapowned"
+description: "Customize various aspects of Bombing Run, including the ball's appearance."
+releaseDate: "2022-12"
+attachments: []
+originalFilename: "BombingRunCustomizer_v1_2.zip"
+hash: "8d8210d36fd4f9ee3adf5cbbdfb17183d24c051b"
+fileSize: 974167
+files:
+- name: "CustomBRBombTex.utx"
+  fileSize: 6992104
+  hash: "742a7e0a5f55bbbe5812e1c7ba78a0ac52c1e854"
+- name: "CustomBRBombStatic.usx"
+  fileSize: 169291
+  hash: "bbea7cac30ba8ff7cf4ede3a5266b88d6bd0063e"
+- name: "BombingRunCustomizer.u"
+  fileSize: 56807
+  hash: "9b51b1630929cbfa0ad90121f7776f136c1248fd"
+otherFiles: 5
+dependencies:
+  CustomBRBombStatic.usx:
+  - status: "OK"
+    name: "CustomBRBombTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/B/8/d/8210d3/BombingRunCustomizer_v1_2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Bombing Run Customizer"
+  description: "Customize various aspects of Bombing Run, including the ball's appearance."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
