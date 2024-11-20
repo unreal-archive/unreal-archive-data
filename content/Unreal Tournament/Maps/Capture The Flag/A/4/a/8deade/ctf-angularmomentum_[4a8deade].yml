@@ -1,0 +1,85 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-11-22 21:56"
+game: "Unreal Tournament"
+name: "CTF-AngularMomentum"
+author: "|2at-|3astard"
+description: "More Flak!"
+releaseDate: "2024-11"
+attachments: []
+originalFilename: "CTF-AngularMomentum.zip"
+hash: "4a8deade632ded2a294245c3142c5094b9ff9e35"
+fileSize: 6864349
+files:
+- name: "SLV2.u"
+  fileSize: 419937
+  hash: "3709e253a80e4ed35d0cf43b37a325d68aaa470e"
+- name: "Weaponer_GTX.u"
+  fileSize: 84219
+  hash: "773dd4ef30aa75c239940f523c920f06ccc050d7"
+- name: "JetReplaceG.u"
+  fileSize: 1277401
+  hash: "2e46ec9700b5ac17fe5941b2ac40763e35c05bce"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "Weaponer.u"
+  fileSize: 1832637
+  hash: "aed34cb8946a8462e0f46b4e812d8cd181ac4397"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "CTF-AngularMomentum.unr"
+  fileSize: 689835
+  hash: "dabffbbcf9b3d96823608614ad571186c1b92999"
+- name: "Inception.utx"
+  fileSize: 89021
+  hash: "41c37fbdc028555ae3dad55969b60d1c25156358"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "SQWeapons.utx"
+  fileSize: 180872
+  hash: "a392b7c16d9ea86d0fc741e717ab2218d4793bf1"
+otherFiles: 0
+dependencies:
+  CTF-AngularMomentum.unr:
+  - status: "OK"
+    name: "JetReplaceG"
+  - status: "OK"
+    name: "Weaponer"
+  - status: "OK"
+    name: "SQWeapons"
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2"
+  - status: "OK"
+    name: "Inception"
+  - status: "MISSING"
+    name: "SGTech1"
+  SLV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  Weaponer.u:
+  - status: "OK"
+    name: "Weaponer_GTX"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/4/a/8deade/CTF-AngularMomentum.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-AngularMomentum"
+playerCount: "12"
+themes:
+  Natural: 0.1
+  Tech: 0.2
+  Industrial: 0.7
+bots: true
