@@ -1,0 +1,60 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2024-12-01 13:47"
+game: "Unreal Tournament 3"
+name: "Oversizer Device"
+author: "William \"Zanieon\" Miller"
+description: "Enables players grows in size while they do a carnage with it."
+releaseDate: "2022-06"
+attachments: []
+originalFilename: "Oversizer Device 1.4.zip"
+hash: "55a754875127e3074b35cbbe879e6b1f0438580f"
+fileSize: 15754234
+files:
+- name: "UTResize.u"
+  fileSize: 1172201
+  hash: "74cf6490a844b62a8d2b3a5e540321b84bb9a445"
+- name: "UTResize.u"
+  fileSize: 1169421
+  hash: "cc779b5776355e96f5255a0d2933f5b8dcb75cb6"
+- name: "ResizeSND.upk"
+  fileSize: 11039535
+  hash: "717f49c446062b8273b84ab1fde9602dcb37f626"
+- name: "ResizeSND.upk"
+  fileSize: 13582432
+  hash: "7d008461e6a9a01028a6f426af4960ab8ffce5ac"
+otherFiles: 6
+dependencies:
+  UTResize.u:
+  - status: "OK"
+    name: "ResizeSND"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/O/5/5/a75487/Oversizer%20Device%201.4.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Oversizer Device"
+  description: "Enables players grows in size while they do a carnage with it."
+weapons:
+- name: "M83-Enforcer"
+  description: "A very enhanced version of the original Enforcer, this weapon seems\
+    \ to be held only by Titans."
+- name: "Commando-Stinger"
+  description: "It is just the regular Stinger Minigun, but the Tarydium Crystals\
+    \ enters in a energy reaction when used in conjunction with the Oversizer Device."
+- name: "Overcharged-ShockRifle"
+  description: "The ASMD Shock Rifle have a misterious energy reaction when the Oversizer\
+    \ Device tries expand this weapon more than 2 times its original size, the plasma\
+    \ ball fired by it explodes in a massive radius ignoring everyone's armor including\
+    \ vehicles, and causes all other balls near the one that exploded, a kind of Skymine-Combo,\
+    \ also if the ball simply hits something without exploding it with the photon\
+    \ beam, it explodes anyway but in a smaller form."
+- name: "Irradiated-LinkGun"
+  description: "Another weapon that gets affected by the Oversizer Device, the Link\
+    \ Gun seems to stay in its powered mode while used by Titans."
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
