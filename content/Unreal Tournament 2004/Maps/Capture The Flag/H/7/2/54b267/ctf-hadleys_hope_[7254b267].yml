@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2024-12-28 22:24"
+game: "Unreal Tournament 2004"
+name: "CTF-Hadleys_Hope"
+author: "MsM"
+description: "50 years after the incident at Hadleys Hope colony, Tournament scounts\
+  \ found the remains of the battered colony and transformed it into an battleground"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "ctf-hadleys_hope_shot_7254b267_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/7/2/54b267/ctf-hadleys_hope_shot_7254b267_1.png"
+originalFilename: "ut2003map_ctfhadleyshope.zip"
+hash: "7254b267fdfe63292a52017a694320117a5f1fe5"
+fileSize: 4775222
+files:
+- name: "CTF-Hadleys_Hope.ut2"
+  fileSize: 4359121
+  hash: "6a05cf87791e5dfe0bfaa8fb7d21c6a28e0c071c"
+- name: "KR-Ripley.ogg"
+  fileSize: 2293402
+  hash: "25a42f7d45262ce3e4fce1b084b724320133bf54"
+- name: "A_Slime.usx"
+  fileSize: 3135283
+  hash: "8a7f2be582149388c91213dbcbc72bb274f92833"
+- name: "decayed.usx"
+  fileSize: 1016456
+  hash: "b3282294930c48969e874b09314d881ed26401e9"
+otherFiles: 1
+dependencies:
+  CTF-Hadleys_Hope.ut2:
+  - status: "OK"
+    name: "decayed"
+  - status: "OK"
+    name: "A_Slime"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/H/7/2/54b267/ut2003map_ctfhadleyshope.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Hadleys Hope"
+playerCount: "Unknown"
+themes:
+  Tech: 0.6
+  Industrial: 0.4
+bots: true
