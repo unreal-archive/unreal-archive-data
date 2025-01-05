@@ -1,0 +1,115 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-01-08 06:49"
+game: "Unreal Tournament"
+name: "Cazey MCTF Mappack"
+author: "Cazey000"
+description: "None"
+releaseDate: "2025-01"
+attachments:
+- type: "IMAGE"
+  name: "cazey-mctf-mappack_shot_72354489_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/cazey-mctf-mappack_shot_72354489_1.png"
+- type: "IMAGE"
+  name: "cazey-mctf-mappack_shot_72354489_6.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/cazey-mctf-mappack_shot_72354489_6.png"
+- type: "IMAGE"
+  name: "cazey-mctf-mappack_shot_72354489_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/cazey-mctf-mappack_shot_72354489_4.png"
+- type: "IMAGE"
+  name: "cazey-mctf-mappack_shot_72354489_5.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/cazey-mctf-mappack_shot_72354489_5.png"
+- type: "IMAGE"
+  name: "cazey-mctf-mappack_shot_72354489_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/cazey-mctf-mappack_shot_72354489_3.png"
+- type: "IMAGE"
+  name: "cazey-mctf-mappack_shot_72354489_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/cazey-mctf-mappack_shot_72354489_2.png"
+originalFilename: "Cazey_MCTF_Mappack.zip"
+hash: "723544899b9d499ff54b8cf28c5da591fd90e81d"
+fileSize: 4310808
+files:
+- name: "CTFM-C_Cathedral.unr"
+  fileSize: 2036402
+  hash: "bb0e7a2277634d6d9dba2692dab62d08eb9cdc7b"
+- name: "CTFM-Watertemple.unr"
+  fileSize: 3605625
+  hash: "4cf6499d1108f20258c7616cebcdb05245875d16"
+- name: "CTFM-FISB.unr"
+  fileSize: 1130889
+  hash: "10e3f64172d24ac0744659159c8486fb61a39341"
+- name: "CTFM-Craft.unr"
+  fileSize: 3388993
+  hash: "f9c33fd0292411ec40ec6942f5cf6f1897d85306"
+- name: "nullFallDamage.u"
+  fileSize: 2029
+  hash: "59fa21df96900e2a25d2a7d22bf8453126e93596"
+- name: "CTFM-Temple_of_4_elements.unr"
+  fileSize: 1945350
+  hash: "f1fa5e09471cb26ffd470ab9d8735739d31c852d"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTFM-Jump_Tower.unr"
+  fileSize: 2857893
+  hash: "b3531d84ac965cda9fae532245071250b8770094"
+- name: "Creep.utx"
+  fileSize: 3103659
+  hash: "aec1dfdb1706250b8193f754c60e8cbdc0b96f47"
+otherFiles: 2
+dependencies:
+  CTFM-FISB.unr:
+  - status: "MISSING"
+    name: "MultiCTFTex"
+  - status: "MISSING"
+    name: "MultiCTF"
+  CTFM-Craft.unr:
+  - status: "OK"
+    name: "Creep"
+  CTFM-Jump_Tower.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "nullFallDamage"
+  - status: "OK"
+    name: "Creep"
+  CTFM-Watertemple.unr:
+  - status: "OK"
+    name: "Creep"
+  CTFM-Temple_of_4_elements.unr:
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "OK"
+    name: "Creep"
+  CTFM-C_Cathedral.unr:
+  - status: "OK"
+    name: "Creep"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/C/7/2/354489/Cazey_MCTF_Mappack.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "CTFM-C_Cathedral"
+  title: "Crossed Cathedrals"
+  author: "Cazey000"
+- name: "CTFM-Watertemple"
+  title: "Water Temple of Dread"
+  author: "Cazey000"
+- name: "CTFM-FISB"
+  title: "FISB"
+  author: "Cazey000"
+- name: "CTFM-Craft"
+  title: "Steve was here."
+  author: "Cazey000"
+- name: "CTFM-Temple_of_4_elements"
+  title: "Temple of the Four Elements"
+  author: "Cazey000"
+- name: "CTFM-Jump_Tower"
+  title: "JumpTower"
+  author: "Cazey000"
+gametype: "Multi-Team CTF"
+themes:
+  Skaarj Tech: 1.0
