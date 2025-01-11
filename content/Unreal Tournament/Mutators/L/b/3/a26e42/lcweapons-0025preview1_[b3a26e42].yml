@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-01-15 15:03"
+game: "Unreal Tournament"
+name: "LCWeapons 0025preview1"
+author: "Unknown"
+description: "None"
+releaseDate: "2025-01"
+attachments: []
+originalFilename: "LCWeapons_0025preview1.7z"
+hash: "b3a26e42e7958c85f6a76c1ad72fcb176a11b528"
+fileSize: 834003
+files:
+- name: "LCWeapons_0025preview1.u"
+  fileSize: 625404
+  hash: "5bdb2f7c1b5b75ff5ddd3a4d00a823d4ed04ed21"
+- name: "FV_ColorShock.utx"
+  fileSize: 1709216
+  hash: "21017c1fa8ea7bd1e603561325f0f599631adfa7"
+otherFiles: 2
+dependencies:
+  LCWeapons_0025preview1.u:
+  - status: "OK"
+    name: "FV_ColorShock"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/L/b/3/a26e42/LCWeapons_0025preview1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Lag Compensator"
+  description: ""
+- name: "LC: ComboGib"
+  description: " Requires Lag Compensator mutator loaded!"
+- name: "LC: ColoredShock"
+  description: " Requires Lag Compensator mutator loaded!"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
