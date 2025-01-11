@@ -1,0 +1,131 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-01-28 13:34"
+game: "Unreal Tournament"
+name: "Kains+maps"
+author: "Various"
+description: "None"
+releaseDate: "2000-08"
+attachments:
+- type: "IMAGE"
+  name: "kainsmaps_shot_d5f8dd47_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/K/d/5/f8dd47/kainsmaps_shot_d5f8dd47_3.png"
+- type: "IMAGE"
+  name: "kainsmaps_shot_d5f8dd47_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/K/d/5/f8dd47/kainsmaps_shot_d5f8dd47_2.png"
+- type: "IMAGE"
+  name: "kainsmaps_shot_d5f8dd47_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/K/d/5/f8dd47/kainsmaps_shot_d5f8dd47_1.png"
+originalFilename: "kains+maps.zip"
+hash: "d5f8dd4744e21222e4331311c0f6dfd5bdfafcb5"
+fileSize: 7107068
+files:
+- name: "DM-EnderSv2.unr"
+  fileSize: 708308
+  hash: "09b2bc36fe102c662028b71d0b3fea24d5040e02"
+- name: "DM-DeadEndCity.unr"
+  fileSize: 2163342
+  hash: "1f76a87babc7d56085721d49c1d0b4016125db84"
+- name: "DM-KILLBOXv2.unr"
+  fileSize: 415674
+  hash: "94ed3fb459db150ff4b54f6d16121854fe67c43c"
+- name: "DM-AsteroidArena.unr"
+  fileSize: 1289158
+  hash: "5e63c820e70d7841143762852525364644dc0dcd"
+- name: "DM-KAINsDEATHDOME.unr"
+  fileSize: 269326
+  hash: "f36674e6f033c347232d0833d1454e55fdffb9a2"
+- name: "Citytex.utx"
+  fileSize: 939520
+  hash: "46811cff13ac3a8aa535019e8ebaa657d332e99d"
+- name: "DM-JudgementNight.unr"
+  fileSize: 2123336
+  hash: "af64e062e313ba5273703e3d4738398c147300d6"
+- name: "DM-Kain's 2110.unr"
+  fileSize: 1476769
+  hash: "5b3947183cb6d912fc9a3c0cc506600c2cf3d199"
+- name: "DM-Enders.unr"
+  fileSize: 226305
+  hash: "7838f00230494d9f2f7a2eb07707290c14026e7d"
+- name: "DM-DeadEndCity2.unr"
+  fileSize: 1452280
+  hash: "19e65ab40cbca51d6ed46d44bd0c346b58ec8bbf"
+- name: "DM-Kain'sHouse.unr"
+  fileSize: 1415803
+  hash: "164fee532eba9518b76ab16b0cfcb4f3128d4194"
+- name: "a3text.utx"
+  fileSize: 2432297
+  hash: "70be497ae27c4d1c0bd5283c6c72c4ecee918aa3"
+- name: "DM-PumpingStation.unr"
+  fileSize: 1435672
+  hash: "15dc26d2f828da62217756e4b13e5f504318b195"
+otherFiles: 2
+dependencies:
+  DM-DeadEndCity.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+  DM-JudgementNight.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+  - status: "MISSING"
+    name: "stereo"
+  DM-DeadEndCity2.unr:
+  - status: "OK"
+    name: "a3text"
+  DM-PumpingStation.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/K/d/5/f8dd47/kains%2Bmaps.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-KAINsDEATHDOME"
+  title: "KAINs DEATH DOME"
+  author: "KAIN"
+- name: "DM-JudgementNight"
+  title: "Judgement Night"
+  author: "KAIN"
+- name: "DM-Kain's 2110"
+  title: "DEATH MATCH 2110"
+  author: "KAIN"
+- name: "DM-EnderSv2"
+  title: "Enders Game!"
+  author: "Remade for UT by KAIN"
+- name: "DM-DeadEndCity"
+  title: "DEAD END CITY"
+  author: "KAIN"
+- name: "DM-Enders"
+  title: "Enders Game!"
+  author: "Remade for UT by KAIN"
+- name: "DM-DeadEndCity2"
+  title: "DEAD END CITY PART 2"
+  author: "KAIN"
+- name: "DM-KILLBOXv2"
+  title: "KILLBOXv2"
+  author: "KAIN"
+- name: "DM-Kain'sHouse"
+  title: "DM-Kain'sHouse"
+  author: "Unknown"
+- name: "DM-AsteroidArena"
+  title: "Asteroid Arena"
+  author: "KAIN"
+- name: "DM-PumpingStation"
+  title: "Pumping Station"
+  author: "KAIN"
+gametype: "DeathMatch"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.1
+  City: 0.4
+  Industrial: 0.1
+  Skaarj Tech: 0.2
