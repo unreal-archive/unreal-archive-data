@@ -1,0 +1,57 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-01-28 22:15"
+game: "Unreal Tournament"
+name: "DM-Reactor-Sector_4_INF4FS"
+author: "Unknown"
+description: "None"
+releaseDate: "2000-11"
+attachments: []
+originalFilename: "dm-reactor4.zip"
+hash: "5529b9fa2cee0316b2fdda6f37333a22b93a44b5"
+fileSize: 5801355
+files:
+- name: "DM-Reactor-Sector_4_INF4FS.unr"
+  fileSize: 2347906
+  hash: "4566cd19854a6a3728d2fb211adb58f5844de4c5"
+- name: "DP_Pack2_INF.utx"
+  fileSize: 492792
+  hash: "701979d84e9d99edd1da5823ede9f33333d25038"
+- name: "DP_Pack2.utx"
+  fileSize: 5613003
+  hash: "14e74d7bf5f2e5ee3f6f5ce94d4c7a3774c75602"
+- name: "RSfootsteps.uax"
+  fileSize: 23490
+  hash: "e438cca7f0cd0e7616154add883b831906d277da"
+- name: "RS.uax"
+  fileSize: 2573083
+  hash: "190f68f39a24a24e9ab5630c28050ad400ce404c"
+otherFiles: 0
+dependencies:
+  DM-Reactor-Sector_4_INF4FS.unr:
+  - status: "OK"
+    name: "DP_Pack2_INF"
+  - status: "OK"
+    name: "RS"
+  - status: "MISSING"
+    name: "DP_Pack-1"
+  - status: "OK"
+    name: "DP_Pack2"
+  DP_Pack2_INF.utx:
+  - status: "OK"
+    name: "RSfootsteps"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/5/5/29b9fa/dm-reactor4.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Reactor-Sector_4_INF4FS"
+playerCount: "Unknown"
+themes:
+  Tech: 0.8
+  Industrial: 0.1
+  City: 0.1
+bots: true
