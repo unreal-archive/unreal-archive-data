@@ -1,0 +1,86 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-01-26 21:45"
+game: "Unreal Tournament"
+name: "NR-TwistingTunnel_Beta1"
+author: "ATB"
+description: "Based on CTF-RoadRacer"
+releaseDate: "2025-01"
+attachments:
+- type: "IMAGE"
+  name: "nr-twistingtunnel_beta1_shot_555e8ba5_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/N/5/5/5e8ba5/nr-twistingtunnel_beta1_shot_555e8ba5_1.png"
+originalFilename: "NR-TwistingTunnel.zip"
+hash: "555e8ba540d7110215be27df9bb8fa2ad31319da"
+fileSize: 6025648
+files:
+- name: "SLV205.u"
+  fileSize: 1188106
+  hash: "7ef0b92fba6d16cb754828563dbcb18d3e200567"
+- name: "MaezeLaffyLight.utx"
+  fileSize: 6823774
+  hash: "e7934ddee74efbdb1e71c36e01bce5f49536bf58"
+- name: "NRSigns.utx"
+  fileSize: 4561307
+  hash: "abc34af9c41a9572123eb96bcf86d9081e6db1ac"
+- name: "NuclearRaceDecov1.u"
+  fileSize: 105302
+  hash: "f6813b5977d88fd11395f9a91a8340ab1592a99f"
+- name: "NR-TwistingTunnel_Beta1.unr"
+  fileSize: 2043851
+  hash: "e7824b18a5ed223fe697b00b8ab8ed3b1091fb20"
+- name: "FractalFX.utx"
+  fileSize: 1417366
+  hash: "aa5436e45b090cdaeec0e9f87e51e8ab2596c631"
+- name: "NuclearRacesBETA1-3.u"
+  fileSize: 325984
+  hash: "b5a8a2ffacd26c84421dbeca682e59aa75c11391"
+- name: "SLVPickups205.u"
+  fileSize: 7239
+  hash: "5e76a35042542fe43e7595a0fb9ec9d0f39f7239"
+- name: "NRPickups.u"
+  fileSize: 15278
+  hash: "1232a2485f1519fdd62b384e31ab10385835c0db"
+otherFiles: 0
+dependencies:
+  SLV205.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+  NR-TwistingTunnel_Beta1.unr:
+  - status: "OK"
+    name: "SLV205"
+  - status: "OK"
+    name: "NRSigns"
+  - status: "OK"
+    name: "MaezeLaffyLight"
+  - status: "OK"
+    name: "NuclearRaceDecov1"
+  - status: "OK"
+    name: "SLVPickups205"
+  - status: "OK"
+    name: "NRPickups"
+  - status: "OK"
+    name: "NuclearRacesBETA1-3"
+  NuclearRacesBETA1-3.u:
+  - status: "MISSING"
+    name: "isaxss"
+  SLVPickups205.u:
+  - status: "OK"
+    name: "SLV205"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/N/5/5/5e8ba5/NR-TwistingTunnel.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "NR-TwistingTunnel"
+playerCount: "6-14"
+themes:
+  Tech: 1.0
+bots: true
