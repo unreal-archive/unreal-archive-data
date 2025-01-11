@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-01-18 11:02"
+game: "Unreal Tournament"
+name: "CTF-XV-WingMen-Mini-Xv1"
+author: "Hobi-Wan"
+description: "Ride the Wing"
+releaseDate: "2025-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-wingmen-mini-xv1_shot_43cc8137_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/W/4/3/cc8137/ctf-xv-wingmen-mini-xv1_shot_43cc8137_1.png"
+originalFilename: "CTF-XV-WingMen-Mini-Xv1.7z"
+hash: "43cc8137c7893b79080cb79ae4de5f1c943f9096"
+fileSize: 6502883
+files:
+- name: "SnTrees.u"
+  fileSize: 139656
+  hash: "af5def5d9f6e96c3f379aa27d3835b770e52b4ec"
+- name: "CTF-XV-WingMen-Mini-Xv1.unr"
+  fileSize: 15299839
+  hash: "f66e3fa74aa66a211435edee814238177db64e9a"
+- name: "Jugs-Entrance.umx"
+  fileSize: 522050
+  hash: "a0853a2f728853a6b8ec9b86c57dfc02646c1dae"
+otherFiles: 2
+dependencies:
+  CTF-XV-WingMen-Mini-Xv1.unr:
+  - status: "MISSING"
+    name: "xZones"
+  - status: "MISSING"
+    name: "XStatVeh"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "Jugs-Entrance"
+  - status: "OK"
+    name: "SnTrees"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/W/4/3/cc8137/CTF-XV-WingMen-Mini-Xv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Wing Men"
+playerCount: "6-10"
+themes: {}
+bots: true
