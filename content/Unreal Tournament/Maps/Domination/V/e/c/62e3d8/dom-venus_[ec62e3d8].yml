@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-01-24 09:35"
+game: "Unreal Tournament"
+name: "DOM-Venus"
+author: "Silus (Team Fragadelic)"
+description: "None"
+releaseDate: "2001-08"
+attachments:
+- type: "IMAGE"
+  name: "dom-venus_shot_ec62e3d8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/V/e/c/62e3d8/dom-venus_shot_ec62e3d8_1.png"
+originalFilename: "dom-venus.zip"
+hash: "ec62e3d8ccb478dd59b061635a58cc6682e1b15f"
+fileSize: 2060697
+files:
+- name: "DOM-Venus.unr"
+  fileSize: 3548452
+  hash: "a2098a12609e172faf28e961b38f967ba626ecce"
+- name: "Voyag.umx"
+  fileSize: 809159
+  hash: "ca831d6fa27157dd4177c18279f753428aa0cfd1"
+otherFiles: 1
+dependencies:
+  DOM-Venus.unr:
+  - status: "OK"
+    name: "Voyag"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/V/e/c/62e3d8/dom-venus.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Domination"
+title: "Dionaea Muscpula (Venus Flytrap)"
+playerCount: "6-12"
+themes:
+  Tech: 0.4
+  Industrial: 0.4
+  Skaarj Tech: 0.2
+bots: true

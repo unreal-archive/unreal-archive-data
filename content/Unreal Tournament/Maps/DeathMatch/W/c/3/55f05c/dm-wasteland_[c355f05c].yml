@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-01-24 09:34"
+game: "Unreal Tournament"
+name: "DM-Wasteland"
+author: "Mister_Cope"
+description: "Sheltered from the biting wind, a scene of desolation awaits you..."
+releaseDate: "2022-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-wasteland_shot_c355f05c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/W/c/3/55f05c/dm-wasteland_shot_c355f05c_1.png"
+originalFilename: "DM-Wasteland.zip"
+hash: "c355f05c7bbb533fdc55a6452de493553386f617"
+fileSize: 4396626
+files:
+- name: "ChainCrystal1.u"
+  fileSize: 4074
+  hash: "ca22282d993e4c6459e053254b0f6242da72a07e"
+- name: "Archlamp2.u"
+  fileSize: 15142
+  hash: "d7204b7597d7ec4cf00df3ac2ddefde289ba9d4b"
+- name: "DM-Wasteland.unr"
+  fileSize: 9414307
+  hash: "6d62413894926c037172addea8ba981e5c5f3e3d"
+otherFiles: 0
+dependencies:
+  DM-Wasteland.unr:
+  - status: "OK"
+    name: "Archlamp2"
+  - status: "OK"
+    name: "ChainCrystal1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/W/c/3/55f05c/DM-Wasteland.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Frozen North"
+playerCount: "Unknown"
+themes:
+  Natural: 0.5
+  Skaarj Crypt: 0.3
+  Ancient: 0.1
+bots: true
