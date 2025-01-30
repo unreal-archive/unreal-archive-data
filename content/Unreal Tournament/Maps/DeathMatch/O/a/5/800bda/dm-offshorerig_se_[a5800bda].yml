@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:35"
+game: "Unreal Tournament"
+name: "DM-OffshoreRig_SE"
+author: "by Crash7"
+description: "None"
+releaseDate: "2002-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-offshorerig_se_shot_a5800bda_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/O/a/5/800bda/dm-offshorerig_se_shot_a5800bda_1.png"
+originalFilename: "dm-offshorerig_se.zip"
+hash: "a5800bda5c6a71357eec22b621ab797d3aa21362"
+fileSize: 3074395
+files:
+- name: "DM-OffshoreRig_SE.unr"
+  fileSize: 7618382
+  hash: "29f72300a9692c09867853c6ed0aec6c9109d370"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+otherFiles: 1
+dependencies:
+  DM-OffshoreRig_SE.unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/O/a/5/800bda/dm-offshorerig_se.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Offshore Rig SE"
+playerCount: "2 to 8"
+themes:
+  Tech: 0.3
+  Industrial: 0.3
+  Skaarj Tech: 0.3
+bots: true

@@ -1,0 +1,39 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:36"
+game: "Unreal Tournament"
+name: "CTF-Acropolis"
+author: "Maxibrain"
+description: "None"
+releaseDate: "2025-02"
+attachments: []
+originalFilename: "CTF-Acropolis.zip"
+hash: "7633920b9f456d5408b3214c909b5dde108170ad"
+fileSize: 268359
+files:
+- name: "CTF-Acropolis.unr"
+  fileSize: 1378625
+  hash: "5bb9406273b12723b0ff87af3b35df7bdbbc4427"
+- name: "BurningPlayer.u"
+  fileSize: 86269
+  hash: "d68479754733fdb51548a08bf423c9ce684de090"
+otherFiles: 0
+dependencies:
+  CTF-Acropolis.unr:
+  - status: "OK"
+    name: "BurningPlayer"
+  - status: "MISSING"
+    name: "Kakutou"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/7/6/33920b/CTF-Acropolis.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Acropolis"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true
