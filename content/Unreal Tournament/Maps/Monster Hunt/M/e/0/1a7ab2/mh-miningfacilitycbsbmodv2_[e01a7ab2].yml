@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-11 23:17"
+game: "Unreal Tournament"
+name: "MH-MiningFacilityCB+SBModV2"
+author: "Erik 'Drazic' Punt/modded by Barbie"
+description: "None"
+releaseDate: "2025-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-miningfacilitycbsbmodv2_shot_e01a7ab2_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/e/0/1a7ab2/mh-miningfacilitycbsbmodv2_shot_e01a7ab2_1.png"
+- type: "IMAGE"
+  name: "mh-miningfacilitycbsbmodv2_shot_e01a7ab2_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/e/0/1a7ab2/mh-miningfacilitycbsbmodv2_shot_e01a7ab2_2.png"
+originalFilename: "MH-MiningFacilityCB+SBModV2.7z"
+hash: "e01a7ab22a15dbd18de30e4a1fab1be1675f5c0c"
+fileSize: 1500709
+files:
+- name: "SBDeadBodySwarmSpawnerV0.u"
+  fileSize: 5974
+  hash: "d3a4ef7e08d51f249013825976bf34587b4c6dd0"
+- name: "MH-MiningFacilityCB+SBModV2.unr"
+  fileSize: 4652778
+  hash: "6b12e27ca12570d7025314abe13496f1d8fabd83"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "SBRainV0.u"
+  fileSize: 71254
+  hash: "7d27749ca3252d5dc44d18c5045d6be6386d8050"
+- name: "SBRetriggerableCreatureFactoryV4.u"
+  fileSize: 5101
+  hash: "6eba96682599b548efb031240bae0ff6fa8dc630"
+otherFiles: 2
+dependencies:
+  MH-MiningFacilityCB+SBModV2.unr:
+  - status: "OK"
+    name: "SBRainV0"
+  - status: "OK"
+    name: "SBDeadBodySwarmSpawnerV0"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SBRetriggerableCreatureFactoryV4"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/M/e/0/1a7ab2/MH-MiningFacilityCB%2BSBModV2.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Mining Facility"
+playerCount: "2-6"
+themes:
+  Nali Castle: 0.7
+  Skaarj Tech: 0.3
+bots: true
