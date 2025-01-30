@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:35"
+game: "Unreal Tournament"
+name: "DM-Photon504"
+author: "Steve 'Ikaros' Mavronis"
+description: "Welcome Photon Warrior"
+releaseDate: "2000-05"
+attachments: []
+originalFilename: "DM-Photon504.zip"
+hash: "2c2b52fdba28cf76ee29bb3cd50b49a4b4e6ede9"
+fileSize: 1870963
+files:
+- name: "Photon.utx"
+  fileSize: 1733990
+  hash: "76ea4cfcfaf29a28872b620cf3b5cb276ec3425a"
+- name: "photon62.umx"
+  fileSize: 480972
+  hash: "3b55fe0972389e50544177e691635b156315d27e"
+- name: "DM-Photon504.unr"
+  fileSize: 2528741
+  hash: "ae4bc86731a7f6f1711d8693ab8964b829410c7b"
+otherFiles: 1
+dependencies:
+  DM-Photon504.unr:
+  - status: "OK"
+    name: "Photon"
+  - status: "OK"
+    name: "photon62"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/P/2/c/2b52fd/DM-Photon504.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Photon: Alpha Base"
+playerCount: "4-6"
+themes:
+  Tech: 0.6
+  Industrial: 0.2
+  City: 0.1
+bots: true

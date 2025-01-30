@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:36"
+game: "Unreal Tournament"
+name: "DM-City-Arena"
+author: "anti"
+description: "Welcome to City-Arena"
+releaseDate: "2000-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-city-arena_shot_7bc9247c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/7/b/c9247c/dm-city-arena_shot_7bc9247c_1.png"
+originalFilename: "dm-city-arena.zip"
+hash: "7bc9247c50251c8fca4a4ee9d2b7dab1b7073914"
+fileSize: 504913
+files:
+- name: "Bstretz.utx"
+  fileSize: 88975
+  hash: "0c42b6bef7e1ae7d23ccc145062bfdd66b26cb71"
+- name: "DM-City-Arena.unr"
+  fileSize: 893228
+  hash: "c7dad0f97174440a9787b07b38d1a89a9758af7c"
+- name: "xutfx.utx"
+  fileSize: 335490
+  hash: "46e593ef0dec35e3b70fa0c3b5074df061bc15cb"
+otherFiles: 1
+dependencies:
+  DM-City-Arena.unr:
+  - status: "OK"
+    name: "Bstretz"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/7/b/c9247c/dm-city-arena.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "City-Arena"
+playerCount: "2-8"
+themes:
+  Industrial: 0.9
+  City: 0.1
+bots: true
