@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-06 16:03"
+game: "Unreal Tournament"
+name: "DM_Alchemist_der_Verlassenen"
+author: "Nash"
+description: "None"
+releaseDate: "2025-02"
+attachments: []
+originalFilename: "DM_Alchemist_der_Verlassenen.zip"
+hash: "8cbde1bd1b5d95151b1d3fd37276684b3b53d30c"
+fileSize: 45698494
+files:
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "Vanocni_pack_Newbies.utx"
+  fileSize: 30910447
+  hash: "8b6de20af7a1b81352a7927e8a6ca99cc3d98d75"
+- name: "Kalter_Stein_mesh_package.usm"
+  fileSize: 6770249
+  hash: "b42fc62cf25db1de9e92ca7e1c7c9f61273cf92d"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+- name: "DM_Alchemist_der_Verlassenen.unr"
+  fileSize: 13365619
+  hash: "99a8ff612ba0fdf68aee638b14c865d3b42c39a0"
+- name: "Kalter_Stein_texture_package.utx"
+  fileSize: 39894318
+  hash: "e9890fcc265c1792e275117dda2383a918ad0845"
+otherFiles: 0
+dependencies:
+  DM_Alchemist_der_Verlassenen.unr:
+  - status: "OK"
+    name: "Kalter_Stein_texture_package"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "Vanocni_pack_Newbies"
+  - status: "OK"
+    name: "Newbies_logo"
+  - status: "MISSING"
+    name: "ParticleTexs"
+  - status: "OK"
+    name: "Kalter_Stein_mesh_package"
+  Kalter_Stein_mesh_package.usm:
+  - status: "OK"
+    name: "Kalter_Stein_texture_package"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/8/c/bde1bd/DM_Alchemist_der_Verlassenen.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Bethany's Cottage"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Ancient: 0.9
+bots: true
