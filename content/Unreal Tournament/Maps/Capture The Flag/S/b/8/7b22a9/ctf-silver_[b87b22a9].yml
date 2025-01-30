@@ -1,0 +1,80 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:17"
+game: "Unreal Tournament"
+name: "CTF-Silver"
+author: "Alain-Michel 'SAM' Savarese"
+description: "None"
+releaseDate: "2002-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-silver_shot_b87b22a9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/8/7b22a9/ctf-silver_shot_b87b22a9_1.png"
+originalFilename: "ctf-silver.zip"
+hash: "b87b22a90acb721dfce3a1649cffa6c5ff868711"
+fileSize: 7389183
+files:
+- name: "Silver.utx"
+  fileSize: 1152108
+  hash: "dbfb3a1e1756a2f03212ecf9d38a3760a01a853a"
+- name: "chicoruinspack.utx"
+  fileSize: 3151174
+  hash: "286101e2f1007046349e32c07a5f8b8eeb9d0fbb"
+- name: "lampes.u"
+  fileSize: 90165
+  hash: "2aa1141b2bd2900762be88e0ccddd56d74c91c0c"
+- name: "CLOCHES.u"
+  fileSize: 77005
+  hash: "4e04a0156e8f643cc1c178e0a87257e94f72a3d4"
+- name: "Egypt.utx"
+  fileSize: 1574033
+  hash: "982ba291c89f4312129315e1d6a2e237201e6dee"
+- name: "Newmca16.umx"
+  fileSize: 446913
+  hash: "c56e21dc93d2f1a519b1d06581e189c4870d04ca"
+- name: "CTF-Silver.unr"
+  fileSize: 6398134
+  hash: "d192fa0d1f1f475680ad6f94853da0e135d36b93"
+- name: "TwoWayDoors.U"
+  fileSize: 9061
+  hash: "2306a13c2a565de4470eb1bfc411244bb0cd79e0"
+otherFiles: 3
+dependencies:
+  CTF-Silver.unr:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "Newmca16"
+  - status: "OK"
+    name: "cloches"
+  - status: "OK"
+    name: "TwoWayDoors"
+  - status: "OK"
+    name: "Silver"
+  - status: "OK"
+    name: "lampes"
+  lampes.u:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "Silver"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "MISSING"
+    name: "tutoriel"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/b/8/7b22a9/ctf-silver.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Silver"
+playerCount: "16"
+themes:
+  Nali Castle: 0.1
+  Ancient: 0.9
+bots: true
