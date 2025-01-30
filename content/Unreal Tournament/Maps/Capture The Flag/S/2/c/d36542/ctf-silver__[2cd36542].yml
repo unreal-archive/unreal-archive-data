@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:17"
+variationOf: "8fa302d82f63a6eb48ac24aea3d60a0690e1adbf"
+game: "Unreal Tournament"
+name: "CTF-silver_]["
+author: "Alain-Michel (Amisa) Savarese"
+description: "None"
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "ctf-silver__shot_2cd36542_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/c/d36542/ctf-silver__shot_2cd36542_1.png"
+originalFilename: "ctfsilver2.zip"
+hash: "2cd36542354fafa3a60ad03130e644183306ab64"
+fileSize: 10328392
+files:
+- name: "CTF-silver_][.unr"
+  fileSize: 13389182
+  hash: "f9f6e442ef221ae381172c1f3474757ea63d206b"
+- name: "tutoriel.utx"
+  fileSize: 7057
+  hash: "92c5ace12bc714e34a9a6c67a28b058360965e01"
+- name: "TwoWayDoors.U"
+  fileSize: 9061
+  hash: "2306a13c2a565de4470eb1bfc411244bb0cd79e0"
+- name: "Silver.utx"
+  fileSize: 1087812
+  hash: "35f1b1a4bd30f291e74a0f0e3eba955e697c2ca1"
+- name: "chicoruinspack.utx"
+  fileSize: 3151438
+  hash: "ede065a0fc344030c307ca0f6a72efe890aff175"
+- name: "ONPFootsteps.uax"
+  fileSize: 785976
+  hash: "43020392102ff90674aa4e56a0f0c070eb14c570"
+- name: "CLOCHES.u"
+  fileSize: 77005
+  hash: "4e04a0156e8f643cc1c178e0a87257e94f72a3d4"
+- name: "silver2.u"
+  fileSize: 77263
+  hash: "96c59347daf5ab894aaafdb09b6f29254aa11fbf"
+- name: "lampes.u"
+  fileSize: 90165
+  hash: "2aa1141b2bd2900762be88e0ccddd56d74c91c0c"
+otherFiles: 2
+dependencies:
+  lampes.u:
+  - status: "OK"
+    name: "chicoruinspack"
+  - status: "OK"
+    name: "Silver"
+  - status: "MISSING"
+    name: "richrig"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "tutoriel"
+  chicoruinspack.utx:
+  - status: "OK"
+    name: "ONPFootsteps"
+  CTF-silver_][.unr:
+  - status: "OK"
+    name: "silver2"
+  - status: "OK"
+    name: "lampes"
+  - status: "OK"
+    name: "cloches"
+  - status: "OK"
+    name: "TwoWayDoors"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/2/c/d36542/ctfsilver2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Silver_]["
+playerCount: "16-32"
+themes:
+  Nali Castle: 0.7
+  Ancient: 0.3
+bots: true

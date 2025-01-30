@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-08 20:17"
+variationOf: "7f81b95c44c8b9fac19d036a1b44cb6b17f904c7"
+game: "Unreal Tournament"
+name: "DM-Funhouse"
+author: "Brian Kim"
+description: "None"
+releaseDate: "2000-04"
+attachments:
+- type: "IMAGE"
+  name: "dm-funhouse_shot_9652310e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/F/9/6/52310e/dm-funhouse_shot_9652310e_1.png"
+originalFilename: "New-funhouse.zip"
+hash: "9652310efdd28bc3f8569ddf43d2a3cbd66f23ef"
+fileSize: 5751573
+files:
+- name: "Funhouse.utx"
+  fileSize: 50044
+  hash: "9811d92f8cbeea5b9451a4cc2e14a511a101eb4d"
+- name: "shagadelic.utx"
+  fileSize: 1336236
+  hash: "4356aab1392ec1bc9d0dbefa9483a3cd499b8ebb"
+- name: "Starship.utx"
+  fileSize: 7590442
+  hash: "b65f117faf61e374949d6b583bb96c101fbc954b"
+- name: "DM-Funhouse.unr"
+  fileSize: 994876
+  hash: "87f93f246a9e81a73bf97b286c997b3f61b9805b"
+otherFiles: 0
+dependencies:
+  DM-Funhouse.unr:
+  - status: "OK"
+    name: "shagadelic"
+  - status: "OK"
+    name: "Funhouse"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/F/9/6/52310e/New-funhouse.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Funhouse"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: false
