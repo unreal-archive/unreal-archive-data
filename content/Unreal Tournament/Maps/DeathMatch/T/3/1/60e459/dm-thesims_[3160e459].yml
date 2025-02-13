@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-17 00:25"
+game: "Unreal Tournament"
+name: "DM-TheSims"
+author: "NikNak"
+description: "None"
+releaseDate: "2011-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-thesims_shot_3160e459_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/3/1/60e459/dm-thesims_shot_3160e459_1.png"
+originalFilename: "dm-thesims+UTX.zip"
+hash: "3160e459802744985686720d0bb97ae3f8094dc3"
+fileSize: 4634475
+files:
+- name: "DM-TheSims.unr"
+  fileSize: 1300668
+  hash: "4a638797d7c2f82158112a499ef0f001ac7d2a71"
+- name: "Urban.utx"
+  fileSize: 4418296
+  hash: "45cbc68238a41355ca02ccac84bb747604734e53"
+- name: "Citytex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+otherFiles: 1
+dependencies:
+  DM-TheSims.unr:
+  - status: "OK"
+    name: "Urban"
+  - status: "OK"
+    name: "Citytex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/3/1/60e459/dm-thesims%2BUTX.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Unreal Sims"
+playerCount: "2-4"
+themes:
+  Ancient: 0.2
+  City: 0.8
+bots: true
