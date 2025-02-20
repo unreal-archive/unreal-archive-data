@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-20 02:13"
+game: "Unreal Tournament"
+name: "TDK-BlackZone"
+author: "Bryan 'Koolflux' Owen"
+description: "None"
+releaseDate: "2019-02"
+attachments:
+- type: "IMAGE"
+  name: "tdk-blackzone_shot_5c172274_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DarkMatch/B/5/c/172274/tdk-blackzone_shot_5c172274_1.png"
+originalFilename: "TDK-BlackZone.zip"
+hash: "5c1722744ab8ed93b77241eb3a130eab4f3e9059"
+fileSize: 4149688
+files:
+- name: "TDK-BlackZone.unr"
+  fileSize: 322093
+  hash: "b82c06599a308fefed510e92adf1ee113bc9c3cb"
+- name: "DeveloperT.utx"
+  fileSize: 29881
+  hash: "108b90bcab9419b707680c8beeba81b62e271b69"
+- name: "energica.umx"
+  fileSize: 1642936
+  hash: "63fd37eb28f6ec8a29ab08ced91d322308341b02"
+- name: "PandemoniumTechTex.utx"
+  fileSize: 4228220
+  hash: "fb6fb33f8bffbca7a790805dd64b5886f09c3018"
+otherFiles: 2
+dependencies:
+  TDK-BlackZone.unr:
+  - status: "OK"
+    name: "energica"
+  - status: "OK"
+    name: "PandemoniumTechTex"
+  - status: "OK"
+    name: "DeveloperT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DarkMatch/B/5/c/172274/TDK-BlackZone.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DarkMatch"
+title: "The Black Zone"
+playerCount: "3 - 5"
+themes:
+  Natural: 1.0
+bots: true
