@@ -1,0 +1,79 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-03-08 18:31"
+game: "Unreal Tournament"
+name: "TwinValley For CTF"
+author: "Various"
+description: "None"
+releaseDate: "2021-03"
+attachments: []
+originalFilename: "TwinValley-for-CTF.zip"
+hash: "9d03681517cbafebb5e98c9455d88a6fc93eb524"
+fileSize: 20375390
+files:
+- name: "UTDMskaarjberserker.u"
+  fileSize: 46761
+  hash: "8d298e58d8b852e9c29eb5e10776499658adedac"
+- name: "CTF-UTDMT-Cannons-TwinValley.unr"
+  fileSize: 2022820
+  hash: "d1a850208859dc25fde480417019cbfadb9e7b90"
+- name: "xmas002.umx"
+  fileSize: 1718502
+  hash: "9c661366acdbf6ba5530dd216be94248e31b9f1e"
+- name: "UTDMT.u"
+  fileSize: 67130
+  hash: "78d5d65e93f2312d7d015c4cfdd66513caca77b7"
+- name: "CTF-UTDM-Cannons-TwinValley2.unr"
+  fileSize: 2292177
+  hash: "861008ad4353a60dff1f5a685842ccb447783c88"
+- name: "Cannons.u"
+  fileSize: 2975953
+  hash: "8e3ab1984416ae679eaaadaea705375c876763aa"
+- name: "CityTex.utx"
+  fileSize: 1292670
+  hash: "58a03339982c078310cd46904695fc1e66c28c15"
+- name: "Synapse.umx"
+  fileSize: 524945
+  hash: "690d56600e01deaefd33907cb9a4b6435ba4159d"
+- name: "UTDM.u"
+  fileSize: 60403
+  hash: "1d3b6cabcc562d38d7c65f1b7477b4715845c3a8"
+otherFiles: 14
+dependencies:
+  CTF-UTDMT-Cannons-TwinValley.unr:
+  - status: "OK"
+    name: "UTDMT"
+  - status: "OK"
+    name: "xmas002"
+  - status: "OK"
+    name: "Cannons"
+  CTF-UTDM-Cannons-TwinValley2.unr:
+  - status: "OK"
+    name: "UTDM"
+  - status: "OK"
+    name: "UTDMskaarjberserker"
+  - status: "OK"
+    name: "Synapse"
+  - status: "OK"
+    name: "Citytex"
+  - status: "OK"
+    name: "Cannons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%2520Tournament/MapPacks/T/9/d/036815/TwinValley-for-CTF.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "CTF-UTDMT-Cannons-TwinValley"
+  title: "Twin Valley with Titans"
+  author: "Mark \"OZ\" Austin & edited by EvilGrins"
+- name: "CTF-UTDM-Cannons-TwinValley2"
+  title: "Twin Valley"
+  author: "made by Alex Templar · edited by EvilGrins"
+gametype: "Capture The Flag"
+themes:
+  Natural: 0.2
+  Tech: 0.2
+  Skaarj Tech: 0.5
