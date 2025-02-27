@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-09 03:13"
+game: "Unreal Tournament"
+name: "MH-ZenithCity-V2[LineARC]"
+author: "[LineARC]"
+description: "Mapped By Torus & Remidas"
+releaseDate: "2025-03"
+attachments: []
+originalFilename: "MH-ZenithCity-V2[LineARC].7z"
+hash: "d9a413cf1f3a26b03f1e4614772f5b0d93502b3a"
+fileSize: 18637911
+files:
+- name: "OnTheRun.umx"
+  fileSize: 5597597
+  hash: "5c0e2a5ec591bf3188e8fb3a4539ecfa7d7938c9"
+- name: "MH-ZenithCity-V2[LineARC].unr"
+  fileSize: 6418265
+  hash: "691bee011737884aa3713f607f3bba300508bc19"
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "chaossounds.uax"
+  fileSize: 5272094
+  hash: "107b951d886200901a4482afa4f0d0c499c31ef0"
+- name: "ZenithCity.utx"
+  fileSize: 1202614
+  hash: "60742850716eb17e13a1a212e55405a230afd903"
+otherFiles: 0
+dependencies:
+  MH-ZenithCity-V2[LineARC].unr:
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "ZenithCity"
+  - status: "OK"
+    name: "chaossounds"
+  - status: "OK"
+    name: "OnTheRun"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%2520Tournament/Maps/Monster%2520Hunt/Z/d/9/a413cf/MH-ZenithCity-V2%255BLineARC%255D.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Zenith City RTX"
+playerCount: "8-16"
+themes:
+  Nali Temple: 0.3
+  Natural: 0.1
+  City: 0.6
+bots: true
