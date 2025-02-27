@@ -1,0 +1,40 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-04 15:42"
+game: "Unreal"
+name: "Strange2"
+author: "DavidM"
+description: "None"
+releaseDate: "1999-10"
+attachments: []
+originalFilename: "strangeworld2.zip"
+hash: "fd70da7c739e1d4cc617984312fd74002bb62727"
+fileSize: 1048645
+files:
+- name: "JumpPad.u"
+  fileSize: 12138
+  hash: "e6df5a06b2b081d3a4d429d95be1d21dff09c36b"
+- name: "Strange2.unr"
+  fileSize: 3704338
+  hash: "dbdb7044f958c8bd3ca076e5e1c55f3c52e2187a"
+otherFiles: 1
+dependencies:
+  Strange2.unr:
+  - status: "OK"
+    name: "JumpPad"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Single%2520Player/S/f/d/70da7c/strangeworld2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Single Player"
+title: "Strange World: Part2"
+playerCount: "1"
+themes:
+  Natural: 0.3
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+  Ancient: 0.4
+bots: true
