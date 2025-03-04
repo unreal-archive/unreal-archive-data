@@ -7,9 +7,11 @@ author: "Team SP2D"
 description: "Singleplayer Sidescrolling/Platformer Mod for Unreal Tournament"
 titleImage: "title.png"
 bannerImage: "title.png"
+altNames: []
 links:
   Archived Homepage: "https://web.archive.org/web/20120607224125/http://www.unreal.lone-wolfs-den.com/SP2D/index.html"
   ModDB: "https://www.moddb.com/mods/sp2d"
+problemLinks: {}
 credits:
   Project Leader:
   - "kea"
@@ -40,49 +42,7 @@ credits:
   - "LightningHunter"
 gameTypes: []
 mutators: []
-maps:
-- name: "SP2D-Crash"
-  title: "Crash on Napali"
-  author: "Derdak2rot"
-- name: "SP2D-Epilogue"
-  title: "The Epilogue"
-  author: "GTD-Carthage"
-- name: "SP2D-Flyby"
-  title: "Nali Castle SP2D flyby"
-  author: "Shane Caudle, UArchitect, GTD-Carthage, Diamond, kea"
-- name: "SP2D-Flyby_Kettle"
-  title: "Nali Castle SP2D flyby"
-  author: "Shane Caudle, UArchitect, GTD-Carthage, Diamond, kea"
-- name: "SP2D-Fortress"
-  title: "Kharlaan Fortress"
-  author: "kea"
-- name: "SP2D-Intro"
-  title: "Intro - skaarj attack the ship"
-  author: "Derdak2rot"
-- name: "SP2D-KharlaanVillage"
-  title: "The Kharlaan Village"
-  author: "Derdak2rot"
-- name: "SP2D-Outpost3E7"
-  title: "Outpost 3E7"
-  author: "MGO, Derdak2rot, GTD-Carthage"
-- name: "SP2D-Outro"
-  title: "Credits"
-  author: "SP2D Team"
-- name: "SP2D-Snow"
-  title: "Escape to the caves"
-  author: "kea, GTD-Carthage"
-- name: "SP2D-Snow2"
-  title: "Snow 2"
-  author: "Kea, renovated by GTD-Carthage"
-- name: "SP2D-Tower"
-  title: "Skoor' Ath Tower"
-  author: "Evil_Blue_Dude"
-- name: "SP2D-WayToTheKharlaan"
-  title: "The Way to Kharlaan"
-  author: "Terrain by Derdak2rot, Caves by Mgo"
-- name: "SP2D-WayToTheTower"
-  title: "The Way To The Tower"
-  author: "Derdak2rot, Mgo"
+maps: []
 releases:
 - title: "SP2D Release"
   version: "1.0"
@@ -535,5 +495,34 @@ releases:
         name: "sp2d"
       - status: "MISSING"
         name: "SGTech1"
+  deleted: false
+- title: "Compatibility fix for v469"
+  version: "1.01"
+  releaseDate: "2025-02-04"
+  description: ""
+  files:
+  - title: "Compatibility fix for v469"
+    localFile: "/home/shrimp/Downloads/SP2D_Patch_1.01_for469.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%2520Tournament/sp2d/SP2D_Patch_1.01_for469.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "SP2D_Patch_1.01_for469.zip"
+    hash: "c573b3c15f3fd0751b1579f0854006d94c1324af"
+    fileSize: 132811
+    synced: true
+    deleted: false
+    files:
+    - name: "SP2D.u"
+      fileSize: 530031
+      hash: "afc910490a42557192d72faa7b98f29c49c367c2"
+    otherFiles: 1
+    dependencies:
+      SP2D.u:
+      - status: "MISSING"
+        name: "oldskool"
+      - status: "MISSING"
+        name: "olroot"
   deleted: false
 deleted: false
