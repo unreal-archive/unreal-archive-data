@@ -1,0 +1,106 @@
+---
+contentType: "GameType"
+addedDate: "2025-03-09"
+game: "Unreal"
+name: "Crystal Castles"
+author: "Crystal Castles Team"
+description: "The Crystal Castles Universe skews the standard Unreal experience to\
+  \ involve less of a shootemup oriented gameworld. We are attempting to bring some\
+  \ of the more fun elements found in the old Arcade game classics forward into a\
+  \ fully immersive 3D environment."
+titleImage: "title.png"
+bannerImage: ""
+altNames: []
+links:
+  Homepage: "http://www.hypercoop.tk/infobase/hosted/crystalcastles_unrealone/cc_unrealone_index.htm"
+problemLinks: {}
+credits:
+  Team:
+  - "Gerald Lance Tindall aka. {KDS}BOZO aka. <NDP>BOZO"
+  - "Shawn Downey aka. Unleaded"
+  - "Wolfgang Schloyer aka. }TCP{Wolf"
+  - "Doug Zeager aka. Pitbull"
+  - "John Barrett aka. [Sixpack]Shambler"
+  - "Lisa Wiggins aka. LethalMomma"
+gameTypes:
+- name: "Crystal Castles Auto Replacer"
+  description: ""
+- name: "Crystal Game (standard)"
+  description: ""
+- name: "Crystal Game (team)"
+  description: ""
+mutators:
+- name: "CCMutator"
+  description: "Crystal Castles Weapons and Items Auto Replacement."
+maps: []
+releases:
+- title: "1.10"
+  version: "1.10"
+  releaseDate: "2005-03-24"
+  description: ""
+  files:
+  - title: "Release"
+    localFile: "/home/shrimp/Downloads/CrystalCastles_Ver_1_10_RELEASE_UnrealOne.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal/crystal-castles/CrystalCastles_Ver_1_10_RELEASE_UnrealOne.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "CrystalCastles_Ver_1_10_RELEASE_UnrealOne.zip"
+    hash: "da871e76e331e7e64280e67e2f193375e3b97be6"
+    fileSize: 2029000
+    synced: true
+    deleted: false
+    files:
+    - name: "CCItems.u"
+      fileSize: 1595535
+      hash: "59bca6b2a34569e8dfaea2ff545a12d813405173"
+    - name: "CCGems.u"
+      fileSize: 1228365
+      hash: "01ad33a3f210ffee898005ec9c6f403bcd8d1f15"
+    - name: "CCWeapons.u"
+      fileSize: 1293050
+      hash: "6612f7f981d8b2e97b40ccdb2b8f974f93993c2a"
+    - name: "Crystal.u"
+      fileSize: 388736
+      hash: "80ad05668973f662055f6898d7228711eec22c1e"
+    - name: "CCMisc.u"
+      fileSize: 738501
+      hash: "00711ec168c30a80fde194a348cdc6d70175f37b"
+    - name: "CCSpecials.u"
+      fileSize: 220382
+      hash: "d5483fe84f2f4b7f2a22e3b705801c05248ed168"
+    - name: "SMUCLC.u"
+      fileSize: 1211
+      hash: "26faba42edba87c175c627f5a3fa404010f61a73"
+    - name: "CCMisc_rc.utx"
+      fileSize: 4874
+      hash: "5706ca76f5970b7daefe3dfad0f04bf3fc4ae456"
+    - name: "LoadBias.u"
+      fileSize: 2491
+      hash: "4f2978682b5b164df3462990e32dc38b87687151"
+    otherFiles: 5
+    dependencies:
+      CCMisc.u:
+      - status: "OK"
+        name: "CCMisc_rc"
+      CCGems.u:
+      - status: "OK"
+        name: "CCWeapons"
+      Crystal.u:
+      - status: "OK"
+        name: "CCItems"
+      - status: "OK"
+        name: "CCGems"
+      - status: "OK"
+        name: "CCWeapons"
+      CCWeapons.u:
+      - status: "OK"
+        name: "CCItems"
+      CCSpecials.u:
+      - status: "OK"
+        name: "CCMisc"
+      - status: "OK"
+        name: "LoadBias"
+  deleted: false
+deleted: false
