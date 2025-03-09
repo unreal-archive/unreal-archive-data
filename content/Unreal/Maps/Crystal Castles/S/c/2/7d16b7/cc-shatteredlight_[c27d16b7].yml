@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-02-14 08:19"
+game: "Unreal"
+name: "CC-ShatteredLight"
+author: "Rich aka Akuma(Matrix) Modified by Gerald Lance Tindall aka <NDP>BOZO"
+description: "step into the light"
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "CC-ShatteredLight.zip"
+hash: "c27d16b702caaa6010347e4fe82d527a6c441930"
+fileSize: 901558
+files:
+- name: "aztek.utx"
+  fileSize: 252594
+  hash: "5b5854c483575be9b148cc1da9d6225c11a344c8"
+- name: "CC-ShatteredLight.unr"
+  fileSize: 2105056
+  hash: "42c3d05e8f17c151517cd03fac0f0f3027b30a52"
+otherFiles: 1
+dependencies:
+  CC-ShatteredLight.unr:
+  - status: "MISSING"
+    name: "CCSpecials"
+  - status: "MISSING"
+    name: "CCMisc"
+  - status: "OK"
+    name: "aztek"
+  - status: "MISSING"
+    name: "CCItems"
+  - status: "MISSING"
+    name: "CCGems"
+  - status: "MISSING"
+    name: "CCWeapons"
+  - status: "MISSING"
+    name: "Crystal"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Unknown/C/c/2/7d16b7/CC-ShatteredLight.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Crystal Castles"
+title: "Shattered Light"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.9
+  Natural: 0.1
+bots: true
