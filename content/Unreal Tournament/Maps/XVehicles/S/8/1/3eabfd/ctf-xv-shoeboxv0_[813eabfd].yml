@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-07 22:44"
+game: "Unreal Tournament"
+name: "CTF-XV-ShoeboxV0"
+author: "Blackhelldragon00"
+description: "None"
+releaseDate: "2025-03"
+attachments: []
+originalFilename: "CTF-XV-ShoeboxV0.7z"
+hash: "813eabfdb78a5f113192488d6a093a08c32412a9"
+fileSize: 9148622
+files:
+- name: "spk_mnch.umx"
+  fileSize: 947707
+  hash: "10a666192c5f07cd1e62f137e005f856b0813a0d"
+- name: "CTF-XV-ShoeboxV0.unr"
+  fileSize: 24649824
+  hash: "b55de835f8be6c99db8fc20e9623ec66f11d6ac6"
+otherFiles: 1
+dependencies:
+  CTF-XV-ShoeboxV0.unr:
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "MISSING"
+    name: "XTreadVeh"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "OK"
+    name: "spk_mnch"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%2520Tournament/Maps/XVehicles/S/8/1/3eabfd/CTF-XV-ShoeboxV0.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Shoebox"
+playerCount: "6-10"
+themes: {}
+bots: true
