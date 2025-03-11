@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-04 15:42"
+game: "Unreal"
+name: "strange3"
+author: "DavidM"
+description: "None"
+releaseDate: "1999-10"
+attachments: []
+originalFilename: "strangeworld3.zip"
+hash: "2792b6748056e4aa86a2b0992b746c6402a9b280"
+fileSize: 1017105
+files:
+- name: "NBSpecials.u"
+  fileSize: 280713
+  hash: "70d74e91136394ea28a4c48449cc55fb3231367a"
+- name: "NBSpecialT.utx"
+  fileSize: 252753
+  hash: "7418df8961fad0c36cf49724d64a4f97cd6235d3"
+- name: "railgun.u"
+  fileSize: 378748
+  hash: "cf456ed9a7fa63de9e91cad7ac1747f876fdebab"
+- name: "strange3.unr"
+  fileSize: 1984127
+  hash: "7aa3f573839da6f5c55078daad25fcbed83dd503"
+- name: "Flare.utx"
+  fileSize: 46440
+  hash: "1a903b00399786df5be83926814500b33e433037"
+otherFiles: 2
+dependencies:
+  strange3.unr:
+  - status: "OK"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "Flare"
+  - status: "OK"
+    name: "railgun"
+  NBSpecials.u:
+  - status: "OK"
+    name: "NBSpecialT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Single%20Player/S/2/7/92b674/strangeworld3.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Single Player"
+title: "Strange World: Part3"
+playerCount: "1"
+themes:
+  Natural: 0.4
+  Skaarj Tech: 0.4
+  Nali Castle: 0.1
+  Ancient: 0.1
+bots: true
