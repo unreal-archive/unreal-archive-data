@@ -1,0 +1,105 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-02-15 01:43"
+game: "Unreal"
+name: "Unreal meets Doom"
+author: "David 'Officer D' Jenkins"
+description: "None"
+releaseDate: "2018-04"
+attachments:
+- type: "IMAGE"
+  name: "unreal-doom-fix_shot_c749a127_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/c/7/49a127/unreal-doom-fix_shot_c749a127_1.png"
+originalFilename: "Unreal_Doom_fix.rar"
+hash: "c749a127f1876467ac44e6967a2c2b567e433082"
+fileSize: 17487898
+files:
+- name: "DoomPawns.u"
+  fileSize: 9477433
+  hash: "0297d07205fef86eb16d0f877c98c815468262e3"
+- name: "Tower_Of_Babel.unr"
+  fileSize: 603898
+  hash: "843c3aff0d77b604748d54109c47e9997cf61b7a"
+- name: "UMDintro.unr"
+  fileSize: 3209869
+  hash: "4ba82cd9c7d96c6f602741a84ab85c27b63fc920"
+- name: "Unreal_Doom.u"
+  fileSize: 723
+  hash: "cf07d39182f017e12a6f149ada5d4ea01d6470a0"
+- name: "Hangar.unr"
+  fileSize: 10067560
+  hash: "9b2f2204702574cb46d444412ed26bc3d401e181"
+- name: "Toxin_Refinery.unr"
+  fileSize: 14030447
+  hash: "3633264847f82a7b6fe0850e7912c63cac63b60d"
+- name: "DoomUax.uax"
+  fileSize: 794756
+  hash: "4082160f97df89efc3c5aa9b1515f9ebfff6054f"
+- name: "Nuclear_Plant.unr"
+  fileSize: 8665770
+  hash: "bd8d2177638f24ff49a57afe05c658a9ecab6099"
+otherFiles: 3
+dependencies:
+  Nuclear_Plant.unr:
+  - status: "OK"
+    name: "DoomUax"
+  - status: "OK"
+    name: "DoomPawns"
+  Hangar.unr:
+  - status: "OK"
+    name: "DoomUax"
+  - status: "OK"
+    name: "DoomPawns"
+  UMDintro.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "UPak"
+  - status: "OK"
+    name: "DoomUax"
+  - status: "OK"
+    name: "DoomPawns"
+  Tower_Of_Babel.unr:
+  - status: "MISSING"
+    name: "UPak"
+  - status: "OK"
+    name: "DoomUax"
+  - status: "MISSING"
+    name: "Guardian"
+  - status: "OK"
+    name: "DoomPawns"
+  - status: "MISSING"
+    name: "QueenSong"
+  Toxin_Refinery.unr:
+  - status: "OK"
+    name: "DoomUax"
+  - status: "OK"
+    name: "DoomPawns"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/c/7/49a127/Unreal_Doom_fix.rar"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/MapPacks/U/c/7/49a127/Unreal_Doom_fix.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "Tower_Of_Babel"
+  title: "Tower Of Babel"
+  author: "David \"Officer D\" Jenkins"
+- name: "UMDintro"
+  title: "UDM Intro"
+  author: "David \"Officer D\" Jenkins"
+- name: "Hangar"
+  title: "E1M1 meets Unreal"
+  author: "by Officer D"
+- name: "Toxin_Refinery"
+  title: "Toxin Refinery"
+  author: "David 'Officer D' Jenkins"
+- name: "Nuclear_Plant"
+  title: "Nuclear Plant"
+  author: "by Officer D"
+gametype: "Single Player"
+themes: {}

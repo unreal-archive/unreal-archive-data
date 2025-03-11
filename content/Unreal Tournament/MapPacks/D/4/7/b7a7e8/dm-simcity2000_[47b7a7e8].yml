@@ -1,0 +1,57 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-02-27 00:50"
+game: "Unreal Tournament"
+name: "DM-SimCity2000"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2025-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-simcity_shot_47b7a7e8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/4/7/b7a7e8/dm-simcity_shot_47b7a7e8_1.png"
+- type: "IMAGE"
+  name: "dm-simcity_shot_47b7a7e8_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/4/7/b7a7e8/dm-simcity_shot_47b7a7e8_2.png"
+originalFilename: "DM-SimCity.zip"
+hash: "47b7a7e82955f88bf56f89d5076b828f84ad183d"
+fileSize: 6959686
+files:
+- name: "SimCity2kTheme.umx"
+  fileSize: 2375815
+  hash: "23ef3e7aa13ce6cb1bcf9bd36bdf84bb1af74987"
+- name: "DM-SimCity2000Static02.unr"
+  fileSize: 5392806
+  hash: "e947020daf6646b4c66bdf822e787b86ed901e49"
+- name: "DM-SimCity2000g.unr"
+  fileSize: 6357720
+  hash: "2f913ad32dd9d0ea2c55b08594d9b7950fe45ced"
+otherFiles: 1
+dependencies:
+  DM-SimCity2000Static02.unr:
+  - status: "OK"
+    name: "SimCity2kTheme"
+  DM-SimCity2000g.unr:
+  - status: "OK"
+    name: "SimCity2kTheme"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/D/4/7/b7a7e8/DM-SimCity.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament/MapPacks/D/4/7/b7a7e8/DM-SimCity.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-SimCity2000Static02"
+  title: "Sim City"
+  author: "Jeff Martin - islandalien.com/unreal"
+- name: "DM-SimCity2000g"
+  title: "Sim City"
+  author: "Jeff Martin - islandalien.com/unreal"
+gametype: "DeathMatch"
+themes:
+  Natural: 0.1
+  City: 0.9
