@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-03-13 15:11"
+game: "Unreal 2"
+name: "U2 Mod Menu"
+author: "Jason Yu (Captain Kewl)"
+description: "A component to facilitate 3rd party content in Unreal 2."
+releaseDate: "2003-02"
+attachments: []
+originalFilename: "u2modmenu.zip"
+hash: "64fe76b691bda48f8affbb128d021a0a1eebae7a"
+fileSize: 26076
+files:
+- name: "Mod.u"
+  fileSize: 17726
+  hash: "7b661eaad15491105d4dd683d19a30c9fd8b2546"
+otherFiles: 4
+dependencies:
+  Mod.u:
+  - status: "MISSING"
+    name: "UI"
+  - status: "MISSING"
+    name: "U2"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/H/6/4/fe76b6/u2modmenu.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Hit Sound"
+  description: "Plays a tone when you damage an opponent."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
