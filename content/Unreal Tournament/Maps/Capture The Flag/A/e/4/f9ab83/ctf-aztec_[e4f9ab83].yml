@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-18 14:03"
+game: "Unreal Tournament"
+name: "CTF-Aztec"
+author: "<DN>Raptus (dn_raptus@centrum.cz)"
+description: "http://raptus.webpark.cz"
+releaseDate: "2004-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-aztec_shot_e4f9ab83_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/e/4/f9ab83/ctf-aztec_shot_e4f9ab83_1.png"
+originalFilename: "CTF-Aztec.rar"
+hash: "e4f9ab8315020a73b7ccedd1806f7c3c1e890ece"
+fileSize: 1910853
+files:
+- name: "Aztec_snd.uax"
+  fileSize: 164477
+  hash: "f156f8bdd193f692ea0d5db6642d0a51b13d3f63"
+- name: "Aztec_tx.utx"
+  fileSize: 1036055
+  hash: "2b659c75819f4cf2ed93a75c0d8eafca76bd6251"
+- name: "CTF-Aztec.unr"
+  fileSize: 1687267
+  hash: "4bac282eeb169ec2692eb113b2bdca35b22fb3ef"
+- name: "Aztec_thunder.umx"
+  fileSize: 1304553
+  hash: "7ae7169f66d632c877f85adb1ddc9197b160da32"
+otherFiles: 1
+dependencies:
+  CTF-Aztec.unr:
+  - status: "OK"
+    name: "Aztec_thunder"
+  - status: "OK"
+    name: "Aztec_snd"
+  - status: "OK"
+    name: "Aztec_tx"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/e/4/f9ab83/CTF-Aztec.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF-Aztec"
+playerCount: "4-10"
+themes:
+  Skaarj Tech: 1.0
+bots: true

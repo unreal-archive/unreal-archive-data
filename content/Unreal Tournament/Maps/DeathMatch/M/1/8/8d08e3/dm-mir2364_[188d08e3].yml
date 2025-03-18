@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-18 14:03"
+game: "Unreal Tournament"
+name: "DM-MIR2364"
+author: "Ablaze"
+description: "None"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-mir2364_shot_188d08e3_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/1/8/8d08e3/dm-mir2364_shot_188d08e3_1.png"
+originalFilename: "mir2364.zip"
+hash: "188d08e3c9fdb1b1ab9642607900933cd65abd2d"
+fileSize: 5585217
+files:
+- name: "DM-MIR2364.unr"
+  fileSize: 3483525
+  hash: "9675c8d365c2665cf0607f154403ff881c5b08b8"
+- name: "Deck16.utx"
+  fileSize: 156016
+  hash: "90f7c08cdb6b276706503006d040ab5aa5d44ac3"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  DM-MIR2364.unr:
+  - status: "OK"
+    name: "Deck16"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/1/8/8d08e3/mir2364.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MIR2364"
+playerCount: "4-6"
+themes:
+  Tech: 1.0
+bots: true
