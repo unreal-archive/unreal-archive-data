@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-20 04:19"
+game: "Unreal Tournament"
+name: "CTF-XV-SquirrelBMEv1"
+author: "Squirrelinabox"
+description: "None"
+releaseDate: "2025-03"
+attachments:
+- type: "IMAGE"
+  name: "ctf-xv-squirrelbmev1_shot_0e0c9245_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/0/e/0c9245/ctf-xv-squirrelbmev1_shot_0e0c9245_1.png"
+originalFilename: "CTF-XV-SquirrelBMEv1.7z"
+hash: "0e0c9245e4960a1fbc199533f931fad37398381b"
+fileSize: 1322526
+files:
+- name: "CTF-XV-SquirrelBMEv1.unr"
+  fileSize: 980324
+  hash: "72a3f8b7f495de87f820d164f234e6c4e1b4262d"
+- name: "chase_x.umx"
+  fileSize: 1221164
+  hash: "33b1015b7066c48654b4df89687b2b7c652bb04e"
+otherFiles: 2
+dependencies:
+  CTF-XV-SquirrelBMEv1.unr:
+  - status: "MISSING"
+    name: "XJumpPad"
+  - status: "MISSING"
+    name: "xZones"
+  - status: "MISSING"
+    name: "XPaths"
+  - status: "OK"
+    name: "chase_x"
+  - status: "MISSING"
+    name: "XVehicles"
+  - status: "MISSING"
+    name: "XWheelVeh"
+  - status: "MISSING"
+    name: "XHoverVeh"
+  - status: "MISSING"
+    name: "XWeaponLocker"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/XVehicles/S/0/e/0c9245/CTF-XV-SquirrelBMEv1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XVehicles"
+title: "Boxy Squirrel"
+playerCount: "8-20"
+themes:
+  Industrial: 1.0
+bots: true
