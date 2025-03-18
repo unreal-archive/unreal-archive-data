@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-19 07:21"
+game: "Unreal Tournament"
+name: "MH-ComeSaveThePark"
+author: "LordRixuel"
+description: "None"
+releaseDate: "2014-07"
+attachments:
+- type: "IMAGE"
+  name: "mh-comesavethepark_shot_1958fc44_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/1/9/58fc44/mh-comesavethepark_shot_1958fc44_1.png"
+originalFilename: "MH-ComeSaveThePark.7z"
+hash: "1958fc44c925cc8c7abd13348a5ae0ce3bc0389d"
+fileSize: 8992567
+files:
+- name: "LastPhantasm.umx"
+  fileSize: 4664639
+  hash: "66ebd7c56cf976f0f6d630225b983dbadb577529"
+- name: "MH-ComeSaveThePark.unr"
+  fileSize: 4206652
+  hash: "ca83ab243cea62a08c7a904e551891b4327940b0"
+- name: "WTNO_Ransacked.umx"
+  fileSize: 6718531
+  hash: "79193dab829ad85ccd5a66e7eec59197dd4eaa7d"
+otherFiles: 0
+dependencies:
+  MH-ComeSaveThePark.unr:
+  - status: "OK"
+    name: "LastPhantasm"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "WTNO_Ransacked"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/1/9/58fc44/MH-ComeSaveThePark.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Save The Park!"
+playerCount: "20"
+themes:
+  Tech: 0.1
+  City: 0.2
+  Natural: 0.1
+  Industrial: 0.2
+  Ancient: 0.5
+bots: true
