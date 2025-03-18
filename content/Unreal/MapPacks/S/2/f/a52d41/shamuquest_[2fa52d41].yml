@@ -1,0 +1,57 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-03-25 11:10"
+variationOf: "c13921264e51e1f7cf1dfb742b61c3b22dabc254"
+game: "Unreal"
+name: "Shamuquest"
+author: "chicoverde"
+description: "None"
+releaseDate: "1999-10"
+attachments:
+- type: "IMAGE"
+  name: "shamuquest_shot_2fa52d41_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/S/2/f/a52d41/shamuquest_shot_2fa52d41_1.png"
+originalFilename: "shamuquest.zip"
+hash: "2fa52d41b0afc4bbc2a9a04a44e06e8658e6503b"
+fileSize: 16488530
+files:
+- name: "sancient1.unr"
+  fileSize: 14889113
+  hash: "6dffd45615242bfbfd250a729e82d515fd01e681"
+- name: "Escher.utx"
+  fileSize: 4907418
+  hash: "2bd5f92a4dd6bd3a022dc2b8a7f9433ea33632cb"
+- name: "svalley1.unr"
+  fileSize: 13571549
+  hash: "8ee3c6bd63855e9e22fe9f26e01fff7f1985a112"
+- name: "svalley2.unr"
+  fileSize: 10509640
+  hash: "7b1b52d0187bf9028c12fca8fc1f7643505fb4ac"
+otherFiles: 1
+dependencies:
+  svalley2.unr:
+  - status: "OK"
+    name: "Escher"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/S/2/f/a52d41/shamuquest.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "sancient1"
+  title: "sancient1"
+  author: "chicoverde"
+- name: "svalley1"
+  title: "svalley1"
+  author: "chicoverde"
+- name: "svalley2"
+  title: "svalley2"
+  author: "chicoverde"
+gametype: "Survival"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.1
+  Skaarj Tech: 0.1
+  Nali Castle: 0.5
