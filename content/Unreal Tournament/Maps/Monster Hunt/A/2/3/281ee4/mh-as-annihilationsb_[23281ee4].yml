@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-11 19:33"
+game: "Unreal Tournament"
+name: "MH-AS-Annihilation(SB)"
+author: "Marco \"]BMR[ Vorlon\" Fritzsche/MH conversion by SeriousBarbie"
+description: "None"
+releaseDate: "2025-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-as-annihilationsb_shot_23281ee4_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/2/3/281ee4/mh-as-annihilationsb_shot_23281ee4_2.png"
+- type: "IMAGE"
+  name: "mh-as-annihilationsb_shot_23281ee4_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/2/3/281ee4/mh-as-annihilationsb_shot_23281ee4_1.png"
+originalFilename: "MH-AS-Annihilation(SB).7z"
+hash: "23281ee4eb3e293a0132e7df9ff08245081b44b2"
+fileSize: 5163138
+files:
+- name: "commandoskins_grants.utx"
+  fileSize: 1596502
+  hash: "b36761a2c9be48a984f526dddf15b5109f2f5420"
+- name: "SBHumaneFixesV1.u"
+  fileSize: 35001
+  hash: "8424bffa26a6c191de0564c53bf8d1f3010188eb"
+- name: "KasarulSkins.utx"
+  fileSize: 578603
+  hash: "7d861343756627a61eeb3303e95aaf8bba01aa18"
+- name: "SBQueenSaverV2.u"
+  fileSize: 92792
+  hash: "1ecd401f62ca7cc42afee10db9c7af6440ce5688"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Humane.u"
+  fileSize: 62341
+  hash: "ac5a0ae2d4bac9297c22edc21ba86ac61b02933d"
+- name: "SBDeadBodySwarmSpawnerV0.u"
+  fileSize: 5974
+  hash: "d3a4ef7e08d51f249013825976bf34587b4c6dd0"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "MH-AS-Annihilation(SB).unr"
+  fileSize: 7525626
+  hash: "2821097277ad70c48bfc827ae68cd705e28b8b30"
+otherFiles: 2
+dependencies:
+  MH-AS-Annihilation(SB).unr:
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "SBDeadBodySwarmSpawnerV0"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SBQueenSaverV2"
+  - status: "OK"
+    name: "SBHumaneFixesV1"
+  - status: "OK"
+    name: "KasarulSkins"
+  SBHumaneFixesV1.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+  - status: "OK"
+    name: "Humane"
+  Humane.u:
+  - status: "OK"
+    name: "commandoskins_grants"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/A/2/3/281ee4/MH-AS-Annihilation(SB).7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Operation Necris"
+playerCount: "2-8"
+themes:
+  Natural: 0.1
+  Industrial: 0.8
+  Skaarj Tech: 0.1
+bots: true
