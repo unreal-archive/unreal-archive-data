@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-19 18:49"
+game: "Unreal Tournament"
+name: "DM_Alchemist_der_Verlassenen"
+author: "Rework by Nikola-(DOG)- Original by Nash (Clive Barker's Undying)"
+description: "None"
+releaseDate: "2025-02"
+attachments: []
+originalFilename: "DM_Alchemist_der_Verlassenen.zip"
+hash: "4a6d4b3728c46d93f64646f2162ca4e5e1b4acc8"
+fileSize: 47324261
+files:
+- name: "Vanocni_pack_Newbies.utx"
+  fileSize: 30910447
+  hash: "8b6de20af7a1b81352a7927e8a6ca99cc3d98d75"
+- name: "Kalter_Stein_mesh_package.usm"
+  fileSize: 6770249
+  hash: "b42fc62cf25db1de9e92ca7e1c7c9f61273cf92d"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "DM_Alchemist_der_Verlassenen.unr"
+  fileSize: 13365619
+  hash: "99a8ff612ba0fdf68aee638b14c865d3b42c39a0"
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+- name: "Kalter_Stein_texture_package.utx"
+  fileSize: 39894318
+  hash: "e9890fcc265c1792e275117dda2383a918ad0845"
+- name: "Newbies_logo.utx"
+  fileSize: 178935
+  hash: "251ea297a790910fcafeecc455592591da6569fe"
+otherFiles: 0
+dependencies:
+  DM_Alchemist_der_Verlassenen.unr:
+  - status: "OK"
+    name: "Kalter_Stein_texture_package"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "Vanocni_pack_Newbies"
+  - status: "OK"
+    name: "Newbies_logo"
+  - status: "OK"
+    name: "ParticleTexs"
+  - status: "OK"
+    name: "Kalter_Stein_mesh_package"
+  Kalter_Stein_mesh_package.usm:
+  - status: "OK"
+    name: "Kalter_Stein_texture_package"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/A/4/a/6d4b37/DM_Alchemist_der_Verlassenen.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Kalte Steine"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Ancient: 0.9
+bots: true
