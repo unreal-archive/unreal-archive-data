@@ -1,0 +1,64 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2019-09-14 12:35"
+game: "Unreal"
+name: "MH-[SP]DungeonMonster"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-06"
+attachments: []
+originalFilename: "MH-[SP]DungeonMonster.zip"
+hash: "d9ef3aa5955d58b3ff197c8c237c1bedeead8be3"
+fileSize: 12561269
+files:
+- name: "CaveMonster.umx"
+  fileSize: 10158267
+  hash: "ffd324016926442553d32bf0dabcd4ef68401fe3"
+- name: "SP_DungeonMonsters.u"
+  fileSize: 2003
+  hash: "fec39b1484fabea6610f42529aaf6d86f56cbee9"
+- name: "MH-[SP]DungeonMonster.unr"
+  fileSize: 5630386
+  hash: "e41749565dce3d367783a1a495c7fd0d45e51446"
+otherFiles: 0
+dependencies:
+  MH-[SP]DungeonMonster.unr:
+  - status: "OK"
+    name: "SP_DungeonMonsters"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "CaveMonster"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://www.newbiesplayground.net/download/maps/mh_maps/MH-[SP]DungeonMonster.zip"
+  direct: false
+  state: "OK"
+- url: "https://files.vohzd.com/unreal/unreal/maps/monster-hunt/MH-[SP]DungeonMonster.zip"
+  direct: true
+  state: "MISSING"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal/Maps/Monster%20Hunt/S/d/9/ef3aa5/MH-%255BSP%255DDungeonMonster.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal/Maps/Monster%20Hunt/S/d/9/ef3aa5/MH-%5BSP%5DDungeonMonster.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal/Maps/Monster%20Hunt/S/d/9/ef3aa5/MH-%5BSP%5DDungeonMonster.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Monster%20Hunt/S/d/9/ef3aa5/MH-%255BSP%255DDungeonMonster.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]DungeonMonster"
+playerCount: "Unknown"
+themes:
+  Ancient: 0.4
+  Natural: 0.6
+bots: true
