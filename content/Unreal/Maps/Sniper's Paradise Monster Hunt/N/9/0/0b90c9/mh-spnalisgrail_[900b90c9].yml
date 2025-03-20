@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:41"
+game: "Unreal"
+name: "MH-[SP]NalisGrail"
+author: "A-M 'SAM' Savarese"
+description: "Find the Grail !"
+releaseDate: "2020-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-spnalisgrail_shot_900b90c9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/N/9/0/0b90c9/mh-spnalisgrail_shot_900b90c9_1.png"
+originalFilename: "MH-[SP]NalisGrail.zip"
+hash: "900b90c94a6dce7b31d06e5d46983fd0c6fe7249"
+fileSize: 5113119
+files:
+- name: "Foregone.umx"
+  fileSize: 1992753
+  hash: "0aff4437d220127a8c193ab7b6402821edca5c79"
+- name: "MH-[SP]NalisGrail.unr"
+  fileSize: 8007553
+  hash: "1292643fad7d35f376faab967cfdf1333b98ffb1"
+otherFiles: 0
+dependencies:
+  MH-[SP]NalisGrail.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Foregone"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/N/9/0/0b90c9/MH-%5BSP%5DNalisGrail.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Nali's Grail"
+playerCount: "2-3"
+themes:
+  Nali Castle: 1.0
+bots: true

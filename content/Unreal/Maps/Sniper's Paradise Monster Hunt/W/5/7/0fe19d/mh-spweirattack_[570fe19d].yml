@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:41"
+game: "Unreal"
+name: "MH-[SP]WeirAttack"
+author: "Alexander Vasyliev"
+description: "None"
+releaseDate: "2023-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-spweirattack_shot_570fe19d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/W/5/7/0fe19d/mh-spweirattack_shot_570fe19d_1.png"
+originalFilename: "MH-[SP]WeirAttack.zip"
+hash: "570fe19d7046e3acea2c7b6fd06f854489e37cb5"
+fileSize: 21762080
+files:
+- name: "UTtech2.utx"
+  fileSize: 3404233
+  hash: "3c298abec256301fc9804e4e6a4579b409c0bc8c"
+- name: "Mission.umx"
+  fileSize: 734957
+  hash: "b298eb72e19b4c01b82f62b3d210b954cf70f4a8"
+- name: "MH-[SP]WeirAttack.unr"
+  fileSize: 4904020
+  hash: "16ab0a6769de3176ec11df61a121208a231b875b"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "RainFX.utx"
+  fileSize: 4672509
+  hash: "0732bafbad2f4b12262263bd2c242decc9a932f8"
+- name: "Indus6.utx"
+  fileSize: 2863307
+  hash: "06e58cde0edfc08b303b941bcc5b6765cc204303"
+- name: "Indus5.utx"
+  fileSize: 3210994
+  hash: "6f701f378df841e8d21f66cd6c66789d9fec0904"
+otherFiles: 0
+dependencies:
+  Indus6.utx:
+  - status: "MISSING"
+    name: "Crypt2"
+  MH-[SP]WeirAttack.unr:
+  - status: "OK"
+    name: "UTtech1"
+  - status: "OK"
+    name: "UTtech2"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Mission"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "RainFX"
+  - status: "OK"
+    name: "Indus6"
+  - status: "OK"
+    name: "Indus5"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/W/5/7/0fe19d/MH-%5BSP%5DWeirAttack.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Weir Attack"
+playerCount: "4-8"
+themes:
+  Tech: 0.1
+  Natural: 0.2
+  Industrial: 0.5
+  Skaarj Tech: 0.1
+  Ancient: 0.1
+bots: true

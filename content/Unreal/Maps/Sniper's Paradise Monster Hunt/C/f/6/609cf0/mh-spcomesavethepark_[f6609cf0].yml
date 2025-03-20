@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:34"
+game: "Unreal"
+name: "MH-[SP]ComeSaveThePark"
+author: "LordRixuel"
+description: "None"
+releaseDate: "2023-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-spcomesavethepark_shot_f6609cf0_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/C/f/6/609cf0/mh-spcomesavethepark_shot_f6609cf0_1.png"
+originalFilename: "MH-[SP]ComeSaveThePark.zip"
+hash: "f6609cf02ae911c05464319af6936491113ab173"
+fileSize: 18830074
+files:
+- name: "MH-[SP]ComeSaveThePark.unr"
+  fileSize: 10869183
+  hash: "6dfa7558f65d1cab3209141a75b81b47820c4dde"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "LastPhantasm.umx"
+  fileSize: 4664639
+  hash: "66ebd7c56cf976f0f6d630225b983dbadb577529"
+- name: "Arenatex.utx"
+  fileSize: 723626
+  hash: "a2331a4b9d5219e9426c8a4776c63d1e566f8f0d"
+- name: "WTNO_Ransacked.umx"
+  fileSize: 6718531
+  hash: "79193dab829ad85ccd5a66e7eec59197dd4eaa7d"
+otherFiles: 0
+dependencies:
+  MH-[SP]ComeSaveThePark.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "city"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "OK"
+    name: "ArenaTex"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "LastPhantasm"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "AssaultDecor"
+  - status: "OK"
+    name: "WTNO_Ransacked"
+  - status: "MISSING"
+    name: "SP_UPSXMPack"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/C/f/6/609cf0/MH-%5BSP%5DComeSaveThePark.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Save The Park"
+playerCount: "4-8"
+themes:
+  Natural: 0.9
+  City: 0.1
+bots: true

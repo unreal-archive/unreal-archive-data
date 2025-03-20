@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:43"
+game: "Unreal"
+name: "MH-[SP]NightWish"
+author: "Jimbo"
+description: "Have fun Hunting"
+releaseDate: "2020-01"
+attachments: []
+originalFilename: "MH-[SP]NightWish.zip"
+hash: "091533890533ed62569859117364a3fd1890c0b0"
+fileSize: 2459133
+files:
+- name: "MH-[SP]NightWish.unr"
+  fileSize: 4684121
+  hash: "80bf975899601bd019a68b2d059ad8a9598a2fac"
+- name: "Phantom.umx"
+  fileSize: 819883
+  hash: "017ffb49f2769b5317709c1fa2416497d4e4548d"
+otherFiles: 0
+dependencies:
+  MH-[SP]NightWish.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "OK"
+    name: "Phantom"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/N/0/9/153389/MH-%5BSP%5DNightWish.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]NightWish"
+playerCount: "4-6"
+themes:
+  Natural: 0.2
+  Tech: 0.7
+bots: true

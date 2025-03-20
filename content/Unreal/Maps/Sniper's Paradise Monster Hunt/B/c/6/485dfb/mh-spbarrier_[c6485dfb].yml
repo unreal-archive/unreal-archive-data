@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:38"
+game: "Unreal"
+name: "MH-[SP]Barrier"
+author: "Viliam Simko"
+description: "you must find the stargate"
+releaseDate: "2020-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-spbarrier_shot_c6485dfb_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/B/c/6/485dfb/mh-spbarrier_shot_c6485dfb_1.png"
+originalFilename: "MH-[SP]Barrier.zip"
+hash: "c6485dfb1457acbf0cfd194e0073aa1e5fde3ff0"
+fileSize: 2838719
+files:
+- name: "MH-[SP]Barrier.unr"
+  fileSize: 4679208
+  hash: "922f9b7f8aa547194f0f304303c9d5553ee55711"
+- name: "Mission.umx"
+  fileSize: 734957
+  hash: "b298eb72e19b4c01b82f62b3d210b954cf70f4a8"
+otherFiles: 0
+dependencies:
+  MH-[SP]Barrier.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "Addon1"
+  - status: "OK"
+    name: "Mission"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/B/c/6/485dfb/MH-%5BSP%5DBarrier.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Barrier"
+playerCount: "Up to 12"
+themes:
+  Natural: 0.5
+  Tech: 0.5
+bots: true

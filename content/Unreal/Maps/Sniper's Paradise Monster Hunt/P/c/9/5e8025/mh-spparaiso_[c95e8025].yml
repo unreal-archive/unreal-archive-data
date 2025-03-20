@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:36"
+game: "Unreal"
+name: "MH-[SP]Paraiso"
+author: "Boon-qiv-"
+description: "None"
+releaseDate: "2020-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-spparaiso_shot_c95e8025_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/P/c/9/5e8025/mh-spparaiso_shot_c95e8025_1.png"
+originalFilename: "MH-[SP]Paraiso.zip"
+hash: "c95e802580f80135db2d2ca9f05201f28ac86845"
+fileSize: 6824402
+files:
+- name: "Ending.umx"
+  fileSize: 2121378
+  hash: "53a2c13da269e595778fcf278e503f302f4d5581"
+- name: "MH-[SP]Paraiso.unr"
+  fileSize: 6052881
+  hash: "832bc7746a2d3c726a77acfb152e4fcca2ed0947"
+- name: "Savemeg.umx"
+  fileSize: 1690151
+  hash: "586c0b5c94e6269922607fba79740ff63a5dfdc0"
+otherFiles: 0
+dependencies:
+  MH-[SP]Paraiso.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Savemeg"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/P/c/9/5e8025/MH-%5BSP%5DParaiso.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Paraiso"
+playerCount: "2-"
+themes:
+  Natural: 1.0
+bots: true

@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:36"
+game: "Unreal"
+name: "MH-[SP]TheMonkTemple"
+author: "Rubie"
+description: "Clock Ticks Save The Surrounding From The Evil"
+releaseDate: "2020-07"
+attachments: []
+originalFilename: "MH-[SP]TheMonkTemple.zip"
+hash: "89709642c96783080e3a8fa3d1875213244d8e3b"
+fileSize: 4689312
+files:
+- name: "StunnMoFThunder.umx"
+  fileSize: 244780
+  hash: "a0e27f2a40c99847b8c4e278161fbaf0196658b6"
+- name: "AroundChaos.umx"
+  fileSize: 1871470
+  hash: "f2bae9dd72773362363ce7f067c20821ac5e5fe4"
+- name: "Enigma.umx"
+  fileSize: 2010616
+  hash: "58bdd07f24e7a38fc4374210d19a66b8bddbf066"
+- name: "MH-[SP]TheMonkTemple.unr"
+  fileSize: 4637488
+  hash: "6b97570edc771bfa2cc70eb71f2de095d6ca174c"
+- name: "Turbulen.umx"
+  fileSize: 184365
+  hash: "ee71f8d67c5adb5f35901652e1dd2092a54979c3"
+otherFiles: 0
+dependencies:
+  MH-[SP]TheMonkTemple.unr:
+  - status: "OK"
+    name: "Enigma"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "StunnMoFThunder"
+  - status: "MISSING"
+    name: "AssaultEXU"
+  - status: "OK"
+    name: "Turbulen"
+  - status: "OK"
+    name: "AroundChaos"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "TreePack1"
+  - status: "MISSING"
+    name: "MHAntaliusU"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/T/8/9/709642/MH-%5BSP%5DTheMonkTemple.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP] The Monk Temple"
+playerCount: "4-8"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.3
+  Nali Castle: 0.3
+  Ancient: 0.1
+bots: true

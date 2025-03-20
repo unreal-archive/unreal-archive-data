@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:37"
+game: "Unreal"
+name: "MH-[SP]Vampire"
+author: "Edin Hozic aka 'Doc_Edo'"
+description: "None"
+releaseDate: "2023-07"
+attachments:
+- type: "IMAGE"
+  name: "mh-spvampire_shot_538465ca_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/V/5/3/8465ca/mh-spvampire_shot_538465ca_1.png"
+originalFilename: "MH-[SP]Vampire.zip"
+hash: "538465cad64a759646ea1f44791f9cd01652b74d"
+fileSize: 5919760
+files:
+- name: "MH-[SP]Vampire.unr"
+  fileSize: 2884796
+  hash: "3f947c2c55b58362ad801b8c9b4136a7b2d3139b"
+- name: "Botpck10.umx"
+  fileSize: 1514831
+  hash: "bf17a3552395fc8561032c73c84ab81d1b734f8a"
+- name: "ShaneChurch.utx"
+  fileSize: 4398103
+  hash: "9fe9d5f363d2f5e0703d7a32bf8a13106a654271"
+otherFiles: 0
+dependencies:
+  MH-[SP]Vampire.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "ShaneChurch"
+  - status: "OK"
+    name: "Botpck10"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/V/5/3/8465ca/MH-%5BSP%5DVampire.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Vampire"
+playerCount: "4-8"
+themes:
+  Tech: 0.1
+  Natural: 0.4
+  Nali Castle: 0.4
+  Skaarj Tech: 0.1
+  Ancient: 0.1
+bots: true

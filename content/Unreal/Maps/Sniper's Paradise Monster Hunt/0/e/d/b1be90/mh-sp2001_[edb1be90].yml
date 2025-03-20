@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:40"
+game: "Unreal"
+name: "MH-[SP]2001"
+author: "Wayne \"Slartybartfast\" Young"
+description: "For those who will never make it to Space...."
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-sp2001_shot_edb1be90_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/0/e/d/b1be90/mh-sp2001_shot_edb1be90_1.png"
+originalFilename: "MH-[SP]2001.zip"
+hash: "edb1be90271f847d292c1edc473c5ee72353d810"
+fileSize: 13876853
+files:
+- name: "DMorbit.utx"
+  fileSize: 2328307
+  hash: "669ee71591397ef75e0cea4df7aa391e0eddc0b9"
+- name: "BlueDanube.umx"
+  fileSize: 10754010
+  hash: "92c6067e8018b6cb1c7920b341ad0dc4d8855c73"
+- name: "MH-[SP]2001.unr"
+  fileSize: 5822081
+  hash: "6603eb711bf49caaefb05badf34947f24b83597f"
+- name: "wdy_mods.u"
+  fileSize: 18631
+  hash: "881483038d210a85c81a1c81ed07e1ba6a38a3c9"
+otherFiles: 0
+dependencies:
+  MH-[SP]2001.unr:
+  - status: "OK"
+    name: "BlueDanube"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "wdy_mods"
+  - status: "MISSING"
+    name: "Earth"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "realsky"
+  - status: "OK"
+    name: "DMorbit"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/0/e/d/b1be90/MH-%5BSP%5D2001.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]2001: A SPACE ODYSSEY"
+playerCount: "8-12"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.3
+  Natural: 0.1
+  Skaarj Tech: 0.3
+bots: true

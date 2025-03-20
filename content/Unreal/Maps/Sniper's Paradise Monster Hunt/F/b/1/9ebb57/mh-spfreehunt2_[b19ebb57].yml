@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:29"
+game: "Unreal"
+name: "MH-[SP]Freehunt2"
+author: "Dragon Zolee"
+description: "Wellcom to the Freehunt Doomsday"
+releaseDate: "2023-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-spfreehunt2_shot_b19ebb57_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/F/b/1/9ebb57/mh-spfreehunt2_shot_b19ebb57_1.png"
+originalFilename: "MH-[SP]Freehunt2.zip"
+hash: "b19ebb576bd07da86475b250834649c14931cf7e"
+fileSize: 7431349
+files:
+- name: "Crypt2.utx"
+  fileSize: 7377678
+  hash: "1bc977a9fb6ac41a426a47ad537651476579115f"
+- name: "FreeHunt2Musics.umx"
+  fileSize: 1729719
+  hash: "8f240c826e10605a4f99c1b29fa43eff94647fb8"
+- name: "MH-[SP]Freehunt2.unr"
+  fileSize: 4622734
+  hash: "e6881e5be7abdf1cf44a5cd6c96c220d012db345"
+otherFiles: 0
+dependencies:
+  MH-[SP]Freehunt2.unr:
+  - status: "OK"
+    name: "FreeHunt2Musics"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_Invulnerability"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/F/b/1/9ebb57/MH-%5BSP%5DFreehunt2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Free Hunt - DoomSday"
+playerCount: "4-8"
+themes:
+  Natural: 0.3
+  Skaarj Crypt: 0.7
+bots: true

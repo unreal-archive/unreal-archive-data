@@ -1,0 +1,65 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:35"
+game: "Unreal"
+name: "MH-[SP]RobotFactory"
+author: "Alucard and Titled"
+description: "None"
+releaseDate: "2011-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-sprobotfactory_shot_51735a1d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/R/5/1/735a1d/mh-sprobotfactory_shot_51735a1d_1.png"
+originalFilename: "MH-[SP]RobotFactory.zip"
+hash: "51735a1d8dd838bb8f635381f6e7fde934c29ddf"
+fileSize: 11202382
+files:
+- name: "Course.umx"
+  fileSize: 1832615
+  hash: "3921b1cfa7da81a2bf4f02f1bb86bd7a5d81ad24"
+- name: "noxxsnd.uax"
+  fileSize: 806029
+  hash: "8e88d237de5ff3a297a55d53a6846d462094e647"
+- name: "MH-[SP]RobotFactory.unr"
+  fileSize: 13593935
+  hash: "9e1341765ff0d9d9723229ee74a1a7be4acea72f"
+- name: "AmbCity.uax"
+  fileSize: 643667
+  hash: "e5a82e544d635b6609e73d0010913d2c08a93ff7"
+- name: "Run.umx"
+  fileSize: 1707015
+  hash: "757dd335c394cb3c419b4a50bbeaf6781e137d4d"
+otherFiles: 0
+dependencies:
+  MH-[SP]RobotFactory.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "AmbCity"
+  - status: "OK"
+    name: "Course"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "noxxsnd"
+  - status: "OK"
+    name: "Run"
+  - status: "MISSING"
+    name: "SPBender"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/R/5/1/735a1d/MH-%5BSP%5DRobotFactory.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Liandri Robot facility"
+playerCount: "4-10"
+themes:
+  Skaarj Tech: 1.0
+bots: true

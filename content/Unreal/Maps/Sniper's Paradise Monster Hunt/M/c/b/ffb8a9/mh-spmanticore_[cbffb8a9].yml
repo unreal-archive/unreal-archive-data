@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:41"
+game: "Unreal"
+name: "MH-[SP]Manticore"
+author: "Claude Meyer aka Mier"
+description: "None"
+releaseDate: "2023-06"
+attachments:
+- type: "IMAGE"
+  name: "mh-spmanticore_shot_cbffb8a9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/M/c/b/ffb8a9/mh-spmanticore_shot_cbffb8a9_1.png"
+originalFilename: "MH-[SP]Manticore.zip"
+hash: "cbffb8a97348e307749e050efc34847cd7972593"
+fileSize: 19633437
+files:
+- name: "MH-[SP]Manticore.unr"
+  fileSize: 5758757
+  hash: "ac96f767b628a9f22a6daf634bb6d9f8f5da2d17"
+- name: "UTtech2.utx"
+  fileSize: 3404233
+  hash: "3c298abec256301fc9804e4e6a4579b409c0bc8c"
+- name: "UTtech1.utx"
+  fileSize: 11206345
+  hash: "0a2cc068a89391b7cde94729d2a30abd80c2274e"
+- name: "RainFX.utx"
+  fileSize: 4672509
+  hash: "0732bafbad2f4b12262263bd2c242decc9a932f8"
+- name: "firebr.umx"
+  fileSize: 1914284
+  hash: "7adc45504f1010fa5724c80a9c64e86882710230"
+- name: "DDayFX.utx"
+  fileSize: 1494874
+  hash: "bc4609afffc91aaff22a83c81dfebd574a1e67a3"
+otherFiles: 0
+dependencies:
+  MH-[SP]Manticore.unr:
+  - status: "OK"
+    name: "UTtech1"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "OK"
+    name: "UTtech2"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "firebr"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "AssaultDecor"
+  - status: "OK"
+    name: "RainFX"
+  - status: "OK"
+    name: "DDayFX"
+  - status: "MISSING"
+    name: "AssaultTeamCannon"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/M/c/b/ffb8a9/MH-%5BSP%5DManticore.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Manticore"
+playerCount: "4-8"
+themes:
+  Tech: 0.2
+  Industrial: 0.5
+  Skaarj Tech: 0.3
+bots: true

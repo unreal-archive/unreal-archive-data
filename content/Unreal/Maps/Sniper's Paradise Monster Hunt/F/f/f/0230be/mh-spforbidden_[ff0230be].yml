@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:35"
+game: "Unreal"
+name: "MH-[SP]Forbidden"
+author: "Kenneth"
+description: "None"
+releaseDate: "2019-08"
+attachments: []
+originalFilename: "MH-[SP]Forbidden.zip"
+hash: "ff0230be30b61c4d4fd2a4e6f02f6ac99134ad75"
+fileSize: 2105655
+files:
+- name: "MH-[SP]Forbidden.unr"
+  fileSize: 1500842
+  hash: "60ba72c5310c0ace06e3b06f04c1c72a2869787e"
+- name: "UnWorld2.umx"
+  fileSize: 1844439
+  hash: "86ae97b6a6abf240f2d74ca274ab7f3c28441226"
+otherFiles: 0
+dependencies:
+  MH-[SP]Forbidden.unr:
+  - status: "OK"
+    name: "UnWorld2"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/F/f/f/0230be/MH-%5BSP%5DForbidden.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP] Forbidden Journey"
+playerCount: "Up to 6"
+themes:
+  Nali Temple: 0.8
+  Natural: 0.1
+  Nali Castle: 0.1
+bots: true

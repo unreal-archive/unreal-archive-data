@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:31"
+game: "Unreal"
+name: "MH-[SP]TheOldNaliRuins"
+author: "Daniel 'MClane' Pflugbeil"
+description: "None"
+releaseDate: "2021-04"
+attachments: []
+originalFilename: "MH-[SP]TheOldNaliRuins.zip"
+hash: "90ddfc1c0e7d441659580926b8a3478b7a3b0e62"
+fileSize: 7541519
+files:
+- name: "NPInside.umx"
+  fileSize: 832191
+  hash: "74f09301ab680ab8003286b303930092e5a70250"
+- name: "MH-[SP]TheOldNaliRuins.unr"
+  fileSize: 13954624
+  hash: "5f409f0f36a6ceb4a2ca2987774560b7b98d3d4b"
+- name: "Np-ty.umx"
+  fileSize: 1069011
+  hash: "d6ffb86f7d19870d0f659fe0a5abcadeb2129efe"
+otherFiles: 0
+dependencies:
+  MH-[SP]TheOldNaliRuins.unr:
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Np-ty"
+  - status: "OK"
+    name: "NPInside"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/T/9/0/ddfc1c/MH-%5BSP%5DTheOldNaliRuins.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]The Old Nali Ruins"
+playerCount: "2-6"
+themes:
+  Natural: 0.1
+  Nali Castle: 0.6
+  Skaarj Tech: 0.3
+bots: true

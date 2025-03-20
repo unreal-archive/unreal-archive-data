@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:38"
+game: "Unreal"
+name: "DM[SP]HanksHanger"
+author: "{FCS}Hankenstein *Imported from UT by RUSH*"
+description: "None"
+releaseDate: "2007-09"
+attachments: []
+originalFilename: "DM[SP]HanksHanger.zip"
+hash: "d7cd955ec2b855c327f666ddf860cb51d3f43e81"
+fileSize: 4413559
+files:
+- name: "ThunderStruck.umx"
+  fileSize: 3226710
+  hash: "5d6e1656cf1e9744b35ebf546f04c90b8e114a65"
+- name: "Hanger_2.utx"
+  fileSize: 531239
+  hash: "cd0f60678e4b509f52e3a6c8deb51d425350d5bc"
+- name: "DM[SP]HanksHanger.unr"
+  fileSize: 2503879
+  hash: "348138fb8f0b51b574b409841c305015521fc6aa"
+- name: "Hanger.utx"
+  fileSize: 2286621
+  hash: "14090beadc8c75012dc39a3382d701fdda6ac3ae"
+otherFiles: 0
+dependencies:
+  DM[SP]HanksHanger.unr:
+  - status: "OK"
+    name: "ThunderStruck"
+  - status: "OK"
+    name: "Hanger_2"
+  - status: "MISSING"
+    name: "SPStuff"
+  - status: "MISSING"
+    name: "SP_NSAv5"
+  - status: "OK"
+    name: "hanger"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/S/d/7/cd955e/DM%5BSP%5DHanksHanger.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] Hank's Hanger"
+playerCount: "10-16 Players"
+themes: {}
+bots: true

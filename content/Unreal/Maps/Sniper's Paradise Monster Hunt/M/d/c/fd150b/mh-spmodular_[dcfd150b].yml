@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:34"
+game: "Unreal"
+name: "MH-[SP]Modular"
+author: "Steffen Eckenstaler"
+description: "None"
+releaseDate: "2023-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-spmodular_shot_dcfd150b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/M/d/c/fd150b/mh-spmodular_shot_dcfd150b_1.png"
+originalFilename: "MH-[SP]Modular.zip"
+hash: "dcfd150bf094cc4698c21dbd32dfc1a6961e4eb3"
+fileSize: 4143179
+files:
+- name: "MH-[SP]Modular.unr"
+  fileSize: 5504197
+  hash: "f2e8eafa678adc98d0c5954ee4b4817ec1bc8849"
+- name: "Course.umx"
+  fileSize: 1832615
+  hash: "3921b1cfa7da81a2bf4f02f1bb86bd7a5d81ad24"
+- name: "AMC_Modular.u"
+  fileSize: 4651098
+  hash: "9cca21748371623ac5a6dd2042d19727ff15c918"
+otherFiles: 0
+dependencies:
+  MH-[SP]Modular.unr:
+  - status: "OK"
+    name: "AMC_Modular"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "Course"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/M/d/c/fd150b/MH-%5BSP%5DModular.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Modular"
+playerCount: "4 - 6"
+themes:
+  Ancient: 1.0
+bots: true

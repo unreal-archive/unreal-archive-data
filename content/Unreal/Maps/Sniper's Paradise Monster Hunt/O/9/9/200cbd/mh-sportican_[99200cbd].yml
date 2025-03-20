@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:33"
+game: "Unreal"
+name: "MH-[SP]Ortican"
+author: "Sjoerd"
+description: "None"
+releaseDate: "2019-10"
+attachments: []
+originalFilename: "MH-[SP]Ortican.zip"
+hash: "99200cbd16ec3197b63109f82c41a3059ececc03"
+fileSize: 7175721
+files:
+- name: "MH-[SP]Ortican.unr"
+  fileSize: 15692790
+  hash: "e96c4d1bc9ccf8b7d14236247635373dcb26b13a"
+- name: "Foregone.umx"
+  fileSize: 1992753
+  hash: "0aff4437d220127a8c193ab7b6402821edca5c79"
+otherFiles: 0
+dependencies:
+  MH-[SP]Ortican.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "Foregone"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "MISSING"
+    name: "AssaultDecor"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/O/9/9/200cbd/MH-%5BSP%5DOrtican.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP] Ortican"
+playerCount: "1-15"
+themes:
+  Tech: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.5
+  Nali Castle: 0.1
+bots: true

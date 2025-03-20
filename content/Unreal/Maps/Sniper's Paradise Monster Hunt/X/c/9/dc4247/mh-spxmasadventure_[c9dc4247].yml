@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:40"
+game: "Unreal"
+name: "MH-[SP]XMasAdventure"
+author: "HellFire/THUNDERBOLT"
+description: "www.destinationunreal.com"
+releaseDate: "2019-11"
+attachments: []
+originalFilename: "MH-[SP]XMasAdventure.zip"
+hash: "c9dc42476f6d3eece09372eb1ebad19b96b37a16"
+fileSize: 12829223
+files:
+- name: "css37.umx"
+  fileSize: 3327616
+  hash: "5da747d1708f8ed1f6706f6f2c38ccfb5aa36883"
+- name: "Scotch.umx"
+  fileSize: 880505
+  hash: "71dc165b095da884386b7a3061aec44f6b03068e"
+- name: "Complian_b.umx"
+  fileSize: 323579
+  hash: "4326e26d2ba385d38ac5dcf8c62e8283d0e3c161"
+- name: "TreePack1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "ReachingDimensions.umx"
+  fileSize: 3376217
+  hash: "bb665d3393f5aa1ed9d191fcd4ecaad54ea855c0"
+- name: "MH-[SP]XMasAdventure.unr"
+  fileSize: 3961819
+  hash: "adf1b6f07083d28d4a79062ec5847ac9e66a392a"
+- name: "DoorsSnd.uax"
+  fileSize: 5340854
+  hash: "cc80f1d49cae18b2d4d90a41651fd47e4ac54422"
+otherFiles: 0
+dependencies:
+  MH-[SP]XMasAdventure.unr:
+  - status: "OK"
+    name: "Complian_b"
+  - status: "OK"
+    name: "TreePack1"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "OK"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "ReachingDimensions"
+  - status: "OK"
+    name: "css37"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "Scotch"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/X/c/9/dc4247/MH-%5BSP%5DXMasAdventure.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Xmas Adventure"
+playerCount: "4-12"
+themes:
+  Nali Castle: 0.3
+  Ancient: 0.7
+bots: true

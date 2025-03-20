@@ -1,0 +1,79 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:35"
+game: "Unreal"
+name: "MH-[SP]Proxima"
+author: "Unknown"
+description: "None"
+releaseDate: "2023-04"
+attachments:
+- type: "IMAGE"
+  name: "mh-spproxima_shot_ce2fb55f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/P/c/e/2fb55f/mh-spproxima_shot_ce2fb55f_1.png"
+originalFilename: "MH-[SP]Proxima.zip"
+hash: "ce2fb55ff5ec961fbe0ab231c284c16d46bd478c"
+fileSize: 11904384
+files:
+- name: "hglightsnstuff.utx"
+  fileSize: 1379539
+  hash: "b5049f25d4c7b6ecde3ca7af4f925f22893cf493"
+- name: "gateways.umx"
+  fileSize: 1025666
+  hash: "d5336d997f7406403ffda19c8f83d6091a4ff9a2"
+- name: "MH-[SP]Proxima.unr"
+  fileSize: 10731965
+  hash: "6ec305de0102bd2fe1ef3737cde5567618e4769d"
+- name: "rtTech2.utx"
+  fileSize: 6802157
+  hash: "9591643e14ca6a9e2b32ed6da1fa97c7259e555d"
+- name: "Xtortion.utx"
+  fileSize: 853804
+  hash: "a93f5c074dcf30129ed3ad145de081623c041cea"
+- name: "Rt-Detail.utx"
+  fileSize: 488525
+  hash: "b8b4f4b396decd2392c63d8070739ad10d99422b"
+- name: "Proxima.utx"
+  fileSize: 1258039
+  hash: "9ac059401dc8b731979b3b9d3a086d739263e9af"
+otherFiles: 0
+dependencies:
+  rtTech2.utx:
+  - status: "OK"
+    name: "Rt-Detail"
+  MH-[SP]Proxima.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "AssaultDeemer"
+  - status: "OK"
+    name: "Proxima"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "gateways"
+  - status: "MISSING"
+    name: "Coret_FX"
+  - status: "OK"
+    name: "Xtortion"
+  - status: "OK"
+    name: "rtTech2"
+  - status: "OK"
+    name: "hglightsnstuff"
+  - status: "MISSING"
+    name: "SP_RoseBumCars"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/P/c/e/2fb55f/MH-%5BSP%5DProxima.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Proxima"
+playerCount: "5-8"
+themes:
+  Natural: 0.1
+  Tech: 0.8
+bots: true

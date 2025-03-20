@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:43"
+game: "Unreal"
+name: "MH-[SP]SectorAlpha"
+author: "--=Aalexanderrr=--"
+description: "None"
+releaseDate: "2019-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-spsectoralpha_shot_23774839_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/S/2/3/774839/mh-spsectoralpha_shot_23774839_1.png"
+originalFilename: "MH-[SP]SectorAlpha.zip"
+hash: "237748392303bae68a64559bbf647dee211255f8"
+fileSize: 6957724
+files:
+- name: "Cannon.umx"
+  fileSize: 1784008
+  hash: "e4180db8cc25ff1839f265e1d8040a78202e5688"
+- name: "MH-[SP]SectorAlpha.unr"
+  fileSize: 10500700
+  hash: "dccf43a10faeef39b69b2af4091955a6e01a0aae"
+- name: "PainKiller-Military.umx"
+  fileSize: 2482445
+  hash: "1c0ba61fac71a3457360690864dab19e19b6ef4a"
+otherFiles: 0
+dependencies:
+  MH-[SP]SectorAlpha.unr:
+  - status: "OK"
+    name: "Cannon"
+  - status: "OK"
+    name: "PainKiller-Military"
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/S/2/3/774839/MH-%5BSP%5DSectorAlpha.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Sector Alpha"
+playerCount: "4-6"
+themes:
+  Natural: 0.2
+  Ancient: 0.8
+bots: true

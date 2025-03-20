@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:40"
+game: "Unreal"
+name: "DM[SP]AfterHours]["
+author: "Chuck 'Joe Mama' Childress *Imported from UT by RUSH*"
+description: "Closing time... Get out the guns!"
+releaseDate: "2013-03"
+attachments:
+- type: "IMAGE"
+  name: "dmspafterhours_shot_884d6803_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/S/8/8/4d6803/dmspafterhours_shot_884d6803_1.png"
+originalFilename: "DM[SP]AfterHours][.zip"
+hash: "884d68038d4b333d3ec672b4cfb9eade34fbf33c"
+fileSize: 24020866
+files:
+- name: "AssaultModels1.u"
+  fileSize: 719950
+  hash: "af6d70c9bd29fc74fc804bca6c911723e00db7f6"
+- name: "SP_SevenNationArmy.umx"
+  fileSize: 5078687
+  hash: "2816c01d5a07722122ce74ba3f0c2ae2edb051a0"
+- name: "chaostex.utx"
+  fileSize: 20485021
+  hash: "4653c099c4f73ac86c0f5bc6eab05c08a022bc4f"
+- name: "DM[SP]AfterHours][.unr"
+  fileSize: 6479016
+  hash: "78e3e3eb5b9744cae31068b68f3342a49cc10476"
+- name: "ChaosUTMedia1.u"
+  fileSize: 13267018
+  hash: "af5eb3e8118242cfd6c8c7a5a15668c073827be0"
+- name: "city.utx"
+  fileSize: 5839832
+  hash: "e9286e731a065ac763ca36ee4faa9b849654d320"
+- name: "Metalmys.utx"
+  fileSize: 2120445
+  hash: "2678a4d37876f212456589dcd883ab2239452ffa"
+- name: "Coret_FX.utx"
+  fileSize: 1024846
+  hash: "c5cc6701885ba74abc1f772fd6b8a6c95690bc31"
+otherFiles: 0
+dependencies:
+  DM[SP]AfterHours][.unr:
+  - status: "OK"
+    name: "city"
+  - status: "MISSING"
+    name: "Uzi"
+  - status: "MISSING"
+    name: "Assualt"
+  - status: "OK"
+    name: "Metalmys"
+  - status: "MISSING"
+    name: "BatWing"
+  - status: "MISSING"
+    name: "BoomDarts"
+  - status: "MISSING"
+    name: "AmbCity"
+  - status: "MISSING"
+    name: "RebelMac"
+  - status: "OK"
+    name: "Coret_FX"
+  - status: "OK"
+    name: "SP_SevenNationArmy"
+  - status: "MISSING"
+    name: "SPFleshbomb"
+  - status: "MISSING"
+    name: "Assault_G11"
+  ChaosUTMedia1.u:
+  - status: "OK"
+    name: "Chaostex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/S/8/8/4d6803/DM%5BSP%5DAfterHours%5D%5B.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "[SP] After Hours"
+playerCount: "10 - 16"
+themes:
+  Tech: 0.7
+  City: 0.3
+bots: true

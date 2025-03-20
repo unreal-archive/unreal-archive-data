@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-21 07:38"
+game: "Unreal"
+name: "MH-[SP]OldUnreal"
+author: "Rubie"
+description: "Entry To The Oldunreal World"
+releaseDate: "2020-11"
+attachments: []
+originalFilename: "MH-[SP]OldUnreal.zip"
+hash: "ff6aec1a70d444dfe0c294c3e0e75947f915bc79"
+fileSize: 8590409
+files:
+- name: "LampRubie01.u"
+  fileSize: 2659
+  hash: "b1f833721f443dcbc06252acac67f3a219618c46"
+- name: "Neve.umx"
+  fileSize: 704465
+  hash: "4f1fbaa2f96569f57e5d2a4d3b2e04bcc47b6303"
+- name: "Animal_PACK1.u"
+  fileSize: 2192402
+  hash: "08067207103da3bef9656aa1ffafd23a105632d2"
+- name: "MH-[SP]OldUnreal.unr"
+  fileSize: 22586699
+  hash: "64bc8cabe5f78cfb38b43d1071a15a71b8ddb787"
+- name: "Flare.utx"
+  fileSize: 46440
+  hash: "1a903b00399786df5be83926814500b33e433037"
+- name: "TreePack1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+otherFiles: 0
+dependencies:
+  LampRubie01.u:
+  - status: "MISSING"
+    name: "Rubie1"
+  MH-[SP]OldUnreal.unr:
+  - status: "MISSING"
+    name: "SP_XidiaMPack"
+  - status: "MISSING"
+    name: "SP_MonsterHunt"
+  - status: "OK"
+    name: "LampRubie01"
+  - status: "MISSING"
+    name: "SP_GhandiWeapons"
+  - status: "OK"
+    name: "Animal_PACK1"
+  - status: "OK"
+    name: "Flare"
+  - status: "OK"
+    name: "TreePack1"
+  - status: "MISSING"
+    name: "SPUpak"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Sniper's%20Paradise%20Monster%20Hunt/O/f/f/6aec1a/MH-%5BSP%5DOldUnreal.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Sniper's Paradise Monster Hunt"
+title: "MH-[SP]Old Unrel World"
+playerCount: "4-12"
+themes:
+  Natural: 0.2
+  Nali Castle: 0.6
+  Skaarj Tech: 0.1
+bots: true
