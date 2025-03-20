@@ -1,0 +1,39 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2025-03-20 08:22"
+game: "Unreal"
+name: "Chrek"
+author: "Unknown"
+description: "None"
+releaseDate: "2012-01"
+attachments: []
+originalFilename: "Spchreks.zip"
+hash: "e496c39fe4d204a152e5c935dfd7ac57cb0194eb"
+fileSize: 4303607
+files:
+- name: "chrekskins.utx"
+  fileSize: 1836215
+  hash: "f8501f38feab84a1ddc92c9d33be8c717570eaab"
+- name: "Chreksounds.uax"
+  fileSize: 2523237
+  hash: "e49d26d07aa42e07245d2943b2478fcbe83fc7c4"
+- name: "SPChreks.u"
+  fileSize: 1309381
+  hash: "31b7f09742bda3cacbf1fee24a50909f3d06d79e"
+otherFiles: 1
+dependencies:
+  SPChreks.u:
+  - status: "OK"
+    name: "Chreksounds"
+  - status: "OK"
+    name: "chrekskins"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Models/C/e/4/96c39f/Spchreks.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Chrek"
+skins: []
