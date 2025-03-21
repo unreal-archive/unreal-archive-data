@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-19 18:50"
+game: "Unreal Tournament"
+name: "DM_Wisdom_library"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2025-03"
+attachments: []
+originalFilename: "DM_Wisdom_Library.rar"
+hash: "800eeac1855164c683d4b9cf3a69af028585c016"
+fileSize: 11815776
+files:
+- name: "Skybox01.utx"
+  fileSize: 375042
+  hash: "f567d124aaa6d7c3ca55d74ef617642f0da8c7bd"
+- name: "ATLiquids.utx"
+  fileSize: 6881
+  hash: "070a35565d5eead5c848a9558f3efc5b61e44cde"
+- name: "DM_Wisdom_library.unr"
+  fileSize: 19153669
+  hash: "4bf1897dedfab4da955963d3abce82a86252b8d4"
+otherFiles: 0
+dependencies:
+  DM_Wisdom_library.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "Skybox01"
+  - status: "OK"
+    name: "ATLiquids"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/W/8/0/0eeac1/DM_Wisdom_Library.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM_Wisdom_library"
+playerCount: "Unknown"
+themes:
+  Natural: 1.0
+bots: true
