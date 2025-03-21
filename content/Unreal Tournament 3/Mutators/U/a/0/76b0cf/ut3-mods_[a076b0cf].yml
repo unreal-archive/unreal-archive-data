@@ -1,0 +1,67 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-03-20 20:14"
+game: "Unreal Tournament 3"
+name: "UT3 Mods"
+author: "Unknown"
+description: "None"
+releaseDate: "2024-08"
+attachments: []
+originalFilename: "UT3_Mods.zip"
+hash: "a076b0cf0a6ff77c08e18f5a264c0046bc670194"
+fileSize: 230565
+files:
+- name: "UTPickupFactoryMovable.u"
+  fileSize: 39723
+  hash: "04161f85eef52d870b3b1cb3d54a5cad8d7fe5fa"
+- name: "MovementMutator.u"
+  fileSize: 5612
+  hash: "1d08f53d49c38e830f60be86c541104d10d761a8"
+- name: "FastWeaponSwitch.u"
+  fileSize: 2616
+  hash: "b5575693ac2d7d78320684101f1eaa5bc0d50a47"
+- name: "HitboxMutator.u"
+  fileSize: 3474
+  hash: "e5fd61df7ae46fec0f3be7a5296d034ca060a14c"
+- name: "SuperShockRifle.u"
+  fileSize: 10703
+  hash: "54844044a86f8600420eb4b8ac563074305e3b48"
+- name: "SuperShockRifleContent.upk"
+  fileSize: 370521
+  hash: "f11cc273c709f5ca5ffc3a59d3d875bf11268836"
+- name: "VehiclePickup.u"
+  fileSize: 105174
+  hash: "01c616782cffde87a7264410ea22122862b5b273"
+- name: "MultiDodgeV2.u"
+  fileSize: 24966
+  hash: "62f897a5e1d3d6474ad5f75907fc5419bc2d0065"
+- name: "MultiDodgeV2Content.upk"
+  fileSize: 129478
+  hash: "72862e9ee5aff50e13b08e88383986d6cfa38903"
+otherFiles: 7
+dependencies:
+  SuperShockRifle.u:
+  - status: "OK"
+    name: "SuperShockRifleContent"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%203/Mutators/U/a/0/76b0cf/UT3_Mods.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Movement Mutator"
+  description: "Change JumpZ, DodgeSpeed, DodgeSpeedZ, Gravity, and Air Control"
+- name: "Multi dodge V2"
+  description: "Multi jump + Multi dodge options"
+- name: "Hitbox mutator"
+  description: "modify player hitboxes"
+- name: "MutFastWeaponSwitch"
+  description: ""
+- name: "Vehicle Pickup"
+  description: "Collect pickups by driving over them"
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
