@@ -1,0 +1,64 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2025-03-27 03:16"
+game: "Unreal Tournament"
+name: "Centauress"
+author: "opponents."
+description: "None"
+releaseDate: "2002-10"
+attachments:
+- type: "IMAGE"
+  name: "centauress_shot_6b7242b3_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/C/6/b/7242b3/centauress_shot_6b7242b3_1.png"
+originalFilename: "centauress.zip"
+hash: "6b7242b3a0c7c4b525637848b5e746ae22be3ffc"
+fileSize: 4411048
+files:
+- name: "jersword.u"
+  fileSize: 1640894
+  hash: "64adb85ba4101cdafdd2da1a32f1ef0bbbf63995"
+- name: "jerswordarena.u"
+  fileSize: 767
+  hash: "fb9ab03456f7cf490e33075f57bd883db599ff2d"
+- name: "jerswordmelee.u"
+  fileSize: 712
+  hash: "034fd01b11ce1f2fa374bccf8531b58b9a728755"
+- name: "Centauress.umod"
+  fileSize: 7197091
+  hash: "ee6983a0fca30965778ef2a7084198046c677cb1"
+- name: "fcentaurSkins.utx"
+  fileSize: 2217370
+  hash: "a113f37f49986b1f1b7a982cb023b6956d837cc7"
+- name: "fcentaur.u"
+  fileSize: 3298110
+  hash: "17993b87ae4c0c1dd3ad592e0c757e5ce52adaba"
+- name: "EWM.u"
+  fileSize: 2295
+  hash: "15b93e5f688432842354fec4f3590a8204134a4a"
+otherFiles: 7
+dependencies:
+  jersword.u:
+  - status: "OK"
+    name: "EWM"
+  jerswordarena.u:
+  - status: "OK"
+    name: "jersword"
+  fcentaur.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+  jerswordmelee.u:
+  - status: "OK"
+    name: "jersword"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Models/C/6/b/7242b3/centauress.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Centauress"
+skins:
+- "Centauress"
+- "Alanna"
+- "Dya"
