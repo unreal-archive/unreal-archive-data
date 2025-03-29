@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-25 11:06"
+game: "Unreal Tournament"
+name: "Ortican"
+author: "Sjoerd \"Hourences\" De Jong"
+description: "None"
+releaseDate: "2001-11"
+attachments:
+- type: "IMAGE"
+  name: "ortican_shot_2c623e5c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/O/2/c/623e5c/ortican_shot_2c623e5c_1.png"
+originalFilename: "Ortican_unr.zip"
+hash: "2c623e5cc67bc4d7f8ea97ef73e31b105ae44d8e"
+fileSize: 6194801
+files:
+- name: "Dynatrig.u"
+  fileSize: 5695
+  hash: "bd6bd89c0f6f2e99fb299e5dcba734590f2f5ed6"
+- name: "Unreal4.umx"
+  fileSize: 939568
+  hash: "89a64713a808ccd31a4885f6d0cbd3538e7ddcc3"
+- name: "Ortican.unr"
+  fileSize: 15053870
+  hash: "d18e85c38decc09c27ad2a2b953f1d35e79db8ab"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+otherFiles: 1
+dependencies:
+  Ortican.unr:
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "Dynatrig"
+  - status: "OK"
+    name: "Unreal4"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/O/2/c/623e5c/Ortican_unr.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "Ortican"
+playerCount: "1-4"
+themes:
+  Tech: 0.1
+  Natural: 0.3
+  Skaarj Tech: 0.5
+  Nali Castle: 0.1
+bots: true
