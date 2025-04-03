@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-02 08:02"
+game: "Unreal Tournament"
+name: "CTF3-Triton"
+author: "Koolflux"
+description: "None"
+releaseDate: "2021-04"
+attachments:
+- type: "IMAGE"
+  name: "ctf3-triton_shot_734bd1de_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/7/3/4bd1de/ctf3-triton_shot_734bd1de_1.png"
+originalFilename: "CTF3-Triton.zip"
+hash: "734bd1de7f5ccdc497289a67926e3384a5b66117"
+fileSize: 8117474
+files:
+- name: "MultiCTF.u"
+  fileSize: 603010
+  hash: "0ea3bfc29b60617cedf5f93a361e0e6df501c4e1"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "CTF4Team.utx"
+  fileSize: 2181759
+  hash: "23eb1eb571515c4b945d996084e2c1f163f8182c"
+- name: "CTF3-Triton.unr"
+  fileSize: 3829311
+  hash: "9912c983860b226812be293fe4d7137f9e0106f3"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "MultiCTFTex.utx"
+  fileSize: 941080
+  hash: "3b48af6bf2f50d2d4583f4e11ab65c0d903d3cb8"
+- name: "flagbasejrm1.u"
+  fileSize: 357257
+  hash: "6cd4410c1d58d712d811cdd705823f0bab6979f1"
+otherFiles: 2
+dependencies:
+  flagbasejrm1.u:
+  - status: "OK"
+    name: "SGTech1"
+  CTF3-Triton.unr:
+  - status: "OK"
+    name: "flagbasejrm1"
+  - status: "OK"
+    name: "CTF4Team"
+  - status: "OK"
+    name: "MultiCTFTex"
+  - status: "OK"
+    name: "MultiCTF"
+  - status: "OK"
+    name: "swJumpPad"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/0/7/3/4bd1de/CTF3-Triton.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "MultiTeam CTF"
+title: "Triton Station 9"
+playerCount: "Ideal for 12 to 16"
+themes:
+  Tech: 1.0
+bots: true
