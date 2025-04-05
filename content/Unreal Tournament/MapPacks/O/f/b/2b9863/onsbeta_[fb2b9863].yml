@@ -1,0 +1,122 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2024-02-24 02:45"
+game: "Unreal Tournament"
+name: "Onsbeta"
+author: "Various"
+description: "None"
+releaseDate: "2007-12"
+attachments:
+- type: "IMAGE"
+  name: "onsbeta_shot_fb2b9863_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/f/b/2b9863/onsbeta_shot_fb2b9863_2.png"
+- type: "IMAGE"
+  name: "onsbeta_shot_fb2b9863_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/f/b/2b9863/onsbeta_shot_fb2b9863_3.png"
+- type: "IMAGE"
+  name: "onsbeta_shot_fb2b9863_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/f/b/2b9863/onsbeta_shot_fb2b9863_1.png"
+originalFilename: "onsbeta.zip"
+hash: "fb2b986336ae5be0a403dbaea999cdfd9d8c3c71"
+fileSize: 11366152
+files:
+- name: "MPUK.utx"
+  fileSize: 45292
+  hash: "64884eaef4bd03738119713d7871af464686fac3"
+- name: "onslaughtbeta.u"
+  fileSize: 831075
+  hash: "f7643ddbcd447e2636db27ef9e2decda6fd017eb"
+- name: "UO-UTownsQuake.unr"
+  fileSize: 1544014
+  hash: "4f65d9034e678b24323c52f4e8dded4e660a91eb"
+- name: "OnslaughtVehiclesBeta.u"
+  fileSize: 2767088
+  hash: "2def70e2a81fecd934e743c30bdf9a0d2bc249f7"
+- name: "UO-HallBlast.unr"
+  fileSize: 173282
+  hash: "020b9c954d54aa3c74bb42da5f17e17225be1d3b"
+- name: "UO-ThornsVcs.unr"
+  fileSize: 1598182
+  hash: "c0b50271d669d908ea6404ce9eb96440b0256d49"
+- name: "UO-Box.unr"
+  fileSize: 112007
+  hash: "5524c1245466016489f2a2c1438d663213b205fe"
+- name: "Sonic3.umx"
+  fileSize: 4764886
+  hash: "66d021e33c5e6e54d81ce500e998e23296c170a2"
+- name: "Fla22k_02.umx"
+  fileSize: 2176405
+  hash: "47d28117347d6251cbf1d9cc17295a723b91a5e9"
+- name: "UO-((MoonRun)).unr"
+  fileSize: 1153858
+  hash: "525461e3008f91ecfa58a0e79a3ddc261df8afe9"
+- name: "HaloTex.utx"
+  fileSize: 2334380
+  hash: "2c280237b21a9281178643756cf94e1b478fc6f0"
+otherFiles: 3
+dependencies:
+  onslaughtbeta.u:
+  - status: "OK"
+    name: "onslaughtvehiclesbeta"
+  UO-((MoonRun)).unr:
+  - status: "OK"
+    name: "onslaughtbeta"
+  - status: "OK"
+    name: "onslaughtvehiclesbeta"
+  - status: "OK"
+    name: "MPUK"
+  UO-ThornsVcs.unr:
+  - status: "OK"
+    name: "onslaughtbeta"
+  - status: "OK"
+    name: "onslaughtvehiclesbeta"
+  UO-UTownsQuake.unr:
+  - status: "OK"
+    name: "onslaughtvehiclesbeta"
+  - status: "OK"
+    name: "onslaughtbeta"
+  UO-Box.unr:
+  - status: "OK"
+    name: "onslaughtvehiclesbeta"
+  - status: "OK"
+    name: "Fla22k_02"
+  - status: "OK"
+    name: "onslaughtbeta"
+  UO-HallBlast.unr:
+  - status: "OK"
+    name: "onslaughtvehiclesbeta"
+  - status: "OK"
+    name: "Sonic3"
+  - status: "OK"
+    name: "HaloTex"
+  - status: "OK"
+    name: "onslaughtbeta"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/O/f/b/2b9863/onsbeta.zip"
+  direct: true
+  state: "OK"
+links: {}
+deleted: false
+maps:
+- name: "UO-Box"
+  title: "UO-Box"
+  author: "Unknown"
+- name: "UO-UTownsQuake"
+  title: "Quake Map: I don't know name"
+  author: "BlackCheetah"
+- name: "UO-((MoonRun))"
+  title: "((Moon Run )) i4g Insta Low Grav Edition"
+  author: "[i4g]CouilleNoire & www.mcswolverine.20m.com"
+- name: "UO-HallBlast"
+  title: "UO-HallBlast"
+  author: "Unknown"
+- name: "UO-ThornsVcs"
+  title: "Prelude abyss"
+  author: "Cursed_Soul"
+gametype: "Unknown"
+themes:
+  Nali Temple: 0.1
+  Skaarj Crypt: 0.1
+  Natural: 0.1
+  Industrial: 0.5
+  Egyptian: 0.2
