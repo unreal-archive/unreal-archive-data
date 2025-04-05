@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-03-29 18:20"
+game: "Unreal Tournament"
+name: "MH-[LineARC]Unreal_Planet"
+author: "Torus/Fixed by Barbie"
+description: "Torus Map Designs"
+releaseDate: "2025-03"
+attachments:
+- type: "IMAGE"
+  name: "mh-linearcunreal_planet_shot_41a2023a_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/4/1/a2023a/mh-linearcunreal_planet_shot_41a2023a_2.png"
+- type: "IMAGE"
+  name: "mh-linearcunreal_planet_shot_41a2023a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/4/1/a2023a/mh-linearcunreal_planet_shot_41a2023a_1.png"
+originalFilename: "MH-[LineARC]Unreal_PlanetV2.zip"
+hash: "41a2023a6fe371cee40a6c23c2368e212768ce66"
+fileSize: 63987167
+files:
+- name: "MH-[LineARC]Unreal_Planet.unr"
+  fileSize: 1833874
+  hash: "04c3be4d106cb8dcdde82bc5a0421788c1e0b2c0"
+- name: "FINALITY.umx"
+  fileSize: 650801
+  hash: "a3978d1def2c87949b797b150c37f979ae6c3020"
+- name: "DestinationEarth.umx"
+  fileSize: 1697535
+  hash: "7fa8b9e30e4e4935ff06f7843a93f5f41ea5ca8a"
+- name: "LineARC.utx"
+  fileSize: 100360927
+  hash: "44285748b33fcc9cfd047b7848b5eecf80af0231"
+- name: "ZenTextures.utx"
+  fileSize: 7449423
+  hash: "4f6e7da208dc35535abb92b1cdb3c49a7a987b9c"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MaximusbyTerrraniux.umx"
+  fileSize: 7651561
+  hash: "99221efcefaaabc5cd18080779002d56c06591fa"
+otherFiles: 2
+dependencies:
+  MH-[LineARC]Unreal_Planet.unr:
+  - status: "OK"
+    name: "ZenTextures"
+  - status: "MISSING"
+    name: "Fluid"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "MaximusbyTerrraniux"
+  - status: "OK"
+    name: "FINALITY"
+  - status: "OK"
+    name: "DestinationEarth"
+  - status: "OK"
+    name: "LineARC"
+  LineARC.utx:
+  - status: "MISSING"
+    name: "ONPFootsteps"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/4/1/a2023a/MH-%5BLineARC%5DUnreal_PlanetV2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Unreal Planet"
+playerCount: "6"
+themes:
+  Natural: 1.0
+bots: true
