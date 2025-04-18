@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-18 13:55"
+game: "Unreal Tournament"
+name: "CTF-LavaGiant[L]"
+author: "Lethal"
+description: "Lava Giant by Lethal"
+releaseDate: "2003-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-lavagiantl_shot_078d56a9_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/0/7/8d56a9/ctf-lavagiantl_shot_078d56a9_1.png"
+originalFilename: "CTF-LavaGiant[L].zip"
+hash: "078d56a988f8816c46cee0fd3cbf7385f77e72fe"
+fileSize: 989882
+files:
+- name: "CTF-LavaGiant[L].unr"
+  fileSize: 1630871
+  hash: "8bfa6f1a5f419695b7eeac24893a972f427799ef"
+- name: "cf_mansion.utx"
+  fileSize: 578640
+  hash: "db8264a849815726fa67539509fb95c3972b870f"
+otherFiles: 0
+dependencies:
+  CTF-LavaGiant[L].unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "cf_mansion"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/L/0/7/8d56a9/CTF-LavaGiant%5BL%5D.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Lava Giant by Lethal"
+playerCount: "4-16"
+themes:
+  Natural: 0.5
+  Tech: 0.1
+  Industrial: 0.3
+bots: true
