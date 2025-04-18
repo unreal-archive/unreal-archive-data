@@ -1,0 +1,76 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-04-12 07:32"
+game: "Unreal Tournament"
+name: "PSI Weapon Dreams 1.02"
+author: "Torok 'Psi-Shock' Zsolt"
+description: "None"
+releaseDate: "2003-05"
+attachments:
+- type: "IMAGE"
+  name: "psiweapondreams-v102_shot_e8567985_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/P/e/8/567985/psiweapondreams-v102_shot_e8567985_3.png"
+- type: "IMAGE"
+  name: "psiweapondreams-v102_shot_e8567985_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/P/e/8/567985/psiweapondreams-v102_shot_e8567985_2.png"
+- type: "IMAGE"
+  name: "psiweapondreams-v102_shot_e8567985_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/P/e/8/567985/psiweapondreams-v102_shot_e8567985_1.png"
+originalFilename: "psiweapondreams_v102.zip"
+hash: "e85679858f3ae55f48d705e3bf2036571923d9d3"
+fileSize: 5825163
+files:
+- name: "Psi Weapon Dreams 1.02.umod"
+  fileSize: 11620422
+  hash: "3d6ab69cd0702d5f1f6da61979483d79562a761f"
+- name: "Fisk.u"
+  fileSize: 748438
+  hash: "13e43546618b93b51ff98618975c7100598bc215"
+- name: "FiskSkins.u"
+  fileSize: 184881
+  hash: "b00231188235a9588203060f053bec853a70fcfc"
+- name: "Psi.u"
+  fileSize: 635237
+  hash: "32a771119dc1339f876462d21cade8b95e8f97d1"
+- name: "PsiSource.u"
+  fileSize: 9956089
+  hash: "b7142a387c52c0ba2697585263f6b27fee6f92ea"
+otherFiles: 7
+dependencies:
+  Psi.u:
+  - status: "OK"
+    name: "PsiSource"
+  Fisk.u:
+  - status: "MISSING"
+    name: "AdvancedModelSupport"
+  FiskSkins.u:
+  - status: "OK"
+    name: "Fisk"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/P/e/8/567985/psiweapondreams_v102.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: " PSI Weapon Dreams 1.02"
+  description: " UT Modification by Torok 'Psi-Shock' Zsolt"
+- name: "Relic: Psi Speed"
+  description: " Use only with psi mute."
+- name: "Relic: Psi Defense"
+  description: " Use only with psi mute."
+- name: "Relic: Psi Strength"
+  description: " Use only with psi mute."
+- name: "Relic: Psi Vengeance"
+  description: " Use with anything."
+- name: "Relic: Psi Poison"
+  description: " Use only with psi mute."
+- name: "Relic: Psi Titans"
+  description: " Use only with psi mute."
+- name: "Relic: Psi Hellspeed"
+  description: " Use only with psi mute."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
