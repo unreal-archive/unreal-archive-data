@@ -1,0 +1,41 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-18 13:48"
+game: "Unreal Tournament"
+name: "DM-Subway"
+author: "Ablaze"
+description: "None"
+releaseDate: "2002-07"
+attachments: []
+originalFilename: "subway.zip"
+hash: "ae931abbab5403ad8f50c1f782a20a4b94720cfd"
+fileSize: 497441
+files:
+- name: "Deck16.utx"
+  fileSize: 156016
+  hash: "90f7c08cdb6b276706503006d040ab5aa5d44ac3"
+- name: "DM-Subway.unr"
+  fileSize: 1795185
+  hash: "1ffc5f24501037d612cd61d6add82b94510d36e3"
+otherFiles: 0
+dependencies:
+  DM-Subway.unr:
+  - status: "OK"
+    name: "Deck16"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/a/e/931abb/subway.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Subway"
+playerCount: "6"
+themes:
+  Tech: 0.3
+  Industrial: 0.3
+  Skaarj Tech: 0.3
+bots: true
