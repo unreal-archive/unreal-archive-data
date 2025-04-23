@@ -1,0 +1,68 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-04-18 14:03"
+game: "Unreal"
+name: "DM MortalTerm"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-05"
+attachments: []
+originalFilename: "DM-MortalTerm.zip"
+hash: "792c92d629b7b275a3c6899ee6ab696e47b0c2a4"
+fileSize: 2564257
+files:
+- name: "DM-mortal.unr"
+  fileSize: 482956
+  hash: "8f7aea4edd411afcf3ad6253cca31f7c45521d4f"
+- name: "DM-term.unr"
+  fileSize: 382410
+  hash: "db84214c8df5b0ca6f4ad3357e9cdb502541b1d9"
+- name: "CTF4Team.utx"
+  fileSize: 2918421
+  hash: "1812064a7f8f14b0d9ffe1e114d2992ac05e4b8d"
+otherFiles: 0
+dependencies:
+  DM-term.unr:
+  - status: "MISSING"
+    name: "Egypt"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "EgyptPan"
+  - status: "MISSING"
+    name: "DDayFX"
+  DM-mortal.unr:
+  - status: "MISSING"
+    name: "eol"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "MISSING"
+    name: "Egypt"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "Crypt_FX"
+  - status: "OK"
+    name: "CTF4Team"
+  - status: "MISSING"
+    name: "EgyptPan"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/D/7/9/2c92d6/DM-MortalTerm.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-mortal"
+  title: "DM-mortal"
+  author: "Unknown"
+- name: "DM-term"
+  title: "DM-term"
+  author: "Unknown"
+gametype: "DeathMatch"
+themes:
+  Skaarj Crypt: 0.5
+  Egyptian: 0.5

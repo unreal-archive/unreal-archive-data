@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-04-18 14:03"
+game: "Unreal Tournament"
+name: "DM-Constantin_Mansion"
+author: "Mr.Paci"
+description: "None"
+releaseDate: "2003-02"
+attachments:
+- type: "IMAGE"
+  name: "dm-constantin_mansion_shot_8169ea75_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/8/1/69ea75/dm-constantin_mansion_shot_8169ea75_1.png"
+originalFilename: "dm-constmans.zip"
+hash: "8169ea752af48a58db88ce5358afc7ffb92c4127"
+fileSize: 3095098
+files:
+- name: "Other.utx"
+  fileSize: 667207
+  hash: "0df996b953a5751b93592080eb0a6a9acbdd8f14"
+- name: "DM-Constantin_Mansion.unr"
+  fileSize: 8368872
+  hash: "a8ae52ba632e49e8975c8c1f4021f68c540a998f"
+- name: "Raintune.umx"
+  fileSize: 404150
+  hash: "08b5cd453dc236178c59e8af401afdc27a0260a3"
+otherFiles: 0
+dependencies:
+  DM-Constantin_Mansion.unr:
+  - status: "OK"
+    name: "Raintune"
+  - status: "OK"
+    name: "Other"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/8/1/69ea75/dm-constmans.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Constantin Mansion"
+playerCount: "12-32"
+themes:
+  Nali Temple: 0.2
+  Natural: 0.2
+  Nali Castle: 0.3
+  Ancient: 0.4
+bots: true
