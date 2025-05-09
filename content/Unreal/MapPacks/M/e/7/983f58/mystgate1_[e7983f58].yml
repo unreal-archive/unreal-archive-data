@@ -1,0 +1,96 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-04-24 04:48"
+game: "Unreal"
+name: "Mysteriors Gate"
+author: "Mr.Paci"
+description: "None"
+releaseDate: "2003-10"
+attachments: []
+originalFilename: "MystGate1.rar"
+hash: "e7983f58aa109858ac21d7f6f29b96907cb07368"
+fileSize: 5334052
+files:
+- name: "01_Temple.unr"
+  fileSize: 3094237
+  hash: "6c9bdac36cade9410c9c53b7189e401648869ec0"
+- name: "00_Escape.unr"
+  fileSize: 857048
+  hash: "ecec98d504b963dc95e482e65d2ce093e3fbf541"
+- name: "MGSkin.utx"
+  fileSize: 1073835
+  hash: "745ac03fbce31979d55246e0c00c822298b69742"
+- name: "01_Spire.unr"
+  fileSize: 2578687
+  hash: "8d4870cbc28ad746597928dd0f1199b5be1f076f"
+- name: "Egypt.utx"
+  fileSize: 1574033
+  hash: "982ba291c89f4312129315e1d6a2e237201e6dee"
+- name: "01_Village.unr"
+  fileSize: 4719037
+  hash: "495e0de8243ed2474a0efa71480d40b472fc80b7"
+- name: "00_Intro.unr"
+  fileSize: 265781
+  hash: "a60fbb9923769463917b570fcb424c10128184ab"
+- name: "01_Mountains.unr"
+  fileSize: 1220674
+  hash: "c4f503e3bc85f6e135aaf0fb838e4bf91c0c6dc3"
+- name: "01_SkyShip.unr"
+  fileSize: 1731858
+  hash: "322c9e92e528813a978b44fb80391f81b2603677"
+otherFiles: 1
+dependencies:
+  "01_Temple.unr":
+  - status: "OK"
+    name: "MGSkin"
+  "01_SkyShip.unr":
+  - status: "OK"
+    name: "MGSkin"
+  - status: "OK"
+    name: "Egypt"
+  "01_Spire.unr":
+  - status: "OK"
+    name: "MGSkin"
+  "00_Intro.unr":
+  - status: "OK"
+    name: "MGSkin"
+  "01_Mountains.unr":
+  - status: "OK"
+    name: "MGSkin"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/M/e/7/983f58/MystGate1.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "01_Temple"
+  title: "Madehiten - Chirzed Temple"
+  author: "Mr.Paci"
+- name: "00_Escape"
+  title: "Escape from Baltar"
+  author: "Mr.Paci"
+- name: "01_Spire"
+  title: "Madehiten - Mystic Spire"
+  author: "Mr.Paci"
+- name: "01_Village"
+  title: "Madehiten - Chiris Village"
+  author: "Mr.Paci"
+- name: "00_Intro"
+  title: "Intro"
+  author: "Mr.Paci"
+- name: "01_Mountains"
+  title: "Madehiten - Mountains of Secret"
+  author: "Mr.Paci"
+- name: "01_SkyShip"
+  title: "Kralls Ship"
+  author: "Mr.Paci"
+gametype: "Single Player"
+themes:
+  Nali Temple: 0.4
+  Tech: 0.1
+  Natural: 0.1
+  Nali Castle: 0.2
+  Skaarj Tech: 0.3
+  Egyptian: 0.1
