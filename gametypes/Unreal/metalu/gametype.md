@@ -1,5 +1,3 @@
-## About
-
 Metal is an Arena Shooter game developed by the independent Developer and Publisher; Idigicon Limited (Based in the UK) in 2002. The game
 has a strong connection to Quake 3 and some minor resemblance to Unreal Tournament 1999.
 
@@ -23,7 +21,7 @@ The extras include:
   - More Pickups = Metal maps but with more pickups placed.
 - New items: Rocket Pack, Jumpboots, and a Railgun analog called the Desintegrator + Desintegrator Skins
 
-### FAQ
+#### FAQ
 
 - Will it work with UT?
   - No. Not even with the newest UT patch out. (469d)
