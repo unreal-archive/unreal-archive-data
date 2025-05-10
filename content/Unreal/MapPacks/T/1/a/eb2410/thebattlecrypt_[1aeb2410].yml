@@ -1,0 +1,53 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-04-24 04:48"
+game: "Unreal"
+name: "The Battle Crypt"
+author: "SKULL"
+description: "None"
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "Thebattlecrypt.zip"
+hash: "1aeb241033a7eb90fae225154511d617b3227582"
+fileSize: 1838413
+files:
+- name: "The battle crypt.unr"
+  fileSize: 1114217
+  hash: "3ea683267b84d507cda6955aa94e186a6bf2c190"
+- name: "Moons.utx"
+  fileSize: 134011
+  hash: "013f5e268da4df9bbdbe270822e2433d3a417173"
+- name: "Egypt.utx"
+  fileSize: 1574033
+  hash: "982ba291c89f4312129315e1d6a2e237201e6dee"
+- name: "The Battlecrypt2.unr"
+  fileSize: 372155
+  hash: "d4ac7e6860e8da368036de27e651b9015967c199"
+otherFiles: 0
+dependencies:
+  The Battlecrypt2.unr:
+  - status: "OK"
+    name: "Moons"
+  - status: "OK"
+    name: "Egypt"
+  The battle crypt.unr:
+  - status: "OK"
+    name: "Egypt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/T/1/a/eb2410/Thebattlecrypt.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "The battle crypt"
+  title: "Bloody Tomb"
+  author: "SKULL"
+- name: "The Battlecrypt2"
+  title: "Crypt Severs"
+  author: "SKULL"
+gametype: "Single Player"
+themes:
+  Nali Temple: 0.5
+  Egyptian: 0.5
