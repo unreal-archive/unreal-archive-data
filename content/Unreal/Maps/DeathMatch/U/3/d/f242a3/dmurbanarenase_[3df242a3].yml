@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-19 06:40"
+game: "Unreal"
+name: "DMUrbanarenaSE"
+author: "akuma(matrix)"
+description: "only the strong survive"
+releaseDate: "2025-05"
+attachments: []
+originalFilename: "dmurbanarenase_a3tfix.zip"
+hash: "3df242a3600c591130134ebf2a9eaf6c66dcb9d6"
+fileSize: 2916484
+files:
+- name: "a3text.utx"
+  fileSize: 3068539
+  hash: "7cdbb4ed5f583d97aae41d76af9e8755c690cbdd"
+- name: "DMUrbanarenaSE.unr"
+  fileSize: 2113690
+  hash: "d904ae7d30340c726863d73cdf8fefbb483ab50a"
+- name: "a3extra.utx"
+  fileSize: 200436
+  hash: "2953891e2419f34cfbccab3aa042347cfa234f33"
+- name: "dmurbsoundfx.uax"
+  fileSize: 60832
+  hash: "cfe4391c026108738665a6338b5b797177c0ed9f"
+otherFiles: 1
+dependencies:
+  DMUrbanarenaSE.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "a3extra"
+  - status: "OK"
+    name: "dmurbsoundfx"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/U/3/d/f242a3/dmurbanarenase_a3tfix.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DMUrbanarenaSE"
+playerCount: "4-8"
+themes:
+  Skaarj Tech: 0.5
+  City: 0.5
+bots: true
