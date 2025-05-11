@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-16 04:54"
+game: "Unreal Tournament 2004"
+name: "DM-Erase"
+author: "Nic3r"
+description: "Demake UT4. This map ported from UT4."
+releaseDate: "2025-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-erase_shot_84e6adff_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/E/8/4/e6adff/dm-erase_shot_84e6adff_1.png"
+originalFilename: "ERASE UT4.rar"
+hash: "84e6adff0649a692752359ad1019e52d2c71f255"
+fileSize: 41129798
+files:
+- name: "koFS.utx"
+  fileSize: 12584086
+  hash: "3165c71feb75fbaf79f86ffbd496eae6599421c3"
+- name: "unt99.utx"
+  fileSize: 92705300
+  hash: "23b3fd46fe92e18d3d129a57a7c05c7be4ebe68f"
+- name: "DM-Erase.ut2"
+  fileSize: 14070769
+  hash: "ac69dc9fa2da81106ced0975e36d50d0d8c16c8f"
+otherFiles: 1
+dependencies:
+  DM-Erase.ut2:
+  - status: "OK"
+    name: "koFS"
+  - status: "MISSING"
+    name: "minimegatex"
+  - status: "OK"
+    name: "unt99"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/E/8/4/e6adff/ERASE%20UT4.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Erase"
+playerCount: "2-4"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true
