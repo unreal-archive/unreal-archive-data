@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-26 18:11"
+game: "Unreal Tournament"
+name: "DM_Oneiros_dream"
+author: "Nikola-(DOG)-"
+description: "None"
+releaseDate: "2025-05"
+attachments: []
+originalFilename: "DM_Oneiros_dream.zip"
+hash: "2ca09c8a3353fb07466ce173f6755a5f03948ed0"
+fileSize: 26216251
+files:
+- name: "DM_Oneiros_dream.unr"
+  fileSize: 32343440
+  hash: "6e3a0fcfba3d5c622ca35e7a1db3daafc33b61d4"
+- name: "OneirosExB.utx"
+  fileSize: 4610699
+  hash: "98b3ec51ddc7414a899407e4def4574fce837338"
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+otherFiles: 0
+dependencies:
+  DM_Oneiros_dream.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "ParticleTexs"
+  - status: "OK"
+    name: "OneirosExB"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/O/2/c/a09c8a/DM_Oneiros_dream.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Dm_Oneiros_dream"
+playerCount: "Unknown"
+themes: {}
+bots: true
