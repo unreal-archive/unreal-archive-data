@@ -1,0 +1,67 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-05-28 22:58"
+game: "Unreal Tournament 2004"
+name: "Walking Death replacer"
+author: "Unknown"
+description: "Replace any vehicle with the Walking Death"
+releaseDate: "2015-02"
+attachments: []
+originalFilename: "Walking_Death.zip"
+hash: "a1e1d682e17e6c4c9e5aec012709c5b1aa242fab"
+fileSize: 9098577
+files:
+- name: "DC_Walker_A.ukx"
+  fileSize: 2487887
+  hash: "aa7fd874299efd5f23912e3a4ce662b5b6297624"
+- name: "DC_Walker_S.uax"
+  fileSize: 475951
+  hash: "b143df1143f83cf56b0439afdd18ccaa12057f9d"
+- name: "DC_Walker.u"
+  fileSize: 121899
+  hash: "10546d3798f2bb8ffbf7ad6b7b3bb1ee79bc71f6"
+- name: "DC_Walker_T.utx"
+  fileSize: 7518486
+  hash: "44f03a8f111fc2cb566fe64ce1b57912188fbd0c"
+- name: "DC_Walker_C.usx"
+  fileSize: 1953124
+  hash: "30d24caa6efdee211a93318d9e2a4f9798bc91c8"
+otherFiles: 1
+dependencies:
+  DC_Walker.u:
+  - status: "OK"
+    name: "DC_Walker_C"
+  - status: "OK"
+    name: "DC_Walker_A"
+  - status: "OK"
+    name: "DC_Walker_S"
+  - status: "OK"
+    name: "DC_Walker_T"
+  DC_Walker_C.usx:
+  - status: "OK"
+    name: "DC_Walker_T"
+  DC_Walker_A.ukx:
+  - status: "OK"
+    name: "DC_Walker_C"
+  - status: "OK"
+    name: "DC_Walker_T"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/W/a/1/e1d682/Walking_Death.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Walking Death replacer"
+  description: "Replace any vehicle with the Walking Death"
+weapons: []
+vehicles:
+- name: "Death Turret"
+  description: "Death Turret"
+- name: "Walking Death"
+  description: "Walking Death"
+- name: "Death Turret"
+  description: "Death Turret"
+hasConfigMenu: false
+hasKeybinds: false
