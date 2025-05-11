@@ -1,0 +1,109 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-28 22:39"
+game: "Unreal Tournament 2004"
+name: "DM-InfernaL"
+author: "GP"
+description: "None"
+releaseDate: "2014-01"
+attachments:
+- type: "IMAGE"
+  name: "dm-infernal_shot_47ffd86f_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/I/4/7/ffd86f/dm-infernal_shot_47ffd86f_4.png"
+- type: "IMAGE"
+  name: "dm-infernal_shot_47ffd86f_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/I/4/7/ffd86f/dm-infernal_shot_47ffd86f_3.png"
+- type: "IMAGE"
+  name: "dm-infernal_shot_47ffd86f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/I/4/7/ffd86f/dm-infernal_shot_47ffd86f_1.png"
+- type: "IMAGE"
+  name: "dm-infernal_shot_47ffd86f_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/I/4/7/ffd86f/dm-infernal_shot_47ffd86f_2.png"
+originalFilename: "DM-InfernaL.zip"
+hash: "47ffd86fea2111908a6cb4a9970dff4a735e9563"
+fileSize: 24957555
+files:
+- name: "NewFireDamage.u"
+  fileSize: 1246474
+  hash: "f418fa7ddb11fe1a49fea6184f7e0d6d92fb71c8"
+- name: "PainWeaponsSounds.uax"
+  fileSize: 2028221
+  hash: "28a9efe101b44ef8aeb3fd73007dca6ddcb4647a"
+- name: "NewFireDamage.uax"
+  fileSize: 4034540
+  hash: "8a3a22be081557cae46d122af5556d74023111e0"
+- name: "NewExplosionFX.utx"
+  fileSize: 1398644
+  hash: "c2568496aab01363f8c993ccdbb6309ced6a5e8e"
+- name: "PainWeapons.u"
+  fileSize: 40512
+  hash: "52536fd53da769c1e3a2c1b9ead743bfb8d33451"
+- name: "NewExplosionSM.usx"
+  fileSize: 1432124
+  hash: "d67605d881403184074269ece3881ab4ca84a78f"
+- name: "C8L07.ogg"
+  fileSize: 5215465
+  hash: "80b1a43f8dd3dc8e921862bb07bb3ad5aed5b6d1"
+- name: "HELL_DRAGONAM.ukx"
+  fileSize: 673155
+  hash: "6f251309b09121c5037ba5a1199dda8b42bb1a71"
+- name: "PainWeaponsSM.usx"
+  fileSize: 628649
+  hash: "5da74265a649fd9e8b85d54143f4b3961c37ca6b"
+- name: "DM-InfernaL.ut2"
+  fileSize: 21849159
+  hash: "04d17b416b049f8e9f74c95785aa9ded4868169e"
+- name: "HELL_DRAGON_TEX.utx"
+  fileSize: 44740373
+  hash: "e568ffef88f92a70b246cc03c4c2ee74d09ae28a"
+- name: "PainWeaponsAm.ukx"
+  fileSize: 884857
+  hash: "290cd30594208c40c3f7f3218484d7656c78eaa6"
+- name: "PainWeaponsTex.utx"
+  fileSize: 6991583
+  hash: "fcaa8c5c2a38bcb3eca10679158804e9ce75c5a5"
+otherFiles: 5
+dependencies:
+  HELL_DRAGONAM.ukx:
+  - status: "OK"
+    name: "HELL_DRAGON_TEX"
+  DM-InfernaL.ut2:
+  - status: "OK"
+    name: "PainWeapons"
+  - status: "OK"
+    name: "NewFireDamage"
+  - status: "OK"
+    name: "HELL_DRAGON_TEX"
+  - status: "OK"
+    name: "NewExplosionSM"
+  NewFireDamage.u:
+  - status: "OK"
+    name: "NewExplosionFX"
+  - status: "OK"
+    name: "NewExplosionSM"
+  - status: "OK"
+    name: "HeLL_DRAGONAM"
+  PainWeapons.u:
+  - status: "OK"
+    name: "PainWeaponsTex"
+  - status: "OK"
+    name: "PainWeaponsAm"
+  - status: "OK"
+    name: "PainWeaponsSounds"
+  PainWeaponsAm.ukx:
+  - status: "OK"
+    name: "PainWeaponsTex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/I/4/7/ffd86f/DM-InfernaL.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Infernal"
+playerCount: "5"
+themes:
+  Natural: 0.1
+  Ancient: 0.9
+bots: true
