@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-16 13:41"
+game: "Unreal Tournament"
+name: "NE-WW-Rooftops"
+author: "LouZiffer"
+description: "The Roof Dwellers Live..."
+releaseDate: "2002-06"
+attachments:
+- type: "IMAGE"
+  name: "ne-ww-rooftops_shot_fed321ec_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/N/f/e/d321ec/ne-ww-rooftops_shot_fed321ec_1.png"
+originalFilename: "NE-WW-Rooftops.zip"
+hash: "fed321ec2cf6cc0d33be823cc54cc6e6ce6e8b1e"
+fileSize: 1854768
+files:
+- name: "Rooftops.utx"
+  fileSize: 357084
+  hash: "b46decc86cdfce3f16181c4e8acca8519230ef84"
+- name: "table1.u"
+  fileSize: 6324
+  hash: "0ccf8d9f41b293a34cfe7c268f033ee06768524f"
+- name: "NE-WW-Rooftops.unr"
+  fileSize: 5721553
+  hash: "5e6d3be72cd7e25d26c1476fc17e0e2715c0a1da"
+otherFiles: 0
+dependencies:
+  table1.u:
+  - status: "MISSING"
+    name: "NEtextures"
+  NE-WW-Rooftops.unr:
+  - status: "OK"
+    name: "Rooftops"
+  - status: "OK"
+    name: "Table1"
+  - status: "MISSING"
+    name: "NEtextures"
+  - status: "MISSING"
+    name: "NightsEdge"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/N/f/e/d321ec/NE-WW-Rooftops.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "Rooftops"
+playerCount: "8 to 16 (Max 16)"
+themes:
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+  City: 0.1
+bots: true
