@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-19 06:40"
+game: "Unreal"
+name: "DMUrbanArena"
+author: "angel_eyes(matrix)"
+description: "matrix 4 eva, baybee"
+releaseDate: "2025-05"
+attachments: []
+originalFilename: "dmurbanarena_a3tfix.zip"
+hash: "4e34ac486670ffde9ed1a644bb18b1213a106296"
+fileSize: 2421422
+files:
+- name: "dmurbsoundfx.uax"
+  fileSize: 60832
+  hash: "cfe4391c026108738665a6338b5b797177c0ed9f"
+- name: "a3text.utx"
+  fileSize: 3068539
+  hash: "7cdbb4ed5f583d97aae41d76af9e8755c690cbdd"
+- name: "DMUrbanArena.unr"
+  fileSize: 1030997
+  hash: "637cc50a9875d468688dd638f217fb7cc789f5f5"
+otherFiles: 1
+dependencies:
+  DMUrbanArena.unr:
+  - status: "OK"
+    name: "a3text"
+  - status: "OK"
+    name: "dmurbsoundfx"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/U/4/e/34ac48/dmurbanarena_a3tfix.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DMUrbanarena"
+playerCount: "4-8"
+themes:
+  Skaarj Tech: 0.1
+  City: 0.9
+bots: true
