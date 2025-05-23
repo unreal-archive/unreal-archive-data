@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-23 16:11"
+game: "Unreal Tournament"
+name: "DM_Summer_wine_cellar"
+author: "Nikola-(DOG)-"
+description: "Summer garden"
+releaseDate: "2025-05"
+attachments: []
+originalFilename: "DM_Summer_wine_cellar.zip"
+hash: "b8527fd4bba69042a41ebb7ccc10014b6b46e621"
+fileSize: 29624914
+files:
+- name: "DM_Summer_wine_cellar.unr"
+  fileSize: 8874797
+  hash: "8600df97c07278f17249a857a94de32c25e33694"
+- name: "Vineyard_tex_Newbies.utx"
+  fileSize: 16192107
+  hash: "e6423c7aebfe348bcde3d5c106179e2157c25e5e"
+- name: "Vineyard_mesh_Newbies.usm"
+  fileSize: 2744807
+  hash: "13b2906e4ed70cf5a67912e756c86f694201d4dc"
+- name: "Garden_hap_mesh1.usm"
+  fileSize: 3757150
+  hash: "fb09e6b861bf375a15b7e8d4a42407fb657b494d"
+- name: "Pumpkin_fun_Newbies.utx"
+  fileSize: 7132346
+  hash: "174c8990d36ce15101aefbfaec3b43f973540561"
+- name: "ParticleTexs.utx"
+  fileSize: 9021472
+  hash: "72d0b81cc821c4379528de50a0e304f270e38f75"
+- name: "LensFlareColorful.utx"
+  fileSize: 1579931
+  hash: "766c85a359ad2bcf1d7c9d5b6c8802dce75a586c"
+- name: "Garden_happiness_build.utx"
+  fileSize: 2600525
+  hash: "77bc59eb414098dc8aad03f3b65b41f914b476da"
+- name: "Garden_happiness_partII.utx"
+  fileSize: 12700552
+  hash: "3ea73b3a79683e538332929f37f2eb8fa9cd28b6"
+- name: "LensFlareX.utx"
+  fileSize: 2233172
+  hash: "99e767fa7fda7e09800c9b79fc6cf44e0d6bb9a9"
+- name: "Garden_hap_mesh2.usm"
+  fileSize: 1911616
+  hash: "6b18898bcf4c39541819971c2316becbd12a7e0a"
+- name: "Garden_happiness_partI.utx"
+  fileSize: 12387291
+  hash: "7e250a377b8f39074de798a564f57203d8fa267e"
+- name: "Pumpkin_fun_mesh.usm"
+  fileSize: 1824810
+  hash: "6320288bf67463cdf0711d19186186a17ce39ad6"
+otherFiles: 0
+dependencies:
+  Garden_hap_mesh2.usm:
+  - status: "OK"
+    name: "Garden_happiness_partII"
+  Pumpkin_fun_mesh.usm:
+  - status: "OK"
+    name: "Pumpkin_fun_Newbies"
+  Garden_hap_mesh1.usm:
+  - status: "OK"
+    name: "Garden_happiness_partI"
+  Vineyard_mesh_Newbies.usm:
+  - status: "OK"
+    name: "Vineyard_tex_Newbies"
+  - status: "OK"
+    name: "Garden_happiness_build"
+  DM_Summer_wine_cellar.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "LensFlareX"
+  - status: "OK"
+    name: "LensFlareColorful"
+  - status: "OK"
+    name: "Pumpkin_fun_mesh"
+  - status: "OK"
+    name: "Garden_hap_mesh2"
+  - status: "OK"
+    name: "Garden_hap_mesh1"
+  - status: "OK"
+    name: "ParticleTexs"
+  - status: "OK"
+    name: "Garden_happiness_build"
+  - status: "OK"
+    name: "Vineyard_mesh_Newbies"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/b/8/527fd4/DM_Summer_wine_cellar.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Abandoned wine cellar"
+playerCount: "Unknown"
+themes: {}
+bots: true
