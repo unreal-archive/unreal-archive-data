@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-27 22:52"
+game: "Unreal Tournament"
+name: "MH-FirstTry[SPG]"
+author: "[SPG]RIFFRAFF"
+description: "None"
+releaseDate: "2013-06"
+attachments: []
+originalFilename: "MH-FirstTry[SPG].7z"
+hash: "cf77ca1f9e08d4b53df0158e30fb72aaff13aa7b"
+fileSize: 544734
+files:
+- name: "MH-FirstTry[SPG].unr"
+  fileSize: 1300954
+  hash: "1af8bcd3d38e8ea15c813ae6822073311b9c2ff2"
+- name: "Monsterhunt1.utx"
+  fileSize: 1158031
+  hash: "8a863510b03a8aff5dcd54b3ddd8d053cc7987b1"
+- name: "bpak.u"
+  fileSize: 259553
+  hash: "f552452dd11750875906f4290373f62bb577eb8b"
+otherFiles: 0
+dependencies:
+  MH-FirstTry[SPG].unr:
+  - status: "OK"
+    name: "BPak"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Monsterhunt1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/F/c/f/77ca1f/MH-FirstTry%5BSPG%5D.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-FIRST-TRY"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 0.2
+  Industrial: 0.5
+  Nali Castle: 0.3
+  Skaarj Tech: 0.1
+bots: true
