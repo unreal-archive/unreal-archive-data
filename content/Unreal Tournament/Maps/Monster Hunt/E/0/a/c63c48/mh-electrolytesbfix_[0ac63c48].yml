@@ -1,0 +1,60 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-30 08:01"
+game: "Unreal Tournament"
+name: "MH-Electrolyte+SBFix"
+author: "Red_Fist"
+description: "Priority was to make Bots finish map."
+releaseDate: "2025-05"
+attachments:
+- type: "IMAGE"
+  name: "mh-electrolytesbfix_shot_0ac63c48_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/0/a/c63c48/mh-electrolytesbfix_shot_0ac63c48_2.png"
+- type: "IMAGE"
+  name: "mh-electrolytesbfix_shot_0ac63c48_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/0/a/c63c48/mh-electrolytesbfix_shot_0ac63c48_1.png"
+originalFilename: "MH-Electrolyte+SBFix.7z"
+hash: "0ac63c4861f0f60228fa0a1064e66902fed076cc"
+fileSize: 9120758
+files:
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "UTtech4.utx"
+  fileSize: 2711120
+  hash: "f22612e1315b7381daf5b64072df82bb0877b390"
+- name: "MH-Electrolyte+SBFix.unr"
+  fileSize: 11144136
+  hash: "7df03e44656e4f5ebdd6a0ee2f1e55620ae8995a"
+- name: "mycacham.utx"
+  fileSize: 3194725
+  hash: "c1a658b7c858da26294ae051f9beeefe3fa453b7"
+otherFiles: 3
+dependencies:
+  MH-Electrolyte+SBFix.unr:
+  - status: "OK"
+    name: "UTtech4"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "mycacham"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/E/0/a/c63c48/MH-Electrolyte+SBFix.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Electrolyte"
+playerCount: "12"
+themes:
+  Tech: 0.2
+  Industrial: 0.3
+  City: 0.5
+bots: true
