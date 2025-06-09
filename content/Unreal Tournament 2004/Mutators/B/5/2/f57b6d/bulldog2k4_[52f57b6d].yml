@@ -1,0 +1,62 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-05-28 22:56"
+game: "Unreal Tournament 2004"
+name: "BullDog2k4"
+author: "Unknown"
+description: "None"
+releaseDate: "2014-11"
+attachments: []
+originalFilename: "BullDog2k4.zip"
+hash: "52f57b6d1b17b3f5f5cf053e7e73ea1a517d7771"
+fileSize: 7065699
+files:
+- name: "BullDog2k4.u"
+  fileSize: 51968
+  hash: "e402b31f2f8d516ca4302296556a69df180927ff"
+- name: "BullDog2k4_Tex.utx"
+  fileSize: 5638740
+  hash: "31338367cba49889ee2608b5b15c4218f4780ad2"
+- name: "BullDog2k4_Ani.ukx"
+  fileSize: 702996
+  hash: "3b7ccd09ebff96df40112ed131dacf76c380aa65"
+- name: "BullDog2k4_SM.usx"
+  fileSize: 706738
+  hash: "4924c189db632c6df438d7756d16832f860c6611"
+otherFiles: 1
+dependencies:
+  BullDog2k4_Ani.ukx:
+  - status: "OK"
+    name: "BullDog2k4_Tex"
+  - status: "OK"
+    name: "BullDog2k4_SM"
+  BullDog2k4_SM.usx:
+  - status: "OK"
+    name: "BullDog2k4_Tex"
+  BullDog2k4.u:
+  - status: "OK"
+    name: "BullDog2k4_Tex"
+  - status: "OK"
+    name: "BullDog2k4_Ani"
+  - status: "OK"
+    name: "BullDog2k4_SM"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/B/5/2/f57b6d/BullDog2k4.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "BullDog 2k4"
+  description: "BullDog 2k4"
+- name: "Classic Bulldog"
+  description: "Classic Bulldog"
+- name: "BullDog Minigun Turret"
+  description: "BullDog Minigun Turret"
+- name: "Bulldog"
+  description: "Bulldog"
+hasConfigMenu: false
+hasKeybinds: false
