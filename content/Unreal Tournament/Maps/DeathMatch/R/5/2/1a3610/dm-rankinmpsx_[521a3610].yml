@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-05-31 03:05"
+game: "Unreal Tournament"
+name: "DM-Rankinmpsx"
+author: "CodeX, Leo, Hourences"
+description: "None"
+releaseDate: "2025-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-rankinmpsx_shot_521a3610_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/5/2/1a3610/dm-rankinmpsx_shot_521a3610_1.png"
+originalFilename: "DM-Rankinmpxs.rar"
+hash: "521a3610190f2f30ed9f636b81e6c25bb3e8e66b"
+fileSize: 2556398
+files:
+- name: "DM-Rankinmpsx.unr"
+  fileSize: 1956385
+  hash: "9039901d3093680b568bab9b7e35824b80bae921"
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+- name: "ElectricLamp.u"
+  fileSize: 117766
+  hash: "762b0b39ae960b4991711ea63cf8657926644769"
+- name: "PSXFlameT_UT.u"
+  fileSize: 11122
+  hash: "0605053b1123c565071e990fb62d51e9a7ad060c"
+- name: "PSXFlameT.u"
+  fileSize: 863744
+  hash: "e94d338d8fda541bee41e3ddb511bb58af104e30"
+otherFiles: 0
+dependencies:
+  PSXFlameT_UT.u:
+  - status: "OK"
+    name: "PSXFlameT"
+  DM-Rankinmpsx.unr:
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "PSXFlameT"
+  - status: "OK"
+    name: "ElectricLamp"
+  - status: "OK"
+    name: "PSXFlameT_UT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/5/2/1a3610/DM-Rankinmpxs.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Rankin Mine: Annex B"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 0.9
+bots: true
