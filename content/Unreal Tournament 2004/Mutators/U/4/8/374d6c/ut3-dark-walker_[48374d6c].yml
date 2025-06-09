@@ -1,0 +1,63 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-05-28 22:58"
+game: "Unreal Tournament 2004"
+name: "UT3 Dark Walker"
+author: "Unknown"
+description: "Replace any vehicle with the UT3 Dark Walker. Keep in mind that in many\
+  \ maps there is not enough space for Dark Wlker at vehicle spawn places."
+releaseDate: "2015-04"
+attachments: []
+originalFilename: "UT3_Dark_Walker.zip"
+hash: "48374d6cd73a510c28233169519db874073c91f9"
+fileSize: 20869077
+files:
+- name: "DW_A.ukx"
+  fileSize: 1263935
+  hash: "cc7dd7c15cc0fed0523f90397fbb03ef3cbb4f97"
+- name: "DW_Legs.ka"
+  fileSize: 71645
+  hash: "30f6c15afa9dc685697348001709593be78b14c1"
+- name: "DW_S.uax"
+  fileSize: 2455133
+  hash: "fc90a291064f3c64849a208ad70576c3e87ff75c"
+- name: "DW_T.utx"
+  fileSize: 15733757
+  hash: "e2074f47945f606ca00b59b26fd053a2890169cc"
+- name: "UT3DarkWalker.u"
+  fileSize: 143006
+  hash: "aaa63ae9d72f9863c1849ca55f1e4e7d0b4f2988"
+- name: "DW_Legs.ka"
+  fileSize: 71567
+  hash: "de4034df925e14a773ba029182900cb1a3f86e3c"
+otherFiles: 1
+dependencies:
+  UT3DarkWalker.u:
+  - status: "OK"
+    name: "DW_S"
+  - status: "OK"
+    name: "DW_T"
+  - status: "OK"
+    name: "DW_A"
+  DW_A.ukx:
+  - status: "OK"
+    name: "DW_T"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/4/8/374d6c/UT3_Dark_Walker.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "UT3 Dark Walker"
+  description: "Replace any vehicle with the UT3 Dark Walker. Keep in mind that in\
+    \ many maps there is not enough space for Dark Wlker at vehicle spawn places."
+weapons: []
+vehicles:
+- name: "Dark Walker Rear Turret"
+  description: "Dark Walker Rear Turret"
+- name: "Dark Walker"
+  description: "Dark Walker"
+hasConfigMenu: false
+hasKeybinds: false

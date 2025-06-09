@@ -1,0 +1,56 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-05-28 22:58"
+game: "Unreal Tournament 2004"
+name: "UT4 Shieldgun"
+author: "Unknown"
+description: "Updates your shieldgun to new version"
+releaseDate: "2016-01"
+attachments: []
+originalFilename: "SHIELD_2K16.7z"
+hash: "ba49a9e6bfb8fb10a4d2247c2551970e754cda8c"
+fileSize: 24348526
+files:
+- name: "SHIELD_2016_ANI.ukx"
+  fileSize: 9023823
+  hash: "758ccd1c06abc4eee394ecc294c63b794786e541"
+- name: "SHIELD_2016_TX.utx"
+  fileSize: 281721009
+  hash: "2db1dc44c6cf414b905e8319b8ebff492894d87d"
+- name: "SHIELD_2016_SM.usx"
+  fileSize: 5969461
+  hash: "de026969bfb1c2af543b70d1f820f70eb23514f3"
+- name: "SHIELD_2016.u"
+  fileSize: 52151
+  hash: "5cf3bc92083b6bf47037c82dc53d412b358df599"
+otherFiles: 1
+dependencies:
+  SHIELD_2016.u:
+  - status: "OK"
+    name: "SHIELD_2016_ANI"
+  - status: "OK"
+    name: "SHIELD_2016_SM"
+  - status: "OK"
+    name: "SHIELD_2016_TX"
+  SHIELD_2016_SM.usx:
+  - status: "OK"
+    name: "SHIELD_2016_TX"
+  SHIELD_2016_ANI.ukx:
+  - status: "OK"
+    name: "SHIELD_2016_TX"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/U/b/a/49a9e6/SHIELD_2K16.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "UT4 Shieldgun"
+  description: "Updates your shieldgun to new version"
+weapons:
+- name: "Force Shield Gun"
+  description: "Industrial grade force field manipulator"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
