@@ -1,0 +1,118 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2025-08-08 09:24"
+game: "Unreal"
+name: "Tentacle Hunter's  Coop Maps  -  Series 1"
+author: "Tentacle-HunteR"
+description: "None"
+releaseDate: "2004-03"
+attachments: []
+originalFilename: "thmaps1a.zip"
+hash: "720e17e563d24c1be479d0f766e19bb9467bca49"
+fileSize: 5162734
+files:
+- name: "Spinner.u"
+  fileSize: 1551609
+  hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+- name: "THmaptex.utx"
+  fileSize: 260158
+  hash: "31622d6ee437b18b2e683412ac7d8b731a1816c2"
+- name: "BeamOut.unr"
+  fileSize: 383234
+  hash: "05c4ac23e3fe979b9bad8c1d32fdb809961beb46"
+- name: "seaside.unr"
+  fileSize: 1381300
+  hash: "6c300f50c772ef5308e5b95b29c5d50a5aef6524"
+- name: "Sunken.unr"
+  fileSize: 1499587
+  hash: "2dbe179b79bf58220ae668144963be1dcaad26a9"
+- name: "THfunhouse.unr"
+  fileSize: 1888110
+  hash: "6c6eaef2934e8e101c8b6c4a0ad845bc4b64306f"
+- name: "THmapPak.u"
+  fileSize: 222697
+  hash: "89a5d5c2a80268cdb65d4862d046f055c691193d"
+- name: "Predator.u"
+  fileSize: 1337319
+  hash: "00ce4f441b44b13a73e14858c746a295d34a29fd"
+- name: "Cregor.unr"
+  fileSize: 1722001
+  hash: "c6fbd9244b353ceba69358e64efc2772a34593af"
+- name: "theswamp.unr"
+  fileSize: 1561038
+  hash: "8996455758a28d71c12589d9eb4fde44a21f9be8"
+- name: "cregorpass.unr"
+  fileSize: 1173685
+  hash: "d85de55832512922903b6946bcff2321054299ad"
+otherFiles: 1
+dependencies:
+  BeamOut.unr:
+  - status: "OK"
+    name: "THmaptex"
+  theswamp.unr:
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmaptex"
+  cregorpass.unr:
+  - status: "OK"
+    name: "THmaptex"
+  - status: "OK"
+    name: "Predator"
+  Sunken.unr:
+  - status: "OK"
+    name: "THmaptex"
+  - status: "OK"
+    name: "THmapPak"
+  seaside.unr:
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmapPak"
+  THfunhouse.unr:
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmaptex"
+  - status: "OK"
+    name: "THmapPak"
+  Cregor.unr:
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "THmapPak"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/T/7/2/0e17e5/thmaps1a.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "BeamOut"
+  title: "The Escape"
+  author: "Tentacle-HunteR"
+- name: "seaside"
+  title: "Seaside Village"
+  author: "Tentacle-HunteR"
+- name: "Sunken"
+  title: "Shipwreck Lagoon"
+  author: "Tentacle-HunteR"
+- name: "THfunhouse"
+  title: "T-H's Fun House"
+  author: "Tentacle-HunteR"
+- name: "Cregor"
+  title: "Cavern of Cregor, Lava Lord"
+  author: "Tentacle-HunteR"
+- name: "theswamp"
+  title: "Woody Bog"
+  author: "Tentacle-HunteR"
+- name: "cregorpass"
+  title: "Cregor Mt. Pass"
+  author: "Tentacle-HunteR"
+gametype: "Single Player"
+themes:
+  Nali Temple: 0.1
+  Tech: 0.1
+  Natural: 0.3
+  Nali Castle: 0.3
