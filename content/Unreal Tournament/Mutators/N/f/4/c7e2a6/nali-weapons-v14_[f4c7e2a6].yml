@@ -1,0 +1,57 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-07-25 15:03"
+game: "Unreal Tournament"
+name: "Nali Weapons v1.4"
+author: "Feralidragon"
+description: ""
+releaseDate: "2008-06"
+attachments: []
+originalFilename: "NaliWeapons v1.4.rar"
+hash: "f4c7e2a650e545e7ebe72b741970526da1ca041a"
+fileSize: 5032854
+files:
+- name: "NaliWeaponsSFX.uax"
+  fileSize: 2004306
+  hash: "777fcd4f032ed909b48d80e6e3bce2a850d28ec2"
+- name: "NaliWeapons[v14].u"
+  fileSize: 517680
+  hash: "54ad4f1b64c1832fb11eb57715e929d36c926d3e"
+- name: "NaliWeaponsGFX.utx"
+  fileSize: 13685083
+  hash: "e1cc8f7589fd3519aa5e0a83f086a097a012303f"
+otherFiles: 2
+dependencies:
+  NaliWeapons[v14].u:
+  - status: "OK"
+    name: "NaliWeaponsGFX"
+  - status: "OK"
+    name: "NaliWeaponsSFX"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/N/f/4/c7e2a6/NaliWeapons%20v1.4.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Nali Weapons v1.4"
+  description: ""
+weapons:
+- name: "Flame Tracker"
+  description: ""
+- name: "Bolt Rifle"
+  description: ""
+- name: "Graviton"
+  description: ""
+- name: "Freezer"
+  description: ""
+- name: "The Miner"
+  description: ""
+- name: "MultiMissile Launcher"
+  description: ""
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
