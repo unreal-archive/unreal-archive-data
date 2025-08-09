@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-08-16 19:52"
+game: "Unreal Tournament"
+name: "MH-Cantilever_UTremix_V2"
+author: "Nobody(NBD)"
+description: "Explore the Quake Brutalist Jam 1"
+releaseDate: "2025-08"
+attachments:
+- type: "IMAGE"
+  name: "mh-cantilever_utremix_v2_shot_65d18aee_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/6/5/d18aee/mh-cantilever_utremix_v2_shot_65d18aee_1.png"
+originalFilename: "MH-Cantilever_UTremix_V2(UA).7z"
+hash: "65d18aee12c27cc7fa383105e8009a49f059f276"
+fileSize: 7199372
+files:
+- name: "SBHealingGunV3.u"
+  fileSize: 873458
+  hash: "faaf1b83549f157ab28f187e0c5e6fa6be9516db"
+- name: "SBTriggerableSpawnPointV0.u"
+  fileSize: 8311
+  hash: "f77d13b1ef1b1c9adaf4d086d5f5573b33095585"
+- name: "SBRetriggerableCreatureFactoryV4.u"
+  fileSize: 5101
+  hash: "6eba96682599b548efb031240bae0ff6fa8dc630"
+- name: "SBInvulnerabilityV3.u"
+  fileSize: 540776
+  hash: "b9abcef46d74df17a6e20e8c750bd0ce170c6a96"
+- name: "MH-Cantilever_UTremix_V2.unr"
+  fileSize: 7194888
+  hash: "d5a6f86f771c431475a5a007082175b97e5c0720"
+- name: "SBPropertyChangerV2.u"
+  fileSize: 14229
+  hash: "03bbe75236cc122a83bf64e1e22f63266809ef05"
+- name: "SB_BeepTriggerV1.u"
+  fileSize: 2383
+  hash: "03c734f56269d821babda2a018b7e2555a2ce9ef"
+- name: "SBCounterV5.u"
+  fileSize: 12711
+  hash: "0391cd27e3ca6aa54b7b38a474a3b1f7bf639892"
+- name: "AAA_ElectroStaticV2_LS.u"
+  fileSize: 944100
+  hash: "03427412855c996214c9a9ea50e3786823926c71"
+- name: "olextras.u"
+  fileSize: 5417509
+  hash: "1c01eb49c9a671c4175743d92dc6904f02912c6e"
+- name: "DC-Pawns2.u"
+  fileSize: 58503
+  hash: "30fec49c490c8c20fd970b1754dbdc3ae1d6b858"
+otherFiles: 0
+dependencies:
+  MH-Cantilever_UTremix_V2.unr:
+  - status: "MISSING"
+    name: "UTtech4"
+  - status: "MISSING"
+    name: "DoorsSnd"
+  - status: "OK"
+    name: "SBHealingGunV3"
+  - status: "OK"
+    name: "AAA_ElectroStaticV2_LS"
+  - status: "OK"
+    name: "SBPropertyChangerV2"
+  - status: "OK"
+    name: "SBInvulnerabilityV3"
+  - status: "MISSING"
+    name: "SBBeepTriggerV1"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "SBCounterV5"
+  - status: "OK"
+    name: "olextras"
+  - status: "OK"
+    name: "DC-Pawns2"
+  - status: "OK"
+    name: "SBTriggerableSpawnPointV0"
+  olextras.u:
+  - status: "MISSING"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "olroot"
+  - status: "MISSING"
+    name: "olweapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/6/5/d18aee/MH-Cantilever_UTremix_V2(UA).7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Cantilever_UTremix_v2"
+playerCount: "4"
+themes:
+  Tech: 0.3
+  Skaarj Crypt: 0.4
+  City: 0.1
+  Industrial: 0.3
+bots: true
