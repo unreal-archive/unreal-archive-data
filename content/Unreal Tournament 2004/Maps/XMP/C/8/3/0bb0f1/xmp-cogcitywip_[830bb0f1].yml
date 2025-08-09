@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-08-16 22:22"
+game: "Unreal Tournament 2004"
+name: "XMP-COGCityWIP"
+author: "Shane Caudle"
+description: "None"
+releaseDate: "2020-07"
+attachments: []
+originalFilename: "COGCItyXMP.rar"
+hash: "830bb0f17b25cc5833bfb6a304b8ca5ecf1f7c20"
+fileSize: 54210690
+files:
+- name: "WarfareDoors.uax"
+  fileSize: 1655447
+  hash: "2e29bcdd53cce233d8cae3c7560dcc2421887817"
+- name: "WarfareAmbient.uax"
+  fileSize: 41141899
+  hash: "6f3cb7f63cb84f5d88b4e51113c8953432dd4b36"
+- name: "XMP-COGCityWIP.unr"
+  fileSize: 42855166
+  hash: "a70dc315bf9b804172676f107efe39dc35aca30f"
+- name: "anticipation.ogg"
+  fileSize: 2947771
+  hash: "4c0b1475d0d8b46f686cd327f7e9159698f21e23"
+otherFiles: 1
+dependencies:
+  XMP-COGCityWIP.unr:
+  - status: "MISSING"
+    name: "XMPWorldItemsM"
+  - status: "MISSING"
+    name: "Legend"
+  - status: "MISSING"
+    name: "ParticleSystems"
+  - status: "OK"
+    name: "WarfareDoors"
+  - status: "MISSING"
+    name: "U2"
+  - status: "OK"
+    name: "WarfareAmbient"
+  - status: "MISSING"
+    name: "XMPWorldItemsT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/XMP/C/8/3/0bb0f1/COGCItyXMP.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "XMP"
+title: "XMP-COGCityWIP"
+playerCount: "Unknown"
+themes: {}
+bots: true
