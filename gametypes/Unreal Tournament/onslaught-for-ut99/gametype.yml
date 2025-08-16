@@ -1,0 +1,327 @@
+---
+contentType: "GameType"
+addedDate: "2025-08-16"
+game: "Unreal Tournament"
+name: "Onslaught For UT99"
+author: "BlackCheetah"
+description: "This is Onslaught for the original Unreal Tournament, with vehicles."
+titleImage: ""
+bannerImage: ""
+altNames: []
+links:
+  ModDB: "https://www.moddb.com/mods/onslaught-for-ut99"
+problemLinks: {}
+credits: {}
+gameTypes:
+- name: "Onslaught 99"
+  description: ""
+mutators: []
+maps:
+- name: "ONS-Asteroids"
+  title: "Asteroidw00t"
+  author: ">>>SEISMIC<<<"
+- name: "ONS-BloodGulch"
+  title: "Blood Gulch"
+  author: "BlackCheetah"
+- name: "ONS-Dreamus"
+  title: "UT2k4 Torlan Conversion"
+  author: "BlackCheetah"
+- name: "ONS-ExploCity"
+  title: "ONS-ExploCity"
+  author: "Unknown"
+- name: "ONS-ThornsVcs"
+  title: "Prelude abyss"
+  author: "Cursed_Soul"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-thornsvcs10374964697648967075.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/O/onslaught-for-ut99/maps/ons-thornsvcs10374964697648967075.png"
+- name: "ONS-Torlan"
+  title: "UT2k4 Torlan Conversion"
+  author: "BlackCheetah"
+- name: "ONS-sahara"
+  title: "Sahara"
+  author: "SEISMIC"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-sahara17550987144661200530.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/O/onslaught-for-ut99/maps/ons-sahara17550987144661200530.png"
+- name: "Ons-((MoonRun))"
+  title: "((Moon Run )) i4g Insta Low Grav Edition"
+  author: "[i4g]CouilleNoire & www.mcswolverine.20m.com"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-moonrun6298266943592022620.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/O/onslaught-for-ut99/maps/ons-moonrun6298266943592022620.png"
+- name: "VCTF-BloodGulch"
+  title: "Blood Gulch"
+  author: "BlackCheetah"
+- name: "VCTF-ThruCaves"
+  title: "ThroughCaves"
+  author: "Lauren"
+releases:
+- title: "OnsBeta"
+  version: "Beta"
+  releaseDate: "2008-01"
+  description: ""
+  files:
+  - title: "Beta"
+    localFile: "/home/shrimp/Downloads/onsbeta.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/onslaught-for-ut99/onsbeta.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "onsbeta.zip"
+    hash: "fb2b986336ae5be0a403dbaea999cdfd9d8c3c71"
+    fileSize: 11366152
+    synced: true
+    deleted: false
+    files:
+    - name: "Fla22k_02.umx"
+      fileSize: 2176405
+      hash: "47d28117347d6251cbf1d9cc17295a723b91a5e9"
+    - name: "UO-((MoonRun)).unr"
+      fileSize: 1153858
+      hash: "525461e3008f91ecfa58a0e79a3ddc261df8afe9"
+    - name: "HaloTex.utx"
+      fileSize: 2334380
+      hash: "2c280237b21a9281178643756cf94e1b478fc6f0"
+    - name: "UO-HallBlast.unr"
+      fileSize: 173282
+      hash: "020b9c954d54aa3c74bb42da5f17e17225be1d3b"
+    - name: "UO-UTownsQuake.unr"
+      fileSize: 1544014
+      hash: "4f65d9034e678b24323c52f4e8dded4e660a91eb"
+    - name: "Sonic3.umx"
+      fileSize: 4764886
+      hash: "66d021e33c5e6e54d81ce500e998e23296c170a2"
+    - name: "onslaughtbeta.u"
+      fileSize: 831075
+      hash: "f7643ddbcd447e2636db27ef9e2decda6fd017eb"
+    - name: "UO-Box.unr"
+      fileSize: 112007
+      hash: "5524c1245466016489f2a2c1438d663213b205fe"
+    - name: "UO-ThornsVcs.unr"
+      fileSize: 1598182
+      hash: "c0b50271d669d908ea6404ce9eb96440b0256d49"
+    - name: "MPUK.utx"
+      fileSize: 45292
+      hash: "64884eaef4bd03738119713d7871af464686fac3"
+    - name: "OnslaughtVehiclesBeta.u"
+      fileSize: 2767088
+      hash: "2def70e2a81fecd934e743c30bdf9a0d2bc249f7"
+    otherFiles: 3
+    dependencies:
+      onslaughtbeta.u:
+      - status: "OK"
+        name: "onslaughtvehiclesbeta"
+      UO-((MoonRun)).unr:
+      - status: "OK"
+        name: "onslaughtbeta"
+      - status: "OK"
+        name: "onslaughtvehiclesbeta"
+      - status: "OK"
+        name: "MPUK"
+      UO-ThornsVcs.unr:
+      - status: "OK"
+        name: "onslaughtbeta"
+      - status: "OK"
+        name: "onslaughtvehiclesbeta"
+      UO-UTownsQuake.unr:
+      - status: "OK"
+        name: "onslaughtvehiclesbeta"
+      - status: "OK"
+        name: "onslaughtbeta"
+      UO-HallBlast.unr:
+      - status: "OK"
+        name: "onslaughtvehiclesbeta"
+      - status: "OK"
+        name: "Sonic3"
+      - status: "OK"
+        name: "HaloTex"
+      - status: "OK"
+        name: "onslaughtbeta"
+      UO-Box.unr:
+      - status: "OK"
+        name: "onslaughtvehiclesbeta"
+      - status: "OK"
+        name: "Fla22k_02"
+      - status: "OK"
+        name: "onslaughtbeta"
+  deleted: false
+- title: "Release"
+  version: "1.2"
+  releaseDate: "2008-10"
+  description: ""
+  files:
+  - title: "Release"
+    localFile: "/home/shrimp/Downloads/OnslaughtFull1.2.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/onslaught-for-ut99/OnslaughtFull1.2.zip"
+      direct: true
+      state: "OK"
+    - url: "https://www.moddb.com/mods/onslaught-ut/downloads/onslaught-12-full"
+      direct: false
+      state: "OK"
+    originalFilename: "OnslaughtFull1.2.zip"
+    hash: "9f226f70531e6c32bd2a1f6b337178aeb0ea063b"
+    fileSize: 40915989
+    synced: true
+    deleted: false
+    files:
+    - name: "Torlan.umx"
+      fileSize: 5082454
+      hash: "58ba2ac876fa29249a2e7b9f5d4419ddf53733ef"
+    - name: "Sonic3.umx"
+      fileSize: 4764886
+      hash: "66d021e33c5e6e54d81ce500e998e23296c170a2"
+    - name: "onslaughtut.u"
+      fileSize: 1297469
+      hash: "52a15fd34f45ccaa524a0bb66a7eccb95475f995"
+    - name: "Fla22k_02.umx"
+      fileSize: 2176405
+      hash: "47d28117347d6251cbf1d9cc17295a723b91a5e9"
+    - name: "ONS-sahara.unr"
+      fileSize: 6675936
+      hash: "5f2f0bb41e5b02558e9afb86d0297f007bba689a"
+    - name: "ONS-ThornsVcs.unr"
+      fileSize: 1594261
+      hash: "39a6ff9e0364e2fa3eb00d8e9279138f8b0018af"
+    - name: "ONS-ExploCity.unr"
+      fileSize: 10484425
+      hash: "3a16ddf53afd9d1680c47a091f15b735d3d0c1f7"
+    - name: "onslaughtvehicles.u"
+      fileSize: 7916183
+      hash: "3bfceeabae9279a8760493f74d419ee6e093e5cb"
+    - name: "Ons-((MoonRun)).unr"
+      fileSize: 1096238
+      hash: "06ef3cd573ac4c94ee5418e88da83675faa1be95"
+    - name: "VCTF-ThruCaves.unr"
+      fileSize: 914380
+      hash: "55db5ffa7767389852a8778b90ba97d45bcef868"
+    - name: "ONS-BloodGulch.unr"
+      fileSize: 1707507
+      hash: "d9d78d9f2a203651a35120923eb7d3809c8ab283"
+    - name: "ONSLAUGHTCLASSESFORMAPS.u"
+      fileSize: 3050
+      hash: "68ba55abed60b2cba7b82e7a3612030475922e8d"
+    - name: "ONS-Asteroids.unr"
+      fileSize: 4670165
+      hash: "0b720435d24bdd76c9de5eb8573e6656bd8eb001"
+    - name: "ut2k4chars.u"
+      fileSize: 12893432
+      hash: "571d1f96d6b91050b09744e6d0c37a0c23052661"
+    - name: "VCTF-BloodGulch.unr"
+      fileSize: 1711687
+      hash: "b9848eedbf2e2e2a3ee50360bdafbf692e5cfdba"
+    - name: "ONS-Torlan.unr"
+      fileSize: 4771885
+      hash: "02b48bafe1b2aac2b8e7fde073283de30a3fd97d"
+    - name: "onslaughtpatch.u"
+      fileSize: 1969382
+      hash: "1ba4528d46a943d6ab379475b0c551695a076ac1"
+    - name: "OnslaughtVSkins.utx"
+      fileSize: 5258117
+      hash: "23d2a6f11fe3a13c223dfab68c444375855d1d9d"
+    - name: "ONS-Dreamus.unr"
+      fileSize: 4039252
+      hash: "67c290c5516c46ed592ad565e915e04610a36dea"
+    otherFiles: 3
+    dependencies:
+      Ons-((MoonRun)).unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "ONSLAUGHTCLASSESFORMAPS"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      ONS-ExploCity.unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "ONSLAUGHTCLASSESFORMAPS"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      ut2k4chars.u:
+      - status: "MISSING"
+        name: "skeletalchars"
+      ONS-Torlan.unr:
+      - status: "OK"
+        name: "onslaughtclassesformaps"
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      - status: "OK"
+        name: "Torlan"
+      ONS-Asteroids.unr:
+      - status: "OK"
+        name: "onslaughtclassesformaps"
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      - status: "OK"
+        name: "Torlan"
+      onslaughtut.u:
+      - status: "OK"
+        name: "onslaughtvehicles"
+      onslaughtvehicles.u:
+      - status: "OK"
+        name: "OnslaughtVSkins"
+      VCTF-ThruCaves.unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      ONS-Dreamus.unr:
+      - status: "OK"
+        name: "onslaughtclassesformaps"
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      - status: "OK"
+        name: "Torlan"
+      ONS-BloodGulch.unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "ONSLAUGHTCLASSESFORMAPS"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      ONSLAUGHTCLASSESFORMAPS.u:
+      - status: "OK"
+        name: "onslaughtut"
+      - status: "OK"
+        name: "onslaughtpatch"
+      VCTF-BloodGulch.unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      ONS-ThornsVcs.unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "onslaughtclassesformaps"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      ONS-sahara.unr:
+      - status: "OK"
+        name: "onslaughtpatch"
+      - status: "OK"
+        name: "ONSLAUGHTCLASSESFORMAPS"
+      - status: "OK"
+        name: "Onslaughtvehicles"
+      onslaughtpatch.u:
+      - status: "OK"
+        name: "onslaughtut"
+      - status: "OK"
+        name: "onslaughtvehicles"
+      - status: "OK"
+        name: "ut2k4chars"
+  deleted: false
+deleted: false
