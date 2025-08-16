@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2025-08-12 20:29"
+game: "Unreal Tournament 2004"
+name: "Music Downloader"
+author: "Unknown"
+description: "Allows clients download map musics or karma data."
+releaseDate: "2016-05"
+attachments: []
+originalFilename: "MusicLoaderUT2004.rar"
+hash: "217692fffba3d7abfd47b0cb0137c1b64c633dab"
+fileSize: 59458
+files:
+- name: "MusicLoaderDLL.u"
+  fileSize: 79885
+  hash: "66e7edb9a0f411dbc3316035f4838fd18319730d"
+- name: "MusicLoaderHL.u"
+  fileSize: 8616
+  hash: "14fa335debcb81e6f407e14967df2e24d79fe329"
+- name: "MusicLoader.u"
+  fileSize: 42625
+  hash: "4ec365614e4856bc89d2b46c5fc396c15abfc372"
+otherFiles: 2
+dependencies:
+  MusicLoader.u:
+  - status: "OK"
+    name: "MusicLoaderHL"
+  - status: "OK"
+    name: "MusicLoaderDLL"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/M/2/1/7692ff/MusicLoaderUT2004.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Music Downloader"
+  description: "Allows clients download map musics or karma data."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
