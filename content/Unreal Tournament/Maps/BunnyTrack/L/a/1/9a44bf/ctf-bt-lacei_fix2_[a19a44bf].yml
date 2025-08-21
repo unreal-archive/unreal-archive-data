@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-13 17:58"
+game: "Unreal Tournament"
+name: "CTF-BT-lacei_fix2"
+author: "luluthefirst"
+description: "None"
+releaseDate: "2015-06"
+attachments:
+- type: "IMAGE"
+  name: "ctf-bt-lacei_fix2_shot_a19a44bf_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/BunnyTrack/L/a/1/9a44bf/ctf-bt-lacei_fix2_shot_a19a44bf_1.png"
+originalFilename: "CTF-BT-lacei_fix2.zip"
+hash: "a19a44bf50d5410cf9f1670f5c9b5d49d1b94540"
+fileSize: 1778759
+files:
+- name: "CTF-BT-lacei_fix2.unr"
+  fileSize: 1227999
+  hash: "d772f0a224e2c27949829daf66d7b89f84a76ca8"
+- name: "infection4.umx"
+  fileSize: 214433
+  hash: "f01272477c7c279cf83ed67d8f20521b9b7d537b"
+- name: "FordText.utx"
+  fileSize: 1777727
+  hash: "109850139ed5f3f0478a3a5efed9c5eaa1531b8a"
+otherFiles: 0
+dependencies:
+  CTF-BT-lacei_fix2.unr:
+  - status: "MISSING"
+    name: "sky"
+  - status: "OK"
+    name: "infection4"
+  - status: "OK"
+    name: "FordText"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/BunnyTrack/L/a/1/9a44bf/CTF-BT-lacei_fix2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "BunnyTrack"
+title: "BT : Lacei"
+playerCount: "1-12"
+themes:
+  Natural: 0.4
+  Tech: 0.3
+  Industrial: 0.3
+bots: false
