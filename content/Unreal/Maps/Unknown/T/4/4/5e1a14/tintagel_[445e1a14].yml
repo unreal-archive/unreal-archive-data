@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-02 09:49"
+game: "Unreal"
+name: "TINTAGEL"
+author: "Phillip Phair"
+description: "Welcome to Castle TiNtaGeL"
+releaseDate: "2025-08"
+attachments: []
+originalFilename: "Tintagel_Chapter1.zip"
+hash: "445e1a14aa1bbc272905d3af15737efa5a38b1e7"
+fileSize: 5255201
+files:
+- name: "tintagelsound.uax"
+  fileSize: 28204
+  hash: "50502307fbc510961bbc4fdfff659bfc9764dcf3"
+- name: "Castle2.utx"
+  fileSize: 1103599
+  hash: "ed2b5ce4c366eda366098642955a2ae065b6fb05"
+- name: "Castle.utx"
+  fileSize: 345186
+  hash: "f510cef45795f4f55164066cb03a1130748bf845"
+- name: "Elements.utx"
+  fileSize: 100433
+  hash: "aa273722666050a1f53479c4d0a930fecad65c94"
+- name: "TINTAGEL .unr"
+  fileSize: 17884983
+  hash: "e2b00c772f8463adf590dff3cf87ceb6e96911f9"
+- name: "Elements2.utx"
+  fileSize: 99480
+  hash: "c512188454f095dc4ba61cfc08feac63d276bbbb"
+otherFiles: 3
+dependencies:
+  TINTAGEL .unr:
+  - status: "OK"
+    name: "Castle2"
+  - status: "OK"
+    name: "Elements"
+  - status: "OK"
+    name: "Elements2"
+  - status: "OK"
+    name: "Castle"
+  - status: "OK"
+    name: "tintagelsound"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/Unknown/T/4/4/5e1a14/Tintagel_Chapter1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "TiNtaGeL"
+playerCount: "4"
+themes:
+  Nali Temple: 0.2
+  Nali Castle: 0.7
+bots: true
