@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-08-22 22:34"
+game: "Unreal Tournament"
+name: "DM-EncomTower"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2025-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-encomtower_shot_89382c93_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/E/8/9/382c93/dm-encomtower_shot_89382c93_1.png"
+originalFilename: "DM-EncomTower.zip"
+hash: "89382c93284fe43d07c0b901413c47463b59f418"
+fileSize: 5224467
+files:
+- name: "EncomTex.utx"
+  fileSize: 3636230
+  hash: "0478bfa12d927bede91a27f9e6ddfc4d173b9cbc"
+- name: "EncomSnd.uax"
+  fileSize: 3957678
+  hash: "eecdcc38025b5e6c4b92e51c8c9473cd08ff4658"
+- name: "DM-EncomTower.unr"
+  fileSize: 682410
+  hash: "02648bbf70d614ecafab9dcbe12b1acfda5a94c4"
+otherFiles: 1
+dependencies:
+  DM-EncomTower.unr:
+  - status: "OK"
+    name: "EncomTex"
+  - status: "OK"
+    name: "EncomSnd"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/E/8/9/382c93/DM-EncomTower.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "ENCOM Tower"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Tech: 0.9
+  City: 0.1
+bots: true
