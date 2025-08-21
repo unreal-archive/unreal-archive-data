@@ -1,0 +1,74 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-23 14:08"
+game: "Unreal Tournament"
+name: "DM-KingJoshCity2"
+author: "KingJosh"
+description: "None"
+releaseDate: "2018-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-kingjoshcity2_shot_418963f7_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/K/4/1/8963f7/dm-kingjoshcity2_shot_418963f7_1.png"
+originalFilename: "KingJoshCity2.7z"
+hash: "418963f7a77cc73c572e8bc5809acd08e2518178"
+fileSize: 55536199
+files:
+- name: "XPickups.u"
+  fileSize: 23671862
+  hash: "83238ca52d60245efcc015fb8f34b3bfdd2ca81f"
+- name: "INF_Decorations.u"
+  fileSize: 12152435
+  hash: "ac563b800438e9ffa6dff5d3ced0d2b0c566de83"
+- name: "DM-KingJoshCity2.unr"
+  fileSize: 21211426
+  hash: "07f95dce71af564f514678b0b185442303e9669d"
+- name: "CS_v16_2.u"
+  fileSize: 23406327
+  hash: "8bb794d8b5aef93775808e6dc370b38aac6beebb"
+- name: "DM-KingJoshCity2LowGrav.unr"
+  fileSize: 21208788
+  hash: "0f114cd43f1cda87c0ab5e0e43b1c212cfe71a61"
+- name: "KJPUBG.utx"
+  fileSize: 53063070
+  hash: "f5a8ac3f9b63686b103fb23270b3cf62032c02e3"
+- name: "OnTheRun.umx"
+  fileSize: 5597597
+  hash: "5c0e2a5ec591bf3188e8fb3a4539ecfa7d7938c9"
+otherFiles: 4
+dependencies:
+  DM-KingJoshCity2.unr:
+  - status: "OK"
+    name: "INF_Decorations"
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "OnTheRun"
+  - status: "OK"
+    name: "CS_v16_2"
+  - status: "OK"
+    name: "KJPUBG"
+  DM-KingJoshCity2LowGrav.unr:
+  - status: "OK"
+    name: "INF_Decorations"
+  - status: "OK"
+    name: "XPickups"
+  - status: "OK"
+    name: "OnTheRun"
+  - status: "OK"
+    name: "CS_v16_2"
+  - status: "OK"
+    name: "KJPUBG"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/K/4/1/8963f7/KingJoshCity2.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "KingJoshCity2"
+playerCount: "16-32"
+themes:
+  City: 1.0
+bots: true
