@@ -1,0 +1,49 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-09 03:58"
+game: "Unreal Tournament"
+name: "DM-MiB"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2025-08"
+attachments:
+- type: "IMAGE"
+  name: "dm-mib_shot_e0112cf8_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/e/0/112cf8/dm-mib_shot_e0112cf8_2.png"
+- type: "IMAGE"
+  name: "dm-mib_shot_e0112cf8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/e/0/112cf8/dm-mib_shot_e0112cf8_1.png"
+originalFilename: "DM-MiB.zip"
+hash: "e0112cf8f4b6cc0425e89b85d1021400e0620830"
+fileSize: 13905772
+files:
+- name: "WillSmithMIB.umx"
+  fileSize: 10009745
+  hash: "868d42e7601879a3ce3ad85c7fa33b505617dfbe"
+- name: "MiBAudio.uax"
+  fileSize: 2335378
+  hash: "21f5116f9d6caaa3cbe590a7caf94f46cfa55661"
+- name: "DM-MiB.unr"
+  fileSize: 4676611
+  hash: "ce4d71e7b966ba1612c73157ff5973e8193d7614"
+otherFiles: 3
+dependencies:
+  DM-MiB.unr:
+  - status: "OK"
+    name: "MiBAudio"
+  - status: "OK"
+    name: "WillSmithMIB"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/e/0/112cf8/DM-MiB.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "MiB"
+playerCount: "Unknown"
+themes:
+  Natural: 0.5
+  Tech: 0.5
+bots: true
