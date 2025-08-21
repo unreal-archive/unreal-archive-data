@@ -1,0 +1,94 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-10-12 17:26"
+game: "Unreal Tournament"
+name: "MH-HauntedHalloween"
+author: "Kayako"
+description: "None"
+releaseDate: "2025-10"
+attachments:
+- type: "IMAGE"
+  name: "mh-hauntedhalloween_shot_a63ff416_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/H/a/6/3ff416/mh-hauntedhalloween_shot_a63ff416_1.png"
+originalFilename: "MH-HauntedHalloween.zip"
+hash: "a63ff41687d91122a95c8be73414f29b4e6956cf"
+fileSize: 9649583
+files:
+- name: "MH-HauntedHalloween.unr"
+  fileSize: 17115074
+  hash: "91344729f80932794e91e9ff1c92b5ec78822e21"
+- name: "RoeAnimated.utx"
+  fileSize: 374854
+  hash: "ef769470d3fcc556d89d30bfad19cd7d8ea192b5"
+- name: "Spinner.u"
+  fileSize: 1551609
+  hash: "7375e30ce9acf6842ef92c4d6d9e45c34ad29b44"
+- name: "Vandenberg_Music_2k.umx"
+  fileSize: 1400207
+  hash: "c48522807aba0e0d4cd31d0e167a06b0343e3956"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+- name: "PumpkinPack.utx"
+  fileSize: 5806
+  hash: "901120d9a622291e19607a4fd745100a70b8cf45"
+- name: "Screen.u"
+  fileSize: 309292
+  hash: "1b5cab634e09f393db1832a50eb10d0f46ca67ca"
+- name: "ScriptedScreen.utx"
+  fileSize: 244270
+  hash: "b5f75a008483ebae1d70dbc153ed48ff76feda47"
+- name: "Watcher.umx"
+  fileSize: 460852
+  hash: "9ccbe5fba8949f41f3d5a3b4504477ee41b6b833"
+- name: "CTPumpkin.u"
+  fileSize: 472462
+  hash: "0b98bbee0fc5dd18ec3416943eb732843a897913"
+- name: "ScreenFonts.utx"
+  fileSize: 1032240
+  hash: "ee3da8e5af8fa8a9b5563c7b1542bf020c626ad6"
+otherFiles: 1
+dependencies:
+  Screen.u:
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+  CTPumpkin.u:
+  - status: "OK"
+    name: "PumpkinPack"
+  MH-HauntedHalloween.unr:
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "Spinner"
+  - status: "OK"
+    name: "Watcher"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "RoeAnimated"
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "CTPumpkin"
+  - status: "OK"
+    name: "Vandenberg_Music_2k"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/H/a/6/3ff416/MH-HauntedHalloween.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Haunted Halloween"
+playerCount: "1-7"
+themes:
+  Skaarj Crypt: 0.2
+  Natural: 0.1
+  Industrial: 0.1
+  Ancient: 0.6
+bots: true
