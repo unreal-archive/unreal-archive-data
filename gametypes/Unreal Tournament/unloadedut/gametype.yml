@@ -1,0 +1,198 @@
+---
+contentType: "GameType"
+addedDate: "2025-09-05"
+game: "Unreal Tournament"
+name: "Unloaded:UT"
+author: "Outhouse Productions"
+description: "A top-down shooter for UT"
+titleImage: "title.png"
+bannerImage: ""
+altNames: []
+links: {}
+problemLinks: {}
+credits:
+  Outhouse Productions:
+  - "Carlos 'c0mpi1e' Cuello"
+  - "Nathaniel '^Soul^' Brown"
+  - "Veli-Matti 'Olento' Kouker"
+  - "Brian 'Molo' Kirk"
+  - "Martin 'Marty' Seefeldt"
+  - "Jon 'Tsorovan' Frisk"
+  - "Christian 'Chruser' Hägg"
+  - "Brad 'qwerty' Ridder"
+  - "Doug 'Atma' Weller"
+  - "Rickard 'R2' Sviestins"
+  - "Lucas 'Twinsened' Ellis"
+  - "Robert 'Orpheus' Headly"
+gameTypes: []
+mutators: []
+maps:
+- name: "UL-Assault"
+  title: "Facility Assault"
+  author: "Doug 'Atma' Weller"
+  screenshot:
+    type: "IMAGE"
+    name: "ul-assault15026010078874207337.png"
+    url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/GameTypes/U/unloadedut/maps/ul-assault15026010078874207337.png"
+- name: "UL-BioLab"
+  title: "Bio Laboratory"
+  author: "Christian 'Chruser' Hägg"
+- name: "UL-Downtown"
+  title: "Downtown"
+  author: "Jon \"Tsorovan\" Frisk"
+- name: "UL-Industrielle"
+  title: "Kroon Industrielle"
+  author: "Brad 'Qwerty' Ridder"
+releases:
+- title: "Release"
+  version: "102"
+  releaseDate: "2000-08-11"
+  description: ""
+  files:
+  - title: "Beta"
+    localFile: "/home/shrimp/Downloads/171-UnloadedBeta102_Raw.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament/unloadedut/171-UnloadedBeta102_Raw.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "171-UnloadedBeta102_Raw.zip"
+    hash: "d8833d8b120a57f7c1a02e9785c95992cb52548e"
+    fileSize: 12385492
+    synced: true
+    deleted: false
+    files:
+    - name: "ulTsorovan.u"
+      fileSize: 6146
+      hash: "fc362fd87ed5c72857bcb642f27b6d296c8c2d28"
+    - name: "ul01.umx"
+      fileSize: 292527
+      hash: "90118cc22bc2153a4059ca2467f28e98095e7ce6"
+    - name: "ulCarSkins.u"
+      fileSize: 443713
+      hash: "eab3481518aa467db393e6a99a8e3c6792aa0b70"
+    - name: "ULOlento.utx"
+      fileSize: 1840711
+      hash: "40d2759173383d6cfdd6371094866ee5583fe52a"
+    - name: "UL-Downtown.unr"
+      fileSize: 4419705
+      hash: "1620d348104e6717237cf2a82ae845c880eaaa53"
+    - name: "UnLoaded.u"
+      fileSize: 6977673
+      hash: "d3a1fedde29ffa416dbe27ceb045065f90e4a08a"
+    - name: "ul_molo.utx"
+      fileSize: 2515881
+      hash: "3b7ea0ce9d85c4aaf204d08b5c4d19329144a253"
+    - name: "UL-Assault.unr"
+      fileSize: 3806142
+      hash: "7267b43c0cd1102284f31b4deaa09e0d91267f19"
+    - name: "Torn.u"
+      fileSize: 152809
+      hash: "5cdad5fd14c50dce434ccd731fdfa58a10deb00a"
+    - name: "ul03.umx"
+      fileSize: 243075
+      hash: "f17ba4abaddeaf00a67709b0f404664a1bcdda76"
+    - name: "opParticleBTex.utx"
+      fileSize: 11153
+      hash: "9998148b3e05feb6bc0d468db3cfd8cac4dfc527"
+    - name: "ul02.umx"
+      fileSize: 281973
+      hash: "1afb002780e3ed1319dd1c008a03775391a848a4"
+    - name: "ULQwerty.utx"
+      fileSize: 1870644
+      hash: "91c8733ba33817981853322e8015c1db7b0ae2f9"
+    - name: "ul00.umx"
+      fileSize: 210815
+      hash: "40e42783f2f00090af1f3ae34ea79c39e53cd01e"
+    - name: "UL-BioLab.unr"
+      fileSize: 6278027
+      hash: "f1e1f7b5392bbf97d1cce90b9bb28ce20b102f7a"
+    - name: "ul04.umx"
+      fileSize: 192422
+      hash: "e2967bf3b80cd8b84c0681f3a8862e81bd0e49c7"
+    - name: "UL-Industrielle.unr"
+      fileSize: 2157565
+      hash: "3919e86109f53f4b0565a4caeecd7648710718b2"
+    - name: "ulWeapons.u"
+      fileSize: 1205320
+      hash: "29cfd507735bd540d2055c51666ac0dd5ddf7ac0"
+    - name: "opParticleB.u"
+      fileSize: 188581
+      hash: "09e793d21ee7310e7d2601a030a339fbadf5e014"
+    otherFiles: 4
+    dependencies:
+      UL-Industrielle.unr:
+      - status: "OK"
+        name: "ULQwerty"
+      - status: "OK"
+        name: "ulWeapons"
+      - status: "OK"
+        name: "UL_Molo"
+      - status: "OK"
+        name: "ul04"
+      - status: "OK"
+        name: "opParticleBTex"
+      - status: "OK"
+        name: "opParticleB"
+      - status: "OK"
+        name: "Unloaded"
+      UL-Assault.unr:
+      - status: "OK"
+        name: "ul00"
+      - status: "OK"
+        name: "ulWeapons"
+      - status: "OK"
+        name: "Torn"
+      - status: "OK"
+        name: "ULOlento"
+      - status: "OK"
+        name: "Unloaded"
+      - status: "OK"
+        name: "ULQwerty"
+      - status: "OK"
+        name: "ul_molo"
+      ulWeapons.u:
+      - status: "OK"
+        name: "UnLoaded"
+      UL-Downtown.unr:
+      - status: "OK"
+        name: "ulTsorovan"
+      - status: "OK"
+        name: "ULQwerty"
+      - status: "OK"
+        name: "ulWeapons"
+      - status: "OK"
+        name: "ul04"
+      - status: "OK"
+        name: "ULOlento"
+      - status: "OK"
+        name: "UnLoaded"
+      - status: "OK"
+        name: "opParticleB"
+      - status: "OK"
+        name: "ulCarSkins"
+      - status: "OK"
+        name: "ul_molo"
+      ulTsorovan.u:
+      - status: "OK"
+        name: "UnLoaded"
+      UL-BioLab.unr:
+      - status: "OK"
+        name: "ULQwerty"
+      - status: "OK"
+        name: "ulWeapons"
+      - status: "OK"
+        name: "ul01"
+      - status: "OK"
+        name: "Torn"
+      - status: "OK"
+        name: "opParticleB"
+      - status: "OK"
+        name: "Unloaded"
+      - status: "OK"
+        name: "ul_molo"
+      UnLoaded.u:
+      - status: "OK"
+        name: "ulWeapons"
+  deleted: false
+deleted: false
