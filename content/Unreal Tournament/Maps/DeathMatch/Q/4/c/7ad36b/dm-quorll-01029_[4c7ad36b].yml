@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-14 07:39"
+game: "Unreal Tournament"
+name: "dm-quorll 01.029"
+author: "Unknown"
+description: "None"
+releaseDate: "2024-09"
+attachments: []
+originalFilename: "dm-quorll_beta.rar"
+hash: "4c7ad36bfdd35a64b73699f7acf9b11a30b0e7cc"
+fileSize: 11171552
+files:
+- name: "SPTech1.utx"
+  fileSize: 7637563
+  hash: "62be03d69b331e23741ae52148b81caab40f6065"
+- name: "SPTech03.utx"
+  fileSize: 6499652
+  hash: "ad33a1e6d0dd8e44c6c926518f6af328be70bb37"
+- name: "dm-quorll 01.029.unr"
+  fileSize: 6430363
+  hash: "c61d80e9b695f4fff2702c742b2dbf9a59953f1c"
+otherFiles: 1
+dependencies:
+  dm-quorll 01.029.unr:
+  - status: "OK"
+    name: "SPTech1"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "SPTech03"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/Q/4/c/7ad36b/dm-quorll_beta.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "dm-quorll 01.029"
+playerCount: "Unknown"
+themes:
+  Tech: 0.9
+bots: false
