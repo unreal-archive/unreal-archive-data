@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-09 04:02"
+game: "Unreal Tournament"
+name: "Dm-Reminiscence01"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "The year 2050, Miami is flooded by \"The Great Wave\""
+releaseDate: "2025-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-reminiscence01_shot_febc117e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/f/e/bc117e/dm-reminiscence01_shot_febc117e_1.png"
+originalFilename: "DM-Reminiscence.zip"
+hash: "febc117ed84d165dc2023a69fdacf9008eb414d6"
+fileSize: 17264739
+files:
+- name: "Dm-Reminiscence01.unr"
+  fileSize: 3032401
+  hash: "cb6067f6f466018d772e5f71dc23cbbe51b82fd8"
+- name: "REMSnd.uax"
+  fileSize: 11706395
+  hash: "6ec5df35a52437b2dddee5b527c9623f9dbca3c1"
+- name: "boat.u"
+  fileSize: 2809850
+  hash: "7453dfd7b10944ef534a5d2e4f4627481e00c61e"
+- name: "REMTex.utx"
+  fileSize: 8168873
+  hash: "f908d40749ca121b89761be3bba86ba4be2fc52c"
+- name: "steering.u"
+  fileSize: 705700
+  hash: "b33e019064476e6b9359d8669f8bed66e5541b82"
+- name: "MiamiViceTheme.umx"
+  fileSize: 2469511
+  hash: "e4916e46f395f74564561bd11a080a856ed51799"
+otherFiles: 1
+dependencies:
+  Dm-Reminiscence01.unr:
+  - status: "OK"
+    name: "steering"
+  - status: "OK"
+    name: "boat"
+  - status: "OK"
+    name: "REMSnd"
+  - status: "OK"
+    name: "REMTex"
+  - status: "OK"
+    name: "MiamiViceTheme"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/R/f/e/bc117e/DM-Reminiscence.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Reminiscence"
+playerCount: "Unknown"
+themes:
+  Tech: 0.8
+  City: 0.2
+bots: true
