@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-09-13 18:00"
+game: "Unreal Tournament"
+name: "CTF-BT+RoomsLevel_fix"
+author: "Unknown"
+description: "None"
+releaseDate: "2013-03"
+attachments: []
+originalFilename: "CTF-BT+RoomsLevel_fix.zip"
+hash: "256f8b0536420c80696ef27aff20f31d18f7e739"
+fileSize: 1445976
+files:
+- name: "CTF-BT+RoomsLevel_fix.unr"
+  fileSize: 835585
+  hash: "639cb075cb0ba522273cf8d16ed4c4075387be9b"
+- name: "i4Games_BTScripts_200607.u"
+  fileSize: 335186
+  hash: "7b3d32af89fcf7a20898aa75e7fd5402a3c88373"
+- name: "FordText.utx"
+  fileSize: 1777727
+  hash: "109850139ed5f3f0478a3a5efed9c5eaa1531b8a"
+otherFiles: 0
+dependencies:
+  CTF-BT+RoomsLevel_fix.unr:
+  - status: "OK"
+    name: "i4Games_BTScripts_200607"
+  - status: "OK"
+    name: "FordText"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/BunnyTrack/R/2/5/6f8b05/CTF-BT+RoomsLevel_fix.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "BunnyTrack"
+title: "CTF-BT+RoomsLevel_fix"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: false
