@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-07 18:13"
+game: "Unreal Tournament"
+name: "DM-TheOverlookHotel-Demo-v3"
+author: "David.Lightman"
+description: "I feel you will have to deal with this matter in the harshest possible\
+  \ way, Mr. Torrance."
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "DM-TheOverlookHotel-Demo-v3.zip"
+hash: "5888c3b34d99bfd76eefb41e8d5f3d68fc6352b0"
+fileSize: 30475380
+files:
+- name: "LightmanThanks.uax"
+  fileSize: 480327
+  hash: "97960cada1f0f922b0f2a9523cd83f9116c78611"
+- name: "fsb_colors.utx"
+  fileSize: 1309978
+  hash: "5825238d5294c014ee458158adc11419bc7a3360"
+- name: "OverLookHT.utx"
+  fileSize: 24092237
+  hash: "2b8f4f40f4ac60b6501af1169f64bb5d374af268"
+- name: "DM-TheOverlookHotel-Demo-v3.unr"
+  fileSize: 4294547
+  hash: "cf7825564f8ed02febe34a36c0ddf5925cb779cd"
+- name: "DL_OverlookMusic.umx"
+  fileSize: 18120613
+  hash: "06b0790fcd69463d25c79c2e7b360c477af5214e"
+- name: "bp.utx"
+  fileSize: 67392
+  hash: "d2970ff91c4acb296c7851d5ef4add9ded430d58"
+- name: "FSB1.utx"
+  fileSize: 4283208
+  hash: "dd210e056d5a24dbc58ab390d542d5c29ef94a94"
+otherFiles: 0
+dependencies:
+  DM-TheOverlookHotel-Demo-v3.unr:
+  - status: "OK"
+    name: "OverLookHT"
+  - status: "OK"
+    name: "LightmanThanks"
+  - status: "OK"
+    name: "bp"
+  - status: "OK"
+    name: "DL_OverlookMusic"
+  - status: "OK"
+    name: "fsb_colors"
+  - status: "OK"
+    name: "FSB1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/5/8/88c3b3/DM-TheOverlookHotel-Demo-v3.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Overlook Hotel"
+playerCount: "8-16"
+themes:
+  Natural: 1.0
+bots: true
