@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-12-26 23:10"
+variationOf: "4e0650e2ffb655cbac9c2c7671deb5de3e4a3411"
+game: "Unreal Tournament"
+name: "DM-SpiresV2"
+author: "Danoid"
+description: "None"
+releaseDate: "2025-12"
+attachments:
+- type: "IMAGE"
+  name: "dm-spiresv2_shot_dba593b8_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/d/b/a593b8/dm-spiresv2_shot_dba593b8_1.png"
+originalFilename: "SpiresV2.zip"
+hash: "dba593b86a655c3eb63ffb9ff032cb6086e8ffd1"
+fileSize: 51146652
+files:
+- name: "Akuma.umx"
+  fileSize: 10640656
+  hash: "4e5f353dcadcbe9123e169209718758974550760"
+- name: "SSMetal.utx"
+  fileSize: 6515536
+  hash: "bca33715118428d172bb5ddd5a476eefb096f78b"
+- name: "DM-SpiresV2.unr"
+  fileSize: 1957102
+  hash: "4e0650e2ffb655cbac9c2c7671deb5de3e4a3411"
+- name: "StayinAlive.uax"
+  fileSize: 38736662
+  hash: "5a8e5bd5aaf76b48aa9e45f6494e98f9420c8ab0"
+otherFiles: 0
+dependencies:
+  DM-SpiresV2.unr:
+  - status: "OK"
+    name: "SSMetal"
+  - status: "OK"
+    name: "Akuma"
+  - status: "OK"
+    name: "StayinAlive"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/S/d/b/a593b8/SpiresV2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Spires"
+playerCount: "2-8"
+themes:
+  Tech: 0.3
+  City: 0.2
+  Industrial: 0.2
+  Skaarj Tech: 0.4
+bots: true
