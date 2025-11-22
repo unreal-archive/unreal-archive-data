@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:03"
+game: "Unreal Tournament"
+name: "DMU-AIDeathmatch"
+author: "Jason Watkins"
+description: "None"
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "DMU-AIDeathmatch.zip"
+hash: "c77c8080106bb6089221fac4081bbb50029dec08"
+fileSize: 6298025
+files:
+- name: "DMU-AIDeathmatch.unr"
+  fileSize: 875593
+  hash: "cd4f7139dfb3abcfeca1386a1d98d2d0130f41be"
+- name: "psxStunnerUTDM.u"
+  fileSize: 479506
+  hash: "4021eb0776252af600bd2c5b3d368edcde3d7251"
+- name: "DMU-AIDeathmatchWep.unr"
+  fileSize: 875625
+  hash: "3813c2ed62c076bab0833838535d0bc370b655b3"
+- name: "UPB-Elya.utx"
+  fileSize: 4250176
+  hash: "0018e0fbba82508d8df8dd87c54246551e3fb636"
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+- name: "UPB-skybox.utx"
+  fileSize: 951454
+  hash: "78aa2ef21ea25c96ae583beeebe7b8df41491a8e"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+otherFiles: 0
+dependencies:
+  DMU-AIDeathmatchWep.unr:
+  - status: "OK"
+    name: "psxStunnerUTDM"
+  - status: "OK"
+    name: "UPB-Elya"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "UPB-skybox"
+  - status: "OK"
+    name: "Isotoxin"
+  DMU-AIDeathmatch.unr:
+  - status: "OK"
+    name: "UPB-Elya"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "UPB-skybox"
+  - status: "OK"
+    name: "Isotoxin"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/c/7/7c8080/DMU-AIDeathmatch.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "AI Deathmatch"
+playerCount: "2-4"
+themes:
+  Natural: 1.0
+bots: true

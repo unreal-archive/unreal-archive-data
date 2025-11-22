@@ -1,0 +1,102 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:03"
+game: "Unreal Tournament"
+name: "DMU-NexusPSX"
+author: "Jack Honda (based on 'Nexus Death' by Dave Ewing)"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dmu-nexuspsx_shot_0355fc1a_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/0/3/55fc1a/dmu-nexuspsx_shot_0355fc1a_2.png"
+- type: "IMAGE"
+  name: "dmu-nexuspsx_shot_0355fc1a_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/0/3/55fc1a/dmu-nexuspsx_shot_0355fc1a_1.png"
+- type: "IMAGE"
+  name: "dmu-nexuspsx_shot_0355fc1a_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/0/3/55fc1a/dmu-nexuspsx_shot_0355fc1a_4.png"
+- type: "IMAGE"
+  name: "dmu-nexuspsx_shot_0355fc1a_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/0/3/55fc1a/dmu-nexuspsx_shot_0355fc1a_3.png"
+originalFilename: "DMU-NexusPSX.zip"
+hash: "0355fc1ad6895b1fdcf839fe1c39d27ba3178f0e"
+fileSize: 10524263
+files:
+- name: "UPB-Elya.utx"
+  fileSize: 4250176
+  hash: "0018e0fbba82508d8df8dd87c54246551e3fb636"
+- name: "UPB-Glass.utx"
+  fileSize: 162204
+  hash: "a1248f1fe094ace64841c88c64c34baa072fbe96"
+- name: "DMU-NexusPSX.unr"
+  fileSize: 1611988
+  hash: "bcf25c116e503dea953d550b774944fde2ac6d48"
+- name: "PSXShield.u"
+  fileSize: 6749
+  hash: "501e1452905062afbb0687b5d492a0c536bf48c8"
+- name: "psxStunnerUTDM.u"
+  fileSize: 479506
+  hash: "4021eb0776252af600bd2c5b3d368edcde3d7251"
+- name: "UPB-Misc.utx"
+  fileSize: 1226482
+  hash: "89d3a00ee3d8d29141dec1dbbe49278b585cf14e"
+- name: "episode0tex.utx"
+  fileSize: 920770
+  hash: "03cde427dde2ae5ab64f201347ce29aaf8b0ba92"
+- name: "UPB-skybox.utx"
+  fileSize: 951454
+  hash: "78aa2ef21ea25c96ae583beeebe7b8df41491a8e"
+- name: "DMU-NexusPSXWep.unr"
+  fileSize: 1612076
+  hash: "707e34eb516812d8c4b417dc27a4fdcc7c5b85a6"
+- name: "UPB-Isotoxin96.umx"
+  fileSize: 470047
+  hash: "0f9729a29b04e461d1c95937f5ee73d37adcc15c"
+otherFiles: 3
+dependencies:
+  DMU-NexusPSX.unr:
+  - status: "OK"
+    name: "UPB-Glass"
+  - status: "OK"
+    name: "episode0tex"
+  - status: "OK"
+    name: "UPB-Elya"
+  - status: "OK"
+    name: "UPB-Misc"
+  - status: "OK"
+    name: "PSXShield"
+  - status: "OK"
+    name: "UPB-Isotoxin96"
+  - status: "OK"
+    name: "UPB-skybox"
+  DMU-NexusPSXWep.unr:
+  - status: "OK"
+    name: "UPB-Glass"
+  - status: "OK"
+    name: "episode0tex"
+  - status: "OK"
+    name: "UPB-Isotoxin96"
+  - status: "OK"
+    name: "psxStunnerUTDM"
+  - status: "OK"
+    name: "UPB-Elya"
+  - status: "OK"
+    name: "UPB-Misc"
+  - status: "OK"
+    name: "PSXShield"
+  - status: "OK"
+    name: "UPB-skybox"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/0/3/55fc1a/DMU-NexusPSX.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "AI Nexus (DMU)"
+playerCount: "Unknown"
+themes:
+  Skaarj Tech: 1.0
+bots: true

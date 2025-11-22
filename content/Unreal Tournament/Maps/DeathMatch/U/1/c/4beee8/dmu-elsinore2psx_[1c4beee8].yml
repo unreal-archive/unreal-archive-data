@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:04"
+game: "Unreal Tournament"
+name: "DMU-Elsinore2PSX"
+author: "Cliff Bleszinski, rework by Leo TCK/Jack Honda"
+description: "None"
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "DMU-Elsinore2PSX.zip"
+hash: "1c4beee81701965520badf0aba966ac225fa9bc5"
+fileSize: 6210342
+files:
+- name: "PSXFlameT_UT.u"
+  fileSize: 11122
+  hash: "0605053b1123c565071e990fb62d51e9a7ad060c"
+- name: "ImpalerUT.u"
+  fileSize: 425752
+  hash: "78009df65e32d3ebb494c40e7c38aeeb0c9e5fde"
+- name: "ASP-UnWorld2.umx"
+  fileSize: 801831
+  hash: "7e2c20b9532beceb9468f09cc8125c105001e903"
+- name: "psxStunnerUTDM.u"
+  fileSize: 479506
+  hash: "4021eb0776252af600bd2c5b3d368edcde3d7251"
+- name: "PSXShield.u"
+  fileSize: 6749
+  hash: "501e1452905062afbb0687b5d492a0c536bf48c8"
+- name: "DMU-Elsinore2PSXWep.unr"
+  fileSize: 2788099
+  hash: "6931620a4aa760ec3894c7ca1b98125f9a662fbe"
+- name: "UPB-Crypt2.utx"
+  fileSize: 3562477
+  hash: "5b98eb46a21430dfa1b2e250ca106dcf5c1d6b01"
+- name: "PSXFlameT.u"
+  fileSize: 870228
+  hash: "e6b71664d3fa2b07d2f599dff41e6f25669761f4"
+- name: "UPB-skybox.utx"
+  fileSize: 951454
+  hash: "78aa2ef21ea25c96ae583beeebe7b8df41491a8e"
+- name: "DMU-Elsinore2PSX.unr"
+  fileSize: 2788019
+  hash: "c1070c18b620e468deb65a944de3bf685e313ad2"
+otherFiles: 1
+dependencies:
+  PSXFlameT_UT.u:
+  - status: "OK"
+    name: "PSXFlameT"
+  DMU-Elsinore2PSXWep.unr:
+  - status: "OK"
+    name: "PSXFlameT"
+  - status: "MISSING"
+    name: "cryptmisc"
+  - status: "OK"
+    name: "psxStunnerUTDM"
+  - status: "OK"
+    name: "ImpalerUT"
+  - status: "OK"
+    name: "PSXShield"
+  - status: "OK"
+    name: "UPB-skybox"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  - status: "OK"
+    name: "PSXFlameT_UT"
+  - status: "OK"
+    name: "ASP-UnWorld2"
+  - status: "MISSING"
+    name: "LavaBoots"
+  DMU-Elsinore2PSX.unr:
+  - status: "OK"
+    name: "PSXFlameT"
+  - status: "MISSING"
+    name: "cryptmisc"
+  - status: "OK"
+    name: "psxStunnerUTDM"
+  - status: "OK"
+    name: "PSXShield"
+  - status: "OK"
+    name: "UPB-skybox"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  - status: "OK"
+    name: "ASP-UnWorld2"
+  - status: "MISSING"
+    name: "LavaBoots"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/1/c/4beee8/DMU-Elsinore2PSX.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Elsinore ][ (DMU)"
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 1.0
+bots: true

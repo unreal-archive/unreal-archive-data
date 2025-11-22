@@ -1,0 +1,56 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:04"
+game: "Unreal Tournament"
+name: "DMU-DecayOfMind"
+author: "Nathan Silvers"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dmu-decayofmind_shot_344e1e1e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/3/4/4e1e1e/dmu-decayofmind_shot_344e1e1e_1.png"
+originalFilename: "DMU-DecayOfMind.zip"
+hash: "344e1e1e87d9cdd55017df5f71ac2f776604e790"
+fileSize: 4164927
+files:
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+- name: "Episode2Texes.utx"
+  fileSize: 1574895
+  hash: "7cc05bd045e5fa2b48db1eebbd5cb1146e051db0"
+- name: "Opal.umx"
+  fileSize: 878087
+  hash: "a1518487353e6cdf16b29a684dbbfcf48e8696a4"
+- name: "DMU-DecayOfMind.unr"
+  fileSize: 746858
+  hash: "641aa5dee484a77c64bad60a43ac2ea26e176c18"
+- name: "UPB-L97Playrshp.utx"
+  fileSize: 1211010
+  hash: "63aae1f93c946ab67dfc8dc5de7ae6394aaba472"
+otherFiles: 0
+dependencies:
+  DMU-DecayOfMind.unr:
+  - status: "OK"
+    name: "UPB-L97Playrshp"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "Episode2Texes"
+  - status: "OK"
+    name: "oPAL"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/3/4/4e1e1e/DMU-DecayOfMind.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Decay of Mind"
+playerCount: "2-4"
+themes:
+  Natural: 0.2
+  Tech: 0.8
+bots: true
