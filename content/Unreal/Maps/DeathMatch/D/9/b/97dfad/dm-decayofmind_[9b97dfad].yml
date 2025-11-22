@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:09"
+game: "Unreal"
+name: "DM-DecayOfMind"
+author: "Nathan Silvers"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-decayofmind_shot_9b97dfad_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/D/9/b/97dfad/dm-decayofmind_shot_9b97dfad_1.png"
+originalFilename: "DM-DecayOfMind.zip"
+hash: "9b97dfad49ccf38cd66e6db72cf4f5c04960793c"
+fileSize: 3481646
+files:
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+- name: "UPB-L97Playrshp.utx"
+  fileSize: 1211010
+  hash: "63aae1f93c946ab67dfc8dc5de7ae6394aaba472"
+- name: "DM-DecayOfMind.unr"
+  fileSize: 762932
+  hash: "8d63c6f6873c2ab0db0cba6bcb3497d232666709"
+- name: "Episode2Texes.utx"
+  fileSize: 1574895
+  hash: "7cc05bd045e5fa2b48db1eebbd5cb1146e051db0"
+otherFiles: 0
+dependencies:
+  DM-DecayOfMind.unr:
+  - status: "OK"
+    name: "UPB-L97Playrshp"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "Episode2Texes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/D/9/b/97dfad/DM-DecayOfMind.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Decay of Mind"
+playerCount: "2-4"
+themes:
+  Natural: 0.2
+  Tech: 0.8
+bots: true
