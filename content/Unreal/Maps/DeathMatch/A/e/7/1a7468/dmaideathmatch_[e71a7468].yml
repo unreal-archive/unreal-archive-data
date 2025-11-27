@@ -1,0 +1,55 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:09"
+game: "Unreal"
+name: "DmAIDeathmatch"
+author: "Jason Watkins"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dmaideathmatch_shot_e71a7468_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/A/e/7/1a7468/dmaideathmatch_shot_e71a7468_1.png"
+originalFilename: "DmAIDeathmatch.zip"
+hash: "e71a74688a9a37fa522637302ecb00dff7000bb9"
+fileSize: 5741190
+files:
+- name: "UPB-Elya.utx"
+  fileSize: 4250176
+  hash: "0018e0fbba82508d8df8dd87c54246551e3fb636"
+- name: "psxStunner.u"
+  fileSize: 481015
+  hash: "0d3512205da608e7b141d0b07e1e5473eab236a1"
+- name: "UPB-skybox.utx"
+  fileSize: 951454
+  hash: "78aa2ef21ea25c96ae583beeebe7b8df41491a8e"
+- name: "DmAIDeathmatch.unr"
+  fileSize: 877724
+  hash: "210305ffb9f93c54c22e02bff9422d75cdb1c12d"
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+otherFiles: 0
+dependencies:
+  DmAIDeathmatch.unr:
+  - status: "OK"
+    name: "UPB-Elya"
+  - status: "OK"
+    name: "psxStunner"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "UPB-skybox"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/A/e/7/1a7468/DmAIDeathmatch.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "AI Deathmatch"
+playerCount: "2-4"
+themes:
+  Natural: 1.0
+bots: true

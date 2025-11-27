@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:09"
+game: "Unreal"
+name: "DK-DecayOfMind"
+author: "Nathan Silvers"
+description: "None"
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "DK-DecayOfMind.zip"
+hash: "1e43e8b0f65b89488f8ea7158a3aa5eff2895b4a"
+fileSize: 3441262
+files:
+- name: "DK-DecayOfMind.unr"
+  fileSize: 650550
+  hash: "210a09a12dc7f633079d5f253b12fad20ccc5759"
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+- name: "Episode2Texes.utx"
+  fileSize: 1574895
+  hash: "7cc05bd045e5fa2b48db1eebbd5cb1146e051db0"
+- name: "UPB-L97Playrshp.utx"
+  fileSize: 1211010
+  hash: "63aae1f93c946ab67dfc8dc5de7ae6394aaba472"
+otherFiles: 0
+dependencies:
+  DK-DecayOfMind.unr:
+  - status: "OK"
+    name: "UPB-L97Playrshp"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "Episode2Texes"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DarkMatch/D/1/e/43e8b0/DK-DecayOfMind.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DarkMatch"
+title: "Decay of Mind"
+playerCount: "2-4"
+themes:
+  Natural: 0.2
+  Tech: 0.8
+bots: true

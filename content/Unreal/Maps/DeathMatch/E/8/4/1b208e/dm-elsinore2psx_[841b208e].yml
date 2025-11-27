@@ -1,0 +1,87 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:09"
+game: "Unreal"
+name: "DM-Elsinore2PSX"
+author: "Cliff Bleszinski, rework by Leo TCK/Jack Honda"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-elsinore2psx_shot_841b208e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/E/8/4/1b208e/dm-elsinore2psx_shot_841b208e_1.png"
+originalFilename: "DM-Elsinore2PSX.zip"
+hash: "841b208e6f5469e81feab688fa5b28ea7c73d31b"
+fileSize: 10342934
+files:
+- name: "DM-Elsinore2PSX.unr"
+  fileSize: 2789562
+  hash: "ba91c1bb9ed82a8b092c285bb0e49e453551256a"
+- name: "UPB-skybox.utx"
+  fileSize: 951454
+  hash: "78aa2ef21ea25c96ae583beeebe7b8df41491a8e"
+- name: "PSXGatlingGun.u"
+  fileSize: 1007418
+  hash: "13584adf7e9071269a582a5c9afe98c6c45cbceb"
+- name: "PSXFlameT.u"
+  fileSize: 870228
+  hash: "e6b71664d3fa2b07d2f599dff41e6f25669761f4"
+- name: "Crypt2.utx"
+  fileSize: 7370018
+  hash: "37ba6110928746205676fef7362294d5ff1f107b"
+- name: "UPB-Crypt2.utx"
+  fileSize: 3562477
+  hash: "5b98eb46a21430dfa1b2e250ca106dcf5c1d6b01"
+- name: "psxStunner.u"
+  fileSize: 481015
+  hash: "0d3512205da608e7b141d0b07e1e5473eab236a1"
+- name: "PSXShield.u"
+  fileSize: 6749
+  hash: "501e1452905062afbb0687b5d492a0c536bf48c8"
+- name: "Impalerpsx.u"
+  fileSize: 442049
+  hash: "7406b773cdbca6a11b196afd07bf29f095f0907d"
+- name: "UPSXQuad.u"
+  fileSize: 191516
+  hash: "8a6b940af059fff71e8619a83606eb24ab1ca3d9"
+- name: "LavaBoots.u"
+  fileSize: 269565
+  hash: "534ad8dc9f0d95a0c6ad2ceb5ac8c6eda450ee56"
+otherFiles: 0
+dependencies:
+  DM-Elsinore2PSX.unr:
+  - status: "OK"
+    name: "PSXFlameT"
+  - status: "MISSING"
+    name: "cryptmisc"
+  - status: "OK"
+    name: "psxStunner"
+  - status: "OK"
+    name: "PSXShield"
+  - status: "OK"
+    name: "PSXGatlingGun"
+  - status: "OK"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "UPB-skybox"
+  - status: "OK"
+    name: "UPB-Crypt2"
+  - status: "OK"
+    name: "Impalerpsx"
+  - status: "OK"
+    name: "Crypt2"
+  - status: "OK"
+    name: "LavaBoots"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/Maps/DeathMatch/E/8/4/1b208e/DM-Elsinore2PSX.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Elsinore ]["
+playerCount: "Unknown"
+themes:
+  Skaarj Crypt: 1.0
+bots: true
