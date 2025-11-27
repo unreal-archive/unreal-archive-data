@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:03"
+game: "Unreal Tournament"
+name: "TDKU-DecayOfMind"
+author: "Nathan Silvers"
+description: "None"
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "TDKU-DecayOfMind.zip"
+hash: "08a239510f4a6dff3bc1dc66ae4ebe7dceb7f6e0"
+fileSize: 4170136
+files:
+- name: "UPB-Misc2.utx"
+  fileSize: 2187290
+  hash: "04cf3a45bc0d3a8c98f8a42c2553844bca0d5b3c"
+- name: "Episode2Texes.utx"
+  fileSize: 1574895
+  hash: "7cc05bd045e5fa2b48db1eebbd5cb1146e051db0"
+- name: "UPB-L97Playrshp.utx"
+  fileSize: 1211010
+  hash: "63aae1f93c946ab67dfc8dc5de7ae6394aaba472"
+- name: "TDKU-DecayOfMind.unr"
+  fileSize: 744628
+  hash: "4fbb26ba2b817f1c1e20414b307124301e99d991"
+- name: "Opal.umx"
+  fileSize: 878087
+  hash: "a1518487353e6cdf16b29a684dbbfcf48e8696a4"
+otherFiles: 0
+dependencies:
+  TDKU-DecayOfMind.unr:
+  - status: "OK"
+    name: "UPB-L97Playrshp"
+  - status: "OK"
+    name: "UPB-Misc2"
+  - status: "OK"
+    name: "Episode2Texes"
+  - status: "OK"
+    name: "oPAL"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DarkMatch/U/0/8/a23951/TDKU-DecayOfMind.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DarkMatch"
+title: "Decay of Mind"
+playerCount: "2-4"
+themes:
+  Natural: 0.2
+  Tech: 0.8
+bots: true

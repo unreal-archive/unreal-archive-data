@@ -1,0 +1,42 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:04"
+game: "Unreal Tournament"
+name: "DMU-JrathDeathmatchWep"
+author: "Nathan Silvers, rework by Jack Honda"
+description: "None"
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "DMU-JrathDeathmatchWep.zip"
+hash: "d1eec886a7da3a7566c48b636aa91969d10d972a"
+fileSize: 1325325
+files:
+- name: "DMU-JrathDeathmatchWep.unr"
+  fileSize: 2140243
+  hash: "164f7b1fb00b5709b767a38a987f6a511fdbd1db"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "psxStunnerUTDM.u"
+  fileSize: 479506
+  hash: "4021eb0776252af600bd2c5b3d368edcde3d7251"
+otherFiles: 0
+dependencies:
+  DMU-JrathDeathmatchWep.unr:
+  - status: "OK"
+    name: "psxStunnerUTDM"
+  - status: "OK"
+    name: "Fifth"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/d/1/eec886/DMU-JrathDeathmatchWep.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Jrath Deathmatch (DMU)"
+playerCount: "4-8"
+themes:
+  Natural: 1.0
+bots: true

@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:03"
+game: "Unreal Tournament"
+name: "DMU-CursePSX"
+author: "Cliff Bleszinski"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dmu-cursepsx_shot_fe58746c_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/f/e/58746c/dmu-cursepsx_shot_fe58746c_1.png"
+originalFilename: "DMU-CursePSX.zip"
+hash: "fe58746c53b8cfb8d37e5a49b7674ccca19854c6"
+fileSize: 1168826
+files:
+- name: "PSXGatlingGun.u"
+  fileSize: 1008147
+  hash: "3e940c51113a62e910c665dfdd55dc52b4f4bb83"
+- name: "UPB-Child3_y.umx"
+  fileSize: 364945
+  hash: "7cf283984adce5a1b1dd1f709efbd3b7d4062ed9"
+- name: "DMU-CursePSX.unr"
+  fileSize: 1253138
+  hash: "7ca39aa55ae9372221d2c190d2d30440c65c0358"
+otherFiles: 0
+dependencies:
+  DMU-CursePSX.unr:
+  - status: "OK"
+    name: "PSXGatlingGun"
+  - status: "OK"
+    name: "UPB-Child3_y"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/f/e/58746c/DMU-CursePSX.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Curse PSX"
+playerCount: "Unknown"
+themes:
+  Nali Castle: 1.0
+bots: true

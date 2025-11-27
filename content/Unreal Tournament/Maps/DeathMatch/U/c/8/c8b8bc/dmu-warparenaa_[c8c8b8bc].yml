@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-11-23 11:04"
+game: "Unreal Tournament"
+name: "DMU-WarpArenaA"
+author: "Jason Watkins, rework by Jack Honda"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dmu-warparenaa_shot_c8c8b8bc_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/c/8/c8b8bc/dmu-warparenaa_shot_c8c8b8bc_1.png"
+originalFilename: "DMU-WarpArenaA.zip"
+hash: "c8c8b8bc4fe69b9dac83ebb4ae00ba37cc3a9449"
+fileSize: 4988605
+files:
+- name: "DMU-WarpArenaA.unr"
+  fileSize: 522454
+  hash: "cdbe47fbf0cc308a52bf2b71e41385b2c2908ac7"
+- name: "PSXShield.u"
+  fileSize: 6749
+  hash: "501e1452905062afbb0687b5d492a0c536bf48c8"
+- name: "UPB-skybox.utx"
+  fileSize: 951454
+  hash: "78aa2ef21ea25c96ae583beeebe7b8df41491a8e"
+- name: "UPSXQuad.u"
+  fileSize: 194790
+  hash: "9bd614b909ca9794a9ff992ba78bfdf429a654f8"
+- name: "DMU-WarpArenaAWep.unr"
+  fileSize: 522351
+  hash: "3c73e1093892f6dccd8c8daad95441c9798a9d44"
+- name: "cryptmisc.utx"
+  fileSize: 5304986
+  hash: "2105eddbf4ac1123b3f9fe109069345d9fe35baf"
+- name: "QueenSong.umx"
+  fileSize: 1705901
+  hash: "8e2d583464f15093f713276f060a4df5ffae2253"
+otherFiles: 0
+dependencies:
+  DMU-WarpArenaA.unr:
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "UPB-skybox"
+  DMU-WarpArenaAWep.unr:
+  - status: "MISSING"
+    name: "ImpalerUT"
+  - status: "OK"
+    name: "QueenSong"
+  - status: "OK"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "UPB-skybox"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/U/c/8/c8b8bc/DMU-WarpArenaA.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Jrath Warp Arena A (DM)"
+playerCount: "2-4"
+themes:
+  Skaarj Tech: 1.0
+bots: true
