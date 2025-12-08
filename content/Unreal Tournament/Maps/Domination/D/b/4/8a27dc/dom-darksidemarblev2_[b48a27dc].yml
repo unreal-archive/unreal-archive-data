@@ -1,0 +1,63 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-12-08 08:27"
+game: "Unreal Tournament"
+name: "DOM-DarksideMarbleV2"
+author: "GingerCat"
+description: "None"
+releaseDate: "2025-08"
+attachments:
+- type: "IMAGE"
+  name: "dom-darksidemarblev2_shot_b48a27dc_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/D/b/4/8a27dc/dom-darksidemarblev2_shot_b48a27dc_1.png"
+originalFilename: "DarksideMarbleV2.zip"
+hash: "b48a27dc047883b38e32fb410d2e0fa7d0349032"
+fileSize: 14079135
+files:
+- name: "DomTeamSpawnMutator.u"
+  fileSize: 1615
+  hash: "1c75a0d4a7fffac5967bc1095373650d44ef72c9"
+- name: "swJumpPad.u"
+  fileSize: 23548
+  hash: "7212941ffe366e45715531864ca15ad88208362e"
+- name: "MyWavyFlare.utx"
+  fileSize: 30025
+  hash: "b9ce06145e9a8971ce7e71b07508dbb526a76f6c"
+- name: "Darkside.uax"
+  fileSize: 6816337
+  hash: "b9e2aa65f0e104c5cb6303f3f994cdb2074a280e"
+- name: "WornRock.utx"
+  fileSize: 12238022
+  hash: "7b300c4b9e0b3881a8d4dc4179c315b6fba5286b"
+- name: "DOM-DarksideMarbleV2.unr"
+  fileSize: 3966510
+  hash: "8944644d32254c134ca7a3e5201d6e49aec7aa72"
+otherFiles: 0
+dependencies:
+  DOM-DarksideMarbleV2.unr:
+  - status: "OK"
+    name: "Darkside"
+  - status: "OK"
+    name: "WornRock"
+  - status: "OK"
+    name: "MyWavyFlare"
+  - status: "OK"
+    name: "swJumpPad"
+  - status: "MISSING"
+    name: "SGTech1"
+  - status: "OK"
+    name: "DomTeamSpawnMutator"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Domination/D/b/4/8a27dc/DarksideMarbleV2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Domination"
+title: "DOM-DarksideMarble"
+playerCount: "16"
+themes:
+  Nali Temple: 0.9
+  Natural: 0.1
+bots: true
