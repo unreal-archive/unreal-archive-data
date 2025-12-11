@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-12-11 01:33"
+game: "Unreal Tournament"
+name: "DM-TheLeaningTowerOfPizza"
+author: "Jeff Martin - islandalien.com/unreal"
+description: "None"
+releaseDate: "2025-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-theleaningtowerofpizza_shot_d60c7f81_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/d/6/0c7f81/dm-theleaningtowerofpizza_shot_d60c7f81_1.png"
+originalFilename: "DM-TheLeaningTowerOfPizza.zip"
+hash: "d60c7f81281d838ef3a13fdab600d2514f429dad"
+fileSize: 7861391
+files:
+- name: "PizzaGun.u"
+  fileSize: 12563
+  hash: "9647d28b118c5dc148dabcb77e4d40cfefad669d"
+- name: "DM-TheLeaningTowerOfPizza.unr"
+  fileSize: 2129891
+  hash: "d319aa078610fe0ac89cc40970f6f565ffc5b30e"
+- name: "PizzaSauce.u"
+  fileSize: 97918
+  hash: "c121c225fcc4441099db314ae131795106a522e0"
+- name: "RadikalBikers.umx"
+  fileSize: 6932616
+  hash: "8743968e836a8fbb4ef57ae12871c72750d09006"
+otherFiles: 1
+dependencies:
+  DM-TheLeaningTowerOfPizza.unr:
+  - status: "OK"
+    name: "RadikalBikers"
+  - status: "OK"
+    name: "PizzaGun"
+  PizzaGun.u:
+  - status: "OK"
+    name: "PizzaSauce"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/T/d/6/0c7f81/DM-TheLeaningTowerOfPizza.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Leaning Tower of Pizza"
+playerCount: "Unknown"
+themes:
+  Nali Temple: 1.0
+bots: true
