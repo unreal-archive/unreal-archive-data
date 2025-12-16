@@ -1,0 +1,82 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-12-07 10:27"
+game: "Unreal Tournament"
+name: "MH-December24th_2025"
+author: "Kayako +Titled"
+description: "None"
+releaseDate: "2025-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-december24th_2025_shot_482eef2b_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/4/8/2eef2b/mh-december24th_2025_shot_482eef2b_1.png"
+- type: "IMAGE"
+  name: "mh-december24th_2025_shot_482eef2b_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/4/8/2eef2b/mh-december24th_2025_shot_482eef2b_3.png"
+- type: "IMAGE"
+  name: "mh-december24th_2025_shot_482eef2b_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/4/8/2eef2b/mh-december24th_2025_shot_482eef2b_2.png"
+originalFilename: "MH-December24th2025.zip"
+hash: "482eef2b64630bf32c470cca77aab7e7a4dd96b4"
+fileSize: 7865435
+files:
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "ScriptedScreen.utx"
+  fileSize: 244270
+  hash: "b5f75a008483ebae1d70dbc153ed48ff76feda47"
+- name: "ScreenFonts.utx"
+  fileSize: 1032240
+  hash: "ee3da8e5af8fa8a9b5563c7b1542bf020c626ad6"
+- name: "MH-December24th_2025.unr"
+  fileSize: 12930589
+  hash: "c1f08a3ac6eefc9d99a293b313f26253ab042345"
+- name: "Screen.u"
+  fileSize: 309292
+  hash: "1b5cab634e09f393db1832a50eb10d0f46ca67ca"
+- name: "Tree_PACK1.u"
+  fileSize: 1547509
+  hash: "65f7c97c3e53e7e4cbd9560d5194d283314d52ab"
+otherFiles: 3
+dependencies:
+  Screen.u:
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "OK"
+    name: "ScreenFonts"
+  MH-December24th_2025.unr:
+  - status: "OK"
+    name: "oldskool"
+  - status: "OK"
+    name: "Screen"
+  - status: "OK"
+    name: "Tree_PACK1"
+  - status: "OK"
+    name: "ScriptedScreen"
+  - status: "MISSING"
+    name: "MonsterHunt"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "MISSING"
+    name: "olweapons"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/D/4/8/2eef2b/MH-December24th2025.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "December 24th nightmare"
+playerCount: "4-8"
+themes:
+  Industrial: 0.1
+  Nali Castle: 0.2
+  Skaarj Tech: 0.1
+  Ancient: 0.6
+bots: true
