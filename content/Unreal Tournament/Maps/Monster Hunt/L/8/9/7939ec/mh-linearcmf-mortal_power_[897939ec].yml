@@ -1,0 +1,83 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2025-12-25 14:07"
+game: "Unreal Tournament"
+name: "MH-[LineARC]MF-Mortal_Power"
+author: "[LineARC]"
+description: "Take Down The Mortal God"
+releaseDate: "2025-12"
+attachments:
+- type: "IMAGE"
+  name: "mh-linearcmf-mortal_power_shot_897939ec_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/8/9/7939ec/mh-linearcmf-mortal_power_shot_897939ec_1.png"
+originalFilename: "[LineARC]Mortal-Power.zip"
+hash: "897939ecc45da4445c83ae099b1f92fce6cdd9a3"
+fileSize: 15748465
+files:
+- name: "MHFlogo.utx"
+  fileSize: 88962
+  hash: "0be3a21f3fdcc16e573658138dfb77537f12f411"
+- name: "blue_aura_b.umx"
+  fileSize: 2799554
+  hash: "fb0856f12244cad05713b2c18a833a56ce8a89d5"
+- name: "AWM_beta1.u"
+  fileSize: 1244542
+  hash: "2cce6fcdb21b728960403c75c0556a993e5ee5ae"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-[LineARC]MF-Mortal_Power.unr"
+  fileSize: 1430292
+  hash: "50b8d06e01497678f67791adfb8ac8fa6a2276cb"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "RMDMonsterTextures.utx"
+  fileSize: 6473180
+  hash: "4d4638292fb763375c0ba950b1f5a178f8b65440"
+- name: "Excessive1_6c.u"
+  fileSize: 352293
+  hash: "ec32d6828c12b8d91dc7f7e3e82326f9bea99d41"
+- name: "RemidasSkyBox.utx"
+  fileSize: 6362135
+  hash: "15171ee840134d510058985f0f7dc312119aef68"
+- name: "EOColorPics.utx"
+  fileSize: 7343811
+  hash: "0c90bcb73c8dddb3c498e7a4a7aab84cf5fedd71"
+otherFiles: 0
+dependencies:
+  Excessive1_6c.u:
+  - status: "OK"
+    name: "EOColorPics"
+  MH-[LineARC]MF-Mortal_Power.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "Fluid"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Excessive1_6c"
+  - status: "OK"
+    name: "blue_aura_b"
+  - status: "OK"
+    name: "AWM_beta1"
+  - status: "OK"
+    name: "RemidasSkyBox"
+  - status: "OK"
+    name: "RMDMonsterTextures"
+  - status: "OK"
+    name: "MHFlogo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/L/8/9/7939ec/%5BLineARC%5DMortal-Power.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Mortal Power"
+playerCount: "16-25"
+themes:
+  Natural: 1.0
+bots: true
