@@ -1,0 +1,1 @@
+Assault mod conversion of the Assault gametype from UT99 and UT2004, where one team attacks an objective while another team defends.
