@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-01-05 19:14"
+game: "Unreal Tournament 2004"
+name: "ProSniperRifle [TDM]"
+author: "%k's Rifle.\""
+description: "Pro Sniper Rifle [TDM], Modified and Compiled by [PSI]PsySniper"
+releaseDate: "2005-12"
+attachments: []
+originalFilename: "prosniperrifle_mod_7zlx.zip"
+hash: "635c4a272b0f0e2c9b1ed46ce2d285ddb1bc986c"
+fileSize: 619041
+files:
+- name: "ProSniperRifle_MOD_7ZLX.u"
+  fileSize: 2753950
+  hash: "eb4a4ea18cff797d359decc13c048bcacb06cfe5"
+- name: "Sniper3rdFLash.ukx"
+  fileSize: 109756
+  hash: "e14829f77bc28321274478f4d541e1fd225fbe9c"
+- name: "Sniper_AnimsFlash.ukx"
+  fileSize: 173621
+  hash: "324271101fc070d4a11158322391eda18b06cc19"
+otherFiles: 5
+dependencies:
+  ProSniperRifle_MOD_7ZLX.u:
+  - status: "OK"
+    name: "Sniper3rdFLash"
+  - status: "OK"
+    name: "Sniper_AnimsFlash"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/P/6/3/5c4a27/prosniperrifle_mod_7zlx.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "ProSniperRifle [TDM]"
+  description: "Pro Sniper Rifle [TDM], Modified and Compiled by [PSI]PsySniper"
+weapons:
+- name: "ProSniper [TDM]"
+  description: "The Pro Sniper Rifle [TDM]."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
