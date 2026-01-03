@@ -1,4 +1,4 @@
-## Introduction
+### Introduction
 
 The ArenaMaster mod was first conceptualized in September of 2003. As part of a spirited plan to enhance Unreal Tournament,
 it introduces a new form of online tournament competition for the Unreal Tournament series. Inspired by thoroughbred horse
@@ -12,7 +12,7 @@ of Unreal Tournament 2004, the team has play-tested this mod for tens of thousan
 amount of feedback producing over 40 revisions, and has added many features successfully meeting its overall objective:
 to create a game flow dynamic that leads to fun, exciting, and suspenseful gameplay.
 
-## Features:
+### Features:
 
 - Contains ArenaMaster (AM), Team ArenaMaster (TAM), and Freon gametypes
 - Gameplay is based on rounds; Each player has only 1 life per round
@@ -26,7 +26,7 @@ to create a game flow dynamic that leads to fun, exciting, and suspenseful gamep
 - Shock Combo ammo reduced from 5 to 3
 - Overtime period drains all remaining players of health at the same rate
 
-## How To Play:
+### How To Play:
 
 1. Player spawns with full health, armor, weapons, and ammo.
 2. No player can fire or be damaged during the first few seconds of play.
@@ -36,7 +36,7 @@ to create a game flow dynamic that leads to fun, exciting, and suspenseful gamep
 6. The more points a player/team has, the less health and armor they spawn with
 7. Score enough points (i.e. 7) and the match is won.
 
-## Freon:
+### Freon:
 
 Based off of freeze tag, freon is a round based game, built off of TAMs gameplay. Instead of just killing a player
 and eliminating him from the round, he is frozen.
