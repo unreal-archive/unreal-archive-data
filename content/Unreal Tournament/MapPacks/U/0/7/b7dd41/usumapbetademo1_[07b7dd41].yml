@@ -1,0 +1,112 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-01-13 08:11"
+game: "Unreal Tournament"
+name: "Unreal Skaarj Unleashed Map Beta 1"
+author: "USU Team"
+description: "None"
+releaseDate: "2005-10"
+attachments:
+- type: "IMAGE"
+  name: "usumapbetademo1_shot_07b7dd41_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/0/7/b7dd41/usumapbetademo1_shot_07b7dd41_1.png"
+originalFilename: "usuMAPBetaDemo1.zip"
+hash: "07b7dd412b774f9d6ca0cbb35df9c1280e04fd94"
+fileSize: 27301817
+files:
+- name: "PartickelSystem.u"
+  fileSize: 24002
+  hash: "ac21a950d1d5dbc9e5e365016698be417973c740"
+- name: "PartikelErweitert.u"
+  fileSize: 912721
+  hash: "e74feb4583fed2535cc4836bca84055c049ea33b"
+- name: "richrig.utx"
+  fileSize: 2234223
+  hash: "e2115772791315c91cdf6ab99e687d2f94e5685d"
+- name: "UTemple.umx"
+  fileSize: 759465
+  hash: "7ca535e589f466c2c11faeee97e437e137a70bdc"
+- name: "DigSh.umx"
+  fileSize: 620182
+  hash: "3d33727c460c8c7ce1d1cb69591f71f4754d9e18"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "USUMine-fc.utx"
+  fileSize: 4039721
+  hash: "996a66ccef4a8402cf18f5821921be97653f655c"
+- name: "BETAusu-xx-Crevv3.unr"
+  fileSize: 15829507
+  hash: "eea3cc9ea7cbf9dd8650e10ab976b514893ca366"
+- name: "nalipente2005.unr"
+  fileSize: 8305363
+  hash: "1694b3a28ddad6b918cffb3c361cfe737afaa2ac"
+- name: "USUScripts.u"
+  fileSize: 320692
+  hash: "135c67c23dce35761f6c97da0600bc9b4bb78b9a"
+- name: "USU_JB_Tex.utx"
+  fileSize: 11344082
+  hash: "b66f36dc4b5cede09366410de0c4d1ba4cdd2bff"
+- name: "MK_Partickle_Textures.utx"
+  fileSize: 2324871
+  hash: "3ee62d77b104360947c5a000b167e9db3f555e6e"
+- name: "usu_jb_actors.u"
+  fileSize: 6190855
+  hash: "f1f4b97b843797c4d4161ebecb8bed92e7d4def8"
+otherFiles: 2
+dependencies:
+  BETAusu-xx-Crevv3.unr:
+  - status: "OK"
+    name: "usu_jb_actors"
+  - status: "OK"
+    name: "USU_JB_Tex"
+  - status: "OK"
+    name: "richrig"
+  - status: "OK"
+    name: "USUScripts"
+  - status: "OK"
+    name: "DigSh"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "USUMine-fc"
+  PartikelErweitert.u:
+  - status: "OK"
+    name: "USU_JB_Tex"
+  - status: "OK"
+    name: "PartickelSystem"
+  nalipente2005.unr:
+  - status: "OK"
+    name: "UTemple"
+  PartickelSystem.u:
+  - status: "OK"
+    name: "MK_Partickle_Textures"
+  usu_jb_actors.u:
+  - status: "OK"
+    name: "PartickelSystem"
+  - status: "OK"
+    name: "PartikelErweitert"
+  - status: "OK"
+    name: "USUScripts"
+  - status: "OK"
+    name: "USU_JB_Tex"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/MapPacks/U/0/7/b7dd41/usuMAPBetaDemo1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "BETAusu-xx-Crevv3"
+  title: "BETAusu-xx-Crevv3"
+  author: "Crev (+ shaman, Wolf ...)"
+- name: "nalipente2005"
+  title: "The Ruins of Nali'Pente"
+  author: "Tim \"Kew\" Jervis, Martin Winkler"
+gametype: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.2
+  Nali Castle: 0.5
+  Skaarj Tech: 0.2
