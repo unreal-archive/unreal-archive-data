@@ -1,0 +1,63 @@
+on:
+  push:
+    branches: [ master ]
+
+env:
+  UA_VERSION: 1.23.6
+  UA_DOWNLOAD_TOKEN: a6dc3d38abd9a7b8052047cebc5befe79a735ab5
+  UA_BIN: /tmp/ua
+  WWW_LOCATION: /tmp/ua-www
+  SITE_URL: https://new.unrealarchive.org
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Install Unreal Archive
+        env:
+          STATIC_ROOT: "${SITE_URL}/static"
+        run: |
+          curl -H "Authorization: token ${UA_DOWNLOAD_TOKEN}" \
+            "https://git.pookaroo.au/api/packages/shrimp/maven/org/unrealarchive/www/${UA_VERSION}/www-${UA_VERSION}-bin.tgz" \
+            -o ua-www.tgz
+          tar xzf ua-www.tgz
+          mv unreal-archive-www/* ${UA_BIN}
+
+      - name: Setup Deploy Key
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          set -eu
+          install -m 700 -d ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+
+      - name: Build
+        run: |
+          mkdir -p ${WWW_LOCATION}
+          ${UA_BIN}/bin/www www ${WWW_LOCATION} --content-path=./ --store=NOP \
+            --with-search=true \
+            --with-latest=true \
+            --with-submit=true \
+            --with-packages=true \
+            --with-wikis=true \
+            --with-umod=true
+
+      - name: Publish
+        shell: sh
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          set -eu
+          ls ${WWW_LOCATION} | xargs -P4 -I% \
+            rsync -rzht -e "ssh -p ${DEPLOY_PORT} -o StrictHostKeyChecking=no -i ~/.ssh/deploy_key" \
+            ${WWW_LOCATION}/% ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}
