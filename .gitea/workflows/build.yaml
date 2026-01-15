@@ -17,6 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          token: "${{ secrets.REPOSITORY_READ }}"
           submodules: true
 
       - name: Install Unreal Archive
