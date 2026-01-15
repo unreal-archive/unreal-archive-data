@@ -28,6 +28,7 @@ jobs:
             "https://git.pookaroo.au/api/packages/shrimp/maven/org/unrealarchive/www/${UA_VERSION}/www-${UA_VERSION}-bin.tgz" \
             -o ua-www.tgz
           tar xzf ua-www.tgz
+          mkdir -p ${UA_BIN}
           mv unreal-archive-www/* ${UA_BIN}
 
       - name: Setup Deploy Key
