@@ -30,7 +30,7 @@ jobs:
           tar xzf ua-www.tgz
           mkdir -p ${UA_BIN}
           mv unreal-archive-www/* ${UA_BIN}
-          ls -al ${UA_BIN}
+          ls -al ${UA_BIN}/bin
 
       - name: Setup Deploy Key
         env:
