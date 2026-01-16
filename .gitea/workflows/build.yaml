@@ -20,10 +20,11 @@ jobs:
           token: "${{ secrets.REPOSITORY_READ }}"
           submodules: true
 
-      - name: Install Unreal Archive
+      - name: Install Unreal Archive and dependencies
         env:
           STATIC_ROOT: "${SITE_URL}/static"
         run: |
+          apt-get update && apt-get install -y rsync
           curl -H "Authorization: token ${UA_DOWNLOAD_TOKEN}" \
             "https://git.pookaroo.au/api/packages/shrimp/maven/org/unrealarchive/www/${UA_VERSION}/www-${UA_VERSION}-bin.tgz" \
             -o ua-www.tgz
