@@ -1,0 +1,52 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-01-17 05:51"
+game: "Unreal Tournament 2004"
+name: "BR-Bounce"
+author: "Myles Lambert"
+description: "Fast Paced Mid Air Bombing Run Map For AddonDB Mapping Competition \"\
+  On The Edge\"."
+releaseDate: "2007-03"
+attachments:
+- type: "IMAGE"
+  name: "br-bounce_shot_24de1b8d_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/B/2/4/de1b8d/br-bounce_shot_24de1b8d_1.png"
+- type: "IMAGE"
+  name: "br-bounce_shot_24de1b8d_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/B/2/4/de1b8d/br-bounce_shot_24de1b8d_2.png"
+originalFilename: "BR-Bounce.zip"
+hash: "24de1b8d2cf76bf989209dc42d214f2a926507bd"
+fileSize: 2653701
+files:
+- name: "BR-Bounce.ut2"
+  fileSize: 4842474
+  hash: "20fe9c43bf0cf9b362c00d14e1a73500bae0287e"
+- name: "BounceTextures.utx"
+  fileSize: 5624252
+  hash: "ac2d9372c2c67f3257efc03db1fcfbf65a161acf"
+- name: "BounceMeshes.usx"
+  fileSize: 1391512
+  hash: "876ca42f713501a44273dbb5eb7cc3168d71fcf6"
+otherFiles: 2
+dependencies:
+  BR-Bounce.ut2:
+  - status: "OK"
+    name: "BounceMeshes"
+  - status: "OK"
+    name: "BounceTextures"
+  BounceMeshes.usx:
+  - status: "OK"
+    name: "BounceTextures"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Bombing%20Run/B/2/4/de1b8d/BR-Bounce.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Bombing Run"
+title: "Bounce"
+playerCount: "8-12"
+themes:
+  Industrial: 1.0
+bots: true
