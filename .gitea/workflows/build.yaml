@@ -3,7 +3,7 @@ on:
     branches: [ master ]
 
 env:
-  UA_VERSION: 1.23.6
+  UA_VERSION: 1.23.8
   UA_DOWNLOAD_TOKEN: a6dc3d38abd9a7b8052047cebc5befe79a735ab5
   UA_BIN: /tmp/ua
   WWW_LOCATION: /tmp/ua-www
@@ -51,7 +51,9 @@ jobs:
             --with-submit=true \
             --with-packages=true \
             --with-wikis=true \
-            --with-umod=true
+            --with-umod=true \
+            --with-collections=false \
+            --attachment-rewrites="https://ua-img.s3.us-west-002.backblazeb2.com/=/file/img/"
 
       - name: Publish
         shell: sh
