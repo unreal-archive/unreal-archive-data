@@ -70,11 +70,11 @@ jobs:
 
       - name: Sync Search Index
         env:
-          MES_CONTENT_URL: ${SITE_URL}/search/api/ua
+          MES_CONTENT_URL: ${{ env.SITE_URL }}/search/api/ua
           MES_CONTENT_TOKEN: ${{ secrets.MSE_TOKEN }}
-          MES_WIKI_URL: ${SITE_URL}/search/api/uaw
+          MES_WIKI_URL: ${{ env.SITE_URL }}/search/api/uaw
           MES_WIKI_TOKEN: ${{ secrets.MSE_TOKEN }}
-          MES_PACKAGE_URL: ${SITE_URL}/search/api/uap
+          MES_PACKAGE_URL: ${{ env.SITE_URL }}/search/api/uap
           MES_PACKAGE_TOKEN: ${{ secrets.MSE_TOKEN }}
         run: |
           ${UA_BIN}/bin/www search-submit --content-path=./ --store=NOP
