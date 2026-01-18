@@ -3,7 +3,7 @@ on:
     branches: [ master ]
 
 env:
-  UA_VERSION: 1.23.8
+  UA_VERSION: 1.23.9
   UA_DOWNLOAD_TOKEN: a6dc3d38abd9a7b8052047cebc5befe79a735ab5
   UA_BIN: /tmp/ua
   WWW_LOCATION: /tmp/ua-www
@@ -71,10 +71,10 @@ jobs:
       - name: Sync Search Index
         env:
           MES_CONTENT_URL: ${{ env.SITE_URL }}/search/api/ua
-          MES_CONTENT_TOKEN: ${{ secrets.MSE_TOKEN }}
+          MES_CONTENT_TOKEN: ${{ secrets.MES_TOKEN }}
           MES_WIKI_URL: ${{ env.SITE_URL }}/search/api/uaw
-          MES_WIKI_TOKEN: ${{ secrets.MSE_TOKEN }}
+          MES_WIKI_TOKEN: ${{ secrets.MES_TOKEN }}
           MES_PACKAGE_URL: ${{ env.SITE_URL }}/search/api/uap
-          MES_PACKAGE_TOKEN: ${{ secrets.MSE_TOKEN }}
+          MES_PACKAGE_TOKEN: ${{ secrets.MES_TOKEN }}
         run: |
           ${UA_BIN}/bin/www search-submit --content-path=./ --store=NOP
