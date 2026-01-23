@@ -1,0 +1,71 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-01-26 12:11"
+game: "Unreal Tournament"
+name: "MH-City(v4)"
+author: "Shane Caudle moded by Hexen"
+description: "This is Version 4 WOOT"
+releaseDate: "2026-01"
+attachments:
+- type: "IMAGE"
+  name: "mh-cityv4_shot_80bb85ea_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/8/0/bb85ea/mh-cityv4_shot_80bb85ea_2.png"
+- type: "IMAGE"
+  name: "mh-cityv4_shot_80bb85ea_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/8/0/bb85ea/mh-cityv4_shot_80bb85ea_1.png"
+originalFilename: "MH-City(v4).7z"
+hash: "80bb85ea89eb2c18995bf95feae27b9b02adbffa"
+fileSize: 3994689
+files:
+- name: "cityendstex.utx"
+  fileSize: 225756
+  hash: "8a62370e113cd576c1efb8f691659a87f3cb9946"
+- name: "Isotoxin.umx"
+  fileSize: 471465
+  hash: "a5c5528fc0ee11b7f46ed1106480680766b7008c"
+- name: "LPCityDecos01.u"
+  fileSize: 281265
+  hash: "1d5e03bccd3edc9abcff8230bf4871e9d1723f36"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MH-City(v4).unr"
+  fileSize: 6311128
+  hash: "a3ca160e1a0cc8309b5241aae4eace9db9a1c08a"
+- name: "LPSigns01.utx"
+  fileSize: 1126700
+  hash: "f733718819fd943378b923ab9c4ee2c79e355a37"
+- name: "LPDecoTex01.utx"
+  fileSize: 3197984
+  hash: "c9fc0e51b753b3d897b85bdb4d8e41e8a71d2e1c"
+otherFiles: 2
+dependencies:
+  LPCityDecos01.u:
+  - status: "OK"
+    name: "LPSigns01"
+  - status: "OK"
+    name: "LPDecoTex01"
+  MH-City(v4).unr:
+  - status: "OK"
+    name: "Isotoxin"
+  - status: "OK"
+    name: "LPCityDecos01"
+  - status: "OK"
+    name: "cityendstex"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Hunt/C/8/0/bb85ea/MH-City(v4).7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "v4 of The City Ends...."
+playerCount: "4 to 5"
+themes:
+  Tech: 0.1
+  Industrial: 0.4
+  City: 0.6
+bots: true
