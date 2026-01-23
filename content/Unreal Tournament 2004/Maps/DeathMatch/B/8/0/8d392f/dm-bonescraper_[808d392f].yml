@@ -1,0 +1,88 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-15 20:10"
+game: "Unreal Tournament 2004"
+name: "DM-Bonescraper"
+author: "Unknown"
+description: "None"
+releaseDate: "2026-02"
+attachments: []
+originalFilename: "Bonescraper.zip"
+hash: "808d392ffec249c48cd5a5e201f207b339e3808c"
+fileSize: 25351980
+files:
+- name: "QuakeLiveT01.utx"
+  fileSize: 1925279
+  hash: "44841880a96931a14c632ca016c3a2fdcc780ed5"
+- name: "NEpic.utx"
+  fileSize: 3150523
+  hash: "1d6973ce1f55054d291a7c6864f2f9f2fb90324e"
+- name: "DM-Bonescraper.ut2"
+  fileSize: 21732207
+  hash: "817c1c1ff47841157e7e306d25e5bd0633cc3f9c"
+- name: "QuakeLiveT02.utx"
+  fileSize: 5724639
+  hash: "cbbf184387675561002ff093c712416471b52416"
+- name: "QuakeLiveSM01.usx"
+  fileSize: 465627
+  hash: "fd601728e426e729d0dbd7d40a2f0f3d9c9b8779"
+- name: "nepo.utx"
+  fileSize: 5250619
+  hash: "9c0311a57aa6aa57d12b9834a90c80bb5cafc9dd"
+- name: "U2AtlantisM.usx"
+  fileSize: 15428880
+  hash: "d57953d415b9b8f53952b5a9b8ec40e8bf24b99b"
+- name: "Bone.utx"
+  fileSize: 3762624
+  hash: "929b7eb1d927949b7b6a11cf7cb34e4a6dfb5f39"
+- name: "minimegatex.utx"
+  fileSize: 1119
+  hash: "654bc5b5dbb315d7906ebb7ffa434c21e4d2c2c2"
+- name: "UTML.utx"
+  fileSize: 2796804
+  hash: "352ab1d147cd165c943df5e24cff0d2921ccc9d2"
+- name: "QuakeLiveS01.uax"
+  fileSize: 344105
+  hash: "d15604ffcebe7a89b360984e3d5317f166bd6478"
+otherFiles: 0
+dependencies:
+  DM-Bonescraper.ut2:
+  - status: "OK"
+    name: "nepo"
+  - status: "OK"
+    name: "QuakeLiveSM01"
+  - status: "OK"
+    name: "NEpic"
+  - status: "OK"
+    name: "U2AtlantisM"
+  - status: "OK"
+    name: "Bone"
+  QuakeLiveSM01.usx:
+  - status: "OK"
+    name: "QuakeLiveT01"
+  - status: "OK"
+    name: "QuakeLiveT02"
+  QuakeLiveT01.utx:
+  - status: "OK"
+    name: "QuakeLiveT02"
+  U2AtlantisM.usx:
+  - status: "MISSING"
+    name: "U2_AtlantisT"
+  - status: "MISSING"
+    name: "U2_JamesT"
+  - status: "MISSING"
+    name: "U2_MattT"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/DeathMatch/B/8/0/8d392f/Bonescraper.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Bonescraper"
+playerCount: "Unknown"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true
