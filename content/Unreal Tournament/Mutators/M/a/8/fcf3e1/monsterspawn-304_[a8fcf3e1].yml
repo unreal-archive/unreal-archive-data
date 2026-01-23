@@ -1,0 +1,53 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-02-16 04:23"
+game: "Unreal Tournament"
+name: "MonsterSpawn 3.04"
+author: "- Asgard"
+description: ""
+releaseDate: "2026-02"
+attachments:
+- type: "IMAGE"
+  name: "monsterspawn-304_shot_a8fcf3e1_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/M/a/8/fcf3e1/monsterspawn-304_shot_a8fcf3e1_1.png"
+- type: "IMAGE"
+  name: "monsterspawn-304_shot_a8fcf3e1_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/M/a/8/fcf3e1/monsterspawn-304_shot_a8fcf3e1_2.png"
+originalFilename: "monsterspawn304_fixed.zip"
+hash: "a8fcf3e14bb896768073cb33e39c014a07e32643"
+fileSize: 1771993
+files:
+- name: "MonsterSpawn304_fixed.u"
+  fileSize: 1425718
+  hash: "655f8002cc66f63cacbd55d105cdfbea6683b979"
+- name: "TeamBrutes.u"
+  fileSize: 1996258
+  hash: "990ab4a09afa60fdbe55fb9ab4826028784f9be9"
+- name: "brainbag.u"
+  fileSize: 181604
+  hash: "165df3fbf6ff581b125f3b818e19b52a4db1a9d7"
+- name: "TeamMonster.u"
+  fileSize: 604219
+  hash: "8c8c6918d96919c63bbb88c5c0fa3441861ea84f"
+otherFiles: 9
+dependencies:
+  brainbag.u:
+  - status: "OK"
+    name: "TeamMonster"
+  TeamBrutes.u:
+  - status: "OK"
+    name: "TeamMonster"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Mutators/M/a/8/fcf3e1/monsterspawn304_fixed.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "MonsterSpawn 3.04"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
