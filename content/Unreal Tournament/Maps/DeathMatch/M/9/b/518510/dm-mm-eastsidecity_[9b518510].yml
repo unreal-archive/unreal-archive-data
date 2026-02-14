@@ -1,0 +1,66 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-10 02:13"
+game: "Unreal Tournament"
+name: "DM-MM-EastsideCity"
+author: "Mindscape_UT@hotmail.com"
+description: "East-Side City"
+releaseDate: "2004-06"
+attachments: []
+originalFilename: "mm-eastsidecity.zip"
+hash: "9b5185109c5efeceabc3dcc31975d45fedbee313"
+fileSize: 13737476
+files:
+- name: "MMCITYB.utx"
+  fileSize: 7678689
+  hash: "37ebb92b1cf2d92924409c73263a65d442ed47ce"
+- name: "defaultX.utx"
+  fileSize: 88988
+  hash: "ef55bb6c102fabbc7cfc1a1472ddaa95e7f06d77"
+- name: "mmlogo1.utx"
+  fileSize: 88954
+  hash: "06016f3790bd652468c55526ff82776047c8fbd6"
+- name: "DM-MM-EastsideCity.unr"
+  fileSize: 8152305
+  hash: "af73cdfeeb2fbcac03ba6edf22920ad377dc21fd"
+- name: "WSWestern_Pack1.u"
+  fileSize: 4225497
+  hash: "4e4df1842b5135050c3a14f3d12afb3030330a3e"
+- name: "MMCITY.utx"
+  fileSize: 4443839
+  hash: "c0d1edc7158b81b45eb745139905b428ba6ddfc7"
+- name: "MMCITYA.utx"
+  fileSize: 2804061
+  hash: "cce375e19dd9542f2c22692cb47984463a846e85"
+otherFiles: 0
+dependencies:
+  DM-MM-EastsideCity.unr:
+  - status: "OK"
+    name: "MMCITY"
+  - status: "OK"
+    name: "WSWestern_Pack1"
+  - status: "OK"
+    name: "defaultX"
+  - status: "OK"
+    name: "MMCITYB"
+  - status: "OK"
+    name: "MMCITYA"
+  - status: "OK"
+    name: "mmlogo1"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/b/518510/mm-eastsidecity.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "East-Side City"
+playerCount: "24-32"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  Skaarj Tech: 0.6
+bots: true
