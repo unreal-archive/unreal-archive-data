@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-10 02:13"
+game: "Unreal Tournament"
+name: "DM-MM-Snipercomplex"
+author: "mindscape_ut@hotmail.com"
+description: "snipercomplex by mindscape"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "mm-snipercomplex.zip"
+hash: "97190b07c6e6e68697569b5588969b6ac09309b9"
+fileSize: 541248
+files:
+- name: "DM-MM-Snipercomplex.unr"
+  fileSize: 2335106
+  hash: "4a2292bda66076035767e073ae1eeedc721e94df"
+- name: "mmlogo1.utx"
+  fileSize: 88954
+  hash: "06016f3790bd652468c55526ff82776047c8fbd6"
+otherFiles: 0
+dependencies:
+  DM-MM-Snipercomplex.unr:
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "mmlogo1"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/9/7/190b07/mm-snipercomplex.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Snipercomplex"
+playerCount: "12-16 players"
+themes:
+  Natural: 0.4
+  Tech: 0.2
+  Industrial: 0.4
+bots: true

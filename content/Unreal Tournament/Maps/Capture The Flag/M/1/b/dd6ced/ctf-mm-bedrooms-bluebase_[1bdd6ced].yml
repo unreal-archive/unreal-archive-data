@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-10 02:13"
+game: "Unreal Tournament"
+name: "CTF-MM-Bedrooms-(Bluebase)"
+author: "Jake \"Kid Ying\" Byrd"
+description: "original by Jake \"Kid Ying\" Byrd .....Made more fair by Mindscape"
+releaseDate: "2004-07"
+attachments: []
+originalFilename: "mm-bedrooms(blue).zip"
+hash: "1bdd6cedb0d49861c4962fd41531d735f533b310"
+fileSize: 5579069
+files:
+- name: "yon.umx"
+  fileSize: 5762453
+  hash: "76cf03c520fd7b01d2d0369fc001a6f30e055fd5"
+- name: "CTF-MM-Bedrooms-(Bluebase).unr"
+  fileSize: 677406
+  hash: "827df394711a240f27de3b71b7b7277c07edb958"
+- name: "mmlogo2.utx"
+  fileSize: 88954
+  hash: "9005cbca76e9f8c82e50da8ce742dc09f3cce364"
+- name: "Bedroom.utx"
+  fileSize: 1442504
+  hash: "bc5075336da8f9a1acbca6212eda7c09f962b194"
+otherFiles: 0
+dependencies:
+  CTF-MM-Bedrooms-(Bluebase).unr:
+  - status: "OK"
+    name: "mmlogo2"
+  - status: "OK"
+    name: "Bedroom"
+  - status: "MISSING"
+    name: "bahlogos2"
+  - status: "OK"
+    name: "yon"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/1/b/dd6ced/mm-bedrooms(blue).zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Battle of the Small-(Blue)"
+playerCount: "4-10"
+themes:
+  Nali Temple: 0.9
+  Ancient: 0.1
+bots: true
