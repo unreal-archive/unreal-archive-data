@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-10 02:13"
+game: "Unreal Tournament"
+name: "DM-MM-Camperskitchen"
+author: "Mindscape_UT@hotmail.com"
+description: "Campers Kitchen made by Mindscape"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "mm-camperskitchen.zip"
+hash: "b1d52065ae27e813289eac457247cf3c011eb7f1"
+fileSize: 477681
+files:
+- name: "kittexx.utx"
+  fileSize: 253423
+  hash: "657ca44c5f16fc53bc0d454b412d29728c7c8160"
+- name: "DM-MM-Camperskitchen.unr"
+  fileSize: 962202
+  hash: "05ffa78f0578e9e1995bf93ca9bf8edb4822a8d9"
+otherFiles: 0
+dependencies:
+  DM-MM-Camperskitchen.unr:
+  - status: "OK"
+    name: "kittexx"
+  - status: "MISSING"
+    name: "mmlogo1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/b/1/d52065/mm-camperskitchen.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Campers Kitchen"
+playerCount: "players 16-20"
+themes:
+  Tech: 0.2
+  Skaarj Crypt: 0.2
+  City: 0.2
+  Industrial: 0.4
+  Skaarj Tech: 0.1
+bots: true
