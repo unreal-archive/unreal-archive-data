@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-10 02:13"
+game: "Unreal Tournament"
+name: "CTF-MM-Bedrooms-(Redbase)"
+author: "Jake \"Kid Ying\" Byrd"
+description: "Original by Jake \"King Ying\" Byrd\"......made more fair by Mindscape"
+releaseDate: "2004-07"
+attachments: []
+originalFilename: "mm-bedrooms(red).zip"
+hash: "3f848df158582a879c6ca891d70aafe507f3cb84"
+fileSize: 5517077
+files:
+- name: "Bedroom.utx"
+  fileSize: 1442504
+  hash: "bc5075336da8f9a1acbca6212eda7c09f962b194"
+- name: "Syphony.umx"
+  fileSize: 5770157
+  hash: "d8f87e4eea5109b195117e141878a7e0933d3600"
+- name: "mmlogo2.utx"
+  fileSize: 88954
+  hash: "9005cbca76e9f8c82e50da8ce742dc09f3cce364"
+- name: "CTF-MM-Bedrooms-(Redbase).unr"
+  fileSize: 673080
+  hash: "53029f19456523c3dff3aa65336f461ea032e082"
+otherFiles: 0
+dependencies:
+  CTF-MM-Bedrooms-(Redbase).unr:
+  - status: "OK"
+    name: "Syphony"
+  - status: "OK"
+    name: "mmlogo2"
+  - status: "OK"
+    name: "Bedroom"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/3/f/848df1/mm-bedrooms(red).zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Battle of the Small-(Red)"
+playerCount: "4-10"
+themes:
+  Nali Temple: 0.9
+bots: true

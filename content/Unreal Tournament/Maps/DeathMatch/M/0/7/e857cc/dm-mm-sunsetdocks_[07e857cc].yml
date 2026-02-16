@@ -1,0 +1,58 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-10 02:13"
+game: "Unreal Tournament"
+name: "DM-MM-SunsetDocks"
+author: "Mindscape_UT@hotmail.com"
+description: "Welcome to Sunset Docks"
+releaseDate: "2004-05"
+attachments: []
+originalFilename: "mm-sunsetdocks.zip"
+hash: "07e857cc74bba8b420381ee91b56c616be0a2a1c"
+fileSize: 5351471
+files:
+- name: "defaultX.utx"
+  fileSize: 88988
+  hash: "ef55bb6c102fabbc7cfc1a1472ddaa95e7f06d77"
+- name: "mmlogo1.utx"
+  fileSize: 88954
+  hash: "06016f3790bd652468c55526ff82776047c8fbd6"
+- name: "ccitexa.utx"
+  fileSize: 2401490
+  hash: "bc63e665d14f3fe19b2be123c1dde746d0042f7e"
+- name: "DM-MM-SunsetDocks.unr"
+  fileSize: 2603243
+  hash: "e47002bd9e4824d451b8114cd61d041ac7d0d0b9"
+- name: "ccitex.utx"
+  fileSize: 4264217
+  hash: "b649e06775a68e993888146175ef6c6d8d4db902"
+otherFiles: 0
+dependencies:
+  DM-MM-SunsetDocks.unr:
+  - status: "OK"
+    name: "defaultX"
+  - status: "OK"
+    name: "ccitexa"
+  - status: "OK"
+    name: "ccitex"
+  - status: "OK"
+    name: "mmlogo1"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/M/0/7/e857cc/mm-sunsetdocks.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Sunset Docks"
+playerCount: "12-16"
+themes:
+  Tech: 0.1
+  City: 0.3
+  Industrial: 0.4
+  Skaarj Tech: 0.2
+  Nali Castle: 0.1
+bots: true
