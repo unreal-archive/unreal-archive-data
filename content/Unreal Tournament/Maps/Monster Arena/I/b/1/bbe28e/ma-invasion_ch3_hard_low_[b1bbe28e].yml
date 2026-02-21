@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-15 01:57"
+game: "Unreal Tournament"
+name: "MA-Invasion_CH3_hard_low"
+author: "Naked Monster"
+description: "Defend the base!"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "ma-invasion_ch3_hard_low_shot_b1bbe28e_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Arena/I/b/1/bbe28e/ma-invasion_ch3_hard_low_shot_b1bbe28e_1.png"
+originalFilename: "ma-invasion_ch3_hard_low.zip"
+hash: "b1bbe28ea9456357896e317c3260b789dc606a3a"
+fileSize: 4939122
+files:
+- name: "monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "MJD.u"
+  fileSize: 2666233
+  hash: "dd67ff11e6e933ff8b874fdf7301ea2a949efd73"
+- name: "MA-Invasion_CH3_hard_low.unr"
+  fileSize: 3820107
+  hash: "716ffe5910a53a551f9ef6488c90b54d0b6492bb"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "AWM_beta1.u"
+  fileSize: 1244542
+  hash: "2cce6fcdb21b728960403c75c0556a993e5ee5ae"
+otherFiles: 2
+dependencies:
+  MA-Invasion_CH3_hard_low.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "sgtech1"
+  - status: "OK"
+    name: "MJD"
+  - status: "OK"
+    name: "monsterhunt"
+  - status: "OK"
+    name: "AWM_beta1"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Arena/I/b/1/bbe28e/ma-invasion_ch3_hard_low.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Arena"
+title: "Invasion chapter 3"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+bots: true

@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-15 01:57"
+game: "Unreal Tournament"
+name: "MA-InvasionCH3"
+author: "Naked Monster"
+description: "Defend the base!"
+releaseDate: "2012-07"
+attachments:
+- type: "IMAGE"
+  name: "ma-invasionch3_shot_05fa3c75_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Arena/I/0/5/fa3c75/ma-invasionch3_shot_05fa3c75_1.png"
+originalFilename: "ma-invasionch3.zip"
+hash: "05fa3c75b0293a83e3b93445465c1fb5f4deac0b"
+fileSize: 4660977
+files:
+- name: "MH4ever.u"
+  fileSize: 3587680
+  hash: "a89a3cb338346e1a29ff44a55f466290c3f4a26f"
+- name: "monsterhunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "sky.utx"
+  fileSize: 4228486
+  hash: "76f55cbb2d7a17ec74e59636831413edb3cd8c8a"
+- name: "MA-InvasionCH3.unr"
+  fileSize: 3240186
+  hash: "0926b585db957fe21185c76fc24b42dd583f1dfb"
+otherFiles: 2
+dependencies:
+  MA-InvasionCH3.unr:
+  - status: "OK"
+    name: "sky"
+  - status: "MISSING"
+    name: "sgtech1"
+  - status: "OK"
+    name: "monsterhunt"
+  - status: "OK"
+    name: "MH4ever"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Monster%20Arena/I/0/5/fa3c75/ma-invasionch3.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Arena"
+title: "Invasion chapter 3"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Industrial: 0.7
+  Skaarj Tech: 0.1
+bots: true
