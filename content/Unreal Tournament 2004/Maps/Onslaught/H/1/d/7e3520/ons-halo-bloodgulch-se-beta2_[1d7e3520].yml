@@ -1,0 +1,92 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-16 15:31"
+game: "Unreal Tournament 2004"
+name: "ONS-Halo-Bloodgulch-SE-Beta2"
+author: "konsept"
+description: "A small two node Onslaught map, based off of the Halo Map, BloodGulch."
+releaseDate: "2010-06"
+attachments:
+- type: "IMAGE"
+  name: "ons-halo-bloodgulch-se-beta2_shot_1d7e3520_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/H/1/d/7e3520/ons-halo-bloodgulch-se-beta2_shot_1d7e3520_1.png"
+- type: "IMAGE"
+  name: "ons-halo-bloodgulch-se-beta2_shot_1d7e3520_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/H/1/d/7e3520/ons-halo-bloodgulch-se-beta2_shot_1d7e3520_2.png"
+- type: "IMAGE"
+  name: "ons-halo-bloodgulch-se-beta2_shot_1d7e3520_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/H/1/d/7e3520/ons-halo-bloodgulch-se-beta2_shot_1d7e3520_3.png"
+- type: "IMAGE"
+  name: "ons-halo-bloodgulch-se-beta2_shot_1d7e3520_4.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/H/1/d/7e3520/ons-halo-bloodgulch-se-beta2_shot_1d7e3520_4.png"
+originalFilename: "ONS-Halo-Bloodgulch-SE-Beta2.rar"
+hash: "1d7e352072648278d79449b025e856bcd010223b"
+fileSize: 5561764
+files:
+- name: "HaloRWarthog.u"
+  fileSize: 20296
+  hash: "ef3338fda663a63564a36b85e0d7780c27dc8aad"
+- name: "PumaSounds.uax"
+  fileSize: 278845
+  hash: "c70c168922e3da510a8e26e751118618380d11b6"
+- name: "HaloVehicles_SM.usx"
+  fileSize: 2722268
+  hash: "786c886940be99b1c6cd215ffd8efe136065a0bf"
+- name: "HaloVehicles_A.ukx"
+  fileSize: 3121878
+  hash: "5acb5baa8e3e5637b41499251bf0a9f3d4050dc6"
+- name: "HaloVehicles_T.utx"
+  fileSize: 4236807
+  hash: "8381d780880f37bd07cce6675b1e43af6d33bd82"
+- name: "HaloWarthog.u"
+  fileSize: 23012
+  hash: "d063f6634ee75e999a467f5e08566dacb297f22f"
+- name: "ONS-Halo-Bloodgulch-SE-Beta2.ut2"
+  fileSize: 6841790
+  hash: "8d85826b37d0c2b7213f222bf3818ca50c0eaf7e"
+otherFiles: 3
+dependencies:
+  HaloVehicles_SM.usx:
+  - status: "OK"
+    name: "HaloVehicles_T"
+  ONS-Halo-Bloodgulch-SE-Beta2.ut2:
+  - status: "OK"
+    name: "HaloWarthog"
+  - status: "OK"
+    name: "HaloRWarthog"
+  HaloRWarthog.u:
+  - status: "OK"
+    name: "HaloVehicles_A"
+  - status: "OK"
+    name: "HaloVehicles_SM"
+  - status: "OK"
+    name: "PumaSounds"
+  - status: "OK"
+    name: "HaloVehicles_T"
+  HaloVehicles_A.ukx:
+  - status: "OK"
+    name: "HaloVehicles_SM"
+  - status: "OK"
+    name: "HaloVehicles_T"
+  HaloWarthog.u:
+  - status: "OK"
+    name: "HaloVehicles_A"
+  - status: "OK"
+    name: "HaloVehicles_SM"
+  - status: "OK"
+    name: "PumaSounds"
+  - status: "OK"
+    name: "HaloVehicles_T"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Onslaught/H/1/d/7e3520/ONS-Halo-Bloodgulch-SE-Beta2.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Onslaught"
+title: "ONS-BloodGulch"
+playerCount: "Unknown"
+themes:
+  Tech: 1.0
+bots: true
