@@ -1,0 +1,80 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-02-18 10:37"
+game: "Unreal"
+name: "UTBetaLogoPack"
+author: "Unknown"
+description: "None"
+releaseDate: "2024-12"
+attachments: []
+originalFilename: "UTBetaLogoPack.rar"
+hash: "63ca8fee03ad384ed2e1f7f539eb996c62773827"
+fileSize: 3249512
+files:
+- name: "xyzdMenu2.umx"
+  fileSize: 682997
+  hash: "d81422cbc627927dfa2c817e5bfde0def400cbf8"
+- name: "menu2x.umx"
+  fileSize: 950703
+  hash: "c8d59da23080d7fa2a0e02748bd21a6f885071d1"
+- name: "UT-Logo-Beta2.unr"
+  fileSize: 8958
+  hash: "9f63607f9560c4c4a93d3ace6d8d124db242ad9f"
+- name: "UT-Logo-Beta1.unr"
+  fileSize: 8397
+  hash: "25296f24f5c324ac2521d562c33ca355f171e160"
+- name: "UTBetaLogo.u"
+  fileSize: 3400774
+  hash: "54a95888d0334c91dd982161581422bc42061483"
+- name: "UT-Logo-Beta2X.unr"
+  fileSize: 8966
+  hash: "c663ab91e58f98dfe9779027efb176102ce3cd50"
+otherFiles: 0
+dependencies:
+  UT-Logo-Beta2X.unr:
+  - status: "MISSING"
+    name: "UT_ArtFX"
+  - status: "OK"
+    name: "menu2x"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "OK"
+    name: "UTBetaLogo"
+  UTBetaLogo.u:
+  - status: "MISSING"
+    name: "Botpack"
+  UT-Logo-Beta2.unr:
+  - status: "MISSING"
+    name: "UT_ArtFX"
+  - status: "OK"
+    name: "xyzdMenu2"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "OK"
+    name: "UTBetaLogo"
+  UT-Logo-Beta1.unr:
+  - status: "OK"
+    name: "xyzdMenu2"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "OK"
+    name: "UTBetaLogo"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal/MapPacks/U/6/3/ca8fee/UTBetaLogoPack.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "UT-Logo-Beta2"
+  title: "Beta Logo 222"
+  author: "Unknown"
+- name: "UT-Logo-Beta1"
+  title: "Beta Logo 221"
+  author: "Unknown"
+- name: "UT-Logo-Beta2X"
+  title: "Beta Logo 222"
+  author: "Unknown"
+gametype: "Tests and Demos"
+themes: {}
