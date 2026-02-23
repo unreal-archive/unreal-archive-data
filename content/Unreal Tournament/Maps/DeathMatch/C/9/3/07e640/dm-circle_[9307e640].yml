@@ -1,0 +1,48 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-21 20:51"
+game: "Unreal"
+name: "dm-Circle"
+author: "Unknown"
+description: "None"
+releaseDate: "2024-07"
+attachments: []
+originalFilename: "DM-Circle.zip"
+hash: "9307e640f70cae9a4decebcbb1c0426ed3874d76"
+fileSize: 5581321
+files:
+- name: "dm-Circle.unr"
+  fileSize: 588881
+  hash: "7ea36513000e5e902545b530483c82740ff3fce5"
+- name: "GenFluid.utx"
+  fileSize: 5510043
+  hash: "5ee9f593826f9099b6a94457e38942cf13c31bf8"
+- name: "Quake3.utx"
+  fileSize: 1237127
+  hash: "3b5a26d626517bdb047883cb4534a6ffb49c51ad"
+- name: "Tech.utx"
+  fileSize: 1243382
+  hash: "903d6f6914e0ac48e9a75c3a90f4763ea5705839"
+otherFiles: 0
+dependencies:
+  dm-Circle.unr:
+  - status: "OK"
+    name: "Tech"
+  - status: "MISSING"
+    name: "UPak"
+  - status: "OK"
+    name: "Quake3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/DeathMatch/C/9/3/07e640/DM-Circle.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "dm-Circle"
+playerCount: "Unknown"
+themes:
+  Natural: 0.1
+  Tech: 0.9
+bots: false
