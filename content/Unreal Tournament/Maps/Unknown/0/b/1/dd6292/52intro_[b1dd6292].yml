@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-02-27 00:04"
+game: "Unreal Tournament"
+name: "52Intro"
+author: "ProblemSolva"
+description: "None"
+releaseDate: "2022-10"
+attachments: []
+originalFilename: "TC52ClientDemo.zip"
+hash: "b1dd6292454341fbd3fdac373d6c3afdb5c0da62"
+fileSize: 147820
+files:
+- name: "TC52in1ModMenu.u"
+  fileSize: 835063
+  hash: "2a444f938c154ea1deb90f8ba40fe2da7878b029"
+- name: "TC52in1ModMain.u"
+  fileSize: 39834
+  hash: "d5ad7148d940f5142c21fb78c941b8dc6cb553c3"
+- name: "52Intro.unr"
+  fileSize: 7576
+  hash: "f21e83a0c4e77eb8333b51ae5d53acf9fe32fd60"
+otherFiles: 1
+dependencies:
+  TC52in1ModMain.u:
+  - status: "MISSING"
+    name: "UPak"
+  - status: "MISSING"
+    name: "WildWestMod"
+  "52Intro.unr":
+  - status: "OK"
+    name: "TC52in1ModMain"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/0/b/1/dd6292/TC52ClientDemo.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "intro"
+playerCount: "Unknown"
+themes: {}
+bots: false
