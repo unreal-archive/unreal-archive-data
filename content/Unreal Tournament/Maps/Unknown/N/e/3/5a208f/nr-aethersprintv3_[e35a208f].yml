@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-03-03 01:09"
+game: "Unreal Tournament"
+name: "NR-AetherSprintV3"
+author: "ATB (Inspired by NuLL)"
+description: "None"
+releaseDate: "2026-02"
+attachments:
+- type: "IMAGE"
+  name: "nr-aethersprintv3_shot_e35a208f_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/N/e/3/5a208f/nr-aethersprintv3_shot_e35a208f_1.png"
+originalFilename: "NR-AetherSprint.zip"
+hash: "e35a208fe085258861441c508c53c73b81b010ec"
+fileSize: 8000774
+files:
+- name: "Godown.umx"
+  fileSize: 2044027
+  hash: "2f14075992b32e270c2e87c1a5507a412d0c5f84"
+- name: "NRPickups.u"
+  fileSize: 15278
+  hash: "1232a2485f1519fdd62b384e31ab10385835c0db"
+- name: "NuclearRacesBETA1-3.u"
+  fileSize: 325984
+  hash: "b5a8a2ffacd26c84421dbeca682e59aa75c11391"
+- name: "NRSigns.utx"
+  fileSize: 4561307
+  hash: "abc34af9c41a9572123eb96bcf86d9081e6db1ac"
+- name: "NR-AetherSprintV3.unr"
+  fileSize: 15996416
+  hash: "7314b50779e56bb19f2971f50695313fb2a67458"
+- name: "NuclearRaceDecov1.u"
+  fileSize: 105302
+  hash: "f6813b5977d88fd11395f9a91a8340ab1592a99f"
+- name: "SLVPickups205.u"
+  fileSize: 7239
+  hash: "5e76a35042542fe43e7595a0fb9ec9d0f39f7239"
+- name: "SLV205.u"
+  fileSize: 1188106
+  hash: "7ef0b92fba6d16cb754828563dbcb18d3e200567"
+otherFiles: 1
+dependencies:
+  SLV205.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "MISSING"
+    name: "SLV2Textures"
+  - status: "MISSING"
+    name: "SLV2Sounds"
+  NuclearRacesBETA1-3.u:
+  - status: "MISSING"
+    name: "isaxss"
+  SLVPickups205.u:
+  - status: "OK"
+    name: "SLV205"
+  NR-AetherSprintV3.unr:
+  - status: "OK"
+    name: "SLV205"
+  - status: "OK"
+    name: "NRSigns"
+  - status: "OK"
+    name: "NuclearRaceDecov1"
+  - status: "OK"
+    name: "SLVPickups205"
+  - status: "OK"
+    name: "NRPickups"
+  - status: "OK"
+    name: "NuclearRacesBETA1-3"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament/Maps/Unknown/N/e/3/5a208f/NR-AetherSprint.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "Aether Sprint"
+playerCount: "1-18"
+themes:
+  Ancient: 1.0
+bots: true
