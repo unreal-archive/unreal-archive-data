@@ -1,0 +1,73 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2018-10-21 00:00"
+game: "Unreal Tournament 2004"
+name: "OSM-Guide"
+author: "Glenn 'SuperApe' Storm"
+description: "This map was designed to guide level designers in creating their own\
+  \ OSM Adventure maps.||Although playable, this map is really meant to be reverse\
+  \ engineered in UnrealEd.||Note actors are easily read by copy/pasting the text\
+  \ into a simple text editor."
+releaseDate: "2006-10"
+attachments:
+- type: "IMAGE"
+  name: "OSM-Guide_shot_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Single%20Player/G/d/1/29a812/OSM-Guide_shot_2.png"
+- type: "IMAGE"
+  name: "OSM-Guide_shot_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Single%20Player/G/d/1/29a812/OSM-Guide_shot_1.png"
+originalFilename: "osmguide.zip"
+hash: "d129a812504db3e13333e52f03c154ba0326f668"
+fileSize: 1589962
+files:
+- name: "OSM-Guide.ut2"
+  fileSize: 3764755
+  hash: "3296a3e30ff5b151aa871d509119e640f17dba38"
+- name: "OSMTex.utx"
+  fileSize: 627326
+  hash: "b8a65362b5c34f9b5b4abd32125ba568e3648aa8"
+- name: "OSMT.u"
+  fileSize: 566904
+  hash: "40c12b285eb0be93b75969001182a37aad277f7f"
+otherFiles: 5
+dependencies:
+  OSMT.u:
+  - status: "OK"
+    name: "OSMTex"
+  OSM-Guide.ut2:
+  - status: "OK"
+    name: "OSMT"
+  - status: "OK"
+    name: "OSMTex"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/Misc/&file=osmguide.zip"
+  direct: false
+  state: "OK"
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/OSM/&file=osm-guide.zip"
+  direct: false
+  state: "OK"
+- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/maps/single-player/osmguide.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/Maps/Single%20Player/G/d/1/29a812/osmguide.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/Single%20Player/G/d/1/29a812/osmguide.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%202004/Maps/Single%20Player/G/d/1/29a812/osmguide.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Maps/Single%20Player/G/d/1/29a812/osmguide.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Old Skool Monsta Toolz"
+title: "OSM-Guide"
+playerCount: "1"
+themes:
+  Tech: 0.8
+  Industrial: 0.2
+bots: true
