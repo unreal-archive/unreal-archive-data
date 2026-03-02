@@ -1,0 +1,38 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-03-02 14:21"
+game: "Unreal Tournament 2004"
+name: "YellowRL"
+author: "Jan 'Luggage' Kaluza"
+description: "Rocket Launchers are yellow instead of red."
+releaseDate: "2002-10"
+attachments: []
+originalFilename: "yellowRL.zip"
+hash: "59f673057b32e74016f9ac9fbed676be62e923ee"
+fileSize: 32429
+files:
+- name: "YellowRL.u"
+  fileSize: 2406
+  hash: "f65d45f4848cb44e94ddfbeddf13ebabd8eec36a"
+- name: "YellowRLskins.utx"
+  fileSize: 87904
+  hash: "aeafbbff3acc817a7591b371efca0d2f1072b97f"
+otherFiles: 3
+dependencies:
+  YellowRL.u:
+  - status: "OK"
+    name: "YellowRLskins"
+downloads:
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/Mutators/Y/5/9/f67305/yellowRL.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "YellowRL"
+  description: "Rocket Launchers are yellow instead of red."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
