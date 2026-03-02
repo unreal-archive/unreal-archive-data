@@ -8,17 +8,20 @@ description: "Total Conversion featuring realistic modern weapons, environments 
   \ gameplay."
 titleImage: "title.png"
 bannerImage: ""
-altNames: ["FaceOff", "Face Off", "Face-Off"]
+altNames:
+- "FaceOff"
+- "Face Off"
+- "Face-Off"
 links: {}
 problemLinks: {}
 credits: {}
 gameTypes:
-  - name: "Faceoff TeamDM"
-    description: ""
-  - name: "Faceoff CTF"
-    description: ""
-  - name: "Faceoff Objective"
-    description: ""
+- name: "Faceoff TeamDM"
+  description: ""
+- name: "Faceoff CTF"
+  description: ""
+- name: "Faceoff Objective"
+  description: ""
 mutators: []
 maps:
 - name: "Entry"
@@ -90,6 +93,9 @@ releases:
     platform: "ANY"
     downloads:
     - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202003/faceoff/faceoff_alpha10.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202003/faceoff/faceoff_alpha10.zip"
       direct: true
       state: "OK"
     originalFilename: "faceoff_alpha10.zip"
@@ -945,6 +951,9 @@ releases:
     platform: "WINDOWS"
     downloads:
     - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202003/faceoff/faceoff_alpha10_umod.exe"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202003/faceoff/faceoff_alpha10_umod.exe"
       direct: true
       state: "OK"
     originalFilename: "faceoff_alpha10_umod.exe"
@@ -1809,6 +1818,9 @@ releases:
     platform: "ANY"
     downloads:
     - url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/gametypes/Unreal%20Tournament%202003/faceoff/faceoff_alpha12_patch.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202003/faceoff/faceoff_alpha12_patch.zip"
       direct: true
       state: "OK"
     originalFilename: "faceoff_alpha12_patch.zip"

@@ -1,0 +1,105 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2018-11-05 15:35"
+variationOf: "48a4244bdbc5010b60b843f064797a22024dc50f"
+game: "Unreal Tournament 2004"
+name: "(CTF/DM/ONS)-battle field"
+author: "Andrew. M"
+description: "None"
+releaseDate: "2005-11"
+attachments:
+- type: "IMAGE"
+  name: "Battle_Field_Map_Pack_And_Patch_1_0_shot_3.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_Field_Map_Pack_And_Patch_1_0_shot_3.png"
+- type: "IMAGE"
+  name: "Battle_Field_Map_Pack_And_Patch_1_0_shot_2.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_Field_Map_Pack_And_Patch_1_0_shot_2.png"
+- type: "IMAGE"
+  name: "Battle_Field_Map_Pack_And_Patch_1_0_shot_1.png"
+  url: "https://ua-img.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_Field_Map_Pack_And_Patch_1_0_shot_1.png"
+originalFilename: "Battle_field_map_pack_and_patch_1.0.zip"
+hash: "eb7f98c6dbf7dfaa51bd8e227682b349290ca25f"
+fileSize: 16083218
+files:
+- name: "Andrew's_meshes.usx"
+  fileSize: 66788
+  hash: "3cfd020a268f2d7ef64fd39296a894a034e0b376"
+- name: "battlefield_ONS_textures.utx"
+  fileSize: 3976932
+  hash: "09da4cd915fe8e557ad85928604441edb3bbadbc"
+- name: "DM-battle field.ut2"
+  fileSize: 11508935
+  hash: "b00c258273f9eea5c4af03e36b87598e7190149a"
+- name: "andrews_meshes.usx"
+  fileSize: 3807944
+  hash: "9392ad5b1a85eb35ada59c559c0b09182cbe71d8"
+- name: "VehicleOverdrive.u"
+  fileSize: 3524
+  hash: "8d34198b3c9ab1dd5759d543dddfff239b422741"
+- name: "ONS-battle field.ut2"
+  fileSize: 11506138
+  hash: "157b97a2aa0ee3d089737d165f972fa99d3ecab2"
+- name: "CTF-battle field.ut2"
+  fileSize: 11560117
+  hash: "7ffda1e2409c0c1b544727b4c94e02920110b76c"
+otherFiles: 1
+dependencies:
+  andrews_meshes.usx:
+  - status: "MISSING"
+    name: "aaa"
+  CTF-battle field.ut2:
+  - status: "OK"
+    name: "VehicleOverdrive"
+  - status: "OK"
+    name: "battlefield_ONS_textures"
+  - status: "OK"
+    name: "andrews_meshes"
+  DM-battle field.ut2:
+  - status: "OK"
+    name: "VehicleOverdrive"
+  - status: "OK"
+    name: "battlefield_ONS_textures"
+  - status: "OK"
+    name: "andrews_meshes"
+  ONS-battle field.ut2:
+  - status: "OK"
+    name: "battlefield_ONS_textures"
+  - status: "OK"
+    name: "andrews_meshes"
+downloads:
+- url: "http://ut2004.ut-files.com/index.php?dir=Maps/MapPacks/&file=Battle_field_map_pack_and_patch_1.0.zip"
+  direct: false
+  state: "OK"
+- url: "https://files.vohzd.com/unreal/unreal-tournament-2004/map-packs/mixed/Battle_field_map_pack_and_patch_1.0.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files.eu-central-1.linodeobjects.com/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_field_map_pack_and_patch_1.0.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchiveusa.blob.core.windows.net/files/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_field_map_pack_and_patch_1.0.zip"
+  direct: true
+  state: "OK"
+- url: "https://unrealarchivesgp.blob.core.windows.net/files/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_field_map_pack_and_patch_1.0.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-s3.s3.us-west-002.backblazeb2.com/Unreal%20Tournament%202004/MapPacks/B/e/b/7f98c6/Battle_field_map_pack_and_patch_1.0.zip"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/MapPacks/C/e/b/7f98c6/Battle_field_map_pack_and_patch_1.0.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-battle field"
+  title: "The Battle Field."
+  author: "Andrew. M"
+- name: "ONS-battle field"
+  title: "The Battle Field."
+  author: "Andrew. M"
+- name: "CTF-battle field"
+  title: "The Battle Field."
+  author: "Andrew. M"
+gametype: "Mixed"
+themes: {}
