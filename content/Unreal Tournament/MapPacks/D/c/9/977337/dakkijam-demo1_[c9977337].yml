@@ -1,0 +1,50 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-03-06 23:34"
+game: "Unreal Tournament"
+name: "DakkiJam Demo1"
+author: "Unknown"
+description: "None"
+releaseDate: "2025-08"
+attachments: []
+originalFilename: "DakkiJam_Demo1.zip"
+hash: "c997733709b1cf441f1551e4b19a117274b3b8e4"
+fileSize: 1087250
+files:
+- name: "DakkiJam1_Demo1.utx"
+  fileSize: 391171
+  hash: "8a9f6dbcea0f0366c3debc70f4340cda70421656"
+- name: "DM-DJ1-NaliSanctDemo1.unr"
+  fileSize: 1681668
+  hash: "e6c095251ed0b87a757fad1ad349a886170e2008"
+- name: "DM-DJ1-PlayplaceDemo1.unr"
+  fileSize: 1532962
+  hash: "168fd842055f4b61dc45d91e806e7c811c46c5bc"
+otherFiles: 1
+dependencies:
+  DM-DJ1-PlayplaceDemo1.unr:
+  - status: "OK"
+    name: "DakkiJam1_Demo1"
+  DM-DJ1-NaliSanctDemo1.unr:
+  - status: "OK"
+    name: "DakkiJam1_Demo1"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/D/c/9/977337/DakkiJam_Demo1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-DJ1-NaliSanctDemo1"
+  title: "Nali Sanctum"
+  author: "Akage \"THEBaratusII\" Megane"
+- name: "DM-DJ1-PlayplaceDemo1"
+  title: "Dakkichan Funhouse"
+  author: "Akage \"THEBaratusII\" Megane"
+gametype: "DeathMatch"
+themes:
+  Nali Temple: 0.2
+  Tech: 0.4
+  Nali Castle: 0.3
+  Ancient: 0.1
