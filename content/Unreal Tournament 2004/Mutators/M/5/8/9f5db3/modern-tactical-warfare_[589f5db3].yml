@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-08 12:29"
+game: "Unreal Tournament 2004"
+name: "Modern Tactical Warfare"
+author: "Duncan 'Skeedish' Fleming"
+description: ""
+releaseDate: "2003-01"
+attachments: []
+originalFilename: "stratus_v1.2.1.zip"
+hash: "589f5db34fbe65fc324cc80404d29e7c5f3fdc32"
+fileSize: 2004909
+files:
+- name: "Stratus.u"
+  fileSize: 243291
+  hash: "e67d6e2935512245439282268995def6654e7a47"
+- name: "StratusTex.utx"
+  fileSize: 5248029
+  hash: "a9a2ee0950d65d1ec9a373090400148805bbe764"
+otherFiles: 2
+dependencies:
+  Stratus.u:
+  - status: "OK"
+    name: "StratusTex"
+  - status: "MISSING"
+    name: "KaosGuns"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/M/5/8/9f5db3/stratus_v1.2.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Modern Tactical Warfare"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false

@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-04-08 12:29"
+game: "Unreal Tournament 2004"
+name: "phizics"
+author: "Unknown"
+description: "None"
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "physicsdemo.zip"
+hash: "06fc714f92e94488154065750750b67a95d4cc35"
+fileSize: 1217148
+files:
+- name: "Anubisphyz.usx"
+  fileSize: 2058560
+  hash: "d01f5ab98a919c446dea464713b3c32a3b83ff18"
+- name: "PipePhyz.usx"
+  fileSize: 8780
+  hash: "1e90e66a49b00ac3732fe612dc3284680ce4243a"
+- name: "BarrenPhyz.usx"
+  fileSize: 540917
+  hash: "e76b2a4068a61e24d7100f5521faca2b96f7e900"
+- name: "phizics.ut2"
+  fileSize: 386945
+  hash: "1445ba31f8afbe34c3f076ccd87b6c9cc731b391"
+otherFiles: 0
+dependencies:
+  phizics.ut2:
+  - status: "OK"
+    name: "BarrenPhyz"
+  - status: "OK"
+    name: "PipePhyz"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Unknown/P/0/6/fc714f/physicsdemo.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "phizics"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: true
