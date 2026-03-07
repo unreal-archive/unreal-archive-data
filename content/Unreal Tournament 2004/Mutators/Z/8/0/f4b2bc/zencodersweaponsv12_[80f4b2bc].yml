@@ -1,0 +1,72 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-08 04:33"
+game: "Unreal Tournament 2004"
+name: "Zencodersweaponsv12"
+author: "-=Musc@t=-"
+description: "None"
+releaseDate: "2003-04"
+attachments:
+- type: "IMAGE"
+  name: "zencodersweaponsv12_shot_80f4b2bc_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/Z/8/0/f4b2bc/zencodersweaponsv12_shot_80f4b2bc_1.png"
+originalFilename: "zencodersweaponsv12.zip"
+hash: "80f4b2bc6218550b69f902520212ee8da10bb829"
+fileSize: 1452133
+files:
+- name: "ZWeaponsSnd.uax"
+  fileSize: 66091
+  hash: "15651484abfd6be0ebe08e5b00c8e9430125cce8"
+- name: "ZWeaponsTextures2.utx"
+  fileSize: 2103361
+  hash: "f5c3a35cc697f7a35a63909144899bc62940209a"
+- name: "ZWeaponsIcons.utx"
+  fileSize: 350358
+  hash: "92dc70609b7e186313ff24565ff2ea0008068ff0"
+- name: "ZWeaponsStatic2.usx"
+  fileSize: 1128511
+  hash: "93d8594cfdc63cdfb81efe3f95a23b84ef378dab"
+- name: "ZAmmoSkins2.utx"
+  fileSize: 175528
+  hash: "31dd651a4232ba7cd77dc1704f1528c677a4d645"
+- name: "ZencodersWeaponsV12.u"
+  fileSize: 67294
+  hash: "b898b3aa0710dfc35e7bbf2f1863f877d819580e"
+- name: "ZWeaponsAnim2.ukx"
+  fileSize: 457443
+  hash: "c3c33bd75cd1fc800fc98dc2ab3421bf08371fe5"
+otherFiles: 5
+dependencies:
+  ZWeaponsAnim2.ukx:
+  - status: "OK"
+    name: "ZWeaponsTextures2"
+  ZencodersWeaponsV12.u:
+  - status: "OK"
+    name: "ZWeaponsAnim2"
+  - status: "OK"
+    name: "ZWeaponsIcons"
+  - status: "OK"
+    name: "ZWeaponsSnd"
+  - status: "OK"
+    name: "ZWeaponsStatic2"
+  - status: "OK"
+    name: "ZAmmoSkins2"
+  ZWeaponsStatic2.usx:
+  - status: "OK"
+    name: "Zweaponstextures2"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/Z/8/0/f4b2bc/zencodersweaponsv12.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "MP5_Mutator"
+  description: ""
+- name: "Benelli_Mutator"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
