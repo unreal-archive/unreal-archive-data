@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-08 12:28"
+game: "Unreal Tournament 2004"
+name: "HealthBot"
+author: "Unknown"
+description: ""
+releaseDate: "2026-04"
+attachments: []
+originalFilename: "healthbot.ut2mod"
+hash: "298aeb662227c42c7c2097a9782fab2da76f2310"
+fileSize: 1999943
+files:
+- name: "healthbottextures.utx"
+  fileSize: 898633
+  hash: "20f549f2be6b4bd7047bf0e73530aaa5520fe4e1"
+- name: "healthbot.u"
+  fileSize: 1094949
+  hash: "c5e09739914b07e2938b16616f7a7860404c134b"
+- name: "healthbot.ut2mod"
+  fileSize: 1999943
+  hash: "298aeb662227c42c7c2097a9782fab2da76f2310"
+otherFiles: 4
+dependencies:
+  healthbot.u:
+  - status: "OK"
+    name: "healthbottextures"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/H/2/9/8aeb66/healthbot.ut2mod"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "HealthBot"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
