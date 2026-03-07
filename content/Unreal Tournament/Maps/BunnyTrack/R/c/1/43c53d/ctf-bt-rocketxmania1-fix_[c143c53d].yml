@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-05-17 22:21"
+game: "Unreal Tournament"
+name: "CTF-BT-RocketXMania1-fix"
+author: "Unknown, fix by Pawel"
+description: "None"
+releaseDate: "2026-05"
+attachments: []
+originalFilename: "CTF-BT-RocketXMania1-fix.zip"
+hash: "c143c53d1cef18eb71cf4f65fbe8d9e9d89510e7"
+fileSize: 10302986
+files:
+- name: "RocketX3E.u"
+  fileSize: 2194173
+  hash: "09c627548c285b1629295c576954d3c751763714"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "CTF-BT-RocketXMania1-fix.unr"
+  fileSize: 6811791
+  hash: "66ae3a169c1d088918a1e030778f99dc6bdb4deb"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "RBtexture.utx"
+  fileSize: 2647992
+  hash: "7e2ceac312d1170c894aa0c71d92524f8d588b02"
+- name: "thepromise.umx"
+  fileSize: 5130850
+  hash: "9e9451ce64d9cda302de3934ac4f31f7e0431940"
+otherFiles: 0
+dependencies:
+  CTF-BT-RocketXMania1-fix.unr:
+  - status: "OK"
+    name: "RocketX3E"
+  - status: "OK"
+    name: "thepromise"
+  - status: "OK"
+    name: "RBtexture"
+  RocketX3E.u:
+  - status: "MISSING"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/BunnyTrack/R/c/1/43c53d/CTF-BT-RocketXMania1-fix.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "BunnyTrack"
+title: "RocketXMania-dbl"
+playerCount: "100"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.4
+bots: false
