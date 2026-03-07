@@ -1,0 +1,67 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-08 14:07"
+game: "Unreal Tournament 2004"
+name: "AirPowerMutator"
+author: "Shawn **Monarch** Yarbrough\t\t\t\t="
+description: ""
+releaseDate: "2026-04"
+attachments:
+- type: "IMAGE"
+  name: "airpowermutator_shot_0f576968_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/A/0/f/576968/airpowermutator_shot_0f576968_1.png"
+originalFilename: "airpower_ver_1[1].5.ut2mod"
+hash: "0f576968c4c86adcf9cf08ae5cbf70031d21eee3"
+fileSize: 42082392
+files:
+- name: "AirPowerAnim.ukx"
+  fileSize: 6198515
+  hash: "06fe77fc06c3dbd6e1c21a2feba98201ff210810"
+- name: "airpower_ver_1[1].5.ut2mod"
+  fileSize: 42082392
+  hash: "0f576968c4c86adcf9cf08ae5cbf70031d21eee3"
+- name: "AirPowerST.usx"
+  fileSize: 1488323
+  hash: "2912adb96ba4cbfcd685e2391c415fd55a2dc5ba"
+- name: "APSpawnRifleTex.utx"
+  fileSize: 5251213
+  hash: "7172794b05ab24e855351674b49f622b22ab6893"
+- name: "AirPower.u"
+  fileSize: 7584693
+  hash: "9dd19343fa22571251701f8e43d82a2299a1a6c0"
+- name: "AirPowerTex.utx"
+  fileSize: 16478603
+  hash: "c056834c86299665739beca7a824799140142665"
+- name: "AirPowerSND.uax"
+  fileSize: 5033459
+  hash: "716b9dea9b202e56104624f3de69e8d4984bec95"
+otherFiles: 3
+dependencies:
+  AirPower.u:
+  - status: "OK"
+    name: "APSpawnRifleTex"
+  - status: "OK"
+    name: "AirPowerAnim"
+  - status: "OK"
+    name: "AirPowerST"
+  - status: "OK"
+    name: "AirPowerTex"
+  - status: "OK"
+    name: "AirPowerSND"
+  AirPowerST.usx:
+  - status: "OK"
+    name: "AirPowerTex"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/A/0/f/576968/airpower_ver_1%5B1%5D.5.ut2mod"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "AirPowerMutator"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
