@@ -1,0 +1,47 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-04-13 12:23"
+game: "Unreal Tournament"
+name: "DM-Tel-AvivA6"
+author: "Unknown"
+description: "None"
+releaseDate: "2026-04"
+attachments: []
+originalFilename: "DM-Tel-AvivA6.1.zip"
+hash: "98cc94749bed67793d740bc3857c2c3173d79f40"
+fileSize: 3879158
+files:
+- name: "adsTelAviv.utx"
+  fileSize: 4157375
+  hash: "3fabdf8ab2f45d397d196a46539ef81af12c7445"
+- name: "tlvnight.utx"
+  fileSize: 32863
+  hash: "ff5abaf89da9b52d02c2b87d6396bc744bd9b112"
+- name: "FCity.utx"
+  fileSize: 3757023
+  hash: "df6f6d0c6d3d8ac6589eea4765e7a61e281a0a8f"
+- name: "DM-Tel-AvivA6.unr"
+  fileSize: 657564
+  hash: "6943dcafa351d72b9a1ca92013eb143d456209da"
+otherFiles: 0
+dependencies:
+  DM-Tel-AvivA6.unr:
+  - status: "OK"
+    name: "adsTelAviv"
+  - status: "MISSING"
+    name: "INF_Sky_1"
+  - status: "OK"
+    name: "FCity"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/T/9/8/cc9474/DM-Tel-AvivA6.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Tel-AvivA6"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: false
