@@ -1,0 +1,43 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-05-02 21:02"
+game: "Unreal Tournament"
+name: "CTF-afterburner"
+author: "One Day It will say who"
+description: "After Burners"
+releaseDate: "2026-05"
+attachments: []
+originalFilename: "CTF-afterburner.zip"
+hash: "794b925477442fa677b28d5e913c915f61b81454"
+fileSize: 5296736
+files:
+- name: "Xpanse.umx"
+  fileSize: 3625185
+  hash: "fea5c8c42b637167b5f3f8195a1c3e84dafa9eca"
+- name: "CTF-afterburner.unr"
+  fileSize: 5946987
+  hash: "02bb8b46aea4b8e08f1295fe88e6d263db8fbd4f"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+otherFiles: 0
+dependencies:
+  CTF-afterburner.unr:
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "Xpanse"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Capture%20The%20Flag/A/7/9/4b9254/CTF-afterburner.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Rocketx After Burner"
+playerCount: "6-14"
+themes:
+  Natural: 0.5
+  Tech: 0.4
+bots: true
