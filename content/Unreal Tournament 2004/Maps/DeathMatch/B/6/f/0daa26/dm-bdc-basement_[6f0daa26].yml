@@ -1,0 +1,70 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-04-08 12:37"
+game: "Unreal Tournament 2004"
+name: "DM-BDC-Basement"
+author: "[BDC]Maverick"
+description: "[BDC]MAVERICK'S BASEMENT"
+releaseDate: "2003-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-bdc-basement_shot_6f0daa26_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/DeathMatch/B/6/f/0daa26/dm-bdc-basement_shot_6f0daa26_1.png"
+- type: "IMAGE"
+  name: "dm-bdc-basement_shot_6f0daa26_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/DeathMatch/B/6/f/0daa26/dm-bdc-basement_shot_6f0daa26_2.png"
+originalFilename: "dm-bdc-basement.zip"
+hash: "6f0daa26816157e17ec6e495f0c5be4bbdc83778"
+fileSize: 20132630
+files:
+- name: "sHoKbedroommeshes.usx"
+  fileSize: 20444532
+  hash: "f6be09580b39c50e2343ed0bdcbe7773bfca639d"
+- name: "Runmesh_Lite.usx"
+  fileSize: 6205632
+  hash: "cb6818737d02a0917f3cb48b7b63bd7a64fa08ea"
+- name: "sHoKbedroom.utx"
+  fileSize: 5458349
+  hash: "d32b9800b4ddeefe38b6c059254845763daece36"
+- name: "BDC-Comingdownthemountain.ogg"
+  fileSize: 2961855
+  hash: "ed34cf6d3a30d2b69db4986e453c9a22ca47e227"
+- name: "DM-BDC-Basement.ut2"
+  fileSize: 13354239
+  hash: "3985de4fdd3fc4eeae5e6f345e9db776c80913d0"
+- name: "sHoKBedroom2.utx"
+  fileSize: 3625227
+  hash: "426fc814946b61068d4d55cc1690e7fbcb4828f9"
+- name: "DRM_TV.usx"
+  fileSize: 80677
+  hash: "aa4c98218c9d953c954b5bd8183b5022f40b1521"
+otherFiles: 2
+dependencies:
+  sHoKbedroommeshes.usx:
+  - status: "MISSING"
+    name: "TT"
+  - status: "OK"
+    name: "sHoKBedroom2"
+  - status: "OK"
+    name: "sHoKbedroom"
+  DM-BDC-Basement.ut2:
+  - status: "OK"
+    name: "Runmesh_Lite"
+  - status: "OK"
+    name: "sHoKbedroommeshes"
+  - status: "OK"
+    name: "DRM_TV"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/DeathMatch/B/6/f/0daa26/dm-bdc-basement.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-BDC-BASEMENT"
+playerCount: "Unknown"
+themes:
+  Tech: 0.9
+  Industrial: 0.1
+bots: true
