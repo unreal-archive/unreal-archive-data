@@ -1,0 +1,40 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-08 12:29"
+game: "Unreal Tournament 2004"
+name: "Pickupsplus100"
+author: "sinistervoid (Mathew Wilson)"
+description: "None"
+releaseDate: "2003-08"
+attachments: []
+originalFilename: "pickupsplus100.zip"
+hash: "cf7eaf6afa878fd02b7680b3a1a51ae98029ebd2"
+fileSize: 67010
+files:
+- name: "PickupsPlus.u"
+  fileSize: 36359
+  hash: "bb7447b1aa15067d7ac2d5a45ab090094ef53783"
+- name: "PickupsPlus_Sounds.uax"
+  fileSize: 57026
+  hash: "797d938171fa32cd58a43638133edc7c66032b42"
+otherFiles: 3
+dependencies:
+  PickupsPlus.u:
+  - status: "OK"
+    name: "PickupsPlus_Sounds"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/P/c/f/7eaf6a/pickupsplus100.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Mut_HealthVialPlus"
+  description: ""
+- name: "Mut_AdrenalinePlus"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
