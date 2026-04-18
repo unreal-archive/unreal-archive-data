@@ -1,0 +1,82 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-08 14:18"
+game: "Unreal Tournament"
+name: "Oldskool Amp'd v239"
+author: "UsAaR33"
+description: " Makes Unreal Tournament inventory Unreal I ones!"
+releaseDate: "2001-09-10"
+attachments:
+- type: "IMAGE"
+  name: "oldskool_shot_f1f653ad_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Mutators/O/f/1/f653ad/oldskool_shot_f1f653ad_1.png"
+originalFilename: "oldskool239.umod"
+hash: "f1f653add31d863aec7fd439ce71c627c640f3cd"
+fileSize: 2967436
+files:
+- name: "OLweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "oldskool239.umod"
+  fileSize: 2967436
+  hash: "f1f653add31d863aec7fd439ce71c627c640f3cd"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "osxbackgroundchanger.u"
+  fileSize: 4504
+  hash: "9decf8d7df5cbb9a71840058d1783eaadcc7eebb"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+otherFiles: 5
+dependencies:
+  osxbackgroundchanger.u:
+  - status: "OK"
+    name: "olroot"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/O/f/1/f653ad/oldskool239.umod"
+  direct: true
+  state: "OK"
+- url: "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/Unreal%20Tournament/Mutators/O/f/1/f653ad/oldskool239.umod"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "OldSkool"
+  description: " Makes Unreal Tournament inventory Unreal I ones!  By: UsAaR33"
+weapons:
+- name: "Automag"
+  description: ""
+- name: "Dispersion Pistol"
+  description: ""
+- name: "Stinger"
+  description: ""
+- name: "ASMD"
+  description: ""
+- name: "Eightball"
+  description: ""
+- name: "OldSkool Flak Cannon"
+  description: ""
+- name: "Razorjack"
+  description: ""
+- name: "OldSkool GES Bio Rifle"
+  description: ""
+- name: "OldSkool Sniper Rifle"
+  description: ""
+- name: "OldSkool Minigun"
+  description: ""
+- name: "SMP 7243/8920"
+  description: ""
+- name: "Quadshot"
+  description: ""
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
