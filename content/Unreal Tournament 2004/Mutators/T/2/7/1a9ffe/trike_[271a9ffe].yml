@@ -1,0 +1,46 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-04-16 15:08"
+game: "Unreal Tournament 2004"
+name: "Trike"
+author: "Unknown"
+description: "None"
+releaseDate: "2007-11"
+attachments: []
+originalFilename: "Trike.zip"
+hash: "271a9ffec7bc4913501e7471edb738913c0f2e39"
+fileSize: 1020453
+files:
+- name: "TrikeTex.utx"
+  fileSize: 1398935
+  hash: "d1c915ce4b138c502b7d1e6995efdd2e5b65fc7d"
+- name: "Tribike.ukx"
+  fileSize: 642029
+  hash: "997f0f4711f669c1091365d3bf9ffac2fc0dc56c"
+- name: "Trike.u"
+  fileSize: 10761
+  hash: "2c93d24307d0fd41e3b6013ec8256a3396558503"
+otherFiles: 1
+dependencies:
+  Trike.u:
+  - status: "OK"
+    name: "Tribike"
+  - status: "OK"
+    name: "TrikeTex"
+  Tribike.ukx:
+  - status: "OK"
+    name: "TrikeTex"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/T/2/7/1a9ffe/Trike.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles:
+- name: "Trike"
+  description: "Trike"
+hasConfigMenu: false
+hasKeybinds: false
