@@ -739,4 +739,111 @@ releases:
     otherFiles: 117
     dependencies: {}
   deleted: false
+- title: "AssualtCTF"
+  version: ""
+  releaseDate: "2008-01-06"
+  description: "AssaultCTF is required to play one some RealCTF servers."
+  files:
+  - title: "ZIP Package"
+    localFile: "/home/shrimp/Downloads/AssaultCTF.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal/realctf/AssaultCTF.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "AssaultCTF.zip"
+    hash: "3e9d5e27d945d2a4183da2e2b4db70108cf94213"
+    fileSize: 12897658
+    synced: true
+    deleted: false
+    files:
+    - name: "Male3AssaultCTF.u"
+      fileSize: 710915
+      hash: "0c5eba09d56388f6a7baa1281b4cffc905ace211"
+    - name: "Male2AssaultCTF.u"
+      fileSize: 355994
+      hash: "1a0168d0f9d449f16a892b8be907912c06718e75"
+    - name: "SkTrooperReal.utx"
+      fileSize: 177624
+      hash: "ce47adb558a8c4546ef2b572631790f948c366db"
+    - name: "CTFColor.utx"
+      fileSize: 6550
+      hash: "050195ab2fa23fd1e948d628ebcccd9e97288317"
+    - name: "Male1AssaultCTF.u"
+      fileSize: 533444
+      hash: "e83e83082e1b6fb494b31135097861bf610658ae"
+    - name: "AssaultCTF.u"
+      fileSize: 1268303
+      hash: "f377056318b6b77f8f315444239d77b93b5c72c5"
+    - name: "AssaultAdmin.u"
+      fileSize: 11324
+      hash: "04683576ddaaef13c21d0ea49850fa5f40387305"
+    - name: "Female2AssaultCTF.u"
+      fileSize: 710914
+      hash: "f1bb6284e211c387bdcbbce69cc98c91a1d659d6"
+    - name: "Female1AssaultCTF.u"
+      fileSize: 533470
+      hash: "741c96ea46261313e7cb5c272482b4db2ca499f8"
+    - name: "AssaultMedia.u"
+      fileSize: 7868862
+      hash: "f403115c80501167b2317dd20a8c325015537ba7"
+    - name: "AssaultCTFScore.u"
+      fileSize: 745431
+      hash: "b36448be3798924476239a060e59b42e36bc1f0e"
+    - name: "AssaultBots.u"
+      fileSize: 85347
+      hash: "c8ce7bf0f9d5f9f41077a8557e922537963ebbe8"
+    - name: "AssaultCTFtxtrs.utx"
+      fileSize: 11898160
+      hash: "8ecc8f7044e947d461cb762f5df70a9877887134"
+    otherFiles: 14
+    dependencies:
+      AssaultCTF.u:
+      - status: "MISSING"
+        name: "SPStuff"
+      - status: "OK"
+        name: "AssaultMedia"
+      - status: "OK"
+        name: "Female2AssaultCTF"
+      - status: "OK"
+        name: "AssaultAdmin"
+      - status: "OK"
+        name: "Female1AssaultCTF"
+      - status: "OK"
+        name: "Male3AssaultCTF"
+      - status: "MISSING"
+        name: "AssualtSnds"
+      - status: "MISSING"
+        name: "Assault_G11"
+      - status: "OK"
+        name: "Male2AssaultCTF"
+      - status: "OK"
+        name: "Male1AssaultCTF"
+      AssaultCTFScore.u:
+      - status: "MISSING"
+        name: "SPStuff"
+      - status: "OK"
+        name: "AssaultMedia"
+      - status: "OK"
+        name: "Female2AssaultCTF"
+      - status: "OK"
+        name: "AssaultAdmin"
+      - status: "OK"
+        name: "Female1AssaultCTF"
+      - status: "OK"
+        name: "Male3AssaultCTF"
+      - status: "MISSING"
+        name: "AssualtSnds"
+      - status: "MISSING"
+        name: "Assault_G11"
+      - status: "OK"
+        name: "Male2AssaultCTF"
+      - status: "OK"
+        name: "Male1AssaultCTF"
+      AssaultBots.u:
+      - status: "OK"
+        name: "AssaultAdmin"
+      - status: "OK"
+        name: "AssaultCTF"
+  deleted: false
 deleted: false
