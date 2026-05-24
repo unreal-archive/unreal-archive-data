@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-21 19:54"
+game: "Unreal Tournament"
+name: "DM-Tides"
+author: "bongoliath"
+description: "None"
+releaseDate: "2026-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-tides_shot_63d23b15_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/T/6/3/d23b15/dm-tides_shot_63d23b15_1.png"
+originalFilename: "Tides.rar"
+hash: "63d23b1506d17cd02dce5afbab0e9e44c2ac6128"
+fileSize: 2601823
+files:
+- name: "DOM-Tides.unr"
+  fileSize: 998799
+  hash: "c8df75ebb3d4ad09e215cc4992a4c56aa6d81635"
+- name: "Soabm.umx"
+  fileSize: 784878
+  hash: "76407e50edc0efceb3ffb10862562a47b4e01701"
+- name: "Fallout.utx"
+  fileSize: 2251116
+  hash: "2ebe50574e76754fb3930f193bfca46489d1103d"
+- name: "DM-Tides.unr"
+  fileSize: 1013417
+  hash: "aaf7a30351cd3fb6c12cb80514b63a7fa44c91b7"
+otherFiles: 1
+dependencies:
+  DM-Tides.unr:
+  - status: "OK"
+    name: "Fallout"
+  - status: "OK"
+    name: "Soabm"
+  DOM-Tides.unr:
+  - status: "OK"
+    name: "Fallout"
+  - status: "OK"
+    name: "Soabm"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/T/6/3/d23b15/Tides.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Tides"
+playerCount: "4-8"
+themes:
+  Tech: 0.3
+  Industrial: 0.7
+bots: true
