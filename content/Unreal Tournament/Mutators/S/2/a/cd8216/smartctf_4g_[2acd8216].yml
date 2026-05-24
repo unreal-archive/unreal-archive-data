@@ -1,0 +1,44 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-06-02 00:01"
+game: "Unreal Tournament"
+name: "SmartCTF_4G"
+author: "the copyright holder."
+description: ""
+releaseDate: "2025-02"
+attachments: []
+originalFilename: "SmartCTF_4G.zip"
+hash: "2acd82161a97fc0b7f96247ebeb2c8fc06ffd065"
+fileSize: 1699187
+files:
+- name: "IpToCountry_AOL.u"
+  fileSize: 2282
+  hash: "8e870dde567ddfb7872ddcd6d1fbdd3bf635d5c1"
+- name: "SmartCTF_4G.u"
+  fileSize: 472797
+  hash: "c36e7f0fa8eddf1ce0a60b00e2c96e460f07b8d8"
+- name: "CountryFlags32e.utx"
+  fileSize: 644486
+  hash: "c99cbcbd10c50f9ceb077dc716ef4a22efed09e7"
+- name: "ipToCountry.u"
+  fileSize: 37082
+  hash: "fedb8bd438f373f3104a7610127085bf65a2d2e6"
+otherFiles: 7
+dependencies:
+  ipToCountry.u:
+  - status: "OK"
+    name: "IpToCountry_AOL"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/S/2/a/cd8216/SmartCTF_4G.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "SmartCTF_4G"
+  description: ""
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
