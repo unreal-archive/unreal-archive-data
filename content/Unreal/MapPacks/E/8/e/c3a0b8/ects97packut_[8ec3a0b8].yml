@@ -1,0 +1,111 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-06-24 02:34"
+game: "Unreal"
+name: "ECTS97PackUT"
+author: "Unknown"
+description: "None"
+releaseDate: "2026-06"
+attachments:
+- type: "IMAGE"
+  name: "ects97packut_shot_8ec3a0b8_4.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal/MapPacks/E/8/e/c3a0b8/ects97packut_shot_8ec3a0b8_4.png"
+- type: "IMAGE"
+  name: "ects97packut_shot_8ec3a0b8_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal/MapPacks/E/8/e/c3a0b8/ects97packut_shot_8ec3a0b8_2.png"
+- type: "IMAGE"
+  name: "ects97packut_shot_8ec3a0b8_3.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal/MapPacks/E/8/e/c3a0b8/ects97packut_shot_8ec3a0b8_3.png"
+- type: "IMAGE"
+  name: "ects97packut_shot_8ec3a0b8_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal/MapPacks/E/8/e/c3a0b8/ects97packut_shot_8ec3a0b8_1.png"
+originalFilename: "ECTS97PackUT.zip"
+hash: "8ec3a0b80bf8a3f10f10c8c8da5642da679ebcec"
+fileSize: 3412058
+files:
+- name: "ABlack.umx"
+  fileSize: 957216
+  hash: "31093eb028839bf594959a5a9506da2b25725d7e"
+- name: "DMU-ECTSArizaX.unr"
+  fileSize: 597421
+  hash: "4524ea0d529cfea9a86081c83c51aa6d1a5849f8"
+- name: "DMU-ECTSSky7.unr"
+  fileSize: 1613273
+  hash: "1f9755ac79e0ccf3b5b40e708d2ed2c6bf4cafd7"
+- name: "DMU-ECTSTundra.unr"
+  fileSize: 730940
+  hash: "0091d4eb73bd8ba574eb3f418caaa288c8282a50"
+- name: "Newmca13.umx"
+  fileSize: 841195
+  hash: "7f6fc7aa36778599cdbeae41e0e8c9ec2adf10fa"
+- name: "97SEPSND.uax"
+  fileSize: 466633
+  hash: "90b4570a59d2639479bc8b632ef4684573b1005e"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "DMU-ECTSArizaXportals.unr"
+  fileSize: 600980
+  hash: "ad48d1eee3223a72a66fd6c05c0862443bb9c7c2"
+- name: "97SEPTEX.utx"
+  fileSize: 8183
+  hash: "4c0ccde1a581e3b5f4783a78a49dacf01a7ab176"
+otherFiles: 1
+dependencies:
+  DMU-ECTSArizaX.unr:
+  - status: "OK"
+    name: "97SEPSND"
+  - status: "MISSING"
+    name: "cryptmisc"
+  - status: "MISSING"
+    name: "Botpack"
+  DMU-ECTSArizaXportals.unr:
+  - status: "OK"
+    name: "97SEPSND"
+  - status: "MISSING"
+    name: "cryptmisc"
+  - status: "MISSING"
+    name: "Botpack"
+  DMU-ECTSSky7.unr:
+  - status: "OK"
+    name: "ABlack"
+  - status: "OK"
+    name: "97SEPSND"
+  - status: "OK"
+    name: "97SEPTEX"
+  - status: "MISSING"
+    name: "cryptmisc"
+  - status: "MISSING"
+    name: "Botpack"
+  DMU-ECTSTundra.unr:
+  - status: "OK"
+    name: "97SEPSND"
+  - status: "OK"
+    name: "97SEPTEX"
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/MapPacks/E/8/e/c3a0b8/ECTS97PackUT.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DMU-ECTSArizaX"
+  title: "Ariza (ECTS 97)"
+  author: "Myscha the Sled dog"
+- name: "DMU-ECTSSky7"
+  title: "Sky Deathmatch (ECTS 97)"
+  author: "Jeremy War"
+- name: "DMU-ECTSTundra"
+  title: "Tundra (ECTS 97)"
+  author: "Myscha the Sled dog"
+- name: "DMU-ECTSArizaXportals"
+  title: "Ariza (ECTS 97)"
+  author: "Myscha the Sled dog"
+gametype: "DeathMatch"
+themes:
+  Natural: 0.4
+  Nali Castle: 0.2
+  Skaarj Tech: 0.4
