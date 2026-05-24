@@ -1,0 +1,72 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-28 21:43"
+game: "Unreal Tournament 2004"
+name: "VCTF-Sulferon"
+author: "Ported by Sander"
+description: "Liandri decided after the Marshall Dalton incident on Delta Avior VII\
+  \ 'Sulferon' that they build another comm building so the comm traffic in the system\
+  \ could be doubled....After the new comm building was completed Liandri decided\
+  \ to open the new facility up as a vehicle capture the flag event between the two\
+  \ comm buildings."
+releaseDate: "2017-04"
+attachments:
+- type: "IMAGE"
+  name: "vctf-sulferon_shot_0cd9f5f7_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/0/c/d9f5f7/vctf-sulferon_shot_0cd9f5f7_2.png"
+- type: "IMAGE"
+  name: "vctf-sulferon_shot_0cd9f5f7_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/0/c/d9f5f7/vctf-sulferon_shot_0cd9f5f7_1.png"
+- type: "IMAGE"
+  name: "vctf-sulferon_shot_0cd9f5f7_3.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/0/c/d9f5f7/vctf-sulferon_shot_0cd9f5f7_3.png"
+originalFilename: "VCTF-Sulferon.zip"
+hash: "0cd9f5f71160ab823261840b4cc0f9406b0dcab4"
+fileSize: 27892396
+files:
+- name: "VCTF-Sulferon.ut2"
+  fileSize: 19271447
+  hash: "e07fd0af0befe42ab2bc4771f01d8c2f75f4bf56"
+- name: "Waterfront.ogg"
+  fileSize: 8645882
+  hash: "b14b219329e22b5606b62d84cf25c6ff86e08bfd"
+- name: "SulferonSounds.uax"
+  fileSize: 1695569
+  hash: "331d7dc182c441819cf2ef2ced125deead6ec176"
+- name: "SulferonT.utx"
+  fileSize: 6735106
+  hash: "3a116b2881604a54eda0b15c804b87803911a957"
+- name: "XAS-SulferonTexturesFixed.utx"
+  fileSize: 18627556
+  hash: "e3122a2faa22cea9e3e6784248a1aedef274b3bd"
+- name: "Mission_SulferonM.usx"
+  fileSize: 5929585
+  hash: "b6aceb07351f6b2690b755ebfb5ce55fe123a2b7"
+otherFiles: 4
+dependencies:
+  VCTF-Sulferon.ut2:
+  - status: "OK"
+    name: "SulferonT"
+  - status: "OK"
+    name: "Mission_SulferonM"
+  - status: "OK"
+    name: "XAS-SulferonTexturesFixed"
+  - status: "OK"
+    name: "SulferonSounds"
+  Mission_SulferonM.usx:
+  - status: "OK"
+    name: "SulferonT"
+  - status: "OK"
+    name: "XAS-SulferonTexturesFixed"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Vehicle%20CTF/S/0/c/d9f5f7/VCTF-Sulferon.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Vehicle CTF"
+title: "Sulferon"
+playerCount: "8-12"
+themes: {}
+bots: true
