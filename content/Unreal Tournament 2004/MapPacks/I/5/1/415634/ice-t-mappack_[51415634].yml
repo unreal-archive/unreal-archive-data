@@ -1,0 +1,142 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-06-30 03:07"
+game: "Unreal Tournament 2004"
+name: "Ice T Mappack"
+author: "Unknown"
+description: "None"
+releaseDate: "2010-03"
+attachments: []
+originalFilename: "Ice.T-mappack.zip"
+hash: "51415634f12f8459dd15441672c407e057cff94d"
+fileSize: 14658670
+files:
+- name: "DM-Hellzone[-MGMC-] V2.ut2"
+  fileSize: 3162006
+  hash: "266bd5230148dbb7966e4c1aee7585bcefece05e"
+- name: "Keypad.u"
+  fileSize: 9378
+  hash: "9c7fab9f3da70f6d2b01cf8a57cb913060204f30"
+- name: "GravVortex_001.utx"
+  fileSize: 613417
+  hash: "8e4b03979ae6e2b01279096ba63bd92079a79b1a"
+- name: "GravVortexPickups.usx"
+  fileSize: 198269
+  hash: "a2e81602bcce92f5ce201ba113838671a1c9ccca"
+- name: "DM-Hellzone[-MGMC-].ut2"
+  fileSize: 2815927
+  hash: "f05e005f4793469627ef822d3fe863089d9dfabc"
+- name: "GravVortex.u"
+  fileSize: 3138219
+  hash: "a0a38792e779c1d2f53fcef42abe6843f3431f8e"
+- name: "GravVortexExtras.usx"
+  fileSize: 44905
+  hash: "ea3a5988b60768a306e20f9a0991629b13ce2da0"
+- name: "GravVortex_003.utx"
+  fileSize: 1395805
+  hash: "266577654ea39d955a31aeb0d8e93cd9e7e4a97b"
+- name: "Ctf-Dome.ut2"
+  fileSize: 3188437
+  hash: "0be432ca3603464cb9ab0707be170d50add702de"
+- name: "GravVortex_006.utx"
+  fileSize: 38989
+  hash: "05834737da581294e14d7c64b8a8dd8753d240e9"
+- name: "2K6_NaabNewPack1.utx"
+  fileSize: 5945483
+  hash: "9955fc318a80fc62b090c3df54769d93d3b9d6c4"
+- name: "DM-Dome[-MGMC-]-v2.ut2"
+  fileSize: 2603268
+  hash: "3a0292f1d2db04c2866fbd789c43b987c45c9f02"
+- name: "GravVortex_Extras1.ukx"
+  fileSize: 46502
+  hash: "15ccbeb81911cb1de1039ae577782e0812c80089"
+- name: "GravVortex_2.ukx"
+  fileSize: 300438
+  hash: "74349d766fdf0e48f0667e1fc1a304bfe6ac864f"
+- name: "GravVortexSound.uax"
+  fileSize: 3045204
+  hash: "eebf69f0913040ca283694a6b35791e24f7c1184"
+- name: "2K6_NaabPack1.usx"
+  fileSize: 4953657
+  hash: "0d29b4049eaf4630f543e67e39eb0933f193ae28"
+otherFiles: 4
+dependencies:
+  GravVortexPickups.usx:
+  - status: "OK"
+    name: "GravVortex_003"
+  Ctf-Dome.ut2:
+  - status: "MISSING"
+    name: "HUTMapTextures"
+  - status: "MISSING"
+    name: "Halogibs"
+  - status: "OK"
+    name: "2K6_NaabPack1"
+  "2K6_NaabPack1.usx":
+  - status: "OK"
+    name: "2K6_NaabNewPack1"
+  GravVortexExtras.usx:
+  - status: "OK"
+    name: "GravVortex_003"
+  GravVortex_2.ukx:
+  - status: "OK"
+    name: "GravVortex_003"
+  DM-Hellzone[-MGMC-] V2.ut2:
+  - status: "MISSING"
+    name: "Remote_strike"
+  - status: "OK"
+    name: "GravVortex"
+  - status: "MISSING"
+    name: "Halo_Weapons"
+  - status: "OK"
+    name: "Keypad"
+  GravVortex.u:
+  - status: "OK"
+    name: "GravVortexPickups"
+  - status: "OK"
+    name: "GravVortex_006"
+  - status: "OK"
+    name: "GravVortex_Extras1"
+  - status: "OK"
+    name: "GravVortex_003"
+  - status: "OK"
+    name: "GravVortex_001"
+  - status: "OK"
+    name: "GravVortexExtras"
+  - status: "OK"
+    name: "GravVortex_2"
+  - status: "OK"
+    name: "GravVortexSound"
+  GravVortex_Extras1.ukx:
+  - status: "OK"
+    name: "GravVortex_003"
+  DM-Dome[-MGMC-]-v2.ut2:
+  - status: "OK"
+    name: "GravVortex"
+  - status: "OK"
+    name: "Keypad"
+  - status: "OK"
+    name: "2K6_NaabPack1"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/MapPacks/I/5/1/415634/Ice.T-mappack.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-Hellzone[-MGMC-] V2"
+  title: "[MG]RPG/INV HellZone"
+  author: "Ice.T/MasterChief"
+- name: "Ctf-Dome"
+  title: "Ctf-Dome"
+  author: "Ice.T"
+- name: "DM-Dome[-MGMC-]-v2"
+  title: "Dome"
+  author: "Ice.T"
+- name: "DM-Hellzone[-MGMC-]"
+  title: "[MG]RPG/INV HellZone"
+  author: "Ice.T/MasterChief"
+gametype: "Mixed"
+themes:
+  Tech: 0.6
+  Industrial: 0.4
