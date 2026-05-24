@@ -1,0 +1,53 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-30 03:36"
+game: "Unreal Tournament 2004"
+name: "CTF-Eightball"
+author: "Werner W. Martinmaas (dySWN)"
+description: "Hidden deep within the remote Atairu Desert on the planet of Na Pali,\
+  \ Eightball Canyon was claimed long ago by Nali who worshiped the divine origins\
+  \ of the Staff of Eight Fires - a mythic artifact that came to them with the invasion\
+  \ of the sky demons.  Their secret retreat was discovered by the demons, however,\
+  \ and the ruins of the temple complex they erected there are all that remains. \
+  \ Perhaps, had they decided to turn staff upon the demons, you would not be here\
+  \ now to spill yet more blood upon this sacred soil..."
+releaseDate: "2009-07"
+attachments: []
+originalFilename: "ctf_eightball.zip"
+hash: "b4dcdbede957fc500c7cb3b393d42c6d09ccd0a8"
+fileSize: 4327225
+files:
+- name: "Nali_tex.utx"
+  fileSize: 6240492
+  hash: "7cc49671e211f99c93c8ad89056d8950b1f97578"
+- name: "Eightball_meshes.usx"
+  fileSize: 132598
+  hash: "00f035f30c70772ae69ab6fca002315c17d333f2"
+- name: "CTF-Eightball.ut2"
+  fileSize: 7770744
+  hash: "6a26c023f62a420678c90bd0d987c40e63bbb0b3"
+otherFiles: 1
+dependencies:
+  CTF-Eightball.ut2:
+  - status: "OK"
+    name: "Nali_tex"
+  - status: "OK"
+    name: "Eightball_meshes"
+  Eightball_meshes.usx:
+  - status: "OK"
+    name: "Nali_tex"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Capture%20The%20Flag/E/b/4/dcdbed/ctf_eightball.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "Eightball Canyon"
+playerCount: "8-16"
+themes:
+  Natural: 0.2
+  Tech: 0.1
+  Egyptian: 0.8
+bots: true
