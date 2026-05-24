@@ -1,0 +1,61 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-07 22:14"
+game: "Unreal Tournament"
+name: "CTFM-Triton"
+author: "Bryan 'Koolflux' Owen"
+description: "None"
+releaseDate: "2019-07"
+attachments:
+- type: "IMAGE"
+  name: "ctfm-triton_shot_47b65aff_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/4/7/b65aff/ctfm-triton_shot_47b65aff_1.png"
+originalFilename: "CTFM-Triton.zip"
+hash: "47b65affe88b285441e4a027dc08d8bfe464cd4d"
+fileSize: 7928359
+files:
+- name: "CTF4Team.utx"
+  fileSize: 2181759
+  hash: "23eb1eb571515c4b945d996084e2c1f163f8182c"
+- name: "MultiCTFTex.utx"
+  fileSize: 941080
+  hash: "3b48af6bf2f50d2d4583f4e11ab65c0d903d3cb8"
+- name: "flagbasejrm1.u"
+  fileSize: 357257
+  hash: "6cd4410c1d58d712d811cdd705823f0bab6979f1"
+- name: "MultiCTF.u"
+  fileSize: 603010
+  hash: "0ea3bfc29b60617cedf5f93a361e0e6df501c4e1"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "CTFM-Triton.unr"
+  fileSize: 3591087
+  hash: "03aed0a7920e60aaa8c8cf08d612a556b82ec325"
+otherFiles: 2
+dependencies:
+  CTFM-Triton.unr:
+  - status: "OK"
+    name: "flagbasejrm1"
+  - status: "OK"
+    name: "CTF4Team"
+  - status: "OK"
+    name: "MultiCTFTex"
+  - status: "OK"
+    name: "MultiCTF"
+  flagbasejrm1.u:
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Multi-Team%20CTF/T/4/7/b65aff/CTFM-Triton.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Multi-Team CTF"
+title: "Triton Station 9"
+playerCount: "5 - 7"
+themes:
+  Tech: 1.0
+bots: true
