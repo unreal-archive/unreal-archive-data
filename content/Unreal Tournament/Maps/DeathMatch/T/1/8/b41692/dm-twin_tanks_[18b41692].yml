@@ -1,0 +1,76 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-05-25 16:21"
+game: "Unreal Tournament"
+name: "DM-Twin_Tanks"
+author: "Furost Nova"
+description: "None"
+releaseDate: "2025-03"
+attachments:
+- type: "IMAGE"
+  name: "dm-twin_tanks_shot_18b41692_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/T/1/8/b41692/dm-twin_tanks_shot_18b41692_1.png"
+originalFilename: "DM-Twin_Tanks.7z"
+hash: "18b41692581b6aa804491e54fc70c13ab9097559"
+fileSize: 7360451
+files:
+- name: "LBSS.u"
+  fileSize: 1816
+  hash: "92baf1f0e08259fa5db1fe610df8675e216dc90e"
+- name: "DM-Twin_Tanks.unr"
+  fileSize: 18972606
+  hash: "ec5d639f232cfb6fe977f537e1331d0910db1674"
+- name: "LBC.u"
+  fileSize: 2803
+  hash: "619745bfb1a5dc225b479a4953ff95a76d5b96b2"
+- name: "LBS.u"
+  fileSize: 1766
+  hash: "19ed8f76984ad19a96349202233bb09b7eea6dca"
+- name: "LBRL.u"
+  fileSize: 1792
+  hash: "c31bff45ea1c43fa1a547a6fd2c5ef4a653acfd6"
+- name: "LBU.u"
+  fileSize: 1806
+  hash: "df5d59720667ce00048db9a2294e307249074bcf"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+- name: "EFX.u"
+  fileSize: 40749
+  hash: "f4800249404495834fe0c87b91ca3433d70aae0d"
+- name: "LBR.u"
+  fileSize: 1816
+  hash: "dcdb313a619230df44bb28af5b017adffd71c911"
+otherFiles: 1
+dependencies:
+  DM-Twin_Tanks.unr:
+  - status: "OK"
+    name: "LBC"
+  - status: "OK"
+    name: "LBRL"
+  - status: "OK"
+    name: "EFX"
+  - status: "OK"
+    name: "LBS"
+  - status: "OK"
+    name: "LBR"
+  - status: "OK"
+    name: "LBU"
+  - status: "OK"
+    name: "LBSS"
+  - status: "OK"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/T/1/8/b41692/DM-Twin_Tanks.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Twin Tanks"
+playerCount: "6-24"
+themes:
+  Industrial: 0.9
+  Skaarj Tech: 0.1
+bots: true
