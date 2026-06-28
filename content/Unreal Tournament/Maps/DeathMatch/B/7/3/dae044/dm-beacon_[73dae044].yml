@@ -1,0 +1,46 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-20 22:04"
+game: "Unreal Tournament"
+name: "DM-Beacon"
+author: "MelonHead8944"
+description: "None"
+releaseDate: "2026-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-beacon_shot_73dae044_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/B/7/3/dae044/dm-beacon_shot_73dae044_1.png"
+originalFilename: "dm-beacon.1.zip"
+hash: "73dae044c6f311f31f413eb4b50b2eebf1ac383b"
+fileSize: 12926894
+files:
+- name: "Mech2007.umx"
+  fileSize: 12170704
+  hash: "459cbb08726b8856b0c1de20a19f4e723eb0fa53"
+- name: "devkit.utx"
+  fileSize: 165725
+  hash: "4b33e1cf52d8cd22aae60b5d85dbc6b010ab67e2"
+- name: "DM-Beacon.unr"
+  fileSize: 2434314
+  hash: "358ae9e328ed0d7cb26550044601767024bf632c"
+otherFiles: 0
+dependencies:
+  DM-Beacon.unr:
+  - status: "OK"
+    name: "devkit"
+  - status: "OK"
+    name: "Mech2007"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/B/7/3/dae044/dm-beacon.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "The Installation"
+playerCount: "8 - 10"
+themes:
+  Industrial: 0.2
+  Skaarj Tech: 0.8
+bots: true
