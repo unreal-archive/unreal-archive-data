@@ -1,0 +1,81 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-07-04 01:45"
+game: "Unreal Tournament"
+name: "CTF-StupidRocketChurchIV"
+author: "|2at-|3astard"
+description: "Prepare to die!"
+releaseDate: "2025-11"
+attachments: []
+originalFilename: "CTF-StupidRocketChurchIV.zip"
+hash: "d77af1489cc2adae12dd9bcc78e4fe26f6441f77"
+fileSize: 5943815
+files:
+- name: "Weaponer_GTX.u"
+  fileSize: 84219
+  hash: "773dd4ef30aa75c239940f523c920f06ccc050d7"
+- name: "InfAdds.u"
+  fileSize: 551398
+  hash: "fa944bef5e85ac31f9c7bc70ed0ccf1c967afb54"
+- name: "CTF-StupidRocketChurchIV.unr"
+  fileSize: 1592970
+  hash: "79e79ca740de9dd1b54a697e0ac50d8864d819da"
+- name: "SLV2Fonts.utx"
+  fileSize: 345240
+  hash: "abe246c47c63b31826b47a43bdb26d318caeb55e"
+- name: "SLV2Models.u"
+  fileSize: 2036949
+  hash: "133800f807585ec2488768415a077fd68406b639"
+- name: "SLV2Sounds.uax"
+  fileSize: 3165498
+  hash: "11c2ee1f38959d1753cfd80eaf76311ad8db887b"
+- name: "Weaponer.u"
+  fileSize: 749147
+  hash: "67b9232ae82b9062d03edd6d957e7cc91bce8547"
+- name: "NFRabit.u"
+  fileSize: 8839
+  hash: "2703a67896703070ba62869c32a9e943d14509f3"
+- name: "SLV2Textures.utx"
+  fileSize: 1676382
+  hash: "61a5fc1cbf718aa758284b3d87ff30c1f7177564"
+- name: "SLV2.u"
+  fileSize: 419937
+  hash: "3709e253a80e4ed35d0cf43b37a325d68aaa470e"
+otherFiles: 0
+dependencies:
+  SLV2.u:
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2Textures"
+  - status: "OK"
+    name: "SLV2Sounds"
+  CTF-StupidRocketChurchIV.unr:
+  - status: "OK"
+    name: "Weaponer"
+  - status: "OK"
+    name: "InfAdds"
+  - status: "OK"
+    name: "NFRabit"
+  - status: "MISSING"
+    name: "NBSpecials"
+  - status: "OK"
+    name: "SLV2Models"
+  - status: "OK"
+    name: "SLV2"
+  - status: "MISSING"
+    name: "ApplesInfinity2nd"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Capture%20The%20Flag/S/d/7/7af148/CTF-StupidRocketChurchIV.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "CTF- StupidRocketChurchIV - |2at-|3astard"
+playerCount: "16"
+themes:
+  Industrial: 0.7
+  Ancient: 0.3
+bots: true
