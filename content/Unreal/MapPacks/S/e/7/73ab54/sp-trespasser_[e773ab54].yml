@@ -1,0 +1,72 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-07-11 21:26"
+game: "Unreal"
+name: "SP Trespasser"
+author: "Unknown"
+description: "None"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "sp-trespasser_shot_e773ab54_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal/MapPacks/S/e/7/73ab54/sp-trespasser_shot_e773ab54_1.png"
+originalFilename: "SP-Trespasser.zip"
+hash: "e773ab54142c2a58391a2d0a4c6fc69fa53e4cdf"
+fileSize: 2945640
+files:
+- name: "SinglePlayer4UT.u"
+  fileSize: 2171
+  hash: "111ae4b2c076e48fc6a59ef1beef82f2ee61acb6"
+- name: "SP-Trespasser.unr"
+  fileSize: 618475
+  hash: "181adec762853bd1b3719e0907f78ea3dee10470"
+- name: "Vandenberg_Music.umx"
+  fileSize: 2042058
+  hash: "db9f208699b72a04821b69ab734b8496569ccc66"
+- name: "B�ume.u"
+  fileSize: 288630
+  hash: "76dac3098757b7b0cf7f354b2d414d1f58e9298d"
+- name: "Trespaser2.utx"
+  fileSize: 627642
+  hash: "d75c9fa67dd42b5fc4a3fc472227824e8d51043b"
+- name: "Naturgeraeuche.uax"
+  fileSize: 1328227
+  hash: "f9807de5fbb6c2dcd04652fce9b1412b13bc183a"
+otherFiles: 3
+dependencies:
+  SP-Trespasser.unr:
+  - status: "MISSING"
+    name: "Bäume"
+  - status: "MISSING"
+    name: "Slums"
+  - status: "OK"
+    name: "Naturgeraeuche"
+  - status: "OK"
+    name: "Vandenberg_Music"
+  - status: "OK"
+    name: "Trespaser2"
+  - status: "MISSING"
+    name: "Indus5"
+  - status: "MISSING"
+    name: "FractalFX"
+  - status: "MISSING"
+    name: "Botpack"
+  - status: "MISSING"
+    name: "UT"
+  SinglePlayer4UT.u:
+  - status: "MISSING"
+    name: "Botpack"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/MapPacks/S/e/7/73ab54/SP-Trespasser.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "SP-Trespasser"
+  title: "T*R*E*S*P*A*S*S*E*R"
+  author: "Nali.Lord"
+gametype: "Single Player"
+themes:
+  Natural: 1.0
