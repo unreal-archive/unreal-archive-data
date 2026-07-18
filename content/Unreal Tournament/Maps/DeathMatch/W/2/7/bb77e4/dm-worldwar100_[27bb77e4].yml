@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-30 01:56"
+game: "Unreal Tournament"
+name: "DM-WorldWar100"
+author: "by Kaal979"
+description: "None"
+releaseDate: "2011-09"
+attachments:
+- type: "IMAGE"
+  name: "dm-worldwar100_shot_27bb77e4_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/W/2/7/bb77e4/dm-worldwar100_shot_27bb77e4_1.png"
+originalFilename: "DM-WorldWar100.zip"
+hash: "27bb77e43203d1b9c46ee587b6b9c2f98c3059b5"
+fileSize: 925750
+files:
+- name: "Chezyt.umx"
+  fileSize: 125855
+  hash: "84239fb507308ecf50fb61324b80b829d91be7a0"
+- name: "WreckedVehicles2004.u"
+  fileSize: 552643
+  hash: "ad15686baba65f5f12d6ed3a629a09694b65b524"
+- name: "DM-WorldWar100.unr"
+  fileSize: 2026473
+  hash: "99a74fa8233fc78fabb13d2273d6a16b56d74528"
+otherFiles: 2
+dependencies:
+  DM-WorldWar100.unr:
+  - status: "OK"
+    name: "WreckedVehicles2004"
+  - status: "OK"
+    name: "Chezyt"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/W/2/7/bb77e4/DM-WorldWar100.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "WorldWar100"
+playerCount: "16-32"
+themes:
+  Egyptian: 1.0
+bots: true
