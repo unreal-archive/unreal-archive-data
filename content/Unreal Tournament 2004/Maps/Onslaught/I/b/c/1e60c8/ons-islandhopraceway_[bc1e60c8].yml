@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-07-18 19:16"
+game: "Unreal Tournament 2004"
+name: "ONS-IslandHopRaceway"
+author: "Modified for Onslaught by 'redeye'"
+description: "Long since abandoned, now rebuilt and host to brutal scorpian races."
+releaseDate: "2007-04"
+attachments:
+- type: "IMAGE"
+  name: "ons-islandhopraceway_shot_bc1e60c8_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Onslaught/I/b/c/1e60c8/ons-islandhopraceway_shot_bc1e60c8_1.png"
+originalFilename: "ons-islandhopraceway.zip"
+hash: "bc1e60c81191e800aea6d31edf12947803c2c5f0"
+fileSize: 3812399
+files:
+- name: "KASPvehicles.ukx"
+  fileSize: 618853
+  hash: "ddd3df19f9f76019bc4ea1bd540c05ef9a50ec33"
+- name: "KASPvehicleSM.usx"
+  fileSize: 594401
+  hash: "e816ae1a67fbdf7efa96da1516e5cebe3eb2c872"
+- name: "ONS-IslandHopRaceway.ut2"
+  fileSize: 10975503
+  hash: "62dbbab4bdd6ee01b5ade205cbb34dd7622dec2b"
+- name: "pwscorpion.utx"
+  fileSize: 1399738
+  hash: "19508899ee9a33e8878a8de97aba79aeeffb7aa3"
+- name: "PWScorpion.u"
+  fileSize: 1400702
+  hash: "e0e3204a63b370e9dd9f74ff3b9edc0723f308ec"
+- name: "Kopholus.u"
+  fileSize: 70854
+  hash: "75694e3818ffce39d2f52b44bc4bd216d868ce8f"
+- name: "KASPvehicleTX.utx"
+  fileSize: 1083493
+  hash: "b0ef5b9976282f5d424389578e18e9bf9c646c0a"
+otherFiles: 3
+dependencies:
+  ONS-IslandHopRaceway.ut2:
+  - status: "OK"
+    name: "pwscorpion"
+  - status: "OK"
+    name: "Kopholus"
+  Kopholus.u:
+  - status: "OK"
+    name: "KASPvehicleSM"
+  - status: "OK"
+    name: "KASPvehicles"
+  KASPvehicles.ukx:
+  - status: "OK"
+    name: "KASPvehicleTX"
+  KASPvehicleSM.usx:
+  - status: "OK"
+    name: "KASPvehicleTX"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Onslaught/I/b/c/1e60c8/ons-islandhopraceway.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Onslaught"
+title: "IslandHopRaceway"
+playerCount: "8-16"
+themes:
+  Natural: 0.5
+  Tech: 0.5
+bots: true
