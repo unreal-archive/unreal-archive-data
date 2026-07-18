@@ -1,0 +1,54 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-06-30 02:07"
+game: "Unreal Tournament 2004"
+name: "DM-Hell'sRevengeP"
+author: "J. Love"
+description: "ÿ\x01\x01 *Vehicular Deathmatch* \eÿÿ\x01  Welcome to Hell, the place\
+  \ many tormented souls call 'home'. You will also find time to be irrelevant here.\
+  \ Enjoy your stay, you will be here awhile..."
+releaseDate: "2011-05"
+attachments:
+- type: "IMAGE"
+  name: "dm-hellsrevengep_shot_116e8385_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/DeathMatch/H/1/1/6e8385/dm-hellsrevengep_shot_116e8385_1.png"
+originalFilename: "Shores_of_Hell.zip"
+hash: "116e838599b94f44e754e8718a6bbe2a92b146b9"
+fileSize: 37273972
+files:
+- name: "DM-Hell'sRevengeP.ut2"
+  fileSize: 54324508
+  hash: "23896fabf8aa9b9030b2da81a1d62f4b603334c3"
+- name: "Hell_Statix.usx"
+  fileSize: 11837400
+  hash: "48243b528770998d03aa6f0bc54083d191a7dec6"
+- name: "Hell.ogg"
+  fileSize: 3295342
+  hash: "3d6af7ffe60d7e60c1ff637f5ca378649b8a92d7"
+- name: "Atmos-Fear.utx"
+  fileSize: 26426587
+  hash: "93f7cb5b817650207d1f6588a2de2bd5ca750013"
+otherFiles: 2
+dependencies:
+  Hell_Statix.usx:
+  - status: "OK"
+    name: "Atmos-Fear"
+  DM-Hell'sRevengeP.ut2:
+  - status: "OK"
+    name: "Hell_Statix"
+  - status: "OK"
+    name: "Atmos-Fear"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/DeathMatch/H/1/1/6e8385/Shores_of_Hell.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "*The Shores of Hell*"
+playerCount: "12-16"
+themes:
+  Tech: 0.6
+  Industrial: 0.4
+bots: true
