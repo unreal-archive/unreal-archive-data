@@ -1,0 +1,77 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-07-18 17:22"
+variationOf: "2abdbacc3ade6edb8796100effdafa471681bcfb"
+game: "Unreal Tournament 2004"
+name: "AS-{UEM}-Frontportal"
+author: "U.E.M"
+description: "For many years the Liandri Corp is creating a system of portals, which\
+  \ allows to transport goods over big distances. The system was controlled by a orbital\
+  \ space station.However,some 'big' companies didn't like the idea of a system full\
+  \ with portals,so they made a  decision to hire some mercenaries, which got the\
+  \ order to attack the weakness of this system. The first target was a small portal\
+  \ on a neutral forest planet.If the soliders would be in the system, they had to\
+  \ get to the main computer, to destroy the cooling system."
+releaseDate: "2008-07"
+attachments:
+- type: "IMAGE"
+  name: "as-uem-frontportal_shot_fd88a0d4_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Assault/U/f/d/88a0d4/as-uem-frontportal_shot_fd88a0d4_1.png"
+- type: "IMAGE"
+  name: "as-uem-frontportal_shot_fd88a0d4_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Assault/U/f/d/88a0d4/as-uem-frontportal_shot_fd88a0d4_2.png"
+originalFilename: "AS-UEM-Frontportal.zip"
+hash: "fd88a0d4fd448a5eab53f032b49fdd80daf5ca22"
+fileSize: 34460113
+files:
+- name: "antibotsounds.uax"
+  fileSize: 398631
+  hash: "bc2de7888b219bc4a668eacef0dd150b55d74930"
+- name: "AS-{UEM}-Frontportal.ut2"
+  fileSize: 29591577
+  hash: "b1666a6665570b281e7ac2594bb5ed9c1c824311"
+- name: "junk.ogg"
+  fileSize: 4564529
+  hash: "f235ea07643c3621faf974f97b7e14e947f1708b"
+- name: "DM-{aNtiBot}-Defance.ogg"
+  fileSize: 2434782
+  hash: "593170a23f2d671924252b658c22ed5b7a8ea248"
+- name: "ASPortalSM.usx"
+  fileSize: 396313
+  hash: "aa6f5d1688938c6ebc8577e5377ac20e215c06f5"
+- name: "ASPortalTexes.utx"
+  fileSize: 3061081
+  hash: "662b2c0a3aed0da743cf19bb5d40e516ef0cd99e"
+- name: "sky.ogg"
+  fileSize: 10465445
+  hash: "abd4f4762f9edb070d98b39dd52d980bf25199e9"
+- name: "antibotwaldundice.ogg"
+  fileSize: 5833113
+  hash: "0f57ec620fcf757ca68fab27b9c0a4c549c9668a"
+otherFiles: 3
+dependencies:
+  AS-{UEM}-Frontportal.ut2:
+  - status: "OK"
+    name: "ASPortalSM"
+  - status: "OK"
+    name: "antibotsounds"
+  - status: "OK"
+    name: "ASPortalTexes"
+  ASPortalSM.usx:
+  - status: "OK"
+    name: "ASPortalTexes"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Assault/U/f/d/88a0d4/AS-UEM-Frontportal.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Assault"
+title: "Frontportal"
+playerCount: "8-16"
+themes:
+  Tech: 0.1
+  Industrial: 0.2
+  Egyptian: 0.7
+bots: true
