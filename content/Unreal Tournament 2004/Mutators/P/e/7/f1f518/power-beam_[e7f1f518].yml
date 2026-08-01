@@ -1,0 +1,68 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-08-01 19:15"
+game: "Unreal Tournament 2004"
+name: "Power Beam"
+author: "Bubba Merritt Dnutt"
+description: "Replaces ShockRifle with Samus' PowerBeam"
+releaseDate: "2014-04"
+attachments:
+- type: "IMAGE"
+  name: "power-beam_shot_e7f1f518_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/P/e/7/f1f518/power-beam_shot_e7f1f518_1.png"
+originalFilename: "PowerBeam.zip"
+hash: "e7f1f5189627f789f89eb7d05fe624517ab1738f"
+fileSize: 3565293
+files:
+- name: "SamusCannonTex.utx"
+  fileSize: 11187594
+  hash: "220ca3e2e07b1254841c02e0593231bfcbb37678"
+- name: "SamusCannonW.u"
+  fileSize: 12822
+  hash: "800cb1e88a6ecf8d9a8a2092e74ce38d701cf5c6"
+- name: "SamusCannonS.usx"
+  fileSize: 131810
+  hash: "a59fe05939e15d50f86c04ff970ada87118c2aec"
+- name: "SamusWeapon.ukx"
+  fileSize: 178808
+  hash: "d44e03a06a91b215eb2688164958fbe961cb8765"
+- name: "PowerBeam.ut4mod"
+  fileSize: 11543408
+  hash: "0ff464f5d61bdd52ea6e0bb2aaa5dfd8727222f0"
+otherFiles: 3
+dependencies:
+  SamusCannonS.usx:
+  - status: "OK"
+    name: "SamusCannonTex"
+  SamusCannonW.u:
+  - status: "OK"
+    name: "SamusCannonS"
+  - status: "OK"
+    name: "SamusCannonTex"
+  - status: "OK"
+    name: "SamusWeapon"
+  SamusWeapon.ukx:
+  - status: "OK"
+    name: "SamusCannonTex"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/P/e/7/f1f518/PowerBeam.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Power Beam"
+  description: "Replaces ShockRifle with Samus' PowerBeam"
+weapons:
+- name: "Power Beam"
+  description: "Throughout the Metroid series, the Power Beam is Samus' original beam\
+    \ weapon, but as she progresses, she can upgrade her Power Beam to make it a more\
+    \ powerful beam weapon.|| It wasn't until Super Metroid that Samus could combine\
+    \ all of her beam weapons into one, with the exception of the Spazer and Plasma\
+    \ Beam (though this can be done through glitches, and doing so affects gameplay\
+    \ or damages the save file).|| Super Metroid is also the only known 2D game where\
+    \ Samus can activate or deactivate her beams."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
