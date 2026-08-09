@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-07-25 04:42"
+game: "Unreal Tournament"
+name: "MH-UP_ManorV3"
+author: "Simeon \"Lord Simeon\" Spargo"
+description: "None"
+releaseDate: "2026-07"
+attachments:
+- type: "IMAGE"
+  name: "mh-up_manorv3_shot_19133c17_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/U/1/9/133c17/mh-up_manorv3_shot_19133c17_1.png"
+originalFilename: "MH-UP_ManorV3.zip"
+hash: "19133c177b22e3c1c0d46b3384e2d9aab87d97a6"
+fileSize: 2690244
+files:
+- name: "MH-UP_ManorV3.unr"
+  fileSize: 6625747
+  hash: "341c950bb28bd82778f0d504f3c7ac0c0f9e4650"
+- name: "Ghostman2.u"
+  fileSize: 26731
+  hash: "9a8796aae10d02c491cd4f901f81f06276c59edb"
+- name: "ghost12.u"
+  fileSize: 20271
+  hash: "9d111865e3f8c5d2908e412d668de9b16363346d"
+otherFiles: 1
+dependencies:
+  MH-UP_ManorV3.unr:
+  - status: "OK"
+    name: "Ghostman2"
+  - status: "OK"
+    name: "ghost12"
+  - status: "MISSING"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/U/1/9/133c17/MH-UP_ManorV3.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "AS-UP_Manor"
+playerCount: "10"
+themes:
+  Nali Temple: 0.2
+  City: 0.4
+  Nali Castle: 0.3
+  Ancient: 0.2
+bots: true
