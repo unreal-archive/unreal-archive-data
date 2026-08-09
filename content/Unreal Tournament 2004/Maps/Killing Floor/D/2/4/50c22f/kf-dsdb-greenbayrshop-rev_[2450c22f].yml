@@ -1,0 +1,84 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-07-22 02:26"
+game: "Unreal Tournament 2004"
+name: "KF-DSDB-GreenBayRShop-Rev"
+author: "Da Spider/Da Bud, ICanTechI, Alameno, Letsplay89 and revised by Mahloeeh\
+  \ (DnM)."
+description: "You and you're team has crashed landed outside of Green Bay Repair shop.\
+  \ It is the only building around. To stay alive you're team must fight. Good luck\
+  \ :)"
+releaseDate: "2010-08"
+attachments:
+- type: "IMAGE"
+  name: "kf-dsdb-greenbayrshop-rev_shot_2450c22f_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Killing%20Floor/D/2/4/50c22f/kf-dsdb-greenbayrshop-rev_shot_2450c22f_1.png"
+originalFilename: "KF_DSDB_GreenBayShop_Rev.zip"
+hash: "2450c22f5c9f94d49e1cdf40368e5b70901e7736"
+fileSize: 4152617
+files:
+- name: "KF-DSDB-GreenBayRShop-Rev.ut2"
+  fileSize: 5015734
+  hash: "1d7d0f9cf9c7989773efd3ddda8947b344d253ec"
+- name: "DSDBtires.usx"
+  fileSize: 156613
+  hash: "52c69ab3245e589582cc8452ef8c3c9ec6753141"
+- name: "DSDBStaticmeshs.usx"
+  fileSize: 203049
+  hash: "583ec4b87b003f078f8e7c59296e94f8afa2e607"
+- name: "spungbob.ukx"
+  fileSize: 3109456
+  hash: "cad124b47bee7c717ecd5466331b625c37f9eb42"
+- name: "sbsptextures.utx"
+  fileSize: 2097944
+  hash: "79ad15f39281e9a506f6d88806d049b9ae13193d"
+- name: "DSDBTextures.utx"
+  fileSize: 2630839
+  hash: "f62145041e735a298e380ef7658ebcd0a98a9ef6"
+otherFiles: 1
+dependencies:
+  DSDBtires.usx:
+  - status: "OK"
+    name: "DSDBTextures"
+  DSDBStaticmeshs.usx:
+  - status: "OK"
+    name: "DSDBTextures"
+  spungbob.ukx:
+  - status: "OK"
+    name: "sbsptextures"
+  KF-DSDB-GreenBayRShop-Rev.ut2:
+  - status: "MISSING"
+    name: "KillingFloorFlora"
+  - status: "OK"
+    name: "spungbob"
+  - status: "MISSING"
+    name: "KFMod"
+  - status: "MISSING"
+    name: "KillingFloorLabStatics"
+  - status: "MISSING"
+    name: "KillingFloorStatics"
+  - status: "MISSING"
+    name: "PatchTex"
+  - status: "OK"
+    name: "DSDBtires"
+  - status: "OK"
+    name: "DSDBTextures"
+  - status: "MISSING"
+    name: "KillingFloorManorStatics"
+  - status: "OK"
+    name: "DSDBStaticmeshs"
+  - status: "MISSING"
+    name: "KFGrass"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Killing%20Floor/D/2/4/50c22f/KF_DSDB_GreenBayShop_Rev.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Killing Floor"
+title: "KF-DSDB-GreenBayShop-Rev"
+playerCount: "Unknown"
+themes:
+  City: 1.0
+bots: true
