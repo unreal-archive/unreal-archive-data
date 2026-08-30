@@ -1,0 +1,74 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-08-30 17:28"
+game: "Unreal"
+name: "EndOfTheWorld"
+author: "Leo(T.C.K.)"
+description: "None"
+releaseDate: "2018-03"
+attachments: []
+originalFilename: "EndOfTheWorld.rar"
+hash: "5801ffafca59bf5ff1c63c1923f9e1f341a05d8e"
+fileSize: 7441315
+files:
+- name: "RWE1L2X.unr"
+  fileSize: 10250168
+  hash: "c75538b0fdcd3058ecbcf2c35089521b16d888d1"
+- name: "Endoftheworld.unr"
+  fileSize: 5223371
+  hash: "efa86b9430bd27229fec2f21893e548e0d626faa"
+- name: "Female1BH.utx"
+  fileSize: 354982
+  hash: "80ce3a6d7f63ef06e72a7040a7ffa1fa6cf8bccd"
+- name: "NPScript.u"
+  fileSize: 13824
+  hash: "02d72a495687367fcba88886efe79a0f9189de7c"
+- name: "Nali2PSX.utx"
+  fileSize: 2914148
+  hash: "5ee6866a16c893e801b3ef81b83887aa5f2a9e14"
+- name: "UPSXMon2.u"
+  fileSize: 2672078
+  hash: "320965d95e99a446e3fc8243df5c068d0c1738a9"
+- name: "UnQuadShot.u"
+  fileSize: 323194
+  hash: "b64e02335f5e9799e7ff34d424ce27814773b8ed"
+- name: "TNaliMeshPSX.utx"
+  fileSize: 2914148
+  hash: "5ee6866a16c893e801b3ef81b83887aa5f2a9e14"
+otherFiles: 5
+dependencies:
+  RWE1L2X.unr:
+  - status: "MISSING"
+    name: "Crypt2"
+  Endoftheworld.unr:
+  - status: "OK"
+    name: "unquadshot"
+  - status: "OK"
+    name: "Female1BH"
+  - status: "OK"
+    name: "UPSXMon2"
+  - status: "OK"
+    name: "NPScript"
+  - status: "MISSING"
+    name: "Crypt2"
+  - status: "OK"
+    name: "nali2psx"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/MapPacks/E/5/8/01ffaf/EndOfTheWorld.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "RWE1L2X"
+  title: "Into The Vortex"
+  author: "Eric C. Reuter"
+- name: "Endoftheworld"
+  title: "Nali Village - E1L1 section2"
+  author: "Nathan Silvers"
+gametype: "Single Player"
+themes:
+  Natural: 0.4
+  Tech: 0.4
+  Skaarj Tech: 0.1
