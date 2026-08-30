@@ -1,0 +1,86 @@
+---
+contentType: "GameType"
+addedDate: "2026-08-30"
+game: "Unreal Tournament"
+name: "Operation Stingray"
+author: "The Agency"
+description: ""
+titleImage: ""
+bannerImage: ""
+altNames: []
+links:
+  ModDB: "https://www.moddb.com/mods/operation-stingray"
+  Archived Website: "https://web.archive.org/web/20031011195549/http://www.planetunreal.com/stingray/"
+problemLinks: {}
+credits:
+  Producer, Creative Director and Project Coordinator:
+  - "John \"Deckard\" Limpert"
+  Lead Programmer, Designer and everything else:
+  - "Jon \"Mr. White\" Bartram"
+gameTypes:
+- name: "Op Stingray CTC"
+  description: ""
+- name: "Op Stingray CTC(ctf) "
+  description: ""
+- name: "Op Stingray Team Skirmish"
+  description: ""
+- name: "Op Stingray skirmish"
+  description: ""
+mutators: []
+maps: []
+releases:
+- title: ""
+  version: "2.01"
+  releaseDate: "2001-06-07"
+  description: ""
+  files:
+  - title: "UMOD Package"
+    localFile: "/home/shrimp/Downloads/1269-OpStingray201_Umod.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament/operation-stingray/1269-OpStingray201_Umod.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "1269-OpStingray201_Umod.zip"
+    hash: "abcb8c5c370b4a01126a880e21ad8256b84cfcee"
+    fileSize: 12131396
+    synced: true
+    deleted: false
+    files:
+    - name: "Operation Stingray v201.umod"
+      fileSize: 24973715
+      hash: "d88f9a48b3bc88974d1aa289478edc384d1b9eb9"
+    - name: "stingrayfemale1.uax"
+      fileSize: 814925
+      hash: "a2adda4c4771bee6c1a78257115f8769e96738d6"
+    - name: "stingrayfemale2.uax"
+      fileSize: 457345
+      hash: "b0ada0f2962709c663817dbaf3a3642bc67b7fb2"
+    - name: "stingraymale1.uax"
+      fileSize: 951956
+      hash: "6dad6ead334a8ddc96a2a59bb9b95e61bc17fec1"
+    - name: "stingraymale2.uax"
+      fileSize: 548682
+      hash: "2c16ffbf2a57605c40924657d3e8a6b0859e6af3"
+    - name: "opstingray.u"
+      fileSize: 16687986
+      hash: "7cf80bd0611fccb309b4fb63401868ff6db79d84"
+    - name: "stfemale1skins.utx"
+      fileSize: 1064433
+      hash: "42f0cb1de025011b16d4871f34394237710a5e4a"
+    - name: "stmale1skins.utx"
+      fileSize: 4407806
+      hash: "5cefa5fd08c730b3a10f1fd6728388c267fa8e21"
+    otherFiles: 3
+    dependencies:
+      opstingray.u:
+      - status: "OK"
+        name: "stingrayfemale1"
+      - status: "OK"
+        name: "stingrayfemale2"
+      - status: "OK"
+        name: "stingraymale1"
+      - status: "OK"
+        name: "stingraymale2"
+  deleted: false
+deleted: false
