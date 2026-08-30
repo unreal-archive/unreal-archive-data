@@ -1,0 +1,68 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-09-09 05:20"
+game: "Unreal Tournament"
+name: "CTF-MK2-ThePit2-15F"
+author: "Peter \"BIGFOOT_PI\" Issa"
+description: "Don't Fall off!!"
+releaseDate: "2019-01"
+attachments:
+- type: "IMAGE"
+  name: "ctf-mk2-thepit2-15f_shot_50a40b54_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/5/0/a40b54/ctf-mk2-thepit2-15f_shot_50a40b54_1.png"
+originalFilename: "CTF-MK2-ThePit2-15F.zip"
+hash: "50a40b545bf039d4c64a424d3c31648f552926e5"
+fileSize: 6582039
+files:
+- name: "CTF-MK2-ThePit2-15F.unr"
+  fileSize: 4183463
+  hash: "e569b00e9e1ec7ac4adaf26585c4dded2e45d7be"
+- name: "pit2h.umx"
+  fileSize: 2623573
+  hash: "704d3ca9e358de6032d30a966de211fe192389cc"
+- name: "MK.uax"
+  fileSize: 1258340
+  hash: "446df25a4b2ea60b7e2513585b0bbb91a945c5c4"
+- name: "MK2soundFX.uax"
+  fileSize: 1136771
+  hash: "0a2b5a3eabecb2173c69fbe0eb2c57821d3ea4bc"
+- name: "Demonhorn.u"
+  fileSize: 94557
+  hash: "0906f1135557cdd347531a44c45041742e7152f5"
+- name: "pit2sidedecolong.u"
+  fileSize: 14372
+  hash: "7c297769ed1467fe47833a185e29c943d532e733"
+- name: "Pit2.utx"
+  fileSize: 2910418
+  hash: "09910b25741c4d2d7b62da451a1410e960690bec"
+otherFiles: 0
+dependencies:
+  pit2sidedecolong.u:
+  - status: "OK"
+    name: "Pit2"
+  CTF-MK2-ThePit2-15F.unr:
+  - status: "OK"
+    name: "pit2h"
+  - status: "OK"
+    name: "pit2sidedecolong"
+  - status: "OK"
+    name: "Pit2"
+  - status: "OK"
+    name: "MK2soundFX"
+  - status: "OK"
+    name: "Demonhorn"
+  - status: "OK"
+    name: "MK"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Capture%20The%20Flag/M/5/0/a40b54/CTF-MK2-ThePit2-15F.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Capture The Flag"
+title: "MK2- THE PITII"
+playerCount: "2 - 8+"
+themes:
+  Nali Temple: 1.0
+bots: true
