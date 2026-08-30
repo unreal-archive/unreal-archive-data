@@ -1,0 +1,48 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-09-07 19:31"
+game: "Unreal Tournament"
+name: "GunTurretRelease"
+author: "Unknown"
+description: "None"
+releaseDate: "2016-08"
+attachments: []
+originalFilename: "GunTurretRelease.rar"
+hash: "e08602c3bc21abd08a899d1f7983687a97ce711b"
+fileSize: 2424476
+files:
+- name: "GunTurret.u"
+  fileSize: 4154882
+  hash: "ae288e82d4a265e4695982e5078804edbd15c707"
+- name: "TurretTest.unr"
+  fileSize: 371928
+  hash: "dc1da2bdebb832d5652e3abfbc6fa7c6076a06ff"
+- name: "TurretTest225.unr"
+  fileSize: 371928
+  hash: "8bd9ddad9f30442cf361826b9fc276df6027130e"
+otherFiles: 2
+dependencies:
+  TurretTest225.unr:
+  - status: "OK"
+    name: "GunTurret"
+  TurretTest.unr:
+  - status: "OK"
+    name: "GunTurret"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/G/e/0/8602c3/GunTurretRelease.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "TurretTest"
+  title: "TurretTest"
+  author: "Unknown"
+- name: "TurretTest225"
+  title: "TurretTest225"
+  author: "Unknown"
+gametype: "Unknown"
+themes:
+  Natural: 0.4
+  Tech: 0.6
