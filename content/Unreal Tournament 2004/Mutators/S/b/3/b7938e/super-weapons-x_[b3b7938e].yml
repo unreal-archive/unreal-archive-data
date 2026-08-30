@@ -1,0 +1,107 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-09-27 04:32"
+game: "Unreal Tournament 2004"
+name: "Super Weapons X"
+author: "Unknown"
+description: "Play with all available super Weapons X!"
+releaseDate: "2018-03"
+attachments:
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_5.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_5.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_6.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_6.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_9.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_9.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_4.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_4.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_8.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_8.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_2.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_3.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_3.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_1.png"
+- type: "IMAGE"
+  name: "super-weapons-x_shot_b3b7938e_7.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/super-weapons-x_shot_b3b7938e_7.png"
+originalFilename: "swx2k4.zip"
+hash: "b3b7938e05bcadf4fa71aec6e8cd6bac69e9c238"
+fileSize: 5427151
+files:
+- name: "RPSRmodel.ukx"
+  fileSize: 458682
+  hash: "d34b9c5ca486113b71285ebeb259cfe40b395c31"
+- name: "SWXMeshes.usx"
+  fileSize: 19283
+  hash: "4a69f2151d063372fe56e02ff7cba7cdb0d4efbb"
+- name: "SWX.u"
+  fileSize: 3068950
+  hash: "df350c41b2b46bc121006a3596992fe3dbe42fad"
+- name: "SWXtextures.utx"
+  fileSize: 12892915
+  hash: "d49697c499150be8bffca69f3074f319ec3e1001"
+otherFiles: 20
+dependencies:
+  SWX.u:
+  - status: "OK"
+    name: "SWXMeshes"
+  - status: "OK"
+    name: "SWXtextures"
+  - status: "OK"
+    name: "RPSRmodel"
+  SWXMeshes.usx:
+  - status: "OK"
+    name: "SWXtextures"
+  RPSRmodel.ukx:
+  - status: "OK"
+    name: "SWXtextures"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/S/b/3/b7938e/swx2k4.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Super Weapons X"
+  description: "Play with all available super Weapons X!"
+weapons:
+- name: "Black and White Gun X"
+  description: "Black and White Gun X"
+- name: "Magma Gun"
+  description: "Magma Gun"
+- name: "Retro-Plasma Assault Rifle"
+  description: "Retro-Plasma Assault Rifle"
+- name: "Retro-Plasma Sniper Rifle"
+  description: "Retro-Plasma Sniper Rifle"
+- name: "Super Flak Cannon X"
+  description: "Super Flak Cannon X"
+- name: "Super Rocket Launcher X"
+  description: "Super Rocket Launcher X"
+- name: "Super Shock Rifle X"
+  description: "The Super Weapons Super Shock Rifle is back, and it still packs a\
+    \ punch under the right hands. It can chain-combo alt-fire projectiles to end\
+    \ up with a bigger beam after every one, up to 5 times as big. When at its maximum\
+    \ size, and when it hits a wall, the resultant explosion gives off an ion cannon\
+    \ type of explosion, with deadly consequences. But this requires time, skill,\
+    \ and ammo, as the resultant  beam drains ammo fast, up to 20 ammo for the linking."
+- name: "Super Weapons Gattling Gun"
+  description: "Super Weapons Gattling Gun"
+- name: "Super Weapons Ice Gun"
+  description: "The Super Weapons Ice Gun. Shoots ice spikes that can slow down a\
+    \ target. Also shoots huge ice chunks for big damage."
+vehicles:
+- name: "Retro-Plasma Tank"
+  description: "Retro-Plasma Tank"
+hasConfigMenu: false
+hasKeybinds: false
