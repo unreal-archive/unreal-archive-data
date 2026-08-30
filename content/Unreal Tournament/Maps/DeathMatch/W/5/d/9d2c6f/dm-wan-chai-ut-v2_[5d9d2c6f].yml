@@ -1,0 +1,158 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-09-16 01:40"
+game: "Unreal Tournament"
+name: "DM-WAN-CHAI-UT-V2"
+author: "Deus Ex"
+description: "None"
+releaseDate: "2018-11"
+attachments:
+- type: "IMAGE"
+  name: "dm-wan-chai-ut-v2_shot_5d9d2c6f_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/W/5/d/9d2c6f/dm-wan-chai-ut-v2_shot_5d9d2c6f_2.png"
+- type: "IMAGE"
+  name: "dm-wan-chai-ut-v2_shot_5d9d2c6f_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/W/5/d/9d2c6f/dm-wan-chai-ut-v2_shot_5d9d2c6f_1.png"
+originalFilename: "DM-WAN-CHAI-UT-V2.1.rar"
+hash: "5d9d2c6f4394b0093a5af6553bb01f118fb98102"
+fileSize: 25126321
+files:
+- name: "BA_DeusEx.u"
+  fileSize: 2034591
+  hash: "69ce5b98221c131d42e2de639623816f0c11c141"
+- name: "BobPage.utx"
+  fileSize: 10122
+  hash: "1691427f940690e235a1f543ffc12ca223c780de"
+- name: "CURVE-Chinese_Burn.umx"
+  fileSize: 2311890
+  hash: "ef4a69250a0c79763ed3cff0797e6dcac2d38f70"
+- name: "CoreTexDetail.utx"
+  fileSize: 283939
+  hash: "b8b33cbb116b405a3e59d786db70587bc7f85989"
+- name: "CoreTexMetal.utx"
+  fileSize: 5586282
+  hash: "81756980d649500cc7c5c5b532ec071e1ae7ea37"
+- name: "CoreTexMisc.utx"
+  fileSize: 6031976
+  hash: "0596856234e03b69d5c625180f4f13955a7ad5d4"
+- name: "CoreTexWood.utx"
+  fileSize: 1920647
+  hash: "a6783f6566e323b846d6613b63f93def173c4d58"
+- name: "DM-WAN-CHAI-UT-V2.unr"
+  fileSize: 23853795
+  hash: "b78be8c2bf9d06aa20ac829b8922a6cf29fac902"
+- name: "DXDecoTex01.utx"
+  fileSize: 6060267
+  hash: "4de25da5d2f529ee002791a334373734fd5f95ff"
+- name: "DeusXDeco.u"
+  fileSize: 337631
+  hash: "e33977228b7d3b1640fb98e7b1a1b135625df044"
+- name: "Effects.utx"
+  fileSize: 678784
+  hash: "a6fdbd2b79d9ced0267b2d363805fd30eec26b80"
+- name: "HK_BuildingExt.utx"
+  fileSize: 712401
+  hash: "de7a79facc3ea2dd4b62809c48f49c2d2f5197d8"
+- name: "HK_Decorations.utx"
+  fileSize: 548193
+  hash: "dd1b0bf48f3b225e228735f22157c24baacd86e4"
+- name: "HK_Helibase.utx"
+  fileSize: 430181
+  hash: "99cc88dd1bb3b666fb5a6a3566596df82d0a99ab"
+- name: "HK_Interior.utx"
+  fileSize: 1029980
+  hash: "075d35473b6398bf97ddb6c8964cb6e81be6de9f"
+- name: "HK_MJ12Lab.utx"
+  fileSize: 579400
+  hash: "dd19234271eec36705bfb49ec79663ad35d5fa98"
+- name: "HK_Signs.utx"
+  fileSize: 557689
+  hash: "bdf815d1a0c2c86a535eb88ea0047fb1dd463b47"
+- name: "HK_VersaLife.utx"
+  fileSize: 424128
+  hash: "a3a2861a80e248894476567f904fe5d1144c880a"
+- name: "MoverSFX.uax"
+  fileSize: 3987934
+  hash: "865e08ebb6fb3d902b466435a8a24d7faf1249ce"
+otherFiles: 1
+dependencies:
+  HK_Signs.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  CoreTexMisc.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  HK_BuildingExt.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  HK_Helibase.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  DM-WAN-CHAI-UT-V2.unr:
+  - status: "OK"
+    name: "HK_Helibase"
+  - status: "OK"
+    name: "BA_DeusEx"
+  - status: "OK"
+    name: "DXDecoTex01"
+  - status: "OK"
+    name: "HK_Decorations"
+  - status: "OK"
+    name: "HK_MJ12Lab"
+  - status: "OK"
+    name: "CURVE-Chinese_Burn"
+  - status: "OK"
+    name: "Effects"
+  - status: "OK"
+    name: "HK_BuildingExt"
+  - status: "OK"
+    name: "CoreTexMisc"
+  - status: "OK"
+    name: "BobPage"
+  - status: "OK"
+    name: "DeusXDeco"
+  - status: "OK"
+    name: "CoreTexMetal"
+  - status: "OK"
+    name: "HK_Interior"
+  - status: "OK"
+    name: "CoreTexWood"
+  - status: "OK"
+    name: "HK_VersaLife"
+  - status: "OK"
+    name: "HK_Signs"
+  - status: "OK"
+    name: "MOVERSFX"
+  HK_Decorations.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  HK_Interior.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  CoreTexWood.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  HK_VersaLife.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  HK_MJ12Lab.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  CoreTexMetal.utx:
+  - status: "OK"
+    name: "CoreTexDetail"
+  DeusXDeco.u:
+  - status: "OK"
+    name: "DXDecoTex01"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/W/5/d/9d2c6f/DM-WAN-CHAI-UT-V2.1.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Hong Kong"
+playerCount: "10-20"
+themes: {}
+bots: true
