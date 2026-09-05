@@ -1,0 +1,99 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-08-31 23:39"
+game: "Unreal Tournament"
+name: "MH Deck2003 V2"
+author: "Elliot \"Myscha\" Cannon (edited by SED)"
+description: "None"
+releaseDate: "2015-02"
+attachments:
+- type: "IMAGE"
+  name: "mh-deck2003-v2_shot_c7384039_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/M/c/7/384039/mh-deck2003-v2_shot_c7384039_2.png"
+- type: "IMAGE"
+  name: "mh-deck2003-v2_shot_c7384039_3.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/M/c/7/384039/mh-deck2003-v2_shot_c7384039_3.png"
+- type: "IMAGE"
+  name: "mh-deck2003-v2_shot_c7384039_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/M/c/7/384039/mh-deck2003-v2_shot_c7384039_1.png"
+originalFilename: "MH-Deck2003-V2.zip"
+hash: "c738403901955ea48bc814cad0e6b9a84d43c522"
+fileSize: 9001300
+files:
+- name: "DM-Deck2003.unr"
+  fileSize: 1421394
+  hash: "af6198b0f55ce4b66b5d1c7c5f79753eb0397200"
+- name: "MH-Deck2003-V2.unr"
+  fileSize: 3282806
+  hash: "42ac73e0c983c619de0dd47babaf75867d35df8c"
+- name: "Psi-dm1.umx"
+  fileSize: 380097
+  hash: "5a0faecac07960dcbbae80ebe762c767c3eb28a7"
+- name: "AMadmansDream.u"
+  fileSize: 43512
+  hash: "5be953107802c965a27fbeedf7591ebe7c9f4f6d"
+- name: "Excessive.u"
+  fileSize: 223661
+  hash: "fb735b076aa45d239674ae946401b4c4fabf807d"
+- name: "MonsterHunt.u"
+  fileSize: 1266536
+  hash: "cc169a368e3f7112e66272f67f5a89f2c7b21b8e"
+- name: "OLweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "SYF.u"
+  fileSize: 2751
+  hash: "17d057f6ca97fbf448bda5f3e476522327054105"
+- name: "SevenB.u"
+  fileSize: 8333116
+  hash: "dafd06428a081720bbcebb7757258657cf8dca94"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+otherFiles: 16
+dependencies:
+  MH-Deck2003-V2.unr:
+  - status: "OK"
+    name: "olweapons"
+  - status: "OK"
+    name: "SevenB"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Psi-dm1"
+  SevenB.u:
+  - status: "OK"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/M/c/7/384039/MH-Deck2003-V2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "DM-Deck2003"
+  title: "Deck2003"
+  author: "Elliot \"Myscha\" Cannon (edited by SED)"
+- name: "MH-Deck2003-V2"
+  title: "Deck2003"
+  author: "Elliot \"Myscha\" Cannon (edited by SED & Kaal979)"
+gametype: "Mixed"
+themes:
+  Tech: 0.7
+  Skaarj Tech: 0.2
+  Ancient: 0.1
