@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-09-08 05:50"
+game: "Unreal Tournament"
+name: "FireballMinotaurTest"
+author: "Unknown"
+description: "None"
+releaseDate: "2020-11"
+attachments: []
+originalFilename: "FireballMinotaur.rar"
+hash: "30a2a1340a8478fb209faa55edd4af32d6c712b1"
+fileSize: 827858
+files:
+- name: "FireballMinotaurTest.unr"
+  fileSize: 7063
+  hash: "afa92d9317be7cab0a6c1f05fff11541ea7e57a2"
+- name: "PSXMinotaur.u"
+  fileSize: 1269956
+  hash: "4b5c7801ab2928cbcc590a8648793564b102b250"
+- name: "PSXMinotaurFB.u"
+  fileSize: 301419
+  hash: "e4233a8c5c9b2e71655a004724df5935cfea0e9e"
+otherFiles: 0
+dependencies:
+  PSXMinotaurFB.u:
+  - status: "OK"
+    name: "PSXMinotaur"
+  FireballMinotaurTest.unr:
+  - status: "MISSING"
+    name: "UPSXQuad"
+  - status: "OK"
+    name: "PSXMinotaurFB"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Unknown/F/3/0/a2a134/FireballMinotaur.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "FireballMinotaurTest"
+playerCount: "Unknown"
+themes: {}
+bots: false
