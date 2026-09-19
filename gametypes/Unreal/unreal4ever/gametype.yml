@@ -1,0 +1,236 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal"
+name: "Unreal4Ever"
+author: "Unreal4Ever Team"
+description: "The original Unreal incarnation of U4E: around fifty new weapons, ten\
+  \ playable character classes with their own physics, weapons and special attacks,\
+  \ new powerups and monsters, and its own deathmatch game types built around the\
+  \ arsenal. Winner of the Early Bird round of the Make Something Unreal Contest."
+titleImage: "title.png"
+bannerImage: ""
+altNames:
+- "U4E"
+- "Unreal Forever"
+links:
+  Sniper's Paradise - U4E Info: "http://www.hypercoop.tk/infobase/archive/snipersparadise/u4e-information.html"
+  OldUnreal Mods for Unreal: "https://oldunreal.com/downloads/unreal/mods-for-unreal/"
+problemLinks: {}
+credits:
+  Programming, Effects, Textures, Sounds and Co-Design:
+  - "Holger Huck"
+  "3D Modeler, Lead Graphic Artist, Web Designer, and Co-Designer":
+  - "Walter Sharrow (aka MaxSMoke)"
+  Programming:
+  - "Sonic"
+  Texture Artist:
+  - "Martin Davis"
+  Sound Engineer:
+  - "Samuel Brunet"
+  Character Voice Creation:
+  - "QuazBotch"
+  - "eVOLVE"
+gameTypes:
+- name: "U4eAllDM"
+  description: ""
+- name: "U4eDM5"
+  description: ""
+- name: "U4eDeathmatch"
+  description: ""
+- name: "U4eDeathmatch1"
+  description: ""
+mutators: []
+maps: []
+releases:
+- title: "Release"
+  version: "Beta 5"
+  releaseDate: "1999-09-01"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/u4e/U4EBeta5.zip"
+    platform: "ANY"
+    downloads:
+    - url: "http://www.hypercoop.tk/infobase/archive/snipersparadise/u4e-downloads.html"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal/unreal4ever/U4EBeta5.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "U4EBeta5.zip"
+    hash: "a7e79fb82ac01c2e09dde6c8d6c062546f9d0034"
+    fileSize: 13360299
+    synced: true
+    deleted: false
+    files:
+    - name: "U4eBeta5.umod"
+      fileSize: 21233247
+      hash: "0bc2af8c7e9fcb8c37e75c5320e1bbd565d1b7c5"
+    - name: "HHwepWav.uax"
+      fileSize: 754316
+      hash: "324cd0c65cf79362ab4cfe13784d46a674cbd84a"
+    - name: "U4e.u"
+      fileSize: 1776570
+      hash: "6a176c63d4ba28ddfed86c1fa065e1da390c957e"
+    - name: "U4e1.u"
+      fileSize: 1256271
+      hash: "fad474a9da34e50874b580a01b763726d555eeb0"
+    - name: "U4e2.u"
+      fileSize: 2095780
+      hash: "488fdf9fefb168a403f2693562272ad6abc52513"
+    - name: "U4e3.u"
+      fileSize: 1843531
+      hash: "48a2bbebd1e3f15e271fcaa982b51eec2db117ac"
+    - name: "U4e4.u"
+      fileSize: 2680275
+      hash: "f895dcbeb005271cfd61f500cec360f2473841c9"
+    - name: "U4eGames.u"
+      fileSize: 7732
+      hash: "c9f5531c287d5ea2841daad48438417d948a1911"
+    - name: "U4ePawns.u"
+      fileSize: 8096773
+      hash: "1da907ef65d8e4aa1eda159cfa1a07df1ff3a160"
+    - name: "DevilSkins.utx"
+      fileSize: 177648
+      hash: "df978acbfc0addb5dd93cfa5e5fea6d07edc77ac"
+    - name: "DracoSkins.utx"
+      fileSize: 266305
+      hash: "3b204446275cba39f371acf439a9ce9190b89c6b"
+    - name: "FredTotalSkins.utx"
+      fileSize: 135239
+      hash: "a0e7b88891f374f605562e9167e607e44a20fb08"
+    - name: "HenrySkins.utx"
+      fileSize: 177642
+      hash: "efe1c316f7bb9289e0dacfaf2c891c0a50f5f7e4"
+    - name: "MrBigSkins.utx"
+      fileSize: 133931
+      hash: "008a98d113c82d5b291a7ab37a4589e41da43e7a"
+    - name: "TeddySkins.utx"
+      fileSize: 89210
+      hash: "ffbfb9ff99343165fc2103d2b5fb889808562d41"
+    - name: "U4eWTexs.utx"
+      fileSize: 1615265
+      hash: "ff430519b0417455a07f927ccb4f97ca8f24737c"
+    - name: "u4ewarp.utx"
+      fileSize: 49744
+      hash: "7d473f4b49986b5c4e3ddf5f987109ab19d1b269"
+    otherFiles: 15
+    dependencies:
+      U4e4.u:
+      - status: "OK"
+        name: "HHwepWav"
+      - status: "OK"
+        name: "U4e"
+      - status: "OK"
+        name: "U4e3"
+      - status: "OK"
+        name: "U4e2"
+      - status: "OK"
+        name: "U4e1"
+      U4e3.u:
+      - status: "OK"
+        name: "U4e"
+      - status: "OK"
+        name: "U4e2"
+      - status: "OK"
+        name: "U4e1"
+      - status: "OK"
+        name: "U4eWTexs"
+      U4e2.u:
+      - status: "OK"
+        name: "u4ewarp"
+      - status: "OK"
+        name: "U4e"
+      - status: "OK"
+        name: "U4e1"
+      - status: "OK"
+        name: "U4eWTexs"
+      U4e1.u:
+      - status: "OK"
+        name: "HHwepWav"
+      - status: "OK"
+        name: "U4e"
+      U4ePawns.u:
+      - status: "OK"
+        name: "u4ewarp"
+      - status: "OK"
+        name: "U4e"
+      - status: "OK"
+        name: "U4e4"
+      - status: "OK"
+        name: "U4e3"
+      - status: "OK"
+        name: "U4e2"
+      - status: "OK"
+        name: "U4e1"
+      - status: "OK"
+        name: "U4eWTexs"
+      U4e.u:
+      - status: "OK"
+        name: "HHwepWav"
+      - status: "OK"
+        name: "U4eWTexs"
+      U4eGames.u:
+      - status: "OK"
+        name: "U4e"
+      - status: "OK"
+        name: "U4e4"
+      - status: "OK"
+        name: "U4e3"
+      - status: "OK"
+        name: "U4e2"
+      - status: "OK"
+        name: "U4e1"
+  - title: "Tank Preview"
+    localFile: "/home/shrimp/tmp/u4e/U4eTanks.zip"
+    platform: "ANY"
+    downloads:
+    - url: "http://www.hypercoop.tk/infobase/archive/snipersparadise/u4e-downloads.html"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal/unreal4ever/U4eTanks.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "U4eTanks.zip"
+    hash: "c232ea942577b924c66411cf0991ba00cd50ed3e"
+    fileSize: 417146
+    synced: true
+    deleted: false
+    files:
+    - name: "U4eTanks.u"
+      fileSize: 911857
+      hash: "ad6ba258ef66b983d5f9301c9f182920bb5bc79e"
+    otherFiles: 1
+    dependencies:
+      U4eTanks.u:
+      - status: "MISSING"
+        name: "U4e"
+      - status: "MISSING"
+        name: "U4e3"
+      - status: "MISSING"
+        name: "U4e2"
+      - status: "MISSING"
+        name: "U4e1"
+      - status: "MISSING"
+        name: "U4eWTexs"
+  - title: "Beta 4 Skinning Package"
+    localFile: "/home/shrimp/tmp/u4e/Skinners_Guide.zip"
+    platform: "ANY"
+    downloads:
+    - url: "http://www.hypercoop.tk/infobase/archive/snipersparadise/u4e-downloads.html"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal/unreal4ever/Skinners_Guide.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "Skinners_Guide.zip"
+    hash: "cd5d6a03bebf4ba004fe0561747963a45d3fb487"
+    fileSize: 270411
+    synced: true
+    deleted: false
+    files: []
+    otherFiles: 10
+    dependencies: {}
+  deleted: false
+deleted: false
