@@ -1,0 +1,101 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal Tournament 3"
+name: "UT3 Bombing Run"
+author: "The Reliquary"
+description: "Brings UT2004's Bombing Run to Unreal Tournament 3. Both teams fight\
+  \ over a single orb which must be carried or thrown through the enemy goal ring,\
+  \ with bot support, console commands and an in-game settings screen for server admins.\
+  \ Played on BR prefixed maps, of which the team released a set of their own."
+titleImage: ""
+bannerImage: "banner.jpg"
+altNames:
+- "Bombing Run for UT3"
+- "TRBP"
+links:
+  Archived Homepage: "https://web.archive.org/web/20091213124256/http://www.relicsut.com/ut3br.htm"
+  ModDB: "https://www.moddb.com/mods/bombingrun"
+problemLinks: {}
+credits:
+  Programming:
+  - "Mark \"W@rHe@d\" Caldwell"
+  Map Design:
+  - "Joe \"Relic\" Unik"
+  - "Andrew \"LrdMidknight\" Riddle"
+  Pigskin Theme Ball Graphics:
+  - "Chris W. Roth"
+gameTypes:
+- name: "BombingRun"
+  description: "Both teams seek possesion of a single Orb. Orb Carrier must take the\
+    \ orb to the enemy goal to score."
+mutators: []
+maps: []
+releases:
+- title: "Release"
+  version: "3.22"
+  releaseDate: "2010-06-20"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/ut3gt/GameTypes/BombingRun/UT3BombingRun3.22.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://ut3.ut-files.com/index.php?dir=GameTypes/BombingRun/"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/ut3-bombing-run/UT3BombingRun3.22.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "UT3BombingRun3.22.zip"
+    hash: "98d5830284614a7ace625c743d11660885fbda10"
+    fileSize: 16587240
+    synced: true
+    deleted: false
+    files:
+    - name: "BombingRun.u"
+      fileSize: 1359451
+      hash: "bd88812caa929336005bc7e3d892f0c8163b9653"
+    - name: "BombingRunGraphics.upk"
+      fileSize: 22332742
+      hash: "70d5e57bc8ade301a485e8b3189c2470271cfb50"
+    otherFiles: 8
+    dependencies:
+      BombingRun.u:
+      - status: "OK"
+        name: "BombingRunGraphics"
+  deleted: false
+- title: "Earlier Release"
+  version: "3.2"
+  releaseDate: "2009-12-26"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/brmedia/UT3BombingRun3.2.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://www.lonebullet.com/maps/download-bombing-run-32-for-unreal-tournament-3-map-level-free-53591.htm"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/ut3-bombing-run/UT3BombingRun3.2.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "UT3BombingRun3.2.zip"
+    hash: "debdda5e965f892662a2bb8ad42830f65e254dd9"
+    fileSize: 1325324
+    synced: true
+    deleted: false
+    files:
+    - name: "BombingRun.u"
+      fileSize: 1343294
+      hash: "87b354259eb19d2fc6fa3f13e1f1b2b8d3719871"
+    - name: "BombingRunGraphics.upk"
+      fileSize: 1898696
+      hash: "7495a080cfbdb2fcdcb286488e9ba13f91e3e6f4"
+    otherFiles: 8
+    dependencies:
+      BombingRun.u:
+      - status: "OK"
+        name: "BombingRunGraphics"
+  deleted: false
+deleted: false

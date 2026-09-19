@@ -1,0 +1,375 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal Tournament 3"
+name: "Battle Team/Freezetag Arena"
+author: "Nico de Vries"
+description: "Four round-based arena game types in one package: Battle Team Arena,\
+  \ where you get one life per round, Battle Freezetag Arena, where being shot freezes\
+  \ you until a team mate thaws you, and instagib versions of both. Everyone spawns\
+  \ fully armed, pickups are stripped from the map, and a 3D radar, anti-camping timer\
+  \ and detailed round statistics keep clan matches honest."
+titleImage: ""
+bannerImage: "banner.jpg"
+altNames:
+- "BTFA"
+- "Battle Team Arena"
+- "Battle Freezetag Arena"
+links:
+  Archived Homepage: "https://web.archive.org/web/20110222234712/http://bigbattleservers.com/"
+  Archived Downloads Page: "https://web.archive.org/web/20101212233219/http://bigbattleservers.com/ut3mods.php"
+problemLinks: {}
+credits:
+  Design, Programming, Content:
+  - "Nico de Vries"
+  V10 UT3 Compatibility Fix:
+  - "Shambler"
+gameTypes:
+- name: "Battle Team Arena"
+  description: "You can die only once. Once all members of a team are eliminated the\
+    \ other team gets a point and wins the round."
+- name: "Battle Freezetag Arena"
+  description: "Instead of getting killed you get frozen. Once all members of a team\
+    \ are frozen or dead the other team gets a point and wins the round."
+- name: "Battle Instagib Arena"
+  description: "Identical to Battle Team Arena, but every player gets an Instagib\
+    \ rifle."
+- name: "Battle Insta Freeze Arena"
+  description: "Identical to Battle Freezetag Arena, but every player gets an Instagib\
+    \ rifle and thaw speed is doubled."
+mutators: []
+maps: []
+releases:
+- title: "Version 10"
+  version: ""
+  releaseDate: "2009-06-27"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BTFA_V10.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BTFA_V10.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BTFA_V10.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BTFA_V10.zip"
+    hash: "4a50f6846be57ae9c92af7a969ba68ab1962dbfa"
+    fileSize: 2100420
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 515283
+      hash: "4ee793bc128156c5efd3f4c9f8f8c3cfc36f7b01"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 3560056
+      hash: "df633f87e6e21491cc44da2fe826db909e71c577"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Version 9.1"
+  version: ""
+  releaseDate: "2008-06-21"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BTFA_V9.1.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BTFA_V9.1.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BTFA_V9.1.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BTFA_V9.1.zip"
+    hash: "cc0c75e27a3d96c3f22959b7f23fbea3a7974c60"
+    fileSize: 2100215
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 514560
+      hash: "96e1d11eca33b4f61b05ecc54fa48b17c5eaf66d"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 3560056
+      hash: "df633f87e6e21491cc44da2fe826db909e71c577"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Version 8"
+  version: ""
+  releaseDate: "2008-06-14"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BTFA_V8.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BTFA_V8.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BTFA_V8.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BTFA_V8.zip"
+    hash: "b5294a973d076435cde252f0a618ff566d7ff04b"
+    fileSize: 2098315
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 507985
+      hash: "d83d61f95af495ee40444a13132454af045f2380"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 3560056
+      hash: "df633f87e6e21491cc44da2fe826db909e71c577"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Version 7"
+  version: ""
+  releaseDate: "2008-05-04"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BTFA_V7.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BTFA_V7.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BTFA_V7.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BTFA_V7.zip"
+    hash: "14080b7ff56c38e2d4dcf8aeac81efcccd74a609"
+    fileSize: 2091219
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 483330
+      hash: "77126bb29927d131fc078895af991c1de5147835"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 3560056
+      hash: "df633f87e6e21491cc44da2fe826db909e71c577"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Version 6"
+  version: ""
+  releaseDate: "2008-04-09"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BTFA_V6.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BTFA_V6.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BTFA_V6.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BTFA_V6.zip"
+    hash: "3062e71364e5f9172a72f8247bbd2fd724eda03b"
+    fileSize: 2082769
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 438553
+      hash: "4825e74e04f0eb02ae18b140ae34d91278e398ec"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 3560056
+      hash: "df633f87e6e21491cc44da2fe826db909e71c577"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Version 5"
+  version: ""
+  releaseDate: "2008-03-30"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BTFA_V5.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BTFA_V5.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BTFA_V5.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BTFA_V5.zip"
+    hash: "0d8e98fc48ee66e62144d42e3c58f31fc3b93849"
+    fileSize: 2102158
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 399078
+      hash: "c1c755a6a6dbeed6370c7d6a7da9985b1fa0ec6a"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 3640823
+      hash: "9eb1ceb515715aeecf870e3b5917b209520abc07"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+      - status: "MISSING"
+        name: "BattleRPG"
+  deleted: false
+- title: "Version 4"
+  version: ""
+  releaseDate: "2008-03-09"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BattleTeamArena_V4.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BattleTeamArena_V4.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BattleTeamArena_V4.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BattleTeamArena_V4.zip"
+    hash: "1b2ba5c6fe2648ec6f28624493e80008c8b6f0ea"
+    fileSize: 1330845
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 311654
+      hash: "4359573af5ffd0fb347df525e873b34df0ffc6fa"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 1903606
+      hash: "6614a2f62f66935746b817cf5ea7a3a18baaa527"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Preview 3"
+  version: ""
+  releaseDate: "2008-03-05"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BattleTeamArena_P3.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BattleTeamArena_P3.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BattleTeamArena_P3.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BattleTeamArena_P3.zip"
+    hash: "e1b165bf5fb5b280f97561b6cc2a3584e40d39fa"
+    fileSize: 1330095
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 307745
+      hash: "bdac1f12f29ce1d4cd687d8198f2f6aa2d27f93a"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 1903606
+      hash: "6614a2f62f66935746b817cf5ea7a3a18baaa527"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Preview 2"
+  version: ""
+  releaseDate: "2008-02-26"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BattleTeamArena_P2.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BattleTeamArena_P2.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BattleTeamArena_P2.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BattleTeamArena_P2.zip"
+    hash: "f1ef10ef5bfc4595d1f0eec634e2b08903451f2b"
+    fileSize: 1299799
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 220028
+      hash: "618bb9db1c7103c942961b83fa4ed8282339afce"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 1947475
+      hash: "4de554fd0209f35b012b2972b6ec48c41593be8c"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+- title: "Preview 1"
+  version: ""
+  releaseDate: "2008-02-17"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/tmp/btfa/BattleTeamArena_P1.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://web.archive.org/web/20100103id_/http://bigbattleservers.com/downloads/BattleTeamArena_P1.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/battle-teamfreezetag-arena/BattleTeamArena_P1.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "BattleTeamArena_P1.zip"
+    hash: "eb2b133a13da1776c746793df48bbc013a738e10"
+    fileSize: 1260674
+    synced: true
+    deleted: false
+    files:
+    - name: "BattleTeamArena.u"
+      fileSize: 116462
+      hash: "6922f46198c7f38cd2a2ec1a1adcf88bdaa89584"
+    - name: "BattleTeamArenaContent.upk"
+      fileSize: 1681136
+      hash: "c6b5f002df85694a5d7f9a57cc272b7cca491eab"
+    otherFiles: 3
+    dependencies:
+      BattleTeamArena.u:
+      - status: "OK"
+        name: "BattleTeamArenaContent"
+  deleted: false
+deleted: false
