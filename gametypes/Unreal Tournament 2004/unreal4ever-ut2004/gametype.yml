@@ -1,0 +1,1900 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal Tournament 2004"
+name: "Unreal4Ever UT2004"
+author: "Unreal4Ever Team"
+description: "A total conversion pitting players against endless waves of monsters,\
+  \ with more than 30 weapons, 15 monsters and its own Gateways, Monster Master, Build\
+  \ CTF and 2D sidescrolling gametypes."
+titleImage: "title.png"
+bannerImage: "banner.jpg"
+altNames:
+- "Unreal 4 Ever 2004"
+- "U4E"
+links:
+  Archived Homepage: "https://web.archive.org/web/20050831002858/http://u4e.beyondunreal.com/"
+  ModDB: "https://www.moddb.com/mods/unreal-4-ever-2004"
+problemLinks: {}
+credits:
+  Supreme Overlord:
+  - "MaxSMoke"
+  Wizard leader:
+  - "UTIMER"
+  Code Wizard:
+  - "FrozenCow"
+  Archvile:
+  - "Holger"
+  Maps:
+  - "Dan \"Winkyboy\" Overlander"
+  - "Rich_Zap"
+  - "Vladimir \"VoodariuS\" Mihalev"
+  Locust Board:
+  - "splash"
+  - "gel"
+  Viper SpeedBoats:
+  - "Colt \"CMan\" Wohlers"
+  - "Offspringy"
+  - "Mr. Slate"
+  Watercraft:
+  - "Xilver"
+  GoodKarma Physics:
+  - "Jon Zepp"
+  "2D Tournament":
+  - "k0lpA"
+gameTypes:
+- name: "Build CTF"
+  description: "Your team must score flag captures by taking the enemy flag from the\
+    \ enemy base and returning it to their own flag.  If the flag carrier is killed,\
+    \ the flag drops to the ground for anyone to pick up.  If your team's flag is\
+    \ taken, it must be returned (by touching it after it is dropped) before your\
+    \ team can score a flag capture."
+- name: "Monster Master"
+  description: "Each player starts with a limited number of lives.  The goal is to\
+    \ be the last player left when the smoke clears."
+- name: "U4E2D"
+  description: "Play in a 2D environment, change the gametype under the Game Rules\
+    \ tab. If you want to change gametype specific gamerules, go to the Game Rules\
+    \ tab of that gametype."
+mutators:
+- name: "Damage Identifier"
+  description: "Damage will be visible above the victem's head."
+- name: "U4E: IAM replacer"
+  description: "Replaces the any weapon with the IAM. Also allows an non-overheating\
+    \ version"
+- name: "U4E: berzerk"
+  description: "Every kill gets you 20 points, get 100 and go berzerk!"
+- name: "UFO"
+  description: "Replaces the Raptor with the UFO"
+- name: "Unreal4Ever"
+  description: "Play with Unreal4Ever weapons"
+maps:
+- name: "2DDM-U4E-FusionReactor"
+  title: "Fusion Reactor"
+  author: "UTIMER"
+  screenshot:
+    type: "IMAGE"
+    name: "2ddm-u4e-fusionreactor2993379030462968937.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/U/unreal4ever-ut2004/maps/2ddm-u4e-fusionreactor2993379030462968937.png"
+- name: "2DDM-U4E-SMarioBros"
+  title: "Super Mario Bros Level 1-1"
+  author: "FrozenCow"
+  screenshot:
+    type: "IMAGE"
+    name: "2ddm-u4e-smariobros11023165958322543212.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/U/unreal4ever-ut2004/maps/2ddm-u4e-smariobros11023165958322543212.png"
+- name: "2DONS-U4E-TopDownTest"
+  title: "TopDown-Test"
+  author: "FrozenCow"
+- name: "DM-U4E-Annwyn"
+  title: "DM-U4E-Annwyn"
+  author: "Rich_Zap"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-u4e-annwyn11687740599238139548.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/U/unreal4ever-ut2004/maps/dm-u4e-annwyn11687740599238139548.png"
+- name: "DM-U4E-FairyLand"
+  title: "FairyLand"
+  author: "Vladimir 'VoodariuS' Mihalev"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-u4e-fairyland12544149209911814089.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/U/unreal4ever-ut2004/maps/dm-u4e-fairyland12544149209911814089.png"
+- name: "VCTF-U4E-SterlingFlood"
+  title: "VCTF-U4E-SterlingFlood"
+  author: "Dan 'Winkyboy' Overlander"
+  screenshot:
+    type: "IMAGE"
+    name: "vctf-u4e-sterlingflood4310198882412839086.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/U/unreal4ever-ut2004/maps/vctf-u4e-sterlingflood4310198882412839086.png"
+releases:
+- title: "MSU Edition"
+  version: "2.5"
+  releaseDate: "2004-06-07"
+  description: ""
+  files:
+  - title: "UMOD Installer"
+    localFile: "/home/shrimp/Downloads/U4E-MSU-Edition.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202004/unreal4ever-ut2004/U4E-MSU-Edition.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "U4E-MSU-Edition.zip"
+    hash: "d5d198e53efb52abdfec6736b63b700d9671e5c5"
+    fileSize: 36710696
+    synced: true
+    deleted: false
+    files:
+    - name: "U4E-MSU-Edition.ut4mod"
+      fileSize: 79149063
+      hash: "0ab45a9b4d261d6c5834feab3882d28f170a7aa3"
+    - name: "u4e.ka"
+      fileSize: 425165
+      hash: "10a05e9198ee41d186bde88da5190c43fd80a8be"
+    - name: "u4e2.u"
+      fileSize: 1185938
+      hash: "398e681f74bddcebb1494ff09e94545c19795873"
+    - name: "BFG2k402.ukx"
+      fileSize: 227065
+      hash: "7bc17b5b6944162abf4b61d5429b0251d2a5e343"
+    - name: "BFG2k4Skins01.utx"
+      fileSize: 3042977
+      hash: "28fad0002719bfa56bc2760ce00eea60161c5e1e"
+    - name: "BFG2k4StaticMeshes.usx"
+      fileSize: 209307
+      hash: "fb03c0aa1afc800e85fc2beef1d8351cc1d4caaf"
+    - name: "BFGAmmo01.utx"
+      fileSize: 552926
+      hash: "7516c0ef617cdc50187b30edbb8fd26ac9842513"
+    - name: "Beretta01.utx"
+      fileSize: 1510892
+      hash: "7effa00ee1d36d6c26a4d581e1e35395da840798"
+    - name: "BigBubble03.ukx"
+      fileSize: 109924
+      hash: "9d892cee531890c578f30e60a706e68a5733ab7f"
+    - name: "BlobBoy04a.ukx"
+      fileSize: 156937
+      hash: "7c7a776bff84abf8ecc9bae102cd6d562065e2a3"
+    - name: "BlobBoySkin01.utx"
+      fileSize: 528010
+      hash: "e8fbf8c961a8076f4ebbcb18b6ccb5534f3253a5"
+    - name: "BlobBoySkin01a.utx"
+      fileSize: 177222
+      hash: "2b2bf99cde88ca9b56d9312e181ebea6c63d71e4"
+    - name: "Bloodworm.ukx"
+      fileSize: 308006
+      hash: "35a71e5959d56bb2665d2e03ea81cb062880e8e2"
+    - name: "BubbleGun05b.utx"
+      fileSize: 2309802
+      hash: "1cb5384781afbe0bb422c15559363016d8b31d23"
+    - name: "BubbleStuff.utx"
+      fileSize: 418006
+      hash: "d7a97561b708950dea7c2c58ad7314552c3c9fbd"
+    - name: "BubbleStuff2.utx"
+      fileSize: 439880
+      hash: "4073567f25ae5215e6a5c7643c52d3eeebb9b5b2"
+    - name: "Bubbles.usx"
+      fileSize: 215025
+      hash: "5acd9bc6c05b4504ecefe4094ba5e2e9f1dfe633"
+    - name: "DollBomb-InAction.ukx"
+      fileSize: 343905
+      hash: "583142e319cb6b61fe716b12192cd01b3457f3ac"
+    - name: "Dollbomb2-1stPerson.ukx"
+      fileSize: 446176
+      hash: "79487420e600c571c0b3750167c2685721dce20c"
+    - name: "DollbombSkins.utx"
+      fileSize: 2835548
+      hash: "642b60b533148f0af037d7bb5c446c6e010181fc"
+    - name: "DollbombSounds.uax"
+      fileSize: 380789
+      hash: "ac3043eb5e6c1046e222f3df66949368bbbbbb2e"
+    - name: "Enlightened04.ukx"
+      fileSize: 468881
+      hash: "73ed4fa6bbbada0d4793ae569eddb479d7809e28"
+    - name: "EyeBallSkins.utx"
+      fileSize: 1093993
+      hash: "a64cc428a7311821bd4916cc234f244ebd6f34dc"
+    - name: "Freezer.utx"
+      fileSize: 1840378
+      hash: "a1884001be2b2b0f9738dbcb0f8471d5544149bc"
+    - name: "Freezer2a.ukx"
+      fileSize: 811305
+      hash: "4ea1f44627f6f72532f5c979a9f59c923ad4053a"
+    - name: "GatewayV1a.ukx"
+      fileSize: 125498
+      hash: "3ee554747d6c61d98b125eb5a70da17ac1cd199a"
+    - name: "Goro02a.ukx"
+      fileSize: 309107
+      hash: "0724c9ef2da55ec1ecb25cb11a46dbba1dae6c5d"
+    - name: "Goro03a.ukx"
+      fileSize: 307319
+      hash: "6b390d529203e96298aaed2ed2a5ea5e1eed9e55"
+    - name: "GoroSkins01.utx"
+      fileSize: 1271967
+      hash: "f303f618923ec4ed1e0d91b2890751c77f64f5b7"
+    - name: "HHwepWav.uax"
+      fileSize: 754316
+      hash: "324cd0c65cf79362ab4cfe13784d46a674cbd84a"
+    - name: "IceBurg01.utx"
+      fileSize: 549028
+      hash: "a04cfc4d55bea3601b8a804d8f4b4df59bb54bf6"
+    - name: "Katana01.utx"
+      fileSize: 2072418
+      hash: "926577744da3d6164fc1184730e1f7eaf9257d15"
+    - name: "Necrosis.utx"
+      fileSize: 603723
+      hash: "4126ae1c53b22fe8e3bafa1c310ac98115b9e2de"
+    - name: "Phasor1stperson01.ukx"
+      fileSize: 170578
+      hash: "27fd1784d5984be288571bbeab810595f65af02a"
+    - name: "Phasor1stperson01a.ukx"
+      fileSize: 304984
+      hash: "ff44dbb5925734b00ad6ed849956611ea1668a99"
+    - name: "PhasorASkin01.utx"
+      fileSize: 223352
+      hash: "3e9329e18cb7efd94a2a9e6cd2ba15838c81ed5c"
+    - name: "PhasorAmmo01.ukx"
+      fileSize: 106443
+      hash: "e141f57a49b9c628b113d8c90bfffaaf1472c2fa"
+    - name: "PhasorPickups01.usx"
+      fileSize: 125999
+      hash: "23811a61252013b65f79587f683d55cbfbb5c149"
+    - name: "PhasorSkins01.utx"
+      fileSize: 3025866
+      hash: "5dcff45eee42a15bc877f2dde2a2490d5c2759c7"
+    - name: "PhasorSkins02.utx"
+      fileSize: 89772
+      hash: "4f93938a5490ac9f8332cef50c3a5ac63068c628"
+    - name: "PhasorSounds.uax"
+      fileSize: 255969
+      hash: "7b6341eace5f4ad9628cfe43d4af81da5da0489a"
+    - name: "PythonAgain01.utx"
+      fileSize: 1455122
+      hash: "59c49d095c4cc033a28ed057753dfd82d2c52f73"
+    - name: "PythonAgain04.ukx"
+      fileSize: 1224549
+      hash: "aeddd669429c3735e86b54042025d1084a201f3f"
+    - name: "PythonAgain04a.ukx"
+      fileSize: 1221079
+      hash: "34b9b61a06854ba6537353bebd900b3d2f1d6586"
+    - name: "QSG.uax"
+      fileSize: 445409
+      hash: "4cc6a63300a218d2d248618176bb7ac6b1a34f9b"
+    - name: "RiftRifle.utx"
+      fileSize: 1777942
+      hash: "d3f27004c205a0a240276c4a910bc172bbebc1af"
+    - name: "SpirlBeams.utx"
+      fileSize: 11884
+      hash: "43a76c11a4509d19c658b95e3119758df3bd528c"
+    - name: "Tomahawk01.utx"
+      fileSize: 1270563
+      hash: "d42c8a9ea0e1150801d8f6898aa23e2c33ba4235"
+    - name: "U4E-Grenades.utx"
+      fileSize: 1950830
+      hash: "06a4deb67ad0fc1b2c75e4e7da6a967e5364f000"
+    - name: "U4E-Hands.utx"
+      fileSize: 745242
+      hash: "a991c23fd3862c78105815ef2428ba06063ca7f1"
+    - name: "U4E-Icy.utx"
+      fileSize: 142145
+      hash: "cc607763968eac68888215eb87304864ae356823"
+    - name: "U4E-grenadespack2.ukx"
+      fileSize: 1513646
+      hash: "3b4d08647d8034630e7d034eb2c9fd3f7803a016"
+    - name: "U4EGatewayV1-01.utx"
+      fileSize: 921750
+      hash: "914aa3a54628dad6d1b3f5bc62b7373a90dea376"
+    - name: "U4EGatewayV1-02.utx"
+      fileSize: 949112
+      hash: "738174116fe01d7e7ccb2c9d595e72fd762a58b7"
+    - name: "U4EHandsPunchy01.ukx"
+      fileSize: 291737
+      hash: "92ff62871455ea9e34f70982f202eb3b959e3f2b"
+    - name: "U4Ev2Skins.utx"
+      fileSize: 11638439
+      hash: "abfd54d0b00591089231009ee6949c70709bedae"
+    - name: "U4Ev2StatisMeshes.usx"
+      fileSize: 1151019
+      hash: "e774cfcc244cfc197f67af53ce42456ef8f70d79"
+    - name: "U4Ev2Stuff.ukx"
+      fileSize: 4073880
+      hash: "c15e9c05023807bb2aa37a01c91b9519afb21bb8"
+    - name: "U4eWTexs.utx"
+      fileSize: 1448963
+      hash: "ba221da63ee53226c1db866dcc4cd6103fed7995"
+    - name: "U4e_weaponsounds.uax"
+      fileSize: 392217
+      hash: "435fa3de163db8214e60d810b90e37b20a38b4af"
+    - name: "UFO.uax"
+      fileSize: 48309
+      hash: "e285300aacaa24d551426f3897affbbfa477b712"
+    - name: "UFOKARMA.ukx"
+      fileSize: 121955
+      hash: "b1c77ee404e29a1fcc0043087c98a5c9852df4c8"
+    - name: "UFOSkins.utx"
+      fileSize: 749886
+      hash: "3580dff509adf4845d523bb8f7121fea08ba7b04"
+    - name: "UFOStaticMesh.usx"
+      fileSize: 114411
+      hash: "c37c247d120f36cd7b287f608080971e4868ff2a"
+    - name: "WarpEffect.utx"
+      fileSize: 40466
+      hash: "9afbb1ed00aad6ff41f765cf7d9969343d34e6af"
+    - name: "Worm08.ukx"
+      fileSize: 393501
+      hash: "2e1205178c30c465b078cc173ff25de193a42103"
+    - name: "Worm6aSkin.utx"
+      fileSize: 439631
+      hash: "20ddaed0ed632832ccf1a5c9c8c498a82d1b77b6"
+    - name: "WormSkin06.utx"
+      fileSize: 220614
+      hash: "e9272381642964272ce8d78e2697cae5a1a469d8"
+    - name: "Wormhole-Again01.ukx"
+      fileSize: 65762
+      hash: "43b87b2a7f962760b6783c5569da46d0a826d245"
+    - name: "bfg2k4ammothing01.usx"
+      fileSize: 114356
+      hash: "1a0debe9e6b2ecdae2db641263eefb3bef3515b5"
+    - name: "dollbomb-pickup.usx"
+      fileSize: 540911
+      hash: "db9a76e35b89cbd2e858436f5e8f91c58b55674d"
+    - name: "fbr04.utx"
+      fileSize: 1534804
+      hash: "a2670e6036deba92fc9eeaa3470aca082fb6ae42"
+    - name: "freezer-ammo.usx"
+      fileSize: 358649
+      hash: "356fa8b30d29e656f286f34bcc2970079eb5934b"
+    - name: "icecold01.usx"
+      fileSize: 33165
+      hash: "a6f779449b88a24b6cba183af651d9cea1aa09e4"
+    - name: "madskull01.ukx"
+      fileSize: 56705
+      hash: "30c9ae29cd98f199c9ab15c888548f2c89489c71"
+    - name: "pythonpickups.usx"
+      fileSize: 722326
+      hash: "b5c2f57173a28c5b75b2f2bcbd4f6615ecdbdd4c"
+    - name: "u4e.utx"
+      fileSize: 404
+      hash: "b4edc611661774ea962c7284312b76fc17013536"
+    - name: "u4e3fx.utx"
+      fileSize: 365004
+      hash: "b49757325a7afa73435eeab31e7d8d0bc419f867"
+    - name: "u4eParticles.utx"
+      fileSize: 1575640
+      hash: "d51fee0382d765e87672c8e79d279157d425b820"
+    - name: "u4e_pickups.usx"
+      fileSize: 2733609
+      hash: "6117966b69b585d10a40e17ecb5e03fe0026fc0f"
+    - name: "u4e_textures.utx"
+      fileSize: 1548435
+      hash: "1919ccbaa9f90d4b27fc662d213660a896d58dd3"
+    - name: "u4e_textures2.utx"
+      fileSize: 288679
+      hash: "6d20e57e90ea54e61ede2500baa7aa558c039965"
+    - name: "u4eberzerk.utx"
+      fileSize: 768869
+      hash: "955ddf604823bd850d44f9d9871d5a23cbec9eb1"
+    - name: "u4emeshs.ukx"
+      fileSize: 3271343
+      hash: "65d7408cdeac677ddf98a62dae9963c15f1d1cca"
+    otherFiles: 4
+    dependencies:
+      bfg2k4ammothing01.usx:
+      - status: "OK"
+        name: "BFGAmmo01"
+      DollBomb-InAction.ukx:
+      - status: "OK"
+        name: "DollbombSounds"
+      - status: "OK"
+        name: "DollbombSkins"
+      icecold01.usx:
+      - status: "OK"
+        name: "IceBurg01"
+      BFG2k4StaticMeshes.usx:
+      - status: "OK"
+        name: "BFG2k4Skins01"
+      BlobBoy04a.ukx:
+      - status: "OK"
+        name: "BlobBoySkin01a"
+      BigBubble03.ukx:
+      - status: "OK"
+        name: "BubbleStuff"
+      Wormhole-Again01.ukx:
+      - status: "OK"
+        name: "WarpEffect"
+      Goro03a.ukx:
+      - status: "OK"
+        name: "GoroSkins01"
+      UFOKARMA.ukx:
+      - status: "OK"
+        name: "UFOSkins"
+      Phasor1stperson01a.ukx:
+      - status: "OK"
+        name: "PhasorSkins01"
+      Dollbomb2-1stPerson.ukx:
+      - status: "OK"
+        name: "DollbombSkins"
+      - status: "OK"
+        name: "U4E-Hands"
+      dollbomb-pickup.usx:
+      - status: "OK"
+        name: "DollbombSkins"
+      u4emeshs.ukx:
+      - status: "OK"
+        name: "u4e_textures"
+      - status: "OK"
+        name: "Tomahawk01"
+      - status: "OK"
+        name: "Katana01"
+      - status: "OK"
+        name: "BubbleGun05b"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "Beretta01"
+      - status: "OK"
+        name: "Necrosis"
+      - status: "OK"
+        name: "U4E-Hands"
+      BFG2k402.ukx:
+      - status: "OK"
+        name: "BFG2k4Skins01"
+      U4Ev2Skins.utx:
+      - status: "OK"
+        name: "RiftRifle"
+      PhasorPickups01.usx:
+      - status: "OK"
+        name: "PhasorSkins01"
+      PythonAgain04.ukx:
+      - status: "OK"
+        name: "PythonAgain01"
+      - status: "OK"
+        name: "U4E-Hands"
+      PhasorASkin01.utx:
+      - status: "OK"
+        name: "U4eWTexs"
+      PythonAgain04a.ukx:
+      - status: "OK"
+        name: "PythonAgain01"
+      - status: "OK"
+        name: "U4E-Hands"
+      u4e2.u:
+      - status: "OK"
+        name: "madskull01"
+      - status: "OK"
+        name: "UFOSkins"
+      - status: "OK"
+        name: "Enlightened04"
+      - status: "OK"
+        name: "u4e_weaponsounds"
+      - status: "OK"
+        name: "PhasorAmmo01"
+      - status: "OK"
+        name: "UFOStaticMesh"
+      - status: "OK"
+        name: "IceCold01"
+      - status: "OK"
+        name: "BlobBoy04a"
+      - status: "OK"
+        name: "u4e3fx"
+      - status: "OK"
+        name: "DollbombSkins"
+      - status: "OK"
+        name: "u4emeshs"
+      - status: "OK"
+        name: "U4Ev2Skins"
+      - status: "OK"
+        name: "PhasorSkins02"
+      - status: "OK"
+        name: "U4Ev2Stuff"
+      - status: "OK"
+        name: "PhasorSkins01"
+      - status: "OK"
+        name: "u4eberzerk"
+      - status: "OK"
+        name: "GatewayV1a"
+      - status: "OK"
+        name: "PythonPickups"
+      - status: "OK"
+        name: "BFG2k4StaticMeshes"
+      - status: "OK"
+        name: "PhasorSounds"
+      - status: "OK"
+        name: "freezer-ammo"
+      - status: "OK"
+        name: "BlobBoySkin01a"
+      - status: "OK"
+        name: "Freezer2a"
+      - status: "OK"
+        name: "bubblestuff"
+      - status: "OK"
+        name: "BFG2k402"
+      - status: "OK"
+        name: "QSG"
+      - status: "OK"
+        name: "Worm6aSkin"
+      - status: "OK"
+        name: "DollBomb-InAction"
+      - status: "OK"
+        name: "PhasorPickups01"
+      - status: "OK"
+        name: "Bloodworm"
+      - status: "OK"
+        name: "U4Ev2Statismeshes"
+      - status: "OK"
+        name: "Dollbomb-Pickup"
+      - status: "OK"
+        name: "Goro02a"
+      - status: "OK"
+        name: "GoroSkins01"
+      - status: "OK"
+        name: "u4e_pickups"
+      - status: "OK"
+        name: "bfg2k4ammothing01"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "U4E-grenadespack2"
+      - status: "OK"
+        name: "u4eParticles"
+      - status: "OK"
+        name: "Dollbomb2-1stPerson"
+      - status: "OK"
+        name: "IceBurg01"
+      - status: "OK"
+        name: "PythonAgain04a"
+      - status: "OK"
+        name: "U4E-Hands"
+      - status: "OK"
+        name: "u4e_textures"
+      - status: "OK"
+        name: "WormHole-Again01"
+      - status: "OK"
+        name: "Worm08"
+      - status: "OK"
+        name: "HHwepWav"
+      - status: "OK"
+        name: "U4eWTexs"
+      - status: "OK"
+        name: "BFG2k4Skins01"
+      - status: "OK"
+        name: "U4EGatewayV1-02"
+      - status: "OK"
+        name: "U4E-Icy"
+      - status: "OK"
+        name: "DollbombSounds"
+      - status: "OK"
+        name: "EyeBallSkins"
+      - status: "OK"
+        name: "U4EHandsPunchy01"
+      - status: "OK"
+        name: "UFO"
+      - status: "OK"
+        name: "Goro03a"
+      - status: "OK"
+        name: "UFOKARMA"
+      - status: "OK"
+        name: "Phasor1stperson01a"
+      - status: "OK"
+        name: "bigbubble03"
+      Bubbles.usx:
+      - status: "OK"
+        name: "BubbleStuff"
+      U4E-grenadespack2.ukx:
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "U4E-Hands"
+      Goro02a.ukx:
+      - status: "OK"
+        name: "GoroSkins01"
+      Freezer2a.ukx:
+      - status: "OK"
+        name: "Freezer"
+      U4Ev2StatisMeshes.usx:
+      - status: "OK"
+        name: "Tomahawk01"
+      - status: "OK"
+        name: "U4Ev2Skins"
+      - status: "OK"
+        name: "U4E-Grenades"
+      u4e_textures2.utx:
+      - status: "MISSING"
+        name: "fbr05"
+      Enlightened04.ukx:
+      - status: "OK"
+        name: "EyeBallSkins"
+      PhasorSkins02.utx:
+      - status: "OK"
+        name: "PhasorSkins01"
+      Worm08.ukx:
+      - status: "OK"
+        name: "Worm6aSkin"
+      GatewayV1a.ukx:
+      - status: "OK"
+        name: "U4EGatewayV1-02"
+      Bloodworm.ukx:
+      - status: "OK"
+        name: "Worm6aSkin"
+      pythonpickups.usx:
+      - status: "OK"
+        name: "PythonAgain01"
+      U4EHandsPunchy01.ukx:
+      - status: "OK"
+        name: "U4E-Hands"
+      Katana01.utx:
+      - status: "OK"
+        name: "U4E-Hands"
+      PhasorAmmo01.ukx:
+      - status: "OK"
+        name: "PhasorASkin01"
+      freezer-ammo.usx:
+      - status: "OK"
+        name: "Freezer"
+      madskull01.ukx:
+      - status: "OK"
+        name: "u4eberzerk"
+      u4e_pickups.usx:
+      - status: "OK"
+        name: "SpirlBeams"
+      - status: "OK"
+        name: "u4e_textures"
+      - status: "OK"
+        name: "Tomahawk01"
+      - status: "OK"
+        name: "Katana01"
+      - status: "OK"
+        name: "BubbleGun05b"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "Beretta01"
+      - status: "OK"
+        name: "Necrosis"
+      U4Ev2Stuff.ukx:
+      - status: "OK"
+        name: "U4Ev2Skins"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "U4E-Hands"
+  deleted: false
+- title: "Version 5"
+  version: "Beta 4"
+  releaseDate: "2005-07-16"
+  description: ""
+  files:
+  - title: "UMOD Installer"
+    localFile: "/home/shrimp/Downloads/u4e-v5b4-umod.rar"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202004/unreal4ever-ut2004/u4e-v5b4-umod.rar"
+      direct: true
+      state: "OK"
+    originalFilename: "u4e-v5b4-umod.rar"
+    hash: "f67d8c4153441b20ff2ac10abde6a6c4ab1de733"
+    fileSize: 95509512
+    synced: true
+    deleted: false
+    files:
+    - name: "U4E_V5B4.ut4mod"
+      fileSize: 264732332
+      hash: "6b6a14fb19e5213cd5969a39f78dd10563d0dc58"
+    - name: "KASPvehicles.ukx"
+      fileSize: 618853
+      hash: "ddd3df19f9f76019bc4ea1bd540c05ef9a50ec33"
+    - name: "ONSBoard-A.ukx"
+      fileSize: 862237
+      hash: "d1ebde6b2b66473b7627f716b72a57fe0194cb47"
+    - name: "watercraft-A.ukx"
+      fileSize: 136112
+      hash: "05c27216fea4c9d693324e106c834ead9598ec10"
+    - name: "u4e.ka"
+      fileSize: 417291
+      hash: "e18f2f0f749429959af81eb04b925abda031e714"
+    - name: "DM-U4E-Annwyn.ut2"
+      fileSize: 10992464
+      hash: "96d4d5043ad4ff1347eba2c1c7080d8615e42989"
+    - name: "DM-U4E-FairyLand.ut2"
+      fileSize: 16192257
+      hash: "6d45618807c69b46a3545e09639a097e2cca78d1"
+    - name: "VCTF-U4E-SterlingFlood.ut2"
+      fileSize: 17181769
+      hash: "a2e3d80e2812dd79d9427bbe1f87c643c017401d"
+    - name: "ONSBoardSounds-S.uax"
+      fileSize: 161160
+      hash: "08b24cec6e5799b19469149bdeba9c4767c1bf81"
+    - name: "Annwyn_SM.usx"
+      fileSize: 906295
+      hash: "3e450e7aaa88a87a6ae15457bbdc31b70079aa6d"
+    - name: "KASPvehicleSM.usx"
+      fileSize: 594401
+      hash: "e816ae1a67fbdf7efa96da1516e5cebe3eb2c872"
+    - name: "ONSBoard-SM.usx"
+      fileSize: 335522
+      hash: "0446bf5545129bac4e9f7c290596b56331ad27af"
+    - name: "watercraft-SM.usx"
+      fileSize: 44990
+      hash: "850657132d01178cf08f9441bdd7e33d09919ef6"
+    - name: "winkyKitchen.usx"
+      fileSize: 12193668
+      hash: "7721a0cbcfb281f49cbf59bc81fd9261f0c9bf51"
+    - name: "Board.u"
+      fileSize: 72626
+      hash: "80a16cb3862d874dab09ac26df174f10cfe6d4de"
+    - name: "GoodKarma.u"
+      fileSize: 31016
+      hash: "046a88f20fecb028ec388d33a6160ff9566a4de3"
+    - name: "Kopholus.u"
+      fileSize: 70854
+      hash: "75694e3818ffce39d2f52b44bc4bd216d868ce8f"
+    - name: "SetTeamSymbols.u"
+      fileSize: 3438
+      hash: "b07c6ede8cc16cb079dff6a659b8b0c566a61646"
+    - name: "U4E2D.u"
+      fileSize: 125506
+      hash: "7405b9f2f1f8058e7acc1daf5c195515b2a5a7c5"
+    - name: "u4e3.u"
+      fileSize: 2390125
+      hash: "7b22c5f06f08579b252c2c42aae0d1575aaabea8"
+    - name: "watercraft.u"
+      fileSize: 64557
+      hash: "14a805cd5e6ee8793bef451395f1562c7e8edcdc"
+    - name: "KASPvehicleTX.utx"
+      fileSize: 1083493
+      hash: "b0ef5b9976282f5d424389578e18e9bf9c646c0a"
+    - name: "RO_S_Nature_utx.utx"
+      fileSize: 22610328
+      hash: "72b670c609a9bc6b4b76443ad4d3f092839c9d0a"
+    - name: "u4eTeamSymbols.utx"
+      fileSize: 1051363
+      hash: "eabf0beb3e131c0c872c973365b4b7be1a14f6de"
+    - name: "watercraft-TX.utx"
+      fileSize: 87907
+      hash: "931debf5505e0b1fbdf5fbd74bb3127e30c241b6"
+    - name: "winkyKitchenTextures.utx"
+      fileSize: 24486730
+      hash: "f0d6f8baf488f8fb3a8baea306976d6d9434b6f2"
+    - name: "2DDM-SMarioStaticMeshes1.usx"
+      fileSize: 389628
+      hash: "06373ba568c7045fc1268c18ee436dd9b85414fc"
+    - name: "2DDM-SMarioTextures1.utx"
+      fileSize: 4589673
+      hash: "bfb183b3c6f86572c56bdcedc253ee6ebd1bb8b0"
+    - name: "2DDM-U4E-FusionReactor.ut2"
+      fileSize: 1309300
+      hash: "9c4a8efdc70e4adc2a264d9770b0ccc190c2856d"
+    - name: "2DDM-U4E-SMarioBros.ut2"
+      fileSize: 1998390
+      hash: "ae7ca7a4f0470478f5145e6e59d5bc04aa25e8da"
+    - name: "2DONS-U4E-TopDownTest.ut2"
+      fileSize: 3974637
+      hash: "e6f685e2b4898e9276885d4727f327ab40c23224"
+    - name: "Airblast.uax"
+      fileSize: 102120
+      hash: "8993081a78e2fefb8b1e4a6654bfa558a0a97297"
+    - name: "Airblast301.ukx"
+      fileSize: 231086
+      hash: "368e4c88a2aeda931732f73535584c5273acb0b3"
+    - name: "Airblast3skins01.utx"
+      fileSize: 1712346
+      hash: "61ba09e96bbd1e1e0bc760f364a3fc3bbb22bd3f"
+    - name: "Angus01.ukx"
+      fileSize: 3367768
+      hash: "352882ccf7f272f284c362c4502e3d1144e3854f"
+    - name: "AngusSkins01.utx"
+      fileSize: 3279786
+      hash: "3823e5ae4d7fc90adbb0be2204d7dd059fa7496a"
+    - name: "BFG2k402.ukx"
+      fileSize: 227065
+      hash: "7bc17b5b6944162abf4b61d5429b0251d2a5e343"
+    - name: "BFG2k4Skins01.utx"
+      fileSize: 3042977
+      hash: "28fad0002719bfa56bc2760ce00eea60161c5e1e"
+    - name: "BFG2k4StaticMeshes.usx"
+      fileSize: 209307
+      hash: "fb03c0aa1afc800e85fc2beef1d8351cc1d4caaf"
+    - name: "BFGAmmo01.utx"
+      fileSize: 552926
+      hash: "7516c0ef617cdc50187b30edbb8fd26ac9842513"
+    - name: "BPanelSkins01.utx"
+      fileSize: 528313
+      hash: "521b080512eda1ea1d9f6616807da3e0bde87566"
+    - name: "Beretta01.utx"
+      fileSize: 1510892
+      hash: "7effa00ee1d36d6c26a4d581e1e35395da840798"
+    - name: "BiPlane.ukx"
+      fileSize: 34142
+      hash: "952556ade31f893920b42d2af479b800eba28274"
+    - name: "BiPlaneSkins01.utx"
+      fileSize: 199122
+      hash: "8381df1278a4ee80087f9edbc70801d9359b25b9"
+    - name: "BigBubble03.ukx"
+      fileSize: 109924
+      hash: "9d892cee531890c578f30e60a706e68a5733ab7f"
+    - name: "BlobBoy04a.ukx"
+      fileSize: 156937
+      hash: "7c7a776bff84abf8ecc9bae102cd6d562065e2a3"
+    - name: "BlobBoySkin01.utx"
+      fileSize: 528010
+      hash: "e8fbf8c961a8076f4ebbcb18b6ccb5534f3253a5"
+    - name: "BlobBoySkin01a.utx"
+      fileSize: 177222
+      hash: "2b2bf99cde88ca9b56d9312e181ebea6c63d71e4"
+    - name: "Bloodworm.ukx"
+      fileSize: 308006
+      hash: "35a71e5959d56bb2665d2e03ea81cb062880e8e2"
+    - name: "BowSkins.utx"
+      fileSize: 2278950
+      hash: "2172f3cfda3e3111a4ab7766be47fd78b471699c"
+    - name: "BowStuff01.usx"
+      fileSize: 1549417
+      hash: "d34c87509e3cdc75f48d9c2afe0523add4b24930"
+    - name: "BubbleGun05b.utx"
+      fileSize: 2397432
+      hash: "de36ea2830a0d5516b749c9bfd879d27e9baec21"
+    - name: "BubbleStuff.utx"
+      fileSize: 418006
+      hash: "d7a97561b708950dea7c2c58ad7314552c3c9fbd"
+    - name: "BubbleStuff2.utx"
+      fileSize: 439880
+      hash: "4073567f25ae5215e6a5c7643c52d3eeebb9b5b2"
+    - name: "Bubbles.usx"
+      fileSize: 215025
+      hash: "5acd9bc6c05b4504ecefe4094ba5e2e9f1dfe633"
+    - name: "BugGunAnimatedStuff01.ukx"
+      fileSize: 960807
+      hash: "979ca8feacc0bce3ad83ee4d8d921667233ffd40"
+    - name: "ButtonPanel01.usx"
+      fileSize: 63174
+      hash: "ae8c803d4ff170603067e0a14a4c20cfd972cd3b"
+    - name: "CVT-Pickup01.usx"
+      fileSize: 167623
+      hash: "05310b508e30352b42f038c5f60d973a51fe88b1"
+    - name: "CVTSkins01.utx"
+      fileSize: 1797674
+      hash: "e93033b6ae8f393d22d38899cd35ac756aa96a8a"
+    - name: "CVTSounds.uax"
+      fileSize: 300068
+      hash: "0fd1c4f42d275ce6286ab3e4995ba7b1c8424892"
+    - name: "CompoundBow03.ukx"
+      fileSize: 704820
+      hash: "290219af438d571ce3972e7a28b712b0a5a80b5b"
+    - name: "ConGun-Parts01.utx"
+      fileSize: 88195
+      hash: "b845eb1cc2871fbca23dcef48885d0a5f9640d6f"
+    - name: "ConGun02.ukx"
+      fileSize: 447043
+      hash: "bc2fd1eaf311c10fa7b7bd0961d4afc9afe9c69e"
+    - name: "ConGunPanelSkins01.utx"
+      fileSize: 1107286
+      hash: "8be5ed1e63fa7bee17e8b6a67ef03b4eb3461a54"
+    - name: "ConGunPickup.usx"
+      fileSize: 319117
+      hash: "f93c4e09a239640a45832f5fbe52c0102bf0b035"
+    - name: "ConGunSkin01.utx"
+      fileSize: 3361255
+      hash: "232f6601092532236094c42d1ed6733d8ca0cfec"
+    - name: "Construction.utx"
+      fileSize: 274191
+      hash: "c79798d54f02880b0adfb7e58fe426203dff5f3f"
+    - name: "Construction_StaticMesh.usx"
+      fileSize: 867014
+      hash: "4db1e8ab9b48eefe3227dec60cd6f4b70ce219a4"
+    - name: "Cvt01.ukx"
+      fileSize: 406964
+      hash: "323531ee9e73a9b502bb97f1b290751f0b65edd9"
+    - name: "DollBomb-InAction.ukx"
+      fileSize: 343905
+      hash: "583142e319cb6b61fe716b12192cd01b3457f3ac"
+    - name: "Dollbomb2-1stPerson.ukx"
+      fileSize: 419413
+      hash: "3299617e548dcc07f7e6f58b02084d483f8b0898"
+    - name: "DollbombSkins.utx"
+      fileSize: 2835548
+      hash: "642b60b533148f0af037d7bb5c446c6e010181fc"
+    - name: "DollbombSounds.uax"
+      fileSize: 380789
+      hash: "ac3043eb5e6c1046e222f3df66949368bbbbbb2e"
+    - name: "Enlightened04.ukx"
+      fileSize: 468916
+      hash: "200f7e51177899b20b1865c0ce17a3ba35db8c7e"
+    - name: "EyeBallSkins.utx"
+      fileSize: 1793715
+      hash: "140cf63cfff530eec667e01333c46eb9b6d607e6"
+    - name: "Flame.uax"
+      fileSize: 449732
+      hash: "9ed080f78d587cbd42bd7daf2624401cf5e246f9"
+    - name: "Flamer3Model.ukx"
+      fileSize: 1720557
+      hash: "a5e4761593e717e068da1e36ba156bf7faa04e0f"
+    - name: "Flamer3Pickups.usx"
+      fileSize: 254115
+      hash: "d7372954b028d4415e95e3a1853069efd64f2a29"
+    - name: "Flamer3Skins01.utx"
+      fileSize: 2379661
+      hash: "7c6887178a40db78750db2dbaa21478b39271868"
+    - name: "Freezer.utx"
+      fileSize: 1840378
+      hash: "a1884001be2b2b0f9738dbcb0f8471d5544149bc"
+    - name: "Freezer2a.ukx"
+      fileSize: 693765
+      hash: "d422b624c6c111939d86e07a327e8f0a2e049a56"
+    - name: "GatewayV1a.ukx"
+      fileSize: 125498
+      hash: "3ee554747d6c61d98b125eb5a70da17ac1cd199a"
+    - name: "GorgonHead01.ukx"
+      fileSize: 1133071
+      hash: "89302c04529c8c96c40436458839549af46341df"
+    - name: "GorgonHead03.ukx"
+      fileSize: 1625940
+      hash: "aedb7a5453b7db8d4227ed6c699dd5e3ca1db29d"
+    - name: "GorgonHeadSkins01.utx"
+      fileSize: 2033655
+      hash: "2633d56df86b835cacbf0a7491748747660b6b0a"
+    - name: "GorgonStaticMeshes01.usx"
+      fileSize: 187310
+      hash: "ca7ce10070544730c518f047eae0573026cdc9ee"
+    - name: "Goro02a.ukx"
+      fileSize: 309107
+      hash: "0724c9ef2da55ec1ecb25cb11a46dbba1dae6c5d"
+    - name: "Goro03a.ukx"
+      fileSize: 307319
+      hash: "6b390d529203e96298aaed2ed2a5ea5e1eed9e55"
+    - name: "GoroSkins01.utx"
+      fileSize: 1667961
+      hash: "e976a4fdb3871e8d7d47bce718c562a1cc6b7f10"
+    - name: "HHwepWav.uax"
+      fileSize: 754316
+      hash: "324cd0c65cf79362ab4cfe13784d46a674cbd84a"
+    - name: "HRope.utx"
+      fileSize: 1595766
+      hash: "04cc17857c1b79077e3bd5b066ec2b728d8e854c"
+    - name: "HellSaw2-01a.ukx"
+      fileSize: 1319497
+      hash: "279ca58278105f63b79941ba48e9a6e177c5a03f"
+    - name: "HellSawStuff01.usx"
+      fileSize: 394362
+      hash: "0c068e87febdfb597f1747c4e8137f27cbf899a8"
+    - name: "HellishSawSkin01.utx"
+      fileSize: 1442883
+      hash: "3035a98758a2091e23a088a9d79197194137f5e6"
+    - name: "HellsawSounds.uax"
+      fileSize: 332722
+      hash: "41dafdef98f914d3023e40c837b79e5661166b27"
+    - name: "Howitzer01.ukx"
+      fileSize: 425658
+      hash: "ab6361d4edfffc9cab8338d5c20b4ff38ad2cd46"
+    - name: "Howitzer02.ukx"
+      fileSize: 705537
+      hash: "56ff96832645209956ba70d207b68ffa603e1654"
+    - name: "HowitzerPickup01.usx"
+      fileSize: 289447
+      hash: "3e3fd7cfc4dff6db2368612657cc3c2a2759256f"
+    - name: "HowitzerSkin01.utx"
+      fileSize: 1442851
+      hash: "74b02ad556bfcdeeb08a76ab8309cd22c83bf68d"
+    - name: "IceBurg01.utx"
+      fileSize: 549028
+      hash: "a04cfc4d55bea3601b8a804d8f4b4df59bb54bf6"
+    - name: "Katana01.utx"
+      fileSize: 1532289
+      hash: "94c7c4a3b9864d0873431558e295a96164a5baea"
+    - name: "KillerLift01.utx"
+      fileSize: 353064
+      hash: "5f5dcf48508d736cdb3dbefe3bc599c04d2e094b"
+    - name: "KillerLifter01.usx"
+      fileSize: 104100
+      hash: "ac6907b2cf4efc3f357628390d4a3f46ae1957ea"
+    - name: "LaserTripWire01.usx"
+      fileSize: 225142
+      hash: "fc321ccb839b1a6e2b83fafde945c5790a04ac1a"
+    - name: "MMGParts01.usx"
+      fileSize: 441290
+      hash: "58046be72423226933253ec9dc95916166a677d5"
+    - name: "MMGauntletSkins01.utx"
+      fileSize: 2084664
+      hash: "bd5c73aadfc4421599157a520ecead689cf6296d"
+    - name: "Maggot02.ukx"
+      fileSize: 593680
+      hash: "19bb7fa90ba0e18060869bd7c0d812e889519668"
+    - name: "Mole01.ukx"
+      fileSize: 1559420
+      hash: "74c61354241e865370bc5139a15475987306af40"
+    - name: "MoleSkins01.utx"
+      fileSize: 1661630
+      hash: "d579215e6d7530c3c536194b72bcac2c62717897"
+    - name: "MonsterGWskins.utx"
+      fileSize: 1096779
+      hash: "143a98de19def074addd1a5ab5f8daeac38cd858"
+    - name: "MonsterGauntlet01.ukx"
+      fileSize: 528475
+      hash: "b4de6f93935f6268d2b98cd2eb157f6867d90b6a"
+    - name: "Necrosis.utx"
+      fileSize: 603723
+      hash: "4126ae1c53b22fe8e3bafa1c310ac98115b9e2de"
+    - name: "ParasiteGunSkins01.utx"
+      fileSize: 1751532
+      hash: "3f07cae1de6b1622fd92918c96248730b33e19e3"
+    - name: "ParasiteParts01.usx"
+      fileSize: 443506
+      hash: "bb22df29c7a0b574b5d2168345b5d254bd3c1d3a"
+    - name: "Phasor1stperson01.ukx"
+      fileSize: 170578
+      hash: "27fd1784d5984be288571bbeab810595f65af02a"
+    - name: "Phasor1stperson01a.ukx"
+      fileSize: 304984
+      hash: "ff44dbb5925734b00ad6ed849956611ea1668a99"
+    - name: "PhasorASkin01.utx"
+      fileSize: 223352
+      hash: "3e9329e18cb7efd94a2a9e6cd2ba15838c81ed5c"
+    - name: "PhasorAmmo01.ukx"
+      fileSize: 106443
+      hash: "e141f57a49b9c628b113d8c90bfffaaf1472c2fa"
+    - name: "PhasorPickups01.usx"
+      fileSize: 125999
+      hash: "23811a61252013b65f79587f683d55cbfbb5c149"
+    - name: "PhasorSkins01.utx"
+      fileSize: 3025866
+      hash: "5dcff45eee42a15bc877f2dde2a2490d5c2759c7"
+    - name: "PhasorSkins02.utx"
+      fileSize: 89772
+      hash: "4f93938a5490ac9f8332cef50c3a5ac63068c628"
+    - name: "PhasorSounds.uax"
+      fileSize: 255969
+      hash: "7b6341eace5f4ad9628cfe43d4af81da5da0489a"
+    - name: "PowerGenSkinage.utx"
+      fileSize: 398159
+      hash: "fc11bd1d0b84d99ef1aeb5ff5da389ea5efc5ef7"
+    - name: "PowerGenerator02.usx"
+      fileSize: 211993
+      hash: "90be8b20cebefe14888dd309b4cca3ce251e32ef"
+    - name: "PythonAgain01.utx"
+      fileSize: 1455122
+      hash: "59c49d095c4cc033a28ed057753dfd82d2c52f73"
+    - name: "PythonAgain04.ukx"
+      fileSize: 1224549
+      hash: "aeddd669429c3735e86b54042025d1084a201f3f"
+    - name: "PythonAgain04a.ukx"
+      fileSize: 1364443
+      hash: "7754544942faf7492d2b4091d05c6ad44d61ec91"
+    - name: "QSG.uax"
+      fileSize: 445409
+      hash: "4cc6a63300a218d2d248618176bb7ac6b1a34f9b"
+    - name: "RCBiPlanes01.usx"
+      fileSize: 89443
+      hash: "c2ee683d798ff39ece7a45692f69f5375be6bda3"
+    - name: "RiftRifle.utx"
+      fileSize: 1777942
+      hash: "d3f27004c205a0a240276c4a910bc172bbebc1af"
+    - name: "SillyFlamerScreams01.uax"
+      fileSize: 213960
+      hash: "7c90bc16a23c9f40f76668212ed5fc97c07c9340"
+    - name: "SnowDudeSkins.utx"
+      fileSize: 569668
+      hash: "bb55799cb2f291d9b745a91faa7f96158d59d5bd"
+    - name: "SnowmanParts.usx"
+      fileSize: 51308
+      hash: "40d947ddb76c37007e257408ff1c800d09fc892e"
+    - name: "SpirlBeams.utx"
+      fileSize: 11884
+      hash: "43a76c11a4509d19c658b95e3119758df3bd528c"
+    - name: "TelePortSkin01.utx"
+      fileSize: 286331
+      hash: "edafdd2502735cbbd279e00d252aeec23b4eeddb"
+    - name: "ThereSnowman01.ukx"
+      fileSize: 46429
+      hash: "921a09889439305ac057ff87b9d0c59d086b97b5"
+    - name: "Tomahawk01.utx"
+      fileSize: 1270563
+      hash: "d42c8a9ea0e1150801d8f6898aa23e2c33ba4235"
+    - name: "U4E-Grenades.utx"
+      fileSize: 1950830
+      hash: "06a4deb67ad0fc1b2c75e4e7da6a967e5364f000"
+    - name: "U4E-Hands.utx"
+      fileSize: 745242
+      hash: "a991c23fd3862c78105815ef2428ba06063ca7f1"
+    - name: "U4E-Icy.utx"
+      fileSize: 142145
+      hash: "cc607763968eac68888215eb87304864ae356823"
+    - name: "U4E-grenadespack2.ukx"
+      fileSize: 1513646
+      hash: "3b4d08647d8034630e7d034eb2c9fd3f7803a016"
+    - name: "U4EGatewayV1-01.utx"
+      fileSize: 921750
+      hash: "914aa3a54628dad6d1b3f5bc62b7373a90dea376"
+    - name: "U4EGatewayV1-02.utx"
+      fileSize: 949112
+      hash: "738174116fe01d7e7ccb2c9d595e72fd762a58b7"
+    - name: "U4EHandsPunchy01.ukx"
+      fileSize: 291737
+      hash: "92ff62871455ea9e34f70982f202eb3b959e3f2b"
+    - name: "U4EThumbnails.utx"
+      fileSize: 1052630
+      hash: "2b08e1f5d8e8ffb64025dd4c7229a749fea4014b"
+    - name: "U4E_Animations.ukx"
+      fileSize: 329481
+      hash: "23f38d1c9ef9f2dc6edbec269f3cb6c8e9912380"
+    - name: "U4Ev2Skins.utx"
+      fileSize: 11638439
+      hash: "b6c96a6624c7fb637f80ad71c0dbe870bffeb3f9"
+    - name: "U4Ev2StatisMeshes.usx"
+      fileSize: 1151019
+      hash: "e774cfcc244cfc197f67af53ce42456ef8f70d79"
+    - name: "U4Ev2Stuff.ukx"
+      fileSize: 3933114
+      hash: "93362e3f9c89e0e5b0d38c8ce2f8937d6dabd5d8"
+    - name: "U4eCB.utx"
+      fileSize: 175363
+      hash: "5caf30c3296e229811f06380f59650425bc27a7a"
+    - name: "U4eWTexs.utx"
+      fileSize: 1448963
+      hash: "ba221da63ee53226c1db866dcc4cd6103fed7995"
+    - name: "U4e_weaponsounds.uax"
+      fileSize: 392217
+      hash: "435fa3de163db8214e60d810b90e37b20a38b4af"
+    - name: "UFO.uax"
+      fileSize: 48309
+      hash: "e285300aacaa24d551426f3897affbbfa477b712"
+    - name: "UFOKARMA.ukx"
+      fileSize: 121955
+      hash: "b1c77ee404e29a1fcc0043087c98a5c9852df4c8"
+    - name: "UFOSkins.utx"
+      fileSize: 749886
+      hash: "3580dff509adf4845d523bb8f7121fea08ba7b04"
+    - name: "UFOStaticMesh.usx"
+      fileSize: 114411
+      hash: "c37c247d120f36cd7b287f608080971e4868ff2a"
+    - name: "WarpEffect.utx"
+      fileSize: 40466
+      hash: "9afbb1ed00aad6ff41f765cf7d9969343d34e6af"
+    - name: "Worm08.ukx"
+      fileSize: 393501
+      hash: "2e1205178c30c465b078cc173ff25de193a42103"
+    - name: "Worm6aSkin.utx"
+      fileSize: 439631
+      hash: "20ddaed0ed632832ccf1a5c9c8c498a82d1b77b6"
+    - name: "WormSkin06.utx"
+      fileSize: 220614
+      hash: "e9272381642964272ce8d78e2697cae5a1a469d8"
+    - name: "Wormhole-Again01.ukx"
+      fileSize: 65762
+      hash: "43b87b2a7f962760b6783c5569da46d0a826d245"
+    - name: "WyrmUndeadHead01.ukx"
+      fileSize: 111108
+      hash: "577895d0f8a91d83c42dbf03424ab2f22439bd07"
+    - name: "WyrmUndeadParts01.usx"
+      fileSize: 57072
+      hash: "3c66201c734ba17ee92b464f052f0f755c61df23"
+    - name: "WyrmUndeadSkins01.utx"
+      fileSize: 2819511
+      hash: "526805e83848b5b02f51b9959fdc53c270e53ea5"
+    - name: "airblast3PickupStuff01.usx"
+      fileSize: 435650
+      hash: "4a06fd8f85833092370f121b96ed6852736362f4"
+    - name: "bfg2k4ammothing01.usx"
+      fileSize: 114356
+      hash: "1a0debe9e6b2ecdae2db641263eefb3bef3515b5"
+    - name: "dollbomb-pickup.usx"
+      fileSize: 540911
+      hash: "db9a76e35b89cbd2e858436f5e8f91c58b55674d"
+    - name: "fbr04.utx"
+      fileSize: 1534804
+      hash: "a2670e6036deba92fc9eeaa3470aca082fb6ae42"
+    - name: "freezer-ammo.usx"
+      fileSize: 358649
+      hash: "356fa8b30d29e656f286f34bcc2970079eb5934b"
+    - name: "gunwalker01.ukx"
+      fileSize: 451725
+      hash: "feee0243c53aa8c3d597c4ac6e290ee4dc22ac3e"
+    - name: "ibeam01.usx"
+      fileSize: 20890
+      hash: "c62d216bba0609a54f0185117fdf3e40ad5cc1dc"
+    - name: "icecold01.usx"
+      fileSize: 33165
+      hash: "a6f779449b88a24b6cba183af651d9cea1aa09e4"
+    - name: "madskull01.ukx"
+      fileSize: 56705
+      hash: "30c9ae29cd98f199c9ab15c888548f2c89489c71"
+    - name: "pythonpickups.usx"
+      fileSize: 722326
+      hash: "b5c2f57173a28c5b75b2f2bcbd4f6615ecdbdd4c"
+    - name: "u4e.utx"
+      fileSize: 404
+      hash: "b4edc611661774ea962c7284312b76fc17013536"
+    - name: "u4e3fx.utx"
+      fileSize: 365004
+      hash: "b49757325a7afa73435eeab31e7d8d0bc419f867"
+    - name: "u4eParticles.utx"
+      fileSize: 1575640
+      hash: "d51fee0382d765e87672c8e79d279157d425b820"
+    - name: "u4e_pickups.usx"
+      fileSize: 2733609
+      hash: "6117966b69b585d10a40e17ecb5e03fe0026fc0f"
+    - name: "u4e_textures.utx"
+      fileSize: 1637557
+      hash: "48a4b3e97d5e2267f553eeda712d111cf80bb702"
+    - name: "u4e_textures2.utx"
+      fileSize: 288679
+      hash: "6d20e57e90ea54e61ede2500baa7aa558c039965"
+    - name: "u4eberzerk.utx"
+      fileSize: 768869
+      hash: "955ddf604823bd850d44f9d9871d5a23cbec9eb1"
+    - name: "u4emeshs.ukx"
+      fileSize: 4792048
+      hash: "2d47ac14f0e0ccc49581ebacc0b852d239a98eaf"
+    otherFiles: 14
+    dependencies:
+      bfg2k4ammothing01.usx:
+      - status: "OK"
+        name: "BFGAmmo01"
+      BlobBoy04a.ukx:
+      - status: "OK"
+        name: "BlobBoySkin01a"
+      GorgonHead03.ukx:
+      - status: "OK"
+        name: "GorgonHeadSkins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      PowerGenerator02.usx:
+      - status: "OK"
+        name: "PowerGenSkinage"
+      - status: "OK"
+        name: "RiftRifle"
+      Cvt01.ukx:
+      - status: "OK"
+        name: "CVTSkins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      ConGun-Parts01.utx:
+      - status: "OK"
+        name: "RiftRifle"
+      HellSawStuff01.usx:
+      - status: "OK"
+        name: "HellishSawSkin01"
+      Board.u:
+      - status: "OK"
+        name: "ONSBoard-SM"
+      - status: "OK"
+        name: "ONSBoard-A"
+      - status: "OK"
+        name: "ONSBoardSounds-S"
+      dollbomb-pickup.usx:
+      - status: "OK"
+        name: "DollbombSkins"
+      BPanelSkins01.utx:
+      - status: "OK"
+        name: "RiftRifle"
+      ParasiteParts01.usx:
+      - status: "OK"
+        name: "ParasiteGunSkins01"
+      U4Ev2Skins.utx:
+      - status: "OK"
+        name: "RiftRifle"
+      PythonAgain04.ukx:
+      - status: "OK"
+        name: "PythonAgain01"
+      - status: "OK"
+        name: "U4E-Hands"
+      PhasorASkin01.utx:
+      - status: "OK"
+        name: "U4eWTexs"
+      Freezer2a.ukx:
+      - status: "OK"
+        name: "Freezer"
+      U4Ev2StatisMeshes.usx:
+      - status: "OK"
+        name: "Tomahawk01"
+      - status: "OK"
+        name: "U4Ev2Skins"
+      - status: "OK"
+        name: "U4E-Grenades"
+      Howitzer01.ukx:
+      - status: "OK"
+        name: "U4E-Hands"
+      u4e_textures2.utx:
+      - status: "MISSING"
+        name: "fbr05"
+      PhasorSkins02.utx:
+      - status: "OK"
+        name: "PhasorSkins01"
+      Flamer3Skins01.utx:
+      - status: "OK"
+        name: "u4e_textures"
+      Kopholus.u:
+      - status: "OK"
+        name: "KASPvehicleSM"
+      - status: "OK"
+        name: "KASPvehicles"
+      ibeam01.usx:
+      - status: "OK"
+        name: "ConGun-Parts01"
+      pythonpickups.usx:
+      - status: "OK"
+        name: "PythonAgain01"
+      Flamer3Model.ukx:
+      - status: "OK"
+        name: "Flamer3Skins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      HellSaw2-01a.ukx:
+      - status: "OK"
+        name: "HellishSawSkin01"
+      - status: "OK"
+        name: "U4E-Hands"
+      KillerLift01.utx:
+      - status: "OK"
+        name: "RiftRifle"
+      Angus01.ukx:
+      - status: "OK"
+        name: "AngusSkins01"
+      HowitzerPickup01.usx:
+      - status: "OK"
+        name: "HowitzerSkin01"
+      U4Ev2Stuff.ukx:
+      - status: "OK"
+        name: "fbr04"
+      - status: "OK"
+        name: "U4Ev2Skins"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "U4E-Hands"
+      BigBubble03.ukx:
+      - status: "OK"
+        name: "BubbleStuff"
+      KillerLifter01.usx:
+      - status: "OK"
+        name: "KillerLift01"
+      WyrmUndeadHead01.ukx:
+      - status: "OK"
+        name: "WyrmUndeadSkins01"
+      Phasor1stperson01a.ukx:
+      - status: "OK"
+        name: "PhasorSkins01"
+      u4emeshs.ukx:
+      - status: "OK"
+        name: "Tomahawk01"
+      - status: "OK"
+        name: "Katana01"
+      - status: "OK"
+        name: "BubbleGun05b"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "U4E-Hands"
+      - status: "OK"
+        name: "Beretta01"
+      - status: "OK"
+        name: "Necrosis"
+      VCTF-U4E-SterlingFlood.ut2:
+      - status: "OK"
+        name: "Dollbomb-Pickup"
+      - status: "OK"
+        name: "u4eTeamSymbols"
+      - status: "OK"
+        name: "watercraft"
+      - status: "OK"
+        name: "u4e_pickups"
+      - status: "OK"
+        name: "winkyKitchen"
+      - status: "OK"
+        name: "Board"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "winkyKitchenTextures"
+      - status: "OK"
+        name: "SetTeamSymbols"
+      - status: "OK"
+        name: "Kopholus"
+      - status: "OK"
+        name: "ONSBoard-A"
+      - status: "OK"
+        name: "UFOKARMA"
+      - status: "OK"
+        name: "GoodKarma"
+      - status: "OK"
+        name: "u4e3"
+      PythonAgain04a.ukx:
+      - status: "OK"
+        name: "PythonAgain01"
+      - status: "OK"
+        name: "U4E-Hands"
+      SnowmanParts.usx:
+      - status: "OK"
+        name: "SnowDudeSkins"
+      u4e3.u:
+      - status: "OK"
+        name: "Flamer3Skins01"
+      - status: "OK"
+        name: "WyrmUndeadSkins01"
+      - status: "OK"
+        name: "ConGunPickup"
+      - status: "OK"
+        name: "AirBlast"
+      - status: "OK"
+        name: "PhasorAmmo01"
+      - status: "OK"
+        name: "Construction"
+      - status: "OK"
+        name: "HellSawStuff01"
+      - status: "OK"
+        name: "BlobBoy04a"
+      - status: "OK"
+        name: "u4e3fx"
+      - status: "OK"
+        name: "MMGParts01"
+      - status: "OK"
+        name: "U4Ev2Stuff"
+      - status: "OK"
+        name: "KillerLifter01"
+      - status: "OK"
+        name: "PythonPickups"
+      - status: "OK"
+        name: "BFG2k4StaticMeshes"
+      - status: "OK"
+        name: "Mole01"
+      - status: "OK"
+        name: "MonsterGWskins"
+      - status: "OK"
+        name: "ButtonPanel01"
+      - status: "OK"
+        name: "BFG2k402"
+      - status: "OK"
+        name: "QSG"
+      - status: "OK"
+        name: "KillerLift01"
+      - status: "OK"
+        name: "ParasiteParts01"
+      - status: "OK"
+        name: "Bloodworm"
+      - status: "OK"
+        name: "U4Ev2Statismeshes"
+      - status: "OK"
+        name: "Dollbomb-Pickup"
+      - status: "OK"
+        name: "Goro02a"
+      - status: "OK"
+        name: "AngusSkins01"
+      - status: "OK"
+        name: "u4e_pickups"
+      - status: "OK"
+        name: "CompoundBow03"
+      - status: "OK"
+        name: "BowStuff01"
+      - status: "OK"
+        name: "ConGun02"
+      - status: "OK"
+        name: "bfg2k4ammothing01"
+      - status: "OK"
+        name: "U4E-grenadespack2"
+      - status: "OK"
+        name: "HellsawSounds"
+      - status: "OK"
+        name: "SnowmanParts"
+      - status: "OK"
+        name: "u4eParticles"
+      - status: "OK"
+        name: "PythonAgain04a"
+      - status: "OK"
+        name: "MonsterGauntlet01"
+      - status: "OK"
+        name: "MMGauntletSkins01"
+      - status: "OK"
+        name: "WormHole-Again01"
+      - status: "OK"
+        name: "BowSkins"
+      - status: "OK"
+        name: "WyrmUndeadHead01"
+      - status: "OK"
+        name: "Worm08"
+      - status: "OK"
+        name: "U4E2D"
+      - status: "OK"
+        name: "ThereSnowman01"
+      - status: "OK"
+        name: "HowitzerPickup01"
+      - status: "OK"
+        name: "U4EGatewayV1-02"
+      - status: "OK"
+        name: "U4E-Icy"
+      - status: "OK"
+        name: "CVTSkins01"
+      - status: "OK"
+        name: "EyeBallSkins"
+      - status: "OK"
+        name: "U4EHandsPunchy01"
+      - status: "OK"
+        name: "BugGunAnimatedStuff01"
+      - status: "OK"
+        name: "Goro03a"
+      - status: "OK"
+        name: "Flamer3Model"
+      - status: "OK"
+        name: "UFOKARMA"
+      - status: "OK"
+        name: "Phasor1stperson01a"
+      - status: "OK"
+        name: "madskull01"
+      - status: "OK"
+        name: "GorgonHead03"
+      - status: "OK"
+        name: "UFOSkins"
+      - status: "OK"
+        name: "Enlightened04"
+      - status: "OK"
+        name: "u4e_weaponsounds"
+      - status: "OK"
+        name: "TelePortSkin01"
+      - status: "OK"
+        name: "UFOStaticMesh"
+      - status: "OK"
+        name: "Flame"
+      - status: "OK"
+        name: "IceCold01"
+      - status: "OK"
+        name: "WyrmUndeadParts01"
+      - status: "OK"
+        name: "Howitzer02"
+      - status: "OK"
+        name: "angus01"
+      - status: "OK"
+        name: "Flamer3Pickups"
+      - status: "OK"
+        name: "DollbombSkins"
+      - status: "OK"
+        name: "u4emeshs"
+      - status: "OK"
+        name: "U4Ev2Skins"
+      - status: "OK"
+        name: "GorgonStaticMeshes01"
+      - status: "OK"
+        name: "PhasorSkins02"
+      - status: "OK"
+        name: "PhasorSkins01"
+      - status: "OK"
+        name: "U4E_Animations"
+      - status: "OK"
+        name: "GorgonHeadSkins01"
+      - status: "OK"
+        name: "u4eberzerk"
+      - status: "OK"
+        name: "HRope"
+      - status: "OK"
+        name: "GatewayV1a"
+      - status: "OK"
+        name: "PhasorSounds"
+      - status: "OK"
+        name: "freezer-ammo"
+      - status: "OK"
+        name: "PowerGenSkinage"
+      - status: "OK"
+        name: "MoleSkins01"
+      - status: "OK"
+        name: "BlobBoySkin01a"
+      - status: "OK"
+        name: "ConGun-Parts01"
+      - status: "OK"
+        name: "Freezer2a"
+      - status: "OK"
+        name: "bubblestuff"
+      - status: "OK"
+        name: "BPanelSkins01"
+      - status: "OK"
+        name: "airblast3PickupStuff01"
+      - status: "OK"
+        name: "Worm6aSkin"
+      - status: "OK"
+        name: "DollBomb-InAction"
+      - status: "OK"
+        name: "PhasorPickups01"
+      - status: "OK"
+        name: "GoroSkins01"
+      - status: "OK"
+        name: "ParasiteGunSkins01"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "Maggot02"
+      - status: "OK"
+        name: "Dollbomb2-1stPerson"
+      - status: "OK"
+        name: "IceBurg01"
+      - status: "OK"
+        name: "Airblast301"
+      - status: "OK"
+        name: "HellSaw2-01a"
+      - status: "OK"
+        name: "U4E-Hands"
+      - status: "OK"
+        name: "u4e_textures"
+      - status: "OK"
+        name: "SillyFlamerScreams01"
+      - status: "OK"
+        name: "gunwalker01"
+      - status: "OK"
+        name: "SnowDudeSkins"
+      - status: "OK"
+        name: "HHwepWav"
+      - status: "OK"
+        name: "LaserTripWire01"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "U4eWTexs"
+      - status: "OK"
+        name: "BFG2k4Skins01"
+      - status: "OK"
+        name: "DollbombSounds"
+      - status: "OK"
+        name: "UFO"
+      - status: "OK"
+        name: "CVT-Pickup01"
+      - status: "OK"
+        name: "ConGunSkin01"
+      - status: "OK"
+        name: "Cvt01"
+      - status: "OK"
+        name: "ConGunPanelSkins01"
+      - status: "OK"
+        name: "CVTSounds"
+      - status: "OK"
+        name: "Airblast3skins01"
+      - status: "OK"
+        name: "bigbubble03"
+      BiPlane.ukx:
+      - status: "OK"
+        name: "BiPlaneSkins01"
+      BugGunAnimatedStuff01.ukx:
+      - status: "OK"
+        name: "ParasiteGunSkins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      U4E2D.u:
+      - status: "OK"
+        name: "ParasiteParts01"
+      MonsterGauntlet01.ukx:
+      - status: "OK"
+        name: "MMGauntletSkins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      "2DDM-U4E-FusionReactor.ut2":
+      - status: "OK"
+        name: "LaserTripWire01"
+      - status: "OK"
+        name: "u4e3fx"
+      - status: "OK"
+        name: "Construction_StaticMesh"
+      - status: "OK"
+        name: "WarpEffect"
+      U4EHandsPunchy01.ukx:
+      - status: "OK"
+        name: "U4E-Hands"
+      Construction_StaticMesh.usx:
+      - status: "OK"
+        name: "PowerGenSkinage"
+      - status: "OK"
+        name: "BPanelSkins01"
+      - status: "OK"
+        name: "ConGunSkin01"
+      - status: "OK"
+        name: "ConGun-Parts01"
+      - status: "OK"
+        name: "ConGunPanelSkins01"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "TelePortSkin01"
+      - status: "OK"
+        name: "KillerLift01"
+      ConGun02.ukx:
+      - status: "OK"
+        name: "ConGunSkin01"
+      BowStuff01.usx:
+      - status: "OK"
+        name: "BowSkins"
+      freezer-ammo.usx:
+      - status: "OK"
+        name: "Freezer"
+      madskull01.ukx:
+      - status: "OK"
+        name: "u4eberzerk"
+      DollBomb-InAction.ukx:
+      - status: "OK"
+        name: "DollbombSounds"
+      - status: "OK"
+        name: "DollbombSkins"
+      icecold01.usx:
+      - status: "OK"
+        name: "IceBurg01"
+      Wormhole-Again01.ukx:
+      - status: "OK"
+        name: "WarpEffect"
+      Goro03a.ukx:
+      - status: "OK"
+        name: "GoroSkins01"
+      CVT-Pickup01.usx:
+      - status: "OK"
+        name: "CVTSkins01"
+      Maggot02.ukx:
+      - status: "OK"
+        name: "ParasiteGunSkins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      PowerGenSkinage.utx:
+      - status: "OK"
+        name: "RiftRifle"
+      airblast3PickupStuff01.usx:
+      - status: "OK"
+        name: "Airblast3skins01"
+      "2DONS-U4E-TopDownTest.ut2":
+      - status: "OK"
+        name: "U4E2D"
+      BFG2k402.ukx:
+      - status: "OK"
+        name: "BFG2k4Skins01"
+      ButtonPanel01.usx:
+      - status: "OK"
+        name: "BPanelSkins01"
+      PhasorPickups01.usx:
+      - status: "OK"
+        name: "PhasorSkins01"
+      Bubbles.usx:
+      - status: "OK"
+        name: "BubbleStuff"
+      U4E-grenadespack2.ukx:
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "U4E-Hands"
+      Goro02a.ukx:
+      - status: "OK"
+        name: "GoroSkins01"
+      WyrmUndeadParts01.usx:
+      - status: "OK"
+        name: "WyrmUndeadSkins01"
+      MMGParts01.usx:
+      - status: "OK"
+        name: "MMGauntletSkins01"
+      - status: "OK"
+        name: "U4E-Hands"
+      Worm08.ukx:
+      - status: "OK"
+        name: "Worm6aSkin"
+      Howitzer02.ukx:
+      - status: "OK"
+        name: "HowitzerSkin01"
+      - status: "OK"
+        name: "U4E-Hands"
+      Bloodworm.ukx:
+      - status: "OK"
+        name: "Worm6aSkin"
+      winkyKitchen.usx:
+      - status: "OK"
+        name: "winkyKitchenTextures"
+      PhasorAmmo01.ukx:
+      - status: "OK"
+        name: "PhasorASkin01"
+      RCBiPlanes01.usx:
+      - status: "OK"
+        name: "BiPlaneSkins01"
+      u4e_pickups.usx:
+      - status: "OK"
+        name: "SpirlBeams"
+      - status: "OK"
+        name: "u4e_textures"
+      - status: "OK"
+        name: "Tomahawk01"
+      - status: "OK"
+        name: "Katana01"
+      - status: "OK"
+        name: "BubbleGun05b"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "U4E-Grenades"
+      - status: "OK"
+        name: "Beretta01"
+      - status: "OK"
+        name: "Necrosis"
+      GorgonStaticMeshes01.usx:
+      - status: "OK"
+        name: "GorgonHeadSkins01"
+      watercraft-A.ukx:
+      - status: "OK"
+        name: "watercraft-TX"
+      "2DDM-SMarioStaticMeshes1.usx":
+      - status: "OK"
+        name: "2DDM-SMarioTextures1"
+      BFG2k4StaticMeshes.usx:
+      - status: "OK"
+        name: "BFG2k4Skins01"
+      Flamer3Pickups.usx:
+      - status: "OK"
+        name: "Flamer3Skins01"
+      LaserTripWire01.usx:
+      - status: "OK"
+        name: "ConGunPanelSkins01"
+      - status: "OK"
+        name: "RiftRifle"
+      CompoundBow03.ukx:
+      - status: "OK"
+        name: "BowSkins"
+      - status: "OK"
+        name: "U4E-Hands"
+      UFOKARMA.ukx:
+      - status: "OK"
+        name: "UFOSkins"
+      watercraft.u:
+      - status: "OK"
+        name: "watercraft-SM"
+      - status: "OK"
+        name: "watercraft-A"
+      Dollbomb2-1stPerson.ukx:
+      - status: "OK"
+        name: "DollbombSkins"
+      - status: "OK"
+        name: "U4E-Hands"
+      Annwyn_SM.usx:
+      - status: "OK"
+        name: "RO_S_Nature_utx"
+      KASPvehicleSM.usx:
+      - status: "OK"
+        name: "KASPvehicleTX"
+      ThereSnowman01.ukx:
+      - status: "OK"
+        name: "SnowDudeSkins"
+      Construction.utx:
+      - status: "OK"
+        name: "PowerGenSkinage"
+      - status: "OK"
+        name: "RiftRifle"
+      - status: "OK"
+        name: "TelePortSkin01"
+      DM-U4E-Annwyn.ut2:
+      - status: "OK"
+        name: "Annwyn_SM"
+      - status: "OK"
+        name: "u4e3"
+      ConGunPickup.usx:
+      - status: "OK"
+        name: "ConGunSkin01"
+      KASPvehicles.ukx:
+      - status: "OK"
+        name: "KASPvehicleTX"
+      Enlightened04.ukx:
+      - status: "OK"
+        name: "EyeBallSkins"
+      ConGunSkin01.utx:
+      - status: "OK"
+        name: "PhasorASkin01"
+      GatewayV1a.ukx:
+      - status: "OK"
+        name: "U4EGatewayV1-02"
+      DM-U4E-FairyLand.ut2:
+      - status: "OK"
+        name: "u4e3"
+      Airblast301.ukx:
+      - status: "OK"
+        name: "Airblast3skins01"
+      Mole01.ukx:
+      - status: "OK"
+        name: "MoleSkins01"
+      gunwalker01.ukx:
+      - status: "OK"
+        name: "MonsterGWskins"
+      "2DDM-U4E-SMarioBros.ut2":
+      - status: "OK"
+        name: "2DDM-SMarioTextures1"
+      - status: "OK"
+        name: "2DDM-SMarioStaticMeshes1"
+  deleted: false
+deleted: false
