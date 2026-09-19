@@ -1,0 +1,1541 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal Tournament 2004"
+name: "Ballistic Weapons"
+author: "RuneStorm"
+description: "Replaces the whole UT2004 arsenal with an original, tactically-minded\
+  \ weapon set featuring reloading, iron sights, firemodes, dual wielding and a detailed\
+  \ gore system, delivered as a mutator so it works with any gametype."
+titleImage: "title.jpg"
+bannerImage: "banner.jpg"
+altNames:
+- "BW"
+- "Ballistic Weapons Complete"
+links:
+  Homepage: "http://www.runestorm.com/ballistic"
+  ModDB: "https://www.moddb.com/mods/ballistic-weapons"
+problemLinks: {}
+credits:
+  Mod Design:
+  - "Nolan \"DarkCarnivour\" Richert"
+  - "Arn \"ShadowBlade\" Richert"
+  - "Logan \"BlackEagle\" Richert"
+  Financial Support:
+  - "Redshift"
+  - "sgnl05"
+  Definitive Edition Team:
+  - "Azarael"
+  - "Blade Sword"
+  - "Captain Xavious"
+  - "Jiffy"
+  - "Nootlord"
+  - "OJMoody"
+  - "POSTAL"
+  - "Sergeant Kelly"
+  - "SX"
+  - "Tijon"
+  - "YoyoBatty"
+gameTypes:
+- name: "Ballistic BR"
+  description: "Standard Bombing Run with Ballistic Weapons in Normal, Loadout, Arena\
+    \ or Melee configuration and other features such as Dark Players."
+- name: "Ballistic CTF"
+  description: "Standard CTF with Ballistic Weapons in Normal, Loadout, Arena or Melee\
+    \ configuration and other features such as Dark Players."
+- name: "Ballistic Conflict"
+  description: "Rival teams prepare for battle and must eliminate the entire enemy\
+    \ team to score!||A round based Ballistic Weapons game where teams start on opposite\
+    \ sides of the map and players have a chance to choose their starting loadout.\
+    \ Dead players don't respawn until the next round. When one team has been completely\
+    \ eliminated the round ends and teams are reset to a starting location.||www.runestorm.com"
+- name: "Ballistic Conflict (CTF Maps)"
+  description: "Standard Ballistic Conflict, but played in the CTF maps.||www.runestorm.com"
+- name: "Ballistic DeathMatch"
+  description: "Standard Deathmatch with Ballistic Weapons in Normal, Loadout, Arena\
+    \ or Melee configuration and other features such as Dark Players."
+- name: "Ballistic Onslaught"
+  description: "Standard Onslaught with Ballistic Weapons in Normal, Loadout, Arena\
+    \ or Melee configuration and other features such as Dark Players."
+- name: "Ballistic Team DM"
+  description: "Standard Team Deathmatch with Ballistic Weapons in Normal, Loadout,\
+    \ Arena or Melee configuration and other features such as Dark Players."
+mutators:
+- name: "BE Vehicle Pack"
+  description: "Replaces original vehicles with two new, more realistic one's, that\
+    \ include custom sounds, kill messages, projectiles, UI, and a whole lot more....\
+    \ ||WARNING!! Do not use with other vehicle mutators that replace the Raptor,\
+    \ and the Goliath.||http://www.runestorm.com"
+- name: "Ballistic Arena"
+  description: "Like arena, but with all Ballistic items and modifications and the\
+    \ option of multiple/random weapons.||http://www.runestorm.com"
+- name: "Ballistic Evolution Loadout"
+  description: "Play Ballistic Weapons like normal Loadout, but to access more weapons,\
+    \ you will need to reach certain levels of acheivement:|Match Time: Some weapons\
+    \ are only accesable when the match has played for a while|Frags: Your basic frag\
+    \ count|Efficency: How efficiently you use your lives (frags divided by deaths)|Damage\
+    \ Rage: How much you actually contribute to each of your kills (Total Damage Dealt\
+    \ divided by Kills)|Sniper Efficiency: Your efficiency at taking headshots and\
+    \ long range fighting (Headshots+RangeBonus divided by Deaths using Sniper weapons)|Shotgun\
+    \ Efficiency: Your efficiency at close range gun combat (Close range gun Frags\
+    \ divided by Deaths with Shotguns)|Hazard Efficiency: Your efficiency with hazardous\
+    \ weapons (Frags with hazardous weapons divided by deaths with hazardous weapons)||http://www.runestorm.com"
+- name: "Ballistic Evolution Scaling"
+  description: "You can use this mutator to set requirement scaling for Ballistic\
+    \ Evolution.||http://www.runestorm.com"
+- name: "Ballistic Loadout"
+  description: "Play ballistic weapons, but instead of picking up weapons, you can\
+    \ choose five to start with, Melee, Sidearm, Primary, Secondary and Grenade. Ammo\
+    \ Packs replace weapon pickups and extra weapons can be taken from your enemies.||http://www.runestorm.com"
+- name: "Ballistic Melee"
+  description: "Play with Ballistic Weapons mutator using only the melee weapons.||http://www.runestorm.com"
+- name: "Ballistic Regeneration"
+  description: "Periodically restores health to injured players and vehicles, and\
+    \ awards bonus player health for kills...||http://www.runestorm.com"
+- name: "Ballistic Sprint"
+  description: "This mutator gives players the ability to sprint for a short period\
+    \ of time. Sprint key can be set in the controls configuration menu. It is recommended\
+    \ that you use this when playing with Ballistic Weapons as the weapons have integrated\
+    \ support for player sprinting."
+- name: "Ballistic Vehicles"
+  description: "Replaces vehicles with ones modified to fit in better with BW."
+- name: "Ballistic Weapons"
+  description: "Applies Ballistic Weapons mod. Replaces original weapons with the\
+    \ Ballistic weapons and implements all the new features and options including:\
+    \ reloading, recoil, inaccuracy, improved damage, iron sights, firing modes, new\
+    \ effects, new sounds, new items, altered player movement, etc... All options\
+    \ are accesible through the 'configure mutator' menu and the swapping lists can\
+    \ be used to change which weapons are spawned and how...||http://www.runestorm.com"
+- name: "Bloody Hell"
+  description: "Adds horrific blood effects for dead bodies, including: blood trails,\
+    \ corpse impact marks, blood pools and under water blood. The pinnacle of horrendousness...||http://www.runestorm.com"
+- name: "Itemizer"
+  description: "Adds in items that have been manually placed with the Itemizer Tool"
+- name: "Itemizer Tool"
+  description: "Warning: This is not a toy! The Itemizer is a tool to use for manually\
+    \ placing items in maps of any gametype. If you are adding items for a new gametype,\
+    \ you should have prepared an item database before using this tool. In order to\
+    \ play with the items placed by this tool, you will need to use a mutator that\
+    \ uses the Itemizer system, such as Itemizer or Ballistic Weapons."
+- name: "Junk War"
+  description: "Battle it out with whatever you can get your hands on! All manner\
+    \ of junk is dotted around the arena, everything from rusted old pipes, crowbars\
+    \ and spanners to ice picks, tazers and empty beer bottles, it can all be used\
+    \ as a weapon... ||http://www.runestorm.com"
+maps:
+- name: "DM-BE-Clearing"
+  title: "The Clearing"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-be-clearing6392490282082135252.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-be-clearing6392490282082135252.png"
+- name: "DM-BE-DeadlyShores"
+  title: "Deadly Shores"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-be-deadlyshores7513817594073043661.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-be-deadlyshores7513817594073043661.png"
+- name: "DM-BE-DeadlyShores2"
+  title: "Deadly Shores 2"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-be-deadlyshores2596966378217509150.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-be-deadlyshores2596966378217509150.png"
+- name: "DM-BE-Infestation"
+  title: "The Infestation"
+  author: "Logan-BlackEagle-Richert"
+- name: "DM-BE-Octane"
+  title: "High Octane"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-be-octane6679474931398627017.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-be-octane6679474931398627017.png"
+- name: "DM-BE-Ruins"
+  title: "Ancient Ruins"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-be-ruins3817032491527510626.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-be-ruins3817032491527510626.png"
+- name: "DM-DC-Beach"
+  title: "Beach Point 960"
+  author: "Nolan-DarkCarnivour-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-dc-beach11531722085329615143.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-dc-beach11531722085329615143.png"
+- name: "DM-DC-Canal"
+  title: "Canal Dock 67"
+  author: "Nolan 'DarkCarnivour' Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-dc-canal1245767797882518775.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-dc-canal1245767797882518775.png"
+- name: "DM-RSJW-Frigid"
+  title: "Frigid Eternity"
+  author: "Arn-ShadowBlade-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-rsjw-frigid8062774216355413154.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-rsjw-frigid8062774216355413154.png"
+- name: "DM-RSJW-Perdition"
+  title: "Planes of Perdition"
+  author: "Arn-ShadowBlade-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-rsjw-perdition7721632302078562189.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-rsjw-perdition7721632302078562189.png"
+- name: "DM-RSJW-Serpent"
+  title: "JunkWar - Serpent Sun"
+  author: "Arn-ShadowBlade-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-rsjw-serpent17265446148320297116.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-rsjw-serpent17265446148320297116.png"
+- name: "DM-SB-Depot"
+  title: "Depot 398"
+  author: "Arn-ShadowBlade-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-sb-depot469394834973195830.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-sb-depot469394834973195830.png"
+- name: "DM-SB-Guardian"
+  title: "Guardian"
+  author: "Arn-ShadowBlade-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "dm-sb-guardian17571918803430414003.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/dm-sb-guardian17571918803430414003.png"
+- name: "ONS-BE-Ravine"
+  title: "The Ravine"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-be-ravine3743152222679999215.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/ons-be-ravine3743152222679999215.png"
+- name: "ONS-RS-Limbo"
+  title: "Planes of Limbo"
+  author: "Arn-ShadowBlade-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "ons-rs-limbo13513659629652168916.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/ons-rs-limbo13513659629652168916.png"
+- name: "VCTF-BE-Dystopia"
+  title: "Dystopia"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "vctf-be-dystopia17980156195110380461.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/vctf-be-dystopia17980156195110380461.png"
+- name: "VCTF-BE-Razku"
+  title: "The Isle of Razku"
+  author: "Logan-BlackEagle-Richert"
+  screenshot:
+    type: "IMAGE"
+    name: "vctf-be-razku5947426695356176986.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/B/ballistic-weapons/maps/vctf-be-razku5947426695356176986.png"
+releases:
+- title: "Complete"
+  version: "2.5"
+  releaseDate: "2011-03-14"
+  description: ""
+  files:
+  - title: "RAR Package"
+    localFile: "/home/shrimp/Downloads/BallisticV25_Complete.rar"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202004/ballistic-weapons/BallisticV25_Complete.rar"
+      direct: true
+      state: "OK"
+    originalFilename: "BallisticV25_Complete.rar"
+    hash: "d832c45f264fc07fa45f56ec5c6591e5cd0900d4"
+    fileSize: 265565321
+    synced: true
+    deleted: false
+    files:
+    - name: "BEVehicleAnims.ukx"
+      fileSize: 2332021
+      hash: "f2b4e7427408c8454a77663bd5ef03b60c732810"
+    - name: "BEVehicleAnimsV13.ukx"
+      fileSize: 814638
+      hash: "13477feb2080826508fa3d6c16ef24f91f1d4d5c"
+    - name: "BEVehicleAnimsV14.ukx"
+      fileSize: 338757
+      hash: "a9fb90b0ed63508e552cc157f3fc448e4a7251db"
+    - name: "BWBP1-Anims.ukx"
+      fileSize: 4710320
+      hash: "e4eaea4e08c14c330d1cb69bf9b9511cb9af71fe"
+    - name: "BWBP2b-Anims.ukx"
+      fileSize: 1888747
+      hash: "75b00b006ecd0e1065e1fa20ce97ed2687dd3920"
+    - name: "BWBP3b-Anims.ukx"
+      fileSize: 2423067
+      hash: "1fff4c7a55337509ad9b65d1d07886be12be9613"
+    - name: "BWBP4-Anims.ukx"
+      fileSize: 8777171
+      hash: "e63e85d51280b1066450a29385676153d85506a0"
+    - name: "BWBP4Vehicle-Anims.ukx"
+      fileSize: 1176095
+      hash: "0e1289d282bc53760d81c55d05f6ebe9bcda6254"
+    - name: "BWBP4b-Anims.ukx"
+      fileSize: 7614751
+      hash: "d92a21db9ddc59b75aa9e1b1f1d44205ece0aef8"
+    - name: "BallisticAnims2.ukx"
+      fileSize: 36099849
+      hash: "a066ed4db0411ca623f264f492ffed003c1c4374"
+    - name: "BallisticAnims3.ukx"
+      fileSize: 4623500
+      hash: "357288a929b665b53c591d13a511b0c129c437c1"
+    - name: "BallisticAnims_25.ukx"
+      fileSize: 14142477
+      hash: "db4f735f1db4e0d0bbc4814dc4fc90d05f2acbf5"
+    - name: "JunkWarAnims.ukx"
+      fileSize: 1198164
+      hash: "ef4dbefaab3d8cd4e19d68ba453d1f8069c3a4c9"
+    - name: "DM-BE-Clearing.ut2"
+      fileSize: 2141679
+      hash: "406b5519562fdb03f17aa84434814d145a60ab75"
+    - name: "DM-BE-DeadlyShores.ut2"
+      fileSize: 4014209
+      hash: "20ad0085ca74f648366268e6a0fd4d573fc05fae"
+    - name: "DM-BE-DeadlyShores2.ut2"
+      fileSize: 4972996
+      hash: "64cf483d2a4d07b3e28da71fa510bc7ff5183876"
+    - name: "DM-BE-Infestation.ut2"
+      fileSize: 32110553
+      hash: "4ac226f9df1b951cfbd18d77b67eb7b951bacdfd"
+    - name: "DM-BE-Octane.ut2"
+      fileSize: 23663578
+      hash: "558e49065a57e1dfffed4070981935dbe6dc85b1"
+    - name: "DM-BE-Ruins.ut2"
+      fileSize: 13725628
+      hash: "d9f555d78d7c9ebd979b843c3ac6718c9ff9287d"
+    - name: "DM-DC-Beach.ut2"
+      fileSize: 6538820
+      hash: "4d43f2ea29a9567b1c3c03e90baf6a6d0dbfe678"
+    - name: "DM-DC-Canal.ut2"
+      fileSize: 8652312
+      hash: "f94b59803603df57631f2a6e9b043520997d9f7e"
+    - name: "DM-RSJW-Frigid.ut2"
+      fileSize: 1886216
+      hash: "a5a48b96b02dabac2d1c85fac00483374b1345e3"
+    - name: "DM-RSJW-Perdition.ut2"
+      fileSize: 4402071
+      hash: "d73d42ec9b2708423b9f4c079ea2573baa8a64a2"
+    - name: "DM-RSJW-Serpent.ut2"
+      fileSize: 2575442
+      hash: "95e81310af529eefca3f064350485fcabbf22896"
+    - name: "DM-SB-Depot.ut2"
+      fileSize: 4590443
+      hash: "7bde5d0f087c868018f5ad5202b58ff9334abfaa"
+    - name: "DM-SB-Guardian.ut2"
+      fileSize: 9755828
+      hash: "ed691315b3a980ce9f3096cecd5e6ba5feb1c18a"
+    - name: "ONS-BE-Ravine.ut2"
+      fileSize: 13542378
+      hash: "2a0976b2fd621050f863911f36a6358f24899862"
+    - name: "ONS-RS-Limbo.ut2"
+      fileSize: 14374212
+      hash: "850472e042a678610a77bf0034e35aff6b685385"
+    - name: "VCTF-BE-Dystopia.ut2"
+      fileSize: 12986392
+      hash: "1b6758959303e6dc5837625ad7e5e0e5bc479a0c"
+    - name: "VCTF-BE-Razku.ut2"
+      fileSize: 10887442
+      hash: "5e56249ed47f259b156984386a523f9f391fda5e"
+    - name: "RS-Abolition.ogg"
+      fileSize: 2874747
+      hash: "d931f6fd75cc3b0fdd113f926189fd46417da66d"
+    - name: "RS-Hell Trooper.ogg"
+      fileSize: 4952825
+      hash: "0113325c99ef0ee2be54dea1d533b32852a10e21"
+    - name: "RS-Nexxus.ogg"
+      fileSize: 4128776
+      hash: "9aa2f56454b75acc1761f9ad43ebdc82f0ede5d5"
+    - name: "RS-Raxor.ogg"
+      fileSize: 4443834
+      hash: "0aeff1084a41ae4d26d622b16106d5132bd7836b"
+    - name: "BEVehicleSounds.uax"
+      fileSize: 2628534
+      hash: "653b4395b8f4bebacd2eb75e513d4012b0430207"
+    - name: "BEVehicleSoundsV13.uax"
+      fileSize: 795861
+      hash: "0053aff4d2c21a4b6a27b45e19409c69666adb4a"
+    - name: "BWAddPack-RS-Sounds.uax"
+      fileSize: 798947
+      hash: "5cd0b5b85475aab453928d29b3cccc19fca44647"
+    - name: "BWBP1-Sounds2.uax"
+      fileSize: 335873
+      hash: "f526390ab2a82f02bfde8e72d64a4ad387366a0b"
+    - name: "BWBP2-Sounds.uax"
+      fileSize: 1867018
+      hash: "11315a94f9f697ead0321d2c7627544233914240"
+    - name: "BWBP2-Sounds2.uax"
+      fileSize: 1125508
+      hash: "bbe74c89d0d394ac66e28488c784afc2c6055cf2"
+    - name: "BWBP3-Sounds.uax"
+      fileSize: 225216
+      hash: "d0b5fc763215eaa0120f4dffdb931170dfccd0d1"
+    - name: "BWBP3-Sounds2.uax"
+      fileSize: 159857
+      hash: "68cded10781052b6378f5c8437e85e0b8f968842"
+    - name: "BWBP4-Sounds.uax"
+      fileSize: 12002218
+      hash: "443d6b2eb44a2be203159d09131f02c6bd800224"
+    - name: "BWBP4Vehicle-Sounds.uax"
+      fileSize: 1537940
+      hash: "c9c06a1b6a67fc1c6b122e7c2c8709d4f427f6c9"
+    - name: "BallisticSounds2.uax"
+      fileSize: 18764554
+      hash: "9184763ec2da99ea721c142081c3828ef9235ec1"
+    - name: "BallisticSounds3.uax"
+      fileSize: 6663509
+      hash: "c66535f4343249004828faf28760d8488aaab19e"
+    - name: "BallisticSounds_25.uax"
+      fileSize: 2985719
+      hash: "66c059696a0f0a5b2a544779960ff66f291fe756"
+    - name: "BallisticVehicleSounds.uax"
+      fileSize: 9806
+      hash: "9f9ad0804cac81d1a875c0c4bb6ea3f0e6e1606a"
+    - name: "JunkWarSounds.uax"
+      fileSize: 5352312
+      hash: "6cad3ee6d4bc8cd9172ab1b67b94ccee5ae6c6d2"
+    - name: "RS-MapSounds.uax"
+      fileSize: 3769462
+      hash: "d48e8cc11e9f3dbfde898ba6f159b15082f059dd"
+    - name: "BEActorStatics.usx"
+      fileSize: 85272
+      hash: "f5f18036d1e4f7603924410e813dbc608fd9446a"
+    - name: "BEVehicleStatics.usx"
+      fileSize: 2103758
+      hash: "ed299546341354fd4cd9a23ee2dc3a66cb1dfcd6"
+    - name: "BEVehicleStaticsV13.usx"
+      fileSize: 1086490
+      hash: "d0abed4f5357b07db0cf8b81817be902320275ae"
+    - name: "BWAddPack-RS-Hardware.usx"
+      fileSize: 1791095
+      hash: "0643e08898be608c5f2e2d17ac7f7d8e21106d14"
+    - name: "BWBP2Hardware.usx"
+      fileSize: 1155434
+      hash: "f5943be3fd1d89d38c190494c6ffd4df1f2324c8"
+    - name: "BWBP3Hardware.usx"
+      fileSize: 918612
+      hash: "dc719ecff4410ba86c9ca40f8aa5b43d72a9205a"
+    - name: "BWBP4-Hardware.usx"
+      fileSize: 6146354
+      hash: "5215a17e1f2fcdabd2f95654cd41be538bba6500"
+    - name: "BWBP4Vehicle-HW.usx"
+      fileSize: 1594043
+      hash: "878884ed1531f013ae389a8a1c1885212f731add"
+    - name: "BWGoreHardware25.usx"
+      fileSize: 310175
+      hash: "b7c9703783c063c6a5d2e710915d387f52301b58"
+    - name: "BallisticHardware2.usx"
+      fileSize: 20997695
+      hash: "9db52cb8e2aa96af82292f9400774d78fc8e924f"
+    - name: "BallisticHardware3.usx"
+      fileSize: 1589291
+      hash: "943eb3ca71f162fad0076ac2633859845369d9e8"
+    - name: "BallisticHardware_25.usx"
+      fileSize: 5515358
+      hash: "55df4c435feba88a97ad311fe4973f27221ba0d0"
+    - name: "JunkWarHardware.usx"
+      fileSize: 5315701
+      hash: "d098f812b658c3a4ee1ca01de426a957e0af0a40"
+    - name: "RS-BeachHW.usx"
+      fileSize: 2430346
+      hash: "179666f54f7246c89fe726c79ccebc1d35361358"
+    - name: "RS-CrateHW.usx"
+      fileSize: 374799
+      hash: "80c0df69d3311f2d4ad2074bc131368d48e1162e"
+    - name: "RS-DarkWorldHW.usx"
+      fileSize: 260480
+      hash: "9e8f8b761fbb8f28d83edea16089d4b726a00ead"
+    - name: "RS-IndustryHW.usx"
+      fileSize: 1173832
+      hash: "eb76a9dec817d13d846536cdcd0c7ce1f0a0871d"
+    - name: "BCoreV25.u"
+      fileSize: 784076
+      hash: "addc92d6f2e16df7f385809b5156d827ca002217"
+    - name: "BEVehiclesV14.u"
+      fileSize: 207945
+      hash: "47889f31d337d93d3fd8895d4b2bb926e5d4c109"
+    - name: "BallisticV25.u"
+      fileSize: 4072939
+      hash: "a0a440aa973a7b0ed0c1c1d6c9dbb1f4a73329c1"
+    - name: "BallisticVehiclesV25.u"
+      fileSize: 99885
+      hash: "1e4bb7a4fabdf1da883965d472e8fd6acce9ca20"
+    - name: "Infestation.u"
+      fileSize: 3004
+      hash: "3eadb48ec54a8a48c01e97e8b0a0f7d2ccadf0c0"
+    - name: "JunkWarV25.u"
+      fileSize: 524891
+      hash: "3c461262749b893d8f96b4fd4c08200116c22d52"
+    - name: "BEActorTex.utx"
+      fileSize: 525368
+      hash: "b3f320c093cf278dabc1da662bd812af4751248e"
+    - name: "BEVehicleSkins.utx"
+      fileSize: 19035372
+      hash: "8f16d491d35da67c8d92a9266b18312ccee67833"
+    - name: "BEVehicleSkinsV13.utx"
+      fileSize: 110104
+      hash: "0e00ae5dbdf89c132f65b44a6f74e3208b63d759"
+    - name: "BWAddPack-RS-Effects.utx"
+      fileSize: 989934
+      hash: "e0bf75ff1398d3443dfffdf53447df683e5450ba"
+    - name: "BWAddPack-RS-Skins.utx"
+      fileSize: 6085402
+      hash: "2fc358d04a777c5b0b463a82f4eaf3f9923d97ee"
+    - name: "BWBP2-FX.utx"
+      fileSize: 318369
+      hash: "fdbe118a317bfaa014b57585b4902f1390ba98d6"
+    - name: "BWBP2-Tex.utx"
+      fileSize: 3773906
+      hash: "d3d49ba8919dd074a4d1e775109bc60a139c8ea9"
+    - name: "BWBP3-Tex.utx"
+      fileSize: 6234283
+      hash: "9b9c775f8aee19617bb2dce5a3e83400de76c521"
+    - name: "BWBP4-Tex.utx"
+      fileSize: 19532492
+      hash: "cf0d8f34b81f33c0b11ea6512717c9eb02141006"
+    - name: "BWBP4Vehicle-Tex.utx"
+      fileSize: 2645813
+      hash: "79e947d2e62f79b38fdba262b5b16888e9cfcc28"
+    - name: "BWEliminationTex.utx"
+      fileSize: 887552
+      hash: "60fd5bef141b1ac386c5a3718bf1b5fa32b0534d"
+    - name: "BallisticBlood25.utx"
+      fileSize: 28119177
+      hash: "bac8d4480c07f71621424ddcdd919c7228cb97e1"
+    - name: "BallisticEffects.utx"
+      fileSize: 7765131
+      hash: "b723456650cc994bf08dfacd886cd4756ff3e521"
+    - name: "BallisticEffects2.utx"
+      fileSize: 2916053
+      hash: "c180ab3c796a4a62b52e3f2e2bec9d18762db57e"
+    - name: "BallisticItems.utx"
+      fileSize: 12326626
+      hash: "791fbd5e92118df020a4717b725b64a3d9523052"
+    - name: "BallisticTextures3.utx"
+      fileSize: 2604129
+      hash: "062a27fb61c78543531092c670dc76042aea377d"
+    - name: "BallisticTextures_25.utx"
+      fileSize: 12547699
+      hash: "10f416387736032aa65159bf4f4291c11d159dc3"
+    - name: "BallisticUI2.utx"
+      fileSize: 18938776
+      hash: "b7ab45e251fa9ef3e54e874f0a33536291d08176"
+    - name: "BallisticWeapons2.utx"
+      fileSize: 48645450
+      hash: "a0c099ec250cc1f56869f67668f3b32a6d1da0f2"
+    - name: "JunkWarSkins.utx"
+      fileSize: 19005974
+      hash: "a33792bdd4b4d28cde9a2f0c259e9fadace50fd1"
+    - name: "JunkWarUI.utx"
+      fileSize: 1085204
+      hash: "657beaa43e44ac2e10616da71fca25032b5be18e"
+    - name: "JunkWarUI2.utx"
+      fileSize: 132252
+      hash: "810878671201da631683359b096bfa1e6fcb99ca"
+    - name: "RS-BeachTex.utx"
+      fileSize: 2797821
+      hash: "1b95560c7793e8a1fb4379fd4160d1424dab1b10"
+    - name: "RS-CrateTex.utx"
+      fileSize: 13112748
+      hash: "c8986d5d24540622f522b11b734e6f01d6858d15"
+    - name: "RS-DarkWorldTex.utx"
+      fileSize: 15651403
+      hash: "5f6ea407e960270cbc7de30ca69051ddd07ac201"
+    - name: "RS-IndustryTex.utx"
+      fileSize: 8937834
+      hash: "9fafdee70f04762dc159652677b5f48da38eda53"
+    otherFiles: 259
+    dependencies:
+      BEVehiclesV14.u:
+      - status: "OK"
+        name: "BEVehicleStaticsV13"
+      - status: "OK"
+        name: "BEVehicleSkins"
+      - status: "OK"
+        name: "BEVehicleAnimsV14"
+      - status: "OK"
+        name: "BEVehicleSoundsV13"
+      - status: "OK"
+        name: "BEVehicleSkinsV13"
+      - status: "OK"
+        name: "BEVehicleAnimsV13"
+      - status: "OK"
+        name: "BEVehicleSounds"
+      - status: "OK"
+        name: "BEVehicleStatics"
+      - status: "OK"
+        name: "BEVehicleAnims"
+      BallisticVehiclesV25.u:
+      - status: "OK"
+        name: "BallisticSounds3"
+      - status: "OK"
+        name: "BallisticSounds2"
+      - status: "OK"
+        name: "BallisticVehicleSounds"
+      - status: "OK"
+        name: "BCoreV25"
+      - status: "OK"
+        name: "BallisticEffects"
+      - status: "OK"
+        name: "BallisticEffects2"
+      - status: "OK"
+        name: "BWBP4Vehicle-Sounds"
+      - status: "OK"
+        name: "BWBP4Vehicle-Anims"
+      - status: "OK"
+        name: "BWBP4Vehicle-Tex"
+      - status: "OK"
+        name: "BallisticV25"
+      - status: "OK"
+        name: "BWBP4Vehicle-HW"
+      - status: "OK"
+        name: "BallisticHardware2"
+      - status: "OK"
+        name: "BallisticWeapons2"
+      BallisticItems.utx:
+      - status: "OK"
+        name: "BallisticEffects"
+      BEVehicleAnimsV13.ukx:
+      - status: "OK"
+        name: "BEVehicleSkins"
+      DM-BE-Infestation.ut2:
+      - status: "OK"
+        name: "Infestation"
+      RS-BeachHW.usx:
+      - status: "OK"
+        name: "RS-BeachTex"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      BWBP4Vehicle-Anims.ukx:
+      - status: "OK"
+        name: "BWBP4Vehicle-Tex"
+      - status: "OK"
+        name: "BWBP4Vehicle-HW"
+      BWBP4b-Anims.ukx:
+      - status: "OK"
+        name: "BWBP4-Sounds"
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BWBP4-Tex"
+      DM-BE-Clearing.ut2:
+      - status: "OK"
+        name: "RS-IndustryHW"
+      BEVehicleAnimsV14.ukx:
+      - status: "OK"
+        name: "BEVehicleSkins"
+      RS-CrateHW.usx:
+      - status: "OK"
+        name: "RS-CrateTex"
+      BallisticTextures3.utx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticUI2"
+      BallisticV25.u:
+      - status: "OK"
+        name: "BWBP3-Sounds"
+      - status: "OK"
+        name: "BWBP4-Sounds"
+      - status: "OK"
+        name: "BWBP3-Tex"
+      - status: "OK"
+        name: "BallisticSounds3"
+      - status: "OK"
+        name: "BWBP4-Anims"
+      - status: "OK"
+        name: "BallisticSounds2"
+      - status: "OK"
+        name: "BWBP2-Sounds2"
+      - status: "OK"
+        name: "BWEliminationTex"
+      - status: "OK"
+        name: "BWBP2-Tex"
+      - status: "OK"
+        name: "BWAddPack-RS-Skins"
+      - status: "OK"
+        name: "BallisticBlood25"
+      - status: "OK"
+        name: "BWBP1-Anims"
+      - status: "OK"
+        name: "BWBP4-Tex"
+      - status: "OK"
+        name: "BallisticAnims3"
+      - status: "OK"
+        name: "BWBP4-Hardware"
+      - status: "OK"
+        name: "BallisticAnims2"
+      - status: "OK"
+        name: "BallisticSounds_25"
+      - status: "OK"
+        name: "BWBP4b-Anims"
+      - status: "OK"
+        name: "BWBP2b-Anims"
+      - status: "OK"
+        name: "BWAddPack-RS-Effects"
+      - status: "OK"
+        name: "BWAddPack-RS-Sounds"
+      - status: "OK"
+        name: "BWBP3Hardware"
+      - status: "OK"
+        name: "BallisticHardware_25"
+      - status: "OK"
+        name: "BWBP3-Sounds2"
+      - status: "OK"
+        name: "BallisticAnims_25"
+      - status: "OK"
+        name: "BCoreV25"
+      - status: "OK"
+        name: "BallisticEffects"
+      - status: "OK"
+        name: "BallisticEffects2"
+      - status: "OK"
+        name: "BWBP2-FX"
+      - status: "OK"
+        name: "BWBP1-Sounds2"
+      - status: "OK"
+        name: "BWBP3b-Anims"
+      - status: "OK"
+        name: "BWAddPack-RS-Hardware"
+      - status: "OK"
+        name: "BallisticUI2"
+      - status: "OK"
+        name: "BWGoreHardware25"
+      - status: "OK"
+        name: "BallisticHardware2"
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticHardware3"
+      - status: "OK"
+        name: "BWBP2Hardware"
+      - status: "OK"
+        name: "BallisticTextures_25"
+      - status: "OK"
+        name: "BWBP2-Sounds"
+      - status: "OK"
+        name: "BallisticTextures3"
+      DM-RSJW-Perdition.ut2:
+      - status: "OK"
+        name: "RS-IndustryHW"
+      JunkWarAnims.ukx:
+      - status: "OK"
+        name: "JunkWarSkins"
+      DM-DC-Beach.ut2:
+      - status: "OK"
+        name: "RS-BeachHW"
+      - status: "OK"
+        name: "RS-CrateHW"
+      - status: "OK"
+        name: "RS-CrateTex"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      BWBP1-Anims.ukx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BWAddPack-RS-Skins"
+      BallisticAnims2.ukx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticSounds2"
+      BCoreV25.u:
+      - status: "OK"
+        name: "BWBP3-Tex"
+      - status: "OK"
+        name: "BallisticUI2"
+      - status: "OK"
+        name: "BWBP2-Tex"
+      - status: "OK"
+        name: "BWAddPack-RS-Skins"
+      RS-IndustryHW.usx:
+      - status: "OK"
+        name: "RS-IndustryTex"
+      BWBP4-Tex.utx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticUI2"
+      - status: "OK"
+        name: "BallisticEffects"
+      BWBP2Hardware.usx:
+      - status: "OK"
+        name: "BWBP2-Tex"
+      BWBP3Hardware.usx:
+      - status: "OK"
+        name: "BWBP3-Tex"
+      RS-DarkWorldHW.usx:
+      - status: "OK"
+        name: "RS-DarkWorldTex"
+      BWBP3b-Anims.ukx:
+      - status: "OK"
+        name: "BWBP3-Tex"
+      - status: "OK"
+        name: "BallisticWeapons2"
+      BallisticTextures_25.utx:
+      - status: "OK"
+        name: "BallisticUI2"
+      BallisticAnims_25.ukx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticTextures_25"
+      BWAddPack-RS-Skins.utx:
+      - status: "OK"
+        name: "BWAddPack-RS-Effects"
+      BWAddPack-RS-Hardware.usx:
+      - status: "OK"
+        name: "BWAddPack-RS-Skins"
+      DM-DC-Canal.ut2:
+      - status: "OK"
+        name: "RS-BeachHW"
+      - status: "OK"
+        name: "RS-CrateHW"
+      - status: "OK"
+        name: "RS-CrateTex"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      JunkWarV25.u:
+      - status: "OK"
+        name: "JunkWarSkins"
+      - status: "OK"
+        name: "JunkWarUI2"
+      - status: "OK"
+        name: "JunkWarHardware"
+      - status: "OK"
+        name: "JunkWarSounds"
+      - status: "OK"
+        name: "BCoreV25"
+      - status: "OK"
+        name: "JunkWarUI"
+      - status: "OK"
+        name: "JunkWarAnims"
+      ONS-RS-Limbo.ut2:
+      - status: "OK"
+        name: "RS-DarkWorldHW"
+      - status: "OK"
+        name: "RS-DarkWorldTex"
+      - status: "OK"
+        name: "RS-MapSounds"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      BallisticAnims3.ukx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticSounds3"
+      - status: "OK"
+        name: "BallisticTextures3"
+      BWBP4-Hardware.usx:
+      - status: "OK"
+        name: "BWBP4-Tex"
+      - status: "OK"
+        name: "BallisticEffects"
+      JunkWarHardware.usx:
+      - status: "OK"
+        name: "JunkWarSkins"
+      BWBP4-Anims.ukx:
+      - status: "OK"
+        name: "BWBP4-Sounds"
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BWBP4-Tex"
+      BallisticHardware2.usx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BallisticItems"
+      - status: "OK"
+        name: "BallisticEffects"
+      BEVehicleStaticsV13.usx:
+      - status: "OK"
+        name: "BEVehicleSkins"
+      BWBP2b-Anims.ukx:
+      - status: "OK"
+        name: "BallisticWeapons2"
+      - status: "OK"
+        name: "BWBP2-Tex"
+      - status: "OK"
+        name: "BWBP2-Sounds"
+      BEVehicleStatics.usx:
+      - status: "OK"
+        name: "BEVehicleSkins"
+      BallisticHardware_25.usx:
+      - status: "OK"
+        name: "BallisticTextures_25"
+      BEVehicleAnims.ukx:
+      - status: "OK"
+        name: "BEVehicleSkins"
+      BWBP4Vehicle-HW.usx:
+      - status: "OK"
+        name: "BWBP4Vehicle-Tex"
+      BWGoreHardware25.usx:
+      - status: "OK"
+        name: "BallisticBlood25"
+      BWAddPack-RS-Effects.utx:
+      - status: "OK"
+        name: "BallisticEffects"
+      BallisticHardware3.usx:
+      - status: "OK"
+        name: "BallisticTextures3"
+      BEActorStatics.usx:
+      - status: "OK"
+        name: "BEActorTex"
+  deleted: false
+- title: "Definitive Edition"
+  version: "2.9"
+  releaseDate: "2026-04-18"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/Downloads/Ballistic_Weapons_Definitive_Edition_V2.9.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202004/ballistic-weapons/Ballistic_Weapons_Definitive_Edition_V2.9.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "Ballistic_Weapons_Definitive_Edition_V2.9.zip"
+    hash: "11a9c4fe18972989ac56cf21240af465250d0b4d"
+    fileSize: 835000037
+    synced: true
+    deleted: false
+    files:
+    - name: "BWBP_JCF_Anims.ukx"
+      fileSize: 12760099
+      hash: "c9e38e2dcde4af1e3f46063339d875cb4b026404"
+    - name: "BWBP_OP_Anim.ukx"
+      fileSize: 68613848
+      hash: "0d697e3f737416a1d559d1864cea21452c342486"
+    - name: "BWBP_SKC_Anim.ukx"
+      fileSize: 174388243
+      hash: "519dc0541b9133af790b9d47204c37052f55af66"
+    - name: "BWBP_SWC_Anims.ukx"
+      fileSize: 15358367
+      hash: "c1890f7cc8543fa01cda252c133206c19598113e"
+    - name: "BWBP_Vehicles_Anim.ukx"
+      fileSize: 3013292
+      hash: "ef4dbf526f02548e7e4a57ec54609da1d6277322"
+    - name: "BWGuyAnim.ukx"
+      fileSize: 14101825
+      hash: "d79407ec4b851452d6770a44cb7546ae38606296"
+    - name: "BW_Core_WeaponAnim.ukx"
+      fileSize: 88485149
+      hash: "daf346d535de55eb176a828b7a848b452c62d77a"
+    - name: "BallisticThird.ukx"
+      fileSize: 1803103
+      hash: "2a08c7816e59ce931bcf14068b5640d544a80a94"
+    - name: "XGame.u"
+      fileSize: 930965
+      hash: "353ad606fe7090d6726a5d837ac65865ebaa46dd"
+    - name: "XGame.u"
+      fileSize: 930961
+      hash: "f33b34194ef52a898d638eb4c6d124192b5ea32e"
+    - name: "XGame.u"
+      fileSize: 943405
+      hash: "e8ee81469238a5f2db1d7e514d95da0707ac1d1e"
+    - name: "DM-BE-Clearing.ut2"
+      fileSize: 2141679
+      hash: "406b5519562fdb03f17aa84434814d145a60ab75"
+    - name: "DM-BE-DeadlyShores.ut2"
+      fileSize: 4014209
+      hash: "20ad0085ca74f648366268e6a0fd4d573fc05fae"
+    - name: "DM-BE-DeadlyShores2.ut2"
+      fileSize: 4972996
+      hash: "64cf483d2a4d07b3e28da71fa510bc7ff5183876"
+    - name: "DM-BE-Infestation.ut2"
+      fileSize: 32110553
+      hash: "4ac226f9df1b951cfbd18d77b67eb7b951bacdfd"
+    - name: "DM-BE-Octane.ut2"
+      fileSize: 23663578
+      hash: "558e49065a57e1dfffed4070981935dbe6dc85b1"
+    - name: "DM-BE-Ruins.ut2"
+      fileSize: 13725628
+      hash: "d9f555d78d7c9ebd979b843c3ac6718c9ff9287d"
+    - name: "DM-DC-Beach-Shore-Scaled.ut2"
+      fileSize: 6748160
+      hash: "d71e77e4f9b7dd487f082e06042e32ee87cd7ace"
+    - name: "DM-DC-Beach[F]2k12.ut2"
+      fileSize: 6255187
+      hash: "eb6f858bd6068cc00b8f5f5126298fb51595f6f6"
+    - name: "DM-DC-Canal[F]2k13.ut2"
+      fileSize: 8658554
+      hash: "e93eb55ab8326e971727fd3040f8c57b7bec4cf5"
+    - name: "DM-RSJW-Frigid.ut2"
+      fileSize: 1886216
+      hash: "a5a48b96b02dabac2d1c85fac00483374b1345e3"
+    - name: "DM-RSJW-Perdition.ut2"
+      fileSize: 4402071
+      hash: "d73d42ec9b2708423b9f4c079ea2573baa8a64a2"
+    - name: "DM-RSJW-Serpent.ut2"
+      fileSize: 2575442
+      hash: "95e81310af529eefca3f064350485fcabbf22896"
+    - name: "DM-SB-Depot.ut2"
+      fileSize: 4590443
+      hash: "7bde5d0f087c868018f5ad5202b58ff9334abfaa"
+    - name: "DM-SB-Guardian.ut2"
+      fileSize: 9755828
+      hash: "ed691315b3a980ce9f3096cecd5e6ba5feb1c18a"
+    - name: "ONS-BE-Ravine.ut2"
+      fileSize: 13542378
+      hash: "2a0976b2fd621050f863911f36a6358f24899862"
+    - name: "ONS-RS-Limbo.ut2"
+      fileSize: 14374212
+      hash: "850472e042a678610a77bf0034e35aff6b685385"
+    - name: "VCTF-BE-Dystopia.ut2"
+      fileSize: 12986392
+      hash: "1b6758959303e6dc5837625ad7e5e0e5bc479a0c"
+    - name: "VCTF-BE-Razku.ut2"
+      fileSize: 10887442
+      hash: "5e56249ed47f259b156984386a523f9f391fda5e"
+    - name: "RS-Abolition.ogg"
+      fileSize: 2874747
+      hash: "d931f6fd75cc3b0fdd113f926189fd46417da66d"
+    - name: "RS-Hell Trooper.ogg"
+      fileSize: 4952825
+      hash: "0113325c99ef0ee2be54dea1d533b32852a10e21"
+    - name: "RS-Nexxus.ogg"
+      fileSize: 4128776
+      hash: "9aa2f56454b75acc1761f9ad43ebdc82f0ede5d5"
+    - name: "RS-Raxor.ogg"
+      fileSize: 4443834
+      hash: "0aeff1084a41ae4d26d622b16106d5132bd7836b"
+    - name: "BWBP_JCF_Sounds.uax"
+      fileSize: 8450859
+      hash: "0069d19966b76b003ce39b87bd0cb6899063c53e"
+    - name: "BWBP_OP_Sounds.uax"
+      fileSize: 24788824
+      hash: "227e01397a0c056ea9651c9a037898275468c046"
+    - name: "BWBP_SKC_Sounds.uax"
+      fileSize: 118293069
+      hash: "90ec6c41784088b33eb6e82c517d7b5e411fe1f6"
+    - name: "BWBP_SWC_Sounds.uax"
+      fileSize: 2682600
+      hash: "e4c76c39adb3a8cbd498fb2204d04d5867450a16"
+    - name: "BWBP_Vehicles_Sound.uax"
+      fileSize: 4612033
+      hash: "bcf67a6a309d62941b89c8f4dba4985922798bd6"
+    - name: "BW_Core_WeaponSound.uax"
+      fileSize: 53152199
+      hash: "2c43c91057890f5f5fdf4945b690bad4c7306830"
+    - name: "RS-MapSounds.uax"
+      fileSize: 3769462
+      hash: "d48e8cc11e9f3dbfde898ba6f159b15082f059dd"
+    - name: "BWBP_JCF_Static.usx"
+      fileSize: 2867043
+      hash: "a5b39bc5e66ac7f2eee64fca72e543d58af45955"
+    - name: "BWBP_OP_Static.usx"
+      fileSize: 28126180
+      hash: "263d63b71fa9378a8e393429346316412e83a422"
+    - name: "BWBP_SKC_Static.usx"
+      fileSize: 59645951
+      hash: "362af409eac9466f4668251b775702a679f37cac"
+    - name: "BWBP_SWC_Static.usx"
+      fileSize: 3371385
+      hash: "3bdf577d61d09d3374084915b782958c19327e82"
+    - name: "BWBP_Vehicles_Static.usx"
+      fileSize: 3847921
+      hash: "46581d80ba4332b8db94b9e1ee520b89c4426817"
+    - name: "BWGoreHardwarePro.usx"
+      fileSize: 301261
+      hash: "df2cba693eab97571a202bfab4cd1e763baf31a3"
+    - name: "BW_Core_WeaponStatic.usx"
+      fileSize: 42395250
+      hash: "85432bd0cf175a407015e9f1e8979320ec927318"
+    - name: "RS-BeachHW.usx"
+      fileSize: 2430346
+      hash: "179666f54f7246c89fe726c79ccebc1d35361358"
+    - name: "RS-CrateHW.usx"
+      fileSize: 374799
+      hash: "80c0df69d3311f2d4ad2074bc131368d48e1162e"
+    - name: "RS-DarkWorldHW.usx"
+      fileSize: 260480
+      hash: "9e8f8b761fbb8f28d83edea16089d4b726a00ead"
+    - name: "RS-IndustryHW.usx"
+      fileSize: 1173832
+      hash: "eb76a9dec817d13d846536cdcd0c7ce1f0a0871d"
+    - name: "3SPNv3141BW.u"
+      fileSize: 3326712
+      hash: "763aae3540532c7ea089b47a2caff1c3e91e4150"
+    - name: "BCoreProV55.u"
+      fileSize: 1393249
+      hash: "36f8ef929c5fae0b5a75d98b939889f4ab548e58"
+    - name: "BWBPAirstrikesPro.u"
+      fileSize: 642103
+      hash: "c6abb32247990cb26e7195f35cbc07b1f1034f85"
+    - name: "BWBP_JCF_Pro.u"
+      fileSize: 300050
+      hash: "6e23d47c005c144e72cecd04cecb6b987d1ddfd3"
+    - name: "BWBP_OP_Pro.u"
+      fileSize: 1852857
+      hash: "6439ba717e7df1d140f8082d4386c396d0d79a54"
+    - name: "BWBP_SKC_Pro.u"
+      fileSize: 4557290
+      hash: "3a3f0d83e6980a3586155a6d0f6eb0e01c5a8a24"
+    - name: "BWBP_SWC_Pro.u"
+      fileSize: 423400
+      hash: "1509b4b1dff04004c1575c4ac372640aa2d8f47a"
+    - name: "BWBP_VPC_Pro.u"
+      fileSize: 296068
+      hash: "48b65f97542106944afa2fe01b499b9d0bf09a5c"
+    - name: "BWGuy.upl"
+      fileSize: 1996
+      hash: "45982023f191ecd533a19521fe4216c2dd514d31"
+    - name: "BWInteractions3.u"
+      fileSize: 30149
+      hash: "ee6d18fdb9033388484be6c476623f28f44ce27e"
+    - name: "BallisticProV55.u"
+      fileSize: 6198214
+      hash: "12bdec787ffd036b76c585d30c90d79113e39853"
+    - name: "GunGameBW.u"
+      fileSize: 359972
+      hash: "ba02cb9a12237f9194c0c8e911c5912fd23c1b1f"
+    - name: "HUDFix.u"
+      fileSize: 1077042
+      hash: "ff7cc11d091b49b1d9c5d9d92ba63cdfe3fd89e2"
+    - name: "unrealextension.u"
+      fileSize: 62278
+      hash: "a352fc4a1199aceaa89b7f3c306e20eca53ab4d0"
+    - name: "BWBP_JCF_Tex.utx"
+      fileSize: 11578810
+      hash: "db58e722386990a93fb8420162d1947d72b7ff44"
+    - name: "BWBP_OP_Tex.utx"
+      fileSize: 148955090
+      hash: "c26d9bd8f9b09e277bc665af89f20f301f2a2c18"
+    - name: "BWBP_SKC_Tex.utx"
+      fileSize: 336988370
+      hash: "18177bc08b9db93fcd8fce3ec5a88227287c532a"
+    - name: "BWBP_SWC_Tex.utx"
+      fileSize: 25113541
+      hash: "591f798eeae94723381b1a2c8db11ddb2b6b7c14"
+    - name: "BWBP_Vehicles_Tex.utx"
+      fileSize: 23714139
+      hash: "9debb9e79ca39142b441c7973b5212399fbf130c"
+    - name: "BWGuyTex.utx"
+      fileSize: 30513405
+      hash: "7f44fefa72f267df7de45e281b4aebb78dd5b80c"
+    - name: "BW_Core_WeaponTex.utx"
+      fileSize: 188716032
+      hash: "2977c8be2362486bedf0547f2ec22259549cac91"
+    - name: "BallisticBloodPro.utx"
+      fileSize: 24070948
+      hash: "94567d7b9e3913f5aaf4fe91c1bdb35e64b30630"
+    - name: "RS-BeachTex.utx"
+      fileSize: 2797821
+      hash: "1b95560c7793e8a1fb4379fd4160d1424dab1b10"
+    - name: "RS-CrateTex.utx"
+      fileSize: 13112748
+      hash: "c8986d5d24540622f522b11b734e6f01d6858d15"
+    - name: "RS-DarkWorldTex.utx"
+      fileSize: 15651403
+      hash: "5f6ea407e960270cbc7de30ca69051ddd07ac201"
+    - name: "RS-IndustryTex.utx"
+      fileSize: 8937834
+      hash: "9fafdee70f04762dc159652677b5f48da38eda53"
+    otherFiles: 31
+    dependencies:
+      BWGuyAnim.ukx:
+      - status: "OK"
+        name: "BWGuyTex"
+      BWBP_Vehicles_Anim.ukx:
+      - status: "OK"
+        name: "BWBP_Vehicles_Tex"
+      DM-DC-Beach[F]2k12.ut2:
+      - status: "OK"
+        name: "RS-BeachHW"
+      - status: "OK"
+        name: "RS-CrateHW"
+      - status: "OK"
+        name: "RS-CrateTex"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      DM-BE-Infestation.ut2:
+      - status: "MISSING"
+        name: "Infestation"
+      RS-BeachHW.usx:
+      - status: "OK"
+        name: "RS-BeachTex"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      DM-BE-Clearing.ut2:
+      - status: "OK"
+        name: "RS-IndustryHW"
+      BWBP_SKC_Static.usx:
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BW_Core_WeaponStatic.usx:
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      RS-CrateHW.usx:
+      - status: "OK"
+        name: "RS-CrateTex"
+      GunGameBW.u:
+      - status: "OK"
+        name: "BWBP_OP_Pro"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BWBP_SWC_Pro"
+      - status: "OK"
+        name: "BWBP_JCF_Pro"
+      - status: "OK"
+        name: "BWBP_SKC_Pro"
+      - status: "OK"
+        name: "BCoreProV55"
+      DM-DC-Beach-Shore-Scaled.ut2:
+      - status: "OK"
+        name: "RS-BeachHW"
+      - status: "OK"
+        name: "RS-CrateHW"
+      - status: "OK"
+        name: "RS-CrateTex"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      BWBP_OP_Pro.u:
+      - status: "OK"
+        name: "BWBP_OP_Static"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BW_Core_WeaponStatic"
+      - status: "OK"
+        name: "BWBP_OP_Anim"
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BWBP_SKC_Static"
+      - status: "OK"
+        name: "BWBP_SKC_Pro"
+      - status: "OK"
+        name: "BWBP_OP_Sounds"
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BW_Core_WeaponAnim"
+      - status: "OK"
+        name: "BWBP_SKC_Anim"
+      - status: "OK"
+        name: "BCoreProV55"
+      DM-RSJW-Perdition.ut2:
+      - status: "OK"
+        name: "RS-IndustryHW"
+      BWBP_JCF_Tex.utx:
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      DM-DC-Canal[F]2k13.ut2:
+      - status: "OK"
+        name: "RS-BeachHW"
+      - status: "OK"
+        name: "RS-CrateHW"
+      - status: "OK"
+        name: "RS-CrateTex"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      - status: "OK"
+        name: "RS-IndustryTex"
+      BWBP_SKC_Tex.utx:
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_VPC_Pro.u:
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BW_Core_WeaponStatic"
+      - status: "OK"
+        name: "BWBP_Vehicles_Sound"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_Vehicles_Tex"
+      - status: "OK"
+        name: "BWBP_Vehicles_Anim"
+      - status: "OK"
+        name: "BWBP_Vehicles_Static"
+      - status: "OK"
+        name: "BCoreProV55"
+      BWInteractions3.u:
+      - status: "OK"
+        name: "unrealextension"
+      RS-IndustryHW.usx:
+      - status: "OK"
+        name: "RS-IndustryTex"
+      BCoreProV55.u:
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_SWC_Anims.ukx:
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_SWC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_Vehicles_Static.usx:
+      - status: "OK"
+        name: "BWBP_Vehicles_Tex"
+      RS-DarkWorldHW.usx:
+      - status: "OK"
+        name: "RS-DarkWorldTex"
+      BWBP_JCF_Anims.ukx:
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BWBP_JCF_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_OP_Tex.utx:
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWGoreHardwarePro.usx:
+      - status: "OK"
+        name: "BallisticBloodPro"
+      BallisticProV55.u:
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BW_Core_WeaponStatic"
+      - status: "OK"
+        name: "BallisticBloodPro"
+      - status: "OK"
+        name: "BWGoreHardwarePro"
+      - status: "OK"
+        name: "BallisticThird"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponAnim"
+      - status: "OK"
+        name: "BCoreProV55"
+      BWBP_SKC_Anim.ukx:
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponAnim"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      BWBP_OP_Anim.ukx:
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BWBP_OP_Sounds"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      ONS-RS-Limbo.ut2:
+      - status: "OK"
+        name: "RS-DarkWorldHW"
+      - status: "OK"
+        name: "RS-DarkWorldTex"
+      - status: "OK"
+        name: "RS-MapSounds"
+      - status: "OK"
+        name: "RS-IndustryHW"
+      BW_Core_WeaponAnim.ukx:
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      BWBP_SWC_Static.usx:
+      - status: "OK"
+        name: "BWBP_SWC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_OP_Static.usx:
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBPAirstrikesPro.u:
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BWBP_OP_Static"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BWBP_SWC_Pro"
+      - status: "OK"
+        name: "BWBP_OP_Anim"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BCoreProV55"
+      BWBP_SWC_Pro.u:
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BWBP_OP_Pro"
+      - status: "OK"
+        name: "BW_Core_WeaponStatic"
+      - status: "OK"
+        name: "BallisticBloodPro"
+      - status: "OK"
+        name: "BWBP_SWC_Tex"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      - status: "OK"
+        name: "BWBP_SWC_Sounds"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BWBP_SWC_Anims"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponAnim"
+      - status: "OK"
+        name: "BWBP_SKC_Static"
+      - status: "OK"
+        name: "BWBP_SWC_Static"
+      - status: "OK"
+        name: "BWBP_SKC_Pro"
+      - status: "OK"
+        name: "BCoreProV55"
+      BWGuyTex.utx:
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_SWC_Tex.utx:
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      BWBP_JCF_Pro.u:
+      - status: "OK"
+        name: "BWBP_JCF_Sounds"
+      - status: "OK"
+        name: "BWBP_OP_Static"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BW_Core_WeaponStatic"
+      - status: "OK"
+        name: "BWBP_JCF_Static"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BWBP_JCF_Tex"
+      - status: "OK"
+        name: "BWBP_SKC_Static"
+      - status: "OK"
+        name: "BWBP_SKC_Pro"
+      - status: "OK"
+        name: "BWBP_JCF_Anims"
+      - status: "OK"
+        name: "BCoreProV55"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      BWBP_SKC_Pro.u:
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      - status: "OK"
+        name: "BWBP_OP_Static"
+      - status: "OK"
+        name: "BW_Core_WeaponTex"
+      - status: "OK"
+        name: "BW_Core_WeaponStatic"
+      - status: "OK"
+        name: "BWBP_SKC_Sounds"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BWBP_SKC_Tex"
+      - status: "OK"
+        name: "BW_Core_WeaponSound"
+      - status: "OK"
+        name: "BWBP_SKC_Static"
+      - status: "OK"
+        name: "BW_Core_WeaponAnim"
+      - status: "OK"
+        name: "BWBP_SKC_Anim"
+      - status: "OK"
+        name: "BWBP_OP_Sounds"
+      - status: "OK"
+        name: "BCoreProV55"
+      BWBP_JCF_Static.usx:
+      - status: "OK"
+        name: "BWBP_JCF_Tex"
+      BW_Core_WeaponTex.utx:
+      - status: "OK"
+        name: "BWBP_OP_Tex"
+      "3SPNv3141BW.u":
+      - status: "OK"
+        name: "BWBP_OP_Pro"
+      - status: "OK"
+        name: "HUDFix"
+      - status: "OK"
+        name: "BWBPAirstrikesPro"
+      - status: "OK"
+        name: "BallisticProV55"
+      - status: "OK"
+        name: "BWBP_SKC_Pro"
+      - status: "OK"
+        name: "BCoreProV55"
+  deleted: false
+deleted: false
