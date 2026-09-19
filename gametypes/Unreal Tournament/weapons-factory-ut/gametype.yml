@@ -1,0 +1,167 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal Tournament"
+name: "Weapons Factory UT"
+author: "Weapons Factory UT Team"
+description: "Weapons Factory is a class based capture the flag modification originally\
+  \ made for Quake 2."
+titleImage: "title.png"
+bannerImage: "banner.jpg"
+altNames: []
+links:
+  Archived Homepage: "https://web.archive.org/web/20020204161412/http://www.planetunreal.com/weaponsfactory/"
+  ModDB: "https://www.moddb.com/mods/weapons-factory-ut"
+problemLinks: {}
+credits:
+  Project Lead and Web Master:
+  - "spoon"
+  Lead Programmer:
+  - "Ob1"
+  Programmer:
+  - "Col Kassad"
+  - "Yoda"
+  Lead Modeler:
+  - "Col Kassad"
+  Modeler:
+  - "Crash Override"
+  - "Craz-e Canuck"
+  - "KazeX"
+  Mapper:
+  - "Col Kassad"
+  - "Penguinisto"
+  Lead Skinner and Webdesign:
+  - "Moose"
+  Graphic Artist:
+  - "Yuroki"
+  Music:
+  - "Bliss"
+  Sound FX:
+  - "Bliss"
+  - "Penguinisto"
+  Tester:
+  - "Lord Cheez"
+  Public Relations:
+  - "DjRheingold"
+  Development Message Board Admin.:
+  - "ChessMess"
+  Development Server Admin:
+  - "Penguinisto"
+  WFS Member (consultant):
+  - "Headache"
+  'IRC #wfut Channel Administrator':
+  - "WarrioR"
+  Chat macro code:
+  - "crack_addict"
+  Crouching code:
+  - "Mongo"
+  Prior webpage design:
+  - "Decay"
+gameTypes: []
+mutators: []
+maps: []
+releases:
+- title: "Release"
+  version: "107b"
+  releaseDate: "2002-02-01"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/home/shrimp/Downloads/1235-WFUT107b_Raw.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament/weapons-factory-ut/1235-WFUT107b_Raw.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "1235-WFUT107b_Raw.zip"
+    hash: "8c7708e642464f55143a37966fa53dd9692077e5"
+    fileSize: 14895593
+    synced: true
+    deleted: false
+    files:
+    - name: "WFBonusPackCTFMapData.u"
+      fileSize: 63705
+      hash: "3e3591c31e19f17e42d4cd20b66c79288595ec70"
+    - name: "WFCode.u"
+      fileSize: 1820483
+      hash: "7af31038722c28e252fcc6a8bc38b66c8649dd64"
+    - name: "WFMedia.u"
+      fileSize: 13176767
+      hash: "b00e5560f6ec2a8e6d2e28efce4e1d469042a40b"
+    - name: "WFStockCTFMapData.u"
+      fileSize: 53483
+      hash: "ed60bab7c42d0498bf15e6bb8c4336a1b39d3f7a"
+    - name: "WFSystem.u"
+      fileSize: 825004
+      hash: "6d92d376d120c8065af1a812644a1d7d7fbb9d09"
+    - name: "WFSkins.utx"
+      fileSize: 12804539
+      hash: "f433a5ad4d45db2ca3653adc0ae01f77beaf05c5"
+    otherFiles: 5
+    dependencies:
+      WFStockCTFMapData.u:
+      - status: "OK"
+        name: "WFCode"
+      WFCode.u:
+      - status: "OK"
+        name: "WFSystem"
+      - status: "OK"
+        name: "WFMedia"
+      WFSystem.u:
+      - status: "OK"
+        name: "WFMedia"
+      WFBonusPackCTFMapData.u:
+      - status: "OK"
+        name: "WFCode"
+  - title: "UMOD Installer"
+    localFile: "/home/shrimp/Downloads/1235-WFUT107b_Umod.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament/weapons-factory-ut/1235-WFUT107b_Umod.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "1235-WFUT107b_Umod.zip"
+    hash: "099e7c04c6908b0fc792b87a3fe0e0509b25d02a"
+    fileSize: 14900463
+    synced: true
+    deleted: false
+    files:
+    - name: "wfut_beta.umod"
+      fileSize: 28832737
+      hash: "2739e50b0ab5215af033808d4f5bcc9ea5d110ba"
+    - name: "WFBonusPackCTFMapData.u"
+      fileSize: 63705
+      hash: "3e3591c31e19f17e42d4cd20b66c79288595ec70"
+    - name: "WFCode.u"
+      fileSize: 1820483
+      hash: "7af31038722c28e252fcc6a8bc38b66c8649dd64"
+    - name: "WFMedia.u"
+      fileSize: 13176767
+      hash: "b00e5560f6ec2a8e6d2e28efce4e1d469042a40b"
+    - name: "WFStockCTFMapData.u"
+      fileSize: 53483
+      hash: "ed60bab7c42d0498bf15e6bb8c4336a1b39d3f7a"
+    - name: "WFSystem.u"
+      fileSize: 825004
+      hash: "6d92d376d120c8065af1a812644a1d7d7fbb9d09"
+    - name: "WFSkins.utx"
+      fileSize: 12804539
+      hash: "f433a5ad4d45db2ca3653adc0ae01f77beaf05c5"
+    otherFiles: 5
+    dependencies:
+      WFStockCTFMapData.u:
+      - status: "OK"
+        name: "WFCode"
+      WFCode.u:
+      - status: "OK"
+        name: "WFSystem"
+      - status: "OK"
+        name: "WFMedia"
+      WFSystem.u:
+      - status: "OK"
+        name: "WFMedia"
+      WFBonusPackCTFMapData.u:
+      - status: "OK"
+        name: "WFCode"
+  deleted: false
+deleted: false
