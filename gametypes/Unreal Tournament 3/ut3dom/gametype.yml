@@ -1,0 +1,216 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-19"
+game: "Unreal Tournament 3"
+name: "UT3Dom"
+author: "Brian \"Snake.PLiSKiN\" Alexander"
+description: "Brings UT99 style Domination to Unreal Tournament 3, in four flavours\
+  \ - Domination, Double Domination and vehicle versions of both - all playable with\
+  \ up to four teams. Ships with a set of DOM, CDOM, DDOM and VDOM maps, mapper support\
+  \ for building your own, and full WebAdmin configuration."
+titleImage: "title.png"
+bannerImage: "banner.jpg"
+altNames:
+- "Classic Domination"
+- "UT3 Domination"
+- "UTDom"
+links:
+  Archived Homepage: "https://web.archive.org/web/20120910071939/http://ut3dom.xantaz.net/"
+  ModDB: "https://www.moddb.com/addons/ut3dom-final"
+problemLinks: {}
+credits:
+  UTDom:
+  - "Brian \"Snake\" Alexander"
+  UTMultiTeam:
+  - "Infinity Impossible"
+  Thanks:
+  - "SirTahngarth"
+  - "G.Lecter"
+  - "The Mercenary X Clan"
+  - "The RoninUnrealFX Clan"
+  - "~Team Domination~"
+  - "Snake.PLiSKIN (HKLM)"
+  - "Mr. UglyPants"
+  - "StraTooS / Ignotium"
+  - "aLeX"
+  - "ZixXer"
+  - "Nawrot"
+  - "Aalexanderrr"
+  - "«:MX:»MadSniper"
+gameTypes:
+- name: "Domination"
+  description: "Fight for possession of ControlPoints by touching it and your score\
+    \ increases until taken by another team."
+- name: "Double Domination"
+  description: "Battle for control over 2 ControlPoints: A,B Your team must hold both\
+    \ ControlPoints for 10 seconds to score."
+- name: "Vehicle Domination"
+  description: "Using Vehicles, fight for possession of ControlPoints in the map.\
+    \ Capture ControlPoints by touching it and your score increases until taken by\
+    \ another team"
+- name: "Vehicular Double Domination"
+  description: "Using Vehicles, Battle for control over two ControlPoints: A,B Your\
+    \ team must hold control of both ControlPoints for 10 seconds to score"
+mutators: []
+maps: []
+releases:
+- title: "Final Release"
+  version: "3.1"
+  releaseDate: "2009-08-30"
+  description: "Version 3.1, build 5.25.00. Requires the official UT3 patch 5 (2.1)\
+    \ or newer; any UT3Dom older than 2.0 must be uninstalled first."
+  files:
+  - title: "Windows Installer"
+    localFile: "/home/shrimp/Downloads/ut3domfinal_winsetup.zip"
+    platform: "WINDOWS"
+    downloads:
+    - url: "https://www.moddb.com/addons/ut3dom-final"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/ut3dom/ut3domfinal_winsetup.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "ut3domfinal_winsetup.zip"
+    hash: "4c276218893c55e8ff35c20c4f8dbf51523788df"
+    fileSize: 606377216
+    synced: true
+    deleted: false
+    files: []
+    otherFiles: 0
+    dependencies: {}
+  deleted: false
+- title: "Earlier Release"
+  version: "1.6"
+  releaseDate: "2008-06-15"
+  description: "Version 1.6, build 6.01.00.00. Earlier build recovered from the ut-files\
+    \ archive; superseded by 3.1."
+  files:
+  - title: "Windows Installer"
+    localFile: "/home/shrimp/tmp/dom/ia/UT3Dom_WinSetup.exe"
+    platform: "WINDOWS"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/ut3dom/UT3Dom_WinSetup.exe"
+      direct: true
+      state: "OK"
+    originalFilename: "UT3Dom_WinSetup.exe"
+    hash: "0df3ec7b6d7cddee08f09384e01f7612093388e2"
+    fileSize: 329214920
+    synced: true
+    deleted: false
+    files:
+    - name: "DOM_Content.upk"
+      fileSize: 5483221
+      hash: "84a826332f730d53c871d53cd7686f6e886d167b"
+    - name: "UTDom.u"
+      fileSize: 292902
+      hash: "abedc4b00f9e71eaf0856e23966e2c1ad7408b5c"
+    - name: "UTDomWebAdmin.u"
+      fileSize: 38193
+      hash: "8375d7d2542a18e0ad48f334329b70dc598667b8"
+    - name: "UTMT_Content.upk"
+      fileSize: 1906614
+      hash: "bf3aa88565c031577181eee6e7e43d99d3999443"
+    - name: "UTMultiTeam.u"
+      fileSize: 279418
+      hash: "5b05b5718b6b3b20801dfd1c696b69c2c3274637"
+    - name: "UTMultiTeamContent.u"
+      fileSize: 29515
+      hash: "3701af09de2929e45e0d961cff2f73fe056ba8d7"
+    - name: "CDOM-Contrast.ut3"
+      fileSize: 31194126
+      hash: "b50f1d89fae9a9a95d365610ec620828b2e3a2fb"
+    - name: "CDOM-Contrast_LOC_int.upk"
+      fileSize: 316225
+      hash: "48ab8a3847125184303fe054e7edae1a31975b4d"
+    - name: "DOM-AKI.ut3"
+      fileSize: 54697948
+      hash: "624e61ee50028a4dcd300e515ba5c92ee83dad1c"
+    - name: "DOM-AKI_LOC_int.upk"
+      fileSize: 376038
+      hash: "e2942315fc8e6e1a84f7911a06f1b80f5fbd3809"
+    - name: "DOM-Apodos.ut3"
+      fileSize: 45778805
+      hash: "124f039691fbf1228600d0d3a94fd8ce2685fad3"
+    - name: "DOM-Apodos_LOC_int.upk"
+      fileSize: 320524
+      hash: "e54a341cd15c60c4f57461412695ed8c152eed29"
+    - name: "DOM-Cidom.ut3"
+      fileSize: 35195846
+      hash: "3eb5c07d0829c405328d4219d6065fc3753082c4"
+    - name: "DOM-Cidom_LOC_int.upk"
+      fileSize: 511602
+      hash: "17e1553df8a2743b69a1f73a630cfd9ed7294ff7"
+    - name: "DOM-Cinder.ut3"
+      fileSize: 39199023
+      hash: "618c43ac7c983cc88e2683b1620e3ef2b8397283"
+    - name: "DOM-Cinder_LOC_int.upk"
+      fileSize: 343713
+      hash: "6a38e4908505b703aa8af7f938df52b725ff7378"
+    - name: "DOM-Condemned.ut3"
+      fileSize: 36173122
+      hash: "7dc314bbe5b8ce0ac7e0bd58fb50cfb3e79c9758"
+    - name: "DOM-Condemned2.ut3"
+      fileSize: 32935455
+      hash: "6d1ad01a15b444b92046d1fd9338f1cead77b52a"
+    - name: "DOM-Condemned2_LOC_int.upk"
+      fileSize: 401535
+      hash: "ba82c31692a9e76d326dc4f43b0837759d754f9c"
+    - name: "DOM-Condemned_LOC_int.upk"
+      fileSize: 401619
+      hash: "1dafe7f3d06746d8926551b1c631cee5ca5ddb10"
+    - name: "DOM-Ghardhen.ut3"
+      fileSize: 47743047
+      hash: "23ef5ace58d8a1cd336015b7a0ef5e5b49335688"
+    - name: "DOM-Ghardhen_LOC_int.upk"
+      fileSize: 340104
+      hash: "6b08da4ab01d435f8bb8420221676b8b068fee87"
+    - name: "DOM-Lament.ut3"
+      fileSize: 35800596
+      hash: "1f10540bb3371f0844b390cc8fed04db24fcc44e"
+    - name: "VDOM-Downtown.ut3"
+      fileSize: 58017320
+      hash: "8f13a30c88b9b2c17fc233de6f64960bc3bd6fa2"
+    - name: "VDOM-Downtown_LOC_int.upk"
+      fileSize: 599683
+      hash: "b8f05f6514219511860019f0f5f14aad51e781c8"
+    - name: "DOM_Content.upk"
+      fileSize: 5483221
+      hash: "84a826332f730d53c871d53cd7686f6e886d167b"
+    - name: "UTDom.u"
+      fileSize: 292902
+      hash: "abedc4b00f9e71eaf0856e23966e2c1ad7408b5c"
+    - name: "UTDomWebAdmin.u"
+      fileSize: 38193
+      hash: "8375d7d2542a18e0ad48f334329b70dc598667b8"
+    - name: "UTMultiTeam.u"
+      fileSize: 279418
+      hash: "5b05b5718b6b3b20801dfd1c696b69c2c3274637"
+    - name: "UTMultiTeamContent.u"
+      fileSize: 29515
+      hash: "3701af09de2929e45e0d961cff2f73fe056ba8d7"
+    - name: "UTMT_Content.upk"
+      fileSize: 1906614
+      hash: "bf3aa88565c031577181eee6e7e43d99d3999443"
+    otherFiles: 22
+    dependencies:
+      UTDom.u:
+      - status: "OK"
+        name: "UTMultiTeamContent"
+      - status: "OK"
+        name: "DOM_Content"
+      - status: "OK"
+        name: "UTMT_Content"
+      - status: "OK"
+        name: "UTMultiTeam"
+      UTDomWebAdmin.u:
+      - status: "MISSING"
+        name: "WebAdmin"
+      - status: "OK"
+        name: "UTDom"
+      UTMultiTeamContent.u:
+      - status: "OK"
+        name: "UTMT_Content"
+      - status: "OK"
+        name: "UTMultiTeam"
+  deleted: false
+deleted: false
