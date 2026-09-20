@@ -1,0 +1,55 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-09-18 22:46"
+game: "Unreal Tournament 2004"
+name: "High Poly Scorpion Replacer"
+author: "Lasercar"
+description: "Replace any vehicle with a higher poly version of the scorpion"
+releaseDate: "2022-12"
+attachments: []
+originalFilename: "HighPolyScorpion.7.zip"
+hash: "8fa37a6e32cb307025e75106f1d73d0a31e3b1c6"
+fileSize: 22471401
+files:
+- name: "HighPolyScorpionAnim.ukx"
+  fileSize: 6762977
+  hash: "2418bd9ea57e2f3809a8507bc312c3369ea3ec23"
+- name: "ScorpionSM.usx"
+  fileSize: 6578451
+  hash: "fb6fd26f8d0920b8fe26b4ef5cf91224ecfa1ec1"
+- name: "HighPolyScorpion.u"
+  fileSize: 14993
+  hash: "f2f3ad5e1ad1d88c2e20da96a454fff6f7c80d93"
+- name: "HighPolyScorpionTex.utx"
+  fileSize: 78368690
+  hash: "e4669d37f6d5af277b9af4a772f1515ea337f395"
+otherFiles: 2
+dependencies:
+  HighPolyScorpionAnim.ukx:
+  - status: "OK"
+    name: "HighPolyScorpionTex"
+  - status: "OK"
+    name: "ScorpionSM"
+  HighPolyScorpion.u:
+  - status: "OK"
+    name: "HighPolyScorpionTex"
+  - status: "OK"
+    name: "HighPolyScorpionAnim"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/H/8/f/a37a6e/HighPolyScorpion.7.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "High Poly Scorpion Replacer"
+  description: "Replace any vehicle with a higher poly version of the scorpion"
+weapons: []
+vehicles:
+- name: "Scorpion"
+  description: "Scorpion"
+- name: "Scorpion"
+  description: "Scorpion"
+hasConfigMenu: false
+hasKeybinds: false
