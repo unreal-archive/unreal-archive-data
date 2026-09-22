@@ -1,0 +1,59 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-22"
+game: "Unreal Tournament"
+name: "Flag Domination"
+author: "David Catmull"
+description: "A cross between Domination and Capture the Flag. The flags are neutral\
+  \ rather than team owned; each has a designated receptacle per team, and the longer\
+  \ a flag sits in yours the more points you score, exactly like a Domination control\
+  \ point. Captured flags can be stolen back."
+titleImage: ""
+bannerImage: ""
+altNames:
+- "FlagDom"
+links: {}
+problemLinks: {}
+credits:
+  Author:
+  - "David Catmull"
+gameTypes:
+- name: "Flag Domination"
+  description: ""
+mutators: []
+maps: []
+releases:
+- title: "Release"
+  version: "1.1"
+  releaseDate: "2001-03"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/var/tmp/gt2/flagdom/flag-domination-version-11.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://www.lonebullet.com/mods/download-flag-domination-version-11-unreal-tournament-mod-free-20655.htm"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament/flag-domination/flag-domination-version-11.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "flag-domination-version-11.zip"
+    hash: "51d9ebdfdd5160e3e285f18b11ed900fe02e557e"
+    fileSize: 155484
+    synced: true
+    deleted: false
+    files:
+    - name: "FlagDom.u"
+      fileSize: 408947
+      hash: "898532cdfd9d7f7702e895a801a065e85121d802"
+    - name: "FlagMutator.u"
+      fileSize: 6575
+      hash: "625c8603a750ef3e6e2307b97519ff35c01ebc00"
+    otherFiles: 3
+    dependencies:
+      FlagDom.u:
+      - status: "OK"
+        name: "FlagMutator"
+  deleted: false
+deleted: false

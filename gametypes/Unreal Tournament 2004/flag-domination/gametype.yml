@@ -1,0 +1,153 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-22"
+game: "Unreal Tournament 2004"
+name: "Flag Domination"
+author: "David Catmull"
+description: "The UT2004 sequel to the original Unreal Tournament game type, mixing\
+  \ Capture the Flag with Domination. Neutral flags must be carried to your team's\
+  \ capture point, and can be stolen back. Four scoring modes are offered - Rounds,\
+  \ Timed, Scavenger and Incursion - along with Vehicle Flag Domination, which plays\
+  \ on Onslaught maps with flags placed where the power nodes and cores would be."
+titleImage: ""
+bannerImage: ""
+altNames:
+- "Flag Domination 2004"
+- "FlagDom"
+links: {}
+problemLinks: {}
+credits:
+  Author:
+  - "David Catmull"
+gameTypes:
+- name: "Flag Domination"
+  description: "Your team scores by capturing and holding two flags for ten seconds.\
+    \ Flags reset to the middle after each round. Alternately, scoring can be timed\
+    \ or one point per capture."
+- name: "Vehicle FD [ONS]"
+  description: "Vehicle Flag Domination played on Onslaught maps, replacing certain\
+    \ power nodes with flags or capture points."
+- name: "Vehicle Flag Domination"
+  description: "Like traditional Flag Domination, only adding vehicles into the mix!\
+    \ Only ground-based vehicles can carry the flag."
+mutators: []
+maps:
+- name: "FD-Orbital2"
+  title: "Orbital2"
+  author: "Dave Ewing / David Catmull"
+  screenshot:
+    type: "IMAGE"
+    name: "fd-orbital24108756241792521867.png"
+    url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/GameTypes/F/flag-domination/maps/fd-orbital24108756241792521867.png"
+releases:
+- title: "Version 3.3"
+  version: ""
+  releaseDate: "2005-02"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/var/tmp/gt2/flagdom/flag-domination-v33-zip.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://www.lonebullet.com/mods/download-flag-domination-v33-zip-unreal-tournament-2004-mod-free-22479.htm"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202004/flag-domination/flag-domination-v33-zip.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "flag-domination-v33-zip.zip"
+    hash: "95472e106f0be3de19b0f0d58da4c481bb577856"
+    fileSize: 8531104
+    synced: true
+    deleted: false
+    files:
+    - name: "FD-Orbital2.ut2"
+      fileSize: 12572426
+      hash: "ec7ff821faf844dcb09a48d5765ad6d0393a612a"
+    - name: "FDMarker.usx"
+      fileSize: 2146
+      hash: "d4d78215f28d3d014c4c9bb4f5159721d07ab761"
+    - name: "FlagDom.u"
+      fileSize: 618566
+      hash: "3adaa2e835ab869dbb6f3d4e003ea0c59bbe9ef6"
+    - name: "FDBanners.utx"
+      fileSize: 401530
+      hash: "6bbec30594307f72777d46b2adb9ab5b879ec1a6"
+    - name: "FDFlags.utx"
+      fileSize: 7261998
+      hash: "936eeab531133b1165217f3308fdb3c59ed28403"
+    - name: "FDGrayVehicles.utx"
+      fileSize: 89241
+      hash: "5ad3e7924e22f121c2a2642b9288617d56653b90"
+    - name: "GrayOBP.utx"
+      fileSize: 4195467
+      hash: "e5dfa27667df8ad1f23f9e9b96b127e30a21d661"
+    otherFiles: 4
+    dependencies:
+      FD-Orbital2.ut2:
+      - status: "OK"
+        name: "FDBanners"
+      - status: "OK"
+        name: "FlagDom"
+      - status: "OK"
+        name: "FDFlags"
+      FlagDom.u:
+      - status: "OK"
+        name: "FDBanners"
+      - status: "OK"
+        name: "GrayOBP"
+      - status: "OK"
+        name: "FDGrayVehicles"
+      - status: "OK"
+        name: "FDFlags"
+      - status: "OK"
+        name: "FDMarker"
+      FDMarker.usx:
+      - status: "OK"
+        name: "FDBanners"
+      FDBanners.utx:
+      - status: "OK"
+        name: "FDFlags"
+  deleted: false
+- title: "Version 3.3 Beta 1"
+  version: ""
+  releaseDate: "2004-12"
+  description: ""
+  files:
+  - title: "Zip Package"
+    localFile: "/var/tmp/gt2/flagdom/flag-domination-v33b1.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://www.lonebullet.com/mods/download-flag-domination-v33b1-unreal-tournament-2004-mod-free-22524.htm"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202004/flag-domination/flag-domination-v33b1.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "flag-domination-v33b1.zip"
+    hash: "4746ffbc8ff5ff5e54c330de50a514b7bdf78fa6"
+    fileSize: 2976303
+    synced: true
+    deleted: false
+    files:
+    - name: "FlagDom.u"
+      fileSize: 612924
+      hash: "d1345bd47676589e0faeae37dcc96e40da5e982e"
+    - name: "FDFlags.utx"
+      fileSize: 7261980
+      hash: "ef4b6d600a840de78eac30cf5fe699092463a159"
+    otherFiles: 4
+    dependencies:
+      FlagDom.u:
+      - status: "MISSING"
+        name: "FDBanners"
+      - status: "MISSING"
+        name: "GrayOBP"
+      - status: "MISSING"
+        name: "FDGrayVehicles"
+      - status: "OK"
+        name: "FDFlags"
+      - status: "MISSING"
+        name: "FDMarker"
+  deleted: false
+deleted: false

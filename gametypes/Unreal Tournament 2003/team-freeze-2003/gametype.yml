@@ -1,0 +1,115 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-22"
+game: "Unreal Tournament 2003"
+name: "Team Freeze 2003"
+author: "Gerard Ryan"
+description: "A team game type in which players are frozen instead of killed. A frozen\
+  \ player cannot move or shoot, but can watch their remaining team mates through\
+  \ the FreezeCam. A team mate standing alongside for three seconds thaws them out;\
+  \ freezing an entire team at once is a shatter, which frees everybody and scores\
+  \ the round."
+titleImage: "title.png"
+bannerImage: ""
+altNames:
+- "Team Freeze"
+links:
+  ModDB: "https://www.moddb.com/mods/team-freeze-2003"
+  Archived Homepage: "https://web.archive.org/web/20030201000000*/badgergoose.com/teamfreeze/*"
+problemLinks: {}
+credits:
+  Author:
+  - "Gerard Ryan"
+  Original Concept:
+  - "Darrell 'Doolittle' Bircsak"
+  Freeze Shader:
+  - "E. 'ee' Elverskog"
+  Beta Tester:
+  - "Daniel 'RageMachine' Nalbach"
+  Web Design:
+  - "Aleya"
+gameTypes:
+- name: "Team Freeze Deathmatch"
+  description: ""
+mutators: []
+maps: []
+releases:
+- title: "Beta"
+  version: "0.30"
+  releaseDate: "2003-01-07"
+  description: ""
+  files:
+  - title: "Windows Installer"
+    localFile: "/var/tmp/gt2/teamfreeze/teamfreeze2003_beta030.exe"
+    platform: "WINDOWS"
+    downloads:
+    - url: "https://www.moddb.com/mods/team-freeze-2003/downloads/team-freeze-030"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202003/team-freeze-2003/teamfreeze2003_beta030.exe"
+      direct: true
+      state: "OK"
+    originalFilename: "teamfreeze2003_beta030.exe"
+    hash: "c4018b76186c0c0cbf92117c19ff2c9d4d1e07b3"
+    fileSize: 289921
+    synced: true
+    deleted: false
+    files: []
+    otherFiles: 0
+    dependencies: {}
+  - title: "Repacked Zip (installer contents)"
+    localFile: "/var/tmp/gt2/teamfreeze/teamfreeze2003_beta030_repack.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%202003/team-freeze-2003/teamfreeze2003_beta030_repack.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "teamfreeze2003_beta030_repack.zip"
+    hash: "dae4cc01301cdc8c9dc8fe52a412830206c0b2fe"
+    fileSize: 223818
+    synced: true
+    deleted: false
+    files:
+    - name: "TeamFreezeEffects.uax"
+      fileSize: 175798
+      hash: "cca274a2bcc52ce1815241ad0c2f8f149dfd79e2"
+    - name: "TeamFreeze.u"
+      fileSize: 143821
+      hash: "35b47763b31d6ee6060a80b01706644fce63ccc8"
+    - name: "TeamFreezeMat.utx"
+      fileSize: 33581
+      hash: "ca54c226237e40d15f874c64463e71b7c8f91e0c"
+    otherFiles: 2
+    dependencies:
+      TeamFreezeMat.utx:
+      - status: "MISSING"
+        name: "AlleriaTerrain"
+      - status: "MISSING"
+        name: "PlayerSkins"
+      TeamFreeze.u:
+      - status: "MISSING"
+        name: "WeaponSounds"
+      - status: "MISSING"
+        name: "XInterface"
+      - status: "MISSING"
+        name: "XGame"
+      - status: "MISSING"
+        name: "AlleriaTerrain"
+      - status: "MISSING"
+        name: "XWeapons"
+      - status: "MISSING"
+        name: "Gameplay"
+      - status: "OK"
+        name: "TeamFreezeEffects"
+      - status: "MISSING"
+        name: "UnrealGame"
+      - status: "MISSING"
+        name: "XEffects"
+      - status: "MISSING"
+        name: "EmitterTextures"
+      - status: "MISSING"
+        name: "InterfaceContent"
+      - status: "OK"
+        name: "TeamFreezeMat"
+  deleted: false
+deleted: false
