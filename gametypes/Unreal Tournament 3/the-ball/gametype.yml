@@ -1,0 +1,330 @@
+---
+contentType: "GameType"
+addedDate: "2026-09-23"
+game: "Unreal Tournament 3"
+name: "The Ball"
+author: "Toltec Studios"
+description: "A single player action/puzzle total conversion set in an Aztec temple\
+  \ inside a dormant Mexican volcano. An ancient device lets you push and pull a large\
+  \ physics-driven ball, which is used to solve puzzles, trigger mechanisms and crush\
+  \ the temple's undead guardians. Winner of five first places across Epic's Make\
+  \ Something Unreal Contest, and ModDB's Best Singleplayer Mod of 2008; later reworked\
+  \ into a standalone commercial game on UDK."
+titleImage: "title.png"
+bannerImage: ""
+altNames:
+- "The Ball Mod"
+links:
+  ModDB: "https://www.moddb.com/mods/the-ball"
+  Archived Homepage: "https://web.archive.org/web/20100123000000/http://theball.toltecstudios.com/"
+problemLinks: {}
+credits:
+  Creative Director:
+  - "Sjoerd 'Hourences' De Jong"
+  Programming:
+  - "James 'Snake' Tan"
+  - "Russ McMackin"
+  - "Markus Arvidsson"
+  Level Design:
+  - "Sjoerd 'Hourences' De Jong"
+  - "Thomas Browett"
+  - "Kevin 'Sklare' Cytatzky"
+  - "Mario Marquardt"
+  - "Dan Banefelt"
+  Additional Level Design:
+  - "Anton Botvalde"
+  - "Russ McMackin"
+  Level Scripting:
+  - "Anton Botvalde"
+  - "Thomas Browett"
+  - "Dan Banefelt"
+  - "Sjoerd 'Hourences' De Jong"
+  Environment Art:
+  - "Sjoerd 'Hourences' De Jong"
+  Character Art:
+  - "Bart Wiltenburg"
+  - "Benjamin Erdt"
+  - "Markus Palviainen"
+  - "Oliver Gam"
+  - "Charlie Baker"
+  Additional Art:
+  - "Lukas Arvidsson"
+  Animation:
+  - "Hongman Leung"
+  Additional Animation:
+  - "Markus Palviainen"
+  Original Music and Sound Design:
+  - "Theodore Wohng"
+  Additional Sound Design:
+  - "Chris Vik"
+  Voice Acting and Video:
+  - "Mike Hillard"
+gameTypes:
+- name: "The Ball"
+  description: ""
+- name: "The Ball Survival"
+  description: ""
+mutators: []
+maps:
+- name: "TB-Part1-Pehua"
+  title: "Part 1 - Pehua"
+  author: "Toltec Studios"
+- name: "TB-Part2-Oztoc-Level1"
+  title: "Part 2 - Oztoc - Level 1"
+  author: "Toltec Studios"
+- name: "TB-Part2-Oztoc-Level2"
+  title: "Part 2 - Oztoc - Level 2"
+  author: "Toltec Studios"
+- name: "TB-Part3-Teotl-Level1"
+  title: "Part 3 - Teotl - Level 1"
+  author: "Toltec Studios"
+- name: "TB-Part3-Teotl-Level2"
+  title: "Part 3 - Teotl - Level 2"
+  author: "Toltec Studios"
+- name: "TB-Part4-Hueca"
+  title: "Part 4 - Hueca"
+  author: "Toltec Studios"
+- name: "TB-Part5-Cahua-Level1"
+  title: "Part 5 - Cahua - Level 1"
+  author: "Toltec Studios"
+- name: "TBS-Atica"
+  title: "Atica"
+  author: "Toltec Studios"
+- name: "TBS-Cemiac"
+  title: "Cemiac"
+  author: "Toltec Studios"
+- name: "TBS-Teniza"
+  title: "Teniza"
+  author: "Toltec Studios"
+releases:
+- title: "Part 1 - Pehua"
+  version: "1.0"
+  releaseDate: "2008-06-25"
+  description: "The first public release and the Make Something Unreal Contest Phase 1 entry, containing only the opening chapter. One level, no enemies, and the puzzles serve mainly to introduce the ball mechanics. Superseded by the later releases, and no longer distributed anywhere upstream."
+  files:
+  - title: "Zip Package"
+    localFile: "/var/tmp/ball/theball_v1.zip"
+    platform: "ANY"
+    downloads:
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/the-ball/theball_v1.zip"
+      direct: true
+      state: "OK"
+    originalFilename: "theball_v1.zip"
+    hash: "200bd251f52c89e26e00cbc32243c0c7241e6e78"
+    fileSize: 32326282
+    synced: true
+    deleted: false
+    files:
+    - name: "TB-Part1-Pehua.ut3"
+      fileSize: 9910280
+      hash: "17f9445c760a8685b013a6b267256b0d82fcb879"
+    - name: "TB-Part1-Pehua_LOC_int.upk"
+      fileSize: 30789
+      hash: "3bd1e8b8a4fec58cc4fb9ccd8babc525fb5ffd7c"
+    - name: "TB_LevelAssets.upk"
+      fileSize: 28766414
+      hash: "6eec65799ac2096be1c5c743f4ec51aff055785a"
+    - name: "TB_Sounds.upk"
+      fileSize: 395540
+      hash: "91313d3ce191a581870ce1c6122c44f8d859f0db"
+    - name: "TheBall.u"
+      fileSize: 24302
+      hash: "444a9e2daccbb4aebd498b861dcbacb5d440b42e"
+    otherFiles: 4
+    dependencies:
+      TheBall.u:
+      - status: "OK"
+        name: "TB_LevelAssets"
+  deleted: false
+- title: "Cahua"
+  version: "Final Mod Version"
+  releaseDate: "2009-11-11"
+  description: "The Grand Finals submission for the Make Something Unreal Contest and the final mod release. It is the complete mod: all five chapters plus the three survival arenas, with the earlier levels reworked, so it replaces every previous release rather than adding to it. Requires UT3 patch 2.0 or above, and any older install of the mod must be deleted first. The intermediate chapter releases - Oztoc (2008-10-12), Teotl (2009-05-09) and Hueca (2009-08-26) - are not archived here; no copy survives upstream."
+  files:
+  - title: "Windows Installer"
+    localFile: "/var/tmp/ball/TheBall-Cahua.exe"
+    platform: "WINDOWS"
+    downloads:
+    - url: "https://www.moddb.com/mods/the-ball/downloads/the-ball-cahua-final-mod-version"
+      direct: false
+      state: "OK"
+    - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/the-ball/TheBall-Cahua.exe"
+      direct: true
+      state: "OK"
+    originalFilename: "TheBall-Cahua.exe"
+    hash: "cbdc2b9e088a52b2e5d4e550e04e6fecb60c169b"
+    fileSize: 534086818
+    synced: true
+    deleted: false
+    files:
+    - name: "FrontEnd.ut3"
+      fileSize: 25560230
+      hash: "4b0914ef59e906a3c2891966ff820a0a831fd8c2"
+    - name: "FrontEnd_LOC_int.upk"
+      fileSize: 60561
+      hash: "1eb6979902d6a6c9a21f40542479e3b0d8660419"
+    - name: "TB-Part1-Pehua.ut3"
+      fileSize: 34262173
+      hash: "5f2e8a158f92d25d5fe7648a39ceee162102f88a"
+    - name: "TB-Part1-Pehua_LOC_int.upk"
+      fileSize: 60552
+      hash: "faedd60354d875ceec225324a1cdd7104775fe30"
+    - name: "TB-Part2-Oztoc-Level1.ut3"
+      fileSize: 49317215
+      hash: "65993999b427de5624d957588e6466ca06348cc2"
+    - name: "TB-Part2-Oztoc-Level1_LOC_int.upk"
+      fileSize: 60616
+      hash: "bdd48021b807c9f8d0158e0f799217025c90deff"
+    - name: "TB-Part2-Oztoc-Level2.ut3"
+      fileSize: 45920068
+      hash: "e4245603e5792d705dd63c3195f74710c73f84bd"
+    - name: "TB-Part2-Oztoc-Level2_LOC_int.upk"
+      fileSize: 60614
+      hash: "6396326beb7c8ae26452907ac7e6c026d0a6d3ed"
+    - name: "TB-Part3-Teotl-Level1.ut3"
+      fileSize: 40641653
+      hash: "c9c596ea6af7a1af7927b41ecff5d3c5ecb3ab92"
+    - name: "TB-Part3-Teotl-Level1_LOC_int.upk"
+      fileSize: 60614
+      hash: "e7cb9ec473a6cbd3e1c9cfcd6b86bbab9c6b5178"
+    - name: "TB-Part3-Teotl-Level2.ut3"
+      fileSize: 56088902
+      hash: "f20957af107632af10a628604fb35a1bd1b54eb2"
+    - name: "TB-Part3-Teotl-Level2_LOC_int.upk"
+      fileSize: 60612
+      hash: "042b4943f8b806510cdec757d8e41c3a2dfcc790"
+    - name: "TB-Part4-Hueca.ut3"
+      fileSize: 78441418
+      hash: "54fdbc2d0934601fec9d93b62dce9e73e0a345c4"
+    - name: "TB-Part4-Hueca_LOC_int.upk"
+      fileSize: 60553
+      hash: "da780b239f86286b43a04c99be41b7240aa6db76"
+    - name: "TB-Part5-Cahua-Level1.ut3"
+      fileSize: 67392591
+      hash: "fb6f16eeffa58d36427d21782fa8d83ab8a1293c"
+    - name: "TB-Part5-Cahua-Level1_LOC_int.upk"
+      fileSize: 60613
+      hash: "38fc434dccd76dafdd44b250feb6f1c4483b7bdf"
+    - name: "TBS-Atica.ut3"
+      fileSize: 27144805
+      hash: "fa0d2d5ad6d4532834dbfce2ec7ff840d219b7af"
+    - name: "TBS-Atica_LOC_int.upk"
+      fileSize: 60597
+      hash: "19f6e4c848ffdb34180216a18572c3c92277fe24"
+    - name: "TBS-Cemiac.ut3"
+      fileSize: 20544564
+      hash: "8dccf9be45e5b16ee9ddaf077b0f7bb4c30cdd2c"
+    - name: "TBS-Cemiac_LOC_int.upk"
+      fileSize: 60610
+      hash: "3be1e5462e564098fb7b32c4938665edc177ac7e"
+    - name: "TBS-Teniza.ut3"
+      fileSize: 23444750
+      hash: "c7eab9d51d04d225fc85b0eb7114c6816bbd3eb5"
+    - name: "TBS-Teniza_LOC_int.upk"
+      fileSize: 60616
+      hash: "d4c96e75109c61bd7485439d641504bff5a62c91"
+    - name: "TB_Characters.upk"
+      fileSize: 35288787
+      hash: "e6487a9f9698f436cc4e2bc44312e38f19902453"
+    - name: "TB_Characters2.upk"
+      fileSize: 11425922
+      hash: "84468d3dfd45868f78ea3346955d4647dc23bd28"
+    - name: "TB_Coders.upk"
+      fileSize: 865957
+      hash: "04a2036109a0c95b8bbcfbc794a28e721fab97da"
+    - name: "TB_Gameplay.upk"
+      fileSize: 5678959
+      hash: "a00d584b2bd377ad27cf8de251784807d171585d"
+    - name: "TB_Gameplay2.upk"
+      fileSize: 1257819
+      hash: "150d88cda4221b999d12c8fe48def259958f7fbc"
+    - name: "TB_Interface.upk"
+      fileSize: 7665788
+      hash: "608143a93c9c9b9033f47df8564874af3e7a10de"
+    - name: "TB_Interface2.upk"
+      fileSize: 4608249
+      hash: "d8d18d2f95f62fb0bae54e6937d12a9480b1395b"
+    - name: "TB_JTMonkey.upk"
+      fileSize: 292920
+      hash: "8f0459804161caf35710c67538138d2361bb5e95"
+    - name: "TB_LevelAssets.upk"
+      fileSize: 29945347
+      hash: "c8ba13e585f59ab42cad2edb8315b0d862ba4ad6"
+    - name: "TB_LevelAssets2.upk"
+      fileSize: 8602741
+      hash: "e98004d9c99a61eb569f26692874649df47b959d"
+    - name: "TB_LevelAssets3.upk"
+      fileSize: 2813406
+      hash: "363dd72399d3555b6ffb4a7597ee9a7728992e3d"
+    - name: "TB_LevelAssets4.upk"
+      fileSize: 36940593
+      hash: "42d02e3b5e3df925cb044daaac0683d3077df4e7"
+    - name: "TB_LevelAssets5.upk"
+      fileSize: 27366699
+      hash: "6d69b1dd521bced7c1f13a4c7f34c0a75e720f54"
+    - name: "TB_LevelAssets6.upk"
+      fileSize: 24463181
+      hash: "5a196735e4f05fc511f2ac39bfcd3defa077555d"
+    - name: "TB_Sounds.upk"
+      fileSize: 4635646
+      hash: "d940c4b12ef3d47b5e02b60ccb46483080dd3708"
+    - name: "TB_Sounds2.upk"
+      fileSize: 14078296
+      hash: "d2998bf555961561de9fc74c6dc1d97a3cbdee28"
+    - name: "TB_Sounds3.upk"
+      fileSize: 7355949
+      hash: "dca21e59fed940053654776a9c4188fcce9dd07b"
+    - name: "TB_Sounds4.upk"
+      fileSize: 4246467
+      hash: "f04b38d54a0d7bc2dc3079ad5856cf1c1f53b072"
+    - name: "TB_Vehicle.upk"
+      fileSize: 15478668
+      hash: "3ea9f658437c954c816fb38770e81652ec059b32"
+    - name: "TheBall.u"
+      fileSize: 1785385
+      hash: "c53a5619e491b1cb50bd8721b58befceb2c4635a"
+    - name: "ModShaderCache-PC-D3D-SM2.upk"
+      fileSize: 6745681
+      hash: "b9b2ce819e0b6cd2d32d0722b5fdd1e220ba6bbe"
+    - name: "ModShaderCache-PC-D3D-SM3.upk"
+      fileSize: 9652358
+      hash: "c4dbb43b7527da6026d57c933ff85047cb7aaeec"
+    - name: "ModShaderCache-PC-D3D-SM4.upk"
+      fileSize: 28298546
+      hash: "0cf14a00a4d53cc12ffb419ffc61387cd107e97c"
+    otherFiles: 27
+    dependencies:
+      TheBall.u:
+      - status: "OK"
+        name: "TB_Interface"
+      - status: "OK"
+        name: "TB_Gameplay"
+      - status: "OK"
+        name: "TB_LevelAssets"
+      - status: "OK"
+        name: "TB_Characters2"
+      - status: "OK"
+        name: "TB_Characters"
+      - status: "OK"
+        name: "TB_Coders"
+      - status: "OK"
+        name: "TB_LevelAssets2"
+      - status: "OK"
+        name: "TB_Gameplay2"
+      - status: "OK"
+        name: "TB_Sounds"
+      - status: "OK"
+        name: "TB_Vehicle"
+      - status: "OK"
+        name: "TB_JTMonkey"
+      - status: "OK"
+        name: "TB_Interface2"
+      - status: "OK"
+        name: "TB_Sounds2"
+      - status: "OK"
+        name: "TB_Sounds3"
+      - status: "OK"
+        name: "TB_Sounds4"
+  deleted: false
+repack: false
+deleted: false
