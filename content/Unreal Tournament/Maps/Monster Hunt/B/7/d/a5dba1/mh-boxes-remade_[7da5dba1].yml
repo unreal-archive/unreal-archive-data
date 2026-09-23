@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-09-23 19:32"
+game: "Unreal Tournament"
+name: "MH-Boxes-Remade+"
+author: "Ninja_Pirate"
+description: "None"
+releaseDate: "2012-01"
+attachments: []
+originalFilename: "MH-boxes-remade+.zip"
+hash: "7da5dba1caf300f29d097048da754c63bce7fdbf"
+fileSize: 17477925
+files:
+- name: "MH-Boxes-Remade+.unr"
+  fileSize: 2332655
+  hash: "61a91c749d9c3901e949f38f1c42ec394fa1173e"
+- name: "Guardian.umx"
+  fileSize: 376293
+  hash: "6e49315744c340a9515b1949cd3c5d8a171a5dc4"
+- name: "ChaosSounds2.uax"
+  fileSize: 3183219
+  hash: "7582a5906c9e595b6c27a6acb2f4c5cae299c650"
+- name: "BBoyLikePac.u"
+  fileSize: 36612
+  hash: "64a6f52cde22a7548070c74d065ec2cf93d4071e"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "SevenB.u"
+  fileSize: 8323248
+  hash: "2891ac85ff981b3826b7df84ebdf81944d075a50"
+- name: "TODatas.u"
+  fileSize: 5575209
+  hash: "a1296973563262d37ed1f82603370d7abe466bf1"
+- name: "UTMHpack.u"
+  fileSize: 4498715
+  hash: "be3c69a56f792c235ee41e65707af38a4a8b4ed2"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "olweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "TO-Rig2.utx"
+  fileSize: 2301269
+  hash: "dc54de9ed24b436552738fd209efec6d3fc2b192"
+- name: "bed.utx"
+  fileSize: 1800815
+  hash: "e87996ce5c648d5e5267dfea9df4800437d0b955"
+otherFiles: 1
+dependencies:
+  SevenB.u:
+  - status: "OK"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  TO-Rig2.utx:
+  - status: "OK"
+    name: "TODatas"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  MH-Boxes-Remade+.unr:
+  - status: "OK"
+    name: "bed"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "BBoyLikePac"
+  - status: "OK"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "ChaosSounds2"
+  - status: "OK"
+    name: "Guardian"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/B/7/d/a5dba1/MH-boxes-remade%2B.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+repack: true
+deleted: false
+gametype: "Monster Hunt"
+title: "Boxes-Remade"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Industrial: 0.9
+bots: true
