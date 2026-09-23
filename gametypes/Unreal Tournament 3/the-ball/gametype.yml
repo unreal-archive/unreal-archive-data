@@ -100,13 +100,17 @@ releases:
 - title: "Part 1 - Pehua"
   version: "1.0"
   releaseDate: "2008-06-25"
-  description: "The first public release and the Make Something Unreal Contest Phase 1 entry."
+  description: "The first public release and the Make Something Unreal Contest Phase\
+    \ 1 entry."
   files:
   - title: "Zip Package"
     localFile: "/var/tmp/ball/theball_v1.zip"
     platform: "ANY"
     downloads:
     - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/the-ball/theball_v1.zip"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/the-ball/theball_v1.zip"
       direct: true
       state: "OK"
     originalFilename: "theball_v1.zip"
@@ -139,7 +143,8 @@ releases:
 - title: "Cahua"
   version: "Final Mod Version"
   releaseDate: "2009-11-11"
-  description: "The Grand Finals submission for the Make Something Unreal Contest and the final mod release."
+  description: "The Grand Finals submission for the Make Something Unreal Contest\
+    \ and the final mod release."
   files:
   - title: "Windows Installer"
     localFile: "/var/tmp/ball/TheBall-Cahua.exe"
@@ -149,6 +154,9 @@ releases:
       direct: false
       state: "OK"
     - url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/the-ball/TheBall-Cahua.exe"
+      direct: true
+      state: "OK"
+    - url: "https://unreal-archive-files-na.s3.ca-east-tor.io.cloud.ovh.net/gametypes/Unreal%20Tournament%203/the-ball/TheBall-Cahua.exe"
       direct: true
       state: "OK"
     originalFilename: "TheBall-Cahua.exe"
