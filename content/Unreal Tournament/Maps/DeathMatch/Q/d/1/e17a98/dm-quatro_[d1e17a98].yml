@@ -1,0 +1,51 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-09-29 07:06"
+variationOf: "49a3e3b65cd2efb06252c6456705b054a51010f0"
+game: "Unreal Tournament"
+name: "DM-Quatro"
+author: "Firefly"
+description: "None"
+releaseDate: "2001-06"
+attachments:
+- type: "IMAGE"
+  name: "dm-quatro_shot_d1e17a98_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/Q/d/1/e17a98/dm-quatro_shot_d1e17a98_1.png"
+originalFilename: "dm-quatro.zip"
+hash: "d1e17a98ce4612053072bde5c7b166ccfee7c3c7"
+fileSize: 5672427
+files:
+- name: "DM-Quatro.unr"
+  fileSize: 2444575
+  hash: "e35fbfcf2ea905b54dd955672003a7fe5850a0c2"
+- name: "Quatrodt.utx"
+  fileSize: 17894
+  hash: "d5d7a38b8330bf4812427d1cffb5560ac6f241f8"
+- name: "Fifth.umx"
+  fileSize: 873775
+  hash: "9859d7e9754d799f0fd6d06cbe6f3fe79188273d"
+- name: "SGTech1.utx"
+  fileSize: 7953567
+  hash: "ec01e4c9011a8cb2d08ebd12d255373f83d98fc1"
+otherFiles: 1
+dependencies:
+  DM-Quatro.unr:
+  - status: "OK"
+    name: "Quatrodt"
+  - status: "OK"
+    name: "SGTech1"
+  - status: "OK"
+    name: "Fifth"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/Q/d/1/e17a98/dm-quatro.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "DM-Quatro"
+playerCount: "2 - 4"
+themes:
+  Tech: 1.0
+bots: true
