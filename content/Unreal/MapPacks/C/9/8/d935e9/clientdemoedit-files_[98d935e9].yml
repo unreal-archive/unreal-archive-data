@@ -1,0 +1,139 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-10-02 04:02"
+game: "Unreal"
+name: "ClientDemoEdit Files"
+author: "ProblemSolva"
+description: "None"
+releaseDate: "2014-07"
+attachments: []
+originalFilename: "ClientDemoEdit_Files.zip"
+hash: "98d935e9eb8db4f78e588d3700cc90b44b4abc39"
+fileSize: 2900486
+files:
+- name: "TrainingRange.unr"
+  fileSize: 1206818
+  hash: "6f8178aa86558087c99e05b3729f08d346a9ba7c"
+- name: "WWIntro.unr"
+  fileSize: 204982
+  hash: "5f7ee9b76ba0794a3ab6439b3fe4e1923990e39e"
+- name: "WWM_End1.unr"
+  fileSize: 236414
+  hash: "ebf8089ea38b3c9bb4170b5bc09a954b20b64c46"
+- name: "WWM_Eps2.unr"
+  fileSize: 199442
+  hash: "e70aefa5055ac8ce1b18800c686f56c900b506aa"
+- name: "WWM_Eps3.unr"
+  fileSize: 199468
+  hash: "ed551ac62652f50a693fa1910dd0bac3589cab40"
+- name: "WildMine.unr"
+  fileSize: 479269
+  hash: "23590067f70abdf5bef81cc9c060b6c855dda071"
+- name: "SandDeco.u"
+  fileSize: 289914
+  hash: "6a34c8d2a61bd2f680d632f11bf073ffd4f1980a"
+- name: "WildWestMain.u"
+  fileSize: 38421
+  hash: "fbd891258c92d31929aa751305460fe4479c4b50"
+- name: "WildWestMenu.u"
+  fileSize: 907641
+  hash: "df9253c654f67f3e0850c19e6b7ef53f7fc5f24b"
+- name: "WildWestMod.u"
+  fileSize: 228805
+  hash: "c89091c00abb76e7e206cdfa712f3dedd9cc0d0e"
+- name: "SandTex.utx"
+  fileSize: 266362
+  hash: "06cb8411798ec0d22080f9975588389fd517466b"
+- name: "WildMines.utx"
+  fileSize: 532384
+  hash: "49edd524311bf518240684e2e77804bb7fcaefad"
+- name: "WildWSky.utx"
+  fileSize: 23462
+  hash: "7f3771685201d6f7391395a8a17a2a6c3163e443"
+- name: "WildWWood.utx"
+  fileSize: 1356027
+  hash: "52fe9be3c81d46d6339961d7197ac3832ae668c2"
+- name: "WildWestObj.utx"
+  fileSize: 222674
+  hash: "0b94cfe7fac7a1e119ba372ac8eed3c23ce78822"
+otherFiles: 4
+dependencies:
+  WWM_End1.unr:
+  - status: "OK"
+    name: "WildMines"
+  - status: "OK"
+    name: "SandTex"
+  - status: "OK"
+    name: "WildWSky"
+  - status: "OK"
+    name: "WildWWood"
+  WWM_Eps2.unr:
+  - status: "OK"
+    name: "SandTex"
+  - status: "OK"
+    name: "WildWWood"
+  TrainingRange.unr:
+  - status: "OK"
+    name: "SandDeco"
+  - status: "OK"
+    name: "WildWestMod"
+  - status: "OK"
+    name: "SandTex"
+  - status: "OK"
+    name: "WildWSky"
+  - status: "OK"
+    name: "WildWWood"
+  WWIntro.unr:
+  - status: "OK"
+    name: "WildWestMod"
+  - status: "OK"
+    name: "SandTex"
+  - status: "OK"
+    name: "WildWWood"
+  WildWestMain.u:
+  - status: "OK"
+    name: "WildWestMod"
+  WWM_Eps3.unr:
+  - status: "OK"
+    name: "SandTex"
+  - status: "OK"
+    name: "WildWWood"
+  WildMine.unr:
+  - status: "OK"
+    name: "SandDeco"
+  - status: "OK"
+    name: "WildMines"
+  - status: "OK"
+    name: "SandTex"
+  - status: "OK"
+    name: "WildWSky"
+  - status: "OK"
+    name: "WildWWood"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/MapPacks/C/9/8/d935e9/ClientDemoEdit_Files.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "TrainingRange"
+  title: "Training Area"
+  author: "ProblemSolva"
+- name: "WWIntro"
+  title: "Wild West Mod Intro"
+  author: "ProblemSolva"
+- name: "WWM_End1"
+  title: "End of Episode 1?"
+  author: "ProblemSolva"
+- name: "WWM_Eps2"
+  title: "Episode 2: Coming Soon?"
+  author: "ProblemSolva"
+- name: "WWM_Eps3"
+  title: "Episode 3: Coming Soon?"
+  author: "ProblemSolva"
+- name: "WildMine"
+  title: "Wild Mines"
+  author: "ProblemSolva"
+gametype: "Unknown"
+themes: {}
