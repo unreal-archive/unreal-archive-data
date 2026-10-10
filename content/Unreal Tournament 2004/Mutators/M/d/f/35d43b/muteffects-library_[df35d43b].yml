@@ -1,0 +1,60 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-07 13:01"
+game: "Unreal Tournament 2004"
+name: "MutEffects Library"
+author: "Mark Caldwell"
+description: "Version 1.0|Library of configurable effects.||Mark Caldwell aka {FS}W@rHe@d\
+  \ - Author and Programmer.|Thanks to {TR}Relic & $C-Apocalypse for graphics help."
+releaseDate: "2007-10"
+attachments: []
+originalFilename: "muteffects.zip"
+hash: "df35d43bae2daa38ff0b6f2e2bd32e41a733f1ca"
+fileSize: 1608653
+files:
+- name: "MutEffectsSounds.uax"
+  fileSize: 21722
+  hash: "1fdf8cea79756e76cf16d3178c1c63c48f9a53ed"
+- name: "MutEffectsMeshes.usx"
+  fileSize: 1068708
+  hash: "f849602ebcefb89c85e61ce362e8f6b114006c18"
+- name: "MutEffects.u"
+  fileSize: 429101
+  hash: "5a85ee8aa7346f0ccafbb15fb411bb284bad074e"
+- name: "MutEffectsTextures.utx"
+  fileSize: 2953863
+  hash: "587b35916396e1ee4f14c75ecfddd62dd606ddac"
+otherFiles: 2
+dependencies:
+  MutEffectsMeshes.usx:
+  - status: "OK"
+    name: "MutEffectsTextures"
+  MutEffects.u:
+  - status: "OK"
+    name: "MutEffectsMeshes"
+  - status: "OK"
+    name: "MutEffectsSounds"
+  - status: "OK"
+    name: "MutEffectsTextures"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/M/d/f/35d43b/muteffects.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+repack: false
+deleted: false
+mutators:
+- name: "MutEffects Library"
+  description: "Version 1.0|Library of configurable effects.||Mark Caldwell aka {FS}W@rHe@d\
+    \ - Author and Programmer.|Thanks to {TR}Relic & $C-Apocalypse for graphics help."
+weapons:
+- name: "Fire Ball"
+  description: "Fire Ball"
+- name: "Giant Fire Ball"
+  description: "Giant Fire Ball"
+- name: "WeaponLib"
+  description: "WeaponLib"
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
