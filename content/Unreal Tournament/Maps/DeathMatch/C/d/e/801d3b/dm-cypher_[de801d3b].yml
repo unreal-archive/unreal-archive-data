@@ -1,0 +1,50 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-10-05 17:28"
+game: "Unreal Tournament"
+name: "DM-Cypher"
+author: "mimic"
+description: "Buckle your seat belt, Dorothy. Because Kansas is going bye-bye."
+releaseDate: "2026-10"
+attachments:
+- type: "IMAGE"
+  name: "dm-cypher_shot_de801d3b_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/C/d/e/801d3b/dm-cypher_shot_de801d3b_1.png"
+originalFilename: "DM-Cypher.1.zip"
+hash: "de801d3b2a2e5bce57c831907251f70303c11696"
+fileSize: 26682801
+files:
+- name: "DM-Cypher.unr"
+  fileSize: 18348007
+  hash: "9cd62343fbb4e9e70d9bf7d0c893e0ec22b26c2e"
+- name: "mimic_cyphersnd.uax"
+  fileSize: 2035794
+  hash: "e57d45c3bfa7568309547735d6f3fac93613c988"
+- name: "mimic_cypher.utx"
+  fileSize: 59026231
+  hash: "6b80973770a0a15241856080d657c17b0d1eb5c1"
+otherFiles: 0
+dependencies:
+  DM-Cypher.unr:
+  - status: "OK"
+    name: "mimic_cyphersnd"
+  - status: "MISSING"
+    name: "Factory"
+  - status: "OK"
+    name: "mimic_cypher"
+  - status: "MISSING"
+    name: "SGTech1"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/DeathMatch/C/d/e/801d3b/DM-Cypher.1.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "DeathMatch"
+title: "Cypher"
+playerCount: "4-8"
+themes:
+  Tech: 0.4
+  Industrial: 0.6
+bots: true
