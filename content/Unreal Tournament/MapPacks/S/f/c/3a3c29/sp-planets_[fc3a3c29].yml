@@ -1,0 +1,69 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-07-11 21:26"
+game: "Unreal Tournament"
+name: "SP Planets"
+author: "Various"
+description: "None"
+releaseDate: "2002-02"
+attachments:
+- type: "IMAGE"
+  name: "sp-planets_shot_fc3a3c29_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/S/f/c/3a3c29/sp-planets_shot_fc3a3c29_1.png"
+originalFilename: "SP-Planets.zip"
+hash: "fc3a3c2927f6f8b38c966921824b265cf61939ec"
+fileSize: 1777735
+files:
+- name: "Planet1b.unr"
+  fileSize: 965460
+  hash: "97d5f901e260dc09e409ba0d3ab9bdbdda3e2990"
+- name: "Planets_Sounds.uax"
+  fileSize: 850256
+  hash: "61b33ac017489011243b890a8dc3da1f9017650d"
+- name: "Planet1c.unr"
+  fileSize: 1348199
+  hash: "566cd67e95710a72b1938d2c68a4274d0bbe03df"
+- name: "Planet1a.unr"
+  fileSize: 1530979
+  hash: "3a37471d7fc922156e6239c86d44ed1a443c3ff6"
+otherFiles: 3
+dependencies:
+  Planet1b.unr:
+  - status: "MISSING"
+    name: "Seti"
+  - status: "MISSING"
+    name: "Crater"
+  - status: "OK"
+    name: "Planets_Sounds"
+  Planet1a.unr:
+  - status: "MISSING"
+    name: "Crater"
+  - status: "MISSING"
+    name: "Dusk"
+  Planet1c.unr:
+  - status: "MISSING"
+    name: "UTemple"
+  - status: "MISSING"
+    name: "Hub2"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/MapPacks/S/f/c/3a3c29/SP-Planets.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "Planet1b"
+  title: "Das Tal der Wassergötter"
+  author: "Skaarj.Lord"
+- name: "Planet1c"
+  title: "Der Wassertempel"
+  author: "Skaarj.Lord"
+- name: "Planet1a"
+  title: "Zu Besuch auf Na Pali"
+  author: "Philipp B."
+gametype: "Single Player"
+themes:
+  Nali Temple: 0.6
+  Natural: 0.2
+  Skaarj Tech: 0.1
