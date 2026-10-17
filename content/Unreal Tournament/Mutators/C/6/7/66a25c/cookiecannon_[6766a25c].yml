@@ -1,0 +1,36 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-25 19:56"
+game: "Unreal Tournament"
+name: "CookieCannon"
+author: "Cookies"
+description: "None"
+releaseDate: "2005-09"
+attachments: []
+originalFilename: "CookieCannon.7z"
+hash: "6766a25cedc124f6127e02fe962bccc70dac383b"
+fileSize: 15352
+files:
+- name: "CookieWeps.u"
+  fileSize: 9028
+  hash: "2c408bb4e1605c7b20d9c73b01e1f992381eb653"
+- name: "CookieWepsTex.utx"
+  fileSize: 23427
+  hash: "5ce85a75fbd653f2b950d84bb18fd7654bbd9106"
+otherFiles: 1
+dependencies:
+  CookieWeps.u:
+  - status: "OK"
+    name: "CookieWepsTex"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/C/6/7/66a25c/CookieCannon.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
