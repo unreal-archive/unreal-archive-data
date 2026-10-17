@@ -1,0 +1,69 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-11-22 10:00"
+game: "Unreal Tournament"
+name: "MH-Sky_Isles+SBMod2"
+author: "DeluxScan (steve_irwin@ofir.dk)/Modifications by Barbie"
+description: "None"
+releaseDate: "2026-11"
+attachments:
+- type: "IMAGE"
+  name: "mh-sky_islessbmod2_shot_1e8048bb_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/S/1/e/8048bb/mh-sky_islessbmod2_shot_1e8048bb_1.png"
+- type: "IMAGE"
+  name: "mh-sky_islessbmod2_shot_1e8048bb_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/S/1/e/8048bb/mh-sky_islessbmod2_shot_1e8048bb_2.png"
+originalFilename: "MH-Sky_Isles+SBMod2.7z"
+hash: "1e8048bb3e08c78e60b5b08802b4892e40a0fa37"
+fileSize: 5086220
+files:
+- name: "MH-Sky_Isles+SBMod2.unr"
+  fileSize: 3152161
+  hash: "56fb1502fa19b23e0ad617f2fb3eb4c08f892a4a"
+- name: "Surface.umx"
+  fileSize: 694494
+  hash: "c09f0878fba20561f523e9b75da586c32a5c467c"
+- name: "Deadsounds.uax"
+  fileSize: 535026
+  hash: "03e7864c2a9a45395aac76ed7bb2cef945b8aa43"
+- name: "HauntedCreatures.u"
+  fileSize: 565379
+  hash: "3173950f2af3637af7b76ec7c8ade46543ccb9c8"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "UTMHpack.u"
+  fileSize: 4498715
+  hash: "be3c69a56f792c235ee41e65707af38a4a8b4ed2"
+- name: "DawnT.utx"
+  fileSize: 441605
+  hash: "8ba9e70733a597953941d7e277ca4680e999eeff"
+otherFiles: 2
+dependencies:
+  HauntedCreatures.u:
+  - status: "OK"
+    name: "Deadsounds"
+  - status: "OK"
+    name: "DawnT"
+  MH-Sky_Isles+SBMod2.unr:
+  - status: "OK"
+    name: "UTMHpack"
+  - status: "OK"
+    name: "Surface"
+  - status: "OK"
+    name: "HauntedCreatures"
+  - status: "OK"
+    name: "MonsterHunt"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/S/1/e/8048bb/MH-Sky_Isles%2BSBMod2.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "Sky Isles"
+playerCount: "1-6"
+themes:
+  Nali Castle: 0.9
+bots: true
