@@ -1,0 +1,45 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-18 09:57"
+game: "Unreal Tournament 2004"
+name: "LDGRace SoloFix (FRV+StandIn)"
+author: "Unknown"
+description: "None"
+releaseDate: "2026-10"
+attachments: []
+originalFilename: "LDGRace SoloFix (FRV+StandIn).zip"
+hash: "bd4a8ac56a48c8b3fb13209449b87101cd7ac7b3"
+fileSize: 31951
+files:
+- name: "FixRaceVehicles.u"
+  fileSize: 42152
+  hash: "059cf5ed6a25a3198afcc1929c6030a4c0a4985f"
+- name: "StandIn.u"
+  fileSize: 51766
+  hash: "4e062dcfd886680ad4ca3037eb47006d606f81c5"
+otherFiles: 3
+dependencies: {}
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Mutators/L/b/d/4a8ac5/LDGRace%20SoloFix%20(FRV%2BStandIn).zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Fix Race Vehicles"
+  description: "Spawns and maintains vehicles on RACE maps in offline play, and lets\
+    \ you pick the Scorpion-type vehicle from the vehicle mods installed on your system."
+- name: "StandIn Decoy Launcher"
+  description: "Equips players with the StandIn Gun: primary fire launches a marker\
+    \ that materializes a stationary decoy pawn capable of holding triggers and pressure\
+    \ plates open (ideal for solo play on Assault race maps). Secondary fire recalls\
+    \ decoys. Console: mutate standhere / standclear."
+weapons:
+- name: "StandIn Gun"
+  description: "Launches a marker puck that materializes a stationary decoy pawn to\
+    \ hold triggers and pressure plates open. Secondary fire dematerializes the aimed\
+    \ decoy (or recalls the last one; double-click clears all)."
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
