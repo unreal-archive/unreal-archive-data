@@ -1,0 +1,99 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-11-26 17:38"
+game: "Unreal Tournament 2004"
+name: "R-track06"
+author: "Unknown"
+description: "None"
+releaseDate: "2006-07"
+attachments:
+- type: "IMAGE"
+  name: "r-track06_shot_892cd218_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Unknown/R/8/9/2cd218/r-track06_shot_892cd218_1.png"
+originalFilename: "R.rar"
+hash: "892cd218248f04fd95eb8512b319cf5be3629ea0"
+fileSize: 25288095
+files:
+- name: "RcRV.ukx"
+  fileSize: 22620106
+  hash: "12aadb693953b04f10b239c3b4bbf5ab37b9d749"
+- name: "R-track06.ut2"
+  fileSize: 10300644
+  hash: "0552abaabb20259634992424b78593d453f77819"
+- name: "Car_Engine.uax"
+  fileSize: 213251
+  hash: "88e2ed229c655cc08863bcf83dce96fefab8c49c"
+- name: "RcBall.usx"
+  fileSize: 141965
+  hash: "2892648b9bc2cb3b471140e236c6cc79f684655d"
+- name: "RcStatic.usx"
+  fileSize: 14181868
+  hash: "eaed85ddb5d3339da742bded0583ffbf4de70253"
+- name: "R.u"
+  fileSize: 103728
+  hash: "d8e6a1be6eb6b0f364b2ea3ee8e9de597f260a1e"
+- name: "ExampleDoom.utx"
+  fileSize: 12234493
+  hash: "fcb002b899e323d95eb0aae89fd0a2bb14c7910f"
+- name: "Lupow_Skins.utx"
+  fileSize: 2797234
+  hash: "e5ec1c9ab70a27da206cf42d66b0e00a1e1d28a2"
+- name: "RGuiTextures.utx"
+  fileSize: 6991408
+  hash: "bc17a6c7f462a0de593ac867b0c3cf4cf061670f"
+- name: "RcMapTextures.utx"
+  fileSize: 17001965
+  hash: "039baa59f618b4a11f7f5b2d85629cb141975e1c"
+- name: "RcRoadTex.utx"
+  fileSize: 699929
+  hash: "5cd94767f30b66893035e1c7f52ec504df9167ec"
+- name: "RcTextures.utx"
+  fileSize: 71732850
+  hash: "120e8ac95bc20ef4e63b2d351174a2da79f84265"
+- name: "UnWheelTex.utx"
+  fileSize: 7455728
+  hash: "dbbab0151dc170889c378d07af2b9ab116edad14"
+otherFiles: 9
+dependencies:
+  RcRV.ukx:
+  - status: "OK"
+    name: "RcStatic"
+  - status: "OK"
+    name: "RcTextures"
+  R-track06.ut2:
+  - status: "OK"
+    name: "R"
+  R.u:
+  - status: "OK"
+    name: "RcStatic"
+  - status: "OK"
+    name: "RGuiTextures"
+  - status: "OK"
+    name: "RcBall"
+  - status: "OK"
+    name: "RcRV"
+  - status: "OK"
+    name: "Car_Engine"
+  - status: "OK"
+    name: "RcTextures"
+  RcTextures.utx:
+  - status: "OK"
+    name: "UnWheelTex"
+  RcStatic.usx:
+  - status: "OK"
+    name: "RcMapTextures"
+  - status: "OK"
+    name: "RcTextures"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Unknown/R/8/9/2cd218/R.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "R-track06"
+playerCount: "Unknown"
+themes:
+  Industrial: 1.0
+bots: false
