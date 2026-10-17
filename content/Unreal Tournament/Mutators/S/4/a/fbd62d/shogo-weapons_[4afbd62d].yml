@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-11-10 18:30"
+game: "Unreal Tournament"
+name: "Shogo: Weapons"
+author: "Danoid"
+description: "Choose human/mech weapons and starting loadout in Mod > Shogo weapon\
+  \ settings."
+releaseDate: "2026-11"
+attachments:
+- type: "IMAGE"
+  name: "shogo-weapons_shot_4afbd62d_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Mutators/S/4/a/fbd62d/shogo-weapons_shot_4afbd62d_1.png"
+originalFilename: "ShogoArsenal-v0.19-Danoid.zip"
+hash: "4afbd62d5ddd71c099b0ef75a7f2cbcda55d4a51"
+fileSize: 28148269
+files:
+- name: "ShogoFoot.u"
+  fileSize: 22048106
+  hash: "7acf7a5295e5071feb20276bac2dbb9eb800f338"
+- name: "ShogoMech.u"
+  fileSize: 19435157
+  hash: "c310896c14cdf47e017f0d53b6d1368ba0d60fa3"
+otherFiles: 17
+dependencies:
+  ShogoMech.u:
+  - status: "OK"
+    name: "ShogoFoot"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/S/4/a/fbd62d/ShogoArsenal-v0.19-Danoid.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Shogo: Weapons"
+  description: "Choose human/mech weapons and starting loadout in Mod > Shogo weapon\
+    \ settings."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
