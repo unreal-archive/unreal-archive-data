@@ -1,0 +1,136 @@
+--- !<MAP_PACK>
+contentType: "MAP_PACK"
+firstIndex: "2026-11-10 04:15"
+game: "Unreal"
+name: "The+hole+standalone"
+author: "ebd"
+description: "None"
+releaseDate: "2025-12"
+attachments:
+- type: "IMAGE"
+  name: "theholestandalone_shot_024a7eb0_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal/MapPacks/T/0/2/4a7eb0/theholestandalone_shot_024a7eb0_1.png"
+originalFilename: "the+hole+standalone.7z"
+hash: "024a7eb0812f77b4cb5ca985cd31cad0fd062b80"
+fileSize: 10385042
+files:
+- name: "Castle1.utx"
+  fileSize: 4533635
+  hash: "4290e57d2b029dba45fbba6a127f08e55b1f49b0"
+- name: "RatThird.umx"
+  fileSize: 314401
+  hash: "f13e4b01578c5e8b09c63ce517678b83773e4a44"
+- name: "RatThree.umx"
+  fileSize: 283906
+  hash: "17833490d2b56e19bde76c83ef229d5a2914a0a4"
+- name: "RatTriple.umx"
+  fileSize: 807552
+  hash: "c0a9510a457978b1c1b43a66dc337eb77c701ec6"
+- name: "TheHole.unr"
+  fileSize: 3077654
+  hash: "cb79dc8710c72b4908247c14eb90d7a4ffb416c0"
+- name: "TheHolePt2.unr"
+  fileSize: 2109855
+  hash: "6feb2fffc12497d1ae489db010dc8cf3dcf3d4de"
+- name: "brick.u"
+  fileSize: 725416
+  hash: "848e6e67df2738aee1709b275845a6bd512cf804"
+- name: "cave.usm"
+  fileSize: 80966
+  hash: "ae7d0b3f265e78c60a10dfa1755e928af6c21398"
+- name: "feet.u"
+  fileSize: 15145
+  hash: "f3abb49dfa3d6c08d8653f2c8c5616cf87b7e0cf"
+- name: "firetrucks.u"
+  fileSize: 3826463
+  hash: "d5248d1beba7997c9d32374a45d6cb0aa9bcafaa"
+- name: "kvstore.u"
+  fileSize: 91805
+  hash: "4933dbc715235a8240e3dadf850d52a65a57b6a9"
+- name: "ponl-teaser.unr"
+  fileSize: 3203869
+  hash: "b693b74d41733f6fb9b1947c5a026e67d8e1de5a"
+- name: "trashbag.u"
+  fileSize: 3040633
+  hash: "16c607b4fad4aa7bd1093cce87078e57b9024dca"
+- name: "true+supersquare.umx"
+  fileSize: 921860
+  hash: "c8c4b424e7588ab0155128b58f7a8e871e1c819f"
+- name: "wallwh.usm"
+  fileSize: 650165
+  hash: "2975bf0f710abb8d2330c2417a88eaa6c1800fda"
+otherFiles: 3
+dependencies:
+  TheHole.unr:
+  - status: "OK"
+    name: "wallwh"
+  - status: "OK"
+    name: "feet"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "RatThree"
+  - status: "OK"
+    name: "trashbag"
+  - status: "OK"
+    name: "brick"
+  - status: "OK"
+    name: "RatTriple"
+  - status: "MISSING"
+    name: "Footsteps"
+  - status: "OK"
+    name: "firetrucks"
+  TheHolePt2.unr:
+  - status: "OK"
+    name: "wallwh"
+  - status: "OK"
+    name: "feet"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "trashbag"
+  - status: "OK"
+    name: "brick"
+  - status: "OK"
+    name: "true+supersquare"
+  - status: "OK"
+    name: "cave"
+  - status: "MISSING"
+    name: "Footsteps"
+  - status: "OK"
+    name: "firetrucks"
+  - status: "OK"
+    name: "kvstore"
+  - status: "OK"
+    name: "RatThird"
+  ponl-teaser.unr:
+  - status: "OK"
+    name: "feet"
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "OK"
+    name: "firetrucks"
+  trashbag.u:
+  - status: "OK"
+    name: "firetrucks"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/MapPacks/T/0/2/4a7eb0/the%2Bhole%2Bstandalone.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+maps:
+- name: "TheHole"
+  title: "The Hole"
+  author: "ebd"
+- name: "TheHolePt2"
+  title: "The Whole Hole"
+  author: "ebd"
+- name: "ponl-teaser"
+  title: "Teaser"
+  author: "Team PONL"
+gametype: "Unknown"
+themes:
+  Natural: 0.4
+  Nali Castle: 0.6
