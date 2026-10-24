@@ -1,0 +1,47 @@
+--- !<MODEL>
+contentType: "MODEL"
+firstIndex: "2026-10-13 02:12"
+game: "Unreal"
+name: "Rabb"
+author: "Hybrid"
+description: "None"
+releaseDate: "2003-04"
+attachments: []
+originalFilename: "Headshot-Mod.zip"
+hash: "71009b7091b4d0f49e1ee90d93cfe27c43976fbb"
+fileSize: 94119
+files:
+- name: "HS.u"
+  fileSize: 112210
+  hash: "a71a165bfe0b06507b448d5ae0fe299e19a46beb"
+- name: "HibWeapontex.utx"
+  fileSize: 92531
+  hash: "d91e11a3c290b9e6427faee60e2a7ae1d04691bd"
+- name: "HsTxtr.utx"
+  fileSize: 79632
+  hash: "077b04fe7e2fa1b80b045ed0205da8e3dfcbdda8"
+- name: "teleportgun.u"
+  fileSize: 12392
+  hash: "338329ffb859e2e083ceef05bffcc999fce764c1"
+otherFiles: 2
+dependencies:
+  HS.u:
+  - status: "MISSING"
+    name: "Male4SkinsSZ"
+  - status: "OK"
+    name: "HsTxtr"
+  - status: "OK"
+    name: "teleportgun"
+  HsTxtr.utx:
+  - status: "OK"
+    name: "teleportgun"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/Models/R/7/1/009b70/Headshot-Mod.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+models:
+- "Rabb"
+skins: []
