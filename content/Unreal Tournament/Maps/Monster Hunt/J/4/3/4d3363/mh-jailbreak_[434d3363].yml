@@ -1,0 +1,152 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-10-24 10:57"
+game: "Unreal Tournament"
+name: "MH-Jailbreak"
+author: "The Chief7"
+description: "None"
+releaseDate: "2018-09"
+attachments: []
+originalFilename: "MH-Jailbreak.7z"
+hash: "434d33633ff03a610934f0a0df25efdf8fee7c4b"
+fileSize: 10247506
+files:
+- name: "MH-Jailbreak.unr"
+  fileSize: 4868191
+  hash: "52e5b18302e563eb50c2953ae9947e2bf9b180f5"
+- name: "Newmca7.umx"
+  fileSize: 885832
+  hash: "d4244fe3a44a45eada64665a5852c6006406d8ea"
+- name: "Brutes2.u"
+  fileSize: 1209758
+  hash: "f6e95da5f6e9d48c771d68f935fe9021bd6a72e9"
+- name: "EnhancedItems.u"
+  fileSize: 305359
+  hash: "dad9fe2180af64bd903a3b1747b6955dad0c1ed2"
+- name: "HealingGunBeta.u"
+  fileSize: 845922
+  hash: "64142c7701c1b9c349df917317427d820f819d15"
+- name: "MOZBioRifleV2.u"
+  fileSize: 512211
+  hash: "2e719d3567b67a41a5299d8f7e0e0be126b12cd2"
+- name: "MonsterHunt.u"
+  fileSize: 1251524
+  hash: "a57b4fad4d2633c8c814287f88cd37b60c56f476"
+- name: "Poulders.u"
+  fileSize: 4242
+  hash: "26836bb55fa65377ba7ab0209efe00220fc1a4d8"
+- name: "Pupae.u"
+  fileSize: 26183
+  hash: "c0acc2404f91e483dbf5693d90662ef25f83ba57"
+- name: "Redeemer2k3.u"
+  fileSize: 986634
+  hash: "217ea5f9baeb888106421288f33a3fae92718dce"
+- name: "SevenB.u"
+  fileSize: 8323248
+  hash: "2891ac85ff981b3826b7df84ebdf81944d075a50"
+- name: "Titans.u"
+  fileSize: 5190
+  hash: "18d2f367cbd0ed15543e507784a120a94f22698b"
+- name: "Warlord_Ciudad.u"
+  fileSize: 1066
+  hash: "8e2a8385a67a1bf3a83a8789a2bab4989513ff79"
+- name: "Wooper.u"
+  fileSize: 9264
+  hash: "8e6d58ed821aae4a5e6b6cad90efbcbfc7e0ef3a"
+- name: "celd.u"
+  fileSize: 281275
+  hash: "2e6bfa7d67f37c968a3605a5eea63b6c6f6a8caf"
+- name: "epiccustommodels.u"
+  fileSize: 2337681
+  hash: "f2504cbff5249573eff8ad32b1816949d983c803"
+- name: "oldskool.u"
+  fileSize: 1422642
+  hash: "20d3dd184fbe60293c6c1975bb316c490fdfece5"
+- name: "olroot.u"
+  fileSize: 157563
+  hash: "2e35b9d8435353ae56447e5ff06dc64c77db1420"
+- name: "olweapons.u"
+  fileSize: 1294937
+  hash: "01fcc673ae899950a9be65db7a9109738900a800"
+- name: "skaarjtowerclassesH.u"
+  fileSize: 2656
+  hash: "bd7a4a0052519298756ec879a82b809b40bd44e2"
+- name: "CeldTex.utx"
+  fileSize: 25025
+  hash: "562fad001b5309568ef27642747f8bc2c7d5d9d8"
+- name: "SkaarjTowerSkin.utx"
+  fileSize: 177701
+  hash: "83432c087538deb19c326022c8a9094ce7fabf61"
+otherFiles: 0
+dependencies:
+  celd.u:
+  - status: "OK"
+    name: "CeldTex"
+  Titans.u:
+  - status: "OK"
+    name: "Poulders"
+  Redeemer2k3.u:
+  - status: "OK"
+    name: "EnhancedItems"
+  Brutes2.u:
+  - status: "OK"
+    name: "oldskool"
+  - status: "OK"
+    name: "MOZBioRifleV2"
+  - status: "OK"
+    name: "Celd"
+  - status: "OK"
+    name: "Redeemer2k3"
+  - status: "OK"
+    name: "HealingGunBeta"
+  - status: "OK"
+    name: "SevenB"
+  MH-Jailbreak.unr:
+  - status: "OK"
+    name: "wooper"
+  - status: "OK"
+    name: "Pupae"
+  - status: "OK"
+    name: "Titans"
+  - status: "OK"
+    name: "Warlord_Ciudad"
+  - status: "OK"
+    name: "Brutes2"
+  - status: "OK"
+    name: "skaarjtowerclassesH"
+  - status: "OK"
+    name: "MonsterHunt"
+  - status: "OK"
+    name: "Newmca7"
+  SevenB.u:
+  - status: "OK"
+    name: "oldskool"
+  - status: "MISSING"
+    name: "SkeletalChars"
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  oldskool.u:
+  - status: "OK"
+    name: "olroot"
+  - status: "OK"
+    name: "olweapons"
+  skaarjtowerclassesH.u:
+  - status: "OK"
+    name: "SkaarjTowerSkin"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Monster%20Hunt/J/4/3/4d3363/MH-Jailbreak.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Monster Hunt"
+title: "MH-Jailbreak"
+playerCount: "2-6"
+themes:
+  Nali Temple: 0.1
+  Natural: 0.7
+  Nali Castle: 0.2
+bots: true
