@@ -1,0 +1,51 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-23 14:05"
+game: "Unreal Tournament"
+name: "SoPTaters Weaponry"
+author: "-=SoP=-Tater"
+description: "None"
+releaseDate: "2026-10"
+attachments: []
+originalFilename: "SoPTaters Weaponry.rar"
+hash: "c72dd5c122a41d6c083e50c1291f62390385ef6d"
+fileSize: 14674277
+files:
+- name: "SoP_Battle_Rifle.u"
+  fileSize: 37750029
+  hash: "60a4a30706d7052ace7d7a599b506f6f495532e4"
+- name: "SoP_MasterChiefBoltv2.u"
+  fileSize: 5299752
+  hash: "7c43eb68bfa0ae2cb2280ec3bd6253a59f43a9f2"
+- name: "SoP_SniperRifle.u"
+  fileSize: 4742852
+  hash: "11e023c59522163d6aabaae88982fc27c18be525"
+otherFiles: 4
+dependencies:
+  SoP_SniperRifle.u:
+  - status: "OK"
+    name: "SoP_MasterChiefBoltv2"
+  SoP_Battle_Rifle.u:
+  - status: "OK"
+    name: "SoP_MasterChiefBoltv2"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/S/c/7/2dd5c1/SoPTaters%20Weaponry.rar"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+repack: false
+deleted: false
+mutators:
+- name: "SoP Battle Rifle Arena"
+  description: ""
+- name: "SoP Master Chief Bolt Arenav2"
+  description: ""
+- name: "-=SoP=- Sniper Rifle Arena"
+  description: ""
+weapons:
+- name: "-=SoP=- Sniper Rifle"
+  description: ""
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
