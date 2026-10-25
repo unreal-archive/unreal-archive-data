@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-25 20:21"
+game: "Unreal Tournament"
+name: "Dspcc5b"
+author: "Hyper"
+description: "None"
+releaseDate: "1999-10"
+attachments: []
+originalFilename: "dspcc5b.7z"
+hash: "4c3059f9e5317c92b9a086a90aab5e15de07e3fa"
+fileSize: 212843
+files:
+- name: "R5.u"
+  fileSize: 385728
+  hash: "2e92efdce1789903914e1ddc57111077f5122ba6"
+- name: "R5Sounds.uax"
+  fileSize: 212980
+  hash: "9639f2a4eec3eaff5e9e90e51ea53519204696c8"
+- name: "R5tex.utx"
+  fileSize: 154040
+  hash: "f80876559bac428f47381c8624a75d376d7ae818"
+otherFiles: 1
+dependencies:
+  R5.u:
+  - status: "OK"
+    name: "R5Sounds"
+  - status: "OK"
+    name: "R5tex"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/D/4/c/3059f9/dspcc5b.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
