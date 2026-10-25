@@ -1,0 +1,44 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-10-25 20:55"
+variationOf: "b48e43916edad0dd9316adb9b64ecb01fb164459"
+game: "Unreal Tournament"
+name: "firetrucks_example"
+author: "ebd"
+description: "Welcome home!"
+releaseDate: "2013-05"
+attachments: []
+originalFilename: "firetrucks_1_0_0.zip"
+hash: "610910022a385efd6f11ef1c137c8ffb90f86d08"
+fileSize: 2254351
+files:
+- name: "firetrucks.u"
+  fileSize: 3260707
+  hash: "f00b783f56be19a1fefd529c91defce284d67c52"
+- name: "firetrucks_example.unr"
+  fileSize: 2633555
+  hash: "e7e41b6cc2d7eff7ce6309ed01dea08ebccc15ed"
+otherFiles: 1
+dependencies:
+  firetrucks_example.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "Crater"
+  - status: "OK"
+    name: "firetrucks"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Unknown/F/6/1/091002/firetrucks_1_0_0.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "Brown Submarine"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.3
+  Ancient: 0.7
+bots: false
