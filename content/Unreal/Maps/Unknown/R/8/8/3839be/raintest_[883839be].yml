@@ -1,0 +1,45 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-10-13 01:55"
+game: "Unreal"
+name: "RainTest"
+author: "c0mpi1e(Carlos Cuello)"
+description: "None"
+releaseDate: "2004-08"
+attachments: []
+originalFilename: "rain_and_snow_fixed.zip"
+hash: "883839bec78f052ed283d67cb2017a77e4066109"
+fileSize: 55067
+files:
+- name: "RainTest.unr"
+  fileSize: 32250
+  hash: "c3c782c5242cf70abc9d209fba4b3937a22a0c4e"
+- name: "RainC225.u"
+  fileSize: 12113
+  hash: "b8cd01814c4e422fb5d05d9dcd6495e2fc66f9d5"
+- name: "rainT.utx"
+  fileSize: 37090
+  hash: "95c4881dfca056c15174fa9d2c8ddb5d1f658c39"
+- name: "KeekUT_fixedsnow.u"
+  fileSize: 49666
+  hash: "b7a7abb59dfcabf58af0c392ba557ad8bef51abe"
+otherFiles: 1
+dependencies:
+  RainC225.u:
+  - status: "OK"
+    name: "rainT"
+  RainTest.unr:
+  - status: "MISSING"
+    name: "RainC"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal/Maps/Unknown/R/8/8/3839be/rain_and_snow_fixed.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "RainTest"
+playerCount: "Unknown"
+themes: {}
+bots: false
