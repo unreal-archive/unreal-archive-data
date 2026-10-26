@@ -1,0 +1,36 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-26 19:04"
+game: "Unreal Tournament"
+name: "Vehicles"
+author: "SoulRaver"
+description: "None"
+releaseDate: "2008-02"
+attachments: []
+originalFilename: "Vehicles.7z"
+hash: "33519ba2939bc2267086b1146f628ac04518b2c9"
+fileSize: 429763
+files:
+- name: "U_Vehicles.u"
+  fileSize: 631457
+  hash: "3f584d8b3f76ed08c63ff5584902324d44c3e827"
+- name: "VehiclePhys.u"
+  fileSize: 326636
+  hash: "d552f4590e21945ef9781d17979f95bed22fc358"
+otherFiles: 1
+dependencies:
+  U_Vehicles.u:
+  - status: "OK"
+    name: "VehiclePhys"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/V/3/3/519ba2/Vehicles.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
