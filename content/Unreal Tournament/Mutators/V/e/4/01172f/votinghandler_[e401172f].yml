@@ -1,0 +1,41 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-26 19:06"
+game: "Unreal Tournament"
+name: "VotingHandler"
+author: ".:..: (v. 1.5)"
+description: "None"
+releaseDate: "2013-09"
+attachments:
+- type: "IMAGE"
+  name: "votinghandler_shot_e401172f_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Mutators/V/e/4/01172f/votinghandler_shot_e401172f_1.png"
+originalFilename: "VotingHandler.7z"
+hash: "e401172f216509f0007f425bf35fba60ea47a141"
+fileSize: 50286
+files:
+- name: "VotingHandler.u"
+  fileSize: 145904
+  hash: "0e1beff433a82f221ff8eae05f527548e1598190"
+- name: "VotingHandlerWeb.u"
+  fileSize: 29609
+  hash: "96c9142c02297678689614075a4c98a718bd4d1f"
+otherFiles: 3
+dependencies:
+  VotingHandlerWeb.u:
+  - status: "MISSING"
+    name: "UWebAdmin"
+  - status: "OK"
+    name: "VotingHandler"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/V/e/4/01172f/VotingHandler.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
