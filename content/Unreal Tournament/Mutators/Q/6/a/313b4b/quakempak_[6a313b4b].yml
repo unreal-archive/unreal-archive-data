@@ -1,0 +1,42 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-26 17:26"
+game: "Unreal Tournament"
+name: "QuakeMpak"
+author: "Unknown"
+description: "None"
+releaseDate: "2019-07"
+attachments: []
+originalFilename: "QuakeMpak.7z"
+hash: "6a313b4b10d481261b1c13aaa9ce40f746d28c25"
+fileSize: 928339
+files:
+- name: "Q1NailgunSnds.uax"
+  fileSize: 330920
+  hash: "669156541cd499e79acc3f32f6812972c9c37365"
+- name: "QuakeMPak.u"
+  fileSize: 1336735
+  hash: "8324e4e532b274f7b1027d750305f0706a6dab13"
+- name: "QuakeNailgun.u"
+  fileSize: 7555
+  hash: "b5564fd0df376e9b6632d25635a81b2ab5bda481"
+- name: "QuakeShotgun.u"
+  fileSize: 196295
+  hash: "6c2c5af71217d5fa751a66e61a86379204f7724b"
+otherFiles: 0
+dependencies:
+  QuakeNailgun.u:
+  - status: "OK"
+    name: "Q1NailgunSnds"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/Q/6/a/313b4b/QuakeMpak.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
