@@ -1,0 +1,37 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-26 18:38"
+game: "Unreal Tournament"
+name: "RtNP Multiplayer Fix"
+author: "Unknown"
+description: "Make Return to NaPali work properly in multiplayer co-op."
+releaseDate: "2010-12"
+attachments: []
+originalFilename: "UPakFix.7z"
+hash: "f2d9a727f2bf6307d7db865747cd65e7dfc39c2c"
+fileSize: 14358
+files:
+- name: "UPakFix.u"
+  fileSize: 46931
+  hash: "40e0c76c2b09d07611efdc263c35e7cb364d9abc"
+otherFiles: 3
+dependencies:
+  UPakFix.u:
+  - status: "MISSING"
+    name: "UPak"
+  - status: "MISSING"
+    name: "UDSDemo"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/R/f/2/d9a727/UPakFix.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "RtNP Multiplayer Fix"
+  description: "Make Return to NaPali work properly in multiplayer co-op."
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
