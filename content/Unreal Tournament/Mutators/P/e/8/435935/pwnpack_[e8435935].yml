@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-26 17:24"
+game: "Unreal Tournament"
+name: "PwnPack"
+author: "Gizzy\x99"
+description: "None"
+releaseDate: "2008-12"
+attachments: []
+originalFilename: "PwnPack.7z"
+hash: "e8435935863fb1be6776ef24ff9f7982c6548657"
+fileSize: 238916
+files:
+- name: "Pwn.u"
+  fileSize: 110244
+  hash: "9ca9abca54f5309cd3d47df5a7211b99ac90dd4f"
+- name: "PwnPackSounds.uax"
+  fileSize: 19373
+  hash: "2bb239192b73f12fd572a3ed7f03a9c6a36c331c"
+- name: "PwnPackTex.utx"
+  fileSize: 1462723
+  hash: "da859de38d69f660713e6fbe020d447139ba45bd"
+otherFiles: 2
+dependencies:
+  Pwn.u:
+  - status: "OK"
+    name: "PwnPackSounds"
+  - status: "OK"
+    name: "PwnPackTex"
+  - status: "MISSING"
+    name: "UTWeapons"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/P/e/8/435935/PwnPack.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators: []
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: false
