@@ -1,0 +1,43 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-11-09 02:14"
+game: "Unreal Tournament"
+name: "Shogo: Weapons"
+author: "Danoid"
+description: "Choose human/mech weapons and starting loadout in Mod > Shogo weapon\
+  \ settings."
+releaseDate: "2026-11"
+attachments:
+- type: "IMAGE"
+  name: "shogo-weapons_shot_99c973f5_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Mutators/S/9/9/c973f5/shogo-weapons_shot_99c973f5_1.png"
+originalFilename: "ShogoArsenal V2.zip"
+hash: "99c973f59ba854c44dff593e488f053039bee789"
+fileSize: 28148273
+files:
+- name: "ShogoFoot.u"
+  fileSize: 22048106
+  hash: "7acf7a5295e5071feb20276bac2dbb9eb800f338"
+- name: "ShogoMech.u"
+  fileSize: 19435157
+  hash: "c310896c14cdf47e017f0d53b6d1368ba0d60fa3"
+otherFiles: 17
+dependencies:
+  ShogoMech.u:
+  - status: "OK"
+    name: "ShogoFoot"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/S/9/9/c973f5/ShogoArsenal%20V2.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "Shogo: Weapons"
+  description: "Choose human/mech weapons and starting loadout in Mod > Shogo weapon\
+    \ settings."
+weapons: []
+vehicles: []
+hasConfigMenu: true
+hasKeybinds: false
