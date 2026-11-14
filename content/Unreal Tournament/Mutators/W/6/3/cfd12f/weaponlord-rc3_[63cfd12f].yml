@@ -1,0 +1,65 @@
+--- !<MUTATOR>
+contentType: "MUTATOR"
+firstIndex: "2026-10-29 14:02"
+game: "Unreal Tournament"
+name: "Weaponlord Rc3"
+author: "yours truly on the weapons"
+description: "None"
+releaseDate: "2002-12"
+attachments: []
+originalFilename: "weaponlord_rc3.zip"
+hash: "63cfd12f09d09cadd60ff271f9dfc534d9fdaed0"
+fileSize: 3158230
+files:
+- name: "WeaponLord.u"
+  fileSize: 1539215
+  hash: "e0a0b49495d899bc05286e28518f89e2762d326b"
+- name: "WeaponLordModels.u"
+  fileSize: 862684
+  hash: "178b05e843028d09c9c8a8998383f17f6bb6e6a2"
+- name: "WeaponLordSounds.u"
+  fileSize: 955215
+  hash: "2380b7a6d54e1eec8af53c4a74ef6aa46b8d6921"
+- name: "WeaponLordTextures.u"
+  fileSize: 3653903
+  hash: "beee4d30b35c1b23a0cb01349a037720de4e687e"
+otherFiles: 5
+dependencies:
+  WeaponLord.u:
+  - status: "OK"
+    name: "WeaponLordModels"
+  - status: "OK"
+    name: "WeaponLordTextures"
+  - status: "OK"
+    name: "WeaponLordSounds"
+  WeaponLordModels.u:
+  - status: "OK"
+    name: "WeaponLordTextures"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Mutators/W/6/3/cfd12f/weaponlord_rc3.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+mutators:
+- name: "WeaponLord - PulseRL Arena"
+  description: "Replaces all weapons with Pulse Rocket-Launchers"
+- name: "WeaponLord - Mortar Arena"
+  description: "Replaces all weapons with Mortar Cannons"
+- name: "WeaponLord - Riot Arena"
+  description: "Replaces all weapons with Riot Shotguns"
+- name: "WeaponLord - Hellbomber Arena"
+  description: "Replaces all weapons with Hellbombers"
+- name: "WeaponLord - Minishotgun Arena"
+  description: "Replaces all weapons with Minishotguns"
+- name: "WeaponLord - Devastator Arena"
+  description: "Replaces all weapons with Devastators"
+- name: "WeaponLord - Flamer Arena"
+  description: "Replaces all weapons with Flamers"
+- name: "WeaponLord - WeaponLord mute"
+  description: "Replaces items with WeaponLord classes"
+weapons: []
+vehicles: []
+hasConfigMenu: false
+hasKeybinds: true
