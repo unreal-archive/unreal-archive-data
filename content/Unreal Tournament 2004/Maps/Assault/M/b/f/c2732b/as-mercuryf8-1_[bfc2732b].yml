@@ -1,0 +1,78 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-11-14 19:44"
+game: "Unreal Tournament 2004"
+name: "AS-Mercury[F8-1]"
+author: "Socio/Coyotek"
+description: "This scenario recreates a lesser known event from the period of corporation\
+  \ wars. A night time assault of Izanagi corporations commando strike force on Liandri\
+  \ corporations tarydium mining station named Mercury on the planet Zeus VII. Mercury\
+  \ was, Liandris biggest tarydium mining depot connected directly with the main mine\
+  \ complex under Akrum mountain region via an underground high-speed rail road. The\
+  \ station shipped hundreds tons of tarydium daily and therefore was a great income\
+  \ for Liandri and salt in the eye for Izanagi. Using a seen once in 100 years meteo\
+  \ storm, that wrecked havoc to Mercurys communication system, Izanagi, sent its\
+  \ elite strike force, equipped with an powerfull, experimental Ex-T bomb to blow\
+  \ the mines and station up, crippling Liandri corporations strenght on planet Zeus\
+  \ VII."
+releaseDate: "2025-07"
+attachments: []
+originalFilename: "AS-MercuryF8-1.7z"
+hash: "bfc2732b72e4f3971db7a87f45af0ca0d55bd9b5"
+fileSize: 71644208
+files:
+- name: "AS-Mercury[F8-1].ut2"
+  fileSize: 28453802
+  hash: "537019bb9d69e6e84fe663c54a3452939019f1e4"
+- name: "Ambient.uax"
+  fileSize: 9748695
+  hash: "1de1f4510f6c4ab9bca0b92a272a79603838037b"
+- name: "RS-IndustryHW.usx"
+  fileSize: 1173832
+  hash: "eb76a9dec817d13d846536cdcd0c7ce1f0a0871d"
+- name: "SocMeshStash.usx"
+  fileSize: 92870
+  hash: "3e37b5efe241e84aa4f38470c72dd311652fd63a"
+- name: "HourIndusX_UT2004.utx"
+  fileSize: 84686246
+  hash: "ef3c5202fa28c69ffe0deef33336562df124956b"
+- name: "RS-IndustryTex.utx"
+  fileSize: 8937834
+  hash: "9fafdee70f04762dc159652677b5f48da38eda53"
+- name: "SocTextureStash.utx"
+  fileSize: 15387718
+  hash: "6e787abc4b8f94d1defd2a403de044f0c58cbb74"
+otherFiles: 0
+dependencies:
+  AS-Mercury[F8-1].ut2:
+  - status: "OK"
+    name: "SocMeshStash"
+  - status: "OK"
+    name: "RS-IndustryHW"
+  - status: "OK"
+    name: "RS-IndustryTex"
+  - status: "OK"
+    name: "HourIndusX_UT2004"
+  - status: "OK"
+    name: "SocTextureStash"
+  - status: "OK"
+    name: "Ambient"
+  RS-IndustryHW.usx:
+  - status: "OK"
+    name: "RS-IndustryTex"
+  SocMeshStash.usx:
+  - status: "OK"
+    name: "SocTextureStash"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament%202004/Maps/Assault/M/b/f/c2732b/AS-MercuryF8-1.7z"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Assault"
+title: "Mercury mining station"
+playerCount: "8-14"
+themes:
+  Industrial: 1.0
+bots: true
