@@ -1,0 +1,59 @@
+--- !<MAP>
+contentType: "MAP"
+firstIndex: "2026-10-25 20:55"
+variationOf: "b48e43916edad0dd9316adb9b64ecb01fb164459"
+game: "Unreal Tournament"
+name: "firetrucks_example"
+author: "ebd"
+description: "Welcome home!"
+releaseDate: "2014-06"
+attachments:
+- type: "IMAGE"
+  name: "firetrucks_example_shot_ac571d54_1.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Unknown/F/a/c/571d54/firetrucks_example_shot_ac571d54_1.png"
+- type: "IMAGE"
+  name: "firetrucks_example_shot_ac571d54_2.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Unknown/F/a/c/571d54/firetrucks_example_shot_ac571d54_2.png"
+- type: "IMAGE"
+  name: "firetrucks_example_shot_ac571d54_3.png"
+  url: "https://unreal-archive-img.s3.sgp.io.cloud.ovh.net/Unreal%20Tournament/Maps/Unknown/F/a/c/571d54/firetrucks_example_shot_ac571d54_3.png"
+originalFilename: "firetrucks_trashbag_combo_pack.zip"
+hash: "ac571d54638a18aecc19072049a40039c517bbd6"
+fileSize: 4095071
+files:
+- name: "firetrucks.u"
+  fileSize: 3398077
+  hash: "98307c3f1a4de927b431cfafcb3575837d358210"
+- name: "firetrucks_example.unr"
+  fileSize: 2634087
+  hash: "448061b5875954b2ae8056359bf7554bf11191ae"
+- name: "trashbag.u"
+  fileSize: 3040633
+  hash: "88b918391313179f6c374a2183f4fb53c5039195"
+otherFiles: 6
+dependencies:
+  trashbag.u:
+  - status: "OK"
+    name: "firetrucks"
+  firetrucks_example.unr:
+  - status: "MISSING"
+    name: "Emitter"
+  - status: "MISSING"
+    name: "Crater"
+  - status: "OK"
+    name: "firetrucks"
+downloads:
+- url: "https://unreal-archive-files-eu.s3.de.io.cloud.ovh.net/Unreal%20Tournament/Maps/Unknown/F/a/c/571d54/firetrucks_trashbag_combo_pack.zip"
+  direct: true
+  state: "OK"
+links: {}
+problemLinks: {}
+deleted: false
+gametype: "Unknown"
+title: "Brown Submarine"
+playerCount: "Unknown"
+themes:
+  Tech: 0.1
+  Skaarj Tech: 0.3
+  Ancient: 0.7
+bots: false
